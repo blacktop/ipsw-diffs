@@ -1,0 +1,60 @@
+## CoreDuetDaemonProtocol
+
+> `/System/Library/PrivateFrameworks/CoreDuetDaemonProtocol.framework/CoreDuetDaemonProtocol`
+
+```diff
+
+-1956.0.1.0.0
+-  __TEXT.__text: 0xdac sha256:576d1cd35aa28710b0402fc8d21160b4d200565cf8a37a869a45f57fed54a8b3
++1959.0.1.0.0
++  __TEXT.__text: 0xdac sha256:6b55fb7b630ef3d608c33e67eb55865c3aeccc1254dc58b3239364765cbe68b1
+   __TEXT.__const: 0x28 sha256:ec1dce5c5671fbfb750d1f7255ddd72e4154d195aab80f5eea577f4f22af1b7a
+   __TEXT.__gcc_except_tab: 0xa4 sha256:9c1b68a29002068ae20117b5dcd271b15ef88b80a697b946ae78164836c7823b
+   __TEXT.__cstring: 0x1b7 sha256:5bdbecf4967f7b8873835b8956cdb6b62ffa1cc98e032a7826bf95da7b604e27
+   __TEXT.__oslogstring: 0x63 sha256:a701c9587b9a39a6b8acad3330a702e959dd82df8f10e0ea7ea470ddf57aafd3
+   __TEXT.__dlopen_cstrs: 0x10c sha256:5a28fd9e47a321235296eb93037e43159e1213951418cf05fa97e347d4c11402
+-  __TEXT.__unwind_info: 0xa0 sha256:a7abff543a65a25c09b5fca8c95fa972cb1c53b5d90496d3eae26f9f34e31b99
++  __TEXT.__unwind_info: 0xa0 sha256:205f6b389977b4607fa30522a940d1b970b84627562d6320c7901c4a0b942fa0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_methname: 0x0
+-  __DATA_CONST.__const: 0xb8 sha256:7e98486ac15fc0b2587db121f8e0263f41163f5c26acb7540386384436f41cf9
++  __DATA_CONST.__const: 0xb8 sha256:93de6239a7d46bd416fed5c58a1addcbb7caa61cf0ddb6b49e5fc7d2e5f82b53
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x68 sha256:8deaa02ac1a4735eb7df1e024537949d9af5d3c794a6b724ce97e69ea2c79fd1
++  __DATA_CONST.__objc_selrefs: 0x68 sha256:3e531163feef7d382102fc19d16f77761edd4dd155152e1265ed200dad8ce28c
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x100 sha256:6a43bd01f3fdebce831871cdca9f282e54c8aed52b3b6706cc928876b990c2a3
++  __AUTH_CONST.__cfstring: 0x100 sha256:24393593f13f1159b49adf6d5827d4175afaa7adb1c0182e4b7df50e3414ad75
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA_DIRTY.__bss: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 043F26A6-DAA4-3742-87A5-9B18B2EE0C33
++  UUID: 0D657D5B-0BB9-3D96-9427-FD134362C417
+   Functions: 19
+   Symbols:   107
+   CStrings:  29
+Functions:
+~ __CDDCurrentActiveComplications : sha256 f38f2feea55026d8d72a33a8f99732a1e76d05ba14f7652645a04953d4b773f4 -> 4af2cab9bad05a7792a9a59646d21ada2df5aa6d02b5832ff5f94d09b7c73146
+~ ___Block_byref_object_dispose_ : sha256 12362b0a0e03f34e503c22814c085e2083e75334175152fdc7ab9a94e6bf84ee -> 3061a3d379d367bf76b86eb1ea8817c1b6d27c75c65d4aef153444bfd7d8fbab
+~ ____CDDCurrentActiveComplications_block_invoke : sha256 69a735a8f636abe2fa05f84979c13d501d855d85db9092377dc0608af57c39fa -> c422e16a67b4d25ee774d4857724b63148d7498583c8ea2ded028919fc4e2b23
+~ __CDDComplicationChangeNotificationString : sha256 9dcbb9353fc60a5361cc0c68aa823555f3bd61ea167f4b5d85d206ff1d0f0ba0 -> 274caf52f8abf1f66dd76fbca0642c4a8222da42fa6da5211a98e3eca489914c
+~ __CDDComplicationChangeOverCloudNotificationString : sha256 7134a8e390c1c04e14c5610237df2ce28c6735e21925529da5d99affbb5ef13d -> f0b1cec26f839abd8e487d8d76adec2e3e5721f2f720a7f67f49f00a39ebc078
+~ ___getNRPairedDeviceRegistryClass_block_invoke : sha256 96fd3eadb8f38d95406077a4ec43c6f47ffbb00ba4d88641f8f486a7fd5cfe10 -> fa416777d5d3c0786ea98445bb04795cac919e0fb7556417715781c3bf52a0b4
+~ _NanoRegistryLibraryCore : sha256 da12f72e067098df8ccecd3532ec2b946a05075fd23ad69cb025280db06f9866 -> c90a06cbb24809c16dc8882b8410b8d6269c6af57c2ec3a79be56578f12d1343
+~ ___NanoRegistryLibraryCore_block_invoke : sha256 28a0e9dba3d5416d5b05050f88b28a243bb51c5f00a2fb9356bd9fe84f37aa17 -> eeddecccf429910d974457b66933b4b5c4916c443ba6b675513b4f6ce8f1038f
+~ ___getACXDeviceConnectionClass_block_invoke : sha256 1bff9f694de3406a1bd467730940c3402f7a8e98b17930e9ed44f5efb9d291ed -> 99b0fe6afc1f91c2a95f4847016ec786312d76784cf67d5934c0577bf0dbf1f7
+~ ___AppConduitLibraryCore_block_invoke : sha256 0d3d956e22147bc804c6b058bb77059fe327fbfe94a30263e23db68fc60b9b22 -> e9d0a42db7ae9c1bbd56fcb8d44e8073d8c5771241c3ac8d6cc8e95855feb621
+~ ___getNRWatchOSVersionForRemoteDeviceSymbolLoc_block_invoke : sha256 4df357daa2bc81e892593dbab15ee00405f1fb4d4b68e3915cb8936446653a5f -> ee33d12186a644bdef62b11f11f84adeaef71a5e07e1fb598c8a011fb816b264
+~ _NanoRegistryLibrary : sha256 fe758064a29a767212e92134be8d2cf8489da1be80e7bfc406469a19bd426fe8 -> 7c8fa572263e08f9cc917510a8b2412c88d4d166d74e296539de12380acf2868
+~ ___getNRVersionIsGreaterThanOrEqualSymbolLoc_block_invoke : sha256 77ab6b0abfc034c02aa73a558f8a3221310642e50df8b8ed331e0560fc9cc58b -> 1411e16b727bfe5765c3b00408b4264a2773a123977e2da28f90b81ab5de2203
+~ ___getNPSDomainAccessorClass_block_invoke : sha256 bd90c8cf92e385701dc49d8e651fcad1e0148a2c8943d0f94823b65c78f4ddd9 -> 558a376aec3398a82d0ce5734b92b9a03a2556936a44242f48a6b1ea6e3642e9
+~ ___NanoPreferencesSyncLibraryCore_block_invoke : sha256 a68be012020f8a29046edbb975acfa414e46d83ddb872201aad455a495cd38e4 -> 1d8fc993e194667a3c370094ed4679da41ca03757154870b0d89bae198411537
+~ ____CDDCurrentActiveComplications_block_invoke.cold.1 : sha256 7d840f6205b436e3f9c4a01de18482c016b714e247c70fc82e77a038bb73ab40 -> 9cdfdae1b583e7bc160cd4a9eceab5897f9126ece95ab5f7c92874562337d46b
+~ ___getNPSDomainAccessorClass_block_invoke.cold.1 : sha256 633708679ac3ca0c39f481f9382cca1dfb50dafc5b4d7b72ed35241df4f80def -> 9fb44a575e51ba4e34926c4780c20dbaabbb9c1643412629306e1257ac70a368
+
+```

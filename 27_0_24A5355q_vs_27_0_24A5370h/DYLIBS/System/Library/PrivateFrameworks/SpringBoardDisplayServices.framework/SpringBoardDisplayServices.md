@@ -1,0 +1,378 @@
+## SpringBoardDisplayServices
+
+> `/System/Library/PrivateFrameworks/SpringBoardDisplayServices.framework/SpringBoardDisplayServices`
+
+```diff
+
+-34.0.0.0.0
+-  __TEXT.__text: 0xa534 sha256:275d67fa8800ed211e9082f52e8a28c46582a8e253f0d1989a3a147f21a3fb5e
+-  __TEXT.__objc_methlist: 0x518 sha256:b44be2d114a08c785d7af29b3f3ae8600c1bb4e5941d178dcae50bc067ee504a
+-  __TEXT.__const: 0x3e8 sha256:7d91afdfd7c0161e191b06382817ba1f6aee9ef92910f4c523e033e53965cc92
+-  __TEXT.__constg_swiftt: 0x2d4 sha256:0185ce1183e833cf7b7998ec9a149892e34e15a716082285647b6a3a26201563
+-  __TEXT.__swift5_typeref: 0x30a sha256:49ae00c16cb63386f1e52d2aa988830abe2a89595e2153639bb0d14e8eacd1c9
+-  __TEXT.__swift5_fieldmd: 0x1c8 sha256:62147dc5fe10352e769496357582a27af5c75c7cb39a61e4c509eba35f1126cb
+-  __TEXT.__swift5_builtin: 0x3c sha256:8a23f7d3772490548f41b82b0467b9c4efdbe338578b3ea3e567306b7b7636ab
+-  __TEXT.__swift5_reflstr: 0x7e sha256:c613e1493b7baaefce7c3da416650d5ddb35dd498e38d205d41a00c4142c10f4
+-  __TEXT.__swift5_types: 0x40 sha256:895cfc6397d525b08ffe0e08381f7b2f2dd9f85754a5839ede324bdbdb9b09a9
+-  __TEXT.__cstring: 0x55a sha256:174576beb311d3f976d301bf9a1ee865eecf01d906630fcdbd2dd82b56cb7287
+-  __TEXT.__swift5_capture: 0xec sha256:c73565c37af602ed8fb9e7008030d415c150d467b6370ae4c4a30634c57c207a
+-  __TEXT.__oslogstring: 0x1d4 sha256:4c5ea8eaa9e0287a420fce757d9219da4d84580e6cd8220126726523bf465535
+-  __TEXT.__swift5_proto: 0x8 sha256:60df44543411b43f92b78f20acb4d700f85e09300821edc8eab0b52bad34e6ab
+-  __TEXT.__swift_as_entry: 0x4 sha256:a0e596bd092c6519329fc00b4de66a9c5b785eaeb2bbfcefcb2bf800d138f915
+-  __TEXT.__swift_as_cont: 0x4 sha256:b219677f80bb9f1e94e68fda1d4f8fcd1ad80ce999242e5c5cf2049c51692932
+-  __TEXT.__unwind_info: 0x310 sha256:051d70e11394315689520950f6106854511341434bd3776c6e66aba000fb32d6
+-  __TEXT.__eh_frame: 0xf8 sha256:e2f2e70803f4e6a02e14ddfc98dcac91abd94003adc4d9cd0a8b82ac08e1a1df
++36.0.0.0.0
++  __TEXT.__text: 0x37f8 sha256:d7e66335b89d685d636f8e731aefe4f9a049611f123b3256cb2e124d229361c8
++  __TEXT.__objc_methlist: 0x74 sha256:d027319634bd123f83d7abffa6cf285e2658256c5e30eb17b9c0aed1ac33a8c8
++  __TEXT.__const: 0x1c8 sha256:ba006fc3906994f186dc3451d4a6bab7d95d303727db2d1809261bf034d93409
++  __TEXT.__constg_swiftt: 0xe8 sha256:c77227ecc21685a7f725c02015070c5d0299066d9e8a66eea65e35916e37d169
++  __TEXT.__swift5_typeref: 0xc9 sha256:783436a3143a1b212276953ae202c125d2318c28f8c8273ad30e9608bd20988a
++  __TEXT.__swift5_fieldmd: 0xa4 sha256:5b6bcbcd5972e53557391bb5a9de4d1a728babcc933643e2712e4ecc79143c12
++  __TEXT.__swift5_builtin: 0x3c sha256:9f8f2bf03f262d1abeb646bc9cef3114fe15e65ef83f031a11d30dbfd77d6dc6
++  __TEXT.__swift5_reflstr: 0x2c sha256:f74e0c908514726f7fad4a796cbae6d38006079eb1be23ee61f2ead752df9699
++  __TEXT.__swift5_types: 0x14 sha256:c6af61e0a488197ed7da9632e29fb4cb3afbc35b859810ebbdc966d7dcfcbc6e
++  __TEXT.__cstring: 0x1a6 sha256:0310bfbb084da85d70f8709bd60be2acaa44c7a55c734aa963bcf1cedc25d70b
++  __TEXT.__swift5_capture: 0xbc sha256:a847348af6bd85c7750dcb633c5358f7087cc308b4a0112be933204f735f9f4c
++  __TEXT.__oslogstring: 0xc3 sha256:54c0e093c1ca336bcf5685f919d63d567d430e02dcf8d1612b44969284eeae2f
++  __TEXT.__swift5_proto: 0x4 sha256:e174f5a7ce4ae2113934d1b48810d6db864d7a162a834c5200e8aa64d62e07f8
++  __TEXT.__swift_as_entry: 0x4 sha256:716dcbb0e2e6f8c52f5c2c25d02d46aa2662be9cc180d826e0f25fd4a2b3c8c4
++  __TEXT.__swift_as_cont: 0x4 sha256:27d01797a566a49643c819bf0b971abe0a18749715a45b457a1ceecb9940eef6
++  __TEXT.__unwind_info: 0x198 sha256:ea031ed3fef452708cbb4377f2514edbaeff00981e95f5487936ab10002571d0
++  __TEXT.__eh_frame: 0xe8 sha256:843c9d41e4b2c54eba429898ab3927485fab34e884bbec1dcb346ec088efecba
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x90 sha256:ccf7b0013376f60be826bc39418860efeb4dd9568a1e09e02479da8cf7a20245
+-  __DATA_CONST.__objc_classlist: 0x60 sha256:01cde4018940ad45ff884a3d95317b0d87dd348656096ac2d8533c3ad3f0f34e
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:b78dfdb5c52211b9acc5ec262030bf3348534aee1d9f4740536862f2e5a174fb
+-  __DATA_CONST.__objc_protolist: 0x60 sha256:36c875aef7bd0f8493e304b943a78b37b4edbe867a4637ad1eeb972ac43fa61d
++  __DATA_CONST.__const: 0x90 sha256:6599e093da59ea90ed9210ba948ace06273d8e44e4fad5a3f71f431f55e51996
++  __DATA_CONST.__objc_classlist: 0x10 sha256:3a602e660abaa0ca6f839a3a9289ca186e85ae2db81e15bad8ab42db322e025c
++  __DATA_CONST.__objc_catlist: 0x10 sha256:595a2e5e08e2410dc2820d8ad67c840c6ede1ac8d9b5060f9baa14daae50fbdd
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x368 sha256:6af3e9370a2aa2582dacc45f55d675a2ef4028b32616674e764e702a0f9c3595
+-  __DATA_CONST.__objc_protorefs: 0x38 sha256:2d9b7f471a1fa1cf15fa8d8e8452903fa68eee1a9e7899d5c070ebf39f91e847
++  __DATA_CONST.__objc_selrefs: 0x110 sha256:69a2b3a51698aa7d4b64b7be989574f4f3ae809a747e8f2e2e331851c1c351e9
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x638 sha256:9eca4327e520490202cf5f6be35e3bc91ca9745b2f8405672a092cf7fd8bfea6
+-  __AUTH_CONST.__objc_const: 0x1810 sha256:ebb3102e0428f9ea4c4ff4cf897b0a457c522b9849aef907fc6a6c19b21c86d0
+-  __AUTH_CONST.__auth_got: 0x4d0 sha256:0abe90866c4fbc89ae5b4512dde9df1c441a2f5923ee3e7932cf34532a6bf773
+-  __AUTH.__objc_data: 0x7b8 sha256:94c1c9e52abd83f3742a9602194448aea057c4516023e4a3b4968ca052a36a2b
+-  __AUTH.__data: 0x280 sha256:8afd5ad5b50656bae0244cfb5f20001cba34879d324ee45904e190368095ac8c
+-  __DATA.__data: 0x300 sha256:99e8099385a4580256d97c6c6348ca2f76905b17c5abc84f08f60f2e84f947fd
+-  __DATA.__common: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA.__bss: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+-  - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
++  __AUTH_CONST.__const: 0x400 sha256:3e0fa620edf37081bd28de63f59e7d4153b0b7691712872de513c5e6e9085c23
++  __AUTH_CONST.__objc_const: 0x1d0 sha256:f490666d39058e72031b844b1b21032d98b878aed03fd8af476b79f151196d45
++  __AUTH_CONST.__auth_got: 0x330 sha256:0645a4a67dcec462dc9f335bb0564e6e39bf12ea7e40cf8de81418210102c2d1
++  __AUTH.__objc_data: 0xb0 sha256:c58ad4960098fa59e7f42da1772d60da587930d5c495e743885e3f639fc9ba4a
++  __AUTH.__data: 0xc8 sha256:620fc3380cbbb2a9d3e319327c0474e60a6eb105e62802c59b672c01db5080a0
++  __DATA.__data: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
++  __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
++  __DATA.__bss: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+-  - /System/Library/PrivateFrameworks/FrontBoard.framework/FrontBoard
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/ShellSceneKit.framework/ShellSceneKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7304AD39-363F-3450-A951-D555DE58CA81
+-  Functions: 242
+-  Symbols:   539
+-  CStrings:  41
++  UUID: B45363EE-6281-3E5E-91A0-DA88079A0EDF
++  Functions: 111
++  Symbols:   269
++  CStrings:  14
+ 
+Symbols:
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.7
++ _block_copy_helper.12
++ _block_copy_helper.33
++ _block_copy_helper.43
++ _block_descriptor.14
++ _block_descriptor.35
++ _block_descriptor.45
++ _block_destroy_helper.13
++ _block_destroy_helper.34
++ _block_destroy_helper.44
++ _swift_retain_x23
++ _symbolic _____XDXMT 26SpringBoardDisplayServices25ContinuityProfileProvider33_38F618162F2ACFA1570534169F153AF0LLC
+- _CGRectEqualToRect
+- _CGRectNull
+- _OBJC_CLASS_$_FBSSceneComponent
+- _OBJC_CLASS_$_FBSSceneExtension
+- _OBJC_CLASS_$_FBSSceneSettings
+- _OBJC_CLASS_$_FBSSettingsExtension
+- _OBJC_CLASS_$_FBScene
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_UIScene
+- _OBJC_CLASS_$__TtC26SpringBoardDisplayServices20AppResizingExtension
+- _OBJC_CLASS_$__TtC26SpringBoardDisplayServices23KeyAppResizingExtension
+- _OBJC_CLASS_$__TtC26SpringBoardDisplayServices26AppResizingHiddenExtension
+- _OBJC_CLASS_$__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension13HostComponent
+- _OBJC_CLASS_$__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension15ClientComponent
+- _OBJC_CLASS_$__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension21HostSettingsExtension
+- _OBJC_CLASS_$__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension23ClientSettingsExtension
+- _OBJC_METACLASS_$_FBSSceneComponent
+- _OBJC_METACLASS_$_FBSSceneExtension
+- _OBJC_METACLASS_$_FBSSettingsExtension
+- _OBJC_METACLASS_$__TtC26SpringBoardDisplayServices20AppResizingExtension
+- _OBJC_METACLASS_$__TtC26SpringBoardDisplayServices23KeyAppResizingExtension
+- _OBJC_METACLASS_$__TtC26SpringBoardDisplayServices26AppResizingHiddenExtension
+- _OBJC_METACLASS_$__TtCC26SpringBoardDisplayServices20AppResizingExtensionP33_127233B141CF4D7217A90924D92E397513HostComponent
+- _OBJC_METACLASS_$__TtCC26SpringBoardDisplayServices20AppResizingExtensionP33_127233B141CF4D7217A90924D92E397515ClientComponent
+- _OBJC_METACLASS_$__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension13HostComponent
+- _OBJC_METACLASS_$__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension15ClientComponent
+- _OBJC_METACLASS_$__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension21HostSettingsExtension
+- _OBJC_METACLASS_$__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension23ClientSettingsExtension
+- _OBJC_METACLASS_$__TtCC26SpringBoardDisplayServices26AppResizingHiddenExtensionP33_CDC53E8DBF00A0DCF697BCB299851F4713HostComponent
+- __CLASS_METHODS__TtC26SpringBoardDisplayServices20AppResizingExtension
+- __CLASS_METHODS__TtC26SpringBoardDisplayServices23KeyAppResizingExtension
+- __CLASS_METHODS__TtC26SpringBoardDisplayServices26AppResizingHiddenExtension
+- __CLASS_METHODS__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension21HostSettingsExtension
+- __CLASS_METHODS__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension23ClientSettingsExtension
+- __DATA__TtC26SpringBoardDisplayServices20AppResizingExtension
+- __DATA__TtC26SpringBoardDisplayServices23KeyAppResizingExtension
+- __DATA__TtC26SpringBoardDisplayServices26AppResizingHiddenExtension
+- __DATA__TtCC26SpringBoardDisplayServices20AppResizingExtensionP33_127233B141CF4D7217A90924D92E397513HostComponent
+- __DATA__TtCC26SpringBoardDisplayServices20AppResizingExtensionP33_127233B141CF4D7217A90924D92E397515ClientComponent
+- __DATA__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension13HostComponent
+- __DATA__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension15ClientComponent
+- __DATA__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension21HostSettingsExtension
+- __DATA__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension23ClientSettingsExtension
+- __DATA__TtCC26SpringBoardDisplayServices26AppResizingHiddenExtensionP33_CDC53E8DBF00A0DCF697BCB299851F4713HostComponent
+- __INSTANCE_METHODS__TtC26SpringBoardDisplayServices20AppResizingExtension
+- __INSTANCE_METHODS__TtC26SpringBoardDisplayServices23KeyAppResizingExtension
+- __INSTANCE_METHODS__TtC26SpringBoardDisplayServices26AppResizingHiddenExtension
+- __INSTANCE_METHODS__TtCC26SpringBoardDisplayServices20AppResizingExtensionP33_127233B141CF4D7217A90924D92E397513HostComponent
+- __INSTANCE_METHODS__TtCC26SpringBoardDisplayServices20AppResizingExtensionP33_127233B141CF4D7217A90924D92E397515ClientComponent
+- __INSTANCE_METHODS__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension13HostComponent
+- __INSTANCE_METHODS__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension15ClientComponent
+- __INSTANCE_METHODS__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension21HostSettingsExtension
+- __INSTANCE_METHODS__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension23ClientSettingsExtension
+- __INSTANCE_METHODS__TtCC26SpringBoardDisplayServices26AppResizingHiddenExtensionP33_CDC53E8DBF00A0DCF697BCB299851F4713HostComponent
+- __IVARS__TtCC26SpringBoardDisplayServices20AppResizingExtensionP33_127233B141CF4D7217A90924D92E397513HostComponent
+- __IVARS__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension13HostComponent
+- __IVARS__TtCC26SpringBoardDisplayServices26AppResizingHiddenExtensionP33_CDC53E8DBF00A0DCF697BCB299851F4713HostComponent
+- __METACLASS_DATA__TtC26SpringBoardDisplayServices20AppResizingExtension
+- __METACLASS_DATA__TtC26SpringBoardDisplayServices23KeyAppResizingExtension
+- __METACLASS_DATA__TtC26SpringBoardDisplayServices26AppResizingHiddenExtension
+- __METACLASS_DATA__TtCC26SpringBoardDisplayServices20AppResizingExtensionP33_127233B141CF4D7217A90924D92E397513HostComponent
+- __METACLASS_DATA__TtCC26SpringBoardDisplayServices20AppResizingExtensionP33_127233B141CF4D7217A90924D92E397515ClientComponent
+- __METACLASS_DATA__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension13HostComponent
+- __METACLASS_DATA__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension15ClientComponent
+- __METACLASS_DATA__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension21HostSettingsExtension
+- __METACLASS_DATA__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension23ClientSettingsExtension
+- __METACLASS_DATA__TtCC26SpringBoardDisplayServices26AppResizingHiddenExtensionP33_CDC53E8DBF00A0DCF697BCB299851F4713HostComponent
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FBSSceneDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FBSSceneComponent
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FBSceneComponent
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FBSceneObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FBSSceneComponent
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FBSSceneDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FBSceneComponent
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FBSceneObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_REFS_FBSSceneComponent
+- __OBJC_$_PROTOCOL_REFS_FBSSceneDelegate
+- __OBJC_$_PROTOCOL_REFS_FBSceneComponent
+- __OBJC_$_PROTOCOL_REFS_FBSceneObserver
+- __OBJC_LABEL_PROTOCOL_$_FBSSceneComponent
+- __OBJC_LABEL_PROTOCOL_$_FBSSceneDelegate
+- __OBJC_LABEL_PROTOCOL_$_FBSceneComponent
+- __OBJC_LABEL_PROTOCOL_$_FBSceneObserver
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_FBSSceneComponent
+- __OBJC_PROTOCOL_$_FBSSceneDelegate
+- __OBJC_PROTOCOL_$_FBSceneComponent
+- __OBJC_PROTOCOL_$_FBSceneObserver
+- __OBJC_PROTOCOL_$_NSObject
+- __PROTOCOLS__TtCC26SpringBoardDisplayServices20AppResizingExtensionP33_127233B141CF4D7217A90924D92E397513HostComponent
+- __PROTOCOLS__TtCC26SpringBoardDisplayServices20AppResizingExtensionP33_127233B141CF4D7217A90924D92E397513HostComponent.4
+- __PROTOCOLS__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension13HostComponent
+- __PROTOCOLS__TtCC26SpringBoardDisplayServices23KeyAppResizingExtension13HostComponent.4
+- __PROTOCOLS__TtCC26SpringBoardDisplayServices26AppResizingHiddenExtensionP33_CDC53E8DBF00A0DCF697BCB299851F4713HostComponent
+- __PROTOCOLS__TtCC26SpringBoardDisplayServices26AppResizingHiddenExtensionP33_CDC53E8DBF00A0DCF697BCB299851F4713HostComponent.4
+- __PROTOCOL_INSTANCE_METHODS__TtPCC26SpringBoardDisplayServices23KeyAppResizingExtension21HostSettingsExtension8Settings_
+- __PROTOCOL_INSTANCE_METHODS__TtPCC26SpringBoardDisplayServices23KeyAppResizingExtension23ClientSettingsExtension8Settings_
+- __PROTOCOL_METHOD_TYPES__TtPCC26SpringBoardDisplayServices23KeyAppResizingExtension21HostSettingsExtension8Settings_
+- __PROTOCOL_METHOD_TYPES__TtPCC26SpringBoardDisplayServices23KeyAppResizingExtension23ClientSettingsExtension8Settings_
+- __PROTOCOL_PROPERTIES__TtPCC26SpringBoardDisplayServices23KeyAppResizingExtension21HostSettingsExtension8Settings_
+- __PROTOCOL_PROPERTIES__TtPCC26SpringBoardDisplayServices23KeyAppResizingExtension23ClientSettingsExtension8Settings_
+- __PROTOCOL__TtPCC26SpringBoardDisplayServices23KeyAppResizingExtension21HostSettingsExtension8Settings_
+- __PROTOCOL__TtPCC26SpringBoardDisplayServices23KeyAppResizingExtension23ClientSettingsExtension8Settings_
+- ___swift__destructor
+- ___swift_closure_destructor.16
+- ___swift_closure_destructor.22
+- ___swift_closure_destructor.28
+- ___swift_closure_destructor.34
+- ___swift_closure_destructor.46
+- ___swift_closure_destructor.49
+- ___swift_closure_destructor.8
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_memcpy64_8
+- __swiftEmptyDictionarySingleton
+- __swiftEmptySetSingleton
+- _block_copy_helper.10
+- _block_copy_helper.13
+- _block_copy_helper.18
+- _block_copy_helper.24
+- _block_copy_helper.26
+- _block_copy_helper.30
+- _block_copy_helper.36
+- _block_copy_helper.4
+- _block_copy_helper.42
+- _block_copy_helper.51
+- _block_descriptor.12
+- _block_descriptor.15
+- _block_descriptor.20
+- _block_descriptor.26
+- _block_descriptor.28
+- _block_descriptor.32
+- _block_descriptor.38
+- _block_descriptor.44
+- _block_descriptor.53
+- _block_descriptor.6
+- _block_destroy_helper.11
+- _block_destroy_helper.14
+- _block_destroy_helper.19
+- _block_destroy_helper.25
+- _block_destroy_helper.27
+- _block_destroy_helper.31
+- _block_destroy_helper.37
+- _block_destroy_helper.43
+- _block_destroy_helper.5
+- _block_destroy_helper.52
+- _bzero
+- _flat unique So16FBSSceneDelegate_p
+- _objc_msgSend$_allWindows
+- _objc_msgSend$_synchronizedDrawingFence
+- _objc_msgSend$addExtension:
+- _objc_msgSend$animationFence
+- _objc_msgSend$clientScene
+- _objc_msgSend$componentForExtension:ofClass:
+- _objc_msgSend$containsProperty:
+- _objc_msgSend$delegate
+- _objc_msgSend$description
+- _objc_msgSend$displayBounds
+- _objc_msgSend$frame
+- _objc_msgSend$isValid
+- _objc_msgSend$level
+- _objc_msgSend$matchesProperty:
+- _objc_msgSend$previousSettings
+- _objc_msgSend$resizingDisplayConfiguration
+- _objc_msgSend$sb_sceneBoundsDidChange
+- _objc_msgSend$setAnimationFence:
+- _objc_msgSend$setDefaultValue:
+- _objc_msgSend$setDisplayBounds:
+- _objc_msgSend$setLevel:
+- _objc_msgSend$setResizingDisplayConfiguration:
+- _objc_msgSend$settings
+- _objc_msgSend$settingsDiff
+- _objc_msgSend$transitionContext
+- _objc_msgSend$updateClientSettings:
+- _objc_release_x27
+- _objc_release_x9
+- _objc_retain_x20
+- _objc_retain_x22
+- _objc_retain_x28
+- _objc_retain_x8
+- _objc_retain_x9
+- _swift_beginAccess
+- _swift_deallocUninitializedObject
+- _swift_dynamicCast
+- _swift_dynamicCastClassUnconditional
+- _swift_dynamicCastObjCClass
+- _swift_dynamicCastObjCProtocolConditional
+- _swift_endAccess
+- _swift_getObjCClassFromMetadata
+- _swift_release_x19
+- _swift_release_x24
+- _swift_release_x27
+- _swift_release_x28
+- _swift_retain_x19
+- _swift_retain_x22
+- _swift_retain_x24
+- _swift_unknownObjectRelease
+- _symbolic $s26SpringBoardDisplayServices23KeyAppResizingExtensionC012HostSettingsH0C0J0P
+- _symbolic $s26SpringBoardDisplayServices23KeyAppResizingExtensionC014ClientSettingsH0C0J0P
+- _symbolic SDySo7FBSceneC_____G 12CoreGraphics7CGFloatV
+- _symbolic Sb
+- _symbolic ShySo7FBSceneCG
+- _symbolic So17FBSSceneComponentC
+- _symbolic So17FBSSceneExtensionC
+- _symbolic So20FBSSettingsExtensionC
+- _symbolic So23BKSAnimationFenceHandleCSg
+- _symbolic So23FBSDisplayConfigurationCSg
+- _symbolic So29FBSMutableSceneClientSettingsCSo25FBSSceneTransitionContextCIggg_
+- _symbolic So8NSObjectC
+- _symbolic _____ 26SpringBoardDisplayServices13ResizingStateV
+- _symbolic _____ 26SpringBoardDisplayServices20AppResizingExtensionC
+- _symbolic _____ 26SpringBoardDisplayServices20AppResizingExtensionC13HostComponent33_127233B141CF4D7217A90924D92E3975LLC
+- _symbolic _____ 26SpringBoardDisplayServices20AppResizingExtensionC15ClientComponent33_127233B141CF4D7217A90924D92E3975LLC
+- _symbolic _____ 26SpringBoardDisplayServices23KeyAppResizingExtensionC
+- _symbolic _____ 26SpringBoardDisplayServices23KeyAppResizingExtensionC012HostSettingsH0C
+- _symbolic _____ 26SpringBoardDisplayServices23KeyAppResizingExtensionC014ClientSettingsH0C
+- _symbolic _____ 26SpringBoardDisplayServices23KeyAppResizingExtensionC13HostComponentC
+- _symbolic _____ 26SpringBoardDisplayServices23KeyAppResizingExtensionC15ClientComponentC
+- _symbolic _____ 26SpringBoardDisplayServices26AppResizingHiddenExtensionC
+- _symbolic _____ 26SpringBoardDisplayServices26AppResizingHiddenExtensionC13HostComponent33_CDC53E8DBF00A0DCF697BCB299851F47LLC
+- _symbolic _____Sg 26SpringBoardDisplayServices13ResizingStateV
+- _symbolic ______pSg So16FBSSceneDelegateP
+- _symbolic _____ySo7FBSceneCG s11_SetStorageC
+- _symbolic _____ySo7FBSceneC_____G s18_DictionaryStorageC 12CoreGraphics7CGFloatV
+- _symbolic _____z_Xx 26SpringBoardDisplayServices13ResizingStateV
+- _type_layout_string 26SpringBoardDisplayServices13ResizingStateV
+CStrings:
++ "%s: transforming display"
++ "continuity dnd: transforming display"
++ "mainScene: transforming display %s"
+- "%s %s"
+- "; isResizeActive: "
+- "Could not resolve ClientSettingsExtension"
+- "Could not resolve HostSettingsExtension"
+- "Could not resolve scene"
+- "Couldn't resolve host component"
+- "Delegate not what we wanted. Windows will not resize: %s"
+- "Failed to retrieve client settings for extension: "
+- "Fatal error"
+- "Hiding %s"
+- "No fallbackBounds set before client settings updated"
+- "No settings for update: "
+- "Not tracking hidden scene's level: "
+- "Received settings update for %s;\nframe: %s\ndisplay: %s"
+- "Resizing windows for: %s"
+- "SpringBoardDisplayServices/AppResizingExtension.swift"
+- "SpringBoardDisplayServices/AppResizingHiddenExtension.swift"
+- "SpringBoardDisplayServices/FBScene+AppResizing.swift"
+- "SpringBoardDisplayServices/KeyAppResizingExtension.swift"
+- "Unhiding %s"
+- "Updating %s displayConfiguration bounds and frame to %s"
+- "already tracking hidden scene: "
+- "called multiple times. have: "
+- "mainScene: adding AppResizingExtension"
+- "mainScene: adding KeyAppResizingExtension"
+- "mainScene: setting fallback bounds %s"
+- "not tracking supposedly hidden scene: "
+- "resizingState not configured at time of addResizedScene for "
+- "trying to set trackedBounds before fully configured"
+- "unexpected scene type "
+
+```

@@ -1,0 +1,70 @@
+## HealthSafety
+
+> `/System/Library/AccessibilityBundles/HealthSafety.axbundle/HealthSafety`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x278 sha256:2d6b7afadfa75624399d3faffd76810e3605b1dad6f00c2c01b052c5feb05d09
+-  __TEXT.__objc_methlist: 0xb8 sha256:c3fdcbe8e5bf08d4d919dbf25a849576964f210b00acaef325ccfda47d3cc289
++3039.1.0.0.0
++  __TEXT.__text: 0x278 sha256:7738fcbe945a29d355d5a0bc0dd90de6dc8c1c9d913e3a350ead4910486a4f1d
++  __TEXT.__objc_methlist: 0xb8 sha256:adccd6f2671470d76c61ab01038ac3ec73a004c4f1e17a97628dabacbdbee7da
+   __TEXT.__cstring: 0x162 sha256:b34fc12c6a4fbe82e8c905e1940b963983c54ae0c799dc78e0cbf4d0a9947624
+   __TEXT.__unwind_info: 0x78 sha256:609297c5e338d6fd32b0610df0a012b90c577a98264c481dff9b167d2bc6f372
+   __TEXT.__objc_stubs: 0x0
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x40 sha256:8791fabaf49829c0b1a2430221436e1753fa3abae9d52c56b30e79930a946833
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:7f288d5f0c9f094a6b0b32bda8cb8574b0a352b725e773b4e524c27dc2e77f24
++  __DATA_CONST.__const: 0x40 sha256:1bb9167f1892031f35c6f34f7c6bcec3b132bad265d2fd8668748d4d8a4d077c
++  __DATA_CONST.__objc_classlist: 0x28 sha256:b6affda4a14ddaaf09af411eb84102c85cfb49200f3040ee50973e3c98b5598c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x78 sha256:28a036cd8392c6cab98eca7a2c82d9e1d91a0a16bbb8f86133ca49f246bdd3ae
+-  __DATA_CONST.__got: 0x28 sha256:d69a558e207d08f8f4d1af4018e5695f072e49695e0ed27c079bb9b67894866a
+-  __AUTH_CONST.__const: 0x60 sha256:d1c2964d4a2d18e710fee228aab31aed86b9875b9ea52231e00dfc7820f488d5
+-  __AUTH_CONST.__cfstring: 0x140 sha256:35a5a6060739d96a16a78baf6945a1af5fb2d9c636e1f7298e7fdbde751e32c0
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:45d8fdfd929dae70735a05e2b71cb18b8a0990d2b00044d057c8c8ae7c8e63b5
++  __DATA_CONST.__objc_selrefs: 0x78 sha256:cf097399d6e2541be5a780ae93674adcbd698ef3fbe55f43e0932f02bc101294
++  __DATA_CONST.__got: 0x28 sha256:805d42fa5fdb88739e71d81202289c6af4bba118af81b5ab51835679cba43aa1
++  __AUTH_CONST.__const: 0x60 sha256:3e9d1104ec1bc6693211edc9dd80e06bd8a6d5f2965d4902f2a48ae4140b7922
++  __AUTH_CONST.__cfstring: 0x140 sha256:90641942ad4a9b9ce104faa37ea7688175d30d2e2d53c578f90a1926a98823c2
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:21959fcf0bb2aa77da394e60cac6215731a22cc636c248ba9bf40a57b63f525a
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:e403ed45baccb2f8c3c9f148ca5037a5c640a714e9afecdb17697f131a2a1bb0
++  __DATA_DIRTY.__objc_data: 0x190 sha256:f11a634f802129e22c8c8a947a74b1c257f7378f4cc1c2abaa0e57ee2e2511d6
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 64315AC9-D122-35D3-A919-E5F8DCBE0335
++  UUID: 624F8104-262F-366B-90FC-19B485D5DCF0
+   Functions: 15
+   Symbols:   92
+   CStrings:  21
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ +[AXHealthSafetyGlue accessibilityInitializeBundle] : sha256 a80eec5be8caabd4389714eaac35b94aa6ebc86cf3863adca2186190a17efa76 -> 513caa2941c6930468d97f00884cb6cbed45c989749f8aa2abde60a8c5b4ccf2
+~ ___51+[AXHealthSafetyGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 4af90a3e52a0879efab92a274372ad5ae04af8577e54c1b0f7d8b9c6917f0264 -> 0a97526ad59cd36d0e363b7842faad09da87c2e9e6581c65337f5492042f83fb
+~ ___51+[AXHealthSafetyGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 cb14029a1d7c22c1c471a44ba51ff6305238f2a831b5434a7e07e9cb1e491f16 -> 6c65167f2b57f6ea628df7755ee77ebf90dd6ba1cea0172139fc17466f1c49da
+~ _accessibilityLocalizedString : sha256 31228609a328f498b942e4788429327bed1e95cd495790bd7ac4f961c95eddbe -> 5ea1b40b3edf723f657108b1555b0f4dabfe3229fbef7ac913042895aa279fda
+~ +[WatchAnimationSpecifierViewControllerCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 f9c4f113716977e5224d61f951d3b0000695327b4016d814f839d3150615ffce -> d15e1831baa6df375da725fd55303d005dce1357b252a2f34848c2347b264b9b
+~ +[WatchAnimationSpecifierViewControllerCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 de013974a4f785796fd8e7bd4b4041bf22a407553071d28db78b279c16b54e0c -> 5d77cc733e49b55035f4acfa319e7819296a6bc8392562ed234d94a2c1ab1dbd
+~ -[WatchAnimationSpecifierViewControllerCellAccessibility accessibilityLabel] : sha256 9fcdff202adafc6a62a7f8ec715cdf0b4cb987d9b6c4407914aa2141d95bf17a -> 93703b193d5f69a7cf6ed7f6c083fe0880e2ff413afe8f2ee1a3b223e07074a7
+~ -[WatchAnimationSpecifierViewControllerCellAccessibility accessibilityTraits] : sha256 fb74dbc4dd87db4984c4d550f657290f8e6a15a61e5d13b49b38223662d3c6d7 -> a0ee124bc9d203a65e7ae69a191030c03890acac701ecd6ed5ccc54af59be69e
+~ +[PhoneAnimationSpecifierViewControllerCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 2b8af282812e164658beb9f92931c5f64daa356dfaf87e37cddbf2112eb4cb40 -> c9957f7502ee68c91b9300702631c3bf1e1dbfcdc8f820c6bda498cbafd49d7e
+~ +[PhoneAnimationSpecifierViewControllerCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d05a23cd5329ca087ef024fb86de963e7627cbb5b9dc1d6825abbc12d6fa50e1 -> 8be3639da352e19e193d3aab7d51e006eff58893dc5e67d7028e570ac7038ab1
+~ -[PhoneAnimationSpecifierViewControllerCellAccessibility accessibilityLabel] : sha256 94cb4399c87debae0d0a6fd41e73eafd3c7564a9d179cc72101a703708b9df1c -> 81068a46068e37d6bc692ad4341e811955cdfb4f89a4c67c054ff862da502ab7
+~ -[PhoneAnimationSpecifierViewControllerCellAccessibility accessibilityTraits] : sha256 fb74dbc4dd87db4984c4d550f657290f8e6a15a61e5d13b49b38223662d3c6d7 -> a0ee124bc9d203a65e7ae69a191030c03890acac701ecd6ed5ccc54af59be69e
+
+```

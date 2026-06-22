@@ -1,0 +1,99 @@
+## AppleSARHelper
+
+> `/System/Library/PrivateFrameworks/AppleSARHelper.framework/AppleSARHelper`
+
+```diff
+
+-1563.0.0.0.0
+-  __TEXT.__text: 0x4b84 sha256:3bb7aa61d460b4843a22594bf7e4e73412e2678b44e7fb405110c2bdc4e4df13
+-  __TEXT.__init_offsets: 0x4 sha256:ebe4200e2a997659ce669039930ecbb391d347f84fa0fbdfe3440d12d137cb1f
++1570.0.0.0.0
++  __TEXT.__text: 0x4c08 sha256:8eb15d9551b01e6af50ec769efaed250265b43428235f7703abc1e6c13588ce2
++  __TEXT.__init_offsets: 0x4 sha256:854bd3e953f7faa3a17481871b76643b223b6ee5d9b63af9df1063bc56cbcb89
+   __TEXT.__const: 0xf0 sha256:fa4ba7998f7d71c54096b7024026d3285b360a759d31571bf35033d20ea5e2f1
+-  __TEXT.__cstring: 0x6ee sha256:aa2a591e81b67190da04ef8e750909f7f6d7702df7ba1e3ba9ba76d743ff866b
+-  __TEXT.__gcc_except_tab: 0x25c sha256:2376f4d3920b9e5027f345e2819880ea8f0db1542fb82c421bb4fa18446aab89
++  __TEXT.__cstring: 0x78f sha256:941339f01dff2e0d01e3465cc0a61254368c017f467571a5d2756852c420e8e1
++  __TEXT.__gcc_except_tab: 0x25c sha256:d4094bed80cb0de1e07f5689993943de2dbebb99dea87879f5cf977694a0fdcb
+   __TEXT.__oslogstring: 0x2cb sha256:69bf4c39f1dc73190309555e105ee1a01ba3c586c385b35674b280ca29fec628
+-  __TEXT.__unwind_info: 0x1e8 sha256:030b6b0c5f89af0525e9d65c8d5b06ac135c43c39a0e6b00cccea85178f253d5
++  __TEXT.__unwind_info: 0x1e0 sha256:77dc8770bc414918b7e34c4a13a0344dfba13973ace75ad7333b30fe73c9623c
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0xa70 sha256:e63f0440704535e6d06eb20b45f0850b29b8a88cd0fab67e40fd9ff5bdc7a54c
+-  __DATA_CONST.__weak_got: 0x28 sha256:88c7c63b737bfa670c98e4363b3f3c861dbcc4fb04896b96e5947dce9ca51560
++  __DATA_CONST.__const: 0xbd8 sha256:287ec49dd4391aafc0852e65e901262fbd9d2be1ea79873f1655bed62bd1e137
++  __DATA_CONST.__weak_got: 0x28 sha256:9ca8e4fa4f041f5285c153cea17c6a2f59abb9ea053f84ffc4780aac909cb382
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xc0 sha256:329009a175e35a787a49a49e7ba90e0540b63eee812319fef8ebb9e1fe00348d
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:290149e422ec40b0273600157a594a1152f2acf9916597016a24319850a9d2db
++  __AUTH_CONST.__const: 0xc0 sha256:9b81bf2954f0e9edb06c1dcb558ab0a2d63d6c38c459d6b9c3ccb12fbcef19a1
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:16d48afe2d513063a6e0119d2076e9337577d960dbdb68166dd7f58bdd236fd1
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__data: 0x450 sha256:e668dee74b2d07a09cc1cbe3dee45e438e9ea5ed4f1453b48c910cf6f7d236c0
+   __DATA.__bss: 0x400 sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: CD06CB6E-D4C3-39DB-ADAD-6947DE5CF40C
+-  Functions: 99
+-  Symbols:   260
+-  CStrings:  160
++  UUID: E62292D1-463D-3EB2-BF5B-95729B237400
++  Functions: 102
++  Symbols:   266
++  CStrings:  173
+ 
+Symbols:
++ __ZN3sar8toStringENS_16DeltaAngleBucketE
++ __ZN3sar8toStringENS_17UEFacingDirectionE
++ __ZN3sar8toStringENS_21FDDistanceDeltaBucketE
++ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB9noe220106IPN14AppleSARHelper21PTDRegistrationConfigES6_S6_EENS_4pairIT_T1_EES8_T0_S9_
++ __ZNSt12length_errorC1B9noe220106EPKc
++ __ZNSt3__110shared_ptrI14AppleSARHelperED1B9noe220106Ev
++ __ZNSt3__110unique_ptrI14AppleSARHelperNS_14default_deleteIS1_EEED2B9noe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjNS_6vectorIN14AppleSARHelper21PTDRegistrationConfigENS_9allocatorIS5_EEEEEEPvEENS_22__hash_node_destructorINS6_ISB_EEEEED1B9noe220106Ev
++ __ZNSt3__112__destroy_atB9noe220106INS_4pairIKjNS_6vectorIN14AppleSARHelper21PTDRegistrationConfigENS_9allocatorIS5_EEEEEEEEvPT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9noe220106Ev
++ __ZNSt3__113unordered_mapIjNS_6vectorIN14AppleSARHelper21PTDRegistrationConfigENS_9allocatorIS3_EEEENS_4hashIjEENS_8equal_toIjEENS4_INS_4pairIKjS6_EEEEED2B9noe220106Ev
++ __ZNSt3__120__throw_length_errorB9noe220106EPKc
++ __ZNSt3__125__throw_bad_function_callB9noe220106Ev
++ __ZNSt3__16vectorIN14AppleSARHelper21PTDRegistrationConfigENS_9allocatorIS2_EEE20__throw_length_errorB9noe220106Ev
++ __ZNSt3__16vectorIN14AppleSARHelper21PTDRegistrationConfigENS_9allocatorIS2_EEED2B9noe220106Ev
++ __ZNSt3__16vectorIN8dispatch5blockIU13block_pointerFvPyjEEENS_9allocatorIS6_EEE20__throw_length_errorB9noe220106Ev
++ __ZNSt3__16vectorIN8dispatch5blockIU13block_pointerFvPyjEEENS_9allocatorIS6_EEED2B9noe220106Ev
++ __ZSt28__throw_bad_array_new_lengthB9noe220106v
++ __ZZN3sar8toStringENS_16DeltaAngleBucketEE7entries
++ __ZZN3sar8toStringENS_17UEFacingDirectionEE7entries
++ __ZZN3sar8toStringENS_21FDDistanceDeltaBucketEE7entries
+- __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB9noe220100IPN14AppleSARHelper21PTDRegistrationConfigES6_S6_EENS_4pairIT_T1_EES8_T0_S9_
+- __ZNSt12length_errorC1B9noe220100EPKc
+- __ZNSt3__110shared_ptrI14AppleSARHelperED1B9noe220100Ev
+- __ZNSt3__110unique_ptrI14AppleSARHelperNS_14default_deleteIS1_EEED2B9noe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjNS_6vectorIN14AppleSARHelper21PTDRegistrationConfigENS_9allocatorIS5_EEEEEEPvEENS_22__hash_node_destructorINS6_ISB_EEEEED1B9noe220100Ev
+- __ZNSt3__112__destroy_atB9noe220100INS_4pairIKjNS_6vectorIN14AppleSARHelper21PTDRegistrationConfigENS_9allocatorIS5_EEEEEEEEvPT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9noe220100Ev
+- __ZNSt3__113unordered_mapIjNS_6vectorIN14AppleSARHelper21PTDRegistrationConfigENS_9allocatorIS3_EEEENS_4hashIjEENS_8equal_toIjEENS4_INS_4pairIKjS6_EEEEED2B9noe220100Ev
+- __ZNSt3__120__throw_length_errorB9noe220100EPKc
+- __ZNSt3__125__throw_bad_function_callB9noe220100Ev
+- __ZNSt3__16vectorIN14AppleSARHelper21PTDRegistrationConfigENS_9allocatorIS2_EEE20__throw_length_errorB9noe220100Ev
+- __ZNSt3__16vectorIN14AppleSARHelper21PTDRegistrationConfigENS_9allocatorIS2_EEED2B9noe220100Ev
+- __ZNSt3__16vectorIN8dispatch5blockIU13block_pointerFvPyjEEENS_9allocatorIS6_EEE20__throw_length_errorB9noe220100Ev
+- __ZNSt3__16vectorIN8dispatch5blockIU13block_pointerFvPyjEEENS_9allocatorIS6_EEED2B9noe220100Ev
+- __ZSt28__throw_bad_array_new_lengthB9noe220100v
+CStrings:
++ "-10..0 from Min"
++ "0-100mm Closer"
++ "0-100mm Further"
++ "0..+10 from Max"
++ "<-10 from Min"
++ ">+10 from Max"
++ ">100mm Closer"
++ ">100mm Further"
++ "Face Down"
++ "Face Up"
++ "Within Range"
++ "kMax"
++ "|MIC"
+
+```

@@ -1,0 +1,45 @@
+## PowerSubscriber
+
+> `/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/PowerSubscriber.xpc/PowerSubscriber`
+
+```diff
+
+-621.0.0.502.1
+-  __TEXT.__text: 0x6fc sha256:ed1354d1152dee955e27f2403c74223fd398dbf025fab3f02d79d6185553df80
++624.0.3.0.0
++  __TEXT.__text: 0x6f8 sha256:df8826242ca9fad9359d3b2e14b64996f24f3b1184e750f6df770f26b6c2e248
+   __TEXT.__auth_stubs: 0x160 sha256:368551bd584e1a1b77b6765589c15ff6373317b83cd3a049f79431ad08abc22c
+   __TEXT.__objc_stubs: 0x2a0 sha256:6027baa8469c477c62fcb7e4987a8bbed9c09bc1fbc17128f50a75dd56ea3988
+-  __TEXT.__objc_methlist: 0x1a4 sha256:85a279914651aae957dc9405f143d7bb0b00074d857cb52e7fe4cf21c2b76591
++  __TEXT.__objc_methlist: 0x1a4 sha256:b3f25ee4433f3a937810b6204e8f1066153096029c520ed684ec96402648d1bd
+   __TEXT.__const: 0x58 sha256:e862ea8f4ca3e1cad88ddb6201c3701dafb32443e6282065029d84982d5de8f7
+   __TEXT.__cstring: 0x4a sha256:b17ee254701b585c6038595a68e5b89e610c619696c9f94b3aa2dec52c4817f9
+   __TEXT.__objc_classname: 0x40 sha256:a570cabf3fa8e354a64891746df0dc23aaca2b9451d2224f5a0121535990e1c2
+   __TEXT.__objc_methname: 0x387 sha256:83dd1627c8153f575db4ac54869db8eb4bdb4ec85db5630d35a8331ddf1a76a8
+   __TEXT.__objc_methtype: 0x133 sha256:5122fdc940b3786bf14c9ddfad710943f3ff9cc2218afad55a0f2f42e121f4cd
+   __TEXT.__oslogstring: 0xc0 sha256:05b72b9f4c3cef55af9fd302696314ea34e40dfefbca59946a64ee5941cdfe65
+-  __TEXT.__unwind_info: 0x78 sha256:6c81ca2dd7fdfe60f993136f6034881a74feffbd661aa4889a26f5baaa31a281
++  __TEXT.__unwind_info: 0x78 sha256:898c00d3e8e92d4aefe72ea131886af915dd6a36e346fffa095d18734231e8f1
+   __DATA_CONST.__const: 0x68 sha256:f939a5fa8e55ad61cdf0d5a818a73e6a7aa45cdf40887766b971d1a4f9a9c5eb
+   __DATA_CONST.__cfstring: 0x20 sha256:28ca88487acddab56ee5160601739160336cee237889a4348f51d9928d204283
+   __DATA_CONST.__objc_classlist: 0x8 sha256:bfe7f20f61020b601c25f56cb890dfade52403b75698f2ada7314cce0b8bf153
+
+   - /System/Library/PrivateFrameworks/RemoteManagementStore.framework/RemoteManagementStore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0CB136ED-98FC-3360-B07A-1C97F0F552A1
++  UUID: FD46FEE6-DA5B-32EB-B7F6-89ED2D66ED81
+   Functions: 14
+   Symbols:   49
+   CStrings:  82
+Functions:
+~ _main : sha256 5196a9c7d8e424fc327d452f260fcdebb4abfbb9b7c7a73aacf98736570c8fbe -> a266cd125339373c5663c8816c8130467311bc903a17d9188ff86b68d6e48894
+~ sub_100000de8 : sha256 84c36f24bcb407e3d9c15223da662410318964ed947dc64a2c36d2e93d9ba01a -> e5242833a6f962b35485f6d2f3a0eb340d625a5877c961c4c5ac88c81c777211
+~ sub_100000e2c : sha256 68d40f38b9f3fa54288e6e7d4e77d8986b2cfb7d02108e3846b4fa054979a286 -> 66af7eb11795648d90d4f9ce486706d31681be24cca82b2810e4b4f8d9c81bcf
+~ sub_100000e70 : sha256 6666f08816fd26aedad438a38994351c29745b79a408d5ed1e081a30f7f19817 -> dbba3313a16ce88001da6b9fe78058ad9dfa1db403561e3f8d213c85680b36e7
+~ sub_100000f20 : 580 -> 576
+~ sub_100001164 -> sub_100001160 : sha256 a316d21175d3d7035f3857901d20e93fa5c13832e4bc6fa01b61bf417ebd6352 -> 6cf347d9325771c646c01cce0b57ba6e422d8f2aec35eb2c2954203b73209781
+~ sub_100001258 -> sub_100001254 : sha256 018b35879b1953e536f0dd944b0b6edf2f8f2c8831a6273342c9d4d881105822 -> b4f4d47b63a5fd5a8e6abd949a4a00f7b9520a6e1bcb1448167e3e81a4a6b55c
+~ sub_1000012f4 -> sub_1000012f0 : sha256 eb27207484fc6abd463dffd41874e15e934b1cd244ae920d89747768b4024711 -> b3ac94cc397ccaeb3f57d3e306a86432fee34cee22a04ca7f696c72821c3675e
+
+```

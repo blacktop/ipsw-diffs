@@ -1,0 +1,77 @@
+## MusicUI
+
+> `/System/Library/AccessibilityBundles/MusicUI.axbundle/MusicUI`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x5d8 sha256:b23db8a3309be26ffbb3f987c872600d11e70f1d992aaff1ab10ca6c89f97d21
+-  __TEXT.__objc_methlist: 0xd4 sha256:21b465938717f358bb8f74d84534586f840c9718043cf54078fb0be631ca9e1b
++3039.1.0.0.0
++  __TEXT.__text: 0x5d8 sha256:6b58d92e37fbf0029281ea2eb921c164ca91dc2e5a848df64a0d185df55b7058
++  __TEXT.__objc_methlist: 0xd4 sha256:69417d732126c71b1931afdb3f55453bce481541103a55331cd89454e72b859f
+   __TEXT.__cstring: 0x1ef sha256:e2e1aa9582bf16eae441adffa3db50b3944f17cf4a4a045f9981d6f28802bf66
+   __TEXT.__unwind_info: 0xa0 sha256:8388ae1a8713d09ebd1d4f98aad735ef5670408929872380b2dc10d441448f1c
+   __TEXT.__objc_stubs: 0x0
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x48 sha256:eecc4814e0185d0c77fef0e2bd096477b04f411d6f97c50ff9711724a85bae08
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:bcc33d7bf528aae9c3c93d5b270ae520d477990e63d9576899137aa6100d95e6
++  __DATA_CONST.__const: 0x48 sha256:d59574f4e0edbb56711fc1f38992dab722d29f32617dc8640fa3dc2015f4ee00
++  __DATA_CONST.__objc_classlist: 0x38 sha256:aacd8266a98067430bc1b92dc412d79359ce33a790b60007bef4598aad1d687c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xe8 sha256:008ecefbc84eacf3c8e97d58a48cf3078a4fc213a801258007bf02f8dfe83681
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:bd0148f09cd14b25ca1a4267172586be95682d5506d570e0f8be546065ad1e3f
+-  __DATA_CONST.__got: 0x40 sha256:1bdef0554f03695d37443def5d770111f5e162e9458f9a691bd48d3acd45a2e7
+-  __AUTH_CONST.__const: 0x60 sha256:c4762d4fe11d8995b45ff155f1ee0075253fe85858707e1b52482aaeed1257b2
+-  __AUTH_CONST.__cfstring: 0x240 sha256:ecb7dfcb5a313c4527c66a8cb673be46df7d9adf7a6147026e78549bbab61cbf
+-  __AUTH_CONST.__objc_const: 0x3f0 sha256:d4dbf0376d0367909675cf63245bba79f9e2ec362bf6c142900eeb5ec03d056d
++  __DATA_CONST.__objc_selrefs: 0xe8 sha256:268662b5191169e7694053fcba161fc3aa2e065b13b6d000429865e3c8bd6bd9
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:a4d0f186a2e8c911c026b1eeb8374f73928235fd42fde6454a761dd7ae28aee1
++  __DATA_CONST.__got: 0x40 sha256:40463a3e52bea20597abf059b792ea8efb2814bc6e6cd0fbd2f6997b947d6603
++  __AUTH_CONST.__const: 0x60 sha256:6b72c50e942ae742e1780e221291ca8309d306bb0b99935123455d48742008f4
++  __AUTH_CONST.__cfstring: 0x240 sha256:b0f4262e875dd559160a64d2c362abc0dc281fd68b4c3008ba26ad3c56b225de
++  __AUTH_CONST.__objc_const: 0x3f0 sha256:b3b25c052092e3dd487ca81cf4a242819aaa72ee33414ae5904ec7cbadb6d29f
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:9fada1da6405ace87d018e85fb0226f868477cba65bbfc6cb3516f95fba05464
++  __AUTH.__objc_data: 0xa0 sha256:d7a784f9fe67fe5b7e383e15829294b19a1e7e5e1b01bff0618274bdf88776cd
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:1896412aeb17c9a6728890798b0bf641955a334aceacc79f34bd5f7a9075b16c
++  __DATA_DIRTY.__objc_data: 0x190 sha256:9f0f4fcdc3ab389baf9c71378d668829e7f9f35a2f415131bbe74655b19870e2
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AA9069AF-543B-394A-BDF4-E331CC4E56A5
++  UUID: 111D5791-BE95-3144-8CCB-16DB409C9367
+   Functions: 17
+   Symbols:   130
+   CStrings:  38
+Symbols:
++ ___block_literal_global.374
++ ___block_literal_global.383
+- ___block_literal_global.368
+- ___block_literal_global.377
+Functions:
+~ +[MusicPlaylistEditingPickerOverlayAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 8467abb9b63bb2b2317d47837d9c163a65e900d18ce57c9caaffac80eacc74c8 -> b9459c728871b34640eaec75bc12d044ea5baa6fd402b559d6d1136afd669ba1
+~ +[MusicPlaylistEditingPickerOverlayAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 e47a64f3308921bf4f7a57ba342b8b0440109c3128d44e7d7e81e335e39d8179 -> 36255ef1f70c0f3e3963decac54ce1cff3a9762d9298612bb33d96ea63d60c30
+~ +[MusicPlaylistEditingPickerOverlayAccessibility _accessibilityPerformValidations:] : sha256 85f7528142d91f32dcaa6dbccaa6ee9f87fa2f035fb885b0dec43fa69f42aa5e -> e9ec2227f4a63f071c97a008acb0a72f19db2f8d1911919fb658bf0895ec6d06
+~ -[MusicPlaylistEditingPickerOverlayAccessibility newAccessoryView] : sha256 1fb1865a9d517727183c921ed8d9f9d4fce1117fc8ed0306fbd84680ca7696c5 -> a7c19bbeb8715bcc322808c2ce18d0ed0066a180ef46d7374c76ff993eaaec6b
+~ +[UICollectionViewAccessibility__MusicUI__UIKit(SafeCategory) safeCategoryTargetClassName] : sha256 3450bcc925ec50ad9c4eb95373cc1e741d2ec1a83dff72a067709476682accbf -> 8d9f170abf361778d52fb4affe3f8ef4612fc6958a0464f7b67a545deb09f4f0
+~ +[UICollectionViewAccessibility__MusicUI__UIKit(SafeCategory) safeCategoryBaseClass] : sha256 50a5a2c60339dde1eb6341efc51d3d8dcd1545125cbf4aefa55d3122d71487e1 -> 9bd0bbce3588166c6898dbb1968c22e6d12627f0e2b00a17c17e9f1ebb31fc4d
+~ -[UICollectionViewAccessibility__MusicUI__UIKit _accessibilityHitTest:withEvent:] : sha256 46d7c2648b1d26a9fc0c2ef818e4d63d92a6805ddeecdd04599da9bd2f50dcff -> 1c2324069efdbbeb8fa9dc4d547967a49dd7f190778743c36f8f8e1f6e273116
+~ +[UITabBarButtonAccessibility__MusicUI__UIKit(SafeCategory) safeCategoryTargetClassName] : sha256 73f2b48f77c38849a3a71acd3d218e196bf9f854df78182b0aae0cfae2a26e42 -> b6a023e4c3e9a137aa6562c9fa2636f268ee01320ecf983d84d0c46a8679bb23
+~ +[UITabBarButtonAccessibility__MusicUI__UIKit(SafeCategory) safeCategoryBaseClass] : sha256 066853cb7436b2a1e24ff387ebe3ee3ab30a55f28dfb88ffc7cf0a84d5446847 -> e6f7ba79b4ff208776a5088f71af59986e8c3317c37f709dfc8f8409b7d5c5d4
+~ -[UITabBarButtonAccessibility__MusicUI__UIKit accessibilityTraits] : sha256 92564b0945a8138cc384e055898add5a9472e9dd314c157e40bbe590f4173469 -> 1c326863146e9820680fa8cdff7d27b7c4fe71095dbff835c3e50df2186399b7
+~ _accessibilityMusicUILocalizedString : sha256 b577cc5ea63305b843ee23b3278c7cc3450f89d61dee8671361c5884682ad655 -> 57700274566b79fcfa89f00aa71b7f0dbfc190301e8319cf892fe5a29f85f7dc
+~ _accessibilityMusicLocalizedString : sha256 3b76eaede876448b130aaec93897b7783cfa1eb28bad8edb8c08de90e8778338 -> eaeb6e1c8cf8e0477b2fdd410b544101e062fae642d1cf4437b7efb668817e13
+~ +[AXMusicUIGlue accessibilityInitializeBundle] : sha256 10e22e0652803c44d36270da79869bab830b6e75648003397bd9221f41a5c463 -> 741360500033bfdf983ae8132e4a4f3cc039b29780834bf8df2a83f5416d39a2
+~ ___46+[AXMusicUIGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 3737ad87e56edbd67c6e77ff13a5d0097ea1a67542f35e16790ff0938626d533 -> d8d805e886dfcb5ac59071089de8ff8089e211bc18ce141722696838cbd3b95f
+~ ___46+[AXMusicUIGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 5c6466cfd455a646f400f8bb530796b686b3c8af52995104b7aa91e88de5117e -> 21c980e09c5d0c589109e6229b1f70db7c7bedad2d52d6e1ad4ca87d44f7af83
+
+```

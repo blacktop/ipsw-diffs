@@ -1,0 +1,82 @@
+## AirDrop
+
+> `/System/Library/AccessibilityBundles/AirDrop.axbundle/AirDrop`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x550 sha256:8e581961fb5be7b756ee616e0e2b69ee9fdd11f5ba3a9d3a9877f399bdb4168c
+-  __TEXT.__objc_methlist: 0xc8 sha256:f269b77d60a8491f762fe999a227e43b7905ca2277059ab3b02e5aa3ea05dd40
++3039.1.0.0.0
++  __TEXT.__text: 0x588 sha256:7cb09d2ddfaf261da126fd27365d43d9620525ba77dc64f717ac828dbabf26a5
++  __TEXT.__objc_methlist: 0xd0 sha256:3ad9785061499e0381b64f88b14cf7171b12a68823f7fa83c775f6a261ea6539
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__gcc_except_tab: 0x14 sha256:992b1fb4fd7e96e83730bf5f46ef690c8041103fe1d0fc335db5e2d31437b20b
+   __TEXT.__cstring: 0x173 sha256:81767102ee54b67ab34842b7935b31ab69df4a5f14383135ffad4d1ff92059d5
+-  __TEXT.__unwind_info: 0xa8 sha256:d1078d3b34d4b271bc7299dac6b4cab2fa23ca48b2196877f664171f40a856c2
++  __TEXT.__unwind_info: 0xa8 sha256:3d7459229d2dd83c870223ea7bc3c9092c16e8ec3c0dde2c2bb5bcb5064b40fd
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x88 sha256:c9251e3bee10f66ffe9feb7587db7f6a162f398ca64fa43272e2931aeca36468
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:5dfb87413a927b4c0851ff2429921e53eee8dd46abee553e1ced9124187a19a9
++  __DATA_CONST.__const: 0x88 sha256:62a3ef5f61920e0c9661790868277c8a6dbea637b12b8cdc251f31ceb64096bd
++  __DATA_CONST.__objc_classlist: 0x28 sha256:2067aba4da779db19525dad2983542ea533582f72d61a9f3a7983e1b7e7cb4b1
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xb8 sha256:2b092228f591f740e99eab9558d8312445f63a3d7ee08e31e6048a41517aae7d
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:e6d749e36fc0f64b46f314cd3b69fc900b417cbc8e298947b9f7e61c001eac5a
+-  __DATA_CONST.__got: 0x38 sha256:cd60c7c6cec475348c2b505f2b35faa95cb1fd83ece94b199c28edfc8497d7f1
+-  __AUTH_CONST.__const: 0x80 sha256:f2faffcab7aab8061ddf14f4a2c638ea4e48dc1ca2c54d78b0b6fcd88067cc65
+-  __AUTH_CONST.__cfstring: 0x180 sha256:1a815e24946839d20d42d985987a86f927207519530f63772339327cca6120cf
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:2bc8cc4b855842af7cfe4653ff4b5ccf9e75b5915d42f75eca085e53cdd387b2
++  __DATA_CONST.__objc_selrefs: 0xc0 sha256:f0f7a63b7d76f023aaa9827924da9d85f3796b369ad27e1a88856ea3744617c5
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:ac1bd13406533249fa99ef05bb3ed42908cafee6ab10be11601e48ae1013f5d6
++  __DATA_CONST.__got: 0x38 sha256:7326305806a600348214b671e630bf0a5b92cc79b1c21bebd16150a53a49aff4
++  __AUTH_CONST.__const: 0x80 sha256:5aa0693beda821444b3b40f95ec2e51aa982722ce3ebd2da85a5e3b2ee1811eb
++  __AUTH_CONST.__cfstring: 0x180 sha256:ba090938f12c4a73fcd03018c0a360155c5d6e060df1ff16d8fa24f6bd05f1df
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:7c5b327097888ce8bde603d2fefd5aba650de29b5dd2dd276d60bdd5fe119d55
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x190 sha256:56c5804ed39d5c3e142ce981eae44cf52eef6b8dab4a14b752d14316d7b2952e
++  __AUTH.__objc_data: 0x190 sha256:d536751ae40a48e98d4b92a8b9eac4f64fbeea455131324658a8122d759777fd
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6DA69B35-057E-38DC-AD03-01A5DB17053F
+-  Functions: 18
+-  Symbols:   121
++  UUID: 25848EB3-B631-3F9B-B62C-B99C08B49E89
++  Functions: 19
++  Symbols:   123
+   CStrings:  29
+ 
+Symbols:
++ -[AirDropBrowserViewControllerAccessibility viewDidAppear:]
++ GCC_except_table9
++ ___block_literal_global.363
+- GCC_except_table8
+- ___block_literal_global.351
+Functions:
+~ +[AXAirDropGlue accessibilityInitializeBundle] : sha256 e2cbaf9e19363bc142b2d31879e8ac1242df3966f5ccb4f392e6be6237ce125a -> 14a868c6e6103a0da656a6004b408de686f3729c5bbf59e551541b0c14af2ded
+~ ___46+[AXAirDropGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 fcf8ff18e02e9757d8c969f0e843762253f3f1d940ef849b384679eae04797e9 -> cd5611a6f9fd1d84c35433229aa4ce5aed27e54a96e2e0f5db213df7eda834ba
+~ ___46+[AXAirDropGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 e6244ea56fa1445fd444d3f72a9f253d8cf7144c34e1ae6bfee3caa04463fb71 -> 0d4b5f6e1210eaad654663333292f0fa6b1829e25215afe572eb32fc687f864d
+~ _accessibilityLocalizedString : sha256 13d860c6add907729bd7d0803d5939372cc9c97a42d51e474333d974954135de -> f5842b6fb555f27d70ae36371c2643904fd9d99e84638f1ff728e39980d89888
+~ +[AirDropBrowserViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 29c8eece824b1b5e17436b3bec9b1ab45555d115297a14ea78ee0a05018bdf92 -> ce7cdf82042abd3c202cb6b11727d670012e7002ca164ef92f94c44382131e7e
+~ +[AirDropBrowserViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 8a180af7615cb9a116492bf937310538b68de5296d5f27d79eb05e4f3071173c -> 9dfd599b26120d15395976d944c52449e54fd22b9ed6db805009ae228aebe534
+~ +[AirDropBrowserViewControllerAccessibility _accessibilityPerformValidations:] : sha256 3a2ac2fae1262011f8ec971d7545a134afc843d5d73287507ee53d114d587f71 -> aeafd91b7d86eb2f7532829c7a77ee7ead1949393cd33e1062205ce3df6614c3
+~ -[AirDropBrowserViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 3f44e1b23b849bad4b801d54faa377dfa942af18b4ab87cff3297bbe326b224e -> fe7a5e2540aecfa5dfb2b520f503eff5458e42d14d51397aad17f611adc86569
+~ ___87-[AirDropBrowserViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke : sha256 2da4497f99ab6e02dfc879767cb50b231102c9c496f432a9c5b84479ed03bf93 -> 5e9a5d24d92d3d1a90a3a399bf640dcd4c024858a45fffa943b7dc8e5ecaa5fb
+~ -[AirDropBrowserViewControllerAccessibility viewDidLoad] : sha256 d7a824431c0caa8e830a2723dfa313b063cfe60a44c023dd3b173d270ea6fbbd -> bb7828877b1a1b328935d25d99591b42c39532c7e539a03b007466465a467e65
++ -[AirDropBrowserViewControllerAccessibility viewDidAppear:]
+~ -[AirDropBrowserViewControllerAccessibility browserDidUpdateMePeople:knownPeople:unknownPeople:] : sha256 5f1d648adcf6b9c76037170570b5100609c134fb21c8851bd84febccb4ae3539 -> 52602f9a54c93a7e15c4500a1e00a511193bfb0b62efdb2c54ea0e2ffbc70e09
+~ ___96-[AirDropBrowserViewControllerAccessibility browserDidUpdateMePeople:knownPeople:unknownPeople:]_block_invoke : sha256 8cefb05139438ae50968b94f1eef0180d1dfbe0fcbbfb847bd33d76f7cbc4ce6 -> 8a84b66fa08186c732d99f3a3b50d3212c66edbfe42310b6e6e161c5e727e1ea
+~ +[AirDropNoContentViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 47923663e90ca7531e93cea870fd4e5ceab18c9d0840c8975341bcd4fa0c7f26 -> 1daa476bf3573596c9487179ca3ba59fda6e8ffebe04e4b677347c0c035d77e4
+~ +[AirDropNoContentViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 ce6c28de91a38621df82ef7049b5c3acd8f447b2268d1b864dee945cbbcec7ad -> 59be86abd71484ff9bc02f8c9469d47b6037af2e2506b0958236f1e4a51913c7
+~ +[AirDropNoContentViewAccessibility _accessibilityPerformValidations:] : sha256 28dd83367d6ec26a59ef40916bb66985ef6444a433f486e9b7c78d6a07315d49 -> eab85db7de8e1de307da3655d6099020f293db7754c5e9453cd3f5690baa6e79
+
+```

@@ -1,0 +1,70 @@
+## SummariesHealthDaemon
+
+> `/System/Library/PrivateFrameworks/SummariesHealthDaemon.framework/SummariesHealthDaemon`
+
+```diff
+
+-7027.0.52.2.6
+-  __TEXT.__text: 0x758 sha256:9a3955ee5725b6c3c449ac7481b19357ff1f0709cf361d72a7c4bc6f4cf977f0
+-  __TEXT.__objc_methlist: 0x284 sha256:6d10be3f412ec17118a7ba5cd73f1cede1221b2d82717790ad38c82987711b65
++7027.0.60.2.2
++  __TEXT.__text: 0x758 sha256:20bd9a45e2ffc55682e94e28a99cc37b5630c067afbb5047a486cf2d8867b2bc
++  __TEXT.__objc_methlist: 0x284 sha256:2123456ac023c48b453ed0a89b756e5ff3680186ae9b8d4d9efe5fe052b63c41
+   __TEXT.__cstring: 0x54 sha256:bb8cf2b8669e8020b91e51e298d173ff5aad67b1a6d6e892fb30a5ca6271f022
+   __TEXT.__const: 0x10 sha256:53310301f8f4a19af1b5b65c0265e22bf5d04414be2ff0988a0d83c566b6ca48
+   __TEXT.__oslogstring: 0x1df sha256:eafff4b2b3ef35ef7b627ef36684cdb0f347bd4045b6c4b4094ec91072a8bc15
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x8 sha256:7857e66fae40c12c013c38317b27ff8f67323db8bbd7d53f3c7a43724a3b9ec4
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:91d8795a83dd9455d730b7b6ddc4772bfdb2c056e1aca2ac6b1a55ca70bb2609
+-  __DATA_CONST.__objc_protolist: 0x28 sha256:b7501545888e31a8878f43c2fd2e74bf52dc4cb9d3e45f9b9b84784fc07646e6
++  __DATA_CONST.__const: 0x8 sha256:b31dad5f9cc86e4f36219141b726083daef8819ec79af4283ca0991320958055
++  __DATA_CONST.__objc_classlist: 0x10 sha256:e9b5fbc817da1962b9d59e9d0157e553096bed8b0eb899a9dff5b4b6da37883c
++  __DATA_CONST.__objc_protolist: 0x28 sha256:e6884069da3e593f4a28b317538d548146469b87a5339e6f427d0bfcc1d9864a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x198 sha256:73d4d2dcdd156a9f30b9f27341fd63180c5fc848d2713434a90dca833ab97841
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:178e635b2e74bab625e895a219392b1cfc93d2aeb03dcdb722a016d0d8be8d5c
+-  __DATA_CONST.__got: 0x18 sha256:c5f2a3896611861412e64cd865f4e397d7a11e46e608813dc4ec075ac7d0f6ac
+-  __AUTH_CONST.__cfstring: 0x60 sha256:c4c7376bbfd15fd570ac305cdb5e0fb37ae43cc96d290c1f8c42b41821876e09
+-  __AUTH_CONST.__objc_const: 0x450 sha256:46cf173ffe5aaac987234c044b48a2ce4d6a0d845d9582fc2b6eafb3f6680a34
++  __DATA_CONST.__objc_selrefs: 0x198 sha256:c4b17c2b81bab096aa3f8a50610611f2848a6d1d5b7059c1dc2fbd17b2fd5e8e
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:4e486e61fbfeb501c906caa3f6076790839f5899aa0bb2e85e0725b813f4ca18
++  __DATA_CONST.__got: 0x18 sha256:157d17acaab804aa36389088a04a77cba169f9cda6a8f665b4eaad09ea1d5308
++  __AUTH_CONST.__cfstring: 0x60 sha256:355c1eb281bd01274388e1b149ce4b95846495e9e51b48048dd7725ec01d48bf
++  __AUTH_CONST.__objc_const: 0x450 sha256:6306379b14602cc45945c4bc240672162a39134d1573e885f9930110928bd336
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0xc sha256:2e5c9862856b0c6f8e0cea23282dc6a269bad2a2cc34aa0668a8eeae66326835
+-  __DATA.__data: 0x1e0 sha256:209d6d728f64d0783ca61e4bfb7ec94fa42d047d07aa82531a5d1c4dc25f34d9
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:6075d8e59652148f1323e01062e12a22bb6f80a1dedcf58c83954c93e21bc0cf
++  __DATA.__data: 0x1e0 sha256:248c33d7fc670aa024059f4aaf4b5180f012b22f28296487b6618e3595d625e4
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:466a0c862b932d31e09b55e87f9b0b19da4a3a42bf504f22b18f5e9ae88af42b
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
+   - /System/Library/PrivateFrameworks/HealthDaemon.framework/HealthDaemon
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6D607C89-01CC-3512-B394-BFF7E1B588DA
++  UUID: 96C1E2D8-7193-3C3D-B3E2-6EF11DA5A6E5
+   Functions: 19
+   Symbols:   138
+   CStrings:  13
+Functions:
+~ -[HDSummariesHealthDaemonPlugin pluginIdentifier] : sha256 6728d05c09302024f4c8a4eb871e18d0020cd5c6ed23a0ceee904b3447ed0a13 -> b85220ee25312ad568fccb001be83d16be40c368be938d5a68a280d1dc865828
+~ -[HDSummariesHealthDaemonPlugin extensionForProfile:] : sha256 a6773813fd1a7eb92188c70f8e159772bbcd2bd55834a9edd1f14e5e8a93d358 -> 15ac25edbdce5b8c9943af4ca0d2e134ac0975eb9a2c305b0f8e27046448a458
+~ -[HDSummariesHealthDaemonPluginProfileExtension initWithProfile:] : sha256 15f35a359853139ee4ba081f033cabfd5898eacfc2c522c32461a183448ec745 -> 78afe2a95b62865078b6a3d30f07eb03855a096fcc1edc88b70d2d3bb2718d6f
+~ -[HDSummariesHealthDaemonPluginProfileExtension notificationSyncClient:didReceiveInstructionWithAction:] : sha256 406da2a74ed96ee136a109cc9fc9f919e1b7dadca076035bba4f13349f2036e4 -> f4fc6bb4b7742bcece7c25371ea550ce4c6d389251fa77f850398331076dae3f
+~ -[HDSummariesHealthDaemonPluginProfileExtension _handleDismissInstructionWithClient:] : sha256 2a42a3d14b2ac80bc29444bab2da7f25c8f8f29a7bd0c5099c91e1cf2438aea3 -> 47292fcb809d212163213f623089c0b28b4a83b07b819981c538a33c36b64eb8
+~ -[HDSummariesHealthDaemonPluginProfileExtension profile] : sha256 939ea1908b7c5b2c38b1c868c116834b7ff1f36e13a1a98a8b624326038e8bf6 -> 1c083f81776d649acc15905e91fdb4ccc2f4ae8683443127a906b254468d99cc
+~ -[HDSummariesHealthDaemonPluginProfileExtension setNotificationSyncClient:] : sha256 7ca1144b0922628f600db34a65b91a85b5f2c4e659331004dcecf5c1c4f7efd9 -> afd56d1ade2bc67747e33c80ce77dcd46606d4f994f70b0704dbb9d69ad6627f
+~ -[HDSummariesHealthDaemonPluginProfileExtension setUnitTest_didProcessNotificationInstruction:] : sha256 b531e66dcd2a56b89e0f30eda0a904632d0c41bd7820ef12cc002f5fca993811 -> b2762c4b35c3a8d9ea0c7f918d6a3346b04f5ec980d7446ef71f048aea0465be
+~ -[HDSummariesHealthDaemonPluginProfileExtension .cxx_destruct] : sha256 5e68f0f4782800ab4187e1ff29104bf2a917397e161bc9e9352f88b4a032fbbe -> c5a27c05a3b85d8f0424e1f61e28f263c74a54c2a97598d7ee04157a1004488d
+~ _OUTLINED_FUNCTION_0 : sha256 15136d2cf693af24edc348b43471e6a8d40e99d693f600fec6319a6ec9338332 -> 45d25ea2c72bbbb11b6a5967aff6dbacf148f6d19aec5bb0cb044662fadf31ca
+~ _OUTLINED_FUNCTION_1 : sha256 c730934cb41b260564788ee3e70dccdae2bf26f754f71c76ddbd6b6e591f8282 -> b45946a3da0e762706233a627e04ba70272da57def3fdba08073a51de16c73e1
+~ -[HDSummariesHealthDaemonPluginProfileExtension notificationSyncClient:didReceiveInstructionWithAction:].cold.1 : sha256 12c2a1c10b7cc62f28d4def5515f95d5f568ed5b6624b8b8e8e6585324c1295b -> 5ad6ad2caa5d8e12a9a848e9e13d810a280a5ede8f7546341b2a383f9ba6e9e6
+~ -[HDSummariesHealthDaemonPluginProfileExtension _handleDismissInstructionWithClient:].cold.1 : sha256 c73979944bf056be0d1b19f62a3e3483771c54bddef88de36774caa1402d6e55 -> bd265d4aaf4124f9756383ba9a8e9a40cf3f0cf7680ca1155fcda67c2b8e9717
+~ -[HDSummariesHealthDaemonPluginProfileExtension _handleDismissInstructionWithClient:].cold.2 : sha256 006144f0ef4bd5fe275cb823de40b9d8cff6342efa91857f24f3b5fcab1d8f1e -> 6a1dd7da6d1edb8543912b6cd6b5ada338845bee619f30f616f8d44d09d26673
+
+```

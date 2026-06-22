@@ -1,0 +1,141 @@
+## ShaderGraph
+
+> `/System/Library/SubFrameworks/ShaderGraph.framework/ShaderGraph`
+
+```diff
+
+-159.0.0.0.1
+-  __TEXT.__text: 0x1e4070 sha256:249ca0fb0cb8386f56cb746aeef78021791e5df458c88f248a2d96f7296375fa
+-  __TEXT.__objc_methlist: 0x14c0 sha256:4c93871ea72ba4d2cb6b286ac6418ef71ef1c56e95ca0bc114a35a2a995d9ee1
+-  __TEXT.__const: 0x127f0 sha256:185f89cffeee217a0f02c54b1ece7d83f03830b397fff7201a9d881416465991
+-  __TEXT.__cstring: 0x1c62d sha256:ef6e7cefa92fdacea97d52f65ece66257991e5e72ea3fadf568ef21e15511fa5
+-  __TEXT.__oslogstring: 0x13a9 sha256:1dc1c1a7d89309c8ad2ba134d15fd76a161cb8d3d821d93f4b7c645bb4f7bcf3
+-  __TEXT.__swift5_typeref: 0x3dec sha256:3e71dd057a8066876ea89bb236cbbb442e8f4ff6921b973085d698cf871b44aa
++159.0.2.0.0
++  __TEXT.__text: 0x1e41c4 sha256:7a7ccc076cf67b3936600d5c510a0be9a1020942eb4eb514e8a8cb9e11235c70
++  __TEXT.__objc_methlist: 0x14c0 sha256:bcb018caf0e4eb0bc20b9462bb2107ce3e6026a09965234c61bfeebf0103adb0
++  __TEXT.__const: 0x127c0 sha256:9bbe604c667f0271db4c80e061efc3f5c50e345ef77a8a098b1dc5c7adebd108
++  __TEXT.__cstring: 0x1c64d sha256:00b1101697da690e5136a612624ade6b5676597997df520eb3ad089cb48f1d7e
++  __TEXT.__oslogstring: 0x13b9 sha256:bca5ad2dda9a385574503570537ee52d531db85df8e1bc4742497c9db3b93e65
++  __TEXT.__swift5_typeref: 0x3ddc sha256:e6d14134a9cb77b080c9058f0282f5f32662709774157b5b209dc09255b572bc
+   __TEXT.__swift5_reflstr: 0x34c1 sha256:1d23f0045c91764f976858a1b18a8cab84dedcd549facecaf0f903ffdf6d409f
+-  __TEXT.__swift5_assocty: 0x6e8 sha256:d2a49d6c460e7ae4ab3bf195e6c1d303e9a18912672b587eaf4f02744fc3d99a
+-  __TEXT.__constg_swiftt: 0x3900 sha256:819c441cbb876e4e3159836a32356872562172ed920fe9236b636c10e370d48a
+-  __TEXT.__swift5_builtin: 0x30c sha256:e31fd88e58056861ad969501b6aa396c6b66a9dc71ea3c3ec6fd70dae119a3d2
+-  __TEXT.__swift5_mpenum: 0x11c sha256:18caa41809f6a2ca460d1f11f944aaac3843777acf3718ab3df7787583e76309
+-  __TEXT.__swift5_fieldmd: 0x4adc sha256:30c3f1a903ec18c97e9614aa98274009a16c1f440914d8c080333d30cd7a67c6
+-  __TEXT.__swift5_proto: 0x81c sha256:d80bf29d0685251695c02a2d73e5cb1145c046d1e7f802598a51d80e6b84937a
++  __TEXT.__swift5_assocty: 0x6e8 sha256:cd251c5940a0093501841d05bc5de89669d2519cd435adff5d9eecc37773d186
++  __TEXT.__constg_swiftt: 0x3900 sha256:2f24eb3fabe5844f04a9e6d37731527ada2858923378d95996d64efa4ff91520
++  __TEXT.__swift5_builtin: 0x30c sha256:cf73bc8b104471a4aec4ad5161ffeafd4264247807ccd911ee7da9bb87a28d08
++  __TEXT.__swift5_mpenum: 0x11c sha256:6dd85be27642f084d2a2a6e872cc083b3a4335eb616846c7c9794f299170eec6
++  __TEXT.__swift5_fieldmd: 0x4adc sha256:476cd9329f22f7883923c94f866dc9d9a6e2ecc42e1994fadc9a40d25f3b8831
++  __TEXT.__swift5_proto: 0x81c sha256:a66dec578a0e130cf2bbf9312f7079c9ba3569f2a304e4184fd1b72c694b588e
+   __TEXT.__swift5_types: 0x4b4 sha256:0646ca2ba527751edbec3cc6c1f678cdf8395b227f5e863170b0ea010e6f69be
+-  __TEXT.__swift5_capture: 0x960 sha256:e339474fecbfa581b2fe2c5643086844a9f8ec78d8410a1f93cd0616bf938d2e
++  __TEXT.__swift5_capture: 0x960 sha256:8f43e88a995a6247107c60bdeaa5bc75acd16a372fa82ca2a3273da0b5bfd571
+   __TEXT.__swift5_protos: 0x44 sha256:059f4f8409e400b82ec1e0506ae4caa18f42a4630c8088d72a9d7d6b49cfb13b
+-  __TEXT.__unwind_info: 0x5548 sha256:d9f0100ebf501dd7e56715f9dd8cd23c51fc8f3556fc9061b75e894e0a7e8c08
+-  __TEXT.__eh_frame: 0x85cc sha256:06301ece4eb5cb1f41d4652faec525a5025f76479b9434a612b1ab505e0d524c
++  __TEXT.__unwind_info: 0x5520 sha256:621b72c7c67e7e7ca61e69f71e1f49617d7a072af2e591791859da79dc333b9b
++  __TEXT.__eh_frame: 0x8624 sha256:3b15970f6a498a30bc2076a0665966fe97ad33526f63df216358c50d4bd36bbe
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xa08 sha256:a6864f747cc9df1755c9583b092d56d9d0bbd6d33ea8d6f4cb9844ac814d40db
+-  __DATA_CONST.__objc_classlist: 0x160 sha256:bb48c5ffdb3334404eec8acc70eb98db9d93a8245147aa9f92c0232d91cdfc0b
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:28f961e000b6a62511f2fa435e74319864a5d5b84636cb97ef0490c6e64f9fcd
+-  __DATA_CONST.__objc_protolist: 0x98 sha256:729da83a9b20ca03ff56ca0dafbcfd901f16999b11ff4673737ec283b79ba553
++  __DATA_CONST.__const: 0xa08 sha256:18c07cebbfb587bb240b9b18559b670678ddfd3fb23eb9e1db6711ea50f02a89
++  __DATA_CONST.__objc_classlist: 0x160 sha256:3324ce2bf1fba667c08a341b5d07f6e06eb64ff684ed3223b0bf2aea9283185e
++  __DATA_CONST.__objc_catlist: 0x10 sha256:2eb7dee337f6f69a08ee715f8d039c60913e551dbaba5787ddf60daf30ecaf55
++  __DATA_CONST.__objc_protolist: 0x98 sha256:b9993a2beb8aad61dd9efc988594e2330f54beae7be3dbf6ce0d74bfabd8eb8c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xbd8 sha256:e120847cad256a23de058aea53cb8235fec4d7fa88eba04d5f907e8000866d77
+-  __DATA_CONST.__objc_protorefs: 0x50 sha256:026f7bce4071b38861a2f7ea04969a32f20575ec6fbb2e39c1b752842f7077da
++  __DATA_CONST.__objc_selrefs: 0xbd8 sha256:19ceee3000a35c02d70e666658e58a935ea0238327ba5d79ae61bf8d62ae301c
++  __DATA_CONST.__objc_protorefs: 0x50 sha256:71c1ca0c530e5ea76899f5babda778e4e136476fabc233603018752a9e85796f
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x19228 sha256:7a8db04390329b28651aee54aee04287466bf5954f6f357183a759abb469b66d
+-  __AUTH_CONST.__objc_const: 0x8530 sha256:4ab524537b44e5a6230273f784aaeb2b9ab6988fca2a3f2afa3dee18529d309d
+-  __AUTH_CONST.__auth_got: 0x11a8 sha256:02116a3f0f6bb5caeddb8435a168f2bbfa22c41b1a17017c217ecddbe8bd1507
+-  __AUTH.__objc_data: 0x5c0 sha256:e57a91de506385004a34a04b6f09e00dff8f711f3dfad85f2e9e250488156c8a
+-  __AUTH.__data: 0x960 sha256:b823d0faa10c3e194a28a3a7d1f32fd1d18bab9b6540f7453ec4c854489518cd
+-  __DATA.__data: 0x38b0 sha256:ba14c3d7b887df42a4b0dd318528d6c17423b3413cfd3a4900eed1aad6ff48bd
++  __AUTH_CONST.__const: 0x19228 sha256:0fce2101b8ccf61da820f50e5ae5299772d5e3d46570ee873109ab12f9b2903d
++  __AUTH_CONST.__objc_const: 0x8530 sha256:cb8d9e9be3fbfc3774119b4534fe1d9ffdac105eb4c04f6ae256a37e0b163c7a
++  __AUTH_CONST.__auth_got: 0x11b8 sha256:f50095b91cf5b6d3c17ab95301c6d8d4fbb3f0c53e5c6f6b1cc502b0868519fe
++  __AUTH.__objc_data: 0x5c0 sha256:a9c9acb8413b6bb12b1511b52ef530e6d33afef8ee43f7b3b63e19968c6d0a4a
++  __AUTH.__data: 0x960 sha256:8b74f7d94411356dcff7b1bb76649cb5ed5623acd30023cdecd0ea220794615e
++  __DATA.__data: 0x38a0 sha256:3fef571c721037171eaae6b60e4ec8fde94460cd6f3c667c5600afe3ff69ef97
+   __DATA.__bss: 0xefc0 sha256:4aa91891b6b972b68b6dcb8c9714b22bbb216b6e2936c1dddf5bf92bfe1a1926
+   __DATA.__common: 0x2008 sha256:b9e4441d2f07bdabc890d642271683007fca1dbb53b340a661ee479c5a03dd6f
+-  __DATA_DIRTY.__objc_data: 0xba0 sha256:2b50de0fd99e268b1491c3dc598599683d3c569e42de0a748e51c78daa1b2818
+-  __DATA_DIRTY.__data: 0x17b8 sha256:1bea471f099f32055308d7f9d0a3bc1dd254ed3fd2d574b590f2583f935cb2ac
++  __DATA_DIRTY.__objc_data: 0xba0 sha256:8d231f08b07e65ba76351d43e15d6ab09e0bad5a1b381ffb2a988a99f8c97e4c
++  __DATA_DIRTY.__data: 0x17b8 sha256:736e192d9710bb95030ff4bd9c32d0b884228d06712d98d6948d52e86fbed1d8
+   __DATA_DIRTY.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E4AC7AFD-B2FD-3E09-B647-E56ED6532636
+-  Functions: 8139
+-  Symbols:   23806
+-  CStrings:  3069
++  UUID: 7068CDFB-7CD6-3C7B-B5A5-00C7D9784FC0
++  Functions: 8143
++  Symbols:   23808
++  CStrings:  3071
+ 
+Symbols:
++ _$s11ShaderGraph04UserB0V11splitGraphsyyKF
++ _$s11ShaderGraph04UserB0V11splitGraphsyyKFyAA5InputVXEfU_
++ _$s11ShaderGraph04UserB0V11splitGraphsyyKFyAA5InputVXEfU_yAA4EdgeVXEfU0_
++ _$s11ShaderGraph12NodeDefStoreV019patchedUsdUVTextureD033_58C10E9536C4718342CF9916B0AAD6BDLLyAA0cD0VAGF
++ _$s11ShaderGraph12NodeDefStoreV25applyStandardLibraryFixes33_58C10E9536C4718342CF9916B0AAD6BDLL3foryAA16MaterialXVersionV_tKFySS_SayAA0cD0V14ImplementationVGtXEfU0_A2LXEfU_
++ _$s11ShaderGraph8DataTypeO_ACtWOh
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC11ShaderGraph0cD4NodeV2IDV_AETt0g5Tf4g_n
++ _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFSS_s15EmptyCollectionVySSGTg5Tf4ndn_n
++ _$sSo24NSOperatingSystemVersionawstTm
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF11ShaderGraph0kL4NodeV2IDV_AHTg5
++ _$ss17_NativeDictionaryV4copyyyF11ShaderGraph0dE4NodeV2IDV_AFTg5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntF11ShaderGraph0jK4NodeV2IDV_AMTB5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtF11ShaderGraph0iJ4NodeV2IDV_AHTB5
++ _$ss18_DictionaryStorageCy11ShaderGraph0cD4NodeV2IDVAEGMR
++ _$ss18_DictionaryStorageCy11ShaderGraph0cD4NodeV2IDVAEGMd
++ _objc_retain_x11
++ _swift_release_x12
++ _swift_retain_x10
++ _symbolic _____y__________G s18_DictionaryStorageC 11ShaderGraph0cD4NodeV2IDV AE
+- _$s11ShaderGraph04UserB0V16splitSharedNodes12nodeDefStore07surfaceA016geometryModifieryAA04NodehI0V_AA0abM0VAKSgtKF
+- _$s11ShaderGraph04UserB0V16splitSharedNodes12nodeDefStore07surfaceA016geometryModifieryAA04NodehI0V_AA0abM0VAKSgtKFyAKXEfU0_
+- _$s11ShaderGraph12NodeDefStoreV25applyStandardLibraryFixes33_58C10E9536C4718342CF9916B0AAD6BDLL3foryAA16MaterialXVersionV_tKFySS_SayAA0cD0V14ImplementationVGtXEfU1_A2LXEfU_
+- _$s11ShaderGraph5InputV_AC_ACttMR
+- _$s11ShaderGraph5InputV_AC_ACttMd
+- _$s11ShaderGraph6OutputVSgWOc
+- _$s11ShaderGraph6OutputV_AC_ACttMR
+- _$s11ShaderGraph6OutputV_AC_ACttMd
+- _$s11ShaderGraph6OutputV_ACtSgMR
+- _$s11ShaderGraph6OutputV_ACtSgMd
+- _$s11ShaderGraph6OutputV_ACtSgWOi_
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lF11ShaderGraph4EdgeV_s15EmptyCollectionVyAHGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFSS_s15EmptyCollectionVySSGTg5Tf4ndn_nTm
+- _$ss12Zip2SequenceV8IteratorV4next7ElementQz_AFQy_tSgyFSay11ShaderGraph6OutputVG_AMTg5
+- _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy11ShaderGraph4EdgeVG_s15EmptyCollectionVyANGTg5Tf4nndn_n
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC11ShaderGraph4EdgeV_Tt1g5
+- _objc_retain_x10
+- _symbolic ______AA_AAtt 11ShaderGraph5InputV
+- _symbolic ______AA_AAtt 11ShaderGraph6OutputV
+- _symbolic ______AAtSg 11ShaderGraph6OutputV
+CStrings:
++ "ERROR unable to find from node or output"
++ "ERROR unable to find to node or input"
++ "ND_UsdUVTexture_23_vector4"
+- "Edge destination node isn't a surface node or geometry modifier node."
+
+```

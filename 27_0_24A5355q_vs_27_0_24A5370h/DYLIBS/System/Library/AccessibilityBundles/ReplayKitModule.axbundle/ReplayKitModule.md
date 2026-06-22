@@ -1,0 +1,79 @@
+## ReplayKitModule
+
+> `/System/Library/AccessibilityBundles/ReplayKitModule.axbundle/ReplayKitModule`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x614 sha256:13ec18b7ed24ec485bc5ffd9e4272fdce682dcd24cf1619fa69f39efe0a5e253
+-  __TEXT.__objc_methlist: 0x108 sha256:6ee66a68c47dc51e329bc929d045e9b18631e01dc9b0cbf3ccacc3f1597cdf5e
++3039.1.0.0.0
++  __TEXT.__text: 0x614 sha256:bde34f66af9c7d0698038db0c0b18320c68e2a4e6e399e48c5106e0a12d7e935
++  __TEXT.__objc_methlist: 0x108 sha256:99af51b0f1e2ec9b1ea9ce04b011251fc6d4e9b3a184dfcd93c3e3d01b5af67e
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__cstring: 0x179 sha256:a5a29f819574a2a80beb6a36e37ac27a2118c6b9479ec71275f6cccb8f996dd5
+   __TEXT.__oslogstring: 0x50 sha256:72d874120cb382906966268ec2fb56aa962f5f3505429bbc236fa4c2201dc12d
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x88 sha256:20c3f656c3c044ff72d69c5a11aab74686795abffe49ff3cb692fdb336533a26
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:ea50c4142fcc741abe4c9a4340b10bec0e89cb5b1c909223410f8d9dfb79b348
++  __DATA_CONST.__const: 0x88 sha256:61bf875a881affed898299c45d4dad0ab0b010d7e3dda7b29edbcf996c641f3b
++  __DATA_CONST.__objc_classlist: 0x20 sha256:896dc238be0353e25524c5e9a2d31c4b6bcf86c8f9417d0a4a54716a93ee27e3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x110 sha256:c33d08d6badd9980c65446cc2e900afa7aa4698cccd68ee280e3d9d28d035595
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:c17ad32002ce42ce53bd7eccbba326454bec0236fff1cc37363556afb908116b
+-  __DATA_CONST.__got: 0x50 sha256:bd983c887b0cf737c8d60f1b2d46b4721d62bd05259be3299e589360771ecae0
+-  __AUTH_CONST.__const: 0xa0 sha256:586b67fedf9e00d040b54991356ef6ad6ba1508b5308571601f19c97679eb333
+-  __AUTH_CONST.__cfstring: 0x160 sha256:6482ef2b8a143cfe7e436234a1b94fb980ca162ca246fdfdae37740162ace6ae
+-  __AUTH_CONST.__objc_const: 0x240 sha256:5228fdc50a0116e07a91ce7693f9a9ef96633e50438d50c6801956f2e8a389bb
++  __DATA_CONST.__objc_selrefs: 0x110 sha256:36861965edbd5c1ec21b9f6c5ecf9d14eae02745316386cd2c985dea58da9891
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:cb68e28d41df5184811d273b04eed56452baad8a7558aab8e83b2755e867ff4a
++  __DATA_CONST.__got: 0x50 sha256:a4095e895ed9370050ae0bec484a07f515a95027a6d687f1ff4f06b22b8e108c
++  __AUTH_CONST.__const: 0xa0 sha256:834605834786c21eaa8a14d0cd4cbbba9552037ab4eeb11bfb1ac636d81847a4
++  __AUTH_CONST.__cfstring: 0x160 sha256:ce2c02454c195c6da89b65516a30996e9ac0898614819c21d9ab6209cf6f76d0
++  __AUTH_CONST.__objc_const: 0x240 sha256:117feb26fd1c484d0a9678bcc10d7d90ad7a1c30feac48f969bc31e40788726c
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x140 sha256:dc3fa0901c02cb49ce21061caa58b4d323bd3643e0b9b04672116a43d5221483
++  __AUTH.__objc_data: 0x140 sha256:c5e44c4f4a4535e0c60e62b4229936116c8cec414a3754eb8ca2dbc044489802
+   __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3E288D9C-1568-32A2-B6AD-40C00CE2AA9E
++  UUID: 15E6A5AB-46C8-376E-9D96-9A9663B67455
+   Functions: 25
+   Symbols:   140
+   CStrings:  29
+Symbols:
++ ___block_literal_global.368
++ ___block_literal_global.396
++ ___block_literal_global.403
+- ___block_literal_global.362
+- ___block_literal_global.384
+- ___block_literal_global.397
+Functions:
+~ +[RPControlCenterMenuModuleViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 e785e96c7529e2290a77ebf17963003719a46731dd5ea2f4b07de32b1a0c5f82 -> 493b7338cec629c81b67ce6091fb3ec1a09432f043838b62e74201693bda9017
+~ +[RPControlCenterMenuModuleViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 0e1c4ce5d0993bc9984f2c6c6d1cfa8f71cd37b3781b4bfaab130722671edc79 -> b3572dc87a915e7a0064fde576fa683ffe02956452b4f4d5810faf62f9613ade
+~ -[RPControlCenterMenuModuleViewControllerAccessibility _axCountdownTimer] : sha256 ae7db8b95b79e3ce90379d797f0ca7b2c579be4e6986786c74218dbeba6d91ef -> b3d93b4bccab9c0abd19878465960fab1d9ba94b344b45e8dd57042df220c10d
+~ -[RPControlCenterMenuModuleViewControllerAccessibility _setAXCountdownTimer:] : sha256 cba3ed0d93d1d69d2bc530a5941044cfb7e2b94fc3a5127c1c20b7cd908594ec -> aa75e2bc360af5f50d47e319e37c3204a1be6f633b017b61e2ea28cf2ba7c90e
+~ +[RPControlCenterMenuModuleViewControllerAccessibility _accessibilityPerformValidations:] : sha256 76cec6ff6773d430a48b69476d41bced9541ec9ed6dc5b72fbedae5e4b9f4d74 -> dd1a6793bde25f92662e08311e0febe5d7c6b42c120178dd34ca0382d2e55cbf
+~ -[RPControlCenterMenuModuleViewControllerAccessibility updateStateAndUI] : sha256 e9a110ba1741784b9771b1a28a9671bd01126251996aec15823956186ca935eb -> b208ec9bea9b81531c665572de78105c1435ca87d114c7ccf80ec74b7c4f45f3
+~ -[RPControlCenterMenuModuleViewControllerAccessibility _axSpeakAndGo:] : sha256 cdf79ade2d519c823476979731e4cf945ac03d9c8a7e819c1da3c6ab0b3e1c78 -> 1a6d1e0bad0f692486d60530725f229fdff65b3528e82e47bac45d6add04152b
+~ ___70-[RPControlCenterMenuModuleViewControllerAccessibility _axSpeakAndGo:]_block_invoke : sha256 09b9a5a124bacc3e102faf1c694f0c798bbc3f391412a47c0536fecb705f38a0 -> f0e92914a28e559c946e5e726013c6bf35c36aeb160c6f0ce09d78e8dc68b5cf
+~ -[RPControlCenterMenuModuleViewControllerAccessibility transitionToCountdownState] : sha256 2dbdcd81765f0cce7409429f4ee6e72a1ca10b93eda590fdd73379087c2d949f -> 65779f215e6f8fcf604a40ff1fe971d9721c1390e1ba951251315499883c9ef4
+~ -[RPControlCenterMenuModuleViewControllerAccessibility _accessibilityControlCenterButtonAdditionalTraits] : sha256 090f26d2ac9315409600f115b4d41fa930ed536d62d752417de7489f3b10a7fc -> 9da5c36d4afb7020a497eb5c1b7bf0e3d92f89a7f0e185ff23c707199a001425
+~ -[AXReplayKitClientDelegate didStopRecordingOrBroadcast] : sha256 4e86e8830220175fd0cd8a1b87063fa83269322df407a93f02d007247e446033 -> 1e053662995ffc913589aa4ed6d30126c6f1dc31ba8287370a2a57e44e49ba4d
+~ -[AXReplayKitClientDelegate didStartRecordingOrBroadcast] : sha256 39cdfcb0348f4c157a2c5036f8694813307cc2178c68fb1df4814d6be857ac7c -> 505ef7012eb555851748ac50b3e5e52f5f1b17c941a238e47e4477a7db47d054
+~ +[AXReplayKitModuleGlue accessibilityInitializeBundle] : sha256 55642fca3a1754dd62f557bbd7300b304e990860a2c3fb5f745d4afbab893e89 -> f65244ecd9a6b35d5c1dc7b6ab84c611784106fb14a2b545e28a5896d34bdd83
+~ ___54+[AXReplayKitModuleGlue accessibilityInitializeBundle]_block_invoke : sha256 8801dd7b342eb10d644d626f9c373f426ccc55545949a8a2bd09d95aae9d2291 -> 7fe06e92e2aee13dd76299bde98e1c41a8512e13a7af91e262146a9005b1af87
+~ ___54+[AXReplayKitModuleGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 47f58e2eee362edf4b8baac543df657e801d86429b41f34410d189650e700ab2 -> 7a0e8db33f998b425cf250ca869c44503a15911bd07f6097e63e05e5c24c87a3
+~ ___54+[AXReplayKitModuleGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 8b0e04f234ca50a6a46333e43c459ca80481782bf61b396f3417250cb6931ac6 -> ad94aef9922c2acb80e8dfa1b2ef263ebbfc7a736f23da5c2537708489209c62
+~ ___54+[AXReplayKitModuleGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 b61d327db8a3a191ce8c521e27c1c00ae555d6cd1f61368d1ed2a14e78825f05 -> f230d20ceccdf76b71c05e143e2057f34503b5fcdc7f3f1b8960874e457d6e3b
+~ ___54+[AXReplayKitModuleGlue accessibilityInitializeBundle]_block_invoke_5 : sha256 04e6506cbef93fcf411b2fe37b565e16a0106374aca4a7a6803043dac7abd09b -> 1768274447c7bb2ba4c576210366d5f3ab7ffa15984436fc44134c3c39a54529
+
+```

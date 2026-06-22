@@ -1,0 +1,67 @@
+## AXNTKUtilities
+
+> `/System/Library/PrivateFrameworks/AXNTKUtilities.framework/AXNTKUtilities`
+
+```diff
+
+-1029.0.0.0.0
+-  __TEXT.__text: 0x888 sha256:dad0f038520cc4d2988a1aec0966b2805dfbbfdcce6807ffa292b9433029133c
++1032.0.0.0.0
++  __TEXT.__text: 0x888 sha256:a08efc64f6a92ff742493650739871502d774c7fdd8a852d0353261583bd65af
+   __TEXT.__const: 0x78 sha256:5aadfae790eec8c1b60411fc8e673c49e9b2a1d7599506f9c102926207c8894c
+   __TEXT.__cstring: 0x105 sha256:64012896200c88e05122997ee859599a2575402f8342f0529658d323ada1912f
+   __TEXT.__unwind_info: 0x88 sha256:3d1ccb7cf000e62d5396c722801b0e7c91606d72180672f424fb4cfeee65d756
+
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+-  __DATA_CONST.__const: 0x70 sha256:9ccbeb887b3d8d9695140e88b3bdb090398f80e7985be4b18bce6dce7bc82785
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:cb9d0c26e2006e1b01a92dc2dcd1373be7ef845e2f3d1b5c44cd17e64d87a8a2
++  __DATA_CONST.__const: 0x70 sha256:b674d8ee65a84d7997021f8b4040d4c5de70eb40df0b6efc82038c962edfb9a3
++  __DATA_CONST.__objc_classlist: 0x8 sha256:090384f32987d5859083c89aa08596e85f690a2327df6300f0fd5140223bb3d4
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x58 sha256:c58f80ddf688eb82f057631a4c9ab4dbc523f950c927e1a9316399e249751c92
+-  __DATA_CONST.__got: 0x38 sha256:334cec47680916998546373be9fe235d6659228cd269e11a69bce7b55385f66c
+-  __AUTH_CONST.__const: 0x40 sha256:7c999125919ac727d9e569707459b9acc5059e68a8a2055beee76d8914ad7f49
+-  __AUTH_CONST.__cfstring: 0x180 sha256:8592d646f40bda837529f1b3c40c3fe27f17117d502005fcec59f4dc66417f28
+-  __AUTH_CONST.__objc_const: 0x90 sha256:fbcac2b49c12edac81e2ec6fa68774e7043899e2e641c56e947e659077bc12c7
+-  __AUTH_CONST.__objc_intobj: 0x78 sha256:3036a85e55f706a6fee228c40d324b93f95cb356b05bec8b0e725e4036233e63
++  __DATA_CONST.__objc_selrefs: 0x58 sha256:3e47e21f5c0cc7f2d80368587842b39d672f4caa6552a00ce222792619a258b5
++  __DATA_CONST.__got: 0x38 sha256:22df49c04d83c624ad0f1268fb3d7f64c5f072d071632ee4049f8b8e5084d737
++  __AUTH_CONST.__const: 0x40 sha256:3ce0dae3f8de77f82049e39899637a13fd1b87c15329a4eb79c97517ef1f438c
++  __AUTH_CONST.__cfstring: 0x180 sha256:004a659e146066e5896c67aa3c2176e5881db487e8fb546d1f91bedd08cc59ce
++  __AUTH_CONST.__objc_const: 0x90 sha256:f3fb91214cc4eeee934390b00ca156b73589ca5cf59b9e5652897c77107c1aa8
++  __AUTH_CONST.__objc_intobj: 0x78 sha256:15f6998b6b51762e27a2f83156fc30005eedea450e727e256624acfad3d888d3
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:346ab5def04152d3f78d903004b2d33c89c3ef261271ef12d2747680430b9346
++  __AUTH.__objc_data: 0x50 sha256:28020371c3071a70b6c960a8ca0b9aec63f9b3a63e8bee553714340b288ee707
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/ClockKit.framework/ClockKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 86628616-1C8E-3EF8-9D72-954E134B1A91
++  UUID: 4E66680F-0A4C-3051-A768-7482A38CEC25
+   Functions: 14
+   Symbols:   84
+   CStrings:  25
+Symbols:
++ ___block_literal_global.371
+- ___block_literal_global.365
+Functions:
+~ _AXNTKFormattingManager : sha256 24f8aa58c31060bf7eb349d804a3c2b04c2e2023f4257f46aaf163ab2ecbca15 -> 43af31000d8e79dd95919677d42ea7d0212d31780b299f5cfb0a9337c26813e5
+~ ___AXNTKFormattingManager_block_invoke : sha256 9725a7d1e12b7c974740e521c1a4b65926e1f8c5804ac476a57c2dced91a2fd1 -> 8d49bd8980e36d9efe8483fc0fd610b5a7c821712350670ee4e15e932c964b6b
+~ _AXNTKUserIsWheelchairUserWithVoiceOverOn : sha256 e122e11147c49e3d97a6214dfecc2e30a04db8690415b60e3b35ac823fa276a8 -> 0c5cb2cdd5cd57e4855cbef394d5f4201b2cf3f08323d7e962d856661369f76f
+~ ___AXNTKUserIsWheelchairUserWithVoiceOverOn_block_invoke : sha256 d7126a0f4928481de4e558d7308582243f8ddc594390ad9096c6bb68b8458fb5 -> a47668156c041b7893a79a7c1a36bf21625a8e0eb0f12b9af347f2f345ebe079
+~ _AXNTKLocalizedStringForKey : sha256 5e7746f651807823eb6c6f101f7971389e19c67394b4bfdd0ec9115344a85fb3 -> ed76bdf47009810aada3993e410f016e5718b2e5e4b9254041405a18cbf898a2
+~ _AXNTKLocalizedStringForKeyInTable : sha256 468dd9ef7e1b85d7417731ba62f5d7b478f2349109fd35835e6f9dcf7ec90436 -> 53d521bc646ccc61fd98abbcf56c55a6f87acc5961b5833dc849bafe7cead645
+~ _AXNTKCurrentTimeForWatchFaces : sha256 5fae217cdfc6e58fff23806829fb4de60f0894fda68835b7ff6cab18752e853f -> 9a28f5df3244a2d440f44ec9090439ade02da31f6e8c75ac2257500a22b7cbf9
+~ _AXNTKClockTimeStringForDateIncludingSeconds : sha256 c2ab3e09f6391dc2a629395ddc32c20dd502c55e14e657fb441c7aeda4d327a2 -> 173b5ea1424b42d0e5c622bf66b9a71812e14d96190bfe34c1c1957b5d50bb02
+~ _AXNTKClockTimeVoiceOverSpokenStringForDate : sha256 12928b2753c3e458e195e9e99422b6ee4d44b7aea3980827b89af62c695d3a45 -> 1ec391683925cd6144682eb96335f72653c574d47d052ad5b024692de95b98a1
+~ _AXNTKClockTimeVoiceOverSpokenStringForWatchFaces : sha256 de4b4b6a1d281d79dca9760d415839a80ae36d81a36ab5497d556bc36aea6468 -> 703aefec87479ac26b210bfd97503f1c8e80b1ac4f7aa4014b58b1b867e6c8e2
+~ _AXSolarPathValue : sha256 d33c2c82521ee27eba9afaa46b29d7440657aa368a47fe727db32538dced1f13 -> e2540e6cc0be02690aa08832637ae07935df34f78626def7c195825357c4e09f
+~ _AXNTKComplicationTemplateContainsSimpleImage : sha256 e3062a59f61a4598e15369ba79a6f2040a114013a6ae007b6c3103e7a9bd10d3 -> 9886d80c79e503ac512ab1f965004688c327695e6c198d894e756c3454705e9d
+
+```

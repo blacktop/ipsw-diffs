@@ -1,0 +1,259 @@
+## MusicApplication
+
+> `/private/var/staged_system_apps/Music.app/Frameworks/MusicApplication.framework/MusicApplication`
+
+```diff
+
+-4026.100.59.0.0
+-  __TEXT.__text: 0xa8c8ac sha256:8386f4225c12c3b5d6a23650abb6e2d39756161861f4cd62f88df11e059e8b9f
+-  __TEXT.__auth_stubs: 0xaf90 sha256:e2a204d5976eed9758208fc46ad9e7fc690b7e2457eafd9471a848d2e5a7fe00
+-  __TEXT.__objc_stubs: 0x16dc0 sha256:500f1f90ed3d4eaeefeb4e3425b579c7728714c42357b9d39c4e504eef0523f7
+-  __TEXT.__objc_methlist: 0xfd24 sha256:69dc68cecc3a112fc94a0e92e7e30bfe2d928484c4c1de841670a73d899bcf42
+-  __TEXT.__objc_classname: 0xbe65 sha256:b4b5044e36645113c474e7e231c313392a8dd47ed0f153aa58f874e650783cb3
+-  __TEXT.__objc_methname: 0x30545 sha256:8320fe8b61a2b64ab7561b85966bc92147ec7f48686d2c4e832995301117817f
+-  __TEXT.__const: 0x534d2 sha256:34c88e70899d892857b3276ea22c5440251d775b1b057baec9e511bd5c911ff0
+-  __TEXT.__cstring: 0x57b3e sha256:d764d5c34ae6fa1534906d102aae7da70faddc000e32bfc3fa5ba1f047ba50db
++4026.100.69.0.0
++  __TEXT.__text: 0xa9601c sha256:b45b347256773b334ebaff3950205575933c5cad8352aadb25f1b8d4ddbe2cf7
++  __TEXT.__auth_stubs: 0xb000 sha256:4cc19af0ca824fdde5555fa992e5f77e02ca0068bb59219ae1e08056b69bb9ad
++  __TEXT.__objc_stubs: 0x16e00 sha256:cded4916f88224b705f8b7dc704872c7071500c0c5f461b325a832df42a7f97c
++  __TEXT.__objc_methlist: 0xfd24 sha256:5f4dfe8a4f3ed8143b8e94d86fb55d908cbb9f62aab84f96105d31c81ee8a7a1
++  __TEXT.__objc_classname: 0xbe85 sha256:4705b5092d00b1346616f717add9772592b9d8f7a2c06946fb91aee5f7c939bb
++  __TEXT.__objc_methname: 0x305c5 sha256:bcf40db3a9f774ba772b446e45585890d8641d4f241ddaeb4ec159856aaa259b
++  __TEXT.__const: 0x53692 sha256:f74f88d041073d4431923ab7a10820395485b69865cfb9cb16e512c17f1a8a91
++  __TEXT.__cstring: 0x5852e sha256:55457c942cb0241788128ae2e314c37f6cf4107906ff61470ea29bb10182c880
+   __TEXT.__ustring: 0x2a2 sha256:1096af3b93993b2a77a92a35a67cdd58ad537e3adc8851b46257061da6c593ec
+   __TEXT.__objc_methtype: 0x8a58 sha256:3a43ffb0f36df104d12f71f3f2c0a3e749407228bcfea359930a26ca5e714b24
+   __TEXT.__gcc_except_tab: 0x23c sha256:23a5911db01c1e148d4c6301492665979689ec6f7159ad3836325102e6162dd8
+   __TEXT.__oslogstring: 0xdd1a sha256:646defcbf9bb991a13f26d0b9715f329b51030a5d524b1b6860e273e3e717d0d
+-  __TEXT.__swift5_typeref: 0x30e06 sha256:60df6c9b6b3efbbc6e6bb7ecfa0408240c5be06c3c4fddf290aa04e157b1cd66
+-  __TEXT.__constg_swiftt: 0x32020 sha256:a5b2c1d54abbc789f82f58a934db321539e2a68a3260d7397891e935acff920c
+-  __TEXT.__swift5_builtin: 0x134c sha256:6e196f29797554026131b64ea74a7470665119c3b4179d291a45130a5e826283
+-  __TEXT.__swift5_reflstr: 0x29545 sha256:9e387ae2a638b98ad3ac62b25c10848fb1f715d59fffffe903866946b517d609
+-  __TEXT.__swift5_fieldmd: 0x23040 sha256:ae68e5f02f18509d4fb452a47524f3f956908969ea0f11ed4d45a196870a5cdb
+-  __TEXT.__swift5_assocty: 0x4c68 sha256:8a6c7a0e33e2431572b38dfd9282f3c7ac03c3e6e24beca61d702457e022ccc9
+-  __TEXT.__swift5_proto: 0x32c4 sha256:15f6b513a771ccccbcec33a34da43f623167091889b83b9c7a3524b6d74a075c
+-  __TEXT.__swift5_types: 0x2228 sha256:c813ea3b67972f2848afa83b19d262118a0989e6321944a7c67b1d8837e2382e
+-  __TEXT.__swift5_capture: 0x1634c sha256:abb8ee58ef940330fffa4fe500eb7bc22df0e0366247bb982946244187517350
+-  __TEXT.__swift5_protos: 0x3ac sha256:4f1c088ebe79ee857ffc4d3c6dd6bf1d28b52c0284aeeb209cecac9454d4078d
+-  __TEXT.__swift_as_entry: 0x988 sha256:c93140a3574d58f3d8fc98aea054184f50621596babc73edbe9bfa9633bf168c
+-  __TEXT.__swift_as_ret: 0x850 sha256:973370c36f9bd4e456ce044663a8e6c39f6c3883b630e4e53843d1e71835c35e
+-  __TEXT.__swift_as_cont: 0x11c4 sha256:21e9b2b53a76875897e0f4e9f0dde1bcda4423976f7863fbe7780c9234e86c28
+-  __TEXT.__swift5_mpenum: 0x3c4 sha256:d565357c1ffd11503006affa458f6c21b5d9b9638d39b2bf13def7b16fc4e707
+-  __TEXT.__unwind_info: 0x21ce0 sha256:ade90fae567b1fc0a57b619cb8b32293b0bd73061af59323eaac1b7bef7aa1d4
+-  __TEXT.__eh_frame: 0x1a788 sha256:273e0cfb0f10b2261e99fa4056fd7b8115dc141624c16198c1c0bab79b5e8074
+-  __DATA_CONST.__const: 0x6aa60 sha256:bf83892a05ada7b276a90346061a454df99b2de236c9ac929656507ab665303a
+-  __DATA_CONST.__cfstring: 0xcc0 sha256:cbd9329d889da14eb55c642a20073094a24bce6a1788e05a167ae02252dc8b59
+-  __DATA_CONST.__objc_classlist: 0x1698 sha256:fb31625cabc350e975398997d5f14da04227b8cd7190cc611e84e75a0ed60cab
+-  __DATA_CONST.__objc_catlist: 0x130 sha256:fd5b707856265483eef4dacfb75a592250b848260cc073444361678d5b0ff17d
+-  __DATA_CONST.__objc_protolist: 0x828 sha256:097de1aab2c0c4a5bcd61293f80d1da7b7bd50132e7b536cb4160dc0eb6546e2
++  __TEXT.__swift5_typeref: 0x31060 sha256:c1a47c3451f67a1d2e09e1f3c58fec596b56dd845d6ec0ff12d138cbde6b0053
++  __TEXT.__constg_swiftt: 0x31f54 sha256:fd4a6f1f273caa8cfe4f7941197e8bc0b234b58d4509f857bcf4c39d138d3b84
++  __TEXT.__swift5_builtin: 0x134c sha256:df069fc5756f7abdf945584f623a79ae403a4467947cf850f74e75d3a9f1deb8
++  __TEXT.__swift5_reflstr: 0x295a5 sha256:c8dfcd3feb9112df37aaaca21954dbb1d370318eae2dedb09f3d4e12ce03f86d
++  __TEXT.__swift5_fieldmd: 0x230a4 sha256:4871b204d7c9d2ac14d5a0e28a1d34338e4d1905b242e7f30266d4fe03024723
++  __TEXT.__swift5_assocty: 0x4c68 sha256:8dd9750ed90a1ed7ea9834f41a4425f43ec45e7c24d8fd5744a56a5143838e07
++  __TEXT.__swift5_proto: 0x32cc sha256:b048d74d81bb91b2c23aa092334641abf9cb87cb34ec48aa61068c09049ad411
++  __TEXT.__swift5_types: 0x222c sha256:37be3adc08b6629d99c6dab246caea3ff7c37664789ebd0fdbadf0211bbf816d
++  __TEXT.__swift5_capture: 0x163a4 sha256:ec8cafc8f8ff658da3300a8f84d51306df1e278eb827921a9e46531ecd7a395c
++  __TEXT.__swift5_protos: 0x3ac sha256:6d737b37bbc20df52b8931fed524cef7d019493721adb6f4be272acd2300653b
++  __TEXT.__swift_as_entry: 0x9a8 sha256:6f2e6e913f59ece0ac67ceaae325aacad8e4df6faf4031e42ef140dd281f745b
++  __TEXT.__swift_as_ret: 0x8f0 sha256:f4789cdc9d1a08d6d00e540e116173b305e61cc79c0b17566639e79a9489adb6
++  __TEXT.__swift_as_cont: 0x127c sha256:a51dbe0a6b6eb9968300ab1bab8dcd142eb1e21b4033612645d04e7d389890e5
++  __TEXT.__swift5_mpenum: 0x3c4 sha256:a721ac5491b42db0eacd73f0147e8896300d4fbb0676ed3f9e4bdd6cd8800eb0
++  __TEXT.__unwind_info: 0x21df0 sha256:4ade342e9735bbaa52b7e761a28272c3d276ce5bc9621da29781e6c7bd97ea8b
++  __TEXT.__eh_frame: 0x1ae48 sha256:5f841fcf26305ca07f4a362df60bb9525d27e463943ae4488e47a3e89f789d62
++  __DATA_CONST.__const: 0x6a998 sha256:f679ff3f086568d616ba02d4471aff1ad6ea61ea2727250d075dd6d628872bee
++  __DATA_CONST.__cfstring: 0xcc0 sha256:628bef289bc1cca309e6c470896e1e9b8f4fd76e9311562adb6447b2b4b6782e
++  __DATA_CONST.__objc_classlist: 0x1698 sha256:dcb037a79268b89242811f3749139fbbf6abdd4c62cf7459097c5f6a69bcc949
++  __DATA_CONST.__objc_catlist: 0x130 sha256:83f0abd32adfa73ce81079c37228316a893a1b5c37b1686906b9514137b27ad9
++  __DATA_CONST.__objc_protolist: 0x838 sha256:23d5e8ef6bbea37ff59b58d95d40f2646babcf017938e0e74f12c41af66030b5
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0x410 sha256:39bf33f60069c156c9346b517332c10b3f1681427ba94ae7e61e9a60bd93ca50
+-  __DATA_CONST.__objc_superrefs: 0x58 sha256:8ae6d4725281ce6b16ac85b743549788db1bb3f2d116598f628cf580c08606f7
++  __DATA_CONST.__objc_protorefs: 0x418 sha256:2621423f2ba0f616484f2c03f2655b5ec17edfb7084ae70c96043cc1c09bcedc
++  __DATA_CONST.__objc_superrefs: 0x58 sha256:e96aec98534520126853006b104f489897cdc290ae95b8bb4f3169c1fbc93fcb
+   __DATA_CONST.__objc_doubleobj: 0x20 sha256:cca126c20a54a005dc76afa4dc59eca6d913b1c4f1152ca95928afa950b24ca0
+-  __DATA_CONST.__auth_got: 0x57d8 sha256:a7f4ef8026db32a8c07aae41dc20237d07b8eb2750c75be159d7216956cc7798
+-  __DATA_CONST.__got: 0x49a0 sha256:71265740116bc9ebfaba7d4ab91d07dabde60c2bce6056710fd86eebe9867000
+-  __DATA_CONST.__auth_ptr: 0x9f30 sha256:e6120d0fbf343b72c059e88706f0ed689b073092046b00012e623bb7aa71fb22
+-  __DATA.__objc_const: 0x3b7a8 sha256:6d2b32f5c5c47633914bda59819ca4aa6ef66100f5d9c299286637c9458498d7
+-  __DATA.__objc_selrefs: 0x8160 sha256:bdedfef5e2c37411eff8d0ae40bb755962316f1821845251eb1d1d7da7c16e60
++  __DATA_CONST.__auth_got: 0x5810 sha256:aa6a66691e979d10e4ddf85c7c4df1deabff2150260fb3902fd02e5fec5bf673
++  __DATA_CONST.__got: 0x49c8 sha256:9577223998cc34bc11bb2dd3f629776925fff48e9387a54287420bbbe71b9e44
++  __DATA_CONST.__auth_ptr: 0x9f28 sha256:381f5a01c8b238c43b4a5c4dd48d40641a9bf17279e5aca72f133183329d6664
++  __DATA.__objc_const: 0x3b828 sha256:faf965b452dcfe1d591dfb935a803e17cdb2ca83e4a984049d80aaff30787d1a
++  __DATA.__objc_selrefs: 0x8170 sha256:361090e585829409af887bc8aa232096ad11f95f365d44ca15aa38bbc6e85a79
+   __DATA.__objc_ivar: 0x104 sha256:bc2d3f131f7a99e1114c78ad7d7b50fd4ad763c0f893da590cb3db9be73a37fe
+-  __DATA.__objc_data: 0x3fff8 sha256:6f1c5cc6582840d3332e0d36317b4efaf7d0f4ac666a9c81e0c2e16dba602223
+-  __DATA.__data: 0x42120 sha256:41f9ceec839155cbb1664282a1108d323447f72505773e9c00d0e2cc4fd984e6
+-  __DATA.__objc_stublist: 0x150 sha256:e38021d71d8177bc59c4117da7e89c08937d7929486ca9f3b0818f73b3eea90a
+-  __DATA.__bss: 0x4a300 sha256:cca91946e79fb48e0490df38ad0d962cb6a59d3642955c375264ece44f061ba2
+-  __DATA.__common: 0x59e8 sha256:700e917213bd64a2b99eb5de7f88de741db2fdc0f697abcab3e101ce6c50f196
++  __DATA.__objc_data: 0x40020 sha256:813348bd0875897278e70699c7eb92991ab620b0de265004b67b2f5976cb36c0
++  __DATA.__data: 0x42310 sha256:2e2d37eea60e5a3722e1df538766c7495dbf6cec517f6f7deeb06a252da12dda
++  __DATA.__objc_stublist: 0x150 sha256:b03935914e832e6a7054dab5f404cf3c19e15a2e6357409be9e6d3635a4d2db2
++  __DATA.__bss: 0x4a390 sha256:64ed4e9214adffd3aa641fae220cc907f681c4ff6377922f73a303d95353bde6
++  __DATA.__common: 0x59e8 sha256:f235d8e1592dc288321b989b64cd36273e573fa019de094483538b55e5664b7b
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 93786C3E-8EDA-3FA8-ACDC-258F6AAA5D5D
+-  Functions: 51310
+-  Symbols:   29223
+-  CStrings:  12782
++  UUID: C387DA32-8F80-33E8-A1A9-9ABE18E732A4
++  Functions: 51365
++  Symbols:   29247
++  CStrings:  12808
+ 
+Symbols:
++ _OBJC_CLASS_$_UINavigationItem
++ _PROTOCOLS__TtCC16MusicApplication23LibrarySearchControllerP33_74DC0E8E86C2700EAF59346E7D7979E311BarDelegate.38
++ __OBJC_$_PROTOCOL_REFS_UITraitChangeRegistration
++ __OBJC_LABEL_PROTOCOL_$_UITraitChangeRegistration
++ __OBJC_PROTOCOL_$_UITraitChangeRegistration
++ __swift__destructor.233
++ __swift__destructor.278
++ __swift__destructor.281
++ __swift_closure_destructor.12Tm
++ __swift_closure_destructor.204Tm
++ __swift_closure_destructor.251Tm
++ __swift_closure_destructor.284Tm
++ __swift_closure_destructor.314Tm
++ __swift_closure_destructor.330
++ __swift_closure_destructor.343
++ __swift_closure_destructor.347
++ __swift_closure_destructor.353
++ __swift_closure_destructor.377
++ __swift_closure_destructor.427
++ __swift_closure_destructor.444
++ __swift_closure_destructor.461
++ __swift_closure_destructor.75Tm
++ __swift_closure_destructor.84Tm
++ _flat unique So25UITraitChangeRegistration_p
++ _objc_msgSend$favoriteSongAddToLibraryBehavior
++ _objc_msgSend$options
++ _symbolic SDySu_____G So6CGRectV
++ _symbolic SSyYac
++ _symbolic Say_____G 7SwiftUI4TextV
++ _symbolic SdIegd_
++ _symbolic SdIegr_
++ _symbolic _____ So6UIViewC11MusicCoreUIE18SafeAreaBarRegionsV
++ _symbolic _____SgXwz_Xx 16MusicApplication23LibrarySearchControllerC
++ _symbolic _____Sg_ABt 16MusicKitInternal0A14FavoriteStatusO
++ _symbolic ______pSg So25UITraitChangeRegistrationP
++ _symbolic _____yAAyAAy_____y_____y_____yAAy__________G_AAyAAy_____y_____y_____AAyAAyAI_____y_____GG_____y_____SgGGGG_____GAUGSgAFQPGG______SgQo______GAEG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV AA5GroupV AA012_ConditionalD0V 09MusicCoreB006NoticeE0V AA21_TraitWritingModifierV AA010TransitionT3KeyV AA012_EnvironmentxuV0V AU0S9DismissalV AA08_PaddingN0V 0qR00S0V AA024_SafeAreaRegionsIgnoringN0V AA017_AppearanceActionV0V
++ _symbolic _____yAAy__________y_____GG_____y_____SgGG 7SwiftUI15ModifiedContentV 09MusicCoreB010NoticeViewV AA21_TraitWritingModifierV AA010TransitionI3KeyV AA012_EnvironmentmjK0V AD0G9DismissalV
++ _symbolic _____yAAy_____y_____y_____AAyAAyAD_____y_____GG_____y_____SgGGGG_____GAPG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 09MusicCoreB010NoticeViewV AA21_TraitWritingModifierV AA010TransitionK3KeyV AA012_EnvironmentolM0V AH0I9DismissalV AA14_PaddingLayoutV
++ _symbolic _____yAAy_____y_____y_____AAyAAyAD_____y_____GG_____y_____SgGGGG_____GAPGSg 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 09MusicCoreB010NoticeViewV AA21_TraitWritingModifierV AA010TransitionK3KeyV AA012_EnvironmentolM0V AH0I9DismissalV AA14_PaddingLayoutV
++ _symbolic _____yAAy_____y_____y_____yAAy__________G_AAyAAy_____y_____y_____AAyAAyAI_____y_____GG_____y_____SgGGGG_____GAUGSgAFQPGG______SgQo______GAEG 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV AA5GroupV AA012_ConditionalD0V 09MusicCoreB006NoticeE0V AA21_TraitWritingModifierV AA010TransitionT3KeyV AA012_EnvironmentxuV0V AU0S9DismissalV AA08_PaddingN0V 0qR00S0V AA024_SafeAreaRegionsIgnoringN0V
++ _symbolic _____ySnySiGSi_____G 7SwiftUI7ForEachV AA4TextV
++ _symbolic _____ySu_____G s18_DictionaryStorageC So6CGRectV
++ _symbolic _____y_____G 7SwiftUI14_UIHostingViewC 09MusicCoreB0018NoticePresentationD033_D8FBFBA4851A241D976DAD2E389878C1LLV
++ _symbolic _____y__________G_AAyAAy_____y_____y_____AAyAAyAG_____y_____GG_____y_____SgGGGG_____GASGSgADt 7SwiftUI15ModifiedContentV AA6SpacerV AA12_FrameLayoutV AA5GroupV AA012_ConditionalD0V 09MusicCoreB010NoticeViewV AA21_TraitWritingModifierV AA010TransitionN3KeyV AA012_EnvironmentroP0V AL0L9DismissalV AA08_PaddingG0V
++ _symbolic _____y___________y_____y__________G_ADyADy_____y_____y_____ADyADyAJ_____y_____GG_____y_____SgGGGG_____GAVGSgAGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA6SpacerV AA06_FrameG0V AA5GroupV AA012_ConditionalI0V 09MusicCoreB006NoticeD0V AA21_TraitWritingModifierV AA010TransitionR3KeyV AA012_EnvironmentvsT0V AT0Q9DismissalV AA08_PaddingG0V
++ _symbolic _____y__________yACyAB_____y_____GG_____y_____SgGG_G 7SwiftUI19_ConditionalContentV7StorageO 09MusicCoreB010NoticeViewV AA08ModifiedD0V AA21_TraitWritingModifierV AA010TransitionK3KeyV AA012_EnvironmentolM0V AF0H9DismissalV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 09MusicCoreB010NoticeViewV AA21_TraitWritingModifierV AA010TransitionI3KeyV
++ _symbolic _____y_____y_____y_____AAyAAyAD_____y_____GG_____y_____SgGGGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 09MusicCoreB010NoticeViewV AA21_TraitWritingModifierV AA010TransitionK3KeyV AA012_EnvironmentolM0V AH0I9DismissalV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y__________G_ACyACy_____y_____y_____ACyACyAI_____y_____GG_____y_____SgGGGG_____GAUGSgAFQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA6SpacerV AA12_FrameLayoutV AA5GroupV AA012_ConditionalE0V 09MusicCoreB010NoticeViewV AA21_TraitWritingModifierV AA010TransitionP3KeyV AA012_EnvironmenttqR0V AP0N9DismissalV AA08_PaddingI0V
++ _symbolic _____y_____y_____y_____yAAy__________G_AAyAAy_____y_____y_____AAyAAyAI_____y_____GG_____y_____SgGGGG_____GAUGSgAFQPGG______SgQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV AA5GroupV AA012_ConditionalD0V 09MusicCoreB006NoticeE0V AA21_TraitWritingModifierV AA010TransitionT3KeyV AA012_EnvironmentxuV0V AU0S9DismissalV AA08_PaddingN0V 0qR00S0V AA024_SafeAreaRegionsIgnoringN0V
++ _symbolic _____y_____yx_Qo_______y_____y_____yx______ySnySiGSi_____GQPGG_Qo_Qo_ 7SwiftUI4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaBRd__lFQO AcAE10textSuffixyQrAA4TextV0H0VFQO AcAE0D7Element8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6HStackV AA12TupleContentV AA7ForEachV AH
++ _type_layout_string So6UIViewC11MusicCoreUIE18SafeAreaBarRegionsV
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA6VStackVyAA05TupleD0VyACyAA6SpacerVAA12_FrameLayoutVG_ACyACyAA5GroupVyAA012_ConditionalD0Vy09MusicCoreB006NoticeE0VACyACyAxA21_TraitWritingModifierVyAA010TransitionT3KeyVGGAA012_EnvironmentxuV0VyAV0S9DismissalVSgGGGGAA08_PaddingN0VGA13_GSgAQQPGG_0qR00S0VSgQo_AA024_SafeAreaRegionsIgnoringN0VGAPGAA017_AppearanceActionV0VGAaDHPA27_AaDHPA26_AaDHPqd0__AaDHD3_A23_HO_A25_AA0eV0HPyHCHC_ApAA31_HPyHCHC_A29_AAA31_HPyHCHC.121
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx09MusicCoreB032NoticePresentingResolverModifierVGAaBHPxAaBHD1__AgA0cK0HPyHCHC.61
++ get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaBRd__lFQOyAcAE10textSuffixyQrAA4TextV0H0VFQOyx_Qo__AcAE0D7Element8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA6HStackVyAA12TupleContentVyx_AA7ForEachVySnySiGSiAHGQPGG_Qo_Qo_HO.10
++ get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAA01_c9Modifier_I0Vy09MusicCoreB0024NoticePresentingResolverJ0VGAA08_OverlayJ0VyAK011WindowSceneO0VGG_So08UIWindowR0CSgQo_HO.63
+- _PROTOCOLS__TtCC16MusicApplication23LibrarySearchControllerP33_74DC0E8E86C2700EAF59346E7D7979E311BarDelegate.35
+- __swift__destructor.162
+- __swift__destructor.299
+- __swift__destructor.302
+- __swift__destructor.456
+- __swift_closure_destructor.207Tm
+- __swift_closure_destructor.272Tm
+- __swift_closure_destructor.305Tm
+- __swift_closure_destructor.312
+- __swift_closure_destructor.322
+- __swift_closure_destructor.335Tm
+- __swift_closure_destructor.351
+- __swift_closure_destructor.361
+- __swift_closure_destructor.433
+- __swift_closure_destructor.440
+- __swift_closure_destructor.473
+- __swift_closure_destructor.476
+- __swift_closure_destructor.482
+- _symbolic _____yAAyAAyAAyAAy__________GACGACG_____y_____GG_____y_____SgGG 7SwiftUI15ModifiedContentV 09MusicCoreB010NoticeViewV AA14_PaddingLayoutV AA21_TraitWritingModifierV AA010TransitionK3KeyV AA012_EnvironmentolM0V AD0G9DismissalV
+- _symbolic _____yAAyAAyAAyAAy__________GACGACG_____y_____GG_____y_____SgGGSg 7SwiftUI15ModifiedContentV 09MusicCoreB010NoticeViewV AA14_PaddingLayoutV AA21_TraitWritingModifierV AA010TransitionK3KeyV AA012_EnvironmentolM0V AD0G9DismissalV
+- _symbolic _____yAAyAAyAAy__________GACGACG_____y_____GG 7SwiftUI15ModifiedContentV 09MusicCoreB010NoticeViewV AA14_PaddingLayoutV AA21_TraitWritingModifierV AA010TransitionK3KeyV
+- _symbolic _____yAAyAAy__________GACGACG 7SwiftUI15ModifiedContentV 09MusicCoreB010NoticeViewV AA14_PaddingLayoutV
+- _symbolic _____yAAy__________GACG 7SwiftUI15ModifiedContentV 09MusicCoreB010NoticeViewV AA14_PaddingLayoutV
+- _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 09MusicCoreB022NoticePresentationView33_D8FBFBA4851A241D976DAD2E389878C1LLV
+- _symbolic _____y_____GSg 7SwiftUI11AnyLocationC 09MusicCoreB015NoticePresenterC
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 09MusicCoreB010NoticeViewV AA14_PaddingLayoutV
+- _symbolic _____y__________G_AAyAAyAAyAAyAAy__________GAFGAFG_____y_____GG_____y_____SgGGSgADt 7SwiftUI15ModifiedContentV AA6SpacerV AA12_FrameLayoutV 09MusicCoreB010NoticeViewV AA08_PaddingG0V AA21_TraitWritingModifierV AA010TransitionM3KeyV AA012_EnvironmentqnO0V AH0J9DismissalV
+- _symbolic _____y___________y_____y__________G_ADyADyADyADyADy__________GAIGAIG_____y_____GG_____y_____SgGGSgAGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA6SpacerV AA06_FrameG0V 09MusicCoreB006NoticeD0V AA08_PaddingG0V AA21_TraitWritingModifierV AA010TransitionQ3KeyV AA012_EnvironmenturS0V AP0O9DismissalV
+- _symbolic _____y_____y_____yAAy__________G_AAyAAyAAyAAyAAy__________GAHGAHG_____y_____GG_____y_____SgGGSgAFQPGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV 09MusicCoreB010NoticeViewV AA08_PaddingI0V AA21_TraitWritingModifierV AA010TransitionO3KeyV AA012_EnvironmentspQ0V AL0L9DismissalV AA05_FlexhI0V
+- _symbolic _____y_____y_____y__________G_ACyACyACyACyACy__________GAHGAHG_____y_____GG_____y_____SgGGSgAFQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA6SpacerV AA12_FrameLayoutV 09MusicCoreB010NoticeViewV AA08_PaddingI0V AA21_TraitWritingModifierV AA010TransitionO3KeyV AA012_EnvironmentspQ0V AL0L9DismissalV
+- _symbolic _____y_____yx_Qo_______y_____y_____yx______QPGG_Qo_Qo_ 7SwiftUI4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaBRd__lFQO AcAE10textSuffixyQrAA4TextV0H0VFQO AcAE0D7Element8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6HStackV AA12TupleContentV AH
+- _symbolic _____z_Xx 12CoreGraphics7CGFloatV
+- _type_layout_string 11MusicCoreUI22NoticePresentationView33_D8FBFBA4851A241D976DAD2E389878C1LLV
+- block_copy_helper.107
+- block_copy_helper.260
+- block_copy_helper.292
+- block_descriptor.109
+- block_descriptor.262
+- block_descriptor.294
+- block_destroy_helper.108
+- block_destroy_helper.261
+- block_destroy_helper.293
+- get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA05TupleD0VyACyAA6SpacerVAA12_FrameLayoutVG_ACyACyACyACyACy09MusicCoreB010NoticeViewVAA08_PaddingI0VGAQGAQGAA21_TraitWritingModifierVyAA010TransitionO3KeyVGGAA012_EnvironmentspQ0VyAM0L9DismissalVSgGGSgALQPGGAA05_FlexhI0VGAA0M0HPA8_AAA12_HPyHC_A10_AA0mQ0HPyHCHC.107
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx09MusicCoreB032NoticePresentingResolverModifierVGAaBHPxAaBHD1__AgA0cK0HPyHCHC.56
+- get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaBRd__lFQOyAcAE10textSuffixyQrAA4TextV0H0VFQOyx_Qo__AcAE0D7Element8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA6HStackVyAA12TupleContentVyx_AHQPGG_Qo_Qo_HO.10
+- get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAA01_c9Modifier_I0Vy09MusicCoreB0024NoticePresentingResolverJ0VGAA08_OverlayJ0VyAK011WindowSceneO0VGG_So08UIWindowR0CSgQo_HO.58
+CStrings:
++ "Action title for favoriting an item when there is limited space, and the text needs to be as short as possible."
++ "Are you sure you want to delete this album from your library? This will also remove songs from your favorites and from any playlists you made."
++ "Are you sure you want to delete this album from your library? This will also remove songs from your favorites."
++ "Are you sure you want to delete this album from your library? This will also remove these songs from any playlists you made."
++ "Are you sure you want to delete this folder? This will delete all playlists in the folder from your library."
++ "Are you sure you want to delete this music video from your library? This will also remove it from any playlists you made."
++ "Are you sure you want to delete this music video from your library? This will also remove it from your favorites and from any playlists you made."
++ "Are you sure you want to delete this music video from your library? This will also remove it from your favorites."
++ "Are you sure you want to delete this song from your library? This will also remove it from any playlists you made."
++ "Are you sure you want to delete this song from your library? This will also remove it from your favorites and from any playlists you made."
++ "Are you sure you want to delete this song from your library? This will also remove it from your favorites."
++ "Compact Favorite Action"
++ "Delete Playlist from Library?"
++ "Deleting this playlist will remove it from all of your devices and will stop collaboration."
++ "Do you want to remove this album from your downloads or delete it from your library? Deleting will also remove songs from your favorites and from any playlists you made."
++ "Do you want to remove this album from your downloads or delete it from your library? Deleting will also remove songs from your favorites."
++ "Do you want to remove this album from your downloads or delete it from your library? Deleting will also remove these songs from any playlists you made."
++ "Do you want to remove this playlist from your downloads or delete it from your library? Deleting it will stop collaboration."
++ "Do you want to remove this playlist from your downloads or delete it from your library? If you delete it, you’ll be unable to collaborate on this playlist and your name and photo will no longer appear."
++ "Do you want to remove this song from your downloads or delete it from your library? Deleting will also remove it from any playlists you made."
++ "Do you want to remove this song from your downloads or delete it from your library? Deleting will also remove it from your favorites and from any playlists you made."
++ "Do you want to remove this song from your downloads or delete it from your library? Deleting will also remove it from your favorites."
++ "Do you want to remove this video from your downloads or delete it from your library? Deleting will also remove it from any playlists you made."
++ "Do you want to remove this video from your downloads or delete it from your library? Deleting will also remove it from your favorites and from any playlists you made."
++ "Do you want to remove this video from your downloads or delete it from your library? Deleting will also remove it from your favorites."
++ "Song is current playing song and insert command is not supported"
++ "UITraitChangeRegistration"
++ "You’ll be unable to collaborate on this playlist and your name and photo will no longer appear."
++ "currentElapsedTime"
++ "favoriteSongAddToLibraryBehavior"
++ "noticeView"
++ "sizingNoticeView"
++ "traitChangeRegistration"
+- "Are you sure you want to delete this album from your library? This would also remove its tracks from playlists you made."
+- "Are you sure you want to delete this from your library? This would also remove it from playlists you made."
+- "Are you sure you want to delete this music video from your library? This would also remove it from playlists you made."
+- "Are you sure you want to delete this song from your library? This would also remove it from playlists you made."
+- "Do you want to remove this album from your downloads or delete it from your library? Delete from Library would also remove its tracks from playlists you made."
+- "Do you want to remove this song from your downloads or delete it from your library? Delete from Library would also remove it from playlists you made."
+- "Do you want to remove this video from your downloads or delete it from your library? Delete from Library would also remove it from playlists you made."
+
+```

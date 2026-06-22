@@ -1,0 +1,646 @@
+## DataDetectorsNaturalLanguage
+
+> `/System/Library/PrivateFrameworks/DataDetectorsNaturalLanguage.framework/DataDetectorsNaturalLanguage`
+
+```diff
+
+ 175.0.0.0.0
+-  __TEXT.__text: 0x2689c sha256:b6c8d7d567af3babc8236fabc15236bb771d6c6f738585c51a039b7c443a5aea
+-  __TEXT.__objc_methlist: 0x193c sha256:d13278ab672352440eb05c3a9ee93a6f942d768486e5ab354fbc4b1863d20df6
++  __TEXT.__text: 0x265a4 sha256:47e6d4d877ba10923c80f6aca7aedb8b10c2ea41c2ebbf85db502c72300a15b3
++  __TEXT.__objc_methlist: 0x193c sha256:a803423a220062566ddec8d9f8d5d77623ac4c2136aee927c3118453ea204065
+   __TEXT.__const: 0x398 sha256:8b0947d3bf33eca4481e36ab663818459ec68836e3d3a41babf061b3dd2183cb
+   __TEXT.__cstring: 0x17f9a sha256:051615090cbeb7fb390c0aff7ce8055e722983f399c6aac59a407b07bba48bb0
+-  __TEXT.__gcc_except_tab: 0x994 sha256:5afd49c274e495702f287b45a43b7b1da3ac32debdafc40df0c24497c4d3520f
++  __TEXT.__gcc_except_tab: 0x994 sha256:ecdf49efdf0e4cab45041fda0354409e22dc9dacb1ba1d89f4193aaa25675cf0
+   __TEXT.__oslogstring: 0x15c9 sha256:a71d12b60bdf489326629f70bcb51cdb1c1ec2ba002adc6517ae36f4509010f3
+   __TEXT.__ustring: 0x2669a sha256:93199f4318a25e09d09d07990c41c24ca32a2e3a141366620ddcaefeb1c1067f
+-  __TEXT.__unwind_info: 0x7a0 sha256:e10c3ba61efbf1b48303fa3da77895bcc7c8e6e5fe1173deab6c8cc83e1d67f4
++  __TEXT.__unwind_info: 0x7a0 sha256:5b39f31f2a153687cbf008d0d320d032046234319ee3bd2a62dea29e18b69883
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x838 sha256:b4534600052cce58074573473afb6654fdf35504891a82fd8d62be8e3e3bf8a2
+-  __DATA_CONST.__objc_classlist: 0xb8 sha256:ec2a1da95594b2d8954b061ef82299475f91371f1f3a5ad3e390dc722501cf87
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:431ac03c4790a103852319ae5596a420ad9e6e6413343836423fe3025fef23b0
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:6189762edf7228541c927b1c20cc391613762c9e31910d355cdbc620956d81c7
++  __DATA_CONST.__const: 0x838 sha256:717f671445176353df02332c76dcb44251ec9801f7394b2c6273d3dad59504e6
++  __DATA_CONST.__objc_classlist: 0xb8 sha256:aa882c4a12478a0e357ee25f87407c8d14a33e6cae8dc21455b7c2e82d6769ee
++  __DATA_CONST.__objc_catlist: 0x8 sha256:35b75ef024495e78e38ec35a44b863b576a35eadb9551e71854955dbdad3425f
++  __DATA_CONST.__objc_protolist: 0x8 sha256:9a0ddf5c352c6934e84eba3ac647546709eb221cbd2d32d332ca8b9bc6c99f5a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x14e8 sha256:c25b506f37837fc7d308b99b5f9cb2a74b94236dc4a3a3e39b2fb78a646f0bef
+-  __DATA_CONST.__objc_superrefs: 0x70 sha256:565fedb1100dcf5952db885803534cc00410997aa80ee23f9983ba5f22ace631
+-  __DATA_CONST.__objc_arraydata: 0x29860 sha256:fe26f3f58ead1a86007729e64f2f0acbff2bd59ef6fd118520c2e0564b1771fb
+-  __DATA_CONST.__got: 0x2c8 sha256:256a4fde93a2438817212a270c2d8422d6d1cefb1579ddd18f79aa2f03fb291b
+-  __AUTH_CONST.__const: 0x580 sha256:90415e957b5f2532c9c7979610c372d12e0b0925f5d817551f4f16d61cd7d8e8
+-  __AUTH_CONST.__cfstring: 0x35ca0 sha256:4b2d0715804cf4182f12ef48465e20a0296d0bc7f09d3d403956b6bee689041f
+-  __AUTH_CONST.__objc_const: 0x25f0 sha256:fcb3ca4a9bee33ac1437f7d6f90fe75703e540e170a01e4d64259d0e72759f25
+-  __AUTH_CONST.__objc_doubleobj: 0x90 sha256:310b6c8576842ddcc3edfcbca145651527126875b68026c4184c36beed697b09
+-  __AUTH_CONST.__objc_intobj: 0x288 sha256:fcadb5e4522b2cb1b0dcbc6e0cf96673a84553f0501e0982a6beab8adc745351
+-  __AUTH_CONST.__objc_arrayobj: 0x7140 sha256:0a8e4eee14913b1692141632280220bf9dd5331559abfda1cecfaf4b92464132
+-  __AUTH_CONST.__objc_dictobj: 0xa9d8 sha256:db0e2eadd0efad210a05f18c111282fbb333e59457326270740b4d523cea8fb2
++  __DATA_CONST.__objc_selrefs: 0x14e8 sha256:efa8ead3b7e5f6937c610e2c2e0e9f9daa7ddc2380b866c6e3d76e6a97642dcc
++  __DATA_CONST.__objc_superrefs: 0x70 sha256:b9e89b102d09b42c4bb383b32bbf3d983b0bee4d7394b8302ed14854775908cd
++  __DATA_CONST.__objc_arraydata: 0x29860 sha256:61ed5cfbbd9bf6e25cf916630203c44491f22bc9509f720eb0b6fb9ae42656dd
++  __DATA_CONST.__got: 0x2c8 sha256:8ef856d6883c29481ccd06d567100629780420119147eeb0429dba06647b0a67
++  __AUTH_CONST.__const: 0x580 sha256:2313a774074e1feb11874c6eac6ec72893557d891f51c0d5de10834f68b41f1a
++  __AUTH_CONST.__cfstring: 0x35ca0 sha256:e0c1a16945d807cbba09327b2dbc540bfb3d288ad794afeb3060d490490101b3
++  __AUTH_CONST.__objc_const: 0x25f0 sha256:2eff966aff21564c8f05dd9e303be5aeb8fafd34925abb603063e4709593e27a
++  __AUTH_CONST.__objc_doubleobj: 0x90 sha256:a82fd291d3c2a386413ba02be87a607c700b0e0803847ba903704ae1503ab0e4
++  __AUTH_CONST.__objc_intobj: 0x288 sha256:2ad2efbfe0ecab3ab0bfb82a0e795ce9788168a2ab9beaacad74312eeceeeb7a
++  __AUTH_CONST.__objc_arrayobj: 0x7140 sha256:010876a373871a23d420b7659cb3ba6591a888a2faf50c4c22ff0860c8c05065
++  __AUTH_CONST.__objc_dictobj: 0xa9d8 sha256:c063272788bcbc51db9fe55392015df4adc9920e3902d8ce018d41e5f44e6160
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:4c8932333f835c029f7e276d126acf90211cb336cf55b287e458bb44f4a7bfd7
++  __AUTH.__objc_data: 0x50 sha256:c0c2410696e6c33bc6737c5010f0ad43d4e63d80c93b0266d530dd3a196c5c0a
+   __DATA.__objc_ivar: 0x1e8 sha256:9791fa32a1de96c627453f42b268b6b4867466dc23c734596bcfa213f26b18fa
+-  __DATA.__data: 0x70 sha256:e5101d03676d6f1dd388600958ae54437c0d9d6dd828a6094db7bb0e83c05264
++  __DATA.__data: 0x70 sha256:ca86f1d7de7b2b20bb8ad451282cc6ffb0951b687c4dc3f4323253acac417114
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_DIRTY.__objc_data: 0x6e0 sha256:3f9042162c485c2c7f829ee36a80b245bab443925612729266fd367c5f4aa654
++  __DATA_DIRTY.__objc_data: 0x6e0 sha256:d5c72dcbe8bc961dc3d260145ea0e1b3d3062ebbd6dced22b1531b9778c6d085
+   __DATA_DIRTY.__bss: 0x1e0 sha256:4b48f21a4b7a02bfbec19ef880a967a02334a3cdcef8ae83de2ef327ba8bc5dd
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /System/Library/PrivateFrameworks/ResponseKit.framework/ResponseKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4EB150B2-D05F-3B9B-AEB6-47FB77F5993B
++  UUID: 27FF6B23-022C-34F8-BF81-75D5D4693E3C
+   Functions: 654
+   Symbols:   2742
+   CStrings:  10449
+Functions:
+~ +[IPFeatureScanner resetSharedCachesAndModels] : sha256 21c5fccf6ce346ad34ec0dbf91fdf5dcd01438edfd94f53681fcf291dc697238 -> d6feaf96c54aa8dcb35156f05023f2faf2b87a2e0568f2b001c4a6a229e588c2
+~ -[IPMessageThread appendUnit:inResponseToUnit:] : sha256 5e0d1caa6c6a9cbab0c1a2cd6486e94a5c833b33f7ae1be2168b7b32e7b728e5 -> aff9f09f6c07667eaaa4e8663b9f67c929e77f4b4cb2a5ef09e16b99389f0ae7
+~ -[IPMessageThread orderedMessageUnits] : sha256 a2fb6ab3d42b85207d3c5ea10c8698df593e4c90d2b69edefb988717eb52e3aa -> 79e080c402e8fde3d3c75e384b55438a44fddf3e131ab5de22001a24fa996dd8
+~ ___38-[IPMessageThread orderedMessageUnits]_block_invoke : sha256 0ef6c4411743cb39fdd189d2ea9c64648b4fe1386846b610dadada8ab047d4ef -> 2bf908ec745d1c3a173b2b8d0a393025ad4850f069a30f3565c6f8dc713a6d32
+~ -[IPMessageThread threads] : sha256 76c29dc90b814bbc92ac93c95e1cc7bf0b8d69c818568d7452ab89c069b07f12 -> 70c166a7d663ba007e012596b423636a43c1dbe90d50f827a3bbec60b38a56e5
+~ -[IPMessageThread .cxx_destruct] : sha256 47156f2f526a23a8c07a23f8ee51582154b82bb2cb306e9e5cb6f6b8733a3165 -> 08590c71e8fca623528591e85ce8916508e26a25160d013b2c7fb7302013188f
+~ -[IPMessageUnit initWithText:originalMessage:index:] : sha256 740569ec8fc31bfe35cb4cad29fc14689669c0d4216a4bc302a668b196866d5f -> 6dbd7a340848b9b2a6a9cf612f71dcec3d5e74153a59fa3c6493ef17d74e5183
+~ -[IPMessageUnit addFollowup:] : sha256 b61e88b80795f6177f9ecedb3816569d74b985ee8ecca1b3e6e5b64e4e62c621 -> c267da91a563154c8763f383338a5fa20c621b91f304fc48e1459a87986fa6fd
+~ -[IPMessageUnit followups] : sha256 5ede8a8d8c0919edd45dfa68cc5e03e864c92afd8c4cbcc0898cdc82b55ab064 -> 97239a2b7836b9323bc7417f8ef4615756b7a67e60a23ec667ca87a555fb1ca3
+~ -[IPMessageUnit setFeatures:] : 632 -> 628
+~ -[IPMessageUnit setSentenceFeatures:] : sha256 d9317929100a9b212450f9e01c9ed937946c21f6fd93eadb76d933a6fbcf971f -> 0899fa47c3b1deb80cde7465217eaeabb4aae81ea54f7186778d8898fe13d212
+~ -[IPMessageUnit setDataFeatures:] : sha256 afafef29c3aa50b742b5a20d80ec8dfb623c704e9daf45af2d3b3f8a0399d02f -> aacfc3fb0bface5882ef0c002692fc96619347d519b6c44e1b3239fa9fe7be0e
+~ -[IPMessageUnit setKeywordFeatures:] : sha256 e62939af4aa218ebcf9869b9db8415faac558f5a7f52aeb131903c2753682a43 -> 83edd40390dae277ab31681818f021511d542c13e5630f49a0282e2f71336c3f
+~ -[IPMessageUnit lowercaseTextTruncated] : sha256 03b3242f6512421f91178d4e16847f5f971985fbf9916e158692d4a3749af6b1 -> e3bddd2885a2bc57db6d545947cc2f2710941ae97c5340c3fb06b478aaa7b533
+~ -[IPMessageUnit features] : 708 -> 704
+~ -[IPMessageUnit rejectionRanges] : 672 -> 668
+~ -[IPMessageUnit neutralRanges] : 676 -> 672
+~ -[IPMessageUnit proposalAndAcceptationRanges] : 676 -> 672
+~ -[IPMessageUnit bestLanguageID] : sha256 f121176575f182359fcb7b96aa3be01317f11775741f13e0e4c7c97a53a7c9dc -> e8761d39a41b53cae42286e31d5fbe768ccd913066772e108afa5a9565b4eecd
+~ -[IPMessageUnit description] : sha256 996d59412d4ac68047d07e648eb67e7b6da68007bd895ed66639177f67cea6be -> 8d86b4650342c1b81b515445a7c060e6859dad083612ed98f43062103d7a25b0
+~ -[IPMessageUnit text] : sha256 af5a8df41a3eda9dd77b7b89a2656dcbe5786a228ff0cdae3e4dc075ae1ddf94 -> 0585f3712262aec3d254be1e954575d1a26b8969ec25fff72cc9e41f3b27cd84
+~ -[IPMessageUnit previous] : sha256 860daa06a076aba4bc1a61bc138d7ac5490f1ce9788518cc6bd1313523b758b8 -> 80af8219afb33504328e84b9ae5dbdeaef0af420d7b5652106514a443a3fdc42
+~ -[IPMessageUnit sentenceFeatures] : sha256 ec419d25ec76fbd567a4f21ccefb32fad4a95e965e4b075d641d3b363763f3cb -> 2638430eb561afb5f5551efa27c710869b3cb58d301f30d88d28467da6e582b7
+~ -[IPMessageUnit dataFeatures] : sha256 f4d484ea13753864e20240a187b1fc51a31d841477d45e6b71f023b6071d104b -> fb35be5de2cf508ff6100234711bb6ce07d1c13961d831436fea94d7e3c2f6f0
+~ -[IPMessageUnit keywordFeatures] : sha256 1624c462415c9fa1450988d1f2d162df523d9580bab31e318e191e6c01b30f0d -> d86b7368f0a27b0145c2c558f633c3c2e9d257d01943085b77d59bc63fbf049c
+~ -[IPMessageUnit originalMessage] : sha256 f9015ee851ec8e0914638adcfc754696ca1cf637f9adaccac1ea21a2d6ef7c45 -> c711c0c9bfc360900bf2943196e3bb44c1e33c6550fa7073dea43c37d44c8435
+~ -[IPMessageUnit interactedDateRange] : sha256 8bfa21d1362672443c62995e4eca809d9fffa2b0f95607a03cc6dc737cc16c84 -> 79e4c08b36bbc8a092b88b03c8ad97ccb935039a2640a4faaa57aa9afd24468a
+~ -[IPMessageUnit setInteractedDateRange:] : sha256 c43d910691ff152c719f3eb066ec9c0ffad50dd1ba9b845b30b6dc1b62f05e7e -> 363f66817afcd3406cce0e37b86160cedd2782614eb78b37f7fec6725a743e95
+~ -[IPMessageUnit .cxx_destruct] : sha256 e9d7a498ab231f70153225d0ffd89030f802c2b6a7bc603108c406b6fe6e96b5 -> a671815456b6c26eb2ea05a196838863131e71b8f2687dbc51f695d321d3fa31
+~ +[IPFeatureScanner eventStore] : sha256 4bd1519759abdb734abadb19efb6a258758133842011f82812715c4f42ca65d5 -> 315a3d55aea198c5daa4c9a98f9d417aea65fdb2a2e2ffffdeab343d840450f7
+~ ___30+[IPFeatureScanner eventStore]_block_invoke : sha256 3b20443bb332eb18721a258127aff70e25a2704806fb766b141ea35279a20372 -> 1869f4a1f7fdf24be210284a94cf4df57afa21644e9cc574fc46d406c058d491
+~ ___30+[IPFeatureScanner eventStore]_block_invoke_2 : sha256 01f317a5dc2541127105fbe80f1994c826fed7c15b67a997d1233dbdf1e54ee2 -> 3743e2e2c197390e0a8dd90e0e3147535f66cd65432429c9fbfc73235583d972
+~ +[IPFeatureScanner setEventStoreForTesting:] : sha256 c1ad6c3676bb7638b997550a43f6d099f03cd9650dbb6737bd9310d9921068ad -> ba0842d9647d38f753a10087ae05db37e818790484b6d6c120be8c7dc17e1f7a
+~ -[IPFeatureScanner scanEventsInMessageUnits:synchronously:completionHandler:] : sha256 26d5d39c014baa99ac6d0ed0f4029edc3ff7d2b5716eb43001fb1e10df8fc5fc -> 508e4343bfa3cac2ccdf9d4617c640d4e9b13b620bc9ea50858b9b196fb48889
+~ -[IPFeatureScanner resetScanState] : sha256 5d650c6bba8478ba10ef89c322ecf75841a3944fb0264538f0365ebed09bf475 -> d4b3b49be39ecd56a28d1be4153e1b7eaac34b34b25d8a25ae38707eaec917b2
+~ +[IPFeatureScanner dataDetectorsFeatureExtractor] : sha256 8795bb5208f5f42d800ba6d0dc94601bfa2901c3cdb7e4c06ccb1aa7a554d88b -> 20cdc112e86fd941e48bb614d930df1d376221c9746d62885277d360b56994b6
+~ ___49+[IPFeatureScanner dataDetectorsFeatureExtractor]_block_invoke : sha256 c874d0b3f1150d841cfa8da6fa4aec905c1ff3a55ae57f20d02879d08f261b1e -> 51bce759dee312d05880a9e962e59d53d43c3a9f5f3e0839245020536f6995a5
+~ +[IPFeatureScanner keywordFeatureExtractor] : sha256 c9ada26fd0d7cbcfdf7b9c4b1e5771b658c0ca57dc0b80364a7b34e0fdd0be2c -> 4d97573bda853adc95b76c8e3904809a8aca5da86fdc9ed63b6e945da658e633
+~ ___43+[IPFeatureScanner keywordFeatureExtractor]_block_invoke : sha256 1d6bf3ddd89e5565a6c1d5148cdf0af9b7dd27744d2084de6437c951a8756cf5 -> e50386301c6fd4946cdbeb72d53245be7aa714310116f4713bb0c1f733783f95
+~ +[IPFeatureScanner sentenceFeatureExtractor] : sha256 20437457de6e8e339ed947c5135d0cf9e31fa117d85edfdd400815aee6067fc9 -> 00d10d1fc5a8532ed2dada7b7956d3b669ea078b57dc9b0f6d76531f57a4b30c
+~ ___44+[IPFeatureScanner sentenceFeatureExtractor]_block_invoke : sha256 63360e4e1a447f1bcbc80e7a05e00fef32256ac3489a55cef62d5db9e2496663 -> e0d228fde3fe1dbab81b83cddc19810b2e4bd28f96041216a705acfb2f3d4c9c
+~ -[IPFeatureScanner _sortedFeaturesByRange:] : sha256 7be1a82dc2e1373f434ba70ac938cc2be9df375804357a4fcb44fd57dad528bc -> 003079846b335b2ac4bf0db29582e15342e967d5b5cb79e1cfb3a53257317bc8
+~ ___43-[IPFeatureScanner _sortedFeaturesByRange:]_block_invoke : sha256 7875a2b4f27f24906a888a3d4e43db03774d6768254de4bb919abcb812c90b9e -> 0ac50ef2035682ad48d525469e6856d31db7f57fa0dd03af8a8281213a40be01
+~ -[IPFeatureScanner _distanceBetweenFeature:andFeature:] : sha256 dbf6e055aa0d7c4dd3e01146024b4cd2a10e1cee951c452695882fc27f811bcc -> 5b0d605289b02e2a202ac8f3d9e6678b9d88d8ccf1d9de2665764f7fe6e0a806
+~ -[IPFeatureScanner _sortedFeaturesByDistance:aroundRange:] : sha256 c2812e296f04a8d9e24c3368a138c5460a1dbce1c0d356dbc11e07a0f9eccc3c -> 86e91caeb9d0489504f32f8d18cec61a26f5dd3bfd8f196e778e07536fcbe468
+~ ___58-[IPFeatureScanner _sortedFeaturesByDistance:aroundRange:]_block_invoke : sha256 1dcee6e17012fe24c2228a08ba180eaf928b80de968263b0b969672a88499615 -> 4c40d8d8b52480e488c8df67f61e7bcc81752ecdfb970561932c7c8f2de47b6d
+~ -[IPFeatureScanner _featureWithClass:inFeatures:atIndex:] : sha256 65c833e7c7e7c6e3a45e8e2e4b80f7f59bc8d874b1858b11dbd5d8b9acbd249f -> 6a0bdbd6b541b28d5ca13a1cc3964b907128d454de9274c3d6b3e8c098d66374
+~ -[IPFeatureScanner featuresForTextString:inMessageUnit:extractors:context:] : 1288 -> 1284
+~ ___Block_byref_object_dispose_ : sha256 79f529ac8ddeb7a276ff6dcfdeb15ab36e884855afeeb3572d62a56a348a0c43 -> 99cfd4a93726e0662459e86399044f4677c379e3a68a9ec3a4adf791ec3f1965
+~ ___75-[IPFeatureScanner featuresForTextString:inMessageUnit:extractors:context:]_block_invoke : sha256 956a879c7403d9161f02f308670a31874d5f0010e5c038a14495ea5adec63d9c -> ea7c2a6811ae396222c9ec9444dc5b58876d5e60a947510d77759e1dc23d3a63
+~ ___75-[IPFeatureScanner featuresForTextString:inMessageUnit:extractors:context:]_block_invoke_2 : sha256 d4b2effba8ceee1057a73dd80624a5053d3fc6a5dd60844adee4a525cae201a5 -> 97ab5866342cd651c71db3f5260d377f5acc71a24b5825dd9d722a18fc682829
+~ ___75-[IPFeatureScanner featuresForTextString:inMessageUnit:extractors:context:]_block_invoke_3 : sha256 ac4aee2715d1ac65157e35229e91eaa956c90e870614b9324baea8c29fd0b7f0 -> 2689dfff310ab21f6e06c3accb6657fc1ebba31b1709fb7f67449b70f9970e01
+~ ___75-[IPFeatureScanner featuresForTextString:inMessageUnit:extractors:context:]_block_invoke_4 : sha256 7fa316cefbe5e0625cafbfe56ca7d3b367a1a09b1647b04a25d8c9849a3d6f5b -> 70a1efd59414f5e6e2d8e9fa4b76b784464c9541647cbfe9b93bd77d155285d5
+~ ___75-[IPFeatureScanner featuresForTextString:inMessageUnit:extractors:context:]_block_invoke_5 : sha256 82686a911b98c7c726d3fe4b56ef2f443e02ce78a3a70cbe28b3fca713f70ef3 -> 154385e179a6346f2fda942ada3a1ded42af930a0dfb020420d61eaf56668de4
+~ -[IPFeatureScanner _featureDataInFeatures:atIndex:] : sha256 4152aef48d7a03dce19b34816078dded6baa7c9c8f6e326987995713b7a58830 -> 8c313a86e3210b33aa11aa96733deb4266ec85423093115a654f0797a89f9c69
+~ -[IPFeatureScanner _featureSentenceInFeatures:atIndex:] : sha256 1430c35a2c166af3327a377bba41c8a8586d4f814d732a7d459fb3443968daca -> 782d89127396aa3980202f48fe37cab162bc14347f5a6852c3f3dcb4f957bf6d
+~ -[IPFeatureScanner _nearbyFeatureDatas:fromFeatureAtIndex:messageUnit:] : 768 -> 748
+~ -[IPFeatureScanner _nearbyFeatureSentences:fromFeatureAtIndex:messageUnit:] : 492 -> 488
+~ -[IPFeatureScanner shouldReplaceSendDateWithCurrentDate] : sha256 356c69f0ba4b976b7fc57ca196a4f560dc6d9b18f9a5004d2d11d1c80357518d -> 658b4369da3d296a138a4f9c817a5b79d6c0b2829aeaa7584091e416f27ffce9
+~ -[IPFeatureScanner augmentDetectedDatesWithEndDates:] : 572 -> 568
+~ -[IPFeatureScanner featureSentencePolarityForFeatureAtIndex:inFeatures:] : sha256 f6d9d86c51001b9f396be9dd934f2a5dc049f69ff4f8215497f1f9919270cd02 -> 956859ea58dbe39f446d21647d2780cf063bbf5fdb996e144d3d18f89c5d36f6
+~ -[IPFeatureScanner isDateAroundNoon:] : sha256 b8828ced6e7c696905d9f6333b575ff56bda2aa1b1d5c5901a78be952cb76746 -> b0a5345cfe8b679dd6501e8c1810440fec7ba9c8dd1cb82b92d5554d3686e38e
+~ -[IPFeatureScanner isDateRoundedTo5Minutes:] : sha256 3734076b328c27fcfebab81208adbf14406b476cee56c3ef6de2828cf75ba16a -> cef1b9a730530a364e020eacfcdb3786bc0ac3ec333ea1c0ad97f0a3be6dda4a
+~ -[IPFeatureScanner dataFeaturesInTheFutureFromDataFeatures:messageUnitSentDate:] : 416 -> 412
+~ -[IPFeatureScanner countOfFeaturesContainDateInTheFuture:messageUnitSentDate:] : sha256 a16cea973d841bab9e67aa53c67939ecdb0d4f098171fb33a80997cfa75633c2 -> cd60b6df968f4cac1a410635674ff12de86beea5a61d83c21ffb0a075a8b4d82
+~ -[IPFeatureScanner dataFeatures:containDateOlderThan:preciseTimeOnly:] : 608 -> 604
+~ -[IPFeatureScanner subjectEventVocabularyRejectionKeyword:] : sha256 bf33c0a9d42ee24e6b4e63e191dd3dca4c3d1042da87ec22c13774043feb43bf -> 9da9b8dfb15c9c569e7618d426202f8b18bcde83f698962d35dc27469f12dd7c
+~ -[IPFeatureScanner subjectEventVocabularyIgnoreDateKeyword:] : sha256 54be32b322ea700e7fc3edd4921cfbe59af32ac8e1cac3315fd8462508a08296 -> c2e0c4b9814278e7569b002f724c5668da53844bdd6c63d944efc0cb50cb9559
+~ -[IPFeatureScanner isEventProposalOrConfirmationFromFeatures:fromFeatureAtIndex:messageUnit:eventIsTenseDependent:extractedFromSubject:extractedPolarity:polarityInfluencedByIpsosPlistRef:] : 3952 -> 3968
+~ -[IPFeatureScanner stitchedEventsFromEvents:] : sha256 0ba6ed583750d6b31003b799d1ce536f79c6a28e8e3ec89b47972a8322993df3 -> 9affb35bfaf36405f98439a13a5a14d9298e3ec70b9f26bb0e3dc4a882bbf792
+~ -[IPFeatureScanner _stitchedEventsFromEvents:] : 1948 -> 1944
+~ -[IPFeatureScanner _regroupEventsWithSpreadTimeAsAllDayEvents:] : 808 -> 800
+~ ___63-[IPFeatureScanner _regroupEventsWithSpreadTimeAsAllDayEvents:]_block_invoke : sha256 951a56d1d62b78ec575cd8cb677e6c0f0222556688376e03339286643d13b40b -> 84c589c678555ca384db6bc01059e94686257a3aebb22d4aa8600cb254397994
+~ -[IPFeatureScanner adjustTimeForEvents:] : 244 -> 240
+~ -[IPFeatureScanner adjustTimeForEvent:] : sha256 9ed2a113ae709bdc2ba605e499714e147a8e9a15112dca941b25a79eb495cb85 -> 0b1e794ff95d1c6bab086b5573c8cde2b01739332fdf35cc800afdd4d93f5bfc
+~ -[IPFeatureScanner notesStringsFromDataFeatures:] : sha256 0cd60c0115676aaa8ad1eb3f467938b4a4ca9702288f92b0594b117e7f7d37b7 -> 097814eb22d771bd2dcc2e448e0a2d852175cce9bdcd972c9e7258ed3a413f5a
+~ -[IPFeatureScanner movieTitlesFromDataFeatures:] : sha256 a74cc9767e0e8e6b5d56c278af19c51b1dd51cd0243080e0669cee73e506af19 -> b568e21064ae8755ade9eb11d3e1c21e00fd3d77cde60023d3c77c7f0f6180e7
+~ -[IPFeatureScanner sportTeamNamesFromDataFeatures:] : sha256 f8d202bf6912283d8303e2f3e712c7f3d3af376400312a42e26e1fafc8fa2081 -> 27b8d05233b3993f8cd840d4d5c68dbd204caed61dfdb6afe95ca51223105bed
+~ -[IPFeatureScanner artisNamesFromDataFeatures:] : sha256 5a4c21d35f118446a37c5d508255b81ec1843f0ddb5d6df11a3378ab89c02721 -> 17d5fba4c6d106049cf800a92d4651936ae59ffa200b82a6f1f9cfb201ae71e7
+~ -[IPFeatureScanner restaurantAndBarPOINamesFromDataFeatures:] : sha256 b2a38ce87966ff35dfe190802f22a50758341b1d4b902e003525c8ad7a9af4bf -> 8cb046c442979b0564ee8b4aa00d27c255d49687c021c0d95701dfebf1896e4f
+~ -[IPFeatureScanner entertainmentPOINamesFromDataFeatures:] : sha256 b9dc6bce75d432d3b5a44070d24b1355f0a64a8a0fe4183f49591ee8af91775c -> 18486852c46c9ca079665a359107d1d2380fc65f25d726f36ab918b6a7d6d347
+~ -[IPFeatureScanner filteredEventsForDetectedEvents:referenceDate:] : 4720 -> 4708
+~ -[IPFeatureScanner normalizedAllDayDateFromDate:] : sha256 f41fdd17cf71862a591d38406c4966bb130f3add95827924b81061a914680621 -> 882ea2be7767fade3c4870fd1e00ee31415b529976408f2b9f555a8f976bd091
+~ -[IPFeatureScanner normalizedEvents:] : 388 -> 384
+~ -[IPFeatureScanner bestEventsFromEvents:] : 364 -> 360
+~ -[IPFeatureScanner stringsFromDataFeatures:matchingTypes:] : 428 -> 424
+~ -[IPFeatureScanner cleanedStringForFeatureData:] : sha256 2903b31bd95009ef99dab9d4af4bfddd20248d2d8a752c63516cceef13c87aca -> a05688676d5dd5806f259cee91aa9f2dd9f8f36a6e153e7f93f49c7a7fa3cae8
+~ +[IPFeatureScanner descriptionForScanResultType:] : sha256 accce3361f8a68a36dc3185de1cb9456505e639d9945092905e2645572b78d08 -> e25cb761ece55ad35f1c4036bded1286d8e5bd89dbea7c1c45a42d972037a8ce
+~ -[IPFeatureScanner enrichEvents:messageUnits:dateInSubject:dataFeatures:] : 2376 -> 2344
+~ -[IPFeatureScanner messageSenderName] : sha256 4702e8838d901b378493e4c71b843cb583c85f508d7a4fccd5301b5d28af8dff -> 8712080b47afe864990ba1e407f20673fec52e67834761d5a86fcc0d0d9606c5
+~ -[IPFeatureScanner shortNameForPerson:] : sha256 c511a606eb5e58256962d8fa9db42ff79cf2691571a0082f7a9f13469e18633b -> 266185d547b7a948b066fb2a58ceb2b773a573fd7855932ed4199b4e5e8ff086
+~ -[IPFeatureScanner decoratedTitle:withSubtitles:] : sha256 5dd47d122d6741104f2007e91ab72d9c273b302d4eea82fa9f533cb0da7cbe04 -> b21d51c50706768268ccc496df712c51ce0aee4a11dc7cc81e714b51bfbef498
+~ __PASValidatedFormat : sha256 5cea35954abd5282a177bb6455802558a8d4112bc67cf85c99d4d114b99c20d2 -> cdebabef792a10f6cf20ecebaf1258c7b8c21ae3a481738ca7f9eca5e3905a76
+~ -[IPFeatureScanner confidenceForEvents:] : 296 -> 292
+~ -[IPFeatureScanner analyzeFeatures:messageUnit:] : sha256 f073dab294d2d097011a68c85c9872094e028eb2f572796fb0a3b95ff1a5d1f6 -> e911edc506723d2b7526732b2dc8f646deb547c3460f80d64789ea9b39c3f059
+~ -[IPFeatureScanner analyzeFeatures:messageUnit:checkPolarity:polarity:] : sha256 c70bc1c3fdaefe2b54533d43a43bafaede7df244acce4815a5356f1ba9ae636f -> e75c143b7adf58ccd9bef6d3f43d3ec8c05f99b096075cebea918a17dc85fc29
+~ ___71-[IPFeatureScanner analyzeFeatures:messageUnit:checkPolarity:polarity:]_block_invoke : sha256 1482cdd89ab6f38f92cbea489c925144d26556f7f010e070cc09f2560c32c79e -> f60ef4456d134f8477c166164eba647598cd4315a48f5b4f8c3bc66fcf48abcb
+~ ___71-[IPFeatureScanner analyzeFeatures:messageUnit:checkPolarity:polarity:]_block_invoke_2 : 2504 -> 2500
+~ -[IPFeatureScanner decoratedTitleFromEventType:title:sender:recipients:isSent:isTitleSenderDecorated:] : sha256 6bc1c426f3a5920d5373ea28639ee0e55425db0aee8e72f7614adab55ab999f2 -> c3504290fa4a15651c8f691cc9cef362dafc0e04118474e0b07d89904035a708
+~ -[IPFeatureScanner bodyMessageUnits] : sha256 c0ce34a42dc24a30a97f4c35a46da0a31b3fcf0c72a6f5f5a9cf64097dba55bc -> 512101f372da70ed38db72e1d2cfd3f50e3ff813907b909567b21380a7424078
+~ -[IPFeatureScanner setBodyMessageUnits:] : sha256 7da4cb8a258519c4dd9a3fc82d20e8853ef944bb8a67647eccb92f0d0f46b4d5 -> 9dc1a97ed75f9b18e222cc44d7e345bb79df4f30612012fd0a974e2c27067065
+~ -[IPFeatureScanner bodyAllFeatures] : sha256 7c5c6b5b8ebdc9dc3cd453382795dc2ba9c51203b8b6b05953749fa3280c2943 -> 46d2cb2a8c328091981f520575d5555b3b3927ab0e98390798cd4c56b247eca7
+~ -[IPFeatureScanner setBodyAllFeatures:] : sha256 c827e14a65fe9a66bcc417a4e5484d50bd211150485d8f0223f1dc7f8add83fd -> d6a505712344e88d8605a02bd3135674e74e1003bf82632f51db6daacfa4a110
+~ -[IPFeatureScanner bodyDataDetectorsFeatures] : sha256 11363cee6ba4a6faee3535c6fa6df1edccf41e27eb1309edc357734e229c80e1 -> 6339b42c73ed13acb7c718ed6e8a0499c8989950bff6d21c239828912b174527
+~ -[IPFeatureScanner setBodyDataDetectorsFeatures:] : sha256 eb30b29e7be90a7ad57b2613898804a9f8a8f53ec1e5d95be5a42b0957101cc1 -> 5a212ba6826c2977cc2673cd597150d9d09f74725aeae5fde5aa22cd0e611047
+~ -[IPFeatureScanner bodyKeywordFeatures] : sha256 cc655bf1e6cb8fd1640faaad3ef29ac120cbf5f0079b28a314299b1d7906a274 -> eba7c2294c1e4e9691100f57146ede10b0d37f3e8eaec6ce4d8d0251c790a24a
+~ -[IPFeatureScanner setBodyKeywordFeatures:] : sha256 f31c957a633c6178d47f4e34110c78b4b4d1c83681d839344e8d9d6b2df1e18d -> 8b6ba79c216b856584d2ae195fd49966a86a1cb549e3a0bcfc88c7a7c1b5447b
+~ -[IPFeatureScanner bodySentenceFeatures] : sha256 52a79be1dfdb84ac3494ed3c68dcae24ba3bac9eb01640a642f8bd8c76e7e91b -> 985414c440a4094e652bd8cfd99b7e07bee99e8602007394bec5428110d98010
+~ -[IPFeatureScanner setBodySentenceFeatures:] : sha256 341d630fdb838138d051031f8a519ddf9975baace0010f339fa5cecfd0c7b3a4 -> 09cd366c166ce900789f5a09a87a07ee2f9ca5245fd1d98e797ebf4446e0bb26
+~ -[IPFeatureScanner detectedEvents] : sha256 5be509985fead6098f35d0b3ea391f59fcbe8898d0a5ca11b88b12426ddb71cf -> a5eabb5cadab5d8e0fb623d3d7debc663cc4a13131f368b8c598f7506e950723
+~ -[IPFeatureScanner setDetectedEvents:] : sha256 cbb2242b119fc29e9ddb34c5ff61af03eb9dc66c60b057cca3b3f982f300dc94 -> 9f6d2f81e1166ce2ab9a556bf80a095e7aa3a74513a3b12853a6c0f4b10cf099
+~ -[IPFeatureScanner stitchedEvents] : sha256 2aa1dc8b00095d3317f01ef83972c228ca716e266fdc719aef3d7b4017567461 -> 3d49086b7b322c20a681f8aaecaf172a9c58454c9934bac4b5013fe93385b6a0
+~ -[IPFeatureScanner setStitchedEvents:] : sha256 5f768af7dc15dd966ff78911cc2097f5d30530601f67f8d000e0e5c8b160a259 -> 30147d8ac5f087598f348eba156e10fab6fb29b34ee3ca9fdd0540cb795fc09d
+~ -[IPFeatureScanner filteredDetectedEvents] : sha256 2c912e7362fb08a2d799a078812e996691fc292006ce920c505b66e67a148e2b -> 587dbecbfdc015e3760fa98adddaa16ca8544c8a54f20662b123a9a1337294f9
+~ -[IPFeatureScanner setFilteredDetectedEvents:] : sha256 caeb0cda071c1dc76a6813997bcd19ce96b1278719c9428215bff7e60d851bd2 -> 784d55a6c798dd084fb276ce28672e33e0dc5af905de8701cce8fcff92c5e992
+~ -[IPFeatureScanner extractedNotesStrings] : sha256 27257534a26658ed4259ce5ca9232bff6a52656e358d3d2fa641a0b508c584a9 -> 9edffbfff229770cab941ee29c16d1277be4127cfff31d768364ed35853b465a
+~ -[IPFeatureScanner setExtractedNotesStrings:] : sha256 f3e151d634e1fa1b75513f7cdb0742a4143b41231a76c89982892849a42e5210 -> 00cd129482be9443e6863a7bf30d7bdf0fc86266c1d9b37d0cd2466cce03ff90
+~ -[IPFeatureScanner .cxx_destruct] : sha256 b12ebf8819bbdc1ee2703fd513c7b62deb7cfdcc797b6ef8d162e403082a9d43 -> b5617c6ce105961873c79935bda6818fd78f70cd39343997eb9b4331c21ebdab
+~ -[IPFeatureMailScanner featuresForTextString:inMessageUnit:] : 1448 -> 1440
+~ -[IPFeatureMailScanner scanEventsInMessageUnits:synchronously:completionHandler:] : sha256 fc81b8d75ad9a5418a5976d341f996316b6c0adabcc285a5c4815ea89d102758 -> 2f17e03459340f0d2cd9391d808feffefd35a6fda02e2df95583b352eb8809cb
+~ ___81-[IPFeatureMailScanner scanEventsInMessageUnits:synchronously:completionHandler:]_block_invoke : sha256 9055634cd284a29101944d55e25ace4ee195e7ca17449e0066a5f2aa685868bd -> 180a3837e009836053f56f7e9033cd37c9f322f18b5d7c084186133e2b41a930
+~ -[IPFeatureMailScanner doSynchronousScanWithCompletionHandler:] : 4516 -> 4500
+~ -[IPFeatureMailScanner processScanOfMessageUnit:] : 3360 -> 3348
+~ -[IPFeatureMailScanner enrichEvents:messageUnits:dateInSubject:dataFeatures:] : 2348 -> 2380
+~ -[IPFeatureMailScanner isBannedSender:] : sha256 5cb0899cf257b026f1403f51467d2d613f7419949590350a11ab67bb36b771c5 -> fad9b94fe4306a7033ea67ffed2f3f97c7e94d4eada12dc266a6cd6b632fe355
+~ -[IPFeatureMailScanner resetScanState] : sha256 fbfbb20a991656daf53bfa90416b6f0bcb9454dbfeabeb64b82c0436951ffd2a -> 4cd49f20ad9c9a880509efd604f09728b409d4e72e8c31c245d672f84e853e57
+~ -[IPFeatureMailScanner confidenceForEvent:baseConfidence:] : 1280 -> 1276
+~ -[IPFeatureMailScanner emailParticipantNames] : 432 -> 428
+~ -[IPFeatureMailScanner subjectDataDetectorsFeatures] : sha256 545620d7c2528122bb4833cf9dda2721b04eb03f3be40559b97977d2eda2195e -> e1856b728d06aee69b0972df1506f4352ac43034568ab0371ed9e855c396d9ea
+~ -[IPFeatureMailScanner setSubjectDataDetectorsFeatures:] : sha256 1dbcbd2136cc6836f80e1573d0cee9e5815920751258f1be00c2f5879590de2f -> a765af88a58b0f435ac9a377c7de1dbeb6ff20febe4bf5d27d5539cc024448b2
+~ -[IPFeatureMailScanner subjectSentenceFeatures] : sha256 83a218460b6d1a3126d4ca643fc8d0b2eb2e31ab778adeec3877aebc016b3344 -> a782ba97a250a66a851d2063078cba205142f797d533c42f02a4ae7b4da397ca
+~ -[IPFeatureMailScanner setSubjectSentenceFeatures:] : sha256 166376634eb3e0b0dab248d335744f752073dece876fe0fe509fdc844124fb28 -> 76612581d621b50d04e7ab491d91fcbabf2c54ec9335c00c15907c8798d638f1
+~ -[IPFeatureMailScanner subjectKeywordFeatures] : sha256 3cf44c26f5a2738e131f762ce2b09f0a81cf4e5d751c25bf28f1b45f7033a9d2 -> 82960e7f26ff9daf43da4306a894a709287f43c7bcf77d48f267b55894778f63
+~ -[IPFeatureMailScanner setSubjectKeywordFeatures:] : sha256 bb118556fd7a625f2147c93f84e282ace10d8d14010967ddb9ff356b2a8e6a2c -> 5e5c0abfd52b493c9aecfaa331d4a5597b38602bfa0211daee937d1f58a277ba
+~ -[IPFeatureMailScanner subjectAndBodyDataDetectorsFeatures] : sha256 76bbeba8e618194736937b97573d12118bed552dbcf195c3e98bf5efdc4489ae -> 0ba6de0d262eb16ee5c0042d2a7029f42947e1e79232fcb86b5c4925ad3279f1
+~ -[IPFeatureMailScanner setSubjectAndBodyDataDetectorsFeatures:] : sha256 80fa91ee4d7b1d609878fdcdd55389aee4a9d7dca58ccce3a90bc7252c0655ec -> e0b8026c13940762471e5a08e9816fcf3ee9c8f48bacc721e5e91d6fd29dc8bf
+~ -[IPFeatureMailScanner dateInSubjectFeatureData] : sha256 f5c0e290a99ebd00f743d342f76f9fbbb02b3520afb9231f642119f6a1a33706 -> 1051008c8b482780e3a77d2f02867b86b1de16c0828861276efd2401990af7b8
+~ -[IPFeatureMailScanner setDateInSubjectFeatureData:] : sha256 3fbb6fe81f523dafad655255c336e62087bcd2e22bbeeb535d97584824da365f -> 27d12122e09574dc12fa03cf449e93b729aaa50a0089309cc4817c06f8b761f3
+~ -[IPFeatureMailScanner .cxx_destruct] : sha256 434f69b33371cf7ce517025c9b82000274419c876eba27b50a45b0cd86e93aea -> a6cac50956ac3a73aa5ee3dbe42de76cdc15f395c5325d241f88cb9773790ba9
+~ -[IPFeatureTextMessageScanner scanEventsInMessageUnits:synchronously:completionHandler:] : sha256 f90b27d8cf83e05de6240731ee11fff245a30799e10b46a5a97df90fa5e5e4cc -> e279e6e0715cc07b7ddbb74f926cab7951518bafdbaa84f296ac92d931220d44
+~ -[IPFeatureTextMessageScanner scanEventsInMessageUnits:contextMessageUnits:synchronously:completionHandler:] : sha256 3f32d2c157769d81ed97024d8cd63401438b3833040fd4a9b7075d4d957ad5af -> 1bc436f5313a895d68b78a0ec2397dda8c544666b726f791a6ef5aef7bc7f7de
+~ ___108-[IPFeatureTextMessageScanner scanEventsInMessageUnits:contextMessageUnits:synchronously:completionHandler:]_block_invoke : sha256 c392c07540edc8d3e1545c5695f2f20437897364e4b9ab2718a635016afd4778 -> c827fb708e8d53509980792f3d68af616dcfee87a6414f8e2ca071850cd11456
+~ -[IPFeatureTextMessageScanner doSynchronousScanWithCompletionHandler:] : sha256 c2ecb9f0cc998d4f131a3602cb8b47685b32e0587964fcffd6a6ebfb03c2ca4a -> 8edc0593ab66c2187ad22a0be770b845055ba614be45d23a0f831529134c8666
+~ -[IPFeatureTextMessageScanner mainSentencePolarityFrom:] : 508 -> 504
+~ -[IPFeatureTextMessageScanner processScanOfMainMessageUnit:contextMessageUnits:] : 2132 -> 2116
+~ -[IPFeatureTextMessageScanner dataDetectorsFeaturesForMessageUnit:context:] : sha256 231c2ba40fc320dfc763762a73131caf2bd34122ab118a4ed1ca055a6ac75d54 -> be4491a6016e0d19adb2e8675cc3b3fdd47cfd43c3a785746fb90e0f5004054a
+~ -[IPFeatureTextMessageScanner sentenceFeaturesForMessageUnit:] : sha256 c513672a0496d5b40dc5784bc25bb847763ef23f77d542748e4f2b8c4ceef47c -> 2fd4c1910691b3604d2b43019b7545f31f0b7e7afd1b90b3f931a0b4c30b3167
+~ -[IPFeatureTextMessageScanner keywordFeaturesForMessageUnit:] : sha256 72858287cdf48108c994266faa0a2e9666051aacf7e0e4e08605b097ef24ab42 -> a0677f5436b4c1535e2e3994e4f6278974465a9ae5b285cc383944e351f09a2c
+~ -[IPFeatureTextMessageScanner mainSentencePolarityFromMessageUnit:index:] : sha256 ff81eb1d8d07ddeec5ad6562631b80b3eda5908997714a5492df38c25bb7857a -> f5fa393d7a755cc005c4e024982c6f329302a8bc72550214105c059c74ed752b
+~ -[IPFeatureTextMessageScanner resetScanState] : sha256 01da84728a926cba6a225caebf710fcfe9bf547d490e2b07904c70ab94283f4a -> 1e00058a2129cc345fab4a9e5066d56e0a31cfea963df1346fc9543921db9f29
+~ -[IPFeatureTextMessageScanner confidenceForEvents:] : 800 -> 796
+~ -[IPFeatureTextMessageScanner confidenceForEvent:baseConfidence:] : 640 -> 636
+~ -[IPFeatureTextMessageScanner experimentalConfidenceForEvents:] : 612 -> 608
+~ -[IPFeatureTextMessageScanner experimentalConfidenceForEvent:experimentalBaseConfidence:] : sha256 52d55884d37b95315ba8d8b36ae456ce0e5f0a9c95384441df66b3e8b7d69b7b -> f8e135c5ecf006e0ef898cd077a0a31ff88e7159c46bc8e5c82bb183eb7bd454
+~ -[IPFeatureTextMessageScanner eventSpecificComponentsForConfidence:] : 880 -> 872
+~ -[IPFeatureTextMessageScanner commonComponentsForConfidence] : 2368 -> 2348
+~ -[IPFeatureTextMessageScanner contextMessageUnits] : sha256 89db632250a1a2921d1da284d9efc5baa5ca506e3e26192bce8e54c00127eb50 -> f2b92b8f44971c2da754f1abd3d53c64f550bdd748289dd56fa4989308e0089b
+~ -[IPFeatureTextMessageScanner setContextMessageUnits:] : sha256 d6528c745ae7ef30e1919086016159de7e225d15e8dd346ec1f74dea7f097407 -> 76288379e08e09701c1bcf4be790ab73610b96fe13956f98e094cec979b81a62
+~ -[IPFeatureTextMessageScanner detectedEventsInContext] : sha256 449b8ba27c3aa5992246d1b374a56b13a50f7d70ebc703afb90d85fac0cb52c8 -> c329ec5ba54ff9b7429671e66503fb5e1e15461b515f854f5424ccee7153ec32
+~ -[IPFeatureTextMessageScanner setDetectedEventsInContext:] : sha256 5a8d11be34ee82d5fb49639876cd8b402e67c567cc27c08f022448c8e84dc31f -> e160db067fa1afc6659cbe5d77052020a0e5ec2588d89a8159eb790684ccbc47
+~ -[IPFeatureTextMessageScanner setDataFeaturesExtractedInContextAndMain:] : sha256 f269bbe4bac3b2ed3976d194e459c9280979cef76cf34f9a222d0be14e4000af -> 0d22524eb84a781f01eaa298a82e62eb74d5b1a70cad73af3ad1e4cc14e35893
+~ -[IPFeatureTextMessageScanner .cxx_destruct] : sha256 90f53dbe09bfa75765b30cfdc8316f672d1c3265b2657828991e3a09870c6b20 -> b4007ea3acd8ccbaffb70eaea48d907de34e654aaa30cc714409cbd201ba0e51
+~ ___IPGregorianCalendar_block_invoke : sha256 b36034c923e502e9a9f2ea2301365a8e43c82fc931d09c4e3a7a127f706269e4 -> 3e4b4db419fc2a626501882bfade1bca85b67d0e95afd587d983d1d6166fb254
+~ ___IPDebuggingModeEnabled_block_invoke : sha256 b2fb16c602dad3f4ede830c08f0031e56f9146a66d8fd47da2e6e6c2391971f7 -> afe8e708680adf0b208f2be0faca10a753a535f24f1ce4459f6a93fdfbe1e64d
+~ _IPSOSLogHandle : sha256 c979d4e6628ada1c12e3b01d068f4e6874a9c396cf30c0889172c1fa812571b8 -> 23bb27d46f6ab9f9bafa90d66c795dcc389440eb6ce2dfc1cd15d70d9aba8f5b
+~ ___IPLocalizedString_block_invoke : sha256 4b55dbd3e85ccbc6be69d28185baf017f0acc121d1dfe07fec51d823668e2cf8 -> 7b5a66ecec10d4b3242ecd323348b6e3ec472bfa18fc1f0d33cd19712acc9c29
+~ _OUTLINED_FUNCTION_0 : sha256 5deb049cbeb20fbc529b5165fc51980fc92afff4540fc8bda5e287eb0162127a -> 35d971a1ff7a772e0cf37df45775ec2ce37d6f0b89944a5d5f19878713c314e7
+~ _OUTLINED_FUNCTION_1 : sha256 8637e7d8069ec7b6aa620cf3e8bd4e0f00cae837122c7e61148f19130011fd00 -> 37284f6dd285235dfa556fae67ba3d9f5a32c3c85bce2dab64626a863116e6ec
+~ _OUTLINED_FUNCTION_2 : sha256 5bbb5d0f1f13e66aa8bbb661c88b1cd922be7ad35cedfd597b4e859c2c86ff75 -> b30926247b8c88b82bfc9cd4b5108a26816023ecd36085b20f30ed1878e717c6
+~ _OUTLINED_FUNCTION_3 : sha256 8b223e5c91d6515fbeefc15539a3b9229f92475c36ad6939fc7bad7cc12d79f6 -> c085385c4b96dbda5356b8d37571da0897ea11b11916f61e6cae202468299e78
+~ +[IPQuoteParser strippedQuoteBlockWithHtml:] : 4560 -> 4264
+~ -[IPMessage init] : sha256 006d85ca8f635b6150515335d3b14dff707e0a9111aa4eee9c6550101a3b7400 -> a97800f745effac90b5c6e868597ac950f359f7a136ec655227b2f07b2d65c69
+~ -[IPMessage initWithIdentifier:subject:sender:recipients:dateSent:type:] : sha256 48f4ae8e9d914eaa45de06b384cb7f8c3e133b6853a080ed2c01b28ee1ad2f4d -> eab1504f4f06490a0db0b2ed5fcf66fb592604767ff3c821e387195513fc1786
+~ -[IPMessage initWithSGIPMessage:] : 712 -> 708
+~ ___33-[IPMessage initWithSGIPMessage:]_block_invoke : sha256 e5ceb6395cde572b52e734bc3c40dc9a620aee23bd2488482d12c74464520b16 -> b9d9fa43af93a79ec40f0de5b079f0e0a6e1b3a4749a138938e057f4cef5848e
+~ -[IPMessage initWithDateSent:] : sha256 17595b3f917dac35696a11a03293058ea852d396bca793b28b3c5735ec1259ae -> 830406710670b5bb7ed2ee8b2096b40ef0ce46a09aba8914fe5c977662483b58
+~ -[IPMessage initWithDateSent:subject:] : sha256 eb6cc087b5487876f4b09fd6aecb5f762021af5fea8e39e21d2482794319340f -> 7119ee95ee4d97e1c1df4ab44e0c13c29f5ecc376c48c3e2ea313ed5a9b5117d
+~ -[IPMessage initWithIdentifier:subject:sender:recipients:dateSent:] : sha256 a4bb603631989449cab205e355fef5887c8fbb165cfcbe241a43046e64c56648 -> 0094480edb69103336991275104ba582de8052916b120f5d27496e1d09be373a
+~ -[IPMessage firstHeaderValueForKey:inHeaders:] : sha256 0e679ae62d461eba2cd11e9699f214f9946a1c233e0286184ebf8710a466e9c1 -> 832fe4f58f5f5de92c7187eed6e2ddc616c299bcfca1ab9f96a5cfecb2b9bdcb
+~ -[IPMessage initWithHTMLContent:emailHeadersDictionary:dateSent:] : sha256 07e1ffae99af824f1fdf0f4b86c3cf58eecdfb72dcae0f8800eae4233879a307 -> 09f27ab7e397fd9f9418ae0b70f56f1a1afeb1aed1c05cc0c1653739594f2905
+~ -[IPMessage addMessageUnit:] : sha256 336011201599cdaf929185782d6ae369788dafa2634e85fc86e6d2e691e4d6bd -> 02db0f68455fcd7dece39f75207d031982b92562fb04678781799520bd70863a
+~ -[IPMessage messageUnits] : sha256 cbf26d86065a115b380e9f6dbe48597795d514732f1f803700d5416d3db7f43c -> 6c6c7ecb897df248b7e8d84663933d7ce7ffbb5ff87444b57fdcd550075301e0
+~ -[IPMessage setMessageUnits:] : 268 -> 264
+~ -[IPMessage lowercaseSubject] : sha256 2112ef7105d3bdcb09f3d67e4a011e56544d516b29801e5b160f63dfa163f941 -> 1131ef0198c82fd1a5d60f556c1682d3b9619bde6437f8d616bb3d9b9fba3354
+~ -[IPMessage addDetectedKeyword:classificationTypeIdentifier:] : sha256 c61f19a400ff183371fe3f9435f17211bc032609e5987430ca92ffafb80d2555 -> 984f0ed108e8492ea68df6d877e493ba69cf24bff9dcd0c83e85b54b916fae52
+~ -[IPMessage detectedKeywordsDictionary] : sha256 5739ee4eb7935384d81dc57f057a294d84e6925299707bae8a032c6bd1eff217 -> 451afae532f0ded5fd8beb64087bc5c7acfd4175fab9831e7c9e7a1a14c5b6a2
+~ -[IPMessage identifier] : sha256 92a689177473b4064a4e1d01427dcf87319461fa523fac072e46dcfc66c8082b -> f0b7eb114e6acea543ec44f21ddd1d639e9fb844ff056c4f2459d071a4a310d4
+~ -[IPMessage setIdentifier:] : sha256 0a23f6729044442d9589adeec9ab78f50ad365e3bb8cd0f312ba058ccf9eef31 -> 5a4d3dc602f1f4abaa92990f6283b2aad0b469f1a1fb7b8234a7cf8c261dd0a9
+~ -[IPMessage threadIdentifier] : sha256 0c507eef3591b4f328f419f6dfe36c304f1430070e17afc8d540ba7fe6cdb6d5 -> a48a9b3102ee18c166723b9893126ec1f6ed648174a9dab90edd3049fb120e66
+~ -[IPMessage setThreadIdentifier:] : sha256 5902da6870d1dcba08e2c80112e08c58cd7782e800d3ab350ee7f370308d9fd0 -> 78780a163079d9c8542a6509406086faaf19f6d2e1b787bc4b495ef92e40c7db
+~ -[IPMessage subject] : sha256 1cbe31bb3335c867426f2c9884b8068ec538b3b2f23a0f5f05c4edb9fdeb0ed5 -> c73a46a9a0b05314730e23542e5bb779d96684cd89fd3c4af040c9eadf6550fe
+~ -[IPMessage setSubject:] : sha256 4a77816e2f4471c913e6a6d2c1c3003ce9c81462ada42f5ea24fb4ca1dc31a08 -> 421248708f6b7e7b8cfc4f3f3ddddd039d09555036a20bef782533774254992c
+~ -[IPMessage sender] : sha256 1dc03c57ead8ca90d674d5ddac3cb9a1fd5b7cf53e512ab59870ed32d6bda363 -> 4574be4d1eaae7504f759ca3f21b70780848357c995aa625ec1a9da5dbd8ebbc
+~ -[IPMessage setSender:] : sha256 0f7aa404cea85598aada24f489510172d460d8bd32fbdc1136e4ef0d5c3dbf6f -> bd05773181831762faa7390f3e23200d11d4b9b851ab35a3fd2d1a63eff08459
+~ -[IPMessage recipients] : sha256 5972ce983e5faa80493789ab1dd8913a8fc38cf6b3995b4a951e0b2ae47c157d -> 83dce2d59e0299fe1dfd757461a2551c3aab036aad36684ce658f7755b5aa0ff
+~ -[IPMessage setRecipients:] : sha256 b1274bb2524ef70647329c460b55c497a456cd8629082e256f1941f00a776604 -> 87be8433c3670e511ddc865c0f442b6b37790715e23646e7fe5652bd3d604efd
+~ -[IPMessage dateSent] : sha256 948c446e75d444d91e7d73913c532abe34cf1c753436728dd431f4b444ae9574 -> ecfa363bff379d7b4817f716a3238304f99c83031c859498d3b7e2f2b15403ff
+~ -[IPMessage setDateSent:] : sha256 a06b55a99b5a0a7c3722b2a38b04a666886f0ad369cd4cd5e5b797f3d91340d7 -> 49f2e5aa56ce61cbfa2d1cf66af6638e0d3072051f740597f8d3b1cbb6bb571a
+~ -[IPMessage type] : sha256 d222f81651b1221de724bab08fb9e2b1789180f1a4f60f5dff8314f82c047ecc -> 161cb9973d21e7033292d46a349f7b5ca98ac211b6a51e3c45a986febb58fd1a
+~ -[IPMessage setType:] : sha256 7a00c4d778f9685b62431dcce27ce4ccd2b54f5e32277796bb629386e6af569e -> 2ef0976f43cf3b66dbdbc0c399526f37f7cb8c2c8877bae0deab9a3a8b856aa6
+~ -[IPMessage htmlContent] : sha256 35c90ced393f8f7ce322de03739c643c70eea14ba48f632b286aeedd500ff636 -> 30945238e14b0b347c67351b72882ec7963b72120cec42b8df861b3d495cbb2a
+~ -[IPMessage setHtmlContent:] : sha256 4df8344c02c28c219ca5ab9ce21b4291d78ddb32a492a31452c8184e83c1d654 -> fe30c5a8c4c029209d4acc65ec71d48fcfbb61c2372acdff07447b68ef1905c0
+~ -[IPMessage .cxx_destruct] : sha256 6f4c4bfee1c11fd2094f47aee6606f75a1e5a0073908a7f2808a53588abef53a -> 23317ffbe2c40cff58a4a33e0fba135f727beb1395a2d9609b52e0cb0abf00d2
+~ +[IPFeatureExtractor defaultExtractor] : sha256 6f59aa78999a5795e8a63e355559d79a0a1135aaf32a726ae456e0507d97aec9 -> ed29365455b5ee04681e04c3582343f58cf915f963952c374873c0137e94336a
+~ +[IPFeatureManager scanEventsInMessageUnits:synchronously:completionHandler:] : sha256 56bc7458c865830bfa187331ec0e6a83f54fb9e540a948ac17c762a6ebde3d9e -> e7eeda1ad921b20cae2978127482179ed95ed5fa953c1a009f83456652e283ec
+~ ___77+[IPFeatureManager scanEventsInMessageUnits:synchronously:completionHandler:]_block_invoke : sha256 e32e8fdec8e9d506ad2dcd0a07388baab3cf30e5eff76948b75787c187c81e38 -> b565f9040857fe60763c3105a1b78cce633f583100cc6c24d454fb2c9caaea7c
+~ +[IPFeatureManager scanEventsInMessageUnits:completionHandler:] : sha256 8a13086f2615d9c9cb89d5181762c8853bdc3fc3b8ac4443cb3527dd1d87afff -> 4e98787918cb00929b99e37e229a5b002971a75a911ae2235b1db10cf3d9b578
+~ +[IPFeatureManager featuresForTextString:inMessageUnit:] : sha256 72dce9197f99204dd08b15f6cc46b65eb3f6ebb43a3dd7943bd1dd7c00d50a7e -> 056718f09494922947e19457abf00b3495093e809d60ab6c0806d9b3f894ad30
+~ +[IPFeatureManager setEventStoreForTesting:] : sha256 0c8a01d5c1085e7638ac74775c5df8d0e49d5b0c44244207a0a63329dd1a3fad -> 17dd7f104e978a385171dc29f720b7a8d43cf165053db108b072f1450d9389ba
+~ +[IPTenseDetector tenseOfString:languageID:] : sha256 82fe0659693f2935cb571c822c74ad5818fcf35ca22f6e1342a764453ebdc8b6 -> b38a96d650f8f78ac94abb48537e9c0a33b55892e342e1e1edacbbd462a5af6b
+~ ___44+[IPTenseDetector tenseOfString:languageID:]_block_invoke : sha256 60be0710efa10c9081c9b475f393cf2548c56a9c61c526dad10cfa30fb22df82 -> 95a578bf5e35928586f58cc7d97375114561f4540ecb0d580267241c0f9c6ac7
+~ ___Block_byref_object_dispose_ : sha256 796f69623b9e4d3a9babca3edfd401d09ed2b6d68a36083a19ad8d58b3abbd49 -> 20d17121ca9165664edd8a5daac3bd18843835bb798a1096bc6f2ffb49380e26
+~ ___44+[IPTenseDetector tenseOfString:languageID:]_block_invoke.180 : sha256 252b6b316faa00df9fbdb6ffe2c382a43736ef9e1c964dce49c1446b7789cb02 -> bb09ea030cf0d83b4740173a097eed73b932bba7a6e27d911c01932d5e187c8b
+~ _humanReadableFeatureType : sha256 4e41c6ee2fc4339eb00f484f5c3e9f48196d8f7998cf5b2829ffb6fda7726d5a -> ecad2049d907e7c4d12f85031e0513c618b33b98a6abc199c35894f950aaddb0
+~ +[IPFeatureData featureDataWithType:value:matchRange:] : sha256 66141f853b3057fe2433e7b639da63ab9fa98c5e6a204689e3340aa979637e07 -> c6eb10da4e6dd31d800f6fe29e9bb830fd2d9f3201ad0f194bcb36b0b4ba8b7b
+~ -[IPFeatureData contextDictionary] : sha256 77634d920af9f5ea9344ccba6e0352b9941c5d6265f708070a5f0420bc66b9a0 -> 7889e5b5e8cc1c0a61933e0692e3f9ca852541d4cb01ef10b5ba3a7e453e8517
+~ -[IPFeatureData description] : sha256 b6d8697f256793b3f1bbea0f913991af612c1d6087cf2a69e99f0d7b087d82f1 -> cd8540ab012196dd9e57ede490b87106f7a05b259897c0a759461e22c9477e97
+~ -[IPFeatureData nGramMarker] : sha256 4d70f7e3d15d55f97eede20a8ad5131ca9bdaa5aba41258c3eecbf32c68fc9cb -> f65229f404b9ac8995e74af2ab1a8f5ed8f22c48dab2689fcce64ae426919dae
+~ -[IPFeatureData type] : sha256 aacf37b18d04deaca43bebe75482ef54ce2b69e29182c1e1b7e18152d9374fcb -> 64771a8b937787e0216b13976ff1fa5ecd4bbeaa117c6013086bf4f99ed239d0
+~ -[IPFeatureData setType:] : sha256 40407d377d7e34fa9be55022bb9a2d36d22b0251c10b07182f0d0a314b1e0974 -> eead1ad72f64c037f56bad5d3da6d5f706489d8b3aa19d8b5cd85a7b21ba4f75
+~ -[IPFeatureData value] : sha256 6efabe2bdc2f27578c8063954146fe993a423f3df936ff8029ff6a05cc2692f0 -> 97239e66ebac5f5fe406f190094508ff722cf49f8addb3300c905eb2da6b1239
+~ -[IPFeatureData setValue:] : sha256 0ec70387b0de0c0c24e2c03208c90f9e64e69944f38ec1039aa81ba3543bb3bb -> 4776321040e132cf32077c3d720b09abe8354854927624a5aa50270c2f11a50a
+~ -[IPFeatureData .cxx_destruct] : sha256 7859e75bd2e8b04a921798624964024a1b0009ee3f6d4b468b5bbc70a49024c7 -> 9f62d61712663ad2f424d1a82017b9f36b3a93f831c22579f5b7431cf3317131
+~ -[IPKeywordFeatureExtractor featuresForTextString:inMessageUnit:context:] : 968 -> 964
+~ -[IPKeywordFeatureExtractor matchesForTextString:inMessageUnit:eventType:] : 1008 -> 1000
+~ -[IPKeywordFeatureExtractor matchesForTextString:inMessageUnit:eventType:keywordType:] : sha256 4793071100966d46da6765ead98dc5d84120f27cc8bf0749cb2b54aafd73fa3c -> d68504426bb2f1bc526c3e7996e24f21312b07d4f7d6c7f32fbc7e1124adf4d4
+~ ___86-[IPKeywordFeatureExtractor matchesForTextString:inMessageUnit:eventType:keywordType:]_block_invoke : sha256 a389a893bc455118ebecb2a43881bbfec1030665f6e92da1360a079f1ed96c52 -> 212045a715c597481bf5c80b0909bc3c5b6742c00653562f9f54383cf0755897
+~ -[IPKeywordFeatureExtractor _matchingKeywordsForRegex:inText:message:eventType:keywordType:] : 796 -> 792
+~ -[IPKeywordFeatureExtractor queue] : sha256 ba4d6381f5ac1666be67a851a886dfffa1d714bbcf16ec80f0f58cb75900ebb3 -> d6f337b4607d0a5a96de09fff292a71beeeffa3fa21fd865f32c401957bd98bc
+~ ___34-[IPKeywordFeatureExtractor queue]_block_invoke : sha256 8eea1b6909e3d92be1d3fef2c3b7d369831c206e1f3139de82e5a69f42115648 -> 6e03a9e1cfb28057a27a2f43857c8914c0e81069199e7ab4ef7c05858983ab63
+~ ___IPDebuggingModeEnabled_block_invoke : sha256 a2e70c0b37f86ab094e53bc80fca46eec8bae48b347a16a0c9455999bd63d3e1 -> e47504b3fbec30f9a5ee882c2eb092b702f6eacd636f8ba9317f90fa0addfd50
+~ -[IPDataDetectorsFeatureExtractor init] : sha256 d1efe175147ba52ec579640b4a528da748a9decb051fe069a1fe4523ec19c204 -> 5971741cd09db01ff9a7a5a35634b2592bccd927880c11587d807a7987c42dd5
+~ ___39-[IPDataDetectorsFeatureExtractor init]_block_invoke : sha256 7c61f225996487c352e64ed5b52e03a4150974b332bcafa45b49b9a7cfd1ec91 -> 020a8b08af2298e1832cf55d35fd947c0f81b1c6e693420e0731e54f770d18a4
+~ -[IPDataDetectorsFeatureExtractor standardScanner] : sha256 112ee0fe5a88fea5fbfa72da6fff8dbbcec38776aca922d73b0f04fe03e72559 -> 2e908c455f3729d4ac4c0e11b30846c8bf618c226582345320e27b5e3b4cf470
+~ -[IPDataDetectorsFeatureExtractor stringContainsNonTimeStrings:aroundRange:] : sha256 8319ad10007e81ec4b5c5d15656b80a68a42d1c6c846eb19b97953abd97d1330 -> 39666026c14d2229a35deff73270c36d3aaad0a0dc4e0867afcbfe7f1a927645
+~ ___76-[IPDataDetectorsFeatureExtractor stringContainsNonTimeStrings:aroundRange:]_block_invoke : sha256 ace473163e54fe489cd46bc5769a2b35ec754f6aa43c64a0092350a3d28e58f2 -> 80905796921f978227c8740f7e62ba650d4e1ac7764ee4d5d76bf3fe7be42943
+~ -[IPDataDetectorsFeatureExtractor featuresForTextString:inMessageUnit:context:] : 3308 -> 3300
+~ ___Block_byref_object_dispose_ : sha256 a79dad58099d7aa307d72dfafdaad3c0fbbd20b61024e57278049e00db05041a -> ea7121e128668577e688c592b04b25f6f8ecc26a14b96b7f0b96861601f27a3c
+~ ___79-[IPDataDetectorsFeatureExtractor featuresForTextString:inMessageUnit:context:]_block_invoke : 6080 -> 6012
+~ _IPDDResultRangeCompare : sha256 e01a681ff1cf6255336e8a6e598203d558b8b310df115ea92855d5b0f2209f9a -> 61062e401444621e99f1f0fd9c07f9252781ad122f9f581ade6b1b4abc75f430
+~ -[IPDataDetectorsFeatureExtractor standardizeTimezonesForDetectedFeatures:] : 540 -> 536
+~ -[IPDataDetectorsFeatureExtractor setTimeZone:forDateFeatures:] : 684 -> 680
+~ -[IPDataDetectorsFeatureExtractor featureDataComplementingFeatureData:hour:minute:duration:] : sha256 6b42e8a874e552f1409ccd0f68f511b5cc3b88232950d9c0f1494867713e15b4 -> c187a7c4a01ff92c2e8a774a7918d89a8e682daa70fd05107ad004fff95003ab
+~ -[IPDataDetectorsFeatureExtractor stringByReplacingDetectedDataWithNGramMarkersInString:] : 516 -> 512
+~ -[IPDataDetectorsFeatureExtractor thisSaturdayDateFromReferenceDate:] : sha256 cd3ac770d7d10344ef55ce0a947024fec551e76b82a2a56f3419cc15e186e33e -> f154358b23ab4d59016db9ae3cffded0b2cae8c5566d27cd9750e4d3d1b2611c
+~ -[IPDataDetectorsFeatureExtractor tomorrowDateFromReferenceDate:] : sha256 d036ad1708bbaa54af6f5177f26a45f6ede0a8f6af32d024498321cf71dbbd18 -> 442cfe846086192e3f6cf0a0cdc22603d1061999a645f69b7f722b9f7f76dd47
+~ -[IPDataDetectorsFeatureExtractor valentineDayDateFromReferenceDate:] : sha256 cd9221ba05f85433cbd3e22577b8c69397013404f8b0793a6ab00bacdb82dabc -> 843b4fa8f98a913d58e839b7ce1e16d11d13ba409c3530b217e12830d51e4e02
+~ -[IPDataDetectorsFeatureExtractor newYearsEveDayDateFromReferenceDate:] : sha256 337299cc489aa573507284e00bfd45cbe3bd5110b82aad1e97b5072ccbac516a -> f03568bfc468a88cc847e372140e3e7d8047bf57975d33eb25080f41161741f7
+~ -[IPDataDetectorsFeatureExtractor textRangeReferencingTomorrow:] : sha256 11b779c925fea09e2202b79e942eb20c6e268aeaa4971d1ff9ffd70472e2c7f1 -> ed93639e7e7b3b763cccf6aa8720831153eba8ad063f9fc7b223d73ff78cc324
+~ ___64-[IPDataDetectorsFeatureExtractor textRangeReferencingTomorrow:]_block_invoke : sha256 4713940898cfefb627c6e6179492cb6cfb2080cc4e181b031f8d9412b7d1d78c -> 02ffce85fa2279ddc329c27112fd58b237c1965310ca4f5f49b047e26a1c2ab7
+~ -[IPDataDetectorsFeatureExtractor textRangeReferencingThisWeekEnd:] : sha256 56b9a098c1c07e73201961fd17c638a94a08efde8b5afa208cafeaab5c926e6a -> 3a7042572330d1d0003df3fa0c136c040aedcdd36f8abef1079f88eb56feeff9
+~ ___67-[IPDataDetectorsFeatureExtractor textRangeReferencingThisWeekEnd:]_block_invoke : sha256 c52987e47b1c6b1bf67a82839a370af9547fa7fc111254a29ff99a77e693f9b4 -> af3f7e598feaf28c847344ff935b5ee1cedbd68ce37a937bc3879f52e9e0a7d7
+~ -[IPDataDetectorsFeatureExtractor textRangeReferencingNextWeekEnd:] : sha256 bd0311f582c07b636bf01f64f619da99b2f692adcef6de2e3f55ed9361152e03 -> fcdc556c60836aaddb9b06dce005e660348c52366746eb5b4cf47b87b412c9b5
+~ ___67-[IPDataDetectorsFeatureExtractor textRangeReferencingNextWeekEnd:]_block_invoke : sha256 ffbb2090feb6587a1ea07da15ceebde6e0ac019e1aeb5f0c79c732758fc63bbe -> a4d171081e729c82b2e986ca257aa5e198186fa0316b3361009c080fe67c42d7
+~ -[IPDataDetectorsFeatureExtractor textRangeReferencingAllDay:] : sha256 6b477c8aba7868f09b3f2a92fbd75a15206b78d4fc9bf3ae12f6970b12afad22 -> 64083cf9094f2ac1dae1924d8411fe3a25377237a880a49731f2b6ef39607d8a
+~ ___62-[IPDataDetectorsFeatureExtractor textRangeReferencingAllDay:]_block_invoke : sha256 1667a237d9f541f10f92934ab9db5ad6b8e3662c592dc372ae4a23801489daed -> 1f4be7d000594fb0b13b794a0c0306c3021c4ffd061a4d610193b1d3b83ed72f
+~ -[IPDataDetectorsFeatureExtractor textRangeReferencingValentineDay:] : sha256 ae4c2cb8c3a4fe46fbf57c51bc15d764369bac0c1f8e6977b85e5daaa6aa7562 -> dcfa487023344f9fd0d5c9be57621cf126794560f06d6736c545de1a2818086a
+~ ___68-[IPDataDetectorsFeatureExtractor textRangeReferencingValentineDay:]_block_invoke : sha256 ecdc3aa533c6abd7b768056d0abf594427704fc9f3e3736a4505b3355c7ef88b -> a44cc1e823b974a6a048ac152dd8fcae0b2b09a9e348455acd63b17b76890170
+~ -[IPDataDetectorsFeatureExtractor textRangeReferencingNewYearsEve:] : sha256 df892ffd3f23d8d5a264c1134ebd3f669a6f0a8dab17b1eb8aa2029ebe98edb2 -> 4d720bdce196053e11cc641bd276b92d1e085efd89123a26be81d76d6559d422
+~ ___67-[IPDataDetectorsFeatureExtractor textRangeReferencingNewYearsEve:]_block_invoke : sha256 b758ef12f9725f85d80cd2d012a71aaa2e7d73d1088468ea903e69afa1b21a35 -> d759d08f4c21f9beb15265cf9d8ce34333e391ddd9398a166bb8658f8c33fab4
+~ -[IPDataDetectorsFeatureExtractor textRangeReferencingMorning:] : sha256 90231449a7aa7b6c18f782bf4e989a92a50894263756769aeb1b6d64563cb20f -> a5537c49c9dfedea416313a0445c39d17567c41ff936985da23dcd35d86708af
+~ ___63-[IPDataDetectorsFeatureExtractor textRangeReferencingMorning:]_block_invoke : sha256 af64a9fdb0ee02593accfb6da071a2fa136d32e5f184b3456cec2213960576ae -> 9c38bc9a331f1033f6d59bceb987ed9e34d5eab08963007c47352da49f76a951
+~ -[IPDataDetectorsFeatureExtractor textRangeReferencingNoon:] : sha256 b52713511127ca18d1f8d0d62711f3a00e28cc37ee4d38a2ff3c04f4a9814674 -> 5ac39778cdd50f98d0f2abe11941bbb14fab133b5c737868746962b36bade72b
+~ ___60-[IPDataDetectorsFeatureExtractor textRangeReferencingNoon:]_block_invoke : sha256 1b7e093a573730cfe1eedc00a48627d4964d6560c69fee3fcf4e9621a347ae01 -> 6a4db47bbe901203e13192decefe440abb0eab32e40b8241fd42113f8a895abe
+~ -[IPDataDetectorsFeatureExtractor textRangeReferencingAfternoon:] : sha256 553d524d082e9bad6cdcb7cb91dd7b4c83ea3f6dd628b709252c3742cc454571 -> 20b9d528ca6a1012ac87fc018705ff0f22c4db140212eb68adaf9ccc2b71418c
+~ ___65-[IPDataDetectorsFeatureExtractor textRangeReferencingAfternoon:]_block_invoke : sha256 ec17da50ace3287fde64743a4d6180e5985cbf8b98f5d0dde830b9d45f05db5d -> f3e957d725694bad6818df4c19e5a7911dc47d33ad9029df43f92888d54121c9
+~ -[IPDataDetectorsFeatureExtractor textRangeReferencingEvening:] : sha256 e97c1aac7afa6a539d910cad104e8484ec01087a594d8cd54852adb1a8dfbf93 -> 694bcd6fc8e2fa0fce1d2dfcb5bbe451919e0cfb0edac97314c647fbc5c7bfac
+~ ___63-[IPDataDetectorsFeatureExtractor textRangeReferencingEvening:]_block_invoke : sha256 9ff3b53a59f458fe1dcdc7893b632949098ac1f42298566c06740a695e700754 -> 8fc03f9a2079be1afda4f0c2fddeb32c41498186c6223f6a487ea1100784799a
+~ -[IPDataDetectorsFeatureExtractor queue] : sha256 4238af85683b1fece33cc0c231c56724c1bec9e6beb0ee0fcf9fa9e2d767b24c -> fde2e575af5055d6a582f57a446ff24c16ba5eeff4273717386737e24fc1bd3e
+~ ___40-[IPDataDetectorsFeatureExtractor queue]_block_invoke : sha256 f2ccf3726e4fcd23e43bebcf0255b13ea5743b43f252468a119cc927ffa43284 -> ac75529abe1bffd00d1c66a34ad3e29d80a0dffb17a6a5043ab755ee096c77c4
+~ ___IPGregorianCalendar_block_invoke : sha256 c7d52712a9092f7acf6d7f6b298ac5b7a3fda7e78285791e136a33f556432fff -> 88e2539ce77b7c94bbd722ecb175eba2240950b531a3ee6ae11b929901a548d1
+~ _OUTLINED_FUNCTION_0 : sha256 384fa6a555dd476f108f1b24216b52d3ab7e61814ce6adfe9284a43b2e3feb25 -> c0d02958d0df8aff2b777c9b80b0b6804f094eec2905b1ee57131e71b0da61aa
+~ -[IPCircularBufferArray initWithCapacity:] : sha256 9645eea29612cd00ffa4209c8534036a36a0979937e2e27050061cb3b5ce41f4 -> 187a09d81cc3f1bcd69eba4c9a9e16048617039ab697caf102e2e2a9e343764e
+~ -[IPCircularBufferArray addObject:completionHandler:] : sha256 4db3b27155191e2152e79a9853ad83004dd028a5fab8e049efcdf7f0aa7dbd25 -> 82eda41b522408ffd23422fdd03e82ba0a0425327c965890058dfe9bb9797c78
+~ -[IPCircularBufferArray lastObject] : sha256 a69f2a0dbe2119161063bd2b4758065581b6252fb76acd2b0707907462508076 -> 87f0bab5a337c4f75f1dc5017d4d3e9123703ee27e4591cae652d2ed35f45d65
+~ -[IPCircularBufferArray allObjects] : sha256 df85492d679718c00ababac9f6c3685fc016be383bb476adb4fc4babfab2c64f -> dba40f2ad78805aadd2c2a0a5a0c38aecc96139bc35b29f7d7d9f9b1f73a8220
+~ -[IPCircularBufferArray countByEnumeratingWithState:objects:count:] : 200 -> 196
+~ -[IPCircularBufferArray removeAllObjects] : sha256 c82b3ccd39934790c35f7553f1b20a7b2735ff88f254507670eefd1d58beefe8 -> a1cfd1b72656538e8949f63daa6136d931a5344670bf6076f7b5e2e27455357a
+~ -[IPCircularBufferArray count] : sha256 c61b75040c71ea14a56586b1158d30e1c7555a6850b0c098adb69bd93f0a81cd -> ab0a92e473d40d5e76756ec3e799a2bf4ed89d4d31f2fe1d34d79dfb1bfeed8c
+~ -[IPCircularBufferArray .cxx_destruct] : sha256 4fd4e9ab9b90a86ee80d52b138d45e1dc116a9b090eaee1a9043367ed3b82019 -> 8f60ca46117f028bb1be7b650dd7ec6d53ab6e9b3c5bee8423032c05c42d6daa
+~ +[IPRegexToolbox regexPatternByUncapturingPattern:] : sha256 0474294eb95f5c204c1af340b6d6d1a6ea68fb9107faa8c9220c3d17d41e4496 -> e064506a822f6dbb3b0f2c4ca04638253d89839719d6080c1e71ce029d28cb1f
+~ _lengthOfPatternAfterUncapturing : 476 -> 488
+~ +[IPRegexToolbox regexPatternWithPrefix:suffix:choices:] : sha256 2adc0f044335713e6ecbb4d20fa6428d2f032f60bb2f3bb0629f3b152b7102db -> 3b659ceb4d7c3cb1d7e3f170afed2b98e2a1630f5e78636c5b526f764e76da56
+~ +[IPRegexToolbox regexPatternForLanguageID:eventVocabularyArray:] : sha256 a4942d8b3dedd28ab53ee96a6538c5784e7847031600a21b9d190b9c56d9fd1d -> 65908a399c29629a23e4af8528d8a5f1527256c6028dc92eb1626a30e45d36ca
+~ +[IPRegexToolbox numberOfMatchesForRegex:inString:needsToLowercase:] : sha256 8010db8aabefa6cc7b5a62a716cc48f5dd86298d530dc1f230594432edab41b7 -> 05fe3892b4418ded8b3abd7ade0d026d79d4733750b64b0e652c1c4e473927b3
+~ +[IPRegexToolbox firstMatchingKeywordForRegex:inString:needsToLowercase:] : sha256 55ea32f73de1c43f4a4f76d8daa4e703c7c543943ba982b6ea2716a1521963f9 -> a5dcb8902dbf09a8faf1a5bfcc62373b5ae1163182d66863ab815f2ea313fa7e
+~ +[IPRegexToolbox matchingKeywordResultsForRegex:inString:needsToLowercase:] : sha256 28dba6b54948a938902ad5a60db74df859ce7a586c5d6e5e0740ad39575f7ae1 -> 14e8413c1086bffa687fdf0e2f94e19e3a0d7e9c075d8bbedd24efbf7e92d676
+~ +[IPRegexToolbox isRangeNearbyExclusionKeyword:text:limitToSurroundingText:language:] : sha256 82cbd711e105d123b4f695bd0cb2c84a14d868446c64ff3030cda2ecd3a0ebcd -> 08ad208e10829210bfc029f22471696092567795afa475bbda3f30453a4bc38f
+~ ___85+[IPRegexToolbox isRangeNearbyExclusionKeyword:text:limitToSurroundingText:language:]_block_invoke : sha256 9704f6ff8798b40218cf7b018fd2f73c82d27adef443489cd01e500cdb238bf9 -> fa7c53223d1bd7c6aee43a832f236697ba7cf7f5d8904b42fee34a76207d9f27
+~ ___85+[IPRegexToolbox isRangeNearbyExclusionKeyword:text:limitToSurroundingText:language:]_block_invoke_2 : sha256 a29764a02c44b47024137845262ec0abbb438c3b387e53beed0051b8f2aea81a -> 8adf5e06a509390529b1ea0b283d95c5c11918cfd2f577fb2779b584aaddcbb2
+~ +[IPRegexToolbox isRangeInsideQuotationMarks:text:limitToSurroundingText:] : sha256 4e3758d05f0c82eda5d95819e350d918a09d38d8b3510e7f15faae6f3cd58eed -> 1b177c7ff6e90488bef748d21f6940a9be101588bd75be214852744b4ba47551
+~ ___74+[IPRegexToolbox isRangeInsideQuotationMarks:text:limitToSurroundingText:]_block_invoke : sha256 2b7ed1216872e603110efc778328fb9d94b478598dd12743e5acfdd020b9bb5e -> 82819b89bbd1e1f0e810578853ebbb8b553e90ee190df0e39208f0dcd6d86ec8
+~ +[IPRegexToolbox emailSubjectPrefixRegex] : sha256 6cf9fda06460cbff03e43e83a0954349e78bd317d0988c32defa336d3cd80a4b -> 06e04041ffe4de5785cdd17de0c8353bf6f677b7c9e9c204339f2562c0e2ca67
+~ ___41+[IPRegexToolbox emailSubjectPrefixRegex]_block_invoke : sha256 234a105f3061d111beceac10434d8fa4371526727645a66bb345c0f394da588b -> c8132fa3e396615237d4c89478f5fb177e2e2b27501f3b2d75cd74f4595d08e7
+~ ___41+[IPRegexToolbox emailSubjectPrefixRegex]_block_invoke_2 : sha256 94333299831bef0b7fd9411de2c8eb4dde4f27d9fb64ba5cfcff0bff7fba1240 -> cb0deb05274bb637a1a09a48c11d2967d6967006a577d7d40ba6185cfa09a66a
+~ ___41+[IPRegexToolbox emailSubjectPrefixRegex]_block_invoke_3 : sha256 b5568c2397b354505a7099a0bbb7872903999d135a7b8d6cb3411011e97e589a -> 9bc17b9d705e252ec6eb5557d1633543d4f394a381956f57012f2b066e41d9a1
+~ +[IPRegexToolbox regularExpressionWithKey:generator:] : sha256 81e9e10b498ad95b1f609b94575794986a8497941767699db4d29708f1d79c07 -> c9aac31b9c60361ccff1a82ff406c325d0da8affbe972e6f87188b0a2943b466
+~ -[IPPerson init] : sha256 59caf45c4cba7cc851adbf9a182a916f199f90d00b2a3624cf7f174c18c80d0a -> a2cd2cf4f8b334e5d3e851e2044e2ec216370222ebd071dea8075daebf00fdf0
+~ -[IPPerson initWithHandle:handleType:fullName:] : sha256 81b31c1cc1a3832be128715701e2d9d2ff25254d5e7c453d4bf16258856e689b -> 748a41c7a6b4204a14662dcda7d06d62d53d073d0e0ae7223a1d4071925d5771
+~ -[IPPerson initWithEmail:fullName:] : sha256 7ae922ebfbf9e9c04b3ba3c6ae3202d6522e152ad5ef62a968dcc6a20e4d602a -> efdffc4c0ed77969517c575ac695f49fb8f566e9fc0f5251de2be4cd34aee7bc
+~ -[IPPerson initWithString:] : sha256 bb3836d9d412676288920256684dea0b4ddcc0e932e801e78d7754393947ce80 -> 6d008491c6ffbbe4ad5973c201a456e01a9b7f3280f37fbf5c3a0c53ed10f143
+~ -[IPPerson initWithSGIPPerson:] : sha256 84d6065826d80b7a2f82f33d9086a7147983467541d142129a8fd60c4ac84146 -> bd62f1b8f9e313765f94363c6e0fa1c961d039f1bc0484bf145ad57a4a139f82
+~ -[IPPerson displayableName] : sha256 6d354ef74499af0664a72252dc83afc1622007871daf1616fadb473aed1527ea -> ff2a4562b147e27d2aab3f62fefaa17de48143f4a94115775045b07246b4519a
+~ -[IPPerson email] : sha256 a22a3b412a8e08de7a49639a240754aa7640aceef3bac2822d29420b17019910 -> 0bf068372363f7e6123961dc983a57687e92655a1733d499d575fd56a2fb4801
+~ -[IPPerson fullName] : sha256 d220ff410390bc1f3dcd14f983adc5d65153e1dbe4d5a27305d5cb311781a9af -> b4379f7d6932cb6ec024f4641efeb53f597cb1db87a6f2fb259d248fd8f11138
+~ -[IPPerson handle] : sha256 d382fc4c7f28b92825bbc22f2d44da39058aea3226d9fe1dde5064cf5da62c56 -> 250ee59c26b13a0bdb0594606f7960fddfd785d99f7de2359e6a8ac6365e697b
+~ -[IPPerson ABUUID] : sha256 885c01115a288ae2a369d88b117b1dcddb5729864873489677ec7917ccc7c324 -> cb6083872b8955e8798b7a6abe172f3098cb4f6f0f3075b2c94431db3d39113a
+~ -[IPPerson setABUUID:] : sha256 8de122c6e7c7d57fae006555db507fd595c4ddb853f93e632e98032aa4af12ad -> 043f028f581187b45c45f5207ebf1c972bb2a0d7a30d268f860f1b5499c493fc
+~ -[IPPerson handleType] : sha256 2c16210968b5c12b8d5163416d6cc41562fa12ee87edac1067af3750a2255ed2 -> 85baaece0705ee319b6d178927694e91dc8a905d29c950d4cc79a56299ce78cd
+~ -[IPPerson .cxx_destruct] : sha256 7570993d4bb734edf87ad1b39eeefe9b5893098d2349ae43396b975f7bcce7ad -> ec637c0e86fb1383dbab7665a326e0a27d7db857bca57794aa6680259f934e9e
+~ -[IPTextMessageConversation init] : sha256 94d25678bd82127758f4761666574ae435e77fff00efda874b5aed3eb65aaa3d -> 36c9a4c113e010cd57f59d138da5ebaf14515968000795334d0db0fd98d94d6a
+~ -[IPTextMessageConversation allMessages] : sha256 3a38eb1fdb05b2f69a9477a346d40d22656239140a49515da7265caf05713dfc -> 59ebac320e2ff8f747e93adef503ec2f53b8997b9b972a61a28473ca4c0ecdb9
+~ -[IPTextMessageConversation addMessage:] : sha256 e523dddf8e0511b8c7c6450a9cf4aee4dca3325ebc6887f774c84c5eaa58d90f -> 200a2483a8044013c4f7b4df890bf60e0fdf96ccef61357554d37dd70ebe68e5
+~ ___Block_byref_object_dispose_ : sha256 26756914b2f6058e04ddc075487756999a99f8499dd9b9e7b23616b0dfca15e0 -> 8f87171a5b538436194e2b4ce576ef8143b75213fbd781b91489d301005f274e
+~ ___40-[IPTextMessageConversation addMessage:]_block_invoke : sha256 f8340af11c67b03935211394510d24f3c3e85be6a02aba4f4ad1d37e4544fd76 -> 4f92ecaa8e3157b6ba543e636a268366372245c1d3a3d2d8f9d01a38d4f68a91
+~ -[IPTextMessageConversation reset] : sha256 9e1ea41c0f81b8b536ed18294b706ed68d66196c9f07c51184bb96d9490d9581 -> bf617f9950305186b1d8fdd5fc5cc7121e637b08a5a31471cc5b294a08ae49d4
+~ -[IPTextMessageConversation messageForIdentifier:] : sha256 34e1a007a4eca81c1586b41340e60755134552d373963c169de0473525cadd5d -> e6cf307772874d69954c7a74d43ea23b2186d7f3ddc31e45357a61a35e7f3046
+~ -[IPTextMessageConversation scanEventsInLastMessageOnly:synchronously:completionHandler:] : sha256 7904ed26bdda73edc0a117a719518c34419e53e28f5436c20fbd73c79129ef81 -> f6c472620c66611cd363bb3382fbc45bc5b81001c204c5835151d496399e2893
+~ -[IPTextMessageConversation _scanEventsInLastMessageOnly:synchronously:completionHandler:] : sha256 28242c39c354c6de2cbda080e117d3e4d4afb73ace583b2cc8c6f53fef47820c -> f26870d2c01dd172c25a180546b5d0ec53f15c1faab42e8ab2bcc750276c6fdf
+~ ___90-[IPTextMessageConversation _scanEventsInLastMessageOnly:synchronously:completionHandler:]_block_invoke : sha256 f66195b025b8fec9fb5aadb22ece8aed0038d1559ab6eb339018a8368d276da7 -> 0a7d7d80064c33ce4c44d9f836d1c1a33a05590a5de033b6c5079743bac97b9d
+~ ___90-[IPTextMessageConversation _scanEventsInLastMessageOnly:synchronously:completionHandler:]_block_invoke_2 : 1556 -> 1552
+~ ___90-[IPTextMessageConversation _scanEventsInLastMessageOnly:synchronously:completionHandler:]_block_invoke_3 : 420 -> 416
+~ -[IPTextMessageConversation eventsInPreviouslyScannedMessageWithIdentifier:] : sha256 2b7691da83d16251678258c8b988ccdc79faf49ee1c4b919189a73c5f225cd46 -> 72140abe2ce8ffc9e82f52062ab862421cfdd34545bc4b8257cb9133e2fd6b31
+~ +[IPTextMessageConversation collapsedMessagesFromMessages:] : 680 -> 644
+~ +[IPTextMessageConversation collapseMessages:] : sha256 b5f9190228d2ee45af71c0dfe80efb7cf24bc4d2ca05d5623cab3a2e273b8738 -> daff945e0cd435a673d94682fa05d75a07c465599ad104c7d882fbd6f599286e
+~ -[IPTextMessageConversation setAllMessages:] : sha256 35f92cc9bf9f1f6364a65416a1c8753405657ab5453e3d26c9feaa00a798d3f9 -> cab05118310d1fcf350d0d2c450532767c026547fd978b92ab70f0743b9ece22
+~ -[IPTextMessageConversation messageByMessageIdentifierDictionary] : sha256 c95ee154dbe0dea06856ea2ea3fce35367ece5087ec435d8c9d7f3272b1752e1 -> c083d7267db6813f024c6d463cbeef813ba2fba4c6e9fdd3489e574c8d5ab0e5
+~ -[IPTextMessageConversation setMessageByMessageIdentifierDictionary:] : sha256 aefb211db60bf1d0cb96c2f29a86b8dbec2e59bbfecfc2cb7fde23465ecf55db -> 41cd7003b19c4fcd218f241e6f3956c44b77c48046b12386537e87d1b9c66a62
+~ -[IPTextMessageConversation eventsByMessageIdentifierDictionary] : sha256 d5d523c07de280c0627c28c0452c3a009a6dc525c6929a9efa7bf91e27da3cdf -> 2f284717293c2aa972835d1a01abd9b3c1fdb32c5f0c921d777f3196458c99bc
+~ -[IPTextMessageConversation setEventsByMessageIdentifierDictionary:] : sha256 e77ce4e6cdaa7154efa743ecf38b134284228eb98cadd8051d8190279d767cd5 -> 190101e3f21edd93f7732c175b5157fe9bb450e73155f27b735ba01c28fcdf1c
+~ -[IPTextMessageConversation .cxx_destruct] : sha256 9f2a2cf1ce9414969c52b50310a4f21bff62aa3c5e7d8eed079f8dfbdf9ee3fb -> 5e731c576301167fde28163cb20d06ca60967613e85bf8920a619d95c75e5d3b
+~ -[EKEvent(IpsosExtendedStorage) ipsos_isTimeApproximate] : sha256 baf8d7dec3732fb0b46b3671a60546bd6a4c4e3e02701ae2623f1c96d9d81ecb -> 92f5e7e40012211ea1ca0917b134992f4b46a4dcbbc9726d84f1676ebff35d86
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_isTimeApproximate:] : sha256 e539e7c946ec53c38d38eb13f6791a41a01761d30d1399c1f17681d0e680d69d -> 5df227f76a880c1f31c15eec3f1b9ca36b29d19f61c4a6464cf370ac7cd08123
+~ -[EKEvent(IpsosExtendedStorage) ipsos_isEndTimeApproximate] : sha256 e23dded5f0c8f348e70a07931f0493ad8a380b41b9ad26c9581da5b6c1e8fd28 -> 5a55a53eb95944dba4934720f90996a26e10d485dd8a978935df9e38f02c2001
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_isEndTimeApproximate:] : sha256 1f2cd6d6353665f4d87e409a3e732756e1fe1b2372749b45322d169a551b1de3 -> 77ebcbca14b45605e27af8e459271221d6cb998c48bc235d9eb72e17af4be2e5
+~ -[EKEvent(IpsosExtendedStorage) ipsos_usesDefaultClassificationTypeStartTime] : sha256 6fed9b52a1c401be570d594c75ee00f35cda032c37e45ac5899ca5dbbe2ddf05 -> 161b764ca74bf797025567a22786089fa87151e32ff7687995c8c5342a5ab84d
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_usesDefaultClassificationTypeStartTime:] : sha256 df51d3e4884b47c01f397543248c657d8eac720ae9f5f1a0c2b7927f1b72236f -> 1526708c30ef532ffa7a08dfe80ff41136d791d05621116ceb713d4b6e1e7035
+~ -[EKEvent(IpsosExtendedStorage) ipsos_timeNeedsMeridianGuess] : sha256 673a6a23a9f900d44eef14fd34c5123a62575ff23c4088d26b5a2f550d5f2fdc -> f17c9211595a6e74c7459c3be5ba0068a535f7b49065fad5393859227fd4b07c
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_timeNeedsMeridianGuess:] : sha256 913cdabcf9e1c3afd55283cee414b22ba7de6fe4c1b4dd2c0771b4325d0c71a4 -> eb08f4cca44d87fb2b6249a663008735ec88b18d15f9917a0c0e7b662ae73214
+~ -[EKEvent(IpsosExtendedStorage) ipsos_isDateTimeTenseDependent] : sha256 8a30ccbce7e55fcffb7e2ee04d2e94f212416f6c0d16bcc82b6da2525d8ae787 -> 72dde0737f10c8a16e8200c5f4dcf7330445474274c70923d7b5bf5d908d379a
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_isDateTimeTenseDependent:] : sha256 8d87733bd56ed121927a28980cb9ff8d9bb6d93200dfcde49279045ae5ef7086 -> ccb01fd73d0b2a601c58f3acf5233651e1c78a359844be1bd2395b3d5433e2f5
+~ -[EKEvent(IpsosExtendedStorage) ipsos_isEventTimeOnlyAndReferrengingToSentDate] : sha256 d65a69477f2fc8a4f6c32be58a63c82e94cab0d7e1f92376898f1d520f82bf08 -> c38e7ff19fadfd6f8ab614f0349922a1a32c1a230c74cec5f1c945a3ad231d7f
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_isEventTimeOnlyAndReferrengingToSentDate:] : sha256 a1302cc3b1ae594a0dbfc739fbd9b5a8a21fd431ea237f1d8bcb4f316a892d74 -> 9d651cdb4c834d192b162577a93c0cb69c8e5e5133f41f414a8c4919a10b5055
+~ -[EKEvent(IpsosExtendedStorage) ipsos_isTimeOffset] : sha256 a372153c26c6a04f36b938927bb3451b6fd687c6ee0404b8ea7e61b61130573d -> c29d5bdf99330ec341866e8f9d2ee2f486d33436237294e2d737e0da7bb8671f
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_isTimeOffset:] : sha256 5c11c5ccc70a717c026ba0616de94f4371002147fcc869eebeb74618cada722d -> 603e4a2892e4a0f355940b91c1c66837b2e5da58d46def06890e2ee86827e3d9
+~ -[EKEvent(IpsosExtendedStorage) ipsos_eventClassificationType] : sha256 3f7549d564382fe7a03a179dc718744f4ffb47fb3bbf245e6e1fe486a8881bc6 -> 17baf2723e3989abb61f56cb5479f0ecc18838a36e9a852382a0a4587e1ec293
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_eventClassificationType:] : sha256 7c8f0c5a698bd5541f4e9aa4bc88c1cc429fabe6deadaf16b873328fc019c58a -> 7f34164185629c41515844a0b4443d331d5a0b5683aa739e83bb4f1140bcc77c
+~ -[EKEvent(IpsosExtendedStorage) ipsos_dataFeatures] : sha256 be13b3b57661c0b5c35c9240c8825dfe9ccdf9bd034bc3ffe3330758bf2a0e33 -> a2608bff6b6649c36d2cd44fff1d1d73017da64fc9943c60b1fac0a4c0358607
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_dataFeatures:] : sha256 1fc1381356aa16cf5cbe55e0fc08fd93e17c2459a75ba1e57f0453b5079651f6 -> 14424d14d6d814e85db34ef4a97ec4c2be3c795c7e8c0014e92a738692fe1cfb
+~ -[EKEvent(IpsosExtendedStorage) ipsos_messageUnit] : sha256 7cfcfddd5494191333c1b1aeb14db6c46419f63279a48b48eb82f01bcbf3d8d5 -> fc4e9295543b2941add7fb3ea22b6ee6dff2c71af439b08a52d98ad72d51d5ef
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_messageUnit:] : sha256 0a43abc9976d56d730d5a0451651a2adbd77fee7afb9e65dea2678ec203c2faa -> 88e449cd864b8b09f9422628257c65af7de108c5b748716f846630d9532a2fd5
+~ -[EKEvent(IpsosExtendedStorage) ipsos_allDayPreferred] : sha256 1974231d18e64cda061705cef2e2f256a923c271f94a49bc1fc488b79d5679aa -> dd6e9db5b6bf69caafccb259d8900424373b2765ab8de1a89407c64eb592d041
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_allDayPreferred:] : sha256 9cd0295418cb878c35d53019c5d1f8a033727ae4559d4a0071096522e2f1fa77 -> 1db63f1ebdf4e442251f1f18a462e8b133cab8dca110da9321006ee29722b664
+~ -[EKEvent(IpsosExtendedStorage) ipsos_disableTimeAdjustment] : sha256 bb2dc5e47a2d7eb6b003e28d3fa20f5b421126864945d60a3781963b550a7d8d -> 3e690b0f5e31d5e1cce8e2989d8f4e8893cc27728db104d0b4ab36eb1831ec45
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_disableTimeAdjustment:] : sha256 b11a842f776dcadbbbcdf0ac27215893457fcf0a53d50a0013b6c119ee9acfbe -> 041a208ed4721af169110efdfb2c6f720eb38c3fd565ef492fd97887e563237e
+~ -[EKEvent(IpsosExtendedStorage) ipsos_usedBubblesCount] : sha256 956826f5bdfb9855003aa72907eae06f8f421991e26b8cb8918a7a012d945ded -> 70708d3a14c67c0a6ab358adf1bce4c0d20597ab4ac9919cf25d7edc43cce97c
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_usedBubblesCount:] : sha256 793eb930aa786b436366b6021a3f971c0e739f34e6bca314f46b6ca3ce83df1b -> 8b23f4c666e87ce53aad0765e5e5071bbb9d6d7c813b04290a0560da2a7be2d7
+~ -[EKEvent(IpsosExtendedStorage) ipsos_duration] : sha256 b3b46cbb519bcf1d5a1c73c95346a5f2caf418befe715129333f2106ec046b9a -> 46eb2dc80501be008162dac9009545f155d220041f17115e8b30a660a8ceab42
+~ -[EKEvent(IpsosExtendedStorage) ipsos_confidence] : sha256 b65ce8b95d5088d41efe213299bb9868af1ba1d331b56a1517ee6e75e84b035b -> 8e6122583974c9912c7b758ae84f526511656f0735b9d1cdfdca4299b7dbcf45
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_confidence:] : sha256 6f21b4edbbdc9ce3cacab05d7dbf98aa0b7b678e2b1ed8e8e24e7e5a25444eda -> 120c0122bf7fa77d69ff6feb080eb045b2042b8fe10f71c97148fcadaea0cc26
+~ -[EKEvent(IpsosExtendedStorage) ipsos_experimentalConfidence] : sha256 f4fa2c9a2093aa7c37a6898d113c44b4df597f4b021ca936475b3039017ba2fd -> 8b20377fdd38113797b9ba5f7869131855e8b908b8c4f6487d47573089d0eb8a
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_experimentalConfidence:] : sha256 0ccf79f4317032698d990201776d0cde981d106d0444cfaf84e5bf65cdc44847 -> be6a2d41ab417f35dc5ff4078f48b2e865323b41ae2906d351e4875a88089a75
+~ -[EKEvent(IpsosExtendedStorage) ipsos_eventStatus] : sha256 c911f05559d18c373c6b20b9544f812eae5f227fa50b954f5b0a9b791d65b426 -> 0ab7d0cf7b3e0d8628ed7504821c94b1227baf1247ff45adae334adbdb3f51bb
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_eventStatus:] : sha256 0921435422180c112918b910bb5a81f5ae05346d331cb81c4474e5e10a323549 -> a03d0e591c550861ff20d00642e4b1dd93b2e3600a0c8527a1606cc6a9315b92
+~ -[EKEvent(IpsosExtendedStorage) ipsos_eventAttributes] : sha256 3857988410be732ebc28702c21b903e53b31b49c736cfda44ce4fdfd3055cb1c -> 2877d638ab056b26ed8c9c14fa644cbff813ecf59e0d2369b90ae7267458b7b6
+~ -[EKEvent(IpsosExtendedStorage) setIpsos_eventAttributes:] : sha256 1f4a78aa4546ed19b56c872ac66f07f0bd36a816571df4edeecb8ca054fcbfdd -> 710d54f0bcb9fb184f33fcaf54a713474369552147e89bcee0b285c825ee68a0
+~ -[EKEvent(IpsosExtendedStorage) ipsos_betterDescription] : sha256 bdbc63d1deafbbbfd42d89159636877ce9b8bc65ea8d22e03d66e8d0da0bbc2a -> 913ba058adea4d93280697e4b0611388e1e720ce279cbc80cd887abdc906758a
+~ -[IPFeature matchString] : sha256 db70a34e8bc36770dd79bd1d1bc06bdeb98b601242f49aeea18cdf8e21a73682 -> a420f5a4f9b16e7c139ce910d6a3a2fcc3d60a7a58e9243c559c694d1b4f3936
+~ -[IPFeature description] : sha256 27789c45b1ce917655dc58a8d24913b2c58726f0eab03b3828c310fcc0b88098 -> c4429a3b4b7835891ada24b55140160521f4feb398d6983dbb917ad158813876
+~ -[IPFeature isMatchStringInsideQuotationMarks] : sha256 a47f8d312325aa8cf342231119ced6869686a04ef84731ca56c9aa1f55bcb807 -> fee22291f9e9b83cca79a4d7ee0a4b181adab57316975f22b3d6280e3559eb80
+~ -[IPFeature matchRange] : sha256 1efe04731d8025a93ed05aa5db8970625376151ce2d6ba6fe8dce46d9d240b41 -> 3fd6ac500a52c44e45d627a3e9b00676b07afd4bc53aae8573f56e617d943b56
+~ -[IPFeature setMatchRange:] : sha256 d6a21f425cea96b91c19eb66881c7a17e593c790eef9440878ae268f7019be7e -> 5b8351077c2cbbe234cd11319ef599338ce03aa0cdbc9c25e70acb3f063d05dd
+~ -[IPFeature textUnit] : sha256 a8618c8b1d565ff605b9b13f20081fcf7709e0475265a76336bf145c09cf1ce6 -> d5747c9c7296dc8e659a9492d44dd0c27eeddf98884fc706606ed11839e40982
+~ -[IPFeature setTextUnit:] : sha256 42787fe264d38b6bfd37d35207779b1278c2992ec4152b02ebeb5b0efec5d437 -> 865dd47d5cb3d65cb6050d8bb2b581e5442292bd1e98cfd760ae4e985c0bf9bd
+~ -[IPFeature .cxx_destruct] : sha256 d7fad70f5409804fcbf1635042d3fb5c119b52148935b3e9c8343800bbe8bf4e -> b9cbda164764c14c65197d78af4463dfc91b0292efb147ac94665bd987cbb91f
+~ _IPInitLogging : sha256 a68666e17b0e970213e78d723db7052eee558f3cde198e61e9388db342d2276e -> c0ad6294e90d2d17b9f708c074c7ac6dec53366c098ee776289498de0c21e623
+~ ___IPInitLogging_block_invoke : sha256 96438fb3ecb91e094c1ab5bb608f4df2f70a907011c40857b7346df0b73be1d7 -> 9c558aa41df8d8d30c58bbe254fbb10a9b576b1ea0bf4b890f3749deec7565fd
+~ +[IPFeatureSentenceFragment fragmentWithRange:clusterType:] : sha256 d2f47a0aa77166e132176f3aed36e062a075abdaae18087e08ce90e62b788192 -> 8da93fd216b4ce3f0c30b5b4e847d2c2efeceb5f255a122b6d5e9fe055d15a2e
+~ -[IPFeatureSentenceFragment mainPolarity] : sha256 8d3d79273c9deb34848d0d13905c0aca48b6cad348e17d7834a3a06e8537434f -> 4e4b298ca1009424aac8c90ecdf71b4248e64a6bc1e0dc2e4b103bbffa2f32c6
+~ -[IPFeatureSentenceFragment description] : sha256 438a00ebb83f9f20fef6f2e285dc2cc2fb1b25bd135412b0d5590fa20b7269f8 -> 69c323e99c82687d625c4ed8462a9c51cc1868cd054dff03c605d818bf923f93
+~ -[IPFeatureSentenceFragment range] : sha256 aa9a91356e2dc2ba8baf56d07f454ced78190333ac1489f8c79305bc428abcc8 -> 6f990d1c2342db337e8f7c4814bf801450dd1966a859d743375d74cfa8b29a60
+~ -[IPFeatureSentenceFragment setRange:] : sha256 dc68b07ea187d56fc7eda11f14600852573ba680ce6e157a904dbe94be81e5aa -> dea17caaccf5b61dc4f3c968a4cb6301ee6f242cb4c6404e068bc482371ef869
+~ -[IPFeatureSentence initWithLanguageID:responseKitSentence:] : sha256 8c1e00ba2a78e379dcd1b2d4a76a02f3dc3327994268f0cd546e3d2f3d9b916c -> 523fd1403e0a2a10e27fb25743b3736a224bc0208897c80376742ca4200f3ad9
+~ -[IPFeatureSentence description] : sha256 4fea44936c262f1dbda10537a5e8a1d51b17744e615d8151ebea27c80a7b6eb1 -> ffb0401ce91cdd14f9b59efeb58fcb2cc87498f005fcd5910306f76323a16713
+~ -[IPFeatureSentence addFragment:] : sha256 5bcac39139de19fa0d41c3aa8a60d77a441576c5b902bde4425eb352839349bd -> 1fc1b0fc871e3892d5f9a2b969503322e9d279db39d278b5225a87f6af47f7c7
+~ -[IPFeatureSentence clusterType] : 584 -> 576
+~ -[IPFeatureSentence polarityForRange:] : sha256 c7dc8adc651d1d6c4fb10cda3286d088ca600a9cc6cbecead15f0d36b1debabe -> 07f64454b830e85d1579d413ed26657c51cf64330eeb872d29db0b98951717a6
+~ -[IPFeatureSentence polarityForRange:confidence:] : 868 -> 864
+~ -[IPFeatureSentence polarity] : sha256 058471641339739df0057b7cc1bd54fdf0ee2b75ab7b7a3ebe2c1f9f792d4a3d -> 87347a2897c75368e769ae2469f02fea2ad015945f357ad084d02d5ad3615c8d
+~ -[IPFeatureSentence eventVocabularyRejectionKeyword] : sha256 a47ab60073151600ddaa916821b373b5380f6b22b946f542869e66ba4a86e7e2 -> 7ee71eb0af4e581bc9c6adc4ba23f289f23d4db4a8a78daa727bb4f2a3f1a244
+~ -[IPFeatureSentence eventVocabularyIgnoreDateKeyword] : sha256 1c9fa5abfcd77a583a426df35665cf0a77ac766356898b4250c319017e4d66d1 -> 1be4f298fb13535a1540fc8ef9e33bf0713d70e9bdb3d460608620cbd4366c56
+~ -[IPFeatureSentence checkEventVocabularyKeywordsIfNeeded] : sha256 4a3b5a889815d4923015356ea4aa3a0f6575817d70751643a6a1f4a4110f02b8 -> eb7d9efa99b49af0763ab60439b4630bf707c8ff0a60bc803b12a4d0475cc61d
+~ -[IPFeatureSentence isQuoteAttributionLine] : 836 -> 832
+~ ___43-[IPFeatureSentence isQuoteAttributionLine]_block_invoke : sha256 638b41803fbeb57b7e0e8e8b22a37b1bfc641bcf14ce3dc854fa123e066fd4ba -> 31e1eadeab30a3d794a7b744429c94a90e3e012b306f605ad34e311c3b21666a
+~ +[IPFeatureSentence regexArrayForType:languageID:] : sha256 1c6c9924b4413d6c127cc8a689e0762b9e809506c6d70c159985ab297a95bdcc -> f3a58e156d75b746ad6a2f1c0da51764a9f13109954c7d772e6b9e5aede01e87
+~ +[IPFeatureSentence buildRegexForType:languageID:] : sha256 2d70d047b03e6ec3d7a4b86421177a4889273c2dbf8a49238aa2e865aec87a65 -> 9f3adebc23dc3d9e401b3b0647e33940ea48e5e3ffd818616f53d378f5110ca3
+~ +[IPFeatureSentence eventVocabularyRegexForType:languageID:] : sha256 c09a15315f0a46234c5cd2860136dda5ec171b89c2f72301ebdae30fcc666adb -> 2210544a38d38ac5241989bd80530fc54764b6deb4166530e8e3a39772a80ae2
+~ ___60+[IPFeatureSentence eventVocabularyRegexForType:languageID:]_block_invoke : sha256 47515919257c0b0ceb2c50f405c0c7ce1db6476a93551c7a7bd155457beece93 -> b941cbe78ce5ba485082d5cbd93f9c97c287ed9ff335573b4e318836419ae73d
+~ ___60+[IPFeatureSentence eventVocabularyRegexForType:languageID:]_block_invoke_2 : sha256 68585d153a5512f867b7109b8d351f3e166a0fdba686ded3bbb8b250363f3314 -> b4c6d61341a01a41088beef80b2575abd3ba808a82b3c876f7e17bc9ead610f7
+~ ___Block_byref_object_dispose_ : sha256 61aa2e0e4c84e753bcb280fb1c6867f7560fc65cd14f4f8cf7211523dc109c52 -> bd52ad624de3f9cbd33992cd58b4e699cab7e1cd807c37819b1f4168dfa7c20b
+~ ___60+[IPFeatureSentence eventVocabularyRegexForType:languageID:]_block_invoke.133 : sha256 d3e883a02be3eddc9b40fccf23b4bb88435d50b129254cbaca7737622771e7f7 -> ffe8699b9c94128edec40a2db7489876ca5652de7cd40e256396c98263cb9bd8
+~ ___60+[IPFeatureSentence eventVocabularyRegexForType:languageID:]_block_invoke_2.134 : sha256 f675fa89fcd59d2c6a93c4a9407a0dd333888ea75a27cfd4a78f04aa600155d3 -> 2ec50b64ae05fec99befec56465e566c86d779b029b21e577fe1a619de4a71d1
+~ +[IPFeatureSentence eventVocabularyPositiveRegexForLanguageID:] : sha256 f0fd4e8a137b86e40817fb93f96d2cce5687f68a3554d5458dcf0ebbdfd46c90 -> b9c7d063a8aba517279054577ae491749ef6bfa4ce10581be6fbefd686a70409
+~ +[IPFeatureSentence eventVocabularyRejectionRegexForLanguageID:] : sha256 80239bb864b466d2c6e3213c3b68cd6fc0e0c0279b3e154db1e016f128411abd -> c2bb127d1c70c9f9b871b042ca6cbe28f3960f3a8f69c3410a9b13a85ad147b5
+~ +[IPFeatureSentence eventVocabularyIgnoreDateRegexForLanguageID:] : sha256 8181512a82c2a0ae2478812aa1e1af1ea1fd857289a5f4ae84b4a926fa9edbfc -> c05c8e01f5d7466b3d350b7db7619e95abd5ff4def146a249dcd2f68d888d996
+~ +[IPFeatureSentence eventVocabularySubjectTitleRegexForLanguageID:] : sha256 8344e408836bc6ad1f0845fab4f5b10ba662d01e7de950a43979e26ef7632b6c -> a69b58d353f2c9622ce032c07b95fab5f37b36c47e16414c2cd3c14a6c708f4e
+~ +[IPFeatureSentence _rangeExcludingLeadingAndTrailingCharacters:inRange:ofString:] : sha256 712b61f612bc6a3a62f5c691441e9cbfe849fd85a79085de32af20698c4ef84a -> 2c7c416402d6dac6dbeff0982505282ec4fabb93777dfbe1c3958be7df48be09
+~ +[IPFeatureSentence _substringWithRange:ofString:removingCharactersFromSet:] : sha256 140e36fee5dc5730122010eac8b42a6d8aac7bf67529916933b43c9f346f3ec0 -> f2f5110e20314275fd0145cfac8fe57b1669144d7995cdd1ac3d9fce846ed2e2
+~ +[IPFeatureSentence bestLanguageIDFromText:] : sha256 89e95c4c1ee2df6c10d9ad3f3535d867dd64fd2738f460375b55c883261978a3 -> fc9ab4741f00c056d8de04405fab716013f305f76efc6f55ffcaeb7fd73c8116
+~ +[IPFeatureSentence bestLanguageIDFromText:linesElided:] : sha256 c39bece360c04ae32bbfdf84f253e9734921b3557c3b58311aadddb77e97dd6d -> 46e56fac551afe1fe719966012132a7d25dfdc05191c1817fa6b9a1773320d3c
+~ ___56+[IPFeatureSentence bestLanguageIDFromText:linesElided:]_block_invoke : sha256 32e91c4e5b2a1333c84ffe4206b5af6ead9588b37a53a9dde3fde5f12a007d62 -> 2ed007edebfdf4f3943d5d8116b3755e357f31dd5bde783e490c17208d92ed12
+~ +[IPFeatureSentence eventVocabularyRejectionKeywordInString:languageID:] : sha256 c588186cc8595ed84ee247ea0a3e30386ca65bceffea9ddad9a96c3048c6268b -> 9b9c8fe29b04efeed0bdcdc56778342effbab4f00165a9b4c4739f277fbbd259
+~ +[IPFeatureSentence eventVocabularyIgnoreDateKeywordInString:languageID:] : sha256 ebf05ec153ef4e87e87327e94d12a7d0eaed5f8aed86472a74f2543ec9346bb4 -> 65a483e4523287343cbc80bc8af3cbcd6dbb3c91bd4c39a78a758cf631c25e0d
+~ +[IPFeatureSentence eventVocabularySubjectTitleInString:languageID:] : sha256 a453258e0104e289c20398b3555bb429cc7527cba68ac6559a2d59fab1ffda43 -> e89297b74458345774cd8ac551e6fe8d6d0049c4ca64647ad2bdaf2c8966b58a
+~ +[IPFeatureSentence numberOfMatchesForEventVocabularySubjectTitleInString:languageID:] : sha256 ee90d6324d4ca162dc555dc0d044569480475d7df1cc84a475552d1ebeaa87e4 -> e44dcd045db51d62b85d348d04199d8bdb26395c8bd917e386243b6f509ec6ec
+~ -[IPFeatureSentence descriptionForFragment:] : sha256 e232f3ae09dbd96a379e6a42782dff3c897d59ec375641f1c3a0066271e3f5f5 -> 1b5d9ed74b26c3ae68d650a1b85c9d94ed371ecce495d32acb2245667c8c1b72
+~ -[IPFeatureSentence descriptionForFragmentAtIndex:] : sha256 cafb7a3418bc3032b548bbda12c069854832413da7d8b564c15f413d3f9a4785 -> 83ad9e1b7276005be77360bad1a1ea66da21f5f78882395c9588e17570787bc5
+~ +[IPFeatureSentence humanReadableFeaturePolarity:] : sha256 fab67851d33bf9f31a7a6161adde5343d206ddf5b1c2fec25c6dd8e57df65756 -> e40a9022aacbca23f7c46a4b7bad2ecca4c09771405c96e41d857a6ef21885a2
+~ -[IPFeatureSentence responseKitSentence] : sha256 b1ed2b8537f76014cc1dd56027311277233a1e5af800d3597d5f146575b5d6d7 -> abed3d33d2bfd8c7ea7a4852c01ab0db2ccdce79b8bd23d2c84b92a11d107fd3
+~ -[IPFeatureSentence setResponseKitSentence:] : sha256 ddfa76f5426bbb6968e81e4216c417dda1b36b0940aec7fa124616c86de46032 -> 3c6f2f640760115d5f2c0de8866349cb43ea9315d379f97801dcd0b80947d01f
+~ -[IPFeatureSentence fragments] : sha256 95b3df7f1470aacdfa67dcbc99b8c7b1bb2ed3a14faf8fcd2c7ac343e0cfc10b -> 86334cfa94d1f16522b0684259e5efd30442fe7286d497e80326cb88c86fbcdc
+~ -[IPFeatureSentence setFragments:] : sha256 eaea1da164d34582a0baff35382565b6960472ed26d6a8f71bfe3b397949fd74 -> ca75a522c8ae14facfaeb9d694a6e86635e962e4cb393cb975cf501289edaece
+~ -[IPFeatureSentence languageID] : sha256 7a3cd23cad4fa8e88f06c34f68f090891b14102739d8abbf5fb4ed8d72923e66 -> 6bbda6d0741cde6f2b86d27de96c39746c0ca4ef0b03608de829aecdee10fb38
+~ -[IPFeatureSentence setLanguageID:] : sha256 3381f1c0c4a9e4bd730652cc4466204f4e0dcdec790408a1e921cbe3d98184b2 -> 7cde392c7b125b919b71bd9d427ce8303947a0cdce987b128a26cc8f8b9daf2d
+~ -[IPFeatureSentence storedPolarity] : sha256 504c45d3d0edfbb5ab0e6acd30b0787589b0a81f061fdf147486905b5bce986e -> 4f451585eb23a9bc119b6b5aa53cf23ca91e5fccbca0163f690a4d3ead5ccfa4
+~ -[IPFeatureSentence setStoredPolarity:] : sha256 4f99f44dd06623503e52d0359c97fbb8f9a8b9ee92e04892aee7da152deccb0f -> d3c7bc9a9d171474f289b7c7d316350c1c26b671b35edf1870c6fac9f25ed58d
+~ -[IPFeatureSentence storedEventVocabularyRejectionKeyword] : sha256 8377092e7d5bcffa3d0b682c67639c8023d77bfe6dd10e8e2a4bfe01365ab02c -> ffcbb23dc00c209063d2edbce5b4b532739e6ab135a3c3a2d1c6595ae7c9ef65
+~ -[IPFeatureSentence setStoredEventVocabularyRejectionKeyword:] : sha256 10c52688ac57643aaf54436ea3a0bd8d09877dee5be399f0fdaa24c2956e273c -> 5380914e9cb4932e18531248003fbf5a669d53bdc967ead75e3264507d5ba9ad
+~ -[IPFeatureSentence storedEventVocabularyIgnoreDateKeyword] : sha256 1b5dff959c37e5587a9870a487003b0ef415e7bed5048dfe47779056e0483522 -> 670c263298660dece379f948a12e59cf4420c486a3467ab6ae70657f56fcc10d
+~ -[IPFeatureSentence setStoredEventVocabularyIgnoreDateKeyword:] : sha256 74bb1bfce0417eedc2b29187289db095c220fe9ae648cf2ab858d3c61b9efe70 -> a65cdb32acc91f42f4c219b7f4bb88fc2ef0ff957d3b11667170fdaa68a37f28
+~ -[IPFeatureSentence .cxx_destruct] : sha256 25d3e336b61fc534f1faf835952d9166ef753230173d87ad54e6869435ef3f3c -> cd53e33b2f2b2c11cbcf7208cd0da10b3ab656600e13b458bce2698499fdc028
+~ ___IPDebuggingModeEnabled_block_invoke : sha256 b9ef4ebdba7d4bac4e58e95f36930a3fa44b3c0e767cb122a2db9dfe50b97fe1 -> 14e4ca2bae3e2dd7423344412367af49b460b14c4cdb2cb364d2ef53a4c38342
+~ ___IPLocalizedString_block_invoke : sha256 ba24a62a9606a11ea6d97c891a3717ad8c276f4ba55fddf8f386506e3812c7e7 -> 1438c8d5e5405c982f3e8b5f75a5b112660fabd1258a06fe0cc767bf8cf667c9
+~ _OUTLINED_FUNCTION_0 : sha256 e1d435797ce51056bc0089533b5bd7b400534ca8a557e3fc0e8cc948c21aff9b -> f9e7e0ac0c84eb01b6de1af16801d971c866094e802d0f0b3bf21a8d2d804640
+~ -[IPSentenceFeatureExtractor responseKitAnnotationTypeForFeatureDataType:] : sha256 f8885faa3983a2237add9ce3497e57c3b413fbaed9212e146cb9312d9ee9fd73 -> fe55f35fea9b4370913ceebccde0e044190c4b7623f7647c986c48d1e8eba280
+~ -[IPSentenceFeatureExtractor featureSentencesFromText:dataDetectedFeatures:languageID:] : sha256 ec8fa8ed1a25d684643669196d94fdd65117701efcd5cf9b3e50874cb56307d9 -> 0fcfd329ce41885ed1a5066a11b52cfad96f2e9705a0d672a9ec437ebb716db9
+~ ___87-[IPSentenceFeatureExtractor featureSentencesFromText:dataDetectedFeatures:languageID:]_block_invoke : sha256 b4f03874d1fce302d317453914f68493ffa38c1cdda935100b38c5ba689db61a -> c3437b3d596ac13d4385078fe334fd00582c76255247f1b3f6840f82c40022b2
+~ -[IPSentenceFeatureExtractor identifyAndStorePolarityInFeatureSentences:eventIdentifier:previousFeatureSentences:] : sha256 33fb1af38af78efd8301b02ab36405573ecf389cbe56a1d91ab31ffcd03f34a1 -> 3b9eda5f485bdeb82f75f7763e7adec63766a66c4b3dcbb3d3499250ffb742d8
+~ ___114-[IPSentenceFeatureExtractor identifyAndStorePolarityInFeatureSentences:eventIdentifier:previousFeatureSentences:]_block_invoke : sha256 c6d9eb67588d215016143d36dbdbe49ca92fa685bd5ffcf793f9c382314c4804 -> d895fafa0e096bd94de9d4e85450875148f3b06561e1614449a98c5d3fe935f4
+~ -[IPSentenceFeatureExtractor eventIdentifierForLanguageID:] : sha256 186ac6bb835dbc7594d592f254191abca3153e500430ab791624be328d1749ac -> 79e374cce0d108aa37e4fdbef54e0c8a8612110994df7448e698475d0fc4d637
+~ ___59-[IPSentenceFeatureExtractor eventIdentifierForLanguageID:]_block_invoke : sha256 72ab3bad4c87976d54471055f6e057083415e79ebfc7daf5c9b6bc3e4b2d8812 -> 418c8e4beb8281f4e272a4434aff7bcb6a978e7352fc2d95de03e630b4e86f2e
+~ ___59-[IPSentenceFeatureExtractor eventIdentifierForLanguageID:]_block_invoke_2 : sha256 186d28fa44e00eda0b4e28e762c5177eb09b345a97f46c98f75f8f90febeb2f6 -> f7f0462a5a34b68f7c21d593f56445417e15ff4b7011c7eda1f67f3c53c15664
+~ ___59-[IPSentenceFeatureExtractor eventIdentifierForLanguageID:]_block_invoke.30 : sha256 93efa32d7cb16b6f339d24824462567fccfdffab27a3f22f9391f84eb9b53c6e -> 3906c1141b95ade6ee1a86c9a1d21b1f881b7711f293be6e0fbfef841a8071df
+~ ___59-[IPSentenceFeatureExtractor eventIdentifierForLanguageID:]_block_invoke.54 : sha256 ec45e7cafdc3941ae2576ce75ca8ae4cc886c267993203d30f5eb305f2c48246 -> 21cabc0dda8e5bcc590e3a4467c0ae48893c2e09738c3964e6f55639f35688d3
+~ -[IPSentenceFeatureExtractor featuresForTextString:inMessageUnit:context:] : sha256 d927e9f0d33fbaf96ba207d1f534812412ff8cb8921ac4402ec58e6023744e52 -> 0d896d1c00a0b1ab79c42f61e387b5fffd29d5f9461fa5c02625873989a2733b
+~ -[IPSentenceFeatureExtractor queue] : sha256 249405609a4eef90785b2211cce58c32a692e51ada2866b7dd8749fb43953ba9 -> 7741af190aa01570eebce9ecf5c3a9ec5db2724655ee04722abeb8032cb34524
+~ ___35-[IPSentenceFeatureExtractor queue]_block_invoke : sha256 b3f17dba054f9c4af99b0bc3a0448398be2255453e65e246f67077b305efe70a -> 48948625f5df6f7e53b7e34786721121bfa7ba782e36aeeb14077f58ad284a62
+~ +[IPFeatureKeyword featureKeywordWithType:string:matchRange:] : sha256 ab4427364c1c7684543dec9ad5403fbcbc5355480110b6c250433be398acd3c9 -> 05a25dcf48da4b98aa378b9be8489b806d811bcbbba3a03010fed304ee6fb056
+~ -[IPFeatureKeyword contextDictionary] : sha256 f7c98f563c7e0fedfa202ee47699dff9eb5909d29dd1ec40e9a5694dcca67dba -> 1df5567542e63199a338936314945cc77b7fb68b443de3937c9c14d29195c476
+~ -[IPFeatureKeyword addEventType:] : sha256 7f284d289c587ed3f0de7a6df6b62bb3d2c97ef44c6f83ec77b8616c7b6341ed -> e09863e344c0c1ff342607176eb4d57947e9a2ee1db2448081cb23d4429970ad
+~ -[IPFeatureKeyword typeDescription] : sha256 51508ef1840420a280992017af34683c83a20bc216f81b684d4606a0c001cd2f -> 4c43ec1d930aae64b20d1953fbdb75f39611e138e5dc5fb53d4bf908695b3bb2
+~ -[IPFeatureKeyword description] : sha256 c76d51635b84432a421e48b209d9687cffd9affa5ec38aab2f338ea9a3b7a9ee -> 899948f2655b4252156f59329dea5a7097d4f50e3d1291897f6429dfc04fb1a6
+~ -[IPFeatureKeyword humandReadableEventTypes] : 344 -> 340
+~ -[IPFeatureKeyword keywordString] : sha256 4a7f0a01da4b1251b39f1a4f544ed71bb23fc3e5b8266c078ec4d7405cc1dba9 -> a980ec0bf06bd37b2382a1d51a9795f6c714fe0d9a5b1bcbc2900a528d462d20
+~ -[IPFeatureKeyword setKeywordString:] : sha256 6bbbb1ab7a1a0115b7681fc63af8dca3ccf7408ffd67da3c87da6b6613ebb29b -> 9396c003a2de02c39be3595baaa9cdd07e63119d8cd36245c1b7ac6f62ab847b
+~ -[IPFeatureKeyword eventTypes] : sha256 651616bffa522c646e3d081311e86f10ecdcdc1551995d1779ce677dc4e470f1 -> 8178a97e5ca595dcf70758df2e7a25193fed17991582325cafd3eb673b34cbc2
+~ -[IPFeatureKeyword setEventTypes:] : sha256 1ccffe1899668ad80348ff3a4fb2700aa4fe6f31c646861f51e8e8e1934409f6 -> 03beaa2d4bd332f552e67dcd2db67f8d3c9da3f933686590e672c4187c40ae52
+~ -[IPFeatureKeyword type] : sha256 47db802e06439d7438c7e3defdd475343f8bd2ab452391693e8e90652c3796df -> dd56d5163f794afb1c82720639af4ce8ee7bf7d1f2d9c5111c36a10d1c931e56
+~ -[IPFeatureKeyword setType:] : sha256 16be2134fea310519f3d6ec0c658eed69e2fd05ae2861f8dc63b6d098d99edc8 -> dc5ca63f31d109c4ff6bdefa6d58bc1d71bcd9ef9d1a1d2684a58403ccd6b910
+~ -[IPFeatureKeyword .cxx_destruct] : sha256 63273fb2ec46ebad58def93534818545ba02dbbbc8e6b9683636a322b5186609 -> 64c6d6ec10453d215e68065cf2e3fd404c04947432c35c7470141b3fec07a350
+~ -[IPEventClassificationType init] : sha256 9e544378986df7b8c8301c9f80fb5ef30bc26e85de034f816c8904bc5a871d97 -> 2e218c2da42d1b53a0ad9f962a648a785bb5b10d4483b3b764be42bbe5ef55ea
+~ -[IPEventClassificationType initWithIdentifier:language:patternKeywords:titleKeywords:subjectKeywords:defaultTitle:titleSenderTemplate:defaultStartingTimeHour:defaultStartingTimeMinutes:defaultDuration:preferedMeridian:parent:children:useForTimeAdjustement:minutesBeforeDefaultStartingTime:minutesAfterDefaultStartingTime:allDayAllowed:useGenericPatternsInClassification:movieRelated:mealRelated:cultureRelated:sportRelated:fairlyGeneric:appointmentRelated:] : sha256 808bb73badbbde8ba7cd10ebded0b1e014f0625ed301b37962595c50d870781b -> 4b975da616a0b0b475c7c27f31423c24769480588f6e527772bcec597c552ade
+~ -[IPEventClassificationType allowGenericKeywordsForLanguage:] : sha256 e3322eb0f95ee970fd949ff9b8d4725b975a3097f12310b487769b3366929883 -> 52a0e7fd3a606c9499af13fbf91abca4e215e53dc0b7bc41436f431532421aa9
+~ -[IPEventClassificationType addEventPatterns:] : 792 -> 788
+~ -[IPEventClassificationType description] : 916 -> 908
+~ -[IPEventClassificationType _addChild:] : sha256 06a4a9cb64438d0357e8af9246837b467d58df4414124400ce459be3250ec5fd -> d9b7639717e1d17d0f651e08cc5f1d12cfe06a60fd5a1300060418f6a4e5e366
+~ -[IPEventClassificationType _addParent:] : sha256 c62780e1a4b764c975d48b0d91c515ac5404266c75ca58e3b45cdd2124a54223 -> 3f6b4ed4315df3dadfdaf4f464d90e513660e9110e2e275a1e6576686007177e
+~ -[IPEventClassificationType _addUpperPriorityEventTypeIdentifier:weight:] : sha256 e9c51ae3b05ff65c456e5eb1fa96299219cbc77cb48b4467f343f676cdd8e4a4 -> abe09ba2ac8b497286a4d85f0508b853a94a1a5980cb22888529fc7b7787819d
+~ -[IPEventClassificationType adjustedEventClassificationTypeWithStartDate:] : sha256 01694cb4b3351baf203479a6ce16ac63d8656fd272061fdadcfeab3986a75e7c -> 793f4019a34cd9614112ffb8adc2c1d0de9200ab2f3261e497bd70b5658d9de7
+~ -[IPEventClassificationType adjustedEventTitleForMessageUnits:] : sha256 2704b57db1b6d8445e4b860b621b4886b6de8b813229617f461a515031b61834 -> 06638e009fd3737879a61aaac033185bd661ef41cdb15cd3b73d107cec6d2a90
+~ -[IPEventClassificationType prefersTitleSenderDecoration] : sha256 28f5fc5b1efa66215831b7851521dab48bfe9bb96bd8a56a6d0a2ea4ffebf27f -> ca20274726dbbb36675aea972d72d913d9efd7b6554b85471854be07dc7a065e
+~ -[IPEventClassificationType decoratedTitleFromTitle:participantName:isTitleSenderDecorated:] : sha256 f18a1915098cd9eb765a68f8cd3bf65a21da358db30c70588f1bcbff403970fc -> 0f98f787daa42aa338006cfb6f17c8cbf7e25f5ffd82ec189519609fd0b455ef
+~ -[IPEventClassificationType properCasedTitleForTitle:locale:] : sha256 2ace2c498e3f2e645badd8af24ac6ba3ca67d8997005542555b439ee79d4a525 -> 7106a1a084d2c33b8ddc59930c103cbf518eb2129bcf8ae7ffc4771a82bc5bab
+~ -[IPEventClassificationType adjustedEventTitleForMessageUnits:subject:dateInSubject:eventStartDate:isGeneratedFromSubject:] : sha256 c94ca4f50d6b8dc7e9f206703eb9bd10e881af04e9dacc7d4c5e1257025324db -> 689fad9e4f1eca585eccad0cf171772da4bcc7d046cfe6d60bf583bd5c72b665
+~ -[IPEventClassificationType adjustedEventTitleForMessageUnits:subject:dateInSubject:eventStartDate:useTitleGenerationModel:isGeneratedFromSubject:] : sha256 b630801f3821b4bebdd5d39a0a450a60a00c7e88b29bcdd2967f1bd5bc8d357d -> ecaf0962e663575d7b9625d0e91b4981d7375a77883af944c6053811a530d43f
+~ -[IPEventClassificationType adjustedEventTitleForMessageUnits:subject:dateInSubject:eventStartDate:useTitleGenerationModel:isGeneratedFromSubject:isGeneratedFromTitleGenerationModel:] : sha256 ae2fab0419cf35e1fd521f3fdc67fa7978eeb61127bfcd6cde2f690c1fee0248 -> 1979ce3b494b70f5e93f727cd343d73ca54f5eac683314cc3fe9ee49ea0f4474
+~ ___183-[IPEventClassificationType adjustedEventTitleForMessageUnits:subject:dateInSubject:eventStartDate:useTitleGenerationModel:isGeneratedFromSubject:isGeneratedFromTitleGenerationModel:]_block_invoke : sha256 ea9874aaab81d76f3217ff340ec2b4e644eb32150fd98820727d575f8ecdd8ef -> 0df4318f815e4d3c5e6801a98d42deaca7bf595dd20bfac4e7f71c32925de663
+~ ___183-[IPEventClassificationType adjustedEventTitleForMessageUnits:subject:dateInSubject:eventStartDate:useTitleGenerationModel:isGeneratedFromSubject:isGeneratedFromTitleGenerationModel:]_block_invoke_2 : sha256 1d120d06d9ec5918f786c89be929a71a1d6b650ee8747389c59be817300735d7 -> d8a9dea71b3cac73710267f4e1d40877a1b7ac389d86186d9a5a5abf6aa69eb8
+~ ___183-[IPEventClassificationType adjustedEventTitleForMessageUnits:subject:dateInSubject:eventStartDate:useTitleGenerationModel:isGeneratedFromSubject:isGeneratedFromTitleGenerationModel:]_block_invoke.167 : sha256 fda7518de2a7ce567f10bd7942a74b495d3dff08668189a2f8fdbdd200eda6c1 -> 289980d57ca23da7103966007663b7604370c6dd99aa62f8d091e5cf6af10224
+~ +[IPEventClassificationType titleGenerationModelPredictionForMessageUnits:] : sha256 aebd131ceed79177f43696f7400761d67751aea743884d418d1914ffce33f167 -> 9dc5908f14bae112184acfc94edf011e6198f872be51e12f645a147b806a818b
+~ -[IPEventClassificationType dateWithoutTime:] : sha256 3402e9698b26e14b17063b89c389a21310cbbfde67478844aabb1363aa1bf839 -> 0f79b0e4c1b893c3d3001538a642221c99c0b288f4a557c4b4957bd94e46ac19
+~ _getCalendar : sha256 593da3780128863eb0792c323b2352948ba8f0c9d2fe1c18146526de194cb65c -> 9afc41775355c304cba030b76b9b0a1b734396edf589f85657b1af877619c4d6
+~ -[IPEventClassificationType questionMarkInString:] : sha256 a8bf3358876c29b09c1e686cf1e4e66e2d0cf1c6e7e03433cc9e362624feb937 -> def4c4f8f51ccb27fd7c5bec4f36911270ef503f08f195f1975ad67a8d75e061
+~ +[IPEventClassificationType fallbackEventTitleForMessageUnits:subject:checkForDateInSubject:] : sha256 61cf608c2ed27913666dd47ce7c374e238a78dd4bdb1bf074628da9ec87b9c09 -> 5584fc3de4ec16a73fbe88fda09315ca40dc83f2cb046c900e7b45f19c4be529
+~ +[IPEventClassificationType eventClassificationTypeFromMessageUnit:keywordFeatures:datafeatures:] : 4344 -> 4328
+~ +[IPEventClassificationType eventClassificationTypeFromMessageUnit:features:] : 608 -> 600
+~ +[IPEventClassificationType eventClassificationTypeFromMessageUnit:features:datafeatures:] : 404 -> 400
+~ +[IPEventClassificationType _averageDistanceBetweenFeatureKeyword:featureDates:subjectLength:inSubject:] : 720 -> 716
+~ -[IPEventClassificationType _hasPriorityOverEventType:] : sha256 6b6970f5594895e9016db32f4d86b1ef8148a359cdfc1233293b096c65fe0570 -> 44fdc6ff4c1e2b253f5eed07271381d6e452e46ce20bfd2b9349d4c21b1093e8
+~ -[IPEventClassificationType _isAParentOf:] : sha256 9bc7bfa3b7c9cf135bb0de237900cb205d4d1a553583a617083f1f6517356520 -> ec9d39eab10ad42aec6f6221f9be5d0e3458f7bc81b98520a086db2864707fe2
+~ +[IPEventClassificationType taxonomyForLanguageID:clusterType:] : sha256 8bdbcb7c2ac5e9c7b83c606ea27d960e3513e74765859d3d946aaa4b5449c3ad -> 0e5ed8a471e8efa1f8fd049509e6ccb63c47ca61278b1ef166422307d84fbcaa
+~ +[IPEventClassificationType taxonomyForLanguageID:clusterIdentifier:] : sha256 e8959169c1ff6928ee0ec1a973ea93efc92390b784e1e0bb7ff66a8b714c5032 -> bd9c25f90e2b279e3f7e8e92552baf63ae04fa58d9b66041d443e360cb46b4a6
+~ ___69+[IPEventClassificationType taxonomyForLanguageID:clusterIdentifier:]_block_invoke : sha256 046ce77d259c3159d7c002fe939e8a85bb851882ef1fb625bbee467e776f52b2 -> 72452a2104112ff8c43de85f35b176fb2975e085520d557125e9e5243cb87bea
+~ ___69+[IPEventClassificationType taxonomyForLanguageID:clusterIdentifier:]_block_invoke_2 : sha256 b2e8953486d11fa5cb916ca7ebd9049128fdfb10b91403b5816fa73a592d2bd6 -> 4d4cf8ccd90003d5dbdffcb507679744eeb8d2c9f6afb023fc3df885a78d09c5
+~ ___Block_byref_object_dispose_ : sha256 de4f9d7adfa3bb1f797c181bbb79c9dd8c48815b96bc3a7e0efbf39830ed1867 -> 6b4845968053a7405b98a9eae99d51045056cc843eaef338e84e64c69e560350
+~ ___69+[IPEventClassificationType taxonomyForLanguageID:clusterIdentifier:]_block_invoke.211 : sha256 306256688785ab4298eebb6361f8a94d1dd0580ce716b4a5a0e1c926651d63bc -> 01b8bacd7d7c180b0d05c3806cd6d057f7bb430ee4fa94b33df3f83f8702e402
+~ +[IPEventClassificationType _dateComponentsFromTaxonomyHHMMString:] : sha256 2e255f9f813e369e6929ba84e8926553b8ba931dd2e641971bcda058851da445 -> bf4667215f2e83b9cfa79adcc4f148a063bf7690c84da2f688b6db78db94dccb
+~ +[IPEventClassificationType _loadTaxonomyForLanguageID:clusterIdentifier:error:] : 7212 -> 7180
+~ +[IPEventClassificationType allClusterIdentifiers] : sha256 c480e5ff343e882832874283533616e361f7d746acd7b9b190fadc38afe9225b -> 50f02faacc211ceab1974dff94121e325662a9fd5c4ae7fe992ae94fed77d938
+~ +[IPEventClassificationType _parentFromIdentifier:] : sha256 ce652c165db61eb37b972977a34da5e88583aaf309c29face40cc53d9df802c0 -> 4769e15bb56a61cb99b2f66c63f1752fb4c5611753f925f408e8eaffde386ebb
+~ +[IPEventClassificationType _identifierForCluster:] : sha256 75eed4bb24d44c883512d8b659cdc54ddbb97624e8406b3e57f55f2108ff2bd6 -> 73fa94e8a6e0516abdc9a4424ef0ebee0e8ac7ebf5c0523d66cbbda5e39a974e
+~ +[IPEventClassificationType _identifiersForClusters:] : 360 -> 356
+~ -[IPEventClassificationType _mealClassificationTypeUsingStartDate:] : 820 -> 816
+~ -[IPEventClassificationType classificationDepth] : sha256 23ebc5f3bd64d94d42805d2b7ab0e00ac5377a6c2c4289fb94e014b0a0876cc7 -> cea6bcbe7189b73a41ed7edd063c0fb5fc12d5f329ec89f3a053a6d7faab39c6
+~ +[IPEventClassificationType morePreciseEventClassificationTypeBetweenType:and:] : sha256 ab19db7b51f5f42a1c184f2ea13cf12b66b5e5b0eb2ffa7e50485c89d860ba07 -> 31437cb8307b2d3e02bb17a98bb1b4f8618d2abb0715fa82ea3f38e20679030f
+~ +[IPEventClassificationType cleanSubject:] : sha256 fe8eec1957ce0959e580fb9d5581aae1eb5baca43940116d0eb805a397a29c4a -> d999e0d7bd285a11afc4f8831b7109d14c3a11055edb6ebeae94ed74ad7295f1
+~ -[IPEventClassificationType isDateWithinRange:] : sha256 2685cceeda4ab596632713d3f7dc515219164ae072ac8b5568ed0a6745d3a542 -> 997570e966bd237f9b7034afa8019d3d4acc2d947fb1de4793ef3916e200324a
+~ +[IPEventClassificationType eventTypeForMoviesAndLanguageID:] : 364 -> 360
+~ +[IPEventClassificationType eventTypeForSportAndLanguageID:] : 364 -> 360
+~ +[IPEventClassificationType eventTypeForCultureAndLanguageID:] : 364 -> 360
+~ +[IPEventClassificationType eventTypeForMealsAndLanguageID:] : 364 -> 360
+~ +[IPEventClassificationType eventTypeForEntertainmentAndLanguageID:] : sha256 190ace33ec104468d5fcd79c4cd011a133cd0a32cf0f6104105fbf4795a44bd3 -> f557a894151ffe9ae294726d63b571f04f3be8dc2d26d734dc4822841afafc35
+~ +[IPEventClassificationType eventTypeForGenericEventAndLanguageID:] : sha256 ed8f1bd99885f07cbdd81d45ef049512e52166a0dc705573905c88a7c5530ba4 -> 40c5312a449e74f93955d2b609504c500142b832f4bafdd272c0abcd4b680f6e
+~ +[IPEventClassificationType eventClassificationTypeFromMessageUnit:detectedStartDate:] : sha256 bc684396e5f8b81276c5a6f88353855a5c1b59672f330af230a4680bfa3d011c -> f5e9aa2390e7d68bc197625ffdf824cd6a20efcfe8a2a241ebae08ee845ad7ea
+~ -[IPEventClassificationType adjustedEventTitleForMessageUnits:subject:isDateInSubject:] : sha256 553cce2901c6d86e3209f76898932076132b7f97e3620687726fad9913470202 -> ab2d0632c2522dd68eabbae492100d764b2156f659a00e406f954f6f5978f8af
+~ +[IPEventClassificationType humanReadableClusterType:] : sha256 7353b3b9b8fd18ebe2af1a149e813c3e60761a612ab2722ae4614db61ceb316f -> ee68e0377b479eedbff4d31466474e6d7f9b06298627142ee1d9bf3e69c18716
+~ -[IPEventClassificationType setIdentifier:] : sha256 c0205c50716d3b1fec5312c73705396082354fb57d7e92be5237dd4dc4ee5dc8 -> 55f9799bcd3467276d4f212d456489f9a090c3d0b959d7ab9c161779a7315c3e
+~ -[IPEventClassificationType setDefaultTitle:] : sha256 b0c1adffeb8ae55fcb869d07edee504ac34c967b6175fd750571289e3aabac88 -> f3f036b4149190c559730d618e30d16cdb51a40b6cd452539785479f6db1b431
+~ -[IPEventClassificationType setTitleSenderTemplate:] : sha256 2020e2507042d21a91d7244952c51fd19a446f2e3488282b5e25bc8934230a3c -> 69004461135bf0f18bc2083edee367020399991a01b09e9192b20001f00b0d5d
+~ -[IPEventClassificationType setLanguage:] : sha256 27b0c03bef91fcec21e9be9b5f26cd64440e32bf1b5b8fe577b4dcf65326120f -> dda28650201e07c77a1ec9f71ec3f25863682a2bd2d746aaec98eb92bfa39aa8
+~ -[IPEventClassificationType setPatternKeywords:] : sha256 522d749ac110ea4260b232aee1ecb51eb6e2c691b8997a42ed26c7506384f386 -> 01d302b7e9cca2a42dfde79127f9bf18e13a40903e0a184dac95a6dd13107d04
+~ -[IPEventClassificationType setGenericPatternKeywords:] : sha256 4c25b7be7dcdd28101a1f6d4a3957ef91d13ff4ae137150d7c4a129972cf3ac8 -> 83ac3fd7ef955ed46129fc2e8850cf250b7c83494e9541230f1494622d9d5176
+~ -[IPEventClassificationType setTitleKeywords:] : sha256 71ed64c0c9bd78d68024d616ea2e8ac7fa5ba22f115046a40fc9e65dc2b4b4a7 -> f194533f68c77a606308538f92791f23a4ac666db13fb330c75a523a89d91a23
+~ -[IPEventClassificationType setSubjectKeywords:] : sha256 c1f23b2eaf28ee7eacdd66dad23c96ef2d9c503fe52c61bf1822d263908b762c -> ce6580dab47d04cf0cac8bbaa5d01e3538e31b7f1f5cd30da1a302c249b56f29
+~ -[IPEventClassificationType parent] : sha256 a5a826b342df0b7cd5fb82f50b59f499ad0c92a171f29b55fe08f57db19ce7b3 -> 8be8ba82e2009ac37135cfaad387d631fbc1f60f656231c7e55a1632b211a252
+~ -[IPEventClassificationType setParent:] : sha256 0b403f3416e4ed3278017d4abec06a841c23cee6967790d3a92533f5db7d56ca -> cf9055db6d9a6811a85732b6254680d33283642a9f83a53c1c62c21e02b92334
+~ -[IPEventClassificationType setChildren:] : sha256 0dd7ed299fd745a5fa622ab5ea168d467d874be5a013a339d2db57c4a523863f -> b44ef8814da159398835566ad83eaaa4fdfb036ddf80559ead4d8918672a0ab6
+~ -[IPEventClassificationType setUpperPriorityEventTypesIdentifiers:] : sha256 5d3829d65fb0f79448b3c4fc5075423708d0e4c99832297ad64f5c55224f2394 -> b6e6749978aa2a1b7165122e29b6d37e64fee80a7207de52b08c9db5897ac3a6
+~ -[IPEventClassificationType .cxx_destruct] : sha256 a9128ab60fb478e950d4061f42d72f256d1308b55b952c7392d0b76abcc5584e -> f73193615f0d6330c5632abdcab390e68c50639d96e0bb6cbe3140b010890b6f
+~ ___IPDebuggingModeEnabled_block_invoke : sha256 a5ea4b07561d97f5aceac58f8c9ff447dde35415b43a94f98edf6fe9c875bf52 -> ff29bc8e838b2f7829f3da9829a1a376be3d2f99d3427edfae6bfdbe5c1e3a3d
+~ ___getCalendar_block_invoke : sha256 f77a2ba688ff455a5a76884067c42725df18feccbf6221ba7de64699eeba7bdd -> ce7d72c4241096391b1a96ae42c79d5f5f82a702295c2e03c678571faa27d66a
+~ _OUTLINED_FUNCTION_0 : sha256 f06a8208761182f66f06124d3501b77786b327d5115a957e7a83738c63448104 -> f738e289a47c6f0b327bb0726e71642ca2c4fccd0c06fc5a4c2ad180bc8efc9a
+~ +[IPFeatureScanner eventStore].cold.1 : sha256 39caa3095125fe6a93e1c4514a07323d0ea444ac113c8959ae577f94e1d6a526 -> 48525919076c4ada1f342df82447dcdc677b6903f6eaf6c63f9d0989d8e3ad7f
+~ +[IPFeatureScanner dataDetectorsFeatureExtractor].cold.1 : sha256 56449d8a6dcbab31d53371a8630e5a0f635ebc279987f3f743c5cda521f0f60e -> bf5c00ff48b63a18390ba910d0ebd2a305867cd2af7e2ada82daace005368197
+~ +[IPFeatureScanner keywordFeatureExtractor].cold.1 : sha256 8ed494358aa70ff3bcc0c5d747e726b26330cf18f607b26c8f06ccd16b007213 -> e7b808f384861c513c6609bf9bc4f17daf87261a0de090b63f6cb73ef01482a0
+~ +[IPFeatureScanner sentenceFeatureExtractor].cold.1 : sha256 465af7cdea6e7b0a34eff80685cf14556c7efe62c79023b599344bef7b79c803 -> 6d11a085ff7abbd9de06fce60ae9fc7107faedd63b643eee21711a2ed2fafdba
+~ -[IPFeatureScanner featuresForTextString:inMessageUnit:extractors:context:].cold.1 : sha256 5a5c6896a2bfba7f5f990051f4afbbf79f6a8e6cfdebfb59725ea2327d9d0e7d -> e4fb3d929b05f870e47e6702fcf8be05abf4f55432a090ca78335ba32f080bf7
+~ -[IPFeatureScanner normalizedAllDayDateFromDate:].cold.1 : sha256 81c78453658c4bf4412f320f36399ec136e3ae14f15796feb8c040b523ab4605 -> aeba1136ba197d3e81a49bc38bd68ca0134f590a31c7d43f47cb7ed9683ec619
+~ ___71-[IPFeatureScanner analyzeFeatures:messageUnit:checkPolarity:polarity:]_block_invoke_2.cold.1 : sha256 580b791b9104116e8a9dbc82475b44c974717341d482ee116475ea46def50c41 -> 414f955dec394fd1a57e8d92c393b5ade6f542833d52699338867bb31d006919
+~ -[IPFeatureTextMessageScanner scanEventsInMessageUnits:contextMessageUnits:synchronously:completionHandler:].cold.2 : sha256 040033e7869fd1dd0c5dd68aaf7c2c185cf0b83575c4735039de940a6ed991de -> f3a93f3d95767f2972355d662b7b8215aa4977a361983c93200f063a2ffa8648
+~ -[IPFeatureScanner _regroupEventsWithSpreadTimeAsAllDayEvents:].cold.1 : sha256 5cfaabd17abb9caf3d50dda07ff8bc18216bd193f375357b7bcecae26020ec9f -> 0e94776121c29f81bd4cff60f3e98d1a8655ccca057156b6516eaed15f40e6b9
+~ -[IPFeatureScanner decoratedTitle:withSubtitles:].cold.2 : sha256 e8357607a400496c199a68e7c22bcaa2eae21f27c1a8dd45bb8926617b2210d2 -> 4c03183697e6eea7db0d41db19a24214b4977bb6f8a61cefa3f72ae5a1b488b7
+~ +[IPTenseDetector tenseOfString:languageID:].cold.1 : sha256 55029a5c9740e34791235277b43325867c9fecc735ae685bb7c8c06c6232c8ba -> 43e2e3f90deaf509de64c51654a1d45511dee1bc0a3b6a7f6fc02b30ba961531
+~ -[IPKeywordFeatureExtractor _matchingKeywordsForRegex:inText:message:eventType:keywordType:].cold.1 : sha256 62212659062ab2738180c93bfe3f937b274d0f413a16df9d41c2398977f6819f -> 99681e75e976436a1c77e35e81d54d33dba045ebd2b11545c399743740a54656
+~ -[IPKeywordFeatureExtractor queue].cold.1 : sha256 11f4fdbda55e3c84ead192beb6d0189e0d5067c4270d86ebee1f1f110c901fc6 -> 69ff5d49d77c05e6e6ab151047ed36a36fe2a6caf96fdeb3ca391975a09a744d
+~ -[IPDataDetectorsFeatureExtractor init].cold.1 : sha256 be94888bc85c12a594a0e37a4c2550f2fff14d484865d5142fac4912ef4d6d3a -> ab4cb113534c315fef20c781bbc2dc597838cb04170b3fdce96d8c77486bdb2f
+~ -[IPDataDetectorsFeatureExtractor featuresForTextString:inMessageUnit:context:].cold.1 : sha256 5c7b223be6cd6c2e2f9f0681337478f59c975b44d7e75c2abc2baa1e4a80ab87 -> e097d8d535db1ab91856ba1f74e2e2cc6470829f7603442a75c6c71b28dabba3
+~ -[IPDataDetectorsFeatureExtractor valentineDayDateFromReferenceDate:].cold.1 : sha256 68435ae94c190d4cac8350a03acfb1bc3d5e1ddfd78ce8a0e615d6d4436441b1 -> ba4960e9ae4204a93bb499ed2058dd1f427cb0baefbd1385daedaf58c2d5ccca
+~ -[IPDataDetectorsFeatureExtractor queue].cold.1 : sha256 a2c1169f74460b3ddd68db4195a9c1073b75a2ed5abd13892e5190ec638ae9cd -> b05d541a26a98461e26e4c54d639b83b8df2fa60ad4b01432df5cd6e2d7b7ddb
+~ +[IPRegexToolbox regexPatternByUncapturingPattern:].cold.1 : sha256 431dc9a588dda896562ba955290498a8aba8650c1cc244c943d40da7f30598e9 -> 6b4ec44b91d89cb194f6c2d5ee5008bc173169e84a0c32ec971ab95adaab8829
+~ +[IPRegexToolbox regexPatternByUncapturingPattern:].cold.2 : sha256 22c5bdcbfcd580ba6faa7eac3d245a8f3b44c7858e728f1bf947ea1ac00320bf -> 84dd047a3eb72d3cebc9f44a6418ed86b28ac4d0e1a931c5bedc73a308ab75bf
+~ +[IPRegexToolbox regexPatternWithPrefix:suffix:choices:].cold.1 : sha256 c52beff4e6382d4e546b923af7cdc4d378cd6d08dc78d3e208edc144f773616d -> b48f5caf37b59f8141fae1b42a4d099874864368a9459ddfa46c9d659ada3db7
+~ +[IPRegexToolbox regexPatternWithPrefix:suffix:choices:].cold.2 : sha256 63afc37f52a5446563c166b619b5b543bd47f741e8c0b82617ebf45d5dcfdae7 -> e33c0689e5895e299e5e43baac319e09b5574f678b123bd3c870b22a617dc215
+~ +[IPRegexToolbox regexPatternWithPrefix:suffix:choices:].cold.3 : sha256 c07aab282fdf0aa788713d239f28023195a2382230445f05a93b8cfd34680208 -> 304d016e6ec282c30c666a04ffd5f69df9fde28b5e0cc0fdc65cc142576ca7ff
+~ +[IPRegexToolbox regexPatternWithPrefix:suffix:choices:].cold.4 : sha256 3d027adc465da5ecf374eb62e8222be595dfa03127f435680e4d25bc2ca532f1 -> ceff772f16fd081cca89145f03d36b53a0932dad1e984ae8a25e99d5e850f295
+~ +[IPRegexToolbox isRangeInsideQuotationMarks:text:limitToSurroundingText:].cold.1 : sha256 453b50cfc6d184cc158391f1e99cd8c6bbf1640676fa1e8e2cd08b66744880a4 -> 9c5019f1076a140d4f287cfb8ae324453189ec9e745aaefc813bc8e791c1c7b1
+~ -[IPTextMessageConversation _scanEventsInLastMessageOnly:synchronously:completionHandler:].cold.1 : sha256 ed843c9adf73b74d512ae96b890329f9f4c16c12a3e8d6fc6896806610868176 -> e1ed0227d2289b601141fdf573d08de5fe2bbd3688eda14da976a6a344dc5b6b
+~ _IPInitLogging.cold.1 : sha256 b9a5dfe9978ab7428b733fe36a27a77dbf1e7054912c84a2af06d9fbaaa911c3 -> 38146408b84d427aa50b302ea1031fd0c2145a4f60dc169bcdcfb2d570252634
+~ -[IPFeatureSentence polarityForRange:confidence:].cold.1 : sha256 ddc6434d9fb2e1d049cfc27c547a255be0ac1458d83dc78ac0cdb8222add156a -> 26a6e709a58a9a46cfcd9503169bce6687a0e21a03bbc1696853f7b61fcb733c
+~ -[IPFeatureSentence isQuoteAttributionLine].cold.3 : sha256 9d796fc44a84c094f191dd7f88b0f11d0793926291eebdec8168681db57e9da3 -> 1808a0754959c8c0488fbabb9faf3e5f7631330077a33ccbdecd58447af525e8
+~ +[IPFeatureSentence eventVocabularyRegexForType:languageID:].cold.1 : sha256 fc81f370f1ffce261c8cde394816fca9d9542d9d942bffd1bcbd49f8c72df65a -> cc6efad1eed7ded4c32267530b7c6fa53dc7b3b9cc07a3c7215965831bbf3edf
+~ +[IPFeatureSentence _substringWithRange:ofString:removingCharactersFromSet:].cold.1 : sha256 dfbd22eeaa959dd994d57c214e19e36dde15a838693748d4c2be15e8f859f103 -> a3dac5f113fee64a4591031c6a14bccf5558d2289442755d2e4ad165800b16d4
+~ +[IPFeatureSentence _substringWithRange:ofString:removingCharactersFromSet:].cold.2 : sha256 889e35d7aaa6a61a2add762b42f1e6523713e7ede9702e765647d4bea210b4a0 -> c014f1abe75379ba94eeb2c08de17172a8b79902f5e7246be5ddcde0c51b765b
+~ +[IPFeatureSentence bestLanguageIDFromText:linesElided:].cold.1 : sha256 01328aa25b479ec56d7f7fcaba21884c6b4363a13faacaf0942b13adbf5d6eb7 -> 196a6df0c2ae08f187c8106af4bcca8c128a2c3cf88ae6c8fd28901e8b7b2a3e
+~ -[IPSentenceFeatureExtractor queue].cold.1 : sha256 328d1f0fcba3e010349cffeb4db41a1d6f2606fe9f96c3915abab148686e66c2 -> b07169d5cfe7c4deca2ec17edc1c4b0330caabf953a43642d3ce3a48ba71e9a8
+~ _getCalendar.cold.1 : sha256 df60f45cde2ed28d6bbcc2ce43ab343e2a862a4c520da0514a7c6bed7ddf449a -> d37a44864a2fd7887dbff990c66109cd8be0030750c39949229e98fed4a92be4
+~ +[IPEventClassificationType taxonomyForLanguageID:clusterIdentifier:].cold.1 : sha256 118fafbd046b1e0ed9e9b30c115e5502ef516a3402f1761e01ba7ad7d8f688a6 -> 7aa61e490c64ff2e27625359ae79c0be16f3fd731c9e5d04e8cec85ca5979ffd
+
+```

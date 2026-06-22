@@ -1,0 +1,152 @@
+## libvMisc.dylib
+
+> `/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvMisc.dylib`
+
+```diff
+
+-1150.0.0.0.0
+-  __TEXT.__text: 0x5526c sha256:561a88304611e169ad9d163ab63bca4d0a1de7f468c535bfa2992273a1d51949
++1151.0.0.0.0
++  __TEXT.__text: 0x54590 sha256:3d4e76bced20515c3bc0bfa77f726a0916bcae5fb4db81763d1071daefde058c
+   __TEXT.__const: 0x43f0 sha256:fb1b12672bab65a76a4a3e13c3605daaa1b410bae44a9dc8bbec45cd78710765
+-  __TEXT.__unwind_info: 0x270 sha256:a43a9e51e336e18d9b556696071fe02a2f58acc35c916a97b0c599971d486428
+-  __TEXT.__eh_frame: 0x248 sha256:958fc510c91610516edcbd498ab63f69abcfa043ce504d23092e2c7cda43c53d
++  __TEXT.__unwind_info: 0x278 sha256:fc1ebe6016b7dd018a176baecd319df52bed999026a355837d2d64a3be7e7ac3
++  __TEXT.__eh_frame: 0x248 sha256:6fa60dd0a96198524a2aec2df8f3175cd0dc7789d8b3b79bdccb2826e12a7520
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__auth_got: 0x0
+   - /System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 240B20B6-2B4F-340D-8FC4-74124A7F1ED6
++  UUID: DE73F385-B382-39E3-9FA6-0CAE7B672F68
+   Functions: 139
+   Symbols:   429
+   CStrings:  0
+Functions:
+~ _vvsqrtf_ : 1556 -> 1548
+~ _vvlogf_ : 5816 -> 5808
+~ sub_23f1c0284 -> sub_23f0ae274 : sha256 dc3d460b9db53264c13b395b198f4cfeeda5fe9a7f123838dbe5b046adf872ab -> 2196d59681a827db62d03cc65281b7ad84b0359e53db2012fcb466b64ee70b8b
+~ sub_23f1c0748 -> sub_23f0ae738 : sha256 f5670c8a9bdbe21220de37dd0dc16049a988dec6586e24a6be4a6109208f075b -> 20cd3059453777c925ac12124f76f7d960a4c1d4b21ca7d5859d10e4a4c58ebe
+~ sub_23f1c0b0c -> sub_23f0aeafc : sha256 8e9cf1dd43d295acdc2fd77262b4a409d7025ea2b329ef9834a2fda93ac86f26 -> 00d08d114d24bb076cf49fdeef4a45bf38a25e01da5ea13916807b83ac05165c
+~ sub_23f1c0fc0 -> sub_23f0aefb0 : sha256 774bf53453fa8db50189f4b1ccede81f17b0e5e961133eadf540e30c64651b91 -> eda926c5e8d48b5f964ef89f72c8acaa47a9266a50ade97e3dc5938a7feab83a
+~ _vvpows_ : 11308 -> 11232
+~ _vvpowsf_ : 11748 -> 11736
+~ _vvsincosf_ : 4536 -> 4472
+~ _vvcosisinf_ : 4580 -> 4516
+~ _vvsincos_ : 8280 -> 8240
+~ _vvcosisin_ : 8352 -> 8288
+~ _vvacos_ : 4700 -> 4692
+~ _vvacosf_ : 3860 -> 3852
+~ _vvacosh_ : 10196 -> 10036
+~ _vvacoshf_ : 6700 -> 6692
+~ _vvasin_ : 3916 -> 3920
+~ _vvasinf_ : 3508 -> 3500
+~ _vvasinh_ : 9732 -> 9528
+~ _vvasinhf_ : 9068 -> 9060
+~ _vvatan_ : 4228 -> 4220
+~ _vvatanf_ : 3344 -> 3336
+~ _vvatanh_ : 8504 -> 8188
+~ _vvatanhf_ : 6660 -> 6652
+~ _vvcbrt_ : 6996 -> 6612
+~ _vvcbrtf_ : 6064 -> 6060
+~ _vvceil_ : 336 -> 332
+~ _vvceilf_ : 452 -> 444
+~ _vvcos_ : 488 -> 484
+~ sub_23f1e2cb8 -> sub_23f0d06f0 : 2976 -> 2948
+~ _vvcosf_ : 7220 -> 7068
+~ _vvcosh_ : 5440 -> 5300
+~ _vvcoshf_ : 6344 -> 6336
+~ _vvcospi_ : 2836 -> 2832
+~ _vvcospif_ : 2176 -> 2168
+~ _vvexp_ : 3952 -> 3880
+~ _vvexp2_ : 3792 -> 3720
+~ _vvexp2f_ : 2888 -> 2880
+~ _vvexpf_ : 3204 -> 3196
+~ _vvexpm1_ : 3336 -> 3332
+~ _vvexpm1f_ : 3980 -> 3972
+~ _vvfabs_ : 372 -> 368
+~ _vvfabsf_ : 468 -> 460
+~ _vvfloor_ : 348 -> 344
+~ _vvfloorf_ : 452 -> 444
+~ _vvint_ : 336 -> 332
+~ _vvintf_ : 452 -> 444
+~ _vvlog_ : 4376 -> 4272
+~ _vvlog10_ : 4376 -> 4272
+~ _vvlog10f_ : 5816 -> 5808
+~ _vvlog1p_ : 4616 -> 4512
+~ _vvlog1pf_ : 4516 -> 4508
+~ _vvlog2_ : 4248 -> 4164
+~ _vvlog2f_ : 5712 -> 5704
+~ _vvlogb_ : 1444 -> 1440
+~ _vvlogbf_ : 1624 -> 1616
+~ _vvnint_ : 336 -> 332
+~ _vvnintf_ : 452 -> 444
+~ _vvrec_ : 368 -> 364
+~ _vvrecf_ : 788 -> 780
+~ _vvrsqrt_ : 420 -> 416
+~ _vvrsqrtf_ : 1124 -> 1116
+~ _vvsin_ : 488 -> 484
+~ sub_23f1f9144 -> sub_23f0e6780 : 2996 -> 2960
+~ _vvsinf_ : 6992 -> 6848
+~ _vvsinh_ : 5664 -> 5524
+~ _vvsinhf_ : 6552 -> 6548
+~ _vvsinpi_ : 2952 -> 2948
+~ _vvsinpif_ : 2256 -> 2248
+~ _vvsqrt_ : 336 -> 332
+~ _vvtan_ : 488 -> 484
+~ sub_23f1fff90 -> sub_23f0ed474 : 2908 -> 2816
+~ _vvtanf_ : 10260 -> 10088
+~ _vvtanh_ : 3952 -> 3948
+~ _vvtanhf_ : 3976 -> 3968
+~ _vvtanpi_ : 3664 -> 3660
+~ _vvtanpif_ : 2724 -> 2716
+~ _vvatan2_ : 5088 -> 5080
+~ _vvatan2f_ : 4360 -> 4344
+~ _vvcopysign_ : 376 -> 368
+~ _vvcopysignf_ : 520 -> 512
+~ _vvnextafter_ : 1776 -> 1772
+~ _vvnextafterf_ : 2160 -> 2148
+~ _vvdiv_ : 324 -> 316
+~ _vvdivf_ : 456 -> 444
+~ _vvpow_ : 9092 -> 9040
+~ _vvpowf_ : 9876 -> 9868
+~ _vvfmod_ : 3648 -> 3644
+~ _vvfmodf_ : 5160 -> 5152
+~ _vvremainder_ : 3544 -> 3540
+~ _vvremainderf_ : 5040 -> 5032
+~ _vnintf : sha256 cc75142fcc9803ce5f0fd7ee424fcff821632f6907e480ec2294202be12f1c88 -> 86901513af5cd1375c834a095490416ffeae39614b17d6fb82fb522891f56042
+~ _vexpf : sha256 26734b22e85567351a648b8cbba1d2762649598acae6c0f0002436dd57e06737 -> 66d6f0cb81ad4913d0509e4e26d24eeef55e6d5b31e0061f1381c87f2f351f06
+~ _vexp2f : sha256 a42f17f9e707117327cfa728cbf852e8bb04af1e210ac362e48c95ff4e7416a9 -> 85ac56a1fd14b624575b83d32bbab873f0694e21a6df7f4ef89b94908fff4e27
+~ _vexpm1f : sha256 f8bb61c3759d285ecec96509878e6e959aa042d0b33ea588e2438800611ade1c -> 62fc4a8bb7fcaf22ecddc26838b43cc8308b60dc71ca1f497b4974b79be4cc3f
+~ _vlogf : sha256 87c0ff1d65411331c6a709a0bd2a518f0b0ca7532d83d25638cba4070c486c5c -> 174cc23f6caf2e4db4af19a41870e912259a3565c3dc9b08355ac92fb235ee45
+~ _vlog2f : sha256 dc7f8b6da3d9a76f4bbffeea5cc17a2bedaa997e7b3591beeb9a6167e6e453c0 -> 6bc0005b030f5b2e8feb53c692547bf7f8a45c777e3e34372b7d43f7ec14a878
+~ _vlog10f : sha256 8ee1be40a8e111037f34511fbeca75983c5aaea989f5924588eccdef4fcdb41a -> 727205adeefe1174349ca37c8aa9b597ceda7f4a519fc1da7fa8ee7d04c56b28
+~ _vlog1pf : sha256 eaa3079308b4bbb5e4e49f6e7d7eacdf7cff31513721ec41dab39fc06cb8178b -> ccb6ba835685ec3ec09a52b9f670b94d16178706eb4b9d6e8d41eb17fd424274
+~ _vlogbf : sha256 fd74af4b783a14951f1cbee1a7e74af421688a5f9ed5ec7b59d031c1a5bbbe50 -> be971c0b0e05ec760f8de8e181d9ad4077804a034acfdde34157f23667f0d3c3
+~ _vscalbf : sha256 5e6c4fe36c59b600df03f9f6206d9685a5169f131fb8fcb624295f43216db680 -> ea64a859ff38d373607311e826797bdf06f72ad003a4c9f175563ca54ea8e02c
+~ _vpowf : sha256 4acb35d81f5f35afcfaccab9c4a32a398300c0d7ed92949c699be0159a5b7381 -> 8d3c07a4780707e3e3b67483ef761450e8c5d300b66ae9bd73250ad2f281459f
+~ _vsinf : sha256 5e2b9d41d5209dba2e562b887312fea1094e0c6d107ab5f14f5396b17a029954 -> 36104f35defb843f423b116b7345debd8e76ea050dfbec891219abd6707b889d
+~ _vcosf : sha256 876c21d81f52f387b61d16292ddfa44181e15f78e2a31970ae3e66c8b1d6cbab -> c33eb23fba80162894ce0258c4259d135cbe40440f2e6764df3f5745c951662a
+~ _vsincosf : sha256 c06a209480885d612af5a527afa40170f7cec8ef33c14f0b070c8487016f69a8 -> b4eca5495bfe4970a5455901d51fc46cb86c3b2f281bb7b2e726b720e55cf070
+~ _vtanf : sha256 b8d1ccece9eeae009ef6a3c0a61725566f0ed4e056dcb532a9599ab0922b77a2 -> e830298a1972768d148e2ee49cd3bf36cd207df8d000c7bf6b75d8e2ee3967b3
+~ _vsinpif : sha256 61743ad2292c79068777527cb783d3a4bc9f2fddb0a76a30068da406e9520291 -> 3a74d390f071746a71633f982ac8d7441049e82c8503185b48e4fdafad533591
+~ _vcospif : sha256 bcbb3cd33f0dcb58468f6ab4ea8bdb8596632027908d121e4cad00d84f795ba5 -> 96cfdd3845f5755caa1e7beeae199afe1a81d6c439248208f25714fc2bcd3bb2
+~ _vtanpif : sha256 c2b9f9392766a6ed6d1bf0edd1203f7c0dee4006549c58e0c1ca2bf287281bef -> 65cbad9bb1a3f1e0be66382eaf6141837b5ffc592233b19ed20b2798d5d7fc70
+~ _vasinf : sha256 57fb49e624f68dfba6d7ff01232218e5044fe59fbc93152d866ef09190a45f5d -> ec328a883239a2f6c99643e14ffc85bafa40f24c3ccfc651321441d532a11315
+~ _vacosf : sha256 e1e9096b98516606dc501d77fac2421894dac9899684d6f32f62eb09ff01e13f -> a7799c01e1c4ad71d82cc08affe830d0dd8c2cb3f2e648a1cdd1086184dcc9a4
+~ _vatanf : sha256 b0653f1cbd05be7dbd1a64dd5e34263b9577ead13bac8d1e2d3490fb67b53a71 -> 309b190990cd690ac365a003cf53002f82ea2dd7c5eac5b1d1f1a970fbd948d3
+~ _vatan2f : sha256 4adac20f1c232b643e30b656d4043b24ef406d5b5575136092367076c7e4e93f -> d2bb8c9cc421259fbcaf9db66952d8de30f11aa37a6b30a9cb9be5a613ce5c9c
+~ _vsinhf : sha256 8be3a3f0d983d2e57dc91cb2ed4cd9b1c6c3d783738bafb149b42c4e93ce1897 -> ed713d8dd54d2211b8283a9c7269711af9f66e3a39b25e5eb046ceadca70f96e
+~ _vcoshf : sha256 fdfd57430c65849461353ab592dc115b51783516ba19736ca5e075a12f627412 -> 2ea1e1b34707cef27e547f11f618c20dbae4245e92f1cba9f5bf97b24868ce24
+~ _vtanhf : sha256 6a188bd6f96e1c4a403e2fae45fd932b5ae901c3223bc369221a7e3c5ae5309e -> 30b6845c5059a8f700d87aab3f2703825f509828b8426c596ac70b395f983e16
+~ _vasinhf : sha256 27641e24d31dd25ff3b8252d3e4d7450b5f0f8d48f0c0083b7812a6a35021acc -> e134561e7450ed1624f170eb5e3509f7b48a0ecc73b3c10cf78aa389d73a002f
+~ _vacoshf : sha256 86aa41883fa7a47161d0bf035b1b809bff8853c606aafb5c55e5c42e6c0eddb0 -> 0d8d075b0304c7dd7d24cd21128160a2393627ddaa1e3ca580cfa41c599c3836
+~ _vatanhf : sha256 8e49201348d11b67a49c44a3baf94dd0bc8c26c0880815a1d6ff5d640704eaec -> ead6a38ed4554512b46b77dc1c29b570b37e19b6daa0ed5e7182f0400e89771a
+~ _vfmodf : sha256 fdfd57430c65849461353ab592dc115b51783516ba19736ca5e075a12f627412 -> 4b6d2f9b8789f4d0acdd3ade36feed67defb8871f58079c692cb22cbfdc92b60
+~ _vremainderf : sha256 3c019f6a1619fde3a2499e6c0201109d84d612919f18e22017c47db3abe3ef98 -> 7f9c3943b2752f20a9edaaa2de363e79d93f19fa04b8dd02151012621ed87688
+~ _vremquof : sha256 7de6e4636fb460825638544f8790af91d567b6dd7b15d67c0ab4a845e6085403 -> 3a47a209d48865b434aad481dbeb606ea2834a63010b6307fa94ae510312226b
+~ _vnextafterf : sha256 fb226929babab9e009f2db8fbb58dbf94a538eafcdcf05b3f221588626e26d2b -> 7cc3f357d3a3d28a84e38887919d1e5a8332152ccb29813e2ccdd5bc6bce57c2
+~ _vclassifyf : sha256 0ad97f9f2f703881446baae37c16172ef95200f9a85d2de2476bd51bccf4d27b -> b2cc9f8db181fce69d59f6a272a4f993dc0fce62689c158ab2f2e9f17d8d0285
+
+```

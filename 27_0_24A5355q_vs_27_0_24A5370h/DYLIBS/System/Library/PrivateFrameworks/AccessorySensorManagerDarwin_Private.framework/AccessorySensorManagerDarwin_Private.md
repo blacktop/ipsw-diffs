@@ -1,0 +1,83 @@
+## AccessorySensorManagerDarwin_Private
+
+> `/System/Library/PrivateFrameworks/AccessorySensorManagerDarwin_Private.framework/AccessorySensorManagerDarwin_Private`
+
+```diff
+
+-20.26.0.0.1
+-  __TEXT.__text: 0xb38 sha256:09396813f5537d027859c5e3515dcc19e8647271dc1423a08f7dfbe12cfb140c
+-  __TEXT.__objc_methlist: 0x134 sha256:619caa02576a50cd3cd948e871b8c3d5ac3fa33c025b28a105b621fd7fda3488
++20.27.0.0.0
++  __TEXT.__text: 0xb38 sha256:19198c5ca044cadbcb8d0d7033f0badf50ff07d23fa162c25903c3831908114a
++  __TEXT.__objc_methlist: 0x134 sha256:f7944a76c9319da1f5de86ae2e05ce93d1b5f5eea37e171ea03ea1f05e604324
+   __TEXT.__const: 0x68 sha256:0168fc12d934fd912aae5cff1b2304900f68ea1d8f42acdf4e8c44388c4722c6
+   __TEXT.__gcc_except_tab: 0x58 sha256:07b639103b8a94db6232302043cbee8bfb325a4e732ff447332fcccb926f981d
+   __TEXT.__cstring: 0x25c sha256:795a78fcceceda18db0f97da0c0b3c4e46cc8017d91657f9818b8b8561d99309
+-  __TEXT.__unwind_info: 0xb8 sha256:0b2e41a22c26115ac44ad4b980f4523b5f08293f64c19093e30e18ea27b75d0d
++  __TEXT.__unwind_info: 0xb8 sha256:1be75eb251e7fcdb472ad371e155362d82ed3d884af38ea3153bafc38a0b36c7
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x70 sha256:4901c05573a74422436ca1d64d3a28db49a392abeb861eed6098a4f56e1eb849
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:3e5c453cd44b1edaf19ebace7f43ed29e321b9077b9144ce52642df5337c10b4
++  __DATA_CONST.__const: 0x70 sha256:999986f5615821189a7fc15d7b5eaa34426bdd27c0f4a7ac4313e4f01c47e357
++  __DATA_CONST.__objc_classlist: 0x20 sha256:0bcdd0f7b007d798835e2f49d277b8ae4bb3eb2fce9d399b5d86f3ffdba38d1a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x98 sha256:45bfacef41a757432f2997b98631babdf0e4f9f944545931680456a5eab5f024
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:97e7e7c5267dbbdc7d1a916a5c34e738b9e7f1931405f522316319a3c55f3d8d
+-  __DATA_CONST.__got: 0x18 sha256:dae83099356f26c5690d21280f38fb218aea677cc997d4e5cab9ff68af2b87ae
+-  __AUTH_CONST.__const: 0x40 sha256:b5e5ce750990f107e7edbd8c4dd9db42a63f44c5e94a0b258f758e2836ee217e
+-  __AUTH_CONST.__objc_const: 0x430 sha256:831bd8b9a84d9a95d128352175a070e01d4155be52956701f15b0ae8bcc6124a
++  __DATA_CONST.__objc_selrefs: 0x98 sha256:99810c778cfacabed99736c80bce3a67c680d2d606861dca632407652e17a479
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:5b7cdeb6888ca1bb3e19ba77d8e192a0d7d06ba756b09b04ff39f9a168ab277d
++  __DATA_CONST.__got: 0x18 sha256:d75a779b9dad2838d74eca2fe6727ae70197fac906cf45a357c6cd44bbd340f7
++  __AUTH_CONST.__const: 0x40 sha256:b249eeaa9895bdf2c7b8107d3690468d42bbd212eb14e1df62983c858b4e4594
++  __AUTH_CONST.__objc_const: 0x430 sha256:6d28fe54cf5255ff3fc3bbee609039c6a260f13ef92dfe0f470005b85aaa2f1b
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x140 sha256:8a40a8b8eb2e1ed7e68aebc3d4dfab0449bb2ac1d4faed5b0ea4c903aaa0cd08
++  __AUTH.__objc_data: 0x140 sha256:86947ffa9c653e84d48539dd51be94361526b6b68004780210f7da794921b81a
+   __DATA.__objc_ivar: 0x30 sha256:5e2a1705b9ac9dcb30d47a4814d926f15c41bd42f1d56817310816976a13e0b4
+-  __DATA.__data: 0x70 sha256:1d1d81e9c17a21d9c229c3534d2f74a623e87c46316b91e9b2f36979d4e7761c
++  __DATA.__data: 0x70 sha256:121805cd471b774d480f6519438cb5a5250aebb3c0c0f8e7dce2bdef28715dd8
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FF5A68F3-A05A-3E98-88EE-2E65499E2D31
++  UUID: FDDA0063-1330-3746-8A0F-CD437A7EB8B7
+   Functions: 30
+   Symbols:   164
+   CStrings:  18
+Functions:
+~ -[ASMPowerAssertion initWithAssertionName:timeout:] : sha256 b3aa4ef559c813ea817d068ff245a1e0d4baa631e89c76ee3ce3aa54704d0d4b -> 5204b9e0d978099e66f39031fce830e715c867c4b73cecd4ab54b9f1af631f6d
+~ -[ASMPowerAssertion invalidate] : sha256 ea458a7535424cc8bc2fd264773c7cf46bc335cfe648ab8a24b639841d784e54 -> 79f5158b7e07dc7f4d00fb14c3f2c4da306b68fe266d04b0439cda58402ff0aa
+~ -[ASMPowerAssertion acquireAssertion] : sha256 dfb133cf2619136cebb0b5d6e0fbb4d68251efa6e4c85685fdab307ac28b3e19 -> 2a3556b053028ddf6e8a6b883a9078f261fdd1aa3885e8494fe4a90e605bc6d2
+~ ___37-[ASMPowerAssertion acquireAssertion]_block_invoke : sha256 4203f350be7d74560d335564ed4a29d29cb8006f7fb89198e220bc26d3360dd4 -> f55a59f5aa2a17af7f0b4627cff352c01671a33e25ff07373fa549931902ed94
+~ -[ASMPowerAssertion releaseAssertion] : sha256 b36542226e501c16d55caa77abd736cdc6e0ba0e59484a0e2e6a8233f22fd675 -> 7724ddd4d8996311d1edc06fca1ec4956191a5d4f5a168979ebe0431608abfed
+~ -[ASMPowerAssertion _resetTimer] : sha256 cd653436c94a91f46bfa4faf26f53b2924dacb8dd91aadfc9e8c6dd00c102ae6 -> 3d32d9b0ba83d35d3ea21de86b7e0171f589abcd6860a231fc1935086d3915dc
+~ ___32-[ASMPowerAssertion _resetTimer]_block_invoke : sha256 67504227b93b156124708b5d9f0d5e17a1079f34b43d2d1f83a76c02b800e753 -> 3ce7eb9750f2aa31fb342fbf989859eb21182942d4fa304f5f372e6894e954d5
+~ -[ASMPowerAssertion withAssertion:] : sha256 5a0bf22f01cebed949c1ddd0f29b4ac0931acca12be534f98e9e77ecebb9ed33 -> e88a41b32e6150b50e44c4cb042579ebbbd945adf6dac163578a82ca77925ddf
+~ -[ASMPowerAssertion .cxx_destruct] : sha256 ad9ad31027a477be5f797c7ca94f978fc1868a586f88e4382d81d5196293be90 -> 049fec7610021ede7a0dec0fbda2da3f376a9c38e6b4980769671c237d8280fe
+~ -[ASMPolarisResourceProvider init] : sha256 08f39d99be34b98d97a74559b351d7d264cf49a1f0976e1e978ba593b02a668c -> 03663c2754d4878225f3aed754c8ab078ee20de7738e60d317e875d91c7ab134
+~ -[ASMPolarisResourceProvider activateWithExecutionSession:] : sha256 356616efaa05c6596f44f9824240b004b35c04b23c76df4cca46bd875f19c338 -> b0c6c823eef0167a7c30ebe993b6f06272e5410f01133e652d36e9000b2d5b80
+~ ___59-[ASMPolarisResourceProvider activateWithExecutionSession:]_block_invoke : sha256 82a17852a7679a416518199f6409ccf44d33798072c08cdf7e3bc29048302c7d -> 6b8c387ece2691c31e28c3976052001b93c5e7855e954bef5f975873b238bbc4
+~ -[ASMPolarisResourceProvider setResourceStartHandler:] : sha256 73a110a3f41415ca6de29d40e229ee33c38fe1ee793f47f7a5e495cab695dc3f -> caee643cbdb012aee55defee0dae9d324ebf4bd8a24bf09cf0a2f15d8a5dc61c
+~ -[ASMPolarisResourceProvider setResourceStopHandler:] : sha256 2919992a111fde9ffcd34119f0f064d8a1e34891be1eee65a55c75ee26ea12dd -> 5c428d374619d1e92f595ce101aaf54b92e174b5ff7bd53d99b66309e8af13e1
+~ -[ASMPolarisResourceProvider .cxx_destruct] : sha256 21412b1d2bdb25fed096af121fed425305891c3434b280f0dfc0112c2f1bf626 -> c6fc94982151dad87ee4b71b7ca8385ab54b10962fdcb516a7d6ea5dc8e6e0b4
+~ +[ASMSignpost sharedInstance] : sha256 9a5d5d652d9c3f12e1f466093c5a44b66c582ab1785996f2d0012c9b544b2ff3 -> d7ee7fe25abfc5548413601a55dc6b2a20966a154be4e6b043ccefa7a90eea9b
+~ ___29+[ASMSignpost sharedInstance]_block_invoke : sha256 cd85d133e13d1fdb009724b35e0bb5c3ebee2140bdb799d6607bf47933ab0fc0 -> 6d402f974d5b47278d908756b37b4c7c2e51a2443c028c10722f4d4b76d29cfc
+~ -[ASMSignpost init] : sha256 837e925eab9a3c817e7b553bc5e4d5885aa29544c71b2e2ebd879c44cf0b7b50 -> b57f1b455682ce03cc1a6c838a79aaca9ef57127102a32c97640a5ac9a2b5758
+~ -[ASMSignpost asmSignpostLogger] : sha256 8d41d14559966224c24325f9b72a01ef54b71c9b3b526ae1f1783eb89cea634e -> 99d10e49286d63a97d008d3a3d01122810385575804517a1ed3f9b6931ec9cb7
+~ ___32-[ASMSignpost asmSignpostLogger]_block_invoke : sha256 7daba742142a75557a8fee462470c1b38b667900d0d7d7aa6af8fe22606054a7 -> 122305ce66b08e4e48db052dce3778fe523bf56a4416b10887a28af7008e451b
+~ -[ASMSignpost setAsmLogInstance:] : sha256 3c3e294e2b3d2010bab95f0f228d4cac45e3b15c98d444f4c2c118f6de6336dc -> b562a192c039e364f500851fbcd2c8b7d501169bcefd43488aedb2573bd2365f
+~ -[ASMSignpost .cxx_destruct] : sha256 ae50360fce666708fa4b77ad8d5acab34d722829e02d0c3594ecb7b8c41dda36 -> 122a6e32c038010c5d0f7e3608a37aeab1f23c67573b10c74697cc0260251ac6
+~ -[ASMPowerAssertion _resetTimer].cold.1 : sha256 e872de3aeaf14fdbd4b6a64e62aee1b50d6e574e1aaff02d27e6786830bf85da -> 583d7c161b72777410b45c93e502b3ca4f3e90f3057a5d04ca202d04436302e0
+~ +[ASMSignpost sharedInstance].cold.1 : sha256 528b32654f82ebe5d2508e4308154331dfaa54b723dffec865935d8fb049320f -> 6faeaa01c11105e489bef99565c9a15b9d625d724cc079447c43b853e8a17e52
+~ -[ASMSignpost asmSignpostLogger].cold.1 : sha256 85fbf95ee5cc95766b35396255d4c63de754954d939a68b48a7e0b9a772b4d31 -> 4bf1626152ae5b5e288fb87a8c1c7c6a6c59e161be569f8acd1f59e36c77e6bb
+
+```

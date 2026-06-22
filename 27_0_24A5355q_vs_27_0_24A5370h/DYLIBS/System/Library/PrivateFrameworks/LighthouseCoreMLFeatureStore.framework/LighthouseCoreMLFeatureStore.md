@@ -1,0 +1,207 @@
+## LighthouseCoreMLFeatureStore
+
+> `/System/Library/PrivateFrameworks/LighthouseCoreMLFeatureStore.framework/LighthouseCoreMLFeatureStore`
+
+```diff
+
+ 3.0.0.0.0
+-  __TEXT.__text: 0xb63c sha256:18e8a31932f5301a0042f9d15cf572bd594223c49ec90e3c79f962ccd157959d
+-  __TEXT.__objc_methlist: 0xa70 sha256:0fe74cd702188446a2cd617f1408550da7869121d004074d8e36231dbbd8177f
++  __TEXT.__text: 0xb57c sha256:b7c4c308bb96487346561cdc2f9367f6d85d5f9f873aa1ed34e39cd0b5fff4b6
++  __TEXT.__objc_methlist: 0xa70 sha256:00182dd5edc5afddda79577a9801c9a7614b1678cd02d3fdfdfcfa19add2be1c
+   __TEXT.__const: 0x88 sha256:081716527b66cb234cdd09c33d617ea22ffc9bfddd34458dfafe6012c5eacbb1
+   __TEXT.__cstring: 0x713 sha256:9f7581d022f8f3870ca32916bda6c7ea373b456ae75b015e59a78bb7df029efa
+   __TEXT.__oslogstring: 0x1eb sha256:64cc183029e5f7385bcd53511a535b532c34adcd35519a12ac53c2ffd641fe8f
+-  __TEXT.__gcc_except_tab: 0xb8 sha256:260aa6ae8aac2e74e93d77e97ffcb543ed6c9f994071ba47617c03210a143f6d
+-  __TEXT.__unwind_info: 0x250 sha256:089d746d87caf92a3acaa2dd59a02dcf89aa36aac1c9cc33b6bb34bf3501c001
++  __TEXT.__gcc_except_tab: 0xb8 sha256:9b9cb8a4bc23a0ba738d83ac2cc4eeaa95bf7c4934840c289016498951a852a7
++  __TEXT.__unwind_info: 0x250 sha256:99d180cddc2b4131fb55e8899b54dc79e3ad8a32cc29a9aafcc7cd778d73ffcb
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1a0 sha256:4e5c167cbbb232c0959141ec2cc48f5851e65729921737f0ef24ad1e42355fd3
+-  __DATA_CONST.__objc_classlist: 0xc0 sha256:50a18c9de7b7c97a1ec9bec66e6376686e03a1bd490f0ef7004e6eb5265291db
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:863381358b3e46a57c73df30a69d86a9a0b7b4e8da8cce99867f8398528665cb
++  __DATA_CONST.__const: 0x1a0 sha256:462380485112ace0cca11ac5faf3843915df7f2e87f22d7d27c9babb4d430a54
++  __DATA_CONST.__objc_classlist: 0xc0 sha256:8110295cc6bb493d3b205347a78110679371ba7f3cd27b6401e848fa5a120382
++  __DATA_CONST.__objc_protolist: 0x10 sha256:bb617ef371045ad919c225d85748a18a4a44acf43b92679ddf1094ede248ba17
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x740 sha256:24320362d9bdf9d5cbe7bcb8379f4543816b3c9a95d739db54dc67fd52d229da
+-  __DATA_CONST.__objc_superrefs: 0x98 sha256:990714c8c4a609fd0e18ce8c60aaec2ef48cb9a74a37d8b07bc3cbf4156ef0f4
+-  __DATA_CONST.__objc_arraydata: 0x8 sha256:da105f00b2562fac58c8f64c6ab2f8ecd90d0e34e1d8d12d804e8ec005e5c97f
+-  __DATA_CONST.__got: 0x130 sha256:4e62c685c11c83a0fe878b35304d52487c31080f8e51bb041e8ade71cffef4d2
+-  __AUTH_CONST.__const: 0xa0 sha256:52dadfaab6fda79830fa97b5d950397527027e0766c65682b05821e9ba661ecb
+-  __AUTH_CONST.__cfstring: 0x7c0 sha256:1da3576bee50b958d23cdedcdda6d77137ad812eea50cf93871c01bb433dfe76
+-  __AUTH_CONST.__objc_const: 0x2050 sha256:20a0e8f2cc11461e7d9d9f487107e8b38b13046afce2fa46c8b94ad21f744475
+-  __AUTH_CONST.__objc_intobj: 0x78 sha256:8ba507e2c99e8e6186fca4522ff8b20bd3d85ba3ca511e5782590ecd74359c3c
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:9d67e498f2b226fa19393229297cd7adc9a0c11f673254f31973af7a973a6d16
++  __DATA_CONST.__objc_selrefs: 0x740 sha256:a25c00a8e6113be10b8353e46d8fa004900c0116a0de5cb8ed1711604426e48f
++  __DATA_CONST.__objc_superrefs: 0x98 sha256:73c8cd049724420fc9121345c17adf7045d7a0eb8709d14a78ffe5a327093449
++  __DATA_CONST.__objc_arraydata: 0x8 sha256:3cf251acd701a50294a6c93045ac66814cc1da15d82f716e9f6f7fca46b10a97
++  __DATA_CONST.__got: 0x130 sha256:0d36a0b336f511b4fe9d695495bed9bc67be07c245e50cf4c1b4b35130db0285
++  __AUTH_CONST.__const: 0xa0 sha256:79fabe853f1f49911ce98fc7deb8a44553cdc2a2e124ce3d468119575dd0b130
++  __AUTH_CONST.__cfstring: 0x7c0 sha256:6ab532d2c5d08f23d6bcd966c0dab7acd8a76b7ce264c45bec7bee445ea8a929
++  __AUTH_CONST.__objc_const: 0x2050 sha256:418fac1e8d8fc2df1ace4883a3a09a049d47d6dbef52a093845773ea48c7c3a7
++  __AUTH_CONST.__objc_intobj: 0x78 sha256:f23378a1ae0d7cce54be713b8d222f5654a9fcd6427aee92e02c2f25ce3571a0
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:1a2613793a4be743f48909bd7103d4cb64b15af48d67f24e70025db653ba6c9d
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x5f0 sha256:72492c142d65e534121ada5176d2b3ee22f3b8a4013d0e5be538b8f636fd5eba
++  __AUTH.__objc_data: 0x5f0 sha256:ade93305276f680975f01fd847f45c400b08adeb456efdb5f49604db124ba77c
+   __DATA.__objc_ivar: 0x16c sha256:92f4e3acd28a7c3c7cd9c2bca4fddc0f8648c3bdb327379da95bcebddfb97155
+-  __DATA.__data: 0xe8 sha256:eb13faa12048b89683f3f3b57b874c72298aaca266c0e981c162ecd4a2817431
++  __DATA.__data: 0xe8 sha256:6732e6172978abd89a088c665e3f5911388ae28130fdafd3a00395528cee414d
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:c6067c2f6b8aada7345b874595ab29662dd6730d08856a18dc49d748c4cb7824
++  __DATA_DIRTY.__objc_data: 0x190 sha256:1138ddf5696402cc1a8442a04faaf3f263e4010b8a26697c48184463d0f4e34b
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_DIRTY.__common: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 978DCDC6-AB2A-31F1-982F-56CE006AC5D5
++  UUID: 247B09F4-3162-3D09-9736-D255D4A18091
+   Functions: 231
+   Symbols:   1071
+   CStrings:  159
+Functions:
+~ +[LCFELCoreAnalyticsHandler myAnalyticsSendEvent:eventPayload:] : sha256 3128996467bbc2b074a320b613438798ddac67a615b5ee9b5aababb2b8f110f5 -> c3cca72ebad594328956fffa68541d50159b3d353db42bd3692854cba6466160
+~ +[LCFELCoreAnalyticsHandler emitFeatureStatisticEvents:usageType:batchProviderInfo:] : 2932 -> 2896
+~ +[LCFELCoreAnalyticsHandler emitModelTrainingEvent:] : sha256 d5fee40b59753e1708294c01321df6de31b9246fa581cc108c35b887d2e5da55 -> 84d191c90e77e6fb14e60492386859eb1778c95e685cbe39a0870f8c8b9b49a9
+~ +[LCFELCoreAnalyticsHandler emitShadowEvaluationEvent:] : sha256 0a0491b2126d1ebabd78916bff0479b61dedd16829bd58782457650279f82526 -> 1d89bcd39a7ac1c191bc1bb48f717b8f89c316a66809966ce0337a2b45a43e06
+~ +[LCFELCoreAnalyticsHandler emitFeatureImportanceEvent:] : 2224 -> 2204
+~ +[LCFELCoreAnalyticsHandler emitChangePointDetectionEvent:] : 2072 -> 2056
+~ -[LCFELFeatureImportanceAnalysisResult init:featureCount:correlationCoefficient:featureImportance:] : sha256 ecfe11cd4339eb24bd16bb3013e227d6114eb1b4561bd5467510fac3315ad18d -> c51b6c4eb9b589027a69381b0d694ff43bbc7309008265481ace1a533006ab61
+~ -[LCFELFeatureImportanceAnalysisResult .cxx_destruct] : sha256 66acb2c7d347730cc108ff799e40e33e7d4f16e7dde4a84b49f8d9602bf5a317 -> ae55335ab7cdcf70f3bea67cc91036d626e9b8d36d52a5ab805d420bbecf8573
+~ -[LCFFeatureStore init:url:useSqlite:] : sha256 374ff975e7d66513f40cd5824963d4c05a7ec74fc879d2864ce0379e05109bec -> 050f3d4f8f746947a68c74fef9a820b363988b37138da265cc7fcc9b12b81126
+~ -[LCFFeatureStore updateFeatureSet:] : sha256 fec50861a09af720c44b00bc88a860cf352e66bad9e96bc2095d186a776167f3 -> 35f4eb712580bb3afa951e66d5c68d350115d8b0a9bcbabd3a345d830916475b
+~ -[LCFFeatureStore updateFeatureSet:featureVestion:featureValues:] : sha256 660683aed5b8cd5c264d828877d2574a2cdbc48f5d82f1ec0b6a6de54b341616 -> cae09f4ba3a14a0dd863cec9ff8f2ea0ee3e55853758199a064d2a881a7d0146
+~ -[LCFFeatureStore getFeatureVector:option:] : sha256 a865e297c0f5595245ac74b8f60919430329b3b38ab53ae83d9ab382961fb502 -> 27c036129c0e6195111247f26f7cdf79cc2ea7ee0d0533c35c021def90681938
+~ -[LCFFeatureStore getFeatureVector:atTime:option:] : 612 -> 608
+~ -[LCFFeatureStore getFeatureVectorWithStoreEvents:storeEventsInReversedOrder:option:] : 1788 -> 1776
+~ -[LCFFeatureStore getFeatureVectors:option:] : sha256 b48737ac89a92ac98ec0d363deb516d6cc530459e8817e221c21268cb52c8f39 -> e81b3613dbd7de7269cfa9bfa53978fe46ab697121913a897e992a45aa533111
+~ -[LCFFeatureStore getFeatureSets:startDate:endDate:option:] : 1156 -> 1144
+~ _doubleSort : sha256 7a885b662558617d88fdc7123679eb3f3c105da92313ad67485b51823cc120ea -> 6bb93a6b3a91549be43b4d3471ecf234373ab6e1c407f39d6476386bdf5cea99
+~ -[LCFFeatureStore featureProviderFromfeatureSet:featureNames:] : 928 -> 924
+~ -[LCFFeatureStore getFeatureVectors:startDate:endDate:option:] : 1820 -> 1796
+~ -[LCFFeatureStore getMultiArrayFeatureVectors:vectorName:srcLabelName:destLabelName:option:] : sha256 6fd0f6b8e8b04a3d53d554072d421a4ff23c274e8010b812043c08487fec5fe5 -> 5c60eecc34784fb79cc5a06496bd317ba316cedb00a7d107289f14e7c8a14e57
+~ -[LCFFeatureStore getMultiArrayFeatureVectors:vectorName:srcLabelName:destLabelName:startDate:endDate:option:] : sha256 f3c3568a1f67bae39a2775433fbf179066455ae1caa378d6467251af4e6a1153 -> b6ac481ebb4c0dd97e4b5bddc239b38420fefedd95288c596bf08e795cdcc1ba
+~ -[LCFFeatureStore getFeatureVectorTimestamps] : sha256 3c7528d8ddff5f292673af06987fbb9116a512cab3a0fe5c2bec603d2659b1cf -> 48f3e1167b93248b7d321957146b9a95f421f035d7f5fc6ad63e49c0430a33fb
+~ -[LCFFeatureStore pruneFrom:endDate:option:] : sha256 00ee5e2145b6b5b8f6dc3d3239c351264a69b7dc4722b8d9842553a639d35070 -> 0e71e43c24ea3a99002c8e2cef5009d8952499096899ca62e39e0069a551f1ed
+~ -[LCFFeatureStore .cxx_destruct] : sha256 50d50488d60c874e076d2de438dcefe8c56c862750edba61889b22e0d9b899f6 -> 18a5d4a4e73d6bc670db336d62d16e265ff736e92256674c07b1b8aaef1b91e4
+~ -[LCFELFeatureValueStatistic init:count:mean:stddev:] : sha256 0f53593b848b25eb02b1f85aa06bdaa13796aeafbf2f42c9e4032a4f9c03e107 -> 7a5be5c450dfa635bce9b5d66707b16e6c5e401f8429ac47a2bc22808b837b6a
+~ -[LCFELFeatureValueStatistic .cxx_destruct] : sha256 7a6eb1e4146fae01b767669edbde4a7cd3e2b378ffcbc7785993e98d442f8bc1 -> 43178335fc6cb76818eaf7579147c4af89f4d9741ea80ddc5db91a5f41b08376
+~ -[LCFCoreMLBatchProvider init:featureProviders:] : 548 -> 544
+~ -[LCFCoreMLBatchProvider featuresAtIndex:] : sha256 a6444263899f6c47d23129c1a5bdc299f35b7abe9d3c2fe5a18b27ce76cda777 -> 2709507a3c92d85ce56c688bca2f0ff77ea1dcc75363eac7c7b1fd529e507078
+~ +[LCFCoreMLBatchProvider fromMLProvider:] : sha256 9a35190b83ee3a7639df852ef830613bd02749cbff74f7b5e2e32d791ea19f68 -> 9cff648784c8779b5bca2d357f5b2e6093c9afe86d7588067797cdec3ff6cc44
+~ -[LCFCoreMLBatchProvider .cxx_destruct] : sha256 a91df41be312aba9987d9b1339150cadd86b98e699316709c3a7eac3527810f4 -> 3d65bb1785a7800ace9f1e483c0e0a364a417e9b8b7bbf91b4bad8db6660e28b
+~ -[LCFELChangepointDetectionAnalysisResult init:featureCount:detectedChangePointCount:changepointTimestamps:] : sha256 c2f41c2541ebb81658f85e01b8cda8526879d53e8a8460dccf5a54419b3021f6 -> e6b6550b704076af3a61747a803d6a83014ad56cc8b4d14f423c5ff3da4f045f
+~ -[LCFELChangepointDetectionAnalysisResult .cxx_destruct] : sha256 bbf7f61a3c67814e939f401c4180fc47589d3c886c1fc139b6f02a89faad62ff -> 472ea6da9b47c1a849a194fd103b18a225dd129f1d7bee4e7cf6dec9651d426d
+~ -[LCFELShadowEvaluationEvent init:inputBachProviderInfo:evaluatedPredictions:accuracy:succeeded:evaluationError:] : sha256 74fbac4e60474789c11dc0a2c49c27137c35e0772b58b08a63048dc7dd7a0034 -> 559e4d3bcf88a345c4197fa220e33b9e78595c1acbdd2aa1572cc2ef2619b0c0
+~ -[LCFELShadowEvaluationEvent .cxx_destruct] : sha256 5db723023806c92945d08a263f208e34843d3722ba9d330e192c3f47cdb41f1e -> c99b779c2fd4c36539fb1f8655e2f720e3853837aa41acdd7685ddad5c8ada54
+~ -[LCFFeatureValue initEmpty] : sha256 41e3c59bbd801035880834f7db1ff11b45b7cde20feab75c38eaa529e3f53ba3 -> 2614bf99a68528478dda9f4aea0e3d54fff79ac7969b7cfb50261fd772e0b1d6
+~ -[LCFFeatureValue initWithIntValue:] : sha256 e88c570fe89732d959f802bc75f18e3d1ce403e2c2581f6add45d16c77144061 -> 085acabb182553b2fe943aaa8039fd766b3b556d4dec77c620daf5bbac91770e
+~ -[LCFFeatureValue initWithDoubleValue:] : sha256 76e87d83e7dc3eb25b53a7347c5e8bfb8613fc362e1e08d719f50761c6a2f217 -> d07e5b995cfbd8dc20a6ed0d0e41c536a7f372422c77f5b0741b6b23b006c173
+~ -[LCFFeatureValue initWithStringValue:] : sha256 aea67a8b32228f9b9dd87c1441738f6381d77a4ac494a1290e1a404c2c4a0cfc -> 731a1d174fa7fe3e5d68066cb963ff79730f51e7c24dc5b21ceb78e53f1f8d6d
+~ -[LCFFeatureValue initWithBoolValue:] : sha256 399422763db4e586e93c1ad3aa871f41e65babc3fc564f32d716b64a26197ef3 -> f09e0751133d952e3668cf5f7e61d7d5ec810a97e7d064fcbd11c205d81d8f8e
+~ -[LCFFeatureValue initWithTimeBucketValue:] : sha256 45a444f5e1ded0f034bc1f45a9d690dd73a47786ac82b9fe22c7b81002a51858 -> fd7f7ab3968680e44439e0ff881a20e9e18d88c8b6b360655d11b94921792f0c
+~ -[LCFFeatureValue initWithDoubleArray:] : sha256 5026f136a82d195452d4d4b5476bbede4d8e4f1e133b0362a891424b703878ba -> cbc0d493f5f4ab8e7b8457212f317cab4a5b8106d90c14940b5a2ff434ee12bf
+~ -[LCFFeatureValue valueInString] : sha256 9eddf12662826d011a822df4925032618f1cf055acef1555a1791f2c8c6f3ae8 -> f30628112f4d7e4153a2fda15d4d66f44adc04a5700b06b5ec4a3b629d157772
+~ -[LCFFeatureValue getTypeDBString] : sha256 e3bcbdf07aa08e08bca1ff2986ad6c08de23f10ca8e92499f1f314c388ff2b25 -> c6a132f274d0f9a35b21ebd599a60b3c2a18a6d17638ab9e749959647a9e9b59
+~ -[LCFFeatureValue isNullValue] : 44 -> 48
+~ -[LCFFeatureValue .cxx_destruct] : sha256 a739601f777a12970417ce5a58b4a0ca4fa9ad0683ede147e47793ae0fe01364 -> 810dd87caa56fe547bf16804ef4143e6f8a9780ac59c15ceb760dfab036dc2b9
+~ _LCFLoggingUtilsInit : sha256 77021036c35c95c17e43067ffda5c5f8d5f9f07911563b840792a73aa6cf5a6e -> e022eeac836623143fe66c0c55408c40a874415ee0dad170523d6505b58c90f5
+~ ___LCFLoggingUtilsInit_block_invoke : sha256 693c69354766a8302bbf1872cb28b0bf0288bcc766e297ba779f85acf2423cb5 -> e1732ee4c416c977d2f4679395a697f4c0110e4c5994aae13f136e35a4595347
+~ +[LCFFeatureConverter(LabeledDataStore) fromBiomeLabeledDataFeatureValue:] : sha256 9ce52544ee9d2e4e59a7860f3b2f6e35119f55cda799b66e6e8eb8a9045762cd -> 533001a9022d85b12d56bd9f5788440b6724e7f64e0355079b1c002c5a1f2226
+~ +[LCFFeatureConverter(LabeledDataStore) fromLabeledDataBiomeFeatureStore:timestamp:] : 1008 -> 1004
+~ +[LCFFeatureConverter(LabeledDataStore) fromFeatureValueToLabeledData:] : sha256 fe6105c082c11a80fa5851b1620e42c76a670f5b5d1a1809647c50003271c63e -> db571ba39b3a5828fc26b28bb67f646eb93fe2bd0ef4680f681eed62855c94c5
+~ +[LCFFeatureConverter(LabeledDataStore) fromFeatureSetToLabeledData:] : 1080 -> 1076
+~ -[LCFDatabaseColumn init:typeDb:] : sha256 f535b97cc8a7f07418c5e60cbf9301879451eb3e31dc7e1ade49d41e1c27f63b -> bcb5700cc1ebe2c4a6c68d9ccebda186b25f299109a5edf9f935d42adf496183
+~ -[LCFDatabaseColumn .cxx_destruct] : sha256 4f35375027627a1e64a585f6ce9702705d611d6e754874e15d0bcfe9d419db87 -> f679dfbf303ea8ea550788f6cfff2af5870e985eeb85f0c5a4f2fa5fc4981936
+~ +[LCFCoreMLFeatureProviderUtils toMultiArrayTypeFeatureProvider:srcFeatureNames:srcLabelName:destFeatureName:destLabelName:] : 1492 -> 1484
+~ ___124+[LCFCoreMLFeatureProviderUtils toMultiArrayTypeFeatureProvider:srcFeatureNames:srcLabelName:destFeatureName:destLabelName:]_block_invoke : sha256 043bcd07c9cc6f2a8939f2874cc6b929d6f8714059e751d4e55b23526328ade1 -> 835c512d78971504be623c884d22da85a01d47768e9b297d8184174ec83d9d66
+~ ___124+[LCFCoreMLFeatureProviderUtils toMultiArrayTypeFeatureProvider:srcFeatureNames:srcLabelName:destFeatureName:destLabelName:]_block_invoke.53 : sha256 141fc28d814a66efe65547207b2d404fab0cde5cfa4565e0cff905502157248d -> af796e74b367fc9f0c3700be89475fae01bedcded0e3186175d3edbd91800d71
+~ +[LCFCoreMLFeatureProviderUtils toMultiArrayTypeBatchProvider:srcFeatureNames:srcLabelName:destFeatureName:destLabelName:] : sha256 391e7b7a9e82987e4892aac6ff018d191b507dfc442b12b218e9b58b54f6305b -> d83a8d13c7d64cf62a23406230fd821d4b47c89a4d93a31466244159fc58ff03
+~ -[LCFDatabaseConnection init:databaseName:tableName:] : sha256 8a96cfcd1f24b74da5596637971e22ec0fa1a3baaafb18f0b9845d57da5a9f48 -> c25c7696121d89d1931d77cb4e96b0366ca886d51a8199510b811d4e072bd56b
+~ -[LCFDatabaseConnection ensureDatabaseTable] : sha256 a34c3b7f317254f06f754737084d05f09459e4584f41e46ecb7bc6347e9cd848 -> 05252f5e86086df0bc9017a417a21db310853d135a301c3a06746a3534427503
+~ -[LCFDatabaseConnection doQueryEachStep:statementStepHandler:] : sha256 abfbc6031d09c5481f14e97020352164d1a11f99d0e9e7bbf05814708d013c54 -> db1a834c65052b2a2add9a121c0c0c7d29cba4eeb48ed88587d6a9e32e6643ee
+~ -[LCFDatabaseConnection doQueryExec:] : sha256 5951af6432ede35999edee0efe9d85e803bbaa0ca88d7d86dd54ddff6fe5bcc2 -> a0ce843095a48ac80bb211cf914380229810f32fb0746c85ebe2610ab1493e8e
+~ -[LCFDatabaseConnection getColumns] : sha256 4acfeb79c554fc3c8e72b2b7715cbbd3a2f8b28aa292e41ae02bd356a70a9b20 -> def74b752498d27e4fc88650a61d515cdc5131a8e930f68b766b98a455c99fc9
+~ ___35-[LCFDatabaseConnection getColumns]_block_invoke : sha256 bf3cd87108cef7bd1eb85784613797f7d60ea119f807d475d88e1907ceb9bea5 -> 64115bfd2ce36492b1760f31d4bd498413d09222b710f411118a6242d47db4b6
+~ -[LCFDatabaseConnection addColumn:] : sha256 9d3c54fad943d43b873e31289c8d0b6c852526830c5dc4014475cbf4d7cc137e -> 59c8c64733f7d5eb09bd4546f453c3afc20a51cc1b31773638d3dadb24d5e900
+~ -[LCFDatabaseConnection writeFeatures:] : 1200 -> 1192
+~ -[LCFDatabaseConnection isDoubleArray:] : 444 -> 440
+~ -[LCFDatabaseConnection query:startDate:endDate:reversed:] : 1564 -> 1556
+~ ___58-[LCFDatabaseConnection query:startDate:endDate:reversed:]_block_invoke : sha256 029287b4b56e75e4d01ba6bc77b33d127f9c9733bb105c52a142e668b7628cbb -> e7f38dfd68c9ed1e6498577f4d7ddec0cc4bbe7a3acd1213b22fd7961ec0b220
+~ -[LCFDatabaseConnection dumpDatabase] : sha256 c71a9cf5d459bcedb55be275d16024502f85f8a3f6644201019cbab9c27088f8 -> 114ad21fd6d641a0c1d4504d842f996f9996d89aa8647671277be0e7b1bfdff4
+~ ___37-[LCFDatabaseConnection dumpDatabase]_block_invoke : sha256 5fc5a7a251346d2f8d77f31915d0a2c51b6564929b2cc42d6fe4d5e243ac1fd3 -> 7495bbe93599661e4d4c2a0ff6b3881b746a57b70da19915afa0d1bdcece3e02
+~ -[LCFDatabaseConnection pruneFrom:endDate:] : sha256 9ab265e5474b88e9a3545240213e931528a6db1faa57973fd4b434989bbb736a -> 2993e7c97d0b636695d6a655c9daa502a61ac1b498db53f4a6926633466e2235
+~ -[LCFDatabaseConnection .cxx_destruct] : sha256 4b38b2aaca98d4bfaf735893a55877f101c0287d48c3ca3b2b9c5bccf7005b2d -> 2bb4e316ce60dcdeab4ee29a3e12572de7ebb164662311152bdea372a64ebade
+~ _OUTLINED_FUNCTION_2 : sha256 fb0ce6222437a97219b97e4d0b82217d3874b4f393ce83fe70bec18384bf77b0 -> ce5128afd4371f6b34c688c4fa50f3d8b198280defa9d46781c666ca7f50fbb9
+~ -[LCFCoreMLFeatureProvider init:timestamp:featureValues:] : sha256 290e2f2f6767e6b34feda2cba6f7c883ab5ca61ad3aa8feecb863a61dd4ab704 -> a370d77391ce2adb13c4b3753f446bd841f578d3a80b0617546f4d01e71d5861
+~ -[LCFCoreMLFeatureProvider featureValueForName:] : sha256 b67062ac50496f56699a4893fa79f83f40e3fa8cd68123c3ef8ecfa8d766c7d5 -> 2d4c2e89b2d75a0c67430d87e2e9ab966c6de0989d060839e40ddf9201e0c8a2
+~ +[LCFCoreMLFeatureProvider fromMLProvider:] : sha256 ada9695c1aa196a29f6e6e2486e4845d89161f0cea47e3f6c186584a188d571f -> 18bc6bdf802798ebf2e90d685444594af3115800db7e4853a1e99351263c54ab
+~ -[LCFCoreMLFeatureProvider .cxx_destruct] : sha256 c0d4fdb60cd5cfbb7f9dcd46b80cc558b8f0cc41cba17760e833fffa62697f2e -> 23baf14f33ed7affbf64c0d6669fe7c2c91ea139dffecfc6ff3bb03bf8e60d3e
+~ -[LCFELModelTrainingEvent init:batchProviderInfo:succeeded:trainingError:] : sha256 4186c6fbc464184cd50514007eb38b2256399a44c3a93c161fbf1066cefbe81e -> 9a0be3dfa80278b1b60685109f11f47822c00d5fd5e643f733e93d9551b375cd
+~ -[LCFELModelTrainingEvent .cxx_destruct] : sha256 7bdc3cbfd46a8173e9ad3209809ad19112f3822a9dcdbdc86e9e05796c8a49d9 -> 71c466e6e28d69db8b0b1b8405d51e0a99816255681603989f8a9ca1d4da5e4e
+~ +[LCFELBatchProviderInfo meanOf:] : 360 -> 356
+~ +[LCFELBatchProviderInfo standardDeviationOf:] : 404 -> 400
+~ -[LCFELBatchProviderInfo init:labelFeatureName:] : 2716 -> 2700
+~ -[LCFELBatchProviderInfo .cxx_destruct] : sha256 52f2304834c372f4d874c3f98f7bc13ce340be619066d227a34a62537f210d7a -> cf3fd9020f9e8bc5e876abeb687bf187965474172ab1e66fa8e894e0ce98586b
+~ +[LCFFeatureStoreContextId getContextId] : sha256 51d3fb67fcf6683a94397529a0dfabd8337085f10c849282c3e63ff6530f44b7 -> 1500df567dd88c07148d683da10bf78955ffdb7a30cdfab70ea9d81dbefc690d
+~ ___40+[LCFFeatureStoreContextId getContextId]_block_invoke : sha256 aa48d84c4ba93bbce13b33fb31099ed500df84f7626ae9d62c1e2f170dddd369 -> 782c6567799faa498cb642666df59be181ef75b99abf458eb2b8a6e291e55ac6
+~ -[LCFFetureValueNameType init:featureValueType:] : sha256 e7e175491e983360401fbc3ffc0e3f2edf6c6971a9062c26b03a1c1bf7a74d92 -> bd941fded11b624d3484a22fbd730f83739ea741538c06c3476a50b5c6efbbdc
+~ -[LCFFetureValueNameType .cxx_destruct] : sha256 262a486af11d4e171e88d2bcf9c2140352778f8d4dc3118e8b5ba96d76b1be08 -> 99391448a905a7c713b5f79b5a8f5e55149662f61220bb32a0469ea2669f84b7
+~ -[LCFDatabaseColumnConnection init:databaseName:tableName:] : sha256 690bdfbad141b15618dd5b95a07f84be1273cacb049d022b570d7e3a03d811b2 -> 91ac3e03db61aac892a95f3588b6c738a322e4c2df6539baefcc7155469a8b40
+~ -[LCFDatabaseColumnConnection ensureDatabaseTable] : sha256 aba7e497546fe2b067cb42989c97691e08d1649a3d07562ee454be58b7ad88b2 -> 401d1218b9e480bc796f2dee1123a3665ee4a0f29055122a2f5a5fbed9a56fc8
+~ -[LCFDatabaseColumnConnection doQueryEachStep:statementStepHandler:] : sha256 b24e4953e146cc6a662648b854d463575dbbb57ae6ed42136808cd28a73d2770 -> c53f84fb93e5662f083e1d43b9a873bd6bb8bd29e5695aeecb3bc93f742748d3
+~ -[LCFDatabaseColumnConnection doQueryExec:] : sha256 88dcf022d9ed214e936ef80ff254983fca08beb22efa9b5c53bd691b67f7934c -> cdc0ffe16de0072268e209135931359046091550cbcfa3b6b40c13d68bff539b
+~ -[LCFDatabaseColumnConnection writeFeatures:featureValueType:] : 588 -> 584
+~ -[LCFDatabaseColumnConnection query] : sha256 28d620471c6bace3340cf7e589c3825284f55a81a51f31e69e9b3ff834bef0d0 -> 1f9f6aa50fcd5f16b46a30c020c614edcc46605f8c15455cfd341fbee26e8dc6
+~ ___36-[LCFDatabaseColumnConnection query]_block_invoke : sha256 f2ba38cc0de1e89c834317aec562d809b7daa80991a9294d4c097762c2dd7784 -> 0436db741a3b4fc458ba96da4ef6b978cb149a99e10fb88af781be2f276e2a70
+~ -[LCFDatabaseColumnConnection setNameTypesCache:] : sha256 993f6c3520f7a26e0c3287ab10088b02f9227fdbb305380e4f08b03a3128bb73 -> 6a9e901b79646a2873be917a18b03c36347a7a10f6df0334c740f4595a89e32c
+~ -[LCFDatabaseColumnConnection .cxx_destruct] : sha256 714d8f11acf7c081250d943247fec53e089a2d6526f12dc76e9eed9455359bc5 -> 6605904f0a9a2be96daa87d645e516138a948e028fc0e6601ca01d34d19b7b46
+~ -[LCFFeatureSet initWithIdentifier:featureVersion:timestamp:featureValues:] : sha256 4322509699ad83c492bd80c150340b7cc3f4aaaee6d51d86828f6d36e0f4931a -> 235200914f8660bfbc8b696f1d0efce6edae1e83773b8350c7bc6e0d2bb65907
+~ -[LCFFeatureSet .cxx_destruct] : sha256 9535005f63a44bb4bead835e42e0a8582f53b6748119a0fc8353b8664ff6282f -> 92063470bf87c9efab0c7e3689ab9e3413d7ef6245bd2c76ff612e4af5434235
+~ -[LCFBiomeManager init:] : sha256 9c771481f4e7791d691ba1748d79c5891d8990f16d976179a667102ff9a202b4 -> 093e5f6b0b5566f9df0e9c536345b4b4ef83bea7e5f9d8006eb7c1ce16a5cf63
+~ -[LCFBiomeManager writeData:] : sha256 dd84586d2ecc17c13f94ef0c48c9604607d3d63da12883cd56593727beae3b52 -> b47c80d1fdd424df5f9ff8eb9747817575aedcd41db95ddfebb22f7536448c8d
+~ ___29-[LCFBiomeManager writeData:]_block_invoke : sha256 5dbf7c253a6c58f4cce336e8cfa2ba95b8c14def629894d9f93b8ed8c885d372 -> c8d4e4b9cb98d031168da1a3674d08b8a4eab3a6822b0805e6f275f4fd08a3b9
+~ -[LCFBiomeManager readData:endDate:reversed:] : sha256 e2203d2801df4e73a7d83250ba2cfcf72ed20cc9e98dbd3803a66f60bfe904e0 -> 817dcd26ececfe81f4a7c30e538c9538e7caa36a83de47ea048a5ca0f947a3a9
+~ ___45-[LCFBiomeManager readData:endDate:reversed:]_block_invoke : sha256 70b812b21cd418861e09deea644e6e9fe9f273f210a21f69f910da0daf79d33e -> a0fd8af2ddfeef4033dfd62e476fa916090e3934d895f18a37fd220c4032daf7
+~ ___45-[LCFBiomeManager readData:endDate:reversed:]_block_invoke.52 : sha256 c81596fa3abf01ad2d87f79d2c1d4586090d3c4f5daa0d193160b41a09289e6a -> 960cd4b670aa598fe49435732b6a4d3292efd4774b0b844aa009c94d02630398
+~ -[LCFBiomeManager readTimeStamps:endDate:reversed:] : sha256 7ebbe02b1c9af8bddb7feefdc31342c98f080282571c9bf601204ae51df15c7c -> 5f3162168b5ef0c92d5f738cf7f350c3d835fede37ad00202ac75c18ea8e9d91
+~ ___51-[LCFBiomeManager readTimeStamps:endDate:reversed:]_block_invoke : sha256 48871ebe79a1d3316614541da00b2e52b1262c18e096cd0f6426a107cc3ded21 -> 6438204b7b1563252a2fb3fa2fa2951304c545dcb4b858e810cb3a3409404ae0
+~ ___51-[LCFBiomeManager readTimeStamps:endDate:reversed:]_block_invoke.57 : sha256 ef51b56f6bdc73f89751209a701a4f9a4aee0d52a994d0611a41589d923e7f2a -> 2af8d24f51fb29a98f170e2d9204f6a789389a12d1473b069cd7dca578517464
+~ -[LCFBiomeManager readDataWithTimestamp:endDate:reversed:] : sha256 3f58d1faf623b0836537ad92c564c9afb55fe25876ea95f07154e5518bd7ace0 -> ee7d10048fe5a502393d37551afafdd81ea7aee028e544b3fc476eee159c0dc4
+~ ___58-[LCFBiomeManager readDataWithTimestamp:endDate:reversed:]_block_invoke : sha256 a4fad9a4ec6a7544764a1739c5700c56bb2db3871f0e48bc1a11644af62358c4 -> 39b06703f636ee51bde4f4e4d944f7735ddc9b9f1e4dda120fe1b0a9d147b2e8
+~ ___58-[LCFBiomeManager readDataWithTimestamp:endDate:reversed:]_block_invoke.61 : sha256 f3e1c9a88bbc0857a669cb8d090acbdabd5d897d1e6cfc0dab6dc918c7a3737f -> 162bb12703ff45f58807215b8b4961be78ed26cb28e069481909fb89f2607157
+~ -[LCFBiomeManager setBiomeSource:] : sha256 664b3b06803c4b3f6b79e3b66b909e3881eda996a4eda52a708f23c6aea0890f -> f4235c7d12ddfec16d8b19d7cf92635e2dfa3bdc4d2ebaa260be39b86315557f
+~ -[LCFBiomeManager .cxx_destruct] : sha256 c9f5b2dbae5a7479132bcd97e78e1955e381dd301223a921105c917dbfaed74a -> b1e44c3b58e452ea9adc1d6388166b06bc79605ad7cb0c9665292f7695ffde13
+~ -[LCFELShadowEvaluationPrediction init:predictedFeatureSet:outputLabelFeatureName:] : sha256 bd2a8abe6fe22f345796eb13bd90c7edce494cae22f9836ef62ce1245a4e4530 -> 000828979c738a32c56a967cbad4f6be441f8f1ded5278ae089a598a66e226d1
+~ -[LCFELShadowEvaluationPrediction .cxx_destruct] : sha256 7f96dd799cf022d28ea67477f75a356fed2fa24db95d9c0cd5a052f120b76408 -> 59d189a4977b36bdbdf8c8033089e81328248f6392e539f03c2e22ed78cde7b0
+~ -[LCFELChangePointDetectionEvent init:results:succeeded:analysisError:] : sha256 9062ffc3252d82165fc286b78b6c7fcfd546e43038ae7d2ea84e34114891d3a3 -> c06e3eb226183cf396456e57d66ccae079b9341d33eb52f4cb4921567844b048
+~ -[LCFELChangePointDetectionEvent .cxx_destruct] : sha256 ebf930a7f8daedf01c59a90572a8d1ad0634caea3c8b5ae9cc0de98122e741af -> 8d3306133024e87bce2c6bc4424ad709c43d7f5a9099d4323e17829732b1aa6b
+~ +[LCFELEventLogging emitModelTrainingEvent:] : sha256 3836653718ccd93782a662c970a9507ccf179e40fd5de0418ced1f963d5e0906 -> 0493cb2e5a029add283e69ca075964f2897ec2381452928af65d86726f63a384
+~ +[LCFELEventLogging emitShadowEvaluationEvent:] : sha256 13bc30dec515d847068b6c499384c30ebc344d8f62ac93de74eda0d1c2293ed8 -> e422c3e64a8f0cb8f0fd12c08abdd462adf681e1e13eeb65cc3ed51696e70db0
+~ +[LCFELEventLogging emitFeatureImportanceEvent:] : sha256 981c5c5a99c97974a95f1843496a0936110c55b7db08a328fef33670da844fed -> e93cd8bf8da744afb8576312fbabcc7eccb4d1eb64d2c25d2299703d53c5557b
+~ +[LCFELEventLogging emitChangePointDetectionEvent:] : sha256 ed40cea97f6a4c0cd2673ab17d96b3f497058f9b32f6b76cd8e13e48382a6c33 -> 386c9bebe719d6d1a31d1f07088b4a3014f6cd6cfc028a760d9e4d03cb7cd2af
+~ -[LCFELFeatureImportanceEvent init:targetLabelFeatureName:results:succeeded:analysisError:] : sha256 0f76927a88d7e6ae1c44c63a3c39ea1da091977fded6c82b9b53faad56bd6680 -> c92bb16f8ab7f9a60a59c7b1d893864487ab08ca32194578236e7a7e59e71228
+~ -[LCFELFeatureImportanceEvent .cxx_destruct] : sha256 a777bebf73ae27ef8fad061136288011fc5b7fd03f1c8cb9d1473ed21a818261 -> 2a7b1468807e99037c735c5eda956ddce63921b6cddd4f0f1541797ba5f9c766
+~ -[LCFFeatureStore getFeatureVectorWithStoreEvents:storeEventsInReversedOrder:option:].cold.1 : sha256 3acd6cc8a964569f5472afaf7e41c605693e161e10d10e36ebf557ebc9b22dd3 -> 98f8cc573c009858df7eaf6f9211d3f1a96006f59591d364ad43ab2f00aa0e99
+~ -[LCFFeatureStore getFeatureVectorWithStoreEvents:storeEventsInReversedOrder:option:].cold.2 : sha256 2c83f9b7ae2c8144750da4a47788ae33ec78a962260eea96a783011a3622b21f -> d186afa360e999128977a10f07824c7f6d29382f5042dffbd9ee53717bc08ba6
+~ -[LCFFeatureStore getFeatureVectors:startDate:endDate:option:].cold.1 : sha256 6f5c560ff461fc6c856d7330a4f3d340be47a4071194b0c954b61501ce843146 -> a9474e007ac02cdc5a2ceb79a52452ef6fccd4a73cfe444ef90ec0ef79d62fae
+~ -[LCFFeatureStore pruneFrom:endDate:option:].cold.1 : sha256 da11f435b82933f81ff679019c6adea097e19a4e0b8a9b21ef91e671f77fea9f -> 0a7805fa6e79234f2aa8b8f2a56cd02b633dd052a581b8f501035b1314b0126c
+~ _LCFLoggingUtilsInit.cold.1 : sha256 4de4df026361a5e0c67c2b5653c0da01e1939aa821107f88ffa4dad39625fb85 -> 6de154210a4e091396b6d970c324a2962f99a4ee8cf99d1e42ab51175edf6790
+~ -[LCFDatabaseConnection ensureDatabaseTable].cold.1 : sha256 8438d67d89d92bc1972e1efa05f3942a925f58376cfc2cb131d25c42b15b3b01 -> 3bb8c953bc3b96f78ad839aa6ab0ebd8c98575c992eeff40d80f42b2399e4910
+~ -[LCFDatabaseConnection ensureDatabaseTable].cold.2 : sha256 9810c7a7a5e5ff7791e60328e877b5ee8fc34826949fb2d9ba320f5eec5babff -> 612ffe62f209e849d43c843a4e636c44a3e44dc9752c50410e58337024763bdc
+~ -[LCFDatabaseConnection doQueryEachStep:statementStepHandler:].cold.2 : sha256 a862704405fc1044dabd39e1fba912266358106f486115cfa6f2f9946fcfe351 -> 0df57726a1c67b89de9f0ba6a1ff1bfc5e4dff30ea288f3f91559a02067ddcd0
+~ -[LCFDatabaseConnection query:startDate:endDate:reversed:].cold.1 : sha256 ef9b826b023b090449f789ca26f6ad28b605e8ebe50ba5258159ad95b7b942f7 -> 63f154a84c1a1d135cdf405089292f8c102cb3286a38cde2212895971f8a6198
+~ +[LCFFeatureStoreContextId getContextId].cold.1 : sha256 054250b6f75a7045bc1ca65def1131a63bc07f42fcccdeefac9446c384eae4f8 -> 66305e922fe3ffb0600853c4527981fc1725c12f6082fbf5adcfa24aca3c7852
+~ -[LCFDatabaseColumnConnection ensureDatabaseTable].cold.1 : sha256 f38934c06cabe62aced9ccc36751802d78ecc769cdea2062ac913cf72124f78d -> fe7df279d7d6cab09b3a021a838fc73e7356a467ed72dd413581115b9151f133
+~ -[LCFDatabaseColumnConnection doQueryEachStep:statementStepHandler:].cold.1 : sha256 2ef0b2f5d3fc9635eb2afafa2483c756527042d974737a4978501a4c1cd43cf2 -> a08a0231fa90a9010e47fbbdd0552139a364382ee8e61d4dbae6c8323474a73a
+~ ___29-[LCFBiomeManager writeData:]_block_invoke.cold.1 : sha256 35b44071b845e8401bcf6caa2a7ef2767c80555865f55796a50477c8d657c5d7 -> 5402858006777bee9120da77bd87b0999f285f874c049be1c1c79b68e0faa9ce
+
+```

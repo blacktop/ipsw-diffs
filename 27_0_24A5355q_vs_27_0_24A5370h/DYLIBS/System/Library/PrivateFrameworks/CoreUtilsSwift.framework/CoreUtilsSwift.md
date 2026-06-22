@@ -1,0 +1,235 @@
+## CoreUtilsSwift
+
+> `/System/Library/PrivateFrameworks/CoreUtilsSwift.framework/CoreUtilsSwift`
+
+```diff
+
+-900.25.0.0.0
+-  __TEXT.__text: 0x79fe0 sha256:c6105d6912cff94042b2ce79b4083ac9047397751253285b733c05a9d4aae7b7
+-  __TEXT.__objc_methlist: 0x14c sha256:f35287bb407830b1a5dbdc53a17e81d12f19e652f7453ca978c79dc5d3587672
+-  __TEXT.__const: 0x4724 sha256:990c5c2c3d69f2c3ef9b79dfdd83e98d289f03417df311be3a12f657823a7926
+-  __TEXT.__swift5_typeref: 0x1516 sha256:3ab21b99d8a3d47e6fc60375e5eba88241a59751abf4da12341f88f5f7046e18
+-  __TEXT.__constg_swiftt: 0x1a14 sha256:3a55cf13503a904c26d878d726b88373f11a9d27f3d5d4e622cffa752251de50
+-  __TEXT.__swift5_reflstr: 0x9bd sha256:72c6c0ba2eb0420c1b65846fecd510ebb68411cf617983edcef13933fb16eaf6
+-  __TEXT.__swift5_fieldmd: 0x116c sha256:15d30ac633235b79e3cd1728bc792534567ebc1bb7551fcf603d731f2839dd42
+-  __TEXT.__swift5_builtin: 0x64 sha256:e1188348d5672d68c8ff0355b8c789e8a0fd9f32544489b85e33aae2cbf423f9
+-  __TEXT.__swift5_assocty: 0x570 sha256:4cec24f064765ea2ec5ffa613890941cb87be5a3f98e0d67483c49dc6e6b8302
+-  __TEXT.__cstring: 0xb6f sha256:9fdc4bebfaee38b17211ccd2198ef5807c84f205c6b53ac052852401eb7b8034
+-  __TEXT.__swift5_capture: 0x650 sha256:8248a2ba1eb151302715005d4a7eb65cb0f85d1e0aedebea6b6d415906868aea
+-  __TEXT.__swift5_proto: 0x2a0 sha256:9038ee9bb944ab938b09f16ed80190b20ba2ff479d3ca0696c48c876e808155f
+-  __TEXT.__swift5_types: 0x1b4 sha256:c8735ae5580ec6568b53509458fb6262972b5fc5785c9ef7643bed88c07596ba
+-  __TEXT.__swift_as_entry: 0xf0 sha256:dff02f75f1047abd0db2ac6ea582f35121b2e7db738316a35113492818cfa4ee
+-  __TEXT.__swift_as_ret: 0xe4 sha256:443766b31ee6a6fb8cfdf5c54fff50cd0387b52b377fa62c0921336b4417375e
+-  __TEXT.__swift_as_cont: 0x158 sha256:e2fcfdc5e93264a3b0e4ef7262569b14ce0c25c524488d9eeeddc68cbafbf861
+-  __TEXT.__swift5_protos: 0x2c sha256:97f2260ac9e587d970a8e1fcf9cb20ba91150d0465a912588e4da1c530e06674
++900.37.0.0.0
++  __TEXT.__text: 0x8c064 sha256:28af0619cb1eb6d6949486fa656196b4f5f3bef8e8f32b5fc64763f66d6098f7
++  __TEXT.__objc_methlist: 0x14c sha256:7738b8b7f9c1d7b4c0207fe31b21c2aef2e6e39abba0bd4d3e7f103daf0b4ecd
++  __TEXT.__const: 0x4864 sha256:974fa6059509d352bad3b2585f1e31026c294340af0ac6eb0f3f9b636f706ab2
++  __TEXT.__swift5_typeref: 0x1608 sha256:bc17efd31827d5c6c3a3bb2d2dafa06f44c088e9a22e7c71f0af90815ed139a3
++  __TEXT.__constg_swiftt: 0x1a30 sha256:580ae412f04f143f2fc304da9d1f45d631a789eabc510471ed065ac6a484570e
++  __TEXT.__swift5_reflstr: 0xa8d sha256:37df3f67cca7f625f43de7ba6dabba09081791eb6f053df09fc4d295fd56ed1c
++  __TEXT.__swift5_fieldmd: 0x1218 sha256:6f5a10e37e4cac743f45fa7f28de27cc1190e4f960c06f8a3c9eca699d325d01
++  __TEXT.__swift5_builtin: 0x8c sha256:93d1106a7cbb71dae2c064ad027dc052ff7b33ee8d0df59548da485a60ba3053
++  __TEXT.__swift5_assocty: 0x570 sha256:f3d68a11e9069cc815d2d24f1c2a5c145a3b709aab5cbec98ff18872fe0da6bd
++  __TEXT.__cstring: 0xb4f sha256:c2b5bfb8c9f569c2f06b4cbf03be83f3d0f571f036b3b92993bf12837316a35c
++  __TEXT.__swift5_capture: 0x814 sha256:32a119fe99068fe8e7c818a6007c1191f6a8a1b3fec8bd9557481d9c83b98394
++  __TEXT.__swift5_proto: 0x298 sha256:eddf2bde09d417363e81e8bf8ae6abbedc4b90617d73ee03711557feadc2fd63
++  __TEXT.__swift5_types: 0x1b8 sha256:17831d78d1bd44038707ce7412b05785f9d2e6a1fca46f141c258265b7ba93cb
++  __TEXT.__swift_as_entry: 0xf8 sha256:5d5599437f16c4120496d0b8296c8fc67d356bd7f57b5abd84fa7a35b4c85c85
++  __TEXT.__swift_as_ret: 0xf0 sha256:0e572f776ae2724f624209e415a3bc316e58f69ca9765e0903cc44ee29a39649
++  __TEXT.__swift_as_cont: 0x178 sha256:6dfcf4e17dc7d400cc39d7bfbd3b5ef059dfeaaadfdbcd11fbf55b22547a5cac
++  __TEXT.__swift5_mpenum: 0x20 sha256:575f75df8655aae8fcff1b503cae4719bf4c25e1b353bc1551884411db6a02d9
++  __TEXT.__swift5_protos: 0x2c sha256:1bc20b65b7afbaae1d6b7156892770f1332db5c5a5e9d9cdcac0ed86951759fc
+   __TEXT.__oslogstring: 0x9d0 sha256:e959f00904479f94358f1f26e184c1a448917e8228a4f576afed45e597000528
+-  __TEXT.__swift5_mpenum: 0x10 sha256:0ac0da4dbb52fea528ae06038fe6ffd2d3a68894b2690872f3e28a01b8384e70
+-  __TEXT.__unwind_info: 0x22c0 sha256:02b9789594246246d8aa0fb9a9b9f83e63c8b2d193c60571fe2f67cac4502415
+-  __TEXT.__eh_frame: 0x5b10 sha256:902bbc98c6b40ac94922ed568a8a13a7d1f45ba43ddec1728f3e1a7832a3f751
++  __TEXT.__unwind_info: 0x2858 sha256:12f1e75ec9cf8e8c2e4a7001cb59478edba13794d044b407bc01d958bff51cd3
++  __TEXT.__eh_frame: 0x6188 sha256:a0f3a2b98928f9d7eba0370ad8b239c776fb7d798c039313e8c307b7c3924b93
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x380 sha256:e95b71f0778c0e85c5068c94f6d9fc83fe7ce48ac5f1fdff2c1c26c7adefa180
+-  __DATA_CONST.__objc_classlist: 0xb8 sha256:1a94d5e8ef2c9cbd2c284a413fb0d2ebfc584986f7fc92486d4cae2c328762f3
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:1d9f2720ea00af45e64f1b6b1cbe1f83a0bef90567be899e2716104fdc4a74fd
++  __DATA_CONST.__const: 0x380 sha256:d84766c53f9df6904e2a88f60ce61f0741357700cd829e01a15a5dc6b9d4cc9f
++  __DATA_CONST.__objc_classlist: 0xb0 sha256:2a849c5c6dcc4d55bbf0592d961eed1bcb8d062b3714ae42538a68c5137cbd91
++  __DATA_CONST.__objc_protolist: 0x20 sha256:b2dc3c0b2427ba757ad48a89831dc2a0e07313b2f1757dc79241e3a962ebf0e7
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x1d8 sha256:dac9595db7f45d436ab1bc82b215f15b6b15b0ccaa029a359d867269afbf290c
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:843d13670487cc4db3489459ef4bf9911eeae6bf02d4f9cb6544ab332f8ac195
++  __DATA_CONST.__objc_selrefs: 0x1d8 sha256:f5c95c0ffee09efa2e042756cb31aa646666af442510f2ce0ea46ae1a1fa1161
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:1a0e849ff2d87c5dca27370830cc93b2bbf3e278281c202f1ddfc7bdf4438964
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x3280 sha256:30d3170bfcd02b3a95231925331df253e5b12f8dc304a97b6278b242a700d68a
+-  __AUTH_CONST.__objc_const: 0x1b88 sha256:28ae765bfd910dc8dc711d687d9403cd92f403c4d5a5cb1277f900c36484adb3
+-  __AUTH_CONST.__auth_got: 0x15a0 sha256:c913c8dfc519248787b85fef6a885adb389d7f8025a290417e46139d9e64cae5
+-  __AUTH.__objc_data: 0x48 sha256:7579224ab9150fd04494649e829fb04806feca974e69eb1c0b7a4818c4ef8d23
+-  __AUTH.__data: 0x970 sha256:8d1347d40d36f37f3c479ae9669612da9115150280cfed1b48a09e702f69bd73
+-  __DATA.__data: 0x1500 sha256:f0d515e8b965104f9ac6dd8335acad88275f48935849e59b9cf122b85809b49e
+-  __DATA.__bss: 0x4490 sha256:ea76879f022e6aca86ee35e5e5160eb61b94c92ac6da1192a8bc15149368722e
+-  __DATA_DIRTY.__objc_data: 0x140 sha256:40589065d27c450e61cecb1108481eb2e0b16c315ba3342c0f485db035f06f17
+-  __DATA_DIRTY.__data: 0xb20 sha256:6433e1b475221afe1cd365dd3d310c12ad058f69881d8b56d3669922045cbbc6
++  __AUTH_CONST.__const: 0x3540 sha256:af80e2061c88116b3914de8d0761109f611375a1439fa201a3855dad7001e041
++  __AUTH_CONST.__objc_const: 0x1af0 sha256:7e223e32a2a0813d7987d3b6f03f107336e7a375b52096e207bb515abd34cd30
++  __AUTH_CONST.__auth_got: 0x15e8 sha256:60c24720e4bb9091d8fa2cc3171dfaaf5de307ae06d09b7781390802b8e13f07
++  __AUTH.__objc_data: 0x48 sha256:f4ec80b9d427c89ecb959bc83add6f4bb8f8049a8cca71b4243c962181fcc8a1
++  __AUTH.__data: 0x980 sha256:85cc124adc91671885f2cc6a65fcaa7ed11c735748546e256ab6fd6ccac6af3f
++  __DATA.__data: 0x1570 sha256:99e812d4324a66b68d229a549b13e75977bdac34ebc807bb645310a2cad0b842
++  __DATA.__bss: 0x4310 sha256:6c1f401909d5717b2c3e7fa2925765b248eafb0fff9f68dc5e197c209242c297
++  __DATA_DIRTY.__objc_data: 0x140 sha256:ffabec41dbb1eaf3dd77a5a4d90ccee5f008cdd163c7e152db48ba5c8402db0c
++  __DATA_DIRTY.__data: 0xa60 sha256:e9023a9486071028bf115e16de0979357a2f719146d6f6e3656c7cf853f9f3ac
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 7124926E-6A81-3457-B39F-0016BE362567
+-  Functions: 2690
+-  Symbols:   1231
+-  CStrings:  159
++  UUID: B447F77C-5AFF-331D-BDE0-3980AC8DCDB6
++  Functions: 2775
++  Symbols:   1280
++  CStrings:  158
+ 
+Symbols:
++ _CUNextID64
++ __DATA__TtC14CoreUtilsSwift7CUTimer
++ __IVARS__TtC14CoreUtilsSwift7CUTimer
++ __METACLASS_DATA__TtC14CoreUtilsSwift7CUTimer
++ ___divti3
++ ___swift__destructor.16
++ ___swift__destructor.175
++ ___swift_assign_boxed_opaque_existential_0
++ ___swift_assign_boxed_opaque_existential_1
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.85
++ ___swift_memcpy2_1
++ ___swift_memcpy4_1
++ ___swift_memcpy73_8
++ ___unnamed_23
++ ___unnamed_49
++ ___unnamed_52
++ ___unnamed_70
++ ___unnamed_74
++ ___unnamed_76
++ ___unnamed_81
++ ___unnamed_82
++ ___unnamed_83
++ ___unnamed_89
++ _associated conformance 14CoreUtilsSwift10_CodingKey33_749A67A7DE66CF40F515C99C4CCB32F0LLOs0dE0AAs23CustomStringConvertible
++ _associated conformance 14CoreUtilsSwift10_CodingKey33_749A67A7DE66CF40F515C99C4CCB32F0LLOs0dE0AAs28CustomDebugStringConvertible
++ _block_copy_helper.177
++ _block_copy_helper.20
++ _block_copy_helper.21
++ _block_descriptor.179
++ _block_descriptor.22
++ _block_descriptor.23
++ _block_destroy_helper.178
++ _block_destroy_helper.21
++ _block_destroy_helper.22
++ _get_enum_tag_for_layout_string 14CoreUtilsSwift10_CodingKey33_749A67A7DE66CF40F515C99C4CCB32F0LLO
++ _get_enum_tag_for_layout_string 14CoreUtilsSwift27CUDictionaryEncoderInternalC13_EncodingSlot33_749A67A7DE66CF40F515C99C4CCB32F0LLO
++ _get_type_metadata 15Synchronization5MutexVy14CoreUtilsSwift7CUTimerC5State33_9A5AE7811612CAE9E79B80192603F3A9LLVG noncopyable.7
++ _get_type_metadata l15Synchronization5MutexVy14CoreUtilsSwift21CUIteratorTaskManagerC5State33_4870E8145C1F14329A4AC87EA7D81374LLVyx_GG noncopyable.65
++ _symbolic SDyS2SG
++ _symbolic SDySSypG
++ _symbolic SDySiypG
++ _symbolic SDySiypGSg
++ _symbolic SPy_____G______pSbIgygd_ s4Int8V So13OS_xpc_objectP
++ _symbolic Say_____3key______4slottG s11AnyHashableV 14CoreUtilsSwift27CUDictionaryEncoderInternalC13_EncodingSlot33_749A67A7DE66CF40F515C99C4CCB32F0LLO
++ _symbolic Say_____G 14CoreUtilsSwift27CUDictionaryEncoderInternalC13_EncodingSlot33_749A67A7DE66CF40F515C99C4CCB32F0LLO
++ _symbolic SayxGSg
++ _symbolic ScCyyt______pGSg s5ErrorP
++ _symbolic _____ 14CoreUtilsSwift10_CodingKey33_749A67A7DE66CF40F515C99C4CCB32F0LLO
++ _symbolic _____ 14CoreUtilsSwift15_CodingPathNode33_749A67A7DE66CF40F515C99C4CCB32F0LLO
++ _symbolic _____ 14CoreUtilsSwift27CUDictionaryEncoderInternalC13_EncodingSlot33_749A67A7DE66CF40F515C99C4CCB32F0LLO
++ _symbolic _____ 14CoreUtilsSwift7CUTimerC
++ _symbolic _____ 14CoreUtilsSwift7CUTimerC5State33_9A5AE7811612CAE9E79B80192603F3A9LLV
++ _symbolic _____3key______4slott s11AnyHashableV 14CoreUtilsSwift27CUDictionaryEncoderInternalC13_EncodingSlot33_749A67A7DE66CF40F515C99C4CCB32F0LLO
++ _symbolic _____3key_yp5valuet s11AnyHashableV
++ _symbolic _____Sg s8DurationV
++ _symbolic _____SgXw 14CoreUtilsSwift7CUTimerC
++ _symbolic ______p______t s9CodingKeyP 14CoreUtilsSwift01_A8PathNode33_749A67A7DE66CF40F515C99C4CCB32F0LLO
++ _symbolic _____yS2SG s18_DictionaryStorageC
++ _symbolic _____ySiypG s18_DictionaryStorageC
++ _symbolic _____y_____3key______4slottG s23_ContiguousArrayStorageC s11AnyHashableV 14CoreUtilsSwift27CUDictionaryEncoderInternalC13_EncodingSlot33_749A67A7DE66CF40F515C99C4CCB32F0LLO
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 14CoreUtilsSwift7CUTimerC5State33_9A5AE7811612CAE9E79B80192603F3A9LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14CoreUtilsSwift27CUDictionaryEncoderInternalC13_EncodingSlot33_749A67A7DE66CF40F515C99C4CCB32F0LLO
++ _symbolic yyYaYbc
++ _type_layout_string 14CoreUtilsSwift10_CodingKey33_749A67A7DE66CF40F515C99C4CCB32F0LLO
++ _type_layout_string 14CoreUtilsSwift15_CodingPathNode33_749A67A7DE66CF40F515C99C4CCB32F0LLO
++ _type_layout_string 14CoreUtilsSwift27CUDictionaryEncoderInternalC13_EncodingSlot33_749A67A7DE66CF40F515C99C4CCB32F0LLO
++ _type_layout_string 14CoreUtilsSwift7CUTimerC5State33_9A5AE7811612CAE9E79B80192603F3A9LLV
++ _xpc_dictionary_apply
++ _xpc_dictionary_get_dictionary
+- __DATA__TtCV14CoreUtilsSwift19CUDictionaryDecoder7Context
+- __DATA__TtCV14CoreUtilsSwift19CUDictionaryEncoder7Context
+- __IVARS__TtCV14CoreUtilsSwift19CUDictionaryDecoder7Context
+- __IVARS__TtCV14CoreUtilsSwift19CUDictionaryEncoder7Context
+- __METACLASS_DATA__TtCV14CoreUtilsSwift19CUDictionaryDecoder7Context
+- __METACLASS_DATA__TtCV14CoreUtilsSwift19CUDictionaryEncoder7Context
+- ___swift__destructor.15
+- ___swift__destructor.176
+- ___swift_closure_destructor.24
+- ___swift_closure_destructor.26
+- ___swift_closure_destructor.28
+- ___swift_closure_destructor.30
+- ___swift_closure_destructor.46
+- ___swift_closure_destructor.52
+- ___swift_closure_destructor.65
+- ___swift_closure_destructor.73
+- ___swift_closure_destructor.76
+- ___swift_memcpy3_1
+- ___unnamed_22
+- ___unnamed_47
+- ___unnamed_50
+- ___unnamed_67
+- ___unnamed_71
+- ___unnamed_73
+- ___unnamed_78
+- ___unnamed_79
+- ___unnamed_80
+- ___unnamed_86
+- _associated conformance 14CoreUtilsSwift10_StringKey33_749A67A7DE66CF40F515C99C4CCB32F0LLVs06CodingE0AAs011CustomDebugD11Convertible
+- _associated conformance 14CoreUtilsSwift10_StringKey33_749A67A7DE66CF40F515C99C4CCB32F0LLVs06CodingE0AAs06CustomD11Convertible
+- _associated conformance 14CoreUtilsSwift7_IntKey33_749A67A7DE66CF40F515C99C4CCB32F0LLVs06CodingE0AAs23CustomStringConvertible
+- _associated conformance 14CoreUtilsSwift7_IntKey33_749A67A7DE66CF40F515C99C4CCB32F0LLVs06CodingE0AAs28CustomDebugStringConvertible
+- _block_copy_helper.178
+- _block_copy_helper.19
+- _block_descriptor.180
+- _block_descriptor.21
+- _block_destroy_helper.179
+- _block_destroy_helper.20
+- _get_type_metadata l15Synchronization5MutexVy14CoreUtilsSwift21CUIteratorTaskManagerC5State33_4870E8145C1F14329A4AC87EA7D81374LLVyx_GG noncopyable.56
+- _symbolic SDy_____ypG s17CodingUserInfoKeyV
+- _symbolic Say______pG 14CoreUtilsSwift23CommonEncodingContainer33_749A67A7DE66CF40F515C99C4CCB32F0LLP
+- _symbolic Say______pG s9CodingKeyP
+- _symbolic SayxG
+- _symbolic _____ 14CoreUtilsSwift10_StringKey33_749A67A7DE66CF40F515C99C4CCB32F0LLV
+- _symbolic _____ 14CoreUtilsSwift19CUDictionaryDecoderV7ContextC
+- _symbolic _____ 14CoreUtilsSwift19CUDictionaryEncoderV7ContextC
+- _symbolic _____ 14CoreUtilsSwift7_IntKey33_749A67A7DE66CF40F515C99C4CCB32F0LLV
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 14CoreUtilsSwift23CommonEncodingContainer33_749A67A7DE66CF40F515C99C4CCB32F0LLP
+- _symbolic _____y_____yp_G SD4KeysV s11AnyHashableV
+- _type_layout_string 14CoreUtilsSwift10_StringKey33_749A67A7DE66CF40F515C99C4CCB32F0LLV
+- _type_layout_string 14CoreUtilsSwift7_IntKey33_749A67A7DE66CF40F515C99C4CCB32F0LLV
+CStrings:
+- "No container value"
+
+```

@@ -1,0 +1,91 @@
+## AOPHaptics
+
+> `/System/Library/PrivateFrameworks/AOPHaptics.framework/AOPHaptics`
+
+```diff
+
+-1084.0.0.0.0
+-  __TEXT.__text: 0x18f4 sha256:bfcc20352ba67686092e12b9dda791e1b8a80021c24c245973804eac4292799f
+-  __TEXT.__objc_methlist: 0xd4 sha256:39bb21984f9ed74d4ffc3e45caf29163ca93ab9f3b00c901601462bf895aa37b
++1087.0.0.0.0
++  __TEXT.__text: 0x1948 sha256:c1854af591380c899205767986015e1533979f5421b8f1b7dcfe6d407fbeee61
++  __TEXT.__objc_methlist: 0xd4 sha256:9b96940a853d5bca9793cf1d1fa9cdca575229656c8c83104a98cd74914ac8ee
+   __TEXT.__const: 0x28 sha256:9153318c0308c5ac6336fb3b047f474ea501663fd246ce6748d37a93ef520642
+   __TEXT.__oslogstring: 0x2fa sha256:0a3310b9cbc996b6f27c0bc00730ca0117790865f49f88b92af67b400a1a5ac0
+   __TEXT.__cstring: 0xb7 sha256:4cb27c2ffae2f006963aa0ab0f67e8c3cf55b76572aa16a3658f4ca8641ce421
+-  __TEXT.__unwind_info: 0xb0 sha256:68d5dc31669614f4c2de9738ebf35af6789ab00a6a9e5b34014f15f5a33ea59c
++  __TEXT.__unwind_info: 0xb0 sha256:9458d977b2572dcbb261a71b92218124f9196798effff6f0e188ad81bca3f379
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x58 sha256:5f6187ad32b84e4c862fa15ffa42245e0e2ccdf3e2c26a8fd532063c64438512
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:a482a65328cd965f77d0c076e6a183573952fbdc6b9588b7cff03974909d5579
++  __DATA_CONST.__const: 0x58 sha256:b48e802b9387ae09b81dcb86d00eddd042a4ae4d0c69e540e8ff251e06dc6341
++  __DATA_CONST.__objc_classlist: 0x8 sha256:a36f9b3eff5c5049a76955f817724d593d44136b91199096483facaab9b8fa64
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xc8 sha256:108081d7cd84048e542d82c9aed5b3258f8afb624888d65daee07bd5ed6a9020
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:60abc6c9f15f4bfe584adfa406c4bb4f5087983a0fd9f29b8f1e13b68445b81d
+-  __DATA_CONST.__got: 0x30 sha256:d4db0ff5c8bd4d6b80cebcd88a7e8d097bb2c30a4cd53b3597c8f6d210cfb9ae
+-  __AUTH_CONST.__const: 0x20 sha256:ac7628ef48fa2ac04acf98c76fd4012ad0eafb78c0590c8a76ca0b042ebda633
+-  __AUTH_CONST.__cfstring: 0xe0 sha256:97fa0c2da27bad990d1771c5cc538a2c3c946690b8a56bf5690903c65a19c4ae
+-  __AUTH_CONST.__objc_const: 0x1e0 sha256:e8e244fd5bce66796a8b5369689d65b427bb9d40f0fa288e390a1cc72bd30426
++  __DATA_CONST.__objc_selrefs: 0xc8 sha256:0252d4d6d363a21183548ee44e688302f8c0abe7af4346daa44b41baf4eca479
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:ed03a3b5588e1352226b1f60b451eff80bc50b567a38ca3b2d16488a700667d6
++  __DATA_CONST.__got: 0x30 sha256:b4997d137dcd8c6948f221a97e031961967cdc3d1d47e025dbb2ef838cfd143f
++  __AUTH_CONST.__const: 0x20 sha256:6425f10351267c9f37af649ed03f25ed7f6241f92956a5146a24f8113f557da6
++  __AUTH_CONST.__cfstring: 0xe0 sha256:a1daa9c395f503da35c968c2ce0b8e3c4306a56c1aab015783d039acd4bcf357
++  __AUTH_CONST.__objc_const: 0x1e0 sha256:161e81038a754ea2ccdd8d98543be5fa627065b6043a60680f759c6b88142156
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:3eed854935987403ab1f1c9083f1324a9842aca9574d080a702895dda7b0208c
++  __AUTH.__objc_data: 0x50 sha256:e461e21c4be98ab0d71711b2112603231d63c10e6d6cd1c29476c74af653c95d
+   __DATA.__objc_ivar: 0x24 sha256:ce59ad48d0b0bc3d178837a024a7e8d12a77a24eea3ebf7e8d3b67ece008dfd2
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6C3AA260-F5BE-3AC7-84A3-F7CBFE80E803
++  UUID: 3A123041-272B-382A-93A5-109E351974FA
+   Functions: 44
+   Symbols:   207
+   CStrings:  40
+Functions:
+~ -[AOPHapticsController init] : sha256 3e03b410ce45ef05484975a78563735252e0303145ecaf151fd9e54fb2f97180 -> eedaca628a1991dd0aab768aae390a916e46855ea2eb449bbb616db35d50d9a1
+~ -[AOPHapticsController dealloc] : sha256 eb2fc5861aab0d3befa8143e8a4ce5c2c73f00e7b87a75f402385da2204d85a2 -> 1bd2317eabe1225cd381d68be7b5f198eb1ac4343226251a76c7cf8b50776156
+~ -[AOPHapticsController setCancelHandler:] : sha256 012780f59a11507989bdb723b8ac3915ebe39847fffab674d199331e6005a7f8 -> b902739c620a7f00dc5d1e1ed764dd42a5bd4205f8947c4f23fcda9e3c95308d
+~ -[AOPHapticsController setReadyHandler:] : sha256 cd44883c3211d3910f06cc8f46e74a96a6f5e9f6b25ba5d08780ecc90d186d52 -> ebe06cf33da4d714cd17b1990df841b040c1749aea02ee84940082b02d4ca75f
+~ -[AOPHapticsController setDispatchQueue:] : sha256 530939cb2640cd6a456c6d821537d5fad4298aa1361d2336e3fe91e14dfd9861 -> fe0d409931604021392727f4fa9bf149c0e36ea654a89ba7ddf7dcef460995fc
+~ -[AOPHapticsController activate] : sha256 52032cb45cd52d1ba44d6e2f5799b350c22278ae4cf48def7cd9bacf2c0ec0e2 -> 5a47e8584f327e4a2b8a7c27742733528290019f60ab99eb9ce03f2afa30ec21
+~ -[AOPHapticsController cancel] : sha256 a22a778190c25cb8a5b1ba9c1937b18f2751028b30ddac3774757fc8cdb097be -> b15b2da1be3429bd05ea2327fb7cf70112fabb450e325b8fc8d9e2589651458b
+~ -[AOPHapticsController setMappings:error:] : 1544 -> 1632
+~ -[AOPHapticsController playSlotIndices:error:] : 1392 -> 1388
+~ _AOPMatchedCallback : sha256 17895c93f2a2ed17ad6e01be75c74a3e970b7c42712864196acc01fff9033d75 -> 0de2b0b8c20c5bf7e9027fde9bf127973452e6805204b98fefa4c91fb9a5f46b
+~ -[AOPHapticsController signalReady] : sha256 b74af523942b4c5e46e7efe5fbc7d38ceb4a4c654ce3e4b72d379e5db0e9735e -> a4717d256d9b2aa71d988bb80037b4e4b6e58f02b53f54f6bb1152b266fe52ac
+~ ____AHLog_block_invoke : sha256 0aa4901ce1cb62eec645eb538ce208ff65dcb589275c81627f737034f1e33868 -> 0ce6b01269c7b3cdcd425fc288811b137b03ff6c83e7b978a84f0bc86decc6ee
+~ _OUTLINED_FUNCTION_0 : sha256 53c5b6501110b6f91e0f1bba5872b8c69bcbc016073723bc89b66babbb7f079f -> 05514b31346dc889a900864d373028ab3e449364ef6006ce67e1e033dc1884f2
+~ _OUTLINED_FUNCTION_1 : sha256 cdf61667765bf8866b311b4cd0a5ccfd997c6812ef31644671fdabeadd068c1a -> 41966341ed95883bcb7d875e48fdb72a6a81dfe9fb2a4cdf0ecf823416a7380c
+~ _OUTLINED_FUNCTION_2 : sha256 f282b905fe6adabd6afe7d8e512d6f7e99b562e16d54f8a4618928b20d077af5 -> cfee09edbc494913330617ce99343545d5a4c47bd0f44c2f7f3c093d33992bbb
+~ _OUTLINED_FUNCTION_3 : sha256 4af33cd105a2dff31af693028e340eca78ac6394be0484aac8422f727329dc05 -> e4424ebb626ffd2397db216c6b093d8c6fe3e6c85dfda0ea739378442703cd15
+~ _OUTLINED_FUNCTION_5 : sha256 346ae28b0e668acf198e6668b4f97720507fca3aaeafe1d6f945949e2c2d9c96 -> 58b1add100e3e450cb78dc080e11b039d6633b07717c72dc64456dd7f285c863
+~ _OUTLINED_FUNCTION_6 : sha256 ec2e63d94fbd2492a4ad48720932762e2e0eaa03fe0ff311dcb6c2b30fec2d55 -> 720206d98577be8c79c1a926414ebac4941aab6538538d66d61fabbc9af7653c
+~ _OUTLINED_FUNCTION_7 : sha256 a3327aef42042f39dd5822a0f68d383259f41fce9969fbf690eab60e0733e13f -> 3ad93f74c1b72274a20d11f703e30abc49499caf742251cde145717c6be40d3b
+~ _OUTLINED_FUNCTION_8 : sha256 5490c068a503982d2fc065324e04b3861e1b67e4d72c1fa298c4cc35a387e252 -> 120e44ac451791edd9d1d3911c7d14c4516a97a9a4a23da4e7170fd659670645
+~ -[AOPHapticsController _findService] : sha256 ca9be797d1deda7274983b0a3240d6f86c6114ab0f92c26069daa02cd84ca525 -> 6ec7f549553937378df3355d1487f9f5fb4f1ca2e07991aebff0692cdc135af6
+~ -[AOPHapticsController init].cold.1 : sha256 e8b08ed2eb8ecc170e3f14c35810dd49f7ed99ed624c74d06ac8f6b65ae37342 -> 4092eb0976632abc59d28d2dee528659fd94d5fcb4bb8dc21f204e0b56c957e2
+~ -[AOPHapticsController setCancelHandler:].cold.2 : sha256 54a6beb7161948eff439cdc2de650e9a4f4aad186e1a2353a95a40eba33e5e9e -> 6d00b06bb11f55c859ba1a97c80bb0f3b22e7e062f6fe76151c41586f886bd1a
+~ -[AOPHapticsController setReadyHandler:].cold.2 : sha256 0ab444ccf0c49f9ab5e2e8205baf0e4d133da5f22da9ec8762bebeea4a2347a6 -> 768168302004b79749d1f09cc41208e4d35df721fb11849bd0741248c035c2ea
+~ -[AOPHapticsController setDispatchQueue:].cold.2 : sha256 91bdf03a0e18fc021d8427724edd2881951187a0cd6aa3b006fd98a6bdb13e4d -> ade0f5acf5eb73829eadaa5fe9cb67810a48843a99fca24a6c6d56ff28f35ff7
+~ -[AOPHapticsController setDispatchQueue:].cold.3 : sha256 ea1920a6b71b2fa9146d17afbec1bafdf522674e431b42756fece2cc9b1046db -> 3c4647ad548c55f8b8fe42edc7fbf2c4f0979a976e43587c6376db771a43886d
+~ -[AOPHapticsController activate].cold.2 : sha256 87f3a732b0ca096b5f5373735010f299c0bd6bee0ecf52c35cd869b2f8e1b6c2 -> 18603350777b0ffed310eb2c72abc73b5efcdccbdbb47e1f99a9e24121b18e51
+~ -[AOPHapticsController activate].cold.3 : sha256 fa6eaac2f2ee2a0c2d79ade7819dcfb6c0a98a5dd6cbda59ce14ad10f0535a02 -> 31658a254910c6ea3c903038b024d3d2ab289e6ef95f720c77340c88b00b08c5
+~ -[AOPHapticsController cancel].cold.2 : sha256 492f94f7d5f6908467488f635e287d15b4fbfc34cbc0c6d065ab97c72d29084e -> 9ce9d05e87f4b3e6966d8cd6f32c6abc79bfe5dd3497bc2a59e703aba75805e0
+~ -[AOPHapticsController cancel].cold.3 : sha256 099b6c74daf7247b067b6edcf4a2cb895bed6c619fca42868ced63429360bebf -> 4fc88530cc8bdfa297f0ebf8345bf55d3b035f6c7514baf5f5a79e96748d06fe
+~ _AOPMatchedCallback.cold.2 : sha256 af09ce7e0231889b80c9951154dfb9ff197e30122a3ad3655a6c180a16d0d2ed -> f468d800345894aaff521e00c9d25b68d402edb291c161a23b959c7a82fe9bde
+~ -[AOPHapticsController setMappings:error:].cold.7 : sha256 7682aab4e12e126f4f3f1a8a703a5a3c2896fe75a27a06399c4197fe9ab87727 -> 49021a1d19a52cfbaede10e119bd9ba8ff91b9e408dc03318839848ea0d2ac70
+~ -[AOPHapticsController setMappings:error:].cold.9 : sha256 531f719fb56ad38049f0bd29bdef8ca4da953f655626bccfaa7d92540a74f682 -> 644a92bd4eec123d9888615e26486cdddc15b57cfca61ebae28fe138385af7dc
+~ _AOPMatchedCallback.cold.3 : sha256 df9de354617910d0541178d407379c4110c5c3e23441871e4d9fe35e8e52af6f -> bfdc427e63beeb21e8ae759d6f1a36d9e707fc3785d2406d97bfb3e82fabcd50
+
+```

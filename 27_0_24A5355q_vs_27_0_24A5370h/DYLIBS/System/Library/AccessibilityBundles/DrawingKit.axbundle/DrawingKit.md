@@ -1,0 +1,79 @@
+## DrawingKit
+
+> `/System/Library/AccessibilityBundles/DrawingKit.axbundle/DrawingKit`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x638 sha256:0010a76f98a4797dec6af218e72ae4ba02d9f534c21b813797628846b9b5a559
+-  __TEXT.__objc_methlist: 0xec sha256:02b7705c81bdbc24f0841c68ebddf5dd1d240f207e2e6d93353c227a68d5025f
++3039.1.0.0.0
++  __TEXT.__text: 0x638 sha256:26b74cd828c6cb9c00bc79072fc73dd8f1e4890d2d470da4e223ee693511c15a
++  __TEXT.__objc_methlist: 0xec sha256:f0d9bce7e84cdcbc9d5364ff899f305854a6b4c6bfd94660470542b820d7fd09
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__cstring: 0x10f sha256:4f0723771716207f09d4750b57385769faf4db70143a5840b9f77c175d1779fd
+   __TEXT.__unwind_info: 0x98 sha256:91589f2a0c163c8ab7276ba0d4537c0d42a949a60114254c777337f3c026de45
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x68 sha256:8fffdd5959f1f0eea69839f0b4d0a51f927be7306d22d998307a1eb0321ea426
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:f637dcf155247062d7c2442fb270a98f4e17d79f9f30507c73bc1ee44089b79c
++  __DATA_CONST.__const: 0x68 sha256:2a988453cfa37f79a0fb4cd7d68be8bca0650e78467454bcbcbe14cdd1309066
++  __DATA_CONST.__objc_classlist: 0x18 sha256:f600914ece5e32471f263b517276eb9b4d8df136f0de0e051fe19f9db40846db
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xf0 sha256:d918ac66872711660f16cb467a8809223aba3e47de07b42329b979f4863452d6
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:d5cf16f631db212ef5204a01f4742198689bdbfa9422996f727561903a4ddecb
+-  __DATA_CONST.__got: 0x40 sha256:0f6a798a12d5add786b18be7e2225036d4f8bf5344c78a7fecfacd33e4167287
+-  __AUTH_CONST.__const: 0x60 sha256:f675691589b426242909c0dddb5664be83574e7a21b5b8b88dc02cd0e68155a1
+-  __AUTH_CONST.__cfstring: 0x180 sha256:daf8795efedb8ecf9877d7b1097e326336654bfe6701cf6b38cb60ddef79833b
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:697c81a1f8487b7c4340770554ea80ebb3146ab2b30c8e8b44b886e21a04a5ca
++  __DATA_CONST.__objc_selrefs: 0xf0 sha256:841af6d63b266901b45f13c12e21cc568f2e80dd47bcee33c10664911c0d977c
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:87f0b934ef2559f44f55cb410a45ae88aa58025b047a1aaad624434813c13e0c
++  __DATA_CONST.__got: 0x40 sha256:3a977d9bd472fdc1ba43283db489a5183d84b142cd9185cf3a31323ee6f03406
++  __AUTH_CONST.__const: 0x60 sha256:5bbc07edf035d98af839795a8bdd48e046eed62f73e77347ddc185a03a07395f
++  __AUTH_CONST.__cfstring: 0x180 sha256:05c6f8852533c1814fa94ad9c1bd4155a7ab61b7edaf7c235a202ea8ee0d8e29
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:1e956ed5b9351ffdb1c74eaeca175a8b37bd3be73b56c37c31e831d6e315d312
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xf0 sha256:756f2fa74777cba98fa60f38cd3a0f7d28f071563e724a2d41d99b8b5eff800b
++  __AUTH.__objc_data: 0xf0 sha256:50a724f2e6accb31e865e3f2c6d6025c2a1cf60bbc140a3dd63f37554dd3783d
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA.__bss: 0x2 sha256:96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CF2DBE82-02DF-3AE8-B07D-9A0A3A17DB40
++  UUID: 79051CB9-2D2A-3608-923B-42913E9380EA
+   Functions: 22
+   Symbols:   120
+   CStrings:  27
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ +[AXDrawingKitFrameworkGlue accessibilityInitializeBundle] : sha256 5439a01ee79430bfbc501da89687f737abc1a3151148576f2a92078e6bf007fc -> 0bb63934dd08daa56a694543343f434f11a0bb25483313f109003ee03c8312be
+~ ___58+[AXDrawingKitFrameworkGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 dfef91c42f5e0481716d878d570fa65ba6434d5164699d931c9e3b3408a06b20 -> 41fa33dc269aba3f007ac5090b827bf5bbb7f081d9e1c612bc801a53c99c71dc
+~ ___58+[AXDrawingKitFrameworkGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 39872745297e8ae9b446f8f03af1a00fed54c08d9fdb1d490578d4a8ce5e70bc -> dea501c2642dae27c4833b5bf7f2a08537f1f05ed361bceb3609070ff201a594
+~ _accessibilityLocalizedString : sha256 2b0bf4dd3e579c321ca6bc036578196ac02ff1a21ab117c54c5f1911e11dd805 -> a3504199b24bd004dd88dc20e67cbd2f6513bfef607196c957fc207a510e1b8b
+~ +[DKInkViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 fcd49445b6cd59dfdfee733593c99784bb255dd1128ab84c8efb33439f52e338 -> 79063df5fc756584e1ccf6c95aa5cff2e87534e17aa72591935d00ced8e4ba38
+~ +[DKInkViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 aacde4c01003f6731a4aaa469d094c344d85f8fa410da1c090e33c6e499ea965 -> e984bdf62577c702c838e5381d541ba95ba2d9a45a75306c65338b0a74abe850
+~ -[DKInkViewAccessibility _axIsDirectTouchable] : sha256 975ce8957e059959ea26037b89c66fa5a427132dedc93c905587b02dd6460a04 -> 17621abb88d1048068ab1cf4b4d4237eaccce85ac8f12f9bee929cef655d660a
+~ -[DKInkViewAccessibility _axSetIsDirectTouchable:] : sha256 414ed65e788fd7728a51c40ce7a8333526d0831f24a77284ff62031fdd494cc8 -> 9a72d7406b5b3dcf58d726b1e9ce3f6b239049bc001ebabc6720b7cf1bd461bf
+~ -[DKInkViewAccessibility _axDirectTouchTimer] : sha256 6c28268da7cb6457976323e62a80e03ed977a8593f346697fbf24d304baef667 -> 4ca2627d56f2c9644e8dc7827fd917fae77f4a675f6ea7aff4985519a3f8d491
+~ -[DKInkViewAccessibility _axSetDirectTouchTimer:] : sha256 24864aae6bc355e0b198d50bc424e9a4d11ff398367fa4f3d4b0580996c930b6 -> d6ea644b0017210952dd78a647dc0368eee0c32296b15e7645fb823fe3873744
+~ +[DKInkViewAccessibility _accessibilityPerformValidations:] : sha256 4fba701fd472b723af81a3972afd666c50f2c7fa3c756759d7336c2f0f8e1733 -> 7edb517418285c74500cd1a7b9cf075ebe66e5bda138a8b35f9bac34456bfd4e
+~ -[DKInkViewAccessibility accessibilityFrame] : sha256 ca56429b809f8fbe4c977ede39632d1615ba097713d0a875beedca95b831a198 -> 662a451064e2126ce1de72206bb8ec796ac31a4c748d1244511159e2376e56f7
+~ -[DKInkViewAccessibility accessibilityLabel] : sha256 98ba002b75aea9bf9fa9a42040f4079150bf30433fd878751611b9faae0ac7a4 -> dd81a4084943ce393a3bf74fdc867dfe1a61f51a57aed2eba892a3a97ead9360
+~ -[DKInkViewAccessibility accessibilityHint] : sha256 f567324f609dd001e3577aa90786a46895d49bdd7154153216883d05456b5d34 -> 28fcaa4016a5081ad8f69833ba2d166f10735334d3b8799224feee4b66ee4202
+~ -[DKInkViewAccessibility accessibilityTraits] : sha256 dc043bbf4a140a8d360becc94093c399805578f42a5770afbaeef974a27ce953 -> 73715967e44b3eddd53b9aa4bc54fecf1069e908f8eb5559e81171dbf1449df9
+~ -[DKInkViewAccessibility accessibilityActivate] : sha256 5d36ff2251befff048fb9ce6e6f678d626f4685dc75df315a1bb732a92dd4100 -> 6c6e4777bd8d3907a4cc2a4daef2cb157eae83d99f045a0bab833d117ed74907
+~ -[DKInkViewAccessibility touchesBegan:withEvent:] : sha256 f95a9fd2d16629b3b7bffad2576d36726bab44c46431807640ae6235972a583a -> 34ff03a52d7849431bc167a73439f05cf994ae40336557544a5a8c5f25ef6d69
+~ -[DKInkViewAccessibility touchesEnded:withEvent:] : sha256 215d3fc3c7da90928f9b564aed90b615a4ce47b84e62d6f1794bc6cb8e1997f5 -> fe7ee70eaf026f778d6fa15a3aef356ef593d9b9d98b420eb44bb46e75dbec07
+~ -[DKInkViewAccessibility _axInvalidateTimerAndReschedule:] : sha256 41e788758705249524b960f216d5bcc5f319ad46b6b174e0d2539b620677da18 -> cf6ce36074a730eac03323fed3c9c197a00b6651babb4d2980b8838f7e6a7ce4
+~ ___58-[DKInkViewAccessibility _axInvalidateTimerAndReschedule:]_block_invoke : sha256 dd035308b1fa23af70db36662c88ff8b787cc02dd1d03ae688df010f59a47373 -> c903949726b3bf95baa17b0e0e2e00e36b350955e86dc3df53392493f7426300
+
+```

@@ -1,0 +1,102 @@
+## KeyboardSettingsFeedback
+
+> `/System/Library/PrivateFrameworks/KeyboardSettingsFeedback.framework/KeyboardSettingsFeedback`
+
+```diff
+
+-9127.0.66.1.102
+-  __TEXT.__text: 0x1510 sha256:f3420b5397d0d2d344c1dda9e72de58945527707fe8f112cb5b0489dd0bba50d
+-  __TEXT.__objc_methlist: 0x1b4 sha256:6d3e1ed17a8b29ca93576dda97d3fb226c269e6e5160612d6af2f781f27874f3
++9127.0.71.1.101
++  __TEXT.__text: 0x150c sha256:7c9dbfaf5d569d656d8cfbe98b085a1c92a539185ba250618667ca47f258c862
++  __TEXT.__objc_methlist: 0x1b4 sha256:02c9364b5b679a70c1c08903162423894f9bf783fbde2c313af730a017b125b9
+   __TEXT.__const: 0x58 sha256:5f0ff5590bb75a25639a7df407f0a9ec5bd8743ccb0a26eb0e72cd90f9719e98
+   __TEXT.__cstring: 0x478 sha256:75ba9365b0787b5697b501eab02dcd24abd5a5a7ab18819ca6a2ddac883b9128
+   __TEXT.__oslogstring: 0x3 sha256:b1e062a195fdcab156ee39e5a1de5609c811692d1a36057108620ec0d0400e26
+-  __TEXT.__unwind_info: 0xc0 sha256:03fba1591ec10a93be4df09e09e790718da6ba4297aa6f1a6e2cd93dd5f586f8
++  __TEXT.__unwind_info: 0xc0 sha256:51c2d789af1a2c1d4f6f1d7c7b34b9989b0fc311e11cb78825db174009d9bf9d
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x98 sha256:e3ad264a1ef5f13f8e25856c7aea71001db6d9e159578672820d0cac8e6ca80e
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:1c8dffbee06ed1f2f9b9c0d8c086154abe619d93b6cd45f2408eceba3e84d5da
++  __DATA_CONST.__const: 0x98 sha256:ce8066de7f5a768a104af17376b4b3f01edb43c2beefc92739c13f3ed3ac1ed7
++  __DATA_CONST.__objc_classlist: 0x10 sha256:35e1c32e3910205c92ec2f2c1146b9866b5fce39830b1aed4d28a3ee6c28e41a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x230 sha256:dde857df6ca0e6d3715497a7846256b98a5e419c8193987d6ded1de6df2e8f7e
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:084a8447c62994b3701ad003bd840b4de1ee87a222ffa6bf3e348403f6561875
+-  __DATA_CONST.__objc_arraydata: 0x58 sha256:7782ea46ada8d2afc1bfe34516a059f4968a69ac2b6fb8d69562096fafb6b6ce
+-  __DATA_CONST.__got: 0x70 sha256:a00861fce177677dc78056f5af956baa8c1a1c49fab55269654b719f1e3b5f2b
+-  __AUTH_CONST.__const: 0x40 sha256:4d52192dd1ab4fd7d4bc98477b894a18b0adffa477de03ef447b4896cb9a7fde
+-  __AUTH_CONST.__cfstring: 0x2e0 sha256:25b17157c5bd1514de8fbe8fda38c1c7867d8fb899a55e58a1b6c05488d13636
+-  __AUTH_CONST.__objc_const: 0x310 sha256:dff273485e25bb1b34f7337c0067d4ef4160f91ea7a796ad20f637c2d42d9acf
+-  __AUTH_CONST.__objc_intobj: 0x108 sha256:56b4472f8d616aeb01b08dbf029caa8cfd4a1208a22a7aa34708a9cf5125d4f1
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:6fa7e2b0aac9aa6485d3c2cff578032971d3402e6d4c1b2781e5801a91dcdd53
++  __DATA_CONST.__objc_selrefs: 0x230 sha256:8c3f508c0682eceab803caad5e29a2e84bded88e55a11e662fcbdcc651455afc
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:be3310aa64d352382459b7770256626154138e479b2a425d056e2333c786dc3a
++  __DATA_CONST.__objc_arraydata: 0x58 sha256:0d6e74e39825f0c00de561c38352531b74653a3abe47e92247141be3df8b9d4a
++  __DATA_CONST.__got: 0x70 sha256:b3c19b565f8a71ee82e87b2c66f2ea3944545c1bec011cfa451e1017ecc1d8bb
++  __AUTH_CONST.__const: 0x40 sha256:fa8001dbcb38da20afb8bb6e2a547b664e83760063a5751e6b0cadbe67bf64e0
++  __AUTH_CONST.__cfstring: 0x2e0 sha256:ebbddcfabb7de2c11eb54557a86b36c74464265ca1de9ee5c8bfa02272c15600
++  __AUTH_CONST.__objc_const: 0x310 sha256:783451cfc66eb6c2820dc68f490df71ce7c8743e5310ba559bca4710f9a1c391
++  __AUTH_CONST.__objc_intobj: 0x108 sha256:a3338afb501fcc4904bfe106a3f060b843a93c262e339bf04c5e499cdd2358da
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:19db8517a9322d4734e45de3c828d9ca9a0434616e5dda9a46bf6f0cd6947b65
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:df2bd5d68ea6f4b9b8c1fbb59ac26cf7d67d0e2e4d3b26cadd0d003a1d068ab3
++  __AUTH.__objc_data: 0xa0 sha256:6f624736c987ed8bcd4a9840ba49b8f824eb0e2ed7393535040e6af7faae0f20
+   __DATA.__objc_ivar: 0x28 sha256:cf88b5236b10b45db368971e046438e443e8f84a77d48cffc0fb239a0923b14e
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 636D6951-1A7F-3C9A-B59F-02BE0173FDD8
++  UUID: B7A122EB-D186-3687-99B2-FFE8EF65F5B2
+   Functions: 54
+   Symbols:   264
+   CStrings:  56
+Functions:
+~ -[TUIFeedbackSurveyMetadata initWithBuild:model:language:region:initialPreferenceValue:initialInputModes:initialTimestamp:finalPreferenceValue:finalInputModes:finalTimestamp:] : sha256 0f20a036d5df284e0d8279d2ad3afa00dd7a36a64288e6a409b349519bd7e645 -> 9cfc56574172bc28e69295afc6d16d1f87277c5d462476ed22e0f21e01b3b608
+~ -[TUIFeedbackSurveyMetadata duration] : 340 -> 336
+~ -[TUIFeedbackSurveyMetadata setBuild:] : sha256 e6f554922fa896e8462407c2f6a7808488bad7fa9db7683f318158e1466c0dec -> 85c46c4a2f313dc7cf23d5ecaa80a8842354675d43dc2f9a5d702316509305d0
+~ -[TUIFeedbackSurveyMetadata setModel:] : sha256 b02024f25fca294e01a3d59ce173550e157b920783229319d14b440612cca195 -> 2c7ec9dd39e8f0bb5b47c07be31738f93bd6094bbaaf79027d5e55322e0efd1f
+~ -[TUIFeedbackSurveyMetadata setLanguage:] : sha256 7a0d109515f53a546dfaefec2a10f9889890c3968cbb7d82b1f02850afbf181f -> c606b2a2278d5564eb30d5ca39992fdcc81f554fd0c11f7df1b41079eef7b4c0
+~ -[TUIFeedbackSurveyMetadata setRegion:] : sha256 19b212891a41542d2a0bb2ce07218d453b892fe0cfad7f424dff4a7ec6e940e2 -> e10b3fc27a08d9651efa094f633a4370c4afaec69c769d40664d9b971ae6444b
+~ -[TUIFeedbackSurveyMetadata setInitialInputModes:] : sha256 969c68f99645e43d8e319cfc78d62f220c94851000ac7dcae13271641a82d5dd -> 9faab562fc332ef114daca460e19cc321f98b9c2d7ec07b487b43f717925bdfd
+~ -[TUIFeedbackSurveyMetadata setInitialTimestamp:] : sha256 134d8c37afce9cb7ecdb926b625f8db49ba14782bc7c5cc6680108cf44116d76 -> 75c9f883172daab989fc786a1cdb4cba3a4c572c04a8749cd149b7e936779a9d
+~ -[TUIFeedbackSurveyMetadata setFinalInputModes:] : sha256 351844c0e2cff1592af6f5bf9ecf8346db7f43a3fba74f9be2ebbaa586a748a4 -> ef6041d9c1fc38a26ec2cd502ef1852ffee669df8e4361ec46e14001390e3ab2
+~ -[TUIFeedbackSurveyMetadata setFinalTimestamp:] : sha256 ed1b55a142af1d3b680ae3ad08ce25642bc5aa6a73affe7460c7d7e3db79695a -> 86f83861589645f111bafd2b1173abfe4554cb55ab092cef71fc01cf0c4b344d
+~ -[TUIFeedbackSurveyMetadata .cxx_destruct] : sha256 7c84280dee6ad4a51476eaaf9254a0c9be31abc61e86d4ebcc4736a594b56918 -> 76238452c068252fff8f3d7cc0fa879e8080cce20819ff7a0338b8075345a70e
+~ +[TUIFeedbackController controller] : sha256 069b386692aff03f1df71e181e9a0d088cbf7e604c1bed1f0e3eff9c00a38a5c -> 766f558325e2ea74310d0f02d4df92b67e15a87bfb7388b3da41ef279a817bf9
+~ -[TUIFeedbackController shouldCompleteStudyWithPreferenceValue:] : sha256 54ffaa2330c4e80f83c60e82f6fdbab9e4334b3fa78cdf2649712dea74765ba7 -> a3d7294e1c21b513f831e62724d153c9edfc4b9001765bb56faeb9cc059a0956
+~ -[TUIFeedbackController completeStudyWithFinalPreferenceValue:parentController:] : sha256 4d46954781c376ad353248c4c7559770421bf06a35805a7658960ec11f8ae605 -> 02571a222ea55901df1988ef4482891381d315eedaeeb190d5bce121d2a71458
+~ ___80-[TUIFeedbackController completeStudyWithFinalPreferenceValue:parentController:]_block_invoke : sha256 e2925dc216ddc75e262c1ed3de7eee252fc2103ac437aae85301b4787375f974 -> 52e258624acd0f598fa695fb07c06594c9f74cb16b0a8fb069127d5d9199cbde
+~ -[TUIFeedbackController _presentSurveyWithParentController:completionHandler:] : sha256 8bea096cbe68c3257a79d154caabaa422c1e4faad211bdc2f2bc9a66094979d6 -> ce33fbc5655d6a98db3c815c4b19de05cffd74452bab97e64032797ba18acd2d
+~ ___78-[TUIFeedbackController _presentSurveyWithParentController:completionHandler:]_block_invoke : sha256 8e62f7b081405719b711dc8fd917d0c7207a1a174fa5ea3d6fe2bf4398185357 -> 8fa7b2452cbb1c6c8d217de3bec2c0cafab44c5e5d93753cf4f06ba61ab63250
+~ -[TUIFeedbackController _updateStudyDataWithFinalPreferenceValue:finalTimestamp:] : sha256 e2d41cbde3538fc6afd57e2dc2d1974aac269bf577e7b3ea88e5500bd75860f7 -> 68a64049841e2dc5aef3e285926180aecff01e421eae10db78f15cd95b5fe7ab
+~ -[TUIFeedbackController _updateStudyDataWithSurveyOutcome:surveyError:initialState:] : sha256 1b71e325c7a2fd678b01132047748157d3a52ae055bbf36cff154cb15f35308c -> 71cb4466d3ea38bc784bb48213d1de2e0fe21ad737db4a473ecd5ff3106ab2e3
+~ -[TUIFeedbackController computeSurveyMetadata] : sha256 65b423cf9435100a90c58243a32b4b8b7fb2164122c80affc8d46a3061ca7fec -> a67716f211672911f7efb9a6323198ba877eddead281d1d4147918261f485297
+~ -[TUIFeedbackController currentInputModes] : sha256 d3d05d6c46d295d9e2a46dff6d113382b2cb6d660db3236558fc40149c2e15e7 -> b05366a3002a791bd9b7e4e2a3782e6cc0334ba94a2e1766a1f1ec00e2d9480e
+~ -[TUIFeedbackController feedbackFeatureEnabled] : sha256 b1e4bf7cf8246bb556886cb5f7125896de996c775895258a2a251d522673145e -> 650457a9d5e3abea34d555cf982031a9154737f730e1f721ca556cf00ef014b6
+~ -[TUIFeedbackController build] : sha256 4b9032267068b6a22eef924ef1fa9b95c0fd9e5e741a57a4e2a264b4db43f247 -> e48b83add7bad8dae90cf7c26cc7d1703e1d3bd4c81c7ced8752090d78f92eff
+~ ___30-[TUIFeedbackController build]_block_invoke : sha256 89f757f88f04017c7b042e73e9324315b50542fc80dbbfdd7143b31a9f07ace2 -> 731c3c97cd16cf6be2294c03396bdf71c8dbd7c05bed73371323fa36fee5b391
+~ -[TUIFeedbackController model] : sha256 91b3859584791d0157b7549cd4bdee32830c998cb58208b06e329342217a7a15 -> 719e97608c1e5312be8379971b4ddc9db473b7812002634e2cff3101b89e1579
+~ ___30-[TUIFeedbackController model]_block_invoke : sha256 dadbf67518b9600484f3e55b3cac7bd81bf45683a4a2591ae0735dfdacbefcbc -> 74e923429812fbffae89811df6f83e3f8bd5f29b1dbc44e24618683135a9be1c
+~ _OUTLINED_FUNCTION_1 : sha256 784e4972bd26025875558536d98c3c200a0cab44c333a108d5d0904638e7af3e -> a473e7e01d60e6991a89e16f66e2512af5c5568c059ae28ad5e1ee8a2f35c5d0
+~ _OUTLINED_FUNCTION_2 : sha256 48e6cb5b6bb41890d5f91ebe9476cfbd9a8f0d6d91c7d6786148405d88a225bf -> ec507b03a4f7604aabc7c5a933faf5255e91420e6af251b8213502f7b384cd88
+~ _OUTLINED_FUNCTION_3 : sha256 52757021f6214345663bcdf449bbb3b1c0511c4ba72420b6dcb37eea6877f974 -> fa3912a7b0f9ac832797eaa55cc9722f8bab8c264c01d0ab1519ab02c4db06a8
+~ _OUTLINED_FUNCTION_5 : sha256 b2b3ff8fa96e2f6230e288678286cf03bde71757fcc376196619dd79bf78ae05 -> 95b042c4b71b3d4da1c026471a2bb32f788eddb7b759be9aad1fcc1c7eab0ae2
+~ -[TUIFeedbackController shouldCompleteStudyWithPreferenceValue:].cold.1 : sha256 55d022852b0423103c07133957f1c0a9afe743b2f188dbf2243074dcf670e501 -> 5a5795e0b71ec6c50219c574bf5bb041e7384f028345791bed1e7ab2df9a9662
+~ -[TUIFeedbackController shouldCompleteStudyWithPreferenceValue:].cold.2 : sha256 48775e750440248c3e522d742d21fb5370929d63bcdd40eec9d41879c8756d87 -> d26ee9b233074c210902ec527fccc602e652061b88f748a8c999880806c00fc7
+~ ___78-[TUIFeedbackController _presentSurveyWithParentController:completionHandler:]_block_invoke.cold.1 : sha256 652f00b9d87a8f06d636673d72f7f686f02db1cacd9c5fd7fb3152b51f62ed60 -> 2d50867581c819ce03b48e21178d5b543191619f4450e98e4d1a267662d7b401
+~ ___78-[TUIFeedbackController _presentSurveyWithParentController:completionHandler:]_block_invoke.cold.2 : sha256 f718d06d8bfd3a699bc282b64001f0bd27cfccc6e974cd55a8d5465b22171182 -> 39cd9b21445eac3016958dc4f8924b35335794d414c6190660263c021f7e0652
+~ ___78-[TUIFeedbackController _presentSurveyWithParentController:completionHandler:]_block_invoke.cold.3 : sha256 d97acd59074136ca6740ecb0c830ca735565e3c3201e1aaa61f6d8e92de5d23d -> cad454dbf7456ddff62ecc247d620e919a52face801609478aea539cace05c4e
+~ -[TUIFeedbackController _updateStudyDataWithSurveyOutcome:surveyError:initialState:].cold.1 : sha256 fadbf51ff960c82fa16179294ad1e3934a9ddb3795af5c813281f423be9e904c -> 7afd4ba90bc5862df0d1023080b949264d549cc082c9ad6e078c25132cd36b3e
+~ -[TUIFeedbackController feedbackFeatureEnabled].cold.1 : sha256 e744a136de324630fa21875b722727cda596bd2eb441eed2706dab998aadfd3a -> 731dc53a9d6b6b0d778aa644df9045ef3111908e602bcb040b5fd478cd6ccfb1
+~ -[TUIFeedbackController build].cold.1 : sha256 66e6ec073c022e010865cde31d1b9e887d5f77a350c20b35cbbcb3916841f9e4 -> f08cc47b0974326c262d20de1b1b2f8a023f4cc5eedd9feaea8b180aaf4f7b08
+~ -[TUIFeedbackController model].cold.1 : sha256 00b57abbee69b270ddfeeaf5591c44e22b115b6830fd6922872bc842b39b7573 -> b96e95623fae8018e37fad4b676f659c36edffcd708c5ceaef1e457ed8aacc2b
+
+```

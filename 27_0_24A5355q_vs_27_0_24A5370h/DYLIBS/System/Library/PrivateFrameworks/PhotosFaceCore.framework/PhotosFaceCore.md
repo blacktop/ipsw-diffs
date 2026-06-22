@@ -1,0 +1,139 @@
+## PhotosFaceCore
+
+> `/System/Library/PrivateFrameworks/PhotosFaceCore.framework/PhotosFaceCore`
+
+```diff
+
+ 96.0.0.0.0
+-  __TEXT.__text: 0x383c sha256:d0b9a3bd40dcc0c6ef82c24017d0eaac642dee245a5fe37093f0ddbc9badbcdd
+-  __TEXT.__objc_methlist: 0x504 sha256:7ade584b6d2868b9f4b6c0ebd6598ed8ebd7cc83bf4fc872fbda25a1ca515c78
+-  __TEXT.__const: 0x2a2 sha256:0441a20e02ea7c32fe53f5fc98a5c275c5a65d8cdcf1b16d9c627eb1ff4456b1
++  __TEXT.__text: 0x3824 sha256:ca700521ad80057cf7bd5e009a032797b6529423795273989cdec8d92bd638f0
++  __TEXT.__objc_methlist: 0x504 sha256:681e208b885e42182f5afe9e2768579272ce477ac0587ce19060684ce376a788
++  __TEXT.__const: 0x2a2 sha256:9c27e71574013596c0103baa6cd4bdaddca092b563f2637c6696283c9ceb81cb
+   __TEXT.__cstring: 0x34e sha256:82ac136b32122a097f061390554a369a9887d57bd0b3f738169fd5d086dee15e
+   __TEXT.__oslogstring: 0x43f sha256:6d88192382a2a245425e95dc557c2f48322c892f17d966894da01b34a9cf5ee3
+-  __TEXT.__swift5_typeref: 0x17 sha256:97fbd4670ec453f4761b4a367f8061f2751fad656a865f766a23ad888e030dd9
+-  __TEXT.__constg_swiftt: 0x38 sha256:4b5bcae4eba0a5d9c95cf2b1de3ee9cebff52d21e0665b6e38444edba58e324e
++  __TEXT.__swift5_typeref: 0x17 sha256:4ea6ab19c340805cc82c2f562fa1e712067f13e4bbe475a33fe992dbaf202917
++  __TEXT.__constg_swiftt: 0x38 sha256:893b2c2e90e5ca6245e10c90e26120cffa1bbb9868d7b9bb5587a4c5b4b5708e
+   __TEXT.__swift5_builtin: 0x14 sha256:eebbf99dfeca77d24b69e49fe624bb4ae5b8ce400f27c07b5273d6806da4b176
+   __TEXT.__swift5_reflstr: 0x9 sha256:1df8d10c11fdb5332629affa6742a83b95482f74917951f14e3dfbd50ee6f1e8
+   __TEXT.__swift5_assocty: 0x18 sha256:6b02287d7de064a63f6c9214c7b8acc5b3aff70f116a3fda742c1e5c81776639
+-  __TEXT.__swift5_proto: 0x10 sha256:79db34f6bbb84d9ef5fadf310afe06d21a3e4b1549e2257c42024877dda40329
++  __TEXT.__swift5_proto: 0x10 sha256:77753f47dfa7ba361893caf3c31b9448901779bddf66fd558a7c9805c011cbde
+   __TEXT.__swift5_types: 0x4 sha256:a0da4943b0b1f39622771fc1f7134052129cba85bec1605c474d43869d032b38
+-  __TEXT.__unwind_info: 0x128 sha256:05cc8f91cf2b5a60759a1457c38dcf4a2de781a2b40d9afe2ad55df87a3b27d9
++  __TEXT.__unwind_info: 0x128 sha256:d2d0cb1623343abe3ceed0dcbf4b7430154c312289e4db780043fee5501a0049
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xb8 sha256:6a96e09ca44dc3e4093d7ecbe8bcafc6b5c2e008e9d41e15c9c5f56738b54f50
+-  __DATA_CONST.__objc_classlist: 0x30 sha256:5dcc6ebf1436f127ed7106314b600643eb91f323104273469f679ba20b548727
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:c693d1d667328cebb957368432b61beb359522ca7ae82b35fc5a8110c4acda27
++  __DATA_CONST.__const: 0xb8 sha256:0422ec1a9dc14bca17ab8f5a54a1062d41c0d467717de362eb330124279cbde7
++  __DATA_CONST.__objc_classlist: 0x30 sha256:a4eba5239cc79ec45f08cc7d5bf0159b3ca9bc4a1b0b86575e5f075298b9b461
++  __DATA_CONST.__objc_protolist: 0x18 sha256:03bdaeb7373d9d975050ca038cf481fcdb5d79056c2cbb41e21160c3c00d66aa
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x460 sha256:b19f5eea590c398b805af56b467b6be1e328db5842804bdbdfa8b990f1b80563
+-  __DATA_CONST.__objc_superrefs: 0x28 sha256:bb3ae04950dde66233b67b05dc6970259936a8ebd3e38f01adbcdb19b2aacdcb
+-  __DATA_CONST.__objc_arraydata: 0x18 sha256:b9db6ce60d3939499784ad54b8a6c84b783ca6d611b23c717d2ac4429b9a225a
+-  __DATA_CONST.__got: 0xc0 sha256:d5380d7029e05ba0fb7b028129d25f07b90d27b34f21dca31968dda1c3aa993e
+-  __AUTH_CONST.__const: 0x80 sha256:a49633ae0eb2c9fd313d295a660d00e62a73538d5f50136f8cb9800665f66746
+-  __AUTH_CONST.__cfstring: 0x420 sha256:b554986a9c9efe491aae43085ed81850f1adbf5254fc3167430fd66a4ccbbf8c
+-  __AUTH_CONST.__objc_const: 0xb88 sha256:b83409c71bf3936fb46b7d0cd9c66b2c67ffe411ab9202736a9d4f2dc730324a
+-  __AUTH_CONST.__objc_intobj: 0x48 sha256:c9ec4a413b1ffca202b9f47f201087759db2763cf5082d300ad8c1b100049a9f
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:f5f7e0ae5a1a5b69e0888547bb6884f4dc58f2b0e51f781014f63849e7e0fe8a
++  __DATA_CONST.__objc_selrefs: 0x460 sha256:61150086e24820f682e669d76b9eba8be3b12ecf8ae7516c4b5f24c6ccbc6059
++  __DATA_CONST.__objc_superrefs: 0x28 sha256:e046e22c0ae4467911a2b4ea392f72d163b8ab6afea5ecd244549c2dae62776c
++  __DATA_CONST.__objc_arraydata: 0x18 sha256:18d1dd10ecd62fcc1ad8592f97246a8d4a94b95fcc55b7371b162478e9f4dd97
++  __DATA_CONST.__got: 0xc0 sha256:82e83383a0aee526162314948331403dcba0a91be9d12c863976d963af8339f3
++  __AUTH_CONST.__const: 0x80 sha256:f3f3c6823cb2c6e56755e0f9923f9bbb3e7abbc30b079ef9df5eb4f6b4dd7639
++  __AUTH_CONST.__cfstring: 0x420 sha256:e69727051f1126fcbc9fc8437d851c1a347f931d67e955a23c18a3c8ef306b7e
++  __AUTH_CONST.__objc_const: 0xb88 sha256:dc1338f310a417e1fa57c7d8e90926ab405824e964955a396377488ebd3c4475
++  __AUTH_CONST.__objc_intobj: 0x48 sha256:61b5031d1468bd0928e8ed35df9eac951a97771d44ab6c79ab2fc9881aac66d3
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:dfcbdc1604060a3e9e94b7338cf1d0082cb3818b953edf33fbfbbeca84f6ba27
+   __AUTH_CONST.__auth_got: 0x180 sha256:a1a4f5721c1c4610af7f71078f3a68c330536d679803b0e0507ee8dc10c5dfca
+   __DATA.__objc_ivar: 0x98 sha256:a890864d9c5e5532709ac15b56945b693a7671f30181b2bd2f1060f4d51c71d9
+-  __DATA.__data: 0x120 sha256:b2efdcc426973f83ef194b766f00e24e1577139f88951b8bf45b99362d2eac39
++  __DATA.__data: 0x120 sha256:12e6c42cfaea9aa5f9b86bfec08af612bde077cd7fa9c8850465d2cad3532faf
+   __DATA.__bss: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+-  __DATA_DIRTY.__objc_data: 0x1e0 sha256:b4858f234b733cd0eb84993871c8505b799100b18ea6c71275d18e8d70025565
++  __DATA_DIRTY.__objc_data: 0x1e0 sha256:b916ad250f7148e4308f382e15b2f03d8d039f54f94e4fd75d8becfb5fdc8d74
+   __DATA_DIRTY.__data: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA_DIRTY.__bss: 0x110 sha256:e4d879a3407de578f579dfab4366fcea75a6649c683d9efe4f056f6505437574
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 499B0777-9EC5-3EA3-B93F-208258C6A653
++  UUID: B86532BC-7409-3C34-930B-156270764215
+   Functions: 115
+   Symbols:   515
+   CStrings:  100
+Functions:
+~ -[PFCShuffle initWithPeople:pets:nature:cityscape:] : sha256 d8952149f51b2f7f3e493d2d5182fe537f37a4c9292bc99fc57e88c94661f349 -> b6a8dbbf2d3551d6bf263323c470cac59ac4089941c4181ed232d5847aa3b097
+~ -[PFCShuffle description] : sha256 5afcf3d94e5bb13de1ec2c954139e7454bc311f1bf979b8878a59e8eb646bab0 -> e9eaff2cff7085573a1f5234181a5eed8fd16d0db0c675398eb2d2113f8259fa
+~ -[PFCShuffle .cxx_destruct] : sha256 f61b510dba7f2c1354fbb7f06a7fd63c147a0b5601e19fe6bc5a2c70fbdf6e69 -> 2fd78b3037ebf536c59e3b305e04017cce086dba858bc6c7f5ab46939a67b80b
+~ -[PFCShuffleDataSource initWithPhotoLibrary:] : sha256 aeba4c6aeb47a0e0baaa7ffe375cf2ccd999e8e29e9e1dff0b2fe6ccb53f2b66 -> e5ba14e75e73fca098ee7fba47519d3b4071b6383d4cfdcd438a244a43fe4733
+~ -[PFCShuffleDataSource hasSuggestionsForSubtype:] : sha256 6150a5c4b4486959a818a5bf3f23f14461c00340aefea0c3489a7848b7e6d797 -> 289e0fcb6685ed8c5301cb5a9a997bc532a3855fac4b9efbea10306b29284e9f
+~ -[PFCShuffleDataSource numberOfSuggestionsForTopPerson:] : sha256 b5cad554e9b00fd0352be98a7511da3d9fbc218e03a15bf5ff5d97685a880402 -> 4c69c38ef890eeb07d0968a49698ae2e7b377c592bd1c011556fae677efb2c2c
+~ -[PFCShuffleDataSource numberOfSuggestionsForShuffleSubtype:persons:] : sha256 6783881a20625bbaf58c5538288ba9430a81ecd618755d27609c489c55c55ba2 -> 07a7ccf9bae0480bd6ca13e985a4ff47abd50c3d756ddc56eb6ac84b410c694f
+~ -[PFCShuffleDataSource hasSuggestionsForShuffleSubtype:persons:minimumCount:] : sha256 fdbd0dd9581a8e42470769b0d6c9482866823f4e0cedbb77117183b272f28c24 -> aa94ef7754ba2749d442d66172659df15a57dfb6cc7f34f401650ade329a9967
+~ -[PFCShuffleDataSource calculateAvailableShuffles] : sha256 357039f8b69a935c77b100886e33b8929d5252adccde6c4191355b196730b738 -> 1432539a7e3bd16140b844808d1606de1fb104397e430a7925b6e456f88dade0
+~ -[PFCShuffleDataSource calculatePeople] : 660 -> 656
+~ -[PFCShuffleDataSource calculatePeopleCount] : 372 -> 368
+~ ___44-[PFCShuffleDataSource calculatePeopleCount]_block_invoke : sha256 7bff56c778ff224f4d2165c3fab49256cedbf3347dde963a1f8653413e4ddd19 -> 87b1aaa9f3c2785647fc1fa88298f24e5fa1ece414d2b91e360f0502afe0dbd7
+~ -[PFCShuffleDataSource hasSuggestions] : sha256 c13495c7ddb101f16dcb57c952aab9fdc117eb2e00c6c3d14826a22a1188d810 -> 7fdf62ed10d94499e83759b0a08f72ab8b2e0f3c6620566505f8c6684d6c0f28
+~ -[PFCShuffleDataSource hasPeople] : sha256 ab13c59e600ca6390c0bd8c50c6681f76116d3492f88b33d3ba03e4f3f47c34f -> 19168cce957a5e2645ae52428e972886c71a6c1652b1fa6cc759d4539d9cef93
+~ -[PFCShuffleDataSource baseSuggestionFetchOptionsWithSubtype:personLocalIdentifiers:] : sha256 801ada7a796ed67a2da94b726589714022e6493050495a5e49878da639dbc21d -> e4410737b9d96d91d74b9616cda610e36f3ed1d41bef4fea664c73b4fab0b671
+~ -[PFCShuffleDataSource fetchPersonLocalIdentifiersForSuggestionSubtype:photoLibrary:] : 532 -> 528
+~ -[PFCShuffleDataSource .cxx_destruct] : sha256 10514642f460c1416bf779f7890c43c0fafd1560e361355a465f1e5c1d31bbd7 -> 0fd3ed1e327f1b5e6a67142d59c802ef61978277ef86821262798ccf4062ef31
+~ -[PFCShuffleGenerator init] : sha256 5661e4629cfa96b755471b6b1446caa3bb75b2696920154f09724446849c309e -> 454c51056dce3a8d84e1502b9695bbf35498cc8a01c41a48ab8072b555c0c6df
+~ -[PFCShuffleGenerator initWithPhotoLibrary:targetShuffleSize:] : sha256 81aa924910141db198702369c8409a178c12cc192438e68ff8e20890abe9fad0 -> f1882a774362f685c199d311bb268306fa1436d36c94f5e7fe648bc25cf7bb21
+~ -[PFCShuffleGenerator shuffles] : sha256 5ad4d53ff5f5ed989112c7a481eab937d2ebb6c8a7581bd55b162cd4768aa639 -> 122ca8b85004d98cd2297cade82798a5f37f720d180a1c20137cce294e973665
+~ -[PFCShuffleGenerator generateShufflesV2] : 1376 -> 1372
+~ -[PFCShuffleGenerator generateShuffles] : 1488 -> 1484
+~ -[PFCShuffleGenerator shuffleForNonPersonSubtypes:requireMinimumShuffleCount:] : 856 -> 852
+~ -[PFCShuffleGenerator shuffleForSubtype:persons:requireMinimumShuffleCount:] : sha256 485a985ec61683b0119530836e561c299b03a7f30881dadf4e072b59011ce907 -> c27c359d2586ed8b20cd2de5bd510145ecb58fa1288f337ca22abeaa97204a3a
+~ -[PFCShuffleGenerator baseSuggestionFetchOptionsWithSubtype:personLocalIdentifiers:] : sha256 c9d96fdf128212e073418c446fe6562d914bf376dee76bef9999e480da59c201 -> ef1b57e8d728de4034c6095e4906acd7eb6ac218be5235eadbe92055e9c1aa8d
+~ -[PFCShuffleGenerator .cxx_destruct] : sha256 c1d6b0783c7b40561dea3e0f8741fb3ea6c9c00acc70369c1f713f58e0f286a2 -> 37fb3257e12282adfc73457b7c51343fbe10dfa9c0c2b57c76968748e38c3215
+~ +[PFCShuffleUtilities assetsForShuffle:] : sha256 0c5094c88adfa4b49005877528a66e46b912aa6a77e8e642a4d84f891b03ebc7 -> d1199ba1c5ae07349542b29a48b8a99ca5cf697ec14fde77d8bddee10b449132
+~ +[PFCShuffleUtilities _suggestionOptionsForShuffle:] : sha256 9240588d4b6541389cd3a1c79128248f07ea11990ca78d963a9536b053f04cea -> cb80944fc82eefdc20fc50bebb522926df02956232236ef95f863a1c22e8698b
+~ -[PFCStoredLayout encodeWithCoder:] : sha256 6cc6e275a49e82e4809ed514461e2a678b8346fee083f72df0eed495dbb8fdd4 -> 67f53eeed1869b0eb70ed4913943c008fec5fbd3278ecd4802b838903aa4908c
+~ -[PFCStoredLayout initWithCoder:] : sha256 a20cf3f600d5cab75aba752facd1592ac99cba96c616c125f2040085dc87ac74 -> 21fb925d21b4afbd70a5a39a37d243e56b768857b557019d0093f5c24b51cc54
+~ -[PFCStoredLayout copyWithZone:] : sha256 c4ac1365e229fc542b1063e15c440c6174c7e057200022316240b1c1050f69d0 -> f0f00998d9ef1f7997adf39289d72b0ca9505a099197ba977d542fe198ff1f64
+~ -[PFCStoredLayout setBaseImageName:] : sha256 9fec4b0b0d63f98e3c95f568bf3349e998a3f7c293322838d0342514ace89ab2 -> aa9dc009aac348a26b2cea8488caf51fde7a6c2b03cc6b95ec23d71b2d67b21e
+~ -[PFCStoredLayout setMaskImageName:] : sha256 f8c40f7dc062b5af6243a0fd5613879035f4bc0f0b7726442d327b9d1f7d26bb -> f0660b574fc9b0f53f9df2e40e1796fda7cb3f4689d97924c98eccfde64f0631
+~ -[PFCStoredLayout setColorInfo:] : sha256 c4cbde098ab4ee428779462bd2a2793f03df7b64b041a06b5d85dabf3328e924 -> c3759035e59b16ace74df29b035a6339e153414108bd320fee0f2ba106b9041c
+~ -[PFCStoredLayout .cxx_destruct] : sha256 9456622d538512d7bee10adb0b0558e372229f683ff2224f54c005003a984c59 -> 22d57a3862d10aad8dacb47a1ef1796652fdab866eb36ece2499cbfc03cdded8
+~ -[PFCStoredPhoto encodeWithCoder:] : sha256 f414e81f6c1c7f7a0365ffd3b9d2c941ad649de9196b2ccbaab17843ee2e3cb6 -> 0b999ef0dca462d9b749f841f94ac6f8f629bd73f879d4e765d551fceaaf35c7
+~ -[PFCStoredPhoto initWithCoder:] : sha256 7adae6d8c7c94b2d0b1cbf0895c952523c240cfaf043353f5c6293905859e71d -> 012602480036aa1781b7e37afe201cc0049454b454f1756d8d0e967bcedcc5f9
+~ ___32-[PFCStoredPhoto initWithCoder:]_block_invoke : sha256 5ad1ae6f74e0307f84f569d4fdca4118dc9fb4e89271b571614935c084ca792e -> ae366a24d1f96dd24317bed665a874ca148fa6e0a5ed0f07597669d0b186453c
+~ -[PFCStoredPhoto copyWithZone:] : sha256 c0e2871294bb2094545821d6bbb6697ac8a75e7d76a4284d456cdbf1e6f62e45 -> 0597971b4a689f5081acd9ed3dcc4a6fefd921dda9fa0282bb2f4f3bc6917a37
+~ -[PFCStoredPhoto setLocalIdentifier:] : sha256 a68db673ed07012175302e9bb072db1aa620202b7390183fd3f7ffae1acbe8f9 -> 681b058501d34b9a6f5b7e082877475c510c53a469c6392dd52b9c7eea4f87c8
+~ -[PFCStoredPhoto setModificationDate:] : sha256 ff1411fe369b0b619184095505ed4ae69764a66716ade0e7e792c161a7d0c41b -> 08bac6bf6329e3c053448090d2e96c72376cff889849fd269f2b952ea0689ba9
+~ -[PFCStoredPhoto setCreationDate:] : sha256 e61147d9474333e5439bdc5aa06573d3d26c6694416880a97230fd289461be00 -> 17a34a7b3fce71ab1aabf78725cfc1744f9121e675b82638095fdc4cd7f525e4
+~ -[PFCStoredPhoto setTitle:] : sha256 de9181f1d9c3c414b8562dc2a376b7282e8ae1c96ac6899ae74f5ad98d47723b -> e733e26af7f1ff99f7d08c46bcd23fe9fa3f0e73682bb9391e7c8bf83c0831bf
+~ -[PFCStoredPhoto setSubtitle:] : sha256 eeed5731c4578ebc2a39e096b87980a3f5545cbd42e167a710d247b85c196e17 -> 65719f92ac4fe5000f6de25dcb7503b95852642ac073b68f45d2728b5c9b980f
+~ -[PFCStoredPhoto setLayouts:] : sha256 3a5fec98c7b1da4a06a121d844faf3c469e6c227d9e6145fc97af1b31d6098bd -> fc13cd31781dbba9e6c27fd64da1dea66eb458232b7aae1fabf770888f918a54
+~ -[PFCStoredPhoto setAccessibilityDescription:] : sha256 791f7f10eb4cc1b8a49d0c97ec1214d8e26981555ecb91554fc1c752dec3fb42 -> 5a220f9b3990cdec08fc3df8708d66c82416d6063e80945d042ceb0d3558d37c
+~ -[PFCStoredPhoto .cxx_destruct] : sha256 9a0733d40fcaeb23b37743c612fdf382989dcac685396aed37dc887d44c42046 -> 2fff72ad025036279c6dcd82dde23e34d1d47744668a2c8066fba89e4b51e752
+~ _PFCRectForTimePosition : sha256 3a3b0bdcc0b39570ba850a2722de986ccc705a93f9492fd4269ab4edbcb512e2 -> d0dd54f03a1c8159ac0c4d726d5b3c8ce13d3733e51cc46d3dbea7170efe37c9
+~ _pfc_shuffle_log : sha256 7dfefcea7581091626e8d55130666ee0bbff05a3938172945b0ec403f6ab3832 -> a56820a0c85763db3cb925b539af78eba43ab892d79a8d9c5160cce71bc57c13
+~ ___pfc_shuffle_log_block_invoke : sha256 453b5b07b14245a009a1ba7209465de4856212c3abb0af19c9cc8a09331ebb0a -> e56e3221f2a6bf1912010a8500ef9029bd7c073014ab2685e8c9df1edd659b42
+~ sub_29055579c -> sub_29190c784 : sha256 64c75241f960667425aa9410ede8368031a6488df4e75513cdbc9cfbc01c0795 -> 81beec6558449d35012d911dafeae3a5fb93aa2ae5edaf317d44ad2d4bb7984c
+~ sub_2905557e4 -> sub_29190c7cc : sha256 2e3fb1a34d47312ae4e89ba84a08b7caec85d50e0f5a7b46481cc9ba176996ab -> 4c9ee2c2162f485ce7d6e6a278e059bd93963e27a5789aae4aed0c79d06451f0
+~ sub_290555810 -> sub_29190c7f8 : sha256 c2ca17472bca6fb62b307f574e507f4110ad571eb79bfe9371e49b4434de8b75 -> 17ade7d627bc7a54a5b14aa6f79abbb9836cd6afe62b880775d82a7bcde19ba3
+~ sub_290555854 -> sub_29190c83c : sha256 ddd5270d7ed748bbca83f679c5cfbbd2a4de093bc2f197345a3d92b3cb720779 -> ffb7db74b733d0e9718bdbe0c50b8e07fa66c2de5b084beeac8b8a2eef3c410b
+~ sub_29055597c -> sub_29190c964 : sha256 a59423c5f4c8c63261a40c70037b1ac944feea38bc5aeb85486d4d651f71714b -> 1423bee163e984d742fe0b8c4171a0b922fec0ba69255400112b0a8044a89b02
+~ sub_2905559d4 -> sub_29190c9bc : sha256 eccdbaa2721777082b5b32884de205bcb814ee4d269cf7a37ff34386faccdea9 -> d94d1a1a27ef2c91280da19a8656751080d958caba845d2657148722133f299c
+~ -[PFCShuffleDataSource hasSuggestionsForSubtype:].cold.1 : sha256 18ff2effb6deb8eb750d8f3b272a68ce7e9fc4f17b51172a7449ef15a1e60c6a -> 761865f65caa64de48583467e3bdc2c37164d024eeffaa5d8d5933c53e748202
+~ -[PFCShuffleGenerator shuffleForNonPersonSubtypes:requireMinimumShuffleCount:].cold.1 : sha256 1978ff2e97b841931f1fdef44b462c2fe31b98c7620d89882b7f21ddfc28f00b -> eb33d1a00fb7a3f69bbff3607974b7a12296892859b9d12e355fba2b5eb5d037
+~ -[PFCShuffleGenerator shuffleForSubtype:persons:requireMinimumShuffleCount:].cold.1 : sha256 cbf834347a6bb143c28a504de8d8a4cd35714b00800fcbcd9604c2d04ac9d1a3 -> f8a76940a5a096f6bd66fee9a206a4b4e9c1822fffbb9e9fc20bdd297fb6ffe0
+~ _pfc_shuffle_log.cold.1 : sha256 c33a2ad49a3e5b4bd42b4a2003b0233bf4dd357f0918139108ca8c91b4b8cc09 -> 6748b7aaa5ab62172abf3019740a5a5d87213014ba76e3671863e2788e39cf49
+
+```

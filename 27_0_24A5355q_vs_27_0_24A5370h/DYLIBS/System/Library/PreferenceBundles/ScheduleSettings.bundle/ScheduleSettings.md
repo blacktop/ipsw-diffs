@@ -1,0 +1,125 @@
+## ScheduleSettings
+
+> `/System/Library/PreferenceBundles/ScheduleSettings.bundle/ScheduleSettings`
+
+```diff
+
+ 91.0.0.0.0
+-  __TEXT.__text: 0x329c sha256:3b8cfcf784724f9e00a00599cbb32a21ee2fbffd8e83c9732558c3aee8b3aeb1
+-  __TEXT.__objc_methlist: 0x3e0 sha256:0446a08f5953ca3f0b4dce26d2021a2c28daca5f0d41cff355a6d42266188fdd
++  __TEXT.__text: 0x3284 sha256:ad8c3815e3c5936f1836a04c47d488850c606a4aefc6bfbfaf862ad403c90653
++  __TEXT.__objc_methlist: 0x3e0 sha256:6e1c9fbd9837e4675255108fe3f3e17b3fb6977cfa1b111be41d609e79ca8967
+   __TEXT.__const: 0x40 sha256:955403c65d4658a56d2e2cdae2919d30092c2e58a1b764d88c3d7776715ddb3d
+   __TEXT.__cstring: 0x35e sha256:37aad0a9093b4e09a774f834d4be16b9c6dfe19171cc08f74290d96d67024180
+-  __TEXT.__unwind_info: 0x140 sha256:b7351a1890fe79c6ddb50b0d32e401d30afbe76523c9c1fe65f8cea3077c5f55
++  __TEXT.__unwind_info: 0x140 sha256:2bd7a81f52e3ca62a178c29135a48d194a284e4215c5172d9eea6da0141e23d0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x88 sha256:c8de448c83e1fb0644729b4c978683bc3efc9d4c475f28be5796b0409387ba64
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:c6828a33b0618e5a08c4f0dd0ffc18779520c437be5792dc0e3ea72dbe06e4be
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:79cbc671221af61a71a8d7e5d4a21cb44895d44ff6958b8071e10fac40f9da74
++  __DATA_CONST.__const: 0x88 sha256:38be62037ed6e9be5f3539a00275284d7520f4f9d77c3673ccf2dea0be97c9cb
++  __DATA_CONST.__objc_classlist: 0x18 sha256:7764621c458813c6e67d7baeca9411c01a064c614c7c94872160dc56505ffe7f
++  __DATA_CONST.__objc_protolist: 0x10 sha256:08544a7da490234b6cfe55bdffb15e64735ea4a924a363d8dae48da7cf5b3520
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x5b0 sha256:e3c27449eadc40c082ef9d4fa2f63ff2441cc162b754e5e5ad1df4c8c1ad3536
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:c6828a33b0618e5a08c4f0dd0ffc18779520c437be5792dc0e3ea72dbe06e4be
+-  __DATA_CONST.__got: 0x1d0 sha256:dcfc79516ad1e91daad9b8caad61e851eadb69772d61c2d313e8642ae4853314
+-  __AUTH_CONST.__const: 0x40 sha256:ea52cb444d6589e11d533debf3a6deaae718556a00af0f1d6fab6525a91cc1c9
+-  __AUTH_CONST.__cfstring: 0x540 sha256:87a14fb4cd96a7f75d804cf38a1e8a9a26e746182e547d826be528ed59c6d948
+-  __AUTH_CONST.__objc_const: 0x570 sha256:ed3d165326e303c7c5bf7a51a3d1b30ca17e8b0a8d5d739687201dca533e41f7
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:d48d004e2be3d57468609950d94ae0cde480f66cab20057638cd101783b5b188
++  __DATA_CONST.__objc_selrefs: 0x5b0 sha256:026eb227276011a91cc230af8a33140a2ab4afaecf889df46fcc3fdcbe2b78fa
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:7764621c458813c6e67d7baeca9411c01a064c614c7c94872160dc56505ffe7f
++  __DATA_CONST.__got: 0x1d0 sha256:4b2e2d763d251523b20b15eb1e749f90e65760005bbdacb45c0e392367251511
++  __AUTH_CONST.__const: 0x40 sha256:3bdc109aac4932674b6699a28efdf84dbbf8cc470252e13680802425aae08005
++  __AUTH_CONST.__cfstring: 0x540 sha256:a57a1b791942e8983cac9b54ada6b1551ca708790163f6cd5f71b508a0e502fa
++  __AUTH_CONST.__objc_const: 0x570 sha256:c71742918e5f2014c6c9e5ee05ecbf294026a2e1d7c0099c7c6ce2c5b6139e31
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:50a80bc7cdce9a9698ad2bb5a65f81891da93a10700a56e6e4d3e085bf63f994
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xf0 sha256:6408394460f8874e9c54d64b72aad72656911d6923eededefccf9a82a73a169a
++  __AUTH.__objc_data: 0xf0 sha256:841b974b451e8e2b2c89d37d03b06fa63508a42dfcdb120dc838cc7066e73d85
+   __DATA.__objc_ivar: 0x40 sha256:9ff9b3e9cf581b799b9120341fa749fa7aff5555b018b76a0d5ec688758ab4bd
+-  __DATA.__data: 0x168 sha256:c1453ba89929f1accd72fa8c9b7c645624f95d0e7eb77bf3cf4fd812b9e66f71
++  __DATA.__data: 0x168 sha256:9db89fe342a4fbe03c5fca02603082ff41d6c2169d915f2c4ee744905be96bbb
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/SettingsFoundation.framework/SettingsFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 43ABC53E-F3D9-3C19-9D95-CD1542255ED1
++  UUID: 4D3AB6D2-7FEE-33F0-A5A4-644B1B15195F
+   Functions: 63
+   Symbols:   428
+   CStrings:  89
+Functions:
+~ +[PushedMailboxTableCell _cacheIndexForType:] : 64 -> 68
+~ +[PushedMailboxTableCell _iconForType:nested:] : sha256 476ae9cf7b32c8825f9872fe5bff0fa4f99474335954dec470b09d4b62ca1e66 -> 5f329602dbc71ddaee2cf51d8739fd58cd19d345dbe4222ab53a9470a6d0ca13
+~ -[PushedMailboxTableCell initWithStyle:reuseIdentifier:] : sha256 d4dd36ba26f19d779ebe2245967952d8b5848d49d7fff0cff946d70148daeea7 -> fd0b13f132a64f6d4ef5007a4ff4d081ce2da88ebad7f5a4c1deed8d79a4fa21
+~ -[PushedMailboxTableCell dealloc] : sha256 6883fdd8430056e2836933e7db3d3d69b29e5aefa79c94a6244c55545c493d7c -> 4b99615b29899a49e0a40c9420a3857039d8e1af144c38230745912f2272ed7d
+~ -[PushedMailboxTableCell _setupMailFolderIconForImage:] : sha256 1df164366dc5d300fe21326189c64165d811001d372de6419c2fee376e9fc7f7 -> b5d1b3edf2743443f66967b9386e1e1708e3bc18349a4bad94791c69d1bf1c62
+~ -[PushedMailboxTableCell setType:] : sha256 d3a7b03c95a3f2f16a16a4f1a1c25e15ac0c28ca38091c9dc09ae1c0cbbd5da6 -> 9c6471ab1848439c35f92a2e153086a080e4db2cf8a7e140bf3d758a46b23a0b
+~ -[PushedMailboxTableCell setMailboxName:] : sha256 ddbd99ab9ab839719b4144f978d505b235a26817bf9ff9a5bf8c4fe0e9b981ed -> 791b5953718ba977a00b2c860e0b130117588f25bbf1cccab1e6dc5358279ea4
+~ -[PushedMailboxTableCell setEnabled:] : sha256 2224a60496af3c951a4445fa668f063450430b7cafcd9db33bae59b70198f52c -> 4dd3d2e0eb613aed35781d5d1c29d3d652ca8ea7fa5fee94add2193120d4e557
+~ -[PushedMailboxTableCell isChecked] : sha256 2ee5580c344a172b578ba5d379973100ac5ab4ddbd887530b8d7f173c4d06e14 -> 0c045a93348a83fea356c90d5f15927037ad235769f335cbaf26a9d2db79b5a4
+~ -[PushedMailboxTableCell setChecked:] : sha256 a8dc2ea8d4e6a502b28fd68e321b714e83a6a163a9ed085a9f1522c4fc6d3816 -> 404a0f27fa695bbdd8b27fdce9582c7ca14b98ee9ed256a6fc35fe933849214d
+~ -[PushedMailboxTableCell prepareForReuse] : sha256 69a40abdeab9fc896b9f48df7b9c15e7b66f47f3d57043d8286b8f5010ffa707 -> 1dc73f458a5dcd3fd40cd99096aa632cbe79778f188963087795fb4afd99261b
+~ _MailTableCellTextLeftForLevel : sha256 727a2b561dc6a22e88d43f3e3c20a95213d4d1f5791cb7f8ecd01a0b4c161c39 -> 307396da2fc1784898324aa00a8c48904b6b67f1d98bc71cc9ddcb6701191ccf
+~ _MailTableCellImageCenterForLevel : sha256 aa0a599744bca7b2fd0bcf4954f4ffc87579417054258b54262f7eda1f467097 -> 23a99d6c1762a2cce8050711263203fe116470033069da08df09ac534f6db288
+~ -[PushedMailboxTableCell layoutSubviews] : sha256 337833e1c5e36e3525783178b65a026665d4a64585cfb39f2660b05bd5cd6cd3 -> 99c79f4696e2c612caf3d77eac331703ebe67187555f950aa5de74e06511844e
+~ -[PushedMailboxTableCell level] : sha256 3410b3a862061c7320c9eeb4813532ff4eb6c70e801ca77c58170348b756709a -> 29866cb55f3d60e9361ae8ab5672cecbaf7d62fb9d505b6b9e3c464b5f1f67c0
+~ -[PushedMailboxTableCell setLevel:] : sha256 99a47f67460a18d1aa94d977e4532d6894d9221e2c707ba72aba297df1a1d905 -> cb1b880c62b847a7dc077aaf134c437a41514854542be6e6a06b23bdd92b9677
+~ -[ScheduleSettingsController initForContentSize:] : sha256 03e2bb7217b4026efe78a9d03c78fe8309883a200cd13db5b45522b2f1edda10 -> 1c7a23277577e0671970c4dcd7c3434e45ddfa4beedd2e6dfb77dd32bf0dc95c
+~ -[ScheduleSettingsController init] : sha256 d4fc35927263b3851c9ae335062e518f1764b13809a065f49c6326b7ce931c2d -> be64296d316806d0d4178300880e2ee7ecceb3b7a783817667a9a2717def4a78
+~ -[ScheduleSettingsController dealloc] : sha256 35b06f09bb7ec02a65e9d16666b25620a48872e32ae902b0e90f85940f085a1b -> 240643e26a59e81830a2572b3f9849ad6fe9da4b7b53ae5f15119ab0a7e5082b
+~ -[ScheduleSettingsController _lowPowerModeChangedNotification:] : sha256 a9af56df4d5d7532680ea838fbae3ce8d1a67551d05dfefc2d62c1c56a916e4c -> 44aee00c9a3b081b832250d67c96377626a7d698f93dfd971942504ccefa86a9
+~ ___63-[ScheduleSettingsController _lowPowerModeChangedNotification:]_block_invoke : sha256 351f7d9b313cf49983ad00dc58b9bf03444e90c915470c9867a91e627e65bac4 -> 07e846b76d4f665fead71da8dca5ae0dd79cd5910d1630db5b8440de583d9afd
+~ -[ScheduleSettingsController specifiers] : 1152 -> 1148
+~ -[ScheduleSettingsController _makeMCCSpecifiers] : 560 -> 556
+~ -[ScheduleSettingsController isExcludedAccountType:] : sha256 aa03c4163d24ee27de22ba1f76775d392edf9419a0fdcafb835eebbaa47bc4ec -> 73352549601f60e8b1f8f64c69fa446584eaf324c3212fb89e019c929d56c4f4
+~ ___52-[ScheduleSettingsController isExcludedAccountType:]_block_invoke : sha256 7322ebe150b473c146f8f64997d1f086e1e150c74b2c55bf949964c73dfee5df -> 83e000d42e31041c1fb7b426c5cf1f98663ae6a55b6a54fcd784457c057aa785
+~ -[ScheduleSettingsController _specifiersForMCCAccount:] : 436 -> 432
+~ -[ScheduleSettingsController _specifierForMCCAccount:dataclasses:canPush:canFetch:canManual:] : sha256 ac8812992c991711f42fd4b8127c2627ea293764d9f029ca1a080f3b69b70378 -> 4de75e77f25ecf313ba5f998f5cdabb22f0179e0c9ba3ffa6601e31c966c56f8
+~ -[ScheduleSettingsController styleForAccount:uniqueIdentifier:] : sha256 af5d5f846723b78e81674af2a9fc768b3589ee0f06980d336125bd2772b88311 -> 440dbf6814d8c97a92d4819773b799f0d8752e462d400f91f8ad86213a0107ae
+~ -[ScheduleSettingsController _mccSchedule:] : sha256 004ade210f4cb6bd0a3529905d0069dba6b4f79acfff0b14ba3ff2c81a4b84a6 -> 9b385d66255bc84d33942c29bc11d2e39783dc2846d61e0cdd14f6ded3b80323
+~ -[ScheduleSettingsController _setMCCSchedule:specifier:] : sha256 d4f91f2e24084ec7864b9a85c2de39f8ffa5b597f055f20de9a7aeb6560f9c56 -> 21af59b186008533da5befee10b84b6156849e23fec8ca2da8f488ef8c1bce31
+~ -[ScheduleSettingsController _readScheduleSettings] : 496 -> 492
+~ -[ScheduleSettingsController pushEnabled:] : sha256 a42bf9a7a6a6fa68a17b0d66539acaa78b82873c17ab6794670c5e6840e4c192 -> d0ae7470f9544283b4610f26131bafd1f91ed44fa61ed1b42df0b3733c88e359
+~ -[ScheduleSettingsController setPushEnabled:specifier:] : sha256 f08c0eb364c0f29e540744a62dcead488bd4a0dc4eb3a1298a328c5e927c5de6 -> 29aa64d9def20596aa19980d47fff7a722322eeb74cfce5f3164a0c7b37a1a31
+~ -[ScheduleSettingsController setPollInterval:specifier:] : sha256 e592eaf8cef08234955f37791192f832d8e3fdb70334fe8ae8fe37458ac93521 -> ed0edc70b810ac5448b546b90d2be71f34f91574eb51fd9c025f361d6cfda78b
+~ -[ScheduleSettingsController updateRadioGroupText] : sha256 43506d6a0e5ed36b837c4819d02d8712e71ee6489ea1f777588a5c9e0f8ebe92 -> 36e2e0b710690675b17bb17b9c821492a102abff1f747bb64454d80a42c8ce1b
+~ -[ScheduleSettingsController listItemSelected:] : sha256 13e69be4a6b51c10a862587959dac0a4f55e1000b02456ffb791efc58fa63a45 -> 3fe77a033f420b23450cd8086ff85d6e2262291d15f09e137e8e5def3aedd026
+~ -[ScheduleSettingsController tableView:cellForRowAtIndexPath:] : sha256 9ec5225e4beddd3b26b8d337adf7344b3c0056de536316da1455f16a37a72dcb -> 95e08347eccc91ded6071b62c25bc7e67d392a38fc64f10f7570156aa15a00b1
+~ -[ScheduleSettingsController tableView:willDisplayCell:forRowAtIndexPath:] : sha256 304438a19c32ee4edb8b9daa6c3bf9e8b0c011578ec433c8ed81e1680d340f15 -> acaf850960ea42fb9041318469e456bd22f310eabe4d9f9c6d3d23dee1f3ad83
+~ -[ScheduleSettingsController tableView:didSelectRowAtIndexPath:] : sha256 1ed17b89b262946d9d1b9b132fdfdf7cc0eecdd79b69e2eae73db3e72001b5e9 -> 72a5e777dc63e6eaf9484fcf842cbb6cfd8d46d5e1cbb87b8828d4f83adbb89c
+~ -[ScheduleSettingsController configureFetchDividerCell:atIndexPath:] : sha256 d773325d4ef0bd4f513f9928bca27fd520ac7a9ad13261e467010111923643a6 -> c77495c9f52d73adac5ca79c6da605a9da59710e46d9650c0a3ac0cb3ad3c1d6
+~ -[ScheduleSettingsController tableView:heightForRowAtIndexPath:] : sha256 37806aed7f3b5d4c3c66895eb60ec314995409b421e9ab81ebb4623d0d43b844 -> 7766a4ffadc2ff5c63c26c23409e0b186501256560f70714f21176b037ae701c
+~ ___ScheduleSettingsDataclassIsFetchy_block_invoke : sha256 d107656389590ebe8a35ee8ac73145b1bedf966a4a7326e846af21acd661c40b -> a37631909a8e617410572b32724151f54a4f18797284f2a9acbd6956e5002b92
+~ -[ScheduleSettingsStyleController dealloc] : sha256 32946d702dafbc3f75bd4b84001eeae2bab76f57755db7e7d2da2036b9edae67 -> 9359a86f6b6f4d7e945df1a9787f76cb7d3152a99c8f8bb5f1b3cb8ce3d4b9bb
+~ -[ScheduleSettingsStyleController viewWillAppear:] : sha256 f0859f41ca1b2d92afe0991b1d51e30c744b346cc4d352cecfa4409951b695fe -> 4623d1d8a4b480634d63f30ba0e8ea6a7188f14523c2903b0efb8ab3044dd7cf
+~ __DAFoldersThatExternalClientsCareAboutChanged : sha256 bed6c18a0819306eab6042d80c1ea0e633714cc92f1e70a13a7105eb43b72b07 -> 16f3c2fedd87a9d0f262b30f92d513400395ce1751f93efe175998389ec85d4f
+~ __DAFolderHierarchyChanged : sha256 406bf57e359f731a1de369b6ba7039c16ee2207315e817df98795485bcff8862 -> 5f7ae4f755e47e0b6926beaf575bf897fff3d6869adc58dd33cb2249d02cb40c
+~ -[ScheduleSettingsStyleController viewWillDisappear:] : sha256 6a0eeb976369acd5deb1e8d721f25ab3330fe1ac9da1571ca48ec4f81e4bdd24 -> dd9563b559181fe32175b843709143b3de08e02a6ff76b0dc297962a1ad85b8c
+~ -[ScheduleSettingsStyleController specifiers] : 1156 -> 1148
+~ -[ScheduleSettingsStyleController reloadFolders] : sha256 572a676a86a4c92464acc44b6ac8b55953dda81da92282176c3544d5ac9f5884 -> bdb3272e80b9104f6b60aa22fc442e59775c27dbbfaf9dbfdfd519c16884e1fb
+~ ___48-[ScheduleSettingsStyleController reloadFolders]_block_invoke : 340 -> 336
+~ -[ScheduleSettingsStyleController shouldShowMailboxes] : sha256 36a638915516027102e3ad28ac22e7e01fad19db96dc869d93baaa5f271e85c8 -> 9733a2a177aeaf30b21ce77baf28565baa2853d7ceab88abccf9b4511e985adb
+~ -[ScheduleSettingsStyleController notAvailableText] : sha256 14724f7896079f5976b61ce7488b4f1acc08e78b9c709ac5b72df2da7dd3f9cf -> ffb2014e8bb56a9033eef0b881233ccc2a1888d35513ed706263e898c25ed230
+~ -[ScheduleSettingsStyleController listItemSelected:] : sha256 f45e769428eb939e1b22a3a209a04243a0ccafe7f900ed8e53a4e9fba4373dc5 -> 232a23a1829dbdf69e65e812d5ac00a6f6eea55038f3dbdd3a9b82285a2b9523
+~ -[ScheduleSettingsStyleController setPushStateForMailbox:state:] : sha256 b552cd6797468b8b2ac498a0e2ee8b77ec5306b2ea44a98217fd450a7136eb5f -> ce6c45705f9b1c7979f1317044a53b841dd44f0f33d14582b69ce67a50e59a71
+~ ___64-[ScheduleSettingsStyleController setPushStateForMailbox:state:]_block_invoke : sha256 9b03c66ec1835e5f486c490f099022e73c1dfbc936359c47a0cc096f0f440b1f -> 51d24920aa4e7ddc19a3e5b31c49cfdc845dd84b9dc0712e4083ecb94a623470
+~ -[ScheduleSettingsStyleController _reloadFoldersAndSpecifiersForced:] : sha256 cff6ff52627b2510dea55b2f804ac89e5204f86fc760505a7d2310736008e02a -> 15bb3d96e0b67b2be1cb0af2f396cff91f21e0c18fe28921cb5b03799f7b8570
+~ -[ScheduleSettingsStyleController _reloadFoldersAndSpecifiers] : sha256 38a0275ee505e82b759fb76aa374e5b99bb52466d230e5a8bba0ebb02bd57438 -> a79ded3c45e1b40473153a4c234d56de5d9c0a1f7bbd8ddfc96acfdadb19d20c
+~ -[ScheduleSettingsStyleController _accountsChanged] : sha256 9967cace259c754c504ffd5cca5f6aab42a9add33973fb4d1fb91e3692df5930 -> a7815e8b9516aa9693d6dcd6d6a2560f986c2dc31e219d29250313b78a393fdf
+~ -[ScheduleSettingsStyleController tableView:cellForRowAtIndexPath:] : sha256 258ba4c6b0a2d34c4c36a1e64138d6e4b80850c12e23761d8440ef6e32b3fd43 -> e211a024147828c30a8efdca5b57c73540cbaa0c401682344132b24168567192
+~ -[ScheduleSettingsStyleController tableView:didSelectRowAtIndexPath:] : sha256 ad234f0d3e3145bf6da76a19eb876ef64e980beb4d4342cfdc0245672d1d6bdd -> 493773b779cf97443d2812b00f534414f3bf13f230c258e547c0f552c757e6a7
+~ +[PushedMailboxTableCell _cacheIndexForType:].cold.1 : sha256 ff147ad3f2dd35deb578b8b0e5314e2763df9fbc87e4dc6f1bd0842f6eb9b73d -> 8e40b16288edf8c75b3529c9924b3994fd49f6746583f37fd110c95de3c914e1
+~ -[ScheduleSettingsController isExcludedAccountType:].cold.1 : sha256 a5b731487076b17b9f238d211f2f468d0377586beb2776a021133716446af2f4 -> eb8b260da83bc9ac8567981a36b243149e25504710aee4e029500801fc5850fa
+~ -[ScheduleSettingsController _specifiersForMCCAccount:].cold.1 : sha256 842b5abca16a644aa5c9a1950db35bb8f382b4019e61cbf33c369bfc4abb9399 -> f797ca202ac44755f47a3fa33b902a7de32dd4dd89322e8c5c5b372482d9abb2
+
+```

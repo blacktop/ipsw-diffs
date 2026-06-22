@@ -1,0 +1,271 @@
+## HRTFEnrollment
+
+> `/System/Library/PrivateFrameworks/HRTFEnrollment.framework/HRTFEnrollment`
+
+```diff
+
+-40.28.1.1.2
+-  __TEXT.__text: 0x93d4 sha256:9be0ed0d7a09e03bad7f40caaddc100995d352dc0d799e8478e60720d8185f3e
+-  __TEXT.__objc_methlist: 0x8d8 sha256:7f4a90c9cce4f4b955a8546d973ceff7c719aed34bd649e9e6a460888df961df
++40.31.1.0.0
++  __TEXT.__text: 0x93c0 sha256:efa5627c62bec46f03233ba13f56272c25f4b351eb728880f832fc40a7ec0f66
++  __TEXT.__objc_methlist: 0x8d8 sha256:4dfecdc78543629f31b32ad66d58f63b490e955be2f7654d649a4a2f4e6ccd1b
+   __TEXT.__const: 0xd4 sha256:a598155e850da0d9b5942cfae940bb619bdc13a569d978e25922bbb6e7d93336
+   __TEXT.__cstring: 0x98a sha256:a590e954e8a0c723121791011ecc74c2a421278e86c9045c7d29c5c92f3cc2d5
+   __TEXT.__oslogstring: 0x4e7 sha256:48b90d8c357f16dc4ec9dcc3cce4acf69f72a88c03333d6eef426a82deb6723c
+-  __TEXT.__gcc_except_tab: 0x390 sha256:bd7fb4d113143f1fb28cad6d77a686b12d4976bf65afc01bc9dbee77ff961120
+-  __TEXT.__unwind_info: 0x338 sha256:7f3d4f3f746004b3660632a753933cf01cdf3838c2b5bff3bf6e49b078b62b31
++  __TEXT.__gcc_except_tab: 0x390 sha256:b9939f7b26d898c824722a87172833ed88207322fc1aa0cda842184513a19f5c
++  __TEXT.__unwind_info: 0x338 sha256:1c35cab6171e7e9feeb8f8cd8f8439ad98914b09790da7d53759d3c3b2556c96
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2b8 sha256:f45ff7cf4af41066575bda44d8a3209023aaf28e86d4ad1f4c1e5fb7f4fe5e19
+-  __DATA_CONST.__objc_classlist: 0x58 sha256:b06acb4b2aec3a4bc6dec11a4c46a8a1791782f3cecd50522ccfa633334fc97c
+-  __DATA_CONST.__objc_protolist: 0x48 sha256:0983d8589709ded8503a1807d13a0f04f52e975fe41c6c454462f770ba5fd653
++  __DATA_CONST.__const: 0x2b8 sha256:c2f2206a8f4cdc5f421e7a684f1bfdc9020ee4594a5fb931fd07726e93c5cc07
++  __DATA_CONST.__objc_classlist: 0x58 sha256:b9105c762de5f887255eaea013d8a8272626dd1ec8b55be91d492f6e879bd7f2
++  __DATA_CONST.__objc_protolist: 0x48 sha256:ed178535bb54720a34dc2c6a7edabc326b5c256ea4c868970ebaeed0f8a84cc8
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x828 sha256:a688a9527cc72ff6127ba3a85ef83b4acefac4e3c50fd78c87dd6a53e252fe5b
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:ce3cc2502f9907b4ab97208e45fcc884e64e41f3ca6e931d64df1a0d0835ea91
+-  __DATA_CONST.__objc_superrefs: 0x58 sha256:b06acb4b2aec3a4bc6dec11a4c46a8a1791782f3cecd50522ccfa633334fc97c
+-  __DATA_CONST.__got: 0x1f0 sha256:54f6172aae084d6584c24a872435d3f080a07762836f2125a43926f57f57f0e6
+-  __AUTH_CONST.__const: 0x180 sha256:d137a7b1df57326d67004fdd2c883bbb6c2ba3700ff2eefac7404171a3d96f48
+-  __AUTH_CONST.__cfstring: 0xb40 sha256:94dd5feb80f6d0bff3e8548157b0ea54fbed3a8578f191da765853676bed8bea
+-  __AUTH_CONST.__objc_const: 0x1ea8 sha256:cf86ae2e0f60d023db464666074da80252bd42625002e301f73af6ff8977d7fe
+-  __AUTH_CONST.__objc_intobj: 0x78 sha256:2537cfa819694806ca966cee8bb67b0b89f9b5350620ddae69a9e0758d9b9aac
++  __DATA_CONST.__objc_selrefs: 0x828 sha256:0d36a4c91b15bb08ba73c99ee2d58d482790367eeed2a7aed92102b9201e6dd5
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:5da1bb70ed44a7336f783706150773d632e3457eb34745399c1b828efea27d31
++  __DATA_CONST.__objc_superrefs: 0x58 sha256:b9105c762de5f887255eaea013d8a8272626dd1ec8b55be91d492f6e879bd7f2
++  __DATA_CONST.__got: 0x1f0 sha256:ca9d9012e54f9f539851544ee39c847858229e9f8eebb8c1b11ba1a97241eac3
++  __AUTH_CONST.__const: 0x180 sha256:89053e74017e4ade960b879ce0d6abe2ad4e67f7cc0bcc33bf095815c2f279ba
++  __AUTH_CONST.__cfstring: 0xb40 sha256:24802fe921fb2dfa53c8a05987bd967e5f155ee1f0432e8d7ebfa1f3007ecfb3
++  __AUTH_CONST.__objc_const: 0x1ea8 sha256:2e98449419c3f066640eabc8a6bb68ed9d9ee2876c64e60c7d431308502e7eee
++  __AUTH_CONST.__objc_intobj: 0x78 sha256:f4b099fc5e1a97f69db9b0807b4c128323b28cff2ba78f2e6c559c2d0386be69
+   __AUTH_CONST.__auth_got: 0x350 sha256:4925b9b6329f24346bce043f2cdabb940199fd87188f3ae77c9559bf7cfa9f43
+-  __AUTH.__objc_data: 0x370 sha256:a5a9df492f9d74eb2118aa777403399dbf5e79f04a738b1938b32ae452e47a99
++  __AUTH.__objc_data: 0x370 sha256:2ead9b26c1045d2ac21953eb9538f1a43de608607d2b308a1e64112dec7915e1
+   __DATA.__objc_ivar: 0x138 sha256:acb6ccf77946c4824e9816e13e60ff5251ed3618da0edf5b80ba16c312df0e4a
+-  __DATA.__data: 0x3a8 sha256:5dda0ac1691ed63c732d8afed3a75b71d00b35c5c40b5a21964f3234049787c9
++  __DATA.__data: 0x3a8 sha256:611d666dfdc80a403b1226922e49b7e208ec2120f0093cf09429a0eddd73cb28
+   __DATA.__bss: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 46BEA4FD-016F-3201-8909-556D8F7A24BD
++  UUID: 39BD2072-D9AA-3BB9-9C18-562DEA491DDD
+   Functions: 182
+   Symbols:   1110
+   CStrings:  251
+Symbols:
++ ___37-[HRTFEnrollmentSession stopSession:]_block_invoke.261
++ ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.234
++ ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.237
++ ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.237.cold.1
++ ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.240
++ ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.240.cold.1
++ ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke_2.236
++ ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke.254
++ ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke.258
++ ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke_2.255
++ ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke_2.255.cold.1
++ ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke_2.259
++ ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke_2.259.cold.1
++ ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke.245
++ ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke.249
++ ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke_2.246
++ ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke_2.246.cold.1
++ ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke_2.250
++ ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke_2.250.cold.1
++ ___Block_byref_object_copy_.262
++ ___Block_byref_object_dispose_.263
++ ___block_literal_global.132
++ ___block_literal_global.239
++ ___block_literal_global.244
++ ___block_literal_global.248
++ ___block_literal_global.253
++ ___block_literal_global.257
++ ___block_literal_global.353
++ ___block_literal_global.96
+- ___37-[HRTFEnrollmentSession stopSession:]_block_invoke.246
+- ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.219
+- ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.222
+- ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.222.cold.1
+- ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.225
+- ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.225.cold.1
+- ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke_2.221
+- ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke.239
+- ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke.243
+- ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke_2.240
+- ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke_2.240.cold.1
+- ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke_2.244
+- ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke_2.244.cold.1
+- ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke.230
+- ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke.234
+- ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke_2.231
+- ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke_2.231.cold.1
+- ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke_2.235
+- ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke_2.235.cold.1
+- ___Block_byref_object_copy_.247
+- ___Block_byref_object_dispose_.248
+- ___block_literal_global.117
+- ___block_literal_global.224
+- ___block_literal_global.227
+- ___block_literal_global.229
+- ___block_literal_global.233
+- ___block_literal_global.238
+- ___block_literal_global.338
+- ___block_literal_global.81
+Functions:
+~ -[HRTFEnrollmentCaptureAngle initWithAngle:captured:] : sha256 8443d7a1d281ca4092a5d5adc26ea7c00fd9ab2925cf1cfca2da5053bdfc3a14 -> fa749d0a86480e52c4905f68250a13309fb224c06e4e2fa979a705f068eba23b
+~ -[HRTFEnrollmentCaptureAngle encodeWithCoder:] : sha256 7bfc2e1b8d4589647b6cb77f8a88000ae2b0d56e9848e54a0b8d1a2a155c7ea8 -> fc9cd218e73b3ff3e52976ee255cee13ed78d94447ec0babfb858304ee07b82f
+~ -[HRTFEnrollmentCaptureAngle initWithCoder:] : sha256 1a10265e9444ed22280097ab01fa216e5238dbd3c299c6843ffe3b4190cb5b6f -> f8dd41e5fedea7eed113c9e2a90a809d9ad28d132f6b90323893d31be9361104
+~ -[HRTFEnrollmentPoseStatus initWithYawPose:pitchPose:isEarTracking:yawAngle:pitchAngle:] : 924 -> 916
+~ -[HRTFEnrollmentPoseStatus initWithCurrentYawPose:pitchPose:yawAngle:pitchAngle:faceBoundingBox:] : sha256 877a8dd8887f9a01fa1ef7d04f5c81806e8b26e9bb8a684a070492005857e040 -> b1644712d4f3226cbaa7f248f083040cf3cc5fcc62f579b137ba9534d5042b1b
+~ -[HRTFEnrollmentPoseStatus encodeWithCoder:] : sha256 2769dfaa333f7cbf5f35df1105f9e2a16bc85520e392ec70e1d1c0dc8dfe4499 -> 74e24dcd3d2d9566850c9491b04b3b6c623ac5e297ffb5f966fbbcb46b16ce84
+~ -[HRTFEnrollmentPoseStatus initWithCoder:] : sha256 7c32acc8e45890d4548974d8ebc5f69e6cc8296400444370eeec3f7765c2458a -> fc1fdc7cdabd8cb741545008cf94aa867a90514491fe89e16b015bef9f25411b
+~ -[HRTFEnrollmentPoseStatus remainingYawAngles] : 428 -> 424
+~ -[HRTFEnrollmentPoseStatus remainingPitchAngles] : 428 -> 424
+~ -[HRTFEnrollmentPoseStatus yawAngles] : sha256 ba6f39391d1ff7343e07a2f392f9e45d94daebb704ef38ebf75d54cbc011a3b5 -> 809b114c1515f6ff2dccf7e536301fff68c96e9dcbbcb557a4c77b4c93086a88
+~ -[HRTFEnrollmentPoseStatus pitchAngles] : sha256 d46d3252cc967d6deb500169a412397430d6db63271aa7e095fe484077606d71 -> 79774a128fcc0e1ebb11ce4d8b94335589d381a7af82888b3a22443565f98068
+~ -[HRTFEnrollmentPoseStatus faceBoundingBox] : sha256 8b2bd92b8a30cfb4a9ff9bae7d7306a9e2eb7b4a82a7a97e3de5388ba826980b -> 32c64ede646412e82b8bc382803138171f0a8f6d937d4458aee669a493abe870
+~ -[HRTFEnrollmentPoseStatus .cxx_destruct] : sha256 b20b4df48758dea475128de482bcabbe9864466df549cb6c905a1cdb48d77781 -> 13545a1a63ffd41b72c9bd8a82dcdaaba2e224d88ab1ef6a40d8325f5cc2d62f
+~ -[HRTFEnrollmentEarPoseStatus initWithLeftYawPose:rightYawPose:leftpitchPose:rightpitchPose:earSide:yawAngle:pitchAngle:earBoundingBox:earCaptureStatus:] : sha256 8df89a0190fbea1202897318295760ddcb185312c41d1e709b89a5ec50d1bbd5 -> e3203c9649f0e8ef4bb91cbe78b382d090c4c121b7b69dbf7e5b11b7a979d0b1
+~ -[HRTFEnrollmentEarPoseStatus encodeWithCoder:] : sha256 c4e2334a9026e8c1cb9bb9cf9c82347eef5d642f0e6d512e2481d5e01ab58f1e -> 2dea80666786ded067c4b6d0ab7a4535a9ed4095322e822b4919810c7905ac0d
+~ -[HRTFEnrollmentEarPoseStatus initWithCoder:] : sha256 fb0a5750eca4f2b9122f9062e96023135d048ff9a921d35ece732a212d53756a -> 0e199828a3bbbc17fe93b1733103a95542d49080a35d52188d0eb010ad031de6
+~ -[HRTFEnrollmentEarPoseStatus leftStatus] : sha256 419294f6e2adc4545c8a5377cce77f0e664929924a8436a71eb117c14baeccc4 -> 605631731948e93729dc4bd5d374699e343094ac2458539079e4278feda88ea8
+~ -[HRTFEnrollmentEarPoseStatus rightStatus] : sha256 d8439b022dead30c9776d82f21ce11c2dca729d184799e49c10160e140cbc1f2 -> 61af8f5038ff2082e9b3f9a7b4b3459d2120fdad39f2d8fd097c5a0034cda73a
+~ -[HRTFEnrollmentEarPoseStatus earBoundingBox] : sha256 499ffcef789ebe95db958d2a23f035b8b50361f399ab3030cc9d2bf569e3f2a7 -> 4b9504d0d9a9ea2a82f6640e1881d3488cedd539e1d6fdc9d9cbbf5ac329206d
+~ -[HRTFEnrollmentEarPoseStatus .cxx_destruct] : sha256 161e26bc979c97ed7a2a635c079e560c87aa9c31b099705b84217e1473ed7912 -> 5e4fa5ebeb69c3b42c657db8840be972cab095567d18a6093fb65a475f11b0ef
+~ -[HRTFEnrollmentAssetDownloadProgress initWithTotalBytes:downloadedBytes:isStalled:estimatedRemainingTime:] : sha256 3ef207b37049b53fcbca97588959147d03dd2ccaa4f8805d05adf776cf3a88dd -> d08641b05edb0401e493ffca5154a29fb852bb19f093ab94ee06b8a2a2fe3692
+~ -[HRTFSerializableFaceData initWithFaceObject:] : sha256 e11cad72bc0219280eca090b0de4d333074b9f135d543207e5d3efdde5947346 -> 9abcac286119f71f99b0975ac88d5e980328f36d9abae5c6a1f1e36489991dde
+~ -[HRTFSerializableFaceData encodeWithCoder:] : sha256 17eca4a2af5a927e5ade7e0f970ed0143951e5f825d2c365e6bb619abc89b30e -> 374837b250ec16f6888ffef7fef905fa8170a2c04b3195ff8b029ef818824b59
+~ -[HRTFSerializableFaceData initWithCoder:] : sha256 e75ee64a4a821a34459036faa7f3b5b1ee46d3ad014e5cfa9f8a38d8f7c61bb0 -> 8df9d44cc2534e151712e1d2671e740d89561061d7ff8b043c7f8d6ce47a9f28
+~ -[_SerializableCVPixelBuffer initWithCVPixelBufferRef:] : sha256 db3a2cee77567ad781d733c364701c748bc2286f94c68642f68747eeff18c813 -> b91a1cd2896f011b2c95cda5caf0c30215e1cd8948fac08be6ce2c7cd8c36de9
+~ -[_SerializableCVPixelBuffer dealloc] : sha256 74306eaeb4bdec469d436c83f5293613c43a2293c31e325174fbf81d188e3b2d -> 648f01a29e4fdf329541e1ef1edd6371f13eca6a9c6aa95eda995c47136048d1
+~ -[_SerializableCVPixelBuffer encodeWithCoder:] : sha256 0511b52182cb98d227182d322e3d28562fde84fee6de028d58162c5163d3965c -> 61ec8b0ee99427f177188830f543d607f2c2d328ff894657b01b3a29b4ec716a
+~ -[_SerializableCVPixelBuffer initWithCoder:] : 2156 -> 2140
+~ ___deallocateHelper : sha256 18bba1e9bb3d74630687ee74179b42a28e5b8c65bb3e2169e541a1c6bed94859 -> 3272c7706455a9c4c692a2bafe36c7c604373b72f0eb1d78775704642e341bd9
+~ _HRTFLogObjectForCategory_HRTFSerializableCaptureData : sha256 c113124b0d78422debdb09180a89724ec56adfe8a14c14743140fa657be0166f -> eb6154b15a5ace9b346654fd6d245d25f0edf475266af6c96e9b367a41825fd2
+~ ___planarDeallocateHelper : 64 -> 80
+~ -[HRTFSerializableCaptureData colorPixelBuffer] : sha256 69c259be293596672f10c50c4fcaf850fd1e8100c61f4082e41a51345d144faf -> 024c6e9c81712767619e4aeb1f0e13b6459008591a89c75541a0e11010c38359
+~ -[HRTFSerializableCaptureData depthPixelBuffer] : sha256 fb85cd84e060e01775eb355aaa0052f896e589757fc725b297592805649364e1 -> 36c442b08352b3ce05764cfd13947187a880ffe90822f7610f8d3a93d4702560
+~ -[HRTFSerializableCaptureData initWithColorPixelBuffer:depthPixelBuffer:colorIntrinsics:depthIntrinsics:distortionLookupTable:referenceDimensions:distortionCenter:timestamp:] : sha256 45fe88e610a8248e3e66d2245c817014b0bab33a7176d82725e42137a43d18bb -> 1d9cbaf4f5461804cb0348852824c33394a5315c9014cfca1707607043bea447
+~ -[HRTFSerializableCaptureData encodeWithCoder:] : sha256 2d1c5c195722e63adbc560a902d52599b3a46904f702db4b51065f92c4097522 -> 3c9997522777248345d69f7a16a4739d17eb68121cb2d3f1b92806037863cba6
+~ -[HRTFSerializableCaptureData initWithCoder:] : sha256 c3977f6a4b7c69f9bc339e12d71ee794edde3db62b482608d604b8a161e2695b -> b8c0f5ce5d9de4aacc9c8f27412dc96f42a38fed284ee10d22fe5863f249d6d1
+~ -[HRTFSerializableCaptureData .cxx_destruct] : sha256 a89a62f3de415b045d17efd148aa3b01b017d084c0435ff4bbd1f79920c2025d -> 706c566957d0c5ba9d18a6a1473018689bd5ab5058d5a39c0d72cfbe6de61694
+~ ___HRTFLogObjectForCategory_HRTFSerializableCaptureData_block_invoke : sha256 11ad4792ab735fd2abbe5bf56903384a219c54e0d5c062627e3e9cc464b102e7 -> 22735e4708928245d0d71965865fb2a3d79c9da21b6cf0fa5d3568a677d4a21c
+~ -[HRTFSyncedCaptureSource _verifyCaptureDevice:] : 1296 -> 1288
+~ _HRTFLogObjectForCategory_HRTFSyncedCaptureSource : sha256 1a18f3ca3952bbedefc739f119b6fff7c682cd5d3f39bd415537c8a8c03cbf72 -> 092206bf6a063b2687f08f0dae0e136ae1e7ff1296dd7eb5fce569a89b4e535b
+~ -[HRTFSyncedCaptureSource _configureVideoOutputsForDevice:inSession:] : sha256 ad3a74ef63d3cb6673c635e4da057696268768b886718ccf25912dfd1335ad29 -> 65f17514a990c6dc4d04393d71ec0bec971a07bf74022c949dfd940d4da40e15
+~ -[HRTFSyncedCaptureSource _initialize] : 1336 -> 1332
+~ -[HRTFSyncedCaptureSource initWithQueue:options:] : sha256 1221ca03d2ce371fe7d78e80fdc7a57b4fa0441706dc87eee4e87189b065f3dd -> e80569e4292b458d00632a491fb90c83c028a538fea4443355a08d6fce9c721d
+~ -[HRTFSyncedCaptureSource dataOutputSynchronizer:didOutputSynchronizedDataCollection:] : 704 -> 700
+~ -[HRTFSyncedCaptureSource _handleCaptureSessionNotification:] : sha256 fea038c56a2df82106c3ebd4b57b5ded28e6ec6f669508868579c6ae8a0d6c87 -> 746fee1fc21670655c4e6ba7a3c650987c0939ffbc13742df9c1fa835f429f8e
+~ -[HRTFSyncedCaptureSource startCaptureSession] : sha256 6c1bf722cbcc1f78c64ec0468d6565e8b27525aaee783936f7989d5b69651602 -> d92f1562d189c08506dbf3d1667f3cac44c6184f569d9154d43a38c69dab92e9
+~ -[HRTFSyncedCaptureSource stopCaptureSession] : sha256 47ed29efe43f8779f1dd23029272ee78e4d1b0de14f70f900e71e8f424be10ae -> 3ed6cf3ab2167884891c68946a3737553a0770b944a05409d6e84cf137fb31e7
+~ -[HRTFSyncedCaptureSource delegate] : sha256 ac857c36a151a6090a3dfb69b935aa2dbfbfeead7a00881998c31d788a73bbd0 -> d1100a7cbf078d0c7f41b1ac73f95c36ef0f3930790a02d2379bb94baaa5131a
+~ -[HRTFSyncedCaptureSource setDelegate:] : sha256 f6f65a19b683cc87cc300ca76473ec04bd07fc903e75f87fdd2e685daad56a1a -> d9f7a57820d04ebd2281ab5d92b265f8661227333e331f1877eb594cce82ee20
+~ -[HRTFSyncedCaptureSource .cxx_destruct] : sha256 8a21732fd62a812fb51c15157083b25c9f67169cccc36fdb1c1903dc91c2f84e -> d99a53cd0c9cb4d383efa37ef04c2f7d4874a05bbbb8b2db7516bdb40f01ff65
+~ ___HRTFLogObjectForCategory_HRTFSyncedCaptureSource_block_invoke : sha256 046dacde4244d0e7ade2b8238500ec3026a21d3a0cb5879bc1e6f0b6800f848a -> 61044d919b83cba82d980bed2b41a182fa59de7447491b64150dedc313f4af60
+~ _OUTLINED_FUNCTION_0 : sha256 4055ffbe8dbdefa9422505bb4443de43c82cb074bb071fd2c9042fd42d9caecd -> c60a54e01884e6d60573554aeed06f5449639bc1064637d808821c262d39e6a9
+~ _OUTLINED_FUNCTION_1 : sha256 5b29299f450ee79e7aa4015a69ca1e8bb0eef4053e8ada59b01c561dc88d9c70 -> fba55976fbcbfb62d4dc888934776ae2d82908835ccb816a853f331efa8da858
+~ -[HRTFEnrollmentSession init] : sha256 1381b49c6070ef34e90acb1d3e6a7e2937f0fb229dac9aef31983e9fc0fa7712 -> 2c7610dd17268122754d74e00f91cb870c7ee4b241ba6de2be432b51e4c12eca
+~ ___29-[HRTFEnrollmentSession init]_block_invoke : sha256 8c76f31f1e2b46f508e2d4e1ae292048ff630284b75404f420e4be73c687757e -> f3a200119f293adb85289f001cefd09c20b9c9985617818ddf6850404daa7f2c
+~ -[HRTFEnrollmentSession initWithCameraSession:] : sha256 81645ef230e1f9e576ca08a5bfb0488422e8ce05364cd7f5b9394f064126fbfa -> 2f8bc15a19ace46997189b9456358dfb727923838fe5c2872db53d6c47e60595
+~ ___47-[HRTFEnrollmentSession initWithCameraSession:]_block_invoke : sha256 739a7d91653dd5b957694a3d758e9cf6653a624a42b459c7fee7782c5e9dc2fe -> fffcdc1087bab2e9d81bcd4248a88cc486cad2dfe22fe4f9b0fa1b5991da17a0
+~ -[HRTFEnrollmentSession initializeDevice] : 524 -> 520
+~ _HRTFLogObjectForCategory_HRTFEnrollmentSession : sha256 909a77f5d52596edc9a5deb6d5b90d08eb5667ed2b7ac1338a5c46c20b585e77 -> eb28f5f05bce8a94545fe8ccf766f2611bd60f50c9211a570f54ff26afd4d90c
+~ -[HRTFEnrollmentSession _verifyCaptureDevice:] : 1312 -> 1304
+~ -[HRTFEnrollmentSession dealloc] : sha256 6b8e4e4ec019feeebc9e8c2301f2ab8c5b4c721ae420289a29d342dae6c9c857 -> 7645bd17df804e61467e871bbffa952f755e6b013a326e85863210de26a3f7b3
+~ -[HRTFEnrollmentSession pauseSession] : sha256 f3d9f78b93e2c1d72c89936760514c9f6c6dc652cfdb962b7c7836af884f1524 -> 9611be79e718cdebe4dcb30db428133ed0c3ca3f3cab5c925dfa8564ba347abe
+~ ___37-[HRTFEnrollmentSession pauseSession]_block_invoke : sha256 9f7d0c488ba1ced74e103377c0b0a5295664c8f123397998cf60991aac3026c7 -> 90ed611c12e953c7cd423eaee7256036232cf6b26d24bf5f8aeb9ddfd6052d93
+~ -[HRTFEnrollmentSession resumeSession] : sha256 9d039bfa57f7d52844c03d94d182b06c10acadcf4e9a6c1a0d75985584d37c3a -> b615db72b53a443c27bc33e78ec514622c2d1b8992edbf284ecb72cbd1d67a49
+~ ___38-[HRTFEnrollmentSession resumeSession]_block_invoke : sha256 dc1e833efb13e7290dc5fffd26b60620e0916940365ed7915aebbc41a9b22bdf -> 790406bc41ad0cda17ef35d0e3a5ab9f01124c84a62aac4f8860a01f7a2096e5
+~ -[HRTFEnrollmentSession getMovFileName] : sha256 c49e4562830adfbe9fb633759e88ee515900160085f206520079e414980ba061 -> 0098e51aa62c60f935f4e98b0a08a78b71fb8b2d5e8ff6481f05e56132ee7448
+~ -[HRTFEnrollmentSession getRecordingFolder] : sha256 1c5846172266c13e16dec3600121f56cbf2c06066bd721e9612692ed9f2f7c01 -> f979f332e8c345383f2f43a55cfafae5abe7e12ee0cd4fb56dbd378a2ee66360
+~ -[HRTFEnrollmentSession getRecordingURL] : sha256 b9a202802aabc2830729e6510d1e04c2a7447a2bfd5b98c65ad19e5a73e65e2b -> c1bdc0aac07a5dfc91cfb8c25420e6ec0388ab49a6e2fc727987d8989dd1a5d3
+~ -[HRTFEnrollmentSession startSession:withAssetPath:then:] : sha256 3e3e5f5058e6822716b328838dd0a8054640ebfed5342af05fcbbfc79c3b2ea4 -> ef77a818ab436243867bda8070634faa88fb0abe0ed7cfac9b176c5b645dc23c
+~ ___57-[HRTFEnrollmentSession startSession:withAssetPath:then:]_block_invoke : sha256 2510dae4460ba34de606c08b44a912f534c980284146e2dad496f6901ba4052a -> fcfe5d4ec47f0f74123d446b28483c037857e7501a48abf734e16ef53ed1d732
+~ -[HRTFEnrollmentSession startSession:then:] : sha256 1bc39fd58fc93ae1c910965c61f448a2f417c2500497dc987a69df5cbad36ff4 -> 76f8cf951b1f3a66737d0c97e051b80c4537134d17182386fc8cb573c6aba656
+~ ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke : sha256 685d7e9c2b37cefbc971e98f9bbb39bd100edab5961a803c2bcb08fae9481c6b -> 9222b2db88f8896f6c57618409f18fb609b8b3382dff0a940b6583cb1b6157b8
+~ ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke_2 : sha256 13ac92fc7c591e4936eec65ae0cb24a6487b24552e9b306e878147141e2799be -> 6d6d3932a9f20b38240ea28023c17375a967fb290d643f045b33852ac8fdffc5
+~ ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.219 -> ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.234 : sha256 9123548393cf08705c2211d6909a02ee6874997f12cba867dc9b1c725ea3827b -> 389391d9b36be1f797f844e01143b0c7e83c5d947e6a3f59e1c89e7b76e2228b
+~ ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke_2.221 -> ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke_2.236 : sha256 37f766d146ce53cf38c36853d867d3d2059078ba0448205f18c7203f13ac8ef0 -> 5e64ee676a65655125f2082c6004de3ccddea8c0c1ae550df71c73b47ff74d02
+~ ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke_3 : sha256 b58a9202aac56eedab29db83eaca3dd5d32dc556defe9462d63fe64adec0fbea -> c1dfc6ec92c74c6da3db12174418e6a5b5d0d861432d9defa4f911530ab3c392
+~ ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.222 -> ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.237 : sha256 f84a0bea2e8519e5871d5722a03347a5761713032f3273b5e585655d0c52383e -> 93b2dbd2398c4ae77d6e9209a96f84f909eeba733f19187216662f0487e1cc65
+~ ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.225 -> ___43-[HRTFEnrollmentSession startSession:then:]_block_invoke.240 : sha256 dc293c5a14b6a89dcfc4a40c630a43a0b71e95994f31ec8c74a0e253c8f14d0c -> eab86e034895b591ef5caba5e36fee2fb27bcaa8356b7d04a3fef35d3ea0dfe1
+~ -[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:] : sha256 4f8197871fb12f01cc686f1216ed36d4049d6fe3465af5c92383e4d246aa36c3 -> 9077d0117c85b18f17c3ae26a849dcd7dcfcac4e69f40ecc085a63b54b4f15fa
+~ ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke : sha256 0561d9bd1e7ef10858dc701722cc0aaa7fd53f23f0db4b734104d63cc9701cfe -> 79ac58dcd0524a9b2f36276578ef1cb0c4316ec10823b01b4bcf4beaa3dde906
+~ ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke_2 : sha256 79886306eac32b163f970b6abfdff322bb08bf251190ed16cf1dd7ffb0400b41 -> e4898bd401e1bbac194c26ce80b840f1b94b9d796fd5f1dd692a632ea09a9721
+~ ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke.230 -> ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke.245 : sha256 a063ceca774da5fc7b32d3956d2faaebd50d992152016f9aa79b6d1b88c8d890 -> 4c73cb4e76ff6da516d5ffbd29f7053bb9999d3e393b84cac61dab7f81f37c1a
+~ ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke_2.231 -> ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke_2.246 : sha256 c0d4b9167947366b8c38e115ad5996dfe1fafed2a463c93d5f4f65002dec6afb -> 77159c3d54f5f07742e10ac5a29f3af4d603357f40475a4e95262dbb4da40add
+~ ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke.234 -> ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke.249 : sha256 8b37b0776ff2cfac93aee9ba9034e754b277ba3d9cf81d05180f69d7dd929d7b -> 7c97c5e987fd3262f303bad93826a856a6da1f0f169456b3e479041d0be21974
+~ ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke_2.235 -> ___60-[HRTFEnrollmentSession downloadHRTFAssetV2:withCompletion:]_block_invoke_2.250 : sha256 40a5f38ba7c1fc235dece36e95481c0a9283bd3b5262de5d099af94ff4fee9f8 -> 90e605abee0ed7c3658083df146f86195f103b73b56829cfe4a447dbc4e76eb9
+~ -[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:] : sha256 e00942bfcc6e76c77d614e98758f7250d8977d26073e55bfe537f26d5d564b99 -> f7bdf25e5ff9a76239aa9c599ac63a048d16d258f7c988fcd8bbaf165b9a3d8e
+~ ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke : sha256 e19a4ab5b920c3601e56afb67f2b799c258edf29716382ddbcaf4660b763e49f -> 5fd2400d67bc3b7aa08f0cdfcc870c5c008468d8c45e9fe22a4b2ed9d85d4b82
+~ ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke_2 : sha256 f853a936c4fe3392df321296c5da262035cda1c7442a9405fe9c37f3fcae37c1 -> ff57b4289c611bf59ddec147503015d31f0e95aeb8a9b486797987007a1deee2
+~ ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke.239 -> ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke.254 : sha256 fa0dad661c58f67d88c73f16f83b34b7d585961af28a7b7a1539adc06a6e152e -> 7b6467b31fc12f75b5a8e893b43e29ddb089b20088155f8c1f67c02c1791be90
+~ ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke_2.240 -> ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke_2.255 : sha256 1fe47e4c2e064de141526ec36b0bf3fa0b528f3f1cc0052afa90d2a009ebfc58 -> 9ea97492f0fdb851799863875527bb568c72f3bbc0c00f4add2c2b66cd16d759
+~ ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke.243 -> ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke.258 : sha256 8a3524c641b028187baa80d34f0016160e325c6a076a79367e3d7fda412ce0d7 -> 4688a6f5f81cafa0c9c1b03bba18d42949be044ad4d904e00b1b488833546110
+~ ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke_2.244 -> ___58-[HRTFEnrollmentSession downloadHRTFAsset:withCompletion:]_block_invoke_2.259 : sha256 4416de5dc6b93ac9bbbc5b4e00142faf04aa9a517610a2d563c1372d36a8c0e9 -> 1f94f257f77e40067a9b288c10dbdcfc65a2e89ad417ff9b1b042d854eed34a8
+~ -[HRTFEnrollmentSession stopSession:] : sha256 8be69d38ac79dfcf68f670ed4e677746e0abe6d3cfd2c2621771d0995a2c5be7 -> 13251594f4ab92a7f69ba7279713e8e436094da9f3f97bb44e0876f04d5b395c
+~ ___37-[HRTFEnrollmentSession stopSession:]_block_invoke : sha256 3a6da614dbc680f064226defd8165189d9b613b7b85b58062ca557319ab7fe91 -> ad91ef15a13cd8b3c37cdc743cfb1f72be2c2e56a8fe996e1ca13697b6670a84
+~ ___37-[HRTFEnrollmentSession stopSession:]_block_invoke_2 : sha256 b71486be8bb22bdf7cb854257f427ccc076e50369fe1e99674a76f389e4dfeb7 -> fd46781c38967c9ff60065242e7585daaad3ede0dde480a38eb28874ce74b8ed
+~ ___37-[HRTFEnrollmentSession stopSession:]_block_invoke.246 -> ___37-[HRTFEnrollmentSession stopSession:]_block_invoke.261 : sha256 705abf7f20cc9417b3d0bbf308447de82673b9c78f47741f31c42999d6fc9b48 -> 17a1e7b85e60d2bcae20378fdb2a80ee3d52aa4f450f517d4bdad395f5f62ba7
+~ -[HRTFEnrollmentSession sessionStarted:error:] : sha256 5a591e38a67c633796acc35626668a26bae5f67269e3eb6d32b36d526733c4ba -> bf49c15ddc1834dc10cf4035297896a4b0fa77f8c6bef268dcd55b3cb52ad527
+~ ___Block_byref_object_dispose_ : sha256 bc4c8aa6e7c00150f41cef47759f6935cb27cd140e9d94df3b3c93d28c370ffe -> 2edac95538d9067290e640152eb75d6cc4dae957ec5b01e98f4b39ee525185df
+~ ___Block_byref_object_copy_.247 -> ___Block_byref_object_copy_.262 : sha256 361d4e4a0aa3c1a0acc0276de455c66c3653415557f0c1ac3c0cac2cf468ef68 -> 74f85fb380304ec8ee690410a37a6003bc6f8ccd60e3dc8cb8440bac5262e499
+~ ___Block_byref_object_dispose_.248 -> ___Block_byref_object_dispose_.263 : sha256 437c2ea8e0daa5d2f6f71c2490e199f7af273ceeb798ba8e9fecee2252ad1398 -> 3eb6d9d30f7d2e2e5ffe9d4c6629dabfff9284803a4e138cc8ebe504735cab4e
+~ ___46-[HRTFEnrollmentSession sessionStarted:error:]_block_invoke : sha256 76e2559742108804e17bce3078d927213b7996ba1a7fc167e1689e8f5dbce42a -> d1dd7ff7b63f73584d048cea28fce87c480639d9f6aa66ea020651dcdfab4a2f
+~ -[HRTFEnrollmentSession requestResultDataAtOffset:forLength:withCompletion:] : sha256 ebeebd542980e66a8d2a118a8d699a025d029707e8e87ecf4d717e353ee90a47 -> 7ca47e8685b51a7fa2ef584bf4a7e4e599176e920aeebc10c0d721b369f1289a
+~ ___76-[HRTFEnrollmentSession requestResultDataAtOffset:forLength:withCompletion:]_block_invoke : sha256 1c0b0d97673ac4d536cce3f0ac9d080eddb40356b802e9a4ac60446743c94bbc -> 6ad4153d6ae2c9d351d161bd143371f41254d3e3c8711eaeeb2254543c809db6
+~ -[HRTFEnrollmentSession updateState:withProgress:facePoseStatus:earPoseStatus:errorStatus:] : sha256 5325d82c2ff139d84bf606da5b5c699982ea04ee0fe81f9a33e7539fce2bf164 -> 9538398399d2beecc3fb4203672e905d2ef58cb15eaf3df27d36bd0ad888d179
+~ ___91-[HRTFEnrollmentSession updateState:withProgress:facePoseStatus:earPoseStatus:errorStatus:]_block_invoke : sha256 3cdfe5c08679096a62986c2eb1654e681f712c0d3487fc4d7ac180d34a937a85 -> 7a10e42fc1dfb44cf27e36837dbe3a90b93d9231e654a855683055111211cd11
+~ -[HRTFEnrollmentSession updateResultSize:] : sha256 7c17046201ffdc6b28b2f96b7db2daf8bdbac38de8ed45b03688645822479d4a -> 55b14f08b0b6d4d683e913553264f2943bb2b0636f0c7985ee79c15603ed2da1
+~ -[HRTFEnrollmentSession didStartCaptureSessionWithError:] : sha256 fedcb890b18e15d7c68ec095b0c84a28405c9de2ecf916972040f1d9d1c15e0a -> 54d5ce6c113627a7b06062694b12440180e193df1938dcea904c696177840ae6
+~ ___57-[HRTFEnrollmentSession didStartCaptureSessionWithError:]_block_invoke : sha256 1e9ba17df37c70f24566cb4ef7cfc50f5e9bf0c2f3a91e5d7fbec651720476d3 -> 9f40ef4702b74f9d3c81823fefd23a02ecc1fb8fbe0b0a8b1ee266b06c70f3cb
+~ -[HRTFEnrollmentSession didReceiveVideoData:colorData:depthData:faceObject:] : sha256 a2d1a0527d038f00adc1eb913d85cfe581f9c16b46adcc30b9e8e0b904bf3f04 -> 86879078cc8436636572e56d989631f0aaff07194f4c1056c3a12c460ecd8d19
+~ -[HRTFEnrollmentSession stateInfo] : sha256 141ef30f82223c7efe9735918a73acc34fc7403a676523a229f3e8f6c5ded6ed -> 3def41d820dcd9de5442fefffde3a72d8ee88eb9160903efd3edf437edf033f7
+~ -[HRTFEnrollmentSession delegate] : sha256 eaa6c743375bd4e1363383ad8bd27b57994c4a4e06767370b5bb5f40ce0fc321 -> 1ca9742961864c5d72a68fdbee156a6a6d7e633c22b087fd955a0c28845ab9f3
+~ -[HRTFEnrollmentSession setDelegate:] : sha256 89436f17ae5942d3d9340028b31c80cfc3058eefb9274b11554cdb608ebce379 -> 6c1cf48b245e924a0ad80d79c0e1aa9a2e81777250b1de1539dcfd8ef4aac08c
+~ -[HRTFEnrollmentSession .cxx_destruct] : sha256 b67939a822b11b1ba4ef84f50597fa87779efea3fe01538e547af237deea7cae -> 89597255af9efa3d905ea2af6b9b3e4c911e3962d04dc35e72e3c281b1d1556a
+~ ___HRTFLogObjectForCategory_HRTFEnrollmentSession_block_invoke : sha256 277dea92115b976e1d0531de73a87611de06f0c7e1ec66b25ec37ab624c67383 -> 9d9270ff464888da65762b8db879a7c8713f0b18d18cd2e33af9b17c565561c5
+~ _OUTLINED_FUNCTION_0 : sha256 292a2f90c72775cd25e9692a50387b8fa202e3ee56a6cc0092c8767a894818e0 -> 3f5f997b7139bbcfaf04b8fa2a769da54d341451ba35f8badc53eee052f3ae63
+~ _OUTLINED_FUNCTION_1 : sha256 f8ce2cb94ce137b041de0a895f851532c4e8b17c73ede124acc8130ebfe0fda4 -> bc7bcbddac4138612be161941753ef029ae084f6c3b8df5789a138319f8b2c81
+~ -[HRTFEnrollmentAssetDownloadSession initWithOptions:progressCallback:completion:] : sha256 0e90083e479db359e9351735037de56512b898927e27b1547f6848e1bf81344d -> 4c9fb2db62bfe5ca0ca58183523fb830f5a7d05761c37cf4a6ec0f844475a7fd
+~ -[HRTFEnrollmentAssetDownloadSession start] : sha256 1d1eb435bad391275f3c6d1c065e5c2f6ffac89e6dbf43aa90390515c2ec5b83 -> 90d7c3fa901ca8cac8f6905bd76a75ce61bf5357debb82b25ec31e6e5ce464b5
+~ -[HRTFEnrollmentAssetDownloadSession cancel] : sha256 2e05fbb59b8968f2b9c879f0629bd30971b835dc73859a59f010b0bfd5a36901 -> 76261eafdcf80188c05ab4445932005d5df79ccfbf17343ebd5e5629b364a2ee
+~ -[HRTFEnrollmentAssetDownloadSession .cxx_destruct] : sha256 9ada17287c39829e5a8cbafa6d4a666514dd8f690fce11d6220decde33c4c63e -> fcb65ae056ff79c49dfb5c0ac82155d8a47f7ed6712cf76b6c6a9468c1bdf9cd
+~ +[RecordingManager movSummaryItem:appName:] : sha256 e510dfc916ba63a9397c3d5628c1235fa95cfe2ebafa4b2a58a6f13819b5bb85 -> 886ac319301d3e024cbc8ed16ddf34907cba14e3de6d30fdac24a31c599fa8d7
+~ -[RecordingManager initWithFileURL:expectedFrameRate:colorStreamId:depthStreamId:appName:] : sha256 6431e812834541a811475b5515cd40966f7b934a0ff624bfa20c227db1dc1f03 -> 5be6e862985a2020c1ac4714b7aea318fb5381ea0c0f78a552bc929c9e3e1b09
+~ +[RecordingManager copyBuffer:dst:] : 344 -> 368
+~ -[RecordingManager process:depthFrame:faceObject:timestamp:intrinsics:calibration:exposureTime:] : sha256 18791841de6d5ab94877e525781fe07a380e773bf7f3b86f92c0389fb9d70559 -> 021e22949102528be96d0b6d6c0652793ba97b59a8fa82c5ff21ac57a7724db7
+~ -[RecordingManager stopRecording] : sha256 49c32363968340215934945e538ce5e3e0bbe82caedba719582e2b0e2a57bad1 -> 891e6ba57627e96b86d3b9540aeb1cbd57751b4c0a37568d8c07c82a95aea725
+~ -[RecordingManager isReadyToRecord] : sha256 eb7d17184a771b943cae9cabb0b05b181bc0a0e9a2e0dcc2c9b192dfeba729b2 -> 940accd9377e3dfb77771a89bf1f0c73c61af387f3e0f0bf15330d71fa849234
+~ -[RecordingManager didFinishRecording] : sha256 fa91cbb34f68d6fd09827773c130b761090ec0fb2b578b8cd4c4079b5d5b4969 -> 0f4f2785b4c65025cb8d3961e297a58cb6189d68b753b2395c2fefc09d9234a0
+~ -[RecordingManager delegate] : sha256 b4236ca4744fab8d48c46d3f14a1fba86a8b8794a7c112a394c9a4ad1bc727a6 -> 9a9defee6c76e4285ebf8d120a34c5f0b87c2ed7b33ea9ccaf4ac5b80c310c6a
+~ -[RecordingManager setDelegate:] : sha256 a36f25b182d7fed8bb6c1594a8bff21720dc2be7381e537430d927f30bcffc06 -> d3d10447f49ff4379f8dbc28f81b9622ec03cc0f325fa7416cba83bb170e161c
+~ -[RecordingManager .cxx_destruct] : sha256 77677ed7081b53eb6bc63024792927968def4670076dab3031aeac191853ee05 -> 6001fdbeb1a103fb2f06450719ff8227d013dad0087f5b4c967f0fee43acce0b
+~ -[HRTFSerializableFaceData initWithCoder:].cold.1 : sha256 72b24cdae347633e0cd90ecb53aa353e754bc5b8e08a2847c3f7e57071f4939e -> 1e7aece85b772454fd48aa4f82691f868bde73977e2ae8cb8db75bf5faff4dad
+~ _HRTFLogObjectForCategory_HRTFSerializableCaptureData.cold.1 : sha256 d3cdca706fb1f9eb5ba0beb78b9fe7bcab9d9263e472b9318fdec884ce9640f2 -> d1667f866405f59df17c691e60c83953c278b0b136d4e38aa3628aa19d84240c
+~ ___planarDeallocateHelper.cold.1 : sha256 5b9b728fcaa18db54624b07411fbc042f7be9115c8c0893d66878524ee417d3e -> 725408ebfd8dad7744833d608421e5c3237412ef4d584463e86a0ed9b0e9f051
+~ -[HRTFSerializableCaptureData initWithCoder:].cold.1 : sha256 dee36f1d82d09737640e6e60ae712ca9cf43bebede20bf4403fd45c7aed8d58a -> bbf8e3b759c93e6436a78ae18348521f9efa8de7ae0427c24e320a15069fe743
+~ -[HRTFSerializableCaptureData initWithCoder:].cold.2 : sha256 cacd9b254001fd6f1915e95cf4afccb8a1a7c35e34644437791db417d270898e -> cdba777a82d700ea09c5d46d92d032143774f7cb08d0a2cb8b34917732d27d7b
+~ -[HRTFSerializableCaptureData initWithCoder:].cold.3 : sha256 3277921df30611d5a772fc68d78955ad8a77d67e77c37b9cc356e26e360558a0 -> fa67dd66671f193bfd77f5629cae282ffa190b651a83df3dd692b1f1bedf1e8a
+~ -[HRTFSerializableCaptureData initWithCoder:].cold.4 : sha256 72b1a1ce9b57cb8cd28416d4855eec7f89496bed626fa35658ad7a1efa53968b -> 42789eab18270095d269fd7a0ea1a2068f7bc4f75b9a08abd9a7999a28e65681
+~ -[HRTFSyncedCaptureSource dataOutputSynchronizer:didOutputSynchronizedDataCollection:].cold.1 : sha256 311055471ce858038a76cd019d3eae177c067c9763259042483d95ec0fcb9693 -> 64c5e9c86d2152a94cc727e21eb1ec3c89b6271fde5ee4048fd069b530465dd3
+~ _HRTFLogObjectForCategory_HRTFSyncedCaptureSource.cold.1 : sha256 b42ca12a687a9a2c315b1862557820fbcee1e0c27aa10b9f7fa27f6f5abb846c -> 75c78cc805e60ff70bb2dad96c217f0e83a784348c3c68895c75e3a22e8c794d
+~ -[HRTFEnrollmentSession init].cold.1 : sha256 6af8b2af558ef918855c805b98d2c96bbaed276065fd0f83111435dfec3bc851 -> c776dd77f3273b3350a466ef8547153d80b82f3b5797e59e03e4c6f253c9b9cf
+~ -[HRTFEnrollmentSession initWithCameraSession:].cold.1 : sha256 e7cc67b838b14466e422f0adf669875b13fbdb222166ccbe7605d54dcd15b5bb -> 5b1536c7d1ab0325bd444a58f699444c6675b24a8da32b1e0ee95e51d3e6998a
+~ -[HRTFEnrollmentSession updateResultSize:].cold.1 : sha256 50bb047d860d79ca4997f5074aeb3f994559b6d25f779dea1610594ace4704df -> c998afad6fd4d7ce30c1206b2c03eae4a1380fa160dc2e3c009cf56385500b10
+~ ___76-[HRTFEnrollmentSession requestResultDataAtOffset:forLength:withCompletion:]_block_invoke.cold.1 : sha256 f1b9bc6dbee3f589aa6933edb9783fc42ccd69c10a7be13cb107b5f08b2c5053 -> 021f0aa6bba320ae12a8e1bf6a5ba3cfdf5bcb0b5ad2988db08b701f9fba1ca2
+~ +[RecordingManager copyBuffer:dst:].cold.1 : sha256 33699f645c66d70b83abe398e9c8014574000a09136b87482a9e280cdc9351c7 -> 15eae3e9d2afd43bce5c0d29c5dfe1255c207ed093418f132c5d110d24af83d7
+
+```

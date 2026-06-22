@@ -1,0 +1,105 @@
+## EmbeddedDataReset
+
+> `/System/Library/PrivateFrameworks/EmbeddedDataReset.framework/EmbeddedDataReset`
+
+```diff
+
+ 58.0.0.0.0
+-  __TEXT.__text: 0x2258 sha256:657e229d8e99988977708afaa986397448a163d6fc81903437d95dc33a36a379
+-  __TEXT.__objc_methlist: 0x45c sha256:4538837b326712eaafb25dde2320c0c5fab16f1efad583f1f8100d292aba4899
++  __TEXT.__text: 0x224c sha256:3fba6b4742572d57673b820aefc1e3d9df659c0be42aeeb2984b20ecee68ea20
++  __TEXT.__objc_methlist: 0x45c sha256:8bed08a00081d1e7cb6e4ee5c3ce1fa1b79c56c1c75f2bf5fa24e939f277ce5b
+   __TEXT.__const: 0x80 sha256:772bc1dfddad5c4364973698d7cf4845fc9b093a18c6cfb8ff28827dc3c4fa89
+   __TEXT.__cstring: 0x277 sha256:bddd8481983ff5d7e940c77b3711c06f8dc75d360cd008626555419956cc9d8d
+-  __TEXT.__gcc_except_tab: 0x104 sha256:210890b8c6fcbdd2d0eb72e7dbb3069095d2ff962a6f516bac7dc447b7f6884b
++  __TEXT.__gcc_except_tab: 0x104 sha256:4b889a6a0015a79fd08a32a51b7fb9b826e21e8c1c948043da577eef107b1f29
+   __TEXT.__oslogstring: 0x48c sha256:ebd9504e6b984bc4e6110c49577419e315ebf38b2971b29c6bedea26b722489e
+-  __TEXT.__unwind_info: 0xf8 sha256:1e5cbb09c83625e32ef94b4fd0c8e023609a329ac94c1853f0426479ef8c92da
++  __TEXT.__unwind_info: 0xf8 sha256:82031121c84fa810fdc22700c3e3f86a362c30fd97e4c62275ca3fd3ae46a00d
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x110 sha256:5df1b09dd5be3a222e626794292a9b8866c0fc43ed5a977dc4a6240228fa40e5
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:6fcaa48301047e59d753ebac050e64b6e50c0aa520e10636919b1eae0f684bda
+-  __DATA_CONST.__objc_protolist: 0x38 sha256:734e33bea795d9e8beadf5279595b51456c96e9884d98685d1fe9edd578d591d
++  __DATA_CONST.__const: 0x110 sha256:ff52fbcfa5a950b8d5461e11d59d683f7677f46c7e18a711c4f8938b016186e1
++  __DATA_CONST.__objc_classlist: 0x18 sha256:03335ae6a41044f55718efe1fbcfa43e8e2405592d25c6b99ceb3303aae0bf5c
++  __DATA_CONST.__objc_protolist: 0x38 sha256:f4388fde1cc6b0e6c1a2ba51dbb74bc784762f2992407484bce7434098caddc8
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x318 sha256:b122ff51f04f7bf7d0b8bfcaad9310aff2845a9efc97a9d7be9dd693518603eb
+-  __DATA_CONST.__objc_protorefs: 0x20 sha256:fbf33571fb1a53a1a6cc042aa908e350dfa3c8d76096727d47bccd12dac843d8
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:01a732aa37f7ac95c379750351167a143c7bbfd16ce73435f44810d41088f5db
+-  __DATA_CONST.__got: 0x58 sha256:c3de4837705039ee67f038cb013779f856d2abd70e64c8ccea760a33c2c04f61
+-  __AUTH_CONST.__const: 0x20 sha256:d9a497d85ec92477f9473efbaf2c1b4b6f7fd0a7abb0b2655351ef731893c4fe
+-  __AUTH_CONST.__cfstring: 0x180 sha256:f6a293e5088cad7d3eced4f8aa6c2926224809b84c5f763533e1cc106fa154a1
+-  __AUTH_CONST.__objc_const: 0x830 sha256:8b8610fad120e58c3429fc52268a30baac291823d49b76c1fb92f3b59de5f725
++  __DATA_CONST.__objc_selrefs: 0x318 sha256:42be3f40d3394c44f13b5b809236401a0119442cb61868088f65e9b00ccebce6
++  __DATA_CONST.__objc_protorefs: 0x20 sha256:e2142fbe5519612e0d3ee1cedc6419cc9b26af96b713148df57180bbd3e78f8e
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:1064c6dcfbbcbddba1c0d9589f43ac066658848e5c68a65a19bdf7b91bf00073
++  __DATA_CONST.__got: 0x58 sha256:60c1fc6d9a98a8065103805f44acc67cfbb0aae2d3ff4062953af8a7e7fc6bb6
++  __AUTH_CONST.__const: 0x20 sha256:d1d74b2dd5611f92e8cb7d5212ea6e54b68c79b6e20be876c4bc6a153b5277e6
++  __AUTH_CONST.__cfstring: 0x180 sha256:5153257dee272fca66065e445550080bdffb7a790fd013a3a940ddb25b16755c
++  __AUTH_CONST.__objc_const: 0x830 sha256:73b9abb154fa9c3046b5347aa1dd53adfa8c8def34483546c9c5d527ca6f2c00
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:875e4581dd70b7756675d6521da10af548ae21a980f8f352e1e1739fa33f2d69
++  __AUTH.__objc_data: 0xa0 sha256:341c0e720dbef3ce22f1e821b36e102b1a0d1f917cee12ae2edf9af0652dfb46
+   __DATA.__objc_ivar: 0x44 sha256:8a9c5054bd2b008ceabc25b2bd75a94b7588040140d8fe913ea191437c56b28f
+-  __DATA.__data: 0x2a0 sha256:e006f06869a42afd5ef961920f9e1a178d1bdaad961af635f5289013ecd45ef3
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:a39d05297c7744a8037e7e3047da0a9302d7003f91a6fda1662e697a17170e2d
++  __DATA.__data: 0x2a0 sha256:7f14a698963658bf63ab14608a4ccf50dde8e5c26843b09b5891e3d32b87225f
++  __DATA_DIRTY.__objc_data: 0x50 sha256:af10ddbee218deae6e9de6a26056c7e87b351b9fc0db7e54feb54f10794f26d5
+   __DATA_DIRTY.__bss: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2CF0BE3F-B764-3A87-B160-5C69DF0BEBD5
++  UUID: 0860335A-BCDE-3AE2-839B-012FE794AEBD
+   Functions: 67
+   Symbols:   366
+   CStrings:  61
+Functions:
+~ _DDRLogForCategory : sha256 3aa37a3aa728f9032bd4c3fb2695df4bac1b0f6eed8ac5a09a979192517e8890 -> 56aeb4b8436b93ef1408334e831f6a46b43c1d224a7718fd5268f458c8dcd7b6
+~ ___DDRLogForCategory_block_invoke : sha256 78cd161f1f82f5bb5aef31be0c274de604f2d144fa890aa95af88995a405528c -> f7fe5fe6bb823b0baf06b6ca6a4134d656fca93ddf52f27f736efd7620103421
+~ +[DDRResetService sharedInstance] : sha256 8922c11edfb29530c20af04b3ec88cc7303784da8a49cb06f797b0af9184eec0 -> d70fc8efb42a8a4624699af6537c620e45979e0538fb32592da019bbd7191479
+~ ___33+[DDRResetService sharedInstance]_block_invoke : sha256 82e1f1e5c78e7fd62426346e65ddf06786ca8c81ea243b8b64c5d46f130db48d -> 1eb4977ccbda7d82d87e4cce3093aef971a1588823812a99b9c250e229c57073
+~ -[DDRResetService addOberver:] : sha256 ddcf788240b029392a6d4d33b4d1a780276a61a0357c4e3d997787402572ed56 -> 7c58d00ca0d7c094d3bacf6612559ab3198129d5906695ba15f6ff3d22478e61
+~ ___30-[DDRResetService addOberver:]_block_invoke : sha256 573bae9bac3bcc2e779904ef1396daca96208dcebe7cff1b4965ac0ac67e7eee -> e32716920abbe399d4a54fd491a36de993692658aab575d297971d62e9a19bbe
+~ -[DDRResetService removeObserver:] : sha256 288344fdf18022389222fd243215d68147997d8486d9b288f3de1812ee7b3310 -> ca877baf63e3857e3a9d83d05683eb2eb05b5047374c2e9f7d3e2189ceee7c00
+~ ___34-[DDRResetService removeObserver:]_block_invoke : sha256 8523671e347817a6f37b659bf51329577620f23571615c0a1c4afec9c39744d3 -> d4549d4b41deea462a29516c722c036ec96871315c1cd671197b97d3b5f46de3
+~ -[DDRResetService observerNonLaunchingXPCConnection] : sha256 ccb612b0b277ae0b4739dbb4ba69b922ad6610b06a56f32779f941203dc9dae5 -> 3949f4acc49f7af33a5502284210b8a0985c6c9242ac04ca38df8770fd589854
+~ ___52-[DDRResetService observerNonLaunchingXPCConnection]_block_invoke : sha256 e4c736963ef0982b40ce342246578417e88074b02e4e7bb0b671396003363710 -> 66d8c76330a5f9e48055511dc47179bbb5a5deba27738ca4789ca011b2763068
+~ ___52-[DDRResetService observerNonLaunchingXPCConnection]_block_invoke.57 : sha256 8f063d14e6b0614743eed898bf830fcd2e3ca7eb2f3fb466f74326761749a230 -> 297cb562fb35de4ff4323134ea48666b6f7bbbeb05c00951ae816c32d4d0f54c
+~ -[DDRResetService dataResetXPCConnection] : sha256 3eb4c121e542889b7681f8fd398d32d1121e7cebc18027931275fa06ace25607 -> 22577650422da76cf5aeecf2dc5e3105e78f3dd455657a5d505a6fe6a742cacc
+~ ___41-[DDRResetService dataResetXPCConnection]_block_invoke : sha256 54c207e9dbe2fc9167602006866a1e485c29b3901bba55127abec6a459599388 -> 44ead988e9c551841bc3e69134dea4bedc6af2894fc328474107b572d2b00465
+~ ___41-[DDRResetService dataResetXPCConnection]_block_invoke.71 : sha256 7c5d9ed5f532387e0d25886d6c58fdc3bded5657b091924f715c398875f27d16 -> e7b519a64f95e511436d960c62bddf065f3501d1965e202e8e63d7c19484bb7c
+~ -[DDRResetService notifyClientsOfResetFailedWithErrorCode:] : sha256 53bee285765a33f5e26a03dfe0a8092541f87b8061a28966bc9b3d0384171927 -> 1933bff904559cbd4670297f7d8619e812a34594da08747e5a41b00737605021
+~ -[DDRResetService resetWithRequest:completion:] : sha256 f82b8fbeb461709fb4ed0a89cdaa4875dce2cdb6de7f8b2958fad2584674cfd4 -> b3f04e22913f36d89353def16eab65ce35a7db7bb161c0685f2de348f9ead0ef
+~ ___Block_byref_object_dispose_ : sha256 a557bbad89211bf0aff0e44d8354f4eef7dfba30646b4baf1ce700548c13f934 -> 91d2ac39b62deb1153423ef2ec18528e81809fbbbf0eb6aa51de98e77c9b4704
+~ ___47-[DDRResetService resetWithRequest:completion:]_block_invoke : sha256 4275f06d519f70ca9159f8835a2b2b830a13adaf2f5b0217777f7fe830a5af6d -> 5afcc9d718e145e6ba4f995f231231004df436d3a80c826a276871ad0485bfd7
+~ ___47-[DDRResetService resetWithRequest:completion:]_block_invoke.74 : sha256 50ad35035f98cc015bee448b57eb623111fdcc230917b9b3a8e0c22d161c0143 -> ac46ad0577fef34bb86eb35cbe8a8bc7f2620d5358927ab5c4014b977e9d171e
+~ -[DDRResetService invalidate] : sha256 deb3047a7a88eeafd22347fc4c84f8c488dff428e72a76862dbf8b6248b4b798 -> aac20f182cdb9c6dbf63a2d1de22f075afd6b708e978b10ce41b21c4de856dad
+~ -[DDRResetService willBeginDataResetWithMode:] : 548 -> 544
+~ -[DDRResetService didBeginDataResetWithMode:] : 548 -> 544
+~ -[DDRResetService didCompleteDataResetMode:withError:completion:] : 804 -> 800
+~ -[DDRResetService setDataResetXPCConnection:] : sha256 55cdd910d63581cab418979f742154ce82cef2762190b0298a14e55f5bd147fe -> 24ec02e502f99390f2638781958ea8619632515ad59c409b849f10ddd4d271ef
+~ -[DDRResetService setObserverNonLaunchingXPCConnection:] : sha256 8c54566476130e86df71699d00d650d12aa5a4225bf4df081c2412fccfbbaa78 -> 2874b461bc3f5607942dec7e1f987c072b092b102304cd8e5bd9c3ef2a6375fb
+~ -[DDRResetService setObervers:] : sha256 e4b09c9da00ddad57006075c7cef391d77d7a38bc8fe3df2d7f89455c13902ea -> 260efc432d00393a93a44348d1a3069b28a0f31340cf5923319249ba8994bd51
+~ -[DDRResetService setObserverQueue:] : sha256 ea6c3ea84f260fc55a700397701f5a051937762efa911f07daca69908835734d -> 0aeae00b10ecb637310d609f5accdf4550ccbf4bc256a28288d11490cf1c96fc
+~ -[DDRResetService .cxx_destruct] : sha256 741c515a017295c6a4e7372e20f17f3d26d7b18ce608eb663ed32e136e7440a6 -> 3bf29ee245832d2abe69671fdcfbb0393f3eba83d589e0b9920a50547f46d28a
+~ -[DDRResetOptions initWithCoder:] : sha256 c3674924782947e66e77755b682276338a3dc0554799348186f63347588dd096 -> 58cebdd16b95c59dc1f107c1c3ac8b050b403a59b8a78c422e446da0481823c7
+~ -[DDRResetOptions encodeWithCoder:] : sha256 c8ebe19f3fcd2afbfdfdf29763a1d7659f3492b9f8c6372663cb8b9ad0df7647 -> c2ad8a93fd0a78571f8a6c5b5e4e6c7a76a74da87822bddb8d792b7ebd3e1ad2
+~ -[DDRResetOptions setExclusionPaths:] : sha256 0b34fe89b61ac098e9861f581d8b90dcbf8eed318e62085e0acbb8a210d55421 -> 6ecbf81cdd4f6d4460f3b327964636d6d3ba920cf82cb95da8933a5709a740f7
+~ -[DDRResetOptions setBootstrapToken:] : sha256 7515d0e255bac1317087ae890b3a150e8a46cede388d25279738f92da151c76b -> 5d8d35521473b032d9d924587c8571622ea4ca0d55705bd3e0455789755501b6
+~ -[DDRResetOptions setRevertToSnapshotName:] : sha256 ab91ca0d4a300aa9ba49106910f877085e855ceeb72094e3536b46765db16a8a -> 4e093675c42e6484e8efbda7ddad36ff96c76df1a9aed9a0e7855ee177aff420
+~ -[DDRResetOptions .cxx_destruct] : sha256 5820beb31dce62ab7992a9525ad62a682dcafeba2163979de62eed1fb168ff8b -> b162d9fd6b4a6ebaad8b1c5057c87ba6c1c4c5e5c454218ee361021018a0d8a7
+~ -[DDRResetRequest initWithMode:options:reason:] : sha256 7c9bc0d720377f9dd81e4e789abe49defd60ca5d2de4fddff5a1c6f52df94802 -> 5564f3734de084b6d17284e71582f7c884130f5dba6b72b544f79df52d43e5c3
+~ -[DDRResetRequest initWithCoder:] : sha256 9d354744edfe659d91db3c2f6f0d01f39a3441b771fb57294d13a7550fa4994a -> 6fc1c587a52dc62f22c3052ac5ba8272337e130dfb42b45bc5a2362823a1d3af
+~ -[DDRResetRequest encodeWithCoder:] : sha256 0543a259bb9560eef53cae19bd1629956d11754d96da3b046b0989c07e8e6cbf -> baa87cd8454ca7e3ff8b5de5e1af47bd9dccdf915b49d029e8452667955a13ef
+~ -[DDRResetRequest .cxx_destruct] : sha256 7e5008dfc4122c03264997cd57d0345306ec3c5ba69469b1c9ccd38c6e869e8d -> 15f8234922b9d9b3b07be2fc31cecfeaf351ff68fe7e64880392c3fc89f8ab1d
+~ _DDRLogForCategory.cold.1 : sha256 8b808281440a5bdc41c34981c5d1a7a35fb11de3fcf187c293c9cffa22a73428 -> d4b268f50bbb5823acda0904dd6a3a985e82af7d7364099f970c97a7ebff4807
+~ _DDRLogForCategory.cold.2 : sha256 a7d69f16ce622165e156907e17767a3d6e8c796f5a8464f3024b3cd9d6bfa430 -> 410907256622f209629bbddb3aee5ff108e2032e5ec59c0139982a4117e0e894
+
+```

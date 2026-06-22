@@ -1,0 +1,48 @@
+## SiriUserSegmentsPlugin
+
+> `/System/Library/PrivateFrameworks/SiriUserSegments.framework/PlugIns/SiriUserSegmentsPlugin.appex/SiriUserSegmentsPlugin`
+
+```diff
+
+-3600.4.1.0.0
+-  __TEXT.__text: 0x6fc sha256:363594c53ae0d96dd87f1170ce65ae8d343bde0d79e01d2ebced53825ef251b4
++3600.5.1.0.0
++  __TEXT.__text: 0x710 sha256:7b1c5a1b5527313af26bbd6305b54588a1af58b544d5ec11706ccf0995475a53
+   __TEXT.__auth_stubs: 0x1b0 sha256:8c27b2c28c649239bd7e20816fc7e3688d73f3c56484285efd08f4e2eb22564a
+   __TEXT.__objc_stubs: 0x40 sha256:84a039f7821e9699501717d6a916604efa57e28486f3c199a6b423ea9ba6784e
+   __TEXT.__objc_methlist: 0x13c sha256:09f486d3e9f86f6e4e213b7813a3ec087ffb55e9c04073908f48ac794efb773e
+
+   __TEXT.__objc_methname: 0x186 sha256:50d7ed3f243292d265af17594f4e6c74fd4fd13131753ffaf9ed8292eb001d23
+   __TEXT.__objc_classname: 0x58 sha256:107b4517c5933d10d0a69cbb60e45bb8b25fb9a8dc0c1d635f3fddd882b83eee
+   __TEXT.__objc_methtype: 0xe3 sha256:cda87232cef6c96e48e254ba18c9bc67d4526c9eeb8af7081d2e13106dc487a6
+-  __TEXT.__constg_swiftt: 0x48 sha256:54506c2ad1cfda9971b3b6262ac081e2a7d215aee0a1e7c492fa26620487d81e
++  __TEXT.__constg_swiftt: 0x48 sha256:0ae1cc868718bb1a26ec03d2ca098e6cb2444a2b533d278dd355304e666db030
+   __TEXT.__swift5_typeref: 0x20 sha256:6b485a16769fbd4e32ddc3495ba5a70fc97f42fb830a884b0d889e349a7014ba
+   __TEXT.__swift5_fieldmd: 0x10 sha256:cf8ad3df53b00a8d84ba8a13d3096b79ae6ddfdc77f2725b0e621301c61e733b
+   __TEXT.__swift5_types: 0x4 sha256:df6e34d8c4df7407d91f939304009e3987769581b01f63f7ee45df89e7dc6061
+-  __TEXT.__unwind_info: 0x90 sha256:457322e4ff6afffa9930249423e82f14c832f7809d8a8073c33c0544e4778b07
++  __TEXT.__unwind_info: 0x90 sha256:3bc4c0950c71ee414b09e2ae1f7c08573a541cf6e6960ce2c856804f964c7b8d
+   __TEXT.__eh_frame: 0x40 sha256:4607160d61175b3491c4317e2f53f6e29d60970c9359b826373c31f9948cc081
+   __DATA_CONST.__const: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   __DATA_CONST.__objc_classlist: 0x8 sha256:51b3ef56daeddc77b38f7e6e70dea2226fef3ae7d6d4d8f94031de4186fbb950
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: DF280A13-5B98-3771-B952-8BC8AFB9E55A
++  UUID: B960DF25-A312-303F-B635-1C7F1993D6FD
+   Functions: 12
+   Symbols:   39
+   CStrings:  47
+Functions:
+~ sub_100000eb8 : sha256 12aa2abc5aabbfb07b48322d946fd2248d857bb0ba840784cd0f1e207be5563d -> 20b611fb72a7a551d05e492a920a5cac1f6e0696f6cbada9b0244bcebeae294d
+~ sub_10000100c : sha256 145462e46d10be8b42869045a7b4b50127d8fd9c26bfbf6ea1de2a2ff0d8b0d9 -> 468b7cbacd37838e1185a61959ea86ccf58d4ef2076770ea675eba4486be40c1
+~ sub_1000011e4 : sha256 8f3ccbce7471c3b373b415098c0ec3704d264c7900e7d5f941487c37a5feac1a -> 645ff299964094af38910c2a1b51cc94f7a44727266eb690694137b6e08885ab
+~ sub_100001210 : sha256 7679ba53a979472527b69ccd7a9eddd80293aec1dd711c90cab22cfc8a30ba8a -> ffc7621f2eaf7d61ffae632af6eb7561b0b3c553321449fc0cab54b61d344900
+~ sub_100001244 : sha256 9205bde22c8d2c3303ab36e930a82c1e0cccccecf1e8d1d9c9f76d75f858a21f -> 69f12a644dae33f703614dbe996e7473787e17d708f966122a29fc525a8b3527
+~ sub_100001284 : sha256 fb501ff801feedb2a4460ecd3e753a2ff4806f4bd4f4807769254f8200fd6cc9 -> e705d32605ba6920b3d78d30145f73dc4e521a6754d642909dcce1a4a7f5c45f
+~ sub_1000012b8 : sha256 f48cd01a3638bbc1fede3d7778ba40d58e044272f4146ca4824d15b37ee4a752 -> f77a69ed308229bde5337403fe64234c592d8bf2da8196f70dafef3b6032df97
+~ sub_100001330 : sha256 392dca4fcf6fddf5ce380713a276f59e66db4e1c8446db2753cde185c9e89abd -> 65b37efa102de4e7d3e95216bad0bb91730ec364ba588a6ce7d34cfbbefa642b
+~ sub_1000013e8 : 256 -> 276
+
+```

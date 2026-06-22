@@ -1,0 +1,113 @@
+## ContactsDonationFeedback
+
+> `/System/Library/PrivateFrameworks/ContactsDonationFeedback.framework/ContactsDonationFeedback`
+
+```diff
+
+ 1130.100.1.0.0
+-  __TEXT.__text: 0x1f80 sha256:7d0b3aa9f6acb2b3aca0e4ff6f238bc887f285f57b734546b76a405512ed1530
+-  __TEXT.__objc_methlist: 0x31c sha256:ffe0021f39b90c716426bf4dc6e4e8ed236901911d91eb041df3bcc92576619e
++  __TEXT.__text: 0x1f78 sha256:75de078b7ab00098762cb2d250746e32c27938848d90aa1a27ca69e8aec8cc93
++  __TEXT.__objc_methlist: 0x31c sha256:c9d2d07d43c5028286e2dc323ee4dc08deb1627b1e2a91bc6dfefe5e88da936e
+   __TEXT.__const: 0x60 sha256:9dcd903b3c8d3912deed6996cb69841e76c1e71032c7051517afc9291f3e38da
+-  __TEXT.__gcc_except_tab: 0x198 sha256:8565e3a3b9b68e1342a66463f4679114b163263716296e9df7866f1bda9bca8d
++  __TEXT.__gcc_except_tab: 0x198 sha256:2adb5d28c7f319280fa180ee0507cccb88c45fee1d63c0d8498a87f55e8b9c7f
+   __TEXT.__cstring: 0x133 sha256:5502baf3fa24a4888bfc14d652f7c2df591e305434a04a92b4fccb81e846a763
+   __TEXT.__oslogstring: 0xcc sha256:936b494c6aa0a23e39629fa55b25c69b4721117d384cd54f31f8281f0dc57797
+-  __TEXT.__unwind_info: 0x150 sha256:75563dc1cf5b3cbd97dfce8964423255cc8de019240546b739e38a8aa7b83d79
++  __TEXT.__unwind_info: 0x150 sha256:5176d89b21a20ab25ec9b69e70a2eb98f86330abf9a289f086d811dc5a6ad0f2
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x90 sha256:f678924d7cef41b2694fdcf1455a026c0fc15c7a73e8c9f45828b12f00023609
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:7cfc7073ab564f4d0b87f7ac42bb698f4533c0b51ac0724f08c371bef1c8c5d8
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:b6f8a55d58e03de953e238376e9bf3265fa91ac9f94c64de4c8cc5ccc7cedebb
++  __DATA_CONST.__const: 0x90 sha256:6acc8d63278abed7fe17136ad5e1f09719d5600c9450ee583ef21a1099746aee
++  __DATA_CONST.__objc_classlist: 0x10 sha256:d34cf99da27f33949da4a05c8db9f7c336936600dd2edece33b444405b5e43da
++  __DATA_CONST.__objc_protolist: 0x10 sha256:8802bd6ad6fb780d49a5c5e5eafa2125eceaa64ca5932f8e3616bfa1ab9fba6b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x350 sha256:9b3576ea5f70b4c9d16c5803cbf3bb9033a3809c8f4a86d06fb8cde7cc377641
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:7cfc7073ab564f4d0b87f7ac42bb698f4533c0b51ac0724f08c371bef1c8c5d8
+-  __DATA_CONST.__objc_arraydata: 0x10 sha256:96f0d4f6143f4e2b9ee399e5f5cd0495b3d70b127a4560873618f25aa5995a2a
+-  __DATA_CONST.__got: 0xb0 sha256:a0e59c391765cfffffe9ce64ecf3ed8a7bd23196bafc958b3c17ddd790e3b1ce
+-  __AUTH_CONST.__const: 0x20 sha256:c19ab8960fac3c5bd6534bd84b3ffb3bc8c6127102d06faf1d69fc54409df84d
+-  __AUTH_CONST.__cfstring: 0x160 sha256:4de69cbb2426845178edd9f4cd5ef89d3b3b4bc798c9f12dfd4fe0512e39fd12
+-  __AUTH_CONST.__objc_const: 0x398 sha256:0076cba125f1521f4676428e45d51436f1768be5dca4690c559dcac35827c436
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:b93df1b2f551bae314c0d41bf1d8ddba54890c3673cbf494a6c39f6fe2d85bd5
+-  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:da16160da2db0febfe81d72ba4f73ecb14b5d47fc511db4002827d7fd59b9a32
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:407612a445a13489fe88534c6ab9956396d843fa06037740b40295bb3d549d25
++  __DATA_CONST.__objc_selrefs: 0x350 sha256:30c157c37160ac592fa6adc0cc78b724828a1535864b06367307b537881fd8bb
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:d34cf99da27f33949da4a05c8db9f7c336936600dd2edece33b444405b5e43da
++  __DATA_CONST.__objc_arraydata: 0x10 sha256:779569f9b8369bbbf382b86603aa214fdac3302a60f2e9f7750ed1c9cc30c06a
++  __DATA_CONST.__got: 0xb0 sha256:4e761f93e91d82f1dd6c6febcd9ad4d885e7d7094f543d8d35c046ccd5514b98
++  __AUTH_CONST.__const: 0x20 sha256:7a2fc7798b4f237b72d7885438dbe1aaa3edea16b398858a947a73679a81a077
++  __AUTH_CONST.__cfstring: 0x160 sha256:bb4eb68258776b44629fe3b6542593ee944fb974a8a467f0661d55fe61c091da
++  __AUTH_CONST.__objc_const: 0x398 sha256:d39fabb8d5913f6ea38e0213fc89f5229d7d662918c18c58346b80a1035e809e
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:6311564379196f7eb3df84aa36c6ec4bd12228664fd651ccc421fc1dec2bd974
++  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:32a583ca31347fbc4ecfe11b6b11d1938e2479170c3412e3ffa3f942d62f9f4d
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:0bc63aea156abdc91b7faf15747e6e4a779e51d456fe7cea99a418dcb64b85dd
+   __AUTH_CONST.__auth_got: 0x1b8 sha256:360d579dbd14759b41afdf7fb5e80c0101e15150ae401d59f92a1e32d129f7cb
+   __DATA.__objc_ivar: 0x18 sha256:0e5f6a4117c049eebf1bbd053dd4f6efb41ac3806114bbc3d14ea49de25825ab
+-  __DATA.__data: 0xc0 sha256:bd149f4c2790f0684c4886fe532b8d75860aa7f95e58e57f978d05a157cd24e0
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:e21e2660c70e7f14d98f862054e5a945458eabeb06831fa0982bc539a0157812
++  __DATA.__data: 0xc0 sha256:2f99f086e1f0e7feb12a0ab8b91554e9f9516c1d902b3c6553948c7e3208028a
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:c1c2e4576035d4303624b834949e8c9211f28bda2ca38097d3b2f1b4a2eba7fc
+   __DATA_DIRTY.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 24327325-CBD5-315E-9C48-DA7FDAAD9A4C
++  UUID: 2D902B55-EC0F-382C-87B3-7B716A537BC4
+   Functions: 45
+   Symbols:   305
+   CStrings:  33
+Functions:
+~ +[CDFDonationFeedbackStore log_t] : sha256 a3ba694c04178824f59bdcf4e10304bc0bdb9653231b34bd931b3fb8f50f07a8 -> 2e0e2954f2ad26e787628c8c1087d45a37826613873b095625248d738e8bd6ab
+~ ___33+[CDFDonationFeedbackStore log_t]_block_invoke : sha256 94c4561470e760f6a0e4f53ffb95bdf5025c37efbfdf3a5f42fb8e4b642b27f3 -> 423f8773256e04a062588a083f91e9edc8336515b2e071a41b98f8fa752db35a
+~ -[CDFDonationFeedbackStore init] : sha256 492db6308fe345430f59d00d1715434671c96eb95fdb320c9931b0ea006e3d5f -> b48007a93788259a9e0a898fca6dbbd61791d6bc0caf371a9894f294f6446ea2
+~ -[CDFDonationFeedbackStore initWithKeyValueStore:] : sha256 2fa561691defa650450d93d2efadc853a6002298772568aac7d9c676316049b1 -> 8d94ee87cb003d8fcd4a2a72434ed1f6a190eb911fa8a9c26e38b236505f22c5
+~ -[CDFDonationFeedbackStore description] : sha256 9bff53ab98bc433b44cd347eeb9aaebc5391f5d964f7d4721c4bd84b9febd11f -> aab9432640212e2465c05525b650790c41c64e06d15491effb30e9bf5a183efe
+~ -[CDFDonationFeedbackStore confirmDonatedValues:contactIdentifier:completionHandler:] : sha256 95e9d011cbe5a40b16af5f31683346d4e2f63ff417253055c8f06221bd5e0a5d -> 6019514bc810d1461ccf7fe7264f21821b88b1352721dcbc29eb2e08dbd8d3c7
+~ -[CDFDonationFeedbackStore rejectDonatedValues:contactIdentifier:completionHandler:] : sha256 0442bc58acd7628ab6e81b871d8c4eb66dce0c607ac5ca000977759a3a22237b -> 77adcfc1ac4709710c86869d5cb74f1f567e51ae5a709df045ef6679b1f490eb
+~ -[CDFDonationFeedbackStore donatedValueHasBeenConfirmedOrRejected:contactIdentifier:] : 384 -> 380
+~ -[CDFDonationFeedbackStore reset] : sha256 624afead12676a9081de17d3d592a489063187c8ecdf1102302080f3bfdbd94c -> a1b1d1861d5b93be699afe15a75834584187c90ff7f55dfd98e0f9e238687b14
+~ -[CDFDonationFeedbackStore _confirmOrRejectDonatedValues:contactIdentifier:completionHandler:] : sha256 e035efd4223ea918d3f7cc2cb24278286c0f82edd98268a137fcd2f516968345 -> 8914838e9688623dcae9a4e5fe1176a4427be5bd56840e6169fe48a15e4ededd
+~ ___94-[CDFDonationFeedbackStore _confirmOrRejectDonatedValues:contactIdentifier:completionHandler:]_block_invoke : 544 -> 540
+~ -[CDFDonationFeedbackStore _hashesForDonation:contactIdentifier:] : sha256 9b078738f358efef5011867edef7a14583f074c5a7678dad276d7c8a947314c9 -> 29b811f5a1db8b17eb83f86af6941b4124767aa5cd6e0c44f4e2474739fa05b8
+~ -[CDFDonationFeedbackStore _hashableStringsForDonation:] : sha256 2ff6d06dae3fc3e80a5e85bc46a5cea6c61b9926022435e0aa85896852abd8bc -> fcd9288d12834625c9998543ab2ce0473d27f100e6d1bea540273e40959987b7
+~ -[CDFDonationFeedbackStore canHashDonation:] : sha256 6792937028c1b30cc366c1e56cf66d16713428d9049fbc32403904d597ee8249 -> dd5fc325865b85d02534cd41c23992819b1e1a1b3cec118a31b24ebb78534c01
+~ -[CDFDonationFeedbackStore _hashableStringsForDonation:contactIdentifier:] : sha256 7e20fb26f9fb91c52bea0435adf289af8b98ff59b62c13ab58c392743331a004 -> 1e6c7324b30daf3a970dd43b17e9b0677bb1c14da7aca4ad3374f3c0d6a3c595
+~ -[CDFDonationFeedbackStore _handleHashesChangedNotification:] : sha256 a5aea650faa6a652dfa0d6b37cd477d732f2fabd99a191abb0e71fc6a72278f2 -> ed82f6770626f67ae9f7d4ee2199614970c6e2a6ecbba364592f09e32a6e32ea
+~ -[CDFDonationFeedbackStore _loadSalt] : sha256 e3f843509ce40ec1828be0e9e0984ec11f53403646c5beef7163a6e080110c8d -> 84e275492ef651dd9429a6e689c9af5552f239186e6ca8145bad7fd345bf93a7
+~ -[CDFDonationFeedbackStore _loadHashesForKey:] : sha256 de49e03dcdf1133dae93ba9ddabaea5a0d20a259a3139ff5c721e22b446ee46a -> c3ff6cd7dd3797883a17c3744d961a701b406d2a2304aa2ae0da1d89bc7f8d4a
+~ -[CDFDonationFeedbackStore _saveHashes:key:] : sha256 bf732a9a24fb3df9594aea2010548782d27a10b74a11ed0e145bc75cc27ab6f0 -> cc923c61bbec9a37d0ded6f520ab66413ba0379cc7628e20f75ad85e42d7543c
+~ ___44-[CDFDonationFeedbackStore _saveHashes:key:]_block_invoke : sha256 662480e549871f53767bbcc952f8b97376bc82ae6661021799c42f5a0310438c -> 8ee05def9497315207a3fdbf743d6b5c9e6860aeae365885b01710dc108c1783
+~ -[CDFDonationFeedbackStore _loadResetInfo] : sha256 8e2c682fbd81617bb7dca173b83b8afd6bbf76b30bd28b8418ac2f644d70d8c3 -> 031e84087750752fec5711f78b07f1cb58aba49c92301580bdd76d4380f13c24
+~ -[CDFDonationFeedbackStore _saveResetInfo] : sha256 10d818dc8c09654dbc041bc724b95ddced3b1ce3f0c85582723efbd49a5d774f -> 24ec89ae65e66126022ca634e8cf9301f706911cb24140cd68cdfb6efd4c524e
+~ -[CDFDonationFeedbackStore synchronize] : sha256 8ba1b61f40b62cee1ed07c0d8299936ace1c393ab713c1001f199f0336a1f90f -> b0246132f8c7e6241dcfe04b2ecf446464a60f51e167b8c00e456c70f7263b62
+~ -[CDFDonationFeedbackStore _randomDataOfLength:] : sha256 846fdd2051f2471bcc781d6e16a822396f04a92934a7b4f543586fbd5edc9ee5 -> e3501f12a1fea2a8eef86ed2cd8d525533991c2cc69fe7e03dcadb666e37e002
+~ -[CDFDonationFeedbackStore _sha256BytesForStrings:salt:] : sha256 fa58a2c3d5ff294436747f81fd3cf660b9f161cab5e2076faabffee01be01dfb -> 805d1d2a6d8136f48fb16e9759cd6c5fbd845fc7d38fd9efb93ba3aee24935f0
+~ -[CDFDonationFeedbackStore _hashStrings:salt:digest:] : sha256 4a64e8035a774333e440719b7a443f3a1f0d2f5cd15ebc3b0d74f04c9e9900c8 -> a081532de457d157f9819e9cd49c4e459dfd12a6e6fa411fe4dac898e52d34d3
+~ -[CDFDonationFeedbackStore .cxx_destruct] : sha256 01aafcb68afc134b68ba505a438ddaf6c4fc7a368b09a536ff4829bb15e80ad2 -> caa06a529261101ce9a55df5c25e7e1917e5e17247c41883272dcd971b4d03ac
+~ _OUTLINED_FUNCTION_1 : sha256 55ca65356e5a0b0e802ef22c78cfb1136a050721feff3357eaa6923262f30a78 -> 0b5d936afd7166cdaa3394ba32498d7faab26aec758117aa80b9c728d753e3b2
+~ -[CNDFDonationStringCollector init] : sha256 371dfc8b19be77bb66ad2770666dd916c2d174723c8148214760f54a1a9bbd70 -> cc96e38aa88f752483315c6e4ac83eeb8b52b2035dfbd9d971cf14e858225b08
+~ -[CNDFDonationStringCollector description] : sha256 ae10aa1883dbad43ae6cf2c1ea1f2019111fee8aec539416e98327fb75458eea -> 027b3e7f350fa4f9708d390e9bdd366426aa1d14ddf969331f3f4da31a9637c3
+~ -[CNDFDonationStringCollector strings] : sha256 319c2dff14da9f7cb7a80128b4158bb34d8fb9a2d63aa2ddd07539f16950b7f5 -> 12c0b1dd9dc83ce9ab901c85b4d2fd45f4dc6726ecf9b3b2fd78923048e0856a
+~ -[CNDFDonationStringCollector collectStringsFromDonation:] : sha256 7f2fe0c4243488c4e2004e8266faab506351c6d7163bc9dae8a54e0c70cb2eee -> b647e49b2561cc469b258cfe05b4796c7058479a7f4cab4708ce6cfaaf2ef34d
+~ -[CNDFDonationStringCollector _addNonEmptyString:] : sha256 e354f91094a229dd2e458323facc5acab5c1bbe07f25628f471e3ee8f85c731a -> 64e0367ab74ce8a687d19730959a99d2e25e5d81f46bfd49e0afa171ddb831ad
+~ -[CNDFDonationStringCollector visitDonationValue:nameComponents:] : sha256 6aa9d96afdf95b61713b64bc40e2cd4ec4f70c5efdb9e5723607b032ca19b118 -> 359462945022f3f06ccf64fbe620a2b9589cd74d1a7ef17f7801e6cb1489e752
+~ -[CNDFDonationStringCollector visitDonationValue:emailAddress:label:] : sha256 c1e8136a6478f7c6a46e221cb9198848243b5139e70e75c7dee5a984e5b9a536 -> 8a7a117595641d5f81980ddbf628801d586566bcecd89d4ee5fdd82e0e66da5a
+~ -[CNDFDonationStringCollector visitDonationValue:phoneNumber:label:] : sha256 f1cd35646a5d0e67bb5c1dc871b31ff3e0631ecda9f32c2f110a9bf2bbe67a20 -> 9a0235d71680fbc4ef4dfaeb6656cc826c940d6ead54dbb330da48e2a6adf94e
+~ -[CNDFDonationStringCollector visitDonationValue:postalAddress:style:label:] : sha256 1d00bba77cd3e304f3045954a1f44eb751cc1f7369ae04e0053d7ebde24c3955 -> 7056c508a1eeaa5b7c1677e907c67d3577b633e4f58036e748fa476e11c83c8b
+~ -[CNDFDonationStringCollector visitDonationValue:imageData:] : sha256 d187a4308b5e86ecf65d1b264a68c655e09165be228b91e2571bcfbd437675d9 -> 0fc13c17cbc6b83e2fb1555825a938573e6f880c224e3f17cc79c91e1789a942
+~ -[CNDFDonationStringCollector .cxx_destruct] : sha256 a1a67eb148bdf71d3fc3786db80924730793e4faae21f148b78258b9d46277a1 -> 863484a736b44bcb2022bddbaa4c21157bc38cd3c03d52e756cd258467c6a20f
+~ +[CDFDonationFeedbackStore log_t].cold.1 : sha256 c397f3f2b8d846ead4b036450e538b645dfce5a70cd15168e2dfc91a8a87fe6e -> c2ddc8be5cdffba87a6cdfdbff1c846562ec4eee37c3a22457aaecb60274e5d9
+~ -[CDFDonationFeedbackStore initWithKeyValueStore:].cold.1 : sha256 83d746b2b69499079ed520f5f8936f5248f374f425b5a747b32a02455e539a11 -> a11f95f532f5406de950a5f44daad93448e6e233a550215cbb269c7d87703adb
+~ -[CDFDonationFeedbackStore _loadHashesForKey:].cold.1 : sha256 a7af59aeb288349a2b8cc4e2d434cb2d52955e0ea2253d9d96b71debfbafee54 -> 7f4d5b464235a3bd6b3024608bf168ffa5821df67b0c860c2847a016883cb286
+~ ___44-[CDFDonationFeedbackStore _saveHashes:key:]_block_invoke.cold.1 : sha256 bc0c13909fc80a395072066d3bc7f216ee701579309361675fcb0b0a77027b09 -> cc670ea65534b05abc4e10935c5a69e7dcd5e0d83906e0675bb498468b40c74d
+
+```

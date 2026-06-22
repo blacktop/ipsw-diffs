@@ -1,0 +1,99 @@
+## EventKitTCCUI
+
+> `/System/Library/PrivateFrameworks/EventKitTCCUI.framework/EventKitTCCUI`
+
+```diff
+
+-404.0.0.0.0
+-  __TEXT.__text: 0x193c sha256:fa90b3c394c1377b787b12be417bfa63015396487ad57177ad1df611786f194d
+-  __TEXT.__objc_methlist: 0x114 sha256:b85df2de412cef423cf0db2f2790f28f92a8db8d024048836b0abdc2a7e80eb6
++407.0.0.0.0
++  __TEXT.__text: 0x193c sha256:f1014edacd07fbbf438662e1f3d3a5b991f2f44a0c5b2eab89ec1fb05eeba9cf
++  __TEXT.__objc_methlist: 0x114 sha256:a1cee0fcb1d639ec8c142354fa8aedd82e1dab83ebdf07815db833170d2afa2d
+   __TEXT.__const: 0x86 sha256:9a992ed9cdcd7f45f72d742d84a28d4ff5ef30600ccbc76074ff3bd1f376e201
+   __TEXT.__cstring: 0x98 sha256:eddf016ee687842cf56778906c23ca0d53196788c366ac336c8c5d08e77a19e3
+   __TEXT.__oslogstring: 0x81 sha256:1c0e14f4a01800e97cd535bf8d47f0e42af6281639ad4a5c53df435d414acc91
+-  __TEXT.__swift5_typeref: 0x3a sha256:2bfd276efcde10bc5e55337f05018a68f0ffc2beba5358837edcb2b5b51542b0
++  __TEXT.__swift5_typeref: 0x3a sha256:bedfb3002b4817c3ada8a7c1279af2781cc4b79ac02abb8cd5f7b394bc7b048d
+   __TEXT.__constg_swiftt: 0x50 sha256:a6a5e41048a5b5fd5501c3127895b2acfa65b2cb42bfc9722fba6d79ddc15fc2
+   __TEXT.__swift5_reflstr: 0x6 sha256:6a079a1e52919b7b8aaa6666bd00b35da7939ed99a4008cb09bfcc6890a21c42
+   __TEXT.__swift5_fieldmd: 0x1c sha256:69464d81f388c9e3e3c704f3fd3ffd71ac2c28c22ec59835674382d392239fc3
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x120 sha256:ce0b7169396b12a3999cff1b7bc8a505daf26fa30d9250404370ba5e51c58541
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:237ac1ec1b9cb1c4bf0c95eedd06f6d950275bb4526547e6d86cffde69fefbc8
++  __DATA_CONST.__const: 0x120 sha256:3f08b66407de5e2b7593ed91563125ef467b53eceb67eb18d1479e8ed6269e3e
++  __DATA_CONST.__objc_classlist: 0x18 sha256:150209744fc9bab4c2c88bde43c119bad6a6bec1366c6e9623d30632b5b97935
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x230 sha256:ae67f80d52af49f82ccc24b187adda0c5311ca72a6508554f1d42c576b17c11b
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:c4ff3942da6c5101a258c5ccea149528a0eab1b0cb3ee5b14523f3eb1afa579f
++  __DATA_CONST.__objc_selrefs: 0x230 sha256:c0a5f1732d64a2f94922e36279985ecd95d2bdc7fbadd202618e83921d046842
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:e4fcc14ae6bd581741c8b69c264c1821b21d32b8f8d148a1c1766543171a4a50
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x20 sha256:993bee24e282d12f6d53c6caf07529d5c67d6d0bde58a30eff8e785a1705957b
+-  __AUTH_CONST.__cfstring: 0x40 sha256:b99a844d36015254b131ea93e985ab4b4c2a53340af2a44a913afd1bd264a9c5
+-  __AUTH_CONST.__objc_const: 0x298 sha256:a2690bd4a2a02416f9aaa064335c18b5dc0742029bf1d86fafaea192a315936f
++  __AUTH_CONST.__const: 0x20 sha256:101dfaea3155c24f4de0fed2354776bfee99d2af034b14572ed293ac003acc27
++  __AUTH_CONST.__cfstring: 0x40 sha256:733599bcdc5dc860789f5596ab4cdc5c83f32825d7e155bfacb0ed806ca6431c
++  __AUTH_CONST.__objc_const: 0x298 sha256:a455a01d223144ad48b2f304b24477709b373663cf062de282847c48518f12cd
+   __AUTH_CONST.__auth_got: 0x170 sha256:71818ecc26433c32172dd9a3544657971c7078daa2257da7c3c303e08693cb23
+-  __AUTH.__objc_data: 0x168 sha256:7e965ddb955da31a3fffea39b0b8ea0541257e7825cccecf41592eadced45712
+-  __AUTH.__data: 0x28 sha256:475ffca9544d13c4e6aedec7160ff6fd6938066549aa2707545b831934b59402
++  __AUTH.__objc_data: 0x168 sha256:d9e79adf91d83028b5a425da33c5d96bf63b5730ba0e03564b7c12a4ebcb2c9d
++  __AUTH.__data: 0x28 sha256:b589e832a8d6ef2e6850ffa61499435c6d6d540f092a64722410c5d02dbdb230
+   __DATA.__objc_ivar: 0x18 sha256:6b1170b30ea56c65aca910dc15422cea3154c2097d73418ea59a19a2997631e3
+-  __DATA.__data: 0x20 sha256:77cba88ea092d51962c0666c5e1e8d13501bd38d3f5a3782f4fc7607bf1554bb
++  __DATA.__data: 0x20 sha256:c650b9e0f0b5a890b738137b67fdd5c48d1213617ba8ebf0ad5057f7d1d4e142
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6CC5F979-A4D9-3E0C-93AE-AF76041BB5B5
++  UUID: 072F14DD-9288-3ECC-8A4B-947187ACCD90
+   Functions: 37
+   Symbols:   273
+   CStrings:  11
+Functions:
+~ -[EventKitTCCUIFactory initWithBundleIdentifier:] : sha256 fe01dfb58d6effb2fad1531eb7f0f7a76043081ee403a8882b2f0b0ff3692839 -> 05882a4ec6dd1d15939908951cc5dfcb0ce9b9873eca4c0c03cff5928f154bab
+~ _logHandle : sha256 efa5160a8c77b3b702b66d3903f52d0379015979cb1553930503467d1e5e8304 -> eed3ffd4839e37bf3bb5c73589f94278ca9d9ece6e580a8bd186d238d5dc9e3b
+~ -[EventKitTCCUIFactory previewViewController] : sha256 8eaeadd37dbb44b557378349a1a89f7b775bdc728416ba6d36c1fad0f1671422 -> 7e23259e260418c173f538ba0bc3f202f33df7604289fd0aa0f234b302e4c46d
+~ -[EventKitTCCUIFactory settingsPreviewViewController] : sha256 57ed200102d2cfe8f4a9e85c0a2de1a607e35874bb5b22eb888879d6fe6ae997 -> 0425e80b48a307c96660be6b4a15ffe8031605c267f53f1b19f82fa7c48d492c
+~ -[EventKitTCCUIFactory countEventsInTheNextYear] : sha256 5476d70899642f389e12fa981ff10df1fc1ac0dbdd840f45ff3e0a472eee1188 -> cbf3775ecbdda9b1a877903d5019e88ec1d690077ffde9d4060fe4f93fb68a57
+~ -[EventKitTCCUIFactory settingsViewSubtitle] : sha256 ac1526206ff1bfe79b3697fa70317b1c21da2e662ea02388f9650af82755d65c -> d17ab70a36d3b969c65f2b810cbea5034dc348adae96ca9afe0fa57f1c763872
+~ -[EventKitTCCUIFactory previewTableView] : sha256 1815896b7a7c7a55674af2f7f2f8ec8d1fe26eaaec7bcae8f66e48c3874ad0e0 -> b19f3cd8cba7f37c96a44096f7e1b70a83f65fbd7df842bedffa112accb8c207
+~ -[EventKitTCCUIFactory .cxx_destruct] : sha256 b77d54f4cc3a5280eb308ed47b2d43c4e0378118525f4fd75b51e71468cd653b -> 46290fba81da9fee74bc95f1536ea96e1fbeb6c8e2dfc6f77762667751cf8e6d
+~ ___logHandle_block_invoke : sha256 ff1959e14caf7917e9b018e53f5fcb61f3d2ebd818bd31f1a02fd801969f087b -> 34cd782c9173abeb77e3101e6f430ce50c2d5de45305522e80260167eba620fd
+~ +[EventKitTCCTableViewCell reuseIdentifier] : sha256 35826b2e86ecbdeb80f1590878c22dadae54c6b6e380bd77cc69ff134c292321 -> 5716110626b39dd429d627fa9cf7b10f7107e17256daf94f392df7bdb760e824
+~ ___43+[EventKitTCCTableViewCell reuseIdentifier]_block_invoke : sha256 5f0d4d2643ac1889b310c57b9c85cadf6765b9d6d20de77a1d50328c66ecf53a -> c96509ed711b6642efabc3dd2e4ac03818b8c727406341804c653b4e952fbcd5
+~ -[EventKitTCCTableViewCell initWithStyle:reuseIdentifier:title:subtitle:symbolName:imageColor:] : sha256 40627cde9c53bb6ff8052775ea6c74b196e7d9179368b9f6d6f7cf25d431da6f -> 22996b2e2c5098b25a174e3c8dbdb8fe7afa895207872464b918d2a9808eecd8
+~ -[EventKitTCCTableViewCell symbolImageView] : sha256 17948fe8f108b2e4656cff70c21070d7059b11ec2afde70847de2849dbebabb3 -> 81d3f752f8b36c19f511f7f688025e08c618a767f83e87971b0751d867d9369f
+~ -[EventKitTCCTableViewCell setSymbolImageView:] : sha256 9a470269e8204ddb4fb6ee91b9936cd5ec833ba98f80812a2d62dc08043946a9 -> 8727ce77a09ad2b48b027aa3d15e24db19309bcded1e135bc114bc2b06b5bd74
+~ -[EventKitTCCTableViewCell titleLabel] : sha256 ee0588391a14e8143ab0c8be0c3e8f896735402c022478d19d84c27d93da8b78 -> 8295432c041b1d2efd7877df807b790467837981cbb513be585e94aff8d9304a
+~ -[EventKitTCCTableViewCell setTitleLabel:] : sha256 da420e7e1034a0cbbe0f6ef7102dc2baa1557c4124b789acd00d7b7586c7dd75 -> b9bfa9c0a1a12d98f2156b7f09516cbe908240adc4584d514c68c62674466443
+~ -[EventKitTCCTableViewCell subtitleLabel] : sha256 668e17ae8dbe6dbaf0a24725c4814f67b7cb61b22fce8da2be9c160b2a59deec -> dcaca77ea10895ba33bc85db92733c13c5cbc42e889fb2b7e4d1028389ad22dd
+~ -[EventKitTCCTableViewCell setSubtitleLabel:] : sha256 010541789295315305970362a119f964623250e8a6efe1648ccd73b377ee17f6 -> 94ca0212b5c0f520c0c89c4d52504154952e3916e0849a7ce723ca8a334cadd6
+~ -[EventKitTCCTableViewCell .cxx_destruct] : sha256 5abc64e1e3dbb3e30e896f9853553712af115b3cce8e3dfddef60db8f9fef42f -> 63b4bd8f391c4f04ec5a6b098588e7b61a4f60b5da30902836ed890618a5a176
+~ sub_25a3cab6c -> sub_25b7f8b6c : sha256 7286cb1dd6f8b67051de623d9546d44f25cda1ac9834237e4fb41980be15e8ce -> 8a9f9f49370a65b3198e23cfdcefcfc142f497872978cf465704b56825f6f3df
+~ sub_25a3cabbc -> sub_25b7f8bbc : sha256 c101bbfe74dcf82cd194f5c0d44baa740cd24c1c57979a6c60cc4f8023c5d402 -> b8b9e41ebefd17dccfae4806f9734948452208f568254ab05f85e6ea77508f30
+~ sub_25a3cabfc -> sub_25b7f8bfc : sha256 cb7b48f360498ba6d95c326e58595098247d85da178d2106ba2b7e17a94c4142 -> 7c2677e33f579fd58cc1427f5a49bedd2d4f4fdf4451aa08c6eb592b6668e6e1
+~ sub_25a3cac20 -> sub_25b7f8c20 : sha256 5ea02a75f7faf39d70a536aef9bd753d936d80f31e5c6761c380ce357c23b509 -> ceda15caf539c46e135fba4472944088e6d82d99c6bcc0ea4308dc3f6fa23294
+~ sub_25a3cac78 -> sub_25b7f8c78 : sha256 e6cb8c11656a61bee97e7a034b82f3089941ba47a635d92352fb72a484c35237 -> 6f56feb03f8931810b017b681a5fa3e2a8849bd34fa4e16bf9ac64e06fe244c0
+~ ___swift_instantiateConcreteTypeFromMangledNameV2 : sha256 e60d53f2d6805089fd7dee0329ddc95e02d017c54785bb3abdc794d13cdabd88 -> 0419f90ea3bb539bc3a79125dc0cfa061c55d1a78eb2714d154196117e33cbad
+~ sub_25a3caed0 -> sub_25b7f8ed0 : sha256 a30321e962c39290b3cc22cd6ef6e6e20d41af3a39715f92e9650a1760f316bf -> 2dc700791626e120bbbd7f11ef73f4a41fd56519ea32d71673af117de55e1f65
+~ sub_25a3caf38 -> sub_25b7f8f38 : sha256 05fd621af26d312c3d2237ee0bc116ee3312e8c01213e7e46113eb048c337fca -> 65172d23ed66d2e4c2e005b665e018a263d57fbb026f0fdcf9b326b16e227d61
+~ sub_25a3caf98 -> sub_25b7f8f98 : sha256 880089aa6174b5dc5ecd96b98b3e04bc069a5139d9e9b6473e419ce8e315082e -> 7422630cdc81ad46b4fc7150e7eab4e63835e0a6b64cd6b1b098f22525d1b6e2
+~ sub_25a3cb058 -> sub_25b7f9058 : sha256 dab9abc9fe98aab6e679bb6330adcea6577f87f3321fd11432cfcdbf0653dc9b -> c053b2d5c9f42ec5c7b2c2e91267ca5bd295560e18d7fb4486af86f6ee639c3d
+~ sub_25a3cb084 -> sub_25b7f9084 : sha256 1fca9654f8911db18f4d4bb2d6eaa2b9411091954da0cb7d3045613bf62a1dce -> 5458f39fabcdd66294cf0a0b2c2f8142ff62490c2e176f47a8fbb16093d3a43d
+~ sub_25a3cb0b8 -> sub_25b7f90b8 : sha256 deaaf8a7eb41c818f89dbe06d0d0bac6225a22c1e809e929e1c8ab723494fd62 -> 87476550ca50ae24eb2154e4a62631b718cdbf7e948bedbad145a8249f8cfc36
+~ -[EventKitTCCUIFactory initWithBundleIdentifier:].cold.1 : sha256 0a7ccd0b414fb4601d918955d86910d5072d99718c6d68761ad10c7109bfee1d -> ae585b3900cee76bd98125496194f643b2cf0653eda8097d37067cd040da7534
+~ -[EventKitTCCUIFactory initWithBundleIdentifier:].cold.2 : sha256 bf84ad6ed85eeadd6212074a9d9f6c54e07d3e76406ab742e662098200242e58 -> 9a6e5e26a84f30f5cde7c2f35f316afa9fe9be3c62670e8b79a54d3ab96dbad1
+~ _logHandle.cold.1 : sha256 ab498bc55e9d70afcde22c460ab2eda75422c6d82daef5e534f579ec5c278abc -> f29001afc2e54b72bcec05750514c9bac3312725a484a4c64f74d458e44a20c9
+~ sub_25a3cb14c -> sub_25b7f914c : sha256 705e367946b0b959351ed7e87542bb5c010d05432aaa23d028dd66adb13be568 -> d9d33c9dd29a1a80ee246ebdd06bf5b9bf6b75fb61eaf4d148cc3ff959f38b29
+~ sub_25a3cb17c -> sub_25b7f917c : sha256 ad3cf38ba30e3e56fd5b59412a49123fba1871a5ddf75b2e6ade673b1409768f -> fec2f454f9c25c51c99401fff4481d6a52a985e3a4c3781ad947e7abcb186811
+
+```

@@ -1,0 +1,171 @@
+## EmailAddressing
+
+> `/System/Library/PrivateFrameworks/EmailAddressing.framework/EmailAddressing`
+
+```diff
+
+-3891.100.17.2.4
+-  __TEXT.__text: 0x68d4 sha256:a0e5f571bedf615b8667ba9be18560c98bbe35e3cb84c7d575731e4c199f79e8
+-  __TEXT.__objc_methlist: 0x55c sha256:87d39244d2fa927b1bd5edeefad8543fe7634c1e487baff1f7be78f201366a6a
+-  __TEXT.__gcc_except_tab: 0xaf8 sha256:146302a018d80865a2f92672934472f888a3f15826c5bcbd64718056a056352d
++3893.100.7.0.0
++  __TEXT.__text: 0x6888 sha256:97c12b375325b2bdc48a74ad5e678c1c82d8e704928a44d2b4fe88a4268ad30a
++  __TEXT.__objc_methlist: 0x55c sha256:4905bc7da73727c4a1c592a2d26b30b0b6a7b200c19c00daffb250f20ad17000
++  __TEXT.__gcc_except_tab: 0xb00 sha256:1855c99f407b9962262b50aadaa4da9a865ef3afc7a5b72e87f28a80358b1417
+   __TEXT.__cstring: 0x26b sha256:1b078db2fe132bfacbd933df85f5060f39082554071f9ccbef42fbaf78725b09
+   __TEXT.__const: 0x28 sha256:950eb85121dbc48fc2f5b45319a076c26d4a2de13c5855e5d16e5b577ae28c78
+   __TEXT.__ustring: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+   __TEXT.__oslogstring: 0x77 sha256:8b69c5105294791b5a3e547efa62fcd6aaa49500b214a52bc5e29109def3e716
+-  __TEXT.__unwind_info: 0x3d8 sha256:0de4430cf6e74119786d127b00d3903ef7eeb9e1e455e2426b4ed367f95a3576
++  __TEXT.__unwind_info: 0x3d8 sha256:b41f02c285183e2da5f6c3c72fc1cd8757b4e475a84e5f27d6dd1a9d5b292a0b
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x68 sha256:a30880d8471b3cf2e1df7c11e45f324610d23821ac23a186e750e048ab2c764e
+-  __DATA_CONST.__objc_classlist: 0x30 sha256:4a29c08959237f8017010cb046e47383aaff8dc7ce2ea1bbe19526d60a6665d8
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:32e5ea5ac3dc3abb5a537ed5fd7290953f86a805f14ace3fed6dd698a95b45bb
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:a0b3ec6553fcede279808ee77e66a61058f54f6601079474f395008a8afa2f67
++  __DATA_CONST.__const: 0x68 sha256:165bfe550bcf16d4e36cc37a3fdcb335124e6813f89537992e6868b6e1eac13b
++  __DATA_CONST.__objc_classlist: 0x30 sha256:4eef1e15d5b8c4dc70e0a81fe7f8123cee22fd18a4f5cd256b9437d7e7b10a2d
++  __DATA_CONST.__objc_catlist: 0x8 sha256:a9d928c4b15549c95c4e6c87c3d4edb654a82d2b52e96c17c4ebbd3aea330ab8
++  __DATA_CONST.__objc_protolist: 0x20 sha256:11469ba9ca568d32671ece25757995bd832f39d3823c94df10ee6a023bf60255
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x528 sha256:a42e6041f70c6d3c06e2deb82ef161134f5cee160d9da4a836562570d38fb288
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:041672af50395c5428b885b95523632075c33ffdbc5b19c4b361f4d81bf7375a
+-  __DATA_CONST.__objc_arraydata: 0xb0 sha256:9f108e3ba4444b859f4608625239349ebc003cce34e5cf7fb413a760604af99b
+-  __DATA_CONST.__got: 0xd0 sha256:a9872552c03486768a0cc974aa02d9304b9ac70509b073062e08d22b982c1368
+-  __AUTH_CONST.__const: 0xc0 sha256:8dda56f6cd0b0409f6d3f583a0795d3467a8059a7655565c01d71325f4c5cc0e
+-  __AUTH_CONST.__cfstring: 0x6e0 sha256:0c834718dd63583c42298a02d2d2be36aa892cc5348997d0468cdd903aaab9a7
+-  __AUTH_CONST.__objc_const: 0x720 sha256:033e3a5495a61435ee2dfa43c92e8f0657ff765741739f817b8f092a518b18a5
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:32969449841612d1f4d25a45532dcc51e00d817d9e998a8e0571784dd2d75ad9
++  __DATA_CONST.__objc_selrefs: 0x528 sha256:8133915adb5b40f4452464b2a321a16d68176620c6f8c71161f19a7c77109a52
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:5ceacbb712e3935948dd79155249d3fd08030854977b49d0941a5d6998d9f79c
++  __DATA_CONST.__objc_arraydata: 0xb0 sha256:de01bdd0cf9a638eb30a3b476c2b67ffe766cb8689d47a04b276f48c333be2b5
++  __DATA_CONST.__got: 0xd0 sha256:b8c8ba79900bab145b2e84515051cdda32ee3617a9d73c98a544456cab8a070a
++  __AUTH_CONST.__const: 0xc0 sha256:5c823622836c2f2f72e272c4a717760cdcbec27360796c5c8d0dc2b5399d79cd
++  __AUTH_CONST.__cfstring: 0x6e0 sha256:629ba40d17bd912174eaaa0a8f043a98c4edd23019a83ab75fa237cce61dd7b9
++  __AUTH_CONST.__objc_const: 0x720 sha256:4716f8e5a66f7c51a1a407dd8267961356938a6c4c47253a53f8ea217702f8aa
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:ca17c783373446550c091c5d20d5ef26a020630d7874d91231b0fc46c8cfa7e1
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x10 sha256:94c71702af4db426b6bb9e00eca4035074b75fe47b8bf0dae03269723b4144fb
+-  __DATA.__data: 0x190 sha256:8e460d4c9796381c03c54d8a904a39ae4ad91fa35393b6404f9cef53075f5b42
++  __DATA.__data: 0x190 sha256:75eb41a7d5b8bbe86f779807c13136293d18d50746559f019f632b5ac870ba8f
+   __DATA.__bss: 0x58 sha256:10eef285deef7a4b7c82b22aa53589b7833df29de3814649c772bbd5c832f365
+-  __DATA_DIRTY.__objc_data: 0x1e0 sha256:cfe6d49497ad302476a0b9360477313862050ad873658fc76d48bc808d32bf99
++  __DATA_DIRTY.__objc_data: 0x1e0 sha256:adcfc40dca9008ef72b6274e45cbb6fd362f4074f8f9a1b612c237a94a2a9ec1
+   __DATA_DIRTY.__bss: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9BCC8EE6-8456-307F-917E-ADCB012FC31E
++  UUID: 5C042825-A949-3E05-90C5-425EB7958F0C
+   Functions: 98
+-  Symbols:   577
++  Symbols:   578
+   CStrings:  113
+ 
+Symbols:
++ _objc_retain_x27
+Functions:
+~ -[EAEmailAddressSet init] : sha256 d55cff65f28cfb2a07c6940339e3b75612a1494b747b717cd8cf5596b51cfa29 -> d42a8db449d06507a33266adceb9912c789f6d936d62dcd6ab6f5d459193b23f
+~ -[_EAEmailAddress initWithEmailAddress:] : sha256 0c1cd1a472dbe49bbfdc8ba597bf7ec4775f5c5057fc3f8e72ac09884d144d44 -> ad81223c9dbe4f406bd084d8e26f5e933e7c0e0765313445254998a1a2340dfd
+~ -[_EAEmailAddress hash] : sha256 72a4897ab932f14e7b54b79f7775f163d472bdd5360b17a754ef798f960d0460 -> e3aa567ec32535d9b5b5ff88d23729f2b79451e26987cb0a39578c694a42ead7
+~ +[EAEmailAddressParser rangeOfAddressDomainFromAddress:] : sha256 aee272cfe773ed03474058362ecba108c466ade4a4cd89a3e5bbba825443c9cb -> 22e4ec731853a14fa3b31880e464d3bff35217a1612f1477c55de714f6ee9393
+~ -[_EAEmailAddress rawAddress] : sha256 9f7f0508945e0caf59521d360977912b71cd0c118e9cfcb4d83d7440a79378d6 -> 6f882923b261e0d2db8eca2db390a51a73d1c07b9b1d237245e4ac97b244f441
+~ +[EAEmailAddressParser _componentsForFullAddress:rawAddressIndexes:localPartIndexes:domainIndexes:] : 1424 -> 1448
+~ +[EAEmailAddressParser rawAddressFromFullAddress:cacheResults:] : sha256 72072f37e8964c53c4c7ab9dc175a357936b1a7532f1723128e7484b306c89eb -> 9345773b8468b55ab4c6368cbd0eaddfc527d32a5708ff8154c29268af447f30
+~ +[EAEmailAddressParser rawAddressFromFullAddress:cacheResults:].cold.1 : sha256 acffab24e6e065df53f805bead81f3bb61be479caa2a4bdd4c869ba629d55715 -> ee7a92760c8c59f3d2f89b2a50f92775cba81dfe3637db4a42aeecf5767588f3
+~ ___63+[EAEmailAddressParser rawAddressFromFullAddress:cacheResults:]_block_invoke : sha256 d82d20bcd988a8351a0be66e04afde33d57cf2f2c70ece888424eac908815e6b -> e4a54f7716bfcc40ea6b37564d8b4a54043eeeabb6aea3c2a0809b90f6ccd570
+~ -[EAEmailAddressSet copyWithZone:] : sha256 93e4113154e6fad8f769bba71387403066c98f761e4f9be111bf26abf02c9622 -> 5c6d9e8cf71b34a02906307b145035971c2a91f411b2e379bc9607b8cd590004
+~ -[_EAEmailAddress isEqual:] : sha256 44c4ffba8431aa64675b5933f4e89725041296c652e5dff0d0d811d6f21bd282 -> 864641fa6a6bd219260c9921bd96ca78b7c80b4dd2d6155f5f7566d8423c1b29
+~ -[_EAEmailAddress .cxx_destruct] : sha256 2be108e9e0407ef705b78186f8454af821e83be203eb6f5c40e95ee26cfc8670 -> 69ad02d693216b421bce4378416b53752b490ad37e273fc5878c0db10b90ae86
+~ -[NSString(EmailAddressingAdditions) ea_isLegalEmailAddress] : 1244 -> 1228
+~ -[EAEmailAddressSet member:] : sha256 3ecf00a445b519eea385275f18a3ee8c64ed1e7bb24077cb098a4c1fc6c034f5 -> b946e3ab9ca0d7a969b119a4c84921f6d59048d5e3b9e2b3c89b9e8f8676773a
+~ -[NSString(EmailAddressingAdditions) ea_isLegalEmailAddress].cold.1 : sha256 09d25e4c7ddad6874186cf8912b789df98ef9d7462915e0b3faec99e738aeccc -> 667e7dd1df54ab26e29bf3a59cf08973bcf59a610cbe09d0ed19a753db99ac4c
+~ -[EAEmailAddressSet .cxx_destruct] : sha256 7874f5c3d070bf1d46a6a50b7831e9fb4f6e7455e39517f540c8afb1858f23ed -> 7c8dbb521dac9b74fdf18b592c823addb58e8a396241880029c1108c558ee232
+~ -[NSString(EmailAddressingAdditions) ea_uncommentedAddress] : 1148 -> 1164
+~ -[EAEmailAddressSet mutableCopyWithZone:] : sha256 1461b31c0cd09f663b2f4ec9ba19c12ae1b8c84366d867a8e69ddc791e50a84a -> ac0ca89703f1063557c8b15cc4b446b375c192fa525d3b4748eea5f714d2e422
+~ +[EAEmailAddressParser idnaEncodedAddressForAddress:] : sha256 840d9448c85c395a9c1bed25a8a7f97b5e67bbc6bbe267d5d587a8a5ff7b5401 -> 16676d5f20f0cbc70dbda369ac6e59cab8da89516f092472c19e27eabf0a1090
+~ +[EAEmailAddressParser rawAddressFromFullAddress:] : sha256 3db6596f43289248a746da1f2285e618f5e377c361328d6d6f5a25e78625e1e1 -> d45b8f002d08029ced5227296a4b3434e572fd5a5ad33e4b65689bf65e89556a
+~ -[EAEmailAddressSet internalSet] : sha256 3d1cf79e3eae7ded4e47e1e58b5b30d94c55b0e4a576b8064bd43ef18c05d770 -> 46c167a4e80906173651363047cbfef3494d5ff6e98e58a1e36d88ae3334c8b2
+~ -[EAEmailAddressSet setInternalSet:] : sha256 48bd84b8a3367bbcf0651e0852a240c47584c1278817ace104884e047ddd9910 -> 8d125fb8ba23d17a0b897ea03fb6d2e7051103fefecf8332f2ba780bd810d871
+~ -[NSString(EmailAddressingAdditions) ea_addressComment] : sha256 7b881b47d3c7f5d1995e1402729c5da5cd4f6112b44ba09cbd188f7de6d91c78 -> ec6fe57d86ce9197a1e6b9209ef9d29358c1bb20fbf16382b8be4fdf84b8b481
+~ +[EAEmailAddressParser _stringByEncodingIDNAString:inRange:] : sha256 66d24e8117f72e84abdc2156a3654d5ff977603f072fb99bfafdcc96a1df20b8 -> d41e9b508569a75b7f526e440b9d18750c874e86f450c0419bf6ab0e2a490ab8
+~ _EAAddressComment : 1336 -> 1340
+~ +[EAEmailAddressGenerator formattedAddressWithName:email:useQuotes:] : sha256 60fb9e41553e82fcb6dba94472f16d32b45f870fdc215f3bf4224c118dab5965 -> 3984b2990d502ec922782290163c046a83064dbf54fabe8b84fa67a6f1720f14
+~ -[NSString(EmailAddressingAdditions) ea_personNameComponents] : sha256 7c3336f41cbc36e1e2d9e27debd9a43fd96a6f336a225ebcaa002d6372debd35 -> 3206e0cd198297fba93f299107646e2cb5a97e15b28b3d9e44b9d2c3f655eed9
+~ +[EAEmailAddressGenerator formattedAddressWithName:email:useQuotes:].cold.1 : sha256 864bb29b8a4a4d12697bf758cb310b06864a28229515567f756d1eb9d50ac799 -> 6d3c65b91d708bbbc9d4f457f8000db669809a26889adc9276b4e581516a7db4
+~ ___68+[EAEmailAddressGenerator formattedAddressWithName:email:useQuotes:]_block_invoke : sha256 74df52a137ce19940d5b5f6d57ff7d4a4b82d0bb9e5e2f27166a7452ebb57602 -> f3520b042204c136caed78047b7085d6fcd487e2e48a33b7b9fb0a9c287ec754
+~ -[EAEmailAddressSet addObject:] : sha256 c6c85129c9bfd5dc4bf415f048a82a7ff8de70d2e177582233fcbbe9338164f3 -> 0bfd990f68a65a712d73895d2316bcc5193373f25449c011ab973011af2732a0
+~ ___60-[NSString(EmailAddressingAdditions) ea_isLegalEmailAddress]_block_invoke : sha256 2935542b94277b00a42c62c21f6a9c5227ecdb0e6554cd53db6c1a357698a76f -> f60db2ad4d5bc2403236f743f8bd857c84ef4faebae90fa765fec51fc5b903e6
+~ +[EAEmailAddressGenerator stringByTrimmingCommasSpacesQuotesFromString:] : sha256 e2d534312bb152ae402f12cda80e583bcf1a157f05b84fba184d44caa9c31007 -> 2becca36eec07cbd08216ced5568ee04e3363ab93df49b5dd117e98fdf5387d4
+~ +[EAEmailAddressLists addressListFromHeaderValue:] : 2080 -> 1956
+~ ___50+[EAEmailAddressLists addressListFromHeaderValue:]_block_invoke : sha256 2884e840cf217df2d6530b310a39a4d5ffe058f98bc585916fbd438ede6249eb -> ad6bbc6b53925bc3c25a86d780ad674af79e1943927673dad275a232e3f4575a
+~ +[EAEmailAddressLists componentsSeparatedByCommaRespectingQuotesAndParensForString:] : sha256 4c22160d3a8062ad7508878ef1f49a463227829a4c7f278cb3147a87ed0401f9 -> 6c47d6dbe3f1355bd77adcf23118bc0d3f96b92a17dba35f513cce7685f33370
+~ +[EAEmailAddressLists componentsSeparatedByCharactersRespectingQuotesAndParens:forString:] : 624 -> 632
+~ +[EAEmailAddressLists addressListFromAddressString:] : sha256 b72a60cbfcca658e4e64117e15920ac8c196a09e3d1f363d1b15fe420f7fca84 -> 9a10c7ab1266eeffba231b892d78af045af53b71cbcccf4277652d0fb2089abb
+~ +[EAEmailAddressLists addressStringFromAddressList:] : 1128 -> 1120
+~ +[EAEmailAddressLists rawAddressListFromFullAddressList:] : 428 -> 424
+~ +[EAEmailAddressLists displayNameFromAddressList:] : 452 -> 448
+~ +[EAEmailAddressLists addressDisplayStringWithMaxNumberOfAddresses:fromAddressList:] : sha256 1eff529668f46e9c74a696509acdc6a2e91a2f771ff0f6249c1c9a0b2486f1c0 -> 3119a9742d5e449437f55dc7f592f8e023f56020bc40b507cbbf5d4da0d6f314
+~ ___84+[EAEmailAddressLists addressDisplayStringWithMaxNumberOfAddresses:fromAddressList:]_block_invoke : sha256 e8a84f07beb5749311754751a53b885ffef5f1890b69e372601ef3be56ac936d -> b881a25846e3924da6228043a10990fecc63cf81769aeb167de13f661d613c08
+~ +[EAEmailAddressParser log] : sha256 20780291664bfc7ff2eeeb331b7526877349d95b1f895609f5fae04a6f3498ed -> bf073f8d50524e46f9aa9ea7d9a1ee42ddc361e98d4eaed103f5b0a3f8d64935
+~ ___27+[EAEmailAddressParser log]_block_invoke : sha256 2069d0678a0d912dfad80bb60cd44a5f86afc5cafd9de3c106296b7952f06f58 -> 76585eb348d58f482d9d26b6fd74ddcef2dfe8b990a24316bae4bdb1247189ad
+~ +[EAEmailAddressParser isLegalEmailAddress:] : 1512 -> 1500
+~ +[EAEmailAddressParser addressIsEmptyGroup:] : sha256 59a7ce1a3303e31b2cc64dd001e83221f4747060a8ccd8025134d1499042356b -> 1038334ab40904b2a7311e34df45242a012a2dacef8e0112917af0d7ab92c6d0
+~ +[EAEmailAddressParser rawAddressRespectingGroupsFromFullAddress:] : sha256 eaa8c7f62ab7585de523fec6e5d059346fd97dfdd3624ce6126c4b5034de7f60 -> 959dda84c91c86bf926506edf8dc297a3832f9f8c674aef324f00a2b0e24e820
+~ +[EAEmailAddressParser localPartFromAddress:] : sha256 8b7013eba2a24bc70ac1083f15efdb54e5c3a0e179572390afce143203ddd5df -> 567e6237163c152ca23b8a3950c8d7d0bb1f503c2fb55c5944da142e893f07ee
+~ +[EAEmailAddressParser addressDomainFromAddress:] : sha256 c6543938e80eefaac97597ac0e33ccf35207f80b477f90d9208873de2b4583d7 -> b43a756257e26d72b8694a8d3a2f0afc8fc67a11576a95182b75d7c0fd4feeae
+~ +[EAEmailAddressParser displayNameFromAddress:] : sha256 002fd8b9993a28328adceb40390a06cff1bb60b90ad0b8f662f98d1b05f8e85c -> 92306ba2ef0604aa4e59eb3c72c3d62a0477690549f0701960ca27390df0b590
+~ +[EAEmailAddressParser displayNameFromAddress:cacheResults:] : 1908 -> 1948
+~ ___60+[EAEmailAddressParser displayNameFromAddress:cacheResults:]_block_invoke : sha256 e5f44ea84c149201b4f2d2bbf6b00486c3e810b0a3305c561ed0a3c17e49346b -> 007a72ddf155b7a526d8619cb8f820b8f002f95127d949306ed1b6c0c222923b
+~ +[EAEmailAddressParser insertPreviousRoute:ofLength:toBuffer:ofLength:atPosition:addSpace:] : sha256 5230877f9abe12a7961de07ce94ae5495427de1e5e808fbaf9c4cf32c7ca5b4b -> f5ee5d498b7696b8013d5d674352e8b842ac4a267a1db967a753b3b60f844778
+~ +[EAEmailAddressParser idnaDecodedAddressForAddress:] : sha256 a18a6c0f58ee8903a9e90864fbf29d9d27107a356524c7d650f719313a2db3a6 -> 13c8ee983a13f32cc1c594f3fbc459d762f49c70e2761d0ac3febea6ceebf034
+~ +[EAEmailAddressParser _stringByDecodingIDNAString:inRange:] : sha256 c9a081c176b644d562a457d1fd1eb48f1586c12a4e5a2ac2dc083f27424f740f -> 262e977b46f40267a1b87e16903e59c2f65062325a04efa320b6a6ad3b8b339b
+~ __createStringByApplyingIDNATranslationWithRange : sha256 c43b5ccd82529783d6e1108e823fc46fbb046084387b359a2322eff367d82f10 -> 4aa71b7af3eaaacba4b524d95885ae71eca9a6ff3f8c9ee6860a19086736329d
+~ ____createStringByApplyingIDNATranslationWithRange_block_invoke : sha256 a69557038a568dc3ebf105e0c785aff3273b6ec2277927dbad792979aca7bb39 -> 76fcb1feccfa54a2e6b6383341b1de34e45e0242caa327eef43db4ac473cffbb
+~ +[EAEmailAddressSet log] : sha256 11883de773d42bd7d8352acb9716c5bd0fe4ba7fcecac0f6cfcc21cafcdc65e1 -> f8ae9915b28880b6699a69eadba8592183bd5757f327c7867a10762d33ef7253
+~ ___24+[EAEmailAddressSet log]_block_invoke : sha256 8c4f5aab5cd5eff139bbc7895f3448fe84e9e8a688bc2910dabcae0af786def6 -> df770eaaee09cf16bdc92911a593d3ed65cd74e1b2428acdf30b84f8fd31bd13
+~ +[EAEmailAddressSet set] : sha256 68273e192e9c3d7307cf55c27bb38d79b0712e183e9e4421c4cf9d2f0439ddce -> f764e2868c0336e06cdf0d59dadca10ffe5a30f6694dc1969c1b95f7c786953e
+~ +[EAEmailAddressSet setWithCapacity:] : sha256 84e487995041424eef024bdfee66415ec4264e8ac41176db091f09a6a56ef8ac -> 2c0718eb6748ca9190a47c63432391e8c2feb14ea357d5a3b45f6981288a663a
+~ -[EAEmailAddressSet initWithCapacity:] : sha256 3dcb4eaa754309d1618e737475ef7f81f30e0ab34c18d2d7da2e508f0e7c3633 -> 29388cb64fda4cec22f3234b740b1393373ce179498ea4bc14d7690a7eff7610
+~ -[EAEmailAddressSet initWithSerializedRepresentation:] : sha256 3a41d6b046bfa6f644c7ed9cc8df960080b6192a3336f88ffcc714e1153abb3a -> f278e6ab2d8fb37b3a5913373edf7ab6427cd6690a9893f17e4af9a8eee4c3fc
+~ -[EAEmailAddressSet serializedRepresentation] : sha256 874f8210aad0beb950432816c95a3841650c6c4429de8ce8e5fd0d615b497831 -> 10fb65d4156fe41e0483b7ed05de650064a38c78da762b1a43deae07ced9abb5
+~ -[EAEmailAddressSet initWithCoder:] : sha256 924b375cda0080d8b82353f8128c6c65b7547515533a54e777e3a632d48b4342 -> 3a675bf489c4a01e7a5faa40cec58fc5d1ba598c5f0a2942ac67cacb9131a593
+~ -[EAEmailAddressSet encodeWithCoder:] : sha256 cce46128ede434227d12986f04014c0c49f1f19b7c27aab274b08664eb7aa9e0 -> 4772f1f9b18fff35953ecd9596e19505c6b981801d0cd9b6663742ed7bef75a1
+~ -[EAEmailAddressSet count] : sha256 d3f504225e7abf68ede64ee87eea41e818be1fa8bef90bcc94b84b54f242fc9d -> 8f5dd6c098962eac7db5fa1f5d3f892e7b9e263a64cd252037f66a701ee6befb
+~ -[EAEmailAddressSet intersectsSet:] : sha256 d59e4d1494aa32ff3f548035372f1dfacba5d9f968aa6397f426de95c4107d92 -> 667a48358bc1730cc8ffe82782ba34df4873e81ee838b5cea501aa4f4d918127
+~ -[EAEmailAddressSet isSubsetOfSet:] : sha256 fe6c7c65ad17a005f74b17afc15c85720f7c610b64fa3b0a3f529008d156819a -> 63b7bebc4c2788b056b2276942c47b1b76603fa562530f45f7b76834dba444b4
+~ -[EAEmailAddressSet isEqualToSet:] : sha256 f655bf879579d62269123fe3926c93cfaede0a482cfb73d38c79aa218d0c429b -> a42615d6c834918967fd0cce5cac0a85a33adf1299969acd038058d19a8ca0b0
+~ -[EAEmailAddressSet allObjects] : 396 -> 392
+~ -[EAEmailAddressSet objectEnumerator] : sha256 22d707cc099aa60a8940cfa9cac625d1648af66c7eabb7ed894f059fcdba339a -> 7ac39d6af4cf832b40e092fc95ac1b1298f5cbf02e2ceb629da2eddb8f8a74af
+~ -[EAEmailAddressSet countByEnumeratingWithState:objects:count:] : 176 -> 180
+~ -[EAEmailAddressSet removeObject:] : sha256 ce983924c902b95b5bee8513155a92b81132ffec23a5bfa84b739181e9faf693 -> 692f2feeab64b08d86efe2197130215389844a4805d50d8f45de980d0ff8e832
+~ -[EAEmailAddressSet removeAllObjects] : sha256 85128eebfd4b06c1c788d579342a8bd543fa909be4cd738727c38df44c2f520f -> 6b925cc8e158f94a4aa2d261e5158624052731c00688ba685438027e2b194212
+~ -[EAEmailAddressSet unionSet:] : sha256 aae953a3b802f849b49a202d4b38c9db12916d70a8e9cbec42f39dca9f77c53e -> 206be3b2ecf2b52bf1ba1f25aac6a2b8565ae7c115b0a774f8e15b5b468c11fb
+~ -[EAEmailAddressSet minusSet:] : sha256 67abb159152576c877dce1eb2931b59cb4ba9a2d7566565c20d2086cde33db24 -> d1e60f340f623a26c4d5dfb7fad0a50d66fe019472a8e556e7ea22601ebd4066
+~ -[EAEmailAddressSet intersectSet:] : sha256 6fe0c50d598d040587ddc3a13059e3a85509508b5a77493b1291afdf83cb507a -> c57b7e6cd923ef381bd7558c868d396c9837d05ffa8f932b90f69d0a2cb3f0db
+~ -[EAEmailAddressSet setSet:] : sha256 8debfc71cc2d85d4e73b6b094435b62c02dadf007eb96aa452ba735c16f24c4b -> 1cf449e4d87d251ef514162e84436a62bc4145a2374f0a1c7d2937bde0c75639
+~ -[_EAEmailAddress description] : sha256 983b6e746cfeab3993592f19e1675e39b69266c2a89165f359e5376201cbd02e -> 5b3b072280abe6b91267475cdc958ab1ec75fe7e760d87f41671084b72477317
+~ -[_EAEmailAddress initWithCoder:] : sha256 935988cfda99b7188d149cf520dc04582a4f16562bfc1bc53637a2fc09081e01 -> 4975116fa1191ca4bf90d7e0e3fdad7581bc53c047e53f1023a5ca64acf32aef
+~ -[_EAEmailAddress encodeWithCoder:] : sha256 48ac7baad8fa206a26cc705b19540294415ea880ecf71a96fd261b6399966c39 -> 734a843d0c64c336c3ac424d42b68e45a1861c2077d19ffdd6a03760478c7d4d
+~ -[_EAEmailAddressSetEnumerator initWithSet:] : sha256 c918f1b4966b93755f5e72ebb8c7c673d3ac8145d99bfff48af44d41bbd99740 -> aa76d06c5c6626ca5e19807378b29ef8798bd72a769b68b637788689848eb4b9
+~ -[_EAEmailAddressSetEnumerator countByEnumeratingWithState:objects:count:] : sha256 10f84a52f61c0890c19fdf51ac244ce24d757691b7b16cc01c9d5edddb2f331b -> 316bbf34fc3bfbcab5f0a643ab428c41dcd24eb11b6913d18fc9c66836d51c69
+~ -[_EAEmailAddressSetEnumerator nextObject] : sha256 161651e39e6ef2c9f694d159786e67d07b616d9f254f041f50ee118cd1181d1b -> 769125f069c03b6645051babc27b06d9291a969675b7747f96ad8cb03203a5c2
+~ -[_EAEmailAddressSetEnumerator .cxx_destruct] : sha256 04bb1914c1a9277d890bfd6378a4fd58cff2955995124c3dd6a1a6c95f15eb08 -> 452f4954a3614fbd7318e8995dd2f339c2f1e507512efc9c6630dd9534931051
+~ -[NSString(EmailAddressingAdditions) ea_uncommentedAddressRespectingGroups] : sha256 787e3fda84888b436158fd300f87796a0f6c9756997b0ed188bb4ce789d4d288 -> fe2aa009a1295376d42aeee7fb6963bc7db06cb6b39ea88018491216cca1cfdc
+~ -[NSString(EmailAddressingAdditions) ea_addressCommentPersonNameComponents] : sha256 0c91d42a3285b9e6c1ad9cdc44e4f481005d781ce70ea53b2f773ce7d24ab015 -> 1ea20fcc8492fcb795a8f48eccb72df189228db350addfe9fb7beea74f7d2e07
+~ -[NSString(EmailAddressingAdditions) ea_isLegalCommentedEmailAddress] : sha256 f096d5a89bca4199a8b88c56f84e847fe59e50cc2b3192ad82dace7580a4a4e2 -> 9630df64e0098a286617fe9ced965e4c246de23a5a632dae0ccca7eba182d9b8
+~ -[NSString(EmailAddressingAdditions) ea_isEqualToEmailAddress:] : sha256 0fda51ae391c189bda9ee140655d566aaec8e89681edc1e64b2e69a916a09d96 -> 1972357e0b9fa6eae16b6a0117863dc8e8fc2bc31995b20cb47d4f12f87af091
+~ +[EAEmailAddressLists addressListFromHeaderValue:].cold.1 : sha256 a7d46b00ae128b56b9c6fac76d15b3c5b6dc2fd6cc1648c7c704aafed179f968 -> c225d4f2529ff6cdc8dcb9a5c34be569fb06830bb63c1f84f0778bb17787c3b4
+~ +[EAEmailAddressParser displayNameFromAddress:cacheResults:].cold.1 : sha256 16172664f5e97df8ea732d3196b377436542f77b205c367733adf57f022bca30 -> c7b57409e6cd06d23b0f2e80dc8c9166e06c243b788d62b5095dc988e531d48a
+~ __createStringByApplyingIDNATranslationWithRange.cold.1 : sha256 e4c6e7e44ae6060fa4e6dac91a023159bffd837e7308de93d78c790eafbe9966 -> 394f8caaed4347c48acb9902146909e63ef1a5e8abc4df91c7b4ed08395edcc6
+~ ____createStringByApplyingIDNATranslationWithRange_block_invoke.cold.1 : sha256 943ff66fe0b1ff8f0fcbd0437e36e95f826309d756f901672011681b45e7672d -> 6b9a424a4b68c1cee070112d58b99e21878ae2b712cf6f54d3ac8843d16d8554
+~ -[EAEmailAddressSet initWithSerializedRepresentation:].cold.1 : sha256 ded435e9926d4a9c06c00b74c3ec7ce7ad70258b121a6032dc523b8e443361d6 -> f93eb6ab9454b2a805049de947bc51274b1719400eaa2252f5103e462ad5d636
+
+```

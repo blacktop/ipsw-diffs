@@ -1,0 +1,196 @@
+## Health
+
+> `/private/var/staged_system_apps/Health.app/Health`
+
+```diff
+
+-7027.0.52.2.6
+-  __TEXT.__text: 0xcb168 sha256:607d8a2afbac1bc1e4239c05c850d863e2ab3be5c68dfd0fc544186d30092265
+-  __TEXT.__auth_stubs: 0x5460 sha256:0e50768e344d57f0a6bf2fdcb01ff92ef7eaf7acc899af4b8083d207501ead8f
+-  __TEXT.__objc_stubs: 0x3500 sha256:c41bae8ffdd05fbaabdf0124779616a91af905ae6e038feca27fcd9f115c42fd
+-  __TEXT.__objc_methlist: 0xe3c sha256:9355e5db7750f086068412e09b62cd819ea134379b160897d42536014df779ff
+-  __TEXT.__const: 0x5834 sha256:844a70348d807c5988e50a51664e6f8511c674d0ff7c4f7d33a974a773096a28
+-  __TEXT.__constg_swiftt: 0x3498 sha256:edf50e3e3886bdd5096c5e451403cbff29c813a68b8141c0ce441240a13073d1
+-  __TEXT.__swift5_typeref: 0x27aa sha256:56239095da0524f26274b9e5dcc584a79535951decc63b23b8a5e4bee3783e8c
+-  __TEXT.__objc_classname: 0x11f8 sha256:75b33d2e1ec037e2f3cb6cd59a6db13c47400185240acc565bb376b805bd4a3b
+-  __TEXT.__objc_methname: 0x56cd sha256:11f08962973bf8e548c1cd35b3747072567e37173930b855f05c9d5f93958275
+-  __TEXT.__objc_methtype: 0x1d55 sha256:4cff31596ec0270e0b860f0c1ffc546e242588537027427332735113a8259bda
+-  __TEXT.__swift5_reflstr: 0x2409 sha256:67db936d48c2f37d60184bcc429085a99046d74940a6fbf73cb869c542e92eca
+-  __TEXT.__swift5_fieldmd: 0x1b9c sha256:086cf7073ca3efbd3f9cab09c9795174838c00bbeac969fa1c6fd6f0749f06c1
+-  __TEXT.__swift5_builtin: 0x104 sha256:715f7efd3708e70303eb7f84eaed7420a985870cb05e06dc8e179021164b31e9
+-  __TEXT.__swift5_assocty: 0x550 sha256:dbb4cc6a2ab5c90e3bee040dc73fa21416c753f923211b63d951d767c3355e2f
+-  __TEXT.__cstring: 0x5422 sha256:f9bab1135dbe4c38dd2da192e034b394b8b78bba822a3de364ca9e1bf1c6a4a5
+-  __TEXT.__swift5_proto: 0x3d4 sha256:698fb87f1a4b28902fd492d7f9431bf54005cded5fd1bb4d2da31e754c0a3b65
+-  __TEXT.__swift5_types: 0x1f4 sha256:aa54b75fc43b3ff08e0cadbcbe6cb9447fb5908235944cd5e53c033e0a426a69
+-  __TEXT.__swift5_capture: 0x13d0 sha256:5b3c4c14d0eef0b6e6e5a470baa9d9c69babee1dd5b543107de9cf163f16cdcf
+-  __TEXT.__swift_as_entry: 0x44 sha256:00992065145c5186301eaf78901c4bcfdf850f34b75d904a01626b00a8d5455f
+-  __TEXT.__swift_as_ret: 0x38 sha256:a1765a7cdaa7e44b34babf130789c2241b948444bf4ef1ca62a164b1435823c7
+-  __TEXT.__swift_as_cont: 0xac sha256:dbee43abc7bfc29b0a7b60884a772fa3c16a5d9466192a335bf3b4ccbea98d61
+-  __TEXT.__swift5_protos: 0x40 sha256:4f5a37779225d9e1423cab2c62ea3b224b9e9913daf038533ac79f08cd202d2e
+-  __TEXT.__oslogstring: 0x2a0f sha256:81433266c24547e54b3197f907c0018bb55117dbb8db7d22d0bcfb93c1e47144
+-  __TEXT.__swift5_mpenum: 0x10 sha256:a6d6f18a2d59493e07927ac66dfe712864f223744a658fbd2c90727783e288fb
+-  __TEXT.__swift5_entry: 0x8 sha256:86e470f8e183d71effd0f2e61fdba9624e0c5eb2599ebcee2ac7926ff7d6c4ec
+-  __TEXT.__unwind_info: 0x26d0 sha256:b7e6766f4ee02621f690636247b22dad148b114d18975f85e755c3de2ac8982b
+-  __TEXT.__eh_frame: 0x224c sha256:92b403ff64732040fa0b80fad0b1170b6fcc74227ff331aec6a87b0c501a4823
+-  __DATA_CONST.__const: 0x5bc0 sha256:25b644204a67fac0c169e043d3bf00e162f5a94638ecb62954f04e6a9597fa29
+-  __DATA_CONST.__cfstring: 0x40 sha256:2a1f678d28a214b7fcb7bed7a08205e87f05c8f70011edce0a80468b9601b3e6
+-  __DATA_CONST.__objc_classlist: 0xf0 sha256:58fdf1ed29cc5cde37dac3a1c90b6879c36b8dd5404abff9c3393b1050177777
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:09dea5eba7d761d5a7c6fa1df37c8d1ab14a1441b78ac0bc370f6322841aeabc
+-  __DATA_CONST.__objc_catlist2: 0x8 sha256:ec9d777f92952697e1c74cf7cebe2eb13a6b749885cea83ed53883e72cc3f766
+-  __DATA_CONST.__objc_protolist: 0x130 sha256:4b17248ede8b1ea0ab675ea25bdd6e3583e9efe28378d5adf5ce33ae60309e57
++7027.0.60.2.2
++  __TEXT.__text: 0xcc18c sha256:b3259b86c9067b35a4b4f7beaf20b74a7a0ea5303aeb0f1c0ce815229b4b6a0b
++  __TEXT.__auth_stubs: 0x55a0 sha256:58bc3cf385685dc3c3e8107f06a754607443282f80c258dcfa4a2eee633e777a
++  __TEXT.__objc_stubs: 0x35c0 sha256:16fcf3fe49f3005ca2e55814eda976dc9c458df601570c04ece2a7ecca5d38a6
++  __TEXT.__objc_methlist: 0xe34 sha256:86452da28e10af865e8dd721422b8f81e06bcae0a67e662ad16e92b5dd1e1f10
++  __TEXT.__const: 0x58c4 sha256:6cdc410b007e690194aa01bcebefd464ef8248e40ab31451bd00aa4dec867605
++  __TEXT.__constg_swiftt: 0x3390 sha256:53d3ab22ce8e8785c4f9d0d997b318786ef43544cd69851554e8a19aae441c7b
++  __TEXT.__swift5_typeref: 0x27c4 sha256:5f1898b96dc68055d406edc66d2d868beb512886dfad19327bc4ea11dd4aae8a
++  __TEXT.__swift5_fieldmd: 0x1bf0 sha256:55e71595ca6b716900722ca77a709411812530c629a7216aa063d1bdef73e2dc
++  __TEXT.__swift5_builtin: 0x104 sha256:0eed78eea751756e5c4479d25a61c2bd1a8e284ed94bc0ecd77962494ced9bdc
++  __TEXT.__swift5_reflstr: 0x2501 sha256:dd15d88a2cc2eac7d2d9eddc4e3d237f063796ee9db1213270c32d9260654d3d
++  __TEXT.__swift5_assocty: 0x568 sha256:617e886c168b1637e035ff406f0816ba36d061b0d952d87183c294e127a49c43
++  __TEXT.__cstring: 0x545e sha256:0d9db36b5ec1423fedea55b3857e76855127f09bfbf2a675e10430242ab1a4c6
++  __TEXT.__swift5_protos: 0x40 sha256:71f736e2064e1ff31f1b169997f00bbd68ed39422fa6bc8430ba873f8579f963
++  __TEXT.__swift5_proto: 0x3e0 sha256:73e00a241c0c288b728096cd1debeceef0e3151c6008aa7c383e125bff5677b4
++  __TEXT.__swift5_types: 0x1f8 sha256:e9484e596165f1be4d937f542700a796206ba3b6deece6c4532a66e526f3d61d
++  __TEXT.__objc_classname: 0x11f8 sha256:a001aa5256b9fd8fcf92ab1cfb29601a0992c8820c600131691edaced2bac38c
++  __TEXT.__objc_methname: 0x577d sha256:063b7604fe10fb773bac384bb236e18f60d925cc93e49951c09702308f0003fc
++  __TEXT.__objc_methtype: 0x1d59 sha256:1b956b70ad3ed10a5a2f7d29831c3575182b42427d7980d3e7ecc5688442c926
++  __TEXT.__swift5_capture: 0x13dc sha256:316d8c59854d2f215c9bb1852b26ffcf68afbfd258c0e3b420853413fd00809f
++  __TEXT.__oslogstring: 0x2a6a sha256:7f0d0eb41cedecafc07fda7a2e027f96c1c5a893298c1fb73893ee66e69564bd
++  __TEXT.__swift5_mpenum: 0x10 sha256:c45880923df24aa34f7f4a20e3505eb5247e5a997dba1dff3e7f5055b44871c5
++  __TEXT.__swift_as_entry: 0x44 sha256:87c3c1407ab90c4004c582a554d72252b75d668ea3454d6b50a7d0a1d08af780
++  __TEXT.__swift_as_ret: 0x38 sha256:4a190863135b31bebebb39612c71e454838e765a78d6f65d6792e499a72a48d9
++  __TEXT.__swift_as_cont: 0xac sha256:188930b17b7b4a9a58eef73d27363246f12047f5c2fe7b5e6701dc07bdbfcef1
++  __TEXT.__swift5_entry: 0x8 sha256:5edb050caf588a5277f12c971e6aae6fb27a2cd71d4af714c434324854086dfe
++  __TEXT.__unwind_info: 0x26e8 sha256:5726a0ebdb07716ebc807f5c5bf2e8cf09c686da113dc977c753436a42cd69d2
++  __TEXT.__eh_frame: 0x222c sha256:09aa3aeb1c4460dd83332abaecb77241ff744551a17d3c09a6b5a5ba7fba0fc1
++  __DATA_CONST.__const: 0x5cc0 sha256:9d5ad8ccbd76b0be02e1f1d9dde46e81c0a2967ab610405d7c29771a58b9c3ad
++  __DATA_CONST.__cfstring: 0x40 sha256:2f5f2d7fe9b043193a8562f98ddf9d2d4a96134ce0a3418dc081e8af51d6c4d5
++  __DATA_CONST.__objc_classlist: 0xf0 sha256:23ad29cdd245986eb0fbb45c0d8c51002a969eb2f2343b39378678060060af6b
++  __DATA_CONST.__objc_catlist: 0x8 sha256:9af52a73c4d7e464647eff150b68479b2c18c942e2b048324f1443eb00702e50
++  __DATA_CONST.__objc_catlist2: 0x8 sha256:eaad7d5a3ad025dd0dc0186d9d1df76988b3c02ff0326752ad84ec02d20c788d
++  __DATA_CONST.__objc_protolist: 0x130 sha256:6db569dc324a117e58191224f2fdeb084c0c37148945ad7a73f40cf1cd83722f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0xa0 sha256:8e86d00f99d39bb468ad64486fef890e6528bbf2ec865ca932b31b7d3c1b7f7b
+-  __DATA_CONST.__auth_got: 0x2a38 sha256:ed5311747a2667cd12cc42e1f239026c65898c58744c1b5ed36b22d1ab59c78c
+-  __DATA_CONST.__got: 0x14b8 sha256:f361beb9b4ec36508681966933c62e0037e95e37ac01c7daf037c077e5ef8988
+-  __DATA_CONST.__auth_ptr: 0x10f8 sha256:73255c1454c3943462244accce175ec0b6a0f5d90d163eb01ed7d84cd5f1aacf
+-  __DATA.__objc_const: 0x3758 sha256:16ce13a606f7421893066fa1de09c52e656df48224929153d58ade8a03825a43
+-  __DATA.__objc_selrefs: 0x1378 sha256:85d0966e78fcce68b9e11f8849f3ce3902f81722244bcd1c28352d01b142ed10
+-  __DATA.__objc_data: 0x2238 sha256:ffbc2d2fe3042759e860852cf253a9707c906a978e199c89e1216f32564495a2
+-  __DATA.__data: 0x5880 sha256:df19ca6f05532025837959f53038538d3c19f4e6f0a3e3b89e7ecb868570e76d
+-  __DATA.__objc_stublist: 0x48 sha256:7a644ad1526c64d935f1e943be106733c00975272f5eee17d0a13084571ca846
+-  __DATA.__bss: 0x7088 sha256:940a5f16ca51b43d03e60680a5e17fe96ef1e4f0707255d8cabd0edaf6d21581
+-  __DATA.__common: 0x530 sha256:e373f305d86f0ea48d1e6ee8a4f520969840bf6dec26090d77208a20c41e6110
++  __DATA_CONST.__objc_protorefs: 0xa0 sha256:816a8b6f56261e2342568748551d4c0232319fea72ea3ec717f2728c59de5134
++  __DATA_CONST.__auth_got: 0x2ad8 sha256:351e609533af0fc5343bbb787fd75343744839ea31ea712488271359f7108b65
++  __DATA_CONST.__got: 0x14d8 sha256:c590667f48cb5df7ba45afc8b72e659d96ef4ec8afaf719c9afb67c93e2997bd
++  __DATA_CONST.__auth_ptr: 0x1128 sha256:778ef93caed2247136cb0c6eacabff4973f16509c4dceae0c5171975b783d85f
++  __DATA.__objc_const: 0x37f8 sha256:0948ce8c123b74614aefc51d8b55bf85d2c8a46458488e6b2db54e880049b4a1
++  __DATA.__objc_selrefs: 0x13b0 sha256:e5cbc6f677cfc94c10075cec1f09914425fb46df2e3bf1f378cb0efe3ab18218
++  __DATA.__objc_data: 0x2250 sha256:c44dcb2bfb8b248c720750c856db01bb93af97784948ce828e7b33b9da3ab412
++  __DATA.__data: 0x57d8 sha256:a74128042a45475b510b8b40d5046240e20745af344d8cff0e3799d836018513
++  __DATA.__objc_stublist: 0x48 sha256:d15540f5777d0aeee83e4b95a5beb374876a47af34a0905e9378ec51d95286ea
++  __DATA.__bss: 0x7208 sha256:887e93407ce751e1ccfd70744c453333b33d4125417702247ddeadba7db7be0b
++  __DATA.__common: 0x528 sha256:4bd2b0a8222e82838f4ac765bb12055703c2eeb500bda12bb9a3d924ea6c2db1
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/PrivateFrameworks/HealthArticlesGeneration.framework/HealthArticlesGeneration
+   - /System/Library/PrivateFrameworks/HealthArticlesUI.framework/HealthArticlesUI
+   - /System/Library/PrivateFrameworks/HealthBalance.framework/HealthBalance
++  - /System/Library/PrivateFrameworks/HealthBalanceUI.framework/HealthBalanceUI
+   - /System/Library/PrivateFrameworks/HealthCoaching.framework/HealthCoaching
+   - /System/Library/PrivateFrameworks/HealthDaemon.framework/HealthDaemon
+   - /System/Library/PrivateFrameworks/HealthDaemonFoundation.framework/HealthDaemonFoundation
+
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/UserDomainConceptsSupport.framework/UserDomainConceptsSupport
++  - /System/Library/PrivateFrameworks/WorkoutUI.framework/WorkoutUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+-  - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftObservation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 22385FBC-0185-34F3-AE57-B305EDD83025
+-  Functions: 3628
+-  Symbols:   2377
+-  CStrings:  1683
++  UUID: 6A70D4CA-8424-3B18-AF67-EDC065B9C8D2
++  Functions: 3641
++  Symbols:   2401
++  CStrings:  1696
+ 
+Symbols:
++ _$s14HealthPlatform11ContentKindO09spotlightC0yA2CmFWC
++ _$s14HealthPlatform20TabPopToRootHandlingMp
++ _$s14HealthPlatform20TabPopToRootHandlingP03popeF0yyFTj
++ _$s18HealthExperienceUI17MicaAnimationViewC0E0V11PackageTypeO7archiveyA2GmFWC
++ _$s18HealthExperienceUI17MicaAnimationViewC0E0V11PackageTypeOMa
++ _$s18HealthExperienceUI17MicaAnimationViewC0E0V4name6bundle16supportsDarkMode0I11RightToLeft0I16NumberingSystems0I3Pad11packageType21maxStateWithDurations0T9LoopCount12initialDelay07restartX8DurationAESS_So8NSBundleCS4bAE07PackageS0OAE0euV8DurationOSiS2dSgtcfC
++ _$s18HealthExperienceUI18SnapshotDataSourcePAAE23withLayoutConfiguration_21collapseEmptySectionsAA0ef4WithH0CyxGAA0hI0V_SbtF
++ _$s18HealthExperienceUI25TimeBoundMappedDataSourceC06healthB5Store12contentKinds14sourceProfiles19categoryIdentifiers16dashboardPageIDs12dateProvider18notificationCenterAC0A8Platform0abJ0_p_SayAK11ContentKindOGSayAK0H7ProfileOGSaySSGSgAT10Foundation4DateVycSo014NSNotificationW0Ctcfc
++ _$s18HealthFoundationUI12SelectorItemVAA05SwiftC09EmptyViewVRs0_rlE5value4tint5title4iconACyxq_AFq1_Gx_AD5ColorVSgq_yXEq1_yXEtcfC
++ _$s18HealthFoundationUI12SelectorItemVyxq_q0_q1_GAA0D10BarContentAAMc
++ _$s24HealthPlatformFoundation18LocationPrefetcherC5cache15locationFetcherAcA0D7Caching_p_AA0D8Fetching_ptcfc
++ _$s24HealthPlatformFoundation18LocationPrefetcherC8prefetchyyF
++ _$s24HealthPlatformFoundation18LocationPrefetcherCMa
++ _$s24HealthPlatformFoundation18LocationPrefetcherCMn
++ _$s24HealthPlatformFoundation19LiveLocationFetcherCAA0E8FetchingAAWP
++ _$s24HealthPlatformFoundation19LiveLocationFetcherCACycfc
++ _$s24HealthPlatformFoundation19LiveLocationFetcherCMa
++ _$s24HealthPlatformFoundation23PrefetchedLocationCacheV11healthStoreACSo08HKHealthH0C_tcfC
++ _$s24HealthPlatformFoundation23PrefetchedLocationCacheVAA0E7CachingAAWP
++ _$s24HealthPlatformFoundation23PrefetchedLocationCacheVMa
++ _$s5UIKit26UIListContentConfigurationV15ImagePropertiesV9tintColorSo7UIColorCSgvs
++ _$s5UIKit26UIListContentConfigurationV15imagePropertiesAC05ImageF0VvM
++ _$s7SwiftUI9CalistogaV9isEnabledSbvgZ
++ _$sSo16UITabSidebarItemC5UIKitE7ContentO3tabyAESo0A0CcAEmFWC
++ _$sSo16UITabSidebarItemC5UIKitE7ContentOMa
++ _$sSo23UITabSidebarItemRequestC5UIKitE7contentSo0abC0CACE7ContentOvg
++ _$sSo26UIImageSymbolConfigurationC18HealthExperienceUIE07sidebarB6ConfigABvgZ
++ _$sSo5UITabC18HealthExperienceUIE17sidebarBrandColorSo7UIColorCSgvg
++ _$sSo5UITabC18HealthExperienceUIE17sidebarBrandColorSo7UIColorCSgvs
++ _objc_retain_x1
++ _objc_retain_x10
+- _$s14HealthPlatform11ContentKindO7articleyA2CmFWC
+- _$s18HealthExperienceUI17MicaAnimationViewC0E0V4name6bundle16supportsDarkMode0I11RightToLeft0I16NumberingSystems0I3Pad21maxStateWithDurations0R9LoopCount12initialDelay07restartV8DurationAESS_So8NSBundleCS4bAE0esT8DurationOSiS2dSgtcfC
+- _$s18HealthExperienceUI25TimeBoundMappedDataSourceC06healthB5Store12contentKinds14sourceProfiles19categoryIdentifiers12dateProvider18notificationCenterAC0A8Platform0abJ0_p_SayAJ11ContentKindOGSayAJ0H7ProfileOGSaySSGSg10Foundation4DateVycSo014NSNotificationT0Ctcfc
+- _$s18HealthFoundationUI12SelectorItemV5value4tint5title4iconACyxq_q0_Gx_05SwiftC05ColorVSgq_yXEq0_yXEtcfC
+- _$s18HealthFoundationUI12SelectorItemVyxq_q0_GAA0D10BarContentAAMc
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage
+- _swift_deallocPartialClassInstance
+CStrings:
++ "$__lazy_storage_$_locationPrefetcher"
++ "@\"UIColor\"16@?0@\"UITraitCollection\"8"
++ "[%{public}s]: Failed to find resolvedHealthStore, cannot present SelectorBarDemoView"
++ "_systemImageNamed:"
++ "activeAppearance"
++ "appIntentsIndexingInitiated"
++ "applicationDidBecomeActiveWithNotification:"
++ "imageByApplyingSymbolConfiguration:"
++ "initWithDynamicProvider:"
++ "lifecycleManager"
++ "secondaryLabelColor"
++ "setImage:"
++ "setTag:"
++ "square.grid.2x2.fill"
++ "systemImageName"
+- "__systemImageNamedSwift:"
+- "initWithTabBarSystemItem:tag:"
+
+```

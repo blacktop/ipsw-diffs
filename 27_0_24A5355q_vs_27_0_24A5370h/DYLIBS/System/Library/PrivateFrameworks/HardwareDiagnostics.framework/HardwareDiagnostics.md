@@ -1,0 +1,208 @@
+## HardwareDiagnostics
+
+> `/System/Library/PrivateFrameworks/HardwareDiagnostics.framework/HardwareDiagnostics`
+
+```diff
+
+ 33.0.0.0.0
+-  __TEXT.__text: 0x7058 sha256:32096ec5bc207c64a4543e7d85bca28c088067352b1659538b51307c4c8d39cf
++  __TEXT.__text: 0x7014 sha256:a91f3085f929292cbbc88342358ddcac1dbbac52f6962a8032a0733a06d197ae
+   __TEXT.__init_offsets: 0x4 sha256:aadcb989ef87cf98d8629596ea2ffba7be14b9d72ddb273deb61766c2a54263f
+-  __TEXT.__objc_methlist: 0xa44 sha256:de7e90ac1501a389726f1933982b223071d5af36beea905ada6ca91dea3cff00
++  __TEXT.__objc_methlist: 0xa44 sha256:c07bbc5398a82074cbd66ea681d69db46d4eb3c77b8f3492be96983d2379f45d
+   __TEXT.__const: 0x68 sha256:538dc7d7be1c72489bb50097bc0aae9146ecedeb36facc6038ebd8db9a98d886
+   __TEXT.__gcc_except_tab: 0x1a8 sha256:f71aef147e51f943931988fb0895116267dc8d0c8159e75568c88cdbe68543c9
+   __TEXT.__cstring: 0x8d1 sha256:960e9c50276b40de72c4bd271b19b604bf5e48c85613a84eba65b90c72c7dab3
+   __TEXT.__oslogstring: 0x1bf sha256:0ca2f74549fee892a958bd217dd891118fad1f22e329e0490c17d23d143f48eb
+-  __TEXT.__unwind_info: 0x2d8 sha256:ce5e922814513d434f233e98dcef191bcba46d9be0f33c60d28e524f17a56a29
++  __TEXT.__unwind_info: 0x2d8 sha256:d0e51128adaf3c002b502c8e20ada353a1731d5482e5b622804c2ebc1f077737
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1e8 sha256:af60d81d31b8e8ecd7ad483adc9fb07c4f20fb73e233a9bcf6ccfcc4003ea92f
+-  __DATA_CONST.__objc_classlist: 0x68 sha256:d1d9821267dd6989f87fb48c5258eed0c2452b5703000644cdbcaaa2896405a7
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:7823abe1672f07aa7f10c1adcdce446b9c1bbcdc324eab2dd0ed35e5aa4e2003
+-  __DATA_CONST.__objc_protolist: 0x30 sha256:5a601499b29a2d00fd50da0996827a4764f43f49a0eba64019bbabefd5ff576b
++  __DATA_CONST.__const: 0x1e8 sha256:c043140f142c4b2b07c666046eac9205b4f661922c63441825ea2633d76ad9eb
++  __DATA_CONST.__objc_classlist: 0x68 sha256:8ba22248cdac5b68321c48665cd5bca583d7078d88cf639fa221ba3a717e15f0
++  __DATA_CONST.__objc_catlist: 0x10 sha256:c14c84fe163b9608bb5718232e2b1dacded4adc9b75d622c958689a4d6f20029
++  __DATA_CONST.__objc_protolist: 0x30 sha256:b00f0f8871330d94f44a47d15371a4c03c49bdfd1aae67305faba44429568575
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x560 sha256:484edc9b7c4f44c86fe7b401e0f71590df0a62de55a0ba4daeaab041a7aed540
+-  __DATA_CONST.__objc_superrefs: 0x60 sha256:4bae3cbeb6336b24a3125bdefd56f3f35f5b3ca04e9eaf5cb6391be1e3c6fefb
+-  __DATA_CONST.__got: 0x108 sha256:4b28762f797f2598f0bdd130e021588a8883271a394921709146d1abe7177be5
+-  __AUTH_CONST.__const: 0x40 sha256:b9497b2edf59a6f238f9b5e69d727d357c2c2eb58dc16e718b891bc3f415b537
+-  __AUTH_CONST.__cfstring: 0xa20 sha256:06196cea5a03c1229cfd26479abbd2de71929e98ba2f65cdbbe9144aa5c0268d
+-  __AUTH_CONST.__objc_const: 0x19d8 sha256:cc7e084cee54ae28953320a6ba3110242379def977da710b35e1b60fb278961b
++  __DATA_CONST.__objc_selrefs: 0x560 sha256:bee1663331d7d98e07894235ec742c9dce86da4310b54db996bb61bfd4d82153
++  __DATA_CONST.__objc_superrefs: 0x60 sha256:9806e7322771ae4eefecd4c776bae9171e7a0bbecf7ebb699058b6150a412e3c
++  __DATA_CONST.__got: 0x108 sha256:c1844f791d6b678c95adc3dd16b821e130698a8fb72abcba63684cccd912b044
++  __AUTH_CONST.__const: 0x40 sha256:7a5b2be4ec498e624a621b52db553e960adc92aceb8242778a5b455214272532
++  __AUTH_CONST.__cfstring: 0xa20 sha256:7a5d50c6fcaef82dcedd955d363a0cfef1a4e1024db983ce02e22c4b1403b73e
++  __AUTH_CONST.__objc_const: 0x19d8 sha256:123e3af4e7e97a765a2e47a460535cc049539e57cd0591292ea1b626a3132a10
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x3c0 sha256:8990c1a50ebdef05bee73f3e522cf2a550b2e6ffcdaa86e3f2c39ff9ffdc7e7b
++  __AUTH.__objc_data: 0x3c0 sha256:4e5ca647627086d3f5a1a574a7a1cb8445cc307a8d81b4fb0ac8653576e7e198
+   __DATA.__objc_ivar: 0x98 sha256:9f4f2a0011849cc641af69eeb96eb000313f3d1996e65a645594c475872ad6cf
+-  __DATA.__data: 0x240 sha256:b3c29acacf01e581696a9b58772555a28288243a6757a151605226095c462a1c
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:80cf2f7f4730b965ae376c6db24cfdb80da0eba2b4edbd68b1b7da7bda6b01c6
++  __DATA.__data: 0x240 sha256:3720a8a1db6e7ff1c624a54064db5b3a8b4bdc10746ed71cc3252ad09e9cde21
++  __DATA_DIRTY.__objc_data: 0x50 sha256:952ce538398ac7c60bc087911161e0a22345241cd2a848f6d7212c214376dd03
+   __DATA_DIRTY.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E7C3D53C-2640-3BE3-8E83-D11F9819E491
++  UUID: 7EE29B0A-347B-3028-A719-F52DF39C3A4B
+   Functions: 185
+   Symbols:   843
+   CStrings:  184
+Functions:
+~ +[HDLab defaultLab] : sha256 0d6c550af611af4c7e7c60f2874380166487d053f75f00d98a99009d22efd6d9 -> e6f2b2296ec3041e35b639b504015f3187d2ea4d30f45acb6ab6c114b40350ee
+~ ___19+[HDLab defaultLab]_block_invoke : sha256 63288d0ac12f6b95c13d6e208f79e324b81adebf7332f3bc0cd7c29d11a91f1e -> 7d417dafd185f6c1965aa535a4cad72f3f9f171f5be5d51c44c8fd1a94f76c9f
+~ -[HDLab init] : sha256 2939d149bb8aa7f41e96722e9d38ed2e2727845f714ae0287d3e5c5c00c0b86e -> ca0d790d84444fa42e36cd755d8a429af7678a53c3bf38a2395694a3af4f49ef
+~ -[HDLab addExperimentWithName:block:] : sha256 e0415cacada13a6a478c8ec37a97768e19068e5a7e1dc3fc98f73d9c5d54b3e9 -> f122aa4476e0a6bdb41908ea47f349a27ec36d7935f6452c3d1db4dcdd77dfd8
+~ -[HDLab addAnalysisWithName:block:] : sha256 77cadfe4649216463f9df66de6157be723a00772f909d2b5c140296fefa63608 -> 1ee972715e9e7d3449a3140eaf5e6a2e9648d0ff4e33189f026676763c954cf1
+~ -[HDLab addDiagnosticWithName:block:] : sha256 679663f6a4449af25da390a680bc0ad92cc67296571d483d91db1fea4094f943 -> 85d178b471153a4cb0bfd46a6249c1b68214b3e3fe5b457591c4890965275851
+~ -[HDLab addDiagnosticWithName:summary:experimentName:analysisName:] : sha256 c2eef2ee83ae64308a4ca9cc5520bfbbb63bc7da8199ca5d5165adc425f76840 -> aadd44d216ec1855b3d96c224850143a0c551bc7a870d45bad2578d1d656ea50
+~ ___67-[HDLab addDiagnosticWithName:summary:experimentName:analysisName:]_block_invoke : sha256 f7a6d1acc8db31570a4fbb3ac1e466da6d52b915fda39ca0d00e800ff2b9c30c -> 2aa219093a63aba6b876262eaa3f00d00bdbc7862fa7d8efe1d260457e925727
+~ -[HDLab addDiagnosticWithName:experimentName:analysisName:block:] : sha256 0b1224fd20a220e2a8fdd5b7520464066e60abc166c1bc5f11272396cdf72487 -> f3d68117bb20d78b1fa8987a123ec7396643b43a504df87cac6331bfa0555f16
+~ ___65-[HDLab addDiagnosticWithName:experimentName:analysisName:block:]_block_invoke : sha256 9684345e9b6cf73e8e012fd5e647b9404865a228781f4b696769eb666636154f -> 3375995710d0766c890ac61cf11e24b51cfb9349e29496d616d2c58d5f30584c
+~ -[HDLab experimentWithName:] : sha256 02d22b230956f67a431db3da7fa66b2670b17f9956a099b20676931502978673 -> ed2d5c3589fd9b492d95677cec619b00e182e4cbfec382f353adc1aef57906e8
+~ -[HDLab analysisWithName:] : sha256 6c900a3316c61f023eb614983b1a4545320acc92cd6663d70e5afd7a3d09a811 -> 387ca893a4906fbdcdf8f40307bf7075bf726f61aa7675873c4b4a5a3e90f052
+~ -[HDLab diagnosticWithName:] : sha256 95d90e31292d52faadfd9325ffd108f975c75b035479e04378b3c64df37615a8 -> b6254661ce436d73a9cfce616dbd6a24dbc3425078465a6e2aa9b90e84153f64
+~ -[HDLab availableExperiments] : sha256 788fded4454358aeb328eccfc06842748c732d9a7b747af1268002922b3f57e0 -> 6242c442e10f43c24e3a1c43fea637d81e771609a98c4717df7e770c8e42023b
+~ ___29-[HDLab availableExperiments]_block_invoke : sha256 7c245cfe86a6b070069c74c40836e3dc49e109bc16975965be9d5f7c73eacabd -> 9eda8460ab6e8cb0b71d5f594c3020fe489da4c179c2303db5e9f4227ee906e5
+~ -[HDLab availableAnalyses] : sha256 42a40fd496ec1ef5d4b83990903664038bbf770d7bfd7f80e5f90e0d074fc417 -> 18a757c3b38807d51d2655228a31f6a1c908c806a57a1e349968b52ccdd9003e
+~ ___26-[HDLab availableAnalyses]_block_invoke : sha256 e429e11c1eecec31f23e8b5cc085320911e1958005389a5d47e332a532248e78 -> 25f73fd1acc3b04416a01026d42a11c0112335b963e685ccb8467fb8efa2b114
+~ -[HDLab availableDiagnostics] : sha256 6e65b5b9a99fc9adc5446333bad85f431f320b4de353c943d4ac0b5ffba089b3 -> af30a70467ca4dd27ba4d6bb29bcef247ab3db74ad9fd3c3d1e6ae7ac6101c93
+~ ___29-[HDLab availableDiagnostics]_block_invoke : sha256 051b1b7df1f59e08f18c91b529927359af5a112d0fd152c764a47456722f1aa3 -> 9a64c406351e28450108b7a946e79d2499d8aeafa1b36eda8bc7eef5ea761eab
+~ -[HDLab .cxx_destruct] : sha256 e4af6d7c3bfc0ae8d8427c59c580463ece35f73978ec994e609423f746f8420d -> 458a40dc825a0b3f5e5c8ce74bd35a7b1bc00612681ffe1aa267261544cf6809
+~ _OUTLINED_FUNCTION_1 : sha256 4b7ede162212ece3f765f658f519f20e05cb1385c602db55f5cc1470e5509baf -> a9d634bbfe721e0ebbac4b0db32d0a8552da5bcc7c73c99d5479ac29deebb5ab
+~ _initializer : 580 -> 576
+~ _HDCreateError : sha256 fd86be7af0f6612ec347f4bbf485e1f1a7e4c98871f6083cede87c54b5c1fcdd -> c99e6ff974ce25347aaffc132d73d03f19341317f31820630e6e00314be0052f
+~ _HDAuxDataDecodingClassAllowList : sha256 8fac9cbaab1955003142a01b437f4ddaba2cb409739c07956afdeff97cf420bf -> 1335cc6a842c46af96a7469b0fb287d925335e841995877c5f52293075c132b7
+~ -[NSString(AlphaNumerics) isAlphaNumeric] : sha256 4af5977e3bf10e26f0c4840fadf507f67697f46549bbe93256be1e1686a3f3a0 -> 5c3bb49c48c26581d772fd5f89b19266e97d97adf447ec57a7885114a35397b7
+~ -[NSError(DictionaryRepresentation) dictionaryRepresentation] : sha256 d0cc148e4f5ad0a0dceac4ad9983c1a2e4cf3e62380fcf9b5818f86b3b6e06b5 -> 663af6e7a37fc6f3117e2efa0145ff070abef7c1a6a2608ae48f5e04d51e39ae
+~ -[HDReport init] : sha256 2efa41345ac28161f9f34895d539132aa30611f2d94e1f0003f73006803943bc -> fbf834495f39c86c4c69d69a497d6c09b4416b0caf7cdbfd414a8d9ffe817452
+~ -[HDReport initWithCoder:] : sha256 9547a149022db44dcb0348c05a6da691532f5f87dcc572364727928d86056074 -> f52702398b55fe88e6d39e51d9a251eb28489563eec85fed1bbf06a18eff0c54
+~ -[HDReport encodeWithCoder:] : sha256 d17a15298d024930e73938c3b27e8cdca1de1c546350d65c45953cd1970d7af5 -> 406e195a32e81b36f0334b3272faf39891699f2be17c0b30baaab0c303ddad07
+~ -[HDReport copyWithZone:] : 776 -> 768
+~ -[HDReport addResult:] : sha256 4ee0f546098c13c04b0ca38927ce8b67133d9ee95bfafe15b3820141dcbfed3b -> dd85201b8704d5a21c441102474f590c849291bc4830f13120a9c81f22bfcdc8
+~ -[HDReport addFile:forName:] : sha256 f9ec860c963cd57d7ab014ec9a17e2fc8f7dd7a7ae524a05eda11af061e75e5d -> cc1a20f40a949940f93699b14de72990bb45e7802a02e47fd2f03a9138a3e065
+~ -[HDReport files] : sha256 5f1dc9c0770b6ccc54687ccdc528e0f345db802b2fced94345e3e6c6673c7993 -> 4bc356fa3ceb964c8a288aa14990fa700802dbe9e4a78a71b4fe431a467ce4be
+~ -[HDReport results] : sha256 5a90f673ac08464611315fb5660a24d3aebe99ce9a4069965161b677bdb10f6e -> bf4ebbb14e93be8dc6b4e679b2011d7ca0a8724e868b287decf215a76bec6dc2
+~ -[HDReport attemptToSetPassed] : sha256 ab10ae3cdd46675f1e6c5d3769494d684fc33b50ea56d420b2e7bc07917d7538 -> ca6c090f75eb23a5a24d6144c4f75dcc40ab1b4649435cc263f1cef2fa6f3fe0
+~ -[HDReport failedForError:] : sha256 6791f67a6be8919b21a78329079a3c4a877f8816214fc3efdb2646730f36fad2 -> 84205716e4a2746b3fa0b48e9c04c2116e3bc1efbfd43093a42016c4d9fd5df2
+~ -[HDReport dictionaryRepresentation] : 952 -> 944
+~ -[HDReport setStartTime:] : sha256 551fe8ca4d60101d82c94ce1ba9fc9a6d551ff4cafc3b16934d6821eaeb9ff18 -> 923d8e719d290f07af45c591a35afd4b3a3cd879c3c484b62d35261f9c9fdc51
+~ -[HDReport setEndTime:] : sha256 b2c461394b0e51fcc8d9f7fbaf949a4468d960009e823daeb65719b85925fd30 -> c0905f3d07af0d8de28bc306e41714d60e96214307c2835cc84907fb3bb4d4f1
+~ -[HDReport setAuxiliaryData:] : sha256 e9bee986fa17fdc92715696518d8158c0b10363f5e42ccdbbad12eaffa652bf1 -> 1f6b6164fb5fb426ac6c50e4c5e8f7f311a0d2d26eae2d1a71ae8b71ecd41451
+~ -[HDReport .cxx_destruct] : sha256 98fba5f50c82ddfc16b789a7a0b24211fb30ad740b5da9126fb0f07a11d6faea -> 0be36f346efca4311ea0e2ddee2ebf37f2cb402861449034d79f444fdfd68039
+~ -[HDSimpleDiagnostic initWithExperiment:analysis:] : sha256 11fed6fdffe34d418fa4e8899ad5fb7bd70143b9061557b227ad560270cdf44a -> eba1d38953faac217eef782f376bb07b3673446d355fda9670de4e3c90357be8
+~ -[HDSimpleDiagnostic diagnosticDescription] : 868 -> 860
+~ -[HDSimpleDiagnostic runWithParameters:host:error:] : 1696 -> 1692
+~ ___51-[HDSimpleDiagnostic runWithParameters:host:error:]_block_invoke : sha256 4eb265c5064d729212a95e9eca4165ad6e2af53084c14e02dbd9e796d1079106 -> f73977d4942023475c11d1ffad75ab94d4316a7505ac0a5b6ce4b2b056f0d56a
+~ ___51-[HDSimpleDiagnostic runWithParameters:host:error:]_block_invoke_2 : sha256 447230245c99a5cca962f9ae64ff33c5d9c9539294476a37e8ef68751efd87a8 -> bd8084b6cadd1719f305f7486279826232742b090f1d457f973efd2ca9b57601
+~ -[HDSimpleDiagnostic setSummary:] : sha256 55f62a07721d8c8c048d1503c3f27ab2a78fee1b5ff5abfc9cbc31b9e7908c95 -> 1014f77897db8d6a3065742a2a974b1c4ffd8f140df249baf01aff49b40489db
+~ -[HDSimpleDiagnostic setExperiment:] : sha256 a8d021f1488eb654615a916b9b54a569c127a04cc9151442607580f84dbcf150 -> c156bfa0f35963a1d2280f3081099f8121dfa2b863cc9bbecbacbe516950fadd
+~ -[HDSimpleDiagnostic setAnalysis:] : sha256 4404dd913de09a12eda891a01616d14796175d7b6d4d76adad73af33701e0bac -> b197c053a99b93bcff36f4cfcee7dadc86f738da0c3f23ab5d01a74c8256b64f
+~ -[HDSimpleDiagnostic .cxx_destruct] : sha256 41c1ea889f6d72f896bf2fe6b7a3b54b006e021217e91c1d2eda33bb865538c0 -> cbfaa5e41787358308d80a67971efa79e22063fb7f30e9295fa1e6ba2682baaa
+~ _HDDefaultLogHandle : sha256 0a527fb52985d4e35bdece1ea0b5dd223259587f001b4f22802385cf19588631 -> ff4a0eac9c7581ae59a321b98769cdb9f604b102e7b0762fd6ff4de4f26e1fe2
+~ ___HDDefaultLogHandle_block_invoke : sha256 f47c00a8ceed0ac799ccc4a7661b554e21c9810722b94f111de1752c1e5e0f44 -> e0611a476af011c6821f0474f437da4e5f3f4be810600b5f82da777c8339cee4
+~ -[HDAnalysisResult init] : sha256 782f87712200c6737947905e6cd70f676ebb078dc420385eb3cb4ef1ba9e5be7 -> abbf8adcc2f048eb40e8e813a421d5eb7116a0d7a2a8e7e272a643e0bfc18a03
+~ -[HDAnalysisResult initWithCoder:] : sha256 bcad22473f7429c7cd5b8cb61cdebe592ee9c510146f6a75169430e3d7e922d2 -> c8e7e744423eb5b3641ea55eebf3d61156df16b2e141d91db1b5d34dcd81fe32
+~ -[HDAnalysisResult encodeWithCoder:] : sha256 f2664ecf2d529cca3096c14395f3ae60c2c678503c3014d309e5421f55c3b8a3 -> b7af289ce87bee25761ccafa8037af855cf57bdabffba2d71172d302c61bc9f6
+~ -[HDAnalysisResult copyWithZone:] : sha256 82cd767b53d6ee222a8ebc881b3363fd6c8bfb7f615cec47b53cd304949f4821 -> 76cc51ad5c653d291650daaf975c8de2c95852b64105a8151d8673688b4dcc6f
+~ -[HDAnalysisResult dictionaryRepresentation] : 712 -> 704
+~ -[HDAnalysisResult isEqual:] : sha256 8a2990f13925bcdeea09975fefacb19b374f2fb8719bf3a3306bcdb5d6559f2c -> 2eb73f46359316cd4b2dd69ee43df05a3103e734b72467eeb2da5a587f4fdc17
+~ -[HDAnalysisResult isEqualToAnalysisResult:] : sha256 8a68961df4b5e9bcf87bd6152a225bf61b979bea80fdd354e38d80ada6549d6a -> 6471303490d6eaa0b35d4bbefd551739b0b46bfa40434484e26b7188795347bb
+~ -[HDAnalysisResult .cxx_destruct] : sha256 616c27785dcf8ef7b743a8bdfdf91f0a3fce872363c522509c0eb2d4b0536583 -> 923641dcaa50faaf1633c386d0f345444b2564fd83610fc694dd43cfab664131
+~ +[HDDimensionlessUnit errors] : sha256 1950aa54eaba2b4739f72a607ece6536b05406917502ea6e8237e78b1a523024 -> 3c55da84dd84dae53c4580945dcd47acc100bc4b9e857a2814322306d5a122d5
+~ +[HDDimensionlessUnit counts] : sha256 4eaeaeafdc458c9c357b65bd6d7123a8badd13e2958d3bcc042f561b9b73a8f0 -> d5bd358c7526e77a0cfda8976740537a49a11bc4f808b2b599db6968d28bacb4
+~ +[HDDimensionlessUnit events] : sha256 e90d89055dad78389f7f9f0ad211b68f35b6bf0732c9144d78c60ca0c0c3d6a0 -> 8451c09c6c1f892f8db27c0005270f70155abe42b2bf1bd1931436cd601a7e38
+~ +[HDDimensionlessUnit frames] : sha256 eea193e659151b9f4f2598d2986e1dcccebfb933c17ffc8eaaa58d710235942c -> fd28cbeb0fb10ebb2722eb4ea1a6e017dbf58e52733fd7b96ced9beb905794e2
+~ -[HDExperimentResult init] : sha256 411d6a89838ac5965230906922462051ecf2cff9861186da29dcb93e5cad3dab -> 704e3509c0823bb4c164439c51e72db07fff3a7baa7273a704da23b3e4c380a4
+~ -[HDExperimentResult initWithCoder:] : sha256 1ea4b456778802068a80ca7b69eaa7a6ad5f7fdf7a5e908cac7e0374bd9bb6a6 -> a0fe7ae2b20bc5e6b9b3b25cac4235c7d80daaf31e1882a1666189a764b85bcf
+~ -[HDExperimentResult encodeWithCoder:] : sha256 08a5eceb1dac2277ea43875b2dfb538e9b4d5338bb111423bfeea9b287342f54 -> 1365afd9579fd0cc971c95a4b2953f605a75d0abb1614333edfe9631847b682a
+~ -[HDExperimentResult copyWithZone:] : sha256 850abce75d6634be10d35304fe83e968cdc68efc5eed75eb4dcc35a6091a0582 -> 13a5c27d7998af4d7f53abac9a1f64dba8117bae671b6e445a9d21492e010d2b
+~ -[HDExperimentResult dictionaryRepresentation] : 908 -> 900
+~ -[HDExperimentResult isEqual:] : sha256 2a9b14bacaf2d41ae5cde6576f5f88c4e9327abbcc5d0b7418fa20473f837864 -> 7c3a6d7dbf06706596fea841aa91ec1863a887977c914218e179201838016951
+~ -[HDExperimentResult isEqualToExperimentResult:] : sha256 6ed4048d6ce04b3c7ede3aa47a20f7417e49973c6dc7c05bace500bf3eaaed9c -> f097c785f99d7de2ae22573e43f27b7aceed70b53c3be0194928cbfe64b5d8ca
+~ ___48-[HDExperimentResult isEqualToExperimentResult:]_block_invoke : sha256 28e9279bbb54edee2334a1a817390122c6c6859eaa282bde19aa79718a6f3486 -> 59b1307bf3d193b720bfe67e488b0f8ec790041de81d3e29de3b4122b3eaeb25
+~ -[HDExperimentResult .cxx_destruct] : sha256 bb56c575d5577970d791c9fd717e221722670a2f0cb9edf263e0138caee0aac8 -> 235d040549b69194c1ff1d52904d00a20965728d4f9e5e07683b7fc620363b26
+~ -[HDBound initWithValue:open:] : sha256 f170d2f68473fd6ab325be1f30bdde7c7af5879783df2771ba4572f372ca5824 -> 32b5ad981f97db990a8de7dd7c26a25853e33ade49e1ea266d971dc18a1e1910
+~ -[HDBound initWithCoder:] : sha256 2303d61592a39d1efeae3da6909eaa4628d8e414273fad8f1e111378da6e6172 -> b7e681a8d571df3671c5495df3a4c863bdf9c99b1ebf49971e0ab11c5f087e24
+~ -[HDBound encodeWithCoder:] : sha256 c2101014637146a7234bc943db001929251fa73e82015c3290a2ef512dbc754a -> 1d9be1a50d0f604d13d219682887302385c579d8b744d0512544ece8c6076859
+~ -[HDBound copyWithZone:] : sha256 e8bf48cb5a941b8db56bb96d6c1a61c9a2e4efaf42fcaf1ab8950b4c9fa9edec -> 637fb0b356c9ff81b0182a979ca5eab81a852d5afa65a98b9902b2ca43ae9cce
+~ -[HDBound isEqual:] : sha256 df0b7e184cef63564b63bf81e941c065fd34399a87e870256f9abba0b8068263 -> c9abe11403b13b376d1ea7364daa9edaa719faef4b01a77d6f871646935ded57
+~ -[HDBound isEqualToBound:] : sha256 d9335e281986c701504df13e1a1ecaad02867fbfe9b1bd90627927e7f12a9611 -> b03053be1b5a1737ff373a2341af8d6ef2ac8c9cdf2aaf09bf32f6a7a7d0c77c
+~ -[HDBound dictionaryRepresentation] : sha256 1d99ca200edf9323891434c5da64117299cec38da826d722cd392fa7249ed79e -> 618bd3120b39dea9cfce4a985eed46d94bcfa4095c28acbdf8d4e058cebac075
+~ -[HDBound setValue:] : sha256 62dc0fad2c86ba483da3d72f15cada999a0bf55575cb49515f6d1d90b582f0e6 -> 505f9000ad0bdb24f7f1cfa71c2c0843a716ca342817406fcd7c1df595f1f672
+~ -[HDBound .cxx_destruct] : sha256 afe45acaddbc5a34a3a5c20c9d494d3e68703319d6d10fc28eaca0b669a008f9 -> d1a63dd11bce68550fd407601744c0038a962ead99a5b7b77ed04d0c2e170fe1
+~ -[HDLimit initWithName:] : sha256 ecd8a3d4e3f68a3ec9a7738b364ce3095b1e658e905005e71950b8b37bfa8e02 -> feebd413a8043e6a3ae2bb02cda6cab0fb5f938021bf7e723dd05e5a70eec97f
+~ -[HDLimit initWithCoder:] : sha256 5b95cdedfefc001a421ae57c474f57571387ef5ee0d4006cff458c37dce1fa0b -> 537284c9cde72f260a9420c2159b624c3723b7442108c279367074632237eae6
+~ -[HDLimit copyWithZone:] : sha256 4dc3cb102fda61f2dbab019f9ffe952a3f4a0e74a5a72b1de218c52fd8edea7b -> f440cfbc538deb5ba1d2f1b9cbecaf2fc617da3a7aab8908ba3f5d3ba62204f7
+~ -[HDLimit encodeWithCoder:] : sha256 b9da511d74ba5406b6bd776e865cf30ee027c15c8e49a9d22d1e46fedf4f6565 -> afc4519023a47a2865e6867edbb1fad3e8373a34e417f2e73b721da59c48d0fe
+~ -[HDLimit measurementWithinBounds:] : sha256 ebfae2f03a179ca8ac509ced17da86d8a19d68abf0b3789ab98feecf3d2c78c1 -> 1d745b6eeecb717bbb7ee0d0e30f0d2ad8ff757ffe950628401008385fe17e60
+~ -[HDLimit isEqual:] : sha256 1f78efbd3f2cd43e29220f2b29095e0eb8270e840359b9ed787a893716bbdb27 -> 8c611c6a6cedc1ed9d7d68a9bac92dff76b4d342bec1f9cc0cdc1e781d34558a
+~ -[HDLimit isEqualToLimit:] : sha256 fba270228733d95b424de01e9cc0d11892ee8ebe8a33a199ba183c518a3fc65c -> 51a899f2dd1ed368bd5348a5c1c4ae89585953f1e0cbae9af0e3cfb90f1b0531
+~ -[HDLimit dictionaryRepresentation] : sha256 7207631be5a83e3682403abf7c5eeffde1e80b1ad9f72b619f31f61649f91b49 -> 078d017aa6302b17c0cb1eca97965f80bb32efe2ad280d6840768e27c90cf65b
+~ -[HDLimit setName:] : sha256 a231188de11b1b004e945a139d725dac0244c37fa6d8f8329757b0034b6ae902 -> 174a10468f46d84f7128c8b982ab8f20c6c008da2a98a569bec139aa33f8cdfd
+~ -[HDLimit setUpperBound:] : sha256 194386ad1d124757a46971aaf607b6d006075d1055267cc7a0199fa283bb0355 -> 8748b47d9b60102ae11ff9baa56241c1d689f8d2c116e8f4b606cd135979a5cc
+~ -[HDLimit setLowerBound:] : sha256 f0087b19b918c8a1b7a63ac43118c5ecaf3fca5c1869139d62691bc122e5bae0 -> bc4baa9e1b0829736d6850e601842840194c103a62d4e9bfd4603a196948b883
+~ -[HDLimit .cxx_destruct] : sha256 2e0f0e1d906f9518777f7ab5f0cd8ae7d260dd6cb145f51e5691564572aece75 -> 07854c4a44bc53bd1d925b469deebd794e1ef2d5752a75257235b16fb98f8f65
+~ -[HDMeasuredResult initWithName:measurement:] : sha256 edcd54a02b34f331eaee27e3f690d459245e221b297a98cd355514700d378537 -> ffe49f0a6e2a78c942ba55f7579f11bf438dee5108300d956e3a5b6259038243
+~ -[HDMeasuredResult initWithCoder:] : sha256 31045092a0771c62cdceabc42b549791bdd1f6a2bf773127d4f10451d42b9625 -> 6e37aca200d3e6206c6cb1762f66218f9d47dcff726d7a6ad53c035c9c34e33a
+~ -[HDMeasuredResult encodeWithCoder:] : sha256 713b0462514bdf20d0f46b41a4e9a4a2913a7495ca01fce797df1fb2779a88c6 -> 75d9c37afc1b6e06e6b78c709f10738e80723415ce3e95520c8459a5b12d9ed3
+~ -[HDMeasuredResult copyWithZone:] : sha256 91cc93ed1606e48ddb7aec633174c3b1636e013fd7adaad3bb1d5c37e887270b -> 3fcff2be3e0234326eb94f55c4910b148a458916eb058dced63e42ba00c138c5
+~ -[HDMeasuredResult setLimit:] : sha256 7682d2f43bac1f5268d58fdffefa825c3c5eff04d0c7e39ed4e0d18068bfcecb -> 066c612a7208c73466bdc65203d9940c799967ba364501d9618761b66821ffa0
+~ -[HDMeasuredResult dictionaryRepresentation] : sha256 81023582ea73f5541b870a1fc87c09a770713e9891500ddcd8fe5be6ed6e66d5 -> 6451256ab3291b544dd2adbdc78ca64661154764eb0bdc4695d0ab1ef76a462a
+~ -[HDMeasuredResult isEqual:] : sha256 65b53a0841afdb6868baf8717f470b0adca426bf24882cf427f5b29d067d1a49 -> 6fafbcea30d43c1daa2201291d3b07055389299dc25673429d948e6d1bb7b382
+~ -[HDMeasuredResult isEqualToMeasuredResult:] : sha256 180b1ca6257fb59df9e610f1469f8c19a1ae2d140eb5199c8002433eddd23548 -> 04e2078b1c7391346529af9f27757977f7cb491c2e97ce59fdf96baa507fca28
+~ -[HDMeasuredResult setName:] : sha256 5f2c8eccf99e1eaae83070c8768a99be5583510da8fcf2ff250e4b49e900051c -> 28480daadbdad0d27d00867d9002496c7e6a13d0521798e3defec239a2cd4baf
+~ -[HDMeasuredResult .cxx_destruct] : sha256 3d1595ce761cd0eaa4866a7b6900c6774a1174bb73c9f1e1f8f26fac769bfda8 -> 9bb5f2dfa1d890f7f00eca03a1c2755c2aaff7e552d3e1b17da85d7cf99e35ca
+~ -[HDStringParameter init] : sha256 91f27ad9e69ee7eaeeed4e3e7140fb4d8af45a0bdd770206ebfeefb3f35ddba6 -> a6ee2aaa2d8e49243c134059bef489c051dcef26749efde305ef28cbf43af297
+~ -[HDStringParameter initWithSummary:required:] : sha256 f6290ab0cf7309219e6e43315910d3cdaba9ba04f3dafcc9ecd2e4a26c969f63 -> 161411ee1e8f7d04d82aad691e9568f008a9d5e9c15f31ad5a78e7029a08b21e
+~ -[HDStringParameter copyWithZone:] : sha256 39b5183ef31af637d0e9706239b54f6e229d1d289d38ae260156c8be9c5ddd44 -> 33fd9131575f619448d5e2b3f1fa41e0a8b23264937b2d44dda7ab9261cb0f1f
+~ -[HDStringParameter validateValue:error:] : sha256 07274cec9f9acbd0d034edd366929531bd8d2a3402c19a0661f3a5dcb41af4fb -> 44d6929bb327de700e0bae2ff4c01f77fdf68ad9e183f3a4d04c3e46d9aa0f6e
+~ -[HDStringParameter setSummary:] : sha256 d25611103fc251dffbe9308a0003f19a716eff42c6e5d84e1192ba6a06639c9f -> f88ee049b45148a999ec1be41557de012e7fed40e40534badba439b2625b1163
+~ -[HDStringParameter .cxx_destruct] : sha256 17e84c93fc217a5ced410bd97f3ae687e7b8e767e813bd02345db4f557a30f6b -> 665daef32b529e15e3b1c24a1976243b37eaa4f59e5dc696d02484ea62d11cd5
+~ -[HDNumberParameter init] : sha256 0ae57c5daa606f42ffc20054f2915bfc191c220bee8597bf90929800243bebac -> 3f6005f915fbbf1cebf1da31323122794e06880874ccd349df370ed0473acf27
+~ -[HDNumberParameter initWithSummary:required:] : sha256 9e2a495c7b2812077e80eb7348710d31ba8d214c026945d8d8639290ec98618a -> 92a9db6d4f9292ea96222cb5771b0b7b8c723f35e77caa269f83e7267b4ace27
+~ -[HDNumberParameter copyWithZone:] : sha256 6179980876d4612eab56dbf28e7dc4263862314de4ba117bf44d72a1698094e3 -> e238012cbe816c8a58090c3a02c21e2d988248695bcce7ed104d8f88bb3ccfd2
+~ -[HDNumberParameter validateValue:error:] : sha256 a2e5833826cdf03d15832f9bdca8c38b7df9c3b42e0a96cd0f1f6d4381720cff -> 32672412d6f605bc9575393f6616bc5b0073d59df5f803ced3d9615b910302a2
+~ -[HDNumberParameter setSummary:] : sha256 e4605c979ca0b64a067211b765b542186ad42cfb0edb4335f6d460680e6b33d0 -> 9d1c0ecb5e809766e390299c04d897031b552de6218bb60bed5ec752aa060721
+~ -[HDNumberParameter .cxx_destruct] : sha256 dd4a04696905d5c573f1ad4a7d71d29be9e4ebee3aea4830f2efbc657c6fcac9 -> 5ac5fcfdd232e640ac3f51a494b564895a63bde50529ba93694e791803e0ea54
+~ -[HDKeyedObjectParameter init] : sha256 cc8971ebc986c003dc65e3d3471d177269319596f9ab211c58f62471cba821a9 -> f0599e56da7b350fe9ac65bbbb7eec9ee9f5bcbef392b14bb759c796ccf4a70d
+~ -[HDKeyedObjectParameter initWithSummary:required:] : sha256 0c9228ad468163b19701fbe672e994384e7a395404a4ad1262193bf0476d8b87 -> cfaed354a5e586c63fd05192d26f267b2507498fa7bfd6d74d699abaa9a2d7ea
+~ -[HDKeyedObjectParameter copyWithZone:] : sha256 872b413f6e69cc4fdaeb4d024a67251f14a842c0e74dafeb5c437780a80afac4 -> 4cd88395f99f3e0f29fe207f26e64e3f5e750116c14976cc356422eaa20cc650
+~ ___39-[HDKeyedObjectParameter copyWithZone:]_block_invoke : sha256 28577a502c0419b02f59f88ab1ddd03159e8017cf7f0e2d9842b556e2dc60f3f -> 8480ac41df2e6b7bb8255a81d2aee1444feb7d5de6f51e6f5f61ef07a1c82b2a
+~ -[HDKeyedObjectParameter addKey:forName:] : sha256 8759187bbfa33796f6aa0f3165bbf1392e7dd74cea6534c5a9b672ca868d7363 -> 27936498c4edb4b981038bedc6009defe045c1fb61a48159d7121fea4daa341e
+~ -[HDKeyedObjectParameter addKeys:] : sha256 683a0ea1a37103df6a8cdc0be8767f835831a9fa2afc881dba1bf7122b6efc02 -> beda39b7ac5b20957ee8d79f9fe4215a3d5750701cf6eea246c0b60881efbf9a
+~ ___34-[HDKeyedObjectParameter addKeys:]_block_invoke : sha256 435f77a54533ffa222044dc147df77ef06b689164cfd3a20192aa947c8f34819 -> 2f1dd00329d59ac6e8a1872270180efc15efa357bdae4f2e64b8f1cdb72d9a5b
+~ -[HDKeyedObjectParameter validateValue:error:] : 1408 -> 1400
+~ -[HDKeyedObjectParameter setSummary:] : sha256 1788e2c13abe30f4fca3e663c5dfcad6cdc40c13d5433e593aa8c7ea520a97a6 -> 5499ebf576993dcdb76c6528716098bc70d8643ba00cf6ecb4fded592dcd6dae
+~ -[HDKeyedObjectParameter .cxx_destruct] : sha256 5bbaa087417ceafd1d910dc741f31493d003ab18a58211fefcc5e2016acd9256 -> 758602df616a5866c7053d5d6b130beed00fb9e7ca7167d449d8431541596dd9
+~ +[HDDescription descriptionWithSummary:] : sha256 9683d66872324d63bed904429611653c079dd9637c2f4c4b701537f0886feeb6 -> 760625b7e1e017cf22a36e7c32eb3535a84200eabdc866b30bffd3a525e098c7
+~ -[HDDescription init] : sha256 5c494810456c75fa1a5297d76eb062b6bc94b21c817f6cc2e89198ff3f9e20f0 -> 67bcbb9ced0d7ba0d1237e27c9ace3c7f00d64f5a10f1f6d6d135970105e53e4
+~ -[HDDescription initWithSummary:] : sha256 9948ab342cd8eb4f26d1102e743fc6de19f126abc7311ddc445488ad839cb9cc -> 6c4e3946bea03ef891ae5725b481be0a0b575b4981959dbcc6de0f0bc625857e
+~ -[HDDescription parameters] : 392 -> 388
+~ -[HDDescription addParameter:forName:] : sha256 1ec3d602956000c195c2521c03becf8060d7b163cf309add45e675d23b789d36 -> d1bd00115a5449f786710f44059ba9a04247959c74b1cf4e2bbdba39db3aab41
+~ -[HDDescription copyWithZone:] : sha256 1bdad078800a2e60bdf980d25c2a38f0cf1f719d30066be13ad771fceb3e98d8 -> 0ea93933d0455125698dd8ddda76f02adc57a04d78253eb25a2d2c825f6f05e1
+~ ___30-[HDDescription copyWithZone:]_block_invoke : sha256 eb15500348debfe236ed14e3dc129653e996e42e4a1585982d60ad24bb1e5f66 -> 39ca8d68785539ed2bffd506d9138dabc8dedda30975120d496be03dc81a6bee
+~ -[HDDescription validateAgainstValues:error:] : 1068 -> 1060
+~ -[HDDescription setSummary:] : sha256 7c2ee36ee99a383a6b96673c51820508b208f071a409c29de31c4c48289ded94 -> 3e0a7770f3f86a092733409e1a51efbad4fc07a35021f36932fa3e3e9711b4a5
+~ -[HDDescription setMetadata:] : sha256 2cc997e86cdf22f016f2dda991d1021075d8c6c36c5fedf6d56ff71b016ab54d -> d775bc428ff24bac49ddf3fbbd51b354acdadb63ece177891fcbeeed706ce768
+~ -[HDDescription .cxx_destruct] : sha256 630b1d29846476bbc15924da45f49c0962a3c52f1b78c27fc6e196eae9499907 -> 204d18d8a0ef4f169c22e220fe6ab4e1aa6c61212785a2220799c7650cd94853
+~ +[HDLab defaultLab].cold.1 : sha256 8cf13f52ae42bf06039ef582df1f36c94bf5d090b8e5596574ce0b3456a26413 -> 2d4688128e1f77ba05a0325e64c8ef5fa037960593560fc02e0be3b436ac40e7
+~ ___65-[HDLab addDiagnosticWithName:experimentName:analysisName:block:]_block_invoke.cold.1 : sha256 b5085a59532ffc839ed0ca4e4a211715cfd275abd172c1233bee82debf01fcc8 -> d452a544ace35e64804bf159e7536dfa572af2b1a5828f52b324fd3fdb469635
+~ ___65-[HDLab addDiagnosticWithName:experimentName:analysisName:block:]_block_invoke.cold.2 : sha256 87e871dc1fa8fa21673b8211195f39731335bb01c76d9344ed28b304a26e9e59 -> b6b91e5d03fd89fbb255e17a677cd5d0e703de9cf56a58f000163e48d7572857
+~ _initializer.cold.1 : sha256 e0dcab58d0ddae0ba565f01c6c37f08db2d3067f8e1d53cd6cae809b97ceb15c -> 4ad4bdb522e4e19d2eedf76fea586250eb13092bd36acc694ec9e03e33826c30
+~ _HDDefaultLogHandle.cold.1 : sha256 281ff3687cbd5396e1a571f45b955edfa696b14e25ad03695bd1b2d16d537a2d -> be227f0b69ecf0d0401aa141006a9cb60429f7d9b7916a00e146fbfde12eab72
+
+```

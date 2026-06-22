@@ -1,0 +1,83 @@
+## AirPlaySenderUI
+
+> `/System/Library/PrivateFrameworks/AirPlaySenderUI.framework/AirPlaySenderUI`
+
+```diff
+
+-980.58.1.11.1
+-  __TEXT.__text: 0xfe8 sha256:f0ef76901f2c31c90618de51af22f5e07132f8a5ba99ed756039a210e3f37454
+-  __TEXT.__objc_methlist: 0x1f4 sha256:d7571a53f1852c11c9708d476ef271075292514e55673a973244b4c2d33f75bd
++980.63.2.0.0
++  __TEXT.__text: 0xfe8 sha256:a19361331d174496a5842fa4e86e3c2fb91ba57c04750c3ad2926b6fa24661d0
++  __TEXT.__objc_methlist: 0x1f4 sha256:8b93c9942bbf40f3484ad8ffa4e4e6f8e720db923addaac42c29612125a618c3
+   __TEXT.__const: 0x40 sha256:f7c7ec92cbf842ce4422f70ddfde9c2c097b5bb89ede424688b9cd665f029331
+   __TEXT.__cstring: 0x345 sha256:0897ce202cda5040a2089160828922acd20faac32d2a12e4e8da8381440a66c5
+   __TEXT.__unwind_info: 0xc8 sha256:21e847fb042af021a8cf57679879b1e7eaa8481d8fc93f0a5f2988ae6fc03900
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:8e15f6f57f2f7ab7d3f6a41df9d99b4668277ad42fa663fdd98eea8f50840333
++  __DATA_CONST.__objc_classlist: 0x28 sha256:3ac9b78f6eec11b370eec56514efc08feb8ecee63fd2469f6ded89f733616bdf
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x168 sha256:b221312f093f1c0d88232b45c1343a6a753131943ff07a9ce7b51dd16b180b20
++  __DATA_CONST.__objc_selrefs: 0x168 sha256:219269d31e5d92446b71d6c17ac5eb2635c29171d7a419ada65e21ec13879cde
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x240 sha256:3ac11e0c6f8e4da2eca08459b9516b6fddf0ff9434d9195669c00d5290cbf5ab
+-  __AUTH_CONST.__objc_const: 0x520 sha256:ba7e5ef960d0b0a13d71038c6f458e7a9a82a47135b48e9995494d92af68c93b
++  __AUTH_CONST.__cfstring: 0x240 sha256:1c00aef8817b281a815225cdb179b26745f9686741f8efbfe2fe32e22421eb96
++  __AUTH_CONST.__objc_const: 0x520 sha256:ac32555e3e3b160dda4a8c1e6d8d3c1ea16355f4255a10951d473024bbb1d07c
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x190 sha256:59d22210c8dc5254f640bcbfdb8376161a82b01bb95ce87288596f52c3326299
++  __AUTH.__objc_data: 0x190 sha256:2c7f188e7bc2c539243f81355a9313a4dba44914ecded049bffb12f0c8d5aee2
+   __DATA.__objc_ivar: 0x2c sha256:8a295a70aa688a1ddbac146efac32e19de13250d48fb6ea268e86abc033bda5c
+-  __DATA.__data: 0x70 sha256:ceac4a246e60361692911a0681d1bbff1a8c474dd4e96a71363f0936f0f5d7e3
++  __DATA.__data: 0x70 sha256:1ba6f520c2a1680afb2ebd9384058efa90c0687aaf876e38b4ad62c009ab18a9
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FEA3BFDC-4817-30E0-9E59-1477A80B74B5
++  UUID: 7C25DAF2-6830-3BB8-AF44-0F236F8A1784
+   Functions: 46
+   Symbols:   212
+   CStrings:  48
+Functions:
+~ -[APUIAirPlaySetupConfigurationWiFi copyWithZone:] : sha256 21d902221da6c79fd03e784f798528e04000213b18055ed1d27eccfd1e0bba1c -> 21899c010b12430479a35e4e340c3a895bbcb947f7c12fea9e133c1fc66d9803
+~ -[APUIAirPlaySetupConfigurationWiFi description] : sha256 af8738fd83039377fa811ea9869792b9c904d93cf4ea6326907aa5135d5cea90 -> b6d32d76915ad1d93b33a98955da907b2c2a361f696e7437c2f7834873a14bd4
+~ -[APUIAirPlaySetupConfigurationWiFi setSSID:] : sha256 a21fe8eaf63e1bea982f965b45f5fb4f3b5e89a671cd4179a995db087ac8ad22 -> fe33de6fda825aa9f50d7cb4edc6c6ee72a05eabedf1889901ab841cd67a34c8
+~ -[APUIAirPlaySetupConfigurationWiFi setPassphrase:] : sha256 cc75e96260be4b644fce92eee2091c40974c0e0736e9bd4a710bf167161b8b27 -> 61cca486cd64d879d77288a24d3a215c22bc52f42ed53703e27b2074ddbc1aa5
+~ -[APUIAirPlaySetupConfigurationWiFi setCaptivePortalBypassToken:] : sha256 fb6e339b51a8c2caf87d8f8782e20d6e45c39cd87cd6dfa7c2d2ef96d715e430 -> 3e4c01fdcc07ee3d6cca548777aa924b032ed518380bd9d1fc71a313e7ddcfd5
+~ -[APUIAirPlaySetupConfigurationWiFi .cxx_destruct] : sha256 83b0904031168d02ae1cd8cb199a2e4c24bb87a9ec22f7d23d826335c18d8f07 -> f3838acd706bea807892811888b7399632be01e94195787c888b8022533cf549
+~ -[APUIAirPlaySetupConfigurationDiscoveryBroker copyWithZone:] : sha256 8a0fc596cc1faecc9f841e93c07593c14196da6b0beaa7481007f6dd29131aa9 -> a300da406c12d88f565326e9fd0323e0a1289c1b8141dd00cde27c42aebcc4d0
+~ -[APUIAirPlaySetupConfigurationDiscoveryBroker description] : sha256 d7fe02d03dd171fc0e1fa002b27168b1c729f06daabe7be46e864fb7a86ae30a -> aef8864bba3a82c5f23599e018d06d74d1c231f674a9c4d6ecfeecdd122c5447
+~ -[APUIAirPlaySetupConfigurationDiscoveryBroker setID:] : sha256 dc4d185833b7bf9aeac3178763c96be0d6d9a6d627442d1acb3c26c24d48a885 -> b5106f7a98bdc227ef0aa167b932aa8343a91eb5a4acd503bef56c8d2bf13d59
+~ -[APUIAirPlaySetupConfigurationDiscoveryBroker setAuthToken:] : sha256 7a33834a65eac87ccbd94752156e0d352f2e58237354df762f802c1b5b01b6f2 -> 5a8a06a5ad2ae7f1860ceb1219a88af76feac53aa811dc6e8f27bf846101b48c
+~ -[APUIAirPlaySetupConfigurationDiscoveryBroker .cxx_destruct] : sha256 7d804455622f7a9c317ddd873e4377ef0bb97f397deeaefb587c31635b66abb2 -> fdafac1b6a4ed1f0f743fb9ec2a2d95457d1e78f2b49d066a2de2dfb71a68952
+~ -[APUIAirPlaySetupConfigurationReceiver copyWithZone:] : sha256 e07f4c1ca09bd69e16106cfccb777840b08a9ae169617313ce16323be73db52e -> aab6d5ea6a3bc522613648175183e37f95dd7d13a048237ce7baacff3a1b78d0
+~ -[APUIAirPlaySetupConfigurationReceiver description] : sha256 2604d3fc3f70e23419a7e8e228f90bab94c72e8337e92f82ecfbb6aec5750f8e -> c4a555a82d11cc96b4d92c8eb40c864f2def8eedcdecdec5714e27d715dffe8a
+~ -[APUIAirPlaySetupConfigurationReceiver setID:] : sha256 d14ad04e541f0ca733b63fa14c78fb058609424977f51880cb15888d18a70ee9 -> 5d8cbb9779f3fd019dfb9944a32355264b34a47ea9be0a5bfbda3f1ce61dc602
+~ -[APUIAirPlaySetupConfigurationReceiver setAuthString:] : sha256 660775f8da5e4be88533a86b54c40825bde587a70caa3b98e7789d032008da99 -> 58ea08f23fe5251c31a8bd2a988521a11b21bdbde9609da02677967848eae642
+~ -[APUIAirPlaySetupConfigurationReceiver .cxx_destruct] : sha256 7531bcca359785d0b0d50d5a9a42ed8e03202b20285ca39933f21bf5bb0b9147 -> b971fd42d8494350bff21743f75ddeca248cb2f3278b629aa09383290457a47f
+~ -[APUIAirPlaySetupConfiguration urlString] : sha256 6f5de884f5bff92c1741da622fd2937dd0b05588b2cf68b34cd5681b3f37ba83 -> 573884ba6558579bca675bf724fbde0cd2a5d83fc0b398f4f9932287bdfe3d68
+~ -[APUIAirPlaySetupConfiguration description] : sha256 e497a342eafb750e5fefed095c8b04c989cb30e5dadb3328f9691ca9b26d0dea -> c87c617a61d5c2c1bf696cc61cec3cb3c1f1e09d0df8030efdc916afb25ca343
+~ -[APUIAirPlaySetupConfiguration setWifi:] : sha256 373483a85196de1e225502e676aaf6cedee13823ba9a5767e45be0b7da63b358 -> 3d7ed4dfd4426653117f093013275e107cd3d9b6242f2c03c1dec44047fd6e94
+~ -[APUIAirPlaySetupConfiguration setBroker:] : sha256 11c42ca45b10b452ff72ec46a71351b7d2ddf0f3067ea515f7ad6b47ca388e68 -> 8ef97ea8e833383d4c7d6967e0be788d330f5bc602fb3bed75982c06ce8d76a9
+~ -[APUIAirPlaySetupConfiguration setReceiver:] : sha256 01d90fb6c6e5ed3be97f88bfa32a6c8ad6e2bbd646e5997c2d8deeb8a2067ed3 -> 44de52a043761f0777ad49e11a74f9c749fc5494cd13b801a8a2371ba118c441
+~ -[APUIAirPlaySetupConfiguration .cxx_destruct] : sha256 b1d3dd7ccc24e7a4e86bee914c6338ba2516a56d16d40fe62b27e9af9fcf8897 -> c4989ab9fe57ebcc24d760911c37ed076686500a143898c5ee8c964c076e4d94
+~ +[APUIAirPlaySetupFlowLauncher launchAirPlayAutomaticSetupFlowWithConfiguration:] : sha256 6bb99bf7928a8fddc9a2a11c655e611db5396f1baf0d2240239a3573e127778b -> 120de31c6d9962f7c532d79c9597e8a4685d9c3d3d69ef24d483dd991ff88ebe
+~ +[APUIAirPlaySetupFlowLauncher launchAirPlayManualSetupFlowForDiscoveryBroker:] : sha256 49dee063f674e6af8b7dad4ab0128a1c8148bde94ce1f138bb35e166fd0572be -> d529e09a1894558aeb9834b5333eccd516bc50f579f4825f87b6c662840763a5
+~ +[APUIAirPlaySetupFlowLauncher launchAirPlaySetupFlowWithUserInfo:] : sha256 cf940c7e1d2f90a7e35611c7273cb0af23ceafdde626a42d9bf60b4870281ec8 -> 2d28364ae603e403cabc6418fa769fb8f65ba2ee531b1cf07ed3aefc9007b28b
+~ _OUTLINED_FUNCTION_0 : sha256 36ad1cb791c24375aa75a54cae2f325eb127bf70821c25a389757dceb27c5952 -> 6e766bf89b66096a0b33ed76acffb26af0ed9ecb950c10576e7d4a376856a4b1
+~ _OUTLINED_FUNCTION_1 : sha256 ef721b2ea31e437519d05226d7c203460f71e23a74d5c0214f878210fbd544e4 -> 3147a90d193679bedb9a1115e3181dc4d957c440d25d9fa0a85033b15fbb6bab
+~ +[APUIAirPlaySetupFlowLauncher launchAirPlayAutomaticSetupFlowWithConfiguration:].cold.2 : sha256 2246d6ec29371f8851e1f1ff61b8c116bd34a924fe352c469f7e0d8202913d8a -> 50c07eac25617ac3c5d0d00e45a11aa3e0736f2e14df3114c04a9f6d6c2f7100
+~ +[APUIAirPlaySetupFlowLauncher launchAirPlayAutomaticSetupFlowWithConfiguration:].cold.3 : sha256 4e3fb6ef37e90d5137da2645def757fb9d95ea6634dee5a0aaab1ce2c4cbd5d6 -> f4872b012c70cd7adaa31a914fdbc3fe5e052b7518519f928514e2c1c305e1e6
+~ +[APUIAirPlaySetupFlowLauncher launchAirPlayAutomaticSetupFlowWithConfiguration:].cold.4 : sha256 54371e9bf09637e4c4697a691a31631311474db624e21321c1c3aa0bff7966bd -> 60ff671d751a41bd5fc358f4591debce2094c0b15ced67761b991afbb4ada4f1
+~ +[APUIAirPlaySetupFlowLauncher launchAirPlayAutomaticSetupFlowWithConfiguration:].cold.5 : sha256 c371564e1b052cc9136cda5da0740577f5e73340beef204787bebbfacf3fe48d -> 9992248e12f3c5c31b0e1e292d60d404efa77d17e9816ccd61d686811de5043c
+~ +[APUIAirPlaySetupFlowLauncher launchAirPlayManualSetupFlowForDiscoveryBroker:].cold.1 : sha256 2f033488e01bae7087aed1c5ec9e27362e8700a080df2b80de7e5262d84f931d -> 2d44c1370536e81d6892c37274bc9774479d42b198a758fbe729d84ca5ae4a57
+~ +[APUIAirPlaySetupFlowLauncher launchAirPlaySetupFlowWithUserInfo:].cold.1 : sha256 7b6e8ee993aaeb11f5c0134e492b29c656b57697e9d3f8117ede6ef41c869e9a -> 7c639bf3786a586d8d35042eb469f64e5675284536b191cfd38b0e7dc5496d35
+
+```

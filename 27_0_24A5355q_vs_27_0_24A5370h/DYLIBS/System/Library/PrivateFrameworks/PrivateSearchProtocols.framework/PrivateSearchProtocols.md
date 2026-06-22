@@ -1,0 +1,50 @@
+## PrivateSearchProtocols
+
+> `/System/Library/PrivateFrameworks/PrivateSearchProtocols.framework/PrivateSearchProtocols`
+
+```diff
+
+ 4.0.0.0.0
+-  __TEXT.__text: 0x3d8 sha256:e72e5ddc89ce4666a20ffda86764a291b7c662eb47e8d00536ba5d88a2670ca2
++  __TEXT.__text: 0x3d8 sha256:8ca59817b6ee30957e6623376ba6ea7ed7762301e1b0be9e901e9bc66db6d167
+   __TEXT.__const: 0x262 sha256:0f698032efc88dfd430ce726e6cb921b18941d120bc24359b963f5548e10da57
+   __TEXT.__constg_swiftt: 0x1d8 sha256:12f79baeaeacbef96d4717f95b7a254d1f857a709c25ddd37dfd33e54f5b157c
+-  __TEXT.__swift5_typeref: 0x186 sha256:a1bbda873386b1a6e1d917ca634714e32e3bc442981806856b9ea91a76340a6b
++  __TEXT.__swift5_typeref: 0x186 sha256:917e6fe028c0d0dba82b6c5ba149d81c17fda35c75720f80be1b33caab4999f7
+   __TEXT.__swift5_reflstr: 0x63 sha256:7d6898c3cef9400fdd31fdd0694c134c23d5b99f1a49252aef5959bea6ebc34c
+   __TEXT.__swift5_fieldmd: 0x13c sha256:cb8cb114200a1bb9d26696341e039c2c5b86e278b099bc95a0d901774ca563fe
+   __TEXT.__swift5_protos: 0x20 sha256:ba42ce3c20bb3da6ad983583f226c6ae73569ffecabbaa5157813bbaa508d64a
+
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__const: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __AUTH_CONST.__const: 0x288 sha256:e9f17f30f5354796de7ab363bb64b4446f197b0be0f2e5514fa2770b5dba0ab6
++  __AUTH_CONST.__const: 0x288 sha256:2074b563efbd8c5a5ee7f4c7107a46d1505bbdbe2707fa7e9d5e1501952244d1
+   __AUTH_CONST.__auth_got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: F48D9F4D-BE8F-39F9-B6DB-079C01ABBF4B
++  UUID: EA6FE489-A4F6-3AC0-9C60-A8C4929D871C
+   Functions: 34
+   Symbols:   48
+   CStrings:  0
+Functions:
+~ sub_291e72a18 -> sub_293245a18 : sha256 b43a731fd8ff71e97c78b0e3a46e0007d190541e294af5716836a045bb3767be -> a96dcabdccb18d3b4257cd1473eb3cd612c5df32ebae60cca580cecce4b8363d
+~ sub_291e72a4c -> sub_293245a4c : sha256 4eca8878262ba2db7e86c4b13e3f406b70eeb3b774cdf5bcdf160ef8f9e4d317 -> 8d21f6ae55d8547439f7fed95ac1333146a5cbe5316a444fdcbec61681cd557e
+~ sub_291e72a80 -> sub_293245a80 : sha256 b30f9f280313525a4a9825d63243005b2ec524dcb3afd35771e05b67f34f8c74 -> 5c5a31d614807fb06d6b9a57f172830a235f6ba8fbca60270ced205dc82b4855
+~ sub_291e72ab8 -> sub_293245ab8 : sha256 95d9aabe055c674f44051b4ad19451f9c8ee8c444a6f74d662e5e8370c322e61 -> c96ec889ab20dc5fd71ba9894ed02dab00e653ffbf22bb42fbba148f54edf044
+~ sub_291e72ac8 -> sub_293245ac8 : sha256 d0edfc8ca281c9d3ea68eea39432671be874f26c29cf2f10eb70075593271d69 -> 4be3f52ec258b5450c0d87ab261b1fb4ae5adc00e0e261ee24965bfa02500d57
+~ sub_291e72b14 -> sub_293245b14 : sha256 51880edf44fa3d6521b9c248e1ebb69ac555e09bd1d8e31dc2709a8cd40fa2ad -> faa1434e1809db7b3c6c191613022470704aa1a541bc01cb20819de26cc02dfb
+~ sub_291e72b48 -> sub_293245b48 : sha256 6cf9a0fc7db46aad4f5f0b45b13392661589471264b4e8c0543656005d6963b8 -> 3d61205b6d975beda2f4e384d8413bb98217877d0c9e0137757dc84c7a9154b0
+~ sub_291e72bdc -> sub_293245bdc : sha256 a12ea5b8dad0aab95f7bf1b4fd6d4f4c358d3d540ecff5240bb9ec7a5212d09d -> 11948d6cbdf0d344701d30de7585100c419f080467f189e846e27384560bb42c
+~ sub_291e72c40 -> sub_293245c40 : sha256 1df34c25277e13b90754e90569590382c41593a73649e9572e2b265f4d473fb6 -> 3cc43354d57172862d09d8fb994f3aa0f760c615e28ddb830d24751055f6b119
+~ sub_291e72c80 -> sub_293245c80 : sha256 d7aa95d9c9f7e72f1523a2457ab063e1fe03879bddd8e27be1192a853f48ed32 -> 701176771e5b971219f311494ebc699ec2c41d16a1a4fdd5333ed56d0453d022
+~ sub_291e72d14 -> sub_293245d14 : sha256 cf81cfffe8f012afca33cd38383541b381c6c507dcaa2ce1e4237ce283777f37 -> 52b18cf8f7d078b8043bce46842083492d58063fc4aafdef4781bb583b8e7bd6
+~ sub_291e72d80 -> sub_293245d80 : sha256 e6010608c99d772f4618733397b122116cf06566ee2dc5558cf795512f385e4e -> 814c14a4e9f1b3b20b8b6b61e4d35e9f7b2a28a936548447185e078707279612
+~ sub_291e72dcc -> sub_293245dcc : sha256 352c47a08415d8c1e957651204db5c422899206dd322e0e1eed2b81859bb5d5d -> 222b29244f0f8e27e0b40bce785c6783913b61eb568de2da573fae947f15ce0c
+
+```

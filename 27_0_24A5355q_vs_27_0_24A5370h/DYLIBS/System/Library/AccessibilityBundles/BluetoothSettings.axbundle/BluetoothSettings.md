@@ -1,0 +1,87 @@
+## BluetoothSettings
+
+> `/System/Library/AccessibilityBundles/BluetoothSettings.axbundle/BluetoothSettings`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0xb50 sha256:a76b3e6d8c7f12c161562bf320545b9342729854bd4f0dbd26da3f5880404cbd
+-  __TEXT.__objc_methlist: 0x148 sha256:fa38248f7a1e6692cc35c965cda99875779c311e90fd78fabffdf40726565aa4
++3039.1.0.0.0
++  __TEXT.__text: 0xb50 sha256:53d683336f570c339207b1bc0e547d615b18a7885a54fc7fcb6ccf166c92641a
++  __TEXT.__objc_methlist: 0x148 sha256:910a9b6fc2a62cc2047a035a5830c597a242a22db78bd6b3db869d3ceb47dd84
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__gcc_except_tab: 0x44 sha256:944a2183786c48c9f512f4154c73ff79047cdfc48760951fe52a246c22999bc4
+   __TEXT.__cstring: 0x260 sha256:6c6e504501783994a340a421db1d37a3a88b4f7f480918c37ddb657803a66bc0
+-  __TEXT.__unwind_info: 0xb8 sha256:f86f56497ca376a886f7554f548c437ded296ed711e51153bb9bb4378e3afcd7
++  __TEXT.__unwind_info: 0xb8 sha256:8c62194be967d35da011fd24aee76f50c32e9810137ef9c95740e19f41201bac
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xe0 sha256:1fe19651759fdc1bce79d25823961d4cc1774808f1dd969e9b89d8d0f8ffd533
+-  __DATA_CONST.__objc_classlist: 0x48 sha256:2765e0298cea1c136b7cd79c0c11fcb2d56297506140a808b0ca4f65bfddaf65
++  __DATA_CONST.__const: 0xe0 sha256:290e7440d0ddae5f869009a3eeaefc70e02898f3bc37c45f292f368b730daf11
++  __DATA_CONST.__objc_classlist: 0x48 sha256:058cbcafb0f8bae37c112d4237adf2174bce9d6721bf53ba523aa282b14d13e2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x138 sha256:e49b4c9ba4debbf61c41da8be0ce9be1f148c0f49e64689c5da8a73d57ebbc8e
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:ec1d3cb51e1d5178fa92d29663ab56ec8ba1ee4117dd9c309dc4a18d95f0ef51
+-  __DATA_CONST.__got: 0x90 sha256:fc55516fc3231deb68ab308118110e493de61580a71b757a4a7e039640b4e556
+-  __AUTH_CONST.__const: 0x60 sha256:b5fe28efd7e2a6b098ea3c8b1422ed7bf55e8fd8af24e9d92f345de825e2cee9
+-  __AUTH_CONST.__cfstring: 0x2e0 sha256:2b9d046755af4a91c4a69bf7a329c7d644b5f44d1b9bbdbfa0f0a97963df3006
+-  __AUTH_CONST.__objc_const: 0x510 sha256:04dc320d4cbbea2cdedb7d1ddf56538a89e27e693a2455ef7a28fd7896623aff
++  __DATA_CONST.__objc_selrefs: 0x138 sha256:e4b7647c456f1f79b604d6d6d9e3405395d139c5f53f014913df0504d350a600
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:4deefa00acd938e008bda75500a357a53461cbdfcbfdffd6db9da8413408170b
++  __DATA_CONST.__got: 0x90 sha256:d17a043e43c421e119a6915a20f97a0c6c89d7a39f8cc8422d669fde12784650
++  __AUTH_CONST.__const: 0x60 sha256:e8d7434d323a0bab065d826a018b0f5f1fe4bec5beabd8144b25371be5b95d4e
++  __AUTH_CONST.__cfstring: 0x2e0 sha256:e83e38aca2d0fcc7a72f6425e46ebeb1b7c99c5186a66f19bf58a75daf961cc5
++  __AUTH_CONST.__objc_const: 0x510 sha256:a647fab9c057edaedb8a9bb2aa65da88d7abd5f44f7a3f2750cc4762714a3aa6
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x2d0 sha256:388a4503d8341e0fa29a8d3767b8149273fff8a489d46209232b966f88b31452
++  __AUTH.__objc_data: 0x2d0 sha256:1380c299ab1da0b711a90518b40d020aa2c33569ed7675e598db58d6fc397a2f
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C1075356-1290-32D1-B0BC-3B94A73079E4
++  UUID: 20EEB03B-1500-3082-A77F-0492D95130DD
+   Functions: 27
+   Symbols:   197
+   CStrings:  53
+Symbols:
++ ___block_literal_global.372
++ ___block_literal_global.381
+- ___block_literal_global.366
+- ___block_literal_global.375
+Functions:
+~ _accessibilityLocalizedString : sha256 39cc255d6d02f81fab88d974151a66126e19c56c4f5aa9ccf0d1195ef25287e7 -> 56c4cd9ce938f539bee5d2a9a1460f7d0749c830b04f25d226e8ed710b7e5893
+~ +[AXBluetoothSettingsGlue accessibilityBundles] : sha256 48baaf8815349327bc68d9a5f4e327dc8573390999009e4b89bbc0c8ebc81aac -> e7abd73ae0415a603dfcd4796fa65114eb9d8134bd056c6a4ea3b4f6ca8f5ddd
+~ +[AXBluetoothSettingsGlue accessibilityInitializeBundle] : sha256 3ab1223b1353ceeb7913b6c56cc3796a39f5c70d6ee503770cff65e4bee0b26b -> 9aac170968b7af2e14ab76c8b9b76ed044819bb23f6e25eeb2286a581c5685f7
+~ ___56+[AXBluetoothSettingsGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 46cb4e73adc930f3e0690bf9f9ca271b1b2e6eaa41bbcf48a3bd4eb0ee3da58f -> 0ad1b0db47214c5272dec3a4bbdb9cbad271f9987c4f2d3bb82221877d161478
+~ ___56+[AXBluetoothSettingsGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 fb712dcd284f2fce98d42917e85e41f795ae098ed2e71d592d44385a23d1747c -> 277a3635dcb7df4e5c7654edf285df3390c4c49a490d0dd3a6e7c234a026f405
+~ ___56+[AXBluetoothSettingsGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 098d26821e8a31aa19ac7b13b2d5b45e29d9c789087709bcbbfb583448e28ca3 -> 2a0f6216a2de03a0ec8028079d063183c166b2cc79f46cd549b8db827db6c5d5
+~ +[BTSDevicesControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 25b69786b69b7a36028a770ac730784b7473efae80fa214dbed4f03d0efaa545 -> c9a8495d9eac2352b91352065b8c796bfda523fd4ae13f0c3e8c47bfe46908f4
+~ +[BTSDevicesControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 b08c327ed0d1df722465919d23ea64470f968bfb4ed5de62800b7ff20f461ab1 -> 00aca51cf38b554fc7aed208fedbf92cfe7245e32d24cce3e6f2a5a8bec6cd6c
+~ +[BTSDevicesControllerAccessibility _accessibilityPerformValidations:] : sha256 e8eda704af51fc1aa7b1d4d3e420f956041790081992845c643c8ce37a78ba9f -> 9f78d0bec01a53c6dceb5138614d9ae0c9be0806c5d56b0ab95d9a346e2404d0
+~ -[BTSDevicesControllerAccessibility setBluetoothEnabled:specifier:] : sha256 addf2a6c5fcddee419b64deaabe92e8e11448637b04b1fe1a98a7107cfe797eb -> f2a9ac4d66df7f5a4329e125360ff6baded21a7774d18b846149526d97c2781a
+~ ___67-[BTSDevicesControllerAccessibility setBluetoothEnabled:specifier:]_block_invoke : sha256 5602f9f84e53aeb3c0d46f15bff44cf6a5d22044b53ff36821303a866753f3c9 -> 269fe38389df6546ff6db2ea2dc22694a9a2d5b28a0e6f2fc3e88a7f2e1d0690
+~ ___67-[BTSDevicesControllerAccessibility setBluetoothEnabled:specifier:]_block_invoke_2 : sha256 58835e0ebfd8cdb29d9c61af97009f506a9764e003267d1acfa65478a6f7ff97 -> 69f1dcb317911c5163bacc5a729ecf0b446baf647148beeb958fbc1ecf87f8f5
+~ +[BTSSPPairingRequestAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 078013f148940c28bec7ca1bee3e16c1b963e7ecb05e4d6af288bdbea058008c -> c1d5c937bdc7c18db31c6e0b16bd3f2879c66cd6a5e4127380cf8e89d8eb0161
+~ +[BTSSPPairingRequestAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 e1cbcecf3eda8469592352bef8d98e6839d45c2eb54d24106ae5177463904a44 -> 1c8bf00a39162b16bb3276108f04367fbf4375f3cf1f7c7c1e6d7eb46b13e369
+~ +[BTSSPPairingRequestAccessibility _accessibilityPerformValidations:] : sha256 7e6e6f0c29ff5af36723bb49b709d976a12015916e501b6a3b3385f3cda9811d -> f450a83fcd4b181f8c37adac9816d8d2bffd452d15f726c216decd7f58c2d1a6
+~ -[BTSSPPairingRequestAccessibility show] : sha256 75005b53ee9537cdce98a290232036c2a1899a95bdad7dd288b4450a8a9c63b0 -> b85587f304575730c1b293da824aa19b117e7cfdbc0ed913c14f28ac1e511d71
+~ ___40-[BTSSPPairingRequestAccessibility show]_block_invoke : sha256 1b94bf6fc3694852cac9b84cda050e448dd1be3f464d809a970266d8a7f0b32a -> 23c3bcdf7bcd2a073c457580f89e40d3e6b1e83fa717c07fe559f553950f67ea
+~ +[BTTableSharingCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 4fccd2f91ea08dbcefc4a5139f09e4931bdf5a4c3a69d757b6b750502ac089f4 -> 29b13b60005a065bfd9737644265b6b5ed4ff3f6efb1985fb4fbef4f975a14d4
+~ +[BTTableSharingCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 5865962457f3d61d02bf82e347f815f218348ac9c8ccc2dfa3137538ec8df13a -> bcf8dd279841eab3ff6a9bc023706c4e387460b59d95c8b36e6df044281d1336
+~ -[BTTableSharingCellAccessibility accessibilityTraits] : sha256 ef1e309f46ad1f2e98c6edd9fed97d28a9595d479048e56b0a47c4990fa9b081 -> 3d71016dd36347e9a34f194b0340437b9e1989800bfe26941fe7b3dc6267b205
+~ -[BTTableSharingCellAccessibility accessibilityHint] : sha256 6e897c0a155a5b251ac3c545e5987596c0c1fdc45c3a08efb7d02208abdfe2aa -> 2448d60cce345abbda9dceed017475aa1cca799b3fb0983aef657758da31ea7e
+~ +[BTTableCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 fc6bc74ab815579da47aa54faec4d43464e76449276b7a63f7801f7a5fe826d9 -> 8ac2407d62ac8f744c67569be2f052b4cd653715c13d30460cb196bb145b55e1
+~ +[BTTableCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 897ba4863023d8eba5ee44f36b7068a5ee0446594035b9133f095d409da317ae -> 8f55030dcc4625f4aaa9b2dd49411741bb0c7da9de52b8cf25095dcc4f6830c8
+~ +[BTTableCellAccessibility _accessibilityPerformValidations:] : sha256 62d0016728f9ffd218791a0c79221d34b104a2e78fdeb17048a8e44b5f736b81 -> e474bae35993fd8f80dc328ac19caa1f14f61fa6c491a5bde76434a7b22a97a0
+~ -[BTTableCellAccessibility accessibilityValue] : sha256 53d9d50208f6b2b78b798054c06272e155cc3da904bf288a34c0ca0c3adcea87 -> b956d5bd004c5417ef4db1b0624813a463d38fa8a24d098d92765d0666e8663c
+
+```

@@ -1,0 +1,480 @@
+## ACCNowPlayingFeature
+
+> `/System/Library/PrivateFrameworks/CoreAccessoriesFeatures.framework/XPCServices/ACCNowPlayingFeature.xpc/ACCNowPlayingFeature`
+
+```diff
+
+-1176.0.26.502.1
+-  __TEXT.__text: 0x12a7c sha256:b7803b8359794134dedef4811516160f10fbe122f0455289e7c057712674ef88
+-  __TEXT.__auth_stubs: 0x780 sha256:77c7338a10dfe3516787b00fb2c746f94b4e3f70c3e8c1eeb67e0ac05ca383e4
+-  __TEXT.__objc_stubs: 0x2260 sha256:12597667c23516e78fcbe9e6375b2198aa60c2a5d682b47babe9f1486dc901c6
+-  __TEXT.__objc_methlist: 0x1000 sha256:754dab60e7fa062e82f413024e982744d259a592995fa4308d9b85fee9a31409
++1196.0.0.502.1
++  __TEXT.__text: 0x12a28 sha256:72b576fb0a137f29213e6730fb116d2ad2bb1a0b6ad32308d35aaf97aa9bc801
++  __TEXT.__auth_stubs: 0x780 sha256:d925156f050d3a13849f84f02851164a46ee964d517d4acedf69bdec12956a32
++  __TEXT.__objc_stubs: 0x2260 sha256:44a4bd20ec840533f95a43a4f27c20b12f65956ed528989503f63de102d8f41b
++  __TEXT.__objc_methlist: 0x1000 sha256:36aedf352522ae0ce659b7e774b5f0c8b6f855fd6f712e4179e3dd571c5b6a9b
+   __TEXT.__const: 0x110 sha256:b0747f8284ec82107f08444e739ec26b0da66bed4df8437aaf9ec132c0f485c9
+   __TEXT.__gcc_except_tab: 0xc0 sha256:b8697b35253d38c89000cba141e2ab08237c62fa65943fb3b53b7d7400302dd5
+   __TEXT.__objc_methname: 0x2b3f sha256:2059e00c6a7f25d21bca2d11be7f04a6432d738f7b67ffb979c5fbef414c9c91
+
+   __TEXT.__objc_classname: 0x1b0 sha256:e71b30e7041d8a3b6d3f38d77c347d18a6ca3bd5adccebbedeab9beff23aa143
+   __TEXT.__objc_methtype: 0x5f6 sha256:6f933e967c257a25b5d66a27b495d83695d92d605a34631c06e8e6bae5cc37f5
+   __TEXT.__ustring: 0xa sha256:b0e464e7e73416f02b2e55653e73a1d6e086fa3944db7dfc2f50c9776fd541dd
+-  __TEXT.__unwind_info: 0x438 sha256:1dd7d944910d5e1676d551c5c08e70a438e2251021466035896e66a18cca059e
+-  __DATA_CONST.__const: 0x980 sha256:36b01667aa93741334c4ad7171e3b94d6afeb63408d54d71aff5fd0f51b7330b
+-  __DATA_CONST.__cfstring: 0xc60 sha256:3c8055fb6ce9ae2c962f10e68dec4ea307f49e5bc87fc76556dcf8218cb533c0
++  __TEXT.__unwind_info: 0x438 sha256:fc717cfd68b60a2d923597c03cde9ed56fc380f6272e382870fc225d1449c0ec
++  __DATA_CONST.__const: 0x980 sha256:3176a8b253887c885e439e24942880fb62288a4f72480c24df5ccbf148f76ac5
++  __DATA_CONST.__cfstring: 0xc60 sha256:6b30d976610ecf1490a6e73d887ba1bab37a87c2b089190ae303c9bbd6ba180c
+   __DATA_CONST.__objc_classlist: 0x58 sha256:60bea9ffc35ed67b6839441d8b9364e671a3dea65da8302332aeb9c09dba6989
+   __DATA_CONST.__objc_catlist: 0x18 sha256:c63d6e006d1d2a49ec37a591f5ad03943e78a9a210d651043dd2ceeef5574bd5
+   __DATA_CONST.__objc_protolist: 0x30 sha256:db1514a7f962cc4e7b2bed6a7bb7775b06b84e762d7727e450cd4a2c026177e3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__objc_protorefs: 0x10 sha256:445ee82d757dd0cd70dbd66b51ae519e47c80b94e688240935e6c7fb443a72af
+   __DATA_CONST.__objc_superrefs: 0x48 sha256:bca8a3a46da34f8d9aa480d1e7c9b693c83e47ed7498228db0a94439cd24cdac
+-  __DATA_CONST.__objc_intobj: 0x30 sha256:bb61c177044de1db0acbae61871ff85060e69a6aefb6204efb9fc4a051e52803
++  __DATA_CONST.__objc_intobj: 0x30 sha256:295683c25f1726086e9337b7d26c8233adb3483f69f6cc39ec34a833af8a2db5
+   __DATA_CONST.__objc_doubleobj: 0x10 sha256:5c921cd0c0f3ccd1b8abe03eeda06dd90d34fbeac554919b32c9897bb9e4daf6
+   __DATA_CONST.__auth_got: 0x3d0 sha256:f63f0ec4605d0150752e355f1954031155e5640ff63534fe26a934d4d1947374
+   __DATA_CONST.__got: 0x258 sha256:4addfde6ba52c4999770c5ffe415fa32a69f13e215f7a8068f09f122eda3b1ae
+-  __DATA.__objc_const: 0x22a0 sha256:5b010b035f2c6be660af7a68e1e29d9a7fb5a8f7321d0ce8dd829e30e18ff31d
+-  __DATA.__objc_selrefs: 0xab0 sha256:831f17bd3de77b46aa3ea97dad17db21bc433b4ce695ea574997b351bd1b4bc5
++  __DATA.__objc_const: 0x22a0 sha256:60c69b5c10f0eb5f9ec884598b552380dee819932f4184d1d7932a85ad3e2ad6
++  __DATA.__objc_selrefs: 0xab0 sha256:a514509191c595018ac2454e413f88a7c432b858dccf8e10ad9747b908008cae
+   __DATA.__objc_ivar: 0x13c sha256:8a8c9cbde7ca5768326eff075b037b00a41f6842d4cae4c3b728cb5affd6bd4b
+   __DATA.__objc_data: 0x370 sha256:ffe30c2d1577fedf41761885fc017fc3d45a16b95a2c7226b692abda4beba056
+-  __DATA.__data: 0x2c8 sha256:1b48f9ac035d1a4146bda06bb560e08dc2c33401cd3e1895883fba94d186b2ba
++  __DATA.__data: 0x2c8 sha256:d0f31af79b41024b82a9731966a17975df2e20f1c0839959c1e360410854110b
+   __DATA.__bss: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+   __DATA.__common: 0x1c sha256:3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BF550A0A-E2FC-3328-96C1-61186A9EA787
++  UUID: B50BE6FD-D189-3E38-A9EA-D1D17CDBB080
+   Functions: 434
+   Symbols:   3549
+   CStrings:  1003
+Symbols:
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCMemUsageStat.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCNowPlayingFeature.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCNowPlayingKeys.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCNowPlayingKeys_Internal.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCNowPlayingXPCService.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCSettingsState.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCStatInfoAccumulator.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCXPCFeatureServerEmbedded.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/CommonObjC.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/MediaLibraryHelper.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/NSData+Hash.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/NSDictionary+Utilities.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/NSMutableDictionary+Utilities.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/WeakLinker.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/WorkspaceObserver.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/common_c.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/logging_frameworks.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/logging_signposts.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/logging_wrapper.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/main.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Sources/CoreAccessories/Apple/Accessory_Frameworks/AccessoryNowPlaying/
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Sources/CoreAccessories/Apple/Accessory_Frameworks/Common/
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Sources/CoreAccessories/Apple/Platform_Plugins/Platform-System/
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Sources/CoreAccessories/Apple/accessoryd/XPC_Servers/
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Sources/CoreAccessories/Common/Common_C/
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Sources/CoreAccessories/Common/Common_ObjC/
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Sources/CoreAccessories/Feature Services/ACCNowPlayingFeature/
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCMemUsageStat.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCNowPlayingFeature.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCNowPlayingKeys.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCNowPlayingKeys_Internal.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCNowPlayingXPCService.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCSettingsState.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCStatInfoAccumulator.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/ACCXPCFeatureServerEmbedded.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/CommonObjC.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/MediaLibraryHelper.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/NSData+Hash.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/NSDictionary+Utilities.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/NSMutableDictionary+Utilities.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/WeakLinker.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/WorkspaceObserver.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/common_c.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/logging_frameworks.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/logging_signposts.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/logging_wrapper.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCNowPlayingFeature.build/Objects-normal/arm64e/main.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Sources/CoreAccessories/Apple/Accessory_Frameworks/AccessoryNowPlaying/
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Sources/CoreAccessories/Apple/Accessory_Frameworks/Common/
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Sources/CoreAccessories/Apple/Platform_Plugins/Platform-System/
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Sources/CoreAccessories/Apple/accessoryd/XPC_Servers/
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Sources/CoreAccessories/Common/Common_C/
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Sources/CoreAccessories/Common/Common_ObjC/
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Sources/CoreAccessories/Feature Services/ACCNowPlayingFeature/
+Functions:
+~ -[ACCXPCFeatureServerEmbedded initWithServiceName:] : sha256 7b80626c6f456c1e8c8d0fb5ee47c92bf7654757fe5af69742765972bfbcd977 -> d6122ca5961dca5e0de0993d7af1dd53f1ce001a69c5b327b257ac09cfd598e4
+~ -[ACCXPCFeatureServerEmbedded startServer] : sha256 0923feaf0de5dc843fd2987b4dd85f1008d8fac8cf268a585002e1d3c7054dfb -> e739855a816e3d6414ace7f31a29d89c420f3279c72657f5dacc8eda3b83a5a8
+~ -[ACCXPCFeatureServerEmbedded performServerOperationSync:] : sha256 db307fe2b5737e4ce78bc1cf46209fa090029332a3bf8a251811d9d1e78f22f0 -> a3ca23128f0d8d712dcfffff5f1c4fbd622ea9c6386ea7bea12c60762e6321a1
+~ -[ACCXPCFeatureServerEmbedded performServerOperation:] : sha256 94963bd151b60b8b6a173db5a24e7851c18d0aa603ed9c715d87c078126ab16a -> 9f5553fdc8e62793f94b54b579fe4776048640d2506dfb23333a03aca5aa63a7
+~ -[ACCXPCFeatureServerEmbedded listener:shouldAcceptNewConnection:] : sha256 3df3b5b79068825ddadc9628948eefe99601e13333c675b47f3aa0c96d8604e3 -> 383242d1675559be9a2ebb7585d3d2fa58e3628abd3073e5e97360660d8fb81b
+~ ___66-[ACCXPCFeatureServerEmbedded listener:shouldAcceptNewConnection:]_block_invoke : sha256 5f1a967ea7def7c8e73d89a6779e17932b4340321346f1be766679332fc662a6 -> a2e4d1944d4425704bff81dcbd93c2a5728cb1ceea5e6a30aa84b32e68318bdb
+~ -[ACCXPCFeatureServerEmbedded _handleInvalidation:] : sha256 a2ad52192c17a23041322bed03edec9caa01eef71afcf88ff64abeac6acb0be8 -> 1f4c2b2042483ced530d50730e81be85630d39f118907b24178f4b022528e9b7
+~ -[ACCXPCFeatureServerEmbedded exportedInterface] : sha256 fe56025e02e30bdfb18bcbfa6b4cba812b41f7ca4c04de08c9a5043f4af7a071 -> 33af15574d6e56d76955c4e1c0bfd6fad038443debbb7a7bf720c60d34f07852
+~ -[ACCXPCFeatureServerEmbedded remoteObjectInterface] : sha256 e3e636075df466cdd95c96ed023f56957165003e0524529b593f212426975970 -> bf9f0192eb248459dba4c8d67d49b89c72465872bf0a09e2971f677a46d1fbeb
+~ -[ACCXPCFeatureServerEmbedded createExportedObjectForConnection:] : sha256 9943930d16b4d619c21e5abf62ad8c60b7dac22fe8ad7a122328288d179d790d -> a95d3d3018d1381df903eab284d7aae92cc7fd5dbc7bd49504a8c9c1de514fce
+~ +[ACCXPCFeatureServerEmbedded sharedServer] : sha256 33af15574d6e56d76955c4e1c0bfd6fad038443debbb7a7bf720c60d34f07852 -> 8c6f970ba251aaf18ce7d8ef69534c893a3edd2c18d8443a5ab54a2f9307a7e4
+~ +[ACCXPCFeatureServerEmbedded anonymousXPCListenerEndpoint:] : sha256 d663786fe22c216422a34a099f59fd9b2bc63100cbdcc805d77c00be12b8db2e -> b8b3dfb79ca50d9190f9add7cba2c5be61420662b68700280a1d828ef54b3b4f
+~ -[ACCXPCFeatureServerEmbedded setServiceName:] : sha256 58bf200aa4e79dcbb9a8a67235fa4eec81a2aac091cada7e32b60a8bc227ec24 -> b686c708210d45a0d6b6e0d7c43796a123ad5917417a47bfba7e66cdbb327ce9
+~ -[ACCXPCFeatureServerEmbedded setListener:] : sha256 f85e6e11e19fed1641b79dc0accba2c7c21e866e82664ed08c10b0404589af24 -> 6391da4ceb69c22a05616b272e4d0085532ad778330aa672824581d8bed7a4fe
+~ -[ACCXPCFeatureServerEmbedded setServerQueue:] : sha256 88a984744bc8490732f9b1c3e99678517023e9148ebf9969f50f925114249770 -> fcc152bda0cd176db9ea3fcb1a56cd0bd97a3629a39a4050181062702f2a9600
+~ -[ACCXPCFeatureServerEmbedded .cxx_destruct] : sha256 38a85bc6bdf85b7ae1bf1568e7f6029b92af9db06d107e06a697f816077f646a -> c33b9330a13f512403392125d9f6a53cf0b72e0568de7ce74d7789e25d9dc66c
+~ ___logObjectForModule_block_invoke : sha256 4ba342f779d585d571fae6436ac30d137f039f5c28f38d268dffe73118b3db95 -> ad210bd0c585ce814fa97d2e66488e892551ef74bb4ba4632c5eb8afc9649241
+~ _main : sha256 fbe5c54aa9f5dea9618c2d56e17fbbf7ea8f9cc3c7839ef1279b5965b18ea276 -> 3a5aebffc686dc13006656d811027d4957e1a6e58bd223acea6298d83f19c222
+~ -[_ACCNowPlayingPBQUpdateRequest initWithID:startIndex:upToCount:infoMask:allowNonLibrary:] : sha256 fa9741770dbb5e9f606bd7012742bec2ffd3405aee465856daf756f136667c46 -> 6d72c2bf92a399c8977eec6880433bf43e40e454553c9cec8cfc029c0f48510c
+~ _logObjectForModule : sha256 a58e8a36acfa2b6e50f6621e27bbba046f552d4fbc8edfe156526c08adc8ab14 -> 53204c842ff1cb96dd2c13c3f48292bfd93ee5c770c04e8c2ff4d6b9eaaef523
+~ -[_ACCNowPlayingPBQUpdateRequest dealloc] : sha256 5c91e3db4c67b5ae398491e33fcc9cdb5fba3a3cb3327b46c842765f3f1dedec -> 53f88f2a2d574395562f501d9ac3502e1b00e2bc7b3e85418dfcdc5fa06f1080
+~ -[_ACCNowPlayingPBQUpdateRequest description] : sha256 c3d1fbab80037062e5f866d4a895eab369a7a676e7e0f14dc64af671eff37f6a -> a51c9252665932b6b07339d948f4a64da085f0d20c7e1216b05b8832d0d5825b
+~ -[_ACCNowPlayingPBQUpdateRequest requestID] : sha256 0903d4d23934a784f5d81e57543f9087274ed5588ab80e776b284ff8a27ac98d -> 0725c60bc0b4f8ff3df8f16fe0853d36d44ef236e9a140fbf684809129d9e7a5
+~ -[_ACCNowPlayingPBQUpdateRequest .cxx_destruct] : sha256 9368f7a08fa2ef6d3a4f01d7add12164437268ce71e718328c094b08d876b4cb -> a5b1c85cba68e2aafc05107c52199ac123223a5833ab8a66dace16975f48d2f7
+~ -[_ACCNowPlayingPBQUpdateRequestAccessory initWithAccessoryUID:] : sha256 1541a165298760a29c6fb21c4cd7a351be9c568240f1a0aa1c5f5e86f39d2ad4 -> 72dbeb8f8fd5cea07c980a69bbbed9b05bdad7a0791331b1f7172cdd99898d5c
+~ -[_ACCNowPlayingPBQUpdateRequestAccessory dealloc] : sha256 9d7d804cdca7012d46a4e22d14406368a9178741435c130495482e98cabcbb7f -> 479289c66d41445486e11d2422e810da2219d89c332adce5cad3ed42ab33e1cb
+~ -[_ACCNowPlayingPBQUpdateRequestAccessory description] : sha256 232255d438d53fa6125ac73dd232b9763d990e420ab9f8295f2ecbc48c2ca012 -> de9ec8d5b17ca133fbe76edf6614c8afac1c09f60d9d037a544e18326b4e6a18
+~ -[_ACCNowPlayingPBQUpdateRequestAccessory accessoryUID] : sha256 97a528b0349c8cf185346aeca12517673733e706ce855fa62caf661590439320 -> 6944a3b304c3ee3e66aedba5eadf866700d94ee48a9099759bddd48de8d2d3e8
+~ -[_ACCNowPlayingPBQUpdateRequestAccessory queue] : sha256 821411347d59665da50a2a23fc6001f3874841c91e1ab02240e42192e692afff -> cafa5fb76ea711ae7ee22a9a91b3ac4383c57bcba0b49025489e86328300a8df
+~ -[_ACCNowPlayingPBQUpdateRequestAccessory currentRequestID] : sha256 76292400f59f525641eb8f5f4a5438e59ba55a4ad5eac35694ae4a85b1e2fe0a -> 4a6d5e99680042ec2bacb5cf9cca53f59d603a8b88fd817666f8f664fa4b6ffe
+~ -[_ACCNowPlayingPBQUpdateRequestAccessory setCurrentRequestID:] : sha256 ac2fcd56b9ea9f04983eeffbda5a685416a2afe659307df4b193368dde48c786 -> d5c74ad5c31c83f91cdfbebacc12c3e1e712727a932f4fbc22840d3ef47450e8
+~ -[_ACCNowPlayingPBQUpdateRequestAccessory currentRequest] : sha256 03367f65d29f9fe0f2116f98fcc7ec2d94e8b6d941bcfe946291db41aebe5abe -> 5aee7b7e7698697589c96db4b1967be163e616447a158c6ff44758a873c6063f
+~ -[_ACCNowPlayingPBQUpdateRequestAccessory setCurrentRequest:] : sha256 62b05558647931e8bc1754e03ee3b3df447cac7532cf1ca8366a1217d6d4f424 -> 5b0fa3beb2ae3ece0d1b0dd5d5343eadd91d4649fb1d4d5fd51d352cdb6d09fe
+~ -[_ACCNowPlayingPBQUpdateRequestAccessory .cxx_destruct] : sha256 0aa19d7f19f4f1058ddceee32f4c5f49984b9ee2ccfe8ccb86b586d6d4d35255 -> 92b7cb8b62bbb88b4f03fa2c30039c90a03d497dd27e89d0a08dc0ef0751ae51
+~ -[ACCNowPlayingFeature featureName] : sha256 385ed00243469e1320dc3621e24d0f4271b84f0e5f676654294e35d7983972d2 -> 1247bcc9d94d725905b9cf13a4c19a22697d47682ad27d026e7c728da63d5fdb
+~ -[ACCNowPlayingFeature description] : sha256 0661094f9900847e6bc8d7be7f6922f7e53737731a8244f918e8d250b264d656 -> 867be81ae7d2d4c1600ccd9d0d6a36760b9d486eb9bd89c4227f4fe07880725f
+~ -[ACCNowPlayingFeature configureFeature] : sha256 515883510fab674c772830148eaaf85dfd35cfa3958bd47c8dcfbb85364fb00a -> 0aae77f8b1654d77319fafd9ea43e11d745ad9b196b426462cfcddad41d853cf
+~ -[ACCNowPlayingFeature startFeature] : sha256 39367554cb434cbc4b5f456f3b95205d28b05a8a3312585f42a703251ba822bf -> 14750bd6992af66e5bcf9b9925a31371861676be4a9036df2308c4a2a950ea3a
+~ ___36-[ACCNowPlayingFeature startFeature]_block_invoke : sha256 c18f046f58fad6f00d8cc12a00f50d0dd8c9299a6013f8c42e7c8d430daeb045 -> 5d4b4b98df0b208bb4daf27526aba0b87550ab703b84522254ac4dc3077546a9
+~ __36-[ACCNowPlayingFeature startFeature]_block_invoke.133 : sha256 35c98596192a68c7390ae695e2bfc76c446b6e18c1a262b8ac337d1efb7f7508 -> 82db84370f39f908e09d739262e6b7f55876e42ea295307f51a633302ff814b9
+~ -[ACCNowPlayingFeature stopFeature] : sha256 394f86fd6740e5f585a3876af9b0e0712c3f263245035b3cc143720bf3e999d3 -> 1ae8aef08b5805c70fac3dd7dac300287bbadcbda9012eeaf4fda86627c77232
+~ ___35-[ACCNowPlayingFeature stopFeature]_block_invoke_2 : sha256 624c4aa5a32a7e4b95967329854c78020b2e46a03f03e192d98534871d915683 -> a5661fb4546269e5e7f03b2631d7422162de8a248575612b3182be7f4ecfc216
+~ -[ACCNowPlayingFeature _nowPlayingInfoDidChange] : sha256 2136cee595c4e1a7b45b8baaecfc26184ae071dd8810b2ea4a5bbaa2a34765fb -> b0ca34f68af2504d7f086ead105f3981b87c535b275190d9e1a7b2471d809adc
+~ -[ACCNowPlayingFeature _nowPlayingStateDidChange] : sha256 6db64dc2d102064c250e03be7ef0ba3268228723911860e32b1070cec7217a72 -> dbae22a9ef99b42e5b0e238023600a784cfd1ebbac2be0867bf84128739a0e3b
+~ -[ACCNowPlayingFeature _nowPlayingAppDidChange] : sha256 57ba522f0b82e5f9d3d8194d20802106b366e61da01dcc22241b159c293b7416 -> f35fb8100211a1ae66027e3df102ce6576662460ed3031087ec30c2f957539ee
+~ -[ACCNowPlayingFeature _nowPlayingPlaybackQueueDidChange] : sha256 3ccb381d8e2c043ef1772e665f5a3cd23c70c67a5024803556058873586bf073 -> 13f6ae3691e4e04766b81e8d66417c6e2e00bf40653608fe1eb1d789ff12c6bd
+~ -[ACCNowPlayingFeature _nowPlayingArtworkDidChange] : sha256 af914b06bca2bf63fcbeffd0bcfa4219df8fd0e03140262ad9cea61dc7d065a8 -> 06633da4d6327691354a98ace8155de9c93c0d6033ef8a01b9cbd7cd97a4c5f0
+~ -[ACCNowPlayingFeature nowPlayingInfoDidChange:] : sha256 ec0be1f8ed149818e50c8ed29d55ae90872dd8ff3da8159daf38468a341e5126 -> cbcc4c6523b92745f71fd747254b377d76668803f165e03b76f082456ef737c9
+~ ___48-[ACCNowPlayingFeature nowPlayingInfoDidChange:]_block_invoke : sha256 bb48b98d4e819c08ebf92cc4aedb0baa4f6edca38922fd874097b4118e4ce4c2 -> d4501e99364dfed1255686393563fb463f9a5ec012b6e9fb5aa16659bbae9665
+~ ___48-[ACCNowPlayingFeature nowPlayingInfoDidChange:]_block_invoke_2 : sha256 55143661698d6d35b2c28fd62d46f8762ccb340c589d81b769b18ad932bdeedc -> 0d9a622cc5dbdfb6fcd774badde08c128ae8f45017ff601b87e0272fe5a12a33
+~ __48-[ACCNowPlayingFeature nowPlayingInfoDidChange:]_block_invoke.138 : sha256 fb48507d0f60c38bb1e9dd8291a9e1e0bb6f0b2e8c0aa68c388d31f2af8440f4 -> 54810162361ade1dee25cb82ac2f441bf650e96da281dff9e153b2f70a9dcdc9
+~ -[ACCNowPlayingFeature nowPlayingStateDidChange:] : sha256 ef58824f926deed2650ed37ffa03fe6b8c215b172a93f7ffb77ba1eade6baa01 -> ce4e834c7ae516c37f68bfc73cc39db6ce547179a513569ce75650c5ea7a4d7c
+~ ___49-[ACCNowPlayingFeature nowPlayingStateDidChange:]_block_invoke : sha256 86400095f2b01b8cb566ef22eed4728eba8b08bc28fbee7c6b9208f083975034 -> d488c7271343c563dd407dbf843cb89699073d267e10c5e8fd7c57ae9e6e3bc3
+~ ___49-[ACCNowPlayingFeature nowPlayingStateDidChange:]_block_invoke_2 : sha256 5eceb2bd80a6a81ac19c69773d1943a9c909f32c771e7170506c89b66e7703db -> 3687775bf75f8b1be1a538dbaea1fee314f704fc0583bfc5a0e0e1ed2421480f
+~ __49-[ACCNowPlayingFeature nowPlayingStateDidChange:]_block_invoke.141 : sha256 51c401c004645305af24b2393a1c314971d415724f7ce4baece35080572b98c7 -> d36c9600ea248c9f487ea811201fd7385807252f684c7369b93759c8648a8642
+~ -[ACCNowPlayingFeature nowPlayingAppDidChange:] : sha256 7dd5cb9bd622ca8c7e1f74e081123241a1ac96d558e0c6698288b161f5625abc -> 9a896e6f2c644d3f86cba3808b1bf5b8eae4608fb244f4d9ff91490782736357
+~ ___47-[ACCNowPlayingFeature nowPlayingAppDidChange:]_block_invoke : sha256 d7a5868bf7b66c7a9e790a6a3e51771f6098aa0375dfab85da53c3713da3dea4 -> 86db7fcf036456eb514cc8aefb6a80fc274dbc189c5c46cbd012602987e05cd4
+~ ___47-[ACCNowPlayingFeature nowPlayingAppDidChange:]_block_invoke_2 : sha256 140bc91f70686f1c9d10eb60dc40a9c3fc864121fb274b605d3b7a6cc2c96622 -> db4767eee2ba6c6a8e66f72556f1feaf2a8713c32a7dbedf7b166686c40db51d
+~ __47-[ACCNowPlayingFeature nowPlayingAppDidChange:]_block_invoke.147 : sha256 af7144d9309f4e56f69fbf7993fe9f4c85f052ceecef4bf8a975b8fdd3c6a647 -> 02bb798ec5f0b32d423c682ca57a6c5009f41396d741daf5fdfc8d29fa1dca7b
+~ -[ACCNowPlayingFeature nowPlayingPlaybackQueueDidChange:] : sha256 82c5fd02a3d77b1c954fb4da72c9f1d25823b4421eba8dfe7f107bb599738ecd -> 31d8047dbd3d411ac0bc0e575d1fc5533feafceef567b54edfa490446a9dd394
+~ -[ACCNowPlayingFeature nowPlayingArtworkDidChange:] : sha256 f6820ddd07be53cc974937da31bdaec24248c21ee5e8c8d3e841f541337e27b7 -> c12291c9b5f6d06e6cbd81989293ef7a8517d7f6f346ce95db1b88131071a293
+~ ___51-[ACCNowPlayingFeature nowPlayingArtworkDidChange:]_block_invoke : sha256 7acd808b24a7cd6b8a251f71772a1917a2c81cec00bd2773c1382111ca2743af -> f71cec911dc081bc29210b2ed1b74b73f379401a4b15f5479d0c2df21740d2e7
+~ ___51-[ACCNowPlayingFeature nowPlayingArtworkDidChange:]_block_invoke_2 : sha256 27a43b2d98d3c950ffd210fa651559256eae0f0840619a980503e73cdcb00052 -> 4a2f22888c33fcf20e6beda94d1a43899e56ddd371c35e014919374e100fe2c2
+~ __51-[ACCNowPlayingFeature nowPlayingArtworkDidChange:]_block_invoke.150 : sha256 13ebe74a3bf744c4cdf792efbde926909736267a6e46b0716471a5811d00de4c -> be14382fcff726962c2a29620259892cee66fbdc3ab910937919e65b1be74103
+~ -[ACCNowPlayingFeature nowPlayingSupportedCommandsDidChange:] : sha256 386755f792d9af4d3b71da882b8e8e8ffff4083b19267bfdec2ba68c9369e3a5 -> 6d746346f074ee16f782e7f3ff5681b6bafedec7871691ccf901edbf86afb5fd
+~ ___61-[ACCNowPlayingFeature nowPlayingSupportedCommandsDidChange:]_block_invoke : sha256 967a8386460d0889cdde940c46c91e6c46613a48f29e1de16650ee64745f2bfa -> ec4faef0c45dcb350047b35ccabd978e9a09bd6233cb5ca212081bf737236550
+~ ___61-[ACCNowPlayingFeature nowPlayingSupportedCommandsDidChange:]_block_invoke_2 : sha256 c8f29a3642547d7279f0493f933c818b91a4bdb506c4178c66f24954f7683897 -> 1418944961ee4c8c3f5e9e3337801575f49116f6273b172b81b379ed464274de
+~ __61-[ACCNowPlayingFeature nowPlayingSupportedCommandsDidChange:]_block_invoke.153 : sha256 d7bb74369d36ae1f34e403e830a07b1785c4838be733b9a66164b214d19c36a9 -> 52a725a5e4f548a32a5c20736753962a811c6d04a52baf181338b8a830ea76ff
+~ -[ACCNowPlayingFeature currentPlaybackStateMR] : sha256 cf7cba0b403de36bb254750b1fb27bbdece81cd085f9009290a261a8bb296991 -> 0ed04427b5b01afced9e018b10115921406b6255dbd289844a7d0fbf1a00a952
+~ -[ACCNowPlayingFeature currentPlaybackAppBundleID] : sha256 7b1436a6a268c7e4b9c621ba292e57bd35cc7207f41bbee11ce2674334687001 -> 08de680234786ddda1a63414294bd9cde69e213e6da7b14b0202ff33911707a4
+~ -[ACCNowPlayingFeature currentPlaybackAppName] : sha256 e71de011fcd4db9501e72b9103382763fb3866c6dcf09619857c82746d906a9b -> 2577f6866740f536c87d57b075d850fa63e6384728ccc0b3fc8f1476cdce2cba
+~ -[ACCNowPlayingFeature currentMediaItemAttributes] : 2808 -> 2804
+~ _convertTimeToMS : sha256 902a7127e871a4393d1d2bbf12a7b0997e40eae4cd8a810300ef60ae42b37110 -> 99a249d149271ce8d7301efc59874070aee76ed62e069586cf65923a685b02fd
+~ -[ACCNowPlayingFeature currentMediaItemArtwork] : sha256 ca1d89a083320e4abc16220e9bed10ea1167293635ca98a2f6ff05fe29fa82ed -> 17e4a0b0c1254a3ed878f00c4bf4b183fb3ea998cad64b52fd3461239aaa6fa8
+~ -[ACCNowPlayingFeature currentPlaybackAttributes] : 3464 -> 3452
+~ _calculateCurrentElapsedTime : sha256 d14edf67fc24f949d22c435f74aac740b24d9faba6b2bb4486a8ac0292f9c743 -> a74537ba5b119dd3325423c4f207b9824ead8e3eef05b6f68e38e541bce44758
+~ _calculatePlaybackSpeed : sha256 0a767b6e50469dd3d2bc3b2469df3b53f1a202a133004ab70021d49427ff4b98 -> 0648bf3da2e08174f0b8dd5d612dbdbd039a2d893e1189dcee16d5dc280dcb27
+~ _convertPlaybackStatus : sha256 3b4dc32ae7226ee446258b4d2eb057d6bbed6be27e547cccb1480dcbdb4464c7 -> 68b8900b25ed4e5866e217195facbabf51a48056a27e61d122ed82f947ff43de
+~ _convertRepeatMode : sha256 14c809ba5ac789f3e17e71719470aff6cea6bc64de80275f3684bfb2680cfd1f -> d43b4b86a8d4358a2130720ce9e6088bbe5739f7541a5d7e6a6a3ecb42234da5
+~ _convertShuffleMode : sha256 9c6ad5f03c123cf9d3c6051a8e17ed24f2d077ebf1741ef6da90bc5fb5812643 -> a6eb725cc9a9a84e2c6c4a6d658c991f0ef51d9d0440646cc7044d72efa2d0cd
+~ -[ACCNowPlayingFeature subscriberListDidUpdate:] : sha256 a905839a25cb31360586f5d86e5b4b1e90c8f1587eecee750448abc970bc2fc1 -> 783caa4668cc55ff18512f84b51e8b342f18293a089ed4f4d4c2fc6d5b5202e0
+~ -[ACCNowPlayingFeature setPlaybackElapsedTime:] : sha256 2f6904c89fa2a1b4bafda5d8864fead7f6045252c79d9e429db70e45f0db4560 -> ad7b8d87c2406fe5f3f77fe71948f42a55850cc6867864561590bd3decd8a288
+~ -[ACCNowPlayingFeature setPlaybackQueueIndex:] : sha256 71a1f913177f604ea247d34773f610aef80b121814e6f3322bcc75f2d82a0a5d -> 4bd89d642c336f7c1afa1763cf684178a432944998d9d236cbdbee08149e6214
+~ ___46-[ACCNowPlayingFeature setPlaybackQueueIndex:]_block_invoke : sha256 4442b107002206d8cda0925bd8ea677d3474c021a3daabe79e7b61c5b089869e -> a26db01fc56c7a79a447043ae938a847bd41c68ebacdccce22a7620dbd0480b8
+~ -[ACCNowPlayingFeature requestPlaybackQueueListInfo:requestID:startIndex:upToCount:infoMask:] : sha256 08cd6fa30d20f77dffaff331a8afc9e4d5568b0e643bc45df54d53cf8ccb6919 -> 046b2a1b941630b46f2e7a0694f9797015b8e383020d14755ee0d9e5b0063dae
+~ ___93-[ACCNowPlayingFeature requestPlaybackQueueListInfo:requestID:startIndex:upToCount:infoMask:]_block_invoke : sha256 6a5f1dcc0d16f5f631a9225678a74964f5e3067ad9c290571621441a28172ea6 -> 2df03e27d579f0297880fc93ca6c521e69c88eebecc221b67b5b64950c31bb33
+~ __93-[ACCNowPlayingFeature requestPlaybackQueueListInfo:requestID:startIndex:upToCount:infoMask:]_block_invoke.164 : sha256 89d5744f1a14d9c28382789bece2a9c8c39123a1a03f33b044041820a5597a57 -> aad9286ad65991d151cf981f45c6876557de78d074329e80b80696c6707ca0cc
+~ ___93-[ACCNowPlayingFeature requestPlaybackQueueListInfo:requestID:startIndex:upToCount:infoMask:]_block_invoke_2 : sha256 85dd406ad801d860790e0249a48e4db5a3b6a4ad3fc68eeccdbbfb6cbf5942a1 -> 48736ef97a961614cae3998210b8d0f26a43d413b613ab43631b1dde9b0dc4ab
+~ ___Block_byref_object_dispose_ : sha256 b454597da1166092bd85bd62a8ece4f8bd999528dbc55f919d9e3b2a2eefeda0 -> ceb383f9cb3cc7368077ed260b27f82080b2e0ac3677d3d2053b3a1dea3611f2
+~ __93-[ACCNowPlayingFeature requestPlaybackQueueListInfo:requestID:startIndex:upToCount:infoMask:]_block_invoke.165 : sha256 e2f067eb66d476f203a4084a29940d57f6c4e6dd1d66b7076690ec5a6af0a305 -> 1dd430e6b25bdf5217f9e4bb4aa519b21cdbd95cab93202be1fdd72139e1c4dc
+~ __93-[ACCNowPlayingFeature requestPlaybackQueueListInfo:requestID:startIndex:upToCount:infoMask:]_block_invoke.166 : sha256 dfad5a2aa1241024958bb73ae9f4b6bba77a5a0d80f0cb8de7bf9b66b5937b7d -> bb59f67498a3d293cfe5e23405a422cf664de8545486db7743192ad7e428069c
+~ __93-[ACCNowPlayingFeature requestPlaybackQueueListInfo:requestID:startIndex:upToCount:infoMask:]_block_invoke.168 : sha256 7b2afee814d044db0caadb82cc36d507ecf7edf0bc665874d6402361469d8370 -> 45c85456e2ff27c712ae1a8499ff0bbbd5044f9786cf93540d33a5c0ce3cb5e6
+~ -[ACCNowPlayingFeature cancelRequestPlaybackQueueListInfo:requestID:] : sha256 6e224374ebc890e292593e38ad85bdb066244227470e3aaafe178c9712ed5ff0 -> 30ebb1f09700c098affcb7f2a0ed038ab510c12810476c823d17d79dde57ccc3
+~ ___69-[ACCNowPlayingFeature cancelRequestPlaybackQueueListInfo:requestID:]_block_invoke : sha256 b3977cfb754ba6079ccc56cec833a8c83e3a96e6d50262c06c5412d124246108 -> aa25cc64f89ce342258160ad54b61d9676631e86185af707f860b3c0fa7eee0d
+~ -[ACCNowPlayingFeature _generatePlaybackQueueItemsWithPropertyList:request:completionHandler:continueQuery:] : sha256 4dab5a0fcc1f6f7440b2ea0177a48c1ec5465e81cf373fdf5a6801f01fcbeb5e -> a5311e6903b729a305787666f8c7579c262e5d6dcc43fe8a59f0335d468ed03f
+~ -[ACCNowPlayingFeature _nowPlayingAppIsIPodApp] : sha256 af7823394c1aa724da81a23dc01878a247767373ac101e423a1e87373a707c13 -> 0badc2fc898c5f20d9e2f06d088a730001dee96c602347ec46fe2c80cec6c5f4
+~ -[ACCNowPlayingFeature _nowPlayingAppIsIPodRadio] : sha256 ece4c2bbf0002726665f7bae5f69c65da7a0e891b01463db755a340b0703214e -> 14dec156daadb7c6c880685da88334ca4a0f437efd7789997ca3964c2c9ecdc2
+~ -[ACCNowPlayingFeature _nowPlayingIsStreaming] : sha256 460222023cde03bf302054f0151a0c57ee09f20010ef6ba42dace9e42de7dd5f -> c4ff301789b7348343a8a5097ebb7bdeeede664c891cf2d57f3f6f76feaccab9
+~ -[ACCNowPlayingFeature _nowPlayingInfoDebounceTimerKick:] : sha256 160610348a53be80bf0353860b582866d56c5cfe86542a7279cecb8837ebce45 -> ae5fe0dca46b17d9d64928b362789ed283dd5a043d93db0d6fc6f1bbf58ca49c
+~ -[ACCNowPlayingFeature _nowPlayingInfoDebounceTimerStop:] : sha256 56e477877e85a23eaf705979b666c273b8ce9cfb75b4cd115340fcae05ce5e70 -> 06138aa1a1cd60083e9d05ca4488dc16cb09dfac64af13cdda8b53b98cbbbcbf
+~ +[ACCNowPlayingFeature isMusicAppVisible] : sha256 8ddf45316e828748f94f405e937f9defb3aed330630d948d6926ced620e7ebdf -> 41b122028716f5620450a527ea589a2253f508ca0cab96cd1beb4b04657b65ce
+~ +[ACCNowPlayingFeature getItemDictionaryForContentItem:infoMask:] : sha256 e4638e567f6f825bc99055e321d1d7dada80c361329b8043b6b9f1b77b0ff6ac -> 2882c01fd5a3f7dd94694cc002663d8dbe31bb3b93f1de9b8432e5740845924c
+~ -[ACCNowPlayingFeature xpcService] : sha256 26e768f9240631718954f2ab6a00e7e795cb1450debe4cd02d31667acb1af397 -> 032dac0aa973c7a796d3e2bee974edcccaaf38d5064e8729de9f5afa55523b67
+~ -[ACCNowPlayingFeature setXpcService:] : sha256 36c31655de978dce086935e89b2e57daf76510e15e5eff0147e02b706f2a1380 -> d666859308e2eb563f0683d269bde809ece5b878dbbe650c176f7fbea1e6884f
+~ -[ACCNowPlayingFeature queue] : sha256 4b50e8911b2d0f0c9cfb00b4e84c072f35d8d4b5f99544cd5a1a0b9ad1f5d3af -> 5de55f29e6460dc22624ecbf3e786a5e9c06e2898921c625e2b62a35e975630f
+~ -[ACCNowPlayingFeature setQueue:] : sha256 ad50f30159446bff89788ec0d72482b0e932f716e32d06cd5688d1ff2944f3f7 -> 32c410c2ff83b37bcfb387e9446b9cf861de54acbd5034fb13a8fdb82767f416
+~ -[ACCNowPlayingFeature completionQueue] : sha256 ccdc303442cfea26d9b6b9f33941366733d4c6f22a699177a919e385fe2901b3 -> ca25dd0c7924423e61c0be0fcd92d02b0e6291d1c1cc989055e19d7804f3097b
+~ -[ACCNowPlayingFeature setCompletionQueue:] : sha256 711aab011fdeb6b2297b7ce1d7be9e5c301f2eed9aa1a18b6d40d645f1381701 -> 3430879226fa7b826de99189a2d200662587b8507de3c5702ade7ae7e6c178de
+~ -[ACCNowPlayingFeature nowPlayingInfoDebounceTimer] : sha256 21d0f25c17542d8afb60fb9db5ba83de277593ca99d74baa3f11a876d4564db2 -> 600b6c74949669c90c51eecbc89ac43cf809f4aa4e69e03a7ae06ee1833e62aa
+~ -[ACCNowPlayingFeature setNowPlayingInfoDebounceTimer:] : sha256 b93f0fc4dc9bf1f2618f692d1e67f517d89462596f85b447bc5cb94b6b97e6c6 -> 1e1cb37a4f25bbfc600c75b501bce19c23344a22acff4bc1b55f76d570f3dfa5
+~ -[ACCNowPlayingFeature nowPlayingInfoDebounceTimerValue] : sha256 63c2f98e7c3aa40b71a2eb4c4e891b105ba9cd20a500636edb3c9f57bf464042 -> d6204af5f7706b0d008de1e2e5253b880cade329fc308afc81c4c73bba8da825
+~ -[ACCNowPlayingFeature setNowPlayingInfoDebounceTimerValue:] : sha256 124af844c9582d1a21c383685dd3d31b8490116c89b9a960dd5b7ef8a062a34a -> 4981fac98cc9491a42726cca38d0e68074b00f2f7257329c5fce3a1ab32ecb4f
+~ -[ACCNowPlayingFeature mrNowPlayingInfo] : sha256 54305277075729cce6235631e06d6f43ef9e24f413f04121ad181dca6973541f -> 6791404e559c70dd8d37c93974c038e246752dee457974af9436f51f82910e5b
+~ -[ACCNowPlayingFeature setMrNowPlayingInfo:] : sha256 2fca539a4c1335195b4320460f3e3d9b87e6495c4aed428a3506be3762aad690 -> edf86ad593577895d89a04c0d8e22e98302e8f830340ea7cc9c9c5fd2008ccf7
+~ -[ACCNowPlayingFeature mrSupportedCommands] : sha256 d45e0443361924b4b6df6a1173c157364755aac87862b04033ebf128d66b7b14 -> 685e4c7ddf52356f35a6026ac6433f36e8aceb2ddaa1d2bc2f43194addfd8bc4
+~ -[ACCNowPlayingFeature setMrSupportedCommands:] : sha256 664b299fb0638b90116d0195d88b4841c27c2d9bcf7120fbd300951047591c58 -> 1f45981718aa1a6196cd419496a8dd0c4343bc8e9de7dedb70e994a552fd9b5b
+~ -[ACCNowPlayingFeature mrArtworkData] : sha256 e412c951e5d292f6535f49bc1a1b52b5e14df152bc8d1e4e9263ef09fc123190 -> 92425360e2d019a2b6efb73a4ebc13bfc4b9f402206de5fadc1995a1c3702459
+~ -[ACCNowPlayingFeature setMrArtworkData:] : sha256 868eb067a658ebad6b6d373259c1964a49e00390ae22cbe6e77e4db913d1d613 -> abcdc1d2f725597e28042149f33fb63fa67fec07f3619cad15aee09cd093b963
+~ -[ACCNowPlayingFeature mrArtworkDataHash] : sha256 62e7d1ff60771ec9e626794e43a4133ff6b74d682898150951eb3854a2262a95 -> d2010bf013400b1af726a6b3cf4e85be551098504535e34d2823368c19e81675
+~ -[ACCNowPlayingFeature setMrArtworkDataHash:] : sha256 9b90d81df3ec78981276e454f67015bb49abec18bcc296842259421e04e2510b -> 44112aef50b830ce262110639a03fac834a23150644859862652b32833d43d60
+~ -[ACCNowPlayingFeature mrNowPlayingAppBundleID] : sha256 ae311f1acbd8e317982711142a6dfcce9e55727a2e989357d9247629304be63f -> db54714e6198386e16476cb4ed861ff22e3443aef72401d9944b474b187f0c1b
+~ -[ACCNowPlayingFeature setMrNowPlayingAppBundleID:] : sha256 f40dceb37be5d522d462a115166a416c55a079ef2699f7a60185b79c0e37519f -> 089220fe4228ead24b3424b6a4fc11bd4909c67cb0f8dbcca9df42ef37458ef4
+~ -[ACCNowPlayingFeature mrNowPlayingAppName] : sha256 870348f1d03de72cdfd2db35d7a9c26e9b94109b29de964640f4fca0095ecb38 -> 97722a68315e09dc4d1d0bec081971872809747a1e9fff7d3a50f685b407974d
+~ -[ACCNowPlayingFeature setMrNowPlayingAppName:] : sha256 96a4534167c1470d2db9c24c5575bf2f07e12c9b63618765d6462594439f75db -> 4010f262d04253095049f1c7be7bc17f146c31d6f03a52680e2f9b2593a77351
+~ -[ACCNowPlayingFeature cachedMediaItemAttributes] : sha256 a565de83ec94381a4a12cb61dd4279f92ee02bce12dece78b346d61659ff415c -> fc0069b2d3f1bd27f7af74b782cd53088b66312c2f345dd26f26c14e2d45c202
+~ -[ACCNowPlayingFeature setCachedMediaItemAttributes:] : sha256 8e61e10285503f2c52d48cf585d908b7d4f811be937cecdda9334e9a62cdcdb0 -> 546feb58faf9ded118e1eda27176271058b1d319181ebc464295ad5a58143321
+~ -[ACCNowPlayingFeature cachedMediaItemArtworkHash] : sha256 83f4bc1ba9ad80668d13a492efd379db852711f0f459c5f8e0ace48f896dd680 -> 13dec3a8c9f2fb81476342b7c09af796b14d509898b95df5223f3036ef89e071
+~ -[ACCNowPlayingFeature setCachedMediaItemArtworkHash:] : sha256 b8869950b3e2215d2f949035e57aaeafdc7c9f61cc3ce77cf188e7bf981489ed -> 6dbf314f30213c97198b59bd479fd83b400d51b8c1da02c4633eb9257680cee4
+~ -[ACCNowPlayingFeature cachedPlaybackAttributes] : sha256 09992878d4cf65408a8e425afefdb7a216a91c1d7f45dcb4fa6ed920975fcc18 -> 883423a8b19347eda65574de2f543342ad42877b6fbe3a444e1a7b66f0afb416
+~ -[ACCNowPlayingFeature setCachedPlaybackAttributes:] : sha256 fcb7960cbc6d4ec30e73fdd4c160a9e0dce5a8d5b811e5a93a59445b6a4e4d83 -> 5f9a3e360d417e9ca42df474c350dca0d4a6d22bb9a3db6592f9996613cfc503
+~ -[ACCNowPlayingFeature pbqUpdateAccessoryList] : sha256 bc5fd1936955cbbad5eceb518f387dd4b519ab93dd817e41af0f415761a279a7 -> f529a412cb29aa224f9959ded7079e69797b61a07a77e26a169a78c9b2a4f8b3
+~ -[ACCNowPlayingFeature setPbqUpdateAccessoryList:] : sha256 a72d30e762004c1fb4005707d9f836cc9767b9f87a04ea974f8d4b6bb49f4b2d -> abcdece71554a8e58bbfb7a00f937e780c374a10b83ecefe54734fda787e4fc4
+~ -[ACCNowPlayingFeature maxPlaybackQueueInfoCount] : sha256 9dfae2cf7d47142cc587928ba9707d79734bf840c3f81432d9c2cbd6b46ebddb -> 69d4f62f7e1994c29610457e073fa3f0bace20315fd41e9309ba4d76e5814156
+~ -[ACCNowPlayingFeature setMaxPlaybackQueueInfoCount:] : sha256 533011f7cdda19bdce9e6477332477783d9be4acab9f447c14120e657bd89621 -> 7105381dd2a818e4603d2210a45146fff4e951087814e6e7a94f7921b2687aeb
+~ -[ACCNowPlayingFeature playbackQueueInfoTimeoutMs] : sha256 dee88cf3f1300242879896da06ef46c1781a2d43a9faddbaca654165febaa988 -> 31b883a4fe43bd7dcb687f167331e697951fc23f427115d45011f1db3f368779
+~ -[ACCNowPlayingFeature setPlaybackQueueInfoTimeoutMs:] : sha256 a145f75c2e05f7cb24479ad2e7539c1d38cdd397f4cffaceb8f893088aeae526 -> 402b2e11675f22ada38ba594dae90c92526ca368af2bb8e7c7d673c07eb29b3e
+~ -[ACCNowPlayingFeature playbackQueueInfoSendPartialOnTimeout] : sha256 5810064fe7e7780e5b11b4126cb2fe2519a0f2d0820fe672ce346c6aa5baf98c -> 675f5c4a20fe8f153e29c840828fdb0a81c269f510bfc68d0889cccd81249eb1
+~ -[ACCNowPlayingFeature setPlaybackQueueInfoSendPartialOnTimeout:] : sha256 1068acd08ebcaeaaf2508dc9a4f1371df76b4c160fa0673b56cae572f0850cb3 -> 0b7aa9bb098c09e083b4766929e1fc397d181f4ca58ac0fe5d1be4512f1a1abb
+~ -[ACCNowPlayingFeature measureMemoryUsage] : sha256 5a2b124a5bd25a3615c02bb0a614044af357cd833fadf47b216d32e44304138c -> 558889c4429d0991dd950642d5611fd190a9bd0c0a35e6383af373886c0578b2
+~ -[ACCNowPlayingFeature setMeasureMemoryUsage:] : sha256 03c08e262f46a133194a0c0f39cdc337df1fcc57bf58b484d387f80c26355ddf -> 0d90767fc40575e2b6210660c0c3790344475277e93236afe2abc3568122bca6
+~ -[ACCNowPlayingFeature memUse] : sha256 3e0a7b7f25646e53fa67d532668d5b1825090ba2ba5e5b482869a53289b8a843 -> de7d74b6aab73eb63bb4ff6c25085159490be24f38cc282120113af206305ac2
+~ -[ACCNowPlayingFeature setMemUse:] : sha256 e441dc6632d91f6de04260309fa854e5d8732456d8e992a522e55f8f9a23d91d -> e0a6d69c8c32427aac37b9e2f2ad5faa21f1b9b5cb0e2331517172b5fbb0b07c
+~ -[ACCNowPlayingFeature nowPlayingInfoPBQueueListQ] : sha256 e14cc08450f0e2d2f4ac63a08fe72435cc83555eadbe7187ea99b790dfe96224 -> e6172f70fb687698c46b6a9af1b887f042ab0e861ed6a94d13e74588414c17aa
+~ -[ACCNowPlayingFeature setNowPlayingInfoPBQueueListQ:] : sha256 e6cef3e469513b3b280319d99c6e6c1820b80c4a9def661f20d51249ec774d16 -> 6682d7b6a2679ccadc373e5dcec610c877447d1ba3fd8a7aa059c640680bfdcf
+~ -[ACCNowPlayingFeature mpMusicPlayerControllerHandler] : sha256 9890d3f4c697dcddee309c628eb2f0c511dc854e177df1b0873f040694a45829 -> d6e6647e46db51868cb5062a57fa11f2a698164126a6faa7ce3080b564f5ccd1
+~ -[ACCNowPlayingFeature setMpMusicPlayerControllerHandler:] : sha256 2c43a2b20bea75aa22f27d239f44d4321b007ac54c49aa8b7097022752c53122 -> 6371eff86f488b7e9eadd9ddff102e89af4fc75a889c821f80ddbb5cc446b341
+~ -[ACCNowPlayingFeature mockListenerEndpoint] : sha256 8d62c7b82b3e6cb5c1e514e2ad3806fe2ab331d7777100d1c6decc235f3719bb -> 2fa247e83b94aca6f8da69d41f5074048fcce816ca5254c800889e194d0a7af2
+~ -[ACCNowPlayingFeature setMockListenerEndpoint:] : sha256 b3942261b38685ad76c6006b8181a1c8b4e81a24c418f93e27db41332b621250 -> 720bd384dcd0a9d25c9612de2687fd56191f0f4a6acc7091f451f7449e617dac
+~ -[ACCNowPlayingFeature .cxx_destruct] : sha256 98fe123d21660359fba6f64d91cd146a770ac4596d11b1f07768fa8e29a98418 -> f62ca907aebed33c120484c0f37fdbe0dbb29d5e65a976ca68699d31f09fb7f5
+~ ___logObjectForModule_block_invoke : sha256 594950a6ebaeac627aa211ec53212642e0823cbb269d742b46ca013ed800654c -> 943a1400fad42d092bb91afccd5d6bf906a72b37676584ac7c567be6571e82a8
+~ ___GetMediaLibraryHelper_block_invoke : sha256 7c87b8cd96052941f116fb1c43720dc0769f853fe9c0a62aeabe106869cba79c -> 06e6f536bd5de8521ca022b944542ce8347de44cc968281fbbd1978310eae449
+~ _OUTLINED_FUNCTION_0 : sha256 3a51443d3ab51afb19b7109e46ee00560cead6c3b1f38a32ffd59ab85cadca8d -> ce00e62ea709ed00cd3a664fff1a00d7febc70c6f685d37b9b00e7db9812ca30
+~ _OUTLINED_FUNCTION_3 : sha256 3626799bd7f5a08d1278316c0aaf07b1cb5b9fab39008d0003c162cf8ce27f08 -> 962e0016f9546291a1762471d7a49313c3cc2ce9da3798cf9f1974f05740940c
+~ -[ACCNowPlayingXPCService initInternal] : sha256 8a8f1606089fbd0411a6e98b84a3f766e3df2731a85d036e230cbde7f390211c -> 59d4ff0219313fb2118d1d50c89fec481db7bb80056227e021f21aa652280570
+~ ___39-[ACCNowPlayingXPCService initInternal]_block_invoke : sha256 f734cf3ac058a84db47adf986af6806ab5b67175852aa3ac7f370d341d51c06d -> b2c2203f6cdcec84d7a3139302d648dcf1b9f9b0cbd34c529eb69490b97d5708
+~ ___39-[ACCNowPlayingXPCService initInternal]_block_invoke_2 : sha256 826cbea88566737232ccef63486599fa07568199f6c7bca4e86bb9e10316047e -> de87f21adfa370099dcd26e0bf4be126aac060ce9f1dd85dffe0013dc67d0758
+~ -[ACCNowPlayingXPCService exportedInterface] : sha256 13c059831c784bf6f43af7af062d93338eabf720f758d079e0a7db38e3fe1bf4 -> 0af8f43e629448ed811fb634177c0c01525e2688151b602327d49c6ad0a4cad8
+~ -[ACCNowPlayingXPCService remoteObjectInterface] : sha256 087083df08dd9d5b8a52cceb57bd31dfde05fd4d1c71724be83572f04f30107d -> 883395c0ff7abcdcdcec5db7af3e5d3eeffc9f313ae165c333c37e0365cd9747
+~ -[ACCNowPlayingXPCService createExportedObjectForConnection:] : sha256 6d2d540ba8b3937b6cd973e59b69ff0fa96b1f1f94cb6efe1b2876f2f85b610b -> b0d0ef2a41ff03775a3dac03326062992b8cd47f9ea7c7494ef60ef626853074
+~ ___61-[ACCNowPlayingXPCService createExportedObjectForConnection:]_block_invoke : sha256 7b29f3be518976e4753a0f26b8f77198cf62985ee4c47e27d5cb9cf0ebb6d5e0 -> 1287a2e18efb4c2fa94bfc9586f35f817f6f2a66fe964ac608bac469c40f4add
+~ +[ACCNowPlayingXPCService sharedServer] : sha256 751dba0794ad56baa1c9e232a9cf08966922ba4bf29ae2b97ba35465ad4b513d -> 8599ff888dbb3aed697950923ef5495ef1d271ff5645ddfd06855de3351b63ab
+~ ___39+[ACCNowPlayingXPCService sharedServer]_block_invoke : sha256 a340aa6a72c94a6d1e04ad4b2d8da12c397d4f1f29bd87f639aadaeb2cb88e8a -> e02ffedd02fdaa3410f5c05843c4848280bb625ab32437838eb9a3354a2124d7
+~ -[ACCNowPlayingXPCService connectionWillResume:] : sha256 33ff3a703162373cf0c2a2667e69882733e155ee7cc8ae5adb2adc667925e48f -> 1a061423b8b318f9c1e4d779fa9c042a1834b37172137a938f07b930f190bd77
+~ ___48-[ACCNowPlayingXPCService connectionWillResume:]_block_invoke : sha256 be9c94b9d88f0a2711db88c440f14a7fc74f446877ac5180d2a22d20d6ba86b9 -> 42a3f31e744a7c9f53f670cd320db2c370c9c8ffbcdedcccfb0f200c8cbb71aa
+~ -[ACCNowPlayingXPCService handleConnectionInvalidation:] : sha256 3169fc5125047fa477724e20407b78cc8c1d353021c12b99a67ff55df529b527 -> c3e47523edae9bc812185701eb453cd2547552d1f87157c885148486a072fbdf
+~ ___56-[ACCNowPlayingXPCService handleConnectionInvalidation:]_block_invoke : sha256 2cde8a1eda858a811e4d874192a7c8aadc7dbe08490dc5a420876d11a4e6ee52 -> ea7fbf00ba9bedcf76b648fef5a2593add9bae47e7ddcd2354e66d1ef5c6ae10
+~ -[ACCNowPlayingXPCService shouldSendArtwork] : sha256 0e592c5d313419adf00d95432c61d57a204bf0957ead3298d95d84d360b4a70c -> 918fe92d9393fd97f00c2dc879f224c2bee57d3c9fd79c5bea7519cb8dce7527
+~ ___44-[ACCNowPlayingXPCService shouldSendArtwork]_block_invoke : sha256 bfe92257c429d377539df7947c0af88ef56e7ecf03d65c2d605398e5de6a6209 -> 485da94ed0f1fdb6c8bff0634e62a1910559d8e79b150492c3c0fff58fe1192c
+~ -[ACCNowPlayingXPCService shouldSendPlaybackQueueList] : sha256 adb51cbd5be26180ee429b393c8f37217a8ef48afb25822aec49a725070a2c60 -> c4b1e03fd538862f46a7857f923d20fde6f51c13cc2d55955119ba2d2c8b86d2
+~ ___54-[ACCNowPlayingXPCService shouldSendPlaybackQueueList]_block_invoke : sha256 675df63060ac5ebe0931226a9a89e6a1836d5c8e7d5c1711ac660ed5e18207ba -> 969bb6e42aeac9936b8c1ace6b9f2f37c59a359c16ddac994680250d5642b7bf
+~ -[ACCNowPlayingXPCService broadcastToClients:] : sha256 7994256fc09260b511cd54a4f44efb0864ba2b9b7d4ed3ab0a992634aebbb320 -> 96d51218acd94486f7f720d346ec1445bff77b99ea5f29ff0f815439d0767ba9
+~ ___46-[ACCNowPlayingXPCService broadcastToClients:]_block_invoke : 300 -> 296
+~ ___46-[ACCNowPlayingXPCService broadcastToClients:]_block_invoke_2 : sha256 7688918d21e90453219fcdb80969b658bc65b70376d5002bf796b70244f9e092 -> aa8738e9ff42c2c57296ff69e7f34b070a597e2b7a1e9abf219e6771eec7ce01
+~ -[ACCNowPlayingXPCService updateSubscriberList:withReply:] : sha256 cc9ffee3a84802714ad3515ea9ebb7689a80a7567c18833662a4568d9bc4fe9f -> 6fd94b858d813eafc9f5da20da243f2f896009d222834b12a4d71acc16b80bc7
+~ ___58-[ACCNowPlayingXPCService updateSubscriberList:withReply:]_block_invoke : sha256 977d6d0c7b83ca9235e360c62cb963c753e4a4379fc79694bd3994daebf53a93 -> b9c03deb16711eb97ec647207d658a0b70ef9413e62f454deb649046bd164ced
+~ -[ACCNowPlayingXPCService setPlaybackElapsedTime:withReply:] : sha256 3af4ded73087dfd46568d25edf9da0d4910fe74726d6e15cb5cda59d3da390da -> 8eff0c39171d3eb56222cfef8fc2764fe8ae1d278182dfedc558e8b4508d1f9d
+~ -[ACCNowPlayingXPCService setPlaybackQueueIndex:withReply:] : sha256 3927d98e98c2e432fe77189b2acd75780507ce4f9cac36b0cf003fcb99b4462c -> 776f986aeacd04add4ea8e11736aaf81a7ee0cb854070a52ff6178f2ee94dec9
+~ -[ACCNowPlayingXPCService requestPlaybackQueueListInfo:requestID:startIndex:upToCount:infoMask:] : sha256 9538a989c80464f914110f8901884a7f08fec975b96090dcfb556ba4772094a0 -> 931f466844c979e707ebb7c79622c7ce7744f88796bd30340b74be12e4497a37
+~ -[ACCNowPlayingXPCService cancelRequestPlaybackQueueListInfo:requestID:] : sha256 e211aa49feddd9201ecbfaf94e5a3d5df72eb046d4f626d9ad282ae37b5148d0 -> 4bfaaef64bd3145133428410d733defe0994c0c9812614f3317a0198e55bcaec
+~ -[ACCNowPlayingXPCService clientWillDisconnect] : sha256 28851b14775d37e7b7da917ff81ba9ee83b80415c09a4613f75c6834e3d34449 -> f336f20349a1f262e705f25ba7da6d388ad2352d0e4d68cdbe6fec4b7269ac83
+~ ___47-[ACCNowPlayingXPCService clientWillDisconnect]_block_invoke : sha256 60ee0de5435c496f91f167dc209ff0fcdb177ed844ecdb300e02c1e0bd72ef5c -> e3f4704bd5f40a61c0544491e2ef13250c8d112a59db379dcf278838653b783f
+~ -[ACCNowPlayingXPCService requestCurrentMediaItemAttributesWithReply:] : sha256 a0c658e5457388fa01c64e921e85062e8355233f6833f346fcd9c8362572ba58 -> 2cba59176a28cd73c669ce6eab0be25f65768a311c68f29f8ae1ea7b72a61c5a
+~ -[ACCNowPlayingXPCService requestCurrentMediaItemArtworkWithReply:] : sha256 0958da75e1363bd884a3fb080bc7487e69512b39292c229df0c0c42cf11a0852 -> 1da20bfb1abb2706963c703fe7da6c50e8f5ea9007a25719ac78399b6e59731a
+~ -[ACCNowPlayingXPCService requestCurrentPlaybackAttributesWithReply:] : sha256 219ef6ed581966217ce11d927a5389741521f2ae647b618f68c72e95ba83f6c0 -> 4eb24c3ea4e040b67c703fe05fac12b0d3d40d5ef4f018c2ef8ca9f7cc3df6c7
+~ -[ACCNowPlayingXPCService sendMediaItemAttributesUpdate:] : sha256 bdc71295baa60e327d7333dec4c3bc80bf2c459ea1b1435870e3d02beb4a1c84 -> d54b5990e4cc0d1ae7bd43c9efaf5037d92ae3cea1e89f3d889c625dde610275
+~ ___57-[ACCNowPlayingXPCService sendMediaItemAttributesUpdate:]_block_invoke : sha256 f5a434c66400f3ca63976feb06630da4356760cb5fa6a0d37e480b0133c2cb5c -> fbc89eb26b67f103d73ad8dd8c65e36567c26aa0c10a219553d17a95d6d98d89
+~ ___57-[ACCNowPlayingXPCService sendMediaItemAttributesUpdate:]_block_invoke_2 : sha256 994472115f7c58937f962f355074fc232e956a714fc87eaa4855b4a0e32477e8 -> ba4a248a5659865cef6137f7df7cae01fb896ba9c1c34d65875ba1e248486d7e
+~ -[ACCNowPlayingXPCService sendMediaItemArtworkUpdate:] : sha256 d6b17467d6716ac19950bcacd8ecb5d2427349a5545830b51f1cd7aa7b52aee8 -> bc4d7227c11cedea0b9e9b9acd78a4f74360de73fa2083508a9bd433fb4acca7
+~ ___54-[ACCNowPlayingXPCService sendMediaItemArtworkUpdate:]_block_invoke : sha256 d775a207a7a0cf69d7df82bd7e05aab4349f8a586cedc86d72b7ed91b5634981 -> f16495949bd75c9f43a112d7662ce3c2b55e4cccee123acdf1b9aa25c228fe3d
+~ ___54-[ACCNowPlayingXPCService sendMediaItemArtworkUpdate:]_block_invoke_2 : sha256 4a54375f8665a8e7c7b0371355cdc8aad914c5959f752a9257529140350da2ac -> 4f8b7f6408b2cb7f7a9e4311d62ec21e864933c187236dcd7f958db2449484d3
+~ -[ACCNowPlayingXPCService sendPlaybackAttributesUpdate:] : sha256 112c98cc81339571c5c4468fbb402b318f02c73f6e3fb6b06e1216d2f76094d4 -> 28eae25cc1fa5e0a44a3abb0d3687fc3913e1d83a3509bb9562eddb3a776d8b7
+~ ___56-[ACCNowPlayingXPCService sendPlaybackAttributesUpdate:]_block_invoke : sha256 b812dcccafcaa5d3ef16d33a23da5a27ab4efb6921fa5415b6198a62b3a250a1 -> 7af711cebdf56d5e1245520ab2b2236b53a0135490aaa0d0a507d1ada2ee2d1e
+~ ___56-[ACCNowPlayingXPCService sendPlaybackAttributesUpdate:]_block_invoke_2 : sha256 cacc14e5df85bb000c04f4f0db9689e22d82e3c387dae243a53f650d0598a288 -> 916fa931b8cab69d134aa26dff65087c1fbd9a014f06ef1b0a9872a38b17055c
+~ -[ACCNowPlayingXPCService sendPlaybackQueueListChanged] : sha256 1f453d5ce735d94f573f3c18efdbdf20a806f8368b2e1afa59c9042f60c33377 -> 35fb0cd5d5207074841199466615cc566ee25d11ccae1937e3f625150ab483b3
+~ ___55-[ACCNowPlayingXPCService sendPlaybackQueueListChanged]_block_invoke : sha256 07cd07be5d6fa4ae9b1df6fc2e5478918810f05ee6e435166420d3ce6b4f0eb0 -> 31ac58a977116935e648dfd3c58d15be3f13cb043e60a66fc95aafba1e6b6fe0
+~ -[ACCNowPlayingXPCService sendPlaybackQueueListInfoResponse:requestID:info:] : sha256 45a77324cf16b22bcf858cb415895e03ef044541d42bc4b14e590d8fb1ec2a9f -> 8a5e16243eb813b5020ac7d3d7e71ad70c66d14665660d197ad0a84cfe75246f
+~ ___76-[ACCNowPlayingXPCService sendPlaybackQueueListInfoResponse:requestID:info:]_block_invoke : sha256 91651e6cb19bca21ca9e60ca9cd29fbb733ec122ad7c2220c99672921cafcdae -> ed1f64099e827f9a21ec0cda6ccad2e4b450e267ba6e307290ef3ef3f77e0163
+~ -[ACCNowPlayingXPCService delegate] : sha256 32c97d360791c476c4479d158790f41ffd513eef912798c5adb8f68a36f29f40 -> ccb41f7a1857ad7c4814045c45f7d6ad435402332563c7d33b29f3709770a0f3
+~ -[ACCNowPlayingXPCService setDelegate:] : sha256 53e14aec4b17d36342105072ee8f6c67046ff9a37b897c3280a700dbf1997768 -> bf6227f3a40fb86cdfe1898d37288c997a22696272fc57e53a462f7a26c15125
+~ -[ACCNowPlayingXPCService clientConnections] : sha256 8001cfc5c3f30568646d39a6ef424e909b06277641e523dfcc456037686ec37e -> 4887cf77f3cb1bd7b353a030d917b7b9665af15c4051d268907184be0bd1da4f
+~ -[ACCNowPlayingXPCService setClientConnections:] : sha256 bbc5de417d9eebb2b3e461d493b15c9402770629942b8e57ee79aaf17bbdeee6 -> fee437583e7d7a88a6bb17b211e8476beb5121fb1b503230307985c1f17990ff
+~ -[ACCNowPlayingXPCService subscriberList] : sha256 f1e08789e2c3bf3d83235f6dbae2c20807f9102dd2bdb8c00f331b321603c381 -> 47cad8f8401d7b87158646ee1ee7e60c57bb81c6f984f77849377f0b5eae0fe8
+~ -[ACCNowPlayingXPCService setSubscriberList:] : sha256 8ee4031f5ad9f1f8a3d0bf2096ebf9119433b7685ebeb7fd85a4845e3c4d0cc6 -> 44de4e6ca96e473fc2eb135319b9405146c4d8fceba517570cbfd0a2e36b94db
+~ -[ACCNowPlayingXPCService cleanDisconnections] : sha256 50ef175c20ecdabd7a50730496e51e1cf23cd316dff242c8720697441ee67224 -> cdaa512144637d777145a3c5645482e41657f0ba2a45a3d7813dc94959e7115f
+~ -[ACCNowPlayingXPCService setCleanDisconnections:] : sha256 928f5e2631a2c312098a38dea39bea3079cfdd57ff87f1a4d958aa7c7c8ca606 -> c05edbf0711b0d148e94efd7525c70bb5889631540d3a6c098f29c446c0a8fe1
+~ -[ACCNowPlayingXPCService serviceTransaction] : sha256 5c4f16c3d3cabec7ecfeb7bf6da06c0981be48820341fd8ec1508a40758a7b35 -> 0d0f3937910e9bd89df269cbb446b4ff82049e2cbebd4c723a3b875109f64ad8
+~ -[ACCNowPlayingXPCService setServiceTransaction:] : sha256 d88798fbfee983890026d4bac7aea0a649371d67d53402186d9961993d815956 -> ea3eca53978d140f184d82c0213686bc6cdead80587a7804a96e4b6b455510d9
+~ -[ACCNowPlayingXPCService gracePeriodTimer] : sha256 0e031d04e79cf20821c48fb80c06671f714adef7cbc8ee4c37f10be6e3559fcb -> caf1f5fe4b555511acfa54363e0ccddc6f81b44a25e5402ec711874fc4ea0a33
+~ -[ACCNowPlayingXPCService setGracePeriodTimer:] : sha256 abb80b780f7535ac47fcc70f459d0eafb17fa70bd2c91c58e497d83f94036e5e -> 9833111e2631a572e7dc15816f5045fc0b2302704e9a10107d3748e689314d97
+~ -[ACCNowPlayingXPCService gracePeriodQueue] : sha256 90338ab41eb7073533ea3696f208d09f98cf7834070b698d3ba0d8b2f6cbbb86 -> 4e72236b0682787d5360ab94ad51cffb24d4a840f1f442df9e8841f9e9b040fb
+~ -[ACCNowPlayingXPCService setGracePeriodQueue:] : sha256 fa1124e835841a9f33075d1cfeb17aee3df1a91be77c7a5768b180f12525dca1 -> 6f317aab0a1cf3dab4f39d2c49b50cd8df4ce13a911e0db65e011dcec8242241
+~ -[ACCNowPlayingXPCService .cxx_destruct] : sha256 6064e286a52408f37e97b274f675b99fc879ee47ba288fe8a2915869b29b88a0 -> fa050b3d9ba745b6827749e39a501f65081e04738fc0775268fe845bb71fd25e
+~ ___logObjectForModule_block_invoke : sha256 5de51b9bf9ebe14b9eb4bb2e8caf7d5f1241e8b9b7605935b4c5142a4dba7b38 -> 0b6ec5746ca8a9ee8e4f64bbe7edc177de545206b39b6f9378360381d7a7895d
+~ _OUTLINED_FUNCTION_0 : sha256 1211f5ba51d8fdb5c535828f3b1f0646e9b0d429220a913c0a4b3003e89b7c82 -> 72e9fc1e64fbd4e1015b87cd8b63f167f2b35ba81975ae003fc72cfa5fc809bf
+~ _OUTLINED_FUNCTION_3 : sha256 cf3c75885f15ca90f6c62a0b0575314654ba2097a747d531bd80f02c7c60b810 -> 8e7c0e054eb00f38cf8d27dc1940b45e8ef2627002bde3ec20e6d63353e05c6c
+~ +[NSDictionary(Utilities) dictionaryOfChangesBetween:and:] : 432 -> 428
+~ -[NSMutableDictionary(Utilities) setObject:forKey:objectIfNil:] : sha256 c429ead051f2654a5aea171bb32df37686756c2a9b46777ec35a37d437bcafac -> aae0bfcc9da9fa496de859af942bf82dd79e821ee670c478d5af38800d5cacdc
+~ -[NSMutableDictionary(Utilities) copyToKey:fromKey:inDictionary:objectIfNil:] : sha256 00082f63286728ec399cc96dcb86e397a5f9e5b58c37d02def654d54bd4e5415 -> 0dcc46d16e10657ae573c34167249a88f1ed61c0e3043496d2dbc423e390a8f5
+~ +[NSMutableDictionary(Utilities) dictionaryOfChangesBetween:and:] : sha256 91529f52161d660b2a12de1120b134fb59234435f2fe15c868b434fdbbac53ec -> 235caf479b80d4c537423a045f1115fa5d318c2b8e490a22a00265cc6e8b3801
+~ -[NSData(Hash) SHA1] : sha256 84b253bedfbbe17977722f3e17a96473f8373e9639a7dbbd30a85aa3f08f5a1b -> 44ac2a67924f501efb750a2aa2802a388d9290768bd8d91946fc762dd884379c
+~ -[NSData(Hash) SHA256_16] : sha256 f6a903fdedf6a89f1dbee67e23d7fcdef1c4dfd6ee2afcefbfaec8119c545943 -> 846e76c5d1b7d299d50926f8befccf370191e6f537855c7e55b42f8ac56b4398
+~ -[NSData(Hash) SHA256] : sha256 cf410e37f9ee71aa43408b8b44c2774b9fb8759027904f7029b04c7b5e21046b -> e414b52a92b77402d8a12700223fe8e3bcacd62e30aa5cfa77c0650134a2f8ae
+~ _init_logging : sha256 6bb451b22be16ce3f19d116fa6b5b05c05e033f183562a345a38b88f9775d7bb -> fa5c32ed937d96bcc0ea7385199465d3a622b54a215b647516a02e64cb2ee3bc
+~ -[ACCSettingsState initWithKey:applicationID:notification:defaultValue:invalidValue:] : sha256 a4fcbe5e74ac94293c2634f6133a0836d2cf2846b5db758435a5cc474dcd1f28 -> 6d5a8f10ff074f40b2097b529bd9dd92d4fe46b8bf885dc9438e3eec61b5289f
+~ -[ACCSettingsState dealloc] : sha256 106fb1d3fb694986e26cc6376bbf6b2b1c3ff9755e709b83149c0e62e7639d02 -> e308e8a945bd41eb591299b072d2a93e3a6ce5237705cb71060e204eaf349cc4
+~ -[ACCSettingsState description] : sha256 5d734342e2dc72efeee3be54f438b29165d6475d239c367e5c0111be0dfca9bb -> 07de01f8701258f7550d8dc0329c1043279fcdb2de074a01f72e22469a716579
+~ -[ACCSettingsState update] : sha256 c3fd087eef1adf05397eec4f44616997b2f1c8f14ba658498a6734074038725f -> 6b56c21e8229c1a5001114bb0a3bf40f167359799bad5db24b7f36b10b4640d4
+~ -[ACCSettingsState _readLoggingPrefs] : sha256 2fa2104b0d5c9d435e342af2fe1c60113ada1088bc630b29745fbecc5f94f24b -> 1c9c4d3033384746feac6775f9073edf06df4cbb19cfbfc1604bd415500cbb18
+~ -[ACCSettingsState _registerForLoggingPrefsNotification] : sha256 3ce8b6ddd7ade698e554ecb55a6351310c28af3e41213d901e52efa56f40476d -> 9d11bd8188bd4badb74b755ef3d832fbae78f08bea82f674dc619c2ab6745fd7
+~ ___receivedNotification : sha256 e0add096a67f2af242b9c5b93286f3139c4f56c21a63436c7ee56212f133ca7c -> 29bd44e14b49682bc23629a9aa3d8e0bac1fd5064da9701e62f3b2a38947cebd
+~ -[ACCSettingsState .cxx_destruct] : sha256 7ada1160ff88c2260d6027dd5d96563631e90124e9984fe91f3613acabd7bb71 -> a2890027c9a6cb197d3fe2d83a760bb9bef7cd37fd0634f2b333c2826bcf1e32
+~ -[ACCMemUsageStatInfo init] : sha256 996ba30d44ad58a38707de0cf45e8b9eec995aef946604454b07f6663aa59d2b -> bf5885d49c62e82aea7ea3188b6a8f97d42eb3223b0a2308faffd698172e26f1
+~ -[ACCMemUsageStatInfo initWithName:] : sha256 d66b67daccfcfe17fcc23eee1f6f46de71593e67287dd53d1e58df8cd9d93977 -> 7769ab6b1825885648b9ec7625794c63841d576935a9ef38eb1fa4fe24d4eb6a
+~ -[ACCMemUsageStatInfo initWithName:andInfo:] : sha256 432b28147f4f27b9fbdbde929237988a9bcbfbfb0ff11c16c1cbcb1004d2945d -> 3ffb2b05bb0b70de4546fcd34318b93c123eddc6634dc5818eaf8490c281b212
+~ -[ACCMemUsageStatInfo description] : sha256 cdb14b5dc022fb0f62b7c9d69e1233378dd46d081db54913669973f91059d87e -> 6872f8bbf5c030fafdb529e1e88e731f3ff04a149358048304367b825b9f977c
+~ -[ACCMemUsageStatInfo setInfo:] : sha256 0eb854fd66710adcdec705465170af41b6d8bdd1942e8cc115c8a51b3666dd56 -> 0e78c34250ffc737c376627001b7f6ac61a677631badfd342921b02e2347ce10
+~ -[ACCMemUsageStatInfo updateResident:virtualValue:physFootprintValue:] : sha256 77cbb07467cc257a04150e4cd0705b02f1bbf5c27fc5dc271f407d3d9c07de9f -> b77d618e354d8ee1c2adfaecbc057047dc40913fcb940349b88798d951a17090
+~ -[ACCMemUsageStatInfo timeIntervalSinceStart] : sha256 d42604881afd7a12d8f2581e5c5b2e607fb61d33d2c9925d98fd0f862c888062 -> 8ec3cb751408c9ed092bfb333dcf07434f8e1c9c7c94b1abbad108e9add3dcd4
+~ -[ACCMemUsageStatInfo timeIntervalSinceLastUpdate] : sha256 c067f84a28cf214a88255df974bf7fd491b543106b3ff84d1d7064f7f4b6418e -> 5298db266a067201db4ae3e26a1472dfc813165b433742a7a62bb89273a8d661
+~ -[ACCMemUsageStatInfo .cxx_destruct] : sha256 dbbbdb060da2cb3cca0e629a770f1b1237e495e0f51b0f66ff347e60a1072218 -> ff24ed66fb967d90d1066491ef58fc5101d9dcb4fd8dc3971edf6c5dd7a7bb32
+~ -[ACCMemUsageStat init] : sha256 5a75cb8a2b7b4bef376699b05b2a4701df6ebc195f723d489f963b12352728f0 -> 30967281b01beefd0352e7331a3b09934a5df8a0a5b7ec5673960fa2403e024d
+~ -[ACCMemUsageStat initWithName:] : sha256 3d3166c2ab4189c9d519ddc806972ea4aacf98e098f09f99ae9ef5700649cc7d -> 874e3637ac658bd8f22d5037e172047f5d030272dada38376c99036a97bad8d6
+~ -[ACCMemUsageStat description] : sha256 87fb2f0227d99bafaa8d77a748adc8af63c6bf23d01124fd2271ad3e171e7713 -> 75efc5c905ed8cea4545703e56fa108cd41b5317b5342ed26adbe698e5ef9b67
+~ -[ACCMemUsageStat update] : 308 -> 304
+~ -[ACCMemUsageStat mark:] : sha256 661222acdbb56c02e6b071b397ed8862bb8b5f115fe4c0c7834eb97670d5cb20 -> ba5b982cae2a74dbccf8603fac99e8274dd96c974dba19c1347558e8025dfbed
+~ -[ACCMemUsageStat getMark:] : sha256 4046a1c796b8af9afb65d6124e0589fcb431f8c57736fe90eda886c026a2666e -> 29305c6fa9d6498bd5717e58dfc8ecab4f1a664c26bdb172663bf5b28f061fef
+~ -[ACCMemUsageStat removeMark:] : sha256 8d2e21d22adb2e61bf8059982d63d28e4ad9dea74d1a973ea4c7dc81aeefdcf2 -> cbf09b2bb4b99571fed88d9938f2062f56856ee6dc43c6ff50961ad21736035a
+~ -[ACCMemUsageStat timeIntervalSinceStart] : sha256 9900335668dd740270225a781a22a9c5b0414f44d203548855b54346df58a6d5 -> 931bf88a5fa394697e710315cc7695cd473780ffdbb06efca948dfecc54d5f53
+~ -[ACCMemUsageStat timeIntervalSinceLastUpdate] : sha256 3025e598bba55b83ebe550b22a8be4600cf3060836e08446582d0c0a882bf41b -> b10022a2f2f0fa1f1d988dad586c1708e67d544803b7182dcfd803b685206bee
+~ -[ACCMemUsageStat timeIntervalSinceMark:] : sha256 92e6d8cbd305288c724b024defec0fac02a7427e9f5330f7532f3f4098df798b -> 6c69a24fe023c8d43d0e4804bd382a993fbe45dc9fa3a3e005ccaf41d99e2bed
+~ -[ACCMemUsageStat .cxx_destruct] : sha256 d6f73b8572abd63b95a73349c77f3ed8caf099087edab89439a336ce765b566c -> 5c2020421ffd9da9bc1e6fec5d2a843fe06bab46558a7962e1d10c8fc0a0d47c
+~ _init_logging_modules : sha256 7243ab8b82669a65da84e5393d44cdbd2f159d1ffcad293dbe3ac560484483d2 -> f3f95652cbfd108ab8ecd1673b39927b78e0570e93622c72c5ba67bc50503e8f
+~ ___init_logging_modules_block_invoke : 608 -> 588
+~ _IsAppVisibleInCurrentMode : sha256 e5d7d7f70ddb27f4564fe172c8028b988c6b26fdd5cc0b90e99dc431fb431ed6 -> cc55332da6b9ee82262b85b2c2d3ed421edd215979d85001e7e1e3cf20f6016f
+~ ___IsAppVisibleInCurrentMode_block_invoke : sha256 df4963e0d4e73d0e62455c8cabb6842a0954bcc54a97382a0684b1caac1b9910 -> 9f412f6e216c2391247b89455d69bc623300d653ce35b9c34a56afc7274e798b
+~ _IsExistAppMusic : sha256 97ab6be11d34e0580c67fb0ab538294a71c5534ec8bc6cb628f80b8208046b55 -> 7fd16c017d4cc8228686ec8009af6a8ac9a9fb8dfb910297982812e07fcbb7a6
+~ _IsExistAppPodcasts : sha256 33e708175f1b97a3bbdcf51be4778f3e0012f0dca56a763c7fb6fae43e14ee36 -> 5b07b59d2a7a176211873cc04f50f8353759c52932f8bcc56f205d9b75d4a805
+~ _IsExistAppiBooks : sha256 9dd0fdfbbf538d5b1dd1d01ca9f7ecb2db21ba1c527bdfcfbf8a5a9c3a076f75 -> 2cc2d120f60e4d8f2a286c562d183115a3c75b98b0015a55333c0edb26e11f39
+~ -[MediaLibraryHelper _updateITunesRadioEnabled] : sha256 6c0077c62ce7f10c80eb06ed7ef6899f82cd3ee8afa7376441594eb3f15461cb -> 0644dcfbcc81a8d8c5c88e7fb7292372a56af942cff3bad48b3ae2a423f86d5d
+~ -[MediaLibraryHelper iTunesRadioEnabled] : sha256 747283e40c5927073a4cfd7aba92ec4b5bba10c804f5f72834ed5ec99dd7d749 -> eb57e9c6b2e7a2f7ab81e0b60b1791f14cbf0d125af1c6c78b76ba09308c0bd3
+~ -[MediaLibraryHelper init] : sha256 51aa92045c525669a0e9a45b04af257e9f7bad6a706aad9f8f001d4fe7366642 -> c2589ff03ff587af92a4c6c7db30bdd0b5086dcf3040284026a2ce6e664e14ed
+~ -[MediaLibraryHelper dealloc] : sha256 6177fa41d9c9c8e50723a68ed7586b758edf04e10805cb6b7f3396f5e3ef2a27 -> cdd2cd13b34da3ead6b25c7543a0c0401aa58866407467d8d58d3bc56aabffe5
+~ -[MediaLibraryHelper handleAppInstall:] : sha256 d6d2befdf4f24126317470f501f0a9a8adab0ecd225543af60a7e387a022f300 -> d88eca7970ca9a7dc212d982a9861d1f83af195e542a6ffe60d3c39b1a997b4f
+~ -[MediaLibraryHelper handleAppUninstall:] : sha256 78a76ad71303f33217802c5b6abad9a518ed497989ac60701e9532b710854334 -> 1055bd16307851be5e729b525bce6ed68f9298918e71f476669b15908c69ee9c
+~ -[MediaLibraryHelper applicationsDidInstall:] : 244 -> 240
+~ -[MediaLibraryHelper applicationsWillUninstall:] : 244 -> 240
+~ -[MediaLibraryHelper applicationsDidUninstall:] : 244 -> 240
+~ -[MediaLibraryHelper .cxx_destruct] : sha256 89ef9cdd08b46381f9a62576d679e5d51a0853f7fcc6a297e1200b7ab79689b5 -> 820fe5fdb86bf1936dad44be83dde04f6b8e42d29735fad1a432acbcd21e6599
+~ _ACCGetOSVersion : sha256 176ca6ebd592c5b3ccb47f5fc09f105b6cdb7e4061623b00a18b17b64c1d07ac -> 42cdcbe49b8dda8f77a966ed861ee38556637a07f4e2b854dd1925bb540987dd
+~ ___logObjectForModule_block_invoke : sha256 585f8bad1dcd5d89ae61ba4be28fb3cfb3ad28ed358021a79246dc1d02d23547 -> 11ba5e4b56677edbdfa0e8dbd8cf4a5cf12c3a5d4fbd0a149508f6848f8442b4
+~ _OUTLINED_FUNCTION_0 : sha256 445dfba1adedf5c7d212a316326bf3c4abc59dacf3af884eb52daebbc677ce90 -> 2e2055332098c92f9d7a331c9b62344bb5ef09c551942e5a8bdffbda5de94711
+~ _convertNSDataToNSString : 260 -> 256
+~ _trimBidirectionalUnicodeCharacters : sha256 b015e0f37ae2f697ebcdb84bc4fef4b1632f9f4b5ac7c5c46f61119814598f97 -> cea80e0df378b88361fc21ec292d0b8d8c735b70c6eeae22177089a7aebd9573
+~ _removeBidirectionalUnicodeCharacters : sha256 b8b9dfd2986912bddc264dd30e6089dd7a7e1daa3744bbcda23e9acdef2ca026 -> 0cb29f7b321d0eedb24d7ee0fd3cfa6bdc1bc4a4e59edadbe6f85f13ce859556
+~ _convertNSStringToNSData : 444 -> 440
+~ _classImplementsMethodsInProtocol : 304 -> 300
+~ _isNSObjectNull : sha256 6e02983ad84bfc6f7c8a88e7dc1d8eab32d88b55617d9544694b17b835f0b371 -> 9bb41b558f8526a90f8c437d01877a0527479e4d26e34613803b80b526072dac
+~ _NSObjectIfNotNull : sha256 d061f646b5e03820371e72caf888902ed38417d55dec085a7e7f1ffa8e60c5a5 -> 553858ac6a59988b02e64ef0b11358c214fc8e529f0a8b606937358efe0317ec
+~ _isNSObjectEqual : sha256 0db63bf779ab5482eb486eb2e4d286c92a1a84d8b44a241942006883a4f4fc5c -> 1771e07cfbc9fe40af2e503ae945502268a5a8781c4ab4adfcc77443d72cc489
+~ _castNSObjectToType : sha256 1331c4f4fe3a11f63f1dabd860243647323b94e3e7f88b70dde20ebe9db2e090 -> f1e7730f5bf44fde458c9135c9ed62895deb4050ee5ee427e130fcfdc3eb6c46
+~ _readJSONFile : sha256 5e0a125c594bb316129b8fc5c1b3b59ac5b622d50b3b8b6c9b7266996f1c501d -> 4c8a0e83da8f04a6014a895896667aeb683a63dd2c5c9d2a5566bfb942a30c48
+~ _writeJSONFile : sha256 cc6113b891bafa7c5e86346ad0b1367bdf8fb32ec8c1726122e31b48fc8e9d64 -> c82ee0bffe898cb4ea7c06932c8310462a9aa7eb65ba7f4cb0ba3ce43115bdcc
+~ _base64EncodeArray : 328 -> 324
+~ _base64DecodeArray : 340 -> 336
+~ -[WorkspaceObserver startObserving] : sha256 ac7ead744f75dbfd07d7c5cd6521503f133b44830f76e93e847854ad83d9d982 -> af01074e1e52446572d6df50807fe69b07b2a2d6a696828001c6bc2ec970cc1e
+~ -[WorkspaceObserver stopObserving] : sha256 4f859a514d626b3e7c822966b7abe62d39f8f9f1f85dea547834a7df54ebdd14 -> a4f86d5dca2748ab9801e694a20b87294723cf76b01fb06cf98c0016f159d4a0
+~ -[WorkspaceObserver delegate] : sha256 fac354dc6ef95d2d9f5a32a756c3a24901d0fdba222fe32bcafa5407259c0ae3 -> bbef8000f913478f6b68c606d5aa258d3507e902a3b0d72c2aa5dbd62e3a338a
+~ -[WorkspaceObserver setDelegate:] : sha256 003e2647dcc18e8cd6f7793df5d651a2d335fe2097c56fcc95b69fd92ff8b90c -> 5086b579b95767e0b8a7044500eb1b5655d58c9255f7ec9edf9bd05539ab3cf8
+~ -[WorkspaceObserver applicationsWillInstall:] : sha256 f0a0bab02625650e9322fc12ca372018f6fd5437072cc392374a1482bab0f76d -> ba131c64e48e08e77926bd25e8da3d84a38065d48c4dd891e7d534c008bce204
+~ -[WorkspaceObserver applicationsDidInstall:] : sha256 6b9de67f706b64733f7096abaa55672cc1238cd1f36e75aa7af2a928ba73567f -> 282bd3dddc3b6fea53ca0141aba8873d7f0d261da81d27964d09d05a1f3f57e2
+~ -[WorkspaceObserver applicationsWillUninstall:] : sha256 16994b0788b1243efd5fb4c1128e1bf781cc8d89d5c2f9278a185f37760de70f -> b187adef6b165a4d2c9c09a6fef0c94ab83703bc7304a44092a882e0630c7e57
+~ -[WorkspaceObserver applicationsDidUninstall:] : sha256 3a48193cd12783a3990df001c2fcafbb2f754f5a18a2fe7a047ebc745ac4b051 -> 48f67a9e2f174b0a2ca6b6a81f40fc63651a441d69bce64006a7fa49e2071932
+~ -[WorkspaceObserver .cxx_destruct] : sha256 b1cbba5576500029bcfa7e4add9dd7df30e9b18644b920fc0a0602815a56cc06 -> 9fa5114b423546653b7ed14327ff4bcc15e9c2143f0a436588a26a1279f4ee4d
+~ _WeakLinkSymbol : sha256 a8b392795a91e53fc3ad4ade67f03f36c9551d1d7de2c122808c9548c4f85f9d -> 23ae61eef2aa3d3dfba2c19548e86657af6159ba2ff6765d8c214f1c692fbbbb
+~ ___HandleForSource : sha256 52a9eea192e26d5c535f603c87d7e430f96d0bdee3a09142fe9edfe032e8dc7c -> 97d51fb1e1b2948a170a166946a3e3b0c24bd5ccd54e3ead916ad8052ba70325
+~ _WeakLinkClass : sha256 2e5a1b967cb55389bd71dc9980f873811a73be472e09ca21a43857775c9ff71a -> cc28e2008261bfb1753e716644dff8c2569acfe6af36eaed94f53d0b71b07d73
+~ _WeakLinkStringConstant : sha256 5cf69b1bdd6192e36991e60bdc118d6a47c97441fdaea160f441591ff9ccfd8b -> 07787181451f98788d8a9fe1cd4970373203012526577f5b9d794d47b49880dd
+~ _ascii_to_hex : 156 -> 160
+~ _printBytes : 136 -> 156
+~ _removeNewline : sha256 2fb99a772bd6ec3d1d237e3dd3acabcac76412f3785075f144a7fc7e27f6de7a -> f189aa027cd0c2f2818ee3d82281198d531eabfdcd3aa06d32f6fa0594687ff6
+~ _obfuscatedPointer : sha256 6331874717469190313f7b492e2cd1ea293c989147d4a2bc2e1bfe233d45c70d -> d17a580bff31f3d9fe01d8ced78073aca41fed6283255c39b24af663943260e7
+~ _getMemoryUse : sha256 d274a3f980f23ba7a15bcbdc374afdcad37761b1ec553042eafb691251818376 -> 1099b8ca4d3b9ce19b72709cb3597c029c1ec7247cd1d8d5db4bb52c124da819
+~ -[ACCStatInfoAccumulator init] : sha256 1ab133912962a405ad2e37078010590e85efa01c0a8cdddf6d0b2799e095a90d -> a0ca4fdea4f0736ebbfebbf35158a1636ba41a353bbb7885a33de86c1da4422e
+~ -[ACCStatInfoAccumulator initWithName:] : sha256 17dcdf009b3715ad5c8b01ce967cbf8173f29d095b6f9cc30ddd7ad83f8f1a0c -> c352723ba1950ab6b655c34fb4939eb1d34e974ddc6e739974eb958cc46024b2
+~ -[ACCStatInfoAccumulator initWithName:initValue:] : sha256 ce0ade0f409a027b370988e29dd3a6c3a2d7c2046f7e6c95b496176abab65fac -> fc6286644e86bb3c4c7480d85767bbeba7b8ba0d18851a43cf671733259887fb
+~ -[ACCStatInfoAccumulator description] : sha256 9d9567587114079e6419e16c3c3ef09f77fc9ba020feae229c3bb7f9fb182b89 -> c27d9790f6aa6b91f7e49b176d725a89732921a555e347eeb3bd8684db834bdd
+~ -[ACCStatInfoAccumulator reset] : sha256 765279e5e4b190e6da6ef9cfed018b8becbfd025162a22bb85dc035203410e50 -> 819ae8b2cefea7725cee010f2ee812497bb5f91fb2e416b12f82a68802bb9565
+~ -[ACCStatInfoAccumulator add:] : sha256 a3a764d86261d7f183837d9495dffcd3c252f3f9d469485e044d5542a9aeda2b -> 9bfc05ef81c06ac536fae10d198e7c04c26f798a11092902abd702f79054f281
+~ -[ACCStatInfoAccumulator set:] : sha256 d03f7fe20d87ce43aa212f88102cb741b4dbcbb157a55290a3b689c363d94780 -> a314b75bd99e17035c6a2e5afdc62fa42cdec68466705e00b6c2331e70cde228
+~ -[ACCStatInfoAccumulator timeIntervalSinceStart] : sha256 5b87670a4c853b017644afd8e4f0be157d80dc89b6f40c258a7488f5bfea3684 -> 974196f0f1dd6365396f2b1ccad897db0cbf495a988db4c04302d3efe9ca2459
+~ -[ACCStatInfoAccumulator timeIntervalSinceLastUpdate] : sha256 9ecefbeea3d80132ddebbcd515dc53521bd38f483c261b65b340faa7c1378f83 -> 97c1b88d0889a3c847e45c86195ba4c0a2499913abac90f44701754cda0475be
+~ -[ACCStatInfoAccumulator .cxx_destruct] : sha256 6e5091250e92e7f22dbb1ae2d02b859963c6175ec025babbdcf0bf7841ae24ec -> 9488c6e97ae6c8284bf8163a9b2faf0499c501a61985dab8d76064bbb41858df
+~ _init_logging_signpost_modules : sha256 a5ffd14436a351a287505d42846b6ee89a7d6a0a2afc26d3dc5be2e3286f8a3b -> b7081246d153ef6145a6921950831c7171dab8936ebdfb75a99cf0a7598f5da8
+~ ___init_logging_signpost_modules_block_invoke : 608 -> 588
+~ -[ACCXPCFeatureServerEmbedded initWithServiceName:].cold.1 : sha256 489734fb576d57d424027469024e4f4fb7d9f37f82708bf4463349c87ec58a78 -> c4343945df1193b026833434e31987ebee6a6d9de644024884d2e54ddf0a4782
+~ -[ACCXPCFeatureServerEmbedded startServer].cold.1 : sha256 616fb68cc3ad291f9d6b033aec535685feebd31c6f56545ef7703110d43a427a -> 8c452f540ed530e65f4fde3af676c725058609e080497ebc7b63b45648d57c5c
+~ -[ACCXPCFeatureServerEmbedded listener:shouldAcceptNewConnection:].cold.3 : sha256 f5010daf5d4fbf93f20fb47b6fccf22b1a2d016df4ed16c2470f54ec896ccaa7 -> 6dd8195658f7a004333a1259b3ba8cbe61dfcd69351f1f4633e91a32fc7ba007
+~ -[ACCXPCFeatureServerEmbedded listener:shouldAcceptNewConnection:].cold.6 : sha256 70072f880f90e30bc98b597aa93cf02c5fef42a9baac8c347311dced028cdaa0 -> 01c2a4d9d3274ccb3a1eddbfeb523e027a962c366e79bbae347520bd7d085001
+~ __logObjectForModule_block_invoke.cold.1 : sha256 7b050a6a9609f882d2ffe68207bbf10380a8a14652b88d41fd6904923098ad18 -> e19e5d04fb469b92adde5dc91df73a423e549ef2380d8509f3cf357bcc9acb39
+~ -[_ACCNowPlayingPBQUpdateRequest initWithID:startIndex:upToCount:infoMask:allowNonLibrary:].cold.1 : sha256 dced49dbbdd3a407f51fd1c85ee0458174a7291768257fd07e202876cc060a26 -> f0fcd69c6f14c2c02bd65638f0c411792319c594d9c98121f0edd422ad32e060
+~ logObjectForModule.cold.1 : sha256 c228d611f5e079ec5ffa7c73a90e50b2caf0a30b86eabb71705077f0970dae11 -> f47f3ec2d866b1780f3d1d745ea5e8ada77e2db49435103682186185eb38844e
+~ -[ACCNowPlayingFeature _nowPlayingInfoDidChange].cold.3 : sha256 7cdaf583032108100536fd4b20315eb24c898da8b2b1c240f7c8f098ad223557 -> 144e08e6cff481465ffb7d7712f7cd24aae4fab3339bfea3664feda387e8df3c
+~ -[ACCNowPlayingFeature _nowPlayingInfoDidChange].cold.5 : sha256 5589e006a775ae4e7739bf448af810857f84120f3fb4984cc95c749181427413 -> 59e1c485fa9a494b1e8db45d2e9bb8acfdc68d7666b351d5935d5c74ca9856ad
+~ -[ACCNowPlayingFeature _nowPlayingInfoDidChange].cold.7 : sha256 601f22bdac00e24096a98a575a3887bd5f87c824c8aaea2a4faac960339934ee -> 5f2d96cbd220ebe00fc54fd1fe8a1b9517f59803676e50ddcb68541cf2b3df0a
+~ -[ACCNowPlayingFeature _nowPlayingInfoDidChange].cold.9 : sha256 216a67150c5d612ba64bd45f40e1f8126f56f49dfd1787b11902969a42c5a7f8 -> 760a30d5951898adcdbb2a5eef7cfa343b7f15cbb67ac94915c6cfb13c6a7dab
+~ -[ACCNowPlayingFeature _nowPlayingArtworkDidChange].cold.3 : sha256 81bfc0300342cb910019acbaceb6ec20d272fd067f23f4510a117fe4a3e5a643 -> 5acc8dbb392dceac260329c53f57ea0acc00fe7208c9d77dfc9343e19d88127a
+~ -[ACCNowPlayingFeature _nowPlayingArtworkDidChange].cold.5 : sha256 442ac170f2457e9dc6d7d85d8c074afc2531828b8d389285fd17b209aa27fd74 -> f784e0d5688dc7f218cc6eae094d5c09b1a8e04a3e1b365ed3f984d1cc5ea25f
+~ -[ACCNowPlayingFeature _nowPlayingArtworkDidChange].cold.7 : sha256 16e0cb4b1e383550af6ac133eab5bb5cca87c4fed8c71b0e0783a0997128c710 -> a3d9dded7f8bd6d07009ced184ff620dbef0f7633e7eb24282168d4b4a534447
+~ -[ACCNowPlayingFeature currentMediaItemAttributes].cold.6 : sha256 9245f64a0217561d540a52b6f863e5faa4ea33d701b1ed99d65cd0aa545f5f01 -> 26d06eef2d5263625652294477e38e4a7d353f6f12f34d8320334338c8b47a1b
+~ -[ACCNowPlayingFeature currentMediaItemAttributes].cold.8 : sha256 112448eba8af5ea6b2464634ff62da1e291f6debb05f1a5df2a49b87ec71d5b5 -> 38eeb999d7c26ce42dd80ab77f22aa3d536491adcbe85a3f990f1297ca44e028
+~ -[ACCNowPlayingFeature currentMediaItemArtwork].cold.2 : sha256 8fbc8874329e9d8ad1b5c1227656dc97044259417af98df463b163d7fa25c202 -> 44871ac7a4b7e183f8eaa947aabffcad14af1abcb21de6ec625af25e709560a4
+~ -[ACCNowPlayingFeature currentMediaItemArtwork].cold.4 : sha256 bd22dd10bc11200387bb0ecb5da10cb2166a8b7e6e738175f075d063c25111bd -> c232523aed6940886a2632b2f0c90313b28b2db82f30c90db4e2a9978182aced
+~ -[ACCNowPlayingFeature currentMediaItemArtwork].cold.6 : sha256 110060a696a61e23dfeb89cdee2b920cbc60446182d9084b88b9f37cbc5d08ea -> 5fdcbb77e376db344871f57f34bdc12b1adf624b5d1fa40ef7bec5aebff54fc8
+~ -[ACCNowPlayingFeature currentMediaItemArtwork].cold.9 : sha256 2c076b90ebcb4f9317b9b8da6fdf828fd01b2494a31d15c9a90abf947b8fe5c9 -> fdc6e7997da6a3841bba3133ef421a88b901de9210bb3937bcccdad5df6da2a6
+~ -[ACCNowPlayingFeature currentMediaItemArtwork].cold.11 : sha256 ad8251eede4bce3fe3d27cc83ae85a179b25c66d8b215dac3c1b88f1291a28ff -> a312fe14170152f62049e61d8f746be9187ca85f44050a8ad16f1a2daa4667b4
+~ -[ACCNowPlayingFeature currentPlaybackAttributes].cold.2 : sha256 a0dec8138b01baa2e106010b68806fa5b7511f7671d598462b05904b91bcdaa4 -> 8daba91f3378311e8351c9c682f6bbec664ce63c02a2366ed3f0298e52b17899
+~ -[ACCNowPlayingFeature currentPlaybackAttributes].cold.6 : sha256 d92913c299867f5540d134c7afa1a7fdc2c34258938b6c40ec47a38c1e440091 -> 685262ae97d59bea0196e944e7adf2445c41b67740f9de9b9ee6992b3aac4922
+~ -[ACCNowPlayingFeature currentPlaybackAttributes].cold.12 : sha256 5c07b156f7dd9c314869bfc353952de3afd1acd4f713b50156d00a6bf40e4dc9 -> 7e51b0cee2bd31994c15e0b07fb0046d75fe38446d67ea56a3a1bf7694e1da7f
+~ calculatePlaybackSpeed.cold.2 : sha256 cb86761a2eb160cacfd2148c1dd259fb2c381df5caa80f624eb6bc814f5ff62f -> 52634115093272d6801839c5def1a6a62fde4fa5be86877136cdcfadc321096f
+~ calculatePlaybackSpeed.cold.4 : sha256 cd8bf61336ff60c8854be31f573aaf0c09155ba8f2925ddbf8be81e536c507d2 -> 98bb422b098b1e8d6d16b22c5539b35d4111953b95d3fa1a7dc4a8d6d2fb6a1f
+~ convertPlaybackStatus.cold.2 : sha256 9cf637b15822ad3ec1c331ad624e4ef0d5be20266dc52e2ceb7dc2a3d1443bf6 -> 5f4fb48f7b488be3842ddd61e293d0e5e0fafe90312b147ab224066098a78b2b
+~ convertRepeatMode.cold.2 : sha256 82a6f120e3c8e80bf31fd812d07bedcdb755a374df913b8f30147a07bca9a790 -> 94e4b21fb8f2aae49c3aaa5b785dab35fbe2625b3f11649d7f15a711e89e003f
+~ convertShuffleMode.cold.2 : sha256 8bf61b5ac9dbe28a5e2f11472be33d00cbc5a2b4c1406b9fb5de0c3ce94d45f1 -> 213f381f213e907a1ee6671245420d57d5048797f983d0c010ce2d303a6c29c4
+~ __46-[ACCNowPlayingFeature setPlaybackQueueIndex:]_block_invoke.cold.2 : sha256 cb9af677718e60b0b3ec25d752107c2f44059ec285b9b2dbd5d0bcad89eadae8 -> b83162c9f8947b84e544083be7b570adeafb6babc5dc634b8c3442ae24d96329
+~ __46-[ACCNowPlayingFeature setPlaybackQueueIndex:]_block_invoke.cold.4 : sha256 1f3a094f7362334aa74dd1839d76fc35407f43e8185f62ef8193b430c68ebade -> 9d24a1e7dd9516c881ee1aeee40c5a907583d9300c53f5f6d142e6301593f8da
+~ __93-[ACCNowPlayingFeature requestPlaybackQueueListInfo:requestID:startIndex:upToCount:infoMask:]_block_invoke_2.cold.4 : sha256 72ee0fe01a154973e69c6b1460e10fe4b9fb0029dc3affbdb018353a4c9dc3e1 -> 1598f7f16b75da4e1cb0db2d27a90552b4e6a084915313872033b132e316d1ae
+~ __69-[ACCNowPlayingFeature cancelRequestPlaybackQueueListInfo:requestID:]_block_invoke.cold.2 : sha256 f55c5b58c1317258c7bae87d35229c5f3f40529bf31e92bcb632d8fb75a90a2e -> 37f7d8e389f0ce108200c7c9d55bb5f48d8bbe7565e16dc52a8146463b59b204
+~ __69-[ACCNowPlayingFeature cancelRequestPlaybackQueueListInfo:requestID:]_block_invoke.cold.5 : sha256 fd6c401781f69262576b1e2eacd4e93851059505a1693d032d3643e4435f7565 -> 9c821260fa0e23bb4118213faf644836c1df234a6bbe113e5ae94ccb56d0a9f0
+~ -[ACCNowPlayingFeature _nowPlayingIsStreaming].cold.2 : sha256 df3a8462fdf1161b36c437f6bfbe486dc3d01c89b1f168f687ab59996cfe6b1c -> ae687854c00737ab3f042d1c3f3803b263c9d021d84c777f4adc89dce5cf2e07
+~ +[ACCNowPlayingFeature isMusicAppVisible].cold.1 : sha256 10031b000a0942e07404c4473d1b53ded76a2fdf31d0801c05090a6bfb804f23 -> 2757da8cf0c77efd923f18bbae17d284535fe27ebd2e27d29982d21ef14f5d56
+~ __logObjectForModule_block_invoke.cold.1 : sha256 2da572af64deb53ba155594f7c59184228f35f645b8000472d9bf106c193e1f5 -> 5e26f1de7e28215ea0cf24fec9344f969a42b5289541fe59c42420084b72e932
+~ __39-[ACCNowPlayingXPCService initInternal]_block_invoke_2.cold.1 : sha256 d72439575587f02d7d65ead8cf2693aac2df61dc487117ee42338fb2a52bc541 -> 897ee3e48ff8c8859e20e45e6f03636a38319ad92dd7e120fd64eb0786affcbc
+~ __56-[ACCNowPlayingXPCService handleConnectionInvalidation:]_block_invoke.cold.2 : sha256 23ec3d04971e1860e5addc51617286497320861cd514dd79bc2a6f655c7b43f7 -> b44fd1ecf5c9b05c9dce555227576343d94abd7cbc05089a2a974055bfe47845
+~ __46-[ACCNowPlayingXPCService broadcastToClients:]_block_invoke_2.cold.2 : sha256 9b7602fd9f82d58cc0a4fc8a26a8a276aee073c3938113474785e2d8b253ac03 -> 8eacee216a79573581e98fe0b5a00bc6570d78817fb167d798576fbc14104463
+~ -[ACCNowPlayingXPCService updateSubscriberList:withReply:].cold.2 : sha256 6eaf819e4bf221704bada7556fceb5bc7def6a447102b102936896021b0f87e2 -> c972e258dbcc9478cef3004fc8e2fe827f915fa86b8f19e9f91c019c67f0773b
+~ __57-[ACCNowPlayingXPCService sendMediaItemAttributesUpdate:]_block_invoke_2.cold.2 : sha256 b1624863252965a5e05dbacc61539c2177255d6df7a7dc6a7ae89d503f33ea03 -> 1aa15ba06dd17d1f7277e217a26014f74db3b546b493f624e08c3cfba42a0e23
+~ __54-[ACCNowPlayingXPCService sendMediaItemArtworkUpdate:]_block_invoke_2.cold.2 : sha256 1edf54191cfd77b608ca54b95e3f4140f897aee2ee2ab60a1cbf8e816785a411 -> 375a4f639305e90351e1d9c77e3afbbc1907ab81d6c1e268ca462e12e7689dfc
+~ __56-[ACCNowPlayingXPCService sendPlaybackAttributesUpdate:]_block_invoke_2.cold.2 : sha256 26d63d91af31b058ac7b2698a9d5ac6dd178b09fd41a048324b294dbd5aacdd0 -> f5a9f125a65d44ad1f37d512924b306bca15f2adae8aaf17a511e10a25bd4e42
+~ __init_logging_modules_block_invoke.cold.1 : sha256 2ac08311c8964f9cb413ac2a961039c3eabd915a13f798135356430c631b2b14 -> d3e10eaa366e8d10637c60f3af6c029cbe7ba52a92d02e75f878819f225a71e9
+~ ACCGetOSVersion.cold.1 : sha256 d89e647e2e62e89660ed5d27f857f59d2bc585f605eecbc06dd0a1e42a1049aa -> 0d3b46302e5e8adfdd6308f272dd2082149b4429c63f7ad7469df28dbbbda415
+~ _createHexString : 408 -> 400
+~ __init_logging_signpost_modules_block_invoke.cold.1 : sha256 5491cb4ae92b47eec40ad442f30c68f0f0f9d75550d3880463e7d4efc1ef0147 -> ae054de45296b7fd72374706780922169c7b1c94a071dbc232a047c5e35847e1
+
+```

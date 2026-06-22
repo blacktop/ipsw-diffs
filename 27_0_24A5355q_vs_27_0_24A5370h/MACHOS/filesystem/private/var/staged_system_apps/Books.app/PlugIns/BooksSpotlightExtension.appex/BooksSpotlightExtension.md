@@ -1,0 +1,47 @@
+## BooksSpotlightExtension
+
+> `/private/var/staged_system_apps/Books.app/PlugIns/BooksSpotlightExtension.appex/BooksSpotlightExtension`
+
+```diff
+
+-6629.0.0.0.0
+-  __TEXT.__text: 0x10b0 sha256:af11d1ec4d2a3c22d900e3d6e75b485511ed325191b3219d2730b9d1bf880cc5
+-  __TEXT.__auth_stubs: 0x360 sha256:b42c176f3601c92feae447f0a998ae547c42eb92f327d0d64aa4b64836ee1bbb
++6636.0.0.0.0
++  __TEXT.__text: 0x10ac sha256:de851f11d303094b71c46b76e9b08dbbce98962e344dfad4dab4dc200c338498
++  __TEXT.__auth_stubs: 0x360 sha256:a72bd5f461e640aacd8bfb5831706a1f912f63497f9f90fbb8676ae728dd66c3
+   __TEXT.__objc_stubs: 0x400 sha256:ce7b1be7ae29d8c83a9c03019d6e340882b3fdc0506a31671fddb036179aa02e
+   __TEXT.__objc_methlist: 0x50 sha256:ac776413a973ec6806b37f91b89e95e8e58d10b083c4b3a4340c2d8efee62384
+   __TEXT.__const: 0x20 sha256:619e0b1d0dd7c654026e82bf796563f5925d5eed1fae17b9b8b7db87e4c82562
+
+   __TEXT.__objc_methname: 0x36a sha256:82c98e4feb43083299d2d3c65ced2b627695244eb23e5f6775b2594c0c82ba71
+   __TEXT.__objc_methtype: 0x42 sha256:25f5ee7531c3f95d545d58a3b26b9a8ca16d0d80a7b0bc3ec0eee9994314b842
+   __TEXT.__oslogstring: 0x11d sha256:ae2d016a98da795e6bb3f8866bb6c1468af2e390c5db2bb3d7e5e9b4e2803a42
+-  __TEXT.__unwind_info: 0xb8 sha256:3fcc9bdc6c8d5b6bad3155f3d6aee624db8cff1ee54f70f952719ae8591a0e60
++  __TEXT.__unwind_info: 0xb8 sha256:e7a447a05d90afe4b58fd9bf5e0b322356b122c3b890010f0b629df5a0d70985
+   __DATA_CONST.__const: 0xb8 sha256:c4efc1fcdffb30dfd473048982cc99daa0f9845da72e3b78a326621c7dead8d8
+   __DATA_CONST.__cfstring: 0x240 sha256:2dc1ef8ae30fac168c5dd240ca9bbfb203b1b9af3226d7e4c574a0007fdc9850
+   __DATA_CONST.__objc_classlist: 0x8 sha256:e18b1f43657d686c3c9b953ea7d581210399c39d8a6e2fe27561b26101705df5
+
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9305FEF0-8868-36FF-B75F-2AB9558BC67D
++  UUID: E45104F1-10AB-30F3-95CA-38EFFBE394F5
+   Functions: 23
+   Symbols:   80
+   CStrings:  89
+Functions:
+~ sub_100000d10 : sha256 76eeb4f491b1aee91db264a689c69ef0e73ec118482b8987d97b144dfd125723 -> e292fccfc7e60afc8b83fb7fca4d9ec41380f5a8cb11b76fcb7a5bf373aa4525
+~ sub_100000d7c : sha256 6b28ec81bb971015ffb6577fe4ed8bad0fa5a14356bcb11ad7e1e233467ad142 -> 2110fde7008e7145b265c969059ad84f6788ec96d2e51eefd954beb8c556e439
+~ sub_100000df8 : sha256 b5baa11622b2af9392dfa13511a19a756412c12dbf016d56a0b2dcfe949486f4 -> 9e1b5313dec0f3dc1f1f70d19bc71b8d1d3f95e64770ffd7ccca1783fdb8018a
+~ sub_100000e88 : sha256 21b4a51c7ec66a7104cdad10aa91750d573532f29cf041a4e144a8c0fc1289da -> bded17bf2205d7237bd7f551c5dfe3ca519b610f09c5e1231c351208b705e6f7
+~ sub_100001440 : sha256 4b4e502fcca1a9ca0876e2fccaa49c45ac7b01f30fd76f358ecff5efc49a68f5 -> 10924103dbf8a5c6b9e60148842b8a1b01f3deab250559263f3b23aa8cb0b76e
+~ sub_100001758 : sha256 1d8de5bfb5d788ef447004770c1b9ad9ff7a84e10c5635222634e37ebc36a7d6 -> 02b3cc92069916d43719136097a85ad0295fcb79269b1b9a7811945076b374e8
+~ sub_100001864 : sha256 52ae81f35cc36673c78afc1e768d8995d710220cb731d06e1078ca952b33ac58 -> 20d29a1b403975b549fb1c477132234d1e31e45577e111deed153b57db0c6677
+~ sub_1000018a8 : sha256 9bd4c902b02f7911423dda24fda4df7adfe4dc1a5989eb1be39fff4f8954beda -> c05e813288cfaeaa702347f3b203cf14f5249045df248498a9f568bcf5015516
+~ sub_1000018fc : sha256 7f2af7077e788fab64c3aecbff81012a0b46db1b243b689b08c6ac7f684f3143 -> 7a31554c5b5bcc92656513e844eb1e761128e7ed8b1aa67cc5fc82028782212e
+~ sub_100001910 : 592 -> 588
+~ sub_100001d48 -> sub_100001d44 : sha256 8cfd968dcd434d6b753d7def34ab2e41b534c530ebf70077ea61c73abfb7a37f -> b7b8c12788dd48b3bff092ab10a2b8f1526b0cc92319e76d0e1804b913e31e8f
+
+```

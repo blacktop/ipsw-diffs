@@ -1,0 +1,529 @@
+## MobileSafari
+
+> `/System/Library/PrivateFrameworks/MobileSafari.framework/MobileSafari`
+
+```diff
+
+-625.1.18.10.4
+-  __TEXT.__text: 0x4d32fc sha256:41750c2686c861224d4b2c35537d8ff39c962685c8d12c4bfbc80221cfb05677
+-  __TEXT.__objc_methlist: 0x1c608 sha256:a5c21c58076bb8a1d9628af246ba9f5e326a7b3a360b4255a3c76a61dccfa997
+-  __TEXT.__const: 0x1c894 sha256:d64b3cbe90cee6fb80c206d9c716d4de661b4fca2d08a1dcfdf436733bdd283e
+-  __TEXT.__cstring: 0x131d9 sha256:b23c7d6c9f2bd2c3ecb8c2acb425d1901ab66607404ea3f902f41cc6fab44ced
+-  __TEXT.__gcc_except_tab: 0x753c sha256:31453aace8d67ed332fd7288a0d9e260e309b525aad34cfe0926cc38e09f061d
++625.1.20.10.3
++  __TEXT.__text: 0x4dc8ac sha256:2cf372ed3f260a00a6ec0693246b9ea9e21d02b8457df90f307082128a260e0f
++  __TEXT.__objc_methlist: 0x1c9c8 sha256:30349859ee83fbc6b895b90f7be42db4f2c19c9a9e39193bf47308735c70a7c3
++  __TEXT.__const: 0x1caa4 sha256:7c04fa35bf07842469e5aeebfc46e7571dba5756dcacfddd7e9c2606c7e42a65
++  __TEXT.__cstring: 0x133c9 sha256:29f9a52d1f8b49e0b901717b0d6c3b328523f0828455b60908ecc1fd81b9c481
++  __TEXT.__gcc_except_tab: 0x77c0 sha256:74d2c376a762ecd4cb6219aef45d578252ef2333428304d3fae7d11a222b4183
+   __TEXT.__oslogstring: 0x4599 sha256:d29ba66d367945c3264d6b26c7360f4af67aee47f49e6e18d36235039e8ad487
+-  __TEXT.__ustring: 0x23aa sha256:b6f8533b8b5c485c594ece20a57e7fbebe479a3a6722a39e090e93491b3bcf63
++  __TEXT.__ustring: 0x2414 sha256:84d30ae701affa48afca22539abd36b96794760b2a0eea9332a715bc2594a7d4
+   __TEXT.__dlopen_cstrs: 0x48e sha256:bbe9f5771648236b729d1d3f3bc2d8998c02de233c5e48201f7257259101d56f
+-  __TEXT.__constg_swiftt: 0x11bdc sha256:58fcacfde4464fc006888079162464b836dd1f5431f8bb28d1821aa635cd0d52
+-  __TEXT.__swift5_typeref: 0xcf6c sha256:fd819d86a1cd3147a69f3966c44b7f66ca48cb5f3cbf051f8a7ac231cfa761d7
+-  __TEXT.__swift5_builtin: 0x438 sha256:f9fac537ef619ff4d8e44fc79eca6fd2149007945f86b62e885b6c15a5e30793
+-  __TEXT.__swift5_reflstr: 0xc5d1 sha256:2704bd2255739f1d58c23029d6d8d54659ae99345ae96b1affd546558814dfef
+-  __TEXT.__swift5_fieldmd: 0x9a20 sha256:cd6f73e7cfa6231010e53a5cf6c0279799b2b5eaf45106ceb148a7992552cd40
+-  __TEXT.__swift5_assocty: 0x1b98 sha256:5290a33a3ec090b7aef1e8a4a4c2d30f204db13ca74c01c401bd294f2f915b56
+-  __TEXT.__swift5_proto: 0x1198 sha256:6e9d41643119ea9a27cd86e96304d263bd74972aa6764b73bafe1545d51f35d1
+-  __TEXT.__swift5_types: 0x954 sha256:7804e99c3df5b758449297873b1372cc044efe7e5e86021458ef3f67a79fd325
+-  __TEXT.__swift5_capture: 0x701c sha256:33c4746c4a541bae0b57a45818a3fa51338f693c43437b10a90c9a3803eacc67
+-  __TEXT.__swift_as_entry: 0x488 sha256:da6af709e180fa48d279d323a6bf1f0a8a3e43a710f0c15432fffbc0a8135f70
+-  __TEXT.__swift_as_ret: 0x35c sha256:6525d6ab430c595cad1dc64b7be474a998a6887fdf8ba170eb468892be70c47d
+-  __TEXT.__swift_as_cont: 0x4c4 sha256:0e043f73e858152e7026ba26364e82fc5f60be9258b908dedd7056d5b796438d
+-  __TEXT.__swift5_mpenum: 0x5c sha256:c52df1c9c6b9ffece3e73480d98d91763a6b488c0e1150323b1a2a3555c6e645
+-  __TEXT.__swift5_protos: 0xd8 sha256:f3d4b0e5ff135753c5783ed8425da6302093bd266ba7c89d08f35b0b8ee73545
+-  __TEXT.__unwind_info: 0x12060 sha256:9e14b5d8e43e2708d1dd5921b25555dc6f12e318d23aeddd3d94b35753c8ca08
+-  __TEXT.__eh_frame: 0x8c3c sha256:dcfa1f461c6b43c527c8ca402dbbb62f291abbda444e01d5ff027aabbf759908
++  __TEXT.__constg_swiftt: 0x11c8c sha256:0df3ffd440cc899b589b2088f44a9ee80df7da8ac9a6dcab97ee3222117f5f6b
++  __TEXT.__swift5_typeref: 0xd0cc sha256:09bc7ab83957c8347a0eb1cb7d97558c499b1f8e11a7b19ff407a3ad359a78f3
++  __TEXT.__swift5_builtin: 0x438 sha256:4b7fde824f0ba5194ec1f813f71c68b6be7bb99e58463a7f602223b6a27d1cfc
++  __TEXT.__swift5_reflstr: 0xc641 sha256:aadef24987aa20e65c8edb05b9b80bc1ff2bfa899f29c31c2c6742f8b93f23d0
++  __TEXT.__swift5_fieldmd: 0x9a88 sha256:3b885cef07c5e8b17da0dc2ac49dc608c3d44ccea5ac021673e31713fa08f5fd
++  __TEXT.__swift5_assocty: 0x1bb0 sha256:399869d0d78f9c0764a50dc7b5243561b1098af7e30cb7d66ebcda98bd1dfcb6
++  __TEXT.__swift5_proto: 0x11a0 sha256:1762fc0d1bf6493e208e1971c6d0b43064a4c877bae0b04ff7fb8d07a8b085af
++  __TEXT.__swift5_types: 0x95c sha256:5d02cec697d3534056ba07544936d92f2219463b371a67d330f2ff75049f9fc0
++  __TEXT.__swift5_capture: 0x7138 sha256:69430e1371cc8689dd50631181d8320fbee2cc5e9f709a34f4cdc9cceaad8a29
++  __TEXT.__swift_as_entry: 0x490 sha256:f5e4a77664736007c2a946c21864943e5b8111b71f438c998a51ac188a94178d
++  __TEXT.__swift_as_ret: 0x35c sha256:883b4045f678083f033269079c26b52cbf2e959c35709f9d94f3eda4a6286cec
++  __TEXT.__swift_as_cont: 0x4d0 sha256:55682f6458e5ed870d955be9abbef7697986b118b9efe347626131ac284033cf
++  __TEXT.__swift5_mpenum: 0x5c sha256:8500d9fe98c490e43c7fc2097506203a5f56880f0c031db13b35c0c5ca84ea8c
++  __TEXT.__swift5_protos: 0xd8 sha256:d61256d802b8482e54cb8736bcc1fc4e05813830567399ddd715ff5b5e9745bc
++  __TEXT.__unwind_info: 0x122b0 sha256:d8076f48b41f816c966bd8f2956ac158a81aefefe344806aa93de9e9361cb378
++  __TEXT.__eh_frame: 0x8dac sha256:7d7377aa9f834aaeb733693d826e1afdec562333ad9303087513ccdfce1b4476
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x6448 sha256:4d5deaafb2f8468825dc465b0e364495d3594ccbb61989bb6329e50cc7d16fda
+-  __DATA_CONST.__objc_classlist: 0x1080 sha256:fbeec512500d8cb3560c64b3445ba3015f7cf5bd9ebb13f67bd2fd3fe8fcd306
+-  __DATA_CONST.__objc_catlist: 0x180 sha256:634130dde487e4afe44bfc9163c532c769c0dbbdeadb50531b1215cc4644b92a
+-  __DATA_CONST.__objc_protolist: 0x788 sha256:c8ebb9b828ae14be01235bfd8f64dbdd66c1df54be4bbdd4f84469a9402af25a
++  __DATA_CONST.__const: 0x6508 sha256:51d3400d6a8e3fbb34f6d7fb7bcd7ff8cae7e8892709670547eb81ccc9659abe
++  __DATA_CONST.__objc_classlist: 0x10b0 sha256:a79cf0cc11836980a0833068c7d5d07d75c330e3fdd554247833bd10fd4b7f59
++  __DATA_CONST.__objc_catlist: 0x180 sha256:dee4f33462db20b148a079415bee6149594faaebc40c42ed2ea717fd43f3613d
++  __DATA_CONST.__objc_protolist: 0x788 sha256:adb934c30e60f857964a4d0c31820d1095197d9a57d9d97bd38bcb77975699fe
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x10098 sha256:c99910611d2bfd341922d20c440856dba32e87c185cc7c5a7172598a36117931
+-  __DATA_CONST.__objc_protorefs: 0x260 sha256:d1377b3b212ae1b33239ddb1a3a9c462a3a25a4d251af6e8f8a031d4e712d371
+-  __DATA_CONST.__objc_superrefs: 0x7c8 sha256:631c1b7ded7d470315c75316b13f125ff42b555c16cedabe9c5dc2dedfd5b7bf
+-  __DATA_CONST.__objc_arraydata: 0x2e8 sha256:97343b4197a13e1d7e645857bee0350500f1b5717271cbe4a411df87a3aa130c
+-  __DATA_CONST.__got: 0x2878 sha256:c6746c68a6ce33912d7b2ee65b7efea1cfbeaa1d88213e7fd618b27a0548aa57
+-  __AUTH_CONST.__const: 0x206a0 sha256:150da8e34f5273ce960b47ce9b5a5570d7700c5da56f7e967a683aee150e6e6d
+-  __AUTH_CONST.__cfstring: 0xa8e0 sha256:8c99a3f70ed8af29364cb042e141fc842f4baaa3572716e49ca79978e4d43c81
+-  __AUTH_CONST.__objc_const: 0x3a840 sha256:e0f5fafe2bc44209028033ed970bc86bd81a9d240431c41aed678194fc51205a
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:33a79679efb69e90269fe6dc2dc9b793280fd830eba1f9e6fe9f83b921b11a18
+-  __AUTH_CONST.__objc_intobj: 0x5e8 sha256:49dab2586f572ea5d4a8bb78f4c950b94149e3139f50f1a1a8e997207546917c
+-  __AUTH_CONST.__objc_arrayobj: 0x258 sha256:e85f59ce140113e5103e36e862452a71b41e6352b7bb95545bf5859c2899d5e5
+-  __AUTH_CONST.__objc_doubleobj: 0x130 sha256:cb54308d0e8c581e887c1f492e845e060f223a20daa6306093f91b5bd7417209
+-  __AUTH_CONST.__auth_got: 0x3828 sha256:b6326ebad33657b94141924d67f512a10aeb88002b27dfd2a0f28d8b302265c1
+-  __AUTH.__objc_data: 0x10bd0 sha256:4889979d73f40683edaca3abf6b5c54f212ad558508938e5ea33efad913c3b76
+-  __AUTH.__data: 0x7fc8 sha256:bf903db42fa0c055c734271fa8d0d6578e4993a5c9fca37fdca204752780f791
+-  __DATA.__objc_ivar: 0x1c9c sha256:fe4fd82e44150d712d229b729d91ab69e6ab9eebcfae9110a5e27fdf9e5d3dd6
+-  __DATA.__data: 0xe088 sha256:600165b31d4ad6d3a6a27d418eb706c45efea0f9ad5eb97d6054c2b4d59cdaeb
+-  __DATA.__objc_stublist: 0x30 sha256:ddb8c88d5361bc52781371977bf3fbfe09f14a6dcef3ceef0b87fca64ea1426a
+-  __DATA.__bss: 0x20950 sha256:408eed9296b9611aa568a2e45233ea4108ba3de439751d036cb9c2c912eb0ab1
++  __DATA_CONST.__objc_selrefs: 0x10288 sha256:d2be7e8c455022dda4d22b6f4481dc31ded8f99467487dbf76f92b41564eeb49
++  __DATA_CONST.__objc_protorefs: 0x260 sha256:ba7644de2393dc58355b95fb7c02d9160100202715968d50b5c592bb0bf002e2
++  __DATA_CONST.__objc_superrefs: 0x7d0 sha256:8f3f77d84b66d9a432067c940d80751f351ac69384bbb4b4ef1583ea5cb96aec
++  __DATA_CONST.__objc_arraydata: 0x2e8 sha256:77fbef1e4254039b7d86fbdc3876941e0ef8ab141db7a0dc179eb759fa2e9951
++  __DATA_CONST.__got: 0x28f0 sha256:d3edacc19d56617d6373382a9e75d9605250cabae5364b2af75f2009c31138eb
++  __AUTH_CONST.__const: 0x20b30 sha256:092bff937fa122ccb6efab97fca10dfb6bbdbb4c3c429171b78e3b9e63349489
++  __AUTH_CONST.__cfstring: 0xaac0 sha256:c85ef0109a7b54d78dcf61b84d98fc68d299cbd753727fca0e68466aee450127
++  __AUTH_CONST.__objc_const: 0x3afd8 sha256:1869af1c72f24085e1a6d435de8c9d96b4d3fbbf4af2de0159df0885907069c2
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:611ff31069095036d9438de548c30ee90e13cc383261d10014d9001986889e1d
++  __AUTH_CONST.__objc_intobj: 0x5e8 sha256:3a511806963d22391efb1a6b901865f6fb1bf1ebd6047796845c58acba98a318
++  __AUTH_CONST.__objc_arrayobj: 0x258 sha256:977365414d52bb1ad7a71105c642501f3c358ab4b3d893595d76af8909c2759d
++  __AUTH_CONST.__objc_doubleobj: 0x130 sha256:7e27a5f95ce6fc8f7bbaaf08473c99d8fad4ef2145a45e7f7815d6b79bde8460
++  __AUTH_CONST.__auth_got: 0x3900 sha256:089d4963e6b5e412ff791105a673a169582a7fc43bcf9f1d28e91696f600f8ea
++  __AUTH.__objc_data: 0x10ed0 sha256:26abc0d6296aaed7940877ec62dbb798b5245312a10e32081fff1ff99c080dde
++  __AUTH.__data: 0x8088 sha256:6b6e922cbf0297024f66ecd4c45f8159fa2518c2fd3855f0b0e6ad4628745293
++  __DATA.__objc_ivar: 0x1cc8 sha256:2967dec4d8d73b6268cdc4f5091010fc118d2369e045e6fdf6a1349ebb269666
++  __DATA.__data: 0xe178 sha256:e27ca6de9dcb81301a0e7911caa441b838638347aaf581effe6b3a16563fbfd4
++  __DATA.__objc_stublist: 0x30 sha256:6ecaaa741726bf83e4653f68f4d47f8f8566978abb00f6dc16b7cf621a17af73
++  __DATA.__bss: 0x20a60 sha256:b379a6012b7589386f39a5c7e67528dd7ceb5c5fa1513d7f8c06ef87d78ac284
+   __DATA.__common: 0xce1 sha256:f0a1d6ea759218411107c2dbb2132bb37ff2f1e22517b0595d7caa80b18cd9af
+-  __DATA_DIRTY.__objc_data: 0x4950 sha256:ef813395ba25f4308ec335783214f992f79978ddfede2bb3a74f447191b868ac
+-  __DATA_DIRTY.__data: 0x16f8 sha256:56ff81f7c414c232a5d6141c27ffb39f4c7d3aa7b71576cd171e717c197c29c1
++  __DATA_DIRTY.__objc_data: 0x4950 sha256:f8229e661f1a1ded6c7a3b8f18b256e2190ada0f13905ed0e91f76e082618776
++  __DATA_DIRTY.__data: 0x16f8 sha256:271e83b59430bd40452286df4d588fa0b322822362908a6057b952218a582cde
+   __DATA_DIRTY.__bss: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+   __DATA_DIRTY.__common: 0x240 sha256:2ab59fc11a30400c914d588523888dae845717b453aa97caadd20b1d18329cdb
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E10EC824-CAB8-3AC3-9E94-71A2A6668F04
+-  Functions: 26532
+-  Symbols:   40064
+-  CStrings:  3922
++  UUID: 01FAAE56-E608-3A83-9DBA-E82194B398B6
++  Functions: 26737
++  Symbols:   40348
++  CStrings:  3953
+ 
+Symbols:
++ +[SFTraitIsInSegmentedViewController defaultValue]
++ +[SFTraitIsInSegmentedViewController identifier]
++ +[SFTraitIsInSegmentedViewController name]
++ -[SFClusterPreviewItem mediaStateMuteButtonTapHandler]
++ -[SFClusterPreviewItem setMediaStateMuteButtonTapHandler:]
++ -[SFClusterPreviewItemConfiguration mediaStateIcon]
++ -[SFClusterPreviewItemConfiguration setMediaStateIcon:]
++ -[SFClusterPreviewItemView _accessibilityLabelForMediaStateIcon:]
++ -[SFClusterPreviewItemView _fadeView:visible:additionalAnimations:isStillVisible:]
++ -[SFClusterPreviewItemView _mediaStateMuteButtonTapped]
++ -[SFClusterPreviewItemView _showsMediaStateMuteButton]
++ -[SFClusterPreviewItemView _updateMediaStateMuteButton]
++ -[SFClusterPreviewItemView mediaStateMuteButtonTapHandler]
++ -[SFClusterPreviewItemView setMediaStateMuteButtonTapHandler:]
++ -[SFMagicExtensionBanner initWithMagicExtensionName:icon:errorMessage:usageDescription:state:progress:openButtonHandler:bannerTapHandler:dismissButtonHandler:]
++ -[SFNotifyMeWhenBanner _fileRadarButtonTapped]
++ -[SFNotifyMeWhenBanner _makeFileRadarButton]
++ -[SFStartPageCollectionViewController _squareSectionLayoutForEnvironment:numberOfItems:sectionSupportsPagination:]
++ -[SFStartPageCollectionViewController _viewCellSectionLayoutForEnvironment:]
++ -[SFStartPageCustomizationViewController _makeSearchDataSourcesFooterRegistration]
++ -[SFStartPageCustomizationViewController _makeSearchDataSourcesHeaderRegistration]
++ -[SFStartPageCustomizationViewController _makeSearchDataSourcesToggleRegistration]
++ -[SFStartPageCustomizationViewController searchSectionFooterTextForIsRecentSearchesEnabled:]
++ -[SFStartPageSectionHeader _updateCompositingFiltersForButtons]
++ -[SFStartPageViewController rootViewVisibilityObserver]
++ -[SFStartPageViewController setRootViewVisibilityObserver:]
++ -[SFStartPageViewController setTopScrollEdgeEffectUserInterfaceStyle:]
++ -[SFStartPageViewController topScrollEdgeEffectUserInterfaceStyle]
++ -[SFUnifiedBar _indexes:ofItems:containAllItemsInGroupWithIdentifier:]
++ -[SFUnifiedBarItemGroupContainerView setTransitioning:]
++ -[SFUnifiedBarItemGroupContainerView transitioning]
++ -[SFUnifiedTabBarItemView showsSearchIconInTitleContainer]
++ -[SFUnifiedTabBarLayout _outsetsItem:]
++ -[SFUnifiedTabBarLayout outsetsSingleItem]
++ -[SFUnifiedTabBarScrollView alwaysCancelsContentTouches]
++ -[SFUnifiedTabBarScrollView setAlwaysCancelsContentTouches:]
++ -[SFUnifiedTabBarScrollView touchesShouldCancelInContentView:]
++ -[UIColor(MobileSafariExtras) safari_adaptiveGlassUserInterfaceStyle]
++ -[UITraitCollection(MobileSafariExtras) safari_isInSegmentedViewController]
++ GCC_except_table94
++ GCC_except_table98
++ _OBJC_CLASS_$_SFBrowsingAssistantFavoritedMenuActionsStore
++ _OBJC_CLASS_$_SFEnhancedSiriAvailabilityMonitor
++ _OBJC_CLASS_$_SFRecentSearchesStartPageController
++ _OBJC_CLASS_$_SFStartPageHostedViewCell
++ _OBJC_CLASS_$_SFTraitIsInSegmentedViewController
++ _OBJC_CLASS_$_SFUnifiedTabBarScrollView
++ _OBJC_CLASS_$_UIScrollEdgeEffect
++ _OBJC_CLASS_$_WBSCompletionQuery
++ _OBJC_CLASS_$_WBSMagicExtensionsController
++ _OBJC_CLASS_$_WBSTrialSearchParameters
++ _OBJC_IVAR_$_SFClusterPreviewItem._mediaStateMuteButtonTapHandler
++ _OBJC_IVAR_$_SFClusterPreviewItemConfiguration._mediaStateIcon
++ _OBJC_IVAR_$_SFClusterPreviewItemView._mediaStateMuteButton
++ _OBJC_IVAR_$_SFClusterPreviewItemView._mediaStateMuteButtonTapHandler
++ _OBJC_IVAR_$_SFNotifyMeWhenBanner._fileRadarButton
++ _OBJC_IVAR_$_SFStartPageCustomizationViewController._identifierToSearchDataSourceCustomizationItemMap
++ _OBJC_IVAR_$_SFStartPageViewController._rootViewVisibilityObserver
++ _OBJC_IVAR_$_SFStartPageViewController._topScrollEdgeEffectUserInterfaceStyle
++ _OBJC_IVAR_$_SFUnifiedBarItemGroupContainerView._transitioning
++ _OBJC_IVAR_$_SFUnifiedTabBarItemView._showsSearchIcon
++ _OBJC_IVAR_$_SFUnifiedTabBarScrollView._alwaysCancelsContentTouches
++ _OBJC_METACLASS_$_SFBrowsingAssistantFavoritedMenuActionsStore
++ _OBJC_METACLASS_$_SFEnhancedSiriAvailabilityMonitor
++ _OBJC_METACLASS_$_SFRecentSearchesStartPageController
++ _OBJC_METACLASS_$_SFStartPageHostedViewCell
++ _OBJC_METACLASS_$_SFTraitIsInSegmentedViewController
++ _OBJC_METACLASS_$_SFUnifiedTabBarScrollView
++ _SFBrowsingAssistantMenuSectionIdentifierCustomize
++ _SFBrowsingAssistantMenuSectionIdentifierEditPrivacyAndSecurityActions
++ _SFBrowsingAssistantMenuSectionIdentifierEditTabActions
++ _SFDefaultActionsMenuFavoritedActions
++ _SFDefaultActionsMenuFavoritedActions.cold.1
++ _SFDefaultActionsMenuFavoritedActions.defaultFavoritedActions
++ _SFDefaultActionsMenuFavoritedActions.onceToken
++ _SFDidMigratePreActionsMenuFavoritedMenuActionsKey
++ _SFIsMenuActionConfigurable.onceToken.250
++ _WBSRecentSearchesWereUpdated
++ _WBSShouldDisplayRecentSearchesInStartPageKey
++ _WBSStartPageSectionRecentSearches
++ _WBSStartPageSectionResumeBrowsing
++ __CATEGORY_INSTANCE_METHODS_UIScrollEdgeEffect_$_MobileSafariFrameworkExtras_Swift
++ __CATEGORY_PROPERTIES_UIScrollEdgeEffect_$_MobileSafariFrameworkExtras_Swift
++ __CATEGORY_UIScrollEdgeEffect_$_MobileSafariFrameworkExtras_Swift
++ __CLASS_METHODS_SFEnhancedSiriAvailabilityMonitor
++ __CLASS_METHODS_SFStartPageHostedViewCell
++ __CLASS_PROPERTIES_SFEnhancedSiriAvailabilityMonitor
++ __CLASS_PROPERTIES_SFStartPageHostedViewCell
++ __DATA_SFBrowsingAssistantFavoritedMenuActionsStore
++ __DATA_SFEnhancedSiriAvailabilityMonitor
++ __DATA_SFRecentSearchesStartPageController
++ __DATA_SFStartPageHostedViewCell
++ __INSTANCE_METHODS_SFBrowsingAssistantFavoritedMenuActionsStore
++ __INSTANCE_METHODS_SFEnhancedSiriAvailabilityMonitor
++ __INSTANCE_METHODS_SFRecentSearchesStartPageController
++ __INSTANCE_METHODS_SFStartPageHostedViewCell
++ __IVARS_SFEnhancedSiriAvailabilityMonitor
++ __IVARS_SFRecentSearchesStartPageController
++ __IVARS_SFStartPageHostedViewCell
++ __METACLASS_DATA_SFBrowsingAssistantFavoritedMenuActionsStore
++ __METACLASS_DATA_SFEnhancedSiriAvailabilityMonitor
++ __METACLASS_DATA_SFRecentSearchesStartPageController
++ __METACLASS_DATA_SFStartPageHostedViewCell
++ __OBJC_$_CLASS_METHODS_SFTraitIsInSegmentedViewController
++ __OBJC_$_CLASS_PROP_LIST_SFTraitIsInSegmentedViewController
++ __OBJC_$_INSTANCE_METHODS_SFUnifiedTabBarScrollView
++ __OBJC_$_INSTANCE_VARIABLES_SFUnifiedTabBarScrollView
++ __OBJC_$_PROP_LIST_SFUnifiedTabBarScrollView
++ __OBJC_CLASS_PROTOCOLS_$_SFTraitIsInSegmentedViewController
++ __OBJC_CLASS_RO_$_SFTraitIsInSegmentedViewController
++ __OBJC_CLASS_RO_$_SFUnifiedTabBarScrollView
++ __OBJC_METACLASS_RO_$_SFTraitIsInSegmentedViewController
++ __OBJC_METACLASS_RO_$_SFUnifiedTabBarScrollView
++ __PROPERTIES_SFBrowsingAssistantFavoritedMenuActionsStore
++ __PROPERTIES_SFRecentSearchesStartPageController
++ __PROTOCOLS__TtCE12MobileSafariCSo24SFNotifyMeWhenController17HostingController.41
++ __SFHighestPriorityMediaStateIcon
++ ___159-[SFMagicExtensionBanner initWithMagicExtensionName:icon:errorMessage:usageDescription:state:progress:openButtonHandler:bannerTapHandler:dismissButtonHandler:]_block_invoke
++ ___159-[SFMagicExtensionBanner initWithMagicExtensionName:icon:errorMessage:usageDescription:state:progress:openButtonHandler:bannerTapHandler:dismissButtonHandler:]_block_invoke_2
++ ___55-[SFClusterPreviewItemView _updateMediaStateMuteButton]_block_invoke
++ ___66-[SFUnifiedBar _squishAnchorPointForStandaloneContentViewAtIndex:]_block_invoke.85
++ ___68-[SFStartPageViewController previewViewControllerForItemIdentifier:]_block_invoke.113
++ ___70-[SFUnifiedBar _indexes:ofItems:containAllItemsInGroupWithIdentifier:]_block_invoke
++ ___82-[SFClusterPreviewItemView _fadeView:visible:additionalAnimations:isStillVisible:]_block_invoke
++ ___82-[SFClusterPreviewItemView _fadeView:visible:additionalAnimations:isStillVisible:]_block_invoke_2
++ ___82-[SFStartPageCustomizationViewController _makeSearchDataSourcesFooterRegistration]_block_invoke
++ ___82-[SFStartPageCustomizationViewController _makeSearchDataSourcesHeaderRegistration]_block_invoke
++ ___82-[SFStartPageCustomizationViewController _makeSearchDataSourcesToggleRegistration]_block_invoke
++ ___86-[SFUnifiedTabBar _setResolvedItemArrangement:animated:andScrollTo:completionHandler:]_block_invoke.43
++ ___86-[SFUnifiedTabBar _setResolvedItemArrangement:animated:andScrollTo:completionHandler:]_block_invoke_2.44
++ ___86-[SFUnifiedTabBar _setResolvedItemArrangement:animated:andScrollTo:completionHandler:]_block_invoke_3.45
++ ___86-[SFUnifiedTabBar _setResolvedItemArrangement:animated:andScrollTo:completionHandler:]_block_invoke_4.47
++ ___SFDefaultActionsMenuFavoritedActions_block_invoke
++ ___block_descriptor_40_ea8_32w_e63_v32?0"UICollectionViewListCell"8"NSString"16"NSIndexPath"24lw32l8
++ ___block_descriptor_48_e8_32s40bs_e8_v12?0B8ls40l8s32l8
++ ___block_descriptor_49_e8_32s40bs_e5_v8?0ls32l8s40l8
++ ___block_descriptor_57_e8_32s40s48s_e34_v32?0"NSString"8"NSValue"16^B24ls32l8s40l8s48l8
++ ___block_descriptor_64_e8_32s40s48r56r_e33_v32?0"SFUnifiedBarItem"8Q16^B24ls32l8r48l8s40l8r56l8
++ ___block_descriptor_72_ea8_32s40s48s56s64w_e81_"UICollectionReusableView"32?0"UICollectionView"8"NSString"16"NSIndexPath"24lw64l8s32l8s40l8s48l8s56l8
++ ___block_descriptor_88_ea8_32s40s48s56s64s72s80w_e67_"UICollectionViewCell"32?0"UICollectionView"8"NSIndexPath"1624lw80l8s32l8s40l8s48l8s56l8s64l8s72l8
++ ___block_literal_global.135
++ ___block_literal_global.143
++ ___block_literal_global.157
++ ___block_literal_global.192
++ ___block_literal_global.197
++ ___block_literal_global.228
++ ___block_literal_global.233
++ ___block_literal_global.235
++ ___block_literal_global.237
++ ___block_literal_global.239
++ ___block_literal_global.246
++ ___block_literal_global.248
++ ___block_literal_global.252
++ ___block_literal_global.349
++ ___block_literal_global.41
++ ___block_literal_global.439
++ ___block_literal_global.62
++ ___block_literal_global.67
++ ___block_literal_global.769
++ ___block_literal_global.90
++ ___block_literal_global.98
++ ___swift__destructor.130
++ ___swift__destructor.167
++ ___swift__destructor.32
++ ___swift__destructor.689
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.133
++ ___swift_closure_destructor.170
++ ___swift_closure_destructor.176
++ ___swift_closure_destructor.53Tm
++ ___swift_closure_destructor.655
++ ___swift_closure_destructor.659
++ ___swift_closure_destructor.663
++ ___swift_closure_destructor.670
++ ___swift_closure_destructor.674
++ ___swift_closure_destructor.678
++ ___swift_closure_destructor.686
++ ___swift_closure_destructor.69Tm
++ _block_copy_helper.110
++ _block_copy_helper.189
++ _block_copy_helper.46
++ _block_copy_helper.666
++ _block_copy_helper.681
++ _block_copy_helper.92
++ _block_descriptor.112
++ _block_descriptor.191
++ _block_descriptor.48
++ _block_descriptor.668
++ _block_descriptor.683
++ _block_descriptor.94
++ _block_destroy_helper.111
++ _block_destroy_helper.190
++ _block_destroy_helper.47
++ _block_destroy_helper.667
++ _block_destroy_helper.682
++ _block_destroy_helper.93
++ _keypath_get_selector_recentSearchesSectionChanged
++ _objc_msgSend$_accessibilityLabelForMediaStateIcon:
++ _objc_msgSend$_fadeView:visible:additionalAnimations:isStillVisible:
++ _objc_msgSend$_fixedUserInterfaceStyle
++ _objc_msgSend$_indexes:ofItems:containAllItemsInGroupWithIdentifier:
++ _objc_msgSend$_makeFileRadarButton
++ _objc_msgSend$_makeSearchDataSourcesFooterRegistration
++ _objc_msgSend$_makeSearchDataSourcesHeaderRegistration
++ _objc_msgSend$_makeSearchDataSourcesToggleRegistration
++ _objc_msgSend$_outsetsItem:
++ _objc_msgSend$_scrollToRevealNavigationBarPart:animated:
++ _objc_msgSend$_setDisablePlaybackControls:
++ _objc_msgSend$_setFixedUserInterfaceStyle:
++ _objc_msgSend$_showsMediaStateMuteButton
++ _objc_msgSend$_squareSectionLayoutForEnvironment:numberOfItems:sectionSupportsPagination:
++ _objc_msgSend$_updateCompositingFiltersForButtons
++ _objc_msgSend$_viewCellSectionLayoutForEnvironment:
++ _objc_msgSend$completionListContentHeight
++ _objc_msgSend$didMigrateAutoFillFeedbackOutOfFavoritedMenuActions
++ _objc_msgSend$didMigratePreActionsMenuFavoritedMenuActions
++ _objc_msgSend$favoritedMenuActions
++ _objc_msgSend$footerConfiguration
++ _objc_msgSend$hasRecentSearches
++ _objc_msgSend$initWithQueryString:
++ _objc_msgSend$isExtensionManagementRestricted
++ _objc_msgSend$isResumeBrowsingEnabled
++ _objc_msgSend$notifyMeWhenBannerDidTapFileRadar:
++ _objc_msgSend$outsetsSingleItem
++ _objc_msgSend$persistentDomainForName:
++ _objc_msgSend$persistentDomainSettings
++ _objc_msgSend$playbackRate
++ _objc_msgSend$recentSearchesController:didSelectSearchString:
++ _objc_msgSend$recentSearchesSectionChanged
++ _objc_msgSend$relayoutCompletionListHostingController
++ _objc_msgSend$safari_adaptiveGlassUserInterfaceStyle
++ _objc_msgSend$safari_isInSegmentedViewController
++ _objc_msgSend$searchSectionFooterTextForIsRecentSearchesEnabled:
++ _objc_msgSend$setAlwaysCancelsContentTouches:
++ _objc_msgSend$setCompletionListContentHeight:
++ _objc_msgSend$setDidMigrateAutoFillFeedbackOutOfFavoritedMenuActions
++ _objc_msgSend$setDidMigratePreActionsMenuFavoritedMenuActions
++ _objc_msgSend$setFavoritedMenuActions:
++ _objc_msgSend$setMediaStateMuteButtonTapHandler:
++ _objc_msgSend$setMenuActionFavorited:favorited:
++ _objc_msgSend$setRecentSearchesSectionChanged:
++ _objc_msgSend$setSafari_overrideUserInterfaceStyle:
++ _objc_msgSend$setSearchParameters:
++ _objc_msgSend$setStartPageHostedViewCell:
++ _objc_msgSend$setTopScrollEdgeEffectUserInterfaceStyle:
++ _objc_msgSend$setTransitioning:
++ _objc_msgSend$shouldPromoteRecentSearchesStartPageModuleBellowFavorites
++ _objc_msgSend$shouldPromoteRecentSearchesStartPageModuleToTheTop
++ _objc_msgSend$showsSearchIconInTitleContainer
++ _objc_msgSend$startPageHostedViewCell
++ _objc_msgSend$storedFavoritedMenuActions
++ _objc_msgSend$updateFavoritedMenuActions:
++ _objc_msgSend$viewConfigurationProvider
++ _objc_msgSend$webContentFilteringRestrictsExtensions
++ _objc_retain_x12
++ _priorityOrderedIcons
++ _symbolic SDy_____yxq_q0__GSDySSypGG 12MobileSafari21SFFluidCollectionViewC7ElementO
++ _symbolic Say_____G So29SFBrowsingAssistantMenuActiona
++ _symbolic So33SFEnhancedSiriAvailabilityMonitorCSgXw
++ _symbolic So35SFRecentSearchesStartPageControllerC
++ _symbolic So35SFRecentSearchesStartPageControllerCSgXw
++ _symbolic So44SFBrowsingAssistantFavoritedMenuActionsStoreC
++ _symbolic _____ 12MobileSafari25SFStartPageHostedViewCellC
++ _symbolic _____ 12MobileSafari34SFTraitIsInSegmentedViewControllerV
++ _symbolic _____Sg So17OS_dispatch_queueC8DispatchE16SchedulerOptionsV
++ _symbolic _____xq______XjSgXw r1_l12MobileSafari40SFFluidTabOverviewViewGridLayoutDelegate_pq_4ItemRts_x7SectionRtsq0_13SupplementaryRtsXPXGMq AA0cdeL0O
++ _symbolic _____xq______XjSgXw r1_l12MobileSafari44SFFluidTabOverviewZoomableGridLayoutDelegate_pq_4ItemRts_x7SectionRtsq0_13SupplementaryRtsXPXGMq AA0cdeL0O
++ _symbolic _____ySay_____G_G 7Combine9PublishedV9PublisherV 14SafariSharedUI24WBSCompletionListSectionV
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 012SafariSharedB021WBSCompletionListViewV
++ _symbolic _____y_____G s11_SetStorageC So29SFBrowsingAssistantMenuActiona
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14SafariSharedUI24WBSCompletionListContextV
++ _symbolic _____y________________G_SDySSypGt 12MobileSafari21SFFluidCollectionViewC7ElementO AA11TabOverviewC7SectionV AG4ItemV AA0cgH13SupplementaryO
++ _symbolic _____y______ySay_____G_GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA9PublishedV9PublisherV 14SafariSharedUI24WBSCompletionListSectionV
++ _symbolic _____y_____y________________GSDySSypGG s18_DictionaryStorageC 12MobileSafari21SFFluidCollectionViewC7ElementO AC11TabOverviewC7SectionV AI4ItemV AC0eiJ13SupplementaryO
+- -[NSUserDefaults(BrowsingAssistantExtras) browsingAssistant_favoritedMenuActions]
+- -[NSUserDefaults(BrowsingAssistantExtras) browsingAssistant_isMenuActionFavorited:]
+- -[NSUserDefaults(BrowsingAssistantExtras) browsingAssistant_setFavoritedMenuActions:]
+- -[NSUserDefaults(BrowsingAssistantExtras) browsingAssistant_setMenuActionFavorited:favorited:]
+- -[SFMagicExtensionBanner initWithMagicExtensionName:icon:errorMessage:state:progress:openButtonHandler:bannerTapHandler:dismissButtonHandler:]
+- -[SFStartPageCollectionViewController _squareSectionLayoutForEnvironment:numberOfItems:]
+- GCC_except_table113
+- _SFBrowsingAssistantMenuSectionIdentifierCustomizeAndWebsiteSettings
+- _SFIsMenuActionConfigurable.onceToken.242
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSUserDefaults_$_BrowsingAssistantExtras
+- __OBJC_$_CATEGORY_NSUserDefaults_$_BrowsingAssistantExtras
+- __OBJC_$_PROP_LIST_NSUserDefaults_$_BrowsingAssistantExtras
+- __PROTOCOLS__TtCE12MobileSafariCSo24SFNotifyMeWhenController17HostingController.31
+- ___142-[SFMagicExtensionBanner initWithMagicExtensionName:icon:errorMessage:state:progress:openButtonHandler:bannerTapHandler:dismissButtonHandler:]_block_invoke
+- ___142-[SFMagicExtensionBanner initWithMagicExtensionName:icon:errorMessage:state:progress:openButtonHandler:bannerTapHandler:dismissButtonHandler:]_block_invoke_2
+- ___66-[SFUnifiedBar _squishAnchorPointForStandaloneContentViewAtIndex:]_block_invoke.80
+- ___68-[SFStartPageViewController previewViewControllerForItemIdentifier:]_block_invoke.112
+- ___81-[NSUserDefaults(BrowsingAssistantExtras) browsingAssistant_favoritedMenuActions]_block_invoke
+- ___86-[SFUnifiedTabBar _setResolvedItemArrangement:animated:andScrollTo:completionHandler:]_block_invoke.33
+- ___86-[SFUnifiedTabBar _setResolvedItemArrangement:animated:andScrollTo:completionHandler:]_block_invoke_2.34
+- ___86-[SFUnifiedTabBar _setResolvedItemArrangement:animated:andScrollTo:completionHandler:]_block_invoke_3.35
+- ___86-[SFUnifiedTabBar _setResolvedItemArrangement:animated:andScrollTo:completionHandler:]_block_invoke_4.37
+- ___block_descriptor_32_e18_B16?0"NSString"8l
+- ___block_descriptor_41_e8_32s_e34_v32?0"NSString"8"NSValue"16^B24ls32l8
+- ___block_descriptor_56_ea8_32s40s48w_e81_"UICollectionReusableView"32?0"UICollectionView"8"NSString"16"NSIndexPath"24lw48l8s32l8s40l8
+- ___block_descriptor_80_ea8_32s40s48s56s64s72w_e67_"UICollectionViewCell"32?0"UICollectionView"8"NSIndexPath"1624lw72l8s32l8s40l8s48l8s56l8s64l8
+- ___block_literal_global.130
+- ___block_literal_global.144
+- ___block_literal_global.172
+- ___block_literal_global.178
+- ___block_literal_global.222
+- ___block_literal_global.227
+- ___block_literal_global.229
+- ___block_literal_global.234
+- ___block_literal_global.236
+- ___block_literal_global.238
+- ___block_literal_global.240
+- ___block_literal_global.247
+- ___block_literal_global.345
+- ___block_literal_global.414
+- ___block_literal_global.47
+- ___block_literal_global.63
+- ___block_literal_global.66
+- ___block_literal_global.759
+- ___block_literal_global.80
+- ___block_literal_global.88
+- ___swift__destructor.123
+- ___swift__destructor.158
+- ___swift__destructor.22
+- ___swift__destructor.688
+- ___swift_closure_destructor.142
+- ___swift_closure_destructor.146
+- ___swift_closure_destructor.167
+- ___swift_closure_destructor.654
+- ___swift_closure_destructor.658
+- ___swift_closure_destructor.662
+- ___swift_closure_destructor.669
+- ___swift_closure_destructor.673
+- ___swift_closure_destructor.677
+- ___swift_closure_destructor.685
+- ___swift_closure_destructor.71Tm
+- ___swift_closure_destructor.82
+- ___swift_closure_destructor.92
+- _block_copy_helper.101
+- _block_copy_helper.115
+- _block_copy_helper.125
+- _block_copy_helper.180
+- _block_copy_helper.60
+- _block_copy_helper.665
+- _block_copy_helper.680
+- _block_descriptor.103
+- _block_descriptor.117
+- _block_descriptor.127
+- _block_descriptor.182
+- _block_descriptor.62
+- _block_descriptor.667
+- _block_descriptor.682
+- _block_destroy_helper.102
+- _block_destroy_helper.116
+- _block_destroy_helper.126
+- _block_destroy_helper.181
+- _block_destroy_helper.61
+- _block_destroy_helper.666
+- _block_destroy_helper.681
+- _keypath_get_selector_controlsAreHiddenForSnapshot
+- _objc_msgSend$_setClipUnderlapWhileTransitioning:
+- _objc_msgSend$_squareSectionLayoutForEnvironment:numberOfItems:
+- _objc_msgSend$browsingAssistant_favoritedMenuActions
+- _objc_msgSend$browsingAssistant_setFavoritedMenuActions:
+- _objc_msgSend$controlsAreHiddenForSnapshot
+- _objc_msgSend$isWebFilterEnabled
+- _objc_msgSend$safari_arrayByRemovingObject:
+- _objc_msgSend$setControlsAreHiddenForSnapshot:
+- _objc_msgSend$setFavorited:
+- _objc_msgSend$snapshotTopInsetAdjustment
+- _symbolic SDy_____ypG s11AnyHashableV
+- _symbolic SDy_____yxq_q0__GSDy_____ypGG 12MobileSafari21SFFluidCollectionViewC7ElementO s11AnyHashableV
+- _symbolic _____y________________G_SDy_____ypGt 12MobileSafari21SFFluidCollectionViewC7ElementO AA11TabOverviewC7SectionV AG4ItemV AA0cgH13SupplementaryO s11AnyHashableV
+- _symbolic _____y_____y________________GSDy_____ypGG s18_DictionaryStorageC 12MobileSafari21SFFluidCollectionViewC7ElementO AC11TabOverviewC7SectionV AI4ItemV AC0eiJ13SupplementaryO s11AnyHashableV
+CStrings:
++ "Camera active in topic"
++ "Camera muted in topic"
++ "Microphone active in topic"
++ "Microphone muted in topic"
++ "MobileSafari.SFEnhancedSiriAvailabilityMonitor"
++ "Mute topic audio"
++ "PageMenuSectionCustomize"
++ "PageMenuSectionEditPrivacyAndSecurityActions"
++ "PageMenuSectionEditTabActions"
++ "Privacy & Security"
++ "Recent searches will appear on the Start Page when navigating from an existing tab."
++ "Recent searches will appear only when searching."
++ "SFDidMigratePreActionsMenuFavoritedMenuActions"
++ "Search (Start Page Customization)"
++ "Something Isn’t Right"
++ "This will close %zu tabs that aren’t in a Tab Group."
++ "Unmute topic audio"
++ "isInSegmentedViewController"
++ "ladybug"
++ "search-customization-items"
++ "\xd1"
+- "PageMenuSectionCustomizeAndWebsiteSettings"
+- "Something Isn't Right"
+- "This will close %zu tabs that aren't in a Tab Group."
+- "\xf0!"
+
+```

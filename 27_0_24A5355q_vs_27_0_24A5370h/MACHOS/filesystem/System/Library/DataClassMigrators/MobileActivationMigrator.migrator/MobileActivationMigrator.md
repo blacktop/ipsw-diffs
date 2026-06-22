@@ -1,0 +1,145 @@
+## MobileActivationMigrator
+
+> `/System/Library/DataClassMigrators/MobileActivationMigrator.migrator/MobileActivationMigrator`
+
+```diff
+
+-1137.0.0.0.0
+-  __TEXT.__text: 0x2d68 sha256:b982facaa5b9ef9036941a6b2dd5a7040ff8bb74d0c0c48f8a6ace5def956a98
+-  __TEXT.__auth_stubs: 0x2f0 sha256:ca0707a88e6c492dc3b442a047623bfda0614a384a78c05e95f6e5512e708d6a
+-  __TEXT.__objc_stubs: 0x860 sha256:6705d46bb251fa68c005f9889462483a83258eadbe198579f1264fac49cfce79
+-  __TEXT.__objc_methlist: 0x334 sha256:1ae10c15f030679cf4929cf62758458680ac08cbea920f08426a3f2d74230407
+-  __TEXT.__cstring: 0x3424 sha256:0624d4b0f9568fe6efecbe31fbaa29da97305e2809fd928e7be0e5dd32463a59
++1144.0.0.0.0
++  __TEXT.__text: 0x2d60 sha256:10cd09fbf1909dad40701a9c4d3eadd67b67715eb0f3dc41cafc56b380c6a5fa
++  __TEXT.__auth_stubs: 0x2f0 sha256:0c2b18b7865c91fb7d784ac25f2d60dcea8146c5386cf743edc2a3e32c2e0536
++  __TEXT.__objc_stubs: 0x860 sha256:86e60786db986dfb3324403977dec7829f17559b551aaed4358a2365a7b862d8
++  __TEXT.__objc_methlist: 0x334 sha256:85f3e6f5ef041e3ef1aa0cd86b7016d936cabf1c5c1f1a79992c13360a80dac2
++  __TEXT.__cstring: 0x3451 sha256:ec5dbae8815ea3dec0d1e672c8e02dd4d4b6a33e5541ad8d722d567a41ef18a3
+   __TEXT.__objc_classname: 0x47 sha256:297298a9634b1ab293522573a3b27d8a14b38fe65e17a873b3122c5c6945519c
+   __TEXT.__objc_methname: 0xcad sha256:005815a8ec6fc022773e3ab986e9672aba9c266b6a8ce698f0ae69d44ad5c496
+   __TEXT.__objc_methtype: 0x2da sha256:7f7bc2173f13a58e60ac272ab965984c998c5cbf7184dcaca7d414fde7f537ee
+   __TEXT.__const: 0x38 sha256:1ab5566df1130d4aabbc1440dea961932c1d1bece48a9e2ef7d84319c05d6e9b
+   __TEXT.__oslogstring: 0x53 sha256:8a2c73a8c9e0439acf4dd0c4da8a19c3631c312dfdaa2d8dc153d9d13c276acb
+   __TEXT.__gcc_except_tab: 0x2c sha256:771ce7c24c2bdb9ef79fb41063b432da713a9d9798d53986ecb61087f544e0ae
+-  __TEXT.__unwind_info: 0x140 sha256:066419b6639a39f61fc4a08a4bd7a52248e9fe6b69b54d03ee9e7f8a62afba71
+-  __DATA_CONST.__const: 0x1028 sha256:c6a7d97d3daa52909d715fd30b5321f7dc219e6c20c48968c6ac37be018b709a
+-  __DATA_CONST.__cfstring: 0x5200 sha256:c98d54f02f17f5ca066fb3a07de3d9d6c1ea7422fdcd737b2659de01c48363fc
++  __TEXT.__unwind_info: 0x140 sha256:6975c095f68ff9d726d38f4d042fc9ba0922419854818e814425232594d338fb
++  __DATA_CONST.__const: 0x1030 sha256:6908dc064818430810f777f7332e26c473fa31d09ac94ca4256be2f8be10d9b3
++  __DATA_CONST.__cfstring: 0x5220 sha256:810c78785f2843844d2dfa9703b58529b7256ace5cea0886383bf8ee73215bba
+   __DATA_CONST.__objc_classlist: 0x10 sha256:7ee14f570bf13270e0440bed35b03c7445c9c0358c5d025cdadd9dde0d29ec25
+   __DATA_CONST.__objc_protolist: 0x10 sha256:a9f4469d94697579dfe47c999145abfdc14ad11692f8f51573710fb7167c09de
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__objc_protorefs: 0x8 sha256:b0c6c7126bdc5853bccd7a6a5c67d3d94e2f9ab7fa0f515834554e4e9fac08bc
+-  __DATA_CONST.__objc_arraydata: 0x588 sha256:1eb7448fd1167c48c889fefc7f6b16c8d6530eb32bd26e44e1a349b1c2c1baa5
+-  __DATA_CONST.__objc_arrayobj: 0x60 sha256:1e9eb66ca5c13b1c17cb5325ad11b40b23e67b68c31bacaba04c4da79d3400b3
++  __DATA_CONST.__objc_arraydata: 0x5a0 sha256:807f17de5e2c123cb4916478a45fba36de14f14a1d6dfae54df0c6f9a5a87220
++  __DATA_CONST.__objc_arrayobj: 0x60 sha256:53642faea7b4c1c84ee6acfd5cad7af58133d4548259b3ff12703652653b39bf
+   __DATA_CONST.__auth_got: 0x188 sha256:0d3469970025ba5a03893e6f2d629444c4a7e23b182e66b7afad7e7a23c7f4dd
+   __DATA_CONST.__got: 0xd8 sha256:7ac28d16bbb464a7b2cb607e8be5e46e83dbf1439198dbb7aebef6c3bb673b29
+   __DATA_CONST.__auth_ptr: 0x8 sha256:c1054f573eac044d0288bce6d7c00ea2aeb153360c3815309c2360f39f4e052b
+-  __DATA.__objc_const: 0x330 sha256:3cdbb01d66b1376f5725a032007670c4ae1da50ce1107865f6c86a4f6d6dc051
+-  __DATA.__objc_selrefs: 0x3e0 sha256:891fd8b40a5d73ac5d3b434642650214285ec043a9e853dca2df2dadfe8186a2
++  __DATA.__objc_const: 0x330 sha256:31343c5bbec653a579c028a8abc916df0fa8c8b2106e826bad7cc1e116010e20
++  __DATA.__objc_selrefs: 0x3e0 sha256:2e21f6fff6f2e6ed17f473102937de426547657fecd8e7fb3fb7f40cde9722c9
+   __DATA.__objc_data: 0xa0 sha256:3fb016b9c186e1ec2f4ed4a245b6c0d8f59d3dc0314679788a6f9482a48495fd
+-  __DATA.__data: 0xd0 sha256:92017f68cdcd17ad195a5ab4c8b2138ce226e8f1ab322137eb752e42da24bfbc
++  __DATA.__data: 0xd0 sha256:3667ba2f279a72088da57e843995b8240eb75cfc01598f71d68542ac7c8f6f91
+   __DATA.__bss: 0x64 sha256:cd00e292c5970d3c5e2f0ffa5171e555bc46bfc4faddfb4a418b6840b86e79a3
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9D8C9B37-A53F-369F-9732-705F81694B00
++  UUID: 4B326174-4DBB-3E7E-997E-C98E824722DE
+   Functions: 70
+-  Symbols:   1594
+-  CStrings:  1489
++  Symbols:   1596
++  CStrings:  1491
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/1FA711D1-4845-48F2-B409-C2ACDDC45339/TemporaryDirectory.qBo115/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/GestaltHlpr.o
++ /Library/Caches/com.apple.xbs/1FA711D1-4845-48F2-B409-C2ACDDC45339/TemporaryDirectory.qBo115/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/MobileActivationError.o
++ /Library/Caches/com.apple.xbs/1FA711D1-4845-48F2-B409-C2ACDDC45339/TemporaryDirectory.qBo115/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/MobileActivationErrorPrivate.o
++ /Library/Caches/com.apple.xbs/1FA711D1-4845-48F2-B409-C2ACDDC45339/TemporaryDirectory.qBo115/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/MobileActivationMigrator.o
++ /Library/Caches/com.apple.xbs/1FA711D1-4845-48F2-B409-C2ACDDC45339/TemporaryDirectory.qBo115/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/common.o
++ /Library/Caches/com.apple.xbs/1FA711D1-4845-48F2-B409-C2ACDDC45339/TemporaryDirectory.qBo115/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/data_migration_support.o
++ /Library/Caches/com.apple.xbs/1FA711D1-4845-48F2-B409-C2ACDDC45339/TemporaryDirectory.qBo115/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/keylist.o
++ /Library/Caches/com.apple.xbs/1FA711D1-4845-48F2-B409-C2ACDDC45339/TemporaryDirectory.qBo115/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/mobilegestalt_.o
++ /Library/Caches/com.apple.xbs/1FA711D1-4845-48F2-B409-C2ACDDC45339/TemporaryDirectory.qBo115/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/mobilegestalt__darwin.o
++ /Library/Caches/com.apple.xbs/1FA711D1-4845-48F2-B409-C2ACDDC45339/TemporaryDirectory.qBo115/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/vm_support.o
++ /Library/Caches/com.apple.xbs/1FA711D1-4845-48F2-B409-C2ACDDC45339/TemporaryDirectory.qBo115/Sources/MobileActivation/MobileActivationMigrator/
++ /Library/Caches/com.apple.xbs/1FA711D1-4845-48F2-B409-C2ACDDC45339/TemporaryDirectory.qBo115/Sources/MobileActivation/shared/
++ _kMAEnhancedActivationValidationBootSessionUUID
+- /Library/Caches/com.apple.xbs/A44E8FD5-2664-44A0-9759-C141973B52F6/TemporaryDirectory.Rs1VKS/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/GestaltHlpr.o
+- /Library/Caches/com.apple.xbs/A44E8FD5-2664-44A0-9759-C141973B52F6/TemporaryDirectory.Rs1VKS/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/MobileActivationError.o
+- /Library/Caches/com.apple.xbs/A44E8FD5-2664-44A0-9759-C141973B52F6/TemporaryDirectory.Rs1VKS/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/MobileActivationErrorPrivate.o
+- /Library/Caches/com.apple.xbs/A44E8FD5-2664-44A0-9759-C141973B52F6/TemporaryDirectory.Rs1VKS/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/MobileActivationMigrator.o
+- /Library/Caches/com.apple.xbs/A44E8FD5-2664-44A0-9759-C141973B52F6/TemporaryDirectory.Rs1VKS/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/common.o
+- /Library/Caches/com.apple.xbs/A44E8FD5-2664-44A0-9759-C141973B52F6/TemporaryDirectory.Rs1VKS/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/data_migration_support.o
+- /Library/Caches/com.apple.xbs/A44E8FD5-2664-44A0-9759-C141973B52F6/TemporaryDirectory.Rs1VKS/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/keylist.o
+- /Library/Caches/com.apple.xbs/A44E8FD5-2664-44A0-9759-C141973B52F6/TemporaryDirectory.Rs1VKS/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/mobilegestalt_.o
+- /Library/Caches/com.apple.xbs/A44E8FD5-2664-44A0-9759-C141973B52F6/TemporaryDirectory.Rs1VKS/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/mobilegestalt__darwin.o
+- /Library/Caches/com.apple.xbs/A44E8FD5-2664-44A0-9759-C141973B52F6/TemporaryDirectory.Rs1VKS/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/MobileActivationMigrator.build/Objects-normal/arm64e/vm_support.o
+- /Library/Caches/com.apple.xbs/A44E8FD5-2664-44A0-9759-C141973B52F6/TemporaryDirectory.Rs1VKS/Sources/MobileActivation/MobileActivationMigrator/
+- /Library/Caches/com.apple.xbs/A44E8FD5-2664-44A0-9759-C141973B52F6/TemporaryDirectory.Rs1VKS/Sources/MobileActivation/shared/
+Functions:
+~ +[GestaltHlpr getSharedInstance] : sha256 db1ec2c19957bfec32675c8f43f16de35b9be41abd581da8a61625584a4b5dee -> 3821b19aa10e5465e912d07b0ed11037aaebae98199371f5f6b92581436b122f
+~ ___32+[GestaltHlpr getSharedInstance]_block_invoke : sha256 d0df1722a98b1034ee4a5ca629ec1935f1c2c6ee48f40dd342d68152d072e905 -> 512ec63467b1571db58fe002efb7ab444956f573968507331d8f7dda2eae58ca
+~ -[GestaltHlpr copyAnswer:] : sha256 992dc6ad1038ea3840854c5633dcea06f91c25ebe26bf297d0280c6524bc6bb4 -> 43f2fa2f1bad2865c50db2d96f35cfdde3052af1136955170abb42e4fc671d2e
+~ -[GestaltHlpr getBoolAnswer:] : sha256 78e6c9f41b615c3db04683dc0cb618a5555aac43df9c4e23b8ffcf3d46ac87ee -> fabef6efacb36488eeefb284a869e7497866da961692c9479088745bcb20e524
+~ -[GestaltHlpr addAGestaltKey:toDictionary:required:errors:] : sha256 f04b174da0fad8d0b5188f152ab95a47c521dcf3828f2c72c4e5be1f83e80279 -> 7a593e1c7f63b3350018bcc79b092159affe7cc4f48a08bdca7df6a10ccb5372
+~ -[GestaltHlpr copyDeviceIDInfo:] : sha256 310e460188c29616a040a8c73584ee443871ac93dc6eabaa6dd10e078bff3535 -> 4ea9f2a33856a75385260fe4e88c260f4e57d7f05592e001b05008b34a4ccaee
+~ -[GestaltHlpr copyDeviceInfo:] : sha256 4d1cd3390178d6d1727433a813ee1bcd2a1b209ceb6a63cafe603813e4ac0a32 -> 59caff57ea13cfad8d6717762d4d2d4cf1cb6380db885a32837847b2308c542b
+~ -[GestaltHlpr copyRegulatoryImagesInfo:] : sha256 ab34877c26aae02bef8d48ccfce1bf038b6ce4035a758da4cd3b397c9d5b1515 -> 62bdb5f1dc42f948fb08074883a65e9997c6b82ddda6478110dfa995138be974
+~ -[GestaltHlpr updateRecertInfo:errors:] : sha256 43d948d2f3687dffa0c6f41470c21f88122e1e4203ebcf26623d32a8eef4f199 -> 399a9cb6bb7749293574e0db46dbd95a80a83ca395603428a93bb1a49ecd3125
+~ _createMobileActivationError : sha256 beec6a1e8bc79e2a27d54e4162da6474146a2bb950935f2054851c15c1dbd647 -> 839375e66babc2b4fce0fe7bae5124b49b39d66ad0f9a0ef5a170ac26eb25655
+~ _mobileactivationErrorHasDomainAndAnyErrorCode : sha256 8be23ef801c385c477f2e1e1c4404d4aae8d422aa1defef9d7cc4f0db5f151ae -> 8d4c6414176c0aff6619d275a5d9ce3fd616ccccc3090a10571e71ac37b9eb73
+~ _isRunningInDiagnosticsMode : sha256 df0a88311e0e9ab06ac813316c3de484d29e3c8e8a239f951b823e55b12d9907 -> 70db75ed6688d92477854aaf1940bd8ad078c4cc71c6f6aa117e799870e2caea
+~ ___isRunningInDiagnosticsMode_block_invoke : sha256 222fe856bbfe30eb1218e8c7d9e1285377421633a26186653d6f20547ebab9a1 -> 1fc778813056d9a2045e58417821fb9bdcafab32eec63618d34a78fc2f144887
+~ _isNSNumber : sha256 743a279cbbda60adb508dfc700165de712781bcf64f51b497939c06c9d86a69a -> 7d6f472f8fda5429bcc964165cda12854c013803c808b48c26b5d5a18fbd8fe2
+~ _isRunningAsRoot : sha256 f03efdf9469aba1bb13971d9bf5ad850bd2d1640bf98471b59def81e0f3a1b66 -> 08e8b5e1cbdb5914f40791e34e5c6b079a9ad04978b665fc868119672bc0614f
+~ _isSupportedDeviceIdentityClient : sha256 da8dc10ea2410f0cfc95bcddfa74048f4fa10d66df7c1e16bb8bd7f6c42feb0b -> 1d99d119855084838f4eb85241b47231af730baf00ba508f3492b1b9cb8e874d
+~ ___isSupportedDeviceIdentityClient_block_invoke : sha256 31d8b4992ea0dd7ddeb3f8a258daf7a2a5a32f44fb618c5a99bb23dd54ecd55d -> 04d14fc251354d64bf734456e425e1e739232133632b573584c36300465dc578
+~ _isSupportedRecoveryLogClient : sha256 91463be705259e8f519185cf60993bda72896c8869577c3c73d095d5df0b498a -> 226cba84bbee12fb32dcce1d988a6d50716fa71f4d0684742bb85c21ff3e3de7
+~ ___isSupportedRecoveryLogClient_block_invoke : sha256 d6109edfca0be918eea5c9335253acb7f576191f67c37a555a583cea781a0399 -> 811afa9423ae845b86d3b5abc1e8c1b89b352291230ea76282548341b2a1b60a
+~ _isSupportedActivationLockClient : sha256 310e7565711095a53507460d1b82c634bb9f011e4ce5c811bc800ba453ab8bd5 -> 5f743105f5b817b6f5a43c2f49864a905da527b4f42ad0e2ecaf94fa175670aa
+~ ___isSupportedActivationLockClient_block_invoke : sha256 da52cac6e4d8173afba8ce8347a374ba07295bb7f89646189322646129639f20 -> 83b273344c11b8954c0562fc24ab6e6024d363cb1114032befbc4b4704c06abf
+~ _copy_sorted_file_list : sha256 6950c6ac023243a6eb191e19078357dbb97893c75a184d3d84a88203436fd8f4 -> eb8b32b97aadb291105cc111b2c09be15fa06a960fa2b5c96eb6dfb83d984e6b
+~ ___copy_sorted_file_list_block_invoke : sha256 58ec2af571711bc0457e4282286fe951ddbfa72fe967c55a507a96249bc942f0 -> d3b95ddea6f5ef80fb0530e7cf9e7920351decbcb6a4be3666a1b8a0933ae738
+~ _isNSDictionary : sha256 9e98e4c3afb592ade02e1f63458515c3632b4c88d1f23de1d1198809a45339cf -> a57d057df569d24de62e9489f9631689b8acdd502042cc96221dd83aba7da7e9
+~ _isNSArray : sha256 b5ef2b999d65daf3a4e05815fefacf466065817a672a5bb1a37398bcbd542bec -> 3f2aa63411389155b94d5b45c9b43e48ce45d861d815928115e66ce350eb477a
+~ _isNSString : sha256 71c79e21b1ee91d29cf2fd712a19dba7e5195c1b56d51e569e8886c37fc923ea -> e6d40c6264338b8e9f9091e783abe7ab1d45cb00113ea70da91db58ca845cedc
+~ _isNSData : sha256 a6ac250f68be68d7e3d75fcb6a1ffc75b9eb573831fb728c26fd474cd0812783 -> dca0456d6212cf679794d55fafffb2311e0f7483816d1b7d8e42a9c60c9fac07
+~ _isNSURL : sha256 21797ce583cc737b1bad455c2bdeecd49394e811e0763ac48278caa5f469eab3 -> 5050a4bb0cc669857494b2eded6174f8d3cb852288d74720d509319f99f9c0f1
+~ _isNSDate : sha256 2ea42260573762e690e70d2473c775991af2a6bf3b86ca1091745324e9e9fc47 -> eb72c8e70e32a59e68c6e87e08763518a83fe7de4fb28a2e85e863cdc213034f
+~ _dictionary_to_xml : sha256 4c4c8467e1af7e258856a8f0b6cf6be4844d28d4e84505c85716bfe0001e717b -> 72a0a4bdb8637d845842c8c7467ff9a396ad51803be46bc0c92f566260d8f7a3
+~ _store_data : sha256 ac6cbacd04ed30835aceaa432489ef6c1b7f114fae6cf7a3546583a1d138e14f -> b22119fc00a8b3c497aa1056a8ad550e7be5f0c14a3a16d677de92438e9b75ff
+~ _store_dict : sha256 2627c5862b376b10fed585d40deb8f4f41873399e68de61546214644a46dedbb -> 3869071baf297305d2f82d04b32d5185347321e148baf134cea9ad66de64fd52
+~ _load_dict : sha256 9e622d4ad694ba1efa35872a104c5641d9300f54d7a08a5c8d93a6ed2783f5ae -> 9c09ed75962bc7a1ac0f193cf1e578ae0033342ee435bb863f8276cf2dc36878
+~ _copy_process_name : sha256 fadfccf6a2a9438cdbda326af10630cf64df33067307020a8b690153fd92c4d4 -> 62dd2b908e80d3a253211e33c636b52446942b7f14f6488c84e9a58c4ba5cbb8
+~ _numberOfDaysBetweenDates : sha256 03cf3f4ee6c8888979a0c278fecd04acc8212fedebca1d31f896b8b291104e80 -> eb79c15ee90574a0f8d5742b74254025ee905e62c81770b3195825b5711dcfe8
+~ _formatURLRequest : 616 -> 612
+~ _formatURLResponse : 544 -> 540
+~ _writeUserDefaults : sha256 ca6afe74d70f5500809558a4d80b31a7fb81c3bdf6d8563062a4e1b875b7c55b -> 2084925ef44259473a1f5afd3ac40665fa85b65d272c0432db1d37d493c14619
+~ _readUserDefaults : sha256 838b0d8f56415f6b2c9050ca80ab7d52cfc10ce62682fbab6fe2aa60d0137efd -> 4bb293679c74b942a0103c3b273a38fb611a297f570dea24ca27b2e993beb11d
+~ _synchronizeUserDefaults : sha256 db8685e905b63fe7433d3c5e3ec4ab5b84966d0206141729ea408fe6ac6bec0b -> 116b63489cce2c87d066b8273358eff7837c002a7eb9ce9e29b0327c08951a83
+~ _OUTLINED_FUNCTION_0 : sha256 f4dc656cc7e1c2e00ca7bb63341bccad7dda6e26a3aa532a3485e61529bf8492 -> 3e91657a8b48e86ba50d0f4213990903b06c35515350e6b800188ede28f3f6d7
+~ _data_migration_supported : sha256 53211287cb0a8afd6beafe13eb8585083672af28eaf40575941b9d73f3e3bd38 -> 85cc30621ef70174044c3e9223323f0791cb1a8342ea765eb13202271675479c
+~ ___copyUserDataDisposition_block_invoke : sha256 b046d8b848dfa88ae2cbab682ac38181d87fe5217a91397db7aa40cc3a985ba1 -> bbf99c18395e589eb830d6e1c127784ec31fa54ec4e7b811f6400442b5d46556
+~ _mobileactivationErrorHasDomainAndErrorCode : sha256 74cfcf8bd7169cfd9c06fd50bce687cf9c8f155f868463d5dd2ad16c9e7ba479 -> 1570c2e71201a6496db180da2e524240ebd3a3613bbe85d90bbfd8c68bb664cc
+~ _is_virtual_machine : sha256 5c86718a67bee60535343fdae93238becffc83eaa74c1e0c2c3c1bbc60b41d39 -> 58c1f5e8b332495834de6058149e7688cbfb162ba9f7f54e7e136cbe55344bbc
+~ -[MobileActivationMigrator performMigration] : sha256 b68962323a67460a572f6bb6ccf6f6e9b8fc64da48624fb467b13561bc93784a -> 1d340412f5a53a3b958cb4bdb2e1bcbe3bee9118dd5b61184bd3ec69be6b4632
+~ ___44-[MobileActivationMigrator performMigration]_block_invoke : sha256 3327a4d6e92698b580e66cd5da0fa94e2c2df786dc3392eda409afc0d35b0376 -> 824e8a57ae6930e585f8d3807f12f8897ddf55010f264cdc7bb569b938cdec5b
+~ isSupportedDeviceIdentityClient.cold.2 : sha256 240e4d235c914fa4efb4731f444d78ef111b04e43774a0545ae94d21e0a9f2bc -> b0787a8f019be67c29bb3f8e79b45757116a78015de925dd3b1875f29b10437c
+~ isSupportedDeviceIdentityClient.cold.3 : sha256 bf8a8200f881117c006b0f7be23a6c48e41188681597060d016e6c83e1b85deb -> a4a96c5685e8795d09fb084571bcaa7dcfc418caa8ef2c90a1c5c2607c0c94d3
+CStrings:
++ "EnhancedActivationValidationBootSessionUUID"
++ "inboxupdaterd"
+- "inboxupaterd"
+
+```

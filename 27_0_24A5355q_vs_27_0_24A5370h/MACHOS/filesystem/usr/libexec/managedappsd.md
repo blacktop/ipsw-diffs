@@ -1,0 +1,43 @@
+## managedappsd
+
+> `/usr/libexec/managedappsd`
+
+```diff
+
+-105.0.0.0.0
+-  __TEXT.__text: 0x119c sha256:5c1d13604f955e238a3d775cf42ef0cf906501d9351fb0a46e3f3a5234bd093c
+-  __TEXT.__auth_stubs: 0x300 sha256:4a23d1261585a717bcd14f9653e37176e08474c0d27ddbc92301c4710567613c
++107.0.0.0.0
++  __TEXT.__text: 0x11a0 sha256:c641c1c58cfc03e38c368dd96215178044526f08458bec5493b10f7d392164d4
++  __TEXT.__auth_stubs: 0x300 sha256:fbb87117484e2917295912ca13c2c958beba01728d417cbc5162278d69228d82
+   __TEXT.__objc_stubs: 0x60 sha256:e2cfc0a64c0b1af632f68c1695b16ba2127532bda3e8968c2537ca0500c17618
+   __TEXT.__const: 0x52 sha256:6cc4f82cc6c7ccfad1a6313f7dfd17f3d7c1693f344b2665b4c5e5f5f84d5b54
+   __TEXT.__oslogstring: 0x63 sha256:e0b811e1c851c559a187c24c9b12e148377722a0ad12b0348bf971db86787306
+
+   __TEXT.__swift5_typeref: 0xd sha256:10412627c7f14ea6312df06ea340f3aada29024dd0026cc38f7f0d4863fbdc8d
+   __TEXT.__cstring: 0x16 sha256:3850dcee955ffb8652f0aa5d18e840c4b74738b246c70a8e33b983a58f3a0c51
+   __TEXT.__objc_methname: 0x37 sha256:0224b909b507807b7c194718b75f261ab4d9f665bde0947741c2284d3165975d
+-  __TEXT.__unwind_info: 0x98 sha256:8d25db51c7239159eb55c643538d5241c95f1eb0475e5e30b67356f732474afb
+-  __TEXT.__eh_frame: 0x48 sha256:9c1b01f1d6694f17890dc2302234278632a37e0f5aabc85df854a36c1c25a9d0
++  __TEXT.__unwind_info: 0x98 sha256:6dd51799586c0067537699f77e4bc74125199bd7ba63c0265dcd9e735abdd987
++  __TEXT.__eh_frame: 0x48 sha256:40a4c5896450e68da2e3e1464aa05150b60fe1e2c123cbcb3cad3ca9d025c5d0
+   __DATA_CONST.__const: 0x60 sha256:6cc593da9c32bb205a42d2b7004d6da3ca7fbed30e45e00f9a92e60e29a536ce
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+   __DATA_CONST.__auth_got: 0x188 sha256:045a223d0fc2b3a9f41036738dd56a9a3175e811523b21b18a2c20ca6a41d58f
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: CF7BF4C7-584E-39ED-A961-50E795BE19CF
++  UUID: 45CF4F44-3C81-36B8-9538-E532127D8FE9
+   Functions: 16
+   Symbols:   68
+   CStrings:  8
+Functions:
+~ sub_100000d60 : 1784 -> 1792
+~ sub_100001458 -> sub_100001460 : sha256 827a34509ca9ecd1a33eb8a95c2d28a624e71086d48880f76e05de4d18b1a3c6 -> 075fb0c481edc5fa234553dfdb60376712e10b560cd2f29ec3d32c3461a1ebb2
+~ sub_100001744 -> sub_10000174c : sha256 343db5ed566068960611b4596e43c0ab4b85d73b945a3e247f87ae65e0ef0770 -> dc559be3f79ba342b827c27fb69b801d4b59d435673ebaa72462dd299e570c0a
+~ sub_100001810 -> sub_100001818 : 280 -> 276
+~ sub_100001df8 -> sub_100001dfc : sha256 2fec528d22eb47f7bd5d4e7db7d083d82dc71067a8e5fc41705a0a50179b7433 -> c63f3ce2d84c4db119aeb218ca8a986d13a119b60c4a013601cb38a5f9217699
+
+```

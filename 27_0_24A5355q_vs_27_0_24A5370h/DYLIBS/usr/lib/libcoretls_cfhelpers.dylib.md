@@ -1,0 +1,48 @@
+## libcoretls_cfhelpers.dylib
+
+> `/usr/lib/libcoretls_cfhelpers.dylib`
+
+```diff
+
+ 189.0.0.0.0
+-  __TEXT.__text: 0xe40 sha256:d4f27e81149f76c89830642f57a3a9d529912cf07929a627e582180b1a695a4c
++  __TEXT.__text: 0xe44 sha256:c1dbcb8a5a0a3bed29c8bf6232b3c2b01f66ebf4dbefc02290b6f82f3225dbaa
+   __TEXT.__const: 0x40 sha256:1d2db2b8af670f45e4e4e2cdb253ea113dec248cf4a87b1f48f0d4a699bba9c3
+-  __TEXT.__unwind_info: 0xa8 sha256:becf6d5b077ab771b844ff145918282e19df3c8f67ed54fa41031e99e96ed6e9
++  __TEXT.__unwind_info: 0xa8 sha256:7ba6bf43f16e911ebe30db0adeaa2a64917f3dddb8dd5559153012f50e2a5602
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__auth_got: 0x0
+
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcoretls.dylib
+-  UUID: 7F4E0C64-E5D7-34C0-8BDB-DD6ED5EF87F0
++  UUID: 13B073D1-E526-3393-8E1F-FEB4365CB349
+   Functions: 26
+   Symbols:   90
+   CStrings:  0
+Functions:
+~ _sslMalloc : sha256 cee13eb1e8c58547e05d546044affb4560aee2eca98cd3680b90f74a3815901e -> 23b31d894d7d77fe9ffb67aaaba34410d5506cbae06893e10352614b0d611761
+~ _sslFree : sha256 82130ccc5e735e3649786fde5470fa989c4bfcade665f49432d2be76b712cc71 -> acabd48b78a2571b984e4ae3bca3246af2f61ca1d3ff8ea50942da6c8e08a8e5
+~ _sslRealloc : sha256 d9999898987e07fda14e659f7f3b5dfc2bee1bae5c801ebf67c4a5d12ca0fef4 -> d76871927502408e3d1247e718dccdeba1c0b6f92cf4dc86320b64eb0ea5fa41
+~ _SSLAllocBuffer : sha256 6c6c199edd4fad1ecca7cee9270812aef280a7f83e11556a7ecf730c045e7b46 -> 4ef6656ebccc85a9cde96d4fd97f31d76743c4a07dbee5936bbf8a2e303abc7a
+~ _SSLFreeBuffer : sha256 da36ca7d1aedd6715c8d72a431d2697788738fd5b169352fe7eedbba67a47852 -> e2e90f0913f7e0372dfcad8d4039c05a912fda73e203fd4b6e8d0ecf1df69363
+~ _SSLReallocBuffer : sha256 1d32d53c821c3cc38bf1e81ff44a63ee2e28c2b3d84b0c5ed154c58adaa06a78 -> 77844e13be8231e2a2050808962a0eb1d77cb8ce285483de3187ff3ab712c99b
+~ _sslAllocCopy : sha256 46efb34cf922043a8aff95fcf603b66f254e61ddbd369c0a14c7c18d5920bf72 -> 22be98fbdacc72ab8e99db94fcbc459088b40f5f9482fc6e77ae1dc76a893aa3
+~ _SSLAllocCopyBuffer : sha256 ff71b5dcab3acd930a380f1865f08421bf3fc55a0751e4c07f637d8be7702ed6 -> 8191919c493e5fa054e8b43753e0d94e496c7000dee296fa2faf2bc2bda6e85d
+~ _SSLCopyBufferTerm : sha256 7b6441953a93fc18a819e5c6bfde204beb38d6acb41082df4d3af405d16100ce -> 304952157f668a31b30bd9505868500ba519dfa914d57c5982ca91eeb111c96e
+~ _tls_free_buffer_list : sha256 6085173c811b133b231bbc7e260ced7d4d4a8d61bcab45fc09422ac491d06cff -> 739acdb07eaad0bfa46489b9c5156d16c76149e27bedd1739ab3f7489a18e6cf
+~ _tls_copy_buffer_list : sha256 c149211d57bd5dd951d788378b73a3896d803f6094f4b023fc797f0bb10eebea -> f25b75e2a0191a6f737c13e99d9a12ec1d978b0cc366a72c5d48255b25160443
+~ _tls_helper_set_identity_from_array : 692 -> 700
+~ _mySSLPrivKeyRSA_decrypt : sha256 94be6df5bb365c3773410c980c07f6423f2c76c307735f5361137256a98dfb8e -> e67ffcbaaea5b90ce568ac8990d785c22f0fc602e26b273f6940426cae84450f
+~ _mySSLPrivKeyECDSA_sign : sha256 fb6d45427122dc17a90eea2e7035a7e7b18414a56884df5972dc439e4d972001 -> e88c00873eb2c4c1901d63026f80dda0a357babda78467de598099e55e8cf530
+~ _tls_helper_create_peer_trust : 468 -> 464
+~ _OUTLINED_FUNCTION_0 : sha256 50f8ef52cd2046c664f77fc80a2b8b27b0fbfd4fb4cd37a69b2c6ae90dfbf8f6 -> dfedfe03453b4519062d1e14bd1d74486fe4dfdb4b0448cdf4fa834057eda71c
+~ _mySSLPrivKeyRSA_sign : sha256 14e515f9c32f550229748bf97985a6954d2fa587fff721e034796c5b9977b7e5 -> 74a0d61cf35e5c062f33f4010f30a3d1d36c4e2774403607e86c731c99637511
+~ _tls_helper_create_cfarray_from_certificates : sha256 b5588a77065044c74195d2e5074075ca70464e385009dc82c795f2cfa292ee7c -> d9f7401b3c4325ff123a7d20dea81755c5c8d8c47853eeb2f90b662e39be8265
+~ _tls_helper_create_cfarray_from_buffer_list : sha256 a78baa1f14a51b2255accc044d81215d893505610acd9f25c1d4ee957094ef90 -> 82ff20e1c204bc9d77791335c992ce6f2c9574c32eeec4705e69ee61e3de57a1
+~ _tls_helper_set_peer_pubkey : sha256 15bb8aa25add87177c118e02c3348de1ed5591efd22309807b96a97e240961eb -> 14f24f6ff092c5ddbd1598bba8d983adb8dccc70cdb6b5d3baeba7b694d3494d
+~ _tls_helper_create_peer_acceptable_dn_array : sha256 4d6c8f400ec5e99805f055388255be0e063c34e9fb249af39c7a0b5e4aadb50a -> 1ff4f86639dc13b9b905b02f390da11548ee2400b30a04994cb831f1e47a3831
+
+```

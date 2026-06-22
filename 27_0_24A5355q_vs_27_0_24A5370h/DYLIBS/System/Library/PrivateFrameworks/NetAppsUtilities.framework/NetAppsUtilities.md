@@ -1,0 +1,708 @@
+## NetAppsUtilities
+
+> `/System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities`
+
+```diff
+
+ 108.0.0.0.0
+-  __TEXT.__text: 0x1a6cc sha256:7bb5c90ce90b99c6fa0dc47abcc9e2491a8a8ceeb5d9cc44ba8da69e17acb8e9
+-  __TEXT.__objc_methlist: 0x2074 sha256:1aae701585f6eb8173d18479bbcfd85434a8bcf3c5b8341db79239e39bc2ed9a
++  __TEXT.__text: 0x1a600 sha256:6b6ca952b14e343c0f67c588eb91e2766695596f57342fbd757900ba5a3b18a0
++  __TEXT.__objc_methlist: 0x2074 sha256:66d4c18760111c319f2b7d3bcca673c2f9566bbcc14420ade1069744b8f1a6d6
+   __TEXT.__const: 0xc0 sha256:38ef0f8bd738909c0a135ef28d352fb1b34e7f818c628cccf6b8d4c651a84085
+   __TEXT.__cstring: 0xbb2 sha256:2af6a430c46460b393922f68f31852849652d1f2bf02e3fa17aacfb1575f7b93
+-  __TEXT.__gcc_except_tab: 0x304 sha256:904c41381b3133f374c78b311a00ca8cc2b720bbabe8fa6df6da7d7d1bd7643b
++  __TEXT.__gcc_except_tab: 0x304 sha256:6a3039bd171b4f7c1ecfd0727cefc227f4c73a01f2ed315ee61a67778b45c3d4
+   __TEXT.__oslogstring: 0x18a sha256:e91d6f3a0b9a2e51662ceca8b4d801b9dfff71b3aba7f462c955099e7cc0bc51
+-  __TEXT.__unwind_info: 0x988 sha256:0be5a5f31d8dcc3d1a32d66e681cd5088b90a903d1e1690670f8c31ed5b6ff45
++  __TEXT.__unwind_info: 0x988 sha256:de64cc3a243b55ced38fd87c1e95d956c7477f78ee0096ac35d9335d7cb94e3f
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xe38 sha256:760be3561a13a691a00b438797655bc6749141c3e5f1d3dcde88fd438d7c9ab5
+-  __DATA_CONST.__objc_classlist: 0x140 sha256:308786ca6cd6d542b1791cb24b1127fd06aa59908f08efc512883b9851184102
+-  __DATA_CONST.__objc_catlist: 0x68 sha256:36b1acf56725fc8fd7fed30ccaf06636b7b35ba6a8169f0182d453dc3c3b53cd
+-  __DATA_CONST.__objc_protolist: 0x70 sha256:4454434449575a6221133bb5254ecfaab37bd71717b24bf3382fbb2142792c04
++  __DATA_CONST.__const: 0xe38 sha256:eddb752c9bc532831e6cb139661aedca20aa60f26e298de43dbe7d339dcf3c23
++  __DATA_CONST.__objc_classlist: 0x140 sha256:d822e13aba37a83eb0b3149a39f937f18813e1a7da0ea7b294c8acdca21e084a
++  __DATA_CONST.__objc_catlist: 0x68 sha256:9d07e6ce1773d69d261b1fb8223cd9ce0711b95c5b8b04957c685465600ca01b
++  __DATA_CONST.__objc_protolist: 0x70 sha256:4c117a63aebaf9f568fe617be8cb37aec1e1eadffe595355c6f4118411a28cf3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x12b0 sha256:554bfa518223b78f9532e2d68f119770a4019dac230e71e8b5f1be1faf74b416
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:a46542913d109e7d4d6e6f4c7f4c74ef72c180a9de22a3d5b4921d4a43e328e7
+-  __DATA_CONST.__objc_superrefs: 0xf8 sha256:00d843de8130c4e35c95a667d7676293d45129bf63e729e585d4763a799621d4
+-  __DATA_CONST.__got: 0x1c8 sha256:eb45f45b36e41223d6be5ba25bddfd88e62775c8ddfe83cd911c16d729015bd2
+-  __AUTH_CONST.__const: 0x3e0 sha256:7774db2eb701c91489093f68cb3c667a91165b3f79ed85d8e89b327a4bf44a3c
+-  __AUTH_CONST.__cfstring: 0xb60 sha256:9c423e216bfd1af71b4f642a8c617ebac1b37a1d9b687a31cec6c23550c9434a
+-  __AUTH_CONST.__objc_const: 0x3a30 sha256:1b095fd92bae03668c1d07f4cb0fd564845530e00f08a4c610bca64d00963c25
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:aa67d9dc81b1bbe7d4c59510d48d727c54f2e391934d9beff409ab2dbc5c9491
++  __DATA_CONST.__objc_selrefs: 0x12b0 sha256:3807f00c28103083d4da2da7526eb6269e18d297851cf9cdf621ed9b0ff85d7d
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:81246c9cecc2a187b311c8f6a40c8df07e53dfc845a03d9fae1e293ee27064e5
++  __DATA_CONST.__objc_superrefs: 0xf8 sha256:ee37ce5b5ecaf4b70cf5de1d9b8e379074fd11eb38750970fe845901bca0b902
++  __DATA_CONST.__got: 0x1c8 sha256:22dc89dce3d13d6f0b53ff40bb465048f6c3e0953a3493a0203a811bdbfdf383
++  __AUTH_CONST.__const: 0x3e0 sha256:a4332d5b34d0fa99c55e30c6f7474770a782c7e408c97225953554b776d827ba
++  __AUTH_CONST.__cfstring: 0xb60 sha256:0e5d9bdbec39ef43305c250f8266336e0a740044273ba5b0d789a8eff6804cfd
++  __AUTH_CONST.__objc_const: 0x3a30 sha256:64a35556c04986b49f7b9ab0216ab6b7ae2572b5acd264a2293300d295df2453
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:99feb3f26ba42b363edafd9d7fd7eb7233c944608c9ce6ac3c22c82056922875
+   __AUTH_CONST.__auth_got: 0x3a0 sha256:202115097d1bee389d4d4d81db00117252be97d5691af316941f3843ef7a05f5
+-  __AUTH.__objc_data: 0x690 sha256:fe76fa2daa28660f77ee41d8174e111543e92fed16f40ba9e1d0557874f7fb1a
++  __AUTH.__objc_data: 0x690 sha256:aad5e195d0bd31e749f6ee2a6af4c5a1e140ab62ecbe490facafb209ef5ac6e4
+   __DATA.__objc_ivar: 0x1b4 sha256:47c336a4ee94b4aa3ba80d8714e6ae645f696efd7570334969d6911a929b48c8
+-  __DATA.__data: 0x548 sha256:147d3d1e4d92b23f6454c6328356cd9086ec854de09716a767c065cf751d0804
++  __DATA.__data: 0x548 sha256:080d705641eb8ea082e1d98e131ae4ff66f2b94d013c36be21ca8841a5cf847b
+   __DATA.__bss: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+-  __DATA_DIRTY.__objc_data: 0x5f0 sha256:562c03a54c9f1c08c19422bead7fa921f1fcc1eff34e58f3b7a3be2a251fddbe
++  __DATA_DIRTY.__objc_data: 0x5f0 sha256:e5f7cfb3401a9be38dab6303a45355d9ad9447012d8e72dc87681e7beb3f83c2
+   __DATA_DIRTY.__bss: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E9264C13-7C3C-3588-BB41-52FAF6522245
++  UUID: 68912369-1F3F-353B-90F3-8CD5DE0C6556
+   Functions: 759
+   Symbols:   2824
+   CStrings:  252
+Functions:
+~ +[NAScheduler schedulerWithDispatchQueue:] : sha256 9eca53f1ee110d4a441729a497307e87f7da290716843a03456130527938e848 -> cb7d3d1deb6931567ebf376ed5256b0570485123b89266aa5130c58818916a49
+~ -[NSMutableArray(NAAdditions) na_safeAddObject:] : sha256 ef3d91787cd86790d5a5818491671ce903b9cbba182bb60b6515413471419b8f -> 12bdb8ee526a8b801a16c9eec77617aa66444ed8640900a2e7beb97e192845b2
+~ +[NAScheduler serialDispatchQueueSchedulerWithName:] : sha256 94f647659a96b07d728a22594b63def6fcd440b8bba35ade19264e1255d583d2 -> 8e86bd127b55c2884434657b4bfb9774be3c6e8a19690b23023f69d8954968d0
+~ -[NACancelationToken init] : sha256 14482964d9365ff5b275d1de36e8f6cc47f45a5d11437172aaec626eedb390d3 -> 2881df3efd8ad60a5d53967eeef41fc8d5017cef3e45ea862a17ecd4fcec895d
+~ ___33+[NAScheduler immediateScheduler]_block_invoke : sha256 fdd1dc4d15386d8c7a81156636e6b7cf2c1afc592ac8c7d0ed582fc9059bc5ec -> 6783d48b0efb52b1d814f287c291fd200c356c9ad42aa5b69572ff57cd530d0f
+~ -[NAFuture init] : sha256 8d9d168ad0a7c8efd7f17484076da4cda87efe21b9286eb7da46fcce3677bdfc -> 40d51465c5d2cf4a0ace1ecf54f62b5f894d2c38cc2007e1b7b7f031d56a2119
+~ ___33+[NAScheduler immediateScheduler]_block_invoke.cold.1 : sha256 566eed8737b25b0fe8e3b689629993785494e88e610686f0e13c45daa0f24fde -> da81fd1753296bb4ec86bf075024b8237ff2861cc5855fde14b3a4d2169bee67
+~ +[NAFuture(NAConveniences) futureWithResult:] : sha256 95112644d9eea9955e3ef6b5d697b1df80c5e3ddcc3ad746c290d1831c199664 -> d12ed4824e551162ea7abd558b3e575938bde887be3a936d7801ff1bfead7b8d
+~ -[NAFuture initWithResult:error:] : sha256 bd38f0ee7ecda652cd5a88c261d8acdf745806c0ddc3ec9f97618a96ad00b740 -> e0d3f6ece7add7f1353676840b67bc044f9d64438f4562d6c28876070a9462e3
+~ -[NACancelationToken .cxx_destruct] : sha256 c939ddea70ff0803f41d9ead464a1356d6bab93360a70f94c329fef2d64475ab -> ad88f805852f8eb8e0737c12afcb598494a6e8ca8d7e6bb27ea87f0a42b900eb
+~ -[NADelegateMethodLogSettings initWithLog:logType:argumentFormatter:] : sha256 89701214511ad8cbf8818c8b5f5458644213be1f240c17bd3c5628be9465dd86 -> 20505caf16a53e46c78411644edc69c6cff7b21ea5284102c37b46621fdc08c0
+~ +[NADelegateDispatcher dispatcherWithProtocol:logSettings:] : sha256 9ca30115b2d4a8e1e931a529dafaec5af850a0f84ab463a4f86ce16c359fd946 -> 4f4af07137b3904eaa43e67b26fa43ad5ed8c5113da4b11e0c8a275e23928c61
+~ -[NADelegateDispatcher initWithProtocol:logSettings:] : sha256 3422ba79196a61f83df6f55ef5f186f0f9d22e7d5fcf6223f75b78fe7b5f0054 -> 4b2a761013534e4c49abd58c848a0cdcaae5ca3a0b185ea91df94c08dfff5381
+~ -[NADelegateDispatcher registerCustomHandlerForSelector:handler:] : sha256 956b727312ba1ac9e2c1db1e0a029956d4f0d866a7829305a2e57512ae968c31 -> dd0b3c6d02b3598e0b0dc92199c7299dcee7baf7224df9905c7b746fc936f418
+~ -[NADelegateDispatcher _lock_methodMetadataForSelector:] : sha256 d5d518de312dc80bd0bc3bddbd91d5106fc1854dc362b36cceb84072489a190d -> bd8f2ae520e0f3111f8d419c90265c29fb81acc2776f60d09ba689c0e6623a6f
+~ -[_NADelegateMethodMetadata setMethodSignature:] : sha256 6be1194c2b354a8aa7e1669f168bdddf142b8f4b83b8c82833f26d875ce827cb -> 7b6f3e9a1f91b53dfb926951d4ada6f07a01a8531418288c2b1266f798bac335
+~ -[_NADelegateMethodMetadata setCustomHandler:] : sha256 532d176d265641282d4c49dce1650b94b56d14e6cadf67de35939406f06246d2 -> 55bb04ff750d1620b7662e53a98ea83e8a4797c727d6194000ba0dd9ebbe17d1
+~ -[NADelegateDispatcher registerCustomLogSettings:forSelector:argumentIndex:] : sha256 9d4b2c87375c694f583de9a2c9e52865b9e6c69d30dda0f8bed251819f89cccc -> 93bd8229d40c9897315e7f5670393a048cdbfcedab5558c0bd003605aef758bc
+~ -[NSArray(NAAdditions) na_map:] : 376 -> 372
+~ -[NAFuture finishWithResult:error:] : 660 -> 656
+~ ___50-[NSArray(NAAdditions) na_firstObjectPassingTest:]_block_invoke : sha256 c87d1ef903af7f782cdde3195a6c53141de226a5772c6b41302404cf720f26c9 -> 3cb9af3d783354eaeb6b0970d7704c83b5bdaadb9bf3e8fee7ed05022650ab90
+~ -[NAPromise init] : sha256 c2298692964e9c9fd1bdc444ac13811b341fbfaac8639cd04c0012ba08c6382d -> 2f4d688b76f7a062f9df7e3cd60dfc4f6174d17a4b7dd99712a46b1ee4850726
+~ -[NSArray(NAAdditions) na_dictionaryWithKeyGenerator:] : 380 -> 376
+~ -[NSArray(NAAdditions) na_each:] : sha256 c42baae18b8cf86175d22c538293e7d6a52c4f09a6160915735861c0613cbfd4 -> 31676cb4e7cf3a31bb71db007bef55b71c2ae23eef35c8cceb92b4c5ee9844d3
+~ -[_NADelegateMethodMetadata setCustomLogSettingsByArgumentIndex:] : sha256 26fe0073a35214f63f4e81df7f039a543af98cf997f11d1f02a21cfb358f105e -> d079bed1f435345ef6ef9e7554b0195b1aecc68fb1bbac58a7ba58f4d369ec01
+~ -[NADelegateDispatcher addObserver:] : sha256 5c9742f59083344f143344623df72a4417803c35cf94d325740baf2aa42e511d -> 3801b5d03d3f738abe5c32cfde0261efbfd1cb5a3bf44528a811462e04cdebe2
+~ +[NADelegateDispatcher _findMethodSignatureForSelector:inProtocol:] : 260 -> 256
+~ -[_NAQueueScheduler .cxx_destruct] : sha256 5f935f766fa6f8e32363334dae7c639d049ac60b788b7b84fb16087704ebb47d -> debfeb213c25332213a492cc5de65bbf98c095792c73e575eb5cc57533a49306
+~ -[NAFuture addCompletionBlock:] : sha256 6729d7e4da587935cac2c9a4097e3125257a5dc2024f87d41fb2a068c7cfc4a2 -> f620cc4d2f3356168169220374c2814c6b98fca7ed98cf8af3cbbd5b599a354f
+~ -[NAPromise .cxx_destruct] : sha256 7dab6dd6218c1fb16821280729c3e57c7afde02523f91407954196d6ae754775 -> 9063912f4c0bd7773ebefe1f1d6948e929759b8500b6a7656aea7ffa8fd03c84
+~ ___23-[NAFuture reschedule:]_block_invoke : 640 -> 636
+~ -[NSMutableArray(NAAdditions) na_safeAddObjectsFromArray:] : sha256 f04840b739e0f7f390d668232b182c8a5260f90adc0cee136ac19e8faa4d0b5b -> c366eaedf9255228c10551ac9c52bcd791c15492da5ecc779c62e2c5cbd6658a
+~ -[NAFuture finishWithNoResult] : 632 -> 628
+~ ___33+[NAScheduler immediateScheduler]_block_invoke_2 : sha256 380af0d07a9894b3869dbc6dfb3b1c1392d1302bd82dda7f99fd6914932ed9be -> 34bb8d761f6cbcbcf855f5470c042ff5dee4c7f1d5d32eb89dca66fcf2a47dab
+~ -[NAFuture reschedule:] : sha256 acdbb19426b494113987fdba345dab9798f530d76fc97404c051b8d328ded411 -> c318addff12d9164979fbf18fc49bf761ec7c0e9d02ab954ca714decb65088b8
+~ -[NAFuture setDescriptor:] : sha256 ba96e86a5cc6afab20900b584f7d9f89f0a2f863780dc00d2822945c2cbf4e12 -> e04bc533be1db11fe43bf03a5339a3e09435b4ac4f4d7ed0ec71f1d1d81fc0e2
+~ -[NAFuture addSuccessBlock:] : sha256 fa1cc119b99e2a588c7e31b50a1b9227ef8f92a90a6a85df5ac19cb1a319ddf5 -> 8707ad87fcf8114bd840efe126001ac7ea1604901ba34eb8b6a46e920d39c59d
+~ -[NAFuture flatMap:] : sha256 e0426fe12729787be062ccad936502534856cc80bac9b9facf317613299fb2a4 -> 99ccef5e6fd1833d40a4cc8762dd6b604bb56a23f23bc3280bda05e51d5c5640
+~ ___20-[NAFuture flatMap:]_block_invoke : 1064 -> 1060
+~ -[NAFuture .cxx_destruct] : sha256 c8acfe6f3369cb0b15f4e3c8b1ccda1bed7979757e970dba3e31d36e210a1818 -> 03f64da37e3d46586be73fd3fde80bd0e32b5c2d7d9af6f9ec0102a0b224e59e
+~ -[NAFuture completionHandlerAdapter] : sha256 dee81559fc9d7d1037d64af788fcd0ddcd976d4ad6f180c5cce30aee39ed56d1 -> 5dbe24634d7a2bfa2c6dae084c20b08e06f8851b8debe75c4f46cd5bd2760ccd
+~ ___36-[NAFuture completionHandlerAdapter]_block_invoke : 640 -> 636
+~ -[NSObject(NAAdditions) na_addNotificationBlockObserverForObject:keyPath:options:usingBlock:] : sha256 4bdbd462b5a740ecc77d49366337a32b03cf3c4d4142aa01554529e85f431842 -> 545e2c2ff063e81cbbf156a66168ab1b8f0c01d08973fdbde7da48fa4d1ee033
+~ -[_NAKeyValueObserverProxy initWithWeakObserver:observedObject:keyPath:options:observerBlock:] : sha256 fa3b0969dddbb09b45f1274f9484343cbf6f0f85554356ebb32c753228ef8a80 -> ef6d64ab5159ad4f2acdc597c6fc4a8b44727b89a04079695cfa55e58f2f3eac
+~ -[_NAObserverProxy initWithWeakObserver:] : sha256 880b6a552ad52618ec320ad369fa0033dce91c47d167168eb6682b989b605334 -> 231b9ef19645a7a557b46b65f1b3f9c7844498190158d900835050af779d5496
+~ -[NSObject(NAAdditions) _na_addNotificationObserverProxy:] : sha256 d90f1a5dd4cb2887e5de3a6d8928c53481cc85013610c70068da0567a5dac0ff -> a8fbf0f5ad00b9e30a9f9d50acda520fe7193742c2108e571fa1450ad40da9a5
+~ -[NSObject(NAAdditions) na_associatedObjectForDescriptor:] : sha256 51c0b50a450bc6fb405c48553ee54b617374e586c861770ea22724725f93853e -> d80ea5e1c732157e6997e18c6d52261713674dd8644a1738ff7a714b640ab46e
+~ -[NSObject(NAAdditions) na_setAssociatedObject:associatedObjectDescriptor:] : sha256 adca4b78a5bf692538b391b5472c9fe9602e92ac090d240ef003c3c6a335c0c4 -> 315608d0195a37213385e45de16d720403b5edd8b39dfb509a1df18aa781ce80
+~ -[NSEnumerator(NAAdditions) na_each:] : sha256 15b39f24b9fa81e1090b962435ab58a57a05df094667717345c3cdc6005ab085 -> db57cb1874247a59ae262aaf82aac7aed1abaacc5bc5c4719ac206a303a47c00
+~ -[NADelegateDispatcher observers] : sha256 0848be5c6cda060c0210615a2e48e7e0d36cfa835ffafdbd861c7e815bd792ad -> 6f91555a3b82bc967bfb522bf8d78f12dcfe0f6fca3d14cff637ae4c22788357
+~ -[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:] : sha256 26745c54b4222bc9cad0b5bc53d38e90a7746d1fb8a0c3e04e4124ac316cec39 -> 5a5978e8d7bbe489f93edb87d5c4e50ed32ef5571f7e670fd8ef1ac7b96abb71
+~ -[NSArray(NAAdditions) na_firstObjectPassingTest:] : sha256 b40500267bfc7bcc49e768379ff86b03abc6a6d14ebd2c2a0d70829421011a0a -> 07d23454376caf0deaa77701457b44c18b596c16032638ce17f2314b5177b610
+~ -[NSSet(NAAdditions) na_each:] : sha256 18ca0d6e4fa3bb832b28061f9561a60da9479b7f819d7c017e45bf2fecdc0234 -> a7dad94c3d648418043e39f06a2481b52bf947685ec24182b3ba9bf06b528183
+~ -[NSArray(NAAdditions) na_dictionaryByBucketingObjectsUsingKeyGenerator:] : 400 -> 396
+~ -[NADelegateDispatcher respondsToSelector:] : sha256 406dbe21d687d87abacebca94391c5f4e1b3263dab5096ed640677eb478ae885 -> d81ceddd2715b7c1ade0fd7a548413ef6537296daef55186de9b00175c6f8c26
+~ -[NADelegateDispatcher methodSignatureForSelector:] : sha256 2bcbacd5bb7849d066ed2fa19fe624dcb4b412ea50acb043810b19724f3124a6 -> 0b53357f320ff031ce3cb1a594c1728faf908cb2d0c5f9a53b6202a0af7e8dfe
+~ -[NADelegateDispatcher _methodMetadataForSelector:] : sha256 1d2510b512fef48497b1e3565c1e0dab2881ed6e9e7e9e2408572b066ce62eeb -> 323dbb0991d10aeddfc1e1645bedd0bb9a65211737ec816e46162f679bc3cede
+~ -[NADelegateDispatcher forwardInvocation:] : sha256 d703daac913428ef099ee07ed8edc4ee43a0f1ff545e4ec8c772b4c272650316 -> 68a6c9e2037a4fc5ab4a5e15a58b555ed8a13d328ebf9da7ec97c9ff93ee15f3
+~ -[NADelegateDispatcher _logEventForInvocation:metadata:] : sha256 3e981563aed1a852e22c5b060a67bbc998e2f0ac0ddc9e9c138cc27c00291bd5 -> fbfb80488bb61119756532748031c688a3b609bff762ede2cc33e7be718581bb
+~ -[NSInvocation(NAAdditions) na_argumentDescriptionsWithObjectFormatter:] : 760 -> 748
+~ -[NSInvocation(NAAdditions) na_argumentsAsObjects] : 1072 -> 1052
+~ ___56-[NADelegateDispatcher _logEventForInvocation:metadata:]_block_invoke : sha256 7136599409f747e9273030cce244fde6899b11856a167901f4ba75c56116b918 -> 03e4d744ca2713838daea290151259e0ae56d5d2070a0618ce0fc51e1221924a
+~ -[NADelegateDispatcher _descriptionForArgument:index:format:metadata:] : sha256 189d307d60fa0817d83bdbe954021b7cc18a3a7118661db239bee86f72213ca6 -> eed5a414ce5a439814936a1ea09065f1f8e7d32802570cdc97b41199d57c7e6b
+~ -[NADelegateMethodLogSettings formattedDescriptionForArgument:] : sha256 8769e1a50b8b0699fc3a165f0357ced4903fcbce47fb02e812a84e6c3ec891e4 -> e5eec2dc47ba58296709500bcb846025657c0a397987cac3e18384be1548b4b7
+~ -[NADelegateDispatcher _logEventForSelector:metadata:formatArgs:arg0:] : sha256 0b56425966ec802f83c7a5c404c127a4ae12bd165fc6770721cd4bf878eb10cb -> 03d96c675d705fd20ef90af66475a330d8d570d19eb4d2545d10f03ed2162f15
+~ ___35+[NAScheduler globalAsyncScheduler]_block_invoke : sha256 455b1809a2f25f63ce5735f1a5e61b685cebac24cafa524837bc2ece9342d26e -> e34c44171996530f9f12941bf73e306391d4fe75ca3ac73703ce9c69788d8f6c
+~ ___35+[NAScheduler globalAsyncScheduler]_block_invoke.cold.1 : sha256 2ddeece88284accab21aae51d2841d1edeefcc98386a10c2e99e9b178340df56 -> b9943837ca5150ed81e8b2c6eab98bc9d2e2427621f890b263d3e71f5e5700c8
+~ ___45-[_NAQueueScheduler afterDelay:performBlock:]_block_invoke : sha256 d9c4935954f5d76e869da988e86ec477b9aad2e3cda54913b4bb2d8a28f2eb02 -> ea6b62e67e25e2d71fb19bd74ada3624255fb34b5aa7bc6a0e27a0f6320767af
+~ -[_NAQueueScheduler performBlock:] : sha256 c4927f34d1367851c2f1241acaa8b589095d66ec72a9ca1b6c8b1283b66f2213 -> 8c73daa98a7dc06ac3224c9a2cdafc5829ed2eec1c8a79eff32398ab3ae6ff44
+~ -[_NAQueueScheduler initWithQueue:] : sha256 9821b430cb3a2448a580fbeae340ac902b25db7507f9f07a64c97aafc7ffd622 -> 801c006b6449964eae85969bad3e2b16198704d6b5574b3c5438cb0a6ec876d1
+~ +[NSSet(NAAdditions) na_setWithSafeObject:] : sha256 28c8a49cfbcd52aa8dbd2f4fa8144711d6235a8559fdb2b8e79382be2f15b226 -> e4cddea9c79d4201b5688cc5ad0b7f1257705dabbc3c67030ad0b41ca80a380a
+~ -[NSSet(NAAdditions) na_map:] : sha256 cadc75a354bed2b081272b3ef795cc495a1bf0743e81e22c477e52422e1843b5 -> 4759ba69f873354a4adbd70ff64fc3a2371b35386b1a8f89252efd161657603a
+~ ___29-[NSSet(NAAdditions) na_map:]_block_invoke : sha256 9651e3752800ebc60b1d21df9ad0913198c6d7bab17a6c95d01e22123419a588 -> 1e3c586f8e2d550b8403a20b1d902ba6bb3f91a6b4855cb13c2ffde95630902c
+~ -[NSArray(NAAdditions) na_flatMap:] : 376 -> 372
+~ -[_NAQueueScheduler queue] : sha256 7dd39ee6932b4826523451eb4fe9954095235a84fcbe0c5ba9030f0240e01f38 -> 18cdf097684997b041cea91d53aa74fb24fd493e1b74d0437df7bc036c4ed85d
+~ -[NSArray(NAAdditions) na_filter:] : sha256 44acc4316fd65e4b6aeda74a3bd6c7eb47f16fc800c123b4b3dfe4a1b390d648 -> 6bc917ee69ed8ef26da153d31d9dd5e880ddce45e4f298fa5ab345f2ce71b037
+~ ___48-[NSSet(NAAdditions) na_firstObjectPassingTest:]_block_invoke : sha256 8097e4702048b815e54d5d836e80984afc2cb10334f406b34eb512250cf79a3b -> f4343618a1752fe4d0fc88ef0c0a4684044db8b57a468573e9e75c97a6640f9c
+~ -[NSSet(NAAdditions) na_firstObjectPassingTest:] : sha256 14c6e963acbf2a685307722f2d1f45d2071073e7543a08d277c66f630fb29bbb -> ce455ca8ac39e0d5dc7aa1dbed802eaef208ff54f18667b62d1465ed7cfe0fb8
+~ -[NSMutableDictionary(NAAdditions) na_objectForKey:withDefaultValue:] : sha256 dc4f8fc27a68db20bdcd243cfc3b44542556dd7e9a170016629a5bf91cc36eba -> aa926f3d98be9d9ee312827c492508fa0cacf948154851551b2e6fee94af551c
+~ ___73-[NSArray(NAAdditions) na_dictionaryByBucketingObjectsUsingKeyGenerator:]_block_invoke : sha256 189817115d6006dc292f0111eae32f10a68d8ccf4edabb812a448d557de92b51 -> 31ac53cd491b225d43581be9e7dd8bcf0feb94a643633464c6afbc52051e4aa4
+~ -[NAFuture isFinished] : sha256 5ef11bbc61d5c7045be8dcffb51e255767c88ff6aac45e81bdd50947b6e875e0 -> 9297c4fa83ae058d28a85151b33760597498502a51466d8444441985e14bcb9a
+~ -[NSSet(NAAdditions) na_flatMap:] : 388 -> 384
+~ -[NSMutableSet(NAAdditions) na_safeAddObject:] : sha256 931da72224d7922c5174199613fadcdfcf26bd64e93cf276f3ea8744f92d8064 -> afdcb97acf59abab29d141efd680ff04b0af870c539b7eb95ce738a8653aa7c5
+~ -[NSSet(NAAdditions) na_setByRemovingObjectsFromSet:] : sha256 97e532e0c06f7959cb523f10950aa04055ad988735947a2e6c268b23e5f085cb -> 6fba640cd4561f182af3ab594b1410caca59b4d129ab91d7262e9e8733ed91c5
+~ -[NAFuture recover:] : sha256 f27efb1f2b033af635fd7520c16a875a41bd1d627d6801fd962e76fd3a2197a5 -> 4cecdea76cb5dcc6fcb9f8dbf2fc5eb76c9925de0e16268a1f91c8142bf51ac4
+~ ___20-[NAFuture recover:]_block_invoke : 1068 -> 1064
+~ +[NACancelationToken tokenWithCancelationBlock:] : sha256 0157898e8fa705f051f33752666d26a0167767ff9e905cf5dbed71ab97948d7c -> f79b47142ea38e79c612b83ff81be6fc0f956acd20c167b1b99f1f07daa35b62
+~ -[NSSet(NAAdditions) na_filter:] : sha256 145df0b58333ef50f73b2436e5df88482beb1415ccd722cf8b5654f74b03bcb8 -> 00d53e13241f6571100c3f24500953352a5daa4cfa904edef22fe769cd91eb4d
+~ -[NAQueue init] : sha256 a130bb7d97027a5733573ba1a6b995fed08b3a6684b193c56ecb1a6866d69621 -> b5f539b35d705c4ae91afd49af84c4f9175b0d4a588ccb3a766cba61b1ee1a4b
+~ ___46+[NAFuture(NAConveniences) futureWithNoResult]_block_invoke : sha256 efa5d73fb72d69ac41b84d35a19472aa57c9d2dd286fde14467f33c25d6a60e5 -> c0c547f2b28696d7e8215bcc5d53fd661db7bc40b886011eb5b411aeb920bddc
+~ ___34+[NAScheduler mainThreadScheduler]_block_invoke : sha256 0181b478ab4fb5a1e35178f6722ae939da71204a7221714862002cbba523cd83 -> 5ddbf24f56b1c0fa0b6611ac4667813e24c436bc6309912a222ac1da7242d741
+~ ___35+[NAScheduler globalAsyncScheduler]_block_invoke_2 : sha256 794f06a47951251a5878dbf6773119b70db203c41c99fb09482e3ce8bd326081 -> c215c80fcd8a336234a2a5df9ab7d7ce4ee32d8657fde3a79d8631539616e112
+~ ___34+[NAScheduler mainThreadScheduler]_block_invoke.cold.1 : sha256 851f78d08fecf558f5522748fe75d2e17bfc83e56b56a371fa5054f0ecd8f494 -> b84e48ad8d2b44ce2598b4cd90d92b41cd47e3df923ad95ab6dfff345954cd3f
+~ -[NSArray(NAAdditions) na_any:] : sha256 290c33a68b7e63c58114d377c73a498bea3c0c069024d9030787af2b64f663e6 -> dfd3167005aa7007444452b865d2eb1345b990e58b530d7d631e5fb2621270ce
+~ +[NAFuture(NAConveniences) futureWithError:] : sha256 3397e585a0f064723e8387232f31cc9aa970493d1de4aca3856ffc7d4e3ef3d1 -> feacd8b616aee649c290c2576e4d5c1b7f8faf43731f087a58aa81bf768e610d
+~ -[NSMutableDictionary(NAAdditions) na_safeSetObject:forKey:] : sha256 aa43b65850b98443e820e7649cb12ad6b8f6b690d65fa251a6c323294f68a610 -> 3b9a1a3886512871f47415c77c0b73b1be6b137222a952fcb488e6d53cf13f16
+~ -[NAIdentity hashOfObject:] : 400 -> 396
+~ -[NAFuture finishWithResult:] : 624 -> 620
+~ _kNAIdentityBuilderDefaultHashBlock_block_invoke_6 : sha256 45ae1fd34fe1c04acac27fe5ddb9e453bab9632d14aae3c590336b9ab60bdfd3 -> 2431638471c1f465ade7877074b391b70f473ee3bcd1192fafb27507d29ebe3b
+~ -[NSSet(NAAdditions) na_any:] : sha256 947002d4bf974f1ddafb6f1e6ef5ac0a9e7df6e20afa6681d4e1d161e1a3a9a0 -> fe26a90a15f3548a25bc94a2a0ac6e1d557a725f7dbc59d642011a17cbfcd260
+~ -[NAIdentity isObject:equalToObject:] : 512 -> 508
+~ _kNAIdentityBuilderDefaultComparisonBlock_block_invoke_3 : sha256 96e2016010dfa116677cd60c9186e88addadde027f58296f0fad4db200dab870 -> 0a5105f01fe95e2acdc981694c2625c655de1e862be126f5a0f58d03c7f09753
+~ -[NSSet(NAAdditions) na_all:] : sha256 ee92392ec582aea2439945ef39a9cb0bca6e26d1563d35aa1395a1eef6e5e561 -> d0a1b24016e9eac09de88e03a60cc747fd818877d3f0ae27ef97e130a0a577ac
+~ +[NAIdentityBuilder builder] : sha256 472ffb447441af67885de892648c95181fe52f5515e3410d3fdf36cc56cc133d -> 6b0fa8fdc28591301f22071544aab7ebf1af41da3fcc48483904b7f8543300e6
+~ _NAEqualObjects : sha256 f57aaf8ab379ef88a294158d1d0f8ae312e4003377cfd1436e3497ab25ff263f -> 1a0a310883ef0e4935cc7f46ffa8e6508a96aff1705a193dd04bff01a553bb71
+~ ___41+[NAIdentityBuilder buildPointerIdentity]_block_invoke : sha256 d35296f8249072f51cf52be9c4e56036008673b612a4f8ec98e1b1f117ed1a22 -> 8d77fe0a1cd458ac782866a26699a1fcf26247678dd7247f25b8b325ebf0eef6
+~ -[NAIdentityBuilder init] : sha256 a339bb95332486da398453187328f79dc6f6018f986e80ce7b5be08b5b7cc008 -> 6b2b38b9e27a79a96a5272bfc77efd1fe1e817d1428cd45ad4294a78891c2b61
+~ -[NAIdentityBuilder initWithIdentity:] : sha256 f17ca3d1c89ee6a45278776a965dfd1a7830ab83f1e3f6ecad3ea4df6f16d9f4 -> 8ea71538fefeccc99d34a4d7f367ec9ae28091e1c100325c427c3a847c748480
+~ -[NAIdentityBuilder setCharacteristics:] : sha256 aedabc03f718798cc814f06b66b56f5a1b6ca7ef138df1171bfeebbf9afb1b3d -> 2c6e91414c449c43e529a66f6b00960360b8f9b55d97069d7fb2f4cccc5c7764
+~ -[NAIdentityBuilder setBuiltIdentity:] : sha256 6e6f857f03fb4841a2b1c4658dfbaaef3b902171a693a1b288dcbfc8b2f9f4d5 -> f2fc0f5d57b8502f5da986a9837359f17711c04af1be4085cebc970b39a5d1a7
+~ -[NAIdentityBuilder appendCharacteristic:] : sha256 756a4f18b978870c7d7dd68f78d0432517f6e7e0c2eab6c3a6803cb1cfde29c5 -> 3bbfab0c3c57a6fa4335ac98c3349e157a92ca7a3851383a28c9576553cd4e2f
+~ -[NAIdentityBuilder appendCharacteristic:withRole:comparatorBlock:hashBlock:] : sha256 428508a1cdcb6482878218938fe818ff6d2b244a1a9e4e2d642b1a483ec26cd5 -> 5102800a411a749ff16628b9f4f6dc70376352f6b4d9e1f22481c8d6ef798296
+~ -[NSArray(NAAdditions) na_reduceWithInitialValue:reducer:] : sha256 e588a4ac573701a50b97f73fd3949494c1eb4bbf5752e5328287f85c1a6fe02c -> 2ff78482c2990849b52ca087fe0a222b39ad8947bf9b24901398fdf919e6e882
+~ -[NAQueue allObjects] : sha256 44703bddd8baa7939dcb4db0f6b1df3f08842be98b748fd0242d3f70909e601b -> 3d322fd32e163c86ab563324e0c7c5df9fefd0cf23edd266ad03de92a38e172a
+~ -[NAIdentityCharacteristic init] : sha256 04d8053deca62d41d47eef57ed23975491810420d209176a8d4e5988fabe97f4 -> 7696f0c42c408902aadc6bed7c0d4a9c416c0d28728bcc99ab5d15860385c137
+~ -[NSSet(NAAdditions) na_safeContainsObject:] : sha256 260bc1fcd5ca5c1de01c85c17ecae0eb6bb64310d315c2af93e9ed7037894398 -> 78732bc599139e790c42a55f1369a3680b57df8c6b51bef2d7887178ab77958c
+~ -[NAQueue count] : sha256 56ca724ba23e63bd953bb060c0896cb544ce560c8a2d1c83f27012d40ff252c4 -> 64356580b8a456dfa7553d497823153e9f66c43034ca9072b7290c34bd8e1489
+~ -[NAIdentityBuilder build] : sha256 4c19e2d04afaaadee49c63eaf64c6d1912208118bb83c44542f739de352e0869 -> e03772daea385fa50c28219c42db5a8cceaf4a513e8bb9608c3fe595a64116a1
+~ ___71+[NAFuture(NAConveniences) combineAllFutures:ignoringErrors:scheduler:]_block_invoke : sha256 ac4a677c70ce0eec42a455579c373acb0769471cad4c83826892ebf0bb4664a4 -> 0398506717215a751847771a9802e53c80e76edfd7c0b282c817cd86df8caa76
+~ -[NAIdentityBuilder .cxx_destruct] : sha256 e22023bc858044f1316ae9bd46411aa1306940eebf22dca50a8b3ec9131acb81 -> 3457a1fc49ce3f06eaad0395706c08ccc37b2557ead610a97bca9e0144322bee
+~ ___71+[NAFuture(NAConveniences) combineAllFutures:ignoringErrors:scheduler:]_block_invoke_2 : sha256 c5d71e484e58fe62b530385cddf947040a876a54ed5ae645cb1b57aadafce471 -> 7c5b6267b57e5961a71add018d2ac145b37be44a7152e286d78b136c57d02ad7
+~ -[NADelegateDispatcher conformsToProtocol:] : sha256 cd82237deacdf0c8a1f524f36c3b462d004e8c7f490c33fd2857d18d5ec52529 -> 59dc94bd7cfaa4db203a6cf40ab6030890f746fdb76c342cb125fa4cbe749931
+~ -[NSDictionary(NAAdditions) na_each:] : sha256 acbde924e5f44d78a359c94fe3db98abfd4b20829df552da60348d275199a9ef -> 3fdd599e4c2be360e272a640fdcdbb0118e7ef0f4c73b5657b21b2ef9ccdf6a9
+~ ___46+[NAFuture(NAConveniences) futureWithNoResult]_block_invoke.cold.1 : sha256 1f3daa806210e7d0a2d23368a787ecb027b17a3c57243810edd0bda081e9fc55 -> aef000bdc196e8dcee1c6da9908afb66822fb521a6048c2cf8299fdf1e11442f
+~ ___46+[NAFuture(NAConveniences) futureWithNoResult]_block_invoke_2 : sha256 00571b097923a3c86863e03dd44b819dc0d8aa619d5e82d40468cf0718f38780 -> 4c761de4e740e282121adb4b73ab319791112b4efec7fb8d3717101b5dcee4c6
+~ -[NADelegateDispatcher removeObserver:] : sha256 d32afbfb899443b62fabbd80ade51874d8e394b556332051d93449bf20bdc5ed -> 320812ef0f07f16d68f000136a3b6b3685bdeaf2e1b6f8d63f193342ac2d0e48
+~ ___42-[NADelegateDispatcher forwardInvocation:]_block_invoke : 288 -> 284
+~ -[NADelegateDispatcher _effectiveObservers] : sha256 c758543fdd6b3eebe04ec39a74073968ffa05c453f3f5f1b22043411e9a4ab4b -> f735baaf54d6283156aa2c3572649ff5117754ed3ed598f8c26df14c89db7467
+~ -[NSSet(NAAdditions) na_dictionaryByBucketingObjectsUsingKeyGenerator:] : 400 -> 396
+~ -[NADelegateDispatcher _logEventForSelector:metadata:formatArgs:arg0:arg1:arg2:] : sha256 479f67427ae762d7662a3fe28e865f4d2ba0f4f17e02d9cb73e0c5cceb1fb4cb -> 9bdefe1896d33331b3dfd097b24fc2eadf330f814ca90b159c5631cf1113cf99
+~ ___72-[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:]_block_invoke_7 : sha256 24f0cde229f0491becfbcce3d34ff1be7d569174b95fcf50ea2722f132ed17b9 -> fe85fb0129a9ac52e3250de9e570d43ac1b06660b26d123ffcaf93bb52398be3
+~ -[_NAMainThreadScheduler performBlock:] : sha256 84178522d364b00fd84695aa8e1c7de377674ff5627965f6eacfd901e8e4e372 -> e97fee0cb979f5939f264d23ed39494c99db808bb6222ffff9919cc8081a12fe
+~ ___72-[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:]_block_invoke_8 : 284 -> 280
+~ ___72-[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:]_block_invoke_3 : sha256 ab687698bacd0dde96075981d2b7c268e9dcfa21fe60828b7e152786a24cbd14 -> d52c325d3b3f2557bd01d4f30560f0253ea4c70a3760d8ec1fbb2b14dad6a91a
+~ ___72-[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:]_block_invoke_4 : 280 -> 276
+~ ___63-[NSDictionary(NAAdditions) na_reduceWithInitialValue:reducer:]_block_invoke : sha256 7dd32d06c5dc89691327d9f8507891b7331eb26687c149063b36492e2c9bbc18 -> 8a51221653e9b4a29d7f69314f1980b51abf66b74ebd04c31a0c269927d1aeea
+~ ___58-[NSDictionary(NAAdditions) na_dictionaryByMappingValues:]_block_invoke : sha256 944f0fb6a9cc853ce2bae8fe326d58e2cdcbde17249adcb13e6e19d84f970b23 -> f22149c0c1e46ba0a09a97de325964d7ea58ccfb83fd9283e99a1b43e63d6411
+~ -[NAFuture cancel] : 604 -> 600
+~ -[NACancelationToken callCancelationBlocks:] : 244 -> 240
+~ ___71-[NSSet(NAAdditions) na_dictionaryByBucketingObjectsUsingKeyGenerator:]_block_invoke : sha256 194247bf22e7e3432969c9492245ba2a02b1e909b8c78304e2504b0a3f320d86 -> 5dee8cba99574ee9932b63a63e2dd7628b75831ee1a642ccf4943f2822e3de38
+~ ___50-[_NAMainThreadScheduler afterDelay:performBlock:]_block_invoke_2 : sha256 0d6ba3ce7bf8d0b863e636b680f2b72d34435d0379be8e084e74a690a6e0125a -> 74dabd8c287f0ef21db209b814013a32da47ba10830a248595cbcaf59d1721c1
+~ -[NSError(NAErrors) na_isCancelledError] : sha256 557565c2fd9243b2fc3f3149e32e29ec7d5da8e1c83cfd1979f45074e597379b -> 0c5bc8c5e5f5fa82f411f904419e878a48a4413eb70e6c8dc5a3b7be17568514
+~ +[NAFuture(NAConveniences) futureWithBlock:scheduler:] : sha256 0e371a3160a7eba6c43dd2587effaf245b08374ca89948fce8592847742f7d84 -> 480ffe941b74f6d72ac89f080fecfabbcf2e85c19e76be1278b792d17d412c3d
+~ ___71+[NAFuture(NAConveniences) combineAllFutures:ignoringErrors:scheduler:]_block_invoke_3 : sha256 e040f4240d723594b864efdf54b8de3b9099c8f9fbf756a1d521a01c85fc9448 -> e92b6e275f8977e2079fe7aa277b2fa995475ee4ec1b252c7c0aadfcd3409a1c
+~ ___44-[_NAQueueScheduler performCancelableBlock:]_block_invoke : sha256 b5af8a6842c607fcfb5fc015697459cfbccc43a7c89f2178eccbdaf6e391cbdb -> 81c124230c56887f96b3bd2e2a5e948b98e0f4b509be8e5d1910254d007cb505
+~ -[NADelegateDispatcher _logEventForSelector:metadata:formatArgs:arg0:arg1:] : sha256 5ad792c4d0e343c342ff3e39c295757d6be39da8332d141a545044c185edf8ca -> 4b8fb9ebf280d8c1089ccb5298c437a564c485fa91df5d1a39d278d9b1e0f504
+~ -[NSDictionary(NAAdditions) na_reduceWithInitialValue:reducer:] : sha256 4bb00e46d466fc794b6091bbe0ea9ff23a3d823bdbe347760112b37010efe4ca -> f0b97a0c80e578d0004b773ae4f617bb8a71d1e089c8d2b7c409d88ec691f0f4
+~ -[NSSet(NAAdditions) na_setByFlattening] : sha256 5a0312db4e26086501a5d0f4d4cd2a472cf6e46dd27c435dcba37fe232bb871b -> 3db3b4ee7a805b7bfc8bf5750d32535c9e7e60ebf4fa6e64bf7b9535e3679a28
+~ ___40-[NSSet(NAAdditions) na_setByFlattening]_block_invoke : sha256 224bfa30ab46cc59dff72cbab3eb0095b24bd950541d11a0a6a56f7322c83274 -> 70f3ef5e59508bded8dc58798b7fc6c2f65e6abe85acce9e7d1bfd9277a824d1
+~ -[NADelegateDispatcher dispatchMessageExcludingSender:usingBlock:] : sha256 0b44fdffbc7dfe57857671956463d6d0d34ba4e359fda288a0393d63d959195d -> 2803faa5622ec0fe765e7c19a30fab75d05e80a408fb48bfde1f3340a20ae782
+~ ___45-[NSSet(NAAdditions) na_setByDiffingWithSet:]_block_invoke : sha256 436042fba9deca676e42eda39f6e0f572c1bf4bb08cec65f0b828fe2bcff8518 -> a262d6700c9bd843e2a3addc73a5c09fd20378aa04784f2002ea51217ca04323
+~ -[NAFuture _queue_isCancelled] : sha256 a9e3cf1a6ee3278224d1c6a4e38ffb10c2ec2993497eb710d215e5488ab1e7bc -> dd26e4b6c13e737543fe2414e6fa4538d2cbacacce6d865852a3c1523d70eae1
+~ -[NAFuture isCancelled] : sha256 451aa588787bf9d91671497faacee283c6290adaaa7f5c950cc84cda7de1a2fe -> cbfc14df9688b47871d0c6cefe243fe3672e4462162841ed91499195e6c52b98
+~ -[NSNumber(NAAdditions) na_valueRoundedToNearestStepValue:relativeToBaseValue:] : sha256 11065f14dbe8f5e205dc8f715e642fb70646d2383761ddf1e38c2630059ff7b6 -> bb340abc53410f3ed0b14e1396aa2ccb1be59642803c87ecc025781b86e8ed86
+~ -[NSNumber(NAAdditions) na_largerNumber:] : sha256 6f405eea374c23bb65b3729afa6bc1e88dc6ae5df9358471208a0e732357354e -> c64f87c2fe9f272c6ee7c1a671f6a087f7e5f6ee7865e6cda8d0791a9244802a
+~ -[NSNumber(NAAdditions) na_isFloatValue] : sha256 376cdabcda2de89f8be3d677682335a7f726c7608293ddef834326ff65f47eeb -> 80972c8e90d9e988cfb9105af76a3a952b89161857f1f3a0628c59de83745445
+~ +[NAFuture(NAConveniences) futureWithBlock:] : sha256 ed03e94141efac714dc50c972f86402698b34015b87b635ad596b8acb1188ac7 -> f8ef1ea900da1f7011e8bd5254c2ddedc7ab3887e1c76fae384b21d9ea378086
+~ -[NSNumber(NAAdditions) na_isSignedValue] : sha256 5224308f86ce4306af22bdc0c151d755f7f8408218d4fde50c2b32851069f8a7 -> a8db5e76ad29e31abc2c8071843f150dd3155e072dfb4d850d25c600f87e5b3a
+~ -[NSNumber(NAAdditions) na_smallerNumber:] : sha256 9c66d5ce85f8b0f9f1c88c7e0f7a7858c8a606ec536d5134d222ece32119673a -> 1e2dbf7cb441d12e9d8b88e5e48792dad2875a9f5f5b3646d5b95258d114b96e
+~ ___72-[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:]_block_invoke_5 : sha256 cd9c83833bc46af00b238cd9fed71d1692185f1a0324b399d4c3cfee9aab8aae -> 1e6e855fc247301f6f0487a587dcca9de5a8e1d27e6d1bd4e2d5ed10e7264ec6
+~ ___72-[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:]_block_invoke_6 : 284 -> 280
+~ -[NACancelationToken addCancelationBlock:] : sha256 4c07e9ffecb7e74cbaab855b127c212cbd7cabdb6feee79788cde7e776bfda79 -> 12a11df332df4eeca2f68cd9e3d3844a5a6f2615a2001ed7838098739972521b
+~ -[NSDictionary(NAAdditions) na_dictionaryByMappingValues:] : sha256 0afc3885158a1d4cbfdfe5723440b2f6addd0f3eab5eb0128c777a6d4cbf9fdc -> ecf79bec6c8a4c607b8f83bc5aaade0e0c6eb2a7efc65921ad949ccdf0ec3483
+~ +[NAFuture(NAConveniences) combineAllFutures:ignoringErrors:scheduler:] : sha256 d7b72c28e6affafe345c5f7d633e24adaa504ff4f2e8962989448f9f20ca8e33 -> 411e9b17d21d0812a4805e1c576d7783df62183d8dbc60dc81e1458ff64ab50b
+~ -[_NAQueueScheduler afterDelay:performBlock:] : sha256 c4dafc690a5a34b37f9ca0b142bb2838a694c3a10ce6cc5048a811c7e7aae1af -> 58089cce6c68cd7083c835e656b5cde14ca5d9f7143077c136fe0e4dd54e6ac6
+~ -[NACancelationToken isCanceled] : sha256 24bf47f449f8d4f1e8fc55ea3374fb4bb85c298b2746e0953d628d226794f86b -> f125b3323101077f37f952c51e046378e82d33ac5df55b54d0bed0cecee4973c
+~ +[NAPair pairWithFirst:second:] : sha256 384a7eb710b4ba68e02a10ff7e4f981ddd370deb59ce50e6934465af2b68e911 -> eec67f8df59d82564c8fd37ab0f25768f9bca5cc99daedda8c1a8265b2a32477
+~ -[NAPair initWithFirst:second:] : sha256 3ddade1c121d8060312610d1099cf8a080dc0f915709c86ee6b42d63238055f8 -> 40a0d024fa9c1e07d6d0f5d5d38848f885681787ee3cb29eccb477d3605c172b
+~ -[NAPair first] : sha256 c8eaebb5dfafe906989903cbe8f2afd10197859878c26eabedaa48e4bac602e2 -> 1cc61865c16bf389c64a6a8be78f7dce4aeccad3facc8a3b858bc26e06aebf52
+~ -[NAPair second] : sha256 eef4cac6e25509f6af956db4355c7c956253838c5c005dd278f04418ff38b6e2 -> 4a52f15fd4d72eb9f0dff82d7cbbeb0ae511667ccb77b9aec501405f19d8ab7e
+~ -[NAPair .cxx_destruct] : sha256 06df8631c396280acd2daa5cb4adfda9a80b7c55aee6e10d98c51c561c8ade71 -> cdac69bf249da29c1c8676a9ec302202324449a3b84fe4125af25ae66021566f
+~ -[NSDictionary(NAAdditions) na_firstKeyPassingTest:] : sha256 6f2d639fabc3d45d9d69a1a3b4201743da9b7521ad3a6a0a814fb49fb2aa8422 -> 9f64f3af9901a6a7a0085c682d51a349e556b7eb1d0a8df448a109f65b3b18d4
+~ ___Block_byref_object_dispose_ : sha256 bfd4417853be76a8d44aee88b0662d6eab17e3203f3da828b5b667c55b1ef8ff -> 438c0682496df45b9cb3625fa82d8e08b34ab6b4af2ea7378eb21bf313d11636
+~ ___52-[NSDictionary(NAAdditions) na_firstKeyPassingTest:]_block_invoke : sha256 b0f2b41d115cd945ebe40a7133e279e8d7a490a21e8a3c3ba062b0e9b3a0c24f -> 11123878a85817c9621a14f294eed74cb045f80e0a64aa36fc6c6efe2d4d5e81
+~ -[NSDictionary(NAAdditions) na_map:] : sha256 b0812bd927e3722458f179914fcf8ac06774ce076db8c4ad095eba45c19ec392 -> 54f6caf3d54544a5844727c26db4bb5d6b386919b8e1e5f7c36a4abf3345fa86
+~ ___36-[NSDictionary(NAAdditions) na_map:]_block_invoke : sha256 a3a0aba4e718f0e90842eedc5bd000075e4cca0c34a894fcd97bb1c7d31fc48a -> deba5b65313d713e8edab1ee6c7ffee65cd0e4d9246db6bb1e685d0ad1cf173f
+~ -[NSDictionary(NAAdditions) na_flatMap:] : sha256 4ff579171e5d1cdbac243ddf56c19b14575bc6e30519260675fb18313a27217c -> 386d7265235a541bf94207f952feb6efff97f6db3896fcb3492d49f4e01fe4ef
+~ ___40-[NSDictionary(NAAdditions) na_flatMap:]_block_invoke : sha256 ccc9d72f974cae3a4b9ebfad9f80d2e05ab40fcf73b81f2347a1fcfe54f45a6d -> cf9f376c451bb0a7bbbaa315024b005f1a90edca814ed13cea51d37d49dd1912
+~ -[NSDictionary(NAAdditions) na_filter:] : sha256 2e536fd949fb156c532634388b31cd3e4fa38fcdcc959f4d66a53a6eb7377311 -> 8e83311f0ca0a869968f2f30c45020f9f89731174d6bb393c28cdbe42d9d9a52
+~ ___39-[NSDictionary(NAAdditions) na_filter:]_block_invoke : sha256 55934ceb097cf4d230fc61208e1f0e9ae86da364543ae4671f787755164571d4 -> 723553ee469bc9c3a8edf9ca4a82481e6376e9b66c36b8bdf42d0766c8200139
+~ -[NSDictionary(NAAdditions) na_any:] : sha256 4f22b5033402083dce3a7fa1069078eeaa10e4cd4dc713460db973944e709165 -> f3b5c27950ce3c299632d1c5e1396041f6b523c18b6b023084a009ea8720ab81
+~ -[NSDictionary(NAAdditions) na_allSatisfy:] : sha256 5a0d43a40d1dbc95aa57088c9cc110c902272befa7b275ea07d57662253cf600 -> 9735129f4c552a641ff183eaebf5a94fd2549faa660b63d6d6d2784e492f8272
+~ __NADictionaryOfMetrics : 432 -> 428
+~ ____NADictionaryOfMetrics_block_invoke : sha256 a641c2b7d753d3d7e83b06ae7c0e174b172df93a2d756aed4bf8fa47321e796a -> 4e41a731d86207075cfac9b414443ef36d1f7857607eeebaf81ff7ebd5a4786f
+~ -[NSCountedSet(NAAdditions) na_mostCommonObject] : 328 -> 324
+~ +[NSError(NAErrors) na_errorWithCode:] : sha256 1f8af2347eeb2b2d014630b0856d7b41df2cfe503599f24bde278c09a47dce14 -> a00b8f851d9037cd2196af2d5f5154a86d50aec4e18c788f545384cef7f120ba
+~ +[NSError(NAErrors) na_timeoutError] : sha256 a355ba67e1d5370c2f539848d2241044784f79c8fa5c906f38d434b0eca5ba42 -> 8a759a9b772e3d1261f731c22cb0287f4eaf432400a6b6ca3e073bf26f5482ff
+~ +[NSError(NAErrors) na_cancelledError] : sha256 0cbb71c89dd652427f5f067823845e10f5df44aee05ed4b183b47bb8611ea07b -> d87ef94df59e40b00d2258dc52df2aaff5956ff59a43718e8d50346369dd2eef
+~ +[NSError(NAErrors) na_genericError] : sha256 18c84c3584fb6ed3a82c8c4e501a31ca780af5c7cd0f4daa8bcf93247b328c32 -> 06021f872d80421ebfc7014a3e9e1219d3fc0ccf1b153a15c2cd67616b4cd70b
+~ -[NSError(NAErrors) na_isTimeoutError] : sha256 215395f0072b157ef21228536f38253acf51218439220b0ab74b70fd29c287b4 -> 781482896f312ad6dd28690b8019f8b20037245f55f40787ed00a90c6e534a2f
+~ -[NATreeNodeDeepNodeEnumerator initWithNode:] : sha256 bc8f0c0b045d3dd46c4e49cbdc9017c25e213042699abc3b5661f2bd07ce95f3 -> 1c1d8f4684d0564558ebb0de831eb82f32cdc3768928f974b2ea1c1ee68c7c66
+~ -[NATreeNodeDeepNodeEnumerator copyWithZone:] : sha256 efc2cc27ef456ac4a55c8de5c758fd44dc9ff265a1965d66c14ed85c673fd6e8 -> a2e32fd3b9821284d543114cef6e76098fb83352735d36e7230c79e4f9be0bfc
+~ -[NATreeNodeDeepNodeEnumerator nextObject] : sha256 c9c0faf5f1cd6fecb6ba1cb696fea27a2f9f7983d30bc463a0ffde58400fa5e4 -> 54f9f5d3a2aa8556847ae6e147b5c6d6a695a2fcac9c4bf0fe6161e3c7ea23df
+~ -[NATreeNodeDeepNodeEnumerator allObjects] : sha256 7bcc4f82316b9db473ce58ffc48222b41ce5092344006bcd54dfbc7d29da2154 -> c94b1a2017eec59bc55612f98bd7b692d47f8df129cbeb8b1c90cbe1e47e7b20
+~ -[NATreeNodeDeepNodeEnumerator node] : sha256 3599eb118a6a61ed9a17699fa7c1594c5a4cac7a25f1a9eedf28d72a554caa7d -> 1f5c002772c1c2f15507f1bce37e3d48d3c1b2a9ec70aefa0e20ada8076ada1d
+~ -[NATreeNodeDeepNodeEnumerator .cxx_destruct] : sha256 f6ecd10d09acfc8f1f1e2c3d7f916863cd1656c6fc74d1613b82b7aeae5c1283 -> 7ef83f00055abc37f64f22622ff129c8240f0e901f7bb92d58ab7394b3a2cfab
+~ -[NATreeNode initWithRepresentedObject:] : sha256 c4751dac1dfbb88a1ae2f8691a5a02c04f3dfd760772ebe4942cc902b517bc07 -> 38fabb2d264d2e432a18fde1bd25187ceb2b0e6227a0cc37eb4a9c2e5988109b
+~ -[NATreeNode initWithRepresentedObject:childNodes:] : sha256 d0cfaa6ddca165fa8be25f938690556e06d6670ccaca8362badb84c9b833f7ef -> abe7144a317fa255ee1fc95ca50bcef1904f7e1052bad7c919f62043380654db
+~ -[NATreeNode _descriptionBuilderWithMultilinePrefix:] : sha256 52620a338ad08f97a87732d660adb4931ba1c3a431fed7d65c29b20b5839ffc4 -> cbcf73604912fe9e7d8e8985961ebaf9cc68fa39adeff7964fe04f5b0e7d6398
+~ ___53-[NATreeNode _descriptionBuilderWithMultilinePrefix:]_block_invoke : sha256 7348ec1d10e9dc82092327a64a165e7f5407c3cb01c05116620863a00a0bde82 -> babd7c8aa8cb213ee815c5301e01651ae434afd52b7b3cc9c4d1e960d20d6ff9
+~ ___53-[NATreeNode _descriptionBuilderWithMultilinePrefix:]_block_invoke_2 : sha256 7e352ae99d835ba5dd986841ee3df3b7fb84200a8b59ce5ee75b689652f4979d -> 0b6824f4d71162b19e7d26f4d83244b5aec1f0b97b432cca9aba04fdecc93a89
+~ -[NATreeNode description] : sha256 2ff99baf543fab93caa2a5b6c5083e89514c4f457333c04b39327da4fd1583cc -> efdaf65bed880abf4e7fa99c5a11c1c5faaed4738a7cff02566524e8c2c792b4
+~ -[NATreeNode copyWithZone:] : sha256 e3de6f46e1b1c9e93378802199a9e6d447719bd703513831165990760ea0f2bc -> fae81741ae10dbe3c1c2a7e94e1208bcf69a6df0ee1612613b4dc58f81250dff
+~ -[NATreeNode mutableCopyWithZone:] : sha256 94aa5f6c08967a98ec017de38c85c1fb0f98fdf5daef84e3322012b5d14bb909 -> c7b424627b2280db022decb44a988878bea5d0bdfbf8bd71ce438b7eeeda0d92
+~ -[NATreeNode countByEnumeratingWithState:objects:count:] : sha256 a41782a4e268c7732d77b4dbf053df6df4ecb71226943e73e7d89c29bc60924c -> 3466a31040b6b17083f805266f2d0000f675167e0938cca8ea67e9308836077b
+~ +[NATreeNode na_identity] : sha256 5a08be173008bf67f222be8a82d6fd77c364b4af66829592a7a5c1afdd847475 -> f09fdfadaa0e0ff0391b0aa377b425c6b64ff56d25c9717f1df752375f412c7f
+~ ___25+[NATreeNode na_identity]_block_invoke : sha256 f9a0b436054ebe9c5ec827553720736a11389907b6a36d651c62412401ce2c49 -> 251dcf36f5919d28eb0bc685e03e060752f8b942797a884fd5beb1f9f9e786b7
+~ ___25+[NATreeNode na_identity]_block_invoke_2 : sha256 baf472328fddc58365d0e7890489035a854b9017dcc3920c32f20593e41691d3 -> 5cf7424c954eb3f4dd1076feb221823029c60c8e901eb767ccec4349d2cb9e89
+~ ___25+[NATreeNode na_identity]_block_invoke_3 : sha256 5e623fff3a28304dde273a99a59a1c4cb1a350362674b4c571348cdfae7c3ac9 -> dd851a287ab5e485f4cc5da1a648325e994ea8eba485e235afe4d67cf1cc092c
+~ -[NATreeNode hash] : sha256 e29d3be16e401f756256646ae9ec66b5f97aa5f30fff0bf235f46d370daab6e6 -> d6a37aad28a217e07a61b8ca0a95f68651f8fba54eee595c35ebe7dd2f23d140
+~ -[NATreeNode isEqual:] : sha256 d0f388bc23579e75be27aa28ce22424f2b65bfa8012a84227a73f4625d54579f -> e41fe1d4a36c9b593dc122db5832c3aee4a9d541de186cf844660237995fbd9d
+~ -[NATreeNode childNodes] : sha256 ad6d36a7fc0042c838e39cc1c63e30157dda5de009523f737a116af83e3fe960 -> 44a65c74dcc0b4090ea8b873b7d5596c67d3c991550053a9e00c66701af79cde
+~ -[NATreeNode deepNodeEnumerator] : sha256 b241e5ff082e79bcf66ccde5cf6d1cd2a71ce4c9f7097ee42955701504071873 -> f0f7c66d61cc11a94456b9b185b05b3ba739c916b0b39d175d7a45e62a878e38
+~ -[NATreeNode shallowNodeEnumerator] : sha256 b9cf5a89cee26e1e060a65c969c7519542d566b3aadac273e96c7b011d3e2a0b -> 982785b8eaacb0d9fa7410e7e95be1d28b10b9e5d1d7cc0fdaeee25053b8de78
+~ -[NATreeNode shallowRepresentedObjectEnumerator] : sha256 094fe64d0a7db85550b63d73de23581722467e734bf7d10e28e86175d9558782 -> be7e271f55ebfd80e48bde01ab734fe1481ccd0e86d0c9b48445a9598485b49f
+~ -[NATreeNode childrenSortedByComparator:] : sha256 c6a9bfebaabf888adfd96546ccaf755a8eb7b32bae3c555cb5945b773e0509a4 -> e7411f583cdd75c39d1802b55ebf89226f7c1cf2ef9291fade4333d1e0658419
+~ -[NATreeNode childAtIndexPath:withChildrenSortedByComparator:] : sha256 a30db29d44406da433fa34004562f9f65042eb01c8b01288dc23ecfe9dc778d9 -> 6d68a0a0f23ab0680781eac85b1aaf24667842b9aac98f04b101af7a3387d25d
+~ -[NATreeNode setRepresentedObject:] : sha256 66fe486064a13347838a29282e2ffeaac220ec4decce517d98162925f13ddd9f -> 7fecf56d0d101d5d4fa77d98f9ffabcb842b76f9e7e5a1a04d17fefc45b7b430
+~ -[NATreeNode setInternalChildNodes:] : sha256 5ec979d432ae33a1dff3a363360651430b7559695aefc2da00f86932c3e6aa42 -> c33d7599451fd585b6d267be3b6bb9f49396f90dd5bcc0d4af94098439d8e599
+~ -[NATreeNode .cxx_destruct] : sha256 bcb5c067e89f0e9bdd69029487ae850121e80c09e61b2b2d0756c09d6d9197ee -> eae8b86261a6029b4849e8695c6dc3f7577d677f167caebd38387543b0e18f03
+~ -[NAMutableTreeNode setChildNodes:] : sha256 63b3bf34a3f2173ec9a717147f47b09141f87f7c13e202557b5556c11dd9a913 -> b8865bd5e2088e1020a30b3b111ebe89c033d0f23772576cd6cf7df55c146a3d
+~ -[NAMutableTreeNode addChild:] : sha256 aac01d5613db7e005016021d71e75e926ec5b807387e1686e9fb0ff62a798d05 -> 48fd3e70d5785084659f625faeb559267a934604275a1a7d7882a20bc3d45546
+~ -[NAMutableTreeNode addChildren:] : sha256 445d208ef732053b0e5cba01f39696295c13492a05422b5e7d219cfbe7878dad -> 8c6adfa5aac7484f9a067246741991adda075903d61db4dd8c6a94dcc564b54b
+~ ___33-[NAMutableTreeNode addChildren:]_block_invoke : sha256 23e49b3e3627b03a8a2be003b5ed8931ab1fd8b0697e63f730339cb190e1880e -> 95beeb6a0ceed0a4f0b84349adf0aa4c08ceea32a679c8e96ec73af0641ceab1
+~ -[NAMutableTreeNode removeChild:] : sha256 d2a256023db54e218e3c6f18cb05ed6a713b34179fe52ce30c1422539e1e1324 -> 913906ed520336b4fcdc7eba20e1e0efe591edad573aea8b4c6c95d3c9fc173f
+~ -[NAMutableTreeNode removeChildrenPassingTest:] : 324 -> 320
+~ -[NAFilterEnumerator initWithEnumerator:filter:] : sha256 867bd444650477c2b28a199022658536f5fa7590895847aacb00f0575b2c7599 -> be11e55d5adc574cdd2a9262a0a7e272bd407f6db69dd9c545eb12532c659556
+~ -[NAFilterEnumerator nextObject] : sha256 68520af68582ca726379c190dc327220930b4834daafdb2a9e3d79d8efa179a1 -> 0926f7e5adc2f898b469cddaffb665e64155c69b50f5a86b7d01533a4db1ab2f
+~ -[NAFilterEnumerator allObjects] : sha256 3596b361f5281eec4f968e7defa6a5a8529ddaca74d2e0603dd9b16da0ed6b65 -> 726e07cb8a091138a1a0c9ce88e2c825858c777e33a65d95dda8ce4cbab90967
+~ -[NAFilterEnumerator enumerator] : sha256 b3713908fd693199043ccbd2d25c80c99c7b0509b92f4f31c599dfb4c0018935 -> 994e309e0acfc32dba86435a8516c975099efb56dc099fa225cd66afa1a3d6a7
+~ -[NAFilterEnumerator filter] : sha256 216cca8eda5721cc5dbfbde093efd9ec513a4c5061febe5a9ef5b3432cddaeff -> f0ee69c3d2d907205011ab67f1ffdf49fbdb7d2e2bdd96d0aaabdacc8156c853
+~ -[NAFilterEnumerator .cxx_destruct] : sha256 43062bfd7103223651b0d2fcc1bc602df1b2aee26f26bc37ee753655bb6aa8fc -> e86266ba52fee5d06c0481bcd7059bf0caf096f68282db0ecffddb4652cc994b
+~ -[NAFlatMapEnumerator initWithEnumerator:map:] : sha256 03b22e3912933c98fece932fcc4a4f22e7ff6e1712f4c8487cc858e686a781ac -> 84c4b5251002520babfaca4b8077295f14c083ff119413135d3d4b3032cb3572
+~ -[NAFlatMapEnumerator nextObject] : sha256 c83790c22269621776df4587656df62447d70ce3f9a3538ee166b16ba7b31394 -> 395afaa1807a80f0014e3f5de8c761cc40a749a90520e2e7709abec4e6d5ec2c
+~ -[NAFlatMapEnumerator allObjects] : sha256 1fafe2ac3433cf18cc5fbdd82154f257c46f90a26eaff3d508384ccdd0020322 -> 9c17b17c5c404636b6632c53ce98d14abc3dcf49375cf16465dcd216e164fa7a
+~ -[NAFlatMapEnumerator enumerator] : sha256 ad36cc70c073a464c65cb9da6575bb4c2c1d7bf536b07d419b6f9f2eb56b2485 -> 237e7c41933c24fc67d7502a467cab8dc041168ce6f91aab2bf2990f171eef00
+~ -[NAFlatMapEnumerator map] : sha256 cc893f35e53ec77ddf5a264187fbaa7099fce1cca6f4755501dd20b6ada34f0f -> 820a46508e0b509bd453436a56e7746295742dccdf11cd42215da8bffd59d34f
+~ -[NAFlatMapEnumerator .cxx_destruct] : sha256 a9099a01c4dd6e8444d2c7a090d794838157c0007bb1bb3946b00c23559b0faa -> 41342f5c2cc9fcad9af5b06575d4370ff0ab956d26b0b9fb498b3f6c23ea1c95
+~ -[NSEnumerator(NAAdditions) na_firstObjectPassingTest:] : sha256 247a692e1affc3a8da650a7a6c09186cb4b65a61ddc37552afef0f361c6c2efe -> b7276f13d050aae3d4e1a1f3aed1530a87de8ed99532df18a7fcbd4f9c037503
+~ -[NSEnumerator(NAAdditions) na_filter:] : sha256 dcda5e690785331f875f99987ba618896f8464921e7b375f951e557006cc916a -> ffdf76f09c4a8bc3b61537f7ccaaade1e0ea849ed5d33a4ec9cee73ce0b670d5
+~ -[NSEnumerator(NAAdditions) na_map:] : sha256 33dbdd9cef128bc0cf331ac1a66bec48519e74c7093be2bdcab658590e652026 -> 6bac3ba1ef93b0db3d5acc9438c4804c53df92303c9aa0c423ede317b1a2988c
+~ -[NSEnumerator(NAAdditions) na_any:] : sha256 ece12a76911ae1109ffbb1efcc107b1e35c8a57315ae4fd32d8460ae5bc15c1d -> bc05caab1c99677051f3f579981d5f8edba546380d0ad6d5bc92430fcdb42092
+~ -[NSEnumerator(NAAdditions) na_all:] : sha256 d4ff42bf5b18d840ac07c91507eb50063d92b5441939bac607dd6f12892b9825 -> 24b39f2266de9b6868ce070a5073b40c22c4d5f744aba43f90acaf2bbb4ae484
+~ -[_NALazyFuture initWithBlock:scheduler:] : sha256 ee58907a68e49ae1efd10443df45694aba1ad38db549d1bd288c929b8fbfc5df -> 4ef0a75e023213b0f4894147998b78f0da5365bef641cf037942941b5b747eae
+~ -[_NALazyFuture willAddCompletionBlock] : sha256 f123b8d54c012f94dc6d7819bc7ef98e637257ed1f1c17233dd322905c4d498d -> ab0e9d0f13fef7681eecaa4c4d9736200ecd6713e9d0e9fcdd0e2feacf77642c
+~ ___39-[_NALazyFuture willAddCompletionBlock]_block_invoke : sha256 489a050848a3827bb9f3456f56ca6abd9e1cf6024e4f088f6864bec9ba98cc9e -> e1da5758ffd8626dd3d9e4a155b4ef371fdb0a2119510f7f40d473ca152dbb59
+~ ___39-[_NALazyFuture willAddCompletionBlock]_block_invoke_2 : sha256 946205d2152fb8897e0f50db225f69bd3f1f2af3922bd4a7d9b52ee0cd6ad724 -> c6d51dbcaa68a9d7facba27a1478dab4fd5db73e186709c826fc9b8a7b4ef09f
+~ -[_NALazyFuture block] : sha256 5f9dbc9af47fe321a1db734d494d52136d683dd87a20b700a340738a44c959ab -> e61aaea82fd37f371ee419385d907f4e7852e9131d2843347c560c7861e298a5
+~ -[_NALazyFuture setBlock:] : sha256 cf52832b4c04a5a7e689c46c751c2c77f81040d3cc14d7f71b02f248c838ba17 -> 22daa3d78278e853b51b61aab92e0057ae759d9ef5e7ee015269684a73f403e2
+~ -[_NALazyFuture scheduler] : sha256 150f8b36d6201b7410469d0e72ca56b446dae5a2e70de7140a25077a1aeec8c2 -> be666b7c1041ded47866cea04e284e9fc63a7074a89cf5b33f7c227c447da825
+~ -[_NALazyFuture setScheduler:] : sha256 f3c6fe9ba8046b7f2276f9b94092c4466b3d509c9846362af17e1d905f8098d7 -> a095127c5294a4e01ddb4f15b4c7b200b582d26bd21360d1d307eb1a9a1f6814
+~ -[_NALazyFuture accessQueue] : sha256 b911e1d108858ea0326ef8df47d6afba356bff40e1ab3f8c881b55b0a1622b44 -> 16684decbcfa450e34febf3a9e1510564cf78946bc8946a8a23e54464a0c8a04
+~ -[_NALazyFuture setAccessQueue:] : sha256 98aed9c4d6aee0876f68d79c4bc5efc825bb09dece30eaf20afcacd0ea3edf7d -> 22e7c48e43c643d2e74e7e1561f70a7b414de49ba9c91173b104ae8025ab48b8
+~ -[_NALazyFuture started] : sha256 fef93e1ef86caca410375ce37883bcef7bc95ea4fd00eb7cbfea4f26cac0a3f9 -> 67c5370e365dd62ff156af66dee0975fe1114621f35c109ef379624eb8c7aebc
+~ -[_NALazyFuture setStarted:] : sha256 34906702658a4c6841f5c64f8fe845d42ab8cc0365d7a933788bff4199456abd -> c8a70fad37f7caa122c754ecd4d11043da7f18381e833f76a26834aec965f602
+~ -[_NALazyFuture .cxx_destruct] : sha256 be4fe9c28b080d130c316e58a8904062e75e6692c68a0fa33709c3d801c6ae24 -> 6dc6521c3a7a37c59ccbf17846ed33d642bcbb646d6fe8a346d1eed579c92e9f
+~ -[NADeallocationTracer initWithDelegate:] : sha256 ee8661ed7e42d99cb1b7549106f6455946cefc3eed4f6194b26a531ef3e00021 -> 352dde123e1c65f4c4229930fa444f9c48855d25f297daeb3a4d3d7d36f2eee8
+~ -[NADeallocationTracer dealloc] : sha256 0179e3090fd9b15e9754d7fd618ec4db776cb8c0a547f816dc8e3a58197fe5ed -> 4b576b1d19924d0cbe93dda47c462c262ef53b1afd92635de66d2dba9a5545c0
+~ -[NADeallocationSentinel initWithTargetObject:finalizer:] : sha256 d4f5f3cb4cf57168592b4033a75245d283b5fe8c7a5551407afb683097532fa5 -> d532f2122c8b2137a3ce8205f9e4c22f21095ea634f503697f4320a46751280d
+~ -[NADeallocationSentinel dealloc] : sha256 8186413c50726f17f3fcd9af84b99f41c34c1bbb0c0787a20befb153a516919b -> 0905e961a3ab5b8f67bbb51a71b878c8c86e9e841b8f527240e81ea2483b51d8
+~ -[NADeallocationSentinel tracerIsDeallocating] : sha256 d92223b3c44423c6496b503470791d92ba89b80c83f40af79ffd2963c912572c -> 5b72cf9ca98b54b3d1e4cc1fe31a9b7f6392c831df2fff3c07602d8e43edd557
+~ -[NADeallocationSentinel tracer] : sha256 d7e2d7d13e1f115a504768f63b6a725619465065c07a7074477b453fe475fb3f -> 919ee0d9d2f2f8d31862b04accc27ff329b2a0b185282ec7cb4de57d62d60de6
+~ -[NADeallocationSentinel .cxx_destruct] : sha256 6480586662e8d8b9ed936b42ccc821b8e1836a06c2f5c0566fe0122b2e749cc8 -> cbe4d0d7577dd7cd9e89aadd0d46ec82760ab429d282b077005ad7cde796ef03
+~ -[NAUniqueArrayDiffOptions init] : sha256 ef22a7fc18fb88800837333d3937a3723b068158e8797a4ce55baa10af08ecb6 -> 579474ec70c6b507bd2ac998d76878fb4bc96f813b09462d885b34a92da063e7
+~ -[NAUniqueArrayDiffOptions setEqualComparator:] : sha256 c35f28cb10884f04e78802e579988938a149c7cc6ad54a7e3dfd89598683d122 -> f189096446cee00e52ac75503e5896584895fac2dd64065bdc22b42590fffd0b
+~ -[NAUniqueArrayDiffOptions setHashGenerator:] : sha256 257f5237cf25d1511e574faad62b071ab051f8c32dea709fc7df8ca52db4f9cd -> deb88bc5b89eb54becabde31eb4164fbc648bf8dbcc7646868233106a8ffdea8
+~ -[NAUniqueArrayDiffOptions setChangeComparator:] : sha256 becbd99c7c19e1cce8baafe19c5fac1f5bd9405b28b3006e494b9ea36a95354d -> 45dead31dd7fe4f894ca41d8175f45368b398a673b3de498a8b2eea4ddc90feb
+~ -[NAUniqueArrayDiffOptions .cxx_destruct] : sha256 ec4d258f3497b47508d523e7b2571710ef44bdb86b6f885941818e6afa6ba638 -> db4a03c8bb6d6eaacd9ce2f9f76ba4a9b792a72c3fb01c81361676a651836fc2
+~ +[_NASetContainer containerWithObject:atIndex:comparator:hashGenerator:] : sha256 646270e4973d57305804db162a783f60aecc8ba9891b48b655a22b17372e4bed -> 33bd58a63d82de3d550a1a9862e7fbd9d2f4a4f27895c43dcf110656a2b1769c
+~ -[_NASetContainer isEqual:] : sha256 25b9e0130fb1d0a028c14a6e1c49e0bcd30280e892cb22097a091d8b0a25521e -> 4d315ef6b3fefc3558f2e71f0f61ceec05cb7d14d51dbe0755d6dda56381a190
+~ -[_NASetContainer hash] : sha256 ae5436fb7e10b4c6efb0fb9521cd3f6c0c972219bb84f3f5c6da73dbae0b60cf -> e44c7874449d22d9ca1a1387bcc90fb1674309e575717d2fa70e06a4373d9880
+~ -[_NASetContainer setObject:] : sha256 eb824db9316e421eafadedd655c6d4199f5195ad82fd70f93d0fef1475dd1c14 -> e85fabf9a6236b2ffc9b1ba23e7a43353c13f18ab31d7b2d060dcd73f27e0c70
+~ -[_NASetContainer setComparator:] : sha256 c2ce4178c12f529f4ebdcdd4b446595b5eef953c15b3e082cec83414d95424d4 -> aeb18d20a382db47f1b12d66cb4bb49a54a67f3381b907144ad9636c2f75af5a
+~ -[_NASetContainer setHashGenerator:] : sha256 8f33fe116d02f85335fbb5d47f00f7339980641908f531eda94de806833364e9 -> 46164e8f4508e2b8b65e1d46c0a7aa23a15dbe5ceece1b667d071c3bca6f2b5e
+~ -[_NASetContainer .cxx_destruct] : sha256 5462692a8b01eb6ac97ce4a6439825273ad8b11b27554208cf2a6b811e4c849f -> ae1142ddd686d645f25e08bcb657d0a723d11e15e1e2e286758a2729b1a61535
+~ +[NAUniqueArrayDiff diffFromArray:toArray:options:] : 2588 -> 2560
+~ ___51+[NAUniqueArrayDiff diffFromArray:toArray:options:]_block_invoke : sha256 c653a3d5a85847cfd1f468812bd31f416fca345f11bfa8c77b0889a1315013bf -> a95eda662308f0a47de6d84c18d4311d23f2af372e4e29a0fbecb8fbf44c0cf6
+~ +[NAUniqueArrayDiff _createContainerSetFromArray:options:] : sha256 4ee1e53eec3025aef0f3bc493277bba4400419a30ab28bc0853eb4fa9ef3b6ed -> 27d16f05dc0f64b8ae89c6b9e7b784cf21a7554e7e4f8306d6b57c80cbde43d0
+~ ___58+[NAUniqueArrayDiff _createContainerSetFromArray:options:]_block_invoke : sha256 17abd6fbeda6647ea29ebaa390bb30da6310d8a1100ec6ab6bb44eeccad8f61a -> 643284cd41838f4611554014cc99f95ceae99b2d3376069ed1851febfd5b266d
+~ -[NAUniqueArrayDiff insertedIndexes] : sha256 becddb773456934104a562db71dc7a54407e5099a4ceb8e0c708654973240ea5 -> ed4fffa4f5188f9e2d077d5646bb0cdbe102b994278b9ccce1341e724a4ae83c
+~ -[NAUniqueArrayDiff deletedIndexes] : sha256 6b0c0505a3da8054cdd8477fc24762e4fc3dc347939a2ff1275acea628ee58f3 -> f5c7826299409465258a66a90706bed4a2930cacc57fa648f9b7d0818faed8f3
+~ -[NAUniqueArrayDiff changedIndexes] : sha256 98366c1b88f5eb8d858a33db9436e5c660b1ffc243635d6533efc1a30506c9c8 -> 0ed804b3bdab9b0e34ae1c7d6a96548307a4659901dbad922380596fe6436b18
+~ -[NAUniqueArrayDiff movedIndexes] : sha256 aca8fdb5046c0d0a3ea1f0ee0fa514603da371e0f477ff10cff4feea5e60102a -> 956ee6bfea5b8413edc36364c05c642e0c5c18bf890c5f1467103b00b7c62223
+~ -[NAUniqueArrayDiff numberOfOperations] : sha256 90ed436b2edeb7e1d5dd78ab6ddf0e7aedf37bc81493f0ffd65ead415c33edd5 -> 7080d39f942476930e2a2fe68581dfac4aa8c3f931db1c1e42a45c596dd35309
+~ -[NAUniqueArrayDiff enumerateInsertsUsingBlock:] : sha256 336462ac5cb8b45a84d339215ea7321ccc7c44c5afc83c0b6917e83f54f6aaf4 -> 10f08fa9eda070559d76183b8e3cb8bbb76e1d652d292445a97214724b9bec86
+~ -[NAUniqueArrayDiff enumerateDeletesUsingBlock:] : sha256 8f777657aa4b0ac9a1ebeef5ceb0555309095b19c4b6f2ee5b52c149d7304002 -> 045386a532046759e437cba9bca55de997773b04b25ba1f8125dc1d2e0b83e00
+~ -[NAUniqueArrayDiff enumerateChangesUsingBlock:] : sha256 346825e9a65419dd703bb79b6f57cf8924666b4cc2c9bba60246d54070b77f7d -> aec041e1f55b36d294a77862a75ff0ba5eeacd67258f1b82a7d82c3f61ccf51b
+~ -[NAUniqueArrayDiff enumerateMovesUsingBlock:] : 376 -> 372
+~ ___46-[NAUniqueArrayDiff enumerateMovesUsingBlock:]_block_invoke : sha256 bbfe94e79bff8f7de978b44279b64602e3f6367ecae397f3c9226a42361f7a8b -> ed01eeebd0ca46a95a9b142aeb7033360f7cd22aaf34471089a319c313f7f70e
+~ -[NAUniqueArrayDiff setFromArray:] : sha256 34ddcca4c96c5e456ca236c85e34fa8643e197564ef26185ebd41af7b91a02c7 -> 8e968724acefecff56e087440878831f94bc39b13236818381eb1a88f1b55a6b
+~ -[NAUniqueArrayDiff setToArray:] : sha256 f12603e9aad5021ea24dd5c727ce96f430f8738ff2f07e3d8db4d7cf436cfa7f -> 7a3b7747799793cf9f4472a97b49f5e0594d33a6f5d8d27d7797a037f3a0e75e
+~ -[NAUniqueArrayDiff setDeletedIndexes:] : sha256 b0c3855d2f6790011600e97722f36d902be3975fe8c28619d3567c38c5f1dbf9 -> 8d8d38bfe926b39334782f47ece9cc9f60aa7f51063188d3e5ad36dbfa63864f
+~ -[NAUniqueArrayDiff setInsertedIndexes:] : sha256 ca129e8befdd1d436f82eb2e9b564bfb0a7ecc51e97b3a932b834dc4f4f46ae9 -> e72c959a13533edf59f81c919117fbd8af26281437f64e189ec648c7fa64c883
+~ -[NAUniqueArrayDiff setChangedIndexes:] : sha256 ff13ad6a7e2dde39f769a49334360142cf90bed1ef539ed599baacb159561e93 -> 4e675f2a6a9f3695f1b15c9a52b2657f2f665ee31ea9e3abee289c9048aac82b
+~ -[NAUniqueArrayDiff setMovedIndexes:] : sha256 1b7244dd5518cc7d14e9b06a8f9d71178d9ca75329a2da5284b29483ff0bd088 -> 8012640f64d5f4690a95ba095ae2430b05271f349c7975b1763355712faedb45
+~ -[NAUniqueArrayDiff .cxx_destruct] : sha256 eaeff49ef7f2b2320659291081e98641f88bfa6bae842b0a2e29594dad5ad521 -> cc4354396d7cc20c3650ca58551d2824cd9bd43d7147e9de60cbd3a0b2c2d22e
+~ -[NAValueThrottler initWithThrottleInterval:] : sha256 bdb13be819587c064654a9da2791af39797bddc647758e3a6d30a3743bcd72e3 -> 809ce9565f97f72e9e5a36a27a35747fdfedfa28b6230d7b81c6d781d26e855e
+~ -[NAValueThrottler initWithThrottleInterval:initialValue:] : sha256 198aca4e70b520869f991a5885f6c6293a3012ecb8354e548ef9c0c1885177c1 -> 92eb4c3a8465544cd1a4591bd0e61663f776b3de2e139a961e068bedad0642de
+~ -[NAValueThrottler init] : sha256 5cf5941337e789187a81bcd93d5746e9e826a6376d4f7574627cd3da1fa7d3fb -> b8be13de67dc00dff40e45dd00a59cbe2cb642aca34851746e1230ceadc753d8
+~ -[NAValueThrottler dealloc] : sha256 47e7767a95ed0e2e68c81fa79c13616d923035cb73b848ea3a9f45e65f5eca1e -> 6f517f7e36c2858f4ff961867b4f698d14fcfd2776cc0b2408a167f7d2a6bf9e
+~ -[NAValueThrottler setValue:notifyObservers:] : sha256 87af93cacbc82fd55a38f3f25cdafbef826b6657bace0a01e8e56b3f9517807f -> 854a1d534488b09c60294ba9b9712ca95671d4b2db9a7889540b062fd83b1d43
+~ -[NAValueThrottler setValue:] : sha256 bcfceba05612f83d66a51cd13e72b0c3ed9f4c93b30e04a34ca1ac83861224a5 -> aa7fd7053c3fc9bea6fadda37697e7821e89721b9d3ca1cdac03e9e7b5698611
+~ -[NAValueThrottler setUpdateScheduler:] : sha256 68f499cc816cd7dbc783c040cb6dcc4479ff7f5fb013d2664c84922be0af1cc2 -> c49cfba3deec2562933ab88603f40958443a6d3ac4dae466904d4efff0bb5006
+~ -[NAValueThrottler _enqueueValueUpdateIfNecessary] : sha256 5b52979e9a9bab08a9d56d6a3efde17ea87bfd71558a9bb401a308bd9ed56fb1 -> c0fe7ebc835bccf6f151a469c118b5310e03e59f0de3429ce952d9eb31dbc76b
+~ ___50-[NAValueThrottler _enqueueValueUpdateIfNecessary]_block_invoke : sha256 dcd32fa3735cf70a85bc4172b9271ec658538338b943ef1077b2f552ef4a93f3 -> 404096624c5dafbd0a0537dca794c9b2b7e127ee6cc2f2dca34865d34cec670c
+~ -[NAValueThrottler _notifyObserversOfValueUpdate] : 288 -> 284
+~ -[NAValueThrottler observeValueChangesWithBlock:] : sha256 2b09ed998ebf27c2a248e8ef84435a2a163dd4f5e563584c761918bb214c2f60 -> 33087007dc14209736954a8b4e7465dc106e7421d6c8a7d1685e442683e21c11
+~ ___49-[NAValueThrottler observeValueChangesWithBlock:]_block_invoke : sha256 ce38b2b9ab2303a04dbfd0f737a448350a86bb94dee127c359c0fe9be0c6b898 -> 134338de5765ce35906de8c65fadaa5edd2f3a315bab42aceaa7bbb71aab2bc3
+~ -[NAValueThrottler flushValueChanges] : sha256 c336e73a4946a2043528f07918d7181357b9a10f0a39073ab67d590fe4604ef5 -> 7e4d39e86317a5c26029f046548f6cfd28f841826afd3c64a6101d2783daa726
+~ -[NAValueThrottler hasPendingValueChange] : sha256 a94f6fb09a030fff9333e534922e7c1825d658989d78e5ad9e023c18db3e1914 -> 022d96ff5d60bebf081488ea5ff0a2f810ec801ed06d35dbf72220e656e73bbf
+~ -[NAValueThrottler setValueUpdateCancelationToken:] : sha256 647c4650d0087381343265a6eb048a1866e13ed8e26ee701534fb59608d8c74c -> f9a60b14c220cc88bdeb65e55824451b48e23c81561e73a9fbf1fe950fc17f5d
+~ -[NAValueThrottler .cxx_destruct] : sha256 ec76615501720893b915cdad149af75d01052a4f261a81a28e693c841229cf45 -> d40b76a1a18690fcee923b166d27ff574897745b63759269bccae606129a710f
+~ ___34+[NAScheduler mainThreadScheduler]_block_invoke_2 : sha256 1e8a0c6789e2cc490722207cec573c7675fae6c48d959b66a411b178e384c4ab -> 8da70dee598dcc95d11123e4e4763862eff0f2835875bdba8b8de394e637dfc0
+~ +[NAScheduler operationQueueSchedulerWithMaxConcurrentOperationCount:] : sha256 2c951f43e33e25b66d9ff23d459d052ff691716359af9c88ddba48e8318a2e36 -> 55f43fed2a86bda15adaa63f9d1c811a9cce5667e690b4692c9e12b10aa72a74
+~ -[_NAMainThreadScheduler performCancelableBlock:] : sha256 7e26c73bff72867a610ee624a0f2ba5952133e5bdcfb5c2d0494ec6c2cd9893c -> 6da5c2f7fd0e8b67eae5da24a911f795b856cce1c7e3f7918af188c05c06279b
+~ ___49-[_NAMainThreadScheduler performCancelableBlock:]_block_invoke : sha256 37c48773a2f4a2248c48f73972b146d54a77ef7e5b36b4daf5875c6187a65296 -> 617fe14369bdfc73a27a5e0f3acfb951b571419c95c154ceb76e2e23940cb2a7
+~ -[_NAMainThreadScheduler afterDelay:performBlock:] : sha256 2478b9a0d53118d85916aefa73f0c2d88a4c9eb4a459010b80d9bc4660a55645 -> 2770ab4a5bdc6ebfd600a81b1796a80b29cd180c306e5845d8ec2d6d9e382829
+~ -[NADecayingTimer initWithReferenceDate:minimumUnit:block:] : sha256 cfd2a5671b068f7cd43d9fe3db249ddc31537b4a3aed507741ecc6f108154275 -> 9f1996868e2a4203917c6565ccccb45ca0ff235254751a8438ebd427c910323e
+~ -[NADecayingTimer dealloc] : sha256 6f24ea37eb27d7dced5fa8eb9847c20795950b84c04adaecedf73a6161de8723 -> 3898ed0ee3ddcd303eca923f299c7d5ca1c5023cc9bc243cdb56f70198354277
+~ +[NADecayingTimer scheduledTimerWithReferenceDate:minimumUnit:block:] : sha256 d2feaa97a2458df4ac289649e5864d5043366ca1d0e37eeb6e7cfbcb7e99e0cc -> e9f8eb7961959a3c40bbc33e9d947240eda45d189a4c0b5691ad280d62d235e2
+~ -[NADecayingTimer invalidate] : sha256 691523e6df52f159d8f96949cf2f83eeddd34c2ed56f2fced917988b6737508a -> 198ff2560b0aa15c3cc6eb8e255e502bcc4a44bc6322f3c30866a6da62805be1
+~ -[NADecayingTimer _nextFireDate] : sha256 e2e9b26eaa446a264d499a8e0f7248dc6106934336ae986a4d7a56b493a0d27f -> 921aee9f8e3500208e05c6d5eadf53395256102f07949d2cf08ca74794764d27
+~ ___32-[NADecayingTimer _nextFireDate]_block_invoke : sha256 90591e57ae14b90882ce7246c488bd1fe031d2c18c8182e57be0746d0401d74f -> 8649e60c6fc55e9c4c53d51b103f226abd1240dde394e2dc26451ca4d76f8ddd
+~ ___32-[NADecayingTimer _nextFireDate]_block_invoke_2 : sha256 9cb04c1d2975da42171f78cce7909243ac1581afab56ea46c5d5c1845b0e5303 -> 0d10689f8b6a2ae449ad1476bc5ffc4a438fecc1a1447339397ac3c3b8271de5
+~ -[NADecayingTimer _scheduleNextTimer] : sha256 307ea41ccdb21403071814f087990501be1c32544906bf802773779679ef80ba -> b44ba5377787fe3c7b4f64038d53564a04cb3a169dfe23cccdce617e5ec62bed
+~ ___37-[NADecayingTimer _scheduleNextTimer]_block_invoke : sha256 6cf156ada980fa87722e6a46de0820132178b0a86567e71268a1ee8cb8951ae4 -> ce2d2dedabd6ebb0be4d65e4ce7b46ea001249ec75d98ba0e79bbf2c5f34b1cf
+~ -[NADecayingTimer _timerEvent] : sha256 93a5d1f976185d99cb3d5b1f2a1805d8b48198efa67dc4d10b4e3a330147cdfe -> 98f4e63fa8ed5285e3f31e6d7d98a44365a2ac533a9a38d147fe4eb1cfe8dac3
+~ -[NADecayingTimer _mostSignificantUnitForDateComponents:] : sha256 6e542ece5101afdfa88f6c358b2f54fac173e701dfc508bd8c04415d49c9f192 -> b68cf3e684ce0b056a56a29c1f0f6fcfc0d7a5a5dacc0846f3755c3347c4382a
+~ -[NADecayingTimer setTimer:] : sha256 fe494e5435376f2e1216af237d1c3b3cfaf9b5395593cf6e212178ee485d8519 -> 0eeb6217030b767b934d24d4efca25825a3d87c8b0af64e2de0cff5a912fd2e8
+~ -[NADecayingTimer .cxx_destruct] : sha256 866cd07b6d9cbb2d6ce21855da88833c9981ba94d3843be2b31ddda702125622 -> e0e1f9d3e8dbdc9765635364eed1f7966a7eeec23ab31142cbfafac553bf1b06
+~ +[NACancelationToken tokenWrappingCancelable:] : sha256 1c3fde37a71b6098845f2d0ee0a68044f439141643d85a8c12b3e982bc897fd9 -> ce8c182cf0c3af72ffadf4b6acfd4147678944bc0310c49b5debf7804c7ba9d6
+~ ___46+[NACancelationToken tokenWrappingCancelable:]_block_invoke : sha256 d066fa3286e88323412ab5b65c1eb60d85751acc12e3ea0226631f8cb4585141 -> 665dd3a0652b5afb751bf079625f749a028d60be94b1a4293f70ab569059de7a
+~ -[NACancelationToken cancel] : sha256 6efe46128494db50c7df2c4274274119e3805fde970110a72b2e0800a0d23fe8 -> 4723c803dde28a75e31eb797813fa9d5037d8bcf1985fc7d62368cdda8fdf3f7
+~ -[NACancelationToken nts_cancel] : sha256 8e8691f1faf1a980cdd17641bf82c7089fb33a474fb7c034ceae30ffa7804c69 -> e32363f6d8b94892e7795c1ad5861eedc0d82d85339c99fbfeb2c3c17a37da32
+~ -[NACancelationToken addCancelable:] : sha256 aa9fce2df70714ffbeed9880af38bd30c70242e0c429a757a748f3c895a11082 -> cb9d47095968f21ab1784ddc977fa36f1dfb0b3aa3734239bcfa3f372a27b52a
+~ ___36-[NACancelationToken addCancelable:]_block_invoke : sha256 718d1cbb74745b9e180c21a9c6017b8006db793289a99b18b9e616b21c82145b -> c490110a5bcfc214085ed46335a64fa9cbb1f31af43df3bb4798ae2a300f216d
+~ _NACancelableCancel_block_invoke : sha256 063e03cfc100825c9cf5e0bd064a0aed35ec1c16016f8bf057013e5e67220f82 -> 504c2144d64b0762d88ace51000a6106fe59a6a693bc5cd9acb6c1284308705d
+~ _NAEmptyResult : sha256 300654056ea78e30f993e02f555faa67b99f8b2bcf7957bb408e903369705f64 -> 2c9b09cb32abc62d37265c9cce8fbf281b8eb766136f2c34557bd85410e80571
+~ +[NAFuture _setShouldEnforceThreadSafety:] : sha256 e0aabe4130352f33e7f130d8c137552da97ce041fe2e097ff7729e553d2d86aa -> ff4662a418579d31d55bd0cfe26eea7ed841ec3f6a249c9ddac0ec4fca5ebb45
+~ -[NAFuture finishWithError:] : 624 -> 620
+~ -[NAFuture errorOnlyCompletionHandlerAdapter] : sha256 aebc58e92b1e770ca62715ef694df079746341d4afa2b1af271dc8df529aeb4d -> 5c685a400c317453594cf1e2942a7714d6b4b914f6fd5af886a70881783a8336
+~ ___45-[NAFuture errorOnlyCompletionHandlerAdapter]_block_invoke : 1092 -> 1084
+~ -[NAFuture addFailureBlock:] : sha256 b47cb884c53d091cc8bb9bb9dab21218f276f7aba3e22f7508bc2a12740963f2 -> 44ed12ed0eeedea1d1530c21dcafc1919a5eeba42d43f41fa989c56486e1f392
+~ -[NAFuture description] : sha256 5a236567ccc4634730f67ca26e008259cccafa89b1f0ecfd1252d33cb55a7aa9 -> 1ea0c9c2a86e166234f71105582886c218e32423c634a71357c718bab58914cf
+~ ___23-[NAFuture description]_block_invoke : sha256 fe649c6900743492fd448ce09a6b75f8d940266b0a54e356df535bcc3a8e4dd9 -> 7c78b8f121b04ebced5d7db343a734187282328d5f26181921db5ad7c52757a7
+~ ___23-[NAFuture description]_block_invoke_2 : sha256 fdc2d790526ba95b3639b8819a07714528580166f4816c6f8a3d86777702988d -> b0ecce2f66a9cddfe52136bef4f0f8da7aebb7509164f900bdf27d32e22fdfb5
+~ ___23-[NAFuture description]_block_invoke_3 : sha256 38b98bcb2018922e7869487846252cb61fc02cff3cd0bba88c1d1468d954e3e3 -> 6c5108cdeb635321c7ad384c92dffb1ac549fe3a36e8267f86eed8321f8f5965
+~ -[NAPromise initWithFuture:] : sha256 d4562e087a1113e5e16671a573513ff008f621dce82743385f1673522421c834 -> 5884def106e98d766c2e838cedd85fb10a57ce6cd904b8ca61bec20510d61ca4
+~ -[NAPromise descriptor] : sha256 373650ce28539bbbe6d661f2da91bed6ef5f47ae51eaa8cf4351710f10c5cae3 -> 75bc51d00cb58b68137a25e1c9bcd12603a419eb564a8ea881704334b3d78786
+~ -[NAPromise setDescriptor:] : sha256 bdf8afab8298c4f706b058fec576a89056b59e7c784b9852e69c701216017a00 -> 8a2ac5b1ee703ff3fde489260ffcbfe525336041dd217f0c408a0b40b2ad0732
+~ -[NAPromise finishWithResult:] : 628 -> 624
+~ -[NAPromise finishWithError:] : 628 -> 624
+~ -[NAPromise finishWithResult:error:] : 664 -> 660
+~ -[NAPromise finishWithNoResult] : sha256 fe36ffa2e456992b853feebec00b9ea6b8aa919a9b8f8bce2cc4b40ed2538667 -> ee4431fc3157dd6ccb607f8c7c969ebf0f06247dd6c93fd378ccd41468bc850f
+~ -[NAPromise completionHandlerAdapter] : sha256 634612da8d99526cec67bec553b6f7176702af8facdd0b6c855bc596bb57d006 -> cc2012f0eb48fb6064025970801ff73ff7c356e6a052c10e04aa8513f502a5b4
+~ -[NAPromise errorOnlyCompletionHandlerAdapter] : sha256 09d23f10bf9911ce6009638062192da73bd6f60e2708f50751f3c0c668f4b84a -> bd99b015374537f2d477967dcb78ad06ad56df93695985c25b6806a88edd64bd
+~ -[NAPromise future] : sha256 45076ec44461a61df2aed68ccb318d4837e613e8760f4d675bee64de9f71149c -> 8da26a05f6066cd5b9a7eb7a23219d2a7bf3e828e64a5b194b7d98a7c95c9c5a
+~ -[NAFuture(NAConveniences) recoverIgnoringError] : sha256 1d5e9d9433d0bd12ad482b15d30f307c304d3bddc155878327076ebf4145cf5b -> c1e954c3ed453d87d855c55c1193a3afad2798700e86f8e115b26c88e4789d97
+~ ___48-[NAFuture(NAConveniences) recoverIgnoringError]_block_invoke : sha256 5a328fa1baaa9ad445436007e5ffad6c486a87462902903870dfa3a1e75bf852 -> 0ddc10f03d668f17e561596c6058c750d4f086fd44451879951a1fa7b8e67505
+~ +[NAFuture(NAConveniences) lazyFutureWithBlock:] : sha256 f77a2f6f984935d85ac6c31c527fc1bb4af51b2414d721832ffb0154d2eca610 -> 6ab4b76972c062842e2db36ed375513dc7134423ae01ba7b082089f1d6f42df6
+~ +[NAFuture(NAConveniences) lazyFutureWithBlock:scheduler:] : sha256 55c09bacc4e1fdba308611257f132d8f1100b16a943c84c354b882cc4deab1f9 -> b95577a9eb307b8a281e5f324059df237f8257589cf34a50bb19fd5fa42694f0
+~ +[NAFuture(NAConveniences) combineAllFutures:] : sha256 1973be637be12ef8b8f917f80d2f7460f8a6dd6a354c58b6bdd3da892c4a00ac -> 32862eeed2d3ab4e9008ee73d63ce2ca0a8972dd977acd66794a5495538e98f8
+~ +[NAFuture(NAConveniences) combineAllFutures:scheduler:] : sha256 ecf7434b006e00f471ce6bd9e4891a5339697c2ab493a201b76c382815edd956 -> 1ccf077b74b4afb34d85ba6fa18a406ad3cf8771802712af19ad2a0779a6bdca
+~ ___71+[NAFuture(NAConveniences) combineAllFutures:ignoringErrors:scheduler:]_block_invoke_4 : sha256 ce44cbca09d80155755b75ec6d7555b4ed34af90d281adc0bcf2b316bd5d9a3c -> fb15033b83d0c4c4b8abd74eb1a650ba6e1595d2151295ae182f6d496d403da8
+~ +[NAFuture(NAConveniences) chainFutures:] : sha256 c2706e22992c8748071a082187c34eb2565d602661763651ffe3b8941c629c2a -> a1eae21d5ad75ce5aa115c91e280557e3c325ca054cab8fbe5170b089acb32b7
+~ +[NAFuture(NAConveniences) _chainFuturesWithFutureStack:] : sha256 d6e90513b20bae281ecd13a4544507b0292a7a7a5639d5e7d7bb9fcd1a4586c3 -> 234c535f27c9c17ccbce93638a3db8613745f849622ff7ef2600a70e2f55c21f
+~ ___57+[NAFuture(NAConveniences) _chainFuturesWithFutureStack:]_block_invoke : sha256 ce4764715de1434993cc790ac42dfe1aa3bf7ecea57d82e621369ee0c09bfbdc -> 2f955476dc54b2a62c59f6317e8975ba5b1179108080e5b2e474908bba9c674f
+~ +[NAFuture(NAConveniences) futureWithCompletionHandlerAdapterBlock:] : sha256 cf8608890501f63cbcaaea5c7f647ceddf8da48d2a1d54c6fdb571ace9f3efa6 -> 4ceca258e1ff34637adac950d63bc91c048a06c067413fbf44c576c45c97b9df
+~ +[NAFuture(NAConveniences) futureWithErrorOnlyHandlerAdapterBlock:] : sha256 29060fa0e9d0b7451bc1b4682f8dab6ab8c700c020158e72f427a9bca4e71c5f -> a266a53e842c4ebfe311b3e4e1efa431639224c3e316d223dc5e14e21955c832
+~ -[NSArray(NAAdditions) na_safeContainsObject:] : sha256 7b04d0fcebff7a85b0c6678a439880f2afc77c2796bb844e0f28b4098cffcc71 -> 31cbcfd95607cf4600d1022ad64d817eeac5c6915ca968d390bd09228999ded0
+~ ___Block_byref_object_dispose_ : sha256 01c3caaa39aacaa836d8e1a434eb285b8c527b626735ede72b1e1d6a8c5804bf -> 707a51d35ea84ec0b5e2142180414b81d681ceb5a4e77eb30c2d7a53aa275e88
+~ ___58-[NSArray(NAAdditions) na_reduceWithInitialValue:reducer:]_block_invoke : sha256 1f8231b3583b0fd959aff0f084134946399b52937d5e07af6c7242209e5538f5 -> a6a3afcfc109f57de0ed559bd1f3a4f55df6601cef74183fb1914237ea349906
+~ -[NSArray(NAAdditions) na_arrayWithResultsOfBlock:] : sha256 6fe909492964d5e25c8be9deb53a400a65fee7b4d3b335a3398e6780d5072d94 -> 8daff6ee906c0bb199315dbbb8838982df65bd6ccebb68768e51dc85dbb60e1f
+~ ___51-[NSArray(NAAdditions) na_arrayWithResultsOfBlock:]_block_invoke : sha256 5baf2dd0d7f3afdb1ab05ae8ea542d41bc302ecc97b2ef39825b4733f02b481b -> 040b498e57a79a771818b4a0386b11337d8542fc331a69c55370b7af2ba7b620
+~ -[NSArray(NAAdditions) na_all:] : sha256 25d3608e7d16dd01a07094f5d85ece62938f8cad825fb344358848a0a8de268d -> eaed44036e9a0ccca16d8070292c55c875798adfec9baa1812aae398609ae178
+~ -[NSArray(NAAdditions) na_allObjectsPassTest:] : sha256 f39985b1007dd586cef792962d7931eaf3dce68a28f65e29c2aa7a31a2768e56 -> 6a44ee65677cbe5d7da523bbf239866f52ca90bfb26f65c06a2baee722b7f11c
+~ -[NSArray(NAAdditions) na_arrayByFlattening] : sha256 73bdac140dcc8b32c48dc493782e9d2450b5e4b320ddb76fe84b35ec89ae8f84 -> bbc36caab74e5285e23a0f60678a4de9a6c97f1b7fbc5686435ed79bf46cd895
+~ ___44-[NSArray(NAAdditions) na_arrayByFlattening]_block_invoke : sha256 7ccf48e33affedada692c474f98fd8f6cf86c8b8f72307590113afcdead290e1 -> 69883c574764fa48122f80267fe45f622d5a3556419816417bf21c683ed4651c
+~ -[NSArray(NAAdditions) na_safeSubarrayWithRange:] : sha256 3932a37c1efb7db5b7e7cb8d0defc15ce3c8b60211615909e04de7eab1d26174 -> f7b0f7ff479fd32fbee046521c2debd0abd73c6fa87a50e00713eb80d4e18103
+~ +[NSArray(NAAdditions) na_arrayByRepeatingWithCount:generatorBlock:] : sha256 40bba3fd1c628f4c26afe26709e621610d374e54ec4a06e801363d65f2b13ada -> 3b44e2df7ee114adbeb924f54c63da13050540eef779a11d8217bfd7e3ac8121
+~ +[NSArray(NAAdditions) na_arrayWithSafeObject:] : sha256 0e6647ab92ddbf566cd247be839969cdc9c92030c94e22f688f5ce6a5db93fd3 -> be5774942248d770f02433e50b03b1681e4237f90214cf10c87b20b7febbfe28
+~ +[NSArray(NAAdditions) na_arrayWithTerminator:nullableObjects:] : sha256 2cd7e37ca4afc9cbe66b1fb1c1868717f22e59ab641ee59e0b0ac2a38e37bed5 -> f43569f7543e43b8035f8d67f98c57410b012dfeb31d79fe9b29c777176ae784
+~ -[_NAQueueScheduler performCancelableBlock:] : sha256 adefa0584f1326ea1492d23571e4a05953b3e2f875be2c2bcbcb128ba78c74a9 -> d846f662852d8727390c7e7e413b2ca65377288ed9c95cfba0528891f658cc79
+~ ___45-[_NAQueueScheduler afterDelay:performBlock:]_block_invoke_2 : sha256 3d3e78a4011fa3aa15562883fa68ac33eb80d5cdcf86957843eec99a1939a8f4 -> 6b89a9dac2f0ad1cd04b09288a6e1309281ca6f4e0db6aeed85dbbbe346e863a
+~ -[_NADelegateMethodMetadata .cxx_destruct] : sha256 479ea206d133df7884ccdd1dfeba2ffede3cca695ef15f848314dee963451ab6 -> a73f413099bb982822bdbd8aa5d5f4a3dd034886d30ede19937575c4d2427334
+~ ___72-[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:]_block_invoke : sha256 4e76152f25a8c9167026f11538228b9de6654e0d3bf631956fc60295284c4b79 -> c00fcb3679e1ad0be908f6ca59ade99688baf0651f1afa19d64aae90a26671c2
+~ ___72-[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:]_block_invoke_2 : 280 -> 276
+~ ___72-[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:]_block_invoke_9 : sha256 ed59c4e352437175804ad9d593c7626db47780d106b2e1acbc373c28ecc1e69e -> 5b2c997de888edb3760f449de70817cd2a9cb2bcbe661e9716537533ae454a2d
+~ ___72-[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:]_block_invoke_10 : 288 -> 284
+~ ___72-[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:]_block_invoke_11 : sha256 f99e001fc70e8750e6becac1ea51e22ee6e0df695100fdd50eb5cb80b740f7d5 -> 4c685088bdb3a2fbffe2981900015acc9392c0eef6abf0c2df03ebb7c9d7ff2d
+~ ___72-[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:]_block_invoke_12 : 288 -> 284
+~ ___72-[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:]_block_invoke_13 : sha256 297cf4f1d8b861fd82a3fb12944c51ad6fe801d0100d3f18f17ae1cbf92fd078 -> cd331751564ec6959893197e9a302131cb0ca46c108ea19e7cbce87daf8282be
+~ ___72-[NADelegateDispatcher _trampolineBlockForSelector:withMethodSignature:]_block_invoke_14 : 292 -> 288
+~ -[NADelegateDispatcher _logEventForSelector:metadata:] : sha256 0e3d36984f891ad2157b1f916f7b2b1319e15aadb7ec1a80cbbf3629741232b7 -> 6c736ef3ca2e8b6cd6933af8fc412c7cee276c8d8cd79aa2283a58333b438c91
+~ -[NADelegateDispatcher _logEventForSelector:metadata:formatArgs:arg0:arg1:arg2:arg3:] : sha256 b28f674e80629e26d975be32c387c26c6e18257ce030585f8fb128ae38acb221 -> c855e695e4a9462d4ee34ed64f55b9387c10f81930d5caded5390f056825c71a
+~ -[NADelegateDispatcher _logEventForSelector:metadata:formatArgs:arg0:arg1:arg2:arg3:arg4:] : sha256 992c296dd4923f51b1681544d7cd61273d1e0858359909924b09a690001dd94d -> 5f91f8c24edf8b39a8c4d4049966257b3bde831904a18bfb817adbe18d162029
+~ -[NADelegateDispatcher _logEventForSelector:metadata:formatArgs:arg0:arg1:arg2:arg3:arg4:arg5:] : sha256 27def253ce576c9fa3533f120426fe52066c2e5fc6914be0a12881cd8d272405 -> ea03616dbc6e612fae99f013a7bebfd6f2ffeed5d359f5b0c4fbe02fea27a679
+~ ___56-[NADelegateDispatcher _logEventForInvocation:metadata:]_block_invoke_2 : sha256 4b0a20122b8f149f1e4d711ea637056e66211f5d39abe42a550c09d30ebfb17b -> 76626d097813a588c35940c559582f2f42e73d01682feece7c70be0b4e96ee77
+~ -[NADelegateDispatcher setLogSettings:] : sha256 807b771312544773d59a656f14ba01b015f9c2ddcf305ca510a5703cc032cdce -> a94baca20e7c802ced82c03afcb6f0484f96fb082cf90cb195dcb1b405411f56
+~ -[NADelegateDispatcher setOverrideObservers:] : sha256 19842cf8f09dc9d73fac0f03f6bcb4edc2bd0946ee83c944547c2031d828a284 -> a97db63e38f8e3b828558820e51a06790a24f57f5201066e8082a428fe2ee762
+~ -[NADelegateDispatcher .cxx_destruct] : sha256 7871b4bb05fd538123e71a5e8df5cfe4439960271081146a751f5a3fdc17470a -> 4df3126d72741de3e994743b4317df4a10d04d96ae92ea696ffdfcd35e0b043a
+~ -[NADelegateMethodLogSettings init] : sha256 b2988ae81707e708c8d60244fd5c98b082733bd9b80066bd1f9cee12f8639a94 -> 871cfd382565d83f28a43543e94c621679228fdcc8b23ce25ce86b8b0565c80c
+~ -[NADelegateMethodLogSettings setLogger:] : sha256 b78149672e649266738cb998df43bdc446e7e15a1c96c4f621d28872f73cb317 -> 4820ce06b900d0f2d3a16b1343f5e7c5ad7f5d3a65de9eebafea6bc562304a6e
+~ -[NADelegateMethodLogSettings .cxx_destruct] : sha256 b7951eda1e39fd8c77af9edf3d8acb47c71b8acaa2a45d22d9fc4e7a2e08c390 -> ade342c1b62eff418858b091cac93a77cee9325b9e2c824b7e1cdcbe83edc42e
+~ -[NSSet(NAAdditions) na_reduceWithInitialValue:reducer:] : sha256 a6ee87dd03403a9793557d9a9467ae481a1b794b85fce48af598b0c57e66ab3b -> c43d87c54f013c42ff9696f191aa0e7bd89844b02988655bf3d1549889d0d6ae
+~ ___Block_byref_object_dispose_ : sha256 d58f73acae0c2d690adb83fcc863980b2f6dffd182cd2f759846c5517d30e90b -> 0d537ddad9e54c8f552cd331b31b6ca34fd8f87f998f2247c20bcb5b08623dc7
+~ ___56-[NSSet(NAAdditions) na_reduceWithInitialValue:reducer:]_block_invoke : sha256 12de1fb5e6e38386ef34b8631516f636c31d2bb4deed06a63a8f27eebb58bb2b -> af65782e21155efbfc033f238bf8d815b422da35a7efb03326b76d9d7f34e4bf
+~ -[NSSet(NAAdditions) na_allObjectsPassTest:] : sha256 9d3184dde20d5bd05fdcd9b67df2627e7363b6ad987d474a26f62a491bb8e18e -> ae59080392a99c398606cb4fa74823614d4ac87c857dd10bb4505b298f5b8ed2
+~ -[NSSet(NAAdditions) na_setByIntersectingWithSet:] : sha256 64649a51cd73f30e185cfe2c5a72e0b97b00b213603e68cc6fcf9a3eab4c63c1 -> ef241aecbe5aa67d537b9cf0f83188f77b2128cdfaaf8b36643b6410abad81b8
+~ -[NSSet(NAAdditions) na_setByDiffingWithSet:] : sha256 76e5d76d6f3e80918bde23985b8579c3b449a86ac24935246efc6a0993529fde -> 61dd896602bced09720a15edb51b408d3ff7cc6be60bf4cd21cba1b2028cb5d5
+~ -[NSSet(NAAdditions) na_dictionaryWithKeyGenerator:] : 380 -> 376
+~ -[NSMutableSet(NAAdditions) na_safeAddObjectsFromArray:] : sha256 762d708f01ec536d3947bc32d212503734e529b3934677d1d9ea463565cb0c0d -> ffa1d3ac19b3d524082485eccffaf1573162f812bdf4676b3c36ab02d34c3aa5
+~ +[NAQueue priorityQueueWithComparator:] : sha256 8af94321329406d32c442b166b4e69ea4dacbadf2f215e80a46d7699e9e307cd -> f77f0c427e1a19e5547a02e05299dca8fcc826d7005481f04744b8afecada75d
+~ +[NAQueue boundedQueueWithCapacity:] : sha256 fce07a355f9a3172247f53eedada63092ee0b1a1b24b577d0bba8e690533a130 -> f0c62ebbcf5a074c99dd508bbd42798f60ed2d15213ddd3b2caaf85f2b7c73c4
+~ +[NAQueue boundedQueueWithCapacity:overflowHandler:] : sha256 5dd446550fc2c5ecc09c0a2ea42a2bad7bf0ec105cf24ce75308e7f7dbe6834b -> 95105fff94a79d5beddcfcd7670184579249e4091792aa54f0ad529cc19c0bb9
+~ -[NAQueue initWithStrategy:] : sha256 f9e29cb20d6f8ada967481f188b8f2c57e1c1e36a8303bb91149a30498e59c94 -> 840ac5d88185d63b668d4207187d04340ba626e7b3bc45a04d8bdbd7adcfe749
+~ -[NAQueue enqueue:] : sha256 4b1d06a50284bef143b0e1d624ec076400e45a86fff6c560732cc6712da6a9a0 -> 96ff87a875d4ee1830115f6300545d20b1bb30c0473782bb2a3902f3ecca075f
+~ -[NAQueue peek] : sha256 989b42360fad3be0a69263f615cb24e4477e03e84e776718cdedae6b9527e468 -> 045eed064d78891a22d346d07e011cb3121576506d99a7f1a934d9607d27d03e
+~ -[NAQueue dequeue] : sha256 cb04bf3a222fbdcc682e3f4ba7a7db1f9bfc5c55d9d9f2c8eb620c1bf5944539 -> 93cd99eed0829a42296e8b557cc8cd5dc530d561d405e12d6f8e468573b5a0ae
+~ -[NAQueue dequeueObject:] : sha256 15e306408cd4957cf96b87ba46e96a30783226e4df0c80701e118d544125a6fe -> ead19f43d493d880cf9744b974f8f58e90558e369f5dd51386458db46a8f6a7c
+~ -[NAQueue drain] : sha256 73b23c91ce05624966fbd845d26d1e94d96e7fdb5efbd052268a1acbb38d2d5c -> 9aca0e6df485c4eb97c053ef7c30d210ba29ff30174d5549355ff46dc0d99f0a
+~ -[NAQueue .cxx_destruct] : sha256 9ccc89359bd1bdfd2f113df52bb81621d95026490a8d6f8396b8859493522d23 -> 17aa16cca27c048fca7b1fe5a6e6dce1d5ea09f89ac94889e8afc591757a1260
+~ -[_NADefaultQueueingStrategy enqueueObject:buffer:] : sha256 4b4d5ee1300b34b262c5bbd0c574507ddd9727fafbb37188f98cffcf3733d626 -> fdd611873cd8591ced3941c46f27807858b6587bf1cc7c3976d84b76c2087bc3
+~ -[_NAPriorityQueueingStrategy initWithComparator:] : sha256 005e18fdda96b6eecbe7a07ad1c9591d104413c07a0734883c89b83b4c3d9af6 -> 4e3f0e6128dcdfbef4edf0a087c59096bfd5e218535e12e2bee0c69c470077e3
+~ -[_NAPriorityQueueingStrategy enqueueObject:buffer:] : sha256 b4a1b67e169721ec644684b43f8907a9efeb8f1a5d89723877d00a6d0e944320 -> 9efaac778780ade6646162f2bf3eabacb78536cb46f9cc44a4c1e448bcfbde5a
+~ -[_NAPriorityQueueingStrategy _insertionIndexForObject:buffer:] : sha256 e9be40c90e84cbab4f815269863e8f259035f69fe24397ecaad8d93ef0524adb -> 16dee35aabbd5b61b30fcdf12331003db01a5fb6582aaaf620b77ba10dec8015
+~ -[_NAPriorityQueueingStrategy .cxx_destruct] : sha256 deac2edbd6a58af5977046c3d4cbc8d23fc576a27f945439cdad38b436cb99e5 -> 48253c6315ea1fc06c7d34728d3bf7acba025ce7340fd557832b8dbff10f5929
+~ -[_NABoundedQueueingStrategy initWithCapacity:] : sha256 581552f9638d3fe273ec7cf608e20c133feef95dd31e95bc7080a78e2a93c7ae -> 2f6a6e71c8e7c88abafa9243b6b12e22e67730535c9ef8528ca6a35aee3bf539
+~ -[_NABoundedQueueingStrategy initWithCapacity:overflowHandler:] : sha256 ebd20c9df4a5c2d300fa8ecb939a53027553ccb6fa8518d40e7ea6c5485901b2 -> b8595bc72957ae9ad09182c3364f0c1669767eb1549e0d2d2636b6ac066287bc
+~ -[_NABoundedQueueingStrategy enqueueObject:buffer:] : sha256 235ddc45dc68314a99ec0a85243b375066b6843bdbfcdc8277fa53b82c05ecac -> 7f512cd1e135895f669c84d59643d04c68eb16154bed7667c49da2467a301eed
+~ -[_NABoundedQueueingStrategy .cxx_destruct] : sha256 67f94f8f61304269789098486b46493bd38765a12391ddb4eca383c61c7e9291 -> d19efc7a17e820fc11af972f854a6da99b6adbedfa44ef94061615b4d06d9387
+~ -[_NAImmediateScheduler performCancelableBlock:] : sha256 a3aae59c639bfd7b889872f174ac794e70b3e96b6fe5916afbaff87d98ac6452 -> cdedd8b36bda43f688da193dfa4f3c6e5b955371f7cc0f6abb37008afec24e2a
+~ -[_NAImmediateScheduler afterDelay:performBlock:] : sha256 78fa3516a7a51755bba97920ad8445dcd8aab139bde2864e90d73c0028c8562c -> 4e79dd40faff453b2b9120751d0ac0197800f84f66fb1e71b36a8741cb9abad6
+~ -[_NAOperationQueueScheduler initWithMaxConcurrentOperationCount:] : sha256 0a2bc48bf09714babddf4bcd27de5ac7a35ce5b1652bf6f50d77f03ec8bc33b8 -> 53d05aa1f27bcb89b0d367f056faa3cfd84ea2a0789f1784899bb731e235f297
+~ -[_NAOperationQueueScheduler performBlock:] : sha256 d93688ed04be0fa4a9ab5e4a86187064b2e5c387b7f05f267199fa75f8e50391 -> f3e6998d26e99c564a0679694cfdc80e4cd1d8e6baf18657dada18732cc11c1c
+~ -[_NAOperationQueueScheduler performCancelableBlock:] : sha256 61e9f4325d9994538dc7f6e705250ec00b25e0d00ebe9c8a8c3fa6f90822b340 -> 07621845e58de19df99373ee9c986f4f6b8c3b9bb4801dc14bb6322559d45f72
+~ ___53-[_NAOperationQueueScheduler performCancelableBlock:]_block_invoke_2 : sha256 ffd306034b7652881c7bae3112cb02b19eedcda124d972a08975ee6d6cbe3d93 -> e274f0fe73d95aa4757230e76f817f01cc997aa41851e4fdec1da2f273072ecb
+~ -[_NAOperationQueueScheduler afterDelay:performBlock:] : sha256 1a4d0e4c7e7b81340371adcbf2bcb0d9d11e84134eff90de88b98ae0249e3c4d -> 5e2b12591faae336685bac2143ff48017b2dc3d3a7c2d21cc0ae4f64c30ea0cd
+~ ___54-[_NAOperationQueueScheduler afterDelay:performBlock:]_block_invoke : sha256 d4d63702101777f1de7430e43a44bb7c6491f7ea16c852d5fb126cbbf0a38872 -> 146da561c63e2f54dbc4e4e14e901788353df3a178322623fa95c30b99601466
+~ -[_NAOperationQueueScheduler .cxx_destruct] : sha256 9801dec91f6cb4f0297f132f8dff0851832faa4b3daff6677b197b4549e7a0be -> ac05bda2920a1dfe429ebf04a3b77129ec3aff424a9eceafc4c437947715f362
+~ -[NSObject(NAAdditions) na_addNotificationBlockObserverForName:object:queue:usingBlock:] : sha256 2db807e2f26aadd694c77560e0cd97456976402f66e3fce535a6b530329faf55 -> c58d6c0eb51a1e43cae292847e7997588c5dbb650e3a6dc8f41a89f2aabd0962
+~ -[NSObject(NAAdditions) na_removeNotificationBlockObserver:] : sha256 f98c49101a2d9873ced4af8e10cf8f9ab05b3debb26afdd268235145d86c7d2c -> ab0441793b463e85e338d204f1b4b4330c29b4282e217a1dfc8ae0d9f34dfbd5
+~ -[NSObject(NAAdditions) _na_removeNotificationObserverProxy:] : sha256 df5787be232d960a7202fc2204c8f7c18ca729da2696fa0069c96c897a9ef92b -> ff4046b9df404825631e02a2161f935f49274ad8d28150f4b9305232580793d4
+~ -[_NAObserverProxy dealloc] : sha256 1b926cede330ff75c049c737a78b41f3eef22502450ab76e3169b78f8b84e56d -> 744ed82301adb7022c0a173d4f4ff34c9605e7d5415e2dfbf2d26deba8f1a025
+~ -[_NAObserverProxy weakObserver] : sha256 7a49b5f1806396e3e55e2bc342caa693b55caca91247d19a0efc208d2c0ecdad -> e2ae13c7dc64b9df1e6b7f3561b267e3e2f5f2b431e23d2ccbfd9bd593a9ff2e
+~ -[_NAObserverProxy .cxx_destruct] : sha256 39fc3ecda004e3b7829008c4e27a317800d69e54eff015c0f37ef275399b47c2 -> be98cd3f3f6d9616ae3770278ed4269a7a8f3c28c2de602663fc070be7288073
+~ -[_NANotificationObserverProxy initWithWeakObserver:notificationName:observerQueue:observerBlock:] : sha256 57b27781bfba40ac788273f4052427f6f7443e649692bb4f560ff855c0be0ae9 -> ab72d85792debe9ff2009d961199f93d83bde43cba9b4518e2bf7ed4aeb73766
+~ ___Block_byref_object_dispose_ : sha256 244da91046d202622c854235f2a537049c3d473ad837a62d19a3b313ebf7a1ab -> d7001cbb7163ccb535dc6396fe93a23b629f7ddfefb843e46c3fc1e7ae38ad74
+~ ___98-[_NANotificationObserverProxy initWithWeakObserver:notificationName:observerQueue:observerBlock:]_block_invoke : sha256 a69232af0ac8d110c35d61140cfa12eaba98bfe1251882dd79da891b0b9a7903 -> 5cb759abde6f53dc6059dcf3d1c9dd30fbd014c68cee71e36978a02437daeca7
+~ -[_NANotificationObserverProxy performObserverBlock] : sha256 a2435dee4dd00089f20835f6acaff311cfb20caebc4c663bf142316a645a8d91 -> a4666e53a9a1a8eb6c888d81296543be0e4cfd3c7625210a1eb0c03760128a04
+~ -[_NANotificationObserverProxy invalidate] : sha256 0c0d8485e5cf7baf3b8783e5c5f1c4d7192ff4241ab743df14e302986f3dd0b4 -> c1cc5ba9cafefe681d2f7517310057cfb550081541df4701ccd9707ecd02af9c
+~ -[_NANotificationObserverProxy .cxx_destruct] : sha256 6d4f793e524c1efa1aa0d570784266e4fffce54590eac0aadf05182579b3623a -> 9f05ad5d30b5ac098c9aa589b65505d2220106432b62a2785c9fe0aee0f38701
+~ -[_NAKeyValueObserverProxy observeValueForKeyPath:ofObject:change:context:] : sha256 1350e8eaf6f9fa60c7c33d117791eb4571797ab77e4f08e85165e16c42821074 -> ae9b1f7806e76a343fe3d551309d2c807661cff922d53801829bd3aed80a1127
+~ -[_NAKeyValueObserverProxy invalidate] : sha256 fdc84f4b7bf8ed912957fbf683764fe7908fd8bbd4a62a6d46d846325674099e -> 75d177a09317e9124c379f2982125ea508e2fc212eaa6ad7ea3a665c329b3926
+~ -[_NAKeyValueObserverProxy observedObject] : sha256 672f57b5d39c5024dfc8eacd78bfa25b5e4c688ec575f614efbf43cd8e8596cd -> 10ec5eae42be205943beebe238c3645276c65f38d8e0933b1b5d86e39ad00277
+~ -[_NAKeyValueObserverProxy .cxx_destruct] : sha256 16837c2af880ba6147e2a7ad3628275315c2a37aef6850a666bfa5e9b4909697 -> 7258932581a6012d9905292ca10cab7b65a8a4e991f039bcff8dd3ee36071536
+~ -[NSNumber(NAAdditions) na_absoluteValue] : sha256 5fcbc2c48488e608d31ca1b8f8b712fc2f9714eee9e73e2860cf34e08ae49b3c -> 2c1964e6c52aa086488ead739f3b57fa4d3ebcdde6a12f01745876bdfbcd1d75
+~ -[NSNumber(NAAdditions) na_compareAbsoluteValue:] : sha256 8f09bcadc52569953d6ac240cf11a37e9fef654a15cffcba451ad4ef90539c52 -> 93ba62bdc0b068fefc09f99091a89b46bef7d4137e2e1d6a63eaab82ef8615b0
+~ __NABlockDescriptor : sha256 aa2bd9be1813992e4cb0c3ed429d7594070a7c94f2d551a751c7abe99b269d4e -> a3a50bad5221eaceb7f4ab4656b130da9b1ce9656337187608d12df98cce776d
+~ -[NASimpleDiffableItemGroup copyWithZone:] : sha256 2e287e2426c7c589e89e959d3f9cc9e4178c4f0c517b0bf59b1e09ceb29ca1d5 -> bcdc0e66d0d2ef7914dee8886220c45f7a1818efb8e8e468bfe5e555890b9e52
+~ -[NASimpleDiffableItemGroup setGroupIdentifier:] : sha256 d30da2694716a181b56efecce53399ba187ad920555ed1cbe6c7361772fa0838 -> 1c99319dccf1fc2e37495f687969f8a5ba499018d24f9c6a4f6db5149ee93f45
+~ -[NASimpleDiffableItemGroup setDiffableItems:] : sha256 5a49248d2062a992481dd4469839344401ad93ad84058b022c3d817aac18c69f -> 6d050f5d974f89e2c48c732c543c7680d47074b31cf632809becd893de652e97
+~ -[NASimpleDiffableItemGroup .cxx_destruct] : sha256 293f83fcf95f6864e3567f3313e041075a5762de2158dcd95436ebf75abb9e33 -> e475e75d16677375e150ad091b9047888deb2bf5ab21d0d9f7e2f9e3cbd16927
+~ +[NAGroupedItemDiff diffFromGroups:toGroups:] : sha256 0895edaf1005512214e16931fb1d84eae3b420e8271f59c494325f9d1734368a -> 936942d9ac17e72ca27620c021d7396cac073d39e5ec49429f659f38cdc62a5e
+~ +[NAGroupedItemDiff diffFromGroups:toGroups:changeTest:] : sha256 f5cacba577ea5179077ccca593449c6d0257e6a8bc7e7fae3b4ce84ef31ba529 -> 567399dc43935246172fa0578740f800c30eb1a1079699499d806973dab285fc
+~ +[NAGroupedItemDiff _groupedItemDiffWithGroupOperations:itemOperations:] : sha256 db047c0683331eabd7498e7017ef6a43bdce9dc8ecefad5bd922f5de9ce5e9ad -> 786d49aae66f66bccda3a47ffbec69e46f6fe6ae61d734316cf1f0848a9109d2
+~ -[NAGroupedItemDiff initWithFromGroups:toGroups:changeTest:] : sha256 5ebafd426e36b8c083e66714a007ed1e9cabb3c43624f95c5114c15419ebea00 -> 695797a2268ce54f765540ab4c36dd2fadc85515d2c8999f9bd3d8353fc9b83f
+~ -[NAGroupedItemDiff allOperations] : sha256 ca816baf7124870bd65513fe43d3cdb42bb7df0e756b369ede7d888b9e8507e8 -> cb1830c9b12cc6b45b9c5b52113d76f755493bb6f69474b53cb72e838655c2d4
+~ -[NAGroupedItemDiff _performDiff] : sha256 62290c63adcebfa4824882df05a80dadd66a07b9f54506695ce64c7f759c64e8 -> f1378f555713991057740a450246bd97c271558e497fe323d1a339e7048283b4
+~ ___33-[NAGroupedItemDiff _performDiff]_block_invoke : sha256 1538672d7247c988931181930453850c7febd78c4711303fe30bf37583fec325 -> 34ae3ce39c14d9f78788c45e3c6422ee7cdf684e4575330e0a3b07f30d0fe528
+~ ___33-[NAGroupedItemDiff _performDiff]_block_invoke_2 : sha256 d3a1f05323c4c5bcfa08663ca2b9952986a110e25cc07a6222124920177d492e -> 6588c967c5eeb8feec8331dacbc12282e0ca6b4a176fbbbd1b1bb22e8132cc22
+~ ___33-[NAGroupedItemDiff _performDiff]_block_invoke_3 : sha256 06e9e43148eca6bb492ccaa10d12e901c7cb8b29d05bcc03709ba668c64a718a -> 32d25657467ac5e3ac3578b4c297c613be1a4dc7d849b4fd0e546606f87ec616
+~ ___33-[NAGroupedItemDiff _performDiff]_block_invoke_4 : sha256 bd6c981afdb021dc0f495ecb90fb35264b32d586fd487d6630a81b6c120b86a5 -> 90f2967e15cc7d4a63b7b85053e8892c70c940f2de4ec0b8e2afa9de37541e94
+~ ___33-[NAGroupedItemDiff _performDiff]_block_invoke_5 : sha256 f75096096274b46374d85fb6629b42b810971c9b1fa9cfb04eb8bd145f0892f7 -> f3438611c3f98a2096773996bf3e33407bbea76a15d506680565cbd6551c2f03
+~ ___33-[NAGroupedItemDiff _performDiff]_block_invoke_6 : sha256 8c5d49a939fd6df00c0eb607e74d27088a70da2c5a0c35a46d17a082e36878bf -> 3d1fba25102dfc2a58cca7b42a25609fadb172df96077a9b6d3f3a6ccc2e6c49
+~ ___33-[NAGroupedItemDiff _performDiff]_block_invoke_7 : sha256 cc8d57c64c696b6e77a933d7164233b3ad538166076ab0bacc32b4269174366a -> 6b611259021050ae73919b828355c20463106068a90e1e76353d8d2cb2521f7f
+~ -[NAGroupedItemDiff _performItemDiffFromGroup:atIndex:toGroup:atIndex:] : sha256 64fa99f0594752d18df94d2854962904902de061fcbfccd86f1a507a037a9db5 -> 29e84c78245b074c5e360855cbd43dc6f623a59b1af923c91707955d36664b5f
+~ ___71-[NAGroupedItemDiff _performItemDiffFromGroup:atIndex:toGroup:atIndex:]_block_invoke : sha256 53a1607720c008ec015a68c49c075f29886c40a4011d832abd294174f4938865 -> 46bbff9da2273999450ec4fb4d43d1d18acdd3e3b136039fa9d01062d8d76790
+~ ___71-[NAGroupedItemDiff _performItemDiffFromGroup:atIndex:toGroup:atIndex:]_block_invoke_2 : sha256 6cf9be00277f5b0f86040f6be426d1b9d97515062831971940da8a4b567409c1 -> 8fa057c0e946915e4e58291b778971b76f3a2d5fc69bcb370fd5a2a8fe59698d
+~ ___71-[NAGroupedItemDiff _performItemDiffFromGroup:atIndex:toGroup:atIndex:]_block_invoke_3 : sha256 9d9f79aaef6a7be91e386673a753a21b7da9310f0cde8b1999d13749961604ff -> 8432fdd2a2477c46c3c970a5d06904bdc61bfa6bbb623f0779d32897c06616b5
+~ ___71-[NAGroupedItemDiff _performItemDiffFromGroup:atIndex:toGroup:atIndex:]_block_invoke_4 : sha256 ceefa91b3b7bea008839ce2d3aaee434b5af4eea1525788656506efdc5e7a200 -> 7c0104d1ddcd379eac2c3881cb520601dfb31d7ddf2cd9d608b6f0b2382badbc
+~ -[NAGroupedItemDiff _briefDescriptionForOperations:type:] : 700 -> 696
+~ ___57-[NAGroupedItemDiff _briefDescriptionForOperations:type:]_block_invoke : sha256 a5fc9f6d5d60cb067f88cfac3f866f953e28a8562e74e2886b4c717e8bd7226e -> 1e6e6b5d376758ba62e12e32da19f02b77da2416f5eaf443dd1a84bf0e774724
+~ -[NAGroupedItemDiff description] : sha256 dc37fe3df0313754011bcf7d427fa78d9ad065de9f91564687dc0d28b6183f10 -> e7d68a3b25774d3458992d48a6f1d38618767a85d793966219a0581a1caaa766
+~ -[NAGroupedItemDiff debugDescription] : sha256 901262e35c655615dfda1848162a797deb76f091a15318c5b000ff41ee359704 -> 351df9913a195cf5283f085ee1620e05af5d299466c26c5a31f84dbd883f36cf
+~ -[NAGroupedItemDiff operationDescription] : sha256 7d1fd332113b66f9114e3eeebcf43858185b979d77a23e59ac3977a680a1d584 -> 6d058100fff718073c2b2e1fbe43bc5dc3ff78830db0208d7c693237aabd773f
+~ -[NAGroupedItemDiff _operationDescriptionWithPrefix:] : sha256 1793c37a5590d3c41276f2f884554cde7ca9a2d0c0b986ae36a56d9c5c2c3376 -> f7aade84cb0cad4f2b052ddf5d8f80abe93de7211297984313e48d37e8d4da6b
+~ ___53-[NAGroupedItemDiff _operationDescriptionWithPrefix:]_block_invoke : sha256 2d434374cf51369797c7207fbb74443a5726fb07586e2c1984b743534eaa2a4a -> ffc87a3bba66f212cec5f2e0d9038654c635dabf5cb840a731ac3d3dc4430e5b
+~ -[NAGroupedItemDiff setGroupOperations:] : sha256 b3ec4ab26ae6808375aff80902ad2ba90ce631480e8a9c51579c28d1b9603390 -> 5b7336ee6dfcbb0a72ccb9f8c0bde4a5a649457578f452fae78cb5dc9b2aee46
+~ -[NAGroupedItemDiff setItemOperations:] : sha256 83eb8c8a2c969dca55671c0b43a37daa69052596111fc9e19c8a48c7438d3e37 -> a9f5c037d6c294f6bf4ccdbcfcf96a03e7d4afe53618b4d3759308349d07880d
+~ -[NAGroupedItemDiff setFromGroups:] : sha256 93f0b0edabdbcbfbf1b6621c41046766d887ce49aec1025d1a857d433e276155 -> bbe5933632c1618c33b4f9cb4f1800df3fbc4c9b755d3aea015b84eb9f00d893
+~ -[NAGroupedItemDiff setToGroups:] : sha256 78325ff4b47c727dc1140ab327cdd43c3a07acf5484647e44b15e4f886e26cdc -> 471f9b6ea797ff0e00a2c994d020ba884d4f9891faf1188b26542fcf0ab1619b
+~ -[NAGroupedItemDiff setChangeTest:] : sha256 fa03981bd9b7bc2b25aef7247affcb02d806a4a7d2c3f39a42f9cd86e40bd216 -> 5cbf32a3f8ee83374576921eb2e74d4d63502a46a8e2715121d58076d05a0191
+~ -[NAGroupedItemDiff .cxx_destruct] : sha256 0e3a2f1c563660bfb1173fe825d703c1c1d42f7255cf28d717cf29c2eb509961 -> eb654cdbb65d3253702d620853167f80b26725c56c3a7be9b75de50f5d4c47e6
+~ -[NAGroupDiffOperation initWithOperationType:group:fromIndex:toIndex:] : sha256 6aa50520d4607f42eb02dee5f1f84d6d61830db4ad4a2fe29c60205d150f5ce7 -> 7515001a77afa16ad3479c616370c0475d9280bb92e9775d07650e3d80e06052
+~ +[NAGroupDiffOperation insertOperationWithGroup:atIndex:] : sha256 68f7a63b74efd902313c5f75583ef71bebcb2c8ddcb612fa6a5a921a862e2fc1 -> 276aa6b9da7935257c5cb27b0d6c2e1caae887052c555a57c52b6c03915b0a26
+~ +[NAGroupDiffOperation deleteOperationWithGroup:atIndex:] : sha256 7e22ede901660579fbf5acb7542dd1d0a3d4f6ca04c7e9870249c7712e760390 -> 7f231917d6f1ace86e3ff4bb8fc487644fc11e7f7693d774a84b5b726e94282d
+~ +[NAGroupDiffOperation moveOperationWithGroup:fromIndex:toIndex:] : sha256 d632b41362602eae7bb7dc532209cbfafb688e0ab0ef21d326907656a87b01c7 -> 7438e80042ae59761c9e27ef1738061efd3532aa85fb31cbe25ce7f50e8d80b1
+~ -[NAGroupDiffOperation isEqual:] : sha256 3b8893f48d2dd1454ec12ba2e8fa71bd2eb2c35439071d4115c38259e7733ca2 -> 54d179b14952c714fc0397bf104a82d604567502706260809898a0e82683f4df
+~ -[NAGroupDiffOperation hash] : sha256 186cfab528f51656c817e4368eab1f11757ddd56f7f9d93e399740276d14d77c -> 4b12697131e30ed0826d17c47ed72d906062177837bb4e03320282243a431a30
+~ -[NAGroupDiffOperation description] : sha256 33f6a6194acbdd696ed40eb673359e2e211aed98adf09de64d640537ff098ecf -> 5638efa975b06adb209f16e0c19f604500db9644ad974d19d2b09c049ee654d1
+~ -[NAGroupDiffOperation operationDescription] : sha256 98cb541ca2732c82c9852bb98d95ea05c7b80309662bca2b71327230e217d0e2 -> 4be1a943028252aabb28863b44f56145ab6d380ac47c26146b2753f4e2ab509c
+~ -[NAGroupDiffOperation _operationDescriptionWithVerboseType:] : sha256 94d39dfaaae5e01f0315701c842e981577c08ba3ea9d34eb125254d9e4ef5fa1 -> 2edec5706f1ba524ae4130fc2519e01055cfffc18371deac10300e8ae0b53d1b
+~ ___61-[NAGroupDiffOperation _operationDescriptionWithVerboseType:]_block_invoke : sha256 896735d94805990ed0986666116ce194a9c8e8f690194dfe9793559b6a3b622c -> 49abe6917b66ad320f934eeafeb6533e583170098f314f5e613b6ef8b8329a84
+~ _NSStringFromNADiffOperationType : sha256 cb1c75d5dad95560110a8ed9ce7e7096c40b2a751cd2d1111a03622e9073d096 -> eea9920c9d6b7b4ed899988e6c557f987eb474865e65dc32f24b52a925e06cd1
+~ -[NAGroupDiffOperation .cxx_destruct] : sha256 1171b72bf12a65f867296012dbd4072ff579b9b730f37dfdc8c9be3e24fb8459 -> 122fd822a5e489d037e90e9a86383d5e392e22d77aa0b27329140063d3f72e61
+~ -[NAItemDiffOperation initWithOperationType:item:fromIndexPath:toIndexPath:] : sha256 f027444b4ae9775dce747e645c4269404e7062f6b9d917450af18a5bf984b37a -> 984435bfc8984caed98963a387a377c64c604284c6b5fc826b4ff5c7aa3ed65a
+~ +[NAItemDiffOperation insertOperationWithItem:atIndexPath:] : sha256 8a9006f1462d601f9ba20d8175d9749206d323abc3a62624be846237867d94bc -> abd103e1574d4e1ecc6bf13c3b19ace98e26e88e37892ebdad5935befc933d2e
+~ +[NAItemDiffOperation deleteOperationWithItem:atIndexPath:] : sha256 a0ef4b665d60e618d9150bcdb9c9ba54d3b2cb8a045ff2d655f5ab39ceb967d3 -> ea69b38874ac6c1537130a3940edd7b675284eb8723381c8fcc50a2e1b7202c4
+~ +[NAItemDiffOperation moveOperationWithItem:fromIndexPath:toIndexPath:] : sha256 10cad3eccb76c9ed235091181043ebec79d965b9da17e43b3662fb0b56fd5217 -> d775e200a4df0faf664515af5cd3b4d30fda82314bd381e649b549151de79e91
+~ +[NAItemDiffOperation reloadOperationWithItem:atIndexPath:] : sha256 03ac2d67f599f541c2b4fc153f8831f5f60f59e44e3f4d0d84ee0958562bc4d4 -> bb7600e2cff357ba7fa8c43538ee989763f977c5af89bdcc53c1d83073c5d421
+~ -[NAItemDiffOperation isEqual:] : sha256 9f5e4da4d39c31a1c79c7bfc5638cf5a5489aca1ba87cca10a371f264dc110c6 -> fe708bd9489c01d9dde895fe4c5cb8f63634bfa2c94450b774e5f13c4f2db293
+~ -[NAItemDiffOperation hash] : sha256 14f493933347fdd0079e1b283c2a858fd409d6ca3f41b15af4d951d930a8c1ba -> c712d4594a1b31cb84efb30e2e3120bb94f9cada7697f808900a1ee4e70b586c
+~ -[NAItemDiffOperation description] : sha256 d1c392181be56207d38bf7ab63f99ce83faacb9a54e5da01325da73661353592 -> 3c6959a44ff7d4c0d0819cd77e726b3595c0f5f54e047190ee32ba8887224fea
+~ -[NAItemDiffOperation operationDescription] : sha256 f22f6697ce59cbf0bd348eac7f80e53cd9002a36b61347171b2a50d778750136 -> bcfa1ee1a42327c722148d99ea95709c26d7997c6a3f1b5af62198fe20a606cb
+~ -[NAItemDiffOperation _operationDescriptionWithVerboseType:] : sha256 aa287eb07e64e0faa9e007690d1fddcff83cc142edb0becf5149a5429c7e76dc -> 03762981736dd5b9286862506dfda4d48353b28af1da5bba5a1c76ef376c4190
+~ ___60-[NAItemDiffOperation _operationDescriptionWithVerboseType:]_block_invoke : sha256 f603205a52f3d50814c8b5b5f03e0657dcef071f08fec6d75ad00e058087b294 -> 28871fc2541516f6f217a08cabfa8a3cda8944be63f773a4763b50292b2d5738
+~ __NAStandardIndexPathDescription : sha256 37a3e61883ac873497471f3d7098978e1dec9dc156cf7f46862fe982cb8aa6e7 -> a55c1eba9a6c1cb26a01db5eece0e0060e916a3ea25bb4812324921c4617f8e6
+~ -[NAItemDiffOperation .cxx_destruct] : sha256 256b29c5e2c710172e818452f2feb568c46e27df59fda19e20ca16c40f250701 -> b4a1ca1e4d2e0fccb6ad1f059c93790ecda453dfe8e36923aefab1f0c2e6043c
+~ -[NSIndexPath(NAAdditions) na_indexPathStartingAtPosition:] : sha256 81127dbf1d90edfea04c9e32223b3612f8c8d4d5e6269c8f667039cb83e709ef -> c71251150bb09636385efdf994affb795e04eb9c09e4ff881ec98ed603bf2d20
+~ +[NSIndexPath(NAAdditions) na_indexPathForItem:inSection:] : sha256 683fdb7c9798eb270c427618faea26793a7a31339859814e257c680b246746e1 -> 41c1198153b54e0155fa92afe80dcb5aa1d5933b355328fa00b73a29d0a440c2
+~ -[NSIndexPath(NAAdditions) na_each:] : 180 -> 184
+~ +[NSIndexPath(NAAdditions) na_indexPathForRow:inSection:] : sha256 4c7a2fc232b06a9f5e5d45e8c1f75c0149d0c09568d0f808bf5a6ae086ca72c0 -> be320ac6fcd312a74d8e84cfa8f5868e2f6fa40caf0780180cf0a828510d9e3c
+~ -[NSIndexPath(NAAdditions) na_section] : sha256 e6af2f44e1f46f8721a1aae7d28369978cfd6e9231dbd5650a87ab5c46db8f6f -> 428fc1e698ee935f3f654643edacfd037e9e4195206d2bf14243af2f0c848067
+~ -[NSIndexPath(NAAdditions) na_row] : sha256 f1db5b10c9f62827f787c786da8692d34086bd04b594747ff58830a57a63c400 -> 58a2cd6a4bbfc37bfc1703a68c91c2bd36f384c7e11dd6f0aa5b4e944c3f9f5e
+~ -[NSIndexPath(NAAdditions) na_item] : sha256 5e39a8d3c48e3357987185ea8fb4480ec940dfac63e015a4e2a54863cb9ec8ab -> 7a81b5cee18ee5327465a433312a860f7e384fe936e848d36d3718214c051fe9
+~ _NAStringFromBOOL : sha256 a56f8c9596734eabd30fd308868036a9373aaefcca2b897c609f1fd4f443cad5 -> f31d6c839e6b6655f26c9290312875fac81065fe8c7d22981e862377bbbc351e
+~ +[NADescriptionBuilder componentSeparator] : sha256 a40f98677d8884c325db0caf0e106c5382772df4ea7d00baf3b0368a4641fcd3 -> d6d4c48e83b55b0c185eba5da483c8e00b4a66d467ea537b14ee28fcb9b754db
+~ +[NADescriptionBuilder nameObjectSeparator] : sha256 ade7e6b37220340cc3e0b6c8e5068e9752e1fadc03efda92c9638ebef052c990 -> 9fb530f8936c2f573d2ba115cd740e9cfbb0a88db72737f560407c3460e830a4
+~ +[NADescriptionBuilder builderWithObject:] : sha256 c8e368fd531b7c5ea699e49ff13d494424ae85907704115d8112181b3798f7cd -> 86d00c257a888bb40dc38705c156fd79f5c6a14b4413ac51d65a0a7d086355df
+~ +[NADescriptionBuilder descriptionForObject:] : sha256 399bc5540ba7b3abccc9111e50daceef6b72ba3c457bfd68e67c75b2d02395d5 -> 3b3b2b3671528fe96e9000cc21dd79b7fc6b4e16cbeaa66d4643ef142652e6a5
+~ +[NADescriptionBuilder descriptionForObject:withObjectsAndNames:] : sha256 c7a1f70cd983c927501b65e0b5414883a573806f68f5d7002a84e2989a9f1b6e -> 0f2e921340a363065d950647c14b08931f60dc57da4eb49b0d2b38056254fc8c
+~ +[NADescriptionBuilder succinctDescriptionForObject:] : sha256 cbe37e40bebc0d430f7d3ca78e4cdd57c48e84016c49c9eb631b64775c15b697 -> 10806c9b88b70d1d6f0bf12ecb66684d7444781752531706394e4002be916214
+~ -[NADescriptionBuilder initWithObject:] : sha256 287d309425f80ea8d114748606bee4cf2688b7348d4ce181548fc1653506275f -> 76c2bf1b53278952af9c1ea0394450e7697decbd64f668a6734d811de016d1ce
+~ -[NADescriptionBuilder _activeComponentString] : 32 -> 28
+~ -[NADescriptionBuilder activeMultilinePrefix] : sha256 9df1e2ed744b21e0872da6fed80fd88b4b13bb9afa04ee795438aa45c336c24b -> 0df94b33dda202e5bfc819972df368ad1abb169ffc434cddc0e0779e8516008f
+~ -[NADescriptionBuilder appendSuper] : 552 -> 568
+~ -[NADescriptionBuilder appendObject:withName:] : sha256 8e30d9f7cbd3992aedb2b9f37c8ffcbb73ad07917b3f1acb6eb8820e8e1b5347 -> d6124e779b7da5a76c7a72ab923246564053af202b7f28db91028b6c46cadfa8
+~ -[NADescriptionBuilder appendObject:withName:skipIfNil:] : sha256 1c594c4ab9d071a60e8381c79a797a277ed7b655dca6373400708dcc813d8811 -> 1451e5ecfef96079e34188ffce4cd2552fda99f44d57909a8dd5fd29eb3d6421
+~ -[NADescriptionBuilder appendString:withName:] : sha256 c711dc54e3027b30d9fec9449da90143a62a9714a57bdf44de308622748c5345 -> 8a5dd0af34e0c0f324f8d1021b3abf8f279ce5c23ddfc7dc0b51895a5cf7600a
+~ -[NADescriptionBuilder appendString:withName:skipIfEmpty:] : sha256 fe58cc6fad7d0ec43dc221d33fba2e6842d17784cc06b9cb205a774f1d5d3fe1 -> 34fbfe727bbf578bd18d6ed04f6b6fb7a0ca5c5abe0861a9933cff8310f3fc2d
+~ -[NADescriptionBuilder appendBool:withName:] : sha256 c51eeacc15999ce7af3dd4c642c2f4996d58fa99a5a610779d7e4ae3923223b5 -> 49f48a4721f5bf636ba55ae096b24ff8eec355ab5be0f5067f90d6ba82da02af
+~ -[NADescriptionBuilder appendBool:withName:ifEqualTo:] : sha256 762e890f1633961bf5f15798ad64d54dbbdd40b645026b92a535d4a72b683f8f -> 8f964292ef0b2a111bccdb215770efa3609f6adbfa881f92480e4bb6e991b552
+~ -[NADescriptionBuilder appendInteger:withName:] : sha256 64f455970653781ae806db13bcdf98d4b7342a9b5352ca15a3ccfaa201f141bb -> 1af47b0bd26b8dde93b249bc23eb24480ec5eb65497154a2311d3ad558e48761
+~ -[NADescriptionBuilder appendUnsignedInteger:withName:] : sha256 d58ef4d1bc4b86dc36d08b271471e3e634bf9c822d6343e9f425268b9709a01c -> 9baabecb464a2f902b3d8e0efdbddc7fd069ab9ccf41968595de89763617005b
+~ -[NADescriptionBuilder appendInt:withName:] : sha256 cf68ac281ec84d65ffb867eb016cdc73cd290e11f6bc7d6f2303c59ffccd7ebc -> dc79b154942c1b9c1f01ef5ad9bbc0386b579c1189aa2561ecbf08f98ca41f7d
+~ -[NADescriptionBuilder appendInt64:withName:] : sha256 a94e251ac8e2c90137ba067d3ab4c5188b95755266a771b8b36a48af6d83c748 -> 8275823ab2db125512e27da30962db6b45fbfc8b542dbf66ebe29e52ae4b9607
+~ -[NADescriptionBuilder appendUnsignedInt:withName:] : sha256 4759145d1519d0a0b9b2f2a52e58b7ac6b88909de74acf143822421eb73f25dc -> b72552af571f2662a8be606ba6ff14beaac15315c495c404b3f9e2e3cec75261
+~ -[NADescriptionBuilder appendUInt64:withName:] : sha256 4092017236e6afc692e619ffd3edf79c31c227ddb769111c54ed0b58a794de0a -> afee1c3a97cf322e2e9d9bfc002aeca982cfdff1cb67d991be9506398b65aca9
+~ -[NADescriptionBuilder appendDouble:withName:decimalPrecision:] : sha256 fef88f327c7112aeb3db0a73ca1fa97bb82073d3ddd2ac9b0afd0fdebe17b145 -> 9b67d79b8b4b570ff0812f3f5f1d83f40ea57a89f0e8add2797ed169fbe0df4c
+~ -[NADescriptionBuilder appendTimeInterval:withName:decomposeUnits:] : sha256 43187aba8e869476688051378c42da9ed2ee91e512cb38794d1420384f186032 -> 1691fb1e9dafeb128003838ffb6e22b2a4725dbc37e7afc77ff3190a959cf1d0
+~ ___67-[NADescriptionBuilder appendTimeInterval:withName:decomposeUnits:]_block_invoke : sha256 92f5ef8def0381692dfeec4099806e8478d4e371eab726a11eef7f6d288a91fa -> 630764224e200856381821baf3939387b5784355d344fc64220b94a413a568b8
+~ -[NADescriptionBuilder appendPointer:withName:] : sha256 70367c2d568cbc77c13ac74722d1f8155adc121817444a505adfd18f18536ccf -> 1ae8d4fcd4ca36f931ba3fe3edb30123c4c1ea7caaad3091961d370d9a62962f
+~ -[NADescriptionBuilder appendSelector:withName:] : sha256 eda0bb5cbecd7e0c72b12a8a65d8043592cd057027163e32c7db149f5c73b0fe -> a4148f7633bbf8c3a2b353ab78e436c39f4a32683ef7d652d0395015d8e1e32f
+~ -[NADescriptionBuilder appendCString:withName:] : sha256 5326af2997f4c257d62ddecccd3015fe66c3edd97c6c6d3e80ca8d5ddff03362 -> b3298f989e251de741a117322f5325598fb1c0da17fbf9f4f613d5aa124927a9
+~ -[NADescriptionBuilder appendQueue:withName:] : sha256 8b0ee433becf8e42fa8450058afe209429377c097b3694ceb144732f8420cd72 -> 92f62435fee52a5d53dec88964a2094ad15766bcf2ef91fef36e7ac127152641
+~ -[NADescriptionBuilder appendClass:withName:] : sha256 4d6f364ebe90ccda1365312fdebe472c9262ecb82123048a79f11e9a37f70154 -> 4056ceb68eb5be85725c76f1edfc2ccf4c275d8d78d72a6d51001409b8987fc5
+~ -[NADescriptionBuilder appendObjectsAndNames:] : sha256 49a29b315ea4d122d73ed7e489dcac72793e1ec1a9c53666a855a96f020a9529 -> 9fc50b1d899094e3f88384b4d29e887a7bc3f5c60befd3dd35b565dcfa200f81
+~ -[NADescriptionBuilder appendObjectsAndNames:args:] : sha256 6a3451e6332ed7b9ae1b41c736bdc20bbdeebd6a7f9be7723c8acbf14aabbf14 -> 74918d6b9b4125fedc51f4f1bff2ebc246a70c4137f355999fb32ea3bf2ba8ee
+~ -[NADescriptionBuilder appendKey:] : sha256 cd5544914806b1111ea53755eb4aa7461bf3203901085b5fb8259beb8360ed2c -> 775cdd35535632cc33f136c2c5e1eb7afe9ff19a1a978a1b14176458bb3028f1
+~ -[NADescriptionBuilder appendKeys:] : 320 -> 316
+~ -[NADescriptionBuilder tryAppendKey:] : sha256 b43f6489b39ecb722de898bacfb67810325f2dff1f2190bf1df19fc96ed6f14f -> 3f3514a28f13548b3075f92b06155a22cb5a360dd82bf721e89306a84e8f71bf
+~ -[NADescriptionBuilder appendBodySectionWithName:multilinePrefix:block:] : sha256 f43f2e98bd852bed91829ff2c7a2f685a4442dc9d2c5fd81168e5932b8149f84 -> 80898564e4d625a2278600461c3426c353b4e81708c5e378b94c2d8847f9f739
+~ -[NADescriptionBuilder appendArraySection:withName:skipIfEmpty:] : sha256 33224c642cb9707be68709b27d632651b6b0e782eb429cce0207d4b3fe731d61 -> 567121680d3a7ac27433c696e3c1b4f5475fed34328414a80a79527b97121c4a
+~ -[NADescriptionBuilder appendArraySection:withName:skipIfEmpty:objectTransformer:] : sha256 8fbcafccb94c5059204cd03b78c6a35ee54c6e512b7f911f9f3165399aa27be2 -> da2456f28b6f0662308d0e10f4f43da2a32872fad24f9c9ac0fb2b32fc7b827d
+~ -[NADescriptionBuilder appendArraySection:withName:multilinePrefix:skipIfEmpty:] : sha256 16aeec405af512d10a10792d72082b52d4100850f3bc099d4c5886edf7493ad1 -> d8fcaa13fa78cac4aa1b02a76c21bd5b34cdcfde7cedb37459bf0c323996d813
+~ -[NADescriptionBuilder appendArraySection:withName:multilinePrefix:skipIfEmpty:objectTransformer:] : sha256 9e37ac36de5f5f308e590b40269309ba41d5bc4c72b0307210167caafdc1a991 -> 563184378edf6c47cdc93a71097a0363fb1be35808f47771234d318ba174edcf
+~ ___98-[NADescriptionBuilder appendArraySection:withName:multilinePrefix:skipIfEmpty:objectTransformer:]_block_invoke : sha256 586fcabee8d6a9ae0dbe65713c62e0e5f26d3934e24a26d366934f6dadaf03a2 -> 00cce8f4db682eae7dddd75ef7bf28e6792007bbac0a147dfc2bd50b4f845329
+~ ___98-[NADescriptionBuilder appendArraySection:withName:multilinePrefix:skipIfEmpty:objectTransformer:]_block_invoke_2 : sha256 6328a457a14d7ff6a2623a89354bb84357928f7465fb4b096af90c4d2011be07 -> 5f58955ec3fed1999fcbfe510f8610df6ce502a163d9a0453b1b920be1b926d9
+~ ___98-[NADescriptionBuilder appendArraySection:withName:multilinePrefix:skipIfEmpty:objectTransformer:]_block_invoke_3 : sha256 57057ceb8ae4040d3072fb8cf1ab49b209e15e1916e206bcb371bae25c08e5de -> e9ce84add0715f342c9de60770b301fefa7db8917cffc2789dd62fc66e05f14a
+~ -[NADescriptionBuilder appendDictionarySection:withName:skipIfEmpty:] : sha256 63672b2427b20980d891f38e07a610c7834832b537511c4b340cab800877adba -> d1f5e8a05c882e54be22c346bc1d9f7b6261915aa00de066c59650f9c6d95a8d
+~ -[NADescriptionBuilder appendDictionarySection:withName:multilinePrefix:skipIfEmpty:] : sha256 6322e750cc1bcbe37df0312226c6dd587856f7e389f9e0807aff6fde60a51a5a -> 957ef1e781df309b2d9fadc2a73df8023056c316490027f87608699543460f13
+~ -[NADescriptionBuilder appendDictionarySection:withName:multilinePrefix:skipIfEmpty:objectTransformer:] : sha256 67bb6740e4bc0441058525f72b29b8100c49a8e04e3716cf6e10f13b92ff61f8 -> 362be64f2e44c3375f1456ef04d049733151835f28c5bc7b185aff2bfda93a7a
+~ ___103-[NADescriptionBuilder appendDictionarySection:withName:multilinePrefix:skipIfEmpty:objectTransformer:]_block_invoke : sha256 1c7e9cec569ac79f86403c0067f785ae3841e28c4fc64d4919bd03cc48f3285c -> 8bd1cb8c7244b531f52a8b619497d080c5e355641b12d3fdd51915d87d6569d8
+~ ___103-[NADescriptionBuilder appendDictionarySection:withName:multilinePrefix:skipIfEmpty:objectTransformer:]_block_invoke_2 : sha256 d43874a059f71ee3656d4cd4865f0678cf3e0fd34a09bee721d54b8ea6ff0e7a -> ace6ad000418aa186a8e82b540e266e1ae81d2e6e168c65569a557aa5ebb6c80
+~ ___103-[NADescriptionBuilder appendDictionarySection:withName:multilinePrefix:skipIfEmpty:objectTransformer:]_block_invoke_3 : sha256 bd3f0c0d00fddc2983dafc0be90e806718961e7c1ee288cbdd8f02161ed14d9f -> 32430af7ff2f5f70bcbee6923933db10bb979e81b9ab4890e8c047415e8ea924
+~ -[NADescriptionBuilder appendString:] : sha256 56627a05881f34ca1ecc45ec468d1219a9556f83412680d2ad9fe17df2e58d14 -> 4fe39c695d6875f067e352074243ce99c8c6f68d02069fcb0639aefc490d0aad
+~ -[NADescriptionBuilder appendFormat:] : sha256 17bb7dd8c38bc5d0d0f6050c4c92a477fd77bfb2510fd375650b86264d8d9ddd -> e7fbe604d1fc4e95cb275d63276f4832ab1e6510c40a05bee1f550493d8fbf6d
+~ -[NADescriptionBuilder build] : sha256 8cbf54a68b8531205079f1666e211a7960969c4b48135ff5244793c310177163 -> 77fdd74349f5c037f2ff67900aca4aa084c6ddd5f4009db389ea2653adb43a7a
+~ -[NADescriptionBuilder setActiveMultilinePrefix:] : sha256 01f53748e1414badf9737961988d85dd51bded5b5d9ead087ee0ebc84e97e15c -> b45b9866db3f99c27365af787f7097b3a5731fbb49fec927a638c1a7f57bc992
+~ -[NADescriptionBuilder .cxx_destruct] : sha256 12c738c137ab53f62d9bd4306338c07fb2c5247642159a2b9df3ca22be61ec88 -> 0368bfadff9f88fb0bc80214fb04c59319211e07dee21dd52373e2f8979f99c7
+~ _OUTLINED_FUNCTION_0 : sha256 3c85c29fad47af2b2eb61a89ce591aa685cb8d51c242877d4ef85e1b9b756dc3 -> 2bc1a223c799a84143754e79e41269626a76df70396edddf86fec0b569330877
+~ _kNAIdentityBuilderDefaultFloatComparisionBlock_block_invoke : sha256 eaff850552f23eb13bf0636e8ff2cda3d3ad518316816a488c7ca8d0724874c1 -> f0108d5f1188a9896f63cdc6591cd0e0575fb7e36eb800c78612e63678b0e838
+~ _kNAIdentityBuilderDefaultDoubleComparisionBlock_block_invoke_2 : sha256 e3c41559491aa63cdf0f7c19e680dfb7a492e4423746b2d3c413ea78d1bd7f56 -> 858fca42c5919683f938428c86f779a288a6d18cd767572b1c0b8343ffddbfc5
+~ _kNAIdentityBuilderDefaultNSNumberComparisonBlock_block_invoke_5 : sha256 c4f5e037907febce54096fdd017aa0dae33d9c3b5924d816b21806172fb61bdb -> c780f5727b1635816060654a32b9ad47b0d0b71c5df1ca7563389fa263640180
+~ -[NAIdentityCharacteristic copyWithZone:] : sha256 cef5d4e9b3fb14ac45639f886a9178abeab7c2847101d214ca80ebc0ebafc277 -> d614fbb6c34ae8a2d039cadf6adcaf1002058e02878adec725df15a1960e3136
+~ -[NAIdentityCharacteristic hash] : sha256 57c6e92a25b3d9489859d213ed8bf4b96c6c63f0cb3297d9a270a470240aa891 -> 1ec1bcb139fdaa998c524e5d99c01cc4c6668c33c8b7ed0ec9809998ba932f90
+~ -[NAIdentityCharacteristic isEqual:] : sha256 8e543d847374c93643e6160b2fd28305afa2e06a7d08f5b541e181c4a4b61311 -> aa32edac8b0e3984d92af9ed974128ed6e0865856a8dc50e662945141fc23aeb
+~ -[NAIdentityCharacteristic description] : sha256 1879914535ad7cf8c385fca2e5f25bc2345c9ca7779d101bfea8261160ec2b4d -> 72da1f9e66994e1cd1cf6c9adae88da0f30e3cb0ce810325366cb819afe33624
+~ -[NAIdentityCharacteristic setRetrievalBlock:] : sha256 c5fa8d9effd234a3ffd4f52578dfd7fed6f58d2e50ee54ca4f8f6ad35b567895 -> 2fd2828d1b8ab6fa787b894f7326e1a3602fcce54561b0371b7cb5555f630a00
+~ -[NAIdentityCharacteristic setComparisonBlock:] : sha256 e95c9e29e38b218ebd5f7db258fa1c899cc69abc0cb3d4475ca38b85d83963f3 -> 4fff9a4195d82204b5d37cc2f181df252f9c04d229f2c5e68b1f66bb95f68b79
+~ -[NAIdentityCharacteristic setHashBlock:] : sha256 8a7f1b5a2303dafce8f29926cb0f1e38fe2da28434bd0aa0418a8ba8b965df15 -> 3e7ee8545aa31c52cdf29ccaad4182b17e718103aa9edfb8ad4fe8c993b7f0d0
+~ -[NAIdentityCharacteristic .cxx_destruct] : sha256 ebc5596c8df8d0b38af0f807a32cea78801b9619243df6c8837ca9d55bcb3e49 -> fbf5de180baabb0c884da1e6fe0b70e39412e3fb96d4f225262f0b61f5cef89b
+~ -[NAIdentity initWithCharacteristics:] : sha256 d8091393f510097b0d966bd39713b1669f78365bdd41481d7d5c765a78dc975e -> a4a03f15a6b34bee2f9692981995f637e9838ed5a4ccc06f76102b638bfa39f7
+~ -[NAIdentity copyWithZone:] : sha256 bb7a7da62d3b40748026a63308b20a33c8547b7ce4be86667acdaa7f134ca6f1 -> a1bafa771c0370c55d19824da58e98aac6335553f3e93c25755e7b0de95a95dc
+~ -[NAIdentity hash] : sha256 841882da27b8fbb043fcade53ca17a054aba18226ad4a66384540fc3c79d358c -> 8c40b94019cb3cff584a168245de4ad4d40ef90ff7125031bbd90e8f1b91c865
+~ -[NAIdentity isEqual:] : sha256 e8ecf87a8e32c8ee2ffe0620cc8a5e090afe311f511b85c5bf712c2ea0b90d89 -> ae8095ce5a7e9791cdcbc734b2a53a200369de9340120c53fb40ca286f560831
+~ +[NAIdentity na_identity] : sha256 70d4f76894badd5b758884f7f84e51778a1c83216ff8187705220b185aca4fa9 -> 4d2be0ae45a0837c1c882f4ba33784af32c8e39c51fbafa8d1925a906466280d
+~ ___25+[NAIdentity na_identity]_block_invoke : sha256 001bc82340f6c041276853bbaed8148bb1188130485d95bd3b659d3e64a0ebc3 -> 416d1b2714aa34280ae51da94ce37b11318af44ce737db26c52a8766a068e0b5
+~ ___25+[NAIdentity na_identity]_block_invoke_2 : sha256 b9aead7099968d7f0017c0055c69d6fe17ee782652e5cabf4d504b6b1cc6da02 -> 55c6096c3e70ea19386fc95dbd9649194371de4bce0edb045ab1e0102dfabf05
+~ -[NAIdentity setCharacteristics:] : sha256 f072c389f5aefc2ef84900a6d10589ef2ed354af7a50bcaac705c9993f33a161 -> ad0f3ed902f7ffff442ccf0b9fd5de267689e9ea2091ba9474bef34fabf7a7cb
+~ -[NAIdentity .cxx_destruct] : sha256 3e1550e7ea220adb69f35ca952a487c752db27f870a46b1ba8e6822602358e88 -> e3ccb036e6e82c60f98553f4eee943bf95a89d0100d3f25a45e88180086ae7b1
+~ +[NAIdentityBuilder builderWithIdentity:] : sha256 5e92063e7df79651fd313e0e727d9f0156eb2b65baee2fea18b4f458cb1c768c -> b9c075823b93d7557be131c14cfdfaaa9cc279f0021e67c7f946006d9413b8de
+~ -[NAIdentityBuilder copyWithZone:] : sha256 f2b2a25f81ed860b5aaeb4815dfed5ca3d276c68f5288e143ba050e002f4700f -> 4ad8655374fd1f4b434709d8a8c117126b82b592fb61048b88e5e8eefcb03852
+~ -[NAIdentityBuilder appendIntegerCharacteristic:] : sha256 4e1ae03135cd6fa1c5b11b568385c1846aabea98063ef53e4d80100a853f4320 -> 14a858b649a507531f760e247678438024e9b60687c651d2d4aa399de318a7f1
+~ -[NAIdentityBuilder appendUnsignedIntegerCharacteristic:] : sha256 726cc9a3af3ab3aad4b93a865ac6fffd65493eb99611eb96299836fe2e6d416e -> e2d785d5a2b891ec39376a8ac6709c1749fd96f319708e9befd4eca6b8182d50
+~ -[NAIdentityBuilder appendFloatCharacteristic:] : sha256 3968b4e8766fdca0b7718ab12fbed00322ed2e2f8929302276f08c815b92cd2e -> ec6f2612ca8a291e7fe7f5e80bbfef6e3c75707127fcc7b70303412fd2a60d4e
+~ -[NAIdentityBuilder appendDoubleCharacteristic:] : sha256 a4e314c9949a537cf18ed26c28cce8a1342d327eb74458c2b3c62e3c53cbb9af -> 0137143426763051250f2b7bdaf3d3c68432c48d52c029117aa39b720aa7db05
+~ -[NAIdentityBuilder appendRangeCharacteristic:] : sha256 4e1ae03135cd6fa1c5b11b568385c1846aabea98063ef53e4d80100a853f4320 -> 14a858b649a507531f760e247678438024e9b60687c651d2d4aa399de318a7f1
+~ -[NAIdentityBuilder appendCharacteristic:withRole:] : sha256 b0d22a0980a49247cb3e3e43750ee7791de8a755722c7d3caa06dba445c08d0d -> efce4b953396e134bc9c257eaa28a605aac1773e6ac979dbbbd60650df75167d
+~ -[NAIdentityBuilder appendIntegerCharacteristic:withRole:] : sha256 d431baf602ce9f1f4125a7b7783bfc18aebf550a1a3621153b7cdee87c95f109 -> 36afc07d06e8eb5116adf10b8495dd8e7f8531bdba84bb92d2cb21180b8c7d6a
+~ ___58-[NAIdentityBuilder appendIntegerCharacteristic:withRole:]_block_invoke : sha256 ba4142258fb9764e348116facdf4a7c8986e7c60f30d727656cc59ab2c86090e -> 6d87530c2bffa3b92db99931c925d6176032097a22e848460777cb60b6e60252
+~ -[NAIdentityBuilder appendUnsignedIntegerCharacteristic:withRole:] : sha256 de7d2bf6320c18831552bf567ece951e1f70155d444f08f45ad774474987d84d -> 00a7b27395cc6c24139f3118322e7d3832a606627c20b870dbc969a8571db53d
+~ ___66-[NAIdentityBuilder appendUnsignedIntegerCharacteristic:withRole:]_block_invoke : sha256 d543f0972e56a28b4271d2061a925c8c0100d9f8a9a9364665818c846fd9b2e7 -> 193e1c5646b3b9953a698054e3ee3dce4662f2e59d15d9f109505639ef8f16bd
+~ -[NAIdentityBuilder appendFloatCharacteristic:withRole:] : sha256 55aabd167fa1f302cf269aedf4b28bb8e650ab5e6503715e9508783e0d3edfcd -> e8892415e6813f0ee7c26c0f948625fdbe92401e7442a7d84ffd71b2ee0827ba
+~ ___56-[NAIdentityBuilder appendFloatCharacteristic:withRole:]_block_invoke : sha256 5d4dc036e8c0ee06d273404b1aa560f4734307fc7e27fd957f876a69e1f8ed7b -> 35b85fa3384d3b9443d3a9e54fcbf18de9a1fd99361eafe5216259f31162af39
+~ -[NAIdentityBuilder appendDoubleCharacteristic:withRole:] : sha256 a36f7a287c3801b233a0fff5393f7c7f3eb6aa116272da2a067d1002805985d5 -> 56b507957f1fa6a656cd9caaa4c4c68bf9cc139709e05c85fefd8de05e38597a
+~ ___57-[NAIdentityBuilder appendDoubleCharacteristic:withRole:]_block_invoke : sha256 06bb5aaef99ab40523ac4d07df6627903832627bb6ec5675766cdca21a065866 -> 22d7a244b4283d56c3c254a81f2dacfd51dd9f7afee059cd06f21e733d841007
+~ -[NAIdentityBuilder appendRangeCharacteristic:withRole:] : sha256 2d4fbbe5d54dc574ac7406392984e9a20fd3e99d2d6b8d1392676e294b21ea2b -> 9e4e678f18dfe35030bd722f5c0ec1f037f51113e31b375db7a80f39c9afe4f4
+~ ___56-[NAIdentityBuilder appendRangeCharacteristic:withRole:]_block_invoke : sha256 af9f99b4592b71b888e53e4db35249e545f8e3f0aca149334b958ad55e0fdefb -> 49703dc6c423d4de7e5859f974d4fe7ee0657354f8f7e464584ee338256b0cc5
+~ -[NAIdentityBuilder hashOfObject:] : sha256 18c789b2bcfe35a6843b0f54edeee3d8247f442f2b04f80e6735b2230895eaab -> 6020410fce4c786d58b38819b36390d94bd9a5462a6e70ab7455f2c795ad2721
+~ -[NAIdentityBuilder isObject:equalToObject:] : sha256 f8f52349e2c6d9b9bccb203900e6adfb945aab1c0e7de124d704605139094e18 -> 2e7dc478b5f46c768c54eff430384c933f656577a14ad7d2a7af31ddd141a309
+~ -[NAIdentityBuilder hash] : sha256 e03d11c3cf5c6bc976a6d0027919fb043e9400a70d8185bd1604e0d01b3f1482 -> 062d316a9f712266de86ce8871da467c6796adf3dc16af3a324217f299f001ed
+~ -[NAIdentityBuilder isEqual:] : sha256 e52bbe775b9489584e60cbc8b4e308a7c1dec0df640b45994d14cad8bc515c47 -> cc33ed0da22d92bac67e3fcb531ba7fc48d932e08bd2f5b1e701f2690d57d5a7
+~ +[NAIdentityBuilder na_identity] : sha256 35341edca8d332fe2be26ef80fb0007e7e52e3e6790b8de036d77f95df507cdc -> cb83d3bc118b255678ea9bd3c7523680f4b450cae1c3042160ee85e5dfcd309e
+~ ___32+[NAIdentityBuilder na_identity]_block_invoke : sha256 38fb35e8e0054bc1a851c9c7089703a7047002f248a7d35c3088010faeb49cd5 -> 81101746bb416e3204f73fff51f45bfca51b2a7d8be14d7e7afe883269d05bec
+~ ___32+[NAIdentityBuilder na_identity]_block_invoke_2 : sha256 4cbe65549bdf1143377ebc3f4628dd5505399dd7de1c9a34510e5167af687969 -> 5e5a5645e9265ac450d26c22971e80e328c5b853cae22bcb3ab3d1da5ddd3d7b
+~ +[NAIdentityBuilder buildPointerIdentity] : sha256 4015639b5c336ed87ea4ec1b3d49ee8d96e6f0c687d2055a9f43cc919fe3b1fb -> a55a6511ee260dd7f365f2a003bd24021e99571c1bc3a764fb37dcfeedce4b54
+~ +[NATreeNode na_identity].cold.1 : sha256 900282fc9d8f089f17c80f6cd9d85f4c382dc7cbce4cf303fccdd184a994f503 -> ffeefb439bbbcc78c0a995d0755d23be18d1c2d73c38ce652c5569acd4dd0b12
+~ ___32-[NADecayingTimer _nextFireDate]_block_invoke.cold.1 : sha256 4e0cf87daf1fbfc0457807fc31e43b501b31ce74c7fcf414ca16c17f038380f5 -> 9871fd2c81802a813c6631d09076e1e1a7ff7f6fea9646d6f6858d80045f122c
+~ -[NADelegateDispatcher _logEventForSelector:metadata:].cold.1 : sha256 d0cfd602a46dbd945db4039558ead7c44b7d82e4ee2f2a1bcc0b6cf4148f4e73 -> 5acaceb66dc6bbe0b27f5f9e90619d1928fa891edbab1ac1133625d86cf4b762
+~ -[NADelegateDispatcher _logEventForSelector:metadata:formatArgs:arg0:].cold.1 : sha256 b93d90385c02524933fdc5fc45843cbd1964c7a9b07d7e0973384386b9df40e6 -> a32b3241f64589ad255a028f2ec441d5584531795d368a57a989e61089102b24
+~ -[NADelegateDispatcher _logEventForInvocation:metadata:].cold.1 : sha256 e5b44c7e6f78f02881db83cb0cc3f03114aa340c5fc309104957b981ac39d6a2 -> d4f3a9e9de40a5dc7f8ab1e64e3f34bb1381bb093b1e9ad57bcacd67cfd84544
+~ -[NADescriptionBuilder appendTimeInterval:withName:decomposeUnits:].cold.1 : sha256 5b71b705e3d8c70502737d56db72eaad7401554a4571cd257deca517d173f665 -> cc2c951914c7f7c546dd12f101b23f9c5f45fb3ca3de3c4b3d25a27406aa5ec7
+~ -[NADescriptionBuilder appendKey:].cold.1 : sha256 7bec9063a8e3b051ca1a8bd8fced8348e651cb66ddec787c46fa7bf4c4f59c6d -> 431c5890e5edb79691b9b5974632d436b60fe11125ef72bfbd81a14e0ccd16c6
+~ -[NADescriptionBuilder appendKeys:].cold.1 : sha256 8db79b1a42b1dc2c9645bdb25a490fe32a372acdeb9a30364730a4b7d6ee7592 -> 9f97d648b3205eedff65bf975ad75da959847e2837feabb4fc8750216bba813e
+~ +[NAIdentity na_identity].cold.1 : sha256 25955b57b61acfeddeef79b713d22a3c1bf594ddbe4b050de55ab27300049d83 -> e763c28fccff25aacf30064dffc7ded9ec4b03e5e2ccebce1403ed0b9aa576de
+~ +[NAIdentityBuilder na_identity].cold.1 : sha256 d783d4ecaa196ae2bb5db4d6661c371d81369986d06581f1015675076a047f3d -> a70ac994d412c6db8e2edeb32e37bf65460c3c346955a19f33ddb51ca7dadbb0
+
+```

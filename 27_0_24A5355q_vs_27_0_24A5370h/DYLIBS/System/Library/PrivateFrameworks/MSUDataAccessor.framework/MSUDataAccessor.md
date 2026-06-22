@@ -1,0 +1,124 @@
+## MSUDataAccessor
+
+> `/System/Library/PrivateFrameworks/MSUDataAccessor.framework/MSUDataAccessor`
+
+```diff
+
+-3689.0.0.0.1
+-  __TEXT.__text: 0x31a0 sha256:1c141afa77f6af1248ea8a4b860669191ea3ddf9377cdafb0d3ea6f24cc35c6b
+-  __TEXT.__objc_methlist: 0x1b4 sha256:661ac1a86f5205e568e82908cbdad84d129ca52b4d2be51d7273d9a3f0e0e0d6
++3695.0.0.0.0
++  __TEXT.__text: 0x31c4 sha256:5276c59736db383b427ad6564e91ede81b1c458b6f5b231b19f2bc82931638ff
++  __TEXT.__objc_methlist: 0x1b4 sha256:453803a87f02e7fdb331706e837d5ff21658ab37226bb8daec3fbd18af707c9c
+   __TEXT.__const: 0x78 sha256:13fa8084fccf91bcef833345bd64b3344e66dea7618607d1805ca361583ca40a
+-  __TEXT.__gcc_except_tab: 0x210 sha256:8fc8694e5be72b37f7ef7ac6c6c0f36adf2112bb1953df805f74764bc5e0b2ec
++  __TEXT.__gcc_except_tab: 0x210 sha256:8c9ac86eee59e8b389bcc04f792c0ea0f5e4b67f57bca987fb42ed088551bfb5
+   __TEXT.__cstring: 0x9f7 sha256:51ae67d59d89b4d42207fb401b76a4b3f998cd961ce44b44dc325ce1b918def5
+   __TEXT.__oslogstring: 0x1e3 sha256:0b607157945e98393df438d6ac536ab7169b14afb5a7c344a290217f74c0e7ab
+-  __TEXT.__unwind_info: 0x148 sha256:d1ec8a1fc0f48914a38b58832136b802764cd137d999fcf3cad99ce109a51dee
++  __TEXT.__unwind_info: 0x148 sha256:ac561db2d886151d9d7cd84bf656fb777bbf181aa5bd6073ceaf9cad985e8703
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x370 sha256:2054962c9b356f0166aeae647caee5b217aa012b586210f2609eb21744d94681
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:a71b47c8903ecab238f95a6cba0ced36aa16efa22143827e0de9b30907b49810
++  __DATA_CONST.__const: 0x370 sha256:bd0b34295d67668353ba693b92a0fc5216198074a3f1a101ef121ac6bfc2386e
++  __DATA_CONST.__objc_classlist: 0x20 sha256:2d6c96a0e8e28a2ea94823497c041139d6286fa524e2409c12117ee9a8dfaaf4
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x268 sha256:d4191555f098617b5033cc60f39b46c3b57a98d776d2e9ca2a0cccbb631b9ec2
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:b7310b309ffb57e896c9243b763565ed5bbf8d94b805b9bb2da65258de02fa95
+-  __DATA_CONST.__got: 0xc0 sha256:79cd35bb26dc21b540033b047d327f0f45231f2d96c8d0187487039f32cc7727
+-  __AUTH_CONST.__const: 0xc0 sha256:62d158737309d9ea0f035c37eff504b7fd759e95430fb4a3c4bde7a2b0a0e4e6
+-  __AUTH_CONST.__cfstring: 0xd00 sha256:92439df85792400265b5bdbe3de48c5c8c015c5e0c06eb6b601de3c8e37687c7
+-  __AUTH_CONST.__objc_const: 0x268 sha256:e9c7c43d98158993c72497fcbce99a69c658f80274694616e1abf18e799c9078
++  __DATA_CONST.__objc_selrefs: 0x268 sha256:8bcb62ef27c51a77fad865bd1c08adf57ad3bd388da85b5eb731b32daa210545
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:326f5286c40119d1ff437673b4ab193f7642aa91020fb12b772aed191d7b5544
++  __DATA_CONST.__got: 0xc0 sha256:2767c1362c9471ec3a6270ab2d62589b81bd7dfef4dcee4ebf49343e7bb0103c
++  __AUTH_CONST.__const: 0xc0 sha256:08fb51e99500257407a25c45ad389dd5a1addb2a78a29eb4bd91bf79537368a2
++  __AUTH_CONST.__cfstring: 0xd00 sha256:4168f7a3da111cfd0e5dc860def97e3d29f47f3d79b507228086e1ef8af23137
++  __AUTH_CONST.__objc_const: 0x268 sha256:948c347083ca1be81699dc15b3e72956b726677ddf97543204f4e1691afe45e7
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x28 sha256:ed20ca7e73d43c731660aecff3846afb9bd831430abc19fe3837a9929b17d4ef
++  __AUTH.__objc_data: 0x28 sha256:b867c75db8576a21bf62b803b8f302314265f96c284cc8f3c657a7ad451359d6
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+-  __DATA_DIRTY.__objc_data: 0x118 sha256:2053e1d83d26a4b29afde531a804880dad33fc00f147f752909bc5465bdea47e
++  __DATA_DIRTY.__objc_data: 0x118 sha256:c42fac031bf3370a6d12331056e2871721d5a789cf8c368c10ea61a91a95fe8c
+   __DATA_DIRTY.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libpartition2_dynamic.dylib
+-  UUID: 3CF88A6E-A2D2-3BB4-B3B6-EAB1CD6DE627
++  UUID: A9021EAD-EEB5-30C9-BE1D-9DE32A9EA61C
+   Functions: 68
+   Symbols:   321
+   CStrings:  230
+Functions:
+~ -[MSUDataAccessorSymbolicPathResolver init] : sha256 861295435aa3a000425a60396c587ca00e821008f09feb85f63dc0337c2be0d7 -> 59f3880923ebb0ec71005176ff2ade8da64c1b58678847627a4934617451e925
+~ ___53-[MSUDataAccessorSymbolicPathResolver resolve:error:]_block_invoke : sha256 84f2fc3d7a2fff72308dbda251a058831d42dacfc1266c47946259e75444e0b7 -> d4dee7a7ab7a2d59683bad21b93de6ec0f7803ef7198162b0218791840dca649
+~ -[MSUDataAccessorSymbolicPathResolver resolve:error:] : sha256 2f7e8f4018216e86f86f58bfb6aa7048fe5fbdf1f194cca3f0485e6a6888925c -> a4385f125c4c12eda298faac96e8d481b8601ed74ccbdb5f22607dc6b196a5a3
+~ _MSUDASharedLogger : sha256 04dd298ab8d5df17624ddc7cd3cdcd1c2322e34d7bb0fabc5facda869975d027 -> a0d20da5279ef3890af577e0fcabf78472cd77caa73bd12b8b68eb9996e46f09
+~ -[MSUDataAccessorSymbolicPathResolver dealloc] : sha256 dabad9e6ba137ce8a3ef4d4e5eed0200edaa4b177e4e5700e3d0fa1b380d5a2c -> c306236391307d1c5d215596708e6d73691c481cf07e447c3bed51d2c0fe3c2a
+~ -[MSUDataAccessorSymbolicPathResolver .cxx_destruct] : sha256 a6fa0d2b714005a99861d06dc390e21999b4a3c211f24f11ee46d5e74e46f435 -> b47487a73e9827f8591957e85394d53f9e1e930b655ec0e1d0e14f22810b88b1
+~ -[MSUDataAccessor resolveFilePathForEntry:error:] : sha256 a95a323e4231ebe9b346d809a89281ba997363d85ade74fbaaa4fd58c8f10652 -> 1da0b98feca9ce6172ccb89803dee6c1ce59daad272743acbecfd7d8c1ec9206
+~ +[MSUDataAccessorSymbolicPathResolver resolvedSymbol:error:] : sha256 6589568e91da7f9e2bfdf48c04459268dadcca59a0e49433cdb80c95e1228653 -> ad76f6acb0355ca4abe4d152c83113a23210cc1546a0c054f78603ea5ad2a128
+~ +[MSUDataAccessor sharedDataAccessor] : sha256 032515ab8c60a9bdd376cb23ff1002db16856efec83928101249a69b66fc21b4 -> 654801dd006c04794551e61e04c003faf1c45c4b5ecd752c2246afd0e8dea82a
+~ -[MSUDataAccessor copyPathForPersistentData:error:] : 476 -> 480
+~ +[MSUDataAccessorSymbolicPathResolver symbolicPathResolver] : sha256 c804dc5f9521969663a5c019186c22989a2b960617049cf69c9a4fdd23f4085c -> 3911256eea7d114d06bc1df56a020beb15429fbfe652c3b0bb77c9d170543029
+~ ___37+[MSUDataAccessor sharedDataAccessor]_block_invoke : sha256 986afcb0043943e8c1d1290398cdb8d22f8c2e371711321d4fedde803b6f5605 -> 3dfd49c26a65086f9102d0b86a16df865e889a01856fbcd2945abb93defd3340
+~ -[MSUDataAccessor init] : sha256 7ba12c3e7016e68d287ff2b7e1e46161d729a8e720911ecc4d0b234460856185 -> 5d3410a05edf2dd83fd71599febe3a5e53b51175181990e9b2e20138673957e8
+~ ___MSUDASharedLogger_block_invoke : sha256 5a6505c1f1713c2bcf01a063562b28419da6a7570acd7698ec844b77eb348675 -> 2ecff72f541b7a6b6ec0177b3c7941187d22d6c5af38fe27330560b4b620cf3e
+~ +[MSUDataAccessor buildErrorForRef:code:description:] : sha256 d8848e708b9e344f5b51a4ca3ed78d4b44f92ab021d13b0eb52863cf4c067169 -> 2b733e4560bd4ac5b402731fb4debe2ae3681904b9a859e0aa604aca792dcf0f
+~ +[MSUDataAccessor errorNameForCode:] : sha256 6c54e1ac1dc57e1adfce02c0b81f9202fab07ff6973fa54eefaed0b00d0becdb -> 63c6e1e0f485d12f26ed1522630e03d554ee63240228015d34cae0d82c9a3233
+~ -[MSUDataAccessor personalizedRootWithError:] : sha256 4ac2d89bc1d430ae1becb56ee8fad37b9334d0d025409b2be70bf84e3158a3f0 -> 54f3619a2691b19861402168ea72bf5203de633c54494d4c7eb70b755c3bcde4
+~ -[MSUDataAccessor hardwareRootWithError:] : sha256 4573aef2623ab990366b48cb2d7a28b0bd0082f8a02f81b42b23170944be2222 -> a9cd04a953844afb05794db6bea49b0bb96809c2dfc7cb4e248b8ddc523995f8
+~ -[MSUDataAccessor copyPathForPersonalizedData:error:] : 184 -> 196
+~ ___destructor_8_s8_s16 : sha256 f2cddf390b0313edec5c51ac53a67c6272a7ecc69ea79e4350f3423bdce3c8b5 -> 36e65a1add170f791762936d11dc2a5d34f4d351d32c732d85f1e25100c9b279
+~ -[MSUDataAccessor copyPersistentDataPathsWithError:] : 212 -> 228
+~ -[MSUDataAccessor copyBootManifestHashWithError:] : sha256 808a3c0c6c527d6e485f2285ae55a9abcc0bf6fb2b9ff77452edcbdf097ec7db -> f95343662014a9c61b19e69e0c61eb7bc6f95457914151501254f70792c33055
+~ ___49-[MSUDataAccessor copyBootManifestHashWithError:]_block_invoke : 100 -> 112
+~ ___copy_helper_block_e8_32s : sha256 1a86e1e9c5fe6c6d36ae96c3e829f67229538a3c676c088820b502b0ed9cf341 -> f8c95fc6adb86a87c05da8e968912fdb3a104c126ccac8ec4d69aef5d3800d4c
+~ ___destroy_helper_block_e8_32s : sha256 f56f896fa645550de3496b47f6db9e80673c78edefc25d7b54cb88f92c8bc219 -> a718ae7cb7c70856651cabeb2518836b9ac83e8e90e6683c905dee41039586a6
+~ +[MSUDataAccessor ioreg:property:error:] : sha256 e4c2506f7fad0e3b70a9ace2ea2f55af8872886be3bc4ed495633ba384ae343b -> 2910626114886cd0b1b58c744a7d5a339d99b5d02908afd1f6bf69a75924b9d2
+~ +[MSUDataAccessor bootUUIDWithError:] : sha256 5c60c79ca9df70cfc9ab19e576f17b0aeeed1c98ad044ac5596c4171fe8c35da -> 51b2922d3f02dab7fb008f3f8246de6b505e0ddbf784727a423cd98897faa917
+~ -[MSUDataAccessor copyMountPointForVolumeType:error:] : sha256 5fd1c9219946d390232a4c3b3f88d5ff4c2d8ddbb9330b05eb1d991b816232f3 -> 61f9b42d38caf51c21567ca3acbfd0847092751a94afffb4c201a313b191fc92
+~ +[MSUDataAccessor hardwareModelWithError:] : sha256 bd128810e719cc8174e41bda9d37f83b2c454c77656440db77a40e71538c615e -> d703c3da6f70d775e0abaaf6a38ec7f26943ae3c9507705c883b81c70cb316fe
+~ _lookupPathForPersonalizedData : sha256 89fb90cdc292e6f5e44cde34e5a56c051f019e0342aebe461a58871e0e4d5813 -> d05006db5270c889eb7c3297014503c99b064167024bd6a8d788407956969037
+~ _lookupPathForPersistentData : sha256 ec271cf9846d13a2f638aec0a816d01404e532e6965fdca38611d7ea82e79159 -> b00430b75a0a49b358ed01d863ef31619b8c13edf12f349ae3007644753cd2c2
+~ -[MSUDataAccessorDiagnostics returnDirectoryIfExistsForPath:] : sha256 69cfafa834293d18f7e28d8193d816edf7a943a7f3e25926f22d6629c99bbbb1 -> f30d295a48507e8d67af32add7e4b2972d4fe49f7622d24675fea3d35d055f38
+~ -[MSUDataAccessorDiagnostics specialCaseFDRPathForDiagnostics] : sha256 2716b0778f7165055637049fb716b44a3091b2d46ce4cd7bfa6a25d4e53e7c42 -> 6736c8e1c76cfff2b6bc679d819bb25421b7c03cd10045a9cde179964bad6300
+~ -[MSUDataAccessorDiagnostics copyPathForPersistentData:error:] : sha256 fe3d441ade0eb38d65e465d35d4c8e87cd89c8eed41901132de668c370934b23 -> 34345e6ac42b08a8b5ee6562cd6d7382df2e81bdece112efa03b0774e6d92c71
+~ ___60+[MSUDataAccessorSymbolicPathResolver resolvedSymbol:error:]_block_invoke : sha256 6328acaa7756ebfc88c943ed5e5cf5350851382917183d19002cf0b7cd527c5a -> 00079b06b00f4525cab0a829099998c4cd9e64bfae26449d469349cde36c6610
+~ -[MSUDataAccessorSymbolicPathResolver overrideSymbol:resolvedPath:] : sha256 3faf7485bdc051879a6e33dce3a1c7b715ce6bbcf6d5452db59174283e9ffe2b -> 5916a05566152c40903baf2180d5d73d658195615fc224ba03145131a7122097
+~ ___Block_byref_object_dispose_ : sha256 4241449e1ea9a8d5563296978f46d4765a965dda4a123fb3442a2b6d7fe28452 -> cdbd88a3be7d3a53834b6ddbd0c84456495bb78e78953312f25067f2995eea7d
+~ ___copy_helper_block_e8_32s40s48s56r64r : sha256 eaaa5f0d96dd99f44dad9a6d0fa53e007f080f40606dd5cca3edbba96903cd1b -> 7e9a9a2c1f9552a6ab0d0cc4983f6cd696bab283b9104bcd6f4a80b4bcb1b339
+~ ___destroy_helper_block_e8_32s40s48s56r64r : sha256 fec32eff84a6035cf98463062262c4aab2e827a2ab2fe48b7a43430235c1d8ec -> 49244ce9bba5cf8390a69a3c0dbfd53b22b689fc4b36dababf4047168aeb90e1
+~ _OUTLINED_FUNCTION_0 : sha256 d220b6f03c238b038049a8a1291d7b9689be765bfbe79f0dd9761ca984c39dbc -> ef3fc7b33ea3a33a449adcec67babc27286915ddacbc5c3f4c09437150cfb1cd
+~ _OUTLINED_FUNCTION_2 : sha256 2433c1613d46529b0600bdc9ccd7fc57d4045918bf7cfe7d351e0a2f19ecb62d -> 51970aefe0611515fa7184e4316f298df93c6200df1a408ebc876174fed13f9d
+~ -[MSUDataAccessorRestore copyMountPointForVolumeType:error:] : sha256 59fa00e82222ccd478b91f0fd5c362b8daa64f08ed51a542cfc8a93038a886b6 -> 9a4b82db2c4d539d3e1d9dfdf4e30de0af510476f0c27628cc9cb37650b032a5
+~ -[MSUDataAccessorRestore specialCaseAPTicketForRamdiskWithError:] : sha256 d6353631518e6a9c1d9ed220e6ce5b08c105a3d4d00238a466dd23788c183e6d -> 2d9234113905883692dc04f5d0f8d79a4ebce90a115a36b64673c638166bdde5
+~ -[MSUDataAccessorRestore copyPathForPersonalizedData:error:] : sha256 5a4716a172b9c2314884b605cc1d0fabfe1e324ace0f66caa17d7cfcf71ae368 -> e0e1d443696a735e23fc1eeeb939a2ffaa7b188f1759e17c8187b8d5f05b1372
+~ -[MSUDataAccessorRestore getVolumeWithUUID:] : 412 -> 408
+~ -[MSUDataAccessorRestore findVolumesWithRole:] : 388 -> 384
+~ +[MSUDataAccessor sharedDataAccessor].cold.1 : sha256 a96a529b4fd33de8b8c9138a29295e9b1a61c3a2394f098d19e4ba8c3f407a98 -> 294ca88b84a752aa6cacfc86f2b688468fc2d0aa15e33e424bdcb28de05011bb
+~ _MSUDASharedLogger.cold.1 : sha256 9adae90c3e44d88c28caad84be52971b129e66313a1ea4434fbfc6d14cbd4ae4 -> bcc446a06eebce8fe04cf5347dd7c8cc628cb30f88a5ad4a96e2035e474577e0
+~ -[MSUDataAccessor personalizedRootWithError:].cold.1 : sha256 80e7cb78222b99859817389ae5dda1e9f679f6c0c3ea94517872d152b349e8d5 -> 270f97f17c0fd3ba23e92a88f17719e40f463a13ef84897794efcbf275e90c55
+~ -[MSUDataAccessor personalizedRootWithError:].cold.2 : sha256 a2cc7f5c9f931ef346536e5105e3f6f89edebcf6c64fbeb29f12154a619ce5d0 -> 5105374c383455fea838293c057241b1e07e5e34fc092aac9d4e00ff0fb717cb
+~ -[MSUDataAccessor personalizedRootWithError:].cold.3 : sha256 6c922e397a88d2ef963ac79c12a03c3ae10e0a34cb9e884058dea02d67379d25 -> 8396d3cf97746ea63250eb1b4fa96443f95c74ab668c37fdaaf56304f28a845c
+~ -[MSUDataAccessor resolveFilePathForEntry:error:].cold.1 : sha256 6dbfa13c4cc34c9e6f84b14441043221e4be3283f00a85bc893f05d70b2707bd -> f4a72b2c1d52c8273a7b4ee691722d960bbd98ee4db651ce3dd72b2e2673f46d
+~ -[MSUDataAccessor copyPathForPersonalizedData:error:].cold.1 : sha256 ca0c3fa42cbf0e9f25e06708e61bf0bc5e2e8f3c6f5c0136b0b0834ff6612df1 -> 2e8bc109202b2dc5cd0a4475993f96b2494e7e17d8a066512de7d5e7ff9ac5e9
+~ -[MSUDataAccessor copyPathForPersistentData:error:].cold.1 : sha256 8d089f22102255d15076795a74b21a54355f341ff7e7725b9b74460ca91b39cc -> ac7b57c09140296828267499a7329a1a6eb6968a9a3cac57c4eeabe05ff51fa5
+~ +[MSUDataAccessor ioreg:property:error:].cold.1 : sha256 651bde468ee54ec28ab99bcb2751d5509205d8de0360171ce30959e044da605a -> c82e6ce2b2eee2949244e825777e8e9320cf5da2752aa3071c6ca948d5e51fed
+~ +[MSUDataAccessor bootUUIDWithError:].cold.1 : sha256 28b1b329c9422014c475ff8871c786796cccb938e12ed91da0c76ddb3821a2ab -> 8a8cbecc3c457b26de12587940caa0dd43658e7216ecabe5cb6a15ef7615f578
+~ +[MSUDataAccessorSymbolicPathResolver resolvedSymbol:error:].cold.1 : sha256 537f92b5fe091bcbbc30f0f2615b7746e5d1f87e729632a5c46ded7b48b47f54 -> 8d1383df45321651b2c7dca3dd62f49bbd9165d6c018ff2c46317b4a465dbe7a
+~ +[MSUDataAccessorSymbolicPathResolver resolvedSymbol:error:].cold.2 : sha256 d0118b24423e5011bc16c7bffa1787693087a7c1b9c090f458883bc41a7742a5 -> 91a1cd894b747be8dc062b0c97764fca47f81cf3f4ffb2bfad61a36010b35bc9
+~ -[MSUDataAccessorSymbolicPathResolver resolve:error:].cold.1 : sha256 134140e11bfb83c5427743e9de8c63959bc204a4ff9178eecf10facd0251016c -> e862e624ed6e65b824e710bd081bb82958c02bf7c306c923b560beb683513fe1
+~ -[MSUDataAccessorSymbolicPathResolver resolve:error:].cold.2 : sha256 d1eac2f45dc037002dea17d07ac77da11c308e4d5573a03f5491264023ea345a -> 9c99616ee3ee73d62816c9be185af84d7d013d6f9a2984ca08e79063e74d2bde
+~ -[MSUDataAccessorSymbolicPathResolver resolve:error:].cold.3 : sha256 644cc71e45b429cb6b48c9d73cbbfa25c7ab58e52427876236ed1b999216ecc4 -> 6be4e6b0be4a68e3c39acc5a0378458796c2127406203157ccbd068cb92e2af5
+~ -[MSUDataAccessorSymbolicPathResolver resolve:error:].cold.4 : sha256 526ea33399379ba0fe445f9e166d7657e7c52902b8ca46b77178f0fbf41867f6 -> cc00c5e24a550c6f5c726d400feb8de07a3f49a95e355009386a0d5617880208
+
+```

@@ -1,0 +1,102 @@
+## RespiratoryHealthUI
+
+> `/System/Library/PrivateFrameworks/RespiratoryHealthUI.framework/RespiratoryHealthUI`
+
+```diff
+
+-7027.0.52.2.6
+-  __TEXT.__text: 0x1bcc sha256:3f974bd6649002e74d02f0a385b3210b7cba5d0b0287c14710077a5b5b5c38dc
+-  __TEXT.__objc_methlist: 0x2b4 sha256:e452f7f2bc0e97f2a4a44e1f2abb8822e77c9272b499c6657e183c6371ad7a80
++7027.0.60.2.2
++  __TEXT.__text: 0x1bcc sha256:43901062dfe901336f1a5b68ec2d561cfc39c2aa53ddb42f668fc85a5da6b005
++  __TEXT.__objc_methlist: 0x2b4 sha256:3c96bc17c865deb8e1312efb72e827463ca27555069abf733cf02f7e5ea031cd
+   __TEXT.__const: 0x114 sha256:672e411a6b763ee2d942bc03146ba350b85a8209bb2b9877b51ae7d5919c6503
+   __TEXT.__cstring: 0x16b sha256:f242531a2f19108ba9341a64e02bed099ac301d41992ca4f6f059818af442e79
+   __TEXT.__oslogstring: 0x1f1 sha256:e26015325c2c24b9901d89dddbf4bed73b563412355a8c4608cd7e7afdeaa7a7
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xe0 sha256:cf85efbfb1a454c58142d3f0fc57df309dac2a636f552a8528e392331a80fb73
+-  __DATA_CONST.__objc_classlist: 0x30 sha256:605d964c1e62ae4d26ce94ca2340fd8be91fa165bd4c9cfec40d51ee2fb8db44
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:bab22efd218006601cab716b5f8914834d4fa7b8b2623cc60f0368d3203b774f
++  __DATA_CONST.__const: 0xe0 sha256:8a31dce6aa8abad9afa3fbd71f9fc69698928d7bfe311bf0b9f2abfc43dfec63
++  __DATA_CONST.__objc_classlist: 0x30 sha256:af93f4f5f48d5f2bcf3b51daec0bbd96123ad571a190ecee976bc66665ff1793
++  __DATA_CONST.__objc_protolist: 0x20 sha256:f6ed5d5836281ccf65ed40cd4f33772163cabcd6182599371f937437d3974984
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x240 sha256:5fe3cd20c3b7e25e1aeab08e58148d5a1dc063b692c7d866cd1c7f3100f869b7
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:ae5615a0f33e5fce7a2a0ee6516805a8723e176a61c29879354cac1afd018697
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:50eb95a38b06a4729bef0aff6b98fe4c6063a723308995cde5f54b7b7b1df06c
+-  __DATA_CONST.__got: 0xd8 sha256:9f111ecbbaeee49d877f88677e0a18f8233fc4d2e053a37ec0e1962d5611a0fa
+-  __AUTH_CONST.__cfstring: 0x80 sha256:152f4eb20a7593370979bf0ad15e436ced0e5e9db70543163664a512d528151f
+-  __AUTH_CONST.__objc_const: 0x648 sha256:c941b365512db9569d4e07caba33a4dc088b56f07c84028a2182bf6be0315173
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:14d0bde573fad0c5daa78bc8c3388d21860160912b318a58f567b6affc833ed4
++  __DATA_CONST.__objc_selrefs: 0x240 sha256:f41a451ef80e6d9ed8aacb9f16848d34b86a671add48aaf794556a5dc9a52c2f
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:5145ca081f0dcc2596a011591b6b6cf5fc79bb9a44b4ae43f4018e324ae3093e
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:6a9eca1c991ee7ceb0802b4fac3778e0625c8c741ba1e2cffe9e74b951747927
++  __DATA_CONST.__got: 0xd8 sha256:0691aa75749bc4bbc9d296f700fba1640750853b1163b420b052f743cbe71656
++  __AUTH_CONST.__cfstring: 0x80 sha256:8126beaac7082187ce032898d0469cc522e873d36a4b3fcbea1c208ef1ee53a2
++  __AUTH_CONST.__objc_const: 0x648 sha256:5af4bcaa70bfd439d7b66575562496358a7d8cb66f7cdb5e516427013e0dc6b1
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:e8f3d6a3b934930404d5228677bcc1c4f834987327519ea2206cf1db58b2077b
+   __AUTH_CONST.__auth_got: 0x1f0 sha256:882993b55cc0c527f0a6059b69b3faf4ef3ccb9cecd3d8847ca0e49a1444debe
+-  __AUTH.__objc_data: 0x1f8 sha256:0cd3e70c4d77f7b590d66952ed9978aa132289a27b686d66f87734df6c3da957
+-  __AUTH.__data: 0xc0 sha256:2bb1cf3acf294b142414f371b4c9d58eb70cfd53b89d512ed742a34e553f696d
++  __AUTH.__objc_data: 0x1f8 sha256:a09ab0d69ca0601183995e75d30e365c57dae8444dcbb8078206888599870847
++  __AUTH.__data: 0xc0 sha256:ef19fbd5227719d0973fd68ab6361fae591aa680941cf278a1ae6009cc7a62b6
+   __DATA.__objc_ivar: 0x2c sha256:2cc54995e2aff35e09dc3bf86c90c76d1ee2e3fca730fc05b2a72f0e38c82979
+-  __DATA.__data: 0x128 sha256:89028bef1474e0aefb655e2a2258c5c7416f44326dbf470489d11b64d97a24b8
++  __DATA.__data: 0x128 sha256:6cbac6fd084e4f2e49a26b004872a2d3a485624372d567cdde64e2ca0cc96a6c
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CA504391-FAF8-3A18-9CB8-A4E6B18CAC1D
++  UUID: B7857A04-8E93-3B9D-A939-8ACEBEE8F6D9
+   Functions: 44
+   Symbols:   276
+   CStrings:  24
+Functions:
+~ -[HKRPWatchAppInstaller init] : sha256 a80443238d1c576ffa94f3b54cd87980cadcb5ef9bf505ddd52ed76bb361c51c -> 9b47f3d43d067c3dd0e7266c6dc91878775cc2fa98fc94be15bc6047de80fcd8
+~ -[HKRPWatchAppInstaller initWithDevice:watchAppAvailability:installAppsProviding:] : sha256 1caed4d1889ba0f2dd76283bcd046d285de63b3c332bdb4710e8ef4f07626a88 -> b2ac6189d765cbcab494819fd09ba42e189fd9d14950601d2a1e06c6cfa26bfd
+~ -[HKRPWatchAppInstaller checkIfAppCanBeInstalledWithCompletion:] : sha256 5adf0a87bc50aeec956a49b4705be5168cacfcfc4fa6ba61963803fc236c6649 -> 66ac432070dcd6210013c03fa6ab9e55bf9e924d8a5c4612a8001bb9feb0d3f6
+~ ___64-[HKRPWatchAppInstaller checkIfAppCanBeInstalledWithCompletion:]_block_invoke : sha256 d271c6be2ff528be56dac922806dc8394fd94249cb44882be186fffce19f0167 -> 7dd9b663681b082bd8b9feca027b0cc823d0c521c91de73dbb8228a3d1ab798f
+~ -[HKRPWatchAppInstaller installAppWithCompletion:] : sha256 729dee63da8c14615a9a897259f40ef453c2e1023da55b5ae0cbf4251a28de41 -> a10004f6fb6403343c8257fd597eda4a6c3f34b069809825d106f52ac56e7499
+~ ___50-[HKRPWatchAppInstaller installAppWithCompletion:]_block_invoke : sha256 7af1612bfd435a93f759884e29b0259fe79be3ec59432c9aa41839e5dc948e83 -> 29c11223fbb19896a455f4a9a354ca84bcf4f26f62a1b9cd4ab709c8f4674933
+~ -[HKRPWatchAppInstaller .cxx_destruct] : sha256 f63d13b95243ca3d3ce0e025f9ee758e80a05b0c9fea3aa6b122f8e869950743 -> 5589af6af802856d922f8d8f82b0d3e704c60d50721f2e3201827f714c0d144d
+~ -[_HKRPDefaultWatchAppsInstallProvider installApp:onPairedDevice:withCompletionHandler:] : sha256 db7a4a8e5c93c8eea25eff25688206041cd7077fc97a044a05058945dbd890a5 -> 94bf99e5307fede4b754a184a6e1a78d1f78c9f94534fa22cf6d9ea26ab6160f
+~ _OUTLINED_FUNCTION_0 : sha256 8d701429c1c60bdba915479aa94c3b2b4e70d65a9b8cddf89844fff83e771728 -> 9d418699ca5657244fbfef1b9c103736207d7c2122d31710b9f02d7679e2065a
+~ -[RespiratoryHealthHeroCountdownLabel initWithFrame:] : sha256 c17fe574c3487d2a62e9f5179e7b947a26bb62e69c918c7e3c21216d962f96f8 -> 0967ff028ef6342dad39f9342f2c32ca0d8459be635cc5191fdb948863eb8ef8
+~ -[RespiratoryHealthHeroCountdownLabel setScaleFactor:] : sha256 8101a3e9ca4c8a4bf3ae626f3848d5437688748b97812ff427498160c0d81b3b -> 6b53246557c7e1a8ce39dff48297edc6df47dffd298e7e940e47c5fd133e9742
+~ -[RespiratoryHealthHeroCountdownLabel countdownStringForScaleFactor:] : sha256 3a75ed6554a1203e232282d88189dac4947c2e63bec25ba2593c54ef500d7efc -> b5964aafe36f897036a48de9a4de6422c7f6fbaa5d3488758f113150f080d523
+~ -[RespiratoryHealthHeroCountdownLabel _makeValueLabelFontWithSize:] : sha256 1be5d4fddd507ea46cccb028b7154b6ab68cd4c47d7f575313d17357abac09da -> 9765068975473eb8d2749b90651cbf88fcf8bcf59a236a902c4ac3997cfeece4
+~ -[RespiratoryHealthHeroCountdownLabel _makeUnitLabelFontWithSize:] : sha256 67900ee651d352d54be71bb576c905df39430a2a416cefec13daeca2ecfb52ee -> 6906038ab4ac44d849071f776c2103af39da8a38b036d0bcef954833aa7695c6
+~ -[RespiratoryHealthHeroView init] : sha256 d21fd5de0743beebd7fac3761c853b0dce482d88546efa7f1d3093e982e8bca5 -> b0bbf076a46daa666f1bbf06e2828ff9bac1b55e4c3844c1e9b264826498c46b
+~ -[RespiratoryHealthHeroView intrinsicContentSize] : sha256 0a63edf8b3bacac2d87f6c69259f4c8cc4e7624f7e373475c92703d383d07260 -> 7df89997422390ac1589e5e5e85fa01d0ebcfbf8491e09f6b3191865d93c9e80
+~ -[RespiratoryHealthHeroView setPreferredWidth:] : sha256 edac28a39b9483f5f6e9bdb2511391475b9e6dcc8f9daac596df1fe66adbcf06 -> 940887b435d63486ed31caab033ecd6ae95a66f7f2ed24a97f8b11834bc1d2b1
+~ -[RespiratoryHealthHeroView _updateHeroUIWithScaleFactor:] : sha256 c73c891445f624fab788da7bdcb35633d3d773ad37a190da1f937c64de6710fc -> 1289348e8a2ba8f0c5e47257ca6f35fe67e8345f909a72f174d676d55595d9c6
+~ -[RespiratoryHealthHeroView preferredWidth] : sha256 ae8f510e6d6bab9cd23ce7c7cf784e4de6953093896fb7b3514e70ce1c78b6db -> 5879f8b831ccf63041b6d5c146b14e8a350511577d37678d69c82277229ef24d
+~ -[RespiratoryHealthHeroView .cxx_destruct] : sha256 c0d2c2a897694da1e812f863f856002d29192ee0494234e527801a3d90726449 -> 17f6308c55336aefacd29f1506f38990f5c1365c923b75ff0b0a8946bfcd7d8c
+~ sub_296231a58 -> sub_2975fda58 : sha256 431c5726902f8e156d7178afcfe0b5187d932f1e5e4ab7f282fe226570910501 -> 4d979f2894dc66d67b4a6bd436c575664dd040db6614c9cfb06a613144354c4e
+~ sub_296231a98 -> sub_2975fda98 : sha256 1bfc2c88d8460a91a5e011560bb1fa0061ec13fd56b7a2cbd9bb87b2ce0c36b3 -> 27a69e3d584f6b1b61dea909325fad457b6a2c1783eabb8b48fb38b52f7d0c68
+~ sub_296231ac8 -> sub_2975fdac8 : sha256 cb4f7f740633fe2645eb63c2ade2fc1a880231e3bfca9ca683ba7e50b49ccff7 -> f8e7747fa6574ec7914766d01942512db979c8cfc5271ecec4600214dfffa296
+~ sub_296231b78 -> sub_2975fdb78 : sha256 ded091fce408eaf02830e38a728078980133b390dd19bf17e08fe71b0d2c16fc -> 06b9272013820196a7c0fe53b097e303a1a7347670828a5e0f29a89c71f9d348
+~ sub_296231c20 -> sub_2975fdc20 : sha256 07e037bb1cd5917e5b0a6ac17b69034b58ecadace346ed13d4877968e20565e1 -> c82d0a01afa236ed5b3d751b4a42fbe69c61cbb455f5f585bb7e19a383c8e608
+~ sub_296231c48 -> sub_2975fdc48 : sha256 a910a8f657beea46a5f46541302ca592699cae01c7adcd82d6c753d9e29fe996 -> d59e3d56636834ef54f91331b7085b0ef8f994702d1d8dad411e1e154f3a4a42
+~ sub_296231cf4 -> sub_2975fdcf4 : sha256 52841d57af27cb467e18f0d86757de770da08c8d4320e599fa6c809a7e68f48e -> 429d09e3f35586383f3f071793ddf92a4bf31b5f88d7bf05eb4ba2baf236f8b4
+~ sub_296231d54 -> sub_2975fdd54 : sha256 ef3d57d7c2aeb3bcf486b1a8697691252e1569c208ac0baf9608786d76ca30a1 -> fcfb6394a4d84089ace51625817b3a9ccac15529f55699c65ea82daca37adcce
+~ sub_296231de0 -> sub_2975fdde0 : sha256 c1ecd2d2f7a01ea7641ec9c973dd0639498ae3b824671871dba595f8611d837b -> 339fc5c748d66289196c9ba80129b2b9554d3a5922c0090f210032dc9ad03cc3
+~ sub_296231e1c -> sub_2975fde1c : sha256 467c9a238104b5b7252154ce131543106043d5b6e1f81fcaf0bcf31a0f0074cb -> eea45cd75f5d8820f9622b730ad6138a9327979041f97588d388922ba436208f
+~ sub_2962320b4 -> sub_2975fe0b4 : sha256 2cb608518e0fa7c8c9c3c84008cb23f4131d8dda672b7aa2ab958660d122db9d -> b243a18710e69511e6d016ada1cf174888937815b08a2c9566f93e2b881f272d
+~ sub_2962320d8 -> sub_2975fe0d8 : sha256 a718a1aee088012bef110b9f412a09ede1b63d269bda0e5d085e2637fcf35967 -> 157246c81e7b2d096eecede92f6bf9774a2f0b2114e782711bf05f09c6e73d11
+~ sub_296232158 -> sub_2975fe158 : sha256 f9d3a7375e7bd0fc9a65c9b6c2baeb883df76b5489e9b0315f41de861173ca84 -> e19df1452c706e35dafb69278f648c6d2f91c16e3928602ff51e7fddd49fa8cf
+~ ___swift_allocate_boxed_opaque_existential_1 : sha256 9f4f996d610a4e54e7d2b317403baec5c20b3bbe43365aa418011bded9e3c391 -> 6e776b2f95e84b56eab309b5e1bbf2fbb6096e3158a86603090cc7f330aa9248
+~ sub_296232210 -> sub_2975fe210 : sha256 197d62f2befaa1f3bae82a5aee66ae2a055bbd31fab55c5cc45aac0f48d93294 -> cfd2babe4a9e0acc073b6bcc4f7e52f26330f04046632e0792572cd15e059ee7
+~ sub_296232220 -> sub_2975fe220 : sha256 0becb1e93beea71dce3c1d402f994e71011a5a3924dd26a9a98e579caef7c635 -> 19927eeaf7ac051267fd1c748a88be5abf8c60a8a3fb397e569dd84497674220
+~ ___64-[HKRPWatchAppInstaller checkIfAppCanBeInstalledWithCompletion:]_block_invoke.cold.1 : sha256 0be23c46519737edd597d5dd9cf08f169f54a17e78554b5e853b8e59750c05d5 -> e85af92685a0c89afcedf3340dfd4dfd28cafb9166acbab4819144f5361ff126
+~ ___50-[HKRPWatchAppInstaller installAppWithCompletion:]_block_invoke.cold.1 : sha256 e65e3dd05c205201ec20a405d54cc168ce3912884e29ff28732b261228d4742e -> 597cc2279a754f29643fe0394e2873ad5c41e48782c8c4606aa278ba9c820a67
+~ sub_2962323ac -> sub_2975fe3ac : sha256 bdc62c32a49a27b742dd016c1975ed1e47bcbc2808cd505bdcaafcfcc0699f94 -> b83ee457af7a3f40c1ea1697e617431eecd65a6026e579e78e377d0fe3d5d4f2
+
+```

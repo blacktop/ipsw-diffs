@@ -1,0 +1,962 @@
+## DADaemonSupport
+
+> `/System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DADaemonSupport.framework/DADaemonSupport`
+
+```diff
+
+-2703.0.0.0.0
+-  __TEXT.__text: 0x37580 sha256:1a3fef68a8f839ac6da85173cccf8a883489d5a4bf652c07044b158462eb48fa
+-  __TEXT.__objc_methlist: 0x25e4 sha256:c75998c0fd974f8bb4e5d20a3eb30f2c5159970c55a5d82fd00bb05af1e07c0e
++2704.0.0.0.0
++  __TEXT.__text: 0x373d0 sha256:bcbc68a2490e704ff4e3ddeff68c27e43bc30de08e6990b27f6a004ac0f30edd
++  __TEXT.__objc_methlist: 0x25e4 sha256:6a78af31fc2b74826a5fa2bae24bebf6b730066a114fe654479aecb8e79d897b
+   __TEXT.__const: 0x132 sha256:d37833a6f7dccb7728e5af7df5b61e8524264aefcd3007530fd0d19ec794799d
+-  __TEXT.__gcc_except_tab: 0x74c sha256:231e93abb300557e551103053cfb901940b8ac5da343e8303ddc97b4cd4c303c
++  __TEXT.__gcc_except_tab: 0x74c sha256:27961b3ff508f64eb473fe06fb5f2870575c17b36a68cb75bc7d94b8d6e92e72
+   __TEXT.__oslogstring: 0x65b8 sha256:ed8735404217e94152e857d158f3683876c0bfc3d67d544e024b3039d6cc200b
+   __TEXT.__cstring: 0x1444 sha256:3d041c1e6fbd9720712c33c5da64e8fc9b57f793840272b0af7b62f0976edaac
+-  __TEXT.__unwind_info: 0xb68 sha256:c3b691bc06f11e0f76aa59e231ea5856aed3559a718ef296cc8f37fd84eb7f1e
++  __TEXT.__unwind_info: 0xb68 sha256:a1aca68cd01b52bc58038b314b731c1b2f365893fb6de796a139c24ec918c3b6
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x8f0 sha256:764ced7a02e210a733846267f9ee1a7579aa088d23e0132251e822925257f4d2
+-  __DATA_CONST.__objc_classlist: 0x108 sha256:ca131cdc88048e3a78d104992a77864f299582b8bf44614f6d9cf403818fac23
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:096c8595dc3d10371a2f8debbaff694136c473e626a83037a471979c26ea752a
+-  __DATA_CONST.__objc_protolist: 0xb8 sha256:a338f2b8cc28846a017f8127cad752917f495a3e183d4b2448ca8525148ca1aa
++  __DATA_CONST.__const: 0x8f0 sha256:22394b0031dcac2b38d1ca9f5c845aaacc782290ff7c40a7edada5a4d5720796
++  __DATA_CONST.__objc_classlist: 0x108 sha256:9eb8d732862d49ae21a6879e3dfa48e8e3fee5c84a3bad84ca1e5e6c459ac8de
++  __DATA_CONST.__objc_catlist: 0x8 sha256:dffc10e158bcf615c36046876ed858c69baa6a26960c5dfa34432e7371f159e7
++  __DATA_CONST.__objc_protolist: 0xb8 sha256:14bbb04149224efc6d8e4413da1c2cc496b76bf859a902c70e3b305ff61fceec
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x2078 sha256:3ee0fa94c4bc64001a3aae79bfaad1ae5ab54c6829945845a301bf531e8411d0
+-  __DATA_CONST.__objc_superrefs: 0xd8 sha256:202dab083555d67d65acfd14e2b32f6b0b4c2223a9e3c6c79b9b0523088ecc0d
+-  __DATA_CONST.__objc_arraydata: 0x18 sha256:807c694a5825977a7a1251b69cce063568605cfe23b98e7a53a182495bdf5410
+-  __DATA_CONST.__got: 0xb50 sha256:dfab76a9b03d70f90c3637f7b37fb3cc780d29e2636a1e3078ab9e4deae334f7
+-  __AUTH_CONST.__const: 0x200 sha256:06262681835563b10887960fb7d1e9520f0f0eb81af916069d8343ee0507b5db
+-  __AUTH_CONST.__cfstring: 0xe80 sha256:eb6ee34cb9aaba9139e4ee9931c67e1637ecf89b4e1eb86a24f284a2eabe9cca
+-  __AUTH_CONST.__objc_const: 0x5ba0 sha256:b70fce9ef69d9c308bdd8bf3f9ed57a3dd7298156c834b9d3fbb145de79a4743
+-  __AUTH_CONST.__objc_intobj: 0xd8 sha256:28be50405803c8570eecfcca7fafbc3eac6bd5fc6e9a83813b4293a806207c09
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:c1b5de6666c1ec67e2bb22293a608c56b946029133b32ea43038de235d0b857e
++  __DATA_CONST.__objc_selrefs: 0x2078 sha256:7739e19c2533fda82ee2fa2f3f7f63954185ffeebda754378aad15df0c9e999c
++  __DATA_CONST.__objc_superrefs: 0xd8 sha256:7518766489c7dabd90e59c690618d751d6b45412aa92c840461789a07138fdf4
++  __DATA_CONST.__objc_arraydata: 0x18 sha256:7c041ea627c97f3454025d1f5c667e029fe4a89bf6052145f0442d9819324d83
++  __DATA_CONST.__got: 0xb50 sha256:ba5b93844a8d35db0d007e91f019a8eb9efde5dc2a930eb92c3549d1166c676d
++  __AUTH_CONST.__const: 0x200 sha256:9f1f9fe2454fb44f7946ef027b3efbeec8d35c649ab62a56527991330ecefd9a
++  __AUTH_CONST.__cfstring: 0xe80 sha256:87b303c3d837fd0d51bb207de484f65f61c1313c05bcee937f565161274ee14f
++  __AUTH_CONST.__objc_const: 0x5ba0 sha256:9c774fd55f33dc95e9bbccdf92c592a0218a8ec2b66660b86f190c05be943a63
++  __AUTH_CONST.__objc_intobj: 0xd8 sha256:9bc4f06454bbab5199927de517ae8dc5a62cac4b9f3e53a9629a1f48a12d3bc9
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:223894e81d3d78a2393e96996f18a44fb5ee1a6e11531c2282e39c59a836d768
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x5a0 sha256:488fcce64e8d655e21bd4ea81105423cc224ed9745c088f262351afe5848b163
++  __AUTH.__objc_data: 0x5a0 sha256:4244aba4b91ba178c20f3ef0ab16074567e2acf0d0b09fcdca787639a88a7fc7
+   __DATA.__objc_ivar: 0x29c sha256:c5918b415e933ee1c423e15cbca6cd831d01ddc72ad235f6cf74f18cc6c38ac1
+-  __DATA.__data: 0x8a8 sha256:2a8cefbc03ce9b2aebb050363dbb4ca2f2d6372c9cfb74dac0b554786321470d
++  __DATA.__data: 0x8a8 sha256:18565cd10c66395bcc956cb54d87b72bc1bb8daf29f79f9346626b2b2058321c
+   __DATA.__bss: 0x6c sha256:77133f431d5e12dd850002c0d3d4e0fecbe3a7a699d604dc8c5eae9976e1d260
+-  __DATA_DIRTY.__objc_data: 0x4b0 sha256:e34ef2e52b03e92415cde22e38c7fad4b60bfb383c82eb97e0b71e9731ebfe53
++  __DATA_DIRTY.__objc_data: 0x4b0 sha256:ebe330becd091f2d260848441e3bd358d543169537d47b8d8a1f4a8711f3787b
+   __DATA_DIRTY.__bss: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+   __DATA_DIRTY.__common: 0x14 sha256:de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90
+   - /AppleInternal/Library/Frameworks/CalDAVServerSimulator.framework/CalDAVServerSimulator
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 3D2EE76E-7FCF-34A0-BBB9-C5600D677B49
++  UUID: 93A04F79-464C-3D69-BD2D-996B1FE5EF3F
+   Functions: 958
+   Symbols:   4097
+   CStrings:  655
+Functions:
+~ -[DAAgent initWithAccount:] : sha256 9f227a4f8d38ecd639f64658adb419de5a09892e0af20085e6cb8223755d13a9 -> 19d66dca568dda7e8d0a557ff5f553c99b06dde2a7ff2b7127cc0483ca92af2d
+~ -[DAAgent trustHandler] : sha256 6cce43f69084e4224123995b628ec9af134d0a72c24f0d68f318577f60c29529 -> 7f5228cfa426b0c128d0c095dea36c1604a741ad64d6d0d0eea5ed1066c1244d
+~ -[DAAgent stateString] : sha256 38de7a6212a31022c17232a1afc31496533cd10be5360b47162c09408ff230d7 -> 23159c4fe99e27de58fc55df9395f0b917365da4eb3c4a22661029fac921455c
+~ -[DAAgent hostToObserveForDAReachability:] : sha256 55aa0865602ae023e2fadad4bf1b0d9e92b26f79fda979904a9792583a4e2aa1 -> 62fd03bc649c8656b51b764b3d755589b504c4a3e153d3a1497c59a8f3bfadfb
+~ -[DAAgent shouldBeMonitoringReachability] : sha256 43e7dbb9fbf2c0a6af989a6f88877faf63cc9affa4adee3370262882a02b9008 -> c1f60066b668c450e1ccd1e2c8b5c78394b4485e836d9e4bef69ebcb5ad07a33
+~ -[DAAgent startOrStopMonitoringReachability:] : sha256 9a1bf6612034323ddd7a90e83d76b7d40d8666ec8ca03ae8c527c719dbfbe10c -> 86ac7b95e58f4a0aeca5ed3e48fd3190f05effed71ca23f20fa794b604d95758
+~ -[DAAgent networkReachable] : sha256 c7239691e48c64cb4023279d82076591e80387fa7824ab9883d1bc072829b557 -> 345d06ffe5d9521ef0e809f06950c5c87a2fdd5605b6860639f0eb45980fb641
+~ ___27-[DAAgent networkReachable]_block_invoke : sha256 44811cd73f674359dafa7cd82ee0140f5612b6976086f8d735732b275e6b6ee5 -> c5ff3816c5a363a29ef8e3a8ce7fdacf66b43b47e90bafd5845feda129ea01d4
+~ -[DAAgent _scheduleDelayedReachabilityCallback:block:] : sha256 67d8eee233ad3663ee9c4c9d87dc49f6b8e190da4e61eb6098eedd9d4d9a7467 -> c5b4291aa79be9ed35130b16c9d34f541d3eb0c4dd21b432bb70cf727f82b3e9
+~ -[DAAgent observeReachabilityWithBlock:] : sha256 e012d196e9eb4f606c1f35daff2cbfd195b4a7a09936319bfd531631980485b4 -> e10392fd17b21932f812a1349eaa01a0770f38638a8b471460ae68661a81f2b6
+~ -[DAAgent stopObservingReachability] : sha256 48be7ab77ff948323ce95f67bf39218a5a591fd3c2ae31888ce770a92f6b42a0 -> dd1024cb77d43cbc4675adc7ffe71efd1d90fa6d75f88e27ac193011557f15d5
+~ -[DAAgent setNetworkReachableBlock:] : sha256 cb2009db6d512b27a9bfb64e8e0095e6febd2a91d7f0e1ccab3773e387041d8e -> 4b62677603dcee29ac37b31cad5fda50455c729c712976bdbae11ac63ace864f
+~ -[DAAgent setSyncWhenReachable:] : sha256 d3d846be3a2c8322d49588905115dfbceeed0286ab7b1866b2f4301fa99ed0cf -> 057f954be777f0f04ff6e3af27e867b813db2405571683d665e6798bbd473cba
+~ -[DAAgent setDelayingReachabilityCallback:] : sha256 1ce4424bfc0e107ac4f3cd22164d335b005bb40882a22705e53e91cdc6b97031 -> ad61168a366192e9933aef96e474f7312d1e75bc1b5cc578df21b2e2707f7364
+~ -[DAAgent startMonitoring] : sha256 b507da3dd996e18dcce2b4b3a481704e5c1af049efd80292c58ebe0b57fe7386 -> 4e47e3b0874c72b2dca3f04ea74dec6550725d2881330f2d7b06acabb1e51727
+~ -[DAAgent requestAgentStopMonitoringWithCompletionBlock:] : sha256 0c31b10b5b336504ab340c94063df2cfbaa3aa1f309ccd3ebd4383bfa354bb83 -> a4951c9e3c662e043200d9030b776bcf549050a6f7a68651ea849741c110c7bd
+~ -[DAAgent shutdown] : sha256 ed1142c8d78badde7387b79a6c6721199e6e9da8c6da7d5f64877235eb9b19c5 -> 1ac6db4eccd3ff7999e237d9042423b1e0c5c4b810e7648278bb2842672154ff
+~ -[DAAgent getDAAccount] : sha256 3c114e95cb2cd1428ddff84a3f0fcc812ca9b9e9efa71849efc10f82c5f091e0 -> b3220b27595229d957262e9b87cc898f55582970b217998dfddd3a94c22a4629
+~ -[DAAgent publicDescription] : sha256 d44806faa55a00ecdc41a9de3ea4e7888209a8d558c44e56dc4601e03e6a6926 -> 3dd53eedd191b6cbd70e64cf2b490064ea32d4b5a7995d4662f65674ce1ad911
+~ -[DAAgent redactedDescription] : sha256 f688a138f0001e18486f8eabd91f90201152963a79ab5379110720c082544a15 -> d7a622f1c36bab3ec51f7ef707ed7a534286720c1282d7acf7dc689ebd20e14f
+~ -[DAAgent setAccount:] : sha256 ba6f028adde290b9e1175108fabca2f53ce91a18cef1668c1e5248147b680ef8 -> a95edb101114e314f28a1e2b8ce0b389b1f1449790afc90b23b7825693422757
+~ -[DAAgent .cxx_destruct] : sha256 ca62c4e5e8ef90b3b02fe0f79fac1ec646e53a3fdc300ff92a1429271d78dbcd -> 073222e301ca38bebe634f5033114f198ce3781b4996a204aa6995f1c7620602
+~ -[DAAgent(DARefreshManagerDelegateSupport) saveXpcActivity:] : sha256 4d208e9ef086dd8d8757b5d4ae7fd8ff1a38238d00bd512f9bc0fa238c925b79 -> f501d79f2332a0700ec9340b232c0bcf60025cb5b8888d908791e4539dfe085a
+~ -[DAAccount(DAAgent) agentClass] : sha256 0bfaed0cdf1c71ee989d50dbec169f78120e2e0c1c1f08a5b7872a8c80fd1741 -> 3a7f41d568a28d3a0cf17885969a742c396378f4435cdb5fb30e84567de23934
+~ -[DAAgent(CalendarSupport) preferredEventDaysToSync] : sha256 dd49ee4e4f5f3978f1d3f07bd847832522a755fa8d2d3166f85ee7f868b5cd63 -> 83c18f67971b0bcbe18aeaed7f31cc98b5f5a8ccb8720173ccc548ec678f839b
+~ -[DAAgent(CalendarSupport) preferredToDoDaysToSync] : sha256 c42efe48a993e44947cb7d6d56e44909a1f1fffb8f7f9d2d385e1205411b41e1 -> 8848bd4cf02d1764aa3c444229494f9a4860a50697d360560f2f694bb8d54657
+~ -[DADAccessManager _setupServerConnection] : sha256 f39d4905c43fc5ee9a642d01cc9cea6ec5100ea4012d233fd1b68660c0038e5d -> 4b625cd0420a4f724c07913cb3ca24ad25bb53714653cd2f31cd170b3106d3e0
+~ ___42-[DADAccessManager _setupServerConnection]_block_invoke : 2072 -> 2068
+~ -[DADAccessManager init] : sha256 9f180ef1d1290557eb7db4f55ba890bbfc81bdb576793019fd60f985547e966a -> cf07af9189fe3eaefe0844f808520092f17d091635059966eb16eaaabd0c7a1f
+~ -[DADAccessManager _init] : sha256 b1611ad6985bdc4ed50c3c91c1dc20a35b96d37a76fb46860a5c4e5d5f9ea7b6 -> 215435df1169c4657e691f7920236a6e20d96970b333e36ebccb4fee4526b750
+~ +[DADAccessManager sharedManager] : sha256 5faa338fbc1e3bf13eea90a4d1c0918f747ea7fcac8011259efa5b6c531fce94 -> 1ccf277fb9795c02e8fbdfb9dd0569fd0c99c1b709eff7100ee48eba08a8b91c
+~ -[DADAccessManager dealloc] : sha256 e93f70b9d6eafd4ab7f9e67c8b61306a2e4856c32ac64527978dbcb66d4c9036 -> 4ca599bfcca7a521925ddf7836d6da6bcce3ad02a69af7fbdfd8b6a6cb4f9e3d
+~ -[DADAccessManager removeClient:] : sha256 9c414e8744501d12317a0f151ac4d81aa815c5497cddc2645cf4f369534229be -> 28df40a8595f9079b14128b1068ce7c39383794be3612b32400133e163e5eaba
+~ -[DADAccessManager addPersistentClientWithAccountID:clientID:watchedIDs:] : 688 -> 684
+~ -[DADAccessManager isAccountID:folderID:watchedByClientBesides:] : 468 -> 464
+~ -[DADAccessManager stateString] : 444 -> 440
+~ -[DADAccessManager mainConnection] : sha256 da1dd078f2425b87628e4f022c08f966d0e2942bb51e5fa0c88645975533d378 -> 2041c6de5adb22efb680bb232fe753dce9196011a1d6f7db123dce483fb6416d
+~ -[DADAccessManager setMainConnection:] : sha256 74886534f5fe4f7ef282780c9fb550294813196d02d4f37f89115538904ba012 -> 0c1798e81b6d3a12d1d4bbb29ad7d0c5f57312af7bbc35d7b9be47ab59c85816
+~ -[DADAccessManager clients] : sha256 5dd82654a58cbf66b32132ae641614b96b35a076f7eacea70fa94bccae9fd24c -> ac4685de9d9b721b7ce5f564edaafa6dc2ac81396eb58b3f260ce730f90947aa
+~ -[DADAccessManager setClients:] : sha256 e6edd4c4a1fefd342b2a8fd0f62684d0ee0cba7863b054feb923f8fca8454a2c -> a6819db45fa9942fb9a9206d3effb1a5f75ac053a0e9658e2c6d4ad1db4b6ef0
+~ -[DADAccessManager .cxx_destruct] : sha256 11b8e15492beaca3b92d43241bba44f3546652bd170e3c84f119994e2b50a0d6 -> c9fc53008e2d38620225129513bd93adb4d61baf79bbf99e1a27c86480dbe68d
+~ +[DADaemonPowerAssertionManager _getWiFiClientRef] : sha256 8c26a4eb7ab8795a43a7ab01384f041246ca10c20a3dee086ca6d4221687d5d8 -> d594fc98f8b424fab6677a75d54e2de98fad1d9002a0b75d461f09018a3e5942
+~ -[DADaemonPowerAssertionManager _retainAssertionForContext:] : sha256 065b2e919ba7a347cd8242aa72afa6d5e47932dc1bcbe292dfdcb1469f163700 -> 48a29e6a5331b8ef65992232d7d93189160d1d6d9eaed75f2d90f4cbbadb9ff9
+~ -[DADaemonPowerAssertionManager _releaseAssertionForContext:] : sha256 d8c4c8752b0cffa7ec95c4bcca797001f0fa4a11b7eacb2b771a3a8d07e38cbb -> b4e12e9e639e77a429160ab20fdc2f1406a69f35b940bae09ade53303b43d99d
+~ -[DADClientGrantedDelegatesListResponseDelegate performRequest] : sha256 4af008273c5e835595d93a3e3d4eaa0c96d3a5d828f7fb187dafbb0d3ac9a7fc -> 6dcba619ab1b309146e360e5494f70bb8423b28b1903fecc37a658e84cc1f27f
+~ -[DADClientGrantedDelegatesListResponseDelegate grantedDelegatesListRequestFinishedWithResults:error:] : sha256 814cb1bae84d6a9f31ef6a3e5593fba1f7714a211baea7971d9ff69f4d33a0e6 -> b7f6ea09f8c8d9aeb80ee41282c4123713c956e8cc878323124da762696daa41
+~ -[DADClientGrantedDelegatesListResponseDelegate finishWithError:] : sha256 9eb4ac371456b1cbf5ac622a2a3d36cef6c107160eaee9ffa0bd88419cd7179c -> 6125da86f9a154d5d9347564d9cf1b54642190eae9df56021a0bb302907730ca
+~ -[DADClientGrantedDelegatesListResponseDelegate .cxx_destruct] : sha256 1530d7c1fa9ccade820ff06972020beb7d247c48f614d1b8f18f30b60a650dac -> 9cee64af02edd40acf747846e8c516d8aa3c566195f7db365f7ee441da367a47
+~ -[_DAChangeHistoryABLegacyClerk initWithAddressBook:] : sha256 f3dbdaf0c69fa97f077e48e96761660036fff78d6bf57fd207f3ad9475b317e7 -> 8606d509f241b3b590b741f5dee93f96029ae44e32c408894d2a0043eefda2fa
+~ -[_DAChangeHistoryABLegacyClerk dealloc] : sha256 64dca6f7c2a167f99dbbf6b97dce1fbe4d9afbd5c3a5e28b42bb0d58fa58b6ee -> f1bef639c19c07f59eeba161a49ee1ed57853cc0f0f2addc0e61a9f26492bb88
+~ -[_DAChangeHistoryABLegacyClerk unregisterClientWithIdentifier:forContainer:] : sha256 e6567830991851247b63c5e532be953874fbe941d51989fdec55cec252be3f51 -> 358d6d19b15595877056ccff4910f5adeb3499edeb145777d71f922ba742de05
+~ -[_DAChangeHistoryABLegacyClerk registerClientWithIdentifier:forContainer:] : sha256 ba595d9364f8368e5578d0a19c93b6cc99d93ba9fcebd591e1ca06139c8f326b -> 30c14d630127384090753a3d94a11fed3c199ef86796e5a89f71a25b5199ecdf
+~ -[_DAChangeHistoryABLegacyClerk identifiersOfAllRegisterdClients] : sha256 a1db7f2222dc3b5afce06e37decd28a9f70301ef92797fd450362672f927b124 -> abb38011638858fd8c3fae177e3bcef1dbfe0c0e3967f7def1823b50d123a949
+~ -[_DAChangeHistoryABLegacyClerk addressBook] : sha256 b427a83699c73bb755ce680f41e4b601d632f840356ea906b7f77bef2abb3426 -> 7317849106418431ae7485b0c96bca90060b5d592dfe99b599ce7c80d72e368d
+~ +[DADAgentManager sharedManager] : sha256 280bca33274c9066251b7e6b9e10a65a4e383432a42ef648b0ecfab1fe420e68 -> bdf2265ca49fa861d1cb02c09d48de7eb67c7307d72000b76067543a64708300
+~ ___32+[DADAgentManager sharedManager]_block_invoke : sha256 da09d9520e5aac89ff3a54ddf21a757d609713753fccc1fad1dcdc06e7593a40 -> 2167677709d54ead4577dd89707c504046a444ca0be999d498c2063bc17bd286
+~ -[DADAgentManager init] : sha256 0a9afb15a7e648951e6f2e920cd74bfdabd37a748cf931183162c4c594df8685 -> 3cd6cde06d868edfda5172e52d3932973528a36d2d1f6e86491021853c0168f9
+~ __devicePowerChanged : sha256 2a1af105f82db95b62068e8e733ce0a39b64ccc919db341fb8cdd02c78efa69d -> b0449a5074d4eed51d0aafe38ca9a206c7b0d9e30546e420b628f6c302b976f5
+~ -[DADAgentManager dealloc] : sha256 8b4c01fa170a7e06f6032e9711ed222c88763aeda0bc983aa8d61e4e3367e7df -> 02355dcd017d11bfe860d94cd83b4cf1ae2eef094d1c89ee40a61b079d34d755
+~ -[DADAgentManager activeAgents] : sha256 1bc369a993099cbf1368099ed68e20a1e8e2790f4deb8086d28e775394caef24 -> d3820e1db35a201db0f4bd6c7005fbe100374ea4582cbc399dc9daeb67c10d36
+~ ___Block_byref_object_dispose_ : sha256 58f54c7adada9d735f3eeb2b865c49a7bc79b2b5eab5560126d577e03355bd2f -> 1c97314f134fdb4017c2286b7a9f8d76c55e3398bb365467a95df4746d4547cf
+~ ___31-[DADAgentManager activeAgents]_block_invoke : sha256 576343c83ac735079e3bd3abf1e37834e22ef165fb6d48fd2ffe7e507405c475 -> f5ec9f1b22d1ca0db2ec856cb892ba80dc3ce44ed88f04f2dc55a131c02a8a28
+~ -[DADAgentManager accountsProviderWithDBHelper:] : sha256 d25de018b6de555dc77d75d654cac0d5177a36df3167941612e413ef14b23396 -> 9a6679c56a1e4083c8ebf1706f6c1d67580564a7b499833c495e8d1c1493d0e1
+~ -[DADAgentManager containerProviderWithDBHelper:] : sha256 174c19ab3d93fcf846b02821f7c7491be7958de02ede72deb5ed565460bd0f87 -> 04d33815d167f74a8cd393833ed04a3a4f6979693a03e8f3e085c7eb2beff805
+~ -[DADAgentManager changeHistoryClerkWithDBHelper:] : sha256 069c5e81e8849e60ec2853e9fe8a1cdf51c301d0ad2775cc396ac3483d744c5a -> 57566d7aaa047870112810b93ee83ba8aa78e98bce42e31f226ee0503b45975b
+~ -[DADAgentManager agentWithAccountID:] : 372 -> 368
+~ -[DADAgentManager accountWithAccountID:] : 388 -> 384
+~ -[DADAgentManager accountWithAccountID:andClassName:] : 432 -> 428
+~ -[DADAgentManager _configFileForAgent:] : sha256 042ac1a0edf12ca995bcae14f509c8203f371859f982da3501b7d9ccc723f218 -> 6ccd2379d44b3a010bc3625c916db1f0213e5187343963b8ebe08f094fc33619
+~ -[DADAgentManager loadAgents] : 2276 -> 2268
+~ ___29-[DADAgentManager loadAgents]_block_invoke : sha256 7c8868dab57be1af9f7adf926bf84905edc0bdfa438cf69398e571647356f704 -> 9b6ef36e5776deeeb031b54b93a45055a598ac6eb2ae38a5befa39bc0f3dd8f7
+~ ___29-[DADAgentManager loadAgents]_block_invoke.36 : sha256 5fd1274b71d58d0b38c2f1080210688f5617795376394d105fa0cb58862a4e02 -> b8175682d091f66b48e400090989622c0408185ca76b33210ee603a702dfa10e
+~ -[DADAgentManager releaseAgents] : 328 -> 324
+~ ___32-[DADAgentManager releaseAgents]_block_invoke : sha256 971ffb628b35b04de7ed68f3fca22cc78f6aa57b1ff3cc2bf6cc0c20c4dc1899 -> 2ae0541daf8932e8b20b2af0a6b787da23ff16245fba60f9af3dee779eeeb130
+~ -[DADAgentManager _deviceWillSleep] : 416 -> 412
+~ -[DADAgentManager _deviceDidWake] : 256 -> 252
+~ -[DADAgentManager currentPolicyKeyForAccount:] : sha256 5fb4b4afa486cdd592985e383ad34294ee62e312666b62d5d397bc5b660517a8 -> 022d613ba8511a4266310488597cf260a89d0d952622fcb3c05b6b66a722d558
+~ -[DADAgentManager requestPolicyUpdateForAccount:] : sha256 644d71059410727e3bf7ddc34b9d5991ffd92bda623a388be0aa746a148cc0ab -> dce30a364f58901966459cdcc5f0164b6645f5210f0338017a3bfe7d08b80106
+~ -[DADAgentManager startMonitoringAccountID:folderIDs:] : 636 -> 632
+~ -[DADAgentManager stopMonitoringAccountID:folderIDs:] : 520 -> 516
+~ -[DADAgentManager suspendMonitoringAccountID:folderIDs:] : 520 -> 516
+~ -[DADAgentManager resumeMonitoringAccountID:folderIDs:] : 520 -> 516
+~ -[DADAgentManager addPersistMonitoringAccountID:folderIDs:clientID:] : sha256 82faeaec2f7fda5b3091b9f4c059450156bce17cee05f6a4760fd2ce95195104 -> 6612fbad46b8c51ac98bb498c0fdf0930fd5010544ad1f7cc0a5c35beca52837
+~ -[DADAgentManager removePersistMonitoringAccountID:folderIDs:clientID:] : sha256 9f108a70e3f8ae509803b1d7b874e7e882210434305c85c685104ffafb451c54 -> 0900c810b161a3e33de4bfb444c5d17ccfa0be78813418253b55149287dfbc71
+~ -[DADAgentManager clearPersistMonitoringAccountID:clientID:] : sha256 53e27a71d0033b20768f7ea309c8f7b60450f2a38d79e0bfc7e1a56a256a4786 -> ad22fa7145cae5c53a7a148bbf814a347cebe40ec16fb790a0f7110f227ec582
+~ -[DADAgentManager _clearOrphanedStoresInCalendarDatabase:eventAccountIds:] : 1052 -> 1048
+~ -[DADAgentManager _clearOrphanedSubscribedCalendars:eventAccountIds:] : 1036 -> 1024
+~ -[DADAgentManager appleAccountsMatchingClass:errror:] : 528 -> 524
+~ -[DADAgentManager _clearOrphanedStoresAndTrafficLogFiles] : 7064 -> 7032
+~ -[DADAgentManager _cleanOrphanedTrafficLogFilesWithCurrentEventAccountIdentifiers:] : 912 -> 908
+~ -[DADAgentManager _cleanUpOrphanedLogIfNeeded:] : sha256 890913fc39f0dbf860d0ec9abc7b6708c24eb0ced1e0c91bbbdb162f2b921ff4 -> 35b9ee8ccafc25f77c48e5a241ece06c68fcdc39ac2dddeb1d73d8efe7dad93a
+~ -[DADAgentManager _systemMayNowBeReady] : sha256 7148d3598bb21564fcaa27be2845ade81d985f55855898bcbd38618f913d6ba7 -> ce9ad1f1abdbbc3b814c9a3558a7792954e3cf68de5db3b530f1969dfd14e836
+~ -[DADAgentManager _resetMonitoringRequestsAndLoadAgents] : sha256 88776a4984ca4667d269fe2a80c475e99bc21288013b54122119327290d9d4a9 -> 5b9b31e91d5b7540e05d26305f3bf5bc65b8cea997390f4877c20f41ff65a9e1
+~ -[DADAgentManager _calDaysToSyncDidChange] : 580 -> 576
+~ ___42-[DADAgentManager _calDaysToSyncDidChange]_block_invoke : sha256 916678c204715a9cfa32763cf94398f1febb1583fc598a61fcad3c1a78e75857 -> 634de95c8853af12c0fa513ac31ac17938eb70defafaec96a4bb29bd9e07284d
+~ -[DADAgentManager _registerForCTDataUsageNotificaiton] : sha256 a1c4b8157d97d7c8db1d71a0b2c4a0117e2be6a1c31f905d9c82430673228048 -> c05ba0039ac11800d4656186f9b6f9fc085d695a64be1108fdca6a8eb06bdc76
+~ ___54-[DADAgentManager _registerForCTDataUsageNotificaiton]_block_invoke : sha256 06dc7a780739a37b4fbbf6b3d1afc3a542d70fdd7bff318f0833906b9975bbaa -> 77cd2493ddc941687579f2f01f704de2b38597f2a92a6e026732549925ed7dba
+~ ___54-[DADAgentManager _registerForCTDataUsageNotificaiton]_block_invoke_2 : sha256 a6ce4bc3739cd974ff7f986a2f9d0f07ed4834c6eed7c69c1a61a3cf436e0d20 -> 3a961691334c5ec34cc8907ef1a6c866dfc1bf54ebee9a1fb259107ca34752b9
+~ -[DADAgentManager _handleCellularDataUsageChangedNotification] : 1380 -> 1368
+~ +[DADAgentManager wirelessPolicy:isMorePermissiveThanPolicy:] : sha256 87c85f8631fc4504de48fca38c5896970fc4f05924668e9f94e7c98434a31211 -> ea5e9eea48aad30202e0c64bd94b366d746e92988fa421449412a6f7b6278d3b
+~ -[DADAgentManager _loadAndStartMonitoringAgents] : sha256 5356113a9c5615919b8909611d57fe563a377cf2db7f11b688818e44b2b4e6cf -> 070e80a0a1784fbd993efb95af2a317f4705817a94b2f9328836e12bef6816d9
+~ ___48-[DADAgentManager _loadAndStartMonitoringAgents]_block_invoke : 832 -> 828
+~ ___48-[DADAgentManager _loadAndStartMonitoringAgents]_block_invoke.91 : sha256 92f60618904f48482ac85ee11feb686fd0312e458981368c2a5c2dcb0e50c445 -> fedb8d8235ef9500b18d9a4accb45e5c1a804e983e88fb845c6cd05cd406916d
+~ -[DADAgentManager registerForBuddy] : sha256 3ea3384105335b40f4806e82decd932633d6b17e3b8be1edad8722398926874b -> b2f61e9172b0872a196686e7c6ca47ebccd9d5ee1207132c59387eccef410c26
+~ -[DADAgentManager _stopMonitoringAndSaveAgents] : 1216 -> 1212
+~ ___47-[DADAgentManager _stopMonitoringAndSaveAgents]_block_invoke : sha256 b7fe5816595e430227c157eb827b4f149849e02c1b0a453e0968875f7f048910 -> 534e0c9d5f462028d5818136a8d311c1a746c457b316cea1a3fe7b8049e45121
+~ -[DADAgentManager _sendAccountAnalytics] : 380 -> 376
+~ -[DADAgentManager enableMonitoringAgentsWithToken:] : sha256 4f1b64809f0649794059a8efc8f62486b7212dcffee0cd377cf1c2c59a4426b3 -> 39328dd26646b38142a1c6233100fbadc58cd424ca79a077d53a6e774c306427
+~ -[DADAgentManager disableMonitoringAgents] : sha256 2a69d881ff073f8395a454d631bc48a78899ede06b26e4783b9bd631be45814c -> 9f1db011c7f98b09e51cf77a63f74cdb4afadb65d60d6b16c5846c39d2a4707e
+~ -[DADAgentManager scheduleAgentStartOrStopBlock:] : sha256 f509e1e2accfbabc9c291658a8fcd657fe477a9923dc646cee9d1beb098a584b -> 7e96ca5b0f1f31a9bf1f02f372738bdd3d97299407001feb335cbcf3665d64b4
+~ -[DADAgentManager enqueueDisableMonitoringAgents:] : sha256 b4a988bc16645bcffd778b9dde3e7742c6d71b0f42edbd52e06f7f4ad9c7745d -> 314f7eb34ac19c6f32b80f87409710c8d233407447913090822943d0ac89dbc3
+~ -[DADAgentManager enqueueEnableMonitoringAgents:completion:] : sha256 035f1988f41fd6a308d335c21a6c7b98c23342d0a1fdeb255c8f2c72e3a39256 -> b5620ed1ef6ccf7fa6787be8878c34425a8ad92382f90af28a73800530633f90
+~ -[DADAgentManager updateFolderListForAccountID:andDataclasses:requireChangedFolders:isUserRequested:] : 332 -> 328
+~ -[DADAgentManager updateContentsOfFolders:forAccountID:andDataclasses:isUserRequested:] : 360 -> 356
+~ -[DADAgentManager updateContentsOfAllFoldersForAccountID:andDataclasses:isUserRequested:] : sha256 e1bbefc23c9c3dadb5dd4948012a6c0fb8ee05bae53bc7c22de62c5286b60a1a -> a922d08275d363f828385b6568442de710cdb4081aaf7ead050f70350d52e463
+~ -[DADAgentManager agentsToSyncForAccountID:] : 528 -> 516
+~ +[DADAgentManager _shouldAccount:syncWhenSyncingParentAccountWithID:] : sha256 80dd0f24f1437a9f998c44652d7c789309c05cb45c337fb7b0319f3f28496689 -> 8356827c99e4b116954a709f3ab7c33b306e075d86be15fee44824e8fd088518
+~ -[DADAgentManager activeAccountBundleIDs] : 372 -> 368
+~ -[DADAgentManager hasEASAccountConfigured] : 536 -> 532
+~ -[DADAgentManager processMeetingRequestDatas:deliveryIdsToClear:deliveryIdsToSoftClear:inFolderWithId:forAccountWithId:callback:] : 484 -> 480
+~ -[DADAgentManager resetCertWarningsForAccountWithId:andDataclasses:] : 416 -> 412
+~ -[DADAgentManager setFolderIdsThatExternalClientsCareAboutAdded:deleted:foldersTag:forAccountID:] : sha256 7d7bc5bc5c2f56b2011f5ad0c647e9592cd939ec82abfb86a740b324020a84e5 -> bdbf0c80e869a83b1f88d1f7838545bcd8d45eebf87d98aab0cbc22c3d0152d5
+~ -[DADAgentManager reportFolderItemsSyncSuccess:forFolderWithID:withItemsCount:andAccountWithID:] : sha256 4f3b887c42f88e0100b8d3233e045649b37dfd6ffc1c524de7e6d3fa0cc8f672 -> d31c728b868edef62371cc8d7dd672aa445e0d8c6d7ae6f7f4f082f757538613
+~ -[DADAgentManager stateString] : 772 -> 768
+~ -[DADAgentManager handleURLString:] : sha256 c2f006c931c6407e474db9d5aef6c81e15196a80e13169210917c7b30072dc1d -> 6ba1054b432ba62428a6247c67263820b9b9f3576b44bd41b42138fc586608e7
+~ -[DADAgentManager processFolderChange:forAccountWithID:completionBlock:] : sha256 57f80148f82ea9f5939168b4972c8703d2692e6bee654daa8bb328fc9548c471 -> a27221c3834a8c45c3750d514b09e46176a6530c74e0077565a4315106871b0f
+~ -[DADAgentManager getStatusReportDictsWithCompletionBlock:] : 816 -> 808
+~ -[DADAgentManager _hasDataclassWeCareAbout:] : sha256 9385a78016c432508e8b79aa63f949e900a468afd7eff48897b8a5eff09267a3 -> 0e41fe2f139789cca1c3538b4ab0b71f285a8157d3f3bb9e2100b4c1dec59153
+~ ___44-[DADAgentManager _hasDataclassWeCareAbout:]_block_invoke : sha256 3410f561a9e9292bc92b9e730b321182ed2bec82a46994cd63c37a389b36ca70 -> a67f1f08d70a85b7f6f294586da5ef059c5b57b77185a03729688ef54bf0beb3
+~ -[DADAgentManager removePendingAccountSetup] : sha256 a0e6dd20858d1ad70669ef75593f40e5646dfc43802142f5b9b39014f75c4c7a -> eb8c340058ca67ce5cbf8db0ba1f9f92ce72bd7c3702aa6aaeb3bbd5ddafa74c
+~ -[DADAgentManager hasActiveAccounts] : 544 -> 540
+~ -[DADAgentManager enableActiveSync] : sha256 dfd2f70299187338aaa7d8995bda879a00d391209b285546536614b279d9473e -> 08f37a451aaa7e3e76e24478e00e200ddcd7a7a8e644c27b4a066c20eee49fb5
+~ _launchdActiveSyncPath : sha256 ab8cc5e15a0daba5c20d780f6ea457986d8b138acb0d3b00d03b321ca56396ee -> aae48dd3691c4aa2b6324b68a1d4b65764edaa1992f352c15d34237cd8911678
+~ -[DADAgentManager disableActiveSync] : sha256 b37e168417a963be527e6f755e50410086bc694cf0ab643f8cd64b8de971ad82 -> 7c409178742cdc4492fbc5fadff15f9e25cde2066177a2ae410ff85bff860a47
+~ -[DADAgentManager setSubCalHandlers:] : sha256 8949a0c777085bfa914a0d564977ddba3c2dca74136f5cd16c087993509982c2 -> 82dedffdbdfe17065c5d6bae89a859865bc48762b7babc8c1ad96c68edb1e87e
+~ -[DADAgentManager .cxx_destruct] : sha256 9a1efa8471d78c044c8f4a9805b2154d5d588c261e9f821679e64ca3695863ef -> 72cdbfd01a918da8375f7ff5c6f489b25f9529c5222d6a67223f5b9c9e7ad1d8
+~ _OUTLINED_FUNCTION_0 : sha256 eadc25679b01121d879f97346946f49cd2d62bbd56a387dc67ed59c8f4ebebfc -> fa9e3710bc13bb67e8bef624ffd638f40e844b3f88c30881971f1d2470d14ba2
+~ _OUTLINED_FUNCTION_1 : sha256 e04905b9ac4c80f52effa6f15d933f1479d5476a3e1d15a0bca6c1b57c8e9bd2 -> 4d89a42751134002b113498cce391f2c3758e59652b2192fabac3a38705a7985
+~ -[DADClient initWithConnection:clientID:] : sha256 ead212492fddb53881b5c991461de1c5f1e21e5229871bb59c24ec492dbfb454 -> c2e80b0c7a2117b6c29b8eebb2548d2ee049dd8ca63f22f40fd67a62e7c95424
+~ ___41-[DADClient initWithConnection:clientID:]_block_invoke : sha256 5398d645fdae0e32299fc06eda1713f79b6f4497897a035f731b5b32bfa7b20a -> 3f30a55991ea77ddb17e36eb1738cfdc4ed5a9661c0d00259c9108c48a4f416e
+~ -[DADClient initWithClientID:] : sha256 1e7d6f5a64be2f8c901a0a28c7d1a52345a5d2daddbd1015c2aa165db980d8c0 -> 710144bc24396c25b1e77154a8b2ba4b232f914a5689e28267eb8297e3d6dfa8
+~ -[DADClient reconnectWithConnection:] : sha256 d5b27a0ecd4042c7fe7fca7eceefa5052fdebda535defb44bb86b9a0ac7c3834 -> dda262b1b99e6f0bb246083807a6c983b4a7c9a4b4b7c72e50898fa571cfc2da
+~ ___37-[DADClient reconnectWithConnection:]_block_invoke : sha256 49d97ff7b872bc4fe27691b0035a0e1b164c22559b37e03c21071e4e1e8835c5 -> 9c285c66f3eee3ebda827cb629fe4fea6946e9d7bd3eb503fa901b0e797332ad
+~ -[DADClient dealloc] : sha256 c021a62b0403c7c14f0dbaf4eb9c820232fe7f959348445997d5933e1acbaf3c -> 77a3f949dc0239f3fe119de3c0bf39187fcf40f0016cd57d34fc9cbb787dbfd9
+~ -[DADClient clientName] : sha256 3213c3101db59c3b6cdc574acac9b25bb3151bff8f5887db5ad719ebafcaa6b6 -> 2319cbd027ed3ef715df9a9789c326ed8da5941066cc65066396fe8f5f1d2d0e
+~ -[DADClient clientPID] : sha256 616cb3900ff8e63bc96122cd352221dad0f6d86e32a336861d614ef111ff3d7d -> 5b890705384e7e50b30b8ae1e1105134901c2753b453e5d0d04b8e137ad45e6b
+~ -[DADClient _removeBusyFolderIDs:forAccountWithID:] : 372 -> 368
+~ -[DADClient _removeWatchedFolderIDs:forAccountWithID:] : 372 -> 368
+~ -[DADClient disable] : 784 -> 776
+~ ___20-[DADClient disable]_block_invoke : 1328 -> 1324
+~ -[DADClient watchedFolderCount] : 360 -> 356
+~ -[DADClient persistentClientCleanup] : 808 -> 800
+~ ___36-[DADClient persistentClientCleanup]_block_invoke : sha256 7092944813ad8825317d70544eaf90fd619cd5631eaf1e2d11fe9b068539af12 -> 4c1dd78117cf801d6daeb6d69e07159517e9e2990acf0ae12df9279e46ad023f
+~ -[DADClient isMonitoringAccountID:folderID:] : 352 -> 348
+~ -[DADClient noteBlockedClientCallChange:] : sha256 7e3d6ce75374c11314204aa3e3f55ac9b1593c5f15a853415d86e704dd9af210 -> 6491c45eb9966d30fb8ed8b15b315b2a1293257ad5f8299a56d1098b16f40fd8
+~ -[DADClient noteRefreshClientCallChange:] : sha256 47daecf66a58882b885c0b5a674139147c344355d7e1222eb7815e0897264380 -> e21c58dd9a5a5feffd2be8e8739c9b1f1b2692e17a5d8e7a77c19251147b598a
+~ +[DADClient clientsToInterrogate] : sha256 b9ba49d7386447e12a7a59ba379cd38e6cc37f0303c40b6432a6fe6cc007273e -> 0514c52c1f33c501ef48cbaef3378e1dea896b4eb96f6b877d41ce91a21bbddd
+~ -[DADClient registerForInterrogation] : sha256 e06eee4211e4e2f5e4e10bbf6e7692bc1e9c01a92b5cc765f23cc9c6e2e3d5cb -> 7467a28d775b3b2f1298d4d95501a79d3b20994f8139c6736312e7b20016b106
+~ -[DADClient unregisterForInterrogation] : sha256 e31b15494bec62258b8cb59394fe06d8de37ff1746912496393981bc6249d766 -> 08028fe6c72a822f2404445c4cf6949a70f6b666739ed6d9f950863f4ff3c469
+~ -[DADClient _createReplyToRequest:withProperties:] : sha256 0adb407b9e837341d97566322e6bd8590c16823ff6bb20f9ca0b02885817ec35 -> 5f295c5137df465c6a56f387c5cf86f715901b9ffc3863cfed8ee40a68fa22ba
+~ ___50-[DADClient _createReplyToRequest:withProperties:]_block_invoke : sha256 d8613c737c2d2142f36bd94216f95e8955e5fb84bd176f776b781c19f5b33438 -> 716cd6c9a5e6e108e32259b09fdf9964abaf607ff8378bb60ff54fc5e72d54c8
+~ -[DADClient _beginMonitoringFolders:] : sha256 45dc0a42bbf3e80ab811fedc4ae7ac9d387fe51e0e5807f5d721c661e2ac766a -> a999111fe04eb6ba380e1e1f9172933e94f6178a198da562488f7ce4e66dc50b
+~ ___37-[DADClient _beginMonitoringFolders:]_block_invoke : sha256 66e08cfb446c812a4ad8321772ab8779046b5857dbec310cf02cc2f342148898 -> 4574fefa28d48fa53ad879dfa00f9279730a13b63f45fc3c40a744e345f489ba
+~ ___37-[DADClient _beginMonitoringFolders:]_block_invoke.46 : sha256 b1dcd1ba1632f741afaf06ae5a3795aa92885ef2a87d07fd0baa6792fa589f06 -> d4005e01a30db9ce4bbca734f078012f7059fdcca6a802fcee0fbf90ea8ad638
+~ ___37-[DADClient _beginMonitoringFolders:]_block_invoke_2 : sha256 99131a6a0cfed88f415c077623d4613d92fdfdba965d4df0de639dbffbad402d -> 2c404762d591e002a5ad58d42c24189b8909d2967d332b7cbe8bec5098ff278b
+~ -[DADClient beginMonitoringPersistentFolders:forAccount:] : sha256 0bd4d426882c02e7469f765218b3868b246200bae3bf5ab3c623e00e671bb895 -> 1cc5a720fc99458f1795fee0911217d9a8b2adc9c0c1fe279f0e8898af03b5db
+~ ___57-[DADClient beginMonitoringPersistentFolders:forAccount:]_block_invoke : sha256 f6911e2364b132360445258b7b3e2d27f59386a1db519e38b8d09d07cab9cc80 -> ec8d381dc28a1be4d3039c9f626c793d57cb3138bc503bcd25838c6d752a2801
+~ ___57-[DADClient beginMonitoringPersistentFolders:forAccount:]_block_invoke.48 : sha256 55f4deff0054b6899ec0d157b32a5a621ef43bbf27daed073e281d0e674de9cd -> 0a1acf4cb9355c4711680ffcff0db761fe7462a73fa87883ec542d5ad7177d2f
+~ ___57-[DADClient beginMonitoringPersistentFolders:forAccount:]_block_invoke_2 : sha256 87876f91a5693d5903baa37daaf0da029237d046e8f67ac173002bb08656f468 -> 12589a985ecea355ff7212bf54871e13a609b7199d691511c2aefa67398c7008
+~ -[DADClient _stopMonitoringFolders:] : sha256 7f206e54a8456c9997c07e89395e10e05a244f63e28d85524bc97f892175a868 -> f0053a1f0a3fba6335b8cc3b26f1a6018ea59766521e928eff71cf640ae9a1bb
+~ ___36-[DADClient _stopMonitoringFolders:]_block_invoke : sha256 53fecfc38d3b68fbd75e882a81d95e1f704f3c336b3ea444ac1d1a9333bc3129 -> 5dc6cad28c3775d911cbb89bcd39bcffbb2fa857fcb827fc8e10c2223c07269d
+~ ___36-[DADClient _stopMonitoringFolders:]_block_invoke.49 : sha256 050ced92aa6a72a2a583cf681eea6b07653cdf6fa435ec2c0d9d0d7e0ad9cb7a -> b0164719b2411740cd8dd65fbd39e1375046c55b0999948e695d247bc21d4273
+~ ___36-[DADClient _stopMonitoringFolders:]_block_invoke_2 : 540 -> 536
+~ -[DADClient _resumeMonitoringFolders:] : sha256 25824f20e19b6b1dc867593ed977b48183c7016b2749844e8936280599b9fb77 -> db0a7a653971d9c1b0218f2aba64e486a730bf31f8ded1e404380f2f8e950fab
+~ ___38-[DADClient _resumeMonitoringFolders:]_block_invoke : sha256 df7bffce53564718fb6b7e767eb82f02ee33a7a66e78c80b4a890e818f36a80e -> 6d954d929948d87afc518d6ba2cb959de3aff805d2ddcf0d5cd98f9dfc6365f8
+~ ___38-[DADClient _resumeMonitoringFolders:]_block_invoke.50 : sha256 5e6f86a3f37f3507fcbf7a16b3824efa88424687979566489b66a5ff6e7ab367 -> ad5184bc6c99648416eed1775c1c197a413e8bd75a6226625ca90959cf16c0f6
+~ ___38-[DADClient _resumeMonitoringFolders:]_block_invoke_2 : sha256 b70f6cdc8be3d7f98298cf1829c7cb39da37debed44ea733ad8acdbfa62521b3 -> 0252078fa86347f7bd4e9b6efe0060573fc7dfa610b3c5bb051cc194ee0cbfdf
+~ -[DADClient _suspendMonitoringFolders:] : sha256 8d8e4708a87b375fa592a1b9a9860be0fa25a5a1f3eaafd3f1b727f55cf3a42f -> 387afaec85684067596bcf6f94160baa981cfeb18a8dba5240a3c5eb113a52a0
+~ ___39-[DADClient _suspendMonitoringFolders:]_block_invoke : sha256 ce38351600e5a602b16194cae55e2d1e5f3ed219231787d94752a98b1ad4a721 -> 99289dd0a34c9e51f38ea0a860eeae3e92dde0305f6c6430efad6939ff05395e
+~ ___39-[DADClient _suspendMonitoringFolders:]_block_invoke.51 : sha256 352946628bcf6dcaa298fab5d31a3ee88aaa5d562004140508db2ee64157bbc4 -> f4b7fbce098a9a0f91278dcce39480b6b67b061e003b129d191e2504312ca977
+~ ___39-[DADClient _suspendMonitoringFolders:]_block_invoke_2 : sha256 f5a6682b63430b0f21642a0cb6f3a71172953472bb7be0b3520e7695c0a95a70 -> 052a17a228b7b63fa629f8411ec726f89b76eee6f81e1aab90995edd50085ac2
+~ -[DADClient _stopMonitoringAgentsWithClientToken:completion:] : sha256 6ac574d20b1f7de89391fe5da2fdeb97dff8b7b7317fb35ff7c9cfbd0704cfc2 -> d2401ec091a8921da7b3ea52772960cb88bafa9caec4e2aa1b8a5c644dfb7261
+~ -[DADClient _startMonitoringAgentsWithClientToken:completion:] : sha256 d4ed75481c6e9f58eb19f659138314d02c617280a5629e19eeca30dbcb7c1649 -> a25593ad1c0220f1e544ab1ecf790cdfd356c0a7a04dd8e09e4e37605ef12e4d
+~ -[DADClient _startMonitoringAgentsWithServerToken:completion:] : sha256 584d6fe05d876fc612ece95846dd390502a961697769403c87d87a2bfe4f26d7 -> 8d4da74032dd7e27cfd337c445537cc31bc589a8c682bc09ee3b17187b5e1622
+~ -[DADClient _startTimeoutWithClientToken:] : sha256 ecf7efe5252a3bac6d3b6db807da4ca02f7f31839da213633e969245e7664d01 -> 409881ea92716dcd1d678122131ee5e1c2a26474c59b5024857d0dea0b49b893
+~ -[DADClient _evaluateStopAgentsTimeout] : sha256 0a41d3eb1b1a7ed237e3bdfc3b61758cda1446794e3944b6ba216c9be020c213 -> 9172a17b26c2f76493cac734be19ec355dcda877982537929784384cf63231aa
+~ -[DADClient _scheduleStopAgentsTimeoutAfter:] : sha256 210f4baf2674e450d9a1645a2054d5b06cbebbf2cfa11ef5ca704522d07d53d9 -> 77c9339d4c2f9ff8b29a266662633528c424090c862b728da47161104d4a1d3b
+~ ___45-[DADClient _scheduleStopAgentsTimeoutAfter:]_block_invoke : sha256 694c54d25a2a85cb3d3e0f70c6547bbb4edfc63859bb85cd1e7806244faa0fe7 -> 4134edcab693fc1d59fc019b0539ed2437d0990077aa30529fa7d847d58f5af7
+~ -[DADClient _restartAgentsDueToTimeout] : 448 -> 444
+~ -[DADClient _cancelRestartingAgentsDueToTimeout] : sha256 bfc6617539716c2c5233f2466a7fa5c98f2ad2e0234dfa793dc27b09da148831 -> 97df595e2ca4460c5a978647594de9b7c6392ee16c2acd7fd0a501506546eb38
+~ -[DADClient _clearAllStopMonitoringAgentsTokens] : 320 -> 316
+~ -[DADClient outstandingStopMonitoringAgentRequests] : sha256 502a0cb51a3dbe00de5caa1eda4bfbdaf2048e16bfb443d43009e31f612ecc67 -> d2fe5978bf745fbac40d74db2b3ffd0d040a2518d2e38f55190ee6cbb4ab738f
+~ -[DADClient _startMonitoringAgents:] : sha256 0958e0759db07eb0917eadcba35fc666cd0f8838ecc965ae03b03f0777899b50 -> 285480b5edfe6219a1e6783f4cf3925a3b746fa1aa15de60fe846205ed3d94e2
+~ ___36-[DADClient _startMonitoringAgents:]_block_invoke : sha256 9407052b7cda61ea56460d82c8ffa1cd40fd61cc6ab511fb92cc01d3e1be973e -> 8f677f55c2f94aac35b539a085836e6c8c1993e7ebd5da7bb9647396d0cf6df1
+~ -[DADClient exitBlockingCallAndSendReplyToRequest:withStatus:] : sha256 9ca386e9b5957355c08930d4c00e4c5b9f0bb1a694e3f4a6dac31775956ad71e -> 30a3a490bd04de71a4684650e88a91394df811b51e175fc1d5323a30b54116f4
+~ -[DADClient _stopMonitoringAgents:] : sha256 47bb0420afa17ab7d65256ba7e10b60f119515a3402973fc936c65f2104c2374 -> ed7861c691a247ce6061459e3a7a306536512a382a831d51b88e7a1fef7604b5
+~ ___35-[DADClient _stopMonitoringAgents:]_block_invoke : sha256 ec535baf447476050c5485aa1d5e8d2e6ea356e551fd0407a389759cf66abb1a -> bc1ca13e3f39c1055a2bd1a73ddcb06697b49242c4954fb0e9e5838c5b0a90c3
+~ -[DADClient _handleAccountChange:] : sha256 47f9747387937472b0e3e80e936567c42fca5ae6420339e9a6420b80ca56c6c9 -> 41f098d5f521a21b37c49808f595b7f300f082e3e13b192666bf05ddaff94502
+~ ___34-[DADClient _handleAccountChange:]_block_invoke : sha256 62c65055f81e7713b369c6c01541735bdb256d1f43a865da030c2f088fcbbccc -> fe6ce2ed4c2e069f1f8415fb938966703605e677307e4440f4dae11240286ecb
+~ +[DADClient _shouldReloadAgentsForAccountChange:] : sha256 25294f858be80bf34199567b1b8a2ef840b762d473197d79f1f06b05469ceb54 -> 41c2f18e1cfe947e8fbc1135e6c97b1d5a4ba9b3d90e0b84004ac565e2ad7a7d
+~ -[DADClient _getCurrentPolicyKey:] : sha256 7d23860990063fc861b46f0f0218924e6186389ff9d4fce7d09af4547059ee36 -> fbfc5448e9a38745c98e27f47a1c71d6c446c099b281a216b52ec7faf7a58739
+~ ___34-[DADClient _getCurrentPolicyKey:]_block_invoke : sha256 eeb15b5f65cba94d71d524c1ada2819bfa1cb4d8cfa946fee1f84ac58589cda7 -> 50938d40b2fae876d44e7667fa37a4ce65b54490b933e643c3a8dadeb6acbf35
+~ ___34-[DADClient _getCurrentPolicyKey:]_block_invoke.64 : sha256 6ecb8bb838f2bec64c2a1fe57e9cb17e37b2b47509cb20450eaa8a9d6079bf5c -> 091545a8df1cd5f61dcf9aafc8e0eb090b95491d33152f78e8d2bed7e2498aa4
+~ -[DADClient _requestPolicyUpdate:] : sha256 5e14eeecfa9a753ae5fe75b24504a888ace0188d8f46bdd5d04b0f2e8f7e357a -> 8fdb009e2b0b6802989f34516b894f88f8f2f96b9974a3390131d6623b2f5a7c
+~ ___34-[DADClient _requestPolicyUpdate:]_block_invoke : sha256 94c79677e237b91fd3b05b5be160d16346590ddc38e7a5fd9156ebc3499f4343 -> 6da2ceb896715692ad21a03bc7e59b2e6e88cede88d7dea265134b43e1783152
+~ ___34-[DADClient _requestPolicyUpdate:]_block_invoke_2 : sha256 539aff73dd334c56e7f1eeeac8492eae25dd39f9791650cc93b588a3a4450df8 -> e6c028e223950b45debf0b813de21b0549e96a59a1ebecabe9f83cc7618cebb5
+~ -[DADClient timersForAccountWithID:] : sha256 d00cc76d25a01961fccf4e65e5e35bd49d390a4726e96c248b41beac0503a7d0 -> 126525bbab41c284933bd3c080c13520924f10e13ad078e3f00e87a5e06259f1
+~ -[DADClient _requestFolderContentsUpdateForFolders:accountId:dataclasses:isUserRequested:] : 1276 -> 1272
+~ ___90-[DADClient _requestFolderContentsUpdateForFolders:accountId:dataclasses:isUserRequested:]_block_invoke : sha256 57e15841129cf6e4e68098fcb37e3106f9cb01b94555e1ea5f9ab7e546e2f06e -> 61ba1484b15f7fee317563efa6534b63067e41f0e7d3d5163a8f5268527c5036
+~ ___90-[DADClient _requestFolderContentsUpdateForFolders:accountId:dataclasses:isUserRequested:]_block_invoke.67 : sha256 d204a8c09d42f00cc2265e6decb0b3fceb9eb4a3a2864e32a1da52cf80fc5d9e -> 1202ee2245fb73848c94bda98f7388a0ecd5c3d809c0c56e0589aa4a69ab43d4
+~ ___90-[DADClient _requestFolderContentsUpdateForFolders:accountId:dataclasses:isUserRequested:]_block_invoke.68 : sha256 ef87e5ee6545937d8a6afabe36cd12abde97db3055f8002586f8fd9053b8d5e5 -> 0d4b3f100b6499afb84e56d65dd3510e5712cef00a7c7bfcdcbc6d8e4e01b0da
+~ -[DADClient _requestFolderContentsUpdate:] : sha256 07bb9d340b341630ae0a3cda50abf80a862feb992f4fb9ee57ab412cc0da48db -> 5b748a83b9306f13b60b77e17a543fc20e442ef0220583f8b5456cab8627df9c
+~ -[DADClient _requestAllFolderContentsUpdateForAccountId:dataclasses:isUserRequested:] : sha256 bbef0541ebf01e5bd54edf28c50d30ddd70fac68eef88ff15541acba8d050bfd -> 670a6b732c85341e16dc0310acd8cfadf4a141e6a9f48960b15dc133e5015713
+~ ___85-[DADClient _requestAllFolderContentsUpdateForAccountId:dataclasses:isUserRequested:]_block_invoke : sha256 872bc5685b7f508039fab52083a214e7b2d529bc2c8f1405fd85df028d97f187 -> 05af124b1d4dad764da49611ff9a04fbe23b651b5bdb50e3b06043da7cc2b987
+~ ___85-[DADClient _requestAllFolderContentsUpdateForAccountId:dataclasses:isUserRequested:]_block_invoke.69 : sha256 818793d2e6ac812da476c95c533fb6e7b91f339928865c5c87d10b4c6030d7bd -> 47793f98ce57b93bca4250b8750f2dac8b41259faa905934ecbababc399fed87
+~ ___85-[DADClient _requestAllFolderContentsUpdateForAccountId:dataclasses:isUserRequested:]_block_invoke.70 : sha256 67a6f95c5063be5c2d355fb81132d250beea2e11f642f1efe298cf7abf2f1d1a -> fd20f9b4768790543ce8daa640494e9b840ee13ff7c29938bc97b7e2312d1fdc
+~ -[DADClient _requestAllFolderContentsUpdate:] : sha256 3177ff0acfd42e82f2b571968726d8c845cbc1fbeec4a410eb2c216f00d510c7 -> 4c16b7f5545d53b1e487943d22fd4ac7d161ffa7534e94b827496cc5681d17a6
+~ -[DADClient _requestFolderListUpdateForAccountId:dataclasses:requireChangedFolders:isUserRequested:] : sha256 fec86a9db28e86fe17e2890faf25b6321bbc12c4c6de615d4ec718ad062c6717 -> 537bd0a324dc2abfebf748eafb0f81238f9f3828167214c2d07b236fb1b7999b
+~ ___100-[DADClient _requestFolderListUpdateForAccountId:dataclasses:requireChangedFolders:isUserRequested:]_block_invoke : sha256 aadfcfa08609d77fc6cbdc325d67c4c864a7507df39c14b0398168d522a87d0e -> 6a42947f072b0414a0ca15f66cdefd127c8f50611cd74877b3a2f28b91d89813
+~ ___100-[DADClient _requestFolderListUpdateForAccountId:dataclasses:requireChangedFolders:isUserRequested:]_block_invoke.71 : sha256 b3b80f7a46e8d2177cacfe144915aa7074eb8292081f744a921449f8a87bad6b -> 3e8df1c195e5e34c293a82a41501dc908e260b10009cd6bbca8f4d00b8cc2ce7
+~ ___100-[DADClient _requestFolderListUpdateForAccountId:dataclasses:requireChangedFolders:isUserRequested:]_block_invoke.72 : sha256 adb16ab9193358b3f26c41fd409596c875ebb0cddb52d6730c9fd50d299f1c1f -> d4e921c4d82850d9c6fc7e92ee1679effcbb74b331d25240be2dd0a7ebd2df83
+~ -[DADClient _requestFolderListUpdate:] : sha256 64bc635581cb79e6c70d3d77f69eaee3d7374744cbb1d5e79fa0b750dff87bbf -> ac7418e489fb177a5bfc721d3997315080f7b352d1d593cb2b1c8dd048f31097
+~ -[DADClient delegateWithIDIsGoingAway:] : sha256 c26a1d8495709aef3c66fa02aefa7918b3ae13dda4a1759e3424944de63ee9cc -> 07a2c2e8f469751873c3f00aaf2a30c0813c7a6bf4d64059d765f295ace39fe1
+~ -[DADClient _openServerContactsSearch:] : sha256 f49eb43795bd715576f3285dd2f75ce4ac95f6900e6a6ff28657a9b04a04de3a -> 550ac9129b6261679a10c08d71b87663e373ea4684e0dc73f4ed7669458b759b
+~ ___39-[DADClient _openServerContactsSearch:]_block_invoke : sha256 049351cf64e2f04a279a7835d758de1c831ea377078602de195e6cedc05f5658 -> f64daaf5fcb0719fcac7a98d36d27917fbe68c071a5255f28434bdafe04f4b53
+~ ___39-[DADClient _openServerContactsSearch:]_block_invoke_2 : sha256 90f6baa807ee423b46bdda5d4d1a733aeb430d1b4be446bb26b44998a355a08b -> e64ce4463763064dd1f04e4bf9b3d9904676caaeb102295940d4447126d0d37d
+~ -[DADClient _cancelServerContactsSearch:] : sha256 be574fbcc32a3f09bc668c38b806808bde09d7d4906eb3f53b65e24b7564ec70 -> 462521651a6ffccab1e7a5232444c9fe70721b94e661b2e6ab43e08e767d74bc
+~ ___41-[DADClient _cancelServerContactsSearch:]_block_invoke : sha256 e164e28dad6c34735a4210d5ad1a7310d20c4472d3d076d3f3497d2a551beb10 -> a94e5330254aa3406ed48a3e6307987a4ce37dcaad9d2e9e0184814e984778e8
+~ ___41-[DADClient _cancelServerContactsSearch:]_block_invoke_2 : sha256 6d77b4e37ac5048858da92609dc2900c4812422f3544e06e998fe603cdddbaa4 -> 95e82d6f3c1e17b521a220cce21ad4e7466f5c03aeee3c6e3aa0b2f58f591408
+~ -[DADClient _processMeetingRequests:] : sha256 05198be2a9f02774c4ba2aa3e9499a7df6e48ba2032a85681ddff3778922d1da -> e0ee8182e7072869ae6730c7dcafc5de8fd6fa2d95eb035314f9c17f73a82ab9
+~ ___37-[DADClient _processMeetingRequests:]_block_invoke : sha256 225ca324f30d88c5765a1a17a6c6d9668d99f35bfa44b42678dfef938201f5cb -> 1484af872d4d8ca29794d687ff3076cfd3653136e6cb6dd294be973a1c7fa556
+~ ___37-[DADClient _processMeetingRequests:]_block_invoke_2 : sha256 27afdef3b417066cfad9c66f46fd36e75a21b4e141dc05bfb2812930c1a8acdd -> c2cb971ae86bd92b8da61e404dd050577cab4eafeafdeac04bc10dd205d67452
+~ ___37-[DADClient _processMeetingRequests:]_block_invoke.82 : sha256 f629e93e6e116c8998971f1e4f428d4cf6947fbff9f16171dbe5bc3268a74ac2 -> 4b68609b3589c6a0aae906ce53c786e7dcde575019639cac803e24df0549de98
+~ -[DADClient _asyncProcessMeetingRequests:] : sha256 4c7283b0fb3b0b36b3852e55b56e27430a6c6ba5096442967a272a4349501457 -> df4b26ecf493207c9c3e7efb5d97dbb5416c48328aa0e6e742c65824167c5b54
+~ ___42-[DADClient _asyncProcessMeetingRequests:]_block_invoke : sha256 380f3044f6215cfe9230b04f28d2855a036d6d01e7b0cf0f3961d9a6f8a17cf7 -> bc24e324ef5fd335f8e7f724f4d1b12932eb799462d8382086982b6c17ed752c
+~ ___42-[DADClient _asyncProcessMeetingRequests:]_block_invoke_2 : sha256 3d347eb1fb241283c5d82086454801cc78e9678975358913bd94153b48b26065 -> 1b3b99a673b26c6888d8682d5c1d5604e5714beaa48b1e42eefd7881cca9cca8
+~ ___42-[DADClient _asyncProcessMeetingRequests:]_block_invoke_3 : sha256 47deedda070eddd61bb8ee2805e2bec6037926b0f33af02f26fcefad028ec414 -> 5dd39e8e7f3fafb473fd324a295047a513c80d51f7523356dd95780a5ef2a40c
+~ -[DADClient _resetCertWarnings:] : sha256 36898eaff871fd15065b1135ad4e94bc7890e27b5dfd71fe003be55fbe2066b4 -> 26ad0866856479aeabb12f6733698b35a932ccf7ed9067b19e9af57411b6f5be
+~ ___32-[DADClient _resetCertWarnings:]_block_invoke : sha256 6f5b104a0e20ef2592e2bd919abb8ba60ceed420bb995651a944d98048ba2df2 -> cb0699e4f8d6daace261472ba7fd0d9bea2209ab7a428220d73638584bd0d1bc
+~ ___32-[DADClient _resetCertWarnings:]_block_invoke.83 : sha256 7e57823b517625769613ac1013b11a7dc9811ef8b88369cbb31cdd14012c38e0 -> d002ec943df3bc712625351deb776e3b4b4e296f0b17a34ae6700cde4461e0db
+~ -[DADClient _setFolderIdsThatExternalClientsCareAbout:] : sha256 6f195f08783a99f36b1863ddc5160694f6ab9686317c64e2443f55c7048cd8bf -> bba02c72098f8b06c77b7c66eb6f77644127c3be1c85642818ff44813e9618e1
+~ ___55-[DADClient _setFolderIdsThatExternalClientsCareAbout:]_block_invoke : sha256 35a839b66e27ba03c07305f26175be10453419109f5ee8027e557d1a7c9409fb -> 15550f1eead2ce4467d12a4bcc38cf17c9b2f99a1022a9ef73ae0e8ebacd000f
+~ ___55-[DADClient _setFolderIdsThatExternalClientsCareAbout:]_block_invoke_2 : sha256 177915e1a6399864f59df72d3915bcac1798cbd996f609715632f5a500a63add -> a1825d478e5a2435c54218db70b47ea691fac68052060155e211abd2333e2b73
+~ -[DADClient _reportFolderItemsSyncResult:] : sha256 6e88b166a10af75ee6acbb172c6158037d8d29b661b1cc91e76a6e789ff550e3 -> 10eb7589d60d2aa377ff19b6323365643159b6e237a01c18a02593930bf41db1
+~ ___42-[DADClient _reportFolderItemsSyncResult:]_block_invoke : sha256 31bba46963ff9e6bb5681f9898e43fd9f3312ef371352b7dc4c084d562d39641 -> 2f735a53183c225e9dac13a0ac066fdeb9f93fb324886a00e84707b1728479ee
+~ ___42-[DADClient _reportFolderItemsSyncResult:]_block_invoke_2 : sha256 f3eda7f2c6d805268ff018c7fd9be4b48f6794f962c8ef963ad067c9db0d0b17 -> 7d3c3ce5a3fad316352f86c1c946a6538a5e3464ae669734dd9ea334c92e7fa2
+~ -[DADClient _handleURL:] : sha256 54513ab235215e3f51e0d075951e64da2bbde92e1428ee3466ad8986ceb36611 -> bda1c2a3ccfc6066951701a52255a6782201600b924efed2da4700e93504ce42
+~ ___24-[DADClient _handleURL:]_block_invoke : sha256 c3c295d395019f7084dc7ddcdb7f6d209a94a4578230509329a12d1008d3d3c4 -> 0fe3290f47adc4b9470d35ace3df411e6ae48dd29a9c7f6264ed590fb9080950
+~ ___24-[DADClient _handleURL:]_block_invoke_2 : sha256 517c17e0303c47651765743e68eedbf4c6c8fb9af8c207a3b6ee3efffb039229 -> 535d86bd6ddb7d100419eeead755c3f19b46569eb9d261cd7a4995c0b101d0af
+~ -[DADClient _processFolderChange:] : sha256 032adcb847e8a4946449c88f1a5c1b40a053ebe9e0e7bb32e68631c89712ad2a -> 854ded85a5a98851c99b46b9aa6c977ad97d256abc6ec109a1c69b522e543bb8
+~ ___34-[DADClient _processFolderChange:]_block_invoke : sha256 07106cf7830c1e77627e73811802ec793c87435a22f52478492d5e4bd8f317c7 -> d66ed3b51e12d4110e2848a0cd7cc630a7c59be58f165e4aa6b85b4935f4408f
+~ ___34-[DADClient _processFolderChange:]_block_invoke_2 : sha256 8fbc2900cb8dcd6c161ef3b637f9a6356975062944f9cb870f4cf9acccb855b1 -> 959bcee74bf47dc2b53e320e46f25a8a0a9e7a9e1dc98ce99c5768c122484c55
+~ ___34-[DADClient _processFolderChange:]_block_invoke.91 : sha256 063bec99c49ac7fc53414a950757dfe79f17118d82756b3655621cd7f5baa5ec -> 1466a02a2c1fb2bfa50d356fe57233eb6d696582227155ea09a92a6377ef6b2c
+~ -[DADClient _getStatusReports:] : sha256 ffcafda00847eab409dad29c69b83f9d457424c53c49fff5282fc62f399261cf -> 3ac27da0ff2ea58a6bfa29fde0c3a5a209d0b1a2548711e6a89a7902a8fb3c4e
+~ ___31-[DADClient _getStatusReports:]_block_invoke : sha256 34c3bbacf984710ec0fab6bac1a6af7e7ff0bbe05168e4e5820706bf4a933c1a -> 8d140255c20e450947212d815ed1220383606333a39bb7727b88acdfc0f195c8
+~ ___31-[DADClient _getStatusReports:]_block_invoke_2 : sha256 bb4bd088e3f922f8579b5761ee3ea7f4256483706b3159606634ac983aafcdb0 -> dfe4eccb360903b4754ce83ac0460b73d354778844dbbf4686fb4a12056a317d
+~ ___31-[DADClient _getStatusReports:]_block_invoke.93 : sha256 c3c56e34e0cffc8da5320c57d22584c85674b782abc434b24b0bf330a7c60118 -> c215edb84939ce97f50c390716ab9f8fcdfea1e69c64d2492d2ceca90e27e8ea
+~ -[DADClient _registerForInterrogation:] : sha256 d9e771d038a480f03d6cc831475816b6f455a0302e8fd441940a4c6cc5f1065f -> c9175e7213f23be980f5c597767b81a62ed52c16e3086ff94cb711b6c0300b28
+~ -[DADClient _resetThrottleTimers:] : sha256 8db5eb505865b561257e4c4843b4b1b13970360edff2499eacf24e85f62d7017 -> 6347888a43d483c35626de51f734fea01f2a2d8b20bb47ce880e5597eaef57b9
+~ -[DADClient _beginDownloadingAttachmentEvent:eventDict:] : sha256 4cce6ee246e94afbf43b7d183daf30f0b7d830c3f4a64e494ea20577bc16e18a -> db44669d6c7489b383bfb871099a91c217df4c6a7d1f2568e31e8b68a9358bb7
+~ ___56-[DADClient _beginDownloadingAttachmentEvent:eventDict:]_block_invoke : sha256 2ed5ce4d9f7da6dc3c477790c5d713fe1decd96bf12c09ebd6b18591f0be20d8 -> 3cd80b9a3cecf99bcf1f84e5b86f24b35fe4ba7b983ad96cc882bc618a72389c
+~ ___56-[DADClient _beginDownloadingAttachmentEvent:eventDict:]_block_invoke_2 : sha256 b381a39ed6b80868d746abbc8fad0cf0bdce69839837b6c87d6507f7c17acaf2 -> e5f99617a2f135d38ee5d6eb84b4a2cb3bcd3ff3e9ea91a864209d5b246e155c
+~ -[DADClient _cancelDownloadingAttachmentEvent:eventDict:] : sha256 0c2f4634b74569299fdbb1ee34c566ad966178b6b7be5d9f1c1821ce2beb1dd2 -> d2a0fedf6c2b21832ca8da983056e6d8fffdb1653011c1c1062f881f8c82ce70
+~ ___57-[DADClient _cancelDownloadingAttachmentEvent:eventDict:]_block_invoke : sha256 43055343394f34364a4de520a9d5bcd6cbe665a342e666dcf4952bac61c26d2c -> c1d2de731b0d696714076a25320c52ba3471654dfcae21af9f438b68487e14d0
+~ ___57-[DADClient _cancelDownloadingAttachmentEvent:eventDict:]_block_invoke_2 : sha256 eec6ecb8cb199a235bd589243b3122f075cd3a03dec04c16da2e47557779351d -> 6303a21e3fdaa3642a18275d19e4e57576e3f0c470f93e4bcec5baf1ba26fda0
+~ -[DADClient _respondToSharedCalendarEvent:eventDict:] : sha256 4bca990f0da614ebe89f3c8635dcaf4a83009c385ca073235f5995a3f72d7c14 -> 8f8be3983f1f58b9662b71dc82e62841e33be971cb66317f812e19a2abf01b9d
+~ ___53-[DADClient _respondToSharedCalendarEvent:eventDict:]_block_invoke : sha256 a4e4085b85668fffcc1610d9382fb7b01b2e6fa7fe6327ab28b43cd1562d0d66 -> 673f0077894046680df207d43b488c7fa2ea4bf2020b03e2483e526ae674aebc
+~ ___53-[DADClient _respondToSharedCalendarEvent:eventDict:]_block_invoke_2 : sha256 28e07d5e0fd2e1f459508b70946429969cdd9fdc8d94e8709e3f9c3062e177ad -> 538dababee472d11f0ba122737296361d688ed304d1c8622e6d08fc722bed489
+~ -[DADClient _reportSharedCalendarAsJunkEvent:eventDict:] : sha256 992ce78fadde4ccd0e3bb0ee272928f3de423d0d3bdaf173dd95404cb2c43b32 -> 1d2b857eb2a99bc33365468854d2670e1539bac72e75461b9c554e1a926b8328
+~ ___56-[DADClient _reportSharedCalendarAsJunkEvent:eventDict:]_block_invoke : sha256 2ed29d7e05686fd918a51728b3dc74ae1c1193d1c5694946896e24750c2f952d -> 91e2b9a59a3cf1a126c724b517fb01e6fd151ad9ef76c0a200e4113f5589df76
+~ ___56-[DADClient _reportSharedCalendarAsJunkEvent:eventDict:]_block_invoke_2 : sha256 e73c84a28b56cccd6c234fc52dc0540551199bcf17f746caa14094752ad52269 -> fdbb3c590eeef782c3f613c1e409ec386b28a5c88ad02cc6353ad3f95c4dbdee
+~ -[DADClient _fetchOfficeHoursEvent:eventDict:] : sha256 62d7d488dfde28bc754315465c2d152820ada36f60956eb3e3ac8f1eddda1e7a -> 54b71b70b56df1c8ef46e02c487908f855358b405ccb84346500ccd0e2445632
+~ ___46-[DADClient _fetchOfficeHoursEvent:eventDict:]_block_invoke : sha256 64809f2d3fc9e3799462393fb9f53fc76dc303e5181e5df6a06385fab9b7cd0d -> a244f221124281c14cba7c70fac529dbd91b6d76bc0e365ab9e41b16327ccd75
+~ ___46-[DADClient _fetchOfficeHoursEvent:eventDict:]_block_invoke_2 : sha256 2dbd7f32f6e4c85be1f567d70afa5abacf5886cf7789f2d9397e2b16c147158e -> 2a64f13f68806a9c83be21befdf579674ea3392d3f74a8a0f289b9ef719529ab
+~ -[DADClient _setOfficeHoursEvent:eventDict:] : sha256 8fd95dbac7b6ddd0c446318a7731c48e338dc2bbf7af55797658e0eb71e45ae4 -> 1f72f7f801f69f2a6fe07b7b5bc1afbdb83020d4f93dcd597d8b2e690e8865c9
+~ ___44-[DADClient _setOfficeHoursEvent:eventDict:]_block_invoke : sha256 9718c06756b4eed726afb03ca114688671e73ed8df98f6eb48ce5eec1379d206 -> 695ee192a95fa74a812c320121012f4440c91bb6cc38a68407daca4aa88eef8e
+~ ___44-[DADClient _setOfficeHoursEvent:eventDict:]_block_invoke_2 : sha256 1cad6705a6a0cde6c3dade2a1eaf41aeba8b52d89d4423f63a3c6b0707bb9dc3 -> 3f31816c9a1ae9351ec1fce7729d375f21950007a0cb968f0446b4d58f75c0ea
+~ -[DADClient _reportSubscribedCalendarAsJunk:eventDict:] : sha256 2e247606e29f288ca2bb46c85aa450becc9f6aa0f5ab165eb8402bad2d5e367c -> df2f7801758cf03b28d39d9ca3a3e273deb1c81c7d4b5fe45f7ece33faf63740
+~ ___55-[DADClient _reportSubscribedCalendarAsJunk:eventDict:]_block_invoke : sha256 02cebd40688845ac8a6f84493b15328220cc47be552d2e1a2a56543dd705995d -> 85a5483004da3f5b12785b40708d2c4804e8bd5ee32715c4ebbdeb4108dce2e4
+~ ___55-[DADClient _reportSubscribedCalendarAsJunk:eventDict:]_block_invoke_2 : sha256 a4cf689a22a804f2f4410e62e1fb21f6a6dfe66a99c59658ea5c5e81f4c8c6c1 -> aa30dcf2edede88482b028a2da07ffa3e9c1f49badc097556dcc67e0ba3829a1
+~ -[DADClient _checkSubscribedCalendarIsJunk:eventDict:] : sha256 87dcd383ca592943ebb2318c06c12b08635d23a1d72148de82221e6263766045 -> bc5a466ea3729df8e601e01f190aa2013ce00729c1d26f5ccf304d5b6b6de5a8
+~ ___54-[DADClient _checkSubscribedCalendarIsJunk:eventDict:]_block_invoke : sha256 55d11f611c31cd776bb1a5ad65777bfbface24d2045a1697c602cb335634c793 -> e8b3298824072e65b3f24d25754830ba0c75f6ec01269d96e5d5542ac79118b0
+~ ___54-[DADClient _checkSubscribedCalendarIsJunk:eventDict:]_block_invoke_2 : sha256 07879aa68647d80f0b40b3aab7a99c8f42a19df79b89508a2d4b069c37909f3c -> 1909d85dabc317f2fc52dfd266ff94cc64d5ad76636bc9c46ad3be0b9b9c047a
+~ -[DADClient _fetchHolidayCalendars:eventDict:] : sha256 1677d93748f54eefdb0da81fcdf2a9717125e7fd5f8615edb7468984053fa43c -> 829a405983d3a9790a40d6651bd9c6978cbe1d6cfa162022a384af4d71a6d19c
+~ ___46-[DADClient _fetchHolidayCalendars:eventDict:]_block_invoke : sha256 485fb7086af06b4a0951b681e684ce7c4fdd75d90714d5244a7de8d0c5964ac8 -> df022b4d6ea463e8fa8117a2e1867e6b20cf68ec934c4d8cbe90ab69cdd50ca9
+~ ___46-[DADClient _fetchHolidayCalendars:eventDict:]_block_invoke_2 : sha256 bddd5e7d334f023b14476e8e318cea7de6fc92fb98474db79d5a78db6bb0e011 -> 9d1cd3261352d30dc21364ca8a25100896e54e70d70e4258d0d448f3bc79dde8
+~ -[DADClient _openServerOofSettingsRequest:] : sha256 4a34179ad4326aa49e78bcad5b7b513a731b2a2a8746d6a088a0dd1285755bd6 -> 59335a5abc991721da7c3346d17f6a096c4c495dd08301e4bec96086739f4eb9
+~ ___43-[DADClient _openServerOofSettingsRequest:]_block_invoke : sha256 9e9b681091caca38ded36b2433e448bca6d4856055d6fd3d27a31bce325712bd -> 9a8fff1de2a2af9527d41db834a93d1c13e18ba51f61d21ea3745a1ddee9315b
+~ ___43-[DADClient _openServerOofSettingsRequest:]_block_invoke_2 : sha256 ac4f658d18d48251c42dd94a4218c0869ecbcd5c19b5f294104e8efc8acafa17 -> 2cba3cc5f23ac2caa7b2907d7edb0d9a47595164c45bf64e9876a9cb5ecd804a
+~ -[DADClient _checkIsOofSettingsSupported:] : sha256 532c02550c24c47151d22d0118081d5e7369fb1be34ea0c6e3b41ef39aaa9166 -> 3f3f69ecc1d9fe37269b1a7448865b2482d47e0ae61a333cd2832dfb4c492813
+~ -[DADClient _downloadSubscribedCalendar:eventDict:] : sha256 c8b4e68b9dd5596dcda1d5056852ade868b6d4e477ef68629abf9d9f2fad965d -> a38dcc1becbc499c3d7359e6427355f60d0af2bc55eb96a4138fd2708c6151c0
+~ ___51-[DADClient _downloadSubscribedCalendar:eventDict:]_block_invoke : sha256 60a18e7d2c327e68b67a21d4cbac2b05ef92dba5384c10da1d3c12193ef07aae -> 1b9a9b3481bfc436ef2eb61333dcf78f4c25c111e6c5fa53c9a0a664767d868f
+~ ___51-[DADClient _downloadSubscribedCalendar:eventDict:]_block_invoke_2 : sha256 4b786ec2edfdcefe9cd9f7728363e181247a1a6e39d57fd4ced822a0da334972 -> 7be5d9c37e949d503e941452aadabc1301a5d33c3568721b284d9d0582d9b2c7
+~ -[DADClient _cancelDownloadingSubscribedCalendar:eventDict:] : sha256 34662d3a921df5a4a5e8f013f507b0e0dc2334fb0ed51a607fe511ed62dd1705 -> 79fe6527b2cbce10b0e8b67a7ded9eaf9ac5011bff8647621298f12e9fae2407
+~ ___60-[DADClient _cancelDownloadingSubscribedCalendar:eventDict:]_block_invoke : sha256 e2a8dc99271e50ae2beb3bead4cbd184f17fabcc4c1d0ec989c4576cf1b3586f -> 915c321b4e01cf0fe06a8ccc73d828daa0307a8bb09d82d2b56c8d637d979e5a
+~ ___60-[DADClient _cancelDownloadingSubscribedCalendar:eventDict:]_block_invoke_2 : sha256 fad66c4fee919efd5075a506fb715ba792ce9c348b6f43ae611cfcaf5595e844 -> 0539b6d95b460f7ba09c59a6e69b86961f7c94681d2fa46ad74fe05d8af25101
+~ -[DADClient _setUserNameAndPasswordForSubscribedCalendar:eventDict:] : sha256 4bc3fc02c9c2da05c73cb22e95b78bf770712c6ba51cf4b30c2fa409ab306743 -> f53c2037af3fdd374a5b4a92f0aee17b2db79e1cbee807c5e04d14db888437df
+~ ___68-[DADClient _setUserNameAndPasswordForSubscribedCalendar:eventDict:]_block_invoke : sha256 623eae1926f81ae284c754c23173c7de9ea473ab7322b51e5126e4e90ea505f9 -> 5e212c549f1a933c0b76e10cc7efc2d548a288c4cb125149fc0ec11301db14df
+~ ___68-[DADClient _setUserNameAndPasswordForSubscribedCalendar:eventDict:]_block_invoke_2 : sha256 e04073787132d3f717fb2f0f9af0cb86137f30c448bc5c2fd3e12174c5c98ab7 -> df05dbe0dcc4c6ee3b98737570d1077e9889a6ccf67180ad44dc52a6e76e3d2c
+~ -[DADClient _requestCalendarAvailability:eventDict:] : sha256 56ba13aa117c20a20d516b2e1c58236062fbb92923bd923610749002176bc4d5 -> fa341747e24ffbc3ed61f376ce2924eae1fef0981d2299f0dfe3d4ac5e2abc83
+~ ___52-[DADClient _requestCalendarAvailability:eventDict:]_block_invoke : sha256 b134bd1734eac1c5299e33b782b7c11692c9dff7b29ee0be8d37194d638f3fe4 -> 85b3d03925d1755a73861e2b166c9dd7f8417ca09624bcf745f533ea00167f1e
+~ ___52-[DADClient _requestCalendarAvailability:eventDict:]_block_invoke_2 : sha256 4bc21c08570942acdec830d1a088918510b08c8c2f9bb8ebee404c7ae8cb9bb5 -> e006abfc59a70b01ef052603495781aef691e45a797e0db33ec6f7eac278ce12
+~ -[DADClient _cancelCalendarAvailabilityRequest:eventDict:] : sha256 7202920e3b4de62fe1a465b0fdd2809467701ea48d28fb32fd3edd47b7eee464 -> 0ae0e7af03bad7366551a54d94922cea974595539f12bf1123a00d485084fb5f
+~ ___58-[DADClient _cancelCalendarAvailabilityRequest:eventDict:]_block_invoke : sha256 d9216d5c5568613b619e02e6fe70b5a6b0ce3790d4ec7c9a166f845d457107f6 -> 2678fbb0e9d154b800405e357b962c6addef2088edee0c66461783d08847d779
+~ ___58-[DADClient _cancelCalendarAvailabilityRequest:eventDict:]_block_invoke_2 : sha256 d992d1d6abaa6583caab638ec46f7a587f8a96afeef73da498d1d2e71d710dae -> b27efe63eccc4bca5cb71108529bb0e20242340dde8578aa6bfcd33f13c40ecf
+~ -[DADClient _requestGrantedDelegatesList:eventDict:] : sha256 e067beb4eaf44a071c98fe277119e74a07996b9f3bdb9ebb32dd1a4de5a66f58 -> 7ad9278cb0f22c1a7ed118d0c67799cd5855f92c9b1158dfc4406a1520ed0290
+~ ___52-[DADClient _requestGrantedDelegatesList:eventDict:]_block_invoke : sha256 85b6eba0e2a3fde11e148070cf797eb392234a1321347aec71fc41e6a57710a6 -> 08b386e76906ba8fbaf35017f418712c5be8a03aea0fd0cb6087bd0d919a50eb
+~ ___52-[DADClient _requestGrantedDelegatesList:eventDict:]_block_invoke_2 : sha256 7a37535eeda874155a9324170fea50fe1e88297df6ea67ceb289015381fcdd33 -> 79e70c4f63088eab4de24b5582f2f9b5ac9ad4a253872343baedfe6c77e0e692
+~ -[DADClient _cancelGrantedDelegatesListRequest:eventDict:] : sha256 70e0d2f7a6850ee232ee729b1a250cad2d644c9b6dfb525c3cba5e91f57480a2 -> dd92811adc57ebe388c8f40f2d9f29bc7123bc0787a408a195155c6358cceb42
+~ ___58-[DADClient _cancelGrantedDelegatesListRequest:eventDict:]_block_invoke : sha256 e79d404662b4a202cd83f8a12a1e11099d95bd71c54e22bdfd27b47b78cad68a -> c1fd6b00194b5d86d90352f701d289204a6f82666731b6dcf29375b6a7685a6b
+~ ___58-[DADClient _cancelGrantedDelegatesListRequest:eventDict:]_block_invoke_2 : sha256 2051cfcde4da6634d96c85d7d4f2cc61efebda3a3409c2c730b532d903450261 -> b84e067603e48a4759803bbefef8dd8ecbea8d48532ead7b30ec2244918a0255
+~ -[DADClient _updateGrantedDelegatePermission:eventDict:] : sha256 29ef528c8b06a406db46be71ca5e986563c916aae3b4696e199ad3af5dd87d71 -> 4b1d430a1a06df41412519249ed12838fdf1326e3f9e5a9f2452cc8f041ebceb
+~ ___56-[DADClient _updateGrantedDelegatePermission:eventDict:]_block_invoke : sha256 edf8711e5a9cce807ae8335d564503f41e70f96fe1140229ecd094f30d3a37a6 -> 2783cbb1e2c3ea8f6556d082036dc1639c88406fc30977d1a0c67fe34dcd1e41
+~ ___56-[DADClient _updateGrantedDelegatePermission:eventDict:]_block_invoke_2 : sha256 9183309bcfa66164d06f8bbd9a6bf9d273876a3aca839ed427ff5c5be3121c34 -> 508f3b7aa268f09a4cad529d9253b7fed309d4a77e5fbf905423274f32e52f5c
+~ -[DADClient _performCalendarDirectorySearch:eventDict:] : sha256 44aacc8670e8f3d49f8a31bf44f78b7415eb02c8463d16e29a5bed103562b30c -> ff9e9fca31f18d71adc8ebd5721cff0b8527b5c3a19c1efdd368ed4135eb3fb3
+~ ___55-[DADClient _performCalendarDirectorySearch:eventDict:]_block_invoke : sha256 eecc9bb245dea490cd7d7327cd762eb16dce146a1644884223f7905f249c1b8d -> c7da68632fed803a95e8a54b6dd03e0cc1b313722861f936b698d0332f1e496c
+~ ___55-[DADClient _performCalendarDirectorySearch:eventDict:]_block_invoke_2 : sha256 461227f3065c6fe99ff648d4517e939741824ba47bb4b2e83e3e581b0ce0177a -> 4181d9bc3657cce18c1564bdec62bdd20817f777d1a73638a462e5792df2bbc0
+~ -[DADClient _cancelCalendarDirectorySearch:eventDict:] : sha256 4852ad81c3e03927c94f6f8459429b24651cf5b8809cf4fa136f4d50c931f448 -> 5be265e8282e9f9f29cad2330e11f173c907a869f6e2428259dd98e39d22479b
+~ ___54-[DADClient _cancelCalendarDirectorySearch:eventDict:]_block_invoke : sha256 0a65bf619ac0921dcd0c6e0fad2c5150bf26c1ebdfb407ef4167b1b5fd9a12fb -> c06629873343840b56d672f97c015c6d62a29eaf54f60dd2a61f608974b5e5ff
+~ ___54-[DADClient _cancelCalendarDirectorySearch:eventDict:]_block_invoke_2 : sha256 13ee20ad10f0275f164bb6dbdcceaa491cea37248512e14b59a513a7ef3dfa67 -> e2b76e1cd63fe02a558f2c098ebe27fd49350007a4cdc29d36692e450f41badb
+~ -[DADClient _performGroupExpansion:eventDict:] : sha256 2a791fd3073b63bf81b1dbf03a5c870663c801d9e3a8f2bf32addb55a23a3193 -> 072fefa79dbdc855b079754e950f7bff1c2bf79138ea3778673c8a7cb1562abe
+~ ___46-[DADClient _performGroupExpansion:eventDict:]_block_invoke : sha256 14134991fcb964d770d5406fcb07fc8b7856c9ced5d63b34d3cd3e20e422822b -> 38dd54af7a07f65fe5d0813e4f2525d0b113fba952bc7165ccc7e12fe6abccdf
+~ ___46-[DADClient _performGroupExpansion:eventDict:]_block_invoke_2 : sha256 2ea2150c2c11eb9527892ef04b8b4ab93940e9c2adc434901c6f72d101b25ab4 -> c9760eeba88eee0967643c9451c0bfa338a505755ac461248e264694b689d358
+~ -[DADClient _asPolicyKeyChanged:] : sha256 75eba23b986291a5c50b81ceb28444002aa8a02198d6d087406aa88a3153aa75 -> 8499ebeb22ae7c93b5f4782ee79c1141027fefa5f3dd23a5cd736b50d9b43fe0
+~ -[DADClient _requestClientStatusDump:] : sha256 31db4fb6610a49df0a84649838f4cce969fbedf50ee5860df28142918c371911 -> c506d94cc61a745dafddf2638d6b171232f2a68e3c551b12fa55017e8bf39f65
+~ -[DADClient _foldersUpdated:] : sha256 d8bad94db078a9d4ff72354191aba9dafeb0fb38c9060df6d7aa48c459066a02 -> e834116914666a731ee3c5abd84823ad16c2e1701744c33d7abbb95bb2d112bf
+~ ___29-[DADClient _foldersUpdated:]_block_invoke : sha256 9f940d9d541c652305a184b6f764cb1bcda5c6c8bfbfa8fb7649a66e61a5e4a8 -> aad8b6c3088f8353d58ac4ee8a7d317b0968ea488e68524aed13aea450a89e62
+~ -[DADClient _agentsStopped:] : sha256 187c191121ca7bc2888d526317e49a8e9705ffa4f35cd8438748f1603f220cfa -> 551c57723e031f1460a1f1f8fd96c7a3abd77aff0df34cd3ae02a78272854024
+~ -[DADClient applyClientStatusReportToAggregator:] : sha256 b066f1534f2e40517dc6a594b1986d887cd1da79ea7f8df7bc8707db5781a3d5 -> 88b00569e2f107acc38b58eb19a6d445496342fce1d55fa971e26e5f317e6dae
+~ ___49-[DADClient applyClientStatusReportToAggregator:]_block_invoke : sha256 8eb7173da8b7d43c98411406057538ec43166fdd2a0c2d94e70929737d4b8b49 -> de61f00853762ffea1dc05c1306514f25526b22a7314f4c9cf4772295d0646cd
+~ ___49-[DADClient applyClientStatusReportToAggregator:]_block_invoke_2 : sha256 41fe14c9e1295d5bf4d22156e98a1cc15ef2f41153f080c5f5f6c6a2fa953d3a -> 07536743c157468ac9a2b51b658c1f1ac653df7127c8a1c0709b23b39960ddb6
+~ -[DADClient _manageCalDAVServerSimulatorWithHostname:action:] : sha256 5e5ab1283cb8712981abad68e9cb7ca5754747368e37cc1f55f6df1341e9a30c -> db5e2a0e08bf990c261057420e7b3c66a36909d1c07b192d57a6ba7d972f549d
+~ -[DADClient _endAllServerSimulations] : 268 -> 264
+~ -[DADClient _checkAccountId:] : sha256 6f0a70a8747bc16b7278a76b5ad0393b9b719849b54d4feb26da0c723dcea498 -> dc1b7246a2f49aaa0da680d042ad31430bd5526e6662b26c5e2e117eaa271d07
+~ -[DADClient _sendInvalidAccountIDReplyToMessage:withAccountID:] : sha256 b940d5221a663b78960ac961d6af1c2a98b583878fbe31b111875c947f73c21c -> 939845a3bb9a64a22afdfc77ec902fd61bd6fbe4fcf2c66b93faab1759d9c30f
+~ -[DADClient _clientDiedWithReason:] : sha256 009804bf9f90e3b23452ef4dae2442c601ec985d524fee577a9cbb97b4b7ebe2 -> 359a886425a665a8340f3a2465fc377449154286030442c315e3ee1b8aa86c29
+~ -[DADClient _dispatchMessage:] : sha256 c8983b28074c5566726492967bf4be540e3cafbc0c3987ea0c5f9a76127302b0 -> 54458feb8d3e96e8727004ad470556a0705b6fc95ba10a4f9822b1bc4e2d4788
+~ ___30-[DADClient _dispatchMessage:]_block_invoke : sha256 72836d546307c69ac388d3f95c344e20b7ccd0ddff8b3ad47dd1c8685e42a8f0 -> b84236d96faa3c8422bb0cf43398bf0350b223282ab4aa597833435977b44897
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_2 : sha256 79d88e010c0fa3391341661d9b42665c679e7c58e628a323a8d087a6d0d93002 -> a20410f3c13c65e914f88a771e863f6d0b8381bff39d633e21d4629c0fc2458b
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_3 : sha256 905b3fce27f756ae7128041d20cf15a7f124a7eaf8ca5d5af5fdb0d83b1273c0 -> 10696b21faf26537a5a9ca6b3f912e4705157c388c42864ceeb3c8945ff8d7dc
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_4 : sha256 cf217b2e349fc861c0fc593a0f91fa690b9a2d33b8400b8bd33b14bbf6146939 -> 898c878d6d2142c0454b93a0e4c2dd87de02562e7c1cceb49e68979eec9d1d3f
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_5 : sha256 7a8b6d0ebc6f5551f672f6b977169aff1236e3c484d1a10e0803a42fe8455c5c -> ca88d370fcf26131f25f603ba1723df1a3cd1722ede67a338f6bc34ad51448e9
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_6 : sha256 1c74f4a786e702a4c5ca258283c233078b803d4494a2a4565d76b9d64b430358 -> ad466f11603bc5fd6ce964657b34ca09725f97c6cac4dcce4db463be724ed3ff
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_7 : sha256 0f7a0a9d5ff6d5fd43607b5a5cdb3c2e4b7438a878dbd1d982ed6051411eb551 -> 2000e70edcfc3b10225e76879f94e83f8df632d2c47a92b7ccbfe4b396c63db7
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_8 : sha256 6dcd20fd6e8882ce717c227abd0575395638792ba1265459c948ccf6b32876c3 -> 551387c929e1b9238b20542e66b4b25662cc6629b890ee902a3941ce17295b46
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_9 : sha256 f94c2781b2291c06a64992e6c691a156f39e98843d40718545b29bbfaaf45d54 -> 69e9ba3a7d9a646dc61cad25f0a1587e7e031ca913926cf60b95ff1847b3d581
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_10 : sha256 c995666733cd84f0ad570b8416c3bcd61f2d27b2b968f40e7dec8775d859d8ee -> 3aa2568d9da46bcd60e4be95fe0843007988d6f2d269de6f49d2590a379b604f
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_11 : sha256 e89bd2022626c7b96318b0689c75beb0690645efdd39fa643978e34a4068665d -> 75bd707fa648a0cea350fedc70d0a1793f990871fb28d028020716d98e33065c
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_12 : sha256 049c2ef02fabbf6f2a686da748e0827a434ef8e76755e841da10d4deda7b9b74 -> 2415918bc74a4cabb0ebc0cfc2da6d38db431a11d183d69871a3159b1e882f1d
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_13 : sha256 e546fafe16f0444f6e028d58b1e3de5f3bb7000ad50cc23647895e1fd4056ef9 -> 111e8f5c3529eab991e24b1a87fdc9c14d6418d1aa695805bc2dbf19d8c7b14c
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_14 : sha256 ba8fc4d756a49eca90f458a29fec3478ebce5f52e6c9969b0be7dd9b9374dd41 -> 2642d02b9c348e0b8aae9f7d9a11cd92cff3291e929f644ba5ed0850e466f695
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_15 : sha256 36d888cf386cefc3daee3a34154bbf60894d86b078256c22bca5f182f4324dc9 -> 92a7fb75b9d1e0de89cbbe15eee4550e001d675ebb0f4948b8277392822b3b68
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_16 : sha256 baf0c298a3bd40007a3eae7d511f0dc817ad688c3f2d50000ba3eef346f20d18 -> abe14b927f302262249272513d944c3cf2160a982c5f0133615bfc5c4e7b1994
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_17 : sha256 884afb375d54609a1447d6b71d04b42f6417de60288c714c2483a7c03551d0f9 -> 93fd7075abd50ef4df78d77f06e09c41fce79d08747998ac05d2daf424671b29
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_18 : sha256 0c95077e9f465d047fb926093d03374ddf47812d135894942aa44cac46973d92 -> eb48341192395e666372a1d2f7b52b0dd68a9c937683249411608ffff0e95881
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_19 : sha256 98eb4bf604835a89c79f4fdd5a2468f709b1d923274b594f3208ca75fce54c28 -> 6df599942fc9512fe1d2f93656952bfdff66e19242ad54917c14274c3047ac2c
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_20 : sha256 f0565dd12b9e71271c98f5b0d71ecb74731a4fea663b5046e6c3980e13b10bcf -> 5a9c886b3163b8bc79b4e507c8587de3d988eb3bac443690f29a2bb38d8de817
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_21 : sha256 f1702c6af6fdb282e4b5e06a3850b9afcc4c70d8e8812b1c4af693ba647b2e5d -> e549ebf09ba0cd78fd3ba2449b90aef7afa65bb67d6fd7016dc479edb10db4c0
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_22 : sha256 3443d20d80c599cc767ad9fbbd703f73e5c81efb2ef64f858abaaa959cd4faba -> 3c03a97f35adeb678dc05382dd30b8ed7b39ba48c555cf5f5c4eae4f0aa678b3
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_23 : sha256 9bff4e9b56d56588ade239d068f0fdd94519fa57b501f7f3ce8cc34e6d74320d -> 4bad3f9d1b36a6a0a2dc1aa4f42f1b6fff15a2b7c745b12520c55448582b1578
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_24 : sha256 4e41392918484ad5db71d9920cad21eab433877d3a5e3bea5490b8f4aefa9dad -> 099e827e9c3f8628f293e4088ac9483bb2be39896d6be58ff08ef4ec14d0ccbd
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_25 : sha256 aea7c3028144bfedd6bb5adf0d87a810bdd14b71054cd28e6a50f03c2403a66b -> 93b9ca65993bbcd01bf27a8cb50ff4ef3906462386138aab44d353e7cbb05b0b
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_26 : sha256 e678ebc6f754a2b28c534cf72974f44075dab95f5a520fa5dd23b10d10f610fe -> e7bd41d030ddc5236d4b011b3b341fd0246fdb1b0664a68a37f4d3f3fe03b90f
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_27 : sha256 4c88e80a654ed53a1ac8a7ea8b793791f4b9c35fefd86df96a10059168423c8a -> 2fb5ab61bb8a72b18c2d23f61111a7082ee629e2e3d57bc7bf29380abdd47e1d
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_28 : sha256 66a61f62e8c41cf43ed1a76f16f1839398f303f9a97e753851c274175bb808c9 -> 36f4cbd3e0d220a48b4510abce743a9baa70ee86d47f8456d425d6113d6ad87f
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_29 : sha256 d6b5d9c683fa83bd6a7b64b752b1ed34c6842bf3c46fdcc206b9e9c16c0a5240 -> 9f17ac3ff388e67fe81b78fc71a5a6394fb0d2f8cd84e74d70800b7b461810b9
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_30 : sha256 7fc0152253b39b74dd5fd2b81013687fa5c4748b7ee79731a512f0db4e2d6f6d -> 8d4f784fd4063de4d26b109ad3e5e6ef9ba2c7e9083e93bb8183484b8c05d2ba
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_31 : sha256 a11abe4e56294c3b665c41c6386b07fd37e87d4e997336589b7e346d1201a7f5 -> 0fa19017481600618c0e8ea5d6850b91a101e09cee1235e034d57d700371902d
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_32 : sha256 903dd734644a053ae55e2d9ffeae1393477fb7a409fa657eb91f27f618a3bf49 -> 2e8742e7447c7da4bbcfc9d131d1703d1753cd786d3571e383546c8501bba6ce
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_33 : sha256 7b037b13bb1e1468b80d10ae1384d4ca364594ff3b8a4b8ddaee9e2e5395a6a1 -> 899cdec0028c6f5bae6bbcc766342089acd7f1efae5865e968e04dd527995665
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_34 : sha256 0dfc313f22d1b83708d8fd39864989a0243ed88e5c26092a63d165f29fd44c3f -> 07ef00a00470aade80fb2d9352af8deda5b3b7a64fa62cc85ad7feaabb310025
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_35 : sha256 140e2c06f0a335f5f5a8482e0fbd941a49e0c312001500a97a01794e472d2650 -> 0d83a436a7262a3b2e13e0719e59972972b50e87fa48b2811b5f2f70344a7d1d
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_36 : sha256 710f982855b2f95f0d3d31455c5bba902929e8493999521b230e8d42016990a9 -> ad3fe3c097c509685c0b9befd75ac1bc7dd0da47cd928e1a66b5fac085810aad
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_37 : sha256 1c064527414f888507424b127fd384388051d7bf398605ff16f972bf2a506026 -> 3ce2c646c88486dff40e826c58834fd3e6f30da4a7cd9175b893ff6ff7472ddd
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_38 : sha256 ee88caa2587704f9d0f2c8622f8657e7b1b1c021d74c030d56c1acc85b365c8a -> 7a9ce5a2bdc593c5f22544c7a5cebf4d8ea39006508c5baa946b5d60899dbd97
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_39 : sha256 caf0fb448c046acc8f20a39d1f0d40213b675b472dc25e1dff6ce3dae6596aa4 -> ed7f7d0ad7e3d3e662732e6e5cb7350f0b5a4620e479b16b07a8d6f97f66c675
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_40 : sha256 f5fd4f26fd8214c2c0212faf69c457615e1f394fa6779ee780a950628863022a -> b414753f31323acd79f6636838b729d26b3f88358e1caec9795e80fde09b00b0
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_41 : sha256 1155d4c2d49de681aba671859883e462c9896015ada43182333a1df99591bbe0 -> ca059a07cfbb105b9acf98ab83ba7f11621e277ee4748c05f4f5b52cbf9f2868
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_42 : sha256 00b4a5bbba9f0427f72a6f678f72253264b8772e1eae25ed5fa59bbf087fff22 -> 9015661e8d352d4213dbe66ae46e993f57bcbe267338412cbe0fd04798c764c2
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_43 : sha256 25d4c708a17e6dad8e53202f1332c66b17ad52d9facf0dd2d36e16e194599b2b -> fdf6e1a6fc4c451803dadc9e622d92a24601d932a0034f2fbd29cdf48169ea58
+~ ___30-[DADClient _dispatchMessage:]_block_invoke_44 : sha256 d8da72f386a7cb5c6d5fa8f83870b91f657590c18c88ca783c1682864453a986 -> c50fabfc343196f5652b4b5f9b0682db9d1845b1c18b26148e73c64332f1ddad
+~ -[DADClient rawConnection] : sha256 da6932cf10f94114f2c97134048eb8fbfbfea2958488976e76c3487facbdc15d -> 09a18e944d8d11ad1d508b025f6b9c846867abf2b333fdbf91be328d763c31f8
+~ -[DADClient _checkAccessForMessage:] : sha256 a04fd8393f42f326fe087a8ec21fd53c37416ee47edf500144b481a5834c086f -> b8efdc1eba726ceded6df85a43340ab337995b26e9dc44fd3fc48b27200a9e3d
+~ -[DADClient _sendAccessDeniedReplyForMessage:] : sha256 69c5ff144e76445a4d378d96cea1448644021272c87330440ea80093d32d9ec1 -> c6f765b7dd310905eb4ee366770dab1a260b1deab3ea30bf38d0828bf2c5f03e
+~ -[DADClient _hasCalendarAccess] : sha256 c4dceb9e5110f9755e7d2dbc959ecb4af968203ddb13d4ae90d546c958657948 -> 2a1ee535ac7873de7260eacf82e440ab6c78eb4cbb2406490e021eec1f491171
+~ -[DADClient _hasReminderAccess] : sha256 1cb9acc523fe7a0fc14da5cd8acdae8bffc53a9387984ae072993170114db35f -> 1cd93445cccd4e9b0587a9d471e2611cbf716f9223dd96a2f6386d1066fccd46
+~ -[DADClient _hasContactsAccess] : sha256 3815a0ec72a7466b0c3617da7e6f2c1bbe6515d792bbe847f96ded85c0319ea3 -> 2f50e804e741fdee65eba1a5a539ad71a2f6f3c293a21e0a5a7280ee7ce82f51
+~ -[DADClient _isInternalTool] : sha256 24b6cb63bb8e1c8764cb36b00c91538ee1e00777e146322066921707ddc1db2c -> fbfd530d8218f09c822f98be663186e0278fe843735ebf0caa838df4caa95808
+~ -[DADClient _isAccountsDaemon] : sha256 8f883a15a53ec11c8349b4b940fb2d77dd8e82574e8de32371a007322d37c824 -> 45b6207eb00806da21530ae400faf842169b6c57511faa50e90bfdf33b63b2fb
+~ +[DADClient permissionsForMessage:] : sha256 eac765d88253e6ec3fc2cbc78b0909c2b1fca341a294a4d0789ab2dacaa8f928 -> e23c9410ae64a950cda920d33a732e1adbaf2cc50c042e6cbc09690677c5c2c6
+~ ___35+[DADClient permissionsForMessage:]_block_invoke : sha256 f77e611fdea8eb350c792a009101987822645e203b9d1dfd0c363fe517e40968 -> e0b034456e3b897029383ef3341ff1c055fcb295b33d798d9408e31c4e940c3d
+~ -[DADClient persistent] : sha256 948daf3cae95f86881cbe5e9e30edb627ee7f031f75f3cec969a0f68ca1c1c2e -> e07d946033615c6c03eb588ef846a75148e576d78bff1172810fe85f4079a973
+~ -[DADClient clientBundleID] : sha256 e34cd76d467f66f6d27346ca1da8688546b9c269483a4aed0811eaa35a4b33ab -> 3ace29b3dcc13fcdd0743240752496a8d9765b40c227be5dd391929da2a6ccff
+~ -[DADClient setClientBundleID:] : sha256 3ab34a50627b6c96fce18acf6dd7f8547c90cf9364a6aa4f9016b6a2a6e11b75 -> ec3e28274f43eaafb603d48197797a1ed102bddfaad672fbfd21d2f9229a74f7
+~ -[DADClient clientUniqueID] : sha256 258653b44402e75e33d0067ffcab3a8f48fcf3a39905ec9ea7d70aec8c4c8de5 -> 6b71aa94cd554ffdad552c865fc63b9eb4b2a2a7be80b8f0f29bc883b693084b
+~ -[DADClient setClientUniqueID:] : sha256 ec5e2c7f76c8c5f4c99c58e542c84b5e37519a3aacca61cf79c0df288acdbc5c -> af0d7f2fbd318abe52d06ae35f7a937cde74750e499d08d7e047fd3a16b7b0de
+~ -[DADClient setClientName:] : sha256 086a33ce7ad8909532e36ddf1a544d2f2063998fdfdd6e4cf3a8b4142e49bd8f -> f94638574685922a263b77d5cdaa94f38e58f8465706583c3793e099831dc4a6
+~ -[DADClient setClientPID:] : sha256 fc036c06b39e3a7570d91f7c0db4a28898e9ec777e7b1c5170df569855acb0da -> 990764774b0a7398ddcbba0bfb64791ec3adb635ecf16f753f50627a0803481b
+~ -[DADClient conn] : sha256 33b1a0137077bbb599aa3f8b17042c202cde72db0c37aba131e3d4758c237168 -> a0e4e3168048908a5caa5039dab333f6387e6f00fcad5b60c080fe9d25939ec5
+~ -[DADClient setConn:] : sha256 461da41fe6f636d0e58a417a14ceb1fc6d7af39a4b0540c89811fb8f74641b2c -> c116db781dc3c53709bfa3890915b15466264fa049dc7acea3ba900d216d016b
+~ -[DADClient watchedIDs] : sha256 e310f1255f93dfd6a2007b34f20b2eeecb3aa98dcf9fe891d776ce327d934944 -> b86cf41919e127cc5c4fb3772041b1c46da9b6de28238dd362bb35c9bda51db0
+~ -[DADClient setWatchedIDs:] : sha256 4c25c170342eadfee80ae048817b6ab2d0ded3e780c17860ec8e4ed08598a1e0 -> c8dc359db43d4bfcc472721745dfcecb2d5e84ff6790516d6b72b2e401d0bd97
+~ -[DADClient busyIDs] : sha256 27f9f745b1c46e2d1d3d946bf79dc5e6666dbf6808958b30e92b66ef47d86379 -> 5de13b8e76c6d5faa4432062253e0b4fe7ea69a85d635b84162ea6865dd59645
+~ -[DADClient setBusyIDs:] : sha256 be1af579ab1ed024ca4d766f903e4dc5463544eec0288cc594dcfc85424c0644 -> 9a0bd192df0517ccb81b83fe261c65d96f7da98a8117e5dc1a9c49f4d37939b2
+~ -[DADClient updatedIDs] : sha256 fda7af2b2f01f42ba3335de3ee2dfdbeb63ede516c817cb0b7387eceeb444c81 -> 631b06b1b4b3371080c432aa18a34ccb9c2a79bdab713360ef447740ef521df4
+~ -[DADClient setUpdatedIDs:] : sha256 9708b3740a6404a903895f5e75a4f99f4037f3b6f8948889f68f47ef830d9fc4 -> 02c2a70cfa71e0906247b797d75f65ba7d5f95cfec52f8be79b9612476ad71ab
+~ -[DADClient numOutstandingBlockingClientCalls] : sha256 238796c6d308f98560ad2949bea53ccb62b36479f588d3caa823914799ceb825 -> 17ccb09ed1c4d948cacfebe120e55b50ee56c650360aa37545905b2331f006c0
+~ -[DADClient setNumOutstandingBlockingClientCalls:] : sha256 31d192d46467c1fefee4f6cb0bf7e8102f60c656d999c9b76468fdf41b33cea3 -> dd93f8a0f21003c29f03943be0b70a87ecc932f4ff9856d01ec9dbd7dd3fb016
+~ -[DADClient numOutstandingRefreshPriorityClientCalls] : sha256 900d4c34f8a301632bd5aca8ada8a44df5a6b06503b57c06dcc94ef11f9ca168 -> 1a2d2264e4a043dcf9433b72ce242b47bdd7bb5118c0a97ff2b1d9110fca8655
+~ -[DADClient setNumOutstandingRefreshPriorityClientCalls:] : sha256 3a7486463870605073f49b3f178a31a043372a87dd813de047f6958a3bdff884 -> cffa26c483eff930dea3e7a7da7d8995d7053bb7860305bc3029787276ac14a0
+~ -[DADClient accountTimers] : sha256 4b03e579aeb5199b8cc7b4b3cdd8795fc4f6011aee5cbe9624619038f2591555 -> 7ad58affcf8bd856d6a0ab74e162e0f4b9e4c2e0f8cfbbe5654f9f7cdbe18d44
+~ -[DADClient setAccountTimers:] : sha256 e47d678159e5074bee0c4d5c8889748bd87358dcd0661ad0deb7825c3b7707ab -> ddb1ed5143dc8ef28f05cb0028ca6be9e7f9a8c529c8c5ff2bed9282cb08a669
+~ -[DADClient actionDelegatesById] : sha256 35e6ce80beb0676ef192da1e31592661829e72c0badd794eed3ed3048fa0d8f1 -> 338dd281b6ab8b5aa8c0495b0e4a1b99d8e596382017b4021d1c08adc5474c39
+~ -[DADClient setActionDelegatesById:] : sha256 928200a0a5d66c004d54730ce3822537fea10e1f804d3151823db86610bd9127 -> c488ea8dceadd2fb737c700d1cb6c868abc056e0bcd2d913298c4731d92bb8d7
+~ -[DADClient agentMonitoringTokens] : sha256 ad2b86aea726923168107ec7103a3fdeb54ee848576077b886394e67a1667d3d -> dd149c58a0ba6aa471145dc8779f994308ee848582feca645c901bf6ca8db511
+~ -[DADClient setAgentMonitoringTokens:] : sha256 c09417bf87d8a0afbf09a8c09ef24ebf4f3c55dc3cb39f80e9413a38557d6a25 -> 9f88e751d5e745549a2739f133b46079a9ea512032aa595740a54941db06dec7
+~ -[DADClient simulatedCalDAVHostnames] : sha256 32cc02c032458cc6a4b6d75f242f1d518c20716804ae9ad4c412d5fd2c5a28e7 -> 213b112a40c79c95615cca77d4c1c8ee84e1281344b29e261d9a079aef13b466
+~ -[DADClient setSimulatedCalDAVHostnames:] : sha256 3ad19f18ab691700263a5d8237980518369d2fa5059602b2d525f31ecbe64fc2 -> b1e96108a7c99a87596e365931cd897ced8f6cee378261cd263b6ce070496e93
+~ -[DADClient .cxx_destruct] : sha256 1d22d5cdf502b82adf0de0423f1812e9a98dad6e5948282dec7dc00dfa9a8eb9 -> 06022fe40cc12e444b98790a28e67ef45cffeffa7a5b40b0d2de2deccaed91f7
+~ _OUTLINED_FUNCTION_0 : sha256 d3445dab8c6653539d48ebfebd87013342c1ab9428b0077b5b52a2ce6817b8d3 -> b27493010524a12115e40f43c0359e836d9293733785ece0162113f979cf4171
+~ _OUTLINED_FUNCTION_1 : sha256 9410762510c7033f18825b01b261535281138f57ff7b8912ae7e3018c49867fa -> eb5e2b6d97ff172d0acb0c4970456bd18383a31003b11e02b5c3250b7d66a00f
+~ -[DADClientCalendarAvailabilityResponseDelegate initWithAccountID:client:startDate:endDate:ignoredEventID:addresses:] : sha256 9f8d0abd7b16019d308b023d6bdd879061389283ea3e723c6dba47f0c42ce23b -> 721fb1f236ce7e2b8a1af62d93b3720287a16a8c46adef1299e570f65b15dbf4
+~ -[DADClientCalendarAvailabilityResponseDelegate dealloc] : sha256 89cd8a2f72493855cdf25cfe7dd3d5775b701b14df28da2bbea1885ab654bba4 -> 1611398961cbd0cbc9450bfdfa36c0f70ae136e7490a4bd165b4161b4c45e1f8
+~ -[DADClientCalendarAvailabilityResponseDelegate finishWithError:] : sha256 e2b20ca28ea66a530e717ee2204774a327839afcc525b4f011904ebca9e0617d -> a6ad0cb65cd2f73dc505219ffd7a45bd5a75381d55ba2616dd37073a1beefae5
+~ ___65-[DADClientCalendarAvailabilityResponseDelegate finishWithError:]_block_invoke : sha256 8e03e1fc1ee10eee37031e31dcfc223e7a3db608906e45c01d811c63d9b0c4ab -> 27f15507b191a9fd7a4955ba0a74be3f71276f477e8305364a53bdc9044755fd
+~ -[DADClientCalendarAvailabilityResponseDelegate performRequest] : sha256 5effa57ca68c202920726493ccde544033d2cdc733c41c1ab3d87b7cab4ded0e -> d085683682e0b091e95d612f057c8976b5ec1936319d97f9648a1011af0591a1
+~ -[DADClientCalendarAvailabilityResponseDelegate calendarAvailabilityRequestReturnedResults:] : sha256 8e929ecdd40830eaef8d56f1c27ea3620a356ce38ce016b4f719d8ce9aaef091 -> 0406c0465af79649e83eef5bcb3b6797330657b977f10cbd9d9b266e77a541fc
+~ ___92-[DADClientCalendarAvailabilityResponseDelegate calendarAvailabilityRequestReturnedResults:]_block_invoke : sha256 32c1c11126958cb9f17eace638c23763536fa2fe895fde050ec33fabd806a25f -> 1cd4eeb8c5ec567fbaa41119658875d8c5e3fe8926e668ff75cec7cbca67e533
+~ -[DADClientCalendarAvailabilityResponseDelegate calendarAvailabilityRequestFinishedWithError:] : sha256 cdd2b9d951c5120a3daeb08f0291d0e6aeb6c9b7eadd9226b191a4ef916649bf -> b10b858d037c5df36f81d47e39d6b3a6fee5463d300ce38db8aa1beb7085ba25
+~ -[DADClientCalendarAvailabilityResponseDelegate .cxx_destruct] : sha256 7155b6bf3a3eb45110c4a3a110c35319dc83ba73a6a231fdbfed0a6e7b464800 -> af0d8b30f9e31b152392f02c3b00be5219dd406d9731c23896b9b2de6fcaba2e
+~ -[DADClientAccountTimers init] : sha256 46babdc10ce54313785c3d872439bd2b28f4c26da106a7534bd9b67e10d4e53d -> 2da88cf27b84ea16b2032ed124ee73e3d25741ff41ceb717d87b73054500f34c
+~ -[DADClientAccountTimers killAllTimers] : sha256 184c4022e09603c293ab333fbb7f9a942cf9fac6a0a06be75a82db87af06cb75 -> 71253e15293777400db9f5a1e039859b7598d773784b00543c8a16464ba9dd61
+~ -[DADClientAccountTimers dealloc] : sha256 df109ad7d1e5024e7727f9d0961689e1ed4a8a900e0e059cb3928dd63fb7091a -> ef11c24d0f35e21ed5995d6cb052461f22b62140db3f9636edf8964dce042979
+~ -[DADClientAccountTimers deferredTimerInterval] : sha256 c846b179a945c89f61d4f2b7db37fa590f55d1fd8034654cc00c21ab8842928e -> 582907ab2f2007e05dcd6e4d3c8fde98d4a2072de06ced92bb9d30b69d6f221c
+~ -[DADClientAccountTimers lastAllFolderContentsRequestDate] : sha256 198b17d1b1f83bbfa4da00d85da8a7225889c05204b720d6cf9146ebb6a9cea0 -> 77b3d0e13d283c97233751576aa0490ae3b5a8004409dcd1baed1dafd8458ebe
+~ -[DADClientAccountTimers setLastAllFolderContentsRequestDate:] : sha256 b076b66a655f23020badb4676cb27c48c666c8ad92139922c3526b4b3fd86a0a -> 87e65e2d3bf718f85ec22617553241304bcf3f310a8124477639ba481df1495f
+~ -[DADClientAccountTimers lastFolderListRequestDate] : sha256 680e7520f5087fbce52dc451cb3065da0932aa9e26ef4237c87453b22fbd9188 -> d0684afa9a9742ba759cbd5c93738090fa9f5ce69e7f32870290ea2e66265215
+~ -[DADClientAccountTimers setLastFolderListRequestDate:] : sha256 b005a1f81b6e4458a0e2af8fa17841f284d1f6a19d21d1d3d864fec2e8212da7 -> 32e65e76d2de9d07a509044b94d44c3c537b647469833ed9592b07fa1d6f9099
+~ -[DADClientAccountTimers lastFolderWipeRequestDate] : sha256 d6a5460761a959dffb0331a8684892af5c31098d12b1c8e07a6e1872a6e585b3 -> 922836717b77ee95963698b5e52079647fab72d0b9e463f939fa0701f9baed2c
+~ -[DADClientAccountTimers setLastFolderWipeRequestDate:] : sha256 30776e05235b4143692032ae3864a893d71bc2867c5b305116dbbe67d46f94c7 -> bdf184385a02bb911266a21da89482a85815d52117199f3e08228da7427edb6f
+~ -[DADClientAccountTimers folderIdToLastFolderContentsRequestDate] : sha256 97187766643280bb604f765a06399f8a5211ca247a33cd210e152c3e0b5b7a6a -> 5c180f7b7f2b8b80f0e404f6a78bbf96dc824193dbd16dc60627e20e745f1b42
+~ -[DADClientAccountTimers setLastFolderContentRequestDate:forFolderWithId:] : sha256 e938be3ed492ca041d3504bf7950b91b5e5df478d85600c655b48c77d7f0f280 -> dd343c7aa0709d8e18ed87416454d43d460df0691a543aa3c340918734893bb0
+~ -[DADClientAccountTimers setDeferredAllFolderContentsSource:] : sha256 11cf47144c2ecb3303167717b1f3a41312c6d38307b32636632a6a2e396f8c5d -> b1c73a97a0ee157e7a5aa9c7d34c2e00d62a432c21627e23717a9300deef208a
+~ -[DADClientAccountTimers setDeferredFolderListSource:] : sha256 f065063b8b737900b629f35b199939cf3de7703bdf24b6b7aa62e27feff14b13 -> 09fb3a61dfbdf1b7c17a6798b6a8fa78c71e530eebddd439401ef8f50c627e4e
+~ -[DADClientAccountTimers setDeferredFolderContentsSource:] : sha256 baf3e64bf797158dc8fc337c4c559f200ed624b56d867d450a585648b1dd566f -> e7179d0eb7168abf7d9b0a87464607a0c30124b5a508840ec26b2e8376f03053
+~ -[DADClientAccountTimers clientBehaviorForFolderIds:] : 436 -> 432
+~ -[DADClientAccountTimers clientBehaviorForFolderList] : sha256 1d70c3e1c4f8cf6243fa51756714b9ea1d1eeea26f657f8377d7047858072088 -> e1cea871d183ec6c2534b506667df23f87bbeb51ae14b670476a30be88ab59ea
+~ -[DADClientAccountTimers clientBehaviorForFolderContents] : sha256 8e35d84b1395996e1d12c469db3336d98de9bcd6e4fded75ed48a2883bfd9c40 -> 9d3171a19a459d4f704aefbe170413cb8f84673954b77d1f49865d6157ba29a8
+~ -[DADClientAccountTimers allowFolderWipe] : sha256 db1f0abcc97e0a69e2603dc23f05d9b6952e9f2a998ede984269025e790611a3 -> db2bb0746d70af96d9db7a0815bb79d38937843931da28f37af0d91c989fdd92
+~ -[DADClientAccountTimers deferredAllFolderContentsSource] : sha256 fc9a16b5ae8d01903082a988d1baaa1f39d73e9c7d583410dc85d3c42889a18f -> 09c056be4e847261e5ae236d2791cd33e1e6be85a0df85103dfbdbb882604ed1
+~ -[DADClientAccountTimers deferredFolderListSource] : sha256 ae4392894f3840c105b6c39550404dfa8a6ef57dabb4997597c3932a6d328162 -> a7bfd78c17d8c720f5050dbe77fd4a083338ed6a2c4057024263bb74e726bb7c
+~ -[DADClientAccountTimers deferredFolderContentsSource] : sha256 81cb9dc3ede707fb77be642985ff59bf2859ab0d07e96585f87e76df4cf73dcc -> 165e4c764fac924357329dd36168878603cdb891620249a1cdc0e7a62a53b0da
+~ -[DADClientAccountTimers setFolderIdToLastFolderContentsRequestDate:] : sha256 5efce0afef6bde9e1ca653d4c7ad6af735e4bc119a1240b977c8fcaaa904039f -> e4312abab65c2b59366634404b97bf6c8e4aba1169301bd51556284961e236ac
+~ -[DADClientAccountTimers .cxx_destruct] : sha256 543194d1b090867df64f2d7934d3c01c958766fd95bcb155886debb3bc069804 -> 37515019ded75588e5072e470384cca6062b216eb1502d68a6a6e7448cd342ef
+~ _handleSignal : sha256 6e2b8e5e5323d3a5b9a328076c858938643aa6ed7250664d79f89ca1288f8cdf -> 04e5edd60000f8f2817facb92de32d3918879835b4e9d7b3d0e6e7b0a2768f47
+~ -[DADMain _shutdownDaemon] : sha256 fe0b43296b4277167555794d68f8ea9acea9ceebae834d983225a051ab0b0b4a -> 2e411ca2a367dc07356935dc61921890b3a269bacf80b942e0eb2040880f264e
+~ ___26-[DADMain _shutdownDaemon]_block_invoke : sha256 f27d129a54800fd48ff8fa19e5b30e25d657997da088308d851c4c7fc5bf1a5d -> 7ba2a599151081c0d8aac2337c2cc91e71ec873846700c34e0d782cf190c2b4d
+~ ___Block_byref_object_dispose_ : sha256 7640e8bd14ca91c7aea066b9c6bf8f55b2a8af3b6c6d987b105f8042e5745d0f -> 186bbf310dbcc990b8f278fd1977af521685248447b049ac122f9dff7e0043fc
+~ ___26-[DADMain _shutdownDaemon]_block_invoke.5 : 432 -> 428
+~ -[DADMain _forceShutdownTimerFired:] : sha256 4038ee1de3c8bd4e12c5f2435e8a373804aa64192ce76301c684d53a2cf892c1 -> 28a5a9ffaec112b6ca256efb64804149190fb8d9bce411adc4da292f63d08288
+~ -[DADMain _forceShutdownDaemonOnLogoutInTimeInterval:] : sha256 d762b4a18b2ff61436d3b12ce97f32d5f195a90b7ae950565fa9e488fde36a0c -> 19717013c31fb50235a7c0b7458ddda630dcda5e427c8e9c2310f79dbf552301
+~ -[DADMain addToOperationsQueueDisabledCheckAndGoBlock:wrappedBlock:] : sha256 7ae21f5002442783f7401b99e5bef5fe8c3dbdf01734ffa552ac66b2a383e581 -> 288474125a5861a9a85e0efb04ad6381850199ce8a5ed0e215a1016ce70e9ed3
+~ ___68-[DADMain addToOperationsQueueDisabledCheckAndGoBlock:wrappedBlock:]_block_invoke : sha256 77bffac54190bc8118107d040edd9f7316c0be6868e4f3dc350f021067c728fe -> 97f2f0d315b17a8a46291d60f0e5311c3f5976a9ebf20aa9dae03ee59cea830f
+~ -[DADMain willSwitchUser] : sha256 5ae4e6975f8099aa1c06b1f09131db9d2d1920c7400a7fc9572ea51b16a20fb9 -> 59e9507d6c699949caa1b549e61f0ff4b1fd19d98059b9e3f251607f965281d9
+~ -[DADMain didFinishAllXPCTransactions] : sha256 237aef518208f35db454d9b03ede53fdcc46725893a0446a7ca22a157d907434 -> fa63f6789e24651380bd8284763ebc51c5d1677af41e61ac8f8aee218dfbf631
+~ -[DADMain addSignalHandler] : 304 -> 300
+~ ___27-[DADMain addSignalHandler]_block_invoke : sha256 feebfe7b47f6dd5851dd5a354eb8fde850a6095d5cd2c182c0f5f7bb46682588 -> 5c284aa507a7076fda91ea2c39ddd629f536b1de712eb2212926f74867c42055
+~ -[DADMain addLanguageChangeHandler] : sha256 480e2bbcff62a3f7c5e3e6eaf2f07b5faa4b9e69575589294f654a8cf6a41f6a -> af419a183b22724024094a7b123b6e05bd21022e3b04976a0b3bcc773d0463da
+~ __languageMayHaveChanged : sha256 cf714c1f9f5627d5a797be8bfc14f3b1adc8d6fdbe0f60ecf9eb94ac95c80d96 -> 97d9f402531a2237500bc34437f72e28de5a3b551b5435fcdd5b23731411dbac
+~ +[DADMain sharedMain] : sha256 b5f3e1ba2b1852010ccb282df39cac2c2b62c1568c392337e7753785911402ba -> d1ad5acbe7198cfa4cd318cf07b811a16d1f17ee5b12b08429c345c191085c9d
+~ ___21+[DADMain sharedMain]_block_invoke : sha256 7034545754d0ea8e25bf522f788a262384ec216681b9b4c2036c92bd37a528ff -> 7c3fdd8d04ec50963f980ec9cda242cd5f5a319c7ed6adf1061c960665e99b1b
+~ _getStateString : sha256 0ef402d0071360871e4ba2a28b8282733554c6ac5bbd3a303ca9494e38faa5dc -> abdb9e3007eb637a0ce5e2eb97d0a1945283af6e9afb46fea1927a8bf0dfb010
+~ -[DADMain shutdownDAD] : sha256 18b2eed7a3d1aa09683199fbb8228f4813228b3b5415915883661ed8895188f4 -> b38527bb265089357c10b1177d55493cba48e173277207aabfa219e39c0a81f1
+~ -[DADMain waitForSystemAvailability] : sha256 7a3d87c5af23541eef86178338a624d47c313cdde4ec52d00342228d9bfd2ef0 -> 6dc8c8330a6bbb5642f678781bf786d1a310dd87aba0b99915bd775d307a01fd
+~ -[DADMain setRunLoopStoppedRef:] : sha256 6b7576e28654117e6d919db3a258b4a2d8ec948b025932d318bb2030ac3739a8 -> 1d3e177ed239aff70ff5be5fe32aab87144f138d47727cc64dba6caf1c5ef367
+~ -[DADMain _setRunLoopStopped:] : sha256 d8d6c904df1c9e5608f52d56714093fce6ebb10c87105d4e9e0f044cef3b7696 -> 6e9d67778758ef01861fb0dc4e9491544e1fbb996dea1cd42d1718879690d986
+~ -[DADMain disable] : sha256 f8129b929074e0e1c7f9801a3eae09168c3f920b03e4a5687a37678bfcaf703e -> 453e4be7e1a69a1a6cdba84839f6b0bfce8dfc01063d2f3c4b2931e4b9a15cd7
+~ -[DADMain init] : sha256 04005f787f1b01423842c62a6c5e8117802aa0dc950075a595ed4e807467129e -> 47876a906a7f0d6a7f71104cfbbba8848ebe01f5311f309298ac936373be87e3
+~ -[DADMain dealloc] : sha256 f7c83080a5945dcbe69da6d64a8cacff5cb1acd7c1b18a5284439f807252435f -> 37a1485dd655b338d928b077be0f5130e91ff479b1adeed66578ff9f6a532875
+~ -[DADMain xpc_checkin] : sha256 f77e48fd16f6cb6e9575a2d1912d8a00d9136b10b21b1acf74104dbbe0980ebf -> 4cb8444b204a4e151661eaa85f25c6b091dce0ea810c74e1f3a0932d304b688c
+~ ___22-[DADMain xpc_checkin]_block_invoke : sha256 5302bcf3fc2fc796bc2da578921d2a2716582f33b38f826b30b848438597bf22 -> 3003684e7233beecbe16ffd16e43e6a6eecd426f504ec98a1e68bac2e4132eb4
+~ -[DADMain agentsStarted] : sha256 49ee5cfea7cee3bb93e82f89f34c02cb3099be2b7f7deaf52615d4d6daf86b6b -> 8ba2d09ea57618cb8cf17a9cdb72e848a97161500438a11cfb037a8e86531103
+~ -[DADMain _evaluateConnectedStartupActivityStatus] : sha256 cb83a05ef01e273c8394a038c0c21eca80b17860a048db2ecd278e4d94977b71 -> afeb8759753e2f054bd2d46a1e7827e2e3f456d00b9783020aedd6e85788b404
+~ ___50-[DADMain _evaluateConnectedStartupActivityStatus]_block_invoke : sha256 415f37f3c6a5dffa8d7c36b67b416951b9a7fcdae72cf514c04cacadecc83d53 -> 48833fd0ec7a532c93e0e3fd46fb7a07a51d4672342e37dd7c63a1613e866be2
+~ -[DADMain boostConnectedActivityPriority] : sha256 9e41fa61e210c5b1c64a97725ffc786248786b068cde05281d33b1f9701447a0 -> 38823ff38089cccbc7e73cb696db7bb2ad6ae1eeec015c38ed9407609f21bbe4
+~ -[DADMain _boostConnectedActivityPriority] : sha256 b957ae42cb2cda6d250fce7a73c9bb7f4704e67e870b49cc9cea9fe524c5d33a -> 754132dadfeb011d143720211af11843def0abf50a36005d7ac773dcb6b639c3
+~ -[DADMain userSwitchTasks] : sha256 c29154d0ea9660ab8c805f3434672a32ad3bd0e8d1fb5833fd688725be48e05e -> b44130c9f5ae4ed321ab6e4fa65f552f463be2eabf105d985d8581a711f32df0
+~ -[DADMain setUserSwitchTasks:] : sha256 20f2a04898471b9062f312bd193ff44853fbc8550147d89239567fd953d99e73 -> 7b3be11a10a070c01d2bb83acac3bd4fcee14f8d932fb66f72e1f71b8c22766e
+~ -[DADMain .cxx_destruct] : sha256 0e3100bdbcab4335e10f3fe4983e2b1c4ab8c667b054983b26bd409f49ed940b -> dc5f1ea52a398a9a518d97e64b60aa6494ca4026882c09fc48b8fa8bb72df298
+~ ___logState_block_invoke : 260 -> 256
+~ -[DADClientSubscribedCalendarJunkReportDelegate reportSubscribedCalendarAsJunk:] : sha256 716a674a5de5ee6040952fcbb3c0b021ac0a38132ea9d555fccb6ff9ec538452 -> a56d714ca24e516524eca715c6c555981990e36021ac88cc042c4c6b183ce20c
+~ ___80-[DADClientSubscribedCalendarJunkReportDelegate reportSubscribedCalendarAsJunk:]_block_invoke : sha256 914c3fa61ccb865a86386c4c13d9539f80d682c6d398d60f47c6e2a9865bff73 -> 6cfb0dad3d1d63fc225823c29590a86d0edf4867e861a6b72449993082f6d7a6
+~ -[DADClientSubscribedCalendarJunkReportDelegate finishWithError:] : sha256 7df4b2d301cec787403136a9eab9b1fa2167409efbc7eada7b99e5a9148244da -> 58011d5f825c1f5187b0bd0fcc2110acfe0a8d6a8a35c1a516b0113bc1b23d8a
+~ -[DADClientSubscribedCalendarJunkReportDelegate _createURLRequestForSubscriptionCalendarURL:] : sha256 67fefaba99ed1f638910f70a261d00696584df02cb69a9d4d6abd4d76fd5fc1c -> fb9de1e6a1fa5e3872bdfcca34708265ed712f12fab17ae92208b11b3ae99611
+~ -[DADClientSubscribedCalendarJunkReportDelegate _generateBodyWithURL:] : sha256 44a468e872638af6681321df2f3c074febe9cc10f7c57b172efc4836b8d504e6 -> 022cb9eca8a7bd702fbdbe4897c9bdd0983cf4cde51bf27263614a9da3e42477
+~ -[DADClientSubscribedCalendarJunkReportDelegate _findCalendarURLFromAccount:] : sha256 063975f14bb5ad3e1fc0be284f7155399cc487f2ca709fe0939cc2dae06622a4 -> 3ddfeab1aade5f6c883ef97b9c52194ec8b838d1baadcf664824fb4910b8b753
+~ -[DADClientSubscribedCalendarJunkReportDelegate requestID] : sha256 b9916bc21263964dc80060c95b23cd1c9a46726de18944154fdf05e4685fe8ed -> b9b176083b656bdc4dbaf971d19ffb55952e221324202b38fab0f3f9d64f8905
+~ -[DADClientSubscribedCalendarJunkReportDelegate setRequestID:] : sha256 79ae945f3bb6ef4ca35e956acfcd061129492a2feb024e913bc691c70253d327 -> e3dd8f110eba72fcc850addbfab5a1e4050f35e242c41af211c52a4733ede043
+~ -[DADClientSubscribedCalendarJunkReportDelegate .cxx_destruct] : sha256 b9869d5d2b6c67eae5c11fc9b1e96b9ad5c3c1f5a229cf4872e5825028ddaf8c -> 9d69b5cc8b68a53df4a7ba028af17be1f7881a10b018f7c59356fc6727e21d0d
+~ -[DADClientContactsSearchDelegate initWithAccountID:queryDictionary:client:] : sha256 375e6ceb2d147f2d98ce0ff63c2e641e689424d683f1dd1afc5bf1cf5ebf5562 -> f623281eb98c8e042148e95c23713da895f2c21e510d3475599fac51701c2607
+~ -[DADClientContactsSearchDelegate dealloc] : sha256 a2b4a3baec9a0b0c8f6ed765cecab84149367574c315da24b540048711059521 -> 330c2d63a0de6bab2e61450d7a873306f48869434c5102c55e95d983b027e562
+~ -[DADClientContactsSearchDelegate beginQuery] : sha256 fae406c4a95c7c5c698fba6eff6f10dccf4d0a08db354e8f2ad7c0cce978f122 -> 0aee25af6eac9d92e7d0f72c74554d2edebd057fba83f1ca25c92c4449870632
+~ -[DADClientContactsSearchDelegate searchQuery:returnedResults:] : sha256 4e2a748654fb51de8671b08cc738fb8a6cab82f8c5f0b1ec60de88a2f53c2f9b -> b9c5311da4a4f51f336e8868e16e95b4e65a7fac3089c249e8eea5a04e02ef5d
+~ -[DADClientContactsSearchDelegate searchQuery:finishedWithError:] : sha256 da92a6176e7598550483c0bd642f44b30aab0773b87ff911d33eeb3e249ac54e -> 3de03491cae0468dae1a7c1986f83f53824f954009c66488f6c7da34a660fddf
+~ -[DADClientContactsSearchDelegate disable] : sha256 a2294f90f1dabc9cab417d78078b79d7522f84593008c5beca82c76402413695 -> 54e942cfad39602970920b5cf28014a6aac324ef6f2d2defa2fdbe684aa83b6c
+~ -[DADClientContactsSearchDelegate finishWithError:] : sha256 98f8bf1163bf3af87c3acad32dff126e925888826a60cb46a1a01ec13fa3b1c9 -> b456b4f46812bf140991c94e37cc45053e21805b6fe18f0c03167c0c70925d06
+~ -[DADClientContactsSearchDelegate query] : sha256 01d513ab5c7aa7ff5d4f3310ce0e520bdbaf738265437aa4fd8c95435f8c0c63 -> d369f698656f3b343b78bca2538868a8154ebfa373c7522c58d3f3407c98c06c
+~ -[DADClientContactsSearchDelegate setQuery:] : sha256 de383962655f8204a1faf8c8e0146192b60af9ca9af97660fc489bd5cd927259 -> cb03f768c7b34f451e9bc713b62354fe184d6910e2b587791df763c85c3f9134
+~ -[DADClientContactsSearchDelegate queryResultData] : sha256 32b31868b3c900d18ab1ccb1ad9ba3a3ec982b4a557fad9bc69c0958271b0f52 -> 9050a520b5b538aaa51ec09c5123d1b81e4a991eae6426d4f2d287960e698dc2
+~ -[DADClientContactsSearchDelegate setQueryResultData:] : sha256 0c717878c6de53281fdbc3514207064f91d3edd135dc0f0d485c186e9cc5e645 -> b89ad278899000c7769c63a97d10a73689bef7f24458dfd2fc31aba45e0f48df
+~ -[DADClientContactsSearchDelegate .cxx_destruct] : sha256 3c067cf5d7dd01696dcdeaaf0ee2c7723e2708a1f495d91187f97b6594d448d8 -> 17006ebdd3d37435e02c5b9354776d114e20f29470c871eab0b88d9990a15f83
+~ -[DADClientSubscribedCalendarDownloadDelegate initWithURL:client:] : sha256 650c8464d6690fb6c29ca0bb7f7a4c231000766b9538dcfc9f73dec14ffaebd9 -> c5e37ab64f8e6b8cd755bb30ad751eac65561e1696279357f9e38b03158cc600
+~ -[DADClientSubscribedCalendarDownloadDelegate dealloc] : sha256 0ab3f9f338be4e321d3c86ee97fc098c5eaee8257f48568d18e3f1ec4e30df78 -> ea068665e59de00f1e04b2abed5feaeb720ed017bb24218c39e480a9f5708c21
+~ -[DADClientSubscribedCalendarDownloadDelegate beginDownload] : sha256 d7fb5521b0757980ed6580cf76cda149da9c0bfd5f9ee7c1e87bad8c0803cf91 -> e8e81826c53aa847a689f501301a2381b654eb1cbf8c0743615a564c09f09a68
+~ -[DADClientSubscribedCalendarDownloadDelegate createAndSubmitValidationTask] : sha256 5a2737629ae453eea911949825f47126eea2a9fa496d9db58b1c60d4611bcbc8 -> eb99333af2b77f24a6e79c06ba3b203a5d7b7a520ebacbe3fca192302f145e52
+~ -[DADClientSubscribedCalendarDownloadDelegate subCalValidationTask:finishedWithError:calendarName:document:calendarData:] : sha256 f7d3ff882908640cad4a5d6ab47567572a495207f44d346283fd4198b4181200 -> 2c6681dcfd7ce8ce32cb639156122f1c9174808b32195214dc25bd94bcf4edda
+~ -[DADClientSubscribedCalendarDownloadDelegate subCalValidationTask:downloadProgressedTo:outOf:] : sha256 0324c1795001932f9a006d33d8bd02ae1c024884a6d071ec86b269207aeb4565 -> c2caaf98e56a9e9dad282bbe692e03472fefefd49ea13ce9459ef6ee513a025b
+~ -[DADClientSubscribedCalendarDownloadDelegate handleTrustChallenge:forTask:] : sha256 11867be21a701465e3579a85ae7276a9818067124e4ae24f279b247ea075ab5c -> 8a8cfcf63ddb4cc168a0471992253130e992bdd32c66e489767f5954c893ef09
+~ -[DADClientSubscribedCalendarDownloadDelegate shouldTrustChallenge:] : sha256 e3d1c2caba727877c04045a4de8e696117c0a66716f2f4384c0398355e28cf95 -> 838675b13860769076c8533f608351d1ec38cd7e74f03d6455fdbdf8f243374d
+~ -[DADClientSubscribedCalendarDownloadDelegate evaluateTrust:] : sha256 d6b878e7a9263f5fb16d9fd9c1944b858e66e71138400a8181d5f7153ef126b7 -> a9ae815798b910a2bd4bb899fea6c724cb5f0bd4078b9f9ada038d1735d2ae1a
+~ -[DADClientSubscribedCalendarDownloadDelegate handleTrustChallenge:forTask:completionHandler:] : sha256 fd5e715f0f35d8544a9e8b6172bce4bf3ea9298faa6f971a1456c904c6855f66 -> d4bd8fb0d94a66d76070c302039db3ccd5517ea488835ced64e6282831035668
+~ -[DADClientSubscribedCalendarDownloadDelegate subCalTask:needsUsernameAndPasswordForHost:continuation:] : sha256 353eb9aa0159cf51c0ecc5eed057ac42cce37c3399bf8846afbd24a17df94b28 -> 182285ac63eb828d9fcb2608871537e5a501864d4736d1ea1d627e9e75f36cc5
+~ -[DADClientSubscribedCalendarDownloadDelegate tryUsername:password:] : sha256 2dec4c243d14ec927668befe1a98c49f1ed447923c37423cc6be095327887dcc -> 961c6d72e7af54abead79727d0af568079b30c1bcbd30fbca51a74ebcf9ca728
+~ -[DADClientSubscribedCalendarDownloadDelegate finishWithError:] : sha256 ffc30c60b52c60110881c701f9555d50fb456d854803564cdd2458839e869320 -> b03bc3cc9b12993a1f1437d50c3ea231bd69b5127892763bac73fd85caf595a8
+~ -[DADClientSubscribedCalendarDownloadDelegate finishWithError:summary:] : sha256 e60a2255e751548df1da8211798ade0f1b8212f9a35ba74f995ef9ed55707c0f -> 502112f618e7dae5a141d92628773b69731ca7821e7a6fa0838f5b7bff7eb2c7
+~ -[DADClientSubscribedCalendarDownloadDelegate .cxx_destruct] : sha256 0b12985b7d09752e4b2642b3552e9c91aa646aa3308cd2025ae2e917e183eb4e -> 5407209ba057b3f82df9961431be2e486f4c15ef650c23e048a63113d97c648f
+~ -[DAFolderSyncRequest initWithFolder:hasRemoteChanges:isInitialUberSync:] : sha256 80aacc45022b1a9dbf1d2c48bff616f473a0a8c9e84ef3af94c6951fe2049d9a -> ae38e336cbf714ec163d5293311b9e17af14e0b89d7fad4e50e0d423a0ea4024
+~ -[DAFolderSyncRequest description] : sha256 7d06cd5e640871be2b69674139fc948014bd8e0ab324b6a89acc6a61c144a37e -> 159555dd344e4590cb7c91d4266e313143a113890063bfca2415dfc8e25cd243
+~ -[DAFolderSyncRequest setFolder:] : sha256 9fa978768ab9c8596fad7890ae5bb2c16b920c2c70bf608302581b69fc512418 -> 245981fd89b9337ed2562499c66192551a1d33e8728ae29c85f564fa03a94377
+~ -[DAFolderSyncRequest setActions:] : sha256 7cb3e296edac30faaca0a35b8577d36cc6435e6c53813ab0b626387280f68d35 -> aab0ca9f2ba759d76a47ab3726b57ec45cfd098ef3579e5fa2594a52b47adb7c
+~ -[DAFolderSyncRequest .cxx_destruct] : sha256 c129b59dd9b5d6c61c86cd70b3bfd547aba2106e3b114144db21c85e8f8fd867 -> 963ab53c09519ce70bfc41247d9e75b74c26035622b96d3871e3472f478c0bb4
+~ +[_DAChangeHistoryContactsClerk os_log] : sha256 4db5305ec9728164b51eea7473b582ded5d8c35f9a56dd0fef85fc73030ed83c -> f7340345652843f617a61e4b9577de198660b71fd21eabc8c4945ab877c9aac8
+~ ___39+[_DAChangeHistoryContactsClerk os_log]_block_invoke : sha256 3f32e6b023b987d792a6f026d2a21a019dfdedf5dee26aa9e0ba52b24ea4fc44 -> 8fdf0a3a3830a3d98205ee543ade9c32baa40f1e009ec8c3aaec83bc9e7b5410
+~ -[_DAChangeHistoryContactsClerk initWithContactStore:] : sha256 bf710908e2ad5ee1a8f88aa3a6155886dea23236eb712cc4d3e03f2ec5f4c0b3 -> 7357e7f7189c510ea3405d0966e4f0c94086fcb5dca22711a934af6e2a997c9b
+~ -[_DAChangeHistoryContactsClerk unregisterClientWithIdentifier:forContainer:] : sha256 c5a0f93cf4835bc9a7d1d33d6c6e93ce73a6f8f1098843767f8a86559dcb3a15 -> 7b2bd573bd290b86ee5d00e16cc0bc64b066facac5aa0f043f03b7ee31a4c570
+~ -[_DAChangeHistoryContactsClerk registerClientWithIdentifier:forContainer:] : sha256 0bf425229f5a1b573ed4a9d496a4425af7b7e28718cf8ea65edb68ef7176c4ce -> b9ce0ffa4f207c091ff9ceb76848885d21d4d8c76d90332c4f4d4cf8ce91c457
+~ -[_DAChangeHistoryContactsClerk identifiersOfAllRegisterdClients] : sha256 fc93679a7e8d75ea33d56f6617ffbe86b770755cf837e08627f47ce32651920e -> e7fecfc9fd9d677fe22828cc10a79124afdd47958ac7d207871448ff91099a59
+~ -[_DAChangeHistoryContactsClerk contactStore] : sha256 78504b29587cd4a00f026d50e61f2b929191df45883d92f47530d43fc28f3f05 -> 257c459bcdef708ededc2f418207cf8a12abddd5fa52b118686232b9635b101a
+~ -[_DAChangeHistoryContactsClerk .cxx_destruct] : sha256 57654a85fc63d29d78dd0095543baf7bf4e425221e0b6c6b48152efb785b781b -> 56ec84b2380465b11b89cc007946c461010fe8a107bf1190332052276b5b5f58
+~ -[DADAgentStopStartController initWithDelegate:] : sha256 e070b23be6fcb95ddcee91934d648b3c39b835811ce0147410c477109cac7ff6 -> 8cc5394238f34651bbc13da07fa3b427fd199681752e3c288af57bcf20f21f6d
+~ -[DADAgentStopStartController enqueueDisableMonitoringAgents:] : sha256 68923eb31e5ef892c587aeedf624ce3dbab3a4c8bd83b701f333815020dd5c8c -> 2caee8cc7a8c88c8245351c6e497a8b56d2b5bd777db35b3d846c0e20556c59f
+~ -[DADAgentStopStartController enqueueEnableMonitoringAgentsWithGeneration:completion:] : sha256 8a19d9d72b715961b22a0f0e120e59513ca84bce5751e1b858d690f282c0bc0f -> e237c912c07b8ab4fccdfdc699bd4384a44901157813b6409abf5de74d840aba
+~ -[DADAgentStopStartController reset] : sha256 6d1be91d2d58ac25e897bd120924b9909359db0e085fddd4e4ff3de97df79440 -> bd7762efdc47e30fe0d8d051469cfc9c7460b8f8fc429141487272153af80112
+~ -[DADAgentStopStartController _enqueueBlockIfNotEnqueuedAndPendingWork] : sha256 5c5fe3c7b3e66cb9ad9107e2ed9243e9d536a365e989768726fdefe61c1d776a -> 2676fd0d935ead253ea2e25c3bd567673a4f947266808ca77a282d49d8062695
+~ ___71-[DADAgentStopStartController _enqueueBlockIfNotEnqueuedAndPendingWork]_block_invoke : sha256 811c83f5644a7bead2b97b3517dbc6d2646600ad1f131942b7d29c16f640947b -> aeb04394e37c695c3341061b09272edd6169d2e5d2895d38e6a1dba84d974204
+~ -[DADAgentStopStartController _blockNotEnqueuedAndPendingWork] : sha256 93720ceedc27923552a9a6103ac7261ad767a31ba5e53f747ef3e7a12524e5f8 -> f74c6d42a6546a616c754126fa0230640981ef30c6262380d7d643b8f35b6ea9
+~ -[DADAgentStopStartController startOrStopAsNeeded] : sha256 315e074e665e8bc20d48d454a53de2fb45af079be4cb79d10ed95a28dd1c97be -> ac7d8c840f0aca4cf9474cc9a054a0f4598e12b02c924a63321fe57a6f4db116
+~ -[DADAgentStopStartController callBlocks:] : 244 -> 240
+~ -[DADAgentStopStartController .cxx_destruct] : sha256 1b8cf1d78cbd9cacfb2e0883d2fb5496fc3f68c93522a5b842dc207cc4eb5308 -> 0c43a91b89f18c2174d272ec9fdf1a54a469f8ac280c61db79603acc4c1d5a3d
+~ +[DARefreshManager sharedManager] : sha256 1c8ba1b79f60cce517c565963fb64f17798c3941d69ee189208edbeab0a9f7e3 -> 6eaedcae57009ddccd02afc9a9234a7b16a158906e8ef00a1e52d2ea6ffff17f
+~ ___33+[DARefreshManager sharedManager]_block_invoke : sha256 0a8297077f66106069e617c0945f902c4cc677972eb744e31b813a56d9f469f2 -> 6ed107b6e0dc6182f12ffc41730188db47bff03c45b1b9fe4391ffd46733aebf
+~ ___33+[DARefreshManager sharedManager]_block_invoke_2 : sha256 39f88da0edebdf076862f0cdd5c6340f29611984d1cb00efb3e921c6d0bb5de8 -> 14fa77aafab1deb37e88f02d183ef3526dee23744194007728f11ccfe7a06202
+~ -[DARefreshManager init] : sha256 fbafcd7d954a4720e5e9801ed7d926cf11b5a2ad76325488a02c7a586206b317 -> 3736c47e3e8998b3a8d53f6d648cec8696352f512d06cb801ed174bafa628005
+~ -[DARefreshManager dealloc] : sha256 8147f5396b2c97e1ca8bc45cdceb609573083da17b2058f8a8e3b9e73532f42c -> 39cadfaafc4be05b8397bc159933a5cf6293d5c789d51ae218cc9980657ed161
+~ ___27-[DARefreshManager dealloc]_block_invoke : 260 -> 256
+~ -[DARefreshManager stateString] : sha256 a3db7a328039982020f3f774f5aa4fa1dbb995f137c79d65f19d027aab01f7d7 -> d41b2f442178a4435b6b4f454625acc54585fc3bb9578479be24d46282e72d7c
+~ ___31-[DARefreshManager stateString]_block_invoke : 1460 -> 1448
+~ -[DARefreshManager _tearDownAPS] : sha256 891b8d83185ca4ed895c8f6767f098f929120c01d86928ec7de1e00039e450a1 -> 7d2b4b5d342c8109a5757c11c52c93de12247585540b1c68880ee16703297c9e
+~ -[DARefreshManager _tearDownAllApsConnections] : 248 -> 244
+~ -[DARefreshManager establishAllApsConnections] : 480 -> 476
+~ -[DARefreshManager _apsEnvStringForDAEnvString:] : sha256 e21f57832baf04b80b274fac7ed3dc44e926f9d35113006a1a6e356189f8fd2e -> 70291cd8a4b5c076b4e65f9f290324b1846defc90653d1174e8f65d3b06b12e2
+~ -[DARefreshManager _portNameForEnvironmentName:] : sha256 f47b8de95796d07adc9bbcc012a9e4a14c7d0e5d0e915519098b396433f5b26d -> eb345dd62794007dd69e10779a41b7cff4eaf60cb24e43ae356c3a41f71268df
+~ -[DARefreshManager _connectionForEnv:] : sha256 fe06bb17dcb35e51cab4c146eaa81cda2d4fcc29a6bb8e5c2948d2a98313872a -> b28f3365b5996f44b534b2e7665ae42be9b600ca86b8b09bf7b21cf0e82e72dd
+~ -[DARefreshManager _registerAPSTopicsForDelegates:withConnection:] : 1236 -> 1232
+~ -[DARefreshManager handlePushRefreshTask:] : sha256 b692e6513ea1399a0d17b078be08e728abc21216152d06bf17c2074e44674455 -> e0c99bdba996343b3bace8e9856fb01f5629b6fa748e27ed3c7104db0c0df23a
+~ ___42-[DARefreshManager handlePushRefreshTask:]_block_invoke : sha256 dff2a09280ee799efac098985fdf13fddeffd8f0f2e8c7a086a76437791c1a01 -> ceb224c6b3486f6cb96b49eda7782503c94eb6bae0fc2e769f3c85a65a87d2cb
+~ -[DARefreshManager _nextPushRegistrationRefreshDeadline] : 792 -> 788
+~ -[DARefreshManager _reschedulePushRefresh] : sha256 81aef89c69e0c392cd0b79d235e83cbc620c010c975ce6bef85d32140147a74a -> d770458100063048c3c4a97bd0a0c54078de569d7284afb085d9e3eaa25ba07c
+~ -[DARefreshManager _schedulePushRefreshWithDeadline:] : sha256 3f3324e22483ec8345e00da8f1bba72edc93be408f07ca5ea301da945852391c -> 6b22dbad7b9a111246dd1a367bfb477b1d44855d285bc71cb46595b9f775db1f
+~ -[DARefreshManager _cancelPushRefresh] : sha256 0eae6a9fae1ee364f252e5fe662feeb0055ca56353e9694b981b44edeff6e409 -> 6a18872d8b6e72986a6a889d6cc0d3278349acf53c71c43c4585360f512a4f56
+~ -[DARefreshManager _registerAPSTopics] : 408 -> 404
+~ -[DARefreshManager _currentTruePCStyleForDelegate:] : sha256 a70f3f50d88f2cc31475ff2bcbe27b724be38af7a0b8a6f54a40e4d3a598f40d -> f65f734c69f4d229bf35e08aa559112c00d5dd5fd81c74414c15505131af5983
+~ -[DARefreshManager _pushRegistrationForDelegateFailed:] : sha256 96ae68c4122e6ed089e24ece97ab9a5c1f27b11cd3833005b3b2d37f24788c8c -> 4eef881cbba47a2c1cef2772ebbf676bdefdb97e5d0b6b9a92b7c704c28ae274
+~ -[DARefreshManager _wrapperIsSuspended:] : 588 -> 584
+~ -[DARefreshManager _suspendTopicsForDelegate:] : 928 -> 924
+~ -[DARefreshManager _resumeTopicsForSuspendedDelegate:] : 836 -> 832
+~ -[DARefreshManager pushPreferenceDidChange] : sha256 d1eb716ac73a9243b035921c6a6997409d4ec288ad37c184124e7a4c8a0d3911 -> 2b797094d3e8ca58fd16ca286570b7814a151f339cba2c4e4bba11046a0299d7
+~ ___43-[DARefreshManager pushPreferenceDidChange]_block_invoke : sha256 5ef2cfb2d349d8c3b079e314e5cf9b9487f7df15dd3f4796d966aa0da0e37d95 -> 628769e8fd2e1acd9fb355ad216d39619970d4657ac966d7c71719ae8dad6c93
+~ -[DARefreshManager connection:didReceivePublicToken:] : sha256 36af0e9ec8cad49e0b8d665ea083b69b930e9a2e58dc93302947041779da10ac -> 80481bf7eb2b33c66660bc87476e6ce842ff56ec7f8d873dd93855b254d281ff
+~ ___53-[DARefreshManager connection:didReceivePublicToken:]_block_invoke : sha256 74783b3b6f332324724230ff55461863f1968fce51a58ad80a2dc315073e95e0 -> 51360dbe6ba93e5f95a2664aaf2b4717a9de4f8d570fda26164ed5a6aab253fb
+~ -[DARefreshManager connection:didReceiveMessageForTopic:userInfo:] : sha256 6f70e87671fb3f9649bd0417d3b7d99ac0a643bbfa799d009c6eed1f7b4e0550 -> 3fef1f3c1a64a18c5f451c1b215671b5d0d9e839146b5f79b70a8c802852bf6d
+~ ___66-[DARefreshManager connection:didReceiveMessageForTopic:userInfo:]_block_invoke : 2000 -> 1988
+~ ___66-[DARefreshManager connection:didReceiveMessageForTopic:userInfo:]_block_invoke_2 : sha256 dc1ac19520ac21b3b18d12eae0014d88b73d0363f12ea9d881adfe8cdb9fa700 -> e2f83b425af7ae463d5c95a8b419afc51b0da53930c910e366334addad0c8614
+~ -[DARefreshManager wrapperPushRegistrationFinished:] : sha256 6cb3a141516eab47d2cc53bce9913676b7059deeee2045912f243940e4d78b22 -> 5a294441e6a23d4e0844dc5c06b44edf0dc06e135c7e3c1bcd19edc26bb3b6c2
+~ ___52-[DARefreshManager wrapperPushRegistrationFinished:]_block_invoke : sha256 adc1e565f2cf4b75e2434cc3d9044392d4e195b04172845a29d60a6e4ce5dd12 -> 5b0d19c8b2f060904e97dab836175d3a87d6f9a924d1c3b303269ee0b343239c
+~ -[DARefreshManager _performBlockOnRefreshManagerThread:] : sha256 1b9702d6e88305d6e37c2a38d4372d3de23269d648726da3b0f607aae3d88095 -> aba6bcf07a063849fda58b6bf2ecbc06148adc27b62c2ec604fd3ec3429fe952
+~ -[DARefreshManager _refreshWrapperForDelegate:] : 320 -> 316
+~ -[DARefreshManager _enabledTopicsForWrapper:] : 656 -> 652
+~ -[DARefreshManager _suspendedTopicsForWrapper:] : 656 -> 652
+~ -[DARefreshManager registerDelegate:] : sha256 49d7c8226610fd745ae99a37e343e8096235c4256279e6ba8eb19ddb7957e075 -> 42bcdda19b73acd75eaac64778e7b9cc8a8fbc6166e15158027208129dd429c8
+~ ___37-[DARefreshManager registerDelegate:]_block_invoke : sha256 7fc432d1f9c72d2fc3358aa48b2b410cef6d17b78beaeeda9a99153acfc0b87b -> 45ea4519fc00b1089599907ed9aa523373aa3327921db16a62399335692cd0af
+~ -[DARefreshManager unregisterDelegate:] : sha256 02d8428221fbabb5e1a58c4ba99bdd7af5dd06f3d5d7e6c2084ebc8e429fb427 -> 3b83981efe4d2f1c8da026ef0037302a7046c2867ae2f0e740559413f158afb5
+~ ___39-[DARefreshManager unregisterDelegate:]_block_invoke : 940 -> 932
+~ -[DARefreshManager _dailyRefreshActivityFired] : 304 -> 300
+~ -[DARefreshManager startDailyRefreshActivityForWrapper:] : sha256 0177cc9e998d404b39706374695b631b45a9b2e79725eb141c27c64449d3f286 -> 8c11c3599565e6246df0ede8b438c940233af6c20cde721b13940c6a8813f34d
+~ ___56-[DARefreshManager startDailyRefreshActivityForWrapper:]_block_invoke : sha256 c31eef9e9e5c88dcc86f3ff76eb21571dfbf65737faf6b904c70749ee9fc9f77 -> 76e63acc4dcb9029865610675ea8cd247a8354c580caf4d99410d6435088a5db
+~ ___56-[DARefreshManager startDailyRefreshActivityForWrapper:]_block_invoke.68 : sha256 c628648d9b3abb4571516f495ec0e4288e403b473d70ad3f8abfefdfe8de1910 -> 3a9eee7fd478f0cc4a614f7f2db957d1216ac8b415fd1e521fa21da0ef9eeb71
+~ -[DARefreshManager endDailyRefreshActivityForWrapper:] : sha256 2d6bac222d9c6e3aa9906e048cc5bf800df461a4153872848f6218e83d1083ec -> 6498ae95f8b983da7d5b50af5540efa9557470c0cd7b2f89c1e87bad7563632c
+~ -[DARefreshManager registerTopic:forDelegate:inEnvironment:] : sha256 0db3361dd20355a9e4e22c37d88cb6db3236cae9d22b0d96a25d4b13de8dfc20 -> 5b74a8e5ce36c07ed952ba3ddd45c7269e2cc97c848ba445b5faa352f0657f96
+~ ___60-[DARefreshManager registerTopic:forDelegate:inEnvironment:]_block_invoke : sha256 84ed9002d62c5995d611c0727a31abdaf2e8118951e23a6aff0e008b44b10175 -> 5e14d1c03e5b9e79da7c9af752aa7e58d67823e66f49ab4dcf48998a450337b0
+~ -[DARefreshManager _unregisterWrapper:forTopic:inTopicDictionary:] : 420 -> 416
+~ -[DARefreshManager _unregisterTopicLocked:forDelegate:inEnvironment:] : 1276 -> 1264
+~ -[DARefreshManager unregisterTopic:forDelegate:inEnvironment:] : sha256 50c0fbed1cb52f7d29d0fc99544c93922e74136d0be2c648eef13b1188eceef5 -> 3d5bb8a7378113c7d4c31394b20f5893b06e6741de3595bce2b4c9e3765c0e33
+~ ___62-[DARefreshManager unregisterTopic:forDelegate:inEnvironment:]_block_invoke : sha256 c5d902c29cec2a73eb05cde1597bca5e514bf878ba3c8f7548c38a0181e4c747 -> 9e3b9d841d75f6f7a3dedce11167f65ea8a301a22af5ecaa74c886cd1fe84ee4
+~ -[DARefreshManager delegateDidCompleteRefresh:] : sha256 079299490dfc11d2820cf2828a474ef633434ba4de132eb3d793b3b5dd159850 -> 5adfe2975fcba353552d7060b9034821c97e0d3777843b53ac427e51f06d4ca7
+~ ___47-[DARefreshManager delegateDidCompleteRefresh:]_block_invoke : sha256 a24d51fcd8c5abc58b1063e2f3d807642d13c0aa09231fbe6937824804fac22c -> 8707f394303d73f46240607537287ae48d78ee8ac177e5fd43e29bed43cc7e69
+~ -[DARefreshManager delegateDidSuccessfullyRecoverFromBeingUnauthenticated:] : sha256 9e59ad154ba0fb612fd42f9b45e876552d5f431fe9817a4ef58ea016fa835cbe -> 057f6c14bc5c5659575fff8f46f38501fdac01f5110787ae71f2cc2c68f3b04d
+~ ___75-[DARefreshManager delegateDidSuccessfullyRecoverFromBeingUnauthenticated:]_block_invoke : 760 -> 748
+~ -[DARefreshManager retryRefreshForDelegate:withCollections:after:originalRefreshReason:] : sha256 d8f6af0b368d0eb8d9f11ac92202cd24116ed82b880b751697fc0ee64876834b -> 3b3418414b4534e6f0e8d49fd45d7b20ee1e90fe42f68cd6bc947e1076f24025
+~ ___88-[DARefreshManager retryRefreshForDelegate:withCollections:after:originalRefreshReason:]_block_invoke : sha256 f40e2323bd4992e4b19f2b2beb13423e189e48ed3cd8b29a7126c59a59d3ebd5 -> 7fa6624089edc3fd00dc7b5ac867900c741d6361418e3f786d133cad075792bf
+~ -[DARefreshManager pushTokenForEnvironment:] : sha256 9fc044d236dea443c342318e175d61ba8fe29a9f4d3015723f006f7b9422bfcf -> 641e14031ab9ba585e9d94a5f4d0b0ac84e1a666b9123fec12c44c19ac67568e
+~ -[DARefreshManager setEnabledTopicWrappersByEnv:] : sha256 8aebccaeab423af515083aa47914a09807b202090ddfa01ab22169145902bd44 -> 88f5e8051b201760b388fab0abef38a62d1188c60f089acc99178bc9369d0246
+~ -[DARefreshManager setSuspendedTopicWrappersByEnv:] : sha256 5f6620de21a8c6c9e53a75562a097255039afcbcc001b9745b5e9c4e98133381 -> d7cd3ddf944640e916b90d0112058ef49ecab1af90c195cd774e7e92165b642a
+~ -[DARefreshManager setWrappers:] : sha256 b34f5fdaa6e8cc1c171ca4fe2f3a32ec9bd317cd4f9879604a25447ff3501021 -> 71fee504ba54896eee8663fdc4d72ff8ff02c368468625b327750ea8f61582a8
+~ -[DARefreshManager setWrappersForDailyRefresh:] : sha256 5fb32b1ab6c0360e84d64b292f2df5729b2b1696beccf7aadd010955ba60abc3 -> da4728e7bf803a9ebc314f8ab0af1323531c630607a88a48cdff62240a1261c1
+~ -[DARefreshManager setConnection:] : sha256 6436bba532852597c086e5edb954b27931f008c64905aac3e4d2df69b018dd8e -> b8af94752927312fb1a564683f3a4eea141bcdcc1e586be1bc9bf6422160868b
+~ -[DARefreshManager setApsConnections:] : sha256 fa7869f4daa2b008e9d062786f4a86c316facc37b08e0fba3a9cdee338a2705c -> f266ef44209763ae1b06774640bea77b4083e293fa2f31ff8511c0685aa303c7
+~ -[DARefreshManager setPcQueue:] : sha256 faa3b48ccd4a6c02f2048a3e08cbfee2563e1af4aee92cd82489d97c71d1190c -> 49d700f34e5c98b75774a7c34d9d8616c041440027614d795070190736ed9c4a
+~ -[DARefreshManager .cxx_destruct] : sha256 2c6c681f0de5f9b94297f584e1a2b38d9339c200860665cce6bbbe5d786161e1 -> c3d1445d269280d211c8553819910224da22ef325c821a4da5c7955255581432
+~ _OUTLINED_FUNCTION_0 : sha256 ad2d02a187161ac59999b21e831b0d24cda080c5a53fc75069b8795454c00240 -> ba43d626055304b242a82bd06dec155fa9fc472a1178b8a8aac2bdfdd535f940
+~ -[DADClientHolidayCalendarFetchDelegate fetchHolidayCalendars] : sha256 eea30b738692bc51c7e1ce0a54e5c3cb255bf175c34d90a81265565aae46467a -> ee168e7b8476451b164040cc870de5abb7b255c9a1c2638574a3d21fed808a59
+~ ___62-[DADClientHolidayCalendarFetchDelegate fetchHolidayCalendars]_block_invoke : sha256 616dc1f4af23961f74c8b58b763e1a5e5bb83b8197350119b368320a102f992b -> 317c7d0d6cbf2e6ec7ac9ee95f8e42c6e04ee47331b7cdb8853cec59a1eab893
+~ -[DADClientHolidayCalendarFetchDelegate _handleCalendarSearchResults:] : 836 -> 828
+~ -[DADClientHolidayCalendarFetchDelegate _sendResults:] : sha256 091976ae8ac426fc6421e208730fe0f77181acc54c6fc9c0813d37b709b68edf -> 8e00eddaed9c44c4d02d0f75c2f5893f5243851d8227b67c4c8903d322f0525e
+~ -[DADClientHolidayCalendarFetchDelegate _sendCompletionWithError:retryThrottleTime:] : sha256 c2ec3d58463bc9fa760c6a12e7aa62bf964a2c43504ccf9a3b87b9b65c9ace0a -> 65dfe7e6633f81b92d8f94937b540588097b18241a62ad147f05a2871b2f5299
+~ -[DADClientHolidayCalendarFetchDelegate finishWithError:] : sha256 bd01345ef105d132021c05c1e43f0147b71232f646cde3884c3166cbc23614f1 -> 4413cb8d51c64e7c728c3cf59cd442a84647d44327d536ce7f19f9e72bc5e61e
+~ -[DADClientHolidayCalendarFetchDelegate syncingAccount] : 852 -> 848
+~ -[DADClientHolidayCalendarFetchDelegate _getThrottleDateIfApplicable] : sha256 c6d722d8f12275ce8b731c2a759bf95ca11636b775cd17e8793dbcfe7045dc31 -> 0445f7a5a9d2d9b37fd2569a8aa1f08257d9d9e49de70a72dea24a37b164c743
+~ -[DADClientHolidayCalendarFetchDelegate _setThrottledRetryDateUsingTimeInterval:] : sha256 b3a8946adda24650482cb11830a05d788772e8da214df565f86dafb067a402d3 -> fdeafc8c5773d977dc6ab774d3b65c3e4069cc249d31ac44375efe392b5a0899
+~ -[DADClientHolidayCalendarFetchDelegate _addAuthenticationHeaders] : sha256 e8d79cac130a30810bcb025145027c217cfd6a0db9d81ae83970e6f84260c5be -> b3c9117efac971a71ffb61c32b4ea5e62f38b288450ad05d37360921ff003270
+~ -[DADClientHolidayCalendarFetchDelegate .cxx_destruct] : sha256 b364ed918ebe8f35c49a1318e4b79297b37b38961ae1a89f21e921ab52212025 -> 7b79b6e096df0084b8e2c6375fb324bbfcc59f9195d4e65bc4b3f854f0aed066
+~ -[DATokenRegistrationRequest initWithToken:pushKey:wrapper:onBehalfOf:] : sha256 efaf348acaa23cb703fc25874fcbb29a61f2f0c6a58abe000c5650d0fe3dcd4b -> 9c19827b64b6705360ad95cd2802fa96d969f4b5a7a188f6422899f841362fb1
+~ +[DATokenRegistrationRequest requestWithToken:pushKey:wrapper:onBehalfOf:] : sha256 1d0894604bed20531997751c1ee3cbba2cefb976cdbcebd98521bfcdb586132f -> 7434c2970dc03ad6f23b5eed6d6b1c01373b49827f20c40f338813dbdf45f545
+~ -[DATokenRegistrationRequest cancel] : sha256 182af1cb2d2c8fafd491ebda6d245fcfd6c84fcfcf1f5fc979a301eeb5c533a7 -> ecc3a5f7ad3ec4ddd6a18468d40650346500354f895d360ec094a21c07160174
+~ -[DATokenRegistrationRequest URLSession:didBecomeInvalidWithError:] : sha256 63f4cfa543b20b6d46a44bec2d741d94b0955d8a4aa02e63ac2c88bae9d787c1 -> a6dd11c3e02b13c50cd0beee814979535fb239f1f1165bcd5e8e170ecb129c6e
+~ ___67-[DATokenRegistrationRequest URLSession:didBecomeInvalidWithError:]_block_invoke : sha256 aa71a027113a91d17fc72a60d2811d5337bef5658018659239c4626d6fef3a50 -> 2904d8e51b35f81a14a073bd0426ce18ea7425ddaa25f54e32afab50349503be
+~ -[DATokenRegistrationRequest URLSession:didReceiveChallenge:completionHandler:] : sha256 0ee675f8cfa141675b457093fbae647521f58ac12e708e3933457e05eb6a7c9a -> 862984ce87cfaf40915635193178f0f8e005be9d084627ed41b22fb4f5be917d
+~ -[DATokenRegistrationRequest URLSession:task:didReceiveChallenge:completionHandler:] : sha256 8216bcf79a571936e8bd1bc74773490c66efdb567fd0876e801a4c6d62f002ea -> 669d0345b61afd5a185b15062c79de0d9203642c326834d2b21acbe4861ff016
+~ -[DATokenRegistrationRequest URLSession:task:didCompleteWithError:] : sha256 21d71cbe1ffaeb4510a5afdc49bd9bb66b520482786b5e54d2af3602c755acc3 -> a305ce89d1dd0764767975b74f5ac1f5cbe801870e3436c8e59824dd3e257db6
+~ ___67-[DATokenRegistrationRequest URLSession:task:didCompleteWithError:]_block_invoke : sha256 d08dfd4fba14b0bb97d86a2b1d1092e85f99872e73e3cfa7c8b72f5c9226ce70 -> 4cbd0163d9f052a22e5e87a8b4e2db3af7130534a30e2cef73987cb693a64c55
+~ -[DATokenRegistrationRequest URLSession:dataTask:didReceiveResponse:completionHandler:] : sha256 a63cf980147feb3a5c31ea53ab37c1b1e898dc5351057d7db4b195381d96270a -> bfeb2b0b1063b59a5ca57fcc61f858ae62ed161e3f16210ea568bf77aaa374eb
+~ -[DATokenRegistrationRequest URLSession:dataTask:didReceiveData:] : sha256 c2e2e633054695cfd10d29fbc31c8a33572e5fdea67d150fa0f3c49ed202f2ce -> 27139e0299519e6fff7414be298b427f07450350493189f05f4ab618011e9777
+~ -[DATokenRegistrationRequest _handleAuthenticationChallenge:completionHandler:] : sha256 a47bf39be097ba0feacc7fe1b8fbf754ffce00d44d1b47dc9a942a3a5b21c5e1 -> 84cff5cc4ad4caa46343faf4ff9e687349968e9c36a2de5e10d908d4266ed2ae
+~ -[DATokenRegistrationRequest _canAuthenticateAgainstProtectionSpace:] : sha256 e61d7312cfcfafdc1504703adeaa216ffab4964c301916329abe7fcbfdda5ae6 -> 6727c6063a529f7575fcae7374990fad092a179eb7362fbdf3cf7085b0be5c6e
+~ -[DATokenRegistrationRequest _reallyHandleAuthenticationChallenge:completionHandler:] : sha256 c398ce242cd1aa2197571e5b10bcb7bbf552bdf79dd64385e1295a5ca353ac0d -> 75d8d2d7fc65ea6f196b709a7c0bb3537386df44d9718af99f13ef09b4ebbde5
+~ -[DATokenRegistrationRequest sendRegistrationRequestForAccount:] : sha256 3a73a06b1e0d2efc421c4cf41e729b082c170be9cc2680be2ce8f924bb27fd25 -> 08bdbee7b00d408508c85cc17b5f492770a73ed3ff7f785ce08de65556d69a14
+~ -[DATokenRegistrationRequest delegate] : sha256 c572765a3378bac5c48d870732fdf9fce0f7e31e975d2145577f8b4f809b0574 -> 89509b21750118e810a376f427c104b78a5439f223ab2a3104b4d23012ace6db
+~ -[DATokenRegistrationRequest setDelegate:] : sha256 5b243248d4a610a45bcffbcc937c7c6325f646dd478a4bf58eb971b5b06a37e9 -> 0ed9200d90ceb7a518b21fa3240811498d4a04cf6ca6f6cbefcbe853f5660eba
+~ -[DATokenRegistrationRequest wrapper] : sha256 e485daf75c0f740b697e046851d4fbf5b57b210674a8045d603875fa5dca3891 -> 884249a8c35658ac1700bd8f08b2bce907e472efa93c20a8fbfb09b1e92b03e8
+~ -[DATokenRegistrationRequest setWrapper:] : sha256 fd13c49569b7a76f9b67b04f4eba33e6f5492f03fe7fd84459eb97c1b2eeaabd -> 05d86546250a57980adfb107531c9a3aaac7e907a47cb464a64f527687c5a886
+~ -[DATokenRegistrationRequest setOnBehalfOfBundleIdentifier:] : sha256 3eeae5f578a578b275a19ebf47685bf56285df145dd977c1929a8dde3d86760d -> ae1283fb7db81abbf327ecfeb235035fa67084d9428c6f23675763d9e620434e
+~ -[DATokenRegistrationRequest token] : sha256 8cfc42779103d3a27b79a0718186390536be3273bca401dd0d3af13e60d7c149 -> 2314947de75b32e5ec8359abf94caaa9aa9651c06ef6a7e0fef06e24b9a7ec90
+~ -[DATokenRegistrationRequest setToken:] : sha256 43e2861ac415f05bdb2735e5bc4800be2743b9a07175356a0329fda443f02d10 -> c8bcd76fab6a315d3c86521812f1bdab1221aca65f32907ad6102c208e6444d0
+~ -[DATokenRegistrationRequest pushKey] : sha256 fdf20818b6abbfa7b6ccbba2c844ea921f16df01e022fa74c4833cd53949fdd6 -> fce146f1759ee6f17cb3ab0089317acc29563395df94d6729a8595a58eb84c9b
+~ -[DATokenRegistrationRequest setPushKey:] : sha256 9337c511a24a564cc215ff19047fa9ac8f99782681101b6bb8e3c78db9a7b5c4 -> 7f5c3b07e93c7b4b991e94f33a32125e2228d77d7bb034776cd4888c60d6e9b6
+~ -[DATokenRegistrationRequest setRequest:] : sha256 22b8adf2e583cfb388a825a48302c1bf782d5af4fac7f6da1868323c76e675bd -> 5dc9caf56b9990075ee388e5dad64864b491277384844e535b3bb606eab2ca65
+~ -[DATokenRegistrationRequest setSession:] : sha256 1036de64e1cda907aacd2e7c22bad29ae31c4550dd032635ec0330d68af02a36 -> 515230959f883f762144d13cdc4ef227b65740b4228a97ed7013c730b5ad9fd6
+~ -[DATokenRegistrationRequest setTask:] : sha256 67d4fae76f38c096088704fb4a2982c86a17b8a689c962cadd560b0e5a2d346d -> 794d30e3d50ebf967f7dac5509fc2cbe2c9e6b8f20acb7786923863a666ff300
+~ -[DATokenRegistrationRequest setHsa2Session:] : sha256 dcea7c10cf24a571c78ddbca1ec3c58d2668410952cd1b948073b5ca22719015 -> 87b70a0b91ed0f79f2ca976471af08284ec21f40fb00218f0947600cb4ebbf65
+~ -[DATokenRegistrationRequest .cxx_destruct] : sha256 6f7c8277f4080308ff5f7995a1686c57a70931b54fbbe74304179b8e9c0390db -> 9510c43c3dca3907c60127240a74f0c76322ad6a23e6bc539d967e939a6e3dc5
+~ -[DADClientOfficeHoursRequestDelegate fetchOfficeHours] : sha256 f6fedfc8f7d27b7cc4765c0c95a4abdeae8826f28161ebb32d3a04a2aa9b67da -> b08b8001d2f2c467cafc609432a580e6ce39dc708218e6738554efc39ceb7994
+~ ___55-[DADClientOfficeHoursRequestDelegate fetchOfficeHours]_block_invoke : sha256 b06230b0c229a6bcb3319d770c23a51515d45f308d933ec399f76a9526ec94d6 -> a1a96be43db3bc711dd6b63844449095e68b078372c2f704f400614c9c8735a6
+~ -[DADClientOfficeHoursRequestDelegate setOfficeHours:] : sha256 b23adf93cb01a853fcde1746410e141c6c195aac764af15ee764d733117522f1 -> 34b2c0042f29146c53f905da700a520088fa5bb35753f7e3284b6dd16fed2277
+~ ___54-[DADClientOfficeHoursRequestDelegate setOfficeHours:]_block_invoke : sha256 b4e92fe70bdcd66c30ca0f9193e07562cfb4de3fbf7bff4193b79125aaaa48b2 -> 1b27fec79eeec8e005a59665100325f05667dffea96d831edb3e805a5b888e12
+~ -[DADClientOfficeHoursRequestDelegate _doRequestWithBlock:] : sha256 ed81eab0fdf47fe3a6334f0d50b99a85b35575e8365887bdb78658fa32e06b17 -> 3b56252e854c18d95fc1faffe9bc2f2bae01d3e77a27addefd0e4ebf2a98fe85
+~ -[DADClientOfficeHoursRequestDelegate finishWithError:] : sha256 bd71142b4ec25c1532ebe9354c98ffa535a4be7e641a5ee1bd0861ee2156e034 -> cc45e6df5b1957021b18d49eb7a86cdf5fecfc2f3b0f313ce22eb026b5ce47eb
+~ -[DADClientOfficeHoursRequestDelegate officeHoursRequestWithID:finishedWithError:] : sha256 9a4621856209e742c11d0b6d855bc61a76371d758d906e39eabeeee1f0543fbb -> 36374033773ac32b4a5dd9fbcf2f5f418c12aca467dabb7d1390cb6bbda88c9e
+~ -[DADClientOfficeHoursRequestDelegate officeHoursRequestWithID:finishedWithOfficeHours:error:] : sha256 5d63b4c1992e4902b8e1e11bdc046c65dd745211e771af5e6938078bb4d960d8 -> 408d1b79961d2ce9ca8a0ac1899a897a37da7e2a79763d71e806a79fcdbab012
+~ -[DADClientOfficeHoursRequestDelegate _finishedWithOfficeHours:error:canceled:] : sha256 373e82d3d5e2c81bf729820ef0e85ff0b090db33007f312b2f6704f7f175acea -> 6925da2adb2cf0ae50b36f2d4eaf882cd4a05ed8e0ec0b98916d3ffdc7d56439
+~ -[DADClientOfficeHoursRequestDelegate requestID] : sha256 6962a4e0fc3c1079e95abc7502dd1f5189150273314427d503ec5217e3b6bec2 -> 7fda882cbd9079336ee05ad6863297179070ccee53a7d8ea4b2db95be3ebe173
+~ -[DADClientOfficeHoursRequestDelegate setRequestID:] : sha256 826006028281881edbfea6d0dfd2933b78d8610ab583bb798e530368a8a05acd -> 40e444a4f9de19edfaf88295122888eae7c2859d80d21720b60afbcb30db66b4
+~ -[DADClientOfficeHoursRequestDelegate .cxx_destruct] : sha256 2dcb482c1ff09ffc13ed8720567d94befda67ea5708004719c1cdd40023bf66d -> 80a3e8fc8052d762783964e446164fdbca215800f2cddcded361a286cf17a6da
+~ +[DAReachability sharedReachability] : sha256 b59790b104a1fc1940aa984b9e95c0960c961efc5c7128c6aaee0128c93905cc -> b28f805234f1cec8a15a17cbbb3afc6234f2649d473dd3b2e340a48cc2c9245a
+~ ___36+[DAReachability sharedReachability]_block_invoke : sha256 6ccacc1546776f92eca63cb4ba5e7d6aaf719b5f09e37db1cd88da8b73086982 -> d7a8fba6baa46a6e484a1ce1464d23c1404f5600deab3fb9057a7ee2a072773b
+~ -[DAReachability init] : sha256 e4c71a1b3692d227ad22fc6206f37359d0506cf5bb55fd68c3a4eecc04a5a6d5 -> 296df122b95dbb15ad3e9c56159b8fd46cd8cfcba0e454c260bac044623f1f58
+~ -[DAReachability muckWithDelegates:] : sha256 7b70bd86ae9d7c8b571d10b99cfe83f07284492b6b34b28ca4609911b939fe26 -> 81a9711b6644507db3d686b25a07139d02e689b6a137f4b8e12877202c9ff5fb
+~ ___36-[DAReachability muckWithDelegates:]_block_invoke : sha256 19c29033cdcec0fd517c54c29e70700d8a53df3245723cf0ae3be74956cda35c -> fc35fb49f83c0b9ca2c16281cf9c8308fd333361cc693c0205d0c46b5612a63c
+~ -[DAReachability _startOrStopObservingNetworkReachabilityAfterUpdatingDelegates] : sha256 0aa553fd1682f5f413a51b8bca9f8731159ad08c89696bfd87fcf7547ac59962 -> 3414c91daf55a4b785300773a00cca4c8c5b3d6dacbae13c78ac8ad391c471c8
+~ -[DAReachability _startOrStopObservingHostReachabilityAfterUpdatingDelegates] : sha256 d54c79e3e7a53480cf032f5d27a26e7ea74fbe954f560d7f1e3359ac53921fce -> b15041c24fb1de81c66b668bb080d097856f7f15a3a0b204dc39e2e685cd5b89
+~ ___77-[DAReachability _startOrStopObservingHostReachabilityAfterUpdatingDelegates]_block_invoke : sha256 72aaa0155bbff12a9e263dba216d8b062d39a4e6ff224946177328a3960c9d76 -> bcff63abca99e610ba4e9d3ef47a206235a426e67748be91d971085e90741c94
+~ -[DAReachability addDelegate:] : sha256 9dc908ef279e3c9c8bcb411f08d4ebee26648868bbf81f603a148f460b5b76d6 -> 0c5777e4c8c7dfa86db41aff7cccd9fede2baa8a06033df855ed8189f2d69167
+~ ___30-[DAReachability addDelegate:]_block_invoke : sha256 ae6d91d2fb52525608bfd6f389c3aeee33a7129a3fd022d830f9ea13b46ed49d -> 10eb14bb65410d247ca6cb4682a2ee12ce54189300f884da4cc307bbed5bb593
+~ -[DAReachability removeDelegate:] : sha256 77a26559fdcd3801eea16debfd7d360d2f954a4e56181441d791226ffe01401d -> cd45fac675606e98dae8d3c7790e3a8f75c55c8871cf145e3b4071675fad73f7
+~ ___33-[DAReachability removeDelegate:]_block_invoke : sha256 c60ed2e9e3049e68bbe791528efb14c7a414dfb5d8542521e7f0d74bcf5ab478 -> e1da6239866888861c1a69d1b10fa354dada653bad6e58f48dd767ca7e0b1d25
+~ ___33-[DAReachability removeDelegate:]_block_invoke_2 : sha256 92a4801dd0ea5357f2a23bb3b130b0bc549f114507d67c6f553d25eebb7af417 -> a4c471db47cb281cec2bd8559d518aece2e89d719d623a86baff2a02c242f735
+~ -[DAReachability _notifyDelegatesNetworkReachable] : sha256 22a767f88fbd600439283b3a672f93cf1b0078ece0d71d9acddbdc0614e46717 -> c4eed8b310ea72960b192ee0317a5e2d47ed835fe7dfafee8ee00baa63c8e6d9
+~ ___50-[DAReachability _notifyDelegatesNetworkReachable]_block_invoke : 240 -> 236
+~ -[DAReachability _notifyDelegatesHostReachable:] : sha256 267ea11eaf21398926ad8d202c1e411bd5fd17521772049d9aab9af874ad86d7 -> 5a735a37eddaf71b454aec99241b208d80eadf10ddf0fd2f7e5f2ba89f7ac136
+~ ___48-[DAReachability _notifyDelegatesHostReachable:]_block_invoke : 240 -> 236
+~ -[DAReachability _startMonitoringNetworkReachability] : sha256 1d8574afc0acd1839c9c77c404ac00ba8b9568923192ebdb3074190f1c3ca57e -> 7fdc5eba205ffba16527456b15b6f7d6787090f9f19b228ecd0adcf2aee76928
+~ -[DAReachability _stopMonitoringNetworkReachability] : sha256 68fe343433960f7413607a71d139454c3cbc8e2b3be55ea3d506e3a17ea54686 -> ef3d93516f60141a0f14ecd27e7c35bfbf1b77dc2f4229ebe7b52c957038c68a
+~ -[DAReachability _monitoringReachabilityForHost:] : sha256 4283859517cd95a5a840d6aa52afe470c109e3e721297a8dc7e0169924ca206a -> 202bb765782aeef0b8af3e8c127a5b9e7d476295ee7fb64174c7f669cbef85c5
+~ -[DAReachability _startMonitoringReachabilityForHost:] : sha256 b0a5ff167d22e5f54e16de16c1736a86b68425b543b45e0d757c3fd912c33d0d -> 835d1b4836c0ba40b54383f91225e85720c1d149018376f84b73700127615e72
+~ -[DAReachability _stopMonitoringReachabilityForHost:] : sha256 74d8403d4940570ad29153f227c7bd42233e370180e7e738289fdc87583a13b5 -> cb9e3f47cae249428451d47ba9c6a7cb24eeeef4a8d2e11414c81664d0832571
+~ -[DAReachability _networkReachabilityChanged:] : sha256 8ebcebaf62c11febb1922498b8c236987c7c9c93a4531a17680833fec1b0dd1f -> 7ae26866e3a1a884524eed7eddb1ddd289fd806609edd63fe1e752c403ea7d7e
+~ ___46-[DAReachability _networkReachabilityChanged:]_block_invoke : sha256 2676f8bc6a84f03056e5bf626993738cd339a2b9b22038805902ac1983ae8e17 -> 870c0ee51f1962e223a1143b5f8fea895be96ecbdb69136789d36262b8ce77a0
+~ -[DAReachability _hostReachabilityChanged:] : sha256 270aa1d9e036916d7645db492bc6014d0671396a77ac1b4f69c097dd4843c414 -> 0312831262c02e62d2192e5bf7fbd3071066be4783000009ef7a8512651fb2fd
+~ ___43-[DAReachability _hostReachabilityChanged:]_block_invoke : sha256 be20b692420c977fc1729a8e161310b3340889f5967207ac67f2837864dca88d -> 77df619eb05b8aadcefa56553c5444eb315e5ff536b1bfde3097dc766ee9369b
+~ +[DAReachability hostLikelyUnreachable:] : sha256 1d5b63932cac971b39e81aaca35c8540acd23d1bfcd131e272e1820389346e4d -> 8387f081586e34afb90b0eaea97bab2a074899e44abdc0b5a862390e70820068
+~ +[DAReachability recordError:forHost:] : sha256 d9bb847d974ab7cc5b9c1516a40b4c630d7b15a532efc57f739eeed0fb8b8a90 -> 63eecbde5384ae6c94efa75c58a205d7a38409ea5c8a2ed4c8bf8432cb15d4aa
+~ -[DAReachability .cxx_destruct] : sha256 11a40dc8449a4ee9081c794ee1ede919d3c8fe8722bc47e276fd005e3e0165eb -> 915bfe51430c22ed7b755cee08d861b00ea52da96f0626635c22cc2476b26200
+~ -[DARefreshWrapper init] : sha256 b0410f84b7dbe94d06bf76e26a93b7611863610453c764695683301129f48c5e -> cbb2a43b3e8968a86727b37773de3d113057bb36a54e09d606bb5c4682bb0fb2
+~ -[DARefreshWrapper retryActivityIdentifier] : sha256 9bf86c494575928da803741114258f6cdab0a98c92781a9906a1f059e215deef -> ccbad8650e5c1e8b325484f796987e7ec8bef1c298a662da9295099a217dc5dc
+~ -[DARefreshWrapper cancelRetryActivity] : sha256 de2b0bd86c5ffd1b5a2e05d5c9a76dcad639436760b5b125418f54ef20aaefc7 -> 586a78f76702b26c7d9cee37b12fa6444eba0596e53aafe7a0e3469d99193744
+~ -[DARefreshWrapper cancelDailyRefreshActivity] : sha256 9b041ab7fba3440e43176423dfbcb13bcd16111be3e0269c58b2e0dbfd743889 -> 331310c0b0a0581403c9c6a033b12e4076a3710049878ec33f233734974b7a3c
+~ -[DARefreshWrapper startDailyRefreshActivity] : sha256 d969f33ecb76150f39060decbb86423d8ff16441f782ea4f5cae7eb5af590e83 -> ff2c79bc65684fd9e52674435ecbcec0e68e40a07e2347510167af0d1bc47fd1
+~ -[DARefreshWrapper stopCollectionsRefresh] : sha256 39cd7de7a07ce9fac08ae7da12397bbdd4bf79dfa950af35c351d2794f15739a -> 3e22296e9c98cfa8b9b7867859b33b74f4c922d3fb8c189bf9e18df4dea405e5
+~ -[DARefreshWrapper _stringForStyle:] : sha256 b4bdcb2bca77c62afde7cfb7ab997cbf0b32691c1f68276069469297f704af77 -> 05a268badeaecc1afb1382f97811fb8a94f5e31022dcf6c4dc7c6dcf37f47873
+~ -[DARefreshWrapper fetchActivityIdentifier] : sha256 bc373327adc6c1a2f83f6b1c402ac7ad3936d97e8eaf50cfaed0b11e2bb58a97 -> 6f293cb0cbd9d145ebbdb07489df014aa3a3dcff73f8eb5ecf3e8bfaf6de8b22
+~ -[DARefreshWrapper pushRefreshInterval] : sha256 083e24404a281b79f3739b2d501004aaa2f6f0816e53dfb518b76c164aa9f8ce -> bbac0270b5f57d1679e7539d0c0296b103419d2d02a4b37119343ebfaddaa7e3
+~ -[DARefreshWrapper XPCActivityInterval] : sha256 8017fd4354d6c26146764f53a46df0f33c92306c7c40747e5f759d8182013169 -> 3f2414ec0cc7c7069bf11c42246ed3d5bb54322531598f42bbdb1b9c9404adc7
+~ -[DARefreshWrapper _fetchActivityCriteriaWithInterval:] : sha256 74554256f488f4ca77acc337e6e91dab614ed7167b1b41167ee32dffc1542562 -> f81361033463a2441c57167953607c0b952877a18ff2973caeb43b15869bd4f5
+~ -[DARefreshWrapper _fetchActivityCriteriaInOnPowerMode] : sha256 a9cb1ccb7ccf68de09cfb1c23e50dec7a0408cc7cadac93361411c69cf422052 -> 30514335ad5ef6e1644da4d94ad6c40bdaf5e6aa3362e93e8339cff1f0ac91c6
+~ -[DARefreshWrapper startFetchActivityWithInterval:] : sha256 81ef2310c8982d26e2600a2e760e5152b4d3c3dfdc064e1841b80858362848ee -> 27bd24c8c047103f0e49abe0899f4dcf1ea3aead3d5a9e4f1095c4d21dcef9c2
+~ ___51-[DARefreshWrapper startFetchActivityWithInterval:]_block_invoke : sha256 9f4e90dcaadd1e2f852527d68f75325821d4504f1b03e63875efe059ed341fdf -> 5d6ec75bbed8b2ab2b198765fd29396ab628967447aa437eefc579cc6d4dab93
+~ ___51-[DARefreshWrapper startFetchActivityWithInterval:]_block_invoke.23 : sha256 00ecd45452e4827e6e622d70cf319d7aa148f3c1c3d3607aa9d08837d9e2d3f1 -> 49c76d837b9621ac8de5ef116e5d0442b6f65392a8095ed25a2171bb9176203d
+~ -[DARefreshWrapper startFetchActivityForFetch] : sha256 66818f19784325cdbf1ccc0aa771578fd0323cf73de5a6030c1ea2ee0ee865c3 -> 71af3f0cb19f79a277affbb96487452b02b37a6beb8cd20825b2191a130d5003
+~ -[DARefreshWrapper startFetchActivityForPush] : sha256 a8138e7051ca2635a8525b95361ae4156b5bdb83c01e4160a30ae45d9a499d30 -> c671569807c449044a340d38f14a2fea30118ac9586871bf9cf63858ea3b96f0
+~ -[DARefreshWrapper cancelFetchActivity] : sha256 695d3f00d48cca87cdfe8032a1291e99dcf8ca2198c1c5c0bce362e1e84c772c -> f224c78c4da1cd9c0df5cfe9967445f675c63772bfa2c8fe6c3a4eaa5bee1716
+~ -[DARefreshWrapper isSetToExpectedFetchInterval] : sha256 d1c09a4bdc2881968d0eccfc83c53667ed90f72b8e704fa7f3db7f4de7b2c4fb -> e086926bd24b3171ccc61c55d8224145078306c58bc423d8b1f7acb0fbc2c729
+~ -[DARefreshWrapper description] : sha256 c860a32803e3f830a36144448200d1dc9fe50cd5da6a355b137007c31d10222e -> 674504934f23aadc74accf10edd91db603fcc5f04805e6ec4f8b7fa151467f39
+~ -[DARefreshWrapper setCurStyle:] : sha256 2434e611400848cc8c3b0e232bed824429ebb7c01dc52e97d228bbae08b90121 -> 578e7aeed7f7b46416d816b86c4d13036860db89d51c11a768e56acbb4df6323
+~ -[DARefreshWrapper cancelAllTokenRegistrations] : 348 -> 344
+~ -[DARefreshWrapper tokenRegistrationRequest:finishedWithError:] : sha256 dcff1b82d59a4cf8fd230cba6b6b723b830bd389a6de442feb7cd91378cade7c -> 7b2f0afa72aa506ce39dcbd007bf996469ab7c371600bb9806f4acf049e2c2fa
+~ -[DARefreshWrapper performTokenRegistrationRequestsWithToken:onBehalfOf:] : 688 -> 684
+~ -[DARefreshWrapper refreshCollections:withReason:] : sha256 9cec6633132aa153e3556ab189e71b8dee94a33c8602926f45be0bf7eea9cfe5 -> 1278b495357347dcf4f83df082875f77f6f30516a6133e0b8f6a33b7cda3b229
+~ -[DARefreshWrapper _retryActivityFired] : sha256 942a4059bf1689783eddc1fd6f046b545924edd24d39fba891d0e7d8d3abf406 -> 4385f3d9c29553de97df34e246ada9a317d774e1ac97681ecf57127d421f0f21
+~ -[DARefreshWrapper dailyRefreshActivityFired] : sha256 6f9050a23ccb5a28b1cd31bc9c6ed7d619eae73dbc07ca1bd538455cbe284739 -> 1a6991ce39c81fac7fb69bf8193c1ef25e873a1cb8f5c424d2043da5f3b4cef3
+~ -[DARefreshWrapper retryCollections:after:reason:] : sha256 8e3337e71a17e0fff0c78d1bba08cf3f80583243653855514dd552d0f309569a -> 6a7360da5a36f2c9be1072f0093f29865ada768d95ba7a3ac38276d853c9b08b
+~ ___50-[DARefreshWrapper retryCollections:after:reason:]_block_invoke : sha256 a2fda5c3b6cec08025367cdf5497bf2d997d2021a38851d4e2fefeb5c71d17f5 -> 5d2d54d149d42baa22e9ab932a4afb1a61a2ec7a61f99276b6294c3b4bca2866
+~ ___50-[DARefreshWrapper retryCollections:after:reason:]_block_invoke_2 : sha256 046fc694550da68852edf5ef4a9ba3eddbae21902e49932effa20f7b62d14379 -> 36d8dffe10fd7daa65f399d2d24648ca0d85b44195ca2468c18138b22967c253
+~ -[DARefreshWrapper delegate] : sha256 7c7d57b3be85a72fb001319e5d52c10c541a4b13bec8d6f993265e10c24e7ada -> 170a564ea3791b2b8055f3050359aeceb526e8cabe819cd9067bfa3d39d6638e
+~ -[DARefreshWrapper setDelegate:] : sha256 58f22458941b9f06412015e4330decb5865505df7475fb4098c2e82cb6c36042 -> 883d217947630ea1b651a89476df5a9744de6bde5aac402ab0e987af71fc48af
+~ -[DARefreshWrapper setPushRegistrationTime:] : sha256 4c03b4a3c53ce24ed6e4bcffc2805c138bb762a3a2ee57370502a06131cb60e0 -> fafbbaebc7130554ac6563e6c949dc101f1f2f4e9f658e67b73f2ffa2b82ec9d
+~ -[DARefreshWrapper wrapperDelegate] : sha256 584fb1b3907ac73ac983902e6cb9151a030ecb34cce791eb0f64c55ecbbfccb7 -> 8174c0e7cbd98840cb0864278fb406294e78312f3a9044bde320aa45b1e6c953
+~ -[DARefreshWrapper setWrapperDelegate:] : sha256 e7eda1998280f2fdd1c8de672c5dc4ab6d529f96dce89c259381c28708bd88cb -> 4e76a331b2e43a2f0b093dbee3c096aa343f72b166dc0fa28ff6eb0072c9e2da
+~ -[DARefreshWrapper setTokenRegistrations:] : sha256 0b171d9e71b171643129aba520ddffd367a937ff3c52eb4e539f2a5d56d7a9ea -> e233e038a99d8f47a248d44f7d37335b44dda190ac331dfd419603c211e143ac
+~ -[DARefreshWrapper setRefreshCollections:] : sha256 657e61a01e951a1258b1eec1d0f02f26cfbe4da67ada66d7cb218ff1a2e3222f -> 62c1d0cfed9efd397203caf3dde8d1c26ae9c35b83cad438ad8eb2c2b6fae2e8
+~ -[DARefreshWrapper .cxx_destruct] : sha256 017b168b57c8a9f056b0d0f9437bb79d4744f80be917b6abe56421d3ba5b33d1 -> 09554af93a6fa0a0bb326e44d2939ef4387b28745dd746a4a0bc61effab194ee
+~ -[DADClientSettingsDelegate initWithAccountID:requestDictionary:forUpdate:client:] : sha256 d90c4d0290d130313ccba377fd70cc4b71418a6ab76ce6ffec5a1c7158667b39 -> 71a718a5d6aaa6fabc1a7a0efd91f375df12f7c4981e64ceafe00df2f31f939a
+~ -[DADClientSettingsDelegate dealloc] : sha256 2460a1bfed3d42f03a10d6c63b62eaf839f5fc5b5f8a633ff50f6f6eefc838ab -> f660f4489c3bec840fd21c8fc57061fb9df4f328125a9b73b2e063c4232b10ae
+~ -[DADClientSettingsDelegate beginSettingsRequest] : sha256 9a46e6fe526bb73c0d15a61faa9410b9455641208f374bc21726a71e113e4eb1 -> af2bef85376fd142fe7358c33faaf9034cc3f524965ca11170b7a1fdfa504fa6
+~ -[DADClientSettingsDelegate isOofSupported] : sha256 58f9ec5bb9ac2cc6bffffd76a0d478b4943d4e0888535df9b45e8f64080845b5 -> 03e52ae68346faacc45857debdd7cd870055b359f3cc014dfa7060576929c768
+~ -[DADClientSettingsDelegate settingsRequestFinishedWithResults:status:error:] : sha256 3783a4ccfbd70cdb4a64d0ad3f6abddb46f4033eac939b131a681b046b39d1ea -> 78f2eb8229e3b40194049219b3f384ff4696d3842941354e70c17f268914ebf6
+~ -[DADClientSettingsDelegate disable] : sha256 8f53c1f4f1ce136bf802ff504f83ea14a27180cae03d9ebd1c7272935b1f0c8a -> 65f32206eb3700d45505a0447f90f1627c28d9dabca940dc07e73abf70721417
+~ -[DADClientSettingsDelegate finishWithError:] : sha256 bc7791040ebf4dfa1d15d26afda41b7e5cb5eec7d047d2630bca15b5c07e8545 -> 1ba62f95a3127c3ff2d76339afc55936ed2b6c238dcfc62ea2a440c791f1f861
+~ -[DADClientSettingsDelegate isUpdate] : sha256 eec1ee36f2e7135708c80837c7941f7048d7ce4857555b945b9106c67a996abd -> 3016ff9e5cee7612487f21be51e50ea6df4917ff51abe6f98d952a4cbc38821b
+~ -[DADClientSettingsDelegate setIsUpdate:] : sha256 da7d66479fdbe19917dc076b771db247bd2c89077c8f7bf49585f87a50348afa -> 49bc51c44d426855dbf72980ff37810a2f5c77e26bb3a1a48ed434a113270733
+~ -[DADClientSettingsDelegate requestParams] : sha256 063afb7ccd4f0de03893299d8411494db73640b9d1c92bff75a64892a08eb68b -> 9f96ef5b658100a435b7ac872b514becd5bca9d283afa82134c2e101d5a135d2
+~ -[DADClientSettingsDelegate setRequestParams:] : sha256 05650dfda697176dbfab166c13cdf12c57b4687d6e44b83d612aeaa32adbd906 -> aed0b6ce5877e4364bfa860aa35d26b33661b3ec0ec6180686ae85e0fc3247e4
+~ -[DADClientSettingsDelegate responseParams] : sha256 ccbb2c5f01c4cc2ab1b78306dd77a59b8ab6245f0f3f04308b74032fe73d30e2 -> 399e52e2d6197bd2c82165b5dc7d67d2d97b763dd637b463df3e2daa2c6d22b5
+~ -[DADClientSettingsDelegate setResponseParams:] : sha256 62361320b03549d4938793b3e9c9cd2db13bece22c7fae972b6b5631ee8440b3 -> 1514da33b9a2e5529415488708aef1059474bf6c00eb887d13e4be94fb60827e
+~ -[DADClientSettingsDelegate .cxx_destruct] : sha256 59cba645d93b5809ae89da3305f07c88c3a3a1b1cc05c3ef425bbdc20197078d -> 6de8d39dd68c7994840de2a861156bcfe9aa81fdc32ca740e7c1e3fec4894ed9
+~ -[DADClientCalendarDirectorySearchResponseDelegate initWithAccountID:client:terms:recordTypes:resultLimit:] : sha256 cf16e5934ff5d9d986076418bb570e5bea3793f69e0b52ed8a09cf5e218ffd64 -> a8afbfefe7dfabb5a3293283ef93e117efe7a7a7b0ba9d3df25ac76d4e3679eb
+~ -[DADClientCalendarDirectorySearchResponseDelegate dealloc] : sha256 934eb9995a72de146515afec9ba2dbea4f1b2b9a14762c32ac619b0b79496c77 -> dd834dd02a92150213cf6d9d841a46828b0e9afa680e485e364991f296c001fd
+~ -[DADClientCalendarDirectorySearchResponseDelegate finishWithError:] : sha256 d243fb3c65d9069da9ad47374bf4eb9961bddb8338b962f5549bccfd7cc7802f -> cc9ed619131a591bbed5807d9ed3c09132bae6cc98ecc08a025ff458b5d16ffd
+~ -[DADClientCalendarDirectorySearchResponseDelegate performRequest] : sha256 72391ec260dcb8df6a4bf6ec231189b6ce9a9bc477694aac8c0298ee35d02b25 -> 6ca46912cac5295ba7bc0f75d621bbafd6f0b85b4781ee7cf33e34b945765751
+~ -[DADClientCalendarDirectorySearchResponseDelegate calendarDirectorySearchReturnedResults:] : sha256 c92eaaf708aaf1950d0b50ea466eba15f76724688b30ee128ba2432ef27f7ecf -> 0ca8cfb9c8efb8acd42e03952b7b3b7dd29685a78113e09fbf96e5138c28a5a9
+~ -[DADClientCalendarDirectorySearchResponseDelegate calendarDirectorySearchFinishedWithError:exceededResultLimit:] : sha256 e4309b47de667342964674d1a973582b884fd1f38c76b736663a2f93246c1b39 -> 90907db2546307d3ef2e018d6b7a93e7156edd937d3a58d38616ba7092c98feb
+~ -[DADClientCalendarDirectorySearchResponseDelegate _convertSearchQueryResults:] : 544 -> 540
+~ -[DADClientCalendarDirectorySearchResponseDelegate searchQuery:returnedResults:] : sha256 632f35358fecbc8ac4443495a7f2a67fd3cf4d0bb5e02206b6b7059335ec2d18 -> 58c035daa914139271071e49e14ade84d5218cac6cabe8d752f7c87064651414
+~ -[DADClientCalendarDirectorySearchResponseDelegate searchQuery:finishedWithError:] : sha256 feab569f50d6b7e92eb3c053d815da4391c2e7d2ad0bc99dea15fe1f7010899d -> c6922622d2451c17b291a798bc5b0beb0cca208d110d07554d1033f9a9c7885a
+~ -[DADClientCalendarDirectorySearchResponseDelegate .cxx_destruct] : sha256 1b53e7eb1276c8ae3b009447aae0d2b9eeb0edaaae450dfa7c6180df98a9e1dc -> 60ed6d5f13931838f6950c5c05e9b4faf86da804cd4114f546a73b5dd8bab570
+~ -[DADClientSubscribedCalendarJunkCheckDelegate checkSubscribedCalendarJunkStatus:] : sha256 a5d81f7317a1f9f9d41d11ebc9c572aeb6b6d0704a9f338421dcfaeb7b4797e3 -> ad277ed3ac6b22f02fc155d978abdeb8650f9b5d4b79450508882caba2105da7
+~ ___82-[DADClientSubscribedCalendarJunkCheckDelegate checkSubscribedCalendarJunkStatus:]_block_invoke : sha256 5feec85d4907d4e416cfe4900c4a2a86e2e471f24a8667a3dcfaa82b98867a77 -> 0865ab389c8288d3e9c9dc9074d60e759008c15d46d45693d5170626e6ef08bd
+~ -[DADClientSubscribedCalendarJunkCheckDelegate finishWithError:] : sha256 551a88e3bd9e08d4fdb1c2bc924950c391431927b776b2f9d1de4b98e136b27b -> 60b85a2fde4a4d9a2f91311c4f4a384543e1e3ca26fc38992803873fabc349fb
+~ -[DADClientSubscribedCalendarJunkCheckDelegate _createURLRequestForSubscriptionCalendarURL:] : sha256 3c6648b173cbb4de0cef8c292e43268aee19fb0a05bce6cb0b25ca13b9335a2d -> 4a633e7f144f353e6e054074d3219a887e49864d350357ed5ca11ed3860f9e22
+~ -[DADClientSubscribedCalendarJunkCheckDelegate _generateBodyWithURL:] : sha256 a8d97f225d9d220355c4bc9a3408d12476ebc2e788f753064861b0d51b4e702b -> 6d0b1cbaafc847b9188a79eb6ba13128ff53c1fc4168710ae70b2d9352cc98f4
+~ -[DADClientSubscribedCalendarJunkCheckDelegate _finishWithJunkStatusString:error:] : sha256 b4b2c17ec92f8be743711afbe0cc8e9a21b5d337d0d8993d3ff9cfc7cb84db2f -> 061c981c129ecb14b97908154be18e43d1ffafef078c1afd3a5c79ba02a45311
+~ -[DADClientSubscribedCalendarJunkCheckDelegate _findCalendarURLFromAccount:] : sha256 8014f7359b895dd75e8b431159a4194c3f76870cc74fd01a749adcbfbe6006bd -> 854d56966dad2168c4a04927104c96c2a1fa40248540b457b8b40b8d2540b234
+~ -[DADClientSubscribedCalendarJunkCheckDelegate requestID] : sha256 9a9e1533f541da258da5b08d69ae9cd2ce619a7db2a436830645bbc1fa7e25a8 -> 5c4e10430066adb19a5d3ce5e90cd1625d3b66b0cd15d13a68a32c2532e72c31
+~ -[DADClientSubscribedCalendarJunkCheckDelegate setRequestID:] : sha256 c3ddf25d233293845678df8af723cac93f21031b4c784cf6a4ae50e463172566 -> 1d3cd36344c9ef7b1f03acc29c5a54ba5e8f31209160f33e1598fa8a68eb7684
+~ -[DADClientSubscribedCalendarJunkCheckDelegate .cxx_destruct] : sha256 a345cc6453368ca8c49dcf407a425f0bc7c2f2a2b2a4384880fd50d814ef9e19 -> 76fbf70285d139a5210ef0446a74cd488932ffddd3725f8104ac448fcbb443f3
+~ -[DADClientGroupExpansionResponseDelegate initWithAccountID:client:principalPath:] : sha256 9143687163ed98956ebb46b02698aaaf9d6501d58cfd8443eeead3bceca6e61b -> ea955a6656e63f379f91ec9f6e75ca1c68a6b0da38a538b0bd0758ab3b503197
+~ -[DADClientGroupExpansionResponseDelegate dealloc] : sha256 e81239ae17c91928981e0ba46f82e9eb1bfce5037f73ebe91d978f3a8975e12f -> ca96c990cd92a7f0732739446e668980b575b2f8275b4019e3752d47452d3e7b
+~ -[DADClientGroupExpansionResponseDelegate finishWithError:] : sha256 17b5314a4e2ec53bfd38d103604a432a8b5285bea2d3d5fab9f6f3aed68f40d4 -> ee3bb31c5ca6b2a73ec970298e42ed074ed973843428f880d3e1b197e6b06abc
+~ -[DADClientGroupExpansionResponseDelegate performRequest] : sha256 582c471240653910a3b54c4018f35c0e471527f1562771c3e3159e4fa56c883b -> 24188c25c8938c09c2addca578f2514de6fcda720546e5317c7cbc05f39e4069
+~ -[DADClientGroupExpansionResponseDelegate groupExpansionFinishedWithResults:error:] : sha256 42b51229150cf6b3187b7cd9156e8623950e2d37d2a2ed4b3279c696b174493a -> 3efff86fc10b11d28b5ecf40cf516c33a5da735b2bd9229d630c46559d9546cf
+~ -[DADClientGroupExpansionResponseDelegate .cxx_destruct] : sha256 cdf63084a434cff02d28a371d71ece69fcebcb5dc637d547ba6992730b98eb3f -> 2db7a98a895add26f37c4eae1a67bddcd9772cb756fe3782359551241375333a
+~ -[DADClientAttachmentDownloadDelegate initWithAccountID:attachmentUUID:client:] : sha256 b2b85d97b3202c026f54603c49969b8ea451c33979bdb5fe76fc6e45302a8d78 -> 4284cd7b35e51deeaeb059932e53689fecf41fbe27eff053244de3d1f3c93f30
+~ -[DADClientAttachmentDownloadDelegate dealloc] : sha256 69763d4b69c5ec5cf4f96c547236a5e128ffadce45d55907b82967744c5817e2 -> af3f5d91dd82490dd1a0c980cae4fcbc76e3e2ed532b19fe606ba17a3e6a0a51
+~ -[DADClientAttachmentDownloadDelegate beginDownload] : sha256 2a07aee7b656aedaa5b3767bd50a04c89ddd438be23bae590a5e03702f6e33f5 -> f62a279fc8e6b6b7acf1e4b507f873898bb314ad39ebd3d8ae304016f72db9e7
+~ -[DADClientAttachmentDownloadDelegate downloadProgressDownloadedByteCount:totalByteCount:] : sha256 8e63321978b1c04deafecd4626297c272817c4a2870b745e7fd76422412d44b3 -> 281a102601fd832dbd706e74b1f52c6da17cc1c3c24a97b72fc440f37e75b5a2
+~ -[DADClientAttachmentDownloadDelegate downloadFinishedError:] : sha256 43f3e6a6fc6b88d451fe7e6b8cc1844c204bd3b9b7af122ab78d19731351bc72 -> 6fd56d4d6239af71cbfe8a1c2390b8721899d2367a4a05246c0d5faa57222697
+~ -[DADClientAttachmentDownloadDelegate finishWithError:] : sha256 50b8458a370e21ced7dfb7ef6d6ad4f093eb8ac05b01b20bf14fbde17a2cf2a7 -> dcb033236d11b1c3abf6282378650539ca697b7e03af85ef4b0f35bc91c38b93
+~ -[DADClientAttachmentDownloadDelegate attachmentUUID] : sha256 1c9c4ad393540ab740669399bd0a0507e703268711ad05f0a184a7d863c63529 -> 018e4b0b4bd6e505e9f555e5e562513d22428cf873046bf57ca258f877c45207
+~ -[DADClientAttachmentDownloadDelegate setAttachmentUUID:] : sha256 5c5bd5aeef12f07173a52aabd1b9023723f9649a21ec76fc458a2024d18db74d -> 39f2eac9d22f5011e8b1ecf123327e50e4265d208514a7975d61d67fa5dbdba2
+~ -[DADClientAttachmentDownloadDelegate downloadID] : sha256 4a809238588fb8ffc81fd37cfe38f2ec5c5d2adb9a9e045c4e688d3679a74807 -> a47383a259a7421cec0dbeb28ca14b0f5403d7db9f98c2398f71adea21d95c0b
+~ -[DADClientAttachmentDownloadDelegate setDownloadID:] : sha256 2696f95c5647c6030723ef4f414f82c606b2594b69dee748b182d8a02ab6c1d0 -> 5bb044a32abfcb79028371ae89dcf51dd6cd95f5b70a0e9e97a66886d5145c03
+~ -[DADClientAttachmentDownloadDelegate .cxx_destruct] : sha256 8dcb2933e59c5d97bad9b5130bdadaf1400a108f582815cfb70035fa12272951 -> b32d6ecd0d7394f8e11af6b80e3fa943695a7705f4e0c284beea738bba2184e0
+~ -[DADClientUpdateGrantedDelegatePermissionResponseDelegate initWithAccountID:client:grantedDelegate:] : sha256 d6b7b6605ab08e4cc8e4e08ecfeeee18e25339f96b7e8570e078282de5e7f0e2 -> ff986a84c62b7d32ab3bb301d2216e5a9d5281503971859764fe4611a00c0696
+~ -[DADClientUpdateGrantedDelegatePermissionResponseDelegate performRequest] : sha256 4edec2964695ec46252c32bfa81eb8c139b2de16bc811163c847891b0366102c -> c472541ecc8af36c6bf0b52393dff3c2b0dba8b3b3b2bf7a1b2366d038d529d4
+~ -[DADClientUpdateGrantedDelegatePermissionResponseDelegate updateGrantedDelegatePermissionFinishedWithError:] : sha256 de0f094604afc3c06b764983bd0f701b3f3c637a50a2fbf4857ba54ff5d3d607 -> db3f8738cb7e3cb9c08966e8a74760903ad627027cf9b511d3989721a11e2f39
+~ -[DADClientUpdateGrantedDelegatePermissionResponseDelegate finishWithError:] : sha256 9375ad3a5fd1928e22b2a7d34953b359ecadfc6506eb18e92466cbb5324ed7db -> 83ee3eb4360b1acf06eb2136dfda1f048b7f905217745ba75294a481cf943617
+~ -[DADClientUpdateGrantedDelegatePermissionResponseDelegate .cxx_destruct] : sha256 b02b17b5b58b5a32a4b42d017a214a989ff6b6022afbdca3cb2deceb0994a31a -> f834258baf49cc7f2ff9476bb69c42a620002a247512b8504bb20a142c94f14f
+~ -[DADStatusReportAggregator initWithStatusReports:numOutstandingReports:timeout:completionBlock:] : 556 -> 552
+~ ___97-[DADStatusReportAggregator initWithStatusReports:numOutstandingReports:timeout:completionBlock:]_block_invoke : sha256 9e7cad019b4fc1404afe5d202e4816474cec4b6a02ff7f9a72bba9b93375e992 -> e1ee64ccfafab511249905a21ccb9aa63e620800a3bfa86f3fd0db124df798cc
+~ -[DADStatusReportAggregator _coalesceAndReport] : 524 -> 520
+~ -[DADStatusReportAggregator noteAdditionalReportDicts:] : 388 -> 384
+~ -[DADStatusReportAggregator .cxx_destruct] : sha256 4c3c267d8de885bb189098221cd909d99ab6eafff28b7d16b0d451ec95456e6c -> 4e438caea53fb6c7b02e14c9488f6bc6bc285807998220956e556ede427b1753
+~ -[DACoreDAVAgent initWithAccount:] : sha256 6bcce2253d56773e28ce70d1923ecfa5a8c7a83a0d639a74658bd2c4735ca3eb -> eb8123438b6fce6eb02787ae9278755d6b9f765ac415103bc92f9f8d38c7233c
+~ -[DACoreDAVAgent _cancelOptionsTimer] : sha256 f0a6ad466990fcd03561c4e987d00db8c509a498fc8ed58956dab3f22da97f7d -> 7ca5da8ff7e0ae01fd0ad44e4de42f1c7b507f296380710d312dd8f44b7bfaf5
+~ -[DACoreDAVAgent dealloc] : sha256 9af228c2ef3f3025ce4e0e483260b65a95597a4488d6c667796a664f5b6f95af -> 7a6436a9ad94a894f7ad615deae9b534616e5ae0ac238fcf7fa8c94e192c51ce
+~ -[DACoreDAVAgent _serverProbeTimedOut] : sha256 beb2f7ed1ee0d964762077f437893fc9a4e154cff3d5ead028dd6ffd4298a3f4 -> 45ea98c231e4c2ca6766994645e16ba904821947e48a8462ca068dcf51903c2c
+~ -[DACoreDAVAgent _probeAndSyncWithBlock:] : sha256 243b6d04f903e86a4f01df4f3ddc3c24ca47448427876572af0e4654c9b80ee9 -> 7bdfbe1f32f29eac90db8fea230dc7d32989be5c101bab07eaa31170728d59f9
+~ ___41-[DACoreDAVAgent _probeAndSyncWithBlock:]_block_invoke : sha256 56e4906253c3b8549b05761692613997f361b00ee47c814101d55c8ab610380e -> 73b1f38b20ddaa8d071c83b5137f3f74223d22fa81ed0c37194ac1df111430ef
+~ -[DACoreDAVAgent waiterID] : sha256 4f95bfc2cd7be7162b8193bcc76dc9afcfbf0cd54f968767456ad016fc648cf6 -> 7834be9b4ce74d7ee60ae6ecfef2f5a034c91e50e1a23b8c9b927215ae34356d
+~ -[DACoreDAVAgent optionsProbe] : sha256 8a21ef0de8b37c73fa48d0cac75dd631b2b669a18a6ec63783ed91bff69bcd79 -> 1c6fce10d0b70d8e54a30b6c1f756075d039b82aaa94e28bc10c1433444afb3e
+~ -[DACoreDAVAgent setOptionsProbe:] : sha256 db0f2e00891464b93104d251df05e134e7c30329df71d5e26413594213f02be9 -> 9891b80ccddb1234c04d29382faa1ef9ae10de7e57bdf8d15ba48c25f23188c9
+~ -[DACoreDAVAgent optionsTimeoutTimer] : sha256 17a55950048948d59e9a565620f12f785d0002ab4c3f75a7ab6f37f866305ccd -> 8458df59b4c99491c943f930cf7f0a17d74cd42284806ca1594ba27d103f2387
+~ -[DACoreDAVAgent setOptionsTimeoutTimer:] : sha256 271eba635db5e5f9a224f4f8d8c6a4f5e20149820f5c6742982f207874391b84 -> 4bcb846b78702f47842045fd23c02e15e138df322d09424d40585096374397ec
+~ -[DACoreDAVAgent .cxx_destruct] : sha256 1aa78cccdbe54e46fcecdd7afa954de1148d0d61d55311d31ad0ec0aafa7489c -> 042f58e71f694c0fafecbd8d43be1d1bb55c353f902b6cc52c6e7792c7ede27c
+~ -[DADClientDelegate initWithAccountID:client:] : sha256 ebb0b257c865c3d63a00d02703d83aa52896a7965c44dde59ed2f7a8544587cd -> f016f9b83cbde4de48de61807189d6b5b753605880ee64c188f3e3873683f065
+~ -[DADClientDelegate dealloc] : sha256 0da2929562e75c9ccb743609470766c2634f91533387884db6af372f131f5c7f -> fef20c96e00fc848174d3e646937bd0e7cf420f19ef4a980a161cb2c225dbf2e
+~ -[DADClientDelegate disable] : sha256 574ea178b2712b2d3fcde11ca9226dde0cb13a6ed363d3143fa8fcdd70f1b416 -> 9df66177211415d9e7518389305bf2dce7453491cc50f0a5bc68ef9ff60a11c2
+~ -[DADClientDelegate userRequestsCancel] : sha256 70a8ad155d56bcc4fa49e0bcace87e4fb02466d74e3cd4068f63b3a551cca40f -> eea3cc9dfa8007c06257b64ad3d6323ade5844b91f08e57c6d49418bda5d13e2
+~ -[DADClientDelegate finishWithError:] : sha256 b10437af3972503ff998a27f7507e5c795a367c39098af22b8583a0c21c49c12 -> e91b9b18a98cf2dd0fe77701e25aba3a85774521a36414cd4ab133f2c0c6aafd
+~ -[DADClientDelegate delegateID] : sha256 11984c91cafcabd7cb0245f04d060ea37962b3818ad4f54c1058c8db05e3b1f8 -> 4b4d43494b4092ac051f13c6cd15a1c173b31b3838a40f0b2fc443d9bc274c4b
+~ -[DADClientDelegate setDelegateID:] : sha256 4ea16a20ffcbb803a825f5dee9348e8544d427c1ac53e4cdb736100e6fb02ae3 -> 8046a652cc84cae9b6de5f0421e146a98de33da090a687a8338360d74f0ae795
+~ -[DADClientDelegate client] : sha256 ff1f5772e30e16e70778171dcceb696626b32d1c4d3e528c9afe7814b2a782fd -> 6831063ca57a4ca1dd17f566f235887a4865657c93ec135c88930c498f46aed8
+~ -[DADClientDelegate setClient:] : sha256 400bf4cb5ac3fc37f9b389bea8a4ad710cd26db19291fa4de17e5513a0c39474 -> fdfaeaf142bf55f5d577545045e1a450fc95b248eef0e4b4c8cce2f566925164
+~ -[DADClientDelegate accountID] : sha256 2e0cd86753d995f4ea70c8814f7d32307f207b6e01f094d333195e1e87937e6c -> af50294535b588ce508719da9d443c5c820e7719167d851a21186e514d16819b
+~ -[DADClientDelegate setAccountID:] : sha256 0c31cf8c29ee3805c4ab4aa5144bba74ba0b8f8067f5ab16639ee7754cf438b1 -> 256fec6f3d82f959f72a127594257dd5bad00f66b7972211fb85320edef535fa
+~ -[DADClientDelegate finished] : sha256 3fd576aa1d62cc34d78f4885bdf53c188b5131cf8ced8d866632659bda4cc0cd -> 0a1639590099cb112b70d7d9bd2383e796f57b6d37038a1f48c4ff078819b6bf
+~ -[DADClientDelegate setFinished:] : sha256 86698b7b86acb88f9d2d5eefd5d25472889a546f70e167940f61c9ee9f560e89 -> f19d69e60970953ce155403d0533f6c4dfdafb56371ec60fb2c18e0bd0fbbb98
+~ -[DADClientDelegate consumerCancelled] : sha256 b551310edec5e516fb5d5ed79eed18be8297f71946933ca6e633871bfc8d0f7b -> 74ca6c175ba60848dd16815dd7db6277edfa4822ab905e44747c8b0a3dbcf897
+~ -[DADClientDelegate setConsumerCancelled:] : sha256 3e68769f58666854dfa7712276249216f4fbaa4628e0a64a8b63b10fb069d3c6 -> ee3acc7a8375f36fb6dca349ff4e8b5aca48e87e17404a979c882a182f0c0933
+~ -[DADClientDelegate .cxx_destruct] : sha256 c647310460094d982cf37eb70ef8a82d976fcf2506172872ebe69ddc45824876 -> 35614662b8c9e11d0d1ba87cf8617866ccd03b971aae169026739311b46ae4d6
+~ -[DADClientShareResponseDelegate initWithAccountID:client:calendarID:] : sha256 a8adccc240dbd383958200a17c42f8252448ee6c1d74c707469bab4da72064ee -> b8958ee593c94f2128fe43319f634f9d1e45051ca2f92908864fbcef4a0f9963
+~ -[DADClientShareResponseDelegate dealloc] : sha256 bb48de3aeccb853c2cc49c27b7c6aebc0e64b85df15e9ee7c3139cabcb854dcb -> 0b14b07fc9e75c1e7bae0c2e9bb03ebe99c5d446edc5ddaef23a7d8d1e52a84a
+~ -[DADClientShareResponseDelegate respondToShareRequestWithResponse:] : sha256 e06f2206c7b86c07ea8ec50de088a7c6c2b6da8d30d5263f8593a4e5dffae2c5 -> 49bd80651ba3af1073eaf140880af9033999b7495beec6ba3fdff6fec069fe85
+~ ___68-[DADClientShareResponseDelegate respondToShareRequestWithResponse:]_block_invoke : sha256 ea88d6f634673412a45b8fa8ea665cbcd40d588764079878a48bf15ce13c6213 -> fcfbca2ea0dd07211bab5a5d965cd5d6e72d31687dfbc003710b46017e519ba1
+~ -[DADClientShareResponseDelegate reportAsJunk] : sha256 ead72ebe59150297ab820aba1149083b998865b90934091efe6d25d89946d7fd -> ada6e7566e0788b671911e95239c40a52a2a631f2417cf07362a4c0d38307927
+~ ___46-[DADClientShareResponseDelegate reportAsJunk]_block_invoke : sha256 bd7e1901531c26eb6b9c83af8852d1123ce0262b162db859e08a01a1f434a84b -> 6f0bce41800a725cc7d287430b94848be977cd7c72687b7a7e3465a6572c7b2e
+~ -[DADClientShareResponseDelegate _doResponseWithBlock:] : sha256 5dac35f9e4e54a4d7c17b0ffac1b045fe9eba870cba61f8a4c1470d03a209776 -> 537e6f1578fd0ce0847c60f72255ab31e40cdd893bb4c4e84d3d4371abd6d12d
+~ -[DADClientShareResponseDelegate shareResponseFinishedWithError:] : sha256 4e39a5da005303981a6e6a9bcbd69dab43d09d6c7a1528dbfbb504b97aca1b10 -> b4c81eb57fe5c9eeee53dab1fc3ed1f2224c08326fa3d88832598021ec63d699
+~ -[DADClientShareResponseDelegate finishWithError:] : sha256 29d1726cb30587f74ea613f9c8e9470135d0b7d3a666ce6bbc3476cc2523de97 -> f3a9f014db48e7c0f48dc265dfde0cf99ccb1c942372450170887e901651192c
+~ -[DADClientShareResponseDelegate calendarID] : sha256 f6e625c4b77d71ff147ae93f522a2a4464871efa46725aa1c5ef3c71a62d51f5 -> 9676c1f496122c563914e7c87249f6f7bad9a0adbccf011bc003dc4c0a993a8e
+~ -[DADClientShareResponseDelegate setCalendarID:] : sha256 840e7c473e93407b60edb69ab1862fb3fd1008f588435eaf1188f5ec91ce29df -> c4bcc2c9fe9cd8d31d8cdcbee3ed53bdf30bf60f822a6023e8219a364cf9a3a5
+~ -[DADClientShareResponseDelegate shareID] : sha256 678b306e7b586df776fd948f2efe712c6111cfd9dcd089e1e05ff0e50c7101f2 -> 4cfaabe7a36bf6e42ebddff95c206d954e76ad8efea39a69ac51157780311d7c
+~ -[DADClientShareResponseDelegate setShareID:] : sha256 18e0a1411c141c27315f3cf42d54426cf96c034b65da86a64ef24e112ee2d36a -> 4460737f23afc4fcf026c838e808280c9403a71692490d88b3c15aede078959a
+~ -[DADClientShareResponseDelegate .cxx_destruct] : sha256 a835427b4cf41bc8b9c19da3ac178099987921bee799838c5bdd229c1930b9d2 -> 796e79dd48f6114999c5466889b22acd66387656054f9c5f6ed8d4235ffc61e6
+~ +[DAChangeHistoryClerk clerkWithContactStore:] : sha256 d815dc7a77152c4f9a4cd246fc9fd7292a0e46047c56367efa78f9410571776f -> 2e01c6d0c1306082ee7dc2dfc79d2f1024236e9e5648356704230385d4cdf027
+~ +[DAChangeHistoryClerk clerkWithAddressBook:] : sha256 0757af9bb006dbd14dbfa88b44ac98e1d675c5d5c405d635e987f7ccede6e715 -> 9b0228cff03f53de4315639f86e27b7dcf70e7961e3495db1e7466bce7893e06
+~ -[DAChangeHistoryClerk unregisterClientWithIdentifier:forContainer:] : sha256 36b774c781e5d02ff88bef2146157134e25ad5e5481c619fe8c047c0226224e7 -> 6967f998e5214162f5afcf9939ce04242932607837e79f8b2d6a4c0b8aa7ea3a
+~ -[DAChangeHistoryClerk registerClientWithIdentifier:forContainer:] : sha256 79bc9eb041ac8da796d2f320914e52b7d20bcf7f421bddc03710792a148bbdc5 -> 6a214f1aef3ee3a5ae3c51e987deb7a42ef7949a07ade915aa801e5c6b20f691
+~ -[DAChangeHistoryClerk identifiersOfAllRegisterdClients] : sha256 45c3c7a6b13a6ebc12afc1b074252a37f74218b09caec067f7bd62565915e01f -> b5fa574180984d1ddf2619eaac7fd2167ad06d0996e3190ac4df702699da95b7
+~ -[DADAccessManager _setupServerConnection].cold.1 : sha256 a6850602cb5db039faa2f41ed20eaa9dd84d5ed641f091d5ea5655b424cffc13 -> 469b6436391ae40a5760a81842f6a7c3c716ef515f9ec0fa61e877c69f25d46b
+~ +[DADAgentManager sharedManager].cold.1 : sha256 e54bcac3a41c4c62c104efd92a9bf3e664af4dbc57b9adf07ac5d160bb98f291 -> 456c14b4979c8b5ccad663ed182130995c40a1fe2f8f952b54c6653dd3c1af6f
+~ -[DADAgentManager loadAgents].cold.1 : sha256 0d26c7b89abd27a4f6f47be9e450f0dd7e569b7a791fb152e48fe8f24db35c8c -> c2dd873e3e21e362a5b7d788230d73fb57ae9bde07a6c2a63d0dbb590f8e6e1a
+~ -[DADAgentManager _clearOrphanedStoresAndTrafficLogFiles].cold.1 : sha256 6fa2c795fb241652a7277ccb671dfa07871c45efea9b2cb38b43b9df75450ce5 -> c45e2be2919e3a4217d0dd9ef8817daacc9dbae4c8c7d40da5ca1f63b58a1d6b
+~ -[DADAgentManager _clearOrphanedStoresAndTrafficLogFiles].cold.2 : sha256 67a49c336f592ba56295bb1134ae1c7f17a9458378050c3a98237a962133affc -> fdcb13981f684c8a4152e163a0017f286181f02f10f8c77c4c23eb4e7c8b0e9c
+~ -[DADAgentManager _hasDataclassWeCareAbout:].cold.1 : sha256 fe92b09d25560fef752cc2de1d971796974d5637411a34c084bf87fecc578ec0 -> 0f14c3550166dae3f44fa647eeb76281429a09db9e89f73a31abe4b511072237
+~ -[DADAgentManager removePendingAccountSetup].cold.1 : sha256 0679e381fb4a46d2ea961cda4072352a64e5bdc803956356e10e13dc6a3162d7 -> 2b23469f3898307e271546c0d8757959b4e9379451caff3ae44eb81a804c4f00
+~ -[DADClient reconnectWithConnection:].cold.1 : sha256 3b38388a63278b4e483b4b28a38244975cddc2c3d0cceebffdaed0dc08c1e703 -> 5363ca732b411c1c46aea3494af2dcc5b73905b3e661196b16fc239da8a7004a
+~ -[DADClient _openServerContactsSearch:].cold.1 : sha256 7b0a7424c04117405b43d47fc08137154d9bdd5d4552a6bd30cc5d9c909caf40 -> d5dc1f2c44d16dfb43ff744e5eaa10c36458acc65f3497d0ebef205b924253b5
+~ -[DADClient _openServerContactsSearch:].cold.2 : sha256 f265f2833d61354df71ad576172aaf4803e7aff89c78043adfa4f782729cfc5d -> 1804afff2263d66bc515ffe67c34b1ce9e27a2041d9c12d82f876f85823ed41b
+~ -[DADClient _beginDownloadingAttachmentEvent:eventDict:].cold.1 : sha256 066e4b392204c93288aaed85db155f877ddaef36277e989b74742bb5983428e0 -> e1b80a66d7e5c608d66831f35bf29e26db30fdfb5227daac94997d3824122fff
+~ -[DADClient _beginDownloadingAttachmentEvent:eventDict:].cold.2 : sha256 e8b5faab12eec732d9eed470d74786756231b47fca232bc3b6241b87662a3245 -> b94f778e75a4b62624fe54062ca9ba6b2a70b67a1f995a0c30c56aac96e3b069
+~ -[DADClient _cancelDownloadingAttachmentEvent:eventDict:].cold.1 : sha256 a4331650801c97f8b61ec3e848976908c4ec66b9d1a117375f00afda3d3a6c95 -> 47f6d8f7dde9acce738877437932db3984e5f937f1dc87f08a539cf7998c29c4
+~ -[DADClient _respondToSharedCalendarEvent:eventDict:].cold.1 : sha256 9c5f974bdcb418965c5a35fe0e202c3119280c60a155a1ae6c77eadcbf2e50f9 -> 17cb67b258ac4fad7b233ee96fe8dbdb2f36f2ef13f565c82833a2640886aaa5
+~ -[DADClient _respondToSharedCalendarEvent:eventDict:].cold.2 : sha256 8bb3173de7116e3e7caf8c0376df2b19abe69f62602ecdca1242ba5de09be628 -> 7984f6c313c056e70e446dec5d9ab52f26d416646d6c5a21d5d6974b2c8cf90c
+~ -[DADClient _respondToSharedCalendarEvent:eventDict:].cold.3 : sha256 b02124098bb33ec1a11ac395a00cdf7c99be282de4dc3406d72054d5cf96415e -> dc0094e976cce2c8f7e282bc4ba79f2d3076ab7c0bc2e3f4fec6cc6a8297a428
+~ -[DADClient _reportSharedCalendarAsJunkEvent:eventDict:].cold.1 : sha256 e3a22db535869a6ae42b611ad520f7ca8c4f5b782db2b45cf16e106591a535bd -> e492a2353cc41c00165cd3159de7ff07b604c21a3fc73dcfc76d515ea784566c
+~ -[DADClient _reportSharedCalendarAsJunkEvent:eventDict:].cold.2 : sha256 36103f67aa5f0c98fbe4acdb56af64e729b5c8784993313d074c99f5c95590d3 -> 788d0fc208d219bdbfbf80526088516c1dba77bf7d34c87aabb5366bf326c2aa
+~ -[DADClient _openServerOofSettingsRequest:].cold.1 : sha256 2e97a916000b77250f8f6f5116b6022f0fef0e9473cab9725bd0a535cae02ae2 -> 61e7d5d91a8c5a8aa0ee1076c2194402949dc27b8801db3662900bcbc2cbf3b1
+~ -[DADClient _checkIsOofSettingsSupported:].cold.1 : sha256 55f1bfe71a8afb2ee46a28ab018ca80fdb22a5b829e9fa684c3c63c8f0aa8fa0 -> a53d962c11f45a97269f0de43e74f177a9b68886c5812b7b1bc1681924c4f744
+~ -[DADClient _requestCalendarAvailability:eventDict:].cold.1 : sha256 46b454dbf36352330080d929e0fe57d69cdb66888f7265ca6129dfe694b7cda6 -> 5389248d4b0d1651b25f793dddf1e5f5b8b9e5de67f3f967f6c3b21b0bda9d3d
+~ -[DADClient _requestCalendarAvailability:eventDict:].cold.2 : sha256 3bff28c78a1af34ad4c191f549c897affaf9e4d71208b9c5c08002533abcbe38 -> 9e22a45c8500065d775467a173dc12919e53e87bfea6f6c60512f527d81fe561
+~ -[DADClient _requestCalendarAvailability:eventDict:].cold.3 : sha256 3e10c953e00d78be3cceb4b7a95b33ec6060dd02be9521702eebc51f67118492 -> bae13acea8d3fad6fb8e39378d6c7e62a492224c0435611b631667854582f250
+~ -[DADClient _requestGrantedDelegatesList:eventDict:].cold.1 : sha256 9a9a65b3270767ce8bfb0b59fb2da82cb3dfd12d25a634610fd6e245575f16a6 -> 62f60816f2a107e0362bdf398e8651aa610eabf154455b0aaba851cb28992f09
+~ -[DADClient _updateGrantedDelegatePermission:eventDict:].cold.1 : sha256 92c0ee9f88fab89cfcb90fd441fde804653c716d2a9e084f2a7f59b54d7447b5 -> 27803f8eb44a30e4b0ec10c9ab1261c99df2dc3b1b11931c6fbbd40d25d68e62
+~ -[DADClient _updateGrantedDelegatePermission:eventDict:].cold.2 : sha256 959d2a7c058dec0427d656c0c2e1339fbe769e9e69eee2950fb3451258dd580b -> 95a22f8129393d1861d5d8b856606f323dbb100548b4dee2e0009ddefe70646b
+~ -[DADClient _updateGrantedDelegatePermission:eventDict:].cold.3 : sha256 e1d186282210abe9bb0532d4bc159f12a2ae79c9f2d5dac401b8460bfec05190 -> e7177548491243252951629b82926fb504b15deb66f129331790e1c81d61cc71
+~ -[DADClient _performCalendarDirectorySearch:eventDict:].cold.1 : sha256 561f680a1f86f73db15af6bad13ac524eea6e07a3ea12a5548d8799323622bc3 -> 21ef4fea9c4a774360e91b702faafbe18bcd0774cb852dfffb841470fe9037e2
+~ -[DADClient _performGroupExpansion:eventDict:].cold.1 : sha256 8401fdd61c24f501d3b6ddd50b978f4074838f7d8d4d24e35d6d6854ebee8fe3 -> d1d75ab4eb3089e02e5278feba350f7b5f9b2c5cd7dc539a2331e47e13d5ffbc
+~ -[DADClient _performGroupExpansion:eventDict:].cold.2 : sha256 d5ab385d9e3ca535b39f5a874f9c68eeea164fdc92427376753bb25533ad498d -> 30265e0efd81092ba4e15c17ffbc36d199cdd052b62bd9771fe87c844cdf5d25
+~ -[DADClient applyClientStatusReportToAggregator:].cold.1 : sha256 1467308a27aca46eda29b218ca6603f099189cd68aadeecd340f39fa98d79ed2 -> 0f2da6fd559a0686a22b36cbc0d95f7abf69bdc712008e831c54591ddba42ff7
+~ +[DADClient permissionsForMessage:].cold.1 : sha256 0d0eeefff04ba39bfddf1957571ad14a9a4a85befc272829b48d76135ebd1617 -> 0f711a9bc2561915e43eeaf172afe6ebd45ff3935c5956c1547a5a2517d1a1b4
+~ +[DADMain sharedMain].cold.1 : sha256 30f1efef030679cefb87fa78425675fd104148aee8f01c2be444b038261ac3b3 -> a7231165449dea3e1988fb1d47e452d3ae4d59c918290fd1fb7bb1e4f476bc57
+~ +[_DAChangeHistoryContactsClerk os_log].cold.1 : sha256 23009d3fee9165f12a66c898f72a13b05c40809648845546589425ac0bdd4a2b -> 86795cb909ceccc77852cd39c5a87450206233adb59d64dd3737fb53d7d1932e
+~ -[_DAChangeHistoryContactsClerk unregisterClientWithIdentifier:forContainer:].cold.1 : sha256 535b6ad0b7cc80a79aa93e7126ff933bac1e86b767d26eb31c0af377561be3ca -> 2a56ba5ae637ade38f2b229d531622b13a12d0a0208c1087e29ee9e34fddf24a
+~ +[DARefreshManager sharedManager].cold.1 : sha256 0db3aa5816502479b70fab7c5f100b7eb9ecf749e0f369a1892c1c0cd4826e4c -> e8bd1adb67d1db1bb6527c2a99b9d8d6a7f15e8c52555594f109c14801916d31
+~ -[DARefreshManager establishAllApsConnections].cold.1 : sha256 b5195978242363e15c5d6a13e1d81052d6f7268a4dca2101e8f9856d32867c6a -> be9bef52cccaafa5f2de21ea9180c4e0a361c52d6e4d50224d838e08e6be4aee
+~ -[DARefreshManager _connectionForEnv:].cold.1 : sha256 3b645948d47ecea15fdfb33a42fc333378c38c428175f53f34ca1d815ad8845d -> 9a073add4923c44dc53a34f0b0aafd5db42f4979ed515ecb4c136b681da58184
+~ ___60-[DARefreshManager registerTopic:forDelegate:inEnvironment:]_block_invoke.cold.1 : sha256 548999118751311b3d6c2ca5d379c4b4599edad12f16e28e6b56071b0f4824b0 -> 3874e41e28c9bbcbc48787b41fa6c0acbdb1b5459c6887591952c8ce734fe39e
+~ +[DAReachability sharedReachability].cold.1 : sha256 92771e3c12cb5f8e7a3eb04f42dcdf44d74c470cd4ef0254270a52308c55be61 -> 85cfcd2fd15497837d5c86b42a47ef2c88b9aeeada1121ad5e072f773189e70a
+
+```

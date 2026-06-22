@@ -1,0 +1,142 @@
+## _AppIntents_SwiftUI
+
+> `/System/Library/Frameworks/_AppIntents_SwiftUI.framework/_AppIntents_SwiftUI`
+
+```diff
+
+-301.0.41.16.106
+-  __TEXT.__text: 0x41f48 sha256:e2cceb399b946c2ed71061948be5833e77d864efd1d7337a673fa618546a956a
+-  __TEXT.__objc_methlist: 0x1ac sha256:c8d9ca38ca6f504a11feba96054356ac61ead24f2d0be209da6d96832024ce82
+-  __TEXT.__const: 0x3734 sha256:21a8ecf389ede2b01368a9c30e48a0c068c81491ad07df250847f377ad83832e
+-  __TEXT.__constg_swiftt: 0x17f8 sha256:9b5d5156b5eaca7881772dc4df93616c8fcb2551679ed9147b8efb1f3c0e99a7
+-  __TEXT.__swift5_typeref: 0x2268 sha256:9e75a9985cd3749cb90598f0df9e4200b45def96efbbf9f81fb35289eabc690c
+-  __TEXT.__swift5_fieldmd: 0x8f8 sha256:d3308b9a8eae6a6b1d13b62afce947722ffa617db67b8ea5956db1df8d69ee10
+-  __TEXT.__swift5_builtin: 0x64 sha256:989019625bc331e212c0ddda17aeebbcd6e5f63743f3502bc999e316004356b1
+-  __TEXT.__swift5_reflstr: 0x4b5 sha256:82a1a491116f9a60b3b517aca77e2508715ea5878ec5683f88e250acbe0c79c6
+-  __TEXT.__swift5_assocty: 0x458 sha256:4a11565c5a4baddb67dcdb299ccad2d3a21da2b958e715ba8d4b428701e06fed
+-  __TEXT.__swift5_protos: 0x10 sha256:088494a06ef008f1a8775a0a7dfd047c656afe6576e5f536e4dbe8904d26c89b
+-  __TEXT.__swift5_proto: 0x208 sha256:09b81a00b1a29fcf0cc0c5d643852385081e96c25a63e63a9ce3c80936aaf5e4
+-  __TEXT.__swift5_types: 0x104 sha256:8116726fa67fdd9b1c77ac91ff9463ed7552c3c0bb7bd4f185fcd215f5f42f45
+-  __TEXT.__swift5_capture: 0x988 sha256:67848cc09b29a7e25dd2426e63240881f16c722e83f73c18412d123b39a7016b
+-  __TEXT.__oslogstring: 0x283 sha256:3af4247c63a8f9c30e970286a9f9b4c8a1ccd7ef1399ac8e59aadc5e528880f5
++301.0.42.7.0
++  __TEXT.__text: 0x43524 sha256:bcef009d81a72a9206645ce299a5feedffb064360785e0a5f1760170d88f2d56
++  __TEXT.__objc_methlist: 0x1f4 sha256:2181655bccc3d6c1d6ded8346d522a046e11ff6fe2ba038277be4fa4ee706c6c
++  __TEXT.__const: 0x37c4 sha256:45a64118766c3b737056b88a89ebe5948ab9d77f21fbe0910474e57c4cce456d
++  __TEXT.__swift5_typeref: 0x22a0 sha256:08bb69fe8ea81a49d340cd383cc3bea04fc293f6f258175faa635a4cd6332cc6
++  __TEXT.__swift5_capture: 0x99c sha256:ed91a664670cc934f4663984da88d542cd53dacd50c5e29bfcdaf4250fd83aa0
++  __TEXT.__constg_swiftt: 0x1824 sha256:b76e128cff49467bdaf39af453bf1b1da7b2fec5ee666c89fbb7cc989f1f08e5
++  __TEXT.__swift5_reflstr: 0x4b5 sha256:0cf054816f3d57971e0e279cf313ccc7c6638ff54139e1895f3d026d8a182183
++  __TEXT.__swift5_assocty: 0x458 sha256:4eec13a36cfd9e8b2edc917c2201711e68108657b34a70ab0f6043f1bb84ba44
++  __TEXT.__swift5_fieldmd: 0x908 sha256:00b7ebce6025e4f652afbc2e98552e3b58375093ca200bac62e7768c97af1092
++  __TEXT.__swift5_builtin: 0x64 sha256:11cb7c96a787616742bbd749c2284841efee9265ad23c8d9607face84dddec79
++  __TEXT.__oslogstring: 0x34e sha256:9bbd45435b42a360f27b2e2beac02e9294fe474b7abe4f42d7aaabe0118aed01
+   __TEXT.__cstring: 0x61e sha256:fb9893ad63859f059649842325f4962db4e9892c67c8774d695c1bba2edf5a1e
+-  __TEXT.__swift_as_entry: 0x114 sha256:487d488c74914c98b6db60ba97e3f47ba279665a6032d018b757448ee430a421
+-  __TEXT.__swift_as_ret: 0x9c sha256:f829c4444e308eeddc1abaa8864f47eb7aad113d7271882026467ce50c9c784d
+-  __TEXT.__swift_as_cont: 0x15c sha256:dbc3282d2c17c93b810793ace097039cdf18ec3bcfffe8ada5c1153c0977992b
+-  __TEXT.__unwind_info: 0x1690 sha256:0258ff7a7a828d59fee450819cb83c3e4721a0d19b9d1b01ce835ce8d07149b3
+-  __TEXT.__eh_frame: 0x23ac sha256:d98c0a9b345871a4d67ea96ef0825b48f643b3d55f8369463afdb1d9d3575269
++  __TEXT.__swift5_proto: 0x208 sha256:86fc9d33ca7ddbc5d9d8f875618633880d16f76634a0f73a2a7eb8db8615b74e
++  __TEXT.__swift5_types: 0x108 sha256:2fded9fb375b817ddcff7c9e51f6c791eff3974fd0525589ccd9c74ffe944084
++  __TEXT.__swift_as_entry: 0x114 sha256:c95213f4b977bbf3e2636b808b2f76e642c7eb8c24ec0b8d2f277bcc27f1509f
++  __TEXT.__swift_as_ret: 0x9c sha256:07cd54efc658e02c9ebc14ab96356ec1c3ae8ab271a0f9805deb1cc95a5ea5ed
++  __TEXT.__swift_as_cont: 0x15c sha256:139eed76ce2c935b68d66a6886f433e3276c21b6dfe0610e6bde33952866749d
++  __TEXT.__swift5_protos: 0x10 sha256:0b5572f4fcfa233cdaf98d1e241f099ad09f0d4ce4d299c848cbb75117f05908
++  __TEXT.__unwind_info: 0x16a8 sha256:4deb65b81d83bb349cc7e84a34005355b726341c447e4be761dc12bc2be2175d
++  __TEXT.__eh_frame: 0x23cc sha256:39757049198410ca12c5bf53bf970eeb28e9bfd6c27dc5c9ac57d36cf78c0976
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x128 sha256:2c212b4907219bd0624d20a831c44f771d2457e2e46257623116983be1621a51
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:9c02ef4703eb638491b9238e85694e806119260b1175cdb38c49f4fdbcb8a2ad
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:07914fba45ca5cd20bafec0e13c8dacc121b60aca7af60897b9799bed9b336e2
++  __DATA_CONST.__const: 0x128 sha256:f25bcd53999998578c5bfcc39d8475c4b3a9f77490fe12f79b0430391c0e58fe
++  __DATA_CONST.__objc_classlist: 0x28 sha256:47237523531e62009ada081492dc153eeefe1c60005f3fc09b87f986cc86fe74
++  __DATA_CONST.__objc_protolist: 0x28 sha256:177305fccf18effd6a713b5c354e1d0de8a727bdafaca236e90ae6bcb5e90264
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x398 sha256:7c312cff60d540317685ba84336d5483d7762acced8c35303b18cb3c5ffc81e0
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:453475a5a8317a003176174d4424e1d620ca67b4ecfe57c7051b3988d25a9328
+-  __DATA_CONST.__got: 0x9f8 sha256:71b33c0a8d97fa76144e437bb860335419ae5c2f831cfaea1e58ad8ad73719d9
+-  __AUTH_CONST.__const: 0x2600 sha256:b1e731bb03029a0c2b34d1fe6d3e920a1432948aca3b6448116b9d48610a9137
+-  __AUTH_CONST.__objc_const: 0x3a8 sha256:5fab009aef04b980d03625c1e53a77f0daf90994718c63f8b022ea93efeba272
+-  __AUTH_CONST.__auth_got: 0x14d8 sha256:862f9cd124117e820bdc43b598287a322aa7dd9464cfbf1771c4d971d1a62093
+-  __AUTH.__objc_data: 0x50 sha256:aaf4dff66555b9b4227caf6dd3ff32a05669df8ac9d5f32c6033c75f6017681f
+-  __AUTH.__data: 0x310 sha256:7d48ae69e0567cb7929a1badb48c16a5e138f5fbbde9dda18977a03dca5228b7
+-  __DATA.__data: 0x1448 sha256:c625f191c4c5f39d4b1264059517c5e375c3097131adef01b89ea8958942e0c1
+-  __DATA.__bss: 0x3d30 sha256:f0f3c94e4058d8009a62f27c35e0e8a2cb2ca9da1c7db6f26940a0dfcf9ffc93
++  __DATA_CONST.__objc_selrefs: 0x3b0 sha256:8f34f00bb98f0a09bd0aa7104413e3c52fa9b5f9de0ff701039f12928f9b6664
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:b00a72f0939f1b24314f5621d864b512e3a246581a31af6809cc1461e1a5fe18
++  __DATA_CONST.__got: 0xa10 sha256:278ba2af2eaf7d0d0ae702503e1f7fe084ffcfb2e78a9e870ce941543d877f0e
++  __AUTH_CONST.__const: 0x2650 sha256:a7b691fab88dc3c6c2d2e75293b7771a7fe4ac5f8cef15a8065bec82b8eda9bf
++  __AUTH_CONST.__objc_const: 0x468 sha256:8d459f3bbd623efeeb479b7c3ff063c12a52c4503ecaf8149012f9762ab2040c
++  __AUTH_CONST.__auth_got: 0x1538 sha256:1d740607d3a168dbacbf6498195dcc3b361a95bdd3e0c95ba1acd24f37af438f
++  __AUTH.__objc_data: 0x100 sha256:61a651b93bb166d0402ceeedfc1b15388196c6739e98d7195bf964721d3639fd
++  __AUTH.__data: 0x338 sha256:ea5ffc1d3c8eaaecebc69e4b0f7eb91c99dcf4923eed2fba002bb88de540fd00
++  __DATA.__data: 0x1468 sha256:ee7f7c63db8073e27e054fde4ef4c58ed34cbd33eba800f486dcf3e7632331e4
++  __DATA.__bss: 0x3d40 sha256:d93736f6bee2f5c560296049bb10e9423ced586202b34dd1968c239ad4d6c311
+   __DATA.__common: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
+-  __DATA_DIRTY.__data: 0x640 sha256:b41f1aaf59223035f5b638fa0e5bd08d4e2be4a6addce9225bfe52dd607e779c
++  __DATA_DIRTY.__data: 0x640 sha256:bb012f9ddac7447ecc0822ac45ce34df72d00de20bac780d31c5aadd1260db44
+   __DATA_DIRTY.__bss: 0x480 sha256:4cf9816ed1062189ff0c8d427fba5e912cc68fc9af76cf7f08fd255977de3b33
+   __DATA_DIRTY.__common: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FB79AB4D-54F7-3707-A0A0-1B22F723DD79
+-  Functions: 2109
+-  Symbols:   2185
+-  CStrings:  62
++  UUID: 4D351481-9539-3DD5-942F-97358E41DC6A
++  Functions: 2134
++  Symbols:   2229
++  CStrings:  67
+ 
+Symbols:
++ _OBJC_CLASS_$__AppIntentsSwiftUIBridgeLoader
++ _OBJC_METACLASS_$_NSObject
++ _OBJC_METACLASS_$__AppIntentsSwiftUIBridgeLoader
++ __DATA__AppIntentsSwiftUIBridgeLoader
++ __INSTANCE_METHODS__AppIntentsSwiftUIBridgeLoader
++ __METACLASS_DATA__AppIntentsSwiftUIBridgeLoader
++ __OBJC_$_CLASS_METHODS__AppIntentsSwiftUIBridgeLoader(_AppIntents_SwiftUI)
++ __OBJC_CLASS_PROTOCOLS_$__AppIntentsSwiftUIBridgeLoader(_AppIntents_SwiftUI)
++ __PROTOCOL_CLASS_METHODS__TtP10AppIntents17_ViewBridgeLoader_
++ __PROTOCOL_METHOD_TYPES__TtP10AppIntents17_ViewBridgeLoader_
++ __PROTOCOL__TtP10AppIntents17_ViewBridgeLoader_
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.7
++ _block_copy_helper.2
++ _block_descriptor.4
++ _block_destroy_helper.3
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr.2
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.3
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQOyAA0I0VyACyAeAE05labelG0yQrqd__AA05LabelG0Rd__lFQOyAA0K0VyACyAA4TextVAA14_PaddingLayoutVGAA5ImageVSgG_012_AppIntents_aB007WrappedkG0VQo_AA11_ClipEffectVyAA16RoundedRectangleVGGG_AA05PlainiG0VQo_AA19_BackgroundModifierVyACyAA017StrokeBorderShapeE0VyA2_AA5ColorVAA05EmptyE0VGA10_yAA06_ShapeE0VyA2_A14_GGGGGAaDHPqd0__AaDHD3_A8_HO_A23_AA0eY0HPyHCHC.10
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy012_AppIntents_aB018ShortcutsLinkStyleVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.11
++ _get_witness_table s5ErrorRzlxsAAHD1_.5
++ _objc_msgSend$error
++ _objc_msgSendSuper2
++ _swift_deallocBox
++ _swift_retain_x22
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic So8NSObjectC
++ _symbolic _____ 19_AppIntents_SwiftUI0C14UIBridgeLoaderC
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic ______p 10AppIntents28TargetContentProvidingIntentP
+- _OUTLINED_FUNCTION_72
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr.1
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.2
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQOyAA0I0VyACyAeAE05labelG0yQrqd__AA05LabelG0Rd__lFQOyAA0K0VyACyAA4TextVAA14_PaddingLayoutVGAA5ImageVSgG_012_AppIntents_aB007WrappedkG0VQo_AA11_ClipEffectVyAA16RoundedRectangleVGGG_AA05PlainiG0VQo_AA19_BackgroundModifierVyACyAA017StrokeBorderShapeE0VyA2_AA5ColorVAA05EmptyE0VGA10_yAA06_ShapeE0VyA2_A14_GGGGGAaDHPqd0__AaDHD3_A8_HO_A23_AA0eY0HPyHCHC.8
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy012_AppIntents_aB018ShortcutsLinkStyleVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.9
+CStrings:
++ "Response for %{public}s: %s"
++ "[%s] Creating SwiftUI scene signal"
++ "[Scene:%{public}s] calling handler for %s)"
++ "didFailHandling: %{public}s"
++ "didFinishHandling: %{public}s"
+
+```

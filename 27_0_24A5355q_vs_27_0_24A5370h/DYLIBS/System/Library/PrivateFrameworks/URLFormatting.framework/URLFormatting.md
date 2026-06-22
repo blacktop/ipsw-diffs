@@ -1,0 +1,72 @@
+## URLFormatting
+
+> `/System/Library/PrivateFrameworks/URLFormatting.framework/URLFormatting`
+
+```diff
+
+-308.1.0.0.0
+-  __TEXT.__text: 0x5e14 sha256:7efd6bbd2e8566f22f227c192343e0ffee8293dbfc3bb9e5ad54a588a5ac6e9b
+-  __TEXT.__objc_methlist: 0x160 sha256:8b07460dc01e1b4a14813865a53c072db6c7d11fef458d4864564cac26f0d533
+-  __TEXT.__gcc_except_tab: 0x74c sha256:0c47ccec777570215aa6ae486d3c38ef36306a53817124b8f7d7761e77770e8f
++310.0.0.0.0
++  __TEXT.__text: 0x5d9c sha256:5091606549965686ba6f20462fb9824c335784ee38d40a94ffb25e68a51a39e9
++  __TEXT.__objc_methlist: 0x160 sha256:fec281a5ff7bc8cd9e10488f89fee4478d282ecfd492496c84a859396d1f8eb8
++  __TEXT.__gcc_except_tab: 0x74c sha256:c11c3412eb563a3361fc6866862f2ce7189cc0e65b318013cf5e1990bb7b468d
+   __TEXT.__const: 0xac sha256:b8ccba7b6a94834832fa03af2e37a2df1fca1b7f63133bd341c1eb0ff0a8c0aa
+   __TEXT.__ustring: 0xe sha256:bbda7562d35ac80b256cc22686602570aefb1b4267121fdc6e70c279ea920e55
+   __TEXT.__cstring: 0x2cb sha256:bfbefa389b02b308df52047b0a763591188acee547886f008d5580f7c056cbd9
+   __TEXT.__oslogstring: 0x26 sha256:4076dba4d2fded4aa4c8ddba35a5008f94d5b799d504ac899593f1bdd345792d
+-  __TEXT.__unwind_info: 0x2a8 sha256:af075e5a8c20afffd001baaee15ae9f1c56f3eb244cf00ec91a47586362492a7
++  __TEXT.__unwind_info: 0x2b0 sha256:39a67f3f23252c906d4df7137f1c5f330878e201b7af7f514aab8198a7e0c69f
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x70 sha256:725361aefb33db38be998a6d0bf72d6cb78bcffcd14c32dadf50c0f19f070958
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:25e552f707467123120be2dbfe3568c552515f86550f2c6c105d7bd7235a474b
++  __DATA_CONST.__const: 0x70 sha256:c75335e761708e7121259fb58cb46d27ddb7e099286d2dfe34fa8f39b5174b99
++  __DATA_CONST.__objc_catlist: 0x10 sha256:023c779aff055ce7d3e3ff23706ec75d038e70832cfdd166900b7831745de07e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2e8 sha256:b77c86de5ac05a168931478db883db41a43b9f0af47605c1f40ad4779126c4ed
+-  __DATA_CONST.__objc_arraydata: 0x30 sha256:2732e7f3aed741161d38b6b4e448f0ac72818e6f7944ca6c0031fb084de5fbc6
++  __DATA_CONST.__objc_selrefs: 0x2e8 sha256:1de7d0c8ad32c25c57267cb7ae183981f21d5ab72329bab6dd4499558a00fe27
++  __DATA_CONST.__objc_arraydata: 0x30 sha256:1143861e452838fb27c825243395c2a5405aee3eea74405f785ebcc53fa58d09
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x2a0 sha256:6a60327d37331b805221a9bd67248e6df88e9e23e6f87c141141cb506de3be4d
+-  __AUTH_CONST.__cfstring: 0x4c0 sha256:15a541bc8e6911da955ffa54990ff1c39cd69a4dc4000ae6d092be57b33f327c
+-  __AUTH_CONST.__objc_const: 0x80 sha256:ccbc3b20000997982331507c66d36f86f30880912bac3faff660adecec50ed66
+-  __AUTH_CONST.__weak_auth_got: 0x18 sha256:9301580f2a4c506b3a281d68e0e22bffb435cbb497ce8c36f9bdbf987996a481
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:1d63fefea8537f29123d26810358e55e4186c577649c8eb7f9c125c1705d5b7b
++  __AUTH_CONST.__const: 0x2a0 sha256:5b21510d06d1a98f7db41adea3d5c28805472b0dea2b471f0c6065a0c5243ede
++  __AUTH_CONST.__cfstring: 0x4c0 sha256:4714a3c739d77235f6f6089889cb34e9018c5fbf294a19b11d4b8c06ac6ebd2b
++  __AUTH_CONST.__objc_const: 0x80 sha256:47f58aa0a773741078db403006354997c351d612786e29d93fcbdb15022c5e9f
++  __AUTH_CONST.__weak_auth_got: 0x18 sha256:29088a447bd737ef9fbfae413fb96a052bde0411bc28166e36dc698bd3ad3621
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:62c65e07b33e649b67be91bbadc00b59c54376d9be70803c2a3f8c83fd275759
+   __AUTH_CONST.__auth_got: 0x258 sha256:bd50e12c55dda3ee443c1cb6d71c7bcf6351c4ec96f7bc8d6adec015d1192eea
+   __DATA.__bss: 0x29 sha256:9e1736c43d19118e6ce4302118af337109491ecc52757dfb949bad6a7940b0c2
+   __DATA_DIRTY.__bss: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5B1BE588-D2AE-3120-B513-7129506B774A
++  UUID: 7E89EFDF-8B00-33D4-8E1C-5D799F3F446D
+   Functions: 129
+   Symbols:   533
+   CStrings:  102
+Symbols:
++ __ZNSt3__110__function12__value_funcIFbtEED2B9fqn220106Ev
++ __ZNSt3__119__allocate_at_leastB9fqn220106INS_9allocatorItEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__125__throw_bad_function_callB9fqn220106Ev
++ __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB9fqn220106Em
++ __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB9fqn220106Ev
++ __ZSt28__throw_bad_array_new_lengthB9fqn220106v
+- __ZNSt3__110__function12__value_funcIFbtEED2B9fqn220100Ev
+- __ZNSt3__119__allocate_at_leastB9fqn220100INS_9allocatorItEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__125__throw_bad_function_callB9fqn220100Ev
+- __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB9fqn220100Em
+- __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB9fqn220100Ev
+- __ZSt28__throw_bad_array_new_lengthB9fqn220100v
+
+```

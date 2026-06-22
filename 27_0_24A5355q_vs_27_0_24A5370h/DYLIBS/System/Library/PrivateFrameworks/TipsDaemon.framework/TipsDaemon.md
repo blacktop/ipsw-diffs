@@ -1,0 +1,221 @@
+## TipsDaemon
+
+> `/System/Library/PrivateFrameworks/TipsDaemon.framework/TipsDaemon`
+
+```diff
+
+-850.0.0.0.0
+-  __TEXT.__text: 0x9f000 sha256:8dd281231819f7108cebbea54d7eb83a339e5b25c049ce31b437798b18590d40
+-  __TEXT.__objc_methlist: 0x3848 sha256:54d05fe212b9c7c1dd1775a78093d2209af34364baf135ea0dab1340909e7bc7
+-  __TEXT.__const: 0x35f8 sha256:4b59ecc253f3a3c0fa26aac36b23c839ccb8f943621dd14724ffe73b4fe57e05
++853.0.0.0.0
++  __TEXT.__text: 0x9ebb0 sha256:9df26e212ce1f46153b4238e1e08f8b8a5252ccce4dcb02541f25e5dc8a63da9
++  __TEXT.__objc_methlist: 0x3878 sha256:ec193375c49e61c95639f8fe9ac9690734244b5d01d16f73d26f04c3644930a7
++  __TEXT.__const: 0x3218 sha256:345b111b6b4ba301191a8be48982a3e85bd7dde1565b71dc556791613494be32
+   __TEXT.__oslogstring: 0x21fb sha256:23940e3a230972c7d6652ad2460e81c9814a3ff5f1cc9d7f3f1af2ca45c21bde
+-  __TEXT.__cstring: 0x433c sha256:89b6b012092bcfd2a3cc1de85abb07d040e755cd00a42ae6aea5369c5c18f23a
+-  __TEXT.__gcc_except_tab: 0x1354 sha256:23c3ff20235910171b5fbc6598e72b7b5c672eef131a60e5ec91f2bca1e76a14
+-  __TEXT.__swift5_typeref: 0x1258 sha256:1d192dfc6542eaf5d565c9a2758309be33b41e3adafdf6649fc123f699d9c0e9
+-  __TEXT.__swift5_fieldmd: 0x988 sha256:87884e21d408a89605f8d459557e5ae16397cb595611d11c1714b72287f095fd
+-  __TEXT.__constg_swiftt: 0xe74 sha256:c5c1c06b0895c58fb37c605aebfe5b066a4eaac4650f4eaa1c904cffd1035126
+-  __TEXT.__swift5_builtin: 0xdc sha256:4b5a21ca97e88978262580a78e9467b440505342c92e1ff358aa889006bfcb6f
+-  __TEXT.__swift5_reflstr: 0x6de sha256:d1cc41f17f57795128545122fce0139777d29122e5d21776cf3e96a105109215
+-  __TEXT.__swift5_assocty: 0x2b0 sha256:bd5b5b4aa855ccd014967e79bd86a2536acda2e94ad931ec296decad1bc9ffa3
+-  __TEXT.__swift5_protos: 0xc sha256:df323d9a4e282e329dfea2a20e3fc1018eb2f728ed37eae67d5ae49d9036a5b5
+-  __TEXT.__swift5_proto: 0x21c sha256:fd829691096f800e99ab25fcdcdaa2d5a1054450fe430c8ce160acc4503ac4b3
+-  __TEXT.__swift5_types: 0x114 sha256:68ae8d0151d857564148e2c3b24cecc14f65911bd44e3f2ac5b160978e57b783
+-  __TEXT.__swift5_capture: 0x744 sha256:7b6d73f111eb8d645c128369d898ee32b55089b4f6cc8d8fe6af6ebc8accc67f
+-  __TEXT.__swift_as_entry: 0x154 sha256:9b052a3f4adf22b55912de6439af3061d5c00fc46ea53c24303f3d43b8eae220
+-  __TEXT.__swift_as_ret: 0x214 sha256:187fae050705bc3e5581ee0d18b7769b11bad9ac6e53b1a33ddc8fde678a6f48
+-  __TEXT.__swift_as_cont: 0x434 sha256:b495e025dc7fdc171535753b139536cc910940a6063c95ed6df51ab3796f7ab3
+-  __TEXT.__swift5_mpenum: 0x8 sha256:af81702601d99b03ed8c8ed4fbd2b1d7ad9ba6c822a5aea6707322c6119016f2
+-  __TEXT.__unwind_info: 0x2d80 sha256:1995d4f1bbd08bb8f7cc1611ebcbd462eeb39ce250480a57ab0f334675f9b464
+-  __TEXT.__eh_frame: 0x4c1c sha256:557126dd7079998b1336386b67c802d101b29168f21ffc36bb9446f7de27c566
++  __TEXT.__cstring: 0x42fc sha256:fdad7f2281720c207a05d3ce68b74c83af1cfb38cf63669dd9d8fb93251b82db
++  __TEXT.__gcc_except_tab: 0x1394 sha256:20c214e6278e76f11f1e0f0dd289f31e659400558696b0f1a82a225190e613ec
++  __TEXT.__swift5_typeref: 0x1188 sha256:2264574740d2b2b709303f61e71fbd5516dc51a6293f9fbe202360c4e8b6bde3
++  __TEXT.__swift5_fieldmd: 0x954 sha256:358c0da67b8f448e96f250e3b4362ad8495b8006ec7e6741379232838175e8d2
++  __TEXT.__constg_swiftt: 0xe88 sha256:6f8a6feaebe1c641d1d8bed6ca9c794cbb3cbbbf5eaf50c916427a8834e4f5c2
++  __TEXT.__swift5_builtin: 0xf0 sha256:779209ccd6f5bb0a51e522ef8f07e779cb7c5ee7aa288e2656403089dc913d43
++  __TEXT.__swift5_reflstr: 0x65e sha256:5e2ce06361fadcc69dc8e545a7cf1095fd326302555cdecc9316a085dde9a747
++  __TEXT.__swift5_assocty: 0x218 sha256:8542a692a2b519b808d63b6a72c85aab71bb26a8bc2da1b7ada3905a7375933c
++  __TEXT.__swift5_protos: 0xc sha256:bea148e1eb41e585acf33ed1e87874a786a9c76547f7173ccf1dcbc2d1c0870f
++  __TEXT.__swift5_proto: 0x1dc sha256:6a2e5301d65e31877775405d7047c19b356e6851567302a620b5887b11d493c1
++  __TEXT.__swift5_types: 0x114 sha256:01f09c3e2e03bff72bd64868b8fc6fd3a403a4d88157f4b698a8ae6be88e233d
++  __TEXT.__swift5_capture: 0x748 sha256:1c8736c0fe3392083e8c0db19a7f698a63a7d6b4da36e571e295a71a26397e60
++  __TEXT.__swift_as_entry: 0x13c sha256:379196364edc2193c3b6df4e3e1fef68855dd63611aa6fd799e67873d0204ae5
++  __TEXT.__swift_as_ret: 0x204 sha256:14de0f2d5ff64757704dd26ca487aee23188edf84994c431691618d644109b93
++  __TEXT.__swift_as_cont: 0x430 sha256:975434a1f9e1d666811f5c31e4da1de7df26a05be12a29d60f7a33c17a38fa60
++  __TEXT.__swift5_mpenum: 0x8 sha256:580a44fba2b0693ced01e513e1c021369e3771182eb30025d5a600a0a57ef11f
++  __TEXT.__unwind_info: 0x2cf0 sha256:e9e51804974842296583301bfd5ee9de69c80761d29f3ba806cbc6e6312b9ef7
++  __TEXT.__eh_frame: 0x4be8 sha256:aaee67aa286697c0a61da2916cf44114fb2ebce266a9d611dee637ccea5c4383
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1e40 sha256:3c3f92ad70b12616d1569cfdf635ec3e5c227645ea7b4af78971a6af55bf8d71
+-  __DATA_CONST.__objc_classlist: 0x528 sha256:955594a48c57bdf5e3b0cb96e4b3bce9d9557480ee06adf24c9f7f935ce9f69f
+-  __DATA_CONST.__objc_protolist: 0x78 sha256:6ac02e1020630c25ca9ef439392f63179b6f8cec03e1db6cacd39148a6cff726
++  __DATA_CONST.__const: 0x1e68 sha256:b41eb6cbb6dcb8a5b62f056203cb5287becda1027e02c8b19dd507c64000c9da
++  __DATA_CONST.__objc_classlist: 0x530 sha256:2a2cfdd7088630b74118e1354be346c89d83e77f50a07508dce7e563e32fe51a
++  __DATA_CONST.__objc_protolist: 0x78 sha256:c17f610a1ce433363a8a164226009dd60ef1248522d41f28a2a53c0efe09c5e2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x2688 sha256:dd07b4cb5df0abceaaf166962d59937f8d33231271d247ff1026b23b69c2472b
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:1a17c59ed61dd19ef9e60038ebc0bf48e197658c51a97586186c4105dedeae5e
+-  __DATA_CONST.__objc_superrefs: 0x1b8 sha256:916b7070f4e19201c1b6283b995e0975d0ea10761d3e27dc3ccd67783407a955
+-  __DATA_CONST.__objc_arraydata: 0x58 sha256:724310fd5f6695ddea7ba77112b6d21674486d2ca0fedd1f4ccf79d3a8c23c2b
+-  __DATA_CONST.__got: 0xd30 sha256:4d24d3ebbfe08570ea3cb2d1204567f921ac4d3eb6021c08fdc68f38cdcad6c9
+-  __AUTH_CONST.__const: 0x28a0 sha256:3a8cbfa31c9046f9847902846d031bf1bdf79d0fb8a63843acdf73c5e16014c2
+-  __AUTH_CONST.__cfstring: 0x29e0 sha256:1158756d10dff1f5a82b87ae6467f6c3f6beb0d4cec6740e74642ee9c4e5ad1b
+-  __AUTH_CONST.__objc_const: 0x80b0 sha256:d0c770fce20048bb7e6553d7f2177e229ef6afed7222fa83a187a03f7edab8cf
+-  __AUTH_CONST.__objc_intobj: 0x168 sha256:0c2a9472b816b82e82c49ba2d5d25b36fc408242aa76880ae9e91d9d21dfd8e0
+-  __AUTH_CONST.__objc_arrayobj: 0x78 sha256:5fb9954339efaa92f634d74fb4dc41e9d28a9405e7dc3dad64612aa649096058
+-  __AUTH_CONST.__auth_got: 0x1268 sha256:22633fec0558643ce989bedf1d3b6ef06e732a3af09addf99ac9230e6748b721
+-  __AUTH.__objc_data: 0x1060 sha256:c36816fb5d89b6fc56980d934553b1729d7e8672e3cbdb5b322af2a4445cad94
+-  __AUTH.__data: 0xf0 sha256:8631cce9d7733c9b39ff9f42a42523cc8d5738ba2af2f1a28fb5a6fdf9d3dd10
++  __DATA_CONST.__objc_selrefs: 0x2678 sha256:19387f7a636a072c2538fecc521d571bdf96b0a22c6dbf294d8c180dc9b9f425
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:d08dfbc547ebfa55a1581a1d9cb76c80c4c4467de3d7e32a8a0e4117d1c0de12
++  __DATA_CONST.__objc_superrefs: 0x1b8 sha256:02fbc2f14e3de1935add482902e937f49bd3b1c9892a125ff0dcba63e63c44ad
++  __DATA_CONST.__objc_arraydata: 0x58 sha256:239bdec9cc386b9fc54e198749c3479194294ddfbe1366480a1a39abdd10df95
++  __DATA_CONST.__got: 0xd20 sha256:88043aab127dc14e7ee34cadb01a2acd2ccb7749066a67766fc2fb36728cc7b2
++  __AUTH_CONST.__const: 0x2838 sha256:bbd9622631b02cafbeefb07b895550c3a831029504f4c27d41a23edcde6eb337
++  __AUTH_CONST.__cfstring: 0x2a00 sha256:c056787cb4d343656886621f27cee8b31db18818b7e3324309decd0ec04c6761
++  __AUTH_CONST.__objc_const: 0x80f8 sha256:cfd0a5bd1397599902c6e006947a25e10da74f27647ada12b5fece1b5e68bacc
++  __AUTH_CONST.__objc_intobj: 0x168 sha256:d15cbfbc393b958c0492d4a54a4f674025ec4bcea30d120e7e0e5ec067c7eead
++  __AUTH_CONST.__objc_arrayobj: 0x78 sha256:80f4b33a1932c064edacb17b5062333b469e9d0631733a0d655ccf19b65ad88a
++  __AUTH_CONST.__auth_got: 0x1248 sha256:8e2bd3192e1592ceb531972422295469f12428bcd0ab3283c1806d0f2cd1a9c6
++  __AUTH.__objc_data: 0x1110 sha256:ecf3f7b6b4439980541bfebd9dfc11de1b7b788d34f5476be1c85cc301d2907c
++  __AUTH.__data: 0x118 sha256:a14d76f68c70eae668c502c60fb8bbdb169de072c20661700619283465b2ee31
+   __DATA.__objc_ivar: 0x220 sha256:8aaf3c728f8dace97b4c8fe119356ae78790b09b7cccaa2f44e4a51d4a02ba7c
+-  __DATA.__data: 0x940 sha256:7385e368a6e96b1bc82f8d2e096c8918c929ed05d7e432d57c756d15401d019f
+-  __DATA.__bss: 0x2130 sha256:e616feaaa718592e1a1e66e32d80c8e66277d6a8b6488fd853ef7081f7dca8ab
++  __DATA.__data: 0x908 sha256:447a7209bec5ce411926054fc99bca80b3e045deb0067fe1ab599b42d5e8d05b
++  __DATA.__bss: 0x1e30 sha256:6d51aefb3abbbf6c1968522320b8ddeb63dd84da0ce097b7be1ede3d1eea394a
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x3210 sha256:25cecf63ca556a4af5f15232ce96b34a5ffee94613ac22df894c9b13b7d1253a
+-  __DATA_DIRTY.__data: 0x1020 sha256:c3bd5edbdb372998a625597b8112ad2b1d8f843abad6564c0e149927e9aaeb1d
+-  __DATA_DIRTY.__bss: 0x2110 sha256:983f405d430c0a3f827f49b5427bf797a0751b33d2f6eea438c7fe4e61937090
+-  __DATA_DIRTY.__common: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
++  __DATA_DIRTY.__objc_data: 0x3210 sha256:48f5fcc5ef8499c5724ee36eea48a8c1a9383ac70e27ed0a8c21d1a80891b8fa
++  __DATA_DIRTY.__data: 0xfc0 sha256:497525beb78dd003aebc4ea64e9e293334803ec4ec8fde35f106546d4b40c7e5
++  __DATA_DIRTY.__bss: 0x1c10 sha256:85d3477ea5610a024966deedfba4ddab5946449c577938843cf29443ba3a4dd2
++  __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E2D069B5-F550-3B21-A4B4-698F949895A2
+-  Functions: 3346
+-  Symbols:   6736
+-  CStrings:  1135
++  UUID: 531DB02D-B489-32DC-A6EA-D67ACBCFA421
++  Functions: 3301
++  Symbols:   6710
++  CStrings:  1136
+ 
+Symbols:
++ -[TPSTipsManager reindexAllSearchableItemsForScope:completionHandler:]
++ -[TPSTipsManager reindexSearchableItemsWithIdentifiers:scope:completionHandler:]
++ _OBJC_CLASS_$_TPSGenerativeModelsExcludeChinaEligibilityValidation
++ _OBJC_METACLASS_$_TPSGenerativeModelsExcludeChinaEligibilityValidation
++ __DATA_TPSGenerativeModelsExcludeChinaEligibilityValidation
++ __INSTANCE_METHODS_TPSGenerativeModelsExcludeChinaEligibilityValidation
++ __METACLASS_DATA_TPSGenerativeModelsExcludeChinaEligibilityValidation
++ ___61-[TPSTipsManager contentFromConfiguration:completionHandler:]_block_invoke.158
++ ___61-[TPSTipsManager contentFromConfiguration:completionHandler:]_block_invoke_2.159
++ ___70-[TPSTipsManager reindexAllSearchableItemsForScope:completionHandler:]_block_invoke
++ ___70-[TPSTipsManager reindexAllSearchableItemsForScope:completionHandler:]_block_invoke_2
++ ___block_descriptor_112_e8_32s40s48bs56r64r72r80r88r96r104r_e113_v64?0"TPSCollection"8"NSArray"16"NSDictionary"24"NSDictionary"32"NSDictionary"40"NSDictionary"48"NSSet"56lr56l8r64l8r72l8r80l8r88l8r96l8r104l8s32l8s40l8s48l8
++ ___block_descriptor_136_e8_32s40s48s56r64r72r80r88r96r104r112r120r128w_e24_v16?0?<v?"NSError">8lw128l8s32l8r56l8r64l8s40l8s48l8r72l8r80l8r88l8r96l8r104l8r112l8r120l8
++ ___block_descriptor_32_e24_v16?0?<v?"NSError">8l
++ ___block_descriptor_48_e8_32s40w_e24_v16?0?<v?"NSError">8lw40l8s32l8
++ ___block_descriptor_56_e8_32s40r48w_e24_v16?0?<v?"NSError">8lw48l8s32l8r40l8
++ ___block_descriptor_64_e8_32r40r48r56w_e24_v16?0?<v?"NSError">8lw56l8r32l8r40l8r48l8
++ ___block_descriptor_72_e8_32s40bs48r56r64w_e5_v8?0lw64l8s32l8s40l8r48l8r56l8
++ ___block_descriptor_80_e8_32s40s48r56r64r72w_e24_v16?0?<v?"NSError">8lw72l8r48l8s32l8r56l8s40l8r64l8
++ ___block_descriptor_80_e8_32s40s48s56s64r72w_e24_v16?0?<v?"NSError">8lw72l8s32l8s40l8s48l8s56l8r64l8
++ ___block_descriptor_88_e8_32s40s48r56r64r72r80w_e24_v16?0?<v?"NSError">8lw80l8r48l8r56l8s32l8r64l8s40l8r72l8
++ ___block_descriptor_88_e8_32s40s48r56r64r72r80w_e24_v16?0?<v?"NSError">8lw80l8s32l8r48l8r56l8r64l8r72l8s40l8
++ ___block_literal_global.306
++ _kTPSCapabilityGenerativeModelsExcludeChinaEligibility
++ _objc_msgSend$reindexAllSearchableItemsWithScope:contentFetcher:completionHandler:
++ _symbolic _____ 10TipsDaemon49GenerativeModelsExcludeChinaEligibilityValidationC
++ _symbolic _____ So22TPSSpotlightIndexScopeV
+- -[TPSTipsManager reindexAllSearchableItemsWithCompletionHandler:]
+- -[TPSTipsManager reindexSearchableItemsWithIdentifiers:completionHandler:]
+- ___61-[TPSTipsManager contentFromConfiguration:completionHandler:]_block_invoke.157
+- ___61-[TPSTipsManager contentFromConfiguration:completionHandler:]_block_invoke_2.158
+- ___65-[TPSTipsManager reindexAllSearchableItemsWithCompletionHandler:]_block_invoke
+- ___65-[TPSTipsManager reindexAllSearchableItemsWithCompletionHandler:]_block_invoke_2
+- ___block_descriptor_112_e8_32s40bs48r56r64r72r80r88r96r104w_e113_v64?0"TPSCollection"8"NSArray"16"NSDictionary"24"NSDictionary"32"NSDictionary"40"NSDictionary"48"NSSet"56lw104l8r48l8r56l8r64l8r72l8r80l8r88l8r96l8s32l8s40l8
+- ___block_descriptor_144_e8_32s40s48s56s64r72r80r88r96r104r112r120r128r136w_e24_v16?0?<v?"NSError">8ls32l8s40l8r64l8r72l8s48l8s56l8w136l8r80l8r88l8r96l8r104l8r112l8r120l8r128l8
+- ___block_descriptor_48_e8_32r40r_e24_v16?0?<v?"NSError">8lr32l8r40l8
+- ___block_descriptor_48_e8_32s40s_e24_v16?0?<v?"NSError">8ls32l8s40l8
+- ___block_descriptor_64_e8_32s40r48r56r_e24_v16?0?<v?"NSError">8ls32l8r40l8r48l8r56l8
+- ___block_descriptor_72_e8_32s40bs48r56r64w_e5_v8?0lw64l8r48l8r56l8s32l8s40l8
+- ___block_descriptor_80_e8_32s40s48s56r64r72r_e24_v16?0?<v?"NSError">8ls32l8s40l8r56l8s48l8r64l8r72l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72r_e24_v16?0?<v?"NSError">8ls32l8s40l8s48l8s56l8s64l8r72l8
+- ___block_descriptor_88_e8_32s40s48s56r64r72r80r_e24_v16?0?<v?"NSError">8lr56l8r64l8s32l8s40l8r72l8s48l8r80l8
+- ___block_descriptor_96_e8_32s40s48s56r64r72r80r88w_e24_v16?0?<v?"NSError">8lw88l8s32l8s40l8r56l8r64l8r72l8r80l8s48l8
+- ___block_literal_global.302
+- ___swift_memcpy40_8
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV0cd5IndexG5QueryV10AppIntents0gI0AA0G0AfGP_AF0jG0
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV0cd5IndexG5QueryV10AppIntents0gI0AaF22DynamicOptionsProvider
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV0cd5IndexG5QueryV10AppIntents0gI0AaF24PersistentlyIdentifiable
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV0cd5IndexG5QueryV10AppIntents22DynamicOptionsProviderAA12DefaultValueAfGP_AF07_IntentP0
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV0cd5IndexG5QueryV10AppIntents22DynamicOptionsProviderAA6ResultAfGP_AF17ResultsCollection
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV0cd5IndexG5QueryV10AppIntents22DynamicOptionsProviderAaF09_SupportsJ12Dependencies
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents0H5ValueAaD07_IntentJ0
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents0H5ValueAaD24PersistentlyIdentifiable
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents0H5ValueAaD24TypeDisplayRepresentable
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents0fG0AaD0hG0
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents0hG0AA12DefaultQueryAdEP_AD0gK0
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents0hG0AA2IDs12IdentifiableP_AD0G21IdentifierConvertible
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents0hG0AAs12Identifiable
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents0hG0AaD0H5Value
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents0hG0AaD20DisplayRepresentable
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents12_IntentValueAA0K4TypeAdEP_AdE
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents12_IntentValueAA13SpecificationAdEP_AD08ResolverL0
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents12_IntentValueAA13UnwrappedTypeAdEP_AdE
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents20DisplayRepresentableAaD04TypejK0
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents20DisplayRepresentableAaD08InstancejK0
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityV10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityVSHAASQ
+- _associated conformance 10TipsDaemon33SupportFlowSpotlightIndexedEntityVs12IdentifiableAA2IDsADP_SH
+- _objc_msgSend$reindexAllSearchableItemsWithContentFetcher:completionHandler:
+- _objc_msgSend$symbolId
+- _objc_msgSend$tocAssets
+- _symbolic Say_____G 10TipsDaemon33SupportFlowSpotlightIndexedEntityV
+- _symbolic _____ 10TipsDaemon33SupportFlowSpotlightIndexedEntityV
+- _symbolic _____ 10TipsDaemon33SupportFlowSpotlightIndexedEntityV0cd5IndexG5QueryV
+- _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 10TipsDaemon33SupportFlowSpotlightIndexedEntityV
+- _type_layout_string 10TipsDaemon33SupportFlowSpotlightIndexedEntityV
+CStrings:
++ "682edd47056600c7201381fc486dbe9d46af560f"
++ "; nothing reindexed."
++ "Content fetch (scope "
++ "SupportFlow re-indexing completed (scope .supportFlow). "
++ "SupportFlow re-indexing failed (scope .supportFlow): "
++ "Tips re-indexing completed (scope .tips)."
++ "Tips re-indexing failed (scope .tips): "
++ "Unknown reindex scope "
++ "User Guide re-indexing completed (scope .tips)."
++ "User Guide re-indexing failed (scope .tips): "
++ "reindexAllSearchableItems(scope:contentFetcher:completionHandler:)"
+- "13SupportFlowUI24SupportFlowSpotlightViewV"
+- "Content fetch completed with error: "
+- "HMT Collections re-indexing completed successfully. Re-indexed "
+- "HMT Collections re-indexing completed with error: "
+- "Name of Step-by-Step Help Spotlight Search Entity (not user facing)"
+- "SUPPORT_FLOW_SPOTLIGHT_ENTITY_NAME"
+- "Tips re-indexing completed successfully."
+- "Tips re-indexing completed with error: "
+- "User Guide re-indexing completed successfully."
+- "User Guide re-indexing completed with error: "
+- "reindexAllSearchableItems(contentFetcher:completionHandler:)"
+
+```

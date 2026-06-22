@@ -1,0 +1,1045 @@
+## HSTouchHIDService
+
+> `/System/Library/HIDPlugins/ServicePlugins/HSTouchHIDService.plugin/HSTouchHIDService`
+
+```diff
+
+-9170.34.1.0.0
+-  __TEXT.__text: 0xd08ec sha256:39601a1bed628f812d2dc4bb0d85c85b599381487ee9b3880872779df0002cd8
+-  __TEXT.__auth_stubs: 0x1930 sha256:a662dbe3738bd9212aa4b33f46fe29a5eecd18505ee812c7a782a4c9235912e6
+-  __TEXT.__objc_stubs: 0x7ac0 sha256:c7d2962fb30ca5f338734b77dd57aa49729a17b30bf86f1e37eb9e0fe965c768
+-  __TEXT.__init_offsets: 0x150c sha256:9fc77f6b54cdf4604050b830cc57036cb6c2e749b2c15f73a70e14a72b0b9818
+-  __TEXT.__objc_methlist: 0x5548 sha256:73102f30bd30dda40179974130e4e4b00638c2102630937f2f677ce5273db437
+-  __TEXT.__const: 0x3e2e sha256:bbb2aebe0afd27855f92dd820d9303bba3588221eb1fe93c2fc939351beebbbc
+-  __TEXT.__gcc_except_tab: 0xe954 sha256:03f3d0995835e39cedbe1cb89677e2c4b03386d7285a2c424cb19da1c9a21741
+-  __TEXT.__cstring: 0xdc47 sha256:c622afd616bdf177cb036a984cfecf6b5548536f0c264cee062b274748a240a8
+-  __TEXT.__oslogstring: 0x49d9 sha256:ea668bcdfd049ed3bd2bf4bd7526360d0ab496092c7e76345c81c98710db82a0
+-  __TEXT.__objc_methname: 0x9067 sha256:8efbb5fd329a8f4d4f9d3127d7552f552bd6552ef4d64b7e2dc58fc9ba7083a4
++10100.39.0.0.0
++  __TEXT.__text: 0xd2324 sha256:09c32008fc83ee801b3a20c608514a9309672479952f44a18dcae8fb989c2d3a
++  __TEXT.__auth_stubs: 0x1930 sha256:ec50d305603dcae8e3755f9d13d169d7720a899f3efeb21451b8bd3d7748b129
++  __TEXT.__objc_stubs: 0x7ae0 sha256:baefe2001b4607172f32a0a4dbb521e1aab374405c93feb773e873d31cd96bdf
++  __TEXT.__init_offsets: 0x150c sha256:e99ed0d05f39f6d4bf61cee2c974ba6e7abf23ba2d1fc18f0ddacb53e37e8c01
++  __TEXT.__objc_methlist: 0x5558 sha256:f4c828e7c32cb1250b3293f8eed648f4a08d35fcad43409f2d03853193f0e649
++  __TEXT.__const: 0x3e2e sha256:86391867499380a8ff4d8af128e4ea15d66cae18761fed9c611b3b0807332d95
++  __TEXT.__gcc_except_tab: 0xeac0 sha256:34773fd22a0896eb26f9fc559b49ea9bd40204bc7f08de4c1f8ac29212c1f1cc
++  __TEXT.__cstring: 0xde34 sha256:c7036e2a816eb8068875a8fc108b196c7e4e08350e204344dffd44509d28b961
++  __TEXT.__oslogstring: 0x4bd5 sha256:84c34e4f65ecc270b3ebad328021dc32080072c738db58c6515119ae798ffc08
++  __TEXT.__objc_methname: 0x908a sha256:02ff274db86411abdd95deddec7e5346c53e5513c84a48b17cc8906aeb66f8b5
+   __TEXT.__objc_classname: 0xbb0 sha256:9ef998fafb2cda85074062dd616ff511e7742d40447380e906f2591882ba11b9
+   __TEXT.__objc_methtype: 0x58b1 sha256:729f168450e7d1fbd84ccd0085211b3d144be7bb039e824c4ca58943f8757f1d
+-  __TEXT.__unwind_info: 0x48e0 sha256:b7d5f0094e92cbdec49ec12c94a55e70380c04d570ba82e5f60070babd8ffe13
+-  __DATA_CONST.__const: 0x1c78 sha256:20bb7344246183d723aa5ca96b2a5cad91f346fc78c8283a33e06d921deec5cd
+-  __DATA_CONST.__cfstring: 0x7540 sha256:03728db969647f6e2afc253dae34568aa32e3126f4d99d6d550a3c1a2bfc36ff
+-  __DATA_CONST.__objc_classlist: 0x3c8 sha256:3b2aab8310d8502699ae89d8570721c921251d3da374f345420d0d83a1755e90
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:bf2817f04ce92d0327e10a90041d33e509943d5c3dab869035d679b29e403d2b
+-  __DATA_CONST.__objc_protolist: 0x60 sha256:0c43d38406d8dd24bdab85adcac73c0bda8b4ffa68e934e75d2265d659f1b0e1
++  __TEXT.__unwind_info: 0x4998 sha256:eac4aac33264dc08145cb1a887985ea864fbfa47c3cb4910e9d7b69a0a90c61f
++  __DATA_CONST.__const: 0x1d90 sha256:05046e849a3a021ccec7fbcb2f48fba5e698fdb5b373e520707e819364037fa4
++  __DATA_CONST.__cfstring: 0x7580 sha256:08d96ff6b9c56d53a9d93a91862388b01e3b6da28ffe652b31486c69b43e4703
++  __DATA_CONST.__objc_classlist: 0x3c8 sha256:8598d294558fa513e7f342be5ee678731ba83f74db2450862b16e16415a633d9
++  __DATA_CONST.__objc_catlist: 0x8 sha256:b1fb29b064f8fd7d639cb54cc07988c1e5e36ba9e269e0d007a264b5993ee191
++  __DATA_CONST.__objc_protolist: 0x60 sha256:afe347339891228d2aab4b4418cb0d64fb2d38251a7eee21b4c41de49778ec1a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:918e9a5d024f2cdd22dcbf737069bc9d8a03e89a787bb86a4344c54d57c98e87
+-  __DATA_CONST.__objc_superrefs: 0x2d0 sha256:f12ddc578e3f9a8e5ca0d182995aea59d56cb94f1fec813e9d9eda9345f5481b
+-  __DATA_CONST.__objc_intobj: 0x6a8 sha256:cd108fbd23826929b2406e6d231d1a636ba95c6b57208441c21d23ebfc53e092
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:fd94bbbc404fc2d7372ab0247cd02c10a978a921a2eb4201e3f2154e38b3dffe
++  __DATA_CONST.__objc_superrefs: 0x2d0 sha256:57b0eaf49c5a2508d17f86411e3e8d998153dbadceabf7c3c0069955b31a4879
++  __DATA_CONST.__objc_intobj: 0x6a8 sha256:7dea675bd7bae8fb1d0c405427cb7c7167b80cb29143ee50c5109a3310eecfbd
+   __DATA_CONST.__objc_doubleobj: 0xc0 sha256:798a01daea9a97da29af10d00d15455fbf8aca7e6cfa18ec69a2daae36b9c42a
+-  __DATA_CONST.__objc_arraydata: 0x508 sha256:ba953832ad3cd3d822f01eabc47a178587e9ee8a57e2361f597900f5eeb21343
+-  __DATA_CONST.__objc_arrayobj: 0x168 sha256:4c8890757a324ac87578e87c6fb88baa2a5fe9f892d6237dad91c4270828264f
++  __DATA_CONST.__objc_arraydata: 0x508 sha256:2dcae53df6477d9ea5467b7157142b3082df3e391435a83a251670b081ef3c06
++  __DATA_CONST.__objc_arrayobj: 0x168 sha256:c3eb951b3057509383ac4a72bc2d7b584c047143be7a66f05b4506b00830fc2d
+   __DATA_CONST.__objc_floatobj: 0x20 sha256:ab9e7e9dbbfc34197e0cb6b232ced4879bc279db8943b13df95830039eae576e
+-  __DATA_CONST.__objc_dictobj: 0x230 sha256:795a23f5b8d02d2f68388393302c5f5d63cf6d0ebb187a6baa28f4de38ea81b0
+-  __DATA_CONST.__auth_got: 0xca8 sha256:4ee7de55d239363fb5deef0671c3b4d5641b381aa3bced011c539e4b02fc3aa8
+-  __DATA_CONST.__got: 0x280 sha256:26d3b57693adb3b8e8955b5d21e36469881ad09f31bb6ab894b5ff1ea6044a30
+-  __DATA.__objc_const: 0x9e90 sha256:0d2a2e43eb742050a4a0ec65f448a199a09a9e58d24f62639819f3b1d055fc4b
+-  __DATA.__objc_selrefs: 0x2428 sha256:b186d5f4e472a0a19ab1602ce404ba54765ca9e6359f9c873572740ae908ba4e
+-  __DATA.__objc_ivar: 0x72c sha256:ef2afaf62df8fded1f12a91aa2727e4af6f0adcc0bed9e265c670e222832c1a0
+-  __DATA.__objc_data: 0x25d0 sha256:0a94c5e25663b980e99adcccfb478724f142e303d05208c7249fde5ac19582ac
+-  __DATA.__data: 0x1610 sha256:24a93bdc4c1d5a7b68ca1e5ed433cce7f142fc9f42c0f84b04a099f9f12cdc1a
++  __DATA_CONST.__objc_dictobj: 0x230 sha256:53e9f0c1cd74803f233c6d3a40c041fc1dd533ec2b762aa40f9b62b8bce86c16
++  __DATA_CONST.__auth_got: 0xca8 sha256:c1b924afcb8c7ae51bdb2af647080a12b5266f1989c09e7ed591b35003347e0e
++  __DATA_CONST.__got: 0x280 sha256:029003d4a132f5cc41c06b89e1680cba90d07c5c9a278f7b526d9b6ec4c1a428
++  __DATA.__objc_const: 0x9eb0 sha256:e509378d433d8198a838c292e53b8b9519dc3c1f16e6496ab0d25193617251a2
++  __DATA.__objc_selrefs: 0x2430 sha256:4615035ba0077f7bd7ca3014478fef49ec84fabd320297d0cc24ed2763bf3d60
++  __DATA.__objc_ivar: 0x730 sha256:a7b74ec7e5163d04fe95270581c0f05b1384987e0916edc05622961a36b153e5
++  __DATA.__objc_data: 0x25d0 sha256:71bb298b6cc03e3e9ff5b98eb846570c518ffb8d9b20df5070865a7f0239d0fe
++  __DATA.__data: 0x1610 sha256:ec14df7710e242bc6b5a17f740a191c33c0b7747405ce2eb8b3e76e5f7072fec
+   __DATA.__bss: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+   __DATA.__common: 0x890 sha256:c3f98bcd6e42258b08619d44bece48a614e4d6825295af9e133c62e05efe6da8
+   - /AppleInternal/Library/Frameworks/HIDSensingInternalSupport.framework/HIDSensingInternalSupport
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 50D47DD8-A55A-34C8-9573-D6B8E94F778C
+-  Functions: 5272
+-  Symbols:   29491
+-  CStrings:  5170
++  UUID: ED9506FD-2536-3BF5-80C9-116189507096
++  Functions: 5289
++  Symbols:   29607
++  CStrings:  5188
+ 
+Symbols:
++ -[HSTFirmwareManager _handleHSTFrame:].cold.2
++ -[MacTrackpadBridge disablerDeviceCount]
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(Contact.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTBackboardBridge.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCREventGenerator.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCircularBuffer.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTContactStabilizer.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCoreAnalytics.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTEvent.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrame+Python.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrame.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrameParser.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEventGenerator.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEventStatistics.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEvents.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHelpers.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTPencilVirtualService.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTPipeline_vers.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTRecordingManager.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTSensingAlgs.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTServerStage.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTTipOffsetFilter.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(Types.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTActionEvent_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordCyclingTrackpad_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordCycling_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordGestureSet_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordIntegrating_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordTable_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTFingerEllipseTip_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTFingerToPathMap_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceBehavior_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceConfig.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceFilter_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceManagement_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceThresholding_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTGestureConfig_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHIDEventAppend.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHandMotion_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHandStatistics_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTPListGestureConfig_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTParameterFactory_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTParserPath_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTPathStates_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTRestZoneIntegrator_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTSlideGesture_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTSurfaceDimensions_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTTapDragManager_.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTTrackpadUberAlg.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(TrackpadAlgButtonStateManager.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(USBKey.o)
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTPipeline.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationMultipliers.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationPlaylistManager.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationTone.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationWaveform.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuatorDevice.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuatorLimits.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/DeviceInfoManager.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/EmbeddedTrackpadFirmwareManager.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/EmbeddedTrackpadHIDEventProcessor.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSMousePipelineCreation.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTFirmwareManager.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTHIDDeviceRouter.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTPipelineCreation.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTSAPipelineCreation.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTTelemetryAnalyticsStage.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTouchHIDService.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTouchHIDService_vers.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTrackpadDefs.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTrackpadPipelineCreation.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTGestureConfigGenerator.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTPluginLogging.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTPreferences.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MacOSTrackpadHIDEventProcessor.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MacTrackpadBridge.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MomentumCurve.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MouseBridge.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PeppyHIDService.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerBridge.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerHIDEventProcessor.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerSettings.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ServiceMatcher.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadActuatorStage.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadAlgStage.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadBridge.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadDeadzoneManager.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadFirmwareManager.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadHIDEventProcessor.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadMomentumGeneratorStage.o
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/HIDSensingTouch/HSTPipeline/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/HIDSensingTouch/HSTPipeline/Helpers/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/HIDSensingTouch/HSTouchHIDService/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/MT2TPHIDService/HSTrackpad/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/Force/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/Gestures/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/PathsNHands/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/EventProcessors/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/TrackpadActuatorStage/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/Bridges/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/FirmwareManagers/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/Plugin/
++ /Library/Caches/com.apple.xbs/9B2BD840-BFCE-4ADA-B550-8A78582F69FD/TemporaryDirectory.iZBTCq/Sources/Multitouch/Plugin/Parser/
++ GCC_except_table119
++ GCC_except_table120
++ GCC_except_table198
++ GCC_except_table202
++ GCC_except_table204
++ GCC_except_table90
++ OBJC_IVAR_$_HSTFirmwareManager._deviceIOQueue
++ __39-[HSTiOSFirmwareManager setPowerState:]_block_invoke.cold.1
++ __39-[HSTiOSFirmwareManager setPowerState:]_block_invoke.cold.2
++ __ZL17setReportWithDataP18HSTHIDDeviceRouterP6NSDataP5NSSetPU28objcproto17OS_dispatch_queue8NSObject
++ __ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport13EnabledInputs5AwakeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject
++ __ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport17FaceDetectionModeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject
++ __ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport17HostInterruptModeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject
++ __ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport23HostNotificationControlEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject
++ __ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport8DataModeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject
++ __ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport9HostEventEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject
++ __ZNKSt3__111__copy_implclB9foe220106IPNS_6vectorIiNS_9allocatorIiEEEES6_S6_Li0EEENS_4pairIT_T1_EES8_T0_S9_
++ __ZNKSt3__111__copy_implclB9foe220106IPU8__strongP8HIDEventS5_S5_Li0EEENS_4pairIT_T1_EES7_T0_S8_
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9fqe220106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fqe220106EPKvm
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI15MTSlideGesture_EEPS2_EclB9foe220106Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI16MTForceBehavior_EEPS2_EclB9foe220106Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI18MTChordGestureSet_EEPS2_EclB9foe220106Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIiNS1_IiEEEEEEPS4_EclB9foe220106Ev
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9fqe220106ERKS6_S9_
++ __ZNKSt3__18equal_toIU6__weakPU26objcproto15HSPreferencable7HSStageEclB9fqe220106ERU6__weakKS3_S7_
++ __ZNKSt3__18equal_toIU6__weakPU26objcproto15HSStageObserver11objc_objectEclB9fqe220106ERU6__weakKS2_S6_
++ __ZNKSt9type_infoeqB9fqe220106ERKS_
++ __ZNSt12length_errorC1B9foe220106EPKc
++ __ZNSt12length_errorC1B9fqe220106EPKc
++ __ZNSt12out_of_rangeC1B9foe220106EPKc
++ __ZNSt3__110__function12__value_funcIFN6HSUtil6BufferENS_10shared_ptrINS2_10ConnectionEEEOS3_EE4swapB9fqe220106ERS9_
++ __ZNSt3__110__function12__value_funcIFN6HSUtil6BufferENS_10shared_ptrINS2_10ConnectionEEEOS3_EEC2B9fqe220106ERKS9_
++ __ZNSt3__110__function12__value_funcIFN6HSUtil6BufferENS_10shared_ptrINS2_10ConnectionEEEOS3_EED2B9fqe220106Ev
++ __ZNSt3__110__function12__value_funcIFP11objc_objectRN6HSUtil7DecoderERKNS4_8CoderKeyEEE4swapB9fqe220106ERSB_
++ __ZNSt3__110__function12__value_funcIFP11objc_objectRN6HSUtil7DecoderERKNS4_8CoderKeyEEEC2B9fqe220106ERKSB_
++ __ZNSt3__110__function12__value_funcIFP11objc_objectRN6HSUtil7DecoderERKNS4_8CoderKeyEEED2B9foe220106Ev
++ __ZNSt3__110__function12__value_funcIFP11objc_objectRN6HSUtil7DecoderERKNS4_8CoderKeyEEED2B9fqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbRN6HSUtil7EncoderEP11objc_objectEE4swapB9fqe220106ERS8_
++ __ZNSt3__110__function12__value_funcIFbRN6HSUtil7EncoderEP11objc_objectEEC2B9fqe220106ERKS8_
++ __ZNSt3__110__function12__value_funcIFbRN6HSUtil7EncoderEP11objc_objectEED2B9fqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrI8HSMapperEEEE4swapB9fqe220106ERS6_
++ __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrI8HSMapperEEEEC2B9fqe220106ERKS6_
++ __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrI8HSMapperEEEED2B9fqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrIN6HSUtil10ConnectionEEEEE4swapB9fqe220106ERS7_
++ __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrIN6HSUtil10ConnectionEEEEEC2B9fqe220106ERKS7_
++ __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrIN6HSUtil10ConnectionEEEEED2B9fqe220106Ev
++ __ZNSt3__110shared_ptrI8HSMapperEC2B9fqe220106IS1_Li0EEEPT_
++ __ZNSt3__110shared_ptrIN6HSUtil10ConnectionEEC2B9fqe220106IS2_Li0EEEPT_
++ __ZNSt3__110unique_ptrI8HSMapperNS_14default_deleteIS1_EEED1B9fqe220106Ev
++ __ZNSt3__110unique_ptrIN6HSUtil10ConnectionENS_14default_deleteIS2_EEED1B9fqe220106Ev
++ __ZNSt3__110unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS2_EEED1B9fqe220106Ev
++ __ZNSt3__110unique_ptrIN6HSUtil7Decoder9CallbacksENS_14default_deleteIS3_EEE5resetB9foe220106EPS3_
++ __ZNSt3__110unique_ptrIN6HSUtil7Decoder9CallbacksENS_14default_deleteIS3_EEE5resetB9fqe220106EPS3_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9fqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP11objc_objectyEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9fqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIyU8__strongP11objc_objectEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9fqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIyU8__strongP7HSProxyEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9fqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeIU6__weakPU26objcproto15HSPreferencable7HSStagePvEENS_22__hash_node_destructorINS_9allocatorIS7_EEEEED1B9fqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeIU6__weakPU26objcproto15HSStageObserver11objc_objectPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9fqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeIU8__strongP7HSStagePvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9fqe220106Ev
++ __ZNSt3__110unique_ptrINS_15__thread_structENS_14default_deleteIS1_EEED1B9fqe220106Ev
++ __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEZN6HSUtil10Connection5startEvEUlvE_EEENS3_IS9_EEED1B9fqe220106Ev
++ __ZNSt3__111__sift_downB9foe220106INS_17_ClassicAlgPolicyELb0ER26MTPointVelocityGreaterThanP7MTPointEEvT2_OT1_NS_15iterator_traitsIS6_E15difference_typeESB_
++ __ZNSt3__111__sift_downB9foe220106INS_17_ClassicAlgPolicyELb0ERNS_7greaterIfEEPfEEvT2_OT1_NS_15iterator_traitsIS6_E15difference_typeESB_
++ __ZNSt3__111__sift_downB9foe220106INS_17_ClassicAlgPolicyELb0ERNS_7greaterIiEEPiEEvT2_OT1_NS_15iterator_traitsIS6_E15difference_typeESB_
++ __ZNSt3__111__sift_downB9foe220106INS_17_ClassicAlgPolicyELb1ERNS_7greaterIfEEPfEEvT2_OT1_NS_15iterator_traitsIS6_E15difference_typeESB_
++ __ZNSt3__111__sift_downB9foe220106INS_17_ClassicAlgPolicyELb1ERNS_7greaterIiEEPiEEvT2_OT1_NS_15iterator_traitsIS6_E15difference_typeESB_
++ __ZNSt3__111unique_lockINS_5mutexEE4lockB9fqe220106Ev
++ __ZNSt3__111unique_lockINS_5mutexEE6unlockB9fqe220106Ev
++ __ZNSt3__112__destroy_atB9foe220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorI14MTActionEvent_NS5_ISA_EEEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9fqe220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEEEEvPT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE22__deallocate_node_listB9fqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP11objc_objectyEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_yEEN6HSUtil12ObjectHasherENS_8equal_toIS4_EEEENS_21__unordered_map_equalIS4_S9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9fqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP11objc_objectEENS_22__unordered_map_hasherIyNS_4pairIKyS4_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9fqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP7HSProxyEENS_22__unordered_map_hasherIyNS_4pairIKyS4_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9fqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableIU6__weakPU26objcproto15HSPreferencable7HSStageN6HSUtil12ObjectHasherENS_8equal_toIS4_EENS_9allocatorIS4_EEE22__deallocate_node_listB9fqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS4_PvEEEE
++ __ZNSt3__112__hash_tableIU6__weakPU26objcproto15HSStageObserver11objc_objectN6HSUtil12ObjectHasherENS_8equal_toIS3_EENS_9allocatorIS3_EEE16__copy_constructB9fqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
++ __ZNSt3__112__hash_tableIU6__weakPU26objcproto15HSStageObserver11objc_objectN6HSUtil12ObjectHasherENS_8equal_toIS3_EENS_9allocatorIS3_EEE16__copy_constructB9fqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEESH_m
++ __ZNSt3__112__hash_tableIU6__weakPU26objcproto15HSStageObserver11objc_objectN6HSUtil12ObjectHasherENS_8equal_toIS3_EENS_9allocatorIS3_EEE22__deallocate_node_listB9fqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
++ __ZNSt3__112__hash_tableIU8__strongP7HSStageN6HSUtil12ObjectHasherENS_8equal_toIS3_EENS_9allocatorIS3_EEE22__deallocate_node_listB9fqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB9foe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9foe220106Em
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220106Em
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe220106ILi0EEEPKc
++ __ZNSt3__113__tree_removeB9fqe220106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__114__split_bufferI15MTSlideGesture_RNS_9allocatorIS1_EEE17__destruct_at_endB9foe220106EPS1_
++ __ZNSt3__114__split_bufferI16MTForceBehavior_RNS_9allocatorIS1_EEE17__destruct_at_endB9foe220106EPS1_
++ __ZNSt3__114__split_bufferI18MTChordGestureSet_RNS_9allocatorIS1_EEE17__destruct_at_endB9foe220106EPS1_
++ __ZNSt3__114__split_bufferINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEERNS_9allocatorIS5_EEE17__destruct_at_endB9fqe220106EPS5_
++ __ZNSt3__114__split_bufferINS_6vectorIiNS_9allocatorIiEEEERNS2_IS4_EEE17__destruct_at_endB9foe220106EPS4_
++ __ZNSt3__114__thread_proxyB9fqe220106INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEZN6HSUtil10Connection5startEvEUlvE_EEEEEPvSB_
++ __ZNSt3__115allocate_sharedB9foe220106I13MTHandMotion_NS_9allocatorIS1_EEJR20MTSurfaceDimensions_N11HSTPipeline10DeviceTypeE15MTParserOptions14MTHandIdentityRA6_KcELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe220106I13MTPathStates_NS_9allocatorIS1_EEJR20MTSurfaceDimensions_N11HSTPipeline10DeviceTypeE15MTParserOptionsRbiELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe220106I17MTHandStatistics_NS_9allocatorIS1_EEJ14MTHandIdentityPcN11HSTPipeline10DeviceTypeE15MTParserOptionsELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe220106I18MTForceManagement_NS_9allocatorIS1_EEJRU8__strongU13block_pointerFviffEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe220106I20MTSurfaceDimensions_NS_9allocatorIS1_EEJR6MTRect6MTSizeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe220106I21MTPListGestureConfig_NS_9allocatorIS1_EEJN11HSTPipeline10DeviceTypeERbR24MTDragManagerEventQueue_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe220106INS_6vectorINS_6atomicIPKN6HSUtil8CoderKeyEEENS_9allocatorIS7_EEEENS8_ISA_EEJRmELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220106I6ClientNS_9allocatorIS1_EEJS1_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220106IN6HSUtil12ReceiveRightENS_9allocatorIS2_EEJS2_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220106IN6HSUtil6BufferENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220106IN6HSUtil6BufferENS_9allocatorIS2_EEJRKNS2_11InvalidTypeEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220106IN6HSUtil6BufferENS_9allocatorIS2_EEJRKNS2_8CopyTypeERU8__strongP6NSDataELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220106IN6HSUtil6BufferENS_9allocatorIS2_EEJRKNS2_9FixedTypeERmELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9fqe220106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9fqe220106Ej
++ __ZNSt3__116__insertion_sortB9foe220106INS_17_ClassicAlgPolicyER26MTPointVelocityGreaterThanP7MTPointEEvT1_S6_T0_
++ __ZNSt3__116__pad_and_outputB9fqe220106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__116allocator_traitsINS_9allocatorI16MTForceBehavior_EEE7destroyB9foe220106IS2_Li0EEEvRS3_PT_
++ __ZNSt3__116allocator_traitsINS_9allocatorI18MTChordGestureSet_EEE7destroyB9foe220106IS2_Li0EEEvRS3_PT_
++ __ZNSt3__117__floyd_sift_downB9foe220106INS_17_ClassicAlgPolicyER26MTPointVelocityGreaterThanP7MTPointEET1_S6_OT0_NS_15iterator_traitsIS6_E15difference_typeE
++ __ZNSt3__118__bitset_partitionB9foe220106INS_17_ClassicAlgPolicyEPfRNS_7greaterIfEEEENS_4pairIT0_bEES7_S7_T1_
++ __ZNSt3__118__bitset_partitionB9foe220106INS_17_ClassicAlgPolicyEPiRNS_7greaterIiEEEENS_4pairIT0_bEES7_S7_T1_
++ __ZNSt3__118condition_variable8wait_forB9fqe220106IxNS_5ratioILl1ELl1000000EEEEENS_9cv_statusERNS_11unique_lockINS_5mutexEEERKNS_6chrono8durationIT_T0_EE
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorI11StatContactEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorI13MTParserPath_EENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorI14MTActionEvent_EENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorI15MTSlideGesture_EENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorI16MTForceBehavior_EENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorI17ContactStabilizerEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorI18MTChordGestureSet_EENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorI20MTForceThresholding_EENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorI7MTPointEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorIN11HSTPipeline7ContactEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorIN6HSUtil7Encoder15ContainerRecordEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorIN6HSUtil7Encoder8KeyStateEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorINS_6atomicIPKN6HSUtil8CoderKeyEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorINS_6vectorI16MTForceBehavior_NS1_IS3_EEEEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorINS_6vectorIiNS1_IiEEEEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorIPKN6HSUtil8CoderKeyEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorIU8__strongP8HIDEventEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorIfEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorIiEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIN16HSRecordingTypes9PlayFrameEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS3_EEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorINS_10unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS4_EEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIU8__strongP11objc_objectEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__partial_sort_implB9foe220106INS_17_ClassicAlgPolicyER26MTPointVelocityGreaterThanP7MTPointS5_EET1_S6_S6_T2_OT0_
++ __ZNSt3__119__partial_sort_implB9foe220106INS_17_ClassicAlgPolicyERNS_7greaterIfEEPfS5_EET1_S6_S6_T2_OT0_
++ __ZNSt3__119__partial_sort_implB9foe220106INS_17_ClassicAlgPolicyERNS_7greaterIiEEPiS5_EET1_S6_S6_T2_OT0_
++ __ZNSt3__119__shared_weak_count16__release_sharedB9foe220106Ev
++ __ZNSt3__119__shared_weak_count16__release_sharedB9fqe220106Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fqe220106Ev
++ __ZNSt3__120__shared_ptr_emplaceI13MTHandMotion_NS_9allocatorIS1_EEEC2B9foe220106IJR20MTSurfaceDimensions_N11HSTPipeline10DeviceTypeE15MTParserOptions14MTHandIdentityRA6_KcES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceI13MTPathStates_NS_9allocatorIS1_EEEC2B9foe220106IJR20MTSurfaceDimensions_N11HSTPipeline10DeviceTypeE15MTParserOptionsRbiES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceI17MTHandStatistics_NS_9allocatorIS1_EEEC2B9foe220106IJ14MTHandIdentityPcN11HSTPipeline10DeviceTypeE15MTParserOptionsES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceI18MTForceManagement_NS_9allocatorIS1_EEEC2B9foe220106IJRU8__strongU13block_pointerFviffEES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceI20MTSurfaceDimensions_NS_9allocatorIS1_EEEC2B9foe220106IJR6MTRect6MTSizeES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceI21MTPListGestureConfig_NS_9allocatorIS1_EEEC2B9foe220106IJN11HSTPipeline10DeviceTypeERbR24MTDragManagerEventQueue_ES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceI6ClientNS_9allocatorIS1_EEE21__on_zero_shared_implB9fqe220106IS3_Li0EEEvv
++ __ZNSt3__120__shared_ptr_emplaceI6ClientNS_9allocatorIS1_EEEC2B9fqe220106IJS1_ES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN6HSUtil12ReceiveRightENS_9allocatorIS2_EEEC2B9fqe220106IJS2_ES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9fqe220106IJES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9fqe220106IJRKNS2_11InvalidTypeEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9fqe220106IJRKNS2_8CopyTypeERU8__strongP6NSDataES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9fqe220106IJRKNS2_9FixedTypeERmES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceINS_6vectorINS_6atomicIPKN6HSUtil8CoderKeyEEENS_9allocatorIS7_EEEENS8_ISA_EEEC2B9foe220106IJRmESB_Li0EEESB_DpOT_
++ __ZNSt3__120__throw_length_errorB9foe220106EPKc
++ __ZNSt3__120__throw_length_errorB9fqe220106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9foe220106EPKc
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B9fqe220106EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B9fqe220106EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B9fqe220106EPKcm
++ __ZNSt3__124__put_character_sequenceB9fqe220106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB9fqe220106Ev
++ __ZNSt3__126__insertion_sort_unguardedB9foe220106INS_17_ClassicAlgPolicyER26MTPointVelocityGreaterThanP7MTPointEEvT1_S6_T0_
++ __ZNSt3__126__insertion_sort_unguardedB9foe220106INS_17_ClassicAlgPolicyERNS_7greaterIfEEPfEEvT1_S6_T0_
++ __ZNSt3__126__insertion_sort_unguardedB9foe220106INS_17_ClassicAlgPolicyERNS_7greaterIiEEPiEEvT1_S6_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe220106INS_17_ClassicAlgPolicyER26MTPointVelocityGreaterThanP7MTPointEEbT1_S6_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe220106INS_17_ClassicAlgPolicyERNS_7greaterIfEEPfEEbT1_S6_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe220106INS_17_ClassicAlgPolicyERNS_7greaterIiEEPiEEbT1_S6_T0_
++ __ZNSt3__127__throw_bad_optional_accessB9foe220106Ev
++ __ZNSt3__127__tree_balance_after_insertB9fqe220106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI15MTSlideGesture_EEPS3_EEED2B9foe220106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI16MTForceBehavior_EEPS3_EEED2B9foe220106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI18MTChordGestureSet_EEPS3_EEED2B9foe220106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIiNS2_IiEEEEEEPS5_EEED2B9foe220106Ev
++ __ZNSt3__131__partition_with_equals_on_leftB9foe220106INS_17_ClassicAlgPolicyEP7MTPointR26MTPointVelocityGreaterThanEET0_S6_S6_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB9foe220106INS_17_ClassicAlgPolicyEPfRNS_7greaterIfEEEET0_S6_S6_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB9foe220106INS_17_ClassicAlgPolicyEPiRNS_7greaterIiEEEET0_S6_S6_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9foe220106INS_17_ClassicAlgPolicyEP7MTPointR26MTPointVelocityGreaterThanEENS_4pairIT0_bEES7_S7_T1_
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe220106INS_9allocatorI13MTParserPath_EEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe220106INS_9allocatorI15MTSlideGesture_EEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe220106INS_9allocatorI16MTForceBehavior_EEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe220106INS_9allocatorI18MTChordGestureSet_EEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9foe220106INS_9allocatorI15MTSlideGesture_EEPS2_S4_S4_EET2_RT_T0_T1_S5_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9foe220106INS_9allocatorINS_6vectorIiNS1_IiEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__13mapIU8__strongP8NSStringU6__weakPU33objcproto22HSServiceDirectoryable11objc_objectN6HSUtil10ObjectLessIS1_EENS_9allocatorINS_4pairIU8__strongKS2_S6_EEEEE6insertB9fqe220106EOSD_
++ __ZNSt3__13mapIiNS_10shared_ptrI6ClientEENS_4lessIiEENS_9allocatorINS_4pairIKiS3_EEEEE6insertB9fqe220106EOS9_
++ __ZNSt3__13setINS_10shared_ptrI8HSMapperEENS_4lessIS3_EENS_9allocatorIS3_EEE6insertB9fqe220106ERKS3_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEC2B9fqe220106ERKSB_
++ __ZNSt3__16__treeINS_10shared_ptrI8HSMapperEENS_4lessIS3_EENS_9allocatorIS3_EEE14__tree_deleterclB9fqe220106EPNS_11__tree_nodeIS3_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE21MTGestureMotionParamsEENS_19__map_value_compareIS7_NS_4pairIKS7_S8_EENS_4lessIS7_EEEENS5_ISD_EEE14__tree_deleterclB9foe220106EPNS_11__tree_nodeIS9_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorI14MTActionEvent_NS5_IS9_EEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SB_EENS_4lessIS7_EEEENS5_ISG_EEE14__tree_deleterclB9foe220106EPNS_11__tree_nodeISC_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringU6__weakPU33objcproto22HSServiceDirectoryable11objc_objectEENS_19__map_value_compareIS4_NS_4pairIU8__strongKS3_S7_EEN6HSUtil10ObjectLessIS2_EEEENS_9allocatorISC_EEE12__find_equalB9fqe220106IS4_EENSA_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSP_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringU6__weakPU33objcproto22HSServiceDirectoryable11objc_objectEENS_19__map_value_compareIS4_NS_4pairIU8__strongKS3_S7_EEN6HSUtil10ObjectLessIS2_EEEENS_9allocatorISC_EEE14__tree_deleterclB9fqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIiNS_10shared_ptrI6ClientEEEENS_19__map_value_compareIiNS_4pairIKiS4_EENS_4lessIiEEEENS_9allocatorIS9_EEE14__tree_deleterclB9fqe220106EPNS_11__tree_nodeIS5_PvEE
++ __ZNSt3__16threadC2B9fqe220106IZN6HSUtil10Connection5startEvEUlvE_JELi0EEEOT_DpOT0_
++ __ZNSt3__16vectorI11StatContactNS_9allocatorIS1_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorI13MTParserPath_NS_9allocatorIS1_EEE16__destroy_vectorclB9foe220106Ev
++ __ZNSt3__16vectorI13MTParserPath_NS_9allocatorIS1_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorI14MTActionEvent_NS_9allocatorIS1_EEE11__vallocateB9foe220106Em
++ __ZNSt3__16vectorI14MTActionEvent_NS_9allocatorIS1_EEE16__init_with_sizeB9foe220106IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI14MTActionEvent_NS_9allocatorIS1_EEE18__assign_with_sizeB9foe220106INS_17_ClassicAlgPolicyEPS1_S7_EEvT0_T1_l
++ __ZNSt3__16vectorI14MTActionEvent_NS_9allocatorIS1_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorI14MTActionEvent_NS_9allocatorIS1_EEE20__throw_out_of_rangeB9foe220106Ev
++ __ZNSt3__16vectorI15MTSlideGesture_NS_9allocatorIS1_EEE11__vallocateB9foe220106Em
++ __ZNSt3__16vectorI15MTSlideGesture_NS_9allocatorIS1_EEE16__destroy_vectorclB9foe220106Ev
++ __ZNSt3__16vectorI15MTSlideGesture_NS_9allocatorIS1_EEE18__assign_with_sizeB9foe220106INS_17_ClassicAlgPolicyEPS1_S7_EEvT0_T1_l
++ __ZNSt3__16vectorI15MTSlideGesture_NS_9allocatorIS1_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorI15MTSlideGesture_NS_9allocatorIS1_EEE5clearB9foe220106Ev
++ __ZNSt3__16vectorI16MTForceBehavior_NS_9allocatorIS1_EEE16__destroy_vectorclB9foe220106Ev
++ __ZNSt3__16vectorI16MTForceBehavior_NS_9allocatorIS1_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorI16MTForceBehavior_NS_9allocatorIS1_EEE22__base_destruct_at_endB9foe220106EPS1_
++ __ZNSt3__16vectorI16MTForceBehavior_NS_9allocatorIS1_EEE5clearB9foe220106Ev
++ __ZNSt3__16vectorI16MTForceBehavior_NS_9allocatorIS1_EEE9push_backB9foe220106ERKS1_
++ __ZNSt3__16vectorI17ContactStabilizerNS_9allocatorIS1_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorI18MTChordGestureSet_NS_9allocatorIS1_EEE16__destroy_vectorclB9foe220106Ev
++ __ZNSt3__16vectorI18MTChordGestureSet_NS_9allocatorIS1_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorI18MTChordGestureSet_NS_9allocatorIS1_EEE22__base_destruct_at_endB9foe220106EPS1_
++ __ZNSt3__16vectorI20MTForceThresholding_NS_9allocatorIS1_EEE11__vallocateB9foe220106Em
++ __ZNSt3__16vectorI20MTForceThresholding_NS_9allocatorIS1_EEE16__destroy_vectorclB9foe220106Ev
++ __ZNSt3__16vectorI20MTForceThresholding_NS_9allocatorIS1_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorI20MTForceThresholding_NS_9allocatorIS1_EEEC2B9foe220106EmRKS1_
++ __ZNSt3__16vectorI7MTPointNS_9allocatorIS1_EEE11__vallocateB9foe220106Em
++ __ZNSt3__16vectorI7MTPointNS_9allocatorIS1_EEE16__init_with_sizeB9foe220106IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI7MTPointNS_9allocatorIS1_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorIN11HSTPipeline7ContactENS_9allocatorIS2_EEE11__vallocateB9foe220106Em
++ __ZNSt3__16vectorIN11HSTPipeline7ContactENS_9allocatorIS2_EEE18__assign_with_sizeB9foe220106INS_17_ClassicAlgPolicyEPS2_S8_EEvT0_T1_l
++ __ZNSt3__16vectorIN11HSTPipeline7ContactENS_9allocatorIS2_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorIN16HSRecordingTypes9PlayFrameENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIN16HSRecordingTypes9PlayFrameENS_9allocatorIS2_EEE9push_backB9fqe220106ERKS2_
++ __ZNSt3__16vectorIN6HSUtil7Encoder15ContainerRecordENS_9allocatorIS3_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorIN6HSUtil7Encoder8KeyStateENS_9allocatorIS3_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorINS0_I16MTForceBehavior_NS_9allocatorIS1_EEEENS2_IS4_EEE11__vallocateB9foe220106Em
++ __ZNSt3__16vectorINS0_I16MTForceBehavior_NS_9allocatorIS1_EEEENS2_IS4_EEE16__destroy_vectorclB9foe220106Ev
++ __ZNSt3__16vectorINS0_I16MTForceBehavior_NS_9allocatorIS1_EEEENS2_IS4_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorINS0_I16MTForceBehavior_NS_9allocatorIS1_EEEENS2_IS4_EEEC2B9foe220106Em
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE11__vallocateB9foe220106Em
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE16__destroy_vectorclB9foe220106Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE16__init_with_sizeB9foe220106IPS3_S7_EEvT_T0_m
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE18__assign_with_sizeB9foe220106INS_17_ClassicAlgPolicyEPS3_S8_EEvT0_T1_l
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE20__throw_out_of_rangeB9foe220106Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE5clearB9foe220106Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE9push_backB9foe220106EOS3_
++ __ZNSt3__16vectorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE16__destroy_vectorclB9fqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE5clearB9fqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9fqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorINS_6atomicIPKN6HSUtil8CoderKeyEEENS_9allocatorIS6_EEE11__vallocateB9foe220106Em
++ __ZNSt3__16vectorINS_6atomicIPKN6HSUtil8CoderKeyEEENS_9allocatorIS6_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorINS_6atomicIPKN6HSUtil8CoderKeyEEENS_9allocatorIS6_EEEC2B9foe220106Em
++ __ZNSt3__16vectorIPKN6HSUtil8CoderKeyENS_9allocatorIS4_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE16__destroy_vectorclB9fqe220106Ev
++ __ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE9push_backB9fqe220106ERU8__strongKS2_
++ __ZNSt3__16vectorIU8__strongP8HIDEventNS_9allocatorIS3_EEE11__vallocateB9foe220106Em
++ __ZNSt3__16vectorIU8__strongP8HIDEventNS_9allocatorIS3_EEE16__destroy_vectorclB9foe220106Ev
++ __ZNSt3__16vectorIU8__strongP8HIDEventNS_9allocatorIS3_EEE18__assign_with_sizeB9foe220106INS_17_ClassicAlgPolicyEPS3_S9_EEvT0_T1_l
++ __ZNSt3__16vectorIU8__strongP8HIDEventNS_9allocatorIS3_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorIU8__strongP8HIDEventNS_9allocatorIS3_EEE9push_backB9foe220106ERU8__strongKS2_
++ __ZNSt3__16vectorIZ34-[HSRecordingStage _stopRecording]E6RegionNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9foe220106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9foe220106IPfS5_EEvT_T0_m
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB9foe220106INS_17_ClassicAlgPolicyEPfS6_EEvT0_T1_l
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB9foe220106Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE16__init_with_sizeB9foe220106IPiS5_EEvT_T0_m
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB9foe220106INS_17_ClassicAlgPolicyEPiS6_EEvT0_T1_l
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_out_of_rangeB9foe220106Ev
++ __ZNSt3__17__sort4B9foe220106INS_17_ClassicAlgPolicyER26MTPointVelocityGreaterThanP7MTPointLi0EEEvT1_S6_S6_S6_T0_
++ __ZNSt3__18__invokeB9fqe220106IJRZN8HSMapper23_createConnectionConfigENS_8weak_ptrIS1_EEPU28objcproto17OS_dispatch_queue8NSObjectbEUlNS_10shared_ptrIN6HSUtil10ConnectionEEEE_SA_EEENS_20__invoke_result_implIvJDpT_EE4typeEDpOSE_
++ __ZNSt3__18__invokeB9fqe220106IJRZN8HSMapper23_createConnectionConfigENS_8weak_ptrIS1_EEPU28objcproto17OS_dispatch_queue8NSObjectbEUlNS_10shared_ptrIN6HSUtil10ConnectionEEEONS8_6BufferEE_SA_SB_EEENS_20__invoke_result_implIvJDpT_EE4typeEDpOSG_
++ __ZNSt3__19__sift_upB9foe220106INS_17_ClassicAlgPolicyER26MTPointVelocityGreaterThanP7MTPointEEvT1_S6_OT0_NS_15iterator_traitsIS6_E15difference_typeE
++ __ZNSt3__1eqB9foe220106IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
++ __ZSt28__throw_bad_array_new_lengthB9foe220106v
++ __ZSt28__throw_bad_array_new_lengthB9fqe220106v
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE16__emplace_uniqueB9fqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRSE_EEENST_IJEEEEEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEEDpOT_ENKUlSU_SS_OSV_OSW_E_clESU_SS_S17_S18_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIPKcPKN6HSUtil8CoderKeyEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S7_EENS5_13KeyStringHashENS5_14KeyStringEqualEEENS_21__unordered_map_equalIS3_SC_SE_SD_EENS_9allocatorISC_EEE16__emplace_uniqueB9foe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSP_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlSQ_SO_OSR_OSS_E_clESQ_SO_S13_S14_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP11objc_objectyEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_yEEN6HSUtil12ObjectHasherENS_8equal_toIS4_EEEENS_21__unordered_map_equalIS4_S9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9fqe220106IJRS4_RyEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_SL_SM_E_clESX_SL_SM_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIhhEENS_22__unordered_map_hasherIhNS_4pairIKhhEENS_4hashIhEENS_8equal_toIhEEEENS_21__unordered_map_equalIhS6_SA_S8_EENS_9allocatorIS6_EEE16__emplace_uniqueB9foe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEEDpOT_ENKUlSM_SK_OSN_OSO_E_clESM_SK_SZ_S10_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP11objc_objectEENS_22__unordered_map_hasherIyNS_4pairIKyS4_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9fqe220106IJRyRS4_EEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_SL_SM_E_clESX_SL_SM_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP7HSProxyEENS_22__unordered_map_hasherIyNS_4pairIKyS4_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9fqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS8_EEENSO_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlSP_SN_OSQ_OSR_E_clESP_SN_S12_S13_
++ __ZZNSt3__112__hash_tableIU6__weakPU26objcproto15HSPreferencable7HSStageN6HSUtil12ObjectHasherENS_8equal_toIS4_EENS_9allocatorIS4_EEE16__emplace_uniqueB9fqe220106IJS4_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEEDpOT_ENKUlRU6__weakKS3_OS4_E_clESP_SQ_
++ __ZZNSt3__112__hash_tableIU6__weakPU26objcproto15HSStageObserver11objc_objectN6HSUtil12ObjectHasherENS_8equal_toIS3_EENS_9allocatorIS3_EEE16__emplace_uniqueB9fqe220106IJRU6__weakKS2_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSD_SD_E_clESD_SD_
++ __ZZNSt3__112__hash_tableIU8__strongP7HSStageN6HSUtil12ObjectHasherENS_8equal_toIS3_EENS_9allocatorIS3_EEE16__emplace_uniqueB9fqe220106IJRU8__strongKS2_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSD_SD_E_clESD_SD_
++ ___39-[HSTiOSFirmwareManager setPowerState:]_block_invoke
++ ___44-[HSTFirmwareManager _handleSetReportEvent:]_block_invoke
++ ___ZL17setReportWithDataP18HSTHIDDeviceRouterP6NSDataP5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.1
++ ___ZL9getReportIN11HSTPipeline17FirmwareInterface13FeatureReport10WaterStateEEiP9HIDDeviceRT_PU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.1
++ ___ZL9getReportIN11HSTPipeline17FirmwareInterface13FeatureReport10WaterStateEEiP9HIDDeviceRT_PU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.2
++ ___ZL9getReportIN11HSTPipeline17FirmwareInterface13FeatureReport13CriticalErrorEEiP9HIDDeviceRT_PU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.1
++ ___ZL9getReportIN11HSTPipeline17FirmwareInterface13FeatureReport13CriticalErrorEEiP9HIDDeviceRT_PU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.2
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport13EnabledInputs11AwakeAsleepEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.1
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport13EnabledInputs11AwakeAsleepEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.2
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport13EnabledInputs5AwakeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.1
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport13EnabledInputs5AwakeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.2
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport13OneByteReportEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.1
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport13OneByteReportEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.2
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport17FaceDetectionModeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.1
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport17FaceDetectionModeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.2
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport17HostInterruptModeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.1
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport17HostInterruptModeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.2
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport23HostNotificationControlEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.1
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport23HostNotificationControlEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.2
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport30ContinuousRecordingEnableWatchEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.1
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport30ContinuousRecordingEnableWatchEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.2
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport8DataModeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.1
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport8DataModeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.2
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport9HostEventEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.1
++ ___ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport9HostEventEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.cold.2
++ ____ZL17setReportWithDataP18HSTHIDDeviceRouterP6NSDataP5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke
++ ____ZL9getReportIN11HSTPipeline17FirmwareInterface13FeatureReport10WaterStateEEiP9HIDDeviceRT_PU28objcproto17OS_dispatch_queue8NSObject_block_invoke
++ ____ZL9getReportIN11HSTPipeline17FirmwareInterface13FeatureReport13CriticalErrorEEiP9HIDDeviceRT_PU28objcproto17OS_dispatch_queue8NSObject_block_invoke
++ ____ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport13EnabledInputs11AwakeAsleepEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke
++ ____ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport13EnabledInputs5AwakeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke
++ ____ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport13OneByteReportEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke
++ ____ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport17FaceDetectionModeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke
++ ____ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport17HostInterruptModeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke
++ ____ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport23HostNotificationControlEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke
++ ____ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport30ContinuousRecordingEnableWatchEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke
++ ____ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport8DataModeEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke
++ ____ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport9HostEventEEvP9HIDDeviceRKT_P5NSSetPU28objcproto17OS_dispatch_queue8NSObject_block_invoke
++ ___block_descriptor_42_ea8_32s_e5_v8?0ls32l8
++ ___block_descriptor_44_ea8_32s_e5_v8?0ls32l8
++ ___block_descriptor_45_ea8_32s_e5_v8?0ls32l8
++ ___block_descriptor_48_ea8_32s_e5_v8?0ls32l8
++ ___block_descriptor_49_ea8_32s40s_e5_v8?0ls32l8s40l8
++ ___block_descriptor_49_ea8_32s_e5_v8?0ls32l8
++ ___block_descriptor_56_ea8_32s40r_e5_v8?0lr40l8s32l8
++ _dispatch_sync
++ _objc_msgSend$disablerDeviceCount
+- -[HSTFirmwareManager _handleGetDebugEvent:].cold.1
+- -[HSTFirmwareManager _handleGetDebugEvent:].cold.2
+- -[HSTFirmwareManager _setEnabledInputsReport].cold.1
+- -[HSTFirmwareManager _setEnabledInputsReport].cold.2
+- -[HSTPhoneFirmwareManager _setAODLogging].cold.1
+- -[HSTPhoneFirmwareManager _setAODLogging].cold.2
+- -[HSTWatchFirmwareManager _handleGetWaterStateEvent:].cold.1
+- -[HSTWatchFirmwareManager _handleGetWaterStateEvent:].cold.2
+- -[HSTWatchFirmwareManager _handleSetPropertyEvent:].cold.1
+- -[HSTWatchFirmwareManager _handleSetPropertyEvent:].cold.2
+- -[HSTiOSFirmwareManager setPowerState:].cold.1
+- -[HSTiOSFirmwareManager setPowerState:].cold.2
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(Contact.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTBackboardBridge.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCREventGenerator.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCircularBuffer.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTContactStabilizer.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCoreAnalytics.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTEvent.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrame+Python.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrame.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrameParser.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEventGenerator.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEventStatistics.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEvents.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHelpers.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTPencilVirtualService.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTPipeline_vers.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTRecordingManager.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTSensingAlgs.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTServerStage.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTTipOffsetFilter.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(Types.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTActionEvent_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordCyclingTrackpad_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordCycling_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordGestureSet_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordIntegrating_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordTable_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTFingerEllipseTip_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTFingerToPathMap_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceBehavior_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceConfig.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceFilter_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceManagement_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceThresholding_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTGestureConfig_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHIDEventAppend.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHandMotion_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHandStatistics_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTPListGestureConfig_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTParameterFactory_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTParserPath_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTPathStates_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTRestZoneIntegrator_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTSlideGesture_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTSurfaceDimensions_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTTapDragManager_.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTTrackpadUberAlg.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(TrackpadAlgButtonStateManager.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(USBKey.o)
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTPipeline.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationMultipliers.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationPlaylistManager.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationTone.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationWaveform.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuatorDevice.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuatorLimits.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/DeviceInfoManager.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/EmbeddedTrackpadFirmwareManager.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/EmbeddedTrackpadHIDEventProcessor.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSMousePipelineCreation.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTFirmwareManager.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTHIDDeviceRouter.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTPipelineCreation.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTSAPipelineCreation.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTTelemetryAnalyticsStage.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTouchHIDService.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTouchHIDService_vers.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTrackpadDefs.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTrackpadPipelineCreation.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTGestureConfigGenerator.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTPluginLogging.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTPreferences.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MacOSTrackpadHIDEventProcessor.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MacTrackpadBridge.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MomentumCurve.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MouseBridge.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PeppyHIDService.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerBridge.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerHIDEventProcessor.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerSettings.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ServiceMatcher.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadActuatorStage.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadAlgStage.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadBridge.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadDeadzoneManager.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadFirmwareManager.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadHIDEventProcessor.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadMomentumGeneratorStage.o
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/HIDSensingTouch/HSTPipeline/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/HIDSensingTouch/HSTPipeline/Helpers/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/HIDSensingTouch/HSTouchHIDService/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/MT2TPHIDService/HSTrackpad/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/Force/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/Gestures/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/PathsNHands/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/EventProcessors/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/TrackpadActuatorStage/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/Bridges/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/FirmwareManagers/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/Plugin/
+- /Library/Caches/com.apple.xbs/1893992F-722F-46C7-BDD1-8CA0A27C45FB/TemporaryDirectory.8ZYaRe/Sources/Multitouch/Plugin/Parser/
+- GCC_except_table101
+- GCC_except_table116
+- _IORegistryEntryGetParentEntry
+- _ZL17setReportWithDataP18HSTHIDDeviceRouterP6NSDataP5NSSet.cold.1
+- _ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport13EnabledInputs5AwakeEEvP9HIDDeviceRKT_P5NSSet.cold.1
+- _ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport13EnabledInputs5AwakeEEvP9HIDDeviceRKT_P5NSSet.cold.2
+- _ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport17FaceDetectionModeEEvP9HIDDeviceRKT_P5NSSet.cold.1
+- _ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport17FaceDetectionModeEEvP9HIDDeviceRKT_P5NSSet.cold.2
+- _ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport17HostInterruptModeEEvP9HIDDeviceRKT_P5NSSet.cold.1
+- _ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport17HostInterruptModeEEvP9HIDDeviceRKT_P5NSSet.cold.2
+- _ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport23HostNotificationControlEEvP9HIDDeviceRKT_P5NSSet.cold.1
+- _ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport23HostNotificationControlEEvP9HIDDeviceRKT_P5NSSet.cold.2
+- _ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport8DataModeEEvP9HIDDeviceRKT_P5NSSet.cold.1
+- _ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport8DataModeEEvP9HIDDeviceRKT_P5NSSet.cold.2
+- _ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport9HostEventEEvP9HIDDeviceRKT_P5NSSet.cold.1
+- _ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport9HostEventEEvP9HIDDeviceRKT_P5NSSet.cold.2
+- __ZL17setReportWithDataP18HSTHIDDeviceRouterP6NSDataP5NSSet
+- __ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport13EnabledInputs5AwakeEEvP9HIDDeviceRKT_P5NSSet
+- __ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport17FaceDetectionModeEEvP9HIDDeviceRKT_P5NSSet
+- __ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport17HostInterruptModeEEvP9HIDDeviceRKT_P5NSSet
+- __ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport23HostNotificationControlEEvP9HIDDeviceRKT_P5NSSet
+- __ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport8DataModeEEvP9HIDDeviceRKT_P5NSSet
+- __ZL9setReportIN11HSTPipeline17FirmwareInterface13FeatureReport9HostEventEEvP9HIDDeviceRKT_P5NSSet
+- __ZNKSt3__111__copy_implclB9foe220100IPNS_6vectorIiNS_9allocatorIiEEEES6_S6_Li0EEENS_4pairIT_T1_EES8_T0_S9_
+- __ZNKSt3__111__copy_implclB9foe220100IPU8__strongP8HIDEventS5_S5_Li0EEENS_4pairIT_T1_EES7_T0_S8_
+- __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9fqe220100ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
+- __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fqe220100EPKvm
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI15MTSlideGesture_EEPS2_EclB9foe220100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI16MTForceBehavior_EEPS2_EclB9foe220100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI18MTChordGestureSet_EEPS2_EclB9foe220100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIiNS1_IiEEEEEEPS4_EclB9foe220100Ev
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9fqe220100ERKS6_S9_
+- __ZNKSt3__18equal_toIU6__weakPU26objcproto15HSPreferencable7HSStageEclB9fqe220100ERU6__weakKS3_S7_
+- __ZNKSt3__18equal_toIU6__weakPU26objcproto15HSStageObserver11objc_objectEclB9fqe220100ERU6__weakKS2_S6_
+- __ZNKSt9type_infoeqB9fqe220100ERKS_
+- __ZNSt12length_errorC1B9foe220100EPKc
+- __ZNSt12length_errorC1B9fqe220100EPKc
+- __ZNSt12out_of_rangeC1B9foe220100EPKc
+- __ZNSt3__110__function12__value_funcIFN6HSUtil6BufferENS_10shared_ptrINS2_10ConnectionEEEOS3_EE4swapB9fqe220100ERS9_
+- __ZNSt3__110__function12__value_funcIFN6HSUtil6BufferENS_10shared_ptrINS2_10ConnectionEEEOS3_EEC2B9fqe220100ERKS9_
+- __ZNSt3__110__function12__value_funcIFN6HSUtil6BufferENS_10shared_ptrINS2_10ConnectionEEEOS3_EED2B9fqe220100Ev
+- __ZNSt3__110__function12__value_funcIFP11objc_objectRN6HSUtil7DecoderERKNS4_8CoderKeyEEE4swapB9fqe220100ERSB_
+- __ZNSt3__110__function12__value_funcIFP11objc_objectRN6HSUtil7DecoderERKNS4_8CoderKeyEEEC2B9fqe220100ERKSB_
+- __ZNSt3__110__function12__value_funcIFP11objc_objectRN6HSUtil7DecoderERKNS4_8CoderKeyEEED2B9foe220100Ev
+- __ZNSt3__110__function12__value_funcIFP11objc_objectRN6HSUtil7DecoderERKNS4_8CoderKeyEEED2B9fqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbRN6HSUtil7EncoderEP11objc_objectEE4swapB9fqe220100ERS8_
+- __ZNSt3__110__function12__value_funcIFbRN6HSUtil7EncoderEP11objc_objectEEC2B9fqe220100ERKS8_
+- __ZNSt3__110__function12__value_funcIFbRN6HSUtil7EncoderEP11objc_objectEED2B9fqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrI8HSMapperEEEE4swapB9fqe220100ERS6_
+- __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrI8HSMapperEEEEC2B9fqe220100ERKS6_
+- __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrI8HSMapperEEEED2B9fqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrIN6HSUtil10ConnectionEEEEE4swapB9fqe220100ERS7_
+- __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrIN6HSUtil10ConnectionEEEEEC2B9fqe220100ERKS7_
+- __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrIN6HSUtil10ConnectionEEEEED2B9fqe220100Ev
+- __ZNSt3__110shared_ptrI8HSMapperEC2B9fqe220100IS1_Li0EEEPT_
+- __ZNSt3__110shared_ptrIN6HSUtil10ConnectionEEC2B9fqe220100IS2_Li0EEEPT_
+- __ZNSt3__110unique_ptrI8HSMapperNS_14default_deleteIS1_EEED1B9fqe220100Ev
+- __ZNSt3__110unique_ptrIN6HSUtil10ConnectionENS_14default_deleteIS2_EEED1B9fqe220100Ev
+- __ZNSt3__110unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS2_EEED1B9fqe220100Ev
+- __ZNSt3__110unique_ptrIN6HSUtil7Decoder9CallbacksENS_14default_deleteIS3_EEE5resetB9foe220100EPS3_
+- __ZNSt3__110unique_ptrIN6HSUtil7Decoder9CallbacksENS_14default_deleteIS3_EEE5resetB9fqe220100EPS3_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9fqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP11objc_objectyEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9fqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIyU8__strongP11objc_objectEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9fqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIyU8__strongP7HSProxyEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9fqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeIU6__weakPU26objcproto15HSPreferencable7HSStagePvEENS_22__hash_node_destructorINS_9allocatorIS7_EEEEED1B9fqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeIU6__weakPU26objcproto15HSStageObserver11objc_objectPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9fqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeIU8__strongP7HSStagePvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9fqe220100Ev
+- __ZNSt3__110unique_ptrINS_15__thread_structENS_14default_deleteIS1_EEED1B9fqe220100Ev
+- __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEZN6HSUtil10Connection5startEvEUlvE_EEENS3_IS9_EEED1B9fqe220100Ev
+- __ZNSt3__111__sift_downB9foe220100INS_17_ClassicAlgPolicyELb0ER26MTPointVelocityGreaterThanP7MTPointEEvT2_OT1_NS_15iterator_traitsIS6_E15difference_typeESB_
+- __ZNSt3__111__sift_downB9foe220100INS_17_ClassicAlgPolicyELb0ERNS_7greaterIfEEPfEEvT2_OT1_NS_15iterator_traitsIS6_E15difference_typeESB_
+- __ZNSt3__111__sift_downB9foe220100INS_17_ClassicAlgPolicyELb0ERNS_7greaterIiEEPiEEvT2_OT1_NS_15iterator_traitsIS6_E15difference_typeESB_
+- __ZNSt3__111__sift_downB9foe220100INS_17_ClassicAlgPolicyELb1ERNS_7greaterIfEEPfEEvT2_OT1_NS_15iterator_traitsIS6_E15difference_typeESB_
+- __ZNSt3__111__sift_downB9foe220100INS_17_ClassicAlgPolicyELb1ERNS_7greaterIiEEPiEEvT2_OT1_NS_15iterator_traitsIS6_E15difference_typeESB_
+- __ZNSt3__111unique_lockINS_5mutexEE4lockB9fqe220100Ev
+- __ZNSt3__111unique_lockINS_5mutexEE6unlockB9fqe220100Ev
+- __ZNSt3__112__destroy_atB9foe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorI14MTActionEvent_NS5_ISA_EEEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9fqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEEEEvPT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP11objc_objectyEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_yEEN6HSUtil12ObjectHasherENS_8equal_toIS4_EEEENS_21__unordered_map_equalIS4_S9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP11objc_objectEENS_22__unordered_map_hasherIyNS_4pairIKyS4_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP7HSProxyEENS_22__unordered_map_hasherIyNS_4pairIKyS4_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableIU6__weakPU26objcproto15HSPreferencable7HSStageN6HSUtil12ObjectHasherENS_8equal_toIS4_EENS_9allocatorIS4_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS4_PvEEEE
+- __ZNSt3__112__hash_tableIU6__weakPU26objcproto15HSStageObserver11objc_objectN6HSUtil12ObjectHasherENS_8equal_toIS3_EENS_9allocatorIS3_EEE16__copy_constructB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
+- __ZNSt3__112__hash_tableIU6__weakPU26objcproto15HSStageObserver11objc_objectN6HSUtil12ObjectHasherENS_8equal_toIS3_EENS_9allocatorIS3_EEE16__copy_constructB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEESH_m
+- __ZNSt3__112__hash_tableIU6__weakPU26objcproto15HSStageObserver11objc_objectN6HSUtil12ObjectHasherENS_8equal_toIS3_EENS_9allocatorIS3_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
+- __ZNSt3__112__hash_tableIU8__strongP7HSStageN6HSUtil12ObjectHasherENS_8equal_toIS3_EENS_9allocatorIS3_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB9foe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9foe220100Em
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220100Em
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe220100ILi0EEEPKc
+- __ZNSt3__113__tree_removeB9fqe220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__114__split_bufferI15MTSlideGesture_RNS_9allocatorIS1_EEE17__destruct_at_endB9foe220100EPS1_
+- __ZNSt3__114__split_bufferI16MTForceBehavior_RNS_9allocatorIS1_EEE17__destruct_at_endB9foe220100EPS1_
+- __ZNSt3__114__split_bufferI18MTChordGestureSet_RNS_9allocatorIS1_EEE17__destruct_at_endB9foe220100EPS1_
+- __ZNSt3__114__split_bufferINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEERNS_9allocatorIS5_EEE17__destruct_at_endB9fqe220100EPS5_
+- __ZNSt3__114__split_bufferINS_6vectorIiNS_9allocatorIiEEEERNS2_IS4_EEE17__destruct_at_endB9foe220100EPS4_
+- __ZNSt3__114__thread_proxyB9fqe220100INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEZN6HSUtil10Connection5startEvEUlvE_EEEEEPvSB_
+- __ZNSt3__115allocate_sharedB9foe220100I13MTHandMotion_NS_9allocatorIS1_EEJR20MTSurfaceDimensions_N11HSTPipeline10DeviceTypeE15MTParserOptions14MTHandIdentityRA6_KcELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9foe220100I13MTPathStates_NS_9allocatorIS1_EEJR20MTSurfaceDimensions_N11HSTPipeline10DeviceTypeE15MTParserOptionsRbiELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9foe220100I17MTHandStatistics_NS_9allocatorIS1_EEJ14MTHandIdentityPcN11HSTPipeline10DeviceTypeE15MTParserOptionsELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9foe220100I18MTForceManagement_NS_9allocatorIS1_EEJRU8__strongU13block_pointerFviffEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9foe220100I20MTSurfaceDimensions_NS_9allocatorIS1_EEJR6MTRect6MTSizeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9foe220100I21MTPListGestureConfig_NS_9allocatorIS1_EEJN11HSTPipeline10DeviceTypeERbR24MTDragManagerEventQueue_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9foe220100INS_6vectorINS_6atomicIPKN6HSUtil8CoderKeyEEENS_9allocatorIS7_EEEENS8_ISA_EEJRmELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9fqe220100I6ClientNS_9allocatorIS1_EEJS1_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9fqe220100IN6HSUtil12ReceiveRightENS_9allocatorIS2_EEJS2_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9fqe220100IN6HSUtil6BufferENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9fqe220100IN6HSUtil6BufferENS_9allocatorIS2_EEJRKNS2_11InvalidTypeEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9fqe220100IN6HSUtil6BufferENS_9allocatorIS2_EEJRKNS2_8CopyTypeERU8__strongP6NSDataELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9fqe220100IN6HSUtil6BufferENS_9allocatorIS2_EEJRKNS2_9FixedTypeERmELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9fqe220100Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9fqe220100Ej
+- __ZNSt3__116__insertion_sortB9foe220100INS_17_ClassicAlgPolicyER26MTPointVelocityGreaterThanP7MTPointEEvT1_S6_T0_
+- __ZNSt3__116__pad_and_outputB9fqe220100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__116allocator_traitsINS_9allocatorI16MTForceBehavior_EEE7destroyB9foe220100IS2_Li0EEEvRS3_PT_
+- __ZNSt3__116allocator_traitsINS_9allocatorI18MTChordGestureSet_EEE7destroyB9foe220100IS2_Li0EEEvRS3_PT_
+- __ZNSt3__117__floyd_sift_downB9foe220100INS_17_ClassicAlgPolicyER26MTPointVelocityGreaterThanP7MTPointEET1_S6_OT0_NS_15iterator_traitsIS6_E15difference_typeE
+- __ZNSt3__118__bitset_partitionB9foe220100INS_17_ClassicAlgPolicyEPfRNS_7greaterIfEEEENS_4pairIT0_bEES7_S7_T1_
+- __ZNSt3__118__bitset_partitionB9foe220100INS_17_ClassicAlgPolicyEPiRNS_7greaterIiEEEENS_4pairIT0_bEES7_S7_T1_
+- __ZNSt3__118condition_variable8wait_forB9fqe220100IxNS_5ratioILl1ELl1000000EEEEENS_9cv_statusERNS_11unique_lockINS_5mutexEEERKNS_6chrono8durationIT_T0_EE
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorI11StatContactEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorI13MTParserPath_EENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorI14MTActionEvent_EENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorI15MTSlideGesture_EENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorI16MTForceBehavior_EENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorI17ContactStabilizerEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorI18MTChordGestureSet_EENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorI20MTForceThresholding_EENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorI7MTPointEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorIN11HSTPipeline7ContactEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorIN6HSUtil7Encoder15ContainerRecordEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorIN6HSUtil7Encoder8KeyStateEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorINS_6atomicIPKN6HSUtil8CoderKeyEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorINS_6vectorI16MTForceBehavior_NS1_IS3_EEEEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorINS_6vectorIiNS1_IiEEEEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorIPKN6HSUtil8CoderKeyEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorIU8__strongP8HIDEventEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorIfEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorIiEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIN16HSRecordingTypes9PlayFrameEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS3_EEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_10unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS4_EEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIU8__strongP11objc_objectEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__partial_sort_implB9foe220100INS_17_ClassicAlgPolicyER26MTPointVelocityGreaterThanP7MTPointS5_EET1_S6_S6_T2_OT0_
+- __ZNSt3__119__partial_sort_implB9foe220100INS_17_ClassicAlgPolicyERNS_7greaterIfEEPfS5_EET1_S6_S6_T2_OT0_
+- __ZNSt3__119__partial_sort_implB9foe220100INS_17_ClassicAlgPolicyERNS_7greaterIiEEPiS5_EET1_S6_S6_T2_OT0_
+- __ZNSt3__119__shared_weak_count16__release_sharedB9foe220100Ev
+- __ZNSt3__119__shared_weak_count16__release_sharedB9fqe220100Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fqe220100Ev
+- __ZNSt3__120__shared_ptr_emplaceI13MTHandMotion_NS_9allocatorIS1_EEEC2B9foe220100IJR20MTSurfaceDimensions_N11HSTPipeline10DeviceTypeE15MTParserOptions14MTHandIdentityRA6_KcES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceI13MTPathStates_NS_9allocatorIS1_EEEC2B9foe220100IJR20MTSurfaceDimensions_N11HSTPipeline10DeviceTypeE15MTParserOptionsRbiES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceI17MTHandStatistics_NS_9allocatorIS1_EEEC2B9foe220100IJ14MTHandIdentityPcN11HSTPipeline10DeviceTypeE15MTParserOptionsES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceI18MTForceManagement_NS_9allocatorIS1_EEEC2B9foe220100IJRU8__strongU13block_pointerFviffEES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceI20MTSurfaceDimensions_NS_9allocatorIS1_EEEC2B9foe220100IJR6MTRect6MTSizeES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceI21MTPListGestureConfig_NS_9allocatorIS1_EEEC2B9foe220100IJN11HSTPipeline10DeviceTypeERbR24MTDragManagerEventQueue_ES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceI6ClientNS_9allocatorIS1_EEE21__on_zero_shared_implB9fqe220100IS3_Li0EEEvv
+- __ZNSt3__120__shared_ptr_emplaceI6ClientNS_9allocatorIS1_EEEC2B9fqe220100IJS1_ES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN6HSUtil12ReceiveRightENS_9allocatorIS2_EEEC2B9fqe220100IJS2_ES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9fqe220100IJES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9fqe220100IJRKNS2_11InvalidTypeEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9fqe220100IJRKNS2_8CopyTypeERU8__strongP6NSDataES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9fqe220100IJRKNS2_9FixedTypeERmES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceINS_6vectorINS_6atomicIPKN6HSUtil8CoderKeyEEENS_9allocatorIS7_EEEENS8_ISA_EEEC2B9foe220100IJRmESB_Li0EEESB_DpOT_
+- __ZNSt3__120__throw_length_errorB9foe220100EPKc
+- __ZNSt3__120__throw_length_errorB9fqe220100EPKc
+- __ZNSt3__120__throw_out_of_rangeB9foe220100EPKc
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B9fqe220100EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B9fqe220100EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B9fqe220100EPKcm
+- __ZNSt3__124__put_character_sequenceB9fqe220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB9fqe220100Ev
+- __ZNSt3__126__insertion_sort_unguardedB9foe220100INS_17_ClassicAlgPolicyER26MTPointVelocityGreaterThanP7MTPointEEvT1_S6_T0_
+- __ZNSt3__126__insertion_sort_unguardedB9foe220100INS_17_ClassicAlgPolicyERNS_7greaterIfEEPfEEvT1_S6_T0_
+- __ZNSt3__126__insertion_sort_unguardedB9foe220100INS_17_ClassicAlgPolicyERNS_7greaterIiEEPiEEvT1_S6_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9foe220100INS_17_ClassicAlgPolicyER26MTPointVelocityGreaterThanP7MTPointEEbT1_S6_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9foe220100INS_17_ClassicAlgPolicyERNS_7greaterIfEEPfEEbT1_S6_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9foe220100INS_17_ClassicAlgPolicyERNS_7greaterIiEEPiEEbT1_S6_T0_
+- __ZNSt3__127__throw_bad_optional_accessB9foe220100Ev
+- __ZNSt3__127__tree_balance_after_insertB9fqe220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI15MTSlideGesture_EEPS3_EEED2B9foe220100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI16MTForceBehavior_EEPS3_EEED2B9foe220100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI18MTChordGestureSet_EEPS3_EEED2B9foe220100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIiNS2_IiEEEEEEPS5_EEED2B9foe220100Ev
+- __ZNSt3__131__partition_with_equals_on_leftB9foe220100INS_17_ClassicAlgPolicyEP7MTPointR26MTPointVelocityGreaterThanEET0_S6_S6_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB9foe220100INS_17_ClassicAlgPolicyEPfRNS_7greaterIfEEEET0_S6_S6_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB9foe220100INS_17_ClassicAlgPolicyEPiRNS_7greaterIiEEEET0_S6_S6_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB9foe220100INS_17_ClassicAlgPolicyEP7MTPointR26MTPointVelocityGreaterThanEENS_4pairIT0_bEES7_S7_T1_
+- __ZNSt3__134__uninitialized_allocator_relocateB9foe220100INS_9allocatorI13MTParserPath_EEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__134__uninitialized_allocator_relocateB9foe220100INS_9allocatorI15MTSlideGesture_EEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__134__uninitialized_allocator_relocateB9foe220100INS_9allocatorI16MTForceBehavior_EEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__134__uninitialized_allocator_relocateB9foe220100INS_9allocatorI18MTChordGestureSet_EEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__135__uninitialized_allocator_copy_implB9foe220100INS_9allocatorI15MTSlideGesture_EEPS2_S4_S4_EET2_RT_T0_T1_S5_
+- __ZNSt3__135__uninitialized_allocator_copy_implB9foe220100INS_9allocatorINS_6vectorIiNS1_IiEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__13mapIU8__strongP8NSStringU6__weakPU33objcproto22HSServiceDirectoryable11objc_objectN6HSUtil10ObjectLessIS1_EENS_9allocatorINS_4pairIU8__strongKS2_S6_EEEEE6insertB9fqe220100EOSD_
+- __ZNSt3__13mapIiNS_10shared_ptrI6ClientEENS_4lessIiEENS_9allocatorINS_4pairIKiS3_EEEEE6insertB9fqe220100EOS9_
+- __ZNSt3__13setINS_10shared_ptrI8HSMapperEENS_4lessIS3_EENS_9allocatorIS3_EEE6insertB9fqe220100ERKS3_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEC2B9fqe220100ERKSB_
+- __ZNSt3__16__treeINS_10shared_ptrI8HSMapperEENS_4lessIS3_EENS_9allocatorIS3_EEE14__tree_deleterclB9fqe220100EPNS_11__tree_nodeIS3_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE21MTGestureMotionParamsEENS_19__map_value_compareIS7_NS_4pairIKS7_S8_EENS_4lessIS7_EEEENS5_ISD_EEE14__tree_deleterclB9foe220100EPNS_11__tree_nodeIS9_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorI14MTActionEvent_NS5_IS9_EEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SB_EENS_4lessIS7_EEEENS5_ISG_EEE14__tree_deleterclB9foe220100EPNS_11__tree_nodeISC_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringU6__weakPU33objcproto22HSServiceDirectoryable11objc_objectEENS_19__map_value_compareIS4_NS_4pairIU8__strongKS3_S7_EEN6HSUtil10ObjectLessIS2_EEEENS_9allocatorISC_EEE12__find_equalB9fqe220100IS4_EENSA_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSP_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringU6__weakPU33objcproto22HSServiceDirectoryable11objc_objectEENS_19__map_value_compareIS4_NS_4pairIU8__strongKS3_S7_EEN6HSUtil10ObjectLessIS2_EEEENS_9allocatorISC_EEE14__tree_deleterclB9fqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIiNS_10shared_ptrI6ClientEEEENS_19__map_value_compareIiNS_4pairIKiS4_EENS_4lessIiEEEENS_9allocatorIS9_EEE14__tree_deleterclB9fqe220100EPNS_11__tree_nodeIS5_PvEE
+- __ZNSt3__16threadC2B9fqe220100IZN6HSUtil10Connection5startEvEUlvE_JELi0EEEOT_DpOT0_
+- __ZNSt3__16vectorI11StatContactNS_9allocatorIS1_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorI13MTParserPath_NS_9allocatorIS1_EEE16__destroy_vectorclB9foe220100Ev
+- __ZNSt3__16vectorI13MTParserPath_NS_9allocatorIS1_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorI14MTActionEvent_NS_9allocatorIS1_EEE11__vallocateB9foe220100Em
+- __ZNSt3__16vectorI14MTActionEvent_NS_9allocatorIS1_EEE16__init_with_sizeB9foe220100IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI14MTActionEvent_NS_9allocatorIS1_EEE18__assign_with_sizeB9foe220100INS_17_ClassicAlgPolicyEPS1_S7_EEvT0_T1_l
+- __ZNSt3__16vectorI14MTActionEvent_NS_9allocatorIS1_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorI14MTActionEvent_NS_9allocatorIS1_EEE20__throw_out_of_rangeB9foe220100Ev
+- __ZNSt3__16vectorI15MTSlideGesture_NS_9allocatorIS1_EEE11__vallocateB9foe220100Em
+- __ZNSt3__16vectorI15MTSlideGesture_NS_9allocatorIS1_EEE16__destroy_vectorclB9foe220100Ev
+- __ZNSt3__16vectorI15MTSlideGesture_NS_9allocatorIS1_EEE18__assign_with_sizeB9foe220100INS_17_ClassicAlgPolicyEPS1_S7_EEvT0_T1_l
+- __ZNSt3__16vectorI15MTSlideGesture_NS_9allocatorIS1_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorI15MTSlideGesture_NS_9allocatorIS1_EEE5clearB9foe220100Ev
+- __ZNSt3__16vectorI16MTForceBehavior_NS_9allocatorIS1_EEE16__destroy_vectorclB9foe220100Ev
+- __ZNSt3__16vectorI16MTForceBehavior_NS_9allocatorIS1_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorI16MTForceBehavior_NS_9allocatorIS1_EEE22__base_destruct_at_endB9foe220100EPS1_
+- __ZNSt3__16vectorI16MTForceBehavior_NS_9allocatorIS1_EEE5clearB9foe220100Ev
+- __ZNSt3__16vectorI16MTForceBehavior_NS_9allocatorIS1_EEE9push_backB9foe220100ERKS1_
+- __ZNSt3__16vectorI17ContactStabilizerNS_9allocatorIS1_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorI18MTChordGestureSet_NS_9allocatorIS1_EEE16__destroy_vectorclB9foe220100Ev
+- __ZNSt3__16vectorI18MTChordGestureSet_NS_9allocatorIS1_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorI18MTChordGestureSet_NS_9allocatorIS1_EEE22__base_destruct_at_endB9foe220100EPS1_
+- __ZNSt3__16vectorI20MTForceThresholding_NS_9allocatorIS1_EEE11__vallocateB9foe220100Em
+- __ZNSt3__16vectorI20MTForceThresholding_NS_9allocatorIS1_EEE16__destroy_vectorclB9foe220100Ev
+- __ZNSt3__16vectorI20MTForceThresholding_NS_9allocatorIS1_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorI20MTForceThresholding_NS_9allocatorIS1_EEEC2B9foe220100EmRKS1_
+- __ZNSt3__16vectorI7MTPointNS_9allocatorIS1_EEE11__vallocateB9foe220100Em
+- __ZNSt3__16vectorI7MTPointNS_9allocatorIS1_EEE16__init_with_sizeB9foe220100IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI7MTPointNS_9allocatorIS1_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorIN11HSTPipeline7ContactENS_9allocatorIS2_EEE11__vallocateB9foe220100Em
+- __ZNSt3__16vectorIN11HSTPipeline7ContactENS_9allocatorIS2_EEE18__assign_with_sizeB9foe220100INS_17_ClassicAlgPolicyEPS2_S8_EEvT0_T1_l
+- __ZNSt3__16vectorIN11HSTPipeline7ContactENS_9allocatorIS2_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorIN16HSRecordingTypes9PlayFrameENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorIN16HSRecordingTypes9PlayFrameENS_9allocatorIS2_EEE9push_backB9fqe220100ERKS2_
+- __ZNSt3__16vectorIN6HSUtil7Encoder15ContainerRecordENS_9allocatorIS3_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorIN6HSUtil7Encoder8KeyStateENS_9allocatorIS3_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorINS0_I16MTForceBehavior_NS_9allocatorIS1_EEEENS2_IS4_EEE11__vallocateB9foe220100Em
+- __ZNSt3__16vectorINS0_I16MTForceBehavior_NS_9allocatorIS1_EEEENS2_IS4_EEE16__destroy_vectorclB9foe220100Ev
+- __ZNSt3__16vectorINS0_I16MTForceBehavior_NS_9allocatorIS1_EEEENS2_IS4_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorINS0_I16MTForceBehavior_NS_9allocatorIS1_EEEENS2_IS4_EEEC2B9foe220100Em
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE11__vallocateB9foe220100Em
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE16__destroy_vectorclB9foe220100Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE16__init_with_sizeB9foe220100IPS3_S7_EEvT_T0_m
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE18__assign_with_sizeB9foe220100INS_17_ClassicAlgPolicyEPS3_S8_EEvT0_T1_l
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE20__throw_out_of_rangeB9foe220100Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE5clearB9foe220100Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE9push_backB9foe220100EOS3_
+- __ZNSt3__16vectorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE16__destroy_vectorclB9fqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE5clearB9fqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9fqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorINS_6atomicIPKN6HSUtil8CoderKeyEEENS_9allocatorIS6_EEE11__vallocateB9foe220100Em
+- __ZNSt3__16vectorINS_6atomicIPKN6HSUtil8CoderKeyEEENS_9allocatorIS6_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorINS_6atomicIPKN6HSUtil8CoderKeyEEENS_9allocatorIS6_EEEC2B9foe220100Em
+- __ZNSt3__16vectorIPKN6HSUtil8CoderKeyENS_9allocatorIS4_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE16__destroy_vectorclB9fqe220100Ev
+- __ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE9push_backB9fqe220100ERU8__strongKS2_
+- __ZNSt3__16vectorIU8__strongP8HIDEventNS_9allocatorIS3_EEE11__vallocateB9foe220100Em
+- __ZNSt3__16vectorIU8__strongP8HIDEventNS_9allocatorIS3_EEE16__destroy_vectorclB9foe220100Ev
+- __ZNSt3__16vectorIU8__strongP8HIDEventNS_9allocatorIS3_EEE18__assign_with_sizeB9foe220100INS_17_ClassicAlgPolicyEPS3_S9_EEvT0_T1_l
+- __ZNSt3__16vectorIU8__strongP8HIDEventNS_9allocatorIS3_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorIU8__strongP8HIDEventNS_9allocatorIS3_EEE9push_backB9foe220100ERU8__strongKS2_
+- __ZNSt3__16vectorIZ34-[HSRecordingStage _stopRecording]E6RegionNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9foe220100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9foe220100IPfS5_EEvT_T0_m
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB9foe220100INS_17_ClassicAlgPolicyEPfS6_EEvT0_T1_l
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB9foe220100Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE16__init_with_sizeB9foe220100IPiS5_EEvT_T0_m
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB9foe220100INS_17_ClassicAlgPolicyEPiS6_EEvT0_T1_l
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_out_of_rangeB9foe220100Ev
+- __ZNSt3__17__sort4B9foe220100INS_17_ClassicAlgPolicyER26MTPointVelocityGreaterThanP7MTPointLi0EEEvT1_S6_S6_S6_T0_
+- __ZNSt3__18__invokeB9fqe220100IJRZN8HSMapper23_createConnectionConfigENS_8weak_ptrIS1_EEPU28objcproto17OS_dispatch_queue8NSObjectbEUlNS_10shared_ptrIN6HSUtil10ConnectionEEEE_SA_EEENS_20__invoke_result_implIvJDpT_EE4typeEDpOSE_
+- __ZNSt3__18__invokeB9fqe220100IJRZN8HSMapper23_createConnectionConfigENS_8weak_ptrIS1_EEPU28objcproto17OS_dispatch_queue8NSObjectbEUlNS_10shared_ptrIN6HSUtil10ConnectionEEEONS8_6BufferEE_SA_SB_EEENS_20__invoke_result_implIvJDpT_EE4typeEDpOSG_
+- __ZNSt3__19__sift_upB9foe220100INS_17_ClassicAlgPolicyER26MTPointVelocityGreaterThanP7MTPointEEvT1_S6_OT0_NS_15iterator_traitsIS6_E15difference_typeE
+- __ZNSt3__1eqB9foe220100IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
+- __ZSt28__throw_bad_array_new_lengthB9foe220100v
+- __ZSt28__throw_bad_array_new_lengthB9fqe220100v
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSE_EEENST_IJEEEEEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEEDpOT_ENKUlSU_SS_OSV_OSW_E_clESU_SS_S17_S18_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIPKcPKN6HSUtil8CoderKeyEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S7_EENS5_13KeyStringHashENS5_14KeyStringEqualEEENS_21__unordered_map_equalIS3_SC_SE_SD_EENS_9allocatorISC_EEE16__emplace_uniqueB9foe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSP_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlSQ_SO_OSR_OSS_E_clESQ_SO_S13_S14_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP11objc_objectyEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_yEEN6HSUtil12ObjectHasherENS_8equal_toIS4_EEEENS_21__unordered_map_equalIS4_S9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9fqe220100IJRS4_RyEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_SL_SM_E_clESX_SL_SM_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIhhEENS_22__unordered_map_hasherIhNS_4pairIKhhEENS_4hashIhEENS_8equal_toIhEEEENS_21__unordered_map_equalIhS6_SA_S8_EENS_9allocatorIS6_EEE16__emplace_uniqueB9foe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEEDpOT_ENKUlSM_SK_OSN_OSO_E_clESM_SK_SZ_S10_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP11objc_objectEENS_22__unordered_map_hasherIyNS_4pairIKyS4_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9fqe220100IJRyRS4_EEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_SL_SM_E_clESX_SL_SM_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP7HSProxyEENS_22__unordered_map_hasherIyNS_4pairIKyS4_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRS8_EEENSO_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlSP_SN_OSQ_OSR_E_clESP_SN_S12_S13_
+- __ZZNSt3__112__hash_tableIU6__weakPU26objcproto15HSPreferencable7HSStageN6HSUtil12ObjectHasherENS_8equal_toIS4_EENS_9allocatorIS4_EEE16__emplace_uniqueB9fqe220100IJS4_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEEDpOT_ENKUlRU6__weakKS3_OS4_E_clESP_SQ_
+- __ZZNSt3__112__hash_tableIU6__weakPU26objcproto15HSStageObserver11objc_objectN6HSUtil12ObjectHasherENS_8equal_toIS3_EENS_9allocatorIS3_EEE16__emplace_uniqueB9fqe220100IJRU6__weakKS2_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSD_SD_E_clESD_SD_
+- __ZZNSt3__112__hash_tableIU8__strongP7HSStageN6HSUtil12ObjectHasherENS_8equal_toIS3_EENS_9allocatorIS3_EEE16__emplace_uniqueB9fqe220100IJRU8__strongKS2_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSD_SD_E_clESD_SD_
+- __cxx_global_var_init.202
+CStrings:
++ "%{public, signpost.description:begin_time}llu, %{public, signpost.description:end_time}llu, Complexity: 0x%llx"
++ "%{public, signpost.description:end_time}llu, Pencil? %{BOOL}d, Complexity: 0x%llx"
++ "-[HSTFirmwareManager _handleHSTFrame:]"
++ "-[HSTiOSFirmwareManager setPowerState:]_block_invoke"
++ "-[MacTrackpadBridge disablerDeviceCount]"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:512: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:525: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:38: libc++ Hardening assertion std::__is_valid_range(__begin, __end) failed: [__begin, __end) is not a valid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1161: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1171: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:414: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:419: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:442: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:446: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:509: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/optional:1121: libc++ Hardening assertion this->has_value() failed: optional operator-> called on a disengaged value\n"
++ "/AppleInternal/Library/BuildRoots/4~CSIGugAoF3OL-jj78zowfCSMFluKCc3q4eIHLfE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/optional:1139: libc++ Hardening assertion this->has_value() failed: optional operator* called on a disengaged value\n"
++ "10000.39"
++ "DefaultMultitouchProperties"
++ "Dispatching async SetReport (0x%02X)"
++ "Dispatching async SetReportData (0x%02X)"
++ "Dispatching async setPowerState for touchMode 0x%x"
++ "Executing SetReport (0x%02X)"
++ "Executing SetReportData (0x%02X)"
++ "Executing setPowerState %{public}s"
++ "IOReturn getReport(HIDDevice *__strong, T &, __strong dispatch_queue_t) [T = HSTPipeline::FirmwareInterface::FeatureReport::CriticalError]"
++ "IOReturn getReport(HIDDevice *__strong, T &, __strong dispatch_queue_t) [T = HSTPipeline::FirmwareInterface::FeatureReport::WaterState]"
++ "Setting up async IO queue"
++ "UseAsyncIO"
++ "[HID] [MT] %s%s%s Failed to get the registry entry ID for HID device %@: 0x%x"
++ "[HID] [MT] %s%s%s Failed to get the registry entry ID for candidate HID device %@: 0x%x"
++ "[HID] [MT] %s%s%s Unable to determine disabler device count. Missing HID manager"
++ "_deviceIOQueue"
++ "com.apple.HSTFirmwareManager.deviceIO"
++ "disablerDeviceCount"
++ "void setReport(HIDDevice *__strong, const T &, NSSet *__strong, __strong dispatch_queue_t) [T = HSTPipeline::FirmwareInterface::FeatureReport::ContinuousRecordingEnableWatch]"
++ "void setReport(HIDDevice *__strong, const T &, NSSet *__strong, __strong dispatch_queue_t) [T = HSTPipeline::FirmwareInterface::FeatureReport::DataMode]"
++ "void setReport(HIDDevice *__strong, const T &, NSSet *__strong, __strong dispatch_queue_t) [T = HSTPipeline::FirmwareInterface::FeatureReport::EnabledInputs::AwakeAsleep]"
++ "void setReport(HIDDevice *__strong, const T &, NSSet *__strong, __strong dispatch_queue_t) [T = HSTPipeline::FirmwareInterface::FeatureReport::EnabledInputs::Awake]"
++ "void setReport(HIDDevice *__strong, const T &, NSSet *__strong, __strong dispatch_queue_t) [T = HSTPipeline::FirmwareInterface::FeatureReport::FaceDetectionMode]"
++ "void setReport(HIDDevice *__strong, const T &, NSSet *__strong, __strong dispatch_queue_t) [T = HSTPipeline::FirmwareInterface::FeatureReport::HostEvent]"
++ "void setReport(HIDDevice *__strong, const T &, NSSet *__strong, __strong dispatch_queue_t) [T = HSTPipeline::FirmwareInterface::FeatureReport::HostInterruptMode]"
++ "void setReport(HIDDevice *__strong, const T &, NSSet *__strong, __strong dispatch_queue_t) [T = HSTPipeline::FirmwareInterface::FeatureReport::HostNotificationControl]"
++ "void setReport(HIDDevice *__strong, const T &, NSSet *__strong, __strong dispatch_queue_t) [T = HSTPipeline::FirmwareInterface::FeatureReport::OneByteReport]"
++ "void setReportWithData(HSTHIDDeviceRouter *__strong, NSData *__strong, NSSet *__strong, __strong dispatch_queue_t)"
+- "%{public, signpost.description:begin_time}llu, %{public, signpost.description:end_time}llu"
+- "%{public, signpost.description:end_time}llu, Pencil? %{BOOL}d"
+- "-[HSTiOSFirmwareManager setPowerState:]"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:512: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:525: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:38: libc++ Hardening assertion std::__is_valid_range(__begin, __end) failed: [__begin, __end) is not a valid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1146: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1156: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:413: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:418: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:441: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:445: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:494: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/optional:1121: libc++ Hardening assertion this->has_value() failed: optional operator-> called on a disengaged value\n"
+- "/AppleInternal/Library/BuildRoots/4~CQ4uugB6aOF9KG1EWNL125vxbF9u8lkE1Gcji5I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/optional:1139: libc++ Hardening assertion this->has_value() failed: optional operator* called on a disengaged value\n"
+- "9170.34.1"
+- "IOReturn getReport(HIDDevice *__strong, T &) [T = HSTPipeline::FirmwareInterface::FeatureReport::CriticalError]"
+- "IOReturn getReport(HIDDevice *__strong, T &) [T = HSTPipeline::FirmwareInterface::FeatureReport::WaterState]"
+- "Setting power state %{public}s"
+- "void setReport(HIDDevice *__strong, const T &, NSSet *__strong) [T = HSTPipeline::FirmwareInterface::FeatureReport::ContinuousRecordingEnableWatch]"
+- "void setReport(HIDDevice *__strong, const T &, NSSet *__strong) [T = HSTPipeline::FirmwareInterface::FeatureReport::DataMode]"
+- "void setReport(HIDDevice *__strong, const T &, NSSet *__strong) [T = HSTPipeline::FirmwareInterface::FeatureReport::EnabledInputs::AwakeAsleep]"
+- "void setReport(HIDDevice *__strong, const T &, NSSet *__strong) [T = HSTPipeline::FirmwareInterface::FeatureReport::EnabledInputs::Awake]"
+- "void setReport(HIDDevice *__strong, const T &, NSSet *__strong) [T = HSTPipeline::FirmwareInterface::FeatureReport::FaceDetectionMode]"
+- "void setReport(HIDDevice *__strong, const T &, NSSet *__strong) [T = HSTPipeline::FirmwareInterface::FeatureReport::HostEvent]"
+- "void setReport(HIDDevice *__strong, const T &, NSSet *__strong) [T = HSTPipeline::FirmwareInterface::FeatureReport::HostInterruptMode]"
+- "void setReport(HIDDevice *__strong, const T &, NSSet *__strong) [T = HSTPipeline::FirmwareInterface::FeatureReport::HostNotificationControl]"
+- "void setReport(HIDDevice *__strong, const T &, NSSet *__strong) [T = HSTPipeline::FirmwareInterface::FeatureReport::OneByteReport]"
+- "void setReportWithData(HSTHIDDeviceRouter *__strong, NSData *__strong, NSSet *__strong)"
+
+```

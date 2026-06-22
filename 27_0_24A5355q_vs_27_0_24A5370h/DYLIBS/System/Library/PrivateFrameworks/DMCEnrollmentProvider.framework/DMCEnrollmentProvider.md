@@ -1,0 +1,221 @@
+## DMCEnrollmentProvider
+
+> `/System/Library/PrivateFrameworks/DMCEnrollmentProvider.framework/DMCEnrollmentProvider`
+
+```diff
+
+-105.0.0.0.0
+-  __TEXT.__text: 0x4d678 sha256:fa285438311b283ef8eb698b598c5619f21cb4c210703db6bb37ddc4d2bbc603
+-  __TEXT.__objc_methlist: 0x6e44 sha256:147c0659b33cc1dc047dcdff4da27cde4926930e569ecd8b1342f81508c19987
+-  __TEXT.__const: 0x504 sha256:8019c22199dff134c0f06d748854665aaf70420371d9dc4b46da2638ffe42a35
+-  __TEXT.__oslogstring: 0x243f sha256:e23f03420a70881e1bf1dea8cc96006fddfdd8650c0abb37fd5a3fb9c545020e
+-  __TEXT.__cstring: 0x2e68 sha256:2b8d5f8b468cff51f6c07b3116decd146b5b3c33a2cdfad714f2ad628a922486
+-  __TEXT.__gcc_except_tab: 0x730 sha256:e3ec8be42bf0cce9c76548c1d14d21640e5bc564b5b86883951b984792cb5db2
++107.0.0.0.0
++  __TEXT.__text: 0x4dd4c sha256:9e9164e5e05891d32624a0406df825bd3aab79f2d40c5f316f2fd2603c42314b
++  __TEXT.__objc_methlist: 0x6eb4 sha256:5bf2e773bccad07ad2383cd6799b8692c52012da736bd582201dc375b0f4928b
++  __TEXT.__const: 0x504 sha256:4d9a2d6ec05b0044a88ae88bbaf97f3665bd5a5bb99495b69891bce38b9994ce
++  __TEXT.__oslogstring: 0x245f sha256:a486a8638d1038028fd3b3538d6ab1a4ae2643958fd0e4052ce2a43841421c40
++  __TEXT.__cstring: 0x2f58 sha256:ad02083266460e422321cfb3d66fb8735086d10c95ea261ce5565a9b2dc731d8
++  __TEXT.__gcc_except_tab: 0x76c sha256:73d898fc5ef76e6adad1846f2149d7aae465c3c36ec80e553668cba7bfe49367
+   __TEXT.__dlopen_cstrs: 0x47 sha256:f63f5e69dd74daff0651a0a90b2de40a3b22c811c363f59a627a34186126c060
+   __TEXT.__ustring: 0xa4 sha256:3848f5e7c60177cdd9a940cc6841686b3cc5e1e0e8f30b0ba9c068e205d1c2d4
+-  __TEXT.__swift5_typeref: 0x1b6 sha256:c3a5c9765ad6a8a4fe163d8b8cf0b9ac4a38b5e65a4c461a9750692c289c0c70
++  __TEXT.__swift5_typeref: 0x1b6 sha256:f6f10c50a67c4ef9566a3ced5f4f639bfbd75eec3853cd4244b665b2a9fd1a7f
+   __TEXT.__swift5_capture: 0x9c sha256:8eadac65cef31fd605d9ce316cf4c2edc098c26513c59995895f21bdc0a2f534
+-  __TEXT.__swift_as_entry: 0x1c sha256:3b8255fb2bb86f6ba28a7805d429ccba12654f773a9fe4a1e5c5709c01bc23b6
+-  __TEXT.__swift_as_ret: 0x28 sha256:a7f4584b2cfdfad6ba0483d41a32e9294602968ee99f691ffb376c9e842f3f79
+-  __TEXT.__swift_as_cont: 0x30 sha256:f88d645706da7f723fad9d2234c0ecaa882d470270816cbf7f5a2ea0c724a8d5
++  __TEXT.__swift_as_entry: 0x1c sha256:7de52577995ff012292dbc948233483ba670b3abb6856d31b37d73dd8d3a2cf7
++  __TEXT.__swift_as_ret: 0x28 sha256:a1197247a0884883057f14bdc6dd1c8ba80f20fb33c9fda11767773cef27f25e
++  __TEXT.__swift_as_cont: 0x30 sha256:d0c9a861609d16216dd57bdc40a2c96bd6c3c1752d6dec8c1d12fb41593d11b5
+   __TEXT.__swift5_reflstr: 0x47 sha256:8aef0e167839c8b7941f67f25b67290e16ba6346a76c7d17d73fb207922cb39f
+-  __TEXT.__swift5_assocty: 0x38 sha256:0bb2f4d87784a186f48ccb7bf3468302308db628e78196b81deb3fb3b24f5785
+-  __TEXT.__constg_swiftt: 0x88 sha256:184aae6b10ca27de695d2f85653e204264a7df712a3cfd4f830e7d1c7820a1ee
+-  __TEXT.__swift5_fieldmd: 0x54 sha256:b533d867ffcd863e8e5e5db2d9187b3fd8d83e7c66d53fd0ce96f6203fae76cf
+-  __TEXT.__swift5_proto: 0x10 sha256:036288a0258eac14e2154cfa9a53e434e749a8cfc5a053242b8a39f31282355a
++  __TEXT.__swift5_assocty: 0x38 sha256:27163fd19a82c5cbb28e19ef4a2c26bf351fb12ab8c50b0c874fab90efcd25a1
++  __TEXT.__constg_swiftt: 0x88 sha256:85248347308d92661fdd433c10bc185b889994476b88b6a6b65679840a0cb376
++  __TEXT.__swift5_fieldmd: 0x54 sha256:66e28f57032583ed19d2c055f373e3c35d87c6bd11370410001738d145370c51
++  __TEXT.__swift5_proto: 0x10 sha256:2bc6648ae98a2f22b174c3832279b4441897bdc37a03e51af939cb1cce0cb326
+   __TEXT.__swift5_types: 0xc sha256:cecdf99624c3bdf242d48f310e0084f98a75bd79101af6ee2e30205ff732d78d
+-  __TEXT.__unwind_info: 0x14f0 sha256:2aa851da545b436a1d1206e82033f0765a58d4bc4cd4c7bc43013c86ed8d54f4
+-  __TEXT.__eh_frame: 0x430 sha256:62c3f9652ea56bdeca4649097127b179f1b27065f339a34cd856a9ec0eaad15e
++  __TEXT.__unwind_info: 0x1510 sha256:aaf8666fdbc04c6da65c4c77fb87c7b3f3f9abc5bc223dcbd59471d408d384d1
++  __TEXT.__eh_frame: 0x430 sha256:65587d2ed6b3e628e396f904496ca4c5a846165543e7e594c7aab29ffe652675
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x10f0 sha256:78ba55637a1a29939047c5a534da0be8332cbcc438b68c3e27c41132eb879c13
+-  __DATA_CONST.__objc_classlist: 0x2f8 sha256:cd0729b08b360454f22c58887ae0952a403d656d90e15c060070335c88800275
+-  __DATA_CONST.__objc_catlist: 0x40 sha256:729e4242b3a52b27ca99498fe010bed8256dbbd73c0b3eeee659eba645e7ec03
+-  __DATA_CONST.__objc_protolist: 0x198 sha256:fd5fdc511136818c57031403bd25511b6c4dbcd118c10c587a5d544c5c197653
++  __DATA_CONST.__const: 0x1168 sha256:47fee91a239326501ab47599a72f69ac752f1e4583bb8105f9432bb93b92897d
++  __DATA_CONST.__objc_classlist: 0x2f8 sha256:b3868a3984a16fd43a620513b5d1ad0a6c6b2140fe1cba06b6ec32c28841d633
++  __DATA_CONST.__objc_catlist: 0x40 sha256:9b557e998e6f2134020eb576bf0f0a22bcf78b8ee5ca71830fa4c9fe50227601
++  __DATA_CONST.__objc_protolist: 0x198 sha256:9c362beb6673bcc699d21c6925d6b7bb04fd855f0118d45e2e29f65a3b419bef
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x47f8 sha256:37fd15ae7be6faa3dec6c0f75eb9abcc6cd4f87ae6f17e01288bebbd9449ea5a
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:3e26592f5b3916b48a8399965f6496b6ea4a5c01866e8d581da13ce3b9661b06
+-  __DATA_CONST.__objc_superrefs: 0x238 sha256:39324b83a9dbb7f136f02d53c28584ec03b6ef0850a44f2326caa66fd9637f51
+-  __DATA_CONST.__objc_arraydata: 0x90 sha256:fcb0cb81d71f917b33e964de26223c74fbb59421cfc43a6c3e02679b95205b44
+-  __DATA_CONST.__got: 0xea8 sha256:417c78248940d97b05fb7fa8a204313fafaacfba000e1e1079a7071bd31595b8
+-  __AUTH_CONST.__const: 0x4c0 sha256:57d0914d64f316f1a2cffa3963c980f3ac36408c8ef9ecb8a016e3c797710f70
+-  __AUTH_CONST.__cfstring: 0x2f40 sha256:8528d835ddfa845e2f8a2f1b0f34d41df8023cde54c6f95c8acddbf396a802af
+-  __AUTH_CONST.__objc_const: 0x107f8 sha256:c7f44b918a91c1d12efb39bf1b97415b4d02e4b3fcbbe8692d7444ab018354d4
+-  __AUTH_CONST.__objc_arrayobj: 0xa8 sha256:cfbe0219aebf88ad492d669ff0d89a2d2e95a3b46f0452f67adfdb69746a2ec1
+-  __AUTH_CONST.__objc_intobj: 0x120 sha256:36a3bb7299e2a3f368302dae84734778ccfa4ff7d515550b962f27fbc8f9c82b
+-  __AUTH_CONST.__objc_floatobj: 0x30 sha256:1608e569c6a7d5e8d1aaf1fc6396ee7fece976eaeff9d25407cc8f834a2bb8d8
++  __DATA_CONST.__objc_selrefs: 0x4838 sha256:4c883b994750de7c34fc335a4b8ed69512714e63d2c26c4a506ed3c2b7884725
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:26a9b958766cfaf90b06b26bc701c598f031d2f419c3a84c45a8a880543606b1
++  __DATA_CONST.__objc_superrefs: 0x238 sha256:29b48eb34c00d09467c9fbe8803ad846d7ae6b8c37cc0b69a7bf860f10f5db53
++  __DATA_CONST.__objc_arraydata: 0x90 sha256:031c2f838670824350ff771e86c91b957d7a602226af811f5db58e5c60a4ca85
++  __DATA_CONST.__got: 0xed8 sha256:fa3d72e4e4466fbfa1861845d99cb49a52fe79a6049a9f15a8f967d0df9898ab
++  __AUTH_CONST.__const: 0x4c0 sha256:a411f6da3fdb39a7d646c90e26e5799a73a2396ae09dbcc436911eba684c04bc
++  __AUTH_CONST.__cfstring: 0x3020 sha256:5f7f31d77e6811f3f9ff0b133983306ebc635b62bbbaa1e884cc9a523dad2f7c
++  __AUTH_CONST.__objc_const: 0x10838 sha256:6d8dc29d6a9077e8cb21890bdb309ca03018dec313fedc374c9fb86b6de3d228
++  __AUTH_CONST.__objc_arrayobj: 0xa8 sha256:66c3777d94fe3fd138d63c8db889c43e57e51322414ee337f66422996eb56448
++  __AUTH_CONST.__objc_intobj: 0x120 sha256:fb8cf2ec3af7c38641eb165bca28cde38715191964c38afaebee9514850823b3
++  __AUTH_CONST.__objc_floatobj: 0x30 sha256:6cceba7e184a372acdbd8112283eddea8d3879add870022f81db6792b45c2360
+   __AUTH_CONST.__auth_got: 0x7e8 sha256:6a9dbfdcc8a54ad6287bb2e7bac4a6542e5d98f649058ef3723e52920f543ab7
+-  __AUTH.__objc_data: 0x1a10 sha256:e68a89351ea5c9b94cb123d01b0cd01f9496d72a9968ec1ea426020fe4336d8b
+-  __AUTH.__data: 0xc0 sha256:5ce6d5f53cb9c52adf2c997dc64b8016e4ea0f48e02cf9b9f18da921631b2b61
++  __AUTH.__objc_data: 0x1a10 sha256:60c83d49ab9285eba12eb5309cac61108eb2d775665c46b3d3f1beec63747ad1
++  __AUTH.__data: 0xc0 sha256:f9beffc681cce2a2a3f4523b2817c0f0ef55f44c917f37a61928263472af8a89
+   __DATA.__objc_ivar: 0x5b8 sha256:1f8481328427a50ec6f48e01cf06bb43f1a2d23a363d9c544eac2cf46669765d
+-  __DATA.__data: 0x13f8 sha256:b1dc3387bc1bb09803ee3544ac064032ff31252632f450036b9771d9fcb3fab8
++  __DATA.__data: 0x13f8 sha256:652b20439b36f8e84fe129ed62be97dea55ef81759bd8ce31fd3615817cca084
+   __DATA.__bss: 0x260 sha256:4beb641f77c3df2749a5dffc0a23f4270dc4b94e1e940287fc3ebfa05b720662
+   __DATA.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_DIRTY.__objc_data: 0x370 sha256:bd2a04d4c469e431b844d2f1e4daeac67af6112f6c80d37537440af28086159c
++  __DATA_DIRTY.__objc_data: 0x370 sha256:f35420540f95c900831240484fab6a70df4c68add4aefe7c8d47aa48439ad22a
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/DMCEnrollmentLibrary.framework/DMCEnrollmentLibrary
+   - /System/Library/PrivateFrameworks/DMCTools.framework/DMCTools
+   - /System/Library/PrivateFrameworks/DMCUtilities.framework/DMCUtilities
++  - /System/Library/PrivateFrameworks/EmbeddedDataReset.framework/EmbeddedDataReset
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/MDMClientLibrary.framework/MDMClientLibrary
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ABF595AB-77BD-397B-AFD0-A6CACFFD4F06
+-  Functions: 2137
+-  Symbols:   8071
+-  CStrings:  993
++  UUID: 751AA026-478F-36C3-B77C-16F0DFA9CA59
++  Functions: 2144
++  Symbols:   8101
++  CStrings:  1010
+ 
+Symbols:
++ +[DMCBYODEnrollmentFlowUIPresenter(Private) fakeAppleAccountWithAuthenticationResults:personaID:store:]
++ +[DMCBYODEnrollmentFlowUIPresenter(Private) fakeiTunesAccountWithAuthenticationResults:personaID:store:]
++ -[DMCBYODEnrollmentFlowUIPresenter(Test) presentUnenrollmentActivityPageIsAppleMAID:isProvisional:]
++ -[DMCEnrollmentFlowManagedConfigurationHelper eraseDeviceWithCompletionHandler:]
++ -[DMCEnrollmentFlowManagedConfigurationHelper isORGOEnrolled]
++ -[DMCEnrollmentFlowManagedConfigurationHelper isProvisionallyEnrolled]
++ -[DMCUnenrollmentFlowUIPresenter _showEraseDeviceConfirmationWithCompletionHandler:]
++ -[DMCUnenrollmentFlowUIPresenter presentUnenrollmentActivityPageIsAppleMAID:isProvisional:]
++ -[DMCUnenrollmentFlowUIPresenter requestUserConfirmationIsAppleMAID:isProvisionallyEnrolled:completionHandler:]
++ GCC_except_table57
++ GCC_except_table82
++ _AAAccountClassPrimary
++ _OBJC_CLASS_$_DDRResetOptions
++ _OBJC_CLASS_$_DDRResetRequest
++ _OBJC_CLASS_$_DDRResetService
++ __OBJC_$_CLASS_METHODS_DMCBYODEnrollmentFlowUIPresenter(Private|Test)
++ __OBJC_$_INSTANCE_METHODS_DMCBYODEnrollmentFlowUIPresenter(Private|Test)
++ __OBJC_CLASS_PROTOCOLS_$_DMCBYODEnrollmentFlowUIPresenter(Private|Test)
++ ___111-[DMCUnenrollmentFlowUIPresenter requestUserConfirmationIsAppleMAID:isProvisionallyEnrolled:completionHandler:]_block_invoke
++ ___111-[DMCUnenrollmentFlowUIPresenter requestUserConfirmationIsAppleMAID:isProvisionallyEnrolled:completionHandler:]_block_invoke_2
++ ___111-[DMCUnenrollmentFlowUIPresenter requestUserConfirmationIsAppleMAID:isProvisionallyEnrolled:completionHandler:]_block_invoke_3
++ ___113-[DMCEnrollmentFlowManagedConfigurationHelper awaitPendingApplicationInstallationWithObserver:completionHandler:]_block_invoke.63
++ ___113-[DMCEnrollmentFlowManagedConfigurationHelper awaitPendingApplicationInstallationWithObserver:completionHandler:]_block_invoke.64
++ ___118-[DMCBYODEnrollmentFlowUIPresenter requestWebAuthenticationWithWebAuthURL:authenticator:authParams:completionHandler:]_block_invoke.124
++ ___135-[DMCBYODEnrollmentFlowUIPresenter requestMAIDAuthenticationWithManagedAppleID:personaID:ephemeral:requireAppleMAID:completionHandler:]_block_invoke.128
++ ___135-[DMCBYODEnrollmentFlowUIPresenter requestMAIDAuthenticationWithManagedAppleID:personaID:ephemeral:requireAppleMAID:completionHandler:]_block_invoke_2.129
++ ___135-[DMCBYODEnrollmentFlowUIPresenter requestMAIDAuthenticationWithManagedAppleID:personaID:ephemeral:requireAppleMAID:completionHandler:]_block_invoke_3.132
++ ___138-[DMCBYODEnrollmentFlowUIPresenter requestSilentMAIDAuthenticationWithAuthenticationResults:personaID:requireAppleMAID:completionHandler:]_block_invoke.143
++ ___138-[DMCBYODEnrollmentFlowUIPresenter requestSilentMAIDAuthenticationWithAuthenticationResults:personaID:requireAppleMAID:completionHandler:]_block_invoke_2.144
++ ___202-[DMCEnrollmentFlowManagedConfigurationHelper manageApplicationWithBundleID:iTunesItemID:organization:personaID:associatedDomains:associatedDomainsEnableDirectDownloads:configuration:completionHandler:]_block_invoke.59
++ ___58-[DMCEnrollmentConsentViewController _requiredAppCellData]_block_invoke.146
++ ___80-[DMCEnrollmentFlowManagedConfigurationHelper eraseDeviceWithCompletionHandler:]_block_invoke
++ ___84-[DMCEnrollmentFlowManagedConfigurationHelper _mdmV1AppsInstallationStateDidChange:]_block_invoke.84
++ ___84-[DMCUnenrollmentFlowUIPresenter _showEraseDeviceConfirmationWithCompletionHandler:]_block_invoke
++ ___84-[DMCUnenrollmentFlowUIPresenter _showEraseDeviceConfirmationWithCompletionHandler:]_block_invoke_2
++ ___88-[DMCEnrollmentFlowManagedConfigurationHelper enableReturnToServiceControlCenterModule:]_block_invoke.132
++ ___90-[DMCEnrollmentFlowManagedConfigurationHelper awaitDeviceConfiguredWithCompletionHandler:]_block_invoke.126
++ ___91-[DMCUnenrollmentFlowUIPresenter presentUnenrollmentActivityPageIsAppleMAID:isProvisional:]_block_invoke
++ ___93-[DMCEnrollmentFlowManagedConfigurationHelper _systemAppDeletableInstallationStateDidChange:]_block_invoke.115
++ ___block_descriptor_41_e8_32w_e5_v8?0lw32l8
++ ___block_descriptor_42_e8_32s_e5_v8?0ls32l8
++ ___block_descriptor_49_e8_32s40bs_e23_v16?0"UIAlertAction"8ls32l8s40l8
++ ___block_descriptor_50_e8_32s40bs_e5_v8?0ls40l8s32l8
++ ___block_literal_global.125
++ ___block_literal_global.128
++ ___block_literal_global.184
++ _kMDMEnrollmentModeORGODevice
++ _kMDMEnrollmentModeORGOUser
++ _objc_msgSend$_showEraseDeviceConfirmationWithCompletionHandler:
++ _objc_msgSend$dmc_primaryiCloudAccount
++ _objc_msgSend$fakeAppleAccountWithAuthenticationResults:personaID:store:
++ _objc_msgSend$fakeiTunesAccountWithAuthenticationResults:personaID:store:
++ _objc_msgSend$initWithMode:options:reason:
++ _objc_msgSend$resetWithRequest:completion:
++ _objc_msgSend$setHideProgress:
+- -[DMCBYODEnrollmentFlowUIPresenter _fakeAppleAccountWithAuthenticationResults:personaID:store:]
+- -[DMCBYODEnrollmentFlowUIPresenter _fakeiTunesAccountWithAuthenticationResults:personaID:store:]
+- -[DMCBYODEnrollmentFlowUIPresenter(Test) presentUnenrollmentActivityPageIsAppleMAID:]
+- -[DMCUnenrollmentFlowUIPresenter presentUnenrollmentActivityPageIsAppleMAID:]
+- -[DMCUnenrollmentFlowUIPresenter requestUserConfirmationIsAppleMAID:completionHandler:]
+- GCC_except_table53
+- GCC_except_table78
+- __OBJC_$_INSTANCE_METHODS_DMCBYODEnrollmentFlowUIPresenter(Test)
+- __OBJC_CLASS_PROTOCOLS_$_DMCBYODEnrollmentFlowUIPresenter(Test)
+- ___113-[DMCEnrollmentFlowManagedConfigurationHelper awaitPendingApplicationInstallationWithObserver:completionHandler:]_block_invoke.57
+- ___113-[DMCEnrollmentFlowManagedConfigurationHelper awaitPendingApplicationInstallationWithObserver:completionHandler:]_block_invoke.58
+- ___118-[DMCBYODEnrollmentFlowUIPresenter requestWebAuthenticationWithWebAuthURL:authenticator:authParams:completionHandler:]_block_invoke.109
+- ___135-[DMCBYODEnrollmentFlowUIPresenter requestMAIDAuthenticationWithManagedAppleID:personaID:ephemeral:requireAppleMAID:completionHandler:]_block_invoke.113
+- ___135-[DMCBYODEnrollmentFlowUIPresenter requestMAIDAuthenticationWithManagedAppleID:personaID:ephemeral:requireAppleMAID:completionHandler:]_block_invoke_2.114
+- ___135-[DMCBYODEnrollmentFlowUIPresenter requestMAIDAuthenticationWithManagedAppleID:personaID:ephemeral:requireAppleMAID:completionHandler:]_block_invoke_3.117
+- ___138-[DMCBYODEnrollmentFlowUIPresenter requestSilentMAIDAuthenticationWithAuthenticationResults:personaID:requireAppleMAID:completionHandler:]_block_invoke.128
+- ___138-[DMCBYODEnrollmentFlowUIPresenter requestSilentMAIDAuthenticationWithAuthenticationResults:personaID:requireAppleMAID:completionHandler:]_block_invoke_2.129
+- ___202-[DMCEnrollmentFlowManagedConfigurationHelper manageApplicationWithBundleID:iTunesItemID:organization:personaID:associatedDomains:associatedDomainsEnableDirectDownloads:configuration:completionHandler:]_block_invoke.52
+- ___58-[DMCEnrollmentConsentViewController _requiredAppCellData]_block_invoke.131
+- ___77-[DMCUnenrollmentFlowUIPresenter presentUnenrollmentActivityPageIsAppleMAID:]_block_invoke
+- ___84-[DMCEnrollmentFlowManagedConfigurationHelper _mdmV1AppsInstallationStateDidChange:]_block_invoke.78
+- ___87-[DMCUnenrollmentFlowUIPresenter requestUserConfirmationIsAppleMAID:completionHandler:]_block_invoke
+- ___87-[DMCUnenrollmentFlowUIPresenter requestUserConfirmationIsAppleMAID:completionHandler:]_block_invoke_2
+- ___87-[DMCUnenrollmentFlowUIPresenter requestUserConfirmationIsAppleMAID:completionHandler:]_block_invoke_3
+- ___88-[DMCEnrollmentFlowManagedConfigurationHelper enableReturnToServiceControlCenterModule:]_block_invoke.126
+- ___90-[DMCEnrollmentFlowManagedConfigurationHelper awaitDeviceConfiguredWithCompletionHandler:]_block_invoke.120
+- ___93-[DMCEnrollmentFlowManagedConfigurationHelper _systemAppDeletableInstallationStateDidChange:]_block_invoke.109
+- ___block_descriptor_49_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_literal_global.119
+- ___block_literal_global.122
+- ___block_literal_global.169
+- _objc_msgSend$_fakeAppleAccountWithAuthenticationResults:personaID:store:
+- _objc_msgSend$_fakeiTunesAccountWithAuthenticationResults:personaID:store:
+CStrings:
++ "%s primary: %@ %@"
++ "%s rm: %@ %@"
++ "-[DMCMDMSignoutSpecifierProvider _specifierForMDMProfileWasTapped:]"
++ "DMC_CONSENT_NOTICES_%lu"
++ "DMC_ERASE"
++ "DMC_ERASE_DEVICE_BODY"
++ "DMC_ERASE_DEVICE_TITLE"
++ "DMC_LEAVING_REMOTE_MANAGEMENT_DESCRIPTION"
++ "DMC_SIGN_OUT_PROVISIONAL_WARNING"
++ "Provisional enrollment sign out"
++ "primaryAccount"
+- "DMC_CONSENT_NOTICES_%@"
+
+```

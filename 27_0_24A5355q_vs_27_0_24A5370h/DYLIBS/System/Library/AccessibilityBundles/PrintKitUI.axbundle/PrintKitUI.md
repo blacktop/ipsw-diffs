@@ -1,0 +1,87 @@
+## PrintKitUI
+
+> `/System/Library/AccessibilityBundles/PrintKitUI.axbundle/PrintKitUI`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x834 sha256:36e7e0426c31422996d56dd4c47c254d1b3b7614220612258745e4c66ab2e7b4
+-  __TEXT.__objc_methlist: 0x1c0 sha256:dc785d51eedeeae228256e707ce80f951dcd9bd16f16423ed202adc7c13b2278
++3039.1.0.0.0
++  __TEXT.__text: 0x834 sha256:315268bc9e981d12a827a603d90ebfc14fc24f99de536a357af6841c500c0ac9
++  __TEXT.__objc_methlist: 0x1c0 sha256:07141ddf76a7cc8ecc18a96485a03612608ceb62d23024aec8b50196801c742b
+   __TEXT.__const: 0x8 sha256:45d2b662d9d490ae9b932759c910b26b9a874065de620f4ac0a3a23a65e40b8c
+   __TEXT.__cstring: 0x2fc sha256:7be75f7ca68b494049349d4f98953057c68e0a88fcc9c77603e82361e5c522a2
+   __TEXT.__unwind_info: 0xb0 sha256:98359798cb87d632015c6ce8d16844a79872735ea884b75ed1fec0cd69108028
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x60 sha256:c44467722e0779680cec23d135d2c01c03b6ee9e315b75c6dcc885927b18dd97
+-  __DATA_CONST.__objc_classlist: 0x58 sha256:9bec580b6fd5940ac94512a1aa3e6e394632106c575961ac2e97eca9483b5647
++  __DATA_CONST.__const: 0x60 sha256:3cc2ab727b075dc236c165eb57c5989d2d0815c2784ee5739b2073a8328865bf
++  __DATA_CONST.__objc_classlist: 0x58 sha256:1927b9045813e226bf039cdebf621e884b0e83fc76f8b192a7b5776c68be083e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x100 sha256:65e7a460aff8510d83b07f38d8a45c16b784ce62ac53fdfe81a6a6f218f8504d
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:b3b92395ad078475043cd616a752a93ad8193e3ca5997a6d68f6b8982f9d235b
+-  __DATA_CONST.__got: 0x38 sha256:a807864fe8e6696be6e47df0be4135a910fb325ce128517fe78ae2a472508879
+-  __AUTH_CONST.__const: 0x60 sha256:75cd57401d98ea0a3b7ec645f277eb9853546b908bec3a387397cb9ca843f4d1
+-  __AUTH_CONST.__cfstring: 0x380 sha256:7f35ec979c613cd8bc5963328e3a175988b99b2df6ea910b14a2535bdbe53bde
+-  __AUTH_CONST.__objc_const: 0x630 sha256:849e379b70b88ec5e8c641f97bcfa0041c2876a38e3d0f9017743ec418770992
++  __DATA_CONST.__objc_selrefs: 0x100 sha256:83eaef8e5bc23faa6ac7de517e861ca1c92f4d36e8094ebadfdb268b41fa1cf8
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:55be0f80cbf965a0e3b207ba1b46d88d2cfcc7a03dcd0c3ff3e73cefb863ab27
++  __DATA_CONST.__got: 0x38 sha256:d5ff569ea6a3a8272dea5d4309011e118dfba46a3575a67b9577f307802f0c3f
++  __AUTH_CONST.__const: 0x60 sha256:d9a80ffcad6f9da227bb6723a4b9f87d7cab3091f49e61051cd186d68f764a59
++  __AUTH_CONST.__cfstring: 0x380 sha256:5000c20b8c60f58b0f984a165460b6b2e772066ad0a642f796df10b772858f08
++  __AUTH_CONST.__objc_const: 0x630 sha256:d8ef6fd5a3c876266712cdd53b233d8738b8d5a91fd302a9231475a3cef1ed63
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x370 sha256:9c6092277e9b31dafaa99e71d35987d4987e1c60c6f20c35275bd335aa2c1f61
++  __DATA_DIRTY.__objc_data: 0x370 sha256:e5c8afa9e8223b0bfab755112c2257afeba51d1c1bfc4ee9ea0afde8fdaea3ee
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 927A32D6-0D94-3D97-9745-B4B8F61A23CD
++  UUID: 6A03D4F3-035D-3BA5-BCE6-4FD1D2726B88
+   Functions: 31
+   Symbols:   177
+   CStrings:  63
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ +[UIPrintOrientationOptionAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 a6c26b35d8fedcd71205bb4f1e48d0ae335e1e2e9b74acc8919c54e010353e0f -> 4059cc45c962602ca8befa12ff6e8a886a8042720b2facc3b700bbfec29a19fa
+~ +[UIPrintOrientationOptionAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 ade90d8d57b9963169532706fbee8a04bd655faac765e82b686b5db727ed6ffd -> 5ec3e730d9b2e41027c7a089a73a7a15da30b4f8b24bd01cd61673f88b53bb1a
+~ +[UIPrintOrientationOptionAccessibility _accessibilityPerformValidations:] : sha256 defc0c6161415a9a4adfd30e760bdd11969c7e5ff3cafcb14ebbacfe34242a72 -> 57238f804cbfcca12355d8cdafffabd1e5715fcef8674bb56bc5681ba14c6f68
+~ -[UIPrintOrientationOptionAccessibility createPrintOptionTableViewCell] : sha256 a0ae1988446defc5e9774657650b8dd5def73c3ae08f9f195ad2618f0725bf1d -> 5d9608084476c30c59836eb1c89c426c66bc55da02263bf387d3529dd933b897
+~ +[UIPrintPanelWindowAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 861855fe08c8b6f21b73d926a1632e54fdcbb1d83e12435bf236f9ff7e1ec119 -> 1ac060869023a17ac395a0e264ec670e11e5c6af05a52137edc19e83b8d36c82
+~ +[UIPrintPanelWindowAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 4bfc3c9288b9b0a67b708fcdc5b7e4d5a3b0f1f7ae02fb3b3b6743c355dcc512 -> 754be424cd80ec149c895ed5b0c23aebb5f80ec9521fd09036dae979934dd7c1
+~ +[UIPrintPanelViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 dc7de9f523a8f87dc12d8493a15370b9d723c4c1aeaa3518a4749f890d48ab50 -> d8ae269f0dd1430d78591a0a7868d996e18d9dc0b52f9a2902feebe8f0826806
+~ +[UIPrintPanelViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 be7e034863b33f4803b2a09e10f68fdf956a989c509e6f04531f693905ea9915 -> f046463ee67f913dc600f9b345878d3b391ecbe31e882e91805d2e6f9efe98b9
+~ +[UIPrintPanelViewControllerAccessibility _accessibilityPerformValidations:] : sha256 954081aa05427220784780d6f7acd1bc60d9dd51c9aeab98a07bec8d5584aced -> 03ac6e4992dd505f831f47b9924fb0c1417073c654e5d7d38ed2d4398db3519a
+~ -[UIPrintPanelViewControllerAccessibility dismissPrintPanelWithAction:animated:completionHandler:] : sha256 0fcdac38e92d0e5fe5b36c1f35fd2054afc62cb12b11359ebd905464001196fc -> 34a64f713c61ff5920291b848daeeae64854018ef809df3867500f4f8754ae81
+~ +[UIPrinterTableViewCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 084178852efaa6c51a99657feb11b2d39425bf4bbce582315eceb5fcfa9add41 -> 8fa444e756c5057392fcfd2d4e5f35c75fb74cd0a03c32bdfc1d2df00f951c02
+~ +[UIPrinterTableViewCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 20cf93d9ba14bfcd901e3e003988bedc734a000d45f99723f72f4302734204e6 -> 84b8461739434914f0debf6bb35937db6927d24614934baf33574217ad89bedb
+~ +[UIPrinterTableViewCellAccessibility _accessibilityPerformValidations:] : sha256 c1c85e2fdffda74ea52fa2958931f741eccfdc601a3f77e95077341fb70d0b29 -> 15da1e61908e7ba1fee86de4dd13202b8ec80793909c91a5765f4080541c3dc1
+~ -[UIPrinterTableViewCellAccessibility accessibilityValue] : sha256 77ef12e4fea5f4d7922af7e45a2dba85cd498a9290d693eb762f070efed735fd -> 19146e4fab07f627812db4e10393aafd70b7450e549ba7dc6064ca0793e5b264
+~ -[UIPrinterTableViewCellAccessibility accessibilityTraits] : sha256 62581c887e59106edb01f62688c5619f92d67f0e2bf2714f429940a1a6b497be -> 2e0ac56b16cb736e7598976df761890445d325f547f454ed50ad117887fedb11
+~ +[UIPrintPreviewPageCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 46fb3853189e2486c578ae76aa36a7b1d13222f68d6c3ec32458bcd493f0fd8c -> a822ee53a39f5791ce9c94847cb9e0889e0da96705b498270e364488ef2571a2
+~ +[UIPrintPreviewPageCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 e0b6afa92b34243d4a917e886e529fdce5e14bd2e25181e67f01142c22977449 -> 9c9662171c528df7528d3e1c9095a211b85022379f82139091110ff0395cb4e4
+~ +[UIPrintPreviewPageCellAccessibility _accessibilityPerformValidations:] : sha256 e851f6894e08d09ff30afcfac4df88f7b435dfdb8dbf37defeb345703a68928a -> 00ec5790d68bb90f167ed84af73147d56773054caf95b2df12448fa431d47447
+~ -[UIPrintPreviewPageCellAccessibility accessibilityLabel] : sha256 cc133880e6ed9b47873729ca7eab99ba421b44dc18b6261a5f6877287031d939 -> b7f01138f7f38c7a7948a00d995112a592b09504c5458ad501a1e99fe79f359d
+~ -[UIPrintPreviewPageCellAccessibility accessibilityHint] : sha256 74ead6524279bc3721a0024aea9b26961c3fbbf73177951c52502c7e53495e99 -> 090940c14e609e54f46b29dd09e005554ca91e02def3b5a6ca24440ba3a2ac92
+~ -[UIPrintPreviewPageCellAccessibility accessibilityActivationPoint] : sha256 e83808f18b71f997940587a9d24143b3bd8f23bcea35f534a6cb93bcff263cca -> c79d57520001813d84b12c799faf330f80bbb37f38065a5253860aa9cb23ff77
+~ -[UIPrintPreviewPageCellAccessibility accessibilityTraits] : sha256 9fcc7ff494ea1258e38060588001b5cce9f4710198d5539befece02edf272397 -> 30e79863969e802e0289a3ea81d0a438b18bde7f33b196d060ae193f9bc60780
+~ -[UIPrintPreviewPageCellAccessibility _axIsPageInSelection] : sha256 2628633b29bca5136ece09069e313ef851acbe9a577b87f118b92f555fcb6a27 -> 09030cfaea1d70ed44a4df9dea7bd0ba60ac8ab0efe0036e9d7676e797985f36
+~ +[AXPrintKitUIGlue accessibilityInitializeBundle] : sha256 fcc0bbf6789bf3dbb88e82213ff78b9db57fe2b975b303409e40a9bbcef1b311 -> 6ddc1ccced7a32a938bf1fa9233ec3d2a0a5303d60d1cdefb8d2af5f5a83c341
+~ ___49+[AXPrintKitUIGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 983c4cfbb3207556df2b4a31ce6ad61722680b00c3bd3aa0f7ee14fd028456c2 -> b87f98a4500d4674f35b0f1ee7c50642dd5f1760afe581c16cece20fa7af5c3e
+~ ___49+[AXPrintKitUIGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 a3896d55e359b1ae30ab189f003c3d2bfd703d5cdc3cbd020877d04b35288b34 -> d96db31a2494f6a471f5258385452c3b82680375239763cc289d69498d157e37
+~ _accessibilityLocalizedString : sha256 5183116a2689ae7148bf965c269238943e5951f3629147627e18e029da0bde00 -> 26c3dc00b0f179d32cdb51d44f82660320e6cbe4ab0bb7ec72b56c572d9af5ac
+
+```

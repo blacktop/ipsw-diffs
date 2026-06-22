@@ -1,0 +1,49 @@
+## libCommCenterCNTargetData.dylib
+
+> `/System/Library/Frameworks/CoreTelephony.framework/Support/libCommCenterCNTargetData.dylib`
+
+```diff
+
+-13466.3.0.0.0
+-  __TEXT.__text: 0x838 sha256:469b352a94f47fddc591235baa5346fd196c02230c4a48b7eed551a071c5d908
++13473.1.0.0.0
++  __TEXT.__text: 0x838 sha256:78d5051506221c27e43adb5ad69052d92771ed3d025289c770ea0bab1ac17de6
+   __TEXT.__const: 0xf8 sha256:644ee79dc1af7573daae95c8e054ac3f2895ef01dfd5c2dea3096d57ea8285cb
+   __TEXT.__gcc_except_tab: 0x18 sha256:a84200567459ab4eab3df24397c66f9a4212410b3a88ba3607341095c6751ff2
+   __TEXT.__cstring: 0x2f sha256:47cc95e7a6125f93c5d1ffc7013ee3f3b71b8e9083c7cb0f0c698d77e4792865
+-  __TEXT.__unwind_info: 0x98 sha256:c8af027ab25f1000f5d0b608ce71f3aa66783cb68795f2ecfe9f08bab9d60a3f
++  __TEXT.__unwind_info: 0x98 sha256:2795a51a90683db27b6cf9622dbe2ce4e37230dd927c611109786bf8e55c396b
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xc8 sha256:bec466c511443b4a2e3af92fbd2f410971355bcfc80aafad5cd069a2a35ac61b
+-  __AUTH_CONST.__weak_auth_got: 0x18 sha256:a88ed344b2ba4c156e4cfa19ad16a39620704c415415886023acafd647426424
++  __AUTH_CONST.__const: 0xc8 sha256:0c83a7f0af481e08733e85f37e0d067b34258d7d1b727b5051d69aa31a19a78c
++  __AUTH_CONST.__weak_auth_got: 0x18 sha256:a69b3f8c61977f553126d994e08c4fb4994af17e58bcced557d367ac90ccc9ba
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+
+   - /System/Library/PrivateFrameworks/CoreNavigation.framework/CoreNavigation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 1900FF36-15FC-36F2-8411-2550CBC7376C
++  UUID: 036C806F-C9F7-3854-BE2A-E981B2FECAAE
+   Functions: 57
+   Symbols:   101
+   CStrings:  1
+Symbols:
++ __ZNSt3__119__shared_weak_count16__release_sharedB9foe220106Ev
+- __ZNSt3__119__shared_weak_count16__release_sharedB9foe220100Ev
+Functions:
+~ __ZN6stewie13TargetInstant15invalidInstanceEv : sha256 dbaacd21a70b4d0b1d28d4c27728073cbe1e00ca45ecdaaf4db87f5060f8cfbf -> 2e74697df41308fa9bb72a8cf798684e09fe246cc54dcfd167932fd62b52f3c6
+~ _createCoreNavigationTargetData : sha256 37ad5aa4f6207929043270fe401790060efe0f217f937d21d0b8df9b860f17bf -> 074ad046433f12e80b3dc34a9a3fa2deb6624031c0919117914a3ad5856f27c2
+~ __ZNSt3__120__shared_ptr_emplaceIN12_GLOBAL__N_124CoreNavigationTargetDataENS_9allocatorIS2_EEED1Ev : sha256 667f610b5abfa434516a756f6f0fe5733403433767011b34cd77eb15adfeb0b4 -> 138bed08d0e786b6025f1564b80a67db51b7a9fe4280e0b1e98b0cec9e2a3edf
+~ __ZNSt3__120__shared_ptr_emplaceIN12_GLOBAL__N_124CoreNavigationTargetDataENS_9allocatorIS2_EEED0Ev : sha256 15e92c753a241ebb8baab1208911c3e143fc616215ada5b9ae6e94c7a869abaf -> 7cb7265cd58b5547762c8b6a433090f6a75805dc340e0cc6dd9f08ccbb1ff40d
+~ __ZNSt3__120__shared_ptr_emplaceIN12_GLOBAL__N_124CoreNavigationTargetDataENS_9allocatorIS2_EEE21__on_zero_shared_weakEv : sha256 87a2e71c1db800ec977e830130da4417f521fecf595ed6f85143ad5bcb56e015 -> 465103875bc993ac78c57d9d5320c2feb145c2f05991da9cc64a1bdebdb532a2
+~ __ZN12_GLOBAL__N_124CoreNavigationTargetDataD1Ev : sha256 33e9cac4bcf0f1d72e300a6548657923227dbd4f487c5fb7d95ed84ae1fa38a5 -> 496ba4f13b5304bf9cb8841c24ff5d37c23bb6cda567e1cf83e0f49d6e02c72c
+~ __ZN12_GLOBAL__N_124CoreNavigationTargetDataD0Ev : sha256 07c3bdbd5a40ccd4968dff968934d009f6ebdbab8b5a557465a06cdedcef8893 -> 5d1d92ad5f35def0223997017134e4dd808981640ea8014eecdbc6f739b44696
+~ __ZNK12_GLOBAL__N_124CoreNavigationTargetData16getTargetInstantERKN6stewie11GeoLocationEiRKNS1_6CATimeE : sha256 7fee30714bedbc2913e6554bb37ee5f3027cad141ebeb79e3f3a1309b3eb0504 -> cef99e98834dc30266518266f50289e1e5cb92c70c937d84715f3eed37235074
+~ __ZNSt3__119__shared_weak_count16__release_sharedB9foe220100Ev -> __ZNSt3__119__shared_weak_count16__release_sharedB9foe220106Ev : sha256 06bee74e081372bb4df1fd01a88ab3a890ec45ebdc229aee4e7ba3b4c8ac1257 -> b8785c1daf9aa2a29e42fa8851012dac6cbf737f1cd7ce0bb75c57d90da07554
+~ __ZNK6stewie11GeoLocation30distanceMetersIgnoringAltitudeERKS0_ : sha256 7caa2f985198ba10ca72a277b98d625f97c32bd6574106ed05779253ae2ae6c1 -> 70ae2233c3da8cf736141adbdeab86cb1c96200ce856aa7fda1a3386f9a87f0c
+
+```

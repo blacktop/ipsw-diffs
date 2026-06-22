@@ -1,0 +1,1215 @@
+## VoiceServices
+
+> `/System/Library/PrivateFrameworks/VoiceServices.framework/VoiceServices`
+
+```diff
+
+-3600.8.1.0.0
+-  __TEXT.__text: 0x2142c sha256:d35040b2a2e6791d8d6449b66047ff2138f56a8cd57ca5df3090a0206041e32d
+-  __TEXT.__objc_methlist: 0x27c8 sha256:7ab75a5d57f521ff340f7404873fa3832103aedd4a389414c225bac94a0602b1
+-  __TEXT.__dlopen_cstrs: 0x56 sha256:4c7e9d226c1ec53eba72eff2e1fe58e44ad83d008258c5f1a6a638e387f11fd3
+-  __TEXT.__const: 0x1f0 sha256:0744f587240ad5ba4b09b2bc5a44be990c5586b6f7b08cbf012a928af26900e9
+-  __TEXT.__gcc_except_tab: 0x21c sha256:746d216e714b2ff6aa475e57be5168c76f6525c9ded83a26019badce207562e5
+-  __TEXT.__cstring: 0x1fb3 sha256:c57f5eba7d3eb763e0317fc4753b2f4bb7f3cfa9fb97a4b4ba25029b92e53912
+-  __TEXT.__oslogstring: 0x138a sha256:c9f1ff841dc581081c2edf8cfe866e30e8d63c37d61fbdce3fbdfa568a5e04d1
+-  __TEXT.__unwind_info: 0x9a8 sha256:0e6f435aeb9b8a4449ee1374aace970ba6cba333348c43317ec48894d2045497
++3600.12.1.0.0
++  __TEXT.__text: 0x18500 sha256:8cea4df2e85dc94dc9a49ef35c673eedab428656275f33c206731e1b8827d94b
++  __TEXT.__objc_methlist: 0x1818 sha256:a372634a2d8e46e32a4eb9e611a9d92e1eec20ff50ccc8c127ec746f2e353b67
++  __TEXT.__const: 0x130 sha256:d39e7a15bcc75a55278d12039410eb9240b9db58da979e863d9025f5e7a52340
++  __TEXT.__gcc_except_tab: 0xbc sha256:ee9f3e33b0002c2d9a3d910e87ac16f3505071a9e93b15cfbf7c54edfaccfd4b
++  __TEXT.__cstring: 0x11a4 sha256:76f64c035ee25909ad10104eb55de654f95769bb6dabf361e67f7f54d7293098
++  __TEXT.__oslogstring: 0x119b sha256:7837ebe928258e9348cb64d3b8d111a45136b4d99b9691363c9c453005d30789
++  __TEXT.__unwind_info: 0x740 sha256:7b2324ddd62d5fdc9f995b0f7903192427237014ad2b774ec94edd89dcce1186
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x690 sha256:e2a1767bdfc7105e86a6bf0460cc5293d5816f45110915114d78f4dca83a4b43
+-  __DATA_CONST.__objc_classlist: 0x128 sha256:b3d7a6f94766ba1bbbe9f9db252388ade8563466e2027954daf98a29e6e277d8
+-  __DATA_CONST.__objc_catlist: 0x18 sha256:1791d439166cba0c0bd347b24697310a9eff45c8913a97a6866cc7bd17cfc4da
+-  __DATA_CONST.__objc_protolist: 0x38 sha256:9bc3b2ef183cd0e18222ef779cb73402f56dfe1970d0c7710cb7e13507c7368d
++  __DATA_CONST.__const: 0x418 sha256:3fd8e4390727b1be4b9548be8fdc3492ed62b59daea5c527e4530570725f064d
++  __DATA_CONST.__objc_classlist: 0xe0 sha256:35c1cc21e64b98a1ca1696409df2276363f784b0cb2254b5fe201c00a4b144c2
++  __DATA_CONST.__objc_catlist: 0x18 sha256:029182b7026fa26c9d8ac9c4208892ad91a9bf25ece659c1d72464609f881efd
++  __DATA_CONST.__objc_protolist: 0x30 sha256:cac286aacf7a112dd0df248730e67c32f9b20862d48f2c71afba4f7bbcbfa0cf
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1c98 sha256:61edd1f81a2f5b53cec4a7f2ac32201234f99ffede5ed4daf45e6543446308b4
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:52c045ec7d8549da3e6176969f1600b7436098d547981088a1bf09a7ee6f1aba
+-  __DATA_CONST.__objc_superrefs: 0x100 sha256:4540d243d096d2b2236b5c7241d76b5cc5be73a2090325fadf9dbaacf8396462
+-  __DATA_CONST.__objc_arraydata: 0x128 sha256:6e240f5707edd1bb41bce7e0211f5844890b2e59739a1311385d373dff00bddc
+-  __DATA_CONST.__got: 0x378 sha256:fd059aed37f135a4c6147aa4c5234aadcbf05ffee41c2355bf2ffe2214ef926e
+-  __AUTH_CONST.__const: 0x4e0 sha256:d5070f79c0c9fd4ee9722688ad42dad911357a103274c77b077c7b9126a72342
+-  __AUTH_CONST.__cfstring: 0x2f00 sha256:d4427c8b4b28d4e9dbf1ed028f37059ab3f0ae5963b69d0ad674c3dce67c6fed
+-  __AUTH_CONST.__objc_const: 0x3d80 sha256:1f4fc0d9cab870a98dcb73e1cc76185e5baf06fe1bd0219eba8b9cb8b99ef9ad
+-  __AUTH_CONST.__objc_arrayobj: 0x60 sha256:e51835015c56eae2d6dfd8820eac8af44934cc65d33cac48f88955c7b2e7bad2
+-  __AUTH_CONST.__objc_intobj: 0xc0 sha256:3c79ff61200f3cf3c0fc473e14c507d9d51edf101e4607a360589bff14712076
+-  __AUTH_CONST.__auth_got: 0x940 sha256:a2057b8c530a7f23868e4faf5009bc5321567f4280dabda1e254d6b837b73a34
+-  __DATA.__objc_ivar: 0x310 sha256:10ca59448520409622eb9b4436c578dfd5c487b35fd749b62bb8f350d38e6937
+-  __DATA.__data: 0x3a0 sha256:e9a50bc0373b25f7c86177132ec476210a7cc88fa4cdc43853e3a06de420d1bb
+-  __DATA.__bss: 0x108 sha256:44b8aa4d28701168922acf61435ea4bb442f97b0b14ad7a2510ed68874ee2a72
+-  __DATA_DIRTY.__objc_data: 0xb90 sha256:903123663edf664b33e095c8157500a0953756d107f49b7a47d7002d864d8e75
++  __DATA_CONST.__objc_selrefs: 0x1218 sha256:9b01c1c5f2645fc14a1cf4176e3cab696b212adaa85d5147aa779aefd8a46afb
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:3cbf7b71d5b9091583c081ec7033853d7d2f6349bce6f996db01e6c44b2690e0
++  __DATA_CONST.__objc_superrefs: 0xb8 sha256:9083fb1430f499bbdaebec5eccd349a38aea9bc9b40a6e4061f84c7bf7d53dd9
++  __DATA_CONST.__objc_arraydata: 0x40 sha256:a1fd99e5b56049bef55da1e44a001945de4cc096e60da1e53f1bfb32d4a8b6c6
++  __DATA_CONST.__got: 0x298 sha256:205486175677530964b42038d0460ba561788fd605ea0dd6d2136f6189851216
++  __AUTH_CONST.__const: 0x3c0 sha256:09ed6291cbe1382944922feb4b8686c2f1aafe04d90c3c5126f64837cff7acdd
++  __AUTH_CONST.__cfstring: 0x1cc0 sha256:8cb6fc356af40f66cad705d0399a48505fb05cb6f53f46ef15d2fa7a104dfbbb
++  __AUTH_CONST.__objc_const: 0x2498 sha256:d8e03ba6f0fcda6964d6a8bbf31800f55c9198e88cf6cd29b9339aa361918c96
++  __AUTH_CONST.__objc_intobj: 0x78 sha256:37360dcd799a5bc5ffa3ea746293fdedeb82dc7e40866d883f77aaeb7ee3bb32
++  __AUTH_CONST.__objc_arrayobj: 0x48 sha256:07d9df08a112d55af4b16a60f55f3487c182ffe6396a6a350786f784867bf1ed
++  __AUTH_CONST.__auth_got: 0x878 sha256:f3b35998743b183aeecaaa98b1ead6caab382ef94e0da9327dfb7d34e4528471
++  __AUTH.__objc_data: 0x50 sha256:1c6184d248d4777a4aec346910fcffb6c3d8c938f725d15b097c591d4f1ca97a
++  __DATA.__objc_ivar: 0x18c sha256:a1122036915bc3b97f18e0d3084de3832962a8ae3df2ecd9662b46a3e9f65e40
++  __DATA.__data: 0x340 sha256:09d8b4f7be6d93cb5741a9507b235d1a7131831065f6f0a0ac35e3d518772f61
++  __DATA.__bss: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
++  __DATA_DIRTY.__objc_data: 0x870 sha256:1de313371b427c3d0ac47c08d158cc4afe89917f4931c9e0fa56197bde09d652
+   __DATA_DIRTY.__data: 0xa0 sha256:06940563e884472464b5a42f8e6b31b1a000791a253380fc4ae16d7bac0842e1
+-  __DATA_DIRTY.__bss: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+-  - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
++  __DATA_DIRTY.__bss: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/MobileAsset.framework/MobileAsset
+   - /System/Library/PrivateFrameworks/SiriTTS.framework/SiriTTS
+   - /System/Library/PrivateFrameworks/SiriTTSService.framework/SiriTTSService
+-  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8320EC7D-EA51-37F7-BC9C-24F3891D574F
+-  Functions: 1017
+-  Symbols:   3628
+-  CStrings:  880
++  UUID: F7AC9E30-528E-3FC2-A66E-55AA99B25051
++  Functions: 674
++  Symbols:   2403
++  CStrings:  568
+ 
+Symbols:
++ +[VSSpeechErrors errorFromSTSError:]
++ GCC_except_table58
++ GCC_except_table63
++ GCC_except_table636
++ GCC_except_table669
++ GCC_except_table670
++ _OBJC_CLASS_$_VSSpeechErrors
++ _OBJC_IVAR_$_VSRecognitionSession._request
++ _OBJC_METACLASS_$_VSSpeechErrors
++ __OBJC_$_CATEGORY_CLASS_METHODS_NSString_$_VS4CC
++ __OBJC_$_CATEGORY_NSString_$_VS4CC
++ __OBJC_$_CLASS_METHODS_VSSpeechErrors
++ __OBJC_CLASS_RO_$_VSSpeechErrors
++ __OBJC_METACLASS_RO_$_VSSpeechErrors
++ ___57+[VSMobileAssetsManager pickCorrectAssetFromLocalAssets:]_block_invoke.573
++ ___62-[VSRecognitionSession _beginSpeakingString:attributedString:]_block_invoke
++ ___62-[VSRecognitionSession _beginSpeakingString:attributedString:]_block_invoke_2
++ ___block_descriptor_48_e8_32o40o_e17_v16?0"NSError"8ls32l8s40l8
++ ___block_descriptor_48_e8_32o40o_e5_v8?0ls32l8s40l8
++ ___block_literal_global.1054
++ ___block_literal_global.179
++ ___block_literal_global.25
++ ___block_literal_global.291
++ ___block_literal_global.511
++ ___block_literal_global.530
++ ___block_literal_global.532
++ ___block_literal_global.569
++ ___block_literal_global.571
++ ___block_literal_global.576
++ ___block_literal_global.588
++ ___block_literal_global.69
+- +[NSString(VSSpeechService) _vs_countPhoneticSyllables_lhp:]
+- +[NSString(VSSpeechService) _vs_countPhoneticSyllables_xsampa:]
+- +[NSString(VSSpeechService) vs_isCJKCharacter:]
+- +[NSString(VSSpeechService) vs_markerStringForContext:]
+- +[VSAudioData supportsSecureCoding]
+- +[VSInstrumentMetrics descriptionFormatter]
+- +[VSInstrumentMetrics stringOfSourceOfTTS:]
+- +[VSInstrumentMetrics supportsSecureCoding]
+- +[VSInstrumentMetrics(SiriTTSServiceBridge) vs_metricsFromSTSMetrics:]
+- +[VSNeuralTTSUtils compileANEModel:]
+- +[VSNeuralTTSUtils hasAMX]
+- +[VSNeuralTTSUtils hasANE]
+- +[VSNeuralTTSUtils hasCompactNeuralFallback:]
+- +[VSNeuralTTSUtils hasOTAANEModel:]
+- +[VSNeuralTTSUtils isANECompilationPlatform]
+- +[VSNeuralTTSUtils isANEModelCompiled:]
+- +[VSNeuralTTSUtils isNeuralFallbackCondition]
+- +[VSNeuralTTSUtils isNeuralTTSPlatform]
+- +[VSOpusDecoder sharedInstance]
+- +[VSPreferencesInterface defaultInstance]
+- +[VSPresynthesizedAudioRequest supportsSecureCoding]
+- +[VSSpeechRequest supportsSecureCoding]
+- +[VSSpeechSynthesizer characterClassCountForUtterance:language:]
+- +[VSSpeechSynthesizer sharedInstance]
+- +[VSSpeechSynthesizer validatePrewarmRequest:]
+- +[VSSpeechWordTimingInfo supportsSecureCoding]
+- +[VSUtilities hasAMX]
+- +[VSUtilities hasANE]
+- +[VSUtilities isHomeHub]
+- +[VSUtilities isHomePod]
+- +[VSUtilities isSeedBuild]
+- -[NSString(VSSpeechService) vs_countPhoneticSyllables]
+- -[NSString(VSSpeechService) vs_measurePauses]
+- -[NSString(VSSpeechService) vs_removePhonetics]
+- -[NSString(VSSpeechService) vs_removeSpeechTags]
+- -[NSString(VSSpeechService) vs_textifyEmojiWithLanguage:]
+- -[VSAudioData copyWithZone:]
+- -[VSAudioData encodeWithCoder:]
+- -[VSAudioData initWithCoder:]
+- -[VSDownloadOptions allowCellularData]
+- -[VSDownloadOptions allowDiscretionary]
+- -[VSDownloadOptions setAllowCellularData:]
+- -[VSDownloadOptions setAllowDiscretionary:]
+- -[VSInstrumentMetrics .cxx_destruct]
+- -[VSInstrumentMetrics _clockFactor]
+- -[VSInstrumentMetrics audioDuration]
+- -[VSInstrumentMetrics audioOutputRoute]
+- -[VSInstrumentMetrics audioQueueLatency]
+- -[VSInstrumentMetrics audioStartTimestampDiffs]
+- -[VSInstrumentMetrics canUseServerTTS]
+- -[VSInstrumentMetrics cappedRealTimeFactor]
+- -[VSInstrumentMetrics clientBundleIdentifier]
+- -[VSInstrumentMetrics description]
+- -[VSInstrumentMetrics dictionaryMetrics]
+- -[VSInstrumentMetrics eagerRequestCreatedTimestampDiffs]
+- -[VSInstrumentMetrics eagerRequestTimeGap]
+- -[VSInstrumentMetrics encodeWithCoder:]
+- -[VSInstrumentMetrics errorCode]
+- -[VSInstrumentMetrics experimentIdentifier]
+- -[VSInstrumentMetrics initWithCoder:]
+- -[VSInstrumentMetrics isCacheHitFromDisk]
+- -[VSInstrumentMetrics isCacheHitFromMemory]
+- -[VSInstrumentMetrics isServerStreamTTS]
+- -[VSInstrumentMetrics isServerTTSRacing]
+- -[VSInstrumentMetrics isServerTTS]
+- -[VSInstrumentMetrics isServerTimeout]
+- -[VSInstrumentMetrics isSpeechRequest]
+- -[VSInstrumentMetrics isSynthesisCached]
+- -[VSInstrumentMetrics isWarmStart]
+- -[VSInstrumentMetrics neuralAlignmentStall]
+- -[VSInstrumentMetrics neuralAudioClick]
+- -[VSInstrumentMetrics neuralFallback]
+- -[VSInstrumentMetrics promptCount]
+- -[VSInstrumentMetrics realTimeFactor]
+- -[VSInstrumentMetrics requestCreatedTimestamp]
+- -[VSInstrumentMetrics serverFirstPacketTimestamp]
+- -[VSInstrumentMetrics serverLastPacketTimestamp]
+- -[VSInstrumentMetrics serverStreamFirstPacketLatency]
+- -[VSInstrumentMetrics serverStreamLastPacketLatency]
+- -[VSInstrumentMetrics serverStreamedAudioDuration]
+- -[VSInstrumentMetrics setAudioDuration:]
+- -[VSInstrumentMetrics setAudioOutputRoute:]
+- -[VSInstrumentMetrics setAudioStartTimestampDiffs:]
+- -[VSInstrumentMetrics setCanUseServerTTS:]
+- -[VSInstrumentMetrics setClientBundleIdentifier:]
+- -[VSInstrumentMetrics setEagerRequestCreatedTimestampDiffs:]
+- -[VSInstrumentMetrics setErrorCode:]
+- -[VSInstrumentMetrics setExperimentIdentifier:]
+- -[VSInstrumentMetrics setIsCacheHitFromDisk:]
+- -[VSInstrumentMetrics setIsCacheHitFromMemory:]
+- -[VSInstrumentMetrics setIsServerStreamTTS:]
+- -[VSInstrumentMetrics setIsServerTTS:]
+- -[VSInstrumentMetrics setIsServerTTSRacing:]
+- -[VSInstrumentMetrics setIsServerTimeout:]
+- -[VSInstrumentMetrics setIsSpeechRequest:]
+- -[VSInstrumentMetrics setIsWarmStart:]
+- -[VSInstrumentMetrics setNeuralAlignmentStall:]
+- -[VSInstrumentMetrics setNeuralAudioClick:]
+- -[VSInstrumentMetrics setNeuralFallback:]
+- -[VSInstrumentMetrics setPromptCount:]
+- -[VSInstrumentMetrics setRequestCreatedTimestamp:]
+- -[VSInstrumentMetrics setServerFirstPacketTimestamp:]
+- -[VSInstrumentMetrics setServerLastPacketTimestamp:]
+- -[VSInstrumentMetrics setServerStreamedAudioDuration:]
+- -[VSInstrumentMetrics setSourceOfTTS:]
+- -[VSInstrumentMetrics setSpeechBeginTimestamp:]
+- -[VSInstrumentMetrics setSpeechEndTimestamp:]
+- -[VSInstrumentMetrics setSynthesisBeginTimestamp:]
+- -[VSInstrumentMetrics setSynthesisEndTimestamp:]
+- -[VSInstrumentMetrics setUtterance:]
+- -[VSInstrumentMetrics setVoiceAssetKey:]
+- -[VSInstrumentMetrics setVoiceResourceAssetKey:]
+- -[VSInstrumentMetrics sourceOfTTS]
+- -[VSInstrumentMetrics speechBeginTimestamp]
+- -[VSInstrumentMetrics speechEndTimestamp]
+- -[VSInstrumentMetrics speechEstimatedOutputBeginTimestamp]
+- -[VSInstrumentMetrics synthesisBeginTimestamp]
+- -[VSInstrumentMetrics synthesisEndTimestamp]
+- -[VSInstrumentMetrics timeToPlaybackLatency]
+- -[VSInstrumentMetrics timeToSpeakLatency]
+- -[VSInstrumentMetrics ttsSynthesisLatency]
+- -[VSInstrumentMetrics utterance]
+- -[VSInstrumentMetrics voiceAssetKey]
+- -[VSInstrumentMetrics voiceResourceAssetKey]
+- -[VSOpusDecoder _opusDecoder:]
+- -[VSOpusDecoder beginChunkDecoderForStreamDescription:]
+- -[VSOpusDecoder dealloc]
+- -[VSOpusDecoder decodeChunk:outError:]
+- -[VSOpusDecoder decodeChunks:streamDescription:outError:]
+- -[VSOpusDecoder endChunkDecoding]
+- -[VSOpusEncoder .cxx_destruct]
+- -[VSOpusEncoder beginEncoding]
+- -[VSOpusEncoder converter]
+- -[VSOpusEncoder encodeChunk:]
+- -[VSOpusEncoder endEncoding]
+- -[VSOpusEncoder errorHandler]
+- -[VSOpusEncoder fromFormat]
+- -[VSOpusEncoder initWithSourceASBD:]
+- -[VSOpusEncoder opusDataHandler]
+- -[VSOpusEncoder opusDataOffset]
+- -[VSOpusEncoder outputBuffer]
+- -[VSOpusEncoder setConverter:]
+- -[VSOpusEncoder setErrorHandler:]
+- -[VSOpusEncoder setFromFormat:]
+- -[VSOpusEncoder setOpusDataHandler:]
+- -[VSOpusEncoder setOpusDataOffset:]
+- -[VSOpusEncoder setOutputBuffer:]
+- -[VSOpusEncoder setToFormat:]
+- -[VSOpusEncoder toFormat]
+- -[VSPreferencesInterface .cxx_destruct]
+- -[VSPreferencesInterface defaults]
+- -[VSPreferencesInterface initWithSuiteName:]
+- -[VSPreferencesInterface setDefaults:]
+- -[VSPreferencesInterface subscribedVoicesForClientID:accessoryID:]
+- -[VSPresynthesizedAudioRequest .cxx_destruct]
+- -[VSPresynthesizedAudioRequest accessoryID]
+- -[VSPresynthesizedAudioRequest audioData]
+- -[VSPresynthesizedAudioRequest audioSessionID]
+- -[VSPresynthesizedAudioRequest canLogRequestText]
+- -[VSPresynthesizedAudioRequest clientBundleIdentifier]
+- -[VSPresynthesizedAudioRequest copyWithZone:]
+- -[VSPresynthesizedAudioRequest decoderStreamDescription]
+- -[VSPresynthesizedAudioRequest description]
+- -[VSPresynthesizedAudioRequest encodeWithCoder:]
+- -[VSPresynthesizedAudioRequest enqueue]
+- -[VSPresynthesizedAudioRequest hasValidAudio]
+- -[VSPresynthesizedAudioRequest identifier]
+- -[VSPresynthesizedAudioRequest initWithAudioData:decoderStreamDescription:playerStreamDescription:]
+- -[VSPresynthesizedAudioRequest initWithAudioData:playerStreamDescription:]
+- -[VSPresynthesizedAudioRequest initWithCoder:]
+- -[VSPresynthesizedAudioRequest initWithIdentifier:]
+- -[VSPresynthesizedAudioRequest init]
+- -[VSPresynthesizedAudioRequest logText]
+- -[VSPresynthesizedAudioRequest pcmDataSize]
+- -[VSPresynthesizedAudioRequest playerStreamDescription]
+- -[VSPresynthesizedAudioRequest requestCreatedTimestamp]
+- -[VSPresynthesizedAudioRequest setAccessoryID:]
+- -[VSPresynthesizedAudioRequest setAudioSessionID:]
+- -[VSPresynthesizedAudioRequest setClientBundleIdentifier:]
+- -[VSPresynthesizedAudioRequest setEnqueue:]
+- -[VSPresynthesizedAudioRequest setIdentifier:]
+- -[VSPresynthesizedAudioRequest setPcmDataSize:]
+- -[VSPresynthesizedAudioRequest setRequestCreatedTimestamp:]
+- -[VSPresynthesizedAudioRequest setSiriRequestId:]
+- -[VSPresynthesizedAudioRequest setStopHandler:]
+- -[VSPresynthesizedAudioRequest setText:]
+- -[VSPresynthesizedAudioRequest siriRequestId]
+- -[VSPresynthesizedAudioRequest stopHandler]
+- -[VSPresynthesizedAudioRequest text]
+- -[VSRecognitionSession speechSynthesizer:didFinishSpeakingRequest:successfully:phonemesSpoken:withError:]
+- -[VSSpeechRequest .cxx_destruct]
+- -[VSSpeechRequest accessoryID]
+- -[VSSpeechRequest audioSessionID]
+- -[VSSpeechRequest canLogRequestText]
+- -[VSSpeechRequest canUseServerTTS]
+- -[VSSpeechRequest clientBundleIdentifier]
+- -[VSSpeechRequest contextInfoString]
+- -[VSSpeechRequest contextInfo]
+- -[VSSpeechRequest copyWithZone:]
+- -[VSSpeechRequest customResourceURLs]
+- -[VSSpeechRequest description]
+- -[VSSpeechRequest disableCompactVoiceFallback]
+- -[VSSpeechRequest disableDeviceRacing]
+- -[VSSpeechRequest encodeWithCoder:]
+- -[VSSpeechRequest footprint]
+- -[VSSpeechRequest forceServerTTS]
+- -[VSSpeechRequest gender]
+- -[VSSpeechRequest initWithCoder:]
+- -[VSSpeechRequest init]
+- -[VSSpeechRequest isSimilarTo:]
+- -[VSSpeechRequest languageCode]
+- -[VSSpeechRequest logText]
+- -[VSSpeechRequest logUtterance]
+- -[VSSpeechRequest outputPath]
+- -[VSSpeechRequest pauseHandler]
+- -[VSSpeechRequest pitch]
+- -[VSSpeechRequest pointer]
+- -[VSSpeechRequest powerProfile]
+- -[VSSpeechRequest rate]
+- -[VSSpeechRequest requestCreatedTimestamp]
+- -[VSSpeechRequest resourceListURL]
+- -[VSSpeechRequest resourceSearchPathURL]
+- -[VSSpeechRequest retryDeviceOnNetworkStall]
+- -[VSSpeechRequest setAccessoryID:]
+- -[VSSpeechRequest setAudioSessionID:]
+- -[VSSpeechRequest setCanUseServerTTS:]
+- -[VSSpeechRequest setClientBundleIdentifier:]
+- -[VSSpeechRequest setContextInfo:]
+- -[VSSpeechRequest setCustomResourceURLs:]
+- -[VSSpeechRequest setDisableCompactVoiceFallback:]
+- -[VSSpeechRequest setDisableDeviceRacing:]
+- -[VSSpeechRequest setFootprint:]
+- -[VSSpeechRequest setForceServerTTS:]
+- -[VSSpeechRequest setGender:]
+- -[VSSpeechRequest setLanguageCode:]
+- -[VSSpeechRequest setOutputPath:]
+- -[VSSpeechRequest setPauseHandler:]
+- -[VSSpeechRequest setPitch:]
+- -[VSSpeechRequest setPointer:]
+- -[VSSpeechRequest setPowerProfile:]
+- -[VSSpeechRequest setRate:]
+- -[VSSpeechRequest setRequestCreatedTimestamp:]
+- -[VSSpeechRequest setResourceListURL:]
+- -[VSSpeechRequest setResourceSearchPathURL:]
+- -[VSSpeechRequest setRetryDeviceOnNetworkStall:]
+- -[VSSpeechRequest setShouldCache:]
+- -[VSSpeechRequest setShouldStreamAudioData:]
+- -[VSSpeechRequest setShouldWaitCurrentSpeaking:]
+- -[VSSpeechRequest setShouldWhisper:]
+- -[VSSpeechRequest setSiriRequestId:]
+- -[VSSpeechRequest setStopHandler:]
+- -[VSSpeechRequest setText:]
+- -[VSSpeechRequest setUtterance:]
+- -[VSSpeechRequest setVoiceName:]
+- -[VSSpeechRequest setVoiceType:]
+- -[VSSpeechRequest setVolume:]
+- -[VSSpeechRequest shouldCache]
+- -[VSSpeechRequest shouldStreamAudioData]
+- -[VSSpeechRequest shouldWaitCurrentSpeaking]
+- -[VSSpeechRequest shouldWhisper]
+- -[VSSpeechRequest siriRequestId]
+- -[VSSpeechRequest stopHandler]
+- -[VSSpeechRequest text]
+- -[VSSpeechRequest utterance]
+- -[VSSpeechRequest voiceName]
+- -[VSSpeechRequest voiceType]
+- -[VSSpeechRequest volume]
+- -[VSSpeechSynthesizer .cxx_destruct]
+- -[VSSpeechSynthesizer STS_downloadedVoicesMatching:reply:]
+- -[VSSpeechSynthesizer STS_estimateDurationOfRequest:]
+- -[VSSpeechSynthesizer STS_forwardStreamObject:]
+- -[VSSpeechSynthesizer STS_isSpeaking]
+- -[VSSpeechSynthesizer STS_prewarmRequest:]
+- -[VSSpeechSynthesizer STS_signalInlineStreaming:]
+- -[VSSpeechSynthesizer STS_startSpeakingAudioRequest:]
+- -[VSSpeechSynthesizer STS_startSpeakingRequest:]
+- -[VSSpeechSynthesizer STS_startSynthesizingRequest:]
+- -[VSSpeechSynthesizer _setDelegate:]
+- -[VSSpeechSynthesizer availableVoicesForLanguageCode:]
+- -[VSSpeechSynthesizer delegate]
+- -[VSSpeechSynthesizer errorFromSTSError:]
+- -[VSSpeechSynthesizer estimateDurationOfRequest:]
+- -[VSSpeechSynthesizer forwardStreamObject:]
+- -[VSSpeechSynthesizer getLocalVoiceAssets:]
+- -[VSSpeechSynthesizer getLocalVoiceAssetsForLanguage:reply:]
+- -[VSSpeechSynthesizer getLocalVoiceResources:]
+- -[VSSpeechSynthesizer init]
+- -[VSSpeechSynthesizer isPlayingPreview]
+- -[VSSpeechSynthesizer isSpeaking]
+- -[VSSpeechSynthesizer isSystemSpeaking]
+- -[VSSpeechSynthesizer keepActive]
+- -[VSSpeechSynthesizer maximumRate]
+- -[VSSpeechSynthesizer minimumRate]
+- -[VSSpeechSynthesizer prewarmIfNeededWithRequest:]
+- -[VSSpeechSynthesizer proxySession]
+- -[VSSpeechSynthesizer setDelegate:]
+- -[VSSpeechSynthesizer setIsPlayingPreview:]
+- -[VSSpeechSynthesizer setKeepActive:]
+- -[VSSpeechSynthesizer setProxySession:]
+- -[VSSpeechSynthesizer setStsRequestMapping:]
+- -[VSSpeechSynthesizer startSpeakingPresynthesizedAudioRequest:]
+- -[VSSpeechSynthesizer startSpeakingRequest:]
+- -[VSSpeechSynthesizer startSynthesizingRequest:]
+- -[VSSpeechSynthesizer stopSpeakingAtNextBoundary:synchronously:error:]
+- -[VSSpeechSynthesizer stopSpeakingPresynthesizedAudioSynchronously:error:]
+- -[VSSpeechSynthesizer stsRequestMapping]
+- -[VSSpeechWordTimingInfo copyWithZone:]
+- -[VSSpeechWordTimingInfo description]
+- -[VSSpeechWordTimingInfo encodeWithCoder:]
+- -[VSSpeechWordTimingInfo hash]
+- -[VSSpeechWordTimingInfo initWithCoder:]
+- -[VSSpeechWordTimingInfo isEqual:]
+- -[VSSpeechWordTimingInfo setStartTime:]
+- -[VSSpeechWordTimingInfo setTextRange:]
+- -[VSSpeechWordTimingInfo startTime]
+- -[VSSpeechWordTimingInfo textRange]
+- -[VSVoiceAsset initWithDictionaryRepresentation:]
+- GCC_except_table1001
+- GCC_except_table1002
+- GCC_except_table1003
+- GCC_except_table1004
+- GCC_except_table1005
+- GCC_except_table1006
+- GCC_except_table1007
+- GCC_except_table144
+- GCC_except_table149
+- GCC_except_table416
+- GCC_except_table570
+- GCC_except_table577
+- GCC_except_table877
+- GCC_except_table960
+- _AudioConverterDispose
+- _AudioConverterFillComplexBuffer
+- _AudioConverterFillComplexBuffer_BlockInvoke
+- _AudioConverterNew
+- _AudioConverterReset
+- _MGGetSInt32Answer
+- _NSLocalizedFailureReasonErrorKey
+- _NSStringFromRange
+- _OBJC_CLASS_$_AVAudioCompressedBuffer
+- _OBJC_CLASS_$_AVAudioConverter
+- _OBJC_CLASS_$_AVAudioFormat
+- _OBJC_CLASS_$_AVAudioPCMBuffer
+- _OBJC_CLASS_$_NSMutableCharacterSet
+- _OBJC_CLASS_$_NSMutableData
+- _OBJC_CLASS_$_NSMutableString
+- _OBJC_CLASS_$_NSNumberFormatter
+- _OBJC_CLASS_$_NSRegularExpression
+- _OBJC_CLASS_$_NSUUID
+- _OBJC_CLASS_$_SiriTTSAudioData
+- _OBJC_CLASS_$_SiriTTSAudioRequest
+- _OBJC_CLASS_$_SiriTTSDurationEstimator
+- _OBJC_CLASS_$_SiriTTSInlineStreamingSignal
+- _OBJC_CLASS_$_SiriTTSSynthesisRequest
+- _OBJC_CLASS_$_TTSAsset
+- _OBJC_CLASS_$_TTSAssetSource
+- _OBJC_CLASS_$_TTSAssetType
+- _OBJC_CLASS_$_VSAudioData
+- _OBJC_CLASS_$_VSDownloadOptions
+- _OBJC_CLASS_$_VSInstrumentMetrics
+- _OBJC_CLASS_$_VSOpusDecoder
+- _OBJC_CLASS_$_VSOpusEncoder
+- _OBJC_CLASS_$_VSPreferencesInterface
+- _OBJC_CLASS_$_VSPresynthesizedAudioRequest
+- _OBJC_CLASS_$_VSSpeechRequest
+- _OBJC_CLASS_$_VSSpeechSynthesizer
+- _OBJC_CLASS_$_VSSpeechWordTimingInfo
+- _OBJC_IVAR_$_VSDownloadOptions._allowCellularData
+- _OBJC_IVAR_$_VSDownloadOptions._allowDiscretionary
+- _OBJC_IVAR_$_VSInstrumentMetrics._audioDuration
+- _OBJC_IVAR_$_VSInstrumentMetrics._audioOutputRoute
+- _OBJC_IVAR_$_VSInstrumentMetrics._audioStartTimestampDiffs
+- _OBJC_IVAR_$_VSInstrumentMetrics._canUseServerTTS
+- _OBJC_IVAR_$_VSInstrumentMetrics._clientBundleIdentifier
+- _OBJC_IVAR_$_VSInstrumentMetrics._eagerRequestCreatedTimestampDiffs
+- _OBJC_IVAR_$_VSInstrumentMetrics._errorCode
+- _OBJC_IVAR_$_VSInstrumentMetrics._experimentIdentifier
+- _OBJC_IVAR_$_VSInstrumentMetrics._isCacheHitFromDisk
+- _OBJC_IVAR_$_VSInstrumentMetrics._isCacheHitFromMemory
+- _OBJC_IVAR_$_VSInstrumentMetrics._isServerStreamTTS
+- _OBJC_IVAR_$_VSInstrumentMetrics._isServerTTS
+- _OBJC_IVAR_$_VSInstrumentMetrics._isServerTTSRacing
+- _OBJC_IVAR_$_VSInstrumentMetrics._isServerTimeout
+- _OBJC_IVAR_$_VSInstrumentMetrics._isSpeechRequest
+- _OBJC_IVAR_$_VSInstrumentMetrics._isWarmStart
+- _OBJC_IVAR_$_VSInstrumentMetrics._neuralAlignmentStall
+- _OBJC_IVAR_$_VSInstrumentMetrics._neuralAudioClick
+- _OBJC_IVAR_$_VSInstrumentMetrics._neuralFallback
+- _OBJC_IVAR_$_VSInstrumentMetrics._promptCount
+- _OBJC_IVAR_$_VSInstrumentMetrics._requestCreatedTimestamp
+- _OBJC_IVAR_$_VSInstrumentMetrics._serverFirstPacketTimestamp
+- _OBJC_IVAR_$_VSInstrumentMetrics._serverLastPacketTimestamp
+- _OBJC_IVAR_$_VSInstrumentMetrics._serverStreamedAudioDuration
+- _OBJC_IVAR_$_VSInstrumentMetrics._sourceOfTTS
+- _OBJC_IVAR_$_VSInstrumentMetrics._speechBeginTimestamp
+- _OBJC_IVAR_$_VSInstrumentMetrics._speechEndTimestamp
+- _OBJC_IVAR_$_VSInstrumentMetrics._synthesisBeginTimestamp
+- _OBJC_IVAR_$_VSInstrumentMetrics._synthesisEndTimestamp
+- _OBJC_IVAR_$_VSInstrumentMetrics._utterance
+- _OBJC_IVAR_$_VSInstrumentMetrics._voiceAssetKey
+- _OBJC_IVAR_$_VSInstrumentMetrics._voiceResourceAssetKey
+- _OBJC_IVAR_$_VSOpusDecoder._asbd
+- _OBJC_IVAR_$_VSOpusDecoder._decoder
+- _OBJC_IVAR_$_VSOpusEncoder._converter
+- _OBJC_IVAR_$_VSOpusEncoder._errorHandler
+- _OBJC_IVAR_$_VSOpusEncoder._fromFormat
+- _OBJC_IVAR_$_VSOpusEncoder._opusDataHandler
+- _OBJC_IVAR_$_VSOpusEncoder._opusDataOffset
+- _OBJC_IVAR_$_VSOpusEncoder._outputBuffer
+- _OBJC_IVAR_$_VSOpusEncoder._toFormat
+- _OBJC_IVAR_$_VSPreferencesInterface._defaults
+- _OBJC_IVAR_$_VSPresynthesizedAudioRequest._accessoryID
+- _OBJC_IVAR_$_VSPresynthesizedAudioRequest._audioData
+- _OBJC_IVAR_$_VSPresynthesizedAudioRequest._audioSessionID
+- _OBJC_IVAR_$_VSPresynthesizedAudioRequest._clientBundleIdentifier
+- _OBJC_IVAR_$_VSPresynthesizedAudioRequest._decoderStreamDescription
+- _OBJC_IVAR_$_VSPresynthesizedAudioRequest._enqueue
+- _OBJC_IVAR_$_VSPresynthesizedAudioRequest._identifier
+- _OBJC_IVAR_$_VSPresynthesizedAudioRequest._pcmDataSize
+- _OBJC_IVAR_$_VSPresynthesizedAudioRequest._playerStreamDescription
+- _OBJC_IVAR_$_VSPresynthesizedAudioRequest._requestCreatedTimestamp
+- _OBJC_IVAR_$_VSPresynthesizedAudioRequest._siriRequestId
+- _OBJC_IVAR_$_VSPresynthesizedAudioRequest._stopHandler
+- _OBJC_IVAR_$_VSPresynthesizedAudioRequest._text
+- _OBJC_IVAR_$_VSSpeechRequest._accessoryID
+- _OBJC_IVAR_$_VSSpeechRequest._audioSessionID
+- _OBJC_IVAR_$_VSSpeechRequest._canUseServerTTS
+- _OBJC_IVAR_$_VSSpeechRequest._clientBundleIdentifier
+- _OBJC_IVAR_$_VSSpeechRequest._contextInfo
+- _OBJC_IVAR_$_VSSpeechRequest._customResourceURLs
+- _OBJC_IVAR_$_VSSpeechRequest._disableCompactVoiceFallback
+- _OBJC_IVAR_$_VSSpeechRequest._disableDeviceRacing
+- _OBJC_IVAR_$_VSSpeechRequest._footprint
+- _OBJC_IVAR_$_VSSpeechRequest._forceServerTTS
+- _OBJC_IVAR_$_VSSpeechRequest._gender
+- _OBJC_IVAR_$_VSSpeechRequest._languageCode
+- _OBJC_IVAR_$_VSSpeechRequest._outputPath
+- _OBJC_IVAR_$_VSSpeechRequest._pauseHandler
+- _OBJC_IVAR_$_VSSpeechRequest._pitch
+- _OBJC_IVAR_$_VSSpeechRequest._pointer
+- _OBJC_IVAR_$_VSSpeechRequest._powerProfile
+- _OBJC_IVAR_$_VSSpeechRequest._rate
+- _OBJC_IVAR_$_VSSpeechRequest._requestCreatedTimestamp
+- _OBJC_IVAR_$_VSSpeechRequest._resourceListURL
+- _OBJC_IVAR_$_VSSpeechRequest._resourceSearchPathURL
+- _OBJC_IVAR_$_VSSpeechRequest._retryDeviceOnNetworkStall
+- _OBJC_IVAR_$_VSSpeechRequest._shouldCache
+- _OBJC_IVAR_$_VSSpeechRequest._shouldStreamAudioData
+- _OBJC_IVAR_$_VSSpeechRequest._shouldWaitCurrentSpeaking
+- _OBJC_IVAR_$_VSSpeechRequest._shouldWhisper
+- _OBJC_IVAR_$_VSSpeechRequest._siriRequestId
+- _OBJC_IVAR_$_VSSpeechRequest._stopHandler
+- _OBJC_IVAR_$_VSSpeechRequest._text
+- _OBJC_IVAR_$_VSSpeechRequest._utterance
+- _OBJC_IVAR_$_VSSpeechRequest._voiceName
+- _OBJC_IVAR_$_VSSpeechRequest._voiceType
+- _OBJC_IVAR_$_VSSpeechRequest._volume
+- _OBJC_IVAR_$_VSSpeechSynthesizer._callbackQueue
+- _OBJC_IVAR_$_VSSpeechSynthesizer._delegate
+- _OBJC_IVAR_$_VSSpeechSynthesizer._isPlayingPreview
+- _OBJC_IVAR_$_VSSpeechSynthesizer._proxySession
+- _OBJC_IVAR_$_VSSpeechSynthesizer._queue
+- _OBJC_IVAR_$_VSSpeechSynthesizer._stsRequestMapping
+- _OBJC_IVAR_$_VSSpeechWordTimingInfo._startTime
+- _OBJC_IVAR_$_VSSpeechWordTimingInfo._textRange
+- _OBJC_METACLASS_$_VSAudioData
+- _OBJC_METACLASS_$_VSDownloadOptions
+- _OBJC_METACLASS_$_VSInstrumentMetrics
+- _OBJC_METACLASS_$_VSOpusDecoder
+- _OBJC_METACLASS_$_VSOpusEncoder
+- _OBJC_METACLASS_$_VSPreferencesInterface
+- _OBJC_METACLASS_$_VSPresynthesizedAudioRequest
+- _OBJC_METACLASS_$_VSSpeechRequest
+- _OBJC_METACLASS_$_VSSpeechSynthesizer
+- _OBJC_METACLASS_$_VSSpeechWordTimingInfo
+- _TextToSpeechLibraryCore.frameworkLibrary
+- _VSAudioFormat16khzPCM
+- _VSAudioFormat48khzOpus
+- _VSAudioFormat48khzPCM
+- _VSDefaultPitch
+- _VSDefaultRate
+- _VSDefaultVolume
+- _VSLoggingStringForUtterance
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_VSSpeechService
+- __OBJC_$_CATEGORY_NSString_$_VSSpeechService
+- __OBJC_$_CLASS_METHODS_NSString(VSSpeechService|VS4CC)
+- __OBJC_$_CLASS_METHODS_VSAudioData
+- __OBJC_$_CLASS_METHODS_VSInstrumentMetrics(SiriTTSServiceBridge)
+- __OBJC_$_CLASS_METHODS_VSOpusDecoder
+- __OBJC_$_CLASS_METHODS_VSPreferencesInterface
+- __OBJC_$_CLASS_METHODS_VSPresynthesizedAudioRequest
+- __OBJC_$_CLASS_METHODS_VSSpeechRequest
+- __OBJC_$_CLASS_METHODS_VSSpeechSynthesizer
+- __OBJC_$_CLASS_METHODS_VSSpeechWordTimingInfo
+- __OBJC_$_CLASS_PROP_LIST_VSAudioData
+- __OBJC_$_CLASS_PROP_LIST_VSInstrumentMetrics
+- __OBJC_$_CLASS_PROP_LIST_VSPreferencesInterface
+- __OBJC_$_CLASS_PROP_LIST_VSPresynthesizedAudioRequest
+- __OBJC_$_CLASS_PROP_LIST_VSSpeechRequest
+- __OBJC_$_CLASS_PROP_LIST_VSSpeechWordTimingInfo
+- __OBJC_$_INSTANCE_METHODS_VSAudioData
+- __OBJC_$_INSTANCE_METHODS_VSDownloadOptions
+- __OBJC_$_INSTANCE_METHODS_VSInstrumentMetrics
+- __OBJC_$_INSTANCE_METHODS_VSOpusDecoder
+- __OBJC_$_INSTANCE_METHODS_VSOpusEncoder
+- __OBJC_$_INSTANCE_METHODS_VSPreferencesInterface
+- __OBJC_$_INSTANCE_METHODS_VSPresynthesizedAudioRequest
+- __OBJC_$_INSTANCE_METHODS_VSSpeechRequest
+- __OBJC_$_INSTANCE_METHODS_VSSpeechSynthesizer
+- __OBJC_$_INSTANCE_METHODS_VSSpeechWordTimingInfo
+- __OBJC_$_INSTANCE_VARIABLES_VSDownloadOptions
+- __OBJC_$_INSTANCE_VARIABLES_VSInstrumentMetrics
+- __OBJC_$_INSTANCE_VARIABLES_VSOpusDecoder
+- __OBJC_$_INSTANCE_VARIABLES_VSOpusEncoder
+- __OBJC_$_INSTANCE_VARIABLES_VSPreferencesInterface
+- __OBJC_$_INSTANCE_VARIABLES_VSPresynthesizedAudioRequest
+- __OBJC_$_INSTANCE_VARIABLES_VSSpeechRequest
+- __OBJC_$_INSTANCE_VARIABLES_VSSpeechSynthesizer
+- __OBJC_$_INSTANCE_VARIABLES_VSSpeechWordTimingInfo
+- __OBJC_$_PROP_LIST_VSDownloadOptions
+- __OBJC_$_PROP_LIST_VSInstrumentMetrics
+- __OBJC_$_PROP_LIST_VSOpusEncoder
+- __OBJC_$_PROP_LIST_VSPreferencesInterface
+- __OBJC_$_PROP_LIST_VSPresynthesizedAudioRequest
+- __OBJC_$_PROP_LIST_VSSpeechRequest
+- __OBJC_$_PROP_LIST_VSSpeechSynthesizer
+- __OBJC_$_PROP_LIST_VSSpeechWordTimingInfo
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_CLASS_PROTOCOLS_$_VSAudioData
+- __OBJC_CLASS_PROTOCOLS_$_VSInstrumentMetrics
+- __OBJC_CLASS_PROTOCOLS_$_VSPresynthesizedAudioRequest
+- __OBJC_CLASS_PROTOCOLS_$_VSSpeechRequest
+- __OBJC_CLASS_PROTOCOLS_$_VSSpeechWordTimingInfo
+- __OBJC_CLASS_RO_$_VSAudioData
+- __OBJC_CLASS_RO_$_VSDownloadOptions
+- __OBJC_CLASS_RO_$_VSInstrumentMetrics
+- __OBJC_CLASS_RO_$_VSOpusDecoder
+- __OBJC_CLASS_RO_$_VSOpusEncoder
+- __OBJC_CLASS_RO_$_VSPreferencesInterface
+- __OBJC_CLASS_RO_$_VSPresynthesizedAudioRequest
+- __OBJC_CLASS_RO_$_VSSpeechRequest
+- __OBJC_CLASS_RO_$_VSSpeechSynthesizer
+- __OBJC_CLASS_RO_$_VSSpeechWordTimingInfo
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_METACLASS_RO_$_VSAudioData
+- __OBJC_METACLASS_RO_$_VSDownloadOptions
+- __OBJC_METACLASS_RO_$_VSInstrumentMetrics
+- __OBJC_METACLASS_RO_$_VSOpusDecoder
+- __OBJC_METACLASS_RO_$_VSOpusEncoder
+- __OBJC_METACLASS_RO_$_VSPreferencesInterface
+- __OBJC_METACLASS_RO_$_VSPresynthesizedAudioRequest
+- __OBJC_METACLASS_RO_$_VSSpeechRequest
+- __OBJC_METACLASS_RO_$_VSSpeechSynthesizer
+- __OBJC_METACLASS_RO_$_VSSpeechWordTimingInfo
+- __OBJC_PROTOCOL_$_NSCopying
+- __ZN14NeuralTTSUtils16is_amx_availableEv
+- __ZN14NeuralTTSUtils16is_ane_availableEv
+- __ZN14NeuralTTSUtils17compile_ane_modelEPKc
+- __ZN14NeuralTTSUtils17has_ota_ane_modelEPKc
+- __ZN14NeuralTTSUtils20is_ane_only_platformEv
+- __ZN14NeuralTTSUtils21is_ane_model_compiledEPKc
+- __ZN14NeuralTTSUtils22is_neural_tts_platformEv
+- __ZN14NeuralTTSUtils27has_compact_neural_fallbackEPKc
+- __ZN14NeuralTTSUtils33check_thermal_critical_conditionsEv
+- ___105-[VSRecognitionSession speechSynthesizer:didFinishSpeakingRequest:successfully:phonemesSpoken:withError:]_block_invoke
+- ___24+[VSUtilities isHomePod]_block_invoke
+- ___29-[VSOpusEncoder encodeChunk:]_block_invoke
+- ___31+[VSOpusDecoder sharedInstance]_block_invoke
+- ___35-[VSInstrumentMetrics _clockFactor]_block_invoke
+- ___35-[VSSpeechSynthesizer setDelegate:]_block_invoke
+- ___36-[VSSpeechRequest contextInfoString]_block_invoke
+- ___37+[VSSpeechSynthesizer sharedInstance]_block_invoke
+- ___37-[VSSpeechSynthesizer STS_isSpeaking]_block_invoke
+- ___37-[VSSpeechSynthesizer STS_isSpeaking]_block_invoke_2
+- ___38-[VSOpusDecoder decodeChunk:outError:]_block_invoke
+- ___41+[VSPreferencesInterface defaultInstance]_block_invoke
+- ___42-[VSSpeechSynthesizer STS_prewarmRequest:]_block_invoke
+- ___43+[VSInstrumentMetrics descriptionFormatter]_block_invoke
+- ___47+[NSString(VSSpeechService) vs_isCJKCharacter:]_block_invoke
+- ___48-[VSSpeechSynthesizer STS_startSpeakingRequest:]_block_invoke
+- ___48-[VSSpeechSynthesizer STS_startSpeakingRequest:]_block_invoke_2
+- ___48-[VSSpeechSynthesizer STS_startSpeakingRequest:]_block_invoke_3
+- ___48-[VSSpeechSynthesizer STS_startSpeakingRequest:]_block_invoke_4
+- ___49-[VSVoiceAsset initWithDictionaryRepresentation:]_block_invoke
+- ___52-[VSSpeechSynthesizer STS_startSynthesizingRequest:]_block_invoke
+- ___52-[VSSpeechSynthesizer STS_startSynthesizingRequest:]_block_invoke_2
+- ___53-[VSSpeechSynthesizer STS_startSpeakingAudioRequest:]_block_invoke
+- ___54-[VSSpeechSynthesizer availableVoicesForLanguageCode:]_block_invoke
+- ___57+[VSMobileAssetsManager pickCorrectAssetFromLocalAssets:]_block_invoke.567
+- ___58-[VSSpeechSynthesizer STS_downloadedVoicesMatching:reply:]_block_invoke
+- ___TextToSpeechLibraryCore_block_invoke
+- ___block_descriptor_32_e17_v16?0"NSError"8l
+- ___block_descriptor_32_e25_B24?08"NSDictionary"16l
+- ___block_descriptor_40_e5_v8?0l
+- ___block_descriptor_40_e8_32bs_e17_v16?0"NSArray"8ls32l8
+- ___block_descriptor_40_e8_32r_e5_v8?0lr32l8
+- ___block_descriptor_40_e8_32r_e8_v12?0B8lr32l8
+- ___block_descriptor_48_e8_32s40r_e15_v32?0816^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e5_v8?0ls32l8r40l8
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSArray"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSError"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e29_v24?0"NSArray"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e39_v16?0"SiriTTSInstrumentationMetrics"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_56_e8_32o40o48o_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_60_e8_32s40s48r_e27_"AVAudioBuffer"20?0I8^q12lr48l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40r48r_e86_i32?0^I8^{AudioBufferList=I[1{AudioBuffer=II^v}]}16^^{AudioStreamPacketDescription}24lr40l8s32l8r48l8
+- ___block_literal_global.123
+- ___block_literal_global.1380
+- ___block_literal_global.193
+- ___block_literal_global.1964
+- ___block_literal_global.2008
+- ___block_literal_global.2198
+- ___block_literal_global.233
+- ___block_literal_global.36
+- ___block_literal_global.37
+- ___block_literal_global.376
+- ___block_literal_global.505
+- ___block_literal_global.524
+- ___block_literal_global.526
+- ___block_literal_global.563
+- ___block_literal_global.564
+- ___block_literal_global.565
+- ___block_literal_global.570
+- ___block_literal_global.582
+- ___block_literal_global.6
+- ___block_literal_global.84
+- ___block_literal_global.940
+- ___getTTSSpeechTransformTextWithLanguageSymbolLoc_block_invoke
+- ___kCFBooleanTrue
+- __clockFactor.clockToSeconds
+- __clockFactor.onceToken
+- __os_log_fault_impl
+- __sl_dlopen
+- _audit_stringTextToSpeech
+- _defaultInstance.defaultInstance
+- _defaultInstance.onceToken
+- _descriptionFormatter.formatter
+- _descriptionFormatter.onceToken
+- _dispatch_set_target_queue
+- _dispatch_sync
+- _dlerror
+- _dlsym
+- _getTTSSpeechTransformTextWithLanguageSymbolLoc.ptr
+- _isHomePod.__isHomePod
+- _isHomePod.onceToken
+- _kVSSpeechTextClassAttribute
+- _memcpy
+- _objc_msgSend$STS_downloadedVoicesMatching:reply:
+- _objc_msgSend$STS_estimateDurationOfRequest:
+- _objc_msgSend$STS_forwardStreamObject:
+- _objc_msgSend$STS_isSpeaking
+- _objc_msgSend$STS_prewarmRequest:
+- _objc_msgSend$STS_startSpeakingAudioRequest:
+- _objc_msgSend$STS_startSpeakingRequest:
+- _objc_msgSend$STS_startSynthesizingRequest:
+- _objc_msgSend$_clockFactor
+- _objc_msgSend$_opusDecoder:
+- _objc_msgSend$_setDelegate:
+- _objc_msgSend$_vs_countPhoneticSyllables_lhp:
+- _objc_msgSend$_vs_countPhoneticSyllables_xsampa:
+- _objc_msgSend$accessoryID
+- _objc_msgSend$addCharactersInRange:
+- _objc_msgSend$allocWithZone:
+- _objc_msgSend$appendBytes:length:
+- _objc_msgSend$appendData:
+- _objc_msgSend$appendFormat:
+- _objc_msgSend$appendString:
+- _objc_msgSend$audioBufferList
+- _objc_msgSend$audioData
+- _objc_msgSend$audioDuration
+- _objc_msgSend$audioOutputRoute
+- _objc_msgSend$audioQueueLatency
+- _objc_msgSend$audioSessionID
+- _objc_msgSend$audioStartLatency
+- _objc_msgSend$beginChunkDecoderForStreamDescription:
+- _objc_msgSend$bytes
+- _objc_msgSend$canLogRequestText
+- _objc_msgSend$canUseServerTTS
+- _objc_msgSend$cappedRealTimeFactor
+- _objc_msgSend$clientBundleIdentifier
+- _objc_msgSend$containsString:
+- _objc_msgSend$contextInfo
+- _objc_msgSend$contextInfoString
+- _objc_msgSend$convertToBuffer:error:withInputFromBlock:
+- _objc_msgSend$copy
+- _objc_msgSend$copyWithZone:
+- _objc_msgSend$customResourceURLs
+- _objc_msgSend$data
+- _objc_msgSend$dataWithBytes:length:
+- _objc_msgSend$decimalDigitCharacterSet
+- _objc_msgSend$decodeChunk:outError:
+- _objc_msgSend$decodeDoubleForKey:
+- _objc_msgSend$decodeInt32ForKey:
+- _objc_msgSend$decodeInt64ForKey:
+- _objc_msgSend$decodeValueOfObjCType:at:size:
+- _objc_msgSend$decoderStreamDescription
+- _objc_msgSend$delegate
+- _objc_msgSend$descriptionFormatter
+- _objc_msgSend$dictionary
+- _objc_msgSend$dictionaryForKey:
+- _objc_msgSend$dictionaryMetrics
+- _objc_msgSend$disableCompactVoiceFallback
+- _objc_msgSend$disableDeviceRacing
+- _objc_msgSend$downloadedVoicesMatching:reply:
+- _objc_msgSend$eagerRequestGapInterval
+- _objc_msgSend$eagerRequestTimeGap
+- _objc_msgSend$encodeChunk:
+- _objc_msgSend$encodeDouble:forKey:
+- _objc_msgSend$encodeInt32:forKey:
+- _objc_msgSend$encodeInt64:forKey:
+- _objc_msgSend$encodeValueOfObjCType:at:
+- _objc_msgSend$endChunkDecoding
+- _objc_msgSend$enqueue
+- _objc_msgSend$enumerateKeysAndObjectsUsingBlock:
+- _objc_msgSend$errorCode
+- _objc_msgSend$experimentIdentifier
+- _objc_msgSend$forceServerTTS
+- _objc_msgSend$forwardWithStreamObject:
+- _objc_msgSend$handleFailureInFunction:file:lineNumber:description:
+- _objc_msgSend$hasAMX
+- _objc_msgSend$hasANE
+- _objc_msgSend$hasPrefix:
+- _objc_msgSend$hash
+- _objc_msgSend$identifier
+- _objc_msgSend$initFromFormat:toFormat:
+- _objc_msgSend$initWithAudio:
+- _objc_msgSend$initWithAudioData:decoderStreamDescription:playerStreamDescription:
+- _objc_msgSend$initWithClient:accessory:voice:
+- _objc_msgSend$initWithFormat:packetCapacity:maximumPacketSize:
+- _objc_msgSend$initWithLength:
+- _objc_msgSend$initWithPCMFormat:frameCapacity:
+- _objc_msgSend$initWithStreamDescription:
+- _objc_msgSend$initWithText:identifier:
+- _objc_msgSend$isEqualToArray:
+- _objc_msgSend$isEqualToDictionary:
+- _objc_msgSend$isServerTTSRacing
+- _objc_msgSend$isSpeaking:
+- _objc_msgSend$isSynthesisCached
+- _objc_msgSend$isWarmStart
+- _objc_msgSend$keepActive
+- _objc_msgSend$language
+- _objc_msgSend$languageCode
+- _objc_msgSend$listAssetsOfTypes:matching:
+- _objc_msgSend$logSensitiveText
+- _objc_msgSend$logText
+- _objc_msgSend$matchesInString:options:range:
+- _objc_msgSend$maximumOutputPacketSize
+- _objc_msgSend$mobileAsset
+- _objc_msgSend$mutableAudioBufferList
+- _objc_msgSend$mutableBytes
+- _objc_msgSend$neuralAlignmentStall
+- _objc_msgSend$neuralAudioClick
+- _objc_msgSend$neuralFallback
+- _objc_msgSend$numberOfRanges
+- _objc_msgSend$numberWithDouble:
+- _objc_msgSend$numberWithInt:
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$numberWithUnsignedLongLong:
+- _objc_msgSend$outputPath
+- _objc_msgSend$packetCount
+- _objc_msgSend$packetDescriptions
+- _objc_msgSend$pitch
+- _objc_msgSend$powerProfile
+- _objc_msgSend$prewarmWithRequest:didFinish:
+- _objc_msgSend$privacySensitive
+- _objc_msgSend$promptCount
+- _objc_msgSend$punctuationCharacterSet
+- _objc_msgSend$rangeAtIndex:
+- _objc_msgSend$rangeValue
+- _objc_msgSend$rate
+- _objc_msgSend$realTimeFactor
+- _objc_msgSend$regularExpressionWithPattern:options:error:
+- _objc_msgSend$requestCreatedTime
+- _objc_msgSend$requestCreatedTimestamp
+- _objc_msgSend$resourceListURL
+- _objc_msgSend$resourceSearchPathURL
+- _objc_msgSend$roughEstimationWithRequest:
+- _objc_msgSend$serverFirstPacketTime
+- _objc_msgSend$serverLastPacketTime
+- _objc_msgSend$serverStreamFirstPacketLatency
+- _objc_msgSend$serverStreamLastPacketLatency
+- _objc_msgSend$serverStreamedAudioDuration
+- _objc_msgSend$setAccessoryID:
+- _objc_msgSend$setAsbd:
+- _objc_msgSend$setAudioData:
+- _objc_msgSend$setAudioDuration:
+- _objc_msgSend$setAudioOutputRoute:
+- _objc_msgSend$setAudioSessionID:
+- _objc_msgSend$setAudioSessionId:
+- _objc_msgSend$setAudioStartTimestampDiffs:
+- _objc_msgSend$setCanUseServerTTS:
+- _objc_msgSend$setClientBundleIdentifier:
+- _objc_msgSend$setContextInfo:
+- _objc_msgSend$setCustomResourceURLs:
+- _objc_msgSend$setDidGenerateWordTimings:
+- _objc_msgSend$setDidReportInstrument:
+- _objc_msgSend$setDidStartSpeaking:
+- _objc_msgSend$setDisableCompactVoice:
+- _objc_msgSend$setDisableCompactVoiceFallback:
+- _objc_msgSend$setDisableDeviceRacing:
+- _objc_msgSend$setEagerRequestCreatedTimestampDiffs:
+- _objc_msgSend$setErrorCode:
+- _objc_msgSend$setExperimentIdentifier:
+- _objc_msgSend$setForceServerTTS:
+- _objc_msgSend$setFrameLength:
+- _objc_msgSend$setImmediate:
+- _objc_msgSend$setIsCacheHitFromDisk:
+- _objc_msgSend$setIsServerStreamTTS:
+- _objc_msgSend$setIsServerTTS:
+- _objc_msgSend$setIsServerTTSRacing:
+- _objc_msgSend$setIsServerTimeout:
+- _objc_msgSend$setIsSpeechRequest:
+- _objc_msgSend$setIsWarmStart:
+- _objc_msgSend$setKeepActive:
+- _objc_msgSend$setLanguageCode:
+- _objc_msgSend$setMaximumFractionDigits:
+- _objc_msgSend$setMinimumFractionDigits:
+- _objc_msgSend$setNeuralAlignmentStall:
+- _objc_msgSend$setNeuralAudioClick:
+- _objc_msgSend$setNeuralFallback:
+- _objc_msgSend$setObject:forKeyedSubscript:
+- _objc_msgSend$setOutputPath:
+- _objc_msgSend$setPitch:
+- _objc_msgSend$setPowerProfile:
+- _objc_msgSend$setPrivacySensitive:
+- _objc_msgSend$setPromptCount:
+- _objc_msgSend$setRate:
+- _objc_msgSend$setRequestCreatedTimestamp:
+- _objc_msgSend$setResourceListURL:
+- _objc_msgSend$setResourceSearchPathURL:
+- _objc_msgSend$setServerFirstPacketTimestamp:
+- _objc_msgSend$setServerLastPacketTimestamp:
+- _objc_msgSend$setServerStreamedAudioDuration:
+- _objc_msgSend$setShouldCache:
+- _objc_msgSend$setShouldWaitCurrentSpeaking:
+- _objc_msgSend$setShouldWhisper:
+- _objc_msgSend$setSiriRequestId:
+- _objc_msgSend$setSourceOfTTS:
+- _objc_msgSend$setSpeechBeginTimestamp:
+- _objc_msgSend$setSpeechEndTimestamp:
+- _objc_msgSend$setStartTime:
+- _objc_msgSend$setSynthesisBeginTimestamp:
+- _objc_msgSend$setSynthesisEndTimestamp:
+- _objc_msgSend$setSynthesisProfile:
+- _objc_msgSend$setText:
+- _objc_msgSend$setTextRange:
+- _objc_msgSend$setUtterance:
+- _objc_msgSend$setVoiceAssetKey:
+- _objc_msgSend$setVoiceName:
+- _objc_msgSend$setVoiceResourceAssetKey:
+- _objc_msgSend$setVoiceType:
+- _objc_msgSend$setVolume:
+- _objc_msgSend$shouldCache
+- _objc_msgSend$shouldWaitCurrentSpeaking
+- _objc_msgSend$shouldWhisper
+- _objc_msgSend$signalWithInlineStreaming:
+- _objc_msgSend$siriRequestId
+- _objc_msgSend$sourceOfTTS
+- _objc_msgSend$speakWithAudioRequest:didFinish:
+- _objc_msgSend$speechBeginTime
+- _objc_msgSend$speechEndTime
+- _objc_msgSend$speechSynthesizer:didFinishSpeakingRequest:successfully:phonemesSpoken:withError:
+- _objc_msgSend$speechSynthesizer:didFinishSpeakingRequest:withInstrumentMetrics:
+- _objc_msgSend$speechSynthesizer:didStartSpeakingRequest:
+- _objc_msgSend$speechSynthesizer:withRequest:didReceiveTimingInfo:
+- _objc_msgSend$startSpeakingRequest:
+- _objc_msgSend$startTime
+- _objc_msgSend$stopSpeakingAtNextBoundary:synchronously:error:
+- _objc_msgSend$streamDescription
+- _objc_msgSend$stringByReplacingMatchesInString:options:range:withTemplate:
+- _objc_msgSend$stringFromNumber:
+- _objc_msgSend$stringValue
+- _objc_msgSend$stringWithString:
+- _objc_msgSend$stringWithUTF8String:
+- _objc_msgSend$stsRequestMapping
+- _objc_msgSend$substringWithRange:
+- _objc_msgSend$supportedLanguages
+- _objc_msgSend$synthesisBeginTime
+- _objc_msgSend$synthesisEndTime
+- _objc_msgSend$synthesizeWithRequest:didFinish:
+- _objc_msgSend$text
+- _objc_msgSend$textRange
+- _objc_msgSend$timeToPlaybackLatency
+- _objc_msgSend$timeToSpeakLatency
+- _objc_msgSend$ttsSynthesisLatency
+- _objc_msgSend$utterance
+- _objc_msgSend$versionNumber
+- _objc_msgSend$voiceAssetKey
+- _objc_msgSend$voiceName
+- _objc_msgSend$voiceResourceAssetKey
+- _objc_msgSend$voiceResources
+- _objc_msgSend$voiceType
+- _objc_msgSend$volume
+- _objc_msgSend$vs_countPhoneticSyllables
+- _objc_msgSend$vs_isCJKCharacter:
+- _objc_msgSend$vs_measurePauses
+- _objc_msgSend$vs_metricsFromSTSMetrics:
+- _objc_msgSend$vs_removePhonetics
+- _objc_msgSend$vs_removeSpeechTags
+- _objc_msgSend$vs_stringFrom4CC:
+- _objc_msgSend$vs_textifyEmojiWithLanguage:
+- _objc_msgSend$whitespaceCharacterSet
+- _objc_opt_new
+- _objc_setProperty_atomic_copy
+- _objc_storeWeak
+- _sharedInstance.__sharedInstance
+- _sharedInstance.onceToken
+- _sharedInstance.onceToken.1963
+- _sharedInstance.sSharedInstance
+- _vs_isCJKCharacter:.__CJKCharacterSet
+- _vs_isCJKCharacter:.onceToken
+CStrings:
+- ""
+- "\x1b"
+- "\x1b\\\\\\w+=.+?\\\\"
+- "\x1b\\\\pause=['\"]?([0-9]+)['\"]?\\\\"
+- "\x1b\\\\toi=\\w+\\\\.*"
+- "\x1b\\\\toi=\\w+\\\\.*?\x1b\\\\toi=orth\\\\"
+- "\x1b\\\\toi=lhp\\\\([^\x1b]*)"
+- "\x1b\\mrk=%@=%@\\"
+- "  \"%@\": \"%@\",\n"
+- "  \"%@\": %@,\n"
+- "!"
+- "\"(?:[^\"\\\\]|\\\\.)*\""
+- "%@%@: %@"
+- "%@%@kHz"
+- "%s"
+- "&"
+- "'(?:[^'\\\\]|\\\\.)*'"
+- "(?:%@|%@)"
+- "; "
+- "</?.*?>"
+- "<VSSpeechWordTimingInfo>{startTime = %.3f; textRange = %@}"
+- "<break time=['\"]([0-9]+)ms['\"]\\s*/>"
+- "<phoneme.*?/>"
+- "<phoneme\\s+(%@)\\s+(%@)\\s*/>"
+- "<private>"
+- "@\"AVAudioBuffer\"20@?0I8^q12"
+- "AVAudioConverter.maximumOutputPacketSize is 0."
+- "B24@?0@8@\"NSDictionary\"16"
+- "ContentVersion"
+- "Could not create Opus decoder: %{public}@"
+- "Could not finish decoding, res %@"
+- "DeviceClassNumber"
+- "Failed check_thermal_critical_conditions: %s\n"
+- "Failed compile_ane_model %@ with error: %s\n"
+- "Failed has_compact_neural_fallback %@ with error: %s\n"
+- "Failed has_ota_ane_model %@ with error: %s\n"
+- "Failed is_ane_model_compiled %@ with error: %s\n"
+- "Failed to create opus decoder"
+- "Invalid target asbd: %@"
+- "MasteredVersion"
+- "NSString *soft_TTSSpeechTransformTextWithLanguage(NSString *__strong, TTSSpeechTransformOptions, NSString * _Nullable __strong, NSMutableArray * _Nullable __strong)"
+- "NSString+VSSpeechService.m"
+- "Only expecting to get 1 packet at a time, not %lu"
+- "Opus"
+- "PCM"
+- "PCM%@KHz"
+- "Request has been used before. Please make a new copy of it."
+- "Request is nil."
+- "TTSSpeechTransformTextWithLanguage"
+- "VSSpeechServiceDecoderErrorDomain"
+- "VSSpeechSynthesizer"
+- "VSSpeechSynthesizerCallbackThread"
+- "\\e"
+- "\\w+=%@"
+- "_audioData"
+- "_audioDuration"
+- "_audioOutputRoute"
+- "_audioSessionID"
+- "_audioStartTimestampDiffs"
+- "_canUseServerTTS"
+- "_clientBundleIdentifier"
+- "_contextInfo"
+- "_customResourceURLs"
+- "_disableCompactVoiceFallback"
+- "_disableDeviceRacing"
+- "_enqueue"
+- "_errorCode"
+- "_experimentIdentifier"
+- "_forceServerTTS"
+- "_identifier"
+- "_isCacheHitFromDisk"
+- "_isCacheHitFromMemory"
+- "_isServerStreamTTS"
+- "_isServerTTS"
+- "_isServerTTSRacing"
+- "_isServerTimeout"
+- "_isSpeechRequest"
+- "_isWarmStart"
+- "_languageCode"
+- "_neuralAlignmentStall"
+- "_neuralAudioClick"
+- "_neuralFallback"
+- "_outputPath"
+- "_pitch"
+- "_pointer"
+- "_powerProfile"
+- "_promptCount"
+- "_rate"
+- "_requestCreatedTimestamp"
+- "_resourceListURL"
+- "_resourceSearchPathURL"
+- "_retryDeviceOnNetworkStall"
+- "_serverFirstPacketTimestamp"
+- "_serverStreamedAudioDuration"
+- "_shouldCache"
+- "_shouldStreamAudioData"
+- "_shouldWaitCurrentSpeaking"
+- "_shouldWhisper"
+- "_siriRequestId"
+- "_sourceOfTTS"
+- "_speechBeginTimestamp"
+- "_speechEndTimestamp"
+- "_startTime"
+- "_synthesisBeginTimestamp"
+- "_synthesisEndTimestamp"
+- "_text"
+- "_textRange"
+- "_utterance"
+- "_voiceAssetKey"
+- "_voiceName"
+- "_voiceResourceAssetKey"
+- "_voiceType"
+- "_volume"
+- "ace_inline_streaming"
+- "ace_round_trip"
+- "alphabet="
+- "audio_duration"
+- "audio_output_route"
+- "audio_queue_latency"
+- "audio_request"
+- "can_use_server_tts"
+- "character_count"
+- "client_bundle_identifier"
+- "com.apple.voiceservices.class"
+- "converter.maximumOutputPacketSize is 0. Falling back to maximumPacketSize 1024. Converter is %@"
+- "decoder gave us %d bytes bytes but we really only expected %d"
+- "device"
+- "device_cached_synthesis"
+- "error_code"
+- "experiment_identifier"
+- "i"
+- "i32@?0^I8^{AudioBufferList=I[1{AudioBuffer=II^v}]}16^^{AudioStreamPacketDescription}24"
+- "inline_tts"
+- "is_server_stream_tts"
+- "is_server_timeout"
+- "is_server_tts"
+- "is_server_tts_racing"
+- "is_speech_request"
+- "is_synthesis_cached"
+- "is_warm_start"
+- "language is not set."
+- "lhp"
+- "neural_alignment_stall"
+- "neural_audio_click"
+- "neural_fallback"
+- "osprey_round_trip"
+- "osprey_streaming"
+- "ph="
+- "prompt_count"
+- "real_time_factor"
+- "server_first_packet_latency"
+- "server_last_packet_latency"
+- "server_streamed_audio_duration"
+- "sessionId %u, clientId %@, %@ bytes, input format %@, output format %@, requestCreatedTime %@, text '%@', identifier: %@, accessoryID:%@"
+- "softlink:r:path:/System/Library/PrivateFrameworks/TextToSpeech.framework/TextToSpeech"
+- "source_of_tts"
+- "startTime: %llu, language:%@, name:%@, gender:%@, type:%@, footprint:%@, rate:%.2f, pitch:%.2f, volume:%.2f, shouldWhisper:%d, canUseServerTTS:%d, disableCompactFallback:%d, disableDeviceRacing:%d, shouldWaitCurrentSpeaking:%d, shouldCache:%d, contextInfo:%@, customResourceURLs:%@, session:%d, accessoryID:%@, text:'%@'"
+- "subscribedAssets"
+- "synthesis_to_speech_time_gap"
+- "tts_and_playback_total_latency"
+- "tts_synthesis_latency"
+- "tts_total_latency"
+- "v12@?0B8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"SiriTTSInstrumentationMetrics\"8"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v32@?0@8@16^B24"
+- "voice_asset_key"
+- "voice_resource_asset_key"
+- "void *TextToSpeechLibrary(void)"
+- "{"
+- "{\n"
+- "{AudioStreamBasicDescription=dIIIIIIII}"
+- "}"
+
+```

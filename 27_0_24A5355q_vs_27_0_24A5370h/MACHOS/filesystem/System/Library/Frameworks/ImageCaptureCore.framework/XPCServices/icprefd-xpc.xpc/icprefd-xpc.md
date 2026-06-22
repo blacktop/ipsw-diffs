@@ -1,0 +1,59 @@
+## icprefd-xpc
+
+> `/System/Library/Frameworks/ImageCaptureCore.framework/XPCServices/icprefd-xpc.xpc/icprefd-xpc`
+
+```diff
+
+-2112.0.0.0.0
+-  __TEXT.__text: 0x2ab0 sha256:db245e5d92e0b09fefd81d566cec1444b6f565b151ef059ce8c496cfe3d760cd
++2113.0.0.0.0
++  __TEXT.__text: 0x2aac sha256:412f058564818d8a3afbd3b39f21be2df19ae4e0b3d9028be8ca837c743f585d
+   __TEXT.__auth_stubs: 0x270 sha256:4e3c83b62145e5d13ca383f7457379490c38c2574d9d666ab7cb132037b73f4a
+   __TEXT.__objc_stubs: 0x760 sha256:b6abb9d889f344ca203c49dab4423ce8fb5fb288ec7f11e7a545f9aac5e1b2fc
+-  __TEXT.__objc_methlist: 0x11c sha256:9635f5d4734d298092954ef0c9d2cb2776c10e4c229c41bb782c7cc996744917
++  __TEXT.__objc_methlist: 0x11c sha256:e3f53b51f6b3f3bdf0bd31d0f373a73d01bce75f79ae478c98bbb0dedd274d3d
+   __TEXT.__const: 0x18 sha256:4e1292bb04fbd5d16e2a3237ef3d1e192c755e2878c445778b3f1d775759fbcc
+   __TEXT.__gcc_except_tab: 0x34 sha256:e9639d56daeea9b3ddffae6118220634965db48ca8f25d4ed1497a6cd27460a2
+   __TEXT.__cstring: 0x7ef sha256:b61a45169c1a98375100a487eda8f5d9c9642dd69f0d88dc35f3a052e3f54f02
+
+   __TEXT.__objc_classname: 0x2a sha256:393e45b1a9a539d9f59962aed83a0ac8a82cacf1780d7f09b89f761274cb7a2a
+   __TEXT.__objc_methtype: 0x115 sha256:eb9ebab2c5c8992cc1d478955eb395ac18c1c90e5776e21d90903a0f685e767e
+   __TEXT.__ustring: 0xe sha256:e848469c39bcfa117c2a1033e80747938c88558271075f5d8e0468686379f1e2
+-  __TEXT.__unwind_info: 0xb8 sha256:5a80a688ca19affc3e01e0cc52f2b5442c21cf0df5965efd11ec4ceaa3231c41
+-  __DATA_CONST.__const: 0xa8 sha256:f613a0aa7d3602abd11dc52bc1e3e8dc008fd9cbdda566c5abd8318e8aa5f5d8
++  __TEXT.__unwind_info: 0xb8 sha256:cb92b3e329a05951cd6980c63435caf77a6723ab16e9e06524571c6f4cfe4e3c
++  __DATA_CONST.__const: 0xa8 sha256:1443dd6f5a55aeb10154e262aefb4641e00a93f2f74d7e4aea860dec7f547f07
+   __DATA_CONST.__cfstring: 0x740 sha256:dd0a51398df12ea557fda7fae1f4f603fca8cb56e4b992eccea11bf43b71f049
+   __DATA_CONST.__objc_classlist: 0x8 sha256:7380b5583a3c3559c490da473ed58b1ebb2a4122e6203a647f59a02f7d6f7e34
+   __DATA_CONST.__objc_protolist: 0x8 sha256:babf18e650d576ff851c9079d60d8ac621ce2980fd86f3636011a5222a89aea0
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 749C8726-7A1A-3454-84F9-810336660273
++  UUID: DF8036D9-0CF6-3989-97EB-4AF4FF5373B5
+   Functions: 25
+   Symbols:   186
+   CStrings:  211
+Functions:
+~ _ICRemotePrefManagerEvaluatePrivateEntitlement : sha256 4cf7b75047ca05c551e0775700550cc3f3faaa8f126b72f0c1ff6d06ef566c6c -> 82a50d464ecfae935e8522acb44b84db2ba9e3165c3c32cde67684c03b499f57
+~ -[ICRemotePrefManager init] : sha256 25a07fcb3bd05c24d6213fd89782f38bf7e4849190cfce7db8507ce2e52f08ce -> d620c26e57deab1cd9c78df4d6d61c4110dd9231c29f915504e73232a31e2b76
+~ -[ICRemotePrefManager dealloc] : sha256 5bc81a2acae2e6cbbea9d06e661d77b406863d813ff652a5ed6efcd1f1de7bc7 -> a4f1270b3374996f5f7bc149d726c097d86f38edee8874dc4bae9c4da4632046
+~ -[ICRemotePrefManager addRemoteManagerConnection:] : sha256 328975cefa1a40a41ceabf857b994963a726d8c51e79d1a1d34b4febe23b2994 -> ae5139a353e73d9f8642e81ad74f95e7bd16cbb48087ddea3a459441ea6ebb4f
+~ ___Block_byref_object_copy_ : sha256 d29863b9d7bfbb21d9b25ece85eaf1e26494c23d1be3054c851744d29fdf56e4 -> 3ef7fdee4abfa43b8e97492d3a2ef62e474f05f3b240a2b299f9b79786f7a0e8
+~ ___Block_byref_object_dispose_ : sha256 36b47c48304b28b9793c876eb16a2e61f5daa8cea2b0364f0ed5f90b7d2cb097 -> 117a65e4cb383b81a6e4faf16b9d0fa7d45d5220d07b94582600545bdf54afcd
+~ -[ICRemotePrefManager removeRemoteManagerConnectionWithProcessIdentifier:] : 628 -> 624
+~ -[ICRemotePrefManager addSelectorToInterface:selectorString:origin:] : sha256 c5387e61120a5dc00674ff44dc65e32789c422cb48097fc0f998c647bb551cde -> f340787838949686a045b540d5625fc89502e4798e15fa99652cebc85f61196b
+~ ___68-[ICRemotePrefManager addSelectorToInterface:selectorString:origin:]_block_invoke : sha256 cfa8bf0487e5bcec1e796d7929cddac8220609ecf80e8b312ae17b8005a5dc04 -> fe88c0e141574e3b17b560047b980e4236d6b4bad283b411b086563567d84351
+~ -[ICRemotePrefManager listener:shouldAcceptNewConnection:] : sha256 32b5d2e0ef4bdf5f57e4a8ad4d25d6a3657707a7a02ef0f8e3d577c1ba5c4711 -> 61943b9c062985fbceb0099823ec6505ce90280a05370341b2a7f971b81a501b
+~ -[ICRemotePrefManager checkFilesAndFoldersAccess:shouldPrompt:] : sha256 c175550748fd5f67309b8a85a023af316e2b0f8d51d61548eed8167018e875d0 -> e76385ee0103a0308850b5bb2a04f29dfeec18be986ef0060dab2c363380890d
+~ -[ICRemotePrefManager requestContentsAuthorizationStatusShouldPrompt:withReply:] : sha256 6166b51d6a9c0d6d1fff2aafa2b34294701f6c4fcf998556cdcf94e25165c122 -> 3d0268aa8840a81be47771e19d8c9627323bba5316a694af9e167c78704ebceb
+~ -[ICRemotePrefManager checkTetheringAccess:shouldPrompt:] : sha256 41f3022fa22dcfa0d59e95be3bf8ab826868abbf0e0d1d1c93ed93e6e8546b11 -> 383ff58d45635ea29c352bdbbdb9d1ada7fef3c976f3ee73bbf7c7fc55179caf
+~ -[ICRemotePrefManager requestControlAuthorizationStatusShouldPrompt:withReply:] : sha256 e1b3e25c8aaa729ac1e2b8d9e8b99382dc5f0ac8d0f749101c44b6b4f6c368c3 -> 64c7b57216acf3760ad1f3de222f03315780aa8c3a58be91200f089f8ffc87b3
+~ ___79-[ICRemotePrefManager requestControlAuthorizationStatusShouldPrompt:withReply:]_block_invoke : sha256 f2eeef9b088f6f75f8283bf09f25c01b55e2b1e0079a4a49efd42ac5da0cf25a -> b9e6cc6b7c66c40f1445777c7445212cc7ebf24e8360ce19782fbf9b05b830e3
+~ -[ICRemotePrefManager requestGoodNewsStatusWithReply:] : sha256 d938d61fedf0b6ac1316bf7bb42eeec672167c702a8369e9ad62a5c1b04bc75d -> d2e804509b46839325a8c7fdb83bbf29ee044f9cc28b7c7933781c1a98a76a4a
+~ -[ICRemotePrefManager resetContentsAuthorizationStatusWithReply:] : sha256 2e269f3f695c52780fd7adc8c1adb52977c8416059587b8f873f57d2e367fb19 -> 7011a5cdd3728276752d98268cc00789d0c342440fee101e6e23a4d3d45e9d48
+~ -[ICRemotePrefManager resetControlAuthorizationStatusWithReply:] : sha256 df2966b41d7e145a47e8581370344bb743af91b812291a417f97f8f25f7463c9 -> 788b775a134fcf23e131fc967d3bdac969baa0543ebc0b04f954b83675edbcc3
+~ _main : sha256 7cb73768b7253a463e884aeb9b6305b3270a704f6b6c42264c8319aacdbfa47d -> 0dcee307619ef5dd059f14dc85a0859962ed4a9435cc2620c1e005df933bd59d
+
+```

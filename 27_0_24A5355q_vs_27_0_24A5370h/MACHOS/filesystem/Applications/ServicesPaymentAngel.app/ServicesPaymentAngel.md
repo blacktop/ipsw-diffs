@@ -1,0 +1,459 @@
+## ServicesPaymentAngel
+
+> `/Applications/ServicesPaymentAngel.app/ServicesPaymentAngel`
+
+```diff
+
+-1.0.14.0.0
+-  __TEXT.__text: 0x22f6c sha256:adca50dded1cb2978e7321262bea13aa472167562b3c22549690440225602a17
+-  __TEXT.__auth_stubs: 0x1140 sha256:491c547cd4bb757a1cb1f400f3481aff4b9fd1848e5a989a679c03e402d56e0c
+-  __TEXT.__objc_stubs: 0x1320 sha256:f0a99bedf3b145e9635bfcc99fdda0846e492fa6d5ae5b723e8a2c1f9319505b
+-  __TEXT.__objc_methlist: 0xa7c sha256:29699adc64a7825395fb25d9eddccaf4d6b4aab35f2f1a8d419f235d46554d77
+-  __TEXT.__const: 0x1204 sha256:b9f508a0ce3edecf1fb745124d81e79ca7f3eedc425fb49b5d64d8580eb27536
+-  __TEXT.__swift5_typeref: 0x9d4 sha256:e35919606a5659ee60e24ebb3b5954a2e885cc1c2e482da43a6a649b6495d512
+-  __TEXT.__swift5_fieldmd: 0x700 sha256:f18cd3655f38190b331ae65d0297294a21bd1af64149a7650f55f68bfbf6ecdf
+-  __TEXT.__constg_swiftt: 0xee8 sha256:358120516d709b50b7023529e63344353ff4918ee609a37cf7db17c47531222f
+-  __TEXT.__swift5_builtin: 0x3c sha256:432969608357d7613dd9a01312b3b2a774d03985d519512630419ac5254e3e46
+-  __TEXT.__swift5_reflstr: 0x7f4 sha256:ae330bbee5c779e7dcf88883bade1b94115d8bef000d8c5dbb5995ee8bb09f4e
+-  __TEXT.__swift5_assocty: 0x90 sha256:7b3019a60cb4d637c19da7d92a62be58cb33e85af8ced913d2cad613b1a47826
+-  __TEXT.__swift5_proto: 0x54 sha256:9aa74cf28b5f2ca76581953d21aea033ab49cf76c06f50eed2419196ecc58a7e
+-  __TEXT.__swift5_types: 0x70 sha256:bbf08bb8abce2c4af11c093cf9932dd05482dfa6e561ab41685eb3ce41b7d277
++1.0.17.0.0
++  __TEXT.__text: 0x24ce8 sha256:130fb26887a004507d4acb3542d6989f4a1d796d72310a106cef30f4f4066269
++  __TEXT.__auth_stubs: 0x1120 sha256:15a8d7ff78744f812e66db63d5d2876f54f08a854d90612acc614516231a990f
++  __TEXT.__objc_stubs: 0x1360 sha256:c5cf476b9b1de9e427ce917a664887a4e47aa77e0a5eb62b8cef731e244cf829
++  __TEXT.__objc_methlist: 0xa8c sha256:4c8db987ab5117902284470534ed74052cd36c371034e89cb98ff90268d3b99e
++  __TEXT.__const: 0x1204 sha256:ed83e28341914e5db384c96ebf089a61fe273ba6afce602ef19b146b7fafe331
++  __TEXT.__swift5_typeref: 0x9da sha256:b39a6c856c98b50e2e5d8f22184cbaba748d223e9a6ac3a2d238739c7c740c64
++  __TEXT.__swift5_fieldmd: 0x718 sha256:18dd493803e7dd22da6aaeebd9edce243ae29d4d57f96329a61d7d29bd64e019
++  __TEXT.__constg_swiftt: 0xf28 sha256:cedb3d45fba9500a0c29165d3dcdbd7ae07589e9a2e47dc7ef862e1c2e0e7b98
++  __TEXT.__swift5_builtin: 0x3c sha256:2147d2a5cfd942595563c7c9ed4113bb7ee1484f35670f14330e9f9b5785f174
++  __TEXT.__swift5_reflstr: 0x834 sha256:6173d2f360fd3a46535dd1da7fa23202f70b0dba979baf172450b1655822723f
++  __TEXT.__swift5_assocty: 0x90 sha256:133e25a03c935a04c490d72e7f4fe2e263adf1abc6414b5dbd5baa0f952500a7
++  __TEXT.__swift5_proto: 0x54 sha256:785ba91420a364346e12072220693822209b5e85287de0f66d4bd2c234098f23
++  __TEXT.__swift5_types: 0x70 sha256:6e97ecb60d25328555f10d5e2471a82b14f9652aa1fc67f182556c6f27926059
+   __TEXT.__objc_classname: 0x684 sha256:59ad51cabcdae4492288bca0ade9a9bac47f9c19335929f9ff91874ae7023caf
+-  __TEXT.__objc_methname: 0x297d sha256:b4d09bfacfbd09450ad266f3f54601fb7ddba7d37e402a806f6245ea34dd4c33
+-  __TEXT.__objc_methtype: 0x141d sha256:aebed6aa7902d0123d0b89e969f8265859c177a0ed667fc0ccec025a923f59b0
+-  __TEXT.__cstring: 0x831 sha256:e78a9db581dda746f7b70f2fcb7164ded1c8c53833be05751f371fc8501b941e
++  __TEXT.__objc_methname: 0x2a2d sha256:c320cb972fd5dae1670d2b183bd53e6a872963ec13eb80733a7cae663c09ab65
++  __TEXT.__objc_methtype: 0x142a sha256:4fc97ccf52696125703fd6b225dff9de47b62e830097248518c3532fa6518bfe
++  __TEXT.__cstring: 0x881 sha256:ddbee3f6e81a78350d0158dc75c7fe6d977f20895b1d767f9dc3aebcddca58b6
+   __TEXT.__oslogstring: 0x1a8f sha256:d64af47d6c04004be2e3a3b5b0212f29b2dad70cbb09320c27d0944c8278c997
+-  __TEXT.__swift5_protos: 0x10 sha256:878087e91da032a64ef1abac913e143afaaaf1de5113a3e7c22c64f79e309ca2
+-  __TEXT.__swift5_capture: 0x85c sha256:4833affb4b2c8afac6cf8c7edac20834d6e3227af24f471cbaddcc06e9f131bd
+-  __TEXT.__swift_as_entry: 0x40 sha256:4cb0df2aaa487722bc28a29ccfd430b276ef41ed79b1a65cb6c2bc5192a0e13e
+-  __TEXT.__swift_as_ret: 0x3c sha256:06abf01fdd1c81a9e88c3242f849173549dae298733a48091395004cd0114fde
+-  __TEXT.__swift_as_cont: 0x70 sha256:7d336d1e52bc43f334161c0a4736d8505df9c4658fabe488201acbe5290c2cd2
+-  __TEXT.__swift5_entry: 0x8 sha256:87ba943fb40cebc22c97f856fe87903e78af7ac1ff31cdbd1c50c3d6d989d357
+-  __TEXT.__unwind_info: 0x908 sha256:0d753cd084d4a6b91b09908423eb9096d56bab3042b368f0b67a01ab46ca36c9
+-  __TEXT.__eh_frame: 0xa08 sha256:923b10999e073bcb004a1497e6c0c3f148cac704332ad7761812cb8eb238f03d
+-  __DATA_CONST.__const: 0x1788 sha256:efa900d2ecf808a7d6f8cdde6f56de0da84d43ca116eb9992c59edb362ba2c23
+-  __DATA_CONST.__objc_classlist: 0x90 sha256:34e337dabd342a75a1af9d6e9f8b3741201f393f957ec02eabe8593edf205a8a
+-  __DATA_CONST.__objc_protolist: 0xd0 sha256:70f3095d347cbad711dcdf9b4c84f9813de307921e4e189bfeab26f48f41bab0
++  __TEXT.__swift5_protos: 0x10 sha256:263871912260b8e0c57bce0f51316200bca0e552133528420d8a7fb9a7ef49f8
++  __TEXT.__swift5_capture: 0x8dc sha256:c7d21cc0808b54dc5d0c1c2849db24e515c2664305e46ce4e1d50fb1b2009510
++  __TEXT.__swift_as_entry: 0x40 sha256:4647f2b651bfcfeb0516d32551cccbcbb8a22492c8e27d4708bd161a0c8f0020
++  __TEXT.__swift_as_ret: 0x3c sha256:6203f402e79f72516a31831bb16fcc7e52665089ed3a507855f856c5ab0156c7
++  __TEXT.__swift_as_cont: 0x78 sha256:8f0bc28a0f1240120ac2653f21c4ad38d3efc85d2a1bc73b31c639279ac15314
++  __TEXT.__swift5_entry: 0x8 sha256:ee3f85cadcb0af07bd9fd9e078da9c201201bd404f05d1208da84e9d28b5d488
++  __TEXT.__unwind_info: 0x948 sha256:80f1cbeb01aa7762c5eed15c7900cb8445a95f7229258cfc883cbe0ed68904b7
++  __TEXT.__eh_frame: 0xa70 sha256:9751fde26075849d8d5fd6b340b1c3230ca77b79fb8e667220df718f7bbbb8d1
++  __DATA_CONST.__const: 0x1850 sha256:0e0b0566b0d0edb6df77870350c63ba4119da87646e6ff6f208a0fdf8ea88d7d
++  __DATA_CONST.__objc_classlist: 0x90 sha256:a8fa39c7bdd08a0b09472d9ed416d6257909775321ba78e49bef9ff49e17c8bf
++  __DATA_CONST.__objc_protolist: 0xd0 sha256:f6048277f03e7f79be96d34da42b3813a65d5f99c797a74688bdf66634c328bf
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0x70 sha256:ffb4632863f57bd0ac08705529d9f45a481251b8641b99c79a8045b3b09564c7
+-  __DATA_CONST.__auth_got: 0x8a8 sha256:589e94e61bc1d00eba3005ea575451faa04f1064aed995b7f9b48db934609534
+-  __DATA_CONST.__got: 0x2b0 sha256:2ed776d0981d13a48d484f56c95b5787c71675a8b9ed17b9f06afe715207a69c
+-  __DATA_CONST.__auth_ptr: 0x368 sha256:1d2727e854ccf97c0d3fef4393bfdea3de92ec81fbd0db7abb22af004a6724b2
+-  __DATA.__objc_const: 0x3f50 sha256:d9d702f00e5f82c20dcd71dba02eeed829c2ae205384f137c3ac992ff005f089
+-  __DATA.__objc_selrefs: 0x938 sha256:c693e65256434edff6a1cb74ee9d8a5af7237311541015d583b68d9f0d875217
+-  __DATA.__objc_data: 0x10d8 sha256:bc282e96afcefc4c155349601062edab1abb14c4c9643ef36f6b9d1a4a210132
+-  __DATA.__data: 0x1598 sha256:be2f7173999be1ce5424fcdabb81e483ac02910f46a03d7ed6d9a4838a65dc8d
++  __DATA_CONST.__objc_protorefs: 0x70 sha256:63ac3acf98b12b899b7714550866ff90b94f4dbb299db731259163e9ffd5ae1d
++  __DATA_CONST.__auth_got: 0x898 sha256:79a8133eabfa21a38cbcc65536af3eb9c8e75425b56cef6797d20cda74f757c8
++  __DATA_CONST.__got: 0x2b8 sha256:d14701b8adb9354d23e75f267a77d4be239208a360cbfa18119bb10a62a20fb0
++  __DATA_CONST.__auth_ptr: 0x368 sha256:6f2a2cadf52ed3d7cb846b5f2cc4b8b0b4491d22f854933bed69b6c2c420853f
++  __DATA.__objc_const: 0x3f90 sha256:d051c5c35ea45c621e290f64f42ee0ad58fa5a63e737a02244325a835627c44c
++  __DATA.__objc_selrefs: 0x950 sha256:ec49cde17d1a33a03b470b31b2b9a454796f6deb4885cef93528fcd4815d80af
++  __DATA.__objc_data: 0x1128 sha256:16ad8d717a749e32d39107370455861011c2e74c9cbf1df8d1eadae2528716a0
++  __DATA.__data: 0x15c8 sha256:946cc900bb1ba4d505e08ce870dce8da8345bd3de67e2b3559bc375a8a1c2d8d
+   __DATA.__bss: 0x800 sha256:e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad
+   __DATA.__common: 0xe0 sha256:6eb69e26de2a26eda48af77d4cec893aa0cf4748a64cbefcfe11a22c1e680ad9
+   - /AppleInternal/Library/Frameworks/TapToRadarKit.framework/TapToRadarKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3B23424B-BC3E-3BA5-BCE6-7C86DB503CDC
+-  Functions: 810
+-  Symbols:   6788
+-  CStrings:  691
++  UUID: 8DAC3FDE-52DC-3D4B-BD78-295EF08D55D1
++  Functions: 839
++  Symbols:   6949
++  CStrings:  697
+ 
+Symbols:
++ $s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycFyyScMYccfU0_TA.151
++ $s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycFyyScMYccfU0_TA.217
++ $s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycFyyScMYccfU_TA.156
++ $s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycFyyScMYccfU_TA.222
++ $s20ServicesPaymentAngel23BaseSystemSceneDelegateC19dismissPresentation33_0DD7D1EF6D97C194B03EA6396057068ALL9containeryAA30SharedBackgroundViewControllerCSg_tFyycfU_TA.206
++ $s20ServicesPaymentAngel23BaseSystemSceneDelegateC7dismiss10completionyys5Error_pSgc_tFyycfU_TA.163
++ $s20ServicesPaymentAngel23BaseSystemSceneDelegateC7dismiss10completionyys5Error_pSgc_tFyycfU_TA.65
++ $s20ServicesPaymentAngel23BaseSystemSceneDelegateC7dismiss10completionyys5Error_pSgc_tFyycfU_TA.72
++ $s20ServicesPaymentAngel23BaseSystemSceneDelegateC7dismiss10completionyys5Error_pSgc_tFyycfU_TA.79
++ $s20ServicesPaymentAngel23BaseSystemSceneDelegateC7dismiss10completionyys5Error_pSgc_tFyycfU_TA.86
++ $s20ServicesPaymentAngel29RemoteScenePresentationConfigV11SheetDetentO07toUIKitI0So07UISheetf10ControllerI0CyF12CoreGraphics7CGFloatVSgSo0lfmI17ResolutionContext_pcfU_TA.176
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/AngelServer.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/AngelServerObjectBase.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/BackgroundViewController.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/BaseSystemSceneDelegate.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/ClientInterfaceProtocol.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/DetachedAuthenticationStateCoordinator.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/ExampleSceneDelegate.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/FlowServerHandler.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/GeneratedAssetSymbols.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/Logger.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/PaymentNavigationController.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/PaymentSceneConfiguration.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/PaymentSheetSceneController.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/PaymentSheetServerHandler.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/PresentationServiceHandler.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/PresentationTargetBuilder.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/RemoteAlertSceneDelegate.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/RemoteHandle.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/RemoteHandleObserverProtocol.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/RemotePaymentSheetObserver.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/RemoteSceneDelegate.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/RemoteScenePresentationConfig.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/SecondaryAlertHandleManager.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/ServerInterfaceProtocol.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/ServicesPaymentAngel.swiftmodule
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/ServicesPaymentAngelApp.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/ServicesPaymentAngel_vers.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/TapToRadarFiler.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/ThreeDSServerHandler.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/URLSceneDelegate.o
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Sources/ServicesPaymentKit/Common/
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Sources/ServicesPaymentKit/ServicesPaymentAngel/
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Sources/ServicesPaymentKit/ServicesPaymentAngel/3DS Secure/Server/
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Sources/ServicesPaymentKit/ServicesPaymentAngel/Core/Presentation/
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Sources/ServicesPaymentKit/ServicesPaymentAngel/Core/Scene Infrastructure/
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Sources/ServicesPaymentKit/ServicesPaymentAngel/Core/Server/
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Sources/ServicesPaymentKit/ServicesPaymentAngel/Example/
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Sources/ServicesPaymentKit/ServicesPaymentAngel/Payment Sheets/DetachedAuth/
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Sources/ServicesPaymentKit/ServicesPaymentAngel/Payment Sheets/Scene/
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Sources/ServicesPaymentKit/ServicesPaymentAngel/Payment Sheets/Server/
++ /Library/Caches/com.apple.xbs/99585769-0782-4AF1-B2A1-B8757616EFA6/TemporaryDirectory.JP9sXI/Sources/ServicesPaymentKit/ServicesPaymentAngel/TapToRadar/
++ _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0015accountIdentityJ0So8NSNumberC10Foundation0J0V_SSSgAMSgAOtYaKF
++ _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0015accountIdentityJ0So8NSNumberC10Foundation0J0V_SSSgAMSgAOtYaKFTY0_
++ _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0015accountIdentityJ0So8NSNumberC10Foundation0J0V_SSSgAMSgAOtYaKFTo
++ _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0015accountIdentityJ0So8NSNumberC10Foundation0J0V_SSSgAMSgAOtYaKFTq
++ _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0015accountIdentityJ0So8NSNumberC10Foundation0J0V_SSSgAMSgAOtYaKFTu
++ _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0015accountIdentityJ0So8NSNumberC10Foundation0J0V_SSSgAMSgAOtYaKFyyYacfU_To
++ _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0015accountIdentityJ0So8NSNumberC10Foundation0J0V_SSSgAMSgAOtYaKFyyYacfU_ToTA
++ _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0015accountIdentityJ0So8NSNumberC10Foundation0J0V_SSSgAMSgAOtYaKFyyYacfU_ToTATQ0_
++ _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0015accountIdentityJ0So8NSNumberC10Foundation0J0V_SSSgAMSgAOtYaKFyyYacfU_ToTATu
++ _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0015accountIdentityJ0So8NSNumberC10Foundation0J0V_SSSgAMSgAOtYaKFyyYacfU_ToTQ1_
++ _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0015accountIdentityJ0So8NSNumberC10Foundation0J0V_SSSgAMSgAOtYaKFyyYacfU_ToTY0_
++ _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0015accountIdentityJ0So8NSNumberC10Foundation0J0V_SSSgAMSgAOtYaKFyyYacfU_ToTu
++ _$s20ServicesPaymentAngel11AppDelegateC9buildMenu4withySo13UIMenuBuilder_p_tFTo
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC16keyboardWillHide33_0DD7D1EF6D97C194B03EA6396057068ALLyy10Foundation12NotificationVFyycfU_
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC16keyboardWillHide33_0DD7D1EF6D97C194B03EA6396057068ALLyy10Foundation12NotificationVFyycfU_TA
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC16keyboardWillShow33_0DD7D1EF6D97C194B03EA6396057068ALLyy10Foundation12NotificationVFyycfU_
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC16keyboardWillShow33_0DD7D1EF6D97C194B03EA6396057068ALLyy10Foundation12NotificationVFyycfU_TA
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC18applyContentHeight33_0DD7D1EF6D97C194B03EA6396057068ALL8animatedySb_tFyycfU_
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC18applyContentHeight33_0DD7D1EF6D97C194B03EA6396057068ALL8animatedySb_tFyycfU_TA
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycF04$s20ab7Angel23defg23C16keyboardWillHide33_0klmnopQ39ALLyy10Foundation12NotificationVFyycfU_So29UISheetPresentationControllerCACTf1cn_n
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycF04$s20ab7Angel23defg23C16keyboardWillShow33_0klmnopQ39ALLyy10Foundation12NotificationVFyycfU_ACSo29UISheetPresentationControllerCTf1cn_n
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycF04$s20ab7Angel23defg25C18applyContentHeight33_0klmnopQ24ALL8animatedySb_tFyycfU_So29UISheetPresentationControllerCACTf1cn_n
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycFyyScMYccfU0_
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycFyyScMYccfU0_TA
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycFyyScMYccfU_
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycFyyScMYccfU_TA
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC23isAnimatingSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLSbvpWvd
++ _$s20ServicesPaymentAngel26PresentationServiceHandlerC17activate3DSHandle33_7F3734291B07BED5E5AAD39C06C61412LL11requestData015accountIdentityQ018presentationTarget10connectiony10Foundation0Q0V_ALSgSo014SBSRemoteAlertdU0CSgSo19BSServiceConnectionCtF
++ _$s20ServicesPaymentAngel26PresentationServiceHandlerC17activate3DSHandle33_7F3734291B07BED5E5AAD39C06C61412LL11requestData015accountIdentityQ018presentationTarget10connectiony10Foundation0Q0V_ALSgSo014SBSRemoteAlertdU0CSgSo19BSServiceConnectionCtFys5Error_pSgcfU1_
++ _$s20ServicesPaymentAngel26PresentationServiceHandlerC17activate3DSHandle33_7F3734291B07BED5E5AAD39C06C61412LL11requestData015accountIdentityQ018presentationTarget10connectiony10Foundation0Q0V_ALSgSo014SBSRemoteAlertdU0CSgSo19BSServiceConnectionCtFys5Error_pSgcfU1_TA
++ _$s20ServicesPaymentAngel26PresentationServiceHandlerC17activate3DSHandle33_7F3734291B07BED5E5AAD39C06C61412LL11requestData015accountIdentityQ018presentationTarget10connectiony10Foundation0Q0V_ALSgSo014SBSRemoteAlertdU0CSgSo19BSServiceConnectionCtFyycfU0_
++ _$s20ServicesPaymentAngel26PresentationServiceHandlerC17activate3DSHandle33_7F3734291B07BED5E5AAD39C06C61412LL11requestData015accountIdentityQ018presentationTarget10connectiony10Foundation0Q0V_ALSgSo014SBSRemoteAlertdU0CSgSo19BSServiceConnectionCtFyycfU0_TA
++ _$s20ServicesPaymentAngel26PresentationServiceHandlerC17activate3DSHandle33_7F3734291B07BED5E5AAD39C06C61412LL11requestData015accountIdentityQ018presentationTarget10connectiony10Foundation0Q0V_ALSgSo014SBSRemoteAlertdU0CSgSo19BSServiceConnectionCtFyycfU_
++ _$s20ServicesPaymentAngel26PresentationServiceHandlerC17activate3DSHandle33_7F3734291B07BED5E5AAD39C06C61412LL11requestData015accountIdentityQ018presentationTarget10connectiony10Foundation0Q0V_ALSgSo014SBSRemoteAlertdU0CSgSo19BSServiceConnectionCtFyycfU_TA
++ _$s20ServicesPaymentAngel26PresentationServiceHandlerC19makeThreeDSUserInfo33_7F3734291B07BED5E5AAD39C06C61412LL11requestData015accountIdentityS0SDySSypG10Foundation0S0V_AKSgtFTf4nnd_n
++ _$s20ServicesPaymentAngel26PresentationServiceHandlerC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0015accountIdentityJ010connectionSo8NSNumberC10Foundation0J0V_SSSgANSgAPSo19BSServiceConnectionCtF
++ _$s20ServicesPaymentAngel26PresentationServiceHandlerC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0015accountIdentityJ010connectionSo8NSNumberC10Foundation0J0V_SSSgANSgAPSo19BSServiceConnectionCtFTq
++ _$s20ServicesPaymentAngel26PresentationServiceHandlerC23lastAccountIdentityData33_7F3734291B07BED5E5AAD39C06C61412LL10Foundation0J0VSgvpWvd
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_ypTg5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_ypTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_ypTg5
++ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_yps11AnyHashableVypTg5
++ _$ss5Error_pIegHzo_BAsAA_pIeNgHgILzo_TR138$s20ServicesPaymentAngel0B20SheetSceneControllerC15setUpTapToRadar33_578D74667E24D17C97FF23F8845B16E0LL2ony0aB2UI0bd4ViewF0C_tYaFyyYaKcfU_Tf3npf_nTY3_
++ _$ss5Error_pIegHzo_BAsAA_pIeNgHgILzo_TR138$s20ServicesPaymentAngel0B20SheetSceneControllerC15setUpTapToRadar33_578D74667E24D17C97FF23F8845B16E0LL2ony0aB2UI0bd4ViewF0C_tYaFyyYaKcfU_Tf3npf_nTY4_
++ _$sypWOb
++ _PROTOCOLS__TtC20ServicesPaymentAngel11AppDelegate.1
++ _UIMenuAutoFill
++ __swift__destructor.184
++ __swift__destructor.33
++ __swift__destructor.48
++ __swift_closure_destructor.104
++ __swift_closure_destructor.107
++ __swift_closure_destructor.113
++ __swift_closure_destructor.116
++ __swift_closure_destructor.125
++ __swift_closure_destructor.129
++ __swift_closure_destructor.129Tm
++ __swift_closure_destructor.139
++ __swift_closure_destructor.145
++ __swift_closure_destructor.149
++ __swift_closure_destructor.161
++ __swift_closure_destructor.168
++ __swift_closure_destructor.178
++ __swift_closure_destructor.187
++ __swift_closure_destructor.187Tm
++ __swift_closure_destructor.192
++ __swift_closure_destructor.195
++ __swift_closure_destructor.201
++ __swift_closure_destructor.204
++ __swift_closure_destructor.211
++ __swift_closure_destructor.215
++ __swift_closure_destructor.45
++ __swift_closure_destructor.60
++ __swift_closure_destructor.63
++ __swift_closure_destructor.70
++ __swift_closure_destructor.84
++ __swift_closure_destructor.91
++ __swift_closure_destructor.98
++ __swift_implicitisolationactor_to_executor_cast
++ _objc_msgSend$inheritedAnimationDuration
++ _objc_msgSend$removeMenuForIdentifier:
++ _symbolic Ieg_
++ block_copy_helper.100
++ block_copy_helper.109
++ block_copy_helper.121
++ block_copy_helper.131
++ block_copy_helper.135
++ block_copy_helper.141
++ block_copy_helper.152
++ block_copy_helper.157
++ block_copy_helper.164
++ block_copy_helper.170
++ block_copy_helper.197
++ block_copy_helper.207
++ block_copy_helper.218
++ block_copy_helper.223
++ block_copy_helper.66
++ block_copy_helper.73
++ block_copy_helper.80
++ block_copy_helper.87
++ block_copy_helper.93
++ block_descriptor.102
++ block_descriptor.111
++ block_descriptor.123
++ block_descriptor.133
++ block_descriptor.137
++ block_descriptor.143
++ block_descriptor.154
++ block_descriptor.159
++ block_descriptor.166
++ block_descriptor.172
++ block_descriptor.199
++ block_descriptor.209
++ block_descriptor.220
++ block_descriptor.225
++ block_descriptor.68
++ block_descriptor.75
++ block_descriptor.82
++ block_descriptor.89
++ block_descriptor.95
++ block_destroy_helper.101
++ block_destroy_helper.110
++ block_destroy_helper.122
++ block_destroy_helper.132
++ block_destroy_helper.136
++ block_destroy_helper.142
++ block_destroy_helper.153
++ block_destroy_helper.158
++ block_destroy_helper.165
++ block_destroy_helper.171
++ block_destroy_helper.198
++ block_destroy_helper.208
++ block_destroy_helper.219
++ block_destroy_helper.224
++ block_destroy_helper.67
++ block_destroy_helper.74
++ block_destroy_helper.81
++ block_destroy_helper.88
++ block_destroy_helper.94
+- $s20ServicesPaymentAngel23BaseSystemSceneDelegateC19dismissPresentation33_0DD7D1EF6D97C194B03EA6396057068ALL9containeryAA30SharedBackgroundViewControllerCSg_tFyycfU_TA.185
+- $s20ServicesPaymentAngel23BaseSystemSceneDelegateC7dismiss10completionyys5Error_pSgc_tFyycfU_TA.142
+- $s20ServicesPaymentAngel23BaseSystemSceneDelegateC7dismiss10completionyys5Error_pSgc_tFyycfU_TA.61
+- $s20ServicesPaymentAngel23BaseSystemSceneDelegateC7dismiss10completionyys5Error_pSgc_tFyycfU_TA.68
+- $s20ServicesPaymentAngel23BaseSystemSceneDelegateC7dismiss10completionyys5Error_pSgc_tFyycfU_TA.75
+- $s20ServicesPaymentAngel23BaseSystemSceneDelegateC7dismiss10completionyys5Error_pSgc_tFyycfU_TA.82
+- $s20ServicesPaymentAngel29RemoteScenePresentationConfigV11SheetDetentO07toUIKitI0So07UISheetf10ControllerI0CyF12CoreGraphics7CGFloatVSgSo0lfmI17ResolutionContext_pcfU_TA.155
+- $sIg_Ieg_TRTA.135
+- $sIg_Ieg_TRTA.195
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/AngelServer.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/AngelServerObjectBase.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/BackgroundViewController.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/BaseSystemSceneDelegate.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/ClientInterfaceProtocol.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/DetachedAuthenticationStateCoordinator.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/ExampleSceneDelegate.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/FlowServerHandler.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/GeneratedAssetSymbols.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/Logger.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/PaymentNavigationController.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/PaymentSceneConfiguration.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/PaymentSheetSceneController.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/PaymentSheetServerHandler.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/PresentationServiceHandler.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/PresentationTargetBuilder.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/RemoteAlertSceneDelegate.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/RemoteHandle.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/RemoteHandleObserverProtocol.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/RemotePaymentSheetObserver.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/RemoteSceneDelegate.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/RemoteScenePresentationConfig.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/SecondaryAlertHandleManager.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/ServerInterfaceProtocol.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/ServicesPaymentAngel.swiftmodule
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/ServicesPaymentAngelApp.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/ServicesPaymentAngel_vers.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/TapToRadarFiler.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/ThreeDSServerHandler.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Binaries/ServicesPaymentKit/install/TempContent/Objects/ServicesPaymentKit.build/ServicesPaymentAngel.build/Objects-normal/arm64e/URLSceneDelegate.o
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Sources/ServicesPaymentKit/Common/
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Sources/ServicesPaymentKit/ServicesPaymentAngel/
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Sources/ServicesPaymentKit/ServicesPaymentAngel/3DS Secure/Server/
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Sources/ServicesPaymentKit/ServicesPaymentAngel/Core/Presentation/
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Sources/ServicesPaymentKit/ServicesPaymentAngel/Core/Scene Infrastructure/
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Sources/ServicesPaymentKit/ServicesPaymentAngel/Core/Server/
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Sources/ServicesPaymentKit/ServicesPaymentAngel/Example/
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Sources/ServicesPaymentKit/ServicesPaymentAngel/Payment Sheets/DetachedAuth/
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Sources/ServicesPaymentKit/ServicesPaymentAngel/Payment Sheets/Scene/
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Sources/ServicesPaymentKit/ServicesPaymentAngel/Payment Sheets/Server/
+- /Library/Caches/com.apple.xbs/817A7A60-CB98-4F87-8B20-F94690206674/TemporaryDirectory.SZNA8A/Sources/ServicesPaymentKit/ServicesPaymentAngel/TapToRadar/
+- _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0So8NSNumberC10Foundation0J0V_SSSgALSgtYaKF
+- _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0So8NSNumberC10Foundation0J0V_SSSgALSgtYaKFTY0_
+- _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0So8NSNumberC10Foundation0J0V_SSSgALSgtYaKFTo
+- _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0So8NSNumberC10Foundation0J0V_SSSgALSgtYaKFTq
+- _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0So8NSNumberC10Foundation0J0V_SSSgALSgtYaKFTu
+- _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0So8NSNumberC10Foundation0J0V_SSSgALSgtYaKFyyYacfU_To
+- _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0So8NSNumberC10Foundation0J0V_SSSgALSgtYaKFyyYacfU_ToTA
+- _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0So8NSNumberC10Foundation0J0V_SSSgALSgtYaKFyyYacfU_ToTATQ0_
+- _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0So8NSNumberC10Foundation0J0V_SSSgALSgtYaKFyyYacfU_ToTATu
+- _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0So8NSNumberC10Foundation0J0V_SSSgALSgtYaKFyyYacfU_ToTQ1_
+- _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0So8NSNumberC10Foundation0J0V_SSSgALSgtYaKFyyYacfU_ToTY0_
+- _$s20ServicesPaymentAngel0C16ServerObjectBaseC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ0So8NSNumberC10Foundation0J0V_SSSgALSgtYaKFyyYacfU_ToTu
+- _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC16keyboardWillHide33_0DD7D1EF6D97C194B03EA6396057068ALLyy10Foundation12NotificationVFyyXEfU_
+- _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC16keyboardWillHide33_0DD7D1EF6D97C194B03EA6396057068ALLyy10Foundation12NotificationVFyyXEfU_TA
+- _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC16keyboardWillShow33_0DD7D1EF6D97C194B03EA6396057068ALLyy10Foundation12NotificationVFyyXEfU_
+- _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC16keyboardWillShow33_0DD7D1EF6D97C194B03EA6396057068ALLyy10Foundation12NotificationVFyyXEfU_TA
+- _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC18applyContentHeight33_0DD7D1EF6D97C194B03EA6396057068ALL8animatedySb_tFyyXEfU_
+- _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC18applyContentHeight33_0DD7D1EF6D97C194B03EA6396057068ALL8animatedySb_tFyyXEfU_TA
+- _$s20ServicesPaymentAngel26PresentationServiceHandlerC17activate3DSHandle33_7F3734291B07BED5E5AAD39C06C61412LL11requestData18presentationTarget10connectiony10Foundation0Q0V_So014SBSRemoteAlertdS0CSgSo19BSServiceConnectionCtF
+- _$s20ServicesPaymentAngel26PresentationServiceHandlerC17activate3DSHandle33_7F3734291B07BED5E5AAD39C06C61412LL11requestData18presentationTarget10connectiony10Foundation0Q0V_So014SBSRemoteAlertdS0CSgSo19BSServiceConnectionCtFys5Error_pSgcfU1_
+- _$s20ServicesPaymentAngel26PresentationServiceHandlerC17activate3DSHandle33_7F3734291B07BED5E5AAD39C06C61412LL11requestData18presentationTarget10connectiony10Foundation0Q0V_So014SBSRemoteAlertdS0CSgSo19BSServiceConnectionCtFys5Error_pSgcfU1_TA
+- _$s20ServicesPaymentAngel26PresentationServiceHandlerC17activate3DSHandle33_7F3734291B07BED5E5AAD39C06C61412LL11requestData18presentationTarget10connectiony10Foundation0Q0V_So014SBSRemoteAlertdS0CSgSo19BSServiceConnectionCtFyycfU0_
+- _$s20ServicesPaymentAngel26PresentationServiceHandlerC17activate3DSHandle33_7F3734291B07BED5E5AAD39C06C61412LL11requestData18presentationTarget10connectiony10Foundation0Q0V_So014SBSRemoteAlertdS0CSgSo19BSServiceConnectionCtFyycfU0_TA
+- _$s20ServicesPaymentAngel26PresentationServiceHandlerC17activate3DSHandle33_7F3734291B07BED5E5AAD39C06C61412LL11requestData18presentationTarget10connectiony10Foundation0Q0V_So014SBSRemoteAlertdS0CSgSo19BSServiceConnectionCtFyycfU_
+- _$s20ServicesPaymentAngel26PresentationServiceHandlerC17activate3DSHandle33_7F3734291B07BED5E5AAD39C06C61412LL11requestData18presentationTarget10connectiony10Foundation0Q0V_So014SBSRemoteAlertdS0CSgSo19BSServiceConnectionCtFyycfU_TA
+- _$s20ServicesPaymentAngel26PresentationServiceHandlerC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ010connectionSo8NSNumberC10Foundation0J0V_SSSgAMSgSo19BSServiceConnectionCtF
+- _$s20ServicesPaymentAngel26PresentationServiceHandlerC22present3DSInterruption11requestData15sceneIdentifier010auditTokenJ010connectionSo8NSNumberC10Foundation0J0V_SSSgAMSgSo19BSServiceConnectionCtFTq
+- _PROTOCOLS__TtC20ServicesPaymentAngel11AppDelegate.2
+- __swift__destructor.163
+- __swift__destructor.29
+- __swift__destructor.44
+- __swift_closure_destructor.100
+- __swift_closure_destructor.103
+- __swift_closure_destructor.109
+- __swift_closure_destructor.112
+- __swift_closure_destructor.117
+- __swift_closure_destructor.120
+- __swift_closure_destructor.130
+- __swift_closure_destructor.133
+- __swift_closure_destructor.140
+- __swift_closure_destructor.147
+- __swift_closure_destructor.153
+- __swift_closure_destructor.157
+- __swift_closure_destructor.166
+- __swift_closure_destructor.166Tm
+- __swift_closure_destructor.171
+- __swift_closure_destructor.180
+- __swift_closure_destructor.183
+- __swift_closure_destructor.190
+- __swift_closure_destructor.193
+- __swift_closure_destructor.49
+- __swift_closure_destructor.56
+- __swift_closure_destructor.59
+- __swift_closure_destructor.66
+- __swift_closure_destructor.73
+- __swift_closure_destructor.80
+- __swift_closure_destructor.87
+- _swift_release_x26
+- _swift_retain_x28
+- block_copy_helper.105
+- block_copy_helper.122
+- block_copy_helper.126
+- block_copy_helper.136
+- block_copy_helper.143
+- block_copy_helper.149
+- block_copy_helper.176
+- block_copy_helper.186
+- block_copy_helper.196
+- block_copy_helper.62
+- block_copy_helper.69
+- block_copy_helper.76
+- block_copy_helper.83
+- block_copy_helper.89
+- block_copy_helper.96
+- block_descriptor.107
+- block_descriptor.124
+- block_descriptor.128
+- block_descriptor.138
+- block_descriptor.145
+- block_descriptor.151
+- block_descriptor.178
+- block_descriptor.188
+- block_descriptor.198
+- block_descriptor.64
+- block_descriptor.71
+- block_descriptor.78
+- block_descriptor.85
+- block_descriptor.91
+- block_descriptor.98
+- block_destroy_helper.106
+- block_destroy_helper.123
+- block_destroy_helper.127
+- block_destroy_helper.137
+- block_destroy_helper.144
+- block_destroy_helper.150
+- block_destroy_helper.177
+- block_destroy_helper.187
+- block_destroy_helper.197
+- block_destroy_helper.63
+- block_destroy_helper.70
+- block_destroy_helper.77
+- block_destroy_helper.84
+- block_destroy_helper.90
+- block_destroy_helper.97
+CStrings:
++ "buildMenuWithBuilder:"
++ "com.apple.ServicesPaymentAngel.userInfo.secureThreeDomainAccountIdentity"
++ "inheritedAnimationDuration"
++ "isAnimatingSheetChanges"
++ "lastAccountIdentityData"
++ "present3DSInterruptionWithRequestData:sceneIdentifier:auditTokenData:accountIdentityData:completionHandler:"
++ "removeMenuForIdentifier:"
++ "v56@0:8@\"NSData\"16@\"NSString\"24@\"NSData\"32@\"NSData\"40@?<v@?@\"NSNumber\"@\"NSError\">48"
+- "present3DSInterruptionWithRequestData:sceneIdentifier:auditTokenData:completionHandler:"
+- "v48@0:8@\"NSData\"16@\"NSString\"24@\"NSData\"32@?<v@?@\"NSNumber\"@\"NSError\">40"
+
+```

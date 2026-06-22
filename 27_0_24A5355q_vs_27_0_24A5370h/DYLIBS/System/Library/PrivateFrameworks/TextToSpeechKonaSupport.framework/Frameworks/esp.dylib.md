@@ -1,0 +1,70 @@
+## esp.dylib
+
+> `/System/Library/PrivateFrameworks/TextToSpeechKonaSupport.framework/Frameworks/esp.dylib`
+
+```diff
+
+-675.1.0.0.0
+-  __TEXT.__text: 0xc31c0 sha256:6730ca537415813d2d8ab87d4006c1967537a91e8d91185b9bc2bc449622984c
++676.0.0.0.0
++  __TEXT.__text: 0xc31ac sha256:2f912fad3a8a2912f0810afd1411d9373f679ec9712afff0501f923052eee144
+   __TEXT.__const: 0x35ca sha256:38cf85534875684d61ceed170a1e4721e9c54af27c55a5d8f10bfebdd8f5e124
+   __TEXT.__cstring: 0x1064 sha256:4d2c6431f12f7a7a5e259105971e45edb076d15ec56e1cc0535cdbcba2459f06
+-  __TEXT.__gcc_except_tab: 0x43c sha256:12ac5a301e6aa95818c2c79845d21ceae0af535316f76c3188dfbdaeb1804c73
+-  __TEXT.__unwind_info: 0x1e88 sha256:4ea67c7691a01bb3bbc30decac01cc7bc31740601379fd2ed9deab6349e2e44d
+-  __TEXT.__eh_frame: 0x260 sha256:70502c6126289e2133f9ae315c8b684543e6c82c8bf25d61ed948a91e212c9d4
++  __TEXT.__gcc_except_tab: 0x438 sha256:5381a9b6e3761fe1a0b0551e337019ff1119307a5846a7c6ff20bc62893a11d8
++  __TEXT.__unwind_info: 0x1e88 sha256:838f0aaa6c5c12caac9f4c69c5a401b22b8a3f8bb0560d877c79d09ffb93fe0f
++  __TEXT.__eh_frame: 0x260 sha256:81c993f4200e34eedff84cc9689e76dfd29ffcd65fab5c47e5e1f4c374d83a32
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x248 sha256:6f959159e8ce7a35a397e9f7ea5be3fc8aac89ea70b570467c3dafd15eb5e284
++  __DATA_CONST.__const: 0x248 sha256:96ea2e5bbb240192fd3c1107cf41db06816884350f5308c95e5af4dc43f6a7eb
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x778 sha256:5748db770a344a29d69b373ec070700b26adefea57583d81a5b63899b7ad2fb8
+-  __AUTH_CONST.__weak_auth_got: 0x20 sha256:1254a9513912f099ed0148104d9811b982a9f1acc9a5749382bd9ec6ed59357a
++  __AUTH_CONST.__const: 0x778 sha256:d6a7d8c010d4399469f27ec17725da66c6fdf1d6de6ea13c677cb244a82c8a6c
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:965b8632f0811258452c9d9d16455c3d6678c33b8a04ccbc7bcfd300b79a307d
+   __AUTH_CONST.__auth_got: 0x2e0 sha256:c6c9b8650bdf333e657353246bc6f5b02f61950d8990935e2f0e38a63197c80c
+-  __AUTH.__data: 0x540 sha256:4c3565830aa32ef39de7a0889858e05e83d0aa06d953019d55fa929db46c1f0f
+-  __DATA.__data: 0xe2f0 sha256:a06557ee0701ceb228e0f7a67943bb9ff1fc38a0fabc550961ee03cbebbcca3e
++  __AUTH.__data: 0x540 sha256:412398f58c3c831767bd007d57da3448119b380afb9c502f61ea5cc84fcf6b97
++  __DATA.__data: 0xe2f0 sha256:e685c762626cf61a2cea82bc039c6ff3070a9cb14b95769f8e7e89d5d4bc35e2
+   __DATA.__bss: 0x10c3 sha256:1baa05b3f00e9f033f6ca52cae5b3b14c5a25fd90465d5f016cc822e47eeadbd
+   __DATA.__common: 0x5a8 sha256:95438055654ed142a4bfe12fe65ff5fa5bdcb318fe4ae29bc1ec2a58366fedc6
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 241251B2-89EC-333C-92C4-0F72D682F3B4
+-  Functions: 5186
+-  Symbols:   8144
++  UUID: F04F5152-8524-36F9-A227-51845F2C7C30
++  Functions: 5189
++  Symbols:   8150
+   CStrings:  629
+ 
+Symbols:
++ __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE4fillB9nqe220106Ev
++ __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB9nqe220106Ec
++ __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE7getlineB9nqe220106EPcl
++ __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEEC2B9nqe220106EPNS_15basic_streambufIcS2_EE
++ __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEEC2B9nqe220106EPNS_15basic_streambufIcS2_EE
++ __ZNSt3__116__pad_and_outputB9nqe220106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__124__put_character_sequenceB9nqe220106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__14endlB9nqe220106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
++ __ZNSt3__18ios_base8setstateB9nqe220106Ej
++ __ZNSt3__19basic_iosIcNS_11char_traitsIcEEE4initB9nqe220106EPNS_15basic_streambufIcS2_EE
++ __ZNSt3__19use_facetB9nqe220106INS_5ctypeIcEEEERKT_RKNS_6localeE
++ __ZNSt3__1lsB9nqe220106INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc
+- __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE4fillB9nqe220100Ev
+- __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB9nqe220100Ec
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE7getlineB9nqe220100EPcl
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEEC2B9nqe220100EPNS_15basic_streambufIcS2_EE
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEEC2B9nqe220100EPNS_15basic_streambufIcS2_EE
+- __ZNSt3__116__pad_and_outputB9nqe220100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__124__put_character_sequenceB9nqe220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__14endlB9nqe220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
+- __ZNSt3__18ios_base8setstateB9nqe220100Ej
+- __ZNSt3__19basic_iosIcNS_11char_traitsIcEEE4initB9nqe220100EPNS_15basic_streambufIcS2_EE
+- __ZNSt3__19use_facetB9nqe220100INS_5ctypeIcEEEERKT_RKNS_6localeE
+- __ZNSt3__1lsB9nqe220100INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc
+
+```

@@ -1,0 +1,436 @@
+## HealthRecordsPlugin
+
+> `/System/Library/PrivateFrameworks/HealthRecordsPlugin.framework/HealthRecordsPlugin`
+
+```diff
+
+-7027.0.52.2.6
+-  __TEXT.__text: 0xb4380 sha256:8353c94920cad4f49667cf8e10ce8eeb144590a56fd883266e29f88ad6c518e8
+-  __TEXT.__objc_methlist: 0x7754 sha256:17706ab563cf066b9d4a3c0cb202f2ede6eea4286435bddce18725872e239ff0
+-  __TEXT.__const: 0xa10 sha256:f0e58a1cf8e971ec3c5a9c154b6dd58a3c582371d53eea96f821faa01a7aa769
+-  __TEXT.__cstring: 0x9604 sha256:c93f608ad9cc8e25c63d4df920950656c562648dbeaebe6b1c01464d822be77f
+-  __TEXT.__oslogstring: 0xfbd8 sha256:bd8df2b1f1abbfda963b9767990d4ac15235549e4be6f9a81cc419f1b5420d9f
+-  __TEXT.__gcc_except_tab: 0x1a7c sha256:e7980794403d2ffbb327bf40e4234e78980550cfdbfbd8ab02111b03e52a166f
++7027.0.60.2.2
++  __TEXT.__text: 0xb6100 sha256:197386be885f725f99ae1fc930a948950f0a1a4fc9eed5be86d6d21e59c0f241
++  __TEXT.__objc_methlist: 0x780c sha256:e4ed287056fe4b4204ed0d70b6f9fb6b508686180e1eaa4738233bbbf587e794
++  __TEXT.__const: 0xa30 sha256:0694f680722297d017204b4a5b4172829bc24995274913a8a4c18ce1cbf40eec
++  __TEXT.__cstring: 0x97b4 sha256:14ed60652d551292e05b8913c4dcf7603190bc0daadae4f39a3f6ad5291959ad
++  __TEXT.__oslogstring: 0xfdb7 sha256:caab3bfdcff0a6e034577faaab183ac6a7780789c96795b522a7f998019f31a8
++  __TEXT.__gcc_except_tab: 0x1968 sha256:66e1363f42c55f5903792d696cd37d0d15a33dd54e36590e5f55eca70591c5d6
+   __TEXT.__ustring: 0x7e sha256:b00c8ea2aa895a39a0e37e863506122d10f750daea1c61f839490ecfcd4cf53c
+-  __TEXT.__swift5_typeref: 0x436 sha256:d019c8ac67fed1b16552e8bec78cbb30d77385adfe1b32c117d2cf095a84578b
+-  __TEXT.__swift5_capture: 0x324 sha256:5959b943ad1fbbcff6be789609a59dd10ad1efc1c6d2d85356078bb32c474492
+-  __TEXT.__constg_swiftt: 0x370 sha256:08f2f987bbdd83b6d84b25762bbeef53573d3975b9a2b4ecf8c0b2a0f5388c65
+-  __TEXT.__swift5_reflstr: 0x173 sha256:c81877bf2e8639b45dbe0f73ed3f8f030f86cf4ecdf2f97aee646b30e294803e
+-  __TEXT.__swift5_fieldmd: 0x230 sha256:11e7318e8d3be3076b3f43a670c1bc09d3858880fd548ee8fa75e5b9aaecbf83
+-  __TEXT.__swift5_builtin: 0x14 sha256:339640898717df4433dd84d958d58c3b3bc9c8d93e246cc785be5a2228f8ce5b
+-  __TEXT.__swift5_types: 0x2c sha256:c82fdccc1d7d6a6038f36ebe6d468b69ffb78742f6893e2d6e5bf266fc35af3b
+-  __TEXT.__swift_as_entry: 0x70 sha256:40f555be4f944985ebae36209e5d3155b24ed29bbbc8b684cf8b93d8932247a3
+-  __TEXT.__swift_as_ret: 0x54 sha256:5d3b905ce224af7997e24da21dce6dc911ff60d5d86d427ccf273ab01f3698dd
+-  __TEXT.__swift_as_cont: 0x9c sha256:63270499431b29eda4be1506795bb98b1b1a1e71c43739b4fa16f2f95d5e28db
+-  __TEXT.__swift5_proto: 0x24 sha256:c9b4f47679110b9f0127ef2fc4be2d6565a2a5bfc6f6256f5bfc1e7334578706
+-  __TEXT.__swift5_protos: 0x18 sha256:7ab7c20b7be5d125d16400f2b07aa8b92d695dd84f1729b0fbe8a94c9c103d80
+-  __TEXT.__unwind_info: 0x2a10 sha256:7e8b2ccd46adde51ba803cc7c5c916cd5abe21f8e9bd15116fc0b953aa0f850a
+-  __TEXT.__eh_frame: 0xb78 sha256:13952f4587ace2560e8b7e74b26039667c09ac9ad45834b9b6a3dfa47df0509a
++  __TEXT.__swift5_typeref: 0x45d sha256:66b5b7d676487386e28c7805297792bda242759a8f4c8ab3869b705d68516f54
++  __TEXT.__swift5_capture: 0x328 sha256:e7896da9debde298ddc8b2c6f08ecc6d957e2545497dff329ce3d50fd1b5618d
++  __TEXT.__constg_swiftt: 0x370 sha256:72e2c871f53d23666456225237b3ea9059fdb59dcb922f23f442b5b1c08568de
++  __TEXT.__swift5_reflstr: 0x183 sha256:e96eb268f750323a2ad3e69984db9fcfe89a24ed325ac2506b55743a136a0629
++  __TEXT.__swift5_fieldmd: 0x248 sha256:2d579509efe740f5bb37adf739372ebb4bd711a92741cf41bb540826ce93b36c
++  __TEXT.__swift5_builtin: 0x14 sha256:95d9d6d984e07a94586751de5134efbb315ed7f13f1e1acaec72fe3ada9422c2
++  __TEXT.__swift5_types: 0x2c sha256:aa7feb18a3052440edf541271a7f33bcb79f530ee16a8f145665e1a5480592dd
++  __TEXT.__swift_as_entry: 0x70 sha256:1c8b320f9bf81ae171e9faed247556ca393a531d069afa89be7af2232209fd4e
++  __TEXT.__swift_as_ret: 0x54 sha256:866ed7dd5fbd537a2a712f9c1327b03d0dc4a219e9d3a66fe029489a55211b4e
++  __TEXT.__swift_as_cont: 0xac sha256:9c432d241c70134ae658285da9cd8a72a567afc92330b4e7a5b627f433fbd3eb
++  __TEXT.__swift5_proto: 0x24 sha256:cb29bf50d8bc3d703232491a59aa9abce71e326e9e627bb7f12f1c797f1be06d
++  __TEXT.__swift5_protos: 0x18 sha256:732bd3df6d1631e83b864e62d5889f0fcc36e599dd748b0be189ecf0a352658f
++  __TEXT.__unwind_info: 0x2a30 sha256:0495c30d773b4494f7cf97aa3592de9c09f9a0f74dbcb47a91375c9f20cb42e5
++  __TEXT.__eh_frame: 0xba0 sha256:bb5165f76efe89f66942d62abddfba369a406f081c41cd47e4e7b30a4911f156
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2ef8 sha256:adfa595750b3239fb85a620049e1ceb1b37c01c68847094a8c6c2c97c7892fa2
+-  __DATA_CONST.__objc_classlist: 0x440 sha256:41c7d4e24b04b8d9cebba04ff6d8d45d1840f169241a93e1178961e93f1042cc
+-  __DATA_CONST.__objc_catlist: 0x120 sha256:a7ade4a580e4e3ce42931b9a4b24af45562e4c3ce8893066ec23cd0ca6ce0943
+-  __DATA_CONST.__objc_protolist: 0x128 sha256:a30af14ada32b1e8a673bee4a05af3db721c8474377ebb7cbbad4c7b7b83bf18
++  __DATA_CONST.__const: 0x2f48 sha256:97ebf4957d02a19efbf8686c976f0bbe76b67cfd2b44e8a995d4931ca0964f20
++  __DATA_CONST.__objc_classlist: 0x440 sha256:4f5dc502ecae69c1230aedcd5fc508e1b407c206050d5a9c08074f08fff43320
++  __DATA_CONST.__objc_catlist: 0x120 sha256:340034823aca97318291630783c1da01e202fb5a9b3996a76ff5582019e041c2
++  __DATA_CONST.__objc_protolist: 0x128 sha256:e3837ea6573cdd2a84d23d085817fdffcd965f4ce743dc346e185ecf1da33a52
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x5168 sha256:1c872b2754d4c2bd31ab1f6743ba675fcf07a7ff6b8fe4a971a1b248f79a3c1a
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:ec687a0e6e0d9f6a64f3234c2da420f93eb82c2455cf3c37ee9017714e5c49e2
+-  __DATA_CONST.__objc_superrefs: 0x2e0 sha256:48c6f5a32589932fd8eca3237fe9ea2334023830b648276bd8d54f6c32196942
+-  __DATA_CONST.__objc_arraydata: 0x150 sha256:eeb3d55ff73407dc9d139c1e9f894c8d605c343b34b0334a0909dce09c33397c
+-  __DATA_CONST.__got: 0x11a0 sha256:3bf1028ce1cb41fafb508e2dc0c46d94e6c7ae84f34434d43d3e5b51d42c3830
+-  __AUTH_CONST.__const: 0x1180 sha256:adc2af3cd3dfd96184c8e57ec12165857235c573e97b557078f2c5a786c75694
+-  __AUTH_CONST.__cfstring: 0x6660 sha256:7471e7278197577657d5919d5d0f89f9fbd1f6b5d5fa30eb8a51e4584bffacf6
+-  __AUTH_CONST.__objc_const: 0xb7e0 sha256:0a0c7cb02dba350b278ac0ecf56f051abcaa73f3794fad1f32fb67fa7b1b9acf
+-  __AUTH_CONST.__objc_intobj: 0x4e0 sha256:63d72a6233a78b2215d87ef3d07bf1bfb59e0e5b98c110159355f709db604498
+-  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:63154dc16c9d37b411acdab0e7aa6cc1d6f200186ed044f22a2b9bb3f126b584
+-  __AUTH_CONST.__objc_arrayobj: 0x108 sha256:2067f35b989261a827470eaf8e8319ceb639cb767a967b771690aceeb45d1f98
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:558f39d72f6883cdfded1e7da4d3f021c86281e32ac4ad8a73ad62a4b9a34416
+-  __AUTH_CONST.__auth_got: 0xad8 sha256:750432eed067048b25e6b9c15dce5f4c19e9013f955b5dcb509ed46078b1cc57
+-  __AUTH.__objc_data: 0x1be0 sha256:8991b31e88465c2899d81548d102278c74c5314572b1cc53536d6c16daea96a1
+-  __AUTH.__data: 0x1e8 sha256:dd452de9a701890645ec4c58ac66a33a2dedea7ffeef852b64fcd92f8c21e98a
++  __DATA_CONST.__objc_selrefs: 0x5218 sha256:f07ca87d900ad47bc89cac395c58a43b4efb0f329298586414ac318d93626bbf
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:fe048c972890207a192de6d80b433476ee1e1a77a1ce8e3e9bc5a8235ae750e0
++  __DATA_CONST.__objc_superrefs: 0x2e0 sha256:07f48c9c5c1ea3c8f3535672b2da12d16c5cee6dc19a8f1d67b5400b99d99898
++  __DATA_CONST.__objc_arraydata: 0x150 sha256:d6041888e70160d31fb870172e3c3f7f925d0af0d91cf40d648f0cea769e5c8a
++  __DATA_CONST.__got: 0x11a8 sha256:f5e523717748ed7dec16f0d3aeb90f22f6a3e581c3e98fedd007f2ff744f270e
++  __AUTH_CONST.__const: 0x1180 sha256:db1fda8aeff9afa2ceac31afaacca76073a74e6e69ba50063da7a7c6a4f0c4e9
++  __AUTH_CONST.__cfstring: 0x6740 sha256:6db21be1fa114f2cded0b70b1dd04d1c876fe9903040f7717639dc52b0743712
++  __AUTH_CONST.__objc_const: 0xb820 sha256:75999f08ebfecd882bf74db00777c31feee2ded21d8c6ab6aa57041bbfc6dd0e
++  __AUTH_CONST.__objc_intobj: 0x4e0 sha256:f2887f9fd1afa77455e30dabb508c10178346a1bac93c94b6a82b4728afa37e4
++  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:fb2d8bdd630bbd0423f0831d1a899fad353679a2458c5484f116a0c33c565f81
++  __AUTH_CONST.__objc_arrayobj: 0x108 sha256:c8ab8f52bd4971b77ad76de5236b5b458676db2faf3580b0559f32a07d3b0166
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:6dd970bfb679c00e36e43d59b3b9849fac831740e2faf8fc32db8ad65043e55a
++  __AUTH_CONST.__auth_got: 0xae0 sha256:75d021dad37cc4b5af7b28b16bb7b23b5974a0bdf75aa584c52a73c8e292b9b8
++  __AUTH.__objc_data: 0x1be0 sha256:266f93893be66a6b162c512d8113c35ec6831b1b8d3cd03ad72ac7ebef7229e0
++  __AUTH.__data: 0x1e8 sha256:26aa0c83514fbe816f53c8e03a6d79b93e88b62e227e8d431a809737bc7601c7
+   __DATA.__objc_ivar: 0x5e4 sha256:4a8171798fa2a9325521ee462937a240232c112dff72846da058b8806b6944d9
+-  __DATA.__data: 0xe38 sha256:b8e222b58b04a029f64d107a71560c81556a1d3edc33c193beab37fe689cdf27
++  __DATA.__data: 0xe38 sha256:82cb90cb687ca4413b9fc5133384cd28ec6ac8c7ef587a2f84a9fed3c5ac2e3f
+   __DATA.__bss: 0x1c0 sha256:5c55c8f4db4010ba9203d83536d0609856af8c847ac039e37e7dde8fbd574b61
+-  __DATA_DIRTY.__objc_data: 0xea8 sha256:aa18f679589580674dbe00d70a4e78f471c5d985f913676f6497441519190a83
+-  __DATA_DIRTY.__data: 0x3a8 sha256:e20a2092f63a699521d2b8ff993e475b4c17c3920987c3ada45312fbf426eea5
++  __DATA_DIRTY.__objc_data: 0xea8 sha256:b10c0372b04ae27350d5282ce57108493830cd16d5dec8fef62aba7049e026a3
++  __DATA_DIRTY.__data: 0x3b8 sha256:f66c6a5c1d8155ecfe3b3037b83e728327973d291964765ffc20e899093c4ab9
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E6BDD796-7523-3031-B105-70BD03AF2126
+-  Functions: 3516
+-  Symbols:   11855
+-  CStrings:  2589
++  UUID: 0E0CF586-394E-3294-8DAD-8A2CEB9F04A4
++  Functions: 3550
++  Symbols:   11949
++  CStrings:  2607
+ 
+Symbols:
++ +[HDClinicalAccountEntity(HealthRecordsPlugin) resetAccountRowIDsAfterExtractionWithRulesVersion:identifier:profile:healthDatabase:error:]
++ +[HDClinicalAccountUpdateLastExtractedJournalEntry applyEntries:withProfile:].cold.1
++ +[HDClinicalRecordsInExtractionResultJournalEntry applyEntries:withProfile:].cold.1
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForExistingDownloadableAttachment:database:error:]
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForExistingDownloadableAttachment:database:error:].cold.1
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForExistingDownloadableAttachment:database:error:].cold.2
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForExistingDownloadableAttachment:database:error:].cold.3
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForExistingDownloadableAttachment:database:error:].cold.4
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForObsoleteDownloadableAttachmentsForMedicalRecord:extractedDownloadableAttachments:medicalObjectIdentifier:clinicalObjectIdentifier:transaction:profile:error:]
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _deleteAttachmentWithIdentifier:database:error:]
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _deleteAttachmentsWithMedicalRecordIdentifier:transaction:error:]
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _enumerateAttachmentsWithPredicate:database:error:enumerationHandler:]
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _markAvailableAndClearInlineDataForAttachmentWithIdentifier:attachmentIdentifier:database:error:]
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _processClinicalNotesType:medicalRecord:clinicalRecord:transaction:profile:error:]
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _updateAttachmentWithIdentifier:properties:database:error:bindingHandler:]
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _updateHKAttachmentIdentifierForAttachmentWithIdentifier:attachmentIdentifier:database:error:]
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _updateWithExistingAttachmentIfFoundForDownloadableAttachment:medicalRecord:clinicalRecord:transaction:profile:error:]
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) deleteAttachmentUsingJournalableOperationWithIdentifier:profile:error:]
++ +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) insertOrUpdateUsingJournalableOperationAttachment:shouldReplace:profile:error:]
++ +[HDMedicalDownloadableAttachmentsInExtractionResultJournalEntry applyEntries:withProfile:].cold.1
++ +[HDMedicalRecordsInExtractionResultJournalEntry applyEntries:withProfile:].cold.1
++ -[HDMedicalDownloadableAttachmentManager _downloadableAttachmentsWithoutHKAttachmentPredicate]
++ -[HDMedicalDownloadableAttachmentManager _downloadableAttachmentsWithoutHKAttachmentWithError:]
++ -[HDMedicalDownloadableAttachmentManager _findAttachmentObjectIdentifiersWithDuplicateHKAttachmentsWithProfile:error:]
++ -[HDMedicalDownloadableAttachmentManager _findAttachmentReferenceDupes:]
++ -[HDMedicalDownloadableAttachmentManager _findDupesForAttachmentReferences:]
++ -[HDMedicalDownloadableAttachmentManager _medicalRecordWithAttachmentObjectIdentifier:profile:error:]
++ -[HDMedicalDownloadableAttachmentManager _medicalRecordWithAttachmentObjectIdentifier:profile:error:].cold.1
++ -[HDMedicalDownloadableAttachmentManager _reconcileDownloadableAttachmentToHKAttachmentWithError:]
++ -[HDMedicalDownloadableAttachmentManager _reconcileDownloadableAttachmentToHKAttachmentWithError:].cold.1
++ -[HDMedicalDownloadableAttachmentManager _reconcileDownloadableAttachmentToHKAttachmentWithError:].cold.2
++ -[HDMedicalDownloadableAttachmentManager _reconcileDownloadableAttachmentToHKAttachmentWithError:].cold.3
++ -[HDMedicalDownloadableAttachmentManager _reconcileDownloadableAttachmentToHKAttachmentWithError:].cold.4
++ -[HDMedicalDownloadableAttachmentManager _reconcileDupesWithAttachmentObjectIdentifiers:profile:]
++ GCC_except_table189
++ GCC_except_table48
++ GCC_except_table67
++ _HDAttachmentReferencePredicateForSchemaIdentifier
++ _OBJC_CLASS_$_HDAttachmentEntity
++ _OBJC_CLASS_$_HDAttachmentReferenceEntity
++ __PROTOCOLS_HDHealthRecordsPeriodicIngestionManager.2
++ ___100+[HDClinicalAccountEntity(HealthRecordsPlugin) _insertCodableAccounts:syncProvenance:profile:error:]_block_invoke.501
++ ___103+[HDSignedClinicalDataIssuerEntity(HealthRecordsPlugin) updateIssuerTitlesUsingRegistry:profile:error:]_block_invoke.420
++ ___107+[HDSignedClinicalDataIssuerEntity(HealthRecordsPlugin) insertCodableIssuers:syncProvenance:profile:error:]_block_invoke.414
++ ___109+[HDFHIRCredentialEntity(HealthRecordsPlugin) _insertCodableCredentialFromSync:syncProvenance:profile:error:]_block_invoke.399
++ ___110+[HDOriginalFHIRResourceEntity(HealthRecordsPlugin) _insertCodableFHIRResources:syncProvenance:profile:error:]_block_invoke.442
++ ___110+[HDOriginalFHIRResourceEntity(HealthRecordsPlugin) _insertCodableFHIRResources:syncProvenance:profile:error:]_block_invoke.443
++ ___114+[HDClinicalDeletedAccountEntity(HealthRecordsPlugin) _insertCodableDeletedAccounts:syncProvenance:profile:error:]_block_invoke.375
++ ___114+[HDClinicalDeletedAccountEntity(HealthRecordsPlugin) _insertCodableDeletedAccounts:syncProvenance:profile:error:]_block_invoke.380
++ ___115+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) insertOrUpdateAttachment:shouldReplace:profile:error:]_block_invoke
++ ___117+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForExistingDownloadableAttachment:database:error:]_block_invoke
++ ___118-[HDMedicalDownloadableAttachmentManager _findAttachmentObjectIdentifiersWithDuplicateHKAttachmentsWithProfile:error:]_block_invoke
++ ___118-[HDMedicalDownloadableAttachmentManager _findAttachmentObjectIdentifiersWithDuplicateHKAttachmentsWithProfile:error:]_block_invoke_2
++ ___118-[HDMedicalDownloadableAttachmentManager _findAttachmentObjectIdentifiersWithDuplicateHKAttachmentsWithProfile:error:]_block_invoke_2.cold.1
++ ___121-[HDClinicalOptInDataCollectionManager _queue_submitOptInResourcesForAccounts:batchCountLimit:batchSizeLimit:completion:]_block_invoke.397
++ ___121-[HDClinicalOptInDataCollectionManager _queue_submitOptInResourcesForAccounts:batchCountLimit:batchSizeLimit:completion:]_block_invoke.397.cold.1
++ ___121-[HDClinicalOptInDataCollectionManager _queue_submitOptInResourcesForAccounts:batchCountLimit:batchSizeLimit:completion:]_block_invoke.402
++ ___124+[HDOriginalFHIRResourceLastSeenEntity(HealthRecordsPlugin) insertOrUpdateLastSeenDate:resourcePersistentID:database:error:]_block_invoke.409
++ ___124+[HDOriginalFHIRResourceLastSeenEntity(HealthRecordsPlugin) insertOrUpdateLastSeenDate:resourcePersistentID:database:error:]_block_invoke_2.411
++ ___126+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _deleteAttachmentsWithMedicalRecordIdentifier:transaction:error:]_block_invoke
++ ___131+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _enumerateAttachmentsWithPredicate:database:error:enumerationHandler:]_block_invoke
++ ___131+[HDOriginalSignedClinicalDataRecordEntity(HealthRecordsPlugin) insertCodableOriginalRecordsFromSync:syncProvenance:profile:error:]_block_invoke.453
++ ___135+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _updateAttachmentWithIdentifier:properties:database:error:bindingHandler:]_block_invoke
++ ___136+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _attachmentsAfterRelinkingFromMedicalRecord:toMedicalRecord:profile:error:]_block_invoke.395
++ ___137+[HDOriginalSignedClinicalDataRecordEntity(HealthRecordsPlugin) insertCodableOriginalRecords:shouldReplace:syncProvenance:profile:error:]_block_invoke.458
++ ___137+[HDOriginalSignedClinicalDataRecordEntity(HealthRecordsPlugin) insertCodableOriginalRecords:shouldReplace:syncProvenance:profile:error:]_block_invoke.460
++ ___138+[HDClinicalAccountEntity(HealthRecordsPlugin) resetAccountRowIDsAfterExtractionWithRulesVersion:identifier:profile:healthDatabase:error:]_block_invoke
++ ___138+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _attachmentsAfterRelinkingFromClinicalRecord:toClinicalRecord:profile:error:]_block_invoke.396
++ ___138+[HDOriginalSignedClinicalDataRecordEntity(HealthRecordsPlugin) replaceOriginalRecordWithSyncIdentifier:newSignatureStatus:profile:error:]_block_invoke.530
++ ___150+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) processMedicalDownloadableAttachmentsInExtractionResult:accountIdentifier:profile:error:]_block_invoke.376
++ ___155+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _updateHKAttachmentIdentifierForAttachmentWithIdentifier:attachmentIdentifier:database:error:]_block_invoke
++ ___158+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _markAvailableAndClearInlineDataForAttachmentWithIdentifier:attachmentIdentifier:database:error:]_block_invoke
++ ___167+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _updateWithExistingAttachmentIfFoundForDownloadableAttachment:medicalRecord:clinicalRecord:profile:error:]_block_invoke
++ ___188-[HDSignedClinicalDataManager _storeDataFromClinicalItem:existingAccountIdentifier:insertOriginalRecords:accountEntityMap:numOriginalRecordsInserted:numDuplicateRecords:transaction:error:]_block_invoke.429
++ ___188-[HDSignedClinicalDataManager _storeDataFromClinicalItem:existingAccountIdentifier:insertOriginalRecords:accountEntityMap:numOriginalRecordsInserted:numDuplicateRecords:transaction:error:]_block_invoke_2.430
++ ___227+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForObsoleteDownloadableAttachmentsForMedicalRecord:extractedDownloadableAttachments:medicalObjectIdentifier:clinicalObjectIdentifier:transaction:profile:error:]_block_invoke
++ ___31-[HDClinicalIngestionTask main]_block_invoke.390
++ ___347+[HDOriginalFHIRResourceEntity(HealthRecordsPlugin) _insertResourceObjectWithIdentifier:accountID:healthLinkRowID:syncProvenance:syncIdentity:rawContent:uniquenessChecksum:sourceURL:FHIRVersion:receivedDate:receivedDateTimeZoneName:firstSeenDate:firstSeenDateOut:firstSeenDateTimeZoneName:extractionHints:originVersion:originBuild:database:error:]_block_invoke.452
++ ___347+[HDOriginalFHIRResourceEntity(HealthRecordsPlugin) _insertResourceObjectWithIdentifier:accountID:healthLinkRowID:syncProvenance:syncIdentity:rawContent:uniquenessChecksum:sourceURL:FHIRVersion:receivedDate:receivedDateTimeZoneName:firstSeenDate:firstSeenDateOut:firstSeenDateTimeZoneName:extractionHints:originVersion:originBuild:database:error:]_block_invoke_2.456
++ ___347+[HDOriginalFHIRResourceEntity(HealthRecordsPlugin) _insertResourceObjectWithIdentifier:accountID:healthLinkRowID:syncProvenance:syncIdentity:rawContent:uniquenessChecksum:sourceURL:FHIRVersion:receivedDate:receivedDateTimeZoneName:firstSeenDate:firstSeenDateOut:firstSeenDateTimeZoneName:extractionHints:originVersion:originBuild:database:error:]_block_invoke_3.457
++ ___351+[HDOriginalFHIRResourceEntity(HealthRecordsPlugin) _wrapRawInsertResourceObjectWithIdentifier:accountID:healthLinkRowID:syncProvenance:syncIdentity:rawContent:uniquenessChecksum:sourceURL:FHIRVersion:receivedDate:receivedDateTimeZoneName:firstSeenDate:firstSeenDateTimeZoneName:extractionHints:originVersion:originBuild:database:existingRowID:error:]_block_invoke.461
++ ___48-[HDClinicalIngestionManager _addIngestionTask:]_block_invoke.393
++ ___58-[HDCPSFetchJSONTask _startTaskWithRetryCount:completion:]_block_invoke.400
++ ___69-[HDClinicalAccountManager endLoginSessionWithState:code:completion:]_block_invoke.391
++ ___69-[HDClinicalAccountManager endLoginSessionWithState:code:completion:]_block_invoke.398
++ ___69-[HDClinicalAccountManager endLoginSessionWithState:code:completion:]_block_invoke.398.cold.1
++ ___69-[HDClinicalAccountManager endLoginSessionWithState:code:completion:]_block_invoke.398.cold.2
++ ___69-[HDClinicalAccountManager endLoginSessionWithState:code:completion:]_block_invoke.398.cold.3
++ ___75-[HDHealthRecordsAPIReminderRegistry _showClinicalAPISettingsForAppSource:]_block_invoke.431
++ ___75-[HDHealthRecordsAPIReminderRegistry _showClinicalAPISettingsForAppSource:]_block_invoke.431.cold.1
++ ___76-[HDMedicalDownloadableAttachmentManager _findDupesForAttachmentReferences:]_block_invoke
++ ___84-[HDClinicalAccountManager updateCredentialStateForAccount:state:force:event:error:]_block_invoke.516
++ ___84-[HDClinicalAccountManager updateCredentialStateForAccount:state:force:event:error:]_block_invoke.516.cold.1
++ ___85-[HDSignedClinicalDataManager reextractOriginalSignedClinicalDataRecords:completion:]_block_invoke.380
++ ___85-[HDSignedClinicalDataManager reextractOriginalSignedClinicalDataRecords:completion:]_block_invoke.380.cold.1
++ ___85-[HDSignedClinicalDataManager reextractOriginalSignedClinicalDataRecords:completion:]_block_invoke.380.cold.2
++ ___85-[HDSignedClinicalDataManager reextractOriginalSignedClinicalDataRecords:completion:]_block_invoke.381
++ ___85-[HDSignedClinicalDataManager reextractOriginalSignedClinicalDataRecords:completion:]_block_invoke.383
++ ___88-[HDClinicalIngestionExtractionOperation _processFHIRResourcesInExtractionResult:error:]_block_invoke.398
++ ___89-[HDClinicalAnalyticsManager submitClinicalIngestionAnalyticsFromAccumulator:completion:]_block_invoke.395
++ ___90-[HDClinicalAnalyticsManager triggerClinicalContentAnalyticsForReason:options:completion:]_block_invoke.388
++ ___90-[HDClinicalAnalyticsManager triggerClinicalContentAnalyticsForReason:options:completion:]_block_invoke.388.cold.1
++ ___91-[HDClinicalAnalyticsManager _queue_triggerClinicalContentAnalyticsWithOptions:completion:]_block_invoke.401
++ ___95-[HDClinicalOptInDataCollectionManager triggerClinicalOptInDataCollectionForReason:completion:]_block_invoke.385
++ ___95-[HDClinicalOptInDataCollectionManager triggerClinicalOptInDataCollectionForReason:completion:]_block_invoke.385.cold.1
++ ___96-[HDClinicalAccountManager _accountEntityForIssuerIdentifier:createIfNecessary:wellKnown:error:]_block_invoke.685
++ ___block_descriptor_40_e8_32s_e41_v32?0"NSString"8"NSMutableArray"16^B24ls32l8
++ ___block_descriptor_41_e8_32s_e35_B24?0"HDDatabaseTransaction"8^16ls32l8
++ ___block_descriptor_48_e8_32s40s_e45_B24?0"HKMedicalDownloadableAttachment"8^16ls32l8s40l8
++ ___block_descriptor_56_e8_32s40s48r_e35_B24?0"HDAttachmentReference"8^16ls32l8s40l8r48l8
++ ___block_literal_global.371
++ ___block_literal_global.375
++ ___block_literal_global.384
++ ___block_literal_global.387
++ ___block_literal_global.397
++ ___block_literal_global.398
++ ___block_literal_global.399
++ ___block_literal_global.402
++ ___block_literal_global.410
++ ___block_literal_global.412
++ ___block_literal_global.417
++ ___block_literal_global.422
++ ___block_literal_global.429
++ ___block_literal_global.446
++ ___block_literal_global.455
++ ___block_literal_global.456
++ ___block_literal_global.469
++ ___block_literal_global.483
++ ___block_literal_global.486
++ ___block_literal_global.496
++ ___block_literal_global.536
++ ___block_literal_global.539
++ ___block_literal_global.640
++ ___block_literal_global.687
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.28
++ _block_copy_helper.12
++ _block_copy_helper.23
++ _block_descriptor.14
++ _block_descriptor.25
++ _block_destroy_helper.13
++ _block_destroy_helper.24
++ _objc_msgSend$_checkForExistingDownloadableAttachment:database:error:
++ _objc_msgSend$_checkForObsoleteDownloadableAttachmentsForMedicalRecord:extractedDownloadableAttachments:medicalObjectIdentifier:clinicalObjectIdentifier:transaction:profile:error:
++ _objc_msgSend$_deleteAttachmentWithIdentifier:database:error:
++ _objc_msgSend$_deleteAttachmentsWithMedicalRecordIdentifier:transaction:error:
++ _objc_msgSend$_downloadableAttachmentsWithoutHKAttachmentPredicate
++ _objc_msgSend$_downloadableAttachmentsWithoutHKAttachmentWithError:
++ _objc_msgSend$_enumerateAttachmentsWithPredicate:database:error:enumerationHandler:
++ _objc_msgSend$_findAttachmentObjectIdentifiersWithDuplicateHKAttachmentsWithProfile:error:
++ _objc_msgSend$_findAttachmentReferenceDupes:
++ _objc_msgSend$_findDupesForAttachmentReferences:
++ _objc_msgSend$_markAvailableAndClearInlineDataForAttachmentWithIdentifier:attachmentIdentifier:database:error:
++ _objc_msgSend$_medicalRecordWithAttachmentObjectIdentifier:profile:error:
++ _objc_msgSend$_processClinicalNotesType:medicalRecord:clinicalRecord:transaction:profile:error:
++ _objc_msgSend$_reconcileDownloadableAttachmentToHKAttachmentWithError:
++ _objc_msgSend$_reconcileDupesWithAttachmentObjectIdentifiers:profile:
++ _objc_msgSend$_updateAttachmentWithIdentifier:properties:database:error:bindingHandler:
++ _objc_msgSend$_updateHKAttachmentIdentifierForAttachmentWithIdentifier:attachmentIdentifier:database:error:
++ _objc_msgSend$_updateWithExistingAttachmentIfFoundForDownloadableAttachment:medicalRecord:clinicalRecord:transaction:profile:error:
++ _objc_msgSend$associatedHKAttachmentStatuses
++ _objc_msgSend$attachmentWithIdentifier:transaction:error:
++ _objc_msgSend$enumerateReferencesWithPredicate:transaction:error:enumerationHandler:
++ _objc_msgSend$hasAssociatedHKAttachment
++ _objc_msgSend$initWithName:loggingCategory:taskScheduler:handler:condition:
++ _objc_msgSend$medicalRecordWithAttachmentObjectIdentifier:profile:error:
++ _objc_msgSend$objectIdentifier
++ _objc_msgSend$resetAccountRowIDsAfterExtractionWithRulesVersion:identifier:profile:healthDatabase:error:
++ _objc_msgSend$systemScheduler
++ _symbolic So21BGSystemTaskSchedulerC
++ _symbolic _____XDXMT 19HealthRecordsPlugin0aB26PeriodicIngestionSchedulerC
+- +[HDClinicalAccountEntity(HealthRecordsPlugin) resetAccountRowIDsForRulesVersion:identifier:profile:healthDatabase:error:]
+- +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForExistingDownloadableAttachment:profile:error:]
+- +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForExistingDownloadableAttachment:profile:error:].cold.1
+- +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForExistingDownloadableAttachment:profile:error:].cold.2
+- +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForExistingDownloadableAttachment:profile:error:].cold.3
+- +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForExistingDownloadableAttachment:profile:error:].cold.4
+- +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForObsoleteDownloadableAttachmentsForMedicalRecord:extractedDownloadableAttachments:medicalObjectIdentifier:clinicalObjectIdentifier:profile:error:]
+- +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _processClinicalNotesType:medicalRecord:clinicalRecord:profile:error:]
+- +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _updateHKAttachmentIdentifierForAttachmentWithIdentifier:attachmentIdentifier:profile:error:]
+- +[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) deleteAttachmentWithIdentifier:profile:error:]
+- GCC_except_table191
+- __PROTOCOLS_HDHealthRecordsPeriodicIngestionManager.7
+- ___100+[HDClinicalAccountEntity(HealthRecordsPlugin) _insertCodableAccounts:syncProvenance:profile:error:]_block_invoke.492
+- ___103+[HDSignedClinicalDataIssuerEntity(HealthRecordsPlugin) updateIssuerTitlesUsingRegistry:profile:error:]_block_invoke.414
+- ___107+[HDSignedClinicalDataIssuerEntity(HealthRecordsPlugin) insertCodableIssuers:syncProvenance:profile:error:]_block_invoke.408
+- ___109+[HDFHIRCredentialEntity(HealthRecordsPlugin) _insertCodableCredentialFromSync:syncProvenance:profile:error:]_block_invoke.393
+- ___110+[HDOriginalFHIRResourceEntity(HealthRecordsPlugin) _insertCodableFHIRResources:syncProvenance:profile:error:]_block_invoke.436
+- ___110+[HDOriginalFHIRResourceEntity(HealthRecordsPlugin) _insertCodableFHIRResources:syncProvenance:profile:error:]_block_invoke.437
+- ___114+[HDClinicalDeletedAccountEntity(HealthRecordsPlugin) _insertCodableDeletedAccounts:syncProvenance:profile:error:]_block_invoke.369
+- ___114+[HDClinicalDeletedAccountEntity(HealthRecordsPlugin) _insertCodableDeletedAccounts:syncProvenance:profile:error:]_block_invoke.374
+- ___116+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForExistingDownloadableAttachment:profile:error:]_block_invoke
+- ___118+[HDMedicalRecordEntity(HealthRecordsPlugin) processMedicalRecordsInExtractionResult:accountIdentifier:profile:error:]_block_invoke_2
+- ___121+[HDClinicalRecordEntity(HealthRecordsPlugin) processClinicalRecordsInExtractionResult:clinicalExternalID:profile:error:]_block_invoke_2
+- ___121-[HDClinicalOptInDataCollectionManager _queue_submitOptInResourcesForAccounts:batchCountLimit:batchSizeLimit:completion:]_block_invoke.391
+- ___121-[HDClinicalOptInDataCollectionManager _queue_submitOptInResourcesForAccounts:batchCountLimit:batchSizeLimit:completion:]_block_invoke.391.cold.1
+- ___121-[HDClinicalOptInDataCollectionManager _queue_submitOptInResourcesForAccounts:batchCountLimit:batchSizeLimit:completion:]_block_invoke.396
+- ___122+[HDClinicalAccountEntity(HealthRecordsPlugin) resetAccountRowIDsForRulesVersion:identifier:profile:healthDatabase:error:]_block_invoke
+- ___122+[HDClinicalAccountEntity(HealthRecordsPlugin) resetAccountRowIDsForRulesVersion:identifier:profile:healthDatabase:error:]_block_invoke_2
+- ___124+[HDOriginalFHIRResourceLastSeenEntity(HealthRecordsPlugin) insertOrUpdateLastSeenDate:resourcePersistentID:database:error:]_block_invoke.403
+- ___124+[HDOriginalFHIRResourceLastSeenEntity(HealthRecordsPlugin) insertOrUpdateLastSeenDate:resourcePersistentID:database:error:]_block_invoke_2.405
+- ___131+[HDOriginalSignedClinicalDataRecordEntity(HealthRecordsPlugin) insertCodableOriginalRecordsFromSync:syncProvenance:profile:error:]_block_invoke.447
+- ___133+[HDClinicalAccountEntity(HealthRecordsPlugin) updateAccountLastExtractedRowID:rulesVersion:identifier:profile:healthDatabase:error:]_block_invoke_3
+- ___136+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _attachmentsAfterRelinkingFromMedicalRecord:toMedicalRecord:profile:error:]_block_invoke.389
+- ___137+[HDOriginalSignedClinicalDataRecordEntity(HealthRecordsPlugin) insertCodableOriginalRecords:shouldReplace:syncProvenance:profile:error:]_block_invoke.452
+- ___137+[HDOriginalSignedClinicalDataRecordEntity(HealthRecordsPlugin) insertCodableOriginalRecords:shouldReplace:syncProvenance:profile:error:]_block_invoke.454
+- ___138+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _attachmentsAfterRelinkingFromClinicalRecord:toClinicalRecord:profile:error:]_block_invoke.390
+- ___138+[HDOriginalSignedClinicalDataRecordEntity(HealthRecordsPlugin) replaceOriginalRecordWithSyncIdentifier:newSignatureStatus:profile:error:]_block_invoke.524
+- ___150+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) processMedicalDownloadableAttachmentsInExtractionResult:accountIdentifier:profile:error:]_block_invoke.369
+- ___154+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _updateHKAttachmentIdentifierForAttachmentWithIdentifier:attachmentIdentifier:profile:error:]_block_invoke
+- ___188-[HDSignedClinicalDataManager _storeDataFromClinicalItem:existingAccountIdentifier:insertOriginalRecords:accountEntityMap:numOriginalRecordsInserted:numDuplicateRecords:transaction:error:]_block_invoke.423
+- ___188-[HDSignedClinicalDataManager _storeDataFromClinicalItem:existingAccountIdentifier:insertOriginalRecords:accountEntityMap:numOriginalRecordsInserted:numDuplicateRecords:transaction:error:]_block_invoke_2.424
+- ___215+[HDMedicalDownloadableAttachmentEntity(HealthRecordsPlugin) _checkForObsoleteDownloadableAttachmentsForMedicalRecord:extractedDownloadableAttachments:medicalObjectIdentifier:clinicalObjectIdentifier:profile:error:]_block_invoke
+- ___31-[HDClinicalIngestionTask main]_block_invoke.384
+- ___347+[HDOriginalFHIRResourceEntity(HealthRecordsPlugin) _insertResourceObjectWithIdentifier:accountID:healthLinkRowID:syncProvenance:syncIdentity:rawContent:uniquenessChecksum:sourceURL:FHIRVersion:receivedDate:receivedDateTimeZoneName:firstSeenDate:firstSeenDateOut:firstSeenDateTimeZoneName:extractionHints:originVersion:originBuild:database:error:]_block_invoke.446
+- ___347+[HDOriginalFHIRResourceEntity(HealthRecordsPlugin) _insertResourceObjectWithIdentifier:accountID:healthLinkRowID:syncProvenance:syncIdentity:rawContent:uniquenessChecksum:sourceURL:FHIRVersion:receivedDate:receivedDateTimeZoneName:firstSeenDate:firstSeenDateOut:firstSeenDateTimeZoneName:extractionHints:originVersion:originBuild:database:error:]_block_invoke_2.450
+- ___347+[HDOriginalFHIRResourceEntity(HealthRecordsPlugin) _insertResourceObjectWithIdentifier:accountID:healthLinkRowID:syncProvenance:syncIdentity:rawContent:uniquenessChecksum:sourceURL:FHIRVersion:receivedDate:receivedDateTimeZoneName:firstSeenDate:firstSeenDateOut:firstSeenDateTimeZoneName:extractionHints:originVersion:originBuild:database:error:]_block_invoke_3.451
+- ___351+[HDOriginalFHIRResourceEntity(HealthRecordsPlugin) _wrapRawInsertResourceObjectWithIdentifier:accountID:healthLinkRowID:syncProvenance:syncIdentity:rawContent:uniquenessChecksum:sourceURL:FHIRVersion:receivedDate:receivedDateTimeZoneName:firstSeenDate:firstSeenDateTimeZoneName:extractionHints:originVersion:originBuild:database:existingRowID:error:]_block_invoke.455
+- ___48-[HDClinicalIngestionManager _addIngestionTask:]_block_invoke.387
+- ___58-[HDCPSFetchJSONTask _startTaskWithRetryCount:completion:]_block_invoke.394
+- ___69-[HDClinicalAccountManager endLoginSessionWithState:code:completion:]_block_invoke.385
+- ___69-[HDClinicalAccountManager endLoginSessionWithState:code:completion:]_block_invoke.392
+- ___69-[HDClinicalAccountManager endLoginSessionWithState:code:completion:]_block_invoke.392.cold.1
+- ___69-[HDClinicalAccountManager endLoginSessionWithState:code:completion:]_block_invoke.392.cold.2
+- ___69-[HDClinicalAccountManager endLoginSessionWithState:code:completion:]_block_invoke.392.cold.3
+- ___75-[HDHealthRecordsAPIReminderRegistry _showClinicalAPISettingsForAppSource:]_block_invoke.425
+- ___75-[HDHealthRecordsAPIReminderRegistry _showClinicalAPISettingsForAppSource:]_block_invoke.425.cold.1
+- ___84-[HDClinicalAccountManager updateCredentialStateForAccount:state:force:event:error:]_block_invoke.507
+- ___84-[HDClinicalAccountManager updateCredentialStateForAccount:state:force:event:error:]_block_invoke.507.cold.1
+- ___85-[HDSignedClinicalDataManager reextractOriginalSignedClinicalDataRecords:completion:]_block_invoke.374
+- ___85-[HDSignedClinicalDataManager reextractOriginalSignedClinicalDataRecords:completion:]_block_invoke.374.cold.1
+- ___85-[HDSignedClinicalDataManager reextractOriginalSignedClinicalDataRecords:completion:]_block_invoke.374.cold.2
+- ___85-[HDSignedClinicalDataManager reextractOriginalSignedClinicalDataRecords:completion:]_block_invoke.375
+- ___85-[HDSignedClinicalDataManager reextractOriginalSignedClinicalDataRecords:completion:]_block_invoke.377
+- ___88-[HDClinicalIngestionExtractionOperation _processFHIRResourcesInExtractionResult:error:]_block_invoke.392
+- ___89-[HDClinicalAnalyticsManager submitClinicalIngestionAnalyticsFromAccumulator:completion:]_block_invoke.389
+- ___90-[HDClinicalAnalyticsManager triggerClinicalContentAnalyticsForReason:options:completion:]_block_invoke.382
+- ___90-[HDClinicalAnalyticsManager triggerClinicalContentAnalyticsForReason:options:completion:]_block_invoke.382.cold.1
+- ___91-[HDClinicalAnalyticsManager _queue_triggerClinicalContentAnalyticsWithOptions:completion:]_block_invoke.395
+- ___95-[HDClinicalOptInDataCollectionManager triggerClinicalOptInDataCollectionForReason:completion:]_block_invoke.379
+- ___95-[HDClinicalOptInDataCollectionManager triggerClinicalOptInDataCollectionForReason:completion:]_block_invoke.379.cold.1
+- ___96-[HDClinicalAccountManager _accountEntityForIssuerIdentifier:createIfNecessary:wellKnown:error:]_block_invoke.673
+- ___block_descriptor_40_e8_32r_e45_B24?0"HKMedicalDownloadableAttachment"8^16lr32l8
+- ___block_descriptor_48_e8_32s40r_e45_B24?0"HKMedicalDownloadableAttachment"8^16ls32l8r40l8
+- ___block_literal_global.365
+- ___block_literal_global.369
+- ___block_literal_global.378
+- ___block_literal_global.381
+- ___block_literal_global.390
+- ___block_literal_global.391
+- ___block_literal_global.392
+- ___block_literal_global.395
+- ___block_literal_global.404
+- ___block_literal_global.406
+- ___block_literal_global.411
+- ___block_literal_global.416
+- ___block_literal_global.423
+- ___block_literal_global.437
+- ___block_literal_global.440
+- ___block_literal_global.450
+- ___block_literal_global.463
+- ___block_literal_global.474
+- ___block_literal_global.475
+- ___block_literal_global.477
+- ___block_literal_global.527
+- ___block_literal_global.530
+- ___block_literal_global.634
+- ___block_literal_global.675
+- ___swift_closure_destructor.21
+- _block_copy_helper.13
+- _block_descriptor.15
+- _block_destroy_helper.14
+- _objc_msgSend$_checkForExistingDownloadableAttachment:profile:error:
+- _objc_msgSend$_checkForObsoleteDownloadableAttachmentsForMedicalRecord:extractedDownloadableAttachments:medicalObjectIdentifier:clinicalObjectIdentifier:profile:error:
+- _objc_msgSend$_processClinicalNotesType:medicalRecord:clinicalRecord:profile:error:
+- _objc_msgSend$_updateHKAttachmentIdentifierForAttachmentWithIdentifier:attachmentIdentifier:profile:error:
+- _objc_msgSend$deleteAttachmentWithIdentifier:profile:error:
+- _objc_msgSend$initWithLastExtractedRowID:rulesVersion:accountIdentifier:
+- _objc_msgSend$initWithName:loggingCategory:scheduler:handler:condition:
+- _objc_msgSend$resetAccountRowIDsForRulesVersion:identifier:profile:healthDatabase:error:
+CStrings:
++ "%@ cannot be used after profile extension has been released"
++ "%s cannot schedule — profile.daemon is nil; skipping"
++ "%s triggered on profile without a system scheduler, cannot schedule"
++ "%{public}@ account already exists for gateway %{public}@; returning existing account"
++ "%{public}@ journal entries are no longer supported, dropping %lu entr%{public}@"
++ "%{public}@: Failed _reconcileDownloadableAttachmentToHKAttachmentForMedicalRecordWithIdentifier. Error: %{public}@"
++ "%{public}@: Failed enumerating HDAttachmentReferenceEntity for ClinicalRecordSchema Error: %{public}@"
++ "%{public}@: Failed reading HDAttachmentEntity for identifier: %{public}@ Error: %{public}@"
++ "%{public}@: Failed to query medical downloadable attachments without HKAttachments. Error: %{public}@"
++ "%{public}@: No Metadata key found for WebURL or InlineDataChecksum for HKAttachment with identifier: %{public}@"
++ "%{public}@: Reconciled %lu medical records with duplicate HKAttachments"
++ "%{public}@: Reconciliation found no duplicates to reconcile"
++ "%{public}@: identifier is not a medical record  %@"
++ "%{public}@: reconcileDupesWithAttachmentObjectIdentifiers for HKMedicalRecord with 'UUID': %{public}@ failed with error %{public}@"
++ "%{public}@: reconcileDupesWithAttachmentObjectIdentifiers for attachmentObjectIdentifier: %{public}@ failed read medical record with error %{public}@"
++ "%{public}@: reconcileDupesWithAttachmentObjectIdentifiers with %lu records, attempted reconcile on %lu records and encountered %lu errors"
++ "HDClinicalAccountManager received HKFHIRCredentialRefreshResult without auth response nor error"
++ "Persisting an ephemeral account and updating the existing credential from auth response."
++ "ies"
++ "transaction failed without setting error-out"
++ "updateAccountCredentialFromAuthResponse claimed success but failed to update the credential"
++ "v32@?0@\"NSString\"8@\"NSMutableArray\"16^B24"
++ "y"
+- "%{public}@ failed to process journaled clinical records: %{public}@"
+- "%{public}@ failed to process journaled downloadable attachments: %{public}@"
+- "%{public}@ failed to process journaled medical records: %{public}@"
+- "%{public}@ failed to update journaled clinical account last extracted row ID: %{public}@"
+- "%{public}@ inserted %@ clinical records from journal"
+- "%{public}@ inserted %@ medical downloadable attachments from journal"
+- "%{public}@ inserted %@ medical records from journal"
+- "%{public}@ processing clinical records extraction journal entry for external ID %{public}@"
+- "%{public}@ processing medical downloadable attachments in extraction journal entry for account %{public}@"
+- "%{public}@ processing medical records extraction journal entry for account %{public}@"
+- "%{public}@: Reconciliation %lu HKMedicalDownloadableAttachments"
+- "HDClinicalAccountUpdateLastExtractedJournalEntry failed to update journaled clinical account last extracted row ID: %{public}@"
+
+```

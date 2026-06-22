@@ -1,0 +1,79 @@
+## ARKitFoundation
+
+> `/System/Library/SubFrameworks/ARKitFoundation.framework/ARKitFoundation`
+
+```diff
+
+-779.0.0.0.5
+-  __TEXT.__text: 0x8b8 sha256:7d238890d51a5fb7246af46caae49b64248d0891128ed75fb5524bc99edbe431
+-  __TEXT.__objc_methlist: 0x38c sha256:82f630b4c7c53508ea8690edb329daefe0a6bd218444e4e8bf3aff3e0c5c804b
+-  __TEXT.__const: 0x40 sha256:bf36b0e47b38aeed7db4007decfeb424c3d27620c8da24ef5d1757aa14d0171e
++781.0.1.0.4
++  __TEXT.__text: 0x8b8 sha256:84364b14ebbdbcfaa794bded83870f8563630d4f92aab925d8324ec38d66424c
++  __TEXT.__objc_methlist: 0x38c sha256:3b927ba9b979ef9a3a610a09eaa945e1999e656933ae44d569443eb8b32efa80
++  __TEXT.__const: 0x40 sha256:302c713449bd72eab6f73aab29d164266d1b19cf4f308bed6af4f0234f70ade0
+   __TEXT.__cstring: 0x91 sha256:9f82ec038b30f2773a09c79162e2c1877523ed2e051ae7b2ccab276d0545220d
+   __TEXT.__unwind_info: 0x90 sha256:8ffe0b9f3cd3d67158efead19bdafb6a75d1e3a83c4e69a73bed11b9e0e8ef67
+   __TEXT.__objc_stubs: 0x0
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:62a62bc984ffdad64139697f70f6c5e985234d6185232e75fa011f62ee7e9287
+-  __DATA_CONST.__objc_protolist: 0x28 sha256:f56c1109a2ac4857aa0de42a924f1c87e12334eba009eb3084f32e9dad1da16b
++  __DATA_CONST.__objc_classlist: 0x10 sha256:ec64d1b80ae4f0db789b336b041731d478100e2f32d48a15826a51cf4a5123b5
++  __DATA_CONST.__objc_protolist: 0x28 sha256:c9f3ec39ac68bf5338a6053f904a800e29948341bd5f22a80f0f21ac2d9d1631
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x290 sha256:1d561deb794dfbac1662a6e263f6c7bbd6e330258e23b01fe2f3a07db3141b05
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:62a62bc984ffdad64139697f70f6c5e985234d6185232e75fa011f62ee7e9287
+-  __DATA_CONST.__got: 0x28 sha256:9c75eae337327b46da096c6af73eed5a30780a93db931f1866c4aac53e294c54
+-  __AUTH_CONST.__cfstring: 0x140 sha256:6d8c05fe2fc0081e05d41d83c6578a33d0e8237e18c4489b07cc17a6e72ea9e3
+-  __AUTH_CONST.__objc_const: 0x590 sha256:251b8fdf88d59ba121386d60df315134183bcd754d9dbd096f366cc91deafc59
++  __DATA_CONST.__objc_selrefs: 0x290 sha256:8535973d14d3d9fe1f12201389a1bb5291d41a28851ee3a48855c4508b0f0c91
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:ec64d1b80ae4f0db789b336b041731d478100e2f32d48a15826a51cf4a5123b5
++  __DATA_CONST.__got: 0x28 sha256:dd22d99c07cabd1f46793b07e22686dc560eb13dbb0f54df46d09d7b543cd3ae
++  __AUTH_CONST.__cfstring: 0x140 sha256:258523cfaf100563ad33eba34aef7e0e43a32b534b8d2e5557a20641f29d390d
++  __AUTH_CONST.__objc_const: 0x590 sha256:76bd1f3cc8e2cea5682ab518e18404b303015479c593850f53a39d7f7867b445
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:b9d328d15dd3eeb89c784cd6a31ac644f89c48259915b87af7f1887e12594e4b
++  __AUTH.__objc_data: 0x50 sha256:b4a2538abc78d0a66c0b306004cf4b4754c08af55689d80fd3778b7a0e37578e
+   __DATA.__objc_ivar: 0x30 sha256:e0a4f8b999057cfd6663f92c380609776aed8a5376ec5be37d39efd0e9533da0
+-  __DATA.__data: 0x1f0 sha256:5e726739ec8a51f8eea1c3a1a2da639be72dc143707dcd10b3a0d11952029be9
++  __DATA.__data: 0x1f0 sha256:5da159063dac97899a374e8c44b46be552855c48dba5e0d05ab3a1d5cdb2c18e
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:5411333c7303329866253c78a2bcda3a049ab3b0e8dd84359c5b494af4a764d4
++  __DATA_DIRTY.__objc_data: 0x50 sha256:1ae4b467afe306a36c78559220b77f4930d180e3478e063f0e288ee66283b20b
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BBC1735F-CDF1-30E6-B258-31DD56843C80
++  UUID: 5F03C895-5ACD-37C7-B441-54C091B95634
+   Functions: 54
+   Symbols:   203
+   CStrings:  21
+Functions:
+~ _ARDepthCameraCalibrationCreate : sha256 0c9e8a99ebcceaa32abbbab31ec69a0611cbeeab37a5b56494c539da7622e458 -> cb95f7148a215e3c5e80a4a0288051d811a0e91bb7223e67f0b9feee589ccfc3
+~ _ARDepthCameraCalibrationRelease : sha256 3909c758ddda889fb09bef099e0d082221b0720ac8021dc746704726b080a87f -> 354bf86b5ab0d1ae8442b5101e0728d75c39e2e4dc0f559bc2c1fb8e5716338d
+~ -[ARDepthData initWithDepthMap:confidenceMap:] : sha256 1b70798f13a016532c3d4d1c2bac2061568c579e28e7dec88e1127dd81956b3d -> 3521ca00390e9d21e1bd47bf20e2291db130ae6c4629b51a164b242611493002
+~ -[ARDepthData setDepthMap:] : sha256 9701625080970ebc395d6212189e26801a7f20dc62b6540ca91e27455f9f8a00 -> 17f64177b48e7ca0750b855db1b928b0c7687b31da8242676ed6a1167625e54d
+~ -[ARDepthData setConfidenceMap:] : sha256 0558f1ddda60224830fe07b74ac70465c91b919019bb9bb1aba3f562ab4a5422 -> a8b80f44f2258e2177e0d442dc77613dd3c38980035211414a7b1871e296505c
+~ -[ARDepthData setNormalsBuffer:] : sha256 7688f0882e3f50ae46216cb4ee27ebc495fe030fae5f70565aac49525adbeef4 -> 1c0967242fafd822722b35ee9d6a8a90ea9f97e96793f26c5a90030cf640c52b
+~ -[ARDepthData setConfidenceBuffer:] : sha256 db510ae492a7aa30b6b5733864d0177f32cdbc936a06c79fdb9e3d80e332caf9 -> 135cb2b9ceeb0cc47313d54cf2da38854b86fdb34f24074d07362edcd8b7eef5
+~ -[ARDepthData dealloc] : sha256 7321c112ad2c769c67b2fa1c179ec5427b2c0d89a080ab1e184042665e8b56a3 -> 8a79df2c12dcd4fc9f514886c8e18fc5ac821e1d9d5d8cd125939421d029c117
+~ -[ARDepthData initWithCoder:] : sha256 e119f2bbe98ae62c2bbeb447d246d617ddec41eb3d57a6ac16c6064a3d438750 -> 1a79a8fde88f656aad2b6877785c3ce74b7e86de3a8d0cb48d6c26250c0dece6
+~ -[ARDepthData encodeWithCoder:] : sha256 d6f148c8bdc8f22593f9291da022066dcbcf9978b402d0d2057b733e182ea9b7 -> 6206bbaacd3500c515331f1dbb1a1f24f89488501dd43c655c85d1240c39d64c
+~ -[ARDepthData setAdCameraCalibration:] : sha256 f3b2157be45571dd80c3228e326abd6c1bffc00aa85aeab9cb34733e17b6d9cb -> 61fb155d310d74320230e22fa8a09d30ec17965a42e0b4e9ad194c58f90f3c57
+~ -[ARDepthData .cxx_destruct] : sha256 7e58956af1ec1f4bdf0a100d09418306a7f2a15892fa7d0752e49e6ab1d68eb7 -> c710e88a9866e4bc93daa50ef2064bd3af86b2de3d765d3acd2f0a76e04de1ae
+~ _ARKitFoundationBuildVersionString : sha256 56629c495d084ad39dd07c399814cb8b1d22b00980ba63fba8baf3ba996b9981 -> d683e3ff686869f926ef4c48af7f3fa4c60a6f98ad9ad47920b1d57e416dbf51
+~ +[ARFormattedStringCache sharedCache] : sha256 e92bcd69a48dd9957fc727f0fc81a45182e7fe5cbb70ba9e6dff2d68eca39ee5 -> 7ec7c8f3c6c5b21fe76da857f537bf28bf85d51b819be7ee74416aaa4693fd4e
+~ _initThreadLocalCacheKey : sha256 c396f77ed84161528540e25f8dfc854b12f3c175ebe2982d1940fda0a60d529c -> 6e9ba4ba38b5c06fa3d7f77abc6ad1d161269135e361591b5c5b33497d9d16df
+~ -[ARFormattedStringCache init] : sha256 b82eff0dd8746426d08dac549f12afcb9af686cb717b79090bc68300a1ed11c2 -> 2e1476685bb8046de40b9fbc79e3883dc1f65113770a2efa799469bd5dfb5669
+~ -[ARFormattedStringCache cachedStringWithIdentifier:valueHash:formatString:] : sha256 ed64054c637473cf7866a1c6fee16a12384e4dad486d7695be8926b14d643e6d -> 69b7c37cba3bf8a4c2dd40eafc520e39640a8bfa60241e5832f0067eaada8fab
+~ -[ARFormattedStringCache clearCache] : sha256 88d0ac8666c61b92245361d01186cd5f4ca06175efddb0853aa6b155407a426d -> 7dde1080b21363159e2df9fa7cab27c9b2914855d329e35dda0b79b54674df52
+~ -[ARFormattedStringCache cacheCount] : sha256 f68a844a6b702daefd6a32ad4b25a8d51d07ae9b22c5b471d1e30718bb31aed3 -> 06a0ff6cb0ab4068b72a55b1ce0733445028e2fb7c550e496ba6e6aa7ef5bd5e
+~ -[ARFormattedStringCache .cxx_destruct] : sha256 8423c1eeccba6753586bd10b1d427e75b8fab0fe71c8662541ac24648429b868 -> b5aec5cee9ddf46f1f6f11b2f814f5dda0713fae549375abec9557cac0ee11f9
+~ _cleanupThreadLocalCache : sha256 71faee26e786779edd0a25ec9141b5670cc10603364b0162c06894aa44d18fde -> 21177b750f2127dec3f3cf701925b63c5035296469b8e27b49ce66334ef8b2a9
+
+```

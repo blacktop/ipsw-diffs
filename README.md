@@ -49,6 +49,7 @@
 <details open>
   <summary>View diffs</summary>
 
+- [27.0 beta 1 (24A5355q) .vs 27.0 beta 2 (24A5370h)](27_0_24A5355q_vs_27_0_24A5370h/README.md)
 - [26.5 (23F77) .vs 27.0 beta 1 (24A5355q)](26_5_23F77_vs_27_0_24A5355q/README.md)
 
 </details>

@@ -1,0 +1,941 @@
+## VoiceShortcuts
+
+> `/System/Library/PrivateFrameworks/VoiceShortcuts.framework/VoiceShortcuts`
+
+```diff
+
+-5025.0.25.103.0
+-  __TEXT.__text: 0x128f30 sha256:8078b6c832f8fe7de216c33a2183c380a5b31cbd5492a518abafffa6da39c79f
+-  __TEXT.__objc_methlist: 0x5804 sha256:9fc8d184376659610efc6287929253863df4ea7e4dd2a83d2355b0f603e5f785
+-  __TEXT.__const: 0x5ed8 sha256:1aab8e00b43a46b608de6fbf0576d68adc0f0d1c10ad388d74cd719ffdfba32d
++5028.0.21.0.0
++  __TEXT.__text: 0x12b480 sha256:b271200dc854a9d7fe53ae4791c0af5f080cba7ad2f0233a3351c70d24192229
++  __TEXT.__objc_methlist: 0x585c sha256:0ef0f8f83a60bed33bc7775824c7161b9dca72916a14fe5b0c55e5630d28f63c
++  __TEXT.__const: 0x6188 sha256:ff387dd8b028f5ae08f91294f5fa18c1a7de9570910e4bc97fff67910e9769a9
+   __TEXT.__dlopen_cstrs: 0x235 sha256:de9878d5ea5a5b216cc51b4315b674d3b74fbb770869ec187f7b2aabc04b17ff
+-  __TEXT.__oslogstring: 0xe76b sha256:653eeaa86a1754bcf9d5e98010d26df06dab150e18d93ebc40c30f7fa761db30
+-  __TEXT.__swift5_typeref: 0x2f7d sha256:e3b4626c475e2bddf8a5e5ce630b964dc60bb938f442f87bfb91febf74a4dc49
+-  __TEXT.__swift5_fieldmd: 0x15e4 sha256:622e222c76ebf5d3f7f48d182a92c5e4be334ad0f2ba96a758d6839fa8eab09e
+-  __TEXT.__constg_swiftt: 0x1f7c sha256:9e20100b8573c450ea1d4e9df99e380e360e76e3d4c02132c8e8a3f1cd7e16f6
+-  __TEXT.__swift5_reflstr: 0x12f1 sha256:1f97a166ddc1bd364ab6ac89ce00710fa935a92e33973836143cc2eb5db8625d
+-  __TEXT.__swift5_builtin: 0x140 sha256:b2b16623d5aaacbe4defbb104e5b52f78140ec338385645b591ef818b91cda91
+-  __TEXT.__swift5_assocty: 0x570 sha256:0c6ada1ffc9cb9e7439fb269cc8393e7fca7ac3f81132fd4c9bc410ce7f9c4c6
+-  __TEXT.__swift5_capture: 0x26dc sha256:145fcf3b63178c283ca4631400fb536a8eba069920971a4e0068fd47cc0b71ae
+-  __TEXT.__cstring: 0xf714 sha256:b6d6ea134183595138d154e3b3c43371917a223e5db8ebdd153b551f265d9b02
+-  __TEXT.__swift5_proto: 0x3a8 sha256:f647af6e045ee2bc743b6a13ff3f6027b1a5326488f6bde70c8a40ead42cb7b0
+-  __TEXT.__swift5_types: 0x1cc sha256:676ced9be0149d32e1ebeebf9716634f196e20687aca8700c6f82b06016ca496
+-  __TEXT.__swift_as_entry: 0x304 sha256:18ced73a9924bd48ef87ee2b411d646c0d87d2924e64e656a31c64e35f216e88
+-  __TEXT.__swift_as_ret: 0x2fc sha256:228f7fc80a5479f7f26775f1545a8ad3012e16afdf386ed3a6a7034cc15d758e
+-  __TEXT.__swift_as_cont: 0x708 sha256:c7784c450d93a625f66e1df79bc167b7cace500a46551fdc7e17e4e2c5265aaa
+-  __TEXT.__swift5_protos: 0x44 sha256:96972bbef11af2bb710e3ce9c9365808a42525737412e2d637c208f91064a45d
+-  __TEXT.__swift5_mpenum: 0x28 sha256:5ea98db525796a882b69d64d284e5dcbb2ab13b100161fe50b5517d89ceb6fc6
+-  __TEXT.__gcc_except_tab: 0xbd0 sha256:393d1b7c94b777459905c53eee17a40a96c13ca2fdebbdf22144e9f53aaefdd2
++  __TEXT.__oslogstring: 0xec26 sha256:321b806647843db7abebaacbc07969498fed7e9b844d23427b7a477c969d7e2d
++  __TEXT.__swift5_typeref: 0x3093 sha256:6e6b2c01c65c018f8d2ad3d2cd0678dc4aafa935c2c1d06ee83ba546c691b71a
++  __TEXT.__swift5_fieldmd: 0x15b4 sha256:597d79ca430be14cc101ad2b154971981ea0157d72742fdb7663d3c524e118bb
++  __TEXT.__constg_swiftt: 0x1f74 sha256:6fd239ea00ab0cc8a06e5df65541bb48685d2793bfc4421e0dafcaed41759093
++  __TEXT.__swift5_reflstr: 0x12f1 sha256:c1017b003cfbd8c755e61d4af5194daf623313f4b019b396b0bd17f87b1f582a
++  __TEXT.__swift5_builtin: 0x140 sha256:1e0c87c223101125b90c38e54e0864d2a2ac980b594331fae0a83fc410bff862
++  __TEXT.__swift5_assocty: 0x5b8 sha256:940901b4ae7dff6f1a8488ac8b9c7886c28a9b99fc5e7739faf97104797c482e
++  __TEXT.__swift5_capture: 0x2698 sha256:d786461c9fb9d06a60fd8302604268e821128907931c465bbf9ead4bfe58c00f
++  __TEXT.__cstring: 0xfb7f sha256:1e04850390ab47182a561c4cb8a81722dad7b365184ec644a08f5890476f4605
++  __TEXT.__swift5_proto: 0x3cc sha256:9f199118b65a84d1c94ed33e638404cc536d03e6cab01bc8992109d5a7c83cc7
++  __TEXT.__swift5_types: 0x1cc sha256:c9dc51ec9a6ea6aa285bdfa183e17f4b7a1ad783025329496332877b672ab223
++  __TEXT.__swift_as_entry: 0x304 sha256:ddaf0bc2dcf4a75cb38d082aac652c158b42868fdd1e378721ec68045e254e97
++  __TEXT.__swift_as_ret: 0x2fc sha256:6db292aeeaa48e17dbca4fedd09a159561254e8d525f3ded0e88db1ddfc84406
++  __TEXT.__swift_as_cont: 0x70c sha256:86c460d5679e69011b34ff6e80010021ec735947b962e4cd628d163872f779bf
++  __TEXT.__swift5_protos: 0x44 sha256:fd578a6a3aa893cf5cf42820fb7d5bf49a565c09077bd3e8a8683629739a424f
++  __TEXT.__swift5_mpenum: 0x28 sha256:c4766c14985c3111af28d3c4ca4cc9e2a8d5a2814a025759619daed8728ccbd0
++  __TEXT.__gcc_except_tab: 0xbd0 sha256:6ebd052b2a39118a2d77de0223f4b97d5fc327836c02500fe9e86b0516fdce9d
+   __TEXT.__ustring: 0x44 sha256:2a4bf5a5aadcaed1567e039d773513660e5836380a99efc090e956be909f4cdd
+-  __TEXT.__unwind_info: 0x4a48 sha256:958a78b8e60c40a0fb1908a375e30ebe0fb7aaea8c6ca03f94c2ed060061171a
+-  __TEXT.__eh_frame: 0x7ad0 sha256:a1a05718c1b293af2ad7e8b4ce0d8df043180e5d013ae2790ceb41e8c1fddc7f
++  __TEXT.__unwind_info: 0x4ad0 sha256:5a9852cf11626f10fc43d814387e0880886f5f39d502fc04bc15059d47f68eac
++  __TEXT.__eh_frame: 0x7b68 sha256:b6af504f82b7dc36703998c4322c02708c45e14e59d671baf466a1cde9a239f9
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2278 sha256:3e9cf4d897cfcd9b53ca92df43203cd0f38cd3454f48d37028bd0d7fbb994010
+-  __DATA_CONST.__objc_classlist: 0x300 sha256:26073cc5b693f76371b373b9239867703173fed786af2ea2a6967875039548f5
+-  __DATA_CONST.__objc_catlist: 0x100 sha256:0f6330addc64bb100ba2f66aa791ff287ff3494ac9af15cb8f24d6c78e9e5283
+-  __DATA_CONST.__objc_protolist: 0x2a8 sha256:afa604a6ef2ceec503684053fcb5dddf16ade4f4e9be26baa8257a96631b4df2
++  __DATA_CONST.__const: 0x2270 sha256:cccbe5f7b7c570021532687c22ca0f0d89ae302a752e0af8cd81d5535d3d6ebc
++  __DATA_CONST.__objc_classlist: 0x300 sha256:83f1318a68acca635e7c07c788b958dbaee00329f5d3a971d9e3907bddcc07ad
++  __DATA_CONST.__objc_catlist: 0x110 sha256:051f12d5236eba8cc1805991fd1a27dbf084a53c3fc672fc3f6f111cb858fe4d
++  __DATA_CONST.__objc_protolist: 0x2a8 sha256:ed64faadce9f5debb53fcaeabb4ab0c92c167afa305356290c9089260164953a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x4978 sha256:ae7d58a52f76a30defb710ee9ed35f3628dc77546831662ebcd59fcf6019b422
+-  __DATA_CONST.__objc_protorefs: 0xb8 sha256:341a0e06b08d8086a70d64f3c57c9fe86a0a70faed86db5c0b19935d5541c928
+-  __DATA_CONST.__objc_superrefs: 0x188 sha256:981df08736bd920e24f36dec29610c7b1e0ee09bc688fbe6aa67a657d85325fd
+-  __DATA_CONST.__objc_arraydata: 0x48 sha256:57cb0653760e1488963bc004b77fde3702959f3b1247f7661f13a08e4f6f8dba
+-  __DATA_CONST.__got: 0x1960 sha256:22bf35b66347c07efa6883ffe55058307426d21888505eacdc62e474285b738d
+-  __AUTH_CONST.__const: 0x8cb8 sha256:e5f6d6cf4bedfd24e3508e62885107a0cebecfa30394fa3bc7cf7081d223767b
+-  __AUTH_CONST.__cfstring: 0x41e0 sha256:c9d37163027ef0d926ec554ed32506b8423f39c4cb3f57181843820739a73c67
+-  __AUTH_CONST.__objc_const: 0x9f30 sha256:168b2b6da73804a0922ad2fd2dacdef7a930657119eb32545956cdd5a02b5234
+-  __AUTH_CONST.__objc_intobj: 0xc0 sha256:eb98f79b3926ba386d9d086b554dd5161c8bc94f8daae6ae2044f9b54c5b9ec3
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:e5800381be489f9537a3b334e47f07b34aa531deecf4b3b2253f7c9e412d7e57
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:305d33af50b1f50c0fddf58f1b8679c90be6b307c450475dc72038fde6821d82
+-  __AUTH_CONST.__auth_got: 0x1f08 sha256:b4c45f5266cbc663ad416af064011ef46ab0dd52c43f5eb9b75bb49767b08fb8
+-  __AUTH.__objc_data: 0x9c0 sha256:931201c148f4a84d482a16babb7e7ffe979d2ca09fbb87d105ac9a3c23930778
+-  __AUTH.__data: 0x17a8 sha256:7f89ce89b3e8ce3d6c552ddbe440c74509b57d93f2d518872b9e4e3a442b2f63
++  __DATA_CONST.__objc_selrefs: 0x4960 sha256:e90bd827a42995cb8b6740540c9ca52c9f536268c27353348f527316b2dbe528
++  __DATA_CONST.__objc_protorefs: 0xb8 sha256:2897c413fb89bafc3ad66d506a342939bc07d77240a63006dca4050cd5e1ed3c
++  __DATA_CONST.__objc_superrefs: 0x188 sha256:9dd7534da2ea1d15d208b8f315c0989e8e00b9bac82d73f6b1f99be19baa6891
++  __DATA_CONST.__objc_arraydata: 0x48 sha256:de32c9d1b238903097a53ba221b2e0e15b156a8ec80d9e6e42fe63dca9474ade
++  __DATA_CONST.__got: 0x1990 sha256:cd3cad7360c1d0c649cde903a05ff7a1aabf0f77d55fd65d9d4a9a18529a85c2
++  __AUTH_CONST.__const: 0x8b88 sha256:1632839cba5031275a797bd88aeed9b24cc74735c7206dac725170af377c5d17
++  __AUTH_CONST.__cfstring: 0x41c0 sha256:2cdf1acac2b5d063e1ac61839a8f48d17086664ec4209375da48103c21a7099c
++  __AUTH_CONST.__objc_const: 0x9fa8 sha256:aa74394cf3e3e16998d777e6ac0e933453e5f5a0096d3b3a743638fe53d5f0d8
++  __AUTH_CONST.__objc_intobj: 0xc0 sha256:4534fd5a5cd56ab60f13c4ba54fe9f323af2877885a93226d99967efc5d86773
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:07bd8aeb1a58dd5d12394b82197e5bb83a6d4fe0ad26471f464760fadbab7a95
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:9b1f67d5553a128a79ce7f1b3ad61670da597b65d577f37441db44bf1fecb6a9
++  __AUTH_CONST.__auth_got: 0x2018 sha256:e10e32fb7a823fc5665f2a1f936fa330c7500d82dc5a8497791dc6f96c9cd941
++  __AUTH.__objc_data: 0x9c0 sha256:694e5cdd5220fa936e907607269a50024c175172cdf719664be2fe31f2407839
++  __AUTH.__data: 0x17a8 sha256:063748ca7b37c85f68c07953f7eff7cbe14c905c556b77ad73437fbf52d03d18
+   __DATA.__objc_ivar: 0x3c0 sha256:2de93ec171ce38dde9e3446efc27839ee68584e264db303f634d72129c05bc4a
+-  __DATA.__data: 0x29b0 sha256:3dbaa892cbed0e99f2e4e64cb2c15e854519aa79a67f363819f0ad4685ad2abd
+-  __DATA.__bss: 0x4230 sha256:ddf4561f1fbb01d93b55eb9713452a6d156c5084ecb5bb62c3443b3edb38f0a7
++  __DATA.__data: 0x2a80 sha256:c515b2a59a7086e1c82dd8cc105090afa5494a0cdbc5d2cfc8887cde7e51f7e7
++  __DATA.__bss: 0x47c0 sha256:8593334d77736d9c2ac941780b3c1602a0b395f5bef40dd7841cba8e35b4ccf6
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0x12b8 sha256:7c46ac3c24bb593214a41acd5f47b451d990e4ec2daadef2ae82b47868306558
+-  __DATA_DIRTY.__data: 0x1aa8 sha256:6ec17f99e125cfc5b74e9aaf2ee06cd5c85daf5f666bd9978b6e297149771b85
++  __DATA_DIRTY.__objc_data: 0x12b8 sha256:3e16d3de86b618daa47a4001789250ccabe15cedc3c4b6bd9ff1fcc6e942d588
++  __DATA_DIRTY.__data: 0x1a20 sha256:59344ae8643e5fc455b99014923094adccbe224963691a0ce4e64c8d016fc5a0
+   __DATA_DIRTY.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+-  __DATA_DIRTY.__bss: 0x2660 sha256:688ae7f701131e2f4606af966da32713aa95c82eea67d32101d7142dc5d81b10
++  __DATA_DIRTY.__bss: 0x2560 sha256:1e2fde5fcaf27679ef1977ff5015bba60e2907adee812ecef5cf27d14716d371
+   __DATA_DIRTY.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A69073A4-AC3C-327B-BE74-6DC2AD13EC13
+-  Functions: 7355
+-  Symbols:   13629
+-  CStrings:  2820
++  UUID: 844B0BC7-DF0D-330B-9549-7DFF1B152456
++  Functions: 7347
++  Symbols:   13527
++  CStrings:  2864
+ 
+Symbols:
++ +[WFWorkoutTrigger(BiomeContext) registerContextSyncClient]
++ +[WFWorkoutTrigger(BiomeContext) unregisterContextSyncClient]
++ -[WFAppInFocusTrigger(BiomeContext) publisherWithScheduler:]
++ -[WFAppInFocusTrigger(BiomeContext) shouldFireInResponseToEvent:triggerIdentifier:completion:]
++ -[WFTriggerEventQueue didFinishRunningWithError:cancelled:triggerKey:eventInfo:runEvent:]
++ -[WFTriggerEventQueue enqueueTriggerWithKey:eventInfo:force:completion:]
++ -[WFTriggerEventQueue notificationManager:didDismissTriggerWithKey:pendingTriggerEventIDs:]
++ -[WFTriggerEventQueue notificationManager:didFailToPostActionRequiredNotificationWithTriggerKey:pendingTriggerEventIDs:]
++ -[WFTriggerEventQueue notificationManager:didRequestDisablementOfTriggersWithKeys:]
++ -[WFTriggerEventQueue notificationManager:receivedConfirmationToRunTriggerWithKey:pendingTriggerEventIDs:]
++ -[WFTriggerEventQueue notificationManager:receivedContinuePotentialLoopForTriggerWithKey:pendingTriggerEventIDs:]
++ -[WFTriggerEventQueue notificationManager:receivedStopPotentialLoopForTriggerWithKey:]
++ -[WFTriggerEventQueue registerDebounceDuration:forTriggerWithKey:]
++ -[WFTriggerEventQueue resumeWithTriggerKey:workflowReference:eventInfo:completion:]
++ -[WFTriggerEventQueue runWithTriggerKey:workflowReference:eventInfo:completion:]
++ -[WFTriggerEventQueue sendRateLimitEncounteredNotificationForTriggerWithKey:]
++ -[WFTriggerEventQueue shouldRunTriggerWithKey:shouldPrompt:forEvent:runEvents:error:]
++ -[WFTriggerEventQueue unregisterDebounceForTriggerWithKey:]
++ -[WFTriggerEventRunner inProgressTriggerKey]
++ -[WFTriggerEventRunner logPowerLogEventForTriggerKey:workflowReference:]
++ -[WFTriggerEventRunner setInProgressTriggerKey:]
++ -[WFTriggerEventRunner startRunningWorkflow:forTriggerKey:eventInfo:completion:]
++ -[WFTriggerNotificationDebouncer addEventsWithIdentifiers:notificationType:triggerKey:workflowReference:]
++ -[WFTriggerNotificationDebouncerItem initWithTriggerKey:notificationType:reference:triggerEventIDs:debouncer:]
++ -[WFTriggerNotificationDebouncerItem triggerKey]
++ -[WFTriggerNotificationScheduler cancelActivitiesFromTriggerKey:]
++ -[WFTriggerNotificationScheduler cancelActivitiesFromTriggerKeyOnQueue:]
++ -[WFTriggerNotificationScheduler initialRunDateForTriggerKey:]
++ -[WFTriggerNotificationScheduler postBackgroundRunningNotificationForTriggerKey:]
++ -[WFTriggerNotificationScheduler registerTriggerWithKey:delay:]
++ -[WFTriggerNotificationScheduler scheduleTriggerForNotificationsWithKey:]
++ -[WFTriggerNotificationScheduler updateTriggerNotificationLevelsForKeys:]
++ -[WFTriggerUserNotificationManager _postNotificationOfType:forTriggerKey:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:]
++ -[WFTriggerUserNotificationManager postActionRequiredNotificationForTriggerKey:notificationType:workflowReference:pendingTriggerEventIDs:]
++ -[WFTriggerUserNotificationManager postNotificationOfType:forTriggerKey:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:]
++ -[WFTriggerUserNotificationManager postNotificationThatTriggerWithKey:failedWithError:notificationRequestIdentifier:]
++ -[WFTriggerUserNotificationManager removeNotificationsWithTriggerKey:]
++ -[WFWorkoutTrigger(BiomeContext) hasRemotePublisher]
++ -[WFWorkoutTrigger(BiomeContext) publisherWithScheduler:]
++ -[WFWorkoutTrigger(BiomeContext) remotePublisherWithScheduler:]
++ -[WFWorkoutTrigger(BiomeContext) shouldFireInResponseToEvent:triggerIdentifier:completion:]
++ GCC_except_table1004
++ GCC_except_table1010
++ GCC_except_table1012
++ GCC_except_table1030
++ GCC_except_table1109
++ GCC_except_table1122
++ GCC_except_table1150
++ GCC_except_table1211
++ GCC_except_table1217
++ GCC_except_table1222
++ GCC_except_table1223
++ GCC_except_table1228
++ GCC_except_table1281
++ GCC_except_table1352
++ GCC_except_table1380
++ GCC_except_table1392
++ GCC_except_table1397
++ GCC_except_table1399
++ GCC_except_table1411
++ GCC_except_table1413
++ GCC_except_table1415
++ GCC_except_table1416
++ GCC_except_table1418
++ GCC_except_table1419
++ GCC_except_table1432
++ GCC_except_table1466
++ GCC_except_table1470
++ GCC_except_table1484
++ GCC_except_table1489
++ GCC_except_table1499
++ GCC_except_table1505
++ GCC_except_table1537
++ GCC_except_table1541
++ GCC_except_table1559
++ GCC_except_table1563
++ GCC_except_table1577
++ GCC_except_table1579
++ GCC_except_table1583
++ GCC_except_table1601
++ GCC_except_table1604
++ GCC_except_table1618
++ GCC_except_table231
++ GCC_except_table302
++ GCC_except_table316
++ GCC_except_table335
++ GCC_except_table343
++ GCC_except_table370
++ GCC_except_table392
++ GCC_except_table455
++ GCC_except_table474
++ GCC_except_table553
++ GCC_except_table564
++ GCC_except_table635
++ GCC_except_table636
++ GCC_except_table649
++ GCC_except_table660
++ GCC_except_table845
++ GCC_except_table978
++ _HealthKitLibrary.sLib
++ _HealthKitLibrary.sOnce
++ _OBJC_CLASS_$_BMAppInFocus
++ _OBJC_CLASS_$_BMContextSyncWorkout
++ _OBJC_CLASS_$_BMHealthWorkout
++ _OBJC_CLASS_$_WFAppInFocusTrigger
++ _OBJC_CLASS_$_WFUnifiedTriggerKey
++ _OBJC_CLASS_$_WFWorkoutTrigger
++ _OBJC_IVAR_$_WFTriggerEventRunner._inProgressTriggerKey
++ _OBJC_IVAR_$_WFTriggerNotificationDebouncerItem._triggerKey
++ _WFDatabaseErrorDomain
++ _WFDeviceCapabilityWAPI
++ _WFSystemNotificationIdentifierIsForTrigger
++ _WFTriggerKeyFromNotificationUserInfo
++ _WFTriggerKeysToDisableFromNotificationUserInfo
++ _WFTriggerSystemNotificationIdentifier
++ __OBJC_$_CATEGORY_CLASS_METHODS_WFWorkoutTrigger_$_BiomeContext
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_WFAppInFocusTrigger_$_BiomeContext
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_WFWorkoutTrigger_$_BiomeContext
++ __OBJC_$_CATEGORY_WFAppInFocusTrigger_$_BiomeContext
++ __OBJC_$_CATEGORY_WFWorkoutTrigger_$_BiomeContext
++ ___105-[WFTriggerNotificationDebouncer addEventsWithIdentifiers:notificationType:triggerKey:workflowReference:]_block_invoke
++ ___106-[WFTriggerEventQueue notificationManager:receivedConfirmationToRunTriggerWithKey:pendingTriggerEventIDs:]_block_invoke
++ ___106-[WFTriggerEventQueue notificationManager:receivedConfirmationToRunTriggerWithKey:pendingTriggerEventIDs:]_block_invoke.226
++ ___106-[WFTriggerEventQueue notificationManager:receivedConfirmationToRunTriggerWithKey:pendingTriggerEventIDs:]_block_invoke_2
++ ___113-[WFTriggerEventQueue notificationManager:receivedContinuePotentialLoopForTriggerWithKey:pendingTriggerEventIDs:]_block_invoke
++ ___113-[WFTriggerEventQueue notificationManager:receivedContinuePotentialLoopForTriggerWithKey:pendingTriggerEventIDs:]_block_invoke.227
++ ___113-[WFTriggerEventQueue notificationManager:receivedContinuePotentialLoopForTriggerWithKey:pendingTriggerEventIDs:]_block_invoke_2
++ ___117-[WFTriggerUserNotificationManager postNotificationThatTriggerWithKey:failedWithError:notificationRequestIdentifier:]_block_invoke
++ ___120-[WFTriggerEventQueue notificationManager:didFailToPostActionRequiredNotificationWithTriggerKey:pendingTriggerEventIDs:]_block_invoke
++ ___162-[WFTriggerUserNotificationManager _postNotificationOfType:forTriggerKey:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:]_block_invoke
++ ___162-[WFTriggerUserNotificationManager _postNotificationOfType:forTriggerKey:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:]_block_invoke.259
++ ___59-[WFTriggerEventQueue unregisterDebounceForTriggerWithKey:]_block_invoke
++ ___63-[WFTriggerNotificationScheduler registerTriggerWithKey:delay:]_block_invoke
++ ___63-[WFTriggerNotificationScheduler registerTriggerWithKey:delay:]_block_invoke.177
++ ___63-[WFTriggerNotificationScheduler registerTriggerWithKey:delay:]_block_invoke.179
++ ___63-[WFTriggerNotificationScheduler registerTriggerWithKey:delay:]_block_invoke.181
++ ___63-[WFTriggerNotificationScheduler registerTriggerWithKey:delay:]_block_invoke_2
++ ___65-[WFTriggerNotificationScheduler cancelActivitiesFromTriggerKey:]_block_invoke
++ ___66-[WFTriggerEventQueue registerDebounceDuration:forTriggerWithKey:]_block_invoke
++ ___70-[WFTriggerUserNotificationManager removeNotificationsWithTriggerKey:]_block_invoke
++ ___70-[WFTriggerUserNotificationManager removeNotificationsWithTriggerKey:]_block_invoke_2
++ ___72-[WFTriggerEventQueue enqueueTriggerWithKey:eventInfo:force:completion:]_block_invoke
++ ___72-[WFTriggerEventQueue enqueueTriggerWithKey:eventInfo:force:completion:]_block_invoke.187
++ ___72-[WFTriggerEventQueue enqueueTriggerWithKey:eventInfo:force:completion:]_block_invoke.191
++ ___73-[WFTriggerNotificationScheduler scheduleTriggerForNotificationsWithKey:]_block_invoke
++ ___80-[WFTriggerEventQueue runWithTriggerKey:workflowReference:eventInfo:completion:]_block_invoke
++ ___80-[WFTriggerEventRunner startRunningWorkflow:forTriggerKey:eventInfo:completion:]_block_invoke
++ ___83-[WFTriggerEventQueue notificationManager:didRequestDisablementOfTriggersWithKeys:]_block_invoke
++ ___86-[WFTriggerEventQueue notificationManager:receivedStopPotentialLoopForTriggerWithKey:]_block_invoke
++ ___86-[WFTriggerEventQueue notificationManager:receivedStopPotentialLoopForTriggerWithKey:]_block_invoke.231
++ ___89-[WFTriggerEventQueue didFinishRunningWithError:cancelled:triggerKey:eventInfo:runEvent:]_block_invoke
++ ___91-[WFTriggerEventQueue notificationManager:didDismissTriggerWithKey:pendingTriggerEventIDs:]_block_invoke
++ ___Block_byref_object_copy_.1013
++ ___Block_byref_object_copy_.1166
++ ___Block_byref_object_copy_.3106
++ ___Block_byref_object_copy_.3275
++ ___Block_byref_object_copy_.3481
++ ___Block_byref_object_copy_.4139
++ ___Block_byref_object_copy_.4414
++ ___Block_byref_object_copy_.5280
++ ___Block_byref_object_copy_.5572
++ ___Block_byref_object_copy_.5688
++ ___Block_byref_object_copy_.5843
++ ___Block_byref_object_copy_.5959
++ ___Block_byref_object_copy_.659
++ ___Block_byref_object_dispose_.1014
++ ___Block_byref_object_dispose_.1167
++ ___Block_byref_object_dispose_.3107
++ ___Block_byref_object_dispose_.3276
++ ___Block_byref_object_dispose_.3482
++ ___Block_byref_object_dispose_.4140
++ ___Block_byref_object_dispose_.4415
++ ___Block_byref_object_dispose_.5281
++ ___Block_byref_object_dispose_.5573
++ ___Block_byref_object_dispose_.5689
++ ___Block_byref_object_dispose_.5844
++ ___Block_byref_object_dispose_.5960
++ ___Block_byref_object_dispose_.660
++ ___HealthKitLibrary_block_invoke
++ ___block_literal_global.1099
++ ___block_literal_global.1178
++ ___block_literal_global.1396
++ ___block_literal_global.1490
++ ___block_literal_global.194.2449
++ ___block_literal_global.2199
++ ___block_literal_global.230
++ ___block_literal_global.234
++ ___block_literal_global.252.5002
++ ___block_literal_global.2520
++ ___block_literal_global.270.5287
++ ___block_literal_global.2753
++ ___block_literal_global.302
++ ___block_literal_global.3189
++ ___block_literal_global.3291
++ ___block_literal_global.3509
++ ___block_literal_global.3709
++ ___block_literal_global.372
++ ___block_literal_global.4463
++ ___block_literal_global.5000
++ ___block_literal_global.5330
++ ___block_literal_global.5571
++ ___block_literal_global.5712
++ ___block_literal_global.589
++ ___block_literal_global.591
++ ___block_literal_global.5946
++ ___block_literal_global.632
++ ___block_literal_global.6340
++ ___block_literal_global.661
++ ___swift_closure_destructor.45
++ _associated conformance 19VoiceShortcutClient37XPCDistributedNotificationEventStreamVyxG0A9Shortcuts014DaemonXPCEventG0AE0F0AE0iF6SourceP_Se
++ _associated conformance 19VoiceShortcutClient37XPCDistributedNotificationEventStreamVyxG0A9Shortcuts014DaemonXPCEventG0AE10DescriptorAeFP_AE0ifK0
++ _associated conformance 19VoiceShortcutClient37XPCDistributedNotificationEventStreamVyxG0A9Shortcuts06DaemonF6SourceAE0F0AeFP_AE0iF0
++ _associated conformance SC19WFDatabaseErrorCodeLeV10Foundation021_ObjectiveCBridgeableB0SCs0B0
++ _associated conformance SC19WFDatabaseErrorCodeLeV10Foundation13CustomNSErrorSCs0B0
++ _associated conformance SC19WFDatabaseErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0C0AcDP_8RawValueSYs17FixedWidthInteger
++ _associated conformance SC19WFDatabaseErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0C0AcDP_AC01_bC8Protocol
++ _associated conformance SC19WFDatabaseErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0C0AcDP_SY
++ _associated conformance SC19WFDatabaseErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCAC021_ObjectiveCBridgeableB0
++ _associated conformance SC19WFDatabaseErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomG0
++ _associated conformance SC19WFDatabaseErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCSH
++ _associated conformance SC19WFDatabaseErrorCodeLeVSHSCSQ
++ _associated conformance So19WFDatabaseErrorCodeV10Foundation01_bC8ProtocolSC01_B4TypeAcDP_AC21_BridgedStoredNSError
++ _associated conformance So19WFDatabaseErrorCodeV10Foundation01_bC8ProtocolSCSQ
++ _init_HKWorkoutActivityNameForActivityType
++ _objc_msgSend$App
++ _objc_msgSend$Health
++ _objc_msgSend$InFocus
++ _objc_msgSend$Workout
++ _objc_msgSend$_postNotificationOfType:forTriggerKey:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:
++ _objc_msgSend$activityType
++ _objc_msgSend$addEventsWithIdentifiers:notificationType:triggerKey:workflowReference:
++ _objc_msgSend$backgroundRunningNotificationUserInfoForTriggerKeys:
++ _objc_msgSend$bundleID
++ _objc_msgSend$cancelActivitiesFromTriggerKeyOnQueue:
++ _objc_msgSend$cleanupEventInfoForTriggerWithKey:eventInfo:
++ _objc_msgSend$contentCollectionForTriggerWithKey:eventInfo:completion:
++ _objc_msgSend$createTriggerEventForKey:eventInfo:confirmed:paused:error:
++ _objc_msgSend$createTriggerEventForTriggerKey:eventInfo:confirmed:paused:error:
++ _objc_msgSend$didFinishRunningWithError:cancelled:triggerKey:eventInfo:runEvent:
++ _objc_msgSend$disableTriggersWithKeys:reason:
++ _objc_msgSend$discardsEventsDuringBootQuarantineForTriggerKey:
++ _objc_msgSend$enqueueTriggerWithKey:eventInfo:force:completion:
++ _objc_msgSend$inProgressTriggerKey
++ _objc_msgSend$initWithTriggerKey:notificationType:reference:triggerEventIDs:debouncer:
++ _objc_msgSend$initWithWorkflowID:triggerID:
++ _objc_msgSend$initialRunDateForTriggerKey:
++ _objc_msgSend$isAllowedToRunAutomaticallyForTriggerKey:
++ _objc_msgSend$isEmailOrMessageTriggerForKey:
++ _objc_msgSend$isFirstPartyDonation
++ _objc_msgSend$latestRunEventForLegacyTriggerIdentifier:
++ _objc_msgSend$launchReason
++ _objc_msgSend$localizedDescriptionWithConfigurationSummaryForTriggerKey:
++ _objc_msgSend$localizedPastTenseDescriptionForTriggerKey:
++ _objc_msgSend$logPowerLogEventForTriggerKey:workflowReference:
++ _objc_msgSend$logRunOfWorkflow:triggerKey:
++ _objc_msgSend$notificationLevelForTriggerKey:
++ _objc_msgSend$notificationManager:didDismissTriggerWithKey:pendingTriggerEventIDs:
++ _objc_msgSend$notificationManager:didFailToPostActionRequiredNotificationWithTriggerKey:pendingTriggerEventIDs:
++ _objc_msgSend$notificationManager:didRequestDisablementOfTriggersWithKeys:
++ _objc_msgSend$notificationManager:receivedConfirmationToRunTriggerWithKey:pendingTriggerEventIDs:
++ _objc_msgSend$notificationManager:receivedContinuePotentialLoopForTriggerWithKey:pendingTriggerEventIDs:
++ _objc_msgSend$notificationManager:receivedStopPotentialLoopForTriggerWithKey:
++ _objc_msgSend$onBackground
++ _objc_msgSend$onEnd
++ _objc_msgSend$onFocus
++ _objc_msgSend$onStart
++ _objc_msgSend$pauseLoopNotificationTitleForTriggerKey:
++ _objc_msgSend$postActionRequiredNotificationForTriggerKey:notificationType:workflowReference:pendingTriggerEventIDs:
++ _objc_msgSend$postBackgroundRunningNotificationForTriggerKey:
++ _objc_msgSend$postNotificationOfType:forTriggerKey:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:
++ _objc_msgSend$postNotificationThatTriggerWithKey:failedWithError:notificationRequestIdentifier:
++ _objc_msgSend$potentialLoopDetectedForTriggerKey:
++ _objc_msgSend$powerLogEventKindForTriggerWithKey:
++ _objc_msgSend$promptNotificationTitleForTriggerKey:pendingCount:
++ _objc_msgSend$registerDebounceDuration:forTriggerWithKey:
++ _objc_msgSend$registerTriggerWithKey:delay:
++ _objc_msgSend$requiresEventInfoAsInputForTriggerKey:
++ _objc_msgSend$requiresNotificationForTriggerKey:
++ _objc_msgSend$resumeWithTriggerKey:workflowReference:eventInfo:completion:
++ _objc_msgSend$runWithTriggerKey:workflowReference:eventInfo:completion:
++ _objc_msgSend$scheduleTriggerForNotificationsWithKey:
++ _objc_msgSend$selectedWorkoutTypes
++ _objc_msgSend$sendRateLimitEncounteredNotificationForTriggerWithKey:
++ _objc_msgSend$setInProgressTriggerKey:
++ _objc_msgSend$shouldNotifyForTriggerKey:
++ _objc_msgSend$shouldPromptForTriggerKey:
++ _objc_msgSend$shouldRunTriggerWithKey:shouldPrompt:forEvent:runEvents:error:
++ _objc_msgSend$sortedRunEventsForTriggerKey:error:
++ _objc_msgSend$sortedRunEventsForWorkflowID:triggerID:
++ _objc_msgSend$startRunningWorkflow:forTriggerKey:eventInfo:completion:
++ _objc_msgSend$storeLoopDetectionForTriggerWithKey:loopDetected:
++ _objc_msgSend$trackTriggeredAutomationForKey:shouldPrompt:triggerClassName:
++ _objc_msgSend$trackedFilesystemNodeForTriggerKey:
++ _objc_msgSend$triggerClassNameForKey:
++ _objc_msgSend$triggerEventsForKey:error:
++ _objc_msgSend$triggerEventsForUnifiedTrigger:
++ _objc_msgSend$triggerExistsWithKey:
++ _objc_msgSend$triggerKey
++ _objc_msgSend$triggerKeysNeedingRunningNotifications
++ _objc_msgSend$unregisterDebounceForTriggerWithKey:
++ _objc_msgSend$unsignedIntegerValue
++ _objc_msgSend$updateNotificationLevel:forTriggerKey:error:
++ _objc_msgSend$updateTriggerNotificationLevelsForKeys:
++ _objc_msgSend$urlNeedingAccessForTriggerWithKey:contentCollection:
++ _objc_msgSend$workflowID
++ _objc_msgSend$workflowNameForTriggerKey:
++ _objc_msgSend$workflowReferenceForTriggerKey:
++ _softLink_HKWorkoutActivityNameForActivityType
++ _symbolic $s10Foundation18_ErrorCodeProtocolP
++ _symbolic $s10Foundation21_BridgedStoredNSErrorP
++ _symbolic SDySo19WFUnifiedTriggerKeyC_____G 14VoiceShortcuts18WFTriggerRegistrarC19TriggerRegistrationV
++ _symbolic So19WFUnifiedTriggerKeyC
++ _symbolic So19WFUnifiedTriggerKeyC3key______5valuet 14VoiceShortcuts18WFTriggerRegistrarC19TriggerRegistrationV
++ _symbolic So7NSErrorC
++ _symbolic So8NSObjectCIego_
++ _symbolic So8NSObjectCSgIego_
++ _symbolic _____ 11WorkflowKit27ImmediateIndexingControllerC
++ _symbolic _____ 19VoiceShortcutClient37XPCDistributedNotificationStreamEventV
++ _symbolic _____ SC19WFDatabaseErrorCodeLeV
++ _symbolic _____ So19WFDatabaseErrorCodeV
++ _symbolic _____Iegn_ 19VoiceShortcutClient37XPCDistributedNotificationStreamEventV
++ _symbolic _____SbIegnd_ 19VoiceShortcutClient37XPCDistributedNotificationStreamEventV
++ _symbolic __________Iegnr_ 19VoiceShortcutClient37XPCDistributedNotificationStreamEventV 0A9Shortcuts06DaemongF0V014DatabaseChangeG0V
++ _symbolic __________Iegnr_ 19VoiceShortcutClient37XPCDistributedNotificationStreamEventV 0A9Shortcuts06DaemongF0V021ApplicationRegisteredG0V
++ _symbolic __________Iegnr_ 19VoiceShortcutClient37XPCDistributedNotificationStreamEventV 0A9Shortcuts06DaemongF0V026ToolKitLocalDatabaseChangeG0V
++ _symbolic __________Iegnr_ 19VoiceShortcutClient37XPCDistributedNotificationStreamEventV 0A9Shortcuts06DaemongF0V03Apph7ChangedG0V
++ _symbolic ___________pIegHnzo_ 19VoiceShortcutClient37XPCDistributedNotificationStreamEventV s5ErrorP
++ _symbolic _____ySo19WFUnifiedTriggerKeyC_____G s17_NativeDictionaryV 14VoiceShortcuts18WFTriggerRegistrarC19TriggerRegistrationV
++ _symbolic _____ySo19WFUnifiedTriggerKeyC_____G s18_DictionaryStorageC 14VoiceShortcuts18WFTriggerRegistrarC19TriggerRegistrationV
++ _symbolic _____y_____G 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV AA17DistnotedMatchingO
++ _symbolic _____y_____G 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV AA24DistnotedMatchingTrustedO
++ _type_layout_string SC19WFDatabaseErrorCodeLeV
+- -[WFTriggerEventQueue didFinishRunningWithError:cancelled:triggerIdentifier:eventInfo:runEvent:]
+- -[WFTriggerEventQueue enqueueTriggerWithIdentifier:eventInfo:force:completion:]
+- -[WFTriggerEventQueue notificationManager:didDismissTriggerWithIdentifier:pendingTriggerEventIDs:]
+- -[WFTriggerEventQueue notificationManager:didFailToPostActionRequiredNotificationWithTriggerIdentifier:pendingTriggerEventIDs:]
+- -[WFTriggerEventQueue notificationManager:didRequestDisablementOfTriggersWithIdentifiers:]
+- -[WFTriggerEventQueue notificationManager:receivedConfirmationToRunTriggerWithIdentifier:pendingTriggerEventIDs:]
+- -[WFTriggerEventQueue notificationManager:receivedContinuePotentialLoopForTriggerWithIdentifier:pendingTriggerEventIDs:]
+- -[WFTriggerEventQueue notificationManager:receivedStopPotentialLoopForTriggerWithIdentifier:]
+- -[WFTriggerEventQueue registerDebounceDuration:forTriggerWithIdentifier:]
+- -[WFTriggerEventQueue resumeWithTriggerIdentifier:workflowReference:eventInfo:completion:]
+- -[WFTriggerEventQueue runWithTriggerIdentifier:workflowReference:eventInfo:completion:]
+- -[WFTriggerEventQueue sendRateLimitEncounteredNotificationForTriggerIdentifier:]
+- -[WFTriggerEventQueue shouldRunTriggerWithIdentifier:shouldPrompt:forEvent:runEvents:error:]
+- -[WFTriggerEventQueue unregisterDebounceForTriggerWithIdentifier:]
+- -[WFTriggerEventRunner inProgressTriggerIdentifier]
+- -[WFTriggerEventRunner logPowerLogEventForTriggerIdentifier:workflowReference:]
+- -[WFTriggerEventRunner setInProgressTriggerIdentifier:]
+- -[WFTriggerEventRunner startRunningWorkflow:forTriggerIdentifier:eventInfo:completion:]
+- -[WFTriggerNotificationDebouncer addEventsWithIdentifiers:notificationType:triggerIdentifier:workflowReference:]
+- -[WFTriggerNotificationDebouncerItem initWithTriggerIdentifier:notificationType:reference:triggerEventIDs:debouncer:]
+- -[WFTriggerNotificationDebouncerItem triggerIdentifier]
+- -[WFTriggerNotificationScheduler cancelActivitiesFromTriggerIdentifier:]
+- -[WFTriggerNotificationScheduler cancelActivitiesFromTriggerIdentifierOnQueue:]
+- -[WFTriggerNotificationScheduler initialRunDateForTriggerIdentifier:]
+- -[WFTriggerNotificationScheduler postBackgroundRunningNotificationForTriggerIdentifier:]
+- -[WFTriggerNotificationScheduler registerTriggerWithIdentifier:delay:]
+- -[WFTriggerNotificationScheduler scheduleTriggerForNotificationsWithIdentifier:]
+- -[WFTriggerNotificationScheduler updateTriggerNotificationLevelsForIdentifiers:]
+- -[WFTriggerUserNotificationManager _postNotificationOfType:forTriggerIdentifier:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:]
+- -[WFTriggerUserNotificationManager postActionRequiredNotificationForTriggerIdentifier:notificationType:workflowReference:pendingTriggerEventIDs:]
+- -[WFTriggerUserNotificationManager postNotificationOfType:forTriggerIdentifier:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:]
+- -[WFTriggerUserNotificationManager postNotificationThatTriggerWithIdentifier:failedWithError:notificationRequestIdentifier:]
+- -[WFTriggerUserNotificationManager removeNotificationsWithTriggerIdentifier:]
+- GCC_except_table1001
+- GCC_except_table1003
+- GCC_except_table1021
+- GCC_except_table1100
+- GCC_except_table1113
+- GCC_except_table1141
+- GCC_except_table1202
+- GCC_except_table1208
+- GCC_except_table1210
+- GCC_except_table1213
+- GCC_except_table1214
+- GCC_except_table1272
+- GCC_except_table1343
+- GCC_except_table1371
+- GCC_except_table1383
+- GCC_except_table1388
+- GCC_except_table1390
+- GCC_except_table1391
+- GCC_except_table1398
+- GCC_except_table1402
+- GCC_except_table1404
+- GCC_except_table1406
+- GCC_except_table1410
+- GCC_except_table1423
+- GCC_except_table1457
+- GCC_except_table1461
+- GCC_except_table1475
+- GCC_except_table1480
+- GCC_except_table1490
+- GCC_except_table1496
+- GCC_except_table1528
+- GCC_except_table1532
+- GCC_except_table1550
+- GCC_except_table1554
+- GCC_except_table1568
+- GCC_except_table1570
+- GCC_except_table1574
+- GCC_except_table1592
+- GCC_except_table1595
+- GCC_except_table1609
+- GCC_except_table232
+- GCC_except_table297
+- GCC_except_table311
+- GCC_except_table330
+- GCC_except_table338
+- GCC_except_table361
+- GCC_except_table383
+- GCC_except_table446
+- GCC_except_table465
+- GCC_except_table544
+- GCC_except_table555
+- GCC_except_table626
+- GCC_except_table627
+- GCC_except_table640
+- GCC_except_table651
+- GCC_except_table836
+- GCC_except_table969
+- GCC_except_table995
+- _OBJC_CLASS_$_WFEmailTrigger
+- _OBJC_CLASS_$_WFMessageTrigger
+- _OBJC_IVAR_$_WFTriggerEventRunner._inProgressTriggerIdentifier
+- _OBJC_IVAR_$_WFTriggerNotificationDebouncerItem._triggerIdentifier
+- _OUTLINED_FUNCTION_215
+- _OUTLINED_FUNCTION_216
+- _OUTLINED_FUNCTION_217
+- _OUTLINED_FUNCTION_218
+- _OUTLINED_FUNCTION_219
+- _OUTLINED_FUNCTION_220
+- _OUTLINED_FUNCTION_221
+- _OUTLINED_FUNCTION_222
+- _OUTLINED_FUNCTION_223
+- _OUTLINED_FUNCTION_224
+- _OUTLINED_FUNCTION_225
+- _OUTLINED_FUNCTION_226
+- _OUTLINED_FUNCTION_227
+- _OUTLINED_FUNCTION_228
+- _OUTLINED_FUNCTION_229
+- _OUTLINED_FUNCTION_230
+- _OUTLINED_FUNCTION_231
+- _OUTLINED_FUNCTION_232
+- _OUTLINED_FUNCTION_233
+- _OUTLINED_FUNCTION_234
+- _OUTLINED_FUNCTION_235
+- _OUTLINED_FUNCTION_236
+- _OUTLINED_FUNCTION_237
+- _OUTLINED_FUNCTION_238
+- _OUTLINED_FUNCTION_239
+- _OUTLINED_FUNCTION_240
+- _OUTLINED_FUNCTION_241
+- _OUTLINED_FUNCTION_242
+- _OUTLINED_FUNCTION_243
+- _VCXPCEventToolkitDatabaseChanged
+- _WFDaemonTaskOutcomeCancelled
+- _WFDaemonTaskOutcomeFailed
+- _WFDaemonTaskOutcomeFinished
+- _WFDaemonTaskOutcomeNotFound
+- _WFDaemonTransactionBehaviorConcurrent
+- _WFDaemonTransactionBehaviorSuspending
+- _WFTriggerIDFromNotificationUserInfo
+- _WFTriggerIDsToDisableFromNotificationUserInfo
+- _WFTriggerIdentifierFromXPCActivityIdentifier
+- _WFTriggerSystemNotificationIdentifierPrefix
+- ___112-[WFTriggerNotificationDebouncer addEventsWithIdentifiers:notificationType:triggerIdentifier:workflowReference:]_block_invoke
+- ___113-[WFTriggerEventQueue notificationManager:receivedConfirmationToRunTriggerWithIdentifier:pendingTriggerEventIDs:]_block_invoke
+- ___113-[WFTriggerEventQueue notificationManager:receivedConfirmationToRunTriggerWithIdentifier:pendingTriggerEventIDs:]_block_invoke.228
+- ___113-[WFTriggerEventQueue notificationManager:receivedConfirmationToRunTriggerWithIdentifier:pendingTriggerEventIDs:]_block_invoke_2
+- ___120-[WFTriggerEventQueue notificationManager:receivedContinuePotentialLoopForTriggerWithIdentifier:pendingTriggerEventIDs:]_block_invoke
+- ___120-[WFTriggerEventQueue notificationManager:receivedContinuePotentialLoopForTriggerWithIdentifier:pendingTriggerEventIDs:]_block_invoke.229
+- ___120-[WFTriggerEventQueue notificationManager:receivedContinuePotentialLoopForTriggerWithIdentifier:pendingTriggerEventIDs:]_block_invoke_2
+- ___124-[WFTriggerUserNotificationManager postNotificationThatTriggerWithIdentifier:failedWithError:notificationRequestIdentifier:]_block_invoke
+- ___127-[WFTriggerEventQueue notificationManager:didFailToPostActionRequiredNotificationWithTriggerIdentifier:pendingTriggerEventIDs:]_block_invoke
+- ___169-[WFTriggerUserNotificationManager _postNotificationOfType:forTriggerIdentifier:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:]_block_invoke
+- ___169-[WFTriggerUserNotificationManager _postNotificationOfType:forTriggerIdentifier:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:]_block_invoke.262
+- ___66-[WFTriggerEventQueue unregisterDebounceForTriggerWithIdentifier:]_block_invoke
+- ___70-[WFTriggerNotificationScheduler registerTriggerWithIdentifier:delay:]_block_invoke
+- ___70-[WFTriggerNotificationScheduler registerTriggerWithIdentifier:delay:]_block_invoke.177
+- ___70-[WFTriggerNotificationScheduler registerTriggerWithIdentifier:delay:]_block_invoke.179
+- ___70-[WFTriggerNotificationScheduler registerTriggerWithIdentifier:delay:]_block_invoke.181
+- ___70-[WFTriggerNotificationScheduler registerTriggerWithIdentifier:delay:]_block_invoke_2
+- ___72-[WFTriggerNotificationScheduler cancelActivitiesFromTriggerIdentifier:]_block_invoke
+- ___73-[WFTriggerEventQueue registerDebounceDuration:forTriggerWithIdentifier:]_block_invoke
+- ___77-[WFTriggerUserNotificationManager removeNotificationsWithTriggerIdentifier:]_block_invoke
+- ___77-[WFTriggerUserNotificationManager removeNotificationsWithTriggerIdentifier:]_block_invoke_2
+- ___79-[WFTriggerEventQueue enqueueTriggerWithIdentifier:eventInfo:force:completion:]_block_invoke
+- ___79-[WFTriggerEventQueue enqueueTriggerWithIdentifier:eventInfo:force:completion:]_block_invoke.189
+- ___79-[WFTriggerEventQueue enqueueTriggerWithIdentifier:eventInfo:force:completion:]_block_invoke.193
+- ___80-[WFTriggerNotificationScheduler scheduleTriggerForNotificationsWithIdentifier:]_block_invoke
+- ___87-[WFTriggerEventQueue runWithTriggerIdentifier:workflowReference:eventInfo:completion:]_block_invoke
+- ___87-[WFTriggerEventRunner startRunningWorkflow:forTriggerIdentifier:eventInfo:completion:]_block_invoke
+- ___90-[WFTriggerEventQueue notificationManager:didRequestDisablementOfTriggersWithIdentifiers:]_block_invoke
+- ___93-[WFTriggerEventQueue notificationManager:receivedStopPotentialLoopForTriggerWithIdentifier:]_block_invoke
+- ___93-[WFTriggerEventQueue notificationManager:receivedStopPotentialLoopForTriggerWithIdentifier:]_block_invoke.233
+- ___96-[WFTriggerEventQueue didFinishRunningWithError:cancelled:triggerIdentifier:eventInfo:runEvent:]_block_invoke
+- ___98-[WFTriggerEventQueue notificationManager:didDismissTriggerWithIdentifier:pendingTriggerEventIDs:]_block_invoke
+- ___Block_byref_object_copy_.1031
+- ___Block_byref_object_copy_.1184
+- ___Block_byref_object_copy_.3123
+- ___Block_byref_object_copy_.3292
+- ___Block_byref_object_copy_.3497
+- ___Block_byref_object_copy_.4156
+- ___Block_byref_object_copy_.4422
+- ___Block_byref_object_copy_.5286
+- ___Block_byref_object_copy_.5580
+- ___Block_byref_object_copy_.5696
+- ___Block_byref_object_copy_.5851
+- ___Block_byref_object_copy_.5967
+- ___Block_byref_object_copy_.671
+- ___Block_byref_object_dispose_.1032
+- ___Block_byref_object_dispose_.1185
+- ___Block_byref_object_dispose_.3124
+- ___Block_byref_object_dispose_.3293
+- ___Block_byref_object_dispose_.3498
+- ___Block_byref_object_dispose_.4157
+- ___Block_byref_object_dispose_.4423
+- ___Block_byref_object_dispose_.5287
+- ___Block_byref_object_dispose_.5581
+- ___Block_byref_object_dispose_.5697
+- ___Block_byref_object_dispose_.5852
+- ___Block_byref_object_dispose_.5968
+- ___Block_byref_object_dispose_.672
+- ___block_literal_global.1117
+- ___block_literal_global.1197
+- ___block_literal_global.1416
+- ___block_literal_global.1511
+- ___block_literal_global.207
+- ___block_literal_global.222
+- ___block_literal_global.2227
+- ___block_literal_global.232
+- ___block_literal_global.236
+- ___block_literal_global.252.5006
+- ___block_literal_global.2549
+- ___block_literal_global.270.5293
+- ___block_literal_global.2774
+- ___block_literal_global.304
+- ___block_literal_global.3205
+- ___block_literal_global.3310
+- ___block_literal_global.3527
+- ___block_literal_global.3727
+- ___block_literal_global.374
+- ___block_literal_global.4469
+- ___block_literal_global.5004
+- ___block_literal_global.5336
+- ___block_literal_global.5579
+- ___block_literal_global.5720
+- ___block_literal_global.576
+- ___block_literal_global.5954
+- ___block_literal_global.6347
+- ___block_literal_global.673
+- ___swift_closure_destructor.63
+- ___swift_closure_destructor.66
+- _associated conformance 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0A9Shortcuts014DaemonXPCEventG0AD0F0AD0iF6SourceP_Se
+- _associated conformance 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0A9Shortcuts014DaemonXPCEventG0AD10DescriptorAdEP_AD0ifK0
+- _associated conformance 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0A9Shortcuts06DaemonF6SourceAD0F0AdEP_AD0iF0
+- _block_copy_helper.34
+- _block_descriptor.36
+- _block_destroy_helper.35
+- _objc_msgSend$_postNotificationOfType:forTriggerIdentifier:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:
+- _objc_msgSend$addEventsWithIdentifiers:notificationType:triggerIdentifier:workflowReference:
+- _objc_msgSend$allConfiguredTriggersNeedingRunningNotifications
+- _objc_msgSend$backgroundRunningNotificationUserInfoForTriggerIdentifiers:
+- _objc_msgSend$cancelActivitiesFromTriggerIdentifierOnQueue:
+- _objc_msgSend$cleanupEventInfo:
+- _objc_msgSend$cleanupEventInfoForTriggerWithIdentifier:eventInfo:
+- _objc_msgSend$contentCollectionForTriggerWithIdentifier:eventInfo:completion:
+- _objc_msgSend$contentCollectionWithEventInfo:completion:
+- _objc_msgSend$createTriggerEventForTriggerIdentifier:eventInfo:confirmed:paused:error:
+- _objc_msgSend$createTriggerEventWithTriggerID:eventInfo:confirmed:paused:error:
+- _objc_msgSend$didFinishRunningWithError:cancelled:triggerIdentifier:eventInfo:runEvent:
+- _objc_msgSend$disableTriggersWithIdentifiers:reason:
+- _objc_msgSend$discardsEventsDuringBootQuarantineForTriggerIdentifier:
+- _objc_msgSend$enqueueTriggerWithIdentifier:eventInfo:force:completion:
+- _objc_msgSend$hasPrefix:
+- _objc_msgSend$inProgressTriggerIdentifier
+- _objc_msgSend$initWithTriggerIdentifier:notificationType:reference:triggerEventIDs:debouncer:
+- _objc_msgSend$initialRunDateForTriggerIdentifier:
+- _objc_msgSend$isAllowedToRunAutomatically
+- _objc_msgSend$isAllowedToRunAutomaticallyForTriggerIdentifier:
+- _objc_msgSend$isEmailOrMessageTriggerForIdentifier:
+- _objc_msgSend$localizedDescriptionWithConfigurationSummary
+- _objc_msgSend$localizedDescriptionWithConfigurationSummaryForTriggerIdentifier:
+- _objc_msgSend$localizedDescriptionWithConfigurationSummaryWithCount:
+- _objc_msgSend$localizedPastTenseDescription
+- _objc_msgSend$localizedPastTenseDescriptionForTriggerIdentifier:
+- _objc_msgSend$logPowerLogEventForTriggerIdentifier:workflowReference:
+- _objc_msgSend$logRunOfWorkflow:triggerIdentifier:
+- _objc_msgSend$notificationLevel
+- _objc_msgSend$notificationLevelForTriggerIdentifier:
+- _objc_msgSend$notificationManager:didDismissTriggerWithIdentifier:pendingTriggerEventIDs:
+- _objc_msgSend$notificationManager:didFailToPostActionRequiredNotificationWithTriggerIdentifier:pendingTriggerEventIDs:
+- _objc_msgSend$notificationManager:didRequestDisablementOfTriggersWithIdentifiers:
+- _objc_msgSend$notificationManager:receivedConfirmationToRunTriggerWithIdentifier:pendingTriggerEventIDs:
+- _objc_msgSend$notificationManager:receivedContinuePotentialLoopForTriggerWithIdentifier:pendingTriggerEventIDs:
+- _objc_msgSend$notificationManager:receivedStopPotentialLoopForTriggerWithIdentifier:
+- _objc_msgSend$pauseLoopNotificationTitleForTriggerIdentifier:
+- _objc_msgSend$postActionRequiredNotificationForTriggerIdentifier:notificationType:workflowReference:pendingTriggerEventIDs:
+- _objc_msgSend$postBackgroundRunningNotificationForTriggerIdentifier:
+- _objc_msgSend$postNotificationOfType:forTriggerIdentifier:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:
+- _objc_msgSend$postNotificationThatTriggerWithIdentifier:failedWithError:notificationRequestIdentifier:
+- _objc_msgSend$potentialLoopDetected
+- _objc_msgSend$potentialLoopDetectedForTriggerIdentifier:
+- _objc_msgSend$powerLogEventKindForTrigger:
+- _objc_msgSend$powerLogEventKindForTriggerWithIdentifier:
+- _objc_msgSend$promptNotificationTitleForTriggerIdentifier:pendingCount:
+- _objc_msgSend$registerDebounceDuration:forTriggerWithIdentifier:
+- _objc_msgSend$registerTriggerWithIdentifier:delay:
+- _objc_msgSend$requiresEventInfoAsInput
+- _objc_msgSend$requiresEventInfoAsInputForTriggerIdentifier:
+- _objc_msgSend$requiresNotification
+- _objc_msgSend$requiresNotificationForTriggerIdentifier:
+- _objc_msgSend$resumeWithTriggerIdentifier:workflowReference:eventInfo:completion:
+- _objc_msgSend$runWithTriggerIdentifier:workflowReference:eventInfo:completion:
+- _objc_msgSend$scheduleTriggerForNotificationsWithIdentifier:
+- _objc_msgSend$sendRateLimitEncounteredNotificationForTriggerIdentifier:
+- _objc_msgSend$setDisablementReason:
+- _objc_msgSend$setInProgressTriggerIdentifier:
+- _objc_msgSend$setNotificationLevel:
+- _objc_msgSend$setPotentialLoopDetected:
+- _objc_msgSend$shouldNotify
+- _objc_msgSend$shouldNotifyForTriggerIdentifier:
+- _objc_msgSend$shouldPrompt
+- _objc_msgSend$shouldPromptForTriggerIdentifier:
+- _objc_msgSend$shouldRunTriggerWithIdentifier:shouldPrompt:forEvent:runEvents:error:
+- _objc_msgSend$sortedRunEventsForTriggerID:
+- _objc_msgSend$sortedRunEventsForTriggerIdentifier:error:
+- _objc_msgSend$startRunningWorkflow:forTriggerIdentifier:eventInfo:completion:
+- _objc_msgSend$storeLoopDetectionForTriggerWithIdentifier:loopDetected:
+- _objc_msgSend$trackTriggeredAutomationForTriggerIdentifier:shouldPrompt:triggerClassName:
+- _objc_msgSend$trackedFilesystemNodeForTriggerIdentifier:
+- _objc_msgSend$triggerClassNameForIdentifier:
+- _objc_msgSend$triggerEventsForTriggerIdentifier:
+- _objc_msgSend$triggerEventsForTriggerIdentifier:error:
+- _objc_msgSend$triggerExistsWithIdentifier:
+- _objc_msgSend$triggerIdentifier
+- _objc_msgSend$triggerIdentifiersNeedingRunningNotifications
+- _objc_msgSend$unregisterDebounceForTriggerWithIdentifier:
+- _objc_msgSend$updateNotificationLevel:forTriggerIdentifier:error:
+- _objc_msgSend$updateTriggerNotificationLevelsForIdentifiers:
+- _objc_msgSend$urlNeedingAccessForTriggerWithIdentifier:contentCollection:
+- _objc_msgSend$urlNeedingAccessWithContentCollection:
+- _objc_msgSend$workflowIDForTriggerIdentifier:
+- _objc_msgSend$workflowNameForTriggerIdentifier:
+- _objc_msgSend$workflowReferenceForTriggerIdentifier:
+- _swift_getObjCClassFromObject
+- _symbolic SDySS_____G 14VoiceShortcuts18WFTriggerRegistrarC19TriggerRegistrationV
+- _symbolic SDySS_____G 14VoiceShortcuts18WFTriggerRegistrarC25LegacyTriggerRegistrationV
+- _symbolic SS3key______5valuet 14VoiceShortcuts18WFTriggerRegistrarC19TriggerRegistrationV
+- _symbolic SccySo19WFContentCollectionCSg_____G s5NeverO
+- _symbolic So19WFConfiguredTriggerC
+- _symbolic _____ 14VoiceShortcuts18WFTriggerRegistrarC25LegacyTriggerRegistrationV
+- _symbolic _____ 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0F0V
+- _symbolic _____ So16WFTriggerBackingV
+- _symbolic _____Iegn_ 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0F0V
+- _symbolic _____SbIegnd_ 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0F0V
+- _symbolic _____Sg 14VoiceShortcuts18WFTriggerRegistrarC25LegacyTriggerRegistrationV
+- _symbolic __________Iegnr_ 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0F0V 0A9Shortcuts06DaemonfG0V014DatabaseChangeF0V
+- _symbolic __________Iegnr_ 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0F0V 0A9Shortcuts06DaemonfG0V021ApplicationRegisteredF0V
+- _symbolic __________Iegnr_ 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0F0V 0A9Shortcuts06DaemonfG0V026ToolKitLocalDatabaseChangeF0V
+- _symbolic __________Iegnr_ 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0F0V 0A9Shortcuts06DaemonfG0V03Apph7ChangedF0V
+- _symbolic ___________pIegHnzo_ 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0F0V s5ErrorP
+- _symbolic _____ySS_____G s17_NativeDictionaryV 14VoiceShortcuts18WFTriggerRegistrarC19TriggerRegistrationV
+- _symbolic _____ySS_____G s18_DictionaryStorageC 14VoiceShortcuts18WFTriggerRegistrarC19TriggerRegistrationV
+- _type_layout_string 14VoiceShortcuts18WFTriggerRegistrarC25LegacyTriggerRegistrationV
+CStrings:
++ " (hasDeltaFromOther: "
++ " DUPLICATE shortcut IDs in previous: "
++ " DUPLICATE shortcut IDs in result: "
++ " REMOVED folders: "
++ " REMOVED shortcuts: "
++ " bytes; context: "
++ " bytes; remote: "
++ " folder diff: localOnly="
++ " shortcut diff: localOnly="
++ " versions: local=["
++ "%s ***WFWorkoutTrigger publisherWithScheduler reached. Candidate for deprecation"
++ "%s ***WFWorkoutTrigger registerContextSyncClient reached. Candidate for deprecation"
++ "%s ***WFWorkoutTrigger remotePublisherWithScheduler reached. Candidate for deprecation"
++ "%s ***WFWorkoutTrigger shouldFireInResponseToEvent reached. Candidate for deprecation"
++ "%s ***WFWorkoutTrigger unregisterContextSyncClient reached. Candidate for deprecation"
++ "%s An automation is already running (%@), so we can't run this newly-triggered one (%@) (%@)."
++ "%s App.InFocus: BundleID: %{public}@, isStarting: %d, launchReason: %{public}@"
++ "%s App.InFocus: Trigger firing. bundleID: %{public}@, isStarting: %d"
++ "%s App.InFocus: Trigger not firing - ignoring launch reason on focus: %{public}@"
++ "%s App.InFocus: Trigger not firing: ignoring launch reason on background: %{public}@"
++ "%s Failed to register workout for updates from context sync client with error: %@"
++ "%s Failed to unregister workout client with error: %@"
++ "%s Found remote workout event from ContextSync"
++ "%s Ignoring third-party workout event; not firing."
++ "%s Missing or invalid trigger key from notification reponse userInfo: %{public}@"
++ "%s No App.InFocus ezvent received for trigger; not firing."
++ "%s No workout event received for trigger; not firing."
++ "%s Received workout event for trigger. activityType: %@; eventType: %d; trigger onStart: %d, onEnd: %d"
++ "%s Successfully registered workout for updates with context sync client"
++ "%s Successfully unregistered workout from context sync client"
++ "+[WFWorkoutTrigger(BiomeContext) registerContextSyncClient]"
++ "+[WFWorkoutTrigger(BiomeContext) unregisterContextSyncClient]"
++ ", hasDeltaFromOriginal: "
++ "-[WFAppInFocusTrigger(BiomeContext) shouldFireInResponseToEvent:triggerIdentifier:completion:]"
++ "-[WFTriggerEventQueue didFinishRunningWithError:cancelled:triggerKey:eventInfo:runEvent:]"
++ "-[WFTriggerEventQueue enqueueTriggerWithKey:eventInfo:force:completion:]_block_invoke"
++ "-[WFTriggerEventQueue enqueueTriggerWithKey:eventInfo:force:completion:]_block_invoke_2"
++ "-[WFTriggerEventQueue notificationManager:didDismissTriggerWithKey:pendingTriggerEventIDs:]"
++ "-[WFTriggerEventQueue notificationManager:didFailToPostActionRequiredNotificationWithTriggerKey:pendingTriggerEventIDs:]"
++ "-[WFTriggerEventQueue notificationManager:didRequestDisablementOfTriggersWithKeys:]"
++ "-[WFTriggerEventQueue notificationManager:receivedConfirmationToRunTriggerWithKey:pendingTriggerEventIDs:]"
++ "-[WFTriggerEventQueue notificationManager:receivedConfirmationToRunTriggerWithKey:pendingTriggerEventIDs:]_block_invoke"
++ "-[WFTriggerEventQueue notificationManager:receivedConfirmationToRunTriggerWithKey:pendingTriggerEventIDs:]_block_invoke_2"
++ "-[WFTriggerEventQueue notificationManager:receivedContinuePotentialLoopForTriggerWithKey:pendingTriggerEventIDs:]"
++ "-[WFTriggerEventQueue notificationManager:receivedContinuePotentialLoopForTriggerWithKey:pendingTriggerEventIDs:]_block_invoke_2"
++ "-[WFTriggerEventQueue notificationManager:receivedStopPotentialLoopForTriggerWithKey:]"
++ "-[WFTriggerEventQueue notificationManager:receivedStopPotentialLoopForTriggerWithKey:]_block_invoke"
++ "-[WFTriggerEventQueue resumeWithTriggerKey:workflowReference:eventInfo:completion:]"
++ "-[WFTriggerEventQueue runWithTriggerKey:workflowReference:eventInfo:completion:]"
++ "-[WFTriggerEventQueue shouldRunTriggerWithKey:shouldPrompt:forEvent:runEvents:error:]"
++ "-[WFTriggerEventRunner logPowerLogEventForTriggerKey:workflowReference:]"
++ "-[WFTriggerEventRunner startRunningWorkflow:forTriggerKey:eventInfo:completion:]"
++ "-[WFTriggerNotificationDebouncer addEventsWithIdentifiers:notificationType:triggerKey:workflowReference:]_block_invoke"
++ "-[WFTriggerNotificationScheduler cancelActivitiesFromTriggerKey:]_block_invoke"
++ "-[WFTriggerNotificationScheduler initialRunDateForTriggerKey:]"
++ "-[WFTriggerNotificationScheduler postBackgroundRunningNotificationForTriggerKey:]"
++ "-[WFTriggerNotificationScheduler registerTriggerWithKey:delay:]"
++ "-[WFTriggerNotificationScheduler registerTriggerWithKey:delay:]_block_invoke"
++ "-[WFTriggerNotificationScheduler registerTriggerWithKey:delay:]_block_invoke_2"
++ "-[WFTriggerNotificationScheduler scheduleTriggerForNotificationsWithKey:]_block_invoke"
++ "-[WFTriggerNotificationScheduler updateTriggerNotificationLevelsForKeys:]"
++ "-[WFTriggerUserNotificationManager _postNotificationOfType:forTriggerKey:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:]"
++ "-[WFTriggerUserNotificationManager _postNotificationOfType:forTriggerKey:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:]_block_invoke"
++ "-[WFTriggerUserNotificationManager postActionRequiredNotificationForTriggerKey:notificationType:workflowReference:pendingTriggerEventIDs:]"
++ "-[WFTriggerUserNotificationManager postNotificationThatTriggerWithKey:failedWithError:notificationRequestIdentifier:]"
++ "-[WFTriggerUserNotificationManager postNotificationThatTriggerWithKey:failedWithError:notificationRequestIdentifier:]_block_invoke"
++ "-[WFWorkoutTrigger(BiomeContext) publisherWithScheduler:]"
++ "-[WFWorkoutTrigger(BiomeContext) remotePublisherWithScheduler:]"
++ "-[WFWorkoutTrigger(BiomeContext) shouldFireInResponseToEvent:triggerIdentifier:completion:]"
++ "/System/Library/Frameworks/HealthKit.framework/HealthKit"
++ "<%@: %p, triggerKey: %@, reference: %@, triggerEventIDs: %@, debouncer: %@>"
++ "Couldn't find workflow for trigger with identifier: %@"
++ "Enqueuing workflow for trigger %s %@"
++ "Failed to enqueue trigger %s %@: %@"
++ "Failed to register trigger: (key: %@) - %@"
++ "Failed to unregister trigger: (key: %@): %@"
++ "Library merge FAILED: "
++ "Library reconcile FAILED: "
++ "Re-registering trigger after firing (key: %@)"
++ "Registering trigger: (type: %s, key: %@)"
++ "SBFullScreenSwitcherSceneLiveContentOverlay"
++ "Toggle WLAN"
++ "Unregistering trigger: (type: %s, key: %@)"
++ "XPCDistributedNotificationStreamEvent"
++ "_HKWorkoutActivityNameForActivityType"
++ "com.apple.SpringBoard.backlight.transitionReason.idleTimer"
++ "com.apple.SpringBoard.backlight.transitionReason.lockButton"
++ "com.apple.siriactionsd.TriggerNotification.%@.%@"
++ "com.apple.toolkit.request-immediate-indexing.allow"
++ "held stored value pending MCV: "
++ "manifest compaction is required"
++ "manifest exceeds ceiling for stored value "
++ "nil"
++ "packing inline items cannot keep this record under CK's size limit; "
++ "staged stored value: "
+- "%@%@:"
+- "%@%@:%@"
+- "%s An automation is already running (%@), so we can't run this newly-triggered one (%@)."
+- "%s Failed to fire trigger because missing workflow identifier for trigger: %{public}@"
+- "%s Missing or invalid triggerID from notification reponse userInfo: %{public}@"
+- "-[WFTriggerEventQueue didFinishRunningWithError:cancelled:triggerIdentifier:eventInfo:runEvent:]"
+- "-[WFTriggerEventQueue enqueueTriggerWithIdentifier:eventInfo:force:completion:]_block_invoke"
+- "-[WFTriggerEventQueue enqueueTriggerWithIdentifier:eventInfo:force:completion:]_block_invoke_2"
+- "-[WFTriggerEventQueue notificationManager:didDismissTriggerWithIdentifier:pendingTriggerEventIDs:]"
+- "-[WFTriggerEventQueue notificationManager:didFailToPostActionRequiredNotificationWithTriggerIdentifier:pendingTriggerEventIDs:]"
+- "-[WFTriggerEventQueue notificationManager:didRequestDisablementOfTriggersWithIdentifiers:]"
+- "-[WFTriggerEventQueue notificationManager:receivedConfirmationToRunTriggerWithIdentifier:pendingTriggerEventIDs:]"
+- "-[WFTriggerEventQueue notificationManager:receivedConfirmationToRunTriggerWithIdentifier:pendingTriggerEventIDs:]_block_invoke"
+- "-[WFTriggerEventQueue notificationManager:receivedConfirmationToRunTriggerWithIdentifier:pendingTriggerEventIDs:]_block_invoke_2"
+- "-[WFTriggerEventQueue notificationManager:receivedContinuePotentialLoopForTriggerWithIdentifier:pendingTriggerEventIDs:]"
+- "-[WFTriggerEventQueue notificationManager:receivedContinuePotentialLoopForTriggerWithIdentifier:pendingTriggerEventIDs:]_block_invoke_2"
+- "-[WFTriggerEventQueue notificationManager:receivedStopPotentialLoopForTriggerWithIdentifier:]"
+- "-[WFTriggerEventQueue notificationManager:receivedStopPotentialLoopForTriggerWithIdentifier:]_block_invoke"
+- "-[WFTriggerEventQueue resumeWithTriggerIdentifier:workflowReference:eventInfo:completion:]"
+- "-[WFTriggerEventQueue runWithTriggerIdentifier:workflowReference:eventInfo:completion:]"
+- "-[WFTriggerEventQueue shouldRunTriggerWithIdentifier:shouldPrompt:forEvent:runEvents:error:]"
+- "-[WFTriggerEventRunner logPowerLogEventForTriggerIdentifier:workflowReference:]"
+- "-[WFTriggerEventRunner startRunningWorkflow:forTriggerIdentifier:eventInfo:completion:]"
+- "-[WFTriggerNotificationDebouncer addEventsWithIdentifiers:notificationType:triggerIdentifier:workflowReference:]_block_invoke"
+- "-[WFTriggerNotificationScheduler cancelActivitiesFromTriggerIdentifier:]_block_invoke"
+- "-[WFTriggerNotificationScheduler initialRunDateForTriggerIdentifier:]"
+- "-[WFTriggerNotificationScheduler postBackgroundRunningNotificationForTriggerIdentifier:]"
+- "-[WFTriggerNotificationScheduler registerTriggerWithIdentifier:delay:]"
+- "-[WFTriggerNotificationScheduler registerTriggerWithIdentifier:delay:]_block_invoke"
+- "-[WFTriggerNotificationScheduler registerTriggerWithIdentifier:delay:]_block_invoke_2"
+- "-[WFTriggerNotificationScheduler scheduleTriggerForNotificationsWithIdentifier:]_block_invoke"
+- "-[WFTriggerNotificationScheduler updateTriggerNotificationLevelsForIdentifiers:]"
+- "-[WFTriggerUserNotificationManager _postNotificationOfType:forTriggerIdentifier:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:]"
+- "-[WFTriggerUserNotificationManager _postNotificationOfType:forTriggerIdentifier:workflowReference:removeDeliveredNotifications:pendingTriggerEventIDs:actionIcons:error:]_block_invoke"
+- "-[WFTriggerUserNotificationManager postActionRequiredNotificationForTriggerIdentifier:notificationType:workflowReference:pendingTriggerEventIDs:]"
+- "-[WFTriggerUserNotificationManager postNotificationThatTriggerWithIdentifier:failedWithError:notificationRequestIdentifier:]"
+- "-[WFTriggerUserNotificationManager postNotificationThatTriggerWithIdentifier:failedWithError:notificationRequestIdentifier:]_block_invoke"
+- "<%@: %p, triggerIdentifier: %@, reference: %@, triggerEventIDs: %@, debouncer: %@>"
+- "Couldn't find workflow (%@) for trigger with identifier: %@"
+- "Enqueuing workflow %s for trigger %s %s"
+- "Failed to enqueue trigger %s %s: %@"
+- "Failed to register trigger: (uuid: %s) - %@"
+- "Failed to unregister trigger: (uuid: %s): %@"
+- "Missing workflow identifier for trigger with identifier: %@"
+- "Re-registering trigger after firing (uuid: %s)"
+- "Registering trigger: (id: %s, uuid: %s, workflowID: %s)"
+- "TKToolkitDatabaseChangedNotification"
+- "Unregistering trigger: (id: %s, uuid: %s, workflowID: %s)"
+- "com.apple.siriactionsd.TriggerNotification.%@"
+- "triggerIdentifier"
+
+```

@@ -1,0 +1,123 @@
+## RevealCore
+
+> `/System/Library/PrivateFrameworks/RevealCore.framework/RevealCore`
+
+```diff
+
+-59.0.0.0.0
+-  __TEXT.__text: 0x2dcc sha256:744dd73c1b7923622bff520eaae486c6aac869362fcde2eb27b4f47e88ebe271
+-  __TEXT.__objc_methlist: 0x5f0 sha256:44705332c805c29196a2e837ec32b0d53b0587f664d7524a20a10190c3d96541
+-  __TEXT.__const: 0x48 sha256:c9ed27cf927c3a43edd6b152c51f2f059af3a62d540fa082a200920d8d057618
++61.0.0.0.0
++  __TEXT.__text: 0x2de4 sha256:48381d13728f027755511440caf698f8a10d323e6629d6ad4b9ec26bb4f81220
++  __TEXT.__objc_methlist: 0x5f0 sha256:6a91727462d44c0669405f2f4de3fd520546f84631c1a8e94d9ec3db51928a2e
++  __TEXT.__const: 0x48 sha256:5136a6282a9f2ed9c5d7dbe5762e82353ac554e2c934379c76693c0efc780675
+   __TEXT.__cstring: 0x297 sha256:16444bc4832263213ab18d7d92c2ad5cdfe71f2fe162fcc6377124cb9b03ef87
+-  __TEXT.__unwind_info: 0x100 sha256:7d8294501b01c20c72c576cece60eb4a1f22ac77ac524425be520a65fddd778d
++  __TEXT.__unwind_info: 0x100 sha256:a2bdc6f17886aee25067060d16894fa7829d3c6b4cdc3bded7f0b7d9b3df40c1
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x38 sha256:6e329ce7a603a4d2b228811a5f1042e537f33a27d78b6752b05e2a63e118fc5a
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:d6c3470e0d82aee716c1b3874eb01639441cb1fbd556b6a438293a827791081d
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:422cca91215a109e5ace1ef527abffa06a6cca319810b8797db01c9673e37a8b
++  __DATA_CONST.__const: 0x38 sha256:c7964a2d08b837e5fca3d10403f9bc9f2f40d2c6c63223a85f54ca7869fa7a1b
++  __DATA_CONST.__objc_classlist: 0x20 sha256:ffb33ae814f56b61e758329bd8defc40482ca39eb6431420fc9152a5ae9f59ef
++  __DATA_CONST.__objc_protolist: 0x20 sha256:1da9781781ae6a8733b8b188c471d6f29f979ba01ebbbbcff697c079fd9faf4d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x460 sha256:f2691e6363e807fbc1eabe79d9611003e1ec7087af536616c46d9a049d986f4a
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:69f5f8e1cfbce12adffc66b147a7431af22a0e9bc75df33c7993eb0c7c8e5068
+-  __DATA_CONST.__objc_arraydata: 0x68 sha256:4739b26e5b8b5ffcc30e77bc42ad0eb1c0f33d84a53a0e3bf46633f0aab16649
+-  __DATA_CONST.__got: 0x88 sha256:58c43c10a6530180ca1c4e46f63093a25e3867511e53e5935cb84d38c5af341e
+-  __AUTH_CONST.__cfstring: 0x600 sha256:63c079e9b55c1180d4edfc7a0256e7388c90797c09b16c58bf81515d21c4c05c
+-  __AUTH_CONST.__objc_const: 0xc58 sha256:2fbc538067e8a0447862eeb73bc8e021689bbad1da1b24f49596a40910ebcdb0
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:d357f88ba453d7760e9b30869d7f0d5ffae8cdcd557934364d9d21dc5f719eeb
++  __DATA_CONST.__objc_selrefs: 0x460 sha256:f103e6d1260b9636b6588db25413f34ffa702753b751479a99e3488366d42f4e
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:d433f57a11904ec46c13fc8d1827bff8d1433024ce33ed23b4f58eb4d2bd4ba5
++  __DATA_CONST.__objc_arraydata: 0x68 sha256:056889760b113a18d62dbc337a3d54be9907b00cfd53fa7fc8abab6e91afd2c9
++  __DATA_CONST.__got: 0x88 sha256:57e83d5b97692941a71cb94e287b14a508d7d83422f7b39dcc8e6c6d4489e55f
++  __AUTH_CONST.__cfstring: 0x600 sha256:e0dc1fda91f7ce6d28fdf3542dcf38d462a31b9f6de3d9891efaafa0e9ccd4cf
++  __AUTH_CONST.__objc_const: 0xc58 sha256:602b00d5626145138eb7b2cf736c82eef588d00fb65824225e0923ee586fae29
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:11efe5706dbf13c4b5f3473a8f9ead4535e3d13e4f5043dad156a1fc47c02283
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x9c sha256:c87a6a3479fd4de6b015c601d544012131528c9e5a84b1264a8b4c3216a8add7
+-  __DATA.__data: 0x180 sha256:8b09f09c27da130458d672846189f82d4f7495a758d8c631f2de65dee24e9012
+-  __DATA_DIRTY.__objc_data: 0x140 sha256:afb1ab124816212c6d8a1e31f0441aa622f4882e0ce97830fd37fd85fb45e0c7
++  __DATA.__data: 0x180 sha256:3cdcbc56fc96e7ab0a112cca43b9a52c4f3d16263d19231eeb3040c361ae53f0
++  __DATA_DIRTY.__objc_data: 0x140 sha256:b6cb22557965254233b194a2d4879ff547c17de830cca3978bff0dfe73556fb1
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
+   - /System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3BFDABCD-14B4-3854-B731-FBA911C6A2A8
++  UUID: 8B9B233A-A98B-3D4E-9812-13695D1AEA9A
+   Functions: 95
+-  Symbols:   416
++  Symbols:   417
+   CStrings:  97
+ 
+Symbols:
++ _objc_retain_x27
+Functions:
+~ -[RVItem .cxx_destruct] : sha256 ba1fbf581b2502c5d18bbb22cbd76610d86b03aa3aa9562d83e5767ceca31f02 -> d128de00220dabcd6c23aaaf8fcf29e64744c856aa9c4773c94f9ca1dc291d47
+~ -[RVItem setLookupContextFetchingBlock:] : sha256 881cb52ef15431463c71398b71747f4fb43776f63e27f22bda6b20aa85af1476 -> 9bcc0e6a93f274afbbdf980978714480d1e08f6f8149897c76f298a379cc5a86
+~ -[RVItem setReportAnIssueMetadataFetchingBlock:] : sha256 606e7222c6198a82fb8427d433b292429f50888006f0ef850be18a65abff1b00 -> f680168eff7320dea4ccade9e46f1de9223ff32e8f131df2620d69914e732d13
+~ -[RVItem setReportAnIssueExtendedBlock:] : sha256 02f8c55bea11c732c3d7dfc7090448fdeb66aa5750618b80a8125ae3b20e7136 -> a2c38c2e85792d649e19f28d725ac1f1b180d43d9ed6eec21605b97a52adc577
+~ -[RVItem setReportAnIssueBlock:] : sha256 b3a4ede30f28a4db55bf42b9556d743b15035a59edef9e88390d40116830fc3c -> e0f86f573b76d5e80b6e7775ef088e48c31e8ef281050bd274b2b7d2a407dac8
+~ -[RVItem setTextQueryProvider:] : sha256 91beef7068792da72eab93a210b4f358cd239007ed6229bb3d399f27f73c4f73 -> 5a43a88a8751138628d7cda975cb764d956c9142abbaf3332f482fe4e1437bb3
+~ -[RVItem setOriginalSelectedText:] : sha256 8d3c63f06b7a939500408f382eb4f8d9480c3f9a3b8223e1809d0ac516cd3eda -> 5f2aef0d1fc43eeed9f068a7a6ad488ab5b82ee7bf631325d473375c613afc25
+~ -[RVItem setClientHints:] : sha256 103b7808d1251c4ca11fa0e9f89c4b8b09507d5b116897d32b80f9e93ffacec7 -> 1875c7194421f5d465b35fc1d06956bec9b540b2bf9afae29064483b79a842ae
+~ -[RVItem trailingText] : sha256 32bcb50df58f0edd5581ee9101895f54157d0c49c3d3a646f3647595d3dcc26d -> 21e685dd02063a68d6ae1d26166aa98307d62fc3d0a3ef93c2a1a4c12f9664dc
+~ -[RVItem textContentRange] : sha256 7ecbd0f0e850540f0a561ffe54e574115041847d5e55cfe01259ed439d375050 -> 61982069b1b4a1d8e6141c173962ab96d41445c197f24e2cc19bf8725fc1ab78
+~ -[RVItem constrainContextSubstring:range:leading:] : sha256 7fe5e8ad164b45ed63475f2c0bdc03f0e7db30ca41b68d3874018078315b4a14 -> 8f42a8b0db0ab4ed5f947127a35b1672b57513d5004db3f5ab2fa940f4f40130
+~ -[RVItem setTrailingText:] : sha256 043861b616e75aa0330881aff034e53af784cf3bf5802f82b120598dd7a6c9eb -> f54e214763e2e182c1436e77b80b80e7f07f95625a3abda217dd261383dcf582
+~ -[RVItem leadingText] : sha256 eb2809ba409bbe2ae3bcb515be63df70325f9da28784b19d495d7193f64a27ec -> d41d6bcd5fbf51a193df1a73451c6ec703c85211020ba0a79cfefdd67c6afb01
+~ -[RVItem setLeadingText:] : sha256 1f54f9b3f7b66b5e49f0badd84f5c36494fe1bb669d2a3dd44f6ffc4a36cb8b7 -> 4174c58f6ba57d94e2a167caf4b2ca144c9b77af5cd19a7875c59e3598c5416f
+~ -[RVItem getClientHintKey:ofType:] : sha256 917f0717d6d619f6314ff4577f90cfae104d9a06c5d01be9c44368f5f9ea59b7 -> 6ca94fbd7add7a403fb67721f8e1b3a578fe95988b31f97ba56ba13baa12090c
+~ -[RVItem normalizedURL] : sha256 b656e05ca240ea7ccadeeb794fee92aced12b0b3ea0f8f32f87e60e0e5eef7a0 -> 3510b4119b04d8b00f7051a43bcb023455c257140615e86836ebbe27ff0210ef
+~ -[RVItem normalizeWithParser:lookupOnly:] : 1500 -> 1496
+~ -[RVItem textSearchContext] : sha256 e65b894950449466f4a0bfea5196d66f2c53ad9345299c9397e164ef0353f7eb -> a52aac0cdde9571f5bcbf721f56a3c949f9857574c41d0059f3f37983633dad7
+~ -[RVItem encodeWithCoder:] : sha256 3a5a8ac41be6ab0199de95e44aa33908b87dfe9fd2bdf6b108f650beac3b15d0 -> d57eb1f4625772bff5912769cf7d98bd022fbec3ea4ba67eaa6d3b3e2a7fb2da
+~ -[RVItem initWithCoder:] : sha256 8ef46dc331ef535c776075298dc807ff7418ee361836f453571b1e3052b88d8f -> b86766b63cb8dd27a69d049e5a8138672516a08ebed57ef891c3bdeca718af16
+~ -[RVItem initWithContactProperty:value:rangeInContext:] : sha256 f225788bf831c4035ef337a47654c5dd0c27a4c7cf922d7f12130171f239eba5 -> 2fdfd5674043293c45f19e3fbb54e5199b78272e6a689305cec59d880a789617
+~ -[RVItem initWithClientIdentifier:rangeInContext:] : sha256 38d3fc04317cc068aa84ac0f69bfccf232b091dfe8b55af62a2e4545eddfea73 -> b292074559b17369600008101407caf294a366a3782dca858c3f5f4a63359cca
+~ -[RVItem initWithText:selectedRange:customURLParser:] : sha256 f19d9e2188d0cbbaee7660cd50f40bdcb0f286ae1e81332a9f423f734d398f61 -> 4b74985f7ee148b41f2cdf0a5019b9f023ba18f774e159b91f89037167434ae6
+~ -[RVItem commonInitWithText:selectedRange:customURLParser:lookup:] : sha256 5a0b0b175c7269b2d939858396fe4b137071720decfed87addcdd0872131e402 -> 4db6679c85a3285e193ccdfe8941d7ccd5bec4efb411a188526a6a2954819446
+~ -[RVItem initWithText:selectedRange:] : sha256 5137af4f7b3a902ab3908bf0f53bdc7842a618df09a20f93dc23e037c7dbc6ee -> 7547b948aacc02954297bba24ec41e0b223303222fc35308d1c882b1aaca09d0
+~ -[RVItem initWithText:clickedIndex:selectionRanges:shouldUpdateSelection:] : sha256 49a8375c863ab0bfae36c7d1b530014d77d3136ed995238d34fd261b1d566f78 -> 4c6cab52f6b5ac7e841fb00f5db7a3e7a20c1caa8d8961c4de0955339a437de9
+~ -[RVItem initWithDDResult:text:range:] : sha256 dfcfe93d5c7da30f5957279a0926863469d2ceb092b9d56169e5bea9d46e0771 -> 037f3096ad0bc46712b9245016de11c11187d81a0ba1106deaf8bbefc67cc468
+~ -[RVItem initWithDDResult:] : sha256 5e832dec410281b5cc83a3759a7d153d704ab938d4e8a20852d3b13d173aa74b -> 13eddb268f4465b749bf911b8c5673c24eb10edc8d5bfd213e61863f519fb104
+~ -[RVItem initWithURL:rangeInContext:] : sha256 c14c39c3c3a48035002704666af794b14ff3b8f2fc516dafdecce6c8da9c63a7 -> 961e7a147c57f3b73e9638a8b0aae71b2f1166d4026925c8e12c3de2c8c591c5
+~ -[RVItem initWithSearchQuery:rangeInContext:] : sha256 c37c4ea47dcc7016306c605f36ffda0eb837596f26e7a2736deeb6deceef5872 -> c7594dd8a182708ae4e37f277de6f026eb19e4b77452a567bca4976b3161b0a4
+~ +[RVSelection searchRangeForString:aroundLocation:] : sha256 d9341db69fba421d15d98d8ded5df94ffaefda6acbce1c1908ba243a9979f427 -> a134acb606d43200228c3dcc432fb89bb384a79317363b16ab52cc167dcb5909
+~ +[RVSelection revealRangeAtIndex:selectedRanges:shouldUpdateSelection:] : 372 -> 368
+~ -[RVQuery .cxx_destruct] : sha256 7c738247ae941468f7eed00c68a90feea8407c6391b3666e45e469d6aa8f590e -> ae72e6bb3778fcbd96a83ee38cc626bf88f93d36ce07042be575b82547a23a6f
+~ -[RVQuery initWithCoder:] : sha256 0f7f96bcf525cc28ae3d1a567d6298fca6e3b2b023ef356579cac2ed9dd89b50 -> e77e659fc953bc5ea0196f31e6bfecc5623b5c0bfc77d572753193516097d126
+~ -[RVQuery encodeWithCoder:] : sha256 c44136ee909bc85d44bc7c0e5f1871fb816ca5ad17003af5d061bb999b1195dc -> 87976bf10ac21dce726d53088e1ffb87d55ddbf53575ca48b75b93365180091c
+~ -[RVQuery initWithTitle:clientIdentifier:userAgent:queryID:queryProvider:] : sha256 e9bc36a23c699f5cc5a64a894ef71ad11e72d55a13bbe49e921a3ae95a489260 -> 8ba84547df670293d13bfd39719356bc6caaaf533fd43e231144270a49c2e2cd
+~ -[RVDocumentContext .cxx_destruct] : sha256 95382ab20b182c49a6456312da5840e2804f656633f2e83258afbafba9b0e2d7 -> 8b1217e76a397c657f4f00b6f9c660e9155d1b9701935d27d1b0a456a43297bb
+~ -[RVDocumentContext setGroupTranscript:] : sha256 f8cf0400b0e67ba2c2e481fda65d7d178790a58c387e319ff89980803d5a3494 -> ce638f278f620dd858053b9c9681fd93f5a99e4870473bf0036c370455da13d7
+~ -[RVDocumentContext setGroupCategory:] : sha256 40aa0c62dad43ec0af06edaf3a6b5726132c3f6c89e36502b8db2079bb8ba4bc -> 96a6c6696f6ac6453e45a9103f7436627bee7dfbc2b13634963c19e497f9df69
+~ -[RVDocumentContext setCoreSpotlightUniqueIdentifier:] : sha256 ad06b7d06df847752e36ddbb9a734a899cf0d161e019b65e810db56493d89b1b -> fb7a588a2b7d6c3ce1a8b5374bc9f4ad418945377f6dc2cf8573835314793776
+~ -[RVDocumentContext setDocumentURL:] : sha256 ff97dc9a8ef2b7fdfaf34bc83e57582719ba7339d2c29ae2d82506f328de64b6 -> 906a7392b66272a4540d57486ea525d5f516b403bf99650e805ec59728f20849
+~ -[RVDocumentContext setSelectedText:] : sha256 a37df4b52f5ce64656f6bbc3ddd02db07a443a51bdc7a5984142c1d20c76599a -> 60476711eeb2786e62b4e821e4d017205183d12e1a2ba38ebf2e51f36cffcd82
+~ -[RVDocumentContext setContentSubject:] : sha256 b080db5c3aaca7c857423d2003aff1fb49bcf597a2235e23d900ff1fc2de2a41 -> 57a4dede6e824cd4444d1e7b9bf8cb836bec8d6be57aeb04e4210e1dd5684abc
+~ -[RVDocumentContext setContentReferenceTimeZone:] : sha256 1af2ce6ab6d152045dc7e6bd7d3006b7c6980d7cfc80fa892fd541bb4f53c68e -> 87d6bb3f698bdb0f250a4ea3196c2a59ae9a4d6a157178988d70d0123a86fd8f
+~ -[RVDocumentContext setContentReferenceDate:] : sha256 2094811ca40cb4644b5d8bb39b9f25a3c37ce1c7483050d92ba765bdbfd501f1 -> dd20b6713bc84872f38b33b21cf14579d2f70506b38698ad52dd586a445d3525
+~ -[RVDocumentContext setAuthorContactUUID:] : sha256 b2f971355c8c63a343f99045b6df5df000e2f129686f264b95dca9a18825396e -> 5c44fcba9f81cfc25d562e5307163d56130cb6696a905165e17b315e3cc52807
+~ -[RVDocumentContext setAuthorEmailAddress:] : sha256 3770fd88faf36aefc27214f4b9a71a30694e7643556658c6d85193420d2e4949 -> aa70779afc754c36167b1bd90ff2cba460f30802281e3ec227f05680f2920f80
+~ -[RVDocumentContext setAuthorName:] : sha256 14d618b3989cc31dbbbe7171283b27e992850ccddcbe7fba1f978e4fdb742552 -> 0c72382a943743d6bc498d08bcd4e62f86d982ea1b666780899f1e1749dc5cb6
+~ -[RVDocumentContext setNameAndEmailWithRawSenderField:] : 1780 -> 1812
+~ -[RVDocumentContext initWithCoder:] : sha256 0d9da90afc67168b10c57040c6049ee5f797de45cd0277677d48af3f86633ea5 -> f3a0d4d20ce9fc8be9cf6e1941d9ad23405d004684c79ce0f29bdce14150cc58
+~ -[RVDocumentContext encodeWithCoder:] : sha256 4705dc549cab0ec3b1c043c182f76e51136a3f4a88c13ac71e8ddbf68c994fb3 -> 26c04819e074354e5dae565ba35800f12be2143501625cf0682e1da883e8c9cc
+~ -[RVDocumentContext groupAllResults] : sha256 21eeefcf31e00a018ae70ecd102f5f798b8f427898fe1261b12766dc13ba6169 -> 53f1a69b17c385aa368df6492f09171dca51b1b749cc5dd486e107773985462f
+~ -[RVDocumentContext setGroupAllResults:] : sha256 ccbdecb4b8af2f375aa3bafc18c36582326b6c10000b741274d15ac9ba3cb15d -> a06779cba1bb3447d6ee9621ae1aede230af09718229e8abf129c7994f18e4ba
+~ _convertResultToObjCInArrayIfNecessary : sha256 1a7773ad26d1dcd21fbe38969d77aee8ebe1dbde7a902401fa65832e4c5df3a5 -> 802fb32fab7eb7bfa187394bd64e2eb8f0060d5ca958326b764db75e1cae95d1
+~ -[RVDocumentContext existingDDResultsList] : sha256 404af32780bf0aa47d0f8c793616034846ff12b5ddec064c49814807b4a454bc -> 3d5d599fdf3be393b8e402de4c8afd54753978904c8334d8026edd8ece8b5ae2
+~ -[RVDocumentContext setExistingDDResultsList:] : sha256 86e3842b0e30da1a96175856acae3f5a11b99bfb49ec20b98856f39d1e1cb52e -> e1a11caac43510bea4a452ed50708833e54399717344dd4117ed5f1a1b48e254
+
+```

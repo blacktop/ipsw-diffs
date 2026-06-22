@@ -1,0 +1,71 @@
+## FreeformSharingExtension
+
+> `FileSystem/private/var/staged_system_apps/Freeform.app/PlugIns/FreeformSharingExtension.appex/Localizable.loctable`
+
+```diff
+
+ en.Duplicate Folder Name = "Duplicate Folder Name"
+ en.Earlier = "Earlier"
+ en.Enter a name for this folder. = "Enter a name for this folder."
+-en.Enter a new name for this board. = "Enter a new name for this board."
+-en.Enter a new name for this folder. = "Enter a new name for this folder."
+ en.Export as PDF = "Export as PDF"
+ en.Favorites = "Favourites"
+ en.Folder = "Folder"
+
+ en.If you delete this shared folder, it will be deleted from all of your devices. To rejoin, click the link you were invited with. = "If you delete this shared folder, it will be deleted from all your devices. To rejoin, click the link you were invited with."
+ en.If you delete this shared folder, it will be deleted from all of your devices. To rejoin, tap the link you were invited with. = "If you delete this shared folder, it will be deleted from all your devices. To rejoin, tap the link you were invited with."
+ en.If you delete this shared folder, other people will no longer have access to it and it will be deleted from all of their devices. = "If you delete this shared folder, other people will no longer have access to it and it will be deleted from all their devices."
+-en.If you keep both it will be given a unique name = "If you keep both, it will be given a unique name"
++en.If you keep both it will be given a unique name. = "If you keep both, it will be given a unique name."
+ en.Invitations = "Invitations"
+ en.It includes shared items. A copy of this folder will be moved. The original folder will be deleted and available in Recently Deleted for 30 days. = "It includes shared items. A copy of this folder will be moved. The original folder will be deleted and available in Recently Deleted for 30 days."
+ en.Item is Read-Only = "Item is Read-Only"
+
+ en.Permanently Delete Folder? = "Permanently Delete Folder?"
+ en.Previous %d Days = "Previous %d Days"
+ en.Recently Deleted = "Recently Deleted"
+-en.Recently Deleted Board = "Recently Deleted Board"
+-en.Recently Deleted Boards = "Recently Deleted Boards"
+-en.Recently Deleted Folder = "Recently Deleted Folder"
+-en.Recently Deleted Folders = "Recently Deleted Folders"
+-en.Recently Deleted Items = "Recently Deleted Items"
+-en.Recently deleted boards can’t be edited. To edit these boards, recover them first. = "Recently deleted boards can’t be edited. To edit these boards, recover them first."
+-en.Recently deleted boards can’t be edited. To edit this board, recover it first. = "Recently deleted boards can’t be edited. To edit this board, recover it first."
+-en.Recently deleted folders can’t be edited. To edit these folders, recover them first. = "Recently deleted folders can’t be edited. To edit these folders, recover them first."
+-en.Recently deleted folders can’t be edited. To edit this folder, recover it first. = "Recently deleted folders can’t be edited. To edit this folder, recover it first."
+-en.Recently deleted items can’t be edited. To edit these items, recover them first. = "Recently deleted items can’t be edited. To edit these items, recover them first."
+ en.Recents = "Recent"
+ en.Recover = "Recover"
++en.Recover Board = "Recover Board"
++en.Recover Board? = "Recover Board?"
+ en.Remove = "Remove"
+ en.Remove from "%@" = "Remove from \"%@\""
+ en.Rename = "Rename"
+
+ en.SHARED_BY_ME_SECTION_TITLE = "Shared by Me"
+ en.Share = "Share"
+ en.Shared = "Shared"
+-en.Shared boards and subfolders in deleted folders will also be deleted. Others will be able to recover subfolders and boards they belong to from the Recently Deleted folder for 30 days. You have the option to permanently delete any items you own sooner. = "Shared boards and subfolders in deleted folders will also be deleted. Others will be able to recover subfolders and boards they belong to from the Recently Deleted folder for 30 days. You have the option to permanently delete any items you own sooner."
++en.Shared boards and subfolders in deleted folders will also be deleted. Others will be able to recover or permanently delete subfolders and boards they belong to from the Recently Deleted folder for 30 days. = "Shared boards and subfolders in deleted folders will also be deleted. Others will be able to recover or permanently delete subfolders and boards they belong to from the Recently Deleted folder for 30 days."
+ en.Shared boards and subfolders in these folders will also be deleted. Others will be able to recover or permanently delete subfolders and boards they belong to from the Recently Deleted folder for 30 days. = "Shared boards and subfolders in these folders will also be deleted. Others will be able to recover or permanently delete subfolders and boards they belong to from the Recently Deleted folder for 30 days."
+ en.Shared boards and subfolders in this folder will also be deleted. Others will be able to recover or permanently delete subfolders and boards they belong to from the Recently Deleted folder for 30 days. = "Shared boards and subfolders in this folder will also be deleted. Others will be able to recover or permanently delete subfolders and boards they belong to from the Recently Deleted folder for 30 days."
+ en.Shared by %@ = "Shared by %@"
+
+ en.Show In Enclosing Folder = "Show In Enclosing Folder"
+ en.Show In Messages = "Show In Messages"
+ en.Show in Messages = "Show in Messages"
+-en.Someone else owns the destination folder. A copy of this item will be moved and the original deleted. = "Someone else owns the destination folder. A copy of this item will be moved and the original deleted."
+ en.Sort by Date = "Sort by Date"
+ en.Sort by Kind = "Sort by Kind"
+ en.Sort by Name = "Sort by Name"
+
+ en.This folder is unsupported because it was edited in a newer version of Freeform and has unsupported features. You can still edit supported boards inside this folder. = "This folder is unsupported because it was edited in a newer version of Freeform and has unsupported features. You can still edit supported boards inside this folder."
+ en.This folder will be deleted from all your devices. You can’t undo this action. = "This folder will be deleted from all your devices. You can’t undo this action."
+ en.This folder will be permanently deleted. You can’t undo this action. = "This folder will be permanently deleted. You can’t undo this action."
++en.To edit this board, you’ll need to recover it. = "To edit this board, you’ll need to recover it."
+ en.To manage this shared board, you’ll need to sign in to your Apple Account and turn on iCloud for Freeform. = "To manage this shared board, you’ll need to sign in to your Apple Account and turn on iCloud for Freeform."
+ en.To manage this shared board, you’ll need to turn on iCloud for Freeform. = "To manage this shared board, you’ll need to turn on iCloud for Freeform."
+ en.To manage this shared folder, you’ll need to sign in to your Apple Account and turn on iCloud for Freeform. = "To manage this shared folder, you’ll need to sign in to your Apple Account and turn on iCloud for Freeform."
+
+```

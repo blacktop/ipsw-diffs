@@ -1,0 +1,149 @@
+## healthappd
+
+> `/System/Library/PrivateFrameworks/HealthPluginHost.framework/healthappd`
+
+```diff
+
+-7027.0.52.2.6
+-  __TEXT.__text: 0x2f2b0 sha256:7e3e10dd9040483ffd2d54abda8817ecd2f7ac895366da7c25edaf0931178d28
+-  __TEXT.__auth_stubs: 0x2260 sha256:98563c2d69ed81fafbea79f15dce04895ef5e01b158d2c9724f5e4175eb6f4cf
+-  __TEXT.__objc_stubs: 0x660 sha256:dcab004b5bf58da9c374b5f6cb4ea5c6eabe212e9fb81e99064c106d5ceb0b3b
+-  __TEXT.__objc_methlist: 0x4e4 sha256:73dcbe32d15fd615fa6e3bb6638fe8d1d95337fde127a87b488dc474d10ec2a8
+-  __TEXT.__const: 0x9b8 sha256:dcc8b423e3e11acd2d6fd07ebb493d735c694ac9561940a2779ea1f80bf0319a
+-  __TEXT.__cstring: 0x779 sha256:1b0075ab335556071d3c4b54b57d0cddc1a547e9516c8d8ca55aa3c2a3f2b2b5
++7027.0.60.2.2
++  __TEXT.__text: 0x311c0 sha256:88954ea4b176a2f5b4a0bba7b5536862d8fa2f129f7b042e4d853ac99822e30c
++  __TEXT.__auth_stubs: 0x2360 sha256:0690bf3a50541065fce4ccc4105249ff1908319c1ff396dac24da7b60144c2b4
++  __TEXT.__objc_stubs: 0x720 sha256:7eb7fb15b9ea8bc33d0fdf36c19ee2a28821d098e17d8e4476fd861382372712
++  __TEXT.__objc_methlist: 0x4e4 sha256:1e1a5ae32b8ebce59969793b6803e702c33b889bdde41f42a617c0444b62bccb
++  __TEXT.__const: 0x9e8 sha256:008193dc5961ce72fb9823213a2904e65985d393709acdba315ecf46f9930379
++  __TEXT.__cstring: 0x7f9 sha256:a820f0112d0751263f9487739de90bec8ff1e1196847863deebec23cfaa8d00b
+   __TEXT.__objc_methtype: 0x44c sha256:6c12849bb41ff2fea7a0215f68ae4f3e63a8b4fed764705fb620a1d2d4b42e86
+-  __TEXT.__oslogstring: 0x1ee1 sha256:51e867e8b418d8680ac85b54ae3824b55e56957c40a52cfb8190610df86fa75b
+-  __TEXT.__swift5_entry: 0x8 sha256:ff60a9e33ee398d315331bbf6020116b27645d0541b04d28a3ffe9af1b67d97d
+-  __TEXT.__constg_swiftt: 0x62c sha256:50bda0600a8b65a3dbd0b181f442b78a85ae362367f0d43a5c2c4647467e70df
+-  __TEXT.__swift5_typeref: 0x672 sha256:442e4f092f1097d711fd51d05957beb920639701a1d223e3f17fe82dff6cd523
+-  __TEXT.__swift5_builtin: 0x3c sha256:ca782ad9929c730500df0c816557a767da3e29a4391776442511c39ab318e242
+-  __TEXT.__swift5_reflstr: 0x9fd sha256:175f8b39bad6e350aaa481fcbbae43f9ee4d768d4ea498bbb337f02dc89773ef
+-  __TEXT.__swift5_fieldmd: 0x56c sha256:7157d338702202f0c39321f1c8433b3d24be09ef249007f4b5206f54c780d4a6
+-  __TEXT.__swift5_assocty: 0x48 sha256:5694fb724300c403a5d42c05436597642c0fce63a3986f01b9f45d74886422e5
+-  __TEXT.__swift5_proto: 0x50 sha256:0e86c7f2928054c875a666d1e39a495561f579914410db6a20203ee56ae62620
+-  __TEXT.__swift5_types: 0x48 sha256:0b0ba7bd1ea93789b31a29ab1a849608f31742edf336fa28428d1042057a4342
+-  __TEXT.__objc_methname: 0x1239 sha256:c63e307a368dd5a89ec0267b1c1ce6ee495c1b48dc0f93b1f072be773c404481
++  __TEXT.__oslogstring: 0x1f31 sha256:1aa7da4788bde4219bf4bc8d42c1646c0647ca6e822c8cad5de941a87ec70d11
++  __TEXT.__swift5_entry: 0x8 sha256:140b0614e9272385e985f5ca85e14ac3829f7751b4c5d1904615902c50e75962
++  __TEXT.__constg_swiftt: 0x62c sha256:bd33508fa55e2daa9bc750faff7c59d32820b306cf83a296ad6fde17b0d152ea
++  __TEXT.__swift5_typeref: 0x6cc sha256:1761da82d6652b7457f9f97b38a8ff8365ee6820ee53c26f97cf3ccf59050eaf
++  __TEXT.__swift5_builtin: 0x3c sha256:459c106e01d20d7bb455274efade4a77a86bbdec49a1ab5ff36024109a741d43
++  __TEXT.__swift5_reflstr: 0xa0d sha256:3fb3e60deeac8784856c90593ec40c8dc0ac01dde3dbadb514cd62bfdc19bb7e
++  __TEXT.__swift5_fieldmd: 0x578 sha256:79ed84f8ed670cb29728a87022b5d3350302a619279db1f3e918db628e7f2da5
++  __TEXT.__swift5_assocty: 0x48 sha256:943a2ff391747149ec31acecb21c7352b619379812aa72370e98d31af444f7c8
++  __TEXT.__swift5_proto: 0x50 sha256:8ea9366a15c7d7d147a798473da3262f3a9472305b08365ab72a374e032429db
++  __TEXT.__swift5_types: 0x48 sha256:05f7791ca1a03b655d45d479cb1c40cedc14c7fffbb2f3976b5c192cd4500a08
++  __TEXT.__objc_methname: 0x12d9 sha256:be4231ea2a6f59bddea957c36a8e04969eb4fd3353daecbb820c082c189d4a6b
+   __TEXT.__objc_classname: 0x49e sha256:6f1ac3645068e254dd2dca56002db010bdaae8b85e660fdc62684ce23269d1e0
+-  __TEXT.__swift5_capture: 0x634 sha256:09bd3d9e3f4093b87f5d3f5103f691776c5dbad17dd2862451205544c494d151
+-  __TEXT.__swift_as_entry: 0x8 sha256:21b2732076c6a995f99461291bc517868a317c00798775bb115a9f67391e41f8
+-  __TEXT.__swift_as_ret: 0x8 sha256:e1aaa929a910e55e5f081bf6f35464dcc7a8efc7655e4c93c206fd6d8d7ebb83
+-  __TEXT.__swift_as_cont: 0x8 sha256:c843e7d2312f5eafd5c3409d6930cd1fc50c523b01c813057a87c43cf71f037e
+-  __TEXT.__unwind_info: 0x748 sha256:1b8c961de62d93e5a6a14188967245f2c1e27afb41f71a76196efccf209f5883
+-  __TEXT.__eh_frame: 0x370 sha256:59245359e1bc2bb19122109daa81a6044ac37e5723fa02651e40a26d41da1c38
+-  __DATA_CONST.__const: 0x12a8 sha256:47d09610b4d2371344713504e03a0fe1135d2a96d530a8835c1e17c0ce6d31fc
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:4aa83a03a6d9c59c3a63e0e5932ac0989a89b88afa5c9320ef971c5af8757710
+-  __DATA_CONST.__objc_protolist: 0x58 sha256:8cd181824143b2e1bb63eee5dc9fbfde937b582a82edb405ed562176e58b76bf
++  __TEXT.__swift5_capture: 0x668 sha256:73827090eaff0421265e92329f1045c27e42744b0cba076d15eed4c6d8a39290
++  __TEXT.__swift_as_entry: 0x8 sha256:ad433d74e060d605f0c4db3971739f2b3e8927f49d3d0d92553891f2f7889e00
++  __TEXT.__swift_as_ret: 0x8 sha256:8dd313c046892b6f1474f14327c8f37dbfe823823f109e0d96d1e40615144e08
++  __TEXT.__swift_as_cont: 0x8 sha256:591c083117c62dba69dad4c1418a08cf1ad8166c5b80f39ef787b909523918b6
++  __TEXT.__unwind_info: 0x788 sha256:a0db72334d99f3216e41697b893271df1e49ddd62f11028660316b074b4cda98
++  __TEXT.__eh_frame: 0x3d0 sha256:9e1fc2565f2b4f8ab30bca5d1f5fe646072ebcdd4371e6ffbf65fdc3a8f9519d
++  __DATA_CONST.__const: 0x1320 sha256:57cc9812b893b656fd0f2d4db90cc51ec76d1569d46a66d9f13457b742b88d5e
++  __DATA_CONST.__objc_classlist: 0x38 sha256:bf41eebfe99169f525004bb4c40c8acebb1ba142be8853416201483ea57b5731
++  __DATA_CONST.__objc_protolist: 0x58 sha256:356223db78a56a9e3fedc25d9bd53bc2b41c6b74322d19b93e40a5d4c9acaa3c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0x38 sha256:b4e5b62b177f236d8134552cea04e1723b22acd24a145a38472ebdad78aa28d1
+-  __DATA_CONST.__auth_got: 0x1138 sha256:7c69154a94a314e087f721bf62cd998707ebcccb4aba3a60c621050d03f25807
+-  __DATA_CONST.__got: 0x668 sha256:094cf498d249cc8d69ad6e5aead65402e4aff727bf4a34edc2e8746e83312e54
+-  __DATA_CONST.__auth_ptr: 0x3c8 sha256:e847898bf5e78d0959c2d0105339a9eae05af89d67b84468e3d4be95e87144f6
+-  __DATA.__objc_const: 0x1120 sha256:000ec67ea74699fef15c3d4d769e3140e11548c84111c1a20f93890119a58448
+-  __DATA.__objc_selrefs: 0x380 sha256:a673ee7a4ae5fb25c1b25f13cd1eb415ada4758a30f0c2f6a47f4ce410b5fe51
+-  __DATA.__objc_data: 0x608 sha256:974c53f6cb3f1f9f3d8929156ec088b07c36899c4757079353e75ac1bb740088
+-  __DATA.__data: 0xe28 sha256:2f5345176662a1024a54f42629a73158043cc926e3b4f89a8d424cedabbfca83
+-  __DATA.__objc_stublist: 0x8 sha256:5794397917fd58aea10c7b60c60d9158cb3a521fabcfe229e251e6fda807ca60
++  __DATA_CONST.__objc_protorefs: 0x38 sha256:85878d0d32aeef550b1db901dbdb8004d06992d980ffcc373a8517b3d200102e
++  __DATA_CONST.__auth_got: 0x11b8 sha256:b7c3026737eb2d6316b22c28b5c2f5f77bbe4590dbc768d267e2225b82059b6c
++  __DATA_CONST.__got: 0x6c0 sha256:f677e73d4abeaf8d721d9adae2aa60d8f11d4408e4da45543cdc662862c16e21
++  __DATA_CONST.__auth_ptr: 0x3d8 sha256:bffbda94176839cb2d6683bc95ad39429d54d86ff2a68c7e99d28824681f4fca
++  __DATA.__objc_const: 0x1140 sha256:e65b1d1f6b4a43daff39f1b5325a0599db4f0b0e2372ee6374bd509ab12e3c32
++  __DATA.__objc_selrefs: 0x3b0 sha256:67b0d9c51aed6f44bffe778eddb960c144349fad79ae60abf75ea1527e0cf39c
++  __DATA.__objc_data: 0x608 sha256:724b9428811fd561d874e2c3845dbeb8bafa02678fad0193a3b63ee67180ee2b
++  __DATA.__data: 0xe88 sha256:48dd48a733df0c7eb0cd1a03c7c091ff72bb6488b1794e255e203b1e59699484
++  __DATA.__objc_stublist: 0x8 sha256:5f84ebbe07cd22a2bf087b1c4288be953452ac4dab4e0c37592af2a33e0ca111
+   __DATA.__common: 0xb8 sha256:d81bfb50e59a9abbe66f6ae0c6b45c7b9c0bc6eead2cf982118ac4d62b6ffeda
+   __DATA.__bss: 0xa08 sha256:2006005ec9adbd2bb5fa7d75691cf404bd4c808b6ffd7cc5ccf57008f07e8fd5
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9D7D69D5-6784-38DD-9061-E8BDFC958ECF
+-  Functions: 689
+-  Symbols:   853
+-  CStrings:  389
++  UUID: DE1812AE-E53B-3A87-B013-FB3F5EA25D54
++  Functions: 707
++  Symbols:   880
++  CStrings:  400
+ 
+Symbols:
++ _$s14HealthPlatform04DiskA15ExperienceStoreC23sharedBackgroundContextSo015NSManagedObjectH0CvgTj
++ _$s14HealthPlatform0A27AppOrchestrationCoordinatorP24resetAnchorsAndTerminate8executor8criteria10completionySSSg_AHySo7NSErrorCSgYbctFTq
++ _$s14HealthPlatform37DynamicChannelDispatcherConfigurationC015maxWidthGeneralD00gh3PercD021dispatchTargetTimeoutACSi_SiSdtcfc
++ _$s14HealthPlatform37DynamicChannelDispatcherConfigurationC0A13Orchestration0deF0AAMc
++ _$s14HealthPlatform37DynamicChannelDispatcherConfigurationCMa
++ _$s19HealthOrchestration18ExecutorIdentifierV5valueSSvg
++ _$s19HealthOrchestration18ExecutorIdentifierVMa
++ _$s19HealthOrchestration18ExecutorIdentifierV_14logDescriptionACSS_SSSgtcfC
++ _$s19HealthOrchestration21TimeoutDispatchTargetC7timeout6target21makeTimeDelayProviderACSd_AA0dE0_pAA0ijK0_pyYbctcfc
++ _$s19HealthOrchestration22MultiChannelDispatcherC13configuration6target6filterACyxGx_AA14DispatchTarget_pSbAA17ScheduledWorkPlanVYbctcfC
++ _$s19HealthOrchestration22MultiChannelDispatcherCMa
++ _$s19HealthOrchestration22MultiChannelDispatcherCyxGAA0E0AAMc
++ _$s19HealthOrchestration24ScopedExecutorIdentifierV8executorAA0dE0Vvg
++ _$s19HealthOrchestration24ScopedExecutorIdentifierV8provider8executorACSS_AA0dE0VtcfC
++ _$s19HealthOrchestration24ScopedExecutorIdentifierV8providerSSvg
++ _$s19HealthOrchestration24ScopedExecutorIdentifierVMa
++ _$s19HealthOrchestration24ScopedExecutorIdentifierVMn
++ _$s19HealthOrchestration31DispatchSourceTimeDelayProviderCAA0efG0AAWP
++ _$s19HealthOrchestration31DispatchSourceTimeDelayProviderCACycfc
++ _$s19HealthOrchestration31DispatchSourceTimeDelayProviderCMa
++ _$sSS5index5afterSS5IndexVAD_tF
++ _$sSSs7CVarArg10FoundationMc
++ _$sSSySJSS5IndexVcig
++ _$sSo11NSPredicateC10FoundationE6format_ABSSh_s7CVarArg_pdtcfC
++ _$sSo22NSManagedObjectContextC8CoreDataE5fetchySayxGSo14NSFetchRequestCyxGKSo0gH6ResultRzlF
++ _$sSsN
++ _$ss7CVarArgMp
++ _OBJC_CLASS_$_NSCompoundPredicate
++ _OBJC_CLASS_$_NSError
++ _OBJC_CLASS_$_NSFetchRequest
++ _OBJC_CLASS_$_NSManagedObject
++ _OBJC_CLASS_$_NSPredicate
+- _$s19HealthOrchestration15MultiDispatcherC6target5width6filterAcA14DispatchTarget_p_SiSbAA17ScheduledWorkPlanVYbctcfc
+- _$s19HealthOrchestration15MultiDispatcherCAA0D0AAWP
+- _$s19HealthOrchestration15MultiDispatcherCMa
+- _$s19HealthOrchestration21TimeoutDispatchTargetC7timeout6targetACSd_AA0dE0_ptcfc
+- _$s24HealthPlatformFoundation7ArbiterC18switchToActiveModeyyF
+CStrings:
++ "OrchestrationAnchor"
++ "[%{public}s] Deleting %ld OrchestrationAnchor row(s) (executor=%s, criteria=%s)"
++ "andPredicateWithSubpredicates:"
++ "deleteObject:"
++ "executor must be in form provider:executor"
++ "hk_error:description:"
++ "initWithEntityName:"
++ "pluginPackage == %@"
++ "setIncludesPropertyValues:"
++ "setPredicate:"
++ "systemScheduler"
+
+```

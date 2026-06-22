@@ -1,0 +1,71 @@
+## CompassViewCalibrationService
+
+> `/System/Library/AccessibilityBundles/CompassViewCalibrationService.axbundle/CompassViewCalibrationService`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x39c sha256:95745f75229dc452f70e099b9b909639caaac90167daee9660a15577a60423df
+-  __TEXT.__objc_methlist: 0xa4 sha256:3584d889b75af535524f52dc67a564264ba4deae68d37d15f9b9fe83834a20a8
++3039.1.0.0.0
++  __TEXT.__text: 0x39c sha256:4fe7ca8d551544b49167f579f8f37d02a1ab5031231d18d82fcc2ced0a3b441b
++  __TEXT.__objc_methlist: 0xa4 sha256:ac4669cd104bc34055ec7770d36dcf5a85ecdc54b0f5d1fd305798d71236df90
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__cstring: 0x143 sha256:f728b311a94685a06ba87fc0fd144d349305f8a9254a0854e8b8376c7e06afaa
+   __TEXT.__unwind_info: 0x78 sha256:6b3dbcd86007a79eaa8aaf8328b96abb05704358d0b0b8301a5dfe1949debac9
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x68 sha256:f72e9e670692150a2fa2097fa67f4d55765ef7d6855a8ce3cc39245bde7b35bd
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:029ab0f497fbfd148e8d294aa8c42c0a445b8d6495b81ec56af824321cdb3486
++  __DATA_CONST.__const: 0x68 sha256:73390ba39f395e96380dca145f5a7e013f5158a9d12ff77b57c90e7c62d72a6d
++  __DATA_CONST.__objc_classlist: 0x28 sha256:6af0647c4bc60d8316c1a036308121ad7a97343e790ad1d5582f3db75b360e18
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x80 sha256:766e38f11e5a88811a50d1fb3849ece4f88259c5bd4eb76db5e8f1dc3adb4191
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:a8caa2709aa222c080b8b0a7a94519417cf11b6a0ec9c63a7e60e76df10e142d
+-  __DATA_CONST.__got: 0x30 sha256:8386631f588eefb5928eeb69952b4b2d2e2d6675408d7747d65f1dd9f1919608
+-  __AUTH_CONST.__const: 0x60 sha256:34a546d20b34739802752d0c2f1cb792dcd1b79e5eb542a948acd21a513083ca
+-  __AUTH_CONST.__cfstring: 0x120 sha256:d1e4d820577c7bd4b3018334e542546db2be3a09fd044e9899ed651afba0729e
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:81b7f5e708ae311a2a3e3104e212ecfb52b07582417fd6a5f62ba2484b4f91d5
++  __DATA_CONST.__objc_selrefs: 0x80 sha256:a7f689e1fb380c9e6adb8daa9bf826ee51d2562d8739f760666bc0c0a0144a11
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:ed3f5fc6557c138a3fe5c525d9102db3ababc6b233fa099451490c317561675b
++  __DATA_CONST.__got: 0x30 sha256:cd66182804d40b4d67754bdadd6a1bae9da81c64d12f845bb020f8146bfef3e6
++  __AUTH_CONST.__const: 0x60 sha256:98c72281e46e795c8ba97bb02e1186a29d66e2e516fb0e0302f7dfa6281a721f
++  __AUTH_CONST.__cfstring: 0x120 sha256:4979cc006be17d1efaaca1900bbc21c77a4f7c72eb22bcebd96fa22c743fdc8f
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:20c6671ac39aff9ffc64540d1a6f9d04993eeb3aba6d8a0bbb3d6a5aaa7aa72e
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x190 sha256:d2cfee5dd981c0b6931c8cf2339ccf089a8d661a56aab7b02f8313f0933601db
++  __AUTH.__objc_data: 0x190 sha256:3c6ebcf0c616afd2aa0dc997e6d34111c95173c30834bf928b588b99f4b1222d
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AE399B62-17A6-3289-99A4-A18886DBA6BD
++  UUID: 49CF02C3-1863-3D26-B865-C14282B3C8FC
+   Functions: 13
+   Symbols:   93
+   CStrings:  24
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ +[CalibrationViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 3495469059997c1f52c0c6af70e146e4677c8a4a9f80139f3018ca6e1964602b -> e0e1ca4f0cc772f7dbec3c0f4c77b3f9ec2da18ac6da7681a3ffa29f2aabbcf9
+~ +[CalibrationViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 3a8958bda29277c575da7242b79ea54b72cb1ec1983f73cadd7c2305ffdc14cf -> 43d22871a810a5a532e55cea98c88f0bdf202abc509a6aa5a755853405bb88dc
+~ +[CalibrationViewControllerAccessibility _accessibilityPerformValidations:] : sha256 a3ff27f12ffbe107d646158c72b11526e040848c4e0b33c8f9ae252f1b0e5d7e -> f67406691b2182ec2750f612eee2b3c629b3d9676f91ce42bc393287e5d2d0d0
+~ -[CalibrationViewControllerAccessibility viewDidLoad] : sha256 83fd27dbb58f5b3d73d7fe090bd8868eb25574e7a5286acd14a49d9d400660f2 -> 3df44b40acdc59f0227f0db04621beda3aefdfbd16be35d508d6a69164b5d727
+~ ___53-[CalibrationViewControllerAccessibility viewDidLoad]_block_invoke : sha256 cce4b825ca8f2a82647d9c1be57c3b5f9ec4c46d91d2e700352bc662023a03a2 -> 85a80b50e9b0bf6b951b338172ea44c6e8abe9d9973f0a62824821fc759c7bb9
+~ +[CalibrationViewServiceControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 4c7e1db31149a633c174259ac8b2f174266d75b42264886c3066dfcc8b37652c -> 6cd3f4cfdf86f69a579057c5e16a4899c007e830c40730f6f43490d1706af4d9
+~ +[CalibrationViewServiceControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 9bda911ef8b0031e0b6e2ff1b035892776206e1f3aa9073c1935f93601bb19cc -> c76affb515764d4fb9c82522f88154530635ef82991e4e6c11053b0773ecc0d3
+~ +[CalibrationViewServiceControllerAccessibility _accessibilityPerformValidations:] : sha256 344d337c32223bad0d8e0e51dc100db2e344de17823e912a207eaff5ecc1f917 -> 851b74e261f506ce0780722a2212c9d0cf7e3e26dc07b88748c502f7d7100b6a
+~ -[CalibrationViewServiceControllerAccessibility viewDidAppear:] : sha256 23f33597bd4658978fb3b9f65080cf16c63dfe6f0ea0b98dfac835283be95108 -> aac2878a4772fe2a88cf155a0a5f3cdfea1e993c6bc1a1560b45dde8817f4dbe
+~ +[AXCompassViewCalibrationServiceGlue accessibilityInitializeBundle] : sha256 3aaf74c7aaf90ab2bd60e4954132146e718b2129c8841c21cff1b1fce358cf09 -> a49ba89f0c5b6a36806576fc44ec140cd4cd57b0b15c3a67bbe01aa77d16aa7c
+~ ___68+[AXCompassViewCalibrationServiceGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 2fafa0f23ceae2231dd7ec68633c885a5021e1f4320d9a398bf2b288cbcdff28 -> f4c33640e25a73b988991939a6c979097ed3c73e04dd25fd10c91fc848f33446
+~ ___68+[AXCompassViewCalibrationServiceGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 8f112d0869c46193d65e0d39684fa86cf8754ee843698a70d260fae4fc1a5e1f -> 9588b6b06846e9f66d27c92bb0a5ddeffc19b4bddad2ac7de8b47757c4ae813f
+
+```

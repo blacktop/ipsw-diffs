@@ -1,0 +1,87 @@
+## iboot_blob34.bin
+
+- `fail set reset chip dis`
+- `TXDS: release_buf failed with ret=%d`
+- `RxStChg: FW st chg: 0x%02x <- 0x%02x`
+- `TXDS: error in release_buf: embox.error=%d`
+- `%s:%d fail frmwrdat`
+- `%s:%d fail rLPM exit`
+- `%s: error in mbox rsp: embox.error=%d`
+- `IND wk%u try%d`
+- `charger_set_termination_voltage`
+- `fail sbpow %d`
+- `fifo_avail=0x%x, ret = 0x%x`
+- `%s:%d fw_ver = 0x%x`
+- `ERROR unsupported aperture read: %x`
+- `RS: st_set_local_tether_state failed with ret=0x%x`
+- `%s:%d fwrite fcrcv`
+- `lc_pout_set_power_limit`
+- `fw status invalid`
+- `BATTAUTH: invalid op %d`
+- `nductive/drv_bcm59367.cpp`
+- `%s:%d fail to apply sysconfig calibration`
+- `Shamisen chip ID mismatch: 0x%x`
+- `lc_process_fw_backpower_request`
+- `CHIP TEMP mDegC: %d`
+- `IND wake fail %d fwr %d st %d wk %u/%d`
+- `inductive sreg %x aRun %x cDet %x fltSve %x errSve %x fwErr %x fwState %x spmi %x st3 %x`
+- `Comms ntfy: %d, %d`
+- `%s: pack%d voltage limit changed=%u mV`
+- `fail scloak %d`
+- `type=0x%x, header=0x%x,indication=0x%x, ret = 0x%x`
+- `BATTAUTH: op:rc:%d, err:%d`
+- `WLCH: kHostCommonFirmwareLoad: fw_type=0x%x boot_flags=0x%x`
+- `%s:%d fail frmwrdatvr`
+- `chip reset`
+- `no response available fifo_avail 0x%x ext header 0x%x`
+- `BATTAUTH: invalid command '%u'`
+- `BATTAUTH: task out of sync`
+- `%s: (%llums)(%db): trl=%llums, spmi=%llums, scc=%llums, fcc(%d)=%llums, fwr(%d)=%llums, fs=0x%x`
+- `fail to get systime_ptr 0x%x`
+- `TXDS: start_transfer failed with ret=%d`
+- `TXDS: error in alloc_stream: buf_size (%d) < req_buf_size (%d)`
+- `RS: st_role_swap_preferred failed with ret=0x%x`
+- `%s:%d fail jumpfrmwr, fw_ready = 0x%x, fwStatus = 0x%x, mtpVersion = 0x%x`
+- `TXDS: IND TX: stream=%d status=%d all_data_transmitted=%d`
+- `TXDS: alloc_stream failed with ret=%d`
+- `fail set reset chip en`
+- `%s:%d jump addr=0x%x`
+- `SIG ack sem_wait_timeout ret %x, header 0x%x`
+- `%s:%d fw load addr=0x%x size=0x%x`
+- `%s:%d fail fwrite fwrdy`
+- `%s supportSmcPolicyBatteryShutdown asserted, shutdown requested`
+- `TXDS: error in start_transfer: embox.error=%d`
+- `kHostCommonReadyForHandoff: fw ready`
+- `TXDS: IND RX: stream=%d status=%d size=%d buff=0x%08x`
+- `%s:%d fwrite fsz`
+- `lc_pout_request_tx_initiated_role_swap`
+- `lc_exit_lpm`
+- `dram_region_map_regi`
+- `RxNegoPwr: Ng: %d, Pt: %d, Rs: %d`
+- `PCB TEMP cDegC: %d`
+- `tx sreg %x ar %x h %x state %x qpp %d assert %d lpm %d`
+- `fw read zero. retrying: %d`
+- `BATTAUTH: auth IC communication failure (%x)`
+- `%s:%d fail write bootloader loading struct`
+- `%s:%d upd frmwr`
+- `%s:%d fail frmwrdatld`
+- `DCL%02x: 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x`
+- `kHostCommonReqFirmwareHandoff: fw_src=%d, fw_dst=%d, revision=%d`
+- `IND wake poll %d fwr %d fws %x ret %x st %d lk %d wk %u/%d`
+- `crashlog: dump from dotara SRAM: %d bytes from 0x%x`
+- `%s:%d iface fw_ready %x, fw_bootctl %x, status %x, wait %u`
+- `fail sreset %d`
+- `TXDS: error in alloc_stream: embox.error=%d; (sid=%d size=%d)`
+- `systime_ptr 0x%x`
+- `kHostCommonReadyForHandoff: fw ready but no previous request sent`
+- `BATTAUTH: kick out of sync`
+- `%s: (%d %d) error: embox.error=%d`
+- `BATTAUTH: Invalid key %x`
+- `retry verify_chip`
+- `no response available fifo_avail 0x%x, header 0x%x`
+- `%s: !load_addr - blank OTP?`
+- `wrong response type:%d, id:0x%x`
+- `bcm5935x fexcept %x`
+- `%s:%d blank chip loading attempt complete`
+- `%s:%d fwrite fbd`
+- `TXDS: start_xfr: err=%d, stream_id=%d`

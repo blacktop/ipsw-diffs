@@ -1,0 +1,645 @@
+## Tungsten
+
+> `/System/Library/PrivateFrameworks/Tungsten.framework/Tungsten`
+
+```diff
+
+-910.14.107.0.0
+-  __TEXT.__text: 0xfa344 sha256:5b177760e48db73da499a3530e900b152c1c02bfa76d2691edb036e1ac28ecdc
+-  __TEXT.__objc_methlist: 0x11b00 sha256:d9705ce0137283a479e0f1817bb2c35e5283f10307fde92b6b19c98248a43749
+-  __TEXT.__const: 0x3740 sha256:3a92dd9e53d445be276d47fe4ef1ee9b17cead0aeb941666d37e3bbccbf3a016
+-  __TEXT.__constg_swiftt: 0x224 sha256:eb6f33a736843b6139c5b86bb8d3888723b50aa8afcc290acef58708d058ac7b
+-  __TEXT.__swift5_typeref: 0x1148 sha256:d4e0e32302d6f4f34627d0e1a2668fcafdce032a2fe3eb9548bf3ae5bafd5021
+-  __TEXT.__swift5_builtin: 0x28 sha256:ae675ae3af912275e6010e4a645b5a121771447ad344f5395f4c05907a54b8c7
+-  __TEXT.__swift5_reflstr: 0xa75 sha256:f46e51c31795cfcb6996eebb5994e2c668e932515d9703753c03f57832dd4769
+-  __TEXT.__swift5_assocty: 0xe0 sha256:4137f760a2e4f10cd6c2de0be42d0cfaecef61e0a8d7e17818e7e4e0af829ece
+-  __TEXT.__swift5_proto: 0x74 sha256:ac989136f368b11c7991a5e6ebd25fb8ca9c12564be0e0f4f0a78a79e7c6b6c0
+-  __TEXT.__swift5_types: 0x18 sha256:f49f3bb68eea8fe87f0c0c3b006057247ba73727bebdbdad70b0e714ccd5fcbd
+-  __TEXT.__swift5_fieldmd: 0x7b0 sha256:4435ed1a51ee5be025b0f592fd09f959f3b6af979cc0a7a33feeeff37d4240d7
+-  __TEXT.__swift5_protos: 0x8 sha256:05b126dd413f8dc897e8a61bd8bbf52d59ef26d5aa5d9ac10fa6436dc3e96094
+-  __TEXT.__cstring: 0xd69f sha256:7fb66e0a53d5e6f67fbba2e54baf0db5ad6280df91c4afc1a0104d8ea32ef693
+-  __TEXT.__gcc_except_tab: 0x34d4 sha256:227bde5995ee9388d8c7a829ebabf200831a8d6702b6d49a6c2baec84963060a
+-  __TEXT.__oslogstring: 0x2583 sha256:66bd5f4a588ee113452bb8b1df050def1f177fbcbe8519971ac49519692476aa
++910.21.101.0.0
++  __TEXT.__text: 0xfb564 sha256:bccdd30a1a09235dba999a35c7d46c0c71411e913c360fb54aed18f80452b908
++  __TEXT.__objc_methlist: 0x11c08 sha256:eec3435158f9de4ffc7dc4cb383c33c0d2d6bfde57ff3c22f3707cac0a9e2e15
++  __TEXT.__const: 0x39c0 sha256:f2edf881490f246d2d0c10e6b03e5fae5f82748efbe16a2efbb3e8b1e60b44a5
++  __TEXT.__constg_swiftt: 0x244 sha256:0bdffdc00e2afda3a850231cc5015765cbcc08855b6c299aedf38418687a5e34
++  __TEXT.__swift5_typeref: 0x125e sha256:2e0a297b78f882c2f70b33baad8707c56f9c96b09af7ad41f38850653e8db96a
++  __TEXT.__swift5_builtin: 0x3c sha256:187888b9e9a472534a43af1359ae87c35b5c8eb21859755d9cb1be7651e7db88
++  __TEXT.__swift5_reflstr: 0xa95 sha256:752193860fa10d4fa5241f1e583099118d0460570015506aeea2f25feb14e523
++  __TEXT.__swift5_assocty: 0x110 sha256:2c0b42f93e2800b6aeb065d1e7a97c61ddae14935eab4b99ea7c16216cf83b60
++  __TEXT.__swift5_proto: 0x94 sha256:b21b7e7ec8746c413c82e1211c09c59662ca553e12382fd0698acec9a1355749
++  __TEXT.__swift5_types: 0x1c sha256:5685467faf6259ebeef0f997578e740a5a8ff090db75e3113053d1f3f084e15b
++  __TEXT.__swift5_fieldmd: 0x7c8 sha256:31fad4e130faf1d52176901abf9eda5897816ee7fc75733a9cfc7da0794ae73e
++  __TEXT.__swift5_protos: 0x8 sha256:f62d2aa1c055550eb6e0aa0cc03ed90fe487a40f38500d257b35e3d318c276cd
++  __TEXT.__cstring: 0xd758 sha256:ccfb46bb0b552c9fa6d0d0bc5a82702067c8970959fa6e393e9ef6996494d49d
++  __TEXT.__gcc_except_tab: 0x3504 sha256:0ada03943ef96c21cdb4f1834e1302048817159b5c7a5430fcb702b1735b92a1
++  __TEXT.__oslogstring: 0x25bb sha256:971edc436827f14b9fbe95e0134edd0eb157831d46c9350edb4b4560035e2baf
+   __TEXT.__ustring: 0x3c sha256:6e84fd86430d808cb6e1cd073bf593a20904931af38725712f1bc285557c5c92
+-  __TEXT.__unwind_info: 0x45c0 sha256:17c81bae88151e7b93f62a72caae772123d84ea670ab08d9eaa70b3ba3b55461
+-  __TEXT.__eh_frame: 0x2a4 sha256:965b89a0030c6a3e08227e95c9d0dfa435385024f811c6668faef42f215864b3
++  __TEXT.__unwind_info: 0x4620 sha256:2ca1c1f761c94a2f74e9042069b1b7a62ba4c8cfe7b98bf1aa2a07c3e74bce63
++  __TEXT.__eh_frame: 0x304 sha256:2db4ddf639678da35f6ffeb5ee28328f7de68d860029b893445003d9ea9cf761
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x4df8 sha256:b63054d678490c62d72be031c0abaed1ea73d6e93b8bdbdf1f27f7ab2c6d42ae
+-  __DATA_CONST.__objc_classlist: 0x820 sha256:eb4553c06db254b8e8c7d9d44b5b6ac2919c1b2a53703d98bf50b3d551cfcc9a
+-  __DATA_CONST.__objc_catlist: 0x28 sha256:85040b30eb68852e5c4fdf50a56c1eddb79ff67be28dfcc8bbc63b92aef77451
+-  __DATA_CONST.__objc_protolist: 0x2d0 sha256:93e221a02371384a9e7940ffccf208be559f3bd49c3d5344aba932844151f0c7
++  __DATA_CONST.__const: 0x4df8 sha256:1c233dcf1569f3b9db39ae13643d74867659a8c19a62e90c495bda79cec8ea91
++  __DATA_CONST.__objc_classlist: 0x820 sha256:fcc3ff68070ba2c6ac0ddfd854ac849b5b7a87e76640c3018cbeaadd8c823b42
++  __DATA_CONST.__objc_catlist: 0x28 sha256:822032e2e339878780960b373f33c604974a0a1103daadf95917a459dc3d16ba
++  __DATA_CONST.__objc_protolist: 0x2d0 sha256:6e2f3830e0828697997c63b2988d57fcec1a78c869d0e5b63c9b0725de6155d5
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x7da8 sha256:5208202eaf5d1d50659be272c50acbfe85d76650545ad2afeae2b314b9c82c20
+-  __DATA_CONST.__objc_protorefs: 0x28 sha256:c4bfb756b0ba95cce8552d299029a4dd48ee3b5d22761566b50719160c2c65ec
+-  __DATA_CONST.__objc_superrefs: 0x6d0 sha256:551ef90092c5640401eef75f8664d273674ff2859cfa64a9ae5d4abc9f407ec5
+-  __DATA_CONST.__objc_arraydata: 0xb18 sha256:b3df71d786863a2da9dd32720920a90bea7a9274983aa7608a8d63fc5cff5aa7
+-  __DATA_CONST.__got: 0xe40 sha256:4d06e12fe956bb12be71feaed4efaeb9997fee17cd6528c50ad75736c4bab27d
+-  __AUTH_CONST.__const: 0xd58 sha256:35faf710c6fea729766676c0e8592186af7d35dfc723e9e497c25a73d855b19e
+-  __AUTH_CONST.__cfstring: 0x7ce0 sha256:b1780ea5e1eb789a6e8a462e6478e0031a5e50abb6f94519d8b23c2c9bffeccc
+-  __AUTH_CONST.__objc_const: 0x22a68 sha256:29e3ded8f7cdd97189b5cd2e60447694216018ebae0ac13c5ce5aa1b454aaaa7
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:9a2b91fa56b146795e83ca4f39da0bd07c39c24068e9aa0ceaa7f212fc574d7c
+-  __AUTH_CONST.__objc_intobj: 0x2010 sha256:4de802c0040287ffa791d952743364fe405b28d1fd17e24dcaa153ae9a621083
+-  __AUTH_CONST.__objc_arrayobj: 0x78 sha256:490132372e338ca5c3910af9be58f81ae26c5a8ccc745b8e6a42d99a7b430e03
+-  __AUTH_CONST.__objc_floatobj: 0x10 sha256:130d83967d58c607c4c2f7ab69791354ed883ec69fa632105bfd4f4019ee45c0
++  __DATA_CONST.__objc_selrefs: 0x7ea8 sha256:e89b65dfc31b5f715634757580d75dd87acbe617c0b048b9fa0703a1b152eb74
++  __DATA_CONST.__objc_protorefs: 0x28 sha256:19201dbcb9b35d9d3e433cbbb5edb80b0cc72a602bb4782b6e34dd175a6481cc
++  __DATA_CONST.__objc_superrefs: 0x6d0 sha256:d7c9065f9e709f2c3f2924a805398fa1671f432e72f6a40b397d4a7fc4364034
++  __DATA_CONST.__objc_arraydata: 0xb18 sha256:66c5428661a2fbef627a7817c1eb3ce9c664eb3529af7d40aff1cb662ca7d80e
++  __DATA_CONST.__got: 0xe60 sha256:e8044b1e7278a5a2290cb395d8a8e50c542bb6554588158e1ac6069f620c428f
++  __AUTH_CONST.__const: 0xd98 sha256:374e3da3adad053e7f668a422f86a40d03aebf0469da7011c2399f67bc88dff0
++  __AUTH_CONST.__cfstring: 0x7ce0 sha256:e5283add1b98429f410fd9ab7d9cdfd3344560d12f417d836732fff50a408209
++  __AUTH_CONST.__objc_const: 0x22c40 sha256:7393fe96603b68b0b58916a8f1f31e1840c498bb0e591f081e623e7790b02bb9
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:60bcdb5a8e6edd1ce77d43ea5c309fe844aaf21fdaf99507c4da8cc71174a8fc
++  __AUTH_CONST.__objc_intobj: 0x2010 sha256:1e8d678bde88b57be5bfe98cae2572ec9f31794b2b3bd83453a0910aeacdfc25
++  __AUTH_CONST.__objc_arrayobj: 0x78 sha256:65fbcdb4ef8057812affd1f0a642642f1642fa9cccdf4f36e5e3f487a340b5e4
+   __AUTH_CONST.__auth_got: 0x1298 sha256:0447ab9d61e5258fce117f5490ac8f892241f3d598e8b7737bcac02164007ae7
+-  __AUTH.__objc_data: 0x4fd0 sha256:11b985f7d13f7958d7594a36aeca6f0e0161423fa6a87c04f090e7bcf9842e18
+-  __AUTH.__data: 0x330 sha256:7aaaa9154bc1b285a24f95704bdc73c12d35cd8bbc770a1bb95312c94235d00f
+-  __DATA.__objc_ivar: 0x19c4 sha256:04f9692d5b760a3041c4a987afe8ca4698b6367a2138e6e57611e4a822d56f9d
+-  __DATA.__data: 0x26f0 sha256:bc7bba957ecf290a7134481ada2f7a3e5917f38c6bea40b174d4e7e0350cf24e
+-  __DATA.__bss: 0x17a0 sha256:564cbfafc869a8c6eb761a392caa5e792b546bf577af7fe808177b2fdf13cbb0
++  __AUTH.__objc_data: 0x4fd0 sha256:498c071fdbd660695208ebb66df4bb7dd248a5fba51df0982c62eccd8ef1fb67
++  __AUTH.__data: 0x338 sha256:12d9c492720c30ab443d6c2c09f9e1b60bef5e15b49e3c65d93feae3dcac6e9a
++  __DATA.__objc_ivar: 0x19e4 sha256:b9affc0a8433f1182e8f704ef17f98183752eecb55cd3ab7c0d14489c903d66f
++  __DATA.__data: 0x2768 sha256:8774f5c02a79eaa0431834f99f38029540f912ee7a35edc88009291ea14157e2
++  __DATA.__bss: 0x1ba0 sha256:c3d00b87eb09258523e51439114e9084edd82c513d6da0cf09f9f7bff89d29fe
+   __DATA.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_DIRTY.__objc_data: 0x140 sha256:3d74bb9fa07f93c8b20dadfee3bd5219e1be92ec27b58704962c2980212de28c
++  __DATA_DIRTY.__objc_data: 0x140 sha256:2374c0abdd9aeebbd91de1b2045ac5108d1d3c7316aa65493f852082fb1ebea3
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CB9D643D-1373-3341-8D87-47F1BCFC03FF
+-  Functions: 6690
+-  Symbols:   20806
+-  CStrings:  2884
++  UUID: 924BF000-8FE2-37CA-A923-23DE72490171
++  Functions: 6739
++  Symbols:   20890
++  CStrings:  2890
+ 
+Symbols:
++ -[PXGColorProgram _generateLegacyProgramWithConversionInfo:cubeSize:cubeOnly:]
++ -[PXGColorProgram _generateMPSColorConversionWithConversionInfo:]
++ -[PXGColorProgram colorConversionFunction]
++ -[PXGColorProgram cube1]
++ -[PXGColorProgram cube2]
++ -[PXGColorProgram lut]
++ -[PXGColorProgram mpsColorConversion]
++ -[PXGColorProgram setMpsColorConversion:]
++ -[PXGDecoratingLayout disablesSelectionIndicator]
++ -[PXGDecoratingLayout lastScrollDirectionDidChange]
++ -[PXGDecoratingLayout scrollSpeedRegimeDidChange]
++ -[PXGDecoratingLayout setDisablesSelectionIndicator:]
++ -[PXGDisplayAssetTextureProvider noThumbnailPlaceholderImageDark]
++ -[PXGDisplayAssetTextureProvider noThumbnailPlaceholderImageLight]
++ -[PXGDisplayAssetTextureProvider setNoThumbnailPlaceholderImageDark:]
++ -[PXGDisplayAssetTextureProvider setNoThumbnailPlaceholderImageLight:]
++ -[PXGReusableAXInfo(PlatformSpecific) focusItemDeferralMode]
++ -[PXGTextureManager textureProviderForMediaKind:]
++ -[PXGView noThumbnailPlaceholderStyleOverride]
++ -[PXGView setNoThumbnailPlaceholderStyleOverride:]
++ GCC_except_table1345
++ GCC_except_table1354
++ GCC_except_table1374
++ GCC_except_table1394
++ GCC_except_table1420
++ GCC_except_table1452
++ GCC_except_table1532
++ GCC_except_table1566
++ GCC_except_table1573
++ GCC_except_table1598
++ GCC_except_table1722
++ GCC_except_table1858
++ GCC_except_table1871
++ GCC_except_table1874
++ GCC_except_table1879
++ GCC_except_table1885
++ GCC_except_table1929
++ GCC_except_table1938
++ GCC_except_table1956
++ GCC_except_table2085
++ GCC_except_table2103
++ GCC_except_table2170
++ GCC_except_table2176
++ GCC_except_table2193
++ GCC_except_table2246
++ GCC_except_table2397
++ GCC_except_table2414
++ GCC_except_table2428
++ GCC_except_table2433
++ GCC_except_table2450
++ GCC_except_table2698
++ GCC_except_table2700
++ GCC_except_table2704
++ GCC_except_table2744
++ GCC_except_table2747
++ GCC_except_table2751
++ GCC_except_table2753
++ GCC_except_table2757
++ GCC_except_table2792
++ GCC_except_table2800
++ GCC_except_table2802
++ GCC_except_table2821
++ GCC_except_table2884
++ GCC_except_table2938
++ GCC_except_table2954
++ GCC_except_table2961
++ GCC_except_table3288
++ GCC_except_table3496
++ GCC_except_table3498
++ GCC_except_table3519
++ GCC_except_table3532
++ GCC_except_table3552
++ GCC_except_table3606
++ GCC_except_table3610
++ GCC_except_table3632
++ GCC_except_table3675
++ GCC_except_table3777
++ GCC_except_table3787
++ GCC_except_table3811
++ GCC_except_table3911
++ GCC_except_table3915
++ GCC_except_table3943
++ GCC_except_table3950
++ GCC_except_table3976
++ GCC_except_table4074
++ GCC_except_table4229
++ GCC_except_table4231
++ GCC_except_table4252
++ GCC_except_table4265
++ GCC_except_table4267
++ GCC_except_table4269
++ GCC_except_table4273
++ GCC_except_table4305
++ GCC_except_table4308
++ GCC_except_table4313
++ GCC_except_table4316
++ GCC_except_table4335
++ GCC_except_table4376
++ GCC_except_table4388
++ GCC_except_table4467
++ GCC_except_table4503
++ GCC_except_table4505
++ GCC_except_table4580
++ GCC_except_table4670
++ GCC_except_table4796
++ GCC_except_table4851
++ GCC_except_table4853
++ GCC_except_table4855
++ GCC_except_table4859
++ GCC_except_table4861
++ GCC_except_table4984
++ GCC_except_table4995
++ GCC_except_table5011
++ GCC_except_table5013
++ GCC_except_table5017
++ GCC_except_table5151
++ GCC_except_table5211
++ GCC_except_table5269
++ GCC_except_table5290
++ GCC_except_table5324
++ GCC_except_table5325
++ GCC_except_table5359
++ GCC_except_table5594
++ GCC_except_table5596
++ GCC_except_table5598
++ GCC_except_table5600
++ GCC_except_table5601
++ GCC_except_table5602
++ GCC_except_table5603
++ GCC_except_table5606
++ GCC_except_table5611
++ GCC_except_table5623
++ GCC_except_table5626
++ GCC_except_table5627
++ GCC_except_table5628
++ GCC_except_table5630
++ GCC_except_table5631
++ GCC_except_table5632
++ GCC_except_table5633
++ GCC_except_table5636
++ GCC_except_table5652
++ GCC_except_table5653
++ GCC_except_table5655
++ GCC_except_table5656
++ GCC_except_table5657
++ GCC_except_table5659
++ GCC_except_table5665
++ GCC_except_table5666
++ GCC_except_table5676
++ GCC_except_table5678
++ GCC_except_table5685
++ GCC_except_table5705
++ GCC_except_table5706
++ GCC_except_table5707
++ GCC_except_table5708
++ GCC_except_table5709
++ GCC_except_table5710
++ GCC_except_table5711
++ GCC_except_table5714
++ GCC_except_table5715
++ GCC_except_table5716
++ GCC_except_table5717
++ GCC_except_table5718
++ GCC_except_table5720
++ GCC_except_table5781
++ GCC_except_table5790
++ _OBJC_CLASS_$_MPSFColorConversion
++ _OBJC_CLASS_$_MTLLinkedFunctions
++ _OBJC_IVAR_$_PXGColorProgram._cube1
++ _OBJC_IVAR_$_PXGColorProgram._cube2
++ _OBJC_IVAR_$_PXGColorProgram._lut
++ _OBJC_IVAR_$_PXGColorProgram._mpsColorConversion
++ _OBJC_IVAR_$_PXGDecoratingLayout._disablesSelectionIndicator
++ _OBJC_IVAR_$_PXGDisplayAssetTextureProvider._noThumbnailPlaceholderImageDark
++ _OBJC_IVAR_$_PXGDisplayAssetTextureProvider._noThumbnailPlaceholderImageLight
++ _OBJC_IVAR_$_PXGView._noThumbnailPlaceholderStyleOverride
++ __PromotedConst.20458
++ __ZL14simd_matrix4x410simd_quatf.17968
++ __ZL15simd_quaternion13simd_float4x4.17967
++ __ZSt28__throw_bad_array_new_lengthB9fqe220106v
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIi17PXGRequestDetailsEENS_22__unordered_map_hasherIiNS_4pairIKiS2_EENS_4hashIiEENS_8equal_toIiEEEENS_21__unordered_map_equalIiS7_SB_S9_EENS_9allocatorIS7_EEE16__emplace_uniqueB9fqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSN_SL_OSO_OSP_E_clESN_SL_S10_S11_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIijEENS_22__unordered_map_hasherIiNS_4pairIKijEENS_4hashIiEENS_8equal_toIiEEEENS_21__unordered_map_equalIiS6_SA_S8_EENS_9allocatorIS6_EEE16__emplace_uniqueB9fqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEEDpOT_ENKUlSM_SK_OSN_OSO_E_clESM_SK_SZ_S10_
++ ___78-[PXGColorProgram _generateLegacyProgramWithConversionInfo:cubeSize:cubeOnly:]_block_invoke
++ ___78-[PXGColorProgram _generateLegacyProgramWithConversionInfo:cubeSize:cubeOnly:]_block_invoke.35
++ ___78-[PXGColorProgram _generateLegacyProgramWithConversionInfo:cubeSize:cubeOnly:]_block_invoke.37
++ ___78-[PXGColorProgram _generateLegacyProgramWithConversionInfo:cubeSize:cubeOnly:]_block_invoke_2
++ ___Block_byref_object_copy_.10263
++ ___Block_byref_object_copy_.12942
++ ___Block_byref_object_copy_.15615
++ ___Block_byref_object_copy_.16451
++ ___Block_byref_object_copy_.17232
++ ___Block_byref_object_copy_.17794
++ ___Block_byref_object_copy_.17956
++ ___Block_byref_object_copy_.18510
++ ___Block_byref_object_copy_.19828
++ ___Block_byref_object_copy_.20225
++ ___Block_byref_object_copy_.4805
++ ___Block_byref_object_copy_.6159
++ ___Block_byref_object_copy_.9449
++ ___Block_byref_object_dispose_.10264
++ ___Block_byref_object_dispose_.12943
++ ___Block_byref_object_dispose_.15616
++ ___Block_byref_object_dispose_.16452
++ ___Block_byref_object_dispose_.17233
++ ___Block_byref_object_dispose_.17795
++ ___Block_byref_object_dispose_.17957
++ ___Block_byref_object_dispose_.18511
++ ___Block_byref_object_dispose_.19829
++ ___Block_byref_object_dispose_.20226
++ ___Block_byref_object_dispose_.4806
++ ___Block_byref_object_dispose_.6160
++ ___Block_byref_object_dispose_.9450
++ ___block_literal_global.10241
++ ___block_literal_global.104.16441
++ ___block_literal_global.10437
++ ___block_literal_global.11676
++ ___block_literal_global.11957
++ ___block_literal_global.12694
++ ___block_literal_global.13522
++ ___block_literal_global.14269
++ ___block_literal_global.15173
++ ___block_literal_global.15747
++ ___block_literal_global.16038
++ ___block_literal_global.16178
++ ___block_literal_global.16463
++ ___block_literal_global.16773
++ ___block_literal_global.17234
++ ___block_literal_global.17450
++ ___block_literal_global.17955
++ ___block_literal_global.18553
++ ___block_literal_global.19.16158
++ ___block_literal_global.19.17958
++ ___block_literal_global.19815
++ ___block_literal_global.277
++ ___block_literal_global.297
++ ___block_literal_global.3.17237
++ ___block_literal_global.302
++ ___block_literal_global.305
++ ___block_literal_global.4466
++ ___block_literal_global.4956
++ ___block_literal_global.5674
++ ___block_literal_global.5908
++ ___block_literal_global.75.15695
++ ___block_literal_global.75.19813
++ ___block_literal_global.7926
++ ___block_literal_global.90.16454
++ _associated conformance So19PXGColorProgramModeV15PhotoFoundation15SettingsCodable8TungstenSE
++ _associated conformance So19PXGColorProgramModeV15PhotoFoundation15SettingsCodable8TungstenSe
++ _associated conformance So19PXGColorProgramModeVSHSCSQ
++ _associated conformance So19PXGColorProgramModeVs12CaseIterable8Tungsten8AllCasessACP_Sl
++ _get_witness_table 7SwiftUI4FormVyAA12TupleContentVyAA7SectionVyAA4TextVAEyAA6ToggleVyAIG_AlEyAL_A14LQPGSgQPGAA9EmptyViewVG_AGyAiEyAA6PickerVyAISo28PXGTextLegibilityDimmingTypeVAA7ForEachVySayAVGAvIGG_18PhotosUIFoundation14SettingsSliderVy12CoreGraphics7CGFloatVGQPGAQGAGyAiEyAL_ALSgA3LA2_ySdGA10_A5LA10_A9lTyAISo19PXGColorProgramModeVAXySayA12_GA12_AIGGA2LA6_A6_A2LA10_A10_A10_AlTyAISo08PXScrollJ17SpeedometerRegimeVAXySayA17_GA17_AIGGA20_A20_ATyAISiAEyAA0J0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAI_SiQo__A25_A25_A25_A25_QPGGATyAIA5_AEyA22_AAEA23__A24_Qrqd___SbtSHRd__lFQOyAI_SdQo__A28_A28_A28_QPGGA10_A2LQPGAQGAGyAiEyAL_A10_A2LQPGAQGAGyAiEyATyAISiAEyA25__A25_A25_A25_QPGG_A10_QPGAQGAGyAiEyAL_ALQPGAQGAGyAiEyAL_A3lTyAISiAEyA25__A25_A25_QPGGQPGAQGAGyAiEyAL_AEyA10__A10_A10_QPGSgQPGAQGAGyAilQGA49_A49_AGyAqA6ButtonVyAIGAQGQPGGAAA21_HPyHC.1
++ _kCGUse100nitsHLGOOTF
++ _kCGUseLegacyHDREcosystem
++ _objc_msgSend$_generateLegacyProgramWithConversionInfo:cubeSize:cubeOnly:
++ _objc_msgSend$_generateMPSColorConversionWithConversionInfo:
++ _objc_msgSend$colorConversionFunction
++ _objc_msgSend$colorConversionMode
++ _objc_msgSend$commentsBadgeImage
++ _objc_msgSend$commentsBadgeImageMini
++ _objc_msgSend$cube1
++ _objc_msgSend$cube2
++ _objc_msgSend$descriptorFor1DTexture1
++ _objc_msgSend$descriptorFor3DTexture1
++ _objc_msgSend$descriptorFor3DTexture2
++ _objc_msgSend$disablesSelectionIndicator
++ _objc_msgSend$function
++ _objc_msgSend$initWithDevice:conversion:functionName:sourceRange:options:error:
++ _objc_msgSend$initialize1DTexture1:
++ _objc_msgSend$initialize3DTexture1:
++ _objc_msgSend$initialize3DTexture2:
++ _objc_msgSend$linkedFunctions
++ _objc_msgSend$lut
++ _objc_msgSend$mpsColorConversion
++ _objc_msgSend$px_grayscaleColor
++ _objc_msgSend$setFragmentLinkedFunctions:
++ _objc_msgSend$setFunctions:
++ _objc_msgSend$setNoThumbnailPlaceholderImageDark:
++ _objc_msgSend$setNoThumbnailPlaceholderImageLight:
++ _objc_msgSend$textureProviderForMediaKind:
++ _objc_msgSend$wantsCommentBadgeDecorationsInLayout:
++ _preloadWithDevice:.onceToken.8684
++ _symbolic Say_____G So19PXGColorProgramModeV
++ _symbolic _____ So19PXGColorProgramModeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So19PXGColorProgramModeV
++ _symbolic _____y_____G_ACSgA3C_____ySdGAf5cf9C_____yAB__________ySayAHGAhBGGA2cEy_____GAn2c3fcGyAB_____AIySayAOGAoBGGA2rGyABSi_____y_____yAB_SiQo__A4TQPGGAGyAbmSy_____yAB_SdQo__A3WQPGGAf2Ct 7SwiftUI6ToggleV AA4TextV 18PhotosUIFoundation14SettingsSliderV AA6PickerV So19PXGColorProgramModeV AA7ForEachV 12CoreGraphics7CGFloatV So29PXScrollViewSpeedometerRegimeV AA12TupleContentV AA0S0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AwAEAX_AYQrqd___SbtSHRd__lFQO
++ _symbolic _____y__________G s15WritableKeyPathC 8Tungsten0D8SettingsC So19PXGColorProgramModeV
++ _symbolic _____y_______________ySayACGAcBGG 7SwiftUI6PickerV AA4TextV So19PXGColorProgramModeV AA7ForEachV
++ _symbolic _____y__________y_____yABG_AESgA3E_____ySdGAh5eh9E_____yAB__________ySayAJGAjBGGA2eGy_____GAp2e3heIyAB_____AKySayAQGAqBGGA2tIyABSiACy_____yAB_SiQo__A4UQPGGAIyAboCy_____yAB_SdQo__A3XQPGGAh2EQPG_____G 7SwiftUI7SectionV AA4TextV AA12TupleContentV AA6ToggleV 18PhotosUIFoundation14SettingsSliderV AA6PickerV So19PXGColorProgramModeV AA7ForEachV 12CoreGraphics7CGFloatV So29PXScrollViewSpeedometerRegimeV AA0V0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AyAEAZ_A_Qrqd___SbtSHRd__lFQO AA05EmptyV0V
++ _symbolic _____y__________y_____yABG_AeCyAE_A14EQPGSgQPG_____G_AAyAbCy_____yAB__________ySayALGAlBGG______y_____GQPGAIGAAyAbCyAE_AESgA3eQySdGAw5ew9eKyAB_____AMySayAXGAxBGGA2e2s2e3weKyAB_____AMySayA0_GA0_ABGGA3_A3_AKyABSiACy_____yAB_SiQo__A4_A4_A4_A4_QPGGAKyAbrCy_____yAB_SdQo__A7_A7_A7_QPGGAw2EQPGAIGAAyAbCyAE_Aw2EQPGAIGAAyAbCyAKyABSiACyA4__A4_A4_A4_QPGG_AWQPGAIGAAyAbCyAE_AEQPGAIGAAyAbCyAE_A3eKyABSiACyA4__A4_A4_QPGGQPGAIGAAyAbCyAE_ACyAW_A2WQPGSgQPGAIGAAyAbeIGA28_A28_AAyAI_____yABGAIGt 7SwiftUI7SectionV AA4TextV AA12TupleContentV AA6ToggleV AA9EmptyViewV AA6PickerV So28PXGTextLegibilityDimmingTypeV AA7ForEachV 18PhotosUIFoundation14SettingsSliderV 12CoreGraphics7CGFloatV So19PXGColorProgramModeV So08PXScrollI17SpeedometerRegimeV AA0I0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO A1_AAEA2__A3_Qrqd___SbtSHRd__lFQO AA6ButtonV
++ _symbolic _____y_____y_____AAy_____yACG_AeAyAE_A14EQPGSgQPG_____G_AByAcAy_____yAC__________ySayALGAlCGG______y_____GQPGAIGAByAcAyAE_AESgA3eQySdGAw5ew9eKyAC_____AMySayAXGAxCGGA2e2s2e3weKyAC_____AMySayA0_GA0_ACGGA3_A3_AKyACSiAAy_____yAC_SiQo__A4_A4_A4_A4_QPGGAKyAcrAy_____yAC_SdQo__A7_A7_A7_QPGGAw2EQPGAIGAByAcAyAE_Aw2EQPGAIGAByAcAyAKyACSiAAyA4__A4_A4_A4_QPGG_AWQPGAIGAByAcAyAE_AEQPGAIGAByAcAyAE_A3eKyACSiAAyA4__A4_A4_QPGGQPGAIGAByAcAyAE_AAyAW_A2WQPGSgQPGAIGAByAceIGA28_A28_AByAI_____yACGAIGQPG 7SwiftUI12TupleContentV AA7SectionV AA4TextV AA6ToggleV AA9EmptyViewV AA6PickerV So28PXGTextLegibilityDimmingTypeV AA7ForEachV 18PhotosUIFoundation14SettingsSliderV 12CoreGraphics7CGFloatV So19PXGColorProgramModeV So08PXScrollI17SpeedometerRegimeV AA0I0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO A1_AAEA2__A3_Qrqd___SbtSHRd__lFQO AA6ButtonV
++ _symbolic _____y_____y_____G_ADSgA3D_____ySdGAg5dg9D_____yAC__________ySayAIGAiCGGA2dFy_____GAo2d3gdHyAC_____AJySayAPGApCGGA2sHyACSiAAy_____yAC_SiQo__A4TQPGGAHyAcnAy_____yAC_SdQo__A3WQPGGAg2DQPG 7SwiftUI12TupleContentV AA6ToggleV AA4TextV 18PhotosUIFoundation14SettingsSliderV AA6PickerV So19PXGColorProgramModeV AA7ForEachV 12CoreGraphics7CGFloatV So29PXScrollViewSpeedometerRegimeV AA0U0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AwAEAX_AYQrqd___SbtSHRd__lFQO
++ _symbolic _____y_____y_____y_____ABy_____yADG_AfByAF_A14FQPGSgQPG_____G_ACyAdBy_____yAD__________ySayAMGAmDGG______y_____GQPGAJGACyAdByAF_AFSgA3fRySdGAx5fx9fLyAD_____ANySayAYGAyDGGA2f2t2f3xfLyAD_____ANySayA1_GA1_ADGGA4_A4_ALyADSiABy_____yAD_SiQo__A5_A5_A5_A5_QPGGALyAdsBy_____yAD_SdQo__A8_A8_A8_QPGGAx2FQPGAJGACyAdByAF_Ax2FQPGAJGACyAdByALyADSiAByA5__A5_A5_A5_QPGG_AXQPGAJGACyAdByAF_AFQPGAJGACyAdByAF_A3fLyADSiAByA5__A5_A5_QPGGQPGAJGACyAdByAF_AByAX_A2XQPGSgQPGAJGACyAdfJGA29_A29_ACyAJ_____yADGAJGQPGG 7SwiftUI4FormV AA12TupleContentV AA7SectionV AA4TextV AA6ToggleV AA9EmptyViewV AA6PickerV So28PXGTextLegibilityDimmingTypeV AA7ForEachV 18PhotosUIFoundation14SettingsSliderV 12CoreGraphics7CGFloatV So19PXGColorProgramModeV So08PXScrollJ17SpeedometerRegimeV AA0J0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO A3_AAEA4__A5_Qrqd___SbtSHRd__lFQO AA6ButtonV
+- -[PXGColorProgram _compactProgramWithConversionInfo:cubeSize:cubeOnly:]
+- GCC_except_table1343
+- GCC_except_table1352
+- GCC_except_table1372
+- GCC_except_table1392
+- GCC_except_table1418
+- GCC_except_table1448
+- GCC_except_table1528
+- GCC_except_table1562
+- GCC_except_table1565
+- GCC_except_table1594
+- GCC_except_table1718
+- GCC_except_table1854
+- GCC_except_table1863
+- GCC_except_table1870
+- GCC_except_table1875
+- GCC_except_table1881
+- GCC_except_table1925
+- GCC_except_table1934
+- GCC_except_table1952
+- GCC_except_table2081
+- GCC_except_table2099
+- GCC_except_table2166
+- GCC_except_table2172
+- GCC_except_table2189
+- GCC_except_table2242
+- GCC_except_table2393
+- GCC_except_table2410
+- GCC_except_table2424
+- GCC_except_table2429
+- GCC_except_table2446
+- GCC_except_table2693
+- GCC_except_table2695
+- GCC_except_table2699
+- GCC_except_table2739
+- GCC_except_table2742
+- GCC_except_table2746
+- GCC_except_table2748
+- GCC_except_table2752
+- GCC_except_table2787
+- GCC_except_table2795
+- GCC_except_table2797
+- GCC_except_table2816
+- GCC_except_table2879
+- GCC_except_table2933
+- GCC_except_table2949
+- GCC_except_table2956
+- GCC_except_table3278
+- GCC_except_table3487
+- GCC_except_table3489
+- GCC_except_table3510
+- GCC_except_table3523
+- GCC_except_table3543
+- GCC_except_table3597
+- GCC_except_table3601
+- GCC_except_table3623
+- GCC_except_table3666
+- GCC_except_table3768
+- GCC_except_table3778
+- GCC_except_table3802
+- GCC_except_table3902
+- GCC_except_table3906
+- GCC_except_table3934
+- GCC_except_table3941
+- GCC_except_table3967
+- GCC_except_table4065
+- GCC_except_table4220
+- GCC_except_table4222
+- GCC_except_table4243
+- GCC_except_table4251
+- GCC_except_table4256
+- GCC_except_table4258
+- GCC_except_table4264
+- GCC_except_table4296
+- GCC_except_table4299
+- GCC_except_table4304
+- GCC_except_table4307
+- GCC_except_table4326
+- GCC_except_table4367
+- GCC_except_table4379
+- GCC_except_table4458
+- GCC_except_table4494
+- GCC_except_table4496
+- GCC_except_table4571
+- GCC_except_table4661
+- GCC_except_table4787
+- GCC_except_table4842
+- GCC_except_table4844
+- GCC_except_table4846
+- GCC_except_table4850
+- GCC_except_table4852
+- GCC_except_table4975
+- GCC_except_table4986
+- GCC_except_table5002
+- GCC_except_table5004
+- GCC_except_table5008
+- GCC_except_table5141
+- GCC_except_table5201
+- GCC_except_table5258
+- GCC_except_table5279
+- GCC_except_table5313
+- GCC_except_table5314
+- GCC_except_table5343
+- GCC_except_table5559
+- GCC_except_table5560
+- GCC_except_table5562
+- GCC_except_table5564
+- GCC_except_table5565
+- GCC_except_table5566
+- GCC_except_table5568
+- GCC_except_table5569
+- GCC_except_table5571
+- GCC_except_table5572
+- GCC_except_table5573
+- GCC_except_table5574
+- GCC_except_table5575
+- GCC_except_table5576
+- GCC_except_table5581
+- GCC_except_table5585
+- GCC_except_table5588
+- GCC_except_table5597
+- GCC_except_table5612
+- GCC_except_table5614
+- GCC_except_table5618
+- GCC_except_table5619
+- GCC_except_table5620
+- GCC_except_table5621
+- GCC_except_table5624
+- GCC_except_table5634
+- GCC_except_table5641
+- GCC_except_table5644
+- GCC_except_table5645
+- GCC_except_table5647
+- GCC_except_table5648
+- GCC_except_table5649
+- GCC_except_table5669
+- GCC_except_table5672
+- GCC_except_table5673
+- GCC_except_table5688
+- GCC_except_table5689
+- GCC_except_table5692
+- GCC_except_table5695
+- GCC_except_table5696
+- GCC_except_table5701
+- GCC_except_table5762
+- GCC_except_table5771
+- _OBJC_CLASS_$_NSConstantFloatNumber
+- __PromotedConst.20392
+- __ZL14simd_matrix4x410simd_quatf.17921
+- __ZL15simd_quaternion13simd_float4x4.17920
+- __ZSt28__throw_bad_array_new_lengthB9fqe220100v
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIi17PXGRequestDetailsEENS_22__unordered_map_hasherIiNS_4pairIKiS2_EENS_4hashIiEENS_8equal_toIiEEEENS_21__unordered_map_equalIiS7_SB_S9_EENS_9allocatorIS7_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSN_SL_OSO_OSP_E_clESN_SL_S10_S11_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIijEENS_22__unordered_map_hasherIiNS_4pairIKijEENS_4hashIiEENS_8equal_toIiEEEENS_21__unordered_map_equalIiS6_SA_S8_EENS_9allocatorIS6_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEEDpOT_ENKUlSM_SK_OSN_OSO_E_clESM_SK_SZ_S10_
+- ___71-[PXGColorProgram _compactProgramWithConversionInfo:cubeSize:cubeOnly:]_block_invoke
+- ___71-[PXGColorProgram _compactProgramWithConversionInfo:cubeSize:cubeOnly:]_block_invoke.33
+- ___71-[PXGColorProgram _compactProgramWithConversionInfo:cubeSize:cubeOnly:]_block_invoke.35
+- ___71-[PXGColorProgram _compactProgramWithConversionInfo:cubeSize:cubeOnly:]_block_invoke_2
+- ___Block_byref_object_copy_.10244
+- ___Block_byref_object_copy_.12897
+- ___Block_byref_object_copy_.15568
+- ___Block_byref_object_copy_.16408
+- ___Block_byref_object_copy_.17185
+- ___Block_byref_object_copy_.17747
+- ___Block_byref_object_copy_.17909
+- ___Block_byref_object_copy_.18453
+- ___Block_byref_object_copy_.19765
+- ___Block_byref_object_copy_.20161
+- ___Block_byref_object_copy_.4806
+- ___Block_byref_object_copy_.6164
+- ___Block_byref_object_copy_.9435
+- ___Block_byref_object_dispose_.10245
+- ___Block_byref_object_dispose_.12898
+- ___Block_byref_object_dispose_.15569
+- ___Block_byref_object_dispose_.16409
+- ___Block_byref_object_dispose_.17186
+- ___Block_byref_object_dispose_.17748
+- ___Block_byref_object_dispose_.17910
+- ___Block_byref_object_dispose_.18454
+- ___Block_byref_object_dispose_.19766
+- ___Block_byref_object_dispose_.20162
+- ___Block_byref_object_dispose_.4807
+- ___Block_byref_object_dispose_.6165
+- ___Block_byref_object_dispose_.9436
+- ___block_literal_global.10222
+- ___block_literal_global.104.16398
+- ___block_literal_global.10418
+- ___block_literal_global.11657
+- ___block_literal_global.11918
+- ___block_literal_global.12649
+- ___block_literal_global.13478
+- ___block_literal_global.14225
+- ___block_literal_global.15123
+- ___block_literal_global.15700
+- ___block_literal_global.15990
+- ___block_literal_global.16130
+- ___block_literal_global.16420
+- ___block_literal_global.16727
+- ___block_literal_global.17187
+- ___block_literal_global.17403
+- ___block_literal_global.17908
+- ___block_literal_global.18495
+- ___block_literal_global.19.16110
+- ___block_literal_global.19.17911
+- ___block_literal_global.19752
+- ___block_literal_global.276
+- ___block_literal_global.296
+- ___block_literal_global.3.17190
+- ___block_literal_global.301
+- ___block_literal_global.304
+- ___block_literal_global.4467
+- ___block_literal_global.4957
+- ___block_literal_global.5675
+- ___block_literal_global.5909
+- ___block_literal_global.75.15648
+- ___block_literal_global.75.19750
+- ___block_literal_global.7929
+- ___block_literal_global.90.16411
+- _get_witness_table 7SwiftUI4FormVyAA12TupleContentVyAA7SectionVyAA4TextVAEyAA6ToggleVyAIG_AlEyAL_A14LQPGSgQPGAA9EmptyViewVG_AGyAiEyAA6PickerVyAISo28PXGTextLegibilityDimmingTypeVAA7ForEachVySayAVGAvIGG_18PhotosUIFoundation14SettingsSliderVy12CoreGraphics7CGFloatVGQPGAQGAGyAiEyAL_ALSgA3LA2_ySdGA10_A5LA10_A11LA6_A6_A2LA10_A10_A10_AlTyAISo08PXScrollJ17SpeedometerRegimeVAXySayA12_GA12_AIGGA15_A15_ATyAISiAEyAA0J0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAI_SiQo__A20_A20_A20_A20_QPGGATyAIA5_AEyA17_AAEA18__A19_Qrqd___SbtSHRd__lFQOyAI_SdQo__A23_A23_A23_QPGGA10_A2LQPGAQGAGyAiEyAL_A10_A2LQPGAQGAGyAiEyATyAISiAEyA20__A20_A20_A20_QPGG_A10_QPGAQGAGyAiEyAL_ALQPGAQGAGyAiEyAL_A3lTyAISiAEyA20__A20_A20_QPGGQPGAQGAGyAiEyAL_AEyA10__A10_A10_QPGSgQPGAQGAGyAilQGA44_A44_AGyAqA6ButtonVyAIGAQGQPGGAAA16_HPyHC.1
+- _objc_msgSend$_compactProgramWithConversionInfo:cubeSize:cubeOnly:
+- _objc_msgSend$opaqueSeparatorColor
+- _preloadWithDevice:.onceToken.8687
+- _symbolic _____y_____G_ACSgA3C_____ySdGAf5cf11cEy_____GAh2c3fC_____yAB__________ySayAJGAjBGGA2nIyABSi_____y_____yAB_SiQo__A4PQPGGAIyAbgOy_____yAB_SdQo__A3SQPGGAf2Ct 7SwiftUI6ToggleV AA4TextV 18PhotosUIFoundation14SettingsSliderV 12CoreGraphics7CGFloatV AA6PickerV So29PXScrollViewSpeedometerRegimeV AA7ForEachV AA12TupleContentV AA0N0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AuAEAV_AWQrqd___SbtSHRd__lFQO
+- _symbolic _____y__________y_____yABG_AESgA3E_____ySdGAh5eh11eGy_____GAj2e3hE_____yAB__________ySayALGAlBGGA2pKyABSiACy_____yAB_SiQo__A4QQPGGAKyAbiCy_____yAB_SdQo__A3TQPGGAh2EQPG_____G 7SwiftUI7SectionV AA4TextV AA12TupleContentV AA6ToggleV 18PhotosUIFoundation14SettingsSliderV 12CoreGraphics7CGFloatV AA6PickerV So29PXScrollViewSpeedometerRegimeV AA7ForEachV AA0Q0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AwAEAX_AYQrqd___SbtSHRd__lFQO AA05EmptyQ0V
+- _symbolic _____y__________y_____yABG_AeCyAE_A14EQPGSgQPG_____G_AAyAbCy_____yAB__________ySayALGAlBGG______y_____GQPGAIGAAyAbCyAE_AESgA3eQySdGAw5ew11e2s2e3weKyAB_____AMySayAXGAxBGGA_A_AKyABSiACy_____yAB_SiQo__A0_A0_A0_A0_QPGGAKyAbrCy_____yAB_SdQo__A3_A3_A3_QPGGAw2EQPGAIGAAyAbCyAE_Aw2EQPGAIGAAyAbCyAKyABSiACyA0__A0_A0_A0_QPGG_AWQPGAIGAAyAbCyAE_AEQPGAIGAAyAbCyAE_A3eKyABSiACyA0__A0_A0_QPGGQPGAIGAAyAbCyAE_ACyAW_A2WQPGSgQPGAIGAAyAbeIGA24_A24_AAyAI_____yABGAIGt 7SwiftUI7SectionV AA4TextV AA12TupleContentV AA6ToggleV AA9EmptyViewV AA6PickerV So28PXGTextLegibilityDimmingTypeV AA7ForEachV 18PhotosUIFoundation14SettingsSliderV 12CoreGraphics7CGFloatV So08PXScrollI17SpeedometerRegimeV AA0I0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO A_AAEA0__A1_Qrqd___SbtSHRd__lFQO AA6ButtonV
+- _symbolic _____y_____y_____AAy_____yACG_AeAyAE_A14EQPGSgQPG_____G_AByAcAy_____yAC__________ySayALGAlCGG______y_____GQPGAIGAByAcAyAE_AESgA3eQySdGAw5ew11e2s2e3weKyAC_____AMySayAXGAxCGGA_A_AKyACSiAAy_____yAC_SiQo__A0_A0_A0_A0_QPGGAKyAcrAy_____yAC_SdQo__A3_A3_A3_QPGGAw2EQPGAIGAByAcAyAE_Aw2EQPGAIGAByAcAyAKyACSiAAyA0__A0_A0_A0_QPGG_AWQPGAIGAByAcAyAE_AEQPGAIGAByAcAyAE_A3eKyACSiAAyA0__A0_A0_QPGGQPGAIGAByAcAyAE_AAyAW_A2WQPGSgQPGAIGAByAceIGA24_A24_AByAI_____yACGAIGQPG 7SwiftUI12TupleContentV AA7SectionV AA4TextV AA6ToggleV AA9EmptyViewV AA6PickerV So28PXGTextLegibilityDimmingTypeV AA7ForEachV 18PhotosUIFoundation14SettingsSliderV 12CoreGraphics7CGFloatV So08PXScrollI17SpeedometerRegimeV AA0I0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO A_AAEA0__A1_Qrqd___SbtSHRd__lFQO AA6ButtonV
+- _symbolic _____y_____y_____G_ADSgA3D_____ySdGAg5dg11dFy_____GAi2d3gD_____yAC__________ySayAKGAkCGGA2oJyACSiAAy_____yAC_SiQo__A4PQPGGAJyAchAy_____yAC_SdQo__A3SQPGGAg2DQPG 7SwiftUI12TupleContentV AA6ToggleV AA4TextV 18PhotosUIFoundation14SettingsSliderV 12CoreGraphics7CGFloatV AA6PickerV So29PXScrollViewSpeedometerRegimeV AA7ForEachV AA0P0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AuAEAV_AWQrqd___SbtSHRd__lFQO
+- _symbolic _____y_____y_____y_____ABy_____yADG_AfByAF_A14FQPGSgQPG_____G_ACyAdBy_____yAD__________ySayAMGAmDGG______y_____GQPGAJGACyAdByAF_AFSgA3fRySdGAx5fx11f2t2f3xfLyAD_____ANySayAYGAyDGGA0_A0_ALyADSiABy_____yAD_SiQo__A1_A1_A1_A1_QPGGALyAdsBy_____yAD_SdQo__A4_A4_A4_QPGGAx2FQPGAJGACyAdByAF_Ax2FQPGAJGACyAdByALyADSiAByA1__A1_A1_A1_QPGG_AXQPGAJGACyAdByAF_AFQPGAJGACyAdByAF_A3fLyADSiAByA1__A1_A1_QPGGQPGAJGACyAdByAF_AByAX_A2XQPGSgQPGAJGACyAdfJGA25_A25_ACyAJ_____yADGAJGQPGG 7SwiftUI4FormV AA12TupleContentV AA7SectionV AA4TextV AA6ToggleV AA9EmptyViewV AA6PickerV So28PXGTextLegibilityDimmingTypeV AA7ForEachV 18PhotosUIFoundation14SettingsSliderV 12CoreGraphics7CGFloatV So08PXScrollJ17SpeedometerRegimeV AA0J0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO A1_AAEA2__A3_Qrqd___SbtSHRd__lFQO AA6ButtonV
+CStrings:
++ "-[PXGDecoratingLayout lastScrollDirectionDidChange]"
++ "-[PXGDecoratingLayout scrollSpeedRegimeDidChange]"
++ "17"
++ "Color Conversion Mode"
++ "ColorConvert"
++ "Custom Shader (legacy)"
++ "MPSFColorConversion error converting %@ -> %@, error:%@"
++ "colorConversionMode"
++ "\xa1\xc1"
+- "13"
+- "kCGHDRMediaReferenceWhite"
+- "\x91\xc1"
+
+```

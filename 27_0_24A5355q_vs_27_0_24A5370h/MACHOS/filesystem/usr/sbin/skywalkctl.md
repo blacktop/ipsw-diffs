@@ -1,0 +1,31 @@
+## skywalkctl
+
+> `/usr/sbin/skywalkctl`
+
+```diff
+
+ 170.0.0.0.0
+-  __TEXT.__text: 0x119e8 sha256:0b666b64ae604894393e0c159669f5204d14f204c108f3d75eab7eb496695532
++  __TEXT.__text: 0x1199c sha256:cfae4050999dec2b454fa04a7b7c539f6fd803fa365d69b5867609dc8d78ee8c
+   __TEXT.__auth_stubs: 0x690 sha256:f9c4d2653b6076493152ad0b3b26b6aa48d1af558aa804e174c78bd88b458180
+   __TEXT.__cstring: 0xc2fc sha256:0646d6e6b14ccb483c19a411d6bbaf4d09b353c0f276358bf7fd2c9bfb940d45
+   __TEXT.__const: 0x60 sha256:34859fbb593a65eee19837d3df739c44296c19a4d02bb68416a9a350f06ba148
+-  __TEXT.__unwind_info: 0x258 sha256:c9c9b2997e0ce7e9d911bfeafc2aab2122ba14d40d4ec85fb0af634a6226deb6
+-  __DATA_CONST.__const: 0x4388 sha256:d47b681a8b738d845cd4b5b9e1330426f7fae431f00cec5af01f0a2e4edf0234
++  __TEXT.__unwind_info: 0x258 sha256:47cd6ad3629eb838086b9c32de2d7578dfa0ce79a167de50310f5ff19bb6a95b
++  __DATA_CONST.__const: 0x4388 sha256:2d7f2693586e67c0e557278334e796ef111d7d839359c891c03ee3e3a3121827
+   __DATA_CONST.__auth_got: 0x348 sha256:0aa82855a798b6118c14662be296a463ff77e3f99243e7636457ac5b16815091
+   __DATA_CONST.__got: 0x38 sha256:55466e407ac915797d9fc9f3b60dde983c0d2dc8c6815419ebba084fae803308
+   __DATA_CONST.__auth_ptr: 0x8 sha256:f70c75dc6cfa9dac2588b77c5a7a4f4e252fdc8ba579c411cba0df1cb68f890d
+-  __DATA.__data: 0x47c sha256:7bea445ef9a87e929972c752488380b0aea431d29a42f19c51ad6545806d9b1b
++  __DATA.__data: 0x47c sha256:b930a7c1740e8c7c0d0a1c04093d093985a1dfed0ae86a4f11bec6ac09b1aae6
+   __DATA.__common: 0x1c8 sha256:b960fb5cb94682dfc4a873035d65f8befdcb9bed0e7db0feb905f0dcf437b38c
+   __DATA.__bss: 0x765 sha256:16ca040dfcc586a69cbf1f279dd6d9b64bb16a06a6a3870c8f9777eed9063d60
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 8A6FF7E5-755C-3088-A3C1-246D6ED0CC5C
++  UUID: C6EC5B0F-16F7-3E47-BDBF-379BFF6BC7C1
+   Functions: 193
+   Symbols:   115
+   CStrings:  2092
+
+```

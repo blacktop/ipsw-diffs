@@ -1,0 +1,104 @@
+## AXElementInteraction
+
+> `/System/Library/PrivateFrameworks/AXElementInteraction.framework/AXElementInteraction`
+
+```diff
+
+-3229.1.6.0.0
+-  __TEXT.__text: 0x1530 sha256:702de79885dcc8ca4bdbb66b5b6a22826463681984f06b6f2cf1f14600710db1
+-  __TEXT.__objc_methlist: 0x2a4 sha256:5669f2a26c514721a1dbfd4abdb0060ef716997923ebf369ae39b4815079aa38
++3232.3.0.0.0
++  __TEXT.__text: 0x1530 sha256:b6b43ce1f4e46df511e1a034a01029cc92b883516d95f6a6c038c65d311b7c5e
++  __TEXT.__objc_methlist: 0x2a4 sha256:fc6d5abb3e1953672a2b6807132d5bbf4cebc3722361416ae6b9623e20c2391b
+   __TEXT.__const: 0x50 sha256:ef1bc0c5270bae1c2d23749996cc82bec464422624375626b89dd2219f2465ad
+-  __TEXT.__gcc_except_tab: 0x28 sha256:e8493b0e7aeabcba5c63d9cf6fbb6a976d3178f14860eba32687cf1877966ff5
++  __TEXT.__gcc_except_tab: 0x28 sha256:746b0519ac7a15f9c2900c2969b7573eb517a94a1a133bb18930dca291e34324
+   __TEXT.__cstring: 0x1be sha256:6bbad95e01e0b37957a3042b0c9999120760f6f37734788eba09daf2472bcea4
+-  __TEXT.__unwind_info: 0xe8 sha256:025ab467962c06a5bd3af8d8725e9046976a162291f6dd8a8f0b347f09184aea
++  __TEXT.__unwind_info: 0xe8 sha256:8a5faacb8179b28713573357905b783d9a14d12690f8553632ac165155992c88
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xb8 sha256:4c406948327c5c1429de4cc757263991a698956bd3099bc1ebab0ae4a8e308c6
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:58f05a1186142a3b36abf1fc6183114578eb834275ec66832578c8afa913447d
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:a7d7e9efda1e0741684ee7e735cb726d60a5048e66d2a459aa86523a65e5df00
++  __DATA_CONST.__const: 0xb8 sha256:24ee649657f95ce5b8c32b709e9c9a7fc99fbd83e6ba9f72dd8c4b0df17fc542
++  __DATA_CONST.__objc_classlist: 0x8 sha256:09dc649f2bbaeccda5ea58b2c45723c6df82b962448d6924c589351c044777a5
++  __DATA_CONST.__objc_protolist: 0x10 sha256:a0c4cbccd2f9c35598a3dffd8dd2920af99a6f1a3b3859bcee928558ecd5c27f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x280 sha256:8310cd944eb551fc06b4ca260941a29bb59be3a5a64454f5e812de444869b050
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:58f05a1186142a3b36abf1fc6183114578eb834275ec66832578c8afa913447d
+-  __DATA_CONST.__got: 0x78 sha256:97b1c4192f2793b66a41dd63425ef4887dd4fbfaa2d6ecc18800569cb1568fdd
+-  __AUTH_CONST.__const: 0x80 sha256:65b354426f07005adc9ec9e28de4042f8300701fc4cb3b35fbcff051e56f0dfe
+-  __AUTH_CONST.__cfstring: 0x220 sha256:ab01f2bda109e5a099bd626e7fc10109851f49ef9a9724125fca14fdafac26ca
+-  __AUTH_CONST.__objc_const: 0x310 sha256:dcac759d29ea10d688bd3188a2754e8e27c83cd8f86dc662b373162f39478b3c
++  __DATA_CONST.__objc_selrefs: 0x280 sha256:c2a93114915c3db03d21bf3671649feadebc81337a32255ed6258d748be7c488
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:09dc649f2bbaeccda5ea58b2c45723c6df82b962448d6924c589351c044777a5
++  __DATA_CONST.__got: 0x78 sha256:287af64b785486af0836fde36ad3eed20f736863a9e89fa6ece533ce87b9319b
++  __AUTH_CONST.__const: 0x80 sha256:4caa26d8a84aa8c48f1a3538d9e59d4d21198e2a754d5d4ac6a0b04e396147e5
++  __AUTH_CONST.__cfstring: 0x220 sha256:6b37ada2994d488e83f92f9cf88b3af54d41d4f3dcfe9e88b88c0585cdd5246e
++  __AUTH_CONST.__objc_const: 0x310 sha256:b9ff7215d37b6bb9a34a8742d06ee7f98e2843258177c7d2eac2fe88d7e18fdc
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:254742056147a19e4d280b79a565ffe80b1979e557069093b702c246cb4c1599
++  __AUTH.__objc_data: 0x50 sha256:f50f1223d18cb8fd9044234d4ed3a5798f1684beafd009b5d31630b3b1e946d3
+   __DATA.__objc_ivar: 0x18 sha256:929dd245faf182c8ba5e1de934c088d6f88e357f881d51db7fd643e9a6aa7b2c
+-  __DATA.__data: 0xc0 sha256:d0d9ecdb77179d4c24b6f53a12abc2bb3c5850ccebd6b0feb547040f045952d4
++  __DATA.__data: 0xc0 sha256:10b3ec7361aead0d6db30db2c13cb742ab7741469857b7638ade87b49cb19e5c
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F959FA26-21BA-34B7-90EF-087C89A5E560
++  UUID: 6D77442C-3EF8-3892-A413-673EA71A6C1F
+   Functions: 35
+   Symbols:   229
+   CStrings:  39
+Symbols:
++ ___block_literal_global.374
++ ___block_literal_global.379
++ ___block_literal_global.394
+- ___block_literal_global.368
+- ___block_literal_global.373
+- ___block_literal_global.388
+Functions:
+~ +[AXElementInteractionManager sharedManager] : sha256 8f5334849a920a3aea126075de19be7d50b46f35c51bec298a8f6aecd467bb6b -> 47f896d5328938ac3b3fa888203ab981b82e65cf6c197a89b4eabe49481ae7a1
+~ ___44+[AXElementInteractionManager sharedManager]_block_invoke : sha256 b66ab45f1a24f7e4728d198d12ca9057ed9b05fda15f699373969c4684778b84 -> 0a80ca67223b928f15ef38bba828df5983c3d9138827f4091eb81cb62b90ebf7
+~ -[AXElementInteractionManager init] : sha256 f53f430418c1e6b47a3e6645ec32b61d3960a0856c883df75c2104df0992ee2b -> 8fae823666edee8ccfb4d143efdcf9bd45ba2e145e69cc8d86922c4edc836c96
+~ -[AXElementInteractionManager startInteractionMode] : sha256 38e9528de8bd8a13ae95e7f743f24e9bab6ca2556d015dd22e4450cfeb746544 -> d666cfb64e2d4827baf0d959ee82a8952f93f4947c0e247fdd1f5706bccb475b
+~ ___51-[AXElementInteractionManager startInteractionMode]_block_invoke : sha256 783da1490fa968431664227fbf8d835d1ce94f5990af969fdd4314c500c3cb49 -> ba47e3b0995dc439bfc8628a7d3a4491b6d663de053336cf5999abff1e8c6300
+~ -[AXElementInteractionManager _initializeAXObserver] : sha256 72d3a5e46bb4fc366df2ff202d9c7d4ff888ca6e0b2b7bce68b93de9b49f3df2 -> 6b1808f65f44505e52b98e814d212b627f52066574924dfda5a9f51fcccb3ae8
+~ __axEventHandler : sha256 c86324fea5477ca1432d6ab92893d050d81f0697f089c2b5200cf27e47d5d660 -> f76ddb5d748667ac630b71b3208bcd469e33ffef940a94558930bd275f0565c6
+~ -[AXElementInteractionManager _registerForAXNotifications:] : sha256 0703e1dce3feef626bb4026af38b26b0b936806c660b1be9aa7ae9e7179760e7 -> 52d549ddf819aafc136e5f347d219926b38a383f06c35ac635385855be790202
+~ -[AXElementInteractionManager setDisplayCursor:] : sha256 a97b47d2471041c32a37c3123321fff81cf878cc4c15e8bfd57f07d6822deae9 -> 08d32fea71d0310e441c993b755eccf3afa842f6f64f52a9c58ea419c0bbb9b6
+~ ___48-[AXElementInteractionManager setDisplayCursor:]_block_invoke : sha256 e1f8cc8e3d92386b1c7def44777dca34cc766e08edc7f0a1c2388179d4630ae1 -> 20c68313294153ded08b2194d8f96904855043ab001076b0e0a92fb42509ef38
+~ -[AXElementInteractionManager endInteractionMode] : sha256 addadd7cee770c5ffd7a693b846cea7d45c61ec261752981f3e8d093044ffe5a -> 4174e7fa3d2ce87f5bb32d804f9e03afffeefc3584b832e1a09372206b55183d
+~ ___49-[AXElementInteractionManager endInteractionMode]_block_invoke : sha256 e01f75b1a19941ff5e4cd7906bb55b608931d8dc880271bcc8c48e295f86be71 -> 6153c58aa8a108f0a6a7a49123363b98d4f517235bf8fed1f96e8d28ef137192
+~ -[AXElementInteractionManager _handleScreenChange] : sha256 61f434f507eab3469522493fb4325cc0f8dcca2fd29da6d276a0dc53be87fae5 -> 792032b6a53d0574b384aa0118a50cc6a1aa801765077f92971e8e707da24770
+~ ___50-[AXElementInteractionManager _handleScreenChange]_block_invoke : sha256 e6c23acba54ab1a8325a85dc796594ce20f0ee763f7714966a6a09eca4936746 -> d030f67b9f8632fdf5a319ab60914196764048a51e115e6feb8ea58ef1c17d12
+~ -[AXElementInteractionManager _handleLayoutChange] : sha256 870d4bf4d28eb7fecb77ca787ce58fa61731e5bf12c7128e955010502d4fbee1 -> b54f8207454b1ed3e35a8f5f3123b4177a0165d27b7c04651a35b016846d0e68
+~ -[AXElementInteractionManager _allowDelegateToDecideElement:] : sha256 7ff524fdb7d15e39daf3b295c79a720bc613a8f548674ea343f782fa2ef487a3 -> d3a759c1285ebbae0fa08e37d988998b54878560368116b8337117efbf1c9e08
+~ -[AXElementInteractionManager initializeFocus] : sha256 67f6d85ff862dbeaa208f3f6dc6f7b5969140f50893a48200add9d858322c400 -> f830c41ced6c8a2154581737994ad3b7148b0083efc8b4a7c5724f71eb3ca449
+~ ___46-[AXElementInteractionManager initializeFocus]_block_invoke : sha256 36e099ed234e84a0114521067a2254b9b50952e628d908121e66cf4e3e4ae37f -> e02f6c28f95ed6b3dcdeb1b03325e07546cafaa44fdc0ffaf75714e13db60125
+~ -[AXElementInteractionManager focusedElement] : sha256 ed59876a28939af092693adf40fcb3f0080458a323305bc0d7b6cd4a70cbef6f -> 9ce044eccfb7faab2a9afcaa68e987fc52d75434b37fe867ec686b662767273a
+~ -[AXElementInteractionManager _highlightElement:] : sha256 954d9d4b91980021882f227dea6b3987fa697da79564956455e156a96d1424f8 -> 4a320bb39d65611a7e37ea5a300bbbb3852a226807efcc4496fb4be9699e1897
+~ ___49-[AXElementInteractionManager _highlightElement:]_block_invoke : sha256 fbf0ec9a3b4ca1418734d5ff33cccf7cdbce5e07a178d2efe11c3a692472b0bf -> 46114532d755a80b2ff252a7b087a5378b3aa4bca00d5e595e2e2787ee770c56
+~ -[AXElementInteractionManager _moveToElement:] : sha256 8dd905f8bf22d0e6101362e88b4943dc020803eacd49ba7e1b17a29eff9c681b -> afc538f7a2936e3b1d874aede04a04e4de2b4dcd56a5dda3b66a44c1d5f60952
+~ -[AXElementInteractionManager performDirectionalNavigation:] : sha256 af71852a63ee37463dbd964cb102773f26088130fd34113c90469ca0ed701b3e -> 26665f695cdc4d6375bfae5089399c01fadd201ff2eff7bfa5fa685e8945d6c2
+~ -[AXElementInteractionManager _moveFocusByHitTesting:] : sha256 aff35144573c68e41a5344cde501b46d932016e9272108a0206eb89df75b5fad -> 468afc98eb3b0611422771f7d7764eb16b49a497c07b71529f632dcb87c3c595
+~ ___54-[AXElementInteractionManager _moveFocusByHitTesting:]_block_invoke : sha256 6c996508dbadde8420109e1bbaf2dfafa1ed45ca73dedc2e163f89d3101bf3f7 -> 5ca5ba27aee9c29a58d8591d39baec4662993c281b71d2d9f638b422ffef03cd
+~ -[AXElementInteractionManager performActivate] : sha256 788167ce69e05f5ddca086dd8921d408cfd8ab242e63b9d3ece304b656b43fb7 -> 3eb7e7f1d6a37dfbf5553070dfde771c587f3b657611d79bf5675582bb8d30bb
+~ -[AXElementInteractionManager _clientIdentifier] : sha256 636edea86b2b56d257df6b00a59557cf525f9ac64557da147765167de3c223df -> 73dda4bd0639b41bc722a279c70e203abd21f98474f694ac7523e64904298719
+~ -[AXElementInteractionManager _client] : sha256 0a6e6939c0d8a3a8f31d3c94d2a01afeda1a29725b650750007520473c094130 -> 3c14c012e9f2445711d0e04b490148ca70565999f091196eb022a8559cb28101
+~ -[AXElementInteractionManager _sendMessageWithIdentifier:errorHandler:] : sha256 2876df82b72d665620b8355442da8604801df4b1da0b3dd8d63acea25f35b7b9 -> d53ad73ca714a765ae76c9ac757332a9e1d0f9726276f86e97344c0cd7735199
+~ -[AXElementInteractionManager _sendMessage:withIdentifier:errorHandler:] : sha256 d2d7a2c8b741a1990ce019333e179bd21195ffe4d83f73ace8fb2fcb993d2848 -> a6b991ac623c2fd32a94828fa9335704188daf408f9b808d8d04dad7fa94b26e
+~ ___72-[AXElementInteractionManager _sendMessage:withIdentifier:errorHandler:]_block_invoke : sha256 733e58432afde10778697e060d7b21faf14c559f16d5d333114cd6568aa55a1e -> 8f15a18085f42af7cbd9c70c30b0b038dc5da6640d4e300bc4305144118ac4db
+~ -[AXElementInteractionManager delegate] : sha256 288e9cdae27843c85650982c05fd8342d132e08436282fd4d0e8b5b3c9181705 -> adbaf8df1456d85480bec8cdbe657bd74fd29c55783bc77da851a7cf5b4d5dd5
+~ -[AXElementInteractionManager setDelegate:] : sha256 e4f12202eb0f4af7b707bc61352834c2336cec20e3e6344716ba882f0c0409c9 -> 15b87bcf2ec03301bb1686bc9aaf211e2c3780135a53ddb25c0a148585a43972
+~ -[AXElementInteractionManager .cxx_destruct] : sha256 aca5b60ce9ac318e35dbd9366f1a5c11749617790435781f6b819d65f46fa207 -> b20812e36a35feb02d9b2e7a9cec956d8514e0c130138df13da211d8ecd798b3
+
+```

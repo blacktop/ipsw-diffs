@@ -1,0 +1,304 @@
+## HeartHealthDaemon
+
+> `/System/Library/PrivateFrameworks/HeartHealthDaemon.framework/HeartHealthDaemon`
+
+```diff
+
+-7027.0.52.2.6
+-  __TEXT.__text: 0x64e34 sha256:c09ba2ae07ad293b4a10aab4b4b908deeba2776fb3903e93bb05e1652d6eac2e
+-  __TEXT.__objc_methlist: 0x4fec sha256:3d9562e990fcadaab9817e3c4c790d82ecc5de49b5b64ecc3bb4c8c3feeb832c
+-  __TEXT.__const: 0x34a sha256:14eb1786b3a2656523583bc3ae8414b574a1471dd766eb56057e42b7a8f68dc4
+-  __TEXT.__gcc_except_tab: 0xadc sha256:a0fa7ac19f46c924868c10af174ea25504c818d1ab9e1008ade90842ffc39d10
+-  __TEXT.__cstring: 0x5622 sha256:fae3e6a244fd2b9c07e874298bad0399ba730da4e7b9df5c2af2fb3f8e2f6b8a
+-  __TEXT.__oslogstring: 0xc29e sha256:1f8c488284abca9d93d40831aef0e3b85c32910e151504bcaf97230ca3a08ba6
++7027.0.60.2.2
++  __TEXT.__text: 0x64174 sha256:1bb7175badb3d29fff1d6cb89f781136c076e1f81765ba6e40aa5557cfc60041
++  __TEXT.__objc_methlist: 0x4ecc sha256:5f74328d9a5dc1c2d155b649c505fd714861f83c1c1215f8ef006df9e53e582f
++  __TEXT.__const: 0x34a sha256:46be3f75b859699cafb1c02ac7ce093496a20965893a6d1f54381f678b65f790
++  __TEXT.__gcc_except_tab: 0xadc sha256:a928374a542ffee87c6b96d72eaf692b221e721c651b869508c5a1478b9d9153
++  __TEXT.__cstring: 0x55d2 sha256:f224883594c92e81ef43cc9a1bec3b8596d7cae50209057b7aff83ec63d16e39
++  __TEXT.__oslogstring: 0xc175 sha256:6f7bb50d512a3ea8eee588f4880a3ca73619677b4df4a5f5ad5621be0113c8c3
+   __TEXT.__ustring: 0x86 sha256:2832a219975fc261c24cc8b2fe236e51a2daa0b0f0f22985cd564f2b9564d0aa
+-  __TEXT.__swift5_typeref: 0x47 sha256:28043458a4a073a8a35aafa2630b0a3866ee200ac87deb7cccc7bb2f831ac02c
++  __TEXT.__swift5_typeref: 0x47 sha256:dc25226bfca6b998e99f22bdfd04567ec6a35215ad8a84d58e463601549f2893
+   __TEXT.__swift5_capture: 0x30 sha256:645da1e70170993c3240c80354675fa9f25ed51b09a8a4047a3a97a8d2aa61bf
+-  __TEXT.__constg_swiftt: 0x9c sha256:bb715b7b2a5e5ca8da54be5f0a372da9673a6a6ff92a302333624bf1f94c3b96
++  __TEXT.__constg_swiftt: 0x9c sha256:499c67ee15925712958b9f15e0ae1f148b5db856f1f6f0913e38f1c3a0dcffdf
+   __TEXT.__swift5_reflstr: 0x17 sha256:4610cc3e49a7f11597c07ceb87a57f6faf66182fe3d75d95890de9cfc3aa9fef
+   __TEXT.__swift5_fieldmd: 0x38 sha256:68a34204bbc463a5eecb8148eba4b43a106fc816fd661886f8a74549f373d886
+-  __TEXT.__swift5_proto: 0xc sha256:1aa8976730ae4cc88e2396ddc38f4182b5ca5145fe123be682252500479477ba
++  __TEXT.__swift5_proto: 0xc sha256:df198150863aed6aef85142eec499dfea050edb9183c1e688b053710ba5af783
+   __TEXT.__swift5_types: 0x8 sha256:790c7ce6e8081ce74a21c22b2f6a1ff1698abc6190fcf42a30fb6623b1c1af09
+-  __TEXT.__unwind_info: 0x16b0 sha256:e721ded7d593b65e1622c92fd04b996e12eb5a7b1ebac738677d9fa5dd23c799
+-  __TEXT.__eh_frame: 0x78 sha256:ef2bf6cab1331cd8b8c54a8b62735ab05c66b27c2c47b91731db5698bc37a2cb
++  __TEXT.__unwind_info: 0x1678 sha256:ca2474a9b193d29c0147f0118382d86f94efd334ff0950f118dc7917d6131d0c
++  __TEXT.__eh_frame: 0x78 sha256:b048c824e206a4810b38c0895a39e954d34cb354a0ac8894b2c771db6324cace
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1988 sha256:3556c0d3c61214941c7bfbcb78d2e1caf84a3cfe02701e4a7d6536e30646bf8d
+-  __DATA_CONST.__objc_classlist: 0x308 sha256:dd43deac79005e3ed31b67e217fe7f397ea04d18d777fdc9a8c0f88a131170fa
+-  __DATA_CONST.__objc_catlist: 0x80 sha256:ac12f0c0ca722fc5e5afacf1fbc926d23930817f1d82567457c4cbd4c60543c4
+-  __DATA_CONST.__objc_protolist: 0x280 sha256:3d0653fed75447fabbc22b4455c8decda81a734c5c45c62461eb999153e3be8d
++  __DATA_CONST.__const: 0x1940 sha256:abb98b8b9405f8ec706784ff27ec140ac67144183fcb2eb730af3f4c5f791072
++  __DATA_CONST.__objc_classlist: 0x300 sha256:1508f7e1f042cf4e44a2f4d51ea90138d79cbb35e717e45e1921d04687bf51f0
++  __DATA_CONST.__objc_catlist: 0x80 sha256:4a9113691b0a30f2b9e79d406539b5e0801515f348d818a6866d4f9a683b52ee
++  __DATA_CONST.__objc_protolist: 0x270 sha256:912339ba48234b43a784324bc14453e732a9c6c783bbae28a9e14f5c45c52f86
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x35a8 sha256:955cec7ac3b46f009ca32e1bc595b055d82f91c33200eb77f45ab2763b839843
+-  __DATA_CONST.__objc_protorefs: 0x48 sha256:8746e5be0fc8cf37047f31ed47c1ce65a2043dc57e5f21214db0128ce87b18bf
+-  __DATA_CONST.__objc_superrefs: 0x290 sha256:6878101fe2d1b97a58b2992416536c10df95ad5c68de455b866fa9ba47261b8d
+-  __DATA_CONST.__objc_arraydata: 0x510 sha256:eda78577bf95fcc1e5197a498a714438eb5287523cfd26b0dd6155edfb3459e3
+-  __DATA_CONST.__got: 0xed0 sha256:551d7fa99a4a1163588b6bea3ee114b8adc81db0c43d408abd62b0e3dc5e1d16
+-  __AUTH_CONST.__const: 0x640 sha256:6db2d409c7fb79489a815e440322baa9efc2baf679ac77f1a5d4927996408838
+-  __AUTH_CONST.__cfstring: 0x4620 sha256:9183d8eba0e9d217e0457901a65961c53c67bf26467b3b00327fc9dba61af829
+-  __AUTH_CONST.__objc_const: 0x9b78 sha256:4b34aaff4ce0166d209f4b446d4c9f8db11b78d7e8fc6a2c6682e2edb3d92dd0
+-  __AUTH_CONST.__objc_intobj: 0xde0 sha256:03f5f810ef31e554b722f9846407f8f8ac936aa28ea9bf12af3db28b76eca72c
+-  __AUTH_CONST.__objc_doubleobj: 0x3d0 sha256:4090266cf33cb0f3b4cf5e3ef59e01434e7ca5dfceeeed9a15b16dab0dda7ba2
+-  __AUTH_CONST.__objc_arrayobj: 0x120 sha256:fb943bb67b17249318ac67c24131af3eb4832dfe29a4fee2174fc635a6ee62a5
++  __DATA_CONST.__objc_selrefs: 0x3520 sha256:c8d739376f232941598339399eaac935c2b5794374598d5edd75b7d7f089fea6
++  __DATA_CONST.__objc_protorefs: 0x40 sha256:a0be9d7fa4924c2173d101f3393854130119522003c495dd8ac0323175ecedcc
++  __DATA_CONST.__objc_superrefs: 0x288 sha256:1f12d553db1795864e30d801ee3c704594491da6d37dca173dd7203a1d9c6d65
++  __DATA_CONST.__objc_arraydata: 0x510 sha256:e299f79bab1d9ae5f9f18a9404a669b68366ffbe36a32c0a88ab0b7e63022ade
++  __DATA_CONST.__got: 0xeb8 sha256:231fa168f00aa0a9459a14daf6e5cd7c4fb831034dd03a2536e4a09493a9ba51
++  __AUTH_CONST.__const: 0x620 sha256:6db03d1baeaddd2c934d44eac9b45b0e3813f15f74ac07bbd37ce8221b558aba
++  __AUTH_CONST.__cfstring: 0x4600 sha256:0125c6c38320b047d376cb60fc8c89a8fa1f142f70b12e9c91e21ee66c81b680
++  __AUTH_CONST.__objc_const: 0x99a0 sha256:c7a343bc49d7c58e49f5a33c5a2c26c247649aebea8cf35d387077f40aaafe30
++  __AUTH_CONST.__objc_intobj: 0xdb0 sha256:81ebbc7aac8c85ec44857b3e6789b53a74855b22f791f080145e58bbcfc19cf5
++  __AUTH_CONST.__objc_doubleobj: 0x3d0 sha256:d8b656419af35c41fdf61a0a7dfb2a632e3bb30911684fd4ed29145eccb39de5
++  __AUTH_CONST.__objc_arrayobj: 0x120 sha256:a36644679c4801ad5e92bb67b31ffa7b78f64cdbd59ddcf5aeb285a9cec4fdc6
+   __AUTH_CONST.__auth_got: 0x890 sha256:c3f98bcd6e42258b08619d44bece48a614e4d6825295af9e133c62e05efe6da8
+-  __AUTH.__objc_data: 0x8b8 sha256:f4107e7b6aefc1bfb52c999637fa9a6eb80402a08cf9d33900354383b658bee0
+-  __DATA.__objc_ivar: 0x63c sha256:3d0ee39436d9492aa9a2b247938539aabb13c748cd1e3b91bde15d3d7cd61527
+-  __DATA.__data: 0x1e20 sha256:56efb3ed649e0f11694509e03b79e1b574d1bee57ede5e6c04721b9849528816
++  __AUTH.__objc_data: 0x868 sha256:38bc4baf26a0daebb76a2efa9c479671ad0abd15ea4e604cc1627221ea5a46bf
++  __DATA.__objc_ivar: 0x62c sha256:579a14d8ce84f57c08b466b7c4f7ea1dcfa7878173efcaaff33a27ff246c0f44
++  __DATA.__data: 0x1d60 sha256:90fd8dde4a2ddfaa8447e1b1f0ef01185dc6d213f322a6ba343d6dc4571147c4
+   __DATA.__bss: 0x1c0 sha256:5c55c8f4db4010ba9203d83536d0609856af8c847ac039e37e7dde8fbd574b61
+-  __DATA_DIRTY.__objc_data: 0x1640 sha256:e05bfa262751e5cd13181db4861b264de4ee569f37dfad6bac444487ba9fcdae
+-  __DATA_DIRTY.__data: 0x58 sha256:602c2730086dfb5d9d09062f7abbebb446037b5148f584451b71fc0ea02abf2d
++  __DATA_DIRTY.__objc_data: 0x1640 sha256:7b5f810909b9c850e17c4f4ccc1201c7b4b61937d2a51f8dbbfb7f5007934198
++  __DATA_DIRTY.__data: 0x58 sha256:fb98133bc6a2198d7a175c041aaf70d1927f2ab517b62b8e1083987ed9324d20
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 604239E3-2B3A-3EED-A81D-C9EC3F4C617C
+-  Functions: 2081
+-  Symbols:   8144
+-  CStrings:  1888
++  UUID: B2565689-DDEE-32B9-8F4E-0F141A85A7A4
++  Functions: 2062
++  Symbols:   8064
++  CStrings:  1880
+ 
+Symbols:
++ -[HDHRBloodPressureJournalPeriodicScheduler _enqueueSchedulingOnMaintenanceOperationWithPeriodicActivity:completion:]
++ -[HDHRHypertensionNotificationsRescindedAlertManager _activeRemoteCountryRequirementIdentifier]
++ -[HDHRHypertensionNotificationsRescindedAlertManager _localCountryRequirementIdentifier]
++ GCC_except_table19
++ GCC_except_table26
++ GCC_except_table30
++ GCC_except_table34
++ _OBJC_CLASS_$_HDMetadataManager
++ ___103-[HDHRHeartRateNotificationsFeatureAvailabilityManager observeValueForKeyPath:ofObject:change:context:]_block_invoke.433
++ ___104-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager setFeatureSettingNumber:forKey:completion:]_block_invoke.392
++ ___104-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager setFeatureSettingNumber:forKey:completion:]_block_invoke.392.cold.1
++ ___104-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager setFeatureSettingNumber:forKey:completion:]_block_invoke.393
++ ___104-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager setFeatureSettingNumber:forKey:completion:]_block_invoke.393.cold.1
++ ___104-[HKHRAFibBurdenJulianDayMajorityTimeZoneDeterminer determineJulianDayToMajorityTimeZoneForRange:error:]_block_invoke.396
++ ___104-[HRAtrialFibrillationEventDetector _queue_analyzeCurrentConfirmationCycleSamples:withAlgorithmVersion:]_block_invoke.418
++ ___105-[HDHRBloodPressureJournalManager insertBloodPressureJournals:isUserInitiated:error:onCommit:onRollback:]_block_invoke.421
++ ___105-[HDHRHypertensionNotificationsAnalysisScheduler _enqueueSchedulingOnMaintenanceOperationWithCompletion:]_block_invoke.394
++ ___105-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager removeFeatureSettingValueForKey:completion:]_block_invoke.397
++ ___105-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager removeFeatureSettingValueForKey:completion:]_block_invoke.397.cold.1
++ ___105-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager removeFeatureSettingValueForKey:completion:]_block_invoke.398
++ ___106-[HDHRBloodPressureJournalNotificationManager _queue_alarm:didReceiveDueEvents:date:handledEventsHandler:]_block_invoke.446
++ ___106-[HDHRBloodPressureJournalNotificationManager _queue_alarm:didReceiveDueEvents:date:handledEventsHandler:]_block_invoke.446.cold.1
++ ___106-[HDHRBloodPressureJournalNotificationManager _queue_alarm:didReceiveDueEvents:date:handledEventsHandler:]_block_invoke.446.cold.2
++ ___117-[HDHRBloodPressureJournalPeriodicScheduler _enqueueSchedulingOnMaintenanceOperationWithPeriodicActivity:completion:]_block_invoke
++ ___117-[HDHRBloodPressureJournalPeriodicScheduler _enqueueSchedulingOnMaintenanceOperationWithPeriodicActivity:completion:]_block_invoke.381
++ ___117-[HDHRBloodPressureJournalPeriodicScheduler _enqueueSchedulingOnMaintenanceOperationWithPeriodicActivity:completion:]_block_invoke_2
++ ___122+[HKHRStateSyncBloodPressureJournalDelegate _shouldUpdateWithMergedState:cloudState:localState:profile:transaction:error:]_block_invoke.402
++ ___122+[HKHRStateSyncBloodPressureJournalDelegate _shouldUpdateWithMergedState:cloudState:localState:profile:transaction:error:]_block_invoke_2.403
++ ___122+[HKHRStateSyncBloodPressureJournalDelegate _shouldUpdateWithMergedState:cloudState:localState:profile:transaction:error:]_block_invoke_3.405
++ ___160-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager setCurrentOnboardingVersionCompletedForCountryCode:countryCodeProvenance:date:settings:completion:]_block_invoke.382
++ ___162-[HDHRIrregularRhythmNotificationsV1FeatureAvailabilityManager setCurrentOnboardingVersionCompletedForCountryCode:countryCodeProvenance:date:settings:completion:]_block_invoke.436
++ ___162-[HDHRIrregularRhythmNotificationsV1FeatureAvailabilityManager setCurrentOnboardingVersionCompletedForCountryCode:countryCodeProvenance:date:settings:completion:]_block_invoke.436.cold.1
++ ___35-[HDHRNotificationAnalytics submit]_block_invoke.388
++ ___35-[HDHRNotificationAnalytics submit]_block_invoke.388.cold.1
++ ___35-[HDHRNotificationAnalytics submit]_block_invoke.388.cold.2
++ ___71-[HDHRAFibBurdenRescindedNotificationManager _sendNotificationRequest:]_block_invoke.398
++ ___71-[HDHRAFibBurdenRescindedNotificationManager _sendNotificationRequest:]_block_invoke.398.cold.1
++ ___73-[HDHRAFibBurdenNotificationManager _sendNotificationRequest:completion:]_block_invoke.405
++ ___73-[HDHRAFibBurdenNotificationManager _sendNotificationRequest:completion:]_block_invoke.405.cold.1
++ ___73-[HDHRIrregularRhythmNotificationsV2UpgradeManager doWorkWithCompletion:]_block_invoke.402
++ ___73-[HDHRIrregularRhythmNotificationsV2UpgradeManager doWorkWithCompletion:]_block_invoke.402.cold.1
++ ___74-[HRAtrialFibrillationEventDetector _queue_seriesSamplesAdded:lastAnchor:]_block_invoke.406
++ ___75-[HDHRHealthKitSyncManager triggerImmediateSyncWithReason:loggingCategory:]_block_invoke.376
++ ___76-[HRAtrialFibrillationEventDetector _queue_analyzeTachogramsSinceLastAnchor]_block_invoke.403
++ ___87-[HDHRAFibBurdenDailyAnalyticsEvent _extractWatchWearPropertiesIntoPayload:dataSource:]_block_invoke.478
++ ___87-[HDHRAFibBurdenDailyAnalyticsEvent _extractWatchWearPropertiesIntoPayload:dataSource:]_block_invoke.478.cold.1
++ ___93-[HDHRCardioFitnessFeatureStatusManagerServer remote_setNotificationsEnabled:withCompletion:]_block_invoke.375
++ ___93-[HDHRCardioFitnessFeatureStatusManagerServer remote_setNotificationsEnabled:withCompletion:]_block_invoke.375.cold.1
++ ___95-[HDHRIrregularRhythmNotificationsSettingMigrator _syncSettingIfPossibleFromManager:toManager:]_block_invoke.371
++ ___95-[HDHRIrregularRhythmNotificationsSettingMigrator _syncSettingIfPossibleFromManager:toManager:]_block_invoke.371.cold.1
++ ___97-[HDHRHypertensionNotificationsRescindedAlertManager _presentNotificationWithTitle:message:type:]_block_invoke.421
++ ___97-[HDHRHypertensionNotificationsRescindedAlertManager _presentNotificationWithTitle:message:type:]_block_invoke.421.cold.1
++ ___block_literal_global.370
++ ___block_literal_global.404
++ ___block_literal_global.408
++ ___block_literal_global.412
++ ___block_literal_global.421
++ ___block_literal_global.438
++ ___block_literal_global.439
++ ___block_literal_global.440
++ ___block_literal_global.442
++ ___block_literal_global.482
++ _objc_msgSend$_activeRemoteCountryRequirementIdentifier
++ _objc_msgSend$_enqueueSchedulingOnMaintenanceOperationWithPeriodicActivity:completion:
++ _objc_msgSend$_localCountryRequirementIdentifier
++ _objc_msgSend$enqueueMaintenanceOperation:withPeriodicActivity:
++ _objc_msgSend$localCountryIsSupportedRequirementIdentifier
++ _objc_msgSend$notificationCenter
++ _objc_msgSend$remoteCountryIsSupportedRequirementIdentifier
+- -[HDHRBloodPressureJournalPeriodicScheduler _enqueueSchedulingOnMaintenanceOperationWithCompletion:]
+- -[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager highestAvailableOnboardedAlgorithmVersionWithError:]
+- -[HDHeartDaemonExtension daemonDidReceiveRapportEvent:completion:]
+- -[HDRemoteHeartRateStreamClient .cxx_destruct]
+- -[HDRemoteHeartRateStreamClient _connection]
+- -[HDRemoteHeartRateStreamClient _lock_setupConnection]
+- -[HDRemoteHeartRateStreamClient activateConnectionIfNecessary]
+- -[HDRemoteHeartRateStreamClient connectionInterrupted]
+- -[HDRemoteHeartRateStreamClient connectionInvalidated]
+- -[HDRemoteHeartRateStreamClient dealloc]
+- -[HDRemoteHeartRateStreamClient exportedInterface]
+- -[HDRemoteHeartRateStreamClient initWithConnectionProvider:]
+- -[HDRemoteHeartRateStreamClient initWithEndPoint:]
+- -[HDRemoteHeartRateStreamClient init]
+- -[HDRemoteHeartRateStreamClient invalidateConnection]
+- -[HDRemoteHeartRateStreamClient isConnectionActive]
+- -[HDRemoteHeartRateStreamClient prepareToProvideHeartRateWithCompletion:]
+- -[HDRemoteHeartRateStreamClient remoteInterface]
+- -[HRAtrialFibrillationEventDetector _currentAlgorithmVersion].cold.1
+- _HKFeatureAvailabilityRequirementIdentifierFeatureFlagIsEnabled
+- _OBJC_CLASS_$_HDRemoteHeartRateStreamClient
+- _OBJC_CLASS_$_NSNotificationCenter
+- _OBJC_CLASS_$_NSXPCInterface
+- _OBJC_CLASS_$__HKXPCConnection
+- _OBJC_IVAR_$_HDRemoteHeartRateStreamClient._connectionProvider
+- _OBJC_IVAR_$_HDRemoteHeartRateStreamClient._connectionToService
+- _OBJC_IVAR_$_HDRemoteHeartRateStreamClient._lock
+- _OBJC_IVAR_$_HDRemoteHeartRateStreamClient._running
+- _OBJC_METACLASS_$_HDRemoteHeartRateStreamClient
+- __OBJC_$_INSTANCE_METHODS_HDRemoteHeartRateStreamClient
+- __OBJC_$_INSTANCE_VARIABLES_HDRemoteHeartRateStreamClient
+- __OBJC_$_PROP_LIST_HDRemoteHeartRateStreamClient
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKRemoteHeartRateStreamServiceInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT__HKXPCExportable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS__HKXPCExportable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HKRemoteHeartRateStreamServiceInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES__HKXPCExportable
+- __OBJC_$_PROTOCOL_REFS_HKRemoteHeartRateStreamServiceInterface
+- __OBJC_$_PROTOCOL_REFS__HKXPCExportable
+- __OBJC_CLASS_PROTOCOLS_$_HDRemoteHeartRateStreamClient
+- __OBJC_CLASS_RO_$_HDRemoteHeartRateStreamClient
+- __OBJC_LABEL_PROTOCOL_$_HKRemoteHeartRateStreamServiceInterface
+- __OBJC_LABEL_PROTOCOL_$__HKXPCExportable
+- __OBJC_METACLASS_RO_$_HDRemoteHeartRateStreamClient
+- __OBJC_PROTOCOL_$_HKRemoteHeartRateStreamServiceInterface
+- __OBJC_PROTOCOL_$__HKXPCExportable
+- __OBJC_PROTOCOL_REFERENCE_$_HKRemoteHeartRateStreamServiceInterface
+- ___100-[HDHRBloodPressureJournalPeriodicScheduler _enqueueSchedulingOnMaintenanceOperationWithCompletion:]_block_invoke
+- ___100-[HDHRBloodPressureJournalPeriodicScheduler _enqueueSchedulingOnMaintenanceOperationWithCompletion:]_block_invoke.375
+- ___100-[HDHRBloodPressureJournalPeriodicScheduler _enqueueSchedulingOnMaintenanceOperationWithCompletion:]_block_invoke_2
+- ___103-[HDHRHeartRateNotificationsFeatureAvailabilityManager observeValueForKeyPath:ofObject:change:context:]_block_invoke.427
+- ___104-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager setFeatureSettingNumber:forKey:completion:]_block_invoke.389
+- ___104-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager setFeatureSettingNumber:forKey:completion:]_block_invoke.389.cold.1
+- ___104-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager setFeatureSettingNumber:forKey:completion:]_block_invoke.390
+- ___104-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager setFeatureSettingNumber:forKey:completion:]_block_invoke.390.cold.1
+- ___104-[HKHRAFibBurdenJulianDayMajorityTimeZoneDeterminer determineJulianDayToMajorityTimeZoneForRange:error:]_block_invoke.390
+- ___104-[HRAtrialFibrillationEventDetector _queue_analyzeCurrentConfirmationCycleSamples:withAlgorithmVersion:]_block_invoke.412
+- ___105-[HDHRBloodPressureJournalManager insertBloodPressureJournals:isUserInitiated:error:onCommit:onRollback:]_block_invoke.415
+- ___105-[HDHRHypertensionNotificationsAnalysisScheduler _enqueueSchedulingOnMaintenanceOperationWithCompletion:]_block_invoke.388
+- ___105-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager removeFeatureSettingValueForKey:completion:]_block_invoke.394
+- ___105-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager removeFeatureSettingValueForKey:completion:]_block_invoke.394.cold.1
+- ___105-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager removeFeatureSettingValueForKey:completion:]_block_invoke.395
+- ___106-[HDHRBloodPressureJournalNotificationManager _queue_alarm:didReceiveDueEvents:date:handledEventsHandler:]_block_invoke.441
+- ___106-[HDHRBloodPressureJournalNotificationManager _queue_alarm:didReceiveDueEvents:date:handledEventsHandler:]_block_invoke.441.cold.1
+- ___106-[HDHRBloodPressureJournalNotificationManager _queue_alarm:didReceiveDueEvents:date:handledEventsHandler:]_block_invoke.441.cold.2
+- ___122+[HKHRStateSyncBloodPressureJournalDelegate _shouldUpdateWithMergedState:cloudState:localState:profile:transaction:error:]_block_invoke.396
+- ___122+[HKHRStateSyncBloodPressureJournalDelegate _shouldUpdateWithMergedState:cloudState:localState:profile:transaction:error:]_block_invoke_2.397
+- ___122+[HKHRStateSyncBloodPressureJournalDelegate _shouldUpdateWithMergedState:cloudState:localState:profile:transaction:error:]_block_invoke_3.399
+- ___160-[HDHRIrregularRhythmNotificationsFeatureAvailabilityManager setCurrentOnboardingVersionCompletedForCountryCode:countryCodeProvenance:date:settings:completion:]_block_invoke.379
+- ___162-[HDHRIrregularRhythmNotificationsV1FeatureAvailabilityManager setCurrentOnboardingVersionCompletedForCountryCode:countryCodeProvenance:date:settings:completion:]_block_invoke.430
+- ___162-[HDHRIrregularRhythmNotificationsV1FeatureAvailabilityManager setCurrentOnboardingVersionCompletedForCountryCode:countryCodeProvenance:date:settings:completion:]_block_invoke.430.cold.1
+- ___35-[HDHRNotificationAnalytics submit]_block_invoke.382
+- ___35-[HDHRNotificationAnalytics submit]_block_invoke.382.cold.1
+- ___35-[HDHRNotificationAnalytics submit]_block_invoke.382.cold.2
+- ___37-[HDRemoteHeartRateStreamClient init]_block_invoke
+- ___50-[HDRemoteHeartRateStreamClient initWithEndPoint:]_block_invoke
+- ___71-[HDHRAFibBurdenRescindedNotificationManager _sendNotificationRequest:]_block_invoke.392
+- ___71-[HDHRAFibBurdenRescindedNotificationManager _sendNotificationRequest:]_block_invoke.392.cold.1
+- ___73-[HDHRAFibBurdenNotificationManager _sendNotificationRequest:completion:]_block_invoke.399
+- ___73-[HDHRAFibBurdenNotificationManager _sendNotificationRequest:completion:]_block_invoke.399.cold.1
+- ___73-[HDHRIrregularRhythmNotificationsV2UpgradeManager doWorkWithCompletion:]_block_invoke.396
+- ___73-[HDHRIrregularRhythmNotificationsV2UpgradeManager doWorkWithCompletion:]_block_invoke.396.cold.1
+- ___73-[HDRemoteHeartRateStreamClient prepareToProvideHeartRateWithCompletion:]_block_invoke
+- ___74-[HRAtrialFibrillationEventDetector _queue_seriesSamplesAdded:lastAnchor:]_block_invoke.400
+- ___75-[HDHRHealthKitSyncManager triggerImmediateSyncWithReason:loggingCategory:]_block_invoke.370
+- ___76-[HRAtrialFibrillationEventDetector _queue_analyzeTachogramsSinceLastAnchor]_block_invoke.397
+- ___87-[HDHRAFibBurdenDailyAnalyticsEvent _extractWatchWearPropertiesIntoPayload:dataSource:]_block_invoke.472
+- ___87-[HDHRAFibBurdenDailyAnalyticsEvent _extractWatchWearPropertiesIntoPayload:dataSource:]_block_invoke.472.cold.1
+- ___93-[HDHRCardioFitnessFeatureStatusManagerServer remote_setNotificationsEnabled:withCompletion:]_block_invoke.369
+- ___93-[HDHRCardioFitnessFeatureStatusManagerServer remote_setNotificationsEnabled:withCompletion:]_block_invoke.369.cold.1
+- ___95-[HDHRIrregularRhythmNotificationsSettingMigrator _syncSettingIfPossibleFromManager:toManager:]_block_invoke.365
+- ___95-[HDHRIrregularRhythmNotificationsSettingMigrator _syncSettingIfPossibleFromManager:toManager:]_block_invoke.365.cold.1
+- ___97-[HDHRHypertensionNotificationsRescindedAlertManager _presentNotificationWithTitle:message:type:]_block_invoke.414
+- ___97-[HDHRHypertensionNotificationsRescindedAlertManager _presentNotificationWithTitle:message:type:]_block_invoke.414.cold.1
+- ___block_descriptor_32_e23_"_HKXPCConnection"8?0l
+- ___block_descriptor_40_e8_32s_e23_"_HKXPCConnection"8?0ls32l8
+- ___block_literal_global.364
+- ___block_literal_global.392
+- ___block_literal_global.396
+- ___block_literal_global.406
+- ___block_literal_global.415
+- ___block_literal_global.426
+- ___block_literal_global.428
+- ___block_literal_global.433
+- ___block_literal_global.436
+- ___block_literal_global.476
+- _objc_msgSend$_connection
+- _objc_msgSend$_enqueueSchedulingOnMaintenanceOperationWithCompletion:
+- _objc_msgSend$_lock_setupConnection
+- _objc_msgSend$activateConnectionIfNecessary
+- _objc_msgSend$chutney
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$deprecateIRN1
+- _objc_msgSend$featureFlagIsEnabled:
+- _objc_msgSend$features
+- _objc_msgSend$highestAvailableOnboardedAlgorithmVersionWithError:
+- _objc_msgSend$initWithConnectionProvider:
+- _objc_msgSend$initWithListenerEndpoint:
+- _objc_msgSend$initWithServiceName:
+- _objc_msgSend$interfaceWithProtocol:
+- _objc_msgSend$invalidateConnection
+- _objc_msgSend$metadataManager
+- _objc_msgSend$remote_prepareToProvideHeartRateWithCompletion:
+- _objc_msgSend$resume
+- _objc_msgSend$setExportedObject:
+CStrings:
+- "@\"_HKXPCConnection\"8@?0"
+- "[%{public}@] Connection Interrupted : %{public}@"
+- "[%{public}@] Connection Invalidated : %{public}@"
+- "[%{public}@] No need to activate. Connection already activated %@"
+- "[%{public}@] Unable to determine current algorithm version, defaulting to 1.0: %{public}@"
+- "[%{public}@] daemonDidReceiveRapportEvent."
+- "com.apple.health.RemoteHeartRateStreamService"
+
+```

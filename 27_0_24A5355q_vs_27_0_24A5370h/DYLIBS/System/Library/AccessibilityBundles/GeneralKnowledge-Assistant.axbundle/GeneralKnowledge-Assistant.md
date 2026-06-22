@@ -1,0 +1,74 @@
+## GeneralKnowledge-Assistant
+
+> `/System/Library/AccessibilityBundles/GeneralKnowledge-Assistant.axbundle/GeneralKnowledge-Assistant`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x454 sha256:34ef27d24f59082746b4b05f8e0b21fd255fb18e1eadadd2b1849869e95ccbd1
+-  __TEXT.__objc_methlist: 0xb4 sha256:38b9539be53003da2336b82e2249c61548bcc6215d3c32d5d08852597ffc6800
++3039.1.0.0.0
++  __TEXT.__text: 0x454 sha256:ea04e8b463f95515841dd892bf68fe0c113efc17863c1c908521113438eb41b5
++  __TEXT.__objc_methlist: 0xb4 sha256:0255e7c37657d8134c1910e0b88b177cfb4c2932d78ca4141ffd152b71ffdaa9
+   __TEXT.__cstring: 0x192 sha256:913c856a9990b803f2d0fe755330611adcef734993c90bc84339651bc0b27020
+   __TEXT.__unwind_info: 0x88 sha256:6a092ff3973b29e9166fa306ba13a9105b2f78698c8d429779ead882ac72c3bc
+   __TEXT.__objc_stubs: 0x0
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x60 sha256:0325db0a1db83be33b0463c90936a1a140fd58302d99008688dfd68c204e00b6
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:6c5b437b961f1b9914a6e51c065b5f29999412ae41e5b9b61c9925c73520028a
++  __DATA_CONST.__const: 0x60 sha256:aeb537fe25dec8cb616f1a77e91d9299b96c5fc9f22439682eaf091957edd880
++  __DATA_CONST.__objc_classlist: 0x28 sha256:b699806ff4edfc002f8f09b98314cad89e241acf5096ebf24d2e70d2186f38cb
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x98 sha256:842fab7337147fa3c76a4807d7e1e66e2c213672d204cb6931eaaec8ca76195a
+-  __DATA_CONST.__got: 0x30 sha256:79081f1ac2c5004f8bba97b2c7df5f9aa74881d07f35c0f46828172b5247f4e6
+-  __AUTH_CONST.__const: 0x80 sha256:ae3120cbc10b0cf4963d8d1802e2c15cf28f823647ab7a9899c1b212c1c6b958
+-  __AUTH_CONST.__cfstring: 0x220 sha256:ff6ed6b992740a264a18cbe80f06bde6a873fb740b4994702f0aa86ce55d04bc
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:1700bcde7cedd85a39e767c5c1a9924c46006492dcd581a592afcd9b0aa726de
++  __DATA_CONST.__objc_selrefs: 0x98 sha256:54a80bd9436fcf57d1421240d0a9e464ddac5319f9b2284a33697d894ffc1285
++  __DATA_CONST.__got: 0x30 sha256:f55eced87fe7f0ba441bbb08cdaef99ce4e336d33521b1af70276afc9ab90a7b
++  __AUTH_CONST.__const: 0x80 sha256:a8282fe75bb6a92b309d1425eda80a1aa4c5e767e88dbc0e2eb3e8e7341460d2
++  __AUTH_CONST.__cfstring: 0x220 sha256:7c6aa30e3f1e584af00e0ce3a29360fc2c7339a311c1c7951bcf04a38b45d26a
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:d83c1b057a1d2393a03df5e43c1f2353d61b128046cf57fa0fc7a8ce39a65288
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:7faf5b14da85d8bc1a228d58afea304b6342636fd8096877cd5d0317664458b9
++  __DATA_DIRTY.__objc_data: 0x190 sha256:f41c55118e4e2b8ecad07b1ff68082a22fe56f545745b107c47a4c32bffaecc3
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 795235E5-3020-32D9-B2D3-0444C75E66B7
++  UUID: E6C91BCF-322F-3382-A4F5-170C1DF2CB3C
+   Functions: 16
+   Symbols:   102
+   CStrings:  38
+Symbols:
++ ___block_literal_global.358
++ ___block_literal_global.389
++ ___block_literal_global.398
+- ___block_literal_global.352
+- ___block_literal_global.383
+- ___block_literal_global.392
+Functions:
+~ +[SiriGKAttributionViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 863b4736a74e274ec1a05ddcc47deaf1bfe09da17167742b2d9ccabb49a200f8 -> dcecdaa49ba2e0f2948f2932e51379e9fc41b8931ecf888ee8aed09e71c52a4d
+~ +[SiriGKAttributionViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 ffe37b296aaad78939179434f655d6fbec5ea4ecf69fcd02c4c2d162b8e4c68a -> 6f2a0966baf7a58a6d8244bf2b77a97ced4fb56099b2650146dd97d2fd0b45a2
+~ -[SiriGKAttributionViewAccessibility accessibilityLabel] : sha256 503bdc04f1002944a9ce63cfab48aeb09fb89dc615b329569d57e20015dc4881 -> 6d1d00395f219b932ccb6c7512483ae78669200a2f82c33c33f6c92890d18454
+~ -[SiriGKAttributionViewAccessibility accessibilityTraits] : sha256 a7d03ed91913921776f3e58b32accda312f12b699ef3b9a31be0dc4c64303264 -> 4404958dbc375e5f7feaa58022f8807c5c386bafec5297469883230992aa97d7
+~ +[SiriGKImageLinkViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 229e77615eadc9c6ec2b71a2cf7e0064eb5a72a5feff745d2edbeaeaa6e8fbf4 -> 72e9899d128b5faf6998b3884b4274966d86f44e90af99d9354c513b8d012496
+~ +[SiriGKImageLinkViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 b5ca4e55ce9235b752803e01625eaf18f94eddbea223e2932ed5c6edabcb4fe9 -> 095196cb23110aac04607a8c98d138a5dd4e32313213d763fc03469b9c3812d3
+~ -[SiriGKImageLinkViewAccessibility accessibilityLabel] : sha256 a17544eb0f6f3f5a4b128d980dcd9f50bebcd29b2f0cb53d188095df7feebc0c -> 1407a78045f2c6db4dae341d8a768431f3d0718ac7cf3529f2be4b7d94470fad
+~ -[SiriGKImageLinkViewAccessibility accessibilityTraits] : sha256 a7d03ed91913921776f3e58b32accda312f12b699ef3b9a31be0dc4c64303264 -> 4404958dbc375e5f7feaa58022f8807c5c386bafec5297469883230992aa97d7
+~ +[SiriGeneralKnowledgeGlue accessibilityInitializeBundle] : sha256 4286c72abf1ceb4f339ac30f0c0904424a154c4e4fd89fe9865cc1790554fdba -> 6b151937a58d4320c867337037958db8b5423a40b1b3ab12e936246b6196fb53
+~ ___57+[SiriGeneralKnowledgeGlue accessibilityInitializeBundle]_block_invoke : sha256 e7568ee4d163dd0f9797fdd07a99b6b3e31f6d718a0129172249f31106fddbeb -> a03b59e39e9375cfe19444257474935cf569d1e0ceaecc920962c8f2e53361bf
+~ ___57+[SiriGeneralKnowledgeGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 a1e11533f1c2370d1b8a57386e50599e46251043a31e503ba3166e56507638e3 -> 40398bd5556cd4e2ca9715645a81e32774718f78f92910dab6c412e9a2aedd0e
+~ ___57+[SiriGeneralKnowledgeGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 8dd743fffc6a116ff8b6abf4e61cfd5c95ce9f423d175608cec9b0c3197227f7 -> 6606a655e9d85be6aff0f25f0a4549d7ede5978492262a09b4acf1cf81d5714c
+~ ___57+[SiriGeneralKnowledgeGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 d754cd713650e9108995e1d6cbdfd06b2f1bc8cb1965f112a187259516b3ab9c -> 98acda72d0cf77bf8a5b81a9ad7633625e5b9a2468d92bfaeb1b81a8e7531696
+~ _accessibilityLocalizedString : sha256 e2da1662f3fb79e0161487f6c58b99aa1337791a7ca9993b762ac277dd0b0ede -> cd7a3c75a1a8d4b4bf84ddf53373fe9f1c2f31e520f47bd13f1b0547bc091ddc
+
+```

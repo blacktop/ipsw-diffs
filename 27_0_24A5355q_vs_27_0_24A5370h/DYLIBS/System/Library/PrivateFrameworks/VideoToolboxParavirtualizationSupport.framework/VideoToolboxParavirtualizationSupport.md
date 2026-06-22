@@ -1,0 +1,44 @@
+## VideoToolboxParavirtualizationSupport
+
+> `/System/Library/PrivateFrameworks/VideoToolboxParavirtualizationSupport.framework/VideoToolboxParavirtualizationSupport`
+
+```diff
+
+ 71.0.5.0.0
+-  __TEXT.__text: 0x688 sha256:6e8e5cb274b5e603c855a23efe083a3d32c95072c4cf37dae7d4588989233c8e
++  __TEXT.__text: 0x698 sha256:b56243817627cd5dad0a6bd1d5e6063d12ca589b0c7e4c978eab4e4343f1437b
+   __TEXT.__const: 0x68 sha256:f9b6e0a59d5a213de0a8279cd093d0e80ad6fa458aca00a4e7a1e7852316148f
+   __TEXT.__cstring: 0x68 sha256:9f23fa0eadcb611dd09fec68cf73b54b10517771810c6f775589ceb2d920580c
+-  __TEXT.__unwind_info: 0x80 sha256:1baeea6b3854b6e7edc4df9bfba4d0b49137ee988e9a071e28dde199208d8620
++  __TEXT.__unwind_info: 0x80 sha256:3eca1ef39757e466ff68d22368ea051851d5c038ed5039d9d1c1585638af3b88
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x48 sha256:bf542ed391cd5fecdf1d62d72191aa17d43f30e791cd6b85b239ad3957fa40bb
++  __DATA_CONST.__const: 0x48 sha256:b8acea199c78f352374f214e72633c93e6f37c43dd5e9ac331498cebf412107a
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x20 sha256:6bf345666e3487556ec22a2a69e190d371439e972fa63bfd004345a19042f8bd
++  __AUTH_CONST.__const: 0x20 sha256:fff5a58e9c69efe47cf4a89701876f6ed3cd8d49a9f651c2b418b98d699e366b
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA_DIRTY.__bss: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 34B4B3CE-273E-3131-97DC-6DEDE2485406
++  UUID: 025CB137-6970-31BA-A5D0-B1E097054E45
+   Functions: 10
+   Symbols:   62
+   CStrings:  3
+Functions:
+~ _VTParavirtualizationGuestSupportSetUpWithHandlers : sha256 e2db62f8e41a2c1bfc2e6cc931d79d8041afb9085d85855a67afb94ed0635d26 -> 3ed0beb5f085012671685abc9a4e0ede1f0c406a967e5d65d0ebf7ac63bd0348
+~ ___VTParavirtualizationGuestSupportSetUpWithHandlers_block_invoke : sha256 842c173c691d3c6204b46054d099a501356df98944a16b1eec30fe880e5962aa -> 9118ba3c5b302bd14132634b54d0014018e3d6325d387b6b85022e5b1af833b7
+~ _OUTLINED_FUNCTION_0 : sha256 a99cc01a830207406b29614cbae5046d36535134e58794ed49630ad80112b8b0 -> af114695c7fba90fbbcc183bdea07cf76b97c3fe46045b4829b1d70205d90274
+~ _OUTLINED_FUNCTION_1 : sha256 97cd03c5dc639f83e18ad2b972f7fb28f067678351995e94a7237e941901c8f2 -> de2f463a841001cd3073d2e658c7cb88c686895f4e2a71e7c715305ea31e4fb8
+~ _OUTLINED_FUNCTION_2 : sha256 3a5375603498826a2ba30d062de35302142d0277bee579b3cbb8da105dd248f5 -> f1049ef2c761b1de8209592ee21af55dd34b105a34a3212eb106ab9d0c939038
+~ ___VTParavirtualizationGuestSupportSetUpWithHandlers_block_invoke_2 : sha256 00f27863026189d163b9abe0e236172bbaa6c860e2db8d499c345cb8e0d7252e -> e8fad42e41b9212fb5d64afbaa1b839f17b614c327fcc753064d7e462a5d4426
+~ _vtParavirtualizationGuestSupportUpdateBuffersForSize : sha256 bba2841ee663be739b3bcb06cb1020a8f46fbd184cc4cc7d39645dbb38c21e43 -> a84549ebbc234f4ac03816975f8496bb9807faa54fa3ae88d2fda965a93510e1
+~ _VTParavirtualizationGuestSupportRegisterGuestUUID : sha256 550971a3886d1f08a40912e30495640b71505e44581c68cbcd902bc707b23917 -> b677fc1c031684c7ae83e65d895c9b809b0b5168c414e9237a56b493c7e59801
+~ _VTParavirtualizationGuestSupportDeregisterGuestUUID : sha256 dcab796e8e8d131727a4fe23172660b642e673fd56392a8423957b5e11ec2f2a -> 9ac690882d3662362fa1d48905963e9746f15a3159e0fe38aa871e30359a5dea
+~ _VTParavirtualizationGuestSupportSendRawMessageToHost : 456 -> 472
+
+```

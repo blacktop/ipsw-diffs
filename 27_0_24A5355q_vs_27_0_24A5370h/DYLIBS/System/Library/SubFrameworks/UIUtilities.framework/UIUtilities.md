@@ -1,0 +1,95 @@
+## UIUtilities
+
+> `/System/Library/SubFrameworks/UIUtilities.framework/UIUtilities`
+
+```diff
+
+-9127.0.66.1.105
+-  __TEXT.__text: 0x14c0 sha256:ac74e80dd931eafee6fea34c85943190586ffc01febefa8f68cb23c92e154f16
+-  __TEXT.__objc_methlist: 0x228 sha256:596ac0667b408ae6310e93da3f30f2e763b2e3a860f61366a5788caffc685779
+-  __TEXT.__const: 0x40 sha256:07be3df82e3d24ecfbd09de7f206fe1cdcfabc75d75a3085a5432619194670c4
++9127.0.71.1.102
++  __TEXT.__text: 0x14bc sha256:15c5883d65524cc35c745f9fe42752fd130dfdd2b9c9c07c7ea6699fe59e4a6c
++  __TEXT.__objc_methlist: 0x228 sha256:90d57a23ce31747b890acbaf1b5eea3f71034027321e3071b10893aa529972b1
++  __TEXT.__const: 0x40 sha256:844458f2b0179bcf4a4a04a5080a9ca487a9efd50cdbd934dc4b9459ef60d43f
+   __TEXT.__cstring: 0x2d1 sha256:84c138e08a63f5382ff2372a386399ce26dd87e6803b1bb27c898f96bae123be
+   __TEXT.__ustring: 0x18 sha256:4f73ba248c2afe282cbdeef4a9c7391261c26167fc5f28a864149283edabb560
+-  __TEXT.__unwind_info: 0xe0 sha256:6bb0ec1f05b975faa9fb4e1373413479d6e76ce59db096d4f57a3c425160e234
++  __TEXT.__unwind_info: 0xe0 sha256:95f61fd4d0953bba79d6d2f73dade58068cecf8488ea38b291f5969691dc81c7
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x60 sha256:1414993366f17ada2fcdb3d68296f1e69e3a88dcf6a9097e93624c4b86032297
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:20f52c4496ca7166003f5801313d755b01198fafff9d83d200c851da55ffa8ea
++  __DATA_CONST.__const: 0x60 sha256:e572354bc06950918e279659b1ead4c02dc1d74b9d6274aff579d2c426f0569e
++  __DATA_CONST.__objc_classlist: 0x28 sha256:535dfb2a1e7476e0bac679c1c0836f9a22ad07e0bb171bffeae25ab1f0d2eb21
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1a8 sha256:01d5f66524c6b8ba7cc9bb805d69b153b0a1208185be9a0a0d673691cf5974e4
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:e404416bd1289fef81832048000dc87eb65060ce2990cda7483140e316b0d8dc
+-  __DATA_CONST.__got: 0x40 sha256:035524b72c6e7d742d451229d9fb061c0d72712e6caeacb1fb01409357b5fa6e
+-  __AUTH_CONST.__const: 0x60 sha256:30e09b4ac440d3a2b9db19e812392596824b6ede8e1808a91e4f26a138e2ad43
+-  __AUTH_CONST.__cfstring: 0x3a0 sha256:d51e6c9450b378056b40be501967700e3997e9ec50438224dc1e91c8fa895a59
+-  __AUTH_CONST.__objc_const: 0x478 sha256:41ee2814975dcb0ced33ad581338292daad6285301b387653beddf7758a48c94
++  __DATA_CONST.__objc_selrefs: 0x1a8 sha256:1e4583bee7e707bde066a1bf09fbba064b504f0bdda38d39eb0be56fdd4a0dbc
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:08ad56c8cbd056e58361b34b2e4dcf1aea48121cba4f478fd590fb520df16b56
++  __DATA_CONST.__got: 0x40 sha256:88b511ef1aa923c462a1a6c9849af0c9bda08ad38309a650942cb96ac85bbe6f
++  __AUTH_CONST.__const: 0x60 sha256:a6358f26793e1c7d0ed13ae0c39dd7eaf618367cbb322fd2371350614b4d9ee4
++  __AUTH_CONST.__cfstring: 0x3a0 sha256:b6292c3ac3df51f15e50061aac6c40ebfd1069b916d1e6094436db6950823094
++  __AUTH_CONST.__objc_const: 0x478 sha256:e0064b91b307c487a6cfc2c538e103506c76d2f059c1243d03915bfdfba14ee4
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x20 sha256:7727e168711a442d202b83da7da30079fcd956b95034892302c172eabd4dcd7d
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:6592fbdbb5d1929340ae7497c0a879d3dc6563940e4ddc5b5d9b6e78da4e0b97
++  __DATA_DIRTY.__objc_data: 0x190 sha256:dc06a5c5b89786436108a4c07a18099ffa6a050d2532f5314d8598f4f78e19e2
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B6B81393-59BA-3A0D-ACB1-25EC7225968E
++  UUID: 1390E65D-93E8-350C-A6C6-1DEC49796B08
+   Functions: 44
+   Symbols:   232
+   CStrings:  58
+Functions:
+~ +[_UIDebugLogMessage messageWithString:] : sha256 1e7e3add4754842cd6146da5b354ab907516174bf05e6f10e103140750d26862 -> 328f41bd2ea675800d54aa92b7c1f0c073ecb79a511153c939f5870f192707c3
+~ -[_UIDebugLogMessage initWithString:] : sha256 830861d81271f3d166e8ea4b03455dc0dbabbc10609554a2f95d1b780d35587a -> 5dc16685b30f576fa606a0746a46970cbd6c673f96c5007aaea8c0b46f45feb7
+~ -[_UIDebugLogMessage .cxx_destruct] : sha256 5b04c30fdac345b32a9c85bc1222cc02ea53a2353bc63250e947742c86ff3c8b -> 4ce65c1b3da0506e95709dbae5411d70a89bcf9526874276692e4f9a064b3463
+~ +[_UIDebugLogMessage messageWithStyle:string:] : sha256 4f15a9d81fa7d6bf1c2afb3b60d65713219eea43836dde9a1e6b5af97c9cad5a -> 6b3fc239e1fe3279232b496dab770143b5d5db65c40cd2469d2e51b2beadabcf
+~ +[_UIDebugLogNodeTreeStyle defaultStyle] : sha256 cd2a51f948ff8bdb342f7f6c4a7cf3daeb488f0d5c33007ed236428287c17530 -> a9525825f102e3f07904af88e4121f87a27b8f9fcb815e160247d48e244bbfee
+~ ___40+[_UIDebugLogNodeTreeStyle defaultStyle]_block_invoke : sha256 8c8bf0c6fb44fda25d6edeff7542be0839b80ec8b80d7917f1ea51e454c3f9c1 -> 3967c1ea002bca3b2ddb573cbbc425c8cd026a56de87c2f47ff48c4ef51b7540
+~ -[_UIDebugLogNodeTreeStyle initWithNode:lastNode:intermediate:trailing:] : sha256 a5f5d09f2359764515b57facb52004665cb3b31f161fa4dab5516fe31ece5d8c -> 9d4ecd9994d42676a578b770a31301317d2bd072833305cf371c6f0e29863c3e
+~ +[_UIDebugLogNodeTreeStyle styleWithNode:lastNode:intermediate:trailing:] : sha256 207f0eb045d6462643563d1373991847d7d4ca45f795b7e9a5b8ff745999a14e -> 03f8a869bbc03f2ef4ac7338f8f8fdf23230f447bf3be87875be6c8cf34deb7b
+~ -[_UIDebugLogNodeTreeStyle .cxx_destruct] : sha256 1269bd7395afe66aa63f82e233c9a129ad161205e73f6b3e57a854eebe9c0e42 -> 9c8eef0698b0522c2f2c9f63f4e217a634aab1d6109e699e3b3f02556e6a7b0b
+~ +[_UIDebugLogMessage messageWithNewline] : sha256 d1360915d851e6877107020ba95f60dd0d718cbf0c01bfc3135114a0d4c34432 -> 7aaa3cc00ead0d1e74fe2f64ca8b4c5fa1ec65602e7958126bb09094270cff75
+~ +[_UIDebugLogMessage messageWithFormat:] : sha256 c1af32f829892194693dcd19037823e727d9fd34a1f1c10fc112b98dd46a2ca5 -> fde1ebc9bf878c2f7bd5f620ec0f8f18b28468e8f3779f3da1adb4d3ac02095b
+~ +[_UIDebugLogMessage messageWithPrefix:string:] : sha256 0f0c189301627331dffc0eec7bbbd06589abf8c0512a337f0636b75ac7c7d4ae -> 0aa2a421e7083b4f77986520f46df710f39d7f512cee5f1902c81dfdcf101834
+~ -[_UIDebugLogMessage _stringRepresentation] : sha256 defa495626b7dcc57c967ecc730c3911053c1d1363af8cf8ceacf3843fbd0d1b -> 9e4761e7e4bb33b196b27a0b8d787f408f629db5d643c6632dfd112daa9b9c03
+~ -[_UIDebugLogMessage description] : sha256 055504e380f1e56489a48f8b53e6e3c9ec163b15fcc025543b50721de874056f -> 50906bb2fded82f72c33295aa48b4913f8504b275f0c26932b0f152c74aa8c2e
+~ -[_UIDebugLogNode initWithString:] : sha256 43719fe2823fb484dc01b975d5703bf78fca534dd5dab019063a18e9c03c5850 -> 3cbac7e43c5967274a47f0eb5d9ebacb732295759c1469917d8c0e1144038b3b
+~ +[_UIDebugLogNode rootNode] : sha256 5dbd2635beac8983f767a9110dd0302de143cd6bac6c8612b65bed8472354f11 -> 3e0290012a5bc3f2f6f795690e56c3b47471f7d714dd328892fb500a6ba7e84d
+~ -[_UIDebugLogNode hasMessages] : sha256 fdc8aea34f132c6b8fb9c4bf4bec3528d0dbb60bd356294e0f68c862fa05485a -> 560ab1067cfd44c21572dd5f721ab657180957bc748543f9097a7e752cd3d7d4
+~ -[_UIDebugLogNode addMessage:] : sha256 0471267cb453b11832e8dc8d021f0976ca54dda3d212aab08dd986d5357bd370 -> 2dddce512a7fb842b8739014c9203f228b2b85b9b9ba97ba615d8c895c4acbfe
+~ -[_UIDebugLogNode __genericAppendChildDescription:withPrefix:inheritedTreeStyle:recursionSelector:appendHandler:] : sha256 69f4d17f92be04f797f2e0e33b25d638444d42e51ac7590be15df4335433d662 -> 3268112f784dcb6937678c62f784cf1c093f7492479ec332a6c1ca59252ad95b
+~ ___113-[_UIDebugLogNode __genericAppendChildDescription:withPrefix:inheritedTreeStyle:recursionSelector:appendHandler:]_block_invoke : sha256 86354d4fa91db83fb6c8d2e402f3d0f596ccb1d84f98a808e4b11063385ed747 -> 11a14c91d660a0b73f1c751c30d4cd1d30f1e2ab57c8c0720b8d18f958b8a10e
+~ __prefixForItem : sha256 7c5f804d6fda080cd69886ba102a81f92d5dac245167caa030f2dfe0836dea41 -> 72a5c7ac3fb5b7f66d92defefbe77a24c8aeeb11686206b6e079db7bcdb6f2cd
+~ -[_UIDebugLogNode _appendChildDescription:withPrefix:inheritedTreeStyle:] : sha256 d737d7743dd85bae213d40a1891bae58a0b2bf093fae64afb780109da35c3de3 -> 83dfe26d739d0d508672e43902a24955d35e25a64b6dcac1afc662c7b8d9fe74
+~ ___73-[_UIDebugLogNode _appendChildDescription:withPrefix:inheritedTreeStyle:]_block_invoke : sha256 29417e1ba1b67c84b2f9491f2350f9a87412674dd71eedeb38f781e16052700b -> 0e5dbbc0c6ed958a9aa4bed166af0898bcdba7c6eaf873d4c0797fb1b8c7153e
+~ -[_UIDebugLogNode description] : sha256 0a9c029ded4b2671caf398ad18e50548829e5adbc99f29b8340c6887106ff213 -> 67dfa1aff94586c899e17718396de96bdb266421982a11917c664add3470d82c
+~ -[_UIDebugLogNode setTreeStyle:] : sha256 21cc49f71b485736dd576ef4ee5ab3a68b89df8095787a93d1be421b3eedffbb -> 07084c689c902a0a065696491a4e8c641a9104fb31156563b78c2200df8b4dbd
+~ -[_UIDebugLogNode .cxx_destruct] : sha256 c80c14e2a9c002eb0aca450fe0a3613f5cf5c00cf55d5740ce1dd4d7cdb138cd -> 86db8d0b42eca6ad813d0de0fa75284c2d09439e0d290829bdddef20d0671f29
+~ -[__UIDebugLogRootNode description] : 372 -> 368
+~ -[_UIDebugLogStack init] : sha256 a11fe76b2e4bda09c9fa537c0e024e9e217655cdbd11d1af2a26eda619efdaa5 -> f14a535ce6ceede5b9d846ae4c96edc08c015c5d578d1df6501bb0069e739562
+~ -[_UIDebugLogStack _topNode] : sha256 1f8699f4e3d3a133af0b880653ce24f3f5e0eb1e54603618e3d5490ab5345725 -> 1e0edbc52f81343a84354c0b18e530d94e570ae40049046f5b220ffbbd33eaf5
+~ -[_UIDebugLogStack rootNode] : sha256 8a935c1089ec7079d96eca9b0d25410593e9f440816c7c4d1cb6e64872024eac -> 65e31fddd1f17bf97c80826d2c8dc155dbd5e9e4e68843126b4bdb80d3dd18bd
+~ -[_UIDebugLogStack addMessage:] : sha256 cc4bb47291138d926c679c489e3119f3468047d92facf3a92563d2c075256bed -> abd27fea57b522bfff1ce6f53b1d2b9e848142a6ed457f22e7f0c2beb762003e
+~ -[_UIDebugLogStack pushNode:] : sha256 2d8ef6661e0c523016c208609b65b9a03da2dbb255f09699ab39e345338e68eb -> 29b2be7ce06428945440e51806532f5d14281e53122b77f5566a879d51eda2a5
+~ -[_UIDebugLogStack popNode] : sha256 fc5a4ab8ec3e34018e03ee141c9dbd12e920fe1ed64d2960024049fb2467e464 -> 90632382790679833f664feb4111253e1bdfa3592f4dac37ee9ca478f7882ffd
+~ -[_UIDebugLogStack performWithPushedNode:block:] : sha256 01f4ccee61fce381a24c863b18f2c8feb78aa48dd8ec9d9dbefbd3586d7d50c0 -> bd0c5d178bb4719f860e9b5d56df1ca62d43562d89b33a705d2fdd4fa5b0e612
+~ -[_UIDebugLogStack .cxx_destruct] : sha256 671f67e26c84d089a8a7d1c51d555938a59712f3dc89b440213a20d933f11e32 -> f2924580d8530feb0eb529121659d84346e1f9a4cd398664c90500c2f08b4ad3
+
+```

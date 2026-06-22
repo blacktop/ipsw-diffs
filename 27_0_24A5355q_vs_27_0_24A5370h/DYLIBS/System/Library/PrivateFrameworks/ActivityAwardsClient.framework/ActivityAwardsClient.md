@@ -1,0 +1,218 @@
+## ActivityAwardsClient
+
+> `/System/Library/PrivateFrameworks/ActivityAwardsClient.framework/ActivityAwardsClient`
+
+```diff
+
+-2027.0.18.0.0
+-  __TEXT.__text: 0x55e8 sha256:a216666b854a93dc773f08e4af0021b91d5680568fbd4f15d13e04ceac54ac3c
+-  __TEXT.__objc_methlist: 0x33c sha256:b4265f2161519928d51341d95c42ebede6b8ad06dbd28bd897163bf2ffcc7cec
++2027.0.20.0.0
++  __TEXT.__text: 0x55bc sha256:248aac67dc8d961ff9abb3a750c984e361186c115f4c278a445ae78b8855183e
++  __TEXT.__objc_methlist: 0x33c sha256:701f807dcc3e10d70d6619353e5bec8f7df640ded7f0de2ab06bdd5be7ef54e9
+   __TEXT.__const: 0x88 sha256:889662c525f9f896ffbdd822f3383c2f7c99f4615172c2042c6d6ec0ddf5c4f0
+   __TEXT.__cstring: 0x16c sha256:1af7a6f4364ad74c30c17068e8dcc796af6cb12993425307db941dcd477545b2
+   __TEXT.__gcc_except_tab: 0x134 sha256:f4704d7d507a5f337d481d7bcc8b751944f00ff82038b09afeb4860aa0b9ffc0
+   __TEXT.__oslogstring: 0x839 sha256:7734dd216ae020c234e2f9ffe0fced4bb3dc98d1c80c9e39853aedbc38260feb
+-  __TEXT.__unwind_info: 0x1c8 sha256:c81cb33210e2e968291c826a7ef4e802b27d912eb80c4e6ae51221a905334ade
++  __TEXT.__unwind_info: 0x1c8 sha256:180d68b607e3d3c4e92d4e838d35d45686ebfd85b0223a32e9c12c7578b8cbd2
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2f0 sha256:4c94f1644b50c14561995f6384b8c87c4e1fad0a0797e100ae3932c8487bc8a2
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:d54f3aadc26aabee9161cca4b8abbe86cb0e61c3706ceff5684279429ba8cbc0
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:751e81bfa2d2f5d120cabbe1645db1d895091903635fd2704f14e0e15ae2d108
++  __DATA_CONST.__const: 0x2f0 sha256:66e1901a9ed123ddb9d6e50000340265120df8d9c4adbfdf7421e97145e9bc5a
++  __DATA_CONST.__objc_classlist: 0x18 sha256:46287a5541e0346c38c3d2359fcdcc564ed3de759c6a9364255f83e4ebcb70ef
++  __DATA_CONST.__objc_protolist: 0x18 sha256:be90b3bf5a63a14b8708c5c405a59e69727060a6da4d156147188931db1d846c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2c0 sha256:1236f878b797d44633b37ed8bcae507aaa6dc457e4cb34480da2878634f8e19c
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:43bd511436b873861dd3a86e0fc1292ab9f9a1be775e61aaa258355a24be139d
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:d54f3aadc26aabee9161cca4b8abbe86cb0e61c3706ceff5684279429ba8cbc0
+-  __DATA_CONST.__got: 0x80 sha256:9c48926cca5e5679fd2a914a3ba02128c06cbcbbc008cfcef817ab15d6833942
+-  __AUTH_CONST.__const: 0xa0 sha256:f2df17b2883bea2937b606d5d1e580385b8dc25476bc5095a3776ca4d8a0fe2d
+-  __AUTH_CONST.__cfstring: 0x100 sha256:5eaf5867c5987a7183f64b7e21b07e2fe2545a569dacf9fcccd1e92b9e17c302
+-  __AUTH_CONST.__objc_const: 0x740 sha256:6fd811d4f87194c1cd48dc8ab2069de0e77710c834c4335555261a3e73b99ebf
++  __DATA_CONST.__objc_selrefs: 0x2c0 sha256:594eab8a546816aca7fa52b20651bed126b67e063cc10f8fbc81e73674aac8bf
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:4d2ec45a566d992cc2af3fc711ff59db8b9f1bb56a1087aaa52c802916c2ff7c
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:46287a5541e0346c38c3d2359fcdcc564ed3de759c6a9364255f83e4ebcb70ef
++  __DATA_CONST.__got: 0x80 sha256:ba804ca18ec40f1fa2af243f3ea42c12ba633b706809a1756733d8a70a9245df
++  __AUTH_CONST.__const: 0xa0 sha256:38337afb2d57dff99d137189abda21e1a8b05670304caa395a7ec1518d1e2ecb
++  __AUTH_CONST.__cfstring: 0x100 sha256:6522f007fe95b0a11c8e9e870b144128f36f79e573d98b045aaca7b16f490407
++  __AUTH_CONST.__objc_const: 0x740 sha256:86ae07fbc24cb3111f31dc367fced22c168da37f173150a10c599bd856f49a54
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x1c sha256:8ad414a8e2071fed8604e6a942b326bce4305243bf8a591ab039ff6c756aa485
+-  __DATA.__data: 0x120 sha256:5ef6a3520174701f147a65620bb401b127f07ccebb3815ed9bf91a10d9e9e663
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:a5ef838cf67bfac6f8563d811f59c1d01efecfd0eceb86f9e7c989729814617f
++  __DATA.__data: 0x120 sha256:74444f319a051b60d85a54b5898d8eff148cc770470e77d07f6a0ef4266a8592
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:c4590243e7c78cfd4b09c98b19effbda671977a7630a00332ab125a4dfd480fa
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
+   - /System/Library/PrivateFrameworks/ActivityAchievements.framework/ActivityAchievements
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 20AE356C-622F-33DF-B2F4-40BBF2143662
++  UUID: E49EDC11-7BEC-3685-941E-E0B04E7ED96F
+   Functions: 131
+   Symbols:   474
+   CStrings:  53
+Symbols:
++ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.429
++ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.430
++ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.439
++ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.439.cold.1
++ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.440
++ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.440.cold.1
++ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.441
++ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.441.cold.1
++ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke_2.431
++ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke_2.431.cold.1
++ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.446
++ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.446.cold.1
++ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.449
++ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.449.cold.1
++ ___55-[AACXPCClient _serverQueue_initializeDaemonConnection]_block_invoke.421
++ ___55-[AACXPCClient _serverQueue_initializeDaemonConnection]_block_invoke.421.cold.1
++ ___61-[AACXPCClient sendSynchronousRequest:payload:resultHandler:]_block_invoke.428
++ ___block_literal_global.423
++ ___block_literal_global.448
++ ___block_literal_global.451
+- ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.423
+- ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.424
+- ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.433
+- ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.433.cold.1
+- ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.434
+- ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.434.cold.1
+- ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.435
+- ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.435.cold.1
+- ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke_2.425
+- ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke_2.425.cold.1
+- ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.437
+- ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.437.cold.1
+- ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.440
+- ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.440.cold.1
+- ___55-[AACXPCClient _serverQueue_initializeDaemonConnection]_block_invoke.415
+- ___55-[AACXPCClient _serverQueue_initializeDaemonConnection]_block_invoke.415.cold.1
+- ___61-[AACXPCClient sendSynchronousRequest:payload:resultHandler:]_block_invoke.422
+- ___block_literal_global.417
+- ___block_literal_global.439
+- ___block_literal_global.442
+Functions:
+~ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke_4 : sha256 332f7a566106beb4d24a45e9897f6e45c1aa3f5abf65a00fe7ccac3764e8defa -> 7187fcf05708bac4394d8bd299cceff4ee0beb3de346696c07888db1f6c85006
+~ _OUTLINED_FUNCTION_0 : sha256 7aca4d09e41f6586f96b4b3348fa2508f76da21c84017d6dd7b3a0008bfaa2a7 -> 204d18e9435e93e5b2b2684c7b4b8e3743706414d69896f05f345b0ee340944f
+~ ___Block_byref_object_dispose_ : sha256 aec08df382579acddec9554c679c0a026f98db4f3ca6f7cd532624c1824f390e -> 085261761921a55b0932cab5d62389e889e52a448dd3c616b40cfcf9bc86c5b0
+~ ___Block_byref_object_dispose_ : sha256 b7c47d88e68c54e5ed2036ebdbd97453c79d48ef7c67d15e857c2c81acff6f11 -> 413572647d5da98eef0d160d2fdac986ef9357904eb5f611560d0de5c55159ab
+~ ___61-[AACXPCClient sendSynchronousRequest:payload:resultHandler:]_block_invoke : sha256 5ed3bd5a3878aa98ec21de0d7522acb72e9071a515cd22ddef351772702dbeac -> c9b9e370b7802751ffbdf1fbd70b33e5356e7a3ab13e58f9ec615b793a6ffbb4
+~ ___64-[AACAwardsClient provideAchievementProgressUpdates:completion:]_block_invoke : sha256 11a516324e096ae4795863c4ae8324f57afbf2355fbec93e7d5c8922e99a7398 -> e3396de3e437ef8d7ede1017f7942db142a7acc29796d45ea27463ed324ecd17
+~ _OUTLINED_FUNCTION_4 : sha256 d9fa82c441a03f937f768fc243de896af54b2eceb23667040da3b30d7008774e -> 2482bca5545ded501a8b57748973c3a8dce2b36db9c0374cab55baefb7f07e9b
+~ _OUTLINED_FUNCTION_5 : sha256 762d034501b44e3c03018e0d46101da7ca952c188696d308fda8903b504fb583 -> 257fe47bb768756594091068fedda871ad7f87cb40ce0da3e9db8cdbfa67e6cb
+~ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke : sha256 d2580026f45d29acd6957059cb0382956e930865567ac8fb02ebe198b25dd9a9 -> 0c2bf6ce44af727f31b164f98e7d950cec8c68fec93b091924d30765e7a82b12
+~ -[AACAwardsClient ephemeralAchievementWithTemplateUniqueName:error:] : sha256 eb23db411f1351ab0fc7297c585194f17e20c03541b5597c5ce97416d806fdc6 -> 94d074b33ed35661ee59a30357a9ad0f89b6f91370c3993b54cf18f0cff7a610
+~ ___68-[AACAwardsClient ephemeralAchievementWithTemplateUniqueName:error:]_block_invoke : sha256 87cd5aa0524ab707902b6e553554721e18ba77fe15dbbf52407af5b7ab49376c -> 2a1453b4de4ee39b80d7621871ff382e140a6b68cec109b832987a0a48bc461c
+~ ___51-[AACXPCClient sendRequest:payloadData:completion:]_block_invoke_2 : sha256 99c11b4deef825c8e38a3efd32e47bd878634fa093f1400c315ff97bd7bf7c2a -> 57cf77f50c2bcf16c3924b1e3d5bad6620350e1f5fca2eb735fd222e141f017d
+~ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke : sha256 bd46755cbc1e3fa84a0ede2e4bb436347b0a2e9b2c5e3615956c4454859ae9e5 -> cd44198c09812d2c9252f40b80ee397329f39bf8b0a72995ec0d67a6e4da2f7b
+~ -[AACAwardsClient init] : sha256 3b3b4f49cbe2c1ddb4747a7451332ae4dd051e7d2bfcfc689933d0d9a269262e -> e05efd46d516716c81f80f4f26b2b5e9f489d08d9f397b72daab3eafff17bac9
+~ -[AACXPCClient init] : sha256 1c715add65a83887ed8204cbdff9edf7068825b447ed9da41c0f9a01d0ae5bf3 -> 9dadb46500617c15e55cc38b659af7e4dd7a7e0026c7b932c7ad212541386ade
+~ ___55-[AACAwardsClient initialHistoricalRunStatusWithError:]_block_invoke : sha256 74255bb357f9ec881b4ad4be3e0d90fde42e2f1e1b3d00fe6af0fef94e4c1a32 -> 926d51ae593a4c226e76a86cf7575ae24be422de7c95e607aaf50c1087cb6dfa
+~ -[AACInitialHistoricalRunStatus initWithIsComplete:] : sha256 4c1a3499856fdef49f50383cb326809c45433b4849ca58cc8ce253545941c5e6 -> f38284d6d3e6152b0e708c5228f56a4aec4b418a723d8112be59a1e5e4b6da2e
+~ -[AACXPCClient _resetEndpointConnection] : sha256 e35aa7474e65c4fcd2a1ab2676a23ee7af63900bb45d9c27e7814dda5ead6380 -> e0b915e8fffd8dbcb1c33d2a38a3c2551b2f4b1c16c9a80919e6b20dc742de44
+~ _AACTransportInterface : sha256 fba8448987685408beffb0bce2ef1a1487983940c3c968be185813c6ad1d3fd5 -> bb8a8649fe09e2ebc4367bfc4513e2009bd653ff767a0686843ad1a3561b02a2
+~ -[AACAwardsClient dealloc] : sha256 2f494c06323cddbd338f544707e53c934cd37f44373d6c5bfa236dac4b01c8f4 -> 7db44ac4031f8cb43d2696a3f365cc02d03851b9d78a3334c243cafbb85c71c8
+~ -[AACAwardsClient scheduleAwardingWithCompletion:] : sha256 dd8c20fad262dbe3f3b2c1ad2efd0dcea6354e9debfb5b0fa77db605acc58d28 -> b0fad35dd399d5b69a12c1928659b3a452c7bf71e4161b351399b74d973a8fe6
+~ -[AACAwardsClient requestAwardingWithTriggers:completion:] : sha256 cb24f08e2fe6e7b167545a9b83a9f9d82b5bb030d81e2877ca792f421816e10a -> 00c81faaa69460e68cb5606edbeb282c52fc79321a55f848e3339520f7b40bdc
+~ ___58-[AACAwardsClient requestAwardingWithTriggers:completion:]_block_invoke : sha256 412b10a994a52420fdbd972002d8a90979615c3712e83e6858efada49472e9a7 -> 61bc65eddcb59c3dc5fc669a6014dab19cb10dd5f6520e9ed1c59046ed01e3bd
+~ -[AACAwardsClient initialHistoricalRunStatusWithError:] : sha256 874dff08a8ec07b8ace843815745e6bffea05d97eaa271702887dbf1a963c776 -> 28400b0b4d22c439e887da942d934f8da2e9e941c4679744c3ffede40d33a697
+~ -[AACAwardsClient allAchievementsWithCompletion:] : sha256 dc817d36fd730ca4c367e8a8359d9cf7df84c474de1f911873c4670a31f5255d -> 885970230edde8c3787fa854b14cd0b3e54088e71d17c6a15eb4951ba1e8b56f
+~ ___49-[AACAwardsClient allAchievementsWithCompletion:]_block_invoke : 472 -> 468
+~ -[AACAwardsClient allAchievementsWithError:] : sha256 c53623582a4957e99cbffd81ee4acc87b443e6de6a8655be453a4715186a8b19 -> c5ad9e935f00d5dde618f316c7505d6830a1213a976ccb0a7891971e118fefad
+~ ___44-[AACAwardsClient allAchievementsWithError:]_block_invoke : 420 -> 416
+~ -[AACAwardsClient earnedAchievementsForDateInterval:completion:] : sha256 785517be9a00eb46775ab63c887882057884342c6247174658a484ed178b9f39 -> 890930ff93ed01553a0eda08fdaacd850f1d079c203f26a19fdec134ae7cc1e8
+~ ___64-[AACAwardsClient earnedAchievementsForDateInterval:completion:]_block_invoke : 512 -> 508
+~ -[AACAwardsClient anniversaryAchievementsForDate:templateNames:completion:] : sha256 6a21128ab752707510ba671de452ac80bac6a0d504d7782fcc68d22def940fee -> aa92b51fdc63c658974900ebe451d6f91644d949631d8c06462b2096e67b3e55
+~ ___75-[AACAwardsClient anniversaryAchievementsForDate:templateNames:completion:]_block_invoke : 512 -> 508
+~ -[AACAwardsClient achievementsForTemplateNames:completion:] : sha256 89b56ae1f4c3bd47e6a4e5bdcb8b7934b26e8c54593224b35f3f50da453f7244 -> 53e04278078eede672b319b18adef6bc499402b35d2f9a4acefcfee78b217f8b
+~ ___59-[AACAwardsClient achievementsForTemplateNames:completion:]_block_invoke : 512 -> 508
+~ -[AACAwardsClient templatesForSource:completion:] : sha256 014048e7baf6caf0020405d5f740f038703cbfb699c77c2b78cc3679935e56ea -> 5d143fe35ef3180bcbe92ee9298538b07f695bc9a58c322d445e7029626a23e3
+~ ___49-[AACAwardsClient templatesForSource:completion:]_block_invoke : 432 -> 428
+~ -[AACAwardsClient addTemplates:completion:] : 488 -> 484
+~ ___43-[AACAwardsClient addTemplates:completion:]_block_invoke : sha256 063216a6d2bfec1ff78ba5a940e30d2e6a988eec7dba92c6ec4d9caa491f360a -> 3a5a3e623c87c9121f56a3a4f30eb8a6355c1799bd5e4c5aab73adbb54b0a9d4
+~ -[AACAwardsClient removeTemplates:completion:] : 488 -> 484
+~ ___46-[AACAwardsClient removeTemplates:completion:]_block_invoke : sha256 92bc7d11a0e07c59a14e9edaf0fc68be05a54613891373dc17f42d76f19e6da0 -> 267cdf454c44fda7efbf45597937a4964d624fe8621dbabbea7aed8ec2c712ec
+~ -[AACAwardsClient removeTemplatesForSource:completion:] : sha256 0d09da98a140f2e0a08359d916659f293ee2b3e159397497905c671c64959c08 -> c9236137f81962cefda3041c7125180796d5b976fe0ad04137d87fac9e41daa0
+~ ___55-[AACAwardsClient removeTemplatesForSource:completion:]_block_invoke : sha256 7b155e5708efc5f3ff9b84253f903f807db8230122ab80b07a8feadf4307faef -> 2655d730c449d83cf1933991748fff421fe91c5f9aab34e0bea82e541c24fd67
+~ -[AACAwardsClient removeTemplatesWithUniqueNames:completion:] : sha256 16fae030a969ac6dea753882be6fdf28518d344660f802b93b36d6e335ffb8fd -> f2bebc2e8da5335cede9b5f6d3f3938591a773dfeadee885aef11287f7615578
+~ ___61-[AACAwardsClient removeTemplatesWithUniqueNames:completion:]_block_invoke : sha256 fb2aa34acba19de02a775692392802a55c2890dc3b65c07ed9074e90e9210c35 -> 94b8ce1293e95c480a650bdc61ed650118765d861dd7b6a35f92a18ca0143977
+~ -[AACAwardsClient addEarnedInstances:completion:] : 488 -> 484
+~ ___49-[AACAwardsClient addEarnedInstances:completion:]_block_invoke : sha256 416373ba2c296596119504da8a0465ac3fe40a89c69c75359505259c3b6db39f -> 9482b2edfb461a91f5f9dafc8785cc77894dae70bcb6cf1c3aed9905aa866029
+~ -[AACAwardsClient removeEarnedInstances:completion:] : 488 -> 484
+~ ___52-[AACAwardsClient removeEarnedInstances:completion:]_block_invoke : sha256 5f9179bde73bc735aa5fe2c7cd1893935dfc2c08a6cc85c99d1744c1f9cdb00c -> 4101b99b6a7bf9356c204069bdd4ae70d12c2b46c05fcd9dbd7c7c8cef13a76c
+~ -[AACAwardsClient requestProgressUpdateForProgressProviderIdentifier:completion:] : sha256 f41b282fd4519b8fd53e0a2c20dbeede461c2ba8acc0f1e893ef1ae269ddead6 -> b4ebd87c7e81081b089f1d99bc1a5e0ef1feca0327f35b4878b6ca40efa31812
+~ ___81-[AACAwardsClient requestProgressUpdateForProgressProviderIdentifier:completion:]_block_invoke : sha256 5c07d47d9f9a2af262cd027d7dfbe069bb82060d8fe2ea89b2e5eca560cc7713 -> a1b09aa6149e65d8d318be78736dd8b889ef6be51c92f6f3fa1dfd8c5f584d92
+~ -[AACAwardsClient provideAchievementProgressUpdates:completion:] : 488 -> 484
+~ -[AACAwardsClient setClient:] : sha256 abfb3dcce3b03d166359bd681bd38066e1211c2454cc8ab599e96f9c9b31170e -> 12148c796fbad9887042ad28d5ddb67c1920a013fa4dcfbfd6821672b1e1a0c8
+~ -[AACAwardsClient .cxx_destruct] : sha256 fc312ad7b27309c8deb68e55f13d2699c5fa03abba06920f4e5a703ac8323cf6 -> a3507d78b60f1fc94a61a7243de0b695b937a6e260f9eb9fd8e14a283754538c
+~ ___20-[AACXPCClient init]_block_invoke : sha256 e13fe7da7eef8ed2a71059b087653d55b0c45f82618c268c16d2bffddd6322df -> 2c84a2a02cad540498e5843587a7e9ba20c7c35b6212ddf305f67d733b502746
+~ -[AACXPCClient dealloc] : sha256 610a8457d0348ce03848ae199ffbba6843d35b3e689f68464b0b922a9a0a3c3e -> cf81a132dfc69608b49f883be38de32f697fb95b1f6d49e8950c9298343df092
+~ -[AACXPCClient invalidate] : sha256 1a2c79125afb021e431d944f8ab3913b89bad19f3c7aca3942ad5f4913946b75 -> fe6e09724749e8a581f7e7b61e2404200660c6c8cf7ca97960fa04e50d7062f1
+~ -[AACXPCClient _serverQueue_initializeDaemonConnection] : sha256 fa2ac42c5d1997c1fe7941c26c268bb41cacb003219ad89ebf8caa49603cf91d -> 883fa646dbbde7f1aca24baf18bd8337e6d3acf3a336eba2671b925d7321f6c2
+~ ___55-[AACXPCClient _serverQueue_initializeDaemonConnection]_block_invoke : sha256 3a754cb71934a49b325e7f2e579f9e93d8fcfda61f53775b92d665d2dbc70f33 -> 0a0214f43ca1632e2d2c3b5c208e015fddfb531925dd565c7c0195a29fb9915e
+~ ___55-[AACXPCClient _serverQueue_initializeDaemonConnection]_block_invoke.415 -> ___55-[AACXPCClient _serverQueue_initializeDaemonConnection]_block_invoke.421 : sha256 d8d8d8db6a948150faeb1ef7703999d4addf99d84c34aa7f368e43725052d931 -> 4058e62a34f918dd532aed5ac4accace0a74f15949576af6fa20bdc5858c541c
+~ -[AACXPCClient sendRequest:completion:] : sha256 77de3adbcf5e8b85a98cee1f9c96aef6f3f8913db78ec98e5e3e4e3f377771ce -> db55564772267c671d807903ce4fb9f9e839c0214678c046059010ec2c6c7ab8
+~ ___39-[AACXPCClient sendRequest:completion:]_block_invoke : sha256 cdc37a08a5265b4787f3d050c0edc6dd9f56cdaabb477659097b97498807e24b -> 5da059b99dda535d5cfc1f51de4ef1c482084bcb48f7691763e9bd776cd3636b
+~ ___39-[AACXPCClient sendRequest:completion:]_block_invoke_2 : sha256 28e11fdd03f100ab2911479c5318e5cdcf324bff979114243bad113f29f24d98 -> 066b3bafc0181d75d033e368fc274ee1787a297343451ebd0ecbd7519c3ece0a
+~ -[AACXPCClient sendRequest:payloadData:completion:] : sha256 770e3ca9fcc1f24eb3b2b45254f366d088dd01a006b6119795c3d38cc4929a6e -> c87d7db13581a65fe1ef3dfc6a620d9d88d7b4fcad9c677a3bae5b546c16a03f
+~ ___51-[AACXPCClient sendRequest:payloadData:completion:]_block_invoke : sha256 0a7c89ae362b08ae0e74aee93585c55a369c821b0e7706edfd69bb2fa9c857d4 -> e57e8a9e835cfc04502fa0f5d27092ace41e2670d234e401c23819a8e328937a
+~ -[AACXPCClient sendRequest:payload:completion:] : sha256 c00731887dbe86fd6fd1c725b658715e0b067f041c8015c565d50603ee9320cf -> b294174683d0f518c14abea0d28cd0eb9ad57c336237f31f171e01cce1e8365c
+~ ___47-[AACXPCClient sendRequest:payload:completion:]_block_invoke : sha256 7b3abf3c0beb432abe2e805242f71b548dc81d0d2a4a751df7c40bbcfda57b97 -> f8db39a43befc017b7a7af8c934934b3713416818811d002f02ef3b495a75c2f
+~ ___47-[AACXPCClient sendRequest:payload:completion:]_block_invoke_2 : sha256 d1279dc246c2e427b7a8b55b6d54b68761f43d5f453c2928e6a10dd72c1cab07 -> 66df52a3a2d337560c4207be3a83c6fa8ea7b44258fcf8aa1d3ae5126d512870
+~ -[AACXPCClient sendSynchronousRequest:resultHandler:] : sha256 fa9211b261c720f5cf035592e9b0c5207f546be5b60944147af8e9a6a69d876c -> 0dcd8b0d4921bb68e6617a107bbf65d05398eb80ca361e177ce72c3b73a83f2c
+~ -[AACXPCClient sendSynchronousRequest:payload:resultHandler:] : sha256 58d45e968eedf13b690cd98b404132eadbaefc39686496baf9b96cc6433f299c -> 713c820001f79be2100c9b8d000155b052bc2b7e4ae23083048ece230ab9cdb0
+~ -[AACXPCClient _discardEndpointConnection:] : sha256 c5262f959a9435379264f0b56fd9ee9526de505db804e8d24b13c3017d2f8eb8 -> 01ae4dfe61b61a2a1ccdd23c53acacade96f708f42266c00b2bdd5c614513ca8
+~ -[AACXPCClient _handleError:] : sha256 038e8c8ec35e2bdcdcc5dd2972723d305b9a44777061b5c16ad4bcdb6fefc886 -> 51f51726a038621352b46dbbdfee2ba69dd2c42500cbf73fbe6ce0a1f8b8fc75
+~ -[AACXPCClient _remoteProxy:errorHandler:] : sha256 56f079ff583d8003e402b00d8ffd8f2b96fe82eb2e2b4931ac3142624152d56d -> 3c3e08e0d2ee36132c1d9a2501f531f4997bb99a83d7f7da5f097408029c98ee
+~ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.423 -> ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.429 : sha256 2f7a3116b11b259f259e98c01d7a565fa0d2a993c167a1f0b847df1b0a4cac65 -> c5c3da380eb2483d29dbd97b86cc30f1fdfd22ded625fbc65380990ab5b86564
+~ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke_3 : sha256 624850823ffd530d161094ed339a2317d3852b3f18b46cbb4e967b7177643335 -> 46fda2172d9e6d4fa5e92bf40ec2b09446bab917d2a57b2a473992db89d5484c
+~ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.424 -> ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.430 : sha256 4155e663b8345e89ee7ab1eff23b2bb7f474fc45d36ade588b0b273478d64250 -> d3922e588255dd63c49dfbc565de5636ecf0ea842479042dd014907b1b910b08
+~ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke_2.425 -> ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke_2.431 : sha256 328a42777c1455e8f9d3c3e3c815b64c5db2a92cdfb4c2bd67378adeda74c4f2 -> b9b3c44d1b2418b78e525956f3d078a6fa41c63149e4d7c096322082c12e43d8
+~ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.433 -> ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.439 : sha256 923d13e1612bf5972c2b59b5cf5c502f7b2bc7e8108a17f34a3b55b9f31b136b -> 5102dce028d0b9311c52540bde8a0f2d9f0f6fb03a5d7adf81e04e3c19c82405
+~ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.434 -> ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.440 : sha256 d9b8b61239935aae43914ab22aff5fd47922f4f2d97eb8ea0eb572cbe244ac6a -> 9efc6e4c0eebbb92b30d73667b90e68107538781831f1884a54a220fe01c1181
+~ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.435 -> ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.441 : sha256 be898fc8c5aa95b73b5eb6581289714e71490cc0c78a48a57590f55239a9be40 -> 0cc5107521fdd50afe27442215caea7a1024a2e18c61001017201a7566d03d33
+~ -[AACXPCClient _remoteSynchronousProxy:errorHandler:] : sha256 552971f583843ddd1ba3846380f7eee7b2b40eb260eced23adf4fe5a758dd154 -> 5ebd20331c174d918cf7fbb27f821e17010a0917629af1d46c28b9dc6e881047
+~ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke_2 : sha256 41da1b5bf535722b97c8c8680b67eceb84faf24c0dd6831163d3ea4c2d77db12 -> a4acaeecca0e24892d35cd5d6b64a2dce9bbcfda435ee3fcda6b5be0ad6e3c44
+~ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.437 -> ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.443 : sha256 cda164919a7733fe6a5c4152884f2c5c715e45de06442e02915dd760dfbe7938 -> b00ec36a1e9e30e55e4ab5bd4d0bc2fd715fa385576b1b80b995cf72eb16136d
+~ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.440 -> ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.446 : sha256 3b8eaff4906a8cf2c97b70af7abcac0be525b5f7b7abe608c41da2f539bd43b8 -> f14bdc24c8bb8b7cf8804d986440f07664f4d20b6612ce6c92afe2ba3adf4010
+~ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.443 -> ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.449 : sha256 e5499f9f6a906e87d65d4bddb6fc83c80ececefdd1340fdf99135d6a4adf920a -> 8f4e62353d7799b4aaf13d547ad559fa3215d44e6143090118d8e505ed6730dc
+~ -[AACXPCClient .cxx_destruct] : sha256 e2a2bcf444e51cdd06de26dc9c6712ce6331170ba9bd904750c720a8d062666e -> 2d9bbee7701a701c765994c79156a97688a1245b86f3cc628d5f27a01290d0b8
+~ -[AACAwardsClient initialHistoricalRunStatusWithError:].cold.1 : sha256 ec56e9da12056f7d64205478ba0e61dea475e02425c288d8a5631d3dd445d329 -> f26f3b41deb5376aca8fb0a7bae235f1c6c76c5b606553ff1c3425805e088951
+~ ___55-[AACAwardsClient initialHistoricalRunStatusWithError:]_block_invoke.cold.1 : sha256 9c8a6e9e6a8751a26e86883989f0f4a2e6284c4c2e3c8e69fc779b518b6f027f -> 506956d00d5099fc3d2f968466830eccf024d2cbb9dd6f01e8f254358e87d52f
+~ ___55-[AACAwardsClient initialHistoricalRunStatusWithError:]_block_invoke.cold.2 : sha256 7fe9d1ae6cc6a7bd6e810e237d1b5afa4c17b74c40deff96ecd5cf97cf80b717 -> b44c5e03135b50e881a5ab76ddf0a0530da15d487fa0b626be5903500b9a5a4d
+~ -[AACAwardsClient allAchievementsWithError:].cold.1 : sha256 fd894ea8c513fa4ebf55f75b2b82e413c0650811bf5ff9a48e4e3833e73c2a1c -> 3b814dbe279435e8c4556c4604debb14a2111fafb4f95f46f6a3a68fd48a1a5e
+~ ___44-[AACAwardsClient allAchievementsWithError:]_block_invoke.cold.1 : sha256 72684947227c5a919d269adf18197c3b43c6264595706741e781e03e8e3363f2 -> ead499f2335e1e21480c06e62e06719df162e12415068ace2ebf50a8837a4452
+~ -[AACAwardsClient earnedAchievementsForDateInterval:completion:].cold.1 : sha256 1f8edd08101458d86f6cab208dd2bc2666bb192322a526ac8531a82e3b700afa -> 0aa13f6d715397c6e7291ec3f926ec7f1f1cd80696837d9690023bd7dcbfab32
+~ ___64-[AACAwardsClient earnedAchievementsForDateInterval:completion:]_block_invoke.cold.1 : sha256 7ddf1999895d1339b5b05bc0bd864b7adb0d831e641463ba7d0d4d58edcddebe -> dacad359303730f1479912448311ef2b145354260716ef88331d1451e95f8ccd
+~ -[AACAwardsClient anniversaryAchievementsForDate:templateNames:completion:].cold.1 : sha256 e69042f29a407a7abf0722f7b6586c04e4d6ce258a1f927edfac12b56cee386f -> e0a8ddfb583354920eadf39714ee8013dfd902be729f7a9d095618cc0e083214
+~ ___75-[AACAwardsClient anniversaryAchievementsForDate:templateNames:completion:]_block_invoke.cold.1 : sha256 642ca3e1ada37ed5883cdf861219cd12d9d89cdfce4322f0b65c23462d55ae32 -> 6af4faaca0d2522d8ad1443a72839aac3c75d218a8e8bdacd9aafcae79d8f74d
+~ -[AACAwardsClient achievementsForTemplateNames:completion:].cold.1 : sha256 116fb7e0561bb36033d075a230cc9722626b0f7e47cb5866fbf2f8e648b3c4b1 -> f47ce4b21015c4b656dd3135ac5acaee959ab1927ee4c9466e61cd524c319ec2
+~ ___59-[AACAwardsClient achievementsForTemplateNames:completion:]_block_invoke.cold.1 : sha256 e6fc972e98cc4923353c02f8693dca93dedc0fbb6a1dd0d9d2daaed463ff584c -> 4a52f69bd01acca0dda36b36cc809e44facb0c4af8ca0e6e1ae0614c782e0ac8
+~ -[AACAwardsClient ephemeralAchievementWithTemplateUniqueName:error:].cold.1 : sha256 e581e8150d5a4e46581fd4092c1b35ebf0fc24f58fa7abcb6c8bf072f30d1e05 -> 315d954ad63da10cb7869a106701627cd01143d63ac9ec36fbd9a64cd82ff526
+~ ___68-[AACAwardsClient ephemeralAchievementWithTemplateUniqueName:error:]_block_invoke.cold.1 : sha256 0d4c7f3ce48080c793284d0aae96f8419b35433cf2ed2af14a2046a23da11d3c -> 822d27739a454390906a63e72b80a973a6a8ec4730f9ee6d8892cce877f64911
+~ -[AACXPCClient dealloc].cold.1 : sha256 01d1d50952999695c9c711ceb0e316a4720fce8206dcab39d0daf3da6805ae03 -> 67e58e21d2853be52a26a40d222f4ad2e4d14d7d65c68c5093b4d7999e500eba
+~ -[AACXPCClient invalidate].cold.1 : sha256 b6a3ec37f05685bd09aad3c86a955c86f78f9ce334eb5a3dc61aa7e55d0f9365 -> 891ff1c91e2fd8484a22b1d1576be454973412266bad97b022dd6a7d779fa568
+~ ___55-[AACXPCClient _serverQueue_initializeDaemonConnection]_block_invoke.cold.1 : sha256 83e0372e06b80eb8f4f326250e6034c7d4bbb830eaf3881570ef1646508337bc -> 9b7a73ec182d572e92b4e8ef0482c67be93469b563d7c2ffe4de06a1b6e65cab
+~ ___55-[AACXPCClient _serverQueue_initializeDaemonConnection]_block_invoke.415.cold.1 -> ___55-[AACXPCClient _serverQueue_initializeDaemonConnection]_block_invoke.421.cold.1 : sha256 82dcea531a085f3f63fb22296a64b111e17221dbff86ef307636d0f930093c2b -> 51391fd4470c0487d8c56e25973a08083dd9e12cdfd4d0dcfaaa8ade24e613d6
+~ ___61-[AACXPCClient sendSynchronousRequest:payload:resultHandler:]_block_invoke.cold.1 : sha256 d694b82f9dae5de9920b5ebda34d0d8f3f9fa2f73cdf34be275e564cfd7dda56 -> 99363d9f68df261b024e51a14177ee4c08a41fb86717427c1f6bc1b02439e4de
+~ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke_3.cold.1 : sha256 79327921bb9d889ebde2380df00463fa778a9e909e686d149b3e8ba53633c755 -> a3850f7fc1bf2c01d20a62f42d3580f2b9867b4d789230e3e30f610dc23d2445
+~ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke_2.425.cold.1 -> ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke_2.431.cold.1 : sha256 42e30f747175382caaf325210341c1e1403ce5ebd9dc6d620b045cc223810a5e -> 95bc5b22f3a16dc9f21ff6138b1dc95dd3bf0e47a36e8bf05870bf47dca758e2
+~ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.433.cold.1 -> ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.439.cold.1 : sha256 45ecb5ab8405d8eaf3376bd51a1f4302a7e31389f693ee874e5a0652b09231d2 -> ba4367e8dbce118609c42b9500100199210a9b1197dbd34c32762de19656de26
+~ ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.434.cold.1 -> ___42-[AACXPCClient _remoteProxy:errorHandler:]_block_invoke.440.cold.1 : sha256 0b784acf89d7fb2a5509e20252eaa5f2d5e29ca654c9c55f98a86c9d3722d81a -> a6c1cee2867b82a5744494aa84cbc25051231dea8542c66c0079ac4a339d54ce
+~ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke_4.cold.1 : sha256 dd611874e0b1a7253235bd1a16471d5523c60fc1dfe1748c25567613da3c97a4 -> 217fde633a3c79bb6a5f08a706a4f692e2999138cdc8bf01a14a2876a127896b
+~ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke_4.cold.2 : sha256 64bae050ad0267f4ce0d42aa9c5b050adc4cf13011787e95127824b6e608a8e2 -> 374d4b26b9619e9e0570ff4c0a224b58900192083196e6ce135656d9043916d0
+~ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke_4.cold.3 : sha256 3815bdcb8134e767c14a7843be46cda4a6e0d51ea90fab020e9ee853b524b3cf -> b3c05db3e9a0781793d50a0b1985fea5a377488fdc582a39b67e034e7d11b996
+~ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.437.cold.1 -> ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.443.cold.1 : sha256 787a239b44078b9b178515dee2f40897f19e0f63a5b6a52d3c9fc6a07d7d5da4 -> a0af482194ffc8238dae12b765244cd7b137897aeebac5c8341639f284970a2c
+~ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.440.cold.1 -> ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.446.cold.1 : sha256 59b32941072fe95d3c8b8b12ff0eadea9bcfa1ae30ed8a807026a5609cc6098c -> ae53ab47ecccb6b299fc7c43723fb9ac3fa5461b83ddc42173c49cacb5ffe95b
+~ ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.443.cold.1 -> ___53-[AACXPCClient _remoteSynchronousProxy:errorHandler:]_block_invoke.449.cold.1 : sha256 d7a117a5d0c6a01d58ffce64e657394885dc93dafb86f502d803bb883496eb16 -> fd4185bb46b584f22e3d57cb6069a8966a374e70f1f4e030cde6fb4d713fd0af
+
+```

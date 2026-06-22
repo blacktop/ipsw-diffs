@@ -1,0 +1,125 @@
+## BackBoardHIDEventProcessors
+
+> `/System/Library/PrivateFrameworks/BackBoardHIDEventProcessors.framework/BackBoardHIDEventProcessors`
+
+```diff
+
+-860.0.1.0.0
+-  __TEXT.__text: 0x2164 sha256:e41cf022cd3ad134f41e5bf47b21571f29deddb11d7703aca23f24213a20ee0c
+-  __TEXT.__objc_methlist: 0x364 sha256:6df8b761f3cf77d3a3aac2f4ecc4daa91a89853a5c583ccf11f4bf77f921409d
++866.0.0.0.0
++  __TEXT.__text: 0x2148 sha256:54cd8fe46044ef63888dae51cb2c2c8babede0120e805d737dcdc61c75de68c1
++  __TEXT.__objc_methlist: 0x364 sha256:6dee543b1777743e42b457217abcb540ff9e877a3ef24c65ddf593e4a11fa1b1
+   __TEXT.__const: 0x80 sha256:5e996b4f6ec440ea46204b21274ad1ef55a3c4175ca1d89e767ecf506ef97e8b
+   __TEXT.__oslogstring: 0x2b2 sha256:3b952ab576e5891031ed50b7f90b540a702417a9d2f62e494e952cbf1585e76a
+   __TEXT.__cstring: 0x177 sha256:8b72d6640c4f34918d6b6a2138889dba9d4809b91d3d4e387ba90db573042b13
+-  __TEXT.__unwind_info: 0xb8 sha256:726e9ae899f73fce8de780ee7abc16c2ad952a3c7a615c12a1f832897314f55d
++  __TEXT.__unwind_info: 0xb8 sha256:429c338b2d76d06b9f7d78fdb18bda1b28133b478facdb8e64e677fbeb2d0e22
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x40 sha256:9861e10a81f4e121995bff4233e8195d04ae6ef5c6e06eccca321a19f77d56c2
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:25eccada2d30f733d915507ea2a49e5500bce41a8a0eef3360694f48a3986a48
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:755147b7d4077a507620e406c3c31e17a1d54178fae478f5e3393b27faf7b4d1
++  __DATA_CONST.__const: 0x40 sha256:ac2fede7ea8fa8d112e49f37392492a4c9f2d68ec510027267b4daa0bca46f93
++  __DATA_CONST.__objc_classlist: 0x38 sha256:e528e14e1f72e1d19931d713c377a1ad343bf3ddba06893ba2f58194bdb2ecbd
++  __DATA_CONST.__objc_protolist: 0x20 sha256:37594e1bb7709a1e5c762fc3edc68dc36f5a1e3487e75915dd7359685741fa1e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x250 sha256:ad27c19f94d76f262f53100df3ea544fcf99159f95d7657682839faa01ddbf7d
+-  __DATA_CONST.__got: 0x48 sha256:56ef5852b459e349b34822a1c2f4704ed5d8f432fb7a4f3549ee1183dbbb3420
+-  __AUTH_CONST.__const: 0x1c0 sha256:d8edf40bc2087f8a40af4b8841a72597bb7bf7b0c209d19868efdc97e13a3158
+-  __AUTH_CONST.__cfstring: 0x100 sha256:235fb972c610444080098d1260d3b864c9c6a498ee92edcf7e75eb100dc0b217
+-  __AUTH_CONST.__objc_const: 0xa20 sha256:b285a1d88d012e1cdaa457a7b2b6a1bc9fb972c146e47727490d7a4a34d6e86e
++  __DATA_CONST.__objc_selrefs: 0x250 sha256:e757cd7764b1e49b144ce0f3e18f5bcce1e6a0f4cf6d39b4861b3e11e456b3e6
++  __DATA_CONST.__got: 0x48 sha256:e1c4938c2dc54bd22c678ea5188a4d75b937a16ae877bddb01ccd301b0779752
++  __AUTH_CONST.__const: 0x1c0 sha256:2c1d1728f3af0ef10bb24aaa6c189009dc51d9d765615bc5b474a3fa9e0c2066
++  __AUTH_CONST.__cfstring: 0x100 sha256:3732a2993f6fa718b945b7007ee37bbd94aa80eee0c2394d8a19696bb2cecc06
++  __AUTH_CONST.__objc_const: 0xa20 sha256:121a56921b9c02364494fc6d17170b75d14f048a1bc1e3bb64a649c21190c409
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:980b4be2ebf3b3db9ad364b5044b6cf24c073c8f48ca87c154d59e71db02ca31
++  __AUTH.__objc_data: 0x50 sha256:7f6efd54366ff0dd85d6009b8d2139fbe337942f331f11b708e0ad0a66df0e13
+   __DATA.__objc_ivar: 0x30 sha256:163b067a84dfcddfd6b10f934d9cf9dcebcbcb3a12bc7560496852fcd531db82
+-  __DATA.__data: 0x180 sha256:49aeedfd30971159c04ec5e0ba33cbccde451ea8f6ec3e34ef5110773b322283
++  __DATA.__data: 0x180 sha256:811161c761e2a4001286ed6da36eaa405ad24cd397c58f7c856ab51bf6ab7084
+   __DATA.__bss: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+-  __DATA_DIRTY.__objc_data: 0x1e0 sha256:acfc819cf341f1322d83f01598d34448be444647469101093c187a37927de523
++  __DATA_DIRTY.__objc_data: 0x1e0 sha256:c793f3b579c678124babaabc2d0d894bd0b45de8fe8f5c077e2c078edf99549a
+   __DATA_DIRTY.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/StudyLog.framework/StudyLog
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D225E27D-4DC8-3A46-9FF9-43B65DE0E6D3
++  UUID: 43B2A2AE-1A1B-3803-856F-6935B844E44C
+   Functions: 60
+   Symbols:   346
+   CStrings:  46
+Symbols:
++ ___block_literal_global.226
++ ___block_literal_global.80
++ ___block_literal_global.83
++ ___block_literal_global.86
++ ___block_literal_global.89
++ ___block_literal_global.92
+- ___block_literal_global.216
+- ___block_literal_global.44
+- ___block_literal_global.47
+- ___block_literal_global.50
+- ___block_literal_global.53
+- ___block_literal_global.56
+Functions:
+~ -[BKHIDVendorDefinedEventProcessor processEvent:sender:dispatcher:] : 524 -> 520
+~ _BKLogHID : sha256 e9515c26b2b5cce11bad3dbec4588a024283ebf861777b4fc6831180addb1341 -> 3b5da8a2ecf22af54b762fef7480ddc8fbdd295df2fc54be22cedccdbccfd55a
+~ _BKLogMotionEvents : sha256 042e1d7dc579514d5f7d451335f4a2a0ba3e90e6b1be18d4fe3917f3b8af1819 -> d8222cc79549bbd713db44fc56799126e7cde9e5af25ab5b2acb94d25c7379b0
+~ -[BKHIDGameControllerEventProcessor processEvent:sender:dispatcher:] : 452 -> 448
+~ -[BKHIDGenericGestureEventProcessor processEvent:sender:dispatcher:] : 1280 -> 1276
+~ ___68-[BKHIDGenericGestureEventProcessor processEvent:sender:dispatcher:]_block_invoke : sha256 98b1e5197439ea0ed60f935948eb6631e34f812862bbcadf7d105004ce4c65d9 -> f9e20b612afa733eac956f93bd6b760f1e3e1279b3d8f8ec3c6e0cea3f739707
+~ -[BKHIDGenericGestureEventProcessor serviceDidDisappear:] : 580 -> 576
+~ -[BKHIDGenericGestureEventProcessor _postEvent:toDestination:usingDispatcher:] : sha256 0e8f026ef531b4d74c281a68671d30685dfbb36b9af2c4310c0924060520cd58 -> 12d7556ea17cca7759a5ae583d18fe6fdb1d3412e1f46b5a5674c0d3646c9cad
+~ -[BKHIDGenericGestureEventProcessor setPendingDestinationsPerSenderID:] : sha256 8a7a6dafe9828ecead1273c913f3aa7bff540e4d5efabc268ec8689e2140cbba -> 88a1c19f8b7f4f67ce5e8112c3951cfce3b692157b6d82a61635862634495cf8
+~ -[BKHIDGenericGestureEventProcessor setGenericGestureTypePerSenderID:] : sha256 0798aca2d71691dc78e30e93b0b46e596702696b224c0471349d99cdd6ac8011 -> c73a7a4d02f7436d7174cd662ad7192d4acd69677649972b7022286f1fcb86a3
+~ -[BKHIDGenericGestureEventProcessor setEventDispatcher:] : sha256 8747204270c1a0a3b39601eacdadf94a8cbc2ecb3cd582f4ecb9207064bda73d -> f6f84f84ecc632484b77576c61bee024feba459425e43acac4f79f6764a915a1
+~ -[BKHIDGenericGestureEventProcessor .cxx_destruct] : sha256 fd3015d6d1c65002feec9bc08046690f239500a436d11a7bd05ff6ce907bd7d2 -> f6d03e600b077d96a5506c74862d2b1b80fd0a2ddb554079bd51c001f0ecfa63
+~ -[BKHIDPointerEventRecord descriptionBuilderWithMultilinePrefix:] : sha256 884042b45172dec179de35475bb6b39b8acbdd2f8cb3fdcf910358571579b108 -> 1f6f27d6e1d0d88eb0a46e4351782cb90c7ac2710763fa9ceafa5e983b1114ed
+~ -[BKHIDPointerEventRecord descriptionWithMultilinePrefix:] : sha256 c0ccd49065194b15d15f67997d653dad34686542cccb05ca368728cdedeea17b -> 4209538008147d78c7c1decccff7d19d87b111d4f9f2007029d226ba4c4be670
+~ -[BKHIDPointerEventRecord succinctDescription] : sha256 1e001c3acfebd0d83454770bd477941edc11228f9fdceecb65052bd9ee549e2b -> 7cd3d8215afa32495fb8433de6a8368f9c53bbc7cd699b6f797145e999631814
+~ -[BKHIDPointerEventRecord succinctDescriptionBuilder] : sha256 f4d2e4491bb9b84856a3a55615849610070ed8b7ad96a2b559d8809674d9c8c2 -> 85ccec3d541b328a55423cbaecd21a2d4e0a054e55243384a619bc67973e6567
+~ -[BKHIDPointerEventRecord setSenderInfo:] : sha256 87ea1a4eaf7aea84a1fdef2a5a74b46dd189c95e65631897b4233250617e6df2 -> c2c0b8c875d66708854a0a552938a040f74ecda1b150cf94972aa632d31f0497
+~ -[BKHIDPointerEventRecord setDestinations:] : sha256 c76f1562f48cb746dd0a04fc298f1bf6f83a5f90044294bdf02141b41ae286ad -> 437c9d505bd80f29b651d819140e6aa823d785279d129470b3018274cdd8666a
+~ -[BKHIDPointerEventRecord .cxx_destruct] : sha256 26b20d586d78eabda3eca9a7af73306a048de049a0231507855cb9d97fa944b2 -> 0238ef23c5282abaf457216d845791e8c789442fef1ea5d6b667557db97d1cdb
+~ -[BKHIDPointerEventProcessor processEvent:sender:dispatcher:] : sha256 a74ca7022d5a825a6617b1719d3c7fc9a05544f29e12f7c1a0015e4f0672b0c9 -> d539910171f041ee416f41e4fb774093face12d14e8b5815e7ace3e4a3e741f2
+~ -[BKHIDPointerEventProcessor _dispatchEvent:sender:dispatcher:destinations:] : 352 -> 348
+~ -[BKHIDPointerEventProcessor .cxx_destruct] : sha256 805378d33892537f4faeabee8b42ba830297f0fd3f2716bbdb45b6bfdc2d0aa1 -> 4454c1deb4147cc0e908340fb837b5aff779e397cd83266abdda4cb9b2fc0095
+~ _BKLogBootUI : sha256 5e67f89dc6e73a4aa4d18188143bce8b2ea62ef228d8620979a807ea67c4188e -> 6fb50a8f12c551dfe76939a7f19906babab0171ea02cb1a0a56a1c413983c558
+~ ___BKLogBootUI_block_invoke : sha256 dc947bde67beca0a177a8040bef8b10439cfa13ac0047a67135bec586de28a0a -> 75aa64cff4f82f352b7a863acb488478bbce6b87348c760ed67c3ba146b1e1b3
+~ _BKLogButton : sha256 f56206bdaa94ab8f176706d7d22d626c72094b5aeff95f0928b27c3d11abdf86 -> 2c6e2ff6365e92b66734a2b300dbef418147a15655ebf868aa40375d1662565f
+~ ___BKLogButton_block_invoke : sha256 8f46c592e424a01b288c49f44f5bf39a6a3eedb9ead0bd1dd7b1a35ffbecf2eb -> 74b42075cb9afe969c205a360cc0afe3b92a3fbf30841fa5bf979a5dd37670c8
+~ _BKLogDisplayAnnotations : sha256 4d9115fb3efd75d7d4b21bf0971bc15b2713ef71dd11e7809061ae84b98003ba -> 28f4d67b19bdbebb06960b77978fc5261a6f66e4227539860e28cfba2a5a092f
+~ ___BKLogDisplayAnnotations_block_invoke : sha256 0caa83d632f860d009ecd637a7a74f307407a6c01a7b71be4b9cb746cfc02c91 -> fa3afa4fdac915ba7b8b1c035949bda687f161f9712fcbde978e87be5304c0f6
+~ _BKLogDisplayMonitor : sha256 6dc988efabbaba5d52f320f213ba2e4576919050d6461b3773be02b73627fec6 -> aff6e562f8729440d6e2105b3980e9a5b3947a8a180cebc8c7aa0b11b33c9e4c
+~ ___BKLogDisplayMonitor_block_invoke : sha256 9db3b2a75c62e28424227d7f06b01235eacdab6418ae4558725bcdfcdd270417 -> a529edfd698e3a9ec9df1abfa7bc2ed57821afcb4b2b522ef5c135d773df3293
+~ _BKLogGenericGesture : sha256 3a51f1432490969fead82d57a6afaf1edceb5f766604525a2ace055e91d5e277 -> 641239fcfe600721d07dfe28cd0af3491c137a0d2ce3ff97753d190e2e827e49
+~ ___BKLogGenericGesture_block_invoke : sha256 de59c7342ee12ebebe06ff63e0c4e55115f1f156b1d4975b6d1e88bff271ff0d -> f8866f9ec1c5a8e2457cc617dd0330dfffb2da769a5e90188b3b0662ff85b79c
+~ ___BKLogHID_block_invoke : sha256 ac0cec5da6cecfb3a4954d65143d02ee4e6133b30fdcf3e08d8c976a0c9b9477 -> 2be2f2b80b152b59b6c0acc4f642083b017bce24b6d8b8613a5d28802d4f2aa1
+~ _BKLogIdleTimer : sha256 248c9a24f6d1ec8a1be9fcbf8777aa56719fcee89cada51eafa7a4396d90eedb -> 4d0cab463243a0aa799782fe32ca5db640397b3806a37e8b6283790186aa757e
+~ ___BKLogIdleTimer_block_invoke : sha256 f297e10899639b64de3554e8979e75aca8c8239b1a753f641ebb20413ddbdceb -> 71ea14a1a9bbcb6014e5aa147a2cd95cf3777dc660298e6cc01ebcb0ddaa8ea9
+~ _BKLogRenderOverlay : sha256 fa2a1630fcaff7d7ec5626863a0b4d3322e50569ebe472e673a21b0615f17c49 -> b122e8851a6d13312e85533307fc548671186a68a4bc656df1c4730f94646515
+~ ___BKLogRenderOverlay_block_invoke : sha256 bc75f94d3922c7e4ac91668fe61f1bb9fce8bf3907751d21704a02d516122e9c -> 3c59cea692dcb64d7d1eba24a98273b3fa7d0a599634540a5d06b20374efede2
+~ _BKLogHapticFeedback : sha256 e9a30245f21a6beb09ffcbf1a7c052aa65798789de043b92dc60c1f6f9ad9d16 -> 8678fe12781ff08a292196ac56f66b7b432bc9837cd12b57b6426343fe40a2e5
+~ ___BKLogHapticFeedback_block_invoke : sha256 4d2bc2a547efb0fabc98897346945e2bebdea9f8cb873e644d21496e5d66bb0b -> 5a68fdadb0e8574c57f7b3884869bbedc7b2fc00d8827beb4d6b37f02465097c
+~ _BKLogAccelerometer : sha256 fe2647d8c470c332c7cb91274687edc59ff6c625a573275aea1a8baaff31ea67 -> 02895ea690858ea29f85ae52a889e0020e6d0cdc596cef94a0c4d728b716141b
+~ ___BKLogAccelerometer_block_invoke : sha256 8cad744e82c28cf0f5a4bb11eeaebf0cbe3089e75db5522ce618aed5573cbd23 -> b273875100fd3b3c34b9bd4f1a0f24b76010cdb5d9aa9f731bd9d1d02dd5f449
+~ _BKLogKeyPresses : sha256 a8b9dbca3063672fd0e2299a0573c1c61342558d16aa065ac3c8789434487b90 -> bd44b3657a34207ae80f054f8a69834b318aaa916feaf0e77392ab8b4db646fb
+~ ___BKLogKeyPresses_block_invoke : sha256 73b4a83a86622fc936bb3ffa77f3ebe4f420604bceb802c8d326b0874aee6a64 -> edf567481a1011977679d8d3ce13fe252ec7044cb6cf21f3e8a8c81f6f7316cf
+~ ___BKLogMotionEvents_block_invoke : sha256 49f3dbe782cf47ebddd965ec25d518d0298bcd5b00522138fd1ba1cae8dc7e7e -> 2129fd1bfffa9173b97acaaaf8e6d979f20c11145d5735e3319986d3870af646
+~ _BKLogSendHIDEvent : sha256 1fdec37a91d78da1264c2d82f167a37f6cd76bcdec3d51e99649824d090ae697 -> 9c68bbf179d32e3c08ff232c24a15bdcd11d87ccc8bedc6d5c10eda222a6b369
+~ ___BKLogSendHIDEvent_block_invoke : sha256 ebcf168625e1ed0db5a9278236cc32a4ff51754ca7f8d3a19764ea1cf27bf66c -> 544690cc757276cb948b2cef62df470562b199d7a32c622bc0388c33e43f48af
+~ -[BKHIDScrollEventProcessor processEvent:sender:dispatcher:] : sha256 e30b6e9c7daf6dd597a40cbe277057155e097ef086bbd6157b12254d7d0e3a3d -> 9f13af46337d3fe7a6428a5c0be6487d674b9da8102e08ca621d1fba4dec61e5
+~ -[BKHIDScrollEventProcessor _dispatchEvent:sender:dispatcher:destinations:] : 352 -> 348
+~ -[BKHIDBiometricEventProcessor processEvent:sender:dispatcher:] : 480 -> 476
+
+```

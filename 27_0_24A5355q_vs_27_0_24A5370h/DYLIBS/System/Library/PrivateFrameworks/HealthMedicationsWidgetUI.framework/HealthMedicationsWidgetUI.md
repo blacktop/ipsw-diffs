@@ -1,0 +1,174 @@
+## HealthMedicationsWidgetUI
+
+> `/System/Library/PrivateFrameworks/HealthMedicationsWidgetUI.framework/HealthMedicationsWidgetUI`
+
+```diff
+
+-7027.0.52.2.6
+-  __TEXT.__text: 0x1774c sha256:840d2e7f9eb87b8870adb14645aa708c556ffc07dc0cc1d7c5506820f88e17ca
+-  __TEXT.__const: 0x9f4 sha256:97d1d5dfdd9584ab367a899f0133f52d5add50a0efdafd536f217213ac96efa8
+-  __TEXT.__constg_swiftt: 0x414 sha256:0aad6c56bc3604fe4af9abfe5ca5cb6717c4a69d35b2b3e1f1b559b0ddf5c2be
+-  __TEXT.__swift5_typeref: 0x538 sha256:cbe03394a34b48ab5cf6a8c0f95de8facd84cc99349ac54db1713e4648a08443
+-  __TEXT.__swift5_reflstr: 0x259 sha256:7b075d91c4cb0c41b61b062015ca79351b5c2679a2debf1ecca16737ba333756
+-  __TEXT.__swift5_fieldmd: 0x2bc sha256:14d7ca4d4a585b9445d063c2c163fbf5ac87d119c24c0c03a6d160f7af6bc490
+-  __TEXT.__swift5_proto: 0x40 sha256:3e8622ba166102e35ce71aff18f0d8ffd90de184f8e11bd204168e8c1b685e2d
+-  __TEXT.__swift5_types: 0x40 sha256:6706a6ab38b722685861e85899818ce6afbf7a0c9a2cf0f004c1acdb01d47a43
+-  __TEXT.__cstring: 0x2f0 sha256:e49ccc9ed483a80ea6c62f43545dde60f202b49b0f0f89ccd1789b77ad8d6e8f
+-  __TEXT.__swift5_assocty: 0xf0 sha256:e6e3958402f04cfece245c4c676c95ed7b0a06d69ca9f237982cfe19e3c4b139
+-  __TEXT.__oslogstring: 0x2da sha256:a6c42b18dbe7b70b6d9e6bd32eda609afd4c6e7802694a7bfe0a41d93dedebec
+-  __TEXT.__swift5_capture: 0xac sha256:df2d3289d952a95dc02c0a6a285a40800096d556f3e6949bf02fd778cefa10d1
+-  __TEXT.__swift_as_entry: 0x8 sha256:bbcbb5bd0c69f452ef17b56e7cf8593b29ac7147c1ea1de48d17dd04a2cc77f7
+-  __TEXT.__swift_as_ret: 0x8 sha256:34190053b1a30eb077bc76f04b27a1f1ce368f7038bb0befe8b93c411354d1b0
+-  __TEXT.__unwind_info: 0x470 sha256:90576473c422dffaeeaae219ed6e73f4a476f54d92502d7976d91a4d7c05ae2e
+-  __TEXT.__eh_frame: 0x1b8 sha256:2b27197745ea8c8c280a7f8bc395247cccad7ee7448ca0f6ad30159070ea9dba
++7027.0.60.2.2
++  __TEXT.__text: 0x19150 sha256:a136c8d51b873879aaa6cdce3b7f440e1c5eb8ad7ec3f7646f55b5d9f05cf640
++  __TEXT.__const: 0x964 sha256:ef536a19c98179e42ebdd80abdd3695766ee3261a75344c4743e6a97ad5b5b67
++  __TEXT.__constg_swiftt: 0x3b0 sha256:f70f411e566a4fbfe5a70dc70315d09e00ee01ce8c992d9d87508035f4fce3a1
++  __TEXT.__swift5_typeref: 0x516 sha256:b85ac0ced33bb82dbd4bef923022949b4ee4b48fad67305f01220ae1a6f20d99
++  __TEXT.__swift5_reflstr: 0x1ef sha256:895762cc026d9f7d2adfee37ee7ab6888f5302e5e6bb3d3b895b8721aeacc0ff
++  __TEXT.__swift5_fieldmd: 0x270 sha256:e97e42f355f0011eeb8fd379a70d7d13589e212270ec5b1d655a31219adcebd1
++  __TEXT.__swift5_proto: 0x34 sha256:1efd368dafeb29f04178c93b8a3423bb41bbd4c90ed530c2578c049705e9665f
++  __TEXT.__swift5_types: 0x3c sha256:59273878183db0f2d267cfaeee2cd81d04d214ee42b8bdde7902fa3d4f916e8f
++  __TEXT.__cstring: 0x331 sha256:262968eac5f99d217ab600c39df0ea3ca0cf1c7db762b617c9988dd3013f8db8
++  __TEXT.__swift5_assocty: 0xf0 sha256:b94ed39549e3dd76ffbe51b732aa69c59fe5280d37d0e8df41c59b458d9ee03e
++  __TEXT.__oslogstring: 0x24a sha256:821e155080b0bd9b7fbc4203e01d983a32599a9c488e46bddcba0711da5e4a78
++  __TEXT.__swift5_capture: 0x78 sha256:c7a1b21ac26d0c68146bdeccfc0108d225cadcf1939e9d0f3675fef4bc674a35
++  __TEXT.__swift_as_entry: 0x18 sha256:4faff2b9a94fe04499ba8e6a115c4e39fbc184d198b5253362e4ceaa715e36f1
++  __TEXT.__swift_as_ret: 0x1c sha256:3741be950c6b54d0d526ade626a21906f9c8760f95163d0303cfb98f10c7697d
++  __TEXT.__swift_as_cont: 0x24 sha256:e2eba9dc39ce9884436fb17bec8788b0f54deb71a2cae81f6eb00282795df9bd
++  __TEXT.__unwind_info: 0x518 sha256:dbebf9f11cef655b9e889741418275f27cc2cecc467fd571dc80f617021d34d3
++  __TEXT.__eh_frame: 0x460 sha256:c629dbe01530b609c2693fa0038a340b6666cd25a5d6f4fefe06440cb7368c80
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:b92c7b6a61a089ad055f85367e842c1a2f9b13a4e8cc9ee6797380cc37ba4393
++  __DATA_CONST.__objc_classlist: 0x10 sha256:e85af6b8ed11cf3d22baaac1f8f49e56549c77ff290dbacc90bc1f8574ae8a26
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x48 sha256:0ed1b3001568438e4d6915ccd02a66da772b8a769c02d865896440267c20eaef
++  __DATA_CONST.__objc_selrefs: 0x50 sha256:375866a506ba7ea7226275f98035084800636cdc6fb9d92c39a2bfb5df253e01
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x3a0 sha256:a9ba2bc1e2e5d7064b847ad9622b4c18b14357a0644962c04708e05d41aaf767
+-  __AUTH_CONST.__objc_const: 0x1c0 sha256:39f4fd26f39dab76b4a0f1deed79a2469f06c5b8eceffc8f5daaa41b4bb385e1
+-  __AUTH_CONST.__auth_got: 0xa30 sha256:e4e45c14a09c139ebd07e465bcfb563d217bb67665e78d5bf2738e465ba7a350
+-  __AUTH.__data: 0x98 sha256:ef7cd534f2717a82f9cbeea0216d3f736ea0f9ded24267d744a42972d07841da
+-  __DATA.__data: 0x300 sha256:ef115a0e0c15cdc41958ca46b5b14b456115f4baec5e3ca68599d2a8f435e3b8
+-  __DATA.__bss: 0x280 sha256:9e132485d5107211de325a45e7917cbe3e4b5b9cde3e4ee91d7d2102317759ee
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:143dc0d26ecf11d4479d9511a47ff3424c032bc71476f0730b0e4d850358cf1b
+-  __DATA_DIRTY.__data: 0x9b0 sha256:24f84fa1e7be26031043c2980a35097984503292e2090df5723572543395d799
++  __AUTH_CONST.__const: 0x310 sha256:8660dedaa8e236832f6667d690798ec154c09f8200769f4a08094f086d3016a5
++  __AUTH_CONST.__objc_const: 0x140 sha256:310854d3ea3cb6df02c7a1324fc0cb5b0a54dc8e3532e2e798355c5a75aa7813
++  __AUTH_CONST.__auth_got: 0x9e0 sha256:54c933adf17809cd86095d388f3d660fa9e961bd3243502fec99fa2b03d497a3
++  __AUTH.__data: 0x98 sha256:72b57bf4fb74c2daac2f5abf1c1207985a114dd19a05851143f65d9bd77c938a
++  __DATA.__data: 0x3a0 sha256:202115097d1bee389d4d4d81db00117252be97d5691af316941f3843ef7a05f5
++  __DATA.__bss: 0x180 sha256:a1a4f5721c1c4610af7f71078f3a68c330536d679803b0e0507ee8dc10c5dfca
++  __DATA_DIRTY.__objc_data: 0x50 sha256:20df6fe9030cbeca6cbe2e857a20043fcfc5900f937d5f1256e64901655299aa
++  __DATA_DIRTY.__data: 0x8b0 sha256:0b702ce11b5a978cf46c2b9d346e74f4495d8eb931ee150138510ab9d982fb1a
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__bss: 0x600 sha256:80422bc3d307b4a25bdafcc84ac7fb01cb55a09810e8b0f37bb12e0edb5c48ca
++  __DATA_DIRTY.__bss: 0x580 sha256:bffeeb2d12ba6108806a508082dee2f5ce23d1edeaf81acd4feb8c0d08038978
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/ClockKit.framework/ClockKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3B673EEB-BD54-30AA-9B52-FE126C46087C
+-  Functions: 420
+-  Symbols:   293
++  UUID: 0BFE5F94-09CE-307B-BD9E-3F31833695E3
++  Functions: 434
++  Symbols:   297
+   CStrings:  32
+ 
+Symbols:
++ _OBJC_CLASS_$_HKDatabaseAccessibilityAssertion
++ __NSConcreteStackBlock
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.5
++ ___swift_project_boxed_opaque_existential_0
++ _block_copy_helper
++ _block_descriptor
++ _block_destroy_helper
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA4ViewPAAE19containerBackground3for9alignment7contentQrAA09ContainerH9PlacementV_AA9AlignmentVqd__yXEtAaFRd__lFQOyAEyAA6VStackVyAA05TupleD0VyAEyAEyAG9WidgetKitE16widgetAccentableyQrSbFQOyAgAE10unredactedQryFQOyAEyAEyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA5ImageV5ScaleOGGAZyAA4FontVSgGG_Qo__Qo_AZyAA5ColorVSgGGAA023AccessibilityAttachmentZ0VG_ACyASyAX_AXQPGAgAE16privacySensitiveyQrSbFQOyAgAE9lineLimit_13reservesSpaceQrSi_SbtFQOyAEyAA0F8ThatFitsVyAA7ForEachVySaySSGSSAEyAgTEAUyQrSbFQOyAX_Qo_A15_GGGA8_G_Qo__Qo_GQPGGAA16_FlexFrameLayoutVG_A13_Qo_AA011_PreferenceyZ0VyAA020PreferredColorSchemeX0VGGAEyA41_A47_GGAaFHPA48_AaFHPqd0__AaFHD3_A42_HO_A47_AA0fZ0HPyHCHC_A49_AaFHPA41_AaFHPA38_AaFHPyHC_A40_AAA51_HPyHCHC_A47_AAA51_HPyHCHCHC.17
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACy023HealthMedicationsWidgetB00fG12CircularViewVAD0fg6InlineI0VGACyAD0fg11RectangularI0VAA05EmptyI0VGGAA0I0HPAiaPHPAfaPHPyHC_AhaPHPyHCHC_AnaPHPAkaPHPyHC_AmaPHPyHCHCHC.14
++ _objc_msgSend$invalidate
++ _objc_msgSend$requestDatabaseAccessibilityAssertion:timeout:completion:
++ _objc_retain_x19
++ _swift_allocBox
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getErrorValue
++ _swift_setDeallocating
++ _swift_task_create
++ _swift_task_switch
++ _swift_unknownObjectRelease
++ _swift_willThrow
++ _symbolic ScA_pSg
++ _symbolic So15NSDateFormatterC
++ _symbolic _____ 7SwiftUI11ColorSchemeO
++ _symbolic _____Ieghn_ 25HealthMedicationsWidgetUI0bC5EntryV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA11ColorSchemeO
++ _symbolic _____y_____GIeghn_ 9WidgetKit8TimelineV 017HealthMedicationsA2UI0eA5EntryV
++ _symbolic _____y_____y_____yABy_____y_____yAByABy_____y_____yAByABy__________y_____GGAFy_____SgGG_Qo__Qo_AFy_____SgGG_____G_AAyADyAE_AEQPG_____y_____yABy_____y_____ySaySSGSSABy_____yAE_Qo_ARGGGALG_Qo__Qo_GQPGG_____G_APQo______y_____GGAByA9_A13_GG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE19containerBackground3for9alignment7contentQrAA09ContainerH9PlacementV_AA9AlignmentVqd__yXEtAaFRd__lFQO AA6VStackV AA05TupleD0V AG9WidgetKitE16widgetAccentableyQrSbFQO AgAE10unredactedQryFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ImageV5ScaleO AA4FontV AA5ColorV AA023AccessibilityAttachmentZ0V AgAE16privacySensitiveyQrSbFQO AgAE9lineLimit_13reservesSpaceQrSi_SbtFQO AA0F8ThatFitsV AA7ForEachV AgTEAUyQrSbFQO AA16_FlexFrameLayoutV AA011_PreferenceyZ0V AA020PreferredColorSchemeX0V
++ _symbolic ytIeAgHr_
+- _OBJC_CLASS_$_OS_dispatch_queue
+- ___swift__destructor
+- ___swift_closure_destructor.13
+- ___swift_closure_destructor.4
+- ___swift_closure_destructor.7
+- _associated conformance 25HealthMedicationsWidgetUI0bC17TimelineGeneratorC0eF5ErrorOSHAASQ
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACy023HealthMedicationsWidgetB00fG12CircularViewVAD0fg6InlineI0VGACyAD0fg11RectangularI0VAA05EmptyI0VGGAA0I0HPAiaPHPAfaPHPyHC_AhaPHPyHCHC_AnaPHPAkaPHPyHC_AmaPHPyHCHCHC.12
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE19containerBackground_3forQrqd___AA09ContainerE9PlacementVtAA10ShapeStyleRd__lFQOyAA15ModifiedContentVyAA6VStackVyAA05TupleL0VyAJyAJyAC9WidgetKitE16widgetAccentableyQrSbFQOyAcAE10unredactedQryFQOyAJyAJyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA5ImageV5ScaleOGGAUyAA4FontVSgGG_Qo__Qo_AUyAA5ColorVSgGGAA023AccessibilityAttachmentX0VG_AA012_ConditionalL0VyANyAS_ASQPGAcAE16privacySensitiveyQrSbFQOyAcAE9lineLimit_13reservesSpaceQrSi_SbtFQOyAJyAA0C8ThatFitsVyAA7ForEachVySaySSGSSASGGA3_G_Qo__Qo_GQPGGAA16_FlexFrameLayoutVG_A8_Qo_HO.17
+- _objc_msgSend$description
+- _objc_release_x22
+- _objc_retain_x23
+- _objc_retain_x27
+- _objc_retain_x8
+- _swift_allocError
+- _swift_beginAccess
+- _swift_endAccess
+- _swift_retain_n
+- _swift_retain_x9
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _symbolic Sb
+- _symbolic Sd
+- _symbolic Shy_____G 7Combine14AnyCancellableC
+- _symbolic So15NSDateFormatterCSg
+- _symbolic So17OS_dispatch_queueC
+- _symbolic _____ 15HealthUtilities19HourNumberExtractorV
+- _symbolic _____ 25HealthMedicationsWidgetUI0bC17TimelineGeneratorC0eF5ErrorO
+- _symbolic _____ 27HealthMedicationsExperience32MedicationDoseDaySummaryProviderC
+- _symbolic _____ 9WidgetKit23TimelineProviderContextV
+- _symbolic _____Iegn_ 25HealthMedicationsWidgetUI0bC5EntryV
+- _symbolic _____SgXw 25HealthMedicationsWidgetUI0bC17TimelineGeneratorC
+- _symbolic _____SgXwz_Xx 25HealthMedicationsWidgetUI0bC17TimelineGeneratorC
+- _symbolic _____XDXMT 25HealthMedicationsWidgetUI0bC17TimelineGeneratorC
+- _symbolic _____ySbG 7SwiftUI11EnvironmentV
+- _symbolic _____y_____GIegn_ 9WidgetKit8TimelineV 017HealthMedicationsA2UI0eA5EntryV
+- _symbolic _____y_____y_____y_____yAAyAAy_____y_____yAAyAAy__________y_____GGAEy_____SgGG_Qo__Qo_AEy_____SgGG_____G______yACyAD_ADQPG_____y_____yAAy_____y_____ySaySSGSSADGGAKG_Qo__Qo_GQPGG_____G_AOQo_ 7SwiftUI4ViewPAAE19containerBackground_3forQrqd___AA09ContainerE9PlacementVtAA10ShapeStyleRd__lFQO AA15ModifiedContentV AA6VStackV AA05TupleL0V AC9WidgetKitE16widgetAccentableyQrSbFQO AcAE10unredactedQryFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ImageV5ScaleO AA4FontV AA5ColorV AA023AccessibilityAttachmentX0V AA012_ConditionalL0V AcAE16privacySensitiveyQrSbFQO AcAE9lineLimit_13reservesSpaceQrSi_SbtFQO AA0C8ThatFitsV AA7ForEachV AA16_FlexFrameLayoutV
+CStrings:
++ "[%{public}s] Returning snapshot"
++ "[%{public}s] Returning timeline"
++ "[%{public}s] Snapshot fetch failed: %s"
++ "_createCheckedThrowingContinuation(_:)"
++ "com.apple.MedicationsWidgetTimelineGenerator"
+- "MedicationsTimelineGenerator"
+- "[%{public}s] Creating snapshot from provider: %s"
+- "[%{public}s] Returning snapshot for context %{public}s"
+- "[%{public}s] Returning timeline for context %{public}s"
+- "[%{public}s] Timed out waiting for medication summary"
+
+```

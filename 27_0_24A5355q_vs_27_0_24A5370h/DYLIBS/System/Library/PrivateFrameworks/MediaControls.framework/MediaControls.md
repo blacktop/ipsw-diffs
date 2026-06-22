@@ -1,0 +1,348 @@
+## MediaControls
+
+> `/System/Library/PrivateFrameworks/MediaControls.framework/MediaControls`
+
+```diff
+
+-4026.100.60.1.0
+-  __TEXT.__text: 0x2044e0 sha256:ebbd69fd42266ea3c524c36b8d31accb5ba9f3d74cd3fbe3430a41a009325b61
+-  __TEXT.__objc_methlist: 0x154d4 sha256:6c8b6fc51a311bf54ac815b91673adaa693b31630071d5d7770524d8252ac560
+-  __TEXT.__cstring: 0x69c4 sha256:75f6d25be1dbf1a8c71dd75c4d102fc3d2386654b4aaeb05028d8e217c4fbd6e
++4026.100.68.0.0
++  __TEXT.__text: 0x208f14 sha256:72fc98d54fe9049e26ce830ad9ee54cdc55b31ff10a15d3c68e5c5682ad94a17
++  __TEXT.__objc_methlist: 0x156b4 sha256:bd55c44fcada6ed7928200bb90b65c9cbca8aaa63c1ea0f231d61559e00cc341
++  __TEXT.__cstring: 0x6b34 sha256:b1f2ab21ab60d019ecd0b47767f9f7d2c907f48dc3baf92c1f8685945f0b0582
+   __TEXT.__ustring: 0x22 sha256:8824d79819b7c30b91beae7e50aad2f6dd8580aa18efcf286c8b56a93f8cbe99
+-  __TEXT.__const: 0xb1d4 sha256:c6e116a76a2eb09dafccb85d7752917ab4473da3335842e32a9129e5aee36668
+-  __TEXT.__gcc_except_tab: 0x1518 sha256:07e14200a81745ed96704832df3ef224f19c7d95dd856208fe6643e73719ed2f
+-  __TEXT.__oslogstring: 0x8679 sha256:5b1535341b587aa18aa84ce414b9d6e1b75c3f72ae5c30916125980fa09a6e01
++  __TEXT.__const: 0xb464 sha256:522b98d4c8f0dade8efcf3a5d5d40e03612622cc0a4196be9eea61119c87415e
++  __TEXT.__gcc_except_tab: 0x1518 sha256:1aa4826426f14ed038cf835b699e6812fea1f724dad1438df9a9a915debb43e6
++  __TEXT.__oslogstring: 0x86b9 sha256:9fb9384f7d3678cd4283b8fd6fe057946989ddee4466d5264884aca23630e1f2
+   __TEXT.__dlopen_cstrs: 0x64 sha256:4da9063f111aa4cb988373878950ec6bb53f79370ab379ded3aa74584833ee45
+-  __TEXT.__constg_swiftt: 0x7120 sha256:e2d8f4dabd4c1b86495f571ff4640154a28a3bfb874c435d60667f590da4ca9c
+-  __TEXT.__swift5_typeref: 0x321c sha256:7d79b3049522028f8dcaff0b9b53d5c1fbf22b2ab127f04de349df884a811a1a
+-  __TEXT.__swift5_reflstr: 0x4563 sha256:2c4d502070bea633c0700369f44b48726bfc77076a5bb805c2fa15813ff9edb7
+-  __TEXT.__swift5_fieldmd: 0x4628 sha256:4ac3901b53450f4d4800a692fe18cb87e9e6d1d69ff1dea4d0516a72680f614d
+-  __TEXT.__swift5_types: 0x58c sha256:fee67cc034a93a029e3a474e491d3060000d000b5c383fcab68952ea33aa2e7e
+-  __TEXT.__swift5_capture: 0x11a0 sha256:ad1d1fb396047379b092e56ad59eb0e2ee947bec12be621eb7ef95f24581e699
+-  __TEXT.__swift5_protos: 0xb8 sha256:6aeb82a286aeea02d745ab2c1d299ce34c1aa40887d22a02efcbe33f84e6ca01
+-  __TEXT.__swift5_proto: 0x5a8 sha256:48f5e31b843ff9718733f19a0e0339f741f304b955e7421d7e66fe06eb4361df
+-  __TEXT.__swift5_builtin: 0x2e4 sha256:86220574cec29797727f658d03d799f1aab4ad88f3d2a2d766de8870ead7ba5f
+-  __TEXT.__swift5_mpenum: 0x48 sha256:3844ad46e4a9ead08e5014e0e880ce9643cd55fdcecae4449b3d7b514b3ef70f
+-  __TEXT.__swift_as_entry: 0x3c sha256:aa72b556afeb57a10f071d0575c98d5ee6bf3fde892bd2304861348eec5c579a
+-  __TEXT.__swift_as_ret: 0x34 sha256:de32242ac2136a52c3da99cc68e9cc79d310bf4410d39b559941dd52a768d91a
+-  __TEXT.__swift_as_cont: 0x6c sha256:09d9eab0ad75f899fc568b858d7708b84d5595bc3c26f3f0507a2988a63a9fbc
+-  __TEXT.__swift5_assocty: 0x330 sha256:eaa03896169c60c8ef8e7d45067ef07a4a075dff852b90bc2bf98bceb42882bc
+-  __TEXT.__unwind_info: 0x82a0 sha256:c308f335fd444e0977edb96d950f686b39cdce08da6ad9221ba7142fec62cfe7
+-  __TEXT.__eh_frame: 0x18a8 sha256:226b9fb659ae59a17b5ba179c331bcac4f9fbc99c0480c488c3b4929e2a33aef
++  __TEXT.__constg_swiftt: 0x722c sha256:413d0689017a621c7161989d6353c8e287d9c483ff4e8ead859d7d86535d9388
++  __TEXT.__swift5_typeref: 0x3280 sha256:9ed1927bcb2c033dc1c56708f97bf7f5f545af558a338e9d17d153ba14d198b9
++  __TEXT.__swift5_reflstr: 0x4763 sha256:d21db6a308e5348d609c3578377a6385d6593c418c3ff6593a7a1eb1881e8709
++  __TEXT.__swift5_fieldmd: 0x47c4 sha256:8ff0a99f8ea3bda2299e1461a15f29a2adb66caab21b7752b194fc48175b5b9c
++  __TEXT.__swift5_types: 0x5c4 sha256:9594b592a31eb6e693e9320b66b967e6976c92f2d48b23ab8cf41beadef5c58d
++  __TEXT.__swift5_capture: 0x11c0 sha256:ac4eed947c4d9ee1c99e6489146c6894d4ee06dda188cfd3a61bd3ad83d086db
++  __TEXT.__swift5_protos: 0xb8 sha256:4eb0a8c4c4ee7d78e8785cd9d2a03ea212bbcc7b6fb77bcc656096ea0fed83cf
++  __TEXT.__swift5_proto: 0x5c0 sha256:f65f0971948d4d2d089c98b0ba7a752383fde30f20da0134bbd1600abef2b293
++  __TEXT.__swift5_builtin: 0x2e4 sha256:76a7b9d2479c6ef14681214baaac77dfa4f58c2e00f220e657ca4a4183b15671
++  __TEXT.__swift5_mpenum: 0x48 sha256:02e293aa8a2750fb452bcba5851fed5d84ebd74cdfee7e8e5cbcd288b1551c12
++  __TEXT.__swift_as_entry: 0x3c sha256:bd0b1b3acd4578ea6ddd5bbc220b1cf76375e34cb1b523c96b5826cb767a2087
++  __TEXT.__swift_as_ret: 0x34 sha256:cbcaff8076c9c6c7d151eb3a86e6dba522e5d52754519b4ebe2785d05b468eb3
++  __TEXT.__swift_as_cont: 0x6c sha256:bec44327f3cd676b3f6a09cf1cd953b55e16b66e839ce652ba58af6a5afb7d93
++  __TEXT.__swift5_assocty: 0x330 sha256:ff02b3bb47b5d14cd1064792349c48b4ab25ae0ccbc0cd7d7e8668b5e6ec0257
++  __TEXT.__unwind_info: 0x83c8 sha256:992868051f9d93d9e5de1c764c0521fa61ea207d57d86fa64cb07931f39c37bc
++  __TEXT.__eh_frame: 0x18a8 sha256:04b7eafff8348767b24439cd2584f93b5122730c129c0c7893e423edc2f0a827
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x3010 sha256:8ad174cf9c560f9930efc4d2ee3e1c46b0c5850eb08afa1af1bfb206731807e8
+-  __DATA_CONST.__objc_classlist: 0x970 sha256:302db9afb453e4c8a2a4cd377cc744c66d4b629441de1e05afafd1f05a7a6286
+-  __DATA_CONST.__objc_catlist: 0xa0 sha256:7affbc904be6e62e9c01e71bf50e96c3bf8ebf960de9c67d1dcdb1e2071c1ea3
+-  __DATA_CONST.__objc_protolist: 0x448 sha256:50e5b9dd36fbdcc3cffa9bef94c20a68dc970c8f794a8d79cd7e79d7e03e821b
++  __DATA_CONST.__const: 0x3010 sha256:3d97bef11d3aa3940718a55e95f082a188a80b434401202a1cc1dadf05bd7c30
++  __DATA_CONST.__objc_classlist: 0x990 sha256:c129892afca6573c9d153f774817664485975ef24144950bc3dbd4cbcd376b1f
++  __DATA_CONST.__objc_catlist: 0xa8 sha256:5ff1c01d065cfbdfbde2db757a1606ff6af3b9eb458771f50c30f8672f9ea8ca
++  __DATA_CONST.__objc_protolist: 0x468 sha256:9aab7d526f7e36ca4122a79c372a3ccb3f9b3f1558c9f2cf94fd1b8a0a48abf3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xa3f8 sha256:b6d99ac823fd37565bf58da900ff25240b02b68fe5b4fba25cbf4d3a286d4686
+-  __DATA_CONST.__objc_protorefs: 0x90 sha256:4bd452fe0fc900bd8071ebb08dd6e7f984f15e48ac1af798a6340add0a211804
+-  __DATA_CONST.__objc_superrefs: 0x608 sha256:a5b279276a2d9dffc53253fa5843557b26d833674da5c8cbb6c4bcab0415ebb5
+-  __DATA_CONST.__objc_arraydata: 0x1e8 sha256:b86e72477c1379235671e0707825d29d8bb5b1ebbf2d8a4d385252b3e46ca682
+-  __DATA_CONST.__got: 0x17b0 sha256:cc2e0155352a85f8cbf8ed963326b621ba4654e4980bc58286c96468f8c8d9c9
+-  __AUTH_CONST.__const: 0x9cf0 sha256:67081159eb2002664c845aae4c9c96f629a784e9fb6935ae4d0be5b39f3259fd
+-  __AUTH_CONST.__cfstring: 0x5120 sha256:e2c2b699b608f09870f0f95dbc4bda05a0367a016cc8150ae7de6346e4ac53eb
+-  __AUTH_CONST.__objc_const: 0x424c0 sha256:e64e226f69ba95fb6246a31dfce25940ad58d884a7c0ce709caf9bc4471f430d
+-  __AUTH_CONST.__objc_intobj: 0x2b8 sha256:45e1f24e89d31cf29c96abb464d2663a41b1cef59370fcf0504290206363e94c
+-  __AUTH_CONST.__objc_arrayobj: 0x138 sha256:c301a8a02e0bac65bb2282e901ce5839f4d046ffe4769c65abf79777742599a1
+-  __AUTH_CONST.__objc_doubleobj: 0xf0 sha256:7c1fb5ee02b149aba1c02813808a86801d0f5f10d7d02d3a31bea265aed87121
+-  __AUTH_CONST.__objc_dictobj: 0x140 sha256:2d787181cf44158d9209a378b4be6666b3a5f1683e12b9b80cdb71f8c07f4330
+-  __AUTH_CONST.__auth_got: 0x1fc8 sha256:0ae5b7dbf8caa4e9d5455ac761929e03100a72b909e4de82e1d399b5402e081e
+-  __AUTH.__objc_data: 0x2ee0 sha256:f508abf62c6c90b8f00f88a48b35574f01c0df6a1ce38f981e3928ef44520fdb
+-  __AUTH.__data: 0x10e0 sha256:229addd75eb8067526ad92ef1d7cad942894e02c12229bc88360f99b303b12d5
+-  __DATA.__objc_ivar: 0x1894 sha256:4081bab9b87857f94e3b988e9cf1acd6fc9ef5223ad2df3db03b332cfba27e33
+-  __DATA.__data: 0x3e10 sha256:5420056386f0dadd9f973d7583fdcb5fc202cacdddedebe4e092c3008c61d3ea
+-  __DATA.__bss: 0x82b8 sha256:c7c869ad0dbc4e4024d54d72e9eb81a75ee4a0cc19bd3565ba17f68e74dfab8b
++  __DATA_CONST.__objc_selrefs: 0xa4d8 sha256:dc8d2c3991e409c1fac51aa8c17121d91e2f246817fb47b98a8934dc688d0f8d
++  __DATA_CONST.__objc_protorefs: 0xa0 sha256:eadffd8677d38c191e2bc4201615720c83222563f58fe268f9a9ae07e3f499e4
++  __DATA_CONST.__objc_superrefs: 0x608 sha256:48795561c101c67249df38eac1c194a36b1e46556d5030314a06e19c1eb5578a
++  __DATA_CONST.__objc_arraydata: 0x1e8 sha256:013d93e854289217129b91d691f6c78efed6fe41692b56be338d9252e9d164ca
++  __DATA_CONST.__got: 0x17c0 sha256:e30c1953f3e3293a65ddfdcbe7eeccd2edad2966adea001fb9195a0755fc2510
++  __AUTH_CONST.__const: 0x9f00 sha256:b5d1cf46e32942274a8804a9c884807aa56e9517d0c981b88b86e6b2ba0e2251
++  __AUTH_CONST.__cfstring: 0x5120 sha256:7891379f3f3c562bd613dc5618bdce2d5e0a7a98a772f9e2349262cb39a21f93
++  __AUTH_CONST.__objc_const: 0x42c90 sha256:347b5ea66d4e03790057963cdd8a0f912e30c6300406a961f2517693958d2bb6
++  __AUTH_CONST.__objc_intobj: 0x2b8 sha256:19969616aea72b7d60e22cb8c5392c6cea659ebeecd00f5a92b51255ccac9768
++  __AUTH_CONST.__objc_arrayobj: 0x138 sha256:bc7d3ea798d94908916c6ffe9fac895bfc84ed7fc953435619698de42ebd44da
++  __AUTH_CONST.__objc_doubleobj: 0xf0 sha256:fd5732adf20a3107a96bdaeba7c5dab86d641dd3c34c6b8040266267a039294f
++  __AUTH_CONST.__objc_dictobj: 0x140 sha256:7731c50032d4a0f82814d3efde720523ef892c17b94db96b0c1a2388b0f8386c
++  __AUTH_CONST.__auth_got: 0x1f90 sha256:081a939f060acb24594e32ade266399354d59769fcbad7f84a86a3dbcf1bc5c2
++  __AUTH.__objc_data: 0x3218 sha256:2a90a11e69653225ad0b66cda9f76b43264368fa6a15b836c7adc0fc607f70c9
++  __AUTH.__data: 0x1188 sha256:b793fe557ab92d1496cbf92db66dd019986ad561a0970b391faf8b3491b0a24a
++  __DATA.__objc_ivar: 0x18a4 sha256:62e5a8cd1a15c60b845ba7d0d053927d5af5f0abf9d8d1d6b849b54fbaff2b2d
++  __DATA.__data: 0x3f60 sha256:199b70b44b0e12bf9b150149fbb1febc7da7175ed41e746535783a953eef30d7
++  __DATA.__bss: 0x8608 sha256:dee5bde55cf9044cdcda3d03930bd93c35d34fdcba7e5c4383a62b80999bde35
+   __DATA.__common: 0x4f8 sha256:94600cb3c84a56e19c1b2c2c5f61afca4ed6d8f2ce74f6869cfd2b44e8c09d95
+-  __DATA_DIRTY.__objc_data: 0x70e8 sha256:1ba6ed896faed1473eda3f0fb0042a3bbff0eca3853d110caaada0a244b42c2d
+-  __DATA_DIRTY.__data: 0x3308 sha256:edb38ea3190895c45d920f4781805e62d30c4a07938993423e3e9ce0aa37b312
+-  __DATA_DIRTY.__bss: 0x25c0 sha256:11cd7b919160aa32513c5d44f943f60e1ce942b084279099d92435e71255b087
+-  __DATA_DIRTY.__common: 0x9d0 sha256:15837dfa7859e2ae4b876e6f6489368c9c29354f908ed7d657bc9e476edcd5e4
++  __DATA_DIRTY.__objc_data: 0x70e8 sha256:9b5c8efa383256d5fd56a30c1c672e029239e5bcb5ca7db50a3ac85c4be31988
++  __DATA_DIRTY.__data: 0x3308 sha256:40afbdaf81defd67fef2c3d4ea90bcb6acf8619e184104e2be9d713abad0ecad
++  __DATA_DIRTY.__bss: 0x25b0 sha256:ec7ac57694cf4c92f38c669a473e7590c592bb7f5be555b924cfbac6384af97f
++  __DATA_DIRTY.__common: 0x9c0 sha256:51aadb57edfce4f29aabc0e32fd2e7df4644927dbd97e65b836be8589f4a9c4d
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AVRouting.framework/AVRouting
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ECEA8B63-29C6-3616-AC92-F4F9CC704C3D
+-  Functions: 13757
+-  Symbols:   25910
+-  CStrings:  2215
++  UUID: 0B74FF0B-E372-3233-8AB0-14996B375F08
++  Functions: 13856
++  Symbols:   25972
++  CStrings:  2229
+ 
+Symbols:
++ -[MRUEndpointController isCustomProtocolRoute]
++ -[MRULockscreenViewController viewDidMoveToWindow:shouldAppearOrDisappear:]
++ -[MRUMediaSuggestionsView didMoveToWindow]
++ -[MRUMediaSuggestionsView hasLimitedSize]
++ -[MRUMediaSuggestionsView setHasLimitedSize:]
++ -[MRUNowPlayingView updateForSizeClass]
++ -[MRUVolumeBackgroundView geometryProvider]
++ -[MRUVolumeBackgroundView setGeometryProvider:]
++ -[MRUVolumeBackgroundViewController contentModuleContext]
++ -[MRUVolumeBackgroundViewController setContentModuleContext:]
++ -[MRUVolumeView geometryProvider]
++ -[MRUVolumeView setGeometryProvider:]
++ -[MRUVolumeViewController contentModuleContext]
++ -[MRUVolumeViewController setContentModuleContext:]
++ _OBJC_CLASS_$_MRUCCUIGeometryUtilities
++ _OBJC_CLASS_$_NSNull
++ _OBJC_CLASS_$__TtC13MediaControls30InAppRoutePickerBackgroundView
++ _OBJC_CLASS_$__TtCC13MediaControls30InAppRoutePickerBackgroundView7DimView
++ _OBJC_CLASS_$__TtCC13MediaControls30InAppRoutePickerBackgroundView8BlurView
++ _OBJC_IVAR_$_MRUMediaSuggestionsView._hasLimitedSize
++ _OBJC_IVAR_$_MRUVolumeBackgroundView._geometryProvider
++ _OBJC_IVAR_$_MRUVolumeBackgroundViewController._contentModuleContext
++ _OBJC_IVAR_$_MRUVolumeView._geometryProvider
++ _OBJC_IVAR_$_MRUVolumeViewController._contentModuleContext
++ _OBJC_METACLASS_$_MRUCCUIGeometryUtilities
++ _OBJC_METACLASS_$__TtC13MediaControls30InAppRoutePickerBackgroundView
++ _OBJC_METACLASS_$__TtC13MediaControlsP33_79FE463E04BCE6831246FFB905280E0443InAppRoutePickerBackgroundAnimationDelegate
++ _OBJC_METACLASS_$__TtCC13MediaControls30InAppRoutePickerBackgroundView7DimView
++ _OBJC_METACLASS_$__TtCC13MediaControls30InAppRoutePickerBackgroundView8BlurView
++ __CATEGORY_INSTANCE_METHODS_UIViewController_$_MediaControls
++ __CATEGORY_UIViewController_$_MediaControls
++ __CLASS_METHODS_MRUCCUIGeometryUtilities
++ __DATA_MRUCCUIGeometryUtilities
++ __DATA__TtC13MediaControls30InAppRoutePickerBackgroundView
++ __DATA__TtC13MediaControlsP33_79FE463E04BCE6831246FFB905280E0443InAppRoutePickerBackgroundAnimationDelegate
++ __DATA__TtCC13MediaControls30InAppRoutePickerBackgroundView7DimView
++ __DATA__TtCC13MediaControls30InAppRoutePickerBackgroundView8BlurView
++ __INSTANCE_METHODS_MRUCCUIGeometryUtilities
++ __INSTANCE_METHODS__TtC13MediaControls30InAppRoutePickerBackgroundView
++ __INSTANCE_METHODS__TtC13MediaControlsP33_79FE463E04BCE6831246FFB905280E0443InAppRoutePickerBackgroundAnimationDelegate
++ __INSTANCE_METHODS__TtCC13MediaControls30InAppRoutePickerBackgroundView7DimView
++ __INSTANCE_METHODS__TtCC13MediaControls30InAppRoutePickerBackgroundView8BlurView
++ __IVARS__TtC13MediaControls30InAppRoutePickerBackgroundView
++ __IVARS__TtCC13MediaControls30InAppRoutePickerBackgroundView7DimView
++ __IVARS__TtCC13MediaControls30InAppRoutePickerBackgroundView8BlurView
++ __METACLASS_DATA_MRUCCUIGeometryUtilities
++ __METACLASS_DATA__TtC13MediaControls30InAppRoutePickerBackgroundView
++ __METACLASS_DATA__TtC13MediaControlsP33_79FE463E04BCE6831246FFB905280E0443InAppRoutePickerBackgroundAnimationDelegate
++ __METACLASS_DATA__TtCC13MediaControls30InAppRoutePickerBackgroundView7DimView
++ __METACLASS_DATA__TtCC13MediaControls30InAppRoutePickerBackgroundView8BlurView
++ __OBJC_$_INSTANCE_METHODS_UITraitCollection(MediaControls|MediaControls)
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_CABackdropLayerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_CALayerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CABackdropLayerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CALayerDelegate
++ __OBJC_$_PROTOCOL_REFS_CABackdropLayerDelegate
++ __OBJC_$_PROTOCOL_REFS_CALayerDelegate
++ __OBJC_LABEL_PROTOCOL_$_CABackdropLayerDelegate
++ __OBJC_LABEL_PROTOCOL_$_CALayerDelegate
++ __OBJC_PROTOCOL_$_CABackdropLayerDelegate
++ __OBJC_PROTOCOL_$_CALayerDelegate
++ __PROTOCOLS__TtC13MediaControlsP33_79FE463E04BCE6831246FFB905280E0443InAppRoutePickerBackgroundAnimationDelegate
++ __PROTOCOLS__TtC13MediaControlsP33_79FE463E04BCE6831246FFB905280E0443InAppRoutePickerBackgroundAnimationDelegate.8
++ ___41-[MRURoutingViewController _applyUpdate:]_block_invoke.326
++ ___41-[MRURoutingViewController _applyUpdate:]_block_invoke.334
++ ___41-[MRURoutingViewController _applyUpdate:]_block_invoke_2.327
++ ___41-[MRURoutingViewController _applyUpdate:]_block_invoke_3.329
++ ___41-[MRURoutingViewController _applyUpdate:]_block_invoke_4.330
++ ___50-[MRUVendorSpecificDeviceManager connectToDevice:]_block_invoke.121
++ ___50-[MRUVendorSpecificDeviceManager connectToDevice:]_block_invoke.122
++ ___50-[MRUVendorSpecificDeviceManager connectToDevice:]_block_invoke.125
++ ___54-[MRUVendorSpecificDeviceManager disconnectAllDevices]_block_invoke.129
++ ___54-[MRUVendorSpecificDeviceManager handleResolverEvent:]_block_invoke.137
++ ___65-[MRURoutingViewController playingSessionsDidChangeNotification:]_block_invoke.276
++ ___66-[MRURoutingViewController handleGroupSessionJoinWithPickedRoute:]_block_invoke.301
++ ___67-[MRURoutingViewController selectRoutes:operation:routingViewItem:]_block_invoke.374
++ ___block_literal_global.120
++ ___block_literal_global.124
++ ___block_literal_global.131
++ ___block_literal_global.133
++ ___block_literal_global.294
++ ___block_literal_global.298
++ ___block_literal_global.309
++ ___block_literal_global.312
++ ___block_literal_global.324
++ ___block_literal_global.346
++ ___block_literal_global.351
++ ___block_literal_global.377
++ ___block_literal_global.84
++ ___block_literal_global.86
++ ___block_literal_global.88
++ _associated conformance 13MediaControls30InAppRoutePickerBackgroundViewC5StyleO8FadeEdgeOSHAASQ
++ _kCAFilterInputSourceSublayerName
++ _kCAFilterVariableBlur
++ _objc_msgSend$_referenceBounds
++ _objc_msgSend$colors
++ _objc_msgSend$contentModuleContext
++ _objc_msgSend$defaultExpandedContentModuleWidth
++ _objc_msgSend$expandedContentInsetsForGeometryProvider:traitCollection:
++ _objc_msgSend$expandedModuleEdgeInsetsForInterfaceOrientation:
++ _objc_msgSend$greenColor
++ _objc_msgSend$horizontalScreenInsetForView:
++ _objc_msgSend$installMediaControlsTraits
++ _objc_msgSend$isCustomProtocolRoute
++ _objc_msgSend$isPortraitOrientationForGeometryProvider:
++ _objc_msgSend$isSmallScreenDevice
++ _objc_msgSend$locations
++ _objc_msgSend$outputDevicesSnapshot
++ _objc_msgSend$setGeometryProvider:
++ _objc_msgSend$setHasLimitedSize:
++ _objc_msgSend$sliderExpandedContentModuleHeight
++ _objc_msgSend$sliderExpandedContentModuleWidth
++ _objc_msgSend$sliderExpandedModuleContinuousCornerRadius
++ _objc_msgSend$verticalScreenInsetForView:
++ _symbolic So15CABackdropLayerC
++ _symbolic So15CAGradientLayerCSg
++ _symbolic _____ 13MediaControls30ControlCenterGeometryUtilitiesC
++ _symbolic _____ 13MediaControls30InAppRoutePickerBackgroundViewC
++ _symbolic _____ 13MediaControls30InAppRoutePickerBackgroundViewC03DimH0C
++ _symbolic _____ 13MediaControls30InAppRoutePickerBackgroundViewC04BlurH0C
++ _symbolic _____ 13MediaControls30InAppRoutePickerBackgroundViewC04BlurH0C4ModeO
++ _symbolic _____ 13MediaControls30InAppRoutePickerBackgroundViewC5StyleO
++ _symbolic _____ 13MediaControls30InAppRoutePickerBackgroundViewC5StyleO8FadeEdgeO
++ _symbolic _____ 13MediaControls43InAppRoutePickerBackgroundAnimationDelegate030_79FE463E04BCE6831246FFB905280K0LLC
++ _symbolic _____Sg 13MediaControls30InAppRoutePickerBackgroundViewC03DimH0C
++ _symbolic _____Sg 13MediaControls30InAppRoutePickerBackgroundViewC04BlurH0C
+- -[MRUMediaSuggestionsView contentScale]
+- -[MRUMediaSuggestionsView setContentScale:]
+- GCC_except_table31
+- _CCUIItemEdgeSize
+- _CCUILayoutGutter
+- _CCUILayoutShouldBePortrait
+- _CCUIReferenceScreenBounds
+- _CCUIScreenBounds
+- _CCUISliderExpandedContentModuleHeight
+- _CCUISliderExpandedContentModuleWidth
+- _CCUISliderExpandedModuleContinuousCornerRadius
+- _CGFloatIsValid
+- _MRUDefaultExpandedWidth
+- _MRUExpandedContentInsets
+- _MRUExpandedContentInsets.cold.1
+- _MRUExpandedTallWidth
+- _MRUExpandedWideWidth
+- _MRUHorizontalScreenInset
+- _MRUIsSmallScreen
+- _MRUIsSmallScreen.__isSmallScreen
+- _MRUIsSmallScreen.cold.1
+- _MRUIsSmallScreen.onceToken
+- _MRUIsSmallScreenWithScale
+- _MRUIsSmallScreenWithScale.__isPhone
+- _MRUIsSmallScreenWithScale.__referenceScreenBounds.0
+- _MRUIsSmallScreenWithScale.__referenceScreenBounds.1
+- _MRUIsSmallScreenWithScale.__referenceScreenBounds.2
+- _MRUIsSmallScreenWithScale.__referenceScreenBounds.3
+- _MRUIsSmallScreenWithScale.cold.1
+- _MRUIsSmallScreenWithScale.onceToken
+- _MRUVerticalScreenInset
+- _OBJC_IVAR_$_MRUMediaSuggestionsView._contentScale
+- _OBJC_METACLASS_$__TtC13MediaControlsP33_F10E2EE4A69D0F86BEFB6F858320AEC030InAppRoutePickerBackgroundView
+- __DATA__TtC13MediaControlsP33_F10E2EE4A69D0F86BEFB6F858320AEC030InAppRoutePickerBackgroundView
+- __INSTANCE_METHODS__TtC13MediaControlsP33_F10E2EE4A69D0F86BEFB6F858320AEC030InAppRoutePickerBackgroundView
+- __IVARS__TtC13MediaControlsP33_F10E2EE4A69D0F86BEFB6F858320AEC030InAppRoutePickerBackgroundView
+- __METACLASS_DATA__TtC13MediaControlsP33_F10E2EE4A69D0F86BEFB6F858320AEC030InAppRoutePickerBackgroundView
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_UITraitCollection_$_MediaControls
+- __OBJC_$_PROP_LIST_UITraitCollection_$_MediaControls
+- ___41-[MRURoutingViewController _applyUpdate:]_block_invoke.320
+- ___41-[MRURoutingViewController _applyUpdate:]_block_invoke.328
+- ___41-[MRURoutingViewController _applyUpdate:]_block_invoke_2.321
+- ___41-[MRURoutingViewController _applyUpdate:]_block_invoke_3.323
+- ___41-[MRURoutingViewController _applyUpdate:]_block_invoke_4.324
+- ___50-[MRUVendorSpecificDeviceManager connectToDevice:]_block_invoke.115
+- ___50-[MRUVendorSpecificDeviceManager connectToDevice:]_block_invoke.116
+- ___50-[MRUVendorSpecificDeviceManager connectToDevice:]_block_invoke.119
+- ___54-[MRUVendorSpecificDeviceManager disconnectAllDevices]_block_invoke.123
+- ___54-[MRUVendorSpecificDeviceManager handleResolverEvent:]_block_invoke.131
+- ___65-[MRURoutingViewController playingSessionsDidChangeNotification:]_block_invoke.270
+- ___66-[MRURoutingViewController handleGroupSessionJoinWithPickedRoute:]_block_invoke.295
+- ___67-[MRURoutingViewController selectRoutes:operation:routingViewItem:]_block_invoke.368
+- ___MRUIsSmallScreenWithScale_block_invoke
+- ___MRUIsSmallScreen_block_invoke
+- ___block_literal_global.114
+- ___block_literal_global.118
+- ___block_literal_global.121
+- ___block_literal_global.125
+- ___block_literal_global.2
+- ___block_literal_global.288
+- ___block_literal_global.292
+- ___block_literal_global.303
+- ___block_literal_global.306
+- ___block_literal_global.318
+- ___block_literal_global.340
+- ___block_literal_global.345
+- ___block_literal_global.371
+- ___block_literal_global.78
+- ___block_literal_global.80
+- ___block_literal_global.82
+- _objc_msgSend$routingItemShowMoreTitle
+- _symbolic _____ 13MediaControls30InAppRoutePickerBackgroundView33_F10E2EE4A69D0F86BEFB6F858320AEC0LLC
+- _symbolic _____Sg_ABt 12MediaControl15RoutingControlsV022RequestAdditionalItemsB0V
+CStrings:
++ "1!"
++ "B"
++ "MediaControls/InAppRoutePickerBackgroundView+BlurView.swift"
++ "[%s] backgroundStyle=%s"
++ "[%s] contentFrame=%s"
++ "[%s] mode=%s"
++ "[%s] style=%s"
++ "cayenne.backgroundBlur.allEdgesPadding"
++ "cayenne.backgroundBlur.featherMaskGaussianRadius"
++ "cayenne.backgroundBlur.featherMaskInset"
++ "cayenne.backgroundBlur.singleEdgePadding"
++ "cayenne.showsBlurMaskDebugView"
++ "cayenne.showsBlurTrackingDebugView"
++ "\x81"
++ "\x91"
+- "[%s] isActive=%{bool}d"
+
+```

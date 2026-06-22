@@ -1,0 +1,68 @@
+## ChatKit
+
+> `FileSystem/System/Library/PrivateFrameworks/ChatKit.framework/ChatKit.loctable`
+
+```diff
+
+ en.ASSISTANT_ACTION_SUGGESTION_COUNT.actions.one = "%llu Suggested Action"
+ en.ASSISTANT_ACTION_SUGGESTION_COUNT.actions.other = "%llu Suggested Actions"
+ en.ASSISTANT_ACTION_SUGGESTION_COUNT.actions.zero = "Suggested Actions"
++en.ASSISTANT_ACTION_SUGGESTION_GENERIC_ERROR_ALERT = "Something went wrong. Please try again."
+ en.ATTACHMENT = "Attachment: "
+ en.ATTACHMENTS = "Attachments: "
+ en.ATTACHMENTS_INDEXING_MESSAGE = "More attachments will be shown once Messages finishes indexing."
+
+ en.IMESSAGE_KT_WAITING_FOR_CLOUD_NOTIFICATION_IGNORE = "Ignore"
+ en.IMESSAGE_KT_WAITING_FOR_CLOUD_NOTIFICATION_SETTINGS = "Settings"
+ en.IMESSAGE_KT_WAITING_FOR_CLOUD_NOTIFICATION_VIEW_SETTINGS = "View Details in Settings"
++en.IMESSAGE_MIC_ACCOUNT_REPAIR_NOTIFICATION_DESCRIPTION.NSStringDeviceSpecificRuleType.applevision = "New messages won’t be restored if you replace this Apple Vision Pro or set up a new one."
++en.IMESSAGE_MIC_ACCOUNT_REPAIR_NOTIFICATION_DESCRIPTION.NSStringDeviceSpecificRuleType.applewatch = "New messages won’t be restored if you replace this Apple Watch or set up a new one."
++en.IMESSAGE_MIC_ACCOUNT_REPAIR_NOTIFICATION_DESCRIPTION.NSStringDeviceSpecificRuleType.ipad = "New messages won’t be restored if you replace this iPad or set up a new one."
++en.IMESSAGE_MIC_ACCOUNT_REPAIR_NOTIFICATION_DESCRIPTION.NSStringDeviceSpecificRuleType.iphone = "New messages won’t be restored if you replace this iPhone or set up a new one."
++en.IMESSAGE_MIC_ACCOUNT_REPAIR_NOTIFICATION_DESCRIPTION.NSStringDeviceSpecificRuleType.ipod = "New messages won’t be restored if you replace this iPod or set up a new one."
++en.IMESSAGE_MIC_ACCOUNT_REPAIR_NOTIFICATION_DESCRIPTION.NSStringDeviceSpecificRuleType.mac = "New messages won’t be restored if you replace this Mac or set up a new one."
++en.IMESSAGE_MIC_ACCOUNT_REPAIR_NOTIFICATION_HEADER = "Not Syncing to iCloud"
++en.IMESSAGE_MIC_ACCOUNT_REPAIR_NOTIFICATION_REPAIR = "Update Apple Account Settings"
+ en.IMESSAGE_REGISTRATION_BLURB = "Sign in with your Apple Account\nto activate iMessage."
+ en.IMESSAGE_REGISTRATION_BLURB_GREENTEA = "Sign in with your Apple Account to activate iMessage.\niMessage uses wireless data to send messages between\nApple Watch, iPhone, iPad, and Mac."
+ en.IMESSAGE_REGISTRATION_BLURB_NO_NEWLINE = "Sign in with your Apple Account to activate iMessage."
+
+ en.NEW_MESSAGES_FORMAT.Messages.other = "%lu New Messages"
+ en.NEW_MESSAGES_FORMAT.Messages.zero = "No New Messages"
+ en.NEW_MESSAGES_FORMAT.NSStringLocalizedFormatKey = "%#@Messages@"
+-en.NEW_MESSAGES_WONT_BE_RESTORED_IF_YOU_REPLACE_THIS_DEVICE.NSStringDeviceSpecificRuleType.applevision = "New messages won’t be restored if you replace this Apple Vision Pro or set up a new one."
+-en.NEW_MESSAGES_WONT_BE_RESTORED_IF_YOU_REPLACE_THIS_DEVICE.NSStringDeviceSpecificRuleType.applewatch = "New messages won’t be restored if you replace this Apple Watch or set up a new one."
+-en.NEW_MESSAGES_WONT_BE_RESTORED_IF_YOU_REPLACE_THIS_DEVICE.NSStringDeviceSpecificRuleType.ipad = "New messages won’t be restored if you replace this iPad or set up a new one."
+-en.NEW_MESSAGES_WONT_BE_RESTORED_IF_YOU_REPLACE_THIS_DEVICE.NSStringDeviceSpecificRuleType.iphone = "New messages won’t be restored if you replace this iPhone or set up a new one."
+-en.NEW_MESSAGES_WONT_BE_RESTORED_IF_YOU_REPLACE_THIS_DEVICE.NSStringDeviceSpecificRuleType.ipod = "New messages won’t be restored if you replace this iPod or set up a new one."
+-en.NEW_MESSAGES_WONT_BE_RESTORED_IF_YOU_REPLACE_THIS_DEVICE.NSStringDeviceSpecificRuleType.mac = "New messages won’t be restored if you replace this Mac or set up a new one."
+ en.NEW_MESSAGE_PROMPT = "Choose a contact to text message"
+ en.NEW_MESSAGE_TO = "New Message to %@"
+ en.NEW_SENDER_BANNER_TITLE = "Add to Contacts"
+
+ en.SAVE_COUNT_VIDEO.format.one = "Save %tu Video"
+ en.SAVE_COUNT_VIDEO.format.other = "Save %tu Videos"
+ en.SAVE_GENMOJI_CONTEXT_MENU_ACTION_TITLE = "Save Genmoji"
++en.SAVE_GENMOJI_PLURAL_CONTEXT_MENU_ACTION_TITLE.NSStringLocalizedFormatKey = "%#@count@"
++en.SAVE_GENMOJI_PLURAL_CONTEXT_MENU_ACTION_TITLE.count.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++en.SAVE_GENMOJI_PLURAL_CONTEXT_MENU_ACTION_TITLE.count.NSStringFormatValueTypeKey = "lu"
++en.SAVE_GENMOJI_PLURAL_CONTEXT_MENU_ACTION_TITLE.count.one = "Save Genmoji"
++en.SAVE_GENMOJI_PLURAL_CONTEXT_MENU_ACTION_TITLE.count.other = "Save %lu Genmoji"
+ en.SAVE_IMAGE = "Save Image"
+ en.SAVE_IMAGES = "Save %@ Images"
+ en.SAVE_LOW_QUALITY_PREVIEW = "Save Low Quality Preview"
+
+ en.SAVE_SINGLE_ITEM = "Save Item"
+ en.SAVE_SINGLE_PHOTO = "Save Photo"
+ en.SAVE_SINGLE_VIDEO = "Save Video"
++en.SAVE_STICKER_CONTEXT_MENU_ACTION_TITLE = "Save Sticker"
++en.SAVE_STICKER_PLURAL_CONTEXT_MENU_ACTION_TITLE.NSStringLocalizedFormatKey = "%#@count@"
++en.SAVE_STICKER_PLURAL_CONTEXT_MENU_ACTION_TITLE.count.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++en.SAVE_STICKER_PLURAL_CONTEXT_MENU_ACTION_TITLE.count.NSStringFormatValueTypeKey = "lu"
++en.SAVE_STICKER_PLURAL_CONTEXT_MENU_ACTION_TITLE.count.one = "Save Sticker"
++en.SAVE_STICKER_PLURAL_CONTEXT_MENU_ACTION_TITLE.count.other = "Save %lu Stickers"
+ en.SAVE_STORAGE_ON_YOUR_DEVICE_WHEN_YOU_MOVE_OLDER_PHOTOS_TO_ICLOUD = "Save storage on your device when you move older photos to iCloud."
+ en.SAVE_SYNDICATED_PHOTO = "Save"
+ en.SAVE_TO_DOWNLOADS = "Save to Downloads"
+
+```

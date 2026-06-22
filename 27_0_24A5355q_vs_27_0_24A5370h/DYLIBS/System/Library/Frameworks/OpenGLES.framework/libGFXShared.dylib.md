@@ -1,0 +1,112 @@
+## libGFXShared.dylib
+
+> `/System/Library/Frameworks/OpenGLES.framework/libGFXShared.dylib`
+
+```diff
+
+ 24.0.1.0.0
+-  __TEXT.__text: 0x6518 sha256:3f6467538317672ccc34bb86f9e5d6e3126eb9efbf3a957f215e6245caa47c92
++  __TEXT.__text: 0x6598 sha256:e269c7a741a3413932ec9f39fd46f0d8d86a9844179100cda975d8d059954e78
+   __TEXT.__cstring: 0x1b8a sha256:cf3fbfa30a9fa9e482f8610f45a2e328e9f40e456b112f59652549f432a9f4e4
+   __TEXT.__const: 0x40 sha256:16938af99599167f7621ec14744d50993625d1b890e8fbac191ec5ee9efa7c5a
+-  __TEXT.__unwind_info: 0x178 sha256:488f6105b1b262965f3e6d4bc9de2e59703de3a4b40e4ff926665ffadeb4603c
++  __TEXT.__unwind_info: 0x180 sha256:3619734386e38f726bfb3acd2791412da50d50b221c88c95b35850644c1fe6f9
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x4a0 sha256:14730b492ba82411ba4e1531ee3e4962d93b52c951fcaadcaeb784c4ba935aed
++  __DATA_CONST.__const: 0x4a0 sha256:420c22cd7a19322deba2efe783237b363341d3d2f7d116ae688381740a3bc307
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x40 sha256:87955be77eeda863781452f039df93956ac4198e4abcdf3b65be1e895fca6595
+-  __AUTH_CONST.__cfstring: 0x380 sha256:01885ce05d8b16b33a03e8e05c4432cd929446bbd14f99951b07e707682b1c80
++  __AUTH_CONST.__const: 0x40 sha256:1bf87dde4f8ce24acdf2d15ffcdfa2ad541d4306e695b3a17f0ebce98deb22f8
++  __AUTH_CONST.__cfstring: 0x380 sha256:209c7155ee7c0d5d8726d82225036e8966b81de5ec1a1510780434bede9a640a
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__common: 0xac sha256:58f218aeb259309eeb545345a8f5c715987967b0ec724806d448394da578d0b0
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 680BFA3A-7B6B-3BED-B3FB-9A669F5F6F96
++  UUID: 2A5BB02B-7C09-3B5E-8F7E-E27D935DDA6B
+   Functions: 104
+   Symbols:   203
+   CStrings:  415
+Functions:
+~ _gfxInitializeBufferObject : 152 -> 164
+~ _gfxWaitPluginBuffer : 112 -> 108
+~ _gfxWaitBufferOnDevices : 132 -> 128
+~ _gfxCreatePluginBuffer : 124 -> 120
+~ _gfxDestroyPluginBuffer : 120 -> 108
+~ _gfxFreeBufferObjectStorage : sha256 45042225270e66cc16f447e8f1cef59bc52d16513d0cfab477fa30e8fd8274cc -> 1dbb641f62edd8e8041cdca4441db1718b1d24a0f14eea99975c87081edcfd48
+~ _gfxInitializeLibrary : 2164 -> 2156
+~ ___gfxInitializeLibrary_block_invoke : sha256 2627b3d903f3e7808a8605702c096cd265294d9beb8d5cd6149e571d6df3dec0 -> cabfb73b4028acf41cd89976e0fa074fdcad66a97c82c93246281441f6683b91
+~ _gfxReleaseLibrary : sha256 94a496e81eb93b69f783de7b9881c9a7b3deb1485b50827af051c1927bcb7c80 -> 129291eb6e995ddb3142e301cc45b2df3d8537558ebad5b2567d373190510c14
+~ _gfxGetPlugins : sha256 cf7c189e289663d2a7aada7efa83eae4e0e03f3440de57851c4214ace76a4739 -> 3b8cfbd0da2b5899a23df30a909881969b569c13231ff3e629fb12fa3dd3cf94
+~ _gfxGetDevices : sha256 ec0d53b7b91f399a7985e5a579a62fbb037c5c70c81b0620d10657bebde7476e -> 06467496fcc9239515ca527e87b36b7cf2501442b51d4e514d3aefd4c238c2fb
+~ _gfxGetPluginWithDriverID : sha256 eaf2fa9c03295a7d5cd36427ea91978e702b53c4946bf51078f976a933d49b2f -> 42d4d4e24ca75a75a752a76d90c9fbe9a24283852b9b64a60052b08b41ff9aa3
+~ _gfxGetDeviceWithDeviceID : sha256 d2650a84ed1bf47efff817b44e3c21844085926d6b38435cac9517775fb576ee -> 272fbd094d5598c28199648c116ff73345d5b93ac5ea0f4d7d531f674de562cc
+~ _gfxDeleteDevice : sha256 fcf0e86d3414fb57e18aa985c12a0932a68a436a5929bd9fd663948310f48d9b -> 56b39f54fd3fff188361e3214b0a7a63fc9771a95ad0cf5e35dbc7e8fea414b5
+~ _gfxDeletePlugin : sha256 6a9a804deb7b22e7822704c9e3cbfd7e7f1221493f6cee6a91f02856cd1aa741 -> 9bd6d29bd8e6146dee2e3bae6b823cb481f34991283d5d38109b4c07fe1a5d97
+~ _gfxPluginDisconnect : sha256 13fe5ca92ed4e5adb55e5a8c64c25f4fafa0facc55fca070d82e155d4a58fe11 -> 1396c2288237b9712a489114e942cf2be6faf47de84203eb7e494616b2a78527
+~ _gfxAddDevice : sha256 598f418c1c44c876534323a62713074875a39638bac274f6387babcd56655ddf -> b3dfa4c7ee7c21402cd9017df9d3272bb609399716348309e5be6ed54a5e771d
+~ _gfxAddPlugin : sha256 9d92c7e46c6947ec5e249f08fa624c899c43821328a50a46fb94caa4e180c538 -> 6883962fa99329f45bec7a6699e112e1e2109245ba75a3e102a2283922700e2b
+~ _gfxIODataGetSurfaceProperties : sha256 4a3b1e0d873331ef58ed743aed0523ef4d4c7ace40f9316c5299f49e7e6a1b84 -> 56ec6b2ea3897611e85cf9a3058b0cdef7029e9757ee045676e8f1bc8256dfbd
+~ _gfxIODataGetNewSurface : sha256 c8e87b3b0acc268505a768eb9e688fab5a13f714422f42ee621f8f4366c2dfc8 -> 4eb8af4eb211e0ff770d3eeb7c4443d41e97e93568a44f46fc61b4a9ee11b988
+~ _gfxLibAlloc : sha256 81d47ac9aba59963c5d188b36d96e716050bcaa4eac0da550e51ed3d6ec69565 -> 7e9f95a8e9b786a258e8bbbf8c401a4299e3a2a08f5d6aca84658eea30d6dbb9
+~ _gfxLibCalloc : sha256 37a3fedcc2f7b1a5d47e5f9391327a04c0beaadfee6cc5b1bdc775abfbeb2a5b -> ef183fa3138cbfeecc0c6ee9f7eae4d6f0fd7b05eae637b98cfe135eb0269063
+~ _gfxLibFree : sha256 3de02688fe9932f769959a950c16106f08251378ca7efdeb72c1f537e763c68d -> fb5bf0830dc7c0c743272e96c957b808dd5b6944f954e3c425eec3cd944482e0
+~ _GetShareList : sha256 7d19838b22a8e387d475c571a625dae5c3c73e886c2bdd8d2ff9db741d9b4b0f -> fb1f244fc0f04af9759fd1407855b60506a43ac3c02292a307b9fc4e4cbec50c
+~ _InitSharedListOnce : sha256 e88e9cab483bb5ddc1eed2057c4a38a709d4b51a974a52ae9039af4d727479c0 -> b9aef0df7585e6f6dab9ce5f0e81b8a969be29028b8d4ff18b00e05b6828d6cb
+~ _gfxCreateSharedState : 472 -> 448
+~ _gfxGetGLDShareGroupForDeviceID : 56 -> 64
+~ _gfxCompareSharedState : 96 -> 100
+~ _gfxDestroySharedState : sha256 ba94a7885276a22c5e5a7ce0a704ccb6888f872df1e489ad69f7cae61286d990 -> 1b0f4a16e7e66fa8d3c7c3596f8755d80e26428698b832afc112b3445fb55994
+~ _gfxRetainSharedState : sha256 45359a2bb5717407de7fbbd2f55b0cda2c574cc510c5850e92938d1acb5acb3f -> 7567f0cf11c1fbbc5fda0244296dd3d778a215ed8e60d23121566ff787cfd74a
+~ _gfxRetainSharedStateAndHash : 192 -> 200
+~ _gfxReleaseSharedState : sha256 f1e7ec6f47d987082159becccaf1bdd34ea60fbfe1038bf50a3e9036e02af715 -> fdb2ece4e29eface6b371a9d54271ed267e6e05adf47b284580973c27347042c
+~ _gfxReleaseSharedStateAndHash : sha256 792dd2de6496a0197818cdce7dbfef585caddc77953cdd208ec982e8809152bd -> 16a324e18366a27a9b37a0b46456337f9ae40b458caa209d550ff3b2fb40e77c
+~ _gfxFindGFXTextureForName : sha256 12096db683cd95302a6305766776946756da9e2681d04d16ecb464599c062785 -> d7b63d5bd2f66909246b1af62aaaa54d67154f734f398c74b223f6e65c3eb3f2
+~ _gfxFindGFXBufferForName : sha256 365d933eae339c6541d70048f33ba3cca7519bcd39d81449be1e1578478e50be -> 3dc5ec3e13a9ff0bb3866c8781bbd57e32ffeab9846ed6f756c7ed814c31284e
+~ _gfxFindGFXRenderBufferForName : sha256 73bbfb9632732669d6f806bc6e1f2758802e191bc7d1ea7b3c2b2acf7dcd7b58 -> f58af95029af7bb1f4a067bc3d93f1ea5ee5b1a10542de71835f13d2ee213c7f
+~ _gfxFindGFXSyncForName : sha256 243e45ee5fedc9997bbd2e9bf444963bd5f747766f1b41b6fe290df50f06c208 -> bb0df91725d095452d523168096a7085ed278f353b7ce15e7cb4c885fbac071e
+~ _gfxRetainTextureObject : sha256 605136db47ebe397d403239aa7b0ffda07e56c69fdca6b38be10350f0ff8d2f1 -> 34811fde08c59f8ad9bbbef162363da900e9fbb75f0e6f76ea376cc541fb317e
+~ _gfxReleaseTextureObject : sha256 163117c89c77db8ac17ac7e30eedd4f13029c775538619d2ae57a0d36e4ba08a -> 7bec29afcf33bac5955e550bc51301426f852ac0339481d92d9817b42e37903b
+~ _gfxRetainBufferObject : sha256 4375f49187d290ab23b2e004afa3d90471219b02ecb0ae5981d2f475830c0450 -> c9b4704440b8fda346a2b10e28e1f17f01616f9f4b23af998274bcdadc1fd48f
+~ _gfxReleaseBufferObject : sha256 ac09013cc83b4d29a4f5cd19f9a5bb94167cc66f68b711d85147d188143d43e2 -> 97d0140476fec970bb1912f58fb29b7dec91622c686d6a58498824d2b3fdb1d5
+~ _gfxRetainSyncObject : sha256 ab5a39b9390132ec181d970947510f199713704a47c5ac4db8091afba4ffa950 -> fa39ba43052b4505192d199d46452fcab6801fa44ed43d76dcd4ed8196894b3c
+~ _gfxReleaseSyncObject : sha256 11db274f3aff68313f29ee15adfad28be3066e88511f991411b3894c821ca405 -> 88e0c9925f0a1e418c9131f96eb906ecbccb0cc1a9947ee81ec51594eea96642
+~ _gfxSharedHasFloatRenderer : 60 -> 76
+~ _gfxInitializeGLSamplerState : sha256 7b395f2e3be979646a81a9aff71e15a7db620301bab680e7169b9a673b9b249f -> adeaa5c2384bbcd5e70e4e6cea223598c1b77f21a79c99016a85168deaf8f43a
+~ _gfxInitializeGLTexture : 928 -> 952
+~ _gfxCreatePluginTexture : 172 -> 164
+~ _gfxDestroyPluginTexture : 136 -> 144
+~ _gfxGetGLDTextureForDeviceID : 56 -> 68
+~ _gfxTextureLevelBytes : sha256 a73e26ff012a89d97db84a9db9b1d3cbc762bde6d889bc7c775c032eb87dab86 -> 8a86e8422f75ff393ce5d5f0187a3b3b1b0520a219809b74109adf3f709d5b92
+~ _gfxAllocateTextureLevel : sha256 d49d156b0fd757e8a7d06be597eca279b29d889b97b3d3381bba0785c685b571 -> bf36b36cab0755dbb67475e883933a96d44186c966259b9957b3d9ed6c46f54c
+~ _gfxFreeTextureLevel : sha256 4121f93b37e88cbd2cd355ebae16ef6fb1b7b420dce475f24d8edb26c152e572 -> 0d155809d76602f9c0eaf18f052424706a110aec67b704bdd136ddbdec910bf7
+~ _gfxWaitPluginTexture : 112 -> 108
+~ _gfxWaitTextureOnDevices : 132 -> 128
+~ _gfxSynchronizeTexLevelStorage : 320 -> 304
+~ _gfxModifyPluginTextureLevel : 144 -> 152
+~ _gfxEvaluateTextureForParameterChange : 1148 -> 1164
+~ _gfxEvaluateTextureCore : 740 -> 764
+~ _gfxUpdateTextureForParameterChange : sha256 bf2942e616a1c90e7ff3443bad539846614b26c98e2a1bfd45800f789aa1ac13 -> a91dce5164886a3f29daa922b0e3c6b8e1e7f0a2dbf4cfd0db2881dc7216f37e
+~ _gfxEvaluateTextureForGeometryChange : 2052 -> 2088
+~ _gfxUpdateTextureForGeometryChange : 636 -> 676
+~ _gfxUpdatePluginTextureLevelGeometry : sha256 00f6715fd67168e06ef7df6c95bc5d86fb98bf459638420879a8f90d782578c6 -> ebfe87c914e650ff337e30ea589b52ceba2f3be564fed1e7c292483bab2ca075
+~ _gfxAnnotateTexture : 340 -> 336
+~ _CreateAnnotateDictionary : sha256 9c631d564fea7ee374af31456d0ed58beb3b0311e3af2d885835f520c719d2f0 -> f6c767af6f8a41f5720e2f84c93f8c6052f86323ec45ec07a38eed3098952af7
+~ _gfxAnnotateBuffer : 304 -> 300
+~ _gfxGetOGLMemoryAnnotationList : sha256 1c809e4c5f2979f83a587d399a6a64b464b7539896bbb516d8268163b86f91d4 -> b7a963975cb1334b1e6c3ebd8ee0cb9051b10bd5070a8d533eb03fd61b497a81
+~ _gfxAnnotateAddDataSource : sha256 048fae547c1876bb889757ccd4a5909bae5facec951324e52c62147ee1fd9563 -> 5c828ff015509cd426c7e26e767533608c6a27b45c14f6caf008b421b0d73aa3
+~ _gfxAnnotateRemoveDataSource : sha256 f52f01ae58a69c16007330a0aa2cfa6cc2e1cd6823473bea9c62e4475d2bafb8 -> 3cd7ac28c10600ca1b14648858912cb1379c3a3d40fdf8765f42e049354ba6a6
+~ _AnnotateObjectsInHash : 4444 -> 4448
+~ _AnnotateOGLHashObj : sha256 b740dd5a18bb605b1163b7e3eb4cb6bb42a1afb80d160d3031ee7cf96b97d1fb -> 79b2b3b60f74f9149e5b2445ad1bbb5e3282efd97d254aaf10aaef0368409eed
+~ _gfxWaitSyncObject : 112 -> 136
+~ _gfxClearSyncObjectsInHash : 228 -> 212
+~ _gfxCreateGLSyncFromCLEvent : 540 -> 536
+~ _gfxLinkedOSVersion : sha256 e53eb621c7d510db9abfeb10997617225847b1d435b7dc3b145f6392cb7ad67f -> 0d5c4dcccfcdb53a5d3b9e18d6bd3d027ffac42249dde82b489a343b9b3d5d28
+~ ___gfxLinkedOSVersion_block_invoke : sha256 d6850cb7ddf5e6759e57343e25a216ca82905a97582cab25a438c3f56aa44200 -> 55b53831b3298391db6cc5787eab2704cc52f63a0bc3c37c70239c9d43b842f0
+~ _gfxLinkedOSVersion.cold.1 : sha256 9186226a089202181bfad0bdb13028a4477491f770b6d8e23afdfa77e5fd0f0b -> 7be01f8d1db7b8bd859f4a2873ddef51e52a6844a3546d3a245e73155153484b
+
+```

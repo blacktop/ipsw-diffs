@@ -1,0 +1,103 @@
+## SystemAperture
+
+> `/System/Library/PrivateFrameworks/SystemAperture.framework/SystemAperture`
+
+```diff
+
+-96.0.0.0.0
+-  __TEXT.__text: 0x1818 sha256:8d0685c2ac3ab2583253decb6572d3853724d5272124cf0b732768a741ef2753
+-  __TEXT.__objc_methlist: 0x2b4 sha256:d6e8841f42e5a8760abee293ec6b0cb08bc163568ba06c2b519c4737df5f745d
++97.0.0.0.0
++  __TEXT.__text: 0x180c sha256:0f00c358a8544d4a7ea5bb691f89abc47b9781966b4df7edb11f4ce411e51461
++  __TEXT.__objc_methlist: 0x2b4 sha256:3b81e931f63bfcd3929005921792f4f289a06483d58d470b98be8c184e2493c1
+   __TEXT.__const: 0x58 sha256:053af7d95e3eeb9ed1d9fd9c5588a9fcb85c3a5f369a1a5b1d02167d8bb656e5
+   __TEXT.__cstring: 0x18d sha256:7b3f74638604a98434db35b8271e3a11955c4d2879bd9d5105ffe1e34f2bc2f9
+-  __TEXT.__gcc_except_tab: 0xcc sha256:da088e018caa592083dd63fc76567b47f28880d8e910e7b73289aca41c238b63
++  __TEXT.__gcc_except_tab: 0xcc sha256:67e7a8d9675632d18335d8fb48028b2811a000483431192df80c4432f0ff69d7
+   __TEXT.__oslogstring: 0x117 sha256:1352551fbdcf37af76a128d2761d68134e67d05e367d4a0eb019672747c6e444
+-  __TEXT.__unwind_info: 0x138 sha256:3d0d6aee045699db98ee8a972948365dafc35204975471da2b724128f9b33562
++  __TEXT.__unwind_info: 0x138 sha256:411be2d55a66676670d7d24b40c7c7a558aedfb0b0e278e59b4f8f6631d43530
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x48 sha256:6e10b317c29ece072b3223857cdde9800457f7cbebbc03398a0cc407061c0015
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:dbae8c16df498b3d862d71450b210234c4409d2ebc164e8c683df1ee48e2e19d
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:e5072f46b5476ee085d7394b3924846c4b25584c4f3f11bfb25c3cdd338195e6
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:d6a1e373bf83ae7701c72a657095a7a0ed950f9e2fcdb45b7389c5c19689447d
++  __DATA_CONST.__const: 0x48 sha256:a203a936a83bd187a28e177eee2b899da7fbc1fb7141931cb4c78792ea9bcb27
++  __DATA_CONST.__objc_classlist: 0x10 sha256:df802f3c0872468ac4f06f490494f18dd11aa8dc8c34bda4ec297b4493a7ed5a
++  __DATA_CONST.__objc_catlist: 0x8 sha256:d3652d00b1c765bd397f9f0b366801efb07e3b20ed67794ba2ba7e7c598b00da
++  __DATA_CONST.__objc_protolist: 0x18 sha256:394e33b332eeac7239bba87243aeb528ec6b165acae2a8454214420cce4ad08c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x268 sha256:3cfdff0f1ab93c7be9a4d7fa4de5e62f51124a183e8d8c601d85e39a1d345bff
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:65c2b23c74b7024882529f19698b4bd34d496c4ec8ccbc25d08be49258778ea0
++  __DATA_CONST.__objc_selrefs: 0x268 sha256:88b9a8b8f0020409ff72b4823742ed03e2dc32908cf74ae6540e5564ce065509
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:88f36db20784eee7800d7c36c5a9bfe1f0333b10b1ebd00be87c07717c648971
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x20 sha256:4bc4b3ff4364b606dc5ca57b711b5e94d610a5f3fdd3b26cb28aed2594c88286
+-  __AUTH_CONST.__cfstring: 0x240 sha256:9fb96b07a9adc23fbc77f3a3fa12015c831873058f845357f799d013c533ae6e
+-  __AUTH_CONST.__objc_const: 0x910 sha256:5396623a18a586f6b1ccd0d39c23202f8cb455d975fb9fd96fbdccf5d106561d
++  __AUTH_CONST.__const: 0x20 sha256:5ad81906d0cc9f499715857d94315f53e82adde72be6b55b7b5f2f49900c0288
++  __AUTH_CONST.__cfstring: 0x240 sha256:964f36e4ab4aa94871c2fa9414c2246e1b6b487b429452a9ebc1130dbeff82f5
++  __AUTH_CONST.__objc_const: 0x910 sha256:e7aad29ea8943ee1a99b1de5d4916ca3a87b1b56c1f4b8b7f3b43e4a70632c12
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x24 sha256:d2e03c39c0f042853bd59b0e02061037fc71140f1e4e70d11e0b9a9e7debcf1b
+-  __DATA.__data: 0x128 sha256:b1ecfc40a43e6cecd4110fb589e443999e4d8f470260745eb0cf213a9690e896
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:17a341ab694c2210cdf668e57b5280c4bd55f07fa7a3c8c79ba932ecb59e625f
++  __DATA.__data: 0x128 sha256:8c51b9e7678934d6ccc6505313eb45e42ed305c831e9051299a593f70b8d9672
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:dd0048105e7f0ddd464408d1dabbdebca9afbaae880f0528a9f07cbcb6c25b55
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_DIRTY.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 062D15E6-E6A3-3A27-9B40-3CA270467D58
++  UUID: E5344A9E-8C27-3108-AF86-F780B2A81723
+   Functions: 41
+   Symbols:   245
+   CStrings:  47
+Functions:
+~ -[NSPointerArray(SystemApertureAdditions) sa_compact] : sha256 8a60067ab2040a82f45e139b7c434d334c2de14320452573d02ac6a394f479c0 -> 166065a23382978c0a75f5a9ed0d6deb17ee32a29edb076603a32e427d989785
+~ -[SAAssertion init] : sha256 4c2c881f807a48f8d83ab629e01e94e689e2783219f6b11321b0a208704577b4 -> 959b7ccd9e95a62f83af3e4a3aa5f005e5bce1d2bbb0efa77c906744b70d0609
+~ _SAEffectiveElementIdentityDescription : sha256 636c4d5a32589e1d3c02dd8b906570f41a073f0722d0cdd80660be5cfcc91985 -> 40c290a1246f4c30bb586268e835105bb34dc216fcfd489df8a34e6d294fd376
+~ _SAElementIdentityDescription : 556 -> 552
+~ -[SAAssertion addInvalidationBlock:] : sha256 79879afefc049fe334678a6836fba390b596ff9bec56d9cb836d3844fd41201e -> b15febae14d0ef4e65b5d0e01e40fe59983f0ece1565077d2cb51a3040253d0b
+~ -[SAAssertion invalidateWithReason:] : 580 -> 576
+~ -[SAAssertion description] : 536 -> 532
+~ _SAElementDescription : sha256 df909f76a4a5934e38d5e7cbf2f34149ca379f7d2c993ac2cc6f3346143970d6 -> 6b2bd7e55605d18f10b8995c7ab950aef414117568eee2c854d0ecb692d59d65
+~ -[SAAssertion(Subclass) _descriptionConstituents] : sha256 6686f8a60786b1792728e5b9bfe5711942ec7846ca9f50d53f237f7a638957d7 -> ae254ff15561ff1ade281ce0a67fb8b15fb34dfd767624dfba0f16fad56254c5
+~ _SATargetElementFromBehaviorOverrider : sha256 f2eba89db35b1db6f222f6615014e0d37bdc688032f65a1e0a1c0c05cb577df9 -> a32665308b2776c0ce7ac33c767b243daf689b1564fa1ae591420271a8a25e0f
+~ _SAHasActivityBehavior : sha256 a15dd176509d586d0b3835faea51ec8010ae9956209aba4ed7fbe0f809cf87b3 -> ffdeb6976ec5848ece5f83290241e652efa5e2b61556fb11e0144e66a81f3a1d
+~ -[NSPointerArray(SystemApertureAdditions) sa_lastPointer] : sha256 0a53db4c03398b867e5215b7a2116630cdf6d8c39df029a20b007fca6cd8d64c -> ab79a8b98697af1aef56d78ca274f6cbffa8324b501894365ce8f5f649d605f6
+~ _SAElementIdentityEqualToIdentity : sha256 f8a52ffb893d4697fa49f5f69fb1491a0418037b9e8a79491ae947b4f9891d37 -> 4263e5db67d4dadbd9eacb94fea735424efa27b8d3eef701901014093a0bc9a6
+~ -[SAAssertion dealloc] : sha256 0041a1c5f518dd1449fbccd8b63b521b5c6c344d94a81c4561778aaa524d7b4c -> 79d3e4647ac34533beb5499e9655e24a4c4d5cfd9d2be6a0b7bb612f983e8c76
+~ -[SAAssertion .cxx_destruct] : sha256 679fafef2379412d554eea1de79d60495dcd3933164b798d2eb3ec7bf094e0d0 -> 070063334c2f6e85aaaf240680fe217c79a022406c3079cc9f7c7fbcdfca505f
+~ _SAHasIndicatorBehavior : sha256 c3840b894accaf81b3845ced6618e0f9b0791f30b4a79b9c7aaf1b16d97268cd -> b8f6232acb471d59a6b5bc29c0668dd9b1df25b8f1e1184de9cf809392271b33
+~ _SARegisterSystemApertureLogging : sha256 340c49b523a36f8b90c700915bdc8a14d8813d8fd4764367a67dfba96e382bfb -> 491a922871812ece86285b139e72fdea35221bcea48be842d3c9b667a18e8558
+~ ___SARegisterSystemApertureLogging_block_invoke : sha256 d3024950b52f566ee33edcacbecf92d8dbe4a4aa2b911e086304bf18c2ea8d3c -> ad40a53952f8d995c808c232f2c15db16709866e5678c7e152d225d18dba8031
+~ -[SAAssertion(Subclass) _invalidationReason] : sha256 5ad39c6247154f81500e3019d73306d12dcc580fc38f8b4286d2cc48b8e08246 -> b1c6b60457d60ecfd34f697787bc5d64d1180414bbb6cbe7647235da10875ede
+~ -[SAAutomaticallyInvalidatingAssertion initWithInvalidationInterval:] : sha256 cfea19c33df708a5822b67964fa4f2824b4ce33d9cc79520ca89352921c32b78 -> b73270689a92f58c4a85516dca37531decee0be843cb3df558b79cb14193c8e6
+~ -[SAAutomaticallyInvalidatingAssertion _descriptionConstituents] : sha256 396b1660ee4aa3be9ce5bf4195e536aba8b6fb060c43b4cc4a6713127549af61 -> 362329b7b0e62408076da607d6bb70b18a0cbcf91c4cf000793924d98a655088
+~ -[SAAutomaticallyInvalidatingAssertion setAutomaticallyInvalidatable:] : sha256 2f90612cc484f3c4c0fd8b7c5cb7df4461a001a8efeffdade22692f41477102b -> 47953e68ca86d8058ae7d5b00e4736fc0a66a939f86fef611081349ba2d91e66
+~ -[SAAutomaticallyInvalidatingAssertion setAutomaticallyInvalidatable:lockingWithKey:reason:] : sha256 febbf451d9711ee79dc12c36ec48c0c51157f7d74ed2ac6b111d36fcab693a4f -> 6d0539a6414cf9ad3f3b1c0f40f0626a3473e9daf6c149e0421503370915ba55
+~ -[SAAutomaticallyInvalidatingAssertion resetAutomaticInvalidationTimer] : sha256 f2187ca29ccbe1f486ba6bba216458bd0454fa3fe281190d3f5156f48854cb23 -> 12c05dd45e52ddfb20747d5549e245cfe6d7a5d8fa6238a6ee7af3928fe66f7e
+~ -[SAAutomaticallyInvalidatingAssertion _setAutomaticallyInvalidatable:lockingWithKey:reason:] : sha256 78a704b64c5d54270db7698d89e3ad1f6aa400a5c5bc10727c2db7a594bb993d -> 7c144edd0692e9e045b44b87edcaaba915d6feddfc395dae2ced6f991a0a6213
+~ -[SAAutomaticallyInvalidatingAssertion _scheduleInvalidationTimerIfNecessary] : sha256 c7cbef716a46a421c86179a9cd432405a78e86673f8994b48e98a0bff0f5880b -> bf3b00db58f998cee3df8225ac14727febf457aad10265a45ae3a23b2c8f7c24
+~ ___77-[SAAutomaticallyInvalidatingAssertion _scheduleInvalidationTimerIfNecessary]_block_invoke : sha256 a1b21b17175be96f2125596cd0b74f561a13a8ce0fb9d906a55c4a77c0fa746b -> a6f7ec33474bd26f1b2904095b482e156e04b2f6aebc69e3839bc67ca28d5199
+~ -[SAAutomaticallyInvalidatingAssertion _invalidateInvalidationTimerIfNecessary] : sha256 1ec23a81465d798a8ad5e9ad19fe4eabb8d75239a7eccc7403bbd05e919daa71 -> 0dd7827a7c98d9fb5b247195a0cfee41e9c47a5b4a18441d6443d03609967094
+~ -[SAAutomaticallyInvalidatingAssertion isAutomaticallyInvalidatable] : sha256 adc252217f33a1891781545ee3007311873ff7aa0c96cb9f236a9db8bc030500 -> 541cc25d3055ce6e2bae7a0a68cbf50ae3e5efdff5e33d0fb2aeb7d98e0cc12b
+~ -[SAAutomaticallyInvalidatingAssertion invalidationInterval] : sha256 70d026b9bca50a7d4acabb7a6518c2215489ab3026f3a0e0ec397f07e156386c -> 96f2c85f06ebe44d8dac441db7615a1c80080411c5b56c8656b2c272f212169b
+~ -[SAAutomaticallyInvalidatingAssertion .cxx_destruct] : sha256 e39ba974e2b3bc7eacf5819414ce763bbec33a4b977cae0dd589b73762041280 -> 5719a12a84b01a40a9186297bf6add424005907753ab47d0f87b9cb6ffc76422
+~ _SAElementIdentitiesEqualToIdentities : sha256 19d92a1cc618c30e369e5122d0445a059ecd10224da63065e75ffe38a89b59b7 -> a710e22c5868766af40ec5a4a7024cdceca2c15270b81e80fd19beec0d52ad2c
+~ _SAElementEqualToElement : sha256 dbd98971d70a6df321d8bf95af2f43599e19650de8f24d303df4427dd7ed1da2 -> 0e8f488fe102d814d9b45dbb95f5e8560ed11600c7679088d00d29b2b35ba35c
+~ _SAHasAlertBehavior : sha256 61de7e45d82f6b88b307dfd92cc24bd86662d17c1d4f24e18f48156a9796ef9e -> cc12f5dfb20c1f7ac503dd75fd60a8c58a271f6dc1dab370e16485e6abbb58cf
+~ _SAHasBlankingRegionBehavior : sha256 021380489da3f837d971851f05238a4669708d0bb94430258b63593f3869e465 -> cc1cd314012560df876178a731dcec7089cb888d4a73bd5edfe0a916c05897df
+~ _SARegisterSystemApertureLogging.cold.1 : sha256 f295adde68b57716ed7cb01553e785dbfa826e00d33710cb8f8ce7068d589767 -> 14b724688d38ca1232e52ca41c880aa4ecff347a503046bb11dc43dff9c5efbf
+~ -[SAAssertion invalidateWithReason:].cold.1 : sha256 64c0dadd73e416a315e37372dac3dd5dce0af1e4236ff15c4edc6048a035b86c -> 0a320dd52ac457254f9be07ca9b81ad29f65fd13f72abe79159a90d1f6731e84
+~ -[SAAssertion invalidateWithReason:].cold.2 : sha256 8ecf6ad32affdd0110e0ec7307cfe8287bb2c1930f2935ca586cb0412bf18eb7 -> 8e694ebcb6efc722f7c3eda8e71daae80feb46c63bd2a9ca8a2eaf0c97f9bfe0
+
+```

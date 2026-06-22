@@ -1,0 +1,66 @@
+## ARKit
+
+> `/System/Library/Frameworks/ARKit.framework/ARKit`
+
+```diff
+
+-779.0.0.0.5
+-  __TEXT.__text: 0xab0 sha256:eb8906786d9412d93a7e5cf41b253a1ae546c63a2e23a353a0e84e87c96c9aa5
+-  __TEXT.__const: 0x40 sha256:95015faa9b9bad9c0cb5f244130bac2c79aa12fe5732f0e16079f452d62cc377
++781.0.1.0.4
++  __TEXT.__text: 0xab0 sha256:4c74e3274bf0c9757c06549a8c24df280a64e936a5c519c6462a72e88305de09
++  __TEXT.__const: 0x40 sha256:53c73111eae60a785ad36435a1fc436f939af682359ed038f61a8cf32821e80f
+   __TEXT.__cstring: 0x111 sha256:2b95afe41fa9cd23f73c353f2c1be7a45ec104812243524cb37b9eb7695f0149
+   __TEXT.__oslogstring: 0xb sha256:8f07885ef5796a973d8f6b2156e6f9ccb7542fd099242e8a12e80b0e1b6730c6
+   __TEXT.__ustring: 0x5a sha256:09538d5328a2261bd4ab9d67a478d2e638f5612284f6cd7919c13ea565b2cc36
+
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_methname: 0x0
+-  __DATA_CONST.__const: 0x68 sha256:8e383807e8747e9a97484493e8790f49eda5c6409569b3b53261cb4c75aa8fb1
++  __DATA_CONST.__const: 0x68 sha256:91f6b66962ce2f77c3ecba23247a8c7d311704b0c1861914cecf5973f0bafa74
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x58 sha256:c19d3599d685305d5c0a65d47579e745728631cb13f15727d2ef767e03b69599
++  __DATA_CONST.__objc_selrefs: 0x58 sha256:f8f6bef9d704b2dec639ec86f7788a1d8833771c8ca9455bfbb9b0f8f30bfcef
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x40 sha256:d684ed00909b06db17bf2fe90a44d9573008693f2d581004cde2bf6f2e62bc81
+-  __AUTH_CONST.__cfstring: 0x260 sha256:8692d25ddb7de9463ff6c1f1b565366ad80915452ee998ebd1cd1b6262de33a7
++  __AUTH_CONST.__const: 0x40 sha256:d8e3d9acbfe9b4d2f174c1f67d3c164244fcae4b06b050f0e1f1718c9c75ed1a
++  __AUTH_CONST.__cfstring: 0x260 sha256:31aca1021c751d214160e9fcc96cca2c7be79bb257fa13d73fbb59de395e185a
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/SubFrameworks/ARKitUI.framework/ARKitUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 214BD0A5-832B-3342-B326-2BB897164631
++  UUID: 9171741B-0413-36A1-80E4-9D2839B99B52
+   Functions: 26
+   Symbols:   94
+   CStrings:  32
+Functions:
+~ _ARFileDescriptorIsTTY : sha256 9a2e079a5d270684a29756a8cb569f5ef95ce7227999755e8b048346a52a92c3 -> e00212d75e4a2ec954d0952b82c64dc0c84cc32c2c946a7df14fe32ec446d082
+~ ___ARFileDescriptorIsTTY_block_invoke : sha256 c1aebad022c8df145ee0e21cd6d46411f92c1beb0c27834446fa2621621c00fa -> d084df1388fe50676db2ff563675aec0cc84e0414ceec79e7f479f8e8998a5ba
+~ __printFormat : sha256 3f1699ba954701ae356e858cf3ce392867d9741f3d05e6b751528a38c3121322 -> f50925144944ee3f628758151e6ed555808e91556a466bbf7c55823f0121e62d
+~ __ARLogGeneral : sha256 e47ff7fab8a8d9e1332a4a0dd27f0646218392b43f318cf1b102b9c1e3aac72a -> 99d21409ee486e2e1da2bca2330467fe97f372389485c624025bcd40a058781e
+~ __printMessageWithColor : sha256 b76dc0e15293d23f2cbe11c5bb98579b37803b3023374c0764086f62b66a4693 -> 5bdb01d5f3b0a52a96204d90a15b120a65eca33484a2332213234822f9715677
+~ _printMessage : sha256 afdee1c87cb9694d942670777d45083d506ece28d723625e90f282d8caf79c3c -> dd491dd35d6558eb204b6f1f5e30c91b9e12e7d7f7cc60dd8c76851dab71db6e
+~ __printMessage : sha256 ea17c7ee224e21a0b2659cab7dc7495cccec50cf2d9d2855b4f3b08293b64f2e -> d1976ffcf5967eb64cc36e77f6800488d105637237a332295f641696d2ab88a4
+~ _printVector3 : sha256 4a30e3b3f42157b5f8c764d1cfdd257b5032ee82e4a6aaa337e203a33a7129d1 -> 097399478c099c32d2f4d112e4bf162d538652978f9829400596f9c73e0ddd9e
+~ __printError : sha256 b0c72fb68fa6d1d63483458ade29fede3408b9c64cbec074b8d9d0d82aa53e14 -> f10c12a90f76a26b4639d4e9a7345af280891b39c28d225ad80b5610608ce95c
+~ __printInfo : sha256 c8570b54151daaa7281dfc9eb0fd3c33372932381600ff2f8e226ae20d529c51 -> 68c6c40c1b9580078ef6163dcce4b668e1e23150f473495330d571b073bad23a
+~ __printWarning : sha256 acae61ede015f314fb76f7a32c5c8075e4c8a15ac355518d5ba74709ceafce8e -> 9d8c8c4edc85937fdfa94a268bee345ba2e7f45ae67f96fa1ceebd297860fdf8
+~ __printColoredMessage : sha256 990a5acc4457a3dd4d8e749a5da30645cc9a7ff7e5363c6553e4f53cd6fe52a9 -> 4565e1e3c166494bf25397bbbb2af15999251bcc1a075171faa64aebd81022a0
+~ _ARPrintUsageStrings : sha256 3d284c136ab4170f0082d32482ba65f59dda31d865494bb93b267ed82bf3d6b5 -> a4d659179c94ada485044321a53cd61f3a5ddbeaf73896a2d017717debe37a9c
+~ _ARPrintToiTerm : sha256 c40b521825c426ee4a7ff3089dcc4ca8eafbc4c845e1b71c38f69bceddfe2c21 -> 89b2dec393234961608e2ec1a15ea7aacc5832111ccba85e2e3c6051ae99b45c
+~ _ARPrintEscapeEnableAlternativeBuffer : sha256 1dc10cacc31c83340baf7852ec2a4740c5ebe5e7bd5289a268ec38fff8862421 -> 6d5ffb8b6fe4334015b8e8b44721629c966177ee00502011b38d37679f090016
+~ _ARPrintEscapeDisableAlternativeBuffer : sha256 dd130a9c2814b6b01ff52f7d78f91973363ae64b7d64a3c1d12ef8297e0ef3a7 -> d87d9fbe79ecb5da6c16e8c45cadbd333f8607e1138784819780f1a1fb42989e
+~ _ARPrintEscapeEraseScreen : sha256 2f65e4dbd592a8e83b8a6f794fdccfb71544768ca67c8e3c784590b021409785 -> 89377bf3b2cb4ffec4dadb0f219ef326b85b5282aff11059c0cc9c69576a1bdd
+~ _ARPrintEscapeMoveToLocation : sha256 4fa92437ff76d1a338a81e99d8fad3cd21aebe802e45330af9e5c0ae990ee31c -> 1e884b6d0ae6194fdaf66f4a7cc678ba0ab16231bb84c05a08c74b72991eaf19
+~ ____ARLogGeneral_block_invoke : sha256 6b327f0dcea78e29af8f1b90c8572c3051cf240b0e4a80d240fdb276a7fef5c0 -> 7ac8adc4b4f8a31e0ae23eec1cf4a309840080bdf2bf9fdcef41a5f86149d369
+~ _ARKitBuildVersionString : sha256 67cf082a03ceb71df382fe12821d3ed3bc6ae6d9b021d2f88c19e97b78e039cc -> 84f98d1c124b90dc4ae5a491bcf21e36040f110b5a241c0197d58dfbec5e1e8f
+~ _ARFileDescriptorIsTTY.cold.1 : sha256 5544c1b3b84145044dc1f217ea27c460ab96b2b6f9d4b693f788b8b59f779cfb -> 9ac44c33bd105ee9392c63108a00757e712ecb2abf9a44ea7427ee9ece8e064e
+~ __ARLogGeneral.cold.1 : sha256 c13bd2f08f7eca2f43e409752ae8c59de34f6f85a8aa21138fa8ba1f62d590be -> c3bd827bd1d322c8056f28576c87f264e57567cb70e51fe299b1baaba903fde1
+
+```

@@ -1,0 +1,60 @@
+## CentauriBetaPatchBay
+
+> `/System/Library/PrivateFrameworks/CentauriBetaPatchBay.framework/CentauriBetaPatchBay`
+
+```diff
+
+-26.64.4.1.0
+-  __TEXT.__text: 0xe48 sha256:981f732e659fe044a7c177196c6ed877fbb8cdf855f2af92116a6d7e8eeb06a4
++26.69.1.0.0
++  __TEXT.__text: 0xe58 sha256:9753f0ccdf53880ef5d65500a43cf5d193fb14aa8f62bc3e0f5bb623c0aba95a
+   __TEXT.__const: 0x20 sha256:383132bb323f5eb374468e1d6f9a6aa6ef1227c6cc6cce8519302e519d47891b
+   __TEXT.__cstring: 0x10a sha256:32d052bf376da26384bdffa815e09a060c7387eba18aff026595e8f7ee63cec8
+   __TEXT.__oslogstring: 0x24a sha256:b9755e8aa05c6a56d63d8ee747738caadad321fe4e3b3521baed07701c5a8106
+-  __TEXT.__unwind_info: 0x90 sha256:93c8d1291884a014183777078d5af28430fc15e47ba42a85dad1bb19da1628e1
++  __TEXT.__unwind_info: 0x88 sha256:1489eb55cfd21cc13c9e11e76b7e76319979b742e57401004e3471d479f7585b
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x30 sha256:c79969ff4ab4175c5564bcd6335f1c44fc7081a2e11f1033d7c2c909d3eac08e
++  __DATA_CONST.__const: 0x30 sha256:de7230921fbb5570812876a467f8226a57b52996745a78817f5eb0c3c1527a35
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x60 sha256:6faa582b222872fe30158033b381cf01a35827cfbf5b720753b21e875e53550d
++  __AUTH_CONST.__cfstring: 0x60 sha256:ad198f4f2fc6e81d2b0c6d6e8e889868675e75295935495cdb8ef7ff04b6fda1
+   __AUTH_CONST.__auth_got: 0x0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+-  UUID: DC44FC24-36EF-327A-9442-F72A3DA1A7A7
++  UUID: 4CB65C48-F82A-366C-84AA-52D3B071172D
+   Functions: 28
+   Symbols:   88
+   CStrings:  37
+Functions:
+~ _getCoexSpmiExists : sha256 9a3237bbd9604462008d019a1ef205cc30552ee8d3e6cd52db9480b7159a3805 -> ba1401c13f3ded3af77fdf26f2938e07a0b78a16a000151771e958c9e0d7d08c
+~ _getCoexSpmiDisable : sha256 08f5de9c75e5b05a47e0b61dd798765ad9df4dc784dd12ba37305302b9f2c45d -> 0e787a459255980c5789f82c89cc4dd0846d920830de55bae80e2d8950b56ef2
+~ _getStringFromNVRAM : sha256 66b147df4da1b26e01b8d11a538f51b611b588d90781c785ac6f7fe69d1a608a -> 6826172c6dc8c7a8e3af4da4bf47eeeff1092584bd89b75845436e45a178eee0
+~ _getHwLogsConfig : sha256 3cd1f9801c40db4fd9652703a70e93dd841265e25da28cb52ccf68f10ecd86e0 -> 70a51184a7395aee6b096b3e3a9f787aae0fdcd562719e4600baebb0d60d8065
+~ _getHostPlatformName : sha256 0c24dce42bdd3e51b63f1a1fe023aa8bd1ae6c49241068e2debdd6d7d78d71b0 -> 4a5dc6092b8a581b12ded21d78ba1ae6c73a6ac5b4b996c247cf21f0fafffc6a
+~ _getIsDevBoard : sha256 9dc7ee8d7673be3b20c1c393027e2f42e133c4020620a26ecf0d45d7576ec503 -> 85ab42eb19fdbd28ed41bf41ed192af1a471dd269be2317c81dc539e39e2d320
+~ _getHostModelName : sha256 a2b8bc93f298618a93863617b446fbd6e9e67a464d53515efa35c4baf5b0647f -> 2c3c35a661cd990fe54405645aa1fb490fc180a36ddeb21960d2f4a48071ef5b
+~ _getHostModelType : 108 -> 124
+~ _getAuxSimulationBootArg : sha256 9349a912bbe29907df6d53fe470bcee45502e312c47636bf56da12888a1038d0 -> 74375690715eb715ea4c08ea9e538ca192ad35af6e0b7cd325f32acf140cf808
+~ _CentauriBetaPatchBayCopyData : sha256 9d04bf2b00f8fa44e10cd33c39cea53ff67e743ddf98e32eb2dad1ce3d2a456a -> 23598d8dd1da3c40a45c941c257de0ddf4c1fa6d849a576a6cb22416f6c3f27a
+~ _getIORegNodeName : sha256 c30b1b1666ebb9cb643306c3b8d5c2f967091fa357737d033533a6bf4ef6ea0e -> 2cf424362baa0b1dc599a64fa36b4174e77fcf9b549380d6c4755ccda0460968
+~ _OUTLINED_FUNCTION_0 : sha256 628a62f9a163d81d49fa5ae88f38de7b9d8e887ba73a7dfebf950bc027227f2a -> 0b365075dc34c1d4fa10c96da53ccd233225b0df66eb8539cf4c785ee1196582
+~ _OUTLINED_FUNCTION_1 : sha256 fe8af81bdc0c26282963b0dd98fd920a06ec9d0ac11374984de9d21ac48e576c -> dcc0721d7598a5ca90ffdb70a7fd95d438affe947e25725bbbe4370b5ab42c4f
+~ _getStringFromNVRAM.cold.1 : sha256 0c59497175212be34a219c28620c02fdb21a87d91c6c7057ee23feb7f2b5bca6 -> 8b04932c5199be066d8c3d9a3caf4b03e9772784db6dcbb7152918da2ac7e409
+~ _getStringFromNVRAM.cold.2 : sha256 d03e8af72a5b32ad152d7e782e41c58968d14b64f9ae8b1cce82c86369f23983 -> 31ab9b9f8f0a8baebb5be5545469a32a53f0f0f24f9f5014adfedfb1a8923578
+~ _getStringFromNVRAM.cold.3 : sha256 abf47b31952faaa2662c546564d72d143ed4917872e1d6c88e59ba8bbe3dd504 -> d8d2b1063dcbb0d3b6afa9b975f0bc9999eee284171127886e05bf00835bdde7
+~ _getHostModelName.cold.1 : sha256 aae97b11c3d39d39b01685211692344ba6f39b432bb382f11f773ad73e545ac3 -> 70e964fb7d72fc1555034cb13e22382afc201619d377545213db0a6911049c02
+~ _getHostModelName.cold.2 : sha256 fefd6d92013035c48575b9ef763dc961ed8b03ab6d80459427f60affe07ff7b1 -> 9935a1d6232bd66eea4fe6bbeebaf44c343a68a19154424944bfc0a532fc329e
+~ _getHostModelName.cold.3 : sha256 ac5448d8f4958b3692acfccee6ed34517c8130cca20f09ba66ba93c126df850e -> d0de614c617de40c14c2ac0a810a6e46e0467a982b7dd6f199148d97df609889
+~ _getHostModelName.cold.4 : sha256 1b1dc9582fc66ac3712a4d7a5e366521ca0abf976c8b83f5f89db01734bf67e6 -> 6cc4b16544c5d7368acc7692bb11a25d65c6fc8210a1e37df948bd36a7a5b3ec
+~ _getHostModelName.cold.5 : sha256 ff507a2978294a391515fc7499b7907283ccc718371dfbd2b8df49acfbbb5bef -> 72080c9bb10039ce82cce7737fa7526129c3a2c6dfcab96967e364ffb7c1831a
+~ _getAuxSimulationBootArg.cold.1 : sha256 62fda057dae81612145ff6b8bb6b58639bcce011954a03a760c5a113173ddd83 -> ea39f32987ebbaca78e1e01a52c6df07702793d0dfa3ac245ca2d172f6d21d40
+~ _getAuxSimulationBootArg.cold.2 : sha256 3ee77e64f6831aafbd96558ee4ebe604d1098d70be9ca68de5c47185b10e106d -> fee9bdc84bd88e7cd069528d2300786654395d7c7a60ab1e6ba8441932ca8a46
+~ _CentauriBetaPatchBayCopyData.cold.1 : sha256 68f089592a0307e3a33b40f1f3429cab83c06908d98ebcacf086db2e7782f722 -> e69689fc8ca1af1cd2fa89fdf8e7f1d51aafa46d3888bbcde24db6eb11182f85
+~ _getIORegNodeName.cold.1 : sha256 a10abf2c0e1e04c843fdccacacf06551ce87c62f2b3f26b2dae68207a24b2494 -> 3d54f97d32a919946123bbee960293cd1b83dc34533dead366058d414d9794e3
+~ _getIORegNodeName.cold.2 : sha256 cd3661ba574965a7e30137420cb19d40b66bc8238e6b2f37b734bd948ea27235 -> 424a20a26269cd8c49be35940fa3be8e0590e56cd0277c7156b2f96e4973cd6f
+~ _getIORegNodeName.cold.3 : sha256 bb58b9cca177e52aee92219ebfba5c83b05ecb0df87108243e374c317bb81d7a -> 8fd0f788e8a8786f74ad61704d0c5dd9922e619f1ae6146843a3765b8103243e
+
+```

@@ -1,0 +1,44 @@
+## SavageUtil
+
+> `/usr/libexec/SavageUtil`
+
+```diff
+
+-7.113.1.0.0
+-  __TEXT.__text: 0x794 sha256:8e4b4e5b88efe5ed4fdf531cdbe9d5e780d5ee67dc430a2b272cb1eb277a04b7
++7.114.0.0.0
++  __TEXT.__text: 0x798 sha256:8034505e05cafce685f36cd095a3d93ba2ac3c18833286196d2eb33ff8469695
+   __TEXT.__auth_stubs: 0xf0 sha256:c89652a43c7b79fa5dbecac094b296357acd5642d7c23e692e67154c852ea18e
+   __TEXT.__cstring: 0x1ab sha256:e5418d0aa6e06d2dd0d9c9cc716053f105f841058de84a8db3bda6950726676d
+-  __TEXT.__unwind_info: 0x70 sha256:85326b72a71c9d18ec19dd10ae8e3b07ae1818aed71453ab932bbecc424186ba
+-  __DATA_CONST.__const: 0x20 sha256:9f875c7abe89eef236865d92116df5655f08514953079d0c36f2368e14af42fe
+-  __DATA_CONST.__cfstring: 0xe0 sha256:c3ba8abe2eea6531e7c4859cc3f37ca78ead50458dfae97f5205767029c5a001
++  __TEXT.__unwind_info: 0x70 sha256:4882a6e171e66c15d384232fb9c295744ad4d486895f64c1893d21c1350a35e1
++  __DATA_CONST.__const: 0x20 sha256:87516105ac6007fade460636b29c15cf5097219a3b514a1844c31c5df04a8e43
++  __DATA_CONST.__cfstring: 0xe0 sha256:8ecf9cb23755a5f46d7777f22a29cca1188e448cd9b58b96d306a6b4241ee4be
+   __DATA_CONST.__auth_got: 0x78 sha256:a764420725e299c64b5659b875dab46b35b7c7ac6972509d0aa50fcc738a3f5f
+   __DATA_CONST.__got: 0x18 sha256:e15e4570e57dcfd929a58a8cb24ea8b082d3bca2560678de766238042bcbd397
+-  __DATA.__data: 0x80 sha256:cc104fb48e90b8b976697030be9ff747ae8771c56a3800ff097b49d86b714e69
++  __DATA.__data: 0x80 sha256:115195ff2b1eefa55599d6c443aedbba8e4e03cf0ded36eade8310e05eab7314
+   __DATA.__common: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libamsupport.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: A66A7B10-5734-3360-B9EE-62B23B663424
++  UUID: C43DA219-DEC9-3D86-8F6B-E290932686B6
+   Functions: 8
+   Symbols:   21
+   CStrings:  30
+Functions:
+~ sub_1000007a0 : sha256 967ad78edd876e17dcf622ed56a5e2c9d04a9d138c1bdc47d4a3fcbf6aee487d -> ba5bb7e610e1c14316eafdc48d098b9092925def2f0487718b6eb54240071adb
+~ sub_10000082c : sha256 8ecdfe670ca3716683c3d7ce0040617e0cb92c447238d55583da3441c79eae66 -> 6077cfe274b87eb2fc3160476ac4e4294c5ae4fd8b287767a190c9d47b85738d
+~ sub_100000880 : sha256 775c7eb742532541fb6d28b083c6a7f0d2d654a5bd2a9aaa503ccef5c1e1bce2 -> 303d2d310910c637bfc26405b74c1bfc948892fc091c68589b9ecc835f61daf8
+~ sub_1000008b0 : sha256 d9bb42c88b40431c34ac5303205d93d50ce02708d5738d64f48b753dfa739345 -> 176a65eb2dac7a08bf23dd4a5094ac6e9533f07579080b4d0967dd5137685911
+~ sub_1000008c8 : sha256 bffe069cf3332f40cb9fb7de3a139c34376be92ce1adce519b757d12dbf7bed1 -> df9f0f1e93a0f8c87a6e81eae76f4ff2c8097e0d93d784513ea8cb3a2b56d581
+~ sub_100000ad4 : sha256 d9d7fc6440d4531b2d5a4e2561bcb781aee897651751e03f8ad083d65b4f6ab2 -> 410bd3a2d106e21c98ab0e4e214c53eaf2478574fb8e81b586fd7da396889dfe
+~ sub_100000ce0 : 596 -> 600
+
+```

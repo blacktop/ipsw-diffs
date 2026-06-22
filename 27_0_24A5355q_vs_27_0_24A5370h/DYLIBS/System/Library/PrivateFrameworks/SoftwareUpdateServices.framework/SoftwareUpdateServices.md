@@ -1,0 +1,5847 @@
+## SoftwareUpdateServices
+
+> `/System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices`
+
+```diff
+
+-1102.0.0.0.0
+-  __TEXT.__text: 0xbe48c sha256:871ab73969fd9c9cab2444d2a0f6be2f255f7fc681abe7fa39cf8760dae56334
+-  __TEXT.__lazy_helpers: 0xa8 sha256:3e23b315c4cd070e60198df288618881e9e03beb32bb15631d95ac6dd3c29bdd
+-  __TEXT.__objc_methlist: 0xb7ac sha256:3ccda82519b5430b1797c8a033193534a0a6417657ea89c19f319d7df9a66e59
+-  __TEXT.__const: 0x288 sha256:7a6d60d4cbf46646cfcaa33e5e8f6dc8db76e4c8af7bac13c40ad7b0710f8da2
+-  __TEXT.__cstring: 0x25d31 sha256:322a25b08e87e1a9a41d6a12e951f1543bf4d29a583299bfe2c1c6e04f43c4a5
+-  __TEXT.__gcc_except_tab: 0x1380 sha256:74a81fdb2b75c260c7a1f87fee149a409780c3bdcc6702c487e558d5bbd4b6f2
+-  __TEXT.__oslogstring: 0x85d sha256:2b1718dc27808218b49a8a8393472e2d31754c346a1f64a4c56f6a761cc233a0
+-  __TEXT.__unwind_info: 0x3528 sha256:c86da9584719ad3df71c0ca16c3d9a2881224e943a6edd06a94bf2b625b45ab6
++1104.0.0.0.0
++  __TEXT.__text: 0x5d3bc sha256:6beee1a736947ef7d31c5df86373f440e9e5de48d006947421d91cb618cb58c7
++  __TEXT.__lazy_helpers: 0xa8 sha256:879402625e9b400decbc6b89c79916df1e6c0828ef52a4a27ee58c12e6f08a15
++  __TEXT.__objc_methlist: 0x705c sha256:7fdee081767ce3bdfb4a993a906131448597f5d9639722f59841e2aaf25c4cb2
++  __TEXT.__const: 0x1b0 sha256:7246f68b3914a6f385a7e2f1f7e9beed36ccc49f3647d83cd36bfd196399012d
++  __TEXT.__gcc_except_tab: 0xca0 sha256:d3d00efd10a66c5bcacf283ba0724fdb830d6aad68fad85ca900f305a427754a
++  __TEXT.__cstring: 0x15d9f sha256:bb04af7a8d14c78289a253832d392f79e60a1f281c15c2b53a4deb7f30283d64
++  __TEXT.__oslogstring: 0xb sha256:8f07885ef5796a973d8f6b2156e6f9ccb7542fd099242e8a12e80b0e1b6730c6
++  __TEXT.__unwind_info: 0x1c48 sha256:f67afb3b022f43138091d6ab034182eca30e292d6f2e487599ab2827a0a78ff0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2778 sha256:86a2acaeeb713aa0b7ee68d28409cf80f673f30ace0f3cc9412c6ea6a5c0401d
+-  __DATA_CONST.__objc_classlist: 0x410 sha256:ea0a1e098b29219dc109431cedf6356ac4918a9c2cda8e016e6eb0ec030e1509
+-  __DATA_CONST.__objc_catlist: 0x28 sha256:44b295e5db564de1e397c491fefd2d04123d294e818249a22d9417dad10a62aa
+-  __DATA_CONST.__objc_protolist: 0x140 sha256:fbd78f2c458f0ebbb5b397e38c46179b03f7122ad6122ac98dc00e1d698b4116
++  __DATA_CONST.__const: 0x19c8 sha256:4d5a305100061a063a60252b7ad51a1b2179300f5ae57efdf40bd39647dc59b8
++  __DATA_CONST.__objc_classlist: 0x2d8 sha256:cf8b862b84ef058b8442b79d6208d2ebca1574a11207848bd545f62772f385da
++  __DATA_CONST.__objc_catlist: 0x18 sha256:2d22118f68e0273c3803c04d492caea8a0bd3f6ebc16a2c0aca070a73ac5462e
++  __DATA_CONST.__objc_protolist: 0xc8 sha256:4ad29419ed2198de6d0ec0cfaa91ed569f72be87fdf9af30607fc01323c56348
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x62b0 sha256:acf5bdde69df9c3538682ebc868aa9e9eeb26b7efbaf73cdee966065c93ccdfe
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:c5995064664827f0c76a286c7645c3995fafa4b20e173d898ee91962ec215c0e
+-  __DATA_CONST.__objc_superrefs: 0x350 sha256:fe9a2d217c845120e4a50d3e09ea7aae14d909bbcb89644af33644e8f1d1bc3b
+-  __DATA_CONST.__objc_arraydata: 0xb0 sha256:506b93180216a6022fa5be9f04c577f71acd6ca532a8a4532f3435cbf78f8ea5
+-  __DATA_CONST.__got: 0xe18 sha256:2e8c678ad027cb3eaaf262d77f914dc7c0d835c7268b4a56bd596a5912e925f9
+-  __AUTH_CONST.__const: 0x820 sha256:5bd0f45af42531530ba1229134a5081b8e8216fc3804d952dfc5213406d9d83c
+-  __AUTH_CONST.__cfstring: 0x16380 sha256:2b19886ef45c79949f4a3ff91f3e77466439092e7c025377bb8b049f3c34bda6
+-  __AUTH_CONST.__objc_const: 0x16c28 sha256:f298cf1be2c6e9edfd7872e28d5032350b1f6959e13ff84981e352d1f46ff7f3
+-  __AUTH_CONST.__lazy_load_got: 0x10 sha256:1bd78031baff777af99056bf8b90a0ea9f9cde65530e37e4f6ea73ef64999b02
+-  __AUTH_CONST.__objc_intobj: 0xfa8 sha256:f0bc359af1b6a43128baf442b2671fcd92975c037ceb09cbafa8b4da0ef7fd64
+-  __AUTH_CONST.__objc_dictobj: 0xa0 sha256:c27ebed6bd60711303eab32b08981800b84abc9f46a37cce766def1112738b51
+-  __AUTH_CONST.__objc_arrayobj: 0xd8 sha256:baab8d03d0fffd9ce26c4ffbe04c223e89e90b118ec8d6f6298d346bd3c8f3ca
+-  __AUTH_CONST.__auth_got: 0x760 sha256:7db7237b6d90804bfb6ed0835cec260800baf202d40becbeac137fb18fa0dafe
+-  __AUTH.__objc_data: 0x1108 sha256:a94e0a614a89f1c4a45e92452a12ba49d5aefc62ca7d4e97ceca93ea9b8d66cc
+-  __DATA.__objc_ivar: 0x9fc sha256:b5d84604aca4304afa63eab27b422b71f8647341aff42a4cbbf6b3cfa8c7e4b0
+-  __DATA.__data: 0xf24 sha256:9d2a58891802ace986ffcf0af24ec921ece496a2079013dc8c6d7bb14cc98a43
+-  __DATA.__bss: 0xf0 sha256:2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537
+-  __DATA_DIRTY.__objc_data: 0x1798 sha256:4189c7ea020e69e78edb5d477eb4838b42a994cbd56303a6b0aa75f063e53d42
+-  __DATA_DIRTY.__bss: 0x240 sha256:1a0295f4bf5986c5f74eca9153a6a4cb10b073a01a76ba4a457fd862c78966a4
+-  - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
++  __DATA_CONST.__objc_selrefs: 0x4058 sha256:08f7cd475c0be56439622dfabaf0cb8cd40c347e46fa8343be2ff8e979e1e42e
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:17793eb196ac63a02f0d0a3410e629643f81eceb1d2f44619a132574a59f0b08
++  __DATA_CONST.__objc_superrefs: 0x260 sha256:a5b3369c4a29524d7d622cddeabae124a56d923e97074b59d858ea8b059d337c
++  __DATA_CONST.__objc_arraydata: 0x10 sha256:5e8f4bc7155c3dc4d497aa38bd87ac37653877d2b5e65a92dae6a6bb72bfb7ba
++  __DATA_CONST.__got: 0x788 sha256:c20c1e5770dfde408d148c73087f26e40911e1ff0da4173b274356f3bc245518
++  __AUTH_CONST.__const: 0x540 sha256:56b6c7c645f38d6b8f9442d4df35d06bf3916ada8b062a55a4fc1f62bab19f54
++  __AUTH_CONST.__cfstring: 0xe300 sha256:0f72a9ae1580ce90d722cf6553564d94cd2f9de20fa56c8f91f448076786d7a2
++  __AUTH_CONST.__objc_const: 0xddc0 sha256:a6668715e9117463f572d2adba29f198c54c63a2727090712cd35019fe1800e1
++  __AUTH_CONST.__lazy_load_got: 0x10 sha256:64b826874c90caa97816672ecb7d419257b284f3baaff9960a9c8b96e9c63339
++  __AUTH_CONST.__objc_intobj: 0xe28 sha256:280c7066a463e11ad97ed2b4b7cadc136a97cc1a7695ccc35330f95940e3b74a
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:a9136f472bc9f653ea0571ef4d30f65ce475814efc716b1cd4ffe727a3592e3e
++  __AUTH_CONST.__auth_got: 0x0
++  __AUTH.__objc_data: 0xf28 sha256:6f1d8195d1e4edac7482a38e5afa38642b24a8f86ec2612bf72ac99a1395378d
++  __DATA.__objc_ivar: 0x6c8 sha256:4b85aa4424a2f54d867c6c22153044cfef12d9b4c5f3a8a8cac0fcd011da1fbc
++  __DATA.__data: 0x984 sha256:a5f2625c052a688a5d3c86e43d700f25c101cdc194055091359c04a149fedcd9
++  __DATA.__bss: 0xa8 sha256:e3c2af35d1dfc500e16f826a071cc311bf55003a3de77de7ea3376c6b6fa2857
++  __DATA_DIRTY.__objc_data: 0xd48 sha256:7f4ae4613eb5876a1003d0eccc8c34bbf6e252e07df7e2466d5070e694dea529
++  __DATA_DIRTY.__bss: 0x1c0 sha256:5c55c8f4db4010ba9203d83536d0609856af8c847ac039e37e7dde8fbd574b61
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
+-  - /System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+   - /System/Library/Frameworks/Network.framework/Network
+-  - /System/Library/Frameworks/Security.framework/Security
+-  - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+-  - /System/Library/Frameworks/UIKit.framework/UIKit
+-  - /System/Library/PrivateFrameworks/AggregateDictionary.framework/AggregateDictionary
+   - /System/Library/PrivateFrameworks/AirTraffic.framework/AirTraffic
+-  - /System/Library/PrivateFrameworks/AppStoreDaemon.framework/AppStoreDaemon
+-  - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+-  - /System/Library/PrivateFrameworks/AssertionServices.framework/AssertionServices
+-  - /System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/BackgroundSystemTasks
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+-  - /System/Library/PrivateFrameworks/BatteryCenter.framework/BatteryCenter
+-  - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+   - /System/Library/PrivateFrameworks/CacheDelete.framework/CacheDelete
+   - /System/Library/PrivateFrameworks/CoreDuet.framework/CoreDuet
+   - /System/Library/PrivateFrameworks/CoreDuetContext.framework/CoreDuetContext
+   - /System/Library/PrivateFrameworks/CoreFollowUp.framework/CoreFollowUp
+-  - /System/Library/PrivateFrameworks/DeviceIdentity.framework/DeviceIdentity
+-  - /System/Library/PrivateFrameworks/DuetActivityScheduler.framework/DuetActivityScheduler
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+   - /System/Library/PrivateFrameworks/LockdownMode.framework/LockdownMode
+   - /System/Library/PrivateFrameworks/MDMClientLibrary.framework/MDMClientLibrary
+
+   - /System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote
+   - /System/Library/PrivateFrameworks/MobileAsset.framework/MobileAsset
+   - /System/Library/PrivateFrameworks/MobileBackup.framework/MobileBackup
+-  - /System/Library/PrivateFrameworks/MobileInBoxUpdate.framework/MobileInBoxUpdate
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/MobileSoftwareUpdate
+   - /System/Library/PrivateFrameworks/MobileWiFi.framework/MobileWiFi
+   - /System/Library/PrivateFrameworks/PersistentConnection.framework/PersistentConnection
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+-  - /System/Library/PrivateFrameworks/Seeding.framework/Seeding
+-  - /System/Library/PrivateFrameworks/SetupAssistant.framework/SetupAssistant
+   - /System/Library/PrivateFrameworks/SoftwareUpdateCore.framework/SoftwareUpdateCore
+   - /System/Library/PrivateFrameworks/SoftwareUpdateCoreSupport.framework/SoftwareUpdateCoreSupport
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libMobileGestalt.dylib
+-  - /usr/lib/libReverseProxyDevice.dylib
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libamsupport.dylib
+   - /usr/lib/libauthinstall.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/libz.1.dylib
+-  UUID: D7E489D4-0CC7-37E2-98F1-BA659BF7B93E
+-  Functions: 4762
+-  Symbols:   15675
+-  CStrings:  6454
++  UUID: 781C034C-39CA-3DBD-B6B6-3A40E28A01E1
++  Functions: 2688
++  Symbols:   9259
++  CStrings:  4044
+ 
+Symbols:
++ +[SUUtility stringForBGSystemTaskExpirationReasonMask:]
++ -[SUManagerClient dismissAllMiniAlerts]
++ -[SUManagerClient presentMiniAlertOfType:variant:]
++ GCC_except_table42
++ GCC_except_table44
++ GCC_except_table57
++ GCC_except_table83
++ _MAGetServerUrl
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_NSError_$_SUSpace
++ __OBJC_$_INSTANCE_METHODS_SUDescriptor(SUBattery)
++ __OBJC_$_INSTANCE_METHODS_SUDownload
++ __OBJC_$_INSTANCE_METHODS_SUScanOptions
++ ___39-[SUManagerClient dismissAllMiniAlerts]_block_invoke
++ ___50-[SUManagerClient presentMiniAlertOfType:variant:]_block_invoke
++ ___block_literal_global.1196
++ ___block_literal_global.1199
++ ___block_literal_global.1210
++ ___block_literal_global.1215
++ ___block_literal_global.1217
++ ___block_literal_global.1222
++ ___block_literal_global.1227
++ ___block_literal_global.1232
++ ___block_literal_global.1234
++ ___block_literal_global.1236
++ ___block_literal_global.1241
++ ___block_literal_global.1246
++ ___block_literal_global.1251
++ ___block_literal_global.1259
++ ___block_literal_global.1262
++ ___block_literal_global.2024
++ ___block_literal_global.2099
++ ___block_literal_global.2281
++ ___block_literal_global.382
++ ___block_literal_global.387
++ _objc_msgSend$dismissAllMiniAlerts
++ _objc_msgSend$presentMiniAlertOfType:variant:
+- +[SUAssetSupport assetDownloadOptionsForDocumentation]
+- +[SUAssetSupport assetDownloadOptionsFromMetadata:descriptor:priority:forBrain:]
+- +[SUAssetSupport defaultAssetDownloadOptionsWithPriority:]
+- +[SUAuthSSO sharedInstance]
+- +[SUAutoInstallManager rollbackRebootLaterTime]
+- +[SUAutoInstallStrategyCreater createStrategyWithType:delegate:schedulerQueue:]
+- +[SUDDMManager _NSNumberToTriState:]
+- +[SUDDMManager statePath]
+- +[SUDownloader purgeOptionsForDescriptor:downloadOptions:completionQueue:]
+- +[SUGameModeMonitor sharedMonitor]
+- +[SUInstaller purgeOptionsForDownloadOptions:spaceNeeded:completionQueue:]
+- +[SUManagedDeviceManager sharedInstance]
+- +[SUManagedDeviceManager sharedInstance].cold.1
+- +[SUManagerEngine SUCoreAudienceTypeToSUSAudienceType:]
+- +[SUManagerEngine SUCorePreferredTypeToSUSPreferenceType:]
+- +[SUManagerEngine SUDescriptorFromCoreDescriptor:]
+- +[SUManagerEngine SUDescriptorFromRollbackDescriptor:]
+- +[SUManagerEngine _generateStateTable]
+- +[SUManagerEngine rollbackDescriptorForSUCoreRollbackDescriptor:]
+- +[SUManagerEngine shouldHideInstallAlertForCoreDescriptor:]
+- +[SUManagerEngine softwareUpdateTypeForDescriptor:]
+- +[SUManagerEngine upgradeTypeForCoreDescriptor:]
+- +[SUManagerEngineDownloadDescriptor phaseToString:]
+- +[SUManagerInterfaceFactory sharedInstance]
+- +[SUManagerInterfaceFactory sharedInstance].cold.1
+- +[SUManagerServer sharedInstance]
+- +[SUManagerServer sharedInstance].cold.1
+- +[SUManagerServerClient _isStateForeground:visible:]
+- +[SUManagerServerClient _isStateMessagable:]
+- +[SUScanner typeForCoreDescriptor:]
+- +[SUScheduler sharedInstance]
+- +[SUScheduler sharedInstance].cold.1
+- +[SUServerConfigurationManager sharedInstance]
+- +[SUServerConfigurationManager sharedInstance].cold.1
+- +[SUTransactionManager sharedInstance]
+- +[SUTransactionManager sharedInstance].cold.1
+- +[SUUtility currentSupplementalBuild]
+- +[SUUtility currentSupplementalBuild].cold.1
+- -[NSError(SUInstaller) errorWithExtendedUserInfoFromOptions:]
+- -[NSError(SUS) isCatalogNotFound]
+- -[NSError(SUS) isNoMatchingUpdateFound]
+- -[NSError(SUS) isUpToDate]
+- -[SUAuthSSO _ensureSsoLib]
+- -[SUAuthSSO _getSsoToken]
+- -[SUAuthSSO invokeSSOAuth]
+- -[SUAutoInstallManager .cxx_destruct]
+- -[SUAutoInstallManager _createOperationModel]
+- -[SUAutoInstallManager _installAttemptDone]
+- -[SUAutoInstallManager _queue_canGetAutoInstallOperation]
+- -[SUAutoInstallManager _queue_cancelAutoInstallOperation:]
+- -[SUAutoInstallManager _queue_clearAutoInstallOperationForReason:disableKeybagStash:]
+- -[SUAutoInstallManager _queue_consentToAutoInstallOperation:]
+- -[SUAutoInstallManager _queue_currentAutoInstallOperationCreatingIfNecessary:notifyIfExpired:error:]
+- -[SUAutoInstallManager _queue_isAutoInstallOperationReadyToBegin]
+- -[SUAutoInstallManager _queue_isExpired]
+- -[SUAutoInstallManager _queue_noteAutoInstallOperationDidExpire]
+- -[SUAutoInstallManager _queue_noteAutoInstallOperationWantsToBeginWithSchedulerName:]
+- -[SUAutoInstallManager _queue_resumeOrResetStateIfNecessary]
+- -[SUAutoInstallManager _queue_setFailedToAutoInstallError:]
+- -[SUAutoInstallManager _queue_trySchedulingAnotherTimeInInstallWindow:]
+- -[SUAutoInstallManager cancelAutoInstallOperation:]
+- -[SUAutoInstallManager consentToAutoInstallOperation:]
+- -[SUAutoInstallManager copyAutoInstallOperationForecast:error:]
+- -[SUAutoInstallManager currentAutoInstallOperationCreatingIfNecessary:error:]
+- -[SUAutoInstallManager dealloc]
+- -[SUAutoInstallManager delegate]
+- -[SUAutoInstallManager downloadWasInvalidated:]
+- -[SUAutoInstallManager followUpController]
+- -[SUAutoInstallManager initWithManager:]
+- -[SUAutoInstallManager installDidFail:withError:]
+- -[SUAutoInstallManager installDidFinish:]
+- -[SUAutoInstallManager isAutoInstallOperationReadyToBegin]
+- -[SUAutoInstallManager isAutoUpdateEnabled]
+- -[SUAutoInstallManager isCurrentUpdateAutoUpdate]
+- -[SUAutoInstallManager keybagInterfacePasscodeDidChange:]
+- -[SUAutoInstallManager noteAutoInstallOperationDidExpire]
+- -[SUAutoInstallManager noteAutoInstallOperationUnlockWindowDidBegin]
+- -[SUAutoInstallManager noteAutoInstallOperationWantsToBeginWithSchedulerName:]
+- -[SUAutoInstallManager operationModel]
+- -[SUAutoInstallManager passcodePolicyInterface:passcodePolicyTypeChanged:]
+- -[SUAutoInstallManager passcodePolicy]
+- -[SUAutoInstallManager resumeOrResetStateIfNecessary]
+- -[SUAutoInstallManager setDelegate:]
+- -[SUAutoInstallManager setFailedToAutoInstallError:]
+- -[SUAutoInstallManager state]
+- -[SUAutoInstallManager trySchedulingAnotherTimeInInstallWindow:]
+- -[SUAutoInstallManager trySchedulingAutoInstallAgainLater]
+- -[SUAutoInstallManager unattendedInstallationKeybagCreated]
+- -[SUBGSTAutoInstallStrategy .cxx_destruct]
+- -[SUBGSTAutoInstallStrategy _queue_handleAutoInstallStart:]
+- -[SUBGSTAutoInstallStrategy _submitAutoInstallSystemTaskRequestWithIdentifier:withDate:forUpdate:]
+- -[SUBGSTAutoInstallStrategy autoInstallTaskCompleted]
+- -[SUBGSTAutoInstallStrategy autoInstallTaskExpiredByDAS]
+- -[SUBGSTAutoInstallStrategy autoInstallTask]
+- -[SUBGSTAutoInstallStrategy bgstScheduler]
+- -[SUBGSTAutoInstallStrategy cancelAutoInstallStartInstallTask]
+- -[SUBGSTAutoInstallStrategy delegate]
+- -[SUBGSTAutoInstallStrategy initWithDelegate:schedulerQueue:]
+- -[SUBGSTAutoInstallStrategy initWithDelegate:schedulerQueue:bgstScheduler:]
+- -[SUBGSTAutoInstallStrategy isAutoInstallTaskScheduled]
+- -[SUBGSTAutoInstallStrategy scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]
+- -[SUBGSTAutoInstallStrategy scheduleSimulatedAutoInstallTaskWithHandler:]
+- -[SUBGSTAutoInstallStrategy schedulerQueue]
+- -[SUBGSTAutoInstallStrategy setAutoInstallTask:]
+- -[SUBGSTAutoInstallStrategy setAutoInstallTaskExpiredByDAS:]
+- -[SUBGSTAutoInstallStrategy setBgstScheduler:]
+- -[SUBGSTAutoInstallStrategy shouldDeferAutoInstall]
+- -[SUBGSTAutoInstallStrategy type]
+- -[SUCoreDDMDeclaration(Special) isSpecial]
+- -[SUCoreDescriptor(SUS) isEqualToDescriptor:]
+- -[SUCoreDescriptor(SUS) isRevokedSplat]
+- -[SUCoreScanResults .cxx_destruct]
+- -[SUCoreScanResults alternateDescriptor]
+- -[SUCoreScanResults description]
+- -[SUCoreScanResults initWithPreferredDescriptor:alternateDescriptor:]
+- -[SUCoreScanResults latestUpdate]
+- -[SUCoreScanResults preferredDescriptor]
+- -[SUCoreScanResults setAlternateDescriptor:]
+- -[SUCoreScanResults setPreferredDescriptor:]
+- -[SUDDMManager .cxx_destruct]
+- -[SUDDMManager _cancelCurrentDownloadAndDownload:]
+- -[SUDDMManager _cancelScheduledDownloadRetryForReason:]
+- -[SUDDMManager _downloadRequestCompletedWithStatus:error:withDescriptor:]
+- -[SUDDMManager _evaluateAllDeclarations]
+- -[SUDDMManager _evaluateDeclarationsWithNewDeclaration:]
+- -[SUDDMManager _handleExistingDownload:targetUpdate:]
+- -[SUDDMManager _handleScanResults:]
+- -[SUDDMManager _initiateDownloadWithDescriptor:]
+- -[SUDDMManager _nonFatalScanError:]
+- -[SUDDMManager _notifyUI:]
+- -[SUDDMManager _purgeDownloadWithHandler:]
+- -[SUDDMManager _scanForUpdateForDeclaration:retryIfNecessary:]
+- -[SUDDMManager _scheduleDownloadRetryForReason:]
+- -[SUDDMManager _setActiveDeclaration:]
+- -[SUDDMManager activeDDMDeclarationEnfrocedSU]
+- -[SUDDMManager allDeclarationsIncludingSpecial:]
+- -[SUDDMManager alwaysEnableAutoDownload]
+- -[SUDDMManager alwaysEnableAutoInstallOSUpdates]
+- -[SUDDMManager alwaysEnableAutoInstallRapidSecurityResponse]
+- -[SUDDMManager cancelDDMDeclarationForKey:outError:]
+- -[SUDDMManager downloadDidFail:withError:]
+- -[SUDDMManager downloadDidFinish:withInstallPolicy:]
+- -[SUDDMManager downloadDidStart:]
+- -[SUDDMManager downloadWasInvalidated:]
+- -[SUDDMManager enableGlobalNotifications]
+- -[SUDDMManager enableRapidSecurityResponseRollback]
+- -[SUDDMManager enableRapidSecurityResponse]
+- -[SUDDMManager getActiveDDMDeclarationEnforcedSUWithResponse:]
+- -[SUDDMManager getDDMGlobalSettingsWithError:]
+- -[SUDDMManager getDescriptorWithCallback:]
+- -[SUDDMManager handleDDMDeclaration:outError:]
+- -[SUDDMManager initWithDelegate:]
+- -[SUDDMManager installDidFinish:]
+- -[SUDDMManager isDealyingUpdates]
+- -[SUDDMManager isManagedByDDM]
+- -[SUDDMManager manager]
+- -[SUDDMManager recommendedCadence]
+- -[SUDDMManager resumeOrResetStateIfNecessary]
+- -[SUDDMManager scanRequestDidFinishForOptions:results:error:]
+- -[SUDDMManager setDDMGlobalSettings:outError:]
+- -[SUDDMManager timeFiredForScheduler:withOptions:replyBlock:]
+- -[SUDDMManager updateDeferralPeriodDays]
+- -[SUDescriptor(DDM) isRelevantToDeclaration:]
+- -[SUDownload(Scanner) matchesScanResults:]
+- -[SUDownloader .cxx_destruct]
+- -[SUDownloader _changeDownloadPhase:progress:timeRemaining:]
+- -[SUDownloader _downloadFailedWithError:]
+- -[SUDownloader _downloadFinished:]
+- -[SUDownloader _downloadInvalidatedWithUpdates:]
+- -[SUDownloader _isWithinAutoDownloadWindowForPolicy:descriptor:]
+- -[SUDownloader _loadBrainOnUnlockCallback]
+- -[SUDownloader _notePhaseCompleted:]
+- -[SUDownloader _orderForPhase:]
+- -[SUDownloader _orderForPhase:].cold.1
+- -[SUDownloader _reapplyExistingDownloadPolicyIfDownloadable:]
+- -[SUDownloader _setDownloadDiscretionary:]
+- -[SUDownloader _shouldSendUpdatedProgressToDelegate]
+- -[SUDownloader _snapshotProgress]
+- -[SUDownloader _updateLastSavedDownloadsOptions:]
+- -[SUDownloader _updateNormalizedDownloadProgressAndNotifyDelegate]
+- -[SUDownloader _updateNormalizedDownloadProgress]
+- -[SUDownloader autoUpdateFound:downloadNow:]
+- -[SUDownloader brainLoadAttemptsForDescriptor]
+- -[SUDownloader brainLoadedForDescriptor]
+- -[SUDownloader cancelDownload:userRequested:keepDocAssets:error:]
+- -[SUDownloader cleanupPreviousDownloadState:]
+- -[SUDownloader core]
+- -[SUDownloader dealloc]
+- -[SUDownloader deviceIsUpToDate]
+- -[SUDownloader downloadAsset]
+- -[SUDownloader downloadCompleted:]
+- -[SUDownloader downloadCompleted:informClients:]
+- -[SUDownloader downloadProgress:]
+- -[SUDownloader downloadProgressSnapshotDate]
+- -[SUDownloader downloadProgressSnapshot]
+- -[SUDownloader downloadStateResetSinceStartup]
+- -[SUDownloader download]
+- -[SUDownloader endAutoDownloadTasksAndResetState]
+- -[SUDownloader ensureSSOTokenIfNeededForDownload:]
+- -[SUDownloader goNonDiscretionaryOnDownload]
+- -[SUDownloader initWithCore:]
+- -[SUDownloader isClearingSpace]
+- -[SUDownloader isDownloadHalted]
+- -[SUDownloader isDownloading]
+- -[SUDownloader isForeground]
+- -[SUDownloader isReadyForDownload:ignoreExistingDownload:error:]
+- -[SUDownloader isSplatDownload]
+- -[SUDownloader isUpdateDownloaded]
+- -[SUDownloader killDownload:userRequested:keepDocAssets:error:]
+- -[SUDownloader killDownload:userRequested:keepDocAssets:forUpdates:error:]
+- -[SUDownloader loadBrainForDescriptor]
+- -[SUDownloader loadBrainOnUnlockForDescriptor:]
+- -[SUDownloader needToWaitForUnlockForLoadingBrainForDescriptor:]
+- -[SUDownloader networkChangedFromNetworkType:toNetworkType:]
+- -[SUDownloader noteAutoDownloadFailedToStart:withError:]
+- -[SUDownloader noteAutoDownloadFailedToStartWithError:]
+- -[SUDownloader notifyClientOfClearingSpace:]
+- -[SUDownloader operatorBundleChanged]
+- -[SUDownloader resetDownloadStateOnStartup]
+- -[SUDownloader setBrainLoadAttemptsForDescriptor:]
+- -[SUDownloader setBrainLoadedForDescriptor:]
+- -[SUDownloader setClearingSpace:]
+- -[SUDownloader setCore:]
+- -[SUDownloader setDownload:]
+- -[SUDownloader setDownloadAsset:]
+- -[SUDownloader setDownloadProgressSnapshot:]
+- -[SUDownloader setDownloadProgressSnapshotDate:]
+- -[SUDownloader setDownloadStateResetSinceStartup:]
+- -[SUDownloader setDownloading:]
+- -[SUDownloader setForeground:]
+- -[SUDownloader setGoNonDiscretionaryOnDownload:]
+- -[SUDownloader setLoadBrainForDescriptor:]
+- -[SUDownloader slaVersion]
+- -[SUDownloader startDownloadWithOptions:withResult:]
+- -[SUDownloader tryAutoDownload]
+- -[SUDownloader updateDownloadOptions:error:]
+- -[SUGameModeMonitor .cxx_destruct]
+- -[SUGameModeMonitor _gameModeChangedTo:]
+- -[SUGameModeMonitor addDelegate:]
+- -[SUGameModeMonitor delegates]
+- -[SUGameModeMonitor inGameMode]
+- -[SUGameModeMonitor initForTesting]
+- -[SUGameModeMonitor init]
+- -[SUGameModeMonitor queue]
+- -[SUGameModeMonitor removeDelegate:]
+- -[SUGameModeMonitor setDelegates:]
+- -[SUGameModeMonitor setQueue:]
+- -[SUInstaller .cxx_destruct]
+- -[SUInstaller _isUpdateReadyForInstallationWithOptions:error:shouldRetry:]
+- -[SUInstaller _isUpdateReadyForInstallationWithOptions:forceCleanup:withReplyHandler:]
+- -[SUInstaller autoSUFailedWithError:]
+- -[SUInstaller core]
+- -[SUInstaller ensureSSOTokenIfNeededForInstall:]
+- -[SUInstaller getInstallationConstraintsForDownload:allowDiskCleanupIfNeeded:forceDiskCleanupIfNeeded:options:]
+- -[SUInstaller getInstallationConstraintsForDownload:allowDiskCleanupIfNeeded:forceDiskCleanupIfNeeded:options:completionQueue:completion:]
+- -[SUInstaller initWithCore:]
+- -[SUInstaller installCompleted:]
+- -[SUInstaller installDeviceLockAssertion]
+- -[SUInstaller installPolicy]
+- -[SUInstaller installUpdateWithInstallOptions:withResult:]
+- -[SUInstaller isInstallRetrying]
+- -[SUInstaller isInstallTonightScheduled]
+- -[SUInstaller isInstallTonight]
+- -[SUInstaller isInstalled]
+- -[SUInstaller isInstallerReadyForInstallationWithOptions:error:ShouldRetry:]
+- -[SUInstaller isInstalling]
+- -[SUInstaller isUpdateReadyForInstallationWithOptions:replyHandler:]
+- -[SUInstaller managedInstallRequested]
+- -[SUInstaller passcodePolicy]
+- -[SUInstaller setCore:]
+- -[SUInstaller setInstallDeviceLockAssertion:]
+- -[SUInstaller setInstallPolicy:]
+- -[SUInstaller setInstallRetrying:]
+- -[SUInstaller setInstalled:]
+- -[SUInstaller setInstalling:]
+- -[SUInstaller setIsInstallTonight:]
+- -[SUInstaller setIsInstallTonightScheduled:]
+- -[SUInstaller setPasscodePolicy:]
+- -[SUInstaller updateInstallPolicyAutoUpdateEnabled:]
+- -[SUInstaller updateInstallPolicyClientName:]
+- -[SUInstaller updateInstallPolicyDarkBootEnabled:]
+- -[SUInstaller updateInstallPolicyType:]
+- -[SUInstaller verifyConstraintsMetForInstallationWithOptions:error:]
+- -[SUManagedDeviceManager .cxx_destruct]
+- -[SUManagedDeviceManager MCPathToSUMDMPath:]
+- -[SUManagedDeviceManager allowSplatRollback]
+- -[SUManagedDeviceManager allowSplat]
+- -[SUManagedDeviceManager dealloc]
+- -[SUManagedDeviceManager delayPeriodInDays]
+- -[SUManagedDeviceManager delegate]
+- -[SUManagedDeviceManager init]
+- -[SUManagedDeviceManager isDelayingUpdates]
+- -[SUManagedDeviceManager isManagedByMDM]
+- -[SUManagedDeviceManager mdmDelay]
+- -[SUManagedDeviceManager profileChanged]
+- -[SUManagedDeviceManager refreshAssetAudience]
+- -[SUManagedDeviceManager registerProfileChangeListener]
+- -[SUManagedDeviceManager setAssetAudience:]
+- -[SUManagedDeviceManager setDelegate:]
+- -[SUManagedDeviceManager setMdmDelay:]
+- -[SUManagedDeviceManager softwareUpdatePathRestriction]
+- -[SUManagedDeviceManager unregisterProfileChangeListener]
+- -[SUManagerCore .cxx_destruct]
+- -[SUManagerCore _checkAndPostSplatFollowUpIfNeeded]
+- -[SUManagerCore _isUpdateDownloadable:downloadOptions:error:]
+- -[SUManagerCore _loadBrainOnUnlockCallback]
+- -[SUManagerCore _notifyEngineOnUnlock]
+- -[SUManagerCore _persistStash]
+- -[SUManagerCore _presentAutoUpdateBannerOnUnlock]
+- -[SUManagerCore _recordLastUnlockTimePostPrepare]
+- -[SUManagerCore _resumeFromLastKnownState]
+- -[SUManagerCore activated:]
+- -[SUManagerCore addUnlockCallback:forKey:]
+- -[SUManagerCore alternateAssetToDownloadFromLastScan]
+- -[SUManagerCore alternateLastScannedDescriptor]
+- -[SUManagerCore assetAudienceChanged:]
+- -[SUManagerCore autoSUFailedWithError:]
+- -[SUManagerCore autoScanAndDownloadIfAvailable:downloadNow:withResult:]
+- -[SUManagerCore autoScanAndDownloadIfAvailable:withResult:]
+- -[SUManagerCore autoUpdateFound:downloadNow:]
+- -[SUManagerCore badgeSettingsForManualSoftwareUpdate:]
+- -[SUManagerCore cancelDownload:userRequested:keepDocAssets:error:]
+- -[SUManagerCore cleanupPreviousDownloadState]
+- -[SUManagerCore clearBadgeAndBanner]
+- -[SUManagerCore clearKeybagStash]
+- -[SUManagerCore clearUnlockCallbacks]
+- -[SUManagerCore coreDescriptorForBuildVersion:versionExtra:isSplombo:]
+- -[SUManagerCore coreDescriptorForSUDescriptor:]
+- -[SUManagerCore coreReporter]
+- -[SUManagerCore createInstallationKeybag:withResult:]
+- -[SUManagerCore ddmManager]
+- -[SUManagerCore delegate]
+- -[SUManagerCore deviceIsUpToDateForSU:forSplat:]
+- -[SUManagerCore disableReserveSpace:]
+- -[SUManagerCore discoveryDateForBuildVersion:]
+- -[SUManagerCore dismissAutoUpdateBanner]
+- -[SUManagerCore dismissInsufficientDiskSpaceFollowupForUpdate:orForce:]
+- -[SUManagerCore dismissLegacyFollowUps]
+- -[SUManagerCore dismissSplatFollowUp]
+- -[SUManagerCore doUnlockEvents]
+- -[SUManagerCore downloadAsset]
+- -[SUManagerCore downloadCompleted:]
+- -[SUManagerCore downloadCompleted:informClients:]
+- -[SUManagerCore downloadProgress:]
+- -[SUManagerCore download]
+- -[SUManagerCore downloader]
+- -[SUManagerCore endAutoDownloadTasksAndResetState]
+- -[SUManagerCore engine]
+- -[SUManagerCore externWorkQueue]
+- -[SUManagerCore followUpController]
+- -[SUManagerCore fullyUnrampedDateForBuildVersion:]
+- -[SUManagerCore init]
+- -[SUManagerCore installCompleted:]
+- -[SUManagerCore installPolicy]
+- -[SUManagerCore installTonightConfigDictionary]
+- -[SUManagerCore installUpdateWithInstallOptions:withResult:]
+- -[SUManagerCore installer]
+- -[SUManagerCore isAutoUpdateEnabled]
+- -[SUManagerCore isClearingSpace]
+- -[SUManagerCore isDescriptorAutoDownloadable:]
+- -[SUManagerCore isDescriptorAutoUpdatable:]
+- -[SUManagerCore isDownloading]
+- -[SUManagerCore isForeground]
+- -[SUManagerCore isInstallTonightScheduled]
+- -[SUManagerCore isInstallTonight]
+- -[SUManagerCore isInstalled]
+- -[SUManagerCore isInstalling]
+- -[SUManagerCore isScanning]
+- -[SUManagerCore isUpdateDownloaded]
+- -[SUManagerCore isUpdateReadyForInstallationWithOptions:replyHandler:]
+- -[SUManagerCore keybagInterface:passcodeLockedStateDidChange:]
+- -[SUManagerCore killDownload:userRequested:keepDocAssets:error:]
+- -[SUManagerCore killDownload:userRequested:keepDocAssets:forUpdates:error:]
+- -[SUManagerCore lastScannedDescriptorScanOptions]
+- -[SUManagerCore lastStashbagPersistedDate]
+- -[SUManagerCore loadBrainOnUnlock]
+- -[SUManagerCore loadSavedState]
+- -[SUManagerCore managedDeviceManager]
+- -[SUManagerCore mandatoryUpdateDictionary]
+- -[SUManagerCore networkMonitorDetectOverrides]
+- -[SUManagerCore newInstallTonightConfig]
+- -[SUManagerCore noteAutoDownloadFailedToStartWithError:]
+- -[SUManagerCore observers]
+- -[SUManagerCore overrideSoftwareUpdateReserve:systemGrowthMarginSize:]
+- -[SUManagerCore passcodePolicy]
+- -[SUManagerCore persistStashOnUnlock]
+- -[SUManagerCore preferences:didChangePreference:toValue:]
+- -[SUManagerCore preferredAssetToDownloadFromLastScan]
+- -[SUManagerCore preferredLastScannedDescriptor]
+- -[SUManagerCore presentAutoUpdateBanner:]
+- -[SUManagerCore removeUnlockCallback:]
+- -[SUManagerCore reportStartedFromPersistedState]
+- -[SUManagerCore resetDownloadStateOnCleanActivation]
+- -[SUManagerCore resetDownloadState]
+- -[SUManagerCore resumeOrDisableReserveSpace]
+- -[SUManagerCore resumeOrResetIfNecessary]
+- -[SUManagerCore rollback]
+- -[SUManagerCore scanForUpdates:complete:]
+- -[SUManagerCore scanner]
+- -[SUManagerCore scheduleSplatFollowUpDate:]
+- -[SUManagerCore sendUnlockNotifications:]
+- -[SUManagerCore sessionID]
+- -[SUManagerCore setAlternateLastScannedDescriptor:]
+- -[SUManagerCore setCoreReporter:]
+- -[SUManagerCore setDelegate:]
+- -[SUManagerCore setDownloader:]
+- -[SUManagerCore setDownloading:]
+- -[SUManagerCore setEngine:]
+- -[SUManagerCore setFollowUpController:]
+- -[SUManagerCore setForeground:]
+- -[SUManagerCore setInstallPolicy:]
+- -[SUManagerCore setInstaller:]
+- -[SUManagerCore setIsInstallTonight:]
+- -[SUManagerCore setIsInstallTonightScheduled:]
+- -[SUManagerCore setIsUpdateDownloaded:]
+- -[SUManagerCore setLastStashbagPersistedDate:]
+- -[SUManagerCore setMandatoryUpdateDictionary:]
+- -[SUManagerCore setPasscodePolicy:]
+- -[SUManagerCore setPreferredLastScannedDescriptor:]
+- -[SUManagerCore setReportStartedFromPersistedState:]
+- -[SUManagerCore setResetDownloadStateOnCleanActivation:]
+- -[SUManagerCore setRollback:]
+- -[SUManagerCore setScanner:]
+- -[SUManagerCore setSessionID:]
+- -[SUManagerCore setTracker:]
+- -[SUManagerCore showInsufficientDiskSpaceFollowupForUpdate:]
+- -[SUManagerCore slaVersion]
+- -[SUManagerCore softwareUpdateReserveSizes]
+- -[SUManagerCore startDownloadWithMetadata:withResult:]
+- -[SUManagerCore startDownloadWithOptions:withResult:]
+- -[SUManagerCore state]
+- -[SUManagerCore tracker]
+- -[SUManagerCore tryAutoDownload]
+- -[SUManagerCore unbadgeSettingsForManualSoftwareUpdate]
+- -[SUManagerCore unlockCallbacks]
+- -[SUManagerCore unscheduleRecommendedUpdateNotification]
+- -[SUManagerCore updateDownloadMetadata:withResult:]
+- -[SUManagerCore updateDownloadOptions:withResult:]
+- -[SUManagerCore updateInstallPolicyAutoUpdateEnabled:]
+- -[SUManagerCore updateInstallPolicyType:]
+- -[SUManagerCore updateToAutoDownload]
+- -[SUManagerCore updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]
+- -[SUManagerCore workQueue]
+- -[SUManagerCore(Analytics) _augmentCoreAnalyticsEvent:withUpdate:]
+- -[SUManagerCore(Analytics) _createCoreAnalyticsEventWithCurrentDownloadFor:error:]
+- -[SUManagerCore(Analytics) _describeAndReportEvent:policy:primaryDescriptor:alternateDescriptor:additionalMetrics:]
+- -[SUManagerCore(Analytics) _getAmountDataAvailable]
+- -[SUManagerCore(Analytics) _preallocatedSpaceMetricInfo]
+- -[SUManagerCore(Analytics) _reportOTAEvent:withStatus:policy:descriptor:additionalMetrics:error:]
+- -[SUManagerCore(Analytics) _reportOTAEvent:withStatus:policy:primaryDescriptor:alternateDescriptor:additionalMetrics:error:]
+- -[SUManagerCore(Analytics) _reportRollbackEvent:withInfo:buildVersion:]
+- -[SUManagerCore(Analytics) _submitCoreAnalyticsEvent:]
+- -[SUManagerCore(Analytics) donateSUErrorToBiome:]
+- -[SUManagerCore(Analytics) donateSuccessToBiomeFor:]
+- -[SUManagerCore(Analytics) eventRecordingServiceURL:]
+- -[SUManagerCore(Analytics) reportCoreAnalyticsOTAAbandonedEvent:]
+- -[SUManagerCore(Analytics) reportCoreAnalyticsOTAAvailableEvent:]
+- -[SUManagerCore(Analytics) reportCoreAnalyticsOTADownloadedEvent]
+- -[SUManagerCore(Analytics) reportCoreAnalyticsOTAStartedDownloadingEvent:]
+- -[SUManagerCore(Analytics) reportOTAAbandonedEventWithError:]
+- -[SUManagerCore(Analytics) reportOTAAbandonedEventWithError:additionalMetrics:]
+- -[SUManagerCore(Analytics) reportOTAAbandonedEvent]
+- -[SUManagerCore(Analytics) reportOTAAutoTriggeredEventWithAdditionalMetrics:]
+- -[SUManagerCore(Analytics) reportOTAAvailableEvent:]
+- -[SUManagerCore(Analytics) reportOTADownloadedEvent:]
+- -[SUManagerCore(Analytics) reportOTAInstalledEvent]
+- -[SUManagerCore(Analytics) reportOTAStartedDownloadingEvent:]
+- -[SUManagerCore(Analytics) reportPostponedEvent:withStatus:]
+- -[SUManagerCore(Analytics) reportPostponedEvent:withStatus:withAdditionalMetrics:]
+- -[SUManagerCore(Analytics) reportRSRRollbackSuggestedEventWithDescriptor:rollbackSuggestionInfo:]
+- -[SUManagerCore(Analytics) reportRSRRollbackSuggestedEventWithRollbackDescriptor:rollbackSuggestionInfo:]
+- -[SUManagerCore(Analytics) reportSimulatedOTAAutoTriggeredEventWithAdditionalMetrics:]
+- -[SUManagerCore(Analytics) reporterFlushEvent]
+- -[SUManagerCore(Analytics) rollbackSuggestionReasonFromSUReason:]
+- -[SUManagerCore(Analytics) setRollbackValue:forKey:count:event:]
+- -[SUManagerCore(MDM) amendManagedScanOptions:withResponse:]
+- -[SUManagerCore(MDM) delayEndDate]
+- -[SUManagerCore(MDM) isDelayingUpdates]
+- -[SUManagerCore(MDM) isManaged]
+- -[SUManagerCore(MDM) managedInstallRequested]
+- -[SUManagerCore(MDM) softwareUpdatePathRestriction]
+- -[SUManagerCore(MDM) updatesDelayPeriodSeconds]
+- -[SUManagerCore(Splat) eligibleRollbackWithOptions:]
+- -[SUManagerCore(Splat) isRollingBack]
+- -[SUManagerCore(Splat) isSplatOnlyUpdateRollbackSuggested]
+- -[SUManagerCore(Splat) isSplatRollbackAllowed:]
+- -[SUManagerCore(Splat) isSplatRollbackEnabled]
+- -[SUManagerCore(Splat) presentRollbackSuggestionAlertWithDescriptor:info:]
+- -[SUManagerCore(Splat) presentRollbackSuggestionFollowUpWithCoreDescriptor:info:]
+- -[SUManagerCore(Splat) presentRollbackSuggestionFollowUpWithRollbackDescriptor:info:]
+- -[SUManagerCore(Splat) previousRollbackWithOptions:]
+- -[SUManagerCore(Splat) revokedUpdateFound:]
+- -[SUManagerCore(Splat) rollbackCompleted:withError:]
+- -[SUManagerCore(Splat) rollbackReadyForReboot]
+- -[SUManagerCore(Splat) rollbackStarted:]
+- -[SUManagerCore(Splat) rollbackUpdateWithOptions:withResult:]
+- -[SUManagerCore(Splat) securityResponseRollbackSuggested:withResult:]
+- -[SUManagerCore(Splat) shouldShowRollbackSuggestionAlert:error:]
+- -[SUManagerCore(Splat) splatUpdatesAllowed]
+- -[SUManagerCore(Splat) suggestRollback:rollbackDescriptor:withResult:]
+- -[SUManagerEngine .cxx_destruct]
+- -[SUManagerEngine SUOperationProgressFromSUCoreProgress:]
+- -[SUManagerEngine _queue_cancelLockAssertion]
+- -[SUManagerEngine _queue_createBrainLoadLockAssertion:]
+- -[SUManagerEngine _updatePolicyFactoryMetricEventFields:updateUUID:cleanupLevel:]
+- -[SUManagerEngine actionHelper_ReportApplyFailed:]
+- -[SUManagerEngine actionHelper_ReportDownloadFailedRollingBack]
+- -[SUManagerEngine actionHelper_ReportInstallFailedNoUpdate]
+- -[SUManagerEngine actionHelper_ReportInstallFailedRollingBack]
+- -[SUManagerEngine actionHelper_ReportPrepared:]
+- -[SUManagerEngine actionHelper_ReportRemoveFailedRollingBack]
+- -[SUManagerEngine actionHelper_ReportRollbackCompleted:withError:]
+- -[SUManagerEngine actionUnknownAction:error:]
+- -[SUManagerEngine action_Activated:error:]
+- -[SUManagerEngine action_ActivatedClean:error:]
+- -[SUManagerEngine action_ActivatedHelper:]
+- -[SUManagerEngine action_ArmInstallOrFail:error:]
+- -[SUManagerEngine action_BrainLoaded:error:]
+- -[SUManagerEngine action_Cancel:error:]
+- -[SUManagerEngine action_CanceledDownloadRequested:error:]
+- -[SUManagerEngine action_CheckLockAndNetwork:error:]
+- -[SUManagerEngine action_DownloadAndPrepare:error:]
+- -[SUManagerEngine action_HandleCanceledPendingRollback:error:]
+- -[SUManagerEngine action_HandlePendingDownload:error:]
+- -[SUManagerEngine action_HandlePendingRollback:error:]
+- -[SUManagerEngine action_InstallArmed:error:]
+- -[SUManagerEngine action_InstallUpdate:error:]
+- -[SUManagerEngine action_LoadBrain:error:]
+- -[SUManagerEngine action_NewDownloadPending:error:]
+- -[SUManagerEngine action_Prepare:error:]
+- -[SUManagerEngine action_ReloadBrain:error:]
+- -[SUManagerEngine action_RemoveAll:error:]
+- -[SUManagerEngine action_RemoveAllPreserveCache:error:]
+- -[SUManagerEngine action_RemovePreserving:error:]
+- -[SUManagerEngine action_ReportApplyFailed:error:]
+- -[SUManagerEngine action_ReportApplyFailedRemoveAll:error:]
+- -[SUManagerEngine action_ReportAwaitingReboot:error:]
+- -[SUManagerEngine action_ReportDownloadAwaitingReboot:error:]
+- -[SUManagerEngine action_ReportDownloadFailedNoUpdate:error:]
+- -[SUManagerEngine action_ReportDownloadFailedRemoveAll:error:]
+- -[SUManagerEngine action_ReportDownloadFailedRollingBack:error:]
+- -[SUManagerEngine action_ReportDownloadInstalling:error:]
+- -[SUManagerEngine action_ReportDownloadProgress:error:]
+- -[SUManagerEngine action_ReportInstallAwaitingReboot:error:]
+- -[SUManagerEngine action_ReportInstallFailedNoUpdate:error:]
+- -[SUManagerEngine action_ReportInstallFailedRollingBack:error:]
+- -[SUManagerEngine action_ReportPrepared:error:]
+- -[SUManagerEngine action_ReportPreparedSet:error:]
+- -[SUManagerEngine action_ReportRemoveAwaitingReboot:error:]
+- -[SUManagerEngine action_ReportRemoveFailedRollingBack:error:]
+- -[SUManagerEngine action_ReportRemoveInstalling:error:]
+- -[SUManagerEngine action_ReportRollbackAwaitingReboot:error:]
+- -[SUManagerEngine action_ReportRollbackFailed:error:]
+- -[SUManagerEngine action_ReportRollbackInstalling:error:]
+- -[SUManagerEngine action_ReportRollbackSucceeded:error:]
+- -[SUManagerEngine action_Resume:error:]
+- -[SUManagerEngine action_RollbackUpdate:error:]
+- -[SUManagerEngine activateLoadingPersisted:]
+- -[SUManagerEngine activated]
+- -[SUManagerEngine activating]
+- -[SUManagerEngine activeScanner]
+- -[SUManagerEngine applyAttemptFailed:]
+- -[SUManagerEngine availableRollback]
+- -[SUManagerEngine cancelLockAssertion]
+- -[SUManagerEngine createBrainLoadLockAssertion:]
+- -[SUManagerEngine downloadDescriptor]
+- -[SUManagerEngine downloadUpdate:]
+- -[SUManagerEngine engineFSM]
+- -[SUManagerEngine engineLog]
+- -[SUManagerEngine engineName]
+- -[SUManagerEngine initWithDelegate:]
+- -[SUManagerEngine installUpdate:]
+- -[SUManagerEngine isBrainNetworkError:]
+- -[SUManagerEngine isBrainReloadError:]
+- -[SUManagerEngine isManagedScan]
+- -[SUManagerEngine loadBrainHelper:]
+- -[SUManagerEngine loadBrainRetries]
+- -[SUManagerEngine lockAssertion]
+- -[SUManagerEngine managerDelegate]
+- -[SUManagerEngine notifyRollbackStarted:]
+- -[SUManagerEngine onUnlock]
+- -[SUManagerEngine pathSatisficationStatusChangedTo:]
+- -[SUManagerEngine pendingManagedScanParams]
+- -[SUManagerEngine pendingPurgeParams]
+- -[SUManagerEngine performAction:onEvent:inState:withInfo:nextState:error:]
+- -[SUManagerEngine policyFactory]
+- -[SUManagerEngine previousRollback]
+- -[SUManagerEngine refreshInstallTonightConfig:]
+- -[SUManagerEngine removeUpdateKeepingDocAssets:]
+- -[SUManagerEngine resetPolicy]
+- -[SUManagerEngine rollbackAttemptFailed:withError:]
+- -[SUManagerEngine rollbackPolicy]
+- -[SUManagerEngine rollbackUUID]
+- -[SUManagerEngine rollbackUpdateWithOptions:]
+- -[SUManagerEngine setActivated:]
+- -[SUManagerEngine setActivating:]
+- -[SUManagerEngine setActiveScanner:]
+- -[SUManagerEngine setDownloadDescriptor:]
+- -[SUManagerEngine setEngineFSM:]
+- -[SUManagerEngine setIsManagedScan:]
+- -[SUManagerEngine setLoadBrainRetries:]
+- -[SUManagerEngine setLockAssertion:]
+- -[SUManagerEngine setPendingManagedScanParams:]
+- -[SUManagerEngine setPendingPurgeParams:]
+- -[SUManagerEngine setPolicyFactory:]
+- -[SUManagerEngine setRollbackUUID:]
+- -[SUManagerEngine setUpdateControl:]
+- -[SUManagerEngine stateTable]
+- -[SUManagerEngine updateAnomaly:]
+- -[SUManagerEngine updateApplied]
+- -[SUManagerEngine updateAssetDownloadPreflighted]
+- -[SUManagerEngine updateAssetDownloadProgress:]
+- -[SUManagerEngine updateAssetDownloadStalled:]
+- -[SUManagerEngine updateAssetDownloaded:]
+- -[SUManagerEngine updateAttemptFailed:]
+- -[SUManagerEngine updateBrainLoadProgress:]
+- -[SUManagerEngine updateBrainLoadStalled:]
+- -[SUManagerEngine updateBrainLoaded:]
+- -[SUManagerEngine updateCanceled]
+- -[SUManagerEngine updateControl]
+- -[SUManagerEngine updatePolicy]
+- -[SUManagerEngine updatePrepareProgress:]
+- -[SUManagerEngine updatePrepared:]
+- -[SUManagerEngine updateRolledBack:]
+- -[SUManagerEngineDownloadDescriptor .cxx_destruct]
+- -[SUManagerEngineDownloadDescriptor armInstall:]
+- -[SUManagerEngineDownloadDescriptor asset]
+- -[SUManagerEngineDownloadDescriptor atPhase]
+- -[SUManagerEngineDownloadDescriptor cleanupLevel]
+- -[SUManagerEngineDownloadDescriptor coreDescriptor]
+- -[SUManagerEngineDownloadDescriptor disarmInstall]
+- -[SUManagerEngineDownloadDescriptor downloadOptions]
+- -[SUManagerEngineDownloadDescriptor initWithAsset:releaseDate:sessionID:scanOptions:downloadOptions:installTonightConfig:coreDescriptor:downloadAtPhase:cleanupLevel:]
+- -[SUManagerEngineDownloadDescriptor installOptions]
+- -[SUManagerEngineDownloadDescriptor installTonightConfig]
+- -[SUManagerEngineDownloadDescriptor releaseDate]
+- -[SUManagerEngineDownloadDescriptor resetPhase]
+- -[SUManagerEngineDownloadDescriptor scanOptions]
+- -[SUManagerEngineDownloadDescriptor sessionID]
+- -[SUManagerEngineDownloadDescriptor setAsset:]
+- -[SUManagerEngineDownloadDescriptor setAtPhase:]
+- -[SUManagerEngineDownloadDescriptor setCleanupLevel:]
+- -[SUManagerEngineDownloadDescriptor setCoreDescriptor:]
+- -[SUManagerEngineDownloadDescriptor setDownloadOptions:]
+- -[SUManagerEngineDownloadDescriptor setInstallOptions:]
+- -[SUManagerEngineDownloadDescriptor setInstallTonightConfig:]
+- -[SUManagerEngineDownloadDescriptor setReleaseDate:]
+- -[SUManagerEngineDownloadDescriptor setScanOptions:]
+- -[SUManagerEngineDownloadDescriptor setSessionID:]
+- -[SUManagerEngineDownloadDescriptor summary]
+- -[SUManagerEngineParam .cxx_destruct]
+- -[SUManagerEngineParam _descriptionBlank]
+- -[SUManagerEngineParam _descriptionDownloadDescriptor]
+- -[SUManagerEngineParam _descriptionErrorWithDescriptor]
+- -[SUManagerEngineParam _descriptionError]
+- -[SUManagerEngineParam _descriptionInstallOptions]
+- -[SUManagerEngineParam _descriptionProgress]
+- -[SUManagerEngineParam _descriptionPurge]
+- -[SUManagerEngineParam _descriptionRollbackOptions]
+- -[SUManagerEngineParam _descriptionRollback]
+- -[SUManagerEngineParam _descriptionScanPolicy]
+- -[SUManagerEngineParam _descriptionUnknown]
+- -[SUManagerEngineParam description]
+- -[SUManagerEngineParam downloadDescriptor]
+- -[SUManagerEngineParam error]
+- -[SUManagerEngineParam initWithDescriptor:andError:]
+- -[SUManagerEngineParam initWithDownloadDescriptor:]
+- -[SUManagerEngineParam initWithError:]
+- -[SUManagerEngineParam initWithInstallOptions:]
+- -[SUManagerEngineParam initWithProgress:]
+- -[SUManagerEngineParam initWithPurgeOptions:withError:]
+- -[SUManagerEngineParam initWithRollback:]
+- -[SUManagerEngineParam initWithRollback:withError:]
+- -[SUManagerEngineParam initWithRollbackOptions:]
+- -[SUManagerEngineParam initWithScanPolicy:scanUUID:isManaged:]
+- -[SUManagerEngineParam initWithSkipPreSUStagingPurge:]
+- -[SUManagerEngineParam init]
+- -[SUManagerEngineParam installOptions]
+- -[SUManagerEngineParam isManaged]
+- -[SUManagerEngineParam paramType]
+- -[SUManagerEngineParam progress]
+- -[SUManagerEngineParam rollbackOptions]
+- -[SUManagerEngineParam rollback]
+- -[SUManagerEngineParam scanPolicy]
+- -[SUManagerEngineParam scanUUID]
+- -[SUManagerEngineParam skipDocAssetsPurge]
+- -[SUManagerEngineParam skipPreSUStagingAssetsPurge]
+- -[SUManagerPolicy .cxx_destruct]
+- -[SUManagerPolicy addObserver:]
+- -[SUManagerPolicy addUnlockCallback:forKey:]
+- -[SUManagerPolicy alternateLastScannedDescriptor]
+- -[SUManagerPolicy autoSUFailedWithError:]
+- -[SUManagerPolicy autoScanAndDownloadIfAvailable:]
+- -[SUManagerPolicy autoScanAndDownloadIfAvailable:downloadNow:withResult:]
+- -[SUManagerPolicy autoScanAndDownloadIfAvailable:withResult:]
+- -[SUManagerPolicy badgeSettingsForManualSoftwareUpdate:]
+- -[SUManagerPolicy cancelDownloadWithOptions:withResult:]
+- -[SUManagerPolicy checkAndPostSplatFollowUpIfNeeded]
+- -[SUManagerPolicy core]
+- -[SUManagerPolicy createInstallationKeybag:withResult:]
+- -[SUManagerPolicy delayEndDate]
+- -[SUManagerPolicy delegate]
+- -[SUManagerPolicy destroyInstallationKeybag]
+- -[SUManagerPolicy disableReserveSpace:withResult:]
+- -[SUManagerPolicy dismissAutoUpdateBanner]
+- -[SUManagerPolicy dismissSplatFollowUp]
+- -[SUManagerPolicy download]
+- -[SUManagerPolicy eligibleRollbackWithOptions:]
+- -[SUManagerPolicy endAutoDownloadTasksAndResetState]
+- -[SUManagerPolicy initWithCore:]
+- -[SUManagerPolicy init]
+- -[SUManagerPolicy installPolicy]
+- -[SUManagerPolicy installUpdateWithInstallOptions:withResult:]
+- -[SUManagerPolicy isAutoUpdateEnabled]
+- -[SUManagerPolicy isClearingSpace]
+- -[SUManagerPolicy isCurrentUpdateAutoUpdate]
+- -[SUManagerPolicy isDelayingUpdates]
+- -[SUManagerPolicy isDownloaded]
+- -[SUManagerPolicy isDownloading]
+- -[SUManagerPolicy isForeground]
+- -[SUManagerPolicy isInstallTonightScheduled]
+- -[SUManagerPolicy isInstallTonight]
+- -[SUManagerPolicy isInstalling]
+- -[SUManagerPolicy isRollingBack]
+- -[SUManagerPolicy isScanning]
+- -[SUManagerPolicy isSplatOnlyUpdateRollbackSuggested]
+- -[SUManagerPolicy isUpdateReadyForInstallationWithOptions:withResult:]
+- -[SUManagerPolicy loadBrainOnUnlock]
+- -[SUManagerPolicy managedInstallRequested]
+- -[SUManagerPolicy mandatoryUpdateDictionary]
+- -[SUManagerPolicy networkMonitorDetectOverrides]
+- -[SUManagerPolicy noteAutoDownloadFailedToStartWithError:]
+- -[SUManagerPolicy overrideSoftwareUpdateReserve:systemGrowthMarginSize:withResult:]
+- -[SUManagerPolicy passcodePolicy]
+- -[SUManagerPolicy pauseDownload:]
+- -[SUManagerPolicy persistStashOnUnlock]
+- -[SUManagerPolicy preferredLastScannedDescriptor]
+- -[SUManagerPolicy presentAutoUpdateBanner:]
+- -[SUManagerPolicy previousRollbackWithOptions:]
+- -[SUManagerPolicy purgeDownloadWithOptions:withResult:]
+- -[SUManagerPolicy removeObserver:]
+- -[SUManagerPolicy removeUnlockCallback:]
+- -[SUManagerPolicy reportOTAAutoTriggeredEventWithAdditionalMetrics:]
+- -[SUManagerPolicy reportPostponedEvent:withStatus:]
+- -[SUManagerPolicy reportSimulatedOTAAutoTriggeredEventWithAdditionalMetrics:]
+- -[SUManagerPolicy resumeDownload:]
+- -[SUManagerPolicy resumeOrResetIfNecessary]
+- -[SUManagerPolicy rollbackReadyForReboot]
+- -[SUManagerPolicy rollbackUpdateWithOptions:withResult:]
+- -[SUManagerPolicy scanForUpdates:complete:]
+- -[SUManagerPolicy securityResponseRollbackSuggested:withResult:]
+- -[SUManagerPolicy setCore:]
+- -[SUManagerPolicy setDelegate:]
+- -[SUManagerPolicy setForeground:]
+- -[SUManagerPolicy setIsInstallTonight:]
+- -[SUManagerPolicy setIsInstallTonightScheduled:]
+- -[SUManagerPolicy setMandatoryUpdateDictionary:]
+- -[SUManagerPolicy setPasscodePolicy:]
+- -[SUManagerPolicy slaVersion]
+- -[SUManagerPolicy softwareUpdatePathRestriction]
+- -[SUManagerPolicy softwareUpdateReserveSizes:]
+- -[SUManagerPolicy splatRollbackAllowed:]
+- -[SUManagerPolicy startDownload:]
+- -[SUManagerPolicy startDownloadWithMetadata:withResult:]
+- -[SUManagerPolicy startDownloadWithOptions:withResult:]
+- -[SUManagerPolicy tryAutoDownload]
+- -[SUManagerPolicy unbadgeSettingsForManualSoftwareUpdate]
+- -[SUManagerPolicy updateDownloadMetadata:withResult:]
+- -[SUManagerPolicy updateDownloadOptions:withResult:]
+- -[SUManagerPolicy updateInstallPolicyType:]
+- -[SUManagerPolicy updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]
+- -[SUManagerScanRequest .cxx_destruct]
+- -[SUManagerScanRequest callback]
+- -[SUManagerScanRequest error]
+- -[SUManagerScanRequest options]
+- -[SUManagerScanRequest results]
+- -[SUManagerScanRequest setCallback:]
+- -[SUManagerScanRequest setError:]
+- -[SUManagerScanRequest setOptions:]
+- -[SUManagerScanRequest setResults:]
+- -[SUManagerServer .cxx_destruct]
+- -[SUManagerServer _clientForegroundnessDidChange:]
+- -[SUManagerServer _clientMessagabilityDidChange:]
+- -[SUManagerServer _evaluateForegroundness]
+- -[SUManagerServer _getDDMStatusWithKeys:withResult:]
+- -[SUManagerServer _installReasons]
+- -[SUManagerServer _mdmCommandConflictsWithDDMError]
+- -[SUManagerServer _sendLatestStatusForClient:]
+- -[SUManagerServer addClient:]
+- -[SUManagerServer autoInstallManager:didCancelOperation:]
+- -[SUManagerServer autoInstallManager:didExpireOperation:withError:]
+- -[SUManagerServer autoInstallManager:isReadyToInstall:withResult:]
+- -[SUManagerServer autoInstallManager:operationWasConsented:]
+- -[SUManagerServer autoInstallManager:passcodePolicyChanged:forOperation:]
+- -[SUManagerServer autoInstallManager]
+- -[SUManagerServer autoInstallSecurityForceOff:]
+- -[SUManagerServer autoInstallSecurityForceOn:]
+- -[SUManagerServer autoScanAndDownloadIfAvailable:]
+- -[SUManagerServer autoScanAndDownloadNow:ifAvailable:]
+- -[SUManagerServer automaticDownloadDidFailToStartForNewUpdateAvailable:withError:]
+- -[SUManagerServer cancelAutoInstallOperation:withResult:]
+- -[SUManagerServer cancelDDMDeclaration:withResult:]
+- -[SUManagerServer cancelDDMDeclarationForKey:completion:]
+- -[SUManagerServer cancelDownloadWithOptions:withResult:]
+- -[SUManagerServer clearingSpaceForDownload:clearing:]
+- -[SUManagerServer clients]
+- -[SUManagerServer consentToAutoInstallOperation:withResult:]
+- -[SUManagerServer coreAnalyticsManager]
+- -[SUManagerServer createInstallationKeybag:withResult:]
+- -[SUManagerServer currentAutoInstallOperation:withResult:]
+- -[SUManagerServer currentAutoInstallOperationForecast:]
+- -[SUManagerServer currentPasscodePolicy:]
+- -[SUManagerServer ddmManager]
+- -[SUManagerServer dealloc]
+- -[SUManagerServer delayEndDate:]
+- -[SUManagerServer descriptor:]
+- -[SUManagerServer descriptors:]
+- -[SUManagerServer destroyInstallationKeybag]
+- -[SUManagerServer disableReserveSpace:withResult:]
+- -[SUManagerServer downloadAndInstallState:]
+- -[SUManagerServer downloadDidFail:withError:]
+- -[SUManagerServer downloadDidFinish:withInstallPolicy:]
+- -[SUManagerServer downloadDidStart:]
+- -[SUManagerServer downloadProgressDidChange:]
+- -[SUManagerServer downloadWasInvalidatedForNewUpdatesAvailable:]
+- -[SUManagerServer eligibleRollbackWithOptions:withResult:]
+- -[SUManagerServer enableAutomaticDownload:]
+- -[SUManagerServer enableAutomaticUpdateV2:]
+- -[SUManagerServer exitExclusiveControl]
+- -[SUManagerServer fetchInstallHistory:]
+- -[SUManagerServer getAllDeclarationsIncludingSpecial:withHandler:]
+- -[SUManagerServer getDDMDeclarationWithHandler:]
+- -[SUManagerServer getDDMGlobalSettingsWithHandler:]
+- -[SUManagerServer getDDMStatusWithKeys:completion:]
+- -[SUManagerServer getDDMUpdateDescriptorWithHandler:]
+- -[SUManagerServer getMandatorySoftwareUpdateDictionary:]
+- -[SUManagerServer getShouldDisableAutoDownloadIOSUpdatesToggleWithHandler:]
+- -[SUManagerServer getShouldDisableAutoInstallIOSUpdatesToggleWithHandler:]
+- -[SUManagerServer getShouldDisableAutoInstallRSRToggleWithHandler:]
+- -[SUManagerServer goUnderExclusiveControl]
+- -[SUManagerServer handleClientRequest:client:withRequestCallBack:withErrorCallBack:]
+- -[SUManagerServer handleDDMDeclaration:withResult:]
+- -[SUManagerServer historyTracker]
+- -[SUManagerServer init]
+- -[SUManagerServer installDidFail:withError:]
+- -[SUManagerServer installDidFinish:]
+- -[SUManagerServer installDidStart:]
+- -[SUManagerServer installPolicyDidChange:]
+- -[SUManagerServer installReasonForClientName:]
+- -[SUManagerServer installServerConfiguration]
+- -[SUManagerServer installTonightScheduled:]
+- -[SUManagerServer installUpdate:]
+- -[SUManagerServer installUpdateWithInstallOptions:withResult:]
+- -[SUManagerServer installUpdateWithOptions:withResult:]
+- -[SUManagerServer installWantsToStart:completion:]
+- -[SUManagerServer isAnyClientInUserInteraction:]
+- -[SUManagerServer isAutoUpdateEnabled:]
+- -[SUManagerServer isAutoUpdateScheduled:]
+- -[SUManagerServer isAutomaticDownloadEnabled:]
+- -[SUManagerServer isAutomaticUpdateV2Enabled:]
+- -[SUManagerServer isClearingSpaceForDownload:]
+- -[SUManagerServer isDelayingUpdates:]
+- -[SUManagerServer isDownloading:]
+- -[SUManagerServer isInstallationKeybagRequired:]
+- -[SUManagerServer isInstallationKeybagRequiredForDescriptor:result:]
+- -[SUManagerServer isRollingBack:]
+- -[SUManagerServer isScanning:]
+- -[SUManagerServer isSoftwareUpdateInProgress:]
+- -[SUManagerServer isSplatOnlyUpdateRollbackSuggested:]
+- -[SUManagerServer isUpdateReadyForInstallation:]
+- -[SUManagerServer isUpdateReadyForInstallationWithOptions:withResult:]
+- -[SUManagerServer managedInstallationRequested:]
+- -[SUManagerServer manager]
+- -[SUManagerServer mdmCommandConflictsWithDDM:]
+- -[SUManagerServer networkMonitorDetectOverrides]
+- -[SUManagerServer newOSBuildDetected:]
+- -[SUManagerServer overrideSoftwareUpdateReserve:systemGrowthMarginSize:withResult:]
+- -[SUManagerServer pauseDownload:]
+- -[SUManagerServer presentAutoUpdateBanner:]
+- -[SUManagerServer presentingRecommendedUpdate:shouldPresent:]
+- -[SUManagerServer previousRollback:withResult:]
+- -[SUManagerServer purgeDownloadWithOptions:withResult:]
+- -[SUManagerServer recordSUAnalyticsEvent:]
+- -[SUManagerServer registerCSInstallPredicatesOnDate:]
+- -[SUManagerServer removeClient:]
+- -[SUManagerServer resetState]
+- -[SUManagerServer resumeDownload:]
+- -[SUManagerServer rollbackDidFail:withError:]
+- -[SUManagerServer rollbackDidStart:]
+- -[SUManagerServer rollbackReadyForReboot:]
+- -[SUManagerServer rollbackReadyToStart:options:completion:]
+- -[SUManagerServer rollbackSucceeded:]
+- -[SUManagerServer rollbackSuggested:info:]
+- -[SUManagerServer rollbackUpdateWithOptions:withResult:]
+- -[SUManagerServer runOnClients:]
+- -[SUManagerServer runOnClientsUntilStop:]
+- -[SUManagerServer rvGetCurrentNeRDInfoWithReply:]
+- -[SUManagerServer rvTriggerNeRDUpdate:]
+- -[SUManagerServer scanDidCompleteForOptions:results:error:]
+- -[SUManagerServer scanDidCompleteWithNewUpdateAvailable:error:]
+- -[SUManagerServer scanForUpdates:withResult:]
+- -[SUManagerServer scanRequestDidFinishForOptions:results:error:]
+- -[SUManagerServer scanRequestDidFinishForOptions:update:error:]
+- -[SUManagerServer scanRequestDidStartForOptions:]
+- -[SUManagerServer scheduleRollbackRebootForLater:]
+- -[SUManagerServer securityResponseRollbackSuggested:withResult:]
+- -[SUManagerServer sendDDMDeclarationToUI:]
+- -[SUManagerServer sendDDMGlobalSettingsToUI:]
+- -[SUManagerServer setClientType:withResult:]
+- -[SUManagerServer setDDMGlobalSettings:completion:]
+- -[SUManagerServer setExclusiveControl:]
+- -[SUManagerServer setLastRollbackDescriptor:withResult:]
+- -[SUManagerServer setMandatorySoftwareUpdateDictionary:]
+- -[SUManagerServer setUnderExclusiveControl:]
+- -[SUManagerServer slaVersion:]
+- -[SUManagerServer softwareUpdatePathRestriction:]
+- -[SUManagerServer softwareUpdateReserveSizes:]
+- -[SUManagerServer splatRollbackAllowed:]
+- -[SUManagerServer splatRollbackDetected:]
+- -[SUManagerServer splatUpdateDetected]
+- -[SUManagerServer startDownload:]
+- -[SUManagerServer startDownloadWithMetadata:withResult:]
+- -[SUManagerServer startDownloadWithOptions:withResult:]
+- -[SUManagerServer submitAllSUAnalyticsEvents]
+- -[SUManagerServer submitSUAnalyticsEvent:]
+- -[SUManagerServer submitSUAnalyticsEventsWithName:]
+- -[SUManagerServer underExclusiveControl]
+- -[SUManagerServer updateDownloadMetadata:withResult:]
+- -[SUManagerServer updateDownloadOptions:withResult:]
+- -[SUManagerServer updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]
+- -[SUManagerServer userAskedToDeferInstall]
+- -[SUManagerServer writeKeepAliveFile:]
+- -[SUManagerServer(Daemon) _clientForCurrentConnection]
+- -[SUManagerServer(Daemon) _notifyServerStart]
+- -[SUManagerServer(Daemon) _run]
+- -[SUManagerServer(Daemon) connectionQueue]
+- -[SUManagerServer(Daemon) listener:shouldAcceptNewConnection:]
+- -[SUManagerServer(Daemon) runUntilIdleExit]
+- -[SUManagerServer(Daemon) serverInitAndResumeWork]
+- -[SUManagerServerClient .cxx_destruct]
+- -[SUManagerServerClient _applicationStateChanged:isVisible:]
+- -[SUManagerServerClient _evaluateForegroundness]
+- -[SUManagerServerClient _evaluateMessagability]
+- -[SUManagerServerClient _logForDebugging:]
+- -[SUManagerServerClient connection]
+- -[SUManagerServerClient dealloc]
+- -[SUManagerServerClient description]
+- -[SUManagerServerClient hasEntitlement:]
+- -[SUManagerServerClient identifier]
+- -[SUManagerServerClient initWithConnection:]
+- -[SUManagerServerClient invalidate]
+- -[SUManagerServerClient isApplication]
+- -[SUManagerServerClient isExclusiveClient]
+- -[SUManagerServerClient isForeground]
+- -[SUManagerServerClient isMessagable]
+- -[SUManagerServerClient monitorClientStateIfNecessary]
+- -[SUManagerServerClient pid]
+- -[SUManagerServerClient proxy]
+- -[SUManagerServerClient setIsExclusiveClient:]
+- -[SUManagerServerClient setType:]
+- -[SUManagerServerClient shortDescription]
+- -[SUManagerServerClient type]
+- -[SUManagerServerClient wakeupIfNecessary]
+- -[SUPolicy .cxx_destruct]
+- -[SUPolicy _stringForBool:]
+- -[SUPolicy additionalOptions]
+- -[SUPolicy allowExpensiveNetwork]
+- -[SUPolicy allowsCellular]
+- -[SUPolicy description]
+- -[SUPolicy discretionary]
+- -[SUPolicy downloadTimeoutSecs]
+- -[SUPolicy requiresPowerPluggedIn]
+- -[SUPolicy skipPhase]
+- -[SUPolicyApply .cxx_destruct]
+- -[SUPolicyApply cacheDeleteUrgency]
+- -[SUPolicyApply checkAvailableSpace]
+- -[SUPolicyApply initWithInstallOptions:]
+- -[SUPolicyApply installOptions]
+- -[SUPolicyDocumentationDownload downloadTimeoutSecs]
+- -[SUPolicyDownload .cxx_destruct]
+- -[SUPolicyDownload additionalOptions]
+- -[SUPolicyDownload allowExpensiveNetwork]
+- -[SUPolicyDownload allowsCellular]
+- -[SUPolicyDownload cacheDeleteUrgency]
+- -[SUPolicyDownload checkAvailableSpace]
+- -[SUPolicyDownload discretionary]
+- -[SUPolicyDownload downloadOptions]
+- -[SUPolicyDownload initWithDownloadOptions:]
+- -[SUPolicyDownload maxPreSUStagingOptionalSize]
+- -[SUPolicyDownload setDownloadOptions:]
+- -[SUPolicyFactory .cxx_destruct]
+- -[SUPolicyFactory _SUAssetTypeForScanOptions:]
+- -[SUPolicyFactory augmentCorePolicy:WithApplyPolicy:]
+- -[SUPolicyFactory augmentCorePolicy:WithDocumentationDownloadPolicy:]
+- -[SUPolicyFactory augmentCorePolicy:WithDocumentationScanPolicy:]
+- -[SUPolicyFactory augmentCorePolicy:WithGlobalPolicy:]
+- -[SUPolicyFactory augmentCorePolicy:WithLoadBrainPolicy:]
+- -[SUPolicyFactory augmentCorePolicy:WithPreflightPolicy:]
+- -[SUPolicyFactory augmentCorePolicy:WithPreparePolicy:]
+- -[SUPolicyFactory augmentCorePolicy:WithResumePolicy:]
+- -[SUPolicyFactory augmentCorePolicy:WithRollbackPolicy:]
+- -[SUPolicyFactory augmentCorePolicy:WithSUDownloadPolicy:]
+- -[SUPolicyFactory augmentCorePolicy:WithSUScanPolicy:]
+- -[SUPolicyFactory augmentCorePolicy:WithSuspendPolicy:]
+- -[SUPolicyFactory augmentPolicy:]
+- -[SUPolicyFactory coreMDMPathForSUSPath:]
+- -[SUPolicyFactory corePolicy]
+- -[SUPolicyFactory createCorePolicy]
+- -[SUPolicyFactory createRollbackPolicy]
+- -[SUPolicyFactory downloadOptions]
+- -[SUPolicyFactory existingExtensionOfClass:inPolicy:]
+- -[SUPolicyFactory globalOptions]
+- -[SUPolicyFactory init]
+- -[SUPolicyFactory installOptions]
+- -[SUPolicyFactory modifyPolicy:forTypes:]
+- -[SUPolicyFactory removePolicyExtensionOfClass:forPolicy:]
+- -[SUPolicyFactory rollbackOptions]
+- -[SUPolicyFactory rollbackPolicy]
+- -[SUPolicyFactory scanOptions]
+- -[SUPolicyFactory setDownloadOptions:]
+- -[SUPolicyFactory setGlobalOptions:]
+- -[SUPolicyFactory setInstallOptions:]
+- -[SUPolicyFactory setPolicyExtension:forPolicy:]
+- -[SUPolicyFactory setRollbackOptions:]
+- -[SUPolicyFactory setScanOptions:]
+- -[SUPolicyGlobal .cxx_destruct]
+- -[SUPolicyGlobal _stringForBool:]
+- -[SUPolicyGlobal cacheDeleteUrgency]
+- -[SUPolicyGlobal checkAvailableSpace]
+- -[SUPolicyGlobal description]
+- -[SUPolicyGlobal globalOptions]
+- -[SUPolicyGlobal initWithGlobalOptions:]
+- -[SUPolicyGlobal init]
+- -[SUPolicyGlobal setGlobalOptions:]
+- -[SUPolicyGlobal updateMetricContext]
+- -[SUPolicyGlobal updateMetricEventFields]
+- -[SUPolicyGlobalOptions .cxx_destruct]
+- -[SUPolicyGlobalOptions appendUpdateMetricEventFields:]
+- -[SUPolicyGlobalOptions description]
+- -[SUPolicyGlobalOptions init]
+- -[SUPolicyGlobalOptions updateMetricEventFields]
+- -[SUPolicyRollback .cxx_destruct]
+- -[SUPolicyRollback cancelActiveUpdate]
+- -[SUPolicyRollback initWithRollbackOptions:]
+- -[SUPolicyRollback rollbackOptions]
+- -[SUPolicyScan .cxx_destruct]
+- -[SUPolicyScan _stringForBool:]
+- -[SUPolicyScan allowSameVersion]
+- -[SUPolicyScan assetType]
+- -[SUPolicyScan description]
+- -[SUPolicyScan downloadTimeoutSecs]
+- -[SUPolicyScan enablePrecisePreSUStaging]
+- -[SUPolicyScan initWithScanOptions:]
+- -[SUPolicyScan init]
+- -[SUPolicyScan restrictToFull]
+- -[SUPolicyScan restrictToIncremental]
+- -[SUPolicyScan scanOptions]
+- -[SUPolicyScan scanType]
+- -[SUPolicyScan sessionID]
+- -[SUPolicyScan setScanOptions:]
+- -[SUPolicyScanBrain assetType]
+- -[SUPolicyScanBrain discretionary]
+- -[SUPolicyScanSUDocumentation assetType]
+- -[SUPolicyScanSUDocumentation discretionary]
+- -[SUPolicyScanSoftwareUpdate allowSameVersion]
+- -[SUPolicyScanSoftwareUpdate assetType]
+- -[SUPolicyScanSoftwareUpdate discretionary]
+- -[SUPolicyScanSoftwareUpdate isSplatOnlyScan]
+- -[SUPolicyScanSoftwareUpdate restrictToFull]
+- -[SUPolicyScanSoftwareUpdate restrictToIncremental]
+- -[SURollbackController .cxx_destruct]
+- -[SURollbackController availableRollback]
+- -[SURollbackController core]
+- -[SURollbackController initWithCore:]
+- -[SURollbackController isRollingBack]
+- -[SURollbackController previousRollback]
+- -[SURollbackController rollbackCompleted:withError:]
+- -[SURollbackController rollbackReadyForReboot:]
+- -[SURollbackController rollbackStarted:]
+- -[SURollbackController rollbackUpdateWithOptions:completion:]
+- -[SURollbackController setCore:]
+- -[SURollbackController setRollingBack:]
+- -[SUScanOptions(SUS) clientIsBuddy]
+- -[SUScanOptions(SUS) clientIsDDM]
+- -[SUScanOptions(SUS) clientIsInboxUpdaterd]
+- -[SUScanOptions(SUS) isEmergencyOnlyScan]
+- -[SUScanOptions(SUS) isPMVRequested]
+- -[SUScanTask .cxx_destruct]
+- -[SUScanTask _queue_CollectDocumentation:sessionID:completion:]
+- -[SUScanTask _queue_scanForUpdates:sessionID:completion:]
+- -[SUScanTask _scanPriorityForOptions:]
+- -[SUScanTask cancelTask]
+- -[SUScanTask coreScanner]
+- -[SUScanTask didScanForType:]
+- -[SUScanTask initWithOptions:]
+- -[SUScanTask scanForDocumentationAssetWithDescriptor:completion:]
+- -[SUScanTask scanForSUAssetWithCompletion:]
+- -[SUScanTask scanPriority]
+- -[SUScanTask setCoreScanner:]
+- -[SUScanner .cxx_destruct]
+- -[SUScanner _coreDescriptorFailedPatching:]
+- -[SUScanner _doScanForUpdates]
+- -[SUScanner _filterDescriptor:forRequestedBuild:]
+- -[SUScanner _getDDMTargetUpdateWithPreferredDescriptor:alternateDescriptor:]
+- -[SUScanner _handleScanError:]
+- -[SUScanner _handleScannedPreferredDescriptor:alternateDescriptor:scanOptions:error:]
+- -[SUScanner _queue_refreshLastScannedCoreDescriptors]
+- -[SUScanner _resetToCustomerAudienceAndRescan]
+- -[SUScanner _shouldResetToCustomerAudienceAfterLongPeriod]
+- -[SUScanner activeScanTask]
+- -[SUScanner alternateLastScannedCoreDescriptor]
+- -[SUScanner autoScanAndDownloadIfAvailable:downloadNow:withResult:]
+- -[SUScanner autoScanAndDownloadIfAvailable:withResult:]
+- -[SUScanner cancelTimerForRecommendedUpdateNotification]
+- -[SUScanner collectDocumentationFor:options:completion:]
+- -[SUScanner core]
+- -[SUScanner ddmRequestedBuild]
+- -[SUScanner ddmRequestedPMV]
+- -[SUScanner defaultValuesForCoreDescriptor:]
+- -[SUScanner descriptorToAutoDownload:]
+- -[SUScanner descriptorToAutoDownload]
+- -[SUScanner discoveryDateforBuildVersion:]
+- -[SUScanner fullyUnrampedDateForBuildVersion:]
+- -[SUScanner handleActiveScanTaskScanCompletionWithPreferredPrimaryDescriptor:preferredSecondaryDescriptor:alternatePrimaryDescriptor:alternateSecondaryDescriptor:scanOptions:error:]
+- -[SUScanner initWithCore:]
+- -[SUScanner isBuddyRunning]
+- -[SUScanner isScanning]
+- -[SUScanner lastScannedDescriptorScanOptions]
+- -[SUScanner lastScannedMatchScanOptions:]
+- -[SUScanner notifyClientForRecommendedUpdate:shouldPresent:]
+- -[SUScanner notifyScanDidComplete:options:error:]
+- -[SUScanner notifyScanRequestDidFinish:results:error:]
+- -[SUScanner notifyScanRequestDidStart:]
+- -[SUScanner preferredLastScannedCoreDescriptor]
+- -[SUScanner recommendedDescriptor:]
+- -[SUScanner removeFullyUnrampedDateForBuildVersion:]
+- -[SUScanner scanCompleted:alternateDescriptor:scanOptions:error:]
+- -[SUScanner scanForUpdates:complete:]
+- -[SUScanner scanRequests]
+- -[SUScanner scanResultIsUpToDateWithAlternate:]
+- -[SUScanner scanResultsChangedSinceLastScan:preferredUpdateNewlyDiscovered:alternateUpdateNewlyDiscovered:preferredUpdateChanged:alternateUpdateChanged:preferredWasAlternate:alternateWasPreferred:]
+- -[SUScanner scanResultsForSUCoreScanResults:]
+- -[SUScanner scheduleRecommendedUpdateFromResults:]
+- -[SUScanner scheduleRecommendedUpdateNotification:]
+- -[SUScanner selectDescriptor:]
+- -[SUScanner setActiveScanTask:]
+- -[SUScanner setAlternateLastScannedCoreDescriptor:]
+- -[SUScanner setCore:]
+- -[SUScanner setDdmRequestedBuild:]
+- -[SUScanner setDdmRequestedPMV:]
+- -[SUScanner setDiscoveryDate:forBuildVersion:]
+- -[SUScanner setFullyUnrampedDate:forBuildVersion:]
+- -[SUScanner setLastScannedDescriptorScanOptions:]
+- -[SUScanner setPreferredLastScannedCoreDescriptor:]
+- -[SUScanner setScanRequests:]
+- -[SUScanner setScanning:]
+- -[SUScanner setupTimerForRecommendedUpdateNotification:]
+- -[SUScanner shouldPresentUpdate:options:]
+- -[SUScanner stringForScanPriority:]
+- -[SUScanner unscheduleRecommendedUpdateNotification]
+- -[SUScheduler .cxx_destruct]
+- -[SUScheduler _activityIsScheduled:cancelIfExpired:]
+- -[SUScheduler _activityIsScheduled:cancelIfExpired:scheduledActivity:]
+- -[SUScheduler _autoDownloadTimeInterval]
+- -[SUScheduler _autoScanTimeIntervalForType:]
+- -[SUScheduler _getAutoInstallStrategyTypeForUpdate:]
+- -[SUScheduler _next7OClockFrom:after:]
+- -[SUScheduler _queue_cancelAutoInstallStartInstallTask]
+- -[SUScheduler _queue_handleActivity:info:]
+- -[SUScheduler _queue_handleAnalyticsSubmission:info:]
+- -[SUScheduler _queue_handleAutoDownload:info:]
+- -[SUScheduler _queue_handleAutoInstallEnd:info:]
+- -[SUScheduler _queue_handleAutoInstallGetKeybag:info:]
+- -[SUScheduler _queue_handleAutoInstallUnlock:info:]
+- -[SUScheduler _queue_handleAutoScan:info:rescheduler:]
+- -[SUScheduler _queue_handleCancelPresentBannerOnUnlock]
+- -[SUScheduler _queue_handleInstallAlert:info:]
+- -[SUScheduler _queue_handlePresentBanner:info:]
+- -[SUScheduler _queue_handleRollbackReboot:info:]
+- -[SUScheduler _queue_handleScanIntervalConfigChange:]
+- -[SUScheduler _queue_handleServerConfigScan:info:]
+- -[SUScheduler _queue_handleSplatFollowUp:info:]
+- -[SUScheduler _queue_unscheduleActivity:]
+- -[SUScheduler _queue_unscheduleAllActivitiesWithName:]
+- -[SUScheduler _randomizedAutoScanDelayForType:]
+- -[SUScheduler _scheduleActivity:]
+- -[SUScheduler _scheduleAutoInstallGetKeybagTaskForDate:]
+- -[SUScheduler _unscheduleActivity:]
+- -[SUScheduler activityWasPreviouslyScheduledForFutureDate:passed:copy:]
+- -[SUScheduler autoInstallManager]
+- -[SUScheduler autoInstallStrategy]
+- -[SUScheduler cancelAllAutoDownloadTasks]
+- -[SUScheduler cancelAllAutoInstallTasksIncludingStartInstallTask:]
+- -[SUScheduler cancelAllAutoInstallTasks]
+- -[SUScheduler cancelAllAutoScanTasks]
+- -[SUScheduler cancelAllBackgroundScans]
+- -[SUScheduler cancelAllEmergencyBackgroundScans]
+- -[SUScheduler cancelAllStartupTasks]
+- -[SUScheduler cancelAutoDownloadTask]
+- -[SUScheduler cancelAutoInstallGetKeybagTask]
+- -[SUScheduler cancelAutoInstallStartInstallTask]
+- -[SUScheduler cancelAutoInstallUnlockWindowStartTask]
+- -[SUScheduler cancelAutoInstallWindowExpirationTask]
+- -[SUScheduler cancelInstallAlertRegistration]
+- -[SUScheduler cancelPresentAutoUpdateBanner]
+- -[SUScheduler cancelRollbackReboot]
+- -[SUScheduler cancelSplatFollowUpNotification]
+- -[SUScheduler dealloc]
+- -[SUScheduler defaultToOldInactivityPredictor]
+- -[SUScheduler gameModeChangedTo:]
+- -[SUScheduler handleXPCEvent:]
+- -[SUScheduler initUsingSUCoreXPCActivityManager:coreScheduler:serverConfigManager:schedulerQueue:manager:autoInstallManager:gameModeMonitor:]
+- -[SUScheduler init]
+- -[SUScheduler manager]
+- -[SUScheduler needsClientSideJitteringForAutoInstall]
+- -[SUScheduler nextScheduledAutoScan]
+- -[SUScheduler scanTypeForActivityName:]
+- -[SUScheduler scheduleAllAutoInstallUpdateTasks:descriptor:]
+- -[SUScheduler scheduleAnalyticsSubmission:]
+- -[SUScheduler scheduleAnalyticsSubmissionIfNecessary]
+- -[SUScheduler scheduleAutoDownloadIfNecessary]
+- -[SUScheduler scheduleAutoDownloadWithDate:requirePower:minimumPowerRquirement:]
+- -[SUScheduler scheduleAutoInstallExpirationTask:]
+- -[SUScheduler scheduleAutoInstallGetKeybagTaskForDescriptor:]
+- -[SUScheduler scheduleAutoInstallStartInstallTask:descriptor:]
+- -[SUScheduler scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]
+- -[SUScheduler scheduleAutoInstallUnlockWindowStartTask:]
+- -[SUScheduler scheduleBackgroundScan:]
+- -[SUScheduler scheduleBackgroundScan:scanDate:]
+- -[SUScheduler scheduleBackgroundScanIfNecessary:scanType:]
+- -[SUScheduler scheduleDelayEndAutoScan:]
+- -[SUScheduler scheduleInstallAlertRegistration:]
+- -[SUScheduler schedulePresentAutoUpdateBanner]
+- -[SUScheduler scheduleRollbackReboot:]
+- -[SUScheduler scheduleSimulatedAutoInstallTask]
+- -[SUScheduler scheduleSplatBackgroundScan:]
+- -[SUScheduler scheduleSplatFollowUpNotification:]
+- -[SUScheduler scheduleStartupTasksIfNecessary]
+- -[SUScheduler schedulerQueue]
+- -[SUScheduler serverConfigManager:configValuesChanged:]
+- -[SUScheduler serverConfigManager]
+- -[SUScheduler setAutoInstallActivityStateDone]
+- -[SUScheduler setAutoInstallManager:]
+- -[SUScheduler setAutoInstallStrategy:]
+- -[SUScheduler setManager:]
+- -[SUScheduler setSchedulerQueue:]
+- -[SUScheduler setServerConfigManager:]
+- -[SUScheduler shouldDeferAutoInstall]
+- -[SUScheduler strategyDidFireAutoInstall:]
+- -[SUScheduler trySchedulingAutoInstallAgainLater]
+- -[SUServerConfigurationManager .cxx_destruct]
+- -[SUServerConfigurationManager _queue_didNumberValueChange:oldConfig:newConfig:valueRemoved:]
+- -[SUServerConfigurationManager _queue_didValueChange:oldConfig:newConfig:type:valueRemoved:]
+- -[SUServerConfigurationManager addListener:]
+- -[SUServerConfigurationManager coreConfigServerSettingsUpdated:error:]
+- -[SUServerConfigurationManager defaultToOldInactivityPredictor]
+- -[SUServerConfigurationManager init]
+- -[SUServerConfigurationManager removeListener:]
+- -[SUServerConfigurationManager softwareUpdateAutoScanInterval]
+- -[SUServerConfigurationManager stateQueue]
+- -[SUTransactionManager .cxx_destruct]
+- -[SUTransactionManager _hasOpenTransactionForName:]
+- -[SUTransactionManager _isKeepAliveEnabled:]
+- -[SUTransactionManager _setKeepAlive:]
+- -[SUTransactionManager _toggleKeepAliveStatus]
+- -[SUTransactionManager beginTransaction:]
+- -[SUTransactionManager beginTransaction:keepAlive:]
+- -[SUTransactionManager clearKeepAliveIfNecessary:]
+- -[SUTransactionManager copyTransactions]
+- -[SUTransactionManager dealloc]
+- -[SUTransactionManager endTransaction:]
+- -[SUTransactionManager hasOpenTransactionForName:]
+- -[SUTransactionManager init]
+- -[SUTransactionManager isKeepAliveEnabled]
+- -[SUTransactionManager setKeepAliveClearable:]
+- -[SUXPCAlarm .cxx_destruct]
+- -[SUXPCAlarm cancelAlarm:]
+- -[SUXPCAlarm cancelInstallAlertAlarm]
+- -[SUXPCAlarm init]
+- -[SUXPCAlarm scheduleAlarm:date:]
+- -[SUXPCAlarm scheduleInstallAlertAlarm:]
+- -[SUXPCAutoInstallStrategy .cxx_destruct]
+- -[SUXPCAutoInstallStrategy _autoInstallActivityCriteriaWithInstallDate:descriptor:]
+- -[SUXPCAutoInstallStrategy _invalidateRetryAutoInstallaTimer]
+- -[SUXPCAutoInstallStrategy _queue_cancelAutoInstallStartInstallTask]
+- -[SUXPCAutoInstallStrategy _queue_invalidateRetryAutoInstallaTimer]
+- -[SUXPCAutoInstallStrategy _queue_setAutoinstallActivity:]
+- -[SUXPCAutoInstallStrategy autoInstallTaskCompleted]
+- -[SUXPCAutoInstallStrategy cancelAutoInstallStartInstallTask]
+- -[SUXPCAutoInstallStrategy delegate]
+- -[SUXPCAutoInstallStrategy handleAutoInstallStart:info:]
+- -[SUXPCAutoInstallStrategy initWithDelegate:schedulerQueue:]
+- -[SUXPCAutoInstallStrategy isAutoInstallTaskScheduled]
+- -[SUXPCAutoInstallStrategy scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]
+- -[SUXPCAutoInstallStrategy scheduleSimulatedAutoInstallTaskWithHandler:]
+- -[SUXPCAutoInstallStrategy schedulerQueue]
+- -[SUXPCAutoInstallStrategy setAutoinstallActivity:]
+- -[SUXPCAutoInstallStrategy shouldDeferAutoInstall]
+- -[SUXPCAutoInstallStrategy type]
+- GCC_except_table1
+- GCC_except_table107
+- GCC_except_table115
+- GCC_except_table123
+- GCC_except_table127
+- GCC_except_table129
+- GCC_except_table133
+- GCC_except_table135
+- GCC_except_table139
+- GCC_except_table149
+- GCC_except_table151
+- GCC_except_table25
+- GCC_except_table29
+- GCC_except_table38
+- GCC_except_table45
+- GCC_except_table456
+- GCC_except_table47
+- GCC_except_table48
+- GCC_except_table50
+- GCC_except_table52
+- GCC_except_table59
+- GCC_except_table64
+- GCC_except_table66
+- GCC_except_table68
+- GCC_except_table70
+- GCC_except_table72
+- GCC_except_table75
+- GCC_except_table76
+- GCC_except_table78
+- GCC_except_table80
+- GCC_except_table81
+- GCC_except_table82
+- GCC_except_table84
+- GCC_except_table85
+- GCC_except_table88
+- GCC_except_table92
+- _ASAttributeDownloadSize
+- _ASAttributeIsZipStreamable
+- _ASAttributeUnarchivedSize
+- _ASDownloadOptionAllow2G
+- _ASDownloadOptionAllow3G
+- _ASDownloadOptionAllow4G
+- _ASDownloadOptionAllowBatteryPower
+- _ASDownloadOptionAllowRoaming
+- _ASDownloadOptionAllowWiFi
+- _ASDownloadOptionAssetVersionString
+- _ASDownloadOptionPriority
+- _ASDownloadOptionUseStreamingZip
+- _ASDownloadPriorityHigh
+- _ASDownloadPriorityLow
+- _ASOperationCompleted
+- _ASServerURLForAssetType
+- _ASStateOperation
+- _BYSetupAssistantBundleIdentifier
+- _BiomeLibrary
+- _CFNotificationCenterPostNotification
+- _CFRunLoopRunInMode
+- _CPCopyBundleIdentifierAndTeamFromAuditToken
+- _MAGetPallasAudience
+- _MCProfileListChangedNotification
+- _NEHelperSettingsSetArray
+- _NSDebugDescriptionErrorKey
+- _NSDefaultRunLoopMode
+- _NSSelectorFromString
+- _NSStringFromSelector
+- _NameForSUAutoInstallStrategyType
+- _OBJC_CLASS_$_BGNonRepeatingSystemTaskRequest
+- _OBJC_CLASS_$_BGSystemTaskScheduler
+- _OBJC_CLASS_$_BMDiscoverabilitySignals
+- _OBJC_CLASS_$_MAAssetDiff
+- _OBJC_CLASS_$_MADownloadConfig
+- _OBJC_CLASS_$_MIBUClient
+- _OBJC_CLASS_$_NSConstantDictionary
+- _OBJC_CLASS_$_NSMutableData
+- _OBJC_CLASS_$_NSRunLoop
+- _OBJC_CLASS_$_NSTimer
+- _OBJC_CLASS_$_NSXPCListener
+- _OBJC_CLASS_$_NWSystemPathMonitor
+- _OBJC_CLASS_$_RBSProcessMonitor
+- _OBJC_CLASS_$_RBSProcessPredicate
+- _OBJC_CLASS_$_RBSProcessStateDescriptor
+- _OBJC_CLASS_$_SBSSoftwareUpdateService
+- _OBJC_CLASS_$_SUAuthSSO
+- _OBJC_CLASS_$_SUAutoInstallManager
+- _OBJC_CLASS_$_SUAutoInstallStrategyCreater
+- _OBJC_CLASS_$_SUBGSTAutoInstallStrategy
+- _OBJC_CLASS_$_SUCoreActivity
+- _OBJC_CLASS_$_SUCoreActivityOptions
+- _OBJC_CLASS_$_SUCoreActivityScheduler
+- _OBJC_CLASS_$_SUCoreConfig
+- _OBJC_CLASS_$_SUCoreConfigServer
+- _OBJC_CLASS_$_SUCoreDDMActivityScheduler
+- _OBJC_CLASS_$_SUCoreEventAugmenter
+- _OBJC_CLASS_$_SUCoreEventReporter
+- _OBJC_CLASS_$_SUCoreFSM
+- _OBJC_CLASS_$_SUCoreLog
+- _OBJC_CLASS_$_SUCoreMobileAsset
+- _OBJC_CLASS_$_SUCorePolicy
+- _OBJC_CLASS_$_SUCorePolicyDDMConfiguration
+- _OBJC_CLASS_$_SUCorePolicyExtensionManagedUpdates
+- _OBJC_CLASS_$_SUCorePolicyExtensionSplatUpdate
+- _OBJC_CLASS_$_SUCorePolicyFamily
+- _OBJC_CLASS_$_SUCorePurge
+- _OBJC_CLASS_$_SUCoreRollbackDescriptor
+- _OBJC_CLASS_$_SUCoreScan
+- _OBJC_CLASS_$_SUCoreScanResults
+- _OBJC_CLASS_$_SUCoreUUID
+- _OBJC_CLASS_$_SUCoreUpdate
+- _OBJC_CLASS_$_SUCoreXPCActivity
+- _OBJC_CLASS_$_SUCoreXPCActivityManager
+- _OBJC_CLASS_$_SUDDMManager
+- _OBJC_CLASS_$_SUDownloader
+- _OBJC_CLASS_$_SUGameModeMonitor
+- _OBJC_CLASS_$_SUInstaller
+- _OBJC_CLASS_$_SUManagedDeviceManager
+- _OBJC_CLASS_$_SUManagerCore
+- _OBJC_CLASS_$_SUManagerEngine
+- _OBJC_CLASS_$_SUManagerEngineDownloadDescriptor
+- _OBJC_CLASS_$_SUManagerEngineParam
+- _OBJC_CLASS_$_SUManagerInterfaceFactory
+- _OBJC_CLASS_$_SUManagerPolicy
+- _OBJC_CLASS_$_SUManagerScanRequest
+- _OBJC_CLASS_$_SUManagerServer
+- _OBJC_CLASS_$_SUManagerServerClient
+- _OBJC_CLASS_$_SUPolicy
+- _OBJC_CLASS_$_SUPolicyApply
+- _OBJC_CLASS_$_SUPolicyDocumentationDownload
+- _OBJC_CLASS_$_SUPolicyDownload
+- _OBJC_CLASS_$_SUPolicyFactory
+- _OBJC_CLASS_$_SUPolicyGlobal
+- _OBJC_CLASS_$_SUPolicyGlobalOptions
+- _OBJC_CLASS_$_SUPolicyRollback
+- _OBJC_CLASS_$_SUPolicyScan
+- _OBJC_CLASS_$_SUPolicyScanBrain
+- _OBJC_CLASS_$_SUPolicyScanSUDocumentation
+- _OBJC_CLASS_$_SUPolicyScanSoftwareUpdate
+- _OBJC_CLASS_$_SURollbackController
+- _OBJC_CLASS_$_SUScanTask
+- _OBJC_CLASS_$_SUScanner
+- _OBJC_CLASS_$_SUScheduler
+- _OBJC_CLASS_$_SUServerConfigurationManager
+- _OBJC_CLASS_$_SUTransactionManager
+- _OBJC_CLASS_$_SUXPCAlarm
+- _OBJC_CLASS_$_SUXPCAutoInstallStrategy
+- _OBJC_IVAR_$_SUAuthSSO.copyPersonalizationSSOToken
+- _OBJC_IVAR_$_SUAutoInstallManager._autoInstallAttempted
+- _OBJC_IVAR_$_SUAutoInstallManager._delegate
+- _OBJC_IVAR_$_SUAutoInstallManager._failedToAutoInstallError
+- _OBJC_IVAR_$_SUAutoInstallManager._followUpController
+- _OBJC_IVAR_$_SUAutoInstallManager._manager
+- _OBJC_IVAR_$_SUAutoInstallManager._operationModel
+- _OBJC_IVAR_$_SUAutoInstallManager._passcodePolicy
+- _OBJC_IVAR_$_SUAutoInstallManager._state
+- _OBJC_IVAR_$_SUAutoInstallManager._stateQueue
+- _OBJC_IVAR_$_SUBGSTAutoInstallStrategy._autoInstallTask
+- _OBJC_IVAR_$_SUBGSTAutoInstallStrategy._autoInstallTaskExpiredByDAS
+- _OBJC_IVAR_$_SUBGSTAutoInstallStrategy._bgstScheduler
+- _OBJC_IVAR_$_SUBGSTAutoInstallStrategy._delegate
+- _OBJC_IVAR_$_SUBGSTAutoInstallStrategy._schedulerQueue
+- _OBJC_IVAR_$_SUCoreScanResults._alternateDescriptor
+- _OBJC_IVAR_$_SUCoreScanResults._preferredDescriptor
+- _OBJC_IVAR_$_SUDDMManager._activeDeclarationEnforcedSU
+- _OBJC_IVAR_$_SUDDMManager._ddmConfiguration
+- _OBJC_IVAR_$_SUDDMManager._descriptor
+- _OBJC_IVAR_$_SUDDMManager._downloadScheduler
+- _OBJC_IVAR_$_SUDDMManager._evaluationScheduler
+- _OBJC_IVAR_$_SUDDMManager._globalSettings
+- _OBJC_IVAR_$_SUDDMManager._gsWorkQueue
+- _OBJC_IVAR_$_SUDDMManager._manager
+- _OBJC_IVAR_$_SUDDMManager._managerServerDelegate
+- _OBJC_IVAR_$_SUDDMManager._workQueue
+- _OBJC_IVAR_$_SUDownloader._brainLoadAttemptsForDescriptor
+- _OBJC_IVAR_$_SUDownloader._brainLoadedForDescriptor
+- _OBJC_IVAR_$_SUDownloader._clearingSpace
+- _OBJC_IVAR_$_SUDownloader._core
+- _OBJC_IVAR_$_SUDownloader._download
+- _OBJC_IVAR_$_SUDownloader._downloadAsset
+- _OBJC_IVAR_$_SUDownloader._downloadProgressSnapshot
+- _OBJC_IVAR_$_SUDownloader._downloadProgressSnapshotDate
+- _OBJC_IVAR_$_SUDownloader._downloadStateResetSinceStartup
+- _OBJC_IVAR_$_SUDownloader._downloading
+- _OBJC_IVAR_$_SUDownloader._foreground
+- _OBJC_IVAR_$_SUDownloader._goNonDiscretionaryOnDownload
+- _OBJC_IVAR_$_SUDownloader._loadBrainForDescriptor
+- _OBJC_IVAR_$_SUGameModeMonitor._delegates
+- _OBJC_IVAR_$_SUGameModeMonitor._inGameMode
+- _OBJC_IVAR_$_SUGameModeMonitor._queue
+- _OBJC_IVAR_$_SUInstaller._core
+- _OBJC_IVAR_$_SUInstaller._currentInstallOptions
+- _OBJC_IVAR_$_SUInstaller._installDeviceLockAssertion
+- _OBJC_IVAR_$_SUInstaller._installPolicy
+- _OBJC_IVAR_$_SUInstaller._installRetrying
+- _OBJC_IVAR_$_SUInstaller._installed
+- _OBJC_IVAR_$_SUInstaller._installing
+- _OBJC_IVAR_$_SUInstaller._isInstallTonight
+- _OBJC_IVAR_$_SUInstaller._isInstallTonightScheduled
+- _OBJC_IVAR_$_SUInstaller._passcodePolicy
+- _OBJC_IVAR_$_SUManagedDeviceManager._assetAudience
+- _OBJC_IVAR_$_SUManagedDeviceManager._delegate
+- _OBJC_IVAR_$_SUManagedDeviceManager._mdmDelay
+- _OBJC_IVAR_$_SUManagedDeviceManager._notifyToken
+- _OBJC_IVAR_$_SUManagedDeviceManager._workQueue
+- _OBJC_IVAR_$_SUManagerCore._coreReporter
+- _OBJC_IVAR_$_SUManagerCore._delegate
+- _OBJC_IVAR_$_SUManagerCore._downloader
+- _OBJC_IVAR_$_SUManagerCore._engine
+- _OBJC_IVAR_$_SUManagerCore._externWorkQueue
+- _OBJC_IVAR_$_SUManagerCore._followUpController
+- _OBJC_IVAR_$_SUManagerCore._installer
+- _OBJC_IVAR_$_SUManagerCore._isUpdateDownloaded
+- _OBJC_IVAR_$_SUManagerCore._lastStashbagPersistedDate
+- _OBJC_IVAR_$_SUManagerCore._managedDeviceManager
+- _OBJC_IVAR_$_SUManagerCore._mandatoryUpdateDictionary
+- _OBJC_IVAR_$_SUManagerCore._observers
+- _OBJC_IVAR_$_SUManagerCore._reportStartedFromPersistedState
+- _OBJC_IVAR_$_SUManagerCore._resetDownloadStateOnCleanActivation
+- _OBJC_IVAR_$_SUManagerCore._resumeFromStateSemaphore
+- _OBJC_IVAR_$_SUManagerCore._rollback
+- _OBJC_IVAR_$_SUManagerCore._scanner
+- _OBJC_IVAR_$_SUManagerCore._sessionID
+- _OBJC_IVAR_$_SUManagerCore._state
+- _OBJC_IVAR_$_SUManagerCore._tracker
+- _OBJC_IVAR_$_SUManagerCore._unlockCallbacks
+- _OBJC_IVAR_$_SUManagerCore._updateOfCurrentStorageFollowup
+- _OBJC_IVAR_$_SUManagerCore._workQueue
+- _OBJC_IVAR_$_SUManagerEngine._activated
+- _OBJC_IVAR_$_SUManagerEngine._activating
+- _OBJC_IVAR_$_SUManagerEngine._activeScanner
+- _OBJC_IVAR_$_SUManagerEngine._downloadDescriptor
+- _OBJC_IVAR_$_SUManagerEngine._engineFSM
+- _OBJC_IVAR_$_SUManagerEngine._engineLog
+- _OBJC_IVAR_$_SUManagerEngine._engineName
+- _OBJC_IVAR_$_SUManagerEngine._isManagedScan
+- _OBJC_IVAR_$_SUManagerEngine._loadBrainRetries
+- _OBJC_IVAR_$_SUManagerEngine._lockAssertion
+- _OBJC_IVAR_$_SUManagerEngine._managerDelegate
+- _OBJC_IVAR_$_SUManagerEngine._pendingManagedScanParams
+- _OBJC_IVAR_$_SUManagerEngine._pendingPurgeParams
+- _OBJC_IVAR_$_SUManagerEngine._policyFactory
+- _OBJC_IVAR_$_SUManagerEngine._rollbackUUID
+- _OBJC_IVAR_$_SUManagerEngine._stateTable
+- _OBJC_IVAR_$_SUManagerEngine._updateControl
+- _OBJC_IVAR_$_SUManagerEngineDownloadDescriptor._asset
+- _OBJC_IVAR_$_SUManagerEngineDownloadDescriptor._atPhase
+- _OBJC_IVAR_$_SUManagerEngineDownloadDescriptor._cleanupLevel
+- _OBJC_IVAR_$_SUManagerEngineDownloadDescriptor._coreDescriptor
+- _OBJC_IVAR_$_SUManagerEngineDownloadDescriptor._downloadOptions
+- _OBJC_IVAR_$_SUManagerEngineDownloadDescriptor._installOptions
+- _OBJC_IVAR_$_SUManagerEngineDownloadDescriptor._installTonightConfig
+- _OBJC_IVAR_$_SUManagerEngineDownloadDescriptor._releaseDate
+- _OBJC_IVAR_$_SUManagerEngineDownloadDescriptor._scanOptions
+- _OBJC_IVAR_$_SUManagerEngineDownloadDescriptor._sessionID
+- _OBJC_IVAR_$_SUManagerEngineParam._downloadDescriptor
+- _OBJC_IVAR_$_SUManagerEngineParam._error
+- _OBJC_IVAR_$_SUManagerEngineParam._installOptions
+- _OBJC_IVAR_$_SUManagerEngineParam._isManaged
+- _OBJC_IVAR_$_SUManagerEngineParam._paramType
+- _OBJC_IVAR_$_SUManagerEngineParam._progress
+- _OBJC_IVAR_$_SUManagerEngineParam._rollback
+- _OBJC_IVAR_$_SUManagerEngineParam._rollbackOptions
+- _OBJC_IVAR_$_SUManagerEngineParam._scanPolicy
+- _OBJC_IVAR_$_SUManagerEngineParam._scanUUID
+- _OBJC_IVAR_$_SUManagerEngineParam._skipDocAssetsPurge
+- _OBJC_IVAR_$_SUManagerEngineParam._skipPreSUStagingAssetsPurge
+- _OBJC_IVAR_$_SUManagerPolicy._core
+- _OBJC_IVAR_$_SUManagerPolicy._delegate
+- _OBJC_IVAR_$_SUManagerScanRequest._callback
+- _OBJC_IVAR_$_SUManagerScanRequest._error
+- _OBJC_IVAR_$_SUManagerScanRequest._options
+- _OBJC_IVAR_$_SUManagerScanRequest._results
+- _OBJC_IVAR_$_SUManagerServer._autoInstallManager
+- _OBJC_IVAR_$_SUManagerServer._clientQueue
+- _OBJC_IVAR_$_SUManagerServer._clients
+- _OBJC_IVAR_$_SUManagerServer._coreAnalyticsManager
+- _OBJC_IVAR_$_SUManagerServer._ddmManager
+- _OBJC_IVAR_$_SUManagerServer._followUpController
+- _OBJC_IVAR_$_SUManagerServer._historyTracker
+- _OBJC_IVAR_$_SUManagerServer._manager
+- _OBJC_IVAR_$_SUManagerServer._underExclusiveControl
+- _OBJC_IVAR_$_SUManagerServerClient._connection
+- _OBJC_IVAR_$_SUManagerServerClient._identifier
+- _OBJC_IVAR_$_SUManagerServerClient._isApplication
+- _OBJC_IVAR_$_SUManagerServerClient._isExclusiveClient
+- _OBJC_IVAR_$_SUManagerServerClient._isForeground
+- _OBJC_IVAR_$_SUManagerServerClient._isMessagable
+- _OBJC_IVAR_$_SUManagerServerClient._isVisible
+- _OBJC_IVAR_$_SUManagerServerClient._pid
+- _OBJC_IVAR_$_SUManagerServerClient._procMonitor
+- _OBJC_IVAR_$_SUManagerServerClient._taskState
+- _OBJC_IVAR_$_SUManagerServerClient._type
+- _OBJC_IVAR_$_SUPolicy._additionalOptions
+- _OBJC_IVAR_$_SUPolicyApply._installOptions
+- _OBJC_IVAR_$_SUPolicyDownload._downloadOptions
+- _OBJC_IVAR_$_SUPolicyFactory._corePolicy
+- _OBJC_IVAR_$_SUPolicyFactory._downloadOptions
+- _OBJC_IVAR_$_SUPolicyFactory._globalOptions
+- _OBJC_IVAR_$_SUPolicyFactory._installOptions
+- _OBJC_IVAR_$_SUPolicyFactory._rollbackOptions
+- _OBJC_IVAR_$_SUPolicyFactory._rollbackPolicy
+- _OBJC_IVAR_$_SUPolicyFactory._scanOption
+- _OBJC_IVAR_$_SUPolicyFactory._stateQueue
+- _OBJC_IVAR_$_SUPolicyGlobal._globalOptions
+- _OBJC_IVAR_$_SUPolicyGlobalOptions._updateMetricEventFields
+- _OBJC_IVAR_$_SUPolicyRollback._rollbackOptions
+- _OBJC_IVAR_$_SUPolicyScan._scanOptions
+- _OBJC_IVAR_$_SURollbackController._core
+- _OBJC_IVAR_$_SURollbackController._rollingBack
+- _OBJC_IVAR_$_SUScanTask._cancelRequested
+- _OBJC_IVAR_$_SUScanTask._coreScanner
+- _OBJC_IVAR_$_SUScanTask._scanOptions
+- _OBJC_IVAR_$_SUScanTask._scanPriority
+- _OBJC_IVAR_$_SUScanTask._scanQueue
+- _OBJC_IVAR_$_SUScanTask._sessionID
+- _OBJC_IVAR_$_SUScanTask._types
+- _OBJC_IVAR_$_SUScanner._activeScanTask
+- _OBJC_IVAR_$_SUScanner._alternateLastScannedCoreDescriptor
+- _OBJC_IVAR_$_SUScanner._core
+- _OBJC_IVAR_$_SUScanner._ddmRequestedBuild
+- _OBJC_IVAR_$_SUScanner._ddmRequestedPMV
+- _OBJC_IVAR_$_SUScanner._discoveryDateManager
+- _OBJC_IVAR_$_SUScanner._fullyUnrampedDateManager
+- _OBJC_IVAR_$_SUScanner._lastScannedDescriptorScanOptions
+- _OBJC_IVAR_$_SUScanner._preferredLastScannedCoreDescriptor
+- _OBJC_IVAR_$_SUScanner._recommendedUpdateTimer
+- _OBJC_IVAR_$_SUScanner._scanRequests
+- _OBJC_IVAR_$_SUScanner._scanning
+- _OBJC_IVAR_$_SUScheduler._autoInstallManager
+- _OBJC_IVAR_$_SUScheduler._autoInstallStrategy
+- _OBJC_IVAR_$_SUScheduler._coreScheduler
+- _OBJC_IVAR_$_SUScheduler._coreXPCActivityScheduler
+- _OBJC_IVAR_$_SUScheduler._gameModeMonitor
+- _OBJC_IVAR_$_SUScheduler._manager
+- _OBJC_IVAR_$_SUScheduler._schedulerQueue
+- _OBJC_IVAR_$_SUScheduler._serverConfigManager
+- _OBJC_IVAR_$_SUScheduler._useSUCoreXPCActivityManager
+- _OBJC_IVAR_$_SUServerConfigurationManager._config
+- _OBJC_IVAR_$_SUServerConfigurationManager._listeners
+- _OBJC_IVAR_$_SUServerConfigurationManager._projectConfig
+- _OBJC_IVAR_$_SUServerConfigurationManager._stateQueue
+- _OBJC_IVAR_$_SUServerConfigurationManager._suCoreServerConfig
+- _OBJC_IVAR_$_SUTransactionManager._keepAliveClearable
+- _OBJC_IVAR_$_SUTransactionManager._keepAliveTransactions
+- _OBJC_IVAR_$_SUTransactionManager._openTransactions
+- _OBJC_IVAR_$_SUTransactionManager._workQueue
+- _OBJC_IVAR_$_SUXPCAlarm._csScheduler
+- _OBJC_IVAR_$_SUXPCAutoInstallStrategy._autoInstallActivity
+- _OBJC_IVAR_$_SUXPCAutoInstallStrategy._delegate
+- _OBJC_IVAR_$_SUXPCAutoInstallStrategy._retryAutoInstallTimer
+- _OBJC_IVAR_$_SUXPCAutoInstallStrategy._schedulerQueue
+- _OBJC_METACLASS_$_SUAuthSSO
+- _OBJC_METACLASS_$_SUAutoInstallManager
+- _OBJC_METACLASS_$_SUAutoInstallStrategyCreater
+- _OBJC_METACLASS_$_SUBGSTAutoInstallStrategy
+- _OBJC_METACLASS_$_SUCoreScanResults
+- _OBJC_METACLASS_$_SUDDMManager
+- _OBJC_METACLASS_$_SUDownloader
+- _OBJC_METACLASS_$_SUGameModeMonitor
+- _OBJC_METACLASS_$_SUInstaller
+- _OBJC_METACLASS_$_SUManagedDeviceManager
+- _OBJC_METACLASS_$_SUManagerCore
+- _OBJC_METACLASS_$_SUManagerEngine
+- _OBJC_METACLASS_$_SUManagerEngineDownloadDescriptor
+- _OBJC_METACLASS_$_SUManagerEngineParam
+- _OBJC_METACLASS_$_SUManagerInterfaceFactory
+- _OBJC_METACLASS_$_SUManagerPolicy
+- _OBJC_METACLASS_$_SUManagerScanRequest
+- _OBJC_METACLASS_$_SUManagerServer
+- _OBJC_METACLASS_$_SUManagerServerClient
+- _OBJC_METACLASS_$_SUPolicy
+- _OBJC_METACLASS_$_SUPolicyApply
+- _OBJC_METACLASS_$_SUPolicyDocumentationDownload
+- _OBJC_METACLASS_$_SUPolicyDownload
+- _OBJC_METACLASS_$_SUPolicyFactory
+- _OBJC_METACLASS_$_SUPolicyGlobal
+- _OBJC_METACLASS_$_SUPolicyGlobalOptions
+- _OBJC_METACLASS_$_SUPolicyRollback
+- _OBJC_METACLASS_$_SUPolicyScan
+- _OBJC_METACLASS_$_SUPolicyScanBrain
+- _OBJC_METACLASS_$_SUPolicyScanSUDocumentation
+- _OBJC_METACLASS_$_SUPolicyScanSoftwareUpdate
+- _OBJC_METACLASS_$_SURollbackController
+- _OBJC_METACLASS_$_SUScanTask
+- _OBJC_METACLASS_$_SUScanner
+- _OBJC_METACLASS_$_SUScheduler
+- _OBJC_METACLASS_$_SUServerConfigurationManager
+- _OBJC_METACLASS_$_SUTransactionManager
+- _OBJC_METACLASS_$_SUXPCAlarm
+- _OBJC_METACLASS_$_SUXPCAutoInstallStrategy
+- _RVGetNeRDInfo
+- _RVTriggerNeRDUpdate
+- _SBSProcessAssertionCreateForPID
+- _SUClientForegroundnessChangedNotification
+- _SUClientMessagabilityChangedNotification
+- _SUCoreBorder_MSUBrainIsLoadable
+- _SUCorePolicyDDMStatusInstallStateValueKeyDownloading
+- _SUCorePolicyDDMStatusInstallStateValueKeyInstalling
+- _SUCorePolicyDDMStatusInstallStateValueKeyNone
+- _SUCorePolicyDDMStatusInstallStateValueKeyPrepared
+- _SUCorePolicyDDMStatusKeyFailureReason
+- _SUCorePolicyDDMStatusKeyInstallReason
+- _SUCorePolicyDDMStatusKeyInstallState
+- _SUCorePolicyDDMStatusKeyPendingVersion
+- _SUCorePolicyDDMStatusNotificationNameFailureReason
+- _SUCorePolicyDDMStatusNotificationNameInstallState
+- _SUCorePolicyDDMStatusNotificationNamePendingVersion
+- _SUUnlockNotificationKeyBrainDownloadComplete
+- _SUUnlockNotificationKeyEngineUnlockNotification
+- _SUUnlockNotificationKeyLoadBrain
+- _SUUnlockNotificationKeyPersistStash
+- _SUUnlockNotificationKeyPresentAutoUpdateBanner
+- _SUUnlockNotificationKeyRecordDataForBrain
+- _SUUnlockNotificationKeyResumeUpdate
+- _SUUnlockNotificationKeyVerifyAndPrepare
+- _XPC_ACTIVITY_ALLOW_BATTERY
+- _XPC_ACTIVITY_CHECK_IN
+- _XPC_ACTIVITY_DELAY
+- _XPC_ACTIVITY_DUET_ACTIVITY_SCHEDULER_DATA
+- _XPC_ACTIVITY_GRACE_PERIOD
+- _XPC_ACTIVITY_MAY_REBOOT_DEVICE
+- _XPC_ACTIVITY_PRIORITY
+- _XPC_ACTIVITY_PRIORITY_UTILITY
+- _XPC_ACTIVITY_RANDOM_INITIAL_DELAY
+- _XPC_ACTIVITY_REQUIRE_NETWORK_CONNECTIVITY
+- __DASCTSBypassBatteryAgingProtectionKey
+- __DASCTSMinBatteryLevelKey
+- __DASCTSUseStatisticalModelForRestartTasksKey
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_SUCoreDDMDeclaration_$_Special
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_SUCoreDescriptor_$_SUS
+- __OBJC_$_CATEGORY_SUCoreDDMDeclaration_$_Special
+- __OBJC_$_CATEGORY_SUCoreDescriptor_$_SUS
+- __OBJC_$_CLASS_METHODS_SUAuthSSO
+- __OBJC_$_CLASS_METHODS_SUAutoInstallManager
+- __OBJC_$_CLASS_METHODS_SUAutoInstallStrategyCreater
+- __OBJC_$_CLASS_METHODS_SUDDMManager
+- __OBJC_$_CLASS_METHODS_SUDownloader
+- __OBJC_$_CLASS_METHODS_SUGameModeMonitor
+- __OBJC_$_CLASS_METHODS_SUInstaller
+- __OBJC_$_CLASS_METHODS_SUManagedDeviceManager
+- __OBJC_$_CLASS_METHODS_SUManagerEngine
+- __OBJC_$_CLASS_METHODS_SUManagerEngineDownloadDescriptor
+- __OBJC_$_CLASS_METHODS_SUManagerInterfaceFactory
+- __OBJC_$_CLASS_METHODS_SUManagerServer
+- __OBJC_$_CLASS_METHODS_SUManagerServerClient
+- __OBJC_$_CLASS_METHODS_SUScanner
+- __OBJC_$_CLASS_METHODS_SUScheduler
+- __OBJC_$_CLASS_METHODS_SUServerConfigurationManager
+- __OBJC_$_CLASS_METHODS_SUTransactionManager
+- __OBJC_$_INSTANCE_METHODS_NSError(SUSpace|SUInstaller|SUS)
+- __OBJC_$_INSTANCE_METHODS_SUAuthSSO
+- __OBJC_$_INSTANCE_METHODS_SUAutoInstallManager
+- __OBJC_$_INSTANCE_METHODS_SUBGSTAutoInstallStrategy
+- __OBJC_$_INSTANCE_METHODS_SUCoreScanResults
+- __OBJC_$_INSTANCE_METHODS_SUDDMManager
+- __OBJC_$_INSTANCE_METHODS_SUDescriptor(DDM|SUBattery)
+- __OBJC_$_INSTANCE_METHODS_SUDownload(Scanner)
+- __OBJC_$_INSTANCE_METHODS_SUDownloader
+- __OBJC_$_INSTANCE_METHODS_SUGameModeMonitor
+- __OBJC_$_INSTANCE_METHODS_SUInstaller
+- __OBJC_$_INSTANCE_METHODS_SUManagedDeviceManager
+- __OBJC_$_INSTANCE_METHODS_SUManagerCore(Analytics|MDM|Splat)
+- __OBJC_$_INSTANCE_METHODS_SUManagerEngine
+- __OBJC_$_INSTANCE_METHODS_SUManagerEngineDownloadDescriptor
+- __OBJC_$_INSTANCE_METHODS_SUManagerEngineParam
+- __OBJC_$_INSTANCE_METHODS_SUManagerPolicy
+- __OBJC_$_INSTANCE_METHODS_SUManagerScanRequest
+- __OBJC_$_INSTANCE_METHODS_SUManagerServer(Daemon)
+- __OBJC_$_INSTANCE_METHODS_SUManagerServerClient
+- __OBJC_$_INSTANCE_METHODS_SUPolicy
+- __OBJC_$_INSTANCE_METHODS_SUPolicyApply
+- __OBJC_$_INSTANCE_METHODS_SUPolicyDocumentationDownload
+- __OBJC_$_INSTANCE_METHODS_SUPolicyDownload
+- __OBJC_$_INSTANCE_METHODS_SUPolicyFactory
+- __OBJC_$_INSTANCE_METHODS_SUPolicyGlobal
+- __OBJC_$_INSTANCE_METHODS_SUPolicyGlobalOptions
+- __OBJC_$_INSTANCE_METHODS_SUPolicyRollback
+- __OBJC_$_INSTANCE_METHODS_SUPolicyScan
+- __OBJC_$_INSTANCE_METHODS_SUPolicyScanBrain
+- __OBJC_$_INSTANCE_METHODS_SUPolicyScanSUDocumentation
+- __OBJC_$_INSTANCE_METHODS_SUPolicyScanSoftwareUpdate
+- __OBJC_$_INSTANCE_METHODS_SURollbackController
+- __OBJC_$_INSTANCE_METHODS_SUScanOptions(SUS)
+- __OBJC_$_INSTANCE_METHODS_SUScanTask
+- __OBJC_$_INSTANCE_METHODS_SUScanner
+- __OBJC_$_INSTANCE_METHODS_SUScheduler
+- __OBJC_$_INSTANCE_METHODS_SUServerConfigurationManager
+- __OBJC_$_INSTANCE_METHODS_SUTransactionManager
+- __OBJC_$_INSTANCE_METHODS_SUXPCAlarm
+- __OBJC_$_INSTANCE_METHODS_SUXPCAutoInstallStrategy
+- __OBJC_$_INSTANCE_VARIABLES_SUAuthSSO
+- __OBJC_$_INSTANCE_VARIABLES_SUAutoInstallManager
+- __OBJC_$_INSTANCE_VARIABLES_SUBGSTAutoInstallStrategy
+- __OBJC_$_INSTANCE_VARIABLES_SUCoreScanResults
+- __OBJC_$_INSTANCE_VARIABLES_SUDDMManager
+- __OBJC_$_INSTANCE_VARIABLES_SUDownloader
+- __OBJC_$_INSTANCE_VARIABLES_SUGameModeMonitor
+- __OBJC_$_INSTANCE_VARIABLES_SUInstaller
+- __OBJC_$_INSTANCE_VARIABLES_SUManagedDeviceManager
+- __OBJC_$_INSTANCE_VARIABLES_SUManagerCore
+- __OBJC_$_INSTANCE_VARIABLES_SUManagerEngine
+- __OBJC_$_INSTANCE_VARIABLES_SUManagerEngineDownloadDescriptor
+- __OBJC_$_INSTANCE_VARIABLES_SUManagerEngineParam
+- __OBJC_$_INSTANCE_VARIABLES_SUManagerPolicy
+- __OBJC_$_INSTANCE_VARIABLES_SUManagerScanRequest
+- __OBJC_$_INSTANCE_VARIABLES_SUManagerServer
+- __OBJC_$_INSTANCE_VARIABLES_SUManagerServerClient
+- __OBJC_$_INSTANCE_VARIABLES_SUPolicy
+- __OBJC_$_INSTANCE_VARIABLES_SUPolicyApply
+- __OBJC_$_INSTANCE_VARIABLES_SUPolicyDownload
+- __OBJC_$_INSTANCE_VARIABLES_SUPolicyFactory
+- __OBJC_$_INSTANCE_VARIABLES_SUPolicyGlobal
+- __OBJC_$_INSTANCE_VARIABLES_SUPolicyGlobalOptions
+- __OBJC_$_INSTANCE_VARIABLES_SUPolicyRollback
+- __OBJC_$_INSTANCE_VARIABLES_SUPolicyScan
+- __OBJC_$_INSTANCE_VARIABLES_SURollbackController
+- __OBJC_$_INSTANCE_VARIABLES_SUScanTask
+- __OBJC_$_INSTANCE_VARIABLES_SUScanner
+- __OBJC_$_INSTANCE_VARIABLES_SUScheduler
+- __OBJC_$_INSTANCE_VARIABLES_SUServerConfigurationManager
+- __OBJC_$_INSTANCE_VARIABLES_SUTransactionManager
+- __OBJC_$_INSTANCE_VARIABLES_SUXPCAlarm
+- __OBJC_$_INSTANCE_VARIABLES_SUXPCAutoInstallStrategy
+- __OBJC_$_PROP_LIST_SUAutoInstallManager
+- __OBJC_$_PROP_LIST_SUAutoInstallStrategy
+- __OBJC_$_PROP_LIST_SUBGSTAutoInstallStrategy
+- __OBJC_$_PROP_LIST_SUCoreScanResults
+- __OBJC_$_PROP_LIST_SUDDMManager
+- __OBJC_$_PROP_LIST_SUDownloader
+- __OBJC_$_PROP_LIST_SUGameModeMonitor
+- __OBJC_$_PROP_LIST_SUInstaller
+- __OBJC_$_PROP_LIST_SUManagedDeviceManager
+- __OBJC_$_PROP_LIST_SUManagerCore
+- __OBJC_$_PROP_LIST_SUManagerEngine
+- __OBJC_$_PROP_LIST_SUManagerEngineDownloadDescriptor
+- __OBJC_$_PROP_LIST_SUManagerEngineParam
+- __OBJC_$_PROP_LIST_SUManagerInterface
+- __OBJC_$_PROP_LIST_SUManagerPolicy
+- __OBJC_$_PROP_LIST_SUManagerScanRequest
+- __OBJC_$_PROP_LIST_SUManagerServer
+- __OBJC_$_PROP_LIST_SUManagerServerClient
+- __OBJC_$_PROP_LIST_SUPolicy
+- __OBJC_$_PROP_LIST_SUPolicyApply
+- __OBJC_$_PROP_LIST_SUPolicyDownload
+- __OBJC_$_PROP_LIST_SUPolicyFactory
+- __OBJC_$_PROP_LIST_SUPolicyGlobal
+- __OBJC_$_PROP_LIST_SUPolicyGlobalOptions
+- __OBJC_$_PROP_LIST_SUPolicyRollback
+- __OBJC_$_PROP_LIST_SUPolicyScan
+- __OBJC_$_PROP_LIST_SUPolicyScanSoftwareUpdate
+- __OBJC_$_PROP_LIST_SURollbackController
+- __OBJC_$_PROP_LIST_SUScanTask
+- __OBJC_$_PROP_LIST_SUScanner
+- __OBJC_$_PROP_LIST_SUScheduler
+- __OBJC_$_PROP_LIST_SUServerConfigurationManager
+- __OBJC_$_PROP_LIST_SUXPCAutoInstallStrategy
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SUAutoUpdatePasscodePolicyObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SUCoreUpdateDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SUManagedDeviceManagerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SUManagerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SUManagerEngineDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SUManagerObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SUServerConfigurationManagerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SUAutoInstallManagerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SUAutoInstallStrategy
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SUAutoInstallStrategyDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SUCoreConfigServerProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SUCoreDDMActivitySchedulerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SUCoreFSMDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SUGameModeMonitorDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SUManagerEngineDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SUManagerInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUAutoInstallManagerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUAutoInstallStrategy
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUAutoInstallStrategyDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUAutoUpdatePasscodePolicyObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUCoreConfigServerProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUCoreDDMActivitySchedulerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUCoreFSMDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUCoreUpdateDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUGameModeMonitorDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUManagedDeviceManagerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUManagerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUManagerEngineDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUManagerInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUManagerObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SUServerConfigurationManagerDelegate
+- __OBJC_$_PROTOCOL_REFS_SUAutoInstallManagerDelegate
+- __OBJC_$_PROTOCOL_REFS_SUAutoInstallStrategy
+- __OBJC_$_PROTOCOL_REFS_SUAutoInstallStrategyDelegate
+- __OBJC_$_PROTOCOL_REFS_SUAutoUpdatePasscodePolicyObserver
+- __OBJC_$_PROTOCOL_REFS_SUCoreConfigServerProtocol
+- __OBJC_$_PROTOCOL_REFS_SUCoreDDMActivitySchedulerDelegate
+- __OBJC_$_PROTOCOL_REFS_SUCoreFSMDelegate
+- __OBJC_$_PROTOCOL_REFS_SUCoreUpdateDelegate
+- __OBJC_$_PROTOCOL_REFS_SUGameModeMonitorDelegate
+- __OBJC_$_PROTOCOL_REFS_SUManagedDeviceManagerDelegate
+- __OBJC_$_PROTOCOL_REFS_SUManagerDelegate
+- __OBJC_$_PROTOCOL_REFS_SUManagerEngineDelegate
+- __OBJC_$_PROTOCOL_REFS_SUManagerInterface
+- __OBJC_$_PROTOCOL_REFS_SUManagerObserver
+- __OBJC_$_PROTOCOL_REFS_SUServerConfigurationManagerDelegate
+- __OBJC_CLASS_PROTOCOLS_$_SUAutoInstallManager
+- __OBJC_CLASS_PROTOCOLS_$_SUBGSTAutoInstallStrategy
+- __OBJC_CLASS_PROTOCOLS_$_SUDDMManager
+- __OBJC_CLASS_PROTOCOLS_$_SUDownloader
+- __OBJC_CLASS_PROTOCOLS_$_SUManagerCore
+- __OBJC_CLASS_PROTOCOLS_$_SUManagerEngine
+- __OBJC_CLASS_PROTOCOLS_$_SUManagerPolicy
+- __OBJC_CLASS_PROTOCOLS_$_SUManagerServer
+- __OBJC_CLASS_PROTOCOLS_$_SUScheduler
+- __OBJC_CLASS_PROTOCOLS_$_SUServerConfigurationManager
+- __OBJC_CLASS_PROTOCOLS_$_SUXPCAutoInstallStrategy
+- __OBJC_CLASS_RO_$_SUAuthSSO
+- __OBJC_CLASS_RO_$_SUAutoInstallManager
+- __OBJC_CLASS_RO_$_SUAutoInstallStrategyCreater
+- __OBJC_CLASS_RO_$_SUBGSTAutoInstallStrategy
+- __OBJC_CLASS_RO_$_SUCoreScanResults
+- __OBJC_CLASS_RO_$_SUDDMManager
+- __OBJC_CLASS_RO_$_SUDownloader
+- __OBJC_CLASS_RO_$_SUGameModeMonitor
+- __OBJC_CLASS_RO_$_SUInstaller
+- __OBJC_CLASS_RO_$_SUManagedDeviceManager
+- __OBJC_CLASS_RO_$_SUManagerCore
+- __OBJC_CLASS_RO_$_SUManagerEngine
+- __OBJC_CLASS_RO_$_SUManagerEngineDownloadDescriptor
+- __OBJC_CLASS_RO_$_SUManagerEngineParam
+- __OBJC_CLASS_RO_$_SUManagerInterfaceFactory
+- __OBJC_CLASS_RO_$_SUManagerPolicy
+- __OBJC_CLASS_RO_$_SUManagerScanRequest
+- __OBJC_CLASS_RO_$_SUManagerServer
+- __OBJC_CLASS_RO_$_SUManagerServerClient
+- __OBJC_CLASS_RO_$_SUPolicy
+- __OBJC_CLASS_RO_$_SUPolicyApply
+- __OBJC_CLASS_RO_$_SUPolicyDocumentationDownload
+- __OBJC_CLASS_RO_$_SUPolicyDownload
+- __OBJC_CLASS_RO_$_SUPolicyFactory
+- __OBJC_CLASS_RO_$_SUPolicyGlobal
+- __OBJC_CLASS_RO_$_SUPolicyGlobalOptions
+- __OBJC_CLASS_RO_$_SUPolicyRollback
+- __OBJC_CLASS_RO_$_SUPolicyScan
+- __OBJC_CLASS_RO_$_SUPolicyScanBrain
+- __OBJC_CLASS_RO_$_SUPolicyScanSUDocumentation
+- __OBJC_CLASS_RO_$_SUPolicyScanSoftwareUpdate
+- __OBJC_CLASS_RO_$_SURollbackController
+- __OBJC_CLASS_RO_$_SUScanTask
+- __OBJC_CLASS_RO_$_SUScanner
+- __OBJC_CLASS_RO_$_SUScheduler
+- __OBJC_CLASS_RO_$_SUServerConfigurationManager
+- __OBJC_CLASS_RO_$_SUTransactionManager
+- __OBJC_CLASS_RO_$_SUXPCAlarm
+- __OBJC_CLASS_RO_$_SUXPCAutoInstallStrategy
+- __OBJC_LABEL_PROTOCOL_$_SUAutoInstallManagerDelegate
+- __OBJC_LABEL_PROTOCOL_$_SUAutoInstallStrategy
+- __OBJC_LABEL_PROTOCOL_$_SUAutoInstallStrategyDelegate
+- __OBJC_LABEL_PROTOCOL_$_SUAutoUpdatePasscodePolicyObserver
+- __OBJC_LABEL_PROTOCOL_$_SUCoreConfigServerProtocol
+- __OBJC_LABEL_PROTOCOL_$_SUCoreDDMActivitySchedulerDelegate
+- __OBJC_LABEL_PROTOCOL_$_SUCoreFSMDelegate
+- __OBJC_LABEL_PROTOCOL_$_SUCoreUpdateDelegate
+- __OBJC_LABEL_PROTOCOL_$_SUGameModeMonitorDelegate
+- __OBJC_LABEL_PROTOCOL_$_SUManagedDeviceManagerDelegate
+- __OBJC_LABEL_PROTOCOL_$_SUManagerDelegate
+- __OBJC_LABEL_PROTOCOL_$_SUManagerEngineDelegate
+- __OBJC_LABEL_PROTOCOL_$_SUManagerInterface
+- __OBJC_LABEL_PROTOCOL_$_SUManagerObserver
+- __OBJC_LABEL_PROTOCOL_$_SUServerConfigurationManagerDelegate
+- __OBJC_METACLASS_RO_$_SUAuthSSO
+- __OBJC_METACLASS_RO_$_SUAutoInstallManager
+- __OBJC_METACLASS_RO_$_SUAutoInstallStrategyCreater
+- __OBJC_METACLASS_RO_$_SUBGSTAutoInstallStrategy
+- __OBJC_METACLASS_RO_$_SUCoreScanResults
+- __OBJC_METACLASS_RO_$_SUDDMManager
+- __OBJC_METACLASS_RO_$_SUDownloader
+- __OBJC_METACLASS_RO_$_SUGameModeMonitor
+- __OBJC_METACLASS_RO_$_SUInstaller
+- __OBJC_METACLASS_RO_$_SUManagedDeviceManager
+- __OBJC_METACLASS_RO_$_SUManagerCore
+- __OBJC_METACLASS_RO_$_SUManagerEngine
+- __OBJC_METACLASS_RO_$_SUManagerEngineDownloadDescriptor
+- __OBJC_METACLASS_RO_$_SUManagerEngineParam
+- __OBJC_METACLASS_RO_$_SUManagerInterfaceFactory
+- __OBJC_METACLASS_RO_$_SUManagerPolicy
+- __OBJC_METACLASS_RO_$_SUManagerScanRequest
+- __OBJC_METACLASS_RO_$_SUManagerServer
+- __OBJC_METACLASS_RO_$_SUManagerServerClient
+- __OBJC_METACLASS_RO_$_SUPolicy
+- __OBJC_METACLASS_RO_$_SUPolicyApply
+- __OBJC_METACLASS_RO_$_SUPolicyDocumentationDownload
+- __OBJC_METACLASS_RO_$_SUPolicyDownload
+- __OBJC_METACLASS_RO_$_SUPolicyFactory
+- __OBJC_METACLASS_RO_$_SUPolicyGlobal
+- __OBJC_METACLASS_RO_$_SUPolicyGlobalOptions
+- __OBJC_METACLASS_RO_$_SUPolicyRollback
+- __OBJC_METACLASS_RO_$_SUPolicyScan
+- __OBJC_METACLASS_RO_$_SUPolicyScanBrain
+- __OBJC_METACLASS_RO_$_SUPolicyScanSUDocumentation
+- __OBJC_METACLASS_RO_$_SUPolicyScanSoftwareUpdate
+- __OBJC_METACLASS_RO_$_SURollbackController
+- __OBJC_METACLASS_RO_$_SUScanTask
+- __OBJC_METACLASS_RO_$_SUScanner
+- __OBJC_METACLASS_RO_$_SUScheduler
+- __OBJC_METACLASS_RO_$_SUServerConfigurationManager
+- __OBJC_METACLASS_RO_$_SUTransactionManager
+- __OBJC_METACLASS_RO_$_SUXPCAlarm
+- __OBJC_METACLASS_RO_$_SUXPCAutoInstallStrategy
+- __OBJC_PROTOCOL_$_SUAutoInstallManagerDelegate
+- __OBJC_PROTOCOL_$_SUAutoInstallStrategy
+- __OBJC_PROTOCOL_$_SUAutoInstallStrategyDelegate
+- __OBJC_PROTOCOL_$_SUAutoUpdatePasscodePolicyObserver
+- __OBJC_PROTOCOL_$_SUCoreConfigServerProtocol
+- __OBJC_PROTOCOL_$_SUCoreDDMActivitySchedulerDelegate
+- __OBJC_PROTOCOL_$_SUCoreFSMDelegate
+- __OBJC_PROTOCOL_$_SUCoreUpdateDelegate
+- __OBJC_PROTOCOL_$_SUGameModeMonitorDelegate
+- __OBJC_PROTOCOL_$_SUManagedDeviceManagerDelegate
+- __OBJC_PROTOCOL_$_SUManagerDelegate
+- __OBJC_PROTOCOL_$_SUManagerEngineDelegate
+- __OBJC_PROTOCOL_$_SUManagerInterface
+- __OBJC_PROTOCOL_$_SUManagerObserver
+- __OBJC_PROTOCOL_$_SUServerConfigurationManagerDelegate
+- __SUDownloadPhaseOrderWeightsNonStreamable
+- __SUDownloadPhaseOrderWeightsStreamable
+- ___111-[SUInstaller getInstallationConstraintsForDownload:allowDiskCleanupIfNeeded:forceDiskCleanupIfNeeded:options:]_block_invoke
+- ___111-[SUInstaller getInstallationConstraintsForDownload:allowDiskCleanupIfNeeded:forceDiskCleanupIfNeeded:options:]_block_invoke_2
+- ___111-[SUInstaller getInstallationConstraintsForDownload:allowDiskCleanupIfNeeded:forceDiskCleanupIfNeeded:options:]_block_invoke_3
+- ___138-[SUInstaller getInstallationConstraintsForDownload:allowDiskCleanupIfNeeded:forceDiskCleanupIfNeeded:options:completionQueue:completion:]_block_invoke
+- ___138-[SUInstaller getInstallationConstraintsForDownload:allowDiskCleanupIfNeeded:forceDiskCleanupIfNeeded:options:completionQueue:completion:]_block_invoke_2
+- ___18-[SUXPCAlarm init]_block_invoke
+- ___18-[SUXPCAlarm init]_block_invoke_2
+- ___181-[SUScanner handleActiveScanTaskScanCompletionWithPreferredPrimaryDescriptor:preferredSecondaryDescriptor:alternatePrimaryDescriptor:alternateSecondaryDescriptor:scanOptions:error:]_block_invoke
+- ___181-[SUScanner handleActiveScanTaskScanCompletionWithPreferredPrimaryDescriptor:preferredSecondaryDescriptor:alternatePrimaryDescriptor:alternateSecondaryDescriptor:scanOptions:error:]_block_invoke_2
+- ___181-[SUScanner handleActiveScanTaskScanCompletionWithPreferredPrimaryDescriptor:preferredSecondaryDescriptor:alternatePrimaryDescriptor:alternateSecondaryDescriptor:scanOptions:error:]_block_invoke_3
+- ___21-[SUManagerCore init]_block_invoke
+- ___23-[SUPolicyFactory init]_block_invoke
+- ___24-[SUScanTask cancelTask]_block_invoke
+- ___24-[SUScanTask cancelTask]_block_invoke_2
+- ___25-[SUGameModeMonitor init]_block_invoke
+- ___26-[SUAuthSSO _ensureSsoLib]_block_invoke
+- ___26-[SUScanTask scanPriority]_block_invoke
+- ___27-[SUManagerCore activated:]_block_invoke
+- ___27-[SUManagerEngine onUnlock]_block_invoke
+- ___27-[SUManagerEngine onUnlock]_block_invoke_2
+- ___27-[SUManagerPolicy download]_block_invoke
+- ___28-[SUInstaller initWithCore:]_block_invoke
+- ___29+[SUScheduler sharedInstance]_block_invoke
+- ___29-[SUManagerPolicy isScanning]_block_invoke
+- ___29-[SUManagerPolicy slaVersion]_block_invoke
+- ___29-[SUManagerServer addClient:]_block_invoke
+- ___29-[SUManagerServer resetState]_block_invoke
+- ___29-[SUPolicyFactory corePolicy]_block_invoke
+- ___30-[SUManagerServer descriptor:]_block_invoke
+- ___30-[SUManagerServer descriptor:]_block_invoke_2
+- ___30-[SUManagerServer descriptor:]_block_invoke_3
+- ___30-[SUManagerServer isScanning:]_block_invoke
+- ___30-[SUManagerServer isScanning:]_block_invoke_2
+- ___30-[SUManagerServer isScanning:]_block_invoke_3
+- ___30-[SUManagerServer slaVersion:]_block_invoke
+- ___30-[SUManagerServer slaVersion:]_block_invoke_2
+- ___30-[SUManagerServer slaVersion:]_block_invoke_3
+- ___30-[SUPolicyFactory scanOptions]_block_invoke
+- ___30-[SUScanner _doScanForUpdates]_block_invoke
+- ___30-[SUScheduler handleXPCEvent:]_block_invoke
+- ___31-[SUDownloader _orderForPhase:]_block_invoke
+- ___31-[SUDownloader tryAutoDownload]_block_invoke
+- ___31-[SUDownloader tryAutoDownload]_block_invoke_2
+- ___31-[SUGameModeMonitor inGameMode]_block_invoke
+- ___31-[SUManagerPolicy addObserver:]_block_invoke
+- ___31-[SUManagerPolicy delayEndDate]_block_invoke
+- ___31-[SUManagerPolicy isDownloaded]_block_invoke
+- ___31-[SUManagerPolicy isForeground]_block_invoke
+- ___31-[SUManagerPolicy isInstalling]_block_invoke
+- ___31-[SUManagerServer descriptors:]_block_invoke
+- ___31-[SUManagerServer descriptors:]_block_invoke_2
+- ___31-[SUManagerServer descriptors:]_block_invoke_3
+- ___32-[SUInstaller installCompleted:]_block_invoke
+- ___32-[SUInstaller installCompleted:]_block_invoke.456
+- ___32-[SUInstaller installCompleted:]_block_invoke_2
+- ___32-[SUInstaller installCompleted:]_block_invoke_2.457
+- ___32-[SUInstaller installCompleted:]_block_invoke_3
+- ___32-[SUInstaller installCompleted:]_block_invoke_3.466
+- ___32-[SUInstaller installCompleted:]_block_invoke_4
+- ___32-[SUInstaller installCompleted:]_block_invoke_4.467
+- ___32-[SUManagerEngine updateApplied]_block_invoke
+- ___32-[SUManagerPolicy installPolicy]_block_invoke
+- ___32-[SUManagerPolicy isDownloading]_block_invoke
+- ___32-[SUManagerPolicy isRollingBack]_block_invoke
+- ___32-[SUManagerServer delayEndDate:]_block_invoke
+- ___32-[SUManagerServer delayEndDate:]_block_invoke_2
+- ___32-[SUManagerServer delayEndDate:]_block_invoke_3
+- ___32-[SUManagerServer removeClient:]_block_invoke
+- ___32-[SUPolicyFactory globalOptions]_block_invoke
+- ___33+[SUManagerServer sharedInstance]_block_invoke
+- ___33-[SUDDMManager downloadDidStart:]_block_invoke
+- ___33-[SUDDMManager installDidFinish:]_block_invoke
+- ___33-[SUGameModeMonitor addDelegate:]_block_invoke
+- ___33-[SUManagerEngine updateCanceled]_block_invoke
+- ___33-[SUManagerPolicy passcodePolicy]_block_invoke
+- ___33-[SUManagerPolicy pauseDownload:]_block_invoke
+- ___33-[SUManagerPolicy setForeground:]_block_invoke
+- ___33-[SUManagerServer isDownloading:]_block_invoke
+- ___33-[SUManagerServer isDownloading:]_block_invoke_2
+- ___33-[SUManagerServer isDownloading:]_block_invoke_3
+- ___33-[SUManagerServer isRollingBack:]_block_invoke
+- ___33-[SUManagerServer isRollingBack:]_block_invoke_2
+- ___33-[SUManagerServer isRollingBack:]_block_invoke_3
+- ___33-[SUManagerServer pauseDownload:]_block_invoke
+- ___33-[SUManagerServer pauseDownload:]_block_invoke_2
+- ___33-[SUManagerServer pauseDownload:]_block_invoke_3
+- ___33-[SUManagerServer startDownload:]_block_invoke
+- ___33-[SUManagerServer startDownload:]_block_invoke_2
+- ___33-[SUManagerServer startDownload:]_block_invoke_3
+- ___33-[SUPolicyFactory installOptions]_block_invoke
+- ___33-[SUPolicyFactory rollbackPolicy]_block_invoke
+- ___33-[SUScheduler _scheduleActivity:]_block_invoke
+- ___33-[SUScheduler _scheduleActivity:]_block_invoke_2
+- ___33-[SUScheduler _scheduleActivity:]_block_invoke_3
+- ___33-[SUScheduler _scheduleActivity:]_block_invoke_4
+- ___33-[SUScheduler _scheduleActivity:]_block_invoke_5
+- ___33-[SUScheduler gameModeChangedTo:]_block_invoke
+- ___34+[SUGameModeMonitor sharedMonitor]_block_invoke
+- ___34-[SUDDMManager recommendedCadence]_block_invoke
+- ___34-[SUDownloader _downloadFinished:]_block_invoke
+- ___34-[SUDownloader _downloadFinished:]_block_invoke_2
+- ___34-[SUManagerCore downloadProgress:]_block_invoke
+- ___34-[SUManagerCore installCompleted:]_block_invoke
+- ___34-[SUManagerEngine updatePrepared:]_block_invoke
+- ___34-[SUManagerPolicy isClearingSpace]_block_invoke
+- ___34-[SUManagerPolicy removeObserver:]_block_invoke
+- ___34-[SUManagerPolicy resumeDownload:]_block_invoke
+- ___34-[SUManagerPolicy tryAutoDownload]_block_invoke
+- ___34-[SUManagerServer resumeDownload:]_block_invoke
+- ___34-[SUManagerServer resumeDownload:]_block_invoke_2
+- ___34-[SUManagerServer resumeDownload:]_block_invoke_3
+- ___34-[SUPolicyFactory downloadOptions]_block_invoke
+- ___34-[SUPolicyFactory rollbackOptions]_block_invoke
+- ___34-[SUPolicyFactory setScanOptions:]_block_invoke
+- ___35-[SUDDMManager _handleScanResults:]_block_invoke
+- ___35-[SUManagerCore downloadCompleted:]_block_invoke
+- ___35-[SUManagerPolicy isInstallTonight]_block_invoke
+- ___35-[SUManagerServer installDidStart:]_block_invoke
+- ___35-[SUManagerServer installDidStart:]_block_invoke_2
+- ___35-[SUScheduler _unscheduleActivity:]_block_invoke
+- ___35-[SUScheduler cancelRollbackReboot]_block_invoke
+- ___36-[SUGameModeMonitor removeDelegate:]_block_invoke
+- ___36-[SUManagerEngine updateRolledBack:]_block_invoke
+- ___36-[SUManagerPolicy isDelayingUpdates]_block_invoke
+- ___36-[SUManagerPolicy loadBrainOnUnlock]_block_invoke
+- ___36-[SUManagerServer downloadDidStart:]_block_invoke
+- ___36-[SUManagerServer downloadDidStart:]_block_invoke_2
+- ___36-[SUManagerServer installDidFinish:]_block_invoke
+- ___36-[SUManagerServer installDidFinish:]_block_invoke_2
+- ___36-[SUManagerServer installDidFinish:]_block_invoke_3
+- ___36-[SUManagerServer rollbackDidStart:]_block_invoke
+- ___36-[SUManagerServer rollbackDidStart:]_block_invoke_2
+- ___36-[SUPolicyFactory setGlobalOptions:]_block_invoke
+- ___37+[SUUtility currentSupplementalBuild]_block_invoke
+- ___37-[SUDownloader operatorBundleChanged]_block_invoke
+- ___37-[SUManagerCore persistStashOnUnlock]_block_invoke
+- ___37-[SUManagerEngine updateBrainLoaded:]_block_invoke
+- ___37-[SUManagerPolicy setPasscodePolicy:]_block_invoke
+- ___37-[SUManagerServer isDelayingUpdates:]_block_invoke
+- ___37-[SUManagerServer isDelayingUpdates:]_block_invoke_2
+- ___37-[SUManagerServer isDelayingUpdates:]_block_invoke_3
+- ___37-[SUManagerServer rollbackSucceeded:]_block_invoke
+- ___37-[SUManagerServer rollbackSucceeded:]_block_invoke_2
+- ___37-[SUManagerServer rollbackSucceeded:]_block_invoke_3
+- ___37-[SUPolicyFactory setInstallOptions:]_block_invoke
+- ___37-[SUScanner scanForUpdates:complete:]_block_invoke
+- ___37-[SUScanner scanForUpdates:complete:]_block_invoke_2
+- ___37-[SUScanner scanForUpdates:complete:]_block_invoke_3
+- ___37-[SUScanner scanForUpdates:complete:]_block_invoke_4
+- ___37-[SUScheduler cancelAutoDownloadTask]_block_invoke
+- ___37-[SUScheduler shouldDeferAutoInstall]_block_invoke
+- ___38+[SUTransactionManager sharedInstance]_block_invoke
+- ___38-[SUAutoInstallManager operationModel]_block_invoke
+- ___38-[SUInstaller managedInstallRequested]_block_invoke
+- ___38-[SUManagerCore _notifyEngineOnUnlock]_block_invoke
+- ___38-[SUManagerCore assetAudienceChanged:]_block_invoke
+- ___38-[SUManagerCore assetAudienceChanged:]_block_invoke_2
+- ___38-[SUManagerEngine applyAttemptFailed:]_block_invoke
+- ___38-[SUManagerEngine cancelLockAssertion]_block_invoke
+- ___38-[SUManagerPolicy isAutoUpdateEnabled]_block_invoke
+- ___38-[SUManagerServer newOSBuildDetected:]_block_invoke
+- ___38-[SUManagerServer newOSBuildDetected:]_block_invoke_2
+- ___38-[SUManagerServer splatUpdateDetected]_block_invoke
+- ___38-[SUManagerServer splatUpdateDetected]_block_invoke_2
+- ___38-[SUManagerServer writeKeepAliveFile:]_block_invoke
+- ___38-[SUManagerServer writeKeepAliveFile:]_block_invoke_2
+- ___38-[SUManagerServer writeKeepAliveFile:]_block_invoke_3
+- ___38-[SUPolicyFactory setDownloadOptions:]_block_invoke
+- ___38-[SUPolicyFactory setRollbackOptions:]_block_invoke
+- ___39-[SUDDMManager downloadWasInvalidated:]_block_invoke
+- ___39-[SUInstaller updateInstallPolicyType:]_block_invoke
+- ___39-[SUManagerEngine updateAttemptFailed:]_block_invoke
+- ___39-[SUManagerPolicy dismissSplatFollowUp]_block_invoke
+- ___39-[SUManagerPolicy persistStashOnUnlock]_block_invoke
+- ___39-[SUManagerPolicy setIsInstallTonight:]_block_invoke
+- ___39-[SUManagerServer fetchInstallHistory:]_block_invoke
+- ___39-[SUManagerServer fetchInstallHistory:]_block_invoke_2
+- ___39-[SUManagerServer fetchInstallHistory:]_block_invoke_3
+- ___39-[SUManagerServer isAutoUpdateEnabled:]_block_invoke
+- ___39-[SUManagerServer isAutoUpdateEnabled:]_block_invoke_2
+- ___39-[SUManagerServer isAutoUpdateEnabled:]_block_invoke_3
+- ___39-[SUManagerServer rvTriggerNeRDUpdate:]_block_invoke
+- ___39-[SUManagerServer rvTriggerNeRDUpdate:]_block_invoke_2
+- ___39-[SUManagerServer setExclusiveControl:]_block_invoke
+- ___39-[SUManagerServer setExclusiveControl:]_block_invoke_2
+- ___39-[SUScanner notifyScanRequestDidStart:]_block_invoke
+- ___39-[SUScheduler cancelAllBackgroundScans]_block_invoke
+- ___39-[SUTransactionManager endTransaction:]_block_invoke
+- ___40+[SUManagedDeviceManager sharedInstance]_block_invoke
+- ___40-[SUAutoInstallManager initWithManager:]_block_invoke
+- ___40-[SUDDMManager alwaysEnableAutoDownload]_block_invoke
+- ___40-[SUDDMManager updateDeferralPeriodDays]_block_invoke
+- ___40-[SUManagedDeviceManager profileChanged]_block_invoke
+- ___40-[SUManagerCore(Splat) rollbackStarted:]_block_invoke
+- ___40-[SUManagerPolicy removeUnlockCallback:]_block_invoke
+- ___40-[SUManagerPolicy splatRollbackAllowed:]_block_invoke
+- ___40-[SUManagerServer splatRollbackAllowed:]_block_invoke
+- ___40-[SUManagerServer splatRollbackAllowed:]_block_invoke_2
+- ___40-[SUManagerServer splatRollbackAllowed:]_block_invoke_3
+- ___40-[SURollbackController rollbackStarted:]_block_invoke
+- ___40-[SUTransactionManager copyTransactions]_block_invoke
+- ___41-[SUAutoInstallManager installDidFinish:]_block_invoke
+- ___41-[SUAutoInstallManager installDidFinish:]_block_invoke_2
+- ___41-[SUDDMManager enableGlobalNotifications]_block_invoke
+- ___41-[SUDownloader _downloadFailedWithError:]_block_invoke
+- ___41-[SUDownloader _downloadFailedWithError:]_block_invoke_2
+- ___41-[SUManagerCore presentAutoUpdateBanner:]_block_invoke
+- ___41-[SUManagerCore presentAutoUpdateBanner:]_block_invoke_2
+- ___41-[SUManagerCore resumeOrResetIfNecessary]_block_invoke
+- ___41-[SUManagerCore resumeOrResetIfNecessary]_block_invoke_2
+- ___41-[SUManagerCore resumeOrResetIfNecessary]_block_invoke_3
+- ___41-[SUManagerCore sendUnlockNotifications:]_block_invoke
+- ___41-[SUManagerEngine notifyRollbackStarted:]_block_invoke
+- ___41-[SUManagerEngine updateAssetDownloaded:]_block_invoke
+- ___41-[SUManagerEngine updatePrepareProgress:]_block_invoke
+- ___41-[SUManagerPolicy autoSUFailedWithError:]_block_invoke
+- ___41-[SUManagerPolicy rollbackReadyForReboot]_block_invoke
+- ___41-[SUManagerServer currentPasscodePolicy:]_block_invoke
+- ___41-[SUManagerServer currentPasscodePolicy:]_block_invoke_2
+- ___41-[SUManagerServer currentPasscodePolicy:]_block_invoke_3
+- ___41-[SUManagerServer isAutoUpdateScheduled:]_block_invoke
+- ___41-[SUManagerServer isAutoUpdateScheduled:]_block_invoke_2
+- ___41-[SUManagerServer isAutoUpdateScheduled:]_block_invoke_3
+- ___41-[SUManagerServer splatRollbackDetected:]_block_invoke
+- ___41-[SUManagerServer splatRollbackDetected:]_block_invoke_2
+- ___42-[SUDDMManager _purgeDownloadWithHandler:]_block_invoke
+- ___42-[SUDDMManager _purgeDownloadWithHandler:]_block_invoke_2
+- ___42-[SUDDMManager downloadDidFail:withError:]_block_invoke
+- ___42-[SUDDMManager getDescriptorWithCallback:]_block_invoke
+- ___42-[SUDownloader _loadBrainOnUnlockCallback]_block_invoke
+- ___42-[SUDownloader _loadBrainOnUnlockCallback]_block_invoke_2
+- ___42-[SUDownloader _setDownloadDiscretionary:]_block_invoke
+- ___42-[SUDownloader _setDownloadDiscretionary:]_block_invoke_2
+- ___42-[SUManagerEngine action_RemoveAll:error:]_block_invoke
+- ___42-[SUManagerEngine action_RemoveAll:error:]_block_invoke.601
+- ___42-[SUManagerEngine action_RemoveAll:error:]_block_invoke.605
+- ___42-[SUManagerEngine action_RemoveAll:error:]_block_invoke_2
+- ___42-[SUManagerEngine updateBrainLoadStalled:]_block_invoke
+- ___42-[SUManagerPolicy dismissAutoUpdateBanner]_block_invoke
+- ___42-[SUManagerPolicy managedInstallRequested]_block_invoke
+- ___42-[SUManagerServer _evaluateForegroundness]_block_invoke
+- ___42-[SUManagerServer _evaluateForegroundness]_block_invoke_2
+- ___42-[SUManagerServer _evaluateForegroundness]_block_invoke_3
+- ___42-[SUManagerServer installPolicyDidChange:]_block_invoke
+- ___42-[SUManagerServer installPolicyDidChange:]_block_invoke_2
+- ___42-[SUManagerServer recordSUAnalyticsEvent:]_block_invoke
+- ___42-[SUManagerServer rollbackReadyForReboot:]_block_invoke
+- ___42-[SUManagerServer rollbackReadyForReboot:]_block_invoke_2
+- ___42-[SUManagerServer rollbackSuggested:info:]_block_invoke
+- ___42-[SUManagerServer rollbackSuggested:info:]_block_invoke_2
+- ___42-[SUManagerServer sendDDMDeclarationToUI:]_block_invoke
+- ___42-[SUManagerServer sendDDMDeclarationToUI:]_block_invoke_2
+- ___42-[SUManagerServer submitSUAnalyticsEvent:]_block_invoke
+- ___42-[SUManagerServer userAskedToDeferInstall]_block_invoke
+- ___42-[SUManagerServer userAskedToDeferInstall]_block_invoke_2
+- ___42-[SUManagerServer userAskedToDeferInstall]_block_invoke_3
+- ___42-[SUManagerServer userAskedToDeferInstall]_block_invoke_4
+- ___42-[SUManagerServerClient wakeupIfNecessary]_block_invoke
+- ___42-[SUScheduler strategyDidFireAutoInstall:]_block_invoke
+- ___42-[SUTransactionManager isKeepAliveEnabled]_block_invoke
+- ___43+[SUManagerInterfaceFactory sharedInstance]_block_invoke
+- ___43-[SUDDMManager enableRapidSecurityResponse]_block_invoke
+- ___43-[SUManagedDeviceManager setAssetAudience:]_block_invoke
+- ___43-[SUManagerCore _loadBrainOnUnlockCallback]_block_invoke
+- ___43-[SUManagerEngine updateBrainLoadProgress:]_block_invoke
+- ___43-[SUManagerPolicy presentAutoUpdateBanner:]_block_invoke
+- ___43-[SUManagerPolicy resumeOrResetIfNecessary]_block_invoke
+- ___43-[SUManagerPolicy scanForUpdates:complete:]_block_invoke
+- ___43-[SUManagerPolicy updateInstallPolicyType:]_block_invoke
+- ___43-[SUManagerServer downloadAndInstallState:]_block_invoke
+- ___43-[SUManagerServer downloadAndInstallState:]_block_invoke_2
+- ___43-[SUManagerServer downloadAndInstallState:]_block_invoke_3
+- ___43-[SUManagerServer enableAutomaticDownload:]_block_invoke
+- ___43-[SUManagerServer enableAutomaticDownload:]_block_invoke_2
+- ___43-[SUManagerServer enableAutomaticDownload:]_block_invoke_3
+- ___43-[SUManagerServer enableAutomaticUpdateV2:]_block_invoke
+- ___43-[SUManagerServer enableAutomaticUpdateV2:]_block_invoke_2
+- ___43-[SUManagerServer enableAutomaticUpdateV2:]_block_invoke_3
+- ___43-[SUManagerServer installTonightScheduled:]_block_invoke
+- ___43-[SUManagerServer installTonightScheduled:]_block_invoke_2
+- ___43-[SUManagerServer presentAutoUpdateBanner:]_block_invoke
+- ___43-[SUManagerServer presentAutoUpdateBanner:]_block_invoke_2
+- ___43-[SUManagerServer presentAutoUpdateBanner:]_block_invoke_3
+- ___43-[SUManagerServer(Daemon) runUntilIdleExit]_block_invoke
+- ___43-[SUScanTask scanForSUAssetWithCompletion:]_block_invoke
+- ___44-[SUDownloader notifyClientOfClearingSpace:]_block_invoke
+- ___44-[SUDownloader updateDownloadOptions:error:]_block_invoke
+- ___44-[SUInstaller setIsInstallTonightScheduled:]_block_invoke
+- ___44-[SUManagerEngine activateLoadingPersisted:]_block_invoke
+- ___44-[SUManagerPolicy addUnlockCallback:forKey:]_block_invoke
+- ___44-[SUManagerPolicy destroyInstallationKeybag]_block_invoke
+- ___44-[SUManagerPolicy isCurrentUpdateAutoUpdate]_block_invoke
+- ___44-[SUManagerPolicy isInstallTonightScheduled]_block_invoke
+- ___44-[SUManagerPolicy mandatoryUpdateDictionary]_block_invoke
+- ___44-[SUManagerServer destroyInstallationKeybag]_block_invoke
+- ___44-[SUManagerServer destroyInstallationKeybag]_block_invoke_2
+- ___44-[SUManagerServer installDidFail:withError:]_block_invoke
+- ___44-[SUManagerServer installDidFail:withError:]_block_invoke_2
+- ___44-[SUManagerServer installDidFail:withError:]_block_invoke_3
+- ___44-[SUScheduler cancelPresentAutoUpdateBanner]_block_invoke
+- ___44-[SUServerConfigurationManager addListener:]_block_invoke
+- ___45-[SUDDMManager resumeOrResetStateIfNecessary]_block_invoke
+- ___45-[SUDDMManager resumeOrResetStateIfNecessary]_block_invoke_2
+- ___45-[SUInstaller updateInstallPolicyClientName:]_block_invoke
+- ___45-[SUManagerServer downloadDidFail:withError:]_block_invoke
+- ___45-[SUManagerServer downloadDidFail:withError:]_block_invoke_2
+- ___45-[SUManagerServer downloadProgressDidChange:]_block_invoke
+- ___45-[SUManagerServer downloadProgressDidChange:]_block_invoke_2
+- ___45-[SUManagerServer installServerConfiguration]_block_invoke
+- ___45-[SUManagerServer installServerConfiguration]_block_invoke_2
+- ___45-[SUManagerServer rollbackDidFail:withError:]_block_invoke
+- ___45-[SUManagerServer rollbackDidFail:withError:]_block_invoke_2
+- ___45-[SUManagerServer scanForUpdates:withResult:]_block_invoke
+- ___45-[SUManagerServer scanForUpdates:withResult:]_block_invoke_2
+- ___45-[SUManagerServer scanForUpdates:withResult:]_block_invoke_3
+- ___45-[SUManagerServer scanForUpdates:withResult:]_block_invoke_4
+- ___45-[SUManagerServer sendDDMGlobalSettingsToUI:]_block_invoke
+- ___45-[SUManagerServer sendDDMGlobalSettingsToUI:]_block_invoke_2
+- ___45-[SUManagerServer submitAllSUAnalyticsEvents]_block_invoke
+- ___45-[SUScheduler cancelAutoInstallGetKeybagTask]_block_invoke
+- ___45-[SUScheduler cancelInstallAlertRegistration]_block_invoke
+- ___46+[SUServerConfigurationManager sharedInstance]_block_invoke
+- ___46-[SUDDMManager activeDDMDeclarationEnfrocedSU]_block_invoke
+- ___46-[SUDDMManager getDDMGlobalSettingsWithError:]_block_invoke
+- ___46-[SUDDMManager handleDDMDeclaration:outError:]_block_invoke
+- ___46-[SUDDMManager handleDDMDeclaration:outError:]_block_invoke_2
+- ___46-[SUDDMManager setDDMGlobalSettings:outError:]_block_invoke
+- ___46-[SUManagerEngine updateAssetDownloadStalled:]_block_invoke
+- ___46-[SUManagerPolicy softwareUpdateReserveSizes:]_block_invoke
+- ___46-[SUManagerPolicy softwareUpdateReserveSizes:]_block_invoke_2
+- ___46-[SUManagerServer autoInstallSecurityForceOn:]_block_invoke
+- ___46-[SUManagerServer autoInstallSecurityForceOn:]_block_invoke_2
+- ___46-[SUManagerServer autoInstallSecurityForceOn:]_block_invoke_3
+- ___46-[SUManagerServer isAutomaticDownloadEnabled:]_block_invoke
+- ___46-[SUManagerServer isAutomaticDownloadEnabled:]_block_invoke_2
+- ___46-[SUManagerServer isAutomaticDownloadEnabled:]_block_invoke_3
+- ___46-[SUManagerServer isAutomaticUpdateV2Enabled:]_block_invoke
+- ___46-[SUManagerServer isAutomaticUpdateV2Enabled:]_block_invoke_2
+- ___46-[SUManagerServer isAutomaticUpdateV2Enabled:]_block_invoke_3
+- ___46-[SUManagerServer isClearingSpaceForDownload:]_block_invoke
+- ___46-[SUManagerServer isClearingSpaceForDownload:]_block_invoke_2
+- ___46-[SUManagerServer isClearingSpaceForDownload:]_block_invoke_3
+- ___46-[SUManagerServer isSoftwareUpdateInProgress:]_block_invoke
+- ___46-[SUManagerServer isSoftwareUpdateInProgress:]_block_invoke_2
+- ___46-[SUManagerServer isSoftwareUpdateInProgress:]_block_invoke_3
+- ___46-[SUManagerServer softwareUpdateReserveSizes:]_block_invoke
+- ___46-[SUManagerServer softwareUpdateReserveSizes:]_block_invoke_2
+- ___46-[SUManagerServer softwareUpdateReserveSizes:]_block_invoke_3
+- ___46-[SUScanner _resetToCustomerAudienceAndRescan]_block_invoke
+- ___46-[SUScanner _resetToCustomerAudienceAndRescan]_block_invoke_2
+- ___46-[SUScheduler _queue_handleAutoDownload:info:]_block_invoke
+- ___46-[SUScheduler _queue_handleInstallAlert:info:]_block_invoke
+- ___46-[SUScheduler cancelSplatFollowUpNotification]_block_invoke
+- ___46-[SUScheduler setAutoInstallActivityStateDone]_block_invoke
+- ___46-[SUTransactionManager setKeepAliveClearable:]_block_invoke
+- ___47-[SUAutoInstallManager downloadWasInvalidated:]_block_invoke
+- ___47-[SUManagerEngine actionHelper_ReportPrepared:]_block_invoke
+- ___47-[SUManagerEngine refreshInstallTonightConfig:]_block_invoke
+- ___47-[SUManagerEngine updateAssetDownloadProgress:]_block_invoke
+- ___47-[SUManagerPolicy eligibleRollbackWithOptions:]_block_invoke
+- ___47-[SUManagerPolicy previousRollbackWithOptions:]_block_invoke
+- ___47-[SUManagerServer autoInstallSecurityForceOff:]_block_invoke
+- ___47-[SUManagerServer autoInstallSecurityForceOff:]_block_invoke_2
+- ___47-[SUManagerServer autoInstallSecurityForceOff:]_block_invoke_3
+- ___47-[SUManagerServer previousRollback:withResult:]_block_invoke
+- ___47-[SUManagerServer previousRollback:withResult:]_block_invoke_2
+- ___47-[SUManagerServer previousRollback:withResult:]_block_invoke_3
+- ___47-[SURollbackController rollbackReadyForReboot:]_block_invoke
+- ___47-[SUScheduler _queue_handlePresentBanner:info:]_block_invoke
+- ___47-[SUScheduler _queue_handleSplatFollowUp:info:]_block_invoke
+- ___47-[SUScheduler scheduleSimulatedAutoInstallTask]_block_invoke
+- ___47-[SUScheduler scheduleSimulatedAutoInstallTask]_block_invoke_2
+- ___47-[SUServerConfigurationManager removeListener:]_block_invoke
+- ___48-[SUDDMManager _initiateDownloadWithDescriptor:]_block_invoke
+- ___48-[SUDDMManager _initiateDownloadWithDescriptor:]_block_invoke_2
+- ___48-[SUDDMManager _initiateDownloadWithDescriptor:]_block_invoke_3
+- ___48-[SUDDMManager _initiateDownloadWithDescriptor:]_block_invoke_4
+- ___48-[SUDDMManager allDeclarationsIncludingSpecial:]_block_invoke
+- ___48-[SUDDMManager alwaysEnableAutoInstallOSUpdates]_block_invoke
+- ___48-[SUDownloader _downloadInvalidatedWithUpdates:]_block_invoke
+- ___48-[SUDownloader _downloadInvalidatedWithUpdates:]_block_invoke_2
+- ___48-[SUManagerEngine createBrainLoadLockAssertion:]_block_invoke
+- ___48-[SUManagerPolicy networkMonitorDetectOverrides]_block_invoke
+- ___48-[SUManagerPolicy setIsInstallTonightScheduled:]_block_invoke
+- ___48-[SUManagerPolicy setMandatoryUpdateDictionary:]_block_invoke
+- ___48-[SUManagerPolicy softwareUpdatePathRestriction]_block_invoke
+- ___48-[SUManagerServer getDDMDeclarationWithHandler:]_block_invoke
+- ___48-[SUManagerServer getDDMDeclarationWithHandler:]_block_invoke_2
+- ___48-[SUManagerServer getDDMDeclarationWithHandler:]_block_invoke_3
+- ___48-[SUManagerServer getDDMDeclarationWithHandler:]_block_invoke_4
+- ___48-[SUManagerServer isAnyClientInUserInteraction:]_block_invoke
+- ___48-[SUManagerServer isAnyClientInUserInteraction:]_block_invoke_2
+- ___48-[SUManagerServer isAnyClientInUserInteraction:]_block_invoke_3
+- ___48-[SUManagerServer isInstallationKeybagRequired:]_block_invoke
+- ___48-[SUManagerServer isInstallationKeybagRequired:]_block_invoke_2
+- ___48-[SUManagerServer isInstallationKeybagRequired:]_block_invoke_3
+- ___48-[SUManagerServer managedInstallationRequested:]_block_invoke
+- ___48-[SUManagerServer managedInstallationRequested:]_block_invoke_2
+- ___48-[SUManagerServer networkMonitorDetectOverrides]_block_invoke
+- ___48-[SUScheduler _queue_handleAutoInstallEnd:info:]_block_invoke
+- ___48-[SUScheduler cancelAllEmergencyBackgroundScans]_block_invoke
+- ___48-[SUScheduler cancelAutoInstallStartInstallTask]_block_invoke
+- ___49-[SUManagerCore _presentAutoUpdateBannerOnUnlock]_block_invoke
+- ___49-[SUManagerCore _presentAutoUpdateBannerOnUnlock]_block_invoke_2
+- ___49-[SUManagerCore _recordLastUnlockTimePostPrepare]_block_invoke
+- ___49-[SUManagerCore downloadCompleted:informClients:]_block_invoke
+- ___49-[SUManagerCore(Analytics) donateSUErrorToBiome:]_block_invoke
+- ___49-[SUManagerPolicy alternateLastScannedDescriptor]_block_invoke
+- ___49-[SUManagerPolicy preferredLastScannedDescriptor]_block_invoke
+- ___49-[SUManagerServer _clientMessagabilityDidChange:]_block_invoke
+- ___49-[SUManagerServer rvGetCurrentNeRDInfoWithReply:]_block_invoke
+- ___49-[SUManagerServer rvGetCurrentNeRDInfoWithReply:]_block_invoke_2
+- ___49-[SUManagerServer scanRequestDidStartForOptions:]_block_invoke
+- ___49-[SUManagerServer scanRequestDidStartForOptions:]_block_invoke_2
+- ___49-[SUManagerServer softwareUpdatePathRestriction:]_block_invoke
+- ___49-[SUManagerServer softwareUpdatePathRestriction:]_block_invoke_2
+- ___49-[SUManagerServer softwareUpdatePathRestriction:]_block_invoke_3
+- ___49-[SUScanner notifyScanDidComplete:options:error:]_block_invoke
+- ___49-[SUScanner notifyScanDidComplete:options:error:]_block_invoke_2
+- ___49-[SUScheduler trySchedulingAutoInstallAgainLater]_block_invoke
+- ___50-[SUDDMManager _cancelCurrentDownloadAndDownload:]_block_invoke
+- ___50-[SUInstaller updateInstallPolicyDarkBootEnabled:]_block_invoke
+- ___50-[SUManagerCore updateDownloadOptions:withResult:]_block_invoke
+- ___50-[SUManagerEngine actionHelper_ReportApplyFailed:]_block_invoke
+- ___50-[SUManagerPolicy disableReserveSpace:withResult:]_block_invoke
+- ___50-[SUManagerServer _clientForegroundnessDidChange:]_block_invoke
+- ___50-[SUManagerServer disableReserveSpace:withResult:]_block_invoke
+- ___50-[SUManagerServer disableReserveSpace:withResult:]_block_invoke_2
+- ___50-[SUManagerServer disableReserveSpace:withResult:]_block_invoke_3
+- ___50-[SUManagerServer installWantsToStart:completion:]_block_invoke
+- ___50-[SUManagerServer installWantsToStart:completion:]_block_invoke_2
+- ___50-[SUManagerServer scheduleRollbackRebootForLater:]_block_invoke
+- ___50-[SUManagerServer scheduleRollbackRebootForLater:]_block_invoke_2
+- ___50-[SUManagerServer scheduleRollbackRebootForLater:]_block_invoke_3
+- ___50-[SUManagerServer(Daemon) serverInitAndResumeWork]_block_invoke
+- ___50-[SUScheduler _queue_handleServerConfigScan:info:]_block_invoke
+- ___50-[SUTransactionManager clearKeepAliveIfNecessary:]_block_invoke
+- ___50-[SUTransactionManager hasOpenTransactionForName:]_block_invoke
+- ___51-[SUAutoInstallManager cancelAutoInstallOperation:]_block_invoke
+- ___51-[SUDDMManager enableRapidSecurityResponseRollback]_block_invoke
+- ___51-[SUManagerEngine rollbackAttemptFailed:withError:]_block_invoke
+- ___51-[SUManagerPolicy reportPostponedEvent:withStatus:]_block_invoke
+- ___51-[SUManagerServer getDDMGlobalSettingsWithHandler:]_block_invoke
+- ___51-[SUManagerServer getDDMGlobalSettingsWithHandler:]_block_invoke_2
+- ___51-[SUManagerServer getDDMGlobalSettingsWithHandler:]_block_invoke_3
+- ___51-[SUManagerServer getDDMStatusWithKeys:completion:]_block_invoke
+- ___51-[SUManagerServer getDDMStatusWithKeys:completion:]_block_invoke_2
+- ___51-[SUManagerServer getDDMStatusWithKeys:completion:]_block_invoke_3
+- ___51-[SUManagerServer handleDDMDeclaration:withResult:]_block_invoke
+- ___51-[SUManagerServer handleDDMDeclaration:withResult:]_block_invoke_2
+- ___51-[SUManagerServer handleDDMDeclaration:withResult:]_block_invoke_3
+- ___51-[SUManagerServer handleDDMDeclaration:withResult:]_block_invoke_4
+- ___51-[SUManagerServer setDDMGlobalSettings:completion:]_block_invoke
+- ___51-[SUManagerServer setDDMGlobalSettings:completion:]_block_invoke_2
+- ___51-[SUManagerServer setDDMGlobalSettings:completion:]_block_invoke_3
+- ___51-[SUManagerServer submitSUAnalyticsEventsWithName:]_block_invoke
+- ___51-[SUScheduler _queue_handleAutoInstallUnlock:info:]_block_invoke
+- ___51-[SUTransactionManager beginTransaction:keepAlive:]_block_invoke
+- ___51-[SUXPCAutoInstallStrategy setAutoinstallActivity:]_block_invoke
+- ___52-[SUAutoInstallManager setFailedToAutoInstallError:]_block_invoke
+- ___52-[SUDDMManager cancelDDMDeclarationForKey:outError:]_block_invoke
+- ___52-[SUDDMManager cancelDDMDeclarationForKey:outError:]_block_invoke_2
+- ___52-[SUDDMManager cancelDDMDeclarationForKey:outError:]_block_invoke_3
+- ___52-[SUDDMManager downloadDidFinish:withInstallPolicy:]_block_invoke
+- ___52-[SUDownloader startDownloadWithOptions:withResult:]_block_invoke
+- ___52-[SUDownloader startDownloadWithOptions:withResult:]_block_invoke_2
+- ___52-[SUDownloader startDownloadWithOptions:withResult:]_block_invoke_3
+- ___52-[SUDownloader startDownloadWithOptions:withResult:]_block_invoke_4
+- ___52-[SUDownloader startDownloadWithOptions:withResult:]_block_invoke_5
+- ___52-[SUDownloader startDownloadWithOptions:withResult:]_block_invoke_6
+- ___52-[SUDownloader startDownloadWithOptions:withResult:]_block_invoke_7
+- ___52-[SUDownloader startDownloadWithOptions:withResult:]_block_invoke_8
+- ___52-[SUDownloader startDownloadWithOptions:withResult:]_block_invoke_9
+- ___52-[SUInstaller updateInstallPolicyAutoUpdateEnabled:]_block_invoke
+- ___52-[SUManagerCore(Analytics) donateSuccessToBiomeFor:]_block_invoke
+- ___52-[SUManagerCore(Splat) rollbackCompleted:withError:]_block_invoke
+- ___52-[SUManagerEngine action_CheckLockAndNetwork:error:]_block_invoke
+- ___52-[SUManagerEngine pathSatisficationStatusChangedTo:]_block_invoke
+- ___52-[SUManagerPolicy checkAndPostSplatFollowUpIfNeeded]_block_invoke
+- ___52-[SUManagerPolicy endAutoDownloadTasksAndResetState]_block_invoke
+- ___52-[SUManagerPolicy updateDownloadOptions:withResult:]_block_invoke
+- ___52-[SUManagerServer updateDownloadOptions:withResult:]_block_invoke
+- ___52-[SUManagerServer updateDownloadOptions:withResult:]_block_invoke_2
+- ___52-[SUManagerServer updateDownloadOptions:withResult:]_block_invoke_3
+- ___52-[SURollbackController rollbackCompleted:withError:]_block_invoke
+- ___52-[SURollbackController rollbackCompleted:withError:]_block_invoke_2
+- ___52-[SUScheduler cancelAutoInstallWindowExpirationTask]_block_invoke
+- ___53-[SUAutoInstallManager resumeOrResetStateIfNecessary]_block_invoke
+- ___53-[SUManagerCore createInstallationKeybag:withResult:]_block_invoke
+- ___53-[SUManagerCore startDownloadWithOptions:withResult:]_block_invoke
+- ___53-[SUManagerCore startDownloadWithOptions:withResult:]_block_invoke_2
+- ___53-[SUManagerEngine action_ReportAwaitingReboot:error:]_block_invoke
+- ___53-[SUManagerPolicy isSplatOnlyUpdateRollbackSuggested]_block_invoke
+- ___53-[SUManagerServer clearingSpaceForDownload:clearing:]_block_invoke
+- ___53-[SUManagerServer clearingSpaceForDownload:clearing:]_block_invoke_2
+- ___53-[SUManagerServer getDDMUpdateDescriptorWithHandler:]_block_invoke
+- ___53-[SUManagerServer getDDMUpdateDescriptorWithHandler:]_block_invoke_2
+- ___53-[SUManagerServer getDDMUpdateDescriptorWithHandler:]_block_invoke_3
+- ___53-[SUManagerServer getDDMUpdateDescriptorWithHandler:]_block_invoke_4
+- ___53-[SUManagerServer getDDMUpdateDescriptorWithHandler:]_block_invoke_5
+- ___53-[SUManagerServer registerCSInstallPredicatesOnDate:]_block_invoke
+- ___53-[SUManagerServer registerCSInstallPredicatesOnDate:]_block_invoke_2
+- ___53-[SUManagerServer updateDownloadMetadata:withResult:]_block_invoke
+- ___53-[SUManagerServer updateDownloadMetadata:withResult:]_block_invoke_2
+- ___53-[SUManagerServer updateDownloadMetadata:withResult:]_block_invoke_3
+- ___53-[SUScanner _queue_refreshLastScannedCoreDescriptors]_block_invoke
+- ___53-[SUScanner _queue_refreshLastScannedCoreDescriptors]_block_invoke_2
+- ___53-[SUScheduler _queue_handleAnalyticsSubmission:info:]_block_invoke
+- ___53-[SUScheduler cancelAutoInstallUnlockWindowStartTask]_block_invoke
+- ___53-[SUScheduler needsClientSideJitteringForAutoInstall]_block_invoke
+- ___54-[SUAutoInstallManager consentToAutoInstallOperation:]_block_invoke
+- ___54-[SUManagerServer autoScanAndDownloadNow:ifAvailable:]_block_invoke
+- ___54-[SUManagerServer autoScanAndDownloadNow:ifAvailable:]_block_invoke_2
+- ___54-[SUManagerServer autoScanAndDownloadNow:ifAvailable:]_block_invoke_3
+- ___54-[SUManagerServer autoScanAndDownloadNow:ifAvailable:]_block_invoke_4
+- ___54-[SUManagerServer isSplatOnlyUpdateRollbackSuggested:]_block_invoke
+- ___54-[SUManagerServer isSplatOnlyUpdateRollbackSuggested:]_block_invoke_2
+- ___54-[SUManagerServer isSplatOnlyUpdateRollbackSuggested:]_block_invoke_3
+- ___54-[SUManagerServerClient monitorClientStateIfNecessary]_block_invoke
+- ___54-[SUManagerServerClient monitorClientStateIfNecessary]_block_invoke_2
+- ___54-[SUScanner notifyScanRequestDidFinish:results:error:]_block_invoke
+- ___54-[SUScanner notifyScanRequestDidFinish:results:error:]_block_invoke_2
+- ___54-[SUScanner notifyScanRequestDidFinish:results:error:]_block_invoke_3
+- ___54-[SUScheduler _queue_handleAutoInstallGetKeybag:info:]_block_invoke
+- ___54-[SUScheduler _queue_handleAutoScan:info:rescheduler:]_block_invoke
+- ___54-[SUScheduler _queue_handleAutoScan:info:rescheduler:]_block_invoke_2
+- ___55-[SUManagedDeviceManager registerProfileChangeListener]_block_invoke
+- ___55-[SUManagerEngine action_RemoveAllPreserveCache:error:]_block_invoke
+- ___55-[SUManagerEngine action_ReportDownloadProgress:error:]_block_invoke
+- ___55-[SUManagerEngine action_ReportRemoveInstalling:error:]_block_invoke
+- ___55-[SUManagerPolicy createInstallationKeybag:withResult:]_block_invoke
+- ___55-[SUManagerPolicy createInstallationKeybag:withResult:]_block_invoke_2
+- ___55-[SUManagerPolicy createInstallationKeybag:withResult:]_block_invoke_3
+- ___55-[SUManagerPolicy purgeDownloadWithOptions:withResult:]_block_invoke
+- ___55-[SUManagerPolicy purgeDownloadWithOptions:withResult:]_block_invoke_2
+- ___55-[SUManagerPolicy startDownloadWithOptions:withResult:]_block_invoke
+- ___55-[SUManagerServer createInstallationKeybag:withResult:]_block_invoke
+- ___55-[SUManagerServer createInstallationKeybag:withResult:]_block_invoke_2
+- ___55-[SUManagerServer createInstallationKeybag:withResult:]_block_invoke_3
+- ___55-[SUManagerServer currentAutoInstallOperationForecast:]_block_invoke
+- ___55-[SUManagerServer currentAutoInstallOperationForecast:]_block_invoke_2
+- ___55-[SUManagerServer currentAutoInstallOperationForecast:]_block_invoke_3
+- ___55-[SUManagerServer downloadDidFinish:withInstallPolicy:]_block_invoke
+- ___55-[SUManagerServer downloadDidFinish:withInstallPolicy:]_block_invoke_2
+- ___55-[SUManagerServer downloadDidFinish:withInstallPolicy:]_block_invoke_3
+- ___55-[SUManagerServer installUpdateWithOptions:withResult:]_block_invoke
+- ___55-[SUManagerServer installUpdateWithOptions:withResult:]_block_invoke_2
+- ___55-[SUManagerServer installUpdateWithOptions:withResult:]_block_invoke_3
+- ___55-[SUManagerServer purgeDownloadWithOptions:withResult:]_block_invoke
+- ___55-[SUManagerServer purgeDownloadWithOptions:withResult:]_block_invoke_2
+- ___55-[SUManagerServer purgeDownloadWithOptions:withResult:]_block_invoke_3
+- ___55-[SUManagerServer startDownloadWithOptions:withResult:]_block_invoke
+- ___55-[SUManagerServer startDownloadWithOptions:withResult:]_block_invoke_2
+- ___55-[SUManagerServer startDownloadWithOptions:withResult:]_block_invoke_3
+- ___55-[SUScheduler _queue_handleCancelPresentBannerOnUnlock]_block_invoke
+- ___55-[SUScheduler serverConfigManager:configValuesChanged:]_block_invoke
+- ___56-[SUDownloader noteAutoDownloadFailedToStart:withError:]_block_invoke
+- ___56-[SUManagerPolicy badgeSettingsForManualSoftwareUpdate:]_block_invoke
+- ___56-[SUManagerPolicy cancelDownloadWithOptions:withResult:]_block_invoke
+- ___56-[SUManagerPolicy cancelDownloadWithOptions:withResult:]_block_invoke_2
+- ___56-[SUManagerPolicy rollbackUpdateWithOptions:withResult:]_block_invoke
+- ___56-[SUManagerPolicy startDownloadWithMetadata:withResult:]_block_invoke
+- ___56-[SUManagerServer cancelDownloadWithOptions:withResult:]_block_invoke
+- ___56-[SUManagerServer cancelDownloadWithOptions:withResult:]_block_invoke_2
+- ___56-[SUManagerServer cancelDownloadWithOptions:withResult:]_block_invoke_3
+- ___56-[SUManagerServer getMandatorySoftwareUpdateDictionary:]_block_invoke
+- ___56-[SUManagerServer getMandatorySoftwareUpdateDictionary:]_block_invoke_2
+- ___56-[SUManagerServer getMandatorySoftwareUpdateDictionary:]_block_invoke_3
+- ___56-[SUManagerServer rollbackUpdateWithOptions:withResult:]_block_invoke
+- ___56-[SUManagerServer rollbackUpdateWithOptions:withResult:]_block_invoke_2
+- ___56-[SUManagerServer rollbackUpdateWithOptions:withResult:]_block_invoke_3
+- ___56-[SUManagerServer setLastRollbackDescriptor:withResult:]_block_invoke
+- ___56-[SUManagerServer setLastRollbackDescriptor:withResult:]_block_invoke_2
+- ___56-[SUManagerServer setLastRollbackDescriptor:withResult:]_block_invoke_3
+- ___56-[SUManagerServer setMandatorySoftwareUpdateDictionary:]_block_invoke
+- ___56-[SUManagerServer setMandatorySoftwareUpdateDictionary:]_block_invoke_2
+- ___56-[SUManagerServer startDownloadWithMetadata:withResult:]_block_invoke
+- ___56-[SUManagerServer startDownloadWithMetadata:withResult:]_block_invoke_2
+- ___56-[SUManagerServer startDownloadWithMetadata:withResult:]_block_invoke_3
+- ___56-[SUScanner collectDocumentationFor:options:completion:]_block_invoke
+- ___56-[SUScanner collectDocumentationFor:options:completion:]_block_invoke_2
+- ___56-[SUScanner setupTimerForRecommendedUpdateNotification:]_block_invoke
+- ___56-[SUScanner setupTimerForRecommendedUpdateNotification:]_block_invoke_2
+- ___56-[SUScanner setupTimerForRecommendedUpdateNotification:]_block_invoke_3
+- ___56-[SUXPCAutoInstallStrategy handleAutoInstallStart:info:]_block_invoke
+- ___57-[SUAutoInstallManager keybagInterfacePasscodeDidChange:]_block_invoke
+- ___57-[SUAutoInstallManager noteAutoInstallOperationDidExpire]_block_invoke
+- ___57-[SUManagerCore preferences:didChangePreference:toValue:]_block_invoke
+- ___57-[SUManagerEngine action_ReportDownloadInstalling:error:]_block_invoke
+- ___57-[SUManagerEngine action_ReportRollbackInstalling:error:]_block_invoke
+- ___57-[SUManagerPolicy unbadgeSettingsForManualSoftwareUpdate]_block_invoke
+- ___57-[SUManagerServer autoInstallManager:didCancelOperation:]_block_invoke
+- ___57-[SUManagerServer autoInstallManager:didCancelOperation:]_block_invoke_2
+- ___57-[SUManagerServer cancelAutoInstallOperation:withResult:]_block_invoke
+- ___57-[SUManagerServer cancelAutoInstallOperation:withResult:]_block_invoke_2
+- ___57-[SUManagerServer cancelAutoInstallOperation:withResult:]_block_invoke_3
+- ___57-[SUManagerServer cancelDDMDeclarationForKey:completion:]_block_invoke
+- ___57-[SUManagerServer cancelDDMDeclarationForKey:completion:]_block_invoke_2
+- ___57-[SUManagerServer cancelDDMDeclarationForKey:completion:]_block_invoke_3
+- ___57-[SUManagerServer cancelDDMDeclarationForKey:completion:]_block_invoke_4
+- ___57-[SUScanTask _queue_scanForUpdates:sessionID:completion:]_block_invoke
+- ___58-[SUAutoInstallManager isAutoInstallOperationReadyToBegin]_block_invoke
+- ___58-[SUInstaller installUpdateWithInstallOptions:withResult:]_block_invoke
+- ___58-[SUInstaller installUpdateWithInstallOptions:withResult:]_block_invoke_2
+- ___58-[SUInstaller installUpdateWithInstallOptions:withResult:]_block_invoke_3
+- ___58-[SUInstaller installUpdateWithInstallOptions:withResult:]_block_invoke_4
+- ___58-[SUInstaller installUpdateWithInstallOptions:withResult:]_block_invoke_5
+- ___58-[SUInstaller installUpdateWithInstallOptions:withResult:]_block_invoke_6
+- ___58-[SUInstaller installUpdateWithInstallOptions:withResult:]_block_invoke_7
+- ___58-[SUInstaller installUpdateWithInstallOptions:withResult:]_block_invoke_8
+- ___58-[SUInstaller installUpdateWithInstallOptions:withResult:]_block_invoke_9
+- ___58-[SUManagerPolicy noteAutoDownloadFailedToStartWithError:]_block_invoke
+- ___58-[SUManagerServer currentAutoInstallOperation:withResult:]_block_invoke
+- ___58-[SUManagerServer currentAutoInstallOperation:withResult:]_block_invoke_2
+- ___58-[SUManagerServer currentAutoInstallOperation:withResult:]_block_invoke_3
+- ___58-[SUManagerServer eligibleRollbackWithOptions:withResult:]_block_invoke
+- ___58-[SUManagerServer eligibleRollbackWithOptions:withResult:]_block_invoke_2
+- ___58-[SUManagerServer eligibleRollbackWithOptions:withResult:]_block_invoke_3
+- ___58-[SUScanner _shouldResetToCustomerAudienceAfterLongPeriod]_block_invoke
+- ___59-[SUAutoInstallManager unattendedInstallationKeybagCreated]_block_invoke
+- ___59-[SUBGSTAutoInstallStrategy _queue_handleAutoInstallStart:]_block_invoke
+- ___59-[SUManagerCore(MDM) amendManagedScanOptions:withResponse:]_block_invoke
+- ___59-[SUManagerCore(MDM) amendManagedScanOptions:withResponse:]_block_invoke_2
+- ___59-[SUManagerEngine actionHelper_ReportInstallFailedNoUpdate]_block_invoke
+- ___59-[SUManagerEngine action_ReportRemoveAwaitingReboot:error:]_block_invoke
+- ___59-[SUManagerServer rollbackReadyToStart:options:completion:]_block_invoke
+- ___59-[SUManagerServer rollbackReadyToStart:options:completion:]_block_invoke_2
+- ___59-[SUManagerServer scanDidCompleteForOptions:results:error:]_block_invoke
+- ___59-[SUManagerServer scanDidCompleteForOptions:results:error:]_block_invoke_2
+- ___60-[SUDDMManager alwaysEnableAutoInstallRapidSecurityResponse]_block_invoke
+- ___60-[SUDownloader networkChangedFromNetworkType:toNetworkType:]_block_invoke
+- ___60-[SUManagerEngine action_ReportInstallAwaitingReboot:error:]_block_invoke
+- ___60-[SUManagerServer autoInstallManager:operationWasConsented:]_block_invoke
+- ___60-[SUManagerServer autoInstallManager:operationWasConsented:]_block_invoke_2
+- ___60-[SUManagerServer consentToAutoInstallOperation:withResult:]_block_invoke
+- ___60-[SUManagerServer consentToAutoInstallOperation:withResult:]_block_invoke_2
+- ___60-[SUManagerServer consentToAutoInstallOperation:withResult:]_block_invoke_3
+- ___60-[SUScanner notifyClientForRecommendedUpdate:shouldPresent:]_block_invoke
+- ___61-[SUDDMManager scanRequestDidFinishForOptions:results:error:]_block_invoke
+- ___61-[SUDDMManager timeFiredForScheduler:withOptions:replyBlock:]_block_invoke
+- ___61-[SUManagerEngine actionHelper_ReportRemoveFailedRollingBack]_block_invoke
+- ___61-[SUManagerEngine action_ReportDownloadAwaitingReboot:error:]_block_invoke
+- ___61-[SUManagerEngine action_ReportDownloadFailedNoUpdate:error:]_block_invoke
+- ___61-[SUManagerEngine action_ReportRollbackAwaitingReboot:error:]_block_invoke
+- ___61-[SUManagerPolicy autoScanAndDownloadIfAvailable:withResult:]_block_invoke
+- ___61-[SUManagerServer presentingRecommendedUpdate:shouldPresent:]_block_invoke
+- ___61-[SUManagerServer presentingRecommendedUpdate:shouldPresent:]_block_invoke_2
+- ___61-[SURollbackController rollbackUpdateWithOptions:completion:]_block_invoke
+- ___61-[SURollbackController rollbackUpdateWithOptions:completion:]_block_invoke_2
+- ___61-[SURollbackController rollbackUpdateWithOptions:completion:]_block_invoke_3
+- ___61-[SURollbackController rollbackUpdateWithOptions:completion:]_block_invoke_4
+- ___62-[SUDDMManager _scanForUpdateForDeclaration:retryIfNecessary:]_block_invoke
+- ___62-[SUDDMManager getActiveDDMDeclarationEnforcedSUWithResponse:]_block_invoke
+- ___62-[SUManagerCore keybagInterface:passcodeLockedStateDidChange:]_block_invoke
+- ___62-[SUManagerEngine actionHelper_ReportInstallFailedRollingBack]_block_invoke
+- ___62-[SUManagerEngine action_HandleCanceledPendingRollback:error:]_block_invoke
+- ___62-[SUManagerEngine action_ReportDownloadFailedRemoveAll:error:]_block_invoke
+- ___62-[SUManagerPolicy installUpdateWithInstallOptions:withResult:]_block_invoke
+- ___62-[SUManagerServer installUpdateWithInstallOptions:withResult:]_block_invoke
+- ___62-[SUManagerServer installUpdateWithInstallOptions:withResult:]_block_invoke_2
+- ___62-[SUManagerServer installUpdateWithInstallOptions:withResult:]_block_invoke_3
+- ___62-[SUManagerServer(Daemon) listener:shouldAcceptNewConnection:]_block_invoke
+- ___62-[SUServerConfigurationManager softwareUpdateAutoScanInterval]_block_invoke
+- ___63-[SUAutoInstallManager copyAutoInstallOperationForecast:error:]_block_invoke
+- ___63-[SUManagerEngine actionHelper_ReportDownloadFailedRollingBack]_block_invoke
+- ___63-[SUManagerServer scanDidCompleteWithNewUpdateAvailable:error:]_block_invoke
+- ___63-[SUManagerServer scanDidCompleteWithNewUpdateAvailable:error:]_block_invoke_2
+- ___63-[SUManagerServer scanRequestDidFinishForOptions:update:error:]_block_invoke
+- ___63-[SUManagerServer scanRequestDidFinishForOptions:update:error:]_block_invoke_2
+- ___63-[SUScanTask _queue_CollectDocumentation:sessionID:completion:]_block_invoke
+- ___63-[SUServerConfigurationManager defaultToOldInactivityPredictor]_block_invoke
+- ___64-[SUAutoInstallManager trySchedulingAnotherTimeInInstallWindow:]_block_invoke
+- ___64-[SUManagerPolicy securityResponseRollbackSuggested:withResult:]_block_invoke
+- ___64-[SUManagerServer downloadWasInvalidatedForNewUpdatesAvailable:]_block_invoke
+- ___64-[SUManagerServer downloadWasInvalidatedForNewUpdatesAvailable:]_block_invoke_2
+- ___64-[SUManagerServer scanRequestDidFinishForOptions:results:error:]_block_invoke
+- ___64-[SUManagerServer scanRequestDidFinishForOptions:results:error:]_block_invoke_2
+- ___64-[SUManagerServer securityResponseRollbackSuggested:withResult:]_block_invoke
+- ___64-[SUManagerServer securityResponseRollbackSuggested:withResult:]_block_invoke_2
+- ___64-[SUManagerServer securityResponseRollbackSuggested:withResult:]_block_invoke_3
+- ___65-[SUManagerCore(Analytics) reportCoreAnalyticsOTAAvailableEvent:]_block_invoke
+- ___65-[SUScanTask scanForDocumentationAssetWithDescriptor:completion:]_block_invoke
+- ___66-[SUDownloader _updateNormalizedDownloadProgressAndNotifyDelegate]_block_invoke
+- ___66-[SUManagerEngine actionHelper_ReportRollbackCompleted:withError:]_block_invoke
+- ___66-[SUManagerServer autoInstallManager:isReadyToInstall:withResult:]_block_invoke
+- ___66-[SUManagerServer autoInstallManager:isReadyToInstall:withResult:]_block_invoke_2
+- ___66-[SUManagerServer autoInstallManager:isReadyToInstall:withResult:]_block_invoke_3
+- ___66-[SUManagerServer autoInstallManager:isReadyToInstall:withResult:]_block_invoke_4
+- ___66-[SUManagerServer getAllDeclarationsIncludingSpecial:withHandler:]_block_invoke
+- ___66-[SUManagerServer getAllDeclarationsIncludingSpecial:withHandler:]_block_invoke_2
+- ___66-[SUManagerServer getAllDeclarationsIncludingSpecial:withHandler:]_block_invoke_3
+- ___67-[SUManagerServer autoInstallManager:didExpireOperation:withError:]_block_invoke
+- ___67-[SUManagerServer autoInstallManager:didExpireOperation:withError:]_block_invoke_2
+- ___67-[SUManagerServer getShouldDisableAutoInstallRSRToggleWithHandler:]_block_invoke
+- ___67-[SUManagerServer getShouldDisableAutoInstallRSRToggleWithHandler:]_block_invoke_2
+- ___67-[SUManagerServer getShouldDisableAutoInstallRSRToggleWithHandler:]_block_invoke_3
+- ___67-[SUScanner autoScanAndDownloadIfAvailable:downloadNow:withResult:]_block_invoke
+- ___67-[SUScanner autoScanAndDownloadIfAvailable:downloadNow:withResult:]_block_invoke_2
+- ___67-[SUScanner autoScanAndDownloadIfAvailable:downloadNow:withResult:]_block_invoke_3
+- ___67-[SUScanner autoScanAndDownloadIfAvailable:downloadNow:withResult:]_block_invoke_4
+- ___67-[SUScanner autoScanAndDownloadIfAvailable:downloadNow:withResult:]_block_invoke_5
+- ___67-[SUScanner autoScanAndDownloadIfAvailable:downloadNow:withResult:]_block_invoke_6
+- ___67-[SUScanner autoScanAndDownloadIfAvailable:downloadNow:withResult:]_block_invoke_7
+- ___68-[SUInstaller isUpdateReadyForInstallationWithOptions:replyHandler:]_block_invoke
+- ___68-[SUManagerPolicy reportOTAAutoTriggeredEventWithAdditionalMetrics:]_block_invoke
+- ___68-[SUManagerServer isInstallationKeybagRequiredForDescriptor:result:]_block_invoke
+- ___68-[SUManagerServer isInstallationKeybagRequiredForDescriptor:result:]_block_invoke_2
+- ___68-[SUManagerServer isInstallationKeybagRequiredForDescriptor:result:]_block_invoke_3
+- ___70-[SUManagerPolicy isUpdateReadyForInstallationWithOptions:withResult:]_block_invoke
+- ___70-[SUManagerPolicy isUpdateReadyForInstallationWithOptions:withResult:]_block_invoke_2
+- ___70-[SUManagerPolicy isUpdateReadyForInstallationWithOptions:withResult:]_block_invoke_3
+- ___70-[SUManagerServer isUpdateReadyForInstallationWithOptions:withResult:]_block_invoke
+- ___70-[SUManagerServer isUpdateReadyForInstallationWithOptions:withResult:]_block_invoke_2
+- ___70-[SUManagerServer isUpdateReadyForInstallationWithOptions:withResult:]_block_invoke_3
+- ___70-[SUManagerServer isUpdateReadyForInstallationWithOptions:withResult:]_block_invoke_4
+- ___70-[SUServerConfigurationManager coreConfigServerSettingsUpdated:error:]_block_invoke
+- ___72-[SUXPCAutoInstallStrategy scheduleSimulatedAutoInstallTaskWithHandler:]_block_invoke
+- ___73-[SUBGSTAutoInstallStrategy scheduleSimulatedAutoInstallTaskWithHandler:]_block_invoke
+- ___73-[SUBGSTAutoInstallStrategy scheduleSimulatedAutoInstallTaskWithHandler:]_block_invoke_2
+- ___73-[SUDDMManager _downloadRequestCompletedWithStatus:error:withDescriptor:]_block_invoke
+- ___73-[SUManagerPolicy autoScanAndDownloadIfAvailable:downloadNow:withResult:]_block_invoke
+- ___73-[SUManagerServer autoInstallManager:passcodePolicyChanged:forOperation:]_block_invoke
+- ___73-[SUManagerServer autoInstallManager:passcodePolicyChanged:forOperation:]_block_invoke_2
+- ___74-[SUManagerCore(Splat) presentRollbackSuggestionAlertWithDescriptor:info:]_block_invoke
+- ___74-[SUManagerServer getShouldDisableAutoInstallIOSUpdatesToggleWithHandler:]_block_invoke
+- ___74-[SUManagerServer getShouldDisableAutoInstallIOSUpdatesToggleWithHandler:]_block_invoke_2
+- ___74-[SUManagerServer getShouldDisableAutoInstallIOSUpdatesToggleWithHandler:]_block_invoke_3
+- ___75-[SUManagerServer getShouldDisableAutoDownloadIOSUpdatesToggleWithHandler:]_block_invoke
+- ___75-[SUManagerServer getShouldDisableAutoDownloadIOSUpdatesToggleWithHandler:]_block_invoke_2
+- ___75-[SUManagerServer getShouldDisableAutoDownloadIOSUpdatesToggleWithHandler:]_block_invoke_3
+- ___77-[SUAutoInstallManager currentAutoInstallOperationCreatingIfNecessary:error:]_block_invoke
+- ___77-[SUManagerPolicy reportSimulatedOTAAutoTriggeredEventWithAdditionalMetrics:]_block_invoke
+- ___78-[SUAutoInstallManager noteAutoInstallOperationWantsToBeginWithSchedulerName:]_block_invoke
+- ___78-[SUAutoInstallManager noteAutoInstallOperationWantsToBeginWithSchedulerName:]_block_invoke_2
+- ___80-[SUScheduler scheduleAutoDownloadWithDate:requirePower:minimumPowerRquirement:]_block_invoke
+- ___82-[SUManagerServer automaticDownloadDidFailToStartForNewUpdateAvailable:withError:]_block_invoke
+- ___82-[SUManagerServer automaticDownloadDidFailToStartForNewUpdateAvailable:withError:]_block_invoke_2
+- ___82-[SUScheduler scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]_block_invoke
+- ___83-[SUManagerPolicy overrideSoftwareUpdateReserve:systemGrowthMarginSize:withResult:]_block_invoke
+- ___83-[SUManagerServer overrideSoftwareUpdateReserve:systemGrowthMarginSize:withResult:]_block_invoke
+- ___83-[SUManagerServer overrideSoftwareUpdateReserve:systemGrowthMarginSize:withResult:]_block_invoke_2
+- ___83-[SUManagerServer overrideSoftwareUpdateReserve:systemGrowthMarginSize:withResult:]_block_invoke_3
+- ___85-[SUAutoInstallManager _queue_noteAutoInstallOperationWantsToBeginWithSchedulerName:]_block_invoke
+- ___85-[SUAutoInstallManager _queue_noteAutoInstallOperationWantsToBeginWithSchedulerName:]_block_invoke_2
+- ___85-[SUAutoInstallManager _queue_noteAutoInstallOperationWantsToBeginWithSchedulerName:]_block_invoke_3
+- ___86-[SUInstaller _isUpdateReadyForInstallationWithOptions:forceCleanup:withReplyHandler:]_block_invoke
+- ___86-[SUManagerCore updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]_block_invoke
+- ___86-[SUManagerCore updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]_block_invoke.570
+- ___86-[SUManagerCore updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]_block_invoke_2
+- ___86-[SUManagerCore updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]_block_invoke_3
+- ___86-[SUManagerCore updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]_block_invoke_4
+- ___86-[SUManagerCore updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]_block_invoke_5
+- ___88-[SUManagerPolicy updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]_block_invoke
+- ___88-[SUManagerServer updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]_block_invoke
+- ___88-[SUManagerServer updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]_block_invoke_2
+- ___88-[SUManagerServer updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]_block_invoke_3
+- ___95-[SUXPCAutoInstallStrategy scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]_block_invoke
+- ___95-[SUXPCAutoInstallStrategy scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]_block_invoke_2
+- ___95-[SUXPCAutoInstallStrategy scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]_block_invoke_3
+- ___95-[SUXPCAutoInstallStrategy scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]_block_invoke_4
+- ___95-[SUXPCAutoInstallStrategy scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]_block_invoke_5
+- ___96-[SUBGSTAutoInstallStrategy scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]_block_invoke
+- ___block_descriptor_112_e8_32s40s48s56s64s72s80s88bs96r104r_e41_v24?0"SUSpaceCheckResults"8"NSError"16lr96l8r104l8s32l8s40l8s48l8s56l8s64l8s72l8s88l8s80l8
+- ___block_descriptor_32_e17_v16?0"NSError"8l
+- ___block_descriptor_32_e18_B16?0"NSString"8l
+- ___block_descriptor_32_e31_v16?0"SUManagerServerClient"8l
+- ___block_descriptor_32_e34_v24?0"SUDescriptor"8"NSError"16l
+- ___block_descriptor_32_e35_v24?0"SUScanResults"8"NSError"16l
+- ___block_descriptor_32_e42_v24?0"SUCoreDDMDeclaration"8"NSError"16l
+- ___block_descriptor_40_e8_32bs_e17_v16?0"NSError"8ls32l8
+- ___block_descriptor_40_e8_32bs_e22_v16?0"SUDescriptor"8ls32l8
+- ___block_descriptor_40_e8_32bs_e23_v24?0B8B12"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e35_v24?0"SUScanResults"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32r_e31_v16?0"SUManagerServerClient"8lr32l8
+- ___block_descriptor_40_e8_32r_e35_v24?0"SUManagerServerClient"8^B16lr32l8
+- ___block_descriptor_40_e8_32s_e119_v56?0"SUCoreDescriptor"8"SUCoreDescriptor"16"SUCoreDescriptor"24"SUCoreDescriptor"32"SUScanOptions"40"NSError"48ls32l8
+- ___block_descriptor_40_e8_32s_e23_v24?0B8B12"NSError"16ls32l8
+- ___block_descriptor_40_e8_32s_e31_v16?0"SUManagerServerClient"8ls32l8
+- ___block_descriptor_40_e8_32s_e33_v16?0"NSObject<OS_xpc_object>"8ls32l8
+- ___block_descriptor_40_e8_32s_e34_v16?0"BGNonRepeatingSystemTask"8ls32l8
+- ___block_descriptor_40_e8_32s_e35_v24?0"NSString"8"NSDictionary"16ls32l8
+- ___block_descriptor_40_e8_32s_e47_B24?0"SUCoreDDMDeclaration"8"SUDescriptor"16ls32l8
+- ___block_descriptor_40_e8_32s_e74_v32?0"RBSProcessMonitor"8"RBSProcessHandle"16"RBSProcessStateUpdate"24ls32l8
+- ___block_descriptor_40_e8_32s_e8_v12?0B8ls32l8
+- ___block_descriptor_40_e8_32s_e8_v12?0i8ls32l8
+- ___block_descriptor_41_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_41_e8_32s_e31_v16?0"SUManagerServerClient"8ls32l8
+- ___block_descriptor_48_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_48_e8_32s40bs_e17_v16?0"NSTimer"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e20_v20?0B8"NSError"12ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e23_v16?0"SUScanOptions"8ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e23_v24?0B8B12"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e23_v24?0B8B12"NSError"16ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e31_v16?0"SUManagerServerClient"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e33_v16?0"NSObject<OS_xpc_object>"8ls40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e17_v16?0"NSError"8lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e50_v32?0"SUCoreDescriptor"8"NSError"16"NSError"24lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e8_v12?0B8lr40l8s32l8
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSTimer"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e20_v20?0B8"NSError"12ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e31_v16?0"SUManagerServerClient"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e40_v16?0"<RBSProcessMonitorConfiguring>"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s_e31_v16?0"SUManagerServerClient"8ls32l8
+- ___block_descriptor_49_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_49_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_49_e8_32s40r_e5_v8?0lr40l8s32l8
+- ___block_descriptor_50_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_50_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_52_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_52_e8_32s40s_e35_v24?0"SUScanResults"8"NSError"16ls32l8s40l8
+- ___block_descriptor_52_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_53_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_56_e8_32s40bs48bs_e35_v24?0"SUScanOptions"8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40bs48r_e38_v24?0"SUCoreDescriptor"8"NSError"16lr48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40bs48r_e5_v8?0ls40l8r48l8s32l8
+- ___block_descriptor_56_e8_32s40r48r_e35_v24?0"SUScanResults"8"NSError"16lr40l8r48l8s32l8
+- ___block_descriptor_56_e8_32s40s48bs_e118_v56?0"SUCorePolicy"8"SUCoreDescriptor"16"SUCoreDescriptor"24"SUCoreDescriptor"32"SUCoreDescriptor"40"NSError"48ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e20_v24?0Q8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e31_v16?0"SUManagerServerClient"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e34_v16?0"BGNonRepeatingSystemTask"8ls32l8s48l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e55_v32?0"SUCorePolicy"8"SUCoreDescriptor"16"NSError"24ls48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e20_v20?0B8"NSError"12ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e23_v24?0B8i12"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e26_v16?0"SUCoreDescriptor"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e31_v16?0"SUManagerServerClient"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e33_v16?0"NSObject<OS_xpc_object>"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e34_v24?0"NSDictionary"8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e8_v12?0i8ls32l8s40l8s48l8
+- ___block_descriptor_57_e8_32s40r_e5_v8?0lr40l8s32l8
+- ___block_descriptor_57_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_57_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_60_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48r56r_e38_v24?0"SUCoreDescriptor"8"NSError"16lr48l8r56l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40s48r56r_e5_v8?0ls32l8r48l8s40l8r56l8
+- ___block_descriptor_64_e8_32s40s48r56r_e5_v8?0ls32l8s40l8r48l8r56l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e23_v24?0B8B12"NSError"16ls32l8s56l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e42_v24?0"SUCoreDDMDeclaration"8"NSError"16ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0ls32l8s40l8s56l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_65_e8_32s40s48s56bs_e35_v24?0"SUScanResults"8"NSError"16ls32l8s40l8s56l8s48l8
+- ___block_descriptor_72_e8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_72_e8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s64l8s48l8s56l8
+- ___block_descriptor_72_e8_32s40s48s56s64bs_e5_v8?0ls64l8s32l8s40l8s48l8s56l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e23_v24?0B8i12"NSError"16ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_74_e8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s48l8s64l8s56l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_descriptor_81_e8_32s40s48s56s64s72bs_e5_v8?0ls32l8s40l8s48l8s72l8s56l8s64l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72s80s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
+- ___block_descriptor_96_e8_32s40s48s56bs64r72r80r88r_e41_v24?0"SUSpaceCheckResults"8"NSError"16lr64l8r72l8s32l8s40l8s48l8s56l8r80l8r88l8
+- ___block_literal_global.1204
+- ___block_literal_global.1279
+- ___block_literal_global.1399
+- ___block_literal_global.359
+- ___block_literal_global.362
+- ___block_literal_global.373
+- ___block_literal_global.378
+- ___block_literal_global.383
+- ___block_literal_global.388
+- ___block_literal_global.393
+- ___block_literal_global.398
+- ___block_literal_global.403
+- ___block_literal_global.408
+- ___block_literal_global.413
+- ___block_literal_global.418
+- ___block_literal_global.426
+- ___block_literal_global.431
+- ___block_literal_global.439
+- ___block_literal_global.442
+- ___block_literal_global.465
+- ___block_literal_global.467
+- ___block_literal_global.473
+- ___block_literal_global.479
+- ___block_literal_global.501
+- ___block_literal_global.542
+- ___block_literal_global.589
+- ___block_literal_global.611
+- ___block_literal_global.616
+- ___block_literal_global.641
+- ___block_literal_global.661
+- ___block_literal_global.712
+- ___chkstk_darwin
+- ___connectionQueue
+- ___listener
+- __ensureSsoLib.onceToken
+- __orderForPhase:.__downloadPhaseOrderMap
+- __orderForPhase:.__onceToken
+- __os_feature_enabled_impl
+- __xpc_event_key_name
+- _currentSupplementalBuild.__currentSupplementalBuild
+- _currentSupplementalBuild.supplementalBuildPredicate
+- _dispatch_after
+- _dlclose
+- _dlsym
+- _getInstallationConstraintsForDownload:allowDiskCleanupIfNeeded:forceDiskCleanupIfNeeded:options:.__LAST_DESCRIPTOR
+- _getInstallationConstraintsForDownload:allowDiskCleanupIfNeeded:forceDiskCleanupIfNeeded:options:.__LAST_REQUEST_TIME
+- _kCDSleepAutoSuSuStartKey
+- _kCFRunLoopDefaultMode
+- _kChangedValuesRemovedKey
+- _kChangedValuesUpdatedKey
+- _kMGQDiskUsageAmountDataAvailable
+- _kSUAssetActualMinimumSystemPartitionKey
+- _kSUAssetAllowAutoDownloadOnBatteryKey
+- _kSUAssetAllowableOTAKey
+- _kSUAssetAllowableOverCellularKey
+- _kSUAssetAutoDownloadOnBatteryDelayKey
+- _kSUAssetAutoDownloadOnBatteryMinBatteryKey
+- _kSUAssetAutoInstallDelayKey
+- _kSUAssetAutoUpdateKey
+- _kSUAssetDisableSplatComboKey
+- _kSUAssetGranularlyRampedKey
+- _kSUAssetHideInstallAlertKey
+- _kSUAssetNotifyAfterKey
+- _kSUAssetRampKey
+- _kSUAssetSUDisableAppDemotionKey
+- _kSUAssetSUDisableCDLevel4Key
+- _kSUAssetSUDisableSiriVoiceDeletionKey
+- _kSUAssetSUInstallTonightEnabledKey
+- _kSUCoreActionKey
+- _kSUCoreConfigKeySoftwareUpdateScanInterval
+- _kSUCoreConfigProjectSoftwareUpdateServices
+- _kSUCoreControllerApplyingUpdate
+- _kSUCoreControllerCleanupLevelKey
+- _kSUCoreControllerClientNameKey
+- _kSUCoreControllerControllerStatusKey
+- _kSUCoreControllerControllerVersionKey
+- _kSUCoreControllerDownloadNotReady
+- _kSUCoreControllerDownloadOverCellularKey
+- _kSUCoreControllerEventOTAAbandoned
+- _kSUCoreControllerEventOTAAutoTriggered
+- _kSUCoreControllerEventOTAAvailable
+- _kSUCoreControllerEventOTADownloaded
+- _kSUCoreControllerEventOTAInstalling
+- _kSUCoreControllerEventOTAPostponed
+- _kSUCoreControllerEventOTAStartedDownloading
+- _kSUCoreControllerEventSecurityResponseRollbackSuggested
+- _kSUCoreControllerInstallTonightKey
+- _kSUCoreControllerNetworkTypeKey
+- _kSUCoreControllerOperationExpired
+- _kSUCoreControllerPersistDurationKey
+- _kSUCoreControllerRollbackSuggestionErrorCodeKey
+- _kSUCoreControllerRollbackSuggestionErrorDomainKey
+- _kSUCoreControllerRollbackSuggestionReasonKey
+- _kSUCoreControllerRollbackSuggestionReasonProgramInitiated
+- _kSUCoreControllerRollbackSuggestionReasonStabilityMonitor
+- _kSUCoreControllerRollbackSuggestionReasonUndefined
+- _kSUCoreControllerRollbackSuggestionResponsibleProcessKey
+- _kSUCoreDDMSoftwareUpdateStatusDidChangeNotificationValueBuildVersion
+- _kSUCoreDDMSoftwareUpdateStatusDidChangeNotificationValueInstallReasons
+- _kSUCoreDDMSoftwareUpdateStatusDidChangeNotificationValueTargetLocalDateTime
+- _kSUCoreDDMSoftwareUpdateStatusDidChangeNotificationValueUpdateVersion
+- _kSUCoreEventContextKey
+- _kSUCoreEventFalse
+- _kSUCoreEventNameKey
+- _kSUCoreEventResultKey
+- _kSUCoreEventResultSuccess
+- _kSUCoreEventTrue
+- _kSUCoreEventUUIDKey
+- _kSUCoreFSMActionNoOp
+- _kSUCoreNextStateKey
+- _kSUCoreSplunkServerDefaultURL
+- _kSUProgressPhaseDownloading
+- _kSUProgressPhaseLoadingBrain
+- _kSUProgressPhasePreparing
+- _kSU_A_LoadBrain
+- _kSU_A_ReportApplyFailed
+- _kSU_A_ReportDownloadProgress
+- _kSU_A_ReportPrepared
+- _kSU_A_ReportRollbackFailed
+- _kSU_A_ReportRollbackSucceeded
+- _kSU_A_ResumeUpdate
+- _kSU_E_ApplyFailed
+- _kSU_E_ApplySuccess
+- _kSU_E_BrainLoadFailed
+- _kSU_E_BrainLoadSuccess
+- _kSU_E_PrepareSuccess
+- _kSU_S_Applying
+- _kSU_S_AwaitingReboot
+- _kSU_S_LoadingBrain
+- _kSU_S_Prepared
+- _kSU_S_ReadyToBegin
+- _kSU_S_Resuming
+- _kSU_S_Startup
+- _objc_msgSend$Discoverability
+- _objc_msgSend$MCPathToSUMDMPath:
+- _objc_msgSend$SUCoreAudienceTypeToSUSAudienceType:
+- _objc_msgSend$SUCorePreferredTypeToSUSPreferenceType:
+- _objc_msgSend$SUDescriptorFromCoreDescriptor:
+- _objc_msgSend$SUDescriptorFromRollbackDescriptor:
+- _objc_msgSend$SUOperationProgressFromSUCoreProgress:
+- _objc_msgSend$Signals
+- _objc_msgSend$UUIDForSoftwareUpdate
+- _objc_msgSend$_NSNumberToTriState:
+- _objc_msgSend$_SUAssetTypeForScanOptions:
+- _objc_msgSend$_activityIsScheduled:cancelIfExpired:
+- _objc_msgSend$_activityIsScheduled:cancelIfExpired:scheduledActivity:
+- _objc_msgSend$_applicationStateChanged:isVisible:
+- _objc_msgSend$_augmentCoreAnalyticsEvent:withUpdate:
+- _objc_msgSend$_autoDownloadTimeInterval
+- _objc_msgSend$_autoInstallActivityCriteriaWithInstallDate:descriptor:
+- _objc_msgSend$_autoScanTimeIntervalForType:
+- _objc_msgSend$_cancelCurrentDownloadAndDownload:
+- _objc_msgSend$_cancelScheduledDownloadRetryForReason:
+- _objc_msgSend$_changeDownloadPhase:progress:timeRemaining:
+- _objc_msgSend$_checkAndPostSplatFollowUpIfNeeded
+- _objc_msgSend$_clientForCurrentConnection
+- _objc_msgSend$_coreDescriptorFailedPatching:
+- _objc_msgSend$_createCoreAnalyticsEventWithCurrentDownloadFor:error:
+- _objc_msgSend$_createOperationModel
+- _objc_msgSend$_describeAndReportEvent:policy:primaryDescriptor:alternateDescriptor:additionalMetrics:
+- _objc_msgSend$_descriptionBlank
+- _objc_msgSend$_descriptionDownloadDescriptor
+- _objc_msgSend$_descriptionError
+- _objc_msgSend$_descriptionErrorWithDescriptor
+- _objc_msgSend$_descriptionInstallOptions
+- _objc_msgSend$_descriptionProgress
+- _objc_msgSend$_descriptionPurge
+- _objc_msgSend$_descriptionRollback
+- _objc_msgSend$_descriptionRollbackOptions
+- _objc_msgSend$_descriptionScanPolicy
+- _objc_msgSend$_descriptionUnknown
+- _objc_msgSend$_doScanForUpdates
+- _objc_msgSend$_downloadFailedWithError:
+- _objc_msgSend$_downloadFinished:
+- _objc_msgSend$_downloadInvalidatedWithUpdates:
+- _objc_msgSend$_downloadRequestCompletedWithStatus:error:withDescriptor:
+- _objc_msgSend$_ensureSsoLib
+- _objc_msgSend$_evaluateAllDeclarations
+- _objc_msgSend$_evaluateDeclarationsWithNewDeclaration:
+- _objc_msgSend$_evaluateForegroundness
+- _objc_msgSend$_evaluateMessagability
+- _objc_msgSend$_filterDescriptor:forRequestedBuild:
+- _objc_msgSend$_gameModeChangedTo:
+- _objc_msgSend$_generateStateTable
+- _objc_msgSend$_getAmountDataAvailable
+- _objc_msgSend$_getAutoInstallStrategyTypeForUpdate:
+- _objc_msgSend$_getDDMStatusWithKeys:withResult:
+- _objc_msgSend$_getDDMTargetUpdateWithPreferredDescriptor:alternateDescriptor:
+- _objc_msgSend$_getSsoToken
+- _objc_msgSend$_handleExistingDownload:targetUpdate:
+- _objc_msgSend$_handleScanError:
+- _objc_msgSend$_handleScanResults:
+- _objc_msgSend$_handleScannedPreferredDescriptor:alternateDescriptor:scanOptions:error:
+- _objc_msgSend$_hasOpenTransactionForName:
+- _objc_msgSend$_initiateDownloadWithDescriptor:
+- _objc_msgSend$_installAttemptDone
+- _objc_msgSend$_installReasons
+- _objc_msgSend$_invalidateRetryAutoInstallaTimer
+- _objc_msgSend$_isForecastExpired
+- _objc_msgSend$_isKeepAliveEnabled:
+- _objc_msgSend$_isStateForeground:visible:
+- _objc_msgSend$_isStateMessagable:
+- _objc_msgSend$_isUpdateDownloadable:downloadOptions:error:
+- _objc_msgSend$_isUpdateReadyForInstallationWithOptions:error:shouldRetry:
+- _objc_msgSend$_isUpdateReadyForInstallationWithOptions:forceCleanup:withReplyHandler:
+- _objc_msgSend$_isWithinAutoDownloadWindowForPolicy:descriptor:
+- _objc_msgSend$_loadBrainOnUnlockCallback
+- _objc_msgSend$_logForDebugging:
+- _objc_msgSend$_mdmCommandConflictsWithDDMError
+- _objc_msgSend$_next7OClockFrom:after:
+- _objc_msgSend$_nonFatalScanError:
+- _objc_msgSend$_notePhaseCompleted:
+- _objc_msgSend$_notifyServerStart
+- _objc_msgSend$_notifyUI:
+- _objc_msgSend$_orderForPhase:
+- _objc_msgSend$_persistStash
+- _objc_msgSend$_preallocatedSpaceMetricInfo
+- _objc_msgSend$_purgeDownloadWithHandler:
+- _objc_msgSend$_queue_CollectDocumentation:sessionID:completion:
+- _objc_msgSend$_queue_canGetAutoInstallOperation
+- _objc_msgSend$_queue_cancelAutoInstallOperation:
+- _objc_msgSend$_queue_cancelAutoInstallStartInstallTask
+- _objc_msgSend$_queue_cancelLockAssertion
+- _objc_msgSend$_queue_clearAutoInstallOperationForReason:disableKeybagStash:
+- _objc_msgSend$_queue_consentToAutoInstallOperation:
+- _objc_msgSend$_queue_createBrainLoadLockAssertion:
+- _objc_msgSend$_queue_currentAutoInstallOperationCreatingIfNecessary:notifyIfExpired:error:
+- _objc_msgSend$_queue_didNumberValueChange:oldConfig:newConfig:valueRemoved:
+- _objc_msgSend$_queue_handleActivity:info:
+- _objc_msgSend$_queue_handleAnalyticsSubmission:info:
+- _objc_msgSend$_queue_handleAutoDownload:info:
+- _objc_msgSend$_queue_handleAutoInstallEnd:info:
+- _objc_msgSend$_queue_handleAutoInstallGetKeybag:info:
+- _objc_msgSend$_queue_handleAutoInstallStart:
+- _objc_msgSend$_queue_handleAutoInstallUnlock:info:
+- _objc_msgSend$_queue_handleAutoScan:info:rescheduler:
+- _objc_msgSend$_queue_handleCancelPresentBannerOnUnlock
+- _objc_msgSend$_queue_handleInstallAlert:info:
+- _objc_msgSend$_queue_handlePresentBanner:info:
+- _objc_msgSend$_queue_handleRollbackReboot:info:
+- _objc_msgSend$_queue_handleScanIntervalConfigChange:
+- _objc_msgSend$_queue_handleServerConfigScan:info:
+- _objc_msgSend$_queue_handleSplatFollowUp:info:
+- _objc_msgSend$_queue_invalidateRetryAutoInstallaTimer
+- _objc_msgSend$_queue_isAutoInstallOperationReadyToBegin
+- _objc_msgSend$_queue_isExpired
+- _objc_msgSend$_queue_noteAutoInstallOperationDidExpire
+- _objc_msgSend$_queue_noteAutoInstallOperationWantsToBeginWithSchedulerName:
+- _objc_msgSend$_queue_refreshLastScannedCoreDescriptors
+- _objc_msgSend$_queue_resumeOrResetStateIfNecessary
+- _objc_msgSend$_queue_scanForUpdates:sessionID:completion:
+- _objc_msgSend$_queue_setAutoinstallActivity:
+- _objc_msgSend$_queue_setFailedToAutoInstallError:
+- _objc_msgSend$_queue_trySchedulingAnotherTimeInInstallWindow:
+- _objc_msgSend$_queue_unscheduleActivity:
+- _objc_msgSend$_queue_unscheduleAllActivitiesWithName:
+- _objc_msgSend$_randomizedAutoScanDelayForType:
+- _objc_msgSend$_reapplyExistingDownloadPolicyIfDownloadable:
+- _objc_msgSend$_reportOTAEvent:withStatus:policy:descriptor:additionalMetrics:error:
+- _objc_msgSend$_reportOTAEvent:withStatus:policy:primaryDescriptor:alternateDescriptor:additionalMetrics:error:
+- _objc_msgSend$_reportRollbackEvent:withInfo:buildVersion:
+- _objc_msgSend$_resetToCustomerAudienceAndRescan
+- _objc_msgSend$_resumeFromLastKnownState
+- _objc_msgSend$_run
+- _objc_msgSend$_scanForUpdateForDeclaration:retryIfNecessary:
+- _objc_msgSend$_scanPriorityForOptions:
+- _objc_msgSend$_scheduleActivity:
+- _objc_msgSend$_scheduleAutoInstallGetKeybagTaskForDate:
+- _objc_msgSend$_scheduleDownloadRetryForReason:
+- _objc_msgSend$_sendLatestStatusForClient:
+- _objc_msgSend$_setActiveDeclaration:
+- _objc_msgSend$_setClientName:
+- _objc_msgSend$_setDownloadDiscretionary:
+- _objc_msgSend$_setKeepAlive:
+- _objc_msgSend$_shouldResetToCustomerAudienceAfterLongPeriod
+- _objc_msgSend$_shouldSendUpdatedProgressToDelegate
+- _objc_msgSend$_snapshotProgress
+- _objc_msgSend$_submitAutoInstallSystemTaskRequestWithIdentifier:withDate:forUpdate:
+- _objc_msgSend$_submitCoreAnalyticsEvent:
+- _objc_msgSend$_toggleKeepAliveStatus
+- _objc_msgSend$_unscheduleActivity:
+- _objc_msgSend$_updateLastSavedDownloadsOptions:
+- _objc_msgSend$_updateNormalizedDownloadProgress
+- _objc_msgSend$_updateNormalizedDownloadProgressAndNotifyDelegate
+- _objc_msgSend$_updatePolicyFactoryMetricEventFields:updateUUID:cleanupLevel:
+- _objc_msgSend$actionHelper_ReportApplyFailed:
+- _objc_msgSend$actionHelper_ReportDownloadFailedRollingBack
+- _objc_msgSend$actionHelper_ReportInstallFailedNoUpdate
+- _objc_msgSend$actionHelper_ReportInstallFailedRollingBack
+- _objc_msgSend$actionHelper_ReportPrepared:
+- _objc_msgSend$actionHelper_ReportRemoveFailedRollingBack
+- _objc_msgSend$actionHelper_ReportRollbackCompleted:withError:
+- _objc_msgSend$actionUnknownAction:error:
+- _objc_msgSend$action_Activated:error:
+- _objc_msgSend$action_ActivatedClean:error:
+- _objc_msgSend$action_ActivatedHelper:
+- _objc_msgSend$action_ArmInstallOrFail:error:
+- _objc_msgSend$action_BrainLoaded:error:
+- _objc_msgSend$action_Cancel:error:
+- _objc_msgSend$action_CanceledDownloadRequested:error:
+- _objc_msgSend$action_CheckLockAndNetwork:error:
+- _objc_msgSend$action_DownloadAndPrepare:error:
+- _objc_msgSend$action_HandleCanceledPendingRollback:error:
+- _objc_msgSend$action_HandlePendingDownload:error:
+- _objc_msgSend$action_HandlePendingRollback:error:
+- _objc_msgSend$action_InstallArmed:error:
+- _objc_msgSend$action_InstallUpdate:error:
+- _objc_msgSend$action_LoadBrain:error:
+- _objc_msgSend$action_NewDownloadPending:error:
+- _objc_msgSend$action_Prepare:error:
+- _objc_msgSend$action_ReloadBrain:error:
+- _objc_msgSend$action_RemoveAll:error:
+- _objc_msgSend$action_RemoveAllPreserveCache:error:
+- _objc_msgSend$action_RemovePreserving:error:
+- _objc_msgSend$action_ReportApplyFailed:error:
+- _objc_msgSend$action_ReportApplyFailedRemoveAll:error:
+- _objc_msgSend$action_ReportAwaitingReboot:error:
+- _objc_msgSend$action_ReportDownloadAwaitingReboot:error:
+- _objc_msgSend$action_ReportDownloadFailedNoUpdate:error:
+- _objc_msgSend$action_ReportDownloadFailedRemoveAll:error:
+- _objc_msgSend$action_ReportDownloadFailedRollingBack:error:
+- _objc_msgSend$action_ReportDownloadInstalling:error:
+- _objc_msgSend$action_ReportDownloadProgress:error:
+- _objc_msgSend$action_ReportInstallAwaitingReboot:error:
+- _objc_msgSend$action_ReportInstallFailedNoUpdate:error:
+- _objc_msgSend$action_ReportInstallFailedRollingBack:error:
+- _objc_msgSend$action_ReportPrepared:error:
+- _objc_msgSend$action_ReportPreparedSet:error:
+- _objc_msgSend$action_ReportRemoveAwaitingReboot:error:
+- _objc_msgSend$action_ReportRemoveFailedRollingBack:error:
+- _objc_msgSend$action_ReportRemoveInstalling:error:
+- _objc_msgSend$action_ReportRollbackAwaitingReboot:error:
+- _objc_msgSend$action_ReportRollbackFailed:error:
+- _objc_msgSend$action_ReportRollbackInstalling:error:
+- _objc_msgSend$action_ReportRollbackSucceeded:error:
+- _objc_msgSend$action_Resume:error:
+- _objc_msgSend$action_RollbackUpdate:error:
+- _objc_msgSend$activateLoadingPersisted:
+- _objc_msgSend$activated
+- _objc_msgSend$activated:
+- _objc_msgSend$activating
+- _objc_msgSend$activeDDMDeclarationEnfrocedSU
+- _objc_msgSend$activeDeclarationKey
+- _objc_msgSend$activeScanTask
+- _objc_msgSend$activityName
+- _objc_msgSend$activityOptions
+- _objc_msgSend$activityWasPreviouslyScheduledForFutureDate:passed:copy:
+- _objc_msgSend$addClient:
+- _objc_msgSend$addDeclaration:returningError:
+- _objc_msgSend$addDelegate:
+- _objc_msgSend$addEventPayloadEntries:
+- _objc_msgSend$addFailedPatchBuildVersion:
+- _objc_msgSend$addGlobalSettingsDeclaration:returningError:
+- _objc_msgSend$addListener:
+- _objc_msgSend$addRolledBackBuildVersion:
+- _objc_msgSend$addTimer:forMode:
+- _objc_msgSend$addType:
+- _objc_msgSend$addUnlockCallback:forKey:
+- _objc_msgSend$additionalOptions
+- _objc_msgSend$allDeclarations
+- _objc_msgSend$allDeclarationsIncludingInvalid
+- _objc_msgSend$allDeclarationsIncludingSpecial:
+- _objc_msgSend$allowCellularDownload
+- _objc_msgSend$allowSameRestoreVersionSplatUpdate
+- _objc_msgSend$allowSameVersion
+- _objc_msgSend$allowSplatRollback
+- _objc_msgSend$allowSplatUpdate
+- _objc_msgSend$allowsCellular
+- _objc_msgSend$alternateAudience
+- _objc_msgSend$alternateLastScannedDescriptor
+- _objc_msgSend$alwaysEnableAutoDownload
+- _objc_msgSend$alwaysEnableAutoInstallOSUpdates
+- _objc_msgSend$alwaysEnableAutoInstallRapidSecurityResponse
+- _objc_msgSend$alwaysPromoteAlternate
+- _objc_msgSend$amendManagedScanOptions:withResponse:
+- _objc_msgSend$analyticsSubmissionIntervalOverride
+- _objc_msgSend$appendBytes:length:
+- _objc_msgSend$appendData:
+- _objc_msgSend$appendUpdateMetricEventFields:
+- _objc_msgSend$applyPolicy
+- _objc_msgSend$armActivitySchedulerWithDate:
+- _objc_msgSend$armInstall:
+- _objc_msgSend$asset
+- _objc_msgSend$assetAudienceChanged:
+- _objc_msgSend$assetAudienceUUID
+- _objc_msgSend$atPhase
+- _objc_msgSend$auditToken
+- _objc_msgSend$augmentCorePolicy:WithApplyPolicy:
+- _objc_msgSend$augmentCorePolicy:WithDocumentationDownloadPolicy:
+- _objc_msgSend$augmentCorePolicy:WithDocumentationScanPolicy:
+- _objc_msgSend$augmentCorePolicy:WithGlobalPolicy:
+- _objc_msgSend$augmentCorePolicy:WithLoadBrainPolicy:
+- _objc_msgSend$augmentCorePolicy:WithPreflightPolicy:
+- _objc_msgSend$augmentCorePolicy:WithPreparePolicy:
+- _objc_msgSend$augmentCorePolicy:WithResumePolicy:
+- _objc_msgSend$augmentCorePolicy:WithRollbackPolicy:
+- _objc_msgSend$augmentCorePolicy:WithSUDownloadPolicy:
+- _objc_msgSend$augmentCorePolicy:WithSUScanPolicy:
+- _objc_msgSend$augmentCorePolicy:WithSuspendPolicy:
+- _objc_msgSend$augmentEvent:
+- _objc_msgSend$augmentEvent:withError:
+- _objc_msgSend$augmentPolicy:
+- _objc_msgSend$autoDownloadAllowableOverCellular
+- _objc_msgSend$autoDownloadDeletedBuild
+- _objc_msgSend$autoDownloadExpiredError:
+- _objc_msgSend$autoDownloadOverrideInterval
+- _objc_msgSend$autoDownloadTimeInterval
+- _objc_msgSend$autoInstallDelay
+- _objc_msgSend$autoInstallManager
+- _objc_msgSend$autoInstallManager:didCancelOperation:
+- _objc_msgSend$autoInstallManager:didExpireOperation:withError:
+- _objc_msgSend$autoInstallManager:isReadyToInstall:withResult:
+- _objc_msgSend$autoInstallManager:operationWasConsented:
+- _objc_msgSend$autoInstallManager:passcodePolicyChanged:forOperation:
+- _objc_msgSend$autoInstallOperationIsReadyToInstall:withResult:
+- _objc_msgSend$autoInstallOperationPasscodePolicyChanged:passcodePolicyType:
+- _objc_msgSend$autoInstallRetryDelay
+- _objc_msgSend$autoInstallSecurityResponseForceOff
+- _objc_msgSend$autoInstallSecurityResponseForceOn
+- _objc_msgSend$autoInstallStrategy
+- _objc_msgSend$autoInstallSystemDataFilesForceOff
+- _objc_msgSend$autoInstallSystemDataFilesForceOn
+- _objc_msgSend$autoInstallTask
+- _objc_msgSend$autoInstallTaskCompleted
+- _objc_msgSend$autoInstallTaskExpiredByDAS
+- _objc_msgSend$autoSUFailedWithError:
+- _objc_msgSend$autoScanAndDownloadIfAvailable:downloadNow:withResult:
+- _objc_msgSend$autoScanAndDownloadIfAvailable:withResult:
+- _objc_msgSend$autoScanOverrideInterval
+- _objc_msgSend$autoScanTimeInterval
+- _objc_msgSend$autoUpdateForceOff
+- _objc_msgSend$autoUpdateForceOn
+- _objc_msgSend$autoUpdateFound:downloadNow:
+- _objc_msgSend$automaticDownloadDidFailToStartForNewUpdateAvailable:withError:
+- _objc_msgSend$automaticallyDownload
+- _objc_msgSend$automaticallyInstallOSUpdates
+- _objc_msgSend$automaticallyInstallSystemAndSecurityUpdates
+- _objc_msgSend$availableRollback
+- _objc_msgSend$badgeSettingsForManualSoftwareUpdate:
+- _objc_msgSend$bannerDelay
+- _objc_msgSend$batteryLevelGreaterThan
+- _objc_msgSend$batteryLevelLessThan
+- _objc_msgSend$beginTransaction:
+- _objc_msgSend$beginTransaction:keepAlive:
+- _objc_msgSend$bgstScheduler
+- _objc_msgSend$bootTime
+- _objc_msgSend$brainLoadAttemptsForDescriptor
+- _objc_msgSend$brainLoadedForDescriptor
+- _objc_msgSend$buddyInitiatedScan
+- _objc_msgSend$buildError:underlying:description:
+- _objc_msgSend$buildSplunkServerURLFromBase:
+- _objc_msgSend$buildVersion
+- _objc_msgSend$buildVersionString
+- _objc_msgSend$cacheDeleteDisableReserveSpace
+- _objc_msgSend$cacheDeletePauseReserveSpace:unentitledSpace:withPurpose:
+- _objc_msgSend$cacheDeleteResumeReserveSpace
+- _objc_msgSend$cacheDeleteSetReserveSpace:systemGrowthMarginSize:
+- _objc_msgSend$callback
+- _objc_msgSend$cancelAlarm:
+- _objc_msgSend$cancelAllAutoDownloadTasks
+- _objc_msgSend$cancelAllAutoInstallTasks
+- _objc_msgSend$cancelAllAutoInstallTasksIncludingStartInstallTask:
+- _objc_msgSend$cancelAllAutoScanTasks
+- _objc_msgSend$cancelAllBackgroundScans
+- _objc_msgSend$cancelAllEmergencyBackgroundScans
+- _objc_msgSend$cancelAutoDownloadTask
+- _objc_msgSend$cancelAutoInstallGetKeybagTask
+- _objc_msgSend$cancelAutoInstallOperation:
+- _objc_msgSend$cancelAutoInstallStartInstallTask
+- _objc_msgSend$cancelAutoInstallUnlockWindowStartTask
+- _objc_msgSend$cancelAutoInstallWindowExpirationTask
+- _objc_msgSend$cancelCurrentScan:
+- _objc_msgSend$cancelCurrentUpdate
+- _objc_msgSend$cancelDDMDeclarationForKey:outError:
+- _objc_msgSend$cancelDownload:userRequested:keepDocAssets:error:
+- _objc_msgSend$cancelInstallAlertRegistration
+- _objc_msgSend$cancelPresentAutoUpdateBanner
+- _objc_msgSend$cancelPreviousPerformRequestsWithTarget:selector:object:
+- _objc_msgSend$cancelSplatFollowUpNotification
+- _objc_msgSend$cancelTask
+- _objc_msgSend$cancelTaskRequestWithIdentifier:error:
+- _objc_msgSend$cancelTimerForRecommendedUpdateNotification
+- _objc_msgSend$carplayState
+- _objc_msgSend$checkAndPostSplatFollowUpIfNeeded
+- _objc_msgSend$checkAvailableSpace
+- _objc_msgSend$checkForAvailableSlowReleaseUpdatesWithPolicy:completion:
+- _objc_msgSend$cleanupAllInstalledAssets:
+- _objc_msgSend$cleanupLevel
+- _objc_msgSend$cleanupNonInstalledDocumentationWithError:
+- _objc_msgSend$cleanupPreviousDownloadState
+- _objc_msgSend$cleanupPreviousDownloadState:
+- _objc_msgSend$clearBadgeAndBanner
+- _objc_msgSend$clearKeepAliveIfNecessary:
+- _objc_msgSend$clearKeybagStash
+- _objc_msgSend$clearTypes
+- _objc_msgSend$clearUnlockCallbacks
+- _objc_msgSend$clearingSpaceForDownload:clearing:
+- _objc_msgSend$clientIsBuddy
+- _objc_msgSend$clientIsDDM
+- _objc_msgSend$clientIsInboxUpdaterd
+- _objc_msgSend$collectDocumentationFor:options:completion:
+- _objc_msgSend$collectDocumentationMetadataWithPolicy:descriptor:downloadDocumentation:completion:
+- _objc_msgSend$combinedUpdatesDeferralPeriod
+- _objc_msgSend$compareRestoreVersion:withRestoreVersion:
+- _objc_msgSend$compareVersionExtra:withVersionExtra:
+- _objc_msgSend$components:fromDate:toDate:options:
+- _objc_msgSend$computAutoDownloadEndDateFromDate:
+- _objc_msgSend$configDownloadSync:
+- _objc_msgSend$consentToAutoInstallOperation:
+- _objc_msgSend$containsBuildVersion:
+- _objc_msgSend$copyAutoInstallOperationForecast:error:
+- _objc_msgSend$copyScheduledActivities
+- _objc_msgSend$copyTransactions
+- _objc_msgSend$core
+- _objc_msgSend$coreAnalyticsManager
+- _objc_msgSend$coreDescriptor
+- _objc_msgSend$coreDescriptorForBuildVersion:versionExtra:isSplombo:
+- _objc_msgSend$coreDescriptorForSUDescriptor:
+- _objc_msgSend$coreMDMPathForSUSPath:
+- _objc_msgSend$corePolicy
+- _objc_msgSend$coreReporter
+- _objc_msgSend$createBrainLoadLockAssertion:
+- _objc_msgSend$createCorePolicy
+- _objc_msgSend$createForecast
+- _objc_msgSend$createInstallationKeybagForDescriptor:withLASecret:forUnattendedInstall:
+- _objc_msgSend$createInstallationKeybagForDescriptor:withSecret:forUnattendedInstall:
+- _objc_msgSend$createPreventLockAssertionWithDuration:
+- _objc_msgSend$createRollbackPolicy
+- _objc_msgSend$createStrategyWithType:delegate:schedulerQueue:
+- _objc_msgSend$criticalOverrideCellularPolicy
+- _objc_msgSend$currentAutoInstallOperationCreatingIfNecessary:error:
+- _objc_msgSend$currentConnection
+- _objc_msgSend$currentDevice
+- _objc_msgSend$currentGlobalSettingsDeclaration
+- _objc_msgSend$currentProductVersionExtra
+- _objc_msgSend$currentSupplementalBuild
+- _objc_msgSend$dataWithCapacity:
+- _objc_msgSend$dataWithContentsOfFile:
+- _objc_msgSend$day
+- _objc_msgSend$ddmManager
+- _objc_msgSend$ddmPersistedError
+- _objc_msgSend$ddmRequestedBuild
+- _objc_msgSend$ddmRequestedPMV
+- _objc_msgSend$declarationForKey:
+- _objc_msgSend$declarationKey
+- _objc_msgSend$defaultAssetDownloadOptionsWithPriority:
+- _objc_msgSend$defaultToOldInactivityPredictor
+- _objc_msgSend$defaultValuesForCoreDescriptor:
+- _objc_msgSend$delayPeriodInDays
+- _objc_msgSend$delegateCallbackQueue
+- _objc_msgSend$delegates
+- _objc_msgSend$deleteAUKeepAliveFile
+- _objc_msgSend$deltaSpaceNeeded
+- _objc_msgSend$deregisterTaskWithIdentifier:
+- _objc_msgSend$descriptorAudienceType
+- _objc_msgSend$descriptorToAutoDownload
+- _objc_msgSend$descriptorToAutoDownload:
+- _objc_msgSend$detectOverriddenNetwork
+- _objc_msgSend$deviceBootedAfterRollback:
+- _objc_msgSend$deviceBootedAfterSplatUpdate
+- _objc_msgSend$deviceIsUpToDate
+- _objc_msgSend$deviceIsUpToDateForSU:forSplat:
+- _objc_msgSend$diag
+- _objc_msgSend$dictionaryRepresentation
+- _objc_msgSend$dictionaryWithContentsOfFile:
+- _objc_msgSend$didScanForType:
+- _objc_msgSend$disableAlternateScan
+- _objc_msgSend$disableAppDemotion
+- _objc_msgSend$disableAutoDownloadJitter
+- _objc_msgSend$disableAutoInstallJitter
+- _objc_msgSend$disableCDCriticalMode
+- _objc_msgSend$disableCDLevel4
+- _objc_msgSend$disableInstallTonight
+- _objc_msgSend$disableKeybagStash
+- _objc_msgSend$disableMASuspension
+- _objc_msgSend$disableManagedRequest
+- _objc_msgSend$disablePreSoftwareUpdateStaging
+- _objc_msgSend$disablePurgeOnNewerUpdateFound
+- _objc_msgSend$disableReserveSpace:
+- _objc_msgSend$disableRollback
+- _objc_msgSend$disableSiriVoiceDeletion
+- _objc_msgSend$disableSoftwareUpdateReserve:
+- _objc_msgSend$disableSplatCombo
+- _objc_msgSend$disableSplombo
+- _objc_msgSend$disarmActivityScheduler
+- _objc_msgSend$disarmInstall
+- _objc_msgSend$discoveryDateForBuildVersion:
+- _objc_msgSend$discoveryDateforBuildVersion:
+- _objc_msgSend$discretionary
+- _objc_msgSend$dismissAutoUpdateBanner
+- _objc_msgSend$dismissFollowUpTypes:
+- _objc_msgSend$dismissInsufficientDiskSpaceFollowupForUpdate:orForce:
+- _objc_msgSend$dismissLegacyFollowUps
+- _objc_msgSend$dismissSplatFollowUp
+- _objc_msgSend$doUnlockEvents
+- _objc_msgSend$documentationDownloadPolicy
+- _objc_msgSend$documentationScanPolicy
+- _objc_msgSend$donateSUErrorToBiome:
+- _objc_msgSend$donateSuccessToBiomeFor:
+- _objc_msgSend$doubleValue
+- _objc_msgSend$downloadAllowableOverCellular
+- _objc_msgSend$downloadAsset
+- _objc_msgSend$downloadCompleted:
+- _objc_msgSend$downloadCompleted:informClients:
+- _objc_msgSend$downloadDescriptor
+- _objc_msgSend$downloadDidFail:withError:
+- _objc_msgSend$downloadDidFinish:withInstallPolicy:
+- _objc_msgSend$downloadDidStart:
+- _objc_msgSend$downloadPreflightPolicy
+- _objc_msgSend$downloadProgress:
+- _objc_msgSend$downloadProgressDidChange:
+- _objc_msgSend$downloadTimeoutSecs
+- _objc_msgSend$downloadUpdate:
+- _objc_msgSend$downloadWasInvalidated:
+- _objc_msgSend$downloadWasInvalidatedForNewUpdatesAvailable:
+- _objc_msgSend$downloadable
+- _objc_msgSend$downloader
+- _objc_msgSend$dumpTracked:dumpingTo:usingFilename:clearingStatistics:clearingHistory:
+- _objc_msgSend$eligibleRollback
+- _objc_msgSend$eligibleRollbackWithOptions:
+- _objc_msgSend$enableAutoInstallSecurityResponse:
+- _objc_msgSend$enableAutoInstallSystemAndDataFiles:
+- _objc_msgSend$enableGlobalNotifications
+- _objc_msgSend$enablePreSUStaging
+- _objc_msgSend$enablePreSUStagingForOptionalAssets
+- _objc_msgSend$enablePrecisePreSUStaging
+- _objc_msgSend$enableRapidSecurityResponse
+- _objc_msgSend$enableRapidSecurityResponseRollback
+- _objc_msgSend$enableTransactions
+- _objc_msgSend$endAutoDownloadTasksAndResetState
+- _objc_msgSend$endTransaction:
+- _objc_msgSend$endowmentNamespaces
+- _objc_msgSend$enforcedInstallDate
+- _objc_msgSend$enforcedSoftwareUpdateDelayInDays
+- _objc_msgSend$engine
+- _objc_msgSend$engineFSM
+- _objc_msgSend$engineLog
+- _objc_msgSend$engineName
+- _objc_msgSend$ensureSSOTokenIfNeededForDownload:
+- _objc_msgSend$ensureSSOTokenIfNeededForInstall:
+- _objc_msgSend$errorWithExtendedUserInfoFromOptions:
+- _objc_msgSend$estimatedTimeRemaining
+- _objc_msgSend$eventRecordingServiceURL:
+- _objc_msgSend$existingExtensionOfClass:inPolicy:
+- _objc_msgSend$exitExclusiveControl
+- _objc_msgSend$extendedStateQueue
+- _objc_msgSend$externWorkQueue
+- _objc_msgSend$failedToAutoInstallError
+- _objc_msgSend$fakeInstallFailure
+- _objc_msgSend$fakeOTA
+- _objc_msgSend$fastWorkQueue
+- _objc_msgSend$fetchInstallHistory
+- _objc_msgSend$fetchLatestEntry
+- _objc_msgSend$findsAnyUpdate
+- _objc_msgSend$fireDate
+- _objc_msgSend$flushEvent
+- _objc_msgSend$followupEvent:withInfo:
+- _objc_msgSend$fullyUnrampedDateForBuildVersion:
+- _objc_msgSend$gameModeChangedTo:
+- _objc_msgSend$getActiveDDMDeclarationEnforcedSUWithResponse:
+- _objc_msgSend$getActivityForName:
+- _objc_msgSend$getAssetTypeForKind:usingFamily:
+- _objc_msgSend$getConfig
+- _objc_msgSend$getDDMGlobalSettingsWithError:
+- _objc_msgSend$getDescriptorWithCallback:
+- _objc_msgSend$getExpectedRunDateForActivity:
+- _objc_msgSend$getInstallationConstraintsForDownload:allowDiskCleanupIfNeeded:forceDiskCleanupIfNeeded:options:
+- _objc_msgSend$getInstallationConstraintsForDownload:allowDiskCleanupIfNeeded:forceDiskCleanupIfNeeded:options:completionQueue:completion:
+- _objc_msgSend$getLocalUrl
+- _objc_msgSend$getMASoftwareUpdateAsset
+- _objc_msgSend$getNumberConfigForKey:
+- _objc_msgSend$globalOptions
+- _objc_msgSend$goNonDiscretionaryOnDownload
+- _objc_msgSend$goUnderExclusiveControl
+- _objc_msgSend$handleActiveScanTaskScanCompletionWithPreferredPrimaryDescriptor:preferredSecondaryDescriptor:alternatePrimaryDescriptor:alternateSecondaryDescriptor:scanOptions:error:
+- _objc_msgSend$handleAutoInstallStart:info:
+- _objc_msgSend$handleClientRequest:client:withRequestCallBack:withErrorCallBack:
+- _objc_msgSend$handleDDMDeclaration:outError:
+- _objc_msgSend$handleForIdentifier:error:
+- _objc_msgSend$handleForPredicate:error:
+- _objc_msgSend$handleUIForDDMDeclaration:
+- _objc_msgSend$handleUIForDDMGlobalSettings:
+- _objc_msgSend$hasManagedConfigurations
+- _objc_msgSend$hasSemiSplatActive
+- _objc_msgSend$historyTracker
+- _objc_msgSend$identity
+- _objc_msgSend$inGameMode
+- _objc_msgSend$inUserInteraction:
+- _objc_msgSend$inboxUpdaterdInitiatedScan
+- _objc_msgSend$init:options:handler:
+- _objc_msgSend$initFileURLWithPath:
+- _objc_msgSend$initMachine:withTable:startingIn:usingDelegate:registeringAllInfoClass:
+- _objc_msgSend$initStoringToPath:
+- _objc_msgSend$initUsingSUCoreXPCActivityManager:coreScheduler:serverConfigManager:schedulerQueue:manager:autoInstallManager:gameModeMonitor:
+- _objc_msgSend$initWithActivityName:options:
+- _objc_msgSend$initWithAsset:releaseDate:sessionID:scanOptions:downloadOptions:installTonightConfig:coreDescriptor:downloadAtPhase:cleanupLevel:
+- _objc_msgSend$initWithBasePath:
+- _objc_msgSend$initWithCategory:
+- _objc_msgSend$initWithConnection:
+- _objc_msgSend$initWithContentIdentifier:context:osBuild:userInfo:
+- _objc_msgSend$initWithContentsOfFile:
+- _objc_msgSend$initWithCore:
+- _objc_msgSend$initWithDelegate:options:
+- _objc_msgSend$initWithDelegate:schedulerQueue:
+- _objc_msgSend$initWithDelegate:schedulerQueue:bgstScheduler:
+- _objc_msgSend$initWithDelegate:updateDescriptor:updateUUID:
+- _objc_msgSend$initWithDescriptor:andError:
+- _objc_msgSend$initWithDictionary:copyItems:
+- _objc_msgSend$initWithDownloadDescriptor:
+- _objc_msgSend$initWithDownloadOptions:
+- _objc_msgSend$initWithError:
+- _objc_msgSend$initWithError:buildNumber:
+- _objc_msgSend$initWithFormat:
+- _objc_msgSend$initWithGlobalOptions:
+- _objc_msgSend$initWithHandler:updateName:dueDate:
+- _objc_msgSend$initWithIdentifier:
+- _objc_msgSend$initWithInstallOptions:
+- _objc_msgSend$initWithLocalBundleURL:attributes:
+- _objc_msgSend$initWithMachServiceName:
+- _objc_msgSend$initWithManager:
+- _objc_msgSend$initWithMetadata:andDescriptor:
+- _objc_msgSend$initWithOptions:
+- _objc_msgSend$initWithPreferredDescriptor:alternateDescriptor:
+- _objc_msgSend$initWithProgress:
+- _objc_msgSend$initWithProjectName:
+- _objc_msgSend$initWithPurgeOptions:withError:
+- _objc_msgSend$initWithRollback:
+- _objc_msgSend$initWithRollback:withError:
+- _objc_msgSend$initWithRollbackOptions:
+- _objc_msgSend$initWithSUCoreDocumentation:
+- _objc_msgSend$initWithScanOptions:
+- _objc_msgSend$initWithSkipPreSUStagingPurge:
+- _objc_msgSend$initWithSoftwareUpdateAssetType:documentationAssetType:usingPolicies:usingExtensions:
+- _objc_msgSend$initWithStatePersistencePath:
+- _objc_msgSend$initWithUUID:
+- _objc_msgSend$installCompleted:
+- _objc_msgSend$installDidFinish:
+- _objc_msgSend$installDidStart:
+- _objc_msgSend$installPolicyDidChange:
+- _objc_msgSend$installReasonForClientName:
+- _objc_msgSend$installServerSettings
+- _objc_msgSend$installTonightConfig
+- _objc_msgSend$installTonightConfigDictionary
+- _objc_msgSend$installTonightScheduled:
+- _objc_msgSend$installTonightScheduled:operationID:
+- _objc_msgSend$installWantsToStart:completion:
+- _objc_msgSend$installer
+- _objc_msgSend$invalidateAllInvalidDeclarationsReturningAllInvalid
+- _objc_msgSend$invalidateDeclarationForKey:
+- _objc_msgSend$invokeSSOAuth
+- _objc_msgSend$isActivityScheduled:
+- _objc_msgSend$isActivityTrackedButUnsheduled:
+- _objc_msgSend$isAppOffloadEnabled
+- _objc_msgSend$isApplication
+- _objc_msgSend$isArmed
+- _objc_msgSend$isAutoDownloadDisabled
+- _objc_msgSend$isAutoInstallOperationReadyToBegin
+- _objc_msgSend$isAutoInstallTaskScheduled
+- _objc_msgSend$isAutoSUDisabled
+- _objc_msgSend$isAutoUpdateEnabled
+- _objc_msgSend$isBootedOSSecureInternal
+- _objc_msgSend$isBrainNetworkError:
+- _objc_msgSend$isBrainReloadError:
+- _objc_msgSend$isBuddyRunning
+- _objc_msgSend$isCacheDeleteCriticalModeEnabled
+- _objc_msgSend$isCatalogNotFound
+- _objc_msgSend$isClearingSpace
+- _objc_msgSend$isCurrentNetworkTypeCellular
+- _objc_msgSend$isCurrentUpdateAutoUpdate
+- _objc_msgSend$isDealyingUpdates
+- _objc_msgSend$isDelayingUpdates
+- _objc_msgSend$isDescriptorAutoDownloadable:
+- _objc_msgSend$isDescriptorAutoUpdatable:
+- _objc_msgSend$isDeviceEnrolledInBetaProgram:completion:
+- _objc_msgSend$isDownloadHalted
+- _objc_msgSend$isDownloadableForCurrentNetworkConditions:cellularFeesApply:
+- _objc_msgSend$isEmergencyOnlyScan
+- _objc_msgSend$isEnabledForExpensiveNetwork
+- _objc_msgSend$isEqualToDescriptor:
+- _objc_msgSend$isEqualToDictionary:
+- _objc_msgSend$isExclusiveClient
+- _objc_msgSend$isForeground
+- _objc_msgSend$isInBoxUpdateMode
+- _objc_msgSend$isInBoxUpdateMode:
+- _objc_msgSend$isInPalletUpdateMode
+- _objc_msgSend$isInPalletUpdateMode:
+- _objc_msgSend$isInstallRetrying
+- _objc_msgSend$isInstallTonight
+- _objc_msgSend$isInstallTonightScheduled
+- _objc_msgSend$isInstallerReadyForInstallationWithOptions:error:ShouldRetry:
+- _objc_msgSend$isInstalling
+- _objc_msgSend$isKeepAliveEnabled
+- _objc_msgSend$isMASuspensionEnabled
+- _objc_msgSend$isMajorOSUpdate:
+- _objc_msgSend$isManagedByDDM
+- _objc_msgSend$isManagedByMDM
+- _objc_msgSend$isMessagable
+- _objc_msgSend$isMinorOSUpdate:
+- _objc_msgSend$isNoMatchingUpdateFound
+- _objc_msgSend$isPMVRequested
+- _objc_msgSend$isRapidSecurityResponseInstallationAllowed
+- _objc_msgSend$isRapidSecurityResponseRemovalAllowed
+- _objc_msgSend$isReadyForDownload:ignoreExistingDownload:error:
+- _objc_msgSend$isRelevantToDeclaration:
+- _objc_msgSend$isReturnToServiceModeActive
+- _objc_msgSend$isRevokedSplat
+- _objc_msgSend$isRollingBack
+- _objc_msgSend$isScanning
+- _objc_msgSend$isSoftwareUpdateResisted
+- _objc_msgSend$isSpecial
+- _objc_msgSend$isSplatDownload
+- _objc_msgSend$isSplatOnlyScan
+- _objc_msgSend$isSplatOnlyUpdateRollbackSuggested
+- _objc_msgSend$isSplatRollbackAllowed:
+- _objc_msgSend$isSplatRollbackDirectoryPresent
+- _objc_msgSend$isSplatRollbackEnabled
+- _objc_msgSend$isStalled
+- _objc_msgSend$isUpToDate
+- _objc_msgSend$isUpdateDownloaded
+- _objc_msgSend$isUpdateReadyForInstallationWithOptions:replyHandler:
+- _objc_msgSend$isVPNActive
+- _objc_msgSend$isValid
+- _objc_msgSend$isValidDownload
+- _objc_msgSend$killDownload:userRequested:keepDocAssets:error:
+- _objc_msgSend$killDownload:userRequested:keepDocAssets:forUpdates:error:
+- _objc_msgSend$lastRollbackDescriptor
+- _objc_msgSend$lastScannedDescriptorScanOptions
+- _objc_msgSend$lastScannedMatchScanOptions:
+- _objc_msgSend$lastSentOTAPostponedDate
+- _objc_msgSend$lastStashbagPersistedDate
+- _objc_msgSend$listenForConfigChanges:withName:
+- _objc_msgSend$loadBrainForDescriptor
+- _objc_msgSend$loadBrainHelper:
+- _objc_msgSend$loadBrainOnUnlock
+- _objc_msgSend$loadBrainOnUnlockForDescriptor:
+- _objc_msgSend$loadBrainPolicy
+- _objc_msgSend$loadBrainRetries
+- _objc_msgSend$loadPlugin:
+- _objc_msgSend$loadSavedState
+- _objc_msgSend$loadUpdateBrainWithMAOptions:progressHandler:
+- _objc_msgSend$mainRunLoop
+- _objc_msgSend$mainWorkQueue
+- _objc_msgSend$makeRoomForUpdate:completion:
+- _objc_msgSend$managedDeviceManager
+- _objc_msgSend$managedInstallRequested
+- _objc_msgSend$managedInstallationRequested:
+- _objc_msgSend$manager
+- _objc_msgSend$managerDelegate
+- _objc_msgSend$mandatorySUFlags
+- _objc_msgSend$mandatoryUpdateDictionary
+- _objc_msgSend$matchesDescriptor:comparisonFlags:reason:
+- _objc_msgSend$matchesScanResults:
+- _objc_msgSend$mdmCommandConflictsWithDDM:
+- _objc_msgSend$mediaPlayingState
+- _objc_msgSend$mobileAssetResumeFromSuspension
+- _objc_msgSend$modifyPolicy:forTypes:
+- _objc_msgSend$monitorClientStateIfNecessary
+- _objc_msgSend$monitorOfClass:
+- _objc_msgSend$monitorWithConfiguration:
+- _objc_msgSend$msuPrepareSize
+- _objc_msgSend$needToWaitForUnlockForLoadingBrainForDescriptor:
+- _objc_msgSend$needsClientSideJitteringForAutoInstall
+- _objc_msgSend$networkState
+- _objc_msgSend$newInstallTonightConfig
+- _objc_msgSend$newOSBuildDetected:
+- _objc_msgSend$nextScheduledAutoScan
+- _objc_msgSend$noteAutoDownloadFailedToStart:withError:
+- _objc_msgSend$noteAutoDownloadFailedToStartWithError:
+- _objc_msgSend$noteAutoInstallOperationDidExpire
+- _objc_msgSend$noteAutoInstallOperationUnlockWindowDidBegin
+- _objc_msgSend$noteAutoInstallOperationWantsToBeginWithSchedulerName:
+- _objc_msgSend$notifyAfter
+- _objc_msgSend$notifyClientForRecommendedUpdate:shouldPresent:
+- _objc_msgSend$notifyClientOfClearingSpace:
+- _objc_msgSend$notifyRollbackStarted:
+- _objc_msgSend$notifyScanDidComplete:options:error:
+- _objc_msgSend$notifyScanRequestDidFinish:results:error:
+- _objc_msgSend$notifyScanRequestDidStart:
+- _objc_msgSend$numberWithDouble:
+- _objc_msgSend$numberWithUnsignedChar:
+- _objc_msgSend$object
+- _objc_msgSend$onUnlock
+- _objc_msgSend$operationModel
+- _objc_msgSend$operatorName
+- _objc_msgSend$options
+- _objc_msgSend$oslog
+- _objc_msgSend$overrideDocumentationPath
+- _objc_msgSend$overrideSessionIDRampingPortion
+- _objc_msgSend$overrideSoftwareUpdateReserve:systemGrowthMarginSize:
+- _objc_msgSend$paramType
+- _objc_msgSend$passcodePolicy
+- _objc_msgSend$pendingPurgeParams
+- _objc_msgSend$performSelector:
+- _objc_msgSend$performSelector:withObject:afterDelay:
+- _objc_msgSend$persistKeybagStash
+- _objc_msgSend$persistStashOnUnlock
+- _objc_msgSend$phaseToString:
+- _objc_msgSend$phoneCallState
+- _objc_msgSend$pid
+- _objc_msgSend$plugInState
+- _objc_msgSend$policyExtensions
+- _objc_msgSend$policyFactory
+- _objc_msgSend$portionComplete
+- _objc_msgSend$postEvent:withInfo:
+- _objc_msgSend$postNotificationName:object:
+- _objc_msgSend$predicateMatchingBundleIdentifier:
+- _objc_msgSend$predicateMatchingHandle:
+- _objc_msgSend$preferredAssetToDownloadFromLastScan
+- _objc_msgSend$preferredLastScannedDescriptor
+- _objc_msgSend$preferredUpdateType
+- _objc_msgSend$preparePolicy
+- _objc_msgSend$presentRollbackSuggestionAlertWithDescriptor:info:
+- _objc_msgSend$presentRollbackSuggestionFollowUpWithCoreDescriptor:info:
+- _objc_msgSend$presentRollbackSuggestionFollowUpWithRollbackDescriptor:info:
+- _objc_msgSend$presentingRecommendedUpdate:shouldPresent:
+- _objc_msgSend$previousRollback
+- _objc_msgSend$previousRollbackWithOptions:
+- _objc_msgSend$previousUpdateState:tetheredRestore:failedBackward:failedForward:
+- _objc_msgSend$profileChanged
+- _objc_msgSend$proxy
+- _objc_msgSend$purgeOptionsForDescriptor:downloadOptions:completionQueue:
+- _objc_msgSend$purgeOptionsForDownloadOptions:spaceNeeded:completionQueue:
+- _objc_msgSend$queryCustomerBuilds
+- _objc_msgSend$recommendationCadence
+- _objc_msgSend$recommendedCadence
+- _objc_msgSend$recommendedDescriptor:
+- _objc_msgSend$recommendedUpdateApplicable
+- _objc_msgSend$recommendedUpdateInterval
+- _objc_msgSend$recommendedUpdateNotificationFrequencyDays
+- _objc_msgSend$recordAutoScanAndDownloadIfAvailable:downloadNow:fromClient:
+- _objc_msgSend$recordDownloadCompleted:withError:
+- _objc_msgSend$recordDownloadStarted:fromClient:
+- _objc_msgSend$recordInstallCompleted:
+- _objc_msgSend$recordInstallStarted:withDownload:
+- _objc_msgSend$recordRollbackCompleted:withError:
+- _objc_msgSend$recordRollbackStarted:
+- _objc_msgSend$recordScanComplete:downloadNow:withError:
+- _objc_msgSend$recordScanForUpdates:fromClient:
+- _objc_msgSend$refreshAssetAudience
+- _objc_msgSend$refreshConstraints
+- _objc_msgSend$refreshInstallTonightConfig:
+- _objc_msgSend$refreshInstallationSize
+- _objc_msgSend$registerForTaskWithIdentifier:usingQueue:launchHandler:
+- _objc_msgSend$registerInstallAlertConditionsWithHandler:
+- _objc_msgSend$registerProfileChangeListener
+- _objc_msgSend$reloadDescriptor:allowingDifferences:forceReload:defaultValues:completion:
+- _objc_msgSend$reloadDescriptor:allowingDifferences:forceReload:skipMSU:defaultValues:completion:
+- _objc_msgSend$removeAllAssetsOfType:completion:
+- _objc_msgSend$removeAllUpdateContentWithPolicy:completion:
+- _objc_msgSend$removeClient:
+- _objc_msgSend$removeCompleted:
+- _objc_msgSend$removeDeclarationForKey:
+- _objc_msgSend$removeDelegate:
+- _objc_msgSend$removeDiscoveryDateForBuildVersion:
+- _objc_msgSend$removeFullyUnrampedDateForBuildVersion:
+- _objc_msgSend$removeGlobalSettingsDeclaration
+- _objc_msgSend$removeListener:
+- _objc_msgSend$removeObjectForKey:
+- _objc_msgSend$removePolicyExtensionOfClass:forPolicy:
+- _objc_msgSend$removeUnlockCallback:
+- _objc_msgSend$removeUpdateKeepingDocAssets:
+- _objc_msgSend$reportCoreAnalyticsOTAAbandonedEvent:
+- _objc_msgSend$reportCoreAnalyticsOTAAvailableEvent:
+- _objc_msgSend$reportCoreAnalyticsOTADownloadedEvent
+- _objc_msgSend$reportOTAAbandonedEventWithError:
+- _objc_msgSend$reportOTAAbandonedEventWithError:additionalMetrics:
+- _objc_msgSend$reportOTAAutoTriggeredEventWithAdditionalMetrics:
+- _objc_msgSend$reportOTAAvailableEvent:
+- _objc_msgSend$reportOTADownloadedEvent:
+- _objc_msgSend$reportOTAInstalledEvent
+- _objc_msgSend$reportPostponedEvent:withStatus:
+- _objc_msgSend$reportPostponedEvent:withStatus:withAdditionalMetrics:
+- _objc_msgSend$reportRSRRollbackSuggestedEventWithDescriptor:rollbackSuggestionInfo:
+- _objc_msgSend$reportRSRRollbackSuggestedEventWithRollbackDescriptor:rollbackSuggestionInfo:
+- _objc_msgSend$reportSimulatedOTAAutoTriggeredEventWithAdditionalMetrics:
+- _objc_msgSend$reportStartedFromPersistedState
+- _objc_msgSend$reporterFlushEvent
+- _objc_msgSend$requireSameAssetTypeAndAssetId
+- _objc_msgSend$requiresPowerPluggedIn
+- _objc_msgSend$resetAllHistory
+- _objc_msgSend$resetDownloadState
+- _objc_msgSend$resetDownloadStateOnCleanActivation
+- _objc_msgSend$resetDownloadStateOnStartup
+- _objc_msgSend$resetPhase
+- _objc_msgSend$resetPolicy
+- _objc_msgSend$restrictToFull
+- _objc_msgSend$restrictToIncremental
+- _objc_msgSend$resume
+- _objc_msgSend$resumeOrDisableReserveSpace
+- _objc_msgSend$resumeOrResetIfNecessary
+- _objc_msgSend$resumeOrResetStateIfNecessary
+- _objc_msgSend$resumePolicy
+- _objc_msgSend$revoked
+- _objc_msgSend$revokedUpdateFound:
+- _objc_msgSend$rollback
+- _objc_msgSend$rollbackAvailable
+- _objc_msgSend$rollbackCompleted:withError:
+- _objc_msgSend$rollbackDescriptorForSUCoreRollbackDescriptor:
+- _objc_msgSend$rollbackDidFail:withError:
+- _objc_msgSend$rollbackDidFinish:
+- _objc_msgSend$rollbackDidStart:
+- _objc_msgSend$rollbackOptions
+- _objc_msgSend$rollbackPolicy
+- _objc_msgSend$rollbackReadyForReboot
+- _objc_msgSend$rollbackReadyForReboot:
+- _objc_msgSend$rollbackReadyToStart:options:completion:
+- _objc_msgSend$rollbackRebootLaterTime
+- _objc_msgSend$rollbackStarted:
+- _objc_msgSend$rollbackSucceeded:
+- _objc_msgSend$rollbackSuggested:info:
+- _objc_msgSend$rollbackSuggestionReasonFromSUReason:
+- _objc_msgSend$rollbackUpdateWithOptions:
+- _objc_msgSend$rollbackUpdateWithOptions:completion:
+- _objc_msgSend$rsepTBMDigests
+- _objc_msgSend$runDate
+- _objc_msgSend$runOnClients:
+- _objc_msgSend$runOnClientsUntilStop:
+- _objc_msgSend$safeStringForKey:
+- _objc_msgSend$scanAsIfBuildVersion
+- _objc_msgSend$scanAsIfProductVersion
+- _objc_msgSend$scanAsIfRestoreVersion
+- _objc_msgSend$scanCompleted:alternateDescriptor:scanOptions:error:
+- _objc_msgSend$scanDidCompleteForOptions:results:error:
+- _objc_msgSend$scanDidCompleteWithNewUpdateAvailable:error:
+- _objc_msgSend$scanForDocumentationAssetWithDescriptor:completion:
+- _objc_msgSend$scanForSUAssetWithCompletion:
+- _objc_msgSend$scanForUpdates:complete:
+- _objc_msgSend$scanOptions
+- _objc_msgSend$scanPolicy
+- _objc_msgSend$scanPriority
+- _objc_msgSend$scanRequestDidFinishForOptions:results:error:
+- _objc_msgSend$scanRequestDidFinishForOptions:update:error:
+- _objc_msgSend$scanRequestDidStartForOptions:
+- _objc_msgSend$scanResultIsUpToDateWithAlternate:
+- _objc_msgSend$scanResultsChangedSinceLastScan:preferredUpdateNewlyDiscovered:alternateUpdateNewlyDiscovered:preferredUpdateChanged:alternateUpdateChanged:preferredWasAlternate:alternateWasPreferred:
+- _objc_msgSend$scanResultsForSUCoreScanResults:
+- _objc_msgSend$scanTypeForActivityName:
+- _objc_msgSend$scanUUID
+- _objc_msgSend$scanner
+- _objc_msgSend$scheduleActivity:
+- _objc_msgSend$scheduleActivity:withHandler:
+- _objc_msgSend$scheduleAlarm:date:
+- _objc_msgSend$scheduleAllAutoInstallUpdateTasks:descriptor:
+- _objc_msgSend$scheduleAnalyticsSubmission:
+- _objc_msgSend$scheduleAnalyticsSubmissionIfNecessary
+- _objc_msgSend$scheduleAutoDownloadIfNecessary
+- _objc_msgSend$scheduleAutoDownloadWithDate:requirePower:minimumPowerRquirement:
+- _objc_msgSend$scheduleAutoInstallExpirationTask:
+- _objc_msgSend$scheduleAutoInstallGetKeybagTaskForDescriptor:
+- _objc_msgSend$scheduleAutoInstallStartInstallTask:descriptor:
+- _objc_msgSend$scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:
+- _objc_msgSend$scheduleAutoInstallUnlockWindowStartTask:
+- _objc_msgSend$scheduleBackgroundScan:
+- _objc_msgSend$scheduleBackgroundScan:scanDate:
+- _objc_msgSend$scheduleBackgroundScanIfNecessary:scanType:
+- _objc_msgSend$scheduleInstallAlertRegistration:
+- _objc_msgSend$schedulePresentAutoUpdateBanner
+- _objc_msgSend$scheduleRecommendedUpdateFromResults:
+- _objc_msgSend$scheduleRecommendedUpdateNotification:
+- _objc_msgSend$scheduleRollbackReboot:
+- _objc_msgSend$scheduleSimulatedAutoInstallTask
+- _objc_msgSend$scheduleSimulatedAutoInstallTaskWithHandler:
+- _objc_msgSend$scheduleSplatFollowUpDate:
+- _objc_msgSend$scheduleSplatFollowUpNotification:
+- _objc_msgSend$scheduleStartupTasksIfNecessary
+- _objc_msgSend$schedulerQueue
+- _objc_msgSend$screenOnState
+- _objc_msgSend$selectDescriptor:
+- _objc_msgSend$sendDDMDeclarationToUI:
+- _objc_msgSend$sendDDMGlobalSettingsToUI:
+- _objc_msgSend$sendEvent:
+- _objc_msgSend$sendEvent:toServerURL:
+- _objc_msgSend$sendUnlockNotifications:
+- _objc_msgSend$sepTBMDigests
+- _objc_msgSend$serverConfigManager
+- _objc_msgSend$serverConfigManager:configValuesChanged:
+- _objc_msgSend$serverInitAndResumeWork
+- _objc_msgSend$servingPlmn
+- _objc_msgSend$setActivated:
+- _objc_msgSend$setActivating:
+- _objc_msgSend$setActiveDeclarationKey:
+- _objc_msgSend$setActiveDownloadPolicy:
+- _objc_msgSend$setActiveScanTask:
+- _objc_msgSend$setAdditionalOptions:
+- _objc_msgSend$setAllowSameRestoreVersion:
+- _objc_msgSend$setAllowSameVersion:
+- _objc_msgSend$setAllowsCellular:
+- _objc_msgSend$setAlternateAssetAudienceUUID:
+- _objc_msgSend$setAlternateLastScannedDescriptor:
+- _objc_msgSend$setAsset:
+- _objc_msgSend$setAssetAudience:
+- _objc_msgSend$setAssociatedSplatDescriptor:
+- _objc_msgSend$setAtPhase:
+- _objc_msgSend$setAutoInstallActivityStateDone
+- _objc_msgSend$setAutoInstallStrategy:
+- _objc_msgSend$setAutoInstallTask:
+- _objc_msgSend$setAutoInstallTaskExpiredByDAS:
+- _objc_msgSend$setAutoinstallActivity:
+- _objc_msgSend$setBaseApplyOptions:
+- _objc_msgSend$setBaseRollbackOptions:
+- _objc_msgSend$setBatteryLevelGreaterThan:
+- _objc_msgSend$setBatteryLevelLessThan:
+- _objc_msgSend$setBrainLoadAttemptsForDescriptor:
+- _objc_msgSend$setBrainLoadedForDescriptor:
+- _objc_msgSend$setBypassBatteryAging:
+- _objc_msgSend$setCacheable:
+- _objc_msgSend$setCallback:
+- _objc_msgSend$setCarplayState:
+- _objc_msgSend$setCheckAvailableSpace:
+- _objc_msgSend$setCleanupLevel:
+- _objc_msgSend$setClearingSpace:
+- _objc_msgSend$setCoreDescriptor:
+- _objc_msgSend$setDDMGlobalSettings:outError:
+- _objc_msgSend$setDdmPersistedErrorDescription:
+- _objc_msgSend$setDdmRequestedBuild:
+- _objc_msgSend$setDdmRequestedPMV:
+- _objc_msgSend$setDefaultDescriptorValues:
+- _objc_msgSend$setDelayPeriodSecs:
+- _objc_msgSend$setDisableAlternateUpdate:
+- _objc_msgSend$setDiscoveryDate:forBuildVersion:
+- _objc_msgSend$setDocumentationAssetType:
+- _objc_msgSend$setDownload:
+- _objc_msgSend$setDownloadAsset:
+- _objc_msgSend$setDownloadDescriptor:
+- _objc_msgSend$setDownloadTimeoutSecs:
+- _objc_msgSend$setDownloading:
+- _objc_msgSend$setEnablePreSUStaging:
+- _objc_msgSend$setEnablePreSUStagingForOptionalAssets:
+- _objc_msgSend$setEnablePrecisePreSUStaging:
+- _objc_msgSend$setEndowmentNamespaces:
+- _objc_msgSend$setError:
+- _objc_msgSend$setExpirationHandler:
+- _objc_msgSend$setForeground:
+- _objc_msgSend$setFullyUnrampedDate:forBuildVersion:
+- _objc_msgSend$setGlobalOptions:
+- _objc_msgSend$setGoNonDiscretionaryOnDownload:
+- _objc_msgSend$setHoldsWiFiAssertion:
+- _objc_msgSend$setInstallOptions:
+- _objc_msgSend$setInstallRetrying:
+- _objc_msgSend$setInstallTonightConfig:
+- _objc_msgSend$setInstalledSplatBuildVersion:
+- _objc_msgSend$setInstalledSplatProductVersion:
+- _objc_msgSend$setInstalledSplatReleaseType:
+- _objc_msgSend$setInstalledSplatRestoreVersion:
+- _objc_msgSend$setInstalling:
+- _objc_msgSend$setIsInstallTonight:
+- _objc_msgSend$setIsInstallTonightScheduled:
+- _objc_msgSend$setKeepAliveClearable:
+- _objc_msgSend$setLastStashbagPersistedDate:
+- _objc_msgSend$setLiveAssetAudienceUUID:
+- _objc_msgSend$setLoadBrainForDescriptor:
+- _objc_msgSend$setLoadBrainRetries:
+- _objc_msgSend$setMDMShowRapidSecurityResponse:
+- _objc_msgSend$setMDMUseDelayPeriod:
+- _objc_msgSend$setMandatoryUpdateDictionary:
+- _objc_msgSend$setMayRebootDevice:
+- _objc_msgSend$setMdmSoftwareUpdatePath:
+- _objc_msgSend$setMediaPlayingState:
+- _objc_msgSend$setNetworkState:
+- _objc_msgSend$setPasscodePolicy:
+- _objc_msgSend$setPendingPurgeParams:
+- _objc_msgSend$setPerformPhase:
+- _objc_msgSend$setPhoneCallState:
+- _objc_msgSend$setPlugInState:
+- _objc_msgSend$setPolicy:
+- _objc_msgSend$setPolicyExtension:forPolicy:
+- _objc_msgSend$setPolicyExtensions:
+- _objc_msgSend$setPolicyFactory:
+- _objc_msgSend$setPreSUStagingPlatformAssetType:
+- _objc_msgSend$setPredicates:
+- _objc_msgSend$setPreferredLastScannedDescriptor:
+- _objc_msgSend$setPrerequisiteBuildVersion:
+- _objc_msgSend$setPrerequisiteProductVersion:
+- _objc_msgSend$setPrerequisiteRestoreVersion:
+- _objc_msgSend$setPreventsDeviceSleep:
+- _objc_msgSend$setPrimaryDescriptor:
+- _objc_msgSend$setPriority:
+- _objc_msgSend$setRampingScanType:
+- _objc_msgSend$setRandomInitialDelay:
+- _objc_msgSend$setRequestedBuild:
+- _objc_msgSend$setRequestedPMV:
+- _objc_msgSend$setRequiresExternalPower:
+- _objc_msgSend$setRequiresInexpensiveAccess:
+- _objc_msgSend$setRequiresMinimumBatteryLevel:
+- _objc_msgSend$setRequiresNetworkConnectivity:
+- _objc_msgSend$setRequiresPowerPluggedIn:
+- _objc_msgSend$setRequiresUserInactivity:
+- _objc_msgSend$setReserveSpaceSizeOverride:
+- _objc_msgSend$setResetDownloadStateOnCleanActivation:
+- _objc_msgSend$setRestrictToFull:
+- _objc_msgSend$setRestrictToIncremental:
+- _objc_msgSend$setResults:
+- _objc_msgSend$setRollbackOptions:
+- _objc_msgSend$setRollbackValue:forKey:count:event:
+- _objc_msgSend$setRunDate:
+- _objc_msgSend$setScanOptions:
+- _objc_msgSend$setScanning:
+- _objc_msgSend$setScheduleAfter:
+- _objc_msgSend$setScreenOnState:
+- _objc_msgSend$setSessionId:
+- _objc_msgSend$setSkipCancelPreviousUpdate:
+- _objc_msgSend$setSkipPhase:
+- _objc_msgSend$setSoftwareUpdateReserveSize:
+- _objc_msgSend$setSsoToken:
+- _objc_msgSend$setStateDescriptor:
+- _objc_msgSend$setSuggestedRollbackSplatVersion:
+- _objc_msgSend$setSystemGrowthMarginOverride:
+- _objc_msgSend$setSystemGrowthMarginSize:
+- _objc_msgSend$setTaskCompleted
+- _objc_msgSend$setTaskExpiredWithRetryAfter:error:
+- _objc_msgSend$setUpdateControl:
+- _objc_msgSend$setUpdateHandler:
+- _objc_msgSend$setUpdateMetricContext:
+- _objc_msgSend$setUpdateMetricEventFieldsFromDictionary:
+- _objc_msgSend$setUseReserveSpace:
+- _objc_msgSend$setUseStatisticalModelForTriggersRestart:
+- _objc_msgSend$setUserAgentString:
+- _objc_msgSend$setUserInitiated:
+- _objc_msgSend$setValues:
+- _objc_msgSend$setWaking:
+- _objc_msgSend$setWifiState:
+- _objc_msgSend$setWorkoutState:
+- _objc_msgSend$setupTimerForRecommendedUpdateNotification:
+- _objc_msgSend$sharedController
+- _objc_msgSend$sharedMonitor
+- _objc_msgSend$sharedScheduler
+- _objc_msgSend$sharedServerSettings
+- _objc_msgSend$sharedSystemPathMonitor
+- _objc_msgSend$shortDescription
+- _objc_msgSend$shouldDeferAutoInstall
+- _objc_msgSend$shouldDelayUpdates
+- _objc_msgSend$shouldFallbackToCustomerScan
+- _objc_msgSend$shouldHideInstallAlertForCoreDescriptor:
+- _objc_msgSend$shouldPresentUpdate:options:
+- _objc_msgSend$shouldShowRollbackSuggestionAlert:error:
+- _objc_msgSend$showInsufficientDiskSpaceFollowupForUpdate:
+- _objc_msgSend$skipDocAssetsPurge
+- _objc_msgSend$skipPhase
+- _objc_msgSend$skipPreSUStagingAssetsPurge
+- _objc_msgSend$softwareUpdateAssetType
+- _objc_msgSend$softwareUpdateAutoScanInterval
+- _objc_msgSend$softwareUpdateDownloadPolicy
+- _objc_msgSend$softwareUpdatePath
+- _objc_msgSend$softwareUpdatePathRestriction
+- _objc_msgSend$softwareUpdateReserveSize
+- _objc_msgSend$softwareUpdateReserveSizes
+- _objc_msgSend$softwareUpdateScanPolicy
+- _objc_msgSend$softwareUpdateTypeForDescriptor:
+- _objc_msgSend$source
+- _objc_msgSend$splatBuildVersion
+- _objc_msgSend$splatFollowUpDelayOverride
+- _objc_msgSend$splatOnly
+- _objc_msgSend$splatProductVersion
+- _objc_msgSend$splatReleaseType
+- _objc_msgSend$splatRestoreVersion
+- _objc_msgSend$splatRollbackDetected:
+- _objc_msgSend$splatUpdateDetected
+- _objc_msgSend$splatUpdatesAllowed
+- _objc_msgSend$ssoTokenForPersonalization
+- _objc_msgSend$ssoUsernameForPersonalization
+- _objc_msgSend$strategyDidFireAutoInstall:
+- _objc_msgSend$streamingZipCapable
+- _objc_msgSend$stringByAppendingFormat:
+- _objc_msgSend$stringForScanPriority:
+- _objc_msgSend$submitEventsWithName:
+- _objc_msgSend$submitTaskRequest:error:
+- _objc_msgSend$suggestRollback:rollbackDescriptor:withResult:
+- _objc_msgSend$suggestedRollbackSplatVersion
+- _objc_msgSend$summary
+- _objc_msgSend$suppressSSOTokenInDownload
+- _objc_msgSend$suppressSSOTokenInInstall
+- _objc_msgSend$suspendPolicy
+- _objc_msgSend$systemGrowthMarginSize
+- _objc_msgSend$targetApplied:
+- _objc_msgSend$targetBrainLoaded:
+- _objc_msgSend$targetPrepared:
+- _objc_msgSend$targetRollback:
+- _objc_msgSend$taskRequestForIdentifier:
+- _objc_msgSend$taskState
+- _objc_msgSend$timeBombOverride
+- _objc_msgSend$timeBombedDate
+- _objc_msgSend$timeIntervalSince1970
+- _objc_msgSend$timerWithTimeInterval:repeats:block:
+- _objc_msgSend$trackAnomaly:forReason:withResult:withError:
+- _objc_msgSend$trackBegin:atLevel:
+- _objc_msgSend$trackEnd:atLevel:withResult:withError:
+- _objc_msgSend$trackError:forReason:withResult:withError:
+- _objc_msgSend$tracker
+- _objc_msgSend$tryAutoDownload
+- _objc_msgSend$trySchedulingAnotherTimeInInstallWindow:
+- _objc_msgSend$trySchedulingAutoInstallAgainLater
+- _objc_msgSend$typeForCoreDescriptor:
+- _objc_msgSend$unarchivedSize
+- _objc_msgSend$unattendedInstallationKeybagCreated
+- _objc_msgSend$unbadgeSettingsForManualSoftwareUpdate
+- _objc_msgSend$unenrollDevice:completion:
+- _objc_msgSend$unlockCallbacks
+- _objc_msgSend$unregisterActivitiesWithName:
+- _objc_msgSend$unregisterActivity:
+- _objc_msgSend$unregisterProfileChangeListener
+- _objc_msgSend$unsatisfiedConstraintsWithIgnorableConstraints:
+- _objc_msgSend$unscheduleActivity:
+- _objc_msgSend$unscheduleRecommendedUpdateNotification
+- _objc_msgSend$updateControl
+- _objc_msgSend$updateDeferralPeriodDays
+- _objc_msgSend$updateDelayInterval
+- _objc_msgSend$updateDownloadOptions:error:
+- _objc_msgSend$updateFullyUnrampedDates
+- _objc_msgSend$updateInstallPolicyAutoUpdateEnabled:
+- _objc_msgSend$updateInstallPolicyClientName:
+- _objc_msgSend$updateInstallPolicyDarkBootEnabled:
+- _objc_msgSend$updateInstallPolicyType:
+- _objc_msgSend$updateMetricContext
+- _objc_msgSend$updateMetricEventFields
+- _objc_msgSend$updatePolicy
+- _objc_msgSend$updateToAutoDownload
+- _objc_msgSend$updateTypeName
+- _objc_msgSend$updatesDelayPeriodSeconds
+- _objc_msgSend$upgradeTypeForCoreDescriptor:
+- _objc_msgSend$useBGSTForAutoInstall
+- _objc_msgSend$useEmptyPatches
+- _objc_msgSend$useSUCoreXPCActivityScheduler
+- _objc_msgSend$userDownloadPolicyForDescriptor:
+- _objc_msgSend$userDownloadPolicyForDescriptor:existingPolicy:allowCellularOverride:
+- _objc_msgSend$userWantsToDeferInstall
+- _objc_msgSend$valueForEntitlement:
+- _objc_msgSend$verifyConstraintsMetForInstallationWithOptions:error:
+- _objc_msgSend$versionString
+- _objc_msgSend$wakeupIfNecessary
+- _objc_msgSend$waking
+- _objc_msgSend$wifiState
+- _objc_msgSend$workQueue
+- _objc_msgSend$workoutState
+- _objc_msgSend$writeAUKeepAliveFile
+- _objc_msgSend$writeKeepAliveFile
+- _objc_retain_x9
+- _os_transaction_create
+- _sharedInstance.instance
+- _sharedMonitor.onceToken
+- _sharedMonitor.sharedMonitor
+- _showInsufficientDiskSpaceFollowupForUpdate:.__LAST_FOLLOWUP_TIME
+- _strcmp
+- _vproc_swap_integer
+- _xpc_activity_copy_criteria
+- _xpc_activity_copy_identifier
+- _xpc_activity_get_state
+- _xpc_activity_register
+- _xpc_activity_set_criteria
+- _xpc_activity_set_state
+- _xpc_activity_should_defer
+- _xpc_activity_unregister
+- _xpc_array_create
+- _xpc_array_set_string
+- _xpc_dictionary_create
+- _xpc_dictionary_create_empty
+- _xpc_dictionary_get_string
+- _xpc_dictionary_set_bool
+- _xpc_dictionary_set_date
+- _xpc_dictionary_set_int64
+- _xpc_dictionary_set_string
+- _xpc_dictionary_set_uint64
+- _xpc_dictionary_set_value
+- _xpc_set_event
+- _xpc_set_event_stream_handler
+CStrings:
++ " | "
++ "-[SUManagerClient dismissAllMiniAlerts]"
++ "-[SUManagerClient dismissAllMiniAlerts]_block_invoke"
++ "-[SUManagerClient presentMiniAlertOfType:variant:]"
++ "-[SUManagerClient presentMiniAlertOfType:variant:]_block_invoke"
++ "Device Activity"
++ "Disk Space"
++ "File Protection"
++ "Game Mode Enabled"
++ "High System Load"
++ "Invalid"
++ "Low Data Mode Enabled"
++ "Low Power Mode Enabled"
++ "Network Condition"
++ "Plugin Condition"
++ "Preserving Battery Life"
++ "Runtime Limitation"
++ "Saving Cellular Data Usage"
++ "Thermal Condition"
++ "Unfavorable Network"
++ "Unknown BGST reason bit mask found (Update stringForBGSystemTaskExpirationReasonMask?)"
++ "UnknownBits(0x%lx)"
++ "_DownloadSize"
++ "_IsZipStreamable"
++ "_UnarchivedSize"
+- "\n            assetType:%@\n            discretionary: %@\n            allowsCellular: %@\n            requiresPowerPluggedIn: %@\n            restrictToIncremental: %@\n            restrictToFull: %@\n            allowSameVersion: %@\n            sessionID: %@\n            enablePrecisePreSUStaging: %@\n            downloadTimeoutSecs: %d\n"
+- "\n            cacheDeleteUrgency: %@\n            checkAvailableSpace: %@\n            updateMetricContext: %@\n            updateMetricEventFields: %@\n"
+- "\n            discretionary: %@\n            allowsCellular: %@\n            requiresPowerPluggedIn: %@\n            downloadTimeoutSecs: %d"
+- "\n            updateMetricEventFields: %@\n"
+- "\n[>>>\n             paramType: DownloadDescriptor\n    downloadDescriptor: %@\n<<<]"
+- "\n[>>>\n            paramType: ErrorWithDescriptor\n                error: %@\n   downloadDescriptor: %@\n<<<]"
+- "\n[>>>\n         paramType: InstallOptions\n    installOptions: %@\n<<<]"
+- "\n[>>>\n         paramType: PurgeOptions:\n            %@\n            %@\n            error: %@\n<<<]"
+- "\n[>>>\n         paramType: Rollback:\n            %@\n<<<]"
+- "\n[>>>\n         paramType: RollbackOptions:\n            %@\n<<<]"
+- "\n[>>>\n     paramType: ScanPolicy\n    scanPolicy: %@\n      scanUUID: %@\n     isManaged: %@\n<<<]"
+- "\n[>>>\n    paramType: Blank\n<<<]"
+- "\n[>>>\n    paramType: Error\n        error: %@\n<<<]"
+- "\n[>>>\n    paramType: Progress\n     progress: %@\n<<<]"
+- "\n[>>>\n    paramType: Unknown(%ld)\n<<<]"
+- " (with keepAlive)"
+- "$"
+- "%@ %@"
+- "%@ (download) doesn't match %@ (alternate): %@"
+- "%@ (download) doesn't match %@ (preferred): %@"
+- "%@ - foregroundness changed: isForeground? %@"
+- "%@ - messagability changed: isMessagable? %@"
+- "%@ Checking if engine parameter is brain error that should be retried, %@"
+- "%@ Checking if engine parameter is brain network error, %@"
+- "%@ Engine parameter is brain network error"
+- "%@ Engine parameter is brain retry error"
+- "%@ Temporarily disabling PSUS to skip purging the assets"
+- "%@ Trying to purge installed assets one by one"
+- "%@ anomaly reporteed by update control interface, error:%@"
+- "%@ delegate does not respond to selector(downloadCompleted:) so not reporting"
+- "%@ delegate does not respond to selector(downloadProgress:) so not reporting"
+- "%@ delegate does not respond to selector(installCompleted:) so not reporting"
+- "%@ delegate does not respond to selector(removeCompleted:) so not reporting"
+- "%@ delegate does not respond to selector(rollbackCompleted:withError:) so not reporting"
+- "%@ delegate does not respond to selector(rollbackStarted:) so not reporting"
+- "%@ delegate does not respond to sendUnlockNotifications, failing"
+- "%@ disarming install"
+- "%@ download descriptor found, phase (%@) is not valid to load"
+- "%@ download descriptor found, prepare interrupted, will try to resume or purge and redownload"
+- "%@ download descriptor found, started downloading but not completed, will try to load"
+- "%@ download descriptor found, update is downloaded, will try to load"
+- "%@ download descriptor found, update is prepared, will try to load"
+- "%@ engine error parameter does not have a brain should retry failure code"
+- "%@ engine error parameter does not have a network failure code"
+- "%@ engine error parameter is not in MSU domain"
+- "%@ engine error parameter is not in SU domain"
+- "%@ engine parameter is not an error"
+- "%@ install can't be armed"
+- "%@ install is armed with options:%@"
+- "%@ is unexpected type"
+- "%@ load brain failed, waiting for unlock"
+- "%@ network unavailable, will wait for network"
+- "%@ no download descriptor asset to load from"
+- "%@ no download descriptor to load from"
+- "%@ path satisfication changed to: %d"
+- "%@ previous update state: failed backward"
+- "%@ previous update state: failed forward"
+- "%@ previous update state: successful OTA"
+- "%@ previous update state: tethered restore"
+- "%@ update asset download preflighted"
+- "%@ was previously scheduled to run at %@. Re-scheduling for the same time"
+- "%@:%@"
+- "%ld"
+- "%ld(bucketed) days since last successful ota"
+- "%s - Alternate update is auto downloadable"
+- "%s - Alternate update is auto updatable"
+- "%s - No update is auto downloadable"
+- "%s - Null due to Buddy running"
+- "%s - Null due to up-to-date with alternate"
+- "%s - Preferred update is auto downloadable"
+- "%s - Preferred update is auto updatable"
+- "%s - [DDM] Fall back to a scan for Splat updates"
+- "%s - [DDM] Fall back to a scan for regular updates"
+- "%s - will not rescan for Splat -- disabled by default"
+- "%s - will not rescan for updates"
+- "%s - will rescan for updates with options %@"
+- "%s [RV] Couldn't detect a running NeRD brain. Error: %@"
+- "%s [RV] Couldn't identify the path to the running brain: %@"
+- "%s [RV] Failed to load version.plist of the running brain from: %@"
+- "%s [RV] Loaded version.plist of running brain. Running brain version is: %@"
+- "%s exiting exclusive control"
+- "%s going under exclusive control"
+- "%s is called with options = %@"
+- "%s is not supported in this configuration"
+- "%s tried to go under exclusive control while in non internal build"
+- "%s was called by a client"
+- "%s: %@ is already a full-replacement"
+- "%s: A previous request for %@ already exists: %@"
+- "%s: About to invalidate the retryAutoInstallTimer (%@)"
+- "%s: Already loaded brain for this descriptor. No need to preload brain"
+- "%s: Already loaded brain for this descriptor. No need to reload brain"
+- "%s: Attempted to defer autoInstallStart activity but failed."
+- "%s: Auto download disabled via preferences. No need to preload brain"
+- "%s: Auto install security response disabled. No need to preload brain"
+- "%s: Auto installation failed to start due to SUErrorCodeInstallInProgress; do not show the alert"
+- "%s: Auto-Install fired by strategy: %@"
+- "%s: Autodownload operation - not getting SSO Token."
+- "%s: Beta enrolled"
+- "%s: Calling updateInstallPolicyAutoUpdateEnabled:%d"
+- "%s: Canceling any task with old strategy '%@' and switch to new strategy '%@'"
+- "%s: Cancelling %@"
+- "%s: Cancelling request: %@"
+- "%s: Cannot schedule auto-install for nil update"
+- "%s: Checking beta enrollment"
+- "%s: Completing %@"
+- "%s: Current release type is not developer, overriding HideInstallAlert to: %@"
+- "%s: DAS fired autoInstallStart activity"
+- "%s: DAS fired autoInstallStart task: %@"
+- "%s: Defaulting to old inactivity predictor for autoInstall"
+- "%s: Delegating to client %@"
+- "%s: Disabling Splat rollback due to SU Preference"
+- "%s: Do not schedule tonight activity because it has been scheduled"
+- "%s: Do not schedule tonight activity because the download is not finished"
+- "%s: Don't dismiss the followup. Current followup is for %@, not %@"
+- "%s: Don't show the same followup again."
+- "%s: Download finished, cancel the recommended notification UI"
+- "%s: Failed to cancel task request for %@: %@"
+- "%s: Failed to create brain load lock assertion: %@"
+- "%s: Failed to deregister for %@"
+- "%s: Failed to deregister for %@ (it's likely not registered)"
+- "%s: Failed to expire task %@ with error: %@"
+- "%s: Failed to register for %@"
+- "%s: Failed to schedule AutoInstall start task"
+- "%s: Failed to set %@ activity state to XPC_ACTIVITY_STATE_DONE"
+- "%s: Failed to submit task with error: %@"
+- "%s: Fake splat installed, generating a fake descriptor."
+- "%s: Found SUCoreDescriptor: %@"
+- "%s: Found a splombo update %@ and it matches the requested build version %@; keep it"
+- "%s: Found a splombo update %@ and only the normal update matches the requested build version %@; remove the associated splat"
+- "%s: Found a splombo update %@ but it doesn't match the requested build version %@; ignore it"
+- "%s: Found an update %@ but it doesn't match the requested build version %@; ignore it"
+- "%s: Found existing download, skip preloading brain"
+- "%s: Found suggested rollback for %@: %@"
+- "%s: Game mode is disabled and an auto-install task is actively scheduled; creating the AU keep alive file"
+- "%s: Game mode is enabled; deleting the AU keep alive file, if any"
+- "%s: Got AutoUpdate preference change notification, reloading preferences"
+- "%s: Got brain load progress: %@, error: %@"
+- "%s: Holding off on reporting otaPostponed event because previous event was recently emitted"
+- "%s: Invalid required battery level: %d; fallback to 20"
+- "%s: Less than one week since last time bomb (%@ seconds ago)"
+- "%s: MIBUClient isInBoxUpdateMode error: %@"
+- "%s: MIBUClient isInPalletUpdateMode error: %@"
+- "%s: No active request to cancel"
+- "%s: No available date from history: %@"
+- "%s: No delay period set, ignore SU preferences"
+- "%s: No descriptor, skip loading brain"
+- "%s: No descriptor, skip preloading brain"
+- "%s: No descriptor, skip preloading brain on unlock"
+- "%s: No failed patch updates"
+- "%s: No history"
+- "%s: No need for sso token - install is not user-initiated"
+- "%s: No need for sso token - not enabled in MSU preferences"
+- "%s: No reply handler provided"
+- "%s: No running task to complete"
+- "%s: No suggested rollback for %@."
+- "%s: Not beta enrolled"
+- "%s: Old installationSize: %llu"
+- "%s: Override the build version of the splat combo to %@"
+- "%s: Overriding result to YES by SUBuddyInitiatedScan"
+- "%s: Overriding result to YES by SUInboxUpdaterdInitiatedScan"
+- "%s: Ramp is enabled for asset, skip preloading brain"
+- "%s: Random jittering enabled to retry the auto download; will retry after %@"
+- "%s: Refreshed installationSize: %llu"
+- "%s: Require %d battery for das to fire for %@"
+- "%s: Require %lld battery for das to fire"
+- "%s: SU path is %@ (set by DDM global settings)"
+- "%s: SU path is %@ (set by MDM restriction)"
+- "%s: SU path is %@ (set by SU preference)"
+- "%s: SU preference has an invalid value %lu; ignore it"
+- "%s: Scans not allowed in RRTS mode"
+- "%s: Scheduled autoInstall start time for: %@"
+- "%s: Scheduled simulated auto install activity with xpc"
+- "%s: Scheduled task for auto install: %@"
+- "%s: Scheduling a new auto download in 4 hours in case this one fails"
+- "%s: Scheduling tonight activity because the download is finished"
+- "%s: Seeding framework not available"
+- "%s: Setting isInstallTonightScheduled to %@"
+- "%s: Setting last scan descriptors to nil"
+- "%s: Setting last scan descriptors, preferred:%@, alternate:%@"
+- "%s: Simulated auto install activity called"
+- "%s: Simulated auto install activity deferred"
+- "%s: Skip brain preload when not on wifi"
+- "%s: Software update is major upgrade, getting SSO token."
+- "%s: Software update is not major upgrade, not getting SSO token."
+- "%s: Splat rollback is disabled by DDM global settings"
+- "%s: Splat rollback is disabled by MDM restrictions"
+- "%s: Splat rollback is not allowed."
+- "%s: Splat updates are disallowed by DDM global settings"
+- "%s: Splat updates are disallowed by MDM restrictions"
+- "%s: Splat updates are disallowed by SU preference"
+- "%s: Splombo is disabled"
+- "%s: Succeeded to set %@ activity state to XPC_ACTIVITY_STATE_DONE"
+- "%s: Successfully acquired ssoData"
+- "%s: Successfully canceled task request for %@"
+- "%s: Successfully deregistered for %@"
+- "%s: Successfully scheduled %@ with installDate %@; request: %@"
+- "%s: Successfully set %@ activity state to XPC_ACTIVITY_STATE_CONTINUE"
+- "%s: Successfully set %@ to 'expired' and will retry after %@"
+- "%s: Suppressing SSO Token in download."
+- "%s: Task expired by DAS for %@"
+- "%s: To rollback the fake splat..."
+- "%s: Tried to cancel the previous auto-install activity %@"
+- "%s: Try to reschedule %@ on %@ due to a previous failure; timer (%p)"
+- "%s: Unable to get a new sso token."
+- "%s: Unknown XPC activity state (%ld) for activity %@"
+- "%s: Updates are delayed by DDM but the delay period is 0"
+- "%s: Updates are delayed by DDM global settings for %lu seconds"
+- "%s: Updates are delayed by MDM but the delay period is 0"
+- "%s: Updates are delayed by MDM restrictions for %lu seconds"
+- "%s: Updates are delayed by SU preferences for %lu seconds"
+- "%s: Using BGST because useBGSTForAutoInstall is set to YES"
+- "%s: [Anomaly] Failed to create auto install strategy of type %@"
+- "%s: [Anomaly] Failed to register for %@ (it's likely already registered)"
+- "%s: [Anomaly] from a failure but no valid auto install strategy"
+- "%s: [Anomaly] invalid identifier"
+- "%s: [Anomaly] retrying from failure with no existing auto install task; scheduling a new one"
+- "%s: [Scheduler] Set auto install activity from %@ to %@"
+- "%s: brain is loadable"
+- "%s: brain is loaded"
+- "%s: brain is not loaded on attempt %lu, add unlock callback"
+- "%s: brain is not loaded, but reached max attempts"
+- "%s: buildVer = %@, failedPatchBuildVersions = %@, should fall back: %d"
+- "%s: canceling %@"
+- "%s: cannot amend nil scan options"
+- "%s: client is buddy or buddy is running; disable splombo and psus for this scan"
+- "%s: client is inboxupdaterd; disable splombo and psus for this scan"
+- "%s: current download doesn't exist"
+- "%s: current scan options:%@ lastPreferred:%@ lastAlternate:%@"
+- "%s: device is managed. SU path is default"
+- "%s: device is managed. Splat rollback is enabled"
+- "%s: device is managed. Splat updates are allowed"
+- "%s: device is managed. Updates are not delayed"
+- "%s: device is not locked, should be able to load brain"
+- "%s: device is not managed. SU path is default"
+- "%s: device is not managed. Splat rollback is enabled"
+- "%s: device is not managed. Splat updates are allowed"
+- "%s: device is not managed. Unset managed scan options"
+- "%s: device is not managed. Updates are not delayed"
+- "%s: disableAutoInstallJitter default is set, ignoring jitter"
+- "%s: disableManagedRequest is set; device is considered not managed."
+- "%s: don't scan for splats for buddy"
+- "%s: donating error to Biome: %@"
+- "%s: failed to get sso token with error %@"
+- "%s: failed to get sso token, couldn't find function copyPersonalizationSSOToken"
+- "%s: failed to get the disk usage dictionary"
+- "%s: lastOperation = %@"
+- "%s: managed scan options = %@, mdmExtension = %@"
+- "%s: missing managed scan options"
+- "%s: no reply handler, do nothing"
+- "%s: no requested build"
+- "%s: no response provided"
+- "%s: no update provided"
+- "%s: not needed according to the scheduler, ignoring jitter"
+- "%s: outError = %@"
+- "%s: psus info (Req:%llu, Opt:%llu) v (Req:%llu, Opt:%llu)"
+- "%s: ramping control flags (R:%d, GR:%d) v (R:%d, GR:%d)"
+- "%s: retryAutoInstallTimer(%@) fired!"
+- "%s: scan for emergency or splat only update ended with no results and previous scan is not of the same type, ignore current scan result and keep the previous one"
+- "%s: set passcode policy to required"
+- "%s: skipping network check because this is buddy"
+- "%s: trigger date = %@"
+- "%s: unable to get reserve space info, Error: %@"
+- "%s: unable to initialize susso, unable to load framework"
+- "%s: unable to load functions from framework"
+- "%s: unknown operationID: %@"
+- "%s: unknown update type:%ld"
+- "("
+- "(%@ + %@)"
+- "*"
+- "+[SUManagerEngine shouldHideInstallAlertForCoreDescriptor:]"
+- "+[SUScanner typeForCoreDescriptor:]"
+- "-[SUAuthSSO _ensureSsoLib]_block_invoke"
+- "-[SUAuthSSO _getSsoToken]"
+- "-[SUAuthSSO invokeSSOAuth]"
+- "-[SUAutoInstallManager _queue_cancelAutoInstallOperation:]"
+- "-[SUAutoInstallManager _queue_currentAutoInstallOperationCreatingIfNecessary:notifyIfExpired:error:]"
+- "-[SUAutoInstallManager _queue_resumeOrResetStateIfNecessary]"
+- "-[SUAutoInstallManager noteAutoInstallOperationWantsToBeginWithSchedulerName:]"
+- "-[SUAutoInstallManager trySchedulingAutoInstallAgainLater]"
+- "-[SUBGSTAutoInstallStrategy _queue_handleAutoInstallStart:]"
+- "-[SUBGSTAutoInstallStrategy _submitAutoInstallSystemTaskRequestWithIdentifier:withDate:forUpdate:]"
+- "-[SUBGSTAutoInstallStrategy cancelAutoInstallStartInstallTask]"
+- "-[SUBGSTAutoInstallStrategy isAutoInstallTaskScheduled]"
+- "-[SUBGSTAutoInstallStrategy scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]"
+- "-[SUBGSTAutoInstallStrategy scheduleSimulatedAutoInstallTaskWithHandler:]"
+- "-[SUBGSTAutoInstallStrategy scheduleSimulatedAutoInstallTaskWithHandler:]_block_invoke"
+- "-[SUBGSTAutoInstallStrategy scheduleSimulatedAutoInstallTaskWithHandler:]_block_invoke_2"
+- "-[SUCoreDescriptor(SUS) isEqualToDescriptor:]"
+- "-[SUDDMManager _cancelCurrentDownloadAndDownload:]"
+- "-[SUDDMManager _cancelScheduledDownloadRetryForReason:]"
+- "-[SUDDMManager _downloadRequestCompletedWithStatus:error:withDescriptor:]_block_invoke"
+- "-[SUDDMManager _evaluateAllDeclarations]"
+- "-[SUDDMManager _evaluateDeclarationsWithNewDeclaration:]"
+- "-[SUDDMManager _handleExistingDownload:targetUpdate:]"
+- "-[SUDDMManager _handleScanResults:]"
+- "-[SUDDMManager _handleScanResults:]_block_invoke"
+- "-[SUDDMManager _initiateDownloadWithDescriptor:]"
+- "-[SUDDMManager _notifyUI:]"
+- "-[SUDDMManager _purgeDownloadWithHandler:]"
+- "-[SUDDMManager _purgeDownloadWithHandler:]_block_invoke"
+- "-[SUDDMManager _scanForUpdateForDeclaration:retryIfNecessary:]"
+- "-[SUDDMManager _scheduleDownloadRetryForReason:]"
+- "-[SUDDMManager _setActiveDeclaration:]"
+- "-[SUDDMManager alwaysEnableAutoDownload]"
+- "-[SUDDMManager alwaysEnableAutoInstallOSUpdates]"
+- "-[SUDDMManager alwaysEnableAutoInstallRapidSecurityResponse]"
+- "-[SUDDMManager cancelDDMDeclarationForKey:outError:]"
+- "-[SUDDMManager cancelDDMDeclarationForKey:outError:]_block_invoke"
+- "-[SUDDMManager downloadDidFail:withError:]"
+- "-[SUDDMManager downloadDidFinish:withInstallPolicy:]"
+- "-[SUDDMManager downloadDidStart:]"
+- "-[SUDDMManager downloadWasInvalidated:]"
+- "-[SUDDMManager downloadWasInvalidated:]_block_invoke"
+- "-[SUDDMManager enableGlobalNotifications]"
+- "-[SUDDMManager enableRapidSecurityResponseRollback]"
+- "-[SUDDMManager enableRapidSecurityResponse]"
+- "-[SUDDMManager getDDMGlobalSettingsWithError:]"
+- "-[SUDDMManager handleDDMDeclaration:outError:]_block_invoke"
+- "-[SUDDMManager initWithDelegate:]"
+- "-[SUDDMManager installDidFinish:]"
+- "-[SUDDMManager installDidFinish:]_block_invoke"
+- "-[SUDDMManager recommendedCadence]"
+- "-[SUDDMManager resumeOrResetStateIfNecessary]_block_invoke"
+- "-[SUDDMManager scanRequestDidFinishForOptions:results:error:]"
+- "-[SUDDMManager setDDMGlobalSettings:outError:]_block_invoke"
+- "-[SUDDMManager updateDeferralPeriodDays]"
+- "-[SUDownloader _downloadFinished:]"
+- "-[SUDownloader _loadBrainOnUnlockCallback]"
+- "-[SUDownloader _loadBrainOnUnlockCallback]_block_invoke"
+- "-[SUDownloader _loadBrainOnUnlockCallback]_block_invoke_2"
+- "-[SUDownloader ensureSSOTokenIfNeededForDownload:]"
+- "-[SUDownloader loadBrainOnUnlockForDescriptor:]"
+- "-[SUDownloader needToWaitForUnlockForLoadingBrainForDescriptor:]"
+- "-[SUDownloader startDownloadWithOptions:withResult:]"
+- "-[SUDownloader tryAutoDownload]"
+- "-[SUInstaller autoSUFailedWithError:]"
+- "-[SUInstaller ensureSSOTokenIfNeededForInstall:]"
+- "-[SUInstaller initWithCore:]_block_invoke"
+- "-[SUInstaller installCompleted:]"
+- "-[SUInstaller installCompleted:]_block_invoke"
+- "-[SUInstaller installUpdateWithInstallOptions:withResult:]"
+- "-[SUInstaller installUpdateWithInstallOptions:withResult:]_block_invoke_3"
+- "-[SUInstaller isUpdateReadyForInstallationWithOptions:replyHandler:]"
+- "-[SUInstaller setIsInstallTonightScheduled:]"
+- "-[SUManagerCore dismissInsufficientDiskSpaceFollowupForUpdate:orForce:]"
+- "-[SUManagerCore showInsufficientDiskSpaceFollowupForUpdate:]"
+- "-[SUManagerCore softwareUpdateReserveSizes]"
+- "-[SUManagerCore updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]"
+- "-[SUManagerCore(Analytics) _createCoreAnalyticsEventWithCurrentDownloadFor:error:]"
+- "-[SUManagerCore(Analytics) _getAmountDataAvailable]"
+- "-[SUManagerCore(Analytics) donateSUErrorToBiome:]"
+- "-[SUManagerCore(Analytics) reportPostponedEvent:withStatus:withAdditionalMetrics:]"
+- "-[SUManagerCore(MDM) amendManagedScanOptions:withResponse:]"
+- "-[SUManagerCore(MDM) isManaged]"
+- "-[SUManagerCore(MDM) softwareUpdatePathRestriction]"
+- "-[SUManagerCore(MDM) updatesDelayPeriodSeconds]"
+- "-[SUManagerCore(Splat) eligibleRollbackWithOptions:]"
+- "-[SUManagerCore(Splat) isSplatOnlyUpdateRollbackSuggested]"
+- "-[SUManagerCore(Splat) isSplatRollbackEnabled]"
+- "-[SUManagerCore(Splat) splatUpdatesAllowed]"
+- "-[SUManagerServer autoInstallManager:didCancelOperation:]_block_invoke_2"
+- "-[SUManagerServer autoInstallManager:didExpireOperation:withError:]_block_invoke_2"
+- "-[SUManagerServer autoInstallManager:isReadyToInstall:withResult:]_block_invoke_2"
+- "-[SUManagerServer autoInstallManager:operationWasConsented:]_block_invoke_2"
+- "-[SUManagerServer autoInstallManager:passcodePolicyChanged:forOperation:]_block_invoke_2"
+- "-[SUManagerServer autoInstallSecurityForceOff:]"
+- "-[SUManagerServer autoInstallSecurityForceOff:]_block_invoke"
+- "-[SUManagerServer autoInstallSecurityForceOn:]"
+- "-[SUManagerServer autoInstallSecurityForceOn:]_block_invoke"
+- "-[SUManagerServer autoScanAndDownloadNow:ifAvailable:]_block_invoke"
+- "-[SUManagerServer automaticDownloadDidFailToStartForNewUpdateAvailable:withError:]_block_invoke_2"
+- "-[SUManagerServer cancelAutoInstallOperation:withResult:]_block_invoke"
+- "-[SUManagerServer cancelDDMDeclarationForKey:completion:]"
+- "-[SUManagerServer cancelDDMDeclarationForKey:completion:]_block_invoke_2"
+- "-[SUManagerServer cancelDownloadWithOptions:withResult:]_block_invoke"
+- "-[SUManagerServer clearingSpaceForDownload:clearing:]_block_invoke_2"
+- "-[SUManagerServer consentToAutoInstallOperation:withResult:]_block_invoke"
+- "-[SUManagerServer createInstallationKeybag:withResult:]"
+- "-[SUManagerServer createInstallationKeybag:withResult:]_block_invoke"
+- "-[SUManagerServer currentAutoInstallOperation:withResult:]_block_invoke"
+- "-[SUManagerServer currentAutoInstallOperationForecast:]_block_invoke"
+- "-[SUManagerServer currentPasscodePolicy:]_block_invoke"
+- "-[SUManagerServer delayEndDate:]_block_invoke"
+- "-[SUManagerServer descriptor:]_block_invoke"
+- "-[SUManagerServer descriptors:]_block_invoke"
+- "-[SUManagerServer destroyInstallationKeybag]_block_invoke"
+- "-[SUManagerServer disableReserveSpace:withResult:]_block_invoke"
+- "-[SUManagerServer downloadAndInstallState:]_block_invoke"
+- "-[SUManagerServer downloadDidFail:withError:]_block_invoke_2"
+- "-[SUManagerServer downloadDidFinish:withInstallPolicy:]_block_invoke_3"
+- "-[SUManagerServer downloadDidStart:]_block_invoke_2"
+- "-[SUManagerServer downloadProgressDidChange:]_block_invoke_2"
+- "-[SUManagerServer downloadWasInvalidatedForNewUpdatesAvailable:]_block_invoke_2"
+- "-[SUManagerServer eligibleRollbackWithOptions:withResult:]_block_invoke"
+- "-[SUManagerServer enableAutomaticDownload:]_block_invoke"
+- "-[SUManagerServer enableAutomaticUpdateV2:]_block_invoke"
+- "-[SUManagerServer exitExclusiveControl]"
+- "-[SUManagerServer fetchInstallHistory:]_block_invoke"
+- "-[SUManagerServer getAllDeclarationsIncludingSpecial:withHandler:]_block_invoke"
+- "-[SUManagerServer getAllDeclarationsIncludingSpecial:withHandler:]_block_invoke_2"
+- "-[SUManagerServer getDDMDeclarationWithHandler:]"
+- "-[SUManagerServer getDDMDeclarationWithHandler:]_block_invoke_2"
+- "-[SUManagerServer getDDMDeclarationWithHandler:]_block_invoke_3"
+- "-[SUManagerServer getDDMGlobalSettingsWithHandler:]"
+- "-[SUManagerServer getDDMGlobalSettingsWithHandler:]_block_invoke"
+- "-[SUManagerServer getDDMGlobalSettingsWithHandler:]_block_invoke_2"
+- "-[SUManagerServer getDDMStatusWithKeys:completion:]"
+- "-[SUManagerServer getDDMStatusWithKeys:completion:]_block_invoke"
+- "-[SUManagerServer getDDMUpdateDescriptorWithHandler:]"
+- "-[SUManagerServer getDDMUpdateDescriptorWithHandler:]_block_invoke_2"
+- "-[SUManagerServer getDDMUpdateDescriptorWithHandler:]_block_invoke_3"
+- "-[SUManagerServer getMandatorySoftwareUpdateDictionary:]_block_invoke"
+- "-[SUManagerServer getShouldDisableAutoDownloadIOSUpdatesToggleWithHandler:]"
+- "-[SUManagerServer getShouldDisableAutoDownloadIOSUpdatesToggleWithHandler:]_block_invoke"
+- "-[SUManagerServer getShouldDisableAutoInstallIOSUpdatesToggleWithHandler:]"
+- "-[SUManagerServer getShouldDisableAutoInstallIOSUpdatesToggleWithHandler:]_block_invoke"
+- "-[SUManagerServer getShouldDisableAutoInstallRSRToggleWithHandler:]"
+- "-[SUManagerServer getShouldDisableAutoInstallRSRToggleWithHandler:]_block_invoke"
+- "-[SUManagerServer goUnderExclusiveControl]"
+- "-[SUManagerServer handleDDMDeclaration:withResult:]"
+- "-[SUManagerServer handleDDMDeclaration:withResult:]_block_invoke_2"
+- "-[SUManagerServer installDidFail:withError:]_block_invoke_3"
+- "-[SUManagerServer installDidFinish:]_block_invoke_3"
+- "-[SUManagerServer installDidStart:]_block_invoke_2"
+- "-[SUManagerServer installPolicyDidChange:]_block_invoke_2"
+- "-[SUManagerServer installServerConfiguration]_block_invoke"
+- "-[SUManagerServer installTonightScheduled:]_block_invoke_2"
+- "-[SUManagerServer installUpdateWithInstallOptions:withResult:]_block_invoke"
+- "-[SUManagerServer installUpdateWithOptions:withResult:]_block_invoke"
+- "-[SUManagerServer installWantsToStart:completion:]_block_invoke_2"
+- "-[SUManagerServer isAnyClientInUserInteraction:]_block_invoke_2"
+- "-[SUManagerServer isAutoUpdateEnabled:]_block_invoke"
+- "-[SUManagerServer isAutoUpdateScheduled:]_block_invoke"
+- "-[SUManagerServer isAutomaticDownloadEnabled:]_block_invoke"
+- "-[SUManagerServer isAutomaticUpdateV2Enabled:]_block_invoke"
+- "-[SUManagerServer isClearingSpaceForDownload:]_block_invoke"
+- "-[SUManagerServer isDelayingUpdates:]_block_invoke"
+- "-[SUManagerServer isDownloading:]_block_invoke"
+- "-[SUManagerServer isInstallationKeybagRequired:]_block_invoke"
+- "-[SUManagerServer isInstallationKeybagRequiredForDescriptor:result:]_block_invoke"
+- "-[SUManagerServer isRollingBack:]_block_invoke"
+- "-[SUManagerServer isScanning:]_block_invoke"
+- "-[SUManagerServer isSoftwareUpdateInProgress:]"
+- "-[SUManagerServer isSoftwareUpdateInProgress:]_block_invoke"
+- "-[SUManagerServer isSplatOnlyUpdateRollbackSuggested:]_block_invoke"
+- "-[SUManagerServer isUpdateReadyForInstallationWithOptions:withResult:]_block_invoke"
+- "-[SUManagerServer managedInstallationRequested:]_block_invoke_2"
+- "-[SUManagerServer mdmCommandConflictsWithDDM:]"
+- "-[SUManagerServer newOSBuildDetected:]_block_invoke_2"
+- "-[SUManagerServer overrideSoftwareUpdateReserve:systemGrowthMarginSize:withResult:]_block_invoke"
+- "-[SUManagerServer pauseDownload:]_block_invoke"
+- "-[SUManagerServer presentAutoUpdateBanner:]_block_invoke"
+- "-[SUManagerServer presentingRecommendedUpdate:shouldPresent:]_block_invoke_2"
+- "-[SUManagerServer previousRollback:withResult:]_block_invoke"
+- "-[SUManagerServer purgeDownloadWithOptions:withResult:]_block_invoke"
+- "-[SUManagerServer registerCSInstallPredicatesOnDate:]_block_invoke"
+- "-[SUManagerServer resumeDownload:]_block_invoke"
+- "-[SUManagerServer rollbackDidFail:withError:]_block_invoke_2"
+- "-[SUManagerServer rollbackDidStart:]_block_invoke_2"
+- "-[SUManagerServer rollbackReadyForReboot:]_block_invoke_2"
+- "-[SUManagerServer rollbackReadyToStart:options:completion:]_block_invoke_2"
+- "-[SUManagerServer rollbackSucceeded:]_block_invoke_3"
+- "-[SUManagerServer rollbackSuggested:info:]_block_invoke_2"
+- "-[SUManagerServer rollbackUpdateWithOptions:withResult:]_block_invoke"
+- "-[SUManagerServer rvGetCurrentNeRDInfoWithReply:]_block_invoke"
+- "-[SUManagerServer rvGetCurrentNeRDInfoWithReply:]_block_invoke_2"
+- "-[SUManagerServer rvTriggerNeRDUpdate:]_block_invoke"
+- "-[SUManagerServer scanDidCompleteForOptions:results:error:]_block_invoke_2"
+- "-[SUManagerServer scanDidCompleteWithNewUpdateAvailable:error:]_block_invoke_2"
+- "-[SUManagerServer scanForUpdates:withResult:]_block_invoke"
+- "-[SUManagerServer scanRequestDidFinishForOptions:results:error:]_block_invoke_2"
+- "-[SUManagerServer scanRequestDidFinishForOptions:update:error:]_block_invoke_2"
+- "-[SUManagerServer scanRequestDidStartForOptions:]_block_invoke_2"
+- "-[SUManagerServer scheduleRollbackRebootForLater:]_block_invoke"
+- "-[SUManagerServer securityResponseRollbackSuggested:withResult:]_block_invoke"
+- "-[SUManagerServer sendDDMDeclarationToUI:]_block_invoke_2"
+- "-[SUManagerServer sendDDMGlobalSettingsToUI:]_block_invoke_2"
+- "-[SUManagerServer setDDMGlobalSettings:completion:]_block_invoke"
+- "-[SUManagerServer setDDMGlobalSettings:completion:]_block_invoke_2"
+- "-[SUManagerServer setExclusiveControl:]_block_invoke"
+- "-[SUManagerServer setLastRollbackDescriptor:withResult:]_block_invoke"
+- "-[SUManagerServer setMandatorySoftwareUpdateDictionary:]_block_invoke"
+- "-[SUManagerServer slaVersion:]_block_invoke"
+- "-[SUManagerServer softwareUpdatePathRestriction:]_block_invoke"
+- "-[SUManagerServer softwareUpdateReserveSizes:]_block_invoke"
+- "-[SUManagerServer splatRollbackAllowed:]_block_invoke"
+- "-[SUManagerServer splatRollbackDetected:]_block_invoke_2"
+- "-[SUManagerServer splatUpdateDetected]_block_invoke_2"
+- "-[SUManagerServer startDownload:]_block_invoke"
+- "-[SUManagerServer startDownloadWithMetadata:withResult:]_block_invoke"
+- "-[SUManagerServer startDownloadWithOptions:withResult:]_block_invoke"
+- "-[SUManagerServer updateDownloadMetadata:withResult:]_block_invoke"
+- "-[SUManagerServer updateDownloadOptions:withResult:]_block_invoke"
+- "-[SUManagerServer updatesDownloadableWithOptions:alternateDownloadOptions:replyHandler:]_block_invoke"
+- "-[SUManagerServer userAskedToDeferInstall]_block_invoke"
+- "-[SUManagerServer userAskedToDeferInstall]_block_invoke_4"
+- "-[SUManagerServer writeKeepAliveFile:]_block_invoke"
+- "-[SUPolicyFactory augmentCorePolicy:WithDocumentationScanPolicy:]"
+- "-[SUPolicyFactory augmentCorePolicy:WithLoadBrainPolicy:]"
+- "-[SUPolicyFactory augmentCorePolicy:WithSUScanPolicy:]"
+- "-[SURollbackController rollbackUpdateWithOptions:completion:]_block_invoke"
+- "-[SURollbackController rollbackUpdateWithOptions:completion:]_block_invoke_4"
+- "-[SUScanOptions(SUS) clientIsBuddy]"
+- "-[SUScanOptions(SUS) clientIsInboxUpdaterd]"
+- "-[SUScanner _coreDescriptorFailedPatching:]"
+- "-[SUScanner _filterDescriptor:forRequestedBuild:]"
+- "-[SUScanner _handleScannedPreferredDescriptor:alternateDescriptor:scanOptions:error:]"
+- "-[SUScanner _resetToCustomerAudienceAndRescan]"
+- "-[SUScanner _shouldResetToCustomerAudienceAfterLongPeriod]"
+- "-[SUScanner descriptorToAutoDownload:]"
+- "-[SUScanner isBuddyRunning]"
+- "-[SUScanner lastScannedMatchScanOptions:]"
+- "-[SUScanner scanCompleted:alternateDescriptor:scanOptions:error:]"
+- "-[SUScanner scanForUpdates:complete:]"
+- "-[SUScheduler _getAutoInstallStrategyTypeForUpdate:]"
+- "-[SUScheduler _queue_handleAutoInstallGetKeybag:info:]_block_invoke"
+- "-[SUScheduler activityWasPreviouslyScheduledForFutureDate:passed:copy:]"
+- "-[SUScheduler gameModeChangedTo:]_block_invoke"
+- "-[SUScheduler scheduleAutoInstallGetKeybagTaskForDescriptor:]"
+- "-[SUScheduler scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]_block_invoke"
+- "-[SUScheduler scheduleSimulatedAutoInstallTask]_block_invoke"
+- "-[SUScheduler strategyDidFireAutoInstall:]"
+- "-[SUXPCAutoInstallStrategy _autoInstallActivityCriteriaWithInstallDate:descriptor:]"
+- "-[SUXPCAutoInstallStrategy _invalidateRetryAutoInstallaTimer]"
+- "-[SUXPCAutoInstallStrategy _queue_cancelAutoInstallStartInstallTask]"
+- "-[SUXPCAutoInstallStrategy _queue_setAutoinstallActivity:]"
+- "-[SUXPCAutoInstallStrategy autoInstallTaskCompleted]"
+- "-[SUXPCAutoInstallStrategy isAutoInstallTaskScheduled]"
+- "-[SUXPCAutoInstallStrategy scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]"
+- "-[SUXPCAutoInstallStrategy scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]_block_invoke_2"
+- "-[SUXPCAutoInstallStrategy scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]_block_invoke_4"
+- "-[SUXPCAutoInstallStrategy scheduleAutoInstallStartInstallTaskWithDate:descriptor:fromFailure:]_block_invoke_5"
+- "-[SUXPCAutoInstallStrategy scheduleSimulatedAutoInstallTaskWithHandler:]_block_invoke"
+- "/Library/SoftwareUpdate/SoftwareUpdateDDMStatePersistence.plist"
+- "/System/Library/PrivateFrameworks/SoftwareUpdateServicesUI.framework/Plugins/SoftwareUpdateServicesUIPlugin.servicebundle"
+- "/usr/lib/libSoftwareUpdateSSO.dylib"
+- "/var/MobileSoftwareUpdate/%@"
+- "/var/mobile/Library/SoftwareUpdate"
+- "About to cancel the declaration for key: %@"
+- "ActivateHavePersisted"
+- "ActivateNoPersisted"
+- "Activated"
+- "Activated to clean state when already downloading, reset download state"
+- "ActivatedClean"
+- "Active download policy class: %@"
+- "Activity %@ is %s"
+- "Activity %@ is not one that was previously tracked but unsheduled"
+- "Activity %@ is not scheduled"
+- "Activity %@ is past its run date. Unscheduling"
+- "Activity %@ is tracked, not currently scheduled and has a run date(%@) in the past"
+- "Activity %@ is tracked, not currently scheduled and has a rundate(%@) in the future"
+- "Added client: %@, count: %lu"
+- "Adding %@ to rolledBackDescriptor list"
+- "Adding unlock callback %@ for key %@"
+- "Allowing basejumper.apple.com, cheeserolling.apple.com, gdmf-staging-int.apple.com and locksmith.apple.com to trigger VPN On Demand (when installed)"
+- "AlreadyDownloaded"
+- "AlreadyPrepared"
+- "Alternate update is recommended"
+- "Analytics event already scheduled"
+- "Anomaly: Ready to install timer fired, but operation was not agreed to. (Proceeding to anyway)"
+- "Another download is already clearing space for download"
+- "ApplyFailedDone"
+- "ApplyFailedRemoveNow"
+- "ArmInstallOrFail"
+- "ArmedInstall"
+- "Asset audience changed from:%@ to:%@"
+- "Asset audience changed. Kicking off background scan"
+- "Asset is installed, but prepare was interrupted"
+- "Asset query timed out and VPN not connected."
+- "Asset query timed out but VPN is connected."
+- "Attempt to change download priority failed"
+- "Attempt to change download priority for asset:%@, asset state is %ld, postponing to download start"
+- "Attempted to change download priority of a nil asset"
+- "Attempted to download update that's already on disk and downloaded."
+- "Attempting to auto-download previously deleted update. Skipping auto downlaod attempt"
+- "Attempting to autodownload..."
+- "Attempting to resume from last known state."
+- "Auto download attempted to download failed patch descriptor"
+- "Auto download disabled via preferences. Skipping auto download attempt"
+- "Auto download only allowed over wifi"
+- "Auto install operation cancelled..Dismissing AutoUpdateBanner"
+- "Auto install operation is ready"
+- "Auto install security response disabled. Skipping auto download attempt"
+- "Auto scan found a Splat update; download it now"
+- "Auto scan found update available: %@"
+- "Auto update consented and no passcode set. Displaying banner"
+- "Auto-download power policy not satisfied. Skipping auto download attempt"
+- "AutoInstallOperation expired"
+- "AutoInstallOperation wants to begin"
+- "AutoSU consented"
+- "AutoSU disabled for this update. Not scheduling AutoSU timers"
+- "AutoSU disabled. Not scheduling AutoSU timers"
+- "AutoUpdate cannot be installed and user has been informed of the update..Presenting error alert"
+- "AutoUpdate cannot be installed, but user is not yet aware of the same..NOT presenting error alert"
+- "AutoUpdate install operation expired and user has been informed of update..Presenting error alert"
+- "AutoUpdate install operation expired but user is not aware of the update..NOT Presenting error alert"
+- "AutomaticUpdateV2 enabled : %d"
+- "B16@?0@\"NSString\"8"
+- "B24@?0@\"SUCoreDDMDeclaration\"8@\"SUDescriptor\"16"
+- "Background scan found build already downloaded; Skipping auto downlaod attempt"
+- "Background scan found build already downloading; Skipping auto downlaod attempt"
+- "Background scan found preferred descriptor: %@"
+- "Background scan resulted in error: %@"
+- "Badging settings for manual update flow"
+- "Beginning transaction: %@%@"
+- "Both updates are recommended, returning latest update:%@"
+- "BrainLoaded"
+- "BrainLoading"
+- "Buddy is not running"
+- "Buddy is running: pid = %d, state = %d"
+- "BuildVersion"
+- "C"
+- "CACHE_DELETE_ENTITLED_RESERVATION"
+- "CACHE_DELETE_ENTITLED_RESERVATION_FREE"
+- "CACHE_DELETE_ENTITLED_RESERVATION_SECURED"
+- "CACHE_DELETE_RESERVE_SPACE"
+- "CACHE_DELETE_RESERVE_SPACE_FILESYSTEM_AMOUNT"
+- "Cancel"
+- "Cancel scheduled download retry for reason: %@"
+- "Canceled"
+- "Canceled lock assertion"
+- "CanceledDownloadRequested"
+- "Canceling active scan (%@) in favor of higher priority scan (%@)"
+- "Canceling alarm: %@"
+- "Canceling recommended update timer"
+- "Canceling the current download to download %@ [%p]"
+- "CancelingDownloadRequested"
+- "CancelingRemoveRequested"
+- "CancelingRollbackRequested"
+- "Cancelled splat follow-up notification"
+- "Cannot add unlock callback with nil selector"
+- "Cannot add unlock callbakc with nil unlockCallbackKey"
+- "Cannot cancel: key is nil"
+- "Cannot cancel: key is unknown"
+- "Cannot kill download: installation in progress"
+- "Cannot kill download: no update found"
+- "Cannot kill download: space cleanup in progress"
+- "Cannot kill download: update is installed"
+- "Cannot schedule null activity"
+- "Cannot unschedule null activity"
+- "Cellular operator status changed, and now the download is not downloadable.  Attempting to cancel the download."
+- "Changed"
+- "CheckLockAndNetwork"
+- "Cleaned up sufficient space to retry install"
+- "Cleaning up previous download state"
+- "Clearing badge after successful install"
+- "Clearing lastPendingSplatAlertDate - no current download/descriptor available"
+- "Clearing lastPendingSplatAlertDate - update is no longer splat-only or security response disabled"
+- "Clearing unlock callbacks"
+- "ClearingSpace status changed: %@"
+- "Coalescing scan %@ with %@ scan"
+- "ContextStore reports ready for installation UI"
+- "Controller/ControllerDataForBrain.plist"
+- "Could not determine state of asset while trying to adjust priority, attempting anyway"
+- "Could not find a matching asset, fail with no update found"
+- "Could not install due to %@, and should not retry. Canceling auto install"
+- "Could not install due to %@."
+- "CriticalDomains"
+- "Current active declaration = %@; current download = \n%@"
+- "Current declaration changed from %@ to %@"
+- "Current declaration is good and the new declaration isn't more urgent. Don't evaluate this time."
+- "Current declaration is good, nothing to do here"
+- "Current download is successfully canceled."
+- "Current download is what is encforced"
+- "Current network: %@"
+- "Currently downloading or installing. Skipping auto download attempt"
+- "DAS failed to run auto install activity"
+- "DISABLED"
+- "Date"
+- "Declaration invalidated!"
+- "Delaying auto update for %f seconds"
+- "Determining days since update"
+- "Device conditions have changed so we should defer the auto-install"
+- "Device is currently in game mode; don't create the keep alive file for auto-update"
+- "Device is in Lockdown Mode. Ignoring revoked update"
+- "Device is up to date"
+- "Device is up-to-date; don't retry"
+- "Device lock status changed: passcodeLocked = %@"
+- "Device passcode changed"
+- "Device unlocked"
+- "DisableAutoUpdate"
+- "Disabled"
+- "DiskUsage"
+- "DiskUsageAmountDataAvailable"
+- "Documentation was collected"
+- "Don't scan for a null declaration"
+- "Download %@ phase completed."
+- "Download %@ to start. Error: %@"
+- "Download Phase: %@, Phase Progress: %@, Overall Progress: %@"
+- "Download already exists: %ld"
+- "Download failed due to insufficient space: %@"
+- "Download failed with error: %@"
+- "Download halted after wifi window; attempting to cancel download silently."
+- "Download in progress and we need to go non-discretionary"
+- "Download options changed from: %@ \nto:\n %@"
+- "Download policy doesn't allow downloading over cellular; try again later..."
+- "Download policy prevents download: %ld"
+- "Download progress is done, but phase is: %@"
+- "Download was purged (result: %d; error: %@)"
+- "Download/descriptor object is null..Skipping banner"
+- "DownloadAndPrepare"
+- "DownloadDone: %@ ProgressPhase: %@"
+- "DownloadPhaseBegin"
+- "DownloadPhaseDownloaded"
+- "DownloadPhaseDownloading"
+- "DownloadPhaseInstalling"
+- "DownloadPhasePrepared"
+- "DownloadPhaseUndefined"
+- "DownloadPhaseUnknown"
+- "Downloading: %@ [%p]"
+- "Dumping scheduler state: %@"
+- "ENABLED"
+- "ERROR: trying to end a non existent transaction with name %@"
+- "ERROR: trying to start a transaction with already used name %@%@"
+- "Empty"
+- "Ended transaction: %@"
+- "Ending/clearing any oustanding autodownload tasks and state"
+- "Entering persistStashOnUnlock"
+- "Error creating new autoInstallOperationModel: %@"
+- "Error scanning for update: %@"
+- "Error scheduling auto install operation: %@"
+- "Existing ControllerDataForBrain file found"
+- "Existing ControllerDataForBrain file not found. Creating"
+- "Expired"
+- "Expired or no analytics submission scheduled. Rescheduling for %@"
+- "Expired or no background scan activity found for %@. Rescheduling for %@"
+- "FAILURE"
+- "Failed creating SUManagerEngine"
+- "Failed creating engine FSM"
+- "Failed creating engine log"
+- "Failed to Clean up sufficient space to retry install: %@"
+- "Failed to clean up stashed documentation data: %@"
+- "Failed to create NSString from selector"
+- "Failed to create brain load lock assertion: %@"
+- "Failed to create options for activity %@"
+- "Failed to find any updates for declarations; will re-evaluate later"
+- "Failed to get a valid ddm manager..."
+- "Failed to get the core descriptor for the request"
+- "Failed to get the su descriptor for the request"
+- "Failed to init SUCoreDocumentationDataManager. Unable to clean up stashed documentation data"
+- "Failed to make room for install: %@"
+- "Failed to read activity name from XPC activity. Unable to run scheduled task"
+- "Failed to read valid update date"
+- "Failed to remove declaration for key %@ from %@"
+- "Failed to remove old controller data file at %@ : %@"
+- "Failed to schedule activity %@"
+- "Failed to set %@ as active; it must not be valid!!!"
+- "Failed to set global settings from %@ to %@, error: %@"
+- "Failed to unenroll device from seed audience"
+- "Failed to unshedule activity %@"
+- "Fake splat installed, allowing rollback"
+- "FallbackToCoreDuetInactivityPredictor"
+- "Fetched preferredLastScannedCoreDescriptor:%@ alternateLastScannedCoreDescriptor:%@"
+- "Foreground status changed: isForeground? %@"
+- "Found a different recommended update. Old is %@ - %@, new is %@ - %@"
+- "Found auto download which was previously set to run on %@ but is not currently scheduled"
+- "Found declaration %@ and corresponding update %@ from state"
+- "Found emergency updates, not setting last scan date"
+- "Found install policy: %@"
+- "Found last download: %@ with descriptor: %@ and matching core descriptor: %@ with asset: %@"
+- "Found new recommended update:%@"
+- "Found preference override for recommended update interval: %@"
+- "Found previously tracked but currently unscheduled analytics submission event expecte to run at %@. Will reschedule"
+- "Found revoked splat update"
+- "Found same recommended update:%@"
+- "Found scheduled activity: %@"
+- "Found splat update (%@.%@) applied at (%@) and then system reboot at (%@), considering as new OS"
+- "Found update (%@.%@) applied at (%@) and then system reboot at (%@) to the previous OS (%@.%@), update was consumed, cleaning prior state"
+- "Found update (%@.%@) applied at (%@) and then system reboot at (%@), considering as new OS"
+- "Game mode changed from %d to %d"
+- "Getting DDM status"
+- "Got download request with download options: %@"
+- "Got request to dismiss AutoUpdateBanner"
+- "Got request to dismiss SplatFollowUp"
+- "Got request to present AutoUpdateBanner"
+- "Got up to date report but not for current SU download, keeping it"
+- "Got up to date report but not for current Splat download, keeping it"
+- "HandleCanceledPendingRollback"
+- "HandlePendingDownload"
+- "HandlePendingRollback"
+- "Handled declaration %@: %@"
+- "Handling auto download: %@"
+- "Handling auto scan: %@"
+- "Handling splat follow-up notification activity"
+- "Handling wakeup alarm"
+- "Ignore the install-in-progress error and return a success"
+- "Ignoring no update found result because this scan didn't include Splat but we do have a previously found Splat update"
+- "Ignoring no update found result due to scan options"
+- "Ignoring update located by scan due to existing prepared update (disablePurgeOnNewerUpdateFound is set)"
+- "In game mode. Skipping auto download attempt"
+- "Install tonight is scheduled and download is done. Displaying banner"
+- "InstallArmed"
+- "InstallDidFinish"
+- "InstallUpdate"
+- "Installation error is fatal, clean update"
+- "Installation error: %@"
+- "Installation error: download not ready for installation: %@"
+- "Installation failed with error: %@"
+- "Insufficient disk space detected for installation - attempting to free: %@ bytes"
+- "Insufficient disk space detected for installation but ignoring attempt to free space because we're within buffer from a prior attempt to do so."
+- "Is ready for installation?  No due to constraints unmet: %@"
+- "Is ready for installation?  YES"
+- "Keep alive status: %@"
+- "Last AutoInstall operation found\n %@"
+- "Last known state indicates update prepared. Re-registering for RecordDataForBrain unlock callback"
+- "Last known state indicates update was *not* downloaded and prepared. Unregistering unlock callback"
+- "Last recommended update was:%@, but no recommended update found"
+- "LastUnlockTimePostPrepare"
+- "Let's evaluate all declaraions!"
+- "LoadTrustCachePurgedBrain"
+- "MDM command conflicts with DDM"
+- "MDM initiated scan. Allowing splat scan"
+- "MSUFullReplacementRecommened"
+- "Mandatory update dictionary is disabling auto updates"
+- "More than 4 months since last update applied. Resetting to customer audience and rescanning"
+- "NeRDBrainBuild"
+- "NetworkAvailable"
+- "New OS detected. Clearing the last auto-install-operation"
+- "New OS detected; resetting all prior state."
+- "New fake OS detected; resetting all prior state."
+- "NewDownloadPending"
+- "No SoftwareUpdate times found from _CDSleepForAutoSu"
+- "No completion callback so not reporting document scan completion"
+- "No completion callback so not reporting scan completion"
+- "No declarations available, nothing to do here"
+- "No declarations in configuration %@"
+- "No descriptor provided for keybag. Unable to create installation keybag with null descriptor"
+- "No descriptors available"
+- "No download"
+- "No emergency update found"
+- "No event name"
+- "No handler given"
+- "No install history found"
+- "No install policy saved, using default: %@"
+- "No installOptions provided, using the default value"
+- "No last asset found; cleaning up all software update assets."
+- "No longer in auto download window. No longer attempting auto download for this update"
+- "No network connection; try again later..."
+- "No passcode or LAContext provided for keybag. Unable to create installation keybag with null passcode and null LAContext"
+- "No pending splat alert date set"
+- "No previous download recognized; cleaning up all software update assets."
+- "No recommended update"
+- "No reply handler provided"
+- "No running brain"
+- "No stashbag has been persisted."
+- "No target update; not handling the download"
+- "No target versions changed; no need to re-evaluate"
+- "No update found for DDM declaration %@ with error %@"
+- "No update provided to shouldPresentUpdate:options:"
+- "No updates found... Let's skip %@"
+- "Non-fatal scan error %@, will not report"
+- "Not allowing download in RRTS mode"
+- "Not allowing download to start in RRTS mode"
+- "Not allowing installation in RRTS mode"
+- "Not performing space check since there is an in-progress download"
+- "Not presenting banner since it is already being presented"
+- "Not ready to begin AutoInstall operation. Is update ready for install? %@"
+- "Not resetting download state on start up since it was already reset"
+- "Nothing found for the new declaration %@; let's keep the original one."
+- "Nothing relevant found..."
+- "Notifying observers of start"
+- "OperatorName"
+- "Our download was killed; it's time to re-evaluate the declarations"
+- "Override path was set in: %@, collecting documentation"
+- "Overriding mandatoryUpdateDictionary to %@"
+- "PerformRollback"
+- "Persist the stashbag"
+- "Picked alternate descriptor from scan results"
+- "Picked preferred descriptor from scan results"
+- "Posting scheduled splat follow-up notification"
+- "PreallocatedSpace"
+- "Preferred update is recommended"
+- "Prepare"
+- "PrepareInterrupted"
+- "Present"
+- "PreservedInvalid"
+- "PreservedValidated"
+- "Preventing rollback due to preferences"
+- "Previous OTA attempt failed backwards and prepared update has been purged"
+- "Primary"
+- "ProductBuildVersion"
+- "Projects"
+- "Purging SU asset because server says device is up to date"
+- "Purging download with options %@"
+- "Q"
+- "Ramp is enabled for asset. Skipping auto downlaod attempt"
+- "Random jittering enabled for this auto download; will start downloading after %@"
+- "Ready to install timer fired, but operation model is nil"
+- "Ready to install!"
+- "ReadyToDownload"
+- "ReadyToRollback"
+- "Received activity: %@ with info: %@"
+- "Received profile change notification in registerProfileChangeListener"
+- "Recommended update timer already exist"
+- "Recommended update timer triggered"
+- "Recoverable"
+- "Registering ContextStore Predicates"
+- "Rejecting MDM command for updates because an existing declaration is in place"
+- "ReloadBrain"
+- "RemoveAll"
+- "RemoveAllPreserveCache"
+- "RemovePreserving"
+- "RemoveUpdate"
+- "Removed"
+- "Removed client: %@, count: %lu"
+- "RemovedAll"
+- "RemovedAllPreservedCache"
+- "Removing legacy SU follow up (if present)"
+- "Removing previously stashed ControllerDataForBrain file"
+- "Removing settings badge set by manual update flow(if present)"
+- "RemovingAll"
+- "RemovingAllDownloadRequested"
+- "RemovingAllRollbackRequested"
+- "RemovingExceptPreserved"
+- "ReportApplyFailedRemoveAll"
+- "ReportAwaitingReboot"
+- "ReportDownloadAwaitingReboot"
+- "ReportDownloadFailedNoUpdate"
+- "ReportDownloadFailedRemoveAll"
+- "ReportDownloadFailedRollingBack"
+- "ReportDownloadInstalling"
+- "ReportInstallAwaitingReboot"
+- "ReportInstallFailedNoUpdate"
+- "ReportInstallFailedRollingBack"
+- "ReportPreparedSet"
+- "ReportRemoveAwaitingReboot"
+- "ReportRemoveFailedRollingBack"
+- "ReportRemoveInstalling"
+- "ReportRollbackAwaitingReboot"
+- "ReportRollbackInstalling"
+- "Reporting active declaration to client: %@"
+- "Revoked update found: %@"
+- "Rollback Started: %@"
+- "Rollback already applied, allow rollback"
+- "Rollback already applied, just proceed to reboot"
+- "Rollback already recommended for %@, skipping follow-up"
+- "Rollback failed with error: %@"
+- "Rollback not allowed. Ignoring revoked update: %@"
+- "Rollback not allowed. Preventing rollback request: %@"
+- "Rollback not allowed. Returning nil rollback descriptor: %@"
+- "Rollback recommended. Info: %@ \nRollback Descriptor: %@"
+- "Rollback succeeded: %@. Informing clients"
+- "RollbackComplete"
+- "RollbackFailed"
+- "RollbackRequested"
+- "RollingBack"
+- "SDBetaManager"
+- "SDDevice"
+- "SSO UserName and Token are set for personalization, setting it in policy"
+- "SUAddClientTransaction"
+- "SUAutoDownloadPolicy prevents SU asset download: %@"
+- "SUCCESS"
+- "SUClientForegroundnessChangedNotification"
+- "SUClientMessagabilityChangedNotification"
+- "SUDDMManager failed to initiate as first call to sharedManager was made without a server delegate"
+- "SUEntitledReservation"
+- "SUEntitledReservationFree"
+- "SUEntitledReservationSecured"
+- "SUFSReserveRequestedSize"
+- "SUFSReserveSize"
+- "SUFakeInstallFailure is set; faking an installation failure of SUErrorCodeInstallNotAllowable..."
+- "SUManagerServerClient <%p>:\n\ttype: %@\n\tpid: %d\n\tidentifier: %@\n\tapplication? %@\n\tmessagable? %@\n\tforeground? %@\n\tisExclusiveClient? %@"
+- "SUManagerServerClient [%@:<%p>]"
+- "SUManagerServerClient _applicationStateChanged"
+- "SUMinimumLaunchTransaction"
+- "SUSController-installCompleted-retry"
+- "SUSController-installUpdateWithInstallOptions"
+- "SUSController-startDownloadWithOptions"
+- "SUScanPriorityBackground"
+- "SUScanPriorityMDMVersionSpecific"
+- "SUScanPriorityNone"
+- "SUScanPrioritySplatBackground"
+- "SUScanPrioritySplatUserInitiated"
+- "SUScanPriorityUserInitiated"
+- "SUSkipDownload is set, skip the download phase and return YES."
+- "SUSkipDownload or SUSkipApply is set, skip this apply phase and return YES."
+- "SU_MDM_CONFLICTS_WITH_DDM_ERROR"
+- "Saved auto-install-operation is expired"
+- "Saving event %@\n"
+- "Scan Options: %@"
+- "Scan didn't find anything relevant; don't retry"
+- "Scan discovered revoked Splat. Not presenting update"
+- "Scan failed with error %@"
+- "Scan found an update and a previously prepared update is present"
+- "Scan found an update and no previously prepared update is present"
+- "Scan found preferred descriptor {%@} and alternate descriptor {%@}\nwith error %@\nfor scan options %@"
+- "Scan hit an error %@, retrying in 5s: %d"
+- "Scan interval server configuration changed"
+- "Scan triggered by ddm, nothing to do here"
+- "Scanned for [%@] updates, but didn't find any."
+- "Scanned for splat updates, but found non-splat update."
+- "Scanning for new OTA software update..."
+- "Scanning for splat update, catalog not found: %@"
+- "Scanning for update for DDM declaration %@"
+- "Schedule to retry downloading on %@ for reason: %@"
+- "Scheduled auto install operation: %@"
+- "Scheduled immediate follow-up for regular update"
+- "Scheduled splat follow-up notification for %@"
+- "Scheduled splat follow-up notification for %@ after daemon restart"
+- "Scheduling Activity (%@, runDate = %@) with XPCActivity scheduler"
+- "Scheduling Activity (%@, runDate = %@) with legacy scheduler"
+- "Scheduling alarm: %@"
+- "Scheduling an auto download for %@; requirePower=%d, minimumPowerRequirement=%d"
+- "Searching documentation from override path"
+- "Searching documentation metadata"
+- "Secondary"
+- "Sending %@ to UI"
+- "Sending autodownload did fail to start notification to clients."
+- "ServingPlmn"
+- "Setting analytics submission delay to %u"
+- "Setting automatic download enabled : %@"
+- "Setting goNonDiscretionaryOnDownload to YES"
+- "Setting isInstallTonightScheduled to NO"
+- "Setting recommended update timer for %@"
+- "Setting splatInstallDate for splat-only update: %@"
+- "Settings SULastRollbackDescriptor: %@"
+- "Setup Assistant (Buddy) process not found"
+- "Skip loading documentation (directed by options)"
+- "Skip loading documentation (doc already exists)"
+- "Skip loading documentation (no update provided)"
+- "Skip loading documentation for buddy on bootstrap network"
+- "Software Update not allowed because RRTS is on"
+- "Software update daemon continuing to run - busy."
+- "Software update daemon continuing to run - transactions: %@"
+- "Software update download phase changed from %@ to %@."
+- "SoftwareUpdate"
+- "Splat RestoreVersion decremented"
+- "Splat RestoreVersion incremented"
+- "Splat Rollback disabled"
+- "Splat Rollback disabled due to missing rollback objects"
+- "Splat-only asset scan disabled by device management"
+- "Splat-only update installed, but new update available. Preventing rollback"
+- "Splat-only update not installed. Unable to rollback update"
+- "Starting SU Installation with install options: %@; policy: %@"
+- "Starting SU download with options: %@"
+- "Starting auto download while client in foreground, go non discretionary once download start"
+- "Starting the server."
+- "Starting the server: keepAlive = %@"
+- "Stashbag persist failed: %d"
+- "Stashbag persisted"
+- "State reset complete."
+- "Submitting SU Coreanalytics events"
+- "Submitting all CoreAnalytics events\n"
+- "Submitting all CoreAnalytics events matching name %@\n"
+- "Submitting event %@\n"
+- "Succeeded to remove fully un-ramped date for %@"
+- "Succeeded to set fully un-ramped date %@ for %@"
+- "Successfully removed old controller data file at %@"
+- "Successfully scheduled activity %@"
+- "Successfully set global settings from %@ to %@"
+- "Successfully unscheduled activity %@"
+- "TIME OUT waiting for beta enrollment check in %s"
+- "TIME OUT waiting for reloadDescriptor for alternate update %@"
+- "TIME OUT waiting for reloadDescriptor for preferred update %@"
+- "The current active declaration was canceled, re-evaluate the declarations"
+- "The current download is relevant to the canceled declaration; purge it"
+- "The enforced update successfully finished; invalidating the declaration ..."
+- "The last scan error %@ is fatal, notifying the status channel."
+- "The options for activity %@ are %@"
+- "There is a tonight activity scheduled. Skipping auto download attempt"
+- "There is no downloaded asset. Clearing the last auto-install-operation"
+- "Timebombing audience"
+- "Trying to install a Splat but an already-installed Splat was detected, rebooting..."
+- "Trying to waking up %@..."
+- "Unable to allocate _CDSleepForAutoSu to get rollback reboot time"
+- "Unable to autodownload with nil download descriptor"
+- "Unable to cancel download for cellular bundle change: %@"
+- "Unable to cancel download: %@"
+- "Unable to create event reporting server URL. Not sending event: %@"
+- "Unable to handle null declaration"
+- "Unable to map SUS MDM SU path to SUCore MDM SU path (%lu). Returning SUCoreMDMSoftwareUpdatePathDefault"
+- "Unable to read updateDate file..bailing"
+- "Unable to remove fully un-ramped date for %@ because we don't have it"
+- "Unable to remove fully un-ramped date for nil descriptor build version"
+- "Unable to rollback update. No eligible rollback found"
+- "Unable to set discovery date for descriptor with nil date"
+- "Unable to set discovery date for nil descriptor build version"
+- "Unable to set fully un-ramped date because it's already been set for %@"
+- "Unable to set fully un-ramped date for descriptor with nil date"
+- "Unable to set fully un-ramped date for nil descriptor build version"
+- "Unable to wakeup %@"
+- "Unknown Date"
+- "Unknown SUServerConfigValueType %lu"
+- "Unknown activity: %@"
+- "Unknown selector %@ for SUManagerCore"
+- "Unlock window did begin"
+- "Unlock window passed. Firing unlock window timer manually"
+- "Unlocked"
+- "Unscheduling activity %@ with %@ scheduler"
+- "Unscheduling existing activity %@ before reshedule"
+- "Update found for DDM declaration %@: %@ [%p]"
+- "Update found for declaration: %@ [%p], %@"
+- "Update found for scan options: %@"
+- "Update found for the new declaration %@; let's enforce it!"
+- "Update found was newer than curently download(ed|ing) update.  Attempting to cancel download."
+- "Update found! Let's enforce %@"
+- "Update is prepared. Re-registering for RecordDataForBrain unlock callback"
+- "Update not auto downloadable because it was previously deleted by the user"
+- "Update not auto downloadable because it was rolled back"
+- "Update not auto downloadable because ramp=YES"
+- "UpdateCanceled"
+- "UpdateFailed"
+- "UpdateProgress"
+- "Updating download options for foreground status change if necessary."
+- "User consented during unlock window. Persisting stash"
+- "User initiated update download%@. Skipping auto download"
+- "Using %s scheduler"
+- "Using server configured auto scan interval - scan once every %d minutes"
+- "WaitNetwork"
+- "WaitUnlock"
+- "WaitingFirstUnlock"
+- "WaitingNetwork"
+- "Warning: revoked update has no build version"
+- "We can't load the brain now, skipping auto download attempt"
+- "Will cancelAutoInstallStartInstallTask"
+- "Will not cancelAutoInstallStartInstallTask"
+- "Will retry to auto install in %d seconds"
+- "Window ends on %@; attempting to reschedule auto install on %@"
+- "Window ends on %@; cannot reschedule auto install on %@"
+- "Wrote ControllerDataForBrain to disk %@"
+- "XPCActivityManager"
+- "[%@] %@ foreground:%d _pid:%d  _taskState:%u _isApplication:%d _isMessagable:%d _isVisible:%d"
+- "[ANOMALY] Download faild but the download object is nil"
+- "[ANOMALY] shouldn't have any previously scheduled activity!"
+- "[Anomaly] handleActiveScanTaskScanCompletion: no update found after collecting doc assets"
+- "[Anomaly] handleActiveScanTaskScanCompletion: no update found with no error provided"
+- "[Auto Install Jitter] Starting auto installation in %d seconds"
+- "[Auto download] Auto download activity had a run date in the past(%@). Clearing it for next schedule attempt"
+- "[Auto download] Found auto download activity: %@"
+- "[Auto download] Not re-scheduling autoDownload since it was not previously scheduled"
+- "[Auto download] Not scheduling auto download: Currently Downloading"
+- "[Auto download] Setting last auto download date to now since it is nil"
+- "[Auto download] Setting runDate for autoDownload activity to nil because of invalid/unset runDate on downloadActivity object"
+- "[Auto download] Using auto download override value: %@"
+- "[Auto download] Using server configured auto scan interval - download once every %d minutes"
+- "[Auto scan] %@ has granularlyRamped set, auto download now"
+- "[Auto scan] %@ has rampEnabled set, do not auto download"
+- "[Auto scan] Automatic scan failed with error: %@"
+- "[Auto scan] Automatic scan failed with error: No suitable update to auto download"
+- "[Auto scan] Automatic scan for type [%@] disabled while in Rapid Return to Service Mode."
+- "[Auto scan] Automatic scan for type [%@] disabled while roaming over cellular."
+- "[Auto scan] Automatic scan found a normal OS update, only auto download if last auto download was %f days ago: %@"
+- "[Auto scan] Automatic scan found a splat or emergency update, immediately handle: %@"
+- "[Auto scan] Automatic scan fouond an update: %@"
+- "[Auto scan] Greater than %f days have passed since auto downloading for OS updates, consider %@ auto downloadable/updateable/presentable"
+- "[Auto scan] Last scan date: %@, Last discovery date: %@, Last auto download date: %@"
+- "[Auto scan] Less than %f days have passed since last auto-download, do not auto download"
+- "[Auto scan] Splat scans are disabled, hiding splat: %@"
+- "[Auto scan] Starting software update auto scan for type: %@"
+- "[Auto scan] Using auto scan override value: %@"
+- "[Auto scan] downloadNow is set, auto download now"
+- "[DDM] %s: %@"
+- "[ENGINE]"
+- "[PREFERENCES] ! using as-if build ver for policy: %@"
+- "[PREFERENCES] ! using as-if product ver for policy: %@"
+- "[PREFERENCES] ! using as-if restore ver for policy: %@"
+- "[PREFERENCES] session id ramping portion is set to %@"
+- "[SUAutoInstallManager] A previous auto installation failed due to error %@, retrying..."
+- "[SUAutoInstallManager] A previous manual installation failed due to error %@, nothing to do here"
+- "[SUManagerServerClient init] Failed to get the process handle for pid:%d error: %@"
+- "[SUManagerServerClient init] Initiated\n%@"
+- "[SUManagerServerClient monitorClientStateIfNecessary] %@ is not an application"
+- "[SUManagerServerClient monitorClientStateIfNecessary] Failed to get the process handle for pid:%d error: %@"
+- "[Space] %s Setting entitled space to %llu (%llu MB) and unentitled to %llu (%llu MB)"
+- "[Space] %s Setting entitled space to %llu (%llu MB) and unentitledSpace to %llu (%llu MB)"
+- "[Space] %s releasing entitled space and resume CD reserve monitoring"
+- "[makeRoom] result = %d, cleanupLevel = %@, error = %@"
+- "[scanCompleted] %@ is fully unramped!"
+- "[scanCompleted] %@ is fully unramped."
+- "[scanCompleted] %@ is not fully unramped."
+- "_%d"
+- "_EventRecordingServiceURL"
+- "__NoStashbagCommit"
+- "_ddmConfiguration persistence path: %@"
+- "_failedToAutoInstallError changed from %@ to %@"
+- "_reapplyExistingDownloadPolicyIfDownloadable returned NO. Bailing on download"
+- "activateLoadingPersisted"
+- "active scan canceled successfully"
+- "active scan canceled with error:%@"
+- "alwaysEnableAutoDownload: %@"
+- "alwaysEnableAutoInstallOSUpdates: %@"
+- "alwaysEnableAutoInstallRapidSecurityResponse: %@"
+- "asset:%@ releaseDate:%@ sessionID:%@ scanOptions:%@ downloadOptions:%@ installTonightConfig:%@ atPhase:%@ cleanupLevel:%@, coreDescriptor:%@"
+- "assetToDownloadFromLastScan is nil, trying to locally find a matching asset for descriptor:%@"
+- "auto-tryDownload"
+- "auto-tryScan"
+- "auto-update"
+- "autoDownloadToggleEnabled"
+- "autoInstallSecurityResponseToggleEnabled"
+- "autoInstallSystemAndDataFilesToggleEnabled"
+- "autoUpdateEnabledForDescriptor"
+- "autoUpdateToggleEnabled"
+- "basejumper.apple.com"
+- "bgst"
+- "callback count = %lu"
+- "cancel requested so not performing scanForDocumentationAssetWithDescriptor and not triggering completion"
+- "cancel requested so not performing scanForSUAssetWithCompletion and not triggering completion"
+- "cellular"
+- "cheeserolling.apple.com"
+- "clearing autoInstallOperation for reason: %@, destroying keybag stash: %@"
+- "com.apple.MobileAssetError.Purge"
+- "com.apple.NRD.UpdateBrainService"
+- "com.apple.SetupAssistant"
+- "com.apple.SoftwareUpdateServices."
+- "com.apple.SoftwareUpdateServicesUI.iOSPlugin"
+- "com.apple.alarm"
+- "com.apple.frontboard.visibility"
+- "com.apple.inboxupdaterd"
+- "com.apple.migrationpluginwrapper"
+- "com.apple.purplebuddy"
+- "com.apple.softwareupdate.autoinstall.simulated.startInstall"
+- "com.apple.softwareupdate.autoinstall.startInstall"
+- "com.apple.softwareupdateservices.SUPolicyFactoryQueue"
+- "com.apple.softwareupdateservices.SUScanTaskQueue"
+- "com.apple.softwareupdateservices.autoInstallManager.stateQueue"
+- "com.apple.softwareupdateservices.client.allowed"
+- "com.apple.softwareupdateservices.connectionQueue"
+- "com.apple.softwareupdateservices.ddm.special"
+- "com.apple.softwareupdateservices.ddmWorkQueue"
+- "com.apple.softwareupdateservices.ddmWorkQueue.gs"
+- "com.apple.softwareupdateservices.externWorkqueue"
+- "com.apple.softwareupdateservices.mdmWorkQueue"
+- "com.apple.softwareupdateservices.workqueue"
+- "com.apple.softwareupdateservicesd.SUCoreConfigScheduledScan"
+- "com.apple.softwareupdateservicesd.SUTransactionManager"
+- "com.apple.softwareupdateservicesd.activity.analyticsSubmission"
+- "com.apple.softwareupdateservicesd.activity.autoDownload"
+- "com.apple.softwareupdateservicesd.activity.autoInstallEnd"
+- "com.apple.softwareupdateservicesd.activity.autoInstallGetKeybag"
+- "com.apple.softwareupdateservicesd.activity.autoInstallUnlock"
+- "com.apple.softwareupdateservicesd.activity.autoScan"
+- "com.apple.softwareupdateservicesd.activity.delayEndScan"
+- "com.apple.softwareupdateservicesd.activity.emergencyAutoScan"
+- "com.apple.softwareupdateservicesd.activity.installAlert"
+- "com.apple.softwareupdateservicesd.activity.presentBanner"
+- "com.apple.softwareupdateservicesd.activity.rollbackReboot"
+- "com.apple.softwareupdateservicesd.activity.splatAutoScan"
+- "com.apple.softwareupdateservicesd.activity.splatFollowUp"
+- "com.apple.softwareupdateservicesd.autodownload"
+- "com.apple.softwareupdateservicesd.clientQueue"
+- "com.apple.softwareupdateservicesd.installationConstraintQueue"
+- "com.apple.softwareupdateservicesd.scheduler"
+- "com.apple.softwareupdateservicesd.serverConfigStateQueue"
+- "com.apple.softwareupdateservicesd.wakeup"
+- "com.apple.sus.ddm"
+- "com.apple.sus.ddm.download"
+- "com.apple.sus.ddm.evaluate"
+- "com.apple.sus.ddm_manager"
+- "com.apple.sus.gamemodemonitor.q"
+- "com.apple.susuiservice.SUSUInstallAlertCFUserNotificationUIExtension"
+- "com.apple.system.console_mode_changed"
+- "connection refused for unentitled client %@"
+- "copyPersonalizationSSOToken"
+- "createInstallationKeybag - asked to create attended keybag but will create unattended one anyway"
+- "current global settings = %@"
+- "currently no network connection"
+- "currently scheduled to run"
+- "declaration"
+- "declarationToEnforce = %@, updateForDeclaration = %@ [%p]"
+- "declarations = %@"
+- "defaultDelay = %@"
+- "delay is set to %d seconds by default"
+- "destroying keybag stash %@"
+- "document scan completed but cancel requested so not triggering completion"
+- "document scan completed with ScanCanceled error but cancel was not requested, triggering completion with error"
+- "done waiting for resume from last known state, continuing"
+- "download did fail"
+- "download did fail: %@, error: %@"
+- "download did finish"
+- "download did finish: %@, install policy: %@"
+- "download did start"
+- "download did start: %@"
+- "download failed"
+- "download failed to start"
+- "download policy doesn't allow downloading over cellular"
+- "download was killed"
+- "download was killed: %@"
+- "downloading"
+- "ed"
+- "enableGlobalNotifications: %d"
+- "enableRapidSecurityResponse: %d"
+- "enableRapidSecurityResponseRollback: %d"
+- "engine"
+- "engine FSM has reported an anomaly"
+- "engine:%@(%@)"
+- "entered _persistStash"
+- "failed"
+- "failed to allocate event for %@ event so not reported"
+- "followup event"
+- "gdmf-staging-int.apple.com"
+- "getDDMGlobalSettingsWithHandler - globalSettings = %@, error = %@"
+- "handleActiveScanTaskScanCompletion: collecting doc for alternate update (%@)"
+- "handleActiveScanTaskScanCompletion: collecting doc for preferred update (%@)"
+- "handleActiveScanTaskScanCompletion: doc scan for alternate descriptor failed with: %@"
+- "handleActiveScanTaskScanCompletion: doc scan for preferred descriptor failed with: %@"
+- "handleActiveScanTaskScanCompletion: found preferred udpate descriptors: %lu; alternate update descriptors: %lu"
+- "handleActiveScanTaskScanCompletion: no available FR found"
+- "handleActiveScanTaskScanCompletion: no matching update found for %@"
+- "handleActiveScanTaskScanCompletion: preferred udpate: %@; alternate update: %@"
+- "in SUManagerServer"
+- "ing"
+- "install-tonight"
+- "installAlertAlarmName"
+- "installNotReady"
+- "installTonightActive"
+- "installationKeybagState = %d"
+- "isInstallerReadyForInstallationWithOptions? NO due to %@"
+- "isInstallerReadyForInstallationWithOptions? YES"
+- "isPasscodeLocked = %d"
+- "isReadyToInstall (SB) Returned NO. Error: %@"
+- "isReadyToInstall (SUS) Returned NO. Error: %@"
+- "isReadyToInstall Returned YES"
+- "lastPreferred: %@ lastAlternate: %@ results: %@"
+- "legacy"
+- "locksmith.apple.com"
+- "managed scan options after amendment: %@"
+- "mdm"
+- "network unavailable canceling scan"
+- "new"
+- "nil"
+- "nil update is not auto downloadable"
+- "none"
+- "not in activating state"
+- "notification"
+- "otaSimulatedAutoTriggered"
+- "param type is not DOWNLOAD_DESCRIPTOR"
+- "purge doc assets"
+- "purge psus assets"
+- "received profile change notification"
+- "recommendedCadence: %@"
+- "releasing lock assertion"
+- "removing unlock callback for key %@"
+- "reporting OTA event: %@"
+- "reset install policy to: %@"
+- "resumeOrResetStateIfNecessary: Dismissing AutoUpdateBanner if present"
+- "runDate is nil for auto download; start immediately"
+- "scan completed but cancel requested so not triggering completion"
+- "scan completed with ScanCanceled error but cancel was not requested, triggering completion with error"
+- "scan-after-global-settings"
+- "scanResultsChangedSinceLastScan: Alternate update has changed"
+- "scanResultsChangedSinceLastScan: Alternate update is newly discovered"
+- "scanResultsChangedSinceLastScan: Alternate update is newly null"
+- "scanResultsChangedSinceLastScan: Alternate update was previously the preferred update"
+- "scanResultsChangedSinceLastScan: Preferred update has changed"
+- "scanResultsChangedSinceLastScan: Preferred update is newly discovered"
+- "scanResultsChangedSinceLastScan: Preferred update is newly null"
+- "scanResultsChangedSinceLastScan: Preferred update was previously the alternate update"
+- "scanResultsChangedSinceLastScan: pc=%d, ac=%d, pwa=%d, awp=%d, pnd=%d, and=%d"
+- "scheduler"
+- "schedulerAction"
+- "selector string = %@"
+- "server fetch history: %@"
+- "setDDMGlobalSettings - result = %d, error = %@"
+- "setup-assistant"
+- "skip purging doc assets"
+- "skip purging psus assets"
+- "softwareupdateservicesd could not read keep alive status from launchd."
+- "softwareupdateservicesd could not toggle keep alive status to launchd."
+- "ssodata"
+- "startedFromPersistedState"
+- "succeeded"
+- "system-settings"
+- "timeBombedDate"
+- "tracked but not currently scheduled to run"
+- "tryAutoDownload: Error starting autodownload: %@"
+- "unable to remove all splat update content"
+- "unable to remove all update content"
+- "unattendedInstallationKeybagCreated: isAutoUpdate and isAutoDownload are true..Scheduling presentation of AutoUpdateBanner"
+- "unexpected activate - activated:%@, activating:%@"
+- "unknown action(%@)"
+- "unlock callback count = %lu"
+- "unlockCallbackBrainDownloadComplete"
+- "unlockCallbackEngineUnlockNotification"
+- "unlockCallbackLoadBrain"
+- "unlockCallbackPersistStash"
+- "unlockCallbackPresentAutoUpdateBanner"
+- "unlockCallbackRecordDataForBrain"
+- "unlockCallbackResumeUpdate"
+- "unlockCallbackVerifyAndPrepare"
+- "update was successfully installed: %@"
+- "updateDate"
+- "updateDeferralPeriod: %lu"
+- "v12@?0B8"
+- "v16@?0@\"<RBSProcessMonitorConfiguring>\"8"
+- "v16@?0@\"BGNonRepeatingSystemTask\"8"
+- "v16@?0@\"NSObject<OS_xpc_object>\"8"
+- "v16@?0@\"NSTimer\"8"
+- "v16@?0@\"SUCoreDescriptor\"8"
+- "v16@?0@\"SUDescriptor\"8"
+- "v16@?0@\"SUManagerServerClient\"8"
+- "v16@?0@\"SUScanOptions\"8"
+- "v24@?0@\"NSString\"8@\"NSDictionary\"16"
+- "v24@?0@\"SUCoreDescriptor\"8@\"NSError\"16"
+- "v24@?0@\"SUManagerServerClient\"8^B16"
+- "v24@?0@\"SUScanOptions\"8@\"NSError\"16"
+- "v24@?0B8B12@\"NSError\"16"
+- "v24@?0B8i12@\"NSError\"16"
+- "v32@?0@\"RBSProcessMonitor\"8@\"RBSProcessHandle\"16@\"RBSProcessStateUpdate\"24"
+- "v32@?0@\"SUCoreDescriptor\"8@\"NSError\"16@\"NSError\"24"
+- "v32@?0@\"SUCorePolicy\"8@\"SUCoreDescriptor\"16@\"NSError\"24"
+- "v56@?0@\"SUCoreDescriptor\"8@\"SUCoreDescriptor\"16@\"SUCoreDescriptor\"24@\"SUCoreDescriptor\"32@\"SUScanOptions\"40@\"NSError\"48"
+- "v56@?0@\"SUCorePolicy\"8@\"SUCoreDescriptor\"16@\"SUCoreDescriptor\"24@\"SUCoreDescriptor\"32@\"SUCoreDescriptor\"40@\"NSError\"48"
+- "version.plist"
+- "waiting %d seconds to resume from last known state"
+- "waiting for resume from last known state timed out, continue anyway"
+- "was called"
+- "xpc"
+
+```

@@ -1,0 +1,46 @@
+## HandyTech
+
+> `/System/Library/ScreenReader/BrailleDrivers/HandyTech.brailledriver/HandyTech`
+
+```diff
+
+ 324.0.0.0.0
+-  __TEXT.__text: 0x1f9c sha256:4a0acf5d85b1c924400a122f18ebbca69045df7cf823530aac3f4755337a7115
++  __TEXT.__text: 0x1f98 sha256:95f0ffa1791267804ba0b1e5f8904d275fa2ede3cf6dad31f463b47f98137d56
+   __TEXT.__auth_stubs: 0x3a0 sha256:0d96002755937c3151c26840069d1d60fec50ae5278e81511982b67720d879c4
+   __TEXT.__objc_stubs: 0x4a0 sha256:4e257d967a640cbf0c688eb008601dac50eef55e69e6d3d5ce06f2a44e213864
+-  __TEXT.__objc_methlist: 0x3a4 sha256:f8c55f0481ad68a6ebe620c7194822ebe67003c8920c4a67773bacc177eb6869
++  __TEXT.__objc_methlist: 0x3a4 sha256:87d31ae843eb3c9df985714766287eccba4632edfb9bf76f4e3b5a4573121234
+   __TEXT.__const: 0x20 sha256:732e46fe0687d10b9a01fd4561d35b2de42dfbaa0013010dd3ff59e45380c3e1
+   __TEXT.__objc_methname: 0x65c sha256:feeef3fa325da45a583360d09381b06c97c9f76c251f653fddf144c62149e50c
+   __TEXT.__cstring: 0x73b sha256:074448f66b01702bf62b64b54d00e7864debd67c84fcc2c3a7df6012f8434c89
+   __TEXT.__oslogstring: 0xc0 sha256:ed1deb267fa34f1a8861c2b494b433bcf7c77e19cbdbad8be13850829993ccfc
+   __TEXT.__objc_classname: 0x95 sha256:b38223d4c34b877290d31656762af6ee0c515523d83fd4093168dae112d7f8a7
+   __TEXT.__objc_methtype: 0x23e sha256:073ee67b3b44e7063bee1161ea72db4944a9aa9ef0719725c0849d77f0c33104
+-  __TEXT.__unwind_info: 0xc0 sha256:fc4451aa4961f1bfdc88bf7463da8aed30ecb18122c46a8ebc6eac4c0eab733a
++  __TEXT.__unwind_info: 0xc0 sha256:3b337f13e6f26f5a881eebf1a44ca57d1235e9d7d11a2e56c40dd0ec1e697d67
+   __DATA_CONST.__cfstring: 0x3e0 sha256:9b7345b9b10baf037126cc9d8a9f81bacdad172b58d02fed763be62488bedf6c
+   __DATA_CONST.__objc_classlist: 0x8 sha256:b500a7574716e30a199078669e39ba584673b4008df3345b8c2f893519b3daaa
+   __DATA_CONST.__objc_protolist: 0x30 sha256:951dddfab91fd8cf4157786e7ebcaaa54519066011abec38b5abaeb760494680
+
+   - /System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A74171A6-DE85-3E4B-8F1D-3F4C599AE27C
++  UUID: 254EF2A2-399E-3544-BF29-AF44A1B4B641
+   Functions: 27
+   Symbols:   104
+   CStrings:  220
+Functions:
+~ sub_eb0 : sha256 6b21f2a29b92d5c6d9d2c83485959aaac61da1aa1adc1c320c10a9e7984989ff -> 9725f9e51ee3c75692706b10b3b55260f13a1cc26ee62df346d5d6f94288f697
+~ sub_f08 : sha256 94c39727ceb08fad5376591bd0f58f2b0e4134c37d658d0ab15cb172361c1fab -> 5ee4edcd60d0b9d0469029e9101d67039cbb12c802c1f5de31697ae6e1ba25e1
+~ sub_f58 : 3664 -> 3660
+~ sub_1da8 -> sub_1da4 : sha256 2d89436151a063164e14dcb501915b0b00595d305fbad9da25d69e99893814e4 -> 197b64a122707f7c226d38f586aad150727da3a4a91d86e527e3cb420329a1f9
+~ sub_1ea8 -> sub_1ea4 : sha256 d2fc7c84a28e155b4020c62340a8773f44a80044dc2971bc5b30416a9c2452cf -> a819c3b9c554e2e9709fa65395180f002170bd351572f230ce1925b89ccc4a1b
+~ sub_20f4 -> sub_20f0 : sha256 b0cf6495a5d04e511d94079f2f542c14012a6367dad5b5aaf3c4cbe5729a9fa5 -> e63400470831fbf0e50643965d2803990e49795748c837a7c0ec476602d4c414
+~ sub_245c -> sub_2458 : sha256 2c9345614914c309bf95bbc89d1084ac1a6a3a120067396339ca80cc49004328 -> 97c8744c0093e00c8c95b9023bd58b68b04cac777eb6902b5ddeeee7de29d41c
+~ sub_24e0 -> sub_24dc : sha256 24d46b9141d4d68bcb66cc351792566f11ab2d8249ae1378086fdf77625051a7 -> dc31dd37d6c591e0fcecfec876c4c180bc5c544c013617c4c1c5829a4e0720cd
+~ __MSCRODebugAbortPrint : sha256 8f6f0b49e0d3f3600bb3f4690a5cc8ab4c39a2ee69ee7f23f843b83726bec6af -> a1b1a8fac6f5bf2830f3a3a49a91cd02c37ca3e9feed6c8bac1d46609e505cf6
+~ _MSCROBTOpenComPort : sha256 3f071e4447497dce3709c81162f5d5559c23d98e401d6a83e914dd78e4e8d182 -> 456ed379cff99ad2977dc2d53e9ed4dd776d71ce1c5b643b534c6f596882c47f
+
+```

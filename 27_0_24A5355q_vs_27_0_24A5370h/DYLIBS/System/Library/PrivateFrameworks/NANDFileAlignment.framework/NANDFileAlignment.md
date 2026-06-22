@@ -1,0 +1,83 @@
+## NANDFileAlignment
+
+> `/System/Library/PrivateFrameworks/NANDFileAlignment.framework/NANDFileAlignment`
+
+```diff
+
+-835.0.0.0.0
+-  __TEXT.__text: 0x868 sha256:4843273fa0368dd7b11b1076e44c99135f0311161e9c0b3f25318583b803f7c5
+-  __TEXT.__objc_methlist: 0x224 sha256:cc94b35ee95576478b525f5a4800c52a8f8e56c5b3dc39cd6a454b6c86536f8c
++843.0.0.0.0
++  __TEXT.__text: 0x868 sha256:c5f045b45e8859fe03760c9129276263f8f4b0fe473d332f8b0c401b82e68212
++  __TEXT.__objc_methlist: 0x224 sha256:72e11e1b495dc42fa44561d29aa4848ae93bd2500908febbf8c360a8d95282ce
+   __TEXT.__const: 0x60 sha256:226063145c65db20ed4ff775394eb7369deb37332ce8605a9a697689e385c501
+   __TEXT.__gcc_except_tab: 0x2c sha256:59146e52ecca4abb1773fd549f6409adeec6fa17fc5e1336a7a0b2bf484293b9
+   __TEXT.__cstring: 0x5d sha256:bef7d523824df8aa36bf2484b37195b13113b3635316e0b582fc9d6563e33bf0
+   __TEXT.__oslogstring: 0x82 sha256:5237a005b9fd31782df9b9c425bc3eadf780f068d9042755e5abf18be9dfd53f
+-  __TEXT.__unwind_info: 0xa8 sha256:c89409c6959c21e7d253772f947770a6dc4749d3806e11e5ebf326e414dd0834
++  __TEXT.__unwind_info: 0xa8 sha256:5dcdd77880798368a8688bcdb5fa18bb686f79401e651f73d05920900462e0de
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x70 sha256:7e7642f49d24793a45ce98fce8012b988e3a505961d79833c628eb786f427817
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:868d0553f8ac48ad1f9d27e9655eebfb3a82b28e265c092c096e39004dab891f
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:873873bb03031c0db6059d177c23442d3f8f62240331fc5fe95dcd4f6b414aca
++  __DATA_CONST.__const: 0x70 sha256:5ff9a6102ce5d7d1b94ee630e84185cf03e36086f6e0ff5e6d4e8df3488505c2
++  __DATA_CONST.__objc_classlist: 0x8 sha256:b7a3d165ad4b10a9dac644c23b3e86a16a332a48357ae71c8ac2340913a8e17e
++  __DATA_CONST.__objc_protolist: 0x10 sha256:ee49c78f919a93f3d9ede6229948cf0869e4e1445424ee5e7246143763a831ed
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x198 sha256:3575d25725f0b615695adaa623407ee00be8d9849c77dc8e689da217c8e2edf6
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:3cf4f544640a8831e71f47c873b74a4b674a79ebe80efabb2b0e1359d128143f
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:d462b91120621281f4bacf6d49f98af60e800998ca23a25677a05ef31d6f671e
++  __DATA_CONST.__objc_selrefs: 0x198 sha256:07385d08510010c28c9cdfe3ee660039830d2c3ca67e25b2030e21aedca25ef7
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:f8184e34359f74c88a6d1331a4dd1cf098d2158115f1337b1ee1c6fbc29b5aa2
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:d8a3a49f5793fba80652bc3fc2a1d1eb50d675e830664d37fb411d9b88de3284
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x40 sha256:6cf33ab41e21a006966470677028ddbbf5db018be14b4041deb36d8f34d9ee3d
+-  __AUTH_CONST.__cfstring: 0x20 sha256:8d9c84e1722c5193ee67c080d4748adae030289b574e627bbaf6676dc55eb111
+-  __AUTH_CONST.__objc_const: 0x228 sha256:12d2735e134f02008b9a015bc0f409eb5565c7eed22dcee76a2aa61e29110b16
++  __AUTH_CONST.__const: 0x40 sha256:905ff8842856404a1a29047850af8d4ce16d3496012602013ed132f3763a1684
++  __AUTH_CONST.__cfstring: 0x20 sha256:5c93f2e7703c382384258028f03257bd4c10987dc1d293eb7921b4bf4b5c583d
++  __AUTH_CONST.__objc_const: 0x228 sha256:7b7371145e062777d28accd7dbceabe4646ab24efc0610d88a13973106625581
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x8 sha256:1842d9d60985977543496f68d38a01a5470beb95bdae33af49b8167ada489f83
+-  __DATA.__data: 0xc0 sha256:27077cf8dc029c25bd49ad3d822e4af2fd11eb129622f6aec9afd0e8b16a039c
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:8508fff845c6aadff9f051247c25938334ee49b881ab7e0f199ff5967d73dbd5
++  __DATA.__data: 0xc0 sha256:872881e8a89335a9903011f0b4bf8cab36122156742fbfcb84fbeb8d42add680
++  __DATA_DIRTY.__objc_data: 0x50 sha256:2233fac3ed7d44304a4f92c2edd1351c33b529a4a4404a40ee17dc500410b032
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 425280CB-F4E2-3A37-95F5-0DA166A7059A
++  UUID: DA51657B-D278-38E5-8D96-690A435DE062
+   Functions: 25
+   Symbols:   134
+   CStrings:  8
+Functions:
+~ -[NANDTaskSchedulerClient init] : sha256 8602b49c29d747b6531856847fcfb54e5da0a6004a650d23428bb0ab5e43c457 -> 37f2bdafbae48f81d290ffccd1542099a3677bf5080f018d45a5f1cf9e811e12
+~ -[NANDTaskSchedulerClient dealloc] : sha256 ee9a71ca51f488c1c78e3968b1a42f338ab72385479bdeb4154848ae1037ee66 -> cff080f29bb09c4b1aab2f50fdbb692ab0404f45f253a2394f9a821afac2054d
+~ -[NANDTaskSchedulerClient _setupConnection] : sha256 060710a2fc3e23c18f5c9189fdc1fc67cd8b8f49cfd6c55bf2cc3e42741e4806 -> 976b9735c947c71fe20fa84f640f050b04038c8b91857ef38f6416bec603f386
+~ ___43-[NANDTaskSchedulerClient _setupConnection]_block_invoke : sha256 f55df94fb27e41f45ae743f6062ceaed78a782ac13bf9ee1e691abe32986c18f -> 5ae4034840eb550a9de328e2263d5942f98a832287589a5bb90ff4500dd4f319
+~ ___43-[NANDTaskSchedulerClient _setupConnection]_block_invoke.59 : sha256 1bae97c95038b4e51845dd4099ee2ba65ee4fce73bb65c49bd67620718fa7acc -> 9a0da69e46834cbd93397cb0b3b0bc0bb86cd272f4dc88410f0906dff38af35c
+~ -[NANDTaskSchedulerClient _remoteObjectProxy] : sha256 b98c78e357c0f8c9f12a2647efeede08ff9c88d241c175f29f7d7db295e623cb -> 06692338e49768df024572f620b6e2caa41cb1ab06e40ffb27c57e00a1058e27
+~ ___45-[NANDTaskSchedulerClient _remoteObjectProxy]_block_invoke : sha256 d49a0fb912f24995a86065df242038e9da2e53948bdce4ff36d5c90d2310aa1c -> c4f45742208956f40a2ee9438252c7405fb48802399eb2577168972f4581b24d
+~ ___45-[NANDTaskSchedulerClient _remoteObjectProxy]_block_invoke_2 : sha256 debb9fe4abe90214d86a6c0ea88b468aef6d301bb8306b1d9e8d9988d280ad57 -> bc53b9b2300c29e23fe3c0b42f8da411061258051b3971376dc21733cadc4552
+~ -[NANDTaskSchedulerClient registerFileForAlignment:alignmentType:completionHandler:] : sha256 0ed594436f7a7bd56dc15fb531e2e4cec42a4793e296624fa7c110d96489e159 -> 8cb4fea3f428abcddf672733e5c38d2c10016beb3f26f939a16a967876051fc6
+~ -[NANDTaskSchedulerClient unregisterFileForAlignment:alignmentType:completionHandler:] : sha256 d5eeabfd436c5be71159ebc008cddd57f1c691e982749749df61e66a2419b037 -> 749e86adb80dd582e2d0bc646ea989e68c23faa0bafb86690af0ecaddf5d961f
+~ -[NANDTaskSchedulerClient registerFileForFastAlignment:completionHandler:] : sha256 4da38513c12d2d33f4f693022cac558429695dd6c772eaf7eb77b8c3e7f74c71 -> fd8bb6d8d2409ba7bb55992cc19dedace310f8670b77a600d15cdced817a03ea
+~ -[NANDTaskSchedulerClient registerFileForStandardAlignment:completionHandler:] : sha256 e5b43593a81fea9fba3b526109615522546c71b728faae63e8a884f5c8eaa45b -> 171c3da6a5cbc23e8a6295df97b5663a73c4a7a74935e125f4a9f9f7459c105a
+~ -[NANDTaskSchedulerClient getRegisteredFiles:] : sha256 1f4b57e6d9d126515dd0bb9e9dd379ad3cbf05877aac08103996c20b83f09ce9 -> 638d697592cabe85007269f9622baa00dcb4f95e6cf121b1c6dce4dc7e3f74c0
+~ -[NANDTaskSchedulerClient getRegisteredFilesForAlignmentType:completionHandler:] : sha256 c1f5081ac9fede57259f2733f53d0a6129ceeb783abcf678635e468c735781ae -> 7e2c6194fc1045eb8ae69fc36b7179ec6bbf53a49fd6d9ade642ff894cb25d89
+~ -[NANDTaskSchedulerClient sendMigrationPing:] : sha256 9a4ec250e86e7ce0f1d656d39f5a1a0bcb60f19fe3c9e448e5132dc818467aae -> ee59b1119ebd6512287d3d732f9d5c72aa6014d84e86d4a7326cb1e744ad8b04
+~ -[NANDTaskSchedulerClient stopMigrationPing] : sha256 7ad6c0998c58262e2b58e0e367a9dd3e4f697b800aaba810295ca83276f26ae0 -> edfa9e57f292e9fb6382521cc9a6dc0c22a445df139481a9955294dfd6d61806
+~ -[NANDTaskSchedulerClient setConnection:] : sha256 5b1d0b57967631f04025c89ae5bb817dec503ce3a0c3471266ba821b96632012 -> 56bd9eafde68fae223015394de3e529a4500752a691c9f7f617770d3b98b5f12
+~ -[NANDTaskSchedulerClient setClientQueue:] : sha256 c04ceb3ed1fee37c2cde102f912c7c444207f2384957a3d4d76fd1b270108150 -> 01f886691d14710753dc159676dda0ec748f4eced38abab421a3526516271dfc
+~ -[NANDTaskSchedulerClient .cxx_destruct] : sha256 3ddc45e862e03f1be4c0a4bac6dbf10a4a8ec673d15045e400a0742ecd594095 -> c47f0705b80fd315fd40cd85ff0157bbedfe0d9eb351a55d3e5ad7706deb6112
+~ _OUTLINED_FUNCTION_0 : sha256 4321eed323cb8e8023a8247bf3ad7e4a7c9b699f3589668a096be1389f6c7e8e -> 353b47f1be3cb862e55b185c07471e66bba580813cbf56c07bc3766b960cf711
+~ ___43-[NANDTaskSchedulerClient _setupConnection]_block_invoke.cold.1 : sha256 905bb4c5866b3ae49b07ba10abe0c0ea458e5075a5b02bc25b3ae0a3fbdd797b -> 82e0a277cd0f748b68f1a46c1530c860062bbe637208cb240512b9b2bd6da396
+~ ___45-[NANDTaskSchedulerClient _remoteObjectProxy]_block_invoke_2.cold.1 : sha256 78ef2545153af83f6ef4e590b7ab89071da74cb2626516f7fea73f7eceb075d0 -> b669b9d47db3cb8da5fddcb44b45915ad07196e9b02434984aad45aef2cc1a97
+
+```

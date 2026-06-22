@@ -1,0 +1,100 @@
+## FileProviderTelemetry
+
+> `/System/Library/PrivateFrameworks/FileProviderTelemetry.framework/FileProviderTelemetry`
+
+```diff
+
+-4780.0.0.502.1
+-  __TEXT.__text: 0x1f44 sha256:c0db5b0c8b222613f465d93e06aae4871ef8f1ef4cc18b2bde158adf494bf4cc
+-  __TEXT.__objc_methlist: 0x120 sha256:b2ac3a165154205c33e2cfd496f61d70ff30888cfb34f4a05352a6cc9da96137
++4838.0.29.502.2
++  __TEXT.__text: 0x1f40 sha256:29ef54e4b8e931a53ac30870e53db85a6dae75d9976dbfad871adfda2e8ed5cd
++  __TEXT.__objc_methlist: 0x120 sha256:6840fdd29e1166fe0002e931596e39909ba1670d9412c19cfa95e891662a7d46
+   __TEXT.__const: 0x28 sha256:f08b29896834d547e211c6932b28e3cdf2544a948f3acdf5228658dcb8858c81
+   __TEXT.__gcc_except_tab: 0x68 sha256:c29b02310f80ad788d1558ace6a3cb45bfb3cafbba97f45457e0b819227d2d0c
+   __TEXT.__cstring: 0x110 sha256:befcfdfcc563d98e3ae39cc1d910b0659fe208bd84f170adda893333dc29fc59
+   __TEXT.__oslogstring: 0xec sha256:9886f2c26aa62f222a8ebf135e1fd1f82d6e5414490bacb1cecdd788077b2c02
+-  __TEXT.__unwind_info: 0x110 sha256:6a3378614d72d88da7522a52792d52073d7a62914b9d991b7915bd4846b9baa0
++  __TEXT.__unwind_info: 0x110 sha256:fe04103e4e6794685caf229206b2575511719225b242680ebdb260f9c97100ed
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x120 sha256:b97fc3be615353319dcc355f1e690366b94982905022ef2f9b51d1899da5b3f7
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:f6de7c39c5740b0243ec03546d68a32a7c1be6bc5073770fb475c0463d65feac
++  __DATA_CONST.__const: 0x120 sha256:a2267b43ba97da3a438c35335061245637f880ed1bb0b7d80b193db97177eb55
++  __DATA_CONST.__objc_classlist: 0x10 sha256:234e0171f6a58c5b86985ff6fa42afb58d94cfba8c6615e611d587ecba3f8575
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x190 sha256:997babfb84e4178c9d9c902fccc6702b09c794b00da7683c0063b26d49fc63d1
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:bb3bfc34c32ecbc09f90d9a23f77b545702e831d78fbd88528475845f6c23bba
+-  __DATA_CONST.__got: 0xb0 sha256:990eb629ef7db0017eade3c28e16e3cab612243ddd09f90533acd727d3abca40
+-  __AUTH_CONST.__const: 0x40 sha256:997aef2f69a7b8e4c39e25f77636cf34b28b6f7b13f42f6ef498fa1afdbc8604
+-  __AUTH_CONST.__cfstring: 0x180 sha256:935f3ee0480405501cdf842b5ecd2191186b1c5fb1ad44494875f64c64af2079
+-  __AUTH_CONST.__objc_const: 0x248 sha256:f4c2244099e5e67e6558ad0cf19c05984cc9812c229b7002fc101e0ad301e2b4
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:c5a1f5968d0395c0362bda43f5ecea0a95ea5dae1061698a50d4a7c0915b4326
++  __DATA_CONST.__objc_selrefs: 0x190 sha256:7387836891fe1cbb344f5e2d2c0d3438276b93f15290cafbb92cd1b179821424
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:c75b896681f0a03dd88ac6f8e7ffe520d2a08f4d3c1a3dfcc06acb2fd39e1d3d
++  __DATA_CONST.__got: 0xb0 sha256:59a0271c1269af87ee9bbe2f730c44ef0ea600796d661fd1cc30bfea5c2f9989
++  __AUTH_CONST.__const: 0x40 sha256:8df69a2368d486c64e13f51f91c11e97b392fd9a3b3b23d090982d653b8880bd
++  __AUTH_CONST.__cfstring: 0x180 sha256:679e71e48b7f82302b66141555354a9612499d75824842767739497ee5c0fa41
++  __AUTH_CONST.__objc_const: 0x248 sha256:85bb1e604d5c13005b4bf1e8bedbad16cc530c154cde7ea2a13a1e251d6f636c
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:448000cdf1b278ce293a1e590ce2f6699eb42647b9771909920740419d0c9c43
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x20 sha256:b141cd877424c4d6eac2002f443b045bcd5593f5f7f219118ba65da7f9bdf560
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:977df81a1b44162f11e09070578d733887a74c88a3fe758146b7da966332edec
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:a457a420cb90b6935f0241d5f35757216ad812d2a7acffb94249557d9f1cd96f
+   __DATA_DIRTY.__data: 0x4 sha256:67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/RTCReporting.framework/RTCReporting
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 633D0F4D-8C6F-3834-99B1-6F7FAFE2BB89
++  UUID: 39D6F738-19D2-3E47-9038-A2B18D675824
+   Functions: 45
+   Symbols:   258
+   CStrings:  34
+Functions:
+~ +[FPRTCReportingSessionManager sessionInfo] : sha256 47e3cc8300ab999b9a9a7f37c15a6ad4b7c7a4f5fa55bfdbc186f5af32f792e0 -> 13c107f5414035fa902f12c1d033ca3c2a662c15b1169f4d646be3d9e531b432
+~ -[FPRTCReportingSessionManager init] : sha256 05b5a3c157bba64eb98559b329df557e16c664dc798c8bc34388a6baca6c2fdf -> 387289ada6120bfe472a3e8f658550e7fe4977068a1d3ea25134188b71c6e1fc
+~ +[FPRTCReportingSessionManager defaultManager] : sha256 947c3b5e702a1725e2ce9e6a202d9e717c2698e8d53d537890672bbe93ed1b00 -> 00be5092787a582e096c12807c4998729560f3a0b33744c297cbc135544c3a46
+~ ___46+[FPRTCReportingSessionManager defaultManager]_block_invoke : sha256 1633ae8d3e8eca38e737142af80d573ba52369990f6350573fe62d4d70352f1e -> 567a37703bf22f1c3326beda6fc70ec7b3760eba119df671c27b514b970eab50
+~ -[FPRTCReportingSessionManager sessionForProviderID:version:] : sha256 8531b2332bb0d83f5333cbbd8f579409d0455579547d6605126b7e08b0e3ce66 -> 7abf325b85609e7bbd93d6ab082bf780c0cbb6f1900d4481bf2e2db3fa9fbccc
+~ -[FPRTCReportingSessionManager sessionWithCommonProperties:] : sha256 a9bb212e6ff9090ce758a1ba6ca799c8f3ace7a2b65bd44cefd737c1f1df7385 -> 834d5b841947588f9c9e58591bd3d6ed9f78a6d53d3041cf2be087a64430d589
+~ -[FPRTCReportingSessionManager sessionForDomainID:providerVersion:] : sha256 db707bd11e306088365903a8f8a3c557ded79a8d1dd9aa461b7a09c7d418ac96 -> c9ad4d553dbd032ebc822f9d96e478f5871930b2df09197bcf807acc7b9b60ac
+~ -[FPRTCReportingSessionManager postReportWithCategory:type:payload:userinfo:error:decoratedPayload:session:observer:] : sha256 a1ce49423c9d084c976c3af7996f960ed4b7a8ae02e50dc79abe26b35b79cd45 -> e601afd0f5eb2fe5c3d52e8ed7987ac5ef1280848543aa5f2ce9b548bdec10b7
+~ ___117-[FPRTCReportingSessionManager postReportWithCategory:type:payload:userinfo:error:decoratedPayload:session:observer:]_block_invoke : sha256 274b98f20489ed674b5e8ff05271e7e83c60b68167fc4dceea01c9730dcdd0c0 -> c08efee30a52572e9d95510d476a7aeb7afbdb0abf5fc6e8c533e76c7020da0a
+~ -[FPRTCReportingSessionManager postMultipleReports:type:userinfo:session:observer:] : sha256 cd20144abd7e887bce0134c2c01c882dd1f4ae61091f2d41e62dbce4eacb0db3 -> a56cd3138bb167be75fe568fea40de8b117ea887b67e4574d5fe44d49f7d6821
+~ ___83-[FPRTCReportingSessionManager postMultipleReports:type:userinfo:session:observer:]_block_invoke : sha256 ad550d17722ee53ee96dcadbf5a47af7fa090675e573d78823bd0603a294094b -> dfdab566f7fc5106e8f8ad25577358b0d8218bbc3a0ed0d4d4883cc868491d84
+~ ___Block_byref_object_dispose_ : sha256 cba6c44acea5cbb9cec4702096f60acea8f85c0e23e432cdc49d8b9dd55c530c -> be59b33f543c087036ca9167a378b9ba413609d0c6bf9e0484a098fcca895c76
+~ ___83-[FPRTCReportingSessionManager postMultipleReports:type:userinfo:session:observer:]_block_invoke.24 : 976 -> 972
+~ ___83-[FPRTCReportingSessionManager postMultipleReports:type:userinfo:session:observer:]_block_invoke.25 : sha256 94497a4abc7495baa977e59729424a04003102ebd492f654e9b985fcce834f63 -> 98a441291860c58719c4785785869d5035ab03b6e70e5639863e0d522412c399
+~ -[FPRTCReportingSessionManager postReportWithCategory:type:payload:error:decoratedPayload:session:observer:] : sha256 a58e869ed32057393ca8d8d55cf9a488d2415d0469c4b7c169083357099c5393 -> 297d6e20b128e838981fbca7c858d15af97346fc1c51960d6f32a37ff34de98a
+~ -[FPRTCReportingSessionManager flushMessagesWithCompletion:] : sha256 83e2e438f3c9c766cb55e77ea2c3e29c41730a97ef4f43cae60ea1e9bd2cd2bf -> 7c6a0394c6a33b5f7634646a8e04b54b5853bfbae36e7a418bd08a1654bd7f8f
+~ -[FPRTCReportingSessionManager waitUntilTelemetrySessionIsAvailable:retryDuration:] : sha256 e2b952bb792b79ab2682705ea8c7f2d247c44f6b455fcc4d96679611375ce28c -> 3438236e0090616128423ffac16fe177dd2cceb1839abc598cb466b61875e7fa
+~ ___83-[FPRTCReportingSessionManager waitUntilTelemetrySessionIsAvailable:retryDuration:]_block_invoke : sha256 efd38aae734ec772e3dd3ff0aa00a68f951be3e366c19b7514bf554478afedf5 -> 5cf9d2f1df2aec4724ccb7768e5c92242d00eee261190c7e0608093178348ceb
+~ -[FPRTCReportingSessionManager .cxx_destruct] : sha256 6fccd652abb95cda24e1086503f7ec095b57030a1d610ae5275703d32ae696eb -> 66684fadb305dbedcd9d3f38a1829d1e60da69de2aa0254a6a4465ec69472ef6
+~ -[FPRTCReportingSession truncateProviderVersion:] : sha256 a767b93b485b859dda715e31d936d87878d25f9df1c7773bb00cd3ced528c7c8 -> b6f59b7fbe15e0b7940d92836b3369e3e68d87a968fcc7f88010f2c0740433a0
+~ -[FPRTCReportingSession initWithWithCommonProperties:manager:] : sha256 578fee57086a43e13cf7fd24520fb3fe4b8c02c4d845616e1f8fad34405a64b4 -> 9d9e9ef9af0aadbdd2a2593249e69b530403d9d611dd7889e934cf709cc103da
+~ -[FPRTCReportingSession postReportWithCategory:type:payload:error:] : sha256 be3c983261a8712b42ae1b1bddf3def722a0b9eadb6ef2d3ab2777084ac3bf95 -> 6d1cb924b3462e10015722875ee670c87b16a30c9cc26509e786da8b722b899b
+~ -[FPRTCReportingSession flushMessagesWithCompletion:] : sha256 0b87f8d886c5ef66b0b6b1c08f65ef1ba4e0633d98323c84dded73f1c4e056d2 -> a61fe27088630b7c999f5cc57ee6fb1d9d824631f6f0d0b6a12e5f59f8183944
+~ -[FPRTCReportingSession flushMessagesSynchronouslyWithError:] : sha256 d79b1e9191fbb9230cf40cd44aca9d46a88b489b850f11cc027e29ab49d6af86 -> 9e1f1fdc027374663e703258c88c811541315a26d281a393d6e4e1e09b1faeb8
+~ ___61-[FPRTCReportingSession flushMessagesSynchronouslyWithError:]_block_invoke : sha256 4d6756f58ae2f0bedc7d1744ed58c0e5757849432a497d02a2aadae9673cad26 -> e6dceb92d5924809b3843dcfd8bca6e45f193ac05357b086695980e1df386a26
+~ -[FPRTCReportingSession description] : sha256 4f9eb4697fe4306808c85cd0dd1ad1253d6a6862996cd859a96c28467d204039 -> d5c45d679d5ec942f219c6b6c09da2eca58b7bac6ee17af19f41ffc5ed228d2a
+~ -[FPRTCReportingSession setObserver:] : sha256 952793c6311341070743305e5de823f6e6da6601116b8ff3389fc5ca0888e341 -> 174c70b78905203e1ba04916532ff09e4576d292da5ff88272fdadc81a95f661
+~ -[FPRTCReportingSession setModifyDecoratedPayloadHook:forCategory:] : sha256 7b2a45fddbe508eabd4364c00261113301faefb847515e77e40608ef7175d69f -> 67976f0723160e52643dae4f248b1000b281df023969540fd104f81528e71165
+~ -[FPRTCReportingSession executeModifyDecoratedPayloadHook:type:payload:error:decoratedPayload:] : sha256 9b0c38fa4619c03221ed2ef4e7137bd9afaf487f1d217a4c0701577244c6ee81 -> a59ec69ce80b200c9551eb1c15f79875071571552dfee3e5cedef011c9aa1e7f
+~ -[FPRTCReportingSession .cxx_destruct] : sha256 caf3c4fc0a4ff553710f8dafb589b75ed8ac25cfd7977f96eec91b2da28c7708 -> c2fe9b9310aed60f284a6c1c7dbc793eadd7ce637511689786536bad5650c31b
+~ _OUTLINED_FUNCTION_3 : sha256 e5a6ae9a49bb906ccbc94366ae103a2057649b39f96d21d8c07bf6d27a8cfe9e -> e2a81a1433738a33ae3c6d3bd34ce2ccbe9be7b53f8e8fa4237ce8fdeb2c5b8a
+~ +[FPRTCReportingSessionManager defaultManager].cold.1 : sha256 b740aa1a7fd04e622478236b9fc93141116cd0432813dcad72af87d709c72670 -> 76e1389e39865b2b529a9681d0ec8d36c286a43cc17ca3dbec55b89b88bdd7a2
+~ ___117-[FPRTCReportingSessionManager postReportWithCategory:type:payload:userinfo:error:decoratedPayload:session:observer:]_block_invoke.cold.1 : sha256 cdc9fbb0935a4447720e550f82ab9390e3252adecfe5367be5da702be8a31284 -> 0c74e8cae9e9c0cde5fec4b0348311b533330e787409673302090f2deb0bea35
+~ ___117-[FPRTCReportingSessionManager postReportWithCategory:type:payload:userinfo:error:decoratedPayload:session:observer:]_block_invoke.cold.2 : sha256 2fac980a301e8360c650d571f6777e984815f12284b39dd37800c903327fd2c2 -> 2fe98a5b99b004424e5cb6703d83bc1ab1ba4c806f840a3c2cafd59e2ba91b9e
+~ ___83-[FPRTCReportingSessionManager postMultipleReports:type:userinfo:session:observer:]_block_invoke.24.cold.1 : sha256 04091452b3d79aff2b026e54886f4f61a14bb40d27edd182e5741b4fa801ec6c -> c254cf92f7ceac32574ba304ffb8560bf317ecd9b720f1ad445e516c09b67124
+~ ___83-[FPRTCReportingSessionManager postMultipleReports:type:userinfo:session:observer:]_block_invoke.24.cold.2 : sha256 e55ab009226350da7284e61f378f6a52796e8c1ab0feea4c1b9d17fe8a0d70cb -> 29a033d9adcf9a4d6527021068b9c0892881d2ed86bacd394495a008269259d5
+~ ___83-[FPRTCReportingSessionManager postMultipleReports:type:userinfo:session:observer:]_block_invoke.24.cold.3 : sha256 545adc52ba45a12c0869b57aeda6b5a8e04505ee3b4a5e1131f4601190429cea -> 0137af3f20fa38b1a63e0cf4e245f862de036d236185b560f0dba75e2d1cc42a
+~ ___83-[FPRTCReportingSessionManager postMultipleReports:type:userinfo:session:observer:]_block_invoke.25.cold.1 : sha256 1ef49e9a0ef0dca1dd6e4d9e6653d38758e3cace0d3ebdd2ec4a3af0a3ebcff3 -> be8f8bf10eeba21bcbed0e6451c30be60f28f8eff4aff2ce62618147da402d6e
+~ -[FPRTCReportingSession initWithWithCommonProperties:manager:].cold.1 : sha256 6cff761b6a153baf6a6e99e3dc88dbc4fa5ff13d2a6cc07397e9802271812a14 -> 53ba50271686f608c249228e1548020d390f35a7c463a94cace640f74c04a820
+
+```

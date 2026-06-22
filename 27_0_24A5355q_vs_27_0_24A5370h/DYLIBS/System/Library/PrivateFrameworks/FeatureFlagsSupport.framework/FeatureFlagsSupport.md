@@ -1,0 +1,296 @@
+## FeatureFlagsSupport
+
+> `/System/Library/PrivateFrameworks/FeatureFlagsSupport.framework/FeatureFlagsSupport`
+
+```diff
+
+ 107.0.0.0.0
+-  __TEXT.__text: 0xbaa8 sha256:a1899f4c4c424cd995e6dcbe428a83ae9c64ec7c914b755c614af00a802ab931
+-  __TEXT.__objc_methlist: 0xd8c sha256:6aca7e2c7ece7cecd9630097e55e26614acf8915e6b06cca2984c20bcb485d46
++  __TEXT.__text: 0xbaa8 sha256:ae48a5c51c7f5f87ab2acc92cf62d8470aaa9aae5937960cc386a869548c040a
++  __TEXT.__objc_methlist: 0xd8c sha256:ceb98c42cbd2fb8e65a7de490918f96a873e47c7091f76eeeeeb22b678ef56aa
+   __TEXT.__const: 0x50 sha256:f2cdd2b585ab328350a3d30bbdd93891115e94bbf8628e7c1c5db5e5c069fd24
+   __TEXT.__cstring: 0xb4f sha256:fb3ab91f7fdaa9be6189edcb998046de65fd56738494335627f2cb9b960eefcd
+-  __TEXT.__unwind_info: 0x2e8 sha256:be1b7509baa2b692551992ec77162efb20b6df71f7b919acd79208ce034a3f0a
++  __TEXT.__unwind_info: 0x2e0 sha256:42483649245fa9ec95351fd076eb9fd30f4fea4042fdbd38de0a41ac1d894c2b
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x268 sha256:a5c11db2557a506311cb474d823ac4e85e5794ba44c58ec7d99e9fa76f18270b
+-  __DATA_CONST.__objc_classlist: 0x88 sha256:046b9f968d014f52107f113d2edc35cbd4265e47a5a1ad4a0e190d35d8fb9497
+-  __DATA_CONST.__objc_protolist: 0x38 sha256:62cd966aa1fef0b9bd64e251ab76bf347e6a05c9efe6e921106f7b5bc82d1646
++  __DATA_CONST.__const: 0x268 sha256:e7ea4dc0a5fcf7d62a1f4b6b6b67ed418bc9f50866317f6dc607b8fd0eff960a
++  __DATA_CONST.__objc_classlist: 0x88 sha256:d33811c2f30ac30f2cadd3cf3fd6ddb1dda72a13f0a81450308558e9ec2f28f5
++  __DATA_CONST.__objc_protolist: 0x38 sha256:6f307239796724fb1cd423a08917d4965decf5114685fbd4be7633cd549b398a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x898 sha256:e2fd9d470499be1d2056d40cb108ac116f0b6f6b72a9d6e21793cc4483660ec0
+-  __DATA_CONST.__objc_superrefs: 0x60 sha256:5151f6e549e239bb6e5aba8a708c6a897f0f2c409a16f56b560796e3b62d7dcd
+-  __DATA_CONST.__objc_arraydata: 0x30 sha256:992a45d1338df683cd2864a5a1f80806fcad38f5161e2a84f8dde1ee6ab8f014
+-  __DATA_CONST.__got: 0xe8 sha256:ff8fabbc48e9d9f3fea4f176fa9a6cc4686c82d0189352f3d54e329e57e208a1
+-  __AUTH_CONST.__const: 0x20 sha256:2057b55178dce44eaaa50ab253774fc1d9348d6c1b22e5e17f158705679bc833
+-  __AUTH_CONST.__cfstring: 0x960 sha256:79c82f5ffa449c47b615c12feb3e81d3db0579b95e1761fb818e288ca5b6a76b
+-  __AUTH_CONST.__objc_const: 0x14c8 sha256:2a7b72a8331aa21f4cb04ba85c84954910d28779e20ea2c126538526880ed12f
+-  __AUTH_CONST.__objc_intobj: 0x48 sha256:be78047cc2485aae1b995c1a9907806ae41c33c011d647b3ee959332f520e0a7
+-  __AUTH_CONST.__objc_dictobj: 0x78 sha256:464ae72a88a8afa6ba030e89a241a71474de612dc8ff7ea6bb28b13dfcad5e5a
++  __DATA_CONST.__objc_selrefs: 0x898 sha256:e485486b6a0a378b6e05bbd76db76fafa29b9533c2bf190e28b3aa5661f1693e
++  __DATA_CONST.__objc_superrefs: 0x60 sha256:9fdb913e882fb39222f11a4c5735d535911d465414c5898a9e4924c4a4041176
++  __DATA_CONST.__objc_arraydata: 0x30 sha256:9f190cee91e2aa675f4b16caf402a9fab75ad78077700682f1d06c6d5786686b
++  __DATA_CONST.__got: 0xe8 sha256:dfadeff73019145b9e0dfba1cc4554bb32222408a92c4a428de340b6facd606b
++  __AUTH_CONST.__const: 0x20 sha256:560583851275f6c4ff29a7bf5d2a424d22684fc37543a0f9ca19464b4bfb0720
++  __AUTH_CONST.__cfstring: 0x960 sha256:cf6153d22611fe9d22584a1f2b127b520998b703c6991ecfd05d8f6b88651cda
++  __AUTH_CONST.__objc_const: 0x14c8 sha256:59de1f43337ccbb471c71273214d26a72db51c237924af1eb74b34e208dd7bf1
++  __AUTH_CONST.__objc_intobj: 0x48 sha256:6c979d29be3f526f81101c8fc8c60368685e6eaf61ec25c8e77636f915c9dff1
++  __AUTH_CONST.__objc_dictobj: 0x78 sha256:72a46861a103bc860523ecb01b6572dc799caad6fe27108e43491355f4076d8b
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0xbc sha256:3cee886c08da7846f57ffd755c9162bfe273133e96bc269f9396bb45776bf7d7
+-  __DATA.__data: 0x300 sha256:bc241488e6e432fea3ee276a5e01922068f97e6a91434580cad6f6db0bf09934
++  __DATA.__data: 0x300 sha256:adbb75093ef7540b8937e873638f8f26b243aa0f0e23117181bde6a00bbf2c41
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+-  __DATA_DIRTY.__objc_data: 0x550 sha256:37c924a596ddcd8cbc9e434930cd96c2e6d00c5f325df929e3a1548b36a7fbd9
++  __DATA_DIRTY.__objc_data: 0x550 sha256:0567b75af93b5b8fe2955a2577470037dd974c0b69e5f07628ede67d20d7da02
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A5FBD3E9-B9C2-3A46-99E5-F33225FC5451
++  UUID: 28C9EA9F-16F7-3307-AC4C-8CADA0C2F142
+   Functions: 268
+   Symbols:   1067
+   CStrings:  177
+Functions:
+~ -[FFFeatureState initWithDomain:feature:value:phase:disclosureRequired:attributes:buildVersion:] : sha256 7d37f2e9f987e735faa640232b0a2381cfdf46024d99914039bac5fc39bb444a -> 8fc73f71160d1da26ebfbab51bb988e4f3349d6dd09076f5e1a51f5841d3acc3
+~ -[FFConfiguration phaseShouldBeEnabledByDefault:] : sha256 339d32f0fcbdc3ecc2960172c7bb6cadbb20ee2158741924a5c26e2e65a1c517 -> 890148a418c3215718bafc9dd470e0f16ec5f6673c1f3e93d69a2d47870c74df
+~ -[FFDefaultFileReader dictionaryWithContentsOfURL:error:] : sha256 6c82c20bf6332ebdede4fb6491e211d7f78dbecb01978ce5cd2adf94d6916d8e -> 58e9c32ed5ba62bdadc4907358de3ed95853bd6d329123afa7c3707e3acf2a83
+~ -[FFConfiguration makeFeatureDictionaryFrom:forDomain:atDomainLevel:reportableFilename:] : 1176 -> 1172
+~ -[FFFeatureState setDomain:] : sha256 4ea83141e5fbf353655cfcaa5f88d93abc0115cb898bf01305b8d9785f1a50a1 -> ce4bc51d19f482df3e3c0e09ca21b370052158b95314d3960af9f46d296d80f7
+~ -[FFConfiguration internalDisclosureFileURLForLevelIndex:] : sha256 a2fe567a39c065fbd197f9db85beb31525b7052dfc98a25146d4ffa421dc6766 -> e6265fc27e92cd7ba7e9ef1171f0691bd9d0ba4357d01fe2d1e0903315b926c7
+~ -[FFFeatureState setBuildVersion:] : sha256 119e3e01ddee4c44a9d1e627922cd59244411d08a8f5cf6cd47fab20a11546e3 -> 00fb7f93e973a94463c77891e453806301e0deb26b5258282556e679382c1ded
+~ -[FFConfiguration effectiveStateForFeature:domain:levelIndex:] : 376 -> 400
+~ -[FFFeatureAttribute initWithName:value:] : sha256 827227a8332597aadc8d250a73f78a0c0bfe745db9b5b50debca2b3f67d528b7 -> 6db7bd268078e2d0ffec3b18e630d93ef0d7333c7e3ab8557a62b95db9bbdc07
+~ -[FFDefaultBuildVersionGetter getBuildVersion] : sha256 9021842ec07921875d1332034e2811eaea44290f2c5b56716fef945b3cf3a18e -> d3c7d26cf5a0dff50945e2ca6ae121f6577930c75ef9288db425d4a75808d866
+~ -[FFFeatureState setPhase:] : sha256 40b6e30f029040922b7900ce08e96e022b1e874af6d017ad4d8ad72e3ab07565 -> 13fafd29c3489f03edad72fb78ac60e58d410658e6ba6725036f0c56c4a5b68a
+~ +[FFConfiguration isValidName:] : sha256 21ffdd8c322535ceba53d2267d92543fb21a21260f19783a34c5eb9d98d1d5a6 -> 95e6e3e2bde975dced74d861581bd0a4e7a51945a7a3803ff31fcfa5ad9a7725
+~ -[FFConfiguration isValidName:] : sha256 6c04b7aed953bbd2fb904f1f0859369f1ebdf1edbe608da361bf27eee9deb067 -> a3e460e586ca748ca09c434acbda815191863cf9d6cc8fde1e00a8662c875f1a
+~ -[FFFeatureAttribute setValue:] : sha256 2d6d4d7e97aa945de9516c77d5a82b29b270efec53784deefb08b71fa68e02fd -> 55aaedbd120b49d8a32f5d75b6c5022c45616b7fd3dc4e75117dd44b688b21b8
+~ -[FFConfiguration stateForFeature:domain:level:] : sha256 6a0f93aef10cc304ca1a814dc7bc3a9a1021aef950454304f3a372ea157bdd74 -> 87e3e08bee78d5e98b6c485e3b269fadc8d6f19cf4129b1b5ddc55532e98143f
+~ -[FFFeatureState .cxx_destruct] : sha256 541391a81fc1df08848a6061882a2ac95664bfd0fb6510e2e588523102ccdbbb -> 6a0e4f0349225fb3f3a599304bdf6ea31083aa5be3c9228d53a3804d96e1a473
+~ -[FFFeatureAttribute .cxx_destruct] : sha256 d499ba133096972c6c2045d8e7ba0bb0f3d73e12a2f40402b77c990f13382ea6 -> cc89c22b50eecc27f981cc42a8dedcfcff6500edc80fa6ce55b38c6b5160c881
+~ -[FFConfiguration defaultStateForFeature:domain:] : sha256 d52005865d39ccb60802be53c724b266650323b51489ada8fc5c7247d13f53bf -> e707b913f289176197130780368ab572d27fe3ad26bb750f6ee9df5ef7536400
+~ -[FFConfiguration featuresForDomain:] : sha256 84965e655d5536b1c0094ad5ea1e985913acc50b4e94f2c0ba2227a2f5de2c2e -> 7be78b301f3d1fef53cebb322ea4593a87486d1c89da12ac1f6f2a0d351072af
+~ +[FFConfiguration shared] : sha256 d3dd36162ac7681167a13bd9c403ab2c968cc434a4b663327b6e5a6dc1c2a722 -> bc36c3e429d1e85610f34bd850c27833977fcb1c109b6b9ccddf23d71d389edd
+~ -[FFConfiguration stateForFeature:domain:] : sha256 8d522bea75ed0d6064713fb65b3434869f02e59cabdac853670b3ec6de68bd88 -> 66611810e91fa9e4b1f9e399e9511c122806e3c6aa2fd8e276ba362d906fccbd
+~ -[FFConfiguration validateName:] : sha256 60913dc8a058008576f3405fa952d7401c94c401908776b3dab1bb1a9dd8d83d -> 2d2cdbcf4d376cb3c3f822e94d085f88cc787498d028b9d430cb71aaf8207c03
+~ -[FFConfiguration loadAllLevelsForDomain:] : sha256 3f34d974c661f7e200cb8359d8368a988d5aad3d21891b7f483d37d0316201ad -> 7415dc91fd8c1dbbb800e0d96cfdd4e1db0c39e75ef658bbd392f37a651c483e
+~ -[FFConfiguration loadDomain:levelIndex:] : sha256 79c5a46536d06e7195d3e042406c613267e3415589b4ac69cbd656dd5d87873b -> d5328a850963477a0a693408f24d07dc9fa83c0654980ab1ee107ed1cfbeea22
+~ _ffConfigurationInitOnce : sha256 5a62ae0dea5525ea35e94efe015170770fdb0dc3f5479e22a5310fbe7bdaada0 -> de46350e75f663f63bb0a2a7bc2681c8d73295c676d24692125c5c335fd78c0c
+~ -[FFConfiguration initPrivate] : 352 -> 348
+~ -[FFConfiguration clearCachedData] : 176 -> 184
+~ __os_feature_search_paths : sha256 28fc20e1d05dca8f7d422eb0824867ce2a4988caf48e5e6e410a48b4dd612e98 -> 133fb99b1190b6613ea713b3e73afa0d16b42bc7fd2fb0356fb9735d9be1e3aa
+~ -[FFConfiguration domains] : sha256 e43e160dd4211d8080b6a8bf30ecefa37c70f63edfdfef8d8cd81eed83f13962 -> 25cdde851ca22f7da69572fa614125b5bc40ef5812179dac668b42d015124851
+~ -[FFConfiguration loadAllData] : 844 -> 832
+~ -[FFConfiguration fileURLForDomain:pathIndex:] : sha256 cb383708a3db11651f0412d427694c4bc2f6b2b07cfbeef8001f30b40f14d1ac -> d75303157c42543935f830b71db91f6ea99624dc13fc64059ddb2092f537ce69
+~ -[FFConfiguration loadFeatureSetDefinitions] : 552 -> 548
+~ -[FFConfiguration loadCombinedDataForLevelIndex:] : 1424 -> 1416
+~ -[FFConfiguration loadFeatureSetDataForLevelIndex:] : 996 -> 992
+~ -[FFConfiguration resolvedStateForFeature:domain:] : sha256 286ac75f4fcecd5535be086eb24d8509ed60a122955bd2ada7b299995d824976 -> 9ad4b58431dc5e5e79f16ada5e6c5b52b5a3eff4fbbaffac889621ed12782b42
+~ -[FFConfiguration addFeaturesForDomain:pathIndex:fromURL:] : sha256 2ce871e2fd74636287f7a8af4757287aa35565512af83b3b3c2dd65ea46b6d36 -> e4a908df97d0b425e34c0c9e08b750b2a715a8bb541a552810180eae4042eb51
+~ -[FFFeatureState setAttributes:] : sha256 a36757b186a7672777a6e3e5ef817fd20e9ec09ec46ae582de8d7a0ceb87aaa9 -> 59d31b8eb87b8c3ac69cad2ab56d4b3274aae976c159bbcc759c20efac3646c6
+~ -[FFFeatureAttribute setName:] : sha256 40bb51e0556939f3c0e9d6a1b5d45ac3d0fcd0e119036b581b0d81655d410755 -> 2d1937dde408f5375c07173d78232d4b83523ffc5145ede74e901ff37e9baf9d
+~ +[FFConfiguration shared].cold.1 : sha256 eed4f99ad344784eb4963b0d2482c6b14ac6f7fc4b7e87fea832d5b4a1786fe7 -> 970f560e34c4a6c47824dc3c6308400966bf2ee153662d3e37bba7692a78d4ea
+~ -[FFConfiguration resolvedStateForDisclosure:] : 120 -> 132
+~ -[FFFeatureState setFeature:] : sha256 47408f8307d5dbb69b92752391c231d6459cdc479cf76f657a4460cafbeda1d3 -> 06e2d1b3e71887e579b94afa66d0466f8c410784467bcbd5c6249a820229e462
+~ -[FFFeatureState setDisclosurerequired:] : sha256 10ff86062d1be88f2043069a2e47b5d3592ebfed726aee838192c0c369178eb3 -> a5a68a23c04644c0cf45a9ec05d2cc915f5659f78fe38c10d453931e7bdc4e29
+~ -[FFDefaultFileWriter init] : sha256 22747390f4d8d2d3705ebdfc75efebce6c493ed8fc39225502e2051c52754e35 -> 77569119340f24b3e5ca7984387f0929395d561062860dbdaf65fbdfa28a15d3
+~ -[FFDefaultFileReader contentsOfDirectoryAtURL:error:] : sha256 29b3f2cb9fc496620270bb8fbf104e40eb47f9ea1297a19cd2fc34c4f75617da -> 688d118e30445b450c4789a7771cbd913fcc25dd0e3327cb60c71cdb20e30f86
+~ -[FFDefaultBuildVersionGetter init] : sha256 0af567abc6181ce30e93a08656910db1fff3123ae6cd9ec4130725325efd8097 -> 5e6efd3791d8b3c35afc49164daa839ba06292efd1da874698a695b44686d09a
+~ -[FFDefaultBuildVersionGetter .cxx_destruct] : sha256 488726cef1cba83afdf359c07f7d207b2dd669c39a10e553df9714b8cc8de8ba -> 6608af36c4557d563334f60f19d2373ad5f6ee220b03633f0dc45d75ea34fd8e
+~ -[FFDefaultFileWriter writeData:toFile:error:] : sha256 d386754c54cbf7de4df802f1014a0cc9cfabdafae61a9d554f830ed04f1f4a19 -> 28326c901c932142a543b599d00da221b157b1895397c8b1730ef8f223aef9b6
+~ -[FFDefaultFileWriter createDirectoryAtURL:error:] : sha256 e262e9a67acd416fab29427cc684a8e79c72aa82bd96c50eb41efb9636f3783c -> 05446b82cf34734883f7b71896ae6068511cb3b064cf9fb771d812cc4ed0b017
+~ -[FFDefaultFileWriter .cxx_destruct] : sha256 51bbaa6629ddedbe3f0c4d86afd104c45ba2bfcdc44fb1c28d42d88d5ad2048b -> b6f525df85f6c95dc955209f426ab68794f3ff602487d6794e95219e8280edb9
+~ -[FFImmutableOnlyFileReader init] : sha256 c2a4d4a45cc7b8fbd3024a2b8407dab5e7481497b764716ec7cb1e1fc9bf2b54 -> a2dc228b2f95925f574c5bef0bf39411de09163918f71495625b88f3c3954aa8
+~ -[FFImmutableOnlyFileReader dictionaryWithContentsOfURL:error:] : sha256 2ed0be92078c70a41f699834c70d535e6a8b9f77819e9043766dc2b69d4c2b2b -> e0c3c2b5b24ec65085ba85e7d48959fd86bfdba34a5c1ef21f076e63915b1401
+~ -[FFImmutableOnlyFileReader contentsOfDirectoryAtURL:error:] : sha256 213f46787f9f5d2ee3124fc38181da761809a46b2c53a8598e33f526beaebe2e -> 2a419b475eb265f28537e1222d645384314c884f11d583e0dae5e9867135eb23
+~ -[FFImmutableOnlyFileReader setUnderlying:] : sha256 9a8c779da9188a089e1b8ff43fb14c0434e179c000bf9a6c874cd6ea4ff37ae6 -> 13bdb99b904a0ee6d89365843d510703c3805cbdd4bd22fd867a554501e5ea1f
+~ -[FFImmutableOnlyFileReader setImmutablePathPrefix:] : sha256 fe99d779daee3392be60d17a116e6753c5065468cd490b98bdd4d4be569a7ee5 -> 14974fe39a292dffc13d76a398267ca2a6d952876ce2e5afef07a42ac6f2e69f
+~ -[FFImmutableOnlyFileReader setImmutableInternalPathPrefix:] : sha256 dee54465f7e333f78d9599fd6675cfd6edb7df26e0e5bc8fd04ad78565e77fc6 -> 3b65479b76ab6c546e88a745e8d5b9d6fe2ae927c30a6cfa38feb051f9ca5abb
+~ -[FFImmutableOnlyFileReader .cxx_destruct] : sha256 76a3a867f520c0c56dd068b2360200e8aedc6a88c2cdcc4f36d5f2dc3bde8ad3 -> 1b045df141c63bf712903f69ebeb996a3232a0374b3610d440db7fc10dd10e88
+~ -[FFDefaultSafeModeChecker isItSafeMode] : sha256 09369ad26dd2ab7b3b5e9e4b525a3c6925ef17af41dfbf608357ec01cafed2f8 -> 852a06ee1016fab76d2a76e87c90d929ad773bc88e517362474c9bc5ffa69bbb
+~ -[FFFeatureAttribute description] : sha256 f350cbde49d137ced724ab197c9621bb456d6e5f51f3e511fd0ef525ddd2f251 -> 9d0d049be9782f289c67a63cae497a8fb98ce66e2e12c4e50c34f92fe80102db
+~ -[FFFeatureAttribute matchesAgainst:] : sha256 180f4f2738fc4c9291c31e16cd20cd8c642d99b61954b36764873449d4a46133 -> aab8ce0dd05c963e20c59e1a1415725ac3f25dc261aa5c50c3be63dfc103c9da
+~ _isBooleanYes : sha256 131a76a74ada280905ca0bef9edfbacb951ba72226d2d80aa76c474ecb43eb4d -> f870f61873c925b3f1a1801885e1063392b227e5b04e2823024261d1bbda7036
+~ _isBooleanNo : sha256 70a54ac8ec42c0a35e60bdeec5f8f775b719795dcedd002b5b43a44dfc4f0f26 -> 39f5e5e4a2fc865307418ff4bdfd77370dbe484e41123470e62002c3e6b2c7bd
+~ -[FFFeatureState initWithDomain:feature:value:] : sha256 846de23f4783afaff793d89a5a81f53fa0f8270d1118c6b5f28fcdc1bdbec048 -> c4fa806260c7c61c2d8779a2bf3ffec58c1bf414ee22d7529c77667ab18fd8c3
+~ -[FFFeatureState initWithDomain:feature:value:buildVersion:] : sha256 87a47aaedd7c0de9989e034f5da8806d4ade24a77377064f61daf1c5a62fd684 -> 0b57f2d59aa13bed15213a9a9ff5d7c0f26be87ae11709aea8ff90882403427f
+~ -[FFFeatureState initWithDomain:feature:value:phase:disclosureRequired:attributes:] : sha256 76a4ec80118e0c796389423eef8196263d769b7feab82ac3f1454195d6da3384 -> 0ab7487933d23b8888a60bfb280ea38790521c2cf40b65fc6efdc42fc1fbd364
+~ -[FFFeatureState description] : sha256 1cceba139a9d06708aa61533afe7f6ec82c32f49152d07c2bbc6edaca2258b18 -> fc0beda8bbd8ef3e0f241236b90c5669f597b2bf5025e3510b8799f192c711ce
+~ -[FFFeatureState copyWithZone:] : sha256 c70043998fdaf54203ec75c3cd7c8617ebab984d4d2bcac877c686fd3b44b2ca -> 26ffd4aea563593a3d6d5160675d525d6233ebb94f3f149ecd47155c5c4718d1
+~ -[FFDefaultParseErrorReporter reportError:] : sha256 8383d6b623b34ef09724ccb0db4301d8eced6f026087c6aa49b8a0414f2c1937 -> f68e0f32f3f1c9e38db56255e0c4cec9e85f36fc63f60b3fe974303d21632eb6
+~ -[FFFeatureIdentifier initWithDomain:feature:] : sha256 5b82308d6517acf2bdf39f906f553e27f59971c97604c3421580370fe274f382 -> 9a53cd1c0600ce6a65da4a3ca69d82fba7d2ee83df2722449510c8d38c4a92a3
+~ +[FFFeatureIdentifier identifierFromString:] : sha256 76791790e1a713c3b424cdec5db2b6424a50ddf8e21ab105da96d443598420b0 -> 7d123d297f545a9550bede4166e0aa3e23a17a88b21d0c19dd1bd9239213e68c
+~ -[FFFeatureIdentifier hash] : sha256 5d3ad145e89608821e9462ad2551d38903674ab47fc26f2796cd3ba802cdc0e8 -> d38f11a4425d6fb1d591497495ed3f88cb457ad5fdfa38d106e14c2832d8bc28
+~ -[FFFeatureIdentifier isEqual:] : sha256 0932c87b5a92aa5d6885b136716f9d84fdc3ebce7902ece84748d79a97a3b937 -> fc60c4c206007e8fdaf5b73a9b373b6dad6f06096a35893ef227a9479d8492ff
+~ -[FFFeatureIdentifier copyWithZone:] : sha256 a35298d724d1f69658532da314b51723ff505d27520b995a8dafd2787d709f34 -> 0ccdd8229d17c1b36712b65c5e1f01eb53450aea67612e79b5f8c29e3de87ec2
+~ -[FFFeatureIdentifier .cxx_destruct] : sha256 1ab0d5c319b6227f244bac6c9cd4a59ccc6debb4eb2d3a8f4e580ae3de07da8b -> 3eee5cc4b059a5e9476bf9e40242e554f5351851e0ac77ee8117cb849c70d9e0
+~ -[FFFeatureSetIdentifier initWithGroup:set:] : sha256 cfee4b7e4235bd20d1ab79d4a7f5a3004f92d19d4a75ec3e02a2b1d15bd3ce07 -> 9eae2e27a924ace0034a3505e030322ddf14cc5931ea55c419614ae092f92f72
+~ +[FFFeatureSetIdentifier identifierFromString:] : sha256 10066721e602e9a70a523a805c5e816d33071b1038ca57a8171a733283fe9875 -> 7a2eee382d1685a74470f1e03c45154f7c5d85a715d6177a93b10ad0ecc8ebc8
+~ -[FFFeatureSetIdentifier hash] : sha256 6de302aa86941cd1f6978491cd54f5e73347b7bdec788b9aaea38be612947bf1 -> cb6aa953d5a06eef507eefabdf3a224d8a80ac6c67765594d98027409941ba52
+~ -[FFFeatureSetIdentifier isEqual:] : sha256 9bb920d9e6389a954ccc41d44aea7fcae332abd23f089d8c29e5ecb53fb40285 -> 5910e1df12b7eed7539ebcfc156ed2d1531060301e68ba6554310dd5d0def0a9
+~ -[FFFeatureSetIdentifier copyWithZone:] : sha256 3504d215dc355065425f742a6da539cc5a464937b78fc9c6a98349b4819ce48c -> b4785a00c7d5a155196ff9e04be4bbd291ad0ee388eb605db9e24e9863f1bc78
+~ -[FFFeatureSetIdentifier .cxx_destruct] : sha256 f616f563015b4083214da0677042438c8f4d3968a1a6160fe8c1216f4ab4a3c8 -> 4c13878c58993ae28ba7e1faddc6470bbe0fbd77293b08032062ca6a9c043e88
+~ -[FFFeatureSet initWithGroup:set:] : sha256 b41d5cc3f760db72e1ec7e3ddf0c642f7295723695bdeea6780ca84891a87921 -> caa120bf60a359aea3823bc831411c017ec136ee03a241740590be1a00b65e3a
+~ -[FFFeatureSet initWithIdentifier:] : sha256 ecac8571ce68ab166efa4c7db2a3b9c3559d5532c9516c63ac58ed3d412c5e83 -> 0e1f6574bbf98ecc9c0bcfb982511f57aab6b615dcfe00f8ad69798c29d53d51
+~ -[FFFeatureSet setFeatures:] : sha256 241116ec6d255d6387d5c3c271be4fea13828da211d384ac0221a248af82aaf6 -> f3b1a134f0a06c963c184707116186fa20f511f18574854abdef7622b8799d86
+~ -[FFFeatureSet .cxx_destruct] : sha256 f7f49ece4f550da16ba30ab62153cc2f3fccaac83ac50a94d81232a6a9bb0daa -> fa3a6a1c6f37482aed091bd6a3d38e5e647fa343fc0f57d04d0c50a90a4f60c1
+~ -[FFFeatureGroup initWithName:] : sha256 75555d43f72c55eefbf7975d7feaad4e2ec7d89b17b9f2ce44eb41f2295eb39b -> 962810fb0386233ccf99326020816f9634f8e3fce47cbb31f4f9ebc8484fef42
+~ -[FFFeatureGroup setFeatureSets:] : sha256 fd2f6c47c9fb3693447d178cde915ca5d2012ee7c4f71b6f919fc1926ebfd5c6 -> bc3c0e8ea16124e6b3eaa8c971b8d8e5a918f904a491b7e9f49ea1e8e13b0b2c
+~ -[FFFeatureGroup setDisclosure:] : sha256 961270af970ea065f5df5ed51f78b4f60b4a33964d81059135ca54a2bc06bf46 -> be05172025041730ce672dbf171ac1fbd7f3120b0f004c9b4be12866ed0035de
+~ -[FFFeatureGroup setAttributes:] : sha256 e07bbd85222690ef82ed5711efe1b1bb4890ce220df4876bda83478c0d0b0b1e -> a021834d3d7c0b8778c8781d2087aa41e0c1045a831eace461bb2355f9221442
+~ -[FFFeatureGroup .cxx_destruct] : sha256 119e0e8e8ef56f19f2200ecca4911bc663852b67524226c28d34bcf74e5ba0bc -> 792397247816db71610620d5bb6205ecfd3da4d91ad886498d05d6062e5dfba9
+~ -[FFConfiguration initPrivateForBootTask] : sha256 2149ce29bafb9661bfe9ddbb5efa9c8dd754261fc8cb83344dd8721290938d35 -> b86fef69219e4a14924657662a3359e9da0021acf4a6a33dc7ce72bd2480b981
+~ +[FFConfiguration _configurationForTestingWithFileReader:fileWriter:buildVersionGetter:parseErrorReporter:safeModeChecker:] : sha256 8bde40c67533adc0412c441291c1864a27e6f0bbf2b5adec8992211a279ce96f -> 7a0188cb6aa71df21d75f78f01d34dba2d13f9b9df0f557f418afa7aafd8ea65
+~ +[FFConfiguration configurationForTestingWithFileReader:parseErrorReporter:safeModeChecker:] : sha256 0844f7f367978e4330eb46cf917275cc7c251383b1006fa81867d33ab39842bc -> 0f77b17c4c6267e72c5e217dd19f56d0797b66d858de573667124a912730c51b
+~ +[FFConfiguration configurationForTestingWithFileReader:parseErrorReporter:] : sha256 8a60365f980ae7042cd360b6f90cfd6ec0cf7c760c5e828d4e5790d29fbb987a -> 1dbb6ac2e17e2c237d4dea29238fa78717bf942924aea0ea8483349b1fe5b29d
+~ +[FFConfiguration configurationForTestingWithFileReader:fileWriter:] : sha256 23ae97faa5317ccb0e6a3bae3ded1b7947c2c8ce4269aa24ae8a313b7ed6c2b7 -> 5802f59dd0be05da7d4429825dcc0736fbc90684cf16695798f38b360ad2cf04
+~ +[FFConfiguration configurationForTestingWithFileReader:fileWriter:buildVersionGetter:] : sha256 47176d7bbd14642d65e85e4cf8e66980bd4450f708d4b6f457d6aeae554a7129 -> 2f56cdccbb96d0fe0d3e7c7238569a45d64639ba1207330d2871166f201372d5
+~ +[FFConfiguration configurationForTestingWithFileReader:] : sha256 a05902d9a575ddec9fbccbc1e3c44a1be12fcd12b29e800cc1d34b510464d179 -> 7b877afb83e6f95d2380ffc965fccbc53a495320ab784fa72cca5017803522e1
+~ +[FFConfiguration configurationForTestingWithFileWriter:] : sha256 a27144fe417f020dba372b62ec271616fc4763ce20bc0be56eb632bd462f8dc2 -> b3313d55ca2515b3a65eef1213d30ea787633d4ce5f423c6a84908d2734923a2
+~ -[FFConfiguration fileURLForLevelIndex:pathIndex:] : sha256 58a3ae7dd880c25852e236516882a394e673003828618ceabc6b382c393b40d1 -> c5f9573c77b6e2cae04ce760312dfbc80fc5587fd7f7c05fbce662132250333a
+~ -[FFConfiguration disclosureFileURLForLevelIndex:pathIndex:] : sha256 d497dccab735953221e26f90551223de6c1c1a146d4d756fc543bf72d737bfa0 -> 088ae99059ad0a8e306d085a10858050234478950eb2e881953be897128710ad
+~ -[FFConfiguration featureSetsFileURLForLevelIndex:] : sha256 ad4f0b922ccefceb4c9aa3dbc908b0a806b9561017bb6b61c1b945029b1ebd5c -> 671677b7060c655faaa9f58eb0dbb46bbb9231c64dea4b413485e9d2ff3c8c95
+~ -[FFConfiguration subscriptionsFileURLForLevelIndex:] : sha256 8e618d56100772f749a9d0bb99374982e311b923f575d6950d043d27e394b125 -> a24668324fcd2cc61f96e5f212f1de70d4acbbcf21d5805fc818f863aa9a8af3
+~ -[FFConfiguration recalculateFeatureSetEffectsAt:] : 556 -> 552
+~ -[FFConfiguration recalculateSubscriptionEffectsAt:] : 684 -> 680
+~ -[FFConfiguration reportParseError:severity:whileParsingKey:inContext:inFile:] : sha256 9bc6f343d8bea32ebd9133d3b017b1fcfac5cc0ead863d0a895b5df5e49d03aa -> bb2a19a34321f6acd6145bed28262119068c6f2802ebd09adcab9fb572e5f550
+~ -[FFConfiguration removeAllFeatureSetDataAtLevelIndex:] : sha256 ebd2bcd0929755800b6f0631e81c0ea73846542416f065a04e27350bba5ab4f9 -> 62f77793754eb4655f3857e58016ece856dc3440697c7ba5b17e80e246320e6f
+~ -[FFConfiguration loadFeatureSetDefinitionsNamed:fromURL:] : 1432 -> 1424
+~ -[FFConfiguration parseSubscriptionsDictionary:] : 384 -> 380
+~ -[FFConfiguration loadSubscriptionDataForLevelIndex:] : sha256 42e9ad73fd5f75888d652ab9bada55bfe3998e577dc3723cc1a9dbf542acb106 -> 52ce34cad8f0e39bb6d3ea751f79097601a16d7465365305b687f0e182f1faca
+~ -[FFConfiguration removeAllSubscriptionsAtLevelIndex:] : sha256 7f64b743825b76a578cf91cd00eeea800854b8e87e16d64e150bf8696e2c12ae -> d1c287086d603f8265d859bc1b4197bcb9cff420bbbfbf131eeed4adc290d4d2
+~ -[FFConfiguration isFeatureHidden:domain:] : 256 -> 280
+~ -[FFConfiguration createMutableDomainConfig:levelIndex:] : sha256 d85c40a9e2e2aabd6d840607ea6383579925d7871115511f7161f466b9661b61 -> f2292e69773b8fb853071b7f8d92f8734eda718ab8d23f033ec9b1f7cae2d373
+~ -[FFConfiguration setValue:feature:domain:levelIndex:] : sha256 1c74a97ce5a10d8d5f526e2116f79ad31f759e57d06f7f4e97d80199f6188cb1 -> bcd560da0bcc18e10874d44760b4cece0729f88d1f7bd283050c4d69e1033fbf
+~ -[FFConfiguration setValue:feature:domain:levelIndex:buildVersion:] : sha256 576b9297045dd1bf47ac2e193e15b7011bd4c6ddeee6d0a1ba4f6a442523fd72 -> 9542303e441cf8973dd44bb2d7e0ff2c676c45ef252dcf36ad7b5c4de65df98e
+~ -[FFConfiguration setFeaturesMatchingAttribute:levelIndex:value:] : 712 -> 708
+~ -[FFConfiguration populateDictionary:withFeatures:] : 536 -> 532
+~ -[FFConfiguration writeDomainUpdates:] : sha256 0f8477c5288d4640f41b8f9bf3e88c95fdde04655e1bebb2e0eabe1275f2ceb7 -> 9d80575a7bdb4ce63eae7b061744f1667ce3274372ed2b8a5ff85971eea79c4b
+~ -[FFConfiguration writeCombinedUpdatesAtLevelIndex:error:] : 556 -> 552
+~ -[FFConfiguration writeCombinedUpdates:] : sha256 845bc4296a9b4d1b22397245ea8e2cf6f5730b354de204956c9b23a66d8e11ff -> 9eadb2e276dd63944825369a225a13bb8ea3bae47aba4f9be05cdb647e19e49f
+~ -[FFConfiguration writeDisclosureUpdatesAtlevelIndex:error:] : 492 -> 488
+~ -[FFConfiguration writeDisclosureUpdates:] : sha256 349c20e60f06892d945e58f406bb74caa0b3a1d2c8f8184b5dffaf18243791c3 -> 8a298af6a9262e32c615ce0f4a54e43c9f051f391f1ce12fa2bd88fc7eae9410
+~ -[FFConfiguration writeFeatureSetUpdatesAtLevelIndex:withError:] : 832 -> 828
+~ -[FFConfiguration writeFeatureSetUpdates:] : sha256 fa1bb93bfab40c6a7a3072727e1c6c4ee23559ae759c4913ae263d4bd3d0a3e1 -> 21398fc98933429599e27c2f2d28c3c22c7ca8f9287c4cd26791881d2090b1fb
+~ -[FFConfiguration writeSubscriptionUpdatesAtLevelIndex:withError:] : 676 -> 672
+~ -[FFConfiguration writeSubscriptionUpdates:] : sha256 7f98c82071da57c394ae8bb257363e0c77d5499740284a7c1aecb844bb93b2e1 -> 8c40e9151001da5701ba0c13885082cea87bc86585ad6cd8b9a17620d3e06e70
+~ -[FFConfiguration featuresForDomainAlreadyLocked:] : 512 -> 504
+~ -[FFConfiguration enableFeature:domain:level:] : sha256 964116b9ffaae92e1ce1ce46838122dd0cf28fee7495643349ff1dd9ce565ca5 -> 0accb9aab6f1aec80c73778a287653a945e5612df7f5b56c650f380f56a2570e
+~ -[FFConfiguration enableFeature:domain:level:transient:] : sha256 b1ec5b026dd9a3670df223d03273adcdb543813f0745fe2a215899518b2cd215 -> e7d1ba7889e8ad747a5cf2d1de3c20557e48521a5bb3423258343b82a255e008
+~ -[FFConfiguration enableFeature:domain:levelIndex:] : sha256 bb5f229622de8923011c624850e6618c756b215fdf3feeff6bf82ee1fc5b52c1 -> e1edf6df0e5b1efb6d08f75b95b72c8aecd3ca428834b942832fc2378daa0515
+~ -[FFConfiguration enableFeature:domain:levelIndex:transient:] : sha256 b0f2fa6045ebfd9b26eeecfa413f2d417a571fa4ae202724ca1abee644b15735 -> f04f524f731080ba531582e798ae75939b7d0b2db3482d8e17cbcf455fdff09e
+~ -[FFConfiguration enableFeaturesMatchingAttribute:level:] : sha256 b421a5ae7cf39c3abe86de03a9316ac5d10e11bdd4c3bb8555a746622fd22fdd -> 9304739f7df70627ef400667609ad3db89f71ead04f84729ac93a944e3625bd4
+~ -[FFConfiguration disableFeature:domain:level:] : sha256 079ed65c5ae093e2f07659b2e11fccb3aa2a422060cf79a54a8adbbc92b20831 -> 49fca31748ec37ebea85afe7519aeefa331f89b75152706e5225ebf8bc091b38
+~ -[FFConfiguration disableFeature:domain:level:transient:] : sha256 59cb9fa65a42c2caf3fb5fbc6b4cee240eb7a09fc0b3ab8215a0216431d1588b -> e43173e22752ec144b7e750300d95b25e6d93e89ef2a172b8746a3e212106890
+~ -[FFConfiguration disableFeature:domain:levelIndex:] : sha256 f011183304d91657b14e649e431607ec0d98b328647bf4a445d64c3ad7fed461 -> 7e0455f6afd1f8d7a4f12622fbbc875401c56d1b48cb215de5c184bf20468b39
+~ -[FFConfiguration disableFeature:domain:levelIndex:transient:] : sha256 a951f96d637ed4104057f9934b018904482505baf128344bab83502475067083 -> 4ad27b6ac6be9ab74b4829baa640afee3d986fc608be1adaa5a55f664ac135cf
+~ -[FFConfiguration disableFeaturesMatchingAttribute:level:] : sha256 df70378f42ae57ae35b2a4a1fd20cf78be02e2e05fa6dd6b66765ccc2c76db84 -> 3df3834930767c50513015891e674daeb1eebe57b0f62fa258aff1efd37952bc
+~ -[FFConfiguration unsetFeature:domain:level:] : sha256 ba485d8202db420336d65ad788809e94bcbfa212736c92805e13919922543ac7 -> 140c8cf28b2c491ac1687978e18984db88ff0866a430ede5463e96a4322b8855
+~ -[FFConfiguration unsetFeature:domain:levelIndex:] : sha256 c77bee6b4dc7599f59537bd00eafaa58201e5ad2da36dcc5295ec6633c0dfbb6 -> 8200822f582a3fe785bb0c31bf804684103c8089408c93e2d734f10575052f37
+~ -[FFConfiguration unsetFeaturesMatchingAttribute:level:] : sha256 6dd6ed246910205548ec30d4ad9f69fefdc68407f7c87aa022b03585b60a8533 -> f33c91d49db9e006f6a4a5f3b45cc7fde0d3e7cf08b1ce4d1b268d4eec5a049d
+~ -[FFConfiguration _enableFeatureSetAlreadyLocked:atLevelIndex:] : sha256 ae5ee456eb2833ffdbacb391a7271a2072e41b94ba2635e9e06bb9d072da6de6 -> 53acd20dea1506b517650bc75202187fa517ee5ea5ab16663f398aa0b941bc04
+~ -[FFConfiguration _unsetFeatureSetAlreadyLocked:atLevelIndex:] : sha256 85316e9826435c48a5fd36f85bd5e77a5fedf3d370619b51eb1e3130dc9f64df -> 58cea61237e3f595e93d53a40475b52408ad5a67f6a7dafcbd8cc7e77d683842
+~ -[FFConfiguration addSubscriptionAlreadyLocked:atLevelIndex:] : sha256 0a6337421bb125b1b381172be5e61d317655788f844e54e2b0f3b5fc412687c3 -> 6afecb3d985a2edd2dc2ac385d92d40138af24a96e87ebb3d47e0807a0ffb2c5
+~ -[FFConfiguration commitUpdates:] : sha256 05eb8fc8d30a5d0f69ab2f4a9b2c0c68f6f95271d1341464d991505a5ede6b88 -> 95198d4467424568133bc0c79c79db041120d6a78f40eb067b312519b17e9a27
+~ -[FFConfiguration invalidateCache] : sha256 9c982d1a06d3a46d559774d70cc1e78b73f34c6d8b356af34967b857abf63134 -> a47a3c00ad3801c97bcaa545b6e8dcc83b66e8d083efa2ac173d3af788c083e2
+~ +[FFConfiguration isValidDisclosureName:] : sha256 088011678f41b4e4b297c9cfbf2b4a50b95df4bfb7a0829e5b66fdf5b01c4760 -> 90139ef9eabc3a2e3c2cb61b1a21e0eaddbfaa4884b2cf792e048eba8f0c6a67
+~ -[FFConfiguration resetDomain:error:] : 492 -> 484
+~ -[FFConfiguration reset:] : sha256 fcc1b9e3a5e37f5d7bc51ac6f2b486f12c4b172c0dcc95220298b716b7e35d7c -> c693ef17047571c406f8df42693b4dde1b26f714e682c6b1ff20fd4a508627a5
+~ -[FFConfiguration isSafeMode] : sha256 a76b92cd523bc826a7b5018e67ae937c529befc91248d447c5a5f9357a07fdbd -> d1a3bb3e96f92d425f3897a7623be9ee0e5dc35d96f4d900893f3cfe8439dc90
+~ -[FFConfiguration sortValueForPhase:] : 112 -> 124
+~ -[FFConfiguration setFilewriter:] : sha256 94cde1a7e7eddbfb18597665058fb402b844a0490f6ca8e02e719a39575ccaca -> 15b41ab8a84774ba11d4c3f72bdac76c9554435aefc2388ba9350aca57ba8d30
+~ -[FFConfiguration setFilereader:] : sha256 a86f08f80bdbe2ff51d346cb8d0bfaba41f276e61187e5392ec575dddc4388e3 -> b4a12600264e6e286b886fc7529c3c2378f2a1939603ccfc0e5397a688b23de1
+~ -[FFConfiguration setParseerrorreporter:] : sha256 55c32da7613ea31c54d558003b56d18a3964a1bd44f3572892d3189316ca260c -> 7e1fdbcc641a844ffaab911dbfbc2915f557f558a8b60147251208dc38d10db4
+~ -[FFConfiguration setPlistparser:] : sha256 c0cad21f6824e293ed8674d875873682d1f5fc3d3af7fcfb8493907404a155b3 -> ac044ab9cf217dbb4f6941256361094be707cde66c8e0f2856946763ff465059
+~ -[FFConfiguration setSafemodechecker:] : sha256 47dbbe7020f63da706a3170786aaac3dd68a657d60a4b5bf4c7cf634869b5b11 -> bc0fdaa73cc9a0ebefc9d4a7c3c24e9fbe4e6dadb0030f774778f1a48874d1ad
+~ -[FFConfiguration setBuildVersionGetter:] : sha256 febe5eaac979de19381dc05bead8febc4bd3e34e7083c6c748ac9d041878aa97 -> a802218e397c100437b0e37e9ffd68ec58829b76730d7869ac91015a36d2e3f4
+~ -[FFConfiguration setProfilePayloads:] : sha256 cc287b9c0b552f89d578fcccc5df1efd287c023c1b135f1d15b5aeae232ff08c -> 255c23785a5439d0c227196b107ecd677e031e8deaa2ae2e64c1ac103153546f
+~ -[FFConfiguration .cxx_destruct] : sha256 7bdcc36e71aac9497a50aeee75f9952fdd8101ae43b9edad47537d1a460f7fad -> 2ba39011373d397702fce2e5081f711995724829ccc4f4817da6b6cca1eced7b
+~ -[FFConfiguration(Disclosure) definedFeatureGroupsFilteredByCurrentDisclosures] : sha256 5257489ac9d5dacb6c80e693e41f4dd75a64945048df72da242e9b5518ca6504 -> 37293c2bba92178e5cc81fbf5d3b524197e0f0f429705f217b1c39086fb60ddd
+~ ___79-[FFConfiguration(Disclosure) definedFeatureGroupsFilteredByCurrentDisclosures]_block_invoke : sha256 ed66dfd6a4d208eac8d776b814059d6f4259033573fffc1e42a024a2fafcda20 -> d5bf3bb6da010cc32f8ebb1164b376c1547a1b8b6bdc975c0ab7daedb622105f
+~ ___79-[FFConfiguration(Disclosure) definedFeatureGroupsFilteredByCurrentDisclosures]_block_invoke_2 : sha256 71cf324eb306d2ed44c4070dc3f307fe1e02b36332ec78cb2925222b45d8873a -> d13e8739cf6c35951832fbc64620a41f6f59c2aef965a8ea0e3f2aebbf493173
+~ ___79-[FFConfiguration(Disclosure) definedFeatureGroupsFilteredByCurrentDisclosures]_block_invoke_3 : sha256 bdaae822e0eff668e09e34d1880f04d0c87983c201bb2697275b99d032875c6a -> e9b9054682ec95c757cf8d85c3cf46403ff15a7037592a6408e232180bb6cebd
+~ -[FFConfiguration(Disclosure) definedFeatureSetsFilteredByCurrentDisclosures] : sha256 95f856e441e1121f6b86bbf3236d83a186fe111b60fe53db9896bd66fa8f1c48 -> b3f8bdb5273750225e8103bb7eb208a196b27c17d1c7718114d2e5c6817d1442
+~ ___77-[FFConfiguration(Disclosure) definedFeatureSetsFilteredByCurrentDisclosures]_block_invoke : sha256 12848e2282193e2ca60648dbda3e3d81ddd63c304d0919f1adb2e36d02a0ebbd -> 93fa95d5f82c5b269d7f8060d3b1175b8142d1ab1814ddcf7fcf6079a124c361
+~ ___77-[FFConfiguration(Disclosure) definedFeatureSetsFilteredByCurrentDisclosures]_block_invoke_2 : sha256 e3ec1212e08db42f4448fac1b103f83213618df2c7ce8687399e011dd143d953 -> bde4a3b199e07a5c5aa784e825b730abb1c4a8a9cd620a32cf9841039c9d8e3b
+~ -[FFConfiguration(Disclosure) mutableDisclosureSetAtLevelIndex:] : sha256 5ffe89d3c3dc50fae348e4af4fd92d698de547cfe28054f5bb0b5ee02b4e35b8 -> 1506ccdb9a13eefa22b961a388012b9079d1745bb93c390b711f79e91fc30a41
+~ -[FFConfiguration(Disclosure) addDisclosure:atLevel:] : sha256 712505ffd942705a87dbb37b54f520cce3a0b1a200d307428d72e85ed2b2c50f -> ebb2d27a6be635d53fdc1a71bd1ec0b623f4aa40c24bb73d9c4d485bd6e3a1da
+~ -[FFConfiguration(Disclosure) addDisclosureAlreadyLocked:atLevelIndex:] : sha256 469d72538096de2ebabbc92d1b85b01c98ba3d267a2e9d56a611183503852f58 -> 736b2bafdd2a4803d7c0769e4e88808ca62bad3ba100d8dd0edeedb3f10890fc
+~ -[FFConfiguration(Disclosure) removeDisclosure:atLevel:] : sha256 bd271792f8c97a1899ceb95ad9d9da569b9d6acf64c18d2e219d305471854a27 -> 98492d9ba5c2415666d99330bd5ee37af2406f208709b3e5f858c5c59d7a1a45
+~ -[FFConfiguration(Disclosure) removeDisclosure:atLevelIndex:] : sha256 4eaeb39b425263a2cf9375a18c1d162a7c057fdd01d2a234ba93d34490777f15 -> d3819c91f90abe5981be1e0c3d55763b93930e4bab2a01e7be69260de12afd96
+~ -[FFConfiguration(Disclosure) removeAllDisclosuresAtLevelIndex:] : sha256 d326ff22845922341ffbe31a42fa12f8ce33771b23d424fd27893722f0cfdcbc -> 5f313397d154d08b02034aa2b5e62b932da014aacfde67c61efacb2a850e7af0
+~ -[FFConfiguration(Disclosure) currentDisclosuresAtLevel:] : sha256 ae67bc47111c3715b40d7e2383b4cf6f307bc1b088b775777c2b4f365c6e0bc9 -> c89b8e4fda8e928c3e18a51deb63f0a5cefd614aaf7a805a9303317904cca633
+~ -[FFConfiguration(Disclosure) currentDisclosuresAtLevelIndex:] : sha256 7a9381899760f9f8af3fda439ef76af4858d453be94d53ddddb911403f9f5601 -> b7afd4c82ffb5a855b6100816cd896c557581c451b41410ca9c6acb0b95433bf
+~ -[FFConfiguration(Disclosure) currentDisclosures] : sha256 7a8c68a5ed2632723565cbc349f65d3feadfc981400ceb8b73cdce3780d7c37d -> 69459808a270be383f63f380528baa891e1518cb3cae1c0521809a271c5735a2
+~ -[FFConfiguration(Disclosure) isValidDisclosureName:] : sha256 57f59464418d1ae41ac2f5c6001c4aee76aec4e650335de69adef3e27303b222 -> ff424e170026df17e6c2355ceb286ac019a050206037422d51661e6d608f2af8
+~ -[FFConfiguration(Disclosure) disclosureForFeature:domain:] : 320 -> 344
+~ +[FFConfiguration(ProfileManagement) configurationForProfileManagement] : sha256 00926e13d2fe278cd5539cef7fa518610b17ba5c7c6f3fe1ca1a0d3a633b1f30 -> 8ad1bbc72c6d98de0253bb3d34fa8c55fb8fbae3d8248586b9c00ffe5bcb35a8
+~ -[FFConfiguration(ProfileManagement) prepareToAddProfilePayloads] : 572 -> 568
+~ -[FFConfiguration(ProfileManagement) addProfilePayload:error:] : sha256 82299e024c98fc484c6a9ce0bf2125b9f70fcb6b8ee3bcddccc6fc60c03ed873 -> 2f0c5f616d61eec7d931d871f6d16753519ed6c88159513d31f00150c6f4c7da
+~ _FFConfigurationValidateProfilePayload : 3252 -> 3276
+~ -[FFConfiguration(ProfileManagement) commitProfilePayloadsAndReturnError:] : 2660 -> 2644
+~ -[FFConfiguration(FeatureSets) allFeatureGroups] : sha256 cf43b1100e1477b806b575d6827b357383451c4b3640fd7dd2c4fd2f097d2428 -> c70dd18002dd32f16f8ea4cf45128b2813abca31ac1a7e8620fd17699f045938
+~ -[FFConfiguration(FeatureSets) attributesForFeatureGroup:] : sha256 4cb24533387d516d90d23c53a03fa629dbd8577ae037f41b731bd19622feb698 -> edd2b2b9064f3d98e0e58ffacb3efdb84ad37d91b18c6ac70a078d85edb2488f
+~ -[FFConfiguration(FeatureSets) featureSetsInGroup:] : sha256 f675ec1c2fa770ae47bd3221d0939eb39e5e8411999a65b6f74d933c924cdb39 -> 16083c1ad34d42a75b591fb5913a9a88435a10752c6863e6c4a95bfb3c0ace9d
+~ -[FFConfiguration(FeatureSets) featureFlagsInSet:inGroup:] : 588 -> 584
+~ -[FFConfiguration(FeatureSets) valueForFeatureSet:inGroup:atLevel:] : sha256 bf65771ea0ca65aae9aa9cb933be7420d7e59675814b70131d8e069349566cee -> 7795abbb64a5b81d7e428f976aefa41395909f8265d5f1ce1632f0ef9a276591
+~ -[FFConfiguration(FeatureSets) resolvedValueForFeatureSet:inGroup:] : sha256 074ae846a65324e6bbc548bad3402671c401d0057e0ac073db2ecbaeb1cdab5d -> 8f2a3da479230a5e0791380bb5baa5ee1811c45a78434467b7a3991a1c7196aa
+~ -[FFConfiguration(FeatureSets) _resolvedValueForFeatureSet:] : sha256 9c5f71204a309b2681524ddc7c38b5ce3074c241709905f6de57c681270b5fcf -> d72723106a4ce199de54f272bfde9119b3d013246a3525662301c81315ad8dcf
+~ -[FFConfiguration(FeatureSets) _valueForFeatureSet:atLevel:] : sha256 4fe1a5948e76959c8fdc0b3967a312b2064943232c7de215701edb7901e0c8d9 -> da86c5e65ba81a80ffa2bc9fb561e9bcacdadba78cc1aa9832ff075f4d095455
+~ -[FFConfiguration(FeatureSets) enableFeatureSet:inGroup:atLevel:] : sha256 fdedc60598e79ca93ed165e80e329cd7e49b86127fb3fb783642652fbe3e42ec -> 858b0b172778a6a4c82a5b93e6fcd8010629ae3ba6a460c958afbf0e91a0aacb
+~ -[FFConfiguration(FeatureSets) unsetFeatureSet:inGroup:atLevel:] : sha256 43569ae494957c90c60b076667fb89ac0c7a9708b4f2b7e691c4ee79b5495a6f -> 9c8bda986bee126864cc2dd5215620fecb5f06b365a6a21317288a90928db020
+~ -[FFConfiguration(FeatureSets_Disclosures) disclosureForFeatureGroup:] : sha256 3983f6f07e9cce5036aab04a248a0422fc50a14238fcf2c0c4928ef418cd859f -> ae289e1f7ac14e4b9952dd480841e23f81d89a9b5497b8b8146cc15f0accb95d
+~ -[FFConfiguration(Subscriptions) addSubscription:atLevel:] : sha256 b851d7df63e90dde768d2a84d06b94400b894ff1b26cd13681b39564b15655dc -> 8399bbe6417b587a0afe8470bc8a1bc9b3c23f4dc780499208a2509ea07cb7d3
+~ -[FFConfiguration(Subscriptions) removeSubscription:atLevel:] : 232 -> 228
+~ -[FFConfiguration(Subscriptions) allSubscriptionsAtLevel:] : 168 -> 164
+~ -[FFSubscription initPrivate] : sha256 fc0a3f7b4d2c311a9085123b332bdcd35b8366f689849115e4de4b8e853ac744 -> d611c373619014cb08e86d91eb4c455c9cb2a7a8d9f5d50594ce474fe69f16f0
+~ -[FFMinimumPhaseInReleaseSubscription initWithPhase:targetRelease:] : sha256 84a9b3cb2484c3cbd2574066a0a0f4be433e8c1dd484b338f07682b924cb9ead -> 9c1aecd2203c75115ea6274d584ed2c9cca03880c2e9451d4debbc5d191d08ce
+~ -[FFMinimumPhaseInReleaseSubscription matchesFeature:inDomain:inConfiguration:] : sha256 66d08b41d339d757e87f4dccb5c9cf2e75f91fe676005795dbd2c9ab88dec654 -> 0203718a7c3829412d6b30da75d66eb4baf157ea21368ae3ae52604c25ddbe22
+~ -[FFMinimumPhaseInReleaseSubscription matchesFeature:inDomain:inAlreadyLockedConfiguration:] : sha256 8538a63204cd87af01d94ea81f1402f4cc864e6b05dc2a142135bd8b2a49239c -> 248b7874eae7112593feb8bdc9ae2d18b71ec96b3312c4976d01ec1ecd261f04
+~ -[FFMinimumPhaseInReleaseSubscription matchesFeatureWithState:inConfigurationOfUnknownLockState:] : sha256 b546fb9c721e63dd697424e458e95d8f6e6919ba15fe252a00e7aa2744ea8827 -> 75fb47434bee7cad26335cf9aff12722d92e1865e2b58dcd40aecd4ec1581e04
+~ -[FFMinimumPhaseInReleaseSubscription encodeToDictionary] : sha256 b49cd198ab1119b5f79add7173a8822f6c89943b5d6a3a7fa77e6f66912ba9c6 -> 9edf848816a313d312d5109d4ff5e73e7ac8d6d9d00cdb0c00f829dd64b8f0bd
+~ +[FFMinimumPhaseInReleaseSubscription decodeFromDictionary:] : sha256 0fb58d1f3d30f70b257802def40a35c29475d37c5dac7cc3811aab43128be586 -> 4db708cd427730679b9f3edfcfcf85f318a4b4f5d38adb72a776b1583a678d56
+~ -[FFMinimumPhaseInReleaseSubscription nameOfClass] : sha256 5233cda9096edb2442c48a15ba0b42ecd3df05dc0ddefc1e691bd6ce0a60d397 -> 8f5c1a0992bb165985a8ec76bc24e3648a823b331d682cb7184b628212da137f
+~ -[FFMinimumPhaseInReleaseSubscription .cxx_destruct] : sha256 eb1735e69ee14bdb99124ded34739805f00dd240afbb112eef1b1980bcab8e45 -> 8774cca8facbf8e927e68d12c1d3e937808b9ccc4a773a978fc2d16e3d7f8648
+~ -[FFPlistParser parseSubscriptionsFromDictionary:] : sha256 73a5ed103bfae0e4ff4a0bb46d23f2bed89fd21741fc781dabd82ef947502acb -> 7e174907ab8e7e500699ea8df5cd5706709df947cf373a1d9b15a5fe5541bc0a
+~ __os_feature_enabled_is_safe_mode : sha256 523954a3d6b051da10492fe218aaf3c83d2f687703ae8ee1d0f47e6b00011b93 -> fe1dbdcb149d3fa9c7f9a0cd0c08c5026cfcf8be229d09c0a80ac3dcb57dcb06
+~ -[FFSubscription matchesFeature:inDomain:inConfiguration:] : sha256 fec2808f99f75c45694472b9773cfcb1f6627b13d06136c501afc58691cce29b -> 8dcca88b8fe8740b602ad367f527911e6ace1472f8a75ad5309f8ecf6a402fa5
+~ -[FFSubscription matchesFeature:inDomain:inAlreadyLockedConfiguration:] : sha256 3c0e2b55b1099daa9614b2b7dffbb97fb1b1ede121de382d7d6b750fd3f6ffb8 -> e6e2881f1032f8446d9ba176a7b8ad81424d78de1aa7828ea462fca758986faf
+~ +[FFSubscription mergeSubscriptions:] : sha256 d187e6ff8df4a858cbf91a5a41fad399fee6bc1e980fdb958db42300765c3889 -> df380d1439c51661f4d2179c02463b14623090088f2c6428d488e8f18917df96
+~ -[FFSubscription encodeToDictionary] : sha256 ee18f2721cee6b4b97990ecdf6e124557ce90d459a1810c19b4fce0786786ff3 -> 2f252fccb16e69cb2ed7c36ea6e58522681c78f09cff46293c54975f6629fd58
+~ +[FFSubscription decodeFromDictionary:] : sha256 b362712a8d9250c756d954113b305c014f4f1298cffbf5c792e1fa60aa47e712 -> 13044cd9ca0dadf2398e2a93e16f19dacfc8dc331e7bf059c113f1b9c0aefad5
+~ -[FFSubscription nameOfClass] : sha256 db51c42196cabdaa85523218e64383976f12e76fdf0b48de477f31ed986d9724 -> 04dde118d977b271b9a569f943746ce89cbcddb448601772f1c5aed0e2f56f7b
+~ -[FFSubscription init] : sha256 22393a7f6c13454c89c327273dcdbc4c0c286b7ee99104da2b5b91d1ab909adf -> 70b2673f494d93fa5098c6949c9e09c5c7d28d406090369b85e9272c55840e78
+~ +[FFMinimumPhaseInReleaseSubscription mergeSubscriptions:] : sha256 b7c07bd2c68de1155b4b60ed317bb4cbbfdaa0c34ab5163f112469b560878ba7 -> 0833137158284cc0790e624b4f21047931a0242abb60186a10cddbf3a6896c94
+~ -[FFConfiguration fileURLForLevelIndex:pathIndex:].cold.1 : sha256 f09a29f94d1e78faa159a5debfd922536180b16b8661b623c8d2b02362b40971 -> e57ca1ad584a3865cdd792a22e789090a2eba19638394504af18ce66888eaaec
+~ -[FFConfiguration internalDisclosureFileURLForLevelIndex:].cold.1 : sha256 1a1457fe1eab634579c672f372da2c40a6cbcf0ecc7ac51a4164a6a59121626a -> 9f920127fa495b5cc2b989e2617599ade081d8b04520024c1a890e841849c570
+~ -[FFConfiguration featureSetsFileURLForLevelIndex:].cold.1 : sha256 d832c8ce3b3881893cf4087d158dd57a395e8b5c13269345fa5c52d03fe1fa05 -> 2aa3bdf16980ee26e0556aadd35245f7fbb8db9b2a9e16483f866267bd93a0ed
+~ -[FFConfiguration subscriptionsFileURLForLevelIndex:].cold.1 : sha256 fca32d7aad656077c4347a24595b3789281b682057140a7e40236f4e0f5b7550 -> 8d3cf360024968fbd75262dab30d15c00a8c0fde69fee761a869c237adaec3dc
+~ -[FFConfiguration recalculateSubscriptionEffectsAt:].cold.1 : sha256 0cbda367ea973e0e39e172529957ddb1b0954de2923da4a84493d12c4bb9aff8 -> d1104823e9ce9c8598de6de1628bab0dc39c0c7a4484e77c6b84bd93f221500b
+~ -[FFConfiguration loadFeatureSetDefinitionsNamed:fromURL:].cold.1 : sha256 b888832224b271c4f22e7392783d83a831769157fbd748f2d59deb8b57ef3b69 -> 33656f2e122211deb732cc091cf334090aa312069fe3c052b0156357e2aa5f1e
+~ -[FFConfiguration loadFeatureSetDefinitionsNamed:fromURL:].cold.2 : sha256 6da6bf8dbfec98e52dbce7aedb75952562211ad3539988a6b8fb4d4a940dfe48 -> 0bc391fd6122485aeafb2bcc13e523500a8dd8803f0e51d19964d0851e6e6afc
+~ -[FFConfiguration loadSubscriptionDataForLevelIndex:].cold.1 : sha256 a7ad4138ae90c6cab8df1ea688d23af9bd809b46cbf5f8ed8c97df09cc663f0c -> a1643aa765637f709e394d42aac9b0c2d32761e7c75bec7c94617bfba18762af
+~ -[FFConfiguration removeAllSubscriptionsAtLevelIndex:].cold.1 : sha256 f6d2921a029411316c4ac05972b1ea94f8164dd142960084a8ead4ba95f6f3af -> 71e6771b6d42e28650d69e96610520276464e222eb2fc246bac81d82b21519eb
+~ -[FFConfiguration setValue:feature:domain:levelIndex:buildVersion:].cold.1 : sha256 29ea7af24c4fb7188f851d04222a8bb2d5444b7e63b3b2a70be2673b3b6e6a92 -> 0269111f0df01edda0339cbe6734454bcf8de6939409d3a3f908e9c7dc44f70b
+~ -[FFConfiguration setValue:feature:domain:levelIndex:buildVersion:].cold.2 : sha256 d920648139973fe6bbd66e91a514eb3d87d07039934e1244ff198f72f249932f -> 3d9db97a7f57de0989b284985f1f15862509f5c85568de48bbf3a49e7de808ce
+~ -[FFConfiguration stateForFeature:domain:level:].cold.1 : sha256 49b3be7d56b5f2e442f95e6d58ef42c4523c2322eeed824407902b175e88a4cf -> a6545d8a15b384d908da73ccc68106635763e636a68ff19893f8aca84e93eff3
+~ -[FFConfiguration(Disclosure) addDisclosure:atLevel:].cold.1 : sha256 32500779e764a56609a3b0d0a12b02dc09a063e1ba488147f2579bd746dc9bdb -> de445ef186c2aadd9d68d40e94c05abbd9faa0dbfa41c98b3932eebd69d13a51
+~ -[FFConfiguration(Disclosure) addDisclosure:atLevel:].cold.2 : sha256 38f474c737c56994d79723ea5ae85d782838d9152410b021c347c4590c2bfe6d -> 0940e78f752d691c959d48f60285e6ccbdfd158e07345efec1275611337e8de4
+~ -[FFConfiguration(Disclosure) removeDisclosure:atLevel:].cold.1 : sha256 ad6ba91d174ce0f2ee8d0880e44151ded7e2f550349b31c497200fb1428346ab -> 02bc15bbdf956da27ce668e619799ecd259fa878c99e35fffee1ac76715e7902
+~ -[FFConfiguration(Disclosure) removeDisclosure:atLevel:].cold.2 : sha256 ed36581a6320ba26f31582e5bf08ec20dd78a5078f6717a1a9b5df75372110cd -> 37ba83ffed98e5cb0eb0c9ceb8b4b3e823a843facade0bdb7fa50ede81b9b9c5
+~ -[FFConfiguration(Disclosure) removeAllDisclosuresAtLevelIndex:].cold.1 : sha256 aa078841789631a57914ceaef7844e47be68f799991c77f9357cf2d45afdb39c -> b85ecb33cf6dd312c28e5f96ca68a9f21dd817a0502668c5b8a4cbf19ad109bf
+~ -[FFConfiguration(Disclosure) removeAllDisclosuresAtLevelIndex:].cold.2 : sha256 99260f212efd6b6b4ff7b311ff39286f9953a1c57e028afc751beb3916047f98 -> 029027b007731b8412d49dc552cc05e4ef9c14980aca5af5dd4cf7d71651e072
+~ -[FFConfiguration(FeatureSets) unsetFeatureSet:inGroup:atLevel:].cold.1 : sha256 8fcb3042c90bbfbd806fcadff14873910f34be6f079a4ed006ac353b1acea750 -> a68e29d235a2e16dbd05ee5125e66959fecf91a614895de40edfee487f6c6814
+~ -[FFConfiguration(Subscriptions) removeSubscription:atLevel:].cold.1 : sha256 a398fed38f0161530bdb01f51adc065d440f5445f6341708deadcff2680b8c52 -> edaf01f38a7788820cd5d59fe9ade96bcf6d6349b233c6a3bd7f6613cb9f0756
+
+```

@@ -1,0 +1,84 @@
+## BannerKit
+
+> `/System/Library/AccessibilityBundles/BannerKit.axbundle/BannerKit`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0xb6c sha256:ec0d7750526b94a10f5c70393dd15d092fd76fa571a76c34812b29abe2c02aba
+-  __TEXT.__objc_methlist: 0xd4 sha256:cc8c9ef879deb0b040089349b0b346dc345c3a36aec080b472069dee6c301fe0
++3039.1.0.0.0
++  __TEXT.__text: 0xb68 sha256:feae93d42aa3e44f846f592fc33dcb0c447e4ad85dd07e534837d179925d3f86
++  __TEXT.__objc_methlist: 0xd4 sha256:171a82f53ae94bd099c5f26248224f78be0ab561e2b436df16b602ee9e7fe04d
+   __TEXT.__const: 0x10 sha256:c1cbe048bd9d3073e48c6714abc2af5b957bd245128f779ec593a3a1ed286853
+   __TEXT.__gcc_except_tab: 0x54 sha256:586355ba14e240e614896ad6c06785f8195cf76ef1256b8aa963fbdd642518b4
+   __TEXT.__cstring: 0x21d sha256:691b58ce545bdc5af108b35572b4bea837d005a3454480dd01a01288f4a01b1f
+-  __TEXT.__unwind_info: 0xc8 sha256:db4d29d1b20b82ddf0780c67e55254f35da58cae4068aff0cfcefaacabdd802f
++  __TEXT.__unwind_info: 0xc8 sha256:47e59dc43caea0d457f160bd7eca5d36fdee4813f61b23e80ef8217b71c5902a
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xc0 sha256:1826d20eef419b09c292ca10e58352e9fe39d5f8a257a95a881f38e3d51a45a5
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:6bd807399a3e2295d6611cbb1ac213c6dc7a3cc923e0b905a0af06cd39b61eb8
++  __DATA_CONST.__const: 0xc0 sha256:04dfed15770969f2c2f6eb7732fdfaf6075e8e73c626621e479a44ad13e762c7
++  __DATA_CONST.__objc_classlist: 0x28 sha256:b24e2448233490e42ed01bc90d3be0d808edb0e860d01bc77f45d8c2b7723a38
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x120 sha256:8afc783c817589e22d2450125ca41e80d9722d416698c53d75b99e95282b3518
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:86d00fe1bcbce16153f18588f2b3c4945cf1b50ecd9668d3f0facb20cf299c13
+-  __DATA_CONST.__got: 0x50 sha256:b86035ff25d18b161de3238682909e5c01617c96d89b849865e411c6016e9705
+-  __AUTH_CONST.__const: 0x60 sha256:0cd55104dac1b1568555396e0b0779d4e4a802467eb1148e42be3271d49b57a9
+-  __AUTH_CONST.__cfstring: 0x220 sha256:db922bea982d7ecd0d1dc4c52f82557b241ab82480f92edb3e5fedf9696ac4dd
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:2b3af1412fd75752f64d43162801d8fcf3775c0fcfe164fc29457aed0791a3d9
++  __DATA_CONST.__objc_selrefs: 0x120 sha256:748fef1940364cdf06a8dc5a02f712c85b4bb1211e441b2b49058aa0a595ede6
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:d88d328112b0594c27adc3b524971dfc4f89e3949cd148188e3d23d1298f4888
++  __DATA_CONST.__got: 0x50 sha256:fe8712afc04402bde25133b4925bcf5413bb201d7b4f8eef29a3a34fc2c19a61
++  __AUTH_CONST.__const: 0x60 sha256:eacb52a58f00bf6cc8f6df3141b05c1943e8f28a46e8076ded6e13b49c3d5aa6
++  __AUTH_CONST.__cfstring: 0x220 sha256:1d0e5aeffd6868aee2f42a8bc9c0a2a898769cdccd38918c09f00002112720e7
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:1028d511555d3a4c3f5889dabc950cba8c899081202fa555c76387cc4dd77e84
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:e3041c7510c6b6463babda68b0fc7698af8af471c8efa6992c44521387f41f83
++  __AUTH.__objc_data: 0xa0 sha256:7b5278b236f3f3f1e0adc8fdd3933197ad9234b7e47a4f5a8e94df5b685a75e1
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:1c1810f1ddc60560301ab8dec3d5c3e2d2fb16a579fb334f38686a2edc3892be
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:ece4c79f83506eb2bc7efc8abab696b44300c32820ccbe076a4e30aca4436ade
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 80F02C10-5FBE-3654-8661-0CF275C01B1A
++  UUID: 6DBF7066-A64E-324E-B7A1-9D82F0A2251C
+   Functions: 22
+   Symbols:   162
+   CStrings:  42
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ +[AXBannerKitGlue accessibilityInitializeBundle] : sha256 215fb4f4d2f9f7f5d4c8896cad2e75c4cb8cca60cabab947dbd6b7d63c19987b -> 64065b925006b06f5b2602d9a099b0470352e0967af52edaa24f4a59429e218b
+~ ___48+[AXBannerKitGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 e6d96bf6f7d32f0aae9ff6d8f8bc67c7e3157f5270387a457223f9e2cf829183 -> eab0401e4571dc825fd71bd0b052eeef42bf3c7246c4e1da0a35a801cc7346f1
+~ ___48+[AXBannerKitGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 02a8ee5ef57acdc104b9cc8a0f204491d07e6e5a77e0ae762b3fc1d54c60fbe0 -> fc894df7b2ebcfbbc73f475fa394b1e88a520438fe508a0648ca8003e41429a7
+~ _accessibilityLocalizedString : sha256 f422051e095e4f03a9d2a4cb9bc31c7dd2cbbd5e85a40aca2a8fb30c54a46307 -> 156b35b21555066d917ba67c12a68178159c175ae738d3a1fb882a0cb79cb8cf
+~ +[BNBannerSceneComponentProviderSecureWindowAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 9f4291ce00ef8bad4d27dd07c9a59fbd9892b387bd90d602e3b22a1130120a1e -> fc38c698af2c7b2b4b17b3ec6c6bd593e6b35540dd7c7935f60b65da6789927d
+~ +[BNBannerSceneComponentProviderSecureWindowAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 2fbc45836443a11fc4d37538f3e780e7baca60d4ec915d67d1392f349ed3bad9 -> dc92963f76b2711c464366b0b996a5826df49e172c7ff6e52a0facde606480ff
+~ -[BNBannerSceneComponentProviderSecureWindowAccessibility _accessibilityLoadAccessibilityInformation] : sha256 7496f604d0881da87ed21ba69640273ff195d56584ba7a79fc287061d034c0e3 -> 92f005fbe50a3d68b2c4bb4215c4f17fe22fa6dd9094dab894d92a3a9215bcc1
+~ +[BNContentViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 c2b6382d4b02c6aaeef11e522f0b6b6763a2e2f9adec9974eda275ebc0530afa -> 67ae284a13b0052c2be5277ecbcc028c32d4c7fab2f0e29eac75f8bb3468cc15
+~ +[BNContentViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 a2fdc2c05338424989bb98816ac4aaa6d454911d42f50efdf0ce19a3ddcdecd4 -> 794fbedb12429d8a42ba72afae18fd9a14905a4a6f28c9435ca65b2a6d14ea1a
+~ +[BNContentViewControllerAccessibility _accessibilityPerformValidations:] : sha256 1d3a668ef5b3d942a1067e95ce4acd8c96d39c8321b53d8d3c4c7e7504c604c8 -> 0aa077a00e64de260fa907df43807d66aaf18d6cc7bb5b84d83b2079672a4537
+~ -[BNContentViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 356 -> 352
+~ -[BNContentViewControllerAccessibility addChildViewController:] : sha256 fe0d12f2272f5c8c3d578b94127941e215c0aefd0fc405b365ace93eebecc5ad -> e7c127c2d27857ff7bf11b79af323dddb1dad8bd8b8b0bda185962c4d6fa83f8
+~ -[BNContentViewControllerAccessibility presentPresentable:withOptions:userInfo:] : sha256 b7c63fcfdeafc31847071927a161dfd28e1431277d382f1de777fdf50c740af4 -> ef313b9ebe1dba2f9f6d16d0193edb46a09a14a024e8e0846f2d0a2c17609691
+~ -[BNContentViewControllerAccessibility _axMarkupBannerVC:] : sha256 14a79648e66a54f1e1f8438368264359ea57c936a8fda43336ee0f3b2fdd84e7 -> 29298fd3a26588d601ec3512220d89cf72124fd83f2d63494e25905c98ba7c35
+~ ___58-[BNContentViewControllerAccessibility _axMarkupBannerVC:]_block_invoke : sha256 5108fd892e122040ba7c2dd9300c4ed61801af6197544154beac67b2caea2097 -> bb200a23f74c71a80bf73483162f27eeedc00910646c324a387c2eef5c51c2aa
+~ ___58-[BNContentViewControllerAccessibility _axMarkupBannerVC:]_block_invoke_2 : sha256 e78553deabfa4203eb122aeefeb611ac30c3c293f7b14338745dc19def2c8ca5 -> 3e58423cf90a04d14652c4304316cc4bc03fea71dda99e32deea470acdbe7b3e
+~ -[BNContentViewControllerAccessibility _axPresentableForViewController:] : sha256 8dc893e31e4c93668c97296dbb4baae2d48f5a1875b453a68f671951b017e230 -> 06e4ffeb63df10d3fef057d6d1694345d332cbfda951da892ee7e245d32d2544
+~ ___Block_byref_object_dispose_ : sha256 fd40eb802a0a184ac8a6fe6a4137169c176e7e557673b22ec40f592a2e14a30f -> 08f67817aec82671e87cf5244cde9567fb1422514a97a7c4146effc6fc449a4d
+~ ___72-[BNContentViewControllerAccessibility _axPresentableForViewController:]_block_invoke : sha256 6ab623940e7805367948e67d36ce8eed3d32f622ce5a0e48710f6c95fe12e9c7 -> b5b1880abfc9bf36a78693c443d82ca3503611abfbdfd707eab4d1bd053f48bb
+
+```

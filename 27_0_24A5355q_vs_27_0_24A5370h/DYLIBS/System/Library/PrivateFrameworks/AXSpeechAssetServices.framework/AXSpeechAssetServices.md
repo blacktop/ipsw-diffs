@@ -1,0 +1,77 @@
+## AXSpeechAssetServices
+
+> `/System/Library/PrivateFrameworks/AXSpeechAssetServices.framework/AXSpeechAssetServices`
+
+```diff
+
+-3229.1.6.0.0
+-  __TEXT.__text: 0xd10 sha256:962a6e0f2b4b97157fbe157fa8c0ef93565d82b5ff5426e69e8e37b340abac8d
+-  __TEXT.__objc_methlist: 0x29c sha256:dbe018a3bfea0f0678a762d6d4283d1881c42874097f936e6c5f532804443570
++3232.3.0.0.0
++  __TEXT.__text: 0xd10 sha256:9d6f62f20ab1187ad611e195e453073d9b260368992850e1d191a9324c95183c
++  __TEXT.__objc_methlist: 0x29c sha256:c556ef628d26fdd27c2315a7ca55c413fcb85520101aab3cd25c46b6580115bb
+   __TEXT.__const: 0x8 sha256:64af3531dc40dbd907a0b0c23c56183de8738b70da7819c880f7710d3eaa3231
+   __TEXT.__cstring: 0x15c sha256:62bbe80861f2ca85627a8f398f5330d299324b8d6029e8a7231e930c18e1d09f
+   __TEXT.__oslogstring: 0xb sha256:8f07885ef5796a973d8f6b2156e6f9ccb7542fd099242e8a12e80b0e1b6730c6
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x40 sha256:3a0f1a93a2c5633c3fa257c3be4895a6bbea396481a29cdb316166b0e4eb4fdb
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:d1620905c26ee63cffb7c0381718b47661dddaafc3e9f8e70d56433906d038ec
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:608531b2f4a17511661e69ffcfd987a528353f2d43a99db10551358c3617e969
++  __DATA_CONST.__const: 0x40 sha256:1d53428a9470630e384d4530ef5847253bf7d08ff8f1b16db3de8e2200a1f7ab
++  __DATA_CONST.__objc_classlist: 0x10 sha256:85e52aa0874269cf4fa2529b045c7245553767e2028527ad891cfd37be37104f
++  __DATA_CONST.__objc_protolist: 0x20 sha256:8bf5e59c72b869188cc35669d75e1b81fbf3f5967cd1f8dae5867a98df50aa60
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1f0 sha256:d2fdedb51c5a03cc1a43d38bd6c31dd2176df7f38570540549061edf70401dcc
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:a4eeab6f13cad8abbec2e8e1073260332b5d892927cdb6f778bc5f3cd8f659c0
++  __DATA_CONST.__objc_selrefs: 0x1f0 sha256:80805966d467e3ed52b706ab085d254e4f7727df80a498e4fac03e18fe3186bb
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:129d1bada20950dc1620f7a9f7d55b4cb6c8fb1bdcfa7034ce6f14e482a9094e
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x40 sha256:200840e9647d0bcd9901459c56f5b9360258d533cd064033d608eeb6dc68e8b1
+-  __AUTH_CONST.__cfstring: 0x200 sha256:cbf937e40085c18f759f2c6c5428ea7be8a050fe4b5072614b8d01963d3d1613
+-  __AUTH_CONST.__objc_const: 0x3e8 sha256:3ed1802fa61aab1ccbca255b6c6d219ac29f8ee72ba6acd25f14ab47d9dfa91b
++  __AUTH_CONST.__const: 0x40 sha256:85f4172ce624ff1e10365acdc2364ec52105d93fb173fe7beebb339a471bc491
++  __AUTH_CONST.__cfstring: 0x200 sha256:83aa36ff40dcfe90a03a1d905549f291c414cfd502ce358c37ea4891c7d05527
++  __AUTH_CONST.__objc_const: 0x3e8 sha256:6aedc4950ba8b81c75693c862d264242a3146987f320e560a68428bf846e799d
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:0b0e8a0bd695216da66be02ca426d2fce0607dc2ee6c153b6f5217c78e7e9b2f
++  __AUTH.__objc_data: 0xa0 sha256:274fb480fc308ed3f79d1a591fc3d13a6eecf48163785d5e922ff224c8948186
+   __DATA.__objc_ivar: 0x10 sha256:bc143cbaa16ea054dff41c31a149d77c5ff8d2139ee15ad27b7e5406c98e90b9
+-  __DATA.__data: 0x180 sha256:4459afaa06bc4a8016b3f1e8f44cd5a20a406352811159b3e9fb111ace1b477e
++  __DATA.__data: 0x180 sha256:26fed1e71ab34a638e71893db4d783b43c66c2fb1f6b3dedcf11bd802f54c5d2
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B61B67BF-17FC-3F26-A2CF-BCAE21A93690
++  UUID: 29121E7B-A3DD-3565-BB57-A51F9814645B
+   Functions: 21
+   Symbols:   163
+   CStrings:  35
+Symbols:
++ ___block_literal_global.442
+- ___block_literal_global.436
+Functions:
+~ -[AXSpeechPronunciationOptions initWithCoder:] : sha256 e42f764fc8daab710e5fe56986faceb4991afba2fdb150fa991dfecb52444a14 -> 206a4af0d91412c127ba372e13b366056335ef1e9084a8db18c56a2b5296bd73
+~ -[AXSpeechPronunciationOptions encodeWithCoder:] : sha256 6767bef6c09abea9ee1b185df0f3c91519d550293435d81c1bbd3e01724d4089 -> c3eaa03865077f62e495df855ad29cec8f4bf1c9faee78647c913c120cb48a40
+~ -[AXSpeechPronunciationOptions description] : sha256 08755bd7123e5b96cb8f97a141d8d024acd5090fb6328102505508592951788a -> 87c3ddbd32ba2f78cce99e919dd598e46866ac4c2613315c008b12002acf838c
+~ -[AXSpeechPronunciationOptions setOrthography:] : sha256 4e21235cd71035cb6ed47f5c7fa59a09ac297cca04a41ec61425b36e277499f7 -> 73700e1b1cadabf7241187f740a40f0f408c7273550aeff89311b4eb64db0eb2
+~ -[AXSpeechPronunciationOptions setLanguage:] : sha256 c8546bf98011108c6cc927a273cdce07752a315aa742d7d6a9a75161e1b9e3b5 -> 30f988137cdf37ea7a8670077827b216e35b0385b0ffc89fd26cfbe671abbd91
+~ -[AXSpeechPronunciationOptions .cxx_destruct] : sha256 73f9b810f9892abd7e02f55730c3bc828641b349f865331c5c24140fb278add7 -> 1d0eadca9861c7bb2b45beca54392539b411112ec9ef14ce0210a7e822b3f43f
+~ -[AXSpeechPronunciationHelper _assetUpdaterClient] : sha256 b84deb617922e690909963ed27a86035041a32b798dcb45d73c49e88c57dc79f -> aea650e8899c1b31b3f2c15ee6ffecbe01cda8708f1d282c69957dc814524580
+~ ___50-[AXSpeechPronunciationHelper _assetUpdaterClient]_block_invoke : sha256 bbebb8750cd2b3ce043865700825b70ff4471b5a105f285999a701b8590b53b4 -> 4fd9bb990957eb72690681c8208bdca806d1995ceba99c6a11d7efbdc3fad289
+~ -[AXSpeechPronunciationHelper dealloc] : sha256 adbafca3fa87a8402c65b6a9c75d3b4406328bcc5bda40c1b86c52e059582d56 -> 15a7197fa858641eaaa055aebab67116cb8133a7cab54d6c1fee3daf48924e43
+~ -[AXSpeechPronunciationHelper supportsPronunciationSessions] : sha256 5cc62a08de7c557677fb27942a1c7dfe659d1dd9cd27e19418218dd5ed071ab4 -> 3d95f450dd713f181f9de82296a23f9217366e246a09834ce77dc8f167648b75
+~ -[AXSpeechPronunciationHelper userInterfaceClient:processMessageFromServer:withIdentifier:error:] : sha256 ab82d060bc097b985a9f55fd037f2cb1d21748bb54a0f4e24b91d257da1392f6 -> c97fc116070991c03d9f9add6cfe4c464d57761e94e3a4df5abdc791926086a7
+~ -[AXSpeechPronunciationHelper audioLevel] : sha256 d9a045d592ad53fab650317a40674ca5567d212de427ad72eba8f25f7152a349 -> 3adfdbb9ec9a723ed6f138f7cc52c6628ce6e57b7e6e32853ee956e837a0d8a0
+~ -[AXSpeechPronunciationHelper startPronunciationSession:resultCallback:] : sha256 395d1870a9ec9b6697e84ed9713f4f2b5df697c57b846825a070d196b2a980e6 -> 43352e69f5f381e7e0d3ab19e5cde8ea3694232c2c6920131b7cbbf369ec63a1
+~ -[AXSpeechPronunciationHelper stopPronunciationSession] : sha256 eae0f53c6ce6be552404df06d622aeb79cabdeb7237f9c47d823d1d8593c3dd5 -> 4bde4bb8b9acd8fd15b6e42b5f15d8cd32dfac56f6307c4592d4161cf33d7dd1
+~ -[AXSpeechPronunciationHelper cancelPronunciationSession] : sha256 64d83c07f5167a6721a549f76a60d88a1e5edeb3be7d230d4461151091afafec -> 3fedad5a099762d00d99e8111cf2e989ff6142a3de4fb9ebb9da82aa22467d62
+~ -[AXSpeechPronunciationHelper .cxx_destruct] : sha256 1120bde0cbbfc5948b2b02df99d7c29eedb3b1c47f7a1c4e206d403386b015a2 -> 57c1702b5d3756f00ce6c2a5b7898682c984fee7391826e2390bd658b2dd1b46
+
+```

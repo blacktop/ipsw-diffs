@@ -1,0 +1,58 @@
+## AppleSPUDispCompassPlugin
+
+> `/System/Library/HIDPlugins/AppleSPUDispCompassPlugin.plugin/AppleSPUDispCompassPlugin`
+
+```diff
+
+-1084.0.0.0.0
+-  __TEXT.__text: 0xb04 sha256:bb553b40166882e7ee4da814e4a6bcb771bb6aab4ae99563be452ab42593c31d
++1087.0.0.0.0
++  __TEXT.__text: 0xb04 sha256:eb264dfa39d66edef5012d94a12f711c03c6db6634782165514049003320a00c
+   __TEXT.__gcc_except_tab: 0x20 sha256:555a79c612c23490c2334ccc0ff2dbf920ac029233ce4fab60a68700045b8564
+   __TEXT.__const: 0x10 sha256:34bfbac534ee3591b0ab6067b862b81a56e2fe134fba233156d5456fba407987
+   __TEXT.__cstring: 0x54 sha256:e647fa07aa449adc5be8550f94ea93cc95a222452b2108c92b4cd7265f81aed7
+   __TEXT.__oslogstring: 0x42 sha256:2bb0407cb8474731dd8b7f6bc696d4f5b17b2d863e9b9cec1d8856e4331c23ac
+-  __TEXT.__unwind_info: 0xd8 sha256:099b0c6bfa53c6c9a4e2169b9f29a36dbc42400a43387dd2911ed4dfc33e2a50
++  __TEXT.__unwind_info: 0xd8 sha256:998cec96e1138ac0b9a2484749534efcbeec5fe02bad616d1db3f8f46a8a62e9
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x40 sha256:85ef7718e9f2fdd5af2fbc84e7be71228f4b46199e747d80cbe8ab9b90433562
++  __DATA_CONST.__const: 0x40 sha256:1fa951de2cd7517632b5e7864b040dfd6326bc926573ee6bf5af9a2a730c1317
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x20 sha256:9d832e1d2555bbf07892b8c1769f047dddbd95c34891122103e1cd112756910b
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:33a79679efb69e90269fe6dc2dc9b793280fd830eba1f9e6fe9f83b921b11a18
++  __AUTH_CONST.__const: 0x20 sha256:52ad1cb93437bda6747ce8f3fca2a964a03738d671d4285e432a131e628c526b
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:611ff31069095036d9438de548c30ee90e13cc383261d10014d9001986889e1d
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__data: 0x78 sha256:bacc49d3599928a5a68e7eb5b47d9472c886f556539bd2379ccced469809de8f
++  __AUTH.__data: 0x78 sha256:38a0f28e10fc5d8c5e4d8da2ed9c49a84714b7d79c0846c3865017b7a3b10305
+   __DATA.__bss: 0x14 sha256:de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 1A551F13-7339-39CA-94E1-77D4448DBF50
++  UUID: 2C19DB64-1AA6-3EE3-BFAD-DEF92C16B04B
+   Functions: 33
+   Symbols:   56
+   CStrings:  7
+Functions:
+~ __ZN25AppleSPUDispCompassPlugin5allocEPK13__CFAllocator : sha256 b75ffe76b6761d856338802a2bcd587f7684b38b6aeda5a5555bfe74d1a79401 -> 536eff4dfbe8a5bf99868de0fb1c3799943a8574f15865dac09c0723e26efe90
+~ __ZN25AppleSPUDispCompassPlugindlEPv : sha256 6d8dc7008682c8cf2fc3e21a273801aa2d975fbddef496dae7420a13f4d9ab58 -> bc94fad8c6434c86a054821ed6e655fb448cb298758732729e666dd02b725ed2
+~ sub_2476629d4 -> sub_248bfe9d4 : sha256 291cf8f272317cbd81102f2bdb29a33731cbb34454c2f75f71120e3e09a1979e -> 8b99e61569d3b761618125c6965a7f15d712919fea583fe00c7f2009f313fc7b
+~ __ZN25AppleSPUDispCompassPluginC2EPK13__CFAllocator : sha256 8fb923ddf7426ff2ed82e702e06f25c0244b832a4402820348be3d3342eda747 -> dea216d59a25789aaac0895a3e40e455f6e81f5192884e43c59035143b339987
+~ __ZN25AppleSPUDispCompassPluginD2Ev : sha256 91267ad68f4f4af1ab05ec1cd339fcf0858c119271f2f049b504369a626edb10 -> 41bbd4de2d571a2151e70a0743cc05ecba83a3de93d236ca9d584fe32d3532dc
+~ __ZN25AppleSPUDispCompassPlugin14QueryInterfaceE11CFUUIDBytesPPv : sha256 54d937406775473aa22fe10ea695ec820038a531de004ac745a000b60bdbd57b -> b5925a7ee3c9ebb4ede0a788ffd1a154e43fc308b9bf9c4d4ee0c0ed40c71077
+~ __ZN25AppleSPUDispCompassPlugin4openEP14__IOHIDServicej : sha256 1f4fbb4a3109af05ff9d99dccd611155c33183d57c3899bfc5b071681cfd01c0 -> a1c77d16fbef81c921b733c9bbce8fd57cd95b610f1bd85c77f7b459d9c86728
+~ sub_247662dbc -> sub_248bfedbc : sha256 ca6b9c877fb1655b6636042d45d76860267ac918c8d328e04be86a658a12da23 -> 1476794ff395eb1e952b7938f93949c84f66ec4583ed8be8d6ea67137975788b
+~ __ZN25AppleSPUDispCompassPlugin5closeEP14__IOHIDServicej : sha256 6672fc50b3ca850674336f52dd9e3a52deb6bcad54978610c86606c443775735 -> 631b6390c41d590a8caa754606d1937d3619ba51494dbd289b28b756b9b0f23d
+~ _AppleSPUDispCompassServicePluginFactory : sha256 b1e492d49f919ccc4202e7ea8699e9c1cd15e6c110adfb1628b83038abb8bbc8 -> 5d8ddba7f0f56fb2dbc5b4c6f534c93d56246e40ab26f8bdee1748fe09b76b2d
+~ sub_247662f28 -> sub_248bfef28 : sha256 e4bfb2c478c30f829f849b528012d35d44f57baaeffc0a9c1aa216176ca04bff -> dd7c60344b12218c87af5e9ac2e0d69d1574a9a7f7f5edbce9873a8a5dc355f8
+~ __ZN25AppleSPUDispCompassPlugin13openInterfaceEP14ServiceContextP14__IOHIDService : sha256 b225914bdcbbc15a18beb7d0b613d6d9df466350ccb42801125534da695f8d29 -> b99930558625c2a6337594823f1839c4d87a478be171f9bb8b9e28abc9b983eb
+~ sub_24766313c -> sub_248bff13c : sha256 15121b50d7a098ced1a9cfcb801ae56605035deb5ae781cfa8b3ef33a5c1010b -> 489e8945ee78ee87c5385cdf57cfb21d4bcdb6654f75ee096c12856fe6907f6c
+~ __ZN25AppleSPUDispCompassPlugin11setPropertyEP14ServiceContextjPvm : sha256 6dd3e3f1c0a09045850ae2b86a05ca8a494dea1e1641c0e3e796c4ed3c716380 -> f34e684d7a38bfa81169f16acb923a9340a0503de5092ffc858395b0bf872d09
+~ __ZN25AppleSPUDispCompassPlugin25getIOHIDServiceRegistryIDEP14__IOHIDService : sha256 96075b71eddb40154143ff017edb141adbbf97c090fe4bab1e409f71ce0d70d1 -> 3d72aa0a60e2e8ea6d4812568d9c32c04c38eb220147dc165b8f8210a5cda7be
+~ sub_2476633b4 -> sub_248bff3b4 : sha256 bcd8b6d684b7a7b8e8ce435c4f14c07ded83ca94b55ff9fa3c37cfdbc438c7a9 -> 09019f22f203711f634a3faacaff1a1f10674ae83619557883827bb76f7c4a0f
+~ sub_2476633c8 -> sub_248bff3c8 : sha256 de974a2e09ee6bc7a8b2d63b437c49512455909c8c9df774035652e4a23b2b4b -> ede71c932fb56a8db6958dde08f9d2b873af4c33cd44ea138bf5b041112b64ce
+
+```

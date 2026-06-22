@@ -1,0 +1,67 @@
+## Music
+
+> `FileSystem/private/var/staged_system_apps/Music.app/en.lproj/Localizable.strings`
+
+```diff
+
+ Apple Music is Offline. = "Apple Music is Offline."
+ Are you sure you want to clear your history? = "Are you sure you want to clear your history?"
+ Are you sure you want to clear your queue? = "Are you sure you want to clear your queue?"
++Are you sure you want to delete this song from your library? = "Are you sure you want to delete this song from your library?"
++Are you sure you want to delete this song from your library? This will also remove it from any playlists you made. = "Are you sure you want to delete this song from your library? This will also remove it from any playlists you made."
++Are you sure you want to delete this song from your library? This will also remove it from your favorites and from any playlists you made. = "Are you sure you want to delete this song from your library? This will also remove it from your favorites and from any playlists you made."
++Are you sure you want to delete this song from your library? This will also remove it from your favorites. = "Are you sure you want to delete this song from your library? This will also remove it from your favorites."
+ Are you sure you want to delete this song from your library? This would also remove it from any playlists. = "Are you sure you want to delete this song from your library? This would also remove it from any playlists."
++Are you sure you want to delete this video from your library? = "Are you sure you want to delete this video from your library?"
++Are you sure you want to delete this video from your library? This will also remove it from any playlists you made. = "Are you sure you want to delete this video from your library? This will also remove it from any playlists you made."
++Are you sure you want to delete this video from your library? This will also remove it from your favorites and from any playlists you made. = "Are you sure you want to delete this video from your library? This will also remove it from your favorites and from any playlists you made."
++Are you sure you want to delete this video from your library? This will also remove it from your favorites. = "Are you sure you want to delete this video from your library? This will also remove it from your favorites."
+ Are you sure you want to delete this video from your library? This would also remove it from any playlists. = "Are you sure you want to delete this video from your library? This would also remove it from any playlists."
+ Are you sure you want to delete this? = "Are you sure you want to delete this?"
+ Are you sure you want to discard this new playlist? = "Are you sure you want to discard this new playlist?"
+
+ Create Image = "Create Image"
+ Create Station = "Create Station"
+ Create Title = "Create Title"
++Create… = "Create…"
+ Creating your playlist… = "Creating your playlist…"
+ Crossfade = "Crossfade"
+ Customize playlist? = "Customize playlist?"
+
+ Discard Changes = "Discard Changes"
+ Discoverable by Nearby Contacts = "Discoverable by Nearby Contacts"
+ Dismiss = "Dismiss"
++Do you want to remove this song from your downloads or delete it from your library? = "Do you want to remove this song from your downloads or delete it from your library?"
+ Do you want to remove this song from your downloads or delete it from your library? Delete from Library would also remove it from any playlists. = "Do you want to remove this song from your downloads or delete it from your library? Delete from Library would also remove it from any playlists."
++Do you want to remove this song from your downloads or delete it from your library? Deleting will also remove it from any playlists you made. = "Do you want to remove this song from your downloads or delete it from your library? Deleting will also remove it from any playlists you made."
++Do you want to remove this song from your downloads or delete it from your library? Deleting will also remove it from your favorites and from any playlists you made. = "Do you want to remove this song from your downloads or delete it from your library? Deleting will also remove it from your favorites and from any playlists you made."
++Do you want to remove this song from your downloads or delete it from your library? Deleting will also remove it from your favorites. = "Do you want to remove this song from your downloads or delete it from your library? Deleting will also remove it from your favorites."
++Do you want to remove this video from your downloads or delete it from your library? = "Do you want to remove this video from your downloads or delete it from your library?"
+ Do you want to remove this video from your downloads or delete it from your library? Delete from Library would also remove it from any playlists. = "Do you want to remove this video from your downloads or delete it from your library? Delete from Library would also remove it from any playlists."
++Do you want to remove this video from your downloads or delete it from your library? Deleting will also remove it from any playlists you made. = "Do you want to remove this video from your downloads or delete it from your library? Deleting will also remove it from any playlists you made."
++Do you want to remove this video from your downloads or delete it from your library? Deleting will also remove it from your favorites and from any playlists you made. = "Do you want to remove this video from your downloads or delete it from your library? Deleting will also remove it from your favorites and from any playlists you made."
++Do you want to remove this video from your downloads or delete it from your library? Deleting will also remove it from your favorites. = "Do you want to remove this video from your downloads or delete it from your library? Deleting will also remove it from your favorites."
+ Dolby = "Dolby"
+ Dolby Atmos = "Dolby Atmos"
+ Dolby Audio = "Dolby Audio"
+
+ To join this playlist, you’ll need to contact the playlist owner for a new link. = "To join this playlist, you’ll need to contact the playlist owner for a new link."
+ To keep music playing, turn on {{symbol}} AutoPlay. = "To keep music playing, turn on {{symbol}} AutoPlay."
+ To see the schedule and find more live shows, explore {{symbol}} Radio. = "To see the schedule and find more live shows, explore {{symbol}} Radio."
++To use this pin to listen, you’ll need to add this artist’s music to your library. = "To use this pin to listen, you’ll need to add this artist’s music to your library."
+ To view lyrics with explicit content, turn off Content & Privacy Restrictions in Settings > Screen Time. = "To view lyrics with explicit content, turn off Content \u0026 Privacy Restrictions in Settings \u003e Screen Time."
+ Track Position = "Track Position"
+ Transitions = "Transitions"
+
+ When listening in the car or on a speaker, instantly play and control music together. = "When listening in the car or on a speaker, instantly play and control music together."
+ When you’re not driving, open Music on your iPhone and review the privacy information. = "When you’re not driving, open Music on your iPhone and review the privacy information."
+ With SharePlay, you can instantly play and control music together in the car or on a speaker. = "With SharePlay, you can instantly play and control music together in the car or on a speaker."
++Would you like to delete this song from your library or only remove it from your favorites? = "Would you like to delete this song from your library or only remove it from your favorites?"
++Would you like to delete this song from your library or only remove it from your favorites? Deleting will also remove it from any playlists you made. = "Would you like to delete this song from your library or only remove it from your favorites? Deleting will also remove it from any playlists you made."
++Would you like to delete this song from your library or only remove it from your favorites? Deleting will also remove it from your favorites and from any playlists you made. = "Would you like to delete this song from your library or only remove it from your favorites? Deleting will also remove it from your favorites and from any playlists you made."
++Would you like to delete this song from your library or only remove it from your favorites? Deleting will also remove it from your favorites. = "Would you like to delete this song from your library or only remove it from your favorites? Deleting will also remove it from your favorites."
+ Would you like to delete this song from your library, or only remove it as favorite? = "Would you like to delete this song from your library, or only remove it as favorite?"
+ Would you like to remove this episode from this playlist? = "Would you like to remove this episode from this playlist?"
+ Would you like to remove this from this playlist? = "Would you like to remove this from this playlist?"
+
+```

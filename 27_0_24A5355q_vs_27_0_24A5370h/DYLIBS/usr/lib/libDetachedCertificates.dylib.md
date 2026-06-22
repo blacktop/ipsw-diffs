@@ -1,0 +1,120 @@
+## libDetachedCertificates.dylib
+
+> `/usr/lib/libDetachedCertificates.dylib`
+
+```diff
+
+-1166.0.0.0.0
+-  __TEXT.__text: 0x7244 sha256:e8161f61d94fec7a8becb6da19d52c28d8decae640746236270dd242f505bf80
+-  __TEXT.__objc_methlist: 0x244 sha256:1be3403e689fd776f1e9eef9d1e994b2791381850b4ea987e7cdc7c0cd5dabd3
+-  __TEXT.__cstring: 0x8db sha256:8c14e5d60edcd93c2077f43f7be1bd325bb6eba4f1d0b1f14309956a869c3983
++1171.0.3.0.0
++  __TEXT.__text: 0x7264 sha256:f0124694ac36ec87de95b391228e95afae187ced40d1bfa589578fdcd2477559
++  __TEXT.__objc_methlist: 0x244 sha256:52bf11124178421cd4d4ef6d82a83a1b7fc1f01d7cab797c865e69322a87aded
++  __TEXT.__cstring: 0x8e4 sha256:e47eae991f81c7ce436896126b28580fe7774c3a284d0ff952ec533d7165f061
+   __TEXT.__const: 0x6a sha256:1bfcd5efb3ad206581b76c6f2b1e6e4484575c8c1d8aae8909ceade45f1b04a8
+-  __TEXT.__unwind_info: 0x100 sha256:1e179911d1e14ef8ec81fbf09e08b3b05075a71480eae8c0849d08ad929e52bc
++  __TEXT.__unwind_info: 0x100 sha256:efa9ef0664d76322ee92d45c7505ab831df866043e2ba4539e82713c9d625547
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x38 sha256:20f5feb3246f017576017bd411828a0653a39878bbd3a79fbe0eeb8be67c8ec1
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:91c3b9c391a2fe0f547ac38d61d00c7e97ea4767f2aed928f20ec6fdd1bcffed
++  __DATA_CONST.__const: 0x38 sha256:c6cd41f9d41878d75fbbd0c747bcd53980ed499d256367348ab132d64e1ec73c
++  __DATA_CONST.__objc_classlist: 0x10 sha256:e9e404a5dac98dee15e114e5c893d42ae2c853d5441a9f60bb93bc14ac1b4f6b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x230 sha256:229cc8dc3de8ef9cd2be910e5f26ffa363ffa55dd1ac5dc8743646162c3d017a
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:ec4970e65d2ba7b802790ce311ca76b49a7b613e5c779bfa3c5290919e9070e4
+-  __DATA_CONST.__got: 0x60 sha256:d69ec10741ab55a8825cf1cf71784a0f7185d91639d657f8cf2deb61eb4bfc11
+-  __AUTH_CONST.__const: 0x20 sha256:c3ee01cf5f149a997a48473f24b3bbc07092d59096c02971866af798995de5eb
+-  __AUTH_CONST.__cfstring: 0x720 sha256:77c5bba0a7f352048e5569179a3e6280b518eadcdc2766489efe97a4b4b2a10e
+-  __AUTH_CONST.__objc_const: 0x350 sha256:08d682073cc5d9ebbb1ed1d21913131a99d4866eff46159266c03637bc133beb
++  __DATA_CONST.__objc_selrefs: 0x230 sha256:e5f541f9c14b549164e606a6940735c1dc1fdffeaa075f1ad1ac01a7802904d1
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:a90688cac0d20cac1fb75c24f25cec2b5ab15198a3ce39502f11711deafb9620
++  __DATA_CONST.__got: 0x60 sha256:de52ce49a78696e57df1cc70c8c9b8e731860397a46341df281adc6afa605f91
++  __AUTH_CONST.__const: 0x20 sha256:8f59d9cedcafa2c8fbbec9908273c9dc125ada8a6377f65674c0b09c0c5f0dde
++  __AUTH_CONST.__cfstring: 0x720 sha256:647910ddf147ad8ac3233693fb979849623120928f7fbae33f4a595980b64305
++  __AUTH_CONST.__objc_const: 0x350 sha256:98e29a335802cf4da1eb5e92a7035238e01d74cf0c9dc9ad7fa8803a70cb9566
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:7a21252c54f0dc38a9685647f572dc97dddb53fcabf54dc0e66355b36077e354
++  __AUTH.__objc_data: 0xa0 sha256:d2b81e1f1d3c169952ff8ccc60dc303de3553e4a4b44453028aced6ec1a6cb6e
+   __DATA.__objc_ivar: 0x2c sha256:50040995a882214efeee205869b41bdad9b87771044cdaac40df9cb5a0fb0e84
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4CD90A5A-7D50-381C-9626-6BF7093837EC
++  UUID: 6482E243-BF81-341A-928A-415D69E0E68A
+   Functions: 78
+-  Symbols:   308
++  Symbols:   307
+   CStrings:  116
+ 
+Symbols:
+- _objc_retain
+Functions:
+~ -[DetachedCertificateEntry initWithSKID:certificate:akid:] : sha256 7dfd4968d14278cc272f6448cb9944953cb02faf7459a4481bf7803ab756c223 -> 6d210378519d1e04615102a5b4fec51c8ebf75a08f66d6cd35ddbc2139ffb0bc
+~ -[DetachedCertificateEntry isEqual:] : sha256 db5ad6a34cf97135074f5ee88c20630fe97deccf38a6409fb4723f5d97cc8980 -> ab2c37c031c04308b7f9c183c7a189d584288544516937a6abdd5d724ca93c96
+~ -[DetachedCertificateEntry hash] : sha256 fd658c8197a97a405c34a1d60a9429ea208830b305f422f1f84c83dc887e98cc -> 3f9c009f57caaaae38d918f35b4620223ef15deb72d9cb27e16418c9abcd9419
+~ -[DetachedCertificateEntry .cxx_destruct] : sha256 e71e7d26c0a3f911a9a67cfd2f5b976182a642b4d45e335c23e8c0cef33c0a30 -> 4c4211fe864fd602e19a273d936ec9e418ab2682cd0640b2d8114aa9718cc489
+~ -[DetachedCertificatesFile init] : sha256 894267c1fa358a4c551ce72ea9a9ba6a4f9d7229062cb2a9c0d46fa3527168ec -> d88a22121418569c11312c12906a8d9f0c148dc89fc763d9b80195c108e02bf8
+~ -[DetachedCertificatesFile rebuildSKIDMaps] : 908 -> 896
+~ -[DetachedCertificatesFile sortCertificateArrays] : sha256 2aeb79a4e46ea3c0fd734dcca5ea1760d9289637ff4d77fc3a507fd2a79dc494 -> 7e97a4c502db7927cffd348adb4031553b337f9071ffb29a29807ee7d04601b7
+~ ___49-[DetachedCertificatesFile sortCertificateArrays]_block_invoke : sha256 7f2edee5e286e928fc0407198ed469fc959269aaa45a83e7e4845c3890840e62 -> 500c1e17f60393ac32d3f24b65033339ba4b4feb356dc857d6d037c1623b39ec
+~ +[DetachedCertificatesFile parseFromData:error:] : 2160 -> 2176
+~ +[DetachedCertificatesFile parseCertificateSequence:certificates:error:] : sha256 7e543fd9b6fe4834c551ae674017c1839abc4f2225514462626bcaebccf991c2 -> eef414ea30f6dc24f913bc0f3afde639183d693fb6f8b5c3ee360a7adbb33b98
+~ +[DetachedCertificatesFile parseCertificateEntry:certificate:error:] : 1128 -> 1184
+~ +[DetachedCertificatesFile loadFromPath:error:] : sha256 6c08836e41a6b238b0d6bfb34f61eccf890d86edc607ee344cbdc2d3aeb3d05f -> 7b5a64c2d149efaea482922d14f04e89bf4eae01b62cfdcc1eab264f335d6ba3
+~ -[DetachedCertificatesFile extractSKIDFromCertificate:certificateName:error:] : sha256 8e85f9a842809ecc607eb9b9a251f6970c048fe415a3523e6ba50423a8aae399 -> d6cedffa20058012b38377524d805565eca94674b9a63b051a585dc3ced9d698
+~ -[DetachedCertificatesFile extractAKIDFromCertificate:certificateName:error:] : sha256 3c7f75747bd76430d63438c788ec9be5242f6847605f2925c187f87723aa6a9e -> 043d143cd54a31db3136be6c2e5ce4a5a9908feb5b8befa2500d0b113aa942d6
+~ -[DetachedCertificatesFile addCertificateChainWithLeaf:intermediate:error:] : sha256 2ad8c645fe8cb99d79ed9c57c8899ecfceb59e6df8597ccb88e94ff53d8b88e3 -> 8254f629d4b870ea5d2fd2c850e4785a5f85d7b95c1d6ef707bc6bcb55b35715
+~ -[DetachedCertificatesFile addCertificateChainWithLeaf:intermediate:root:error:] : sha256 5d05357582f965479d29eb8362a8ab25312f7a45e44078b6a69dc4ba5b63edb2 -> f967fc875ee0fa99159f68ec09c60cd0dcb652b983036b616ef458a572ef291b
+~ -[DetachedCertificatesFile addCertificateChainsWithLeaves:parents:error:] : 2036 -> 2032
+~ -[DetachedCertificatesFile mergeWithFile:error:] : 1012 -> 1000
+~ -[DetachedCertificatesFile removeRootCertificates] : sha256 5647f1acbfa0e951bbd5374e587b0d02c1befcbf7623ea14005361e67c17e422 -> ecaf9c58cfabff52dc64414cd8ab38d88ff2ecafc5f34d2242c7f5d7de1f6946
+~ -[DetachedCertificatesFile writeToData:] : sha256 218114c952055f9b986f8c31080189f57ba1ecfe6a05f468b9968b8d34d2f0d2 -> b68ba2c274d8e76225f5d4e4ac99823de68155562ab8f1bbe61d8ee57bc09927
+~ -[DetachedCertificatesFile derEncodedSize] : 804 -> 792
+~ -[DetachedCertificatesFile sizeOfCertificateEntry:] : sha256 c2a7534ed64bffc0b52d2dfcf8af5c4bd602cb19adcde4e277ed543e721034cc -> 7ac5f5b3ca8abed840b49f3bf9df899cdfd2dc241b198e723d72cddbbe137503
+~ -[DetachedCertificatesFile encodeCertificateEntry:der:der_end:] : sha256 86bef9f493394efddbf02b987e1d0f33e380af0da774eaaa4726bc9c3f4912a9 -> 19ac8303f3542386dfbbaa3e7fc2008a76bf7519630f272b700b70f69d6742f0
+~ -[DetachedCertificatesFile writeToPath:error:] : sha256 17a0770d637cd44d0f311df92b3029284ab5429957ad51e27d1074063f329f06 -> 5a629badeb67f40795159916184cc57c73adf3600ac1bb2f84163fe5a34f4b36
+~ -[DetachedCertificatesFile lookupCertificateChainForSKID:error:] : sha256 50182d234bac38d1b5a3a64dbeed84fb45a7a7024a5401e3850ad6223158ff70 -> 546c9226c89ee555b3ab5faef4a5e5090c4a853db1a8ba4c639608615b05ca49
+~ -[DetachedCertificatesFile isEqual:] : sha256 171f660bed18ee127c891cf99b8be5f8c3a90d72c9f6c211f3d8f200e92579a3 -> cbdb72d5ec2d57a1793a1819e82cdfddcdef206638337b5405ff6073a183e697
+~ -[DetachedCertificatesFile hash] : sha256 12947804bbee818064e9319d79cb07407a7e7f28eed824faa3108767cd6da287 -> 7d37e7b4958e16b3a8e19a5c0f465f9a9a66153339ef604718d9220edaefbe4c
+~ -[DetachedCertificatesFile setLeafCertificates:] : sha256 ba47312c470d705f70d91f977d8b23ee0deb38ecb7ae5cb64754658d2350635c -> d4d2c3a1a23927c23b3b4f43cf165a453ec83760bff8cc5370f8389d9f9ec099
+~ -[DetachedCertificatesFile setIntermediateCertificates:] : sha256 455920dabd8a096f9e7bb145551314049d5aa3886328b53b952dac0080791e56 -> fc394d17df1c44c7c9d9751a41265f80ff2ad2d50f1852b0c988508577722781
+~ -[DetachedCertificatesFile setRootCertificates:] : sha256 b0b3063610fc6cb19c5aebdf4d179160aab35ce41e7d5d2f4754bc0d4107c24a -> 972145c7648edbe156cba6fa5b8276b90a9d45e9a2e618b7679f06be765ec1e2
+~ -[DetachedCertificatesFile setLeafSKIDMap:] : sha256 833542065d0a4c958ff6de3260d342d656056980422e9f862ae40e224040e1f1 -> 6b6d57161a371d56739bd7150997e6b49e9eb0ab2c1a349fd710e022ee8fc731
+~ -[DetachedCertificatesFile setIntermediateSKIDMap:] : sha256 11613260793a513972b0dbf93718fd97d2e43f4d8aaa1d0b7f897729ebbed3c4 -> b1038c2e639363ed567014463111cb00b308f2ce20d099e0ef6d7a8a71c97ae3
+~ -[DetachedCertificatesFile setRootSKIDMap:] : sha256 fd35b8cc787eebf8b238bc1e8cda7eec38f2bf3149a8e971e5a62de3abaee7e6 -> de82d273c6591cfa442236f5805d35a76e78276f1276be51932bd0ec8293dfe9
+~ -[DetachedCertificatesFile .cxx_destruct] : sha256 06643f3bae4a8e029abec384b79bb34bd13791efe2839d4c6dc9e1831475bbbc -> c74e4070afb14286716bc9af8a302467b0c02d08929a42855db25388119254f5
+~ _X509PolicyCheckForBlockedKeys : sha256 9eacdfedaff8f3048e7a1af6f3b6308874225f7fe768b088d6b26ef09b80f3fb -> a401f350d8175247bfcc0ff91011688bdf374996265981c35dd0b49eee703470
+~ _compare_octet_string : sha256 8eab0830375e32811554759088fd8d466a9eccca5bc5dcb043adb06cca4b5137 -> 00fd7d808b1ded8359410b91bfe6ed196883d9b0a9ed1e8872f01bf16a8d8cb1
+~ _compare_octet_string_raw : sha256 5e8f3a341dab7bf286f403fdfdce97f257d15371a6526561dc6a63b8874a6bb1 -> 76a701bef25c404f101388c7c2f97a3503015e76b99b9cc4684f3677f8bddca7
+~ _ccder_blob_decode_AlgorithmIdentifierNULL : sha256 bd945e178efe567f44610fb860231898f61b9df931d3cbf4b922c0626ae812a0 -> a5f781ea1d9964e87534be9dfe5b60e79e2ac3272f2d15e30f61883993acb2fb
+~ _ccder_blob_check_null : sha256 7175a067de35cc8fcb64453a26a84fb0d772a18eced150c8711526f013d53cb1 -> 4e6fa0c690a2a79db6177e356702019a77e6c94650baed1387aeb9537e97d733
+~ _CTGetSKIDFromCertificate : sha256 575f0fb49ddcaa144dccbc65782925d3e82405fb52cdc86028e031d7ebc54232 -> 5eed3f820119c4dc34b68604d89b1c63d18d17784a315d490a1ac87a37424968
+~ _CTGetAKIDFromCertificate : sha256 b7b0499905dfba679a306f72bc05af40f3ff08e4e17fb96cadec887cf0b37348 -> b768e2d631cb19364d6b420231b309dbb275daa0e57b93f4e6155042fb271bda
+~ _X509CertificateParseImplicit : sha256 2af27a79df95b1575abc4c1b4de27d90551779c286152d65094f619a45c87bc0 -> e6ceffa0736c6cbdcedab4275ea008f633e0c99e9e745504f5a4b57e15b450fa
+~ _der_get_boolean : sha256 5858058de76ba9329067b0190fec3dcfc4cfb772071a18453791928919ec731f -> 6913ef50983e6bfbb2ed20ae021b14d17b4a125a021331e586b0f654a0376dcd
+~ _X509ExtensionParseKeyUsage : sha256 29cdf45ab7c2245aaca447e589c5e651612850a3a1eb7cff913bb1cf0b403950 -> d78a10e944da3f358505b759dad3c6d0a82e833225f8c795c91ae0ed0498af14
+~ _X509ExtensionParseBasicConstraints : sha256 497be4ccff7449cd850a7a263bbd225f93b3715557e2590b4020fa503915fc44 -> 35ecaf9ec88ce296ed850d78c3055ed9bc9463a8d3c219495d7802d1416622b7
+~ _X509ExtensionParseAuthorityKeyIdentifier : sha256 3b43dcb53073202b464ee050d1b546d9f22cea505b8be8ea9b40b8ee0e0c0801 -> 68c1f8c037ebaafcb31205b6ccc7d8c2f62e4f7fd78c44efc2bf4b92c6542cb4
+~ _X509ExtensionParseSubjectKeyIdentifier : sha256 7919cc0c3a9873dd7dd800d02673c05cf8924bad232f3fd2f419a175422f6bff -> b70ae70f02c9b0b8713592df51ffcbfdd55aa4e54df7eff935a4f8ed3de16679
+~ _X509ExtensionParseExtendedKeyUsage : sha256 f84c6ad0103e952f54ba620941ff4f7016df355a615ec236f75a0655504c8200 -> 56b05f238b61703d6d8f0c9b873a5fcecb5069cac38ff85142dcdfb39b8c5108
+~ _X509ExtensionParseSubjectAltName : sha256 7a1fbd224c2c47c6d88614cca111de2b86af89b7f39d72dec25b3c0a7fc99e9b -> d030be70c513ea25b7b97c54cfb6f20d59dda2e3b4bbbff15dd28c8264364e14
+~ _X509ExtensionParseAppleExtension : sha256 b90384197392830ac875187488a2f2ad3d24458020cca3a122dabffcff6ea4a0 -> 27c072191f227bb84113adbafcc0aae2926f30210e520ee39419a9a8c24ecdf7
+~ _X509CertificateParseWithExtension : sha256 88f15552897ac8085824e3bf2fe89bb1a459b095590b045f1f4a7127058dddd5 -> 987444adb532f26ba5f1837b2c74d2b652a796fab950a8ca219c68ec6d936969
+~ _X509ExtensionParseComponentAuth : sha256 aff4df260e01ae80737e227713119848ac4df43c418b02bb1a98c0cbcd1a4ece -> 5f03383f524d55f1f9dfd47ccc322f38d94a1ed6dc7f4d7c4338565e7e4415e5
+~ _X509ExtensionParseCertifiedChipIntermediate : sha256 a4f426a6cdd9b4872dc4e3f0730f8c471a1253d5266ba8a9718736d9e83ef483 -> bb404b9340c15d28ff1b39adf5c7e15fe4d9c921d24e9bf5e6fd640f34792252
+~ _X509ExtensionParseMFISWAuth : sha256 bdfeef3d8265e40a05240e20339f044256674f36a925f1945a2f661fb73aa8b7 -> a2af97e7eaa63745864fc7413d5a4543e8e683016154b821ce39b6e69317c43f
+~ _X509ExtensionParseGenericSSLMarker : sha256 3c48c5b232a5148067f12bcf9799bcdea4126eeaa865bfd9fee13d727fe6da25 -> 37756ebba33e1210f1d3ba168d9ef9c6589680f401a553892af6256424b374f4
+~ _X509ExtensionParseKeyTransparencyLeaf : sha256 68e0f57d7230d96c239b2b15983d2f724706bdad134ee56ada1f2fd407a01979 -> 0fbd2af24f7d6ff4bd00f39609d8d4323c6e50ab1035144f81f6ef59e1e57b33
+~ _X509ExtensionParseDeviceAttestationIdentity : sha256 28c36b1bece403a61527e8e8ac2417e8e626385510fd3f172934a23aa3c807f4 -> 9a75a3a45c1ccb2748c2c4971747e123a1cbb98c5c8d098c7b92663be88c77da
+~ _DERDecodeSeqNext : sha256 16b66938392a79eea13b8212548fbdb8589804c60ecca6f6c37398a00a5521e9 -> 601e18971a16eef9c5dbe71ef77169f04942169fefd339270f7bd4d3635a94fe
+CStrings:
++ "Error draining certificate entry fields"
+- "Expected OCTET STRING for akid"
+
+```

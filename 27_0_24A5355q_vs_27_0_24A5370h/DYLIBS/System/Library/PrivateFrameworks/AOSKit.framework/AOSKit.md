@@ -1,0 +1,94 @@
+## AOSKit
+
+> `/System/Library/PrivateFrameworks/AOSKit.framework/AOSKit`
+
+```diff
+
+ 125.2.0.0.0
+-  __TEXT.__text: 0x1680 sha256:2dffcbe9b43f02b44e2ba34d6e419a4488de26c1f7e892141e8643c36333d341
+-  __TEXT.__objc_methlist: 0x28c sha256:4ad8f230061bc6f9e689e249ee64f9a92b01e6982e198bad64fc0451cf3c8763
+-  __TEXT.__gcc_except_tab: 0xb4 sha256:da2bdfd6abebc583a0b76f92dcc14b72c87db48a496bb9e1177d1022e7e65abd
++  __TEXT.__text: 0x1680 sha256:301c4211a3c69a669e739888aedf8bdd76fe5422e674be6f665e2cca5835efc4
++  __TEXT.__objc_methlist: 0x28c sha256:4fcb6b79165e8f4075d23661c80470dd7be121fd508cf426d6f0f9bfc189ce07
++  __TEXT.__gcc_except_tab: 0xb4 sha256:8eecd26d6636e8a89a05010ce7d7ee9b13f5ba5bdfbd9dee87b4410ef34fee85
+   __TEXT.__cstring: 0x562 sha256:10940b0863e0b341390c130cea6f50cfa783f2bed457ffc5de7724c7c15a4a43
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+-  __TEXT.__unwind_info: 0x140 sha256:b0b2cdda836a08d1edad2d3925b25f16ae96a0b7afd86832082661e53cd2a631
++  __TEXT.__unwind_info: 0x140 sha256:ff27e94faceac24f3fade3f966b462f9bcb9e273bb0efa2f29c85ad23a260ce9
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x48 sha256:799a4e63a1463c5506387439f0ba775b793589e6fabfe238de65b201b56e8d6c
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:223d7cce607fc64b54ceee87b4394b9ad9cc0758c26cca89430d9d0db0dab9ff
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:87eaab6de58ae13b3b931304115b433088cd7180311fe18e8985660656ff2267
++  __DATA_CONST.__const: 0x48 sha256:6a6c80c0a10118cc37fe9c1d2f5f17c4408b5e1f7bb71e7eb7c441888bc6b77b
++  __DATA_CONST.__objc_classlist: 0x18 sha256:300cdd2df9e3b9fb5500271bec6cf67e55903d0ac83db64a578afa09dfb30b0d
++  __DATA_CONST.__objc_protolist: 0x18 sha256:aa4b6690a9ec9a7efd5a61aeaff885a8fb754c3897b0e24315e9ffd111a168db
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x240 sha256:23102c431fff9dada02991d95c2402504e0479de26e3874296131e3f557defe1
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:223d7cce607fc64b54ceee87b4394b9ad9cc0758c26cca89430d9d0db0dab9ff
+-  __DATA_CONST.__got: 0x70 sha256:d9406cbd9766935c0991db1d8f8a4fc4554f7582a695955e65d75f7355d68d35
+-  __AUTH_CONST.__const: 0x60 sha256:560e0538d7bdc13363e6b6151f1794d48a8ce05461b959a5d98bd74355e56dbb
+-  __AUTH_CONST.__cfstring: 0xb60 sha256:b71afec59b5a6313711487c3f84fcc8540706c94b64443335d267833946b335a
+-  __AUTH_CONST.__objc_const: 0x550 sha256:50adfa34495aa6b21f5779df0f8a9c36a5431b9cce1f84f4c40d55f82fbb334f
++  __DATA_CONST.__objc_selrefs: 0x240 sha256:a41ea705ecac790a5af49d2aded38f9c0533a43e24030cb7a6223ac0f7f1ba97
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:300cdd2df9e3b9fb5500271bec6cf67e55903d0ac83db64a578afa09dfb30b0d
++  __DATA_CONST.__got: 0x70 sha256:e31c151ea20ca3cdd66805d00d66658a66d45dd1e097f8d493da91d6e681b012
++  __AUTH_CONST.__const: 0x60 sha256:1faa3635dee834de9def876bdb0e410603c183202b15c6a5e68e0797e3d39168
++  __AUTH_CONST.__cfstring: 0xb60 sha256:6550c1a4e1703fb8073ee817c149fd6c0c6137bd13c4b4e8f991d1e4faf6bff1
++  __AUTH_CONST.__objc_const: 0x550 sha256:3af36b53582e997002b429068f98bca819f472f5805179348c586e27e5abed4c
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xf0 sha256:8a761b76c7df274b6b09cbf50ccce5d5faffd93d50f73debf6dfc7bd0f07a569
++  __AUTH.__objc_data: 0xf0 sha256:ae4e9fcfabfa8e567d4bab39f961f5c6513ee13fb4a4dc775e8045877fe93d90
+   __DATA.__objc_ivar: 0x40 sha256:9272ee3289b8644de0ee29d0a07e61bfae8259a58708d9d18f383c49889940e1
+-  __DATA.__data: 0x360 sha256:7a264bfe9596005670282d9a70e20408538f91fe58656cbde6b1cb62dda1ad3b
++  __DATA.__data: 0x360 sha256:f9015f096972d05f37f407a73dd321e3de4b5e8344bd100c631d3a3421217f8c
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/AppleAccount.framework/AppleAccount
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 646816B3-B68F-303D-878E-42A2271C54D6
++  UUID: F5D76DE7-349F-3890-8AE1-12E88CCA00D9
+   Functions: 56
+   Symbols:   299
+   CStrings:  184
+Functions:
+~ _AOSAccountCreate : sha256 a2c0f051fdc14d424223c0a66f592256e601eb1d0c3649011a2db0f1ca29ae6f -> 0cdc4de89b72c52830ba2f8ca30e040245d9414022688b8ad30926006f58c209
+~ _AOSAccountCopyAuthInfo : sha256 f4c9f6f6e8f5ca401e9f903c15d8277c5cfd533b651db64ef991f2317072f79e -> edb69dc07ea54b3c394789a6b44508476a475fe032fa7321dbf8689122bcfecc
+~ __AOSValidateURL : sha256 82c2987843d9aee99d8190c70ee95ccb413c7c0712bdbd38e83c7bb54cd1a869 -> 3f309d1341ac3f08f65431cbd201aba3d08c93049327872e903e6f3e5efe3f0a
+~ __AOSAccountResolveAuthFailure : sha256 f7ed0c2d46d4f606416e7309cfc8cc77dd0788b04b2a44f15306ea8259a44a80 -> 3361eeaeb51eb0fc3ace133b6e731ff7c9401688751fffec812491bb3cfc3246
+~ __AOSAccountSetProperties : sha256 bb87fbf578fbec40723a814d974563272871be38d95a7ca195569869f8ab762c -> 741d4a13744963c1a96fa2f305265672b4e505d9856a490f0e10b0e168f0ae51
+~ _GetDomain : sha256 f065cd5f8506f706cd324d1b6a5721074dccc5f6f08d9bf80e6a83cccf7040f4 -> 7c58b3875b0cc5508874df0eee141872d72e9c85005abb311dfb1ff97b4fdd34
+~ _AOSAccountDestroy : sha256 588db4a425b41736d762b99725cb8555edad49659499df984cd8feeda8014d64 -> 84c03bd12e43b020893d370a4a5f697a601ac30c9689e2545058b713a4bf5156
+~ +[AOSContext contextWithAccount:andTransaction:] : sha256 d033c1873517496858815f5c20e6d14f4960a3ad5b619b953dbc3c753b90e746 -> d2f68a119362d6dbf9fa115f406d31b7926bb2bfe87dfe080ba5ee3b8a2630e2
+~ -[AOSContext init] : sha256 bfaabc8feaae9087a2303d035169319c13dd772ba64d7f38bdd1c193a4bb387f -> 554997f1e13f743393cceef1ab84a7531ca327f06684e1db0cfd590d34d52740
+~ -[AOSContext dealloc] : sha256 acfbe140a4675cd5442c94e83d1372523b3898eedcdcfad83451fe6a800d3c56 -> 52efe6010e4c997984cf3c8b735137d7621bf447c96d8f5e6f3914a8e6b68090
+~ -[AOSContext finalize] : sha256 7377898d3e88af7a0a63f89618e539799fa89e0d5d709a6182eedd8ca5394c04 -> 2c6c67a11d70ef3e37e1a2b41039838d3dd482923a36cdb4d53bf9d6f09dca9c
+~ -[AOSContext setAccount:] : sha256 fd7c71ff9d0273de2a6b41e6fb333f39548823c92c7e61ae58ea8d928fe0a0e7 -> d820e2b74a95df630ca2640003f55cbd4157211e14c4312588c8774fb679dede
+~ -[AOSContext setTransaction:] : sha256 3b7434d3c0b74e3eb739515174b3779de798104c9ac33f4e478e3fc956e902fe -> 7293623af9a17d3bba58047597afa896051adfb6b0b8b959dd9412e67b412a7f
+~ -[AOSContext setInfo:] : sha256 c2a8cedc77e6c49dbeb6a40ca9763cf3aa15b116d637eca32ca65b3bd82b3008 -> 6b7d4fe463d2b61811132383db0f487b5bf2c571bf872788b4640802e452079d
+~ -[AOSContext scheduleCallback] : sha256 d73abac6b0f535dac56eafeb5602084f37b66c9e1513ca74804c394368b49c4d -> 901a9e7c076675f09c840cbe6cb44385840ac17c82b6ec5325be073ee16712bc
+~ -[AOSContext _performCallback] : sha256 c165d2cc77f8366dca9c431f1e2888b2908c9222e6e43f70ab07f6f1353a275d -> fa0af201bb8ec1b1a30c694f7eb37850bce6dfb030a01b0889b7dc82f693f838
+~ +[AOSThreadManager sharedManager] : sha256 af354db4f0e2f75b4743219e4e65747f57073184c1a6f99f9183d5f215b1fefd -> 157a769cdc2f1d750e7eed41e8f2168eefb034ca42724d06782d776d7243e000
+~ -[AOSThreadManager dealloc] : sha256 d68aaf0d497778f42fa2649fc57057f4a58a7595d05152eeaa6b4d28841a0afc -> a14ae934b289169ed4bdea4913c06498d3e97cb2357c9eeac0c62705fee59012
+~ -[AOSThreadManager runAuthThreadWithContext:] : sha256 ca6e95e053a3adc36ff807aa8f5243d6583a749f98a4c7f946c998d791e7a71d -> 5502ee29d0fb4d5e7e161014466abbe91d2d93ef9af46deb76d3c88a6b853456
+~ _AOSLaunchAuthThread : sha256 60a1d50ab2f5c985bfb0674870cc1f24829a0607d2d24809261d4ac68149e49c -> ae8ee54a8106dd1f3e5e96e292d6ff05e78b191214959076c19f49b874e72255
+~ -[AOSTransaction init] : sha256 c2ac34b58841718f407fa6f286eef8f83df467b4803d1b2de5bfe72a02d0b2f5 -> 715102b5800358f2a6f7bd31b7f0e06536d9e057543cb38200f9f5098cb426de
+~ -[AOSTransaction dealloc] : sha256 e51a73b6fd13d47992d753db87353440b7ecb9486fbd1cce43116d107f4a53a0 -> 2797d8cb657edb00ffcd0fef8bbb4734c4009f87a0178d08bc616e0f460f58d2
+~ -[AOSTransaction finalize] : sha256 67ac39db38efcd6e0df7f7a879a26cb40958b41b447a3944dc57b3f5efdd5b8f -> 10326a84157eaa73676498c49ec35c47be2559506a34a9baae07cd6b57b158e9
+~ -[AOSTransaction initWithCoder:] : sha256 003d6664f683fa93ae3b9457cef9196be8cbbe42974966f3581399b2afaa0ec5 -> 39a92e7c340bbcf51baf6320eef76c0914a0d9f34cb2a41381c9fcec476c73a3
+~ -[AOSTransaction encodeWithCoder:] : sha256 72bc9ee3a4a0f069e91a62d5974fc1d48d130c438d442cee5359d680cb3f17c6 -> 40b0e745e66320b920b826f7b00472169878b9a7d10413ce609ea5483d94c776
+~ _AOSTransactionCreate : sha256 b5d2b9f036a6c32a4fa864ba57d12d93db40bc0cde48ba69a8d28a33bcfcc24b -> 0c8d85bb19b1d7e405b2001a36c8b13134fabc3e08b6fba874f341eefdbe368d
+~ _AOSTransactionSetResult : sha256 fe132d1259a2c8b44dd0bfe04418cab246bd91f7fc6bc58bcbcddf5c1371a436 -> dc8d947fc3b66b11ec6d6a2ce780b365f27f6c3de130b0ee1ea489c9cf8109c9
+~ _AOSTransactionSetError : sha256 4a4538b7720da751e63f57bfc440bc6cf8aa0e8f869aeee3570a951dc6c0d9a0 -> 68c2142f388583e85324154eaf48da83dc3c4284e488abad38aeda710d35c71f
+~ _AOSTransactionSetIsFinished : sha256 463a7eec99e6c1b86d88c6ce13298b516d4978f5cbb37095f716b6cf70e2a89f -> 94a408b586f22319aa63dc9623f9553a78db05b32f92ccab4ab2b2c214831795
+~ _AOSTransactionCancel : sha256 5eedab11225e85d55d4ed231f293cb41478c700cffd24fa56f48fa3379d57b4e -> 8b335af3c8dfee18a1e4d9518d9e892833d1b51000229f3227d7bdc388265b3d
+~ _AOSTransactionWaitUntilFinished : sha256 8504a2a796e6a050544000cfd8749098066a07c1d4b794318daf33451d4303bf -> ff438b5d490ba849a26604608cbe3afe0c98577a1184b377303d77067502544f
+~ _AOSTransactionUpdate : sha256 1554bc8ed60825bf31c2901071ad91e8c18a2b4e887de5d00c792ce406b2ea73 -> aaa4b7ff88457aae51c8ab22a020b22d58c4f5664e1d18e9cfb7d6a44dcf7eec
+
+```

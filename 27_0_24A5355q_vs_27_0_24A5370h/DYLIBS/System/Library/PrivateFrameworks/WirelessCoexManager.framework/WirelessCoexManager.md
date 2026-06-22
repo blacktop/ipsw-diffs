@@ -1,0 +1,232 @@
+## WirelessCoexManager
+
+> `/System/Library/PrivateFrameworks/WirelessCoexManager.framework/WirelessCoexManager`
+
+```diff
+
+-1930.3.0.0.0
+-  __TEXT.__text: 0xa950 sha256:0e5f78d57f2fa447d48debf372c2881dcbb9b6cffed295948755e90cdfbbb40d
+-  __TEXT.__objc_methlist: 0x678 sha256:8d9c0e48ee4e073f299e2a384d35feec63106c8d57a793d9d6e09966243b1a2e
++1933.0.0.0.0
++  __TEXT.__text: 0xa854 sha256:e3611beaa4af54b81a6139fd8e7ca48676bb5a70a1253cebd7fd9da8d7f931d6
++  __TEXT.__objc_methlist: 0x678 sha256:f2a4b98083e9b2fdcd3153600a9c734eee295d0ad615e92b7664c5602482893f
+   __TEXT.__const: 0xb0 sha256:b2ee203c627a6c2555b5f4797cfb25353e925920979e94ad9bbc66371a9d3256
+-  __TEXT.__gcc_except_tab: 0x25c sha256:241a53e7d135f270e432e0b3b086dc765bb540afa19429997c4b2fcd7339d052
++  __TEXT.__gcc_except_tab: 0x25c sha256:c7198b6bea038284e67cb8687acae03a57f3a65a2d20018728febd9d99297b07
+   __TEXT.__cstring: 0x1982 sha256:af03a41a540d628bc105da82b4e0d0c455613f7b4e5e956b593a6705fb30c6b4
+   __TEXT.__oslogstring: 0x6e5 sha256:f0221393db354a267829f98982f3bba8a9127124d22614ec942b4002ebf4bba2
+-  __TEXT.__unwind_info: 0x2e0 sha256:89e94f5fad9b6d170b0c7d60efd809bc0d608efb559f6b82f9b84a0f3d370858
++  __TEXT.__unwind_info: 0x2e0 sha256:13729f59d891b994d2f5bed6176a3b4d8acb25a60244f1323b87d1f91ed96f68
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x700 sha256:6f695c69d6217c88d29eb25a19ea9fdbac1a6ac818639ce2f2bdb50577d4e475
+-  __DATA_CONST.__objc_classlist: 0x40 sha256:2ad8a1a000d2dd191e10ad77f142c3951a8eee8789fdce1c6b4dde126a6a70e0
++  __DATA_CONST.__const: 0x700 sha256:bc18e293e20c88ed4138be5cddb3ca099d7ecd62be7004b0be4fbf87dd537c72
++  __DATA_CONST.__objc_classlist: 0x40 sha256:1ab7c7bf7582c1edb0940efc36797e2dcf78d3ce46bd9bddb145f17f7c98b855
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x420 sha256:3d53549d81d620451773e82d1e0d384003a1aa697f239b1f72dce2fdde72ba51
+-  __DATA_CONST.__objc_superrefs: 0x38 sha256:e76746bdbb862094418d887acfe393e4e775757f60987975e9b6e702d66c24b3
+-  __DATA_CONST.__objc_arraydata: 0x120 sha256:37bde5acc7451be2401a91ead2cfe76dd1d574fb0077aba78fbde255d78aa086
+-  __DATA_CONST.__got: 0xa8 sha256:e2b8b7b67cf3b228184c31d063d2d14a8b9df6f5d4bc8657de91c2f8eafb5a93
+-  __AUTH_CONST.__cfstring: 0xe00 sha256:00c319fe2736adeed2eacf1b468092e6c1c5d06f92ae6befe7d25170b5237709
+-  __AUTH_CONST.__objc_const: 0xda8 sha256:09b05c5e27690595b71c66ebc911962ceff2ac765ca1568da4d59dcba8f0831d
+-  __AUTH_CONST.__objc_dictobj: 0xa0 sha256:22d1a1d8739b794f4f5cd8e9e9c302789ac7c5cc3e170b4684697f8e339f7fde
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:87468af97bc8fd30648a9911c063672a2b6a9e4b7824ed31ef3dad1aa02a9be1
++  __DATA_CONST.__objc_selrefs: 0x420 sha256:b732731e741af6a39af627eed3294b3079a5be02618bfc57667d5e61a7319257
++  __DATA_CONST.__objc_superrefs: 0x38 sha256:09c203c91a190dbc35dcef11b4611441c900de7e29a7c92b11c794ae80e05c9d
++  __DATA_CONST.__objc_arraydata: 0x120 sha256:c0d47cfe64dbf8f3a03cf74f22f6d6da26b63c71024836347e50420e3d18ceb9
++  __DATA_CONST.__got: 0xa8 sha256:ad3c298b7877851cd840723b034f62b74c0ed92ec6a6e49e7f17bf424cbd3417
++  __AUTH_CONST.__cfstring: 0xe00 sha256:494a9d952bb2f42667bc46fe7e034e9362d3309126810f424e3d29066ba6a6c1
++  __AUTH_CONST.__objc_const: 0xda8 sha256:5395ea5346f11ed182b886afa4e92c88ceb1fb88a0913b383084326c71c0948f
++  __AUTH_CONST.__objc_dictobj: 0xa0 sha256:230e0edd5efc03e9d228816ee1aa20a653416b00badc0dd5f7a4a19cfdaaadcf
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:cef4516262f3f130af8729332eb7a875212da5d9f53759b1a0ea5527806bbf33
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0xf8 sha256:42efc19c2de31b8f0e4dc6b4bf19864a6d052b6bd10f123506326dbc344c77b0
+-  __DATA.__data: 0x30 sha256:0b0b79744045bb2d5c06d003050abd1e240b7a083776e140edd43d4c9349b2ef
+-  __DATA_DIRTY.__objc_data: 0x280 sha256:1de43f39b2f8d24843aea3cd92cf337654e7a031afc8224c3be41743c640c401
++  __DATA.__data: 0x30 sha256:23b5fc1d71154b189aeb34cdcd0ac7ef129eca072a3f733fafa8c5e71cf994ff
++  __DATA_DIRTY.__objc_data: 0x280 sha256:e4c7ca82423b0c54596b661a142521115e31904391de28277e581dca3467f048
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7B5BC4B1-CB90-3595-B988-9DB41EC91CF7
++  UUID: EDDDCF87-B1D5-3BE2-856C-874B1EC8C015
+   Functions: 210
+   Symbols:   772
+   CStrings:  397
+Functions:
+~ -[WRM_UCMInterface registerClient:queue:] : 780 -> 772
+~ -[WRM_UCMInterface setAWDLEnabled:] : 468 -> 460
+~ -[WRMBasebandMetricsInterface registerClient:queue:] : sha256 fbec293d6f66b0dd494cda887907d85d0db58ba8199003f00ab6f26710de83f9 -> be3e239ce10cd3070dd94513d08eaa757e513e3d931155018a727b7bc9251dfc
+~ ___52-[WRMBasebandMetricsInterface registerClient:queue:]_block_invoke : sha256 051886962002ad2b06f64c86e7336dcf1a1af3bc9f3803940cb12d2614689969 -> b1124d416aa98a45bfd4b6010ef7232bb9d4e686b30f848f662739d6aabd88a5
+~ -[WRMBasebandMetricsInterface unregisterClient] : sha256 911098f6f5d3cb35a439aae408f645a1e7794222700b9bbfb9e2631e0564bc67 -> f028ed1ee7e8dbaff99e9d05f6aeb3ccf0ed2728e701f104ceeb7a7320301117
+~ -[WRMBasebandMetricsInterface getWiFiBWEstimationMetrics:] : 320 -> 312
+~ -[WRMBasebandMetricsInterface getNRPhyMetrics:] : 320 -> 312
+~ -[WRMBasebandMetricsInterface getCellularDataMetrics:] : 320 -> 312
+~ -[WRMBasebandMetricsInterface getQSHMetrics:] : 428 -> 420
+~ ___45-[WRMBasebandMetricsInterface getQSHMetrics:]_block_invoke : sha256 a23dbc681858ff3a9af194fca906da3418cbd9e75199d34d9c19e510bb3113a6 -> ccb895e063533cca6633abf1079cec2cf439081681977fd92c753fb5745377f4
+~ -[WRMBasebandMetricsInterface init] : sha256 5adaadcdf5e71a87323f9fe71db900c50958d07d44ad81e2c1d5dff82dd95831 -> b4970e95e59f06101e31439f92145df544b739a668de5403132847cbea6b2baa
+~ -[WRMBasebandMetricsInterface handleNotification::] : sha256 a7e4ec67d662127e1071293389c75fdc9adcd77597c922da0e45052307430c3a -> f5b7c35556e6a09077739508a89d7c05f6006d46cd56de36d52007b3c7f4fefe
+~ -[WRMBasebandMetricsInterface processWRMNrPhyMetrics:] : sha256 e3ba9daa2229614cd34f43362afedf33eea5d0a8d3e12f9e959d918863538f2e -> db42f1f8fb3b01592a89e707998cbd8079e658625347a33b5b1c54e57967359d
+~ ___54-[WRMBasebandMetricsInterface processWRMNrPhyMetrics:]_block_invoke : sha256 1bc9aecd171311a458d230467644890d92f232bc5d470101db4113ac0f81f735 -> 84a61fd211d075dd2d7aa5159dd5a976df35c4a7c1d4d10dceb6751a1ffb2ac7
+~ -[WRMBasebandMetricsInterface processWRMCellDataMetrics:] : sha256 2bd1671d770df0f27ba01a2d1d11c28deb83a98b81f1dae65779ccfb5a23a4c4 -> e1fec28c01b5c383930a45dad5817176ff0d9feaea06567cfb5defa441e8b51d
+~ ___57-[WRMBasebandMetricsInterface processWRMCellDataMetrics:]_block_invoke : sha256 95ba0c91098c788a62875dc4cc634c40470ac28a7ff05fd2e89f6e84a02c003d -> 338d388184b48beab42f263775f3e859df24bec0c1a1dbdfb45de975c9558b26
+~ -[WRMBasebandMetricsInterface processWRMWiFiBWEstMetrics:] : sha256 2ffa4eaeafca01eb9cbc4d046ef2cd578acfdcdc7b03e5997385f3907d2e849e -> ee6bf0f173cfdc658cc9c14800d1ee479b80d7f9714dbaeb33cf09fbe397f633
+~ ___58-[WRMBasebandMetricsInterface processWRMWiFiBWEstMetrics:]_block_invoke : sha256 a4fa30eddbd965562a461876113aa6cefc2e3bb49452c29ba517f1a1123a99eb -> 738be9f42908d681b229af7b8ea23caab862c01b61fff3343a2467676798af04
+~ -[WRMBasebandMetricsInterface reConnect] : sha256 84b234efe3530be534ce1b60d9a57379bec86486935fd6a9319a4d5aadefc9a6 -> 2597136640ecfd6e85ff2f5ecb678d3cfb9da7baab82937665a0fff5a8eb90f7
+~ -[WRMBasebandMetricsInterface .cxx_destruct] : sha256 763bc791eaf23bef6e9a9b3ca1cb60870ffcb166cfd1035eb6f27ea2ea71f747 -> a6c0f917b7a8282584be300974e1f8a2174165993c6761f94a99dd76f732cf30
+~ -[WRM_iRATInterface init] : sha256 743b90d5988bf3a68fadc9ac349105ee31a7ad6d2e798c99ceb109bd65e975b1 -> 483f3a5544fa13b66ff0d317d1f64cd6d94c5cc5b0062b81541894cadc353e8a
+~ -[WRM_iRATInterface addAppType:] : sha256 38f3acaf18020863ad61e8fb3e16043223fae3b7d384be7eceb894e8693bb959 -> cffe7302647db39a0bd89ecc113a27e4f47204d1370840da40fd63be2c3480a7
+~ -[WRM_iRATInterface removeAppType:] : sha256 eec544272b90720cd1962efb1a17211cc007d8a7ece04c4ff126ae952e8ed73b -> db3b5764f488a5df6f6caff6bf1a749722d4116ddb5c711704e67aa44253495f
+~ -[WRM_iRATInterface addProximityLinkRecommendationType:] : sha256 30fb38b7390c7bb2a68cbb3e7539a726d345f72dd33f40f85b8098d9c2cdea7f -> 64035269f961d3df5814090a834991697b14e2cc31e0aa5dfa00c1170a70503b
+~ -[WRM_iRATInterface removeProximityLinkRecommendationType:] : sha256 1042b800db6ca706e1a1fa37640ded92becdef76aca78505574bbe9612a77a7e -> c102999c14b017a012cd4bcc82ca56fbe2543961c883185865a0dd9447735232
+~ -[WRM_iRATInterface processBTLQMNotification:] : sha256 eee5398c485178d87d007e9248091f4d7f3a5cc773300ff4d1a4a39f7a251443 -> 80ebdd0bd85cf7da951f221ccca04e69d85fff534cda16f4b34c109b76ff1744
+~ ___46-[WRM_iRATInterface processBTLQMNotification:]_block_invoke : sha256 d70cdf9c0219ce0b653c7e9b54095f8847d752e5f7e943c30bbf13657934b455 -> 3ffec476057cc6c49235a04c0252e9af96809a6c7d5ecca468461b0284969671
+~ -[WRM_iRATInterface processLowPowerModePeriodicWakeUpNotification] : sha256 f45f2230e7649b7a77b5551e95c4cbe52301151e6913be8be6687d5bf40cb74a -> 5cc34e1b937700dc20513a81bb492c47a99a0ab2d890d11683192881f468741e
+~ ___66-[WRM_iRATInterface processLowPowerModePeriodicWakeUpNotification]_block_invoke : sha256 5cb6441c488bba1675f3deec27a3d8dfe647db746ce093cd34fd84b7e33bd9d8 -> 41adf253298a5ad3592c34aa3cb7d3e881b20252b26ddefc16843878d1283467
+~ -[WRM_iRATInterface processOperatingModeNotification:] : sha256 6c9da1704596583a62058d6ed873148299025a6a55f274cbd0899d138972bdef -> d3144a1a41247b86123521416ada2a6d8e31a4815705f3722c71ae49e1e92b83
+~ ___54-[WRM_iRATInterface processOperatingModeNotification:]_block_invoke : sha256 50149beb3ae1584acd62725ae3bfb25e69b1efafbbf27935b117b63ecf253b38 -> ee9ef47b59acdf7bc0e5f68bc4655f55dab40424bec96aa929a61e7ff9f714de
+~ -[WRM_iRATInterface processVoiceLqmNotification:] : sha256 f38db1b9c36b78db80730d13357dd2b9a4ce21454be80b24d172c7f39b62a96b -> a27ef9556181290776c26becc490afe0ed958ec4c3f7378c7270e6e386140270
+~ ___49-[WRM_iRATInterface processVoiceLqmNotification:]_block_invoke : sha256 6767c980a093b4221d4376b9a38ce1779982a05c2e072af108dcd4bc01545762 -> 288ee4d359d2cf5d7a93b8fd4caaf98a2a0bbe33366bc7775d4a7327975d1cb0
+~ -[WRM_iRATInterface processMetricsNotificationReport:] : sha256 1deeb3bc662fbe2c5e9032c7da08076cf994b268c0eae07be35b082ca053c6f9 -> 3ffa4ea3635e34b877cd6997e44b48279fcb303c418a1d8b89b9180a701f71f5
+~ ___54-[WRM_iRATInterface processMetricsNotificationReport:]_block_invoke : sha256 dccbab87cc42f38ad977ab29784b6afe65828da80eecaabb6020b36f62c7f3e1 -> 244ff4f0bedb768cc0dfa58951b8d084c2be88dbca74b6c64a43e5655e8b0177
+~ -[WRM_iRATInterface processNotificationListForTerminus:] : sha256 cd0cdad4dc6f146ffc8808f2bd54d9b1b87b0f8eccda9af61a2e75057f16ec46 -> fe294e84ebe32cecc48c8a9c4d2678b7405f6e546f5dadd3b7eedde6edc8a637
+~ ___56-[WRM_iRATInterface processNotificationListForTerminus:]_block_invoke : sha256 a93457193babbf45daf3c89ea5a93a4f75f7f956412144f9e09177cb7675d6da -> 2dd7978e2e6f01c4ecb1140ab9bfa968a4c411fd223c7d702d9aa8d867540b70
+~ -[WRM_iRATInterface processNotificationList::] : sha256 9d8bb8de0682e4ae3028102a433ac47af09b3e2e32c485acddf582abc9bbaf5d -> c6707ebe571d303c09f3521aef2080ac838517dc4bb504c6d683ec256190cc9b
+~ -[WRM_iRATInterface reConnect] : sha256 245a30b5ea3d0635db1741df2905d3a9aed2362139ed265f7442504445f04af6 -> a125c8e02f9e0967433cc1702208b345807f5ccb4c84931e3762888fdd0a8ee0
+~ -[WRM_iRATInterface handleNotification::] : sha256 8c55528732037b6695ed97ccaff509696e0a2563e120b51e40b873dec144efe7 -> 40a5ee9ab18c363a6e21c74f21f5246c6917dff1183b0187ce64c5571018a147
+~ -[WRM_iRATInterface registerClient:queue:] : sha256 9af4f57bf677d51e369c643d88b4f3c2d2edd7b835f29ebd03eebbf7cbf6c939 -> 1e03d396f4160f7b3ec2fd420c63a1d6bd24da232add24e21e6725f83244a6b8
+~ ___42-[WRM_iRATInterface registerClient:queue:]_block_invoke : sha256 92b96002e930342e9df188209e968e2a0ff60e645ff8911b1a7ae0a1b9b106fe -> ace30e4e8f8f025d362713fee8c47bb1c63b8c2a4151e2d5cf03f90fb54ce496
+~ -[WRM_iRATInterface getSubscribeMessageType:] : sha256 8e411d46e8c3eacd8afc7dd37cd93295373ba64648a5753d15608cff6bea297f -> 16214602bfa5d2baf2447b0eb329a20026eba01cbf191c735927dfa41baefb66
+~ -[WRM_iRATInterface getStatusUpdateMessageType:] : sha256 7dd78e4212cb187ae56117d79b6e5b1035de44f14ab9074ce005d098a1824e4b -> eba577bb6a3edffd3ceb99e0e40910c1d3e06a21df6a4d449af5b20c7cf11ec8
+~ -[WRM_iRATInterface subscribeBtLqmScoreNotification:] : sha256 01164f6d773af018e1f89995fe65872b647589aa36984e79dd6287ae81a63150 -> 20284fb484691d0c35c47f7124fb70529639d8bd250710e49389d71a3827737a
+~ ___53-[WRM_iRATInterface subscribeBtLqmScoreNotification:]_block_invoke : 340 -> 332
+~ -[WRM_iRATInterface getVoiceLqmValue:completionHandler:] : sha256 b5c6b4748d49e50ab0bd2d7171227f84d80e525a73069a379aa4e66797de0dc2 -> 131b6224c2141eb37449603fa75447eb801a30f9128906c9d89da9229a9586c3
+~ ___56-[WRM_iRATInterface getVoiceLqmValue:completionHandler:]_block_invoke : 576 -> 568
+~ ___56-[WRM_iRATInterface getVoiceLqmValue:completionHandler:]_block_invoke_2 : sha256 468c26e7400314f158d8a1ca819bc334dddc9898aefb65f84f9fa69b909adb7b -> 535b9681e70351cf9a76715cf796f9f24e3fc608394fa3fc541d16980809ae8d
+~ -[WRM_iRATInterface subscribeVoiceLqmNotification:] : sha256 86a782a55779dead5305f2e51766a5928921d998ed3ba6dfe0a740bde10d399c -> cd70944383324b67a148e2c1ac1faad39efe0688964af76f3ad52b83c1d4726e
+~ ___51-[WRM_iRATInterface subscribeVoiceLqmNotification:]_block_invoke : sha256 f6b41f75729d6557b26cf8611e3708e902ed73cfc3247b4a054400eb37560043 -> 74a24b6c589331ddf4df8814212653faa3e094c57d0c1fc02d05baa22f33ef73
+~ -[WRM_iRATInterface subscribeOperatingModeChangeNotification:] : sha256 b40c7d3102942b789104a4e7464b9d81fb34bf94c85de5ae65fa62d541f6478f -> 7c40524b7e16d21beb8a43c911fd3b2e914d4ddb4ec22d437b4d644781c91df2
+~ -[WRM_iRATInterface subscribeProximityLinkRecommendation:] : sha256 54c266e9bacddd458dcb3538c5f1d6c402ce57279a16ac2507d929f59fa75183 -> e7b3eaedbead1944c1d9a92655cd5813b20831d81f4743c20ba50aac0c44e9da
+~ ___58-[WRM_iRATInterface subscribeProximityLinkRecommendation:]_block_invoke : 816 -> 808
+~ -[WRM_iRATInterface getLinkRecommendationMetrics:] : sha256 9d3518a750ff286024682ce158a728e26fae555a658b0db0dceba9b5019eae4f -> 83b015b285dc469099633c941e78a3e94ab583e131b68cd51e891a681d2f86e1
+~ ___50-[WRM_iRATInterface getLinkRecommendationMetrics:]_block_invoke : 400 -> 392
+~ -[WRM_iRATInterface getProximityLinkRecommendation:recommendation:] : sha256 9db0b89fafd91a154c5a745e2338cbf5d42dd96c38ecb066518fe573f8678329 -> c003a5f9441ca58cba33cdbc660e0752562f553daf142e78ffd47dc0e9c49194
+~ ___67-[WRM_iRATInterface getProximityLinkRecommendation:recommendation:]_block_invoke : 488 -> 480
+~ -[WRM_iRATInterface statusUpdateAppLinkPreference:status:] : sha256 1e403685a76ef8c5c4fdea8e7b0dd56dcde6c9b9b5bf2edc228dadb09c3a5995 -> 1916eecfef9e66364f8a2ebc3842b0b3da77bd4ea7fc90e4260d19721055cf3f
+~ ___58-[WRM_iRATInterface statusUpdateAppLinkPreference:status:]_block_invoke : 356 -> 348
+~ -[WRM_iRATInterface assertCommCenterBaseBand:] : sha256 0ca2af817f989841c58047947764c476a9b5ee63c97a2569ec936c1905cc61ef -> 145ea74de082eb88c1c269433f3e43f88c03912726575e94ed80d738d5675e1d
+~ -[WRM_iRATInterface getStreamingInfo:linkType:] : sha256 9ec056c0f0d4dda5f383a1f4ead73e0b1655a9c80f9f6b3ff48819fbe96ee8c0 -> 3f24b0b18bf4d1ac841ffd06bfe3e23cf6902441a7cff6e97908655df44ebd8b
+~ ___47-[WRM_iRATInterface getStreamingInfo:linkType:]_block_invoke : 620 -> 612
+~ ___47-[WRM_iRATInterface getStreamingInfo:linkType:]_block_invoke_2 : sha256 1f0a9c88f32779b7f13d126093d0c802d17a6eb54b2f45d68ae4d83733895386 -> 9954582cf5358f7076d74f2b6c797c8675af797908df4506f1444599c661a59d
+~ -[WRM_iRATInterface getMLPredictedThroughput:options:] : sha256 b77d69d872687132522ab78c4d3e882b882c751b96d0193756114772071eb7e9 -> 3bb9afd1c07163d1e0d0aa8748f38e3a1e3af2907b035f5645b43b941e480475
+~ ___54-[WRM_iRATInterface getMLPredictedThroughput:options:]_block_invoke : 756 -> 748
+~ ___54-[WRM_iRATInterface getMLPredictedThroughput:options:]_block_invoke_2 : sha256 bede961838a8314044f1cbe50317fb0d4ab90f8d1ae01409d39c362bf9849413 -> 44d21728e1ea149eabc67a6347ace5f5d3e8f6e508efb8103ca03f527349e664
+~ -[WRM_iRATInterface assertCommCenterBaseBandMode:] : sha256 f902e624bc9ea589b9809c7f7e8bbb3867f14d7ccb9b85c884f6e9bb811d542c -> ed4d1840f4923bd2f18bb489142ae8c296700a9498e6950c0e9e7235116fd518
+~ ___50-[WRM_iRATInterface assertCommCenterBaseBandMode:]_block_invoke : 340 -> 332
+~ -[WRM_iRATInterface expediteCellularForReason:reason:] : sha256 4dcb2884aaa0760e3fe890c30e4ff92acf5e39c4d1666f273ce8f603725c72ce -> 36249c55075e83217fd2ddbfd20446306a9cb6b92b17c7f0b9f5f3e281f9b650
+~ ___54-[WRM_iRATInterface expediteCellularForReason:reason:]_block_invoke : sha256 3408a5a7ed5016c44257ad443c7fe57bfc249f8aa9a3a3d74cb806588cc5cc21 -> f6da252013cfa4cffd8c6b39730f96ccc798ecd1ab67c8c02f9ada75c195dfd0
+~ -[WRM_iRATInterface setTelephonyEnabled:] : sha256 39bce526ef17c7b2a1797db229b7652f68d35ba800a7cbe0418c967f12119e4f -> 00d1e74b43099728d462745a8d495ff4a9bea9c0c6f0238b1abb6a49f1af36b9
+~ ___41-[WRM_iRATInterface setTelephonyEnabled:]_block_invoke : 340 -> 332
+~ -[WRM_iRATInterface subscribeStandaloneLinkRecommendation:] : sha256 3af410e214798b0e4056d6084f85efcdd51d382d26f63a6742bc630f9af307e1 -> cde749987dda5a2ab687205eb4d6cde87e69682f5c84156fbdb0d0c1e1cff452
+~ -[WRM_iRATInterface subscribeDataLinkRecommendation:] : sha256 fbad810c6cee1d5030eceed2000c7cfb0096dbc25f5ab05f2fba2a925cf99392 -> 9cc23c4fb76431af4e2d6eeb9ba91b42652851645f6638cd6fac28f639a22ddb
+~ -[WRM_iRATInterface subscribeAppType:observer:] : sha256 4fe89a7a1cda14c8f4d11913632200e55e460922fd09b3c84b8e422c9c8d4e2c -> 37d38e0e18b4890aa6aee8aaf8ca0d11620ba34b252498c0b27a5f0556cb98d0
+~ ___47-[WRM_iRATInterface subscribeAppType:observer:]_block_invoke : 660 -> 652
+~ -[WRM_iRATInterface subscribeMultipleAppTypes:observer:] : sha256 4bed83a9029d6b612bd02420b9e9948f6539ac3430df33d87c53138139b990bb -> e24b7b033af29e0254f3d4c6f3ab7744ce1bd7d54d62feffeb9573ed74b52abb
+~ ___56-[WRM_iRATInterface subscribeMultipleAppTypes:observer:]_block_invoke : 1144 -> 1124
+~ -[WRM_iRATInterface statusUpdateAppType:linkType:serviceStatus:] : sha256 c9b31cf2d97e9b5c005833cb30b2321b04f09ced3e7cfb4d1699f360b7cd29b6 -> 8245c733b9461b491c913b0652b4bcd21bb08f1823f6ec7c06d0cea5747d0f56
+~ ___64-[WRM_iRATInterface statusUpdateAppType:linkType:serviceStatus:]_block_invoke : 456 -> 448
+~ -[WRM_iRATInterface _expediteBBAssertionBGAppActive_sync:handler:] : sha256 cafd85119aa10546e57c2c422366914147b18f4a3f024863d7ecab1424578ae6 -> 9ba8dcd108c2143809834393f6f4ef9c791c636c71ea7a5bd0cce8882664006e
+~ ___66-[WRM_iRATInterface _expediteBBAssertionBGAppActive_sync:handler:]_block_invoke : 692 -> 684
+~ ___66-[WRM_iRATInterface _expediteBBAssertionBGAppActive_sync:handler:]_block_invoke_2 : sha256 6610e16b248c7a8847c210e0cfb54c44c8c2bfb1c211e1ec0a80273cb1e8cc97 -> 6c810e7b5ea5f7137e3d4723ce01660775c7533d0fadcdfa7038e6f81810378d
+~ -[WRM_iRATInterface expediteBBAssertionBGAppActive:handler:] : sha256 b51b46f46e7427e7afb3df2a49411742181330f657605ef52ac57e948461f007 -> b7af548765b9d7c4518207015a1e920fec1a4094d2e5bde72ed516d82c8e18fd
+~ ___60-[WRM_iRATInterface expediteBBAssertionBGAppActive:handler:]_block_invoke : sha256 b6ab49af3714a909b3bb0bd60c6780bfc2a967cacdfaa78b70de091a339cf94e -> 35ac78061be03d3a7e97464c59dcafe206cb0b2ddc1099bc3228b6d57586bef6
+~ -[WRM_iRATInterface unregisterClient] : sha256 5b5364a3515f00036c9f79a6d78cea3437f44ec292325fdaa5419407eb69dc31 -> 310b4af8a51ae87823448cdad640604098fb4ca20ab82a418b7f7a95b22467c6
+~ ___37-[WRM_iRATInterface unregisterClient]_block_invoke : sha256 b0bd1ec75277fcdde50158b641604f50c35b6030d43b953a40723652c0351863 -> bb3ebb28e65a095863a4ec3784d1a4a910b10f296eec8c5829d1e1332fa7826c
+~ -[WRM_iRATInterface .cxx_destruct] : sha256 4873d6d24c8a2c6030fde5141dd8410e3834a898c8519ef4e6e1aeb488d96069 -> 01e1b055e131758ce656a201537819a6117ce7de039959f2ba7fc2b6b501af0d
+~ -[WRM_iRATProximityRecommendation init] : sha256 b79d299b1f2819e095c1138dbab1e9df5f40849faca75278083bfa9bb1009cd1 -> 54421171691fd45d5a177882bcb81788d1e61d419bcb9b4ed898ef073cbdf73b
+~ -[WRM_iRATProximityRecommendation dealloc] : sha256 8313ed1b2d2900c95b5af9c8181d94449cb81ffc1b34069be8cbcbecdddbed07 -> adaab6fabb59062cc51b43385a0c2f68ede437d7d49d78b8919ba27a35b2445a
+~ -[WRM_iRATProximityRecommendation setMetrics:] : sha256 41cb61f2cb7453f211bf59ebff2750bf7df132a29d1916e244c0831fa8be2695 -> c615297e60f83f6962561b2ec06a4b952e5acf25b0ad3f28373291e5825eb778
+~ -[WRMClientInterface init] : sha256 8e718d72068e813035c1b5a3efced6e654c059dfb0746fa6aaaaa1ee36e69148 -> 658479b2d51a841afc10efe8a41e49022865f1e9ba419e4e8142ff123a399242
+~ -[WRMClientInterface registerClient:queue:notificationHandler:] : sha256 6ca2e714446fad5e3087198058e29ef6d27f8faf5a13002d2b7e343804b8691a -> 2109c5d54924213e4dc3c64c93d2ff00fd0d36fec9005ac57f98b312969ee905
+~ ___63-[WRMClientInterface registerClient:queue:notificationHandler:]_block_invoke : 568 -> 560
+~ ___63-[WRMClientInterface registerClient:queue:notificationHandler:]_block_invoke_2 : sha256 8a215c400149afc4da121c33f948ce4a51cef7b00dc2831050ce23520f5760ad -> f36c64b690fa462b3bd3a978f67102bfa8a5028c35132f87566ef39ae731ee50
+~ -[WRMClientInterface unregisterClient] : sha256 4a017a1acf37e1feffa472d2a041f6a99caab76d3e898f8d7bc675cb177a9396 -> 84f09923650979452dbc2c8e68b951ff07c54a5e58fc5d8fea29492c109444c6
+~ ___38-[WRMClientInterface unregisterClient]_block_invoke : sha256 9125e3d96decc304e9ce12d7774c7bb47ad39e342371e5195c3d62f809b7993c -> c7c4d0cf981672f78f88a667e9bab9e7f12be4623de1754359b768ffbc0bd6d1
+~ -[WRMClientInterface unregisterClientWithNotificationBlockRelease] : sha256 7a00826578a7ad63fc50dbcccb57a14237cb3d59fe8b2259936124d86489ec58 -> 69775b5815bd82bece5e30633b04f98e779f257f5db297836eb96a0987a8d367
+~ ___66-[WRMClientInterface unregisterClientWithNotificationBlockRelease]_block_invoke : sha256 9bebb2587fd496c6a7dca90560e6eac35a55c0d049acda53c506493fbb7a00ab -> 0552b201935b5cfe305ef8280eeb021f66d799c2696487ad8ea5a5c306b6a42c
+~ -[WRMClientInterface .cxx_destruct] : sha256 ea13927f9e44e7336014405c9987d0f5a2b6711ad434cb7ad959ee3e36b51372 -> fe7a9f568881d5fe4cd8ea6d14fd621c5a325cbb85ea562ff4c68b26b2feb6d5
+~ -[WRM_iRATProximityRecommendationLogging init] : sha256 e753a23331750769e8dee64d5b0f20940f82af241e11b13a293c1b6f3ec4cc48 -> 89510bbf47b3de736daf685e8974f4b9504362f9d53120795fc9b66a4521a627
+~ -[WRM_iRATProximityRecommendationLogging dealloc] : sha256 0905e4d6c11a6cc2b707e94e8c690349db1f7e4f0b36536a2f0997e08ce4c4f4 -> 6fa0019fa52dad9785feab79acc0ab90635f4539cb1af9ac1b471b90e1cbbb80
+~ -[WRM_iRATProximityRecommendationLogging setUuid:] : sha256 78b94247da99aa69d9407168e78321d9be2a0978f3075e381ad37054511992a9 -> 1691e85d38a9b33699e8f313ca0a84059148f4d2ce19d5096721fa6589923010
+~ ___41-[WRM_UCMInterface registerClient:queue:]_block_invoke : sha256 60c08e244f8390c5961379a7db595cce2c275eb67ec5908a122491c41603d3af -> 7673a7abd4af1131b70b845bb4e041673997384f19ac0a5ddd2ca88ec5970c2e
+~ ___41-[WRM_UCMInterface registerClient:queue:]_block_invoke_2 : sha256 f70dcc9d591e932222ab640739ed41d32e46afa6dd7904238b1cd065e71bdd45 -> b529226eb8a103dede99d2a01b1dd884991781d7fafbe052a723cdecb2469ed1
+~ -[WRM_UCMInterface unregisterClient] : sha256 4293fe6466295a23283b988bfd060399694d93b46e23df07a9d2c0a929743af4 -> b2d178ef9c967fd82a7af9a21a0e936ea4819c74426fe2006111dc3ba0e61639
+~ -[WRM_UCMInterface subscribeBtConnectedLinksNotification:] : sha256 a02375fc6ef255a62b5a75814f16db85493ff4f685239f045741d3142a5d17fb -> 525dcbb054e0aa78d8a89cc423ae89a9d67f314f3d017f52fce20a3e72d28f54
+~ ___58-[WRM_UCMInterface subscribeBtConnectedLinksNotification:]_block_invoke : 336 -> 328
+~ -[WRM_UCMInterface setCriticalAirPlayEnabled:estimatedDuration:criticalityPercentage:] : 500 -> 492
+~ -[WRM_UCMInterface setNANEnabled:] : 476 -> 468
+~ -[WRM_UCMInterface setNANRealTimeEnabled:] : 472 -> 464
+~ -[WRM_UCMInterface init] : sha256 cdca41f85d6435745ae67cab2926c58a11f1ec4320f54efa8ba1a0361dc57b71 -> c32c3cb7862571ddb6662edbfcc01f81c38228e0556a7b1ccf8f033498b71862
+~ -[WRM_UCMInterface dealloc] : sha256 31c6e312d7d5052124d2984341e46f5e4b1e8ab9f9c0f89d52332ee0cd9662e0 -> 49b6865fb4b366f54689ea6f211e3589599c428fd2a163194f19d9d350249310
+~ -[WRM_UCMInterface reConnect] : sha256 e2a2c9e68a25c4f359c8f998f6763b4ddb1950b910291c8b53542b82667fd91f -> 7e6eb754f09289ba7ba568303fc24c5a620804659aed28e1d610ae2a98801cc9
+~ -[WRM_UCMInterface handleNotification::] : sha256 c2aa953b8aa872bfd590ba5fd858fd03bc9c62e5d250d114cbfb7e60779bb4ae -> 8adbabac91279f9d27f6d030c481bbee7ec5bd08ad9b9100cd82f574b1343c9b
+~ -[WRM_UCMInterface processBTConnectedLinksNotification:] : sha256 f64f75a8647b384b7a607d7a86da03ebab2af970f2e2a6379e7e28f286ff51b9 -> 05095ce71eb101bfd77fc49bfa3b920b384ce12a7d74257f044b06515a1e8859
+~ ___56-[WRM_UCMInterface processBTConnectedLinksNotification:]_block_invoke : sha256 bd4bf6b6f6c64dde6e3393a2670848fbfcb35160ed21db8d28253deeeb222a9d -> 2f5df623a89f3351f06a18afb37b656b1e93b43956d93c14b53bf710d57298f6
+~ -[WRM_UCMInterface checkConnection:] : sha256 d883210187ecde2f362cbfde33dd66eae80eb031623f2b0df8f4660ee7b52a92 -> 465fd044610208f84e6c73386103cec5ac375a42a5ab7ed138b909d9e5faec1e
+~ -[WRM_UCMInterface sendBtLoad:] : sha256 85ff1b5376e3e62bad7f5b3f0543e8de42ae703d2dbcbddb639da6b27328960d -> acaed2f2f4bc89f9483104d10d2cd1685cd64bb7aca94f03a9709dabb219caae
+~ ___31-[WRM_UCMInterface sendBtLoad:]_block_invoke : sha256 5585f48c754c34c2b71b9e731fdfcebbed7f1cf88e38dc40fe75365b4cba6f77 -> 47618f92b586e8cb472ddf67ad184b3c61589d9de61ea956480f5ab30d808639
+~ -[WRM_UCMInterface getInstantLoad] : 688 -> 680
+~ ___Block_byref_object_dispose_ : sha256 9f0fec6bdc0164f8aae4cb10a6e75f3e47a6dfa2a99e6674ab9fa75ddb8775fa -> eba40ceaf8ee59bb323049b8f50cf5a8ed215835af5f25c8597d21cef24df77c
+~ ___34-[WRM_UCMInterface getInstantLoad]_block_invoke : sha256 bb2d2bceefd0d97982e49f208daa618809daf793eccf2dfeb1f490d7f282da8d -> 6a04fe56ac1a19460c92722f941733a116f91571c9868e25a6de54c7fc0f69d5
+~ -[WRM_UCMInterface stopTimer] : 776 -> 768
+~ ___29-[WRM_UCMInterface stopTimer]_block_invoke : sha256 b5acfcd81ecf3610de9263f645153592cafde60269d58381016e781c51161da2 -> 1f69a2af7967c3becf339909fe9743e25381585e2544254faf4efcc0623fda29
+~ -[WRM_UCMInterface startTimer:] : 820 -> 812
+~ ___31-[WRM_UCMInterface startTimer:]_block_invoke : sha256 54e60a9344e5a2ff118b20bbe83bf069675e423e7bac78529c244983120cfd0a -> 2a11c5c94de43cce5e807e0df2c3304a45a22954095167189bd10243381616a7
+~ -[WRM_UCMInterface getWirelessRadioManagerReportLoad:loadDuration:callback:] : sha256 883555f9ead5322a24a2b0b475e9fd5fff61827b5d430546c295b532bd99055e -> 75cf3b05944579a795e38f8fb23e15be50c870347c3d337969564111778fa5e3
+~ -[WRM_UCMInterface sendNRFrequencyUpdateForMic:] : sha256 a7aa94773ffcf449c170dec0d3b7f5332c11128bb6feab6a8af4ad96849acdb6 -> 8439f6fe55f1719583ec1cf248d6654ee33d220bfc7dd998ad2aeab8b8216523
+~ ___48-[WRM_UCMInterface sendNRFrequencyUpdateForMic:]_block_invoke : sha256 8603c0984effb8ebe8e21a095b71c15db4cdc606f29b2355c900d9136d3ebee7 -> f8b80d6fdb1eee455180d9b7e341d11b4dd19ecc33819ecc774c57c0bf032705
+~ ___48-[WRM_UCMInterface sendNRFrequencyUpdateForMic:]_block_invoke_2 : sha256 a9142782ea0df8a8780de213911666b416e729e3b7291284dd8b0fa2551387d0 -> 9e85d428cff403ef711d7fcb4a0b45623511ebb78d5b17874b9ea7723583edf8
+~ -[WRM_UCMInterface getWirelessFrequencyBandUpdatesForMIC:] : sha256 b024d2652c6148aa16125d18beb335a8f5bdeb6dbf7bcbd2b833b2b2b27fa7a4 -> e9d262b1e95e0cc675f516054016504e301d173921351d96601a8281ee6231e2
+~ ___58-[WRM_UCMInterface getWirelessFrequencyBandUpdatesForMIC:]_block_invoke : 532 -> 524
+~ ___58-[WRM_UCMInterface getWirelessFrequencyBandUpdatesForMIC:]_block_invoke.124 : sha256 60b5bfd73d3be7cb3c2a40c2a516caa593da69357d1843ca396cad05286179e9 -> a8b46e0943bf2501926e60d6c0ddf0eee252d21a2520f76e7a41b557b63a7a01
+~ ___58-[WRM_UCMInterface getWirelessFrequencyBandUpdatesForMIC:]_block_invoke_2 : sha256 41ad043b72aea6b739ff9f8848fe34f06cf6449451875e0784eb9ca790ce29c7 -> a71317cb547acc59161e52ee942a0226f0ee1ec2b508a99cee1cc567da3d43c7
+~ -[WRM_UCMInterface sendULFrequencyUpdate:] : sha256 4035954f2f6312e35d9945e70a3c938dbcda9b10eb39ec0c7c58117ce1c0da31 -> 59324465f97e260e607f6249aa93ef4073e85944cadab8d84d896ee85f3ac313
+~ ___42-[WRM_UCMInterface sendULFrequencyUpdate:]_block_invoke : sha256 5cd86804394926b14f9f5885542eb68e068120886001c1e491aedb33e794ed67 -> fa855430dcb50b0aa94c7dfe1815def38782fef40043aef0ab56a61fad51db61
+~ -[WRM_UCMInterface getWirelessULFrequencyBandUpdates:] : 1068 -> 1060
+~ -[WRM_UCMInterface .cxx_destruct] : sha256 898a4b89836b2c5bbe8f149f850aed15af35de09b4d5f5a1e0158a110447a1bc -> 800a85f9ae5f1161c98c06caaa3a727887e76c2b1871379a390b1b38b6f2d727
+~ _OUTLINED_FUNCTION_0 : sha256 47f2d5a5c72c3dda455e037467631958d4f6fb1abe56138b9d434bda1ac9e308 -> e83227298ccbab7a6e9c55f33c4923ac242f8c648458213bba7af4ca11be7c1e
+~ _OUTLINED_FUNCTION_1 : sha256 3274bc602be1802e3910ad7df525c81cda7e92d0135b3e056c2feaa783605986 -> a46ea647f536443cadd4cb79e381ff60d07080dfb5c4c01bfe1ce9d5cf197b95
+~ _WirelessRadioManagerSetLogToFile : sha256 67ae10392504b702377f82a27e23bcbde2d1a359b9c89d4c785c4e6c081219f8 -> c19b0a3b5178cc7fd9c1af13e305a14c1efff12b54456cac642af561ad09e0bd
+~ _WirelessRadioManagerDumpLog : sha256 b7996d569e351c14710f35d45fcd7df239f06e4cb2086fd6a204c3ed808a8481 -> 5fd9fc7a84ae494ac379e50581ece6e40701a8c086bb8a4425d7f0217558d66e
+~ -[WCMClientProxy dealloc] : sha256 ff0f909e75100f93f0c4e676e42b0b2db0e32b2204b3417cf4c6e44e390fe344 -> 07c1bf4b35e69adfd160e4b255a82a984ad146d43fae88e98cdeeb5786c976bb
+~ -[WCMClientProxy initWithClientProcessId:delegate:dispatch:] : sha256 2dea83b7bfb38b9d70317b05c67070668076d9e4c5062bd69221309ae34e9be5 -> 085429d3545d17219976b4e292d2f0868a01707f9d1f05c061824a16d4eca5a9
+~ -[WCMClientProxy connectToServer] : sha256 9194aedf3710f286807fd73ac0079fcc17c0d8adff3f06fa969c148e0211b6b6 -> a20b0529eff57141f9fde3c5923fadd4d20e2abb051d98a79a689d03b76d5885
+~ ___33-[WCMClientProxy connectToServer]_block_invoke : sha256 623971fe8667db3fc724a8ff3c5ca3289b104a53a6d15e2aaa1e1267955bfa5e -> faa09396c1fb50ad351768c1817d699f214e29becc34ff2f4ce9571c444fe21d
+~ -[WCMClientProxy registerToServer] : sha256 b3715fe98806d639311a689aa8d93cb6061a0a9723f719dd7cbd3d89bab825c8 -> 69bcf38b5b50ffcf4a35539236df6de9b16c6475ec8fc9ee96015035cee7226c
+~ -[WCMClientProxy sendMessage:argument:] : sha256 43491209ae6c64fec5e99a4260d45df7ea9a570b19c743dc3b801f2d338e5d1a -> e9545bb03d21396f73f6e6042c275e3a475c98504930e3de3ad656fef56e3e0a
+~ ___39-[WCMClientProxy sendMessage:argument:]_block_invoke : sha256 a5d3e29cb04700aaa1cdddfee1e175c370f7f3e5e8b9bce2f1e7ec3972fd3d91 -> 11bed86b57d695dbecb73c6c2b8d945c50ee02e3fc7c02a5839a43fd0342e4b1
+~ -[WCMClientProxy reConnect] : sha256 208e8cd8727cd00cae38404e4501e63ee74b89b51852b4539b951fb3007b8403 -> ab3ff7d0f4d9ea9a9f0ef17df05f7f8a5b03ad34f3b4bb7f1b3f13586799f931
+~ ___41-[WRM_UCMInterface registerClient:queue:]_block_invoke_2.cold.1 : sha256 b0e53d7c2272ef73de0bde2b73960abd59ee70c139f9983ca8ca876d05156d18 -> b2d2eeda86b7df4b5e5208608d5b9192b65e20b2cae0f84ad1f3fef215a6aee6
+~ -[WRM_UCMInterface checkConnection:].cold.1 : sha256 ab45f6c79e777b9fe78fcd467ec97bc5eda2d1efa7bb88f89da4e23376c84148 -> b638f6784ad4ad59781cf098d78295271137c95b751c07bf01df61400142e307
+~ -[WRM_UCMInterface checkConnection:].cold.2 : sha256 c04c3cbef6c174c639154c765747691dbf91600ad5426ca7b31b9e2efcf612cd -> aa10b149254497a91252ddaf8d909544df908bf89a63fda35a29acd8bf4076bc
+~ -[WRM_UCMInterface checkConnection:].cold.3 : sha256 01df3fb1e95e5120ca2dd3246cccb80367e90142f3317524944100d258ab16ed -> e0722327a322003aec2d6dd2a336e02ceaf561ae07bb1da9bde0d562a8254d98
+~ -[WRM_UCMInterface getInstantLoad].cold.1 : sha256 3ac87010edf80163fa1b0517587ef4814d075b4626605ec55ad433287be1a51b -> f70576c90c10a673967365a27a5f1b5ea0e5c1eee48cd6292a8a808fbd800b9b
+~ -[WRM_UCMInterface getInstantLoad].cold.2 : sha256 262aeeb100955c98f910258777a3497c386955a50e2fc1db78b65efd47cfc826 -> 2ff4955a2c05af06f6973748df5d393d2bdabc3e74a11096b00b0f01c9af5c87
+~ -[WRM_UCMInterface getInstantLoad].cold.3 : sha256 c2a88af80bf79557d2e1782dafc8b10a46b3f9fefb6cf0b69ac5af942734cb71 -> 2b5701bcdcf4492006cdfce25c51a6026a6ddb1cae82ab57ce74ad2f4c90b724
+~ -[WRM_UCMInterface stopTimer].cold.1 : sha256 46f07bce5d56a5f59a789d009614f5885852fa2e46967bdf77dc727dfbc577db -> 6a8d310d0f2cb748112b37680d1cbd2a2a47fff33fdb66183d6dad4aabed20be
+~ -[WRM_UCMInterface stopTimer].cold.2 : sha256 001f5df0034c7f16440f11e2cb5ecfde28725181f43eebe7fb6dc501dfdf838a -> 1be46108e81139cc08fd8a0bea14ff33160283b5bfb5dc60cb86ca368d2ee0b6
+~ -[WRM_UCMInterface stopTimer].cold.3 : sha256 3b4f85457091d657103fba87a8b884f31b572bb93a2b0d4e452d32362c89b94d -> 3a17431f56de51782150a03dbde77823e7c583b3b53e86f6a6f5e34555286ef8
+~ -[WRM_UCMInterface startTimer:].cold.1 : sha256 c15825b673090df1d49ba46bbaa82d74fe10b001aaee4e3e64e79df3c1b31c51 -> d9b413f81a5fe724192887f0a9038f6dfb43483c9e7ce1a98b8beff0215a54f7
+~ -[WRM_UCMInterface startTimer:].cold.2 : sha256 0e7ad423521346b4bb08869821e29c2290c3013943e3e95c726e9103c4387883 -> dd888e5980cedcb8601b0aeadfd01a55edaba7313fee961bb84c005ce8ba1d35
+~ -[WRM_UCMInterface startTimer:].cold.3 : sha256 12db99fd0bd9daa001f04cdac60863b9c8f26032c887b677ceb6ad95f8b222dc -> 8b741d07bfc7a7a6ed2916e750cbe53164db82688000198dee7d68310205086c
+~ -[WRM_UCMInterface getWirelessULFrequencyBandUpdates:].cold.1 : sha256 105da16e0c27798720c59f350193415b67566670e8ca4c24f309bf1bd2a9ad17 -> 8c0dcbf6dda77f78b39dc2c0cfd43a68cc52fe761ca403b9abac6d4a1f30a623
+~ -[WRM_UCMInterface getWirelessULFrequencyBandUpdates:].cold.2 : sha256 f774d332f29f697b06a0a23bbed30f55ac830f5e133f3138c62eff8c4b6d3cdd -> 1fe1d3fc612792fa8719cf27c61480a98d1ab0c15728c505d94deb261f2130d5
+~ -[WRM_UCMInterface getWirelessULFrequencyBandUpdates:].cold.3 : sha256 2cf5bb790ab332235eb60982cd89db9f76c855c37681c00442865b15e2918ffc -> a76d52a927dcd5950cb099a356b41c57b271c15539af89de05efe67c45086ea0
+
+```

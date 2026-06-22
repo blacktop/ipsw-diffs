@@ -1,0 +1,374 @@
+## com.apple.aonsensed.camera-xpc
+
+> `/System/Library/PrivateFrameworks/AONSenseService.framework/XPCServices/com.apple.aonsensed.camera-xpc.xpc/com.apple.aonsensed.camera-xpc`
+
+```diff
+
+-112.0.1.0.0
+-  __TEXT.__text: 0xab00 sha256:3c7b7d44610f6e6e29b63d018f8ae0cc32604dd561a6680c05253929aa82ed87
+-  __TEXT.__auth_stubs: 0x960 sha256:0873b9a4dba46428ef24b3dbb93f976ed03bda847b0ecb2601a41ab1271a852e
+-  __TEXT.__objc_stubs: 0x5c0 sha256:b62cee07b8355167b7799a3fdcaf68781ad6edcfdcef205e4ac11dbacac6e1f0
+-  __TEXT.__objc_methlist: 0x270 sha256:b818a3cd84979b9505b002fb9eda1152b80e2c45e320c32cd367d8c4c4ae8918
+-  __TEXT.__const: 0x5a0 sha256:a7477a2558e402905cecbcfcb43e3db457d458337d30dc65ae0b5f9d27679701
+-  __TEXT.__swift5_typeref: 0x38a sha256:3e31326e801651e35de71ea0857bbfc7384050bf2d910bf1a014ff0d8c696e17
+-  __TEXT.__oslogstring: 0xa4f sha256:3de1ea7b608224bf18e3710df018becb697e116c3b46a3ce71a16adccb5e3ede
+-  __TEXT.__cstring: 0x15a sha256:7ac7a152bf38a9e47821a47e7d4cf7e7f178ae9374074b311ea5f72aaf809998
+-  __TEXT.__objc_methname: 0x869 sha256:611b91dbbc0349841492fb3a18cb937f571b56f6dd2cd9c7bbeefcca56c0c8fb
+-  __TEXT.__swift5_capture: 0x134 sha256:6029369d8855b6eb11d01c9e897872eb73e6bd1f642e48ae8eab6e47becd185f
++114.0.0.0.0
++  __TEXT.__text: 0xdfa4 sha256:d10d430de56ca0dfa5f1a5d641b677e2f5e63c5418b61597d97de9814da167da
++  __TEXT.__auth_stubs: 0xab0 sha256:888fdfbcdaf1a79c6cbd928b5cf283579dcb9fb5d4f9ed7f16b2928e9a917777
++  __TEXT.__objc_stubs: 0x780 sha256:25d52344eab7ea481999a4eff0d909d25b6c52dd76dfa442adbde52c7554992f
++  __TEXT.__objc_methlist: 0x270 sha256:a4f07ddf82c2eb9b38a6d2c2e2b623030cc3edf236830a8d3420bf370a82c65a
++  __TEXT.__const: 0x7d0 sha256:cc13124c3db8e7b6cf946a217bd2237a9ac5fdb6c4c50f18eb852f55d9d4f941
++  __TEXT.__swift5_typeref: 0x412 sha256:09ccf479e675f7484756758ff941fb7d0ec7d32f3d3151c934ad290da63407cc
++  __TEXT.__oslogstring: 0xf3f sha256:ab92bc6374edc5913650ae2175149667ba0b24519fd4fd4aaa8bba959df440f2
++  __TEXT.__cstring: 0x1aa sha256:05dbb068f97570529f7f56769fad5a2d8694bddc0cea924a88d8f7cc1b255251
++  __TEXT.__objc_methname: 0x989 sha256:3718034d1a9cca9cffbe2c99f899ce46b417a21707263f798c0005d6e85ec01e
++  __TEXT.__swift5_capture: 0x144 sha256:971d15d08aab2c96aa018bf5f6302e358f944c08d703f3ee62838a45cef06cd3
+   __TEXT.__objc_methtype: 0x2df sha256:419a36c1e12649e2f8a069fb506422a423481c722f98e27fff2d639fbfabfa8e
+   __TEXT.__objc_classname: 0x139 sha256:177cdc8144cd419d4504896847aca952566c1dfe862162878f652e784fdfd17a
+-  __TEXT.__constg_swiftt: 0x300 sha256:14ca6542a603e8c60ef97c8941f8e83d3b799df799949b4b2c1c29fbb4f412ed
+-  __TEXT.__swift5_reflstr: 0x1ad sha256:a217bf3dba847b22e90f2f849ef89349da558dab1940f0eb7ffbfe3105d6bf87
+-  __TEXT.__swift5_fieldmd: 0x18c sha256:a87abc900d678421834ef66745f8c518c08f1ca0f2ae542632336eb3c46ac7d5
+-  __TEXT.__swift5_builtin: 0x64 sha256:6dceac3155f950a2c264244f2876c8282c2002b295e5aec2388bc79f3eb11979
+-  __TEXT.__swift5_mpenum: 0x8 sha256:9875b3a11598b85355316f5ad65f678ee3315f55bbc61f1d2d7be40ee32c2ec7
+-  __TEXT.__swift5_assocty: 0x60 sha256:da1deb1d26fd21e9996327d7e25081528b134024e402bbfe922bbf6cea10ffb4
+-  __TEXT.__swift5_proto: 0x30 sha256:da512ddf52dc6565b4db49669e6b5ba5a4d1309f460a5c47cc0d1c00b36fac10
+-  __TEXT.__swift5_types: 0x24 sha256:4a343fa5d48f01e75f86de49daeab27cc15dfc719ed00c5ce7be64c823784e73
+-  __TEXT.__swift5_entry: 0x8 sha256:4a11fd891f4e641595dfb142522fe8fe41afa0298c6508bf3b6dfe52260e3492
+-  __TEXT.__unwind_info: 0x250 sha256:548f970cfdc20356987dbd768d9b98ad50b70a9843913bff8cd45849c5668487
+-  __TEXT.__eh_frame: 0x48 sha256:849a977c44aa0c313d8bde43bd733c2d62ee24662ff4b34b354e8d06dcdd22f9
+-  __DATA_CONST.__const: 0x6e8 sha256:c615aea428c6d43db81654daeb7a2742ac0dfde0af7cdbb99e839fc6b8cdc2f5
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:b621f4eb1e867efb7f29a2d63a61303d7425c5ffb5694a1f8ed201363b9ec4f9
+-  __DATA_CONST.__objc_protolist: 0x40 sha256:43d0855826f3a08294291dba492a7c02a7e02e2ca1505513a93c60a45ff7d401
++  __TEXT.__constg_swiftt: 0x360 sha256:7bab1f2c4d240be93f947f0cb21b0c6f7f4f8654bed7c9dfe637c42afc3ff651
++  __TEXT.__swift5_reflstr: 0x1fd sha256:7db4e62a1bc2f2dc649bdbf8f9d4775523146d34826c0c2e3cde09ebdd2c857f
++  __TEXT.__swift5_fieldmd: 0x1f4 sha256:37061e1e5040c605c0bb304f871d827b017a53da70786233b69299c2d996931d
++  __TEXT.__swift5_builtin: 0x78 sha256:0a2c339567f5daad51cf8f20b3b5fa63535c0ee2d037bbd03dd60dac8cf18d4a
++  __TEXT.__swift5_mpenum: 0x8 sha256:5ec35df8fb0a107ac04a9e4f161ad5eb48a12d45f8e0f32bf5fd7b710972485e
++  __TEXT.__swift5_assocty: 0x90 sha256:cbbd47ef25477ad219efa807bb5b2a0f063d4aa119fa339aecbf381f6e5f4eca
++  __TEXT.__swift5_proto: 0x48 sha256:3051bf8ad698b941a3d47596867902baa604cf3a654144728404060abfa85f30
++  __TEXT.__swift5_types: 0x2c sha256:dc6a13b92144e9833ee7d5346891806ff4f32362ec4bcda4bfd5e4f4c1eeb13e
++  __TEXT.__swift5_entry: 0x8 sha256:055f3274db356a3713d0077c6590da82b619c3b0d18581ae7c40551df037d352
++  __TEXT.__unwind_info: 0x288 sha256:ecc4e16e4cde588ffa2291e8f167c0d9b5ea1968c191a5cc072d2c0c1fc522b2
++  __TEXT.__eh_frame: 0x48 sha256:851701eb41e724038322547761e56f8f66a3a68ba55559594afb916afd853b2b
++  __DATA_CONST.__const: 0x7e8 sha256:8e2cd4306a46b2768d7a756d48b33849cf22081d1e2dc16d52898a4d17c78b95
++  __DATA_CONST.__objc_classlist: 0x10 sha256:6ccceebc3dc13124ef5f75678409edb91114723ef0efcc0ad54c6784bc66fb21
++  __DATA_CONST.__objc_protolist: 0x40 sha256:c41e5e4e2811445294d7759e95b2bf3b5dc5e5b2d06a3222805e318376114498
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0x28 sha256:34a7ca4fd61ef53a401419c8019856a98f563f788647dd30d3c7c4c48ab29abc
+-  __DATA_CONST.__auth_got: 0x4b8 sha256:7bcea8ae5db16b87aabfde0d82943c58da2bd35aef7836b669f9f51992ab819c
+-  __DATA_CONST.__got: 0x1a0 sha256:f1b211e4ca0b51f3829f9631d486a094d9f01771e8ef234719c6855d1b833ed9
+-  __DATA_CONST.__auth_ptr: 0x200 sha256:523abbcf6cd59230723b1ae77e8b7f576c11759184bd64c6fd8d8d520c8595ac
+-  __DATA.__objc_const: 0x798 sha256:00d493979f5584ad52e3e00c359b0077b2006d06b0681061d4a2fedec3f68f28
+-  __DATA.__objc_selrefs: 0x270 sha256:7dbe5351232d744f00c02f80dd0add64a90de1ca1ea2628f2b0cd226b5a53302
+-  __DATA.__objc_data: 0x350 sha256:18a58c0a98c32cb69d74656e16bb204510f991a7e2eb2add108a99caa12ed229
+-  __DATA.__data: 0x2f8 sha256:9f1c0abc4c3e7f0227149f57b7c6fba28ebdc4d3d7dadb03bfec2170ebafb4b1
+-  __DATA.__bss: 0x600 sha256:80422bc3d307b4a25bdafcc84ac7fb01cb55a09810e8b0f37bb12e0edb5c48ca
++  __DATA_CONST.__objc_protorefs: 0x28 sha256:1434c00dc2d86cc1b391bb8f114e84c832553102a64be93d7e5773fef4ef547f
++  __DATA_CONST.__auth_got: 0x560 sha256:8e4c0b9bda60cc77e20134eca256c6b9d391c2a5741c0dbaa472a2252a0865d5
++  __DATA_CONST.__got: 0x1a8 sha256:a67535e46b26a9577a9a262b1f83d26ef1699edc9f2eea63acf8e67dfeae974b
++  __DATA_CONST.__auth_ptr: 0x258 sha256:4470f938b785ca5f36c6c9bedd170889dfe73d40c0180df5c30b05396647a89f
++  __DATA.__objc_const: 0x7b8 sha256:4287cf8f9f7ed85cf0acd3aa3065dff5d631b60de64e795f769ad0c6ac95921e
++  __DATA.__objc_selrefs: 0x2e8 sha256:687bdca4a13a9c954c9d985270a5094d0367990e1512801916b8e2cab9a33479
++  __DATA.__objc_data: 0x368 sha256:7a7ec3f5177a2dda5c6643e676fc06c49d58086baa24a2931225d7871081677d
++  __DATA.__data: 0x358 sha256:62b5072cffb5a8372c97472977e602b5c8c02523d00753ba7cef7426e62c0a98
++  __DATA.__bss: 0x900 sha256:cfc335996cfae29fdf14fd2db7ea853366d350a5d387aa3c322616e81dacd56b
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+-  - /System/Library/Frameworks/CoreImage.framework/CoreImage
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+   - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0DF90380-8AB2-3809-8CC7-2A99201AF76A
+-  Functions: 227
+-  Symbols:   2121
+-  CStrings:  197
++  UUID: DA641754-D4FB-3866-A660-300721B0818B
++  Functions: 262
++  Symbols:   2444
++  CStrings:  230
+ 
+Symbols:
++ $s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5Error_pSgIegyg_TRTA.74
++ $s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5Error_pSgIegyg_TRTA.81
++ /Library/Caches/com.apple.xbs/90D64F8F-B71B-4F87-952D-59724AF2915E/TemporaryDirectory.Vj09F5/Binaries/AONLoc/install/TempContent/Objects/Framework.build/CameraXPCService.build/Objects-normal/arm64e/CameraXPCService.o
++ /Library/Caches/com.apple.xbs/90D64F8F-B71B-4F87-952D-59724AF2915E/TemporaryDirectory.Vj09F5/Binaries/AONLoc/install/TempContent/Objects/Framework.build/CameraXPCService.build/Objects-normal/arm64e/ServiceMain.o
++ /Library/Caches/com.apple.xbs/90D64F8F-B71B-4F87-952D-59724AF2915E/TemporaryDirectory.Vj09F5/Binaries/AONLoc/install/TempContent/Objects/Framework.build/CameraXPCService.build/Objects-normal/arm64e/com_apple_aonsensed_camera_xpc.swiftmodule
++ /Library/Caches/com.apple.xbs/90D64F8F-B71B-4F87-952D-59724AF2915E/TemporaryDirectory.Vj09F5/Sources/AONLoc/Framework/CameraXPCService/
++ _$s10AVFCaptureMXM
++ _$s10Foundation12NotificationVACs23CustomStringConvertibleAAWL
++ _$s10Foundation12NotificationVs23CustomStringConvertibleAAMc
++ _$s15_ObjectiveCTypes01_A11CBridgeablePTl
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC0D9CacheLock33_22D344278D26B8DDDF15E77B95C8AE90LL2os017OSAllocatedUnfairI0VyAC13CachedCamerasAELLVGvpWvd
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC0D9CacheLock33_22D344278D26B8DDDF15E77B95C8AE90LL2os017OSAllocatedUnfairI0VyAC13CachedCamerasAELLVGvpfi
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC11warmupQueue33_22D344278D26B8DDDF15E77B95C8AE90LLSo17OS_dispatch_queueCvpWvd
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC11warmupQueue33_22D344278D26B8DDDF15E77B95C8AE90LLSo17OS_dispatch_queueCvpfi
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC12saveRawFrame33_22D344278D26B8DDDF15E77B95C8AE90LLyySo11CVBufferRefaF
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13CachedCameras33_22D344278D26B8DDDF15E77B95C8AE90LLVMF
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13CachedCameras33_22D344278D26B8DDDF15E77B95C8AE90LLVMXX
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13CachedCameras33_22D344278D26B8DDDF15E77B95C8AE90LLVMa
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13CachedCameras33_22D344278D26B8DDDF15E77B95C8AE90LLVMf
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13CachedCameras33_22D344278D26B8DDDF15E77B95C8AE90LLVMn
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13CachedCameras33_22D344278D26B8DDDF15E77B95C8AE90LLVWV
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13CachedCameras33_22D344278D26B8DDDF15E77B95C8AE90LLVwet
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13CachedCameras33_22D344278D26B8DDDF15E77B95C8AE90LLVwst
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13captureOutput_7didDrop4fromySo09AVCaptureI0C_So17CMSampleBufferRefaSo0M10ConnectionCtFTf4dddd_n
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC14prewarmCameras33_22D344278D26B8DDDF15E77B95C8AE90LLyyF
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC14prewarmCameras33_22D344278D26B8DDDF15E77B95C8AE90LLyyFyyYbcfU_
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC14prewarmCameras33_22D344278D26B8DDDF15E77B95C8AE90LLyyFyyYbcfU_TA
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC16resizedIOSurface33_22D344278D26B8DDDF15E77B95C8AE90LL4fromSo0I0CSgSo11CVBufferRefa_tFTf4nd_n
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC18applyVideoRotation33_22D344278D26B8DDDF15E77B95C8AE90LL3forySo15AVCaptureDeviceC_tF
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC18selectActiveFormat33_22D344278D26B8DDDF15E77B95C8AE90LL3forySo15AVCaptureDeviceC_tF
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC18selectActiveFormat33_22D344278D26B8DDDF15E77B95C8AE90LL3forySo15AVCaptureDeviceC_tFTf4nd_n
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC21sessionDidStopRunning33_22D344278D26B8DDDF15E77B95C8AE90LLyy10Foundation12NotificationVFToTm
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC27configureDynamicAspectRatio33_22D344278D26B8DDDF15E77B95C8AE90LL3forySo15AVCaptureDeviceC_tF
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC27configureDynamicAspectRatio33_22D344278D26B8DDDF15E77B95C8AE90LL3forySo15AVCaptureDeviceC_tFTf4nd_n
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC36selectMinimalUsableFormatWithFullFoV33_22D344278D26B8DDDF15E77B95C8AE90LL3forySo15AVCaptureDeviceC_tF
++ _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC36selectMinimalUsableFormatWithFullFoV33_22D344278D26B8DDDF15E77B95C8AE90LL3forySo15AVCaptureDeviceC_tFTf4nd_n
++ _$sIegh_IeyBh_TR
++ _$sIegh_IeyBh_TRTm
++ _$sSS10FoundationE26_forceBridgeFromObjectiveC_6resultySo8NSStringC_SSSgztFZ
++ _$sSS10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo8NSStringC_SSSgztFZ
++ _$sSS9hashValueSivg
++ _$sSo12CGContextRefa12CoreGraphicsE4draw_2in8byTilingySo07CGImageB0a_So6CGRectVSbtF
++ _$sSo20AVCaptureAspectRatioaABSHSCWL
++ _$sSo20AVCaptureAspectRatioaABSQSCWL
++ _$sSo20AVCaptureAspectRatioaABSYSCWL
++ _$sSo20AVCaptureAspectRatioaABs20_SwiftNewtypeWrapperSCWL
++ _$sSo20AVCaptureAspectRatioaABs35_HasCustomAnyHashableRepresentationSCWL
++ _$sSo20AVCaptureAspectRatioaMB
++ _$sSo20AVCaptureAspectRatioaMF
++ _$sSo20AVCaptureAspectRatioaML
++ _$sSo20AVCaptureAspectRatioaMa
++ _$sSo20AVCaptureAspectRatioaMf
++ _$sSo20AVCaptureAspectRatioaMn
++ _$sSo20AVCaptureAspectRatioaSHSCMc
++ _$sSo20AVCaptureAspectRatioaSHSCMcMK
++ _$sSo20AVCaptureAspectRatioaSHSCSH13_rawHashValue4seedS2i_tFTW
++ _$sSo20AVCaptureAspectRatioaSHSCSH4hash4intoys6HasherVz_tFTW
++ _$sSo20AVCaptureAspectRatioaSHSCSH9hashValueSivgTW
++ _$sSo20AVCaptureAspectRatioaSHSCSQWb
++ _$sSo20AVCaptureAspectRatioaSQSCMc
++ _$sSo20AVCaptureAspectRatioaSQSCMcMK
++ _$sSo20AVCaptureAspectRatioaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo20AVCaptureAspectRatioaSYSCMA
++ _$sSo20AVCaptureAspectRatioaSYSCMc
++ _$sSo20AVCaptureAspectRatioaSYSCMcMK
++ _$sSo20AVCaptureAspectRatioaSYSCSY8rawValue03RawE0QzvgTW
++ _$sSo20AVCaptureAspectRatioaSYSCSY8rawValuexSg03RawE0Qz_tcfCTW
++ _$sSo20AVCaptureAspectRatioas20_SwiftNewtypeWrapperSCMc
++ _$sSo20AVCaptureAspectRatioas20_SwiftNewtypeWrapperSCMcMK
++ _$sSo20AVCaptureAspectRatioas20_SwiftNewtypeWrapperSCSYWb
++ _$sSo20AVCaptureAspectRatioas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb
++ _$sSo20AVCaptureAspectRatioas21_ObjectiveCBridgeableSCMA
++ _$sSo20AVCaptureAspectRatioas21_ObjectiveCBridgeableSCMc
++ _$sSo20AVCaptureAspectRatioas21_ObjectiveCBridgeableSCMcMK
++ _$sSo20AVCaptureAspectRatioas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromD1C_6resulty01_D5CTypeQz_xSgztFZTW
++ _$sSo20AVCaptureAspectRatioas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromD1C_6resultSb01_D5CTypeQz_xSgztFZTW
++ _$sSo20AVCaptureAspectRatioas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromD1Cyx01_D5CTypeQzSgFZTW
++ _$sSo20AVCaptureAspectRatioas21_ObjectiveCBridgeableSCsACP09_bridgeToD1C01_D5CTypeQzyFTW
++ _$sSo20AVCaptureAspectRatioas35_HasCustomAnyHashableRepresentationSCMc
++ _$sSo20AVCaptureAspectRatioas35_HasCustomAnyHashableRepresentationSCMcMK
++ _$sSo20AVCaptureAspectRatioas35_HasCustomAnyHashableRepresentationSCsACP03_toefG0s0fG0VSgyFTW
++ _$sSo21AVCaptureDeviceFormatCML
++ _$sSo8NSObjectCSgMR
++ _$sSo8NSObjectCSgMd
++ _$ss13ManagedBufferCy30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13CachedCameras33_22D344278D26B8DDDF15E77B95C8AE90LLVSo16os_unfair_lock_sVGMR
++ _$ss13ManagedBufferCy30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13CachedCameras33_22D344278D26B8DDDF15E77B95C8AE90LLVSo16os_unfair_lock_sVGMd
++ _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFyXl_Ts5
++ _$ss15ContiguousArrayV12_endMutationyyFyXl_Ts5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSf_Tg5
++ _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFyXl_Ts5
++ _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFyXl_Ts5
++ _$ss20_SwiftNewtypeWrapperMp
++ _$ss20_SwiftNewtypeWrapperPSYTb
++ _$ss20_SwiftNewtypeWrapperPs35_HasCustomAnyHashableRepresentationTb
++ _$ss20_SwiftNewtypeWrapperPsSHRzSH8RawValueSYRpzrlE20_toCustomAnyHashables0hI0VSgyF
++ _$ss21_ObjectiveCBridgeableMp
++ _$ss21_ObjectiveCBridgeableP016_forceBridgeFromA1C_6resulty01_A5CTypeQz_xSgztFZTq
++ _$ss21_ObjectiveCBridgeableP024_conditionallyBridgeFromA1C_6resultSb01_A5CTypeQz_xSgztFZTq
++ _$ss21_ObjectiveCBridgeableP026_unconditionallyBridgeFromA1Cyx01_A5CTypeQzSgFZTq
++ _$ss21_ObjectiveCBridgeableP09_bridgeToA1C01_A5CTypeQzyFTq
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSf_Tg5
++ _$ss23_ContiguousArrayStorageCySfGMR
++ _$ss23_ContiguousArrayStorageCySfGMd
++ _$ss35_HasCustomAnyHashableRepresentationMp
++ _$ss35_HasCustomAnyHashableRepresentationP03_tobcD0s0cD0VSgyFTq
++ _CGBitmapContextCreate
++ _CGBitmapContextCreateImage
++ _CGColorSpaceCreateDeviceRGB
++ _CGContextSetInterpolationQuality
++ _CMFormatDescriptionGetMediaSubType
++ _CMVideoFormatDescriptionGetDimensions
++ _CVPixelBufferGetPixelFormatType
++ _OBJC_CLASS_$_AVCaptureDeviceFormat
++ _OBJC_CLASS_$_AVCaptureDeviceRotationCoordinator
++ _OBJC_CLASS_$_NSUserDefaults
++ ___CGBitmapContextCreate
++ ___swift_memcpy24_8
++ __swift_closure_destructor.69
++ __swift_closure_destructor.72
++ __swift_closure_destructor.76
++ __swift_closure_destructor.79
++ __swift_closure_destructor.83
++ __swift_closure_destructor.89
++ __swift_closure_destructor.95
++ _associated conformance So20AVCaptureAspectRatioaSHSCSQ
++ _associated conformance So20AVCaptureAspectRatioas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So20AVCaptureAspectRatioas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _objc_msgSend$activeFormat
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$connectionWithMediaType:
++ _objc_msgSend$deviceType
++ _objc_msgSend$formatDescription
++ _objc_msgSend$formats
++ _objc_msgSend$initWithDevice:previewLayer:
++ _objc_msgSend$isVideoRotationAngleSupported:
++ _objc_msgSend$lockForConfiguration:
++ _objc_msgSend$mediaType
++ _objc_msgSend$position
++ _objc_msgSend$setActiveFormat:
++ _objc_msgSend$setVideoRotationAngle:
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$supportedDynamicAspectRatios
++ _objc_msgSend$unlockForConfiguration
++ _objc_msgSend$videoFieldOfView
++ _objc_msgSend$videoRotationAngleForHorizonLevelCapture
++ _swift_release_n
++ _swift_release_x19
++ _swift_release_x21
++ _swift_release_x26
++ _swift_retain_x21
++ _swift_retain_x26
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic SS
++ _symbolic So8NSObjectCSg
++ _symbolic So8NSStringC
++ _symbolic _____ 30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13CachedCameras33_22D344278D26B8DDDF15E77B95C8AE90LLV
++ _symbolic _____ So20AVCaptureAspectRatioa
++ _symbolic _____SgXw 30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC
++ _symbolic _____ySfG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13CachedCameras33_22D344278D26B8DDDF15E77B95C8AE90LLV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13CachedCameras33_22D344278D26B8DDDF15E77B95C8AE90LLV So16os_unfair_lock_sV
++ _type_layout_string 30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC13CachedCameras33_22D344278D26B8DDDF15E77B95C8AE90LLV
++ _type_layout_string So20AVCaptureAspectRatioa
++ block_copy_helper.102
++ block_copy_helper.65
++ block_copy_helper.85
++ block_copy_helper.91
++ block_copy_helper.97
++ block_descriptor.104
++ block_descriptor.67
++ block_descriptor.87
++ block_descriptor.93
++ block_descriptor.99
++ block_destroy_helper.103
++ block_destroy_helper.66
++ block_destroy_helper.86
++ block_destroy_helper.92
++ block_destroy_helper.98
+- $s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5Error_pSgIegyg_TRTA.69
+- $s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5Error_pSgIegyg_TRTA.76
+- /Library/Caches/com.apple.xbs/A7F7DE0E-A3B1-445C-839B-6C5DFD00ADD9/TemporaryDirectory.oIf3dx/Binaries/AONLoc/install/TempContent/Objects/Framework.build/CameraXPCService.build/Objects-normal/arm64e/CameraXPCService.o
+- /Library/Caches/com.apple.xbs/A7F7DE0E-A3B1-445C-839B-6C5DFD00ADD9/TemporaryDirectory.oIf3dx/Binaries/AONLoc/install/TempContent/Objects/Framework.build/CameraXPCService.build/Objects-normal/arm64e/ServiceMain.o
+- /Library/Caches/com.apple.xbs/A7F7DE0E-A3B1-445C-839B-6C5DFD00ADD9/TemporaryDirectory.oIf3dx/Binaries/AONLoc/install/TempContent/Objects/Framework.build/CameraXPCService.build/Objects-normal/arm64e/com_apple_aonsensed_camera_xpc.swiftmodule
+- /Library/Caches/com.apple.xbs/A7F7DE0E-A3B1-445C-839B-6C5DFD00ADD9/TemporaryDirectory.oIf3dx/Sources/AONLoc/Framework/CameraXPCService/
+- _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC19rearWideAngleCamera33_22D344278D26B8DDDF15E77B95C8AE90LLSo15AVCaptureDeviceCSgvg
+- _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC19rearWideAngleCamera33_22D344278D26B8DDDF15E77B95C8AE90LLSo15AVCaptureDeviceCSgvgTf4d_nTm
+- _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC20frontWideAngleCamera33_22D344278D26B8DDDF15E77B95C8AE90LLSo15AVCaptureDeviceCSgvg
+- _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC22sessionDidStartRunning33_22D344278D26B8DDDF15E77B95C8AE90LLyy10Foundation12NotificationVFToTm
+- _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC24rearUltraWideAngleCamera33_22D344278D26B8DDDF15E77B95C8AE90LLSo15AVCaptureDeviceCSgvg
+- _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC25frontUltraWideAngleCamera33_22D344278D26B8DDDF15E77B95C8AE90LLSo15AVCaptureDeviceCSgvg
+- _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC25frontUltraWideAngleCamera33_22D344278D26B8DDDF15E77B95C8AE90LLSo15AVCaptureDeviceCSgvgTf4d_nTm
+- _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC9ciContext33_22D344278D26B8DDDF15E77B95C8AE90LLSo9CIContextCvpWvd
+- _$s30com_apple_aonsensed_camera_xpc18ALCameraXPCServiceC9ciContext33_22D344278D26B8DDDF15E77B95C8AE90LLSo9CIContextCvpfi
+- _CGAffineTransformMakeScale
+- _OBJC_CLASS_$_CIContext
+- _OBJC_CLASS_$_CIImage
+- __swift_closure_destructor.64
+- __swift_closure_destructor.67
+- __swift_closure_destructor.71
+- __swift_closure_destructor.74
+- __swift_closure_destructor.78
+- __swift_closure_destructor.84
+- __swift_closure_destructor.90
+- _objc_msgSend$description
+- _objc_msgSend$imageByApplyingTransform:
+- _objc_msgSend$initWithCVPixelBuffer:
+- _objc_msgSend$render:toCVPixelBuffer:
+- _symbolic So9CIContextC
+- block_copy_helper.60
+- block_copy_helper.80
+- block_copy_helper.86
+- block_copy_helper.92
+- block_descriptor.62
+- block_descriptor.82
+- block_descriptor.88
+- block_descriptor.94
+- block_destroy_helper.61
+- block_destroy_helper.81
+- block_destroy_helper.87
+- block_destroy_helper.93
+CStrings:
++ "Camera XPC: Camera cache miss for %s, resolving synchronously"
++ "Camera XPC: Failed to create destination CGContext for resize"
++ "Camera XPC: Failed to create source CGImage for resize"
++ "Camera XPC: Failed to get base addresses for resize"
++ "Camera XPC: Failed to get pixel buffer from sample buffer"
++ "Camera XPC: Failed to lock %s for minimal format config: %s"
++ "Camera XPC: Failed to lock camera for configuration: %s"
++ "Camera XPC: No format supports dynamic aspect ratio on this device, continuing with default"
++ "Camera XPC: No minimal full-FoV format ≥640×480 found for %s, continuing with default"
++ "Camera XPC: No video connection to set rotation on"
++ "Camera XPC: Pre-warmed cameras in %ldms (front=%s, rear=%s)"
++ "Camera XPC: Session DID start running, notification: %s"
++ "Camera XPC: Session DID stop running, notification: %s"
++ "Camera XPC: Set active format to %@ with dims: %dx%d for full FoV"
++ "Camera XPC: Set active format to %@ with dims: %dx%d, FoV %f° for %s (minimal full-FoV)"
++ "Camera XPC: Set videoRotationAngle=%f° for %s"
++ "Camera XPC: Unexpected pixel format %u in resizedIOSurface"
++ "Camera XPC: configureDynamicAspectRatio"
++ "Camera XPC: selectActiveFormat for %s — isFrontUltraWide=%{bool}d, EnableNonCroppedFCAMFullFoV=%{bool}d, useDynamicAspectRatio=%{bool}d"
++ "Camera XPC: selectMinimalUsableFormatWithFullFoV for %s"
++ "Camera XPC: videoRotationAngle=%f° not supported on connection for %s"
++ "EnableNonCroppedFCAMFullFoV"
++ "activeFormat"
++ "boolForKey:"
++ "cameraCacheLock"
++ "com.apple.aonsensed.camera-xpc.warmup"
++ "connectionWithMediaType:"
++ "deviceType"
++ "formatDescription"
++ "formats"
++ "initWithDevice:previewLayer:"
++ "isVideoRotationAngleSupported:"
++ "lockForConfiguration:"
++ "mediaType"
++ "position"
++ "setActiveFormat:"
++ "setVideoRotationAngle:"
++ "standardUserDefaults"
++ "supportedDynamicAspectRatios"
++ "unlockForConfiguration"
++ "videoFieldOfView"
++ "videoRotationAngleForHorizonLevelCapture"
++ "warmupQueue"
+- "Camera XPC: Session DID start running (notification)"
+- "Camera XPC: Session DID stop running (notification)"
+- "Front ultra-wide camera: %s"
+- "Front wide-angle camera: %s"
+- "Rear ultra-wide camera: %s"
+- "Rear wide-angle camera: %s"
+- "ciContext"
+- "imageByApplyingTransform:"
+- "initWithCVPixelBuffer:"
+- "render:toCVPixelBuffer:"
+
+```

@@ -1,0 +1,226 @@
+## GameOverlayUI
+
+> `/System/Library/CoreServices/GameOverlayUI.app/GameOverlayUI`
+
+```diff
+
+-3.0.26.0.0
+-  __TEXT.__text: 0xf08c4 sha256:6cca27c601a08c3599d5d5d6299fd0b25dbf05fcc03c892666d3f6e30be88009
+-  __TEXT.__auth_stubs: 0x4b40 sha256:1de35593c13a5e936308a07f7a8ef7435bcfa2df9fdca07faf0f81ba4099e7d4
+-  __TEXT.__objc_stubs: 0x1700 sha256:48127c454faa64cb6ff2422cf1d3de34d389fa972fb603cec1e08c9bb397904d
+-  __TEXT.__objc_methlist: 0xc30 sha256:f71a3dcecd3f74c23db7129ed46c5847d5022cc31398ab8f79696ad4b0dc75bd
+-  __TEXT.__const: 0x7b34 sha256:9e9e4308956f93b6f28f4d6b912b703b18b436adbe35b4a7be6022d87a5199de
+-  __TEXT.__constg_swiftt: 0x2704 sha256:a84530cc6fb020c72ca5d31c903b689bd9748e7824a3160bfce1bd2faa9bff31
+-  __TEXT.__swift5_typeref: 0x19482 sha256:f33e7f562876b6bd5a02921d03ed19d36c115b2347daab8cdbeb98a417e72f53
+-  __TEXT.__swift5_builtin: 0x8c sha256:ea1698e5ee5f8c04656feed24c11dec9f54ce5fa1e8c55719efc4e7d3d02d1a4
+-  __TEXT.__swift5_reflstr: 0x20fe sha256:45ede14123a518d9e0c20f2657199ebaca10eaa0420b092b30ab2ed821e8c227
+-  __TEXT.__swift5_fieldmd: 0x1fa4 sha256:9b9bbe2f803ffe599c5541dfda7e4fc78a7f4dd438f2c0a4b70ba6c33539e596
+-  __TEXT.__swift5_types: 0x1e4 sha256:157b45c60433f03c77c879eb6ab08862874215df2cfe83f32d40d7da9c01d7d0
+-  __TEXT.__objc_classname: 0xa7d sha256:3df71d394fba48618370e694f31e7f3168cc05aebb30636553d9dfda3ce3cb26
+-  __TEXT.__objc_methtype: 0x14d4 sha256:97ea5f7ed7d299d7638b04fc559489a2401b9fccebc2f63886053ef0f70f8c5d
+-  __TEXT.__swift5_assocty: 0x4f0 sha256:dd5711511e2761ee127da040eaacebe60f9fac995f5b3d9006a0ed75c15bc110
+-  __TEXT.__swift5_capture: 0x1afc sha256:e03ae61e7fb8b4ce28f721878eb9818222c00ef73d954dc34978bb21249a422b
+-  __TEXT.__cstring: 0xe19 sha256:247dd3d2394c6f2654c1ddf65d44c4725cdbd6c3f4692a60562852e9466c4ad4
+-  __TEXT.__swift5_proto: 0x244 sha256:29cf0c31ccb3d368525b5aa7c973ad9027bf742e86155b66ee9d8896af07c838
+-  __TEXT.__oslogstring: 0x23f8 sha256:dbbc03dfbf823e2193570f0f7553c1ce1a2d2d060e0f6705351a359891fe2099
+-  __TEXT.__swift_as_entry: 0x164 sha256:7b4b65dc9a01609b44610db17dc7bfc1d08c7ba9f9fe031bc24c17cbd50c5c00
+-  __TEXT.__swift_as_ret: 0xb0 sha256:684338b06b9411621b37968ec316a6887a3c1cf1ec5e8ae271c9d6321ac7e589
+-  __TEXT.__swift_as_cont: 0x320 sha256:ae0804d47e8c324ed100a57b84f850f4dfc2fd3fa92f8ccce42e18b5e9b9e755
+-  __TEXT.__objc_methname: 0x330d sha256:b33d939ff47fe9333e1ef99cb33cea28de4743dedfe20e184fc027471a754f42
+-  __TEXT.__swift5_entry: 0x8 sha256:45793049418c582d3bbd9a5b3a077a2e4574757cc0d536659cfba567a13091da
+-  __TEXT.__swift5_protos: 0x8 sha256:86a465160816778c6cf70c2394c3c728876d8864aade59afba0e385a7aaf265e
+-  __TEXT.__swift5_mpenum: 0x8 sha256:684b3322d5a1eadae5665cf9966ada5e0f9e3de2643797e207d082bbe98aed65
+-  __TEXT.__unwind_info: 0x2c20 sha256:4e92944543437b0342adae022581cba1abab6b959d60ea9ead3847cb49775bfe
+-  __TEXT.__eh_frame: 0x41d8 sha256:537a28b0ba5ea99c331be5e8900534576f41e35f66033e03dc3cdf60db0a55c4
+-  __DATA_CONST.__const: 0x5388 sha256:ca51335403881a2873eeae327e1192933d13ad28c732ca96b8da3c56c18af1f6
+-  __DATA_CONST.__objc_classlist: 0x110 sha256:2dd2451e76cc43a8c485a520b4d20f0c17292e1b45b7d383ecdd926b1dab7cc1
+-  __DATA_CONST.__objc_protolist: 0x100 sha256:8205f7feb208be98cbf2b447d39f84c1c4c6b58bca37870d184d80c8e3174960
++3.0.29.0.0
++  __TEXT.__text: 0xf2c74 sha256:b212dcb0142a072dce7d45e1114c7866331d6a6d6bed141e44abc7083f3f1c85
++  __TEXT.__auth_stubs: 0x4cd0 sha256:3b345709201551b80548395cc815233d2a88492006decc3dbd36cfd964550fc8
++  __TEXT.__objc_stubs: 0x1860 sha256:e200da9d9d57630a472a1ac629cddcac0513451a5625402d7ac83dc3ad4a6a77
++  __TEXT.__objc_methlist: 0xc98 sha256:18f7014078f1e4a88100aabe477c3abfca0f0f5528d8df6a2b28c515c845916c
++  __TEXT.__const: 0x7cd4 sha256:9cf710a2c56bd6ff5678e86f1a8bbc5d52879fae54f3ccef2e1c47767d5138ef
++  __TEXT.__constg_swiftt: 0x298c sha256:5e4a0696c5a3f515c1c87c4c89ed1b75206817c495d7c817c35aa513cc486a51
++  __TEXT.__swift5_typeref: 0x18928 sha256:ac60517fd5ef4b2d097035da7a37915689feda3118a59fff5ab565408cadd50a
++  __TEXT.__swift5_builtin: 0xa0 sha256:47454e27157927f4bd15a778ebd07cb814aa64e77ee2eb02b4ec0a3b5fd37444
++  __TEXT.__swift5_reflstr: 0x218e sha256:df3a4e91fc695705799f6e0b9cabab9086a8245618a73a466edbdc1712bad2fd
++  __TEXT.__swift5_fieldmd: 0x2100 sha256:41323786644a96f830c30db6819cbbf5868434d0aec61663c409bf9e3ece7131
++  __TEXT.__swift5_types: 0x1fc sha256:caad4c7ba71b53b20a261c2b9dded83a6a4d88c7b9ff19bb05c25d29dbd47b90
++  __TEXT.__objc_classname: 0xabd sha256:158d2e371078b5762e6b3c3dbaefb82529beb977f5b168145384308cec31f8ff
++  __TEXT.__objc_methtype: 0x14d4 sha256:7c2d965a74992675b29717aa0d9b1360d72f9a02c7bfdc5800aa035f7660e434
++  __TEXT.__swift5_assocty: 0x598 sha256:8c6071af01409e145bbe3fbc4b99dd4a12b52d037fdaf830a29e67975898369f
++  __TEXT.__swift5_capture: 0x1ae4 sha256:e0592af4777cc27a9f3dafa06a98803b4f5ff61ded6c7c6e4a8dcbacc7ed267e
++  __TEXT.__cstring: 0xe79 sha256:d76b69d98056ed081a2ee851b6be3a8d76720be5012ac846d5be7f691e4ef42f
++  __TEXT.__swift5_proto: 0x258 sha256:8d095b95f489e9f180a60d5ddff101e19336dc78008a22f62e9867037c674fb4
++  __TEXT.__oslogstring: 0x2228 sha256:208ac7f320fda5e8f12d09985209df2d0904f4f949ccd40a9d0023b6c6f73f59
++  __TEXT.__swift_as_entry: 0x158 sha256:39e6e6643e60af8e6b6a268d863e87424dc840e7c2a8df09c323a0e9840f98d7
++  __TEXT.__swift_as_ret: 0xac sha256:58e489dc30c57888cb0f7620295876ce886f051dc20847018a70f6f24219fc28
++  __TEXT.__swift_as_cont: 0x318 sha256:60290b10b6cba7d454ea14f47b67a4367151dc125ebba3b23aab3b1fbc2ab737
++  __TEXT.__objc_methname: 0x349d sha256:fa27be99ee4e17d482ca8a0ed762fcf9859926743e0ebd50c4232effc1bae8ed
++  __TEXT.__swift5_mpenum: 0x10 sha256:4586a9c539a81546ab5d0b2e81d23e98d82a91c93555d6762ee493bb7e887afc
++  __TEXT.__swift5_entry: 0x8 sha256:a9f7ae6d3b5c4c639f7759d05906979e7a7d235318a29cd62ccdcc6df9b777a0
++  __TEXT.__swift5_protos: 0x8 sha256:ac9a0ca3d9a9c2006f6fef0d5adba1d98c9fb7cf70e291c03f50e05da7742de5
++  __TEXT.__unwind_info: 0x2cc0 sha256:8b28a89c1111c8f4e1684e0d157f25f49a9290668d13924db40d8d2506483189
++  __TEXT.__eh_frame: 0x4170 sha256:d1e1082e22b58adb38f6047a13a4007edbabb55c0da66fe02ee9a3e3a28226fe
++  __DATA_CONST.__const: 0x51e8 sha256:7b4748813bc1d872fef625bafe21143afefecc00ec998d257015cf006d917be6
++  __DATA_CONST.__objc_classlist: 0x118 sha256:49c08a6c99f2ed2b6e26a4b45271671cec8430e5af7a4f10d824c39226f471bb
++  __DATA_CONST.__objc_catlist: 0x8 sha256:d648b0c8e2b1c73cc25ad085b38233f3dfb7bd64a7f49f332a6c9c355645e8c4
++  __DATA_CONST.__objc_protolist: 0x100 sha256:27ba72874ba0c4c092af428bb51c4c608cbf5ef7c4bdcda1cba46d3a6066d9ed
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0x98 sha256:9d2c2808ccb77af7fcdb0e98e6a72cc82ae0d545cddbe2964a92f20f290801b2
+-  __DATA_CONST.__auth_got: 0x25a8 sha256:e17ce3235beef435e89c7bc97f017e4c444da08828503ad3dfc17bd2c6441ce5
+-  __DATA_CONST.__got: 0x1330 sha256:95cb890d691d79c6559627bd93c503d24e19e5dd54eb7a3e479325bea44a831b
+-  __DATA_CONST.__auth_ptr: 0x10f8 sha256:a3b31aaf08d7b863bb3f10cda8be5c6dee2a5b01488f2cdf84358e93875b66e7
+-  __DATA.__objc_const: 0x3420 sha256:740367cfafc3d7c6409baec627d95e4e4c9fbb695f405ef3e58e18ee32627cd3
+-  __DATA.__objc_selrefs: 0xa80 sha256:809f7fb778adc7a4fd79178bba006d0a40af5395b0d98ce7900718ae1e36372a
+-  __DATA.__objc_data: 0xec8 sha256:cf45918a4f5a46c920572cae8e4aeef6e370d316d2e5ce76cdda5f177bb362c6
+-  __DATA.__data: 0x6590 sha256:5c3215b6716651466a685a61c5ae1cd700c8d48ff2874085336a3d488061cf8c
+-  __DATA.__bss: 0x4b78 sha256:ed7b19598f2c0456165a4d3c60b76cb14d46b999cdd5aaa2f503861f1064bbd3
+-  __DATA.__common: 0x160 sha256:adfa5dd5b7ca95cc2245f03a18732f9d08c46b92e24d44926261ecb7675d3c60
++  __DATA_CONST.__objc_protorefs: 0x98 sha256:2f79faaf091ed7b73f27d03487c8b661a1b765072273ce266e2b1bbb80771b63
++  __DATA_CONST.__auth_got: 0x2670 sha256:170b35bb2b51207dd8e545f451b64321b3de03b20e19cf4b73fc75d31659bc7b
++  __DATA_CONST.__got: 0x1390 sha256:73132c3cb999c71566582ccbe58d511dcc2db28a8a51415c53b737d1f68fae46
++  __DATA_CONST.__auth_ptr: 0x1168 sha256:eb2666f2f76578ca25e99506ac30204c98a9aa1c5eb2c4430eb8b67f5eb418a7
++  __DATA.__objc_const: 0x3520 sha256:5178777e95dd3112ab9df6f3d3de4e95185d1c195b65ef5e51737f3b150f09b3
++  __DATA.__objc_selrefs: 0xae0 sha256:75d22d4f29545cc218d12ee6c90435043e103c6d571dad265cf1c163751fec6a
++  __DATA.__objc_data: 0xfc8 sha256:a2cdc8ce224d44f9ab040c224de4b7d6b2e28ca3da2d1a20af6da91fafb28c42
++  __DATA.__data: 0x6bf0 sha256:17417053bc1cbc449230a985f921083f8694b9481254eadc1fb88167607d53b1
++  __DATA.__bss: 0x4e10 sha256:1ff2d17fb23b15e5abae6c65f7932b68470f53d238078ba4601392df5f6144bb
++  __DATA.__common: 0x168 sha256:cd0170db46e3b072a00e6be118592fe9d1fd4d16db521414a7b47b6d525c431a
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+   - /System/Library/PrivateFrameworks/ControlCenterUIKit.framework/ControlCenterUIKit
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+-  - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/GameCenterFoundation.framework/GameCenterFoundation
+   - /System/Library/PrivateFrameworks/GameCenterOverlayService.framework/GameCenterOverlayService
+   - /System/Library/PrivateFrameworks/GameCenterUI.framework/GameCenterUI
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 17EA16B1-C1A6-3D55-890C-52F0D6E8A57C
+-  Functions: 3671
+-  Symbols:   2234
+-  CStrings:  900
++  UUID: EFE7B047-5BE6-3CC9-9CD4-852177C93CFE
++  Functions: 3737
++  Symbols:   2282
++  CStrings:  914
+ 
+Symbols:
++ _$s12GameStoreKit03AppbD15StateDataSourceV0dE00defG0AAMc
++ _$s12GameStoreKit03AppbD15StateDataSourceVMa
++ _$s12GameStoreKit03AppbD15StateDataSourceV_13isIncremental09supportedD5KindsAcA0defG8Protocol_p_SbSay0dE00D0V4KindOGtcfC
++ _$s12GameStoreKit15ZoomCoordinatorC12navigateBackyyFTj
++ _$s12GameStoreKit15ZoomCoordinatorC21renderedContainerSizeSo6CGSizeVvgTj
++ _$s12GameStoreKit15ZoomCoordinatorC21renderedContainerSizeSo6CGSizeVvsTj
++ _$s12GameStoreKit22OverlayContainerLayoutV0F5StyleO13phonePortraityA2EmFWC
++ _$s12GameStoreKit22OverlayContainerLayoutV0F5StyleO14phoneLandscapeyA2EmFWC
++ _$s12GameStoreKit22OverlayContainerLayoutV0F5StyleO2eeoiySbAE_AEtFZ
++ _$s12GameStoreKit22OverlayContainerLayoutV0F5StyleO3padyA2EmFWC
++ _$s12GameStoreKit22OverlayContainerLayoutV0F5StyleO7isPhoneSbvg
++ _$s12GameStoreKit22OverlayContainerLayoutV0F5StyleOMa
++ _$s12GameStoreKit22OverlayContainerLayoutV0F5StyleOMn
++ _$s12GameStoreKit22OverlayContainerLayoutV0F5StyleOSQAAMc
++ _$s12GameStoreKit22OverlayContainerLayoutV11layoutStyleAC0fH0Ovg
++ _$s12GameStoreKit22OverlayContainerLayoutVMa
++ _$s12GameStoreKit22OverlayContainerLayoutVMn
++ _$s12GameStoreKit22OverlayContainerLayoutVSQAAMc
++ _$s12GameStoreKit22makeAppStateController06deviceE7Fetcher14updateRegistry11dataSources25purchaseHistoryDataSourceAA0eF11Controlling_p0eF006DeviceeI0_p_AH06UpdateK0_pSayAH0efpQ0_pGAA08PurchaseoefpQ0CSgtF
++ _$s12GameStoreKit24AppStateControllerMakingMp
++ _$s12GameStoreKit24AppStateControllerMakingP04makedeF011objectGraphAA0dE11Controlling_p9JetEngine010BaseObjectJ0C_tFTq
++ _$s12GameStoreKit24DismissDashboardNotifierC06notifyE9DismissalyyFTj
++ _$s12GameStoreKit24NetworkConnectionMonitorC9isOfflineSbvg
++ _$s12GameStoreKit9BootstrapV10bagProfile0E13OfflinePolicy25appStateControllerFactory10targetType15objectGraphName18tokenServiceClient25processTreatmentNamespace13prerequisites10jetpackURL14languageSource16tabsInfoProviderAC9JetEngine3BagV0F0V_AA03BaggH0VSgAA03AppjK6Making_pAA14ASKBootstrapV2V06TargetN0OS3SSgSayAO7JSStackC12PrerequisiteOGAO010BaseObjectP0CYaKc10Foundation0Z0VSgAO14LanguageSource_pSgAA16TabsInfoProviderVSgtcfC
++ _$s5UIKit17UITraitDefinitionMp
++ _$s5UIKit17UITraitDefinitionP10_isPrivateSbvgZTq
++ _$s5UIKit17UITraitDefinitionP10identifierSSvgZTq
++ _$s5UIKit17UITraitDefinitionP12defaultValue0E0QzvgZTq
++ _$s5UIKit17UITraitDefinitionP22affectsColorAppearanceSbvgZTq
++ _$s5UIKit17UITraitDefinitionP34_defaultValueRepresentsUnspecifiedSbvgZTq
++ _$s5UIKit17UITraitDefinitionP4nameSSvgZTq
++ _$s5UIKit17UITraitDefinitionPAAE10_isPrivateSbvgZ
++ _$s5UIKit17UITraitDefinitionPAAE34_defaultValueRepresentsUnspecifiedSbvgZ
++ _$s5Value5UIKit17UITraitDefinitionPTl
++ _$s7SwiftUI17EnvironmentValuesV12GameStoreKitE21preTerminationHandleryycSgvg
++ _$s7SwiftUI17EnvironmentValuesV12GameStoreKitE21preTerminationHandleryycSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV12GameStoreKitE21preTerminationHandleryycSgvs
++ _$s7SwiftUI17EnvironmentValuesV12GameStoreKitE22overlayContainerLayoutAD07OverlayiJ0Vvg
++ _$s7SwiftUI17EnvironmentValuesV12GameStoreKitE22overlayContainerLayoutAD07OverlayiJ0VvpMV
++ _$s7SwiftUI17EnvironmentValuesV12GameStoreKitE22overlayContainerLayoutAD07OverlayiJ0Vvs
++ _$s7SwiftUI17EnvironmentValuesV12GameStoreKitE22shouldShowOverlayErrorSbvg
++ _$s7SwiftUI17EnvironmentValuesV12GameStoreKitE22shouldShowOverlayErrorSbvpMV
++ _$s7SwiftUI17EnvironmentValuesV12GameStoreKitE22shouldShowOverlayErrorSbvs
++ _$s7SwiftUI25ScrollIndicatorVisibilityV6hiddenACvgZ
++ _$s7SwiftUI25ScrollIndicatorVisibilityV9automaticACvgZ
++ _$s7SwiftUI25ScrollIndicatorVisibilityVMa
++ _$s7SwiftUI4AxisO3SetV10horizontalAEvgZ
++ _$s7SwiftUI4AxisO3SetV8rawValueAEs4Int8V_tcfC
++ _$s7SwiftUI4EdgeO3SetV8verticalAEvgZ
++ _$s7SwiftUI4EdgeO3SetVMn
++ _$s7SwiftUI4ViewP12GameStoreKitE30providesOverlayContainerLayoutQryF
++ _$s7SwiftUI4ViewP12GameStoreKitE30providesOverlayContainerLayoutQryFQOMQ
++ _$s7SwiftUI4ViewP12GameStoreKitE36overlayPadCompactHorizontalSizeClassQryF
++ _$s7SwiftUI4ViewP12GameStoreKitE36overlayPadCompactHorizontalSizeClassQryFQOMQ
++ _$s7SwiftUI4ViewPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtF
++ _$s7SwiftUI4ViewPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQOMQ
++ _$sSo16UIViewControllerC5UIKitE23registerForTraitChanges_7handlerSo25UITraitChangeRegistration_pSayAC0I10Definition_pXpG_yx_So0I10CollectionCtctSo0I11EnvironmentRzlF
++ _$ss27_diagnoseUnexpectedEnumCase4types5NeverOxm_tlF
++ _OBJC_CLASS_$_SBUISecureRenderingStateTrait
++ _OBJC_CLASS_$_UIKeyCommand
++ _OBJC_CLASS_$_UIViewController
++ _OBJC_METACLASS_$_CCUIOverlayBackgroundView
+- _$s12GameStoreKit15ZoomCoordinatorC7isPhoneSbvgZ
+- _$s12GameStoreKit24ModernAppStateDataSourceV0eF00efgH0AAMc
+- _$s12GameStoreKit24ModernAppStateDataSourceVMa
+- _$s12GameStoreKit24ModernAppStateDataSourceV_13isIncremental09supportedE5KindsAcA0efgH8Protocol_p_SbSay0eF00E0V4KindOGtcfC
+- _$s12GameStoreKit25AppStateControllerFactoryMp
+- _$s12GameStoreKit25AppStateControllerFactoryP04makedeF011objectGraphAA0deF0_p9JetEngine010BaseObjectJ0C_tFTq
+- _$s12GameStoreKit28makeModernAppStateController06deviceF7Fetcher14updateRegistry11dataSources25purchaseHistoryDataSourceAA0fgH0_p0fG006DevicefJ0_p_AH06UpdateL0_pSayAH0fgqR0_pGAA08PurchasepfgqR0CSgtF
+- _$s12GameStoreKit9BootstrapV10bagProfile0E13OfflinePolicy25appStateControllerFactory10targetType15objectGraphName18tokenServiceClient25processTreatmentNamespace13prerequisites10jetpackURL14languageSource16tabsInfoProviderAC9JetEngine3BagV0F0V_AA03BaggH0VSgAA03AppjkL0_pAA14ASKBootstrapV2V06TargetN0OS3SSgSayAO7JSStackC12PrerequisiteOGAO010BaseObjectP0CYaKc10Foundation0Z0VSgAO14LanguageSource_pSgAA16TabsInfoProviderVSgtcfC
+- _$s7SwiftUI17EnvironmentValuesV19horizontalSizeClassAA013UserInterfacefG0OSgvg
+- _$s7SwiftUI17EnvironmentValuesV19horizontalSizeClassAA013UserInterfacefG0OSgvpMV
+- _$s7SwiftUI17EnvironmentValuesV19horizontalSizeClassAA013UserInterfacefG0OSgvs
+- _$s7SwiftUI4ViewPAAE8staticIf_4thenQrqd__m_qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lF
+- _$s7SwiftUI4ViewPAAE8staticIf_4thenQrqd__m_qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQOMQ
+- _OBJC_CLASS_$_FBSSystemService
+CStrings:
++ "OverlayContainerLayout"
++ "SecureRenderingState"
++ "T@\"NSArray\",N,R"
++ "T@\"NSString\",N,R"
++ "T@\"UITraitCollection\",N,R"
++ "TB,N,R"
++ "_TtC13GameOverlayUI29AdvancedOverlayBackgroundView"
++ "affectsColorAppearance"
++ "containerLayout"
++ "defaultValue"
++ "handleBackKeyCommand"
++ "isSecureRenderingEnabled"
++ "keyCommandWithInput:modifierFlags:action:"
++ "keyCommands"
++ "name"
++ "removeFromSuperview"
++ "scene_anchored_dashboard"
++ "setNeedsLayout"
++ "setWantsPriorityOverSystemBehavior:"
++ "traitCollection"
++ "traitCollectionWithTraitsFromCollections:"
++ "traitCollectionWithUserInterfaceIdiom:"
++ "viewDidLayoutSubviews"
+- "Skipping Access Point request because device is locked or blocked."
+- "Skipping dashboard request because device is locked or blocked."
+- "Skipping game mode banner request because device is locked or blocked."
+- "Skipping in-game banner request because device is locked or blocked."
+- "Skipping onboarding flow request because device is locked or blocked."
+- "Skipping showPlayTogether request because device is locked or blocked."
+- "currentTraitCollection"
+- "isPasscodeLockedOrBlocked"
+- "verticalSizeClass"
+
+```

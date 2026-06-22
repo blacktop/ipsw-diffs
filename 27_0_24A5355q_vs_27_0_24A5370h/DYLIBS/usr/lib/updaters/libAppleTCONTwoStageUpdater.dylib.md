@@ -1,0 +1,57 @@
+## libAppleTCONTwoStageUpdater.dylib
+
+> `/usr/lib/updaters/libAppleTCONTwoStageUpdater.dylib`
+
+```diff
+
+-226.0.0.502.1
+-  __TEXT.__text: 0xb04 sha256:11e915be49df90318624875f02379df269bbe7d8814b90e91c9056a05d71766f
++230.0.1.0.1
++  __TEXT.__text: 0xb04 sha256:766bf728630fae48d2454fd734c769a86ea368799253d0b61f7a49425f6f7611
+   __TEXT.__gcc_except_tab: 0x28 sha256:e39bbcdc291a0e9014740f3bd3ff41e4547f5b63f869bf733cccd8b46d19c2e7
+   __TEXT.__cstring: 0x5fa sha256:814018b1e5859b04b69e7cf06c1629a8e023be8c52dd6a3f1b4b5980689ad5b5
+   __TEXT.__const: 0x8 sha256:a14b64707e74e79ec1c6b4f3a1d99dab625ee5b1685ba0d76633466fa3c4289d
+   __TEXT.__oslogstring: 0x31 sha256:80cb68406b1ccf44ef37aae45f7a955b950867b7e22478f07a5883e813f59b3b
+-  __TEXT.__unwind_info: 0xc0 sha256:6bd7b5c7c2eb483b508f2892bea830e50c6b649a467f71f5a6ddc065f77e1ff1
++  __TEXT.__unwind_info: 0xc0 sha256:12ab547ec08bed1725a24e68f2f464e42682a9de3637c12ef0a555bc776946d9
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x28 sha256:e7628248aa0eb6a1923afffba096f7d7c09b4379db72f6d26f059843d0e90102
++  __DATA_CONST.__const: 0x28 sha256:18ff2140aeda683ce9fa8223376b4bd9fe6c87ac8ef7050e5b6eef82cbcb555f
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x80 sha256:9b3bff8cdc4bc79d559530306487a8fd73f14211b50bc1421c5fd747ae249a71
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:2da1e5a88716686f9321aaa1b0061536b2f7f6607bb4c64609ff9c7c25635e4c
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:1b3a813d469cda0cda3df6ce8e2c58ebbcb456d68d4451cc993870878c2fa647
++  __AUTH_CONST.__const: 0x80 sha256:b3c65f1a5d2fb7cd435ea6d48d91dc983a3d4ca8e1a245f8ae11db2debb9bd11
++  __AUTH_CONST.__cfstring: 0xc0 sha256:44f98736d6428c4645c5ac54136588490b3c7c6cb4928cd6b118c1ed633077a6
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:2278a13880d69d1295fa4f03c88f2e293d7a6a5f55569a611868a69b8c6b9544
+   __AUTH_CONST.__auth_got: 0xd8 sha256:a5645e7a3fa0866cde8842c4dab96567507c3d1a3c028b816bc63f6966367b70
+   __DATA.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libamsupport.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 3FF40D0A-5C8B-33A8-9D7E-59C5178357F3
++  UUID: 6895B16F-DDDA-39D8-9D87-815E1F1BBCA2
+   Functions: 20
+   Symbols:   88
+   CStrings:  39
+Functions:
+~ __ZN33AppleTCONTwoStageUpdateControllerD2Ev : sha256 0df55b019c84b57630d8be671c5f820b68f64f423fc731868ad45ada95d74a79 -> 2f7b3694e7df2aa4cdec10a76b406147276b40fccb5e0d92c5a7b53c5d7bac59
+~ ___clang_call_terminate : sha256 66896fb704f7bd0fbf73fd0c79530de1de2cce20b2ab476d235ccb2c40594a44 -> fa629ed3a3393beb492bfc06a7ae85e758c525d7e74a50805cf1fe776e99661a
+~ __ZN33AppleTCONTwoStageUpdateController16execCmdQueryInfoEPK14__CFDictionaryPS2_ : sha256 480fa308fa9c63ffb06527751cc9eeaaf358d1b132e05f2ebace43b3891cf7bf -> 1a6399984cf3c2d430c94ed55a9930be6c7e84d8e4c782e8c2d9cc1310d76b61
+~ _AppleTCONLoggingLogMsg : sha256 a6b0c8376e4ec9fc3b346f8366a1590757a5eaccefe30731ca9fafa6ddb2f66f -> e714faaf2ff51f013802b9dc2c75c69831a4ca86f15a76a08b09b09d27619caf
+~ _AppleTCONLoggingRegisterLogSink : sha256 b4b3b0b69b09027dbd8bcc9bbd6e10087412cfc76edb9d20cdc7d205426702ba -> 07fa9c8e76e1abcababccbaba1c453bd65e378e57dea76530eea31a7c439d7d9
+~ _AppleTCONTwoStageUpdaterCreate : sha256 3a65184ddf0efc525969d9a6bd26eb5d4adfe01e88a4cb01b0ad7452917a2331 -> 08d104c72aca4c9e0f9ad3dd0654392433eec985f5d318f2dc9fa590ffcd9c75
+~ ___AppleTCONTwoStageUpdaterCreate_block_invoke : sha256 b1881ff0f9112379485b3b9e0f22ffd819cd5302ecac2d06b4987588f5eaebda -> c6a27b1be917772a810bdce7bc017511fde33981d6bbf4b4e98ebb13dd0a5762
+~ __ZL31AppleTCONTwoStageUpdaterDestroyPKv : sha256 936277585a981ec945b9baba5ddc50558b42ecf35b308042b466fb182d29f53c -> f0b0d2c434d055f3487cf1b2670cccea216106aea40f579dee4f001418e210ff
+~ __ZL32AppleTCONTwoStageUpdaterDescribePKv : sha256 f5f506c313c2bc28c7fbd72c3d5f19e0e3fcd9f0c7f471792bdac39e4e80cf41 -> c2044b5dc2ea6f557548db2bc5baca2eee47cf8434339cd1b24fc834661c2ad6
+~ _AppleTCONTwoStageUpdaterExecCommand : sha256 0b76d3a4e69948dac7e995282ad92187d02676840a98a0c7c5ea1b72b0b0b1fd -> 99699913e24d13709c935e0114b835b40dc5c289efe81f261f5a250a902ed6ff
+~ __ZN33AppleTCONTwoStageUpdateController42AppleTCONTwoStageUpdateControllerGetDeviceEPP15AppleTCONDevicePK14__CFDictionary : sha256 239b88cf24ce1ebfc7001de1f243cb1016775d9d5403cf0f32c6897bd062cd32 -> cf5b0f0d02267cca893c74b5608fd5c8b9e741848f07a2b5a478081642660560
+~ __ZN33AppleTCONTwoStageUpdateController5startEPK14__CFDictionaryPP9__CFError : sha256 b7baad3e3034690cf0aac31e36987912e5cd6e083cdffd027f94b84943800c6e -> d02154234cd441063cda9ba93a26c56f01de03fb547a8a33d2abf9364313ecce
+~ __ZN33AppleTCONTwoStageUpdateController11execCommandEPK10__CFStringPK14__CFDictionaryPS5_ : sha256 0d9160f18485428d225af8cd956bbf5f231c45d7a2090e1577497e81c3fc3b28 -> 164c8ff510c29dc7f9f8f8cdd87bb32d02e9832df0382aecccb587d64c073a32
+~ _AppleTCONLoggingCreateCFErrorWithDomain : sha256 a4a86ed3b4df2fb7b676cf8bb74672c476f2a594a1b0822a9b001584f723e73b -> e759a12837db36c2d5c1ad4d65b5aca0c35ec60f52a118d528f086e184248f30
+~ _AppleTCONTwoStageUpdaterIsDone.cold.1 : sha256 a4cfe3ee56d14e03b7829087570d237ad17c81b9aba6c177e8e095f21302af31 -> 3f69f5e1c5f0e6f5e8a6d125c8e240503ac6addc57765fbce4c16a37f938593d
+~ _AppleTCONTwoStageUpdaterCreate.cold.1 : sha256 9facf99a3c204cf1f475a6020321cbb2f973e79e4ce3efb35467f5cc7c2a793d -> a8f490227423161ef36f5d71ec0638d2272c90d8aecb7fb4672a9e7c80920580
+
+```

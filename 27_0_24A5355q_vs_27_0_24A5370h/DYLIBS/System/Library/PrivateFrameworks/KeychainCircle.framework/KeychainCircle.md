@@ -1,0 +1,796 @@
+## KeychainCircle
+
+> `/System/Library/PrivateFrameworks/KeychainCircle.framework/KeychainCircle`
+
+```diff
+
+-62426.0.0.0.4
+-  __TEXT.__text: 0x28884 sha256:b54c04b2c56f2f3e76f02211f1baccb2f4b431bddc0aa6736b65c0b60eaedced
+-  __TEXT.__lazy_helpers: 0x1a4 sha256:97503c166729bfd71a4e656c4d33dbea25c97e3fb8687d3ad3496cbdc198c337
+-  __TEXT.__objc_methlist: 0x1e2c sha256:bc82669e1d2ac40e80a9cbf8019e72993957690f4d639ee6dce90a9987ac3d54
++62460.0.22.0.0
++  __TEXT.__text: 0x298f4 sha256:a7fcb50299eb6ad5642cf15ae2feedee2d859eca5f7c7fbed83b7dcad26ff2ca
++  __TEXT.__lazy_helpers: 0x1a4 sha256:292985ddb70dd3cb2021ecbe9385909625a6c7566fdfbded87e8159f90122d02
++  __TEXT.__objc_methlist: 0x1e2c sha256:cc3028dfe26eefd45a92fdb9b59a668d3084fa928a17558e1cf99bbd834e1b95
+   __TEXT.__const: 0xe0 sha256:66288834ff7348d572691a68f12ff3d556d603b95de4dd28464008af039730a1
+   __TEXT.__dlopen_cstrs: 0xae sha256:d55a48ccefff50afb1ddf5d6149770897191d301fdaa8c491574009a470c9000
+-  __TEXT.__gcc_except_tab: 0x11a0 sha256:fd3c18e7e90c86fdb1a783017cf4023baa7013a105d68b392544af8c84bb254a
+-  __TEXT.__cstring: 0x3481 sha256:45b7458fe49cdbe3d8892b13d69a1bfacdd35a7e90f0d05dce6446ca1270621d
++  __TEXT.__gcc_except_tab: 0x1200 sha256:ea91a14f3970666dad2bf5c7d6245b6c8f1968829f4c4659ad5aa00156b02213
++  __TEXT.__cstring: 0x35a8 sha256:958a3706bc1c056cbfcfb1ba88401cd14872d2127b31f69245d82fd157263f38
+   __TEXT.__oslogstring: 0x3ac2 sha256:195b9ade1503fb1143e4ff092d9d55810994ca516cd4bc52c4e789b8aabbff69
+   __TEXT.__ustring: 0x32 sha256:36bb4e28b778537106360fa05c7ed9c53c50a9cb18020666c47d932e659d3243
+-  __TEXT.__unwind_info: 0x7f0 sha256:508584d96639ad283ed7646165bb4fd52b806ec7035613b82122b30caf9573c7
++  __TEXT.__unwind_info: 0x7f0 sha256:a12af2d96600630b1f2692ae1a657b28a1275c2d322f5dff65c9e23206092290
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1208 sha256:e7ed525b8a4add1f531076446b9bcb5f7c1e31f215a4893c94a991e6af4cf0cb
+-  __DATA_CONST.__objc_classlist: 0xa8 sha256:54e0774b46b6819707c7a788c6d0b6561b42f86bdd193c833d69731fe45b0d72
+-  __DATA_CONST.__objc_catlist: 0x20 sha256:0a4d680ca0f41b197a0291b11c78235711dda500ca81ebb2f403f41a92830ef3
+-  __DATA_CONST.__objc_protolist: 0x38 sha256:1f9a9a005f399ee704571305a81cbe85237c05492e9829016df82adc216d1327
++  __DATA_CONST.__const: 0x1250 sha256:20b715a7c962e29e4fe837643de6a346f69a593151f2342e2f374b83d5d7d149
++  __DATA_CONST.__objc_classlist: 0xa8 sha256:c858d113d55e27eccbdba2e4506844007b11f8bbdc5f0051508e5870b2fdd67d
++  __DATA_CONST.__objc_catlist: 0x20 sha256:ead4d19e121d76ad4060a85c36f235277415690a89e2c3bc6e014187e326bc3a
++  __DATA_CONST.__objc_protolist: 0x38 sha256:212d12c92ea7bb6e044bbcbeaffb566297d6a08b25e55223b1064f4d1b26ee08
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1078 sha256:6862eafc6493d07d44ab575787dbef48cc327351398ed72057f73d88f2d21401
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:8e41feffc1e63c7046caa3d6e98c43cf761ff8494a393f6ec4f9f103a844370c
+-  __DATA_CONST.__objc_superrefs: 0x88 sha256:f044f95e5226d311d0de0eb731d49c24c7f6c4324ae19405614c510d67c0b643
+-  __DATA_CONST.__got: 0x2e8 sha256:79e61b88824d01211b15c8a3d063025148863f90e96a2870e06fc8aece059f01
+-  __AUTH_CONST.__const: 0x1e0 sha256:b2f7f2ba3ac1fb59561b4db405a76a0c70e23819185583a1e570d960e4dcc066
+-  __AUTH_CONST.__cfstring: 0x3880 sha256:e386b27acc7d547230c36e95e0e887c6a32c63b5378dda907c4b309b5903e13c
+-  __AUTH_CONST.__objc_const: 0x2c10 sha256:1184fe23297435860af2ba166f5b6bc150039fa3162e4b5f1f16ede7e5b19958
+-  __AUTH_CONST.__lazy_load_got: 0x28 sha256:2a077716ed4cdabfe05f2b30c5be7c848a081171a6255f530653a9704b5eb9df
+-  __AUTH_CONST.__objc_intobj: 0x60 sha256:94534663059756d1de0447fcf6e94baaf8ede0d70ffcd0fde69a3272e2250bb0
+-  __AUTH_CONST.__auth_got: 0x838 sha256:3bff857daf1c246b3ba79bff08805f403b65b0e2a5cffb40b078a383eb861514
+-  __AUTH.__objc_data: 0x5a0 sha256:21c301775c6bc2ee63ed488f4e1c0832faebe0535e7327a4b57805655940ad4c
++  __DATA_CONST.__objc_selrefs: 0x1078 sha256:cdb720f2cacd0497d69ab7a569e97dee9f02431ebd6a10f0f7edfd1d2d2ea922
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:bdab5ada51287a64bf99980075d85acf57fadbf4b7bd694df177501a8d519d0d
++  __DATA_CONST.__objc_superrefs: 0x88 sha256:53c7f20bbe04bab796874dcc76c63fe66f47cbe599e2396399be3e4e47487833
++  __DATA_CONST.__got: 0x2e8 sha256:6fac29a6c3a707e03b3085bad9f337c2433063fd16b3ff9940cc84c5f06f13f5
++  __AUTH_CONST.__const: 0x1e0 sha256:20fcee3d76600040cb486b39ad960a7eb0cebef86b4fb2ba48e13b43ec770966
++  __AUTH_CONST.__cfstring: 0x39a0 sha256:8740d8b0c57e06451853a1d4d9bf5c70cdf5d44fd5ee9c039750e7f5117ae7d5
++  __AUTH_CONST.__objc_const: 0x2c10 sha256:02f26febb363ab454d922851d983e1e258d05b3a5fde7a70536b77ff3999884e
++  __AUTH_CONST.__lazy_load_got: 0x28 sha256:5fcd17a56080277a05782e1ef66576bbd8fa1598c70bac8206f8e762b9cbf148
++  __AUTH_CONST.__objc_intobj: 0x60 sha256:acce9558acaf7ca18018848d5cd40b62a53f9fbec77bcf8bdc138d472e1e33dc
++  __AUTH_CONST.__auth_got: 0x840 sha256:80b67b115f8e28f3b67fddcd4cd1daac24a054603d1dd0cb13793a299a5dadfc
++  __AUTH.__objc_data: 0x5a0 sha256:f53228764fda9a88f26c48bd8fb34650ffa6e6add5c0b89ce72034ed9920f3ce
+   __DATA.__objc_ivar: 0x214 sha256:18faca9d4572a35fc650ec2830881a3e972185161daff222839491e28a7bac55
+-  __DATA.__data: 0x320 sha256:541db86e7d9a39dbe7c971cf78e0074678f348227c3091e7a0a61d582db07439
++  __DATA.__data: 0x320 sha256:6dcd0b1c1d3635bcab82c3fe442322233f89cf2f2e74ffc8f223a4221f930e37
+   __DATA.__bss: 0x140 sha256:7b6436b0c98f62380866d9432c2af0ee08ce16a171bda6951aecd95ee1307d61
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:1dd2fed7e3569936648e6f7803f8fe50ebdc3d3aad77fa1cb005d8d38d86bdff
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:8f4fb28f82f06a68e34c3b154b5ea11a9456ce5f1c7d1d3b9aa5a89c687bd348
+   __DATA_DIRTY.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AAB86FF3-5F89-3E70-AC02-7B3276227D01
++  UUID: BCB72C06-1D53-3B77-9D7E-3A3B6A29D1B6
+   Functions: 779
+-  Symbols:   2991
+-  CStrings:  1228
++  Symbols:   3001
++  CStrings:  1246
+ 
+Symbols:
++ __OctagonSignpostLogMetricDeltas
++ ___Block_byref_object_copy_.969
++ ___Block_byref_object_dispose_.970
++ ___block_descriptor_104_e8_32s40bs48r_e17_v16?0"NSError"8lr48l8s32l8s40l8
++ ___block_descriptor_104_e8_32s40bs48r_e37_v28?0B8"NSDictionary"12"NSError"20lr48l8s32l8s40l8
++ ___block_descriptor_112_e8_32s40s48bs56r_e20_v20?0B8"NSError"12ls32l8r56l8s40l8s48l8
++ ___block_descriptor_112_e8_32s40s48bs56r_e29_v24?0"NSArray"8"NSError"16lr56l8s32l8s40l8s48l8
++ ___block_descriptor_120_e8_32s40s48bs56r64w_e28_v24?0"NSData"8"NSError"16lr56l8s32l8s40l8s48l8w64l8
++ ___block_descriptor_144_e8_32s40s48r56r64r72r80w_e17_v16?0"NSError"8ls32l8r48l8s40l8r56l8r64l8w80l8r72l8
++ ___block_descriptor_160_e8_32s40bs48r56r_e17_v16?0"NSError"8lr48l8r56l8s32l8s40l8
++ ___block_descriptor_176_e8_32s40s48bs56r64r72w_e20_v20?0B8"NSError"12lr56l8s32l8r64l8s40l8s48l8w72l8
++ ___block_descriptor_176_e8_32s40s48s56bs64r72r_e20_v20?0B8"NSError"12lr64l8s32l8r72l8s40l8s56l8s48l8
++ ___block_descriptor_192_e8_32s40s48s56bs64r72r80r88w_e28_v24?0"NSData"8"NSError"16lr64l8s32l8r72l8s40l8r80l8s48l8s56l8w88l8
++ ___block_descriptor_192_e8_32s40s48s56s64bs72r80r88w_e28_v24?0"NSData"8"NSError"16lr72l8s32l8s40l8s48l8r80l8s56l8s64l8w88l8
++ ___block_descriptor_96_e8_32bs40r_e17_v16?0"NSError"8lr40l8s32l8
++ ___block_descriptor_tmp.1530
++ ___block_descriptor_tmp.1597
++ ___block_descriptor_tmp.1639
++ ___block_descriptor_tmp.1672
++ ___block_descriptor_tmp.71.1591
++ ___block_literal_global.1196
++ ___block_literal_global.1493
++ ___block_literal_global.1558
++ ___block_literal_global.1637
++ _apply_block_1.1537
++ _apply_block_2.1569
++ _kSecurityRTCEventNameTDLDuplicateMIDRecord
++ _kSecurityRTCEventNameTDLDuplicateStableID
++ _kSecurityRTCEventNameTDLMembershipCheckFailed
++ _kSecurityRTCEventNameTDLMembershipMultipleRecords
++ _kSecurityRTCEventNameTDLSilentDrop
++ _kSecurityRTCEventNameTDLStableIDDivergenceDisallow
++ _kSecurityRTCFieldIsDemoAccount
++ _kSecurityRTCFieldLookupKeyType
++ _kSecurityRTCFieldRecordCount
+- ___Block_byref_object_copy_.967
+- ___Block_byref_object_dispose_.968
+- ___block_descriptor_112_e8_32s40s48bs56r64r72w_e20_v20?0B8"NSError"12lr56l8s32l8r64l8s40l8s48l8w72l8
+- ___block_descriptor_112_e8_32s40s48r56r64r72r80w_e17_v16?0"NSError"8ls32l8r48l8s40l8r56l8r64l8w80l8r72l8
+- ___block_descriptor_112_e8_32s40s48s56bs64r72r_e20_v20?0B8"NSError"12lr64l8s32l8r72l8s40l8s56l8s48l8
+- ___block_descriptor_128_e8_32s40s48s56bs64r72r80r88w_e28_v24?0"NSData"8"NSError"16lr64l8s32l8r72l8s40l8r80l8s48l8s56l8w88l8
+- ___block_descriptor_128_e8_32s40s48s56s64bs72r80r88w_e28_v24?0"NSData"8"NSError"16lr72l8s32l8s40l8s48l8r80l8s56l8s64l8w88l8
+- ___block_descriptor_64_e8_32bs40r_e17_v16?0"NSError"8lr40l8s32l8
+- ___block_descriptor_72_e8_32s40bs48r_e17_v16?0"NSError"8lr48l8s32l8s40l8
+- ___block_descriptor_72_e8_32s40bs48r_e37_v28?0B8"NSDictionary"12"NSError"20lr48l8s32l8s40l8
+- ___block_descriptor_80_e8_32s40s48bs56r_e20_v20?0B8"NSError"12ls32l8r56l8s40l8s48l8
+- ___block_descriptor_80_e8_32s40s48bs56r_e29_v24?0"NSArray"8"NSError"16lr56l8s32l8s40l8s48l8
+- ___block_descriptor_88_e8_32s40s48bs56r64w_e28_v24?0"NSData"8"NSError"16lr56l8s32l8s40l8s48l8w64l8
+- ___block_descriptor_96_e8_32s40bs48r56r_e17_v16?0"NSError"8lr48l8r56l8s32l8s40l8
+- ___block_descriptor_tmp.1528
+- ___block_descriptor_tmp.1595
+- ___block_descriptor_tmp.1637
+- ___block_descriptor_tmp.1670
+- ___block_descriptor_tmp.71.1589
+- ___block_literal_global.1194
+- ___block_literal_global.1491
+- ___block_literal_global.1556
+- ___block_literal_global.1635
+- _apply_block_1.1535
+- _apply_block_2.1567
+Functions:
+~ -[KCPairingChannelContext isEqual:] : sha256 c28c845dc5bdd6c3d7225689168b503d675e0b79327064267ecb4415e51d3104 -> 44673f5d6956bbbf68ac8032de0a342dcca9c0d1a8a574198c4f02bf72da1226
+~ -[KCPairingChannelContext encodeWithCoder:] : sha256 177abcefbdf905844ae5e5197ddb54fb999ffddeaa6d7e23f2c3ee0d69b005e9 -> de9f8079b1545d1aa8a1488338957de1dee1277b56d780a9d8cdeea1f8bca4f5
+~ -[KCPairingChannelContext initWithCoder:] : sha256 d57cd8f8c528562c1215bf9cd7749358b360baeff25c329125dc2ca1cbc18e42 -> a6ee7953180647c81ae00e3e7c9ec08dd5190085e20c735280a607bfdaa617a3
+~ -[KCPairingChannelContext setModel:] : sha256 837dcafa070d0d9c6788a5de228788c5c6aa1a86e2114960b798c0d4f0ab6014 -> d0c260743ad641e6a189fb1b7926d91c1e1e367889b6b5d873452f6f383ebb02
+~ -[KCPairingChannelContext setModelVersion:] : sha256 13fe0adfc2b1efac5c06922cb7a2c44112c9bd446be363984638ee4578c670a1 -> 889400833d8b973fbc6c830722d75777c48526b8a89e2cd9d600202d59c234c6
+~ -[KCPairingChannelContext setModelClass:] : sha256 49f41b5c3179326ac5535f895a3439a30488c141f011a3fbcf3c1932630bf0f1 -> 15c4ebe986763804d049436aebdec64299f0d79563314c3facd48ba4f0dbe49f
+~ -[KCPairingChannelContext setOsVersion:] : sha256 14079e0215b4e04592e115290eb8a5ac79e0e706f50aac2d00e73f61d14ce32a -> 46cac4ceee76956bc7b1b2079cc01dd72a374ee23e98ac096d553e863dcd5013
+~ -[KCPairingChannelContext setUniqueDeviceID:] : sha256 990d03ef0571f040f99493be9bb1f65bb5d0b3a758b2fb7fb0374aea021544f3 -> 355214f55a37b535c95e97ed256adced1a7eb9d0ee8d91c1e4b7992bd66ffd2c
+~ -[KCPairingChannelContext setUniqueClientID:] : sha256 c75baaf94ffb64d06b3167b5647dc907703dbad6cc11948ca57399cc11e3131c -> 5e1d438f2f9de840fb81d13f8b4f4e5531296d6df0eac33b733c27ed3996f994
+~ -[KCPairingChannelContext setAltDSID:] : sha256 6c6c1dea892a13c61ff3aa7878daeecc5002b93aac6ef14fb456bdf90875ba0c -> 86b3aff9ec2a250822b3d00b84b612410772f4d8ed206b0c952326320d4618ed
+~ -[KCPairingChannelContext setFlowID:] : sha256 ccb70a88bc088369ee5d5af55aabd55b35254829c1f00cde5e0cd60f2ee00ea6 -> 2724b233788324f0852b785bb6857736cf75e3f68f598694cd96282e5e79eef3
+~ -[KCPairingChannelContext setDeviceSessionID:] : sha256 c26f104fa89dfd8974942dec37a0ee3a292985ecdb11ce6b3cd7c10738d74269 -> 142bccf129c953cd288a7d853c8c27fc5fc0d7b76f01602b15ad8f3fabe145ea
+~ -[KCPairingChannelContext setIntent:] : sha256 2067e452f112f3c720f804a64dce95c32ae1367a4901d841afd4c0e60d19b10f -> df83a816d2673a9c08f18c5e219f5643500e8e987cc8722e1739bfebed16254c
+~ -[KCPairingChannelContext setCapability:] : sha256 ddd8122152c39b66d18062f966d0a2ce48e875634f8ac4d14a8643e4a51bff80 -> db6eb3296942349b83261e9a622b218f2e224c7e9b2d38084c10fb21c346e143
+~ -[KCPairingChannelContext .cxx_destruct] : sha256 765929035127ed36d72e894d2dab695c753f9bb55c8365e1e635943e89e9ab9b -> 163ce559086fac2e4603ac11d330d60c910a0e0cdfffb9cb888ed4800bce2bf2
+~ +[KCPairingChannel pairingChannelInitiator:] : sha256 854f1ce81e4d4125655c39d0767546cc7f75e92faa66790b32cf3494bea28521 -> 19d8f1d5d6fb08d8f8ed0fe5ff0e8df1876f691c2e2441147004794a7b7f1e06
+~ +[KCPairingChannel pairingChannelAcceptor:] : sha256 5b9247295a8b8de0d078b3c690d5445ea6ced4f18671395e08f8fb01a45e528d -> 30b77ea3d7a07950870a559cb6dcaf275be4b44121add40ed6b1b6959aab8415
+~ -[KCPairingChannel initAsInitiator:version:] : sha256 7c10df7ba991d44575daf32e70468d7806a7fa10a8f880d7510c1b31efc272a5 -> 816d6eb2df772e3f90d9ac59e19ee9ed79407e85eb469034e29210588bada600
+~ ___44-[KCPairingChannel initAsInitiator:version:]_block_invoke : sha256 74301c987d3cb3e9f6fcccb22f3aaae1b290fcf77bcc441d3e9c6efd6a2e1f64 -> 03708ed1a8e339c6cffc1a3f98331d23478d80e8d0c0ac78ee43b8cbf7d194f5
+~ ___44-[KCPairingChannel initAsInitiator:version:]_block_invoke_2 : sha256 182ca4132264e46fcab94db4fa77471e7da61ea1e6ff895d351a9d13cac3334e -> 66fbe83a52f63f33fccec8ae577e304cf9b43977efe9bdfc17d4fbc0d690e043
+~ +[KCPairingChannel _isRetryableNSURLError:] : sha256 b6e30ba9ddfcec6ca75c3d13339ea0ee3e0210ed72d1af02cd69d310bfd03b84 -> 901bd919850385e9152ac4be7413fe7cc5f9ad8092598d0e7658a9d466954db1
+~ +[KCPairingChannel retryable:] : sha256 7b503d72c1895a2b5bd68cd989954a1f7ee1e304b32c2b7b22b594d8b4e69464 -> 00fd0e345a0b321418cf0e7d6fd3e20cd5cc6e8d010dbd2e469765338b1e8ca1
+~ -[KCPairingChannel oneStepTooMany:complete:] : sha256 4898e8089a1d3f07d3d26e2f88dc074a69187ce02f80bae21c02d738de736938 -> 45988cf00603db899cbf16bd8e47d9b5e2e6d0c821923a01f7e1cb5a936d2c17
+~ -[KCPairingChannel setNextStateError:complete:] : sha256 8472ea93ff58b5bf39da989b75129d7971851af12d1bee29fb1b37011296439d -> 4edd41566e7dc4c0db8a7c4d463e4d76e5d32735c9689cbd92da065386145a9c
+~ ___47-[KCPairingChannel setNextStateError:complete:]_block_invoke : sha256 a8075b383c549664069d14ade92cb385ba43eff7fdb6ac89f43692482edb95b9 -> 6dad774355f96ce4434e3f38d9863c4aa9501a49b869958bc69df344937bd24c
+~ +[KCPairingChannel pairingChannelCompressData:] : sha256 b3efe0d86dedf2ad411ebea5a3e8c66b95aa5860533430c72e767afedb44229f -> 87dfcf7af5b1740529d8af5ebe08e1d7c77881a19d59fd3cb621944feaccbc70
+~ ___47+[KCPairingChannel pairingChannelCompressData:]_block_invoke : sha256 77124a8061d2dd1dda58560585338e76d9db38af0fc9d67ad6026408512ff0f1 -> cd01b7a0a44552b0eb072bb3f5ce68e9d117d7f0d97fe0ffb299aef92e16ddef
+~ +[KCPairingChannel pairingChannelDecompressData:] : sha256 5b866cf907ff60d10ec8c98ad73af87da93d3bc50a30ebd959e20eb17aa2fd0a -> 1934f4d9cef14f0051fa15dd8bff361367914f5ee7f2a4e92ec72b7b320b301c
+~ ___49+[KCPairingChannel pairingChannelDecompressData:]_block_invoke : sha256 b0763334c34f750cf9c85b75adf9e0d4e7d3880284e9e0110929f5f884a1c94d -> 013a39b640446c29ef9a0cb92f36dd4524d1fb0335352d6f567293aeaab66835
+~ -[KCPairingChannel waitForOctagonUpgrade] : sha256 546a698c0067f2f6a3e9853bc393fa911c0bafccc389a44867089846140e3252 -> c16cd134832bf311fa6edafc64ae80c449421d9c2bede0c36aeb049ff2d757a5
+~ ___41-[KCPairingChannel waitForOctagonUpgrade]_block_invoke : sha256 156d6e9e236339fe0434e5cbe75fb41c19abd08ad2108d6b119b03325263c322 -> 660617de2b5dfb9001e260c3328123104b84710131097f8eda8382dfd7fd57cd
+~ -[KCPairingChannel initiatorFirstPacket:complete:] : 3624 -> 4052
+~ ___50-[KCPairingChannel initiatorFirstPacket:complete:]_block_invoke : sha256 d699f95d3b5d5bfe2e5325f4b6a29eb94f0c87450135ac0a8c32929d77cf9646 -> 83137ebeeef1153ac0a11068029a16a2969d7635a53f481356603ce7769a9e52
+~ _soft_SecureBackupIsDBREnabled : sha256 28c0c2abe2041134ad6db3c0bc7e01a6a224b51a63370006b88a577b9d8e5d00 -> 315869c7e98be551b4001838802480e6ef14a5e2e36aa61bbd525c4e1414a90c
+~ ___50-[KCPairingChannel initiatorFirstPacket:complete:]_block_invoke.222 : sha256 e517d11b0f609a21fcc77bb39714fd64159074c64d7c98f5d306153ca9dd6514 -> 4d1628f706989fc88514aeaec728a7f377206297052df26a938c2612727a9434
+~ ___50-[KCPairingChannel initiatorFirstPacket:complete:]_block_invoke.223 : sha256 892ade29e9debbbafea0afe05790b42d795febc05f9d3124feaf1744118780f1 -> 16ac75d3c512f8a78c4366dc4c5139c710faa5e251a0ab182a3297705f8056f5
+~ -[KCPairingChannel initiatorSecondPacket:complete:] : 2244 -> 2392
+~ ___51-[KCPairingChannel initiatorSecondPacket:complete:]_block_invoke : 652 -> 756
+~ ___51-[KCPairingChannel initiatorSecondPacket:complete:]_block_invoke.224 : 1116 -> 1260
+~ ___51-[KCPairingChannel initiatorSecondPacket:complete:]_block_invoke.225 : 440 -> 496
+~ ___51-[KCPairingChannel initiatorSecondPacket:complete:]_block_invoke.227 : 440 -> 496
+~ ___51-[KCPairingChannel initiatorSecondPacket:complete:]_block_invoke.229 : 440 -> 496
+~ -[KCPairingChannel initiatorCompleteSecondPacketWithSOS:complete:] : 964 -> 1048
+~ ___66-[KCPairingChannel initiatorCompleteSecondPacketWithSOS:complete:]_block_invoke : 368 -> 416
+~ ___66-[KCPairingChannel initiatorCompleteSecondPacketWithSOS:complete:]_block_invoke.230 : 856 -> 916
+~ ___66-[KCPairingChannel initiatorCompleteSecondPacketWithSOS:complete:]_block_invoke.231 : sha256 40f6bfb800fe1f0983c3423a29a21c042b8c1b5556995472fa6f7b9498d1c3ea -> f04c0ef0d0d8b0a6dba6708cd7e61abd05a14f482507b4cd43df168f4741270e
+~ -[KCPairingChannel fetchPrepare:application:error:] : sha256 30959aed4eeb3c183ab144f041261c8261751f3431bf4164e5d6227319b01307 -> 5bb8274860bc2a892a3ac7bf9bf12fc40eae3954023b080b8ae879642354f903
+~ ___51-[KCPairingChannel fetchPrepare:application:error:]_block_invoke : sha256 6b9f0d83f914d7e05cc717646cc89b589176565615799ef30ecb0a8d5d10c6a6 -> ace5cd217a4a372537f97a1f5e7044c37adf392a2ab328c38a3102c2516781bb
+~ ___51-[KCPairingChannel fetchPrepare:application:error:]_block_invoke.237 : sha256 604f9a06f4dbe0dd393927229bfb591fad32bcf5968ae3bbfde94ed01354c9ad -> b7c8da8859481116c7ab58d48fe4379dcf2d9e581917669c3a1c7d231ffa98e0
+~ -[KCPairingChannel initiatorCompleteSecondPacketOctagon:application:complete:] : sha256 eecb72d0ed32cb48c92283b869cfab33ee0a82b77e0909d972f788bc3d1eba35 -> db4218fe75aadbc59d6a3dae50a13c38e331511b5ebc47682eb3c31713990ab9
+~ -[KCPairingChannel join:voucher:eventS:setupPairingChannelSignPost:finishPairing:error:] : 784 -> 792
+~ ___88-[KCPairingChannel join:voucher:eventS:setupPairingChannelSignPost:finishPairing:error:]_block_invoke : 2040 -> 2296
+~ ___88-[KCPairingChannel join:voucher:eventS:setupPairingChannelSignPost:finishPairing:error:]_block_invoke.241 : sha256 35e693faf0630a544abe6e0010da6c4e3b31aa4c514c220f99f7ad24e965f7fd -> 7b3fded0faff87b187ce7c31582eac04b19d8aa8c510e83ac11d370edc76c36a
+~ ___88-[KCPairingChannel join:voucher:eventS:setupPairingChannelSignPost:finishPairing:error:]_block_invoke.242 : sha256 5c0c56a93fc51ebb52307c09243cfb60896dfd1032fbfe18b0d5c797ac811b23 -> 5e3a9f3af9955b38c3b181dd887eaea5a44198e4749afc01b360b243a1d9af08
+~ -[KCPairingChannel initiatorThirdPacket:complete:] : 3584 -> 4008
+~ ___50-[KCPairingChannel initiatorThirdPacket:complete:]_block_invoke : 652 -> 756
+~ ___50-[KCPairingChannel initiatorThirdPacket:complete:]_block_invoke.243 : 2572 -> 2852
+~ ___50-[KCPairingChannel initiatorThirdPacket:complete:]_block_invoke.244 : sha256 f32a636e45848df44860a82d2153a1a3bc750aba593352b7160f06bd553139af -> 5a2728f571e605283d2dc40c26b7325e219138ba0c1b0132f3baab281b82c52e
+~ ___50-[KCPairingChannel initiatorThirdPacket:complete:]_block_invoke.245 : sha256 a6b061b8b7dad9765e957f5f16cbe06b98d25910e5e980c4fe9966b49c9cc191 -> d6b5525a37b79afd2efe81c0b5ff1436560b5511a0e49c2c176330de06beabb6
+~ -[KCPairingChannel initiatorFourthPacket:complete:] : 2100 -> 2232
+~ ___51-[KCPairingChannel initiatorFourthPacket:complete:]_block_invoke : sha256 f97afed13d77cbaa89788c9368b534425de2c2c6bb32af0bfb6482804d67a8b2 -> 7993e140fa660e17ab8beb7f96deada09b9e39c0a65a9f7f81c335607b8c2aa2
+~ ___51-[KCPairingChannel initiatorFourthPacket:complete:]_block_invoke.247 : 384 -> 440
+~ ___51-[KCPairingChannel initiatorFourthPacket:complete:]_block_invoke.248 : 1264 -> 1376
+~ ___51-[KCPairingChannel initiatorFourthPacket:complete:]_block_invoke.249 : sha256 7598e5bae379476b0077a721acbd2adab681a8ad398cd57b4e542721e7a353b2 -> cf4ae4eea070d85ff43e14942d1b46d5b328c5cd42b11e4242bada96e851bb3f
+~ -[KCPairingChannel initiatorPCSDataPacket:complete:] : sha256 5fe86dcff4e229c5df549fa25a9eba90efef0827942656dd1ddda3ee788d2fe7 -> f5c8d82b2adc6ae4b9c6383b414f53bafdd38d7672e4376ba217e1cd77a42331
+~ ___52-[KCPairingChannel initiatorPCSDataPacket:complete:]_block_invoke : sha256 bd6f8aff4702075c253e6e0a2d17f2b8b048711230986f08dd21cb60b0b33da8 -> 1d70a7662094b46cb911e655d6ff9903a1aa78b83cc89575f07e3879558ca5b7
+~ -[KCPairingChannel acceptorFirstPacket:complete:] : 4248 -> 4596
+~ ___49-[KCPairingChannel acceptorFirstPacket:complete:]_block_invoke : sha256 70fb0a49f9483bf4e2cd91f88412256b49a9088a124dac290b45d8d5f2e28350 -> 20adb6818f43382ccd4f774f8e12cfcad55d32835a5638bc09b045fc9d8384b8
+~ ___49-[KCPairingChannel acceptorFirstPacket:complete:]_block_invoke.274 : 652 -> 756
+~ ___49-[KCPairingChannel acceptorFirstPacket:complete:]_block_invoke.275 : 1884 -> 2096
+~ ___49-[KCPairingChannel acceptorFirstPacket:complete:]_block_invoke.276 : 440 -> 496
+~ ___49-[KCPairingChannel acceptorFirstPacket:complete:]_block_invoke.277 : sha256 448ec2cf0a608f5e82839d6125e33dc6c5a2fe4a8c5b23649bc74205fb478371 -> 49ba5c225be8e2000b19c2dc1ce7aafbc6bec91bb7b224a9c6fcd9a664694783
+~ ___49-[KCPairingChannel acceptorFirstPacket:complete:]_block_invoke.278 : 440 -> 496
+~ ___49-[KCPairingChannel acceptorFirstPacket:complete:]_block_invoke.279 : 440 -> 496
+~ -[KCPairingChannel fetchEpoch:error:] : sha256 aa49ca8d7ce53ebd385c975e22fbbd083712c9c3b42e61f476dfcb3ae162e7d2 -> 64d711c55e81997b5cc88b2de9064f23145a607140cbbe7cd3b0761c504ca54f
+~ ___37-[KCPairingChannel fetchEpoch:error:]_block_invoke : sha256 15440e1247916cb73610a101b22bac722230288e12a54c609f54b23a619967d7 -> c08f6ededfc247577ed75638289e1e648dbe186e20a34bd02ebac5fc94dff565
+~ ___37-[KCPairingChannel fetchEpoch:error:]_block_invoke.280 : sha256 ebbd98b9dea6ce45bfd9e1578a60f8f572f89be43a547d1f008c133d5172e155 -> 44605c69bdafc18a2566a559ba4f9ad7b488c29ba6a2a6c5c2ff7d716acf377b
+~ -[KCPairingChannel acceptorFirstOctagonPacket:reply:complete:] : sha256 c108e338e77d3de09f8b8915a57a0f3a83ee0f39f8e652ef8e0ce046153d4943 -> af9e20bf005b54f6816f14c764d5040e4e77f6cfba0b162604014d8f81558ae0
+~ -[KCPairingChannel acceptorSecondPacket:complete:] : 1888 -> 2076
+~ ___50-[KCPairingChannel acceptorSecondPacket:complete:]_block_invoke : 652 -> 756
+~ ___50-[KCPairingChannel acceptorSecondPacket:complete:]_block_invoke.283 : 1680 -> 1868
+~ ___50-[KCPairingChannel acceptorSecondPacket:complete:]_block_invoke.284 : 440 -> 496
+~ ___50-[KCPairingChannel acceptorSecondPacket:complete:]_block_invoke.285 : sha256 4cb0c70a1972fa7544989ea1743585b46ab74baf4e8ca121e4f565d1131e580e -> 2f0432705dc7937a584b3cbe4aceaac1efae350af359fb0f8688f5a0672f6338
+~ ___50-[KCPairingChannel acceptorSecondPacket:complete:]_block_invoke.286 : 440 -> 496
+~ -[KCPairingChannel fetchVoucher:prepare:eventS:finishedPairing:maxCapability:error:] : sha256 cfacbd7015a7e4ab315bf14ead45f6b1fda14b6a62b09b545c5ff7451744c5ee -> d477d6a55d4ea7cdaabab3b364b51656bf10bcdffc80362c5645638eae54126f
+~ ___84-[KCPairingChannel fetchVoucher:prepare:eventS:finishedPairing:maxCapability:error:]_block_invoke : sha256 e1db8e5ef4148bdb18854e80a80c3c23932290109036a7fa89f7667306a8ce23 -> 121761b21ecb129fc0230421ce1a72c9ce1ef68962f42d951a41ca58ae2bc2c6
+~ ___84-[KCPairingChannel fetchVoucher:prepare:eventS:finishedPairing:maxCapability:error:]_block_invoke.287 : sha256 73bceb670c010b3698216f498e22f9fcb1462f1e9df9775849d2b4906118f6db -> 1a12c76e2713ec38c618e9bbac3460ce10aea81690e49f698408d927a7aeb62b
+~ ___84-[KCPairingChannel fetchVoucher:prepare:eventS:finishedPairing:maxCapability:error:]_block_invoke.288 : sha256 d9e1bcd623c38eac8a9c945356a958f21ce67cfad2ba81b853b542b6ae8c7f58 -> 582ff9131da9fc741087a0484f8453189a20628c8fec40ca16d79d42c29c7417
+~ -[KCPairingChannel acceptorSecondOctagonPacket:reply:complete:] : sha256 41c871717d0b2052093158641225055e6f4b14a27f2f1dad720c5a276bd304f0 -> 9d430462387a5b8c28269b3ddbd4702f92720591136b15d056e56e5103039b50
+~ -[KCPairingChannel acceptorThirdPacket:complete:] : 1100 -> 1180
+~ ___49-[KCPairingChannel acceptorThirdPacket:complete:]_block_invoke : 384 -> 440
+~ ___49-[KCPairingChannel acceptorThirdPacket:complete:]_block_invoke.291 : 952 -> 1008
+~ ___49-[KCPairingChannel acceptorThirdPacket:complete:]_block_invoke.292 : sha256 035ad7fbd06ba34e2d9fe893b4db25a1803566f7e7995206076603f1ac2e568f -> 9c9c1dccaca162bcd3bd43702770f2ba7f83fc471ef2d1174d6db69f3864029a
+~ -[KCPairingChannel updateItem:] : sha256 82358f6f3131e538655c2ba410cbccd9ffcffaa868a4fb1dca29d9a0e2b65f87 -> 21c1bdead3a47a60a9462d589a4b9cdae417a242b892f0ca256f9ac9ddd6d15d
+~ -[KCPairingChannel isPacketSizeAcceptable:error:] : sha256 21698421e7cdf994826861ca3e7787fe2ac4af711cb0a4a5295161cafb343c22 -> 23ade1439e97366efc4f916248cf1af697586ba49f7cec6a483969237931ad05
+~ -[KCPairingChannel createTempPacket:pcsItem:octagonData:keyForItem:] : sha256 40c8fa25d806c4070ec19625ac72fd37bfada2c0916bf3e41b6efd49873c28c4 -> 5ab8b2c35ebdec494cccb17ff516f9be45705c9a3d806eb2dc0fe9693c19e717
+~ -[KCPairingChannel createTempPacketAndCheckSize:pcsItem:octagonData:keyForItem:error:] : sha256 c45fe918ad2c4a20f5dc28bbdafb4693de55ea570098da4d5542fbdb8e99aaaf -> 08f4e300c04c7519a53f387ee4750cecf8f1dfad00f60fa0492c6bf5a1b5a4f8
+~ -[KCPairingChannel fetchItemForPersistentRef:error:] : sha256 b2f089cf2be8bb318436044ff4755a8f295bafbc88cc6b6ee6df9f30cf34af38 -> 0ba9aac243b17badf16925b982d2e474b6fff754a24a72927b48f0ab2555e943
+~ -[KCPairingChannel createPacket:results:endSession:] : sha256 d0a2ecae2cc38272533578f034f4546661ec30ebff53438d17fd90f23c3d4f3f -> 76946eae6ebf6a6dc8813f6b509626a635791b004fe85541cd6473ef70a8a1c8
+~ -[KCPairingChannel copySubsetFrom:begin:end:] : sha256 4ac1b82db91fb1b16e51e93deddb838a70939313a83a86c263b09be9d3af3e8c -> 5707b5bff80fdcd54845e8dbe97f3a0894d7857d070006cc4fea0b83677569ca
+~ -[KCPairingChannel evaluateResults:] : sha256 47cf2cad6412d9410876369fcef638561087ff4f97c8963b07d965affbcfe564 -> 1ffbf94bdf31d4455d3446ddd1336aefb58e3f6de1d3bb598dad2d29a79ba5ec
+~ -[KCPairingChannel fetchPCSItemPersistentRefs:error:] : sha256 53c0714dd87e5c1a2d1f14e4d9edbc0e8e3e4d9f77f29575265d877565bbde72 -> 56483718e206bcf78949e0e6907c938a99156788186ee7cc053e8607e06df680
+~ -[KCPairingChannel acceptorPCSDataPacket:complete:] : sha256 c2084a0297401ae9820b6bc7ed37ed263a77db0a8ae44b0d5a8a9ba031c35724 -> c07c4580d60a31439853450b99355d4dc503687044e54f55ef131faa5d694ce8
+~ ___51-[KCPairingChannel acceptorPCSDataPacket:complete:]_block_invoke : sha256 f7d913d75304c69e596a38da8812e213809e0a3a3edb99b1efaabb5461541e3d -> 66d2516a7f8d3b85f687211285042238e2813b7df832e595870fd255301cc626
+~ -[KCPairingChannel formNextPacket] : sha256 487beb9e0475c49d93c4cd2dbf424a8fb80ec7d4b29840aa68076a19475c7fa9 -> db7d3635fff7f9c48b7529a15cb8bc8f555953dd48e0959d640f1517720d8551
+~ -[KCPairingChannel acceptorWaitForAck:complete:] : sha256 9367f1ef3037b021b65ed35b276dfb7e3db0f9071d9140dfa2c7ac9ba5a8e50e -> dea1248dc20c80ac3d469df82e715b6478900d24882cbcdd540b9f1fb711a92f
+~ ___48-[KCPairingChannel acceptorWaitForAck:complete:]_block_invoke : sha256 bca25fa3ffe3957102212723f4fd400c769bf6d5b26e242767cb964eb4244113 -> 139e6297fed35ce025bc4d1c8856846d875ddcdda0a36fd3ad474531c8e324f5
+~ -[KCPairingChannel ensureControlChannel] : sha256 0c0b34d546e9033c4da7a7baff02c0e91a411e8726f8ddf3103a05f414edfc18 -> 0fdadfd8ebebd96cf9516d10027135be0cdd0c897660845055e754fa868fc14c
+~ -[KCPairingChannel validateStart:] : sha256 e3727b863a4f0befe884cfe181e8cfc17b741d5d936a5b1e04ffbe16cbf6fdd5 -> d2540471813524243b1c706cc5fa7c540cb02098946643ecfa5b20cac0d2cbcd
+~ -[KCPairingChannel exchangePacket:complete:] : sha256 eec043046ccccc8492e04367134402d5edb7005d71a6a0abb33655235b614102 -> b5242ff621146882b1059278e415a1b9edbb6b7b7aede95a9130a006835dfda2
+~ ___44-[KCPairingChannel exchangePacket:complete:]_block_invoke : sha256 b98f0abe7468ea7828cf14c917d1b97d8dea78b5cb079d1882b87b05aa82771f -> fe5e8c19355d4e158a0a897348c87df6b3cb956af521bf2b0d76f4cb3fe77096
+~ -[KCPairingChannel exchangePacket:complete:error:] : sha256 428d4f1856b7377e57e6b3b691d25bc60d33bd6e97c48c0ebb1c3657e8c99bef -> d83c6e89b38f97bcfd35cb2a505501441f9390f1eecc4641210531f22f808746
+~ ___50-[KCPairingChannel exchangePacket:complete:error:]_block_invoke : sha256 fc64747d6340d66e1589fa40a96579a8253f020f6b51a568554d44361a691b81 -> 77e38e4c9a5deb5c25ee44cc48dc9d3976490ea7d2fa4431c4de734e28bc8b46
+~ -[KCPairingChannel setXPCConnectionObject:] : sha256 41e574819754ddd3a3d1b82756aae38070df4ecc99004fa9f9a4a8f93cb885c3 -> 8680f51876ee2dcc5b557978086c019d985668bfe7a84a2c3a2a9c7f54b7dfac
+~ -[KCPairingChannel setControlObject:] : sha256 bb9dbc8c38f1b4b529e7f840da0a5ebc8bce88400f97bf254954257d512eb592 -> ff5c6bc90cd02437d3bfa7c2d3d9ff28989881fa7080a2a8a7292b7e97e2fb14
+~ -[KCPairingChannel setSessionControlArguments:] : sha256 92dd0c1aa6913d1c23762b2445863d9f280aa26bcbae1a8ebe30a280cf2b4220 -> 1b093ec47105e039994f04da142c8d6f0d7fcd621944f6a3f599b31ee5e5f4e0
+~ -[KCPairingChannel setConfiguration:] : sha256 97ae741000b0ce3943270443ae9ad256cba4228f6bba4eb376771318d69a18eb -> 0613ecd882b94609b58e1539d1b605122e1676f285bbd878a65f7028e490b7f3
+~ -[KCPairingChannel setSOSMessageFailForTesting:] : sha256 0fca25a5d17f7ed9d14fe55d230fc5773bb0601fedc100d90fa57257c4fe25e8 -> f773249636c17ad0d8f69458882df39998b1d3b4b705a43eba4f43f43aad7637
+~ -[KCPairingChannel setOctagonMessageFailForTesting:] : sha256 80c10615f587996324cbee73fe3324db41ca7ef1d0990d1b20097987291aca65 -> ef614567e739f2c45e831601958020f06085b0ae7b097d734474491cdf7338ab
+~ -[KCPairingChannel setSessionSupportsOctagonForTesting:] : sha256 8942053449f9001a3fd13c690c082c42b8eb42e95b8758ce2bf95a8efb94bee1 -> 4a0ade79fc6d88c8a2b17b7acabcd9471b4db2f908d6a51cff78dfc6ba5e1d76
+~ -[KCPairingChannel fetchAcceptorWillSendPCSData] : sha256 2136bd6340dcb955aa31bf2575cbde93cbfca2d6b4a9e4839e81e26ce7d32d81 -> 63b7d6e2c9e8c1702abd43ee4bb8e7a697eac60f3ab31eb236aaf4a029e1afb8
+~ -[KCPairingChannel setDSIDForTest:] : sha256 7aef1cec8a00ef9e6fadaf4c850b49feb2fcad237dae537dd9c8755c69eb1da2 -> 924f8e215ddc1d3147329b869e8d567d9a193f297b9ba0cfedb87512a98b6214
+~ -[KCPairingChannel fetchCountOfReceivedItemsForTesting] : sha256 71a683240e4111880c639f1f2333d6719664985cb7b95ce82db333ce1d0229a2 -> 83d8586c71ad31e20b966ebb361a374c9d4785055d1c4de1cd54ba972eea350d
+~ -[KCPairingChannel fetchCountOfSentItemsForTesting] : sha256 52bcb913ecbebe7533a629237f26b8f4257dd87171a1f4e30bf7855b7e7670ff -> 78a4e8f0f13bd0b460de452e2dcd9475d4382a3f921fe4102c4d1e2abbd3319b
+~ -[KCPairingChannel populateKeychainWithEscrowIdentity] : sha256 05967562909eb04dee4d428fe70e4e9f18e4499d803fc95696ee472f52289f35 -> 930f5a930056309831821b510476ef4f165f4cfbd1b635d678510452ceff1c66
+~ -[KCPairingChannel populateKeychainForTestingWithNumberOfKeychainItems:] : sha256 c16ffa06d172b5d05cc499ab12ac78555953f598c3b41f5aca53d01e3f597aa5 -> cd019a8adf1c287e614c67ac7345e41e9c827210d729f13eb9628a2da2c1bd8a
+~ -[KCPairingChannel populateKeychainWithLargeItemsForTestingWithCount:] : sha256 8afce370a9461bd4853e2920f618b7a6c580cd529f62b31fcf9559937a60ed0c -> 722d871af1fe3173b9159eae6273b6e44b856647f74084c6b06d2e08556ab671
+~ -[KCPairingChannel populateKeychainWithTooLargeItemsForTestingWithCount:] : sha256 1084f7252e1653ded874a5b77c9769339c110da6ffba3d5ec344a2043ed6618b -> d2d5d00ba0c8b46e30baa442d6683bbd06d13f179db3da97b4f17941e285e2f5
+~ -[KCPairingChannel populateKeychainWithMixedLargeItemsForTestingWithCount:] : sha256 b7b498954e3c3ecd33fb2a4574902ea979184997b48c796ae531b1188d8b9aa7 -> 13fb26f4ebdf400523f8fbf3a0d3ef0318da57e345297bd5f9296dd5d2c6fedb
+~ -[KCPairingChannel fetchNumberOfPCSKeychainItems] : sha256 b6c8990cd6ed91f5fe78e048216d128bd6ff65d9425035990ff7dc890f9e9d6a -> 6c51db4872f20fec48438be38c1bf8366b6f45bc6909bc6848626b853ec4f6b5
+~ -[KCPairingChannel fetchSizeOfPacketForTesting] : sha256 6375ad8c98717d65d03799a198e3bf0c8ae1de83ecbbdd80d2ed69a7b80886f2 -> d360497b37ee9a00f0a7f44c879e1bcccd76b6ea1ce937fcfbb69bae70933681
+~ -[KCPairingChannel setPeerVersionContext:] : sha256 a84a526243dcd279f22b5266d3b31ae40712afcbee4e1922b8cf8e0162e4e414 -> c8f4af0c0fef515c15c3c925e2556b641d52ed646cb4a9b0c8136759dd8c20db
+~ -[KCPairingChannel setDsidForTest:] : sha256 89a20afbcdce3410be61a367d455a18253c44ac876b13015d6becbcdbfe7c5f5 -> 372eb6bfff52a6b79a14510876f6bb51ed7bfe99e652289c7c1ec6fed9f47453
+~ -[KCPairingChannel setAckNumber:] : sha256 5e6757fdf80a46e85f8ab719519cfea4542973a4485cc039bffd3895fd4fa625 -> b925c620d619ac05efed615444657fa5164a9a9edcf5fc2903a2431da037a274
+~ -[KCPairingChannel setAllPCSItemPersistentRefs:] : sha256 92c7e098d3e444f0e8f294459eb39d0c1240b7f81e663a211510c84880b7692f -> ea99a12c233bc4e6615bf35641468d86ae7c7716fd0f800693e0f342fd87c78a
+~ -[KCPairingChannel setCountOfReceivedItems:] : sha256 70744cbae9eca25f9ce5e5663c769f151af09d8b5dedc7275814ad7ea405c027 -> 8592e7ed7a586d3d7f387a343ce79768d24033a28e7dd45defc61a5861c13cd0
+~ -[KCPairingChannel setCountOfSentItems:] : sha256 91e264de4fc5336be8929d9baab7ceb3db291253f93781f8b8a7bfb7650abbb6 -> 03105ba82cf33ad46fd03f63f8efdce796f2c09982a508f921ea445cc82edfe6
+~ -[KCPairingChannel setSizeOfPacket:] : sha256 b111edec73428c842f36185235126cee53e5ea3293d3559771e2949161031390 -> 564614ea49c4624dc07089a6bbae5c3cb92cadc54cb28a1ef224098df1e3f8cf
+~ -[KCPairingChannel connection] : sha256 c13f594afd9d821a46a0c23231ce436479557606e91136d0831896b2b17c4a31 -> ae8b028dc22ff34c557efa248e6b0d31de86382552599d1a4ed58c0ebc44c92c
+~ -[KCPairingChannel setConnection:] : sha256 6ad89253c379d662d54cea8dbe643d4e3d297c76acb2f91fd0f7dbb3197247ad -> 8cad05772bdffea9e730525b1db6a0eae0b0619bfd5de41b31134eb9bddeea00
+~ -[KCPairingChannel otControl] : sha256 5b3e2d35f3c45c991be4a22c22376f7c42ddb8942f11ced1f3f02a49a28076ac -> f3f37c5efa230999605fec4ce99d3425cf8e72d38f214277353cf739cbb4b3f1
+~ -[KCPairingChannel setOtControl:] : sha256 c8daa9f47b3f6f78cfae314b44ab74205c13a84a6a995bf1939738ddd7e3b32d -> e67939727cbfdf13ef2ea073b122ba2f928b830dda425a2f6bb9918550b05869
+~ -[KCPairingChannel nextOctagonState] : sha256 a327690e5dd1a7e35ea5b383f1d5106b986e43ee25c8c20986671f9da48fc66f -> e39131cd6c00aa7c2a6ece1dc410f3dd16d04a3f44da3d9db124db74b83d5c8f
+~ -[KCPairingChannel setNextOctagonState:] : sha256 4d56d5fcc2d19b899a4c29c958d7b3e1d98e3ecedaeecb9fe61055788a3c7824 -> 030b11c2bb76e4f394a1ada6f7a92736075c4afcf1259af80c86c737f06dc02f
+~ -[KCPairingChannel nextState] : sha256 a2fba3b5fd4bf3e143d4dc28a0492dc02b6d3e37de46723ac160e7f3fc5c075c -> fd3bab723e77488579ecb9b5922ebf4bfdd32571bbd02f568311692d79d4e5a0
+~ -[KCPairingChannel setNextState:] : sha256 ca5ed6d6a18c463d804df2f5403c830c8897f52f31da034ae506fb0503c41152 -> ee35c9afdf601a39646a9cb96471ba1dd9ee4ad21b9fd1bad91d78421589b95f
+~ -[KCPairingChannel setJoiningConfiguration:] : sha256 c89a8b83c6f1766d13d92cdcfad1dd8b57a45b356b8ac403b45116bbfe232df1 -> 0113a21a689f9d2f1b7e3d2cbb48d59b9f8d8c22ffd8a6315cee9041adbd49ae
+~ -[KCPairingChannel setControlArguments:] : sha256 d3a8ded24ba5b7af8a4575bf92541ba854fb4721ddb1f5ae34648117bf9e104b -> 31586561cdac4c45cb0243dc3b61196d875793d488efea26c91e570e7a156155
+~ -[KCPairingChannel setAltDSID:] : sha256 831cd97469717df80e3fd41b1a9085d0928a35ce575b164890b147d7bf73569d -> da992a0c415622389340634dd2efd68d0c51b0e30a72bc1307b189434c0a37a6
+~ -[KCPairingChannel .cxx_destruct] : sha256 3307e1a329504a46774e4253759876abb813b822608cd00e7c9b2c04629f9e3a -> 61ebb575b347adc121c155b552a5329dbc31f7288c22de7ca3ec08c2c958899b
+~ _CloudServicesLibraryCore : sha256 a5b73f42e3637c30340b4d1c5293065ef892bac7b6520f31cff0b558621c4e3d -> fb3ec86f73a469690fcc25a999df21a386ff57e6846f61a553e62bf0bdb588ae
+~ _getSecureBackupIsDBREnabledSymbolLoc : sha256 503f58775b71ee80335a39f67016c1ab3ec95942a85642c55baa54896c5d3a32 -> 13d6a9485059ffcdecc188e2c2ae70b1b583d5daf6a6893336be191f12ff1008
+~ ___CloudServicesLibraryCore_block_invoke : sha256 37a6028af79e8fffa5959bcd9c47ec56ade9199dfbc66b734dd6accafa14b67f -> e53380865938bbcd65a7153ecabf301b6ad358e69b6ae7dcbc0ccb1f333832fe
+~ ___getSecureBackupIsDBREnabledSymbolLoc_block_invoke : sha256 eaae1ec5f741ab333809ef8ebde9fdc400f026d7766aeb2404d7ae4afad285d2 -> 1682ce1fef2d16c8e16538798afb17eaa972e85a9aff0638b75d96d5a8d4a037
+~ ___getACAccountStoreClass_block_invoke : sha256 1f749c6fb66c00c88780dedb808383fd72392e366ac6fccdd337c0d8f9067254 -> 574a4f94a9604d1a8a1018fc78c38d127b4a79095ed45486fefc1ff862b84fb7
+~ ___AppleAccountLibraryCore_block_invoke : sha256 562472ad68099a0f03edcac051cc0785342da59a9b4273818bbaa9cfd933d64e -> e38ab87a5603e2f98b6f48f396fddbb2b6955c7f3aa24337b6759b5eb1e6dd22
+~ -[OTPairingMessage hasEpoch] : sha256 04a3010babe6b281d01ab348d4eed4900286e35ba7a20fafb92ee6f9b7bcfba5 -> 7585c52eceb4da447d15841e9377539c0cdc0aaa9030a0c4e7c0480e4565352c
+~ -[OTPairingMessage hasPrepare] : sha256 216cbcadd5e3fb03990a6ba89f53aa94ee0b59fc3317b516a50bb40ad83d293a -> 574580003dd73d90361ab9873c280cac219fd0ab4c293c33ff449a2e647979db
+~ -[OTPairingMessage hasVoucher] : sha256 43d326143ce186429568f078902959808177ffb33ec52daa84d4f8aaae38d37f -> 6854c286f8eee36949159eda6a5438a706105a14ed6f2841777edcc07f3ce19e
+~ -[OTPairingMessage hasSupportsOctagon] : sha256 a05b924175e77bb0e508ac16a8a44580f686e3cd0a6d50834fd228b85938a00f -> a594e42df9c9178e62803c44d77b69c5641338c389bbf1a46244df796d832da8
+~ -[OTPairingMessage hasSupportsSOS] : sha256 82f7b3e5ea68ea2993feda317c484a214be079db6b7d133b774c164f32a8050a -> 2a46a22025f8cc663261690076af407ffa4767f2733ca51b50d1f74d17f32999
+~ -[OTPairingMessage setVersion:] : sha256 78d3d957b6a5cbb3c1d93171e59c25a164684b83401ad9bd2a14ea7e1ed08f6a -> 91c3789696d9bae55bebfb2b9c42cdf14ea5308cf265414aed4ecb5ce672c5d3
+~ -[OTPairingMessage setHasVersion:] : sha256 35e0204db3fd798a68c3507e37ff36985d43d90e321be6418d91e19cf6dc2a33 -> 6c7a04a1fefd26dae13e6297e924e4d70f391876a8e6fcb0e819ae13a4839242
+~ -[OTPairingMessage hasVersion] : sha256 577584f54490bc2cad7ce736bc3e89a2579ebc857a0dff08f99e4edf0d93e065 -> 05f1026f5719bfdf0e16f019c4561d4ed06d8f81b042b9349457b18274390cd4
+~ -[OTPairingMessage description] : sha256 c92a6d717ed873a992df551af090aae352c2b901468df430f725068e77f89758 -> dc253c18a669ea83257a855f84376899cdbdba4f46edc6c2dbe68e30cbadb481
+~ -[OTPairingMessage dictionaryRepresentation] : sha256 d1eb9316b52765d62ba7ca160a01c01c857f55cee1c1573dfcb17f369ba861df -> 5b538343e05bbea98ad96629e6c2f1a5aa55bf347f0613a940a78eca4a118fcb
+~ -[OTPairingMessage readFrom:] : sha256 b687d3e1cfc8ef91d0b8181072702ed37263b70618888b8ba66cd6e8acc32c5c -> 223ca0972bd57ce298bf055a1c8750600be30eef5246ce4c9f1682bb0c37a2c4
+~ -[OTPairingMessage writeTo:] : sha256 c78c68b3ffe7776058b014b95e0a608e6eb626430d7323c72d8ce4b8f5bc2589 -> 50d9c60d0502c731268bbaa24ddb6979c66348c0d510737a2678e2148b2fa3c4
+~ -[OTPairingMessage copyTo:] : sha256 61d61dc56be3ed9f91b81f2d3b84391cdd9478b2e722e8e31ce801b2c176843a -> 0aec370da2890efe8a8ca529e321e822110c83254fc3cae888930ecfeaa6d317
+~ -[OTPairingMessage copyWithZone:] : sha256 bda9ec2528797212082bf6db9521c9b70816fc1f722cc51ad9a2c0f08eead9d1 -> 914edb08d4563c6b68b9e7da19675b9d980c08144c952bfe5daef364c29619df
+~ -[OTPairingMessage isEqual:] : sha256 b9c82c581b15bb1765083cd6f6a268a6249eae9f6e9b2346e23877c96527504c -> f8a3e1596571c67324bd1ff1f5b2b2c2b3889f2a81a3d42be94d18742b0ef991
+~ -[OTPairingMessage hash] : sha256 c4ffc1d26043280d79b6db21f4d480f9e7e0ffc2be9c5d80c591050e4d37b233 -> ed8ca936c16f149923dcb850aac3590d12cdc7d5a567ec62e47348ce205b2685
+~ -[OTPairingMessage mergeFrom:] : sha256 4f78ff4c0da2ab2f2c643711bae229e83b915b457594b8e57c756d1048a5d762 -> 7acb2e00b82f605ef1b7064f2e195e744edb140acd64c5ba668db2cabfa91738
+~ -[OTPairingMessage epoch] : sha256 991d73fcf3ce4924e1af3cebdc1b952593a0b621a8a0a25222ad9c5b4c74e89f -> 5dbdbadb380b69ad2d096697d9e48a99b4fbe749cf59d9dea4b1af335b1b164c
+~ -[OTPairingMessage setEpoch:] : sha256 bbf94b18d7720a94486b1a361bd789a24978366e7474ed7fbd069add2b7d59f5 -> c071ff84372e583acf5c0392c353ccfc84a59f2e031245e081f380073d90b299
+~ -[OTPairingMessage prepare] : sha256 c782db47ef6f01253e4be9c91040377019202ff1555d3cf5ad3258a6cc61ae22 -> 6e98473c9ab23aba3ed6ad33cdba3b55c0702dbc5ea2534a499b21cd8c9681a3
+~ -[OTPairingMessage setPrepare:] : sha256 66d18e6295a74659672e92866f9e67e651d8376f2b5e6bc18bc846c7faeae9a6 -> b6c2db5f8f3a00f4f056bdecd5d5390de669db1b1e5c16f45ce3782d68ac4db6
+~ -[OTPairingMessage voucher] : sha256 d4042521fcd761709c3f3fd4765f2914622088aa200d0533ab3b57aa0548c0ba -> b6713e9b9589406e33ff5255d2299364df60f67794bc9ebc0085ce3db006012e
+~ -[OTPairingMessage setVoucher:] : sha256 80bb19d1debe9b89475d45f1308f8572578682a87d4b701b3f0e037797dacb96 -> ea3471ad1e1703cedf726747a0e5f07b9d7a8172605ddb461a185e7166269119
+~ -[OTPairingMessage supportsOctagon] : sha256 f479819d2995cae4d36cc028a8c36cf4bfb297e0de216e12434632492ae6878c -> 53dacfe374ea05ad86312a16a15c797a24d7a99185beb72ca8ac2d6d30393493
+~ -[OTPairingMessage setSupportsOctagon:] : sha256 bb90072e9696462136e1aa02de77bb172ee4affeef4733b2cd89565f671d239b -> b969ab7bde7c79b0c602502795de12972c513041ef992f975f792440fb94e396
+~ -[OTPairingMessage supportsSOS] : sha256 06f33a0e74f1f833659b06791d5c5c7c8119bb4aadd510cecda3d04945317dad -> 400bc426d98284839abe95194d3abde53612a18b0bfeb8f28e3bb1bded802838
+~ -[OTPairingMessage setSupportsSOS:] : sha256 a53d5645bb3e34ed543e834c1e0601eb070cf2fef10a35dbacc016051941ffa0 -> 33dbdcdb50b791818c520456863ffa224d794d1e542ec758d50e576b90a890eb
+~ -[OTPairingMessage version] : sha256 4797777bd81a996a72b2708dd8168050e87c3537441b369e2d80812f0f2e3a65 -> bd4f7c85c5ef3232b16817e543277293339cc8db47019c62121af9bae225fc34
+~ -[OTPairingMessage .cxx_destruct] : sha256 71e6ee2a6a6c5c519da0b4a2552f8b9f84846a93cc4b431482f3b6ec548d4d8d -> b4294eb5497614c1a1b19639f6380546896028e5e2d5c34a3ea72e03a85971de
+~ -[OTSupportOctagonMessage supported] : sha256 1eb573bc8811b002446d6447aff956cca69d5cf20ac6cfa81738911a5172a1d7 -> 2aa405208a1e9ae37c5119f6143ee7d3c22ef3f84798219ab977d1f3bb4af120
+~ -[OTSupportOctagonMessage setSupported:] : sha256 b9745c569e31e5cad57aba641b65f1efa6a2efc4548eb788a75918c7a2c5b1ef -> 3f98bb35a14e1577b3ff02779da694ae1c9eca719d9accde0b7fe3fdcb36e948
+~ -[OTSupportOctagonMessage setHasSupported:] : sha256 61d567338776b0bf04f27192a5ee3fce72e939c333fc0a7043dc6cfcece8affe -> 86f9d979bddfd7ef641be89236c0c8a5b883dc1f01ff3514a1f82d1cc1235769
+~ -[OTSupportOctagonMessage hasSupported] : sha256 bd23bbdcbd80261bef1f307613b9946fa62f327343947cd91a46275d36a3a6ca -> 0b4777aa22557409189b32e263295d1336d0d14466f05aa630fbec6ca9244bd1
+~ -[OTSupportOctagonMessage supportedAsString:] : sha256 cddd7df9f8729c01a147dcbc915426393141793e4bd01fc194752d37add282e6 -> 49800035ddd57b38b17769393eb120b85b5384f4f1a072f7a15324d6f8a124b6
+~ -[OTSupportOctagonMessage StringAsSupported:] : sha256 9628774bcef6083d28fa839b2d5b5a76b8a0115f1a216d161575c4e7a504ae1c -> 16edd05566e2681de5764aa8f63315df31de34fbd11b00492ef758e4ab95ce78
+~ -[OTSupportOctagonMessage description] : sha256 16af4afe5cdd4b1805f33fd2c971914db26484e5f2b0e7665ffc2440ae2691b7 -> f61380def36c614723964710f8366d8490d622c327ce39a742ab6bab9e57073d
+~ -[OTSupportOctagonMessage dictionaryRepresentation] : sha256 6c35b0653ac1ec976aaed711086fd9a790173aa4f3e81746c6a3db23a66064e5 -> af2fa3a04acbd1e0f43d810eda1d40be4d8b396a447d2011f4048c00f4bd6c80
+~ _OTSupportOctagonMessageReadFrom : sha256 b93734ec83f4afedecc10c02874b144c463d468e4d637f37df3e6f913ea59d13 -> 33756966ff6f45ecd6b61a4f3ded74cb9d916bcab65166a4072c4cf4b5d10740
+~ -[OTSupportOctagonMessage writeTo:] : sha256 f81189f93ce26d3b2f494dc6d744f93b3425e8968ef920997dde29d7058ca000 -> 3a5f6d5a503405013a140b6b1b37b89b4978286815903fd165c0d2e21cee60fc
+~ -[OTSupportOctagonMessage copyTo:] : sha256 235025f094cdec8a481b48761d4e1135c688c79991275d6daab57afc2925fc2a -> c325c4873b34b4b2d778fc5c294e559c117a1ad6434619f48f36775f5c4fb670
+~ -[OTSupportOctagonMessage copyWithZone:] : sha256 ea7ff06780b5bd40feb6c1a07463117f2895802c7f17140bce03d9e14d6ed520 -> eadd4f44acbfed9c3519d20d455c16636250e5a9cd3dc8bf676b16dccf5c8fea
+~ -[OTSupportOctagonMessage isEqual:] : sha256 ca1e39bb9c55f9e01ee5bb53969ef8174b00299da5d4f1e5c156e2874a363e45 -> 175d4f4c1b12b88bb066f9d483aad4288163e2dfacca15a225df49b8bff3de91
+~ -[OTSupportOctagonMessage hash] : sha256 3b9b103b5ce60ff3b8592d990e7116b7d247b8639e49aa77835fb4322413adbb -> c6d74daebef2267e7b8570bed721f80c4d2fb9f43e596d2fdb12085913499c0b
+~ -[OTSupportOctagonMessage mergeFrom:] : sha256 1bd525ad54d3b822e8f765484f44d2ce2598dfa4f8d0dff9103e5e0714cddea9 -> 707c48fb972cf35ef8fb09fa12f39d9a9044871922f89cbf10fde497a818879d
+~ -[OTSponsorToApplicantRound2M2 hasVoucher] : sha256 a57755d8d33f7e9c9be333588079636026e9cff5b0ae9db1719e5f40e4c4622f -> ac1ad95d32a9ccbb625fc43dd7803aa18347da85e6ba38bc91dfd2b2a91bebb7
+~ -[OTSponsorToApplicantRound2M2 hasVoucherSignature] : sha256 af2fb0fb56b7fa7190c14524e92dd7d1488ceec2a4b107d347deeaca97b7c434 -> fbb46a45124bf2811996805e72d04d0fc51136efc0a17676b79b4c16dd349eda
+~ -[OTSponsorToApplicantRound2M2 description] : sha256 9104ee7412fe4017f4cc60d2fdae0b27b2bcdd030ea9582f5198a98284d6551f -> 6fe58cb2ec7bcf99e0e5300d7345b3f49c99144e1e6b513b9168a724a2e46532
+~ -[OTSponsorToApplicantRound2M2 dictionaryRepresentation] : sha256 f52c3e1d2bde49359f4bf4de7d5501de668142d7d2c2acae491df8b2dd126de4 -> f7ef818eb3536a46ee2e7078b91ece0150caaba1e26ca0bd82c91193d960e76c
+~ _OTSponsorToApplicantRound2M2ReadFrom : sha256 54366f974d7cbd2a5e1bdca7b686b38bfa07fb83cdf23a7b0e829de3ae291cdc -> d73e6327fd0990d079ee753b63120488a67ba480d98119c651146c613ba8ea63
+~ -[OTSponsorToApplicantRound2M2 writeTo:] : sha256 7142fa26cbbd4fde8eec94d3fb3b0edf2096ae8f094e3e3b7d70ad673c5c84d9 -> b00f6fa4cf3ae9e26759418d623d5f71f14170053975e7577b17ffe18c1dea42
+~ -[OTSponsorToApplicantRound2M2 copyTo:] : sha256 792ba92e9d5886a419132b21c325a492939168687073b1fb10064bc3e196cf97 -> c7407cb569ea8e80a7b0ba1998d3c81ebc33f9ba6f40e622e20038dffa9d84a9
+~ -[OTSponsorToApplicantRound2M2 copyWithZone:] : sha256 8ecdd0bb8e354afd60d21ef83efbcb81a49e2de6eb244503eec0e001da2415ee -> d2bb81226ff2dce17f7fc96c028dc7159f28d97b53065170fa01e63c11230159
+~ -[OTSponsorToApplicantRound2M2 isEqual:] : sha256 8c9719417a55f94a63b9e2e4c3cb10008d8ba7254b1ea250203a5d1c2efdf4f9 -> 8ce4d0bc1d6ee08b3bae608ccc84a519d0b2565d64749054bf05cb1085c20950
+~ -[OTSponsorToApplicantRound2M2 hash] : sha256 a22e8a21a4623e95e42c04cda01f5b42f85e0c64d0a47b1e5f3c64943addd11a -> 45a255f20b439b5faea19ebe1e7b9b9bcd5f88e581b54542eddcdb07f3a5090d
+~ -[OTSponsorToApplicantRound2M2 mergeFrom:] : sha256 277d07e4e59d2dfeca09c4fc3c184210cb9ab7d83fa07030359d08a8dabb5bc5 -> 29a976b5b7e7bba2f67ffd082fecd5ce1c04cc1c5b580147d16cb0cd5b15966d
+~ -[OTSponsorToApplicantRound2M2 voucher] : sha256 62600f31a82a40b7b87c5061cdb26ecd03625b66c5a761b41913cd3f3331c07a -> 714320ac149cb74844a5842c3b47678c5e1768f75cec1fe0c9f1363d12902659
+~ -[OTSponsorToApplicantRound2M2 setVoucher:] : sha256 d35e37db0b9aa4c744c28ba7e18a39bc026a3cd4f3caf39adb58518c9c5840ac -> 5d80c29565caf9fb1519b957b07a356724b680f06521a4757203f933b71169f0
+~ -[OTSponsorToApplicantRound2M2 voucherSignature] : sha256 ddc8ee0f7701f868614eefdf3e221d15c149eff8f9fea7c046aa30946907f8e6 -> 957ede0f32fb052e3c229fd953e1a648978f2f6f08396c1562ea591abbfda3be
+~ -[OTSponsorToApplicantRound2M2 setVoucherSignature:] : sha256 3d10eabec6ebd95c444f7a60639e1204a81b1ec482ff0137f89b6b7b2c4608e7 -> e300171b313253a5f3f9e5882bb013ff2b60e76a919916add53085bd6a464e96
+~ -[OTSponsorToApplicantRound2M2 .cxx_destruct] : sha256 dc04ff39fb887f18bc0d3ab2b1388fcb915696e6ddfcdf55caeb374de54255bc -> 4d9729616614ed23fd27fc21983d7c316dac45513ab90acfba47aefc1ca29af9
+~ -[KCJoiningRequestSecretSession createUUID] : sha256 35c93ed51acaa35ed14dd56e42b81131cd072d12bd936e0d3884a4d1fa6bd8dd -> 38e427eb3b28caa729ec25e52ac13f2205a022fe7bece24b7902f4ba5b47af8f
+~ -[KCJoiningRequestSecretSession initialMessage:] : sha256 021fed0c7daa692de2089a6d32fc45f173fd1262bac47faae587d8b302feb696 -> d1154a432ed4cf6587df73ac7c14da514413c03f31690a0cb9edf1d45bfd79f6
+~ -[KCJoiningRequestSecretSession setupSession:] : sha256 015d077f4b4290d299c225648661ec7edb9b71ff1180b8de223836217a831225 -> e8b074faaa9f2ce2779aa5f6aa96185e5693d3675f3cfb29147fe8d8caec18c8
+~ -[KCJoiningRequestSecretSession altDSID] : sha256 9f5eba12d9db24d9c1b7cc23a1691949fe04622effae50e531e1c5a0a04a2bbb -> 9a29132711098223c149034f24b9139c6f92e48e44e076a8cc5dbd55124cb518
+~ -[KCJoiningRequestSecretSession setAltDSID:] : sha256 758592d600eb451fcdc3e0966b78bdadcc8527d1d11e3720b00fb619613e8484 -> 202e77cd21bb1371170b5e2984f3a03d7e5ad7b14e9ddf0fefdf1b20e297dc64
+~ -[KCJoiningRequestSecretSession copyResponseForChallenge:salt:secret:error:] : sha256 bd5ba3471e3bfa6d44eaed8b515d3f436f11d89a8e8f54bffcc810231fd9acef -> ff59c0e569063fc34f2fce67adc3890dfa1a1164b464f6111b2d4960a31b3fef
+~ -[KCJoiningRequestSecretSession copyResponseForSecret:error:] : sha256 a68de4f2f7d78e3aacc5db8f192ee274ac3fcadeba2cdc28e3cca4e19951f6e3 -> 0fbc754100f7552629e07241cbc15a726a008e72da5b217241d1a4d2e9e6cfcf
+~ -[KCJoiningRequestSecretSession handleChallengeData:secret:error:] : sha256 cd85766ba4711001aa19dcee595e238481e13a9130ad8b86e880f5aafd20e475 -> 64df68f9652456b01a36f83a5515809e66299e162b82b88e52027b1571393cd3
+~ -[KCJoiningRequestSecretSession handleChallenge:secret:error:] : sha256 2108b33e06aeb43dab8c32143960721133b2f928b0f75c83f4b369c099fdda89 -> 2a695cf71b329bc2096228c4ea4f0c9adaf7f1760385cfb06e6a29aa2607248d
+~ -[KCJoiningRequestSecretSession handleChallenge:error:] : sha256 eaf4d065fddac781de5697f6daec8aa6c75e9b93829e412850df81d0c413fcd4 -> 66015f7f08d6b46e328bbf2df02d73efc3097465f5344e8a2f04db9db7c16844
+~ -[KCJoiningRequestSecretSession handleVerification:error:] : sha256 776ad49380460ef33502e1a1d284cdcac599e4e996e71c3d1e9ea18604424c16 -> f60a1cf72ebf51e936a5abbeaaf1b81040a657d20d53fabe3eebfdaf1ae2f4db
+~ -[KCJoiningRequestSecretSession processMessage:error:] : sha256 8cee2ff56d70b9bcbfccae847f043481b707c6346b1d3243c90430a9ca7c9736 -> c709a330602087c1dfd3f646903870753c131b10694bb2ae5e459b6518496fa0
+~ +[KCJoiningRequestSecretSession sessionWithSecretDelegate:dsid:altDSID:flowID:deviceSessionID:error:] : sha256 37985af44abcef5c0555a955d5b98c61e38c07c0016982b15a3c16caa0179738 -> 0692a12719d02e1e8b00d79ff5f8dd05af9622d566c8f2d524af7334c165e8d2
+~ +[KCJoiningRequestSecretSession sessionWithSecretDelegate:dsid:error:] : sha256 2db59cb81e4a514ffc2350e42397932fa1ffe4d2d9cbb8c5dbd6fb5f90a8922f -> 376b2cfce283aa573b18592e6531cf92b3c92c5a40612e2e0731fc5ba3c14020
+~ -[KCJoiningRequestSecretSession initWithSecretDelegate:dsid:altDSID:flowID:deviceSessionID:error:] : sha256 2e22c5643effa4a734e39ea681649515cfd265abd8bf77f88a89e09c34f440ee -> cd28c2b674904af4b6331ea60185d3fecb4dab0a5e322059827a5956882c52af
+~ -[KCJoiningRequestSecretSession initWithSecretDelegate:dsid:altDSID:flowID:deviceSessionID:rng:error:] : sha256 8f050d1dbd621f8ae90c927f724d2309d7719871f909c8a5fa2b15964f01509a -> ed623fc6d439d9e2b28ad256869018bca42eb163bf43fd20288ea02a5d8647d4
+~ -[KCJoiningRequestSecretSession stateString] : sha256 bebabe45c5d0181f5013ace66954522dda7007e771b0f403082647307cf06057 -> 9f015c6259ff014f3ec933c5b6e350b1fcdcbd25cc53ef0b5d0677d9e347645a
+~ -[KCJoiningRequestSecretSession description] : sha256 a95ccab9d486071d414a9d85aa080a860f60148376edd29435a8f0380f30ea56 -> ab1829c29fbda37dd0f34c316e3a18b3a4d40835d9ce381eda064798456e5382
+~ -[KCJoiningRequestSecretSession session] : sha256 16d064608b71b3d96b70d096032171df8ca2e8305c946d13004f36e3dcc67bff -> 609d833344cc22eedbfa5ead068e1b9ffdf896280301db8547bda1b770393bdd
+~ -[KCJoiningRequestSecretSession secretDelegate] : sha256 feeb4133afbc863c2b7d47fcc7d49669f8bd18acbe330f924cd3574e2b01a7ac -> d2f0b70f8947542f1b67112e1d3c882e44bbf341abd58cef77b9bc54734898e3
+~ -[KCJoiningRequestSecretSession setSecretDelegate:] : sha256 09ca189ba5ac51cb2bfa4b6cb0d65a0400b56fd2b772ee462e156d1f92d653aa -> c21f0fa2c6700c419335448cfe904b6c32fd28ecfb1aabb4ca5aeb773a941160
+~ -[KCJoiningRequestSecretSession context] : sha256 7345b6f99b37ac8357dd8e1f332ae16f052b7e5d6a3a32f2c326f4ee0383942a -> 70fe3232803b5d15244c6bbaeda0c7da2e92105f573c18960d4596a36c204743
+~ -[KCJoiningRequestSecretSession piggy_uuid] : sha256 5778e80e9e4058b49b121fe44abe9b5cc1655436dece0447cca30743c101d5a3 -> c777a889b9cf0217eedb5075ab79b868b480a029db1b8aac7e8d23913c37121f
+~ -[KCJoiningRequestSecretSession setPiggy_uuid:] : sha256 9011554bb14a0ceb5767de3c53b9bd55db5932660265368f170065b02dff4fbe -> 0e731b5bbda90ca3c6a0321f4ccefba7ead1e26f65b01f03d09f1cc20ca58565
+~ -[KCJoiningRequestSecretSession challenge] : sha256 e7f3db773259cd97c83f816fce0ba78455fc5bbf6d746338209bf22633737b3e -> 0ba7fa261ae11d1cce446ab9bff38e953cd045993023b84db5f65a8683f9f4c3
+~ -[KCJoiningRequestSecretSession setChallenge:] : sha256 86edd99a5c855f0a7461e881ddbc3c28e04ad394fe3d664f5309e15ed54ad699 -> 5cacac85933390e7a742642f38c1264e1a6e82c568748808d346a5e3fa5d55c4
+~ -[KCJoiningRequestSecretSession salt] : sha256 b6b312a5945ebea86c7311f1b3b7aa642816f6e8406cc69e323a0151d4a3807c -> 4848b17f601015af3210a6e0b5b45d699f1c10af0c4ae4c98d38686fc9d34b62
+~ -[KCJoiningRequestSecretSession setSalt:] : sha256 46b15b64f4bf45d54da5d6c79ee4d66c47516c1619d16499b05fed29259fcd71 -> ff220ef06856503fd2457fc1442afe71b53c0f913368969460a737b7e4c0db07
+~ -[KCJoiningRequestSecretSession sessionUUID] : sha256 7631ac01fccca27a1aa32276ee3ddf416f6216f70978467a41b529e72f296b7a -> 22aac1f203c74f3bff80b493af8c0f049428cd80ae2c47a9327895895dfe7f5e
+~ -[KCJoiningRequestSecretSession setSessionUUID:] : sha256 81912184d042c11dd605f8e1bad0bebf90f294eecd0b0665360ecfbc6f623a8c -> 3899b52b0e5722dc0b5cbbd9abb1da5a0da6c7a1ad50f7297825cd20872debb9
+~ -[KCJoiningRequestSecretSession flowID] : sha256 c04a3b9d45342fd084b5b3b11a2925b3ffa1bf8bf471bd8fb381a879400a6802 -> ed7e4d399c5a927d9533e4d5941db7fea9169599d1b63588fbc0c827d8b30b93
+~ -[KCJoiningRequestSecretSession setFlowID:] : sha256 59026b04912a60ebfcd92b2b7d69b72dc8cc14753d767f4944e2b3635fe9f17e -> 6fae690acd498d836244a84a224fcab4253ad18d3d8b3044cf3306e45b27c790
+~ -[KCJoiningRequestSecretSession deviceSessionID] : sha256 cb8fc96791ef0013b435a3af90bf28d61a46841e8ee45488c8235a69960a9dea -> 7db0c8bcc91d9987637a771e6afedeee8d1c6fafca0c1b1de368839df596ff43
+~ -[KCJoiningRequestSecretSession setDeviceSessionID:] : sha256 c8b455812d70eadfbaf740243e2573925f2460c63d3c3a3c22360c265f9e0e2e -> 9be0c4de5470c5c2ec0789ef561b00ed8e2db4d9cbc41d1b13501d8da5d27c35
+~ -[KCJoiningRequestSecretSession setDefaults:] : sha256 0c6f94fcb328a008cd2708f40e326930e892fa855a79e95401f526b87be65c1d -> 914beaec04e6ec846f291530c131fc46f8e0392fee64162a794a557abbbda154
+~ -[KCJoiningRequestSecretSession .cxx_destruct] : sha256 7daccd065c2a3cdf90e9c54546df1c82e73ba6ea304b2f5e2a6e0dfdcd040f36 -> 6140f39e087cf53a57c943ca71b6107363e4107970a904dece04c84686d9ce0c
+~ -[NSMutableData(KAESGCM) replaceTrailingWith7LSB:] : sha256 0e76e1af43f4f7de11205c720a9f8886db6e1ecb88584506ecb09832a05ab346 -> 64a656d579ff4a47e8c1a41d84f7e45b4d70742fadea0e20e30ad018d09168b9
+~ +[KCAESGCMDuplexSession sessionAsSender:context:] : sha256 c6b3338d961cf940dd596e9f7a9521b373110e061a6950a624c7f55baa29c348 -> 8104ba2580957b555f819099dd66058f68fa1046d3a8ab463a1b9ec72a0768cc
+~ +[KCAESGCMDuplexSession sessionAsReceiver:context:] : sha256 b333be4a3970d056ec87426e34a77ae6448a28cedc6c6f41413e4ea6e6f30c1d -> 34e8d578b7b1b243052ec0c1bf59a360d6c058aaa4c4a87c748b2452b3f216ab
+~ -[KCAESGCMDuplexSession encodeWithCoder:] : sha256 cd9bba054f54f11dd7da18bfb4e530b31c21a3ff294ac60902427868a386b089 -> 28164dd36643a374780d6b9a1f5bf474a3e33e348f295d9ecfb8d6afac2c7a36
+~ -[KCAESGCMDuplexSession initWithCoder:] : sha256 be505d2856356370c71f739496c15b3066d12857cadd0791073b52b40959be4a -> 5b23be71b2b10e73650e4b990ff5940664d81cb0b13e93179e2cb40baaf9d348
+~ -[KCAESGCMDuplexSession initAsSender:context:] : sha256 5a8afab537a58cf5d5cdc2047b704d2eca031cdabb62c65e0e767b3dcc419d08 -> 36304ef287a85a13da2719ccb20609cad92095751fc395016f8a3010047c84e3
+~ -[KCAESGCMDuplexSession initAsReceiver:context:] : sha256 8aa17ae13ea50c7a7d45d206565a4e45bf32ba9885efd39c6ab4dcbd86e58301 -> 7e4bb8cd6e8e2fd628f60b4a500cd529cd6349839cd38cc16bddfef549a60bca
+~ -[KCAESGCMDuplexSession initWithSecret:context:as:] : sha256 eaf8dff3697674ffdf9eec52c40875b5ce58de249f51164ead3b3db760ffc549 -> 2535d27497c354ed30f1c8c474143ac07cf64164bbe5ed21003fa7fd2d5eb75c
+~ -[KCAESGCMDuplexSession initWithSecret:context:as:altDSID:pairingUUID:piggybackingVersion:epoch:] : sha256 80bbd2eddbf684398bcbf581087d79bee3220816a5f9fd136f720a082e96950b -> f1b402208cfc6db7f41decf476105ef59df8e235e417d1ac8ff964aa54304da5
+~ ___97-[KCAESGCMDuplexSession initWithSecret:context:as:altDSID:pairingUUID:piggybackingVersion:epoch:]_block_invoke : sha256 859e8de356840ae72372e63c2559487b7c90c044344ba822af234085b58566d1 -> d10a21db687894a7c12b89850d81131729884c097a527e432b2d73afdceb6fee
+~ _derive_and_init : sha256 19f38305ad61a682457ba0f9f903eaf9cb8ba775700d605e983386500760ff7a -> cbd88ae841c7a5baaa882b5854009652dd294c36c44bdd5bbd2814ba17366395
+~ -[KCAESGCMDuplexSession encryptCapsuleSize:IV:] : sha256 9f9d6645127b0605c4d9d75a939e3bf90578d9ba09b602408870cdc1db639a72 -> 8cd987afadff9c00f04f5a0b8068e3a69ad41a672605628b1fa1e7f3ae712435
+~ -[KCAESGCMDuplexSession GCM:context:iv:size:data:processed:tag:error:] : sha256 fa65eda42a019e2df467d41cd9bbe06f6393f8086e138fc4c15d9a2dfe7f8e1e -> 2d8e4445942587585bc8db134c810303a02bfcb715988867692025241e9e76be
+~ -[KCAESGCMDuplexSession encrypt:error:] : sha256 ebc6c9683c23d70aea5e430c0da58a037b8fd857ae2ddbc64ae995d96bac5058 -> 19bf7bf7becbdc5d90fbfcd8125e86e368e450cfef052d51d471d5a383a4655c
+~ -[KCAESGCMDuplexSession decryptAndVerify:error:] : sha256 c7d1faaa6dcca73df0abb723dedde28f66b939a375ad3c71fc96bb17392ba5d3 -> e169d2367f1b20506af37a42effa5451a409e85b3f029f4814ba426ef0c07691
+~ -[KCAESGCMDuplexSession dealloc] : sha256 68e85686f4ae900584a74037b2b02552356d6be0d137b7166c743cb23beae6be -> 7951ab12f63dcdc6df66d822fbc532bdb0ab80556230587089ab047232d09b55
+~ -[KCAESGCMDuplexSession pairingUUID] : sha256 cad9f80250855ab56d332f5ac601b31bfa163cec9bd67c112e52a6ca4aee1646 -> 37f1c5a74e1a6ce9a8abe433ae45a35d78d126fa7f42568f00e8e3566a51e4ad
+~ -[KCAESGCMDuplexSession setPairingUUID:] : sha256 65e6d17def1c8f1f9672d3bdc1ab021fd0230d09e1efd4630e03e88cf47d73fa -> 81252039f21424bafea707bfad0498597adba4d6f2b71e191cac27255c865f86
+~ -[KCAESGCMDuplexSession altDSID] : sha256 01958ef83ed7781ed6bceeff87064bf28144e65a779ca3d1764c8c0f564f556a -> eb13452184b34d558fd2ab62a9a8efcf19e752f31d7360db323a313921b47f24
+~ -[KCAESGCMDuplexSession setAltDSID:] : sha256 afdbaffcec994b3e1d97291d821c117de8e87cabdd94da1116377cdf45796ccd -> 605848429f5d53face4bc43c3005733d401f4ae0cf091f5afee8850a854e0c6b
+~ -[KCAESGCMDuplexSession flowID] : sha256 15cf577f88d82e6fcf9e35a0043f2531bab5044bf99b97425a88acdc4bb0872a -> 345f0484d6d2a7d731e3583c4cdf66efc08d423071bf0a15cecd1849c17b2945
+~ -[KCAESGCMDuplexSession setFlowID:] : sha256 1997a007732f065500945d10ee39f1ce5f330ba960e343471d65c55823b0d170 -> 1c8095cc397d9fe6d76ebdaabdc165f02ad8de1d36b951775ecb785b3c864203
+~ -[KCAESGCMDuplexSession deviceSessionID] : sha256 fab6ee52a10b240b697b14cc6a26e2f1bc45f23c41dddac010b6c58a03ead8ff -> b8e2b9f47294667baafa0384a5f5750d6020ac79c49c845169f26f2216d51892
+~ -[KCAESGCMDuplexSession setDeviceSessionID:] : sha256 8509cec6af89473e8c3e6eece0993742d173cbd816803b5537dc0957bb69d49d -> c52840dff1da2e48ce88037298dfa77235227195659d387dfc6550b742bb836c
+~ -[KCAESGCMDuplexSession secret] : sha256 687db79163c1ff26691eeecd264cdfd425997df64727d4903d12a94758094b43 -> 69d9437e3a9f2b4f7f6077e8e9540dacfb30ee4b20b9477b9ec03924257a7a8d
+~ -[KCAESGCMDuplexSession setSecret:] : sha256 b199c4e209e04af398077614f272bc67190edb1d8bc3b02a7d938e9cd8e9e40a -> a39547dfcdaf90ce61580e077538bdc753d8d30576a7b060807bb4b27965fecd
+~ -[KCAESGCMDuplexSession .cxx_destruct] : sha256 03fe8c76c228136bd42c5ecefdde332ea8ec3493ff8b3526ec7df4644bfbc1bb -> 6b7e81d2561a4d20ec79a17d98675598950d25d324f64f74c2dd8383302c4e01
+~ -[KCJoiningRequestCircleSession setControlObject:] : sha256 b12219c49faf5876e51c3e4afd2c19a96356fd5dfccc5c0f672217cc007d2058 -> df9236ac6eeda5173bbd5b77abeafccc79742772e93208d5b0c8261c237e4484
+~ -[KCJoiningRequestCircleSession setContextIDForSession:] : sha256 4fb2165b884d7934fa4080660b65740f6eaedc40cfde408465cec15cf6dd4073 -> 49d9c67d423e477af5684ae814c13eeaec4c7f60321c1fc39dfeb773b41f66df
+~ -[KCJoiningRequestCircleSession accessSession] : sha256 3ca1db7cfed42e616ac363e05b577fa66d6d6f89f084e49ebe890e97b022de44 -> 6c26fba0a255b7a2c8e7d6efb5ab7a6eb1177858d637f89cc333ba5c129e11ec
+~ -[KCJoiningRequestCircleSession setPiggybackingVersion:] : sha256 60276590ed1887fbd53cb19ff0d457b3f0d548f201a511dcaa615c0df6d1af7b -> 2903737e6fe05da0d38df972e0fadd69321f6866f5c5542a25e494259b9608f5
+~ -[KCJoiningRequestCircleSession setFailSOSPropertyForTests:] : sha256 72c0fac394f329e2a4ee8f001987a2e0d436bc4f30efc4f8bd5b84acbbd1d729 -> 565ca6d81152246c7267c79fa6c153f8709b374eadd92729b1c5c6490be6bbff
+~ -[KCJoiningRequestCircleSession encryptedPeerInfo:] : sha256 379644182365351a80f6e9b3bb63171b3a57e80ffd891c717715aa10af756562 -> c0858cf3d7b5f9ed40aabd93859771a00bc7ff762edbf4fd89cf29eec7bb9c9b
+~ -[KCJoiningRequestCircleSession encryptedInitialMessage:error:] : sha256 18478f5744f8bcc5060f77ffd7ab6aac79b95193e097f735dcda66309542b218 -> cc955e36cf408a1f006148c00954139d6b672363d49f0cef278a544832fc3683
+~ -[KCJoiningRequestCircleSession encryptPeerInfo:] : sha256 45d145bd2d64c28c8f0fda867d949bd445ff0a99f65f12cceae80f73be06bd3a -> 3e2eec0273b05b6a779aa68cca6287c72b711db31eeb780076e53ed9c3901815
+~ -[KCJoiningRequestCircleSession initialMessage:] : sha256 0fa0a5a92f7130d1df6888e535680174eab2426aa7d075b5d5e4f126a06089eb -> 81864a98c5f99fae629356a7d6ff465042a852d83e5c35125a3d4a2f5393e793
+~ ___48-[KCJoiningRequestCircleSession initialMessage:]_block_invoke : sha256 4724658a1bbb1f4e39bcb49d7a66298aef8e4bee0f756db715fe70dec433a23c -> 1c8345e7b1806162bcb8e704020db138fd488c6f3d31faf21a7b57120bfa877e
+~ -[KCJoiningRequestCircleSession waitForOctagonUpgrade] : sha256 ef072526b342c0bc371a78a8caeaf3c0d7140d41c2d8661a5917bfb62f477de8 -> 6bd43c63efd436d4efb0be6adbd97dc58cc4956e21561951c39b2404497024ff
+~ ___54-[KCJoiningRequestCircleSession waitForOctagonUpgrade]_block_invoke : sha256 af3dae0f23ab5a0c6c02968733dee8399a6c46914a0b01ba685129e07d3fb761 -> 93f472771d4e9c3a5a18171f509cdce40674f99d9baff04f78e1738ab01d4c66
+~ -[KCJoiningRequestCircleSession shouldJoinSOS:pairingMessage:] : sha256 96fc97d6772e0f3193c069e091eb271e88d276ca0a8f039b9507b76bdf7f267b -> a9246b1d684eb4cfcc5ef3e3a43863719c8b57fc1fc8d930caa27246cda0a134
+~ -[KCJoiningRequestCircleSession handleCircleBlob:error:] : sha256 99b2f8a3a6fa9009e6f8c97f90cb926b801be5176c255321b68c9632a99efe1c -> e899c8c743fd0fe8d6d581ff0fe0b413cb231682c2433350acb667bbe6d62c28
+~ ___56-[KCJoiningRequestCircleSession handleCircleBlob:error:]_block_invoke : sha256 4e4cfa27bd2622cadcc7bda90c90326251a2b31875157e398220b0027bf6f9a8 -> 21d8727c1149062d3fb5b624bc809f5f1ade2a209cafd0b5c20e84d146f09e47
+~ ___56-[KCJoiningRequestCircleSession handleCircleBlob:error:]_block_invoke.46 : sha256 cd1156026720640a288332d18daf644060e0af0e19d4db02d68d179b3feef251 -> 92b06c98500983ae3165100559b4918760d18ce4f58d16505664caafd40afa1e
+~ -[KCJoiningRequestCircleSession processMessage:error:] : sha256 0f671f6851844006178d8ebf0150b51ad688ec0f6327775fd579f64da9393af4 -> 32eb43e3a95e5e64945156b84b9b63aa248575b84b90b51af169eeaf0c82b143
+~ -[KCJoiningRequestCircleSession isDone] : sha256 2f5e1965dcb7bce65dae9e9b74bf43cb0d027f71a2624cc3f34898eedb3bccaa -> 94f588c1c041d3f135bea25c057fad177f97a5a3ac3de3b20978b82b5c765830
+~ +[KCJoiningRequestCircleSession sessionWithCircleDelegate:session:altDSID:flowID:deviceSessionID:error:] : sha256 cb36e3b6f61068fd0666b11304e0d6a10e8cee0e436052953c478f1838c12c17 -> d4956f63ead48c1d89e47ce7f8c94b5e968d8766b6bcf18e5979a89480d12f2b
+~ +[KCJoiningRequestCircleSession sessionWithCircleDelegate:session:error:] : sha256 069ab47137a56943fb5698f72cee3520479516409cedf881c9e38f4ac6088ee7 -> 8677ff72c6abfb16e527ab365465f01c5b630803170070c0a9202ec651736703
+~ -[KCJoiningRequestCircleSession initWithCircleDelegate:session:altDSID:flowID:deviceSessionID:error:] : sha256 35d7ce9547c780d74479961ad827fd88403df3c36c1885293f27370ba6ef6a41 -> 7b0b8acbf2e62ad3535b8b4a5ec0a90fad571df351615b51cafa8c7a4fc5cdc6
+~ -[KCJoiningRequestCircleSession initWithCircleDelegate:session:otcontrol:altDSID:flowID:deviceSessionID:error:] : sha256 653934d3180ed65cdd0dc5f23705375e0e16487f7804675a909117a0ba4348d5 -> 0fd8ba0a14f719ef049d8b3735480b7ba3e54b8ca234542e18b8e75ecc56b110
+~ -[KCJoiningRequestCircleSession circleDelegate] : sha256 19a2a6b9af5434a13971bef0a5d5d0336af39dd6af6dfe3bd45941cef97ad4e5 -> d01bcc95ac19f886a41905ac93c2a5f158e1e36d5ffdd9073f700b76cb442479
+~ -[KCJoiningRequestCircleSession session] : sha256 6dc6a8e14dd717cd031c88ef638283c27048252414c67b50f6d2164746d7b4ea -> c01997c099e900bfeb4bae0c9bea343863e9ec392640ae31e7f663f07e90923f
+~ -[KCJoiningRequestCircleSession setAltDSID:] : sha256 03de03e00597e05bdf7200a886d9c1c008a4588a6d720e54f30050620ba61e4f -> 8af3596bb56babe0436702c349c2d8f574d3a63c0754ce9874472c2f049c46fd
+~ -[KCJoiningRequestCircleSession setFlowID:] : sha256 c0f51bdcc3aaeaf2337d93e87bcc0c174e8551b78250c5dbe406e49b609c0126 -> f7ef0de42eda47e16a84a6796da68e169519ed6be53507a23fb6aa0226333c4d
+~ -[KCJoiningRequestCircleSession setDeviceSessionID:] : sha256 7a96d5969dae571dd18e723e543b2795896867df0b0dbad573d8a1d662a0d856 -> bb81e66d8149fc00561aac3807ef0a3ec1f8d0c96a0587a3b5f1e626c593c367
+~ -[KCJoiningRequestCircleSession setOtControl:] : sha256 9b6cdcc34946d14ea072fd1644da6a8af7fd20d7b753ed19721d74febcc90746 -> c7561a5ebc2f6ab815734519fe3b5c76423abb403a1773f2af033dfe660cf330
+~ -[KCJoiningRequestCircleSession setJoiningConfiguration:] : sha256 6db4821c86a84c9ae5f377efb7f8d4e350251d046513ac22ce74ac72e36e1114 -> cf2098196f009dcefd940add3a5b459e01cb991a35dc060a041459f04c80200a
+~ -[KCJoiningRequestCircleSession setControlArguments:] : sha256 ee2c1c0a68edb17f89bf79798dd59c5101fbe28bb7d9c583aabfd2b2a0fe45f4 -> a664ee5f105fb7882b989ac2e21a86d7ebcf53e3f72898ae3860ed5aac325703
+~ -[KCJoiningRequestCircleSession .cxx_destruct] : sha256 ca7c166e2fbf15868d0be707ec5fcc447608b8f9fa68152731ceb367a992c4c6 -> be99e0e95cf202d1a7cfe68c2f7937da276c8237f1c0e34426a8395861c5226e
+~ _MetricsEnable : sha256 b139368dd8a6dae2b8a2975a367a06028fde68a810d27d13b209ee1af4c3ffef -> be803a267229ee4747c0ceaebfb7932895b9274a2fbd69331fda1003ab29433d
+~ _MetricsDisable : sha256 a8107fe59188cd21c2e3963ef1262656480b1f79bfbb7fc6585f219682896d77 -> 21906df48b0997add7565e0a20350c27fc1ac5fe0d4d7c02d6288aa0a81faa2b
+~ _MetricsOverrideTestsAreEnabled : sha256 7abc00f98e6d4cf503eb56c097e3ea7d1eaca4955c0ab0159224a049b1c1d715 -> 167d69ec75be9286813803963264abe4678cd51acf935a682978e6b4fade51b6
+~ +[KCJoiningMessage messageWithDER:error:] : sha256 5277285e4b3cff6b6c9a060dc6be767355730a3d285b1fe5166908be76486d66 -> a2f13b0aeb665bb341830cdc3772935dd3be2e5ab5658deb9db558706e8ef1eb
+~ +[KCJoiningMessage messageWithType:data:error:] : sha256 469b80a4604548941b659a0a546012aadbe5a98ea78c8a865e2cbc7f51b69fc3 -> 892f4d0c3a6358fedbee4b79f3449e865941b53ccbce3f9102eef15347f60230
+~ +[KCJoiningMessage messageWithType:data:secondData:error:] : sha256 09335533e210d652ce257b4e262dd80827973be6b703024abb04096811c9c2e2 -> b414147b95e1998595f6e6788e3242d53c03c75c0abd74bb42ca6beb013d225c
+~ +[KCJoiningMessage messageWithType:data:payload:error:] : sha256 03a98d0cc5bff5b040c3e2de864202433132d39a8ac54cccd84ac02f6f5ff0f1 -> 02c5563725d01d65b641c5427b1b9496a463c036c0eccd9d5372c89b7c98b37f
+~ -[KCJoiningMessage inflatePartsOfEncoding:] : sha256 0dd0215bbf5c7fbdc04cd67bd3112f009123cb51d8d9ec36bfcf2f0f1e3d1be2 -> 941084dbbd0f4570456897282a5300aa5baf0796088360d9ccfa78033749779d
+~ +[KCJoiningMessage encodedSizeType:data:payload:error:] : sha256 5af53a28473c1435fe680034a80daaa70631b33de01ab9744141c41d60ed3d18 -> 7cf825557e69357af9ce03728ac76eb61d577102dcf9a1b3edafc4a67d82190f
+~ +[KCJoiningMessage encodeToDERType:data:payload:error:] : sha256 8c56e18736d9ebea7cb9ca2657148db64de9db9ed6719b8b1a3aaff2d24307b3 -> 5d316941edaec6e6ab4963ec63f5145b4b4c0ec9f130a552929dbf0ffe5a6912
+~ -[KCJoiningMessage initWithDER:error:] : sha256 57d83be0596ab8d312e77f1456fbc18e3abc7bf6758b8d40bf0d2532d6daf3e5 -> 56591ef64db62c9fc2cde6db9223a2916b2b6a22ed036d873f887e66dbc03432
+~ -[KCJoiningMessage initWithType:data:payload:error:] : sha256 015ae2c9569f8f0dabf44061552c2035f5463832a7e4f80278eb4d25256c412e -> e9b68a782096f4ed89ebcbe220d3d786c60d58419524a0cf294724c8d95376b3
+~ -[KCJoiningMessage firstData] : sha256 2f7687df32f5ba5aa24b06c339f27f6ea76a6ec692e514548a328d47ec6b24c4 -> 4e4fb3710d41102dcee8afe27a6f541b3ab3d8c2408d6d678b249f7b29267daf
+~ -[KCJoiningMessage secondData] : sha256 fb9c0289244998ecd95ca7bf8a230337b2e6320de2ea918b80ac5e4670850240 -> 9cdcf8f9c20d02207ae15530ea569754879bc92842af2bacee8c59e5e44cefa3
+~ -[KCJoiningMessage der] : sha256 ef305f81ebd4e055892c219c49dc7eb2283ca65a0741eba9bc4b0ef714760a22 -> 8f7582cfd449ddfc9a1c0ed56b66bde18d6df67a77f3aa531b9054dff6de4ea9
+~ -[KCJoiningMessage .cxx_destruct] : sha256 d7cfee91ef7180a4a5c630b877c0606f7fb0530df64e950af4526ea0782190e5 -> 02af6eb3bb25331469c6e5d259f039c852d8a32f90e226b1e95084a04134ccc1
+~ +[NSData(KCJoiningMessages) dataWithEncodedString:error:] : sha256 b95d95ff568a1d3ef6d4536add0dcb6247ecaf180d20ed892c5e32769498815e -> 69242209b3445ca01a60e5725665cb1542a4ea65e7ec8b178a8476b13f5b3853
+~ +[NSData(KCJoiningMessages) dataWithEncodedSequenceData:data:error:] : sha256 8c9d5d03e384cc29d01b32bbc13b0eb3be4bfd1297d55599c4570811ca3664e0 -> ad5e9ea0622933a733633f4371c68031e2ae0498fad20a785b0bcaf1ff0eca9a
+~ _sizeof_seq_data_data : sha256 cf444becae411e428d1e85ca38337fe97959943f130c77f2043784544e14ed03 -> 95e4931c4bb8d416e0d540948e6554ac53d39ed3257edaf604d0b7af5a040456
+~ _encode_seq_data_data : sha256 91182e0b509d45b285b63a2dd207241d9ad821d2f3dc4cb42f196a4a244fc657 -> 07724621d89ce21981121a6e4235f5b03a8116146d39d98d6793daf8bf953b51
+~ -[NSData(KCJoiningMessages) decodeSequenceData:data:error:] : sha256 b5a6afcc1d178f0e58e6416160e730340df31197a993390b845fb1649cee9e79 -> b04049c31a71d3be6700391fe682c3394d4a2a5eed01d22643b651d9b374a3d8
+~ _decode_seq_data_data : sha256 844abe512f8e573abe7ee133e68e22d10e1f1a16e07758cef9589f2bc3dfee13 -> f8756dd1bd4fa4e95d91eaf88ff070dee1b4a973a1528007512c2c4304c1806d
+~ +[NSData(KCJoiningMessages) dataWithEncodedSequenceString:data:error:] : sha256 b7bf5b816e7099f088045aab37b76be6a112e87e90725f22b00d3f48eb559451 -> 0af59f1adea9338cb36c800d0d5df55925bd1f76f6fbd7fa03a089f6a4b7c9aa
+~ _sizeof_seq_string_data : sha256 d61f272befcd5fbe2d60f64342a3673413d0492ea67debd9888c4033cfb84860 -> 6f608a41d1f47a70e54b34ecd3b8833a714a842d81972635231edaf8188ea541
+~ _encode_seq_string_data : sha256 84554c7f2f50519b4b955d521adaefef4cf095ef46092a69ed7bbb751385378b -> 7019d393db055a8b7ee8cd768822f7023436e6ec1740b95c3796c11ed8efed5b
+~ -[NSData(KCJoiningMessages) decodeSequenceString:data:error:] : sha256 e9c10aa999599e088d35589a3e7518f5b0353a7eced28c982f1a0bc10852d525 -> 4534930212e777fdf3a4ea6f39f77db9a210d4bb20ffdab60d273111d14051c0
+~ _decode_seq_string_data : sha256 397496cc26f9fa60744cdc984c0ae8ca5933fa2395014599e10430ec2db0a280 -> 67253cf9c260bab0f170fdcc9a70f0966212156e457ca03c780497419fd231dd
+~ +[NSString(KCJoiningMessages) decodeFromDER:error:] : sha256 bbf817600fc3b54fe051047a2c8a9dd7b91fbe08f054d15cdc8b83db64a1ca48 -> 7b682296840a096d9230df16f3944dce401ceadce58039f092458ae85fbba449
+~ _extractStartFromInitialMessage : sha256 9ba8e8fb54cc30406ea32b0f3878df0133a4650d73b59808261abc3ebb3a2e5c -> cc0674413e69b7479073c6a6b845692d5216f7166b2a0d41476400856261d9ad
+~ _decode_initialmessage : sha256 eb8d6f52124f9f5f0ae4916848647e1fde786a758e050da70dd725b11fe7fdc4 -> 984034b02632e8480e98f5e8d2e66283e62f87cfaf135970df9c18a2ed41bc6e
+~ _decode_version2 : sha256 f60ebf746505fe55eca6c49f299c50e34c8d524370181a0b2a9d8e48ee695cdc -> a184f12c63117d11f86ac60f8b323b03762b1f6d796f4e78988b542e8ca849c6
+~ _decode_version1 : sha256 8157c115995b242db00da7958c316f54b289011826b462e302deb1083f8afa6d -> 0edc3eb725c31da227d1b400566cd6f3c4758f31f35141a52de09a5296ded3d8
+~ _sizeof_initialmessage : sha256 25cd7294ac70659b509892c1699aa22311b047d46bcbc2d4fb1988cbf6b4ba92 -> 43cfef8d16db66d42f3c5367275f28cedc1bd41852a3ac1375918716c2d5ecdb
+~ _encode_initialmessage : sha256 cf2f4d31876cfcd52f4d33b0d9d0f7a20a51c6190f52f6f4e71b297d781a55d4 -> 11dcf661dee46055ee745793e5954cdd6f6def35954608b1a5485f4d1ccc5ffd
+~ _sizeof_initialmessage_version2 : sha256 5c5acb406c72ec9bc07630aea0d9f07bb609b16bc3df5d31344a217e4d8ac8b8 -> 4634e67a16b9cd89fb09386446a5c6528efd1914b672cdc3bf1b116e50d93e0c
+~ _sizeof_initialmessage_version1 : sha256 48a26246753b207996fe5726842211d31c496772d06602db5ef53d02309e9858 -> 029e05950ac071bfefa65fcf21a047f8e690fc7bd9166a4f81f7ed171208407f
+~ _encode_initialmessage_version1 : sha256 e0928951e749a2ab290ba3a17b640fece6156281e99bf59612e42cc11e29e155 -> 3c8dcd3c0081cb042b8b72d4932fd34e5f6e2ef2178777fec7e56ac1e5499aa8
+~ _encode_initialmessage_version2 : sha256 fb5665c346c1e45b41bdd16173e6fdcce553c3fc33335ffd22a9e73a22d9d7fa -> df23c58f3946de94fb6bb9818067eb0478147571fbab78b074debcc9bbb55b79
+~ -[KCInitialMessageData hasPrepareMessage] : sha256 5434f92c84751ab7395c93458853dc9a5488e142a34e7f5030eb02fd7253c038 -> 41f88d46af11a4275395a12a703391799f54ee72945ef1fad21d998951193e93
+~ -[KCInitialMessageData description] : sha256 f27a3c0032a5cdc48bd556c797960a0a8a13dfd7eee0e5dc110e12074dc1089f -> b992bde8ee042a084ee9633b43d819b0735d3eb9faf486404cca02c944ef9593
+~ -[KCInitialMessageData dictionaryRepresentation] : sha256 0eb65786298a09269d6b0ee16db6eb897af819e8e7a4341a874b7e84a94fb184 -> be4b95fea78ece00730081f3e71f5119a445b36cae590890ccccbd78a49fe7bc
+~ _KCInitialMessageDataReadFrom : sha256 4603dd336f1a2d56ec9f017da12b5b144d37ce96ff6d465d2204bb4569e878e3 -> 4416df101bc861e996e811830d8e9c31cc77ef33205182e797804315eddc37a4
+~ -[KCInitialMessageData writeTo:] : sha256 b8ce023e7ca0efec8f215991353ebf4c8d95b6f99d1da9302051f92ef4183aa4 -> a72665aa45977b0a3fafa727575e1964100952211f70e8987ad92f612f5aa44c
+~ -[KCInitialMessageData copyTo:] : sha256 587fccacc894c9b248982ef37e814692dd3d454ab1eed4a5f84b9761235763cc -> fef8a6907a90180d8316e129b10eb549ffa7e0e3aa6f32c5742be51cdefc416d
+~ -[KCInitialMessageData copyWithZone:] : sha256 68778791ebc6df7acec3659a0f20b18f391995db6e5934a46c2844c28f841506 -> e3d6b8b45e687756c757b4f7d71ea935f9b87a8e3eafde921eaf2f98b44cc607
+~ -[KCInitialMessageData isEqual:] : sha256 fc9d0f8efa04e4180b0a3c3ce504be554f752fa77c30dccc8874839fa12ca3b3 -> a693f12721ef61be599f86574ae7a2151a03eaefa7da339060f39233937bfc21
+~ -[KCInitialMessageData hash] : sha256 84d02d5957e8c635dfff8ee5d04ac1c67b67d140cae423b64476412a0226363f -> bfb23fee0427747a256927b15a0b512db9e1b1a7669cf5408f73f60e3cf56e43
+~ -[KCInitialMessageData mergeFrom:] : sha256 dcbf8fdcdef8770925cf09edd5eac6c1ef37f65d320ce4cbc7c83494976cff71 -> 49901f9e47d1f32332582d35e3ab1817236792b55d88effad7f08607295c2961
+~ -[KCInitialMessageData prepareMessage] : sha256 e14336d6b4d8b613c46e7639c592ef1e6ec25899cd07e166d4888d237e8908ce -> 54ac4c4cf50875a06167095b93defeb5239118df9e15e036829663372bcae1f5
+~ -[KCInitialMessageData setPrepareMessage:] : sha256 841367627141cad126e4b71b14326fa4869a8f511141de98a044313cdc2ca1cc -> e867078d029eae9064afb615ce33de7f90963e998e6e4afdde53e2585befeedd
+~ -[KCInitialMessageData .cxx_destruct] : sha256 408f7635672e3bc1a07d629119ea9142aa638912e7653218b71b08fb76e69e98 -> 6bdc53825da60ed1250df7d9d7f1b12a5a894c03d6d539d311058ba528186138
+~ -[OTSponsorToApplicantRound1M2 setEpoch:] : sha256 f2c73cdb7b30364cc4b18441fbfc883636eb45c9e0b4970a660e40d5a1e78961 -> 0abcad9a0e1a58e5d2ccf38cd5962da0fbf17189ef4b66930a6f8fcf719eecb9
+~ -[OTSponsorToApplicantRound1M2 setHasEpoch:] : sha256 4419c508c911286408f95f66cb082939f306f95eeb47260a5e3400effcb03425 -> 35cdc2b3615390d5c9153e0be16b333816362a27e9eb51acb6919c77e7cca236
+~ -[OTSponsorToApplicantRound1M2 hasEpoch] : sha256 1bc61cd921e10d426404ccf346e7a804f594d4cc762485ce9f6367b71f3d7ed0 -> f1a16c1c28eefdacbe9b4612963b7d6b09822eccbbd305e0dfb88ead21fc8412
+~ -[OTSponsorToApplicantRound1M2 description] : sha256 93a0a65cf197ae33179ad8ea52d9e5a2c16f05b4449d142b9920473bbbae376f -> 86d7f7d5b7c26dc0f4fe40d16e4b807ef544ceb213ab76f0d75969ab387ce4af
+~ -[OTSponsorToApplicantRound1M2 dictionaryRepresentation] : sha256 e8980d284d4fca7a8ac99239aeb6beb73101e0f25afdbdb84fd61a7f0b86540e -> b3c43e99bbc8d3a5b0067d0b496eeeecc1a12c5b76b2389a5a90a231bfa80610
+~ _OTSponsorToApplicantRound1M2ReadFrom : sha256 47a014d7636475b5740e6fa781971c9726792b404be03d65bccbd822250d0f7e -> e2f21a0e692b526979a655a68cf49e64f6f8f98a2be543583b52e48157c1b0fa
+~ -[OTSponsorToApplicantRound1M2 writeTo:] : sha256 0d131e117163824f1e27f9c2a1f76aad3c9b3a41e26bc76cb913e2201a87654e -> bed4afcad100f942caffe3d408173f14aa9de944d256f28fbcfcae756170cd80
+~ -[OTSponsorToApplicantRound1M2 copyTo:] : sha256 b403d5e500b26216a1620a9a1ca442fd85a400a45b69a613ea6975a1aa36e788 -> 12bf05c6706e2394ed821c7901e63e4a582be076fa86240679018fe04bc86ae2
+~ -[OTSponsorToApplicantRound1M2 copyWithZone:] : sha256 f64df1fc79a760f3e8d87df8bbc8c090a26172f5ec803cb0f145b6841884b327 -> 6815baf9f337aea7d88d1239158c811d6d41a0e6dbb5628bb8890a6184ec554f
+~ -[OTSponsorToApplicantRound1M2 isEqual:] : sha256 d2ae634ad89ef4388140717f57d5a857677168ae37b2f522a8ea3dc40ba437ee -> a461c179c2d753d9d3fa6c19c256741f73a3c12dc3d05f096358afa50ec09a1f
+~ -[OTSponsorToApplicantRound1M2 hash] : sha256 7117115ed5b594a4542042af49c3d30fe8c228bb5148dae21e130391c76d4a39 -> 75c4b8e63e14eaedf6ab918f288644b78d60f5a391c0c132e4189dfee9db4c9e
+~ -[OTSponsorToApplicantRound1M2 mergeFrom:] : sha256 ee974bfcb68746cf5959debac7763bfcf2bfcf2a9755477d7c7bc42ada7b062f -> afa5bf9f8ee97f8922829887a4ed7e73c78e204cd9b8220ed467ccd50629f02d
+~ -[OTSponsorToApplicantRound1M2 epoch] : sha256 964607828926d23d94f432a60e4a6256238c3a712a5b797ac8230b3fabb46c0e -> 9d6a6fece140ac01d5ca5dd545b8a2c2a265cf903426f572859581143ea89cb0
+~ _kcder_decode_data_internal : sha256 608415bd8f73770d05af1566c85410db674fbcce87786f57f656b1273be93f33 -> 418785763b5119dcbee6b92869546ceff3621575d3fe2a6c2a52bc0f0ebacde3
+~ _kcder_sizeof_data : sha256 bd8067afcd32b0b0e7a6b45378e1623c324828682333ce0a31a3456c1be77e1a -> 1a9dc8dd35d5130b5161ee1bb2e3161d913029c327c46b6667f5adce6410cc04
+~ _kcder_encode_data : sha256 352c28f6f9a73103cd517e16a9522fdcc184011a34820cb93ee99a4c53e510c0 -> 2095b97ed3675afc19a0146afb89a5087caeb7a469fe5ff5afc3fa9dd680b591
+~ _kcder_decode_string : sha256 73b9d89c24a2218689ada01c8e327fa3c70a647c233ccb088b7eb452d978c6ca -> e09870c3b479273f0264dbdd4ff3de2617d10717d07703b44fff6b5105b2f4cc
+~ _kcder_sizeof_string : sha256 0913e14560ef9da908f038ade1501b8d7d8075d50d652a41ebd3baf547775134 -> ff9a745c7239038bed5eb4e08ac0d2b25a5cbf979e59cb52dfa3803a7d455b33
+~ _kcder_encode_string : sha256 b28bbe1c698154885c60e3c3b000f6dea26509337cc738fb8ad9d7aef50aa5f8 -> 597c5892299f40f194d718a8ffddcfbb55f14dea1c8ef80b46d391341a922ec8
+~ _kcder_encode_raw_octet_space : sha256 e3c2ca36fdd9487fc3d2754e3a8348e9240393046d3ec2688845152700ed4fdc -> 6bb41a3fa98092461056b3fa4dc60a285345f5cbe00fa2645fcdde16f9903c4d
+~ -[KCJoiningRequestAccountCircleDelegate copyPeerInfoError:] : sha256 94df41afe123f6b86675c604f43926cee8c8b42f8fce707d195a14a21c74f134 -> 89c9a203524efd575502704ebd445a8cc5f4839456f5d6b06aad5c1f73755277
+~ -[KCJoiningRequestAccountCircleDelegate processCircleJoinData:version:error:] : sha256 d9f12c08f7f96ab0d5b35fea3afe4ada6c90f9f002d43fb4f9479e95d540f4ee -> 9875d29c892d1fb2ad8cabd19fc3410bfd331df10e6d74e62b650e86683aedc2
+~ +[KCJoiningRequestAccountCircleDelegate delegate] : sha256 c08c7d1da3f237fc1fe584568dfcfdbf3dc0641fa2c78272af0e14565e304cb5 -> cd76dec0417b4aec3ac684cf28577a0b254bab19677f33a56fc2c7477fa1d1fd
+~ -[KCJoiningAcceptAccountCircleDelegate circleJoinDataFor:error:] : sha256 0c4bd4d9a7388535ef38959126895e71803fe159b5b54e0deeeb097824c379d4 -> 2e905eaa8e982d2e1c3ab49d1cfda436eb7a101d73479ef58bd38323715b161c
+~ -[KCJoiningAcceptAccountCircleDelegate circleGetInitialSyncViews:error:] : sha256 3fcfae07afcde9e90cc1580bbb28e20ce15f0f3b9c1562f4fc4af44c378e0a0c -> 2b44fd62335b155bfd3cc547c277fa2544a918f2e9b36e9a844f9a2104fbdf66
+~ +[KCJoiningAcceptAccountCircleDelegate delegate] : sha256 4f8ec0dc22b76a8636909ed2b9ec86b6b0d81738c04f9ecc9e0f10f68ac63d9e -> e8a9ab5828aade161d1ad5c3b30c3b86e469adf45cc2dfee74e3ff49f7faa4e4
+~ +[KCJoiningAcceptSession sessionWithInitialMessage:secretDelegate:circleDelegate:dsid:altDSID:flowID:deviceSessionID:error:] : sha256 792a34e4bd97e05d7aa8b664cea9a1f0a48a0b166b205d7fac2c5e8544e5c871 -> b255da9e87eb65d1084c9c571f9efb495c65a6e11dfdad66f747f509828525cd
+~ +[KCJoiningAcceptSession sessionWithInitialMessage:secretDelegate:circleDelegate:dsid:error:] : sha256 5f68e341e9e91b7ba212936d55c26c28d75d074c684c05f1e3253e3b6bc90329 -> 9b6443ca722446f9496c83a9f0da3b0fe2e3203475446da509d3c00879f7795a
+~ -[KCJoiningAcceptSession setupSession:] : sha256 2d1742b83b12caa8cc5ef855862fb17d76dc6efef84dcafa9fa8797241c8735f -> 5b49e4f3cd456d8329d01fd8ac8d2205f43ddb392fd8215a8e321b019e0bef8b
+~ -[KCJoiningAcceptSession initWithSecretDelegate:circleDelegate:dsid:altDSID:flowID:deviceSessionID:rng:error:] : sha256 04ae92c3bbd3c7efd50925e02b69a86c0d8e014f360486d554f8f2a883058f44 -> 6abd1eae1bced1be5933725602fee7154ce7588ecdeca7dae6644ed017cb47de
+~ -[KCJoiningAcceptSession stateString] : sha256 d7ecd4354adda25569177c3d99e15025dc3c412711656e2f3b984932885092a6 -> 8bea50a164d0326c28706f6b63acdcc8b4dfd12d2f5eab85ce5a0afe2f028d98
+~ -[KCJoiningAcceptSession description] : sha256 85c422b50a61abc934d0c8fb0a24a2ca71fe41abc19170881b9977637c8046be -> fb9fa8c953d3e96ca290f7d4b78b604264c5bbe5abf608a1d834989ee80dd5bd
+~ -[KCJoiningAcceptSession copyChallengeMessage:] : sha256 e2848d0d2c2936527666c219a64b5fef6a00d8378633932f8cfa13b0c492ee6f -> 028718b47c7e114074ac479c04251d46c1775df5d62b3be4c853dd4b8371f95f
+~ -[KCJoiningAcceptSession shouldAcceptOctagonRequests] : sha256 37537192afa1bca91dc464710886931d181d3e3a02e2fffb2d0d915b22360812 -> 230b27029ff6f7d41a9a5aaa91461823f6349055ecebb3e3eec1e640914c0c4c
+~ ___53-[KCJoiningAcceptSession shouldAcceptOctagonRequests]_block_invoke : sha256 10e95203c85f15e8292defd16dd182e05de35b16c9eb2bfcf536124b3e57b7ae -> 382505f8ff4e3eb2113115959b51d00ee251f353155bb5ea49fca9b2b6e1c9a3
+~ -[KCJoiningAcceptSession processInitialMessage:error:] : sha256 c6a00dbe19fa2cd0e5adc4056caa35b310ea6a26edf3ae5d0b21b6d3da431e78 -> e6d9a1e4cbfba79d24957476be788f4e07b931b038b3b4d71a07c493d8620b61
+~ ___54-[KCJoiningAcceptSession processInitialMessage:error:]_block_invoke : sha256 fc65d3e52d974704b30d5b14de8564cd445648ade2ece0ecf93f61b52bb66f35 -> 4f760b8ef744f3d5ae99fc34915550ff6488cbc47bc9da3c9c471d1adf4c8724
+~ -[KCJoiningAcceptSession processResponse:error:] : sha256 b29bfdbc4b7fda3c57c70c14bb52e802a023308835f31d093fd47a82e85640a5 -> 6d91da11444f6198920fa4e9c9da8ad240db0fa870314bf5e0678f4707781410
+~ -[KCJoiningAcceptSession processSOSApplication:error:] : sha256 361a6279fdc9aba5442e8e79d4dc17cd0905b708fe8049d378470f0096822a54 -> 0eea52dcac507b3f2d4402aac79e6293a8ca5c1d3307b33b52afe60adeafeb69
+~ -[KCJoiningAcceptSession createPairingMessageFromJoiningMessage:error:] : sha256 3eec60f753c6f61242521c45400924c5df80e6f4dd12955b4c6c319ecd8f2101 -> a015e0f01500c3364b23e36fa479568161ec67f3b9354f8220813f0c726133e9
+~ -[KCJoiningAcceptSession createTLKRequestResponse:] : sha256 f56e3a1eef339de0984be4e7f395081540b4b92431f30c2c754c98496bdb41f8 -> b78a94dbe4cdd2162b92d99e00ec7b4a70d223bca25987d589dce289c23e1161
+~ -[KCJoiningAcceptSession shouldProcessSOSApplication:pairingMessage:] : sha256 37a652661247e61df291a34af10a9e10f8b8ab8935a2acf040546b2680a1b949 -> 8e0fe0ec6332c5d8908fd2467126481961503a659ac379100363c750084e5915
+~ -[KCJoiningAcceptSession processApplication:error:] : sha256 f43a875d7ab149bb5e95b9611276c48c4581bf93b50eecb4ef126bf922fe5c15 -> a0a944f8fd4fb0d092c90c99151117e626002574432f5b75594b0472492ba8a4
+~ ___51-[KCJoiningAcceptSession processApplication:error:]_block_invoke : sha256 cf340d5772edb2e0ff2b240b24cc3d4f513a9a704595d62a64da2f0d369d9590 -> 49f7aa36c9f03f7e933f1390e895ae6a3a43d5f33f45cab75bb1aa4eb43c617d
+~ ___51-[KCJoiningAcceptSession processApplication:error:]_block_invoke_2 : sha256 434e1e9591d6501a7be666d3ff5a02f880d6fc0ad9feac2273ef846b9e7cbb7b -> ec43527aaa3108867890d895fcefa48b4918afcf4884a59a477983680c8f2510
+~ -[KCJoiningAcceptSession processMessage:error:] : sha256 d62ab415fc98805610d10127b2163191bebd472d8cd5312bf59632bc49603203 -> 60f29289b2b2cba640b5070522783d6e0fe5de91fe4dfd8751dc51da0bde9681
+~ -[KCJoiningAcceptSession isDone] : sha256 5ec20792659e894b969c8f9fe97e484f0c33ed39b26b4b416a5bd1e59af51c0a -> f79d5f00b9caf0f8e15e039ecb06bb7eb49e0af4dee018ccf1bb3f286319c145
+~ -[KCJoiningAcceptSession setControlObject:] : sha256 e59c62a8323a2f6566d47be311d2316cd73451f29675e6f101a9b91ea736e041 -> b8248bd1aa310bd237f807294dfb60b655905dee89c1d7e282473ca6e87c4ea3
+~ -[KCJoiningAcceptSession setSessionControlArguments:] : sha256 fdb5e9d0282d11c2298449d22ffe0bb0c4e1e4eea44bdeaf51324685e1074698 -> cfd3a4040acbb1d446b58671b7e4ce9a4ea8d1904a0bfe545e9193c4cc5b1590
+~ -[KCJoiningAcceptSession setConfiguration:] : sha256 c9fd90bcf87774e6e1187df4b3d43af32d3115bda11b11e2015a8375de226fcf -> ee145c5cf75c3dfeb8af129d7c5839ae1e6c98a589c481dc583860baa9d8c0a0
+~ -[KCJoiningAcceptSession accessSession] : sha256 f0752b824d768f83bf92f4a369ef481b76077621502d5a29ed3b9d9192f17048 -> 5b367cd58b4decea3637d9968573376f9884aa927d0578cefd205a37f45085cc
+~ -[KCJoiningAcceptSession setPiggybackingVersion:] : sha256 18e91607d2e6a1bfcf9f65b5262ac17d5eb7aef72e0252782f05627eaa792857 -> 11cb6be5b438f2ce6e49223fb978f31f73623da36b8e94e2ea6a30fcc8ab44e3
+~ -[KCJoiningAcceptSession setFailSOSPropertyForTests:] : sha256 920fe3e26d9f903adbe4f18998a8cda803760ed562293372827da283260bce5a -> a9827074fe7e5b01fe1577f4a73afec28d836c6d39406a570688c9b288ea7ce5
+~ -[KCJoiningAcceptSession secretDelegate] : sha256 440820f5b0f01ffe99ae057cc836b58e2db1ede2b5b039e4f89a276c698c6658 -> b073317bb5202a2c3e8bea046b8c99fcb0381580d61002e1e3400155baf238e7
+~ -[KCJoiningAcceptSession setSecretDelegate:] : sha256 1156a65b2774e222e18264495894ca4c17701b9b425692aa949ca7a8ca413fa9 -> b342174007617403ed4c1008fdf753cc46178745a8f239c7b5ee2d1a893e83fd
+~ -[KCJoiningAcceptSession circleDelegate] : sha256 212f12988257d529730a817a4dabee0e33c27a252b3948c37e33b3ba240a557b -> 513c5ace01bdcb1afac2a1b985ff41d82593198d400a577eb02d86a5c03bdc94
+~ -[KCJoiningAcceptSession setCircleDelegate:] : sha256 bd3080cb00cd6cff89480c25edf81a7f1f440af83cf26128db3432e0a616d2ec -> 8a79aa4351a1a4f035f1f829841d90685b17f03fa02380f72dd893b3f5c61270
+~ -[KCJoiningAcceptSession context] : sha256 10bf4c4687c1fb27cb128f26c6e65893c799bf54579e69cdefee7435234526a3 -> c3f62e789777f9daa1aaf72894bfb5013539b8e0c51882ffcdc02d19bd623d6d
+~ -[KCJoiningAcceptSession session] : sha256 af4b151e1ad953ba67c721af68cdfff318d51e202faaa0c2f7ce891bd8346f5f -> fb37568dd97806728a546827f5be3bfde0b3184490de3b3ce83beec17cb14049
+~ -[KCJoiningAcceptSession startMessage] : sha256 ee10e5c360fbcfa4d3f13b929a453982c67c2040e749bdb636462459edef297a -> 86b935b74aae01e0781b41ff2d7bdf97b77be5dcfbc1ba63825a0040e0551839
+~ -[KCJoiningAcceptSession setStartMessage:] : sha256 b13eb870ecc7de973eaf8ba0ab57780c4b6b4b8b184704ff66294e1bf8313853 -> 50809122cade4a94a2001c963535b469cd54e00acc8894586f2066235fd362bc
+~ -[KCJoiningAcceptSession piggy_uuid] : sha256 f742a9bf3dfa4ef77acd6a450e3dcc5a88a0a82b4d7bfeb7fcca3c604b4cfdfa -> 1ff78639f3cb0fa64a424aeac4903691d5127145b18e1152f0621f68114e8971
+~ -[KCJoiningAcceptSession setPiggy_uuid:] : sha256 9cb50cfb774ec654aeaaac7bf64bfd7283875fe59fc74d378db80e3c89669cd0 -> f18a2e82033bcfbef2b5ff59a10255bba5acec06c9a5e259b3ed7d0d4433c235
+~ -[KCJoiningAcceptSession octagon] : sha256 0ddd328672bb57adcaf8505a7c00c2903df6d53e2fbd2347c55a92726f5ac0d8 -> 06908a9c4b7d555a655b145d0cf995dc3d630bc41c75d05e457c860d65058731
+~ -[KCJoiningAcceptSession setOctagon:] : sha256 be47cd920ae70bdebbd2310ef3c31991c44cf55b8f5c80ee9eade5ea5f5501ab -> ad4302e104209174940543088b323a2a59b34e27a18b48b7f162b07966d7e689
+~ -[KCJoiningAcceptSession setJoiningConfiguration:] : sha256 56557edafe0d4b8f969199df8f6209d595d29ff94a804eb70e2fd1259c27bce5 -> 7b78ef6a9870ebd2e49eac388e1c28523bbc182ed2b37ec3d4697f2c7021003e
+~ -[KCJoiningAcceptSession setControlArguments:] : sha256 16cd59a405d8d40fb321273cee187458090b21de9391cbd73bed50f69cc8091e -> ebec85b023b324bbfd8db80a8c499ffe5f98c330926be5a8271caed83882f15a
+~ -[KCJoiningAcceptSession setOtControl:] : sha256 77bc5e0b95f5d7e067fcf9918172cf072383a5e59cb091e710328eb94d2703ee -> 7ecfe81cc41889a96d4d2d5d1c0eddabca6baed5ee2c591fff09b2f7ab4e5463
+~ -[KCJoiningAcceptSession setDefaults:] : sha256 b0fea60845b1451cabd4565bb703627e639b65c86142d2fd65c70bbf0107e43e -> 533db926defd82757afd156a935b6ce6203bcdcac7eafc49f66cf5cd9b6bdb01
+~ -[KCJoiningAcceptSession setAltDSID:] : sha256 be551574d8e45522bcd2c43a98926ced258039b5746f238626c8e42c0f2e2059 -> 36b19d17160ece67e964950b196803cd3d2bced840ab668a5d32ce434375df83
+~ -[KCJoiningAcceptSession setFlowID:] : sha256 1c06bdb5b1aba1e33ae2be67f716b49c8e6a05d8777d1860657ac59655048f50 -> 176fc4cf9a156044d0839d909615bc2fc69efe272e2c2b7376acf6da973c8203
+~ -[KCJoiningAcceptSession setDeviceSessionID:] : sha256 75b03cf0a327c871a93192325b7a427d9c33cead8e8de34f6aceedcce1e59f0f -> 068d4fa4994286c234ff22b96276fb1725bcb53d850f72e8903a2b57cd9f0a79
+~ -[KCJoiningAcceptSession .cxx_destruct] : sha256 a8c94102351ed03244ce7c7d6702ef335a831861fa8c399ceee1dacfca5400de -> 29a970a88014919eb8efe930f549bd9e5810effb15e5c3fb5cb4c5f4da12ec35
+~ +[NSError(KCJoiningError) errorWithJoiningError:format:arguments:] : sha256 9c1a0d0fb0a8bf1abc4156e8e30898cd6eb39b4ab927c35d7bcbea4a9031dd8d -> 414a842b4017efe381361dee0610c42d695ec64e3783f8b0aec05d4638d59591
+~ +[NSError(KCJoiningError) errorWithJoiningError:format:] : sha256 34bb112f0a90bebddcda53ec1ea9ad09148fb11357b568755bac2f7f94db7cf8 -> 1c78d087a92d34b239e57a3058020218129def9d4621c4b32ea0baa6736dfa03
+~ -[NSError(KCJoiningError) initWithJoiningError:userInfo:] : sha256 886131e203e1f5dec14e7e6dde71824b5d73dc07a57fd27effb3f8d3aa25d63d -> 73bf7ff5a45e7a61b47a1987c9ab10c37fc025e710fbf04e0c1094c18737c930
+~ _KCJoiningErrorCreate : sha256 4b894556fb129d3f2eb73efc5441327911e07c882ba854edebafa8a00bf86f9a -> 10c1f50d85edff28907a0b34763654b4f0571917546233ff5aad70b3b93798af
+~ +[NSMutableData(SecRandom) dataWithRandomBytes:] : sha256 8cc351ad5ed9112928b6f61085d891ca0876b21a4e439244ea9bd259fc167ed7 -> 15aa13b254130d96d9d7deb4a553fcd711451526154210189b6312ad55a4376d
+~ -[OTSupportSOSMessage supported] : sha256 20f134ce3dc3b1da8aef54f4b49af5c2ba6331ef0667107f84adcbbc3a5d6924 -> 3cc58a580ea3e0a397de8584c0af639ace9686dc8a7ae545d288cfb617d1e919
+~ -[OTSupportSOSMessage setSupported:] : sha256 92ebd2ac87be370fff864a66b720d79647c5a7c394651d0294a2ba2ed82b0ad3 -> ba918c45d424b9ce39ad3cb47e6e562bd175eef732326c56f1c2b420a85b176d
+~ -[OTSupportSOSMessage setHasSupported:] : sha256 dbffd433765323e18a76356d4a0fccc0afd6f38a5ee7eff07431845d20445cf0 -> b54929d5d97e482c3729a49760228986d48101a72568143b048849e8bffba7f1
+~ -[OTSupportSOSMessage hasSupported] : sha256 4feb752c718d68c20e1310f5578ecb0f73488d34088ac1688b21fe44e715df29 -> 50719753364436b65d9679415732f52476eee4c75e9e3217e14c9383efd3947b
+~ -[OTSupportSOSMessage supportedAsString:] : sha256 98b286ac1931b19fb9d21207e94b4b1af5f212b01b5490895d43a593c85e4907 -> cc2cbdc31e3df0c5e4922d3a03fafeaa80eb33bd7b91c93a60ff8f4a1410cd02
+~ -[OTSupportSOSMessage StringAsSupported:] : sha256 88e3c780afcf44426bb2f2b35205233412faedf4d4922e987b883f3727865f6e -> c1f5f5ef881e346106f59f91a39af216610ec7b66a92dfa151e8c4496f513b70
+~ -[OTSupportSOSMessage description] : sha256 4fa45193c1358c95db079a070306ec94c45f315cea5a1235a8561bffdffadf35 -> 96a1e8072214be45493cb3033fffd3daec07d71198e496b7fcdec7bacac35cc4
+~ -[OTSupportSOSMessage dictionaryRepresentation] : sha256 400e2a39a512260b43110c30ac95ed32d14ee0fb054d401af45c6ba1deeb8085 -> 2e857d58938b270aa46f2df57b126f476c3ed385d89f5c494a1d0db4a4b06710
+~ _OTSupportSOSMessageReadFrom : sha256 863280f528544c7e5060835c76d0e649f9d6203b117dc3fa7cf499cde1df6825 -> 413a4970d1511c0b9879547186078951aa5841c694ef5ac0cb13e5b1d20b790c
+~ -[OTSupportSOSMessage writeTo:] : sha256 ea0e9062136f010fee6accd5b8771f49e024964f14e0425a9a4ddc0d81a299f9 -> 8cb69bb33ad9a4c6731a4e4cc20f3243144a0cac280a989fffc4a25b628c95cb
+~ -[OTSupportSOSMessage copyTo:] : sha256 24ad62030acd3a5f481f0ac35a63d2c8ea6758c64a69b73317dcc10d2d90b246 -> 73765f621ec7a3010a8de18caf42e5eedfa07bb91d6a068381e108c77b561c92
+~ -[OTSupportSOSMessage copyWithZone:] : sha256 4872eefe3639f712ea46fdead79df9293bcfce78810f7cbbbc59d985f43abc3b -> e50a6415b8315d91b4b66a00ec9c21edc63d5a5775e99bbaf7c3a4b730f63e8a
+~ -[OTSupportSOSMessage isEqual:] : sha256 89a15abec0fb6ddbb5392a50cc1f71ecb768caa9ca62d3a994c22c3a16686f85 -> 37f5ca9c1e184722862a681e4b4ca592fd17acf050346f256025adfd45d944b8
+~ -[OTSupportSOSMessage hash] : sha256 aeca3aa9c490786a2d1b597b23b317ee2084350cf5f779a21d9b6fb2f2593ad0 -> e2d730f4c11b89c1ef2f7ce51dce2fb4a1f1cf836209b4201f65446fd822b15d
+~ -[OTSupportSOSMessage mergeFrom:] : sha256 a44acf4c85f833e9d3a3fbe91f1fe8739187b1d0c72ee7809d00e4acdcb9830b -> b8506aee595ebdf8ff605441cefb8e709fbaac37137a3eca21b73b485cc33d85
+~ +[SecurityAnalyticsReporterRTC rtcAnalyticsReporter] : sha256 10899d8ede6e71c724fa8ab73b9d0edb668c1ae93030b933d709920166c7e49a -> 7d69f0b6c83f80808637c6075b8577cf883c457bb8b24c1f5569a880059218c8
+~ ___52+[SecurityAnalyticsReporterRTC rtcAnalyticsReporter]_block_invoke : sha256 f246cbc54509bf7baefd00f8b44778d71cfba20206c17ba9d0cf0ced3f313288 -> 4ea5b0860b45abd29055238fda0c873ac746127f93c6daa72bb7666f8e988669
+~ +[AAFAnalyticsEventSecurity isAAAFoundationAvailable] : sha256 c6e23e131182873faf28a82fa03960239aea80eec0e6cc2b93195625c741b32c -> da48d7519d6cca86aedc66ae295ebf8f1200bd6b8558bbab6feb4e8503a625f8
+~ ___53+[AAFAnalyticsEventSecurity isAAAFoundationAvailable]_block_invoke : sha256 5cd05215464eff1ffb6a21a5385628f0aec403636c3dc15ec0364d04c258c969 -> cd7530ec6c3a7f9e0298a89896424f06d81b66752cf747c53b9aed5c8e77a970
+~ +[AAFAnalyticsEventSecurity isAuthKitAvailable] : sha256 86ee9f6b9ba448f6c633d0015d6795b5dad45e4c1a0ea82082f903010972726a -> 2345e24027cb2278d6a20c93312d25a2ea7c249ad707796ce81f9f5ffe138aaa
+~ ___47+[AAFAnalyticsEventSecurity isAuthKitAvailable]_block_invoke : sha256 9fa746d362ae0425ddcbc6eee707c44d2fc93b6d2351aa21ff5f8f5257f0fc73 -> 1731655eab69118ad93926c84116f64e3ff4dfb8b68dc641f1f76e0706e71aad
+~ -[AAFAnalyticsEventSecurity permittedToSendMetrics] : sha256 a5179c9aebe27b56fe90fb30a23e2bec79f7e2c677f8856b47d2cfadf44be550 -> 65c3202159372ea1167cd7c99486c2432d628ecb6b2d5b6e72546921a2fac3f1
+~ +[AAFAnalyticsEventSecurity fetchDeviceSessionIDFromAuthKit:] : sha256 f9cae601f4e247ca5b1d719f69ff4bafaafaefceff17a962f98f84efa69b6c8a -> 6268e456344a0a1b00fcb2bef4bd5a2ff9dae4bdab62baee687d3761134c0116
+~ -[AAFAnalyticsEventSecurity initWithKeychainCircleMetrics:altDSID:flowID:deviceSessionID:eventName:testsAreEnabled:canSendMetrics:category:] : 864 -> 860
+~ -[AAFAnalyticsEventSecurity initWithCKKSMetrics:altDSID:eventName:testsAreEnabled:category:sendMetric:] : sha256 ee64d4aa631a224ca179a4751d260bc2599cdfa305d04a21c3456e1cae69ba78 -> 19a33c1be88095ea367fd1f3dc6dd8caf54b9e200bd33029ab51b328e233006b
+~ -[AAFAnalyticsEventSecurity initWithKeychainCircleMetrics:altDSID:eventName:category:] : sha256 4d792bbd1778fe08e5ae7df683b40997be1ae5e5b245f4d939553eafe53e965b -> e64ed50e132fe63a56782b1cfc9108b6f8e44057683be8f33b1e5c0d78855931
+~ -[AAFAnalyticsEventSecurity populateUnderlyingErrorsStartingWithRootError:] : sha256 cf785516817808dd8da349e6c43d587fe260ca14fe1585f6a661e06dcc6c1e74 -> 3fa13a88eb89b7b56598e5e3d65cd32263e0057169825d02a795e0b187b2414d
+~ ___75-[AAFAnalyticsEventSecurity populateUnderlyingErrorsStartingWithRootError:]_block_invoke : sha256 7bec877af2079e687e3c954d90974f7e91fc2cb2a9cba71e9a5186c16069f7df -> 4030735bc280f821605444b0dece78de3ddee1cb3e9be2948639978560c0a885
+~ -[AAFAnalyticsEventSecurity addMetrics:] : sha256 ca8672b2844bbf579ee7ce3e459a8dfc399956f8c63d936e0342f9052437a5be -> 6b9e5ef54e73e10f8a0d58377af5d20e0acd9a7b6dcfa305dac4d8b02b1317de
+~ ___40-[AAFAnalyticsEventSecurity addMetrics:]_block_invoke : 316 -> 312
+~ -[AAFAnalyticsEventSecurity sendMetricWithResult:error:] : sha256 6995f6c1d69da0ac4d44830015645558dce746025d2fffccbdc6ecc0ab2e64c3 -> 30d4c8602713fc407d3a44f92a0f4d3af07bac23a82de2eaa96674a9cb86c5c0
+~ ___56-[AAFAnalyticsEventSecurity sendMetricWithResult:error:]_block_invoke : sha256 89f2d07510d829e30d74ef96d5ff15ccd1f899bf27d7753233e28aec7a49a44e -> ffb12b8986642d671699e6d5d4d8eb8a206d9b991fd5bc2492477cf1e240705c
+~ -[AAFAnalyticsEventSecurity dealloc] : sha256 ae3a85808cd4fa37c89f2c4d7a306f10a6cb9d5c16945725d0f4dcfbd35ecf69 -> eae33894cbe7b207f74e0d68faf201f9a19b9af5d59a87d2a03dc94305e10135
+~ -[AAFAnalyticsEventSecurity queue] : sha256 e6339b8f1bc49401b35d016569a5917e9184cf71d14c0e6ca08500427fc2a533 -> 6fed337f0d712485cb2970dd8d5f57d44048ef8ab845d7ca2cbbc5aff8a28133
+~ -[AAFAnalyticsEventSecurity setQueue:] : sha256 72973a485fae94c7343d41e9b81a56048caf6dfc1fa72f7688ca9715bf4a6b51 -> b6f9c48b1f44176dbf309dee60e92eee8288f5826c7a24c3660851d1c66636ab
+~ -[AAFAnalyticsEventSecurity event] : sha256 d29ff6ca011c88e8545974f76473af95acb27ee4cc9758b84c66a92f5f0db1aa -> 8b1802a69e9233291e7640e58a5d438dc5783a8c26d25621d2f2cb6e7e266623
+~ -[AAFAnalyticsEventSecurity setEvent:] : sha256 099e3cae2c1fd71bfe52457c91f7c16902003db40f38e485a5a22e402ef6a5b1 -> c9c454997fdb1193ed8bc2b444c9eb5bfd68fe72232483a635b3ee7205dbca63
+~ -[AAFAnalyticsEventSecurity .cxx_destruct] : sha256 09962bce2f55a5390afcb3562f0dca4b971568bf2d5a35f2897e139ad9584ea7 -> 99cc255ed8f2df08b61e8ece7671762145abb34fa94bfb710eb66981d6b9fb34
+~ -[OTApplicantToSponsorRound2M1 hasPeerID] : sha256 1e80634fec9d5a918df0a39040e210791fe1dda750aaf5a188d3ee9000281b47 -> 22263344ac1ea354a431652c8b9422e9fb64a8e6ab7210a1580fead7a6e2532c
+~ -[OTApplicantToSponsorRound2M1 hasPermanentInfo] : sha256 90e254dc7f53682ac85c3553bdf0e9e4c2904549aac4a36b17a9005c26dfeebd -> e88202be6560416940b7ab2957081be58133b3d25e94aa4b1c854bdd54507c0d
+~ -[OTApplicantToSponsorRound2M1 hasPermanentInfoSig] : sha256 7e68f204a1a32f61488cc6229e3aa6ff220d2c326c10cf782c1d9a0b5c7318ad -> 36d2951cc3fae8126b274b3d6e5ec19908590655ba8915b550eab2422a6a65ff
+~ -[OTApplicantToSponsorRound2M1 hasStableInfo] : sha256 e64614c026cf9d0bc9c8921b6c668e5f2389fce0179b417a56077b58ebdbac78 -> 160681acf8ce7c8a95066677fb026a17eece0f6e66ff69d06ed32278b943f07b
+~ -[OTApplicantToSponsorRound2M1 hasStableInfoSig] : sha256 7a4fcb48bcd2f843271967fece736211bb74d727e2ce47a3ef96029d6724f73d -> c4ac35a459d46bf239addc7b3cd2211a4a74ce46de0eee75d6b4d7367738a58b
+~ -[OTApplicantToSponsorRound2M1 description] : sha256 e4876b7ceafd0722c87eb3babcd5f6870751b4635c687b59a1e679357cad99b3 -> 7a56d84b0121cf46170e18de558fd5a424b3a53630448e9256346c1d837eebde
+~ -[OTApplicantToSponsorRound2M1 dictionaryRepresentation] : sha256 c7016946616ae69d1e082ca4f78d0d2041cd6b7ec99ae6e6aff2a55760e95dce -> 0647ca38fc3f4edf1b305c24a4ccfa9e54c4cb826d77848ad7f756c5b694bcd9
+~ _OTApplicantToSponsorRound2M1ReadFrom : sha256 dda3203d6786e40bc30e3457fd47a1469f0de2d383a77ce855d615a6299dce83 -> 45b8f6798c6f4de0cbbf6d1fecf88bc58523e3bc44add5bd870b2cda347b9406
+~ -[OTApplicantToSponsorRound2M1 writeTo:] : sha256 434a6c2aaa38a4ebea299641190e2813d452b50e67498c25c5771405f3706749 -> e4fe25d2faedcf0e1532bbf3b8946e22ec71d28b406f94b0cc9382af472739a6
+~ -[OTApplicantToSponsorRound2M1 copyTo:] : sha256 1e16e8c8aa86e70f5b2e07ccc2ccb8fbc6faaedf8677af0e99801c349f83f904 -> b939f17754e71c2261fd0040302b1e77de78e328e504b615a27e91cd2691a5be
+~ -[OTApplicantToSponsorRound2M1 copyWithZone:] : sha256 bd7cd74ea9f88eab07c1ed01adb3b6e556703930ef61036a418a437bf96b10d7 -> b849644cf8f283729afae5e95d660e7208bcdd736c65a4572c8cc81c2f85b131
+~ -[OTApplicantToSponsorRound2M1 isEqual:] : sha256 d517cad7e174754246ba73051ea10ac664f4913a3f980bcfa78d0b9b52e4a301 -> 0d1b4ca3aa6dd5e98aac480ef05de36377e3f87ea6fd193c3101f392218e0cbe
+~ -[OTApplicantToSponsorRound2M1 hash] : sha256 f31bdcb847ccc2412d4313eec4e8c5d2596a673cbafd02f8adb0691dd741f1d7 -> 71c969a9d6efd95719026ab1f56db19fa66388a0b48aa71833296606182c968f
+~ -[OTApplicantToSponsorRound2M1 mergeFrom:] : sha256 817c1f3d89d9542bc9d5e52a84c9840381f3e17f4d90025e93ef008e52f13b86 -> b3621cc4e40d8ba32ba86173529be05a737d5fa83b7d61a6dc9c6a94bec1e8d8
+~ -[OTApplicantToSponsorRound2M1 peerID] : sha256 bc049f4a2c53f917d8bc0d5a6c2d313db979a465eb5ee87e46b9e7068d80d473 -> 38340d7206f75ec1b1ad4f332eec4c689db468ff56709423b11c9ec5735de7c6
+~ -[OTApplicantToSponsorRound2M1 setPeerID:] : sha256 d559b89042b6882ff75eeba83cd63b2bf5cb0041c5dabda4abc4229330275467 -> d8a04405a3b8be5541a16c5379bac5c3d61e59fe6b56beb6f5243c8736a7555a
+~ -[OTApplicantToSponsorRound2M1 permanentInfo] : sha256 0ff135f48104135432e9bd21e055f31328559c4273f271f116374bd6691a1909 -> 23d96718e209ba848273f24468198b2b9279ff84e529498f4eadf528c64a66da
+~ -[OTApplicantToSponsorRound2M1 setPermanentInfo:] : sha256 a6c8c91237677406698d2d40a6167db980aa9a1c467ae5e110c02f9a19f2ceac -> a97e9c46f490ddcd2795bad31ea3f13c302bb68785419730322666d968e0c6ed
+~ -[OTApplicantToSponsorRound2M1 permanentInfoSig] : sha256 6f2b68abbe8a322cde6aba15d54e46be229b4b4473416c9079856ede2230c604 -> 004e00727ad363fa5d0a886332a36131f63ee8ccfe8df4acc88fb44a739d915f
+~ -[OTApplicantToSponsorRound2M1 setPermanentInfoSig:] : sha256 151c9e52c179ecd7aaaef0345e9bb5b0965a8107da40aebc750ec166e2a0de04 -> 98e7907f3c4c0f7787db1bf65898cb0af068c9e355989038be66c64469da4410
+~ -[OTApplicantToSponsorRound2M1 stableInfo] : sha256 7d9500697a6e902d28feca8e13580399648cb63787dc1a4069625aa6750f4a8d -> 8233438d01323553298b018840219889327d837a55bf9bb152d46e58c929c344
+~ -[OTApplicantToSponsorRound2M1 setStableInfo:] : sha256 bf6708a30c628609df4a4f1ea00b4f8ed3d7815193e4dfb70d870d6fea18e36a -> fb6097503e32614bf3f857b405acab7292138283ecea05472b662b3f4e0ebdb1
+~ -[OTApplicantToSponsorRound2M1 stableInfoSig] : sha256 081c3f6ebc3d75f32e581cfcce6bf2b140055cc8e273226f8d2f63536ba0f5be -> ca1d367464bc307ec8ce1dedc1336a9e5bebc975ddafe4beb3b55b122bb72f74
+~ -[OTApplicantToSponsorRound2M1 setStableInfoSig:] : sha256 599b985bd6719dda1e61441d08b8f092d35b947f4ba89864a3fb6395381c2fb6 -> 0b67532d02a663ddf2dae5e21a58259b10610ae2bfdad46aeec3d9cc375eb4b4
+~ -[OTApplicantToSponsorRound2M1 .cxx_destruct] : sha256 6c2cb2491cc3c7056746b1e0f7a0955b3f77d8d26044832e63a2e96b58a505dd -> 06729121554340f79b4b3e2610ecec5ab4dbc963cb3b23cc2d12dc4cca6c4924
+~ _CoreCryptoError : sha256 1b654070e5d70070eea2bd501be11eb02f96e19eea0ff848a789432fe5236e63 -> a2539ffe3c9d3c0ac7be5d7889d0a93c36e6521425d191f068334cad1c13112c
+~ _OSStatusError : sha256 c44a45c7390b6406bfe7589f48287c6b3263a14f1301c22f5fbeeaf66dda22ee -> 20d0eea91149fcba90cd83f2f2a63f1e9cd962560b3233cae24dd6389a9a9a6e
+~ _RequirementError : sha256 664f81881332bc91be175e15c04637b7fa1705ccadb1820b52b103e539ea838e -> 5fe044cc643840816cb5bf47e5c97772bc35a581175d9a0ec88e565e1032709f
+~ +[NSError(KCCreationHelpers) errorWithOSStatus:userInfo:] : sha256 8e874accaa1743744af6ec1c08175fefc019840a1aa654ce34cf605f2d1ccd68 -> 49dc04bcddd66f9e1bc863d3d753936daaa5e635a6bb9dc0acf1be1741349796
+~ -[NSError(KCCreationHelpers) initWithOSStatus:userInfo:] : sha256 ed24eabec2fc45dae536d9e8a2457341d7228fc8dbd71890bd0d2651f5af05df -> db631ef32cbf5b7c6ea350e06442e5fe9a65f2f95313e98154a3ec99249ea142
+~ +[NSError(KCCreationHelpers) errorWithOSStatus:description:args:] : sha256 e0424a11b6a5719ee2d76e0caeac92fc633853f4de7b4c9cc4733008ea1d056d -> c64d554b0f954dbe141bf87f25edd93606fb0a54fbf266f99b40232dcade5db7
+~ -[NSError(KCCreationHelpers) initWithOSStatus:description:args:] : sha256 50941b8a3000f3980e30f6acac94074ccad8c510fd1d417f92475a97eadece42 -> 0d87bcf94bb6ea734b0c6dfd13a42d04097a533cd6238ffa00eea378dde12de7
+~ _UserInfoFromVA : sha256 425d512736d1980ed3ad26e521b1ed39de2a9645e34fd4817a5720af5ea75b3d -> e4b7cf4f8a4d744d045eb74a2391c1591f2ff15fa5a3539734e2752a938042a3
+~ +[NSError(KCCreationHelpers) errorWithCoreCryptoStatus:userInfo:] : sha256 5612c17a26b46e4bbb6061056df01e711553f57db8efeaced0e22b17cf054773 -> 9f0cc60344ae7088269b0881a9ae55e2e9ba270e5c90ea4129cecb42b3b3d76d
+~ -[NSError(KCCreationHelpers) initWithCoreCryptoStatus:userInfo:] : sha256 5b8b1bc2b74db0cdb7c5cb96060e1590a245bc2aa040c4c85ab4618d9e4b3c4b -> fedec9326a2abe177853e84d39723a86ee178737688480d3c39d958a55e89734
+~ +[NSError(KCCreationHelpers) errorWithCoreCryptoStatus:description:args:] : sha256 99a4cb5e0ed7e2f75807d94fec63ce41a4689617a4afa405b27def908d46b59b -> 0d6a251ec35669f9224714c9ee373b78e215290721e8630fb18723ac9c821d01
+~ -[NSError(KCCreationHelpers) initWithCoreCryptoStatus:description:args:] : sha256 a44fbeccb97ba6a8460f48e12864b6ebfbeaa8ceac1b66d9a10a1a6191ac61b9 -> feca8e7162a66a5b69256dd31750c34b746e6d3a90a654f5b34cfa4432639da7
+~ +[KCSRPContext createWithUser:digestInfo:group:randomSource:] : sha256 3e368dadc6457aadb056860ceb82068a5b7cf7772578f095447dd4a1874467f5 -> 5d8f43d31924bb7fe6130982d6f32e157cb324c44af35167424a77393d6ee3fa
+~ -[KCSRPContext dataForPassword:] : sha256 2fa69a58e6a93d38a2c709a7f0fc7560cfeb7f9f6d77556c7f784e3578fb8a54 -> 542faf26a5b381651c394f8e9a83f6f1f98ff15280e0ff0b7c2954523d31b666
+~ -[KCSRPContext userNameString] : sha256 f683c225ec6a0d4d92948d71e56aca1f9e37a9a6d491af8a840b61952670d273 -> d969b1c212617a240707de1538b5d9e96814543be9e71d3c98a6b0ed923022a0
+~ -[KCSRPContext initWithUser:digestInfo:group:randomSource:] : sha256 d98b193de2776055e4a7ae3bd4bbdd184ffa5f5a6daba51b0de8291eca305f0a -> 2d33182ac0ad2f063a9949cbd74eb5c62049bb6cd02e4394a64e910cc42981bb
+~ -[KCSRPContext dealloc] : sha256 976402412fc090698ac5453ff4c4e012144655d7072345c4b99526ea3671a018 -> 213940f3b67f7c7df31a3076a5cc4e0d6e086ad1bb1db93145d83bcd640ec090
+~ -[KCSRPContext getKey] : sha256 0efbb5da573bc9e1206c639e134b9af53e74e550f5bf8765d9f895a1e1c6736d -> 1ee90be398aed619388233072fe828f958a622270ec2e352aea544c231a1c216
+~ -[KCSRPContext isAuthenticated] : sha256 1b1617b38945acab1759ab8e55d1c623191bb6735df2a1e4440091442bd1a3cd -> 39cce9ceaeacc710c6dd394c781a2613628766cc3eca13a146ebdfd33c67e814
+~ -[KCSRPContext user] : sha256 5fe8f0b7ba48e3913326541b3989535188f5133e92ede7a28aff2d1a1bd074b2 -> 7ae8e1f2f0c5994c4091ffdb3a7eb8f193d35b517713e534b982db6c0209f1b4
+~ -[KCSRPContext setUser:] : sha256 0d31d65e8e7a57adaa6e9cc63d78f02ca1235f156e869246b321ba433a99f2f1 -> 0866143c75c3f5b35d1e0a2d8c2f5da240a4077af0e7ecb858366bbc54d6c915
+~ -[KCSRPContext .cxx_destruct] : sha256 5898c7d570be01af968e274e315267fe0085187a3645fd32a687f0245b8c4fc8 -> 3a5be3291ab132678c4209d9fd67e067e11378f1ec82c6f5c52d65a4eac4cd0f
+~ -[KCSRPClientContext copyStart:] : sha256 e48d5243015fbd0350b5e59deec45f0be46ab099887eaf0ee3d4bb42315443a6 -> 348f4c796a29aacbcb3e755b8d9e1bd77ef98525453d9999534361a0b60ecb19
+~ -[KCSRPClientContext copyResposeToChallenge:password:salt:error:] : sha256 6ac744c8c423cd997b1fa8d5a8c7cb75350eace2e94ad685ed749d73236660ee -> b317183af8c869784e0e92c3a2fe9bdbf4d9ee109f0bedaba56d4aa717753fad
+~ _ExactDataSizeRequirement : sha256 5763c2103ad479db4d6c5729ffb7526fdf57bb61dc2eacdabbdaa9f52ba62fcf -> 78868453e4068b6dfd47a90d2aae844f54269e300521dd95329532fabf11476f
+~ -[KCSRPClientContext verifyConfirmation:error:] : sha256 6fa37f9c52decbfd4230430356292a2becb96e7ace0abd7d64d4cd001667530a -> 2733c1b1d5a2f6433914d749f2c7ebe6988dd013221b405a1e328fce13a7a5e1
+~ -[KCSRPServerContext resetWithPassword:error:] : sha256 6782086cf3289829227f4acac08daeb7936bd72b9970cc54c663726fec8844ce -> 5d2d178923e37635b04c3715e845711ccaf0eaddcda131a0238e3efa6babdbe6
+~ -[KCSRPServerContext initWithUser:password:digestInfo:group:randomSource:] : sha256 1d7dc3dd2443830b61cccf85fbd6c6fc6fca2c9d36771c24957083858527b7fd -> 617753cafb6ba959cf40fbe4fae8a40da46dd28b931908c4b087b801e7b26b36
+~ -[KCSRPServerContext initWithUser:salt:verifier:digestInfo:group:randomSource:] : sha256 50dbd170082fadb1db86635b9e4fbcb1dd773d84018f477a6fa1cfcdeb2117d2 -> c8e1720cab0653562c0a49a3bc709118256632fea24862eac796992d47090393
+~ -[KCSRPServerContext copyChallengeFor:error:] : sha256 d181f9b89c7368ef17470e483afaaa0ceb658b43695992d1d4226d8de85e631a -> 052862a0a202b9a9e623b6d2fd3eb242c83473fef962255c14e97ed45ccdd522
+~ -[KCSRPServerContext copyConfirmationFor:error:] : sha256 f85bb5c3ed3d4e8a4df1309c2dce0ca589c494d6818a85037ab1ff5f8649b2ea -> 5a808e591e87cdcfbe835c3b84f0218bd7f1c7e318542b2f6c0c60d5fa8819e7
+~ -[KCSRPServerContext salt] : sha256 94d311d58baa9d1fe64461914258c58c8cba66699774db41aaa5a8f4baf70a24 -> ee23843f7e35c04d7292ae3c984b1c56802ce7544714df00232cec1c02d7fbed
+~ -[KCSRPServerContext verifier] : sha256 7992461a316317dbbc8568f4357c138d70983b970764246d17fd9bbc280b73fa -> 31fa6e66dc16c394de47a058b99b890b0865ee669742ef7d41618b2aca8bbe4b
+~ -[KCSRPServerContext setVerifier:] : sha256 fce2cc3512bac302aae6dffee2b1eed87d0234939bba8080aa92e63f2f073255 -> 45573fd6b3822c1a1521b8451f6236253cf8fb1aea3897853b7727cb3426f5a5
+~ -[KCSRPServerContext .cxx_destruct] : sha256 f729241f36d5b4c57679ccc6e685d40ab8b6eb5d68f53bdeeb8918c22283b632 -> ffa2152c9ba1fd56802b9f245b238ad571a9733f838ab6aefa6f6b55f12b351d
+~ _SecCopyHomeURL : sha256 7b462acc7f9d500c5fe36bb6edb49db58d2406dd4cdfc9eebaa767ac941d1d68 -> 8ad5caaa86be6a8de3d7d99896751d5a46d4be88c44b7e4e4d9f8a9f6b3295a3
+~ _SecCopyBaseFilesURL : sha256 c7771b887865f4cf818b3b1c49bfc64d1e8cbe93e9bc8f3827c031631802de52 -> 0e9d3f209eabfc84ecd1f6aab8fdf77507ba4a2ae00e936925a4d6bcd6786e97
+~ _SecSetCustomHomeURL : sha256 7331904e3556bc6eb8a0e48cc687980104ae07561e019510bd31926e9e29e65a -> 3b3ea0dd5ac65816f144d67a5f519be5832133392a7ee4a6558cd888a811b30d
+~ _SecSetCustomHomeURLString : sha256 dd121d42d5dac3c5fd4cc071767ba7254578b461df4c8338749706bde20f1059 -> ae738ad7893c2350eaa5bb1179f810810904b93368f1e7466ce32a9df9ff60ab
+~ _IsScopeActive : sha256 ec5e4b7ba16ffcfc97a55f65226fd6164cb04f9da7c4e566fc48246d8a56022b -> 37327d4505607f61e0e3411ae6735d999cc9b2394d6d2e63c2d1b86cb49166b3
+~ _with_scopes_read : sha256 750d31fffd59ce23bbfa1195a73fc4433237816550f34e29dd973c566bc1b5b5 -> 99dc334c43cbe177a8715abc9f229e101f77454c7e3ead6b75f7117a3635bb0f
+~ ___IsScopeActive_block_invoke : sha256 496b61ef286e6daf48d07a89cba312b910ac233a95e1deae34e2181b3d692ee8 -> 2b599bbfc87e3baa8b690c711d933bf49e5fa9f9aa48e2b21709976046a39cb9
+~ ___IsScopeActive_block_invoke_2 : sha256 9d3846d32f17de2f5369028ef6f960f867256208fe30a58a2140722c8dff3626 -> 063397f90ff781a095984a1818f28b73b41509176c96c579ce2239f4a1150022
+~ _IsScopeActiveC : sha256 00730dbbdeead6442abd1215489355692d1f09cf6388901eed926703ae43e5ae -> 0eb306683500d0a3fe97de8b81d2e99e0faf5ce8fd9a3ba32277e3a01e465082
+~ _CopyCurrentScopePlist : sha256 0b54527e7179c475123da5008b6c907103a5e21eb2c0d17dedd28305aac713a1 -> 0836b977d4ce1098fde01752e111498ea3958154e3419e540f9c048ebd9924c6
+~ ___CopyCurrentScopePlist_block_invoke : sha256 437b8f1aa2975b335569e783b97e9448fe43a1ebf3f7c2d289e240d5608ca423 -> 4c151c272fabee67578c25cb1659daa68009eef065f2a0148e72e5479a019962
+~ ___CopyCurrentScopePlist_block_invoke_2 : sha256 d9fb432fb9efda6c59b74a918addf20954df7a956d60bb11ea0a974bdd627404 -> 476663664d15d97606168918086fde24006867fc0c6879d796e70bd3ea060728
+~ _CFSetOfCFObjectsCopyValues : sha256 e25441b3285e52209fe07edb1c383ddd18e70688ba8521c5e342786616fd597a -> d0f1264648ab8c466c8f2a894e4e0a446de3270c520ef08d96575222e64f348b
+~ ___CopyCurrentScopePlist_block_invoke_3 : sha256 3985daacd799418154a7b7880b5a33dbba191b6a68c84c881ed8e780a6e31cef -> 1d3b621bd722e8442a85579c1ef11652adf043ba9fc21bf915af86fe027df3d2
+~ _ApplyScopeDictionaryForID : sha256 e1423484a215c64494374af97a7d201436ddbe9fb5e887bb43dde9442dfafcef -> 3fc4da07d2d74e4142bcc160a6adce5a4de206a8e2f9a32bbfc497a6390bca81
+~ ___ApplyScopeDictionaryForID_block_invoke : sha256 6f7465ae02ea6ec45a86476e9ff9e4576e88053402ceaeb1a843e65498292098 -> 47e940887e4160dc6cfc8afd7e67d77c8eff6bc03f7acdecc36c41a587ecacd5
+~ _CopyScopesFromScopeList : sha256 a044f8427775c38bbdb466ee8c93c5b3b1f08e055374ab847afc65b3e4b83490 -> 3d0d4a64341c9f3b9f326473ba31189e30086a49899de011275b917025e6c84f
+~ _SetNthScopeSet : sha256 fba5304780d952a05c3de42f18cb88c252f31fb3ce7b9306e8e3b71c6af4fbe1 -> ea8b82200ffc96380eef0c0a3d104074220213c1a23496bd400a3bda3a5f310f
+~ _ApplyScopeListForID : sha256 c757cb838310f97d92e81fb1b266c3311d839b1cb4974b26abf968b0330d626a -> 3d50bf5849a27253c8cbb821997b8fb1e31829c8cb1afa76abe6cec93d539343
+~ _ApplyScopeListForIDC : sha256 363bc78979adb1b9b70e56bd0b9b8939fe20d4403a96fc97b0c7b8a5e8247fb7 -> a82a3525a53caed30cba81d7fc4e5225de6d8d2ba8f76c06aed2fab4ae0d0eb3
+~ ___security_debug_init : sha256 00c8a8b1c998f49973d85393c51a2ab8be50dce108402b4821bdd153d8064329 -> ef2037ebeb737ff83c03c2a5e073d890eb3b41f991cb279f9f5a3ef31d8e7d79
+~ _____security_debug_init_block_invoke : sha256 6dc3cff6e0417d84051ce1e5f3744f0855b2b9d1a5a885efed5cbbcfb698822b -> eafb7e39f9e12a01092c92a54c426f3997cd23582dfefc6c678e76cc1b445cf0
+~ _secLogObjForCFScope : sha256 c549d85f59ced611236ab80f48c43e0bfaf392859449b420540f79f383457204 -> c7b22af924ba07aa2ac86d7f02073fe4600eda1439691ed7b0b761ed1c0a75f0
+~ ___secLogObjForCFScope_block_invoke : sha256 0ff8e400597442fb5d29fc19b9386b0d0a36f06fb39452e1e292fd1420e9c318 -> f719fb21711b3a495def357fbcd36fc19ac5bf8296724294ee59dacab093162f
+~ _secLogEnabled : sha256 dff45a3b29c313849122709b7ecc0364ac2f49671d7c5c6d1b063fba77197ad4 -> 165a82d6427076a7948b623fc2f3fcde84841f96248060c14b1c632c0b8bcbac
+~ _secLogDisable : sha256 5c5faecc8c45f1110495918b955ee543fddca28a7adfc062c20753654152f264 -> b8619459252c67493a9ec2d43feee4ffd5164f2eb0ee80cb0fddf0a54ef92dcb
+~ _secLogEnable : sha256 14331d1b40f6ea6f83e465006d290d38b6dcb9998c66049b0e9ccf3faabc38bb -> d1f94b1913260f1f085ddfa73c35667ae7ae561543e339a90827bc99a7cd1e31
+~ _secLogObjForScope : sha256 733a05bad8a868148b11b762ee782889b351c81c1324875f9b4aaad16a2b5ccc -> 57a084c05b66b5fa6d32f3a82dca60c68be28afa0d0071c6fb3f701e99337c7d
+~ _SecLogAPICreate : sha256 4b33ce34f5fdf762077a2c58b39bd2b0223de380bda9c01baacf0f47e7d5cb31 -> 5a1c29c9c38a00aa4982d6ed8f2a88df6cf07964f1569bd5cfff63ff3aa1ef70
+~ ___GetDispatchControlQueue_block_invoke : sha256 8f897a9ecbf221d20485a8fbc40dee379f583f12c1af714bb160984245d93ef0 -> 64b73c2d4a1dfab982affd789d09abff916156ddb8c10c10d7e2346ff8e12db9
+~ ___CFSetOfCFObjectsCopyValues_block_invoke : sha256 8be3ac1b932b10283760f1a04023e5e33ebac680b365c1c58b6b5e95244db6d3 -> 948a741cf933fdf9026d3d69a0c4319d816303a40e741da3057e470952fdeaee
+~ ___CopyScopesFromScopeList_block_invoke : sha256 3043fc9580f501471811c4bdfb79c875a9dbd2655f7cfce3a33af3bc65579a1b -> 1c8a1e4bfd8a276d411fea335f98a85d2a5812c30cb6d77213e93a5ec32c68d1
+~ ___SetNthScopeSet_block_invoke : sha256 8000b558dcb996584cf4802995690e81860cd49cf9fe4c1fb5ca4533f65af899 -> 8ef72f253e86fbaa0e3820b9db9e889bc775f1c49d447c71077cfb4ef7dc6184
+~ _ApplyScopeByTypeForID : sha256 c3f5fb4424a58bf23690baf2576b87394bedad2efdc8aa2e6b71d81cf41b8581 -> 8747b1a580b93e22e6873c3b5019233a77ca90604d4e7d79de3f910bcf67081f
+~ _SecGetDebugDescriptionFormatOptions : sha256 fdcd8c51a9d5a21f915d50cff9bcf5b06254b57b8f401c580723fd4d71893816 -> dc684ce1162e8a58f5adbcd18501693ffde2d28c74eb018c57926ec200c44b66
+~ ___SecGetDebugDescriptionFormatOptions_block_invoke : sha256 6043128fecf7ad1a5955d7616da1f5d009f800d2a52ea9bdb56b343931966fa2 -> b2a1d729143646d988d779820ceb1ee327a50948d65df15e1a2a70549d86ea27
+~ _CFStringArrayPerformWithDescription : sha256 45c3eca714ab837e9059b3494173c04ffdb4b73f4c8f0814e0fd1ada7cb8488b -> cbf2e03b49ed39f08e3c493453417bd9bae8eaf7ad4d0e044f888ecbff618505
+~ _CFStringArrayPerformWithDelimiterWithDescription : sha256 2add073d0da085ed622f308991752afa8ab917d624e2b4e90fd923308bfc173d -> c8fb0b109643fc487441549d9878cb2313ab5437699cd904bd28da190b90516e
+~ _CFStringSetPerformWithDescription : sha256 207670fdfd5131b3ee93d559c5ca4cae9053db06b39ab59e17cfd9eb3b0f5a7f -> 379a5e9650e6a7462cf9f8fcfa3cbc19d7f01dcc1afbcee5c1b35fae65721511
+~ _appendDescriptionToArray : sha256 e2d248996807c49cabc35f9de02b522ffe1bc8a8bf59fe90175e6c2a5d6f04ee -> a8b447c50685eb0a3e011a75fd27259c0505103f2cb9cd7ac65307a4fc806877
+~ _compare : sha256 54c21b3d5d368161561305b83a8a18941119aa70ad5266b503874596a3395672 -> 46bfbb9c9ea377b87d1d83e179779abee3cd464e8213072e798876e43e099665
+~ _SecCFCalendarDoWithZuluCalendar : sha256 f9d3d0256c3260cc47b612182238cd23f1a517ad658cc31a0a0916c73f0edac4 -> eeebd58d87c08a5027d2f506d0d6d85f37ca7edda6827f884cb70cb25b1608f5
+~ ___SecCFCalendarDoWithZuluCalendar_block_invoke : sha256 418876ae8ac7d220657f3dd04dba84f6af20fa471471e29886549575c0a2fdbc -> e0f8e70eb0150349765b1e4edebcde3bfa5a2d5ffffa53ce92821cf3c6692bce
+~ _CFStringPerformWithCStringAndLength : sha256 53f28b4e8a2bdf5ce88e00c6af2c33f2291c4d5ae1a055a6a43e595922e94c05 -> 56e4088b2bf1960793dff0b8e9e873ff7fcde5b66bd27dbdd18b7080321ec554
+~ ___CFStringPerformWithCStringAndLength_block_invoke : sha256 67c1e5affd1145940099980200e7b0164d00362507040e7cc230dec03304e685 -> 45125fd2044fad593369ed4a1f10c5b5230bee36b8717e3ff6200e721e109957
+~ _CFStringPerformWithCString : sha256 1bee8f923c437712ca1f2920c861c45595a2246d7f75ea1f484656c6d522265f -> 3570ead408c4b463f98f2ff42479432654cce450e5ce2db119b7c444e179edb9
+~ _CFStringPerformWithUTF8CFData : sha256 3b6ffb5bbc615f85cc8bad392c8ecd6ea6742683a05b3efce298306f3932aaf1 -> c2e39573afd25c8b1db384db33545256cbb5324d0a2edf0bf5caa8d6f552f857
+~ _CFStringCreateByTrimmingCharactersInSet : 696 -> 712
+~ _CFDictionaryCopyCompactDescription : sha256 3a068840db5130ddbc9329424619b03815f76fbd2c154a7af33be8b537c826af -> c28bc3b357342c190d4d6a79a3113a687a59fd8c9d07f0982f2ed68f400dcb1e
+~ ___CFDictionaryCopyCompactDescription_block_invoke : 328 -> 336
+~ _CFDictionaryCopySuperCompactDescription : sha256 0a001bb8fc3aa24fa906b2bef1423651d39e955249c428380414033eeab4c10b -> 9f0bf445bc34ef78834c57ac032e14c79307ae215dcec2b06fcb7f3dd17de9f5
+~ ___CFDictionaryCopySuperCompactDescription_block_invoke : 504 -> 524
+~ _CFDataCreateWithRandomBytes : sha256 42074c5e3b53ce5ba4c20e014784e690529159eb7fd5a034d0f4dfccd147b39f -> 20e9f9f219c002a1ea8f7e891abe1122bb9765a058ea23d5e1a9d06232281dc0
+~ ___CFDataCreateWithRandomBytes_block_invoke : sha256 e484e7ed014d94b56dc1a3705c0236827b8edff3b953c5c27feec19af9f1619e -> 928d5a3e5e696a61201421b8bd14c8a52ab4a86cf26691c0167249bdfd70c046
+~ _GetShortDateFormatter : sha256 9fda76034cc01f7b894107f70e320d4da7e28d4c214c35c5a5171a6897e32e7f -> 67c49d8fbbe4b23a0b2ef967ee16d5e7188b3d73a758ce0df57d82884d2f4ae9
+~ ___GetShortDateFormatter_block_invoke : sha256 34f7f68129db133ba3457f3f309be7815500c6d7c6fe442454c518f53ee5d075 -> d09493dfe9517683c35c813296782f12cb115e775473b4e84acaebe91f946348
+~ _GetShortDateFormatterQueue : sha256 b67ea8deb1e380ab8cc42bdb9a042ef3a7783586c4b3e45fa571fa45e1db6492 -> 540949707fb9899a0d92fc9bc61ccd819a06e35061137e1ce706f7e5569eebd9
+~ ___GetShortDateFormatterQueue_block_invoke : sha256 3b23c47d170e0ae35f77c301e672438cc189fbca2800d1692565ba7f97c2cd0c -> 0856756eda46b08c8fb6cd1f2e9a2ed0398c3dbcd6ac6377c6164704a3b4fe3c
+~ _withStringOfAbsoluteTime : sha256 f2fc00490a8e54e38bffdb265f9c8616f8faa36724a2e9f9702158a214860f9e -> f7daf049b3cdb2980282facee95440e832d8944621eebb89518e11eb7492819a
+~ ___withStringOfAbsoluteTime_block_invoke : sha256 95449728ca1a7bb4fe56f77269890eef2464b3f77ad346d93965b11784b347d5 -> f022ce344bb9a0820260632cbcc4f6110d04ea65fa7a3a844006266e93a0c82a
+~ ___CFStringArrayPerformWithDelimiterWithDescription_block_invoke : sha256 d6b69fffdfbd5ef1537fe6463eaae2cc5016ffebe47308ffe9af0e1f79a9e53a -> 10f0926220bb6021ea9c9dcbdd12a0e83846c78024d357c73de61219149f197e
+~ ___SecCFCalendarGetZuluQueue_block_invoke : sha256 03800288c37534f74a5a38a5bed94bc049d0240c0a8aeb9c25c8415f85fa5bb1 -> 9dcd4b80422b67ebe6e9d5c656fa70b1023cc628c70fc106ae73e066feccb9df
+~ ___SecCFCalendarGetZulu_block_invoke : sha256 15262e8671161987c43b9e4717c0d4dedaeb4223816f41e5d489bee4d808389a -> 137b3caf153320bfdc396b5203bb75c558b3557c29dc6f409cc876d442be9718
+~ _SecKernError : sha256 ed1a89fd4b87266016da9da51f41d1beb61d7b574c90a45b1393b7c1cab03263 -> 29dfb1fea6965df27b5da9df6bea693577aa9eb5a792931a4dfd13506ffeed7a
+~ _SecCFCreateErrorWithFormatAndArguments : sha256 8026d0b41ff598bfcbfe7bbfefeb4ac8dbdb6f74b5a8f784d230c60a64e01811 -> 5d15b05d4fa6af8e8d1e1245376e841bc839e34072c51f9f2206a40a6a332a7c
+~ _SecCheckErrno : sha256 284035f033246e2dc111d2f9c8965e8a5e804b49a9d1c59a7779c894090a9cec -> 804c51e8befe66cb57f20f56dc1a71394ec4635c17a2a43c8526b4a990d686f1
+~ _SecError : sha256 999b9fb74eb8e4e4c952201b950414ccdf9b8dfef5796868c40f50eb940d0c6e -> d3e092b724b98c9547f973aed4ceaede3cebf77a4dbad524d14b7e6627e33ac3
+~ _SecRequirementError : sha256 995d9d69ff1cc6b4f83b50ad5693f9ccc8d767178d8f545ee413b9a402934ce2 -> 0bf70813d3845603d3384e7a231b4a510244c51f188e5a6c96da5ac1e71c1d1b
+~ _SecAllocationError : sha256 1d9e0f6c7df50c6a707ed655697d9ecd76b60359ba5cab49989ba74ad5dc2257 -> af05a0bc437ba30bad234e389a6b8f5580ad641904d72ef401594f731724469f
+~ _GetKeybagAssertionQueue : sha256 9545ae2fdc537683d6b892b1ceb5af3f15f5789d4edf0e0d44bc29fb2ba91789 -> 2ee0487ecd0a36a51bd02cdd3b4edcd4e795d308a3c722d8ec3858570516544d
+~ ___GetKeybagAssertionQueue_block_invoke : sha256 fe4803441bc586fb76211107be8495676c62248b8879869fd892e3715213ec8c -> fcfb8ed9813cfe2d548cc9dff2d28ed4969e327129de46ccf1f3ba5016756d71
+~ _SecAKSKeybagHoldLockAssertion : sha256 06620bc2e04b9928c36f7211573d57b981f967da6acbf876b454e705a2670dd8 -> 7100d9beadfeec852dd3aa25853822dcc6a1dcc620307d75a09848bbfdeb790c
+~ ___SecAKSKeybagHoldLockAssertion_block_invoke : sha256 f086cfdd94a30c23426430ded3e8df1c197e4240f80aa622050451a234958102 -> 6d61119026dd0cd1cfd8a7c8d07804ecc7c5ad32b9dded719eaae17c84bb0798
+~ _SecAKSKeybagDropLockAssertion : sha256 10a8e2f5bf8a479c9132ecabe3169eaab4c46500f5ce6ac685227034c446f7ff -> a31aa90c3f9f64ca201f57c3d04b6e3dfb1335bcbabeafd3622ec6201a241ed3
+~ ___SecAKSKeybagDropLockAssertion_block_invoke : sha256 1370ef5490ffa7b273a2dae5072a888e8fb4d6d836ce725c10d528330cf1ba58 -> 195abd0b5d4a56e086802ab8c5bcff2794e91df8c1ddbd70979ac0316d95214b
+~ _SecAKSDoWithKeybagLockAssertionSoftly : sha256 222cd74d58864e0c14de79311995d1757cfa51f92542ddc7a13c3f5917e55daf -> e030fb87a0e0a6e393e00a4d10258708d6cb0b9f5c23e9eacd1ae17127577a09
+~ _SecAKSCopyBackupBagWithSecret : sha256 abab91cf5f8763ffe50021b49fad7d47c623398447ec6ae956e2fabe9ce53424 -> 9a5fca963a34b826fda87aa3063b543701c477bcdd0b190bfa6ab57511bdce43
+~ _SecAKSSanitizedKeyclass : sha256 c6a7ba3c103e734e210f3e3bd7adf6d005debdf096aee2dfbf2719b8987f912c -> f1cc3ceaa280a249f4b3e2dd06a9bf05881f154187726d9c2cc09a90ad34f116
+~ _SecSupportsEnhancedApfs : sha256 abc9065b0958c924c724a658ca679573805f7a4ca405fb59cd8b0c5474c43395 -> eb9768343eb0c2749ec416059daf32b6bffcb44b2d151f3ccf3023d9cdc4dd20
+~ _SecIsEduMode : sha256 53b407e881c1b13479e94ccbc77683d7b3ec63809b479eb586d60bdaa885a738 -> 0a79b1fbaafaaa7d255eb6d24566aadd521d8bea64467c96026151397f2c4309
+~ ___SecIsEduMode_block_invoke : sha256 68d6df4bd40e494914851012651a4202135cee5a3c7993712f3556ede02f4bb7 -> 8e602971a4c5d3df61eb1e5912f2a37566f670a2a72437babe445df9a21fed03
+~ _SecSeparateUserKeychain : sha256 acf36f8712d0491ff7b324e7a18b652db020074655ec45e67287a3f62b239d50 -> a80ecdc7c6d9df87dab6b78f195c4da427d6bd534f22d12edbdfd958bb967a93
+~ ___SecSeparateUserKeychain_block_invoke : sha256 f55c14689cff7d0595c037594205f57aa18bef4922ac59149d62c08c8ce06c7b -> a46f917a3267efd249af95bdd26d8441cc94f1a87cd6eb34b40717c9305ef488
+~ _SecCopyURLForFileInBaseDirectory : sha256 c1bbe1a0b4cc3a7fa12da5e7e1a81252e31dbfc0f4fbab6360eabd0d6ad1dcc0 -> f795a664dfb66144ae0ef9f33e84ec2cd236f45d0b277e347960a5743836e40b
+~ _SecCopyURLForFileInUserScopedKeychainDirectory : sha256 e8484a7a135710bc5695f416fab71ffb7c51022ec11c24f9cb1d634fe54c3c7c -> dc3ece96ff6610c3d5af90037e5ee9f3ae3817d8765b0c43d1727811ad02d372
+~ _SecCopyURLForFileInKeychainDirectory : sha256 5f580d4d300ec100cf45a6edc83b22888679cdfd9d4155c6f259572ac8721b93 -> 7f2d1381788e0cdd4faa15f7f2acd3e81f82be7acfaaedc332e221eaf48c2254
+~ _SecCopyURLForFileInSystemKeychainDirectory : sha256 d3142b9f3654c276da2a486eade81cff7232c03ed08252200603e9a1b6513b08 -> 519f84fe233547767c7fc33ec5baa6f49247f6bf096d4e42ee52715b2720c545
+~ _SecCopyURLForFileInUserCacheDirectory : sha256 d0ec3ff4f6cef4077cd16de4fa6f04c1c274322abf95578001627888e29931d5 -> 50ffc4b0e212332a43f2ed177d8d273ae95053d1491ce0a39ee25d2e0aaa97bb
+~ _SecCopyURLForFileInPreferencesDirectory : sha256 87f07eac4ca1c10c9e88e2aa6b4a955d06bad10a05aabccc56b2c7f1cf165452 -> cdbe294ff8bbb5abf4f4b8ab01aafc75df377ed29dbb0ede941285cab5be0e59
+~ _SecCopyURLForFileInManagedPreferencesDirectory : sha256 436cf19b855c1a30262c486864a74396c00d08be56412e1ab8cf32fc8dd50f5a -> 085912dc364454259c11b68eafcb69bd978af150c53fdb9b7512027ea006157e
+~ _SecCopyURLForFileInProtectedDirectory : sha256 5019c9d8b83d4d4f85a24965e7b8e9a80207e25060a971de70d7541bbf9a00fb -> f71e29add623c9844696a5fec2e7767c89426600ee890b6c9fac34f9ed7266f0
+~ _WithPathInDirectory : sha256 24d03413cb91feab15ab3212de3cf0078eb7541a12f56f96cd1b9e02dd488b51 -> 507f22794eba5a30efd39d4437db18bb29a1bf6c4927d7d1e921cd2505f82e1e
+~ _WithPathInKeychainDirectory : sha256 a34452e13161c49e28ffdebb9e93cc9a617ee238d06b1739ea5a6f8e286c778a -> 96d1247ce5577939f2016f2406a8470fb85a75777b47411b1cc035f17311b368
+~ _WithPathInUserCacheDirectory : sha256 37f8a4c173ba540de50024d8bade6bfd8be362e4685a0faadab7ef968eed42f2 -> ca7977556ceda2538edb4701be0c8ee3a13d545b03711608bfeea6ac6c345088
+~ _WithPathInProtectedDirectory : sha256 5d01f7a487f7135d75aa41f346974e1a5008d6d96fe87005e6245ce7976769ee -> e6d3bcfa00bd7dea93600850aa952424c416260afb0032c3d3180977fbbed8cb
+~ _SetCustomHomePath : sha256 7d08a73d4299b490fb882795ea8f058fcaf342b718390a9b058095cfd3406571 -> 2e32261ba22f0800608b6a21714cfda375cd1ba8599870478e26d8cf5c8cb5a4
+~ ___DeviceTree_SupportsEnhancedApfs_block_invoke : sha256 e2c373aca9a9061e0b11319edc96f201767d6c0cb9d894c7f380a4f30e7cd924 -> 3107e01693f5809adf00025df893b2de9646003d213127695ed76d9c4438f10e
+~ ___SecSharedDataVolumeBootArgSet_block_invoke : sha256 7d5bb8b53cb904f8300561cb1e42d9ae897f86c16040be43d6bf818646e99efa -> e289d9220e22714b5ed97be7bab91797ada8063b8bae43b749216fd07b185614
+~ _PerformWithBuffer : sha256 2630c06ad4f1a630a115676b8ec319e55d9a3f897c5d9b0c314df4b691d100ff -> 1c4af613d0fdf5ae3c3499bccdb1e85bfaf2583678e0fb44bc60d8bd47cfa26a
+~ _PerformWithBufferAndClear : sha256 5f31f29ee9280b98dd702f084f9481f7c31acf59048eebff4ebe6d617ff16a35 -> e1de8fd316d5310875faa4fd3790e6013f40f9ff257dd193963aab808b555909
+~ ___PerformWithBufferAndClear_block_invoke : sha256 c23fc0c2bd3886d85b189aa375bf980d15109cd1be6e4195cb8c8358dee016c0 -> d7c9ae79237d7e2d3c67dde38ce8681652497558e63c1320672f975bd625f1dd
+~ ___Block_byref_object_dispose_ : sha256 85b47eb1e2928bde62406c4069f94bf1593aabd1c1edee0153487664c3ec2b31 -> a82d7d33c7cac346497a8c59b154d9bd7bca39717c38c3e40d40e2785bf83a56
+~ ___Block_byref_object_dispose_.394 : sha256 43cf9fad15cd88d7ecffa188c63e4e4323b1410032ba4e6f2527d548df861a9b -> 8966024bf76e5b482625f7025ba32b28c131f93ecffc94d131fd187cd0619038
+~ ___Block_byref_object_dispose_.968 -> ___Block_byref_object_dispose_.970 : sha256 d00b1a061c4bcc3ca9addbe8bfa38cf23817f534de353309ca027356a919f535 -> 9554ee79893bd23061b9bfd14501301fae2289074e1bd085a010c9a681643526
+CStrings:
++ "com.apple.security.tdlDuplicateMIDRecord"
++ "com.apple.security.tdlDuplicateStableID"
++ "com.apple.security.tdlMembershipCheckFailed"
++ "com.apple.security.tdlMembershipMultipleRecords"
++ "com.apple.security.tdlSilentDrop"
++ "com.apple.security.tdlStableIDDivergenceDisallow"
++ "isDemoAccount"
++ "lookupKeyType"
++ "recordCount"
+
+```

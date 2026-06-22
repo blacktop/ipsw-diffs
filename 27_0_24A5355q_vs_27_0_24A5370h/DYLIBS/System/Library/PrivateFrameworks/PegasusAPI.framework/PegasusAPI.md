@@ -1,0 +1,106 @@
+## PegasusAPI
+
+> `/System/Library/PrivateFrameworks/PegasusAPI.framework/PegasusAPI`
+
+```diff
+
+-3600.53.23.1.2
+-  __TEXT.__text: 0xbfafc4 sha256:8caeeafe7be18b13606856a1355b38e6150579c83fc7cc77be5c968b563529cd
+-  __TEXT.__const: 0x10e358 sha256:b9f9005e2c87560789e6c3a514df394070c0244ed75d73b2e630a9fcdfa2e751
+-  __TEXT.__constg_swiftt: 0x2c854 sha256:8ab8a4ccbacb4414fe1de6f15291daf69fd0317e2e736a3e5401b7b6dbed5a5a
+-  __TEXT.__swift5_typeref: 0x18fd7 sha256:7b0af4fed2bf4c94ca5032225a7b2312d8fab35d9357f051a75ea8beb8bee703
+-  __TEXT.__swift5_fieldmd: 0x34964 sha256:bd1592a9870b42333499d3dddfa1c968f660c56d65e55fa415bae319dfb0460f
+-  __TEXT.__swift5_types: 0x2220 sha256:9db7746137fb66e4bdb206dca6423f12640ebbe222d973b23fa60383ee0c31e6
+-  __TEXT.__swift5_reflstr: 0x32065 sha256:01f50776ad5fdd6d78f4bb4d4f06624a75b3d7adcf93763253380ad93b1a915d
+-  __TEXT.__swift5_proto: 0xb288 sha256:d8fac02c15492b18ce838e0866118954db274beb4c7fb99a0f36cc5e3bc17391
+-  __TEXT.__swift5_assocty: 0x5190 sha256:e50c2b160579bd8e77cc9b85742108ffb76f5adaa137c743c5c58440e129d43c
+-  __TEXT.__cstring: 0x10020 sha256:ce99f20b9d581f528e49c3cec460057d56ec5ac23c7d03d909f8234c4be63969
+-  __TEXT.__swift5_builtin: 0x12c sha256:92f7d581812fc57ba8be996a85e0444577a9b9fdf7387eca4d9dd104c6d39354
+-  __TEXT.__swift5_mpenum: 0x80 sha256:b10a85d223b4da06a12b64cf7a3a830699d51f1dcaf60297c1ab3467ae981587
+-  __TEXT.__swift5_protos: 0x8 sha256:fc3a24929c96ae7bd21062f258853789364a8ab372ff06539e75b9c317da28da
+-  __TEXT.__unwind_info: 0x54f80 sha256:2127d5a08417d5a761273b777807bf27337cb063d9bcd870e716e33e480e1f2a
+-  __TEXT.__eh_frame: 0x72950 sha256:0d7c411660b8cc2d5c2996a06432af8a1343e4acc846fe984f1ebc335d8b4dfe
++3600.56.7.0.0
++  __TEXT.__text: 0xbfcb8c sha256:c21899e2609bfcefeb3c5afe3c9f8dfd9dd1c8e59ea89da32b5b6de2ed9c02fa
++  __TEXT.__const: 0x10e6c8 sha256:eb5c44a294492a4df95225e681516fe2f2f8850b1e7648d9420b1788299e4a1f
++  __TEXT.__constg_swiftt: 0x2c8b0 sha256:5ce9403bcfe8b8017e77aa4262d4a338b426fb9f453cc58a6f8b82cf11fe140b
++  __TEXT.__swift5_typeref: 0x19041 sha256:b2752d7b4a973366e16766c217cf6f9f5b602b8a7a02dd169d476069595a3baf
++  __TEXT.__swift5_fieldmd: 0x349e4 sha256:789ff14d0787222f3dcb8a3c055d9079eb115cc5cc23f57d4a616e4c31130c07
++  __TEXT.__swift5_types: 0x2228 sha256:6a0ff4c9770a66d555ddd5ab1a123c7d62ec5931da55df803b9037526f2a9f61
++  __TEXT.__swift5_reflstr: 0x320b5 sha256:b9fd6bb0868941ca4fdd3558df134925733846b56e11a19c79da57b1293807c1
++  __TEXT.__swift5_proto: 0xb2b8 sha256:644b6240f7a1fec68059899250cb21deaa4c061ce1e55edc107bf9eea4e8d9d3
++  __TEXT.__swift5_assocty: 0x51c0 sha256:27ddb9cda9691a5d17eedc74d0d5998e4b0fc8ac862dd5ed0e1b07c9348039a2
++  __TEXT.__cstring: 0x10050 sha256:b1d94d045cca99409577f5b5b3ffa0d49336bb8e01adf1090f2b5048e3206bad
++  __TEXT.__swift5_builtin: 0x12c sha256:6f541f64e98264bb81682f94866a0b72e1bd9c9a324a8f4d0e95bc86ce494dba
++  __TEXT.__swift5_mpenum: 0x80 sha256:98f82c7ba25a32119fa1c1615bd093c06bcc6415f66d01e5128e21c0bed48dad
++  __TEXT.__swift5_protos: 0x8 sha256:f654a769713316e83c7d9fb419c7da6b37717979f5d5bbf95a881e13054df230
++  __TEXT.__unwind_info: 0x55008 sha256:17cc38b125d4255249e13413d45754efb33f003d1f904dfa7410850c063c3193
++  __TEXT.__eh_frame: 0x72a88 sha256:faadd3a5b49dc5ea10c3df504fcb19be009618cf1bf4531c2099bfec30f71290
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x13ff0 sha256:2fc35e962ee3766323be383866c87c791fc862c1cdc8d4e66d60c836542e561c
+-  __DATA_CONST.__objc_classlist: 0x5f0 sha256:88a8a0bafff703f95760f0889a70a5e5d74a8614d170219413b75862316d9404
++  __DATA_CONST.__const: 0x14000 sha256:e25c01b84df97fd982c834b792d2e7be43b1d3a1a9e97a79f438d5b4ba6fcf69
++  __DATA_CONST.__objc_classlist: 0x5f0 sha256:b6341d8bf0cf2b9abb2403f3b0a01313cc0b4a8ceaf521ce03ee3e1727a76131
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x40 sha256:125bf80df623522906b8b012fa16a1d32f501a9f4bfcebc60e3fa0a4a78aa4d4
++  __DATA_CONST.__objc_selrefs: 0x40 sha256:eacebb3d341b867fd9846f16649cf5ce924829e058e01e90e96c273ed81cf022
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x232a8 sha256:a37647dc43fa55a831212d170158622db0daa386b56e55677442113532dc8ddc
+-  __AUTH_CONST.__objc_const: 0x21eb8 sha256:788d980099e69b779351bb0b393f25c23b9030a2d201adc6f94c7880dc9b0045
++  __AUTH_CONST.__const: 0x23388 sha256:1408a56d7ce4e57666159d51b9c31bfb3306873431dfb27b99d38aff3e150ed7
++  __AUTH_CONST.__objc_const: 0x21ed8 sha256:9c037afc0e8a1ac52e08abf8145d5e0efd78d00d585cb0973beea12f14e07c24
+   __AUTH_CONST.__auth_got: 0x838 sha256:3bff857daf1c246b3ba79bff08805f403b65b0e2a5cffb40b078a383eb861514
+-  __AUTH.__objc_data: 0x1400 sha256:dde6dfb401fab400c40e29d2b25b89bc1552e8596b0aea216e594700cd725562
+-  __AUTH.__data: 0x1d338 sha256:fbadcd226aadeb87892dde86b89cbe3417b1bb42f35f74bf06de9858e4a44488
+-  __DATA.__data: 0x2a438 sha256:120402fcf577dc1ca5e96545594c043850eb1f67736ff871ef54ae855c14362b
+-  __DATA.__bss: 0x151b80 sha256:c29944016106cb84c623c49d3b8017d030699f93991f552d9d9f86f956720308
+-  __DATA_DIRTY.__objc_data: 0x1fe0 sha256:94769968bfbd9127f80079c5066b0b11943a778e17231f89312fdb2ad1b66849
+-  __DATA_DIRTY.__data: 0x47388 sha256:3b3262a9f986a46369fd11364efbe854bae9280f77c314216a00d2ce0f1277ed
++  __AUTH.__objc_data: 0x1400 sha256:792b61b5abb9bc7f2c4c2f44f3d69b722659125b4e1636f959b250360afc94b2
++  __AUTH.__data: 0x1d3e0 sha256:3cf7c73abad32969b4417d0e08045124b26e3b3538e9c6033bfc193f3053b424
++  __DATA.__data: 0x2a500 sha256:a6776869d0f3fd44038a8a3d50ab80746fce515a0697482bd02a09eb321523f0
++  __DATA.__bss: 0x152180 sha256:8afecf7e92d57badbad46b91fc0d562fd36c58b80c75156fe2b3480793b3c93a
++  __DATA_DIRTY.__objc_data: 0x1fe0 sha256:37f36f5143566efa1e068ce57539c41e34fc26f7baf7c643246ab3c7af628feb
++  __DATA_DIRTY.__data: 0x47388 sha256:6cb140636828363fb096073414796d9e73bf05d918791130c086852a48bf49ca
+   __DATA_DIRTY.__bss: 0x13280 sha256:e4469514af55fc7edcaf0867114971c4343bcc349102ea461cc8735c38a2d3b8
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: BEDDBCF1-B619-3635-944B-57EDD8920315
+-  Functions: 132184
+-  Symbols:   69967
+-  CStrings:  1376
++  UUID: 5A5E545F-56D6-33D8-A178-0756CC16C7EF
++  Functions: 132357
++  Symbols:   70146
++  CStrings:  1377
+ 
+Symbols:
++ ___swift_get_extra_inhabitant_index.243Tm
++ ___swift_store_extra_inhabitant_index.244Tm
++ _associated conformance 10PegasusAPI40Apple_Parsec_Sam_V1alpha_SkimmerGuidanceV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI40Apple_Parsec_Sam_V1alpha_SkimmerGuidanceV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 10PegasusAPI40Apple_Parsec_Sam_V1alpha_SkimmerGuidanceV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI40Apple_Parsec_Sam_V1alpha_SkimmerGuidanceV8DecisionO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 10PegasusAPI40Apple_Parsec_Sam_V1alpha_SkimmerGuidanceV8DecisionO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 10PegasusAPI40Apple_Parsec_Sam_V1alpha_SkimmerGuidanceV8DecisionOSHAASQ
++ _associated conformance 10PegasusAPI40Apple_Parsec_Sam_V1alpha_SkimmerGuidanceV8DecisionOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 10PegasusAPI40Apple_Parsec_Sam_V1alpha_SkimmerGuidanceVSHAASQ
++ _symbolic Say_____G 10PegasusAPI40Apple_Parsec_Sam_V1alpha_SkimmerGuidanceV8DecisionO
++ _symbolic _____ 10PegasusAPI40Apple_Parsec_Sam_V1alpha_SkimmerGuidanceV
++ _symbolic _____ 10PegasusAPI40Apple_Parsec_Sam_V1alpha_SkimmerGuidanceV8DecisionO
++ _symbolic _____Sg 10PegasusAPI40Apple_Parsec_Sam_V1alpha_SkimmerGuidanceV
++ _symbolic _____Sg_ABt 10PegasusAPI40Apple_Parsec_Sam_V1alpha_SkimmerGuidanceV
+- ___swift_get_extra_inhabitant_index.225Tm
+- ___swift_store_extra_inhabitant_index.226Tm
+CStrings:
++ "apple.parsec.sam.v1alpha.SkimmerGuidance"
+
+```

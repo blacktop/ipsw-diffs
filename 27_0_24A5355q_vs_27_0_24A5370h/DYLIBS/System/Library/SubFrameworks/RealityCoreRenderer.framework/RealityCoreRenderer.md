@@ -1,0 +1,232 @@
+## RealityCoreRenderer
+
+> `/System/Library/SubFrameworks/RealityCoreRenderer.framework/RealityCoreRenderer`
+
+```diff
+
+-24.0.0.0.1
+-  __TEXT.__text: 0xeb214 sha256:a2a87408f75157edc4b10bc368a65a50901efc52a0da1b41dc4d18baf2c3e73e
+-  __TEXT.__objc_methlist: 0x1a04 sha256:2a99923876b8dd21861ef8ffd6dc63088b04c93bc72595b5a3e2f2ab19357012
+-  __TEXT.__const: 0xaf94 sha256:dca0ea698ea00a0fb23b57b97123c00eea74be5307ad4277d1a8c23d15b63933
+-  __TEXT.__constg_swiftt: 0x40b4 sha256:9c8afb522c261c69cb7b4968dd4a02a95bd02843d12dc84a36184d1c94bacb9f
+-  __TEXT.__swift5_typeref: 0x2342 sha256:9dbfe44903e05839a3b866f379b7bb9e7ef3e9d733cd1710d2f2040ad06d7fcc
+-  __TEXT.__swift5_reflstr: 0x36ec sha256:56c6b6446384cb16513455c2a40736f65cdf7b7ad19c7acff3549f3bb3faae42
+-  __TEXT.__swift5_fieldmd: 0x4614 sha256:76764b3b840ffec14ab054761cec047d5c5717d0640bea60292f27ee3834109a
+-  __TEXT.__swift5_builtin: 0x438 sha256:e59e92b48c774abc2c9c208b365f3a8713caa319ddb3bd1a64a6326d163d56a5
+-  __TEXT.__swift5_assocty: 0x540 sha256:912066047b96498f125deadaba72b760ec9009734adfc7c2b0ba43c9242679b8
+-  __TEXT.__swift5_proto: 0x328 sha256:615f46c50b7cf46f023d3b1836b2f1418e7ab2a5fa6edcef2949d82b6ad581e1
+-  __TEXT.__swift5_types: 0x59c sha256:bd026e2a333ae6ab53d5c149e2a0d1a40da546384204909b4272ccfa336b217b
+-  __TEXT.__swift5_mpenum: 0xf8 sha256:9a82a1eda29f2cfb7c2e8badaa6ceab426128f7cfcc030cb034b4784539603b6
+-  __TEXT.__swift5_protos: 0x40 sha256:bcbd4471c9a61f4e29deb9bde211f3cc35b9d33f7d709c9616952b7131cb4d5c
+-  __TEXT.__cstring: 0x1dc2 sha256:efad0d530aad2696fcc2508def128b53a94d469953302647446f793c1e87b9ca
+-  __TEXT.__swift5_capture: 0x618 sha256:b94df8365677de3f31a324da4d266cc0f9388dd71bb318106f0fbd0d2de00ae0
+-  __TEXT.__swift_as_entry: 0x234 sha256:1b7f9dfc1c091e35a460bb09dedc3a18e6f5441462e86c8d5b9f9abb0426b456
+-  __TEXT.__swift_as_ret: 0x2a0 sha256:64dd1387208e50c30888c02068732015b36fb8cfcac929df2a6bbe7d640b97ac
+-  __TEXT.__swift_as_cont: 0x2610 sha256:d4388137f8a4712134bc96006c576151f1898cfaadd5fa7524f139094acd9b03
+-  __TEXT.__swift5_types2: 0x34 sha256:dd03a8edfd99073d28d0659b59dd8722298649ae8e85924e49a70f5e8ad5444c
+-  __TEXT.__unwind_info: 0x3118 sha256:f8170d1906b82f8c1f021d20c44cc624699a87373d3b904c2aeb0461481a4c59
+-  __TEXT.__eh_frame: 0x6c10 sha256:841be5541e00797af546172fb57606517581c799c3940c663bee88571fa1a88d
++24.0.2.0.0
++  __TEXT.__text: 0xedab8 sha256:99221ec81772a35ee5d6558461318715df7cff64c191b96ab86ae8b884d95d42
++  __TEXT.__objc_methlist: 0x1a04 sha256:546f71bf4536a5ea2a04e571f4647877a102648f28072137e0239111b2a4f5b1
++  __TEXT.__const: 0xafe4 sha256:410fa6ff7b4423df03e925d0268563b0a6ef2eee5a4bb9266ecbf77fbf4d16eb
++  __TEXT.__constg_swiftt: 0x4094 sha256:d1e0c851fe943e22934990ee9d1c16a0911dcfa9c36b03a44df5aa9980af7e69
++  __TEXT.__swift5_typeref: 0x233c sha256:c53cc017b258f1bebeaf0d5d94ba205731d1459203de33d719b35c26fc33497c
++  __TEXT.__swift5_reflstr: 0x36fc sha256:87ba93e4bef3b98a5c66c01c5145c6c247f5024cbe496fcb12d38a5d7e82237a
++  __TEXT.__swift5_fieldmd: 0x4610 sha256:a855c67435132ed8f666bb459f68ba58187c35e562a3e59cf7a9281312112f19
++  __TEXT.__swift5_builtin: 0x424 sha256:f911009fc2b43cc6dc6cca5ac314194c85baf19613427577bffbf1ab994021b2
++  __TEXT.__swift5_assocty: 0x558 sha256:473155a2cfd0cf73e21a68be615b1083dd898cfeebe75262f64929431575d524
++  __TEXT.__swift5_proto: 0x330 sha256:96f8b09079626901548882052d1ccdd4ab2ca208fa66afb381dc2867345ff665
++  __TEXT.__swift5_types: 0x598 sha256:11574d24d02c9e2557d856506501b751ffb02bd3cf7a41fcec9379814f1600de
++  __TEXT.__swift5_mpenum: 0xf8 sha256:7f9c7d9b0e55d5f6f84c31949e1db5d89c7078f131c3937db709573e2889c860
++  __TEXT.__swift5_protos: 0x40 sha256:3059949f34483ffa527f066dff0234e0bdf53654483c9e4f955761cdfaa41c72
++  __TEXT.__cstring: 0x1e82 sha256:73fa87a99718dc77d73eda818a868c261fb3bb87b6705aa9fcf75ac214dcbbba
++  __TEXT.__swift5_capture: 0x618 sha256:35816b70932e0687ce86cb0ee5e4761f7f193a7958a2b9ddcb29ef0cd5a6636b
++  __TEXT.__swift_as_entry: 0x234 sha256:65db1304ce100234cb9204aa7ac80cbf2c2e3fb9abb0a97cbc907b27bc6c75f7
++  __TEXT.__swift_as_ret: 0x2a0 sha256:887821e5160e05dd2e58abae0faf1c5faa95be9c0a99dd7ea300b685096dc96d
++  __TEXT.__swift_as_cont: 0x2614 sha256:898ad4e1874824506f8941117d2614dccc1a7522b656c9e9a8a1e688bed976bb
++  __TEXT.__swift5_types2: 0x34 sha256:6cc134ecd50b9f34c25c321ad20d48c13266043b2a9af70cb050a46e3bbbd6dd
++  __TEXT.__oslogstring: 0x3 sha256:2f3a3f9b55f5df846abf81c7d13ff74998bdda8664df664173220675150020ff
++  __TEXT.__unwind_info: 0x3180 sha256:e0d1cb0fdd99d4f5e37cf4dc302ccf20c7596b7b24911cccb1d0b759d721f007
++  __TEXT.__eh_frame: 0x6db0 sha256:f67a6f93f4a67be4af2f4a3317a4e841c48258f9a5a05f0b5d2ce671a602265f
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xfb8 sha256:47dbb27f4047344a0dae9db4c0cf2d4e4fe9ef7104dac4d35a4e5a2e6c0cadb0
+-  __DATA_CONST.__objc_classlist: 0x240 sha256:6896c473cd2947cfe46b5d0781ad49632db95a451517b50b969396b6b1424f56
+-  __DATA_CONST.__objc_protolist: 0x120 sha256:94cd5cbc47381d5a4736b0ce473380c205812a548dd8d6b2f340433b57e85000
++  __DATA_CONST.__const: 0xfc8 sha256:9e1d0532af5e4e0109ee271ecfc1254e142482c2b3d226a866b92c9130bedf0c
++  __DATA_CONST.__objc_classlist: 0x240 sha256:93e61b44a169d93255baf0306d826be6c97f4ec244e028d5651ba88d5f0f11cb
++  __DATA_CONST.__objc_protolist: 0x120 sha256:57cdc8cf6cf729f6e0cba6e1f8466058eff0ce9069427faea299a1da5b605fca
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x1220 sha256:e2cda9deeff08098588603a881bea709836af558eb83fc46c37cc030cdce994f
+-  __DATA_CONST.__objc_protorefs: 0x90 sha256:9f66c1a742f5408b9959e2b8562f1690df9bc85914c77156bfb6e69d57ebb885
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:e6eb20691788178e30a6700ceab8cf86961c3a6508b6ea626c10a713df1db6e1
+-  __DATA_CONST.__got: 0x560 sha256:a9c2c7849aaa51a27ba8738b6ca8bbd2b78965566ba3dc6bea23c6f1b352ce8e
+-  __AUTH_CONST.__const: 0x2fa78 sha256:d8093443e9b4b87ed229314f427ed23fcd8f0b293fa599ce4145d567881f19e2
+-  __AUTH_CONST.__objc_const: 0x5e98 sha256:a9f64c1092a179847dd6a0e8434f35c358e31dcb4175aa15823bb97745802052
+-  __AUTH_CONST.__auth_got: 0xf30 sha256:d60d6cd6fbd560cb387c6294aeab1e088bc4dbf4b85b8341702120cfd5fcde32
+-  __AUTH.__objc_data: 0x410 sha256:f9d8ead9c9b47e8c48d3f210e677b312d538263e1ef7f1824944044c9bbed534
+-  __AUTH.__data: 0x36f8 sha256:94fede4dde6d3ef438672633e4e793b179a1babc11e69084b7888ad84b7c02ce
++  __DATA_CONST.__objc_selrefs: 0x1230 sha256:8901759d6d80a2561991ec2376c37aa838f2fd75cf17e9f4ced702b895141e4f
++  __DATA_CONST.__objc_protorefs: 0x90 sha256:1707f7b4a02d32ee3a5cad79818bf41fa09809b0d4943920b8cf15b7f5490af2
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:35e42bf1ab7fbc98242d4a22c998ad943160372f8684e4c593b7c0a186b107c5
++  __DATA_CONST.__got: 0x578 sha256:729d371b6c1c5ffe2c23c3718f23cb2e384b8d2a840e42f6d3ff1e108fb0fc19
++  __AUTH_CONST.__const: 0x2f9d0 sha256:20e0dd82e331ca5edc42330fee625fa038b089589cbe3c9655769263a4262e3e
++  __AUTH_CONST.__objc_const: 0x5e98 sha256:a94d4124ce6c2622ea6843dc2ce62a29265448e166b61055069de8dbbdf972e3
++  __AUTH_CONST.__auth_got: 0xfa8 sha256:4f9e1e02c09d65ec3ed02f1acd87f857959e01b877bbcb9a575037c34d089434
++  __AUTH.__objc_data: 0x410 sha256:fe9069a281f39c427d841ec112cd00fd061d3c02baa607111adf6700d7e73f70
++  __AUTH.__data: 0x36f8 sha256:29124a10e3636a6c7d17c73ac34dac95d12d934da55ea75cd1bae75ea550d4a6
+   __DATA.__objc_ivar: 0xc sha256:3783fb69b6b736adc42ed678e95315363c531091cf9c361e8e08bfbab5c07a59
+-  __DATA.__data: 0x1a48 sha256:445103eff801023fa4c6ebdc2add333f207b85c12a2d80db15496582a5b8927b
+-  __DATA.__bss: 0x5980 sha256:45d50c08bc590d34c2b0b09a187d5afa8f8d40795be69c6ee94f2ff21da4090d
+-  __DATA.__common: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
++  __DATA.__data: 0x1a60 sha256:32209bcdb0a1e9370c1fa70344dd5b438013c49e743d9462c444d8669763bbff
++  __DATA.__bss: 0x5a80 sha256:d5a8bbc813b56ef73808cc5f56dc5d2340d7b4f0cd607d63b8ea7bf261dccbd3
++  __DATA.__common: 0xa0 sha256:b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Metal.framework/Metal
++  - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/CoreMaterial3D.framework/CoreMaterial3D
+   - /System/Library/PrivateFrameworks/DirectResource.framework/DirectResource
+   - /System/Library/SubFrameworks/ShaderGraph.framework/ShaderGraph
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F402A58E-55BE-3B2E-9C80-E82269045C32
+-  Functions: 7106
+-  Symbols:   20677
+-  CStrings:  179
++  UUID: A94F5924-24F8-343F-8BC2-4F5349CFCF0B
++  Functions: 7132
++  Symbols:   20759
++  CStrings:  186
+ 
+Symbols:
++ _$s19RealityCoreRenderer12MeshInstanceC8meshPart8pipeline17geometryArguments07surfaceJ008lightingJ09transform12sortCategory16triangleFillMode2idAcA0dG0C_AA19RenderPipelineStateCAA13ArgumentTableCSgA2SSo13simd_float4x4aAC04SortO0OSo011MTLTriangleqR0V10Foundation4UUIDVSgtAA0T12ContextErrorOYKcfCTq
++ _$s19RealityCoreRenderer12MeshInstanceC8meshPart8pipeline17geometryArguments07surfaceJ008lightingJ09transform12sortCategory16triangleFillMode2idAcA0dG0C_AA19RenderPipelineStateCAA13ArgumentTableCSgA2SSo13simd_float4x4aAC04SortO0OSo011MTLTriangleqR0V10Foundation4UUIDVSgtAA0T12ContextErrorOYKcfc
++ _$s19RealityCoreRenderer14_Proto_Pose_v1VwstTm
++ _$s19RealityCoreRenderer16MaterialCompilerC9ResourcesV6deviceAESo9MTLDevice_p_tYaKcfCTY2248_
++ _$s19RealityCoreRenderer17BoundingSphereBoxVwstTm
++ _$s19RealityCoreRenderer20LowLevelMeshInstanceC16triangleFillModeSo011MTLTriangleiJ0VvM
++ _$s19RealityCoreRenderer20LowLevelMeshInstanceC16triangleFillModeSo011MTLTriangleiJ0VvM.resume.0
++ _$s19RealityCoreRenderer20LowLevelMeshInstanceC16triangleFillModeSo011MTLTriangleiJ0Vvg
++ _$s19RealityCoreRenderer20LowLevelMeshInstanceC16triangleFillModeSo011MTLTriangleiJ0VvpMV
++ _$s19RealityCoreRenderer20LowLevelMeshInstanceC16triangleFillModeSo011MTLTriangleiJ0Vvs
++ _$s19RealityCoreRenderer23StandaloneRenderContextC13ConfigurationV21shouldUseResidencySetSbvg
++ _$s19RealityCoreRenderer23StandaloneRenderContextC13ConfigurationV26residencySetDefaultEnabled33_C5DA9C4746BA93686999737EE2989783LLSbSgvpZ
++ _$s19RealityCoreRenderer23StandaloneRenderContextC13ConfigurationV26residencySetDefaultEnabled33_C5DA9C4746BA93686999737EE2989783LLSbSgvpZfiAHyXEfU_
++ _$s19RealityCoreRenderer23StandaloneRenderContextC13ConfigurationV26residencySetDefaultEnabled33_C5DA9C4746BA93686999737EE2989783LL_WZ
++ _$s19RealityCoreRenderer23StandaloneRenderContextC13ConfigurationV26residencySetDefaultEnabled33_C5DA9C4746BA93686999737EE2989783LL_Wz
++ _$s19RealityCoreRenderer23StandaloneRenderContextC13ConfigurationV35indirectCommandBufferDefaultEnabled33_C5DA9C4746BA93686999737EE2989783LLSbSgvpZ
++ _$s19RealityCoreRenderer23StandaloneRenderContextC13ConfigurationV35indirectCommandBufferDefaultEnabled33_C5DA9C4746BA93686999737EE2989783LLSbSgvpZfiAHyXEfU_
++ _$s19RealityCoreRenderer23StandaloneRenderContextC13ConfigurationV35indirectCommandBufferDefaultEnabled33_C5DA9C4746BA93686999737EE2989783LL_WZ
++ _$s19RealityCoreRenderer23StandaloneRenderContextC13ConfigurationV35indirectCommandBufferDefaultEnabled33_C5DA9C4746BA93686999737EE2989783LL_Wz
++ _$s19RealityCoreRenderer25InstanceTransformResourceC4readyxxs4SpanVySo13simd_float4x4aGnq_YKXEq_YKs5ErrorR_Ri_zr0_lFxs03RawH0Vq_YKXEfU_TATm
++ _$s19RealityCoreRenderer25InstanceTransformResourceC4readyxxs4SpanVySo13simd_float4x4aGnq_YKXEq_YKs5ErrorR_Ri_zr0_lFxs03RawH0Vq_YKXEfU_xAIq_YKXEfU_
++ _$s19RealityCoreRenderer25InstanceTransformResourceC4readyxxs4SpanVySo13simd_float4x4aGnq_YKXEq_YKs5ErrorR_Ri_zr0_lFxs03RawH0Vq_YKXEfU_xAIq_YKXEfU_TA
++ _$s19RealityCoreRenderer26getBoolValueForEntitlementySbSSF
++ _$s19RealityCoreRenderer27_Proto_BoundingSphereBox_v1VwstTm
++ _$s19RealityCoreRenderer3LogV6logger2os6LoggerVvpZ
++ _$s19RealityCoreRenderer3LogV6logger_WZ
++ _$s19RealityCoreRenderer3LogV6logger_Wz
++ _$s2os32getNullTerminatedUTF8PointerImpl_21storingStringOwnersInSVSS_SpyypGSgztF
++ _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
++ _$s2os6LoggerV9subsystem8categoryACSS_SStcfC
++ _$s2os6LoggerVMa
++ _$sSS8UTF8ViewV13_foreignCountSiyF
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5
++ _$sSbN
++ _$sSo13MTLClearColorawstTm
++ _$sSo13os_log_type_ta0A0E4infoABvgZ
++ _$sSo19MTLTriangleFillModeVSQSCMc
++ _$sSo19MTLTriangleFillModeVSQSCMcMK
++ _$sSo19MTLTriangleFillModeVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo19MTLTriangleFillModeVSYSCMA
++ _$sSo19MTLTriangleFillModeVSYSCMc
++ _$sSo19MTLTriangleFillModeVSYSCMcMK
++ _$sSo19MTLTriangleFillModeVSYSCSY8rawValue03RawE0QzvgTW
++ _$sSo19MTLTriangleFillModeVSYSCSY8rawValuexSg03RawE0Qz_tcfCTW
++ _$sSo9MTLDeviceP19RealityCoreRendererE32supportsIndirectTriangleFillModeSbvg
++ _$ss11_StringGutsV16_deconstructUTF87scratchyXlSg5owner_xSi6lengthSb11usesScratchSb15allocatedMemorytSwSg_ts8_PointerRzlFSV_Tgq5
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyFTv_r
++ _$ss11_StringGutsVN
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5
++ _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
++ _$ss14MutableRawSpanV19RealityCoreRendererE19withMemoryReboundToyq0_xm_q0_s0aC0VyxGzq_YKXEtq_YKs15BitwiseCopyableRzs5ErrorR_Ri_0_r1_lFq0_Swq_YKXEfU_Tm
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSS8UTF8ViewV_Tgq5
++ _$ss7RawSpanV19RealityCoreRendererE19withMemoryReboundToyq0_xm_q0_s0B0VyxGq_YKXEtq_YKs15BitwiseCopyableRzs5ErrorR_Ri_0_r1_lF
++ _$ss7RawSpanV19RealityCoreRendererE19withMemoryReboundToyq0_xm_q0_s0B0VyxGq_YKXEtq_YKs15BitwiseCopyableRzs5ErrorR_Ri_0_r1_lFq0_SWq_YKXEfU_q0_SRyxGq_YKXEfU_
++ _$syXlN
++ _MTLGPUDebugEnabled
++ _OBJC_CLASS_$_NSUserDefaults
++ _SecTaskCopyValueForEntitlement
++ _SecTaskCreateFromSelf
++ ___swift_allocate_value_buffer
++ ___swift_closure_destructor.14
++ ___swift_memcpy304_8
++ ___swift_project_value_buffer
++ __os_log_impl
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$stringForKey:
++ _os_log_type_enabled
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _sysctlbyname
+- _$s15Synchronization5_CellVySo16os_unfair_lock_sVGMR
+- _$s15Synchronization5_CellVySo16os_unfair_lock_sVGMd
+- _$s19RealityCoreRenderer12MeshInstanceC8meshPart8pipeline17geometryArguments07surfaceJ008lightingJ09transform12sortCategory2idAcA0dG0C_AA19RenderPipelineStateCAA13ArgumentTableCSgA2RSo13simd_float4x4aAC04SortO0O10Foundation4UUIDVSgtAA0Q12ContextErrorOYKcfCTq
+- _$s19RealityCoreRenderer12MeshInstanceC8meshPart8pipeline17geometryArguments07surfaceJ008lightingJ09transform12sortCategory2idAcA0dG0C_AA19RenderPipelineStateCAA13ArgumentTableCSgA2RSo13simd_float4x4aAC04SortO0O10Foundation4UUIDVSgtAA0Q12ContextErrorOYKcfc
+- _$sSo16os_unfair_lock_sVMB
+- _$sSo16os_unfair_lock_sVMF
+- _$sSo16os_unfair_lock_sVML
+- _$sSo16os_unfair_lock_sVMa
+- _$sSo16os_unfair_lock_sVMf
+- _$sSo16os_unfair_lock_sVMn
+- _$sSo16os_unfair_lock_sVWV
+- _$sSo16os_unfair_lock_sVwet
+- _$sSo16os_unfair_lock_sVwst
+- _$ss14MutableRawSpanV19RealityCoreRendererE19withMemoryReboundToyq0_xm_q0_s0aC0VyxGzq_YKXEtq_YKs15BitwiseCopyableRzs5ErrorR_Ri_0_r1_lFq0_Swq_YKXEfU_
+- ___swift_memcpy129_16
+- ___swift_memcpy296_8
+- _kCGColorSpaceDisplayP3
+- _symbolic _____ So16os_unfair_lock_sV
+- _symbolic _____y_____G 15Synchronization5_CellVAARi_zrlE So16os_unfair_lock_sV
+- _type_layout_string So16os_unfair_lock_sV
+CStrings:
++ "%s"
++ "Indirect command buffer rendering disabled"
++ "Indirect command buffer rendering enabled"
++ "RealityCoreRenderer"
++ "Residency sets disabled"
++ "Residency sets enabled"
++ "com.apple.RealityKit"
++ "com.apple.developer.gpu-restricted"
++ "com.apple.private.gpu-restricted"
++ "com.apple.re.indirectCommandBuffer"
++ "com.apple.re.residencySet"
++ "kern.hv_vmm_present"
++ "realitykit::post_lighting_private::api::post_lighting_color"
++ "realitykit::post_lighting_private::api::set_post_lighting_color"
++ "realitykit::post_lighting_private::api::surface_data"
+- "realitykit::post_lighting::api::post_lighting_color"
+- "realitykit::post_lighting::api::set_post_lighting_color"
+- "realitykit::post_lighting::api::surface_data"
+- "realitykit::surface::api::set_bent_normal"
+- "realitykit::surface::api::set_subsurface_color"
+- "realitykit::surface::api::set_subsurface_radius"
+- "realitykit::surface::api::set_subsurface_radius_scale"
+- "realitykit::surface::api::set_subsurface_weight"
+
+```

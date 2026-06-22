@@ -1,0 +1,90 @@
+## SpeakTypingServices
+
+> `/System/Library/PrivateFrameworks/SpeakTypingServices.framework/SpeakTypingServices`
+
+```diff
+
+-3229.1.6.0.0
+-  __TEXT.__text: 0xebc sha256:2b06345c6d0d85b3de22ce52ec180e609e9d35a8cc8a858de69b59ba6014ca68
+-  __TEXT.__objc_methlist: 0x29c sha256:b70b25bd5fa8d8620b0f8887e2670102ba6e139a57269842bceb0cf2b56dc8ad
++3232.3.0.0.0
++  __TEXT.__text: 0xebc sha256:5d44f4957c3eeb68b18589feeda8a91c95b8b315fa5c6e90161af431394394bf
++  __TEXT.__objc_methlist: 0x29c sha256:749923ca4649d8a0e23a3bc931a57d1dd032ccab520e6dfbb3e55fe034f6003b
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__cstring: 0xca sha256:79425c8c0acbdef805c58b45d8468ba93884245435463ce4deb577931edbc952
+   __TEXT.__unwind_info: 0xa0 sha256:4593e2bd41c93d96842fe80a524475894bf597390cb2a2986f2a96d26f419f87
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x48 sha256:ac9bb15a60f4b76b23b8ad4d025466acb05ab431c31f673e0d21e8c8c4cc1eb2
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:3fe30798d4be10e4c6cfa4c44f9227856462281770788c247556cde78ed9bf39
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:cb73bcb185f2c67de095f8bbc9c10dab19945ff02af4461a132e689cc7a3a977
++  __DATA_CONST.__const: 0x48 sha256:53372b0d74e24541f87ed152ac81dbfb3dc141a9c6abbd0cb6bc2b274cd4e56b
++  __DATA_CONST.__objc_classlist: 0x8 sha256:d643f4ba77a186ba8bdc4e8f14b218c0a034765ee84afc03f6bee08149c09f51
++  __DATA_CONST.__objc_protolist: 0x10 sha256:2442b69fd10f02016890f2a5794be59efae9154031fc12ec748ef8e9bb325386
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x210 sha256:990a73215921f9a2bf5c2a766355b11b46003675002d63abb7f40ea12ed8f9b6
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:3fe30798d4be10e4c6cfa4c44f9227856462281770788c247556cde78ed9bf39
+-  __DATA_CONST.__objc_arraydata: 0x10 sha256:85b0f481d1f574dff404be39ea32fa60bfa57a0c124829d753a94a2aef3dfb05
+-  __DATA_CONST.__got: 0x70 sha256:590c2d309f1462db7cf93077de35ff786b5ed52b9c1218c7aa20dfda77972117
+-  __AUTH_CONST.__const: 0x20 sha256:42529ed01b66bd6615fa1f65e4b10d2ebfb7ac7d808446d6475ac53deb6f7bbd
+-  __AUTH_CONST.__cfstring: 0x160 sha256:24d5d275f9c0059b587443caf062ace79e8562b3e8844ad16b1b141777ad52e4
+-  __AUTH_CONST.__objc_const: 0x260 sha256:8a0beca81f73e2700dd783528254d225ee499b148cb2f56a970de0cc1e64f675
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:39d128784a6bfd25b6a4d71f2cefda5b3e8a8c9c1b84a4c7a5fc960fb842f83c
++  __DATA_CONST.__objc_selrefs: 0x210 sha256:49a93ffb17440d4af570ca24daea2f505844e3b9e79a6ae5f7561fa4c2300193
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:d643f4ba77a186ba8bdc4e8f14b218c0a034765ee84afc03f6bee08149c09f51
++  __DATA_CONST.__objc_arraydata: 0x10 sha256:4f9b20c0040947d1d2f998870c0ca240647d99d272663326491c4e86a73f1210
++  __DATA_CONST.__got: 0x70 sha256:4b2005afbefe2a50ac2de5dd0cd3312d337c2e85ebec22a16e71c44d412ce2e7
++  __AUTH_CONST.__const: 0x20 sha256:5db4391ea53b06f2dedf1b7fb4c2c9a98fc70579495777b26beb1250d5de4de1
++  __AUTH_CONST.__cfstring: 0x160 sha256:7e6ccd7bf068828bb8fa99df8f81563eddf6c190b371590e5c76c290204b5697
++  __AUTH_CONST.__objc_const: 0x260 sha256:54f3a3c34efaacc42f926419ad372d8136e1ed7c109031431d55aab56b7124df
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:52a87bc9c5b8d03371fe406b12233e0bbe2a5cf79f842f81358df587f95467cf
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+-  __DATA.__data: 0xc0 sha256:e80456fb110b5edf4f0310dedd3581b21bee7e81c1b0aa8fee6aab68ec47886d
++  __DATA.__data: 0xc0 sha256:96dab646956dabd73a3e943dde91f925dae79cb643db3de33b4c320698a5252d
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:1b7d1c8a068738648ee1a288f2c5736b7f2c65bead0ee87b1c81d4182d394195
++  __DATA_DIRTY.__objc_data: 0x50 sha256:1edd762056f74dddb9feb00370873645581d6fafac8532409d88d350fe4e1e55
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1DEE0295-2C1A-3279-9C48-9AD410EB2C07
++  UUID: D371CF9F-CF65-33FF-BD44-055549BE9EB5
+   Functions: 26
+   Symbols:   148
+   CStrings:  22
+Functions:
+~ +[SpeakTypingServices sharedInstance] : sha256 3b8ab5759050b3b2723a484c6f157ff32a215d77e55939c928656214d6b37f4c -> aa6bd96130244e0dd8d6b5b357487202b6770d318c6a3a5a66e726b7d3499866
+~ ___37+[SpeakTypingServices sharedInstance]_block_invoke : sha256 10523c32a967df4ab59113882cb4cc6b754e1bff79b2802ab1498c4a644ec597 -> ee5242977682763773f53636d958bd1cd44fb39542c60c062b0b2a354e1263af
+~ -[SpeakTypingServices init] : sha256 b8e0948be06d93013982f43d6f9cdd16f4d38e7a4c579dea8e51f94c0d7ac9aa -> 29dc76d999ae044f823dafa3f8f3fcd13e2255619c1286a8e4844f310350fa12
+~ -[SpeakTypingServices dealloc] : sha256 6b2a72ce53ffbf00b3cfc16df37aa81c780ccc0caaf9b62ba7c7595eaa2cfaac -> cff4c09e3bbd37e63cbaec699dd2382ccc752fbd61b98eb672c30e79c76bf9e9
+~ -[SpeakTypingServices speakTypingClient] : sha256 8864db5086220103fbdf301e1100f04e0acaba8d680c3922c4a7b785df622813 -> 7b59e1b73b9fe04a51138b6d085d49f0eb38a64b5f5c7bb443bd6df02c25a12f
+~ -[SpeakTypingServices clearLastSpokenString] : sha256 a666e3790a766ede2772039d6ea0d1df7224ef459482b34d689dc7dd1a11dcb8 -> 07fc45408eeba5dfa56c4233a13645ab103967959dd565086c881786404776ac
+~ -[SpeakTypingServices setVoiceIdentifier:forLanguage:] : sha256 2da8a75df9e889bfa23cd24f63dacd79a015c14cc05095133deac207383775ef -> 1145c973cc4e6d6183e9330d2586fa2a1fdba927eca3325587ff7c1b95cd4cd8
+~ -[SpeakTypingServices lastUsedVoiceIdentifier] : sha256 4bdabb244f56c7d8aa6b75731a239ec04da5142b09bc4e5b2ade31e66c948edb -> f70162b4c4c0e31bd11ddf696a227df639ed1a6030af6aff977c2e1edbc46042
+~ -[SpeakTypingServices lastSpokenString] : sha256 1dcffe065ce504390714a26fa12fabce310359dc8b1b3e0bb764e5f89fb8c9c4 -> df1880421385236d434ade55045dd323b9d913caaa39a08e26b28cd87282239b
+~ -[SpeakTypingServices verifyTestingConnection] : sha256 0402248c3ccf9caca667e9c88901442a65b0055da43832e1eac96c8d56b9b417 -> 3929064af2aa7a70ef2a21af609aa5fab9d080972f8dc1356e173414054054f8
+~ -[SpeakTypingServices setWordFeedbackEnabled:] : sha256 742751ef39e40a28fb553f37499db770d1e563139af5cf71174b8989ad7ef958 -> 32bf05f6b669e82719462f9cba1a1e1710664402637eb3bf672efc80e12b9fd9
+~ -[SpeakTypingServices setPhoneticFeedbackEnabled:] : sha256 031ab0b81a3a98811f73d05aa7c1807d062b717c194eda7cdc4a00dcd47dca8c -> dca30e61d06a7465488d1b0d7701fe87a2283a02024baae27abed67456e41611
+~ -[SpeakTypingServices setLetterFeedbackEnabled:] : sha256 ca4a60618010d01e98e8ff08672b3e0475b710e1c7f89fd892ea6922c6d1d74d -> 4145b037e53a3679ce0287eaa714948269ef544194d969318ee2d9f00bec46f2
+~ -[SpeakTypingServices notifySpeakServicesToStopSpeaking] : sha256 620a6c6bac7918e9e49ca036a9a7e2ec784067a0f5b6c672d384758d3b9c7b74 -> e26cbfd320b306d5ad758179856577fe4829a14676c8945903d5115ad7b8ff14
+~ -[SpeakTypingServices notifySpeakServicesToStopSpeakingAutocorrections] : sha256 b6aa804a7b8c442a77dae4e8c334b68c8476fa637592c0651c7439aff837be7c -> cde6df1bac45a2e0a1aa517819eba4258dc8a9c95913d302b6e91055d809893a
+~ -[SpeakTypingServices notifySpeakServicesToInitializeServerConnection] : sha256 d2c0d9f6394a66a513f23a89138d7e626846922fa7c72d734a16bb83be2445f9 -> 7c78e3aa03023e75b7d3f4158a22ed7ca6f934d82bb3536f1762a820a5f573ee
+~ -[SpeakTypingServices notifySpeakServicesForAttributedSpeechOutput:] : sha256 d41db7afac0a400bc272f82e8488897a55185f10495dc3d6b0f8240b17852f63 -> 660d9602ee815cbe6ef6a681ad78ce8521c8026e91f508f818d3503804da4a2c
+~ -[SpeakTypingServices notifySpeakServicesForSpeechOutput:volume:speakingRate:] : sha256 2b55680d1045b134bf5caa0df2533bfcdb49b48cdbb3e39be79d83ce14f80101 -> 251635c8df09c7eea1277bd9145d15d8930ac6f8cd197a6ee1a46d5d5a9a46f0
+~ -[SpeakTypingServices notifySpeakServicesForSpeakAutoCorrections:forCurrentInputMode:] : sha256 0807e9f712ce3b336f8a0e0386bd6bf6b5b4bccb0cd2b3c43f075d2e6f304f64 -> 93b9080bc6cd8694b2f0290a44519e2f8e77d395dddd6a9bd9a277c6909ebc87
+~ -[SpeakTypingServices notifySpeakServicesToFeedbackQuickTypePrediction:forCurrentInputMode:] : sha256 af336b4cbd1588f3fc6d6c029130c7e83461310b26c908bef5cb31357a071248 -> 4f1e5981254ec5b9a6aaeef71222f6ebb1842b1a7d43cf17341c87467ae7dcc0
+~ -[SpeakTypingServices _clientIdentifier] : sha256 20c8e42bf1cccabc9a603acb2bf25cfad8a9634589a72340af4fd0bbef86900e -> 073f6d542ddd95f42ac651d3721375045b8cd4ff5a1d403b09abf2389e448c15
+~ -[SpeakTypingServices initializeServerConnection] : sha256 46194adc82e9ebcf65bca345f22275ea218782c1a8bfa588ab207c8654cae231 -> 5a0e03b9cbe422865c586e71f68543c9168a5e3d5db4e07657b6b7ed904bd178
+~ -[SpeakTypingServices connectionWithServiceWasInterruptedForUserInterfaceClient:] : sha256 eafe108d8d128bcfe6fb4e32ef9f350a82ce9542453c1e6e2484aa2d1acba8e3 -> a7ba3e669cf9dd99eb6821ae8f8c41c9e5251e97b5ca8885ad22aa65e73134eb
+~ ___81-[SpeakTypingServices connectionWithServiceWasInterruptedForUserInterfaceClient:]_block_invoke : sha256 201d8b895a27d6b220c0efbe3b7be14a43940fa9a4e5c5fa750a73d11137be0a -> 2546298443025f6d812b8d0346b7fa009e5a22dddd71ebdf8d34c591b93344a7
+~ -[SpeakTypingServices setSpeakTypingClient:] : sha256 ac07a6cbf9b7ebbd1493723792b90a6021d75d938eb38221e05c37c7bef4be92 -> 1bc3d8177ed0e26ca436bd207d4220a222be2b893d742af85f32259ac655fe86
+~ -[SpeakTypingServices .cxx_destruct] : sha256 af6411b3ecddca3ab9e3b82d10194537a59f51b8ea93732910d748137c050e73 -> 6a90c078e733468beacf040a5183a5d624393b687e65801ab453347cb596d681
+
+```

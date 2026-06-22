@@ -1,0 +1,63 @@
+## libRosetta.dylib
+
+> `/usr/lib/libRosetta.dylib`
+
+```diff
+
+-380.0.0.0.0
+-  __TEXT.__text: 0x1b9c sha256:7ee31e447131d10a5a9c13191ed9898d04a413ef9b85b8aa436751449f936b11
++382.0.0.0.0
++  __TEXT.__text: 0x1b8c sha256:1d9c8579f19cd9f83bfe5948b51f650c524947fb2c1a0611e348f1cb0b895a2d
+   __TEXT.__const: 0x4 sha256:20d1a30b02e14447d0b60a24a9c52320e5f05ce636d80d63fd049c17d56fa679
+   __TEXT.__cstring: 0x62e sha256:df05d77f37b497735db95a2f6d81cfd8e8b69aa5ef33eef94a3719246cfc2bbc
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x20 sha256:0c502cfb6492f490cc6cec11de8a3bf2b3bda77baa23e6d9dd6412a152e39814
++  __DATA_CONST.__const: 0x20 sha256:4e04f0c168c17a4b2b0e5b8a1ef7eded78a72136c18ab64f872a2a6a7aaa8cfb
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x20 sha256:7bb857a4cb12a2fba41b3d5f878b53cc7f2cbc1e507df67e873e7812f2c47015
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:392f15f73d04c877bdba3642b452d359fb45d3b942151fba8386b8c6178d0551
++  __AUTH_CONST.__const: 0x20 sha256:6dee8654d375ce324eb1916a6577abcba4b5a8fae1e2ea9a097aaee7ab0d978a
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:f0241e4a2b9e6f91e0076e28797801cc0ffc5f7f154808b71a28a8e05fb44eb4
+   __AUTH_CONST.__auth_got: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+   __DATA.__bss: 0x1000 sha256:ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7
+
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: C81E1A8F-ED8D-3B6A-A835-3640C87D46D4
++  UUID: F4F83ABE-6BFD-3470-9C95-76C9238F3AA9
+   Functions: 44
+   Symbols:   80
+   CStrings:  55
+Functions:
+~ _rosetta_is_current_process_translated : sha256 9cbc58d3d551684ef41ae71588a9e904f4c8b38484a743d17774a603caa05fda -> 3de7ab460a75fa43b89bdeaaefe2b3e7fd7aeff6f7255aefe7856618bb295ff6
+~ sub_2bc4d6860 -> sub_2bd9e0860 : sha256 a6d462f9404b82ab984ada5bbd8f7417c1af94c146d40ece85c7637890c740c1 -> 7ea7b56bef0dd08acb88017790c64ec3113898cea74a75510bb07f89c656c8c9
+~ _rosetta_get_runtime_location : sha256 736c289f0fa306a1d506d7dbcd1fcef438de558394840598b04b4a26cdda0e10 -> 55e780f49405e1dda90560d5ec736ba62830c4971c79751f91dedd6c72bf81b5
+~ _oah_get_runtime_location : sha256 736c289f0fa306a1d506d7dbcd1fcef438de558394840598b04b4a26cdda0e10 -> 55e780f49405e1dda90560d5ec736ba62830c4971c79751f91dedd6c72bf81b5
+~ _oah_get_runtime_version : sha256 a77a9356fecba95b962c49464ca2dbbb8af9d82ef50006f0b5da08a346c706e9 -> fe84139e1987ac51c6b29023f0eac07857be6e2c518276a9e10f0e56afc9b8b2
+~ _oah_is_translation_available : sha256 1231cdff25969a0b78ee1855e2dc3e9eca1e46e5420d979aaae032eec26a971b -> 7e3ce125cdba40aa11411dba794d310679cbf87fe97b566ccb42feda136863cf
+~ _oah_is_current_process_translated : sha256 3ef89ca3804d23c00c7185fdfd51a31794da8dfd0ee3c4924b5de2430d57c949 -> 41302b336073b399cc4762e6c1260ae48dfd0e6eccb39a602b4fb86f17d75c8f
+~ _oah_is_process_translated : sha256 d65bfead56810d67394abc823480f9c9e3ab33e57e44a5a63eea82d66f5f5ccf -> c521e99782cec574d0ee69c2df51af57349b92fc5beb7c208b41d6e318d2ba9b
+~ _rosetta_create_exit_payload_string : sha256 c95ee5aa60b3e81df2a1f76c76c64a7e6ae7c6f7d1287b4294c28b493bd7115f -> 684183e2ae84c96af8def8a4ba1f7e58ba7b7ea34fc654fa68ce26cec584690a
+~ _rosetta_is_translation_available_on_volume : sha256 852a6b48b9c6f325c838aad9c9c06e6655cf331fc8c7a5e5fb84ad4f5ac167ea -> 05fbdf08279df670d4200b851c36d1874c5e68fe181bd3bd7bcade18d1bbb568
+~ _rosetta_is_translation_available : sha256 b0057e8f5aa5fa764595368fc97bc4a467fbe7ec7dd128beb4a6223b5546a71f -> dc097825e60eae715bd7719cf5d02c31e8524487e2b40dea3372ce25ae3ef668
+~ _rosetta_has_been_previously_installed_on_volume : sha256 98cf5b477b81bc22c1ff68332d3b4dccbe1f45194fc6097fb3ba14502ebec9e2 -> 4405391a4c970a3d820b400afbd3d19ea103f440083f581431c4a88d56832b70
+~ _rosetta_has_been_previously_installed : sha256 8d147aee0f43cce1e3f36b5a765b61e6c9139178bd3afee797a25e473009d7a1 -> 0f3587ff1b38184490360f5250dafebebecbb1769d26a570b0ddf507dd27aba5
+~ _rosetta_is_process_translated : sha256 6d2c509364833631560b405ade2ebcfc5492c70d0c1f53de64b1d69d1b33b743 -> 2a23cd4cd99e121b710a0c01e37646775bfc943035c86e1edb9c36feebd3824c
+~ _rosetta_get_preferred_architecture_from_architectures : 160 -> 156
+~ _rosetta_convert_to_rosetta_absolute_time : sha256 c758a58e3f601f57d704933dc5d918d0e860faa245c50ca1ef9b790b4a1083ea -> 0e3f3d83b95a96a4a11251247505d26ed6869e3b4d7a25c5fa9f7bad6e3b46fe
+~ _rosetta_convert_to_system_absolute_time : sha256 e8d7486846bca4f81531f52744283873e550c9cb187eb29fb8ec46ed292a9dbc -> 5fe9baf33c16d92952269c9ef093229635dfb3453ddf33341da9ebf914fe47f5
+~ sub_2bc4d6d14 -> sub_2bd9e0d10 : sha256 57fafae00797a4fd8ae5066c7db65fef89d68141d3266b6e80ea9dbe15427915 -> 4221d5a5660a3b71c31ab491c0cd03040d092f0530d707029d43c8d454058946
+~ _rosetta_invalidate_translation : sha256 c20157a3810cea1abca6e5e515bd97bb2281e517fc459904819f729fc614e9a7 -> 04885b53ccc0201f71979b959c7e4932154bcff8dce6b3d8c95fef7f54d80ad5
+~ _oah_invalidate_translation : sha256 1f140e5e6f2b103d2cd510cc5a3103532cf298c390bc5ccf264af7b11d968c5f -> 0ce3f19a785732a101c9aafb36850acdf649e63658eff05ccef6c952e36a687e
+~ _rosetta_get_runtime_version : sha256 217ba3b3144ee6c90b89791db6d59fb6cbd88b657f258dceb4b939e1b8ff985c -> 8ec8d0cab67ae6f0106283dd49d5b741aac7cdad98bc5f125e7d391e03bf6d36
+~ _rosetta_get_expected_version : sha256 f1928ed3071fafcf5d8ee91135e222c5e136c0996db16eff2ab5758bec010935 -> 88118e234ff4df412d7a865fc12a295f558bc6491c591bcdd1173ac03a042525
+~ sub_2bc4d7484 -> sub_2bd9e1480 : 3244 -> 3232
+~ sub_2bc4d8130 -> sub_2bd9e2120 : sha256 e1d8992985507821387a93d94e0dd3de3dd32a86ffe02c03fa17520e156f5552 -> 1b0512bae2cc91760694a42055682259f176e2471b51fedb88b907832286208e
+~ sub_2bc4d8294 -> sub_2bd9e2284 : sha256 8f46fcfe595d7924fa8e2dfa682aefad53efc4f7e1e08a2e486493a8230f2a72 -> c32f0da43a40b49a989d9ea795017cf6035f7346b5b12044b3990421ae27e87d
+~ sub_2bc4d82a4 -> sub_2bd9e2294 : sha256 3b2553d8fb66c357cbd170a13b660ec46d5cf2d425181074d3c08957edde7911 -> d60107d2f400c4b03c8b1651630a1175d1e028dac1c30e4b77acbf2078db2f97
+~ sub_2bc4d830c -> sub_2bd9e22fc : sha256 b2907320675def59ea328daf329a586083376df925e24a64ff3dd71279b97250 -> 2172421de2a96ee2f698eac81f2737135b36e3a046f9600692010dea01503afb
+~ sub_2bc4d8358 -> sub_2bd9e2348 : sha256 896908d8ee40ce9b3fd5404839bc099af0020958025c0ae09e2042c513c50a44 -> 7bdfd80b61020b6b7d95047c88982bca53881a368dc3d40aeab698776a0c7cf2
+
+```

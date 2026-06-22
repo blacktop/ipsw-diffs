@@ -1,0 +1,1175 @@
+## PrivateMLClient
+
+> `/System/Library/PrivateFrameworks/PrivateMLClient.framework/PrivateMLClient`
+
+```diff
+
+-201.0.2.0.0
+-  __TEXT.__text: 0x3c5130 sha256:8705e7ea3a2601354dde152ca689e0f39b26e28a0512eee4bb3b381229d3d91d
+-  __TEXT.__const: 0x2e228 sha256:4833d30f33d969eab25a0492200b558aab4d07fc268f4b1304e4ba15af2b944e
+-  __TEXT.__swift5_typeref: 0x6bea sha256:44660a4d3cc1be2fe16208c7e6bf7d889cea33955f8746c4169d6d95cd19333d
+-  __TEXT.__oslogstring: 0x6efd sha256:1f291493e104d40f6e50a2353cd83fa25a7b99e41e510d5e0ef01c9d16fa2b5a
+-  __TEXT.__cstring: 0xaa2e sha256:16cae881eaed0eb8733d0c6922e159c8cf7daa43d256b234792feac288313445
+-  __TEXT.__constg_swiftt: 0x6f64 sha256:25bdb4d77d65608300c834a24b39137e94962a7fa2f653993f5c22ad970c558b
+-  __TEXT.__swift5_builtin: 0x168 sha256:0ad8d42021901199ebc4e3a8f1188af9fed0137281242a6cfc0e65a028ed5142
+-  __TEXT.__swift5_reflstr: 0x78a5 sha256:aa99c83f3b881479cb333733a178df43659f21981f19837e7bbc253c465dc998
+-  __TEXT.__swift5_fieldmd: 0x9344 sha256:9f0681967ef4c05a5d77f0f440b6bb109df233acd7fdda3bd091ad12b289f910
+-  __TEXT.__swift5_capture: 0x21ac sha256:2a6a08ac5eda2a4b9c53cad17a49767f69debd68f86b3e124c98e1ec2d52ee12
+-  __TEXT.__swift5_proto: 0x27e4 sha256:11929313d7745c4cd78f83b648273f9d01941920dc3635a345d471b69f7ef1d0
+-  __TEXT.__swift5_types: 0x8c4 sha256:2afdb9424ac992a1a7434ae571814e2e527d8b5b9745c1d86bc3a40599a3e455
+-  __TEXT.__swift5_assocty: 0xaa0 sha256:f6a1c1655229faf0b1aa3171897d164504057b535574b68fceba35c5de6957bf
+-  __TEXT.__swift5_mpenum: 0xb0 sha256:9942136db58ec9c67eda2750bc885abc3ffebcd0a2c283d8db8a556f36e2987f
+-  __TEXT.__swift_as_entry: 0x148 sha256:c27c1e9575d5c0484d1bbd51bdcacdd2238ad7975e33939a905eca2c4c9d2787
+-  __TEXT.__swift_as_ret: 0x190 sha256:5dcfd6d138b731c3ab93f80c5c1727be03e2f60034e35dfa1d6ee2159e527bfc
+-  __TEXT.__swift_as_cont: 0x444 sha256:bc72aa068e034772ddbeb8e9a5035b43c08bddc33bbfa8b34b6c9fdfdf29fd72
+-  __TEXT.__swift5_protos: 0x18 sha256:e7381b887ca59dbf6585ae8d6d9cfe9669e13684d9fedd0ddb89140b1142b573
+-  __TEXT.__unwind_info: 0x103d8 sha256:4586422a405e0e18935a18d32e7a07f9bfba187c71cc9620bd8aeac797821f6f
+-  __TEXT.__eh_frame: 0x17ab8 sha256:16ec7b0da23054aa0e8d4f72eccc7f88b33507db1ba417cc0f79988029b63ff4
++204.0.2.0.0
++  __TEXT.__text: 0x405cf8 sha256:da6df3c6bb2b14abbd9eae3f5407b23961c3e201c56f8e5b4fd137a3e96c7212
++  __TEXT.__const: 0x306e8 sha256:cdeda919e2a59fe0a81ee82585520ebbea5b8e6a7dd70cedc06499349d0e8c64
++  __TEXT.__swift5_typeref: 0x70e6 sha256:4715b6ac08a063495f0a5a7bf0bdd798ae76b38787f3c2ebe81c045c09df576e
++  __TEXT.__oslogstring: 0x78a0 sha256:f0e74f7258d9bdc1227daa73ae79e46f6955d3eb58888ff91943cc4a6c91184d
++  __TEXT.__cstring: 0xb315 sha256:041b5c5d9bc294acefa3175f96e0b1a9e1e65bfc6c1aa16754fb2c6b4c49c85a
++  __TEXT.__constg_swiftt: 0x7464 sha256:dfadb27aaac0448e6d40339585b7c181a0290820f90f17c6e325a37bd0f1d7b4
++  __TEXT.__swift5_builtin: 0x190 sha256:de3ddd753270f2a2ecf14fe2accf70f4aee9d879b30a144988a1dd609100ede4
++  __TEXT.__swift5_reflstr: 0x7ea5 sha256:28790234a950192c96cc91d1b456c5e11ece80163adedd43fc63dddd46021dff
++  __TEXT.__swift5_fieldmd: 0x9ab8 sha256:d0297b11622461bd8791203eb6c4a6776db3bce535d7b80c741aa3fd98c01d6c
++  __TEXT.__swift5_capture: 0x2670 sha256:2aa89f6793eab459df5425d2a936eb849862a6d9512f117e47c28fdbbfb5b51f
++  __TEXT.__swift5_proto: 0x29cc sha256:1cca2f9edc3e6ac97e06346bf4974b5ae95e97fc1b2934a60f2ba8807bca28b9
++  __TEXT.__swift5_types: 0x930 sha256:d3bca969125225a3a3971229f3d4646003e1c907a39d2020f774268aab0a1505
++  __TEXT.__swift5_assocty: 0xad0 sha256:fae7e0b516eb411828b3aa036ca5ce17466940e90093bdcc79813446bd6e906a
++  __TEXT.__swift5_mpenum: 0xc0 sha256:cfb8892453b9c6d3856186f0da867911acace44e70de02d9ee2f61a020cf97eb
++  __TEXT.__swift_as_entry: 0x160 sha256:34da2f7a6d06376a3dad08b8dea59e09493f25a5ad4f1935bb715bb68c51cdde
++  __TEXT.__swift_as_ret: 0x1c0 sha256:555f376262901d182bc4e7c62b7418309b9ffe73e2b2fc21c01143a36b9ce997
++  __TEXT.__swift_as_cont: 0x4f8 sha256:54a5e6bec2811bab056a79c027b238dbfe6281998279fb097a19cde210497f13
++  __TEXT.__swift5_protos: 0x18 sha256:187acc6867d35d5d0851f93f535ac7752c06679181be50c3f334dfccef8c2136
++  __TEXT.__unwind_info: 0x110f0 sha256:c605f79c9a3eb4879e2599706a69b68b9e42c04915b68a0c887f75e69df2b6df
++  __TEXT.__eh_frame: 0x19230 sha256:f4d647392152b898d8d1694fe1fbd1b30668a6eb32505a514d4b175f419455a9
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x4840 sha256:6775df7a4315319958f48981943f79998097cb8914fa54ba80f60754ce6ba4fe
+-  __DATA_CONST.__objc_classlist: 0x108 sha256:bb0ada1faa1c5e45d5930a30d5a26bd1308e0b919ed89ab7618004dbe63dabf0
++  __DATA_CONST.__const: 0x4b00 sha256:2b1cc32245328ab3d213fc6f1fccf76870658b436c8aaa7360d6118a4e03c782
++  __DATA_CONST.__objc_classlist: 0x110 sha256:204ffd0d933a96fe74965c26cf5e0a8138328e04fbc8078f36799153cfa1ce92
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xa0 sha256:2216585454c72e7ca2f95965d3a1bff81c0450489b51089bce8483b89060707b
++  __DATA_CONST.__objc_selrefs: 0xc8 sha256:9c1e14dccdb3f0eebb8769c98db0888a967f398a446adea5421bc66bb6eb8792
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xaae0 sha256:12f8e7bc789ac8210a8a6812773a46c974226c445efcd4f13f161acb7e6eda03
+-  __AUTH_CONST.__objc_const: 0x2f98 sha256:b7beb5277f9658c9d21f2c49d9c52922f48c6e64f3db4e82a6b19a8ab10769ae
+-  __AUTH_CONST.__auth_got: 0x1570 sha256:1dfd030cba9544202ffa3b1402e496443211a1ffafc714ebe7acb33b5f67b859
+-  __AUTH.__objc_data: 0x2d0 sha256:4db6d65c7460239a85ab89c77546bcb2ec57a05e6efe9fe5036c2a176890fa26
+-  __AUTH.__data: 0x5020 sha256:2496f08bd0f28d0024496aad85dab4da3119a20dec394cef467f2286d78839ad
+-  __DATA.__data: 0x8eb0 sha256:969314bc9a7689e2f44f8cb673e87b0d7f8aae5e37decc33524357b5b1e06c3f
+-  __DATA.__bss: 0x47080 sha256:da0f008435083d9720b57802ac7a1af81853f26f1c80e3766f84ead5888bf454
++  __AUTH_CONST.__const: 0xb9b8 sha256:75839afefca6c5a0956144a224c762403b877470db896fb507135439c7fd0176
++  __AUTH_CONST.__objc_const: 0x31b0 sha256:12942bc72c6280b4765398d3d6ffb414dcd1459fc954fca855e433bdf5ac0031
++  __AUTH_CONST.__auth_got: 0x1680 sha256:32ead73abab870ab0c7ba67a2337215e63ae49394d3c22dbf133e7ce1c7a2a0a
++  __AUTH.__objc_data: 0x2d0 sha256:990482c1c467c4b3b28dc33cdbc443890d958f45d00eab65c2ef10973e947cfa
++  __AUTH.__data: 0x5cb8 sha256:6e2af6b8dd40cbaae2638126b34ae089cd011a16cea05080e645e8a7a270453e
++  __DATA.__data: 0x98e0 sha256:84d52e9557e583900ca05323433a51d24df0ada22b5a94867993c73fdf870114
++  __DATA.__bss: 0x4ad80 sha256:7006144454fe6a75ed4817946b71e92b76e04005412d7b289dea92744f2a6fac
+   __DATA.__common: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+-  __DATA_DIRTY.__objc_data: 0x5f0 sha256:ab60e57c0f03e97e8b95cb8f875cbd4cf790440422e7ed84f6aabead7cbee472
+-  __DATA_DIRTY.__data: 0xfe58 sha256:9ba833e5416d5d16ea587c0f5154e38cd4b6573b78d4a6f74dbfc9e552bff5f0
++  __DATA_DIRTY.__objc_data: 0x5f0 sha256:2b57967c41cffb89a203f4d03c7e168235eb48f7cc836b6bdfa9ff9d78157d1e
++  __DATA_DIRTY.__data: 0xff30 sha256:0080eba3fa5d994afbd378404cac174fcaefc8a1693e0f450c3792573c9e3bca
+   __DATA_DIRTY.__bss: 0x8480 sha256:f1205c3087e39320c854aa9f4c4aa653138813173f9551b9b285d19edfdade58
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/TokenGenerationCore.framework/TokenGenerationCore
+   - /usr/lib/libSystem.B.dylib
++  - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 73A4F40F-71F3-3AD3-BAE8-6A870FFB2E74
+-  Functions: 26449
+-  Symbols:   5141
+-  CStrings:  1925
++  UUID: 01FBD70D-A6D9-3AB9-8DD1-02A28073E7C8
++  Functions: 27826
++  Symbols:   5473
++  CStrings:  2033
+ 
+Symbols:
++ __DATA__TtC15PrivateMLClient23SessionCompressionState
++ __IVARS__TtC15PrivateMLClient23SessionCompressionState
++ __METACLASS_DATA__TtC15PrivateMLClient23SessionCompressionState
++ ___swift__destructor.196
++ ___swift__destructor.201
++ ___swift__destructor.205
++ ___swift__destructor.65
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.1001
++ ___swift_closure_destructor.1005
++ ___swift_closure_destructor.1011
++ ___swift_closure_destructor.1023
++ ___swift_closure_destructor.1027
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.1031
++ ___swift_closure_destructor.1035
++ ___swift_closure_destructor.1042
++ ___swift_closure_destructor.1057
++ ___swift_closure_destructor.1061
++ ___swift_closure_destructor.1064
++ ___swift_closure_destructor.1068
++ ___swift_closure_destructor.1072
++ ___swift_closure_destructor.1077
++ ___swift_closure_destructor.1080
++ ___swift_closure_destructor.1084
++ ___swift_closure_destructor.1088
++ ___swift_closure_destructor.1092
++ ___swift_closure_destructor.1095
++ ___swift_closure_destructor.1099
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.1103
++ ___swift_closure_destructor.1126
++ ___swift_closure_destructor.1133
++ ___swift_closure_destructor.1137
++ ___swift_closure_destructor.1141
++ ___swift_closure_destructor.1144
++ ___swift_closure_destructor.1148
++ ___swift_closure_destructor.1151
++ ___swift_closure_destructor.1155
++ ___swift_closure_destructor.1159
++ ___swift_closure_destructor.1163
++ ___swift_closure_destructor.1185
++ ___swift_closure_destructor.1189
++ ___swift_closure_destructor.1192
++ ___swift_closure_destructor.1196
++ ___swift_closure_destructor.1200
++ ___swift_closure_destructor.1211
++ ___swift_closure_destructor.1215
++ ___swift_closure_destructor.1218
++ ___swift_closure_destructor.1222
++ ___swift_closure_destructor.1226
++ ___swift_closure_destructor.1236
++ ___swift_closure_destructor.1239
++ ___swift_closure_destructor.124
++ ___swift_closure_destructor.1243
++ ___swift_closure_destructor.1247
++ ___swift_closure_destructor.1251
++ ___swift_closure_destructor.1254
++ ___swift_closure_destructor.1258
++ ___swift_closure_destructor.1261
++ ___swift_closure_destructor.1265
++ ___swift_closure_destructor.1269
++ ___swift_closure_destructor.1272
++ ___swift_closure_destructor.1278
++ ___swift_closure_destructor.1281
++ ___swift_closure_destructor.1285
++ ___swift_closure_destructor.1289
++ ___swift_closure_destructor.1299
++ ___swift_closure_destructor.1303
++ ___swift_closure_destructor.1307
++ ___swift_closure_destructor.1311
++ ___swift_closure_destructor.1315
++ ___swift_closure_destructor.1319
++ ___swift_closure_destructor.1326
++ ___swift_closure_destructor.1352
++ ___swift_closure_destructor.1356
++ ___swift_closure_destructor.1359
++ ___swift_closure_destructor.136
++ ___swift_closure_destructor.1363
++ ___swift_closure_destructor.1371
++ ___swift_closure_destructor.1375
++ ___swift_closure_destructor.1385
++ ___swift_closure_destructor.1388
++ ___swift_closure_destructor.1392
++ ___swift_closure_destructor.1396
++ ___swift_closure_destructor.1400
++ ___swift_closure_destructor.1404
++ ___swift_closure_destructor.1408
++ ___swift_closure_destructor.1412
++ ___swift_closure_destructor.1415
++ ___swift_closure_destructor.1419
++ ___swift_closure_destructor.1422
++ ___swift_closure_destructor.1425
++ ___swift_closure_destructor.1429
++ ___swift_closure_destructor.1433
++ ___swift_closure_destructor.1437
++ ___swift_closure_destructor.1441
++ ___swift_closure_destructor.1445
++ ___swift_closure_destructor.1449
++ ___swift_closure_destructor.1452
++ ___swift_closure_destructor.1456
++ ___swift_closure_destructor.1459
++ ___swift_closure_destructor.1462
++ ___swift_closure_destructor.1466
++ ___swift_closure_destructor.1470
++ ___swift_closure_destructor.1474
++ ___swift_closure_destructor.1478
++ ___swift_closure_destructor.1482
++ ___swift_closure_destructor.1486
++ ___swift_closure_destructor.1489
++ ___swift_closure_destructor.1493
++ ___swift_closure_destructor.1496
++ ___swift_closure_destructor.1499
++ ___swift_closure_destructor.1503
++ ___swift_closure_destructor.1507
++ ___swift_closure_destructor.1511
++ ___swift_closure_destructor.1515
++ ___swift_closure_destructor.1519
++ ___swift_closure_destructor.161
++ ___swift_closure_destructor.1690
++ ___swift_closure_destructor.1693
++ ___swift_closure_destructor.1700
++ ___swift_closure_destructor.1700Tm
++ ___swift_closure_destructor.1704
++ ___swift_closure_destructor.1712
++ ___swift_closure_destructor.1716
++ ___swift_closure_destructor.173Tm
++ ___swift_closure_destructor.176
++ ___swift_closure_destructor.180
++ ___swift_closure_destructor.195
++ ___swift_closure_destructor.20Tm
++ ___swift_closure_destructor.210
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.240
++ ___swift_closure_destructor.24Tm
++ ___swift_closure_destructor.255
++ ___swift_closure_destructor.267
++ ___swift_closure_destructor.292
++ ___swift_closure_destructor.296
++ ___swift_closure_destructor.311
++ ___swift_closure_destructor.326
++ ___swift_closure_destructor.341
++ ___swift_closure_destructor.356
++ ___swift_closure_destructor.371
++ ___swift_closure_destructor.386
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.401
++ ___swift_closure_destructor.413
++ ___swift_closure_destructor.428
++ ___swift_closure_destructor.431
++ ___swift_closure_destructor.435
++ ___swift_closure_destructor.435Tm
++ ___swift_closure_destructor.438
++ ___swift_closure_destructor.442
++ ___swift_closure_destructor.446
++ ___swift_closure_destructor.450
++ ___swift_closure_destructor.462
++ ___swift_closure_destructor.466
++ ___swift_closure_destructor.471
++ ___swift_closure_destructor.474
++ ___swift_closure_destructor.478
++ ___swift_closure_destructor.481
++ ___swift_closure_destructor.487
++ ___swift_closure_destructor.490
++ ___swift_closure_destructor.502
++ ___swift_closure_destructor.514
++ ___swift_closure_destructor.520
++ ___swift_closure_destructor.524
++ ___swift_closure_destructor.529
++ ___swift_closure_destructor.532
++ ___swift_closure_destructor.536
++ ___swift_closure_destructor.536Tm
++ ___swift_closure_destructor.539
++ ___swift_closure_destructor.542
++ ___swift_closure_destructor.545
++ ___swift_closure_destructor.548
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.551
++ ___swift_closure_destructor.554
++ ___swift_closure_destructor.558
++ ___swift_closure_destructor.562
++ ___swift_closure_destructor.566
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.570
++ ___swift_closure_destructor.574
++ ___swift_closure_destructor.578
++ ___swift_closure_destructor.581
++ ___swift_closure_destructor.584
++ ___swift_closure_destructor.588
++ ___swift_closure_destructor.592
++ ___swift_closure_destructor.596
++ ___swift_closure_destructor.604
++ ___swift_closure_destructor.608
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.612
++ ___swift_closure_destructor.617
++ ___swift_closure_destructor.620
++ ___swift_closure_destructor.624
++ ___swift_closure_destructor.631
++ ___swift_closure_destructor.635
++ ___swift_closure_destructor.639
++ ___swift_closure_destructor.644
++ ___swift_closure_destructor.647
++ ___swift_closure_destructor.651
++ ___swift_closure_destructor.660
++ ___swift_closure_destructor.663
++ ___swift_closure_destructor.667
++ ___swift_closure_destructor.670
++ ___swift_closure_destructor.674
++ ___swift_closure_destructor.678
++ ___swift_closure_destructor.682
++ ___swift_closure_destructor.687
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.690
++ ___swift_closure_destructor.694
++ ___swift_closure_destructor.697
++ ___swift_closure_destructor.701
++ ___swift_closure_destructor.705
++ ___swift_closure_destructor.709
++ ___swift_closure_destructor.714
++ ___swift_closure_destructor.717
++ ___swift_closure_destructor.721
++ ___swift_closure_destructor.724
++ ___swift_closure_destructor.728
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.732
++ ___swift_closure_destructor.736
++ ___swift_closure_destructor.744
++ ___swift_closure_destructor.748
++ ___swift_closure_destructor.759
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.762
++ ___swift_closure_destructor.766
++ ___swift_closure_destructor.769
++ ___swift_closure_destructor.772
++ ___swift_closure_destructor.775
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.790
++ ___swift_closure_destructor.814
++ ___swift_closure_destructor.818
++ ___swift_closure_destructor.821
++ ___swift_closure_destructor.825
++ ___swift_closure_destructor.836
++ ___swift_closure_destructor.840
++ ___swift_closure_destructor.844
++ ___swift_closure_destructor.848
++ ___swift_closure_destructor.851
++ ___swift_closure_destructor.855
++ ___swift_closure_destructor.859
++ ___swift_closure_destructor.863
++ ___swift_closure_destructor.866
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.870
++ ___swift_closure_destructor.874
++ ___swift_closure_destructor.878
++ ___swift_closure_destructor.881
++ ___swift_closure_destructor.885
++ ___swift_closure_destructor.889
++ ___swift_closure_destructor.893
++ ___swift_closure_destructor.896
++ ___swift_closure_destructor.900
++ ___swift_closure_destructor.903
++ ___swift_closure_destructor.907
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.911
++ ___swift_closure_destructor.915
++ ___swift_closure_destructor.923
++ ___swift_closure_destructor.927
++ ___swift_closure_destructor.931
++ ___swift_closure_destructor.942
++ ___swift_closure_destructor.946
++ ___swift_closure_destructor.949
++ ___swift_closure_destructor.952
++ ___swift_closure_destructor.958
++ ___swift_closure_destructor.962
++ ___swift_closure_destructor.982
++ ___swift_closure_destructor.986
++ ___swift_closure_destructor.990
++ ___swift_closure_destructor.994
++ ___swift_closure_destructor.998
++ ___swift_get_extra_inhabitant_index.1106Tm
++ ___swift_get_extra_inhabitant_index.1115Tm
++ ___swift_get_extra_inhabitant_index.151Tm
++ ___swift_get_extra_inhabitant_index.1623Tm
++ ___swift_get_extra_inhabitant_index.1659Tm
++ ___swift_get_extra_inhabitant_index.1674Tm
++ ___swift_get_extra_inhabitant_index.1750Tm
++ ___swift_get_extra_inhabitant_index.1768Tm
++ ___swift_get_extra_inhabitant_index.1786Tm
++ ___swift_get_extra_inhabitant_index.1813Tm
++ ___swift_get_extra_inhabitant_index.1822Tm
++ ___swift_get_extra_inhabitant_index.1873Tm
++ ___swift_get_extra_inhabitant_index.1906Tm
++ ___swift_get_extra_inhabitant_index.1933Tm
++ ___swift_get_extra_inhabitant_index.2275Tm
++ ___swift_get_extra_inhabitant_index.2398Tm
++ ___swift_get_extra_inhabitant_index.2524Tm
++ ___swift_get_extra_inhabitant_index.2713Tm
++ ___swift_get_extra_inhabitant_index.3175Tm
++ ___swift_get_extra_inhabitant_index.3191Tm
++ ___swift_get_extra_inhabitant_index.58Tm
++ ___swift_get_extra_inhabitant_index.599Tm
++ ___swift_get_extra_inhabitant_index.642Tm
++ ___swift_get_extra_inhabitant_index.669Tm
++ ___swift_get_extra_inhabitant_index.696Tm
++ ___swift_get_extra_inhabitant_index.714Tm
++ ___swift_get_extra_inhabitant_index.768Tm
++ ___swift_get_extra_inhabitant_index.786Tm
++ ___swift_get_extra_inhabitant_index.795Tm
++ ___swift_get_extra_inhabitant_index.854Tm
++ ___swift_get_extra_inhabitant_index.90Tm
++ ___swift_get_extra_inhabitant_index.917Tm
++ ___swift_store_extra_inhabitant_index.1107Tm
++ ___swift_store_extra_inhabitant_index.1116Tm
++ ___swift_store_extra_inhabitant_index.152Tm
++ ___swift_store_extra_inhabitant_index.1624Tm
++ ___swift_store_extra_inhabitant_index.1660Tm
++ ___swift_store_extra_inhabitant_index.1675Tm
++ ___swift_store_extra_inhabitant_index.1751Tm
++ ___swift_store_extra_inhabitant_index.1769Tm
++ ___swift_store_extra_inhabitant_index.1787Tm
++ ___swift_store_extra_inhabitant_index.1814Tm
++ ___swift_store_extra_inhabitant_index.1823Tm
++ ___swift_store_extra_inhabitant_index.1874Tm
++ ___swift_store_extra_inhabitant_index.1907Tm
++ ___swift_store_extra_inhabitant_index.1934Tm
++ ___swift_store_extra_inhabitant_index.2276Tm
++ ___swift_store_extra_inhabitant_index.2399Tm
++ ___swift_store_extra_inhabitant_index.2525Tm
++ ___swift_store_extra_inhabitant_index.2714Tm
++ ___swift_store_extra_inhabitant_index.3176Tm
++ ___swift_store_extra_inhabitant_index.3192Tm
++ ___swift_store_extra_inhabitant_index.59Tm
++ ___swift_store_extra_inhabitant_index.600Tm
++ ___swift_store_extra_inhabitant_index.643Tm
++ ___swift_store_extra_inhabitant_index.670Tm
++ ___swift_store_extra_inhabitant_index.697Tm
++ ___swift_store_extra_inhabitant_index.715Tm
++ ___swift_store_extra_inhabitant_index.769Tm
++ ___swift_store_extra_inhabitant_index.787Tm
++ ___swift_store_extra_inhabitant_index.796Tm
++ ___swift_store_extra_inhabitant_index.855Tm
++ ___swift_store_extra_inhabitant_index.918Tm
++ ___swift_store_extra_inhabitant_index.91Tm
++ _associated conformance 15PrivateMLClient18Tie_StatusResponseV0A23FilterServiceInfraErrorV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient18Tie_StatusResponseV0A23FilterServiceInfraErrorV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0M0
++ _associated conformance 15PrivateMLClient18Tie_StatusResponseV0A23FilterServiceInfraErrorV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient18Tie_StatusResponseV0A23FilterServiceInfraErrorVSHAASQ
++ _associated conformance 15PrivateMLClient19PalisadesCompressorO5ErrorOSHAASQ
++ _associated conformance 15PrivateMLClient20Tie_HKSVAgentRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient20Tie_HKSVAgentRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
++ _associated conformance 15PrivateMLClient20Tie_HKSVAgentRequestV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient20Tie_HKSVAgentRequestVSHAASQ
++ _associated conformance 15PrivateMLClient21Tie_HKSVAgentResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient21Tie_HKSVAgentResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
++ _associated conformance 15PrivateMLClient21Tie_HKSVAgentResponseV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient21Tie_HKSVAgentResponseVSHAASQ
++ _associated conformance 15PrivateMLClient27TieHksvProcessing_HKSVErrorV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient27TieHksvProcessing_HKSVErrorV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 15PrivateMLClient27TieHksvProcessing_HKSVErrorV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient27TieHksvProcessing_HKSVErrorVSHAASQ
++ _associated conformance 15PrivateMLClient27Tie_VisualGenerationMetricsV015ImageProcessingF0V21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient27Tie_VisualGenerationMetricsV015ImageProcessingF0V21InternalSwiftProtobuf26_MessageImplementationBaseAaF0L0
++ _associated conformance 15PrivateMLClient27Tie_VisualGenerationMetricsV015ImageProcessingF0V21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient27Tie_VisualGenerationMetricsV015ImageProcessingF0VSHAASQ
++ _associated conformance 15PrivateMLClient28TieHksvProcessing_HKSVResultV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient28TieHksvProcessing_HKSVResultV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 15PrivateMLClient28TieHksvProcessing_HKSVResultV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient28TieHksvProcessing_HKSVResultVSHAASQ
++ _associated conformance 15PrivateMLClient29TieHksvProcessing_HKSVCaptionV11CaptionTypeO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 15PrivateMLClient29TieHksvProcessing_HKSVCaptionV11CaptionTypeO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 15PrivateMLClient29TieHksvProcessing_HKSVCaptionV11CaptionTypeOSHAASQ
++ _associated conformance 15PrivateMLClient29TieHksvProcessing_HKSVCaptionV11CaptionTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 15PrivateMLClient29TieHksvProcessing_HKSVCaptionV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient29TieHksvProcessing_HKSVCaptionV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 15PrivateMLClient29TieHksvProcessing_HKSVCaptionV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient29TieHksvProcessing_HKSVCaptionVSHAASQ
++ _associated conformance 15PrivateMLClient30TieHksvProcessing_HKSVFragmentV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient30TieHksvProcessing_HKSVFragmentV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 15PrivateMLClient30TieHksvProcessing_HKSVFragmentV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient30TieHksvProcessing_HKSVFragmentVSHAASQ
++ _associated conformance 15PrivateMLClient31TieHksvProcessing_HKSVEmbeddingV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient31TieHksvProcessing_HKSVEmbeddingV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 15PrivateMLClient31TieHksvProcessing_HKSVEmbeddingV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient31TieHksvProcessing_HKSVEmbeddingVSHAASQ
++ _associated conformance 15PrivateMLClient31TieVisualGeneration_ConstraintsV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient31TieVisualGeneration_ConstraintsV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 15PrivateMLClient31TieVisualGeneration_ConstraintsV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient31TieVisualGeneration_ConstraintsV6SchemaV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient31TieVisualGeneration_ConstraintsV6SchemaV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0K0
++ _associated conformance 15PrivateMLClient31TieVisualGeneration_ConstraintsV6SchemaV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient31TieVisualGeneration_ConstraintsV6SchemaVSHAASQ
++ _associated conformance 15PrivateMLClient31TieVisualGeneration_ConstraintsV8SchemaIDV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient31TieVisualGeneration_ConstraintsV8SchemaIDV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0L0
++ _associated conformance 15PrivateMLClient31TieVisualGeneration_ConstraintsV8SchemaIDV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient31TieVisualGeneration_ConstraintsV8SchemaIDVSHAASQ
++ _associated conformance 15PrivateMLClient31TieVisualGeneration_ConstraintsVSHAASQ
++ _associated conformance 15PrivateMLClient33TieHksvProcessing_HKSVBoundingBoxV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient33TieHksvProcessing_HKSVBoundingBoxV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
++ _associated conformance 15PrivateMLClient33TieHksvProcessing_HKSVBoundingBoxV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient33TieHksvProcessing_HKSVBoundingBoxVSHAASQ
++ _associated conformance 15PrivateMLClient34TieHksvProcessing_HKSVFaceMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient34TieHksvProcessing_HKSVFaceMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
++ _associated conformance 15PrivateMLClient34TieHksvProcessing_HKSVFaceMetadataV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient34TieHksvProcessing_HKSVFaceMetadataVSHAASQ
++ _associated conformance 15PrivateMLClient35Promptkit_Wireformat_AssetReferenceV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient35Promptkit_Wireformat_AssetReferenceV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 15PrivateMLClient35Promptkit_Wireformat_AssetReferenceV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient35Promptkit_Wireformat_AssetReferenceVSHAASQ
++ _associated conformance 15PrivateMLClient35TieHksvProcessing_HKSVPropertyValueV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient35TieHksvProcessing_HKSVPropertyValueV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
++ _associated conformance 15PrivateMLClient35TieHksvProcessing_HKSVPropertyValueV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient35TieHksvProcessing_HKSVPropertyValueVSHAASQ
++ _associated conformance 15PrivateMLClient36TieHksvProcessing_HKSVFaceAnnotationV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient36TieHksvProcessing_HKSVFaceAnnotationV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
++ _associated conformance 15PrivateMLClient36TieHksvProcessing_HKSVFaceAnnotationV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient36TieHksvProcessing_HKSVFaceAnnotationVSHAASQ
++ _associated conformance 15PrivateMLClient37TieHksvProcessing_HKSVFragmentRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 15PrivateMLClient37TieHksvProcessing_HKSVFragmentRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
++ _associated conformance 15PrivateMLClient37TieHksvProcessing_HKSVFragmentRequestV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 15PrivateMLClient37TieHksvProcessing_HKSVFragmentRequestVSHAASQ
++ _compression_encode_buffer
++ _compression_encode_scratch_buffer_size
++ _get_enum_tag_for_layout_string 15PrivateMLClient35TieHksvProcessing_HKSVPropertyValueV06OneOf_G0O
++ _get_enum_tag_for_layout_string 15PrivateMLClient9PMLCSDataO
++ _get_type_metadata 15Synchronization5MutexVy10Foundation4DataVSgG noncopyable.1544
++ _keypath_get.1204Tm
++ _keypath_get.1208Tm
++ _keypath_get.1342Tm
++ _keypath_get.136Tm
++ _keypath_get.158Tm
++ _keypath_get.160Tm
++ _keypath_get.184Tm
++ _keypath_get.304Tm
++ _keypath_get.308Tm
++ _keypath_get.314Tm
++ _keypath_get.404Tm
++ _keypath_get.412Tm
++ _keypath_get.414Tm
++ _keypath_get.416Tm
++ _keypath_get.418Tm
++ _keypath_get.422Tm
++ _keypath_get.432Tm
++ _keypath_get.434Tm
++ _keypath_get.436Tm
++ _keypath_get.438Tm
++ _keypath_get.440Tm
++ _keypath_get.460Tm
++ _keypath_get.552Tm
++ _keypath_get.566Tm
++ _keypath_get.572Tm
++ _keypath_get.578Tm
++ _keypath_get.580Tm
++ _keypath_get.582Tm
++ _keypath_get.600Tm
++ _keypath_get.608Tm
++ _keypath_get.622Tm
++ _keypath_get.722Tm
++ _keypath_get.780Tm
++ _keypath_get.814Tm
++ _keypath_get.834Tm
++ _keypath_get.86Tm
++ _keypath_get.888Tm
++ _keypath_get.962Tm
++ _keypath_set.1205Tm
++ _keypath_set.1209Tm
++ _keypath_set.1343Tm
++ _keypath_set.1345Tm
++ _keypath_set.137Tm
++ _keypath_set.159Tm
++ _keypath_set.161Tm
++ _keypath_set.185Tm
++ _keypath_set.305Tm
++ _keypath_set.309Tm
++ _keypath_set.315Tm
++ _keypath_set.413Tm
++ _keypath_set.415Tm
++ _keypath_set.417Tm
++ _keypath_set.419Tm
++ _keypath_set.423Tm
++ _keypath_set.433Tm
++ _keypath_set.435Tm
++ _keypath_set.437Tm
++ _keypath_set.439Tm
++ _keypath_set.441Tm
++ _keypath_set.461Tm
++ _keypath_set.553Tm
++ _keypath_set.567Tm
++ _keypath_set.579Tm
++ _keypath_set.581Tm
++ _keypath_set.583Tm
++ _keypath_set.593Tm
++ _keypath_set.601Tm
++ _keypath_set.609Tm
++ _keypath_set.723Tm
++ _keypath_set.781Tm
++ _keypath_set.815Tm
++ _keypath_set.835Tm
++ _keypath_set.87Tm
++ _keypath_set.889Tm
++ _keypath_set.963Tm
++ _objc_msgSend$baseAddress
++ _objc_msgSend$bytesPerRow
++ _objc_msgSend$lockWithOptions:seed:
++ _objc_msgSend$surfaceID
++ _objc_msgSend$unlockWithOptions:seed:
++ _objc_retainAutorelease
++ _symbolic SDySS_____G 15PrivateMLClient35TieHksvProcessing_HKSVPropertyValueV
++ _symbolic SDy_____ShySSGG 10Foundation4UUIDV
++ _symbolic SS3key______5valuet 15PrivateMLClient35TieHksvProcessing_HKSVPropertyValueV
++ _symbolic SS3key______5valuet 9PromptKit0A0V9ComponentV5ValueO
++ _symbolic SS3key______5valuet 9PromptKit0A7RequestV0A7VariantO04ChatA0V
++ _symbolic SS______t 15PrivateMLClient35TieHksvProcessing_HKSVPropertyValueV
++ _symbolic SS______t 9PromptKit0A0V9ComponentV5ValueO
++ _symbolic SS______t 9PromptKit0A7RequestV0A7VariantO04ChatA0V
++ _symbolic SaySSGIegr_
++ _symbolic Say_____G 15PrivateMLClient27Tie_VisualGenerationMetricsV
++ _symbolic Say_____G 15PrivateMLClient29TieHksvProcessing_HKSVCaptionV
++ _symbolic Say_____G 15PrivateMLClient29TieHksvProcessing_HKSVCaptionV11CaptionTypeO
++ _symbolic Say_____G 15PrivateMLClient30TieHksvProcessing_HKSVFragmentV
++ _symbolic Say_____G 15PrivateMLClient31TieHksvProcessing_HKSVEmbeddingV
++ _symbolic Say_____G 15PrivateMLClient34TieHksvProcessing_HKSVFaceMetadataV
++ _symbolic Say_____G 15PrivateMLClient36TieHksvProcessing_HKSVFaceAnnotationV
++ _symbolic _____ 15PrivateMLClient18Tie_StatusResponseV0A23FilterServiceInfraErrorV
++ _symbolic _____ 15PrivateMLClient19PalisadesCompressorO
++ _symbolic _____ 15PrivateMLClient19PalisadesCompressorO5ErrorO
++ _symbolic _____ 15PrivateMLClient20Tie_HKSVAgentRequestV
++ _symbolic _____ 15PrivateMLClient20Tie_HKSVAgentRequestV06OneOf_E4TypeO
++ _symbolic _____ 15PrivateMLClient21Tie_HKSVAgentResponseV
++ _symbolic _____ 15PrivateMLClient21Tie_HKSVAgentResponseV06OneOf_E4TypeO
++ _symbolic _____ 15PrivateMLClient23SessionCompressionStateC
++ _symbolic _____ 15PrivateMLClient27TieHksvProcessing_HKSVErrorV
++ _symbolic _____ 15PrivateMLClient27Tie_VisualGenerationMetricsV015ImageProcessingF0V
++ _symbolic _____ 15PrivateMLClient28TieHksvProcessing_HKSVResultV
++ _symbolic _____ 15PrivateMLClient29TieHksvProcessing_HKSVCaptionV
++ _symbolic _____ 15PrivateMLClient29TieHksvProcessing_HKSVCaptionV11CaptionTypeO
++ _symbolic _____ 15PrivateMLClient30TieHksvProcessing_HKSVFragmentV
++ _symbolic _____ 15PrivateMLClient31TieHksvProcessing_HKSVEmbeddingV
++ _symbolic _____ 15PrivateMLClient31TieVisualGeneration_ConstraintsV
++ _symbolic _____ 15PrivateMLClient31TieVisualGeneration_ConstraintsV20OneOf_ConstraintTypeO
++ _symbolic _____ 15PrivateMLClient31TieVisualGeneration_ConstraintsV6SchemaV
++ _symbolic _____ 15PrivateMLClient31TieVisualGeneration_ConstraintsV8SchemaIDV
++ _symbolic _____ 15PrivateMLClient33TieHksvProcessing_HKSVBoundingBoxV
++ _symbolic _____ 15PrivateMLClient34TieHksvProcessing_HKSVFaceMetadataV
++ _symbolic _____ 15PrivateMLClient35Promptkit_Wireformat_AssetReferenceV
++ _symbolic _____ 15PrivateMLClient35TieHksvProcessing_HKSVPropertyValueV
++ _symbolic _____ 15PrivateMLClient35TieHksvProcessing_HKSVPropertyValueV06OneOf_G0O
++ _symbolic _____ 15PrivateMLClient36TieHksvProcessing_HKSVFaceAnnotationV
++ _symbolic _____ 15PrivateMLClient37TieHksvProcessing_HKSVFragmentRequestV
++ _symbolic _____ 15PrivateMLClient9PMLCSDataO
++ _symbolic _____ s5Int64V
++ _symbolic _____Sg 12ModelCatalog26ServerWorkflowServiceClassO
++ _symbolic _____Sg 15PrivateMLClient18Tie_StatusResponseV0A23FilterServiceInfraErrorV
++ _symbolic _____Sg 15PrivateMLClient20Tie_HKSVAgentRequestV
++ _symbolic _____Sg 15PrivateMLClient20Tie_HKSVAgentRequestV06OneOf_E4TypeO
++ _symbolic _____Sg 15PrivateMLClient21Tie_HKSVAgentResponseV
++ _symbolic _____Sg 15PrivateMLClient21Tie_HKSVAgentResponseV06OneOf_E4TypeO
++ _symbolic _____Sg 15PrivateMLClient27TieHksvProcessing_HKSVErrorV
++ _symbolic _____Sg 15PrivateMLClient27Tie_VisualGenerationMetricsV015ImageProcessingF0V
++ _symbolic _____Sg 15PrivateMLClient28TieHksvProcessing_HKSVResultV
++ _symbolic _____Sg 15PrivateMLClient31TieVisualGeneration_ConstraintsV
++ _symbolic _____Sg 15PrivateMLClient31TieVisualGeneration_ConstraintsV20OneOf_ConstraintTypeO
++ _symbolic _____Sg 15PrivateMLClient31TieVisualGeneration_ConstraintsV6SchemaV
++ _symbolic _____Sg 15PrivateMLClient31TieVisualGeneration_ConstraintsV8SchemaIDV
++ _symbolic _____Sg 15PrivateMLClient33TieHksvProcessing_HKSVBoundingBoxV
++ _symbolic _____Sg 15PrivateMLClient35Promptkit_Wireformat_AssetReferenceV
++ _symbolic _____Sg 15PrivateMLClient35TieHksvProcessing_HKSVPropertyValueV06OneOf_G0O
++ _symbolic _____Sg 15PrivateMLClient37TieHksvProcessing_HKSVFragmentRequestV
++ _symbolic _____Sg 7Network12NWParametersC12ServiceClassO
++ _symbolic _____Sg_ABt 12ModelCatalog26ServerWorkflowServiceClassO
++ _symbolic _____Sg_ABt 15PrivateMLClient20Tie_HKSVAgentRequestV06OneOf_E4TypeO
++ _symbolic _____Sg_ABt 15PrivateMLClient21Tie_HKSVAgentResponseV06OneOf_E4TypeO
++ _symbolic _____Sg_ABt 15PrivateMLClient27Tie_VisualGenerationMetricsV015ImageProcessingF0V
++ _symbolic _____Sg_ABt 15PrivateMLClient31TieVisualGeneration_ConstraintsV
++ _symbolic _____Sg_ABt 15PrivateMLClient31TieVisualGeneration_ConstraintsV20OneOf_ConstraintTypeO
++ _symbolic _____Sg_ABt 15PrivateMLClient33TieHksvProcessing_HKSVBoundingBoxV
++ _symbolic ______AAt 15PrivateMLClient20Tie_HKSVAgentRequestV06OneOf_E4TypeO
++ _symbolic ______AAt 15PrivateMLClient21Tie_HKSVAgentResponseV06OneOf_E4TypeO
++ _symbolic ______AAt 15PrivateMLClient31TieVisualGeneration_ConstraintsV20OneOf_ConstraintTypeO
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 15PrivateMLClient35TieHksvProcessing_HKSVPropertyValueV
++ _symbolic _____y_____ShySSGG s18_DictionaryStorageC 10Foundation4UUIDV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _type_layout_string 15PrivateMLClient35TieHksvProcessing_HKSVPropertyValueV06OneOf_G0O
++ _type_layout_string 15PrivateMLClient9PMLCSDataO
+- ___swift__destructor.35
+- ___swift__destructor.80
+- ___swift__destructor.85
+- ___swift__destructor.89
+- ___swift_closure_destructor.1000
+- ___swift_closure_destructor.1004
+- ___swift_closure_destructor.1012
+- ___swift_closure_destructor.1022
+- ___swift_closure_destructor.1026
+- ___swift_closure_destructor.1030
+- ___swift_closure_destructor.1034
+- ___swift_closure_destructor.1041
+- ___swift_closure_destructor.1056
+- ___swift_closure_destructor.1060
+- ___swift_closure_destructor.1063
+- ___swift_closure_destructor.1067
+- ___swift_closure_destructor.1071
+- ___swift_closure_destructor.1075
+- ___swift_closure_destructor.1079
+- ___swift_closure_destructor.1082
+- ___swift_closure_destructor.1086
+- ___swift_closure_destructor.1089
+- ___swift_closure_destructor.1093
+- ___swift_closure_destructor.1097
+- ___swift_closure_destructor.1101
+- ___swift_closure_destructor.1125
+- ___swift_closure_destructor.1132
+- ___swift_closure_destructor.1136
+- ___swift_closure_destructor.1140
+- ___swift_closure_destructor.1143
+- ___swift_closure_destructor.1146
+- ___swift_closure_destructor.1149
+- ___swift_closure_destructor.1152
+- ___swift_closure_destructor.1156
+- ___swift_closure_destructor.1160
+- ___swift_closure_destructor.1164
+- ___swift_closure_destructor.1186
+- ___swift_closure_destructor.1190
+- ___swift_closure_destructor.1194
+- ___swift_closure_destructor.1197
+- ___swift_closure_destructor.1201
+- ___swift_closure_destructor.1212
+- ___swift_closure_destructor.1216
+- ___swift_closure_destructor.1220
+- ___swift_closure_destructor.1223
+- ___swift_closure_destructor.1227
+- ___swift_closure_destructor.1234
+- ___swift_closure_destructor.1238
+- ___swift_closure_destructor.1242
+- ___swift_closure_destructor.1246
+- ___swift_closure_destructor.1249
+- ___swift_closure_destructor.1253
+- ___swift_closure_destructor.1256
+- ___swift_closure_destructor.1259
+- ___swift_closure_destructor.1263
+- ___swift_closure_destructor.1267
+- ___swift_closure_destructor.1271
+- ___swift_closure_destructor.1279
+- ___swift_closure_destructor.1283
+- ___swift_closure_destructor.1286
+- ___swift_closure_destructor.1290
+- ___swift_closure_destructor.1300
+- ___swift_closure_destructor.1304
+- ___swift_closure_destructor.1308
+- ___swift_closure_destructor.1312
+- ___swift_closure_destructor.1316
+- ___swift_closure_destructor.1320
+- ___swift_closure_destructor.1327
+- ___swift_closure_destructor.1353
+- ___swift_closure_destructor.1357
+- ___swift_closure_destructor.1360
+- ___swift_closure_destructor.1364
+- ___swift_closure_destructor.1370
+- ___swift_closure_destructor.1374
+- ___swift_closure_destructor.1386
+- ___swift_closure_destructor.1390
+- ___swift_closure_destructor.1561
+- ___swift_closure_destructor.1564
+- ___swift_closure_destructor.1571
+- ___swift_closure_destructor.1571Tm
+- ___swift_closure_destructor.1575
+- ___swift_closure_destructor.1583
+- ___swift_closure_destructor.1587
+- ___swift_closure_destructor.16
+- ___swift_closure_destructor.177
+- ___swift_closure_destructor.181
+- ___swift_closure_destructor.19
+- ___swift_closure_destructor.196
+- ___swift_closure_destructor.211
+- ___swift_closure_destructor.22
+- ___swift_closure_destructor.226
+- ___swift_closure_destructor.256
+- ___swift_closure_destructor.266
+- ___swift_closure_destructor.26Tm
+- ___swift_closure_destructor.31
+- ___swift_closure_destructor.312
+- ___swift_closure_destructor.327
+- ___swift_closure_destructor.342
+- ___swift_closure_destructor.357
+- ___swift_closure_destructor.372
+- ___swift_closure_destructor.387
+- ___swift_closure_destructor.40
+- ___swift_closure_destructor.402
+- ___swift_closure_destructor.409Tm
+- ___swift_closure_destructor.412
+- ___swift_closure_destructor.429
+- ___swift_closure_destructor.432
+- ___swift_closure_destructor.436
+- ___swift_closure_destructor.440
+- ___swift_closure_destructor.445
+- ___swift_closure_destructor.448
+- ___swift_closure_destructor.452
+- ___swift_closure_destructor.46
+- ___swift_closure_destructor.461
+- ___swift_closure_destructor.464
+- ___swift_closure_destructor.468
+- ___swift_closure_destructor.472
+- ___swift_closure_destructor.476
+- ___swift_closure_destructor.480
+- ___swift_closure_destructor.488
+- ___swift_closure_destructor.491
+- ___swift_closure_destructor.503
+- ___swift_closure_destructor.513
+- ___swift_closure_destructor.521
+- ___swift_closure_destructor.525
+- ___swift_closure_destructor.530
+- ___swift_closure_destructor.533
+- ___swift_closure_destructor.537
+- ___swift_closure_destructor.541
+- ___swift_closure_destructor.546
+- ___swift_closure_destructor.549
+- ___swift_closure_destructor.553
+- ___swift_closure_destructor.556
+- ___swift_closure_destructor.560
+- ___swift_closure_destructor.564
+- ___swift_closure_destructor.568
+- ___swift_closure_destructor.573
+- ___swift_closure_destructor.576
+- ___swift_closure_destructor.580
+- ___swift_closure_destructor.583
+- ___swift_closure_destructor.587
+- ___swift_closure_destructor.591
+- ___swift_closure_destructor.595
+- ___swift_closure_destructor.603
+- ___swift_closure_destructor.607
+- ___swift_closure_destructor.610
+- ___swift_closure_destructor.614
+- ___swift_closure_destructor.618
+- ___swift_closure_destructor.622
+- ___swift_closure_destructor.630
+- ___swift_closure_destructor.634
+- ___swift_closure_destructor.638
+- ___swift_closure_destructor.645
+- ___swift_closure_destructor.648
+- ___swift_closure_destructor.652
+- ___swift_closure_destructor.658
+- ___swift_closure_destructor.66
+- ___swift_closure_destructor.661
+- ___swift_closure_destructor.664
+- ___swift_closure_destructor.668
+- ___swift_closure_destructor.672
+- ___swift_closure_destructor.676
+- ___swift_closure_destructor.680
+- ___swift_closure_destructor.684
+- ___swift_closure_destructor.688
+- ___swift_closure_destructor.692
+- ___swift_closure_destructor.696
+- ___swift_closure_destructor.70
+- ___swift_closure_destructor.700
+- ___swift_closure_destructor.704
+- ___swift_closure_destructor.707
+- ___swift_closure_destructor.711
+- ___swift_closure_destructor.715
+- ___swift_closure_destructor.719
+- ___swift_closure_destructor.722
+- ___swift_closure_destructor.726
+- ___swift_closure_destructor.730
+- ___swift_closure_destructor.734
+- ___swift_closure_destructor.737
+- ___swift_closure_destructor.745
+- ___swift_closure_destructor.749
+- ___swift_closure_destructor.756
+- ___swift_closure_destructor.760
+- ___swift_closure_destructor.764
+- ___swift_closure_destructor.767
+- ___swift_closure_destructor.771
+- ___swift_closure_destructor.774
+- ___swift_closure_destructor.791
+- ___swift_closure_destructor.813
+- ___swift_closure_destructor.817
+- ___swift_closure_destructor.820
+- ___swift_closure_destructor.823
+- ___swift_closure_destructor.826
+- ___swift_closure_destructor.837
+- ___swift_closure_destructor.841
+- ___swift_closure_destructor.845
+- ___swift_closure_destructor.849
+- ___swift_closure_destructor.853
+- ___swift_closure_destructor.857
+- ___swift_closure_destructor.861
+- ___swift_closure_destructor.865
+- ___swift_closure_destructor.869
+- ___swift_closure_destructor.872
+- ___swift_closure_destructor.876
+- ___swift_closure_destructor.879
+- ___swift_closure_destructor.882
+- ___swift_closure_destructor.886
+- ___swift_closure_destructor.890
+- ___swift_closure_destructor.894
+- ___swift_closure_destructor.898
+- ___swift_closure_destructor.9
+- ___swift_closure_destructor.902
+- ___swift_closure_destructor.906
+- ___swift_closure_destructor.909
+- ___swift_closure_destructor.913
+- ___swift_closure_destructor.916
+- ___swift_closure_destructor.924
+- ___swift_closure_destructor.928
+- ___swift_closure_destructor.932
+- ___swift_closure_destructor.943
+- ___swift_closure_destructor.948
+- ___swift_closure_destructor.951
+- ___swift_closure_destructor.959
+- ___swift_closure_destructor.963
+- ___swift_closure_destructor.981
+- ___swift_closure_destructor.985
+- ___swift_closure_destructor.989
+- ___swift_closure_destructor.993
+- ___swift_closure_destructor.997
+- ___swift_get_extra_inhabitant_index.1085Tm
+- ___swift_get_extra_inhabitant_index.1094Tm
+- ___swift_get_extra_inhabitant_index.1570Tm
+- ___swift_get_extra_inhabitant_index.1606Tm
+- ___swift_get_extra_inhabitant_index.1621Tm
+- ___swift_get_extra_inhabitant_index.1697Tm
+- ___swift_get_extra_inhabitant_index.1715Tm
+- ___swift_get_extra_inhabitant_index.1733Tm
+- ___swift_get_extra_inhabitant_index.1760Tm
+- ___swift_get_extra_inhabitant_index.1769Tm
+- ___swift_get_extra_inhabitant_index.1820Tm
+- ___swift_get_extra_inhabitant_index.1853Tm
+- ___swift_get_extra_inhabitant_index.1880Tm
+- ___swift_get_extra_inhabitant_index.2213Tm
+- ___swift_get_extra_inhabitant_index.2336Tm
+- ___swift_get_extra_inhabitant_index.2462Tm
+- ___swift_get_extra_inhabitant_index.2651Tm
+- ___swift_get_extra_inhabitant_index.3104Tm
+- ___swift_get_extra_inhabitant_index.3120Tm
+- ___swift_get_extra_inhabitant_index.587Tm
+- ___swift_get_extra_inhabitant_index.630Tm
+- ___swift_get_extra_inhabitant_index.657Tm
+- ___swift_get_extra_inhabitant_index.684Tm
+- ___swift_get_extra_inhabitant_index.702Tm
+- ___swift_get_extra_inhabitant_index.756Tm
+- ___swift_get_extra_inhabitant_index.774Tm
+- ___swift_get_extra_inhabitant_index.82Tm
+- ___swift_get_extra_inhabitant_index.833Tm
+- ___swift_get_extra_inhabitant_index.896Tm
+- ___swift_get_extra_inhabitant_index.923Tm
+- ___swift_store_extra_inhabitant_index.1086Tm
+- ___swift_store_extra_inhabitant_index.1095Tm
+- ___swift_store_extra_inhabitant_index.1571Tm
+- ___swift_store_extra_inhabitant_index.1607Tm
+- ___swift_store_extra_inhabitant_index.1622Tm
+- ___swift_store_extra_inhabitant_index.1698Tm
+- ___swift_store_extra_inhabitant_index.1716Tm
+- ___swift_store_extra_inhabitant_index.1734Tm
+- ___swift_store_extra_inhabitant_index.1761Tm
+- ___swift_store_extra_inhabitant_index.1770Tm
+- ___swift_store_extra_inhabitant_index.1821Tm
+- ___swift_store_extra_inhabitant_index.1854Tm
+- ___swift_store_extra_inhabitant_index.1881Tm
+- ___swift_store_extra_inhabitant_index.2214Tm
+- ___swift_store_extra_inhabitant_index.2337Tm
+- ___swift_store_extra_inhabitant_index.2463Tm
+- ___swift_store_extra_inhabitant_index.2652Tm
+- ___swift_store_extra_inhabitant_index.3105Tm
+- ___swift_store_extra_inhabitant_index.3121Tm
+- ___swift_store_extra_inhabitant_index.588Tm
+- ___swift_store_extra_inhabitant_index.631Tm
+- ___swift_store_extra_inhabitant_index.658Tm
+- ___swift_store_extra_inhabitant_index.685Tm
+- ___swift_store_extra_inhabitant_index.703Tm
+- ___swift_store_extra_inhabitant_index.757Tm
+- ___swift_store_extra_inhabitant_index.775Tm
+- ___swift_store_extra_inhabitant_index.834Tm
+- ___swift_store_extra_inhabitant_index.83Tm
+- ___swift_store_extra_inhabitant_index.897Tm
+- ___swift_store_extra_inhabitant_index.924Tm
+- _get_type_metadata 15Synchronization5MutexVy10Foundation4DataVSgG noncopyable.1415
+- _keypath_get.1173Tm
+- _keypath_get.1177Tm
+- _keypath_get.128Tm
+- _keypath_get.1303Tm
+- _keypath_get.148Tm
+- _keypath_get.150Tm
+- _keypath_get.172Tm
+- _keypath_get.295Tm
+- _keypath_get.299Tm
+- _keypath_get.302Tm
+- _keypath_get.395Tm
+- _keypath_get.403Tm
+- _keypath_get.405Tm
+- _keypath_get.407Tm
+- _keypath_get.409Tm
+- _keypath_get.413Tm
+- _keypath_get.423Tm
+- _keypath_get.425Tm
+- _keypath_get.427Tm
+- _keypath_get.429Tm
+- _keypath_get.431Tm
+- _keypath_get.451Tm
+- _keypath_get.543Tm
+- _keypath_get.557Tm
+- _keypath_get.563Tm
+- _keypath_get.569Tm
+- _keypath_get.571Tm
+- _keypath_get.573Tm
+- _keypath_get.591Tm
+- _keypath_get.599Tm
+- _keypath_get.613Tm
+- _keypath_get.699Tm
+- _keypath_get.757Tm
+- _keypath_get.791Tm
+- _keypath_get.811Tm
+- _keypath_get.84Tm
+- _keypath_get.865Tm
+- _keypath_get.937Tm
+- _keypath_set.1174Tm
+- _keypath_set.1178Tm
+- _keypath_set.129Tm
+- _keypath_set.1304Tm
+- _keypath_set.1306Tm
+- _keypath_set.149Tm
+- _keypath_set.151Tm
+- _keypath_set.173Tm
+- _keypath_set.294Tm
+- _keypath_set.296Tm
+- _keypath_set.300Tm
+- _keypath_set.404Tm
+- _keypath_set.406Tm
+- _keypath_set.408Tm
+- _keypath_set.410Tm
+- _keypath_set.414Tm
+- _keypath_set.424Tm
+- _keypath_set.426Tm
+- _keypath_set.428Tm
+- _keypath_set.430Tm
+- _keypath_set.432Tm
+- _keypath_set.452Tm
+- _keypath_set.544Tm
+- _keypath_set.558Tm
+- _keypath_set.570Tm
+- _keypath_set.572Tm
+- _keypath_set.574Tm
+- _keypath_set.584Tm
+- _keypath_set.592Tm
+- _keypath_set.600Tm
+- _keypath_set.700Tm
+- _keypath_set.758Tm
+- _keypath_set.792Tm
+- _keypath_set.812Tm
+- _keypath_set.85Tm
+- _keypath_set.866Tm
+- _keypath_set.938Tm
+- _swift_retain_x9
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 9PromptKit011ChatMessageD0V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 9PromptKit0D0V9ComponentV
+CStrings:
++ "%s received asset cached response without identifier"
++ "%s received asset cached response, tracking identifier %s"
++ "%s: Failed to acquire RBS assertion for final response processing: %@"
++ "%s: Failed to acquire RBS assertion for inference environment telemetry: %@"
++ "%s:Server returned tieCompressionNotSupported; marking grain '%s' and retrying uncompressed for requestID:%s"
++ "%{private}s privateFilterServiceInfraError received with affectedFilterIDs: %s errorDescription: %s blocked: %{bool}d partialFailure: %{bool}d pfsErrorCode: %d"
++ "%{private}s status details show privateFilterServiceInfraError. Will stop listening for responses without throwing an error"
++ "%{private}s: interactiveVoice serviceClass enabled=%{bool}d (modelCatalogBundle=%{bool}d, userDefaultOverride=%{bool}d)"
++ "%{private}s: prewarm requesting .interactiveVoice serviceClass (modelCatalogBundle=%{bool}d, userDefaultOverride=%{bool}d)"
++ ".ImageProcessingMetrics"
++ ".PrivateFilterServiceInfraError"
++ "AssetIdentifierCache"
++ "CF_PALISADES5"
++ "Compression: requestId: %s, request.enableCompression=%{bool}d, UserDefaults.enableCompressionOverride=%s, optedIntoCompression=%{bool}d, promptRequestWireFormatBytes.count: %ld, UserDefaults.compressionMinThresholdBytes: %ld, compressionEligibleForGrain: %{bool}d"
++ "Do not use getMetaData for AssetIdentifierCache. Use isAssetIdentifierInCache instead."
++ "Evaluated compressionEligibleForGrain: %{bool}d"
++ "FULL"
++ "Failed to acquire RBS assertion for cloud telemetry (%s): %@"
++ "Invalid data for compression: empty"
++ "Local compression failed (%@); falling back to the uncompressed-path routing (sendPromptRequestBytes=%{bool}d)"
++ "NOTE_WORTHY"
++ "NO_ACTIVITY"
++ "PMLCSDM: removeMetaData End %s - %s"
++ "Palisades compression returned 0 with dstCapacity %ld >= %ld (inputBytes=%ld, growIterations=%ld); treating as non-recoverable algorithm failure rather than truncation."
++ "PalisadesCompressor.compress"
++ "PrivateMLClient post-request tasks"
++ "REUSE_EMBEDDING"
++ "REUSE_HISTOGRAM"
++ "Received data for AssetIdentifier is not of type String"
++ "Received data for KVCacheMetadata is not of type Data"
++ "Received data for TurnKeyMetadata is not of type Data"
++ "Replacing imageData with assetReference for identifier: %s in session %s"
++ "Replacing imageSurface with assetReference for identifier: %s in session %s"
++ "SHORT"
++ "Skipping compression"
++ "UNDEFINED"
++ "Using hashed image data as identifier for ImageData: %s"
++ "Using hashed ioSurface data as identifier for ImageData: %s"
++ "Using ioSurface.surfaceID as identifier for ImageData: %s"
++ "additional_results"
++ "affected_filter_ids"
++ "assetReference"
++ "captions"
++ "clip_id"
++ "com.apple.pccagent.imagecache"
++ "compressPromptRequestBytes"
++ "compressionFailed"
++ "compressionMinThresholdBytes"
++ "constrained_model"
++ "double_value"
++ "dstCapacity: %ld"
++ "duration_time_scale"
++ "duration_time_value"
++ "embeddings"
++ "emptyInput"
++ "enableCompressionOverride"
++ "error_description"
++ "error_msg"
++ "face_annotations"
++ "face_metadata"
++ "forceInteractiveVoiceServiceClass"
++ "fragment_number"
++ "fragment_sequence_number"
++ "fragments"
++ "frame_height"
++ "frame_width"
++ "hashImageDataForIdentifier"
++ "hksv_agent_request"
++ "hksv_agent_response"
++ "hksv_error"
++ "hksv_fragment_request"
++ "hksv_result"
++ "image_processing_metrics"
++ "image_raw_zlib_compression_millis"
++ "image_transfer_in_millis"
++ "image_transfer_out_millis"
++ "input_image_conversion_milllis"
++ "int_value"
++ "outcome=%{public}s requestID=%{public}s inputBytes=%{public}ld outputBytes=%{public}ld growIterations=%{public}ld"
++ "output_image_conversion_milllis"
++ "output_token_ids"
++ "partial_failure"
++ "person_label"
++ "pfs_error_code"
++ "previous_captions"
++ "previous_embeddings"
++ "private_filter_service_infra_error"
++ "pro_visual_generation_metrics"
++ "promptkit.wireformat.AssetReference"
++ "requestID=%{public}s inputBytes=%{public}ld"
++ "schema_raw_string"
++ "scratchAllocationFailed"
++ "start_time_scale"
++ "start_time_value"
++ "string_value"
++ "synth_id_name"
++ "synth_id_version"
++ "tie.HKSVAgentRequest"
++ "tie.HKSVAgentResponse"
++ "tieCompressionNotSupported"
++ "tie_hksv_processing.HKSVBoundingBox"
++ "tie_hksv_processing.HKSVCaption"
++ "tie_hksv_processing.HKSVEmbedding"
++ "tie_hksv_processing.HKSVError"
++ "tie_hksv_processing.HKSVFaceAnnotation"
++ "tie_hksv_processing.HKSVFaceMetadata"
++ "tie_hksv_processing.HKSVFragment"
++ "tie_hksv_processing.HKSVFragmentRequest"
++ "tie_hksv_processing.HKSVPropertyValue"
++ "tie_hksv_processing.HKSVResult"
++ "tie_visual_generation.Constraints"
+- "%s received asset cached response (unsupported)"
+- "PMLCSDM: removeKVCacheMetaData End %s - %s"
+- "PMLCSM: release rbAssertion. %s"
+
+```

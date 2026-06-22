@@ -1,0 +1,126 @@
+## CardServices
+
+> `/System/Library/PrivateFrameworks/CardServices.framework/CardServices`
+
+```diff
+
+ 3520.8.1.0.0
+-  __TEXT.__text: 0x200c sha256:7d9307a98333f9eb554f16d7a3a8e2623eb6010979e8e5d331fbed27e13932fb
+-  __TEXT.__objc_methlist: 0x514 sha256:c358013c858d0cb0c869322074ebd4617fa02c0d7871cb51adbf61fee6e2985d
++  __TEXT.__text: 0x1ffc sha256:fcd399c4537e47a6d920aea2df65c4b9cd0e9b6fe00d4bc36b4102e4dff04f18
++  __TEXT.__objc_methlist: 0x514 sha256:e99c978df7717b838280ba82967a40d24039ebb4f419f599cd15a4a2c9260aca
+   __TEXT.__const: 0x60 sha256:1413cebe6dc6cd6adeb9f9bb65f8a568de4b4c022d77ada6aa405ebaf28bab22
+   __TEXT.__cstring: 0x18c sha256:673c4250ba25dc07d328b52bd83f4f584e6bb779956f8c0423647e9de639c8b5
+   __TEXT.__oslogstring: 0x1f2 sha256:08f2ee8f7ffbf74537555c5e4437347725afa7513833d4522dbb06402c2d1e8d
+   __TEXT.__gcc_except_tab: 0x88 sha256:1d69278dc2508faf8f40418b71c57188c6fa7ec27507f941ffef19f045f956cf
+-  __TEXT.__unwind_info: 0x118 sha256:2ec9fff37e3f3632228e64e04df3ba06857b73602c4002df49f2b1949d799935
++  __TEXT.__unwind_info: 0x118 sha256:14001007afce35df512be7c33ee278b86be798dd86b5c867d42640ce127ccf46
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1d0 sha256:54f89b8437d12d377ad38ddc97e0a0a5dce27cbbdbaa985f559224ada05f5fcb
+-  __DATA_CONST.__objc_classlist: 0x50 sha256:f689b049cae4607346e73c9bb9d7de985cd416147647706199caa3b450d0e6e9
+-  __DATA_CONST.__objc_protolist: 0x50 sha256:868efa0d9f5d24fc4a5543da5c3acf5377388af65a0c1170aa5e99ebdbae0b0f
++  __DATA_CONST.__const: 0x1d0 sha256:cca038dbfc0bf08044ad93aea352d297f53a615dd4ba1c268a5d2809411b4a43
++  __DATA_CONST.__objc_classlist: 0x50 sha256:28f5ce474c3a2bec00ed8d2a05d4d79dbe0d868fbb761f7796ff252372398bbe
++  __DATA_CONST.__objc_protolist: 0x50 sha256:b11db7ae3246dda08f25063516497421d65fa07a73c85983cc7f244bb6634a41
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2c8 sha256:ee01926ad50450e9e006c67cf2d4182ff4f1938a328668e70913c2673b29d938
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:041bf0d5d67e5be897128d3c8169856f451ff88fe017977bc8fd7d684acf8f7d
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:2387894eb6b8db341bede49dfe8ed18b6c32498cdee0c6cda97313d407320dc2
+-  __DATA_CONST.__got: 0x90 sha256:830a0e47555d3d3ee0797f2a46550bf24ba758dacd58e7297098606151eb36c0
+-  __AUTH_CONST.__const: 0x20 sha256:3426ace4b4858c36585c41094f58e35b44ecc6b842cc9d5d82e05d0bd160acf3
+-  __AUTH_CONST.__cfstring: 0xa0 sha256:e047ac7afedabd6212648e442df56235c919e0833c57543107676d2b650d274b
+-  __AUTH_CONST.__objc_const: 0x1680 sha256:4650d10e0fb5ab329f11143d998bdfef894a91ad948162a1a50c81b4d18c97e0
++  __DATA_CONST.__objc_selrefs: 0x2c8 sha256:f3e9da67a719c88f3d90ec99962755ee9c30b3c43490e4aa047dcf0386247782
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:2b45fa23b50b25c4fe604bfcf107deaf8f97667394421109c4cf9324a0f74afe
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:b156c8ef152f7a25ab9cd42f9b53a48a6e93ae7b336435a48c94e4856af55f02
++  __DATA_CONST.__got: 0x90 sha256:1ea4a4d29d6a5bb7c706d12dc39db0c3fb64a6c13227229d92b10f96ad0b2229
++  __AUTH_CONST.__const: 0x20 sha256:1e700ac0241167f10ce5f5c054525adc19bf57032ece291d3b9963d8e43b5eba
++  __AUTH_CONST.__cfstring: 0xa0 sha256:ddf35885368248601fa578bb9cdf3518e266d765569514d362be094d6b59b396
++  __AUTH_CONST.__objc_const: 0x1680 sha256:3e2ae3eebeee0518c9de9eff4cb6ffe8a9382fc59e21dc89f81e18ffa33272de
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x140 sha256:53948bfca9b2d3a61572c5b8fe6b04daf2334857baca1647c766ee7e8bc205f7
++  __AUTH.__objc_data: 0x140 sha256:36626e033495bcd6775385c6bdf72761904ed7517fc008e625ee6024423a2a8d
+   __DATA.__objc_ivar: 0x28 sha256:06b77966fd40f03b9506df8fd62a5f3b4cefc88b8bb338f03556ebf9abb36c37
+-  __DATA.__data: 0x3c0 sha256:c8cac590daddec2195bef362f5fe9cdc2688f45f1810b8960243adefda5b2a43
++  __DATA.__data: 0x3c0 sha256:85c1c160906e4db58f6bcbfc9089d9e1510a333a6be952b96079fcb0eb279c95
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x1e0 sha256:2200120bf6eef5d5f7483a1634549df319be340eecc20be632e9fc2b2952d44d
++  __DATA_DIRTY.__objc_data: 0x1e0 sha256:ba50fe1dee4d5a4b3b3b4d28050807e93677f72ae80a369d5c04ecb1c7e4353b
+   __DATA_DIRTY.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/Cards.framework/Cards
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 94DA3CF5-0EFE-37CE-BB88-D5581740267B
++  UUID: B37DCC5B-5B9D-3FEC-80F6-B52EDC26D889
+   Functions: 65
+   Symbols:   427
+   CStrings:  28
+Functions:
+~ +[_CRSServiceBundleManager sharedInstance] : sha256 81258e28b43a7d9e7189d5de90911e73b434f5a828daf7e163703e6a497598b6 -> b339a13e199f868f3378ba57cd0ec0fddbbef52da92ab8f409bb45a68a2bbc64
+~ ___42+[_CRSServiceBundleManager sharedInstance]_block_invoke : sha256 70813d9382ae5f200e6745aa3ca61b5e79da47a73108267c6ceef54865f7882f -> ae22d7aa20c77438cfe07dcadf86a2e4b5d0057d4f66e0f18942419afd33c0e4
+~ +[_CRSServiceBundleManager bundleDirectoryName] : sha256 9cd5f3d170cc4ffd32c89793cb57d078bbd4b16c222efb270121df07bb21908d -> e7e9f2f6794e8051191061365174be089464c0f334091c22f59002032f81708c
+~ +[_CRSServiceBundleManager bundleClass] : sha256 36bf3c93701f3075c68bd029630e62506a523f62d12f254dcae6620785f36873 -> 0d0bfde87eab7d1252f410ebed129daa286c912c5b8a3cd271a3b622f1659ca2
+~ -[_CRSServiceBundleManager getServiceBundlesWithCompletion:] : sha256 14427c14f66d895c85b0563189f69e99472e317bdfd8e0749e6b3804da39096d -> 5860aef0f2ddf3fed23ef98d0df20a2d5da9a7af32547855eea97090dddbdd2e
+~ ___60-[_CRSServiceBundleManager getServiceBundlesWithCompletion:]_block_invoke : sha256 17653e2238fb37725db7f9a47eb63cdc3d6bc89d779f2f900a3facd00407796d -> 5f1d2cf72dacf544a751d705ce75f24b2f27c476f5438301b501be0cfa78b188
+~ ___60-[_CRSServiceBundleManager getServiceBundlesWithCompletion:]_block_invoke_2 : sha256 98ae73538298c729a9b931bf4a0ebd7b7ab9e4e5c04f849cb330effed32c24ac -> 69d89949322a15c96df8b5f43e63b19f7cc9e8b54370ac235591fb3534fa6d80
+~ -[_CRSPassthroughService requestCard:reply:] : sha256 bd9b504921bf504c9f5b3c5c722e664d4bb73b2eb099b294134158bc32092cb0 -> e383d4607bd0a66da2769526c10054a05df1fdf122dbfbfdce88253b82b4eaf5
+~ -[_CRSPassthroughService canSatisfyCardRequest:] : sha256 0d9a04433423da2d2c6341b1cd0ab5bc4a359e8e92aaa3a52eb419fea2a98892 -> 1341dfe289d2b37c6feb4a0096323c92d5f55ffe811c13c4c45b51d1b06ec660
+~ -[_CRSPassthroughService serviceIdentifier] : sha256 1ff1cafd7c7cba40931306d8727e7dbea27360e0dc369d228adfba95c6b713d9 -> 17999ecf796bf1376061f4352c36cee5749846a37f61cb2dc3029b3da089c587
+~ +[CRSIdentifiedServiceRegistry sharedInstance] : sha256 3971fbad8eb19d3c80f5091e0125439553000c277a4897c3646a443623888e9e -> 401f2647dbb981ce5a07277baa092c7feb26f902e0ea9e8939f92a74987c6feb
+~ ___46+[CRSIdentifiedServiceRegistry sharedInstance]_block_invoke : sha256 6b2beba53eb4ee370c5e2c0e9efe8e149e648ababd9c9288bfb37b6bd639a07b -> 540b696aed415d110739b6b68fda81b8b23246f6709df56af62ff7b3279c771c
+~ -[CRSIdentifiedServiceRegistry init] : sha256 5ab52ef3bb631e45e3f7229df1392950b6bc793c4594ee46dae1a3344430a00f -> caabdfd9591721eb775b28593f809ed3f7e97d0d985ad10b5c622ddc5154b759
+~ -[CRSIdentifiedServiceRegistry registerIdentifiedService:] : sha256 cb8843dd634f966003b68e4a673c78f2c8b3d12aac6bfbefeaa0a927b77062e8 -> b9b4a6e18afd24691f81b6a4f7c97cffb096a5637af07512d62b539c7f8bc2af
+~ -[CRSIdentifiedServiceRegistry identifiedServices] : sha256 7a6efab5805b3280b18029d954a39632ad597fb508b133fcb03dbfeecd69ff03 -> 8ba3fdfb5bbea8944cca50353bc44f46d4f10e68603858d23426752ee4d106f1
+~ -[CRSIdentifiedServiceRegistry .cxx_destruct] : sha256 897b38ecb0085da5d8a0b9ddc82fb0bb0751be0509d78b804d3439eb537e876d -> ea38ebfb8d0266c7f6cb96f13243c670ff740f85b0e9e5d40269c5fe2bcd75ad
+~ -[_CRSServiceBundle underlyingService] : sha256 4c20e1b046216aead4ec5f08837f0797bd3709a9251831f788e646a622a9f914 -> 9b5b563b0a50d9d912588cbd2cdc4985d1f502cb018e783588f19d108a7e0d29
+~ -[_CRSServiceBundle _initializeServiceWithClass:] : sha256 a0da76c3f0ef30f4eafb098c1a7b8f4f09c8926153a123607f91d6bdb179e4d9 -> 1f2184602533f0f42266030aad4307eb89f829e28773284564446c38ab3d303c
+~ -[_CRSServiceBundle serviceIdentifier] : sha256 bb8852fce2db0549fbb0b044e44b5a8e0c7c64d1e973858a835c3ccb1b21161e -> cbe27c07280fc58cb3283c2b816d4f4d32995391013410bce5902e0bc53d4234
+~ -[_CRSServiceBundle initWithCoder:] : sha256 f54422d4c7c06c30c17422fb963be1ea3c237bce5b4ab73da2e33acc944898d5 -> f487b877a1ded71a8c056d78f3ae555790dbd3e47cf4b1285cf8de1877e81236
+~ -[_CRSServiceBundle .cxx_destruct] : sha256 521666e97b9d04da9ef8d826f5c7f539a5fb8c638ba9d597ab7d5ddec457c890 -> 99049015e8f63b59c47e72e5643ad3ace718bcac6123faf47415a88b536cb912
+~ -[CRSCardResponse request] : sha256 50f52eb478b24ee8c388d3f96e119205f429f75533873e7c6a5ca94c512f3263 -> 8e360b53ff384328335785794cc0faa254cfdc24452fd9ca0283d34329e1bba5
+~ -[CRSCardResponse setRequest:] : sha256 26d1017dee82ab03b84fc072adabd5a41fde489ba485cd110e3668ace21d269d -> 136afefcfe347c51d33d51dc9e5abacae32728701bb95379374f7152e305a519
+~ -[CRSCardResponse card] : sha256 6f6fe36cc9c90ebda837adfc7d32b867940a961cb8a1f57e3f49e0da08f7a82d -> 09809bb04ad7427c127c924b4cde2e9add88a53427426c059454b8eaff057ee8
+~ -[CRSCardResponse setCard:] : sha256 b890a51dce354b0220c0ea009a181161a5e42e77aaa2cfb699d9297379aff415 -> 8c0a022891ba3818d586600c570c9e3b1a605d9583c60dd404f4250e5c423932
+~ -[CRSCardResponse .cxx_destruct] : sha256 cfbd7be890586ba63aff28730dab6452d4812d57ee05b6899b8af6e93279ee23 -> 70b6177f7f5ddc3215b40a623755d069409f1a2d9a24f82665c77d3377dcbdc5
+~ -[CRSCardRequest initWithContent:format:] : sha256 22a82ed87a17decf658abafd2438f402129b1fd4dc38061da1293fbc3b31a967 -> 8007b4bbe7775a0c40c0be474407b9e045d568472b10ba38da9f30f67a9a4983
+~ -[CRSCardRequest init] : sha256 e45ab45a0f6ec4b0f5673f2a015ea151824be9e07a523c059c193da28f83d074 -> bcccfd5316eda920d6418cc2cf73f47ce30d95d75c0929cd2fec23cff051a700
+~ -[CRSCardRequest startWithReply:] : sha256 e64ba76d6898629e897dca8c3fa4a9cd82f42537da34cf4c1a9fa8e8d9f09598 -> 6f2d179802452c1a08383f7101fbe3ba6c428f94d17c63ddf12979b2ce1da59e
+~ ___33-[CRSCardRequest startWithReply:]_block_invoke : sha256 e761a99c6ffe9a09afb1d120d38fa7d6b696e4d4de1579c34873e54d9a062c24 -> e8be761559d50802d87478692bec7d02896ca636a9c17150437fce9cd88a1abe
+~ ___33-[CRSCardRequest startWithReply:]_block_invoke_2 : 848 -> 836
+~ ___33-[CRSCardRequest startWithReply:]_block_invoke.52 : sha256 3dbc207c8dccd52e448e06ca61dae20cc2193b7ae8198428661dc4953d979dc8 -> de24df63324274d09efbb5fc80e3f64fc6adf633f5eda7d4a34613d72b212c51
+~ +[CRSCardRequest initialize] : sha256 a5a4aaac04fe25396797d86fb2961a8803a07029e8e1cece8148ab2272f01f5d -> 587877839a691174dcfcbe1e17f6951ed397f613cb0102c85d8d69f035e27dd2
+~ -[CRSCardRequest _loadAndRegisterBundleServices:] : sha256 f133e9f6b862e857c1bbce1fbb908732c2a45c8b39c432d53e5f524d3965dfda -> e4be27cd5901c520f6a1796a9b718ce0bb48ef0ea85786c368018332e8ed32fd
+~ ___49-[CRSCardRequest _loadAndRegisterBundleServices:]_block_invoke : sha256 11056d13bbd115c9dd754798df3504fecca4ec2832cc0e68bd3b98d0c5249d05 -> f529b351a7545f65dacc0d8afb2955a9b42b494c09ad44f396ccf78d0e9f3209
+~ ___49-[CRSCardRequest _loadAndRegisterBundleServices:]_block_invoke.63 : 356 -> 352
+~ -[CRSCardRequest _tryRemainingCardServices:reply:] : sha256 e6f49fd5c5155279bf5c40d5cdc1a43d4dc72e3b5cb8f9dd35d1501fbbfa5909 -> 697d7ea73c599b16ab268de34e526b3db81439f15dda2f0d791246a4e6a0a788
+~ ___50-[CRSCardRequest _tryRemainingCardServices:reply:]_block_invoke : sha256 1cce46fce7dd7ecd42887dc6fbd1d1c400b5186903e1eefa1ede8a2320f0d7f4 -> 3086c53c5d6d733d412808efcf85234df8cb02d2d844ff8b53e1e0e84def357f
+~ ___Block_byref_object_dispose_ : sha256 a7917581cb0e9c33726fa019d4c5fb483612f64b9968fa9b635113c23f0c2454 -> d272f31a7c371452f88e038a3818ec571d7a8fcf2aac7b66646ed663b8f4f26f
+~ ___50-[CRSCardRequest _tryRemainingCardServices:reply:]_block_invoke.65 : sha256 f60ee6a5b646d4be27cc8da250e271b6353aa1c9e53d7120a37619abd491c9c6 -> fe4277366410d28850d1e501593d8404e6fbe030acef75015205211c5f181d85
+~ ___50-[CRSCardRequest _tryRemainingCardServices:reply:]_block_invoke_2 : sha256 da5cb7e789149633838c2570e2a4d33e6cf99e98ec0eefd885dee59d97fce9e9 -> 36507ea07c66a3481900a508beca1c81fafba77e5acb2995de81d8284a95bd1a
+~ ___50-[CRSCardRequest _tryRemainingCardServices:reply:]_block_invoke.67 : sha256 b7f2d71a63eeebbace9e6591dfdf009f78f9774087c668bab2fb13c10b031927 -> 636ea2b89ec719521d004510e4866ef5a146b5d496dda9ab400fca2268ccb0e7
+~ -[CRSCardRequest content] : sha256 f8a12d6ea2c8a0b55a7860397b33083f35d73a7afb2dea7f70821df2951a8917 -> 174dc93ff749a00768727d9c293858869e7b218bf2b9d6a8856753a3a9815c21
+~ -[CRSCardRequest setContent:] : sha256 658aafda3e6894bde98cc18bcb7f1713ff78a679331794a82a521b590b782bac -> 36559bf65cca60063815b0fd7bad381dbc249788e5f4c0d94b79d25910524240
+~ -[CRSCardRequest format] : sha256 2e274dbeaed0de3bc37a5c8e4556861fec23fc5d457169f57147a181793f542d -> 336818460f595db13ad56a87f48e7f0c6661fd018305fbcb745b088b18de80b2
+~ -[CRSCardRequest setFormat:] : sha256 6af5262d811fb080081219fd8b10d97ea51def52229c1f2ba7c1c1e0b71de342 -> 17bcf9983cb5967c7aa06c6bcfa8a665c3afef80452e435df998e772f981a5c6
+~ -[CRSCardRequest loadsBundleServices] : sha256 5df0b1c7eb2b41460c6f7058049ec63b3788f0a0378e64030a10b38aa902916b -> 07639003e0cf1e60d76332b141497b61bccbd151313c382eecfbe489814691e0
+~ -[CRSCardRequest setLoadsBundleServices:] : sha256 24e0f7dde277e824161bd645c817475330f36a22a950a8382150e818a5f524bc -> bdc724675ffb86013c240c2640117fb477ca3cb8e3baafb72845af5ed653e4b9
+~ -[CRSCardRequest _excludedServiceIdentifiers] : sha256 ba49e41f5df876f042d97399641ab2d8a12f460dcaad38474260a06bfeba872a -> 9b0547347743e7bd87f002f84465d3c2324cdcbfc2015d946671d38514195abe
+~ -[CRSCardRequest _setExcludedServiceIdentifiers:] : sha256 95e1028fa8b3939d429fb4c772f594e338c3b4fd799f1c0dd226f383f871b18c -> 91a9af9aa51a62556d672beaa0aa1aaeb1032ee29002fdb425e6f9623ecc0346
+~ -[CRSCardRequest .cxx_destruct] : sha256 70edee11694ad5fb4d3fa41f9d097af12a383a005f668471c817aebf2f731f76 -> 7e12823eb51c54b28ebff51fbf52f82d2524029a34a7d973e113f81a63e52dfb
+~ +[CRSCardRequest(Conveniences) registerService:] : sha256 3133b2dd045618e6426abf23558d268d6563727254c951205b88de9313558dbe -> d9a00d4cf1fcd3d17f85cc77e8a41d5c1549b9aac37791a70ecdb62080b4af58
+~ +[_CRSCardServiceBundleManager bundleClass] : sha256 ff9ab0d37a1ad30e30b9cd13c7054858b1bd506615303a81d8389c0566376291 -> fd475ca6f39051d515cb410991742281e7dad3b12439cebb75189d004237ce3a
+~ -[_CRSCardServiceBundle underlyingService] : sha256 20ad800de9c52c4326c388d3185654b4d6b39f07ef4685e499e7395a03b83f06 -> 7226aba5646cb568f6098daded100dd668c79eaa858799fb4a153ccb78605896
+~ -[_CRSCardServiceBundle _initializeCardServiceWithClass:] : sha256 3898a3a30101afbab5ee4d13d5592e8d5a5a4eba90a0559569ccf1fc6533219d -> 40610bc753cb8142889ce0f72506d69cacf8f444775ed4001c052565ec9544a2
+~ -[_CRSCardServiceBundle requestCard:reply:] : sha256 f894b6ff16b93f27cb004700ac9529bc2426a58aba5f7435f50e36e4fe7182bf -> eaa7ad83c42987d06738337490768e9ee42a966c38769164a4d3231dda81e5af
+~ -[_CRSCardServiceBundle canSatisfyCardRequest:] : sha256 3087b846fe1e577fcd394b0276214ea04b583022ac618807c787278dfbc878e6 -> aeb3972f3f73fef8770c43d8a8cab26bd50bf6bcfaafec21783d01ebd4720321
+~ -[_CRSCardServiceBundle servicePriorityForRequest:] : sha256 191d30b5e1020f92a61742ba4df05c69f24fc124adc9b697b1041a41459d75d4 -> e5440312a56ffcc03eadac0d23f0e4fdce2ac321c4834e67335bb746204f0d86
+~ -[_CRSCardServiceBundle .cxx_destruct] : sha256 a1347a72be2481e1ab15fef6544994d4042adbaa583dfe04f7ca830601f14e90 -> 247d3378cf9fd2efdac93c733c4c085012d79d13db88bea44a37072884b8a842
+~ ___50-[CRSCardRequest _tryRemainingCardServices:reply:]_block_invoke_2.cold.1 : sha256 168a0f4034d193c06c1b9858813b75998557da16ba9842a96665efb2f6490b6c -> e258882c1de34a885f930261070feff42c67c64b74beecae8f3fd73f916debcb
+
+```

@@ -1,0 +1,205 @@
+## Eyedropper
+
+> `/System/Library/PrivateFrameworks/Eyedropper.framework/Eyedropper`
+
+```diff
+
+ 9127.0.53.0.0
+-  __TEXT.__text: 0x6740 sha256:33b9b5c73da26ff54bea12374b20f7713bb31c23421d2eaf367e8cd5db499ed6
+-  __TEXT.__objc_methlist: 0xc8c sha256:bbbf21077e05fa0b1ad905347c0ca809e59a096ef91be075bc987e71e11f712a
++  __TEXT.__text: 0x66c4 sha256:4fa6668f109c2d2d4459d7d50bd93b5d10ee19bebacf01d293a17e0d24815417
++  __TEXT.__objc_methlist: 0xc8c sha256:725ede58be82fdf6bb36e121db3e5c3202df1cc6fa03b039b4abd21b7aa4978b
+   __TEXT.__const: 0x158 sha256:3c278f5f888afdbe603a5a52403ad9b24aa5f2e38494d811287abffe43c88633
+   __TEXT.__cstring: 0x18f sha256:6e134b2dfc9ed230e603b783cfd926599345f7d58fdbede1e28cce03f3792f57
+   __TEXT.__gcc_except_tab: 0xac sha256:66f271e87167085ffb72d4a67ec3d772fb9ebb8e5d4dae0c69fb694f940fea76
+-  __TEXT.__unwind_info: 0x250 sha256:72d67be952f275512b7db320f23adbb23b191589bbdbddc945c13dca124c1082
++  __TEXT.__unwind_info: 0x250 sha256:7b940982d2e52518e7c3aa51018bf66c07df0d6e17523cfb8ed3af3c81393760
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1f0 sha256:dd243ec580b96f8563655a27ead633c19ae8682b2ea56ec6c78e05ab01c06a12
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:77ad7c62f9a630578a785641a21c783bde3c9d2306ef3a84ee515757669a0ffb
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:0349baff4605662761de42c1632c2e6dae0559078bb7fecf50f1e3e572e54a03
+-  __DATA_CONST.__objc_protolist: 0x60 sha256:b9f00e44f7a502c48d04ebf7111966e21c8fb311d55c2edcd8923bae63f0fc9c
++  __DATA_CONST.__const: 0x1f0 sha256:8a33ff0f867983a3e0ea1f098f6c78e4b817b6939c5d028d90bb6a4d68f5e795
++  __DATA_CONST.__objc_classlist: 0x38 sha256:0cf13c214229b0b5aeb959ded322064c2e5ea6c658b803683064535202a0e6e1
++  __DATA_CONST.__objc_catlist: 0x8 sha256:f04cb16e0118b738b659533550f053b62b79c8bba79f1d0c58b5fdacc945788f
++  __DATA_CONST.__objc_protolist: 0x60 sha256:4a6f905a1791f1485739a7f88826bbd311f49eaf72172dd7d8f5518de044dfc7
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xb40 sha256:b26c90b663e0bb585f88fbd18f45648552d39d288c34d8f94cacc289c1e5df2b
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:dc2d61b48dbf13c745ccdf5c4fb1ff2f9f5c2b49345bae78ccc28a5dd65153df
+-  __DATA_CONST.__objc_superrefs: 0x30 sha256:f9d803a7ecd0e961f8004c9076b1a673f495a6f2d11e678760e18c6bbefc7db8
+-  __DATA_CONST.__got: 0x1f8 sha256:3830154392a1c96ec2054456f819fd388180631ae7bb21d752ffde672ceeadca
+-  __AUTH_CONST.__const: 0xa0 sha256:b21637a1a70e864c0caf7d719f86648011f4f5721dc756a420ae5ceba67f0281
+-  __AUTH_CONST.__cfstring: 0xa0 sha256:4eb64b41999492bff22c45fe865fb764605b02101727fbf36e6e2ec21aa543f1
+-  __AUTH_CONST.__objc_const: 0x1140 sha256:99dfd2c737d6d4db4249348b5aacfcde2b7591d0386c859c2b6e75b3b3a69b78
+-  __AUTH_CONST.__objc_intobj: 0x60 sha256:ce309a2687e4ee13bd977caa14d2e568ffaed34d80f6685f94b0bd18040fc301
++  __DATA_CONST.__objc_selrefs: 0xb40 sha256:3393d6897ed7cc61adb51e1bfb225da966642c90811e500f59e1097de8b0cd0c
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:720429024286d9e5721c1209a692f35bc93258c05a2ec75ddce2a372b14a93b5
++  __DATA_CONST.__objc_superrefs: 0x30 sha256:ed5b479e9762109df2c0a54ecd5078ae82efd81c766d2f5bca6ac4f6357ab797
++  __DATA_CONST.__got: 0x1f8 sha256:3d62557ed7d0569a1abe7185aebb47f3fe6cbb102227a19e63829cb8c4b6da89
++  __AUTH_CONST.__const: 0xa0 sha256:5ac31f7fcaafe9f0a07d814a70bb13f619e44c5705a0323d2baf50e5b1310a22
++  __AUTH_CONST.__cfstring: 0xa0 sha256:6251c0c4b7ea76b0f03079b3a9e952ef4ff82c032f8ce7d9fdc1f5af5c824cc4
++  __AUTH_CONST.__objc_const: 0x1140 sha256:f44e472fc1139022e7731c362b72e685ba8a6103ca2fb0e5d3476a18635b4b8c
++  __AUTH_CONST.__objc_intobj: 0x60 sha256:e37fb5a28ee9dc911a6ed5dfcbd260dfa40578ebed0ca954bf374bf96fc17b19
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0xa0 sha256:f88f3ea332d79b10d28e6df0691cbbb711653ca4002061c8791b8cc8d2f1c564
+-  __DATA.__data: 0x488 sha256:40c019f9c4ad0f3df45c3ea43955b5ecc4cc0553a92daa2888d9359df7ac73fb
+-  __DATA_DIRTY.__objc_data: 0x230 sha256:faa2a6e6e5aade7ca857bad60e6b9a6bc172d00cf853c42366eb89906ffa7c36
++  __DATA.__data: 0x488 sha256:dcf33befe74b240aefbb169a851436e4c8e03a1614366084188b871031b417bb
++  __DATA_DIRTY.__objc_data: 0x230 sha256:714d3669e3e595138490eca414912fca80f899250e0b45882c037be7d8d38bbb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreImage.framework/CoreImage
+
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C8C1833F-4CD0-36F5-B22C-B9B11A54CEF9
++  UUID: 2589A0CA-B97C-3FB3-BE6C-7CE8BA4A943E
+   Functions: 147
+-  Symbols:   838
++  Symbols:   839
+   CStrings:  24
+ 
+Symbols:
++ ___block_literal_global.135
++ ___block_literal_global.144
++ ___block_literal_global.76
++ _objc_retain_x24
+- ___block_literal_global.120
+- ___block_literal_global.129
+- ___block_literal_global.61
+Functions:
+~ +[NSValue(EDColor) valueWithColor:] : sha256 40fb345bd6390d59a1dbf90b2a3b9b9a975c949a3e161c5b12c458b357b9273b -> bc701a3c909097f13cf5ca4cadef838e029935e947bf3ac8771602b4d1ab9e0d
+~ -[NSValue(EDColor) colorValue] : sha256 4bc00476627cd6782b167a95d85b7d695429d73a5a98e7e8b682c07585337518 -> ebd218529aede53bb797370531c81223b850fce8567cf5f9b05f1b53c72e6c40
+~ -[EDAppDelegate init] : sha256 75fc65e905ad46c71766f30b921b075d075ea3d7708a27ca6065e9d747d82bb1 -> 2d07951311031c4d947ba84482e2c65a4b96e39044d51f4a35f8804e825fb066
+~ _EDDisplayIdentifierForWindowScene : sha256 4421fed7bb151b2d1f3e1c5256a3056ad5187918dac70156c988152909201bb9 -> d9f3eba794605f5d8ada3d907dd6766168a2f5d825ccf94c97adfe3c2d1ef264
+~ -[EDAppDelegate _sceneWillConnect:] : sha256 f3b60e84ce736bfa173ac23990faf95eb58a0385965286e35af7928cf173498d -> e4113c55f2b1ded8ba53f163ec129c18d597a1bf5b1cef3a19acda09fb2b475b
+~ -[EDAppDelegate _sceneDidDisconnect:] : sha256 f98bd2ace9a4057da7993e33964cd8c284a818ac2a3df9bf065bc79a3efa51cf -> abd6cce4e958ef992ade42a315b1e8f49c1ce494769e3e578a5a98445078e3b2
+~ -[EDAppDelegate mainScreenWindow] : sha256 3f938e30267691c37ea5f1c3ede80187c9072b4a1fdf2d341c1fa8ca4ed962f0 -> 335669d867890cee6d7d6057f5c90d2ce3c87033d16a90f878159fc2a37f88a1
+~ -[EDAppDelegate mainScreenLensView] : sha256 236fa02391292443240144adc57c8dc9f8f2c012d3e7336a4b0926ca54f7a30b -> 18aeb66a36121e5b142fc0fcbeade26723dd742582ca449bc86b11fe455016d4
+~ -[EDAppDelegate activeLensView] : sha256 730c6bfba06c0ab179684360a14ee0f4ea4f733286c838f5d2dee57e8ddea872 -> d6b9716025f0bda9f8eafc8b462a7e0df6c8354ad4c353b60eca72d4c80d51c6
+~ -[EDAppDelegate application:didFinishLaunchingWithOptions:] : sha256 904a3eb77934ffaabc8c01b6e62e0347f98ce4820b13f12675c71dbf8e2702ac -> b965f73bd4eb6580915bb786b49324bfc5e5e2e2d04d69b52e5fb1affd65ef2f
+~ ___59-[EDAppDelegate application:didFinishLaunchingWithOptions:]_block_invoke : sha256 5e228b931cee3ccebb00cbacbb5e9938bde5fb5ef707d0b4e24eb4182024ff81 -> a3136269e49ed7210a6431250bd95caffebb400abaec2782ec9675c798663644
+~ ___59-[EDAppDelegate application:didFinishLaunchingWithOptions:]_block_invoke_2 : sha256 4b1012154736fd4c9096f52b4ebc1b7f6434f1304acc1c658a12d31df807d774 -> 841088eb478f6b3ea1eb81000663dc1e4323892b5685d4381a8dd3857e3d3cde
+~ -[EDAppDelegate lockStateChanged] : sha256 2b0b4a304f565080ca02a8abf20c2b616b5ef5587a32001da6275a587f567e0f -> 3b2e43c71168f299d9ea900c596eead4aedbd5879fd5f66440468f98f0c2e24e
+~ ___33-[EDAppDelegate lockStateChanged]_block_invoke : sha256 81aa9d013dae9324816cf89b0050a2befc7768af92a57d76054c7258fadf7cfa -> 2afcd751a1457c1f4aea03a54696a12e50ee2f874d126562e881012c0ecd8ae3
+~ ___33-[EDAppDelegate lockStateChanged]_block_invoke_2 : sha256 30a9c6f50aa1861ddc30e3b0f15216941971f2357c74f970ac162bc4d696f023 -> e9655ee557bf6cc0252411207e1d1d7bf272c6ce412043cb3405af193a20b710
+~ -[EDAppDelegate performOnAllWindows:] : 408 -> 404
+~ -[EDAppDelegate listener:shouldAcceptNewConnection:] : sha256 7a2f3aeb7ef64cce260c5e97d29b46103b7fbb75e150f9d859d4e941f51dbed4 -> 14b9eebb41c182b62d5d89d5af57db4ed7f15453876164a2773fc22433ad593a
+~ ___52-[EDAppDelegate listener:shouldAcceptNewConnection:]_block_invoke : sha256 5d7c72cfceb11cd8fb5328624672ef4e5c991e72cd36d09386fe6e550ca30917 -> 9548c9cc66ef1b6fbcc5d965e5516a6724f676a5f2e18c5333a55c8ffc96ff23
+~ ___52-[EDAppDelegate listener:shouldAcceptNewConnection:]_block_invoke_2 : sha256 52f18ac9172a1a9d002b6691ec95817f3870c4d9daadbfd5b75a565dd41362c2 -> 308d59a4fb5c474f1ad131b0f877f488c186a85deec8612bb04dcc7502beff87
+~ ___52-[EDAppDelegate listener:shouldAcceptNewConnection:]_block_invoke_3 : sha256 9d5dc6d5279305484cea00efab69a1a00ee2b3c459e38aeaf13720a2165025ba -> 95f567fdf80cf75662dc114b99e79c37d6727804413cf8eb1e5605c3defce5d6
+~ ___52-[EDAppDelegate listener:shouldAcceptNewConnection:]_block_invoke_4 : sha256 7406e12edb0f044844433653cb364a983f9674001ee9654d459abc7eefe1b2a8 -> e9d6c87d6f0605710e178b7ec1ff9812860bac8a9e20403c8a2a51ff49601afb
+~ -[EDAppDelegate _enumerateRemoteClientsUsingBlock:] : 364 -> 360
+~ -[EDAppDelegate scene:didUpdateWithDiff:transitionContext:completion:] : sha256 16b1763dca530edde30e94e2a427d51fb96507c376f6733de7263dc0c166a34d -> acbcc04be5c3056ea262a230775637c4ecb3ecfe814d124751bf08e5b0dc8ddc
+~ ___70-[EDAppDelegate scene:didUpdateWithDiff:transitionContext:completion:]_block_invoke : sha256 ef992f84c9b2e5875d62caa9a9cc003e5a559fb2d51fc92b36ae702d8277909e -> 69190e3c1143bf5c72a088f9eaa869ac9dd473b205c4452407bbd2fd45903e0d
+~ -[EDAppDelegate hideSystemPointer:] : sha256 fe259cb90bf86e662035757bf2828e950d81e758f17802476cbd192a5a2663db -> 23c933ff549c1643dd73827602d3c19c3712a41f2d8e7ab3ffc707f1c0a485ab
+~ -[EDAppDelegate _startingPointForWindow:] : sha256 b1260c08b3a8389e2c629841b4dc0cbeb656685320ddcc8c542d4f57b2e0c7a5 -> d87fef97a50945d84881446dffc3ee74c6971feb0fad0c8ca7075cd0f64faa72
+~ -[EDAppDelegate _updateDynamicRangeSamplingModesFromClientSettings] : 336 -> 332
+~ -[EDAppDelegate beginShowingEyeDropper:settings:] : sha256 062835d6a32692974d602fe9621692770937a32aca90c66bab0475e497f712ad -> a7b172816e466cbc30a36a0ed64b426b74a135e4d45dc030b4d079f1038ff988
+~ ___49-[EDAppDelegate beginShowingEyeDropper:settings:]_block_invoke : 888 -> 876
+~ ___49-[EDAppDelegate beginShowingEyeDropper:settings:]_block_invoke_2 : sha256 bd99423a3643238a7ad584da8e6d5399dfed624dc7bf3bd0dc70f2f320b31b07 -> 2e28075ef7fb26547ebaf89d77fb7ad1f5a5d2decefacad1880ada0367f9f5fe
+~ -[EDAppDelegate cancelShowingEyeDropper] : sha256 f90355476a5c40b83a3ead4505e776edef4fc9be21632c29a4ce69f73c931ed1 -> a24261a79948ff3c8784a4e8192a82b85c8ffcd2c1c318e9b73b31e0c837f095
+~ ___40-[EDAppDelegate cancelShowingEyeDropper]_block_invoke : 300 -> 296
+~ -[EDAppDelegate _updateLastDisplayLocation:forLensView:] : sha256 3020ae058cec90d3ad87ead6d41fbabd5ecc68ecb57f6367b1e7cbfdda19fe14 -> 387498d7453149180152b119e43de127a8acdf900a9c72c58b0cccea7f6dcdee
+~ -[EDAppDelegate _lastDisplayLocationForLensView:] : sha256 77770e2dcf4aad1653962d37dc0bc5e1a0c7f0295fc5d49ce0e5c1d3b6a2d053 -> e25574a8e0b84c66c04f11d84f69152f637d053aa0326cd33985b894ba482476
+~ -[EDAppDelegate floatEyeDropper] : sha256 bb63982f17fba6f65dd5149068fd00d88bbe6ce418c3137e89cfd06f33c1de99 -> 26ca3c341ab4b374e5c62cb0b5cfe77392917b2b06665ee982620f06e0904bbb
+~ ___32-[EDAppDelegate floatEyeDropper]_block_invoke : 804 -> 800
+~ -[EDAppDelegate lensView:didSelectColorsBySamplingMode:] : sha256 b8e801aa8941e9382bdd44097e29da6b9b03ce53778ad3e1d1dea3a4584cf38d -> 079af14c9fb87d1d5d1a97eeb8e39184d08a23450521a79e7264d029e11bab07
+~ ___56-[EDAppDelegate lensView:didSelectColorsBySamplingMode:]_block_invoke : sha256 05296763e0df3f6043a8b074a90da12ddb1edd83695156c6c2fd6afb81d6e56a -> 564186c2f161486958f347178f0bc947ecb19a5993dd19a961225b7984f3acd1
+~ -[EDAppDelegate lensViewDidActivate:] : sha256 1abd3413f69266aadc16183f945b733d7d72d9eb7b18cb544eee055fa7375590 -> 12893527a4c330b34ccd80a668d86cea67ace55e2dae1c089632cb814534ef5c
+~ -[EDAppDelegate lensViewDynamicRangeSamplingModes:] : sha256 f6d46cd646549770329f803cd77287670c740bdf61f9df9eff67be3baf1222c0 -> 1bd46861280427a0efcb7753440c6fdcbbdeb89ab1576f58693d327d7283cbc4
+~ -[EDAppDelegate dismissEyedropper] : 844 -> 832
+~ ___34-[EDAppDelegate dismissEyedropper]_block_invoke : sha256 1b8bd07e9ff537a2a5aec297b30500fea321af6d1c4188068d9eb6af62c622aa -> 8da32a29a3876ec69707f1ba15f5bdcf37d094f8bea09df5cd5b7d1db1d49fb2
+~ -[EDAppDelegate .cxx_destruct] : sha256 4b06e354806fb5151435694daaf8cdbe1fc193d81a48013c874437e339ca4e47 -> 251d2d7bb31b308a402695ed5e918ecbcddbf049cb9234b7942e9536eccba3ff
+~ -[EDGridView initWithWithCellCount:] : sha256 43c0c15dc90fe0a74253e450000a26bd7fd650bab1035eb24d6362c5b5259d44 -> f3e10df85117e4cdf89d9cba9f6693d2772db6418baf373add54b7444c32a8a7
+~ -[EDGridView setStrokeColor:] : sha256 c68021e0b5be505c56451dba6d8dfbe305c036b92121c42e3e813d0beaa87ba8 -> e1ccc6be7f87e0e46b334b782347a61aba9614571a2b09d3b3ed94675fc086a4
+~ -[EDGridView drawRect:] : sha256 a481d786d9adb98af9147d948c10a97621646919c57be3d1de94f75067229c2c -> 1f787fc166a32e52eb3958eac6bf948996dd6f34aa2669fec977cf87b88d6d59
+~ -[EDGridView strokeColor] : sha256 94ac680d8d4c6f758a2844ced732dfb3a7faf018206f494b7b75d5ff0efad38f -> c75d70cee00263850d136c0ff8629bfc039ad1298801ad66cdb9b261d1eb1e79
+~ -[EDGridView .cxx_destruct] : sha256 fd32ceb0340aa2e07042137a352682ca4ee5a565633eecbbf89795ab9f4ce528 -> f321837827cb43c3762b70eed34f24804e3578f15dc6c3f2f951d1233bedcf44
+~ -[EDLensView(DND) dragInteraction:itemsForBeginningSession:] : sha256 3e56e6d0a379c49e69d6aa494346418af696db900b0ebc234ce5b07e455a4db5 -> 13218d7b394d3f4827a5636cf2547e14d865808816578420ddf51d1d918067af
+~ -[EDLensView(DND) dragInteraction:itemsForAddingToSession:withTouchAtPoint:] : sha256 d9366aa93780999599505bccd8b268e1fbe3a4d4af5edbf240c3df2f99e6734f -> d1fa8b15af552c59416cbfb9aadaec0529c2df0500b39ea1a3ed8ce016da6f84
+~ -[EDLensView(DND) dragItemsForInteraction:] : sha256 25a5d7a0b0622d5d314181cdbd85c5cdf41aa6d136321f6d1eb0a01aaf611485 -> 2a378d06587d0507c8a82b988ea47dfa6384b546c0907d4f7616993d2b4bae62
+~ -[EDSceneDelegate appDelegate] : sha256 45b446bfb33c16c30b6c4e8cc46cccf02d05b856656697885f4d2f72e4c09cc1 -> 725d98e9c04350329f4829e5893d28747906951a72b9be8f2113afd3aa1ffb4b
+~ -[EDSceneDelegate scene:willConnectToSession:options:] : sha256 bb53e4af277774ed2b9ca9271559b62e8eda4335d068cd6ad90850eceea51e51 -> 3de4c196ff0e5fa0338b0719cd5a13fafa0b699a19cde3ef974a4a670e52ffba
+~ -[EDSceneDelegate lensView] : sha256 29169a96582e9d9c44fc53ee35d7d2f519ebffd6864ee42a042502ba92c150aa -> cef3ae60262b8a24411e3a48546660c3fd2ab7ea1fadcebe2c400ac184b823bb
+~ -[EDSceneDelegate trackedTouchesBegan:] : sha256 0eed06d47564c39352109fff404c13a7a61454ace9cbeba243dc59c19ea67f1f -> 2f01818d77b45ab02aa1d9101c3a0504e1fb325bbba3733ccd9eaf7147096c08
+~ -[EDSceneDelegate trackedTouchesEnded:] : sha256 56a395f418ae75980580f982a5aea97f1f2dc248d099b36fa8a71acc2ad744ea -> bde2e4ef3f42ea439bb02428cbd63f075da4493e778a6667ee57b425d7927892
+~ -[EDSceneDelegate trackedTouchesMoved:] : sha256 04fdca658059266a15b2e7b945a3ce8fcd8e3a2424f03ca1a7cd6e7cd834a75c -> a6534bfd2f62b213ca0f1c175ee571dced7d00e49cb1f70c80d9a9125249e7c3
+~ -[EDSceneDelegate trackedTouchesCancelled:] : sha256 8128b28698de3ca3166eaa8dae364fe0623ec71df82857c6f8abee1f6ed59856 -> bcfa0fe650ec19f83ce3703d8c9a9eca11db7807207985b4b3ca67974ce7892c
+~ -[EDSceneDelegate resetTouchesBeganTime] : sha256 6e05f5113698aeba9e6e7c8f38bad5eb7231494e8f703e4f059ef181ad2b12ce -> 92f736207f79eb9d2680b11995652275c5b03392db650c32c709c48e20503c0e
+~ -[EDSceneDelegate window] : sha256 63875d2249b38daca522b431e6ccdec46b579b793776f758bee52cabf9594ee2 -> 62b09f1d339f89a4edc3e2a76f9e335b7f4571ce98860d35d979905d89762db6
+~ -[EDSceneDelegate setWindow:] : sha256 86d5b733c262764117546027f08726cbeb78fbe644e6dc1316685016f8a79bfe -> 77c431bb9823ed18f50d2badd80880614793b2cf53d7c282429624e3ecef8aaf
+~ -[EDSceneDelegate .cxx_destruct] : sha256 8a0c5e8811015f53f86d423e6fdb5056d08bd036fb5e22b2b21cafce6842b8d8 -> 28e126ce00640a2e432de92b425d892e2f1aa98a1b927a15a07ebee299f4ad1f
+~ _ColorMakeWithColor : sha256 58a2984162eff6fabc8d43e9377f70e4a7745df47e1014f4e0c7e0c69aa923fe -> a17fe5df591a781b5586d8f8741583aabfc9dabdeb6316fdea9eb3fea9baea11
+~ _ColorUIColor : sha256 ca5fc42166ba1c36d90605999733716146cc5daf550eb281f67c0fbf92a53da9 -> c8fcd3ffa59ba2347ab5ec9f9d5b6c4b985a9458f62724ec55ba4c8375d588c1
+~ _ColorUIColorWithColorSpace : sha256 d72f1a092f74c3494bad695f8ba8b2acaafac20da849a24c5c7b2261d4393c7e -> 1c833a8faf95e1fc59e99bbe61e3e521bb9794dca9a7b639e8f3c24e0096a973
+~ -[EDLensView initWithFrame:] : sha256 fc50d801d8eeb43c764744ea46f53e42a7ff2b3a466ef6fccbe2ff1ee48acca9 -> 21bc71e7dad4866507edf8140ac87da46f51c26c13d6223d7f61f71eb2d526e9
+~ -[EDLensView _layoutStaticElements] : sha256 8e1e93a71af99f2247c304cd24469e44d05cfd8ce9c7666ec553062489b742d1 -> b13424a85bd66b1245a2440fd3c86eaf50d853a577149c0018aa7e5c708c3a9f
+~ -[EDLensView layoutSubviews] : sha256 46f20030aa6f8b4f5e93d47c5aef9c621a69ff7e229970c5f213931cc48def0e -> 6808614e486f9874bd952c07bc39699c7cdb9113c5e4d89fad306f7438111aff
+~ -[EDLensView _lensViewLocalCenter] : sha256 9db21055ccce97feb45a5f472ec011f845ca283416479dec6dd65297bcb7c518 -> 7d5c216524cea63091a849925dfb1f71009422da5bb3389f90d133f2672cc3a5
+~ -[EDLensView accessibilityLabel] : sha256 01f4917b132ca1b6797c7a339399cab0473bb1b7ae76de88a7b344d5199362b5 -> 2982dc97549e5b4c6bf44c3da56c1996eec443837bbc9a071bb9be10199ec171
+~ -[EDLensView accessibilityValue] : sha256 b5a91942b293ebc9af5bb5f410ea1e221c48e24f4607c7447cd05657509ecd6c -> 774982f7b542ab4aaa01f1039579e25d6bf3a8c1d51bda46376460e68592bb45
+~ -[EDLensView accessibilityTraits] : sha256 81d7798667c52260d77e9850b2cca49da24a86e95bf977b9da79b0456e2a6da3 -> d320cd5ea7974119bd479187231614dd49c1ab09b374380078c058770e494910
+~ -[EDLensView setInterfaceOrientation:] : sha256 4b6a0f2d19608ccc965039d40336379e6e6e8eb3766eac7bc092e77c74bf5e61 -> 10869023f35681c07ff9bc71802d49d284aa889f41d254a2c2f257a91077ec42
+~ -[EDLensView updateCenterOffsetAtTouchDown:] : sha256 6492ae79d3698be6afc78b78d339700a48229c8059101295bfc85825a6c8bdea -> cae2d88c732540323e48c4c6fecc55ea29ef8aa4a1cfa89574ddc745bce47c74
+~ -[EDLensView _updateLastPosition:] : sha256 ff6ab85292e68def134faec03e8eb03f58472f3d3d81937863429a0406d266c0 -> 29414753e234092890409822c9a56d7a3d26288101b44aee83d5ff9c9a2ee79e
+~ -[EDLensView presentAtLocation:] : sha256 8910bb22abd746dd2c18d3e5e798ebb062bda80482e95586b578bdbcd959dfb5 -> 333e13a0edc8c71cdf2cf201922e36c1741cbeb5bcf36c940d81c4e58b5607fb
+~ -[EDLensView selectColor] : sha256 015deab54a65ef2aed9c6e330bd5f7783ef2f9706e0e98852a1f088b66315e43 -> 58169857be3d035084248dfb373ff23c9b970758df57d7d88b1b73540886effd
+~ -[EDLensView setActive:] : sha256 76368ac13bcd6f6f3aa9e0b2910b3dfe607910054b8445ae103a6d717150b8f9 -> 1c10fee0dbc8698e2fb4a1bbfca8c4a170a6ba752bb05d58ff98ac19cb2f77d6
+~ ___24-[EDLensView setActive:]_block_invoke : sha256 5428e47d4ff8c1720de91af79614f77f92556ce1d9794518b1be8bfd5f6a2a41 -> 4295250f4f6931110ebf658e91691b83c55ac3f93867b332ddce7067577ddf25
+~ -[EDLensView updateLensViewWithEvent:] : 332 -> 328
+~ -[EDLensView _isScreenScaleEven] : sha256 f0d17f22276ef66f9a30abedeba6994348116d3f2173ec906c76cc3c9a240517 -> afc10e446af3d388e98dd209dd123c1d76e9d21a117d8b0b88e4281bced7d4e9
+~ -[EDLensView _colorAtCenterForHeadroomMode:] : sha256 43902367eba01acd449ea1a8ca46e53fd2850b5e1d707a94963ca94645dbb63e -> 115a141b348b4536840d25b2deab5ca444ca8481d50ba4c8f66455e951130c72
+~ ___44-[EDLensView _colorAtCenterForHeadroomMode:]_block_invoke : sha256 5267e0d84b2168ad0ea2f1f78eab60d5298f824965a7ae30f89154af5310b1ee -> 6f94a7a0040eaf499bef2b2d544f90d2a241c53eb2bed8122259dc87362684d5
+~ -[EDLensView _displayLinkFired] : sha256 61fc7d49e897b6772bbee4c5335360b87d77d6a537c84cc9c1e46f19bdbd51ba -> cb37ae5d3fea0a098ac7b63b09c97d6a8666b737e8b5e07123d459edf78be97c
+~ ___31-[EDLensView _displayLinkFired]_block_invoke : sha256 79cff96bdb6aa536cb247693784da01bbb943c693964404f496cb8a86d5ba6a3 -> 69837636fea216159803742bfe2f8de5b3284ae53a12a4a7b98040314f29eefb
+~ -[EDLensView _lensPosition] : sha256 b76134eac0206eae5abf2af36a47f2294591bf01efb9ca3433bf6a74f011c964 -> ad04f6c784695ce95cbb7b20e5dfacb5092a34d88755d33b426f00cf735c605a
+~ -[EDLensView pointInside:withEvent:] : sha256 4e42ea471155ad067538db1b86e685f7521f765efed0705a2f91e93a20e5de44 -> fdf67e92ba880ccc565f6a78be1dce4684adea460774cc14af4b9aaa805e0f47
+~ -[EDLensView pointerInteraction:regionForRequest:defaultRegion:] : sha256 325fdd9a26bd4c485fe1243a0b2f25fde5827e656db9f0e316898bc284a4c8e5 -> a8394bed4c1d54d6fd1233c2796ae528d5ccd8eb0f0b699feff4a605fbe611bc
+~ -[EDLensView pointerInteraction:styleForRegion:] : sha256 e22b452606324bf7651a6896a393dd18258effd1cf4c1f8d2eda40d6c5210337 -> 328196eb27a5476cc3ccd9a759c7930480061221c2c33d03eb0d57d19a9788eb
+~ -[EDLensView isPointInPointerHideRegion:] : sha256 102f27e75955cfe4e78ca5a2c029b3bcb82e79482460c57b0242e0be46b845ea -> 8a53b70106b7122d2e6ee56f3bcbd4ad1dd08558d8f9943415163dd3626d4130
+~ -[EDLensView interfaceOrientation] : sha256 2ed541e5c88cb7c71ab1b1fc19d6bae745370b43ba570b1e7533926ffcb0a963 -> 05533454ae8624e204e565055bbeca3d00fd332b75b37f23c40c34032009d36d
+~ -[EDLensView delegate] : sha256 4838e044ae085ef6dc0234b249b41edaa22f49557461f37fe35523b913774066 -> 2c92107ef6aed7a21c424649cbc8db07f266550d54b253d9fdd9101c2440f284
+~ -[EDLensView setDelegate:] : sha256 484fb4a11615848cc695dbe588ec442f9102fd1662fd1aa4bfa9c618fedbad17 -> 3698ae3df8b91a13e4f2e04439b36d9fa52c3ff6cea5fb78a885c1d9b1a227fc
+~ -[EDLensView floatingMode] : sha256 9d4936bf4d6d33372c1c3546b8950e672e42fd8c460d73cb14b9b0075cdb0a5b -> 94c8b06286b1ddb725c6bd355486f9e1730f5e83347299644619caae6a3437d1
+~ -[EDLensView setFloatingMode:] : sha256 39ab54b42aa33853c0ba58e1d1c87b1e73d858d7b90c9d775ac44868e846fae4 -> 1155a8c332d1179aa2acad283da331f22e15f4ec7a131a1ca0a7d18bd50a171d
+~ -[EDLensView isActive] : sha256 5895650e2262bb14825d0beb3cf1d71b9ce7a60c35a4732271745da428284106 -> 064030f8c1909aff72a7937d21c0459a58ca5a2ec15e47de45ed53038489b159
+~ -[EDLensView lastPosition] : sha256 6d88ed46ad166068e98ceb5878d30d39bd6f03fff7a74128937f41353494b1f2 -> 6b4efc80e0a355b6b83a010cf94d9765d84bb0a8de5c9e90b1f88e540b404b28
+~ -[EDLensView setLastPosition:] : sha256 4230d642f4a5eb363c96431c2946f1174651bf7ccf27625ba49262616e27a342 -> 0f387dff2ae747d79ceaecbbb58dfa6d91f456fd34c8ae3eb14a3478974c4def
+~ -[EDLensView centerOffsetAtTouchDown] : sha256 330196e7a21a63540a5ddceb2f932716a01368601f0f01f2ccf52e931fa83214 -> 3c94718bb94be7a4c6197787a73cee9504c40f7c848ec6ecea37047036247061
+~ -[EDLensView setCenterOffsetAtTouchDown:] : sha256 34073f541fcab73cd408f464680bf514a7f5af8733c51eab7edfd71ff9f6d6f6 -> acd6d915e281e649988afa4747c086d86a96d133d927876cc6efa0f8286c426a
+~ -[EDLensView .cxx_destruct] : sha256 051293befda4224382e90229b0826f138badd1c80ec2f31396d6cf8f806af009 -> 2d3c1aeab764b011211525b723e124127b2025e1ecac5c8c5f50e6f33a48a19f
+~ -[EDWindow initWithWindowScene:] : sha256 f503768461b96928f5e030921f8ce3817477f4af5bd0818eae8bd3fcbbc41cce -> 6399b3ae64b78d5a63c80c61f37a0749bf7e3c12f7a4079d5fb4d892d60c8497
+~ -[EDWindow hitTest:withEvent:] : sha256 ee2ff3a31e7367f3350b8ad08290a54151942a9d3469b6a2afddb8229d76b8ac -> e97ef7dec08e30bac1361e1bd54f1bb50182bfc5960bd8b4d24f5a8fed96184c
+~ -[EDWindow touchesBegan:withEvent:] : sha256 b5f94b5c909e3ece4c5e5deb51fffba5fa8488584cf396325b12b290bca52ab6 -> a33f4908cb5128fa0bbbb686dcafea5ac6f9e3d294fc030df960ff91c8d9a623
+~ -[EDWindow touchesMoved:withEvent:] : sha256 f10030a89e633440e8cc7588c6733e9d7364037aaacf640258044037eb963950 -> 471d98c5238466d721fccbd6353e6c19f44b6da04b6fad2e5552540d336bd3fb
+~ -[EDWindow touchesEnded:withEvent:] : sha256 1ae27bba1852b5f11958ff5e2e9246ed94d9a1a9f29208d585057cc6b5a5147c -> 199bdb11a75168dedaa068622ab91baa00c8b61c09150546f56c656615151005
+~ -[EDWindow touchesCancelled:withEvent:] : sha256 9acb2b7206c59b092c1db0ce1050ae487c08bf3a258fbeea45111774c2360d9e -> ef92cc0da4da6424ab1b96863ecf89caf3ca333945e34fd416a24962b31b67ab
+~ -[EDWindow trackingDelegate] : sha256 53d9dd3575bfc55896d8fa1a1503f0ac92f6aa767efb3e905664927445646727 -> b981c8f903a7629ccda250f17afada354268427911040b3edc609942142fcf1c
+~ -[EDWindow setTrackingDelegate:] : sha256 f2f9c8a3d19f5fe3ad284a44856173fcda664b2c364bc53b8cfc23cea3f2404b -> d44f0f27a0bdffaf67a153ebbb7ff0e8cbbe2aa61c36a9d8f4eb21adf025a820
+~ -[EDWindow .cxx_destruct] : sha256 bc8d1135ea7e1d18ac898c5d253b617e42a3d5d3dee88e00313fd1f5e95b00ce -> a9eb13a0441978faf9fa1c612cd0233ed5bd006db5c3e003dbd276632b79b568
+~ -[EDColorAnalyzer init] : sha256 1c39a0b3755c840b53577507e9a5127d880289a915ce109bc907a878e1e6bd9e -> 10934f52628e92d2fcccbc22c518c34a2fae12b7bb2da8d0e34f63f3336ae05c
+~ -[EDColorAnalyzer clearCache] : sha256 84a2f0849cd0aae270d8f28015bccaa915bef0809a19301a78c934ffaed49f34 -> 3f43bd09cb3a4a59bbed2a35ba77879faad02ba49add5023a06ba181100796df
+~ -[EDColorAnalyzer colorsSuggestionsForSurface:maxSuggestions:clipToCircle:clipedToRect:] : sha256 546efb82a7248269d785ea5040135da5489b20b7d81ae5a411ddd3692323ff47 -> 7e44908d1feb132e87961a2ac77352a4e69f68b45a05404de8f74303f86ec965
+~ -[EDColorAnalyzer removeSimilarColors:minDistance:] : 888 -> 880
+~ -[EDColorAnalyzer kmeansForColors:clusters:] : sha256 670ba2ceead64948fdd1319d9ae4e92a38a07f1ef46d0af4ffdcf37228482879 -> a647bf70182201e941627cf8612fb7d25cb795e9396f79159aaeeca1d0465358
+~ -[EDColorAnalyzer kmeansColorsForColors:clusters:] : 2116 -> 2096
+~ ___50-[EDColorAnalyzer kmeansColorsForColors:clusters:]_block_invoke : sha256 0b9ead2692c06c5629d824032313a5ec60f4ae5fe4816040e3d153a63eb9113f -> 2b86a37038146d69901516237592abf8a0f97163d632d6c52487bd7f43aa0d94
+~ -[EDColorAnalyzer kmeansShouldStopWithPreviousColors:newColors:iterations:] : sha256 5f05f380ac73211c4f1e1d2b5ceed857bc843166c3979ec8bfb3542d2e3ccac4 -> fa944d4a0fdad75914b30f19d6f3bad8f9b76013951a832613e9ef82e2c717d2
+~ -[EDColorAnalyzer colorsInSurface:offset:clipToCircle:clipedToRect:] : 908 -> 864
+~ -[EDColorAnalyzer colorAtCenterOfHDRSurface:SDRSurface:offset:] : 632 -> 628
+~ -[EDColorAnalyzer colorAtCenterOfSurface:offset:] : sha256 97005de29d96c930ea4cf988f5cd8921af9162a918c4661cab28de49a97b8ecf -> d013e8ee5f66067c813727bfd5bb9c2c9926736fc6f5ec973921da493949352a
+~ -[EDColorAnalyzer getRandomColors:from:] : sha256 9e92258f702cd13836b978b0e9ed82d93628124dacdd541d31c9cbe380ba4ee5 -> 33c545f44ae9fb3ed23a8b2b8839267aacfefcd260440b698ebb9499221d29f7
+~ -[EDColorAnalyzer .cxx_destruct] : sha256 37f58c21248c86731bed372fcb2b71adff7d31b4e388ef39ccd485d8a3d58987 -> 9b68a88674b310c668737402e3ba3df0bba22c878a7b5b0ebd1e387e5cbfaa8c
+~ -[EDWindowRootViewController initWithScreenBounds:] : sha256 51aa54a2ca52ebb76acbb112db44c4d56df451490a295d4e0ac8a1ad6037b6db -> 642e12c64227f87e5dff591332741e0340ca0ae6cdbd0b5996abd9288a5b5eaa
+~ -[EDWindowRootViewController viewDidLoad] : sha256 9a569ef3c608d65c0fbcaa99d3a6183f868ce84052051036344dbad4dec3b515 -> c0930314879c66ef049b63d3c6d8b89c506d54a6f6eeb8d94bd6647991967d83
+~ -[EDWindowRootViewController lensView] : sha256 c78e4c5c9ad78663d5be980aa4505bd237d72b941ac43391b1f891c4127fc1c3 -> 25ad46fe1cf100e7f92350afcee32ed82a5f32deb9396e3bafd08d4aee8c9d09
+~ -[EDWindowRootViewController setLensView:] : sha256 2c5d379fae92cd5a1c8a5c3943006f171f83d4826bbfc3484b3d1d016f71751c -> a7e023b1e0c6512ea52e9a4dad1b9a2f2d14068caa10c77d5f6b659bd344259c
+~ -[EDWindowRootViewController .cxx_destruct] : sha256 29dcd5ff8ba234edc56f01b6198824aa96a2f95f8b51dffca5eae43d09c2b2aa -> 38514fffda2fc599f6e0259640746d4d1a1a03ac749a325bd11b7d4ebc684c4c
+
+```

@@ -1,0 +1,129 @@
+## HIDAnalytics
+
+> `/System/Library/PrivateFrameworks/HIDAnalytics.framework/HIDAnalytics`
+
+```diff
+
+-2353.0.0.0.1
+-  __TEXT.__text: 0x2358 sha256:994e031f37512a5147f7e66ea382190cbc6d7f0b8e0ab5e6abcf436e2c451b1c
+-  __TEXT.__objc_methlist: 0x3f4 sha256:df12cf87a1af7d64d9e4777ae62194b54b459513b59b9506881844116ce31aee
++2360.0.2.0.0
++  __TEXT.__text: 0x2370 sha256:9a99081212dc1eaa759cf451e9749dc5d2684e294ebec0232375d984e64243fb
++  __TEXT.__objc_methlist: 0x3f4 sha256:c7e618a2e3e527b394221be52022f47f04eff925ae92278958b4edb1b861ad2e
+   __TEXT.__const: 0x58 sha256:cad6e835a2c5e343bd85fc511781bf705d38c070147947664ae60ba36ac934f0
+   __TEXT.__cstring: 0xd3 sha256:ae5cde99d00d5a1d4f25058604001e3d7a60c54b9920f02cebe27823ff8a11c6
+   __TEXT.__gcc_except_tab: 0x3c sha256:ce804f75de021fc6ce865215e8cc8c6730946754fb850bd8f209ee762970bf9a
+   __TEXT.__oslogstring: 0xb2 sha256:e880d780813e3a98fded8a849913cd1938e98bf67917bcb92e8f3691742307e3
+-  __TEXT.__unwind_info: 0x160 sha256:ba43aef5329fd9366b8bf6389ae4c8eefcc5db9bb43cdb6b73732aa833305e1a
++  __TEXT.__unwind_info: 0x160 sha256:a85ffc2ec0e70a3b0cd83ae7134acc70dbdf72c87c38fbed54b4845010179453
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x110 sha256:7b8115c418d8339e081f8ce44422e5543e1a9447604567215266d77ed7622a58
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:9978a94e8eb7eef23ef129a18791f16ca9cabea3196397b1ab88d3f54071fe5a
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:4fac9c5d2c0fa68432fe6a9709624674cad8466306778e0b9992a3288b9b2e7f
++  __DATA_CONST.__const: 0x110 sha256:99e512a6943387d63c06e7b2856b5b37adea4a1638f23d88cec479056750c7ef
++  __DATA_CONST.__objc_classlist: 0x28 sha256:b7baa30e398d152f2acb29c8775b6e8f14282e14ce110998d95cc7b91414d0f6
++  __DATA_CONST.__objc_protolist: 0x10 sha256:afff7de342ed681b59579912689aa72e84bc403b76c87ef7be0454e2f0a91b41
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x250 sha256:b9d9c9cb39589dcb15e477f8a2bf782ff786f796a3f49c90ff573c0642b57181
+-  __DATA_CONST.__objc_superrefs: 0x28 sha256:9978a94e8eb7eef23ef129a18791f16ca9cabea3196397b1ab88d3f54071fe5a
+-  __DATA_CONST.__got: 0x98 sha256:91f74a3d0dd519c44b6f0961c7b00c675cf427bfc4d6ceceb929ce99213e0ed8
+-  __AUTH_CONST.__const: 0x20 sha256:7d2a37221749bf8fc8443ddd096593e960827ee70337c26295ea56df5a5426a1
+-  __AUTH_CONST.__cfstring: 0x180 sha256:21c9f9c16facddb39072be4c8203abb8fc2ce2b65abb5b6c7a9948581997447a
+-  __AUTH_CONST.__objc_const: 0xb20 sha256:aef7e3ce9e130862043335182f1783e53bba16b2b37fc270650778f67cc56552
+-  __AUTH_CONST.__objc_intobj: 0x60 sha256:0f92cb61b63641e8dcf994fbd48a84463396c146673c431c73b53a9f8827690a
++  __DATA_CONST.__objc_selrefs: 0x250 sha256:659f3ffbcdae83582444b79749f321eb52e321fd9dd2cb599408b19877570362
++  __DATA_CONST.__objc_superrefs: 0x28 sha256:b7baa30e398d152f2acb29c8775b6e8f14282e14ce110998d95cc7b91414d0f6
++  __DATA_CONST.__got: 0x98 sha256:f12b7b143660a2f6219ae188088183b743af25d7d6565452f6bff1409f7bd42d
++  __AUTH_CONST.__const: 0x20 sha256:3c25037ba55e28c63e53ae21b8985c4e245d3fa018c142a099eae7f6659749d0
++  __AUTH_CONST.__cfstring: 0x180 sha256:05fd42d515c9473eb5fa3619fdd644bea03530e6c04ff19b9a6881985c6145d2
++  __AUTH_CONST.__objc_const: 0xb20 sha256:53112094b954a80c82abc496c01535c65444cec9c2c378f3b91a1db179a05379
++  __AUTH_CONST.__objc_intobj: 0x60 sha256:1b45571ccc03c3eb9aa9224d555491d5c3282fffbe8ca2c309fc826043cd1ce4
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x44 sha256:3dfc74400f87d8cea6611115d567d0862c18a09711276728a84d7a92603460b4
+-  __DATA.__data: 0xc0 sha256:a66fec04fca3802f67701d795375164d86b418cc7df923f2e61506d4811cd227
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:4a508335d4bd45e66b04a05ca9e7610e9e5172f48ce7f8730655b0ecab3e9150
++  __DATA.__data: 0xc0 sha256:fc8bf949575c7e21cdbbb337154b29d2a017b1d5fde608470134fd4a105e45c2
++  __DATA_DIRTY.__objc_data: 0x190 sha256:16cdbb3736a5f0387eb22135abfe52edb8e38652cb45dad3b9857ad3eb14766b
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CB67AE74-C08C-3D3A-8034-69D23D39391D
++  UUID: 6BAB8E96-6421-3913-B2D2-9B2D3BB0A980
+   Functions: 73
+   Symbols:   357
+   CStrings:  36
+Functions:
+~ _HIDAnalyticsEventSetIntegerValueForField : sha256 f697229d5c9160d327d44b4f86124d6fba65b90e73a6341b3663c1e539fc81c3 -> da661a3aaafd7bbcbffaf4b8cc1a631b4f37dd4085c9ca85c7674a9b9bba21d7
+~ _HIDAnalyticsHistogramEventSetIntegerValue : sha256 39b1c0811ba37a956a4f97d23ca511ba37f7e318179c71fc3ea460b591c45421 -> b728a4c46ee7010496daaca3e721203b6c9affbb389669e4fb7dac7fd20737bf
+~ _HIDAnalyticsHistogramEventCreate : sha256 5eb138efb7b481cb86529230aca3d66602451417ee9bcac96e2af9a53dd5e23b -> 0a495bf8859096910911522e9c3db2b1b0cd1a10d3669a791c1a282876a0934e
+~ -[HIDAnalyticsEvent initWithAttributes:description:] : sha256 f550118228d97644d121b07a36b04293ed6f90fcad8bf814c884bd7db9605af7 -> 8a6c29190ae5406ca5228b36309e367340f5fd98f83e7247b033c270e7de1130
+~ _HIDAnalyticsEventActivate : sha256 f31faf068fa1daa1a38487ba4b2a57c28f0959948c8278a82399e7523df88a59 -> a9c06c351878d02f08be4269aedf7ecf4630672d7832de84789a586c5ad268d2
+~ -[HIDAnalyticsHistogramEventField setIntegerValue:] : 184 -> 196
+~ -[HIDAnalyticsEvent setIntegerValue:forField:] : sha256 156e024fabffcb8a3bd6a91ae1b13d27a6abc1a7ce55033dc3589111d7793042 -> 5c9e62b6edf00622586311b6114316ead30aef6d6dd580212aa744999ff438dc
+~ -[HIDAnalyticsHistogramEvent setIntegerValue:] : sha256 17c09ff31f64d39a5674cad07278ec0fa2e6ead35cc2d0401674633c307d5cca -> 98e8b00c7ece5883df6435049f61a0dd0914bced3dc6cbbb49b129dcea9a625a
+~ _HIDAnalyticsEventCancel : sha256 9e8216929827c1471a8a32949031ab2ee310beb3385062697a723b766ce801ac -> 257f3c37eb8ab2325742fd38463b89b44e686c01fd866b9a2a1379102ead61dd
+~ -[HIDAnalyticsHistogramEvent .cxx_destruct] : sha256 5b5289a359cdeaba969935305505e5a0f2d603c65765b1cbc4babebeb945c0ee -> 5abd23db86f371371da052aedffa8f51aa7085ccf7c244d365e9cdc4b6c1151b
+~ -[HIDAnalyticsHistogramEventField dealloc] : sha256 6fb7bfb29ddf35e5c42bf5620bf9534ea3cf84546fba8575219d4659c5326988 -> 2f1a6b5e9db56efe399b2d9ccdbef0b28555fa50c8570ac33f4ffa28e523b13b
+~ -[HIDAnalyticsEvent .cxx_destruct] : sha256 2d1d99edc11c7b892b0edd5fc93705c36a6d642a83eada8fcfc835c0f679a6ab -> 470b6525d62e2a9ca929ec2d6273ebf49716a2f6ac3450958b90700f54d85e97
+~ -[HIDAnalyticsHistogramEventField .cxx_destruct] : sha256 8b06fd61c8bc6f58f818952a988ebe3f6d7a36a4c9cc1b0dfd1d176590f8babd -> 6c2fa03ea4166a336812afdeb10dd948e2c5d0d1eecac5236653860b1055cd75
+~ ___26-[HIDAnalyticsEvent value]_block_invoke : sha256 413e4bfa3b770f60ff84f6d30391c6df465223d1d31e3d6df9039d29671a9c34 -> 434a796e1c5c96117246529cf951a39c089801b0caca92f6e0211b8524deff62
+~ ___42-[HIDAnalyticsReporter logAnalyticsEvent:]_block_invoke : sha256 14bcd2d8d4ba8c394935d44dd1a2f17fa1aff6626c10b7023ed95df84e2e259e -> 2624aa967415e9b461c98608b5b9c01e4883e1afd248eddd19579d4471be3ce9
+~ ___70-[HIDAnalyticsReporter logAnalyticsEvent:eventDescription:eventValue:]_block_invoke : sha256 9c7de8d6d998495e145be86c7de67f58956a3ca3a0e2a6c02f87709d8b071efc -> 48411b67967fa84a69dcdda99343aeb7aa3f7398dea23dc04e6bfdd702ca2b82
+~ -[HIDAnalyticsEvent cancel] : sha256 d9864e158c204958e317028e433fb37023694946e38e320a4782850823b95f08 -> 019104f7257b14890fd8c1865c6aca94955de3f69e0199fea4017e3748e9642e
+~ ___69-[HIDAnalyticsReporter createBucketData:fieldvalue:fieldDescription:]_block_invoke : sha256 50e0bd40f2cef248552759a949d1274d3e5b5718f1d781498414cba9d8c5d995 -> 2feb01c3a9a3ef314c215534626c89d62a7489be22f530ce85cdbc8b5f1e967f
+~ ___70-[HIDAnalyticsReporter logAnalyticsEvent:eventDescription:eventValue:]_block_invoke_2 : sha256 56331e9529104d01a5842eb8d218ebe5dab97eb693117ba9b4d6dad325647a3b -> ad2e387d4556e3acf48a8cc10ecd1aa4c527a1516079b920c15e704cd75615a0
+~ -[HIDAnalyticsEvent activate] : sha256 a37a6df7819c624e55776ef03df67d31b5abee6cba19115aa5ae529066cbfe72 -> 08a3eb7cee6cba0c5a1ea82d5471dcabc06331e9c7390d3fdea5e015835ae230
+~ -[HIDAnalyticsReporter unregisterEvent:] : sha256 8ecccc35d36dfc29e9dc8fe46a2871d9624ce6e7943a193b0cb2800d1eb59f03 -> 08c28e0163ddcefa80043f3c301d84861895611c349a976f9b36bbf4cc7cbf2a
+~ -[HIDAnalyticsHistogramEventField fieldName] : sha256 1287d5e0af90c7e6b6075760e3f0b5a619860d35908b3259e1147334fdd6975f -> 18733bd44f9d56aacae9cfd50a979fe6b53b2e1ad64b6405746cea004953490d
+~ ___70-[HIDAnalyticsReporter logAnalyticsEvent:eventDescription:eventValue:]_block_invoke_3 : sha256 6dfdf86303806e3cff1454f2f4b120c1634516656e50a44fd7472a80812b3b62 -> 542addb5ff9aebc80cd34e5e9b248a9094a5d9ef690d7979d0db94d88b8ab9ad
+~ -[HIDAnalyticsEvent name] : sha256 4a4706a233a0ae3681c3a97e9f205de7a1411dfbff4d0fada35517827aa6928d -> 5f02f70a79cd0c91c9eba79e405c932f698af8cc2e140b837c0d22e18fca0c05
+~ -[HIDAnalyticsReporter createBucketData:fieldvalue:fieldDescription:] : sha256 e2cb3f393ca0b48d06a32405efbca97cf100c7c08ccd274d69a1b741eb9b80e9 -> 5ce1ed200eb2dde33282d0cf08752049b553c523e97dd56e9c1beb7b7daea55b
+~ -[HIDAnalyticsEvent setName:] : sha256 85cb95c69efe6900875bc9a429887446c2c4cf35bcd7fee59504e596b92d9f13 -> 41913a03ae8c95d387c5b3ac03bbc0667e173ebb6edffbab8b9ad4c98f777621
+~ -[HIDAnalyticsReporter registerEvent:] : sha256 e3b5688b2ec49b5157052c2c94196567ab8f9fdabe2a4b6fc3840ed93bc25382 -> 17e341256b506c4295ec3f2c14b190d9bbd707d7b10f7f3d7730a772db226573
+~ -[HIDAnalyticsHistogramEvent initWithAttributes:description:] : sha256 164c20a9a4980b98ebcab6127233263d5fffe7dc658af8037a4b95a920bcbd49 -> e0211d4c7fab4039d698f8095f9a633613d6d06de0fa2d1bd4fc9d735f4bdaa4
+~ -[HIDAnalyticsEvent desc] : sha256 d04bb0b3056b67274a8fe850f118699ba3a03e8ca44203e407434b0cd55364cb -> d45d26f58631b624698fe94083f67cf5ec0faab8e4e82cf0e8634fb4587615ee
+~ -[HIDAnalyticsReporter logAnalyticsEvent:eventDescription:eventValue:] : sha256 4e74cc311dca6779fd074a777e9dee585d47fd162c997d373a919cd40b20bc1b -> 95f240d9b425eec146df730e49b88bcc6d277c58231ec6cbf6422355120e1ab0
+~ -[HIDAnalyticsHistogramEventField value] : 244 -> 236
+~ -[HIDAnalyticsReporter logAnalyticsEvent:] : sha256 d216f9d780b6ce7ea78962788e61c5f703772bceab336e4790f67fd0ec647e6a -> 14e4469fa5758fa1ff05d701b9f3b036f272ff4b4a45817e74813431f6b7828b
+~ -[HIDAnalyticsHistogramEvent value] : sha256 2a7c047029b4d045397098374cf550826413e8f7427383ae17544856298b922a -> 488b2d87d54fbee8e7a19f4f6491a50a4cc985b6f942ddf6dbf051a0fe9f4975
+~ _HIDAnalyticsEventCreate : sha256 c8ff1d49e40c82beaf717ac7f9f258093d0894b84342d3573fba727dd7ba7bac -> 0a726fd7fc37024109a3a71e369e32c1432d6aaade0f7ebe921231229942c48d
+~ _HIDAnalyticsEventAddHistogramField : sha256 e723d0cdd8a3810b10e9c3f9a9846678e81c8d9fcc1cbdfa2b2feb29c3c60550 -> aca733415d48222b09f39f747e0d46d900dae74b938ece97684da9e8d5e07881
+~ -[HIDAnalyticsHistogramEvent addHistogramFieldWithSegments:segments:count:] : sha256 22f99f1b5811a773ab5f43cf4c09465f5a137ff204daf4eadf849224ecb9ad82 -> ef4d5efd12ea1c19b758cd676b4225640a297d9ab863c7b01fd77f5c5e085929
+~ -[HIDAnalyticsHistogramEventField initWithAttributes:segments:count:] : sha256 aa7bf8e107d9f8034c58530abb772ac76d9af1e5105e85bcff07c61f6c5bc142 -> 5b8ae3a4859bee9513a6ae33543c481e6966992f94045ae0f05eeae695f45c29
+~ -[HIDAnalyticsHistogramEventField createBuckets:count:] : 408 -> 420
+~ -[HIDAnalyticsEvent setDesc:] : sha256 71090cef386db93b4737eb07fd1871048ece7a28aeb51387c25779a02c97c5ad -> 0fa50ed13d960aa9673e0a7257e91f5d97c22d974b66f279885cba62b423337f
+~ -[HIDAnalyticsHistogramEvent setValue:] : sha256 aac2ae3bed14a29d68c24c223cae87f5d0d14c36ff1fce23b34d1299f89de943 -> 72fff15d50c9fe203108239d83d925d985aa5801886c9403759cf366ce226435
+~ -[HIDAnalyticsReporter init] : sha256 8663830d6503dc300dfce6e255a4b3a8e22e1f499e81847ddd55e359628ff439 -> a559f444893363790d5626c34d39beba0dc62fd88ab530557dda5e279efc442b
+~ ___28-[HIDAnalyticsReporter init]_block_invoke : 760 -> 756
+~ -[HIDAnalyticsReporter dealloc] : sha256 da76b753f4521355d66ac97e8afd93c92f2ebfdd22655427181387453f5bbb67 -> 7c603d40738707ab05a3667bf5def0804ed9e8a1fb1dd83d131837208ac2e860
+~ ___70-[HIDAnalyticsReporter logAnalyticsEvent:eventDescription:eventValue:]_block_invoke_4 : sha256 9aa5afd6500626b3cc7441dc92f86c1ed7014d25f4af9f51046828268dbe47fd -> 049a7ebb1ce0da5b5f87059c3bbc2b3e84658b5a737fc14290cc01d56eb440a7
+~ -[HIDAnalyticsReporter start] : sha256 948b52f43ddd301f7c31ce498e0b6a254b2ef7b04125565b54d5a49704305ba1 -> e03733d9bf2397fdee6fd8cb2faee7d7395437a6104a384af1221db0e1cb5107
+~ -[HIDAnalyticsReporter stop] : sha256 3c8046c4d3f570c1010c015831765d1723d43dd02a969802b597421e3701e9eb -> c6a56f4e8de4b0c92cfcc454ad2887dee1d902bbe43ec3c29ee71012145ed087
+~ -[HIDAnalyticsReporter dispatchAnalyticsForEvent:] : sha256 93dce3084b95e1031397264a0a66d16abfea5bc0c0d8aa53b2cfdfa94a8cbc66 -> 2804ca5282f019c5253ea857678f8488b164d0d2aa3310f029eb064f8ebf1c3e
+~ -[HIDAnalyticsReporter .cxx_destruct] : sha256 1983ae74a6f7f4462e9cb9b6de1ff97fb7c9cfbad218377684861f9fb8d709e7 -> acefdfeaac562224ae9dd6c83306d99874090575ff74323a7143a8d528a32af6
+~ -[HIDAnalyticsEventField initWithName:] : sha256 bcbe7f19c801dca5ec07b25aa34c6bdc6a997ef131f5304105c591bc7954d981 -> 414f46c23308f1f156aff9aa6b5989706157006febe32a68e6096699b55fad8c
+~ -[HIDAnalyticsEventField value] : sha256 a393051d2ab1aae739ee9f49478a2d289f4ca1d450db4c43f985acb834781dc8 -> 2752676a948d615c59610eb2437e37644fe385c88250ef35686c844e5507e0d8
+~ -[HIDAnalyticsEventField setStringValue:] : sha256 3860e445683c2751fd776e4cc2fadd3f131be032533763a7de443ee9f4ce8f35 -> d55715092db79ffc8559dfd3895162783d9e0a053b3d42d4ded7407d3c12bde9
+~ -[HIDAnalyticsEventField fieldName] : sha256 7aad6e40c537fe998ee440796bc254f866433c174dcea78b3dcf5d318d165dff -> 0eeaa19aa1a389f26842e3383ef9b1a5a14bbaff27eec5de51283498e153f669
+~ -[HIDAnalyticsEventField .cxx_destruct] : sha256 820c904309797fd49c39bb345c87fe014ee8020f344e0e0553c8a6b84630112b -> 0b9e132053766868922f81a923d93f9072be3cadf45938df7ead9fd51ef008cf
+~ ___52-[HIDAnalyticsEvent initWithAttributes:description:]_block_invoke : sha256 e66f716fd8a9a5fbe4a10a23bc2255a32e02d8aec27d4c45fe019613ab6b8224 -> a81045328cd806b97a9bd9548edf6baa63b069b322da474d62697ca4b7f2a13d
+~ -[HIDAnalyticsEvent description] : sha256 6fc11c05782f74d668bd9fa4358393fbfbe429461377f52d4d12f4007c6ea774 -> 7278534069b0098a712d594f05cbe66fb452764073cf0df11d952ab3ebd40284
+~ -[HIDAnalyticsEvent addField:] : sha256 4d968d7b01bd405198f6ff1f889c08a0e134d207a21ea80fcc8d9a04332c3982 -> f871dbdd4c509bc9b2be93d2a14d3d95141b2842662926c2ae69a00071f9729e
+~ -[HIDAnalyticsEvent setStringValue:forField:] : sha256 48bf100b19a1427106afc3994008186e48b92fa751e8d795e0b7a4056bb54941 -> 72be97cb677a681e91bd0975749711509bdab2302ccc7d0643bebc48844dd784
+~ -[HIDAnalyticsEvent value] : sha256 7bd4fd8269c4f95ca0fa82af080d30f917c3b58a549534c6a7625a462061fdd2 -> 92bb1b1f9e02e0a5cc89544036045d0d4e38926f909d48f7c098aebb4f838b02
+~ -[HIDAnalyticsEvent setValue:] : sha256 bcaf59a012447a57543e4af01c8cf43fa341d58687d13598b33a9aafc6767d80 -> b5abd795b8f49332e9896d6dcec883174727a05a8e064bed23b855afe3b504bd
+~ ___30-[HIDAnalyticsEvent setValue:]_block_invoke : sha256 ac949a41bccc67f4512bc352fb21e1ed77b978808d180de3fbfd5a8df26a438d -> df9f622301a9134eb9a1f3560e44ca44e9803fa68fe3c013092de8cdc8f2c792
+~ -[HIDAnalyticsEvent addHistogramFieldWithSegments:segments:count:] : sha256 90a827ea003a126ba716c371ce2cd09647ff213fb42a29915a78ee9398525721 -> 93a1d3bf65e44f7d97eaa9c8ba37fb63992b7a965693b93a0aad8360d60f8751
+~ _HIDAnalyticsEventSetStringValueForField : sha256 fa7fc43c6037a337c537ebc928c09eb3c251f07e08a8787adbab2d74e843630f -> 7ce34a53ddb7bf6ca938e4669227456c08e3f0090434d541355b011aa36a5308
+~ -[HIDAnalyticsHistogramEventField setValue:] : 104 -> 116
+~ -[HIDAnalyticsEvent initWithAttributes:description:].cold.1 : sha256 dac055f5eb2149e251f797d6c4e1b4d13b2f15774443b50d5b9b462079ac9da7 -> 8e5f7f4fc8cace86839445947d8b9e2ef462766fa5ae3638f5c73d6420541d08
+~ _HIDAnalyticsEventAddField : sha256 c6d72acdffd1d65d68b47b74a1c85ca10cfc21912442a97c128a6dbdc531c638 -> 7e1860d18cbd23e7ef4cee5a77c3c3b24d8bd996fbe9cfee0bf567a082deff29
+
+```

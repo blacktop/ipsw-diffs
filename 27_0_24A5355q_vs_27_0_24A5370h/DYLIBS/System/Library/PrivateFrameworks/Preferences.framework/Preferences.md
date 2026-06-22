@@ -1,0 +1,265 @@
+## Preferences
+
+> `/System/Library/PrivateFrameworks/Preferences.framework/Preferences`
+
+```diff
+
+-5310.0.0.0.0
+-  __TEXT.__text: 0xe68e4 sha256:c9e8864e266720199c731e0571516984836ad87a878dfdb8b034fb6ca83976fe
+-  __TEXT.__delay_helper: 0xdc sha256:4d96df2a1edc2fad459c11736de521589717b0fa634f67dee3d94b14f45a538a
+-  __TEXT.__objc_methlist: 0xcc44 sha256:02df6360ffd7c9b7c7090f0b29ea92308847304bd564fa88e7d1c189b082be8c
+-  __TEXT.__const: 0x1fc4 sha256:0364efa114f71d961e78e078abdf468addcd6a1c432dd69d133c8222a3faec19
+-  __TEXT.__gcc_except_tab: 0x1d24 sha256:2e3eee9172e36fe3ec8d6872dbe91c779e48a50f20e0a2a1a075d20bc21f92d1
++5312.0.0.0.0
++  __TEXT.__text: 0xe67c0 sha256:9f56def674124c2617cd4d76e7ed2f2a92335c6a169213d9975be39ee368684f
++  __TEXT.__delay_helper: 0xdc sha256:0eaa2a0e0825c18fec648b1fa9d128e41a643f99cc4e1c41a5a67da780d79668
++  __TEXT.__objc_methlist: 0xcc44 sha256:1f02a47b36d624c69d32f85a49eab66290c44b4d4fa65c47596ffe814ad2b3d5
++  __TEXT.__const: 0x1fd4 sha256:6c4d1a730aa90a4cdc7b2a4066aae6d9aafcbee03de1d8d3993a42806cfb1566
++  __TEXT.__gcc_except_tab: 0x1d24 sha256:24d58d1a8aab9a05b593ce39ebaa6f99eed833a62a7d326596edbb86e525206b
+   __TEXT.__dlopen_cstrs: 0x17e3 sha256:d972ab17aec26124137456aae01ac50da55ad91c708f8d28f2af9eb8b8ecff7f
+   __TEXT.__cstring: 0xbf2e sha256:289b0e0950cac4882dc84ecb5e28bb1a9e07ebb41507808ab40f25d2a920e616
+   __TEXT.__oslogstring: 0x4524 sha256:c79fba0a8eaa764d40d136c376e3b9407b1c7a8fb4837d0e8150c727e2d5f552
+   __TEXT.__ustring: 0x22 sha256:150ad6633ce9e101578e04c9e3ba67123fbb9a50b39b2c108650526e0c8d55f9
+-  __TEXT.__constg_swiftt: 0x764 sha256:ff21aebfc018f798a73daebe32698d9b48d0c88c470e5ab8c60e8c8288c46c00
+-  __TEXT.__swift5_typeref: 0xea6 sha256:bc7dd02cb1792565b35d1dc3ddcc9cceb81784828a19ed5e06395bd6fa37820e
++  __TEXT.__constg_swiftt: 0x764 sha256:9ac43c861740c63c86295b68e27ecb4a80fd4af7785c6615f74b3bfb0ba4953d
++  __TEXT.__swift5_typeref: 0xf7c sha256:b7b957fbf09023c73c61f169489b829aa2e556812f2ffe4a8bfd042256c21302
+   __TEXT.__swift5_reflstr: 0x4cb sha256:0ed2aa060deb9728fb63a7e546fa17f557d472467b46c621c49d70b3fccde012
+-  __TEXT.__swift5_fieldmd: 0x4f4 sha256:71bc5d45715d2a886e61122c2b4f6d55785119a46aabf04d701ab07867fa223c
+-  __TEXT.__swift5_builtin: 0x64 sha256:dd08b6c9e2f8f085f5ed283ee331aa475fa962b9cf6f7e20247283fc322aea78
+-  __TEXT.__swift5_assocty: 0x110 sha256:168358ee1a9d8f66bdd224f11f874b2ccba55468e311934ff0bf65b8ac43a096
+-  __TEXT.__swift5_proto: 0x58 sha256:ed396da491685dd58c20586a90ad1236dfb67fce191a444ee8a61e8e44266742
+-  __TEXT.__swift5_types: 0x70 sha256:960e7791546aa7b1ff20e4b8ab01e553b46885d4dd5d39d46f09fed45afaf6ed
+-  __TEXT.__swift5_capture: 0xac sha256:04b208ead673048cf68cb23272aa88e62cba7fc8d04a0fd879994f828ffef4a6
+-  __TEXT.__unwind_info: 0x3d68 sha256:e35a648aa18865667a2778bbc112ffc23eda698f4584e62a74f4e171bb44866e
+-  __TEXT.__eh_frame: 0x3a0 sha256:7891f38e20808d66cb066f83a65d5e2fa4d5b0f9b651236b1e1839ef3e59f8a8
++  __TEXT.__swift5_fieldmd: 0x4f4 sha256:79b318c28e8f8b0f94cf8c5bdab742c7930cb2269757280fbba4b2caa0b40040
++  __TEXT.__swift5_builtin: 0x64 sha256:ec3f2abebabbc612bb2a084c1ad5f2c06224346cb595a2f9dff06108bcde5a61
++  __TEXT.__swift5_assocty: 0x110 sha256:a25957e8c3224e7eed0d20b1ab9eafe699ec22f1666b574e1ce67c12a2a4c95c
++  __TEXT.__swift5_proto: 0x58 sha256:814859dcc4410192c75a12e06cd8bac1b5a45d0a714424e3386ee8d536245ffb
++  __TEXT.__swift5_types: 0x70 sha256:de0248ceaa9fad93fa1ac939aac140402eeb1164cd89ad36e65218e08fdbff6c
++  __TEXT.__swift5_capture: 0xac sha256:027a0d86f9d4555343fd783766d1887e0a938dfff9180a86d0937bef519fa9cc
++  __TEXT.__unwind_info: 0x3d80 sha256:9f8a113f7dfcef71e29f50826c36a86bf73fd02483f9f9f015984670d30b5b50
++  __TEXT.__eh_frame: 0x3a0 sha256:b3be422a47b1b550f1b86d6a9929074bbe065bc573d0cf1f428a4e5720c93137
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x3560 sha256:e5154517bee2205a8484eeb1705988c35b6f0b7b756cc6b93074983b1d663e29
+-  __DATA_CONST.__objc_classlist: 0x7a8 sha256:a54b09adcc0b2640db89127385727fc1c63292087d5d57dc6228f655a6e5b880
+-  __DATA_CONST.__objc_catlist: 0x38 sha256:369b2ea9486fb276c1b8e62ffb2866e97ac767b5f6ef664332b35495c71010ac
+-  __DATA_CONST.__objc_protolist: 0x218 sha256:d192175a2f230e7e5618cdbdb684098e62001553277012fc17cf81a0fcffb3ba
++  __DATA_CONST.__const: 0x3560 sha256:ef33c844cd47a7ad80fd8abb64fae45976f41a24a2ad66e703d6d22a620d272f
++  __DATA_CONST.__objc_classlist: 0x7a8 sha256:87d72f74988e69677812f867863a6d2f2f3950f36dbfce4c5669cf8ffb775547
++  __DATA_CONST.__objc_catlist: 0x38 sha256:7694ac86a63a563137934016e03a9d77c354d89566f9c21570217eb638137d31
++  __DATA_CONST.__objc_protolist: 0x218 sha256:83e268b2c5c991179e38d433bb3f8de0017e9e1662702cd8f7cf399ec44da759
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x7ac8 sha256:80a3e9b95aa238629ce96ad1ea795db07223e8df30390b2f2f7ab942e3abe7f4
+-  __DATA_CONST.__objc_protorefs: 0x60 sha256:b52d5b5c566b51443bd581eeb5f3c3ac7bb8bbd278c992d58d2ef660aa7b4877
+-  __DATA_CONST.__objc_superrefs: 0x4b8 sha256:a03bcb31338472ca8467a68ec4f96ca7a5d46fa115e391aaabce412ecc0e446f
+-  __DATA_CONST.__objc_arraydata: 0x298 sha256:5e21c590448be0aac72bf3a4ad2b59a7de771f950b0be27f4b2b1b29fda1ed00
+-  __DATA_CONST.__got: 0x11e0 sha256:2c2a0b040addd0ed76863bf2c79d644a85a639cd61851fa35f1d2333e0ecd41b
+-  __AUTH_CONST.__const: 0x1458 sha256:ccea6625a4e4075eb410c5068085c2a7ee0d7f1546c1f718112039efc366f5fb
+-  __AUTH_CONST.__cfstring: 0xbf20 sha256:c746e26d9316d1e6b529ecd5d5a103c565cd2899bdb5f546d9bedd7407c2653f
+-  __AUTH_CONST.__objc_const: 0x14d28 sha256:c6d520fdfd7d8ef2d3c29a5721d333ffc2f00c464d9ec99ea250ac4f64ca5a49
+-  __AUTH_CONST.__objc_intobj: 0x4e0 sha256:daa573d9799e980973d3fe91001908319d631a48f693313e4b5d0c8ae6850893
+-  __AUTH_CONST.__objc_arrayobj: 0xa8 sha256:7ae17c045efd5dfc89970c26d160e8c2d64ca672fdf5f41eb88f069d140adf16
+-  __AUTH_CONST.__auth_got: 0x11e0 sha256:57de630faea6caec76dbc3a64972fc8b3ed27721e023e71c210d8806f9c58b6a
+-  __AUTH.__objc_data: 0x42f8 sha256:d4a85f0d9ead0a224e90d1b4eccca69c10ca55a96ff04b08117dd2131ed282e6
+-  __AUTH.__data: 0x660 sha256:83f18b3c80d396cc977e7493d5d77b7811e512f15cc95496d4cbe3e6fc0bef57
++  __DATA_CONST.__objc_selrefs: 0x7ac8 sha256:9a901e3ec40818ae1d65d82c93da61919a5a04f072982951e4449509bec4377f
++  __DATA_CONST.__objc_protorefs: 0x60 sha256:226048eb713783514321ced35faa6797d92d38ed78ba12c79f9889d6686498d5
++  __DATA_CONST.__objc_superrefs: 0x4b8 sha256:0af4bda92430ee200a889e0b46c9d366321ed04615edbfc2cca48e9b293e0728
++  __DATA_CONST.__objc_arraydata: 0x298 sha256:43336607a765f1cabbb54ba49a222a89ecf5f8849996b63ec2665acd2d1e7336
++  __DATA_CONST.__got: 0x11f0 sha256:a212399a61d2721bf7a5ffde8e9907ae26df13ba765b338a8d5e7f30ce04ebf5
++  __AUTH_CONST.__const: 0x1458 sha256:99b099ff6366571001e91d0fb07d5eb3b28ce2b1d126c13269205481be415c58
++  __AUTH_CONST.__cfstring: 0xbf20 sha256:1c5f384e7d86595de205916656891676c29f49aee3c18bd79d8b8366eb34edad
++  __AUTH_CONST.__objc_const: 0x14d28 sha256:c8805b68f9186a011259f716f03d3551a8e7ed90e70bbb9850f086a4bf609f4f
++  __AUTH_CONST.__objc_intobj: 0x4e0 sha256:6cef6f7838bd30390190b105fd3640bddbe56cad2569dc8d13fe89f6957a347f
++  __AUTH_CONST.__objc_arrayobj: 0xa8 sha256:13a565ac6959fd13f104d16a9c6f499453208aac7d32b9a38eb1f0e06488aa09
++  __AUTH_CONST.__auth_got: 0x11e8 sha256:dc0e1e84944aec123a15f1665836de25d373adc407e36435438870ab9ba0f01d
++  __AUTH.__objc_data: 0x42f8 sha256:be45161e9770750ca404fcb67d0274729624370faa5c8e6c4b4012a4ec04a09c
++  __AUTH.__data: 0x660 sha256:8b81d3cbc2607dd2d487dc90ac34578a0a0133af0e27fb2a0b39d9893dafe7e1
+   __DATA.__objc_ivar: 0xc20 sha256:21481e9405214ae2bfaa0901047d10220850f7a570f2ecc35c9bd09c9977c3ef
+-  __DATA.__data: 0x1f48 sha256:78585d1ffe7f84a6fc007befa9d7baf48e1c7938c6affe95ee53b1dad5a0d4ff
++  __DATA.__data: 0x1f58 sha256:fd2521a5b5c1381689990a3b7cc1234d0ccd2ae018f5989cd3194f18587625a2
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+   __DATA.__bss: 0x1a70 sha256:4b1b998d1925a1130d508996ff5d3ed650050e7e32a80cfe99a71c103e0ca986
+   __DATA.__common: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+-  __DATA_DIRTY.__objc_data: 0xe18 sha256:e0aaf91a1f162c69dd81a7689f5a00d66c6a3780355e6ac0e2dc94098d7546aa
+-  __DATA_DIRTY.__data: 0xc8 sha256:4477703381d04f8122a9af8181838539ef419eb6c00012421621e3e3f6b38eb6
++  __DATA_DIRTY.__objc_data: 0xe18 sha256:dfa255f77048109c2ff7a551253cbf5b6340d79052796fde4b7602542916a8c6
++  __DATA_DIRTY.__data: 0xc8 sha256:f11b0254808bc1af20ba39ac5a59e39e4993dd68edc0d1f383f1b371693d99d3
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 32836B71-CD42-302C-8AEF-074EA56BE320
+-  Functions: 5588
+-  Symbols:   17960
++  UUID: D4591C2E-286F-3319-B92A-C4DA5F0AB215
++  Functions: 5590
++  Symbols:   17963
+   CStrings:  3803
+ 
+Symbols:
++ _OUTLINED_FUNCTION_57
++ ___116-[PSCoreSpotlightIndexer reindexSpecifiersIfNeeded:bundle:withURLPrefix:waitForCompletion:setHasIndexed:completion:]_block_invoke.366
++ ___116-[PSCoreSpotlightIndexer reindexSpecifiersIfNeeded:bundle:withURLPrefix:waitForCompletion:setHasIndexed:completion:]_block_invoke.367
++ ___116-[PSCoreSpotlightIndexer reindexSpecifiersIfNeeded:bundle:withURLPrefix:waitForCompletion:setHasIndexed:completion:]_block_invoke.368
++ ___117-[PSCoreSpotlightIndexer private_indexManifestBundlesAtURLs:skippingBundles:skippingManifests:dryRun:withCompletion:]_block_invoke.330
++ ___117-[PSCoreSpotlightIndexer private_indexManifestBundlesAtURLs:skippingBundles:skippingManifests:dryRun:withCompletion:]_block_invoke.331
++ ___117-[PSCoreSpotlightIndexer private_indexManifestBundlesAtURLs:skippingBundles:skippingManifests:dryRun:withCompletion:]_block_invoke.343
++ ___117-[PSCoreSpotlightIndexer private_indexManifestBundlesAtURLs:skippingBundles:skippingManifests:dryRun:withCompletion:]_block_invoke_2.344
++ ___34-[DevicePINController pinEntered:]_block_invoke.241
++ ___41-[DevicePINController setPIN:completion:]_block_invoke.176
++ ___49-[__PSAccessoriesListController refreshDADevices]_block_invoke.202
++ ___54-[PSSystemPolicyForApp setPrivacyAccess:forSpecifier:]_block_invoke.520
++ ___54-[PSSystemPolicyForApp setPrivacyAccess:forSpecifier:]_block_invoke_2.525
++ ___56-[PSAccountsClientListController updateAccountSpecifier]_block_invoke.110
++ ___56-[PSAccountsClientListController updateAccountSpecifier]_block_invoke.112
++ ___56-[PSAccountsClientListController updateAccountSpecifier]_block_invoke.88
++ ___62-[PSURLManager processURL:animated:fromSearch:withCompletion:]_block_invoke.195
++ ___62-[PSURLManager processURL:animated:fromSearch:withCompletion:]_block_invoke.83
++ ___62-[PSURLManager processURL:animated:fromSearch:withCompletion:]_block_invoke.88
++ ___64+[PSSystemPolicyManager _cellularDataSettingsNeededForBundleID:]_block_invoke.96
++ ___67-[PSCoreSpotlightIndexer indexThirdPartyAppsWithPrefix:completion:]_block_invoke.458
++ ___67-[PSCoreSpotlightIndexer indexThirdPartyAppsWithPrefix:completion:]_block_invoke.459
++ ___72-[PSAppleIDSplashViewController didFinishAuthWithContext:results:error:]_block_invoke.210
++ ___75+[PSCalendarPolicyController setCalendarAccessForApp:toValue:shouldPrompt:]_block_invoke.136
++ ___76-[PSPhotosPolicyController setTCCForService:appIdentifier:value:completion:]_block_invoke.219
++ ___91-[PSKeychainSyncManager promptForDevicePasscodeChangeToPasscode:overController:completion:]_block_invoke.214
++ ___91-[PSKeychainSyncManager promptForDevicePasscodeChangeToPasscode:overController:completion:]_block_invoke_2.224
++ ___block_literal_global.100
++ ___block_literal_global.1013
++ ___block_literal_global.125
++ ___block_literal_global.135
++ ___block_literal_global.136
++ ___block_literal_global.181
++ ___block_literal_global.199
++ ___block_literal_global.218
++ ___block_literal_global.223
++ ___block_literal_global.231
++ ___block_literal_global.234
++ ___block_literal_global.239
++ ___block_literal_global.252
++ ___block_literal_global.257
++ ___block_literal_global.274
++ ___block_literal_global.279
++ ___block_literal_global.287
++ ___block_literal_global.311
++ ___block_literal_global.356
++ ___block_literal_global.365
++ ___block_literal_global.369
++ ___block_literal_global.464
++ ___block_literal_global.472
++ ___block_literal_global.485
++ ___block_literal_global.590
++ ___block_literal_global.658
++ ___block_literal_global.67
++ ___block_literal_global.674
++ ___block_literal_global.69
++ ___block_literal_global.71
++ ___block_literal_global.91
++ ___block_literal_global.94
++ ___block_literal_global.95
++ ___block_literal_global.96
++ ___block_literal_global.973
++ ___block_literal_global.978
++ ___block_literal_global.98
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA10AsyncImageVyAA0F0VG014_IconServices_aB00egF0VyAA08ModifiedD0VyAA5GroupVyACyAgCyAgMyAgA18_AspectRatioLayoutVGGGGAA06_FrameM0VGGGACyAyMy11Preferences24PSImageViewRepresentable33_9132337A427AF9C6C92E6201D80A6057LLVAWGGGAA0Q0HPAzAA6_HPAhAA6_HPyHC_AyAA6_HPyHCHC_A4_AAA6_HPAyAA6_HPyHC_A3_AAA6_HPA2_AAA6_HPyHC_AwA0Q8ModifierHPyHCHCHCHC.6
++ _objc_retain_x12
++ _swift_release_x27
++ _symbolic _____yAAy_____y_____G_____y_____y_____yAAyAcAyAcFyAC_____GGGG_____GGGAAyAoFy_____AMGGG 7SwiftUI19_ConditionalContentV AA10AsyncImageV AA0F0V 014_IconServices_aB00egF0V AA08ModifiedD0V AA5GroupV AA18_AspectRatioLayoutV AA06_FrameM0V 11Preferences24PSImageViewRepresentable33_9132337A427AF9C6C92E6201D80A6057LLV
++ _symbolic _____y_____AAyAB_____yAB_____GGG 7SwiftUI19_ConditionalContentV AA5ImageV AA08ModifiedD0V AA18_AspectRatioLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV
++ _symbolic _____y__________yAB_____GG 7SwiftUI19_ConditionalContentV AA5ImageV AA08ModifiedD0V AA18_AspectRatioLayoutV
++ _symbolic _____y_____y_____AByAC_____yAC_____GGGG 7SwiftUI5GroupV AA19_ConditionalContentV AA5ImageV AA08ModifiedE0V AA18_AspectRatioLayoutV
++ _symbolic _____y_____y_____G_____y_____y_____yAAyAcAyAcFyAC_____GGGG_____GGG 7SwiftUI19_ConditionalContentV AA10AsyncImageV AA0F0V 014_IconServices_aB00egF0V AA08ModifiedD0V AA5GroupV AA18_AspectRatioLayoutV AA06_FrameM0V
++ _symbolic _____y_____y_____G_____y_____y_____y_____yAcHyAcFyAC_____GGGG_____GG_G 7SwiftUI19_ConditionalContentV7StorageO AA10AsyncImageV AA0G0V 014_IconServices_aB00fhG0V AA08ModifiedD0V AA5GroupV AC AA18_AspectRatioLayoutV AA06_FrameN0V
++ _symbolic _____y_____y_____y_____ACyAdAyAD_____GGGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V
++ _symbolic _____y_____y_____y_____G_____y_____y_____yAByAdByAdGyAD_____GGGG_____GGGAByApGy_____ANGG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA10AsyncImageV AA0G0V 014_IconServices_aB00fhG0V AA08ModifiedD0V AA5GroupV AA18_AspectRatioLayoutV AA06_FrameN0V 11Preferences24PSImageViewRepresentable33_9132337A427AF9C6C92E6201D80A6057LLV
++ _symbolic _____y_____y_____y_____yAAy_____AAyAeCyAE_____GGGG_____GGACy_____AKGG 7SwiftUI19_ConditionalContentV 014_IconServices_aB005AsyncE5ImageV AA08ModifiedD0V AA5GroupV AA0H0V AA18_AspectRatioLayoutV AA06_FrameM0V 11Preferences24PSImageViewRepresentable33_9132337A427AF9C6C92E6201D80A6057LLV
++ _symbolic _____y_____y_____y_____y_____ADyAeByAE_____GGGG_____GG 21_IconServices_SwiftUI05AsyncA5ImageV 0cD015ModifiedContentV AD5GroupV AD012_ConditionalH0V AD0F0V AD18_AspectRatioLayoutV AD06_FrameM0V
++ _symbolic _____y_____y_____y_____y_____y_____AEyAfCyAF_____GGGG_____GGACy_____ALG_G 7SwiftUI19_ConditionalContentV7StorageO 014_IconServices_aB005AsyncF5ImageV AA08ModifiedD0V AA5GroupV AC AA0I0V AA18_AspectRatioLayoutV AA06_FrameN0V 11Preferences24PSImageViewRepresentable33_9132337A427AF9C6C92E6201D80A6057LLV
+- _OUTLINED_FUNCTION_59
+- ___116-[PSCoreSpotlightIndexer reindexSpecifiersIfNeeded:bundle:withURLPrefix:waitForCompletion:setHasIndexed:completion:]_block_invoke.351
+- ___116-[PSCoreSpotlightIndexer reindexSpecifiersIfNeeded:bundle:withURLPrefix:waitForCompletion:setHasIndexed:completion:]_block_invoke.352
+- ___116-[PSCoreSpotlightIndexer reindexSpecifiersIfNeeded:bundle:withURLPrefix:waitForCompletion:setHasIndexed:completion:]_block_invoke.353
+- ___117-[PSCoreSpotlightIndexer private_indexManifestBundlesAtURLs:skippingBundles:skippingManifests:dryRun:withCompletion:]_block_invoke.315
+- ___117-[PSCoreSpotlightIndexer private_indexManifestBundlesAtURLs:skippingBundles:skippingManifests:dryRun:withCompletion:]_block_invoke.316
+- ___117-[PSCoreSpotlightIndexer private_indexManifestBundlesAtURLs:skippingBundles:skippingManifests:dryRun:withCompletion:]_block_invoke.328
+- ___117-[PSCoreSpotlightIndexer private_indexManifestBundlesAtURLs:skippingBundles:skippingManifests:dryRun:withCompletion:]_block_invoke_2.329
+- ___34-[DevicePINController pinEntered:]_block_invoke.226
+- ___41-[DevicePINController setPIN:completion:]_block_invoke.161
+- ___49-[__PSAccessoriesListController refreshDADevices]_block_invoke.181
+- ___54-[PSSystemPolicyForApp setPrivacyAccess:forSpecifier:]_block_invoke.505
+- ___54-[PSSystemPolicyForApp setPrivacyAccess:forSpecifier:]_block_invoke_2.510
+- ___56-[PSAccountsClientListController updateAccountSpecifier]_block_invoke.73
+- ___56-[PSAccountsClientListController updateAccountSpecifier]_block_invoke.95
+- ___56-[PSAccountsClientListController updateAccountSpecifier]_block_invoke.97
+- ___62-[PSURLManager processURL:animated:fromSearch:withCompletion:]_block_invoke.180
+- ___62-[PSURLManager processURL:animated:fromSearch:withCompletion:]_block_invoke.68
+- ___62-[PSURLManager processURL:animated:fromSearch:withCompletion:]_block_invoke.73
+- ___64+[PSSystemPolicyManager _cellularDataSettingsNeededForBundleID:]_block_invoke.81
+- ___67-[PSCoreSpotlightIndexer indexThirdPartyAppsWithPrefix:completion:]_block_invoke.443
+- ___67-[PSCoreSpotlightIndexer indexThirdPartyAppsWithPrefix:completion:]_block_invoke.444
+- ___72-[PSAppleIDSplashViewController didFinishAuthWithContext:results:error:]_block_invoke.195
+- ___75+[PSCalendarPolicyController setCalendarAccessForApp:toValue:shouldPrompt:]_block_invoke.121
+- ___76-[PSPhotosPolicyController setTCCForService:appIdentifier:value:completion:]_block_invoke.204
+- ___91-[PSKeychainSyncManager promptForDevicePasscodeChangeToPasscode:overController:completion:]_block_invoke.199
+- ___91-[PSKeychainSyncManager promptForDevicePasscodeChangeToPasscode:overController:completion:]_block_invoke_2.209
+- ___block_literal_global.110
+- ___block_literal_global.120
+- ___block_literal_global.121
+- ___block_literal_global.160
+- ___block_literal_global.203
+- ___block_literal_global.208
+- ___block_literal_global.216
+- ___block_literal_global.219
+- ___block_literal_global.224
+- ___block_literal_global.237
+- ___block_literal_global.242
+- ___block_literal_global.244
+- ___block_literal_global.264
+- ___block_literal_global.272
+- ___block_literal_global.296
+- ___block_literal_global.341
+- ___block_literal_global.350
+- ___block_literal_global.354
+- ___block_literal_global.449
+- ___block_literal_global.457
+- ___block_literal_global.470
+- ___block_literal_global.52
+- ___block_literal_global.54
+- ___block_literal_global.56
+- ___block_literal_global.575
+- ___block_literal_global.643
+- ___block_literal_global.659
+- ___block_literal_global.66
+- ___block_literal_global.70
+- ___block_literal_global.76
+- ___block_literal_global.79
+- ___block_literal_global.80
+- ___block_literal_global.83
+- ___block_literal_global.958
+- ___block_literal_global.963
+- ___block_literal_global.998
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA10AsyncImageVyAA0F0VG014_IconServices_aB00egF0VyACyAA08ModifiedD0VyAgA12_FrameLayoutVGACyA2GGGGGACyAsMy11Preferences24PSImageViewRepresentable33_9132337A427AF9C6C92E6201D80A6057LLVAOGGGAA0N0HPAtAA0_HPAhAA0_HPyHC_AsAA0_HPyHCHC_AzAA0_HPAsAA0_HPyHC_AyAA0_HPAxAA0_HPyHC_AoA0N8ModifierHPyHCHCHCHC.6
+- _objc_retain_x13
+- _symbolic _____yAAy_____y_____G_____yAAy_____yAC_____GAAyA2CGGGGAAyAkFy_____AGGGG 7SwiftUI19_ConditionalContentV AA10AsyncImageV AA0F0V 014_IconServices_aB00egF0V AA08ModifiedD0V AA12_FrameLayoutV 11Preferences24PSImageViewRepresentable33_9132337A427AF9C6C92E6201D80A6057LLV
+- _symbolic _____y_____ABG 7SwiftUI19_ConditionalContentV AA5ImageV
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA12_FrameLayoutV
+- _symbolic _____y_____yAAy_____y__________GAAyA2DGGGACy_____AEGG 7SwiftUI19_ConditionalContentV 014_IconServices_aB005AsyncE5ImageV AA08ModifiedD0V AA0H0V AA12_FrameLayoutV 11Preferences24PSImageViewRepresentable33_9132337A427AF9C6C92E6201D80A6057LLV
+- _symbolic _____y_____y_____G_____yAAy_____yAC_____GAAyA2CGGGG 7SwiftUI19_ConditionalContentV AA10AsyncImageV AA0F0V 014_IconServices_aB00egF0V AA08ModifiedD0V AA12_FrameLayoutV
+- _symbolic _____y_____y_____G_____y_____y_____yAC_____GAFyA2CGGG_G 7SwiftUI19_ConditionalContentV7StorageO AA10AsyncImageV AA0G0V 014_IconServices_aB00fhG0V AC AA08ModifiedD0V AA12_FrameLayoutV
+- _symbolic _____y_____y__________GAAyA2CGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA12_FrameLayoutV
+- _symbolic _____y_____y_____y_____G_____yABy_____yAD_____GAByA2DGGGGAByAlGy_____AHGG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA10AsyncImageV AA0G0V 014_IconServices_aB00fhG0V AA08ModifiedD0V AA12_FrameLayoutV 11Preferences24PSImageViewRepresentable33_9132337A427AF9C6C92E6201D80A6057LLV
+- _symbolic _____y_____y_____y__________GAByA2DGGG 21_IconServices_SwiftUI05AsyncA5ImageV 0cD019_ConditionalContentV AD08ModifiedH0V AD0F0V AD12_FrameLayoutV
+- _symbolic _____y_____y_____y_____y__________GACyA2EGGGADy_____AFG_G 7SwiftUI19_ConditionalContentV7StorageO 014_IconServices_aB005AsyncF5ImageV AC AA08ModifiedD0V AA0I0V AA12_FrameLayoutV 11Preferences24PSImageViewRepresentable33_9132337A427AF9C6C92E6201D80A6057LLV
+
+```

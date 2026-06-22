@@ -1,0 +1,148 @@
+## SpringBoardUIServices
+
+> `/System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices`
+
+```diff
+
+-4615.3.107.0.0
+-  __TEXT.__text: 0xa19f4 sha256:75526251c946c5b49a7371f16cb58e721dc9f3156ea69dce15d45367356529e6
+-  __TEXT.__objc_methlist: 0xe5b4 sha256:ffd4b82b4769a77c7446e1f8532540c4b4cc478acc152914fda89a312d2db16c
+-  __TEXT.__const: 0xae0 sha256:20a5a3f33b9fc75e6b0926b8151ecd721b6deb9e0e7e0f5526e52ad9da7b282f
+-  __TEXT.__gcc_except_tab: 0x994 sha256:442a7f8817ac737bf427b066131ba0cfdf4f1d4117fd681ff41d51eeff726e0e
+-  __TEXT.__cstring: 0xab02 sha256:f1d957169cad7a8d6d2176f1ac304ffdbad273f8fb823cb0ee11dca217fe2424
++4621.0.0.0.0
++  __TEXT.__text: 0xa215c sha256:2fc68e9728cd92e8c702390ee8d171d4b8ab3be0ef045762dd87c5156d7223a4
++  __TEXT.__objc_methlist: 0xe67c sha256:9ed2c08ad318fb97be470aff2d798ce5f336869d79b54d696d7d45ddf43251fb
++  __TEXT.__const: 0xae0 sha256:bec6fa5e5fcf09abc5080cc51e37e6297f9caf45865379fe74221c200a8584fc
++  __TEXT.__gcc_except_tab: 0x988 sha256:01fb3f4bd2e9fca2d3b53838cf9ee3377c575b38a1363daa5e750d0b4549811a
++  __TEXT.__cstring: 0xac2f sha256:921b3c27f6629da427a962b42ca3eb4121101b429b8c29ad8106e1f72da12143
+   __TEXT.__dlopen_cstrs: 0x42e sha256:09f1803c1ddabe93e1b874e4216447c0590e6e13dee92a3dd53ba03c563f0431
+   __TEXT.__ustring: 0x4 sha256:709eddfc631541f3ecea46e733bbf3043279bddfb51fdfd7be60efbc2714537e
+-  __TEXT.__oslogstring: 0x4742 sha256:f9f5db57ea20d222e436777df29100c54cfc9b76f9a606a2aa31ea6bc31c957e
+-  __TEXT.__unwind_info: 0x3220 sha256:ea3e2864b0e72fc4ad16001ac9b8db5c329c35a5aeaa5ea40374de75b1bfec49
++  __TEXT.__oslogstring: 0x4771 sha256:ea76639ae3e1973261e1c7b8da25fee9d18925d0881a7e971a0f4bfb878440e1
++  __TEXT.__unwind_info: 0x3260 sha256:605149c4eaa4fd82b088492ce96dd8efac0284b549eec331087a670705b7ec51
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2c00 sha256:f53b2aecd91cf2783c756dcddad5a614ca9377b14068822f1535ed926125f84e
+-  __DATA_CONST.__objc_classlist: 0x978 sha256:7dd5e43d9f91279df51d3ecb339fe949a9bad83b9d4cbc61a20da01fc8af116a
+-  __DATA_CONST.__objc_catlist: 0xd0 sha256:d12237638eaf229755ba2fabc5cf43923e49486a253598bd8268f131a630dd1f
+-  __DATA_CONST.__objc_protolist: 0x4a8 sha256:ca3c4d9a66e4c215bcad3de5523f0096675ab4cf7a66bbe3668708c5f9c167d5
++  __DATA_CONST.__const: 0x2be8 sha256:ab78441a42752303c5cc32039aef5a422511597c6bfc0321201ed48c426453f4
++  __DATA_CONST.__objc_classlist: 0x990 sha256:2674754892b090244583f35716129c7be0a4b841d69f3f356703998cd3e278c4
++  __DATA_CONST.__objc_catlist: 0xd8 sha256:b51f745e3a4f5c0dc88fae39948d88336fd7abd93b834eb01a32f076306b2a74
++  __DATA_CONST.__objc_protolist: 0x4a8 sha256:7ab04d134db9c9df500ff37a0ba6c31b57eeb1244410d16fc5afeafd7e55ba8a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x7c00 sha256:c669cfe4e7e29c518c15715c602a22e5cc7e797252419821e9794c079934e0fb
+-  __DATA_CONST.__objc_protorefs: 0x140 sha256:d4343deeb480e3f64efe7b2cf1f18a1f773d818efa2b75a612d30caba15298f3
+-  __DATA_CONST.__objc_superrefs: 0x5e8 sha256:be4e3fd1ce10c72bdde8e6b81ffb85ed07d35c88db30edbe3b56bad5471a98ec
+-  __DATA_CONST.__objc_arraydata: 0xe0 sha256:98d577fa2c3161e280696f3188001ad6ebfd01c422c69e8aaf4186f794b6a3fb
+-  __DATA_CONST.__got: 0x10a8 sha256:e2ea13b792491432cef5ff3054ae5c367505ec1dea8c7e2f7b467cfe5da4bf03
+-  __AUTH_CONST.__const: 0x9a0 sha256:6b7b8c5d00c6d109a0a0aaf869ef1daf5a70fa2540513d25758eb578960d71ea
+-  __AUTH_CONST.__cfstring: 0xa1e0 sha256:ca784e33edad62cd3e27146beb12d28c78a16edbb88e2c6f8441d83e082232bc
+-  __AUTH_CONST.__objc_const: 0x2d7c8 sha256:b29fd69ec048bc7410e1f98c12774ea044ecb6db896d268b13944edef87798ac
+-  __AUTH_CONST.__objc_doubleobj: 0x160 sha256:752c736a36ba8512d7f889a67755b2921cb8bdacb9e4732a154f22649c03e4fc
+-  __AUTH_CONST.__objc_floatobj: 0x10 sha256:b376de2e9cf8bb9d3323ed374792804dcfb5fb686ef86a892209b4372350f7a6
+-  __AUTH_CONST.__objc_intobj: 0x168 sha256:0433fbde21b5387b9b894d6f5fc656a44e1e7111c058015296461e59341219ed
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:c0be8d6386fe7d7bdf77df6f867cbe31641c99bbba2622194e614380a1f39022
+-  __AUTH_CONST.__objc_arrayobj: 0x108 sha256:644a9eae2421e9dbfa71589754016a0920f21afd42c34e6b4facd24c020c0618
++  __DATA_CONST.__objc_selrefs: 0x7c50 sha256:d619813ea520be8d695235033b896a7dc5c503653d4ffd2106e3b992d261aac7
++  __DATA_CONST.__objc_protorefs: 0x140 sha256:14ba6847147a895bb211b3b7c05b469ee13803042fdac0b552686da5d9c678e6
++  __DATA_CONST.__objc_superrefs: 0x5f0 sha256:64016aae7676f7392938c89d6c2207445855c51f7094a4079fa1ab41441372d5
++  __DATA_CONST.__objc_arraydata: 0xe0 sha256:9c6d3e52fe1abe7f0b4295e668a36d6ed72e2a95371f840166f886264a6c1c1d
++  __DATA_CONST.__got: 0x10c0 sha256:2c80c14c496f1d0d37f5dcab8727e819a5ea03e57d0fca308f6ae74539991531
++  __AUTH_CONST.__const: 0x9c0 sha256:e7ca0aa60fc14f2a251883845854ba163e80369e6afab4567eb8f4bb219e842e
++  __AUTH_CONST.__cfstring: 0xa280 sha256:7aedf432860dc7ac301d72bb9efeafdc57c305d04828c02a6f89ffcce645fc88
++  __AUTH_CONST.__objc_const: 0x2d9f0 sha256:7f22e91ac85485940b456022d7a96c82df9ae7ee931edf423e9900d476e70c96
++  __AUTH_CONST.__objc_doubleobj: 0x160 sha256:d4aa680bff5ea8cc196febe5b41f7cfe67f7f8110920f96c019722b8b670d052
++  __AUTH_CONST.__objc_floatobj: 0x10 sha256:6ded28b8a51a3e292905ae38d3733608bdce3fa4958d7c0d076c2b981768b2bf
++  __AUTH_CONST.__objc_intobj: 0x168 sha256:105b390983902f7cd195e9cad980a02695f1204e6d59c263225f6fb47efe6758
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:41412bcebe4fac763287b174d92d7646b843ad271a50dd340421fe3d8a2767a9
++  __AUTH_CONST.__objc_arrayobj: 0x108 sha256:536ae0f55803a616f9ecaead8b1c2a1e40a8dff7a5dbbc10a8bfc0640a922bc7
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x5230 sha256:dd4404d3519b9069260ae5dc3a2ac2360a23acd5b4f686a7626955400f8518c5
++  __AUTH.__objc_data: 0x5320 sha256:1f6bf10fe8073746ad3f62e2a04f6ed23ccc65cc88229f9c1e073b62c5ee3746
+   __DATA.__objc_ivar: 0xd30 sha256:90c1a08c8a945d41f5bb22cc37c2f60dc378866083b4be75d8688e8da1e092fe
+-  __DATA.__data: 0x3810 sha256:2524db47f441b52cdfd1f2a72243242cc73c86a22d68bfac0f1f27fc36f601a7
+-  __DATA.__bss: 0x3e0 sha256:5f51d9e57c051cc516388346d860976bff3531da9561f6570c19b2ca2da48eab
+-  __DATA_DIRTY.__objc_data: 0xc80 sha256:b232d2f5447a14e72cd2eaaf0dd164ec78e88d09c196dc65aab173b945cabb59
++  __DATA.__data: 0x3810 sha256:83ef9b17fabe4341a1ce95bf36fd3a8f8510029d19c8ae41bc0e6e7cabad5962
++  __DATA.__bss: 0x3e8 sha256:541b3e9daa09b20bf85fa273e5cbd3e80185aa4ec298e765db87742b70138a53
++  __DATA_DIRTY.__objc_data: 0xc80 sha256:cb7de53064fcb133219b4474f40985b3fd56567891b9d24d4ff1a895bcc45f21
+   __DATA_DIRTY.__data: 0x8 sha256:72a4fa3544e43a836ffcb268ce06ccdbc55d44d5e6b1b1c19216a53ea98301fd
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AB3FE984-77E4-3446-BFD0-3C69D7416848
+-  Functions: 4744
+-  Symbols:   17861
+-  CStrings:  3106
++  UUID: 9A512AC9-1507-31F5-AEF3-618F6EC3C765
++  Functions: 4761
++  Symbols:   17927
++  CStrings:  3117
+ 
+Symbols:
++ +[SBSUIAXUIServerReachabilityDisablingSceneExtension clientSettingsExtensions]
++ +[SBSUIAXUIServerReachabilityDisablingSceneExtension hostComponents]
++ +[SBSUIAXUIServerReachabilityDisablingSceneExtension isSupportedForScene:]
++ -[FBScene(SBSUIAXUIServerReachabilityDisabling) reachabilityDisablingFeaturePolicyHostComponent]
++ -[FBScene(SBSUIAXUIServerReachabilityDisabling) reachabilityDisablingFeaturePolicyHostComponent].cold.1
++ -[FBScene(SBSUIAXUIServerReachabilityDisabling) reachabilityDisablingFeaturePolicyHostComponent].cold.2
++ -[SBSUIAXUIServerReachabilityDisablingSceneRequestBuilder _customizeWorkspaceRequestOptions:usingRequest:]
++ -[SBSUIAXUIServerReachabilityDisablingSceneRequestBuilder _specification]
++ -[SBSUIAXUIServerReachabilityDisablingSceneSpecification defaultExtensions]
++ -[SBSUIAXUIServerReachabilityDisablingSceneSpecification uiSceneSessionRole]
++ -[SBSUIAXUIServerReachabilityDisablingSceneSpecification uiSceneSessionRole].cold.1
++ -[SBUIBiometricResource _applyStrictTouchCoverageForAssertion:]
++ -[SBUIPresentationBinderIndirectAccessHostingSceneSpecification allowsHostedSoftwareKeyboard]
++ -[SBUISystemApertureCurtainEmbeddedSceneSpecification allowsHostedSoftwareKeyboard]
++ -[SBUISystemApertureEmbeddedSceneSpecification allowsHostedSoftwareKeyboard]
++ _OBJC_CLASS_$_FBScene
++ _OBJC_CLASS_$_SBSUIAXUIServerReachabilityDisablingSceneExtension
++ _OBJC_CLASS_$_SBSUIAXUIServerReachabilityDisablingSceneRequestBuilder
++ _OBJC_CLASS_$_SBSUIAXUIServerReachabilityDisablingSceneSpecification
++ _OBJC_METACLASS_$_SBSUIAXUIServerReachabilityDisablingSceneExtension
++ _OBJC_METACLASS_$_SBSUIAXUIServerReachabilityDisablingSceneRequestBuilder
++ _OBJC_METACLASS_$_SBSUIAXUIServerReachabilityDisablingSceneSpecification
++ _SBSUIWindowSceneSessionRoleAXUIServerReachabilityDisablingScene
++ __OBJC_$_CATEGORY_FBScene_$_SBSUIAXUIServerReachabilityDisabling
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_FBScene_$_SBSUIAXUIServerReachabilityDisabling
++ __OBJC_$_CLASS_METHODS_SBSUIAXUIServerReachabilityDisablingSceneExtension
++ __OBJC_$_INSTANCE_METHODS_SBSUIAXUIServerReachabilityDisablingSceneRequestBuilder
++ __OBJC_$_INSTANCE_METHODS_SBSUIAXUIServerReachabilityDisablingSceneSpecification
++ __OBJC_$_PROP_LIST_FBScene_$_SBSUIAXUIServerReachabilityDisabling
++ __OBJC_$_PROP_LIST_SBUIBiometricResource.359
++ __OBJC_CLASS_RO_$_SBSUIAXUIServerReachabilityDisablingSceneExtension
++ __OBJC_CLASS_RO_$_SBSUIAXUIServerReachabilityDisablingSceneRequestBuilder
++ __OBJC_CLASS_RO_$_SBSUIAXUIServerReachabilityDisablingSceneSpecification
++ __OBJC_METACLASS_RO_$_SBSUIAXUIServerReachabilityDisablingSceneExtension
++ __OBJC_METACLASS_RO_$_SBSUIAXUIServerReachabilityDisablingSceneRequestBuilder
++ __OBJC_METACLASS_RO_$_SBSUIAXUIServerReachabilityDisablingSceneSpecification
++ ___76-[SBSUIAXUIServerReachabilityDisablingSceneSpecification uiSceneSessionRole]_block_invoke
++ ___block_descriptor_97_e8_32s40s48s56s64s72s80s_e73_v24?0"UIMutableApplicationSceneSettings"8"FBSSceneTransitionContext"16ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
++ _objc_msgSend$_applyStrictTouchCoverageForAssertion:
++ _objc_msgSend$definition
++ _objc_msgSend$isSupportedForScene:
++ _objc_msgSend$resizedDisplayConfiguration
++ _objc_msgSend$setDisplayConfiguration:
++ _objc_msgSend$setRequireStrictCoverage:
++ _objc_msgSend$specification
++ _objc_msgSend$uiSceneSessionRole
+- __OBJC_$_PROP_LIST_SBUIBiometricResource.355
+- ___block_descriptor_89_e8_32s40s48s56s64s72s_e73_v24?0"UIMutableApplicationSceneSettings"8"FBSSceneTransitionContext"16ls32l8s40l8s48l8s56l8s64l8s72l8
+CStrings:
++ "BKMatchTouchIDOperation"
++ "Incorrectly tried to retrieve reachabilityDisablingFeaturePolicyHostComponent"
++ "SBSUIAXUIServerReachabilityDisablingSceneSpecification.m"
++ "SBSUIWindowSceneSessionRoleAXUIServerReachabilityDisablingScene"
++ "TouchID operation required coverage set to: %@"
++ "Unexpectedly missing feature policy host component for scene that required it"
+
+```

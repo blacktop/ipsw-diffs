@@ -1,0 +1,44 @@
+## libsqlite3.dylib
+
+> `/usr/lib/libsqlite3.dylib`
+
+```diff
+
+-401.0.0.0.0
+-  __TEXT.__text: 0x19e19c sha256:2ea8d355a6f428ebbef5d9dbdc06e2e7fb9a4760db5b468e2e8d7ac0e778042e
+-  __TEXT.__const: 0x8774 sha256:6a172bd15e9820b4ea539898ed7ccf027bae231de7ed281ac4aba6699ff9067f
++402.0.0.0.0
++  __TEXT.__text: 0x19f7e4 sha256:6203dfc9a989fc95b89adaaf720a11fa4cacba48faf1209b0bb0c984b9623ae3
++  __TEXT.__const: 0x876c sha256:28a0b64a4171cd448ac470c182f3617cd5c72aa090262f46ab16761e60d9e95a
+   __TEXT.__cstring: 0xcec2 sha256:f5a3acbae02b091c56c76841903ddc17efff519a5414fcfc186d3148883ffe07
+   __TEXT.__oslogstring: 0x7c0 sha256:1145913275574e25ee3b4fbf413b1f0327ccb474cdfb482e960e232a13fc46a8
+-  __TEXT.__unwind_info: 0x1df0 sha256:02eb33e7cfe8829056731e7d49ab7b9cc0a157fb83f085757d305b7a81bb7302
++  __TEXT.__unwind_info: 0x1e20 sha256:e5d0967773a02417ac4d0b20f7cc78b57eec2a4c1770a9eb88ac697bb92941ed
++  __TEXT.__eh_frame: 0x48 sha256:bdc287562858b4728fb1e5fd5f53860bf14298640b6f850934a8b479dc539155
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x1e70 sha256:b9336f50d3eda2ecd636a6a434cf7157c3ef1651eda75c0be4d2d2a9116005d6
++  __DATA_CONST.__const: 0x1e70 sha256:9eff746e57586ab0fa94dee8809200ee0277b798f80ad9c27b6a8ac5d59a30e9
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x1230 sha256:78ceb90e04b04864d89f303ee49fc73db5c897f3200a94a8b47273b46f26788c
++  __AUTH_CONST.__const: 0x1230 sha256:e472633d8906378fdacd4e900231c5379171c89b754623c815dc08707479a242
+   __AUTH_CONST.__auth_got: 0x580 sha256:bffeeb2d12ba6108806a508082dee2f5ce23d1edeaf81acd4feb8c0d08038978
+-  __AUTH.__data: 0x878 sha256:2e884fa15fb6ecd4c0f12d69d2f652751329e1d55189f588cbe4241091aabe5a
+-  __DATA.__data: 0x190 sha256:cd7b72b0797809dd67ec9988a90cadc00f6b942d3c8a93ab5385bd5e54d863fe
++  __AUTH.__data: 0x878 sha256:facf7e1b1af270113236eab57fe1fc283c742ca5617cd7db7be8928d9b1f3852
++  __DATA.__data: 0x190 sha256:4dffd5414463e53d5d81b6ac89f54f8d2c49e831130a5f97f889fc964f6ce243
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+   __DATA.__bss: 0x2710 sha256:95b532cc4381affdff0d956e12520a04129ed49d37e154228368fe5621f0b9a2
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__data: 0x3f50 sha256:6ab5f8a4396b74c55d18214d4a4cacb0baec8c92ca15039983328c00f6d6bb46
++  __DATA_DIRTY.__data: 0x3f50 sha256:92689e9b14efd744b64cb97e7c750832b3f1e931059095f92931560610a6b565
+   __DATA_DIRTY.__bss: 0x2f8 sha256:4f30fcacbfd63bac8e76d8a4e97e451d48353631dfa7064250df934b872232f5
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 3A14C004-A1A2-3A04-AD4B-0AF4E19C1107
+-  Functions: 2532
++  UUID: 9244636F-1506-3E4E-AE7C-CE5950F72574
++  Functions: 2534
+   Symbols:   607
+   CStrings:  2399
+ 
+
+```

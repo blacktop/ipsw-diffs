@@ -1,0 +1,280 @@
+## riskdatad
+
+> `/usr/libexec/riskdatad`
+
+```diff
+
+-27.0.35.2.0
+-  __TEXT.__text: 0x33e28 sha256:b1b20b5643d3ddc97d2602ef44289b1a41030729383e063e507650e746bfaa2d
+-  __TEXT.__auth_stubs: 0x1a60 sha256:f9fab5e00f7df1b0b41d0ea332825d6329609a98484aeb2bffa609111307f997
+-  __TEXT.__objc_stubs: 0x3e0 sha256:0c35d2ad9c40de78eb7c4ad2b1372ec60d4bcef22585fe4f8ed1b54effa7bbd6
+-  __TEXT.__objc_methlist: 0x19c sha256:f9a6b2e5fdbf4692c36bf6d880ee244b8a1410e5231bc3ae293823129c4d111a
+-  __TEXT.__const: 0x21d8 sha256:b6a2a53a3776e9caae6230a8eddcfe52ea36b38323a121a7ec824f98112c6413
+-  __TEXT.__swift5_typeref: 0x9d6 sha256:402230700023468e3be59e56f30b08e623c6a6f3f12efaff9da295e3699e5347
+-  __TEXT.__cstring: 0x6a0 sha256:9aec240545c839a4f7ab5eb80805766c87518d5a05c01e0170bf883d734ce350
+-  __TEXT.__swift5_capture: 0x210 sha256:7ced10cd152edc7320e8c112146f76c64512d703d12f9bb598cd1a0bf28ead59
+-  __TEXT.__swift5_entry: 0x8 sha256:e24e7a82f366f9b08b2dacc9e057f5998941a9e21f30578c25c97d5605ae89b2
+-  __TEXT.__constg_swiftt: 0x66c sha256:7f6bd7ec3c76928730d89a92a9285de7239d54d0da765dee38c18b85da55d8da
+-  __TEXT.__swift5_builtin: 0x50 sha256:d45ec2dff9dde21e3dfd49d659908e55f3853603cbe7ffab8c3245bf65b3e373
++27.0.44.0.0
++  __TEXT.__text: 0x3bd94 sha256:03b487b081c933d7fc8e473c8c34c0b5938d20704282bd20ab6d3f0a8e27a68d
++  __TEXT.__auth_stubs: 0x1ce0 sha256:71a7d187166e1a4d9cec06c0b3336265c1f8fc0ca56558eda8b8b9c73239db23
++  __TEXT.__objc_stubs: 0x4c0 sha256:d22b17fc060259fb72849a2a10200dc3b7da812003de20f556e08f45a63109e2
++  __TEXT.__objc_methlist: 0x19c sha256:631026f677cc4dbd159c26c1a440c00882e7a554d8f945ab788ea544454548b5
++  __TEXT.__const: 0x2378 sha256:7f23dff22845c28e3a7e76431d9972c7e53c7d889de22b82cd6e5029ca85556b
++  __TEXT.__swift5_typeref: 0xaac sha256:8bc374854935fc5c8fcbf78d4c9a54a06b2a7696d3a8b52ac3a75b91c7bf53aa
++  __TEXT.__cstring: 0x890 sha256:299cb9dc442c0ee9db874ef104d7f713fa814e71b81d7c0cdc8116aeacae7e87
++  __TEXT.__swift5_capture: 0x2fc sha256:fd055ec51c88834abfec087ff018cf3558309881cdd8402c167955b904f7150c
++  __TEXT.__swift5_entry: 0x8 sha256:63510db5e77aab43d4d24ff7cad131baf065049d93d43c75857e236b17f72c62
++  __TEXT.__constg_swiftt: 0x6a4 sha256:8f7ad2659627229226872077585e16af4e995b1a71d3f8cc4f29c46278bd6396
++  __TEXT.__swift5_builtin: 0x50 sha256:c1e531d669e9eddbd00147ce68d3eab17ec274c6d4d61854d9c18e974b56db35
+   __TEXT.__swift5_reflstr: 0x45b sha256:203f7a2d9de5e9dcdb049e05cf296966a1186203bb24231e433d4ac46781e4dd
+-  __TEXT.__swift5_fieldmd: 0x4b8 sha256:2d2030611721b987aecd667175f58ee068f82d5cc523d0196297cb51ea85d299
+-  __TEXT.__swift5_assocty: 0x140 sha256:4951feae2215bc7923c6ad23d69488a2b410827eebd1ec56fac61f60ba1800fa
+-  __TEXT.__swift5_proto: 0x10c sha256:e4c3242195381e51c07fd73bf557629b1b6c2f1cc8b302c669db358fecfb9dbb
+-  __TEXT.__swift5_types: 0x58 sha256:c421a58fc394c88aeb8c7d70c0bf2dc4839771e606a2c9c50a4d0ace70280182
++  __TEXT.__swift5_fieldmd: 0x4b8 sha256:f17d3f77b55d40d5ad575409c9e87bfc8fed66d97fb40b6b101717d3e0350967
++  __TEXT.__swift5_assocty: 0x140 sha256:d548385a5ba5cb8110a8b460d582343866474f3aa9732faead0e2e716ed2050f
++  __TEXT.__swift5_proto: 0x10c sha256:38349cea7426752c26cde40de74f3b1734492217d03b02ba660762fe626ae548
++  __TEXT.__swift5_types: 0x58 sha256:e490f04204efbc883bf616a8a821ec4a65b0e637f282be05062176c27a5fd485
+   __TEXT.__objc_classname: 0x208 sha256:b25483782517382467e3e640f5386f8a592ce145ee645c0732b88c59ec1174d4
+-  __TEXT.__objc_methname: 0x6f1 sha256:9c854ffc7cdef48e55c4cc91331215d5de53acf6955467b1b83faf50c5d9b5b0
+-  __TEXT.__objc_methtype: 0x32e sha256:88d0a4e103202627f4951d1fbd52e83b0026d621fedfbe3a1c7a53f8bed925b3
+-  __TEXT.__swift_as_entry: 0x15c sha256:5ae69d9d51f2746b3a6aa48568e4c239a38291002e254439b3435981c47a9b36
+-  __TEXT.__swift_as_ret: 0x17c sha256:0a681ffe8b55e6a9eb41a5425ef3d040f40111c36dd637c204179043b51c061c
+-  __TEXT.__swift_as_cont: 0x338 sha256:f981a4a84c4c0a2289ceb98405202142d48b3d6d520dbff69dcbaa38e200c413
+-  __TEXT.__oslogstring: 0x5f0 sha256:27d27cc3375a8c783267c0213e3bc1886de50611c44f555937d9f74dd743839b
+-  __TEXT.__swift5_protos: 0x8 sha256:c0c2088951e0b5a7faec6c8404d35d1934632f1616a65b051fcac1f0c2bff86b
+-  __TEXT.__swift5_acfuncs: 0x12c sha256:edf4d92ea30dc9bf7c80634d219a62698317f31ea8b54194a75eb57d4b861578
+-  __TEXT.__unwind_info: 0xe88 sha256:419b435f447ebb3d17f523c04c88e526be37118ae61f4e5f9d38379c2c70c606
+-  __TEXT.__eh_frame: 0x2de0 sha256:330076744d38e6491f360863f1e6ee910868be006f39279c4816d0bedcb08cad
+-  __DATA_CONST.__const: 0xb08 sha256:bc7892e21e426fa812ff98f60f42baa158ee5a68180d2c7e3e066d33f63cff2c
+-  __DATA_CONST.__objc_classlist: 0x40 sha256:34a4f4ae8b7d71b6efc6702b7ada6d2c8f778b7633154832746e9734cea8fcd7
+-  __DATA_CONST.__objc_protolist: 0x48 sha256:42f20b3ca639f64e943ad0e442aa7492155eb4931c43c77c841a9323501972a2
++  __TEXT.__objc_methname: 0x791 sha256:90ce1fc7f5c1d6a083b78a58e7baf20922e81f91cf3eb85b66b41d9c781cb492
++  __TEXT.__objc_methtype: 0x35e sha256:fa9b14533ee4079c5f4b583cb5234287f06dc79e081c5ced928288fd7fb6b63b
++  __TEXT.__swift_as_entry: 0x180 sha256:e3fe75c4e159f225ad829740a7b91546cbc495c61c77eae270d1f104e0a05864
++  __TEXT.__swift_as_ret: 0x1a8 sha256:b9b72b3fa73861ca777357172396f8bb39662eecdd38e945b69c7dbeff6124d8
++  __TEXT.__swift_as_cont: 0x37c sha256:afe0e5eb3678c99a2e9504622b055d910a51c6056de955de27e039e90339dcd0
++  __TEXT.__oslogstring: 0x680 sha256:60abeedbcb4dd08e57b561360703c478fb008aa6d010c4cafe58401f7234a543
++  __TEXT.__swift5_protos: 0x8 sha256:6bb9347a9bf9c665abd0285ee10e6f2d8e5134a721446853bda9490f54861bf9
++  __TEXT.__swift5_acfuncs: 0x140 sha256:b2f25fbab81f0fbf61b03c8ebfb1163aa9c5fb43fc041fcdc9c7ee810ea2eaaf
++  __TEXT.__unwind_info: 0xfd8 sha256:a79904ea3c8a04bb85315aa2d1ea5f9c8fde395d84e00cd150804eff8494a0b9
++  __TEXT.__eh_frame: 0x3188 sha256:ccc7ed2a793e2252f8b0a6b4b770d962122c6b0c737b80d286fe61e8c3c0d89c
++  __DATA_CONST.__const: 0xe40 sha256:c146e1a895019b8a28fd6ea6275c8005f04c68901337d35dce366c8cf6483dc6
++  __DATA_CONST.__objc_classlist: 0x40 sha256:9d869378ee85bd9bf6aab254d62068f6ee6d566658d54354cc332c27fc71cda9
++  __DATA_CONST.__objc_protolist: 0x48 sha256:6ca2ae44ee72690cb6dba180486122d124399933073fe241b277cd04b7e0f50f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0x28 sha256:a4b1580907c3c3ce0ee511f4743affd366767be2fc59a5c65b5eed0c10ef7cf0
+-  __DATA_CONST.__auth_got: 0xd38 sha256:8dbbd183a3ec99a1392badabe694cfbf747020fd218d4fab3f0f23e34850ffba
+-  __DATA_CONST.__got: 0x550 sha256:215f2fe8685e59fcd41b0fbb5545cf031a2711ee066bddb0d751ee333f053dc1
+-  __DATA_CONST.__auth_ptr: 0x490 sha256:2c1b283edf0662e5f5772331345b02428abe0af85670e205dcd1d2cfac447a16
+-  __DATA.__objc_const: 0xa18 sha256:b6bdf4b796f45e4bf0a3ee4985bf158f31ef708034d7f5ec88028475d8a87e57
+-  __DATA.__objc_selrefs: 0x1b8 sha256:655710e034e1a181dc51e3fe8c9b52396ef7712bf44cceffa2fc005bc14b9f8f
+-  __DATA.__objc_data: 0x280 sha256:f874e295cfa350294962327f577689e61ba065b1934ca482fab21ba71c429648
+-  __DATA.__data: 0x1198 sha256:3b8e16bb1abfb487894681fd0a21bdfd00882a02144d89a57a5b3dedbbc7594d
++  __DATA_CONST.__objc_protorefs: 0x28 sha256:385e0267ba338145e2982c4c8c6852a95f25601cd0524e04184332e6fe04ddd5
++  __DATA_CONST.__auth_got: 0xe78 sha256:8367a61635ad7e8bbb89e0f822cc0017da75e2b5aa639d2cf69007672a41d441
++  __DATA_CONST.__got: 0x618 sha256:9e8dade83d08af712f724a8735d6a6ddbf31cc6bd125202456213257995c6e03
++  __DATA_CONST.__auth_ptr: 0x4c8 sha256:2fc3868cea330dfb473fbdad1f24e1005a005698282f4201a7955ed010fc59e6
++  __DATA.__objc_const: 0xa18 sha256:27f0acddaced2784aa43d383f87ce2ad5b631f739bfb589bbbc6c0526da1ec80
++  __DATA.__objc_selrefs: 0x1f0 sha256:5f5ccff19560f80b5e00cb7ede9666144b0aa7abdc06f2c73644e44634ee9887
++  __DATA.__objc_data: 0x280 sha256:6dec4b2b0e81434e07c22c08084bb4edbc4ce03f99e8462ee3305c4fa57260b9
++  __DATA.__data: 0x1298 sha256:2b6246f09c594590b932469b43c67308a11a70d9e90b05d46287c76a199e6e15
+   __DATA.__common: 0x108 sha256:44b8aa4d28701168922acf61435ea4bb442f97b0b14ad7a2510ed68874ee2a72
+-  __DATA.__bss: 0x2100 sha256:3c1d175aea839e3f48e3d9c1908f8fe08f1bbe1fa64afeb42e8a64e842b36074
++  __DATA.__bss: 0x2100 sha256:7a70aeb26f86fca5927d5bff35a641d9954618d2434de8eb8d592cdfe1257ff7
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/LightweightCodeRequirements.framework/LightweightCodeRequirements
+   - /System/Library/Frameworks/TrustInsights.framework/TrustInsights
+
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+   - /System/Library/PrivateFrameworks/CBORLibrary.framework/CBORLibrary
++  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreODI.framework/CoreODI
+   - /System/Library/PrivateFrameworks/CoreODIEssentials.framework/CoreODIEssentials
++  - /System/Library/PrivateFrameworks/RegulatoryDomain.framework/RegulatoryDomain
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/XPCDistributed.framework/XPCDistributed
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 71F8B630-EAE7-36D6-BBFF-8A4138134719
+-  Functions: 848
+-  Symbols:   727
+-  CStrings:  205
++  UUID: BFDDDF60-AAAE-39B2-AEFE-8A7C71BB105C
++  Functions: 954
++  Symbols:   796
++  CStrings:  229
+ 
+Symbols:
++ _$s10Foundation4DataV19base64EncodedString7optionsSSSo27NSDataBase64EncodingOptionsV_tF
++ _$s17CoreODIEssentials0A9ODIConfigV19tIRestrictedRegionsSaySSGSgvg
++ _$s17CoreODIEssentials0A9ODIConfigVMa
++ _$s17CoreODIEssentials0A9ODILoggerV4info_8categoryySS_2os6LoggerVAAE11LogCategoryOtF
++ _$s17CoreODIEssentials10CallerInfoV12isForegroundSbvg
++ _$s17CoreODIEssentials10CallerInfoV7isAppleSbvg
++ _$s17CoreODIEssentials12DIPCertUsageO17trustInsightsProdyA2CmFWC
++ _$s17CoreODIEssentials12DIPCertUsageO20trustInsightsSandboxyA2CmFWC
++ _$s17CoreODIEssentials12DIPCertUsageO23assessmentServerSigningyA2CmFWC
++ _$s17CoreODIEssentials12DIPCertUsageOMa
++ _$s17CoreODIEssentials12DIPCertUsageOMn
++ _$s17CoreODIEssentials13COSEValidatorO12parsePayload4from10certUsages10Foundation4DataVAI_SayAA12DIPCertUsageOGtKFZ
++ _$s17CoreODIEssentials13ConfigManagerC6configAA0A9ODIConfigVvgTjTu
++ _$s17CoreODIEssentials13ConfigManagerC6sharedACvgZ
++ _$s17CoreODIEssentials13ConfigManagerCMa
++ _$s17CoreODIEssentials17ODIAccountManagerC6sharedAA0cD8Protocol_pvgZ
++ _$s17CoreODIEssentials17ODIAccountManagerCMa
++ _$s17CoreODIEssentials18ODISessionInternalC13getAssessmentSSyYaFTjTu
++ _$s17CoreODIEssentials18ODISessionInternalC15provideFeedback2onySS_tYaFTjTu
++ _$s17CoreODIEssentials18ODISessionInternalC15provideFeedback7outcomeySo14ODIOutcomeTypeV_tYaFTjTu
++ _$s17CoreODIEssentials18ODISessionInternalC17serviceIdentifier11forDSIDType9startDate14locationBundle011andLocationlF0ACSgSo20ODIServiceProviderIda_So11ODITypeOfIDV10Foundation0J0VSo8NSBundleCSgSSSgtcfC
++ _$s17CoreODIEssentials18ODISessionInternalC17serviceIdentifier7versionACSgSo20ODIServiceProviderIda_SStcfC
++ _$s17CoreODIEssentials18ODISessionInternalC17validateForDeinityyYaFTjTu
++ _$s17CoreODIEssentials18ODISessionInternalC19getAssessmentResultAA013ODIAssessmentG0OyYaFTjTu
++ _$s17CoreODIEssentials18ODISessionInternalC22trustedInsightsVersionSSvgTj
++ _$s17CoreODIEssentials18ODISessionInternalC32setPartialAssessmentUpdateTargetyy0A3ODI010ODIPartialG9Updatable_pFTj
++ _$s17CoreODIEssentials18ODISessionInternalC6update10attributesySDySo15ODIAttributeKeya0A3ODI18AnyODIKnownBindingVG_tYaFTjTu
++ _$s17CoreODIEssentials18ODISessionInternalCMa
++ _$s17CoreODIEssentials18ODISessionInternalCMn
++ _$s17CoreODIEssentials18ODISessionInternalCScAAAMc
++ _$s17CoreODIEssentials21ForegroundAppsMonitorC6sharedACvgZ
++ _$s17CoreODIEssentials21ForegroundAppsMonitorCMa
++ _$s17CoreODIEssentials25ODIAccountManagerProtocolP17iTunesAccountDSIDSSyYaKFTj
++ _$s17CoreODIEssentials25ODIAccountManagerProtocolP17iTunesAccountDSIDSSyYaKFTjTu
++ _$s7CoreODI12ConsentStateV6RecordV010PermissionD0O03minF5LevelyA2G_AGtFZ
++ _$s7CoreODI12ConsentStateV6RecordV010PermissionD0O12notPermittedyA2GmFWC
++ _$s7CoreODI12ConsentStateV6RecordV010PermissionD0O15permittedByUseryA2GmFWC
++ _$s7CoreODI12ConsentStateV6RecordV010PermissionD0O19permittedByCooldownyA2GmFWC
++ _$s7CoreODI12ConsentStateV6RecordV010PermissionD0OMa
++ _$s7CoreODI12ConsentStateV6RecordV010PermissionD0OMn
++ _$s7CoreODI12ConsentStateV6RecordV11isPermitted18orInCoolDownWindowAE010PermissionD0OSd_tF
++ _$s7CoreODI13ConsentUpdateV11toggleStateSbSgvg
++ _$s7CoreODI13ConsentUpdateV6OriginO8rawValueSivg
++ _$s7CoreODI13ConsentUpdateV6OriginOMa
++ _$s7CoreODI13ConsentUpdateV6OriginOMn
++ _$s7CoreODI13ConsentUpdateV6originAC6OriginOSgvg
++ _$s7CoreODI13ConsentUpdateV8bundleId10toggleName0G5State6originACSSSg_SSSbSgAC6OriginOSgtcfC
++ _$s7CoreODI16InsightResultDTOV4typeSSvg
++ _$s7CoreODI16InsightResultDTOV5valueSSSgvg
++ _$s7CoreODI16InsightResultDTOV7versionSSvg
++ _$s7CoreODI16InsightResultDTOVMa
++ _$s7CoreODI16InsightResultDTOVMn
++ _$s7CoreODI16InsightResultDTOVSEAAMc
++ _$s7CoreODI16InsightResultDTOVSeAAMc
++ _$s7CoreODI18AnyODIKnownBindingVMa
++ _$s7CoreODI18AnyODIKnownBindingVMn
++ _$s7CoreODI18AnyODIKnownBindingVSEAAMc
++ _$s7CoreODI18AnyODIKnownBindingVSeAAMc
++ _$s7CoreODI18EvaluationErrorDTOO32evaluationResultSignatureInvalidyA2CmFWC
++ _$s7CoreODI18InsightResponseDTOV14assessmentData016signedAssessmentG09isSandbox6teamIdAC10Foundation0G0V_AJSbSStcfC
++ _$s7CoreODI18OnDeviceAPIServiceP17submitConsumption14conversationId8statuses8insightsySS_SayAA07InsightG3DTOVGSayAA0l6ResultM0VGtYaFTq
++ _$s7CoreODI18OnDeviceAPIServiceP17submitConsumption14conversationId8statuses8insightsySS_SayAA07InsightG3DTOVGSayAA0l6ResultM0VGtYaKFTqTE
++ _$s7CoreODI21InsightConsumptionDTOV8feedbackSSvg
++ _$s7CoreODI22OnDeviceConsentServiceP17isPermittedRegionSbyYaFTq
++ _$s7CoreODI22OnDeviceConsentServiceP17isPermittedRegionSbyYaKFTqTE
++ _$s7CoreODI23RestrictedRegionMonitorC5ErrorO010restrictedD0yA2EmFWC
++ _$s7CoreODI23RestrictedRegionMonitorC5ErrorOMa
++ _$s7CoreODI23RestrictedRegionMonitorC5ErrorOsAdAMc
++ _$s7CoreODI26InsightAuthorizationStatusO16authorizedByUseryA2CmFWC
++ _$s7CoreODI26InsightAuthorizationStatusO20authorizedByCooldownyA2CmFWC
++ _$s7CoreODI26InsightAuthorizationStatusO8rawValueSivg
++ _$s7CoreODI26InsightAuthorizationStatusOSQAAMc
++ _$s7CoreODI26OnDeviceSPISessionProtocolP16updateAttributes8bindingsySDySo15ODIAttributeKeyaAA18AnyODIKnownBindingVG_tYaFTq
++ _$s7CoreODI26OnDeviceSPISessionProtocolP16updateAttributes8bindingsySDySo15ODIAttributeKeyaAA18AnyODIKnownBindingVG_tYaKFTqTE
++ _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
++ _$sSD11descriptionSSvg
++ _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
++ _$sSQ2eeoiySbx_xtFZTj
++ _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
++ _$sSayxGSKsMc
++ _$sSbSEsWP
++ _$sSbSesWP
++ _$sSh15minimumCapacityShyxGSi_tcfC
++ _$sSo8NSStringC10FoundationE13stringLiteralABs12StaticStringV_tcfC
++ _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
++ _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
++ _$ss11_SetStorageCMn
++ _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _AnalyticsSendEventLazy
++ _OBJC_CLASS_$_LSBundleRecord
++ _OBJC_CLASS_$_NSNumber
++ _OBJC_CLASS_$_NSObject
++ _OBJC_CLASS_$_NSString
++ _OBJC_CLASS_$_RDEstimate
++ _objc_autoreleaseReturnValue
++ _objc_release_x1
++ _objc_retain_x22
++ _objc_retain_x23
++ _objc_retain_x26
++ _swift_initStackObject
++ _swift_release_x9
++ _swift_retain_x25
++ _swift_setDeallocating
+- _$s17CoreODIEssentials13COSEValidatorO12parsePayload4from10Foundation4DataVAH_tKFZ
+- _$s17CoreODIEssentials18AnyODIKnownBindingVMa
+- _$s17CoreODIEssentials18AnyODIKnownBindingVMn
+- _$s17CoreODIEssentials18AnyODIKnownBindingVSEAAMc
+- _$s17CoreODIEssentials18AnyODIKnownBindingVSeAAMc
+- _$s7CoreODI12ConsentStateV6RecordV11isPermitted18orInCoolDownWindowSbSd_tF
+- _$s7CoreODI13ConsentUpdateV11toggleStateSbvg
+- _$s7CoreODI13ConsentUpdateV8bundleId10toggleName0G5StateACSSSg_SSSbtcfC
+- _$s7CoreODI18InsightResponseDTOV14assessmentData9isSandbox6teamIdAC10Foundation0G0V_SbSStcfC
+- _$s7CoreODI18ODISessionInternalC13getAssessmentSSyYaFTjTu
+- _$s7CoreODI18ODISessionInternalC15provideFeedback2onySS_tYaFTjTu
+- _$s7CoreODI18ODISessionInternalC15provideFeedback7outcomeySo14ODIOutcomeTypeV_tYaFTjTu
+- _$s7CoreODI18ODISessionInternalC17serviceIdentifier11forDSIDType9startDate14locationBundle011andLocationlF0ACSgSo20ODIServiceProviderIda_So11ODITypeOfIDV10Foundation0J0VSo8NSBundleCSgSSSgtcfC
+- _$s7CoreODI18ODISessionInternalC17serviceIdentifier7versionACSgSo20ODIServiceProviderIda_SStcfC
+- _$s7CoreODI18ODISessionInternalC17validateForDeinityyFTj
+- _$s7CoreODI18ODISessionInternalC19getAssessmentResult0A13ODIEssentials013ODIAssessmentG0OyYaFTjTu
+- _$s7CoreODI18ODISessionInternalC22trustedInsightsVersionSSvgTj
+- _$s7CoreODI18ODISessionInternalC32setPartialAssessmentUpdateTargetyyAA010ODIPartialG9Updatable_pFTj
+- _$s7CoreODI18ODISessionInternalC6update10attributesySDySo15ODIAttributeKeya0A13ODIEssentials18AnyODIKnownBindingVG_tYaFTjTu
+- _$s7CoreODI18ODISessionInternalCMa
+- _$s7CoreODI18ODISessionInternalCMn
+- _$s7CoreODI18ODISessionInternalCScAAAMc
+- _$s7CoreODI18OnDeviceAPIServiceP17submitConsumption14conversationId8statusesySS_SayAA07InsightG3DTOVGtYaFTq
+- _$s7CoreODI18OnDeviceAPIServiceP17submitConsumption14conversationId8statusesySS_SayAA07InsightG3DTOVGtYaKFTqTE
+- _$s7CoreODI23RestrictedRegionMonitorC11isPermittedSbyYaF
+- _$s7CoreODI23RestrictedRegionMonitorC11isPermittedSbyYaFTu
+- _$s7CoreODI23RestrictedRegionMonitorC18verifyUnrestrictedyyYaKF
+- _$s7CoreODI23RestrictedRegionMonitorC18verifyUnrestrictedyyYaKFTu
+- _$s7CoreODI23RestrictedRegionMonitorC6sharedACvgZ
+- _$s7CoreODI23RestrictedRegionMonitorCMa
+- _$s7CoreODI26InsightAuthorizationStatusO10authorizedyA2CmFWC
+- _$s7CoreODI26OnDeviceSPISessionProtocolP16updateAttributes8bindingsySDySo15ODIAttributeKeya0A13ODIEssentials18AnyODIKnownBindingVG_tYaFTq
+- _$s7CoreODI26OnDeviceSPISessionProtocolP16updateAttributes8bindingsySDySo15ODIAttributeKeya0A13ODIEssentials18AnyODIKnownBindingVG_tYaKFTqTE
+- _swift_release_x28
+CStrings:
++ "@\"NSDictionary\"8@?0"
++ "Failed to parse the received payload: %@"
++ "Global"
++ "Raw insights received: %s"
++ "Sending CoreAnalytics event for authorizationRequested: "
++ "Sending CoreAnalytics event for consentUpdated: %s"
++ "Sending CoreAnalytics event for usageFeedback: "
++ "appNotInForeground"
++ "authorizationStatus"
++ "authorizedByCooldown"
++ "bundleRecordWithBundleIdentifier:allowPlaceholder:error:"
++ "com.apple.TrustInsights.authorizationRequested"
++ "com.apple.TrustInsights.consentUpdated"
++ "com.apple.TrustInsights.usageFeedback"
++ "consumptionStatus"
++ "countryCode"
++ "currentEstimates"
++ "developerType"
++ "initWithBool:"
++ "initWithInteger:"
++ "regionNotPermitted"
++ "submitConsumptionError"
++ "teamIdentifier"
++ "unexpectedCurrentAuthorizationState"
+
+```

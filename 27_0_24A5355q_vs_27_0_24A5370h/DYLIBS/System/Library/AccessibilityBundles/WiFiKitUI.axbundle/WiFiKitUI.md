@@ -1,0 +1,92 @@
+## WiFiKitUI
+
+> `/System/Library/AccessibilityBundles/WiFiKitUI.axbundle/WiFiKitUI`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x109c sha256:8fa1d50b61d6879e4dac1b3da07f6b6e4bb99b32b07e591d71c01a3c224ad6af
+-  __TEXT.__objc_methlist: 0x1a8 sha256:2215a145a8f0d4509673aaf895204e67d47a54e67ba332d8a12531708e19d66e
++3039.1.0.0.0
++  __TEXT.__text: 0x109c sha256:389f1d77bc947cbe564ac32b89c19f8737605e2fdb4474a18b4d48ccb7e1709f
++  __TEXT.__objc_methlist: 0x1a8 sha256:82498f635f32bb1364fb00fb9e730d06092521bbb95d4b0eef71b05fbce4f947
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__gcc_except_tab: 0x1c sha256:3a14a76b81977577627c9ec1e5d90b00bfe3971a410f73a06a7c0b93a3a138b4
+   __TEXT.__cstring: 0x326 sha256:75b95a67f3e87fdcaf888ccaaf34dc85afaec3026b975605e4ecfe6b96fd2fc3
+-  __TEXT.__unwind_info: 0xd0 sha256:a1e2c56c7f34c2024329495d5b0a8d2bd41aa545b5dd1882f8f2ec7c6d8c728d
++  __TEXT.__unwind_info: 0xd0 sha256:ee8bd3e6360aec8a69a1aa1fcfcc2d4cf4c28921fc68adfc63389e3843441029
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x68 sha256:5682be6bd47f139d4df8d1e189f096c59a03f96370875ff008019a580acefc5e
+-  __DATA_CONST.__objc_classlist: 0x48 sha256:f376a2dca0ac5276b93d6e64407c20c78c83fcb00f9e7dd578fc317f4890bd7e
++  __DATA_CONST.__const: 0x68 sha256:5d3a03879bc8b93c9c4c94ea067802862ed90c20d80ab0efb8e76cf7a76e3b45
++  __DATA_CONST.__objc_classlist: 0x48 sha256:89875ebbf051d7c69b80dbba0d2c1b093910815fe86ec632e761df0e8b4d1157
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x120 sha256:4f0b57a1acc8784211f454b9e139040e3c7ee3e936bdac44a75d201d495770fe
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:a83c31ebb28fb53da3624e9d07ba8e218625c0b48e05b66170924ba500c269b2
+-  __DATA_CONST.__got: 0x40 sha256:e49302960aa88b3e1431ace195e8f954181563d031b1523a643ef56ffe88bd51
+-  __AUTH_CONST.__const: 0x60 sha256:115ab646dc611b926d86d016c791ffc749a1c5d6d4ba71216292e15a3db2f54c
+-  __AUTH_CONST.__cfstring: 0x600 sha256:325beb1d5eff9beb5b324f424226982b80a7b54c54be2df9eecdb1e19c32df2e
+-  __AUTH_CONST.__objc_const: 0x510 sha256:39742e943d8c6ae9edfff9c95143d2251054d651ffb773b50e9283d8379e4e84
++  __DATA_CONST.__objc_selrefs: 0x120 sha256:d243694540573a43e689a5813c593050826063204b04c988211d7457046b6593
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:96d2515337404bdc415465200604e643a577167f4544f06a1fe5e49caae11450
++  __DATA_CONST.__got: 0x40 sha256:013221f25868c76966f4f8bc627828a44cb044629bdf66f58c278ca4f661ca5a
++  __AUTH_CONST.__const: 0x60 sha256:8291773141c84e90603766ff7bfea10a1f49e1e6d8dba5a4cf6786e1c51161d8
++  __AUTH_CONST.__cfstring: 0x600 sha256:19cd5f36cecb88451c7f8c82664fcef2bcf1c416ce612a532c8d0ef730dd7ad5
++  __AUTH_CONST.__objc_const: 0x510 sha256:31454bea6e66ac449dba947311d62d592484f3528cfb2b774a44c18bba826465
+   __AUTH_CONST.__auth_got: 0x0
+-  __DATA_DIRTY.__objc_data: 0x2d0 sha256:03b9d6fb1109e1e5e83c6dad760d0fe8d16b8733d935a76bf62d2a69bdb5b1f9
++  __DATA_DIRTY.__objc_data: 0x2d0 sha256:67ab5c3511b3b49e9e802e4a46be27c4e4124f6bb3942b6c8c55d5c2f9bf73c4
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C5F20F9D-B1E7-341E-90F9-B0E8ED37907F
++  UUID: 52242E15-8C56-3215-836C-23737931A849
+   Functions: 32
+   Symbols:   187
+   CStrings:  103
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ +[AXWiFiKitUIGlue accessibilityInitializeBundle] : sha256 e515f4fb0fe55cab7400400c0a81728383bb0e6ee9502cab09117d2ab994ae99 -> 8595083fb93b975300dadaed34966616da74877dc2a1b91df401c792237bf151
+~ ___48+[AXWiFiKitUIGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 924a45520e97014b442244b977f06a40459e547b14839df1081f044f5044ebfe -> f4502211af5fa4588e929d5b367550f45b33455a86f141b26783a9baee79d141
+~ ___48+[AXWiFiKitUIGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 f58f3bb8fd00b79ecf3775c9a18c08175361c720e8f03be3a8e942e1cc1c29ad -> 4873f273e5a7a2df22a383efc3962fa14fc381b4dddd3c01d30fc13de9f90fc7
+~ _accessibilityLocalizedString : sha256 e53c3b23f573575ad1692b35cea57015a061b9364ca891758e2f2b48a4bc2e53 -> 271d8b23d191750f87a788fb0cc80168f9f6593d213d1c8826c72d2c65daf3d5
+~ +[WFNetworkListRowAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 0f1b66aadddcd25ae5301a02b22ffb583a65bce7e4ef1a3c4c8d5c96512baac5 -> 401ca3970b73d28a3c768731f3270f4eff0f4250c511786aeea7b9e42d81bd17
+~ +[WFNetworkListRowAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 99c91af58865955829fafe2adc3ed26f1fb7a1f059a49e5a8b93e7889dff9b83 -> 24b76da0e008cecde5ef2ee43533526d8f1a1817f54e066c1536dd21101f9076
+~ +[WFNetworkListRowAccessibility _accessibilityPerformValidations:] : sha256 779823c2c425bbf9eef42d29c197c78c2e422b555fe59309258311fa550d3261 -> 0d78baf8d3006e80f9d77a5e6970589c35266f58a1497bae85accc0b3bbb5bc1
+~ -[WFNetworkListRowAccessibility accessibilityTraits] : sha256 7dbf527bfb97de7af2062d044441e90aa0d1ed02b20a645b0a39dfa3bdcde3f2 -> 62d31e45e766583faf6ec28c3e0ad739d4d478c51616893b89d7496541ec2803
+~ -[WFNetworkListRowAccessibility _axNetwork] : sha256 e421e599a299ffcde67c8a41b8eae5c33511cda3b71594c7cd201b658090e2b2 -> 4e7d34d4e1345eadf38df9783e212473e5af4c1ca7378e7f20a3357e2935e2b8
+~ -[WFNetworkListRowAccessibility _axNetworkState] : sha256 47630901b72eb1aff2357902ccac20e189cbf9963154047ea59ff8a2cf439afa -> a905a2f3c1f54f1acd3dc667bf4037543066a95dc40f6902cc34c6d810ad8b0a
+~ -[WFNetworkListRowAccessibility accessibilityLabel] : sha256 b8353a43ba96db13e7259568d1156de21eb48616f42b0aabea0a5e385c0cb025 -> 2a096fe9aeecf2fb01e1eb8349d08649bf5ddc86d198afbedf571a5dc77d03e9
+~ +[WFHotspotCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 a7f43735926d3249adb367130eb28034c397843cac2e44a23a3135f5d0368a5d -> 531ee1985fadb922be6ed00761f98f4e294dcdd8ad1e62bfabec9bf61cc44c3e
+~ +[WFHotspotCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 4d82e735cb594af26dc9433b113257af5c997d4b80980fbb1a1017a692f575e0 -> 7a8efe53834e70c39f49c831243f0d94bb02fda0c356e147a1ea4e9f168a6215
+~ +[WFHotspotCellAccessibility _accessibilityPerformValidations:] : sha256 3d363baedc878ad8fe5447a979f5f3fc82309c3fd11102dde69b570f747081b7 -> 78de0387ea32bef356050b3756bc1fd46174f7ee456d38183e07616916a53c34
+~ -[WFHotspotCellAccessibility _axHideBatteryView] : sha256 be340127f15ef49e5984e018e3d081974688280ddf7d37cc3fc20015fac4f6bc -> 68741086a9455b9d2aa2a8fbaad8dd13412d74a1e442b432e3f07e12661d0bbc
+~ -[WFHotspotCellAccessibility _accessibilityLoadAccessibilityInformation] : sha256 7a886eb22cfb903c8252c306af0a1a91759be2b6c6d7f612782ef79911e49bc5 -> 4863c897938dcc80704b22e2a91b4450f3a67f896728bf3ea850c4ec4ebd33d7
+~ -[WFHotspotCellAccessibility didMoveToWindow] : sha256 7a145b90ceef22f4ebcdf89590a89964d983b729e339d899dd5f18d3b34cd06c -> ece436ebabe458461022e8ef8468c9ba02f7f2fd1a841b8be516912cba15e705
+~ -[WFHotspotCellAccessibility accessibilityLabel] : sha256 ce81a28707f6d269bdd20e1cf883d0d903a9bf69bb5fa6730ab9f8c876a77124 -> 91221581deae996b166e3e100eb6645d6ce8c1f14dddf3607d0b767cdafcb44c
+~ +[WFNetworkListCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 4d60b1de9117c5e95fcae3af9c1d88b40bba9da2fd3355a40650583673de5e29 -> caaa964975d243d165bb715a2193b4ad1cd14a90b93c6d2b9fc980b3016f27a4
+~ +[WFNetworkListCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 03ea2f8eb539e94e415408ae3fec9758d9b851b8002039e85106db01141496e9 -> b034c26a857b639e62528886592f8d81676e0c0b27780b7a8800fcff54fca0ce
+~ +[WFNetworkListCellAccessibility _accessibilityPerformValidations:] : sha256 f71cb86c5c8d1f5cdf63d15a7b3a8892a64c790c0862af83fb40df3624fca679 -> 9c8b01dbf7cac5015dc9abc04cf8c69f33227e304066b3d83d16f949cfea4e85
+~ -[WFNetworkListCellAccessibility accessibilityTraits] : sha256 c9342ba59d2ea9b5815dd71d4cafb06b5aef828d020369b7153e654bab45be4a -> cefe7333edf2b9f5b2a5c1b98946da3d29f6e5cc86a2ac017eb2d26e33c95009
+~ -[WFNetworkListCellAccessibility _axNetworkState] : sha256 0df2e4ed620a50ecbe7ba232749b7592070feb548d7f93b02c74d04617e72d8d -> 244aa30d474c98ed4944fa039bff55b5dc13c444b7ac4272a9b0d07cd1eac793
+~ -[WFNetworkListCellAccessibility accessibilityLabel] : sha256 2109f83ab4564fb69f93ce8a97611e1d88d90f66ce7b86d505d71c63ce0a256c -> 46b11377c55baa6f2e845e39a14369e834be040c6379ca3feb63c0bd7c7ff1d6
+~ +[WFTextFieldCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 cd36dfe7a8f5e53052d48683efa4a3a7f08242e7684ea4dec66dcf6bd8b391e5 -> d7454de3cd3d8b4b46bbff24873245306d369f215eb3ace290ff5966dc1c5f5d
+~ +[WFTextFieldCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 5b1cc3bc93d7f70dd25a4f37ad8f1b886ca640b721aa9e3ad5535b800e564039 -> c73341c6dcc8fd1072a75220579da918b8da464922dee4f54f69c2d819360316
+~ +[WFTextFieldCellAccessibility _accessibilityPerformValidations:] : sha256 02aea2b4f495e16302e94ae02c05f8b7e263c891aa9750d379b5b7f77672686b -> 35919a83b83f71109db13e2fb5932ada3a2338f74198ab5104588bfc2afb475e
+~ -[WFTextFieldCellAccessibility awakeFromNib] : sha256 cd3e0c9590837e216697ab760732b7af21795301921a4564cf1e8a52b057148c -> ba855f6ea73d550b00ff934cedd261f939758864e7f5c07ce537ea325b6cb515
+~ -[WFTextFieldCellAccessibility _accessibilityLoadAccessibilityInformation] : sha256 4a14c1875ac3afd0f8531c5dc28cd9d8e52c7619840bb1c141bd84a861c503d7 -> c51fb2bea13302e6b1d3d146833907953c5124211e964c9faa9ae66299bb86c6
+~ ___74-[WFTextFieldCellAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke : sha256 07a929645a251f760f9f85ec6e4a51c0d51acdcf9435a06ccd642ebf43c935bb -> 51f018458d9724bc4e17bf11fdef0e5c275fd41e86c0c1b7dd5857732d809cd8
+
+```

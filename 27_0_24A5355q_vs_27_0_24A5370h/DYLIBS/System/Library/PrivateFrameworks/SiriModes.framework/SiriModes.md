@@ -1,0 +1,108 @@
+## SiriModes
+
+> `/System/Library/PrivateFrameworks/SiriModes.framework/SiriModes`
+
+```diff
+
+ 3402.3.1.0.0
+-  __TEXT.__text: 0x3ac0 sha256:764d2d51f6f273665de136bddb62f1d6fa2635a74e11084b03f8fadc7e491ea2
+-  __TEXT.__objc_methlist: 0x25c sha256:9632e5047488f8abd402b6393a63b42b1e35d8ffe72db0c69e8c5b59e745d930
++  __TEXT.__text: 0x3a9c sha256:462ba31bda0527b16e9463806efda7d52accbcb6f54dff5cb4adfcdf74c3c9c3
++  __TEXT.__objc_methlist: 0x25c sha256:ce542dd6662cef82754340f78bbec5952f022d04d9a304fe37753ab9d445def7
+   __TEXT.__const: 0x60 sha256:2ad0ba8896466884fed43ec64c97b71e10e6727d19fe2b3904ea7cd0e4e167de
+   __TEXT.__cstring: 0x50e sha256:d58af3b7513c7b8b124c8a3d0aa1ad1b85cd89f792f39fc7b9416035ef0d082e
+   __TEXT.__oslogstring: 0x7e5 sha256:503c7bd28a831eee3aeafa9ce98a687c1a37bceb13bae723786a414933853f00
+-  __TEXT.__unwind_info: 0x100 sha256:72dbe6e13261a723f66d27c9b1c6b8db550c1d37eb13550bdcf3fc63b644003f
++  __TEXT.__unwind_info: 0x100 sha256:28ff0e31a62167430944eccc4749e5ac8c5d8847824783d53c784a83fdc23607
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x70 sha256:cf48d67e29eb4ff9eaa4b858050912364ae5941f83761f3e69cfd719cab73e09
+-  __DATA_CONST.__objc_classlist: 0x30 sha256:d2d9232bb72a63f2543e2b4bef64865ccdefba7d48b6724b08335ab1ffeaea40
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:ddb91414391f3358e9e682b3a71e5f63baf67f9bcf7db62b2eefd7254fb19f2e
++  __DATA_CONST.__const: 0x70 sha256:83f1eab8447644491bcdce8b7966541979e30b5817fc3da8be98ff5d4c29e9a8
++  __DATA_CONST.__objc_classlist: 0x30 sha256:3166f8400321cc5ac5a68bcbce860e6393f3ce3ed50bf736102646b1e44a68ef
++  __DATA_CONST.__objc_protolist: 0x10 sha256:199605cb069b8988d44ff81029e5e25f35af21a14dad6d46738cc036ac792ca7
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x3a8 sha256:2f2bd6ae916ea41bc2978e9710c69a06f1507c94cca2c397ca47e69e9fbc8643
+-  __DATA_CONST.__objc_superrefs: 0x28 sha256:a22fc536173967660a67a43b22020b039a2f6e0100a2399e62046a623303e2d5
+-  __DATA_CONST.__got: 0xe8 sha256:ffde775ccbe1bf7b397b63a7b9fba892e4ab0d0fe5d3db3d3ed796b856381d10
+-  __AUTH_CONST.__cfstring: 0x320 sha256:cbf86fa5c64c34bdcf52e9635db640e8dfae66c67b44274211fbd1a0c28d5794
+-  __AUTH_CONST.__objc_const: 0x598 sha256:7761fa552b5f083c66ea8663547a2e38bab673c1bb712d820a6eca559abdf7d1
++  __DATA_CONST.__objc_selrefs: 0x3a8 sha256:6d0def98ffd19c0a123013db70376d55e50e3dc3ac9e124ab86dec74d22bef2d
++  __DATA_CONST.__objc_superrefs: 0x28 sha256:0ffa38cea5ec5d820f64e2c1334554fa521bf2ea45a380091f88bffd5af28254
++  __DATA_CONST.__got: 0xe8 sha256:090d840ce05ca7ec48829da13c0daa691b16f13f4a41a5c21cb20a22500e2b46
++  __AUTH_CONST.__cfstring: 0x320 sha256:f2117a06b37853543a18fda22e57068d60004e06fdc49d610aa9fd96520d2536
++  __AUTH_CONST.__objc_const: 0x598 sha256:fca0746e7b185899da9e4e832e2107365e097d3cc313b39951fefe16973199d0
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x190 sha256:894804fa660ffc343c988f4e7c745b9bef1376927cf4a0cd9ec1f81a81ba4273
++  __AUTH.__objc_data: 0x190 sha256:0b77c153a4da883b16125e6b246d72e3ec4a12e972d3baa8c9f684e10fa748a1
+   __DATA.__objc_ivar: 0x24 sha256:d7f0b9a015061a203afe4b88d5f86ba27cfbde412537c9188efc6125eb2b4c5e
+-  __DATA.__data: 0xc0 sha256:231e7d3aa8638f020688ef7c62f0fa48474e1452c9aaca7f61d1e3c1ba45e297
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:f856234ff88a8c0090387ce77fca4b719b3e9f68dac00e0cbac63a7060e0e323
++  __DATA.__data: 0xc0 sha256:6740dd837755fb4cffe4e4700c0f0c3082b992bc07d833c1cd7e4f95cb0355d2
++  __DATA_DIRTY.__objc_data: 0x50 sha256:abb48decd3e38dabce85b24cb14a9d8a09e877cee22dcdb88a0b896e714c42ca
+   __DATA_DIRTY.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AVRouting.framework/AVRouting
+
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 25EAAE28-4879-32F5-A543-0DF55F6BC38F
++  UUID: 87F015C8-8D00-3508-9AEE-8215569932D8
+   Functions: 53
+   Symbols:   364
+   CStrings:  97
+Functions:
+~ +[MDDialogTransformer supportsTransformationForAceCommand:] : sha256 d53a784e764c33a01e02c0b6bd2b165de80dc4eb58a866b614d32ab986b30f43 -> 98ea6a19c3498fefbd4af79d25aa54c16fcf6e302819627c408b543d17bae224
+~ _MDModeGetName : sha256 44b1082edd2c7f406df6577868da80c6297066ae213d5ff082139407100a9e58 -> cce5524f72e6345b8f5f82404181d8f40d5f0ede3a735f74e98ebab9f010fb4e
+~ _MDModeGetNameForAnalytics : sha256 c532ec16eff68425e372380ee31daf69cb01d2e87559116b86ecc2b090388e3f -> 0c1c15f642fbd0b6fe3fcb5803980f795020bdf517bbce5f675c2c45efb03c75
+~ -[MDDeviceIsMutedHeuristic init] : sha256 62f38cae8fa2c10db7871a33dae43d214a38d1a60b2ecbedb1681c7b06070bdf -> d16b2494957715de7ccee729537791947f35999f67109c83cc7cfec769849568
+~ -[MDDeviceIsMutedHeuristic initWithRingerStateObserver:] : sha256 45fd10ff930d3a17ca4612b2bc3bedb511abe297c13c9494d73f906d2545c8fa -> 2d5afedeb08ca30226c0f0cdca8899396c162799ec3aa383263b783d6d755fe2
+~ -[MDDeviceIsMutedHeuristic determineCurrentMode] : sha256 71184ae2c826964d03346439ead4fed07179cfbd2e09294858b72ea9255e395c -> 5a80fbf7cb6e8383cdc78ff9698b443602d017513a720f611b1846cc448107ab
+~ -[MDDeviceIsMutedHeuristic isDeviceSilentMode] : sha256 022750be1c4361fa0ab22f52a0a65c15f5a176775a8bd2a709bd84cd2ace35a7 -> c08d48f2e0a6751aad92f95a0b1420f743a5fa2e8e5f723c82de6b6cf6ea1716
+~ -[MDDeviceIsMutedHeuristic .cxx_destruct] : sha256 94ebec9abe047964a677604557b4cf4e4520d22e2b211c65102204a43891c47d -> d02caacbe905f9b5b82e18da18fc4cdbfaa79fa5d487c418445e7f6d685d13be
+~ +[MDDialogTransformer dialogIdentifiers] : sha256 91b69c88b5a90d9f916cfe21211fa95d27e59bb6d446bb5505341d42ad8995e3 -> c28f5484c5230393f7c559acc193dc8a1ba646cb4dac0efdadbe98aa7a172a80
+~ +[MDDialogTransformer setDialogIdentifiers:] : sha256 77f645533c673068d94b199e8bf7561b24b8fd970da9b8ab41dbad100e3b3ffa -> 838acaafd45728c871e42623256b89753c64565177b2036227f6f67ba1a3f5e7
+~ +[MDDialogTransformer transformAddViews:forMode:] : sha256 8373b50085d40a73179ce2c749829d3f18c8a86fc240cac681eec8e878980ceb -> 2765a2f14750683f75413889fb5924713df3bd78903e8d7f9e68adf855b605e4
+~ +[MDDialogTransformer transformAddDialogs:forMode:] : 1016 -> 1012
+~ +[MDDialogTransformer typeOfAddViews:] : 624 -> 620
+~ +[MDDialogTransformer _transformLegacyAddViews:forMode:] : sha256 96a2b6af55cf8e480c4ec5d7d58b15fe39e6036499da6197d5ad75d26a48cbe1 -> 2caced63618ac63230729348b152c163cc95de6ddb71ed9d543498799590767c
+~ +[MDDialogTransformer _configurationDictionary] : sha256 9e359f8be02141b405fb067bf5efd081326a1b6f181fab1c580455ff16dcd60b -> 605a251e8474bddd993b9d3455d08e4171b10e5e7ffddf682584fef454f25ee2
+~ ___47+[MDDialogTransformer _configurationDictionary]_block_invoke : sha256 7776760f6e3d94635b56972a64b67ec4c430dd6e64eaa13174d4bbf9f6d63f6d -> eeb13c5fbe55e4115ba491aae4e59f2d7a726cda6277f0960bf2de9689805e15
+~ +[MDDialogTransformer _redundantDUCIds] : sha256 fda8e4af9ce6ec53bd849c43704fae75d12fca06f332607d5ba20cbd4e6019b8 -> 7022179714c6ad229c5da20381f118a19bd2fc660726e9d10f93bbcb1adaad35
+~ ___39+[MDDialogTransformer _redundantDUCIds]_block_invoke : 364 -> 360
+~ +[MDDialogTransformer _alwaysPrintSiriResponse] : sha256 9a2f8f06eec43ffcf9216723fce44e7bbc4071d617d43671eadd5d7585692d95 -> 62f00d3f887a5d46b9dc4d3a81c216c9d4124bda6aef3de81319585f770df09c
+~ +[MDDialogTransformer _firstSnippetInViews:] : 308 -> 304
+~ +[MDDialogTransformer _removeRedundantUtteranceViewsFromAddViews:forMode:] : 736 -> 732
+~ +[MDDialogTransformer _removeSpeakableTextFromAddViews:forMode:] : 1700 -> 1696
+~ +[MDDialogTransformer _removeUtteranceViewsFromAddViews:forMode:] : 1152 -> 1148
+~ +[MDDialogTransformer _transformDialogAddViews:forMode:] : 1344 -> 1340
+~ +[MDDialogTransformer _utteranceViewForDialog:mode:printedOnly:] : sha256 49e584c8e2ab891e656d2cad35e67b5a67670f7d45218675dc65a19943a03742 -> 5c29a8c401062c58a8013b5862e72033e4bb9bade67b25ae8cb7d3266dce0fb7
+~ +[MDDialogTransformer _speakableTextForDialog:mode:] : sha256 c1ea15e8f47ca866806c316658d0aa9a110234d1f83aa927ba543a606e45c971 -> 79ffd285684434e5cba28139a0df9996295f9900a8857288bd1728c5fdb1e501
+~ +[MDDialogTransformer _sayItForDialog:] : sha256 37971131c84d314ec63ee80492f8a39b8dfa1b5143fee2491f4dedc43cb32fa7 -> 863d51d9fa18c13e453994b9ae8755f7d2b2cba3ba3c51527373cb750bffac4a
+~ +[MDDialogTransformer _addViewsForAddDialogs:views:] : sha256 ff01134ceb8cf7df36c1f4704f511773eb170daeaed859b603fc09ace95d73cc -> 59c979ccd6a826a6a1d4e6b6e26d76bbae47e41c00f17ad739effa33dce443d5
+~ +[MDDialogTransformer _logModeComputationForAceCommand:mode:] : sha256 7d0b828afe989f3e5979306d9f90bdadbf3d31e2fe834802a23e62c26829d420 -> a2695bb52d218dcf0b9fd46a1f3c54bd9e307dec709ef214f20a9f50afb9a90d
+~ +[MDDialogTransformer _analytics] : sha256 8127938c90aed61cdc4cb8ffd14c13022e237872c06d835df87f02860ff64ba8 -> 65c537c16c7bd612a4697a45e1ad873051afdfc80b65b16d8de9bba11c28c6c0
+~ -[MDAudioAccessoryHeuristic init] : sha256 edf5040e04f579e01122bf93c1e888cd777f4c1ddca91aac28cd4c1b47ca9480 -> 19f28e55f02294f541f67cc82314f79e82e0dcf0a606ad97312fc18632e437fb
+~ -[MDAudioAccessoryHeuristic determineCurrentMode] : sha256 d91c6fd8e2bb82baaab2fd65718ad05a0b2c7b4054138af1379f3081f40cd520 -> cdc6448ee192b53c3ceebcad878a25f929d68e406ded20eebe0090dfa66c04c1
+~ -[MDAudioAccessoryHeuristic _fetchConnectedAudioAccessoryState] : 340 -> 336
+~ -[MDAudioAccessoryHeuristic _connectedOutputDevicesDidChange:] : sha256 d3b31a6e9c06d0a21583f7f48e7f55e04b4fc0638afd14033e952af14d60ac1a -> c0608689c7c11d01cdd3eaf3b9faf6ba4063a32177f14002427a23946a43a231
+~ ___62-[MDAudioAccessoryHeuristic _connectedOutputDevicesDidChange:]_block_invoke : sha256 b00dc89ddddc35b362c0c9a1eb5d287ac1f3eaacf199f01bc1145a7531b00d39 -> d167133382afc40c01a7bda2763b934e90f39e8b9a092aee8c89606e191ae2c9
+~ -[MDAudioAccessoryHeuristic .cxx_destruct] : sha256 21198860f6c356849a22a760366bb1548d10646020d793565ef36ec944b20451 -> f4cd87ce7688419a526d00783a63a2195c36928f9bef9078da59edbc875f0bb3
+~ -[MDUserOverrideHeuristic init] : sha256 757340d9837a6a05a7a1611725814cea592305cf445873d7f7e84d0c4f4b2c39 -> 61ae54cc0cffeffb48fe4985503bfacf8fa9509919a51c3c2871ee0a2f234ea2
+~ -[MDUserOverrideHeuristic initWithInternalDefaults:] : sha256 679cef06ddcce22a14a67df924ecfa4fb63d5436446eb8320c707ee08f8d8389 -> 3d997a1791c596e5cea28f0df5bfc1205d96efe35624ee50ed29e9e2d2908799
+~ -[MDUserOverrideHeuristic determineCurrentMode] : sha256 f1eff96f19798f9a52bd107beefb0d72e49726f10b27c6bc39bc4303fd0c8c90 -> 11667f6bb868e2b11bfc8398deb09579041afc32087b28e0e070970e3649c1c8
+~ -[MDUserOverrideHeuristic internalModeOverride] : sha256 3695dc56f3f37090718ade2135f95e131453eb325b2a2461b8ebfc410a9b0ca0 -> 2d6dd3fe4e58a0efbcd2b2c1e2dc1a478397416958409937c214ed96a8825dfa
+~ -[MDUserOverrideHeuristic .cxx_destruct] : sha256 40aefdafc4f23ab20411cc4066e8ee6d7e4bf255439393d25e457a13e8a951d9 -> 001701dc0caca37c9d32ae1588c6cd2933218fcc25c945323ef6f39cb21fc95c
+~ -[MDModeDecision initWithMode:] : sha256 7cfe316c721dfb890af2c0e670d03dcd7eb2fafb438f6732a74fe10a9c9b9f35 -> 00529311d4dec4cc212ad49a218ee27468f07704d3f5c4e421223b2d2bfea7d0
+~ -[MDFixedModeProvider initWithFixedMode:] : sha256 b5718f37197a80a3c1db34db89409e1a8c5d7085fa80e4fad9376ccfcf2e678a -> 37ea291f7c35e24e8e13316d88c1888c59e7f8c07ee23176dbfb8089b6bafea0
+~ +[MDDialogTransformer transformAddViews:forMode:].cold.1 : sha256 9789224b73a98bb9372a8e983598aece9c0fd50702af8d8dbeb482b2c3a0fded -> 9a914b0e5c363825228eca56efa20b415c82b8eb201524f01b9c4b4d2270aa29
+~ ___47+[MDDialogTransformer _configurationDictionary]_block_invoke.cold.1 : sha256 4c4cc128a36a00ca3c875ddb8321e89184423702f54dcfb7fca040a9e5cc8b71 -> e113a6f2732ab19adb658efef16c1100c3290f847c2f9b40d8345546a6c94cc4
+~ -[MDUserOverrideHeuristic internalModeOverride].cold.1 : sha256 62ffabeddd895c21aebaca8e96f5e9b3bd8e67a13d4e70fdc1867f173db8fa80 -> f5c171994bcd2e1a3cf1119fa86a02f703f099befd52687e6a3c0e67da3b8247
+~ -[MDFixedModeProvider initWithFixedMode:].cold.1 : sha256 4f117884c68189b77ca5f8bb4d36461a603726484eaadac3f13d86f3b666b9b7 -> d700f56f187ea6d3f396e8802642cacb419f03184896b359a74a01d0c42d828e
+
+```

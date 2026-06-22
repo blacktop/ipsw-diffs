@@ -1,0 +1,172 @@
+## DALDAP
+
+> `/System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DALDAP.framework/DALDAP`
+
+```diff
+
+-2703.0.0.0.0
+-  __TEXT.__text: 0x55a8 sha256:b8df717f61b4e2fa6d5d693a3fc4395654331c4dd13a59209783919ac934b630
+-  __TEXT.__objc_methlist: 0x5e4 sha256:8bc67a74d14b3de99d51ed461906ff5f163ef2a5ab5c5111f9d1c54bae46d0e2
++2704.0.0.0.0
++  __TEXT.__text: 0x557c sha256:5c0cb32fbe416f6a58c350511672d638c62c7d8914f81c2908a5a742161549b0
++  __TEXT.__objc_methlist: 0x5e4 sha256:94d7920033ded06bdc10436fc5fda1df3f022e0fc71df8159b510aad7aa8d307
+   __TEXT.__const: 0x40 sha256:ded666077bc895dca00653a7d06c7f15487e7e02382290c9f641e6cb98c69c93
+-  __TEXT.__gcc_except_tab: 0xa8 sha256:e51e6d3407c4d51f683b425d9718faa38d913b6cd0ac84bd38785211d1afb835
++  __TEXT.__gcc_except_tab: 0xa8 sha256:e4ee3198ca930c42d9d802ce30eba27ceadf54e3f42bd11bfab88159f6739382
+   __TEXT.__cstring: 0x55c sha256:59e92764cc691b74d310878411a6e5f7550260c253f94f52e3ddda57da1745d1
+   __TEXT.__oslogstring: 0x3ca sha256:5e8a9fbb84d24e70b8f1597ac2b8aef29ec9ba2d6fe7b65a27017854f8085c4f
+-  __TEXT.__unwind_info: 0x1c8 sha256:ec1a30559a824611f88a0a7a2897351f0c6585e4546e9e2c88a176f17ee5353b
++  __TEXT.__unwind_info: 0x1c8 sha256:be67104528e1bb4bec3f7655ed645095014eb084506c9a7f2e24a61c81afc90a
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2f8 sha256:2e6018691d3b76f3202586c147842fa5b744748410e5231b9be4b2e1e454f631
+-  __DATA_CONST.__objc_classlist: 0x30 sha256:058e163834f7baa72c69d801271ca8a50cc2c7404aea319e3909809d9cf6a09f
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:4e46932475b25acbceb0b5bcfc5cbe41db7d3fd46845326c6f9484e469160e97
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:93853c1bcc308b47251bd7614eaac48cd54595da7fde1754835f90df4bac124a
++  __DATA_CONST.__const: 0x2f8 sha256:31b1b600e3ac7fa5e6183803ffb549f294eef258c920e034cb2ba8a0f0bb7b35
++  __DATA_CONST.__objc_classlist: 0x30 sha256:a578e5f6e48844572be96efee2af78f34e2da7e2baf13b3479e565235e1747c9
++  __DATA_CONST.__objc_catlist: 0x8 sha256:3f17f2abd921b3eb568fdf27a75f0310a6200122fd9fe89c74c1f85ea9f671f2
++  __DATA_CONST.__objc_protolist: 0x10 sha256:ce637e3910a8ada79ed4d1b92edf8292bbaa03070691addf3f57106e9bf544a0
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x658 sha256:c3d1f7ead9fb5d7de02ed06e1f7801ac9f7da6a578bd59d9549c9f7e02c2f4d2
+-  __DATA_CONST.__objc_superrefs: 0x30 sha256:229513f6809743f5455c2ed6ef471c392f7f3da26b9bd43354e0c6b5f1ae3a5a
+-  __DATA_CONST.__objc_arraydata: 0xd8 sha256:58966996da1af933aa238fb5cae2fdd3349bd01e7d02af6e73039bf37c645752
+-  __DATA_CONST.__got: 0x138 sha256:9de4291fa3c380f9aa9cb31c1a8e8031a3b823b4f27dace3f23184048f540f95
+-  __AUTH_CONST.__const: 0x40 sha256:7793a7b7457d4396e19a843dee8df47e1640d8a11a43828501ff68ad0fedc011
+-  __AUTH_CONST.__cfstring: 0x940 sha256:fb926b0ae3548ab997d89cc62a4f89101141093bfb3530ac77225c0642d66bfb
+-  __AUTH_CONST.__objc_const: 0x838 sha256:7a25be9ededbe711be35c391af2a0d87ba84b1ff20025f28beb93d02be1150c8
+-  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:d95c4198a18d3ffcc16ad446e139cf4db23df45f72c1aa8bd8d22ea21a59c824
++  __DATA_CONST.__objc_selrefs: 0x658 sha256:6d172b59fd6d4c7dea39daea1806f75cc61b67806055769fae00f120945bd879
++  __DATA_CONST.__objc_superrefs: 0x30 sha256:bc57e8b91a9b6a93f9d85bea2f2c497cdc002a658ebb2036a942dec776a3760d
++  __DATA_CONST.__objc_arraydata: 0xd8 sha256:25d1d7dcb343cfbc3cc14c5871e47e6b62ae2d190cc3b90f6f7e3d2ad1da7530
++  __DATA_CONST.__got: 0x138 sha256:a76ad77f8df36a30f44b4b1aa54e56b512d3a36211975b2b511e4927dc632205
++  __AUTH_CONST.__const: 0x40 sha256:a0af51053f32c6e6c7db3c6e50ee9da0782482c8fa5b500d58ad594e8f5a5d41
++  __AUTH_CONST.__cfstring: 0x940 sha256:d2f27f0f94b804154659bb002d46a4b8dde44334ded4f69d70cb9dcda3a0d9b1
++  __AUTH_CONST.__objc_const: 0x838 sha256:9985a6f6bfff748756cb0ea2aadcf54b903413dfbf7e10102f8a2b2e863a634f
++  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:f104fae0474d63be8d790d4e707af3b560b57658c4572b1531735e1dc2e1ebcd
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x1e0 sha256:a95ac4a15350d65ca1f4488aa5148a82d443fcbcd76e18228ff5c37fba0aab8c
++  __AUTH.__objc_data: 0x1e0 sha256:6fd18b6d9a4f314141b76fbafb6a4885fd981dfe5390c7313f98e512cc81698d
+   __DATA.__objc_ivar: 0x38 sha256:0b613aec4a286937e6cc01b1b99e2163726b9c94bd069264e74d6e583eda219d
+-  __DATA.__data: 0xc0 sha256:0e1b483968367e34d52060a3a8898b1066fd90125c8171ccaa6c4370ddd56151
++  __DATA.__data: 0xc0 sha256:a3e5d9b9fca015882d60d4862048d4afc8e4e53203f6456c28462c324d35475c
+   __DATA.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/DataAccessExpress.framework/DataAccessExpress
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D3154798-3553-330B-B97F-8DC1A6C31004
++  UUID: 785850FD-C207-3D80-AE78-7CC3FBF8FE6C
+   Functions: 110
+   Symbols:   597
+   CStrings:  181
+Functions:
+~ -[LDAPAccount ingestBackingAccountInfoProperties] : 560 -> 556
+~ ___49-[LDAPAccount ingestBackingAccountInfoProperties]_block_invoke : 368 -> 364
+~ -[LDAPAccount initWithBackingAccountInfo:] : sha256 ecf62bc200d05d65d7bb13811247f1520333628408019d1db59676b34cc6a2f5 -> 0fd809d1822bf764959e09e8bf732766a3baf142f5aab120f97ec29f8935da77
+~ -[LDAPAccount _reallyCancelSearchQuery:] : 456 -> 452
+~ -[LDAPAccount _reallyCancelAllSearchQueries] : 292 -> 288
+~ -[LDAPAccount _reallyPerformSearchQuery:] : sha256 18da3ebb954b25f2cdfbf9644c6861caa5ea99e335208783c9b39f5aaa92c6c7 -> 925c81b44037c99638c2ea3a2396cfb6f1984dea0bf6c682bddf3ef295c69e9f
+~ -[LDAPAccount ldapSearchTask:finishedWithError:foundItems:] : sha256 875f8514fc39282f46477c0e1129388d204402e2d9371ff34db527e07c61ef77 -> 328d916cc81c9144d0066b2cea6874bd124ee8311c6c2d54849c4e0f7d1e882f
+~ -[LDAPAccount discoverInitialPropertiesWithConsumer:] : sha256 3031451ad968d64b3916637c88882dfb25968701ec6ec657e24af6a589b6a70e -> 04516bbc84ce4a4975ac4c06496b80c17d894f84298aabdeee100840e52754bf
+~ -[LDAPAccount ldapGetDefaultSearchBaseTask:completedWithStatus:error:defaultSearchBase:] : 512 -> 508
+~ -[LDAPAccount addSearchSettings:] : sha256 c5bf418a34bd481d12e81f17ef21c88b761a0e71ba951e46915beedbc4a7f8a2 -> c0804ee15671ee44bfc0e38c425509abbc81f5f8428fcf8c20bbca79486e2118
+~ -[LDAPAccount removeSearchSettings:] : sha256 9800ca17db3749d8148bf19b73e7294f273a71356a92efab3b5457c347fe7f5e -> e87aa2cbb8086342fc06568f4a138a1c07f1f5b675d6e882f0d45b3a43c96352
+~ -[LDAPAccount connectionURLWithSSL:] : sha256 bb9c2415023a866918d9e1012db193b0f20109b04d572dc75e548d6b248057a3 -> 6cc9d76b40164f2b70da53ee6ede15578a5a144944059d51f42371154face490
+~ -[LDAPAccount connectionURL] : sha256 e9118b41d757b1574fce5160ab057dd112a759cea740400df658df95399a5f67 -> fbf2da8099c19921c5f66fed2c943d4b99b8b6ec25a18da2cf32f372bef5a34d
+~ -[LDAPAccount searchSettings] : sha256 55a9582eb785775d9115e7d07b10f21db6aa72a9388fe86201b33c09de898143 -> 1c33936624195922e08b5dfd826ac94dd1b8628aeba873b4e419eb054de0810d
+~ -[LDAPAccount isEqualToAccount:] : sha256 c5486ca1ca86ca6b31034318b5f2ff8aa4947355889901093e975d55bf3b861e -> 253cc33a1320704139ea7d14ad810f1fe2b0ba38e2178da891607a29209661e2
+~ -[LDAPAccount localizedIdenticalAccountFailureMessage] : sha256 dd03292d6b768ef862b8a1ebe2c1149a26a182d85302c18dc9da8735e4df41e9 -> 81038a14573d1119103efba103ce984d077a2a08896fd8b80146623ca7f94e9e
+~ -[LDAPAccount localizedInvalidPasswordMessage] : sha256 713cfe4aafbf705ab162ceae12e9e76756f77e8f9ae82a8571dcc131f8c72a73 -> d67eef58a4b0f5c48a077ddfb401c706f7b19afe1a3dfa793b508677a4d3d083
+~ -[LDAPAccount onBehalfOfBundleIdentifier] : sha256 d244e393ea275ba15fcbc4ac913a11dcde5b568eef111c158457065e9cdd773b -> 873359bc051dc646d79dfe27aed51006876f5793e02a166b841bd575fa3da496
+~ -[LDAPAccount searchTaskSet] : sha256 41205d6890a0108dd38fb02dc630406930206d105e52ff35af3a8bfbeb898be2 -> 6acb9a3b15bf217fe3a91fadb36135288aeb84e989ed5486e56cd34f15414af3
+~ -[LDAPAccount setSearchTaskSet:] : sha256 52828a40c277a56724e64d1392b18eb8ebe00509ccaf8952054b0bc1d7f46c87 -> d5b4bb108f50202389def42c7f8ffa79825c4c5124e879a4dd3852a2630f1797
+~ -[LDAPAccount mutableSearchSettings] : sha256 d4f628b138f677c92c812268756677b5e8d05700ab268cbc26896ff989c0347c -> 83f765b11e7d031a52c835875499d75790094ee4a5e4d573b7b69e08e39a25fe
+~ -[LDAPAccount setMutableSearchSettings:] : sha256 77144ee5114b0202ce1c5243c8cddbdd754319e732daa602df4955373069626f -> 39d3286769976d0742281f5bc882ef1851c6597460a883bba30452ef0777633a
+~ -[LDAPAccount .cxx_destruct] : sha256 0b5ac113864c3c2a75795e400ca54b76fa501c9e4619cc151a069c3174f2cfe8 -> befd044b3dd2cfdfccd4a3d3557c2150bc5851795e91a4a071f89e684effcd1d
+~ -[LDAPTask dealloc] : sha256 fe9e4c7f795141bfe882a3ae77bb33a4800214be22d98365c68ff3d1f7337fbf -> fe93bf3bfbe33d20df34dc4f725623fa6280a7fe1573ff5bdbc487977033f449
+~ -[LDAPTask disable] : sha256 d6d3015f1c98ed23eaa709edde639214928258c792c1037529d731ec213de25c -> fefc238d5c16233ebc32a5f270223721e7c038c7868e0de07cb0b756a891701b
+~ -[LDAPTask performTask] : sha256 dd76af69df2cb63f4d76375c552609e547cfdcf92f2449d0e9955267a78f047c -> 80528d26b4b0fba6a3530689a1e29771805574495d73b8b162e01b50cdb6cb8b
+~ -[LDAPTask _performQuery] : sha256 538ea8cadb141c9856f5706a95c0d1274ff35384eb5c785fd1722af5f3671ae5 -> eba0104b591bc84c95b28c9e997b93d88a4b7be5b31eaa83c930f8b9708b655c
+~ -[LDAPTask reportStatusWithError:] : sha256 a2674d27606e92042404d27febcab76d897da8757e3da0adfb90d3c2e19af060 -> c22fb92f04cdca8b8d994d057e693967235ac0f7ca264dcdc4b77d123bb53e3c
+~ -[LDAPTask finishWithError:] : sha256 00bf8168d81b473494cceb6b8ac373de90488a8bd14beaa7c217136538d5676a -> 684cd1e9c2f1f084319b94091802e30d74d39841b048b44a7d11cd183e55ce55
+~ -[LDAPTask cancelTaskWithReason:underlyingError:] : sha256 aaf346362ff5f9aeae44ba29aa36a51024e76dd3c16d8af45dbae5263322b70d -> 915121f4173c315e0ecd4822fae0709e5b6edea703f0d6d8cd3d1196b7450934
+~ -[LDAPTask taskStatusForError:] : sha256 f66172cbedd1d0e1f3be02a9ebaca85fa41d6d54a75be65071cfe9491b2c164d -> de47dcd6108e4031fa5482400be5c6194f929518d88c40ce939249883522b906
+~ -[LDAPTask initializeConnection] : sha256 49d0d9b7dbc8e9f14c822db80d0cedf29f7aa1391ba23411ed3053c86c089ab6 -> 559a4d9fdbf4fdd0670f3a33cd49470939b8dcff5654713e8fcefcc08ecb41ce
+~ ___32-[LDAPTask initializeConnection]_block_invoke : sha256 d8a116a80ae2f4737c8fb03910553442bb7e93eb42ae6d0b24ce89a08dfc4764 -> 8dc36d29d52b1037518d2e87c6bc0fd0036d73231774a3b5000adf270944c836
+~ ___32-[LDAPTask initializeConnection]_block_invoke_2 : sha256 7a8e36847d8dd982a680a38c5d477a9ff6087612a62641b20b1285e619da5272 -> 848c1c016a7f291f61f30ab7f66386742f58f442f9334e3a0669e097615d7053
+~ ___32-[LDAPTask initializeConnection]_block_invoke_3 : sha256 ac843eb33f421b8e1c39521d313c294ad64ca65cf12c40daf7ba7c31ccb9841d -> e016fbf778688ba23220730bf4e9a08162a553889510fe623101b4617b120cc1
+~ ___32-[LDAPTask initializeConnection]_block_invoke_4 : sha256 5b4261737d5e05033929464d7e75970c7d305bb315e3358e7ebcfbe1519738e3 -> 5290d3fba59c0f92dfddd46514fbb768880d54e5cec08e76e636e9ac82c6d67e
+~ ___32-[LDAPTask initializeConnection]_block_invoke_5 : sha256 affddcdd009dded0348c93090a7748b7f146d71b2f78680f8a96af96f84bd2da -> 95489ea8e67f52a94cc119ce7920b41ff2de98062b5cf9f5bd57b4bc9981a4b3
+~ ___32-[LDAPTask initializeConnection]_block_invoke_6 : sha256 406cc22bb99a870be90c53f4719c4dd2348eb675b3a95970b9ca4644bcad14ab -> fa997b341b6129c889564d7131110971e904d45703eab5f6b9eedf8ea161fc86
+~ ___32-[LDAPTask initializeConnection]_block_invoke.17 : sha256 380bf7be2acacb06b6ca1657520979f2e25184f210acfe8049680e0c2f35dd98 -> dd2de1f5e28126cb5a74c27fd30add8ba5ac0de6cc5504b87a42fd5d9278e152
+~ ___32-[LDAPTask initializeConnection]_block_invoke_2.18 : sha256 c27d5db076e0f052a6767f20519c2b13810e957cd57e29d9beba8b3938de1e24 -> 2eebc594d69e0af4296094ffd83834cf02baae5dd1231bfbb802c73ad8a706ed
+~ -[LDAPTask daLevelErrorForLDAPError:] : sha256 0c85a14988c787e8ec71b5af456c05641917e848ddb905eeef183e0d732206e8 -> cccbb0104fd5502d9839e1c60e10effbe45bdea36c740c4590c86c89657b76d0
+~ -[LDAPTask taskManager] : sha256 795df4432148c000c4bbdce30d1c323888097bf3ae9dc1e88034fd9574c2ea76 -> 05b4c2cb8249a2425c3e8e9fe85d7fc7cbbdb99644b298e3ce7c161516f3148f
+~ -[LDAPTask setTaskManager:] : sha256 96f8aed332f63e80f2e49e0a698a64195ab66fdd43f52281d88143f728719764 -> 872b126f1b73a9758fcd4e1fbde18e209fe68756d50306ad536723a299c93aa5
+~ -[LDAPTask delegate] : sha256 cd213785ad9b1b11161f54e0720b1cf797aeedea5893c0a92fc4d89726815f0b -> 5e8c3957475616114c440815e0cfda08e599a806073bc39937af4b926375c0c5
+~ -[LDAPTask setDelegate:] : sha256 690cce031cc3c7f164fe2c00a720011d9fef595a990aa9fc9a8d15dad4207590 -> cbaff8f28789d7bc6e8adf99d82e3b3d3539fe6e55d93a02278ea298b0e40620
+~ -[LDAPTask ldConnection] : sha256 b7576d02eafae68d12f957c9d0a69ec0dd8a427de8d699a1e6c679a7a95991ba -> 74a18e3896ed974d3dbb1476331e4d75f2bc5e00a77855d4a7218546b13a0d1a
+~ -[LDAPTask setLdConnection:] : sha256 46c1368a5b306465e029b7c468505d974061b7d1f863efe418f57e4401bd7a66 -> b456404218ff94cdfa9487cc4a6d5e8daccc0148846b8993ac38a577d9d495f5
+~ -[LDAPTask dateConnectionWentOut] : sha256 f39a65674e15abff763739e0deaea31b74ddf527defee3ea756f6ae52b13e30b -> 137488056bbbbc3a16bfa2bd1033769e1907026b01b08dc231501e32e64478b9
+~ -[LDAPTask setDateConnectionWentOut:] : sha256 d69bb0afeae82c2d429ba1188b3f4ea8228f4bdbb0edc9d0561402bda0049173 -> 993003317b0103a05011ce890a67e01c25cbe67618b4575359893e90afc72035
+~ -[LDAPTask isFinished] : sha256 13bc288719d58f440329dd77d0aabe3ab5217b00b7e9f780bcc9f8ffd285933e -> 1b28506884b57fcc99ff53ca5481eaefc7d0424ee4236bf148f987213c38c5ce
+~ -[LDAPTask setIsFinished:] : sha256 47f5b0040e92b4cacb30f7c2b8dff5f22f9e97589dcc7eff9e4814e463402d38 -> b5ed67d2e3093081a877171ca027a477aa6bc20dc45ba6debcaca6ec51983be5
+~ -[LDAPTask .cxx_destruct] : sha256 b4e3879fae8264fb57b0cc46e9e46fb8acf60ca4ad7802cb947bfbf59d27a870 -> 456bc62b25653894a092bb21e768336777f205b738208e4828c887bfba4c887e
+~ -[LDAPSearchTask initWithQuery:] : sha256 ee2a4142c51da9324cd89e9e121cd3898f2da90eab05804c446fbb0463407a95 -> 450c84848e11f4cd17d203fc9531ea7922128050541f04275004bdc4455d0b16
+~ -[LDAPSearchTask disable] : sha256 62e4de3dc22c760521d2df026fd9178233712a9b6d4dec0ff91541f28a2103ba -> ba58f4785003141150f8f508cb93d0c5973b5df90be3b0a5551d77ddef733c60
+~ -[LDAPSearchTask _searchStringForWord:] : sha256 f9d5a8d619667a7cbb745c21bad5d8b1510edf03494b9ae2f04119530c5ed0ac -> 3a7bc64551cc31d6aa1752dbb9ef8e473799dcc9b4aaf763f2fdc6beb184f3ab
+~ -[LDAPSearchTask _copySearchStringForQueryInput:] : 716 -> 712
+~ -[LDAPSearchTask _performQuery] : sha256 464ab41e64ba3c10fd3dffd81f424cc92ef2cab56327c03c1b9b3faaa22a4ad2 -> ba7e6e300a91926fc99e185c2d8bf7d6206d4db3c84c7189eb3824eac682d863
+~ ___31-[LDAPSearchTask _performQuery]_block_invoke : sha256 5bdca24de67a7e84bde4cf26da9f68c89b7cba8611bcd7b883aa2641bfb49728 -> eda736098d661b2e2cf5f62a48f6fa9851c4969723f00c8e6e1f0d3ee83e9107
+~ ___31-[LDAPSearchTask _performQuery]_block_invoke_2 : sha256 b24da511a622e350a878c0f8b9fcd47cbba540e4d8fe72617575b43d4670d5f6 -> 520c45b7d3b0c706f77014f16098b876d0a8cffc5746522bb8f9fce1b12a7455
+~ ___31-[LDAPSearchTask _performQuery]_block_invoke_3 : 924 -> 912
+~ ___31-[LDAPSearchTask _performQuery]_block_invoke.105 : sha256 bc98678a9af70970f996a694d710bc800010ca940f760ad207127c668cecdb8e -> 88594c0f5e1b4e737e748247a3ad5dbebb4d3fcaf489d0852474fdb3a47bb326
+~ ___31-[LDAPSearchTask _performQuery]_block_invoke_2.106 : sha256 73d2ba4df0da9b69bbd9defe084d54801249e1b57644510fbe6724b8ec2bbea7 -> 383bede2a67db6d1c130b7c2617345d019e4b216cb9833307a9021550e767ea2
+~ -[LDAPSearchTask _appendKey:value:toSearchResultElement:] : sha256 dc7e04f46ae1434b4db523a32ea0a404e65d4c461ed86d2a19aff1e1e434b186 -> 66278cde20fa594203a661f0070e4c667632ddbc32ad57ae4a95af4a02372fa8
+~ -[LDAPSearchTask _promptForPasswordDueToError:] : sha256 126371e4fbd8508bffb230c6ac657acade5d43a50f4fec7b0a8d2cda5b885b35 -> 374c070a00bc5017990c37311a000403ef2107a124875e4a359d0c1b769162f6
+~ ___47-[LDAPSearchTask _promptForPasswordDueToError:]_block_invoke : sha256 e038de46aa852c5b76a992bc21cf3d585ab5dc520b74c139f681b299a9557ade -> e8239272c7f4ccbfa20bf8d0a04c7921f45bb0de484bbed92aed221615974231
+~ -[LDAPSearchTask _failImmediately] : sha256 a715dbbe4daa7d99454f8ce619d868e1b41630fdad441155a972ec4dc85ba968 -> f612aef64c37ac8b3a981bd930c23a634237c2aa4ef9b0fe761359ed51aa8653
+~ -[LDAPSearchTask performTask] : sha256 93e9adc90119ca4600a59df38c995e8def87b36cd9c8298d73d860650f5ce97a -> eebd2d7473e1dc3e51d2dcd61c3d8173caeac13fd680fafa87377e33cf29580d
+~ -[LDAPSearchTask finishWithError:] : sha256 6f26f1b45152d9aaa8328090e171a3fac0534cd9e8be95301c5dad9d6226b300 -> 2837d4ff703cc173788174cec9cdd84bfa30be06af5306e71b8b6b32f05b84aa
+~ -[LDAPSearchTask numDownloadedElements] : sha256 bc75457bfa75dc8f768ddf47c28ee30932242388c6474c1b8bcfb0b7c82bea94 -> 7f6951662cbe84214c3f660f78240299530363cc8103ca16edfab68604f277bf
+~ -[LDAPSearchTask daLevelErrorForLDAPError:] : sha256 e32bf16ff6697ec96d600713f738f714e0289f8ca174506601ea0fa222eae2e5 -> 5a1ad335ebe9f957fbba7e4175882241f6babee8ef864ac069fdca2f6e4f4fb0
+~ -[LDAPSearchTask query] : sha256 c2443c966d72fba831f026107dd93d9f2548c3bc45b75b209f1860856a9d51b1 -> b77ac02b1228760c244618e7b11bd2cb4faf7ee8bf2efa0070980341fe5556a7
+~ -[LDAPSearchTask foundContacts] : sha256 ec841e130198da1e72270f10599981746394282d32676c0840af05cbe0cef1c9 -> 862aac4b0deda4f8ab4d1dbd9d1afbffb04248f25756ce2a7f1533c543584a7f
+~ -[LDAPSearchTask setFoundContacts:] : sha256 1c0e6b7870df0a409f18d78937dab6b11397166868123c260cefc61b79e216d6 -> 8730443bfdca1ed1d11fadb4698436689738e26e25c02fbd92946ec7996e80b0
+~ -[LDAPSearchTask operation] : sha256 9d4133b34e3f89ee63e083b8e7034e87c56e0a14b2e461f4e3741fc6d12acd62 -> 9f4e56ef77520cabb506580f7946762219738fdb074dc9305d2e76f2b5cd68e0
+~ -[LDAPSearchTask setOperation:] : sha256 cee8e7c60017912731b975504f66954ba9be610fbd661fbdd117f8898d31b106 -> fa0f376df1d1861f7f7818b1afa92e7e0d210a97fbe035a485e2c299d4ba87fa
+~ -[LDAPSearchTask .cxx_destruct] : sha256 1fa86a4f03d61a5aae7337294e33ef375a48b0bf9cca4937d5a4f04b7bfb6ff1 -> 6b682a8860c3c47f85f441580cefc943ce91a6f1a813156de148baadecf04376
+~ -[LDAPGetDefaultSearchBaseTask _performQuery] : sha256 1c66d3871260e3036bca14995a00bf37b4b64a4a63b89e73f884e0f7848a05cf -> 06ed1cb310079bbb1c2a46a319464efc98990ff359fb4a78b36c6344f8e9fc2f
+~ ___45-[LDAPGetDefaultSearchBaseTask _performQuery]_block_invoke : sha256 0f6ba356c62028e3d30d79780622adb5a58c61a34fd69b5988636d4ccdd5af96 -> 19910e498cfa066988546362ac9f2483986241680fe056e7fac522a606fa08de
+~ ___45-[LDAPGetDefaultSearchBaseTask _performQuery]_block_invoke_2 : sha256 cca12018d32e5561a1864252392c0c42a3552ccf94b19f99bac1573c9931ac13 -> 267a6e6de0fae23d6169a8ab9d1753fe32accdf263cd126b823ba1f0fe0d7ffc
+~ ___45-[LDAPGetDefaultSearchBaseTask _performQuery]_block_invoke_3 : 984 -> 980
+~ -[LDAPGetDefaultSearchBaseTask performTask] : sha256 3a5bf84823795653f15a56cf73eba002f31f20208cdbdffc1c344eee2283707f -> dc4baf025753417ab74c6b896a2a8c7fb7538d59a47d7d036ac9505dc45aa5de
+~ -[LDAPGetDefaultSearchBaseTask finishWithError:] : sha256 5603c95de21c425bb14dd40b5b07e4de6453b9d49e73aa000ae08c25c2409a54 -> 9425408c946aca3104d5c222a9263ef3b07805866a5be84e860e2b0e4f29be9e
+~ -[LDAPGetDefaultSearchBaseTask numDownloadedElements] : sha256 adfe484eb233ec856e965206c49f525cb244566190d41af00594f88a6ba29d54 -> 99e774b3d1cf16ebd95dbc68956b70568fba237dd84a057b8538a86740a43c33
+~ -[LDAPGetDefaultSearchBaseTask daLevelErrorForLDAPError:] : sha256 ea6037fdfb48805945f0abbd05c6e4e1dbcb5d0b870eab1bd59bc00008b34d82 -> c56be1aab4f070ebd1fbb158f2d2ef7bb5f1167eafb50d09101146ccac313419
+~ -[LDAPGetDefaultSearchBaseTask defaultNamingContext] : sha256 a807406845e01834060af6d8b544d0a1e1b2df6b680ca4325617da2d6cc27b6c -> 67060de194dceabb70868c8b67b7ab2bdd53c162d9bf24b22a32334133a0e118
+~ -[LDAPGetDefaultSearchBaseTask setDefaultNamingContext:] : sha256 cd0242801bfd984bd9af6a253fda3e5fac33a862f5f97d19a722005f08910bd1 -> d3f91952269d002fa192c73cb2bea6502c61dff581cf819a09cb9bca7038cf89
+~ -[LDAPGetDefaultSearchBaseTask .cxx_destruct] : sha256 9157a0025dea7b703b438bd8565f476da781275aef76d0085420f3420a2b1090 -> f124327ebf521b0b3473e36d19ff630ba43072a563f1e11dc48ed4fe56b2dae2
+~ -[LDAPSearchSettings initWithSettingsDict:] : sha256 17a45994c3446ca57a3478275d1204e32246f5a3ab76295195b74c6101c89361 -> e08cc1c7f334bc5eb9ac7d542ca9a5777b2704b6d5b58538fe846f33f272a614
+~ -[LDAPSearchSettings settingsDict] : sha256 e79ad33fb24bae441c66883efc5eb4bfdd854a55db692a3b610911b5bc93f988 -> 9916769f2b7181ed69b8fbb82eab320ed18ed7b35b32a7bb73b9367d0a30b8e3
+~ -[LDAPSearchSettings hasSameScopeAndBaseAsOther:] : sha256 346c5ed8348c2a8e87280e3db059f3660451daf1b86ac1f93944587ba9405cee -> 3a1b3d217d1484ab1a3588b77ea4aa4a76cf9a62e76881de4c09c65ce50f494a
+~ -[LDAPSearchSettings hash] : sha256 97c59527ccc4f6980e22c8ae30b2463b1277f99629ab202d199b6f684a7343a7 -> e48325abda194b835740cad4abdaff38ed02a4d404cd9530ad602b2198d10264
+~ -[LDAPSearchSettings isEqual:] : sha256 6be88dad4265c051255cdac6258a1914a5196dacf31db04074888dd01e45d695 -> 8bd02d378047fed59cf0568ed30a179704b057297093c1b052f60bf1fe217d9a
+~ -[LDAPSearchSettings description] : sha256 00e3258a29b7d2add21ab8403f8194eca1596d18277abea11ce1486371708359 -> 012564128e4ca4e0e2ea82f769635f06c220776d3167e199574a85f1d943bab1
+~ -[LDAPSearchSettings setSearchDescription:] : sha256 1746209eb79a2f9cd02b94d99e99af6674b8bceb287e1f7730845a291a096d74 -> efb1b8d9750d918e7c1c6195ea6c5aae46c4b6a6d2a485e4515976dbdee9450b
+~ -[LDAPSearchSettings setSearchBase:] : sha256 c1fa6bb61f831be44466317edbf9895b2aced26221720c5ac2a950cea56c8e9c -> c52e7f97e3b0af8a1e913bf84718a745ec03f4564905ce9b40da6bdcbd201c59
+~ -[LDAPSearchSettings .cxx_destruct] : sha256 f52fb04f6095ea6c1df5552d812683f6b17c9f8d0bc0b444aa6f78402c29092a -> 9aacfa68d07a85296ae9e8db6912b06a2e1f0668aea0d2a0cf3b88fcd49c2e46
+~ +[LDAPLocalDBHelper sharedInstance] : sha256 5873b073eb454ac030042484d16a8db6360366bcf545b06e8ab31fb57234386c -> d4de8164ddc3e397688975d361025b37bba66e1e147301f43cdc7fe24b34d3c5
+~ -[NSString(LDAPExtensions) ldapHumanReadableStringFromSearchBase] : 528 -> 524
+~ -[NSString(LDAPExtensions) ldapSanitizedAddress] : sha256 b7fb87cffe296c54c4f284c207e5ab525cffa7bb09d306428e6b97dcab0c9703 -> 20f195fac3d08e2ccfcd2009ac675284aafb88f25bc731185f9f69ae79d76fb2
+~ -[LDAPAccount _reallyPerformSearchQuery:].cold.1 : sha256 b676622429f193368f36ffc30178d11ed3745b24d01400e0d9d5a0f4b02c62ea -> 486db048cbe2812448d628505a136b3a8f4ee12faa7d5349a804078e7b4f7755
+~ -[LDAPSearchTask _performQuery].cold.1 : sha256 38a0e0ab42cf8a578e72ac6a5188532fb6bf434b27349c0a574d46ece4b51ee1 -> 93f469c728d597d277d21a09a2a56a32334539c298e971f34044b04961d2cf66
+~ -[LDAPGetDefaultSearchBaseTask _performQuery].cold.1 : sha256 a98bac9effc53d74f99251250a7f17f1870e8043f8d1a2d10943a041bfaf8505 -> c91a21ae907946e7f9fb5288106d77c9b5d887ea23c0f8c637f6095064b7337d
+
+```

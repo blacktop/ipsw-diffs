@@ -1,0 +1,1790 @@
+## CoreSpeech
+
+> `/System/Library/PrivateFrameworks/CoreSpeech.framework/CoreSpeech`
+
+```diff
+
+-3600.64.114.1.5
+-  __TEXT.__text: 0x1492e8 sha256:7db93fb6baf7929119833cafd88422702ce063ffe4fb2093bb4b3347edd7fcad
+-  __TEXT.__lazy_helpers: 0x54 sha256:e96966fbfd0862a9bbf55c46b5abcf4c3db9afba68538ebba227f49eea9ef926
+-  __TEXT.__objc_methlist: 0x14a64 sha256:f3fb0ab33d563dc3b21cec3488a3a056667f6add26fe6407b3001fa64b694363
++3600.70.8.0.0
++  __TEXT.__text: 0x149b80 sha256:20ca872b755133caa2689c4668ffb3507fdaaf3ae29e9ac9543d213aa673b38c
++  __TEXT.__lazy_helpers: 0x54 sha256:da0a9567c4716e74e1ef2585e34a527e93b8131a2f4a326d9a6051e088559838
++  __TEXT.__objc_methlist: 0x14bec sha256:a0e6fc2148d730daac34152e75f8d6cd98b4b7e28f176f141be284b5b52c7c31
+   __TEXT.__const: 0x42c sha256:5c0ea257021be15f8959432a648819046c2544b99b327d1454d70efd6813ca8c
+   __TEXT.__dlopen_cstrs: 0x1e0 sha256:47ed08103b7330ce44ef361908c1f66b63c1dd96e9d2a778cb19c8ccf9844dee
+-  __TEXT.__gcc_except_tab: 0x30c8 sha256:1898e1bfa8c80c71aa6e9581a068946b109dd1b8fedb15709d09bbd3e17cf58b
+-  __TEXT.__cstring: 0x287dd sha256:3e0dc7f7642c0c3fcc9a6b9b30dccf3b7814034fec929faea09d9adaec9fc965
+-  __TEXT.__oslogstring: 0x1fb63 sha256:a7ae9d7b4dbc35da846713f61c8e7a6b16f19a05ddfe622df38fb4bc564b09a4
+-  __TEXT.__unwind_info: 0x4ec8 sha256:df2ede9e03e4984e09d8067ec92eb0ecf6b21b60d6f5ce2a5aa34a4d5797b036
++  __TEXT.__gcc_except_tab: 0x3140 sha256:75d56f4a4252585813555910ff35cacb4155b092181082f1f372bec39d233654
++  __TEXT.__cstring: 0x28a0d sha256:8f850234cb2ef3a4539b3b1df19c8e385ddcc4998b4015bbace339b4a15f81cb
++  __TEXT.__oslogstring: 0x1fd55 sha256:b0f86327035b1e595106eb701b1c5b907655900c4c7766836eb5c101d33399e1
++  __TEXT.__unwind_info: 0x4f28 sha256:ec9138139a05286614af4ca0f1f83ce64c35bcca5bba4a008abaf8481c2e1ead
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x4240 sha256:957498bb1debdaff794e3b3cbdd9ba25c2a2f7b6a2d0d36311da6c77429efa43
+-  __DATA_CONST.__objc_classlist: 0x838 sha256:b3740892ed90e38b94e7bcf48632f31437a79fc7b65d6c2a78a8f821692b950f
+-  __DATA_CONST.__objc_catlist: 0x40 sha256:f9ad631bf9deae0d45780c7782fb5f53c0cf3449077d3d1922fac485f747e2ae
+-  __DATA_CONST.__objc_protolist: 0x4d8 sha256:7e2f8646e4d937adf34042b77cb6c595771b13e83e1ed972bc1d4e200af160cf
++  __DATA_CONST.__const: 0x4268 sha256:7c9704eadcfbd56cd87dda203df8e296637fb78984c4ee9e187760aa31da5f56
++  __DATA_CONST.__objc_classlist: 0x848 sha256:be8f2647452a3a436fcc1d6d694c507ae9be1e07fa2fdf049541646eb7163d33
++  __DATA_CONST.__objc_catlist: 0x40 sha256:4774c94524164d1de573a970a07c04cf1b554a92c81a26886ccc18a8072dfc47
++  __DATA_CONST.__objc_protolist: 0x4e0 sha256:edd75f113b6e5bccd449ac411b827fa20bc9f5570062a11473c3c75aa29c3783
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__weak_got: 0x10 sha256:db089a9946ee2f440f1454b6bd081bc906524b106b3b9bd5745c567d00425fed
+-  __DATA_CONST.__objc_selrefs: 0xabe0 sha256:0b09ec43a252717a64b038fd913b44a8d94da25a1fd3149c26973d6a298be2a6
+-  __DATA_CONST.__objc_protorefs: 0xa0 sha256:e65b529a5c5c5c4f25af7ea899838741ae2dfc950b6164164db2f76825c1da14
+-  __DATA_CONST.__objc_superrefs: 0x680 sha256:96b1f7db2d4abf851b7b0ba26469b5d5e2c5f3f49f68a2a14efc3b94cace232f
+-  __DATA_CONST.__objc_arraydata: 0x3e8 sha256:468623aff6c06eb780e9e266e4274406aabf1005cb14f7de579f61bb918bbd79
+-  __DATA_CONST.__got: 0x1ae8 sha256:68527d1fad6f6de04116cb0bbbbb25b184402c1b567027dcf2574e011cfd93ce
+-  __AUTH_CONST.__const: 0x1e80 sha256:98a4b2aaf811b498d3846e9ccb17adf0d094749fc673aec3f8813ad0066cb3cc
+-  __AUTH_CONST.__cfstring: 0x9660 sha256:220594b3496b9c3f7c566680ada64b1e582f57a7c4acb04227fa50bbcbde1ec2
+-  __AUTH_CONST.__objc_const: 0x20a58 sha256:404336dd375b284c1342bfd97ff3a575df0bade55de819b3bbad47ffc0e29029
+-  __AUTH_CONST.__weak_auth_got: 0x28 sha256:4a7d5a6862c5431b2249d57b76660013b16903a5dadf666d8b652501384c4219
+-  __AUTH_CONST.__lazy_load_got: 0x8 sha256:36282603f06d0e2bb17f2d9f7381d28501a7f12568134753ba3d140f5d224b3d
+-  __AUTH_CONST.__objc_intobj: 0x9a8 sha256:8048215b001f3d20437b70305971631872253d608d77db02c95187bd5617a407
+-  __AUTH_CONST.__objc_doubleobj: 0xb0 sha256:395e9125277c7beb825f4d23f36d642dff3a442c3636e8668adc6607e99b4809
+-  __AUTH_CONST.__objc_dictobj: 0x3c0 sha256:a25e500d9e991b10360646cfc58c60814dca6ee39869446202a2173d948689d3
+-  __AUTH_CONST.__objc_floatobj: 0x4f0 sha256:22571bc2d0bc04006861af2c0cd393911ec943ad2994e8a049f36c0ea8e8b37e
+-  __AUTH_CONST.__objc_arrayobj: 0x108 sha256:bf22f558431d629afbda0ccc7485591c3bc3c8a7ad5f98e597eb76868dc51cc2
+-  __AUTH_CONST.__auth_got: 0xd98 sha256:375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d
+-  __AUTH.__objc_data: 0x3e80 sha256:d26adaf517de167e3418acb8b710ea684da9cc8514a6498664b67cd1706560fe
+-  __DATA.__objc_ivar: 0x1930 sha256:e999dd50227793ab93f4bca395883a8c43c6f9eb78af91f3034436c4bb478bc5
+-  __DATA.__data: 0x39b4 sha256:f9f0a88b03006b2c2029ae393ac519472dae9c4cdef93d437fee7c6cbc2232d0
++  __DATA_CONST.__weak_got: 0x10 sha256:c9b00cf8e5fdc159d5e0657836ccec0cbd1eddc62a50f4b3c9f634c56153dbb7
++  __DATA_CONST.__objc_selrefs: 0xad00 sha256:c1a8e3ab44f159a14174c2577e10552edc421bc96b5ce32273d396b8503babe9
++  __DATA_CONST.__objc_protorefs: 0xa0 sha256:7fde895b8175e1bd8c9203604f177600e4f7d053223f02f844f47ac68a1d0334
++  __DATA_CONST.__objc_superrefs: 0x680 sha256:3d60ad0a9f95e2608f58334315ea03d552fb7520b5e74f88f2f8901c5d525c30
++  __DATA_CONST.__objc_arraydata: 0x3e8 sha256:cb67a80bfac7b64630011f7abf2655fe519ca604cdf5fbbe4ade20494f5915d2
++  __DATA_CONST.__got: 0x1b18 sha256:8500a9ed9784034463a4688564a6e48059792dfcd32761cda95aab8849018a28
++  __AUTH_CONST.__const: 0x1e60 sha256:9d6009785423ff451ff6ce5ee8cae4a03aab7829159e3adc330fc2f86bd19150
++  __AUTH_CONST.__cfstring: 0x9680 sha256:900f4d95b7310cf4a14d3338ad85132313752df8e199e35e53b53dd5822d6c00
++  __AUTH_CONST.__objc_const: 0x20cd8 sha256:e40ea5dfedf9d0835c4d98a73823d60b556c239e5f3f4c3ef9cdf125b5207c78
++  __AUTH_CONST.__weak_auth_got: 0x28 sha256:ce730ac904d7ee375ed02cc55451c60f1221ea40d155b3549317863900e04169
++  __AUTH_CONST.__lazy_load_got: 0x8 sha256:364582450e72e87da93ae54f10996f5680154eb6e11cf8dbb6a7ce7bac3ca42b
++  __AUTH_CONST.__objc_intobj: 0x9a8 sha256:f048b3e39d25a5317b6a08d3882b49d167c3d74fe58c2d5b556111aed0a318db
++  __AUTH_CONST.__objc_doubleobj: 0xb0 sha256:fe5a15b80384bfff1b27f90e392b1124f0216a23e3b91845596e778b290ca9c3
++  __AUTH_CONST.__objc_dictobj: 0x3c0 sha256:9ddd62d54d4dbe79d13e706a8524775de5ac30d87c851fff7ed7402e99896a93
++  __AUTH_CONST.__objc_floatobj: 0x4f0 sha256:e7a141d9513e6770b1cc6d8d13fbe46be7eb560a3ac693cb9a749af8c063be1d
++  __AUTH_CONST.__objc_arrayobj: 0x108 sha256:048d6efe79c173d972d15143371dbaa7483ae9b800ee123d52efe24b7b4d62bc
++  __AUTH_CONST.__auth_got: 0xda0 sha256:144d266396f3c6a36f91a4b3cbc48d41356e7f7214390ae57387a39377cf55c2
++  __AUTH.__objc_data: 0x3f20 sha256:eadb2e4c72e026828d95f7b7d89a8efe96fac52f5b1a24419789c08330757f38
++  __DATA.__objc_ivar: 0x1940 sha256:53b045261f0df11edb698e7f3dbd22a41b24cd51f2ee33734955fff90dd8871d
++  __DATA.__data: 0x3a14 sha256:010bf1003827ff0dd7253bde101f8a35959c9cdd44e9c86ebd1a336280b2c17c
+   __DATA.__bss: 0x678 sha256:f8ae869707f0b5b28616c2bd13782d5d89ee022dbc737f19ca0cd46f6cd9af64
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0x13b0 sha256:7e4d8f91058e962f59c5cd9d43f208dc8d0cbeb9590722a6e9e9ea1decc7a828
+-  __DATA_DIRTY.__data: 0xc0 sha256:20cce53fc25b84622ca4f44a5e904ecc326cfdd85ca93306c00bb641d168e817
++  __DATA_DIRTY.__objc_data: 0x13b0 sha256:31b118c02b1e01daa776f2b4836aee798661b2ab7b7466fb24c783a1843e66bf
++  __DATA_DIRTY.__data: 0xc0 sha256:066b1c0da4125dc6e05ebb77b2abe7536f67f20059c2956c2e73d41066021329
+   __DATA_DIRTY.__bss: 0x150 sha256:52a3e0804d93dc525ec3c67ef8ac5b01756ecf0513e36f3c19435e4c82cb5d29
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C889FE9D-D31C-32D4-BB22-4985F7E7035A
+-  Functions: 8055
+-  Symbols:   26496
+-  CStrings:  6767
++  UUID: 033F8BBC-A0ED-3BDF-90EF-9C1D52CA0289
++  Functions: 8087
++  Symbols:   26615
++  CStrings:  6781
+ 
+Symbols:
++ +[CSAttendingOptions optionForFlexibleFollowupWithAudioRecordType:deviceId:startAttendingSampleCount:shouldPrependAudioBeforeSpeechDetectionOnset:isCanarySampled:]
++ +[CSAttendingSelfLogger emitOSDDetectionReportedWithSpeechStartTimeInMs:minConsecutiveSpeechThresholdInMs:silenceProbabilityThreshold:isCanarySampled:osdModelVersion:withMHUUID:]
++ +[CSSiriAudioActivationInfo _alertDictionaryForRecordRoute:playbackRoute:speechEvent:ringerState:startingAlertBeepOverideID:presentationMode:hasPlayedStartAlert:supportsEchoCancellation:isVoiceOverTouchEnabled:isVibrationEnabled:isVibrationSupported:activationHostTime:isVoiceOverSiriSoundsEnabled:suppressStartAlert:]
++ +[CSVoiceTriggerActivationPolicyFactory policy]
++ -[CSAttendingTriggerInfo initWithAttendingType:detectedToken:triggerMachTime:triggerAbsStartSampleId:audioRecordType:audioRecordDeviceId:amountOfSpeechDetectedInMs:triggerThresholdInMs:speechStartTimeInMs:]
++ -[CSAttendingTriggerInfo speechStartTimeInMs]
++ -[CSContinuousAudioFingerprintProvider audioProviderSelector]
++ -[CSContinuousAudioFingerprintProvider initWithAudioProviderSelector:]
++ -[CSContinuousAudioFingerprintProvider setAudioProviderSelector:]
++ -[CSSpeechManager _cancelConnectionTimer]
++ -[CSSpeechManager _connectToAlwaysOnExclaveServerEndpoint:]
++ -[CSSpeechManager _handleExclaveServerEndpointActiveMessage]
++ -[CSSpeechManager _handleExclaveServerEndpointInactiveMessage]
++ -[CSSpeechManager exclaveServerConnectTimeout]
++ -[CSSpeechManager exclaveServerEndpointConnectionHoldPolicy]
++ -[CSSpeechManager setExclaveServerConnectTimeout:]
++ -[CSSpeechManager setExclaveServerEndpointConnectionHoldPolicy:]
++ -[CSVoiceTriggerHandlerAOE .cxx_destruct]
++ -[CSVoiceTriggerHandlerAOE initWithDelegate:]
++ -[CSVoiceTriggerHandlerAOE initWithDelegate:type:]
++ -[CSVoiceTriggerHandlerAOE inputControlDidEnterBlockingMode:]
++ -[CSVoiceTriggerHandlerAOE inputControlFailedToStart:error:]
++ -[CSVoiceTriggerHandlerAOE inputControlFailedUnexpectedlyForSource:forReason:]
++ -[CSVoiceTriggerHandlerAOE inputControlWillStartStreamingForSource:completion:]
++ -[CSVoiceTriggerHandlerAOE reset]
++ -[CSVoiceTriggerHandlerAOE secondPassFailedUnexpectedlyForSource:forReason:]
++ -[CSVoiceTriggerHandlerAOE secondPassStartFailedForSource:error:]
++ -[CSVoiceTriggerHandlerAOE setAsset:]
++ -[CSVoiceTriggerHandlerAOE setVoiceTriggerDelegate:]
++ -[CSVoiceTriggerHandlerAOE start]
++ -[CSVoiceTriggerHandlerAOE voiceTriggerDelegate]
++ GCC_except_table1272
++ GCC_except_table1284
++ GCC_except_table1490
++ GCC_except_table1558
++ GCC_except_table1582
++ GCC_except_table1586
++ GCC_except_table1602
++ GCC_except_table1605
++ GCC_except_table1635
++ GCC_except_table1733
++ GCC_except_table1735
++ GCC_except_table1737
++ GCC_except_table1743
++ GCC_except_table1803
++ GCC_except_table1829
++ GCC_except_table1835
++ GCC_except_table1916
++ GCC_except_table1936
++ GCC_except_table2052
++ GCC_except_table2201
++ GCC_except_table2231
++ GCC_except_table2234
++ GCC_except_table2237
++ GCC_except_table2242
++ GCC_except_table2254
++ GCC_except_table2259
++ GCC_except_table2262
++ GCC_except_table2352
++ GCC_except_table2358
++ GCC_except_table2398
++ GCC_except_table2401
++ GCC_except_table2405
++ GCC_except_table2423
++ GCC_except_table2454
++ GCC_except_table2557
++ GCC_except_table2616
++ GCC_except_table2628
++ GCC_except_table2659
++ GCC_except_table2684
++ GCC_except_table2695
++ GCC_except_table2729
++ GCC_except_table2732
++ GCC_except_table2733
++ GCC_except_table2737
++ GCC_except_table2743
++ GCC_except_table2744
++ GCC_except_table2747
++ GCC_except_table2757
++ GCC_except_table2763
++ GCC_except_table2765
++ GCC_except_table2766
++ GCC_except_table2836
++ GCC_except_table3102
++ GCC_except_table3180
++ GCC_except_table3217
++ GCC_except_table3228
++ GCC_except_table3250
++ GCC_except_table3253
++ GCC_except_table3256
++ GCC_except_table3287
++ GCC_except_table3347
++ GCC_except_table3579
++ GCC_except_table3605
++ GCC_except_table3666
++ GCC_except_table3667
++ GCC_except_table3669
++ GCC_except_table3671
++ GCC_except_table3687
++ GCC_except_table3689
++ GCC_except_table3691
++ GCC_except_table3695
++ GCC_except_table3697
++ GCC_except_table3699
++ GCC_except_table3721
++ GCC_except_table3729
++ GCC_except_table3732
++ GCC_except_table3734
++ GCC_except_table3735
++ GCC_except_table3736
++ GCC_except_table3740
++ GCC_except_table3741
++ GCC_except_table3742
++ GCC_except_table3743
++ GCC_except_table3748
++ GCC_except_table3756
++ GCC_except_table3761
++ GCC_except_table3762
++ GCC_except_table3763
++ GCC_except_table3764
++ GCC_except_table3899
++ GCC_except_table3923
++ GCC_except_table3989
++ GCC_except_table4005
++ GCC_except_table4026
++ GCC_except_table4118
++ GCC_except_table4368
++ GCC_except_table4435
++ GCC_except_table4436
++ GCC_except_table4440
++ GCC_except_table4443
++ GCC_except_table4447
++ GCC_except_table4472
++ GCC_except_table4525
++ GCC_except_table4531
++ GCC_except_table4601
++ GCC_except_table4804
++ GCC_except_table4811
++ GCC_except_table4818
++ GCC_except_table4824
++ GCC_except_table4907
++ GCC_except_table5067
++ GCC_except_table5077
++ GCC_except_table5101
++ GCC_except_table5121
++ GCC_except_table5204
++ GCC_except_table5218
++ GCC_except_table5227
++ GCC_except_table5234
++ GCC_except_table5240
++ GCC_except_table5245
++ GCC_except_table5253
++ GCC_except_table5259
++ GCC_except_table5272
++ GCC_except_table5278
++ GCC_except_table5296
++ GCC_except_table5297
++ GCC_except_table5298
++ GCC_except_table5299
++ GCC_except_table5301
++ GCC_except_table5302
++ GCC_except_table5303
++ GCC_except_table5304
++ GCC_except_table5305
++ GCC_except_table5307
++ GCC_except_table5308
++ GCC_except_table5311
++ GCC_except_table5326
++ GCC_except_table5400
++ GCC_except_table5404
++ GCC_except_table5458
++ GCC_except_table5488
++ GCC_except_table5491
++ GCC_except_table5581
++ GCC_except_table5595
++ GCC_except_table5602
++ GCC_except_table5614
++ GCC_except_table5618
++ GCC_except_table5628
++ GCC_except_table5857
++ GCC_except_table5890
++ GCC_except_table5895
++ GCC_except_table5932
++ GCC_except_table5941
++ GCC_except_table5971
++ GCC_except_table6039
++ GCC_except_table6181
++ GCC_except_table6284
++ GCC_except_table6292
++ GCC_except_table6312
++ GCC_except_table6317
++ GCC_except_table6423
++ GCC_except_table6478
++ GCC_except_table6558
++ GCC_except_table6580
++ GCC_except_table6581
++ GCC_except_table6591
++ GCC_except_table6592
++ GCC_except_table6604
++ GCC_except_table6635
++ GCC_except_table6646
++ GCC_except_table6651
++ GCC_except_table6656
++ GCC_except_table6684
++ GCC_except_table6756
++ GCC_except_table6768
++ GCC_except_table6791
++ GCC_except_table6802
++ GCC_except_table6805
++ GCC_except_table6828
++ GCC_except_table6840
++ GCC_except_table7120
++ GCC_except_table7156
++ GCC_except_table7229
++ GCC_except_table7283
++ GCC_except_table7306
++ GCC_except_table7347
++ GCC_except_table7358
++ GCC_except_table7498
++ GCC_except_table7506
++ GCC_except_table7622
++ GCC_except_table7623
++ GCC_except_table7624
++ GCC_except_table7625
++ GCC_except_table7626
++ GCC_except_table7631
++ GCC_except_table7694
++ GCC_except_table7740
++ GCC_except_table7748
++ GCC_except_table7754
++ GCC_except_table7779
++ GCC_except_table7785
++ GCC_except_table7791
++ GCC_except_table7929
++ _CSSupportsAggressiveEC
++ _MACancelDownloadErrorDomain_block_invoke.enableHeartbeat.10169
++ _MACancelDownloadErrorDomain_block_invoke.heartbeat.18828
++ _MobileTimerLibrary.646
++ _MobileTimerLibraryCore.frameworkLibrary.650
++ _OBJC_CLASS_$_CSExclaveServerEndpointConnectionHoldPolicy
++ _OBJC_CLASS_$_CSFTimer
++ _OBJC_CLASS_$_CSFTimerContext
++ _OBJC_CLASS_$_CSHardwareLatencyHelper
++ _OBJC_CLASS_$_CSVoiceTriggerActivationPolicyFactory
++ _OBJC_CLASS_$_CSVoiceTriggerHandlerAOE
++ _OBJC_CLASS_$_MHSchemaMHOSDDetectionReported
++ _OBJC_IVAR_$_CSAttendingTriggerInfo._speechStartTimeInMs
++ _OBJC_IVAR_$_CSContinuousAudioFingerprintProvider._audioProviderSelector
++ _OBJC_IVAR_$_CSSpeechManager._exclaveServerConnectTimeout
++ _OBJC_IVAR_$_CSSpeechManager._exclaveServerEndpointConnectionHoldPolicy
++ _OBJC_IVAR_$_CSVoiceTriggerHandlerAOE._voiceTriggerDelegate
++ _OBJC_METACLASS_$_CSVoiceTriggerActivationPolicyFactory
++ _OBJC_METACLASS_$_CSVoiceTriggerHandlerAOE
++ __OBJC_$_CLASS_METHODS_CSVoiceTriggerActivationPolicyFactory
++ __OBJC_$_INSTANCE_METHODS_CSVoiceTriggerHandlerAOE
++ __OBJC_$_INSTANCE_VARIABLES_CSVoiceTriggerHandlerAOE
++ __OBJC_$_PROP_LIST_CSVoiceTriggerHandlerAOE
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CSVoiceTriggerAoEInputControlDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CSVoiceTriggerAoEInputControlDelegate
++ __OBJC_$_PROTOCOL_REFS_CSVoiceTriggerAoEInputControlDelegate
++ __OBJC_CLASS_PROTOCOLS_$_CSVoiceTriggerHandlerAOE
++ __OBJC_CLASS_RO_$_CSVoiceTriggerActivationPolicyFactory
++ __OBJC_CLASS_RO_$_CSVoiceTriggerHandlerAOE
++ __OBJC_LABEL_PROTOCOL_$_CSVoiceTriggerAoEInputControlDelegate
++ __OBJC_METACLASS_RO_$_CSVoiceTriggerActivationPolicyFactory
++ __OBJC_METACLASS_RO_$_CSVoiceTriggerHandlerAOE
++ __OBJC_PROTOCOL_$_CSVoiceTriggerAoEInputControlDelegate
++ __ZNKSt3__111__copy_implclB9fqe220106IPNS_6vectorINS2_IfNS_9allocatorIfEEEENS3_IS5_EEEES8_S8_Li0EEENS_4pairIT_T1_EESA_T0_SB_
++ __ZNKSt3__111__copy_implclB9fqe220106IPNS_6vectorIfNS_9allocatorIfEEEES6_S6_Li0EEENS_4pairIT_T1_EES8_T0_S9_
++ __ZNSt12length_errorC1B9fqe220106EPKc
++ __ZNSt12out_of_rangeC1B9fqe220106EPKc
++ __ZNSt3__110unique_ptrI15SmartSiriVolumeNS_14default_deleteIS1_EEE5resetB9fqe220106EPS1_
++ __ZNSt3__110unique_ptrIN10corespeech25CSAudioCircularBufferImplIhEENS_14default_deleteIS3_EEE5resetB9fqe220106EPS3_
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorINS_4pairIfjEEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIPjEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIfEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIjEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9fqe220106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9fqe220106EPKc
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIfNS2_IfEEEEEEPS5_EEED2B9fqe220106Ev
++ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220106INS_9allocatorINS_6vectorINS2_IfNS1_IfEEEENS1_IS4_EEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220106INS_9allocatorINS_6vectorIfNS1_IfEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__16vectorINS0_INS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEEENS1_IS7_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE16__destroy_vectorclB9fqe220106Ev
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE16__init_with_sizeB9fqe220106IPS5_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE16__destroy_vectorclB9fqe220106Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE16__init_with_sizeB9fqe220106IPS3_S7_EEvT_T0_m
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE18__assign_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPS3_S8_EEvT0_T1_l
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE5clearB9fqe220106Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEEC2B9fqe220106EmRKS3_
++ __ZNSt3__16vectorINS_4pairIfjEENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9fqe220106IPfS5_EEvT_T0_m
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPfS6_EEvT0_T1_l
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9fqe220106EmRKf
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9fqe220106Ev
++ __ZSt28__throw_bad_array_new_lengthB9fqe220106v
++ ___100-[CSRemoteControlClient _fetchDataFromAudioFileUrl:aesKey:encryptedAudioSampleBypeDepth:completion:]_block_invoke.681
++ ___102-[CoreSpeechXPC voiceTriggerRTModelWithRequestOptions:downloadedModels:preinstalledModels:completion:]_block_invoke.377
++ ___105-[CSHybridEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.512
++ ___105-[CSHybridEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.516
++ ___105-[CSHybridEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.519
++ ___105-[CSRemoraEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.444
++ ___105-[CSRemoraEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.446
++ ___105-[CSRemoraEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.448
++ ___108-[CSSiriAudioPlaybackService _startRequest:options:preparationHandler:executionHandler:finalizationHandler:]_block_invoke.73
++ ___108-[CSSiriAudioPlaybackService _startRequest:options:preparationHandler:executionHandler:finalizationHandler:]_block_invoke_2.74
++ ___108-[CSSiriAudioPlaybackService _startRequest:options:preparationHandler:executionHandler:finalizationHandler:]_block_invoke_3.75
++ ___109-[CSVoiceTriggerAssetHandlerMac _getVoiceTriggerAssetFromAssetManagerWithLocale:bundleIdentifier:completion:]_block_invoke.369
++ ___109-[CSVoiceTriggerAssetHandlerMac _getVoiceTriggerAssetFromAssetManagerWithLocale:bundleIdentifier:completion:]_block_invoke.371
++ ___110-[CSSiriSpeechRecorder speechControllerDidStopRecording:audioDeviceInfo:forReason:estimatedSpeechEndHostTime:]_block_invoke.245
++ ___110-[CSVoiceTriggerSecondPass _requestStartAudioStreamWitContext:audioProviderUUID:startStreamOption:completion:]_block_invoke.451
++ ___112-[CSBuiltInVoiceTrigger _handleVoiceTriggerSecondPassWithSource:deviceId:event:audioProviderUUID:firstPassInfo:]_block_invoke.490
++ ___113-[CSVoiceTriggerFirstPassJarvis _handleJarvisVoiceTriggerFromDeviceId:activationInfo:triggerHostTime:completion:]_block_invoke.386
++ ___115-[CSVoiceTriggerFirstPassHearst _handleSecondPassResult:secondPassRequest:deviceId:requestOption:error:completion:]_block_invoke.462
++ ___115-[CSVoiceTriggerFirstPassHearst _handleSecondPassResult:secondPassRequest:deviceId:requestOption:error:completion:]_block_invoke.473
++ ___118-[CSSiriAudioPlaybackService _startHapticOnlyRequest:options:preparationHandler:executionHandler:finalizationHandler:]_block_invoke.72
++ ___125-[CSRemoteControlClient createRemoteVoiceProfileWithAudioFiles:aesKey:encryptedAudioSampleBypeDepth:languageCode:completion:]_block_invoke.655
++ ___125-[CSRemoteControlClient createRemoteVoiceProfileWithAudioFiles:aesKey:encryptedAudioSampleBypeDepth:languageCode:completion:]_block_invoke.659
++ ___133-[CSBuiltInVoiceTrigger audioStreamProvider:numSamplesAvailableInExclave:hostTime:arrivalHostTimeToAudioRecorder:exclaveSampleCount:]_block_invoke.466
++ ___145-[CSSiriSpeechRecorder _speechControllerDidStopRecording:audioDeviceInfo:forReason:estimatedSpeechEndHostTime:errorCodeOverride:underlyingError:]_block_invoke.249
++ ___145-[CSSiriSpeechRecorder _speechControllerDidStopRecording:audioDeviceInfo:forReason:estimatedSpeechEndHostTime:errorCodeOverride:underlyingError:]_block_invoke_2.250
++ ___30-[CSBuiltInVoiceTrigger start]_block_invoke.391
++ ___30-[CSBuiltInVoiceTrigger start]_block_invoke.402
++ ___30-[CSBuiltInVoiceTrigger start]_block_invoke_2.405
++ ___31-[CSSpeechManager startManager]_block_invoke_4
++ ___31-[CSSpeechManager startManager]_block_invoke_5
++ ___35-[CSBuiltInVoiceTrigger _setAsset:]_block_invoke.431
++ ___39-[CSBuiltInVoiceTrigger _stopListening]_block_invoke.457
++ ___41-[CSAssetManager initWithDownloadOption:]_block_invoke.376
++ ___41-[CSAssetManager initWithDownloadOption:]_block_invoke.378
++ ___42-[CSFileAudioInjectionBuiltInEngine start]_block_invoke.377
++ ___42-[CSRemoteControlClient didDeviceConnect:]_block_invoke.430
++ ___44-[CSBuiltInVoiceTrigger _stopAPVoiceTrigger]_block_invoke.465
++ ___46-[CSHybridEndpointAnalyzer processTaskString:]_block_invoke.472
++ ___46-[CSSiriMobileBluetoothDeviceProxy deviceInfo]_block_invoke.173
++ ___47-[CSSiriSpeechRecorder playRecordingStartAlert]_block_invoke.219
++ ___48-[CSSpeechController CSXPCClient:didDisconnect:]_block_invoke.789
++ ___49-[CSAssetController _downloadAsset:withComplete:]_block_invoke.405
++ ___49-[CSVoiceTriggerFirstPassHearstAP _stopListening]_block_invoke.387
++ ___49-[CSVoiceTriggerFirstPassJarvisAP _stopListening]_block_invoke.381
++ ___50-[CSSiriSpeechRecorder _playPhaticWithCompletion:]_block_invoke.311
++ ___50-[CSSpeechManager audioProviderWithContext:error:]_block_invoke.487
++ ___51-[CSEarlyTwoShotDetector stopListenWithCompletion:]_block_invoke.378
++ ___52-[CSBuiltInVoiceTrigger _startListenWithCompletion:]_block_invoke.452
++ ___52-[CSBuiltInVoiceTrigger _startListenWithCompletion:]_block_invoke_2.453
++ ___52-[CSSelfTriggerDetector _startListenWithCompletion:]_block_invoke.378
++ ___52-[CSSiriAudioPlaybackService _playHapticForRequest:]_block_invoke.68
++ ___52-[CSSpeechController setCurrentRecordContext:error:]_block_invoke.665
++ ___52-[CSSpeechManager _setupVoiceTriggerWithCompletion:]_block_invoke.464
++ ___52-[CSSpeechManager _setupVoiceTriggerWithCompletion:]_block_invoke.468
++ ___52-[CSSpeechManager _setupVoiceTriggerWithCompletion:]_block_invoke.469
++ ___52-[CSSpeechManager _setupVoiceTriggerWithCompletion:]_block_invoke.473
++ ___52-[CSSpeechManager _setupVoiceTriggerWithCompletion:]_block_invoke.480
++ ___52-[CSSpeechManager _setupVoiceTriggerWithCompletion:]_block_invoke_2.481
++ ___52-[CSVoiceTriggerAssetHandlerMac triggerAssetRefresh]_block_invoke.377
++ ___53-[CSRemoteControlClient _transferFile:at:completion:]_block_invoke.515
++ ___53-[CSRemoteControlClient _transferFile:at:completion:]_block_invoke.516
++ ___54-[CSAssetController fetchRemoteMetaOfType:allowRetry:]_block_invoke.393
++ ___54-[CSAttSiriMitigationAssetHandler triggerAssetRefresh]_block_invoke.386
++ ___54-[CSSelfTriggerDetector _stopListeningWithCompletion:]_block_invoke.379
++ ___54-[CSSpeechController prepareRecordWithSettings:error:]_block_invoke.644
++ ___54-[CSSpeechController prepareRecordWithSettings:error:]_block_invoke.653
++ ___55-[CSSpeechController startRecordingWithSettings:error:]_block_invoke.695
++ ___55-[CSSpeechController startRecordingWithSettings:error:]_block_invoke.703
++ ___55-[CSSpeechController startRecordingWithSettings:error:]_block_invoke_2.704
++ ___56-[CSSiriSpeechRecorder performBlockAfterAlerts:timeout:]_block_invoke.321
++ ___58-[CSRemoteControlClient exchangeRemoteDeviceProtocolInfo:]_block_invoke.640
++ ___60-[CSSiriSpeechRecordingContext willStopRecordingAtHostTime:]_block_invoke.104
++ ___60-[CSSpeechController handleStopRecordingRequestWithOptions:]_block_invoke.717
++ ___61-[CSModelBenchmarker _setupAudioInjectionEngineWithAudioURL:]_block_invoke.406
++ ___61-[CSRemoraEndpointAnalyzer osdAnalyzer:didUpdateOSDFeatures:]_block_invoke.416
++ ___61-[CSRemoraEndpointAnalyzer osdAnalyzer:didUpdateOSDFeatures:]_block_invoke.417
++ ___61-[CSRemoraEndpointAnalyzer osdAnalyzer:didUpdateOSDFeatures:]_block_invoke.420
++ ___61-[CSRemoraEndpointAnalyzer osdAnalyzer:didUpdateOSDFeatures:]_block_invoke.425
++ ___61-[CSRemoraEndpointAnalyzer osdAnalyzer:didUpdateOSDFeatures:]_block_invoke.428
++ ___61-[CSRemoraEndpointAnalyzer osdAnalyzer:didUpdateOSDFeatures:]_block_invoke_2.426
++ ___62-[CSRemoraEndpointAnalyzer processAudioSamplesAsynchronously:]_block_invoke.411
++ ___62-[CSSpeechManager _handleExclaveServerEndpointInactiveMessage]_block_invoke
++ ___62-[CSSpeechManager _handleExclaveServerEndpointInactiveMessage]_block_invoke.518
++ ___62-[CSSpeechManager _handleExclaveServerEndpointInactiveMessage]_block_invoke_2
++ ___62-[CSVoiceTriggerFirstPassJarvisAP _startListenWithCompletion:]_block_invoke.379
++ ___63-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSAOP]_block_invoke.85
++ ___63-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSAOP]_block_invoke.88
++ ___63-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSAOP]_block_invoke.89
++ ___63-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSAOP]_block_invoke.90
++ ___64-[CSEarlyTwoShotDetector voiceTriggerDidDetectKeyword:deviceId:]_block_invoke.373
++ ___64-[CSEndpointerAssetManager _registerForAssetUpdateNotifications]_block_invoke.385
++ ___64-[CSSiriSpeechRecordingContext acquireRecordedAudioWithHandler:]_block_invoke.79
++ ___64-[CSSiriSpeechRecordingContext acquireRecordedAudioWithHandler:]_block_invoke_2.81
++ ___64-[CSSmartSiriVolume _startListenPollingWithInterval:completion:]_block_invoke.415
++ ___65-[CSEarlyTwoShotDetector processOSDFeatures:withFrameDurationMs:]_block_invoke.377
++ ___65-[CSSpeechManager CSExclaveServerEPStateMonitorEndpointIsActive:]_block_invoke_2
++ ___65-[CSVoiceIdXPCConnection _handleImplicitUtteranceMessage:client:]_block_invoke.373
++ ___66-[CSSiriSpeechRecorder _prepareSpeechControllerWithOptions:error:]_block_invoke.120
++ ___67-[CSSmartSiriVolume startSmartSiriVolumeWithAudioProviderSelector:]_block_invoke.410
++ ___67-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSBargeIn]_block_invoke.73
++ ___67-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSBargeIn]_block_invoke.76
++ ___67-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSBargeIn]_block_invoke.77
++ ___67-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSBargeIn]_block_invoke.82
++ ___67-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSBargeIn]_block_invoke.83
++ ___67-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSBargeIn]_block_invoke.84
++ ___68-[CSBuiltInVoiceTrigger _startListenPollingWithInterval:completion:]_block_invoke.447
++ ___68-[CSSelfTriggerDetector _startListenPollingWithInterval:completion:]_block_invoke.368
++ ___68-[CSTrialAssetDownloadMonitor _validateDownloadedAssetForAssetType:]_block_invoke.406
++ ___68-[CSTrialAssetDownloadMonitor _validateDownloadedAssetForAssetType:]_block_invoke.407
++ ___68-[CSVoiceTriggerSecondPass _processSecondPassInExclave:rejectBlock:]_block_invoke.485
++ ___69+[CSVoiceTriggerSecondPass _extractVoiceProfileEmbeddingsForExclave:]_block_invoke.615
++ ___69-[CSSiriMobileBluetoothDeviceProxy initWithAddress:dataSource:queue:]_block_invoke.171
++ ___70-[CSSiriSpeechRecorder _startAudioPlaybackRequest:options:completion:]_block_invoke.322
++ ___71-[CSSiriMobileBluetoothDeviceProxy initWithDeviceUID:dataSource:queue:]_block_invoke.172
++ ___72-[CSVoiceTriggerFirstPassJarvis _handleSecondPassResult:deviceId:error:]_block_invoke.405
++ ___72-[CSVoiceTriggerFirstPassJarvis _handleSecondPassResult:deviceId:error:]_block_invoke.406
++ ___73-[CSSiriSpeechRecorder _performTwoShotPromptForType:withOverride:atTime:]_block_invoke.310
++ ___75-[CSVoiceProfileRetrainManager CSFirstUnlockMonitor:didReceiveFirstUnlock:]_block_invoke.377
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.477
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.478
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.481
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.482
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.485
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.490
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.494
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke_2.483
++ ___77-[CSBuiltInVoiceTrigger activationEventNotificationHandler:event:completion:]_block_invoke.507
++ ___77-[CSSiriSpeechRecorder startSpeechCaptureWithContext:willStartHandler:error:]_block_invoke.174
++ ___77-[CSSpeechManager CSAudioRouteChangeMonitor:didReceiveAudioRouteChangeEvent:]_block_invoke.506
++ ___78-[CSRemoteControlClient transferVoiceTriggerAsset:forLanguageCode:completion:]_block_invoke.551
++ ___79-[CSSiriSpeechRecordingContext didDetectTwoShotWithAudioActivationInfo:atTime:]_block_invoke.100
++ ___79-[CSVoiceProfileRetrainManager CSVoiceTriggerEnabledMonitor:didReceiveEnabled:]_block_invoke.374
++ ___80-[CSVoiceTriggerFirstPassHearstAP _startListenWithAudioProviderUUID:completion:]_block_invoke.383
++ ___81-[CSSiriMobileBluetoothDeviceProxy _accessBTDeviceAndAccessoryManagerUsingBlock:]_block_invoke.181
++ ___81-[CSSiriMobileBluetoothDeviceProxy _accessBTDeviceAndAccessoryManagerUsingBlock:]_block_invoke.182
++ ___81-[CSSpeechController _activateAudioSessionWithReason:delay:delayRequested:error:]_block_invoke.655
++ ___81-[CSSpeechController _activateAudioSessionWithReason:delay:delayRequested:error:]_block_invoke.656
++ ___81-[CSSpeechController _activateAudioSessionWithReason:delay:delayRequested:error:]_block_invoke.657
++ ___81-[CSSpeechController _activateAudioSessionWithReason:delay:delayRequested:error:]_block_invoke.661
++ ___82-[CoreSpeechXPC voiceTriggerJarvisLanguageList:jarvisSelectedLanguage:completion:]_block_invoke.381
++ ___84-[CSSiriSpeechRecorder speechControllerLPCMRecordBufferAvailable:buffer:recordedAt:]_block_invoke.265
++ ___84-[CSSiriSpeechRecordingContext willPrepareAndStartRecordingWithAudioActivationInfo:]_block_invoke.94
++ ___85-[CSRemoteControlClient transferInterstitialAudioFiles:interstitialLevel:completion:]_block_invoke.603
++ ___85-[CSSiriSpeechRecorder endpointer:didDetectHardEndpointAtTime:withMetrics:eventType:]_block_invoke.291
++ ___85-[CSVoiceProfileRetrainManager _runRetrainerWithAssets:withSecureAsset:languageCode:]_block_invoke.387
++ ___85-[CSVoiceProfileRetrainManager _runRetrainerWithAssets:withSecureAsset:languageCode:]_block_invoke.389
++ ___85-[CSVoiceTriggerFirstPassRemora activationEventNotificationHandler:event:completion:]_block_invoke.474
++ ___85-[CSVoiceTriggerFirstPassRemora activationEventNotificationHandler:event:completion:]_block_invoke.476
++ ___87-[CSVoiceProfileRetrainManager _retrainingVoiceProfile:voiceProfile:asset:secureAsset:]_block_invoke.393
++ ___87-[CSVoiceTriggerFirstPassHearstAP _keywordAnalyzerNDAPI:hasResultAvailable:forChannel:]_block_invoke.401
++ ___88-[CSVoiceTriggerFirstPassRemora _handleRemoraTriggerEvent:secondPassRequest:completion:]_block_invoke.485
++ ___93-[CSFileAudioInjectionEngine injectAudio:withScaleFactor:outASBD:playbackStarted:completion:]_block_invoke.377
++ ___93-[CSVoiceTriggerSecondPass _handleVoiceTriggerFirstPassFromAOP:audioProviderUUID:completion:]_block_invoke.498
++ ___96-[CSVoiceTriggerFirstPassHearst _handleRemoteMicVoiceTriggerEvent:secondPassRequest:completion:]_block_invoke.449
++ ___96-[CSVoiceTriggerFirstPassHearst _handleRemoteMicVoiceTriggerEvent:secondPassRequest:completion:]_block_invoke.457
++ ___96-[CSVoiceTriggerFirstPassHearst _handleRemoteMicVoiceTriggerEvent:secondPassRequest:completion:]_block_invoke_2.459
++ ___97-[CSSiriSpeechRecorder speechControllerDidDetectVoiceTriggerTwoShot:atTime:wantsAudibleFeedback:]_block_invoke.277
++ ___97-[CSSiriSpeechRecorder speechControllerDidDetectVoiceTriggerTwoShot:atTime:wantsAudibleFeedback:]_block_invoke_2.278
++ ___97-[CSSiriSpeechRecordingContext _donateRecordedAudioForVoiceIdentificationTrainingWithCompletion:]_block_invoke.135
++ ___97-[CSVoiceTriggerSecondPass _handleVoiceTriggerFirstPassFromExclave:audioProviderUUID:completion:]_block_invoke.457
++ ___98-[CSVoiceTriggerSecondPass _voiceTriggerFirstPassDidDetectKeywordFrom:readyCompletion:completion:]_block_invoke.467
++ ___98-[CSVoiceTriggerSecondPass _voiceTriggerFirstPassDidDetectKeywordFrom:readyCompletion:completion:]_block_invoke.474
++ ___Block_byref_object_copy_.10960
++ ___Block_byref_object_copy_.12282
++ ___Block_byref_object_copy_.12696
++ ___Block_byref_object_copy_.1307
++ ___Block_byref_object_copy_.13677
++ ___Block_byref_object_copy_.14015
++ ___Block_byref_object_copy_.14814
++ ___Block_byref_object_copy_.14916
++ ___Block_byref_object_copy_.1540
++ ___Block_byref_object_copy_.16423
++ ___Block_byref_object_copy_.16885
++ ___Block_byref_object_copy_.18023
++ ___Block_byref_object_copy_.19460
++ ___Block_byref_object_copy_.20083
++ ___Block_byref_object_copy_.2051
++ ___Block_byref_object_copy_.20781
++ ___Block_byref_object_copy_.21007
++ ___Block_byref_object_copy_.21566
++ ___Block_byref_object_copy_.22123
++ ___Block_byref_object_copy_.22390
++ ___Block_byref_object_copy_.23204
++ ___Block_byref_object_copy_.24013
++ ___Block_byref_object_copy_.2449
++ ___Block_byref_object_copy_.24512
++ ___Block_byref_object_copy_.25350
++ ___Block_byref_object_copy_.25638
++ ___Block_byref_object_copy_.26448
++ ___Block_byref_object_copy_.3305
++ ___Block_byref_object_copy_.3421
++ ___Block_byref_object_copy_.3537
++ ___Block_byref_object_copy_.4103
++ ___Block_byref_object_copy_.6626
++ ___Block_byref_object_copy_.7600
++ ___Block_byref_object_copy_.8198
++ ___Block_byref_object_copy_.9372
++ ___Block_byref_object_copy_.9823
++ ___Block_byref_object_dispose_.10961
++ ___Block_byref_object_dispose_.12283
++ ___Block_byref_object_dispose_.12697
++ ___Block_byref_object_dispose_.1308
++ ___Block_byref_object_dispose_.13678
++ ___Block_byref_object_dispose_.14016
++ ___Block_byref_object_dispose_.14815
++ ___Block_byref_object_dispose_.14917
++ ___Block_byref_object_dispose_.1541
++ ___Block_byref_object_dispose_.16424
++ ___Block_byref_object_dispose_.16886
++ ___Block_byref_object_dispose_.18024
++ ___Block_byref_object_dispose_.19461
++ ___Block_byref_object_dispose_.20084
++ ___Block_byref_object_dispose_.2052
++ ___Block_byref_object_dispose_.20782
++ ___Block_byref_object_dispose_.21008
++ ___Block_byref_object_dispose_.21567
++ ___Block_byref_object_dispose_.22124
++ ___Block_byref_object_dispose_.22391
++ ___Block_byref_object_dispose_.23205
++ ___Block_byref_object_dispose_.24014
++ ___Block_byref_object_dispose_.2450
++ ___Block_byref_object_dispose_.24513
++ ___Block_byref_object_dispose_.25351
++ ___Block_byref_object_dispose_.25639
++ ___Block_byref_object_dispose_.26449
++ ___Block_byref_object_dispose_.3306
++ ___Block_byref_object_dispose_.3422
++ ___Block_byref_object_dispose_.3538
++ ___Block_byref_object_dispose_.4104
++ ___Block_byref_object_dispose_.6627
++ ___Block_byref_object_dispose_.7601
++ ___Block_byref_object_dispose_.8199
++ ___Block_byref_object_dispose_.9373
++ ___Block_byref_object_dispose_.9824
++ ___MobileTimerLibraryCore_block_invoke.651
++ ___block_descriptor_48_e8_32s40w_e11_v20?0B8Q12lw40l8s32l8
++ ___block_literal_global.10.20384
++ ___block_literal_global.10.21445
++ ___block_literal_global.10.9964
++ ___block_literal_global.1001
++ ___block_literal_global.10173
++ ___block_literal_global.10373
++ ___block_literal_global.10784
++ ___block_literal_global.10998
++ ___block_literal_global.1101
++ ___block_literal_global.11293
++ ___block_literal_global.11393
++ ___block_literal_global.11515
++ ___block_literal_global.11815
++ ___block_literal_global.11921
++ ___block_literal_global.11976
++ ___block_literal_global.12.13163
++ ___block_literal_global.12.18564
++ ___block_literal_global.12.20566
++ ___block_literal_global.12031
++ ___block_literal_global.12482
++ ___block_literal_global.12601
++ ___block_literal_global.12837
++ ___block_literal_global.13.20385
++ ___block_literal_global.13.21446
++ ___block_literal_global.13156
++ ___block_literal_global.13513
++ ___block_literal_global.13569
++ ___block_literal_global.13754
++ ___block_literal_global.13772
++ ___block_literal_global.13890
++ ___block_literal_global.1394
++ ___block_literal_global.14467
++ ___block_literal_global.14903
++ ___block_literal_global.14945
++ ___block_literal_global.15517
++ ___block_literal_global.15957
++ ___block_literal_global.15966
++ ___block_literal_global.16.13570
++ ___block_literal_global.16.20386
++ ___block_literal_global.16.20567
++ ___block_literal_global.16012
++ ___block_literal_global.16046
++ ___block_literal_global.16291
++ ___block_literal_global.16367
++ ___block_literal_global.16482
++ ___block_literal_global.17.11922
++ ___block_literal_global.17.13514
++ ___block_literal_global.17.20455
++ ___block_literal_global.17152
++ ___block_literal_global.172
++ ___block_literal_global.17221
++ ___block_literal_global.17250
++ ___block_literal_global.177
++ ___block_literal_global.17755
++ ___block_literal_global.18048
++ ___block_literal_global.18355
++ ___block_literal_global.18435
++ ___block_literal_global.18583
++ ___block_literal_global.18697
++ ___block_literal_global.18848
++ ___block_literal_global.1894
++ ___block_literal_global.18983
++ ___block_literal_global.18999
++ ___block_literal_global.19286
++ ___block_literal_global.19377
++ ___block_literal_global.19479
++ ___block_literal_global.19555
++ ___block_literal_global.19753
++ ___block_literal_global.20.13515
++ ___block_literal_global.20.20456
++ ___block_literal_global.20067
++ ___block_literal_global.20370
++ ___block_literal_global.20383
++ ___block_literal_global.20454
++ ___block_literal_global.20591
++ ___block_literal_global.20685
++ ___block_literal_global.2071
++ ___block_literal_global.20724
++ ___block_literal_global.20843
++ ___block_literal_global.21.11923
++ ___block_literal_global.21.20568
++ ___block_literal_global.21443
++ ___block_literal_global.218
++ ___block_literal_global.2181
++ ___block_literal_global.21895
++ ___block_literal_global.22.20387
++ ___block_literal_global.22005
++ ___block_literal_global.22153
++ ___block_literal_global.22732
++ ___block_literal_global.2281
++ ___block_literal_global.2295
++ ___block_literal_global.22998
++ ___block_literal_global.23084
++ ___block_literal_global.23458
++ ___block_literal_global.24226
++ ___block_literal_global.24541
++ ___block_literal_global.24872
++ ___block_literal_global.25.18550
++ ___block_literal_global.25.20388
++ ___block_literal_global.25159
++ ___block_literal_global.25208
++ ___block_literal_global.2532
++ ___block_literal_global.25383
++ ___block_literal_global.25486
++ ___block_literal_global.25574
++ ___block_literal_global.25707
++ ___block_literal_global.2593
++ ___block_literal_global.26.20457
++ ___block_literal_global.26245
++ ___block_literal_global.26459
++ ___block_literal_global.26813
++ ___block_literal_global.2685
++ ___block_literal_global.27.11924
++ ___block_literal_global.2871
++ ___block_literal_global.29.20458
++ ___block_literal_global.30.11925
++ ___block_literal_global.300
++ ___block_literal_global.3085
++ ___block_literal_global.315
++ ___block_literal_global.3253
++ ___block_literal_global.3339
++ ___block_literal_global.3412
++ ___block_literal_global.3573
++ ___block_literal_global.36.11926
++ ___block_literal_global.363
++ ___block_literal_global.363.25378
++ ___block_literal_global.377
++ ___block_literal_global.378
++ ___block_literal_global.379
++ ___block_literal_global.38.8350
++ ___block_literal_global.381
++ ___block_literal_global.381.10972
++ ___block_literal_global.393
++ ___block_literal_global.396
++ ___block_literal_global.404
++ ___block_literal_global.405
++ ___block_literal_global.42.11927
++ ___block_literal_global.420
++ ___block_literal_global.44.8344
++ ___block_literal_global.4528
++ ___block_literal_global.459
++ ___block_literal_global.46.8341
++ ___block_literal_global.471
++ ___block_literal_global.483
++ ___block_literal_global.5.25708
++ ___block_literal_global.5.26814
++ ___block_literal_global.505
++ ___block_literal_global.508
++ ___block_literal_global.5116
++ ___block_literal_global.513
++ ___block_literal_global.5225
++ ___block_literal_global.5395
++ ___block_literal_global.5482
++ ___block_literal_global.5505
++ ___block_literal_global.5798
++ ___block_literal_global.5932
++ ___block_literal_global.608
++ ___block_literal_global.6195
++ ___block_literal_global.631
++ ___block_literal_global.659
++ ___block_literal_global.672
++ ___block_literal_global.7.13864
++ ___block_literal_global.7.21444
++ ___block_literal_global.7.660
++ ___block_literal_global.7.8667
++ ___block_literal_global.71
++ ___block_literal_global.733
++ ___block_literal_global.75.12461
++ ___block_literal_global.769
++ ___block_literal_global.7785
++ ___block_literal_global.79
++ ___block_literal_global.8.25480
++ ___block_literal_global.8.25709
++ ___block_literal_global.8.26815
++ ___block_literal_global.8381
++ ___block_literal_global.8433
++ ___block_literal_global.846
++ ___block_literal_global.85
++ ___block_literal_global.8544
++ ___block_literal_global.8682
++ ___block_literal_global.87
++ ___block_literal_global.9084
++ ___block_literal_global.9470
++ ___block_literal_global.9615
++ ___block_literal_global.9837
++ ___block_literal_global.9989
++ __compensateChannelDataIfNeeded:receivedNumChannels:.heartbeat.13666
++ __handleAudioChunk:.heartbeat_CORESPEECH_VOICETRIGGER_FIRSTPASS_LPCM_RECORD_BUFFER_AVAILABLE.17689
++ __keywordAnalyzerNDAPI:hasResultAvailable:forChannel:.heartbeat.10156
++ __keywordAnalyzerNDAPI:hasResultAvailable:forChannel:.heartbeat.17681
++ __keywordAnalyzerNDAPI:hasResultAvailable:forChannel:.heartbeat.25936
++ _audit_stringMobileTimer.654
++ _kVTEIInputLatency
++ _objc_msgSend$_alertDictionaryForRecordRoute:playbackRoute:speechEvent:ringerState:startingAlertBeepOverideID:presentationMode:hasPlayedStartAlert:supportsEchoCancellation:isVoiceOverTouchEnabled:isVibrationEnabled:isVibrationSupported:activationHostTime:isVoiceOverSiriSoundsEnabled:suppressStartAlert:
++ _objc_msgSend$_cancelConnectionTimer
++ _objc_msgSend$_connectToAlwaysOnExclaveServerEndpoint:
++ _objc_msgSend$_handleExclaveServerEndpointActiveMessage
++ _objc_msgSend$_handleExclaveServerEndpointInactiveMessage
++ _objc_msgSend$cachedInputLatencySeconds
++ _objc_msgSend$connectToExclaveServerEndpoint:
++ _objc_msgSend$context
++ _objc_msgSend$decodeInt32ForKey:
++ _objc_msgSend$encodeInt32:forKey:
++ _objc_msgSend$exclaveAudioProvider
++ _objc_msgSend$exclaveServerConnectTimeout
++ _objc_msgSend$identifier
++ _objc_msgSend$initTimerinterval:identifier:
++ _objc_msgSend$initWithAttendingType:detectedToken:triggerMachTime:triggerAbsStartSampleId:audioRecordType:audioRecordDeviceId:amountOfSpeechDetectedInMs:triggerThresholdInMs:speechStartTimeInMs:
++ _objc_msgSend$initWithContext:queue:eventHandler:
++ _objc_msgSend$optionForFlexibleFollowupWithAudioRecordType:deviceId:startAttendingSampleCount:shouldPrependAudioBeforeSpeechDetectionOnset:isCanarySampled:
++ _objc_msgSend$resume:
++ _objc_msgSend$setIsOsdCanarySampled:
++ _objc_msgSend$setOsdDetectionReported:
++ _objc_msgSend$setOsdMinConsecutiveSpeechThresholdInMs:
++ _objc_msgSend$setOsdModelVersion:
++ _objc_msgSend$setOsdSilenceProbabilityThreshold:
++ _objc_msgSend$setOsdSpeechStartTimeInMs:
++ _objc_msgSend$useAlwaysOnExclave
++ _sharedController.onceToken.10997
++ _sharedController.sharedController.10999
++ _sharedHandler.onceToken.18354
++ _sharedHandler.onceToken.25382
++ _sharedHandler.onceToken.845
++ _sharedHandler.sharedHandler.18356
++ _sharedHandler.sharedHandler.25384
++ _sharedHandler.sharedHandler.847
++ _sharedHandlerDisabledOnDeviceCompilation.onceToken.25377
++ _sharedHandlerDisabledOnDeviceCompilation.sharedHandler.25379
++ _sharedInstance._sharedInstance.10785
++ _sharedInstance._sharedInstance.12032
++ _sharedInstance._sharedInstance.13891
++ _sharedInstance._sharedInstance.16013
++ _sharedInstance._sharedInstance.16292
++ _sharedInstance._sharedInstance.16368
++ _sharedInstance._sharedInstance.17222
++ _sharedInstance._sharedInstance.18698
++ _sharedInstance._sharedInstance.19287
++ _sharedInstance._sharedInstance.19378
++ _sharedInstance._sharedInstance.19556
++ _sharedInstance._sharedInstance.22733
++ _sharedInstance._sharedInstance.23459
++ _sharedInstance._sharedInstance.25209
++ _sharedInstance._sharedInstance.2533
++ _sharedInstance._sharedInstance.2594
++ _sharedInstance._sharedInstance.26460
++ _sharedInstance._sharedInstance.2872
++ _sharedInstance._sharedInstance.5117
++ _sharedInstance._sharedInstance.514
++ _sharedInstance._sharedInstance.5226
++ _sharedInstance._sharedInstance.5483
++ _sharedInstance._sharedInstance.5933
++ _sharedInstance._sharedInstance.609
++ _sharedInstance._sharedInstance.673
++ _sharedInstance._sharedInstance.8434
++ _sharedInstance.onceToken.1000
++ _sharedInstance.onceToken.10783
++ _sharedInstance.onceToken.1100
++ _sharedInstance.onceToken.11975
++ _sharedInstance.onceToken.12030
++ _sharedInstance.onceToken.12600
++ _sharedInstance.onceToken.13889
++ _sharedInstance.onceToken.14466
++ _sharedInstance.onceToken.14902
++ _sharedInstance.onceToken.16011
++ _sharedInstance.onceToken.16290
++ _sharedInstance.onceToken.16366
++ _sharedInstance.onceToken.16481
++ _sharedInstance.onceToken.17151
++ _sharedInstance.onceToken.17220
++ _sharedInstance.onceToken.17249
++ _sharedInstance.onceToken.18582
++ _sharedInstance.onceToken.18696
++ _sharedInstance.onceToken.19285
++ _sharedInstance.onceToken.19376
++ _sharedInstance.onceToken.19554
++ _sharedInstance.onceToken.20369
++ _sharedInstance.onceToken.20590
++ _sharedInstance.onceToken.20723
++ _sharedInstance.onceToken.20842
++ _sharedInstance.onceToken.21894
++ _sharedInstance.onceToken.22004
++ _sharedInstance.onceToken.22152
++ _sharedInstance.onceToken.22731
++ _sharedInstance.onceToken.23083
++ _sharedInstance.onceToken.23457
++ _sharedInstance.onceToken.24871
++ _sharedInstance.onceToken.25207
++ _sharedInstance.onceToken.2531
++ _sharedInstance.onceToken.2592
++ _sharedInstance.onceToken.26244
++ _sharedInstance.onceToken.26458
++ _sharedInstance.onceToken.2684
++ _sharedInstance.onceToken.2870
++ _sharedInstance.onceToken.3252
++ _sharedInstance.onceToken.392
++ _sharedInstance.onceToken.4527
++ _sharedInstance.onceToken.5115
++ _sharedInstance.onceToken.512
++ _sharedInstance.onceToken.5224
++ _sharedInstance.onceToken.5481
++ _sharedInstance.onceToken.5931
++ _sharedInstance.onceToken.607
++ _sharedInstance.onceToken.671
++ _sharedInstance.onceToken.8432
++ _sharedInstance.onceToken.8681
++ _sharedInstance.onceToken.9614
++ _sharedInstance.onceToken.9836
++ _sharedInstance.onceToken.9988
++ _sharedInstance.sSharedInstance.17251
++ _sharedInstance.sharedInstance.11977
++ _sharedInstance.sharedInstance.12602
++ _sharedInstance.sharedInstance.14468
++ _sharedInstance.sharedInstance.17153
++ _sharedInstance.sharedInstance.18584
++ _sharedInstance.sharedInstance.20371
++ _sharedInstance.sharedInstance.20725
++ _sharedInstance.sharedInstance.22006
++ _sharedInstance.sharedInstance.22154
++ _sharedInstance.sharedInstance.26246
++ _sharedInstance.sharedInstance.3254
++ _sharedInstance.sharedInstance.4529
++ _sharedInstance.sharedInstance.8683
++ _sharedInstance.sharedManager.24873
++ _sharedInstance.sharedPolicy.1002
++ _sharedInstance.sharedPolicy.20592
++ _sharedInstance.sharedPolicy.23085
++ _sharedManager.onceToken.15956
++ _sharedManager.onceToken.18047
++ _sharedManager.onceToken.5797
++ _sharedManager.onceToken.6194
++ _sharedManager.sharedManager.15958
++ _sharedManager.sharedManager.5799
++ _sharedManager.sharedManager.6196
++ _sharedMonitor.onceToken.19478
++ _sharedMonitor.sharedMonitor.19480
++ _sharedService.onceToken.14944
++ _sharedService.onceToken.24540
++ _sharedService.sharedService.24542
+- +[CSSiriAudioActivationInfo _alertDictionaryForRecordRoute:playbackRoute:speechEvent:ringerState:startingAlertBeepOverideID:presentationMode:hasPlayedStartAlert:supportsEchoCancellation:isVoiceOverTouchEnabled:isVibrationEnabled:isVibrationSupported:activationHostTime:isVoiceOverSiriSoundsEnabled:]
+- -[CSAttendingTriggerInfo initWithAttendingType:detectedToken:triggerMachTime:triggerAbsStartSampleId:audioRecordType:audioRecordDeviceId:amountOfSpeechDetectedInMs:triggerThresholdInMs:]
+- -[CSContinuousAudioFingerprintProvider init]
+- -[CSSelfTriggerDetector setSpeechManager:]
+- -[CSSelfTriggerDetector speechManager]
+- GCC_except_table1271
+- GCC_except_table1283
+- GCC_except_table1489
+- GCC_except_table1557
+- GCC_except_table1581
+- GCC_except_table1585
+- GCC_except_table1601
+- GCC_except_table1604
+- GCC_except_table1634
+- GCC_except_table1732
+- GCC_except_table1734
+- GCC_except_table1736
+- GCC_except_table1742
+- GCC_except_table1802
+- GCC_except_table1828
+- GCC_except_table1834
+- GCC_except_table1915
+- GCC_except_table1935
+- GCC_except_table2051
+- GCC_except_table2200
+- GCC_except_table2230
+- GCC_except_table2233
+- GCC_except_table2236
+- GCC_except_table2241
+- GCC_except_table2253
+- GCC_except_table2258
+- GCC_except_table2261
+- GCC_except_table2385
+- GCC_except_table2388
+- GCC_except_table2392
+- GCC_except_table2410
+- GCC_except_table2542
+- GCC_except_table2599
+- GCC_except_table2611
+- GCC_except_table2642
+- GCC_except_table2667
+- GCC_except_table2678
+- GCC_except_table2712
+- GCC_except_table2713
+- GCC_except_table2714
+- GCC_except_table2715
+- GCC_except_table2716
+- GCC_except_table2720
+- GCC_except_table2723
+- GCC_except_table2726
+- GCC_except_table2727
+- GCC_except_table2746
+- GCC_except_table2749
+- GCC_except_table2819
+- GCC_except_table3085
+- GCC_except_table3163
+- GCC_except_table3200
+- GCC_except_table3211
+- GCC_except_table3233
+- GCC_except_table3236
+- GCC_except_table3239
+- GCC_except_table3270
+- GCC_except_table3330
+- GCC_except_table3562
+- GCC_except_table3588
+- GCC_except_table3649
+- GCC_except_table3650
+- GCC_except_table3652
+- GCC_except_table3654
+- GCC_except_table3670
+- GCC_except_table3672
+- GCC_except_table3674
+- GCC_except_table3676
+- GCC_except_table3678
+- GCC_except_table3680
+- GCC_except_table3682
+- GCC_except_table3685
+- GCC_except_table3696
+- GCC_except_table3704
+- GCC_except_table3706
+- GCC_except_table3708
+- GCC_except_table3712
+- GCC_except_table3714
+- GCC_except_table3715
+- GCC_except_table3717
+- GCC_except_table3718
+- GCC_except_table3722
+- GCC_except_table3724
+- GCC_except_table3726
+- GCC_except_table3728
+- GCC_except_table3746
+- GCC_except_table3882
+- GCC_except_table3906
+- GCC_except_table3972
+- GCC_except_table3988
+- GCC_except_table4009
+- GCC_except_table4101
+- GCC_except_table4351
+- GCC_except_table4418
+- GCC_except_table4419
+- GCC_except_table4423
+- GCC_except_table4426
+- GCC_except_table4430
+- GCC_except_table4455
+- GCC_except_table4508
+- GCC_except_table4514
+- GCC_except_table4584
+- GCC_except_table4787
+- GCC_except_table4794
+- GCC_except_table4801
+- GCC_except_table4807
+- GCC_except_table4890
+- GCC_except_table5050
+- GCC_except_table5060
+- GCC_except_table5084
+- GCC_except_table5104
+- GCC_except_table5187
+- GCC_except_table5201
+- GCC_except_table5210
+- GCC_except_table5217
+- GCC_except_table5223
+- GCC_except_table5225
+- GCC_except_table5228
+- GCC_except_table5236
+- GCC_except_table5238
+- GCC_except_table5244
+- GCC_except_table5256
+- GCC_except_table5268
+- GCC_except_table5275
+- GCC_except_table5277
+- GCC_except_table5279
+- GCC_except_table5280
+- GCC_except_table5281
+- GCC_except_table5282
+- GCC_except_table5284
+- GCC_except_table5286
+- GCC_except_table5287
+- GCC_except_table5288
+- GCC_except_table5291
+- GCC_except_table5383
+- GCC_except_table5387
+- GCC_except_table5441
+- GCC_except_table5471
+- GCC_except_table5474
+- GCC_except_table5564
+- GCC_except_table5578
+- GCC_except_table5585
+- GCC_except_table5597
+- GCC_except_table5601
+- GCC_except_table5611
+- GCC_except_table5840
+- GCC_except_table5873
+- GCC_except_table5878
+- GCC_except_table5915
+- GCC_except_table5924
+- GCC_except_table5954
+- GCC_except_table6022
+- GCC_except_table6164
+- GCC_except_table6267
+- GCC_except_table6275
+- GCC_except_table6295
+- GCC_except_table6300
+- GCC_except_table6406
+- GCC_except_table6461
+- GCC_except_table6540
+- GCC_except_table6562
+- GCC_except_table6563
+- GCC_except_table6573
+- GCC_except_table6574
+- GCC_except_table6586
+- GCC_except_table6617
+- GCC_except_table6628
+- GCC_except_table6633
+- GCC_except_table6638
+- GCC_except_table6666
+- GCC_except_table6738
+- GCC_except_table6750
+- GCC_except_table6773
+- GCC_except_table6784
+- GCC_except_table6787
+- GCC_except_table6810
+- GCC_except_table6822
+- GCC_except_table7101
+- GCC_except_table7137
+- GCC_except_table7210
+- GCC_except_table7264
+- GCC_except_table7287
+- GCC_except_table7328
+- GCC_except_table7339
+- GCC_except_table7479
+- GCC_except_table7487
+- GCC_except_table7602
+- GCC_except_table7603
+- GCC_except_table7604
+- GCC_except_table7605
+- GCC_except_table7606
+- GCC_except_table7611
+- GCC_except_table7674
+- GCC_except_table7720
+- GCC_except_table7728
+- GCC_except_table7734
+- GCC_except_table7759
+- GCC_except_table7765
+- GCC_except_table7771
+- GCC_except_table7911
+- _MACancelDownloadErrorDomain_block_invoke.enableHeartbeat.10199
+- _MACancelDownloadErrorDomain_block_invoke.heartbeat.18869
+- _MobileTimerLibrary.655
+- _MobileTimerLibraryCore.frameworkLibrary.660
+- _OBJC_IVAR_$_CSSelfTriggerDetector._speechManager
+- __ZNKSt3__111__copy_implclB9fqe220100IPNS_6vectorINS2_IfNS_9allocatorIfEEEENS3_IS5_EEEES8_S8_Li0EEENS_4pairIT_T1_EESA_T0_SB_
+- __ZNKSt3__111__copy_implclB9fqe220100IPNS_6vectorIfNS_9allocatorIfEEEES6_S6_Li0EEENS_4pairIT_T1_EES8_T0_S9_
+- __ZNSt12length_errorC1B9fqe220100EPKc
+- __ZNSt12out_of_rangeC1B9fqe220100EPKc
+- __ZNSt3__110unique_ptrI15SmartSiriVolumeNS_14default_deleteIS1_EEE5resetB9fqe220100EPS1_
+- __ZNSt3__110unique_ptrIN10corespeech25CSAudioCircularBufferImplIhEENS_14default_deleteIS3_EEE5resetB9fqe220100EPS3_
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_4pairIfjEEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIPjEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIfEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIjEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__120__throw_length_errorB9fqe220100EPKc
+- __ZNSt3__120__throw_out_of_rangeB9fqe220100EPKc
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIfNS2_IfEEEEEEPS5_EEED2B9fqe220100Ev
+- __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220100INS_9allocatorINS_6vectorINS2_IfNS1_IfEEEENS1_IS4_EEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220100INS_9allocatorINS_6vectorIfNS1_IfEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__16vectorINS0_INS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEEENS1_IS7_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE11__vallocateB9fqe220100Em
+- __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE16__destroy_vectorclB9fqe220100Ev
+- __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE16__init_with_sizeB9fqe220100IPS5_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE11__vallocateB9fqe220100Em
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE16__destroy_vectorclB9fqe220100Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE16__init_with_sizeB9fqe220100IPS3_S7_EEvT_T0_m
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE18__assign_with_sizeB9fqe220100INS_17_ClassicAlgPolicyEPS3_S8_EEvT0_T1_l
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE5clearB9fqe220100Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEEC2B9fqe220100EmRKS3_
+- __ZNSt3__16vectorINS_4pairIfjEENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9fqe220100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9fqe220100IPfS5_EEvT_T0_m
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB9fqe220100INS_17_ClassicAlgPolicyEPfS6_EEvT0_T1_l
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9fqe220100EmRKf
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9fqe220100Ev
+- __ZSt28__throw_bad_array_new_lengthB9fqe220100v
+- ___100-[CSRemoteControlClient _fetchDataFromAudioFileUrl:aesKey:encryptedAudioSampleBypeDepth:completion:]_block_invoke.675
+- ___102-[CoreSpeechXPC voiceTriggerRTModelWithRequestOptions:downloadedModels:preinstalledModels:completion:]_block_invoke.371
+- ___105-[CSHybridEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.506
+- ___105-[CSHybridEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.510
+- ___105-[CSHybridEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.513
+- ___105-[CSRemoraEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.438
+- ___105-[CSRemoraEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.440
+- ___105-[CSRemoraEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.442
+- ___108-[CSSiriAudioPlaybackService _startRequest:options:preparationHandler:executionHandler:finalizationHandler:]_block_invoke.58
+- ___108-[CSSiriAudioPlaybackService _startRequest:options:preparationHandler:executionHandler:finalizationHandler:]_block_invoke_2.59
+- ___108-[CSSiriAudioPlaybackService _startRequest:options:preparationHandler:executionHandler:finalizationHandler:]_block_invoke_3.60
+- ___109-[CSVoiceTriggerAssetHandlerMac _getVoiceTriggerAssetFromAssetManagerWithLocale:bundleIdentifier:completion:]_block_invoke.363
+- ___109-[CSVoiceTriggerAssetHandlerMac _getVoiceTriggerAssetFromAssetManagerWithLocale:bundleIdentifier:completion:]_block_invoke.365
+- ___110-[CSSiriSpeechRecorder speechControllerDidStopRecording:audioDeviceInfo:forReason:estimatedSpeechEndHostTime:]_block_invoke.230
+- ___110-[CSVoiceTriggerSecondPass _requestStartAudioStreamWitContext:audioProviderUUID:startStreamOption:completion:]_block_invoke.445
+- ___112-[CSBuiltInVoiceTrigger _handleVoiceTriggerSecondPassWithSource:deviceId:event:audioProviderUUID:firstPassInfo:]_block_invoke.484
+- ___113-[CSVoiceTriggerFirstPassJarvis _handleJarvisVoiceTriggerFromDeviceId:activationInfo:triggerHostTime:completion:]_block_invoke.380
+- ___115-[CSVoiceTriggerFirstPassHearst _handleSecondPassResult:secondPassRequest:deviceId:requestOption:error:completion:]_block_invoke.456
+- ___115-[CSVoiceTriggerFirstPassHearst _handleSecondPassResult:secondPassRequest:deviceId:requestOption:error:completion:]_block_invoke.467
+- ___118-[CSSiriAudioPlaybackService _startHapticOnlyRequest:options:preparationHandler:executionHandler:finalizationHandler:]_block_invoke.57
+- ___125-[CSRemoteControlClient createRemoteVoiceProfileWithAudioFiles:aesKey:encryptedAudioSampleBypeDepth:languageCode:completion:]_block_invoke.649
+- ___125-[CSRemoteControlClient createRemoteVoiceProfileWithAudioFiles:aesKey:encryptedAudioSampleBypeDepth:languageCode:completion:]_block_invoke.653
+- ___133-[CSBuiltInVoiceTrigger audioStreamProvider:numSamplesAvailableInExclave:hostTime:arrivalHostTimeToAudioRecorder:exclaveSampleCount:]_block_invoke.460
+- ___145-[CSSiriSpeechRecorder _speechControllerDidStopRecording:audioDeviceInfo:forReason:estimatedSpeechEndHostTime:errorCodeOverride:underlyingError:]_block_invoke.234
+- ___145-[CSSiriSpeechRecorder _speechControllerDidStopRecording:audioDeviceInfo:forReason:estimatedSpeechEndHostTime:errorCodeOverride:underlyingError:]_block_invoke_2.235
+- ___30-[CSBuiltInVoiceTrigger start]_block_invoke.385
+- ___30-[CSBuiltInVoiceTrigger start]_block_invoke.396
+- ___30-[CSBuiltInVoiceTrigger start]_block_invoke_2.399
+- ___35-[CSBuiltInVoiceTrigger _setAsset:]_block_invoke.425
+- ___39-[CSBuiltInVoiceTrigger _stopListening]_block_invoke.451
+- ___41-[CSAssetManager initWithDownloadOption:]_block_invoke.370
+- ___41-[CSAssetManager initWithDownloadOption:]_block_invoke.372
+- ___42-[CSFileAudioInjectionBuiltInEngine start]_block_invoke.371
+- ___42-[CSRemoteControlClient didDeviceConnect:]_block_invoke.424
+- ___44-[CSBuiltInVoiceTrigger _stopAPVoiceTrigger]_block_invoke.459
+- ___46-[CSHybridEndpointAnalyzer processTaskString:]_block_invoke.466
+- ___46-[CSSiriMobileBluetoothDeviceProxy deviceInfo]_block_invoke.158
+- ___47-[CSSiriSpeechRecorder playRecordingStartAlert]_block_invoke.204
+- ___48-[CSSpeechController CSXPCClient:didDisconnect:]_block_invoke.772
+- ___49-[CSAssetController _downloadAsset:withComplete:]_block_invoke.399
+- ___49-[CSVoiceTriggerFirstPassHearstAP _stopListening]_block_invoke.381
+- ___49-[CSVoiceTriggerFirstPassJarvisAP _stopListening]_block_invoke.375
+- ___50-[CSSiriSpeechRecorder _playPhaticWithCompletion:]_block_invoke.296
+- ___50-[CSSpeechManager audioProviderWithContext:error:]_block_invoke.467
+- ___51-[CSEarlyTwoShotDetector stopListenWithCompletion:]_block_invoke.372
+- ___52-[CSBuiltInVoiceTrigger _startListenWithCompletion:]_block_invoke.446
+- ___52-[CSBuiltInVoiceTrigger _startListenWithCompletion:]_block_invoke_2.447
+- ___52-[CSSelfTriggerDetector _startListenWithCompletion:]_block_invoke.372
+- ___52-[CSSiriAudioPlaybackService _playHapticForRequest:]_block_invoke.53
+- ___52-[CSSpeechController setCurrentRecordContext:error:]_block_invoke.648
+- ___52-[CSSpeechManager _setupVoiceTriggerWithCompletion:]_block_invoke.444
+- ___52-[CSSpeechManager _setupVoiceTriggerWithCompletion:]_block_invoke.448
+- ___52-[CSSpeechManager _setupVoiceTriggerWithCompletion:]_block_invoke.449
+- ___52-[CSSpeechManager _setupVoiceTriggerWithCompletion:]_block_invoke.453
+- ___52-[CSSpeechManager _setupVoiceTriggerWithCompletion:]_block_invoke.460
+- ___52-[CSSpeechManager _setupVoiceTriggerWithCompletion:]_block_invoke_2.461
+- ___52-[CSVoiceTriggerAssetHandlerMac triggerAssetRefresh]_block_invoke.371
+- ___53-[CSRemoteControlClient _transferFile:at:completion:]_block_invoke.509
+- ___53-[CSRemoteControlClient _transferFile:at:completion:]_block_invoke.510
+- ___54-[CSAssetController fetchRemoteMetaOfType:allowRetry:]_block_invoke.387
+- ___54-[CSAttSiriMitigationAssetHandler triggerAssetRefresh]_block_invoke.380
+- ___54-[CSSelfTriggerDetector _stopListeningWithCompletion:]_block_invoke.373
+- ___54-[CSSpeechController prepareRecordWithSettings:error:]_block_invoke.623
+- ___54-[CSSpeechController prepareRecordWithSettings:error:]_block_invoke.632
+- ___55-[CSSpeechController startRecordingWithSettings:error:]_block_invoke.678
+- ___55-[CSSpeechController startRecordingWithSettings:error:]_block_invoke.686
+- ___55-[CSSpeechController startRecordingWithSettings:error:]_block_invoke_2.687
+- ___56-[CSSiriSpeechRecorder performBlockAfterAlerts:timeout:]_block_invoke.306
+- ___58-[CSRemoteControlClient exchangeRemoteDeviceProtocolInfo:]_block_invoke.634
+- ___60-[CSSiriSpeechRecordingContext willStopRecordingAtHostTime:]_block_invoke.89
+- ___60-[CSSpeechController handleStopRecordingRequestWithOptions:]_block_invoke.700
+- ___61-[CSModelBenchmarker _setupAudioInjectionEngineWithAudioURL:]_block_invoke.400
+- ___61-[CSRemoraEndpointAnalyzer osdAnalyzer:didUpdateOSDFeatures:]_block_invoke.410
+- ___61-[CSRemoraEndpointAnalyzer osdAnalyzer:didUpdateOSDFeatures:]_block_invoke.411
+- ___61-[CSRemoraEndpointAnalyzer osdAnalyzer:didUpdateOSDFeatures:]_block_invoke.413
+- ___61-[CSRemoraEndpointAnalyzer osdAnalyzer:didUpdateOSDFeatures:]_block_invoke.414
+- ___61-[CSRemoraEndpointAnalyzer osdAnalyzer:didUpdateOSDFeatures:]_block_invoke.422
+- ___61-[CSRemoraEndpointAnalyzer osdAnalyzer:didUpdateOSDFeatures:]_block_invoke_2.420
+- ___62-[CSRemoraEndpointAnalyzer processAudioSamplesAsynchronously:]_block_invoke.405
+- ___62-[CSVoiceTriggerFirstPassJarvisAP _startListenWithCompletion:]_block_invoke.373
+- ___63-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSAOP]_block_invoke.70
+- ___63-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSAOP]_block_invoke.73
+- ___63-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSAOP]_block_invoke.74
+- ___63-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSAOP]_block_invoke.75
+- ___64-[CSEarlyTwoShotDetector voiceTriggerDidDetectKeyword:deviceId:]_block_invoke.367
+- ___64-[CSEndpointerAssetManager _registerForAssetUpdateNotifications]_block_invoke.379
+- ___64-[CSSiriSpeechRecordingContext acquireRecordedAudioWithHandler:]_block_invoke.64
+- ___64-[CSSiriSpeechRecordingContext acquireRecordedAudioWithHandler:]_block_invoke_2.66
+- ___64-[CSSmartSiriVolume _startListenPollingWithInterval:completion:]_block_invoke.409
+- ___65-[CSEarlyTwoShotDetector processOSDFeatures:withFrameDurationMs:]_block_invoke.371
+- ___65-[CSVoiceIdXPCConnection _handleImplicitUtteranceMessage:client:]_block_invoke.367
+- ___66-[CSSiriSpeechRecorder _prepareSpeechControllerWithOptions:error:]_block_invoke.105
+- ___67-[CSSmartSiriVolume startSmartSiriVolumeWithAudioProviderSelector:]_block_invoke.404
+- ___67-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSBargeIn]_block_invoke.58
+- ___67-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSBargeIn]_block_invoke.61
+- ___67-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSBargeIn]_block_invoke.62
+- ___67-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSBargeIn]_block_invoke.67
+- ___67-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSBargeIn]_block_invoke.68
+- ___67-[CSVoiceTriggerAPModeSuspendPolicyIOS _addConditionsForIOSBargeIn]_block_invoke.69
+- ___68-[CSBuiltInVoiceTrigger _startListenPollingWithInterval:completion:]_block_invoke.441
+- ___68-[CSSelfTriggerDetector _startListenPollingWithInterval:completion:]_block_invoke.362
+- ___68-[CSTrialAssetDownloadMonitor _validateDownloadedAssetForAssetType:]_block_invoke.400
+- ___68-[CSTrialAssetDownloadMonitor _validateDownloadedAssetForAssetType:]_block_invoke.401
+- ___68-[CSVoiceTriggerSecondPass _processSecondPassInExclave:rejectBlock:]_block_invoke.479
+- ___69+[CSVoiceTriggerSecondPass _extractVoiceProfileEmbeddingsForExclave:]_block_invoke.609
+- ___69-[CSSiriMobileBluetoothDeviceProxy initWithAddress:dataSource:queue:]_block_invoke.156
+- ___70-[CSSiriSpeechRecorder _startAudioPlaybackRequest:options:completion:]_block_invoke.307
+- ___71-[CSSiriMobileBluetoothDeviceProxy initWithDeviceUID:dataSource:queue:]_block_invoke.157
+- ___72-[CSVoiceTriggerFirstPassJarvis _handleSecondPassResult:deviceId:error:]_block_invoke.399
+- ___72-[CSVoiceTriggerFirstPassJarvis _handleSecondPassResult:deviceId:error:]_block_invoke.400
+- ___73-[CSSiriSpeechRecorder _performTwoShotPromptForType:withOverride:atTime:]_block_invoke.295
+- ___75-[CSVoiceProfileRetrainManager CSFirstUnlockMonitor:didReceiveFirstUnlock:]_block_invoke.371
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.471
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.472
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.473
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.475
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.476
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.484
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.488
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke_2.477
+- ___77-[CSBuiltInVoiceTrigger activationEventNotificationHandler:event:completion:]_block_invoke.501
+- ___77-[CSSiriSpeechRecorder startSpeechCaptureWithContext:willStartHandler:error:]_block_invoke.159
+- ___77-[CSSpeechManager CSAudioRouteChangeMonitor:didReceiveAudioRouteChangeEvent:]_block_invoke.486
+- ___78-[CSRemoteControlClient transferVoiceTriggerAsset:forLanguageCode:completion:]_block_invoke.545
+- ___79-[CSSiriSpeechRecordingContext didDetectTwoShotWithAudioActivationInfo:atTime:]_block_invoke.85
+- ___79-[CSVoiceProfileRetrainManager CSVoiceTriggerEnabledMonitor:didReceiveEnabled:]_block_invoke.368
+- ___80-[CSVoiceTriggerFirstPassHearstAP _startListenWithAudioProviderUUID:completion:]_block_invoke.377
+- ___81-[CSSiriMobileBluetoothDeviceProxy _accessBTDeviceAndAccessoryManagerUsingBlock:]_block_invoke.166
+- ___81-[CSSiriMobileBluetoothDeviceProxy _accessBTDeviceAndAccessoryManagerUsingBlock:]_block_invoke.167
+- ___81-[CSSpeechController _activateAudioSessionWithReason:delay:delayRequested:error:]_block_invoke.634
+- ___81-[CSSpeechController _activateAudioSessionWithReason:delay:delayRequested:error:]_block_invoke.635
+- ___81-[CSSpeechController _activateAudioSessionWithReason:delay:delayRequested:error:]_block_invoke.636
+- ___81-[CSSpeechController _activateAudioSessionWithReason:delay:delayRequested:error:]_block_invoke.644
+- ___82-[CoreSpeechXPC voiceTriggerJarvisLanguageList:jarvisSelectedLanguage:completion:]_block_invoke.375
+- ___84-[CSSiriSpeechRecorder speechControllerLPCMRecordBufferAvailable:buffer:recordedAt:]_block_invoke.250
+- ___84-[CSSiriSpeechRecordingContext willPrepareAndStartRecordingWithAudioActivationInfo:]_block_invoke.79
+- ___85-[CSRemoteControlClient transferInterstitialAudioFiles:interstitialLevel:completion:]_block_invoke.597
+- ___85-[CSSiriSpeechRecorder endpointer:didDetectHardEndpointAtTime:withMetrics:eventType:]_block_invoke.276
+- ___85-[CSVoiceProfileRetrainManager _runRetrainerWithAssets:withSecureAsset:languageCode:]_block_invoke.381
+- ___85-[CSVoiceProfileRetrainManager _runRetrainerWithAssets:withSecureAsset:languageCode:]_block_invoke.383
+- ___85-[CSVoiceTriggerFirstPassRemora activationEventNotificationHandler:event:completion:]_block_invoke.468
+- ___85-[CSVoiceTriggerFirstPassRemora activationEventNotificationHandler:event:completion:]_block_invoke.470
+- ___87-[CSVoiceProfileRetrainManager _retrainingVoiceProfile:voiceProfile:asset:secureAsset:]_block_invoke.387
+- ___87-[CSVoiceTriggerFirstPassHearstAP _keywordAnalyzerNDAPI:hasResultAvailable:forChannel:]_block_invoke.395
+- ___88-[CSVoiceTriggerFirstPassRemora _handleRemoraTriggerEvent:secondPassRequest:completion:]_block_invoke.479
+- ___93-[CSFileAudioInjectionEngine injectAudio:withScaleFactor:outASBD:playbackStarted:completion:]_block_invoke.371
+- ___93-[CSVoiceTriggerSecondPass _handleVoiceTriggerFirstPassFromAOP:audioProviderUUID:completion:]_block_invoke.492
+- ___96-[CSVoiceTriggerFirstPassHearst _handleRemoteMicVoiceTriggerEvent:secondPassRequest:completion:]_block_invoke.443
+- ___96-[CSVoiceTriggerFirstPassHearst _handleRemoteMicVoiceTriggerEvent:secondPassRequest:completion:]_block_invoke.451
+- ___96-[CSVoiceTriggerFirstPassHearst _handleRemoteMicVoiceTriggerEvent:secondPassRequest:completion:]_block_invoke_2.453
+- ___97-[CSSiriSpeechRecorder speechControllerDidDetectVoiceTriggerTwoShot:atTime:wantsAudibleFeedback:]_block_invoke.262
+- ___97-[CSSiriSpeechRecorder speechControllerDidDetectVoiceTriggerTwoShot:atTime:wantsAudibleFeedback:]_block_invoke_2.263
+- ___97-[CSSiriSpeechRecordingContext _donateRecordedAudioForVoiceIdentificationTrainingWithCompletion:]_block_invoke.120
+- ___97-[CSVoiceTriggerSecondPass _handleVoiceTriggerFirstPassFromExclave:audioProviderUUID:completion:]_block_invoke.451
+- ___98-[CSVoiceTriggerSecondPass _voiceTriggerFirstPassDidDetectKeywordFrom:readyCompletion:completion:]_block_invoke.461
+- ___98-[CSVoiceTriggerSecondPass _voiceTriggerFirstPassDidDetectKeywordFrom:readyCompletion:completion:]_block_invoke.468
+- ___Block_byref_object_copy_.10991
+- ___Block_byref_object_copy_.12314
+- ___Block_byref_object_copy_.12728
+- ___Block_byref_object_copy_.1301
+- ___Block_byref_object_copy_.13740
+- ___Block_byref_object_copy_.14078
+- ___Block_byref_object_copy_.14863
+- ___Block_byref_object_copy_.14968
+- ___Block_byref_object_copy_.1530
+- ___Block_byref_object_copy_.16473
+- ___Block_byref_object_copy_.16933
+- ___Block_byref_object_copy_.18060
+- ___Block_byref_object_copy_.19501
+- ___Block_byref_object_copy_.20123
+- ___Block_byref_object_copy_.2030
+- ___Block_byref_object_copy_.20816
+- ___Block_byref_object_copy_.21043
+- ___Block_byref_object_copy_.21613
+- ___Block_byref_object_copy_.22173
+- ___Block_byref_object_copy_.22440
+- ___Block_byref_object_copy_.23239
+- ___Block_byref_object_copy_.24044
+- ___Block_byref_object_copy_.2429
+- ___Block_byref_object_copy_.24558
+- ___Block_byref_object_copy_.25393
+- ___Block_byref_object_copy_.25679
+- ___Block_byref_object_copy_.26494
+- ___Block_byref_object_copy_.3299
+- ___Block_byref_object_copy_.3414
+- ___Block_byref_object_copy_.3528
+- ___Block_byref_object_copy_.4096
+- ___Block_byref_object_copy_.6631
+- ___Block_byref_object_copy_.7622
+- ___Block_byref_object_copy_.8217
+- ___Block_byref_object_copy_.9389
+- ___Block_byref_object_copy_.9842
+- ___Block_byref_object_dispose_.10992
+- ___Block_byref_object_dispose_.12315
+- ___Block_byref_object_dispose_.12729
+- ___Block_byref_object_dispose_.1302
+- ___Block_byref_object_dispose_.13741
+- ___Block_byref_object_dispose_.14079
+- ___Block_byref_object_dispose_.14864
+- ___Block_byref_object_dispose_.14969
+- ___Block_byref_object_dispose_.1531
+- ___Block_byref_object_dispose_.16474
+- ___Block_byref_object_dispose_.16934
+- ___Block_byref_object_dispose_.18061
+- ___Block_byref_object_dispose_.19502
+- ___Block_byref_object_dispose_.20124
+- ___Block_byref_object_dispose_.2031
+- ___Block_byref_object_dispose_.20817
+- ___Block_byref_object_dispose_.21044
+- ___Block_byref_object_dispose_.21614
+- ___Block_byref_object_dispose_.22174
+- ___Block_byref_object_dispose_.22441
+- ___Block_byref_object_dispose_.23240
+- ___Block_byref_object_dispose_.24045
+- ___Block_byref_object_dispose_.2430
+- ___Block_byref_object_dispose_.24559
+- ___Block_byref_object_dispose_.25394
+- ___Block_byref_object_dispose_.25680
+- ___Block_byref_object_dispose_.26495
+- ___Block_byref_object_dispose_.3300
+- ___Block_byref_object_dispose_.3415
+- ___Block_byref_object_dispose_.3529
+- ___Block_byref_object_dispose_.4097
+- ___Block_byref_object_dispose_.6632
+- ___Block_byref_object_dispose_.7623
+- ___Block_byref_object_dispose_.8218
+- ___Block_byref_object_dispose_.9390
+- ___Block_byref_object_dispose_.9843
+- ___MobileTimerLibraryCore_block_invoke.661
+- ___block_literal_global.10.20425
+- ___block_literal_global.10.21481
+- ___block_literal_global.10.9987
+- ___block_literal_global.10012
+- ___block_literal_global.1019
+- ___block_literal_global.10203
+- ___block_literal_global.10406
+- ___block_literal_global.10814
+- ___block_literal_global.11029
+- ___block_literal_global.1118
+- ___block_literal_global.11325
+- ___block_literal_global.11425
+- ___block_literal_global.11547
+- ___block_literal_global.11847
+- ___block_literal_global.11953
+- ___block_literal_global.12.13226
+- ___block_literal_global.12.18605
+- ___block_literal_global.12.20601
+- ___block_literal_global.12008
+- ___block_literal_global.12063
+- ___block_literal_global.12517
+- ___block_literal_global.12633
+- ___block_literal_global.12873
+- ___block_literal_global.13.20426
+- ___block_literal_global.13.21482
+- ___block_literal_global.13219
+- ___block_literal_global.13576
+- ___block_literal_global.13632
+- ___block_literal_global.13817
+- ___block_literal_global.13835
+- ___block_literal_global.1388
+- ___block_literal_global.13953
+- ___block_literal_global.14525
+- ___block_literal_global.14955
+- ___block_literal_global.14997
+- ___block_literal_global.15554
+- ___block_literal_global.157
+- ___block_literal_global.16.13633
+- ___block_literal_global.16.20427
+- ___block_literal_global.16.20602
+- ___block_literal_global.16004
+- ___block_literal_global.16013
+- ___block_literal_global.16059
+- ___block_literal_global.16093
+- ___block_literal_global.162
+- ___block_literal_global.16341
+- ___block_literal_global.16417
+- ___block_literal_global.16531
+- ___block_literal_global.17.11954
+- ___block_literal_global.17.13577
+- ___block_literal_global.17.20496
+- ___block_literal_global.17197
+- ___block_literal_global.17266
+- ___block_literal_global.17295
+- ___block_literal_global.17796
+- ___block_literal_global.18085
+- ___block_literal_global.18394
+- ___block_literal_global.18474
+- ___block_literal_global.18624
+- ___block_literal_global.18738
+- ___block_literal_global.1882
+- ___block_literal_global.18889
+- ___block_literal_global.19024
+- ___block_literal_global.19040
+- ___block_literal_global.19327
+- ___block_literal_global.19418
+- ___block_literal_global.19521
+- ___block_literal_global.19597
+- ___block_literal_global.19794
+- ___block_literal_global.20.13578
+- ___block_literal_global.20.20497
+- ___block_literal_global.20107
+- ___block_literal_global.203
+- ___block_literal_global.20411
+- ___block_literal_global.20424
+- ___block_literal_global.20495
+- ___block_literal_global.2050
+- ___block_literal_global.20626
+- ___block_literal_global.20720
+- ___block_literal_global.20759
+- ___block_literal_global.20879
+- ___block_literal_global.21.11955
+- ___block_literal_global.21.20603
+- ___block_literal_global.21479
+- ___block_literal_global.2160
+- ___block_literal_global.21945
+- ___block_literal_global.22.20428
+- ___block_literal_global.22055
+- ___block_literal_global.22203
+- ___block_literal_global.2260
+- ___block_literal_global.2274
+- ___block_literal_global.22781
+- ___block_literal_global.23033
+- ___block_literal_global.23119
+- ___block_literal_global.23493
+- ___block_literal_global.24269
+- ___block_literal_global.24587
+- ___block_literal_global.24915
+- ___block_literal_global.25.18591
+- ___block_literal_global.25.20429
+- ___block_literal_global.2512
+- ___block_literal_global.25202
+- ___block_literal_global.25251
+- ___block_literal_global.25426
+- ___block_literal_global.25528
+- ___block_literal_global.25615
+- ___block_literal_global.2573
+- ___block_literal_global.25748
+- ___block_literal_global.26.20498
+- ___block_literal_global.26291
+- ___block_literal_global.26505
+- ___block_literal_global.2665
+- ___block_literal_global.26779
+- ___block_literal_global.27.11956
+- ___block_literal_global.285
+- ___block_literal_global.2851
+- ___block_literal_global.29.20499
+- ___block_literal_global.30.11957
+- ___block_literal_global.3065
+- ___block_literal_global.317
+- ___block_literal_global.3234
+- ___block_literal_global.3335
+- ___block_literal_global.3405
+- ___block_literal_global.351
+- ___block_literal_global.3564
+- ___block_literal_global.357.25421
+- ___block_literal_global.36.11958
+- ___block_literal_global.361
+- ___block_literal_global.369
+- ___block_literal_global.371
+- ___block_literal_global.372
+- ___block_literal_global.375.11003
+- ___block_literal_global.38.8372
+- ___block_literal_global.390
+- ___block_literal_global.394
+- ___block_literal_global.398
+- ___block_literal_global.399
+- ___block_literal_global.414
+- ___block_literal_global.42.11959
+- ___block_literal_global.44.8366
+- ___block_literal_global.451
+- ___block_literal_global.4516
+- ___block_literal_global.453
+- ___block_literal_global.46.8363
+- ___block_literal_global.463
+- ___block_literal_global.485
+- ___block_literal_global.488
+- ___block_literal_global.495
+- ___block_literal_global.5.25749
+- ___block_literal_global.5.26780
+- ___block_literal_global.5099
+- ___block_literal_global.517
+- ___block_literal_global.5207
+- ___block_literal_global.5376
+- ___block_literal_global.5466
+- ___block_literal_global.5489
+- ___block_literal_global.56
+- ___block_literal_global.5801
+- ___block_literal_global.5936
+- ___block_literal_global.60.12494
+- ___block_literal_global.610
+- ___block_literal_global.615
+- ___block_literal_global.6200
+- ___block_literal_global.638
+- ___block_literal_global.64
+- ___block_literal_global.682
+- ___block_literal_global.7.13927
+- ___block_literal_global.7.21480
+- ___block_literal_global.7.670
+- ___block_literal_global.7.8687
+- ___block_literal_global.70.24532
+- ___block_literal_global.718
+- ___block_literal_global.72
+- ___block_literal_global.7801
+- ___block_literal_global.783
+- ___block_literal_global.8.25522
+- ___block_literal_global.8.25750
+- ___block_literal_global.8.26781
+- ___block_literal_global.8401
+- ___block_literal_global.8453
+- ___block_literal_global.8564
+- ___block_literal_global.862
+- ___block_literal_global.8702
+- ___block_literal_global.9105
+- ___block_literal_global.9488
+- ___block_literal_global.9632
+- ___block_literal_global.9858
+- __compensateChannelDataIfNeeded:receivedNumChannels:.heartbeat.13729
+- __handleAudioChunk:.heartbeat_CORESPEECH_VOICETRIGGER_FIRSTPASS_LPCM_RECORD_BUFFER_AVAILABLE.17727
+- __keywordAnalyzerNDAPI:hasResultAvailable:forChannel:.heartbeat.10186
+- __keywordAnalyzerNDAPI:hasResultAvailable:forChannel:.heartbeat.17719
+- __keywordAnalyzerNDAPI:hasResultAvailable:forChannel:.heartbeat.25983
+- _audit_stringMobileTimer.664
+- _objc_msgSend$_alertDictionaryForRecordRoute:playbackRoute:speechEvent:ringerState:startingAlertBeepOverideID:presentationMode:hasPlayedStartAlert:supportsEchoCancellation:isVoiceOverTouchEnabled:isVibrationEnabled:isVibrationSupported:activationHostTime:isVoiceOverSiriSoundsEnabled:
+- _objc_msgSend$initWithAttendingType:detectedToken:triggerMachTime:triggerAbsStartSampleId:audioRecordType:audioRecordDeviceId:amountOfSpeechDetectedInMs:triggerThresholdInMs:
+- _sharedController.onceToken.11028
+- _sharedController.sharedController.11030
+- _sharedHandler.onceToken.18393
+- _sharedHandler.onceToken.25425
+- _sharedHandler.onceToken.861
+- _sharedHandler.sharedHandler.18395
+- _sharedHandler.sharedHandler.25427
+- _sharedHandler.sharedHandler.863
+- _sharedHandlerDisabledOnDeviceCompilation.onceToken.25420
+- _sharedHandlerDisabledOnDeviceCompilation.sharedHandler.25422
+- _sharedInstance._sharedInstance.10815
+- _sharedInstance._sharedInstance.12064
+- _sharedInstance._sharedInstance.13954
+- _sharedInstance._sharedInstance.16060
+- _sharedInstance._sharedInstance.16342
+- _sharedInstance._sharedInstance.16418
+- _sharedInstance._sharedInstance.17267
+- _sharedInstance._sharedInstance.18739
+- _sharedInstance._sharedInstance.19328
+- _sharedInstance._sharedInstance.19419
+- _sharedInstance._sharedInstance.19598
+- _sharedInstance._sharedInstance.22782
+- _sharedInstance._sharedInstance.23494
+- _sharedInstance._sharedInstance.2513
+- _sharedInstance._sharedInstance.25252
+- _sharedInstance._sharedInstance.2574
+- _sharedInstance._sharedInstance.26506
+- _sharedInstance._sharedInstance.2852
+- _sharedInstance._sharedInstance.5100
+- _sharedInstance._sharedInstance.518
+- _sharedInstance._sharedInstance.5208
+- _sharedInstance._sharedInstance.5467
+- _sharedInstance._sharedInstance.5937
+- _sharedInstance._sharedInstance.616
+- _sharedInstance._sharedInstance.683
+- _sharedInstance._sharedInstance.8454
+- _sharedInstance.onceToken.10011
+- _sharedInstance.onceToken.1018
+- _sharedInstance.onceToken.10813
+- _sharedInstance.onceToken.1117
+- _sharedInstance.onceToken.12007
+- _sharedInstance.onceToken.12062
+- _sharedInstance.onceToken.12632
+- _sharedInstance.onceToken.13952
+- _sharedInstance.onceToken.14524
+- _sharedInstance.onceToken.14954
+- _sharedInstance.onceToken.16058
+- _sharedInstance.onceToken.16340
+- _sharedInstance.onceToken.16416
+- _sharedInstance.onceToken.16530
+- _sharedInstance.onceToken.17196
+- _sharedInstance.onceToken.17265
+- _sharedInstance.onceToken.17294
+- _sharedInstance.onceToken.18623
+- _sharedInstance.onceToken.18737
+- _sharedInstance.onceToken.19326
+- _sharedInstance.onceToken.19417
+- _sharedInstance.onceToken.19596
+- _sharedInstance.onceToken.20410
+- _sharedInstance.onceToken.20625
+- _sharedInstance.onceToken.20758
+- _sharedInstance.onceToken.20878
+- _sharedInstance.onceToken.21944
+- _sharedInstance.onceToken.22054
+- _sharedInstance.onceToken.22202
+- _sharedInstance.onceToken.22780
+- _sharedInstance.onceToken.23118
+- _sharedInstance.onceToken.23492
+- _sharedInstance.onceToken.24914
+- _sharedInstance.onceToken.2511
+- _sharedInstance.onceToken.25250
+- _sharedInstance.onceToken.2572
+- _sharedInstance.onceToken.26290
+- _sharedInstance.onceToken.26504
+- _sharedInstance.onceToken.2664
+- _sharedInstance.onceToken.2850
+- _sharedInstance.onceToken.3233
+- _sharedInstance.onceToken.393
+- _sharedInstance.onceToken.4515
+- _sharedInstance.onceToken.5098
+- _sharedInstance.onceToken.516
+- _sharedInstance.onceToken.5206
+- _sharedInstance.onceToken.5465
+- _sharedInstance.onceToken.5935
+- _sharedInstance.onceToken.614
+- _sharedInstance.onceToken.681
+- _sharedInstance.onceToken.8452
+- _sharedInstance.onceToken.8701
+- _sharedInstance.onceToken.9631
+- _sharedInstance.onceToken.9857
+- _sharedInstance.sSharedInstance.17296
+- _sharedInstance.sharedInstance.12009
+- _sharedInstance.sharedInstance.12634
+- _sharedInstance.sharedInstance.14526
+- _sharedInstance.sharedInstance.17198
+- _sharedInstance.sharedInstance.18625
+- _sharedInstance.sharedInstance.20412
+- _sharedInstance.sharedInstance.20760
+- _sharedInstance.sharedInstance.22056
+- _sharedInstance.sharedInstance.22204
+- _sharedInstance.sharedInstance.26292
+- _sharedInstance.sharedInstance.3235
+- _sharedInstance.sharedInstance.4517
+- _sharedInstance.sharedInstance.8703
+- _sharedInstance.sharedManager.24916
+- _sharedInstance.sharedPolicy.1020
+- _sharedInstance.sharedPolicy.20627
+- _sharedInstance.sharedPolicy.23120
+- _sharedManager.onceToken.16003
+- _sharedManager.onceToken.18084
+- _sharedManager.onceToken.5800
+- _sharedManager.onceToken.6199
+- _sharedManager.sharedManager.16005
+- _sharedManager.sharedManager.5802
+- _sharedManager.sharedManager.6201
+- _sharedMonitor.onceToken.19520
+- _sharedMonitor.sharedMonitor.19522
+- _sharedService.onceToken.14996
+- _sharedService.onceToken.24586
+- _sharedService.sharedService.24588
+CStrings:
++ "%s CSVoiceTriggerSecondPass[%{public}@]:secondpass SAT reject but overriding decision with PHS threshold reduced set"
++ "%s Emit OSDDetectionReported speechStartMs=%u thresholdMs=%d silenceProb=%.3f canary=%d modelVersion=%@ mhUUID=%@"
++ "%s Mint a new MHUUID for OSDDetectionReported events"
++ "%s Not handling exclave server endpoint inactive message as the server endpoint connection policy is recommending on demand connection"
++ "%s Resuming timer with uuid %@ to connect to Exclave Server, success: %d"
++ "%s Skipping OSDDetectionReported emit: invalid mhUUID=%{public}@"
++ "%s timer with uuid %@ to connect to Exclave Server triggered"
++ "+[CSAttendingSelfLogger emitOSDDetectionReportedWithSpeechStartTimeInMs:minConsecutiveSpeechThresholdInMs:silenceProbabilityThreshold:isCanarySampled:osdModelVersion:withMHUUID:]"
++ "+[CSSiriAudioActivationInfo _alertDictionaryForRecordRoute:playbackRoute:speechEvent:ringerState:startingAlertBeepOverideID:presentationMode:hasPlayedStartAlert:supportsEchoCancellation:isVoiceOverTouchEnabled:isVibrationEnabled:isVibrationSupported:activationHostTime:isVoiceOverSiriSoundsEnabled:suppressStartAlert:]"
++ "-[CSSpeechManager _cancelConnectionTimer]"
++ "-[CSSpeechManager _handleExclaveServerEndpointActiveMessage]"
++ "-[CSSpeechManager _handleExclaveServerEndpointInactiveMessage]"
++ "-[CSSpeechManager _handleExclaveServerEndpointInactiveMessage]_block_invoke"
++ "-[CSSpeechManager _handleExclaveServerEndpointInactiveMessage]_block_invoke_2"
++ "CSAttendingTriggerInfo:::speechStartTimeInMs"
++ "[speechStartTimeInMs = %u]"
++ "\xa1"
+- "!1"
+- "%s CSVoiceTriggerSecondPass[%{public}@]:secondpass SAT reject but overriding decision with PHS threshold reduced setted"
+- "+[CSSiriAudioActivationInfo _alertDictionaryForRecordRoute:playbackRoute:speechEvent:ringerState:startingAlertBeepOverideID:presentationMode:hasPlayedStartAlert:supportsEchoCancellation:isVoiceOverTouchEnabled:isVibrationEnabled:isVibrationSupported:activationHostTime:isVoiceOverSiriSoundsEnabled:]"
+- "com.apple.corespeech.ducking"
+
+```

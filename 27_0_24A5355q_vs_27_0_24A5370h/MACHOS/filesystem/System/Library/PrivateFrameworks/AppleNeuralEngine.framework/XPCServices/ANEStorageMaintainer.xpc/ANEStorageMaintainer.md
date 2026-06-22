@@ -1,0 +1,161 @@
+## ANEStorageMaintainer
+
+> `/System/Library/PrivateFrameworks/AppleNeuralEngine.framework/XPCServices/ANEStorageMaintainer.xpc/ANEStorageMaintainer`
+
+```diff
+
+-382.7.4.0.0
+-  __TEXT.__text: 0x7818 sha256:5443d4908e36ac9b556bba75d984498b118d85ea7309081643303efca339945c
++382.9.0.0.0
++  __TEXT.__text: 0x7800 sha256:342ba369ae492c50d3198d767123e824b366948e963d7c841812f95672fa4676
+   __TEXT.__auth_stubs: 0x4d0 sha256:920a15e1f08b4a92bbc3ffa6aa9015a02e7c53257f5b5420dd699c06c9616db0
+-  __TEXT.__objc_stubs: 0xec0 sha256:0b9f729878ae173002ae484c0e50dfa493076a1dd4ba9c093fb40f0b785b035c
+-  __TEXT.__objc_methlist: 0x3b4 sha256:e76b33d6640b78ae09d67b7c419e3c02f52a133859f2a4634e5f586c0fb4e718
++  __TEXT.__objc_stubs: 0xec0 sha256:90480c17be511ab336ec3fdadc88e234a1cc04fff799a620190603d41a9abf21
++  __TEXT.__objc_methlist: 0x3b4 sha256:e03a6d1e1e60d0e1ddd1af08fd27fc6c08460684a7c73fbc40421fa6f1870559
+   __TEXT.__const: 0xc8 sha256:87e7e1d889d343f73d954ccec2e44322e39c180152d466d198523bc6b6b34a6d
+   __TEXT.__oslogstring: 0xd7d sha256:faeacaa7ca1b5d70e76d7bf6c23ade1047dd81577b47f146c92eea6a5eaa3625
+   __TEXT.__objc_classname: 0x86 sha256:cbfdaeafea2ca93293b4eac5465cdf17317f03cd1d339a28c8fd4ed35eb150a2
+
+   __TEXT.__objc_methtype: 0x26b sha256:c285f3f6723b58b3a84d4af84eae36d3047233ed869679cf8d2c37be41d244b3
+   __TEXT.__gcc_except_tab: 0x154 sha256:69424a5fe87a4645f35a25a40393adde7973113a82fe0174cbd4359a5a2b9398
+   __TEXT.__cstring: 0x1e3 sha256:1958e02699b86db502a645fd7edb416c8868c590b134ddd8ff928ce8661e75a4
+-  __TEXT.__unwind_info: 0x190 sha256:d24e8c66f803ade1a78856ac9cc5e938e25386519b8ab044d0be2133212d82b9
+-  __DATA_CONST.__const: 0x118 sha256:3931bd6cfffbfba9acda94a6e62dd4119f8e4d2f8871b2aafb4749054c0e016a
+-  __DATA_CONST.__cfstring: 0x2c0 sha256:1f37e0b2cd76dbb15a0c013de74578b7537f3357a7e09def1d5732304e039aa9
++  __TEXT.__unwind_info: 0x190 sha256:b7b8fe8f1fa19b6f12b63aff77df74bb5d2bc746c3c43c07737ac2c9fe9161d0
++  __DATA_CONST.__const: 0x118 sha256:1eb55617b3d445e19bef177c69cf32a403dba3f251ff8934d1b12e5601540146
++  __DATA_CONST.__cfstring: 0x2c0 sha256:eac3302acc1f8490e2fb573048537c66449cc706f53eb30605ac9adaa10d425f
+   __DATA_CONST.__objc_classlist: 0x20 sha256:b8aa5af9beb1b1b108275d65a840bfa8536c3544a5840b203af43e4ee30ae000
+   __DATA_CONST.__objc_protolist: 0x18 sha256:6c50cb4daf637564a02c98cac4ee8ad3a89b8c2d84a122652fdf042d081f37d5
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__objc_protorefs: 0x8 sha256:b0eb0a4bd06fc82ee9efd6bf1122a472f87a258647f7c043ce7700d3b26d5225
+   __DATA_CONST.__objc_superrefs: 0x8 sha256:edccc9f471c84dfe3ef6fdde5ebf6624f06cdec87d998ec650de3112875e48b1
+-  __DATA_CONST.__objc_intobj: 0x18 sha256:d7785034ae55c4589badeb8326ea3d4d4a5d557b0268d2a6caea3b167b29b40c
++  __DATA_CONST.__objc_intobj: 0x18 sha256:3f572322842f8506eecb1b06ebc01969aa2f33d8675a10c192ffa1ed0f56476c
+   __DATA_CONST.__auth_got: 0x278 sha256:1adae4fcc828d4e5544f251c1bfc84beff8641e04bf6d38a99c1211bbafae4d6
+   __DATA_CONST.__got: 0xd0 sha256:5abf102bbbdc10ef62a1669f5374d080d90ddc9c75c824bb76b8da80ad6f4fd1
+-  __DATA.__objc_const: 0x450 sha256:283ffd1d9dce817a76ee11009057fa5dbd13cfd0c095a5044acd1616c92acf09
+-  __DATA.__objc_selrefs: 0x4d8 sha256:cb485531280f235724482521789c07b95c9e41fdcd40195345d505d755fca181
++  __DATA.__objc_const: 0x450 sha256:5fce21c7c6dfbacb0b541c29655ddf99e4295a1229b9b8e5b47546c409fa9bec
++  __DATA.__objc_selrefs: 0x4d8 sha256:a6824e84f076c9bf65a2f5c1735c45d38578d58ffd8bfa3eb7b321ab9debdb0e
+   __DATA.__objc_ivar: 0x8 sha256:1842d9d60985977543496f68d38a01a5470beb95bdae33af49b8167ada489f83
+   __DATA.__objc_data: 0x140 sha256:b481fb6fb7675746424d785d631f571f21b6abb290ce2e0bfaefa5d7bc967d52
+-  __DATA.__data: 0x130 sha256:ee0bf187131966dd77bc1034b9d175b5f94f74b1e8199035a98a7e76f1e6a7ed
++  __DATA.__data: 0x130 sha256:dda2d116a4be3a2270c8fa09d769af9a927485e3f819f6df79f2cfb08257512d
+   __DATA.__bss: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7E0885BC-BA55-3C6E-84D2-782CD0778D58
++  UUID: CA932C37-DB5C-311E-82BC-9E565D0D2AE7
+   Functions: 96
+   Symbols:   854
+   CStrings:  339
+Symbols:
++ /Library/Caches/com.apple.xbs/F8A047AD-E06F-4A2B-BC83-8A18091F959D/TemporaryDirectory.U5UFMm/Binaries/AppleNeuralEngine_CompilerService/install/TempContent/Objects/AppleNeuralEngine.build/ANEStorageMaintainer.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/F8A047AD-E06F-4A2B-BC83-8A18091F959D/TemporaryDirectory.U5UFMm/Binaries/AppleNeuralEngine_CompilerService/install/TempContent/Objects/AppleNeuralEngine.build/ANEStorageMaintainer.build/Objects-normal/arm64e/ANEStorageMaintainer_vers.o
++ /Library/Caches/com.apple.xbs/F8A047AD-E06F-4A2B-BC83-8A18091F959D/TemporaryDirectory.U5UFMm/Binaries/AppleNeuralEngine_CompilerService/install/TempContent/Objects/AppleNeuralEngine.build/ANEStorageMaintainer.build/Objects-normal/arm64e/_ANEPatchManager.o
++ /Library/Caches/com.apple.xbs/F8A047AD-E06F-4A2B-BC83-8A18091F959D/TemporaryDirectory.U5UFMm/Binaries/AppleNeuralEngine_CompilerService/install/TempContent/Objects/AppleNeuralEngine.build/ANEStorageMaintainer.build/Objects-normal/arm64e/_ANEStorageHelper.o
++ /Library/Caches/com.apple.xbs/F8A047AD-E06F-4A2B-BC83-8A18091F959D/TemporaryDirectory.U5UFMm/Binaries/AppleNeuralEngine_CompilerService/install/TempContent/Objects/AppleNeuralEngine.build/ANEStorageMaintainer.build/Objects-normal/arm64e/_ANEStorageMaintainer.o
++ /Library/Caches/com.apple.xbs/F8A047AD-E06F-4A2B-BC83-8A18091F959D/TemporaryDirectory.U5UFMm/Binaries/AppleNeuralEngine_CompilerService/install/TempContent/Objects/AppleNeuralEngine.build/ANEStorageMaintainer.build/Objects-normal/arm64e/main.o
++ /Library/Caches/com.apple.xbs/F8A047AD-E06F-4A2B-BC83-8A18091F959D/TemporaryDirectory.U5UFMm/Sources/AppleNeuralEngine_CompilerService/ANEStorageMaintainer/
++ /Library/Caches/com.apple.xbs/F8A047AD-E06F-4A2B-BC83-8A18091F959D/TemporaryDirectory.U5UFMm/Sources/AppleNeuralEngine_CompilerService/Common/
++ /Library/Caches/com.apple.xbs/F8A047AD-E06F-4A2B-BC83-8A18091F959D/TemporaryDirectory.U5UFMm/Sources/AppleNeuralEngine_CompilerService/aned/
+- /Library/Caches/com.apple.xbs/01273E70-6169-4366-936B-5D7E907FCA58/TemporaryDirectory.QWwnZm/Binaries/AppleNeuralEngine_CompilerService/install/TempContent/Objects/AppleNeuralEngine.build/ANEStorageMaintainer.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/01273E70-6169-4366-936B-5D7E907FCA58/TemporaryDirectory.QWwnZm/Binaries/AppleNeuralEngine_CompilerService/install/TempContent/Objects/AppleNeuralEngine.build/ANEStorageMaintainer.build/Objects-normal/arm64e/ANEStorageMaintainer_vers.o
+- /Library/Caches/com.apple.xbs/01273E70-6169-4366-936B-5D7E907FCA58/TemporaryDirectory.QWwnZm/Binaries/AppleNeuralEngine_CompilerService/install/TempContent/Objects/AppleNeuralEngine.build/ANEStorageMaintainer.build/Objects-normal/arm64e/_ANEPatchManager.o
+- /Library/Caches/com.apple.xbs/01273E70-6169-4366-936B-5D7E907FCA58/TemporaryDirectory.QWwnZm/Binaries/AppleNeuralEngine_CompilerService/install/TempContent/Objects/AppleNeuralEngine.build/ANEStorageMaintainer.build/Objects-normal/arm64e/_ANEStorageHelper.o
+- /Library/Caches/com.apple.xbs/01273E70-6169-4366-936B-5D7E907FCA58/TemporaryDirectory.QWwnZm/Binaries/AppleNeuralEngine_CompilerService/install/TempContent/Objects/AppleNeuralEngine.build/ANEStorageMaintainer.build/Objects-normal/arm64e/_ANEStorageMaintainer.o
+- /Library/Caches/com.apple.xbs/01273E70-6169-4366-936B-5D7E907FCA58/TemporaryDirectory.QWwnZm/Binaries/AppleNeuralEngine_CompilerService/install/TempContent/Objects/AppleNeuralEngine.build/ANEStorageMaintainer.build/Objects-normal/arm64e/main.o
+- /Library/Caches/com.apple.xbs/01273E70-6169-4366-936B-5D7E907FCA58/TemporaryDirectory.QWwnZm/Sources/AppleNeuralEngine_CompilerService/ANEStorageMaintainer/
+- /Library/Caches/com.apple.xbs/01273E70-6169-4366-936B-5D7E907FCA58/TemporaryDirectory.QWwnZm/Sources/AppleNeuralEngine_CompilerService/Common/
+- /Library/Caches/com.apple.xbs/01273E70-6169-4366-936B-5D7E907FCA58/TemporaryDirectory.QWwnZm/Sources/AppleNeuralEngine_CompilerService/aned/
+Functions:
+~ -[ServiceDelegate listener:shouldAcceptNewConnection:] : sha256 9716c49afcf47842f00ea572a3863fd6a7055b3eb0d9837745671069abe4f3da -> d651a6de622b1b2507415517cd2c590e56226b6510bd680efcdbe779324c7f4e
+~ _main : sha256 aebdd76bec1deba243fd53bebbb564c477edde44e47658bec7f180912f99abff -> f3ee9b856314258ae70738d3cb57565b90533524a3cb1e67e4b17d8659b1dd3b
+~ +[_ANEStorageHelper initialize] : sha256 a388cb1e8cb310433d4c5188b5d557b547d699965386010e49a62e887a68ee2d -> 9cea13686daa330198434a9f1943545062feee1ed87a9ee71d98170add64bd06
+~ ___31+[_ANEStorageHelper initialize]_block_invoke : sha256 12d69083ad303ed0ed88149a21356f2f260dd1d8350cfaa0e77c79d041696a98 -> 03fbcba5e41c2cc3a9086f0e260c6627c13e85617d920bcb82281ad397501473
+~ +[_ANEStorageHelper removeDirectoryAtPath:] : sha256 1e396b6d3cc7bda8fb44d4f4446e7463da346dc2a07e61cb8ff98a5bd8a06b5e -> 63be53495a0a1581dd6437c133186e8fbcc26b83e25d19c8e208541f60e08ab2
+~ +[_ANEStorageHelper removeShapesDirectoryAtPath:] : sha256 a1a913a35e5c79a6c0fdecea650f6c23030e413deaefa570da55972dcedd8c48 -> 485a0515efc436cdee07b0a188e553dc48f06cae17ed4aba72761298c44ea934
+~ +[_ANEStorageHelper memoryMapModelAtPath:modelAttributes:] : sha256 5d62952059f94398d1237b77cd124699ca2483803cffd9297d7e9fa09770bfbe -> ce211eb04ad2c01f9dea940a410949911f5ca9c7dc0d13762883baa0ea78e2b6
+~ +[_ANEStorageHelper memoryMapModelAtPath:isPrecompiled:modelAttributes:] : sha256 f75fbecd3089e1419a311b822979cfe0eca63342300141c60c24ee739f1492fe -> 3245c26fe8cdb0625b1799393638a8f4aec0652be49314adef363386186e822d
+~ ___72+[_ANEStorageHelper memoryMapModelAtPath:isPrecompiled:modelAttributes:]_block_invoke : sha256 c2527d9c9eecd482835ad98588633b40434b3c78b7c8abaadbbb3b10cd7faa7f -> 50b353d0ea7632746f0759342885615b593984a5c18ced39c763d04545927939
+~ __72+[_ANEStorageHelper memoryMapModelAtPath:isPrecompiled:modelAttributes:]_block_invoke.4 : sha256 319869b0c72722c29cb737b183b1c8f6f3cdd2344cce5ad2ecae1e85095f9f7d -> 512a31f321f8dbd02bfa29b50c69d5c19233597c9d7dfe044321e99b5bad2ca9
+~ __72+[_ANEStorageHelper memoryMapModelAtPath:isPrecompiled:modelAttributes:]_block_invoke.6 : sha256 cbdd806d7ffe207e51eeb01ee46f4b710d1883f67f6a0c2d27d0970da1a1dbc7 -> fc8d37fc9ff4de19bbd36434151e6768cdd9398da5c4a51c06eb2284e5cbd9fe
+~ +[_ANEStorageHelper memoryMapWeightAtPath:] : sha256 9dc7a21d96ca9311704d7ef5dfcd09687e0b310865fe466a598eda9c0a901355 -> ec72c29472abac99d6ebf89f535620c8cf1d37cf54dced3164384ffc84ed0939
+~ ___43+[_ANEStorageHelper memoryMapWeightAtPath:]_block_invoke : sha256 7d388fe9babda12279dfa8891b92785bd9af5cbb150075b657f21d8519a40719 -> b930cef7ac8af9f243fc6fe4f010860352df06e3f29326d27561587e0597d543
+~ __43+[_ANEStorageHelper memoryMapWeightAtPath:]_block_invoke.7 : sha256 911fd7fed7e96972407d682904fcd8b5da357ec837272a693424c8c0a5306ba3 -> d9fbbabc3a9581f73a73e9933a499a8898874d1c8db0c2a7d02c2cc53bfe5362
+~ __43+[_ANEStorageHelper memoryMapWeightAtPath:]_block_invoke.8 : sha256 82d8e5f32fa906d3af5f2b64a174d20e56a6aa0d356008f600011aa9ee1e2ff5 -> b4d406945c97de3b02d31bf75e818316f50b7a2de1d75237f3ca2462951a65b5
+~ +[_ANEStorageHelper setAccessTime:forModelFilePath:] : sha256 24a7a000830b08b3db31c294a76cdf755bed4a956283917537f8b228d4378488 -> f26fd2ae186abd7867e9d03c4c7bcd07d7bf84a3f66cc2d28b0f95d2887f3ad0
+~ +[_ANEStorageHelper getAccessTimeForFilePath:] : sha256 6b8b10eca7edd86703abebb1e782657fd41fbf3455a5272fe9ebf5a8e721dd75 -> eb774082a55fdad521b7e865f8cc6d460051e520b521be57f1149c936e75fd80
+~ +[_ANEStorageHelper updateAccessTimeForFilePath:] : sha256 bebe8b792c782f4a1fe4c944d5ebc6a8512d4caff3aa17a08a0a3e824242ec65 -> 07c655198699db20ce82619d36992c27490022d45307820d34aac3ddcd47b93c
+~ +[_ANEStorageHelper removeFilePath:ifDate:olderThanSecond:] : sha256 dc5c1fb8641ed93ded1ed32c8465225befedd4f410b1166192372b97be5103c0 -> a3059b062fca9e7389a484c6f29fec90221d8f9be58041fe4b66fe6b49f7b599
+~ +[_ANEStorageHelper garbageCollectDanglingModelsAtPath:] : 3176 -> 3168
+~ ___56+[_ANEStorageHelper garbageCollectDanglingModelsAtPath:]_block_invoke : sha256 08ee3064bd9667947005e91b8da38871aef42e0d55e31f01b65656a7ff29e902 -> 230a69ad51406dfc19388a6922d83835200fd23c39720821dc052a03673f28d7
+~ +[_ANEStorageHelper uniqueFirstLevelSubdirectories:] : 376 -> 372
+~ +[_ANEStorageHelper sizeOfDirectoryAtPath:recursionLevel:] : sha256 d6605522d4d0d253ce785ebf2793e5e8f5ad1f71c5f7754569ae991ba736930e -> 20b372eb8cca5952f0e49c754c70d459b6a69a3d7aa051dd0d19507801a660d1
+~ +[_ANEStorageHelper addSubdirectoryDetails:directoryPath:size:] : sha256 22fcf564a8cd791b1ed1e2ec25fa810ac6eebd9cebd09af90878eb93abecf4f5 -> 4c1c7286be8d3032cd9915efe3dc3d2fb9182d6f0887f1deb7d3030a0efe458f
+~ +[_ANEStorageHelper createModelCacheDictionary] : sha256 9ec6a6c5b4b8f8096aea5ecf7dc6456eb3ebc182851cf19e22c8830c05d614f6 -> cf8550c2a8935477b7f0b4a254738c8b9d036b142bcc64bd8095b5f3ca4f7028
+~ +[_ANEStorageHelper sizeOfModelCacheAtPath:purgeSubdirectories:] : 1448 -> 1444
+~ +[_ANEStorageHelper mergeModelCacheStorageInformation:with:] : 796 -> 792
+~ +[_ANEStorageHelper _markPurgeablePath:error:] : sha256 aa39b3b7eae68c35612e139479ea20ad3d4ad71a6c03f44385a1d8adab624d0b -> f9529962b561f20b956fb0bd9d09c4f8a11a47ed5c8713f95edb27372ce043fb
+~ +[_ANEStorageHelper updatePurgeabilityForPath:to:error:] : sha256 07ce06340085d2034dbf5c557bf655d947c05e83e134e4587da5abc55e3b8e6e -> 9be246e40e5465013559610ef8c75b33b68abd942f28995d3259a869a8588eb6
+~ +[_ANEStorageHelper _markPurgeablePath:withFlags:error:] : sha256 62592cef30ae0697c7572cbdc8cda53b5a8e4553cde77e49a522e8877c3543c7 -> 0503337d129e09026bfa12873cfd7049bc22b84003df95830a7c4087bbccb61f
+~ +[_ANEStorageHelper markPathAndDirectParentPurgeable:error:] : sha256 dca0b85b664d46af8bb9bf24d477568b4f462337ea3deb48bd56116d002a37e1 -> 572306d383228da489c88b14453109e3afa3cc4dd21621146223ae7dc094b514
+~ _OUTLINED_FUNCTION_2 : sha256 8e4b02fe876977fa2e3f5351f3f248d1a15a9eecef13a14eccc11a5e9df33ad1 -> 8284e5e3104048d65d08fbeba47fd3fb15398142b6bc370e34d10c65bea28865
+~ _OUTLINED_FUNCTION_4 : sha256 3e0db1289e7f7654dc0d66e9514dc9afc3bb9986cb63b531cae916b3371357e3 -> 0f1ee809cc0eefee10a2766b08cbf88e597d6aae63f836f437babb23364aef58
+~ +[_ANEStorageMaintainer initialize] : sha256 f8be8a76435478bc0fc0e7836aefa9ba248a4704f1cdd4c8dbf57594eba0125b -> 7ed4b51065e66d94a14700c1bb8ec1447b7d3bb2ea5eb94a7551ec737336a331
+~ -[_ANEStorageMaintainer purgeDanglingModelsAt:withReply:] : sha256 484b8a39b5751e14a4816ac161f778db780760abdf8c70b73ae6324be8ceb5e6 -> ba27199d8f2f4871f97985fdb002beda94b3730a76201a04e0e94922cf3bd455
+~ +[_ANEPatchManager initialize] : sha256 d1dd0db7edd2d954a66efd6dca79c554e2739b71dfb24705088fce7398b47fd3 -> ead0c0839f9dfa423d65904f782628947dcb864aeab680c6bd9d323d61b2c654
+~ +[_ANEPatchManager sharedManager] : sha256 6131fcba849150914bce76db3aff8125b99fd4690cb56bf210f09282c521a171 -> a958728806597a59d62465c0d0b4bdd8fc3ad48a618d10c0e418aebdcdd621f0
+~ ___33+[_ANEPatchManager sharedManager]_block_invoke : sha256 4896fc65ebdd8e616588c6a0339f992b24c54fe67a327dddcf243313a4ef37fb -> 2dbda639c2aa5cf030bff448ee58370dda556ecd56a0f4218dfa5099bd92465b
+~ -[_ANEPatchManager initPrivate] : sha256 fc0e144686f10e38d271a4dd0bbb75f9aabbde8936e44c0d01fbb82ba09b9a6d -> 699a523e1f856f13baca4836f07888e7a5f24e6059580240b29629e7193cd299
+~ -[_ANEPatchManager patchedURLForModelURL:csIdentity:configuration:] : sha256 e3cca788182b0a04a75dfea169894254392ceb987fbbd0a12e183beeb2507a76 -> db59df9167e354595399a4a1734fdc0e9e97a124afe805b5e56d1aa02bc2cb83
+~ -[_ANEPatchManager patchedModelExistsForURL:csIdentity:configuration:] : sha256 1646a8d10307f2d0939c1b5f2812eb20687a667b64e8035898658d521deafec7 -> daa1dc1f80eec7bf79e5cb7530c7077a8d5cdb2df6d5f3b0c11230435deace99
+~ -[_ANEPatchManager patchModelAtURL:toPatchedURL:withConfiguration:usingPatcher:error:] : sha256 a7c570d74938e5f8631444ed9b7be394f419df5103ca085d97e8bc7b23c22b0e -> 760bead5efcd36f9893b8c5f8a90cfbca2f3955d185419c8e14b80b7fdbd4449
+~ ___Block_byref_object_dispose_ : sha256 d9162de7818dc3907451a3d1d2d15be37c1f46c13869cd37e84384134f9452d3 -> bb367d492d033436c020c32ff118f3e20519c356d176a5895fe261363d47d095
+~ ___86-[_ANEPatchManager patchModelAtURL:toPatchedURL:withConfiguration:usingPatcher:error:]_block_invoke : sha256 07b9c6d6b5a411cede490757d89354513daa212d4adc6dbcc463afe637b72ab7 -> 43b4aa199c61a66a6deedf4f74aa8f5098dfd02e5156be19612112a00493349c
+~ -[_ANEPatchManager patchModelAtURL:csIdentity:withConfiguration:usingPatcher:error:] : sha256 843408c1ccb02c181be95b7f1e42ad132ad2dbaf0bc77d0088ae4654f0bc4462 -> 8b6ace6cbc9ca5bac5255823e893d02e26671ad93e90799f6c62545c160c9336
+~ -[_ANEPatchManager configurationIdentifierForConfiguration:] : sha256 79178b487aa88ad8cdc11f05d10c77194444db3e2096a0af806eff65e73bc1bc -> fa9f31445f4c56180e4342e683e69748bab08504d6dec65bf21240500aa3ea11
+~ -[_ANEPatchManager parentHashForModelURL:] : sha256 c258f2fbf25b069bf5f92cb6c2f90a48c501debbea5d97169ed90d1a5194b874 -> 92fbe9914462d7143b2b92c7cd692ae3b1f3f32829adc6f920623ad3dcd022cd
+~ -[_ANEPatchManager sanitizedOriginalName:] : sha256 77d8347e033b4739187410455456ec13eeec2191df7ea15eefcfa014b4f16f62 -> e66483016d529fc466da156312d747cc6d313fe88452dbd85d25128402825636
+~ -[_ANEPatchManager isURLInDataVault:] : sha256 593253162b71fc9557626817754b3e934fc8195be74de51dc8f9bb93a8bb15cc -> 67774c449ca818d1c18014a37cf9faca891b854e6a7439ed482523c8f199acf9
+~ -[_ANEPatchManager patchedModelsDirectoryForModelURL:csIdentity:] : sha256 503cf3dd24be4b078163f1aef0d5f0a6082cca75b518016758334a222569c378 -> 2827c243cca77ef55f79da5fbe55c974119483a41dbcc5fb4a74c1e05f34f21b
+~ -[_ANEPatchManager createDirectoryForPatchedURL:error:] : sha256 d71a3569f26cf6aab494376723f2b7d5aa9086641cfc49da87cd208298b3eb5b -> 4333f66877db5eea16ce56e02ce9004c1ef7527d3c51f5f272c528a8c9465aa7
+~ -[_ANEPatchManager metadataURLForPatchedURL:] : sha256 92c9a99aba2e6256d7474f6175eb69ac7372a2eed136dc11434ee5f5fb4c34f7 -> 2c79ba6b3a56e9c2d4811337901a5bbc5c10bf783a0de8a1619d21ee308561de
+~ -[_ANEPatchManager saveModelURLForPatchedURL:modelURL:configuration:] : sha256 de214240a17a245d52d6d5c1ea11970c9d8f518ebbd9b32b6bd9e83b47794314 -> 807bf079235a8944c74926af83634eaffaf7f291a22a40c6e1ace5f210e7e148
+~ -[_ANEPatchManager modelURLForPatchedURL:] : sha256 1cb1223d8b10837f85c57b5db303ef13d75955c2345be679e95c6f0dfdf5d2e0 -> df88cbd0de8698e0bb08c3c98ffc97036ac8803f80987ec99843ce89ccccb824
+~ -[_ANEPatchManager isPatchedURL:] : sha256 0fb9dc35dc37b14f9ec6a344aac8dacf271749b1f497f3d719d1adc930630d22 -> fd23e09fb4efb69107f232a482bd2723e7143eb07b06c2c014577b8aad2c74c6
+~ -[_ANEPatchManager defaultPatchFromURL:toDestination:withConfiguration:error:] : sha256 0bc76262d40715707419550aa4579f903270d7fdeffd58c82fafa6696fa036cb -> c3326da0058d7e0ea6e89ca2f2491dc39d31da5e07059308096fb2fa47940da0
+~ -[_ANEPatchManager deletePatchedModelsInDirectory:forModelURL:onlyIfOrphaned:error:] : 2192 -> 2188
+~ ___84-[_ANEPatchManager deletePatchedModelsInDirectory:forModelURL:onlyIfOrphaned:error:]_block_invoke : sha256 122e93658f254dcd98181ac6b1a35e89f2ee276b4fe7af84a58b26dd5e8b0d67 -> 2cb4c308ec62f3e8ad65059276b68a8d1fd68dba07ec1b8cc23ab05e6f22ec80
+~ -[_ANEPatchManager purgeAllPatchedModelsForModelURL:csIdentity:error:] : sha256 f2a9769f8b1294ad5702edc06e7b9cb9347ba1f04b2394566df152cd19af0052 -> 1a05c6fd1c0943b3fa3946f64c0e71354192f339e319cf5958c536dfd5fae5dd
+~ -[_ANEPatchManager garbageCollectOrphanedPatchedModelsAtPath:error:] : sha256 771b4aece6f1088ef371331c520ee8cca5e05fa7dd7b48d572eaea07af173fd8 -> a2f1d663536d4944e6da49cc5353d53f78772bc5be61381066a168bec0cc3a62
+~ +[_ANEStorageHelper memoryMapModelAtPath:isPrecompiled:modelAttributes:].cold.1 : sha256 2e0b4d95ebbde001775e45bfd6b50e0f365404278be0c77be8cd8e8c3690c16a -> 5433c28eafff5272a123a645a073958addfc4f3bb02b84c52d5e27748c42845c
+~ +[_ANEStorageHelper memoryMapModelAtPath:isPrecompiled:modelAttributes:].cold.2 : sha256 66cfb8546d0fecbcc0aac45b83fdbf9f35335e5fb68bb820eed9993ff9715587 -> 516a874ed7b1c4f6de6c9e75988945d6498c721b2f5f5b8934b44322df403758
+~ +[_ANEStorageHelper memoryMapWeightAtPath:].cold.1 : sha256 133fc5e488c721935635db2539deea8f258027a681c28c20437a7b6b2fb02e3d -> 93a9f7c97f883f50bd9575df97fcfd284dc89aa8de96e2b031633b0942e2d746
+~ +[_ANEStorageHelper updateAccessTimeForFilePath:].cold.1 : sha256 4f8bd130628616287c73c88eec871d565094a943e64ef8fd27786796a3ac8649 -> f40fbc1de4933667d40f879dc7dcca0832af402a5e9a67a1ddbb2977c514d992
+~ +[_ANEStorageHelper updateAccessTimeForFilePath:].cold.2 : sha256 84d649d98e504d5355f6d37ecd13a79ccee2d3f787fd9b4a1783fb69a73c9f05 -> 61cca21c3d4a381401470a8241cd3e7ebca1d9cf110f0553314a9751203a6f6c
+~ +[_ANEStorageHelper updateAccessTimeForFilePath:].cold.3 : sha256 a87c310559a666379b2c229e4f379465ea6c0049e9509478ae3f42ccfa6e738b -> 9ee9dc5e61a98dd0762cb5f2f18c65990cba1347888de38792e40c716e93cb0a
+~ +[_ANEStorageHelper removeFilePath:ifDate:olderThanSecond:].cold.1 : sha256 4b278c4210adad6409b254bfee3e10d5fda5a263788912d6bec41e597ba3ad65 -> ddcff519a544820e0f579eb8076ec11a6b67ca237d0e1ac8f1586a34220a2fea
+~ +[_ANEStorageHelper garbageCollectDanglingModelsAtPath:].cold.1 : sha256 d245d0b691d4407c9cfb39bb5faf9656aa2841940a466890ffa2fa806a339078 -> 621870b80a695a550b380d214692d59f2e0ba65e1427ffd48b45782ccb7e9153
+~ +[_ANEStorageHelper _markPurgeablePath:withFlags:error:].cold.1 : sha256 48094bd9fb12ade530e86d0fdf817a039aabbaaab22d5b3de7640fa984cb6473 -> c87b5735205143ea5bddeb44e152261563ac0216cfa00c7bac7fbe95190f0610
+~ +[_ANEStorageHelper _markPurgeablePath:withFlags:error:].cold.2 : sha256 2ab4d0ae6018b10829d3d4a6ce84265fc4a4675aea39254acb09cb49276de55c -> bce7a06c59f47836dd49ac7204be474d8b561b3d2c89a482c906267287d936a0
+~ -[_ANEStorageMaintainer purgeDanglingModelsAt:withReply:].cold.1 : sha256 03aa512223660bddef57ddc73fcfae0713c32b205594a7c6d4bf7b703336bd47 -> 900e316c8f610a90d8e198fb0aed626923d5529d9f819076d4570742126884cd
+~ -[_ANEPatchManager patchedURLForModelURL:csIdentity:configuration:].cold.1 : sha256 e5ad7a4a569f23e90ae6315f69f9baa2935a046c72d126fb26659b7a811ea665 -> b969d8eaf53f01e05cab4d6e0a03667726d490c853e3bda39fac13c7531ceef3
+~ -[_ANEPatchManager patchedURLForModelURL:csIdentity:configuration:].cold.2 : sha256 cd32ae0f027b35c60f0090464fc5e1a42de1bd87d368570e3940eae030f1706b -> a907bd8bc95b0c319ecccff86fbee80e49b90dcd9c6d74841b9c2327047622c3
+~ __86-[_ANEPatchManager patchModelAtURL:toPatchedURL:withConfiguration:usingPatcher:error:]_block_invoke.cold.1 : sha256 046d801f05d65e0c7546141e38e3986b1e60060828e8c69e61f0f289ff7db9a9 -> f6bfd9e16b9ff0771321ed5b8d073fc0e41a059cb4492ce472a1d7c0171537a1
+~ -[_ANEPatchManager sanitizedOriginalName:].cold.1 : sha256 3b455d8331a1bd9fdc9ac703bc3bb84f4d80aa834abea73880c88e03657a99ba -> 8563966d618e4158fe2e31a74347d7fd7952e6defc7da48687f1f69db6ae645a
+~ -[_ANEPatchManager patchedModelsDirectoryForModelURL:csIdentity:].cold.1 : sha256 4e39ae6a6f54bc7d1b727c52152c3862180157a2e51f4a72f40d7599948f6eb2 -> d3a09c905eece550cf1e5dacfb5ebde50c8d0ee1e8b2e572510eb15b73cf2045
+~ -[_ANEPatchManager saveModelURLForPatchedURL:modelURL:configuration:].cold.1 : sha256 f73ff4dd9f2bc53e0896391e3eeb61734c8d220839d10e9c7c2002bb3585041c -> 6df0f1f5ce2274cc35431b6b0a4d976828317c48469b9943ac155bc9a493a1c8
+~ -[_ANEPatchManager saveModelURLForPatchedURL:modelURL:configuration:].cold.2 : sha256 c1a12d9ebbe66be528d22e4e2213722233532c04900ff699018174c2bf8c3a7a -> 16692b7c1a405d01ae4e25b6cbe76db1b4c0f4c21e1211a32d719ceb4623ff23
+~ -[_ANEPatchManager isPatchedURL:].cold.1 : sha256 f746d7aa3fe90c12093d496e42907df631f58add18ef1e31b56edc8ccd21b8f5 -> d47f99c9dadedf5ed380c4af4d2f934c5ed8b62ff2768f51b381dbb2d3b2faa7
+~ -[_ANEPatchManager defaultPatchFromURL:toDestination:withConfiguration:error:].cold.1 : sha256 622d80ac7e9353f1e3483a283e014e094a4efa205790f9b3839a5cf09cfdc5a7 -> 2bb89351c32b6b462307569fcf44af43e6883cfd02e36bd38b986d98316a934c
+~ -[_ANEPatchManager defaultPatchFromURL:toDestination:withConfiguration:error:].cold.2 : sha256 8e573c6db964f595523644c2c50994ab68a35a9473a598e8eb1284a3723ebd7a -> c440ddc6afcc246e7970f5ab74ff2ac5313eac1fa832b6e78f1ce4437ef4f09c
+~ -[_ANEPatchManager deletePatchedModelsInDirectory:forModelURL:onlyIfOrphaned:error:].cold.1 : sha256 d35b8506b7aaaf3fe14925ff5f4b12f0b81a0a8d79091858ca0599f140835c0d -> 7aba2c8c196323ad9e68f758e6e45175effd4384cfadf881f690bfb1df1d14f4
+
+```

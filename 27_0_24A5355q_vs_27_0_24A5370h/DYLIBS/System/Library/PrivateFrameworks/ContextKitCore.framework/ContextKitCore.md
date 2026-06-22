@@ -1,0 +1,114 @@
+## ContextKitCore
+
+> `/System/Library/PrivateFrameworks/ContextKitCore.framework/ContextKitCore`
+
+```diff
+
+ 305.0.0.0.0
+-  __TEXT.__text: 0x1d78 sha256:870957db746f490fa753bf420edd9b2600202dbb60a5b9d6b2edaa2260dfa3c8
+-  __TEXT.__objc_methlist: 0x3ec sha256:fdccb0e41d065b6b734d5f96d7b6ef632d07f3f480ce7f2a5b10f035f19d65ff
++  __TEXT.__text: 0x1d70 sha256:5a51aad440e91a1d578f4c288e92dfc8167c735e153622190c6430dcbbd5bb96
++  __TEXT.__objc_methlist: 0x3ec sha256:ac438ccceb17e3a479713de5249f048398907e022c6de53d1e9ff86d11235bba
+   __TEXT.__const: 0x58 sha256:373525758d831b633e11ce23c5640d0033805e4eab27cfedb27ba8e78a47f0e2
+   __TEXT.__cstring: 0x207 sha256:5bb0429006002ab801785ef19dc0dc5a5cb5c92bef46390f784af4c5572c6507
+-  __TEXT.__gcc_except_tab: 0xbc sha256:fefd058e90c4900dbf679c1030c595a1e30fb301597c4d27f9ffb4203c7bc70c
++  __TEXT.__gcc_except_tab: 0xbc sha256:d24099ea2d2ee3ccf86e21495271ffce6741d2180b08bd99feea372e9cc7ea02
+   __TEXT.__oslogstring: 0x97 sha256:94b0fb8b05e54a9281277c31bc25aba904ee18325ce39652dcbab01146d45281
+-  __TEXT.__unwind_info: 0x160 sha256:b3b0680d8def4fee0b5871a907d5ad6824e6f373e23567d28610039e42f9d184
++  __TEXT.__unwind_info: 0x160 sha256:5ea6a94baaa469a6d1aee67538e054711d0eb1a70063037194ca6a1dc24c8731
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x70 sha256:a441968d7d05471333d57c5ed416bc4285d4dbd7401195c7ec6b0877f12d60e5
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:b918b0e32304f4057e480401fe68a0a5feee8f5369b2ed5b3e1cb6ef008d4a51
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:74094f1f210b71c70a2152d72841bd112f4cc75dcc0805a91d211a206e997917
++  __DATA_CONST.__const: 0x70 sha256:e58e6d042c3ea4601af4061e81732fe4dce05c7f18c9673e2924c055ae2cb084
++  __DATA_CONST.__objc_classlist: 0x18 sha256:a3042d939db91246a5e58ad3d685858412d10ca2cdb0627daa03846f8bcae7ff
++  __DATA_CONST.__objc_protolist: 0x20 sha256:825ee6d85c39f109660e6342b40668b9ae77322bfe813123660213e90124e23c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x320 sha256:21164f99a555a1343eea7380ff0d13524ffdcfc69c4f6fbac8a7c11d59d3fa7e
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:8d6f5946f5fccc1dc0a840a9f8504b0b13a96f637873d1b76d7b600e5ccca8a9
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:b918b0e32304f4057e480401fe68a0a5feee8f5369b2ed5b3e1cb6ef008d4a51
+-  __DATA_CONST.__got: 0x88 sha256:724e1195972cdecb025552c32970f8e0ffdf9ae334f4e5bf34f4c7d8d8e09e1e
+-  __AUTH_CONST.__const: 0x20 sha256:601259731c4646b4e6d041e2c8423e4949f3535a6c4333f3c3e5a625cfc19d9d
+-  __AUTH_CONST.__cfstring: 0x3e0 sha256:33b0b80a34cc89354133bc196d3656e5efbed057a5486a3d0ad63e0664bb71a8
+-  __AUTH_CONST.__objc_const: 0x8a0 sha256:434694666fe72a2278401b92687ca5467b9ef815039efe3ab31028c136c32703
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:b554fc1d7198860e50df92c3033da41c6a1765387a72d5786b4e242819162a21
++  __DATA_CONST.__objc_selrefs: 0x320 sha256:cd10185c229da33c4a7f0790f4231fd34173e4917ca0e8590fe006e72929a451
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:846efd912daf7ef09078348468dfd6b557967f3834d2c6a37de9571df24b7d31
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:a3042d939db91246a5e58ad3d685858412d10ca2cdb0627daa03846f8bcae7ff
++  __DATA_CONST.__got: 0x88 sha256:d3d11db0e3d5c712e7b6c2acdd2308cb647e9e86b8e6adcd27a197ddf11ed074
++  __AUTH_CONST.__const: 0x20 sha256:a40175e1cb05067527b7559e54f82b39b537b77bd70bce6bb7ebe79d1708fb0f
++  __AUTH_CONST.__cfstring: 0x3e0 sha256:6fb862d50c6cde5ce2a8cd2edfb6a01ae5396c0971320877e13cf3d49afee798
++  __AUTH_CONST.__objc_const: 0x8a0 sha256:f777ef0cec0b7bdfa6e490138d28d1245a90007c5a9a50455d0f4c97031ac4c1
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:deab4106cbaef16ad868d8292bba875750415a8cb5690a5674be337f7af04569
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x64 sha256:a3dcee8ffc903de446a223a397ab25d157c8a278f017b7083e921c5bcad09f7c
+-  __DATA.__data: 0x180 sha256:bc8a018a607a645bedc02ef2e42bf799350dc45ada3bc2e5047703892b7da053
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:f74810b1d944de9d600faed64b8c178a47d59caf4ca4ba40a218d272ad547f1c
++  __DATA.__data: 0x180 sha256:a7940ee3b52af6b22931bafc84d7af9bf5079d76418b0cd42609fc2d7136b2ce
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:4649654f19074746cf8737e25498de0d6e2a9458257c3035904d32c4c327e1be
+   __DATA_DIRTY.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FA8DBE28-137B-3320-9AEC-1C68591D92CF
++  UUID: 838842FE-1D7A-32B4-8561-9EF15B3AB7F4
+   Functions: 76
+   Symbols:   375
+   CStrings:  70
+Functions:
+~ -[CKContextDonationItem setText:] : sha256 fe9ddb4ee8b124a4781e4d6155ea3037649faeb272f15970b8ce2146613c969c -> 060315247a3b5c6dad513943712b887ac30721de3c3456b61482efd984ecc048
+~ +[CKContextDonationItem trimTextToSize:] : 716 -> 712
+~ -[CKContextDonationItem setLanguageTag:] : sha256 6abf96cb7ca9042b6bdf0e7496bc8c00bc4265cdda541533932743c9a3b664ed -> a779556a061d33e576c9a56e77cf95c7f65d649d1e76339eaeee89a30021bd2d
+~ -[CKContextDonationItem encodeWithCoder:] : sha256 f8c743f12e87f4536d1e1ac732acceea29859254b047f87c99a1cf1c400b3d79 -> dd817735710e3ddeafdbd3a8df5cbf729429a0fe6b21e6e830ac9b22dce77054
+~ -[CKContextDonationItem initWithCoder:] : sha256 83f3390f5145aaad7eb5aaf1d2950d3b679811d65802a167725dd3346d5d590f -> 67ed7d46504f205ff55b60562318ef2602c1a0871ff7c8d3f81b83c71203504f
+~ -[CKContextDonationItem .cxx_destruct] : sha256 9d84fed6c80190df2d0d17319acf9e78cc3825f9eafa33e36c95d6111e139e84 -> 56728ebbe1e8f5fe0396e58f898627aadb516e386a8878560758a3540632ee90
+~ -[CKContextUserActivity initWithUserActivity:] : sha256 181e86bb17e348d1283bea909889f67ce2e382e01b72dcca25bb86223426a4a0 -> 51abf25343851caebcc22dc8f56b4dc2ca3c6e0d106ee9c0d805d42b3b85e698
+~ -[CKContextUserActivity setBundleIdentifier:] : sha256 8b725de6904bfbdbfbe81b551f7424ff16958e1af47b8772de9f6915e36b9178 -> 13215fc8a487290718cc7ae2266554221bb267e4c623cf1762b016804c38287c
+~ -[CKContextUserActivity prepareForDonationWithCompletionHandler:] : sha256 9817202d650fe9913cdc018cff1f49870bffebc73164d262b9bef1bb53c25bca -> 2275ffe37357d600bf8c2e924a6deba69731357b36e3c1dc187ac3c7cbb4827b
+~ ___65-[CKContextUserActivity prepareForDonationWithCompletionHandler:]_block_invoke : sha256 bea56207b4289b5b5b2fee8713b2e2231fcab50e6d6e7912f82d61a2564154c9 -> b54a0477d63171e7c120847dc1b83f414ed7da84a502ca36ee7fcd0078f4efdf
+~ -[CKContextDonation initWithDonorBundleIdentifier:] : sha256 264f71f872b70d840be3d22b56e4df1a8de98741c16db628a86a2839103cc699 -> f5ad03f90535209ddd80d6e59f86a2146ff0837e46324d01ed08001dcb4ffb0f
+~ -[CKContextDonation setAssociatedUserActivity:] : sha256 67775cb9373bc9acdb21e6bb408f6a809d39470a9555e357d1000b886d2ad3e3 -> b5e986db85bed1b6359593c5c79bbd2d94e1669db9235d9b8a6580d6dece7442
+~ -[CKContextDonation donate] : sha256 aa279bac1ab0d4cc4e2bfbaaf580acce02f2718a9ca86f93489a856bf8b09540 -> 6fca94dc4c4f400c60aa811447b4af21fea1a1b10b9319bf2684f488c076e373
+~ -[CKContextDonation .cxx_destruct] : sha256 598a1245bc390fa7c8216b6e638576c8d4e7db9e6fd6798bbfdbc4559d755d73 -> 7f7d59ddff177eab15e699cefe26468564b5c48d11328bb2e9c11a0af9e44e9e
+~ -[CKContextUserActivity .cxx_destruct] : sha256 58cc00672ed5eb90376e9787d2a42a6e5e6a417c7852b4c6c107609612c4ef65 -> d6a0bea45a71818d6a58214d7b6f0feed8f4d1891cd992a861182502c712c42e
+~ -[CKContextDonationItem setTitle:] : sha256 99e65bde5a4a25c697c69d7c1104238bb1c5f9a3b513bba68540aae075b979d3 -> 13994ffac3eb1f845cf5de3e2a5badd58679ebfb41549d2b23bef51f3a2860f8
+~ -[CKContextDonationItem setDebugText:] : sha256 b3d3c06921448cb7a4a6f35283ff55ae0b0412df10d9c66b477fa0a7f22a897b -> 3fd40a03cbf371f09bc521c3b1ad3de2a6e9353909bb5e8ec4a8becadcc260eb
+~ -[CKContextDonationItem setDebugUrlString:] : sha256 884183aee280609d03ad987569e94a816f3d19264e9089047c89570932bddadf -> 7aeec4a9c0dfbc2421c54536fa3bac9b3ec1bc5282b7a9ab67546a40396766a9
+~ -[CKContextDonationItem setRawHTML:] : sha256 1ed88ddde903382592e9a8f8589c30a85a27a542cd1e33603fc754e356ea3d59 -> 131e9a668ab31f8f8131b28fffad5e51c4e83855ba0b34c2cf0f97aca905ba71
+~ -[CKContextDonationItem setExtractionItems:] : sha256 314743b672657d2955fc425cf3dd4f6c72fb8cf3b3603fd00f1a4420f4309516 -> 32fada0a4c8f4ed84ddd43e7c26f8bd9f1e574bd716213cbba7ab236a81fe93e
+~ -[CKContextDonationItem setLeadImage:] : sha256 919ce024cfd233c3a7397a3d9de76236a39fbb4bb52681d42bb6e227a13e36e7 -> d84f88b015961653b2c4c3afc2ea52458a201b89fc274b83c40b26ce9a1dc68d
+~ -[CKContextDonationItem setUiElements:] : sha256 bb328d11b48d9f257ec492ecfdc96feb2a5524694dee6f7fdbbf6dfcbad77d78 -> f6b5e80b26c5dde48efb0bdac03d302902dd7f03e7705ee095a51c7f2bb5a395
+~ -[CKContextDonationItem setSnapshot:] : sha256 01b9ffe8651de5be087c452dd1094afd3dbf27b824d5e0d1bcedc57b42c63c89 -> 3bc43e3957cc04db5a79f173d889d856deaeb52fc2d2a674c6e7e40db3f18415
+~ -[CKContextDonation addItem:] : sha256 ea6dee9fb48665634f4381e0e82821f3d1c4dc7394447c2394d01da8ab22844b -> 4a54ff47c09ef69592cd8c5e8f133b2c3687dc28f7a294e1a31bdede9c6e81fc
+~ ___27-[CKContextDonation donate]_block_invoke : sha256 0b3936482fb5f2492e60fe6a58a348f9a054ed1d7e5fbf053f422d671f12af2c -> 104227e5b70d7ed92295953b3ee01dab820f7162be1ab65ed859be7acd33d184
+~ +[CKContextDonation establishServiceConnection] : sha256 708224cd86938fdaedcf8c24e8cb8b1093312a73f3aeecaea2caf51eaab02685 -> fce01184544986ece829535c813cf5d54a748780bf97892bf3ba20f2e99f1253
+~ -[CKContextDonation encodeWithCoder:] : sha256 db3dd36ffda1da7ccc2462e7481ebaeeddca71eaf5f40948aae527206ccd4510 -> babebc9ca440e691fda19c1da905102a47c3cbb68e4ad530d898616b282f1a5a
+~ -[CKContextUserActivity encodeWithCoder:] : sha256 bbec3179f04d39155cc64b113fb65f396f833341bede4c79b03432e657667967 -> 2bafaec4e238abe5962941379ac3f7726589385dce63e113f9e9447742426c34
+~ -[CKContextDonation initWithCoder:] : sha256 e44097070237649bd0fee98491cf1123d6d111a741f1493ac7ffeacb2b2a6c99 -> d33185c5a30bcd8b58660aa2321816178e97545ced03fd6103e0f99b8749fbd1
+~ -[CKContextDonation initWithDonations:donorBundleIdentifier:] : sha256 c154cf6c755a1c9e6525611efb252202f3c92b138074a0281ec17f1ee39c5c85 -> 55f99300aa24f4b66aff96d2b0ba347e54e006836ff31d1216cc4b1698e84d06
+~ -[CKContextUserActivity initWithCoder:] : sha256 17667a7e26dec5897a44b23b2d8ae0b64b504883629e88d73ecbf1f0ab3fa205 -> 1ec5159b9a4b26474f0e7c29888fe0036241162864de2206b5c4dd8ae45f3885
+~ +[CKContextDonationItem initialize] : sha256 4d57e9c2141086eb6241c4cd3ac0c6e1fa2540a82ab55b8e456cf2d843b9474d -> eac7d04d3f9c208238764fda5f3e2bac5e02b239f14ebbd3a191fbbfe1ecbdfb
+~ -[CKContextDonationItem copyWithZone:] : sha256 b242af687f28c0d6b72f461cd17ad0a9e45ca28d9ddf650031d946545123e078 -> 4b0bec34d27c83c6bcfce3fa421073eedb89457327f6c244863a5488a6547e48
+~ -[CKContextDonationItem setContentDescription:] : sha256 5a378615ff764a6ae58cd40ea7cf308272fa3814306e569d9c2107979c8a8386 -> ff5c2e26e7d62356ad87c7fe85e00b813cf89f025cc597a945bbc40c5e8aed99
+~ -[CKContextDonationItem setContentKeywords:] : sha256 c9e08779112da883fbc84f753edc174766b2319c6859f218d4813958e7eadcef -> 18f119370752b4444465c253cc3ee0b94315c66a203c1ff6a14cde1206b804ee
+~ -[CKContextDonationItem setContentAuthor:] : sha256 533dc7df793896bb7124d164d66e97ad4a343cb50aed938e8852f911c71921e6 -> 302895464ff50e3f184162ae83098e856429cd48e2a4571fadc9db2997b96f1e
+~ -[CKContextUserActivity setEntryDate:] : sha256 dd5229530a86e12efdd9db4f4ff0f6ee4e382a2402070640db765105928d2f05 -> 0a30620841f9c20d9907676bcf8792c25a584ea14bf732707447fba61e746762
+~ -[CKContextUserActivity entryDate] : sha256 cf99c0bb56fd7ba83a46f37652c554f8d42646b4f7ed972d5ccd8062fefb8478 -> 36bb6a33de66d33988dcbf74d364328b52cd64b205bfd8921c1fd2b18686342f
+~ -[CKContextUserActivity description] : sha256 f71aa19004832e1502cadc86f2295abf7ee33c8850d041718f81e3fa8ff923eb -> e32481cc83cb975fbd6f7b8ec7833bdb84f5826bc3068dbc1aed7ff6d92ebdf7
+~ -[CKContextUserActivity hash] : sha256 4f5a4627a4befe6101f2ef832526e22093a977392123d6b14eea6b1efb10feea -> b871930500f20fd8d06e50a3fdd4fa32fd6ee141fd0904fc98117c64582c6fbd
+~ -[CKContextUserActivity setNumberOfOccurrences:] : sha256 3a3d434f2e6657ff92f47bce19d5ac131323c81382c9cd0d2fc68d658e6aee57 -> c88db63aedd80f6866e7ce094895813c46a46f280a1d0fa232394d128a4477c9
+~ -[CKContextDonation description] : sha256 f8f0f55c417a8d96d5370fb999c64dd123d99791eaf58012e4598ca393638bc6 -> 8b276d52721ed4024a74baf6a013f16cf348f315a2234f99f26438af5f550461
+~ -[CKContextDonation concatenatedRequestsText] : sha256 1c7830dbe034a75a83410b40e39ac5ac7a579c69af2484a26e85f97aa4f966b5 -> 536121b7c578a76c01c7980f56c531bb7a94a5c46ed21e72394804839bd7bb60
+~ -[CKContextDonation concatenatedRequestsDebugText] : sha256 f67ff974b9cfe2f7b929590e6939930b7631bf81a6655a159a5d549c3180e702 -> 9d36d1d652e31f0de5e7abbe0a051007ba9a756ccad90e9417258c9c84554b31
+~ -[CKContextDonation _concatenatedRequestTextUsingDebugText:] : 496 -> 492
+~ ___27-[CKContextDonation donate]_block_invoke_2 : sha256 829a49d59b404a65dca29d52828ece64e571a04921b724eca15045c725158dc3 -> 00ecb2d0331ef1aa54d84188c5bb48a6d82a47202de2a5560fcca3e8486b5bee
+~ _OUTLINED_FUNCTION_0 : sha256 d362d7f5525cc467d4515037c66b9e4930be8fd30845ef9cb9d816a6023ab00d -> 04a95e322379f93e039e28f2a14f9743586bb5e85001cffe75165709d9695a03
+~ -[CKContextDonation addItem:].cold.1 : sha256 b5d144f6564a779619bccaa530926e34e1034324a80669d1dc1b1cc064a56e02 -> e29178051b4ee7fabf07c950e57758d0a6a8189782ad826eb7143327a8bd03f0
+~ ___27-[CKContextDonation donate]_block_invoke_2.cold.1 : sha256 628654cc14de2698a824a48fb9aff89f380ad71d4f12c73a44ea6b05a34806be -> 8a03f38eeaab95a90049c8cd2c781261c400246c007a89199945b9d536eec960
+
+```

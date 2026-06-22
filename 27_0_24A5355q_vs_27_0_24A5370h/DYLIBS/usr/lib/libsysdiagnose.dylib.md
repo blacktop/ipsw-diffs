@@ -1,0 +1,94 @@
+## libsysdiagnose.dylib
+
+> `/usr/lib/libsysdiagnose.dylib`
+
+```diff
+
+-1587.0.0.0.0
+-  __TEXT.__text: 0x2ecc sha256:adcbe44f02e532af5e771a38a9b3d487da3c88a8b0eb800f2e5a4c89f533999b
+-  __TEXT.__objc_methlist: 0xe0 sha256:1d7105f86d8414e5c9a92f4225a996006b9ecce3d16a65aab304db3b93586d24
++1593.0.0.0.0
++  __TEXT.__text: 0x2eb0 sha256:44c0b54f6d374a54a70c32f8606e15ba03229b365b0b0199b026dc8b55e826a9
++  __TEXT.__objc_methlist: 0xe0 sha256:96782ae57bb7509f7b1fe936252bdaead392b2e2dea308a3a4a841dfa05f9261
+   __TEXT.__oslogstring: 0x1f8 sha256:f2d7186e9d56b59580a596010e8836548dfe18c54550b37dbfa508cdc51f1b7b
+   __TEXT.__cstring: 0x58e sha256:90704b1ece7b3f279b59c8639da2b53896992c391ca3a8730ea0341b84dfdd05
+   __TEXT.__const: 0x38 sha256:7e8dd67d9c1f9868820e98fbd1f4f8cccde1e11a64152aef6ae4b55226cf8502
+   __TEXT.__gcc_except_tab: 0x60 sha256:7d37eaaf00df3451f9df1c69344a3938ff93eb979e8dd1dae892ab9ae439b0c3
+-  __TEXT.__unwind_info: 0xf8 sha256:da8fc97153801c4eaf7ca8c641df296c6b74c5a7ac823ffde8979066f6c946ea
++  __TEXT.__unwind_info: 0xf8 sha256:8387323dab995718e97abea1c54c4a6b3cfc34c3cb2f252ad8640c88d75f0b6e
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1f8 sha256:ef6e24d4c0459ad3fa795c533310151e891efcec1967c811c86865057e7796d8
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:d2798949d8a014964a3529c80cebbd3f200d74b452f246cde5e06ca21ac03a65
++  __DATA_CONST.__const: 0x1f8 sha256:96ee9cb23eb102d59d69ebac53a94e2d8fb1ed5d29620a5e852c84d6c3f83184
++  __DATA_CONST.__objc_classlist: 0x8 sha256:5f504126d8f9d1343b7fb151777c5d4efba761d8895d79d923051f02a9ac6e8e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x220 sha256:8b1f1b98fd0ef6f4627384c30950aaa13c5cdad64e75a947ec8c848179bd1d66
+-  __DATA_CONST.__got: 0xe0 sha256:73994fc214e09c0861a619015d014f6b3051c1660ac5c1798f7eb94fe24bc248
+-  __AUTH_CONST.__const: 0x60 sha256:27fd25dd0ff6d9a03559a5a265bc62f9f8c188d705f59ebdd086a1fa9cf82cf7
+-  __AUTH_CONST.__cfstring: 0x540 sha256:c10ecce64bf906a0b4befbdb9bc63be505aee2329a85fd380a99b69da2ee1b3e
+-  __AUTH_CONST.__objc_const: 0x90 sha256:b0694d99cb0c8d76264acd4263452d0b1e5f2ca35a60e1e4d37170b3cc030d3e
+-  __AUTH_CONST.__objc_intobj: 0x60 sha256:cf4e4178f55c2512fdf15f7d95d2c8a06f4b198fedb5c3434d472cb99d51ae00
++  __DATA_CONST.__objc_selrefs: 0x220 sha256:f4eecdcb711b75ab01b335f899d53b62ccadf7122bb0457559867e4d75870cda
++  __DATA_CONST.__got: 0xe0 sha256:5c8d416e17af88cc5226943c1b4ae09d02d0978d1f692bfbb5e851749a1bce3e
++  __AUTH_CONST.__const: 0x60 sha256:88d35cb0dceb6e165f60af5f79a12ce4a92652be0bf33eb9e48593c15473732c
++  __AUTH_CONST.__cfstring: 0x540 sha256:a699e4c8a62c49d4ab94c726f467ee99ba83f299c4e70c160b43f6645ca87092
++  __AUTH_CONST.__objc_const: 0x90 sha256:d0a5e7031a7ce312fca68853b3af76f7f22d3c26a02d6e3deb1880a6442def16
++  __AUTH_CONST.__objc_intobj: 0x60 sha256:5f97f99b4e66981752198c330901506d92da034aa43679a4d372425c69e98c0c
+   __AUTH_CONST.__auth_got: 0x0
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:a00bea021f7c5c2e6a6467c12cde7273d136de081c8c37b98afb1776568283e8
++  __DATA_DIRTY.__objc_data: 0x50 sha256:88f7cce7fce0bcc885069f6cad06e7f68d329a09906d40694fde56a9bb1d7b3e
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/OSAnalytics.framework/OSAnalytics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9B458E66-0279-301D-88FE-4CDA3F5E90B4
++  UUID: 44EB5BBB-FAC9-3EED-ABDF-8507449699D8
+   Functions: 38
+   Symbols:   288
+   CStrings:  121
+Functions:
+~ _appendToCrashlogsDir : sha256 f3fe70715fba47d272729094be11506fc724acf85b7b379191dd84b3b7e1cf95 -> 47ba9e99f8d41490f117486197d3d23e293ba7afbc15db8472e8aac8958e9af3
+~ +[Libsysdiagnose setupConnection] : sha256 9e0cf0a2f4cf81a14de857121ede04259bcfede0dd618a25d03bb345d5f21c2d -> 127981bd77a09de8a2cb8139c2e7801a33333969e11fa12595ecef61ae0d6f87
+~ ___33+[Libsysdiagnose setupConnection]_block_invoke : sha256 38800ca7dd116bce811a439fc323b70583318531a4b4f7d4563ea9ba39ef1915 -> 08308d8d62ee2ed065827aad960060592bcbe905248479907e36412d834bbe8d
+~ +[Libsysdiagnose createSysdiagnoseRequest:] : 836 -> 832
+~ +[Libsysdiagnose addErrorString:withCode:forError:] : sha256 c6d3a1feb6c3cb7714d65f53c8572bdba8aa16763a14ba184501fe1840c5cc4c -> 4075e9be9ee0f27625880fa0f3867888cab3cfbf13597b0858c0f0f4aa7bc875
+~ +[Libsysdiagnose createMetrics:fromResponse:] : sha256 0827bd596e074de945d0bbf34febac299b1440821081a365d9033a9c398a3c0e -> 1357d071a6f8a52d6caf932e1d3ef6e6b7058e2e7bfeab9fd0f749ef03877379
+~ ___45+[Libsysdiagnose createMetrics:fromResponse:]_block_invoke : sha256 d175126dfa461f8da07f688414887f13aeec2f38bff3e9a94054546daa21cf17 -> d2f0cd25859e3c51a03543557ac0e7af02dee8d3cd7f83d54fe30e7ab9bc79dd
+~ +[Libsysdiagnose verifyReply:withExpectedType:forError:] : sha256 dd40651b84dd8aa1c244233ba5045bc48155c1efc352616d78dc06ae7ae5d98e -> 267bbf16b471a64c05750514b5a53abb1f8a84f60d225137ffab6a747b20e937
+~ _safeFetchStr : sha256 4b587e221b44ef0b2e889e46e271750bf3bf90d0607cb7ba3501013d9c277cbf -> 7b323aee2441d716fa3f94017f8cc9d256d61092eaeedcb11aa4483d4833be05
+~ +[Libsysdiagnose sendSysdiagnoseRequest:withMetrics:withError:withProgressHandler:] : sha256 a4817ac2f5ba93fd2955b7d2e83ac6fc19bb1621df0751d55845599af294cf9f -> e0be73918ff69e7be53742e2fda66c3e615de4a2564a2822dd94d8b5dc9a8c00
+~ ___Block_byref_object_dispose_ : sha256 b2edad0e17f59228a85ac66648f2abe75805d4f57654337719ebb25293e0f90c -> d3e1c564ed67f8a92cfe932e5548546bf04c081cdbe11b7d52663a0fe1d1c43b
+~ ___Block_byref_object_copy_.86 : sha256 4545298046d1dc51f42a44b8121260eeaeebb1bc131f1d72b34b7cf7263c151c -> 86e60a8375bae7f5ddbcce8f33c46691f2abcf20983dcc9a6d6f4704841599a6
+~ ___Block_byref_object_dispose_.87 : sha256 94d71090ff61b2ad94391c1db6c31f0a22d627296b06a00a67d7a2de13bb6631 -> 598feb2743cffeb0204057db75e442ea105ead6ee3fc88f1a84dc8638d3e0353
+~ ___83+[Libsysdiagnose sendSysdiagnoseRequest:withMetrics:withError:withProgressHandler:]_block_invoke : sha256 08067e3d16676d117524ceb122609422e3da1ec8a939d935f129fb3e3dd459fa -> 0eec403fcfaf6428ff51fe0bc8f2699cf583a80e43567e5029c8956d11e78376
+~ _safeFetchErrorStr : sha256 09176c407967b15aefd3d1d4590268dbfba636fa2ed86534beb1e3cb7b5d96d2 -> 2808ce01997090dcab568ea0d98f983b0871c09f4f8a38ee6feea2d2a4595228
+~ ___83+[Libsysdiagnose sendSysdiagnoseRequest:withMetrics:withError:withProgressHandler:]_block_invoke.93 : sha256 95e49083a9c5e4084607bc95f1c8a26fcff5d449d0dec263de61d31ceab026a9 -> 64d03db650a731ca3bfe2d3cd6890c537a43db02316cd623caf741f377d13d37
+~ +[Libsysdiagnose sysdiagnoseWithMetadata:withMetrics:withError:withProgressCallback:] : sha256 4a0b042c9636c39431dc21182b3cd298b1116dc587dcb11a96953969bb4dc758 -> 2f3fe717c15945d031e2ab2d12916717375c457ec3a8c722d4330cfde5945147
+~ ___85+[Libsysdiagnose sysdiagnoseWithMetadata:withMetrics:withError:withProgressCallback:]_block_invoke : sha256 95a979ca8c9d9f378f71d46ed427a6568e4fd22c0c5696ef27d86dec587b43a5 -> 62fc089a0a5d429714544a692fbbc9c6d806099c360d2eadb363879d4e151341
+~ +[Libsysdiagnose sysdiagnoseWithMetadata:withMetrics:withError:withProgressHandler:] : sha256 85879dad149c236f27150fc8848116069095893b71709819842df44eb732406c -> e0b9865ebd57903abe8a03afc5ab32f300bd3d2d0143861aee200948ae819e46
+~ ___84+[Libsysdiagnose sysdiagnoseWithMetadata:withMetrics:withError:withProgressHandler:]_block_invoke : sha256 cbe691ea795d2926b6c75f668a39963b873d58836fabb80bb011bf1d5f130de6 -> 7782e09ca188ea14775e5af8f2f57389890c82df14cf449b2cf640cfbf290bfb
+~ ___84+[Libsysdiagnose sysdiagnoseWithMetadata:withMetrics:withError:withProgressHandler:]_block_invoke_2 : sha256 62f85e97f98a0af63e98900c4a1e6e5cf0942d0e0ebce15f22b8d1ac0a4db181 -> f20f9be90552dcff67b0cc1d5ebe038bc9132ddf709f42c4dcb60c346f1074f7
+~ +[Libsysdiagnose sysdiagnoseWithMetadata:withMetrics:withError:] : sha256 059e3ae18c2de9da3a65848f149583bc482d100d81175799a98ef880ffa5e6fe -> 5b8a4d91cbe3fa0dd53c8f3e7977d80be283de712a48384e43269b0832b76f14
+~ +[Libsysdiagnose sysdiagnoseWithMetadata:withError:] : sha256 f79736ed2a9b98d390e9e38ff6103083b1942ac01963b66e97b81131de05be1b -> 69f6a743db75daed6d97f4560b7918520081207895488f9c9cf692eca4249108
+~ +[Libsysdiagnose sysdiagnoseWithMetadata:onCompletion:] : sha256 f62c577622f410341fd76ae3e2861591b832e442093b53ad583223f9d0691a9b -> 94d08c9f86517140649ccbe13d836c37bf992cc8719dc625c07f3bb89f601625
+~ ___55+[Libsysdiagnose sysdiagnoseWithMetadata:onCompletion:]_block_invoke : sha256 3e53b29798fcc71a37aef86688965c51607a867291bb6f86ce58bbbf3de2f596 -> ac9eaa9ecae1115c714bf511f8758fc49ed712d2f1bc630124455af29cf7a3df
+~ +[Libsysdiagnose sysdiagnoseWithMetadata:withError:andProgressHandler:] : sha256 91566613812638886ceb5faaec79712ffeb485038871292683ab71734b2d2d6b -> fd57106e249c6947fe3385cfcbf668a103c1270341f4991a95992971d3ce8b82
+~ +[Libsysdiagnose sysdiagnoseWithMetadata:withError:withProgressHandler:] : sha256 2cce2fc7f1d4f4f14cb2eea61fa25a3aee5ce1cc92b3d7198f14810652e821dd -> ddf04955bd0c0551740f454091bb2a2a3fc047dcd1d64039d8c60882cc6ddab3
+~ +[Libsysdiagnose isSysdiagnoseInProgressWithError:] : 684 -> 680
+~ +[Libsysdiagnose cancelActiveSysdiagnoseWithError:] : sha256 de179c7ccc6de1988ab88c71cb0b1d9f659bd84124723ff8b5991b113574795e -> bd25af66441bceebd1a06dfea1ebf4691bfdab2b89652359cd18a38a282e72a8
+~ +[Libsysdiagnose fetchDiagnosticIDFromDeviceSource:WithMaxCount:withError:] : 1232 -> 1224
+~ ___75+[Libsysdiagnose fetchDiagnosticIDFromDeviceSource:WithMaxCount:withError:]_block_invoke : sha256 778d2e92fe086d15118052123065f5a2e4ed0377b406b34ea852e537eab5fe60 -> ebfee43d685e4192d9d5e87d818f4aa17008d59512c22b980bdc97cec2d19f4f
+~ _extractDiagnosticID : sha256 61bd1912c82ae915d8fbb00f00f19d85cf75f506b3cd286a979ebf376d7d78eb -> c8e8aaae73accb4dba92d3fd0cfd8ceaa04ddde8605f81c8797caac75adb832c
+~ +[Libsysdiagnose fetchRemoteDiagnosticIDsWithError:] : sha256 269e7d743fdc35e753b7a566a5e902c2217257e8b134e23bd6739e550cd605ec -> 406f9488d2e6ea109c6f5e25c6513b6198d2af5fd57f19bb315ce02f07e7778c
+~ +[Libsysdiagnose getSysdiagnoseCrashLog] : 932 -> 920
+~ ___40+[Libsysdiagnose getSysdiagnoseCrashLog]_block_invoke : sha256 7f508ba849084beceefa6011c413ff8a7e148dcafce611a43ae86c069f80f93e -> f65b3a28bdbcac22b291d70d4a30968dfa6a946e2d6176be9d62ff0e6694600a
+~ _appendToCrashlogsDir.cold.1 : sha256 2eec582cb42b35b9c3e31a28f321b4183f43802773b8634c13896b9224a53ac3 -> a251e26c40d6bc78b06ca02b9e7c0e9675d82a3229e418c00375d8955d733e39
+~ ___83+[Libsysdiagnose sendSysdiagnoseRequest:withMetrics:withError:withProgressHandler:]_block_invoke.cold.1 : sha256 d3d69ca953555d6283bff4286aa0420744ae2e89bb61a41ed162553e68ce598a -> 16383d2f546b99ed65a003d16a2e87dadbdff5f7d67b2c2a0f87b0c7edc5777f
+
+```

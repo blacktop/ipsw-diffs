@@ -1,0 +1,348 @@
+## AVD.videodecoder
+
+> `/System/Library/VideoDecoders/AVD.videodecoder`
+
+```diff
+
+-988.0.0.0.0
+-  __TEXT.__text: 0x1784b4 sha256:7c83f3758991063982d58ef46d72e86fc15ddc061be9701962a2753949ef5e76
+-  __TEXT.__objc_methlist: 0x1fc sha256:b689e21ef0198316a7168cc0972993700b5f20e374b4c6a2730de4200a9f0221
+-  __TEXT.__const: 0xc373 sha256:a8b9364b103f81ba9c65d62f9e11e68ac0fe35620e6407d085b78c0c905a3b19
+-  __TEXT.__oslogstring: 0x15fae sha256:8539a76d73eac82282ebfcaec70cefb95daaa36f5ffa5878177b16d334a1f81b
+-  __TEXT.__cstring: 0x5635 sha256:8b8fa0cd78c71d1e415ffb6719a8cb88e3db427cbcc414d81aa32a1b5c8417b2
+-  __TEXT.__gcc_except_tab: 0xde0 sha256:4d186d06bb4979f9b3eb40b03708e58c32316001a6ed313d2a69368309191b50
+-  __TEXT.__unwind_info: 0x1de0 sha256:dc2d574edb2c1ab9f9ed013a41a49ece4fccc12eb1df3b5b4fc144ca0a271228
++989.0.0.0.0
++  __TEXT.__text: 0x1697d0 sha256:8ed872f6d2f8b604875a16ca69aa324e55500143d5895a84977e86d2394ad941
++  __TEXT.__objc_methlist: 0x1fc sha256:dfe52e01cf2bc8a50e8c2bd6e20526aea4152a8c29a2d38b6111b305b98260da
++  __TEXT.__const: 0xc1d3 sha256:51236cefda44410ee486b13c9f7f63c212d12b004d6cf652b6e5190b48f4c145
++  __TEXT.__oslogstring: 0x15fb9 sha256:679b22510627f64420bd97ca324ba8d8b211f1b0153a731a0c631f551f0fb7ef
++  __TEXT.__cstring: 0x5681 sha256:fdfec2f8e1fab046e046f87490f412f13a876fed51888845c1bb11559995ccd8
++  __TEXT.__gcc_except_tab: 0xd4c sha256:b4ea1a20cc356e9af53a40f4e5ec5abcb3b6f05cc1eefa1e110a60ff13319fb8
++  __TEXT.__unwind_info: 0x1da0 sha256:4e1af2e3c9d0a84b2a5917915434abe2c5cc9bfb3f57c6adcfcc7245c0efe8e0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x68 sha256:05fc8b56d4d7955345bc7c31313216263587965a991b3cd24326a0fec7968f73
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:e150e4631863fcc72d337cab9269470abc83ad2a9846c0920e9d1cb40b5c3ac2
++  __DATA_CONST.__const: 0x68 sha256:449d1a4f035e6ead0765fdc040e277818ebdf0d30413b4a2102fa331de197808
++  __DATA_CONST.__objc_classlist: 0x28 sha256:9ad7746a060c92e5c0e3e2d7ba77cb87adb068d38e24d7b2c87b88e30ea3e876
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1a8 sha256:643d7b1f4fb8b575a2807115641048fd20bd9ac6d5b34bc3606630facbdb2464
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:f6e2fbd415edbb4a763c9caa6a6bd0f0c8005dc954e666fb3e9c50bfb33b54bc
++  __DATA_CONST.__objc_selrefs: 0x1a8 sha256:ee6cf6d8b2dd838bffe02035755bc49d4346fefd905fa75ccb7301c9b33da410
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:af690ea34d85341918b65e348b6b3826680a15650ef15525fd0211b14d348528
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x53c0 sha256:4c62ee71e8c77184639c093278808e765bed3c3f9917759205150af3c8d27a04
+-  __AUTH_CONST.__cfstring: 0x7e0 sha256:a7836d1ae228b43baf1384735d3a31855903a5c752796819ea9789b5f649055e
+-  __AUTH_CONST.__objc_const: 0x6e0 sha256:1b948e0c85d972f776a92e953a255cd482a3d4f64f65db94f98368289ec3faea
+-  __AUTH_CONST.__weak_auth_got: 0x38 sha256:d0aa4aab8eb87d53f85ca643ac273d08ad6caaff879ba80b667c56b0a84c46b0
+-  __AUTH_CONST.__objc_intobj: 0x48 sha256:2de23bf2246c0651222787212e8a09fa3d477ea22a64ae261a0a5be11f4e18c4
+-  __AUTH_CONST.__auth_got: 0x8c0 sha256:2f7eaacf490839d9c603736149286272aea4df46c0daf58f0c70062041c68230
+-  __AUTH.__objc_data: 0x50 sha256:1085caaf235febbf229c59f2ec6602bb35bf48ec5712f1201509b3fa8f1b5022
++  __AUTH_CONST.__const: 0x4e40 sha256:109ef039c5170b8d07317d54a4554bc73a6fde71ce7fcb8e5adb80967a140215
++  __AUTH_CONST.__cfstring: 0x7e0 sha256:13de7f0d83a996b76d2103c9fbb3b26852039a77472c4814d6f9f5cfa9f75075
++  __AUTH_CONST.__objc_const: 0x6e0 sha256:8fbdf5be96948d4799920574ab985e996ec2b1069963c640bb8adc255a3e7b34
++  __AUTH_CONST.__weak_auth_got: 0x38 sha256:9bd5480e2c1662122925db480170a4fc143ca5d34f97569d8c51be5cf60998f7
++  __AUTH_CONST.__objc_intobj: 0x48 sha256:9d4a1d6e60ddb2b23fb9380ea3b62a2a758e1f09df1e12986871185ebb472902
++  __AUTH_CONST.__auth_got: 0x8b8 sha256:34b4d54904f0c46c318c50b1278c31ee1df47cfaa6137cf3bfbf9a548748c28a
++  __AUTH.__objc_data: 0x50 sha256:853fe6b898312b89fc40fe31719c678c6ccacb0d64d07fcec86d3d9e7607d7e6
+   __DATA.__objc_ivar: 0x70 sha256:7e042da23d168ee9a8cd2cfa76383689038b3fabb4e7085f1640fa5d175cf8d4
+   __DATA.__common: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_DIRTY.__objc_data: 0x140 sha256:5ae04018f380eeb5e53782efeaf3527a312128ec0286ccb3829428fc145ce089
++  __DATA_DIRTY.__objc_data: 0x140 sha256:87a03cf848053837fe9d72e467f935712e87279d7d989ef53a61ab605c66d2cb
+   __DATA_DIRTY.__data: 0x78 sha256:b862cf8029191c4ed0da9f1599eeb6d24e89e5a0e305a45a11b948601de7707e
+   __DATA_DIRTY.__bss: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B06055A6-987B-3D58-93C9-12E0B2FF7660
+-  Functions: 4256
+-  Symbols:   11572
+-  CStrings:  2133
++  UUID: 56E63C81-A8E3-3917-BD0C-0DB75F7B35BB
++  Functions: 4109
++  Symbols:   11039
++  CStrings:  2136
+ 
+Symbols:
++ __ZNSt3__110unique_ptrI20AVDScaleMetalSessionNS_14default_deleteIS1_EEE5resetB9fqe220106EPS1_
++ __ZNSt3__110unique_ptrI22AVDDeblockMetalSessionNS_14default_deleteIS1_EEE5resetB9fqe220106EPS1_
++ __ZNSt3__110unique_ptrI25AVDBufferFillMetalSessionNS_14default_deleteIS1_EEE5resetB9fqe220106EPS1_
++ __ZNSt3__110unique_ptrI9AsyncInitNS_14default_deleteIS1_EEE5resetB9fqe220106EPS1_
++ __ZNSt3__111make_uniqueB9fqe220106I9AsyncInitJU13block_pointerFvvEELi0EEENS_10unique_ptrIT_NS_14default_deleteIS5_EEEEDpOT0_
++ __ZNSt3__119__shared_weak_count16__release_sharedB9fqe220106Ev
+- _InitPixelBufferCompressionSupported.cold.4
+- _VTDecoderSessionGetPixelBufferPool
+- __ZL24Default_Comp_Bwd_Ref_Cdf
+- __ZN15CAHDecNerineAvc11decHdrCSizeEj
+- __ZN15CAHDecNerineAvc11decHdrYSizeEj
+- __ZN15CAHDecNerineAvc11initPictureEjjb
+- __ZN15CAHDecNerineAvc11initPictureEjjb.cold.1
+- __ZN15CAHDecNerineAvc12decodeBufferEv
+- __ZN15CAHDecNerineAvc12getSWRStrideEjjjj
+- __ZN15CAHDecNerineAvc13decHdrCStrideEv
+- __ZN15CAHDecNerineAvc13decHdrYStrideEv
+- __ZN15CAHDecNerineAvc13getTileEndCTUEjj
+- __ZN15CAHDecNerineAvc14decHdrCLinAddrEj
+- __ZN15CAHDecNerineAvc14decHdrYLinAddrEj
+- __ZN15CAHDecNerineAvc14populateSlicesEj
+- __ZN15CAHDecNerineAvc14setVPInstrFifoEj
+- __ZN15CAHDecNerineAvc15copyScalingListER15AvcScalingListsR13AvcQtMatCoeffPhS4_S4_i
+- __ZN15CAHDecNerineAvc15freeWorkBuf_PPSEPv
+- __ZN15CAHDecNerineAvc15freeWorkBuf_SPSEv
+- __ZN15CAHDecNerineAvc15getTileIdxAboveEj
+- __ZN15CAHDecNerineAvc15getTileStartCTUEjj
+- __ZN15CAHDecNerineAvc15populateAvdWorkEj
+- __ZN15CAHDecNerineAvc16allocWorkBuf_PPSEPvS0_S0_
+- __ZN15CAHDecNerineAvc16allocWorkBuf_PPSEPvS0_S0_.cold.1
+- __ZN15CAHDecNerineAvc16allocWorkBuf_PPSEPvS0_S0_.cold.2
+- __ZN15CAHDecNerineAvc16allocWorkBuf_PPSEPvS0_S0_.cold.3
+- __ZN15CAHDecNerineAvc16allocWorkBuf_PPSEPvS0_S0_.cold.4
+- __ZN15CAHDecNerineAvc16allocWorkBuf_PPSEPvS0_S0_.cold.5
+- __ZN15CAHDecNerineAvc16allocWorkBuf_SPSEPv
+- __ZN15CAHDecNerineAvc16allocWorkBuf_SPSEPv.cold.1
+- __ZN15CAHDecNerineAvc16allocWorkBuf_SPSEPv.cold.2
+- __ZN15CAHDecNerineAvc16allocWorkBuf_SPSEPv.cold.3
+- __ZN15CAHDecNerineAvc16decodeBufferSizeEv
+- __ZN15CAHDecNerineAvc21updateCommonRegistersEj
+- __ZN15CAHDecNerineAvc22populateSliceRegistersEP17AvcSliceRegistersi
+- __ZN15CAHDecNerineAvc23populateCommonRegistersEv
+- __ZN15CAHDecNerineAvc24populatePictureRegistersEv
+- __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.1
+- __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.10
+- __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.2
+- __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.3
+- __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.4
+- __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.5
+- __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.6
+- __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.7
+- __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.8
+- __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.9
+- __ZN15CAHDecNerineAvc25AvcPicScalingListFallBackEP7sAvcSPSP7sAvcPPS
+- __ZN15CAHDecNerineAvc25AvcSeqScalingListFallBackEP7sAvcSPS
+- __ZN15CAHDecNerineAvc25populateSequenceRegistersEv
+- __ZN15CAHDecNerineAvc4initEv
+- __ZN15CAHDecNerineAvc4initEv.cold.1
+- __ZN15CAHDecNerineAvcC2EP14CAVDAvcDecoder
+- __ZN15CAHDecNerineAvcD0Ev
+- __ZN15CAHDecNerineAvcD1Ev
+- __ZN15CAHDecNerineAvcD2Ev
+- __ZN15CAHDecNerineAvx10isLfPadDisEv
+- __ZN15CAHDecNerineAvx11decHdrCSizeEj
+- __ZN15CAHDecNerineAvx11decHdrYSizeEj
+- __ZN15CAHDecNerineAvx11initPictureEjjb
+- __ZN15CAHDecNerineAvx12decodeBufferEv
+- __ZN15CAHDecNerineAvx12startPictureEj
+- __ZN15CAHDecNerineAvx12startPictureEj.cold.1
+- __ZN15CAHDecNerineAvx13DecodePictureEjj
+- __ZN15CAHDecNerineAvx13decHdrCStrideEv
+- __ZN15CAHDecNerineAvx13decHdrYStrideEv
+- __ZN15CAHDecNerineAvx13getTileEndCTUEjj
+- __ZN15CAHDecNerineAvx13populateTilesEv
+- __ZN15CAHDecNerineAvx14decHdrCLinAddrEj
+- __ZN15CAHDecNerineAvx14decHdrYLinAddrEj
+- __ZN15CAHDecNerineAvx14populateSlicesEj
+- __ZN15CAHDecNerineAvx14setVPInstrFifoEj
+- __ZN15CAHDecNerineAvx15freeWorkBuf_PPSEPv
+- __ZN15CAHDecNerineAvx15freeWorkBuf_SPSEv
+- __ZN15CAHDecNerineAvx15getTileIdxAboveEj
+- __ZN15CAHDecNerineAvx15getTileStartCTUEjj
+- __ZN15CAHDecNerineAvx15populateAvdWorkEj
+- __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_
+- __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.1
+- __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.10
+- __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.11
+- __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.12
+- __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.13
+- __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.2
+- __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.3
+- __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.4
+- __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.5
+- __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.6
+- __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.7
+- __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.8
+- __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.9
+- __ZN15CAHDecNerineAvx16allocWorkBuf_SPSEPv
+- __ZN15CAHDecNerineAvx16allocWorkBuf_SPSEPv.cold.1
+- __ZN15CAHDecNerineAvx16allocWorkBuf_SPSEPv.cold.2
+- __ZN15CAHDecNerineAvx16allocWorkBuf_SPSEPv.cold.3
+- __ZN15CAHDecNerineAvx16allocWorkBuf_SPSEPv.cold.4
+- __ZN15CAHDecNerineAvx16decodeBufferSizeEv
+- __ZN15CAHDecNerineAvx17getPPSWorkBufSizeEPvS0_
+- __ZN15CAHDecNerineAvx18populateClearTilesEv
+- __ZN15CAHDecNerineAvx20getUpscaleConvolveX0Eiii
+- __ZN15CAHDecNerineAvx21populateTileRegistersEP16AvxTileRegistersj
+- __ZN15CAHDecNerineAvx21updateCommonRegistersEj
+- __ZN15CAHDecNerineAvx22calc_az_left_tile_sizeEiiiiiiii
+- __ZN15CAHDecNerineAvx22calc_lf_left_tile_sizeEiiiiiiiii
+- __ZN15CAHDecNerineAvx22calc_lr_left_tile_sizeEiiiiiiiii
+- __ZN15CAHDecNerineAvx22getUpscaleConvolveStepEii
+- __ZN15CAHDecNerineAvx22ppsWorkBufSizeIncreaseEPvS0_
+- __ZN15CAHDecNerineAvx23populateAvxVPDependencyEv
+- __ZN15CAHDecNerineAvx23populateCommonRegistersEv
+- __ZN15CAHDecNerineAvx24populateAddressRegistersEv
+- __ZN15CAHDecNerineAvx24populateAddressRegistersEv.cold.1
+- __ZN15CAHDecNerineAvx24populatePictureRegistersEv
+- __ZN15CAHDecNerineAvx24populatePictureRegistersEv.cold.1
+- __ZN15CAHDecNerineAvx24populatePictureRegistersEv.cold.2
+- __ZN15CAHDecNerineAvx24populatePictureRegistersEv.cold.3
+- __ZN15CAHDecNerineAvx24populatePictureRegistersEv.cold.4
+- __ZN15CAHDecNerineAvx25populateSequenceRegistersEv
+- __ZN15CAHDecNerineAvx27calc_lf_above_pix_tile_sizeEiiiiiiii
+- __ZN15CAHDecNerineAvx27populateDecryptionRegistersEv
+- __ZN15CAHDecNerineAvx4initEv
+- __ZN15CAHDecNerineAvx4initEv.cold.1
+- __ZN15CAHDecNerineAvx4initEv.cold.2
+- __ZN15CAHDecNerineAvx4initEv.cold.3
+- __ZN15CAHDecNerineAvxC2EP14CAVDAvxDecoder
+- __ZN15CAHDecNerineAvxD0Ev
+- __ZN15CAHDecNerineAvxD1Ev
+- __ZN15CAHDecNerineAvxD2Ev
+- __ZN15CAHDecNerineLgh11decHdrCSizeEj
+- __ZN15CAHDecNerineLgh11decHdrYSizeEj
+- __ZN15CAHDecNerineLgh11initPictureEjjb
+- __ZN15CAHDecNerineLgh12decodeBufferEv
+- __ZN15CAHDecNerineLgh12getSWRStrideEjjjj
+- __ZN15CAHDecNerineLgh12startPictureEj
+- __ZN15CAHDecNerineLgh12startPictureEj.cold.1
+- __ZN15CAHDecNerineLgh13DecodePictureEj
+- __ZN15CAHDecNerineLgh13decHdrCStrideEv
+- __ZN15CAHDecNerineLgh13decHdrYStrideEv
+- __ZN15CAHDecNerineLgh13getTileEndCTUEjj
+- __ZN15CAHDecNerineLgh13populateTilesEv
+- __ZN15CAHDecNerineLgh14clearSegBufferEv
+- __ZN15CAHDecNerineLgh14decHdrCLinAddrEj
+- __ZN15CAHDecNerineLgh14decHdrYLinAddrEj
+- __ZN15CAHDecNerineLgh14populateSlicesEj
+- __ZN15CAHDecNerineLgh14setVPInstrFifoEj
+- __ZN15CAHDecNerineLgh15freeWorkBuf_PPSEPv
+- __ZN15CAHDecNerineLgh15freeWorkBuf_SPSEv
+- __ZN15CAHDecNerineLgh15getTileIdxAboveEj
+- __ZN15CAHDecNerineLgh15getTileStartCTUEjj
+- __ZN15CAHDecNerineLgh15populateAvdWorkEj
+- __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_
+- __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_.cold.1
+- __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_.cold.2
+- __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_.cold.3
+- __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_.cold.4
+- __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_.cold.5
+- __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_.cold.6
+- __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_.cold.7
+- __ZN15CAHDecNerineLgh16allocWorkBuf_SPSEPv
+- __ZN15CAHDecNerineLgh16allocWorkBuf_SPSEPv.cold.1
+- __ZN15CAHDecNerineLgh16allocWorkBuf_SPSEPv.cold.2
+- __ZN15CAHDecNerineLgh16allocWorkBuf_SPSEPv.cold.3
+- __ZN15CAHDecNerineLgh16allocWorkBuf_SPSEPv.cold.4
+- __ZN15CAHDecNerineLgh16decodeBufferSizeEv
+- __ZN15CAHDecNerineLgh21populateTileRegistersEP16LghTileRegisters
+- __ZN15CAHDecNerineLgh21updateCommonRegistersEj
+- __ZN15CAHDecNerineLgh23populateCommonRegistersEv
+- __ZN15CAHDecNerineLgh24populatePictureRegistersEv
+- __ZN15CAHDecNerineLgh25populateSequenceRegistersEv
+- __ZN15CAHDecNerineLgh4initEv
+- __ZN15CAHDecNerineLgh4initEv.cold.1
+- __ZN15CAHDecNerineLgh4initEv.cold.2
+- __ZN15CAHDecNerineLgh4initEv.cold.3
+- __ZN15CAHDecNerineLgh4initEv.cold.4
+- __ZN15CAHDecNerineLgh4initEv.cold.5
+- __ZN15CAHDecNerineLghC2EP14CAVDLghDecoder
+- __ZN15CAHDecNerineLghD0Ev
+- __ZN15CAHDecNerineLghD1Ev
+- __ZN15CAHDecNerineLghD2Ev
+- __ZN15CAHDecNerineLghD2Ev.cold.1
+- __ZN16CAHDecNerineHevc11decHdrCSizeEj
+- __ZN16CAHDecNerineHevc11decHdrYSizeEj
+- __ZN16CAHDecNerineHevc11initPictureEjjb
+- __ZN16CAHDecNerineHevc11initPictureEjjb.cold.1
+- __ZN16CAHDecNerineHevc12decodeBufferEv
+- __ZN16CAHDecNerineHevc12getMVmemInfoEiP20_avd_client_mem_infoPj
+- __ZN16CAHDecNerineHevc12getSWRStrideEjjjj
+- __ZN16CAHDecNerineHevc13decHdrCStrideEv
+- __ZN16CAHDecNerineHevc13decHdrYStrideEv
+- __ZN16CAHDecNerineHevc13getTileEndCTUEjj
+- __ZN16CAHDecNerineHevc14decHdrCLinAddrEj
+- __ZN16CAHDecNerineHevc14decHdrYLinAddrEj
+- __ZN16CAHDecNerineHevc14populateSlicesEj
+- __ZN16CAHDecNerineHevc14setVPInstrFifoEj
+- __ZN16CAHDecNerineHevc15copyScalingListER16HevcScalingListsR14HevcQtMatCoeffjR24hevc_scaling_list_data_t
+- __ZN16CAHDecNerineHevc15freeWorkBuf_PPSEPv
+- __ZN16CAHDecNerineHevc15freeWorkBuf_SPSEv
+- __ZN16CAHDecNerineHevc15getTileIdxAboveEj
+- __ZN16CAHDecNerineHevc15getTileStartCTUEjj
+- __ZN16CAHDecNerineHevc15populateAvdWorkEj
+- __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_
+- __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.1
+- __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.10
+- __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.2
+- __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.3
+- __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.4
+- __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.5
+- __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.6
+- __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.7
+- __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.8
+- __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.9
+- __ZN16CAHDecNerineHevc16allocWorkBuf_SPSEPv
+- __ZN16CAHDecNerineHevc16allocWorkBuf_SPSEPv.cold.1
+- __ZN16CAHDecNerineHevc16allocWorkBuf_SPSEPv.cold.2
+- __ZN16CAHDecNerineHevc16allocWorkBuf_SPSEPv.cold.3
+- __ZN16CAHDecNerineHevc16decodeBufferSizeEv
+- __ZN16CAHDecNerineHevc17getTileHdrMemInfoEiP17_Tile_hdr_buffs_t
+- __ZN16CAHDecNerineHevc21updateCommonRegistersEj
+- __ZN16CAHDecNerineHevc22populateSliceRegistersEP18HevcSliceRegistersi
+- __ZN16CAHDecNerineHevc23populateCommonRegistersEv
+- __ZN16CAHDecNerineHevc24populatePictureRegistersEv
+- __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.1
+- __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.2
+- __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.3
+- __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.4
+- __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.5
+- __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.6
+- __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.7
+- __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.8
+- __ZN16CAHDecNerineHevc25populateSequenceRegistersEv
+- __ZN16CAHDecNerineHevc4initEv
+- __ZN16CAHDecNerineHevc4initEv.cold.1
+- __ZN16CAHDecNerineHevcD0Ev
+- __ZN16CAHDecNerineHevcD1Ev
+- __ZN16CAHDecNerineHevcD2Ev
+- __ZNSt3__110unique_ptrI20AVDScaleMetalSessionNS_14default_deleteIS1_EEE5resetB9fqe220100EPS1_
+- __ZNSt3__110unique_ptrI22AVDDeblockMetalSessionNS_14default_deleteIS1_EEE5resetB9fqe220100EPS1_
+- __ZNSt3__110unique_ptrI25AVDBufferFillMetalSessionNS_14default_deleteIS1_EEE5resetB9fqe220100EPS1_
+- __ZNSt3__110unique_ptrI9AsyncInitNS_14default_deleteIS1_EEE5resetB9fqe220100EPS1_
+- __ZNSt3__111make_uniqueB9fqe220100I9AsyncInitJU13block_pointerFvvEELi0EEENS_10unique_ptrIT_NS_14default_deleteIS5_EEEEDpOT0_
+- __ZNSt3__119__shared_weak_count16__release_sharedB9fqe220100Ev
+- __ZTI15CAHDecNerineAvc
+- __ZTI15CAHDecNerineAvx
+- __ZTI15CAHDecNerineLgh
+- __ZTI16CAHDecNerineHevc
+- __ZTS15CAHDecNerineAvc
+- __ZTS15CAHDecNerineAvx
+- __ZTS15CAHDecNerineLgh
+- __ZTS16CAHDecNerineHevc
+- __ZTV15CAHDecNerineAvc
+- __ZTV15CAHDecNerineAvx
+- __ZTV15CAHDecNerineLgh
+- __ZTV16CAHDecNerineHevc
+CStrings:
++ "19:45:42"
++ "19:45:43"
++ "19:45:44"
++ "AppleAVD: INFO: %{public}s(): Nerine AVD is not supported in this AppleAVD driver!!!\n"
++ "Jun 18 2026"
++ "createNerineAvcDecoder"
++ "createNerineAvxDecoder"
++ "createNerineHevcDecoder"
++ "createNerineLghDecoder"
+- "21:33:49"
+- "21:33:50"
+- "21:33:51"
+- "AppleAVD: ERROR: %{public}s(): VT Failed to get Pixel Buffer Pool! ERROR!\n"
+- "Jun  1 2026"
+- "~CAHDecNerineLgh"
+
+```

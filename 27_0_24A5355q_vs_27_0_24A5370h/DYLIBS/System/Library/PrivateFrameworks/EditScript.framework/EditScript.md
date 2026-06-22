@@ -1,0 +1,137 @@
+## EditScript
+
+> `/System/Library/PrivateFrameworks/EditScript.framework/EditScript`
+
+```diff
+
+ 4.0.0.0.0
+-  __TEXT.__text: 0x37dc sha256:67ab61b7c1e9c20306115a040117ebae782b08f61f8a45399256a88fbf81d17d
+-  __TEXT.__objc_methlist: 0x5fc sha256:114d7dfb53dc89a1073c5f8ed9de78f1f31782d4f200c969cf35fbf2c7c63fd7
++  __TEXT.__text: 0x37b4 sha256:408fb00bb7809aa90c2dcb01850802350f23695ab74ca4ff56f0adf545bbd0de
++  __TEXT.__objc_methlist: 0x5fc sha256:b8ea1606036eeb742d31329df3a71d58f6b83e1ca20559d0ef74ac167c12e291
+   __TEXT.__const: 0x40 sha256:b975d1a36b5f301c83623711c2d2b5619bab6047175d6a138b226b10fcc0fce2
+   __TEXT.__cstring: 0x4e1 sha256:d091dfaf68a2ae00566fabb09a9c649a46e72f9271f3adad1b660f9e4606c835
+   __TEXT.__ustring: 0x126 sha256:072829523ec5e4c46447be9157006467509bd53f97e7209ae2ef423af9643d9a
+-  __TEXT.__unwind_info: 0x150 sha256:6ab58892c3eac61704e6d336980e9c3535d4b0c5a8287234ff8bd7ff57e366d3
++  __TEXT.__unwind_info: 0x150 sha256:a34a97e807c05390dca596c0eac16d19360e9c03331a0fe6f627ae9ed85ab76b
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x68 sha256:56319ae6a41469473b394abecd0611663f2dcf1ee51113b81466fbbb299ed455
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:1a4e735deedd3acbee6e7adde369030f31f5af80497aafcfb44c134795c55e9f
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:b86a0129e5efa55950ab037a0153480ff0d3df9081e2048de55440f53266a903
++  __DATA_CONST.__const: 0x68 sha256:c7abec55b39db510d43f796be837368964f31a9df3667e9e77ff22caa8344a54
++  __DATA_CONST.__objc_classlist: 0x38 sha256:2534522996e7a642ee9e83ab4fb6c6c0964ffa2f5d4b0a92e89bc69b04cec753
++  __DATA_CONST.__objc_protolist: 0x10 sha256:014eb753b60df7dd468a00ae0c052f5c53381ce7e3c85a50c60e3df67a2c4230
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x3b8 sha256:e1ce9af9fcc7ecdc60cfce6f2ad349da83c18350f2776deee48561549f7a97a2
+-  __DATA_CONST.__objc_superrefs: 0x38 sha256:1a4e735deedd3acbee6e7adde369030f31f5af80497aafcfb44c134795c55e9f
+-  __DATA_CONST.__objc_arraydata: 0x100 sha256:bff7cb608231a819596b64295e443fbb7663b19c185f19032599b5d6f99855a8
+-  __DATA_CONST.__got: 0x78 sha256:848d5b9e6a540b61d4c4c846ede65ed7c9849732d52086b51c5151dd90da3600
+-  __AUTH_CONST.__cfstring: 0xae0 sha256:9bf96fc37b23818d27a4b1f9f0ac9311e4bdcc1579fdebe0eebed5210030e65b
+-  __AUTH_CONST.__objc_const: 0x9a0 sha256:1bd45416d00edfe7adec47a97199ff68c087601d4e05da79527f6a5300f7b15a
+-  __AUTH_CONST.__objc_intobj: 0x48 sha256:92f2cd38fe573d9f5ff397f5433215bf021b7071ef063ae55d5bb02b48365f0c
+-  __AUTH_CONST.__objc_arrayobj: 0xc0 sha256:d3a425a2be874db57c1a4ad5af8c9e2d17357ac188e9bee140d45d2d7ef0d658
++  __DATA_CONST.__objc_selrefs: 0x3b8 sha256:0c9062dbd6132f5b89207b287aedf935f75cf8af095f4a3f6164cc019f730e15
++  __DATA_CONST.__objc_superrefs: 0x38 sha256:2534522996e7a642ee9e83ab4fb6c6c0964ffa2f5d4b0a92e89bc69b04cec753
++  __DATA_CONST.__objc_arraydata: 0x100 sha256:63a25e2630593bdd322bc091a15e275663dbfb80227df41ef99250f0591f0eb3
++  __DATA_CONST.__got: 0x78 sha256:1ab097b14e859d1ff6b93873dde91be1799724d7d8a1acc62088d1b7699abba8
++  __AUTH_CONST.__cfstring: 0xae0 sha256:a973a02580a5f603b0d4c4545cb74569dddce77389bf1f120916a75e1223961a
++  __AUTH_CONST.__objc_const: 0x9a0 sha256:78bf6ada6f690dbdc6e348f4af45b0ae480931116876c5e4fd278ef5ad3a04d8
++  __AUTH_CONST.__objc_intobj: 0x48 sha256:3df31fa7a61d46d490d77cbff5b2d127271c26b0526d364426c13e946aebe17d
++  __AUTH_CONST.__objc_arrayobj: 0xc0 sha256:21dfc2b9c2837d1994f8ba2d7a500957d33ff46e6402e286286be19df9c9aa85
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x230 sha256:461f918a6a54ee1452d2205457d9e11bdf3181f37795ac4e70baed7eac5fbe07
++  __AUTH.__objc_data: 0x230 sha256:19448873c4e5218732f630c2bcb42a0cc7d187d67fd00ab9d76936f4f53f68e3
+   __DATA.__objc_ivar: 0x58 sha256:7b1569e8498b2dd8872d420630f3b25e7f38cdc235dfa7f22d337845d5b35889
+-  __DATA.__data: 0xc0 sha256:56ee9fdfa1d4f1b34496f89b01aaa5b752a389afa3a74fedc35cd4a9b339feea
++  __DATA.__data: 0xc0 sha256:35abb496fa1ce9f6f1a1283580c19e9ebaf1b656539db23479113d8dc56e0213
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8AA0194E-B19B-30D2-B4AD-857E55FA38EC
++  UUID: 5F75E213-54FA-36B2-BC0E-0ECF8902219B
+   Functions: 97
+   Symbols:   426
+   CStrings:  165
+Functions:
+~ -[ESEditScriptDataArray initWithString:chunkSize:] : sha256 2788d0d619cdb9e178fdeb38f8db667d4c74ff2254921aa74b4c4a57cd53d91d -> 1f3551f12944faf8f491fbc097e340cf6193bc145c09d687c6c172a1f6036939
+~ ___50-[ESEditScriptDataArray initWithString:chunkSize:]_block_invoke : sha256 c1c16350d3516be7f4fd9c09576c8b7a9fe8e9e785b51c34d4015a11d665ba21 -> e3da6448963847149fbbae1430fec743cd3e6bbf66ddbc6c74d2282e3b402d89
+~ _IsCharacterAtIndexMemberOfCharacterSet : sha256 1b0e0834769c9745d95220c38f6861a7b0075569f06e6cf742850912c7c01a09 -> c00f112dd9a9cc426cd6f01427fb3a638a52a8057be38306c7fa98a540de4733
+~ -[ESEditScriptDataArray initWithArray:] : sha256 944d233571625c1118e6eda4d542e92ccd67db3f9860bf3924dd7b07469354e6 -> 71186f8de034fda01cb1783a58510ffd8fa1b08a76bcfd0217a2f3b1a640eb22
+~ -[ESEditScriptDataArray description] : sha256 15248c1cb9e4f63d23f8ac8763fe89ac024a270362ce94dcf340f3e765d07e3b -> 6567b2f0283008a40594acd7bbfed7cf1ce35c5aa0217d4f4e26ebe62c183ac5
+~ +[ESEditScriptDataArray EditScriptDataWithString:chunkSize:] : sha256 7b513164f3ead1ae04f78c23c833221064b11f27c709725115b84e0264af562e -> 34f927e81210b8e1a64d55fd4a9e82e785d3de4e7bd5403dd3734a5d99fe60f8
+~ +[ESEditScriptDataArray EditScriptDataWithArray:] : sha256 1b0ac5860baedc61a1f17cf3a857f595ebfa38cd385bd832dd5ac96c4a3428f6 -> 7403c5d048255411964ffa7bfe7699442b256e6412ea45ce4a84486342088dbb
+~ -[ESEditScriptDataArray length] : sha256 da6b036a03c1b84128d091127d48e0b79e160325839b23b1f324a2895db6837b -> 86ea134d42936d32c0a4e82d1d1ac5d12a23959873ef336a0b2c42b86b844760
+~ -[ESEditScriptDataArray stringAtIndex:] : sha256 b0cae9229e224859e9d46b32a223117d2db3439f72dfd546f87004b060034711 -> 25bc789e7f30bc4cc5a51dc041834de193c33450e89b4356e208e3488f9bdaba
+~ -[ESEditScriptDataArray stringValue] : sha256 e93388bb775234f87a0b0e6e182e9574b6ca417a4b2b208ce37be0457330d651 -> 6eb336b29cc44fa13c5155c19bd550c0e4b6a215ecfe9483fc4b34f0246ae395
+~ -[ESEditScriptDataArray lengthOfItem:] : sha256 ec133ad724581198850ab9238dda8adef9015817db93fdebd9ddd2e6a3532951 -> 76985b4b089424cca7b2dbbf2e401e1ae193bcb7141655c3473dbe425a6b001f
+~ -[ESEditScriptDataArray characterIndexForItem:] : sha256 da60373d15d7fc3c193919c12de418a5953e38594e1dbfeeb7175af5c9c2b44e -> 1f9e73e2952558456fe83824b169422fedd06a88e9d6e00b346d3807baf2e008
+~ -[ESEditScriptDataArray indexOfFirstDifferenceWithOtherData:shouldReverseIterate:fallsOnWordBoundary:] : sha256 b8f9e60b3b6af5806d4341f4323727e8c816d319747dd4bd1ec9fdbe6f043c48 -> 03b97eed35b2a49ed8f13cc3657c5ec8c0085c9712d1723463961f99d27f3f75
+~ -[ESEditScriptDataArray setData:] : sha256 0d4eb049d3f34ae95d7f82a370db0402110b1e16a9ce23485a68f952480f8d4e -> 4ba9229a59975384cfb65da276a9e0e7bd89c90e7724c3e86086df8284c52a22
+~ -[ESEditScriptDataArray setCachedStringValue:] : sha256 94a224d66243808d478ee1eadc5858d528cd4c47d574aa35a1099dfd6c3dfd5d -> b978321601236c7dd1ce1f9578c852207ce5de50a5f72cd00fcc044b219a0d42
+~ -[ESEditScriptDataArray .cxx_destruct] : sha256 c9f3a6b58a93504fbb45d6fe710b1ec9767c75b67b3e768a8db722d24c3002af -> 71f4cf20309a5897ea9697b024c20ba86cde8e012b486581e3112e2000576fb2
+~ -[ESEditScript operationPrecedenceArrayFromOperationPrecedence:] : sha256 75913eb9b02b513230124d12380119aa91390219bcf6a9d8d7ea6470fee8ba6a -> ff713b730edf05a6f863b2953658f88290cb2a865a67a9995590c327889d3f68
+~ -[ESEditScript initWithOperationPrecedence:orderAtomsAscending:] : sha256 fd0bbb478914818483e44cb740ecf0375321ee6b3322a40797da2ad45a33a14f -> 80c64a1d02959860fe7a037e1fcf37aeea9aba9e17d39b4442a1bbbc1ca62ea7
+~ -[ESEditScript description] : 408 -> 404
+~ -[ESEditScript computeDistanceMatrix] : sha256 4e99d8696e3d60a9d2c05d39df28d6d43bb913e36800a557d2562885aab01c28 -> cddbe0c7626d34b8df7754d4f1866335b531aaea3986136b5323b0baab4e14cb
+~ -[ESEditScript computeEditsFromMatrix] : sha256 e5d533e2858f6247b612a04569e446ad0d6a40927fec2382f15f668215c19fa7 -> 8316abd856e7122549b99c80d523f45ed57b014cc91fe57be38b9e2b35c825f3
+~ -[ESEditScript setOperationPrecedenceArray:] : sha256 2c17c9b86897766eb67266f9f6adfcad8433e82603849428c1e68761f3f3e486 -> 9830da9412690fe70278bbf82a15ebdfb2d6be63b8adbd8256f0a461ea2da910
+~ -[ESEditScript setScript:] : sha256 81c5d422fa48289117de9214ef9b95d3463ab92f6a171a0d9d84d22864f0709e -> 4317cc2b56e551598779dcc116f4541776f5964e27866119b576ed826847d682
+~ -[ESEditScript .cxx_destruct] : sha256 38e50f8bf2e048faa144f3a06d590a66453adaff7205e8f38c4d2987024899de -> 33d4e73902e2c95c5b385f64edeebfdab82321bd578deff96031a99ed100e905
+~ -[ESEditScriptIndexed initWithOperationPrecedence:dataClass:fromArray:toArray:orderAtomsAscending:] : sha256 f459a2171082ef32a063acc5f2c692bc51676249e43f4a928db44121e6a470f4 -> f4f04ab6c87490111a1faf9247f7e8b9dc18a6123c92cfbfa684509c3f7c3ef2
+~ +[ESEditScriptIndexed editScriptFromArray:toArray:] : sha256 86104ec4953eb6c0297a70444de190044537d553b4b58acf16900e3040b10d2d -> 8b41c22530b91b4bcdda659642140f63f3479f99397669adf1d939ba7159833d
+~ +[ESEditScriptIndexed editScriptFromArray:toArray:orderAtomsAscending:operationPrecedence:] : sha256 9cc29b581201523c2468e7b6118349e3a93d0ec8a094da9f920c2cd8a345727a -> eaa80fc70aa11ea87f754e948b3236686fab47e05a57de5ddaa8ac81a66273c0
+~ -[ESEditScriptIndexed applyToArray:] : 460 -> 456
+~ -[ESEditScriptIndexed initializeCurrentScriptAtom] : sha256 5b45963017cc6cde7e29e07a2bacdf78eb50fae69e65f5221605daae24950ff9 -> d47c2290bc4cd9adee6713265bcb42a4957fa256bb056de29e831a1e71aa0214
+~ -[ESEditScriptIndexed addToCurrentScriptAtomEditOperation:editIndex:newText:indexInArrayB:] : sha256 7536984cebaab9d1e6e6ce2f5a8bd52287827ab926e67044fe3dd68774a8d5f0 -> d734d06b5cd849dd1bfe5595f2fffc054d0bf6e0a9a3088ce26ffab39e490831
+~ -[ESEditScriptIndexed finalizeCurrentScriptAtom] : 436 -> 432
+~ -[ESEditScriptIndexed .cxx_destruct] : sha256 f0f9efb1ac184aad63e90d72006cbed5a67f34205d05166252c91f1155e550f0 -> d3d7b6f05db4611fc1c6a8d539690e59c11b8c930b1105537b610631ae2ada53
+~ _TestEditScriptRanged : sha256 ef6454b8f162d00fcb3d8de526eed9e45727de8d44007b11db3c9b03be0adbac -> 97d07066ee8d739ba39d814f24315120018fdf215c49bc509072c622cd89e47d
+~ _NSPrintLine : sha256 3e9d6d14274663f16075cff5348a42ce6c84bb6af20f0928a4569183fa66d522 -> c194297e9a5e1e149d9dc3904f89c53d3e09af348f44b5a6a292aeec2d47a5e9
+~ _NSPrint : sha256 085983e76e943b06e7fd5e8aed6294f79b1f85175761a3ab72fc16d3f098df8e -> e979bbad87abbf9714fbb7e1e7dcd49d90c58a17f2548f602fada8d43af7b8ff
+~ _TestEditScriptSmallestSingleEditRanged : sha256 515cfc10d5ea0154a83b6b080154f6e67d58e29b07299b1799bcd4890140a0b3 -> c34794220c77ee0cc728afc29a8d4b610befcbee1a0e766eaa0f319f1cdeb17a
+~ _TestEditScriptIndexed : 696 -> 692
+~ _TestEditScript : sha256 dbddb058f82466e665ce4e92afbec4761f96348e8c3e2353484b0687b5f8ab7f -> 168d8e921c41222823cd2dca86684b88dd4685002d509a78749ebfbb5d9b73c1
+~ _TestSmallestEditThinkLikeAHuman : sha256 ea5f7889775c2cb5cc137d3a4bfd5b1449474c825f4ffe903808bff21e0fd26c -> 9cdc13c929e072c884f73be47318aadffc48c1784c2ea00311c4f041e523cf1c
+~ _TestEditScriptDataArray : sha256 88665a9e6d4c2cfa6fafd4562bdce572e58d6f2c693493b99e7df03ede2375ac -> e2043c86ce8978df9e4c580a57e4e6fd4abb982975a6ee8f0e892dc242ab2834
+~ _main : sha256 40041ed94e6a74dccdb4ed156ed3e3cd9855a851cb27c1c0f60a472eddcc6902 -> 4e0a4ff7b6f8f01f7615f8a5a5fd18d60a7ede0570a4e43b257248409b6fc96f
+~ -[ESAtomRanged initWithEditRange:replacementText:] : sha256 2376d607062b22f1bc49c3cca5d2d4e4f4977681321c2962de5276f1b35992e1 -> da5554b46994dd9251b4b2f5fd25741196a681fc0d4bd7f3e06796d0724a1828
+~ -[ESAtomRanged description] : sha256 24d4adfe4a4d07dc21100cba90e83cc12d32a52bf927fcf0d053517121afab87 -> d80b75356e51f5c6ec90ec14723a5921393dc4376c9b1718a79088addfc3cdc5
+~ -[ESAtomRanged isEqual:] : sha256 d7486f46cd7e079989557d86ad8ea2a01f08ba2ec55f016a5b75ec8e62ea369f -> 5dbfced8f5e7fdc69fa7a6a7e4d1a070d342ac0566f4fc222b8ecfef5039880c
+~ -[ESAtomRanged isEqualToEditScriptAtomRanged:] : sha256 569e840978ea494863f951e53b3b4d3c316a5c6df05995671b39d914f9be9244 -> 68e0dcff6b75ce9887fa43ff3e577cee8f079bc99432ce450e5a64339c75f425
+~ +[ESAtomRanged atomWithEditRange:replacementText:] : sha256 6dbe18ae340d119c6b27f5c5efc2515699291718f28bac135b36ab89c7440a79 -> 346de2ca35dd545c6c3253a8d2fbfcdff819060c6df6c272d0e83a4a6a03b198
+~ -[ESAtomRanged setReplacementText:] : sha256 28d72c3203b966a37d6cc257aaadde68770b893210b5cd15ace66877fecf946e -> 47f9557cd5feb06bede771afd364a1b55d80580d427247011a108b62f842ca48
+~ -[ESAtomRanged .cxx_destruct] : sha256 c4cf8f2043af900bbe7534d309a894bb7e29717d036fb61cb228982b19efb5ee -> a2765e345eb9b6023f971fe03b0fa26efb3ac19d0930b344e10f957801e9a405
+~ +[ESIntArray2D arrayWithISize:jSize:] : sha256 5675f0ad3699115d35e236e8d6aa196b00337b90335550768f4c3372b6135651 -> bbbe33f720752ae17e01613666f615a6cc81094966a9412ef576bffd83cda1f1
+~ -[ESIntArray2D dealloc] : sha256 ffe231a6f976a7890891a24c309e0589f026b3817b942b2bf390a78103ac89a8 -> 393a716b9e42f38d0034ce7c45e2b2613d0d9ff3613cf2cd0409688d70bae4f5
+~ -[ESIntArray2D description] : sha256 666a703f15effae988e45bae71f723cf96276428e2e6b7873d0e84467007700a -> 026e43c04ba9c558b0ef0917627a63cb5d0ea279d131ddc905f866ff8c13067a
+~ -[ESIntArray2D initWithISize:jSize:] : sha256 551032e25e020323b362373d0a938efb5170e3a86eb3ee358c4feb61fe4bb084 -> a67201cfb1edb21e782d6e4b8107104430e2c6e94eb5714555b319438f888731
+~ -[ESIntArray2D ::] : 72 -> 64
+~ -[ESIntArray2D ::outOfBoundsReturnValue:] : sha256 12ccef56c4fa26ecaf1c019c58a119b9d700c7aa2039cbd046ba6fb769ad0e86 -> 3048910acb3de55ad435485ec9bcef52fd92f1db0b96d54276fd2f54a7631e82
+~ -[ESIntArray2D ::newValue:] : 76 -> 68
+~ -[ESEditScriptRanged initWithOperationPrecedence:dataClass:chunkSize:stringA:stringB:orderAtomsAscending:options:] : sha256 52e22893ee34fcb7d19710a59993acb3a812c3d41b136d0e77f3169aabe9daa8 -> 2a0c5207c023967969943262f26052519f31c99bad00a00d7e59fd90f572b1f9
+~ -[ESEditScriptRanged stringA] : sha256 73b79d9ab352edcd1e779cb7dff1787dde4ce77c269ef4ec0f562d9136131c8d -> 48303d68f728343f69754e2db5d1567beea6c60c5dd87e79c36aad98b61d32fd
+~ -[ESEditScriptRanged stringB] : sha256 26736c68431afe22f990fdc0a3d6e4d81d9038fa2407453ee2c8cd87baa8860b -> fc9b650d22925b91ca2080494b3fd25bb2abf8690d6fb65649b3e5cad6d0d515
+~ +[ESEditScriptRanged editScriptFromString:toString:] : sha256 a040b3d38ab467d07db516453540294fe69e1544836991cbd6ebb3368ba4c936 -> e2d5080cda75289d489bf51b54c6ddcc452677b8b78e8c7736076334fc2c9f99
+~ +[ESEditScriptRanged editScriptFromString:toString:chunkSize:orderAtomsAscending:operationPrecedence:options:] : sha256 b4020d67f4de8b834078594e80b1b81133c9cf32545e0b20e1c9b99eb566d797 -> 5378a06a2853fc01bfd8c775275fdd29120bfa49ec3c5eaed5925be30162eede
+~ -[ESEditScriptRanged applyToString:] : 372 -> 368
+~ -[ESEditScriptRanged initializeCurrentScriptAtom] : sha256 c0021f97fbcb6b8974b468564d3554d7bffd44fa99a143ae7ad1929830ca526e -> 7c325814459454c7da5cb55ad8ed03d2136a5e26131b51a1ed7d601bbe1706bf
+~ -[ESEditScriptRanged addToCurrentScriptAtomEditOperation:editIndex:newText:indexInArrayB:] : sha256 59e725f76c58cfd010d91bb41d06f62a0df632fb3b773ccf1a34707a8acf0309 -> b7669a942db473cc18ba4de64785ba1df28f3fef6c3306c62f63f1fec43e2f23
+~ -[ESEditScriptRanged finalizeCurrentScriptAtom] : 448 -> 444
+~ -[ESEditScriptRanged removeAnyOverlapBetweenIndexOfFirstDifference:andReverseIndexOfLastDifference:shouldShortenFirstDifference:] : sha256 c864eda2c7ce2d09bb8ca3fa9df34141395c451ee21a276d82184d3701c1ea34 -> 0b00aa0841f5873bf7edb2b8bb0c75990c067e31025c7282ddaca4007187b17e
+~ -[ESEditScriptRanged computeSmallestSingleEdit] : sha256 e8d8fc901363173b5b6187f9ace08378c682f557434a86bfb366a56508eec5a6 -> a5b05f10b6b5cfe08a54b3acbeee1d2ac755cb4eb2589651740c841164de809f
+~ +[ESEditScriptRanged editScriptForSmallestSingleEditFromString:toString:] : sha256 496ed74ef0e7405d3260d2fae5bafe40b7fa9880adae3b5fbdd6971aa28e987f -> 7a523543d097f1d5311340b493fad3eabf6b23b2868c7524d0d02372e73114c0
+~ +[ESEditScriptRanged editScriptForSmallestSingleEditFromString:toString:chunkSize:] : sha256 b72aef40bde85fb34f88d8051e4d6c6b56620188ffd9ec19e00126bc36404c1d -> 2c15ba5e057fc84bd9465ec540323363970b4812dda47f89fbf652c79ed67614
+~ -[ESEditScriptRanged .cxx_destruct] : sha256 9f39eb9de3ce20a7893213a8ef8a88728aa741b762001ffc24d4b550d297d301 -> ed0ef7d0e86a31f43e25af37b28557b65d7b85b0d58e8c9f4ad4024f52124082
+~ -[ESAtomIndexed initWithEditOperation:indexToEdit:newText:indexInArrayB:] : sha256 54b174fb2ccf8c9e28f1c0218ad543d936c516b0b5241b3ccc5075bacaa9fb82 -> a4529e59c8eb07859262123fcea9b2103ddf846fc16062f400fe039c302a2ac6
+~ -[ESAtomIndexed description] : sha256 50bc2f559e37f04ca549fc65562763e9ca2dd9446cd5897f8540384c3b4b7dc1 -> 0b52f9e72df48ebd7aa6399ce812ed29e053773c1e5f738148e9ea3bcddfc02d
+~ +[ESAtomIndexed atomWithEditOperation:indexToEdit:newText:indexInArrayB:] : sha256 63612c6509b43b07c3bebdd0821f93267118ae2604b0b7c2067c88834d81015e -> 2f80ca9ad9b817db3fe74c0e14fcb90ed61b094c43e2c3bf79a3707803abba9e
+~ -[ESAtomIndexed setReplacementText:] : sha256 b8a7dc507524f85241a33ed5f6f5df8c8eb3775a4c9961d888bf05b9d590a8f8 -> 0d5cc45941ec876204c4bc51b3e7bc98e9d2303e5cdbb1cc12bb5288de4876c3
+~ -[ESAtomIndexed .cxx_destruct] : sha256 65b5f9ce6159a32f02073fbe53d55dc12444f6f57b0b44f0d56ed336ba2e8a7b -> ac8cca99658f33d483590fa9a64879322c9ad945f7376c35961b55cd12eec67f
+
+```

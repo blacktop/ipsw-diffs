@@ -1,0 +1,330 @@
+## MetricsFramework
+
+> `/System/Library/PrivateFrameworks/MetricsFramework.framework/MetricsFramework`
+
+```diff
+
+-3600.43.6.1.1
+-  __TEXT.__text: 0x10b0a0 sha256:4f5005d3af001a256e200bea794d9ce45f009141aefd45cc06db12352e797781
+-  __TEXT.__objc_methlist: 0x14 sha256:37261246bec8b50a661441f0f53ed7c8af15d064313ad3e4f9556ef64aa6b5eb
+-  __TEXT.__const: 0xd1c0 sha256:fc18732a0e36da403914f29d0e5e6a8c517c23f84c62f538884214daa61a5ef5
+-  __TEXT.__swift5_typeref: 0x2eca sha256:0beda5f962fc00c9820858e00b554455b89bdebfa754c3b4bb6ae8b2af205650
+-  __TEXT.__swift5_capture: 0x534 sha256:6adb36b7ede78b35cda3dc690d24a16e1181684959c4e9dce8b480a4a7f6f3a6
+-  __TEXT.__oslogstring: 0x698c sha256:26a4e39b49c1d2836ddfecc06294af5ddc990bd0155d36dd228c6d5920897301
+-  __TEXT.__swift5_reflstr: 0x5798 sha256:8218ae0236fac968607e9c6e4f07ffbb1c6ec0080e36e0b83d36d22857929962
+-  __TEXT.__swift5_assocty: 0xde0 sha256:b3e3cb0fa8fc679eee9cdb4fa88552eb4dc7059ed4a0a2b2c4f04a02419bfc62
+-  __TEXT.__constg_swiftt: 0x5308 sha256:45f1ef0cd8928ccf69e4bae54b1ee317090de4d057bafe8ac02dc7ec49f20b02
+-  __TEXT.__swift5_fieldmd: 0x4dbc sha256:a0faa0b53988f29a4d2edbbca532b69185e7b289f934dc6939a1ed99339fa9b9
+-  __TEXT.__swift5_builtin: 0x21c sha256:f9de8be78c5093a7439280420e6d5c767003f8000193dd82421c0cebadcb3bf8
+-  __TEXT.__cstring: 0x6ca0 sha256:48d63791983810852eeeb80ee9d0340b48d91940a443d26418a3da856da6f8ee
+-  __TEXT.__swift5_proto: 0x81c sha256:b0ded79d7caadb2369354fb2df2db6f8421176e8584a21dee70994dec34d3577
+-  __TEXT.__swift5_types: 0x468 sha256:f8d1c81d6dc7b38d65c0485e8926b689e855f0d56ce014daab1e0d005f63c308
+-  __TEXT.__swift_as_entry: 0x438 sha256:0adc1c7a28d2e000e5089bc997b405dfab0813650c6c78a6de2f54edfa3c4ad4
+-  __TEXT.__swift_as_ret: 0x3e8 sha256:0de8ef6bea9940a59098e4aa6b8408ecbba255a83e8478572a88142571f4f913
+-  __TEXT.__swift_as_cont: 0x668 sha256:7fa9ac6dcf18f00484141e2618ed10595e8970520786f40c2db6f959ca79cd59
+-  __TEXT.__swift5_protos: 0x74 sha256:0a81149e9c9ca0cc7df2b2994af55ce67a087a86df9c856d6ef13084cc083a07
+-  __TEXT.__unwind_info: 0x3ac0 sha256:0cfa4916e928e2706d5eb9b666c175740b766e51d0561e5091b9060f8f0f54cf
+-  __TEXT.__eh_frame: 0x7790 sha256:8ada43af9a9150a44627de3976b16ccf6fb60ee226e57466457082f0278e0a1a
++3600.49.3.0.0
++  __TEXT.__text: 0x10c85c sha256:f5045af39375d43ced8bfb78a8225850458889dce1f7e6a76637f34b3756ee9e
++  __TEXT.__objc_methlist: 0x14 sha256:6baf3b6c06101757bc719355df46b8731c0de3849cb947448b91e7f87f1489ba
++  __TEXT.__const: 0xd0a0 sha256:7b39f6c57284261680c2b021cfb7327942e5aeb3514329961248fa2781eb8802
++  __TEXT.__swift5_typeref: 0x2e96 sha256:9056e10a84ca34fa060aa830a7f24fec782f250b3d97a4b02e1d491b350ae051
++  __TEXT.__swift5_capture: 0x52c sha256:b3de0adeeae3e4880e06102c6af089707f491ebddaf1798793c1f21fc5fdd3a0
++  __TEXT.__oslogstring: 0x6a2c sha256:66a2e9ae2e0dbb01a0fa039a9266278d49bf2893fd8f620aa3f1eef986a6bab0
++  __TEXT.__swift5_reflstr: 0x57e8 sha256:df3c294964653d558a1041247c081721ee89e561fcf71b84e055d0f8274c070c
++  __TEXT.__swift5_assocty: 0xdc0 sha256:58722b257e22cd80d5c1e66d4358f65405f02848bef0b395b90312d3815d0148
++  __TEXT.__constg_swiftt: 0x5384 sha256:59edc4a93991afbb3d25b301b293b7961167e292b1371f0ba1590cb62e477428
++  __TEXT.__swift5_fieldmd: 0x4da0 sha256:f4e113ac2ca7c1201730aa7fd67a3730a1b22bcf6021bea8d7669b3fd147a70f
++  __TEXT.__swift5_builtin: 0x230 sha256:2387f7f6bba05f55918627db0225b2edb25005cd89b4973eb17675e7291ccfa6
++  __TEXT.__cstring: 0x7080 sha256:942b42d4ba2e116f51f30a953f99063c936e8b934c8f9a428ab5bcbc60b9f461
++  __TEXT.__swift5_proto: 0x800 sha256:bec6891fd86ca1a74e55c901f1197c5703d0bda57d7fed3341c4162697e89b2d
++  __TEXT.__swift5_types: 0x474 sha256:8f99b4dd4a5c1cb6887e2e62b93eb9d0c765ad81b9c86e8c0601b9f094f3b502
++  __TEXT.__swift_as_entry: 0x440 sha256:87d0838737bf735efa9aed218c691054095cd1c034104d151d955628a02f5608
++  __TEXT.__swift_as_ret: 0x3e8 sha256:2e3401eed57d5ee77c3e8a743ee0b0c3765b082b8da2db215977fa8e140e50f0
++  __TEXT.__swift_as_cont: 0x670 sha256:bf88f357d18d57358f79b2c85b7a59fe7c6fe176d010e2da3263e14b04b46b99
++  __TEXT.__swift5_protos: 0x74 sha256:08bbd98c0cdcef451c2620da0ff871152422aa238380fc0f4454217038263108
++  __TEXT.__unwind_info: 0x3aa8 sha256:92552b78230381463114b565c9757ae882d9fc1dd3191b2d67482e6701d323d0
++  __TEXT.__eh_frame: 0x77a8 sha256:55c4c71166d6553d7b666146555f63261a50626585b79c02e05a30aa6842890c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1b8 sha256:de6f1152dcba4ce9f82f9978495164efd117b4cb4b25b3f5a2354bf29497a8d0
+-  __DATA_CONST.__objc_classlist: 0x340 sha256:8b867bb31620d460b09817ad02f1ee058b203fcab93e61bbc1377c4d6ab71f8a
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:96cd8e33468417006827cfec4a39726020915dc1e11a63002ea4ffb8f6816086
++  __DATA_CONST.__const: 0x1b8 sha256:289324bf6e55334964ed501281dd7ff14697fe6a9a464f49ea54f14f06f569d6
++  __DATA_CONST.__objc_classlist: 0x348 sha256:3a61d94865d25fb2468a819b9ef5e281ba47ed6ceb811452d5995d620200d59d
++  __DATA_CONST.__objc_catlist: 0x8 sha256:09415e29cac4195c9f086e5e5d2fd03004a63d715b8de9d703cc754d5e2c32b9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xb98 sha256:cb03a7c07a4f355131fae629259b3dadc09e703c6ddb9787946dbd7f42a62e50
++  __DATA_CONST.__objc_selrefs: 0xbb0 sha256:c08f79902aac283ae69547eae229bd5fa5bd5d67ed6fa28121cad404f94b52ab
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x8768 sha256:384e330ea8f6c8319b36f0aa3cbe302ab121487f0d31c831044ab54b5abd6321
+-  __AUTH_CONST.__cfstring: 0x4240 sha256:e0b713314d2de99544b2f7954cb0a7e11846f33f07dd17640217d81aee602fba
+-  __AUTH_CONST.__objc_const: 0x56c8 sha256:f99f3835272d4380d73b63bef5f75b9a81e2112f7c7cc38fcf66e59481b47287
+-  __AUTH_CONST.__auth_got: 0xfe0 sha256:81ac48a9d4a78ebed4628374539dbb2fc163379c3940995e8b8f7b31614b8cde
+-  __AUTH.__objc_data: 0xea8 sha256:953b265fa3edbeea68b0b5bfc5914462bb865ba19c13d5b8f544be483549df17
+-  __AUTH.__data: 0x4688 sha256:c859b9a6c9652de6a0b58fd9d5dc65fd2dbbb348d7eb29a8c5c253a681275f5b
+-  __DATA.__data: 0x2168 sha256:fe3b8c8fc7a52e983cc796e5989c26c6ffe8d109776fff6a29e564da1ece8831
++  __AUTH_CONST.__const: 0x85c0 sha256:58b20813c51a23761d100dabf3fca7e9739095b44124a133d7ec296f71a8afd6
++  __AUTH_CONST.__cfstring: 0x4420 sha256:6b1ad97d0ae5cac684b800e2d1f3758603b046373ff7a179b8103ce03d674651
++  __AUTH_CONST.__objc_const: 0x56f8 sha256:5ad02eab26da5dc8de782011105ca02618acc6367168d3f8d6ae5cb640a01f98
++  __AUTH_CONST.__auth_got: 0xfe8 sha256:77efb11a7ce36716aaabac10bdb7cb4881d53ad3b973bc57457b4977133ded30
++  __AUTH.__objc_data: 0xfe8 sha256:e15cf29bc616378338311ea3a2207041d757f588129a7fa7ead9e5719f4baef6
++  __AUTH.__data: 0x4c00 sha256:2232195026dbe2a816f7e3c13c9a4413c7422ed33393680e0f31d9168bb2dd36
++  __DATA.__data: 0x2218 sha256:25fb9194bf7fda6ffe0f0c8d3008db666047c4d6b4b49690693338e42978be60
+   __DATA.__common: 0x1e0 sha256:4b48f21a4b7a02bfbec19ef880a967a02334a3cdcef8ae83de2ef327ba8bc5dd
+-  __DATA.__bss: 0xd380 sha256:8984085081da6fb50a65777094b3c2a4f02b38f1a005d429ed4c13fe510f5dce
+-  __DATA_DIRTY.__objc_data: 0x8b0 sha256:ac0efadd67c0a7866c63b4126db86727ddcff2187c0ec7b6c27dc541b76a53dd
+-  __DATA_DIRTY.__data: 0x3270 sha256:8c4eb6483102bb07b9f893e6c931ed8a09b4e8f268ad44e921a55d030849d622
+-  __DATA_DIRTY.__bss: 0x2100 sha256:0f47ecf52af95b17e5b78e1ac181dc092897de95163da5d708eee4331918cf16
+-  __DATA_DIRTY.__common: 0x120 sha256:2d5565fb483d8ea4525a7a9229677d1038ad34b6e22c8d5152e1d7f7b9817597
++  __DATA.__bss: 0xd300 sha256:2639b35770113a6fab7deeb9d86d172ad77bc63ab7fc6649aee65597b8c857b7
++  __DATA_DIRTY.__objc_data: 0x770 sha256:bf3ffa1b66922edc17d64f5e987d7545b58a3b502ba6e9f7eddbde0cbde5d1f0
++  __DATA_DIRTY.__data: 0x2dc0 sha256:8822a5f1e523f583fcd02be8f1f9108d60c0880c6f0c83ccbcfc6961d585b049
++  __DATA_DIRTY.__bss: 0x1d80 sha256:ec45dd5752aa2f1fe1a87a915156ade1f31d4464d04a554d9efa684a9a5c322e
++  __DATA_DIRTY.__common: 0xf0 sha256:2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 14D9FA4C-0DCA-3290-8646-8A0504927D84
+-  Functions: 4889
++  UUID: A79D44A1-934A-39B4-B8CC-87D049C1ED37
++  Functions: 4874
+   Symbols:   2764
+-  CStrings:  1933
++  CStrings:  1977
+ 
+Symbols:
++ _OBJC_CLASS_$_ODDSiriSchemaODDAssistantLLMSiriCounts
++ _OBJC_CLASS_$_ODDSiriSchemaODDAssistantLLMSiriDigest
++ _OBJC_CLASS_$_ODDSiriSchemaODDAssistantLLMSiriDigestsReported
++ _OBJC_CLASS_$_ODDSiriSchemaODDAssistantLLMSiriDimensions
++ __DATA__TtC16MetricsFramework21LLMSiriDigestReporter
++ __DATA__TtC16MetricsFramework23LLMSiriDigestCalculator
++ __DATA__TtC16MetricsFramework23ODDFeatureDigestsPlugin
++ __DATA__TtC16MetricsFramework25LLMSiriDigestSELFReporter
++ __DATA__TtC16MetricsFramework29ODDFeatureDigestsDataProvider
++ __DATA__TtC16MetricsFramework29ODDFeatureDigestsTaskExecutor
++ __IVARS__TtC16MetricsFramework23LLMSiriDigestCalculator
++ __IVARS__TtC16MetricsFramework23ODDFeatureDigestsPlugin
++ __IVARS__TtC16MetricsFramework25LLMSiriDigestSELFReporter
++ __IVARS__TtC16MetricsFramework29ODDFeatureDigestsDataProvider
++ __METACLASS_DATA__TtC16MetricsFramework21LLMSiriDigestReporter
++ __METACLASS_DATA__TtC16MetricsFramework23LLMSiriDigestCalculator
++ __METACLASS_DATA__TtC16MetricsFramework23ODDFeatureDigestsPlugin
++ __METACLASS_DATA__TtC16MetricsFramework25LLMSiriDigestSELFReporter
++ __METACLASS_DATA__TtC16MetricsFramework29ODDFeatureDigestsDataProvider
++ __METACLASS_DATA__TtC16MetricsFramework29ODDFeatureDigestsTaskExecutor
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.70
++ ___swift_memcpy553_8
++ ___swift_memcpy881_8
++ _associated conformance 16MetricsFramework20LLMSiriDigestResultsV11DeepThought16BookmarkedResultAA18lighthouse_runtime0I0
++ _associated conformance 16MetricsFramework21LLMSiriDigestReporterC18lighthouse_runtime0E0AA10ResultTypeAdEP_AD0H0
++ _associated conformance 16MetricsFramework23ODDFeatureDigestsPluginC18lighthouse_runtime010LighthouseE0AaD12DataProvider
++ _associated conformance 16MetricsFramework23ODDFeatureDigestsPluginC18lighthouse_runtime010LighthouseE0AaD6Worker
++ _associated conformance 16MetricsFramework23ODDFeatureDigestsPluginC18lighthouse_runtime010LighthouseE0AaD8Reporter
++ _associated conformance 16MetricsFramework23ODDFeatureDigestsPluginC18lighthouse_runtime12DataProviderAA0H10RecordTypeAdEP_AD0hJ0
++ _associated conformance 16MetricsFramework23ODDFeatureDigestsPluginC18lighthouse_runtime6WorkerAA10ResultTypeAdEP_AD0I0
++ _associated conformance 16MetricsFramework23ODDFeatureDigestsPluginC18lighthouse_runtime6WorkerAA14DataRecordTypeAdEP_AD0iJ0
++ _associated conformance 16MetricsFramework23ODDFeatureDigestsPluginC18lighthouse_runtime8ReporterAA10ResultTypeAdEP_AD0I0
++ _associated conformance 16MetricsFramework29ODDFeatureDigestsDataProviderC18lighthouse_runtime0eF0AA0E10RecordTypeAdEP_AD0eI0
++ _associated conformance 16MetricsFramework29ODDFeatureDigestsTaskExecutorC7SubtaskOSHAASQ
++ _associated conformance 16MetricsFramework29ODDFeatureDigestsTaskExecutorCAA011ODDIMetricseF4BaseAA7SubtaskAaDP_8RawValueSYSy
++ _associated conformance 16MetricsFramework29ODDFeatureDigestsTaskExecutorCAA011ODDIMetricseF4BaseAA7SubtaskAaDP_SY
++ _block_copy_helper.61
++ _block_copy_helper.73
++ _block_descriptor.63
++ _block_descriptor.75
++ _block_destroy_helper.62
++ _block_destroy_helper.74
++ _objc_msgSend$setAssistantLLMSiriDigestsReported:
++ _objc_msgSend$setContextualFollowUpCount:
++ _objc_msgSend$setCountPSUSAssets:
++ _objc_msgSend$setExecutionCategory:
++ _objc_msgSend$setOnScreenAwarenessCount:
++ _objc_msgSend$setSiriAppResumeCount:
++ _objc_msgSend$setTotalNumberOfBytesFactoryAssets:
++ _objc_msgSend$setTotalNumberOfBytesPSUSAssets:
++ _objc_msgSend$setWkaSummarizationCount:
++ _swift_release_x1
++ _symbolic SDy_____Say_____GG 16MetricsFramework13EventMetadataV AA013LLMSiriDigestA0V
++ _symbolic Say_____G 16MetricsFramework013LLMSiriDigestA0V
++ _symbolic _____ 16MetricsFramework013LLMSiriDigestA0V
++ _symbolic _____ 16MetricsFramework20LLMSiriDigestResultsV
++ _symbolic _____ 16MetricsFramework21LLMSiriDigestReporterC
++ _symbolic _____ 16MetricsFramework23LLMSiriDigestCalculatorC
++ _symbolic _____ 16MetricsFramework23ODDFeatureDigestsPluginC
++ _symbolic _____ 16MetricsFramework25LLMSiriDigestSELFReporterC
++ _symbolic _____ 16MetricsFramework26ODDFeatureDigestsConcluderV
++ _symbolic _____ 16MetricsFramework27ODDFeatureDigestsDataRecordV
++ _symbolic _____ 16MetricsFramework29ODDFeatureDigestsDataProviderC
++ _symbolic _____ 16MetricsFramework29ODDFeatureDigestsTaskExecutorC
++ _symbolic _____ 16MetricsFramework29ODDFeatureDigestsTaskExecutorC7SubtaskO
++ _symbolic _____ 16MetricsFramework36ODDFeatureDigestsWorkerConfigurationV
++ _symbolic _____ So33ODDSiriSchemaODDExecutionCategoryV
++ _symbolic _____3key_Say_____G5valuet 16MetricsFramework13EventMetadataV AA013LLMSiriDigestA0V
++ _symbolic _____Sg 16MetricsFramework013LLMSiriDigestA0V
++ _symbolic _____Sg So33ODDSiriSchemaODDExecutionCategoryV
++ _symbolic _____y_____G 11DeepThought18BookmarkedReporterC 16MetricsFramework25LLMSiriDigestSELFReporterC
++ _symbolic _____y_____G 18lighthouse_runtime26LighthouseRuntimeProcessorC 16MetricsFramework23ODDFeatureDigestsPluginC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16MetricsFramework013LLMSiriDigestD0V
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 16MetricsFramework13EventMetadataV AC013LLMSiriDigestC0V
++ _type_layout_string 16MetricsFramework20LLMSiriDigestResultsV
+- _OBJC_CLASS_$_ODDSiriSchemaODDAssetAvailabilityFromBootDigest
+- _OBJC_CLASS_$_ODDSiriSchemaODDAssetAvailabilityFromBootDigestReported
+- _OBJC_CLASS_$_ODDSiriSchemaODDAssetAvailabilityFromBootDimensions
+- _OBJC_CLASS_$_ODDSiriSchemaODDAssetAvailabilityFromBootTuples
+- __DATA__TtC16MetricsFramework18BootToAssetMetrics
+- __DATA__TtC16MetricsFramework19BootToAssetReporter
+- __DATA__TtC16MetricsFramework21BootToAssetCalculator
+- __DATA__TtC16MetricsFramework23BootToAssetDataProvider
+- __DATA__TtC16MetricsFramework23BootToAssetSELFReporter
+- __IVARS__TtC16MetricsFramework18BootToAssetMetrics
+- __IVARS__TtC16MetricsFramework21BootToAssetCalculator
+- __IVARS__TtC16MetricsFramework23BootToAssetDataProvider
+- __IVARS__TtC16MetricsFramework23BootToAssetSELFReporter
+- __METACLASS_DATA__TtC16MetricsFramework18BootToAssetMetrics
+- __METACLASS_DATA__TtC16MetricsFramework19BootToAssetReporter
+- __METACLASS_DATA__TtC16MetricsFramework21BootToAssetCalculator
+- __METACLASS_DATA__TtC16MetricsFramework23BootToAssetDataProvider
+- __METACLASS_DATA__TtC16MetricsFramework23BootToAssetSELFReporter
+- ___swift_closure_destructor.67
+- ___swift_closure_destructor.75
+- ___swift_closure_destructor.79
+- ___swift_memcpy192_8
+- ___swift_memcpy545_8
+- ___swift_memcpy873_8
+- _associated conformance 16MetricsFramework011BootToAssetA0C18lighthouse_runtime12DataProviderAA0H10RecordTypeAdEP_AD0hJ0
+- _associated conformance 16MetricsFramework011BootToAssetA0C18lighthouse_runtime16LighthousePluginAaD12DataProvider
+- _associated conformance 16MetricsFramework011BootToAssetA0C18lighthouse_runtime16LighthousePluginAaD6Worker
+- _associated conformance 16MetricsFramework011BootToAssetA0C18lighthouse_runtime16LighthousePluginAaD8Reporter
+- _associated conformance 16MetricsFramework011BootToAssetA0C18lighthouse_runtime6WorkerAA10ResultTypeAdEP_AD0I0
+- _associated conformance 16MetricsFramework011BootToAssetA0C18lighthouse_runtime6WorkerAA14DataRecordTypeAdEP_AD0iJ0
+- _associated conformance 16MetricsFramework011BootToAssetA0C18lighthouse_runtime8ReporterAA10ResultTypeAdEP_AD0I0
+- _associated conformance 16MetricsFramework15BootToAssetDataV10CodingKeysOSHAASQ
+- _associated conformance 16MetricsFramework15BootToAssetDataV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 16MetricsFramework15BootToAssetDataV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16MetricsFramework15BootToAssetDataV10CodingKeysOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 16MetricsFramework18BootToAssetResultsV11DeepThought16BookmarkedResultAA18lighthouse_runtime0J0
+- _associated conformance 16MetricsFramework19BootToAssetReporterC18lighthouse_runtime0F0AA10ResultTypeAdEP_AD0I0
+- _associated conformance 16MetricsFramework21BootToAssetCalculatorC18lighthouse_runtime6WorkerAA10ResultTypeAdEP_AD0J0
+- _associated conformance 16MetricsFramework21BootToAssetCalculatorC18lighthouse_runtime6WorkerAA14DataRecordTypeAdEP_AD0jK0
+- _associated conformance 16MetricsFramework23BootToAssetDataProviderC18lighthouse_runtime0fG0AA0F10RecordTypeAdEP_AD0fJ0
+- _block_copy_helper.70
+- _block_copy_helper.77
+- _block_copy_helper.82
+- _block_descriptor.72
+- _block_descriptor.79
+- _block_descriptor.84
+- _block_destroy_helper.71
+- _block_destroy_helper.78
+- _block_destroy_helper.83
+- _objc_msgSend$initWithDouble:
+- _objc_msgSend$setAssetAvailabilityFromBootDigestReported:
+- _objc_msgSend$setBootToAssetDeliveryInMs:
+- _objc_msgSend$setCountFactoryAssetInBytes:
+- _objc_msgSend$setSizeInBytesPSUSAssets:
+- _objc_msgSend$setTotalBytesDownloaded:
+- _symbolic Say_____G 16MetricsFramework15BootToAssetDataV
+- _symbolic Say_____G 16MetricsFramework15BootToAssetDataV10CodingKeysO
+- _symbolic Say_____G 16MetricsFramework23CombinedBootToAssetDataV
+- _symbolic _____ 16MetricsFramework011BootToAssetA0C
+- _symbolic _____ 16MetricsFramework15BootToAssetDataV
+- _symbolic _____ 16MetricsFramework15BootToAssetDataV10CodingKeysO
+- _symbolic _____ 16MetricsFramework18BootToAssetResultsV
+- _symbolic _____ 16MetricsFramework19BootToAssetReporterC
+- _symbolic _____ 16MetricsFramework21BootToAssetCalculatorC
+- _symbolic _____ 16MetricsFramework21BootToAssetDataRecordV
+- _symbolic _____ 16MetricsFramework23BootToAssetDataProviderC
+- _symbolic _____ 16MetricsFramework23BootToAssetSELFReporterC
+- _symbolic _____ 16MetricsFramework23CombinedBootToAssetDataV
+- _symbolic _____Sg s11AnyHashableV
+- _symbolic ______ypt s11AnyHashableV
+- _symbolic ______yptSg s11AnyHashableV
+- _symbolic _____ySSSay_____GG s18_DictionaryStorageC 16MetricsFramework15BootToAssetDataV
+- _symbolic _____y_____G 11DeepThought13BatchReporterC 16MetricsFramework011BootToAssetD0C
+- _symbolic _____y_____G 18lighthouse_runtime26LighthouseRuntimeProcessorC 16MetricsFramework011BootToAssetF0C
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16MetricsFramework15BootToAssetDataV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16MetricsFramework15BootToAssetDataV10CodingKeysO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 16MetricsFramework15BootToAssetDataV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 16MetricsFramework23CombinedBootToAssetDataV
+- _symbolic _____y_____y_____GG 11DeepThought18BookmarkedReporterC AA05BatchD0C 16MetricsFramework011BootToAssetD0C
+- _type_layout_string 16MetricsFramework15BootToAssetDataV
+- _type_layout_string 16MetricsFramework18BootToAssetResultsV
+CStrings:
++ "#LLMSiriDigestCalculator: %ld results"
++ "#LLMSiriDigestCalculator: %s (%ld occurrences)"
++ "#LLMSiriDigestCalculator: invoked"
++ "#LLMSiriDigestSELFReporter: Events Count: %ld"
++ "#LLMSiriDigestSELFReporter: Finished Emitting LLMSiriDigest SELF events"
++ "#LLMSiriDigestSELFReporter: Reporter invoked"
++ "#LLMSiriDigestSELFReporter: Results Data %s"
++ "#LLMSiriDigestSELFReporter: Total Results Count %ld"
++ "#LLMSiriDigestSELFReporter: failed to create client event"
++ "#LLMSiriDigestSELFReporter: failed to create digests reported"
++ "#LLMSiriDigestSELFReporter: failed to report event: %@"
++ "#ODDFeatureDigestsConcluder: SQL file could not be loaded"
++ "#ODDFeatureDigestsConcluder: SQL: %s"
++ "#ODDFeatureDigestsTaskExecutor: Call LLMSiriDigest"
++ "INVOCATIONSOURCE_CAMERA_APP_TEXT"
++ "INVOCATIONSOURCE_PHOTOS_APP_TEXT"
++ "INVOCATIONSOURCE_SCREENSHOT_UI_TEXT"
++ "INVOCATIONSOURCE_TRY_ASKING_SIRI"
++ "INVOCATIONSOURCE_VISUAL_INTELLIGENCE_PHOTOS_APP"
++ "INVOCATIONSOURCE_VISUAL_INTELLIGENCE_SCREENSHOT_UI"
++ "LLMSiriDigestCalculator: "
++ "MetricsFramework/LLMSiriDigestReporter.swift"
++ "ODDEXECUTIONCATEGORY_APP_INTENT"
++ "ODDEXECUTIONCATEGORY_FLOW_TOOLS"
++ "ODDEXECUTIONCATEGORY_SEARCH_AND_ACT"
++ "ODDEXECUTIONCATEGORY_SEARCH_BOTH"
++ "ODDEXECUTIONCATEGORY_SEARCH_GLOBAL"
++ "ODDEXECUTIONCATEGORY_SEARCH_LOCAL"
++ "ODDEXECUTIONCATEGORY_SIRIX_AGENT"
++ "ODDEXECUTIONCATEGORY_THIRD_PARTY_GEN_AI"
++ "ODDEXECUTIONCATEGORY_UNKNOWN"
++ "ODDFeatureDigests"
++ "ODDFeatureDigestsExtension"
++ "ODDFeatureDigestsExtensionIncludeCurrentDate"
++ "ODDFeatureDigestsWorker"
++ "com.apple.siri.ODDFeatureDigests.worker"
++ "com.apple.siri.ODDFeatureDigestsExtension"
++ "contextual_follow_up_cnt"
++ "execution_category"
++ "llmSiriDigest"
++ "missing aggregation interval"
++ "on_screen_awareness_cnt"
++ "siri_app_resume_cnt"
++ "totalNumberOfBytesFactoryAssets"
++ "totalNumberOfBytesPSUSAssets"
++ "wka_summarization_cnt"
++ "zero start timestamp"
+- "Boot To Asset query result yielded: \n{%s}"
+- "Boot to asset event contains date before 1970 %f"
+- "BootToAssetCalculator query yielded %ld results"
+- "BootToAssetMetrics"
+- "BootToAssetSelfReporter reporting results for %ld days"
+- "BootupToAssetAvailabilityTime"
+- "Calculator: Found no device aggregation Id"
+- "Failed to generate event for reporting asset availability from boot"
+- "Failed to report A2B event"
+- "MetricsFramework/BootToAssetReporter.swift"
+- "SQL calculator invoked: BootToAssetCalculator %s"
+- "Skipping b2a execution for current date; AssetMetricsWorker.includeCurrentDateForAggregation: %{bool}d"
+- "assetDownloadMetrics"
+- "bootToAssetDeliveryInMs"
+- "countFactoryAssetInBytes"
+- "no-op data provider invoked: ODDAssetAvailabilityFromBoodDataProvider"
+- "sizeInBytesPSUSAssets"
+- "totalBytesDownloaded"
+
+```

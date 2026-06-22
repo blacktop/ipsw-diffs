@@ -1,0 +1,723 @@
+## PhotosFormats
+
+> `/System/Library/PrivateFrameworks/PhotosFormats.framework/PhotosFormats`
+
+```diff
+
+-910.14.107.0.0
+-  __TEXT.__text: 0xd6b38 sha256:362a0269fc644043120be23d9eee1ae2a366809f6b70a4a51a8e152975b9f06b
+-  __TEXT.__objc_methlist: 0xc888 sha256:23214481b7cd6a925f8326a778dae17894b912c325fc3ac238c97383eb01faa5
++910.21.101.0.0
++  __TEXT.__text: 0xd69d0 sha256:c0a17a56270c1470408cc63c1329c46063e82afde8117d6a407e2e1252955538
++  __TEXT.__objc_methlist: 0xc8a0 sha256:caea5f1475b5c046184cd6d899cafd72fd32a10c15ecfbd0ff49ab830cb3ef0c
+   __TEXT.__const: 0x2db0 sha256:546d9f5a1190442b71ff794c7bfbcdf4182a1e20deeea58edb93f4ad5511eca8
+   __TEXT.__dlopen_cstrs: 0x1b7 sha256:762b2cc816da4dcd4a2222f967d2697697fc5c423480841341f4a477c0a3bed9
+-  __TEXT.__gcc_except_tab: 0x2d6c sha256:bd55454cd7eebac1f806324b00c7b6a7ea0fb3e2f602553acc90157093453cf6
+-  __TEXT.__cstring: 0xdbae sha256:558578893674933cf7ac8880f45ff91e2c42ef9c9b5004d35e20cf18ef83a383
+-  __TEXT.__oslogstring: 0x74d7 sha256:e2217d09eab83b1eff71ca0e94b07ac695fc7e6b333e0ef1a7010b26c0d52e18
++  __TEXT.__gcc_except_tab: 0x2d6c sha256:fb0001bef5c14c5b274d0f8e8870474e38e1f34d283640e388ab711241702d21
++  __TEXT.__cstring: 0xdbe5 sha256:0cec5b403f3aa37e69b4db11b2391785564dbc8f851017c8e2db975a56932fe0
++  __TEXT.__oslogstring: 0x751c sha256:e1a169c90fb2f3f761d2d6912e81305fa80506d319d981fbf20ccf9ea087b10f
+   __TEXT.__ustring: 0x44 sha256:19e1a199634152dfd5bdf9fccbea729833505cf66a14827b69d2e0838bf1fda9
+-  __TEXT.__unwind_info: 0x3320 sha256:e23eac6af43a18f5c5c14492e9a4ccc30dcd9d14cb1e6dd1c723fa5f94ac521a
++  __TEXT.__unwind_info: 0x3338 sha256:c1a9c6d847c2aa522c8747b733bf72278a4198cffd2270b41f9abf1b7ab92bc3
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2ab8 sha256:7fe2faee8729c1ad4fe1075a353c5cec33f4caa985fb7a67f5e7d7353d4a12ef
+-  __DATA_CONST.__objc_classlist: 0x548 sha256:193d380c754ef62d2487a38999459c901b2fdc031ed0e0314b097949dc716b53
+-  __DATA_CONST.__objc_protolist: 0x110 sha256:710071bf61f1d7da864ce9c3d11d73a7cb72e423e9d12ae748e677ca68ad1fa1
++  __DATA_CONST.__const: 0x2ab8 sha256:a8ea25310a424432fc73ca26bf9bfd33a38d1b1b9316a466f094698497954296
++  __DATA_CONST.__objc_classlist: 0x548 sha256:143035a641fe0f6c6032d4a5c949d6652fc26405af08d0e5b2b6dfbae6d7809a
++  __DATA_CONST.__objc_protolist: 0x110 sha256:fdab72f4477c1f68c085cd05734b4d6bf6d08a37a5e95530e949aec5dcadf098
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__weak_got: 0x10 sha256:e0fbebb29c409cebf3e04bb7def4dc893cb0103099ebe2f50861ca0b3d12db21
+-  __DATA_CONST.__objc_selrefs: 0x6220 sha256:ecadee1a92b44399050bb67a08fb4e498b6a07d09d6cfb3aac8fc9fa275fb599
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:dd09007ece0ba339f2959bc4cb180d7400849e65703e91cedb049fce8f2e1d2a
+-  __DATA_CONST.__objc_superrefs: 0x390 sha256:d282c0a297a5eb085af4b11fdb3e7a038174c8659714d411fd9ed14341ec6e25
+-  __DATA_CONST.__objc_arraydata: 0x800 sha256:c69d7d5951c52de53c11ead381fdbe7bc15a39973ee96ddaaa84704874f87293
+-  __DATA_CONST.__got: 0x1600 sha256:1130f0ab29661bddf2e33c882875b7e5c86c718ca011372227d45f2f3b1b7d14
+-  __AUTH_CONST.__const: 0x1bf0 sha256:5655e16234e2e3ce0e2a9a2f6a54e56d96e43717b6efcec4a049351ca677e5d4
+-  __AUTH_CONST.__cfstring: 0xc8e0 sha256:f54f7f789a69b710fb300a10dbc6943f717416db2ac86598c9f9a0c677b75a0b
+-  __AUTH_CONST.__objc_const: 0x14578 sha256:472e73c9563679a9e1fd98dbaf87d915cc7f9abedfb13ac0a2853638edd18a70
+-  __AUTH_CONST.__weak_auth_got: 0x20 sha256:9dc91fa9883da1a24a9421ae62614b67781bf2db037ec204938dcb175ea8cec4
+-  __AUTH_CONST.__objc_intobj: 0x900 sha256:53b0ca804f0c91062b70cfd2ecce48d3f99ee603cc499ae30306d2db747c5e06
+-  __AUTH_CONST.__objc_arrayobj: 0x348 sha256:b3245fdb3f5020bda14d3b39879cc3ef44d59d4e434e5ad0fab7f4c15e1e06c1
+-  __AUTH_CONST.__objc_doubleobj: 0x1b0 sha256:a755bf491a20182d714237b91694c9452885b781b0ebe28edc39fff7409940fb
+-  __AUTH_CONST.__objc_dictobj: 0x208 sha256:099d31c64c84e48790dad811555e44f11934bae052519528118fa18527218d1f
++  __DATA_CONST.__weak_got: 0x10 sha256:f80253a0d441dd10be1a352a26500c2bcb7f37066b81c451a163996a9c1ee4b5
++  __DATA_CONST.__objc_selrefs: 0x6230 sha256:b8d16cd8392480c644ee8bccc5a3e40cf79db3e081b3581cfcd197ceb90fe9d7
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:cff1c7b8b7e04755aa98ca76d330d688b18fc98a63e8976ccf70d9ff12826b8f
++  __DATA_CONST.__objc_superrefs: 0x390 sha256:11524af23828e01ec40299fc911027b5480889f7df0486fc124adbaf50c0844f
++  __DATA_CONST.__objc_arraydata: 0x800 sha256:008f4ba08b8abaf2684de7e4ddbd1907937f63f7a31d364d66f6946d15fe9795
++  __DATA_CONST.__got: 0x1600 sha256:6838570d18103c46993f7b447b82f892622f5af3780f59cad5bba0feb2176e9c
++  __AUTH_CONST.__const: 0x1c10 sha256:0880cd6c6d7844c117c7351018d59943c015bf764a0a81402b5f371587d6ebf0
++  __AUTH_CONST.__cfstring: 0xc8e0 sha256:41d7cad4fbaa4656271495e2add604d236f5155d573aa2bafd5eb99c594e114a
++  __AUTH_CONST.__objc_const: 0x14578 sha256:8b8661c031088a8a45131ea6851b7a443b53053e6eb9127727f89ca485721522
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:caf1fb7b339bcd4669773111a861e5bccc6bf63907041f2e3d1185474748a9a2
++  __AUTH_CONST.__objc_intobj: 0x900 sha256:a46d70838f504afdb1c84030ab27fc9fe35705404a55e333f3bc8d1024c000d2
++  __AUTH_CONST.__objc_arrayobj: 0x348 sha256:1d8abd152cc0419d89ca39ca369c99703b0a57a232e15c7d5d4e68e06d41065d
++  __AUTH_CONST.__objc_doubleobj: 0x1b0 sha256:6b551b585bd20be8e5a80de5f477f318cd653978979ef8c6a1b40dea390dd66a
++  __AUTH_CONST.__objc_dictobj: 0x208 sha256:d723e89179ac12f74cc299dd35176a0d800246ac43bce35704334d6972285a40
+   __AUTH_CONST.__auth_got: 0xea0 sha256:72ec3570721e1cd0ad873a1c8c7ed33ce0e5e849551dfb84aa781082657160e9
+-  __AUTH.__objc_data: 0x640 sha256:aaf70936cce90ab63d7629433ee096cb4378523138b460791af667a931e74c80
+-  __AUTH.__data: 0x10 sha256:e0de3680829db6c48e5d1baa92fa5d7358f4f996ce862d81daf334638eb1df7f
++  __AUTH.__objc_data: 0x640 sha256:d0b14abd12997e9362556585fd0430933aa466d1cdddd5539b30e94989d8996d
++  __AUTH.__data: 0x10 sha256:57c178e037a8ef0aa30b18b51cf129268427752a39fc9f8c4b82fb0f8b41380a
+   __DATA.__objc_ivar: 0xd10 sha256:6e0a2fe1260e9b5aabedc9a008a1d1e2f28457afa7fb1b8fe18cf0372c3b6da0
+-  __DATA.__data: 0xdd8 sha256:7069dade231e57c2cf18d4a3d7cba7b4072fc7d28f3cc9f647eaff05300b9c70
+-  __DATA.__bss: 0xcd0 sha256:8e889f17316d7ffd28237811a485633d0b64c7e417977186721a07afe1a5cce9
++  __DATA.__data: 0xdd8 sha256:043d7e73935d0e4c92703ae8db3fc2bfb4ac0bf555da5d2f5838bf77b5d595b5
++  __DATA.__bss: 0xcf0 sha256:d38935ed0eff0e0647f2865ee1f4c7c51b03249dce7ed0da44a19b36f46a6d46
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x2e90 sha256:a6583592386d0db37d5a4a3edd477c586df2717f52059a950af1abc3c880bcd6
+-  __DATA_DIRTY.__bss: 0x7b8 sha256:8ec80619c4e78fbddcae154346e04167073fc64373bcad92fcf26288dab0e756
++  __DATA_DIRTY.__objc_data: 0x2e90 sha256:a36f68f2bdc3000517b031714858a9ea838946c31d53af5249916d03b82c8369
++  __DATA_DIRTY.__bss: 0x798 sha256:46be13d2dc57d15a3505198ac0dcc7da2f1ec2f739e73f9789e9cb5bebfa34ab
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B7C600C9-297F-3B38-8D6C-FB96A341927F
+-  Functions: 4817
+-  Symbols:   16427
+-  CStrings:  4155
++  UUID: 68E1D068-0A2C-312F-9E95-667C111C226E
++  Functions: 4820
++  Symbols:   16433
++  CStrings:  4157
+ 
+Symbols:
++ -[PFMetadata initWithAVAsset:contentType:options:timeZoneLookup:]
++ -[PFMetadata initWithAVProxyData:contentType:timeZoneLookup:]
++ -[PFMetadata initWithAVURL:contentType:options:timeZoneLookup:]
++ -[PFMetadataLegacyMovieProperties initWithAVProxyData:contentType:timeZoneLookup:]
++ -[PFMetadataMovie initWithAVAsset:contentType:options:timeZoneLookup:]
++ -[PFMetadataMovie initWithAVProxyData:contentType:timeZoneLookup:]
++ -[PFMetadataMovie initWithAVURL:contentType:options:timeZoneLookup:]
++ GCC_except_table1133
++ GCC_except_table1492
++ GCC_except_table1499
++ GCC_except_table1502
++ GCC_except_table1537
++ GCC_except_table1551
++ GCC_except_table1656
++ GCC_except_table1709
++ GCC_except_table1730
++ GCC_except_table1732
++ GCC_except_table1812
++ GCC_except_table1823
++ GCC_except_table1862
++ GCC_except_table1864
++ GCC_except_table1890
++ GCC_except_table1901
++ GCC_except_table1927
++ GCC_except_table1935
++ GCC_except_table1938
++ GCC_except_table1953
++ GCC_except_table1974
++ GCC_except_table1979
++ GCC_except_table1990
++ GCC_except_table2093
++ GCC_except_table2124
++ GCC_except_table2134
++ GCC_except_table2140
++ GCC_except_table2144
++ GCC_except_table2158
++ GCC_except_table2222
++ GCC_except_table2231
++ GCC_except_table2251
++ GCC_except_table2322
++ GCC_except_table2329
++ GCC_except_table2433
++ GCC_except_table2543
++ GCC_except_table2544
++ GCC_except_table2554
++ GCC_except_table2559
++ GCC_except_table2603
++ GCC_except_table2626
++ GCC_except_table2628
++ GCC_except_table2743
++ GCC_except_table3022
++ GCC_except_table3088
++ GCC_except_table3094
++ GCC_except_table3095
++ GCC_except_table3099
++ GCC_except_table3103
++ GCC_except_table3107
++ GCC_except_table3108
++ GCC_except_table3116
++ GCC_except_table3120
++ GCC_except_table3122
++ GCC_except_table3124
++ GCC_except_table3132
++ GCC_except_table3140
++ GCC_except_table3147
++ GCC_except_table3148
++ GCC_except_table3149
++ GCC_except_table3173
++ GCC_except_table3174
++ GCC_except_table3182
++ GCC_except_table3183
++ GCC_except_table3184
++ GCC_except_table3193
++ GCC_except_table3250
++ GCC_except_table3397
++ GCC_except_table3404
++ GCC_except_table3405
++ GCC_except_table3406
++ GCC_except_table3410
++ GCC_except_table3416
++ GCC_except_table3427
++ GCC_except_table3429
++ GCC_except_table3434
++ GCC_except_table3435
++ GCC_except_table3436
++ GCC_except_table3442
++ GCC_except_table3449
++ GCC_except_table3450
++ GCC_except_table3467
++ GCC_except_table3513
++ GCC_except_table3520
++ GCC_except_table3521
++ GCC_except_table3571
++ GCC_except_table3580
++ GCC_except_table3655
++ GCC_except_table3723
++ GCC_except_table3725
++ GCC_except_table3742
++ GCC_except_table3752
++ GCC_except_table3767
++ GCC_except_table3769
++ GCC_except_table3858
++ GCC_except_table4091
++ GCC_except_table4093
++ GCC_except_table4095
++ GCC_except_table4102
++ GCC_except_table4107
++ GCC_except_table4117
++ GCC_except_table4127
++ GCC_except_table4128
++ GCC_except_table4129
++ GCC_except_table4133
++ GCC_except_table4135
++ GCC_except_table4142
++ GCC_except_table4146
++ GCC_except_table4153
++ GCC_except_table4157
++ GCC_except_table4158
++ GCC_except_table4159
++ GCC_except_table4166
++ GCC_except_table4168
++ GCC_except_table4170
++ GCC_except_table4178
++ GCC_except_table4182
++ GCC_except_table4195
++ GCC_except_table4202
++ GCC_except_table4207
++ GCC_except_table4208
++ GCC_except_table4212
++ GCC_except_table4217
++ GCC_except_table4246
++ GCC_except_table4253
++ GCC_except_table4255
++ GCC_except_table4257
++ GCC_except_table4271
++ GCC_except_table4273
++ GCC_except_table4278
++ GCC_except_table4279
++ GCC_except_table4283
++ GCC_except_table4354
++ GCC_except_table4421
++ GCC_except_table4427
++ GCC_except_table4496
++ GCC_except_table4500
++ GCC_except_table4505
++ GCC_except_table4506
++ GCC_except_table4524
++ GCC_except_table4539
++ GCC_except_table4541
++ GCC_except_table4543
++ GCC_except_table4545
++ GCC_except_table4808
++ GCC_except_table4815
++ GCC_except_table4817
++ GCC_except_table701
++ GCC_except_table708
++ GCC_except_table747
++ GCC_except_table752
++ GCC_except_table761
++ GCC_except_table765
++ GCC_except_table769
++ GCC_except_table772
++ GCC_except_table781
++ GCC_except_table787
++ GCC_except_table793
++ GCC_except_table797
++ GCC_except_table807
++ GCC_except_table813
++ GCC_except_table816
++ GCC_except_table821
++ GCC_except_table825
++ GCC_except_table830
++ GCC_except_table844
++ GCC_except_table848
++ _PFSharedFigDecodeSession.s_flushQueue
++ _Vertices.12402
++ __AuxiliaryImageCVPixelBufferReleaseBytesCallback.3755
++ __OBJC_$_PROP_LIST_PFMetadataImage.6922
++ __ZN5boost12interprocessL8ec_tableE.8839
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9fqe220106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9fqe220106ERKS6_S9_
++ __ZNSt12length_errorC1B9fqe220106EPKc
++ __ZNSt3__110unique_ptrIN5boost12interprocess25basic_managed_mapped_fileIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEENS_14default_deleteISA_EEED1B9fqe220106Ev
++ __ZNSt3__111__sift_downB9fqe220106INS_17_ClassicAlgPolicyELb0ERN5boost8geometry5index6detail5rtree8visitors15pair_first_lessENS_11__wrap_iterIPNS_4pairIdPKNSB_INS3_5model5pointIfLm2ENS3_2cs9cartesianEEEtEEEEEEEEvT2_OT1_NS_15iterator_traitsISN_E15difference_typeESS_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220106Em
++ __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_IN2pf18SceneGeographyNodeENS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEEEENS_4pairIKNS1_9container12basic_stringIcNS_11char_traitsIcEENS3_IcSG_EEEES8_EEEESG_EEE10deallocateB9fqe220106ERSS_NSC_ISR_lmLm0EEEm
++ __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_INS2_10offset_ptrIN2pf17SceneTaxonomyNodeElmLm0EEENS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS7_IvlmLm0EEELm0EEENS2_10iset_indexEEEEESA_EESH_EEE10deallocateB9fqe220106ERSK_NS7_ISJ_lmLm0EEEm
++ __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_INS_4pairIKNS1_9container12basic_stringIcNS_11char_traitsIcEENS3_IcNS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEEEEEEN2pf17SceneTaxonomyNodeEEESJ_EESP_EESJ_EEE10deallocateB9fqe220106ERSS_NSF_ISR_lmLm0EEEm
++ __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_INS_4pairIKyNS2_10offset_ptrIN2pf17SceneTaxonomyNodeElmLm0EEEEENS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS9_IvlmLm0EEELm0EEENS2_10iset_indexEEEEESD_EESK_EEE10deallocateB9fqe220106ERSN_NS9_ISM_lmLm0EEEm
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorINS_4pairIN5boost8geometry5model5pointIfLm2ENS4_2cs9cartesianEEEtEEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorINS_4pairIdPKNS2_IN5boost8geometry5model5pointIfLm2ENS4_2cs9cartesianEEEtEEEEEENS_16allocator_traitsISE_EEEENS_19__allocation_resultINT0_7pointerENSI_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIPKN2pf17SceneTaxonomyNodeEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIPPKvEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9fqe220106EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEtEEPvEEEEEclB9fqe220106EPSB_
++ __ZNSt3__15dequeIPKvNS_9allocatorIS2_EEED2B9fqe220106Ev
++ __ZNSt3__16vectorIN5boost8geometry5index6detail5rtree8visitors14distance_queryINS3_5rtreeINS_4pairINS2_5model5pointIfLm2ENS2_2cs9cartesianEEEtEENS3_9quadraticILm32ELm8EEENS3_9indexableISF_EENS3_8equal_toISF_EENS1_12interprocess9allocatorISF_NSM_15segment_managerIcNSM_15rbtree_best_fitINSM_17null_mutex_familyENSM_10offset_ptrIvlmLm0EEELm0EEENSM_10iset_indexEEEEEE14members_holderENS4_10predicates7nearestISE_EEE11branch_dataENS_9allocatorIS13_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorINS_4pairIN5boost8geometry5model5pointIfLm2ENS3_2cs9cartesianEEEtEENS_9allocatorIS9_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorINS_4pairIPKN5boost8geometry5index6detail5rtree8ptr_pairINS3_5model3boxINS8_5pointIfLm2ENS3_2cs9cartesianEEEEENS2_12interprocess10offset_ptrINS2_7variantINS6_12variant_leafINS1_ISD_tEENS4_9quadraticILm32ELm8EEESE_NS6_10allocatorsINSF_9allocatorISJ_NSF_15segment_managerIcNSF_15rbtree_best_fitINSF_17null_mutex_familyENSG_IvlmLm0EEELm0EEENSF_10iset_indexEEEEESJ_SL_SE_NS6_23node_variant_static_tagEEESW_EEJNS6_21variant_internal_nodeISJ_SL_SE_SX_SW_EEEEElmLm0EEEEES15_EENS_9allocatorIS16_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorINS_4pairIdPKNS1_IN5boost8geometry5model5pointIfLm2ENS3_2cs9cartesianEEEtEEEENS_9allocatorISC_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIPKN2pf17SceneTaxonomyNodeENS_9allocatorIS4_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB9fqe220106IRN5boost9container12vec_iteratorIPNS_4pairINS4_8geometry5model5pointIfLm2ENS8_2cs9cartesianEEENS_11__wrap_iterIPNS7_ISD_tEEEEEELb0EEESL_EEvOT_OT0_
++ __ZNSt3__19__sift_upB9fqe220106INS_17_ClassicAlgPolicyERN5boost8geometry5index6detail5rtree8visitors15pair_first_lessENS_11__wrap_iterIPNS_4pairIdPKNSB_INS3_5model5pointIfLm2ENS3_2cs9cartesianEEEtEEEEEEEEvT1_SN_OT0_NS_15iterator_traitsISN_E15difference_typeE
++ __ZNSt3__19__sift_upB9fqe220106INS_17_ClassicAlgPolicyERN5boost8geometry5index6detail5rtree8visitors16branch_data_compENS_11__wrap_iterIPNS7_14distance_queryINS4_5rtreeINS_4pairINS3_5model5pointIfLm2ENS3_2cs9cartesianEEEtEENS4_9quadraticILm32ELm8EEENS4_9indexableISJ_EENS4_8equal_toISJ_EENS2_12interprocess9allocatorISJ_NSQ_15segment_managerIcNSQ_15rbtree_best_fitINSQ_17null_mutex_familyENSQ_10offset_ptrIvlmLm0EEELm0EEENSQ_10iset_indexEEEEEE14members_holderENS5_10predicates7nearestISI_EEE11branch_dataEEEEEvT1_S1A_OT0_NS_15iterator_traitsIS1A_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB9fqe220106v
++ ___Block_byref_object_copy_.10098
++ ___Block_byref_object_copy_.10516
++ ___Block_byref_object_copy_.12100
++ ___Block_byref_object_copy_.12829
++ ___Block_byref_object_copy_.14181
++ ___Block_byref_object_copy_.4321
++ ___Block_byref_object_copy_.4790
++ ___Block_byref_object_copy_.5141
++ ___Block_byref_object_copy_.5307
++ ___Block_byref_object_copy_.5418
++ ___Block_byref_object_copy_.6007
++ ___Block_byref_object_copy_.6520
++ ___Block_byref_object_copy_.7173
++ ___Block_byref_object_copy_.8212
++ ___Block_byref_object_copy_.9273
++ ___Block_byref_object_copy_.9787
++ ___Block_byref_object_dispose_.10099
++ ___Block_byref_object_dispose_.10517
++ ___Block_byref_object_dispose_.12101
++ ___Block_byref_object_dispose_.12830
++ ___Block_byref_object_dispose_.14182
++ ___Block_byref_object_dispose_.4322
++ ___Block_byref_object_dispose_.4791
++ ___Block_byref_object_dispose_.5142
++ ___Block_byref_object_dispose_.5308
++ ___Block_byref_object_dispose_.5419
++ ___Block_byref_object_dispose_.6008
++ ___Block_byref_object_dispose_.6521
++ ___Block_byref_object_dispose_.7174
++ ___Block_byref_object_dispose_.8213
++ ___Block_byref_object_dispose_.9274
++ ___Block_byref_object_dispose_.9788
++ ___PFSharedFigDecodeSession_block_invoke_4
++ ___block_literal_global.10258
++ ___block_literal_global.10632
++ ___block_literal_global.12.6530
++ ___block_literal_global.120.9784
++ ___block_literal_global.12094
++ ___block_literal_global.122.2289
++ ___block_literal_global.12348
++ ___block_literal_global.12448
++ ___block_literal_global.127.5815
++ ___block_literal_global.127.6107
++ ___block_literal_global.12826
++ ___block_literal_global.13093
++ ___block_literal_global.132.13915
++ ___block_literal_global.132.5810
++ ___block_literal_global.13253
++ ___block_literal_global.13658
++ ___block_literal_global.13851
++ ___block_literal_global.13985
++ ___block_literal_global.1448
++ ___block_literal_global.1626
++ ___block_literal_global.165.10182
++ ___block_literal_global.195.2250
++ ___block_literal_global.2070
++ ___block_literal_global.2355
++ ___block_literal_global.2587
++ ___block_literal_global.267
++ ___block_literal_global.291
++ ___block_literal_global.3.12346
++ ___block_literal_global.3.6512
++ ___block_literal_global.3057
++ ___block_literal_global.3460
++ ___block_literal_global.3619
++ ___block_literal_global.37.4386
++ ___block_literal_global.38.13986
++ ___block_literal_global.3914
++ ___block_literal_global.4187
++ ___block_literal_global.4417
++ ___block_literal_global.4471
++ ___block_literal_global.4492
++ ___block_literal_global.47.2329
++ ___block_literal_global.4967
++ ___block_literal_global.5.12341
++ ___block_literal_global.5119
++ ___block_literal_global.5361
++ ___block_literal_global.5442
++ ___block_literal_global.5831
++ ___block_literal_global.6010
++ ___block_literal_global.6086
++ ___block_literal_global.6448
++ ___block_literal_global.6510
++ ___block_literal_global.67.2318
++ ___block_literal_global.7223
++ ___block_literal_global.7284
++ ___block_literal_global.7897
++ ___block_literal_global.8064
++ ___block_literal_global.83.10241
++ ___block_literal_global.8972
++ ___block_literal_global.9.13849
++ ___block_literal_global.97.9794
++ ___block_literal_global.9836
++ __exifDateTimeFormatter.dateTimeFormatter.6449
++ __exifDateTimeFormatter.onceToken.6447
++ __exifSubsecTimeFormatter.onceToken.6433
++ __exifSubsecTimeFormatter.subsecTimeFormatter.6434
++ __gpsDateFormatter.dateFormatter.6471
++ __gpsDateFormatter.onceToken.6470
++ __gpsTimeFormatter.onceToken.6475
++ __gpsTimeFormatter.timeFormatter.6476
++ _objc_msgSend$initWithAVAsset:contentType:options:timeZoneLookup:
++ _objc_msgSend$initWithAVProxyData:contentType:timeZoneLookup:
++ _objc_msgSend$initWithAVURL:contentType:options:timeZoneLookup:
+- -[PFMetadataLegacyMovieProperties initWithAVProxyData:timeZoneLookup:]
+- -[PFMetadataMovie initWithAVAsset:options:timeZoneLookup:]
+- -[PFMetadataMovie initWithAVAsset:options:timeZoneLookup:preloadValues:]
+- -[PFMetadataMovie initWithAVProxyData:timeZoneLookup:]
+- -[PFMetadataMovie initWithAVURL:options:timeZoneLookup:]
+- GCC_except_table1132
+- GCC_except_table1488
+- GCC_except_table1495
+- GCC_except_table1498
+- GCC_except_table1533
+- GCC_except_table1547
+- GCC_except_table1652
+- GCC_except_table1705
+- GCC_except_table1726
+- GCC_except_table1728
+- GCC_except_table1804
+- GCC_except_table1819
+- GCC_except_table1858
+- GCC_except_table1860
+- GCC_except_table1886
+- GCC_except_table1897
+- GCC_except_table1923
+- GCC_except_table1931
+- GCC_except_table1934
+- GCC_except_table1949
+- GCC_except_table1970
+- GCC_except_table1975
+- GCC_except_table1986
+- GCC_except_table2090
+- GCC_except_table2121
+- GCC_except_table2128
+- GCC_except_table2137
+- GCC_except_table2141
+- GCC_except_table2155
+- GCC_except_table2219
+- GCC_except_table2228
+- GCC_except_table2248
+- GCC_except_table2316
+- GCC_except_table2326
+- GCC_except_table2430
+- GCC_except_table2540
+- GCC_except_table2541
+- GCC_except_table2548
+- GCC_except_table2550
+- GCC_except_table2600
+- GCC_except_table2623
+- GCC_except_table2625
+- GCC_except_table2740
+- GCC_except_table3019
+- GCC_except_table3085
+- GCC_except_table3086
+- GCC_except_table3091
+- GCC_except_table3096
+- GCC_except_table3098
+- GCC_except_table3100
+- GCC_except_table3102
+- GCC_except_table3112
+- GCC_except_table3113
+- GCC_except_table3114
+- GCC_except_table3119
+- GCC_except_table3129
+- GCC_except_table3131
+- GCC_except_table3144
+- GCC_except_table3145
+- GCC_except_table3146
+- GCC_except_table3168
+- GCC_except_table3170
+- GCC_except_table3177
+- GCC_except_table3178
+- GCC_except_table3179
+- GCC_except_table3187
+- GCC_except_table3247
+- GCC_except_table3392
+- GCC_except_table3394
+- GCC_except_table3396
+- GCC_except_table3403
+- GCC_except_table3407
+- GCC_except_table3413
+- GCC_except_table3420
+- GCC_except_table3424
+- GCC_except_table3431
+- GCC_except_table3432
+- GCC_except_table3433
+- GCC_except_table3439
+- GCC_except_table3446
+- GCC_except_table3447
+- GCC_except_table3464
+- GCC_except_table3510
+- GCC_except_table3514
+- GCC_except_table3518
+- GCC_except_table3568
+- GCC_except_table3577
+- GCC_except_table3652
+- GCC_except_table3720
+- GCC_except_table3722
+- GCC_except_table3739
+- GCC_except_table3749
+- GCC_except_table3764
+- GCC_except_table3766
+- GCC_except_table3855
+- GCC_except_table4088
+- GCC_except_table4090
+- GCC_except_table4092
+- GCC_except_table4099
+- GCC_except_table4104
+- GCC_except_table4114
+- GCC_except_table4124
+- GCC_except_table4125
+- GCC_except_table4126
+- GCC_except_table4130
+- GCC_except_table4132
+- GCC_except_table4139
+- GCC_except_table4140
+- GCC_except_table4150
+- GCC_except_table4152
+- GCC_except_table4154
+- GCC_except_table4156
+- GCC_except_table4163
+- GCC_except_table4164
+- GCC_except_table4165
+- GCC_except_table4172
+- GCC_except_table4173
+- GCC_except_table4192
+- GCC_except_table4199
+- GCC_except_table4204
+- GCC_except_table4205
+- GCC_except_table4209
+- GCC_except_table4214
+- GCC_except_table4243
+- GCC_except_table4248
+- GCC_except_table4249
+- GCC_except_table4250
+- GCC_except_table4259
+- GCC_except_table4260
+- GCC_except_table4267
+- GCC_except_table4274
+- GCC_except_table4276
+- GCC_except_table4351
+- GCC_except_table4418
+- GCC_except_table4424
+- GCC_except_table4493
+- GCC_except_table4497
+- GCC_except_table4499
+- GCC_except_table4503
+- GCC_except_table4521
+- GCC_except_table4536
+- GCC_except_table4537
+- GCC_except_table4538
+- GCC_except_table4542
+- GCC_except_table4805
+- GCC_except_table4812
+- GCC_except_table4814
+- GCC_except_table700
+- GCC_except_table707
+- GCC_except_table746
+- GCC_except_table750
+- GCC_except_table760
+- GCC_except_table763
+- GCC_except_table766
+- GCC_except_table771
+- GCC_except_table775
+- GCC_except_table785
+- GCC_except_table791
+- GCC_except_table796
+- GCC_except_table802
+- GCC_except_table808
+- GCC_except_table815
+- GCC_except_table817
+- GCC_except_table824
+- GCC_except_table829
+- GCC_except_table843
+- GCC_except_table845
+- _PFSharedFigDecodeSession.s_memoryQueue
+- _Vertices.12417
+- __AuxiliaryImageCVPixelBufferReleaseBytesCallback.3756
+- __OBJC_$_PROP_LIST_PFMetadataImage.6912
+- __ZN5boost12interprocessL8ec_tableE.8843
+- __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9fqe220100ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9fqe220100ERKS6_S9_
+- __ZNSt12length_errorC1B9fqe220100EPKc
+- __ZNSt3__110unique_ptrIN5boost12interprocess25basic_managed_mapped_fileIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEENS_14default_deleteISA_EEED1B9fqe220100Ev
+- __ZNSt3__111__sift_downB9fqe220100INS_17_ClassicAlgPolicyELb0ERN5boost8geometry5index6detail5rtree8visitors15pair_first_lessENS_11__wrap_iterIPNS_4pairIdPKNSB_INS3_5model5pointIfLm2ENS3_2cs9cartesianEEEtEEEEEEEEvT2_OT1_NS_15iterator_traitsISN_E15difference_typeESS_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220100Em
+- __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_IN2pf18SceneGeographyNodeENS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEEEENS_4pairIKNS1_9container12basic_stringIcNS_11char_traitsIcEENS3_IcSG_EEEES8_EEEESG_EEE10deallocateB9fqe220100ERSS_NSC_ISR_lmLm0EEEm
+- __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_INS2_10offset_ptrIN2pf17SceneTaxonomyNodeElmLm0EEENS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS7_IvlmLm0EEELm0EEENS2_10iset_indexEEEEESA_EESH_EEE10deallocateB9fqe220100ERSK_NS7_ISJ_lmLm0EEEm
+- __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_INS_4pairIKNS1_9container12basic_stringIcNS_11char_traitsIcEENS3_IcNS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEEEEEEN2pf17SceneTaxonomyNodeEEESJ_EESP_EESJ_EEE10deallocateB9fqe220100ERSS_NSF_ISR_lmLm0EEEm
+- __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_INS_4pairIKyNS2_10offset_ptrIN2pf17SceneTaxonomyNodeElmLm0EEEEENS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS9_IvlmLm0EEELm0EEENS2_10iset_indexEEEEESD_EESK_EEE10deallocateB9fqe220100ERSN_NS9_ISM_lmLm0EEEm
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_4pairIN5boost8geometry5model5pointIfLm2ENS4_2cs9cartesianEEEtEEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_4pairIdPKNS2_IN5boost8geometry5model5pointIfLm2ENS4_2cs9cartesianEEEtEEEEEENS_16allocator_traitsISE_EEEENS_19__allocation_resultINT0_7pointerENSI_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIPKN2pf17SceneTaxonomyNodeEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIPPKvEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__120__throw_length_errorB9fqe220100EPKc
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEtEEPvEEEEEclB9fqe220100EPSB_
+- __ZNSt3__15dequeIPKvNS_9allocatorIS2_EEED2B9fqe220100Ev
+- __ZNSt3__16vectorIN5boost8geometry5index6detail5rtree8visitors14distance_queryINS3_5rtreeINS_4pairINS2_5model5pointIfLm2ENS2_2cs9cartesianEEEtEENS3_9quadraticILm32ELm8EEENS3_9indexableISF_EENS3_8equal_toISF_EENS1_12interprocess9allocatorISF_NSM_15segment_managerIcNSM_15rbtree_best_fitINSM_17null_mutex_familyENSM_10offset_ptrIvlmLm0EEELm0EEENSM_10iset_indexEEEEEE14members_holderENS4_10predicates7nearestISE_EEE11branch_dataENS_9allocatorIS13_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorINS_4pairIN5boost8geometry5model5pointIfLm2ENS3_2cs9cartesianEEEtEENS_9allocatorIS9_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorINS_4pairIPKN5boost8geometry5index6detail5rtree8ptr_pairINS3_5model3boxINS8_5pointIfLm2ENS3_2cs9cartesianEEEEENS2_12interprocess10offset_ptrINS2_7variantINS6_12variant_leafINS1_ISD_tEENS4_9quadraticILm32ELm8EEESE_NS6_10allocatorsINSF_9allocatorISJ_NSF_15segment_managerIcNSF_15rbtree_best_fitINSF_17null_mutex_familyENSG_IvlmLm0EEELm0EEENSF_10iset_indexEEEEESJ_SL_SE_NS6_23node_variant_static_tagEEESW_EEJNS6_21variant_internal_nodeISJ_SL_SE_SX_SW_EEEEElmLm0EEEEES15_EENS_9allocatorIS16_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorINS_4pairIdPKNS1_IN5boost8geometry5model5pointIfLm2ENS3_2cs9cartesianEEEtEEEENS_9allocatorISC_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorIPKN2pf17SceneTaxonomyNodeENS_9allocatorIS4_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB9fqe220100IRN5boost9container12vec_iteratorIPNS_4pairINS4_8geometry5model5pointIfLm2ENS8_2cs9cartesianEEENS_11__wrap_iterIPNS7_ISD_tEEEEEELb0EEESL_EEvOT_OT0_
+- __ZNSt3__19__sift_upB9fqe220100INS_17_ClassicAlgPolicyERN5boost8geometry5index6detail5rtree8visitors15pair_first_lessENS_11__wrap_iterIPNS_4pairIdPKNSB_INS3_5model5pointIfLm2ENS3_2cs9cartesianEEEtEEEEEEEEvT1_SN_OT0_NS_15iterator_traitsISN_E15difference_typeE
+- __ZNSt3__19__sift_upB9fqe220100INS_17_ClassicAlgPolicyERN5boost8geometry5index6detail5rtree8visitors16branch_data_compENS_11__wrap_iterIPNS7_14distance_queryINS4_5rtreeINS_4pairINS3_5model5pointIfLm2ENS3_2cs9cartesianEEEtEENS4_9quadraticILm32ELm8EEENS4_9indexableISJ_EENS4_8equal_toISJ_EENS2_12interprocess9allocatorISJ_NSQ_15segment_managerIcNSQ_15rbtree_best_fitINSQ_17null_mutex_familyENSQ_10offset_ptrIvlmLm0EEELm0EEENSQ_10iset_indexEEEEEE14members_holderENS5_10predicates7nearestISI_EEE11branch_dataEEEEEvT1_S1A_OT0_NS_15iterator_traitsIS1A_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB9fqe220100v
+- ___Block_byref_object_copy_.10113
+- ___Block_byref_object_copy_.10531
+- ___Block_byref_object_copy_.12115
+- ___Block_byref_object_copy_.12844
+- ___Block_byref_object_copy_.14196
+- ___Block_byref_object_copy_.4320
+- ___Block_byref_object_copy_.4798
+- ___Block_byref_object_copy_.5149
+- ___Block_byref_object_copy_.5315
+- ___Block_byref_object_copy_.5426
+- ___Block_byref_object_copy_.6016
+- ___Block_byref_object_copy_.6527
+- ___Block_byref_object_copy_.7157
+- ___Block_byref_object_copy_.8202
+- ___Block_byref_object_copy_.9277
+- ___Block_byref_object_copy_.9791
+- ___Block_byref_object_dispose_.10114
+- ___Block_byref_object_dispose_.10532
+- ___Block_byref_object_dispose_.12116
+- ___Block_byref_object_dispose_.12845
+- ___Block_byref_object_dispose_.14197
+- ___Block_byref_object_dispose_.4321
+- ___Block_byref_object_dispose_.4799
+- ___Block_byref_object_dispose_.5150
+- ___Block_byref_object_dispose_.5316
+- ___Block_byref_object_dispose_.5427
+- ___Block_byref_object_dispose_.6017
+- ___Block_byref_object_dispose_.6528
+- ___Block_byref_object_dispose_.7158
+- ___Block_byref_object_dispose_.8203
+- ___Block_byref_object_dispose_.9278
+- ___Block_byref_object_dispose_.9792
+- ___block_literal_global.10273
+- ___block_literal_global.10647
+- ___block_literal_global.12.6537
+- ___block_literal_global.120.9788
+- ___block_literal_global.12109
+- ___block_literal_global.122.2290
+- ___block_literal_global.12363
+- ___block_literal_global.12463
+- ___block_literal_global.127.5824
+- ___block_literal_global.127.6116
+- ___block_literal_global.12841
+- ___block_literal_global.13110
+- ___block_literal_global.132.13930
+- ___block_literal_global.132.5819
+- ___block_literal_global.13270
+- ___block_literal_global.13677
+- ___block_literal_global.13866
+- ___block_literal_global.14000
+- ___block_literal_global.1450
+- ___block_literal_global.1627
+- ___block_literal_global.165.10197
+- ___block_literal_global.195.2251
+- ___block_literal_global.2
+- ___block_literal_global.2071
+- ___block_literal_global.2356
+- ___block_literal_global.2588
+- ___block_literal_global.266
+- ___block_literal_global.290
+- ___block_literal_global.3.12361
+- ___block_literal_global.3058
+- ___block_literal_global.3461
+- ___block_literal_global.3620
+- ___block_literal_global.37.4385
+- ___block_literal_global.38.14001
+- ___block_literal_global.3915
+- ___block_literal_global.4188
+- ___block_literal_global.4416
+- ___block_literal_global.4470
+- ___block_literal_global.4491
+- ___block_literal_global.47.2330
+- ___block_literal_global.4980
+- ___block_literal_global.5.12356
+- ___block_literal_global.5127
+- ___block_literal_global.5369
+- ___block_literal_global.5450
+- ___block_literal_global.5840
+- ___block_literal_global.6019
+- ___block_literal_global.6095
+- ___block_literal_global.6457
+- ___block_literal_global.6519
+- ___block_literal_global.67.2319
+- ___block_literal_global.7207
+- ___block_literal_global.7268
+- ___block_literal_global.7886
+- ___block_literal_global.8054
+- ___block_literal_global.83.10256
+- ___block_literal_global.8976
+- ___block_literal_global.97.9798
+- ___block_literal_global.9840
+- __exifDateTimeFormatter.dateTimeFormatter.6458
+- __exifDateTimeFormatter.onceToken.6456
+- __exifSubsecTimeFormatter.onceToken.6442
+- __exifSubsecTimeFormatter.subsecTimeFormatter.6443
+- __gpsDateFormatter.dateFormatter.6480
+- __gpsDateFormatter.onceToken.6479
+- __gpsTimeFormatter.onceToken.6484
+- __gpsTimeFormatter.timeFormatter.6485
+- _objc_msgSend$bestConfigurationForScreenSize:screenScale:
+- _objc_msgSend$initWithAVAsset:options:timeZoneLookup:
+- _objc_msgSend$initWithAVProxyData:timeZoneLookup:
+- _objc_msgSend$initWithAVURL:options:timeZoneLookup:
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CR6WugCm59_qHOhJEEKh7jyTdEl1X9HICWoutoQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/local/include/boost/geometry/index/detail/exception.hpp"
++ "5"
++ "Created device config without determined configuration for display %{public}@ (landscape=%d)"
++ "Failed to get a content type for movie URL '%@' (ERROR: %@)"
++ "com.apple.PhotosFormats.PFSharedFigDecodeSession.flush"
+- "/AppleInternal/Library/BuildRoots/4~CQu4ugDDXrZKteGF7_tWJRK53gJSA38JL70KiTk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/local/include/boost/geometry/index/detail/exception.hpp"
+- "4"
+- "Using best-match device config for display %{public}@ (no determined configuration)"
+
+```

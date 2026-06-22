@@ -1,0 +1,34 @@
+## ShelfKit
+
+> `FileSystem/private/var/staged_system_apps/Podcasts.app/Frameworks/ShelfKit.framework/Localizable.loctable`
+
+```diff
+
+ en.Add Podcast = "Add Podcast"
+ en.All = "All"
+ en.Ascending = "Ascending"
+-en.CELLULAR_DOWNLOAD_AUDIO_BUTTON = "CELLULAR_DOWNLOAD_AUDIO_BUTTON"
+-en.CELLULAR_DOWNLOAD_AUDIO_BUTTON_NO_SIZE = "CELLULAR_DOWNLOAD_AUDIO_BUTTON_NO_SIZE"
+-en.CELLULAR_DOWNLOAD_VIDEO_ALERT_MESSAGE = "CELLULAR_DOWNLOAD_VIDEO_ALERT_MESSAGE"
+-en.CELLULAR_DOWNLOAD_VIDEO_ALERT_MESSAGE_NO_SIZE = "CELLULAR_DOWNLOAD_VIDEO_ALERT_MESSAGE_NO_SIZE"
+-en.CELLULAR_DOWNLOAD_VIDEO_ALERT_TITLE = "CELLULAR_DOWNLOAD_VIDEO_ALERT_TITLE"
+-en.CELLULAR_DOWNLOAD_VIDEO_BUTTON = "CELLULAR_DOWNLOAD_VIDEO_BUTTON"
+-en.CELLULAR_DOWNLOAD_VIDEO_BUTTON_NO_SIZE = "CELLULAR_DOWNLOAD_VIDEO_BUTTON_NO_SIZE"
+ en.CLEAR_ALL_FILTERS = "CLEAR_ALL_FILTERS"
+ en.CLEAR_FILTERS = "CLEAR_FILTERS"
+ en.CREATOR = "CREATOR"
+ en.Cancel = "Cancel"
+ en.Cancel All Downloads = "Cancel All Downloads"
+ en.Continue Playing = "Continue Playing"
++en.DOWNLOADING_EPISODES_COUNT_FORMAT = "DOWNLOADING_EPISODES_COUNT_FORMAT"
+ en.Delete Station = "Delete Station"
+ en.Delete the "%@" station? = "Delete the \"%@\" station?"
+ en.Descending = "Descending"
+ en.Downloading = "Downloading"
+ en.EPISODES = "EPISODES"
+-en.EPISODES_DOWNLOADING_COUNT = "EPISODES_DOWNLOADING_COUNT"
+ en.EPISODE_FILTER_INFO_COMPOUND_FORMAT = "EPISODE_FILTER_INFO_COMPOUND_FORMAT"
+ en.EPISODE_FILTER_SEE_ALL_VIDEO_FORMAT = "EPISODE_FILTER_SEE_ALL_VIDEO_FORMAT"
+ en.Followed shows will show up here. = "Followed shows will show up here."
+
+```

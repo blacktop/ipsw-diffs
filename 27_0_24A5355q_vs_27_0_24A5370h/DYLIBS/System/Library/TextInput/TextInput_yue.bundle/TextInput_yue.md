@@ -1,0 +1,70 @@
+## TextInput_yue
+
+> `/System/Library/TextInput/TextInput_yue.bundle/TextInput_yue`
+
+```diff
+
+-3557.12.1.0.0
+-  __TEXT.__text: 0x354 sha256:c3e87a007fb31c3fec8d584bd9c7a232ddde9aaf403b0d812d9337fa8687abcb
++3557.15.100.0.0
++  __TEXT.__text: 0x354 sha256:71d6619ae497ffdf147ba6f1621661a7a1edb78dc6ba228da477df7db91bd4de
+   __TEXT.__init_offsets: 0xc sha256:6a87a4f5fcd3313fbf2f7d57b860592e903299508988eb46a6c4e6912064a182
+-  __TEXT.__objc_methlist: 0x10c sha256:a0302592de258108dc0367b845950eadd0d653fc6aa41e33f30f3833e46b0576
++  __TEXT.__objc_methlist: 0x10c sha256:45e8fc068a9b6d288ae36dbc6249ed65ae27e1a40a326aa175d078776abcf120
+   __TEXT.__cstring: 0x12 sha256:42fa6edd135d6afa9272234dc5f8bc6d72327e98709494246d2effd7a1200d54
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:17876fbb70db35a18a18135d990fb195f58aa7af4c6feac4b5af12382b3cf788
++  __DATA_CONST.__objc_classlist: 0x20 sha256:716162021c13895111dc26c879305ba2244de0e6f0e45da5a40cce52b72799a2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x80 sha256:c123a71058c9680cef2423bace6925511c20ffff3ec7874a1d78a128315a20e4
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:87652961199520236ffd68febb8dd396e8a976078a841be4dda448fcf7cbfcbf
++  __DATA_CONST.__objc_selrefs: 0x80 sha256:5d62ccfcb047d8c3b5da8744d686e0ad8dc9c9d2ad6b56a0b6d244aa05660b08
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:ef1e08b4920c4a3dfe9fc7842dece6902f67e9f71d7088640cccf615c7764696
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x40 sha256:efc53d9a2186cc0ff5eb76a72d4ef02abfdcd4b2ad08fb5fb5727be933a35a03
+-  __AUTH_CONST.__objc_const: 0x240 sha256:ed86706b58fbc99f4c4a4d5e49300ed7e7ed1abe361e44a04791b39785dddb05
+-  __AUTH_CONST.__weak_auth_got: 0x8 sha256:dd50d1247acd96833b1fd05b745f47394558c7c61533cd41398ce151ed0dd5ef
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:64fb38e4b07d946f283de06cc7567ec7e2f489521f80ee7d81c7e574ad81c60d
++  __AUTH_CONST.__cfstring: 0x40 sha256:bf7cec40fdf54693bed358b0d618d3d21b24cfed8e070a7d12ecab3b835f0dc7
++  __AUTH_CONST.__objc_const: 0x240 sha256:b8ae9ad009ae8fc760e0bb39f7ebabb746642683a571b08b5517ac0e4239907b
++  __AUTH_CONST.__weak_auth_got: 0x8 sha256:ce8102d6755a5a71f1f6cf36b7dd2073be8b3a63af6f670ab6e53adc55955f4b
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:8672a57355a21d47c54ede57e7de0c3b284d4cb3529c7d10f14c23c1efdb7446
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x140 sha256:07a71e1bb70d9cdca73b05b358d48e63be4e89b340f4eaee32e898e4e3ca07b9
++  __AUTH.__objc_data: 0x140 sha256:827782c2a7918de05250cd778fbf4b576ca17a7f3cb64db26a176578ba4006ab
+   __DATA.__data: 0x78 sha256:e196e8aa64019ae90c3f81ba4a21e56045e4acf2e898f4cc997475326ae8f808
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F6902309-75AE-396A-88AF-D0B77E97253E
++  UUID: 3961B601-EDB5-3F41-A7F0-A9CB15723AC2
+   Functions: 20
+   Symbols:   103
+   CStrings:  5
+Functions:
+~ __ZN2KB14LikelihoodInfoD1Ev : sha256 cd37d7bad83fb0019e82c6b94f85f07bdd2e3a61896de064874e1b4a4ff092e5 -> 6b98cd26165f13cb5e2663a29d8e312335c53d655e4cd9fade5274412394284b
+~ -[TIKeyboardInputManager_yue_Hant_Phonetic initImplementation] : sha256 a0643ea37f745b3edf4f20b13a98b3dfeef67ddd9a5a798576eadac6addf8078 -> e009c4ec6af2579a2f4d27464e1ea10ff5bdd6c23231692ce1bc22627f41f13c
+~ -[TIKeyboardInputManager_yue_Hant_Phonetic locale] : sha256 a61e3807f5c7118657354333ddf7de5dd7aed977c8dfcc5b7a55f369f3b005d7 -> d64a9b9d7aa0dbef90a972cdc73c48bcceaa40052450ac139991c932cedcb05f
+~ -[TIKeyboardInputManager_yue_Hant_Phonetic keyEventMap] : sha256 aa59b0bd362beb64ba784830b29dad4f3670c3690b3ee7b907fba02feff6be1f -> 8d860f763f16bf676bfecc6100a56d5d9aee39221e17123b853a24454c850a65
+~ -[TIKeyboardInputManager_yue_Hant_Phonetic phoneticSortingMethod] : sha256 a19d8e93df51c877dfb43bf17506a2dae9c5e7b71ceb10dd985e7757c1440628 -> e403fb21b864a7e09aceeea811e12f26489b41ab584f718fb2a0ac02c716cd75
+~ __GLOBAL__sub_I_TIKeyboardInputManager_yue_Phonetic.mm : sha256 a265939345130ef2f3b46b53effd36815efe6d64073ff3d54388a822739c48ce -> d41e49c42f0d1eee957dc066499387220dcc3dbbdf18acc8ea597457213fef1d
+~ +[TIKeyboardInputManagerCangjie_yue wordSearchClass] : sha256 bf0fef1ba82d7b8ee745f562ec17417ce26ada772b0f9d43bf2c4a942d775eb3 -> 0c43c3a8f786e9535ae84032ae8db4ec8e128735706a9d5268f9ea9c2061b2b7
+~ -[TIKeyboardInputManagerCangjie_yue initImplementation] : sha256 3943a6fa34161bf74d045ae7c7b1dd034c835a387fb410520bbc7b01e365158e -> 05798855eeff6dba2bb340c07e5274ca7c22d6f11f00a87a5e0b10075e0f225c
+~ -[TIKeyboardInputManagerCangjie_yue keyEventMap] : sha256 35ba2230242ce9536604273b314fbfd2e2a01276eaef48f4ec881831ad2e5368 -> ce1f0482dc6e02e360e33263a847becb35c76b9311f747d24e975dd8d2c930cd
+~ __GLOBAL__sub_I_TIKeyboardInputManagerCangjie_yue.mm : sha256 aaeb318da3541a55d6f8e2a24b20da38b002dfbdf88152258242ee83e0433469 -> ef0346dc3957428dec8a6cf079de52f48683de8dd4b3da7097e6863c63fe7dac
+~ +[TIKeyboardInputManagerWubi_yue wordSearchClass] : sha256 3db1b7532bddedab64d615b2ec303248a1ef84817bb9d11c744fc8a6cd00b022 -> bb95e0051bcf628b5e8ec79e78989d68f600d517e14c08db4a8b28e32b790c70
+~ -[TIKeyboardInputManagerWubi_yue initImplementation] : sha256 17eed40895830148abd9162de97468480b2d4370f51a937a1bcce47fc5992a8b -> f7d4b71159f76a70511da1420912c82b9679061929714beff95b309c5b8bb585
+~ -[TIKeyboardInputManagerWubi_yue keyEventMap] : sha256 93f2a19fff1a34134bddb1170d3b4561afe2d1b9f273af23bed3282a5a3599fd -> 622e3aadad76b5ba59aedd06504e83d28232c4560aacc0920b4321e09544e26a
+~ __GLOBAL__sub_I_TIKeyboardInputManagerWubi_yue.mm : sha256 799c567166a170920816e7b174d8f86025fa5e5ee08c71fb8e483e0b97aef858 -> 05b04a06185e3e076c472a13c69cf84b5a912ddd3ecb4603bb145fcc766ec47e
+~ +[TIInputManagerHandwritingTraditional_yue wordSearchClass] : sha256 f93dd984c313007c9803c073deea33f28ac1955a40073936ad50fba18441de51 -> 8d2114d1b1731fb2fc591bea94122de2a61b8f51119c136c6b9a2c010ec0ceda
+~ -[TIInputManagerHandwritingTraditional_yue initImplementation] : sha256 87597b7046041d4db913d6654609fe1eef67e85ef5d4939a3680f59a94c3d493 -> 2abd2a615d1009b7a5959217d3e30c1534c03b63e7fe6a4ff969d33220dec2a6
+~ -[TIInputManagerHandwritingTraditional_yue recognitionLanguage] : sha256 dde7f343ddc7604f72838bfcda8a594e89880f4dab975b7c049310ded1682547 -> 6d759574c755b7e99cabcded493168dd0dfac0e2f0444effafc43583fea4d3ec
+
+```

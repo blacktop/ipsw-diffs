@@ -1,0 +1,176 @@
+## HealthBalanceAppPlugin
+
+> `/System/Library/PrivateFrameworks/HealthBalanceAppPlugin.framework/HealthBalanceAppPlugin`
+
+```diff
+
+-7027.0.52.2.6
+-  __TEXT.__text: 0x36f00 sha256:53f143dc26f20e4fc6a919c100cc838815e6f08bf35520adae6eff8404f88173
+-  __TEXT.__objc_methlist: 0x33c sha256:ac80f078e40434c15ee53a0e480e8d66f25cbdb9f0837048e537a0f5447b119b
+-  __TEXT.__const: 0x2b94 sha256:ed6ffe3a33d2343940e96ae98ca38a81c26dee736c9e422e7a45ff3924a85146
+-  __TEXT.__constg_swiftt: 0xea0 sha256:7e14227489a230129ee26c5a5b5f8cd94ba79ff77589cea301f810c6f35d3776
+-  __TEXT.__swift5_typeref: 0xbb4 sha256:0df52f0f5086730aece6843c2bf824369984b90243eb94a6f2e6428c6d75ec40
+-  __TEXT.__swift5_fieldmd: 0x8f0 sha256:45804c1372e0178d51c2cf0a0752775f6bc82b398b7a640b6a32339aae0e8e29
+-  __TEXT.__cstring: 0x14b7 sha256:97f2d38c757ae01e2243d95a70a83b8176c96fc4b3322594b7b824083af73699
+-  __TEXT.__swift5_builtin: 0x3c sha256:c0734ffc2be1c5b312c6f769d2a48d3781913123e4a6dc87f3731f41ad0a027a
+-  __TEXT.__swift5_reflstr: 0x8d3 sha256:1924c7425d786e13c26843f17e245acd6af6ba5bdab828c7e693f815cb401b04
+-  __TEXT.__swift5_assocty: 0x1e8 sha256:f53b254bf0c7b16bbef4e7737ae580e23b4b8d00213772c0f533b89680c2f67e
+-  __TEXT.__swift5_proto: 0x224 sha256:9dc31f8c6dd0e0756e4cdb1b6cf1a068203632858df4b8a3d7a20bf772543cc8
+-  __TEXT.__swift5_types: 0xf0 sha256:3c67c38f70e4bb8646401dce0fea92a58ea45b2e3700c54e0d7b50a0cc1ec23f
+-  __TEXT.__oslogstring: 0xc2f sha256:35ecb7539b63fa589cd932efe84251bcd1c9c730d683ee71888cce54a5815f14
+-  __TEXT.__swift_as_entry: 0x30 sha256:54bb4fd7014b13b4585071de88bead4380e7ba737f158881e9f58b0c652f0210
+-  __TEXT.__swift5_capture: 0x20c sha256:07f0bc0a77311acf6504cd5d2989ccfd72994e8220ad445c2a7b6b2f2d925de8
+-  __TEXT.__swift_as_ret: 0x24 sha256:41cd1f0337b84f74720244bb52e7826ae21e81486d12efa7ac15a671d4a3ca41
+-  __TEXT.__swift_as_cont: 0x1c sha256:1a56f297a2abbd1e78a9b955e0cb6ce72b9f34b8fae7cee5186dbdaac25490a9
+-  __TEXT.__swift5_protos: 0xc sha256:60db61b259e207f4f25a1b488ac33d43d9873c2cb27c3762b7ea91e3cba76ec6
+-  __TEXT.__unwind_info: 0xce8 sha256:7e9bc99b271eb5f38a72e68e3dcf212879756549c62756bbec7ccbb4d05fb2e0
+-  __TEXT.__eh_frame: 0x7b8 sha256:48bff8ca6f9a054fc53f359fc6be39b51fc3e277fcf7a0d49577693e4ca35873
++7027.0.60.2.2
++  __TEXT.__text: 0x38e88 sha256:e18963a02872a4e01067b0fdc2846bd385bb207997d64599551f0fb0dc1b9707
++  __TEXT.__objc_methlist: 0x374 sha256:718752cc3491863df63245ba15a481a3658a723bbfa08de23a59a9a20d083b29
++  __TEXT.__const: 0x2ba4 sha256:8aa26bb4126e79317f9bb2cc01ac1ba25c4d1bd2b85c0f2a9c41bbdea3830e5e
++  __TEXT.__constg_swiftt: 0xeb4 sha256:17bf748f6126fc76bdff1b9516194ec3aa468e3a74e6f378a1a566b56842aa8f
++  __TEXT.__swift5_typeref: 0xbe6 sha256:00a1f7de2daab6db6355ca0a93671b4b7df5df097833e32f35f4a00265f0ade5
++  __TEXT.__swift5_fieldmd: 0x908 sha256:79e832255febbc95069fc677c648e9748acec89eb1ec0147aa1ba00102a914bd
++  __TEXT.__cstring: 0x1537 sha256:828e58a6fc8644564566b47d42527ae9ac2afb61c8f13622053dce6fa338b7b7
++  __TEXT.__swift5_builtin: 0x3c sha256:6b589b0adf0eb67e40bb23dbb692f66586ea0fb700ee5511ad4855cb48b8d29b
++  __TEXT.__swift5_reflstr: 0x91c sha256:0d4a6830e2e5caaadb5f654b7aeab951b5b8fb3c98083883fb325689d5616a32
++  __TEXT.__swift5_assocty: 0x1e8 sha256:078acb4b4d5156e1aa12f065c1346ce7e5c8bf0d487e6f5efca5ff9f2fc87583
++  __TEXT.__swift5_proto: 0x224 sha256:b6330cfb7904ce6ff5e8c51dc3add270305908db61502847e74a8760e711058d
++  __TEXT.__swift5_types: 0xf0 sha256:efbc039125e32db1cb66d3892c2383f43121d17a3c3a48a43b9a12c7137d8baf
++  __TEXT.__oslogstring: 0xd4f sha256:fa05ca0eef0f9883370ddc20a4f66886087d875cafba21f62fb74a9ca58ade06
++  __TEXT.__swift_as_entry: 0x30 sha256:2ed11fe29fe0d50046e57dc80abd1400971505e7e448b7822fd806b65e1d0c76
++  __TEXT.__swift5_capture: 0x1ec sha256:1e1bfbec31a9847824b58bfa01df929b6fb92a95f4344c4ee9a60dbe3bb8db0b
++  __TEXT.__swift_as_ret: 0x24 sha256:0478ab58bc2bf9d44063dd4c24a69791b7d557b46f61556fdc18edb14bfaa1a9
++  __TEXT.__swift_as_cont: 0x1c sha256:fe2671d128ef36807bf53b54c65d45c82430c196a9ec88718d8c645e851eb4ae
++  __TEXT.__swift5_protos: 0xc sha256:d34c2075a9ea6dbf8cb2bc4ff0fad076d3e39d549cb953448592eeb1f4566fe6
++  __TEXT.__unwind_info: 0xd30 sha256:bc9a0e8531454c3c074427f7c6a22d31454905267d74dd93893d6c52447b4c3d
++  __TEXT.__eh_frame: 0x898 sha256:f67efce947d11bd5cc8fa73c14c0244847291c98d9bbf5afe3e0c9fea617550f
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x178 sha256:6245517e81f77018b72c41ff9efe5c3411f198e5d8e289f0e9f2730b92f91431
+-  __DATA_CONST.__objc_classlist: 0x60 sha256:afc0a97b7e6b196c0b7fd8beaadc8622dae08096bd2c8f6b4cab8a9d65ed2758
+-  __DATA_CONST.__objc_protolist: 0x40 sha256:6f22577276509eb6b38155e8e6daa4b52c35bfba0cd04767058a34b2464b502e
++  __DATA_CONST.__const: 0x178 sha256:40cdecd29c0e373a6782119bea513aa27183894ff1f116715daa2356193eacb0
++  __DATA_CONST.__objc_classlist: 0x60 sha256:70805dc49c4548c919166ec49781606f6db32ae5b5f199c768f1fe8ad53685f1
++  __DATA_CONST.__objc_protolist: 0x40 sha256:dadc7fb120557b9145b836d9de0a129339677ba74c855e69e06f7dc0e1a5be36
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x408 sha256:2b4fd87fa03d7e2e17df940072057c04b46980fbd18ccf84406cf7bf5fdbf4d9
+-  __DATA_CONST.__objc_protorefs: 0x20 sha256:52a50f052dcd9567123a3c34d1c5dbba5cccff48baf4fb026b4a905bdcb0f071
++  __DATA_CONST.__objc_selrefs: 0x428 sha256:b8d8278e9e24bc0f7bda355c4e2a1c30efa6f5896ed68d2f2f7bfd15899533b7
++  __DATA_CONST.__objc_protorefs: 0x20 sha256:b3b438f2cbbdbcd442730a0d72eaf9d091e484236217a87cfa63d8c9c3efc1d8
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xf80 sha256:f14ff094bdcc91ee13da5c9f3b92e75a8d4e70eb344cf77aeb4e8ddfe44869ce
+-  __AUTH_CONST.__objc_const: 0xde0 sha256:7636530b73509f7c3c16d3455f7c0cca2e3e2c957f0c79710b3d6473ac0e08e2
+-  __AUTH_CONST.__auth_got: 0x1320 sha256:c7e363455f4f22e2d4302f77d770edca28f99ecd8a94f31d4b7ec29eb6314dcf
+-  __AUTH.__objc_data: 0x678 sha256:d2910cf20f7358a1c7d562f6ea173bf8e860b7468612dff700d622d470f09d22
+-  __AUTH.__data: 0x4c8 sha256:368dbd2f587317d19cb88dce2dd2ba82ffb4e0940114e53c9feabac82950f7b5
+-  __DATA.__data: 0x7b8 sha256:6a9458f815d850badf8ae283e90132eeb942dc2cb07305c082444c506b0fadfb
+-  __DATA.__objc_stublist: 0x30 sha256:efaa506eaa494bb1d961f4209299764ca95365f752ed62c29f28ef3c2217266d
++  __AUTH_CONST.__const: 0xf60 sha256:622540351bd842882b1ce6e4744842560b5ebdeb45d44cb6fddd33bdd7a2ae67
++  __AUTH_CONST.__objc_const: 0xd90 sha256:70c7a55b54a92c48c0dd79397f2150104420e80a33baddd34be3c576151142e2
++  __AUTH_CONST.__auth_got: 0x1318 sha256:82ce96ca57991d48f04b4e95d3690b389251475d398ba6f00678690ad44947c0
++  __AUTH.__objc_data: 0x7a0 sha256:678956ff53bd84dc62c925459eaad8afb1872a0ca44a058b0d92905569cae1be
++  __AUTH.__data: 0x448 sha256:f660d6362d13b50d3523d97a93c190f894bb1b79c32412ee361169a11a0e98fe
++  __DATA.__data: 0x808 sha256:9bbf76370dec30844d92ad10a24265eeba94577701b66c53e98fc54a4d9dda8c
++  __DATA.__objc_stublist: 0x30 sha256:4ffa97550fd5d93cb5e8837950c9e8e386c1fc070b774afc8bcf339d2376c444
+   __DATA.__bss: 0x2908 sha256:c53d38c5cfe01848b88b72c2d8f1335a93868d2f3549d78b7881963176913160
+-  __DATA.__common: 0x38 sha256:8003c6aefdd425b221edcf3e7842bcdf5dc012e05cdab066c2b65bef635a0e93
+-  __DATA_DIRTY.__objc_data: 0x158 sha256:6dd462b52285c6601709f89c5dc43546b9068076f3533e24c8ae82239e8f2386
+-  __DATA_DIRTY.__data: 0x1070 sha256:278a422746e46b2b9c79a70886b816db8174a497f9e59d721bf28e3c1c9a22d2
++  __DATA.__common: 0x40 sha256:719066016b1dfbbdcdce63ede478df7a67b123d7203b5b26455f37e56b114487
++  __DATA_DIRTY.__objc_data: 0x158 sha256:9824844c8725a2388b15475d4b4e2f7ea8f59934824c5a3bfd111d3a6a3e09a6
++  __DATA_DIRTY.__data: 0x1070 sha256:b821050708c2a7635a38a9d9b36110fac69d05d4204a601939f526d4c75511be
+   __DATA_DIRTY.__bss: 0x1a00 sha256:16cc39e093d21650607a4fe4ccbbb56b1219575378edea7fbe80a96e9096033f
+   __DATA_DIRTY.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreData.framework/CoreData
++  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B0D8CED0-6EB8-341F-AE3F-4EC6FE0DA296
+-  Functions: 1189
+-  Symbols:   879
+-  CStrings:  176
++  UUID: BBC8B8EB-BE4F-3263-94F7-97D6C258624F
++  Functions: 1199
++  Symbols:   884
++  CStrings:  181
+ 
+Symbols:
++ _NSCalendarDayChangedNotification
++ _OBJC_CLASS_$_NSNotificationCenter
++ _OBJC_CLASS_$__TtC22HealthBalanceAppPlugin52LatestOvernightVitalsDaySummaryCollectionInputSignal
++ _OBJC_METACLASS_$__TtC22HealthBalanceAppPlugin52LatestOvernightVitalsDaySummaryCollectionInputSignal
++ __DATA__TtC22HealthBalanceAppPlugin52LatestOvernightVitalsDaySummaryCollectionInputSignal
++ __DATA__TtC22HealthBalanceAppPlugin53LatestOvernightVitalsDaySummaryCollectionObserverShim
++ __INSTANCE_METHODS__TtC22HealthBalanceAppPlugin52LatestOvernightVitalsDaySummaryCollectionInputSignal
++ __IVARS__TtC22HealthBalanceAppPlugin52LatestOvernightVitalsDaySummaryCollectionInputSignal
++ __IVARS__TtC22HealthBalanceAppPlugin53LatestOvernightVitalsDaySummaryCollectionObserverShim
++ __METACLASS_DATA__TtC22HealthBalanceAppPlugin52LatestOvernightVitalsDaySummaryCollectionInputSignal
++ __METACLASS_DATA__TtC22HealthBalanceAppPlugin53LatestOvernightVitalsDaySummaryCollectionObserverShim
++ _associated conformance 22HealthBalanceAppPlugin52LatestOvernightVitalsDaySummaryCollectionInputSignalC0A13Orchestration0kL0AA6AnchorAdEP_AD0klN0
++ _associated conformance 22HealthBalanceAppPlugin52LatestOvernightVitalsDaySummaryCollectionInputSignalC0A13Orchestration0kL0AAs23CustomStringConvertible
++ _get_type_metadata 15Synchronization5MutexVy22HealthBalanceAppPlugin49LatestOvernightVitalsDaySummaryCollectionObserver_pG noncopyable.2
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$removeObserver:name:object:
++ _swift_arrayInitWithCopy
++ _symbolic $s22HealthBalanceAppPlugin49LatestOvernightVitalsDaySummaryCollectionObserverP
++ _symbolic So20NSNotificationCenterC
++ _symbolic So7HKQueryCSg
++ _symbolic _____ 22HealthBalanceAppPlugin52LatestOvernightVitalsDaySummaryCollectionInputSignalC
++ _symbolic _____ 22HealthBalanceAppPlugin53LatestOvernightVitalsDaySummaryCollectionObserverShimC
++ _symbolic _____Sg 13HealthBalance17GregorianDayRangeV
++ _symbolic _____SgXw 22HealthBalanceAppPlugin52LatestOvernightVitalsDaySummaryCollectionInputSignalC
++ _symbolic _____SgXwz_Xx 22HealthBalanceAppPlugin52LatestOvernightVitalsDaySummaryCollectionInputSignalC
++ _symbolic _____XDXMT 22HealthBalanceAppPlugin52LatestOvernightVitalsDaySummaryCollectionInputSignalC
++ _symbolic _____y_____G 19HealthOrchestration11ValueAnchorV 0A7Balance34SleepingSampleDaySummaryCollectionV
++ _symbolic _____y___________pGIeghn_ s6ResultOsRi_zRi0_zrlE 13HealthBalance34SleepingSampleDaySummaryCollectionV s5ErrorP
+- _OBJC_CLASS_$_HKQuery
+- __DATA__TtC22HealthBalanceAppPlugin42LatestOvernightVitalsDaySummaryInputSignal
+- __DATA__TtC22HealthBalanceAppPlugin43LatestOvernightVitalsDaySummaryObserverShim
+- __IVARS__TtC22HealthBalanceAppPlugin42LatestOvernightVitalsDaySummaryInputSignal
+- __IVARS__TtC22HealthBalanceAppPlugin43LatestOvernightVitalsDaySummaryObserverShim
+- __METACLASS_DATA__TtC22HealthBalanceAppPlugin42LatestOvernightVitalsDaySummaryInputSignal
+- __METACLASS_DATA__TtC22HealthBalanceAppPlugin43LatestOvernightVitalsDaySummaryObserverShim
+- ___swift_closure_destructor.11
+- _associated conformance 22HealthBalanceAppPlugin42LatestOvernightVitalsDaySummaryInputSignalC0A13Orchestration0jK0AA6AnchorAdEP_AD0jkM0
+- _associated conformance 22HealthBalanceAppPlugin42LatestOvernightVitalsDaySummaryInputSignalC0A13Orchestration0jK0AAs23CustomStringConvertible
+- _get_type_metadata 15Synchronization5MutexVySo7HKQueryCSgG noncopyable.2
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _symbolic $s22HealthBalanceAppPlugin39LatestOvernightVitalsDaySummaryObserverP
+- _symbolic _____ 22HealthBalanceAppPlugin42LatestOvernightVitalsDaySummaryInputSignalC
+- _symbolic _____ 22HealthBalanceAppPlugin43LatestOvernightVitalsDaySummaryObserverShimC
+- _symbolic _____SgXw 22HealthBalanceAppPlugin42LatestOvernightVitalsDaySummaryInputSignalC
+- _symbolic _____SgXwz_Xx 22HealthBalanceAppPlugin42LatestOvernightVitalsDaySummaryInputSignalC
+- _symbolic _____XDXMT 22HealthBalanceAppPlugin42LatestOvernightVitalsDaySummaryInputSignalC
+- _symbolic ______p 22HealthBalanceAppPlugin39LatestOvernightVitalsDaySummaryObserverP
+- _symbolic _____y_____G 19HealthOrchestration11ValueAnchorV 0A7Balance24SleepingSampleDaySummaryV
+- _symbolic _____y___________pGIeghn_ s6ResultOsRi_zRi0_zrlE 13HealthBalance24SleepingSampleDaySummaryV s5ErrorP
+CStrings:
++ "HealthBalanceAppPlugin.HealthBalancePluginDelegate."
++ "HealthBalanceAppPlugin.LatestOvernightVitalsDaySummaryCollectionInputSignal"
++ "[%{public}s] Calendar day changed; restarting observation for the new day"
++ "[%{public}s] Dropping overnight vitals collection for %s (session is querying %{public}s)"
++ "[%{public}s] Query failed after stopObservation; not retrying. Error: %{public}@"
++ "[%{public}s] Received overnight vitals collection update"
++ "[%{public}s] Retrying observation"
++ "[%{public}s] Starting overnight vitals day summary collection observation"
++ "com.apple.health.HealthBalance"
+- "HealthBalanceAppPlugin.HealthBalancePluginDelegate"
+- "[%{public}s] Device unlocked; retrying observation"
+- "[%{public}s] Received day summary update: %s"
+- "[%{public}s] Starting overnight vitals day summary observation"
+
+```

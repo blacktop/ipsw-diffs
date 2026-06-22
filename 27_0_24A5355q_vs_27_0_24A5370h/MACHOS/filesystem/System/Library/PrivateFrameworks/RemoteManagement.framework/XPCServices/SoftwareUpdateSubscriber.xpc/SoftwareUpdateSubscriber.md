@@ -1,0 +1,122 @@
+## SoftwareUpdateSubscriber
+
+> `/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/SoftwareUpdateSubscriber.xpc/SoftwareUpdateSubscriber`
+
+```diff
+
+-2717.0.0.0.0
+-  __TEXT.__text: 0x52d4 sha256:49c638fead7d6cdce764bbf8caa495724c0f2e13d0f06c93fb690fb1c8979f15
++2718.0.2.0.0
++  __TEXT.__text: 0x52c0 sha256:80285e8d4a6a72cdf049a26a7b343a5812196d2bbb22e1e5424b60725379e08a
+   __TEXT.__auth_stubs: 0x270 sha256:7d853e9cbd68c9930651a43caebfa9993d9a818267211925e02d691c3d943052
+-  __TEXT.__objc_stubs: 0xca0 sha256:39127091fe09a3d355cdad495435f2082c2ea75d5e457bf783f8893dba7aaaee
+-  __TEXT.__objc_methlist: 0x568 sha256:cc7407b9058555a946f8469a2b298ce06cccbe7406129e7d11f9664c947de3cf
++  __TEXT.__objc_stubs: 0xca0 sha256:73e708ff422865b7b6fdb579ac96a9ec50d6642a1f9917b6235f1334e7823ad3
++  __TEXT.__objc_methlist: 0x568 sha256:8b0b66835094b2f58c40188a457e752e698d4226d4565728252181cdf406b558
+   __TEXT.__objc_classname: 0x17d sha256:5bdd4f519e1e78f8cd2783f91be79cea2d5b6bdf6cb543671c9ed34fc480b1fc
+   __TEXT.__const: 0x28 sha256:c1d05812702da90b43b49913788f36e3a18a1f10e035172fa55257b711600dcf
+   __TEXT.__cstring: 0x9d5 sha256:13da3a8f1e6cec95cf39e2ec295701e925f72d4d6333fb9998d3020994dd3a35
+   __TEXT.__objc_methname: 0xec5 sha256:eefd170cf66f331f0889eca7ea3aa052b68eb2e1ffc91d7132b9c3b501e0dfcf
+   __TEXT.__oslogstring: 0x745 sha256:61c84770224c98e574f3e5912c2f3ed08e59b0fa7cad131c295751d6fd8d7a94
+   __TEXT.__objc_methtype: 0x531 sha256:ca70533cd6498bc70c41e6192b74eab3d4c3e9975543d53a88b5e76af63bbbbb
+-  __TEXT.__unwind_info: 0xc8 sha256:f013c4636a569d33c755652ef6c93caa7b33fa82ff5032637c9a00a4f778b4e0
+-  __DATA_CONST.__const: 0x28 sha256:66310133fa7350829568256d4b98f93b04b442f21b56e2b6a031fa8489b500e2
+-  __DATA_CONST.__cfstring: 0x6a0 sha256:97d201583cae91bc98e6ece43394b21e17f61c9823c70d2a6d6e3af37d0d331a
++  __TEXT.__unwind_info: 0xc8 sha256:948324fc4cc52250e42e37cb4c71394fdaeb5ec82ae00a625fb2426ee1a47c76
++  __DATA_CONST.__const: 0x28 sha256:02c2c488b9b0fe98a3b75840c0492211d0e4267ae26500aeab365be07a61a719
++  __DATA_CONST.__cfstring: 0x6a0 sha256:07bc4934aee53fa8b4e32d90ef476c58f7fdf2f6566a428969c32132c40de428
+   __DATA_CONST.__objc_classlist: 0x40 sha256:8ab50d7a8bfb78898edf84c4c3a63ed3192040413142a4f9a2201fdb751da84a
+   __DATA_CONST.__objc_protolist: 0x30 sha256:f4bcd54b8c0ae12730ac44d711808f1af8830cb4831f3ecb1bec391c149a8480
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__objc_superrefs: 0x18 sha256:0d9c26fc01d8d412d1a5a323d0bf3418e3f0f0348b86fac51cc3ea870b4650ef
+-  __DATA_CONST.__objc_intobj: 0x120 sha256:a5ce94b4d95a4b4c16730732b4d92e18e5fa93555235078501d507b8fbd80a9b
++  __DATA_CONST.__objc_intobj: 0x120 sha256:0b4f70493e63c52ebea59422ea7ef93091d01a98a2e992731992146110910a05
+   __DATA_CONST.__objc_arraydata: 0xa0 sha256:38357846986176f5ba373d54b962bb17d9843958b4ee1cd5501c5b18fc3f2140
+   __DATA_CONST.__objc_arrayobj: 0x180 sha256:5a8c54bd351a62fcc8326cb77811b0b5c47f5fb2e8134db4bff57c2a85e8a336
+   __DATA_CONST.__auth_got: 0x140 sha256:a4a0b7c387081b964ff95c23a9255c12619b8c99b4fc05a9ecafd07418fc69a8
+   __DATA_CONST.__got: 0x200 sha256:cf32ec5cd036707634ccdf9fc843ed3a3f4c8dab4eca14b6df8e045d9547f715
+-  __DATA.__objc_const: 0x960 sha256:b07a6da512ab06de3e75eeeaf07b842b0ee72e61dfe4c1a722f2314e22b98d10
+-  __DATA.__objc_selrefs: 0x4b8 sha256:0c2b20917b7b365e575b5e86e2375b37f573252fe3b55094a7b568e093591524
++  __DATA.__objc_const: 0x960 sha256:55d27cb63dc4def048315923bf20d92d6f55cfa6cc2b95b2f76ec9ed91896fb8
++  __DATA.__objc_selrefs: 0x4b8 sha256:b59ffae8d3966a22ae734c21fe37c5894beea4f232c19e8e09cd255279e4ab10
+   __DATA.__objc_ivar: 0xc sha256:3783fb69b6b736adc42ed678e95315363c531091cf9c361e8e08bfbab5c07a59
+   __DATA.__objc_data: 0x280 sha256:fcd3e56643bf35c6c6a14155a32a0291aa95e243482cbe519475065b240fc962
+-  __DATA.__data: 0x240 sha256:f41078638f0b82240b75c52745d087b6f33883039a7cdd913a8f4fed6c8d18ac
++  __DATA.__data: 0x240 sha256:53803ee8055652143de316e4b552e6bb78d7b98028f3a945bb9d543046b1f597
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/RemoteManagement.framework/RemoteManagement
+
+   - /System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 65985010-0C3E-3D65-BDA0-5E2342B4C16D
++  UUID: 7182741B-D8C7-34F3-8C48-BDD34C3BBA12
+   Functions: 45
+   Symbols:   642
+   CStrings:  372
+Symbols:
++ /Library/Caches/com.apple.xbs/9F819840-AFA3-4319-BA37-29AAC2F70715/TemporaryDirectory.fOYwhf/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/DDMSoftwareUpdateConstants.o
++ /Library/Caches/com.apple.xbs/9F819840-AFA3-4319-BA37-29AAC2F70715/TemporaryDirectory.fOYwhf/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/RMModelStatusSoftwareUpdateBetaEnrollment.o
++ /Library/Caches/com.apple.xbs/9F819840-AFA3-4319-BA37-29AAC2F70715/TemporaryDirectory.fOYwhf/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/RMModelStatusSoftwareUpdateDeviceID.o
++ /Library/Caches/com.apple.xbs/9F819840-AFA3-4319-BA37-29AAC2F70715/TemporaryDirectory.fOYwhf/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/SoftwareUpdateAdapter.o
++ /Library/Caches/com.apple.xbs/9F819840-AFA3-4319-BA37-29AAC2F70715/TemporaryDirectory.fOYwhf/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/SoftwareUpdateApplicator.o
++ /Library/Caches/com.apple.xbs/9F819840-AFA3-4319-BA37-29AAC2F70715/TemporaryDirectory.fOYwhf/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/SoftwareUpdateCombinedAdapter.o
++ /Library/Caches/com.apple.xbs/9F819840-AFA3-4319-BA37-29AAC2F70715/TemporaryDirectory.fOYwhf/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/SoftwareUpdateSettingsApplicator.o
++ /Library/Caches/com.apple.xbs/9F819840-AFA3-4319-BA37-29AAC2F70715/TemporaryDirectory.fOYwhf/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/SoftwareUpdateStatus.o
++ /Library/Caches/com.apple.xbs/9F819840-AFA3-4319-BA37-29AAC2F70715/TemporaryDirectory.fOYwhf/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/main.o
++ /Library/Caches/com.apple.xbs/9F819840-AFA3-4319-BA37-29AAC2F70715/TemporaryDirectory.fOYwhf/Sources/MobileSoftwareUpdate_SUCore/SoftwareUpdateSubscriber/
++ /Library/Caches/com.apple.xbs/9F819840-AFA3-4319-BA37-29AAC2F70715/TemporaryDirectory.fOYwhf/Sources/MobileSoftwareUpdate_SUCore/SoftwareUpdateSubscriber/Models/Status/
+- /Library/Caches/com.apple.xbs/23C9C0B1-ABAA-4E0C-89C6-C1DC5EE6E57D/TemporaryDirectory.s1OLGq/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/DDMSoftwareUpdateConstants.o
+- /Library/Caches/com.apple.xbs/23C9C0B1-ABAA-4E0C-89C6-C1DC5EE6E57D/TemporaryDirectory.s1OLGq/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/RMModelStatusSoftwareUpdateBetaEnrollment.o
+- /Library/Caches/com.apple.xbs/23C9C0B1-ABAA-4E0C-89C6-C1DC5EE6E57D/TemporaryDirectory.s1OLGq/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/RMModelStatusSoftwareUpdateDeviceID.o
+- /Library/Caches/com.apple.xbs/23C9C0B1-ABAA-4E0C-89C6-C1DC5EE6E57D/TemporaryDirectory.s1OLGq/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/SoftwareUpdateAdapter.o
+- /Library/Caches/com.apple.xbs/23C9C0B1-ABAA-4E0C-89C6-C1DC5EE6E57D/TemporaryDirectory.s1OLGq/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/SoftwareUpdateApplicator.o
+- /Library/Caches/com.apple.xbs/23C9C0B1-ABAA-4E0C-89C6-C1DC5EE6E57D/TemporaryDirectory.s1OLGq/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/SoftwareUpdateCombinedAdapter.o
+- /Library/Caches/com.apple.xbs/23C9C0B1-ABAA-4E0C-89C6-C1DC5EE6E57D/TemporaryDirectory.s1OLGq/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/SoftwareUpdateSettingsApplicator.o
+- /Library/Caches/com.apple.xbs/23C9C0B1-ABAA-4E0C-89C6-C1DC5EE6E57D/TemporaryDirectory.s1OLGq/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/SoftwareUpdateStatus.o
+- /Library/Caches/com.apple.xbs/23C9C0B1-ABAA-4E0C-89C6-C1DC5EE6E57D/TemporaryDirectory.s1OLGq/Binaries/MobileSoftwareUpdate_SUCore/install/TempContent/Objects/MobileSoftwareUpdate.build/SoftwareUpdateSubscriber.build/Objects-normal/arm64e/main.o
+- /Library/Caches/com.apple.xbs/23C9C0B1-ABAA-4E0C-89C6-C1DC5EE6E57D/TemporaryDirectory.s1OLGq/Sources/MobileSoftwareUpdate_SUCore/SoftwareUpdateSubscriber/
+- /Library/Caches/com.apple.xbs/23C9C0B1-ABAA-4E0C-89C6-C1DC5EE6E57D/TemporaryDirectory.s1OLGq/Sources/MobileSoftwareUpdate_SUCore/SoftwareUpdateSubscriber/Models/Status/
+Functions:
+~ _main : sha256 be6f75e14e0a325f474e03d7db6601dac09e33c97d5a10cf734bbf802b82b61b -> ba639a90ac0b91a8ca790ee3fa28ad35371ff939df90a83273f31bbdd5c0c899
+~ -[SoftwareUpdateAdapter init] : sha256 0b96af96300bb8a87aef05ab7e15dce5561974b6466b6f1faaeaeed2c8b129b8 -> 821061094a26e9d0b4c53b13ae22f4f45177d51f5759558b347431eb4f34071f
+~ -[SoftwareUpdateAdapter configurationClasses] : sha256 ecd4db3948f1fd632f4ed70d3731646cb206481bf74b568195f646a7f7484ee2 -> 6917539e54832ba661bbd95db3c69704954afa283a9030078807870ee13e46bb
+~ -[SoftwareUpdateAdapter allDeclarationKeysForScope:error:] : 2208 -> 2204
+~ -[SoftwareUpdateAdapter applyConfiguration:scope:returningReasons:error:] : sha256 8c5470d2f78c128642c33c4cdfda03149afeb3b3d5091dcef2055b6c86109a4c -> 4667fd6bd2eb3ed275dbf134b99c7e4d690fec1a5ab5f8cdcb39aa93653f995a
+~ -[SoftwareUpdateAdapter removeDeclarationKey:scope:error:] : sha256 8b6de052307d329e8794075fe6982b8267f2b13014e0a0a32cc7f22c3cfde14f -> 15428e0c774adbe5f46b3bfa6d400645657e22b26e943d05674bd8e3b8708b34
+~ -[SoftwareUpdateAdapter declarationKeyForConfiguration:] : sha256 9d2528ce078e8b549b08deac23796c8a3299acd3c87b53c4085a1a51c737734e -> ef78c93172b1c3d1764dc2d81966f81900818488d9bbb94d65a7003ea0b22877
+~ -[SoftwareUpdateAdapter configurationUIForConfiguration:scope:completionHandler:] : sha256 acc5237c560fb249071051f3280f3915235187664e6f5621f87c610115ff35b5 -> 5a5a6b30b9f25150bb7315ebbbb94823d3c75efae5ea731e7c0fe9928e7fce35
+~ -[SoftwareUpdateAdapter controller] : sha256 c3dc4fe7425cfd0e75070f09c8a5b4713906fe232671b90cfd09da0aabc56cde -> b86ab684cf327aa7e02b77bcfb498768507b878bfa719c0cb312573cd9269576
+~ -[SoftwareUpdateAdapter setController:] : sha256 84a64340c0b8809b39194b88d94ef7bd842792301f93c6d4b991b06076c07b4e -> 2a0fafd89af44dbf26a47fbb65aab159acdb4e08f61337b1818f95cd577e49e5
+~ -[SoftwareUpdateAdapter .cxx_destruct] : sha256 bd8ca45906dffc75aa94979c22ce074d0d6614f36ee5f7198a67234eb0f57e41 -> 67ee5e9ca70bbc1d28a02a4190a2b630f7ede7cca11bde39f8e4748b37517b6c
+~ -[SoftwareUpdateCombinedAdapter init] : sha256 1e68aaf9bb393cef27484214132997a630d4c26c4b007df149fe559599358b7a -> 7025578bcd343f14a2daba4783294264a1c12968e7ba1c7a765e865c2809a873
+~ -[SoftwareUpdateCombinedAdapter allDeclarationKeysForScope:completionHandler:] : 1128 -> 1124
+~ -[SoftwareUpdateCombinedAdapter applyCombinedConfiguration:declarationKeys:scope:returningReasons:error:] : 3392 -> 3388
+~ -[SoftwareUpdateCombinedAdapter _valueForEnum:] : sha256 bddb6ff162df2d8c815d467f891be8036cef0f95008efbc596061ef1f712351a -> 70ceae6756c238ebe8a346fe905dc1cda741f12a5c5bc0f123a6439c2698f15c
+~ -[SoftwareUpdateCombinedAdapter _recommendationCadenceValueForString:] : sha256 18a80bd678d9ba26024990e43391074018ea393884a8bf6d13b9620cf38b488d -> c5fd59b6dde6c005ad3dc57aed1730bef05a3b6bffa798ed8be2be8c8243ea65
+~ -[SoftwareUpdateCombinedAdapter _recommendationCadenceLocalizedStringForString:] : sha256 4eccbb3ae38541dea1b736998f67bb444ac407f4c7e295b25615bcd94fb4a001 -> 026da215b0497ed4e2155836f5a631a2a4f7afbbe231efaf426766992e3e401f
+~ -[SoftwareUpdateCombinedAdapter combineConfigurations:] : sha256 7d1390081b7aef73feec5895b2ed51f3bd5c9c6ec40a1ee604ed4483f1a33d6e -> 293aca15e15009e0d8d129e346fb977e8309b85e28650d83445165a656971af2
+~ -[SoftwareUpdateCombinedAdapter configurationClass] : sha256 a54b399f9309ef13d0de47ea597b8a0aaaf8e5f3b166b5ad1b3eeea72449c887 -> 3c73d83e2eabd0a2f5ed0e3fdbf9915b409ec028b2a78a9b04586d1eed8df980
+~ -[SoftwareUpdateCombinedAdapter declarationKeyForConfiguration:] : sha256 dbab95b9ec2667b667606b8d51b51bdec4e4c7236e6cbc4091f28919a3c034ce -> e0c347c4cd8437aa08e8f36692f235af07199bad9847018746ff2e079a8eb564
+~ -[SoftwareUpdateCombinedAdapter removeCombinedConfigurationForScope:error:] : sha256 7f401c9eb4d2cbb0236fc675444c7eda889d6f08f920a80a8916e704e0bdc0fd -> 2ac3deb16ce1cbf9c78e71e95f99c245ba6b86f86c68f1a63fcdcfbc4d634a46
+~ -[SoftwareUpdateCombinedAdapter configurationUIForConfiguration:scope:completionHandler:] : 3372 -> 3368
+~ -[SoftwareUpdateCombinedAdapter _localizedStringForRMModelSettingsState:] : sha256 4dd1e4e30c90e19a90cb2179defaf0782508f4ace61385d52e22120e2ce31a13 -> 78a1e15c2794370425a440948f789ae922d9bf811bfdfe9e7f48270772c3a576
+~ -[SoftwareUpdateCombinedAdapter controller] : sha256 2d10efc0334ee69266954a4cbf4219ec272a729ab25200c0b001670eb700e211 -> 638a01615954f930e790817affee155c074fdd8cddd44abeb6cc0749e1de7efd
+~ -[SoftwareUpdateCombinedAdapter setController:] : sha256 eafb435ceb319e1a7a0fb631e5a7ca41da70148a8372c97f0a87b133b96f59cf -> e12c177ba261ef2ee91019392862877e1a94fe11684213605a8bd13b7e1a7442
+~ -[SoftwareUpdateCombinedAdapter .cxx_destruct] : sha256 e3e41bdc53543eff6ac097903e2338d1f3a7a5914375632b5c5106ea7d72a571 -> bba32884a88f1050befd9d048c74bb0fda5d1760f2a4f8b049f47efa2f62c904
+~ +[RMModelStatusSoftwareUpdateBetaEnrollment supportedOS] : sha256 abfd5002b09f2bfa7c107e0899b426aa967569db49b1620ffda673b42b3eb1e3 -> da2172e8cf5e0768b79f24326e6d0794aec38de7ff788722171b14919ddaa9f1
+~ -[SoftwareUpdateSettingsApplicator init] : sha256 b70e1b7c30a3fbe7d9b8dc90e3f26791a3bcb42e43aa8f583db28b105ae25f4f -> dcbd024b9ecc7f61eaea86bdf32dd80f3547c9bceb027bedff93c88b859af80d
+~ +[SoftwareUpdateSettingsApplicator supportedConfigurationTypes] : sha256 6d500f895e6711b06ad89af5b887522af058c72f9157bd959019251d02943a81 -> e74c9765b4582b22b50e3b94dcbba629c64d6b3579dcac151f9e04a3a157bcae
+~ -[SoftwareUpdateApplicator init] : sha256 42f87e34ff8d7025ebeea5c4f13fbdcf8e06e1fba650f52eaa51c26bb4f8596a -> ea117769b9158679938e99aea555355090f1c9efcf9a9220da71d582a2fdf10f
+~ +[SoftwareUpdateApplicator supportedConfigurationTypes] : sha256 f3a22742247c11bb33887904e5a71a02ae927c7a31c26e9813356dea78edf4fb -> 7950a8b61d70af7b334166090d3dd9dcca6651641c4b3002cc51b5e06e31d32f
+~ -[SoftwareUpdateStatus init] : sha256 41fa1eced471d5811736851344447ec481300c1e110cb292fd7fa503c9fa89f9 -> db3df0d78dfa91807fe206597559fea32c6e561abeff984b46267ab11b85830c
+~ +[SoftwareUpdateStatus supportedStatusKeys] : sha256 b895637680a94f446a0c91934ce3b23c8e107dd3c5cae2c7656bb561d96a850e -> 9295ff87f54b5bf5ab8d1b56696c82ff76c0165f0caba19d5711ff938bf247a7
+~ +[SoftwareUpdateStatus supportedStatusClasses] : sha256 e7401eac61417a96de64cb51380ecc56018908fb165fc9090c709b3567473ac9 -> 064b8adcd88063d7e3230c1a55c2ed6d55b48ec198592429980aed09e28e4ccd
+~ -[SoftwareUpdateStatus queryForStatusWithKeyPaths:store:completionHandler:] : 1204 -> 1200
+~ ___75-[SoftwareUpdateStatus queryForStatusWithKeyPaths:store:completionHandler:]_block_invoke : sha256 48a614f447e1b77586c34a5e4d853fb3b64a275596dae761144b0d2676473e62 -> 40d8f6cbef289668cc6a0f27e53570fe03005512cfd16e0ce384387e8b378f1a
+~ +[RMModelStatusSoftwareUpdateDeviceID supportedOS] : sha256 fc5bea93c1cb265d4750b154810b99182b7b4b79c414dc93aee2fbafb0d306ae -> c715cb802821f17fc89bb34e3eee0bca3824e2e56cd745ffee576dd35ee3fd12
+~ -[SoftwareUpdateCombinedAdapter applyCombinedConfiguration:declarationKeys:scope:returningReasons:error:].cold.1 : sha256 e9bb798ec8fa3741f4d2d1dbb30342789064dad6fcc4a7fc01b5d5029c3b14da -> 60b8e49e2ddeca8876686d4de0166b4be604dcfdb76b80b2fe11baf7667e1532
+~ -[SoftwareUpdateCombinedAdapter removeCombinedConfigurationForScope:error:].cold.1 : sha256 44a480107b8d0460de3b3b209ab0dc0a65bc571d610a6023ceee53dfa63b773d -> 45416c42077cacf3dcc8935dc761e28b6d88ca7e8b68197e22cfdecee597a62d
+
+```

@@ -1,0 +1,191 @@
+## HealthRecordsDaemon
+
+> `/System/Library/PrivateFrameworks/HealthRecordsDaemon.framework/HealthRecordsDaemon`
+
+```diff
+
+-7027.0.52.2.6
+-  __TEXT.__text: 0x1fd704 sha256:c5573e39a8690492100402dbf2ecad649a444b382d0b4699fc9e4d4e41667e77
+-  __TEXT.__objc_methlist: 0x624 sha256:958c88582499a9e0d417569330029fbc5305ffddf9bd778542b29f51f4aecac2
+-  __TEXT.__const: 0x1c1fc sha256:d19649910e8b42dc552e29bf41bd1b9478391869c672c4fdd818cc88bbc3d57b
+-  __TEXT.__constg_swiftt: 0x4b44 sha256:1d950d31ebbbb61b87139999a28e05f162d1465750c149c93fb378f7b5e61de3
+-  __TEXT.__swift5_typeref: 0x45cd sha256:659a9730d9c56480ccdd589283c5aba35eedc86323f881fe68da523a16752150
+-  __TEXT.__swift5_reflstr: 0x5e72 sha256:c48a69f880b33e3e5cbda117db8b42ed45fa85b2bdefcc1b6a46b843aa08a2f0
+-  __TEXT.__swift5_fieldmd: 0x6fd4 sha256:c3a33dc71bda6c89c705a3ab74c63ca1830f7fd9c64bc7e69e130521a0c0bc3f
+-  __TEXT.__swift5_builtin: 0x230 sha256:a621b8fe7f1fdd3428694e45459acbeb4450e5a0a8b886a77aed7073afdb6aa8
+-  __TEXT.__swift5_assocty: 0xe40 sha256:69ddf64e96c242da85fc81238910ebcd343095a76ee31e98c849432ff1b8c481
+-  __TEXT.__swift5_capture: 0x1b00 sha256:f4870a2b05ae2e59c4d893ab2f5b982fde32bc5f7e5ced157c20bba27bd7c7a3
+-  __TEXT.__cstring: 0x3b44 sha256:d068cb21d4f789d2f43cd4bce41ff630842fcb88aaefdaf12bd297177f9534fa
+-  __TEXT.__swift5_proto: 0x158c sha256:338f68f89b31184f264e4a57e9ce5faee1d565ed6c6fc479e54e8452b0a92881
+-  __TEXT.__swift5_types: 0x628 sha256:b435f3b8768393b8ae63c917131b8e9f121db099322960d4b8b705f7ab76ccb2
+-  __TEXT.__swift_as_entry: 0x2a4 sha256:e4ff97c037edd1665c5f0fd341532ec63f47022e0d2016a27d598237be97418c
+-  __TEXT.__swift_as_ret: 0x384 sha256:0c3eb54a2202901d19b22bc5893997522a659f27bfa9358f8e545356635be2a6
+-  __TEXT.__swift_as_cont: 0x7e4 sha256:830649b71f361ee1b70643049ea6a0c131920c3b8730d2bb60eb4c81439c3455
+-  __TEXT.__oslogstring: 0x3d9f sha256:b4509a6ef6e5ab663ab238dc690404774e130ec156df6b925d71a65f7b9c07d9
+-  __TEXT.__swift5_protos: 0x64 sha256:cbbea586ada786b26be1de82266faf7584aefe3f83bf45d914f73059996020de
+-  __TEXT.__swift5_mpenum: 0x30 sha256:fa7479fca7bb81d0dd81b836ce62aa953b353d7de4a4ef4aa76de76466c31d6b
+-  __TEXT.__unwind_info: 0x73c8 sha256:103db0d9edc9c2c5d79d839bccf0d64b81b86600519d7b138414edca906042be
+-  __TEXT.__eh_frame: 0x108e0 sha256:894517c38330715e0d13cfb9f896b626b07419a313f8e3d987fdb9bb2b642d39
++7027.0.60.2.2
++  __TEXT.__text: 0x1ffd40 sha256:55f2ab41404d7acc4bad2835d1a27a2bc10bd6a18f7a0d4024273bbcdbaa2c1b
++  __TEXT.__objc_methlist: 0x624 sha256:4e20a0c95aae7da82eb13925c7dc4c7b10f60733fcca465fb3d27dd62f17c702
++  __TEXT.__const: 0x1c2cc sha256:f76833fdbaa1438a5cedc3b690b96ce454a9e8204e5455f0dad23d06b7f38ff8
++  __TEXT.__constg_swiftt: 0x4be0 sha256:bedd1bf746cc47bfd5f37ce9aae7ba639ec955935b184fc6a23aaa51237c6acc
++  __TEXT.__swift5_typeref: 0x462f sha256:e16a10658df7601c145153a4397bbfc44cc8447574dc445d0e9da0d1e8b5cd24
++  __TEXT.__swift5_reflstr: 0x5f52 sha256:01c2f72c45c768707f6373257e5c2103ec670a0bf25d8d862d49e69b6b9271f6
++  __TEXT.__swift5_fieldmd: 0x704c sha256:0ea1a27c151541f2eaf706ba7b6df29e69e172b9eba3ca1a15ddd90deba803dc
++  __TEXT.__swift5_builtin: 0x230 sha256:924b62ddc03f1d473538e1cfec72cc3400c45ac75047cef522ba7f7c53fadec3
++  __TEXT.__swift5_assocty: 0xe40 sha256:26866c8fe66c3db08f46c1aadca440ef4209ad5dface1746829197e169f959e2
++  __TEXT.__swift5_capture: 0x1bf8 sha256:501b4c2178c36f6d89e6572228ed239c61be794d21dec0cff4f53d35f1e6a281
++  __TEXT.__cstring: 0x3b44 sha256:95de563c6f2a3a5212455cd5da667735b49ecc458bbbfd28971378e77fae17f6
++  __TEXT.__swift5_proto: 0x1594 sha256:e1fe5d05c2ab16c9af36aea09cdb70cd2deda4de9e6c1dc71241042bd3e749aa
++  __TEXT.__swift5_types: 0x630 sha256:9622160c22e2790e414af1cf26b3adb5cfb1765fa00f24c1f1a1b268aaa14ad3
++  __TEXT.__swift_as_entry: 0x2a4 sha256:8627791d9b98725ffc7a0d68d7996d18be3a6472f9df3adb3f0a8147b838dfa5
++  __TEXT.__swift_as_ret: 0x384 sha256:87081218dd3f14913214232ec8d4b8f86d8e6b101aceae1ad5a7d04a6f5370fe
++  __TEXT.__swift_as_cont: 0x7dc sha256:86b1bdceb7c794dfcc7bb2e7571a9fc038fe86c025ab3cb525fb8fa23ee7de4c
++  __TEXT.__oslogstring: 0x3dcf sha256:c819efc286d334edc3b35d33f8c3b49f49aacc8bd6746e9f48c00f731d145dba
++  __TEXT.__swift5_protos: 0x68 sha256:b935ac91c202b1f468c35b1b06c31bdbb9016b2c4327c65259f7bc96d0e2ce6b
++  __TEXT.__swift5_mpenum: 0x30 sha256:c91a9b9ae1050fef0a8fc8ae0b6b37fcd913656a661c9478b4908ee79fee7358
++  __TEXT.__unwind_info: 0x7410 sha256:59e05040cfc6f89a07197bf5c6760e6f3fd9ab4839fa1fc78328ba04d86ea7e0
++  __TEXT.__eh_frame: 0x10980 sha256:f7bd61aaf0223a9ab3a500907d45b6c2441f0dcbe17cfbc152f31ae89df91d1e
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xf0 sha256:6f0dafd0d7c576cecbebdb63daf5abfed141dec966cad126804d30dea28c4a37
+-  __DATA_CONST.__objc_classlist: 0x138 sha256:03f374d6d5a1152265f6b7fb83f4d10734f54694c615f6d3cfead7dbbbf4b8cd
+-  __DATA_CONST.__objc_catlist: 0x18 sha256:9cce086815ad1907c8f5b837b33794033580fd00a29aa88b766e384fd9b74878
+-  __DATA_CONST.__objc_protolist: 0x98 sha256:2e69d497ee293bf1ae387f58218a452d7dc8359936ee058ac56b3a4a3990c227
++  __DATA_CONST.__const: 0xf0 sha256:cc32d4789637054938cda01379ad146a6c273ca4d89d02e1e16ba3583844f0a1
++  __DATA_CONST.__objc_classlist: 0x148 sha256:84703502558ba708ead94ec57f272b8c410f21012b9e33f6dbfccfa956569411
++  __DATA_CONST.__objc_catlist: 0x18 sha256:331a40f2311fd82a7a23eb4de4df421551e25f70f67e3f839c99eb90f2b71ddc
++  __DATA_CONST.__objc_protolist: 0x98 sha256:699e5177d792c1b6c0bb42113d8fee7ffdbbd974ae1513bb8783188573e63730
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x1058 sha256:965f7fc5ad9ea8114a5445fa290803361126feada207c4ec692e08850ce38f1f
+-  __DATA_CONST.__objc_protorefs: 0x50 sha256:3ea9854917bc22a2bef2e50fa47581d610f3e5e5d252afbe5930f5c8bfdbb22d
++  __DATA_CONST.__objc_selrefs: 0x1060 sha256:485e13674de708c0b8e07686ea1f900e2b75e62e9b487d3918dde6bf596fcf54
++  __DATA_CONST.__objc_protorefs: 0x50 sha256:500768db44ebaf3c202c38a098b520c9acb7f5a3ae7057e2fa739f9e5c47f790
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xc7e0 sha256:66d8111ec50ac2c243fa09d45098f4fed12f6499ab32036b817350fc03216833
+-  __AUTH_CONST.__objc_const: 0x2c28 sha256:c12f63e95bf7d9797b987b34d90d6dac5522b98e8494825b123ce867065803f2
+-  __AUTH_CONST.__auth_got: 0x1b90 sha256:2c2cbccd5d41f1ab10f0106ca8df33869145cbdd02930a498214ef5c10af503e
+-  __AUTH.__objc_data: 0x6f8 sha256:71bc7b9dfc29b79573e141a54bdb9318b56412a3cb7010451c9098e4394edd6b
+-  __AUTH.__data: 0x3f48 sha256:8d12508b2804c4b298937adf75345bb7ffa5854a9853da3ae8845206673608d9
+-  __DATA.__data: 0x4b90 sha256:8b2b8b40c40b4c0a57b20f9f30d331d645e2721b8ebfde3bd4959d93901223ce
++  __AUTH_CONST.__const: 0xcad0 sha256:2b9b491bb8235f218e32ccb40fdc07d0a388b6e2af58c7707ff4fe3a02049fb2
++  __AUTH_CONST.__objc_const: 0x2cf0 sha256:b0ade8d1b74e605e04724fc92dd4d375e749fae4286eee9434fae541dd2fba48
++  __AUTH_CONST.__auth_got: 0x1bb0 sha256:9105f58c33ac4c8ca0078c2189223fc8e7c21364294b53188deea8c9f3243a0f
++  __AUTH.__objc_data: 0x740 sha256:077c2e9946abe32deae7e1ee49150fe51b0d3cb77ca3d7f2c092275562b986e6
++  __AUTH.__data: 0x4168 sha256:0f00e1e1537e56ceceb205fbae7a53347bb536b2a04bddc622f62408d073de2e
++  __DATA.__data: 0x4c20 sha256:58a9531b5a9106bc5a49f1387cf53452686d635af9dc3b87c1852b5e18e155b3
+   __DATA.__bss: 0x26bb0 sha256:62a5238ba2600c2fa9caaaef3e182c20b7e79ebf67dc8f04f09a39331e1e8bdd
+-  __DATA.__common: 0x1000 sha256:ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7
+-  __DATA_DIRTY.__objc_data: 0x2f8 sha256:ba9bd3ec23ec228f9e8ad9939f06de7b5b47491205efda27d3842513153f0225
+-  __DATA_DIRTY.__data: 0x5708 sha256:78f8343f1e15984b75a0689858a8c8f4cbee341b8f8b3aa33f3ade1da013883f
++  __DATA.__common: 0x1010 sha256:d7af8f8bddfd8b18ae03171150ad5c100f8c114c81cff5031c581e1164f18593
++  __DATA_DIRTY.__objc_data: 0x2f8 sha256:e28521a4b0f8676896b9bbdc326666c06291df4fbb6f15d47e50e2a7ae0322f8
++  __DATA_DIRTY.__data: 0x5618 sha256:7823bc7d096d6193787713fb51e0cc6051e1124255374d7841b79b37e2a89b4f
+   __DATA_DIRTY.__bss: 0xf00 sha256:a8eac8b0d3b1fde368813438dd5ba415a796fd6dd0a2a42fb6a5a2dfb2429576
+-  __DATA_DIRTY.__common: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
++  __DATA_DIRTY.__common: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 659E4285-A3E0-304E-87A4-0D8F6E0253A2
+-  Functions: 9294
+-  Symbols:   4252
+-  CStrings:  615
++  UUID: 0458025D-881E-31BB-9055-42FA68BF30B7
++  Functions: 9339
++  Symbols:   4298
++  CStrings:  616
+ 
+Symbols:
++ _OBJC_CLASS_$_HKClinicalSharingStatus
++ _OBJC_METACLASS_$__TtC19HealthRecordsDaemonP33_E1BF38E8FC7F024B602A203897ADC27D42URLSessionNoCustomCertVerificationDelegate
++ __DATA__TtC19HealthRecordsDaemon22ClinicalSharingFHIRAPI
++ __DATA__TtC19HealthRecordsDaemon31ClinicalSharingCloudStandardAPI
++ __DATA__TtC19HealthRecordsDaemonP33_E1BF38E8FC7F024B602A203897ADC27D42URLSessionNoCustomCertVerificationDelegate
++ __INSTANCE_METHODS__TtC19HealthRecordsDaemonP33_E1BF38E8FC7F024B602A203897ADC27D42URLSessionNoCustomCertVerificationDelegate
++ __IVARS__TtC19HealthRecordsDaemon22ClinicalSharingFHIRAPI
++ __IVARS__TtC19HealthRecordsDaemon31ClinicalSharingCloudStandardAPI
++ __METACLASS_DATA__TtC19HealthRecordsDaemon22ClinicalSharingFHIRAPI
++ __METACLASS_DATA__TtC19HealthRecordsDaemon31ClinicalSharingCloudStandardAPI
++ __METACLASS_DATA__TtC19HealthRecordsDaemonP33_E1BF38E8FC7F024B602A203897ADC27D42URLSessionNoCustomCertVerificationDelegate
++ __PROTOCOLS__TtC19HealthRecordsDaemonP33_E1BF38E8FC7F024B602A203897ADC27D42URLSessionNoCustomCertVerificationDelegate
++ __PROTOCOLS__TtC19HealthRecordsDaemonP33_E1BF38E8FC7F024B602A203897ADC27D42URLSessionNoCustomCertVerificationDelegate.10
++ ___swift__destructor.7
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.31Tm
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.92Tm
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.95Tm
++ ___swift_closure_destructor.98
++ ___swift_exist.box.addr_destructor.4
++ ___swift_exist.box.addr_destructorTm
++ ___swift_memcpy128_8
++ ___swift_memcpy160_8
++ _objc_msgSend$finishTasksAndInvalidate
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _symbolic $s19HealthRecordsDaemon29WebRequestPerformingProvidingP
++ _symbolic _____ 19HealthRecordsDaemon0aB23GatewayIngestionContextV
++ _symbolic _____ 19HealthRecordsDaemon22ClinicalSharingFHIRAPIC
++ _symbolic _____ 19HealthRecordsDaemon26ClinicalSharingSyncContextC21ProtectedMutableStateV
++ _symbolic _____ 19HealthRecordsDaemon31ClinicalSharingCloudStandardAPIC
++ _symbolic _____ 19HealthRecordsDaemon42URLSessionNoCustomCertVerificationDelegate33_E1BF38E8FC7F024B602A203897ADC27DLLC
++ _symbolic ______p 19HealthRecordsDaemon29WebRequestPerformingProvidingP
++ _symbolic ______p 19HealthRecordsDaemon35ClinicalAccountCredentialPersistingP
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 19HealthRecordsDaemon26ClinicalSharingSyncContextC21ProtectedMutableStateV
++ _type_layout_string 19HealthRecordsDaemon0aB23GatewayIngestionContextV
+- _OBJC_METACLASS_$__TtCC19HealthRecordsDaemon34IssuerDirectoryDownloadTaskManagerP33_7AB94515F5C396F1FDF73A0A6286A3E442URLSessionNoCustomCertVerificationDelegate
+- __DATA__TtCC19HealthRecordsDaemon34IssuerDirectoryDownloadTaskManagerP33_7AB94515F5C396F1FDF73A0A6286A3E442URLSessionNoCustomCertVerificationDelegate
+- __INSTANCE_METHODS__TtCC19HealthRecordsDaemon34IssuerDirectoryDownloadTaskManagerP33_7AB94515F5C396F1FDF73A0A6286A3E442URLSessionNoCustomCertVerificationDelegate
+- __METACLASS_DATA__TtCC19HealthRecordsDaemon34IssuerDirectoryDownloadTaskManagerP33_7AB94515F5C396F1FDF73A0A6286A3E442URLSessionNoCustomCertVerificationDelegate
+- __PROTOCOLS__TtCC19HealthRecordsDaemon34IssuerDirectoryDownloadTaskManagerP33_7AB94515F5C396F1FDF73A0A6286A3E442URLSessionNoCustomCertVerificationDelegate
+- __PROTOCOLS__TtCC19HealthRecordsDaemon34IssuerDirectoryDownloadTaskManagerP33_7AB94515F5C396F1FDF73A0A6286A3E442URLSessionNoCustomCertVerificationDelegate.3
+- ___swift__destructor.32
+- ___swift_allocate_boxed_opaque_existential_0Tm
+- ___swift_assign_boxed_opaque_existential_1
+- ___swift_closure_destructor.102
+- ___swift_closure_destructor.50
+- ___swift_closure_destructor.53
+- ___swift_closure_destructor.56
+- ___swift_closure_destructor.6Tm
+- ___swift_closure_destructor.77
+- ___swift_closure_destructor.81
+- ___swift_closure_destructor.87
+- ___swift_closure_destructor.90Tm
+- ___swift_closure_destructor.93
+- ___swift_closure_destructor.93Tm
+- _block_copy_helper.26
+- _block_copy_helper.35
+- _block_descriptor.28
+- _block_descriptor.37
+- _block_destroy_helper.27
+- _block_destroy_helper.36
+- _symbolic _____ 19HealthRecordsDaemon22ClinicalSharingFHIRAPIV
+- _symbolic _____ 19HealthRecordsDaemon31ClinicalSharingCloudStandardAPIV
+- _symbolic _____ 19HealthRecordsDaemon34IssuerDirectoryDownloadTaskManagerC42URLSessionNoCustomCertVerificationDelegate33_7AB94515F5C396F1FDF73A0A6286A3E4LLC
+- _type_layout_string 19HealthRecordsDaemon22ClinicalSharingFHIRAPIV
+CStrings:
++ "%s: Paused %ld clinical sharing accounts"
++ "%s: failed to pause clinical sharing accounts: %s"
+- "%s: Paused %ld clinical sharing accounts (or at least tried to)"
+
+```

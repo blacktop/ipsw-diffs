@@ -1,0 +1,101 @@
+## AssistiveTouch-iOS
+
+> `/System/Library/CoreAccessories/PlugIns/Features/AssistiveTouch-iOS.feature/AssistiveTouch-iOS`
+
+```diff
+
+-1176.0.26.502.1
+-  __TEXT.__text: 0x128c sha256:f30614a7cf1c9f4e073553bbcefcab891df7e19a79354f02522363d16a139200
+-  __TEXT.__objc_methlist: 0x22c sha256:6a21f7d9162f54f2aea0bed2aa950afa031f86d81b6c5dd8e77f4fdbc21b1c07
++1196.0.0.502.1
++  __TEXT.__text: 0x1288 sha256:3c60497bb2d3d0fd221f7201ea8b8ebad6690c8758fcb3bf97deed89eca84cba
++  __TEXT.__objc_methlist: 0x22c sha256:1004441713c11b3157e655d4c38016c3f3f63cd8a13d792dd233f824703cd829
+   __TEXT.__const: 0x28 sha256:5c3cefdb2866f200a652f0beefdfe41e73cf8f7a7831bde9d58215033a33a97c
+   __TEXT.__cstring: 0xb0 sha256:088ce2520d4e74ff265f85b0bda233e8bb579d8c658ebf5a13419fc383ffa2a8
+   __TEXT.__oslogstring: 0x323 sha256:a54eb40987c1169e48cff3f13a0907391ea80b91bcefc96b8c2275ebc06664e3
+-  __TEXT.__unwind_info: 0xd0 sha256:8378d8e77bbec75b4ad96d6774c32b989e0bd63a942fda55719cd3c0e5bb6963
++  __TEXT.__unwind_info: 0xd0 sha256:ff2e2f0cf86ec2a0c13f644d62a08f3bbf5772ee098ede60bcfb79c6149e8f57
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x78 sha256:4be7f264ee6086fbc2d93d0fc0909a0e9a87cadecf8ee60e15db3088b3f924d8
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:267f51110ff00e22b5bd70e0c8719e694ca8fec0ee86e50cdd8a5a99efa2e40c
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:92ee4fd76d5c395d45165ac2534733ea6a9affb5b4aee739fde2d6e449166c24
++  __DATA_CONST.__const: 0x78 sha256:5e093d9bf597070e0709feb549d8c6c69fc9e5372cfeefe65f7d9ee9a41fd2a1
++  __DATA_CONST.__objc_classlist: 0x8 sha256:8079dc196e047392656ef5e6c0dae7fb8538855c05e99d97c7d892bc1d68bee6
++  __DATA_CONST.__objc_protolist: 0x20 sha256:c2d8f790c470a23d4839608d785f0a818e6a35d463ca3d0b07b3d1e84c7b1b4d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x148 sha256:da999597c560dd3e165fa8c997d7bacba77f28e7c19265bcc1618c1618cd1878
++  __DATA_CONST.__objc_selrefs: 0x148 sha256:aa44721800d0eca72ce51ecd902d687d7240b8a7c97a384ca29dbd1d47c78a34
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x60 sha256:fd1887aaeaba8ebccf8414eadb20bcb489c485279593c1f41faf2482a71645ad
+-  __AUTH_CONST.__cfstring: 0x20 sha256:43eb1028197438052e9712f52d3f3438c55564c1736876f87b8fa3dbcf10e6d7
+-  __AUTH_CONST.__objc_const: 0x330 sha256:22ffc7a9ce54ca5a68ea21ff5c89c3fa82a7c14ec5133107b429771fb9f0d631
++  __AUTH_CONST.__const: 0x60 sha256:9f6baeccd3c33237006ecf953346dc1ed0972e0fd336cee303b9500b0f3915dd
++  __AUTH_CONST.__cfstring: 0x20 sha256:4d4a1064447dd6f4e784f51ce0d809642af8c0095a9f6ce535e3713a7b7001f7
++  __AUTH_CONST.__objc_const: 0x330 sha256:c91156002d2c1b10bc3baf181c64ba320b90a61cded355e768730be936b1b35c
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0xc sha256:2e5c9862856b0c6f8e0cea23282dc6a269bad2a2cc34aa0668a8eeae66326835
+-  __DATA.__data: 0x180 sha256:c444982473326f27a899f2a437188c133cb907bbd7b0c05613b3b7271e9e9f5f
++  __DATA.__data: 0x180 sha256:bde236cfabc69016b5e540a4fa8ca1d824a10be1e03ed5777726b1be79d014eb
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:6967f871b23f79bf14679ff77ceef06b2eb46faa518cde0cd3ad775a0f22eb10
+-  __DATA_DIRTY.__data: 0x8 sha256:402fb75127067e4a8a01329f8c6b19ee410419ae68a144e8003ab3c0c65d41c0
++  __DATA_DIRTY.__objc_data: 0x50 sha256:63fee771f9c604a16f530822306be4e91154a75892e3ba5b3f85e14f8d91f79b
++  __DATA_DIRTY.__data: 0x8 sha256:c4b320ec00900349acad9040380c46e280e136d33f079d61316ce3f1909175a2
+   __DATA_DIRTY.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C6D0B9FD-B617-3949-B59D-371657D5378D
++  UUID: 45E60AB8-AB3C-357C-8B32-B1F89DD47584
+   Functions: 42
+   Symbols:   195
+   CStrings:  29
+Functions:
+~ -[ACCAssistiveTouchFeaturePlugin pluginName] : sha256 01d187f2b7eef452a33e3c3876e63ef4052b9bfaa7b67ef386c48a2d5b966168 -> 2d2409cb330a29f38b60e54870730b39b3dbf34a059242f35220485159b92d92
+~ -[ACCAssistiveTouchFeaturePlugin description] : sha256 a9bb80f7457402a898717c84f9cd14d4ca2099a9d1911adb6d3810e50a44c13d -> d1f6e4d43fa6825fbe1d43af75af7dc5a407e11c2eafffd2ffe8ad395e7462a9
+~ -[ACCAssistiveTouchFeaturePlugin initPlugin] : sha256 579f442c923a94815b2ca8428646bccca8be2c168702ebcf31b29471aa4983e3 -> 1d348c600a639d16fbff9f0a0dd712975f24116630d312101467e443fd44ef51
+~ -[ACCAssistiveTouchFeaturePlugin startPlugin] : sha256 eca87359fcfc0cf232cb589e0270e79e5e297c0074b2eb1c5dc111da14ab3b42 -> ca6ee0806e3152b8d6dfbeb90bae8cff615e42e076df1259d9f6f13849db3f67
+~ -[ACCAssistiveTouchFeaturePlugin stopPlugin] : sha256 c8b6b6107426cfb7c12a908295b5cb29dff27d5555a9f41d0428171ae1bd1788 -> d90900f9aa9f55898928b17819b2c79506505a3ee0f06f53d5f493d0f20532f6
+~ -[ACCAssistiveTouchFeaturePlugin assistiveTouch:setEnabled:] : sha256 6319c267e9a6a9689e25d12ca9dd370911db21a1f3db6aa95a5f83371ad9efbf -> 49659b6ce39d9f2e25ef8ba9ea1134f82cd631b1ac10e8136d93b710118f210e
+~ -[ACCAssistiveTouchFeaturePlugin _assistiveTouchToggled:] : sha256 a63b3f51cb498b2a0491da3d7a16203a062f4cb818d03a321c756c6992cb59cb -> f44b5ba7bd99c35dbea498e124309d4686b0def0eb6c65f97b851f6b6b1cf204
+~ ___57-[ACCAssistiveTouchFeaturePlugin _assistiveTouchToggled:]_block_invoke : sha256 5e9506aa99dc8637deabd9be0567409f7dad43758b85f5c7ef011a14a57e28fd -> e1d9e9bf2ca01f643756567b85f8da4b7d24c5f5ca0b075db0e9a2794765490c
+~ -[ACCAssistiveTouchFeaturePlugin _startAssistiveTouch:] : sha256 8906db386bb61b9ef0027cf4d58b781c8be9d68b5c810c2f3452b3f4ddd9603d -> b7fa161395d30c674fbf3c753416f1008307b69478e92c4c7f5e70550dbbdaa4
+~ ___55-[ACCAssistiveTouchFeaturePlugin _startAssistiveTouch:]_block_invoke : sha256 f431420a3316b537d23de0e324727b4fca2321af7c9d595eed9f91e560de5e02 -> 7bc6728075e59a8887506fd7ca61eb1ffe6cc3bc598e7efa2e413804a901403e
+~ -[ACCAssistiveTouchFeaturePlugin _stopAssistiveTouch:] : sha256 5ae2c326df0cf6ceee7fb9b81b0c28a5b67981499ffb1e53a786be1ce2ea330e -> e2487ef2cf1fd5ac44c9344cbff594dc76656d8db6b3629ffebd93698c08e15a
+~ ___54-[ACCAssistiveTouchFeaturePlugin _stopAssistiveTouch:]_block_invoke : sha256 a7e0a35bdb5f6d16359584210487f199aeb6302b63577069ce134ebf0a25334f -> c2be8df90adae10644a62a465027b6aba08a315ddd2dba750cb7c0c675c6c75e
+~ -[ACCAssistiveTouchFeaturePlugin assistiveTouchProvider] : sha256 ae36790574eee67194c91e559cc3a361ec6e32afb07bad6dd76f0dfbc3fa6be5 -> cf3208b231a9d6318011f73f440b1a1a5fc41885b86e245457c168c02c4be77a
+~ -[ACCAssistiveTouchFeaturePlugin setAssistiveTouchProvider:] : sha256 f6d504ba2cd0cd07aa19795d90f11eb3d7c64a47ff42267ea8865042ea64a4f8 -> 2d55ed2402d0e139157872f93fae57f9f52a5e7fdfb94e551c4160f031dc1a25
+~ -[ACCAssistiveTouchFeaturePlugin assistiveTouchQueue] : sha256 937f57821e6fab47825c3b0956588c089e23d9a7b9a7276458dd9750f777748f -> ac78d43a8ab2565ab82763b594f0a2687ded4dcd25ff03cfbc2d98ae259f82ea
+~ -[ACCAssistiveTouchFeaturePlugin setAssistiveTouchQueue:] : sha256 fbfeea2d9a094d97ecbc5dc61965d10318092b13ec1c3bb59a1ff26cae6e4164 -> a7de29dd8b77c113a9584e06d5bf5959ecf9be41a10768e32a45864e706f9c4b
+~ -[ACCAssistiveTouchFeaturePlugin .cxx_destruct] : sha256 70caf25eec87d615d3b0c533ae40fee5d0f137e4b0c0c235530a67ff52f068ea -> 90dd518c11974dfaccacc9fa067ae56d91cd50dd870767a317301567e150b4cf
+~ ___logObjectForModule_block_invoke : sha256 2cb3ca9ef08d34bc161f77c63550c235aa9ff1b25c5108c189159e8abd9a57e7 -> 5c333068b0bdc1793ba02f99040708a1387d573416e944dd42fe04d5fb9d2341
+~ _OUTLINED_FUNCTION_0 : sha256 7f38f9962444f1d76941757170758ef84ede396088b9d57b355873a2d8ac4aa2 -> 60ef0f7c45a35a6bbe992156522d6810bdb6853ee43c3af48efe5448bf71ce03
+~ _OUTLINED_FUNCTION_2 : sha256 581da937e9070a2d55b1bc5c1b6901cab802c72db0a2870a1b95f80caf688b79 -> bfba74097b3505235f82d86c5db8aabb1c92bbeebd0d4117f86a99360e65bcfe
+~ _OUTLINED_FUNCTION_3 : sha256 34cb5b167315ba3d57580e69b00c0a0b87c39e1ab1726a741ce4bf0c1fc8ef9e -> 73608960f8489b5e56de8378edf30c539e1babc00e8c450c1c3db6ad10a41322
+~ _init_logging_modules : sha256 bf3d2371595bbccf08001f3f9e03e469294620c271473cf13976d027764730e7 -> b42eb4d87a37ca490fde007017101787982076e61fef5f9c5623270e4ca49089
+~ ___init_logging_modules_block_invoke : 608 -> 588
+~ _ascii_to_hex : 156 -> 160
+~ _printBytes : 136 -> 156
+~ _removeNewline : sha256 c660e080be25eff3401e2bdc657c18d19848e10f93271fc8091a18d6ce2b35ee -> bb1eb2aa136825f8e88f7e10bf93851586de68018fea08b3dd762216dd97df05
+~ _obfuscatedPointer : sha256 67aed23edc3a4eb8c8075bc1be47201982cea7557efd611bca9fbb996c3e561f -> 951a889ee6a409ff3e187e1519e932c16f663baae3ad4d3f1918bc300de993ab
+~ _getMemoryUse : sha256 e1e495c174e5848ee1e7b4649a13f40f26cffdbb55580c1fee4e48ada8290c9f -> a069222acdb0b1b1222d062bb9c39a4633705c52fba53b740d35e1572d533647
+~ _init_logging : sha256 b32af543ed6cf04c4269682ecd56a84919a5029bfa56d405b6243ca1215f49d4 -> 30e15d579837356981f7b29586e2cdbdb6d950073a7b2039cfa25d351a6abcb3
+~ ___57-[ACCAssistiveTouchFeaturePlugin _assistiveTouchToggled:]_block_invoke.cold.1 : sha256 d17b6888694387067129206663cde6211fe0624925ac65273c609d2c37532bf4 -> bfb2428d4aa1e266dde8993bf0f27c0c47b72190ad6b55fc4c205da1ba3e8a14
+~ -[ACCAssistiveTouchFeaturePlugin stopPlugin].cold.2 : sha256 79a3b9bcf90b529b2e6738b44823c65ba0bdaefa51c6ec5012735c57be36debd -> 5ffd27218fa202a74eeb419727394d8d31758cfc2c10becd2563733115887390
+~ ___57-[ACCAssistiveTouchFeaturePlugin _assistiveTouchToggled:]_block_invoke.cold.2 : sha256 92943efcc05952acf315c79af6709fad78dea28f43f5018bfe579a34a9825beb -> 91ec012bdc72d619d6380f3b339f9be111387a2174a5f52637b9e97288ebced8
+~ ___55-[ACCAssistiveTouchFeaturePlugin _startAssistiveTouch:]_block_invoke.cold.2 : sha256 c52c4014ed1a1d393579320c1338212615815b4861aa493bec763b46e5b1e43a -> 7e18b81cae869bc56fb3d735397c64b399bebb5c5b96ffec6de2af295c667754
+~ ___55-[ACCAssistiveTouchFeaturePlugin _startAssistiveTouch:]_block_invoke.cold.4 : sha256 f08f40afc8ac93006a504cf2f330253daa0825866d1c49844d735820d4400b1b -> 136fe96ce2939c3bc454c70f51e6127e68ec04db2bdefd6a4414a9a18fa5e572
+~ ___54-[ACCAssistiveTouchFeaturePlugin _stopAssistiveTouch:]_block_invoke.cold.2 : sha256 1f30a34dfa104b86680f6a0df168a881c3f060ec76076a3f2e279507478e031b -> ec4075d02a3ab5153b5c2098185db6c84228119f77f9b0877f5b53690a91ec20
+~ ___54-[ACCAssistiveTouchFeaturePlugin _stopAssistiveTouch:]_block_invoke.cold.4 : sha256 6bfa706eb6b3b5ce6499b6b37abcadcb4456cf22d2b4b72dc74d732be7232f29 -> 671f5b17a4e869bb858dfda2bae8f69fa7f9ed1e041933709827903586f0ee7f
+~ ___logObjectForModule_block_invoke.cold.1 : sha256 ccce0fef923d6f528ba40406e562a0e1b5ddbb693582be9829c73ed9131b735e -> a306b8ba1f0b0d40cd5501d542d47f5f2dc672ab8cf661f77c33f744ff5bfc7b
+~ ___init_logging_modules_block_invoke.cold.1 : sha256 70659712ecba6fd9c5e2f5545e79667afe25c863be0691697797e0f416daa00e -> d861f25332e5f706bc7f1ed9845c7c24eb23b18642e4fed0ea95935457a83e1b
+~ _createHexString : 408 -> 400
+
+```

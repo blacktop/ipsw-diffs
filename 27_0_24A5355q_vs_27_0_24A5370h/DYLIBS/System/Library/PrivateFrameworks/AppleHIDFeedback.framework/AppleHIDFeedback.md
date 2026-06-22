@@ -1,0 +1,139 @@
+## AppleHIDFeedback
+
+> `/System/Library/PrivateFrameworks/AppleHIDFeedback.framework/AppleHIDFeedback`
+
+```diff
+
+ 14.0.0.0.0
+-  __TEXT.__text: 0x4b44 sha256:d71457cde462abe8412e3f0ba26b61b1fc6c513c60c1ef9949217852c3332149
+-  __TEXT.__objc_methlist: 0x324 sha256:b601e1dffee7c193065fcf26f1da9569da6a40edcd93f2829ab7cdaa9f2c646c
++  __TEXT.__text: 0x4b6c sha256:53b810d2f3f1ea8d228d29ee09531de49f6c0f5d3fd84ae4116222e0b894ba2e
++  __TEXT.__objc_methlist: 0x324 sha256:2e71ab1e71eefdd45478ecea1dac7b34fc0a29c9a22da3cb53b8d90c40bc57d2
+   __TEXT.__const: 0x88 sha256:dc35b9f87af357b3e72a1a3d3b66b74fdfcc0224ed51cd40deeb4343d9066738
+   __TEXT.__cstring: 0x823 sha256:6782552f8cfb462190bc53721cd5452604be597fee36958f0b460737e7752be1
+   __TEXT.__oslogstring: 0x685 sha256:135587449c0d040e4a1a8ba5abaefe67dd1e88d12ac1f16b474eea1b9e1a47b7
+-  __TEXT.__gcc_except_tab: 0x210 sha256:4cefaaa8f4812b47e894587fb2ad086f75034f65a51a5e237e5c316092b8b030
+-  __TEXT.__unwind_info: 0x1a0 sha256:403bc3a7a5074a02b51e736d1a7c466c107167f7cd9ac61c347860c88fce2cba
++  __TEXT.__gcc_except_tab: 0x210 sha256:340a717cde37e1e4da8161fc81911d67b64c5549975084f428234c3fd09ebdb0
++  __TEXT.__unwind_info: 0x1a0 sha256:52dd2eaa878f1ebadb70b88d3688788694c08e8de6e778029b94b6e6d05bf29c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x130 sha256:604b2bf61a99eaa4e74ab7dd0ed717ddca1f084f4717e949ce90a040c958fd9a
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:6516c15a29a011c13fe051c38cf9b15845ad40c586d91321d8537c9cbca08601
++  __DATA_CONST.__const: 0x130 sha256:d8a4b38ba49b11fc562cab93c275c80868b7f05be1ae3bb8590165bfb88b04b2
++  __DATA_CONST.__objc_classlist: 0x20 sha256:0f443de38d7d7ad0b3ba790c342eb95d99686bb6685378ad7320ce6e72f1996c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x350 sha256:71722ee0e5e97fc863f74cec3c1f97118113af7fc33ede4f0a032e93da23b849
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:fddad9178468568700a21313d2f9e8cc6c707bf6a7b3a25f1e089f44b427f1a9
+-  __DATA_CONST.__objc_arraydata: 0xf8 sha256:82e32e314ad447ff1495f63809b7c32bc5d666949c60d1ecdf88d4b9fc80fe18
+-  __DATA_CONST.__got: 0xa8 sha256:15afc8fa08584d1df6e9256468a6322e70d6a3a4512f2e1252fbeb2471d2d6e5
+-  __AUTH_CONST.__const: 0x40 sha256:dc8f8a9f89bdf6f5fb9549649585e0b516a4c6104895d8c5ff98611ccef78355
+-  __AUTH_CONST.__cfstring: 0x580 sha256:2b693598384d6d22c7ebbe43d69043b2a61871ecf5d143733f6a244ddfc464ce
+-  __AUTH_CONST.__objc_const: 0x580 sha256:84c4f7c21991ec2c83707f7e4cc5f2d9db4fd6720b2e087ee85af3824951a7d0
+-  __AUTH_CONST.__objc_intobj: 0xd8 sha256:148a55f875527952a4213c796627ec9155554101e2b3013b38ffb929faadb66d
+-  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:a7cc012c955256c0f98e2652c6d68b6edab8a83beaafd61b917b8a20f9f5ff2d
+-  __AUTH_CONST.__objc_dictobj: 0xa0 sha256:2d21405bf60eaa66e07709c1775d7b42e8ba3a3f9f5d1cb3ea7237ab80042d56
++  __DATA_CONST.__objc_selrefs: 0x350 sha256:c569cb818c87192197eee128e1d9cda94cce87b23abf1366c431e7e016bad799
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:9ba65c8fe3eabb14cf00525314871000612107166e2cfaed871ff6c2c3c640a8
++  __DATA_CONST.__objc_arraydata: 0xf8 sha256:4dc9046b5c80b41e5754a3a78f68e7f5c81220c1ef5da3359258f6ee557ef1a0
++  __DATA_CONST.__got: 0xa8 sha256:d5f690518413bfe313fe0e03545abb0dcf90d486a484de26b13b6f46e15b2799
++  __AUTH_CONST.__const: 0x40 sha256:dc037c8df779684d0619b27d89598e8db8a4c5673cffdcb6a58a859c75f19388
++  __AUTH_CONST.__cfstring: 0x580 sha256:6c0324304121f7af08f5da5c941e46a6b3daebf1d30da748e7680a928e5b1526
++  __AUTH_CONST.__objc_const: 0x580 sha256:81e2fe9a131f903de8c106ec0f2910a4e2a977f369f38977dbeb36b05e900227
++  __AUTH_CONST.__objc_intobj: 0xd8 sha256:14577bdb18c61720f2d3be15ed570debcfbe1c3ece2d66b40bc3eb3cd312aced
++  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:47332cb070181514d104295ab6d938511a997d52b8a7a3855db399eee9d94d6f
++  __AUTH_CONST.__objc_dictobj: 0xa0 sha256:e63d09c1005113dac57dee7b7341f9f6868b8e677ff52de144ac5d12bf945523
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x140 sha256:c5357e1f7f7724a8ea2af4286c7b8dcf5fa8699326218ba03ae27091b44e5a42
++  __AUTH.__objc_data: 0x140 sha256:b52f201485b7cb1ab4d58decda8068ce699f1197a439952754252c968613266a
+   __DATA.__objc_ivar: 0x40 sha256:f5cf0c73e5554467f629f6372c57d680ce8b282c41844fd6b5a8404e1b2e309a
+   __DATA.__bss: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/HID.framework/HID
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 85042487-FB72-3CD3-9BA2-0AA4CB29597E
++  UUID: 4A09A3A3-2309-3FCC-A37E-4789588BBC14
+   Functions: 91
+   Symbols:   436
+   CStrings:  154
+Symbols:
++ _objc_retain_x26
+- _objc_retain_x24
+Functions:
+~ -[AHFPencilPatternLibrary init] : sha256 4514afb9abff0d4bf577e8b5ffab5c734f1c5edecafc91c63d2762d2652eae8e -> 0195a246a667eafdc96186e5ad1ddadfbf2abc34648f0e6d046aad8105c74b55
+~ ___31-[AHFPencilPatternLibrary init]_block_invoke : sha256 0b71e59ce25f2fe7c163618ceebfb19ad327a4bfdf38d88d1893c495716e1fd1 -> f343afc474f49027921e44f4bd417ec9d9f1d7f8d7fdb6323c86437a547ac525
+~ -[AHFPencilPatternLibrary waveformIndexWithType:] : sha256 26025df90745e9f6b7be9fdf81c22f237b2753bfa00d623053d1a7acda7b42b7 -> a4c7fe6f0c49bd510200cf1710b005ac21036af201a63345086989e6fcd1e8a1
+~ -[AHFPencilPatternLibrary createPatternsLibraryFrom:] : 2896 -> 2960
+~ -[AHFPencilPatternLibrary getReportForPattern:timestampUs:prevTimestampUs:error:] : sha256 b72aa6a6dfaca70ab00c65646a229d64c5bffbba98dcf91145dcbc5f71714517 -> 190677afd82e5a89cf0e7acc291c6386239371ab3222a178ab29894e351c1e98
+~ -[AHFPencilPatternLibrary allPatterns] : sha256 6ee04a98d892ddd370ebbca00e298fc7992b73e9cf504d10677f4ff4f2ae2934 -> 220d46b427d4038be3ae0138069102ecd820c21153caef30d8aae7e333704407
+~ -[AHFPencilPatternLibrary isReport:equalTo:] : sha256 73bcbc3443eaff922bab5f1a102f3b153e41b62ac57c9e0cb92770ca2becf982 -> 0df4cdee300cc86fd48ce1ead370612a3ab3f6ed7f98a1e58b994ee372a72040
+~ -[AHFPencilPatternLibrary maybeGetExploratoryPayload:] : 604 -> 600
+~ -[AHFPencilPatternLibrary setLibrary:] : sha256 9ad2154086d0aa3df5343f26bcaa8d769871dd34c1f78c0a0bc0452939b1383a -> 40bda0654eb27373b073e95ca5d58ee4163e3e28ee7b5bc94348147f5dd849af
+~ -[AHFPencilPatternLibrary .cxx_destruct] : sha256 55d6248d397912bc41118b290e9c8db1991da2f4eabb95a1bda0478fc6f78a70 -> 233859318b806a6140d2753edd77fdda3199a97e055a337a10700973c2806a76
+~ _isInternalBuild : sha256 a66d2cf5282cb5eccc21c18fb94431d03ce98c36f86aaf9c9f5fa3fd20bf4b66 -> 2d0fbaef54efacc1c4931d8f0e99703c0488bb11399ebc821b13eb9a0113eab8
+~ ___isInternalBuild_block_invoke : sha256 4a6bf010b8647a406b3b61299e46fb67f29bba807bdcb04b7bb8df00007849b5 -> 8f7c18a8f936d2cb694bb81615da544375c2b9e1fbe16f0c78b6c653e2c9c29b
+~ _microsecToMachTime : sha256 ed4f8090ca053eb7f01c5c87b3c0bff40de77e72627dd05ca67a47cbe9a55154 -> b8c0eadaa4e99dfad306aa20f46c01752615a4028b443d56cec72f8eccc0ba7a
+~ _machTimeToMicrosec : sha256 84ba0a719e69cc1940255887fa64f23de7c4a5ef80249b61afbf21485e2f9012 -> d9aa2661c6f8bda859c6a6c5af23c5a951ebec817fa77e1a2c9493d1ca22b330
+~ _failure : sha256 cf0ab575c6a308c8f26c1d8f0e6a3665b64bb1a25957b0914a284d2a6607c123 -> 0a17242fa424ab87f782c492efe2787a08e9c5ee5fd93113632ef6698f0135e0
+~ _LoggingFramework : sha256 03bb6c3b6f70411214160135538aea855cd15363ad2eb59dd0316975dc1ba586 -> b500618fd775b9bbb40cf694c0efa38a7c597ae680f251bbc6199effcceb69da
+~ ___LoggingFramework_block_invoke : sha256 05f708dd7348e526c9068abef878644c91ab60956e9c3297178995de9945b0f2 -> aa470f701004d9abda5b82364a9965556ef151bfb1caf3c69c68cdd1af61bd92
+~ +[AHFManager sharedInstance] : sha256 3992bf2da9ca4b8c2a73bc007749c637048b7afed103f56f8f17016bfdfbcbed -> 1499a569c2f556257f0524c1b622d0e18c89514975461558c179995d74df67d9
+~ ___28+[AHFManager sharedInstance]_block_invoke : sha256 a0511692123687bc4c21b0c30d1bb22717cd94cb48997613f437ebc6b5fcb42b -> 6fc7b56172ca3d424883ffbd896c01b5ab9b567d401ad9b8d6817579a38a2055
+~ -[AHFManager init] : sha256 efe4f1569d24494172797cb513ab004fb265ac339a6455e6aca0704a97517e92 -> 1dc808736d5e2b3dce38499b5e2a26a6224357893e464bb9e7d3fcc05f4eb7be
+~ -[AHFManager playFeedback:senderID:timestamp:error:] : sha256 bd479fc7bbd3361de87345e664776dd088edf0caa5b424a444889aeb159e402b -> aaa465cb799acb4b44562fcd19a662c28fc861fd5d8ede64cc74d93a3555ca52
+~ -[AHFManager playFeedback:powerSourceID:timestamp:error:] : sha256 fe38ae7f61ce60e2138ec2e496f46dfbf66a74c8ad3a100afdedec634ad8d0c8 -> 1e16f3800331226673d7b06c25dd41cd730a8cffdf1fd11593ff20c1105ffdeb
+~ -[AHFManager setTrackpadController:] : sha256 2d02dc6a06e234710d555af05b072887ce5420c7a82de1a31d1a3e8da6cd4d50 -> 5c69468b8f358e464caf7de1b561768d6b5303298e1d052e1913b81b9ee6003d
+~ -[AHFManager setPencilController:] : sha256 442ce95f78dcf4f25ac617b2769f7e03f2e8edabe81d6476ee06b282aed7fbbe -> efe1c2dc9a798b9404fc9bc187bf3b3c29fea9bbba618ab93b50057cdde55b80
+~ -[AHFManager .cxx_destruct] : sha256 6ae70a3f84904eea21eb7a5578369005eeaf4afaf9ba1b489f28e006ab13631b -> e6612dab13102d6b2792ea3be1f59edfa4efc5c651d1522f0e93a7bf910f437b
+~ -[AHFPencilController init] : sha256 61cfd0f3de834759b4850d56d60b70f929b40f405f8838b3c1a6d44096d27fbe -> 3002f6cf132dad24b62a470aaef0deb2c923e9b2d9f23faf7d6bc231eeb7a556
+~ -[AHFPencilController dealloc] : sha256 c02c47ddc288a14d74a4148fea88985c49b290f89bc6bf422846d44b5cd61dec -> e3b4b5c19717772dd9c4a37133ed9c7b814031b2c7b023a0a5a491d88128e242
+~ -[AHFPencilController initializeDigitizerStylusSystem] : 576 -> 572
+~ ___54-[AHFPencilController initializeDigitizerStylusSystem]_block_invoke : sha256 ca9a18ff4f7f941a5811ce080b6e4c0291b033a6016d73dd8dd32fe641b66131 -> 769a7fdedcbd17069813dc6245c0de47b1d1efc83fb965a7a123e7d88da97e31
+~ ___54-[AHFPencilController initializeDigitizerStylusSystem]_block_invoke.14 : sha256 a2b21ef55b10626be2486713470ea72cb8a9ef7d4fb6123de06459a433c88c28 -> 14899826e03a0d8fcbe17c568c11d155bd9b531f70121956fbd240a30aa22253
+~ -[AHFPencilController initializeOpaqueTouchSystem] : 576 -> 572
+~ ___50-[AHFPencilController initializeOpaqueTouchSystem]_block_invoke : sha256 d73df07c8abf072ce1a6d8e3396bd701f6410e10d32d6e9692e2c3ad19620c7f -> 672f580ad1930f125ac83fa6262115769aaca733d2a57e12418c794864e37751
+~ ___50-[AHFPencilController initializeOpaqueTouchSystem]_block_invoke.25 : sha256 8839c989979f70f027ca93372452ff83181ffe34b3a97fcd0dda3cecda6be4d5 -> 2e574a28ea1392b6b6db579db4cbc749b4b3f46ffd7e92820ec1f6d2ccb0071d
+~ -[AHFPencilController initializePencilHapticsSystem] : 548 -> 544
+~ ___52-[AHFPencilController initializePencilHapticsSystem]_block_invoke : sha256 e08065dee215743942535235b6fddac5a9d184dde698244dafaa4efcc647b7b7 -> 4da1cbfcc6942a3ac58e675ba1afd1d016b44b968621e07a23f2a9a6309ea648
+~ ___52-[AHFPencilController initializePencilHapticsSystem]_block_invoke.36 : sha256 3c093ce10b960d0e87591a0dae16df9c353082982c1de55e9260fd8700616f5f -> 1a4cf496704b96c3527b4d3986520c8160c1099e65e219c7bc3aa9e2dcb3091b
+~ -[AHFPencilController playFeedbackGated:haptics:timestamp:error:] : sha256 aef81032874acb79bafac30fe00175755ccdf418ffca1cfc56946df4a3545c12 -> c669e4846f2e7fb6a85c1ccba69c13f5fd2ce684d7a6a4f41cfe69652bd2312a
+~ -[AHFPencilController playFeedback:senderID:timestamp:error:] : sha256 f8a696147af6d1c2daf7bfdd0bb250f5fb35800489f4f4925d966c522ee65b8f -> db7cba2ffdd7aa02d9897c1c2d0dcb84103dc1a234f62b00cf94ef7b5c78ac75
+~ ___Block_byref_object_dispose_ : sha256 88ce3c74e6d486562be9c68810820e1b465a20a06cdddb58a0ed9db9783a0204 -> 28f43e5cb5c66a7db7555136f8d08226a31d50b7b50cf47812f351331f54a5c6
+~ ___61-[AHFPencilController playFeedback:senderID:timestamp:error:]_block_invoke : sha256 c8f3d577683cc6f3765de5a5e56b23b3e0af9bf3b5b4870118866f66485020a0 -> c1d7600924dcf101729e75e08d37f0550b5af2510f5bfabf7a549686fe2e64e0
+~ -[AHFPencilController playFeedback:accessoryID:timestamp:error:] : sha256 73cabe1a9dbd428425a4bb64e559f2ef285e9ba2d39bf75cf31b196ed8a40095 -> 0618e47bc8fa58eff855ab53bc8e6e21c3f95a07d7d04f0d8fd8bf47923a4808
+~ ___64-[AHFPencilController playFeedback:accessoryID:timestamp:error:]_block_invoke : sha256 2decf6fe9cf6f83beaa1f2ec05f2c892bb91b606e51024b32f4b9189229240be -> b008093e3de9971131f1e0439302f3ab05041c60580515cc1238348cedca9ad0
+~ -[AHFPencilController setPatternsLibrary:] : sha256 c46bcd4cae7d32ca79677e1a48a21bdeba2bf634e7f94a1cac839fdd3a20fddb -> 895c22b49ae825a93c1abec91ba00b6f5d0b3ea9e77d28de101faf9dcc5810be
+~ -[AHFPencilController setQueue:] : sha256 957b185156dc2421345292f1956951b7a8f40a0c5cc7033bd573f55849bcdf61 -> 65369f37455bea49ea9269ea7f2455c55c5f75ec2b44260665ff7772dc020f55
+~ -[AHFPencilController setDigitizerStylusClient:] : sha256 d61a55dfc28714cad276a903b3857030784e3e5875635975dc218e6c1ecd2892 -> 9bc0bdd9c1f9914de61c728ca30f4b684b5527025c6bf179aeaa920efbba687d
+~ -[AHFPencilController setAvailableDigitizerStylus:] : sha256 c4943380c17c983a626ddbc0be2b1c3a154678125a4ff75f11e864360b31864d -> e9fa1a2a329f23fa77adf831f8ab0498764f016e2daf04da3bc612f25c7c3037
+~ -[AHFPencilController setOpaqueTouchClient:] : sha256 e192c001c3a57a1c29f9a0841d701bfde9996f4d966bade5bdb191d06772ba02 -> 4133272feab9cf881a382d600c57d9875eb8a1460a24a4bc5bed0a4b05093c87
+~ -[AHFPencilController setAvailableOpaqueTouch:] : sha256 7931fb51ece8c9fcfc9a309293a8db49542a6c11151e6943a75eb7a29775d754 -> 8587182987040e57403c2e4ecd074aaac492362c6a2a7a70a531a9e06438e412
+~ -[AHFPencilController setPencilHapticsClient:] : sha256 d870a85a701152886d956c2e39150b3dbcf0d949ed7cd1e60b41736a1c48897c -> 072bd2e18a74c5751a59ed4e8c4bb5c76139a09660b41f0d7560a78b00aa7274
+~ -[AHFPencilController .cxx_destruct] : sha256 4309ce500dce20d77ff8d97c744cea72e3c20955f25893ddf4fe46365b10ff8e -> f353e1fc1c75c11662e83e8c526e4d8a65fcc908fd9de99fdfc33ba2edf15738
+~ -[AHFTrackpadController init] : sha256 53c91c8bebcab36f6d18a275ffa789ab2db1318817760d9680ca1a853a5717c1 -> 4d85e4f96e1f7f8b758cef7d014b842a603721ee8ce5e8ed36d2650fc7556f81
+~ -[AHFTrackpadController dealloc] : sha256 d0075c9bcb64f2af838a7513cbaf582edada7a863b4d5706e61930b7804a807b -> c57847301e6965a8089f7fe0eb9d8d1ff8cf4289007e70608e46d25011f5b865
+~ -[AHFTrackpadController initializeTrackpadSystem] : 696 -> 692
+~ ___49-[AHFTrackpadController initializeTrackpadSystem]_block_invoke : sha256 23c6f08b1cef37a93d800cdac4b8d8970db99bb34d8c88b1424b59e62ccc1a6e -> 19766f659de047da898339d7e0d34a8ba2eed894f0a0ee04884c8ceeb852d61a
+~ ___49-[AHFTrackpadController initializeTrackpadSystem]_block_invoke.16 : sha256 4b836e4d7bd9b107a4af7c5aaa35dfbf5adfd2def44c51dab796b6bbf5fb723c -> 49daf01e09cf6773f49aa032e48f903d47639e705fe8527fd3f97b373cb3ef84
+~ -[AHFTrackpadController getActuationIdForPattern:] : sha256 029d2cf333024a87106cb8142eda66f1fc3787245095c6627ec283eca7967237 -> be50faadcf515b828c3599615476be700225c2c52a352f9b8cf336495f9392e3
+~ -[AHFTrackpadController playFeedbackGated:client:timestamp:error:] : sha256 86cf8d5b8529cdf656cad8e0031b33f629831a93114a605aac52f68270c2113a -> ac5e53ae70ac7c0801db724d5ec7443e84791fc499123cefd225ebc5e8aa2e64
+~ -[AHFTrackpadController playFeedback:senderID:timestamp:error:] : sha256 44e7c452a39643dae01df3e174cf241bdfdfe53e13fcbfd28621489f16cc8fab -> c46fd9c8eaa5110ec566d17aa7726d5ec0eac81ebeedaa52d12912a3599df306
+~ ___Block_byref_object_dispose_ : sha256 21a1847b3f97f61ced7ee11418ed2fa9ad946d52f33dc298f7a9a74626a8dcbf -> 93cc2a6b8f0b98044cf9d09c1089d5d77a68fa2639fa8b5117589368d62a3a2f
+~ ___63-[AHFTrackpadController playFeedback:senderID:timestamp:error:]_block_invoke : sha256 626ba406fe7ea869887f58a1eb45dc29ea4adfad6381d5d6e96f25eab31e1c4d -> 17a8f43155971f1c2b08ef842623a5c3452f72fd768cc90430ef73f524f39fee
+~ -[AHFTrackpadController playFeedback:accessoryID:timestamp:error:] : sha256 ce730983c83c8107bca9b1d6a60748df99d8afc5c89a14256d9e5dfd94b8e3f4 -> 886409434eeb13460a4cafc79368d276ec51074ab36bd7d48ef766309f2f690f
+~ ___66-[AHFTrackpadController playFeedback:accessoryID:timestamp:error:]_block_invoke : 440 -> 436
+~ -[AHFTrackpadController allPatterns] : sha256 667f92c23c2c0e7f4948069a07744b6553bf3ae356fa225cb307ae5fbc0796f3 -> 6b81c46c5adf3e79e2f24b073066afffeab1fb98a6d48c76c9be9318fe71a0cd
+~ -[AHFTrackpadController setQueue:] : sha256 92c934a8f9a837e53487497e29f47191c5488b6bdfc69d12aefa8a6190bcaaa4 -> 6eb539d44f53e17507c29bbffe693614dd7730661c938ae73d25ec541cdb6c1a
+~ -[AHFTrackpadController setTrackpadClient:] : sha256 77602d7d562f44f00607f422ad9d906a9544a48a7c27bb6f6cb1f91b87709e78 -> b0b3454ae989afa8d454820c9fd58bc8a50690358fb86690b82ba81d6f3d34cc
+~ -[AHFTrackpadController setAvailableTrackpads:] : sha256 959c2e677c4575f0c8d171ce5ac486bff858b0e7f34985e19f992ea1f77a348a -> 428744a2ce65c9db6180050e618b4ac0ced00013332d0c697136d0724e200bb7
+~ -[AHFTrackpadController .cxx_destruct] : sha256 e57312e62c0e686e4dc58f9b46e3949aabd16d7764e758af1a924f62419bb151 -> a223643e1545c4adea99ff6a58c83db7a8dddd58f395d93080a59237cb10515a
+~ -[AHFPencilPatternLibrary init].cold.1 : sha256 f874cd51bc15da8c37490a1075f18307e5e24d71437abf242ed5a99219d7b1e6 -> 0a77dc07b9e45ef501a6c08a16438f8a297005d94bf3707ad343e10461b98758
+~ _isInternalBuild.cold.1 : sha256 057fbb6383de1c14ec37cde2148e3c569d06f84552d1e71ab3cb79fa1af98f1a -> 6a27185416a31a708b21f9ccf2fadf28bd9a8ae2f520cb0c3579f08bd2683800
+~ _LoggingFramework.cold.1 : sha256 c0295d170199b292c60559ad49683787c15e68dac1e905423e0689ecf48de72e -> bde99f0ab9945fa7d2d7fe4d8497a81757f83f0443bd8f2fee17a10b67a45260
+
+```

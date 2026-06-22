@@ -1,0 +1,48 @@
+## HeadphoneMotion
+
+> `FileSystem/System/Library/PrivateFrameworks/SensorKitUI.framework/AuthGroups/HeadphoneMotion.bundle/InfoPlist.loctable`
+
+```diff
+
+ en.SRDisplayName = "Headphone Motion"
+ en.Sample Timestamp = "Sample Timestamp"
+ en.Source Device = "Source Device"
+-en.accuracy = "Accuracy"
+ en.attitude = "Attitude"
+-en.batchIdentifier = "Batch Identifier"
+-en.field = "Field"
+ en.firmwareVersion = "Firmware Version"
+ en.gravity = "Gravity"
+ en.hardwareVersion = "Hardware Version"
+-en.heading = "Heading"
+ en.identifier = "Identifier"
+ en.localIdentifier = "Device Local Identifier"
+-en.m11 = "m11"
+-en.m12 = "m12"
+-en.m13 = "m13"
+-en.m21 = "m21"
+-en.m22 = "m22"
+-en.m23 = "m23"
+-en.m31 = "m31"
+-en.m32 = "m32"
+-en.m33 = "m33"
+-en.magneticField = "Magnetic Field"
+ en.manufacturer = "Manufacturer"
+ en.model = "Model"
+-en.pitch = "Pitch"
+ en.quaternion = "Quaternion"
+-en.roll = "Roll"
+ en.rotationMatrix = "Rotation Matrix"
+ en.rotationRate = "Rotation Rate"
+ en.sensorLocation = "Sensor Location"
+-en.sensorToHostTimeOffset = "Sensor to Host Time Offset"
+ en.startDate = "Start Date"
+-en.startTime = "Start Time"
+ en.userAcceleration = "User Acceleration"
+ en.w = "w"
+ en.x = "x"
+ en.y = "y"
+-en.yaw = "Yaw"
+ en.z = "z"
+
+```

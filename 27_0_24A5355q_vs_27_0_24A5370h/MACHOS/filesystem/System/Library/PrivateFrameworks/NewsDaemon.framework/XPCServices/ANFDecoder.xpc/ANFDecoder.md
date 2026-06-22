@@ -1,0 +1,48 @@
+## ANFDecoder
+
+> `/System/Library/PrivateFrameworks/NewsDaemon.framework/XPCServices/ANFDecoder.xpc/ANFDecoder`
+
+```diff
+
+-5916.1.0.0.0
+-  __TEXT.__text: 0x9a8 sha256:500efe3d573011ab2ba9a33ba0ac8cd614f42343e8d478c1b7cce7309be394ad
++5920.0.0.0.0
++  __TEXT.__text: 0x9a4 sha256:1661258f1d201154d493e0ec692ab876962ec1efdf312fb7fa40943c6afdf246
+   __TEXT.__auth_stubs: 0x220 sha256:81b4d70f7bd0ecfcca15c7d41565087ff2d19353bab86683d2ce82983fa6433f
+   __TEXT.__objc_stubs: 0x3c0 sha256:1883c5f57ed27600dcd1f4ab63d08f64598d16b33457487c50878db8daf66877
+-  __TEXT.__objc_methlist: 0x1fc sha256:3ddf0444579311658b3170ae57c71b4e8152a75795c6d75b3a1e5a87f4189081
++  __TEXT.__objc_methlist: 0x1fc sha256:96ac81b79796910fbda18a3420f622c2b5f205fe883acd1e58d3c59b4edf3e61
+   __TEXT.__const: 0x48 sha256:99ae11921f4266dfcfc1efb1b4455bfb4fcc981c59ebabc539d03a16c877f894
+   __TEXT.__objc_classname: 0x75 sha256:5238300bc029ca7f3cae96540cf528e05a2dc82fab2edd62e9ddc2b54fe3c20e
+   __TEXT.__objc_methname: 0x488 sha256:2a96d150af6742ea2ae0c4c68b057d837fa4378e64f3c1a8bc8f3cfbf60211ee
+   __TEXT.__objc_methtype: 0x182 sha256:12af281a791d1aad8b7437a8a8a7f829e7cae2ffe74afb460fb175340b1c9582
+-  __TEXT.__gcc_except_tab: 0x2c sha256:435ca89d195c418b60464e52411aaf63c7fd155ae53f4a7d23f8603c7c0b521e
++  __TEXT.__gcc_except_tab: 0x2c sha256:b5ecff45e6649bef6561563156db0a433da31044a3fbad969ca898dd5696775f
+   __TEXT.__cstring: 0x44 sha256:f7b709f73b4b765f4a57d298ca653173d9e84bdb29f63daaf9f769f0424dfa18
+   __TEXT.__dlopen_cstrs: 0x48 sha256:ff8f715192bbaf0ef66167bdf06adfaa44db5363688b1b5d98c811193e19f11b
+-  __TEXT.__unwind_info: 0xa0 sha256:f2e5a3498cbd12e4b00ebdd9250b45e777d7c6419a1b7a925555af29b750ac7e
++  __TEXT.__unwind_info: 0xa0 sha256:4eda63e589f5ffc6009cccd9b87bf273508466b2fc19c213e278d02d57e2a8f1
+   __DATA_CONST.__const: 0x88 sha256:623870939a651c7f841ea7a79c6774edd11a0f5bbd7a22f2dca95b204f59436b
+   __DATA_CONST.__cfstring: 0x20 sha256:11d8bcdc7dc9b158fca8451d79bab29bf5a6608fe579818c8dbd9ab2237e1700
+   __DATA_CONST.__objc_classlist: 0x18 sha256:93015250c1be6fe56f984c6099b0c88f0e177ea3f4d09019c5b03c10a2ccda8b
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1769EAA4-A852-3D56-8635-8986481E3BE1
++  UUID: 088F37CF-290F-3A2C-9C64-8477ECF44227
+   Functions: 16
+   Symbols:   62
+   CStrings:  99
+Functions:
+~ sub_100000d90 : sha256 3c41f0bbced1418ae29af930a4aadcc0a0d84b830d8d267624828e6232f39505 -> e047651940ec269c300501bd6984595a3adb98584561845e65e696205cace277
+~ _main : sha256 10b92f691b6c036bd113069c29ee0017769f44e46c18ae83aba3b79e5643e2f2 -> 4f7a7a70eda2c24bbede7b0047b214f7ca180988df5dfa6170f040c6d1413510
+~ _NDANFDecodingServiceXPCInterface : sha256 c1563fab4e413b0f11e09282204ae713db7ab44140508324922a520b951c01e4 -> 833776dbfed9783ddf8eb389fc90be497b705a0e0443ea9c09dd1cc65719ddf0
+~ sub_100000f64 : 976 -> 972
+~ sub_100001334 -> sub_100001330 : sha256 59ae1e63cc48aca0b26fb2dc8f60fa69c97aab051ffdbff84e5e673ce3774174 -> 36539ae62ecf71bf6e1d4e1f679fd4238171eef9283453bfdd90709a1cd868e0
+~ sub_1000013bc -> sub_1000013b8 : sha256 b52f7d34c9d5d4a950292346a70907762ce5674819519f7afdec7581a89b5b04 -> b6081c30f386e135b178842dae31042e942c75ef1911617f889961a776fb3006
+~ sub_1000013c8 -> sub_1000013c4 : sha256 c3a81ef6f735d78f4896138b602c7d75e2641958f6d9e00a85369ecea81899aa -> 36b129e0e4ca3d447c497992949e1913b559e4680250da611507cf9330f4baa0
+~ sub_100001444 -> sub_100001440 : sha256 ee4bc4c21c09afbd46f4bd65c94d52444afe8ab884239a545b9b0843864b0652 -> e9cbab827b4ffc4643d39a84930ff7f46269aa3df0cf778a1c13ab9d9ea37733
+~ sub_100001660 -> sub_10000165c : sha256 05833dbf443f0774e769c87e44145b1bdec3fc7738d3d5962d0631e7d0fb027e -> 7b751df5dffb6d6b8f3304268f0ccc6475ce33a591dcd29900a0f38e4029d1d6
+
+```

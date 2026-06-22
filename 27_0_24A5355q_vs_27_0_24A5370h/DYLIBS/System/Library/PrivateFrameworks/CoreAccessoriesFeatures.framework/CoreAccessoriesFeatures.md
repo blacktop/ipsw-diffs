@@ -1,0 +1,93 @@
+## CoreAccessoriesFeatures
+
+> `/System/Library/PrivateFrameworks/CoreAccessoriesFeatures.framework/CoreAccessoriesFeatures`
+
+```diff
+
+-1176.0.26.502.1
+-  __TEXT.__text: 0x13c8 sha256:a85e7dd78214e16f4ae50aa64b0176181fb6cf21a79286f87707edbbe427c151
+-  __TEXT.__objc_methlist: 0xbc sha256:9130093fcbf079562a7046882c43500751653ae48b363dae8984365da92cd421
++1196.0.0.502.1
++  __TEXT.__text: 0x13a0 sha256:55349d60fc6343d7bb5dc800f0ce52eecab928f3f2058db543c46815a44aef49
++  __TEXT.__objc_methlist: 0xbc sha256:ccfb26bb1e1ea1460c97c322c89d049cea725d210e1a0f40786dc9a27bd407f3
+   __TEXT.__const: 0x88 sha256:c166fde3d4f7f860e11da756ed2fd9011bdc318439a40d9264b4bbf4bf94eac0
+   __TEXT.__cstring: 0x100 sha256:88eb97030fe30ffdba7d4e39ac76fa41e08d79b4c61af7be7e0713eea1a4423d
+   __TEXT.__oslogstring: 0x3f9 sha256:84e1ad2dc672c82efa7bc8cee6491f19354fc603a63c19f19c54607382ee8334
+-  __TEXT.__unwind_info: 0xb0 sha256:59b935b912299d9986efc0d9e8d2fb6b4ba7bfd08697716726626e31b8a22838
++  __TEXT.__unwind_info: 0xb0 sha256:092b8dbe4d825d2d435d8090d95ef9763223f52640178ffc358f6df9ac127a8b
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x118 sha256:e4cd5cbfc18ff7cbd04ca97f4d7a0e2331d8b0056f01b3db16c41dda1ddbf38e
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:2eaf84cfaf7ac0afc4c4eaca921fa9cdc72987c1bdff409acce7a09a55c6381e
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:092049a20b5ec2a4254fe06c95b5e396b7cceb95a2111ddde08eb28fce411ae5
++  __DATA_CONST.__const: 0x118 sha256:c95a10c783c94e6c941d508d87b4439db96d18138ba13968ad78d7e307b37a17
++  __DATA_CONST.__objc_classlist: 0x8 sha256:90600e1fb259c3960333fc181745e86d5598e13c919c33fa2d15e55ee3837b7c
++  __DATA_CONST.__objc_protolist: 0x8 sha256:fda691cbcab9a0300bae67791351341643f0101c60118b78eae86797d9e3e24c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xc0 sha256:bc5817bde2b3d7b638cc576c8b394dedc5a00bfbc5b5da8ead2d4dfd6d0b33e1
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:d43b0ff8c73dce6ec79ec95f8b78481884cc482ed3550f56a28edb09f0ac4570
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:2eaf84cfaf7ac0afc4c4eaca921fa9cdc72987c1bdff409acce7a09a55c6381e
++  __DATA_CONST.__objc_selrefs: 0xc0 sha256:09f6cb07ffe861c121eb6afdf6bae8c87c6cea362c40a95ddbf79230c806bbcf
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:677600bb3bb0857ba44c558b6ae46557a143b87b86042f3dbade7a0d6f0181d1
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:90600e1fb259c3960333fc181745e86d5598e13c919c33fa2d15e55ee3837b7c
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x40 sha256:4d92f00db325fcef5e71673e8baabe498bb96604c4633b032300bd4176b21a27
+-  __AUTH_CONST.__cfstring: 0x40 sha256:f9ae69795df25bc848d2db51067d5dbe071355ab0d0f9741ab2c089bcc65e2e4
+-  __AUTH_CONST.__objc_const: 0x108 sha256:4572f3cfbdda42b13f5c431a071ef4815349e2cb4514333a5d9eb3a3ed654880
++  __AUTH_CONST.__const: 0x40 sha256:04f5af916636715001910f7c33af4a4d7968dc0d596e867fd58c6bcbdc78ada3
++  __AUTH_CONST.__cfstring: 0x40 sha256:9ca3e3787efa1b67b1023b0cbb311e06fcbf3bbd97940ada5d865ed046602cfd
++  __AUTH_CONST.__objc_const: 0x108 sha256:dc92a62c35aeaad49e63dbf506653a1de1be3d2fbdd0d7474f4afb6214d87faa
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:46cce6ca8fbb1ad37127ea0d22c5af40f2a6fab533c315a00303077d3f3e4695
++  __AUTH.__objc_data: 0x50 sha256:a295fe17ebdd03b499d0d639ef4acde185e55bcf15e9154ebcac90195eeff856
+   __DATA.__objc_ivar: 0x8 sha256:1842d9d60985977543496f68d38a01a5470beb95bdae33af49b8167ada489f83
+-  __DATA.__data: 0x88 sha256:d7817b07b4fb36f836fd3071fa34d8d0af1c9a85b13e46eb0002ed9a21454129
++  __DATA.__data: 0x88 sha256:37ba27122e3d62a999c5fdc498600793f815b860886d9d2bc5c8f6f3030f4fa3
+   __DATA.__common: 0x1c sha256:3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8
+   __DATA.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 216B8267-44BF-3CA5-8786-EF2505877150
++  UUID: 042B5CD7-869A-301D-9DF1-A45F074A5E23
+   Functions: 33
+   Symbols:   178
+   CStrings:  33
+Functions:
+~ _init_logging_signposts : sha256 aefdd0b3bb0293d926c1a2acf18affbc9241cc16f7a228d18412a2ed6c9715d5 -> 792d4ca3a64584dd267f744aece6896c37d6c476f8ab620f51a35d90180b09ca
+~ _init_logging_signpost_modules : sha256 f8c583ab1a8863088ed67d52121ae350d314617294b762da1a846595b461db80 -> 2aa84621b7b54235c2aba818aed2ca966928da44618e003fada7b08f1d9a3b10
+~ ___init_logging_signpost_modules_block_invoke : 608 -> 588
+~ +[ACCFeatureAudioProduct sharedManager] : sha256 de4f4dcf8ecf601fc0d69fca7b2a40608c28a20630e3dc7a37a118df484490f0 -> d9cd478f4c37143a62e420179b6e09ea5c7d5137059f8d98dd0c8a5c44ba5b2f
+~ ___39+[ACCFeatureAudioProduct sharedManager]_block_invoke : sha256 a63895fe69c2b80a22d91246bfcb5fb453545fb47a40e22c960e675731fedf0b -> 2b48672fc907d1c9e73124c32b7bfe93aa57d46ba3b495d446588417641960eb
+~ -[ACCFeatureAudioProduct _init] : sha256 6ef30e6bccf333b10561de750a0289b0f86bd5ffa6be63d40015bf38d7a63ad1 -> 66c834da0deb75b1df765cd607346aa87c2de48fb2e66374bd0d3337605c7dc9
+~ -[ACCFeatureAudioProduct _connectToACCFeatureAudioProduct] : sha256 71e9387752a9f0c4491e7939c19d52b4ee1b9a9c987f5877f9f5d010c2100c82 -> 15c74b0e132d7bad5b58d9feafaf12fc633044b99b4ab546dd2e429bc618797a
+~ -[ACCFeatureAudioProduct _disconnectFromACCFeatureAudioProduct] : sha256 69bc0b51e57a8aba37b3e055ec7a20865d7dc9354e39de3ff482bf78fdca0f00 -> 22e223842397ad7914d830ab08836bfad30b26129c22ecafac14ca925df070bf
+~ -[ACCFeatureAudioProduct accessoryAttached:connection:] : sha256 1f1174081e6da8a0f57c60b7c4088e75330e9a8c0cdd60e1d3561aa306f6a8c0 -> ea4fd10b890fb8e654875863b50ca4c9836416c4d895c1d73169ae72d81ccc40
+~ -[ACCFeatureAudioProduct accessoryDetached:connection:] : sha256 bcfd93f888ef594addca776c3b101dc8adb941c5d590e7d39642bd1a9e70117e -> 8c332da89ab3d4d73aad567d904b132d54331119ba4668522aababc17dcff321
+~ -[ACCFeatureAudioProduct processAudioProductCerts:forModel:firstConnectionAfterPair:connection:endpoint:] : sha256 05bf4c32b5a6b85068c4c438ebcfc161c00525229b4869048888e74c549ca917 -> 316bb37414830874ac002e77bc965f8d521a7ac86c17e24c881a5ff1c4df8f2e
+~ ___105-[ACCFeatureAudioProduct processAudioProductCerts:forModel:firstConnectionAfterPair:connection:endpoint:]_block_invoke : sha256 e7825caf992b5326d13727553efa0ec0dfd681f65f14a56b504dd2d30dfdb04f -> 4be62b4864ffb129049acf110d04e0bf483333ab191a6adb40914bfb67cdeb27
+~ ___105-[ACCFeatureAudioProduct processAudioProductCerts:forModel:firstConnectionAfterPair:connection:endpoint:]_block_invoke.11 : sha256 97e988ed5d795f11388cd048bfc2c5c1dc2546ab6a67a7af7529b9684e594046 -> e15d433db734090c6e3f3fcff3296dc8c73ca698ca92e2706155ac05e21fe12e
+~ -[ACCFeatureAudioProduct setXpcConnection:] : sha256 64e71d030c4aec8e02d3b4cb99f430797a37d98861f1cbe1c9041d14a6ee1ff7 -> 88bbdc0ab5833babdc04f7cad708f5a56a6365a67939d1cc9745084006a25f8d
+~ -[ACCFeatureAudioProduct endpoints] : sha256 85797239631f4c4e9779316cc66c677c20ae07c946047c879f7ce068176c3b3a -> a83d9012dc0ec991976319e0070d890ce155c873696e9958b7c0c3978286ab9b
+~ -[ACCFeatureAudioProduct setEndpoints:] : sha256 f91053f070788ecfc2d3949f9adb19f1539d4d1d3243c4ed342375585f8e9c65 -> bee8a2bba92a8d9df3bf19c95d7436dbfd8cb26bb52a277f1f62834657ddab24
+~ -[ACCFeatureAudioProduct .cxx_destruct] : sha256 1ea515ec2e78e773e7cd28270f2c283e438e61c535891eda1874d98723aa23e3 -> cbae54a8c6d2ed5c7fdeebd1e17bc55348893ab0f31ab5ace260cd144bc7f0e2
+~ ___logObjectForModule_block_invoke : sha256 25a3d117188064d104e5e718d9ee626242639af8d094ed2390fcf642b452621c -> a542069ced2545d94e3500551cc879ba438bb5655864694e81c3372cee4b2b64
+~ _OUTLINED_FUNCTION_0 : sha256 825e541ce9b1632ef25c5d99d3371a8e268853ac94ce6804b1ed427afcfa2858 -> f6f2c0c93d2b31dd90249ee1c1ddf795062528a7fd825df9f7bf5607a24df665
+~ _OUTLINED_FUNCTION_1 : sha256 d233b7423d3c32811a5d23b321a667b4c02d7631ad4a119b1c7331b43270a1ef -> 1e81e506e891a40eb05efde9ffcdbcf806f1352818a06f7149d3cc4ae2acb879
+~ _init_logging_modules : sha256 598a567d226abcd64e46cc01bef150611021fcff27135fc0d17937ba8e962716 -> 7c263e3c7e5ad9ef0443b707148165fc2dfa9c41b6c8bdec4a01a2411f3d1b58
+~ ___init_logging_modules_block_invoke : 608 -> 588
+~ _init_logging : sha256 951e4daf2b5b4c71fbc882c247bddc57e768928c3cf89b581dd5c578daa318e9 -> 01dfebdc5cac494e3d52be1865b7c1dd039a178b36f9b5e1e58f0ab47e60e9f0
+~ ___init_logging_signpost_modules_block_invoke.cold.1 : sha256 07e9ee4f8752480432ef7240a5c3047c6ff2a6d924ff2cf6cec9d158fbb1116f -> 787ffab4e2c38a26510251e2818a81d07f3d5e6009ff3ec3fceaebbe862a993c
+~ ___105-[ACCFeatureAudioProduct processAudioProductCerts:forModel:firstConnectionAfterPair:connection:endpoint:]_block_invoke.cold.1 : sha256 5ef746af87031ba0a1ecfcd591ff2f4b16ff4b5e25e9a203a79406bc4487dc10 -> 1e95849e2d4b0d8743ba660ffe7dcdb15c1eef88eb78ac905d00d4b278c30f71
+~ -[ACCFeatureAudioProduct _connectToACCFeatureAudioProduct].cold.2 : sha256 bf27863c6a192d7fe7f666fa08dea4191881df4a99d95c61fdf0d6ec19a69439 -> e81ad2644848938a812092a018e394b712294218fa197d7d4fba20f0c866ba79
+~ -[ACCFeatureAudioProduct processAudioProductCerts:forModel:firstConnectionAfterPair:connection:endpoint:].cold.2 : sha256 3d751faa9422ed864b3d7598a5e2767dbe504befa8d25371c2d3e1d893c88a73 -> 43b2498ce2caef374904243e3d550869bba3039503b1c32e6486a249816528a8
+~ -[ACCFeatureAudioProduct _disconnectFromACCFeatureAudioProduct].cold.3 : sha256 60172b0b3bdc213eea80190c8c8cbd50f844b1e8aa1750c582363a7b64be3c03 -> 98e4466e7a5645c3a18aedf88b51e3828d22385ec25c1c20cd80224153fd7f07
+~ ___105-[ACCFeatureAudioProduct processAudioProductCerts:forModel:firstConnectionAfterPair:connection:endpoint:]_block_invoke.cold.2 : sha256 3b4f5866f1e98c3dca8012b39a01c272c726098be902ccef5b67e3d10be55d80 -> c041b74118bc9113638b15aed9fa9883b639fb2ae39441f370d8805d7c1cbf93
+~ ___logObjectForModule_block_invoke.cold.1 : sha256 5ac4c145f49c169b40a7c3d9e353e95aa131e1b117661a947fa07619cbb1187c -> a0f8d708398a9179dbf8f5b1b7ad4250ead317296c83a886fbac3026804003ee
+~ ___init_logging_modules_block_invoke.cold.1 : sha256 defa435d54e935d50ce19ff6eb3194b96646e09a46feecc67688f0434ca6b412 -> 7b9d59c078347f467ffa507579c812b3d817f693bce83778bf1995d083951c55
+
+```

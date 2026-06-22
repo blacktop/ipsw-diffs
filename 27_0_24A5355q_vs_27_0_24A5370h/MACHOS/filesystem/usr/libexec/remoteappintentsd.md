@@ -1,0 +1,153 @@
+## remoteappintentsd
+
+> `/usr/libexec/remoteappintentsd`
+
+```diff
+
+-41.0.41.16.0
+-  __TEXT.__text: 0x72cdc sha256:0ff9db884105b33a07ef3c087c78658fb97411dfc4dbda15f8905ac06bb28680
+-  __TEXT.__auth_stubs: 0x29e0 sha256:460a850c94b0d4150f2a3c949a037a2dfc3c7bb9e747461b3991fa101e36bd7a
+-  __TEXT.__objc_stubs: 0xd80 sha256:2fb3518cb4bda6452001327e6819a6366c068d24a09c92d7839f7616fb2c16c0
+-  __TEXT.__objc_methlist: 0x3ac sha256:801767355a96059ebd7ed6c8f3b788bf4fe6c6ea4ee81573602fac6e07af1e17
+-  __TEXT.__swift5_entry: 0x8 sha256:c31a5966288384714063549dda3213d4b72cfb88baf8f9940c43124c77bd2cf7
+-  __TEXT.__const: 0x22d8 sha256:cd7141cb60d881ff82f69726781dbd5802cb33c3a31b98d5eb9d584f475be0ef
+-  __TEXT.__swift5_typeref: 0x14a8 sha256:596f5ba96d06f6786989301877ea4d3479c9759507eb1f067e4d163cfe928a5e
+-  __TEXT.__cstring: 0x13f8 sha256:f3f9ad1d693489b97950b5740bcea3299bd425a71be0bf406adcd990f9821ac1
+-  __TEXT.__objc_classname: 0x785 sha256:9c32d24ead6a29f7fb78b7baf089723bbcef94de4a4fa7253189030f9d27c617
+-  __TEXT.__objc_methname: 0x1495 sha256:4b5695f05116ce467ba605a2bc736bcb69e0f7dce17e2e30bf7e14a63ad7af68
+-  __TEXT.__constg_swiftt: 0xea0 sha256:4318e51e2fd80fb55ff86bf0402445ff82e05b4e4c6412b560df10817444983b
+-  __TEXT.__swift5_fieldmd: 0x9b8 sha256:4b6f8e199cd24547cdf9e222e29a9a73a1233f067efd146da25f64bff50d43a2
+-  __TEXT.__swift5_builtin: 0x50 sha256:049a8cbbaa2c895ba72c1d69dbb4261efc05f24f4c8dae6640ddb31eb1c941b9
+-  __TEXT.__swift5_reflstr: 0x884 sha256:4d629b642f89e4eaa3168a1a84ebc04065c671f9315f2c50197a7bafa1d540bc
+-  __TEXT.__oslogstring: 0x1bba sha256:15a9c11b856be10f4e2c7a38292bde0ab7c8ad5c419ad67876934447d4bc7f6c
+-  __TEXT.__swift5_assocty: 0x78 sha256:45e0bdd6a304d1bf55ffc0e45f90c2052206771762ae1c8ceb487a3fde0a3b47
+-  __TEXT.__swift5_proto: 0x98 sha256:90684f5e588da75ae8a69d3f4c322003b5703ef04ebe2bb195eea6410f260455
+-  __TEXT.__swift5_types: 0xdc sha256:b8a2fc4651fd037c3aa80a3633948ddb304a2368ece673b34638d6372a65471b
+-  __TEXT.__swift5_capture: 0x132c sha256:aaaa756437b6215dac5b9043e4027bf8aa2de9d1f855b446db3284cca303e5b2
+-  __TEXT.__swift_as_entry: 0x28c sha256:aad9397d3cf7b96cf571322372a0a0981dc2967a379d41a2df02471764ef09f0
+-  __TEXT.__swift_as_ret: 0x2a4 sha256:8afe265bdd93d28ee903818841decf5cfca869e46060004dc2288fd9ca8c9ffc
+-  __TEXT.__swift_as_cont: 0x3ec sha256:c069dc7de21066da71c160a302a870f40c0e08968e5431c3b134e5701c8e5a0c
++41.0.42.6.0
++  __TEXT.__text: 0x742e8 sha256:75c4600146e193c0a242dde0f7fe1f369b680dd4619d206f03bc8812a0ba73a0
++  __TEXT.__auth_stubs: 0x2ad0 sha256:ef2c98f0bd5be1c1722d34e15ecc895d04e4c9cbbe2e4b5a2996d317ca4ea506
++  __TEXT.__objc_stubs: 0xda0 sha256:210c5cc8d6f046631136f2657d36d4b567150a6caf7fd8858249e76aaa34aa8f
++  __TEXT.__objc_methlist: 0x3ac sha256:41884f9f995117ecfb193abf79267c2acc6c39470e1ca24774a59a470d6778e1
++  __TEXT.__swift5_entry: 0x8 sha256:b8b7566819062862adfa4bd70567c2463cb0c9f2b32a900ac1bf1f1b1e49eb7a
++  __TEXT.__const: 0x2368 sha256:13921072793465a6c4233915ec38deab5b62fa25e997b17ac5896ca969bc3539
++  __TEXT.__swift5_typeref: 0x14d4 sha256:2bc7bf2c0125bc808285f607d5043750f4ff81cf3579e28aa114bf185918313b
++  __TEXT.__cstring: 0x1418 sha256:a5900e63dc83c4e590a0e72fd433ed2e66389690a6189a8f279ddf3404356f49
++  __TEXT.__objc_classname: 0x785 sha256:16374b0d92b4be00ec22cdc35e2e07e889234399eb5cb7c8515c37f073e78438
++  __TEXT.__objc_methname: 0x1515 sha256:b02742609489112943c93293251f7f1e521e7ffff386306dc76891d605297a4c
++  __TEXT.__constg_swiftt: 0xf08 sha256:35bbab11960bdce816207397ca80029fe09de274ea4cb157ddad1e411c760a6c
++  __TEXT.__swift5_fieldmd: 0x9ec sha256:1f2fec8755beff18c9a8cc303326a70ec34eff6e5522b83449b99f69a0a7be09
++  __TEXT.__swift5_builtin: 0x50 sha256:f4d20e4a864a0543bc8dccadc00b900a31269ee0e6990b023e309864aeb44931
++  __TEXT.__swift5_reflstr: 0x8a4 sha256:5c189f818b3794b89383e02d9b8e92fa74844eeb436411a651be112cd2a6de34
++  __TEXT.__oslogstring: 0x1bca sha256:e50c1ed3b10fdb18e2e643ce1428dddf38588d29fb35b288095e3502a9c91322
++  __TEXT.__swift5_assocty: 0x78 sha256:b38b30e110e6d1516bf5793794ebecb88954e254f410e76d7031dc7caf47eeac
++  __TEXT.__swift5_proto: 0x9c sha256:69e863e66d05daf3a2ada55ecd0019e2a602ba2b8016c2b39a811fb494f3c69e
++  __TEXT.__swift5_types: 0xe0 sha256:81925448ebc6c8747398491b7f55cfc33e273757c9c4ee02b3fcc0f9c7251df0
++  __TEXT.__swift5_capture: 0x132c sha256:814b04d8f69528b08cbd00a0a694249d5b7ea2f8f85b5bdf78cf546c82553f0a
++  __TEXT.__swift_as_entry: 0x28c sha256:751adb056e80aef71912afa665a3df879fd051e064c5f6a27a1789492b007c61
++  __TEXT.__swift_as_ret: 0x2a4 sha256:d669d390c907bf9567e1f3d19e26875eb3a2236cbf2ea020fe174bc3b1fa4db1
++  __TEXT.__swift_as_cont: 0x3ec sha256:e50e1734f6dd61ac301ce04138886b5ec490a3098e18a052b4f30013846f0503
+   __TEXT.__objc_methtype: 0x615 sha256:827907820f90716493cfdcee7339e496ee642118f074c41e87aca00e3f6833e1
+-  __TEXT.__swift5_protos: 0x1c sha256:49440dd115a0d805eaa84bf1de34383acbdf24e8f1172f792806064af092d2e1
+-  __TEXT.__unwind_info: 0x1ed8 sha256:eaac5087eb0f28a07b3d79ca0bbb036e703349d81b78c86d2269cf27111fa2e5
+-  __TEXT.__eh_frame: 0x5b50 sha256:681e51b7a66d926e1382e27da597be78429891649b19e6a092596c40d4538ac4
+-  __DATA_CONST.__const: 0x37b8 sha256:aa8b46c57e30c2434c85c1a061d428ed0458b41bd145323ba4ddf15467837fb4
+-  __DATA_CONST.__objc_classlist: 0x98 sha256:3830b7357c7c4139f4cdd8263b360c96cce9e7280b7ff008abc12f040071ecb3
+-  __DATA_CONST.__objc_protolist: 0x88 sha256:4e393b2006c53b3ae67827d34300b484790433431ed6570a5a4d1f1132c24177
++  __TEXT.__swift5_protos: 0x1c sha256:fe5911e48b532f4c6550abdfb4ae10cee3e1519eda00ece8bc3490a74553f66e
++  __TEXT.__unwind_info: 0x1ef8 sha256:ca025c4bf52c035b6f5ba9fe1fa65bf195b2a7e90d121d817153a179eef7b252
++  __TEXT.__eh_frame: 0x5b48 sha256:f17a77703002193318559bc33588c1160a44048a9c04b6c6e8f2da2dd2fbd776
++  __DATA_CONST.__const: 0x3870 sha256:cdf6fa54837212cb366e8f38b0eeffb691b8cfe260267038556cc07dc80d8b39
++  __DATA_CONST.__objc_classlist: 0x98 sha256:6cc0171df53394c1319401923ca751f34e552f9bf9ce09fe7b12f379497418ba
++  __DATA_CONST.__objc_protolist: 0x88 sha256:7cec836e7bbd1ebe7915266710fede3da772fa9f5547da13cd012528dc7ae0c3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0x48 sha256:d92cac60ac6125e025d7db7b908701bfd578700a53638613d38efac12908867e
+-  __DATA_CONST.__auth_got: 0x14f8 sha256:6c9d83f7a0dac29081c133de86afd947deec732ef95be980426b43129a6bd6e1
+-  __DATA_CONST.__got: 0x7b8 sha256:557af1dbcc31d237b862f8590126aa843a606f38fe93bd9fc2a4835a9934aab6
+-  __DATA_CONST.__auth_ptr: 0xa88 sha256:079b6e335fa2fb809d63fdaffbf6d759d332f958725e03b274481e11f6d31e0b
+-  __DATA.__objc_const: 0x15b8 sha256:f145303d762a9e6b83e826aa69a6755546f1235bf9e08267e478372ada52c318
+-  __DATA.__objc_selrefs: 0x4a8 sha256:0c11a3ce9eb7f8f2d9611393a4889be9210aa72be39979e93604974a04d56377
+-  __DATA.__objc_data: 0x498 sha256:4f945b48135bb83316aff09572cdf9b6201ccd0eca8b420a8812b9d3a8abfe94
+-  __DATA.__data: 0x2238 sha256:f8aa1e7732416f8d6ce2e074ee92b02e0ed78be5778a8e3eb8c17a5824ab90fa
+-  __DATA.__bss: 0xd80 sha256:0ee0c7ac0933cd2c9de481994bf578c44ac305c8b99c0baf4b95701bb50c9476
++  __DATA_CONST.__objc_protorefs: 0x48 sha256:4bb91288cf9e5b32b866d7871b7e9b53bc7ea95ac61483f9da5334a6be1aede4
++  __DATA_CONST.__auth_got: 0x1570 sha256:d9267a63327578a2149566564eadf3f947bc68f153e26540f00db27a9517f3fe
++  __DATA_CONST.__got: 0x7d8 sha256:7c37f0d424606e65c14f517e2ba32a994c3d9aa5889dd57da01e5d182c1011e7
++  __DATA_CONST.__auth_ptr: 0xad8 sha256:91a31edf0a3442e3317740a410a8f0d386d56c2efaf0d9a985eb5f403285920d
++  __DATA.__objc_const: 0x1620 sha256:75608365f8daef5573da5290fcf10379ca25458a383fc149f52fc15bd1b65778
++  __DATA.__objc_selrefs: 0x4b0 sha256:ab871c22271af9099b963999690a270c48ef8d15d78026786fde164c9d274d81
++  __DATA.__objc_data: 0x4a0 sha256:aa91b21f9db2e9e10e607890cbbb992eec573886d4ff810715a58fc117643846
++  __DATA.__data: 0x22a8 sha256:fc9fbd162514fb578882840a3d314b1b2209c554a08629ee36265905c60c91a7
++  __DATA.__bss: 0xe00 sha256:6cf1b57d59e7111bc218dfb01dda93ac0f776715599a1c69f89035bd20c16a10
+   __DATA.__common: 0x390 sha256:d2710a3a6574fc3d509a62191d8933226f0046f7ffcd83fd8de6866684c5f73e
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6E0FC5E2-9B68-3984-8AD6-842DE9C8BE32
+-  Functions: 2712
+-  Symbols:   1078
+-  CStrings:  558
++  UUID: DDBD32FC-5BE2-3037-BC49-A9B5A2813C3F
++  Functions: 2728
++  Symbols:   1103
++  CStrings:  562
+ 
+Symbols:
++ _$s12LinkServices22LNPerformActionMetricsC7SegmentVMa
++ _$s12LinkServices22LNPerformActionMetricsC7SegmentVMn
++ _$s12LinkServices22LNPerformActionMetricsC8segmentsSayAC7SegmentVGvg
++ _$s12LinkServices22LNPerformActionMetricsC8segmentsSayAC7SegmentVGvs
++ _$s12LinkServices22LNPerformActionMetricsCMn
++ _$s18AppIntentsServices0A19IntentSpecificationV9telemetrySDySSs8Sendable_pGvg
++ _$s18AppIntentsServices0aB8ProtocolO13PerformActionO8ResponseO7successyAgA12IntentOutputVySo7LNValueCG_SS04LinkC009LNPerformF7MetricsCSgtcAGmFWC
++ _$s18AppIntentsServices15InstrumentationO19SharedTelemetryKeysO10entityTypeyA2EmFWC
++ _$s18AppIntentsServices15InstrumentationO19SharedTelemetryKeysO3appyA2EmFWC
++ _$s18AppIntentsServices15InstrumentationO19SharedTelemetryKeysO8rawValueSSvg
++ _$s18AppIntentsServices15InstrumentationO19SharedTelemetryKeysOMa
++ _$s18AppIntentsServices15InstrumentationO7SegmentV024asLNPerformActionMetricsE004LinkC00ghI0CADVvg
++ _$s18AppIntentsServices15InstrumentationO7SegmentV6HandleV3endyyF
++ _$s18AppIntentsServices15InstrumentationO7SegmentV6HandleVMa
++ _$s18AppIntentsServices15InstrumentationO7SegmentVMa
++ _$s18AppIntentsServices15InstrumentationO8ActivityC15appendTelemetryyySDySSs8Sendable_pGF
++ _$s18AppIntentsServices16ActivityProtocolP12beginSegmentyAA15InstrumentationO0G0V6HandleVs12StaticStringVFTj
++ _$s18AppIntentsServices16ActivityProtocolP8segmentsSayAA15InstrumentationO7SegmentVGvgTj
++ _$s18AppIntentsServices18QuerySpecificationO9telemetrySDySSs8Sendable_pGvg
++ _$s18AppIntentsServices19QueryRequestOptionsV22asyncSequenceThresholdSivs
++ _$s18AppIntentsServices20PerformIntentSegmentO18loadActionMetadatas12StaticStringVvgZ
++ _$s18AppIntentsServices20PerformIntentSegmentO20outputTransformations12StaticStringVvgZ
++ _$s18AppIntentsServices20PerformIntentSegmentO25createPolicyAndConnections12StaticStringVvgZ
++ _$s18AppIntentsServices29DeferredPropertyTelemetryKeysO8propertyyA2CmFWC
++ _$s18AppIntentsServices29DeferredPropertyTelemetryKeysO8rawValueSSvg
++ _$s18AppIntentsServices29DeferredPropertyTelemetryKeysOMa
++ _$s7Network13NWActorSystemC7service10parameters8delegateAcA10NWListenerC7ServiceV_AA12NWParametersCAA0bC8Delegate_pSgtcfC
++ _$s7Network21NWActorSystemDelegateMp
++ _$s7Network21NWActorSystemDelegateP19didHandleRemoteCall6callID6target13actorInstancey10Foundation4UUIDV_SS11Distributed0P5Actor_ptFTq
++ _$s7Network21NWActorSystemDelegateP20didExecuteRemoteCall6callID6targety10Foundation4UUIDV_SStFTq
++ _$s7Network21NWActorSystemDelegateP20willHandleRemoteCall6callID6target13actorInstancey10Foundation4UUIDV_SS11Distributed0P5Actor_ptFTq
++ _$s7Network21NWActorSystemDelegateP21willExecuteRemoteCall6callID6targety10Foundation4UUIDV_SStFTq
++ _$sSo15LNSuccessResultC12LinkServicesE7metricsAC22LNPerformActionMetricsCSgvg
+- _$s18AppIntentsServices0A19IntentSpecificationV7metricsSDySSs8Sendable_pGvg
+- _$s18AppIntentsServices0aB8ProtocolO13PerformActionO8ResponseO7successyAgA12IntentOutputVySo7LNValueCG_SStcAGmFWC
+- _$s18AppIntentsServices15InstrumentationO17SharedMetricsKeysO10entityTypeSSvgZ
+- _$s18AppIntentsServices15InstrumentationO17SharedMetricsKeysO3appSSvgZ
+- _$s18AppIntentsServices15InstrumentationO8ActivityC10addMetricsyySDySSs8Sendable_pGF
+- _$s18AppIntentsServices18QuerySpecificationO7metricsSDySSs8Sendable_pGvg
+- _$s18AppIntentsServices26DeferredPropertyMetricKeysO8propertySSvgZ
+- _$s7Network13NWActorSystemC7service10parametersAcA10NWListenerC7ServiceV_AA12NWParametersCtcfc
+CStrings:
++ "%sLong running operation %s(%s) will start, requesting transaction"
++ "AsyncSequenceInlineThreshold"
++ "activity"
++ "actorSystemDelegate"
++ "perform(activity:intent:options:environment:executionIdentifier:peer:session:requestMetadata:systemContext:)"
++ "setAsyncSequenceThreshold:"
+- "%sLong running operation %s will start, requesting transaction"
+- "perform(intent:options:environment:executionIdentifier:peer:session:requestMetadata:systemContext:)"
+
+```

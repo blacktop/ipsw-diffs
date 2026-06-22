@@ -1,0 +1,467 @@
+## AudioServerApplication
+
+> `/System/Library/PrivateFrameworks/AudioServerApplication.framework/AudioServerApplication`
+
+```diff
+
+-1200.28.0.0.0
+-  __TEXT.__text: 0x12848 sha256:89cf0d2be5bd87eac708489711e3ec8c02d4e98be55e353df992d625350f3d3e
+-  __TEXT.__objc_methlist: 0x13a0 sha256:18bd2db6d052c14a7402f411e6a4a7731c54a582d4696f20d4fc244fbb98ee5b
++1200.30.0.0.0
++  __TEXT.__text: 0x1280c sha256:714580ae2400c79430285f21f659d315a438237e21d7a4012c1cc53cc60c8417
++  __TEXT.__objc_methlist: 0x13a0 sha256:b6bfebc0209f3acef82852f16d4d05019f873f9fcfd2d715d17f89292d46cdf0
+   __TEXT.__const: 0x38 sha256:4f5cf479a1efe085cbf96e2c69a334d1eacf8fbabe947d1e17945dc2549f553e
+   __TEXT.__oslogstring: 0x1447 sha256:20548a55d6013fcf13940ec1c4cf5d57415279641838ade140707cf36a18cc93
+   __TEXT.__cstring: 0x11af sha256:fff9a7279481159d73ea4a8d59dfde467d3b7a041ef2cca95268b9b8abf671b1
+-  __TEXT.__unwind_info: 0x3b8 sha256:ec6014299ccd4d7354230d4e5aff57528d39d9994b61eb936c00b4e7de8e9a95
++  __TEXT.__unwind_info: 0x3b8 sha256:e2b3b0fb4fff5e8e435916d1a2387e0056087a2b10f2af03228a59954ad9d08b
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x48 sha256:b60a53d2cc42eb92dcac3856d167a6646ffc9d8168a3a4362a0a3ae2cd28180b
+-  __DATA_CONST.__objc_classlist: 0x88 sha256:5367da91c510be4ae9111a27e7cc74bee27db11bbd7f60a067ec4fc17d725328
++  __DATA_CONST.__const: 0x48 sha256:1f81ee69e5dd20d35d29358c41cd7b9dacf4a07aa1fe9c8cc15d3569c2325460
++  __DATA_CONST.__objc_classlist: 0x88 sha256:f6b9d2bbace57ad3fa235bea9f770dacc8b09ea2ed666967d52314b0ad47b3b7
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xaf8 sha256:276271e617b6737bc4e9f1196dff3ceaec734c0e7f82824a68a4251e017a21ea
+-  __DATA_CONST.__objc_superrefs: 0x80 sha256:2060a9cb3d14baf4632330b5fa1e06e238c69c87b7cc01c082e460e7e1c43af6
+-  __DATA_CONST.__got: 0xd8 sha256:a1714e5632e18f12c6d47535e5fe5b931e62f6f3db584b74d23d7067b7f176c6
+-  __AUTH_CONST.__cfstring: 0x1580 sha256:d99f9e67e825613a3b52b43d3ad8565ae0e7d62a8766603431a2e5a5e8f64d6f
+-  __AUTH_CONST.__objc_const: 0x18c0 sha256:32d415a63e5544992afa66dffd576ded3539f3fd8625ba6287bc915ddf19df3e
++  __DATA_CONST.__objc_selrefs: 0xaf8 sha256:0deb61d48d1e3ed4207fc1a38f7b9caaeae69330e07dadb391d143b22575a8fc
++  __DATA_CONST.__objc_superrefs: 0x80 sha256:8075db7439b9b51db5cbb8d6225bc4847a22a5114b0410125a21caf98e86f834
++  __DATA_CONST.__got: 0xd8 sha256:32d5e55f0dd1d1f999e4d2838ba7effa7e83ce2728066a35d93b46194b9bcaf0
++  __AUTH_CONST.__cfstring: 0x1580 sha256:827b00828c45545b2cc46e25a8876d859c030fc17df022a8e58fe79dff998986
++  __AUTH_CONST.__objc_const: 0x18c0 sha256:b9d79134467b85c5ca7e22e786893e38f8da2a1223d55474d1e59e8b213b7406
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x4b0 sha256:6df31df79e58d4d9e50cfdc841c2e30ae3c8c292d73661302c880ba8ae444067
++  __AUTH.__objc_data: 0x4b0 sha256:8ed2429c21a58a943edbe76c8ab6d4168eeaf9ecad56de1c7bd8912ed5deada8
+   __DATA.__objc_ivar: 0x78 sha256:b3860d59c574122c8f5b09727725d536f9b997763cd2b1350970067fb00190d5
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:ffea6e89fdbd227fa1de97b69a13d7d0e97dbc816cfb652786a32ff6a2e0e0b5
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:cbad45d7f3cc4dc5acc4a0bb419c1303a79b14bae54a0ee7f4449fecc041a11b
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreAudio.framework/CoreAudio
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 64A362F2-DEBF-3571-BC0D-2657F0FDBA2B
++  UUID: 201CB55B-5275-356F-A5E7-049CEE08B09E
+   Functions: 432
+-  Symbols:   1335
++  Symbols:   1336
+   CStrings:  464
+ 
+Symbols:
++ _objc_retain_x28
+Functions:
+~ -[ASAPlaythrough initWithDevice:usingChannelMapping:] : sha256 8eef5c03aa3d16be79b75b98bb687edc78c1325c7a3d0f25284056b3bc6af6bf -> c8af657553ac5b28e9d476368b49f40aa25e73121f95f4a9547f5fe47f9b7a49
+~ -[ASAPlaythrough initWithDevices:usingMasterDevice:andClockDevice:withName:isPrivate:usingChannelMapping:] : sha256 0465c47cce66161ec901fb02d1010dc605d99db0d08f097770e260feae052902 -> 824723866ead8f05f405e0728ecd78c5418c5b96140100cf7458943d0b6f6dad
+~ -[ASAPlaythrough initWithDevices:usingMainDevice:andClockDevice:withName:isPrivate:usingChannelMapping:] : 1748 -> 1740
+~ -[ASAPlaythrough initWithDevices:usingMasterDevice:andClockDeviceUID:withName:isPrivate:usingChannelMapping:] : sha256 3d2229e19f35a34490ad61f78078f53a514f91f7f4c2ecad0bdfc86537325bdf -> 8418214bb2f0c1937c270c76c7f1f505b37096bf615c5b4ea7bd532a883c33aa
+~ -[ASAPlaythrough initWithDevices:usingMainDevice:andClockDeviceUID:withName:isPrivate:usingChannelMapping:] : 504 -> 500
+~ -[ASAPlaythrough start] : 652 -> 644
+~ _InputOutputProc : 948 -> 936
+~ -[ASAPlaythrough stop] : sha256 51b59aece5eccf73eecf5020c13e854b281a6a28dd80d21acadb116e219dc5ce -> c01eadfed8798336031cc84d9cd8939188720b56e2d5a0333966c10fbd655173
+~ -[ASAPlaythrough _createIOContext] : 2640 -> 2696
+~ -[ASAPlaythrough _destroyIOContext] : sha256 11a0ab3f1ede2921dda0b6cc383e56d11aa9dfc4782f705af6fa44752379feaa -> f2d88007a3422cdb25245e6c8c9f7152d513e064414a00f0bbac7a9358b2ca4c
+~ -[ASAPlaythrough _freeIOContext:] : 384 -> 364
+~ -[ASAPlaythrough dealloc] : sha256 bd1f718d090c665abf77d76e91605c94fc42cf42b432507e30556b44629e2aac -> e9a91da0c7ae79936701ae454d7c2c0a1feeb7ed93a5f7a52d46c82173cd1829
+~ -[ASAPlaythrough audioDevice] : sha256 5d714361d52636d69b5bb096b46a8d5ba38d8f57aca1f9b5735a23679ff03864 -> 37a5262920224f829003270ef7127278cb45ae33b7260501a9d939c63ca94a94
+~ -[ASAPlaythrough setAudioDevice:] : sha256 20b50afb5e282957f2bc3fe53edcc5411c9aef5f9ba6ed56cd781b155427d794 -> 1b8b9a8412e5503c5c94cad7236bbddf6720a43d37b7f06fb60461c5dc5c9d38
+~ -[ASAPlaythrough .cxx_destruct] : sha256 30a2092269168f6c0db9258d4cbe0d3243657e9a3c9acf67bfa8dd1e7d73da8f -> b8588ceb649786a70e24bdb2d710057ffc9c982759ee7c509975ac240aadfbfa
+~ _CheckAudioBufferList : 112 -> 116
+~ _OUTLINED_FUNCTION_0 : sha256 9d8deb3c7ffb27adf57769b60d6e659451a524d58e0255c49b624e8799bf931d -> ca500fae9c5cd11b304aae23bf097d0c697a2b3673300f8886545a4cafe0a54f
+~ _OUTLINED_FUNCTION_1 : sha256 1cf7346b724a9f519b377c321a04d687b7ee209d96d436b80b15dc0e492105ca -> dfbbbe405917d598d126e07fbedc21cbbb6952699c0cedbd0e43da4a2b9b6168
+~ -[ASABooleanControl setValue:] : sha256 a25f55e92ad6b9fe9de77126268802d31f8192f61a5c7f3a2015578975342d24 -> f66f163b544cfa09f66ef9e2ad3fa9876da540852c8e3aed2e2ab1ca38b9e35e
+~ -[ASABooleanControl value] : sha256 47a99a6a7fb767d1b2c3a3a217060faa06d2443805cb7c370c6af907b6f59c98 -> a409d8fdd80880f8c08daf1eb7dfbec0f7a822253b8f90011d6b38687331c139
+~ -[ASABooleanControl isSettable] : sha256 76bbeccc3181c94f42b04d5d64bc7900f5b945f6fdda3646a102eeb0ed319ba2 -> e8d2d0034a3a8126698575fa860c2f53e4c15b154382bc47175196bb5ee5efbf
+~ -[ASABooleanControl diagnosticDescriptionWithIndent:walkTree:] : sha256 39ea69186c81024dff5464f01d48a48f02006bb82fc3b28046326c699e278328 -> 6ae049ada75e022ebdb757d52098fd1c6c63ea8a5c8efa94a1dc91167899569c
+~ -[ASABooleanControl coreAudioClassName] : sha256 85abdcaafe852a862a7a96b8637cf1a2cb0ab96132943288953b2ad5d6e2d487 -> 34963d961f36b380f11ea5debad48129b5161ebaa49427d7a51b39f193389317
+~ -[ASAAudioDevice name] : sha256 60cd7d2a88d2406d9d14d424b8a7926a016b516d05914fc2efb0f180244c1745 -> 6f9620f9b5f3a6ec65355d78146163c2a2586c340a2a32304696f556c2af3451
+~ -[ASAAudioDevice setName:] : sha256 5180e09ac79035be282e5f3b36c6c3a25be89ee9addef9d669fcc13a005311d6 -> 832b08f7b22397678edd1bf2c7f0da0a53691e11266401d438a826a2a0dd44e5
+~ -[ASAAudioDevice manufacturer] : sha256 84abcc105e8df47ef8e30b1e14a33850f7f3505c8aeff762a91739d706869956 -> 46d0d16b64fb835e101f5870bdb88f6b0d8ffc9386a91b71e2f1b3ca8342a04d
+~ -[ASAAudioDevice modelName] : sha256 4b842ede9f1ce2410a723cdb1c580c6c172888f4dc15d05d3068b9dd78ecded0 -> c000668b83ace16fd9118ed25e174f8485ee7ab0cbe96d8916f4d818baedc8ef
+~ -[ASAAudioDevice deviceUID] : sha256 28125470eb0d3562355d14f6c6b477707e3ecdf4acea214fc53dd51a3eec71f9 -> 9a0cf5f3db0fff05e5b3782d98c21d9d3aee690b1f3432d9149a25897331b40b
+~ -[ASAAudioDevice modelUID] : sha256 a413a50ee9f119f94b9781a5f89b38f996be8c87e0cf8179ace8a21c30bbdcf4 -> 3bda78a343ef57e602de0b7da24d08b3cc05f51b37be7873290c0426b2ad8cc0
+~ -[ASAAudioDevice transportType] : sha256 1fc290211367aee18780468f1639ec5430d928c60a8ff1fb80ac08011ee07a96 -> 1339c5c52be249163f71e970b48cf767b842907ec89f1c655f28d47407d144f6
+~ -[ASAAudioDevice clockDomain] : sha256 f8b7b9f95fd0ee937935af1d1659a82e99409291c57329c331e3127ce690b980 -> f01bf4a3e0a6f1b006876f04f1faef5124236dfc27644ee74c2c76d77314b165
+~ -[ASAAudioDevice isAlive] : sha256 e95b27f1391fd36a0945813de20436ac2dc400eb23a8dd67522f4c61e8d34ada -> 37859680e6e0004f26db02d52da91868ded5eb299e79a64a2b093c059614817c
+~ -[ASAAudioDevice isRunning] : sha256 dc73e7b67a3af58541f95db82cf4662c7f4190e8460b990a69d09283c062751c -> 88a8bc5f3439a323cb238d6581aa931862144196029852c62aff01b14f0a5dd7
+~ -[ASAAudioDevice isRunningSomewhere] : sha256 ea19c97c67864007db7d3d24fca1407750a8ce19436308eed4ddd8e763ed9af5 -> 2a35868e5f8bcf04f03ac793352fcd59001eb077ec6ec18eccab0e068d881eac
+~ -[ASAAudioDevice canBeDefaultDevice] : sha256 4576b4f8181525411420218fa7b49e2263f2274c15d5611c41aeaf36c52dd84e -> 145866b0acf1d9cf1d3f58fa18d0d858e72e11c010c079c7cbaceeacd6875d6b
+~ -[ASAAudioDevice canBeDefaultInputDevice] : sha256 60770370f59b990f2a7616ceba3fde5cd70a82f6379079210a0fe5573100358e -> f94f08efa8a7ca745cc95920d613347f8038f0daa006c5a0c24ded7fd8ba0eb6
+~ -[ASAAudioDevice canBeDefaultOutputDevice] : sha256 72121af55688ac2221702195e842b8431d1d12f8f86805ecfad1ccb1af5f39aa -> 64a515802c97666c91564d57b85c0d09aef389b4cd92627c9ad102968bd61f6b
+~ -[ASAAudioDevice canBeDefaultSystemDevice] : sha256 d69dce523931cb26d922ecd919c0a99a7a1bbc2305072624fbcc0e61064c95b3 -> 9d2061222f8200d6980854c2c1f48f5b16a7fda972cec39707031af13fa456f1
+~ -[ASAAudioDevice nominalSampleRate] : sha256 13e85ab645d5b5d5718cbd1950178caab76d14b6120a6f26756a20071fd503b1 -> dbf52f4160b1e6dddd788669e6380e06c27186f115a76847570bae080f07853e
+~ -[ASAAudioDevice setNominalSampleRate:] : sha256 87895276ee9a275372749c718c1692ae1e045283e1fae83b594baf973959bdd2 -> dcaecc7f1b8250236a6773d8527f54edb2b29ab2066393370fb06544856ca911
+~ -[ASAAudioDevice isHidden] : sha256 2ddb69184bcad5c82bf30853b13d5d5ab0032c60246d0099e4e269951d4f7721 -> 35329e3d1f536de8731c43134c0504265b863973b547dc47c3658f044446f4ec
+~ -[ASAAudioDevice supportsHeySiri] : sha256 a8c1555a552b631cf7c2c40fc34ab8674ae03021f3f414239356035cd994e8ad -> 5324db411f23a224299a145783f8c52a5a077043328bb1da08ff3da363a08bef
+~ -[ASAAudioDevice supportsExternalSecureMute] : sha256 d4fe98bac47cc9d13085854ba1aace494355e648e322afbf42c975d1f3fb0887 -> 7234c560bd6a5ee0d097e87172c23d41fc3026703c2233d2f92ccd43a64bd729
+~ -[ASAAudioDevice externalSecureMute] : sha256 176d741d830e112e1dc3e1fa8e125c0f9bf3d836671f296b740a2c8b715efd1f -> c127ad15117f8a0358f5cadb5c5ce71d43d95e7c642dc8904a3ec99db68b1a7a
+~ -[ASAAudioDevice setExternalSecureMute:] : sha256 d6ca40be6996765b6893703f6cc3930be3c2757d5cc36778a3f5c31403522cfc -> 6e05cd55d805be11e89b09b63c614aa7be342635334937bf11712124f06ea210
+~ -[ASAAudioDevice supportsExternalVoiceActivityDetectionEnable] : sha256 af2dece96d7ee169c48b9dadf7e1b44bf0fb2f467f605dc57866613d90224b40 -> 1d7ce7926d2537ec31d5c6bc1c599fe8088674e64877b22fb2158f7907202c10
+~ -[ASAAudioDevice externalVoiceActivityDetectionEnable] : sha256 44805fc216c9f49a3d4fa928c3d8d4a91306b3eb67114d36704b48b9304f511a -> 05c264def72e36454be6c5a48b802946e0cb46e6127796144853f750553f7781
+~ -[ASAAudioDevice setExternalVoiceActivityDetectionEnable:] : sha256 f6ca193075b200e600e989f723fa89a3f8b9e54c48cae4d5c703c57464f259d0 -> ea36dfa7a5feec87589c3bfad9c5ed568c9cf97309386483c66db17c32530c42
+~ -[ASAAudioDevice inputLatency] : sha256 f391a76cd1532b4a7ed50adaa57c6de52e633ee1a64cb14a215b61a94f0fc21a -> ce553e38121d50b4c4d28c01679a9c5f128213ea28107e743bcbc9fc4303df5a
+~ -[ASAAudioDevice outputLatency] : sha256 654b616303984b2af678b78f4bf9743546729707cf6cd6451d481d4b02a56b31 -> 516fb95af68948abf44bee7d9e804f413169c831c2a22e37448f7f3b9abdbe42
+~ -[ASAAudioDevice inputSafetyOffset] : sha256 db304602b1487af8fe11b54895b4019c10225d3560d5b6997f4a4888844de61f -> 14a2338480650bb4b18bb815cc544672c0cfa8372bbf7ca0d8027c02d15b7a95
+~ -[ASAAudioDevice outputSafetyOffset] : sha256 6da8044ef381f6bdb73ef7af8ff1d5379971fd7c6197c68d9122ce9029ac3052 -> ea1ebbad173e997cd5452b73123f08be205d543ccc9b5a4a1b6f50b0c7e1c6ac
+~ -[ASAAudioDevice zeroTimestampPeriod] : sha256 4fb32c5eceeac42a30097a1521793052d84e3345f93ddafea243584f71a692c0 -> 2b690c75eea517c5a29de9a3559975a20255b5df6c81824e6880b09a33644128
+~ -[ASAAudioDevice ioBufferFrameSize] : sha256 8159950b24a9fa52b882b641e09e360f402dd18cc788d42464a6065da7bd4caf -> f3c9d5ce082e2faa64966264f828301a8fda2105177e60884be547da7bad1b37
+~ -[ASAAudioDevice setIoBufferFrameSize:] : sha256 4848e077dec5cbb83270b73bbf834895562c38ce923aef8d4b309cb3beb86707 -> 8360ae42c4d9aa78d54a2953f8e288041d169480874697e10531811754f59fd5
+~ -[ASAAudioDevice minimumIOBufferFrameSize] : sha256 66a1906f59eceaa3051846d4d3b3592ca6c7e7ea5482fe3a405cc3728486e546 -> 246daa311ed370f4fefcd092da0b2d04b2b207ea40b8326ed2e793f50f7ebe7a
+~ -[ASAAudioDevice maximumIOBufferFrameSize] : sha256 a35e8cef4e96ebe4aeb5327e4e4e97f62115a2aa088c4ef8da83e0ae1ce70067 -> 4350eb48093c34fbf4795f0d3774a9d461b63313f4428cb36d5e1c12add0ad8d
+~ -[ASAAudioDevice ioThreadOSWorkgroup] : sha256 bd49c8e8c542df264059eb84bf6e1a98c03401854a636a242973cfb3dd0bb18b -> 6c9e0a9b1f04198395c985d1d262acc172523a7fb90a7a8aecd8b7c9d92e64e0
+~ -[ASAAudioDevice setIoThreadOSWorkgroup:] : sha256 5fe60d247d56e695bd25c96c2677a0c9d178ae39671a9e691008b952d0f7d0c1 -> 98dc361da44a43c284f6c72e0b4bf242d327cd2b147f56948aa995830c9db728
+~ -[ASAAudioDevice ioCycleUsage] : sha256 c62fd4e642839dc94e5ce61afaa4ea340ff4a430742e4b250d3ae55b662cc724 -> ba85229083856316169856ed73bf8b2c3ad8d0acd657a3ff9b7df2d378244f40
+~ -[ASAAudioDevice setIoCycleUsage:] : sha256 e40c729a1335401ff57746a71827e717e88230bbd8b00895e23498d0727191ca -> 7709123982048f3d752f8e65307313f92c7470ecaf6d7c4e8a846c46ebc32c16
+~ -[ASAAudioDevice isReferenceStreamEnabled] : sha256 2a2d9003998ff85b1df946b1dcd94d850cf3235c1fdf7782b6fa16456f29ad81 -> 3fb5e0a5566cfcbc7073218fb1c509d11ccca2c9bf8b291eeb39b5134705c4d5
+~ -[ASAAudioDevice setEnableReferenceStream:] : sha256 d7a3a1724ef18048743dcd3637ee665b94a44ea55fb49007a5f6160d493e3c0c -> d028a188640266bb18a65bdbe1e2c3a55d36da3c5330a0ebfe2c62778345186c
+~ -[ASAAudioDevice hogModeOwner] : sha256 f55dd4a9418f301d7cfc072d8a1f34f23a520855567a96a10ed557e7a9b5c10c -> a2e644176f06776a451eddc43b092137a38c203527e64e84f58d5b9f77bb77c8
+~ -[ASAAudioDevice acquireHogMode] : sha256 8f4bf4735299c406a9a1e51c84d9248dc77ff44024c61ce97d7fa9f6a8caabe0 -> fb59d97d87d2b7118c67063b1af78c256aa489889dad8d255f7b3efba5bf44a9
+~ -[ASAAudioDevice releaseHogMode] : sha256 fc729e46a870c6451ae01318cd423a42ce53d0db8a44013a5b90098a81a1566f -> 55d62d503f344fde8d3bd8fe9838e80edec98070386ae35f0fcd746287d747e4
+~ -[ASAAudioDevice actualSampleRate] : sha256 9458ceda28ac75e83b923fc2da0ec554188c0282020b542d44c74338ce43380b -> a8839b9818d4b6d8bc351b58d2f2d40324c395cf1114eb2e0e249c7a8ac943b6
+~ -[ASAAudioDevice relatedDeviceObjectIDs] : 284 -> 288
+~ -[ASAAudioDevice nominalSampleRates] : 300 -> 304
+~ -[ASAAudioDevice nominalSampleRateRanges] : 288 -> 292
+~ -[ASAAudioDevice inputStreamObjectIDs] : 276 -> 280
+~ -[ASAAudioDevice inputStreams] : 364 -> 360
+~ -[ASAAudioDevice outputStreamObjectIDs] : 276 -> 280
+~ -[ASAAudioDevice outputStreams] : 364 -> 360
+~ -[ASAAudioDevice controlObjectIDs] : 276 -> 280
+~ -[ASAAudioDevice controls] : 540 -> 536
+~ -[ASAAudioDevice iconURL] : sha256 e7582b662f88d2718c048b22da37a49b5ee1a932620503afbbf765000b369063 -> ed94a5cf427aa705a423e2daee46c4519e8b1b6c0da811b7ee139d96a4ea34b2
+~ -[ASAAudioDevice hasInput] : sha256 47d0150e303c3341881d3da889479659da9fe81f13fa8f9c3a135caff5cd694f -> 45e41a7b2558347dbcd03c280e1b5b282d3984f08f707720193a73effb829e59
+~ -[ASAAudioDevice hasOutput] : sha256 ba116c5bbe4459622649edcd4eb6f1902793be908cf00e12a4f02066f2ac4c4a -> 78b15f5dd6851ea6f74bbb28c69c87487185dddfc5511323b72361a4e72bc356
+~ -[ASAAudioDevice isAggregate] : sha256 88a7f86ff4137c1f75e30a98f0eec0fd81feb9386f0f434ee0d66272c9a97791 -> 4a77c6507533df57febd06cb1d979d4fcaefe95b0eac180489265d153d8fde78
+~ -[ASAAudioDevice clockDeviceUID] : sha256 0160739ab3ff3624eb74e7d4c33a4e690cf75dc2a70312a47c79a5c65f5adbf0 -> 842fa3644bc6c799e7da8a003dada06a8ae7a25ad439231d35eb38bcbf49e440
+~ -[ASAAudioDevice setClockDeviceUID:] : sha256 180ef6be485b9578cadb44ea2fef110a67288db3ebc94ea5c95f0ca95dddf433 -> 8c30cd8bf42b344c21a376a970f56383389726f2382bbd191d411108fb4fa91a
+~ -[ASAAudioDevice aggregateDescription] : sha256 15ed31612446ae33f59909894286df2a46d207160b7a607508cf56a69fb20eb5 -> ef9043acbfd9268690ba0b80fdd8d4061c6c7ecd33e0fd2a9ebf38a8b2e67b67
+~ -[ASAAudioDevice headsetInfo] : sha256 8ef6a19db44cbeb4e0a2018a23cc39e81df9601c5f9cd9bc06676d90323693ac -> eba4988edf07da71afc05fef69053b1ac51c868b6b28e47f922db600dfe65915
+~ -[ASAAudioDevice setClientDescription:] : sha256 8d48ba4f837ab189e85dfba086915befc951ec0ead189fce2b3f13f5aa8b6009 -> 3f05966924c8356227c1892c7f8ea2a622b11d6020a92406f19006d055216fcf
+~ -[ASAAudioDevice clientDescription] : sha256 544b68c561a737150491f24176ed29ee3e0ea2bf69179d6cc129ba6e0d9ee4e1 -> 12504720076a0004f8bee5b416a222e9da2a4a4c25b69271c76fef0f8632a5df
+~ -[ASAAudioDevice deviceDescription] : sha256 35043c7b8d842b8319335c0aeaaf4aef4db87195b318a550337eeaf40d153804 -> 0d4efa34cb66f12bb0f11cb4b735b412f78be34da77d8912db5042c10ecb7fda
+~ -[ASAAudioDevice diagnosticDescriptionWithIndent:walkTree:] : 3776 -> 3752
+~ -[ASAAudioDevice coreAudioClassName] : sha256 293d3bd309e1e475a2924fc6af1f011f3a414ec03e8676e18047361b55cd2756 -> e4490836fdbfd61ca71b416d3a14244dbed3767707c0e1faf9d7aef93c66e983
+~ -[ASAAudioDevice createAudioProcID:forIOProc:withClientData:error:] : sha256 512e493f5921dff2f88d2ae5af360bf63820dd3cd64db8b2d9d216368fad56f0 -> d00f7d3360c3cb655dc3918e93ee57cc1c3d7fdb814304ae1cfbca8050435f7d
+~ -[ASAAudioDevice destroyAudioProcID:error:] : sha256 6782e038704099b8068923981d8c875c6c3e7bd6b2111bee899fa7f6e33affb8 -> 6129218ef7bcaaf26a87397252c668011d372e1fe3bdd1c6cb622f2d350bf1e1
+~ -[ASAAudioDevice startAudioProc:error:] : sha256 b52e8f0cb6596a6b2992b4bccb031ce3c4da35aab9bb753d8441d2c8f2de3b5e -> 135a733128903e3a6496a5a473d1aa9a831cd6345cd105a0d6f65f1a68a683b1
+~ -[ASAAudioDevice stopAudioProc:error:] : sha256 588cf4fe643d6996adabbe1acea0ed88427abdca7aadf393d44a5e7d1274596e -> fb732583a8714376becf7de18fae14c2acb6aec3ae023c4e576143f74ff8f156
+~ -[ASAAudioDevice inputStreamUsageForAudioProc:] : 332 -> 328
+~ -[ASAAudioDevice setInputStreamUsage:forAudioProc:] : sha256 8b05866fe58adfb08355f589f1e285f72247adcbdce6b0efccd54674bb78d8c3 -> 3ecf08a3d3d581653c563a2df4440e9ded0578781ce18f24e4c9ae8025698616
+~ -[ASAAudioDevice outputStreamUsageForAudioProc:] : 332 -> 328
+~ -[ASAAudioDevice setOutputStreamUsage:forAudioProc:] : sha256 9d8cfce1462205e1dd4c84b934633edeba8bdcce34aa92a1f7fd9e348d29145f -> e2e857561da3bbf4c3e3e9413be48fa26cd4b21c88e282cbfdc2610d57a4d685
+~ -[ASAAudioDevice isolatedUseCaseID] : sha256 d4f9ec959bb81e75267bb5b2c62616ad4c42134c56f5901aec2109a45f79b9e3 -> d3c5abb2cff3a5c4ba98474d64dc1601305b26ee8c5fbf16f75f792c32bd74a6
+~ -[ASAAudioDevice supportsExternalVoiceActivityDetectEnable] : sha256 43b7ca7fed6c7e2523659d5f3b94fc37542d97c76aa60e5129dae5bccb92d30e -> 13fbbf8994274c3f120a50143aa8790ba8cde16a2e3a4a877b561179e82fbaa2
+~ -[ASAAudioDevice externalVoiceActivityDetectEnable] : sha256 b862076ebed1e1a8a3938c857ddfa8889ca47daaa4229630fe92366f756e5692 -> 98b02431ba4838f4c08883ffc60febfc647b9b5beb668469b27b3906e86af708
+~ -[ASAAudioDevice setExternalVoiceActivityDetectEnable:] : sha256 7d422796bdd682208a85fafae83d0f853de38a14e0e92509631acd73e45bd1db -> dba4bdd6157855be2d0ad3f2e3c5fb9af7ad18459d7276dfabd3287ad641cff1
+~ -[ASAAudioDevice externalVoiceActivityDetected] : sha256 2fc48e4dad293fd859082db46a2fe017eb5c258524a7ed06dc4cb8189d75b89f -> 4a3153c83b83fec9cede9b9f2982936201fc094936e9266d22ef1257e653704f
+~ -[ASAAudioDevice setExternalVoiceActivityDetected:] : sha256 660b5ebcade0323efb9da00b15292ca2587933c0aac409cb8d7a013ee8c7ee94 -> 4214463e8cbe5ea90af8c49bfdc569d3f9c45b6487320462b36bf8a324b56e66
+~ -[ASAStereoPanControl setValue:] : sha256 51d1a045d15c037e99dbd0caaac758eee8a66c62d5acf2fe9f1f6a1c11e648da -> a0486f5ae0b349384063c96c8fdc0e67513ae143e856f3212d885bf655844080
+~ -[ASAStereoPanControl value] : sha256 40e990191b0ca8599ef98f497c470bad3c254339cbf3f7d86c2961748d3c2ebc -> 5e92fcbedcb6cbe9f24db3b92e9b58029b7a32a7b8a387d753b7dec732dd558d
+~ -[ASAStereoPanControl getPanChannel:] : 216 -> 212
+~ -[ASAStereoPanControl leftPanChannel] : sha256 7cec5829b3bf20b4241dcfa7d15af6b975977e76b9f8a82c3c9914be10a7d416 -> 3f5fb4af37393696bd2aec49370ab86b34f024de0b42e028b624c015857b6c97
+~ -[ASAStereoPanControl rightPanChannel] : sha256 c7a8885e23e150cf2263d30ab104f2fca2427fb065297494d9f4bc41d65d13d5 -> 4a2a399b86a47e638ce44400ed80c083676be2f1add8d7660e8494826faec26d
+~ -[ASAStereoPanControl isSettable] : sha256 c4dbe4b556d9d561716e7418c1ba13d80e8ee85f31d3123405a634b86ca838bd -> 48b59e02aaa393c98a380f490d9055b943f9b1d594db15d153563a4b96fd75e1
+~ -[ASAStereoPanControl diagnosticDescriptionWithIndent:walkTree:] : sha256 d2c26696a0f40c61d6d9feffcd5f46e90f7ff26edf64bce1398cca6a50372a40 -> ee04f06c0e0fa0df78ccf0828deff75d151bf8a520332c713d5df6fefa451cb6
+~ -[ASAStereoPanControl coreAudioClassName] : sha256 09a5ca37f5943194c7a94882a09702787575495141e7c620024c387e8b66d4e6 -> cebf2b33e1eb8ab4ffd50e9ecb631a68c33d718caa3b4ee032b1f141ea01f215
+~ -[ASAObject init] : sha256 6f2ecf07bb758707abb49cc4e76251b9a44dfc081e2abc07d309130aca56bf01 -> 9a06633b8e1701c8e5a90700bb32087adcd97c91223ddbb58f75db258f1d33c8
+~ -[ASAObject initWithAudioObjectID:] : sha256 8e7d9beb48f45a8804cb797c9e7d762946487b6b52b9188a432990e00e5622d9 -> f1d7c53c1286dc47ceea865dc2fc8f54e467daf6f0019de65501e59e1e7daeaf
+~ -[ASAObject hasProperty:scope:ofElement:] : sha256 3ab28ba19cf4a56e2ce562bcc3e2abced7354a2b0fb338bb019fc03ec47a5896 -> 4286acc45177ce663f84dc4744ee8f3314b69d1df39df682fe3d1187a8ecf768
+~ -[ASAObject hasInputProperty:ofElement:] : sha256 fbf6438f54048fd726e90431496c52212077776319d7c91c415153b398c78055 -> df7309803548bbb7d4aa3046691adf35560357d3d7dfd567769ca19809e0c146
+~ -[ASAObject hasMasterInputProperty:] : sha256 b86e10ba2f82c9be4edc19592b96311ddc327d4c5519fc0dbf2bffe317b1cba1 -> 430c22d1649f131e892a3ef8d8f4864192380726aebbcf0ae183e353030c0f0b
+~ -[ASAObject hasMainInputProperty:] : sha256 1b3e8512149b6ffab7ac1a887c3f9133bc543343815332e41f1319b4514a810b -> ede8968005b8128f849ac69ad8151e7c7413969842b0da8427b6eec41620bdc6
+~ -[ASAObject hasOutputProperty:ofElement:] : sha256 556fc14c951b2afc14ab72432b79eb62d123f6bac3faa9aa6f1b6766ac740822 -> 7020ad25e1d76acdd419663e3255718bb7baf5839238c8b930e709ae7d1c459c
+~ -[ASAObject hasMasterOutputProperty:] : sha256 9747bf642968e79fa77e2e4f8d6f1bc54ec7db6c1051feabe592309c7b625d35 -> 72abe31cf25729b6b4413a1ca727c4c0baa7f1f0438814eb336feda17143bede
+~ -[ASAObject hasMainOutputProperty:] : sha256 f3dbe70ecd2eac0156cad5d198f101946aba499f73d190f660f674ae8315e6a8 -> bc320d86b45093c8ba9a942b8dbb0306d8a9122139cb65a51ede3c829e7e55c2
+~ -[ASAObject hasGlobalProperty:ofElement:] : sha256 30488e13fdd331a6d44bc879fde89876f9cc4e79d9c5d4f0ff7524abcbdb6a5b -> c1ee0f290f4dff746893a3d18d76e888b73dbc3aea992aa42b3b6833c960b6c5
+~ -[ASAObject hasMasterGlobalProperty:] : sha256 cf11ea4384658a54ec77f78f25ddff5d4f541cd7ca06717a593fb95a1ec69a3a -> 8e7781d4771875664fc698a29badebfac7876da0abb4dc8a70a655bb77fae272
+~ -[ASAObject hasMainGlobalProperty:] : sha256 be7e01d92bd5e53f7c80868e1fd0ae5604f136fe1a8a325e30454e670c536b56 -> 2276176138d3677ee8bf8ff2b0ecfbdf59479f48525ab116fafe225052c4a509
+~ -[ASAObject sizeOfProperty:scope:ofElement:withQualifier:ofSize:] : sha256 4dab878666675064f0314bce1abb32f3dd7b09d1bc8c7a699e61c52e45514bff -> 3dd9e26bcda5dace270eb2f4a39cfc41ec8435c491757779d47af5e1df0a1d88
+~ -[ASAObject sizeOfInputProperty:ofElement:withQualifier:ofSize:] : sha256 fb6bdc1347e8db9a238cf73411f7123375059f6f711a296659e2b13207facb66 -> 6b6a5953fa6a55cecfe7d00c87a4b405ebd695eb4ca2b70b9d4fdd6188b9606d
+~ -[ASAObject sizeOfMasterInputProperty:withQualifier:ofSize:] : sha256 7ea946c580449af44692280f1f43d0d6c34235d8b9c128728bd3bd96f5d4d5a6 -> 3c4ed3530ae4d8b4ca4095e7ff8b2c7e667f9d66f03057d998debdf172417557
+~ -[ASAObject sizeOfMainInputProperty:withQualifier:ofSize:] : sha256 ba30789a3e7a7e6db8ec25256da7c14d95ef54e66a69e73b4e6e82c7ef74e29b -> a9fd6a3a2dc83710c86ba219ed323ae989dcb1403e53443638c860c51997dc73
+~ -[ASAObject sizeOfOutputProperty:ofElement:withQualifier:ofSize:] : sha256 41ff434bdaaa33a161521c61780683bfaa8db18a2791058a257387d324bc449a -> f568750557383b9db1665c30782348eb4c8489917ae0c0ef7696cc89295ced58
+~ -[ASAObject sizeOfMasterOutputProperty:withQualifier:ofSize:] : sha256 990b1f3444bc3de91c040eb8a65227865670983f16102f231be42f5ddd175bb1 -> a68bab82fbf9810554834d0a1738af8f20f6b4a623779bb4928284d7b350ac80
+~ -[ASAObject sizeOfMainOutputProperty:withQualifier:ofSize:] : sha256 9bc4d7134f0894cc80d07febc3a95f19ce789615834f83d59b83dee2b615827c -> 2b12730edbbb187a43c1aa3007e9f7fca9bed8ef1a58fc1a37aab1718df988f9
+~ -[ASAObject sizeOfGlobalProperty:ofElement:withQualifier:ofSize:] : sha256 da7174e0252b7c015ca62d185afe4875d4cff3440c575445830fec42407d22ad -> 15bb85f43fa0e767ff432000d91bab1a431c18f64aadc1f48252db931d2fda8c
+~ -[ASAObject sizeOfMasterGlobalProperty:withQualifier:ofSize:] : sha256 e619ad26e84c7cddd1000b71997c32f8edfb8d967c0d6f824c84c747ebc375b1 -> a1e4adf65a9d3d5adf02c3cf3daf674715a06bcbd43bed21c858d17d9b322934
+~ -[ASAObject sizeOfMainGlobalProperty:withQualifier:ofSize:] : sha256 44d0e7a4d2c63a53afeee799a67c33b564851e32d3cf8ba13c739ac895839db6 -> 033ea7a07078ce9fad616e216f7374f8097b4dc1b0da04599432ec5b76cfb678
+~ -[ASAObject getProperty:scope:ofElement:withData:ofSize:withQualifier:ofSize:] : sha256 d5a69964acac852e9ba785f21269be9b91af535796447faaf486d1e8d03bea26 -> 2f8f3e6ff5cd2456d76f055a3f8fb834e6460eceb1db5bef018d347a331bc1af
+~ -[ASAObject getInputProperty:ofElement:withData:ofSize:withQualifier:ofSize:] : sha256 9acf30f3e316f5e74b5971f6ffde4409b0b76b746f919d50fbbd3dbc8ec866e8 -> 3214ea59cddd86a13db3ffa3389d6d0dd40002d72dc9a1f17ded3d86abe49dd0
+~ -[ASAObject getMasterInputProperty:withData:ofSize:withQualifier:ofSize:] : sha256 b062cbdb3c729884986deea8078bea059763c1a29de9cbf76508403c077e1a4e -> 7874ac5c4616c90ab058927b07df62abe7374c1def66153d2ff5a6d33f461298
+~ -[ASAObject getMainInputProperty:withData:ofSize:withQualifier:ofSize:] : sha256 69debaa28ab90206c344c2c6f47b78eacaf3e2c98103c25345c62f678952266b -> 9bcc712c990a712f115c49d0ec3807fdcb52f207bfbbf0bd1fb7176174b68d4a
+~ -[ASAObject getOutputProperty:ofElement:withData:ofSize:withQualifier:ofSize:] : sha256 1b2a9747b8718379381d45ea88af117ac88ce0917d331e9bfa7c6ebd3c19afe2 -> c16330c2ec79246e404eeaf9c3c4a20bfd24b1ab3440579c6653fc89d77df73f
+~ -[ASAObject getMasterOutputProperty:withData:ofSize:withQualifier:ofSize:] : sha256 fee78018a4d768374c5af4c4c8fa5a3c6e6504b4612d13209e6497b534ae5bbe -> fae18f60c209c282b4c37f53e476f3f6e58eb657fc340d1401e343885bd33ba1
+~ -[ASAObject getMainOutputProperty:withData:ofSize:withQualifier:ofSize:] : sha256 2054fad984445ed9e9b3574184a30957c65de1a39dd8bc1e5b647c5687fb034d -> eaa7f9911ab34eb82c59e7eed5690a7fb36ec45c2b81723e25ea602b7524becd
+~ -[ASAObject getGlobalProperty:ofElement:withData:ofSize:withQualifier:ofSize:] : sha256 daee36a12cd121eec5e7ae4fc9c798ee78ca2aad42f5d5ef44a69463650f3594 -> 4b930a53e3a2cf8fe97dde1e26e95c6faa943e28279ce6393afa64dab301e234
+~ -[ASAObject getMasterGlobalProperty:withData:ofSize:withQualifier:ofSize:] : sha256 3b91ca914c20473efeba21d12b4d370e28ebbefe1adeec0f58465642e5bf9b0f -> 69fcc0a38243937ab9ad35b5e075286dcad729f21245794129a05e9fa636b0dc
+~ -[ASAObject getMainGlobalProperty:withData:ofSize:withQualifier:ofSize:] : sha256 b6fb1bbd38742bdc1d8fc073244588bf08057b84158aa68ff8a9a9a526f8e880 -> 25ab1dacd409f5760b0e31122c93d334611a3b31fab4c77784c731a3022b09aa
+~ -[ASAObject setProperty:scope:ofElement:withData:ofSize:withQualifier:ofSize:] : sha256 163efeecd29326a65424e4951afeb7e4cb74491bceef6d671507e7ce235f0834 -> c5b1c847b2b7035966afe619973e9914c3c4a3f044b2051bd80f35a9a25fb8a3
+~ -[ASAObject setInputProperty:ofElement:withData:ofSize:withQualifier:ofSize:] : sha256 4bd659dd1832a8c2efda3c38c7d69dce612153cb152dd5e42925926dadac2ad9 -> 3b45bfa246801adf781ec25dcc5b23c3a89294b8e7241c27d3cfd13e52c83839
+~ -[ASAObject setMasterInputProperty:withData:ofSize:withQualifier:ofSize:] : sha256 c610b15c77de66454578facca73e90e16df676383b02427f9416bf249216e8ab -> edcb32d3fe7c6e360c009e6757223dc4756413897c1cdc437e08b9c8e3202927
+~ -[ASAObject setMainInputProperty:withData:ofSize:withQualifier:ofSize:] : sha256 9b1b4add72f1ba93b54fb82faeb8ba854b6bc3bd7d7cc2dd7aef1b25960465ae -> cc3db519d3bb4a6c6d4e27e632ce9ed6c56a5f1e21b807e531320712dc9d309c
+~ -[ASAObject setOutputProperty:ofElement:withData:ofSize:withQualifier:ofSize:] : sha256 f7c9b61643b013567c7c675a6475193db2dae7969d8a9eae3a5ba9c693fdec62 -> 17a44718198f8d09122c65214acbb0d4a86bade8a2bda87b8cfd1924ec8498d3
+~ -[ASAObject setMasterOutputProperty:withData:ofSize:withQualifier:ofSize:] : sha256 88c4be1bfe41b13de25d8ca12e18db2dc3ed53ed0473337bc0c727e9a570e886 -> ddf3b08e3da2d6870ab4eada0f5ab4019034c3e7a3787894005b411b8b07abfa
+~ -[ASAObject setMainOutputProperty:withData:ofSize:withQualifier:ofSize:] : sha256 1bda2a8993f81cf1642752404634f5d0c2bc741a398a96a9e6e084cf2f1f588e -> 4e18409c9dd8985de66fc3ed5767a0ffd6b78bc80f24e6ba180dcece16449061
+~ -[ASAObject setGlobalProperty:ofElement:withData:ofSize:withQualifier:ofSize:] : sha256 b729689f7d0b74d7a7cdf516fce1a93116b77ed9e51743c604bc980107427074 -> d1344f375060f063e4761661fde6e2ae8a950a42e5074d9885710deff5f0bea8
+~ -[ASAObject setMasterGlobalProperty:withData:ofSize:withQualifier:ofSize:] : sha256 f8e69ba2d10b5a2f3019984d7c87cfbd437b0c6dbaa0dfb5227662a55272f7fb -> e92e24711783d1330bbfb07628b0f73405dbc066f3930b2a0d1f9c51ec874e9b
+~ -[ASAObject setMainGlobalProperty:withData:ofSize:withQualifier:ofSize:] : sha256 7d438b3d606fa1ba87e868c4670402ebce07d648d93d501ade380da771f3d3f9 -> 0dabc5f50137480aba1423020d38be1de4422bb774459afd9ed1f3162685f9a6
+~ -[ASAObject isPropertySettable:scope:ofElement:] : sha256 5a94dfdd5853720d1ecf81dacc3f2dea7edb140792a4db2310bf8cc2703bc789 -> c83c403f79fa934615910e35947ded9c0a10ded22dd5f97468fc8e5b7c232f23
+~ -[ASAObject isInputPropertySettable:ofElement:] : sha256 07790c7ee606675349e347782ac0bed27e93b4b8f327bb519d149e903a387935 -> 4551365ce77300558390f2b42521a70de6e498689bc44d6cdc8409b112a7eba5
+~ -[ASAObject isMasterInputPropertySettable:] : sha256 1fe7782d0e04bc0c2e64a7dfd42a6f9892640261f1bfa5522ab987483c94fa17 -> 6dd84514c1d403aa9480a52ae1ac38ba6a4b74a556ef6db0da0fdf6e94127fb6
+~ -[ASAObject isMainInputPropertySettable:] : sha256 cdbff2092bc203994885c74e68eaabc3e1dfea01f8d58e34fb58ff1df22659d5 -> 9659c3612d28cfd23dd7b4dfbe8a1875bafc17afeba20d529db4c77872cb3c78
+~ -[ASAObject isOutputPropertySettable:ofElement:] : sha256 886e6d950086bfa31b485bbe6283c22494bd5a991257aa767cbdbc586308afcc -> 1c0a2826dd2c16db8ab741b1605e130931a86ea483e5f7c27bd3f2152460e99c
+~ -[ASAObject isMasterOutputPropertySettable:] : sha256 ff98d0ef181f2dde5bfeec237e21721cd1603a3a48c62ab6e3a73c863f2f0dab -> b79a9897cff220fa0550c37641fc418df004352fde487185a79799667c09ba9f
+~ -[ASAObject isMainOutputPropertySettable:] : sha256 2375efa7b3319152e00cc5ef3ad6220947165af9390e3fa8f63245a31c2faf91 -> 12b7ad3f87bb50599f049f1e54e41cfd2a4750397bc1b1ddfb3687216baa495f
+~ -[ASAObject isGlobalPropertySettable:ofElement:] : sha256 e15cde900d97208e369211fc112a5d76ba2e626e96d98faec3e0f46c710a66d3 -> bcb80386b7b04b67c75e8c54c26d796cf31860fa511eddda843e4a8c6c0cc254
+~ -[ASAObject isMasterGlobalPropertySettable:] : sha256 4f213bc01e07142343159a370cef2c32c0fd4a0a450847655cf026e3903e1872 -> 2b40e361140e28cd3636f50ad3bbd6e12a4efc05ebf68cf2363b0b869ddec3bf
+~ -[ASAObject isMainGlobalPropertySettable:] : sha256 036c92e4e4df9ce2ecba8350e600c32668a93533a4266ad0d14146d2707f0ce8 -> fc176a818950f28dd21c9470a9e83f12e30a5f240a60505ae1c9f07265283e94
+~ -[ASAObject onQueue:forProperty:scope:ofElement:addListener:] : sha256 de92139e898609a5c67d70ee8ad0776bdce59806aea7621b93fd10cf49f1a828 -> eb8a255d61094b6499edb4e75da97bb2a3b1d011e181714fca00c5d7eb4e6d3a
+~ -[ASAObject onQueue:forInputProperty:ofElement:addListener:] : sha256 8a3d53e82e6e7311de6c85aa7cc27be36ca0318bd0f9d00bbb23286725818fcf -> 2d95d1b313b4f737405b8ccba94c4a01469e5b7fe8e3daf3ea100265bc1a9eed
+~ -[ASAObject onQueue:forMasterInputProperty:addListener:] : sha256 f7b176c22932f4f793e65dd92e4f30037be336e1df7df95e443a78b67effb71f -> 6810fe5cd3b500a3c1d0d933924b847bd77e300ab6b677c0f5e05601b8dfe626
+~ -[ASAObject onQueue:forMainInputProperty:addListener:] : sha256 fe287eec032b723cdfe27d84fcc269abb780022f09616a5f5fd9bdb8f724b8c7 -> 51e5f721727e7a4c03de0e5c5188a1f33bd5bec9e9b2a46522391e05cc64bf61
+~ -[ASAObject onQueue:forOutputProperty:ofElement:addListener:] : sha256 a8454ad3285528e8360dfef80ee2fd896afaab0548b945c463c3558024442337 -> 86f88a3f3af30cc048922d0398976561e581ca01cacdacc83742870cbd2864f3
+~ -[ASAObject onQueue:forMasterOutputProperty:addListener:] : sha256 90e3bb5d3e8aa94855a1ee74bf6940714e7bbec70a72fb1f0985cdb76146bdbc -> a8e6a62e34358cef3c77e6be87fc4a4ea1973e4f691656ab1f788213386918cc
+~ -[ASAObject onQueue:forMainOutputProperty:addListener:] : sha256 1b8a81f15021c9f588744497cb7c904bea0cf99d2a87dfed9bb7015f7fc3424d -> a25e5d3d8a15b6b20872318063f4c34480bd1687ef3bdac9debf58a720b9efe5
+~ -[ASAObject onQueue:forGlobalProperty:ofElement:addListener:] : sha256 e30f6f22c618cfcd90a4e962b99917db467c6a90573ce2bdc154dba4c4f9907a -> 1499f88c9faae7f538f1eaacc2470c4f4f18d280ca3eed7d3a18b8dc0d9cee80
+~ -[ASAObject onQueue:forMasterGlobalProperty:addListener:] : sha256 2add2e084950253ee9e5d85b88205e045e4ad6f23abc75c7289932f5b10cb6fe -> 33c7f9f7a3f8e677266d5479f0487fa45085323573d9f0a83ff5aeabc63d0fe3
+~ -[ASAObject onQueue:forMainGlobalProperty:addListener:] : sha256 5f31827bbafe6b6bef134125613814f25d66a74ad135f9e688ffb51d5a3254ec -> da2475c40ea40d2219d0a6ff0922211ef2a9aa86950b8272c90d8201099e01ed
+~ -[ASAObject onQueue:forProperty:scope:ofElement:removeListener:] : sha256 a3846bce2d909450988c782227c13c667e4233d0f46ee7c036e0df7fcb0cb4f7 -> 8da2ff46be3530603870b0168060c06ad26772472cb79bdfc057e26201e45cc7
+~ -[ASAObject onQueue:forInputProperty:ofElement:removeListener:] : sha256 0daf4ab99b26e116f69b4d6eaf98ed5297b156c6495d75b2fa0b212bde107751 -> 815057fd44d0886fc2ebc8f2aae30189f4de3f1a2eab9b6c9a8bc96f595e1d61
+~ -[ASAObject onQueue:forMasterInputProperty:removeListener:] : sha256 81d4df31628895d2c10e8cf8befeaa1aeec56d07757ed010c3ce4409bdb7763e -> 2faee5a98b3bbb7867a7b41f93aee20cff367054a10d3086d9b568270d1b5f21
+~ -[ASAObject onQueue:forMainInputProperty:removeListener:] : sha256 afbd43ccdb08b4a3abfb2d1223b23e035b5455135a0e7dfd3cf0df2ccef921bf -> cbcbf9753b21f36808d887b38be8053d1255c23aafa0e973ebb18715bc428d65
+~ -[ASAObject onQueue:forOutputProperty:ofElement:removeListener:] : sha256 f1eba268b66f1214c77c84a951cba1b71a24d7ed104d4b3fe1f500c0c557f301 -> adc078ab4d7d04c612da69156270f38a8712ec6d07b42496ed8aeaab093f9ea7
+~ -[ASAObject onQueue:forMasterOutputProperty:removeListener:] : sha256 c1253b46ab20654305d506c595e30de24e31233bc2d8a7c40ade1aa09762adc4 -> fa06b925bd075f856792014f729e64b283a0bc4d1636bf9f2eb867340e2d954e
+~ -[ASAObject onQueue:forMainOutputProperty:removeListener:] : sha256 bc31ba7d8eb08af6a450ab581c3ca9fc5a21fc6e83c94bbee238fcee41e2f551 -> 3ee00327113adbd0bc0db5481a8f65715c52a49eb9d6affb32d3466356255d4e
+~ -[ASAObject onQueue:forGlobalProperty:ofElement:removeListener:] : sha256 01722ee765fdec2b5c6853180f8d69218c7c8e0533767fd3b75eadd3730e2a78 -> 48125273f89899e36399821e126e683e0956c358a4b962ca0bc4ddaa72a3514d
+~ -[ASAObject onQueue:forMasterGlobalProperty:removeListener:] : sha256 a4e534ed0d6f89d6c4fc54158723cb17baaac4f7c84192b424e4e8dcd2c7195b -> ff2920bb03c3d1fc0ea57af95deec1291bda6c3703ab5446b2e7372e2e24c745
+~ -[ASAObject onQueue:forMainGlobalProperty:removeListener:] : sha256 3e06d43747dba3387db68c68515ce3a96d5a49ca9f21dd45b70fd4717448df37 -> 324b781826e8492ef015d2c40e0f2e21b31a799cea47fd7210627419ac9bb832
+~ -[ASAObject baseClass] : sha256 b33b81f976aadbe7801958f428f9043b39f717181c85ddd7c1f8ea16343c46fc -> ff0d5acdd99ddcebb33eb1cf3d67228bddcf6d12c581ef7cad2de0fd8f46b3f2
+~ -[ASAObject objectClass] : sha256 4fc60eabc181bd6914381f6c732a111884549251b1b364d896eaec4ed53e7eb1 -> 965b5f48fe60dbd40079dede9e18b0755ef04051e727c0437867cc8e85c83586
+~ -[ASAObject ownerID] : sha256 9c2f830ae02ca14b6ef3f70e4bc79044b481d69e3a824cb4db690e466e0bdf3b -> eaed716f05745f9763201cf7b0108bd21b7608be2b1d49130c75115780a9e0a2
+~ -[ASAObject ownedObjectIDs] : 284 -> 288
+~ -[ASAObject diagnosticDescriptionWithIndent:walkTree:] : 700 -> 696
+~ -[ASAObject coreAudioClassName] : sha256 1fa393fd53889662b3bfa14789619fdf1e36146779e30938cc977b3293b3d4c8 -> c4d666c2bc10d4dfa5784782872d7fe4143821193b1122221b7961369b214021
+~ +[ASAPlugin pluginWithBundleIdentifier:] : sha256 227e685c0efb8599ca04587ea69d02d5766111c1dca426317f6cc97b3e493153 -> b38ab9363ef2562af17569e30300a5ac4a8ed933f8621552790527b7943b4e4b
+~ -[ASAPlugin initWithBundleIdentifier:] : sha256 3e927ca21bc4f2a3c98f4ce9758c8f96c82bf4ff09ad8d2ed4fad1177398fcbf -> 0181f73f417b861cb3421bde30c6bdd99242eb9b377c58f54c3086b9a5adc1a5
+~ -[ASAPlugin bundleID] : sha256 cede73ac1a26900b6bbd46be39177576ebb1c549c06792391bd971396df4a610 -> 8aebce6a94d5bb8f25b71fe5a1a66b3bf9ccdad68e2d8682ec894f1b6e08e881
+~ -[ASAPlugin resourceBundleURL] : sha256 06602524f26a2f4c2fe9789ca63cebeb3be313ad5395ac8baef966c94d30b969 -> 73aa36cc0ff85895af0a43a2d0af6f963f55c2ededf0c3666efdf734272c4209
+~ -[ASAPlugin manufacturer] : sha256 fdbba72a0373d92e558ccccf61ce1a7aadef3c24aa9a4132f6a31e35eaaf4784 -> 355034ca02bb8e4653f2c3e05713caf0dcb7b5a7f921d9bc9d256ea6c1113515
+~ -[ASAPlugin boxObjectIDWithUID:] : sha256 6359798dc5d379c996a0e12a86dd763f0140d6c03beee2d32c3a66883ac65ba0 -> ef54d25aa05fa34895726c29b92970adc3bd4138fd2da6221ee334adf779310e
+~ -[ASAPlugin boxWithUID:] : sha256 3a5f4e0fae1e5f9ae2385508cfa53029b2dbd70c28807dae1276cafaaef0fd19 -> 92c174dc07e76d7a83186e2ac4b3098c5d2a775ed332a5b680202a30fa0f836a
+~ -[ASAPlugin audioDeviceObjectIDWithUID:] : sha256 8e2b35ea2984a25e577e71857666a28d5d202dfffacd2f6878fe38b4258b1fb8 -> 3d952abf996246e092160b87ffc4aac53de8bfd1c8ee6b372af16822c3ff0048
+~ -[ASAPlugin audioDeviceWithUID:] : sha256 ef03c0fe2715903f4b19454db77ddc9c3f74da2f5402a12cd21d8785edb158f4 -> 6f3395dd9048fa787710c75296c78eb38d8eeb165299865439631dd059b7c3c5
+~ -[ASAPlugin clockDeviceObjectIDWithUID:] : sha256 33591a26ddeba8bb31b3af7f3bf1e8c909f07a624ba5b213a825828353f8ea1b -> 3e4a3e0952036ffdccb25c2498bbd907e21a25c2143c4fadf2710aaae0429676
+~ -[ASAPlugin clockDeviceWithUID:] : sha256 dd33568bca12b0552cfc3c03e34536614a08be3c3337d14bf599ab2c0e473aa4 -> ad552da8814090ed50556d6792247439e8378e4d271a924e333924f3f1b4317d
+~ -[ASAPlugin boxObjectIDs] : 276 -> 280
+~ -[ASAPlugin boxes] : 364 -> 360
+~ -[ASAPlugin audioDeviceObjectIDs] : 280 -> 284
+~ -[ASAPlugin deviceObjectIDs] : sha256 09ff6baca84393ba5b629e09754d79a8f052a16209b2d1a966e84a32b45c136a -> f6de9fa0f59bb5eaaf463262c222439ccffa3aa14cd27d286ddcb0949a19ddeb
+~ -[ASAPlugin audioDevices] : 364 -> 360
+~ -[ASAPlugin clockDeviceObjectIDs] : 280 -> 284
+~ -[ASAPlugin clockDevices] : 364 -> 360
+~ -[ASAPlugin diagnosticDescriptionWithIndent:walkTree:] : 1368 -> 1356
+~ -[ASAPlugin coreAudioClassName] : sha256 686d4c3d67f52175143f332db88aff109aae9730d19e249845ca5a01948fb9f6 -> c0f2d77f72558abdabaf3556ec451a7fc0e90659a282ad0b7679e0e71334eb41
+~ -[ASAControl controlElement] : sha256 853a115cea9f3fd8ea133977597ffad373c991b89801e53de0cc96bcbdc849f1 -> 034dfbc4f8342f4d9e0d51b74e135ddd49430b47e2b585e4363509e136257d38
+~ -[ASAControl controlScope] : sha256 0495089fa028ee61e52e6eb64c8a69986d8f406f01b7cd3f09ac09787e5dd8ac -> 5187bc0117f46037b5965401740803d7be94589709578ed6f44ab37ef15ab6bb
+~ -[ASAControl diagnosticDescriptionWithIndent:walkTree:] : sha256 ed7329d107ec78513157b7775d59f5d4f1d30f2e3b8920e9fa7b5441833a26cc -> 3c721f3bb83111cfb2ab06f3f5d859f27a3a18a966a34651b84bea99265bc001
+~ -[ASAControl coreAudioClassName] : sha256 b63bb4fe6eed1d99e66f674b150a2bc7e59fa86d20f2f5c0f5ab9b572319e7d9 -> db554f45488adcf7be9cb96f828027480b08dd18376feaba74396754575027f6
+~ -[ASAControl isSettable] : sha256 cfe65e9f984f479e6aec0a7ae748091b2e32ee2f3d5f79c8fdeef42d3c70a505 -> 04dde393dbc43b59bfc69560e893987df789d7d454e282f33cd09cfa74568d85
+~ -[ASABox name] : sha256 a1fa15f04364f5c1f8c4379a7b9c3123d8af8efeee6087d24342378409cdb75d -> b892b06411ee435b21bce0c14b50e57ed26ad8b9e972b285d3501b590a98f284
+~ -[ASABox setName:] : sha256 d856e2bb6783d4c406a1c1ba91bf21f75d080c9bb0f793fa87bf59ddb7799729 -> 21d8e52957b217e7b2ff2873a8058fd8f717ad681ed86e01153a1f7d3d8e8ad8
+~ -[ASABox manufacturer] : sha256 b47735197988dac3df21f61f8d805340773ad7f73e25bdbbfe12f7ed6cbf0971 -> dcdb4ef7cf2360338a97c715646c10c25f8ce2b7d02aba1079a1a8f3b0b1abec
+~ -[ASABox modelName] : sha256 5868f9a60d296cd6c04aeabff80b16f2d756fc5f6945f7b63933b9cfb1475649 -> 05c552ffa0e9e168c36d8fb5ea2cbf0824dfab860a1b80d56d8f4f4e0ffbd881
+~ -[ASABox serialNumber] : sha256 9a260a519cb0ef6f295c2a6a559dcef853fc0e56fef944a55f7d25d9e60991d6 -> 06842fae423210170e508934a8893198c9304f9ce0777f54bb13ca48b2789018
+~ -[ASABox firmwareVersion] : sha256 88ec591ec2cbf73d4aeea23a5e958c585133cd6365f08b25fd74deb727cc27a2 -> 172b0e05f2845706003c3c254b294671f2b7277eed6604b8eb75693704ead5d8
+~ -[ASABox boxUID] : sha256 0667bbf5232a0e0b1ba5e59695be026c74c3eed1e1ae9115b0d20ce3093cdcda -> 750493a1e2036ad661a7e5d412fd24474345ad76f21429e0054cf1ab795dfdf3
+~ -[ASABox modelUID] : sha256 8fe7baad874f322311a3fd3dae8107b957806772a2d5f6a561aa06ee92c518fb -> 6bf3700d4d179569c30309b4086b05865abdef0d4d34d5889957c8f3108f25cf
+~ -[ASABox transportType] : sha256 155e03caf3cdc060022289ee046a40f8521558e143583e4e4a7335730b63bd5b -> fba190ac7a7b54cc5f474455623b71e0df6b6a1d81c9711dac3abf5b9277365e
+~ -[ASABox hasAudio] : sha256 bee5fa73ecebb9b2d92469139c625aa2593e31011f94bcd8d760eb18f7c9a01d -> 4b6de45c77312b959871940e90fe77ec51e8a485047cb16a3c6b80a9765051e2
+~ -[ASABox hasVideo] : sha256 0814f824e002e98f31df253bc12db5117b562c1c9a13fbecb0249f22ea3156a6 -> 0a21a59ffebffcb8a372b86e98abd31c4690df1e356f6fa30dd0598d6a48f87c
+~ -[ASABox hasMIDI] : sha256 c27254447bd1ad5ac302983cbbd8e4eece4a3d7f7ba6832ed8ee33755f439707 -> a48d85ba85405cd34bca042929ce7661d91c5f0b5e7746c1903c853f03a595d0
+~ -[ASABox isProtected] : sha256 f428fa80cf596832c1838ada70d3317127bdfc69112a9ed4def6fe640b596839 -> bbcdbe973509e5b2cd9306a52950bf532560becb088a63ce74c5900dc5ecfde9
+~ -[ASABox isAcquired] : sha256 eea1eaa2618d56558c248241827fa2808354ddcfa3ca822e43f0d4297485d49d -> 8638f987043b78ea7b119778cd9c11208adcfeae3ea993501821b05b200b17f4
+~ -[ASABox setAcquired:] : sha256 066541c104131f42528df5e330f5d58a06f9ec8eaeaec93e27c29ffcd03bd622 -> 062d29edc3e879f64e0beb7ed0d31ae42e2ac266427fa4f0ba466eca4c4b3b23
+~ -[ASABox acquisitionFailure] : sha256 99cf112659bcbbe7b497b7d01c7b285b1bc8a1764ccea135465508c0eb94fb21 -> e82e486f9333b101d43a7f95151ff3d34060155d85d49ae54f5bae9baac3dd1c
+~ -[ASABox identify] : sha256 22cefef7135c217cfb501aba38f3d9358c9ada1670a7740401872ba9bf82bac6 -> 89fe20c33c245889d573a6f11ded10dda1b6de3bc01e7ffba5b50c761e01af08
+~ -[ASABox setIdentify:] : sha256 53d223e0f7687e192f9ae8f86c481941dcd43f059ef97392e3efb7026120f266 -> bb0c46ff5b4ddd49564b5b99c3cbb5c842ef8a9409e5c9f1fc78d3d9c04bb216
+~ -[ASABox audioDeviceObjectIDs] : 284 -> 288
+~ -[ASABox deviceObjectIDs] : sha256 a8c27c5ae7a7aa13d944a1e53bfdefc006547697214d9db981ab195fbd79f23a -> bb8a707550d0397cfa2e8feb8db22c9248014757988f1afc19e142fcef413b42
+~ -[ASABox audioDevices] : 364 -> 360
+~ -[ASABox clockDeviceObjectIDs] : 284 -> 288
+~ -[ASABox clockDevices] : 364 -> 360
+~ -[ASABox isAcquireSettable] : sha256 3f966c32dc9c4c05e0ce0d3a9984268fd0db44b627f731cc9cb0fb5506aba746 -> d2ddf3440ac4007aabcf1842f6a47671cdc3adc120c2c11b41510dedc96c2cd5
+~ -[ASABox isIdentifySettable] : sha256 851fa91f2c11122341cf8d50a095bbf6abb4fb57abbf2e3136f6bdd904533407 -> bfa9dcb47942ffb3bb779d6fdd7653d43eb6551ec9b55c29c173e9f4a11e8294
+~ -[ASABox isNameSettable] : sha256 229576690431a88b1196270a7d181ae9786019c03b02434149e9c3a393ef166a -> 8db76eed05c91e78f42ebc22196eb2080a5d4e73c212f6df9c612c606f863c61
+~ -[ASABox diagnosticDescriptionWithIndent:walkTree:] : 1720 -> 1712
+~ -[ASABox coreAudioClassName] : sha256 99f9a0893e3c206acff91eab28e0ccdd82f9ac0ade121a4ca7e41fab7a2fe820 -> e57260f8dbc9511554c1c9886bca016eb4f4aaa46bd4f2a08e4e6bb20fb27aba
+~ +[ASACoreAudio sharedCoreAudioObject] : sha256 04b52625c7ae572193aac13e42cd66eb7386a0872fdeae654fb4553f36a3cf5e -> 10280b2467f9d60bb62700a8cbe3fc194fc4b84db6e6b916aed54e7f4a580cbc
+~ ___37+[ASACoreAudio sharedCoreAudioObject]_block_invoke : sha256 1dd561a99a1de11985040a3e04189932446f88210317ac2a7a7efb6f102e614e -> 498ba6ae1e6d233b8883b956b6d228d9d2ff474bd9308183ce007711ade22718
+~ +[ASACoreAudio coreAudio] : sha256 c32760a54e728423ad095bd8a99e1958d00731911b1f12c3227a5211768a506c -> b7f77540e33a3f6d6e1e00270ca9828677ef51680f0da297f838f5ea7f200277
+~ -[ASACoreAudio initWithAudioObjectID:] : sha256 53ebf8b14a4d03a0c0ddbd577a9a9cd75e21d9f2772144bfdad6acaec36d3413 -> 64a40c04a08e4f70921d422f7a1a96f61b1ee60416ecd10a0f84a6129cfbe1db
+~ -[ASACoreAudio addClient:] : sha256 262852e618c0565aa918f8ce3a8c27b4c174a27054010ab1daea568f002b99e3 -> 42396d4eb14342a57770e4eefe6590011f486e3713627a1e9762491b0a4280c4
+~ ___26-[ASACoreAudio addClient:]_block_invoke : sha256 352d8182c01ca33c988756318cd03f4980a743b16f551c1b8f3993e4651ae06d -> 42e8112da6f098c3e683bbead95e06e4e043ac22d0ce29e24d28559d85908185
+~ -[ASACoreAudio removeClient:] : sha256 6a3145a6b4f9335d645940d6a7622c9dfdc1daf47f222be775fab17a9158ba6e -> d51ff535ffc398f9663d939fa4cd6c6802fdd5cea71023879563a10020ac67a6
+~ ___29-[ASACoreAudio removeClient:]_block_invoke : sha256 4bcb7e3be50fb81711f00c10ee2014012665a62bd184d7cea9c5122dc80a4087 -> 3b379a9841c1921748998d51b72f42f2df4656e3d1fc3311ac0800a91bdbdff6
+~ -[ASACoreAudio addPlugin:] : sha256 df07b14ab1bfa1c1e4c09ef95ed67aa8305d412b704395d0a3965ae173b2f01c -> b46899149ca08a1f2caaf912e23b1f2d1a3cf2c1ec58893a72fe0659343c99a2
+~ ___26-[ASACoreAudio addPlugin:]_block_invoke : sha256 1a72ed51e4daee4273752193e667affc3c7b416b5d38cc85b5e3c32a4bd4054e -> a579a6a6823e8e07946826826c596e3881b3eab345c3fcbe321b1bb2a7626752
+~ -[ASACoreAudio removePlugin:] : sha256 510485f6a70d776af4f2a7bf7491f2506ee3beaa1dee3571d51728fa05a00bb1 -> 12749d00712f3c44bbba402647b19d6b5da85db8a232b7c0b33f2f68a9c4473d
+~ ___29-[ASACoreAudio removePlugin:]_block_invoke : sha256 35b9276d9bccbb152c7f35bfabaadf08633ffb09359547740fdfd34270a8412b -> 5d2c8f783ef78df00bc6969594cd74e284f7b368fc06deda66c8dce1086dec56
+~ -[ASACoreAudio boxObjectIDWithUID:] : sha256 5aba6c486e0816b8287357c2b51c23fa724b61e99d9a79a2af05664da0651ad9 -> c922b6a93708b3f77f2f6fc91b269daa865a4ab6e9c0b76430343c980a2f4feb
+~ -[ASACoreAudio boxWithUID:] : sha256 7b8a81a7c99f47b22365d4d98b4b418c5c49ba5bacb5db29c8fd1d153e98d991 -> 84293d5a9e6373b6e38a4cc9142d835d58dc92af0d27795249486a56f4ca9c01
+~ -[ASACoreAudio audioDeviceObjectIDWithUID:] : sha256 8265f22d8f05dae8651901a4a1a4fcd047da3f9ccf516404874a7df224cfb1dd -> a70be37aeb39e4ad2ebd02377098bb12e2976de4d8d1eeaa659f420e64c7bc4e
+~ -[ASACoreAudio audioDeviceWithUID:] : sha256 79753c9ee7b7cc7f0f347b033522e452e7d36bdc95c5e21e6ce4807d6578aa51 -> 087da7e93b0eac75ca78474123c95dbdf7f11d8b01d018e94fc2c9e558ef6234
+~ -[ASACoreAudio clockDeviceObjectIDWithUID:] : sha256 30453fa7779fdf0f97a648eebab195b60ebacab58560a2762d48ddd0a3974725 -> f3f88472a931c7f51ae155759e6e0034c8beb127ba84c8124fcea7f348db8ea9
+~ -[ASACoreAudio clockDeviceWithUID:] : sha256 0adf3505eca548be6b68840ee21056067cb62ba26d2848072908ff909f503458 -> fdf70cab4e00da5d08e5e8a87e71a23447f9094c4bc066c8eb9b83990e4dd822
+~ -[ASACoreAudio defaultInputAudioDeviceObjectID] : sha256 1fc094dbbda82514e0a17cd4a6cfc64c720109d98d83611321abf5d8c08f59bf -> 776db25cb809b5547f649371494fcc10588b122e49cffaac6debc37213eabf09
+~ -[ASACoreAudio _setDefaultInputAudioDeviceObjectID:transient:] : sha256 f6af51d7cf6ff0e8f536dbeb3bf5b7feeb4ec32dfefa8b30345ee8c8063f9006 -> 9be95eb31318339c1258ff9a1bd26070f4c0756d3878b906b1318873a7733a60
+~ -[ASACoreAudio setDefaultInputAudioDeviceObjectID:] : sha256 52dfc88754f821e52252179e892cdc2bb8a45fe72ba5706da4bcf0474602114d -> bf2fdd83aec8adcc8fe69a91bf21d235f71776e8a237b13d66bf9a2166d1e8c7
+~ -[ASACoreAudio defaultInputAudioDevice] : sha256 d8207bee760cda5d187ba288426c2fe0186f153b02408dc708fdd86bc786d6d6 -> aa4aec830ca49b009454f4bbb7b5016cdf6e5d28d31eabf28c5e0c5b144eb4ad
+~ -[ASACoreAudio setDefaultInputAudioDevice:] : sha256 7715252a7cb144d5ef7aa9bb339d913f2cd55078b5f1fa3d9debb63f46c58bf9 -> 118431c2740d066a4e3d4ac77ccac9e5f04e8eb1e6457e01877c5cdc07e320a5
+~ -[ASACoreAudio defaultOutputAudioDeviceObjectID] : sha256 db4f217b66b9a2b418e15d7160542ce77d6ed3ecd71be124ce63b7815e559700 -> ececd3a34b660440c4e1b49d6ec00b644a8d3f6ec7aeb8ba7aef92b16722f4a9
+~ -[ASACoreAudio setDefaultOutputAudioDeviceObjectID:] : sha256 08c3505ae5e4ddfbdceb2f67d584a79b13996e05e8bad6ca8cc2954d2b6e4019 -> 07877000b6452def76c73cc72b9348546a3e0b2dcfcccca081e21094e7f6e104
+~ -[ASACoreAudio _setDefaultOutputAudioDeviceObjectID:transient:] : sha256 70a10859d81c64d765eb262ef1f64b880bfc231c51293a0a5230743a305efe96 -> fd4b2c605595328cd5127137e86a71251eaafc8896b6ccf496a9030c9b01a093
+~ -[ASACoreAudio defaultOutputAudioDevice] : sha256 0bf01e580a84b282f35e36d0fb8aae39287a0e2d7bc9ca86bc1d73d56febf882 -> a401d593fe9a9eb57d9753d3c51a715c33b721f9286cd188d7a3411020bb309d
+~ -[ASACoreAudio setDefaultOutputAudioDevice:] : sha256 bbe2cde7d421a8c0949059ad82dbff1b889e390373361131ad3e794790080baf -> b386f17650feabed6ed5e4a8dd7d2717e586ea1b2b1cf7b91bb9e419c7dd290a
+~ -[ASACoreAudio defaultSystemOutputAudioDeviceObjectID] : sha256 6833db5d12bd456c41ebfa3d3f34cd7f9c2c81b3a18751677078c206a0540172 -> ca10ef9484525201ce003072ff1e57b064ab9106db22147c1ca51d5c200e0793
+~ -[ASACoreAudio setDefaultSystemOutputAudioDeviceObjectID:] : sha256 f7517ca57ccf01e81d01c31c0b76a70a1c108f0bd39824a3a10433e1127e45fe -> efbafb9409a824fabcc06f7637909f38bbbae335ac74e12c74a8efd672a701dc
+~ -[ASACoreAudio _setDefaultSystemOutputAudioDeviceObjectID:transient:] : sha256 ac55f07197cda4cc5d6ce1acca8ee296b80442478a238fe0bb32c188446c423a -> 9000e46cc7c0ba36ade72e79f98abc916628792c84f10b44c91e4f8462d3caa9
+~ -[ASACoreAudio defaultSystemOutputAudioDevice] : sha256 9e74e7ae11a89d7e2e673f8c78b0ef5edb2d0dea292d0a51b646e6e8225cbde7 -> 144f81bdf8729e0a7649d4111b081c4a3d72788440e46437e16c1f5f65d02bda
+~ -[ASACoreAudio setDefaultSystemOutputAudioDevice:] : sha256 a008789fe52795832129255be79cac02b18152787929fccf7b9a3641fdafe079 -> 88b90d0d04b513dcc5bb9683305f9cd1d2560a3c2277a0a8cbb3562510233403
+~ -[ASACoreAudio setTransientDefaultInputAudioDevice:] : sha256 77aa977b5b88563a374c9d81a4e48c1a6e768ee846f5d24a741f9e3660d7bf56 -> e5924e8098f567899822bc41397836be21d8998901aecd3dd38e9444b982c085
+~ -[ASACoreAudio setTransientDefaultOutputAudioDevice:] : sha256 66d85e112eef2c4a17b695714b5efde4f57ad85026110fc6a6626b1479cd1bc5 -> d49720ae9a699ba0815ad28121bd90b6271a57d58b88922477dc094901ab1928
+~ -[ASACoreAudio setTransientDefaultSystemOutputAudioDevice:] : sha256 02fba2a83e7964e7ab760f43e808c03aa1a60cf4aa98ebb9a541ac5c7d926340 -> 4ebe0433f3dea6040f2df6fd63621c6b201315b8221dc7b7fb90ba0a958349be
+~ -[ASACoreAudio setTransientDefaultInputAudioDeviceObjectID:] : sha256 625e0503b4803beedc76958ca62c7ce38c25bd24228da24b6f25ada4555206bb -> 1d01775e5ca8c6afa81a98f7d12d83adc9518b5675a98865a253c9b03005ee1a
+~ -[ASACoreAudio setTransientDefaultOutputAudioDeviceObjectID:] : sha256 6543b8debbd69969467a2f686eae3118300b54ffc10b2cd413f33a2a1cbf6933 -> e00ab60f8cc937ae9a5c00efac11322a5e1086f535f5f985f25d0cebfa0cc941
+~ -[ASACoreAudio setTransientDefaultSystemOutputAudioDeviceObjectID:] : sha256 3e0fb5ee50ae810b1bd7b34bd8aadc0660a74241dffb73f7709712e90b8aae6c -> ecbebd941c7640d92e6433266d479a6e9818e07a55c8e314528c37ff78aeb659
+~ -[ASACoreAudio transportManagerObjectIDWithBundleID:] : sha256 7d298a73499af04d01a66200611afbe03c3e3f47af72d407a38ad8e742c315f7 -> d4d516a062435d63861bd2c16039ada9607a4c01c2cbe35d55277c9769f6e631
+~ -[ASACoreAudio transportManagerWithBundleID:] : sha256 d123dd59e510f2394ca7a2d1f0bc8fedee4e227dda83599c88e524d9f6b35f1a -> 26b7426dd2a41fe9c6c313fb87753558c161fc3ea402c8b3b61d9876a0210e43
+~ -[ASACoreAudio pluginObjectIDWithBundleID:] : sha256 c9ce938ca829710ee70ef8ea79a945b2ceb3981441b91208e875803c7ea7395d -> ab502b44aa35bea653b16d583768810686cca7c921eaad200db22f6352119eb3
+~ -[ASACoreAudio pluginWithBundleID:] : sha256 3d96bfa2b51327f8dbc6698a4335440f604f1e39767a3966cbe17b67b5002160 -> 224d51ab078ec9c31ff48e52fb39510ca4173ed97783810c7b75cc0a6d867615
+~ -[ASACoreAudio pluginObjectIDs] : 276 -> 280
+~ -[ASACoreAudio plugins] : 364 -> 360
+~ -[ASACoreAudio boxObjectIDs] : 276 -> 280
+~ -[ASACoreAudio boxes] : 364 -> 360
+~ -[ASACoreAudio audioDeviceObjectIDs] : 276 -> 280
+~ -[ASACoreAudio deviceObjectIDs] : sha256 79d01299712228fff70b8cfb2755773df09e91c744d8a66a5887f22e3971ecfb -> c0c6501d1157f03dcb78c0de77e926d2de6509485c45a1763d19fa8ff43e89eb
+~ -[ASACoreAudio audioDevices] : 364 -> 360
+~ -[ASACoreAudio clockDeviceObjectIDs] : 276 -> 280
+~ -[ASACoreAudio clockDevices] : 364 -> 360
+~ -[ASACoreAudio diagnosticDescriptionWithIndent:walkTree:] : 1700 -> 1684
+~ -[ASACoreAudio coreAudioClassName] : sha256 d345feeab1c4ee2de7f6931c563ddf3774c1fdbbed25f1a097b3ec4ad1708cf5 -> 6f7b63752219a00e9bcbc7d6bf678f726fdb74d2cea7a30f334676150d378f0e
+~ -[ASACoreAudio dealloc] : sha256 c768883014792e0ff685b8916a0d9792fda6ebc0c50dcd773f949ac2c4a8e1b3 -> ca2208b5baf12d01afdb149b96cdfd4f888d2da34d14ccb5542dfdfdb9c605bf
+~ -[ASACoreAudio .cxx_destruct] : sha256 5642c359192cb1fde2831d5278b75ff0d2b2524584e47773132fbf182322f8a1 -> b44b8ff4c816d24381674f3eecc4782e0b25fc3639fefa7ededc12e1f412b5f2
+~ -[ASALevelControl setScalarValue:] : sha256 7b79ba3c7bf53a09a7ff3ccab29ba196867e07059247c4f26447d39fc2c346b9 -> f7d364d7fe86a355403e2e5f5b9d471cb75511c5796e424b51f3bac0274c29df
+~ -[ASALevelControl scalarValue] : sha256 a49115e2e710918cf6f0e69fccbadd1e9a2c2bafc61b4f53ab552b11c74ae568 -> 92313acb3115425d52c714c82842fa78a25a9dda8319ebb78dd3afc3dbf4346b
+~ -[ASALevelControl setDecibelValue:] : sha256 562a50effb73743178e1e1fe00169b4bb16ff447e72a3066f2aae6ec584fd39e -> f9ad997b08d87a0767e8a69406459029e39a5238325bed2298cc1c576dde8f1c
+~ -[ASALevelControl decibelValue] : sha256 6806d445913748e124d335dc4d4dc95cb526a49db88e6ad29015d8700251cac1 -> 5f404d2a69116f7e9b1500591c7df4613ee58b94ec81f5618962a7cc73e8df55
+~ -[ASALevelControl minimumDecibelValue] : sha256 84a15fdbed0ca9f198ebd93df3bdd10fa2d939ece38ea7078286d29ac700535f -> 155d1f4e75e86105a9d955260c51f52c1df04f9c5dba2e88f25ca41a4f74d2f2
+~ -[ASALevelControl maximumDecibelValue] : sha256 b8c3feea0bd7d33800b77af6fc5f96679e2c305a798a0b0d0d99a2f8b14c18d9 -> 10f474dea1016d313812f228a61b6e7a51374d7ca89ea629b540aeff7e733358
+~ -[ASALevelControl decibelRange] : sha256 ee4c109376b625190ae204108989fdda4eb3067b49d147e8925c381160ca2cab -> db6822e09d8aa3a393bea6826a975849bd83f3abf6533cb805597505e8344fa0
+~ -[ASALevelControl scalarFromDecibel:] : sha256 c87a36a6426f01f0d92bebdd68b862f0f838f19228e435ab7a74b15d44e8bb11 -> d8ed0d9c2cc8aa6a5b1ecbf90a150e3b7c6dabfe29bdc1f0565592039508dd26
+~ -[ASALevelControl decibelFromScalar:] : sha256 e31925d748bd1c6f3f4095cf906190d34b2118918706907b64174af2177f9c65 -> 2433da1e6d0ce7f0b14c8f23f54c5c9e72e335f31c372d0f7e3496d1dab3f421
+~ -[ASALevelControl isSettable] : sha256 254de6d1784350ee166951e64cdb927613b56bb3e30a3982232209c45c6d7335 -> 76e19765f03787fac3a87974dcc5a78199f4da7cbae7b4aa7603c73a4535a300
+~ -[ASALevelControl diagnosticDescriptionWithIndent:walkTree:] : sha256 f99c9922f337381387c1e876da21416b95f74b5429037cb2b38157e9295ff337 -> 7b37745a6a870dbec6411e109c8c33e8b190ce5835a005bbe9474a7b5fcf95d7
+~ -[ASALevelControl coreAudioClassName] : sha256 34b7dc07bdaaa04844883a760f7baa82e99c30789bacff59ee59ecc8676bebed -> 28bc583ca99a15bddb86c326412b1ce12d69bcedf6db4548ea576ed579b63239
+~ -[ASASliderControl setValue:] : sha256 95e91192464934711b3e8ae42a4c6816b57898d353f65411d596e4142fb7cfb5 -> 636f8aa81bbcdfd9e934bc57c569ce4ddfa69e59e3ec829b28edcc0e7efd7ef6
+~ -[ASASliderControl value] : sha256 67658f3e0c7b6803b6b5eb49d9b70bdf8fdceeac5021ef9ec3a477ba7f6b4bab -> da8b3a09fcc66cdb1ebd268a9ab65219d46b27b2deff20782ff277cd55c9b3e8
+~ -[ASASliderControl range] : sha256 24666e16391439c70888d70cdf31dfafcdacfb0da7015281d05148bf1acfbfaa -> 9fae500482ac23b6d5dc257bde07d5222a96f7dae6c6cd0c43c02ed5b7648927
+~ -[ASASliderControl isSettable] : sha256 980b44e26aa00091110c0f3baae7cf7abcbd8521909cbde0e2272edfcbf2f152 -> bfdae79d7290824e6a093ca6afa38778785134a92ceb9a616065e7d2404cc062
+~ -[ASASliderControl diagnosticDescriptionWithIndent:walkTree:] : sha256 25c7272510c4a99348e2117e12e2807efa10c2a239f7284d2ea8ec8762443c02 -> 10e0e8d2248e773313b9768773cc9e68bc50f4c9298c79a37d463fa9fd86ae91
+~ -[ASASliderControl coreAudioClassName] : sha256 c33ffd1a6a05eb5b2e301601cd22862a4a89d614bb56502eb2c19155715226f8 -> aa7594771865450d472f2fce3e2486b5f1cc4b4ceb33664240c682fe07ba6326
+~ -[ASAAggregateDevice initWithAudioObjectID:] : sha256 8bea07ebe35f6a26d120812a1e8263ecd8a40a8bc740c3f078d4a4cae584272e -> 48ae3a657287fe3545251f2ca92fbcc639ed666b2c7d03a59d9258245d233f8e
+~ -[ASAAggregateDevice initWithDevices:usingMainDevice:andClockDevice:withName:withUID:isPrivate:] : sha256 589289eecd4a19865ea8ee231a322faea879ac32b2e530f7664d0f71d6c2546d -> a102588323ceaad7facd7d6e920813f15b59d3462d97984aad640499f3aaa230
+~ -[ASAAggregateDevice initWithDevices:usingMainDevice:andClockDeviceUID:withName:withUID:isPrivate:] : sha256 410f8f1928ca248e1942fe8415938d163de2c763c377a52e4c4bc0376b9428cd -> 00c7f96c2b21ff3808efbc7e32333fcf7538c4c3d144b31483b1f6080239e0c6
+~ -[ASAAggregateDevice initWithDevices:usingMainDevice:andClockDevice:withName:withUID:isPrivate:withIsolatedUseCaseID:] : 2084 -> 2076
+~ -[ASAAggregateDevice initWithDevices:usingMainDevice:andClockDeviceUID:withName:withUID:isPrivate:withIsolatedUseCaseID:] : 864 -> 860
+~ -[ASAAggregateDevice dealloc] : sha256 4e0c19d92a9b6241e4b078372eb29a877a3c1090de500688c91598afa03471c6 -> 7fecd6f28119fea053bf9b32290992fa0b3960a94db8e6dfdfb52f2334f9799b
+~ _OUTLINED_FUNCTION_0 : sha256 aadf178f280db7681aed6e863ec9e9bf73d43ea50bad23aa5dbe819d349c7946 -> 5536dade16bd84933cd73541765c79a3062c3771938f3be541f8351ef6603adb
+~ _OUTLINED_FUNCTION_2 : sha256 c4e48c57fa57bf46d31c5ba8fc44132e704438786c227d8d17ad71a9f1970b48 -> 57765e48394fd72e85f1f6167efe3384deb51a964537dfe0407e2d26f24dec4e
+~ +[ASASampleRateRange rangeWithSingleRate:] : sha256 03ad312ab67b78f30a728cc7735b71064f3ad8ee46eb8933c14f249d9555f24c -> 38e595aa272d9658574a26792d673e2c876a3fe85642ee33a5a7119fa13f93f6
+~ +[ASASampleRateRange rangeWithMinimum:maximum:] : sha256 e175e440e1887df0262c4f5d9801160b1a05f0cf900d62161415f7c095548228 -> 6c820092ab9710809e0349c83365de0469ea895b5a15a660c1788916e62c15cf
+~ -[ASASampleRateRange initWithMinimum:maximum:] : sha256 60891daed091e0fdfc88e7714ff06c9c8e948382a343637c297509babdd011ab -> 16a03db77ffaeffb3a7f0477ab6461f779b5f381d87bc4dd37fa709119bc154d
+~ -[ASAClockDevice name] : sha256 fcc30c3b91f62d16766bdd6d0b60e4e7ce7146874529917a524ece5930c79f8e -> 53642764e80e35321be13613ec397315f3805a12f6790b32a6a3fef239a61e0f
+~ -[ASAClockDevice setName:] : sha256 09382585c193fd7cecf4f2aec1631248b525374750f3759373beb61361459ae2 -> aa4ec43335b04ce19f372b176dbcefb47bbbc347d174d28ac27188a490110944
+~ -[ASAClockDevice manufacturer] : sha256 4ef93447f89ad6663dcf95a4f10be0991524e612b930990d3fb884f310d89468 -> 4a9e4448e77e54bb155d1f7f3074413b5f522e381f3658df8066eafb2d6525d6
+~ -[ASAClockDevice modelName] : sha256 188e5711961b1ca490dafbc6d3c50eec27b299a15ed13ca9cfb744a9842bf7c4 -> e094aee01553364e61b3c45df08626e240484776ae36636237af1f92db777a12
+~ -[ASAClockDevice deviceUID] : sha256 e49fe3ad0a09e0d65c855c6a612fa8a8b9942b4f437875281ce4ff4e37399167 -> 96222b317ca40cc3e164f4f90a170baca0a044be205e6ed8fec0f3c3b02d3f34
+~ -[ASAClockDevice modelUID] : sha256 7aa3326e663c19a79568a934ef2ccff925ac7802485b12eb22e3c24eee1fabfb -> f578080bb632713637031d8dd09238c9d4b7e5f048d21310770c70863424ce2d
+~ -[ASAClockDevice transportType] : sha256 bc78b61254e88760a733227bdc68954d59486ffe9f33de8cc9e8136e266c1817 -> 5633d2754c6d2b6b7574188e01fc272b8c81df28e5cffba88b6729b30fd5546c
+~ -[ASAClockDevice clockDomain] : sha256 594e50d409de869753b74c8c8df57d4b9260c3a08ac2b06453d9678343129e7b -> c3a74dff225fecdca85ec5d0d6ef4e244c23f12efefae07b6e3ff8e26307d186
+~ -[ASAClockDevice isAlive] : sha256 b4975f4feaeefbc8043e8f9351792f49156af2ce6cc80d3a24219516bc2d8e29 -> a7dcc6bdd711d007ced3389470997b459e79f0708b51d5bed4fff79b43276bb7
+~ -[ASAClockDevice isRunning] : sha256 1ab9346a73ef04ac35013ba2242f79bd1659acbd4c07c2a63d06f69f8311ee66 -> f6df08513e635a8b7ba8803462e7f9f12aa545e1e23afb85c9e3c4c542eaecc8
+~ -[ASAClockDevice nominalSampleRate] : sha256 56ddaded36a9b705ed2cb32896a2a3dd7550f5e8122abbe2ff8a8430ae6d3859 -> b8825c44038ab4cf18975632cc8e2933c6226f806018fbd5522ecd51280c0b65
+~ -[ASAClockDevice setNominalSampleRate:] : sha256 992f7faecd6e209101d8ae7e2076f8f55027cd77995a2f11d2981f6c28f66191 -> 88a16fb008e332d9ecdec502f3c08c4a5d49fbf53c1f0618bfa9f3132004c18b
+~ -[ASAClockDevice isHidden] : sha256 1d9876e301af5db71c6168aa56d08de50cf0fa4024df5b24611742abb3f38fae -> 700f24ef672a542803c1a116718a025a71fcfa624f664c7e0d3f382db8a19fe6
+~ -[ASAClockDevice inputLatency] : sha256 df62d7ffc7e56b7ed228a412f4ca12122d90634e41df0d720170ac947349ef9d -> deb5815a67d79f0f4acf2a9085ae6a77e8d3a4845a3a18cab07fd60509fad624
+~ -[ASAClockDevice outputLatency] : sha256 60a6d2533aa170c25126aa6ccfd33b1f8b6a187da6f365fab2f2d8c3d179130e -> c6402c27e3650bd466e26f326f37274c2c222715c0c6670c32aec1e74e60d5e7
+~ -[ASAClockDevice zeroTimestampPeriod] : sha256 744560e4f7f0feeb7573805abc98c85ba622a3a604e8b6d0c0eaab520da13c76 -> 1279a78e510f3b59e98a256770b8551398a8066dc0d510dcd39c382b40a44ecd
+~ -[ASAClockDevice nominalSampleRates] : 296 -> 300
+~ -[ASAClockDevice nominalSampleRateRanges] : 288 -> 292
+~ -[ASAClockDevice controlObjectIDs] : 276 -> 280
+~ -[ASAClockDevice controls] : 540 -> 536
+~ -[ASAClockDevice diagnosticDescriptionWithIndent:walkTree:] : 2096 -> 2088
+~ -[ASAClockDevice coreAudioClassName] : sha256 a2f37f885ad05e3648986b46809bf634cb4221ba1bf5981b35df9d9a4c8f363b -> d4dbb9d1e49644501db6d72f59bd40b41ce2d858f5fbe671e6cb07375bfb464d
+~ -[ASASelectorControl setCurrentItem:] : sha256 41a6737447e1c57835a6d79a3bbc155f07ad9b6fd621550fd956ad1565b5c5aa -> ea82d5baab8259256801e2a4959a9a2866484174215ddc4c585de8afd81b97d4
+~ -[ASASelectorControl currentItem] : sha256 47fcac3c52fdf5f4a969aeebe768a2cf6a17fcfa5a427164abc6d6fd48613485 -> bff994969b893eba2988ee6ed582428dfbc04cd16f87d4d574636b3a96c7e8c0
+~ -[ASASelectorControl currentItems] : 352 -> 356
+~ -[ASASelectorControl availableItems] : 352 -> 356
+~ -[ASASelectorControl isSettable] : sha256 d6f1481c3abb85e8931d5f134f218e48829d02ada435fe5998274106c6f152bb -> ef4e8736a0b613fdacb087273c74e97464e7488b2faf8983b89f65a547f47679
+~ -[ASASelectorControl nameForItem:] : sha256 1f7082899550104eb7dab52b39b32a0e1813ef0f7adc544bfa43d1d1417fc4bd -> fa0b3e589f3e52c76f0afff63a7a94395c9a8bccc239124c76d59a169d91d42a
+~ -[ASASelectorControl kindForItem:] : sha256 a4b9e15f232956f64de3452f3d33627d79f9344daef28a8745079f8d955946d7 -> 6ceab5b2ef86ae8347b9bc48da2eb4f55097c2ccb7caf7e5868877f61b9cd5f7
+~ -[ASASelectorControl diagnosticDescriptionWithIndent:walkTree:] : 1040 -> 1032
+~ ___63-[ASASelectorControl diagnosticDescriptionWithIndent:walkTree:]_block_invoke : sha256 11e275cbe46c9920658e749365532e6408de4d361afd9707192f2d8f89accd1c -> 31794f053ab5aefe00e8aeda21492e5d937d55a399d9bb3bb78f2eba63fadab1
+~ -[ASASelectorControl coreAudioClassName] : sha256 5ec552347a639133374f9ead4a8e4a96d8d17fc75611e5bee324b04285775fb4 -> 4f4066b969559f5391a7586ab25396eaf7388db62414bedb189e80a8d8bef08b
+~ -[ASASelectorControl setCurrentItems:] : sha256 19d1b760278a6b9321c60e4382549549ff3380c906385787d64bc2d7739a0128 -> 7cbb7ac9b16ec57b65995b73aec86484c1c551827bf9876ae01c7e4f36354f01
+~ -[ASAStream name] : sha256 0eb104bc3e82fd862259b89a905227b4580b666ba9b3d1b411722ba5051188fc -> c2fd1c46ff6446c960d5210713ed9a9aa23c83ea453d0811477ddad027606107
+~ -[ASAStream setName:] : sha256 ed2e8866f48c6107f62b433c35c524a9a6c1b7ba2faddd57604b078abc8f6ba3 -> ff5343bf5bfd54b03dfe7dd21065f1fb18a659024233d5085b2b9f439096ec46
+~ -[ASAStream isActive] : sha256 01d16c0723a740ea4ee773e6b75feee39d58f07f3cdc132278a3b15613b4d419 -> 2d088914d9bce006cc645d6aabf2cb6358e4e926c10644147d15b8b79ec931d5
+~ -[ASAStream isInput] : sha256 b706aa689dbff660c93fd0f924ca0efa4b3c55f0eb315c2514b5445bc606a744 -> 059f896713eb19f3913b701ff46aef280830ee320e55f60c8cc863464acfe4e7
+~ -[ASAStream isOutput] : sha256 264c31496b3e020d899387fb4665c1b8eab9f3b3fb06593476bf9f77620a6f35 -> a4351d283df703d492e394c66fe4cfc5fa60cb41bc01d840d78e1c118209ccef
+~ -[ASAStream terminalType] : sha256 0005dd5587c21d937bc9cebf649c7f0d802873938cab5a48f13aaad93d8af3f8 -> 19f327ee4122b78ab0ea34c8c7928bcda42cf71741304c2c1664ff2b7e3331d7
+~ -[ASAStream startingChannel] : sha256 be495568dba8419168a20fc7393f85dc0f44415c5dab81df17b0db199be82393 -> cc953edfb73e1633b76b68bef46e0835d830ba6ae0cc5c385950ad77c6b0a63c
+~ -[ASAStream latency] : sha256 098ee44824a18ef389b6196083da05b7a925497557703f5198040d5b0f63e403 -> 129b2cc225c4f39ba500b025e1b6f20b328822e5cccb255e479d8ee397adf105
+~ -[ASAStream virtualFormat] : sha256 dcaf145c387258d195731773e95769f05cc947e405d672e1fd28d4b8cadacedc -> e3d06e6cf1c28acc342355eef5252b2ce1b7fc375d1809683c1d4bec8a588a1b
+~ -[ASAStream setVirtualFormat:] : sha256 40c32fd85ec694aa246d5c95e7f4d6ed91ae75a53770671e276dc8c525380fc4 -> cba4dc208a1a3ec51061071015427fa9f8d74268066358269ca636a8ed45117c
+~ -[ASAStream isVirtualFormatSettable] : sha256 815f0633e5f57cfe19e0fb57fef0f9429f179725d70d9236f8776611b56c8d41 -> 6cf3c55caac45a9300504bc0f3a08829e9d867a7da33ed47db130bc7ca27ea92
+~ -[ASAStream physicalFormat] : sha256 2a5817b6fb9de79bd5b3e5776f39ffce30676c6082ebc800a5f2aa9fa080b9a6 -> e1761a40791c7d0f5e4f1c279bb716b19ff9aead9140ad1e7f2303b17491cc4e
+~ -[ASAStream setPhysicalFormat:] : sha256 e828efcea759ed5f3e9daea0ea87e8806ad3101a14cd7bb9164a73c9154ded68 -> 0146a8c51ee30a8c3796a4fd8630c141b3039196ab49d25a2490b4aa60e67340
+~ -[ASAStream isPhysicalFormatSettable] : sha256 87d72099383177a06f45678c61bb1bef879a885da912f68ca5b18bbbe882524f -> ed09b99de47854735b33dd707ec15c12c3ffe97a1b5acaa1d6ab48099014976d
+~ -[ASAStream availableVirtualFormats] : 304 -> 312
+~ -[ASAStream availablePhysicalFormats] : 304 -> 312
+~ -[ASAStream controlObjectIDs] : 300 -> 304
+~ -[ASAStream controls] : 540 -> 536
+~ -[ASAStream isTapStream] : sha256 ed5090bca544d76c51c949a21d94c26b9b4d6cd1b1688c071be0f3b2c5546137 -> 9c76fa609ef3e16dc135c82314da120d6813d535e267583cb11b3f6de0bbacb2
+~ -[ASAStream channelNameForChannelIndex:] : sha256 6e75317978dc07eae6a7c2c219ec7ecf44c60288dcb3dc4db2307e3cd68c82bf -> 2e44330c49ada8180e387d3597b853b98fbe0998572350dc0242ab949a6df7b6
+~ -[ASAStream diagnosticDescriptionWithIndent:walkTree:] : 4020 -> 4008
+~ -[ASAStream coreAudioClassName] : sha256 78b8ae31a553b68dda2f11025403fdc29c76c0d94ed9cee19da2adae34cd2db9 -> 6a37115eb6fb3d6162bc84652a4f7ab758e0a010d3d55325ae4d52d48825f005
+~ -[ASAAudioFormat initWithAudioStreamBasicDescription:] : sha256 a46f1c32eba1ba22067a5cbceeaa1e995fc4f9fad507cac280eea2bffc3a1355 -> 7307d5a83455ad23904b59be5356fc3030659f3d21632154a3d19e15890bd74b
+~ -[ASAAudioFormat initWithAudioStreamRangedDescription:] : sha256 c3df14d879f62733ced0ce61e914d19fd180bebf5474b3af1089e2846d660a4b -> 90551f5bf2476e64a1e6ba0621d6f6360c3131427f6ab813663630a6c76f7fc6
+~ -[ASAAudioFormat setChannelsPerFrame:] : sha256 74253ac5f620c706f77ce9815ff5b969052a173d3fd8747b24b721fe93c6abf7 -> a402c019af07b3ca1321f5c4868549f3a8d5158b1a768bbd5cc7400fff75b318
+~ -[ASAAudioFormat audioStreamBasicDescription] : sha256 bc4df74e135ce8970a1384bb59a8fa652ddf43557861641c9d9c60842f3f2b11 -> cf2ee33814513065df28dd789a4d0d8c26cb4f7189452d54490d456fbfb8aaa7
+~ -[ASAAudioFormat audioStreamRangedDescription] : sha256 205e09d5c0b167c46bf30b2ac32af2d753480a40307556f8b5fb706870e4dd0e -> ac6df8187ffb6921628087b103a6dd965ec7a328d4beaacaba607cdd0af23ace
+~ -[ASAAudioFormat copyWithZone:] : sha256 dfeb9cb59b88a2d49b2b1b0b4084d36df61aa5a1b70d08727313d1c0e786db0f -> a0f968528f3c79475ff13c980c91d9ccdd28ddd3f2fe7ed4b9a4adbd0a159b0f
+~ -[ASAAudioFormat description] : sha256 d4ecf61b6afabef094eaca0a2c95226981aa7521e52f9f69ea1305d7004bbabc -> dea17b32b642f429124e16dfbde1486e015d945e028c5ec8101412c165377a55
+~ -[ASAPlaythrough initWithDevices:usingMainDevice:andClockDevice:withName:isPrivate:usingChannelMapping:].cold.1 : sha256 11b6a1cc00f1d3621a6c65a1e0418862a88ccb5a2162ba2352f7670f0e41cb98 -> 3d00c227f2f1fdd732300eed5fe52be7d5f02d6c9b6becd1ea97d5924268e3fd
+~ _InputOutputProc.cold.1 : sha256 70c353e74776e220e33d88184582a28989ab6a784f5510acb317bd7e5c712969 -> 70f680882013208e175f2243bacbcb212f87d07bc178fe69a290820e45c882ee
+~ _InputOutputProc.cold.2 : sha256 5c28386695e2fecbfbb20925bcee63ed9f6c16e8013524701e4b5877675f3055 -> fe93db123cb71e8193e3e4e901bbd9dc1a724b2335050275dc2b3db2e4f5b3d2
+~ _InputOutputProc.cold.3 : sha256 00d8f6ef06a5983b8b58eabe63f9f085f342fc8b2d506ae8ff52b095ac069b75 -> d4b89515fb857a3c206c02a920963abcc92ef6dab894dc89db9c25469501c3d4
+~ _InputOutputProc.cold.4 : sha256 239e025794a50ecae14ee531eb195e3b3a2920d81da67625e1dbfd6b2323b296 -> 803c2137cf6cbf0d26f481ddd50a81455ad2efec87647fd53abe129769695ca6
+~ -[ASAPlaythrough dealloc].cold.1 : sha256 542e7ac0fe85c478536c9443e8c6da55bd27e9aee48de01e3a70827305a6256c -> 66bc6d32b81293d8d72eed0ef55a3af54fea47233d1331c3e80a48af9c2188e1
+~ -[ASAAggregateDevice initWithAudioObjectID:].cold.1 : sha256 aee4be27535c8670d90c4d0888bab29bad9566483f638dbfeeb383d0be2bb60d -> 79e993a845224d82b36f98fcffa037ddf39f3590a4d5ee74e5673401a142db3c
+~ -[ASAAggregateDevice initWithDevices:usingMainDevice:andClockDevice:withName:withUID:isPrivate:withIsolatedUseCaseID:].cold.1 : sha256 9dd188fd8335f6da82769e1ec9d467538b29617cc370b88c38446b2c5c8af5aa -> d2b9835f1bc95ea4b722ff171176c7e9f7cae952aca5b8c55f165ca547c55b25
+~ -[ASAAggregateDevice initWithDevices:usingMainDevice:andClockDeviceUID:withName:withUID:isPrivate:withIsolatedUseCaseID:].cold.3 : sha256 8be3d21ad610c14c17c3ead2ea2b8ae1b72f09749e6c172d8f89eea8aa5a38a2 -> d40e2a81ea48b45e74b00da0ce9c4cb0152095e78337c65a054d7fb0809bd9aa
+~ -[ASAAggregateDevice initWithDevices:usingMainDevice:andClockDevice:withName:withUID:isPrivate:withIsolatedUseCaseID:].cold.3 : sha256 484c8185596c11b61c00f3959bbd7496f1aff2b12ce495e9dbdfd6a6e2444ce0 -> 039bf549d69fb2268ddfbef6ada2069babb14b9373e0213cdf721752966d9e1d
+~ -[ASAAggregateDevice initWithDevices:usingMainDevice:andClockDevice:withName:withUID:isPrivate:withIsolatedUseCaseID:].cold.4 : sha256 0d3cd0413939300267bdfa5822cb23c5c9efbdb0b3acd45a7c0959e30c4ba71b -> 60773154e8574a0ce2187025767fa8d440801517a132440c4ebc029fa949e025
+~ -[ASAAggregateDevice initWithDevices:usingMainDevice:andClockDeviceUID:withName:withUID:isPrivate:withIsolatedUseCaseID:].cold.1 : sha256 dee801e403082dcccf600c3a18f4d959a022bf332d2ae1aa1b3f29c0ded0a593 -> 0c33800e4d7681449cf91f2ff6e52a148e5fc5403ab753d258559148b2608441
+~ -[ASAAggregateDevice initWithDevices:usingMainDevice:andClockDeviceUID:withName:withUID:isPrivate:withIsolatedUseCaseID:].cold.2 : sha256 b7cbf33cea6405f761609867446b351a1d7ecb593d28e90b3ecec2b728c10349 -> 5e0e93b120613b4958bf3ff3dcbd96f32658c821e7bccf29897699e65de104e1
+~ -[ASAAggregateDevice initWithDevices:usingMainDevice:andClockDeviceUID:withName:withUID:isPrivate:withIsolatedUseCaseID:].cold.4 : sha256 d2f81144529b0b96ccd949cc57e13e6b888311a42de9520e1670be51a15d7645 -> 2949e0d861ac5d25147847b7699b527bec1684fe42d635f07ccf91d0442c88b2
+~ -[ASAAggregateDevice initWithDevices:usingMainDevice:andClockDeviceUID:withName:withUID:isPrivate:withIsolatedUseCaseID:].cold.5 : sha256 9d13c74307f285fb016729f5b415dec4e3a41bb0b08fb505b3f0337a54668bd4 -> fc8c77a3b3ba51df3f2b37bc52dad179fd5a876a951b4b2d3cd420acd6a3cbc1
+~ -[ASAAggregateDevice dealloc].cold.1 : sha256 4f90dc975ae4632475c2ccb8f3633eb3247c31634f6bede5a991c776975b6271 -> 04df3b02b27d20afd6cf55c8d338eacfea40a194a9620c20f829133c4636b8f8
+
+```

@@ -1,0 +1,52 @@
+## AXFeatureOverrideServer
+
+> `/System/Library/AccessibilityBundles/AXFeatureOverrideServer.axuiservice/AXFeatureOverrideServer`
+
+```diff
+
+-3229.1.6.0.0
+-  __TEXT.__text: 0x32dc sha256:f280248d142e9ed20c467c46af972ee5b3115f0ec2d1f2dbdd5100315036bed6
++3232.3.0.0.0
++  __TEXT.__text: 0x32dc sha256:e5b3158f37c0ce37ce53c6456f6f7a7ede6b8ed993f624318d680080aa4d613c
+   __TEXT.__auth_stubs: 0x5f0 sha256:ec0281c2a6701d67121c6c6a59f5f7dd864a68b7d3c41d55633c098599dd7b44
+   __TEXT.__objc_stubs: 0xc0 sha256:16062c060197a6038398b345de8c2449d35cdbc85fab2e964606797ced5540b8
+   __TEXT.__objc_methlist: 0x22c sha256:0ed5ec04aab411bef79ffea48cbff37ce63484ab6867ae81f8f5cd8a76620779
+-  __TEXT.__const: 0x342 sha256:9bf3dc352a84fb47deabf3bd3f6d18c1a4b946d4f377d21c2a06321fa0fe115a
++  __TEXT.__const: 0x342 sha256:fe6cb5f430c0b1258bf0288b5122b658c135574d491f1e33e31bcec676ddfe0b
+   __TEXT.__cstring: 0x122 sha256:7bdfebeb8df5e0668be430a378b794112214764ca629ba2a2ff1ff5193136ee5
+   __TEXT.__oslogstring: 0x172 sha256:895601563678cbef57c6ce25cf20a1208bc157ebf3a500e8d0e62ca1883a1871
+   __TEXT.__objc_methname: 0x723 sha256:06f1064c66a1771229ea1abab33190cbb7ba899412c279d2cf2deda5d79ca74d
+
+   __TEXT.__swift5_capture: 0x10 sha256:4ebf0306204fad2a1a0b43177b7dc624b3ce08d0d565aad07878b48a61a560a6
+   __TEXT.__swift5_proto: 0x14 sha256:f7026a94d85da854fd156fa16d0c84a8abf89be26a006bacad555ba4bc164f42
+   __TEXT.__swift5_types: 0x18 sha256:6c55f5422e68a6e45597f632d1f47f3ab63ee271c79b7834a6c81ce2008c94e7
+-  __TEXT.__unwind_info: 0x140 sha256:4df5357a128dd7320423e597a2d1c47bb19f74a2b9bdb5069665f49e583f271a
++  __TEXT.__unwind_info: 0x140 sha256:e3d8f9f2acb0503d058d3eedfd5de84ba9b966bd24fc942b200501153d86628a
+   __TEXT.__eh_frame: 0x48 sha256:68c7f18f95644b332e195b9f3692c7e9924a28fc888e6909ae9c4aeb7c15d4ad
+   __DATA_CONST.__const: 0x218 sha256:7cff64d9e15141b378a437ef0356e62a535f25d33e3b1ec666c88c1f190c32a7
+   __DATA_CONST.__objc_classlist: 0x8 sha256:29578b64d339f44d5f9fdf127ef987a41238b2bf0f1d623135f3e8c7e5f612d8
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7D21332D-5FB2-3761-83CA-F325F3C5392E
++  UUID: 8FD9E249-633C-3AD7-8BC2-68032D7020E9
+   Functions: 91
+   Symbols:   107
+   CStrings:  112
+Functions:
+~ sub_1c10 : sha256 2d37e57dccfa13aff2cc91f3ff476dcd4a66c73f423b39e7ab725d699d92e8f1 -> 06bb4656082439fe1d9131f5a4f4f282cfbe950076189d8d516b2d115d702971
+~ sub_1c1c : sha256 22e1d6f6b0fbcb50d3dfc46174a209b9f443f1e57819731a4a92950247bf30f4 -> 35abf03c9f701a7c2738e200464ba5fba978ab9163a0d5aee2c5aa8296130e86
+~ sub_1c20 : sha256 0562eb26d6380f4f430884e3190bf54a080c0118e424ea9d4723a16657139b6f -> 85ad6267c6c70b5ec5eea634b476c24113eeece12d1f794be6bd4678822fba1e
+~ sub_1c88 : sha256 8fcaf1ce28bcbc1d8514b38aaa79919973d350f9df4bf2cff78ae1e69141bdba -> 04e734736b78c870ea3c6844a36823acf55589262db14edfcd819b8ddd8e59b4
+~ sub_2cd0 : sha256 4499750fd5af6f9f215e44f0a35307e76a7c67f011dcc2e4a1f5ea550666de76 -> 424e17a2f5a36fa4178f02b684009aaed48516ab858c06c0a1bd3daf024bd865
+~ sub_323c : 172 -> 176
+~ sub_3304 -> sub_3308 : sha256 45ec2aa0548a2802dc0a1a3df447f8cd36d3f7f6c3ffcc1c4198277117e65437 -> f92cab37d6fcf985075577ab2125d6c3dfa31ccea62f6fa3539c9a686b007b83
+~ sub_33d0 -> sub_33d4 : 280 -> 276
+~ sub_3e3c : 392 -> 384
+~ sub_3fc4 -> sub_3fbc : sha256 d767ebd3542b54abee5e8874a496f1c3729be5a7f6279fdc42bbe28e777ab1e7 -> 35ac30e1a33f8d38ecfbad64d5eef91357ef706c4eb06aa7388474c232fb98e2
+~ sub_4344 -> sub_433c : sha256 ee7ac6e84208e024fca0fbab4119ba6b36472249b9fe02bb7a6d86ce807f1661 -> e2255651cfcaa262aad22c7b75a11f0158eda96b77b33e3ec2d3532daf323c65
+~ sub_449c -> sub_4494 : sha256 3d80f294a6afcd9b87859e947f6807dbb8a38f497769c3a8e43c2ff5603917e2 -> ca072cf961a677660854c4eb584c90b37c4002475689b296bd5dc7dcefbe8565
+~ sub_455c -> sub_4554 : 256 -> 264
+
+```

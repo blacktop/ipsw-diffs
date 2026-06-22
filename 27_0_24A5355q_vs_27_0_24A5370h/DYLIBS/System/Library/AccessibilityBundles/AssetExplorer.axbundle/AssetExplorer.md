@@ -1,0 +1,86 @@
+## AssetExplorer
+
+> `/System/Library/AccessibilityBundles/AssetExplorer.axbundle/AssetExplorer`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x740 sha256:485f4c3f2d7f45ded8c9d451702c8605a17072e8dc18662832ba902cf277daa2
+-  __TEXT.__objc_methlist: 0x154 sha256:6201af214b19920df90287fa7608693a9b44ea041928bc0f867e9cbbbd94b2f3
++3039.1.0.0.0
++  __TEXT.__text: 0x740 sha256:00ca8da16f8634aa4f279d37ef0c8b6c91856f18793a33f74b36cf07a3102837
++  __TEXT.__objc_methlist: 0x154 sha256:ae8d816af2da57efe85c0a21a9bf1574dcafa1f67435579e6fe1c0bd3c3caae5
+   __TEXT.__gcc_except_tab: 0x48 sha256:cd45dde2e6fb515482bc1a76af8de09189912ab4bf54256b1a99286b9ea7271e
+   __TEXT.__cstring: 0x31c sha256:705179b19c40a3d6a06cc1b245130cd255d907211541d6eeffb83759e3d0da22
+-  __TEXT.__unwind_info: 0xd8 sha256:b018d28fcdb21f98484e4394e06179dbd32e81a4a549bcd17c7308764a6f164c
++  __TEXT.__unwind_info: 0xd8 sha256:1584d7af00a232ed6943c8507a65fd086d69edff5904e56621d008e50eda8215
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x78 sha256:4b6b063231a16813d24f2e98e14a0295dbaaa2f7c787933e1f2ff1fcffd0ebe2
+-  __DATA_CONST.__objc_classlist: 0x48 sha256:d6e5bb58713c5dca184dc08b4123902f52c87b0b1033cc2b3e4ff62ae260fa59
++  __DATA_CONST.__const: 0x78 sha256:9a19ba7ff9a9f45a3033014f7575f6e1e2aa60777c16b89de38bba1a35e77c96
++  __DATA_CONST.__objc_classlist: 0x48 sha256:f68e38d8fba376c44db7b90b387c40bb5b26d4d2a202c6558093d7735fff302a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xc8 sha256:6175a8e0a0ab6988623049e2be665c7c188c8894b8e9cc94a30f4ad74f76307e
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:651e3b8039fc51249eddeab6cc4f989610321bfe31104d87a754d14762d15226
+-  __DATA_CONST.__got: 0x30 sha256:d7c139f2af3b4902cb3cfc61cc2bdd394a6aa4426bd85764c691e6496d474fa1
+-  __AUTH_CONST.__const: 0x80 sha256:3a5a20960ee27694a79b523318f7ba12a00880dfee6aa4b97bcec590671f82c4
+-  __AUTH_CONST.__cfstring: 0x320 sha256:96a0f553592d5d9e618598ae9d05e78408cfe51263ebc969aa0ea29093823a58
+-  __AUTH_CONST.__objc_const: 0x510 sha256:5a85d0b7098ffcfae57fca5ca3068c8c7deff25a2104b8a553d20c4b83f96fbe
++  __DATA_CONST.__objc_selrefs: 0xc8 sha256:ae52938c77183ba2db6ca595a38b9a2936d58d4b7552a40dffcbb8257f425e31
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:0056aa06e755bdf4bdb0b86ba5ae74627acd1462d0f09bd2ef5a20a2c3d99525
++  __DATA_CONST.__got: 0x30 sha256:07cbe3a59f65db46cc32f6bc1ce6ec0b6529c8ebc6928eabacfd6614d385025f
++  __AUTH_CONST.__const: 0x80 sha256:553668f1816bbef5c3d49f3d832bf30745edb27f57ad4129375bfe3413bd5d48
++  __AUTH_CONST.__cfstring: 0x320 sha256:7f8d74174843ad646dee0d41d289ef0bebced994f41306a0e908287f0146dc50
++  __AUTH_CONST.__objc_const: 0x510 sha256:69c5fe2106fe66b2239e2117ae6d6884b08b2e8ef1c78aae5137b13f7c8d07a6
+   __AUTH_CONST.__auth_got: 0x0
+-  __DATA_DIRTY.__objc_data: 0x2d0 sha256:76cf50fdcd69fe7852aea5663be7a6b02e04fd8d792d6f6b7f7a8b927660d6ca
++  __DATA_DIRTY.__objc_data: 0x2d0 sha256:9bbd86aa32c4fb68d028c904e5a4877c545100af55f3adac087cae5b6feb154c
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 47E7896F-4264-38B7-8286-1D5D661C40C7
++  UUID: 7CC1F698-3129-3559-8FF5-F00B3485483D
+   Functions: 25
+   Symbols:   151
+   CStrings:  56
+Symbols:
++ ___block_literal_global.568
++ ___block_literal_global.570
++ ___block_literal_global.579
+- ___block_literal_global.562
+- ___block_literal_global.564
+- ___block_literal_global.573
+Functions:
+~ +[AEMessagesShelfRoundButtonAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 605e1b9ddf1b6f494f7273c514fc7666bfcbbd4450d267c2a59056038a84c6eb -> 54fd86a7279aec29f7ce010c11dd1fd987e333621c69174f0ed6a2944518dde0
+~ +[AEMessagesShelfRoundButtonAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 15626e23bf986e3fd6df5d99e4cd099242d7b45d02225a470aa73f1798dc020b -> 7d75b28db8c42c3a8cb11541bfeb8eb042fd71d6139b3b3524d5770b4708cd0f
+~ +[AEMessagesShelfRoundButtonAccessibility _accessibilityPerformValidations:] : sha256 104252be62acbc46ff62d3d54b460419f97d3cb55fae82f5546cbb5cc6349077 -> 1133bdd2a2e91c373f3c9eb2447e9c701701e3e108bf9f3c5f52b21c62d53134
+~ -[AEMessagesShelfRoundButtonAccessibility _commonAEMessagesRoundButtonInitializationWithStyle:] : sha256 6321f1411c303920c3736a43089ecf5b7a1fe4f2466bd2f5b0a28200f71db743 -> 334b5100d6fe64deff668fa0e8de4a406391005df731685918b3c3ae8595fe56
+~ +[AEMessagesShelfViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 b241ba3653a5baf30b1baf6ed4d6273cabc1750fbf00fc88b57e0a8de64b5c88 -> 98b0db6de25c463ef2d449d017c84f557f11e7fc19c1463ba320a9760377188e
+~ +[AEMessagesShelfViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 3714bc5d806d1f1621a196c91928a2f3c1cbf3d635a83e7f6f89e3c056a73db9 -> 6bbd7e5f4d010956f4fa36046f953b1a0853e7dc2772c2c996de411eedf4ebce
+~ +[AEMessagesShelfViewControllerAccessibility _accessibilityPerformValidations:] : sha256 69477eb74b8770e0e7088e3c3160da87def605332d060f62ba2d8f6fb90c7634 -> 908202812f94de6ec7c07640b16c91f3c1e46aca91be791d7e98aec24b88e71b
+~ -[AEMessagesShelfViewControllerAccessibility _toggleIris:] : sha256 62c9d5208805a06939ab1a8d790098401b18e1f81727256180dd778fdd5dda3b -> 16c89bd34277109b7f061b21eef05959c1b6e15fa9d777a0e5792f0a41155c24
+~ +[AERoundedCornerButtonAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 08a36bd23284cbc2bbff48899b5927e042cf238c69feca774f9faafc578758bb -> 3b390d9f4d492a84fb485e4def6607c1950295195d1eadb53f76755d2f5adfc7
+~ +[AERoundedCornerButtonAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 6e595d80c23a1d4f6f2027188edb4bc7f2b597debdc267f4fdee5a49712c0db7 -> 5d504eb33ecb3caf5e5619eafb4f32c3cb7de71a5fecb1e386e315a78a0b530d
+~ +[AERoundedCornerButtonAccessibility _accessibilityPerformValidations:] : sha256 11fe0ed35e6098064185c7432e65b00de1be812006686052645b08cb1d1f676b -> 7e676a2881bb97bfe5e146cb2a06569d8ea165b11610705bb9b3ebcaa49076eb
+~ -[AERoundedCornerButtonAccessibility accessibilityLabel] : sha256 43036b2a4352373ac223ae1216c0c7f4965c85f27835839ec2390f6588bbdc3a -> a624cf0e49d291b9616af09ca1b5b49f3d3cfac7961309dd97229122d2c2267d
+~ -[AERoundedCornerButtonAccessibility accessibilityTraits] : sha256 01aadc83a0f6a8f20ecda36b9fab7347363a323463660af7d1be690975cc847a -> 948dd1db4ea4605e4dd78c83731ddda2ee5a5622a985f89a6d8c18e49ce668db
+~ +[AXAssetExplorerGlue accessibilityInitializeBundle] : sha256 9b0bd12af9373a0ffc53d90cedb023023d123f984c88bebe35415b89e7c97673 -> 04f9040afb1e45879c3342479658fd51b8800376b75a389cf26d61a9b7670f85
+~ ___52+[AXAssetExplorerGlue accessibilityInitializeBundle]_block_invoke : sha256 7251e0d456f74c8b7ba738cbd4a33e8eebd1bd4c179cfe27677bd508c91dc073 -> c70cbfc3eeee40a84b4a68200e433bdcd77628c33e8c931d0c37876556a0e293
+~ ___52+[AXAssetExplorerGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 8563c204197524867eb40e33eb01f5a72dccba4a1247f29b0951699ab0812e98 -> 47fe6c49c8668543804e04f1b3af072c2a7a1ab6d194b67a1cdd3827b38da2f0
+~ ___52+[AXAssetExplorerGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 6bab6609a485bd343f2b1a8a984dec0a0838562fbb1b62c4f3e6690c12ecd9bc -> 5a2fdfbbc2439cbef87e65d567bfe08aeb1543d5dc88c33a1efd94b219d8e0c6
+~ _accessibilityLocalizedString : sha256 1943df5d66f267c6304684f928e55095a7702873f6b707e4851f87959b8aac38 -> 56e092abcd6fa16d0cff886484dba8774c02655be0998d33dc7d5d91bd57cd98
+~ +[AEExplorerViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 91f9ab5c919aa6d8a23337afe9f69e01138c9a860b468bf110e13f9f61f9bf50 -> e4d71eaa9195fdee27dabac33278a2374d8324597feeb3576c002c6fbcd8ad69
+~ +[AEExplorerViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 cdf58c0657a00163d5bdfada7dc5d439a6a3b43101da687b1643d6a45ae4790d -> a71bf6934819bcbc0d0e07148b0abb75fe9d7ebfd4916cc89ed33cf255f9ee69
+~ +[AEExplorerViewControllerAccessibility _accessibilityPerformValidations:] : sha256 83ce0c868fd6f51509b9d6b27d664ff6b1c8d1c2e6354559a2d80df85cf8f657 -> 711c5956087b765032feff48d100866d3ed03ce1967b60f8eedbbe6df6b82bec
+~ -[AEExplorerViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 c774d548e7bc9195ab5babb2f9d6b48692483bcc9ebd75ce4bdef3b65c7c7c65 -> 9a54d19495b037004deeaad2bafeb327156c329d46305bba6917f0c333d933eb
+~ -[AEExplorerViewControllerAccessibility _handleAttemptedSelectionToggleOfAssetReference:cancelIfAlreadySelected:suppressLivePhotoContent:] : sha256 9e611c03ed440dec9b87ba0a0ad096b444e8cb3d34df7a3064ff16e4256789ce -> 479fdeaf97b44eb7fb66a0d9f7755f8bb85c134fb61e32a317e3bb6cd8ccf8e5
+
+```

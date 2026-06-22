@@ -1,0 +1,211 @@
+## ScreenTimeSettingsShield
+
+> `/Applications/ScreenTimeSettingsShield.app/ScreenTimeSettingsShield`
+
+```diff
+
+-79.0.103.0.0
+-  __TEXT.__text: 0x141a8 sha256:1f04d7eb2930c497c7ef9746e837d1b918920b6a7fa08e8b12449078530fcc09
+-  __TEXT.__auth_stubs: 0x1230 sha256:82bf402a4aa5456a19e770afe2dcf1cbc0528a5b6d0f818773d569f611e40e31
+-  __TEXT.__objc_stubs: 0x340 sha256:9d77f6f081ef62c7cf2d0887e311e3f2ed0210224de29d18cc322631d27f0ed1
+-  __TEXT.__objc_methlist: 0x6f0 sha256:922d3f3b69264f0cd9d5851a38b34cb34b72682e48d359128a9dde030cfe00be
+-  __TEXT.__const: 0xa84 sha256:9fc2f1eda25163b6d68e2ed9fd285468e9f90df1b60a39e3129238c8e9860487
+-  __TEXT.__constg_swiftt: 0x4d4 sha256:880929c745dad7522b90caca44594c3a7add22698046488c7d1a6a0b2b188492
+-  __TEXT.__swift5_typeref: 0xf2e sha256:77a5b88e4ed5549e4d6167c234712d3c44d62aff2058fb040f6ac4d256b9646d
+-  __TEXT.__swift5_builtin: 0x28 sha256:ed54640ef9ab9f7108aebe9ddffb90aaf7d5c7037e0da684a0685e1a95a1de43
+-  __TEXT.__swift5_reflstr: 0x1b7 sha256:5bc2a872ab8ca25becbee8da8bd1d54992797cc6c38fe8c100ecd6f65b064539
+-  __TEXT.__swift5_fieldmd: 0x210 sha256:561299e2d36e4063c37a9a36683f60bb50f0d442931df016103c989a1f73a2db
+-  __TEXT.__swift5_assocty: 0xb8 sha256:eed13c0f0ea5bb44a5c49f2362eedd4f573cb83e95c7d9cd75b8203b46ebf017
+-  __TEXT.__swift5_capture: 0xd8 sha256:c4951eaaad9d89dc51d2c91df18814f5af014567f0c4c4e1380475f6d010c010
+-  __TEXT.__cstring: 0x4da sha256:5cf48c8fdf521fad2aa40de9fde522ecc425fb9412233a241d56e5f681f643c6
+-  __TEXT.__oslogstring: 0x4d4 sha256:5fcee5711248b8cc38be60bac2bbe1939734bc2f81ec66998495829ed5f0c5ce
+-  __TEXT.__swift5_proto: 0x30 sha256:aa76eba976ce75ecb1fde75fbd555ae180b56271a29f3eabd068785ce2f1e29a
+-  __TEXT.__swift5_types: 0x40 sha256:d6a688071ba7cf8915a89f48c8e1cb0aff7c4b618f23136071dd0e1934252097
+-  __TEXT.__swift5_entry: 0x8 sha256:455eef0c5a3af1b2c7a9e4fbe9f5a4eb9b865924088819b51bc38dd84830883b
++82.0.100.0.0
++  __TEXT.__text: 0x17574 sha256:192fdf12623c67503568afcdd150eb9d2ff533f8e14a331b7dcabd2acc76959e
++  __TEXT.__auth_stubs: 0x14b0 sha256:be9b9614584d19429fcff6ed50a7c7f5c95151c03066922d7474ccc389e9688a
++  __TEXT.__objc_stubs: 0x360 sha256:8a88abc481943f7225a482c6f407d7463cb58d8c167b7c96459cff49fd091e7d
++  __TEXT.__objc_methlist: 0x6f0 sha256:76bfe5e429c84f4c251496d714e43e819883e4d499a8e9d180ecb549cbd4d739
++  __TEXT.__const: 0xb34 sha256:93f20dc6231720948df04118e1ea6e3b836633db7de1592be56ef9625992ff39
++  __TEXT.__constg_swiftt: 0x594 sha256:2263a195ba984d183dd815e1389fdaea14a7c57dd15b2820057c0d1890d68764
++  __TEXT.__swift5_typeref: 0xf6a sha256:eef81045e0972069180c5ed161ac8b6c587680a138ca8f7c6f489458d7bda84a
++  __TEXT.__swift5_builtin: 0x28 sha256:f097752a57613ca5b757ea764b34b7eb8d7421e428e4bd005e3e4de8a4eddaae
++  __TEXT.__swift5_reflstr: 0x1f7 sha256:d9132ab90cc24e1dae777a55781da1dc1fccb8b9fa2dfcabd4b33a1a0d253c37
++  __TEXT.__swift5_fieldmd: 0x26c sha256:00814c3e6611b81095e4c561d7c78cd0f7e008fc20218cf6390965c15fc0c2b7
++  __TEXT.__swift5_assocty: 0xe8 sha256:97be38075bc7bc64f6b3910d48070f6836c0e900ed6afc195c5893674ab2f1f4
++  __TEXT.__swift5_capture: 0x110 sha256:2f38883fc7acd9806b28c03d89161e1f8b312aaebfc313d0efbb1277124db892
++  __TEXT.__cstring: 0x52a sha256:e49ed14b3e011c90f1b5e85c9a8afb27a8eb651063d62f0bcd5537f936aadc43
++  __TEXT.__swift5_proto: 0x38 sha256:d7c0d4c390445082e49b3cb913551a8be5bd582bdb50fcd4336d02cdd634b984
++  __TEXT.__swift5_types: 0x48 sha256:ac572d4d58511c9a3597a954cea6bddde17d83489798cdbc8ce040a8a0a1f4c8
++  __TEXT.__oslogstring: 0x624 sha256:03ec387ff3facb8f6a7d717b47637468c01acb44ea351a9781ac1917048481b2
++  __TEXT.__swift5_entry: 0x8 sha256:22787bfe1dcce0baab25a63c82da8005de70a20a735718c75af710e3f8929e8c
+   __TEXT.__objc_classname: 0x238 sha256:d54d37be7f3d7a4f4ab3e383b4151d22fcd8579edad59cd817b03d7b330df104
+-  __TEXT.__objc_methname: 0x15b7 sha256:86f6325b81a10b9628c1ab9261e40e1f27556492c8ddf376dd09165823dbd834
++  __TEXT.__objc_methname: 0x15c7 sha256:b63a88ff71421bade56e6af23825234d222927a5464de02e3eda00f52323a577
+   __TEXT.__objc_methtype: 0xcc0 sha256:2d65d16697aac8b5b6e659e37655dc7ade40c9093b1b58e8f31b179b68e4bb51
+-  __TEXT.__swift_as_entry: 0x10 sha256:163f2aa9bf97f2b96ed4ad888f7bc2ba747bef32ee7eca32d3dff2be85d8b899
+-  __TEXT.__swift_as_ret: 0x10 sha256:f91d6fe2968bcdeef9416d3ce80e1a5db1115f165804ee3d1f2adcefdbc13a5f
+-  __TEXT.__swift_as_cont: 0x14 sha256:2777beaed2e74900e72c5cd1dab296837e7c8c837d8679e1395a71a6ced81641
+-  __TEXT.__unwind_info: 0x418 sha256:52bd5b62e6981a23435a1d2535dcd485104463cf31c1982b14397ee77f44a61f
+-  __TEXT.__eh_frame: 0x41c sha256:73f9b4cec8020ef78bce6bb7653634eca7865ef445cc3781b28c1328ba1f46b3
+-  __DATA_CONST.__const: 0x558 sha256:83b3cfccc19a777300402581cf95787061bfde82e640b253c471b0d0b124865a
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:d9696ad9b6695e17d92fca986b7b182a6546c82bd6a2e369e1e62b1d3592bf68
+-  __DATA_CONST.__objc_protolist: 0x50 sha256:f85d09605bdfcc8cb8e0a72f6ca28fb462d278df06549d5545bb47b57b61a7e0
++  __TEXT.__swift_as_entry: 0x10 sha256:c6b32714072fd18e6d9f34f1efa4ca42f75eb785a13842e25ce70b18f7307f58
++  __TEXT.__swift_as_ret: 0x10 sha256:bf2199028c338b9b7279e5ae2d007d8f2f2ad04695ea697fa41e11c9ff46a4c8
++  __TEXT.__swift_as_cont: 0x14 sha256:f377c3fca46843bac2016929643ef6fb1cc78948e6e8d36b51989cea4b92de91
++  __TEXT.__unwind_info: 0x4a8 sha256:4f302b0970d3777a46803830309859fcf6e477fb1c0dcebd0118415e3ce9b627
++  __TEXT.__eh_frame: 0x41c sha256:9fc1c6c0addd4fedd7cad3e3f3dc6462b3e2f669322f320ff91b5b321fca12b9
++  __DATA_CONST.__const: 0x628 sha256:a5356ac100421cfd9bf11b98dd2417184dd4b28775581bf32fc2796d8a931c24
++  __DATA_CONST.__objc_classlist: 0x38 sha256:a69831478556fd9db3eb018e2379b0e43cd139726a7a9f2aa98fa981ce01be97
++  __DATA_CONST.__objc_protolist: 0x50 sha256:f9748d904f93a8b7444087abf34332e750f0a9b8658c13dc6496f154560aabfb
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0x28 sha256:7621c5e0aa40f46837ceeccfae8acc4d89e58c1369a3abb29eed4cbae271c862
+-  __DATA_CONST.__auth_got: 0x920 sha256:e3ad452cd137e60f4f522ecf46c25da4db6350419531d54fb77b8e7beaf2a7cf
+-  __DATA_CONST.__got: 0x218 sha256:bf20f17c329096fb2df48cfb917b4015d79b3e018c85e50b56289732d19649ce
+-  __DATA_CONST.__auth_ptr: 0x350 sha256:762cd7f2b69644f04c62a3b999a62a88600e2b3af6298cd90be054e18f77a71f
+-  __DATA.__objc_const: 0x970 sha256:979234fc53bf1a2a6497df0addcd41b421041a3640773f5651154218790efeef
+-  __DATA.__objc_selrefs: 0x4b0 sha256:23a3f71e0b97b6766085ae614059110d967500d483be5ece2e203bfd41ae71dd
+-  __DATA.__objc_data: 0x3a0 sha256:7234a868bed0875abc3b1397f04dace4fcc12a21dd6bfb0a456395c7ea61c59e
+-  __DATA.__data: 0x9d8 sha256:72e114ecbfbe1bab1170f7f26f4bdf67b050eb3361ba1c3c8c15bbf4ca9c6e31
+-  __DATA.__bss: 0x670 sha256:ff0c1198e3fba5061d254660b2c0e7fceb3d9b1041e29e876594eb9ee5eb7630
++  __DATA_CONST.__objc_protorefs: 0x28 sha256:cca35ebfb286ddd30f7017430da41954130bb585971efa8776f17fe6e2606c92
++  __DATA_CONST.__auth_got: 0xa60 sha256:e158403297699014d9a1bd45123cd334bfa4ca07e71513df2dac7033831edfbe
++  __DATA_CONST.__got: 0x2a8 sha256:e8ab615b4695887b28f47c20302bd02d67d20cb540f33bf64ec1dfae1243cb55
++  __DATA_CONST.__auth_ptr: 0x3f8 sha256:0094f14ac702c8b42829d8ee0ebc50101ff71c6eea4d2119e50d88c09031ec4d
++  __DATA.__objc_const: 0x970 sha256:f033c89ed34ed0bc2573bae3aca1af0276c62e0df4ef1cda7cf44e0ca205b4e7
++  __DATA.__objc_selrefs: 0x4b8 sha256:da78e7a41d4f1e9f35671a77ef50e208d35dcbfd30b52ed195b7dc9cd9412e56
++  __DATA.__objc_data: 0x3a0 sha256:13c763abbb6556665528bd05be24159150de3798bca0ec9c60c6af0807a68feb
++  __DATA.__data: 0xb70 sha256:f426c5336a14c7c564a07df926cd91ada9bb677e3be606280102ae1ca1e0b53b
++  __DATA.__bss: 0x770 sha256:38bec17977e7afa4b18f59af815e5d4985f20b4a095e1c647b7e414b8c4b5d56
+   __DATA.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 383E6C61-4F6F-36F0-9A51-13EBE0508848
+-  Functions: 326
+-  Symbols:   479
+-  CStrings:  327
++  UUID: D5D5EE64-10F8-3286-9C2F-032E0ABB67AB
++  Functions: 370
++  Symbols:   546
++  CStrings:  334
+ 
+Symbols:
++ _$s10Foundation23LocalizedStringResourceVMn
++ _$s26ScreenTimeSettingsServices0abC0C19ContentRestrictionsV020RatingsForRestrictedE0V11ratingNamesSayAE21RatingRestrictionNameVGvg
++ _$s26ScreenTimeSettingsServices0abC0C19ContentRestrictionsV020RatingsForRestrictedE0VMn
++ _$s26ScreenTimeSettingsServices0abC0C19ContentRestrictionsV17RatingRestrictionV6policyAGSi_tcfC
++ _$s26ScreenTimeSettingsServices0abC0C9MigrationV5StateO11notMigratedyA2GmFWC
++ _$s26ScreenTimeSettingsServices0abC0C9MigrationV5StateO8migratedyA2GmFWC
++ _$s26ScreenTimeSettingsServices0abC0C9MigrationV5StateOMa
++ _$s26ScreenTimeSettingsServices0abC0C9MigrationV5StateOSQAAMc
++ _$s26ScreenTimeSettingsServices0abC0C9MigrationV5stateAE5StateOvg
++ _$s26ScreenTimeSettingsServices0abC0C9MigrationVMa
++ _$s26ScreenTimeSettingsServices0abC0C9migrationAC9MigrationVvg
++ _$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF
++ _$s4Body7SwiftUI20PrimitiveButtonStylePTl
++ _$s7SwiftUI10ButtonRoleV7confirmACvgZ
++ _$s7SwiftUI10ButtonRoleVMa
++ _$s7SwiftUI10ButtonRoleVMn
++ _$s7SwiftUI10ButtonRoleVSQAAMc
++ _$s7SwiftUI10ScrollViewVMn
++ _$s7SwiftUI10ScrollViewV_15showsIndicators7contentACyxGAA4AxisO3SetV_SbxyXEtcfC
++ _$s7SwiftUI11EnvironmentV7ContentOMn
++ _$s7SwiftUI11EnvironmentVMa
++ _$s7SwiftUI11EnvironmentVMn
++ _$s7SwiftUI13GeometryProxyV4sizeSo6CGSizeVvg
++ _$s7SwiftUI14GeometryReaderVMn
++ _$s7SwiftUI14GeometryReaderVyxGAA4ViewAAMc
++ _$s7SwiftUI14_PaddingLayoutVN
++ _$s7SwiftUI16KeyboardShortcutV13defaultActionACvgZ
++ _$s7SwiftUI16KeyboardShortcutVMa
++ _$s7SwiftUI16KeyboardShortcutVMn
++ _$s7SwiftUI16KeyboardShortcutVSQAAMc
++ _$s7SwiftUI17EnvironmentValuesV16keyboardShortcutAA08KeyboardF0VSgvg
++ _$s7SwiftUI17EnvironmentValuesV16keyboardShortcutAA08KeyboardF0VSgvpMV
++ _$s7SwiftUI17EnvironmentValuesVACycfC
++ _$s7SwiftUI17EnvironmentValuesVMa
++ _$s7SwiftUI19_ConditionalContentVyxq_GAA4ViewA2aERzAaER_rlMc
++ _$s7SwiftUI20PrimitiveButtonStyleMp
++ _$s7SwiftUI20PrimitiveButtonStyleP4BodyAC_AA4ViewTn
++ _$s7SwiftUI20PrimitiveButtonStyleP8makeBody13configuration0G0QzAA0cdE13ConfigurationV_tFTq
++ _$s7SwiftUI20ScrollBounceBehaviorV11basedOnSizeACvgZ
++ _$s7SwiftUI20ScrollBounceBehaviorVMa
++ _$s7SwiftUI25ScrollIndicatorVisibilityV6hiddenACvgZ
++ _$s7SwiftUI25ScrollIndicatorVisibilityVMa
++ _$s7SwiftUI33PrimitiveButtonStyleConfigurationV4roleAA0D4RoleVSgvg
++ _$s7SwiftUI33PrimitiveButtonStyleConfigurationV5LabelVAA4ViewAAMc
++ _$s7SwiftUI33PrimitiveButtonStyleConfigurationV5LabelVMa
++ _$s7SwiftUI33PrimitiveButtonStyleConfigurationV5LabelVMn
++ _$s7SwiftUI33PrimitiveButtonStyleConfigurationV5labelAC5LabelVvg
++ _$s7SwiftUI33PrimitiveButtonStyleConfigurationV7triggeryyF
++ _$s7SwiftUI33PrimitiveButtonStyleConfigurationVMa
++ _$s7SwiftUI33PrimitiveButtonStyleConfigurationVMn
++ _$s7SwiftUI3LogO013runtimeIssuesC0So9OS_os_logCvgZ
++ _$s7SwiftUI4AxisO3SetV10horizontalAEvgZ
++ _$s7SwiftUI4AxisO3SetV8rawValueAEs4Int8V_tcfC
++ _$s7SwiftUI4AxisO3SetV8verticalAEvgZ
++ _$s7SwiftUI4FontV6WeightV7regularAEvgZ
++ _$s7SwiftUI4TextVN
++ _$s7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgF
++ _$s7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgFQOMQ
++ _$s7SwiftUI4ViewPAAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lF
++ _$s7SwiftUI4ViewPAAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE16keyboardShortcutyQrAA08KeyboardE0VF
++ _$s7SwiftUI4ViewPAAE16keyboardShortcutyQrAA08KeyboardE0VFQOMQ
++ _$s7SwiftUI4ViewPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtF
++ _$s7SwiftUI4ViewPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQOMQ
++ _$s7SwiftUI4ViewPAAE20scrollBounceBehavior_4axesQrAA06ScrolleF0V_AA4AxisO3SetVtF
++ _$s7SwiftUI4ViewPAAE20scrollBounceBehavior_4axesQrAA06ScrolleF0V_AA4AxisO3SetVtFQOMQ
++ _$s7SwiftUI4ViewPAAE7paddingyQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgtF
++ _$s7SwiftUI6VStackV9alignment7spacing7contentACyxGAA19HorizontalAlignmentV_12CoreGraphics7CGFloatVSgxyXEtcfC
++ _$s7SwiftUI6VStackVMa
++ _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
++ _$sSS4hash4intoys6HasherVz_tF
++ _$sSSN
++ _$sSSSHsWP
++ _$sSo13os_log_type_ta0A0E5faultABvgZ
++ _$sSo13os_log_type_ta0A0E7defaultABvgZ
++ _$sSqMa
++ _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
++ _$ss18_DictionaryStorageCMn
++ __swiftEmptyDictionarySingleton
++ _objc_retain_x24
++ _swift_getAtKeyPath
++ _swift_getEnumCaseMultiPayload
++ _swift_getOpaqueTypeMetadata2
+- _$s7SwiftUI12VerticalEdgeO8rawValues4Int8Vvg
+- _$s7SwiftUI15SafeAreaRegionsV9containerACvgZ
+- _$s7SwiftUI18_InsetViewModifierVMn
+- _$s7SwiftUI18_InsetViewModifierVyxGAA0dE0AAMc
+- _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI22HierarchicalShapeStyleVN
+- _$s7SwiftUI23SafeAreaPaddingModifierV5edges6insetsAcA4EdgeO3SetV_AA0I6InsetsVSgtcfC
+- _$s7SwiftUI23SafeAreaPaddingModifierVAA04ViewF0AAMc
+- _$s7SwiftUI23SafeAreaPaddingModifierVMa
+- _$s7SwiftUI23SafeAreaPaddingModifierVMn
+- _$s7SwiftUI4EdgeO3SetV3topAEvgZ
+- _$s7SwiftUI4EdgeO8rawValueACSgs4Int8V_tcfC
+- _$s7SwiftUI4TextV15foregroundStyleyACxAA05ShapeE0RzlF
+- _$s7SwiftUI4TextV4fontyAcA4FontVSgF
+- _$sSS10describingSSx_tclufC
+- _$sSo24UISceneConnectionOptionsC19AppRestrictionsCoreE16preflightRequestSo012ALRPreflightH0CSgvg
+CStrings:
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "Cannot compute rating label for %{private}s"
++ "Contradictory frame constraints specified."
++ "Failed to compute rating label. Rank is 0"
++ "Failed to compute rating label. Rating names empty or nil"
++ "No rating label in metadata. Manually mapping to restriction ratings"
++ "Optional<KeyboardShortcut>"
++ "alr_preflightRequest"
++ "openSensitiveURL:withOptions:"
+- "Failed to open App Store page: %{public}s"
+- "openURL:configuration:error:"
+
+```

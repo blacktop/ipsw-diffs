@@ -1,0 +1,77 @@
+## ISPExclaveKitServices
+
+> `/System/Library/PrivateFrameworks/ISPExclaveKitServices.framework/ISPExclaveKitServices`
+
+```diff
+
+-6.10.3.0.0
+-  __TEXT.__text: 0x279e4 sha256:13693ebb0fea2de7ed99f559cc172172392124fa972eb41f3047d156bf2638ea
++6.12.2.0.0
++  __TEXT.__text: 0x27d84 sha256:c5cf2f7ad38b875563dfe9c48af39053da2874f6e67a36c63bd912a56ca03bd9
+   __TEXT.__const: 0x290 sha256:69543d53a1fc4801aa94bf57d3e65648fa738c0c081a55adca4d34c1b10fa0a4
+-  __TEXT.__gcc_except_tab: 0x774 sha256:f1480f50f63a6d57f2e96cb7dc271c79b71d98eef969f9ad748f942df812475e
++  __TEXT.__gcc_except_tab: 0x774 sha256:5b3b7aa665b6eb41292663d9aa2a4af96ee787de856088e54718fa64ef3a698f
+   __TEXT.__oslogstring: 0x30b9 sha256:20e5de73589027c10ab21bcf6f6607cb6f3f5f93587d56335e89b8422bf1c765
+-  __TEXT.__cstring: 0x6dd2 sha256:62c4075bd2417a7869f30f34061df9cc766b1285105c6bde1b43b44a3ce0575e
+-  __TEXT.__unwind_info: 0x838 sha256:5da9f8fbd8ed3cce0032d34afe365eb9426715b2e8b2dc9c00a56b027a00ae91
++  __TEXT.__cstring: 0x6dd2 sha256:3478983841546cffdcdae169351c7a77c74a5708e88f810f7550c9cd18599356
++  __TEXT.__unwind_info: 0x830 sha256:707d3199a4a68100173c8c30dfb78d7ab8febbd83a9c8e1f3d59148196845adc
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0xf00 sha256:3885f5ab8b7884aec8f81ee4455c7fc6f850d489050bd21fefbe3685d77ae665
+-  __DATA_CONST.__weak_got: 0x8 sha256:baed7a8f4fe06577baf9413d1425189458482e4f64d55b4f5cc304378385a036
++  __DATA_CONST.__const: 0xf00 sha256:412257a67b1ad9caae7207c06a4a96562952c91bc1dd4ccac39f43cbf207232a
++  __DATA_CONST.__weak_got: 0x8 sha256:0187a61bf3fae6fc3b3aa794eddabd32ea418a3c89d235dd3a82b6bd02e4fd49
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x20 sha256:e53902821f23f620d33414f9ff29a17387565cb6d6981c4d886779d01927d0e6
+-  __AUTH_CONST.__cfstring: 0x4c0 sha256:a2cfedfd7d8a0ae7add7dedac4816109f78d1f1ce9e600f17a192883aa1fcd51
+-  __AUTH_CONST.__weak_auth_got: 0x28 sha256:18aabc910bc755d07dbbe4c8b5f46d171878d07cfe96f38d7be6e51b5018a042
++  __AUTH_CONST.__const: 0x20 sha256:f1f52e074b32bdce18faeb8f9cba22beccc6b8c65e28db1b5235676644b99f47
++  __AUTH_CONST.__cfstring: 0x4c0 sha256:a47d651607a5ec5db73fce2bc24bbb64da498f76a59ab4a84dc9415a9a5dbe47
++  __AUTH_CONST.__weak_auth_got: 0x28 sha256:69a5bef58bb76c028553648ba1289d5c2f4e61d5cca2347dc28756a83b46415c
+   __AUTH_CONST.__auth_got: 0x388 sha256:cc401ce5099578287fd15c062a92893754851bdb7ca3c1fe742bbff85e2281c2
+-  __DATA.__data: 0x5c90 sha256:ddeb105ab53ce243cbbd96feaa592b30496f649382d3817a5861d853aa77ca1d
++  __DATA.__data: 0x5c90 sha256:7ce9917310e42e71eb8653e381ff5d687eb3c5b63a410716f90b3190b760f733
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_DIRTY.__data: 0x110ad0 sha256:2b60dfa1694dc0fc6c81b49ebab85aa55cb84b59ab4d79522675ca3e4e1d563e
++  __DATA_DIRTY.__data: 0x110ad0 sha256:a4e8bfc7651a414d75fc012a1a9cffcccb71a39f46c981366d8ec1db2bb2b92b
+   __DATA_DIRTY.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/PrivateFrameworks/Tightbeam.framework/Tightbeam
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 76279AB5-1917-3C9E-AB47-97A802814579
++  UUID: 88FECFF7-C795-337C-A7A6-BF8677792251
+   Functions: 1000
+   Symbols:   2292
+   CStrings:  703
+Symbols:
++ __ZNSt12length_errorC1B9fqe220106EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220106Em
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIP21FileServiceBufferInfoEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9fqe220106EPKc
++ __ZNSt3__15dequeI21FileServiceBufferInfoNS_9allocatorIS1_EEE26__maybe_remove_front_spareB9fqe220106Eb
++ __ZNSt3__15dequeI21FileServiceBufferInfoNS_9allocatorIS1_EEED2B9fqe220106Ev
++ __ZSt28__throw_bad_array_new_lengthB9fqe220106v
++ ___block_descriptor_tmp.400
++ ___block_descriptor_tmp.406
++ ___block_descriptor_tmp.871
++ ___block_descriptor_tmp.970
++ ___block_descriptor_tmp.971
+- __ZNSt12length_errorC1B9fqe220100EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220100Em
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIP21FileServiceBufferInfoEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__120__throw_length_errorB9fqe220100EPKc
+- __ZNSt3__15dequeI21FileServiceBufferInfoNS_9allocatorIS1_EEE26__maybe_remove_front_spareB9fqe220100Eb
+- __ZNSt3__15dequeI21FileServiceBufferInfoNS_9allocatorIS1_EEED2B9fqe220100Ev
+- __ZSt28__throw_bad_array_new_lengthB9fqe220100v
+- ___block_descriptor_tmp.311
+- ___block_descriptor_tmp.317
+- ___block_descriptor_tmp.664
+- ___block_descriptor_tmp.763
+- ___block_descriptor_tmp.764
+
+```

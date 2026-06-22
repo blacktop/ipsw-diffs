@@ -1,0 +1,123 @@
+## MobileContainerManager
+
+> `/System/Library/PrivateFrameworks/MobileContainerManager.framework/MobileContainerManager`
+
+```diff
+
+-826.0.0.0.1
+-  __TEXT.__text: 0x2cdc sha256:0d990732ec87844554c37cd85bd0dfe1b257f7f81936de31076207d5d164db08
+-  __TEXT.__objc_methlist: 0x39c sha256:23d3e2682594d2460833051affa3d5d547eda566e8bb2e0f97e6fab9cba46aca
+-  __TEXT.__const: 0x330 sha256:5578c48a753371c1c56e3badb8c68b405f33c0e2c52601558677474f5ec37807
++833.0.0.0.0
++  __TEXT.__text: 0x2cd4 sha256:d07c7347bad3f26eed23e803d8b4c53d7f6d7c4bca90c70cf346cd5f243ff4b0
++  __TEXT.__objc_methlist: 0x39c sha256:d08c1636f19b834c438b7f7a5c18488a8fa6297b0c23c1807d38f09511c68268
++  __TEXT.__const: 0x328 sha256:d5a5f69ddffdff7b2830d6e21e912af3ab0b4ef15203b15a13267324c2ad8f05
+   __TEXT.__cstring: 0xa4 sha256:07a2a908fbc6079eb0dc3454f4a106d87ba13c973fada78831c87feed2866585
+   __TEXT.__oslogstring: 0x171 sha256:100d27ed5ec71ff915ae3368422d39f030a319159d2fe32b9462c3f39d3f877a
+-  __TEXT.__unwind_info: 0xf8 sha256:70f6ac4c108ac4c2e29fd5f8ae558a6fca747b26bfd310ac235962b45806a139
++  __TEXT.__unwind_info: 0xf8 sha256:72644782173072d3670e92ba59fbc6d81e4962b5aabfb875612ce947e6822d19
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x68 sha256:45e46eae1175a7b9f06e6977256a8c74fa033c7fb6eaa70a1fa03e2ec729cfd3
+-  __DATA_CONST.__objc_classlist: 0x88 sha256:10dfd112181b7cc6617447c409a27a5662b39c132f620b869ac28d4d93a45ee8
++  __DATA_CONST.__const: 0x68 sha256:5f24f485f7ee5704dc7106a76fed03833e7a4378ffb829c0c98956b1dd749fd5
++  __DATA_CONST.__objc_classlist: 0x88 sha256:8b3d4ac759c14494c85c9d8f2324dc88b4e8efc31985094c9eaf511129ae5510
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1c0 sha256:ecd6584ec1a4cda2814e1b5dc808845cd3f6619c8ac1bab90955a218bf1a54a1
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:b27aa2655f3156d5ce516f6b6f91c1d4863a49d8cf43127badca8987d47d34aa
+-  __DATA_CONST.__got: 0xc8 sha256:746700e16c14cf2343dacba2e1641a294b27aeb404147dcac64da78b7e3b7be9
+-  __AUTH_CONST.__const: 0x40 sha256:e5f763761182c1ddacfabd26c7c5646e70ce1617afe353f69242b5258628b905
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:f5730ca6b5748aeca0e97bf9d9ff84f45582a4a2d1fd62326ca4cbce4514e655
+-  __AUTH_CONST.__objc_const: 0xac0 sha256:9698e0f905a9351f3cfad19adfe0acde86b36a70ab5cbd5dcec1d6f5d8a0dce4
++  __DATA_CONST.__objc_selrefs: 0x1c0 sha256:482604f20807eadbedeed60c48d7fdd191769123d295f82a0d30a496946b99a1
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:a7ffab377218202fe32c748034248013df6a3260c6241c11803e570e95b65467
++  __DATA_CONST.__got: 0xc8 sha256:04e76b82ef64a003440745f69685321d1768310e3e1acd3a3d4ddfeef83f12f8
++  __AUTH_CONST.__const: 0x40 sha256:77c47590df9f45f6347830f35a6cf3c6c363aa6f01b440c5f4c0679216e6171e
++  __AUTH_CONST.__cfstring: 0xc0 sha256:8ebecbf29260aef376d33f413187fcbc427b460f5a6dc196434b918543eb9bc7
++  __AUTH_CONST.__objc_const: 0xac0 sha256:32bdaa683c8b2b61941f26e00e2ab02a514ec51834cb688342083894c1f174c2
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x230 sha256:8fe0682d1421dc8f9f27a9591e44c8c476fdca480ffa5f2c4b705e5e0b30536e
++  __AUTH.__objc_data: 0x230 sha256:3f4bd6b9b17c43f3a9eba85bbe12e7b3e71d379b67f7e8e040ed8dd1225b22ae
+   __DATA.__objc_ivar: 0x14 sha256:bf6763836f38048ba662546fb0e0aa6a2339d540b19338568f6df3047141b3e5
+   __DATA.__bss: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+-  __DATA_DIRTY.__objc_data: 0x320 sha256:a4fcccf69f04a81538b890a0ebe8be6450c52526d76f5104c020afcb74a0dcdf
++  __DATA_DIRTY.__objc_data: 0x320 sha256:7fa80b3e244ad5bc5bd5b99dec0dfdc462c8c1acff079a724e031d94afbba5a2
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CDD57769-18BE-3563-9EBD-0B7D2FD936B7
++  UUID: C5EEF32C-1252-3FEC-B04A-32E5084A4601
+   Functions: 64
+   Symbols:   431
+   CStrings:  20
+Functions:
+~ +[MCMSystemDataContainer typeContainerClass] : sha256 339e59d8afc73f3d1c587390122936f8e0d409601b984eb1c9f728d2c7537e32 -> b6ef1d0c45bcd82f9d1627fbc63a3b8b7373978ce1aa642116d4a9aac4134e85
+~ +[MCMTempDirDataContainer typeContainerClass] : sha256 f186ddf19b0cc699d55201bd738b2e70945f44afb76c3892a5b7de86cbcf94d5 -> 782d035106bd1b4502acb5b75d0f74fb1ad81d440087e57ede7b9f6f33d93a07
+~ +[MCMSharedSystemDataContainer typeContainerClass] : sha256 7a0dc637805487c96b3809a8c95542c1f48f4ed73d81e9534dcc458722feee4f -> 1cbcaf51800f25ce7c1fc7b860b892d0cef4c63ffc8064025fa8e642fa63e268
+~ +[MCMInternalDaemonDataContainer typeContainerClass] : sha256 759bab3c7e56490e1aefb73339db053648860f92247ac9029daa2eed3f31e2f9 -> 659b0a23c0a5a2ae4290101b9be6a2116bc0417d15ece62a76b6d257aaa28bf9
+~ +[MCMPerUserAppContainer typeContainerClass] : sha256 5184025d46fc4f1acd912df02257230f7bd5750a127f1931314659d532127231 -> 5fea6914a4da23b9a6b95b38a2838b65e922bda8d69a27ebc07948ff5071dcbf
+~ +[MCMPluginKitPluginDataContainer typeContainerClass] : sha256 f700b347b3cc7c9bf68d4d20188333714cc8bf950cab47c5008f7589d0804f73 -> 7c277dae3f95344267e035fa6e74823080739a8fce4b0c27c0dbf873053e510a
+~ +[MCMVPNPluginContainer typeContainerClass] : sha256 7ce96127367c458250970972bae955cc679af81a45deaf76010eb77f592c2923 -> b8f93ad266ed38988c9cf0f07b349a6d8bba1b0327be7fe40f7936cd5167dc9c
+~ +[MCMVPNPluginDataContainer typeContainerClass] : sha256 189a4af8effa982f1c3d7dea8437903f40120a98ce6a9b8de454aee1cfbbb769 -> 6bbc298f4c488f1f81d6ba55265ac65c302319d4e9078d489ba7e513798e4ce3
+~ +[MCMSharedDataContainer typeContainerClass] : sha256 377c86fdac52f44e4b84270dedfd6b56613419c3646be5ac4b9cae026c760281 -> 4edc11d6d515abe4f4dbd77c0c6a117fe07905e1c11832304169cc4fa392bf7f
+~ +[MCMPluginKitPluginContainer typeContainerClass] : sha256 8852bf311b2d386a7e7df9abc605aa00293ec9a28fe1a084b7ff1b908b0a8a7e -> 752f576418b9eeef54085fd93c286a80a6bc08a6b7c7b519fe8cdc7399ff5ec3
+~ +[MCMDataContainer typeContainerClass] : sha256 52b9aa045b10663e6337384cddc024f320dae2874694b6cb7d51a4c1daa9e4dd -> 452581cd89cc3557b1df64d36bfc265582b754dcf963485682cf4f30e70b858d
+~ -[MCMDataContainer wipeAllMyContainerContent:] : sha256 9b58e7beaa313d1817aaff5f8c5eef2eaed78fd7040af409e0e92ab81807422a -> 32dcd1329cfb0f59f7ed3bab592ec7a6e29b9fbbd77c18c564445d2c33e7e668
+~ +[MCMFrameworkContainer typeContainerClass] : sha256 93c41a92bdb33e43ae350887e6b8264774f2bbd6cab34fd8605b0169c5acfad6 -> 21031b8e3a3020264e35d38252c9056ff51d47c17ecb902ed175be45d7c88f94
+~ +[MCMAppContainer typeContainerClass] : sha256 55b26cde88360ec3c287d4e21a511d1d553bb5623dd8e5989695f43e1a6ca367 -> fe1d09889ac66d72a8fc6c66f65b79f6464c296f4512ebd82a8bb1ba7722aed5
+~ +[MCMAppDataContainer typeContainerClass] : sha256 dc122b5bf8d9bf7a43020082484f4a4c1020cf886c2bca2d358d6fb74644095c -> bc5d5260dd06df203de8961fe12dd653625d99af50124631774d6185b7b46afa
+~ +[MCMXPCServiceDataContainer typeContainerClass] : sha256 47950a122318a8f75facc17f24f0ec7caddbb58dc5545aba7f9f335ed21e00dd -> 71be0718e135d928eab250d0c3b4ee7348d5dc2543fd21aa62521fe0da39b5de
+~ ___MCMGetMCMContainerClassForContainerClass_block_invoke : 116 -> 112
+~ -[MCMContainerManager(Internal) _containersWithClass:temporary:error:] : 1060 -> 1064
+~ __containerClassForContentClass : sha256 ea9f6be37215d4051708146ea748f776a6afe9e9622b3dcfb8af16efbc88ffdd -> e078410e8d2068b2f533e6564f810f09f18f935c6d1824d0e5986bff5a51181f
+~ +[MCMContainerManager defaultManager] : sha256 595a7d343caecc4f3ca710f9ebdb4358d96499d07c8c15038711125e0b0ee438 -> 77f2ca3b77712b71e1763449143bea31a2fa9b2c81723f342b0869e081fd93c5
+~ ___37+[MCMContainerManager defaultManager]_block_invoke : sha256 2ad2663eb6f3fd52db78fe29d80ede91b80fd7187ca9ce3406eec118dc0847de -> c28154f785bdf9a8dd4a0168ce809a3b315c29395fe48d6136ed3bf7048ccbd5
+~ -[MCMContainerManager containerWithContentClass:identifier:error:] : sha256 5312c42a27e0622e3cc980627e7f7d6d03fb532ef850b4018be02f44e62c4a0d -> a700d875899ab7ffc48dfd56b5ce17541886faf37a64e008b36d2e2b8930fdd3
+~ -[MCMContainerManager containerWithContentClass:identifier:createIfNecessary:existed:error:] : sha256 1b71f13eb254d459a02d2a6159ea3dd2e3046c430c0da5d7a7abbb3b777bd143 -> 27b783987767850f72b6ea9d55cab95c0d21056cf8825c8709a52118eb2f4511
+~ -[MCMContainerManager temporaryContainerWithContentClass:identifier:existed:error:] : sha256 9b567f47caa7f6f07093732271acc1b497200c1f68f782bc41bd79d4be156858 -> d9e5cb7d4563e8b4a2ea6a6771a6c8519444ae9ce69513f650525c9d54c2323c
+~ -[MCMContainerManager containersWithClass:error:] : sha256 913ff794cfe66b73e166621ecc0e0a145a7b010e6a22cbdb7b0e1eba07f7e36f -> 7282c46123a4bc962439d295162cbd7db0840ceec993e4786aacbbad23ac89b1
+~ -[MCMContainerManager temporaryContainersWithClass:error:] : sha256 ab848960b648dcf802c2356dee6ce8aed62173954df27301266e23ea327016a3 -> 252a83d0e599320bbae53ffc2793f297cdbfb2c3f906ef5cd8699808b500ccb5
+~ -[MCMContainerManager deleteContainers:withCompletion:] : 592 -> 584
+~ ___55-[MCMContainerManager deleteContainers:withCompletion:]_block_invoke : sha256 13331329515b2ca4fd037326b1f70577bbe9bc0e9dae81923184cca674819231 -> d366889868ba6a29b2c7e760528f475484d7251b9bbb4463e0427a0226e12d1c
+~ -[MCMContainerManager replaceContainer:withContainer:error:] : sha256 fffed93615afbf54afc2b1aa5298b4c44e23393a77aa90430975753caed84cdc -> 817018b9ef8ad8500ec3fdcc6972a6969d00dfb0f2958472687179a2d40d0d73
+~ -[MCMContainerManager replaceContainer:withContainer:error:withCompletion:] : sha256 ccdef09a0b7fdab824e61edd4eece8ab9c433505e371e4d92b8a5426d64bbe2b -> 919b28e39444a0faf5647dad5c006dad391cf4a59dfc6315298b667977cd7385
+~ ___75-[MCMContainerManager replaceContainer:withContainer:error:withCompletion:]_block_invoke : sha256 985e3a85ca80d5d3f032061e0f553bceae8c453d36c409fe586b1f3a3f235a11 -> 8cd559daaf940f26d6833cd514c1fffa8cb36c865624303a6d1a6ee7e66e3294
+~ -[MCMContainer initWithIdentifier:createIfNecessary:existed:temp:error:] : sha256 b111587f8e9ab991cd0f0575826ff7542fd672218d53861cad2e558282fae8f3 -> ee0df89b757c1aa7236f6544f5550b556f2eccd6082c98a5f8b33b75071d6049
+~ +[MCMContainer containerWithIdentifier:error:] : sha256 305eff509a656f668a3c36fe8c576cb1201232dac814c3fb7661a246bb2288ad -> 5ed281d497f5a692b754e512eb3c39900d04e7c6f3ad6cfacae845a4dc09a633
+~ +[MCMContainer containerWithIdentifier:createIfNecessary:existed:error:] : sha256 79ea0b726b6184c9e878352e99ad9c5b60d250c6787f8f6436f791e8a74a161f -> 2f36b55536c53144f7da45771c1ec97fb629bc7c35570be95d48782995243a8b
+~ +[MCMContainer temporaryContainerWithIdentifier:existed:error:] : sha256 78e41b06f7e9fecb34533344e6a1eab5ffca67b0c302f60163d7e81b18e680ae -> 8e224364f3a1e2afebbec9a9da3d56a33612dfa45c672f21922b936df4e87eba
+~ -[MCMContainer destroyContainerWithCompletion:] : sha256 ab6a2db376c303bc7d3ce13abf7b9827666978cb5baa4b360af99f3ef7f78cfb -> 394fb818ad420e2e4ab8c8a1682359f2b87f9d37866705d8469f79fa4d54b863
+~ -[MCMContainer setInfoValue:forKey:error:] : sha256 f84db5727767054d8a34fe8a2bd7ade31ac52fa8c7a7c6552efd4e1d8db9d1aa -> 2b69e676dfeced260d93fb737e0121b5f85bcff4b6a0bd21fa5ddab9cffda61f
+~ -[MCMContainer infoValueForKey:error:] : sha256 2b7324feb4bb6cb119f5b04c767c1e726c2ecaebeaa3b42e7043255914ffa558 -> b6688f68a0b60972039ed3b4980311c2b1054b9c4eb2306415ed7a13d9d54053
+~ -[MCMContainer recreateDefaultStructureWithError:] : sha256 6ff1f9c6dc520d61586e0045f9cf3258705d597a458d8f753c3b197673a970eb -> 091a62d88635f2405993e6bb8bd94225e525d7a640a0357c47f95e0a2ae9b3b8
+~ -[MCMContainer regenerateDirectoryUUIDWithError:] : sha256 1b6a2f8c8c9b95308c03b8d5d0623851707dc5a90be4f9fad314f11c51dad2e0 -> 86f4ecf582c08ac9f1589577b446dba410cc2f0f6f36a50146e5c1866a976194
+~ -[MCMContainer url] : sha256 583254c8dabc04d1a7d296378f29254e66b01b8c112565df569c7b36c566791f -> a3a2fcffa6c28d9cf5d4a154f94a0f1210b09b690a0c898498040bd2dd856ab3
+~ -[MCMContainer info] : sha256 2e0940f56c07423a168402ed865dfbf8edc312a2dc04781622d0882df6ca7840 -> 21093a1866ff02b22fa09b4d06861bd8a40e4e1fb9a83730fdce171d05ac36a8
+~ -[MCMContainer isTemporary] : sha256 b2a5d1b1d9913ecf85c5c99cb179b15e9c1da4a6514cb32e8bfd1a2feed7ad82 -> 9033745e641e6b91431c186a14d70f5cb64045d93afa40ff647a7eebe437238b
+~ -[MCMContainer identifier] : sha256 7693e8bb951814f3604ef36f94ff83f466e7a7cb76e1f8491f16864f469756f9 -> 92a41363d14e2ae36649370c67c57edf22a6cfaedb95d508ad4ace0160e22b02
+~ -[MCMContainer personaUniqueString] : sha256 34103728cc92d41cd8b3e9b73af507cbbf7bfd1a8b02136825b027dc3db2c386 -> 6c959f699f6abcaf0b75b0876f765e1b50532de32d938fbf457029aad0b98ee5
+~ -[MCMContainer uuid] : sha256 2792f17f5e013aae170af833e694c6abf0895365312b608c23ae322a34dacc91 -> 98b010b60aaae4125683d3fd23ba82ee8401735b048b1b3d4d71dfa22874e4e7
+~ -[MCMContainer containerClass] : sha256 652e56c604561fbeb47d0644f7bcb2c7331606a8f21e566bb28b45cf6bf409eb -> 4b9883005fa1e102dfb7b40d3ca2e79b64fb60b5fe6b077b98eb00a61d59b31e
+~ -[MCMContainer diskUsageWithError:] : sha256 872fb475bafb7954c3e232438ea8426f07b425dac8e183293316728cb89c3c21 -> 7bcba805185d3e616987d8f6e258813c0f92a333a18fb48a61abdf140acbb2bb
+~ -[MCMContainer isEqualToContainer:] : sha256 eb0278bc21b313cf8e0553d2f22f404878d3d9d2724faacb68594e9246cee1e7 -> 68f85f0a68e161e0c2d44f11dd6f9433828e0a8ec74e5de3e6885bfdb70803fc
+~ -[MCMContainer isEqual:] : sha256 4b9093aed28ba97d728dabc0a8eca1cc122ce66bd6de275d321850d983dec1b5 -> 91dcc814bfc194217ffd1f3f230021f5d8f6ecd07693be83487fc6fbc5a29b0b
+~ -[MCMContainer hash] : sha256 a298ceece1341f3c4ff688ac7304c75b745b0c8108a9eaf050b54f04741ebb18 -> 2ebb3719b281d8a4c194199a61fd8b9a18fafdd44fa38f3e5d2d42c6f82bd0fb
+~ -[MCMContainer description] : sha256 7414db06d28ba06c1ead0aa5ec9c058fe03c356afaba4094eb09aabbc128a4cb -> 22676c1dc65560bc9375f5c4ba099105f3e5ee8119606286e188d241b744a5d5
+~ +[MCMContainer typeContainerClass] : sha256 598cda480d223e26b6124ef2c8df2b7f2b88f00c7b854a7a3cbfbe0001097eb7 -> 8096574c6cf4cc00b47b635ac30867166eba08338a791412102139a0144f5d33
+~ -[MCMContainer _obj1:isEqualToObj2:] : sha256 20b40a7174ef684649244ceaf0f05090f5dca616017562be4c343ac1186543f8 -> df130e921346208b5e0b25d19315e8a6f88dbad47c891acad412c686d4c90344
+~ -[MCMContainer .cxx_destruct] : sha256 a33e9bdee70a0a68e11f6f0f19bcc97f5551d6cfb540010dc8e6168344719b3b -> 81f7df1cccf84645f0731d2d7bb35ff663a9046a5f91379b481eece8ab40564e
+~ -[MCMContainer(Internal) _errorOccurred] : sha256 52f70b6cc4515b69f9983c0ebc855c138156235707249e4801a6140e3908eeba -> 9b45cb5a2df8db76ef2e341fef05913c352f409c22b5788440ef66554b73b754
+~ -[MCMContainer(Internal) dealloc] : sha256 b364774fd643f7cc90dd155074eb056fe541e23948498735d855275a58733185 -> 3df140636ca168489583b62be7a52def6cb8931edc9d42bd7e6468c9a4711651
+~ -[MCMContainer(Internal) initWithIdentifier:path:uniquePathComponent:uuid:personaUniqueString:uid:error:] : sha256 67da06a4b9dd6a3c723329e550b744d4b2c6c774caba40efb83d64e48554f1e7 -> 0bbb53a67e61acd3cb691d5aa7a789c07994db323a41e739db9802887fa976dd
+~ -[MCMContainer(Internal) markDeleted] : sha256 7f0e53b86dc32b8f5f5036a1fbcf689a1c9462ae0f02d755207957c03a678d6a -> b27884545f43c4a7d5840d4970be8cea930699a095e8f5c7588fa00941f48449
+~ -[MCMContainer(Internal) getLowLevelContainerObject] : sha256 9a55c653893cfb5e6e07559b1930099b06235ccab4999a5036e3aa07ec3021bf -> ac9456ccf0ab41bfa45226e4c773628e99ce0d2d805f9dcf6af61e3f7e0507d9
+~ -[MCMContainer(LowLevel) thisContainer] : sha256 c0ab0beffdd11abc53ee6a92c35b3ec5c951d28d89336a5932e6d2fa6ae2c341 -> bcae69e3501c128e466da270f3fe506ecdf0149928b129f5d06813ed834dcf9a
+~ -[MCMContainerManager init] : sha256 ee2bda635880b6d561ee1eb6a1ae781208fbcb4dd3f219f98eec09f4d6bc1329 -> c1fbd2d45bf04303a85d7a0988989a38853d8c336a78f79433a337410cc193df
+~ -[MCMContainer init] : sha256 355f1b86f2410d6e32bd98eacd026f80acc19f6fceb80709b16014faad8ef17a -> d5b4d9b05f0d8510d560adaae586859be05f8f5fffbd75324e4d7480f4c2b8d4
+
+```

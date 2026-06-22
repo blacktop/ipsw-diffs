@@ -1,0 +1,114 @@
+## AssistantCardServiceSupport
+
+> `/System/Library/PrivateFrameworks/AssistantCardServiceSupport.framework/AssistantCardServiceSupport`
+
+```diff
+
+-3600.49.31.1.6
+-  __TEXT.__text: 0x44a0 sha256:12c3fba6235c0d38ed5796fd4135eef44bbd82ddf0101d2fedd1e09813388449
+-  __TEXT.__objc_methlist: 0x4c4 sha256:62670ca169bb16df5322ee9c1a8592ebec4235a844fe5075597f4565d9c8eff5
++3600.55.10.0.0
++  __TEXT.__text: 0x4490 sha256:7009596d9b079d61f61242d5d51333c005e93831926609e4bc323b0f4be976cf
++  __TEXT.__objc_methlist: 0x4c4 sha256:5bc6e57021642b6860fe7da55a3e535cebd97d1d43c1ddbc30c3f7ee1b8bdd6c
+   __TEXT.__const: 0x10 sha256:bba2287ba7332a97a5a24683b5634c152297b27a4d78c518192a1632181c55b8
+   __TEXT.__cstring: 0x220 sha256:102b53756963106555d9d4a56e43af35ee0ab920b3ea535103296812824055e6
+   __TEXT.__oslogstring: 0x39 sha256:90eab1650b85a199c8a9aa51fd37a3acdd01256ee91a68249567e1e0ae5a52ad
+-  __TEXT.__unwind_info: 0x120 sha256:0b041eaf699bb202899969013baf9ed1c6abc5a8e5478504c3ff5a50d04e6434
++  __TEXT.__unwind_info: 0x120 sha256:7c778889e25892dcb1e3f0f8561194c0830040d4048d263e38b5fca7932b9171
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x118 sha256:e56a6473937c7f3cbc0ab86576febe2722349b9e47446da02bd94a9edce35558
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:9f1c499b2a95f94b288fafc4d4b0ad037936839f4036e1c1d89522ff98c90619
+-  __DATA_CONST.__objc_catlist: 0x90 sha256:9567103d6992a40b775e98969589a8291f571513c31d3a4768eeb71ed2182204
+-  __DATA_CONST.__objc_protolist: 0x28 sha256:d18ee384a4337258a2339ecebb7436ead49affa16bc675f17b8f68abe5dc60bf
++  __DATA_CONST.__const: 0x118 sha256:8bd133c9a9e1f5bda973bcfe4bed777052802419b5d4ebdaf884edb7b93b7d27
++  __DATA_CONST.__objc_classlist: 0x10 sha256:095e4aafc9877889128e6ee844f6cc5f7d6e9b662cad946b5d7ab98ab6816d0b
++  __DATA_CONST.__objc_catlist: 0x90 sha256:55cf6f0e25a691f557e6fa7a11b53de6124e260173e4ce58b46e9cb3e284eb53
++  __DATA_CONST.__objc_protolist: 0x28 sha256:2cd52b966179df6cfb696429b8e1fdbf8ed623f500a204f3743b26b300bedbe9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x5d0 sha256:463d270e828da74ccb0926b0a05fe529781e851bb0f238e2a758f9d1df191163
+-  __DATA_CONST.__got: 0x160 sha256:8962954e4e629c9f3887bc83c6f87389525c065632e8b364bba80027a72eb859
+-  __AUTH_CONST.__const: 0x60 sha256:82549d9516d154a3c7644d1565f1402a0910cee5a5f3d3b76454775dbe8fa14c
+-  __AUTH_CONST.__cfstring: 0x380 sha256:fc88630ab81f59c86f6b70094eb5ff39d2944c58e53e95829bf9d4c6980ab71c
+-  __AUTH_CONST.__objc_const: 0x7c0 sha256:732ee5ee9d589b9e3e995175f9e1a3193642cd06537ca69cc9eafc64e343c60b
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:b961d3985c73e98bf7169547b2866417bb77c3ecb475da1d9dcd2348b991542a
++  __DATA_CONST.__objc_selrefs: 0x5d0 sha256:745a5234f7f17e0d1c4e2e80daf5000cee78062a0aebd3ac65bc41fadfb38dc6
++  __DATA_CONST.__got: 0x160 sha256:0e2ec0e1273f043acb8f60462ad9607b50c5dcb71f9d4873fae4dfe5cc6cc8cd
++  __AUTH_CONST.__const: 0x60 sha256:ff7879f5cc57488ec7a5b8da10b38b1be5bc5bdbabe86c6bd605e172362e581a
++  __AUTH_CONST.__cfstring: 0x380 sha256:b31c81d12c161d8b680cbb98b781dbdd5e7c63227c82ea8c5cc8934331f8a964
++  __AUTH_CONST.__objc_const: 0x7c0 sha256:a617a668c8f43a80e8c93b528a8908e2118d1bad3f47f59acdc3b2c23d7b306f
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:5f405be51771167f1d182a627b575a99e0f4cde3235223fc2b7445f5d89713da
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:6ace6e7a148089968afbcb0d244ec93d9570e55511596783a38439ac0ed5a6ba
+-  __DATA.__data: 0x1e0 sha256:5e066d9c37a151eb9445eeb7e2949dd64d8b9596b4a62fe1155831652982139b
++  __AUTH.__objc_data: 0x50 sha256:77322cc79b0e7fd3de7a2bb917494e3ebc319475e48702e31de407dd7b96f01d
++  __DATA.__data: 0x1e0 sha256:c421c8dc3d884b78fa8af8a51cd1a8e20a43dc37efd7f61d9733bfe8eeec9333
+   __DATA.__bss: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:cc609796ab84307c476ff1fb726f584891ec769a34b248ff99c884ed3d0b85e1
++  __DATA_DIRTY.__objc_data: 0x50 sha256:13157b03f93f718fed48e47d7d0ad6ecbe69942c197eb8609ee3265a6e76b4c3
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EF07AE51-6403-3FFC-96E5-415FFA07D60E
++  UUID: 4E5D1650-4331-3D48-98B0-5432B33A260C
+   Functions: 58
+   Symbols:   467
+   CStrings:  60
+Functions:
+~ -[INAddTasksIntent(ACSCardRequesting) requestCard:reply:] : sha256 2c22d2ceba881296321de3ad733f53a9c0400ed30ed7a4e5a18db08b68f5c779 -> 7bde6cd8b39643475c10ae514b6e4d3e414f69cbbcc4f331a774befb7d74c1f5
+~ ___57-[INAddTasksIntent(ACSCardRequesting) requestCard:reply:]_block_invoke : sha256 507182a338a224573b2c8b6c2e31c9b4408b4417e67b28bc047998c36ba1f9fc -> c2c549ec3bdf02d6cc948a0f3416d513501a20321c5293fcbaf1916dbbf5c66b
+~ -[INCurrencyAmount(AssistantCardService) acs_formattedAmountString] : sha256 7f1da2befefaf0dacf98904d8d27b7901fc92870bd3783ca22d326414981c5f3 -> 4d150aae4a230c49d4268356fef5a31d6112f0cd4b583c7cdeddc6f0a24a0a3a
+~ -[INCurrencyAmount(AssistantCardService) _acs_formattedStringIncludeSymbol:] : sha256 2a652a3088cdd37fdb290d6c47f1e4b4a4bda9508dd74570358ebffb72928643 -> 6ff3b4014c18b32c4bc7a4938037773673b96662284a857493ef44e0b7e8a156
+~ ___76-[INCurrencyAmount(AssistantCardService) _acs_formattedStringIncludeSymbol:]_block_invoke : sha256 b6290e1c5214f24cb497160e0b401b454bacd553cb4667116870f9e9a1efc0e6 -> 3334aa51c6ffcef5657be92d330a3f1f97c39b8c78262d1f31948e6c3f722b61
+~ -[INCurrencyAmount(AssistantCardService) _acs_currencySymbol] : sha256 94321c322078891fc7845163a59e5dfe7a32b7d9254ffa97e0e9d0ee6826c9bf -> 9e747fb29cc79f37b5d83150a74926ce749863dc70233cf4e2f249677e6b4f2d
+~ +[INCurrencyAmount(AssistantCardService) _acs_localeForCode:] : 380 -> 376
+~ +[INCurrencyAmount(AssistantCardService) _acs_currencySymbolForCode:] : sha256 05b62b796fd86ac1ceb77c0b8bbc83edd997941593ccc340397dcab4935e374d -> ba65c90fb0f55b82ca2a285eec6b5512769e5edef07b9c7c2ebd12a9d2df631f
+~ -[ACSCardService canSatisfyCardRequest:] : sha256 7fd13f5674e402db3168152bee94616394a1db7f6dfaf23204e0c2567c624eda -> de5d91da6c4fa644b1619392cfd6c2246347669cc8076e0beeff37ac5f6d9a42
+~ -[ACSCardService requestCard:reply:] : sha256 18135b7d37695ae1cf08ad8c76dec4e05cd1a764714de186b58f1dfcc3388639 -> ebec86086584d3ac3fc89d0e9a6716a6bf3033ded914eae4a8f448bf09e45e94
+~ -[ACSCardService servicePriorityForRequest:] : sha256 a6acfb67c2741482ffef3114f9d8b31955223b5005197d0ab0f62d9f4f377c27 -> 87d106e5816d1b812180b38671a886a4c331e09c8742c9599e20a9fef5eb1c51
+~ -[ACSCardService initWithCoder:] : sha256 e6f6710dce075dc85d889ffccec81245172db74c70b8b1baeb5714f4a98b5002 -> 9d8f7db197be1d909a35431d7a7f77ddb74438988742308f6771a74fd76e97ac
+~ -[ACSCardService serviceIdentifier] : sha256 8b01ebc5d651dd06e2391606a479810d7950e8443e8771a7eec3430546166136 -> f7c7115edcbf42b54698eec8784477546b1dcce6dbf75e945336cee0255ba506
+~ -[INIntent(ACSCardRequesting) acs_needsTitleCardSection] : sha256 f46793f466e8bb1d08bfe791e4e42fedf00d528032cdb37a35e04f6cdf102b13 -> b291c5ced6a899f8628e4d34c5e7b6d1769d31c92f0daac3add9ce6e9b3fb888
+~ -[INIntent(ACSCardRequesting) requestCard:reply:] : sha256 934c157f2a7978bbdaca4aa393a34bbd567229e5f1391552ef9fe09c852a9ec2 -> f6009ffe66253cd639ad59dab9e014212f99c91892b1b87daf5d734cb36a25a8
+~ -[INStartWorkoutIntent(ACSCardRequesting) requestCard:reply:] : sha256 445973eb4fff5aa8c1075757c77998a8480a2b2475593c058ef1fb35ab8bfc58 -> cea7930498485df4644ca20e53ac525ffa48cc3def7a22617429c267a7f647af
+~ -[CLPlacemark(AssistantCardService) acs_formattedNameOrStreetAddress] : sha256 e7aa8aa8d70773d3cf6dd3f0a731ddcc23587ba51484c258ffe5559edc0d3235 -> 044da2b18cc0947d0cce3a3014175918de132cf68fbd1d59a6014250e17b4ccb
+~ -[INRequestPaymentIntent(ACSCardRequesting) requestCard:reply:] : sha256 d53f03dec54411d903d7e3df2330382ebc9d021b582caaa5e4059c30d3a39aeb -> 00fd8d357d4f020756683a396b3a6aeded5ef9197f7616e74743d241c71e431a
+~ +[SFCardSection(AssistantCardService) acs_uniquelyIdentifiedCardSection] : sha256 6c778aedbfbff2073b29082a645e6703b298df2f040b70c35e94476e4651e8b7 -> 7c935ce35f9f6db9c1c37268e5f475c7a9cf59dc187011e02969f24d7da59a10
+~ -[SFCardSection(AssistantCardService) acs_setParameters:] : 352 -> 348
+~ -[SFCardSection(AssistantCardService) acs_addParameter:] : sha256 e132470cfaa5cacb0c38f387cd5ef7631e8d4fb59f04f5ebd304e2fd024089ca -> d0342a7527b378ec5ae420bac02456f81643b5b94869136e4bd660b2caa8e6da
+~ -[SFCardSection(AssistantCardService) acs_parameterKeyPathFromParameter:] : sha256 6b4ebd4412a35ad32c2d6e3221fb09e70191554a05b5274e190ef2a8bfc6a81a -> a81d6570d90cfae10145335d6c43b632f70e3ae68b0ae59173957d47749b31af
+~ +[SFNullCardSection(AssistantCardService) acs_wildCardSection] : sha256 42637318a55c9506d387392528435efbc14b660c413bed99acd635066aed6aa1 -> 0291af850d5ac50569480732a0c95c58a8b7a12fc86582061db20f9c1c3879bc
+~ -[INPriceRange(AssistantCardService) acs_formattedRangeString] : sha256 9cc1303bc95bcf096af322e38a30586c9d2934588dbd801c1dbe7cfed0ebec3d -> 564bf947470732aa78191a808a325646ee3f64896baefb1340fa3a0f454a23e5
+~ ___62-[INPriceRange(AssistantCardService) acs_formattedRangeString]_block_invoke : sha256 6de50596b402e14a60c11632275e8811e1dcc46367f7bf2c8fccbc037d0d43d3 -> 4251a1e5f27be96757aec6a1305ad90d309388b031200ac1aa69b8b93314f079
+~ +[INPriceRange(AssistantCardService) _localeForCode:] : 380 -> 376
+~ +[INPriceRange(AssistantCardService) _currencySymbolForCode:] : sha256 f68c359a1832afe650c21356ccc4db49f660f75813a3cad28445f6318b9eb19b -> a261af66c9d0b926414bef1b3290f66da3a7cee30aa7c0cb3940b6df9a8547a4
+~ -[INPlayMediaIntent(ACSCardRequesting) requestCard:reply:] : sha256 77ed79621b023408446aa6fca5b33002e334261ec99a31b95172d569039afba6 -> 13f2d99348baa200f0d2d4b8cf984482c93279490929a755636c92591ceb884c
+~ -[INPaymentAccount(AssistantCardService) acs_formattedAccountName] : sha256 48ec80584309139712cc5b77d04d5638fc7c492248f629c8168a72aef71f2515 -> b4b62be71053a59fe6f76afa59c96aded368567d804983d81e5f757d0b287643
+~ -[INSendPaymentIntent(ACSCardRequesting) requestCard:reply:] : sha256 ee0e1666b8617f483aa299d16d74678f60f32df7be5f4425fbc3a7a38ed69e20 -> 168cb7b413c587cb3de2f1ddf77e368c512108c72f2134b87997987f4cbd6230
+~ -[INTextNoteContent(INCreateNoteIntentCardRequesting) acs_cardSection] : sha256 d8cf90c025014ce556074e3700cd5295ac3dbde6bd86f1125acf859bc15af284 -> c03140aaedd79957fa85c42c0b46a87e57329b89201012b35b46b9eb78574b72
+~ -[INImageNoteContent(INCreateNoteIntentCardRequesting) acs_cardSection] : sha256 bce33360ed2b18e2f49754b7861022b5b169417e4a1ba66dd7c73ac99bd5407f -> 3d68d565033d729e51362659da4f3574db9ca66a2b1570ddb742844afc8735be
+~ -[INCreateNoteIntent(ACSCardRequesting) requestCard:reply:] : sha256 2e54d08835e88b5851a64cd53c294e56c0d597ac451b2a379e145dfadf2901d5 -> 2755a0b40a395877284c32f6cae2a34c3f7b5606a6a4f21d195ee04aab353764
+~ -[INCreateNoteIntent(ACSCardRequesting) _buildCardFromRequest:reply:] : 1388 -> 1384
+~ ___69-[INCreateNoteIntent(ACSCardRequesting) _buildCardFromRequest:reply:]_block_invoke : sha256 68968b489f14605d515f649bb40981e1407b24dd2cb965e3e493b00fe5f55d6f -> 97f7bed9bec2702fe6b27893dc080e7bc991be91fd95a802de0a4b948a1827c9
+~ -[INIntent(AssistantCardService) acs_utteranceForCardService] : sha256 d8c200c6ed58669425870d0aa695c63a898140eaa83296359d407dd53714eb2c -> 1213506ff22a017d6905ea44f9266c8a3f56f0b6eb3594c49d1e029265daf390
+~ +[ACSCardServiceHelper rowCardSectionFromLeadingText:trailingText:] : sha256 009a72fd6bfb924462ca16bc9afe09cbdc53e52d84d82a67669a1633977bb0cd -> 892733e70ba81a15a09ff1be4c7ec80c7473400830a1977a01cb2d75a6b51d24
+~ +[ACSCardServiceHelper formattedDateTimeStringFromDateComponents:] : sha256 48601bb5b189ccadb10e64ffca22f214f96e80219ea2af2c28452a9a880ba574 -> 906cae38a65c16ff2aee5219d56cb1fd3f1c7c09e4a0d58f02b22fb0711bf9ee
+~ +[ACSCardServiceHelper formattedDateTimeStringFromDate:] : sha256 a4be63e6e02f5cacd8238b447f532028dc0843bdd4d42f60be9d9a8d1a9f480d -> 7edcae583055e9594a9920e3c2a3aad470aab52e87844b33c0c49d3a944bfb8f
+~ ___56+[ACSCardServiceHelper formattedDateTimeStringFromDate:]_block_invoke : sha256 b9e23af1e3fff1931cfdd19f88fedf4a55da657d9e44bf91cb512caee79f893f -> 50d24c3e9022b4792268f79ca3c69440ce7fa537572db7a2ebcffca292648f12
+~ +[ACSCardServiceHelper addParameterToSection:selectorStrings:class:] : sha256 7b767f967bc2ae3b0dffb839f3fc578d54a5c039be8d91d7ebe754cbf798e4d3 -> 2e30baba096f3488e2b60c8eee2d3ce68096f20cec0fdbef1e5f456a2ff409e4
+~ -[INPerson(AssistantCardService) acs_formattedPersonName] : sha256 9c31563a68a62be7cec8eb13dd8ad5413475e95617ed38e6ccac0234cfb583fd -> 81677d62224ffd2a5b1a7d8870c0a0c331d453fc71ad18eb45070745d785c1e1
+~ +[SFCard(AssistantCardService) acs_uniquelyIdentifiedCard] : sha256 9de8ef1ed1aa294fcf420c8240d32b825a122430e2267d73ed6e60ae2d041b7a -> fc6929442576f314cb59b863d10e6393708210ab00d7da6fa7648dd76a3dd4c1
+~ -[SFCard(AssistantCardService) acs_setInteraction:] : sha256 31abed91515dc990ba25663bd87492c5df09875b1999aab2239fb0eda6984bcb -> a6efedfb307b6ac4c9b4dea85639e239f9df31d8cc259d065c5411f0d5a536c8
+~ -[SFCard(AssistantCardService) acs_interaction] : sha256 3b61d107753ac8405b48df838feaea1abcf5466ea0c634feca2ae60b69645419 -> a6c565ae980645e25c5bfd6c47b67fb5d8a30f7323451fef4317c23a5a6c2b23
+~ -[INCurrencyAmount(AssistantCardService) _acs_formattedStringIncludeSymbol:].cold.1 : sha256 4924c674e197443cb3e22d57dab969310ece1994d10bdf252aaa61560f20c8e2 -> f4e0100c3555ec358d2d887f3d72bbdf7f3ae9113cac8f0f326ca9170ee1a80f
+~ -[INPriceRange(AssistantCardService) acs_formattedRangeString].cold.1 : sha256 0a0abb92f5eec7c149e18bf6e9e92528db7be0fee1b339265890481a50bd6401 -> 19eb090e68df9c7d62e0647cc764e292d334aaac638964485b34b9623cdf72ae
+~ +[ACSCardServiceHelper formattedDateTimeStringFromDate:].cold.1 : sha256 66f5ef18645f3dc8b30b73ccdb8a3feaa782d16136165a5857b895ce67dab7da -> 1762a0a67681f379672b5bc62b05ec4184ce06e2bd4953d2a6627aebd3153eee
+
+```

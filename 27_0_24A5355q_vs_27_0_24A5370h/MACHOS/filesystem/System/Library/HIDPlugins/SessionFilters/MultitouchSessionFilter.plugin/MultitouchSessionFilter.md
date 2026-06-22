@@ -1,0 +1,303 @@
+## MultitouchSessionFilter
+
+> `/System/Library/HIDPlugins/SessionFilters/MultitouchSessionFilter.plugin/MultitouchSessionFilter`
+
+```diff
+
+-9170.34.1.0.0
+-  __TEXT.__text: 0x3e2c sha256:ed4af7850d70016cb2e936c0a6a92cea8e1057df56898ba226730519f6ba61bc
+-  __TEXT.__auth_stubs: 0x3b0 sha256:e31f6d9197a4b75a6f9ebe681ba1f56b2098db739aaf9002b1af1606e6a4399d
+-  __TEXT.__objc_stubs: 0xc80 sha256:a83a79b5cada3422c6de61c31241e4be37fbdfe297daa8dbb792e5f818af1f2d
+-  __TEXT.__objc_methlist: 0x6e4 sha256:0f9e0e09533eed314cfc349edb053510c9177dc770a98b7e1d275507151466d4
+-  __TEXT.__const: 0xa0 sha256:267db20d86c2fbdd6c72e42261e98c9a59be7a654a5b8be5c5998f8807098be3
+-  __TEXT.__objc_methname: 0xfa2 sha256:8913158e2bdf1a8cdbae7b084907c8c09c36899014470faaca12ebc01739dfa8
+-  __TEXT.__objc_classname: 0xa6 sha256:cc2955122c7e4b7e244088c8091b5ba54021907d22d2a61aa6e0779494a935c3
+-  __TEXT.__objc_methtype: 0x338 sha256:1d41b7ba7c0e5fff459a0aa99b576da4252e1f260fbc95ed759a1acc732fea9c
+-  __TEXT.__cstring: 0x140 sha256:8271049989ca5518a5b9bd42225f70bc00581351b6fcf02fda7b665014e71e9e
++10100.39.0.0.0
++  __TEXT.__text: 0xf800 sha256:9d015847aa625d4445e92c43939be5f27b6bad32029c957f54f5ed4a99e9006a
++  __TEXT.__auth_stubs: 0xa00 sha256:341226ecce2f777aa9201d03252b0ae7490e8c7406ff62fa9cd74452fbb0aae9
++  __TEXT.__objc_stubs: 0xd20 sha256:1d343ea6dd8d02254c561c3ba691bd5b46b7e7f5b134267bb74c81e8c310e5c6
++  __TEXT.__objc_methlist: 0x784 sha256:965dd8efb1d55425b924f568b648fea674d1c71db967fdade1e65dabc245979f
++  __TEXT.__const: 0x66a sha256:1b3116c415f50dcc724a0ff0006d7f11b4be34d9b08fbb80b91ec7860a8b02a3
++  __TEXT.__objc_methname: 0x10c0 sha256:5de3c5b2ea8cab659029b179162b3b8be25e99ec62391e2de4c1871679cda82f
++  __TEXT.__cstring: 0x24f sha256:a9c0aa4003ef275aa57a74a52f79638e79d2a374938f34bdbda312f8dec2e83c
++  __TEXT.__objc_classname: 0xea sha256:2a26d895f461dda9e52d5e245378c27a437f0dbf4483c1259ed5ce802e659cae
++  __TEXT.__objc_methtype: 0x354 sha256:6b3256f045dce316e2a675db4b4a83d9c377373b73efc393aa55b6948d965b89
+   __TEXT.__gcc_except_tab: 0x14 sha256:d4438348928c8286c3bec5a13ffd19d5e67ee3266daaf659125eaace0fab944e
+-  __TEXT.__oslogstring: 0x358 sha256:568639de050ec298e65a67871ce97dd155bec5c4ffaa157d6ab26aa133cdbef5
+-  __TEXT.__unwind_info: 0x160 sha256:cfba18c8353bcdf054a18dbb1a3d8cf3b0c3971c384b64b1427f5275065f7ec4
+-  __DATA_CONST.__const: 0x168 sha256:b76a19568ed47ea4db62d16bae9afe0e801bc094369bd70e68a76be9bb0c8128
+-  __DATA_CONST.__cfstring: 0x160 sha256:3b466e0f9f69270407474fdc565e8bdc72cdee72644173ae071afb699d0fb756
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:d195164eedf7f508946865c12a3751c47a167dd11dd4c039b52844b08679f51b
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:d0a47401edfbcd9ce29625cb7a6a4cf11b1f323d7e6a9a36a49020da2ee44237
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:30ddc2c3a76425e11dd706b4c1e4587ea98745fd7c9d4945e65da3c46b3255a0
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:af65cb31bf7662fba39a07be25750656a97887aca4578c4b90195c7bf1c9257d
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:d195164eedf7f508946865c12a3751c47a167dd11dd4c039b52844b08679f51b
+-  __DATA_CONST.__auth_got: 0x1e8 sha256:679d0746e1a1c6ac9b36294819f48afd5fdda77b25ec2e76ac470e84369a4606
+-  __DATA_CONST.__got: 0x48 sha256:9d5c994fe3f9f02f2388e26a95976f2d4b67e5657e7af61ba0421bc872177348
+-  __DATA.__objc_const: 0xaa0 sha256:1b72a9e05d133194b3e76720e43b3967ffe38525869900c917eebec6d450cab7
+-  __DATA.__objc_selrefs: 0x480 sha256:0f0f5cce8eda584516199d333f168b82c5d15ba4ecccd7daf74953b9640961c8
++  __TEXT.__oslogstring: 0x389 sha256:bc46e1b68c87a27c4cea74305610750fc4fb6b6a628f9fb64471b6c7e8514cd2
++  __TEXT.__swift5_typeref: 0x31f sha256:19424737c6dbf759cbae71bd89c3472a3463f79cae41800b6d9c5e1467b721aa
++  __TEXT.__constg_swiftt: 0x278 sha256:560ff3e5856ddab48e8f162acadd0eb731ca85b2c5a96f99da174ad784486507
++  __TEXT.__swift5_reflstr: 0x16e sha256:46dbcf0153a528e84ddd2226a37d50fcf84c388f00ca1075ca57d4fcf3ab9089
++  __TEXT.__swift5_fieldmd: 0x1a0 sha256:e646bf5afe54b7ae5308e52edf3c9324e93e5c3bd3bfa657deaa42b79e448d3e
++  __TEXT.__swift5_assocty: 0x90 sha256:ca27de701d73c7a3d2569201abae75934120f9c950992d87b2fc7703537864c9
++  __TEXT.__swift5_capture: 0x30 sha256:2237499fb365f336de66b7b501fa8f464789576a2e5f83fed5d303fa1dbf3eb5
++  __TEXT.__swift5_proto: 0x44 sha256:6caeaa744f306ea70ce3b8e3022111d77dc8d6f681a9dab17baa7317e08cb0b0
++  __TEXT.__swift5_types: 0x1c sha256:4829dac0a75f07dd16c61b7f3ec4e7f8e436168e0f82a82f2e7d9541bf03b2a9
++  __TEXT.__unwind_info: 0x390 sha256:1915afad38ff5f0d6849e1d2fc7db8e4e0b600c25ccecf4f58ab0f6a7c403b3d
++  __DATA_CONST.__const: 0x623 sha256:b59ba745833b0257d2b66c4080e83144f1baf933f2c6e0fd41c030fa6fec410e
++  __DATA_CONST.__cfstring: 0x1a0 sha256:2601c677818581c3eb3c29c4624fd9e6d7e8abfb5114771093747cde4275fcc9
++  __DATA_CONST.__objc_classlist: 0x30 sha256:bcb682a4bc109ab44f3e0928cb57e7131c54a28db7ebc141dc5a8c8bba0940ef
++  __DATA_CONST.__objc_catlist: 0x8 sha256:fd3a17476461824c2d566d550a699c4c8f82f22b8982369da005b6a688709a49
++  __DATA_CONST.__objc_protolist: 0x18 sha256:58530a76c1f80d58ee34a80cc35d857fc795e7825ac28e316069f3df60ea8aeb
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:259b373331133bc634313027b15fa58dea4818a1b7b2223e32b4b08b3c28bc15
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:a9e6ba8cd5d497e5ad039a6442730516e574cd489d66cc2a9f57c3cf5485887e
++  __DATA_CONST.__auth_got: 0x510 sha256:a11628ae8b12d5678cf512962909781d56041184817134b4c7948b8bb8452672
++  __DATA_CONST.__got: 0xd8 sha256:1cf10557c083446ef6eeb50345dceb60ccd623f466f78ea0a74cc6b74a519907
++  __DATA_CONST.__auth_ptr: 0xe0 sha256:a469c5cfa440501780c4229811642942299746cdddc67175a6bd7d740618a4d3
++  __DATA.__objc_const: 0xcb0 sha256:687df4e6ad41a9bac10a65762ccb2e65034cc0114d7d4af782febc715dd2b94c
++  __DATA.__objc_selrefs: 0x498 sha256:e86b237a711e03ee88b7a4a15203f16badc292e29425bfd8a51329df7ff7f886
+   __DATA.__objc_ivar: 0x7c sha256:764d168aabd2439d136a934cc018e29ab1eeebb776ffa3a8b168c6dd6dd01c72
+-  __DATA.__objc_data: 0x140 sha256:ee22815988cb7df62401955d662aa57f3ed9665f490c06dad396f418f9280014
+-  __DATA.__data: 0x120 sha256:f880ce95788d4c13f0f34ab9b8fa4b39a91f0ef174aa38be3e1196996fc06dc4
+-  __DATA.__bss: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
++  __DATA.__objc_data: 0x408 sha256:056270b974cd1df1d1ab4a987fe1f027d4d9955dccbf344a35fd473120331b12
++  __DATA.__data: 0x328 sha256:7f99fbf05bb27d969e78a4e46f07e7f6415099e1e07ce49914d049b96f1bfb22
++  __DATA.__bss: 0x980 sha256:0d941f3db0103709b44380ee8852d477b59c983d24272dfecbd6750fd42251d0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6301D7CB-804C-3964-9BA9-5F2F48D2B454
+-  Functions: 141
+-  Symbols:   420
+-  CStrings:  317
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
++  - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  UUID: FE2AB3CB-0DB2-3678-BDE8-9F7FCCAED93B
++  Functions: 364
++  Symbols:   603
++  CStrings:  344
+ 
+Symbols:
++ _AnalyticsSendEventLazy
++ _OBJC_CLASS_$_MTDigitizerHeatmapManager
++ _OBJC_CLASS_$_MTInputSessionManager
++ _OBJC_CLASS_$_NSMutableDictionary
++ _OBJC_METACLASS_$_MTDigitizerHeatmapManager
++ _OBJC_METACLASS_$_MTInputSessionManager
++ __Block_copy
++ __Block_release
++ __DATA_MTDigitizerHeatmapManager
++ __DATA_MTInputSessionManager
++ __INSTANCE_METHODS_MTDigitizerHeatmapManager
++ __INSTANCE_METHODS_MTInputSessionManager
++ __IVARS_MTDigitizerHeatmapManager
++ __IVARS_MTInputSessionManager
++ __METACLASS_DATA_MTDigitizerHeatmapManager
++ __METACLASS_DATA_MTInputSessionManager
++ __PROPERTIES_MTDigitizerHeatmapManager
++ __PROPERTIES_MTInputSessionManager
++ ___chkstk_darwin
++ ___swift_closure_destructor
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
++ ___swift_memcpy1_1
++ ___swift_memcpy2_1
++ ___swift_noop_void_return
++ ___swift_reflection_version
++ __swiftEmptyArrayStorage
++ __swiftEmptyDictionarySingleton
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ __swift_FORCE_LOAD_$_swiftCoreFoundation_$_MultitouchSessionFilter
++ __swift_FORCE_LOAD_$_swiftDispatch
++ __swift_FORCE_LOAD_$_swiftDispatch_$_MultitouchSessionFilter
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swiftFoundation_$_MultitouchSessionFilter
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_MultitouchSessionFilter
++ __swift_FORCE_LOAD_$_swiftObjectiveC
++ __swift_FORCE_LOAD_$_swiftObjectiveC_$_MultitouchSessionFilter
++ __swift_FORCE_LOAD_$_swiftXPC
++ __swift_FORCE_LOAD_$_swiftXPC_$_MultitouchSessionFilter
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_MultitouchSessionFilter
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftos_$_MultitouchSessionFilter
++ __swift_dead_method_stub
++ __swift_stdlib_malloc_size
++ _associated conformance 23MultitouchSessionFilter10DeviceType021_F4F32EDA989F136000A2J10ECE5BFF4A0LLOSHAASQ
++ _associated conformance 23MultitouchSessionFilter10DeviceType021_F4F32EDA989F136000A2J10ECE5BFF4A0LLOs12CaseIterableAA8AllCasessAEP_Sl
++ _associated conformance 23MultitouchSessionFilter10DeviceType33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLOSHAASQ
++ _associated conformance 23MultitouchSessionFilter10DeviceType33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLOs12CaseIterableAA8AllCasessAEP_Sl
++ _associated conformance 23MultitouchSessionFilter10HeatmapKey33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLVSHAASQ
++ _associated conformance 23MultitouchSessionFilter9TouchType33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLOSHAASQ
++ _associated conformance 23MultitouchSessionFilter9TouchType33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLOs12CaseIterableAA8AllCasessAEP_Sl
++ _block_copy_helper
++ _block_descriptor
++ _block_destroy_helper
++ _bzero
++ _free
++ _malloc_size
++ _memcpy
++ _memmove
++ _objc_allocWithZone
++ _objc_msgSend$copy
++ _objc_msgSend$debug
++ _objc_msgSend$init
++ _objc_msgSend$isEqualToString:
++ _objc_msgSend$setObject:forKeyedSubscript:
++ _objc_opt_self
++ _objc_retain
++ _objc_retainAutoreleasedReturnValue
++ _objc_retain_x23
++ _objc_retain_x26
++ _objc_retain_x28
++ _swift_allocObject
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_beginAccess
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRetain
++ _swift_bridgeObjectRetain_n
++ _swift_coroFrameAlloc
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_deallocObject
++ _swift_deletedMethodError
++ _swift_dynamicCast
++ _swift_endAccess
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getObjCClassMetadata
++ _swift_getObjectType
++ _swift_getSingletonMetadata
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_initStackObject
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_release
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x8
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_setDeallocating
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_stdlib_random
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_updateClassMetadata2
++ _symbolic $sSY
++ _symbolic $ss12CaseIterableP
++ _symbolic SDy_____SaySaySuGGG 23MultitouchSessionFilter10HeatmapKey33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLV
++ _symbolic SDy_____SaySi3col_Si3rowtGG 23MultitouchSessionFilter10DeviceType33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLO
++ _symbolic SDy_____SdG 23MultitouchSessionFilter10DeviceType021_F4F32EDA989F136000A2J10ECE5BFF4A0LLO
++ _symbolic SDy__________G 23MultitouchSessionFilter10DeviceType021_F4F32EDA989F136000A2J10ECE5BFF4A0LLO AA0B0ACLLV
++ _symbolic SDy__________G 23MultitouchSessionFilter10DeviceType33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLO s6UInt32V
++ _symbolic SDy__________G 23MultitouchSessionFilter10HeatmapKey33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLV 10Foundation4DateV
++ _symbolic SDy__________G s6UInt64V 23MultitouchSessionFilter10DeviceType021_F4F32EDA989F136000A2K10ECE5BFF4A0LLO
++ _symbolic SDy__________G s6UInt64V 23MultitouchSessionFilter10DeviceType33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLO
++ _symbolic SS_So8NSObjectCt
++ _symbolic SS_ypt
++ _symbolic Say_____G 23MultitouchSessionFilter0B0021_F4F32EDA989F136000A2H10ECE5BFF4A0LLV
++ _symbolic Say_____G 23MultitouchSessionFilter10DeviceType021_F4F32EDA989F136000A2J10ECE5BFF4A0LLO
++ _symbolic Say_____G 23MultitouchSessionFilter10DeviceType33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLO
++ _symbolic Say_____G 23MultitouchSessionFilter9TouchType33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLO
++ _symbolic Si
++ _symbolic So22MTSessionFilterManagerC
++ _symbolic _____ 10Foundation4DateV
++ _symbolic _____ 23MultitouchSessionFilter07MTInputB7ManagerC
++ _symbolic _____ 23MultitouchSessionFilter0B0021_F4F32EDA989F136000A2H10ECE5BFF4A0LLV
++ _symbolic _____ 23MultitouchSessionFilter10DeviceType021_F4F32EDA989F136000A2J10ECE5BFF4A0LLO
++ _symbolic _____ 23MultitouchSessionFilter10DeviceType33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLO
++ _symbolic _____ 23MultitouchSessionFilter10HeatmapKey33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLV
++ _symbolic _____ 23MultitouchSessionFilter11DeviceTypes021_F4F32EDA989F136000A2J10ECE5BFF4A0LLV
++ _symbolic _____ 23MultitouchSessionFilter25MTDigitizerHeatmapManagerC
++ _symbolic _____ 23MultitouchSessionFilter9TouchType33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLO
++ _symbolic _____ 2os6LoggerV
++ _symbolic _____3key______5valuet 23MultitouchSessionFilter10DeviceType021_F4F32EDA989F136000A2J10ECE5BFF4A0LLO AA0B0ACLLV
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____Sg 23MultitouchSessionFilter0B0021_F4F32EDA989F136000A2H10ECE5BFF4A0LLV
++ _symbolic ___________t 23MultitouchSessionFilter10DeviceType021_F4F32EDA989F136000A2J10ECE5BFF4A0LLO AA0B0ACLLV
++ _symbolic ___________t 23MultitouchSessionFilter10HeatmapKey33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLV 10Foundation4DateV
++ _symbolic _____m 23MultitouchSessionFilter07MTInputB7ManagerC
++ _symbolic _____m 23MultitouchSessionFilter25MTDigitizerHeatmapManagerC
++ _symbolic _____ySSSo8NSObjectCG s18_DictionaryStorageC
++ _symbolic _____ySS_So8NSObjectCtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____ySi3col_Si3rowtG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 23MultitouchSessionFilter0E0021_F4F32EDA989F136000A2K10ECE5BFF4A0LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 23MultitouchSessionFilter10DeviceType021_F4F32EDA989F136000A2M10ECE5BFF4A0LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____SaySaySuGGG s18_DictionaryStorageC 23MultitouchSessionFilter10HeatmapKey33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLV
++ _symbolic _____y_____SaySi3col_Si3rowtGG s18_DictionaryStorageC 23MultitouchSessionFilter10DeviceType33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLO
++ _symbolic _____y_____SdG s18_DictionaryStorageC 23MultitouchSessionFilter10DeviceType021_F4F32EDA989F136000A2L10ECE5BFF4A0LLO
++ _symbolic _____y__________G s18_DictionaryStorageC 23MultitouchSessionFilter10DeviceType021_F4F32EDA989F136000A2L10ECE5BFF4A0LLO AC0D0AELLV
++ _symbolic _____y__________G s18_DictionaryStorageC 23MultitouchSessionFilter10DeviceType33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLO s6UInt32V
++ _symbolic _____y__________G s18_DictionaryStorageC 23MultitouchSessionFilter10HeatmapKey33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLV 10Foundation4DateV
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt64V 23MultitouchSessionFilter10DeviceType021_F4F32EDA989F136000A2M10ECE5BFF4A0LLO
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt64V 23MultitouchSessionFilter10DeviceType33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLO
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
++ _symbolic ypSg
++ _type_layout_string 23MultitouchSessionFilter10HeatmapKey33_4FAA1CE3482D4E1E94F33257A0AEC4E4LLV
+CStrings:
++ "@\"NSDictionary\"8@?0"
++ "ActiveSessionCount"
++ "Class"
++ "CompletedSessionCount"
++ "MTDigitizerHeatmapManager"
++ "MTInputSessionManager"
++ "MonitoredServiceCount"
++ "Registered %{public}s service %{public}s"
++ "SessionFilterDebug"
++ "T@\"NSDictionary\",N,R"
++ "activeSessions"
++ "com.apple.Multitouch"
++ "com.apple.hid.DigitizerHeatMap"
++ "com.apple.hid.InputDeviceUsageMetrics"
++ "completedSessions"
++ "copy"
++ "heatmaps"
++ "isEqualToString:"
++ "lastCAEvent"
++ "logger"
++ "monitoredServices"
++ "otherDeviceTypeOverlap"
++ "setObject:forKeyedSubscript:"
++ "touchChangedEvents"
++ "touchedChangedPathId"
+
+```

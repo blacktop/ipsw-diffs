@@ -1,0 +1,354 @@
+## HeartRhythmUI
+
+> `/System/Library/PrivateFrameworks/HeartRhythmUI.framework/HeartRhythmUI`
+
+```diff
+
+-7027.0.52.2.6
+-  __TEXT.__text: 0x350e8 sha256:39f35cc7b5a0f68b24534ea725f36313a6789c1ddc2d782b4310e6381a13415f
+-  __TEXT.__objc_methlist: 0x4d40 sha256:925168c1c193b13d46351f5871d0046d7d160092e4586d05c085143473e375b7
+-  __TEXT.__const: 0x238 sha256:73eb8fe526eaa490b4c7f633c0835954d7d13d52bfd2eb54aefdef3a31162690
+-  __TEXT.__gcc_except_tab: 0x1e4 sha256:67d10ff0531b129c57861073ab583eb1bbcd733a80c66632473368090278eebe
+-  __TEXT.__cstring: 0x3bc3 sha256:4eea48e1c3fbdb6c4df14a4f8e380e83dd0e4bfaf2acec40b1d3a455b1506879
++7027.0.60.2.2
++  __TEXT.__text: 0x33fc0 sha256:9793b058bd6c34038c0441e976efb1cd01ca3e38d11cda288b75337bc8645b43
++  __TEXT.__objc_methlist: 0x4c80 sha256:1a4942ed21ffc45bf5636f1c0307c596b45ad5cca9049136e3e776c1efd4ef9f
++  __TEXT.__const: 0x238 sha256:97f7ea920167b1dd96f6f3b5c2ccbe9db123e14907656f3a3a17533e5a329780
++  __TEXT.__cstring: 0x3b16 sha256:953c359ec2fb4973637fdcaed31b80e7a4da32fd53abd80cb5afecbae4417e48
+   __TEXT.__oslogstring: 0x10b3 sha256:a26ab60d041f394e358ab1f3b69b485d856fea65f01159eb76308de63a644d11
+   __TEXT.__ustring: 0xa sha256:ceebeac533f9d0dacf3a0ce7151b8a18f5eb0ac32fd7dafad14ec9d1d3b60589
++  __TEXT.__gcc_except_tab: 0x1bc sha256:65319c72b004846a64d3bb21ff2a3d380fda3b80fc597770107b575090fe5e54
+   __TEXT.__dlopen_cstrs: 0x5a sha256:64fcf086b82a841b1e17599efa99e181e17e2ce028e94afebd065fbe2675e74f
+-  __TEXT.__unwind_info: 0xce8 sha256:de6486d9356216f52d6eca1f00ae1f5028cd8b49b04f0cb77ca9518302edc545
++  __TEXT.__unwind_info: 0xcb0 sha256:971d752ca3d8f295863b35a4500028eb5d361d55216ea7aab3d54fefa6596067
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x820 sha256:5aeea6a2452da3df79e097338f5d4836a3224a5b381fcc0d7032a03f06dde9c7
+-  __DATA_CONST.__objc_classlist: 0x1a8 sha256:23aab7cebb5e6369c885ebbb789518ff3edcb3071fdfd4739d8e6683dd1aeb6f
+-  __DATA_CONST.__objc_catlist: 0x58 sha256:bcd1dbf4a82e190da85e5344bf5987afdbfbcb78c1fdefa94f2d558b1beebc78
+-  __DATA_CONST.__objc_protolist: 0x90 sha256:fd189f2becc24ce91ed6aedda612cdc0af3850d215a7dbb7011e6a3e11746a60
++  __DATA_CONST.__const: 0x820 sha256:428efa91779c296348c337988cc01b7c6f6f2325cfffbd1ed0a1537492a56f72
++  __DATA_CONST.__objc_classlist: 0x1b0 sha256:ee523052f954c62df628f7baa940ee849887121cf8b6e98da45a4d6588b627c9
++  __DATA_CONST.__objc_catlist: 0x58 sha256:54ab67efd2ca63d3f47db84b6b2a940fe1ab259437d8075d0e395f2b28e135ac
++  __DATA_CONST.__objc_protolist: 0x88 sha256:9e927886d30a7a8484d179a45b631db772360773d720b22bd9f1082191c6c113
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2fb8 sha256:773992464d28b78b2da719d31e3c2533ec9e3de4975a98e75433ec947afa18ae
+-  __DATA_CONST.__objc_superrefs: 0x190 sha256:7ddc3125803ef1314f30e60c931b91490a4e3e1bf3ef03330e4c8681964e3044
+-  __DATA_CONST.__objc_arraydata: 0x20 sha256:09f5d8fb84818da17d279a181b55fe3384bff9e6346a148432fb18cc6212954a
+-  __DATA_CONST.__got: 0x668 sha256:1ed99d4c4cb116157e05ad6d40ce8b7f4b951fdf81327108b3b7ead9182372f0
+-  __AUTH_CONST.__const: 0xc0 sha256:8dbf48d5f5e412b6c548002d5d44aa05b847c484be22b8664ca38f89de62faed
+-  __AUTH_CONST.__cfstring: 0x3220 sha256:66002201021fec333d1342b3c1633fb51eccea312c518f772174552a811992c9
+-  __AUTH_CONST.__objc_const: 0x6b98 sha256:02d6514211428aacd26aaf2e874c3254fe17ecaafe3242435a718d3ab1e537a0
+-  __AUTH_CONST.__objc_intobj: 0xd8 sha256:046de913a4d34ce9b83e120983fc9e7d52a65969d6ff77cfe7336c175308c9f4
+-  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:27626e4b9873760ed701a46b3fb6572f73b8a00a89e4f15e62c19d51fdde4adc
+-  __AUTH_CONST.__auth_got: 0x430 sha256:482500ac4ba894ac24dbc1e3e06f5455e570378d55808949294af424208dff4c
+-  __AUTH.__objc_data: 0xbe0 sha256:2961d988860e26c7f3fe570216b3627252de1af6b57c9c7e6c90fc6efd0dae27
+-  __DATA.__objc_ivar: 0x4d4 sha256:bd647795d6b34e425589048fdfc11395cac8d40b4945ffe6137dda37a24ac2ef
+-  __DATA.__data: 0x6c8 sha256:ed933fb8b93a7a1bea3a5993a69c96a4d211da37d49f5aa5ba5360ce3f36d025
++  __DATA_CONST.__objc_selrefs: 0x2fe8 sha256:ffb7b129e3ade9d9af380723eaae7b3ceed3f19a9d4d38f5a086c36df3cf9685
++  __DATA_CONST.__objc_superrefs: 0x198 sha256:8e4bf29b3b6c6f74404fa51e0a204e25f021bb5aab1f38942c08f05b6b05d65a
++  __DATA_CONST.__objc_arraydata: 0x20 sha256:b30b9e923dba6ffa153683b7d74ff9dc0c56f41df9cec293c19a7bc7f8aa9147
++  __DATA_CONST.__got: 0x660 sha256:2845ae504c23647f39c98c16acf84daf8111a10a5e1bc03fc251872427e1a357
++  __AUTH_CONST.__const: 0xc0 sha256:b0acb4a770b76d77dc862511fb0507c26e43c64e8f2d0541f9db31ba932467d6
++  __AUTH_CONST.__cfstring: 0x3180 sha256:afb68a6ce95316ca9911ee2aa49aff87b51d2f70d4da74e242e266eefa485f65
++  __AUTH_CONST.__objc_const: 0x6c90 sha256:4050a766031976c2cca26dda8d36adbb912d7c5267b23f58821eecc1acb05494
++  __AUTH_CONST.__objc_intobj: 0xd8 sha256:81838758704547b09a304aaaceb6fd47822785bf87f658e47aa8333efb47f659
++  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:752e10afa3a3f497d87052b7f1d440b3c77867d8cdb844ea68c69ff59e98e4d7
++  __AUTH_CONST.__auth_got: 0x428 sha256:3b449f81c553e3972dd31acc7df0ccfa308b1a290a103632c751828372f7ba3e
++  __AUTH.__objc_data: 0xc30 sha256:7e5ed90f311336ea6f5bea3ef6f107fdda6d871103c0086ceaaa380f26367ee4
++  __DATA.__objc_ivar: 0x4d4 sha256:a458beb0ce77590a5840532db09c58da426d895edf4c38f1ffce4aeec1007a6b
++  __DATA.__data: 0x668 sha256:2c36bbac1b88d1c6a49b6fddb4af36b5613817a93361d3cfe4be1d1ba306207f
+   __DATA.__bss: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_DIRTY.__objc_data: 0x4b0 sha256:52349af4edd1f8800deeaf2b5e707d11664e581b1216367119000f12605c3419
++  __DATA_DIRTY.__objc_data: 0x4b0 sha256:b99cc84b4cd484097714cbe7eea77c612fda6e3452e0fe26dc8a209373232158
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 537130E1-617B-3F5B-AC62-93EFD059B0EA
+-  Functions: 1523
+-  Symbols:   5490
+-  CStrings:  894
++  UUID: 832C8229-03A0-3F88-B733-8C509EC5853D
++  Functions: 1507
++  Symbols:   5462
++  CStrings:  884
+ 
+Symbols:
++ -[HRAtrialFibrillationIntroViewController init]
++ -[HRAtrialFibrillationOnboardingManager onboardingManager:viewControllerForPage:]
++ -[HRElectrocardiogramOnboardingManager initWithOnboardingType:isFirstTimeOnboarding:healthStore:dateCache:provenance:delegate:isSampleInteractive:isRecordingSkippable:]
++ -[HRElectrocardiogramOnboardingManager isRecordingSkippable]
++ -[HRElectrocardiogramOnboardingManager onboardingManager:viewControllerForPage:]
++ -[HROnboardingAtrialFibrillationGateViewController cardLeadingConstraints]
++ -[HROnboardingAtrialFibrillationGateViewController cardTrailingConstraints]
++ -[HROnboardingAtrialFibrillationGateViewController setCardLeadingConstraints:]
++ -[HROnboardingAtrialFibrillationGateViewController setCardTrailingConstraints:]
++ -[HROnboardingAtrialFibrillationGateViewController viewDidLayoutSubviews]
++ -[HROnboardingAtrialFibrillationIntroViewController viewDidLayoutSubviews]
++ -[HROnboardingECG2PossibleResultsViewController _updateEdgeEffectVisibility]
++ -[HROnboardingElectrocardiogramAvailabilityViewController _updateIsValidAgeDisplay]
++ -[HROnboardingElectrocardiogramAvailabilityViewController _validAgeFooterLastBaselineToContinueButton]
++ -[HROnboardingElectrocardiogramAvailabilityViewController ageQuestionLeadingConstraint]
++ -[HROnboardingElectrocardiogramAvailabilityViewController ageQuestionTrailingConstraint]
++ -[HROnboardingElectrocardiogramAvailabilityViewController setAgeQuestionLeadingConstraint:]
++ -[HROnboardingElectrocardiogramAvailabilityViewController setAgeQuestionTrailingConstraint:]
++ -[HROnboardingElectrocardiogramAvailabilityViewController viewDidLayoutSubviews]
++ -[HROnboardingElectrocardiogramTakeRecordingViewController _dismissButtonTapped:]
++ -[HROnboardingElectrocardiogramTakeRecordingViewController initForOnboarding:isRecordingSkippable:]
++ -[HROnboardingElectrocardiogramTakeRecordingViewController isRecordingSkippable]
++ -[HROnboardingElectrocardiogramTakeRecordingViewController setIsRecordingSkippable:]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController _didTapContinueButton:]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController _setUpButtonTray]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController closeButtonTapped:]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController continueButton]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController createHeroView]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController delegate]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController isOnboarding]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController presentAlertWithMessage:]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController presentLearnMoreAlertWithMessage:learnMoreTapped:]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController setContinueButton:]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController setDelegate:]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController setOnboarding:]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController setUpgradingFromAlgorithmVersion:]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController upgradingFromAlgorithmVersion]
++ -[HROnboardingElectrocardiogramUpdateAvailabilityViewController viewDidLoad]
++ -[HROnboardingElectrocardiogramUpdateCompleteViewController _didTapDoneButton:]
++ -[HROnboardingElectrocardiogramUpdateCompleteViewController delegate]
++ -[HROnboardingElectrocardiogramUpdateCompleteViewController isOnboarding]
++ -[HROnboardingElectrocardiogramUpdateCompleteViewController setDelegate:]
++ -[HROnboardingElectrocardiogramUpdateCompleteViewController setOnboarding:]
++ -[HROnboardingElectrocardiogramUpdateCompleteViewController setUpgradingFromAlgorithmVersion:]
++ -[HROnboardingElectrocardiogramUpdateCompleteViewController upgradingFromAlgorithmVersion]
++ -[HRQuestionSelectionHeaderView .cxx_destruct]
++ -[HRQuestionSelectionHeaderView initWithReuseIdentifier:]
++ -[HRQuestionSelectionHeaderView layoutSubviews]
++ -[HRQuestionSelectionHeaderView setTitleLabel:]
++ -[HRQuestionSelectionHeaderView setTitleLeadingConstraint:]
++ -[HRQuestionSelectionHeaderView setTitleTrailingConstraint:]
++ -[HRQuestionSelectionHeaderView titleLabel]
++ -[HRQuestionSelectionHeaderView titleLeadingConstraint]
++ -[HRQuestionSelectionHeaderView titleTrailingConstraint]
++ -[HRQuestionSelectionView cardHorizontalInset]
++ _OBJC_CLASS_$_HRQuestionSelectionHeaderView
++ _OBJC_CLASS_$_UITableViewHeaderFooterView
++ _OBJC_CLASS_$_UITraitPreferredContentSizeCategory
++ _OBJC_IVAR_$_HRElectrocardiogramOnboardingManager._isRecordingSkippable
++ _OBJC_IVAR_$_HROnboardingAtrialFibrillationGateViewController._cardLeadingConstraints
++ _OBJC_IVAR_$_HROnboardingAtrialFibrillationGateViewController._cardTrailingConstraints
++ _OBJC_IVAR_$_HROnboardingElectrocardiogramAvailabilityViewController._ageQuestionLeadingConstraint
++ _OBJC_IVAR_$_HROnboardingElectrocardiogramAvailabilityViewController._ageQuestionTrailingConstraint
++ _OBJC_IVAR_$_HROnboardingElectrocardiogramTakeRecordingViewController._isRecordingSkippable
++ _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateAvailabilityViewController._continueButton
++ _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateAvailabilityViewController._upgradingFromAlgorithmVersion
++ _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateAvailabilityViewController.delegate
++ _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateAvailabilityViewController.onboarding
++ _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateCompleteViewController._upgradingFromAlgorithmVersion
++ _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateCompleteViewController.delegate
++ _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateCompleteViewController.onboarding
++ _OBJC_IVAR_$_HRQuestionSelectionHeaderView._titleLabel
++ _OBJC_IVAR_$_HRQuestionSelectionHeaderView._titleLeadingConstraint
++ _OBJC_IVAR_$_HRQuestionSelectionHeaderView._titleTrailingConstraint
++ _OBJC_METACLASS_$_HRQuestionSelectionHeaderView
++ _OBJC_METACLASS_$_UITableViewHeaderFooterView
++ __OBJC_$_INSTANCE_METHODS_HRQuestionSelectionHeaderView
++ __OBJC_$_INSTANCE_VARIABLES_HRQuestionSelectionHeaderView
++ __OBJC_$_PROP_LIST_HRQuestionSelectionHeaderView
++ __OBJC_CLASS_RO_$_HRQuestionSelectionHeaderView
++ __OBJC_METACLASS_RO_$_HRQuestionSelectionHeaderView
++ ___103-[HROnboardingElectrocardiogramUpdateAvailabilityViewController continueAndCheckForUpdateAvailability:]_block_invoke.416
++ ___105-[HRElectrocardiogramWatchAppInstallability checkElectrocardiogramAppInstallStateWithContext:completion:]_block_invoke.397
++ ___105-[HRElectrocardiogramWatchAppInstallability checkElectrocardiogramAppInstallStateWithContext:completion:]_block_invoke.405
++ ___105-[HRElectrocardiogramWatchAppInstallability checkElectrocardiogramAppInstallStateWithContext:completion:]_block_invoke.407
++ ___114-[HROnboardingElectrocardiogramUpdateAvailabilityViewController presentLearnMoreAlertWithMessage:learnMoreTapped:]_block_invoke
++ ___81-[HROnboardingElectrocardiogramAvailabilityViewController _didTapContinueButton:]_block_invoke.411
++ ___83-[HRAtrialFibrillationOnboardingManager _wrapUpOnboardingWithNotificationsEnabled:]_block_invoke.394
++ ___88-[HROnboardingElectrocardiogramSetupCompleteViewController _setUpElectrocardiogramQuery]_block_invoke.429
++ ___88-[HROnboardingElectrocardiogramSetupCompleteViewController _setUpElectrocardiogramQuery]_block_invoke_2.430
++ ___88-[HROnboardingElectrocardiogramSetupCompleteViewController _setUpElectrocardiogramQuery]_block_invoke_2.430.cold.1
++ ___88-[HROnboardingElectrocardiogramTakeRecordingViewController _setUpElectrocardiogramQuery]_block_invoke.453
++ ___88-[HROnboardingElectrocardiogramTakeRecordingViewController _setUpElectrocardiogramQuery]_block_invoke_2.454
++ ___88-[HROnboardingElectrocardiogramTakeRecordingViewController _setUpElectrocardiogramQuery]_block_invoke_2.454.cold.1
++ _objc_msgSend$_sectionContentInset
++ _objc_msgSend$_updateEdgeEffectVisibility
++ _objc_msgSend$_updateIsValidAgeDisplay
++ _objc_msgSend$_validAgeFooterLastBaselineToContinueButton
++ _objc_msgSend$ageQuestionLeadingConstraint
++ _objc_msgSend$ageQuestionTrailingConstraint
++ _objc_msgSend$bottomEdgeEffect
++ _objc_msgSend$cardHorizontalInset
++ _objc_msgSend$cardLeadingConstraints
++ _objc_msgSend$cardTrailingConstraints
++ _objc_msgSend$dequeueReusableHeaderFooterViewWithIdentifier:
++ _objc_msgSend$initForOnboarding:isRecordingSkippable:
++ _objc_msgSend$initWithOnboardingType:isFirstTimeOnboarding:healthStore:dateCache:provenance:delegate:isSampleInteractive:isRecordingSkippable:
++ _objc_msgSend$invalidateIntrinsicContentSize
++ _objc_msgSend$isRecordingSkippable
++ _objc_msgSend$preferredMaxLayoutWidth
++ _objc_msgSend$prominentGlassButtonConfiguration
++ _objc_msgSend$registerClass:forHeaderFooterViewReuseIdentifier:
++ _objc_msgSend$setAgeQuestionLeadingConstraint:
++ _objc_msgSend$setAgeQuestionTrailingConstraint:
++ _objc_msgSend$setCardLeadingConstraints:
++ _objc_msgSend$setCardTrailingConstraints:
++ _objc_msgSend$setEstimatedSectionHeaderHeight:
++ _objc_msgSend$setInsetsContentViewsToSafeArea:
++ _objc_msgSend$setInsetsLayoutMarginsFromSafeArea:
++ _objc_msgSend$setSectionHeaderHeight:
++ _objc_msgSend$titleLeadingConstraint
++ _objc_msgSend$titleTrailingConstraint
++ _objc_msgSend$topEdgeEffect
++ _objc_msgSend$verticalSizeClass
+- -[HRAtrialFibrillationIntroViewController .cxx_destruct]
+- -[HRAtrialFibrillationIntroViewController _assetImageBottomToTitleFirstBaseline]
+- -[HRAtrialFibrillationIntroViewController _bodyFontTextStyle]
+- -[HRAtrialFibrillationIntroViewController _bodyFont]
+- -[HRAtrialFibrillationIntroViewController _bodyLastBaselineToContentBottom]
+- -[HRAtrialFibrillationIntroViewController _createHeroView]
+- -[HRAtrialFibrillationIntroViewController _titleFontTextStyle]
+- -[HRAtrialFibrillationIntroViewController _titleFont]
+- -[HRAtrialFibrillationIntroViewController _titleLastBaselineToBodyFirstBaseline]
+- -[HRAtrialFibrillationIntroViewController bodyLabel]
+- -[HRAtrialFibrillationIntroViewController contentView]
+- -[HRAtrialFibrillationIntroViewController heroView]
+- -[HRAtrialFibrillationIntroViewController learnMoreContentView]
+- -[HRAtrialFibrillationIntroViewController scrollView]
+- -[HRAtrialFibrillationIntroViewController setBodyLabel:]
+- -[HRAtrialFibrillationIntroViewController setContentView:]
+- -[HRAtrialFibrillationIntroViewController setHeroView:]
+- -[HRAtrialFibrillationIntroViewController setLearnMoreContentView:]
+- -[HRAtrialFibrillationIntroViewController setScrollView:]
+- -[HRAtrialFibrillationIntroViewController setTitleLabel:]
+- -[HRAtrialFibrillationIntroViewController setUpConstraints]
+- -[HRAtrialFibrillationIntroViewController setUpUI]
+- -[HRAtrialFibrillationIntroViewController titleLabel]
+- -[HRAtrialFibrillationIntroViewController viewDidLoad]
+- -[HRAtrialFibrillationOnboardingManager onboardingManager:customViewControllerForPage:]
+- -[HRElectrocardiogramOnboardingManager onboardingManager:customViewControllerForPage:]
+- -[HROnboardingElectrocardiogramAvailabilityViewController _ageEntryTitleFont]
+- -[HROnboardingElectrocardiogramAvailabilityViewController _birthdayFooterLastBaselineToContinueButton]
+- -[HROnboardingElectrocardiogramAvailabilityViewController _birthdayPromptFont]
+- -[HROnboardingElectrocardiogramAvailabilityViewController _defaultDOB]
+- -[HROnboardingElectrocardiogramAvailabilityViewController _setupBirthdayEntryView]
+- -[HROnboardingElectrocardiogramAvailabilityViewController _updateDateOfBirthDisplay]
+- -[HROnboardingElectrocardiogramAvailabilityViewController ageWithDate:]
+- -[HROnboardingElectrocardiogramAvailabilityViewController birthdayEntryView]
+- -[HROnboardingElectrocardiogramAvailabilityViewController birthdayFooterString]
+- -[HROnboardingElectrocardiogramAvailabilityViewController compactDatePickerView:didChangeValue:]
+- -[HROnboardingElectrocardiogramAvailabilityViewController dateOfBirth]
+- -[HROnboardingElectrocardiogramAvailabilityViewController setBirthdayEntryView:]
+- -[HROnboardingElectrocardiogramAvailabilityViewController setDateOfBirth:]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController _bodyBottomToLocationTop]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController _bodyFontTextStyle]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController _bodyFont]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController _footnoteFont]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController _footnoteTextStyle]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController _locationFooterLastBaselineToContinueButton]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController _setUpStackedButtonView]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController _titleBottomToBodyTop]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController _titleFontTextStyle]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController _titleFont]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController bodyLabel]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController locationFooterLabel]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController setBodyLabel:]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController setLocationFooterLabel:]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController setStackedButtonView:]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController setTitleLabel:]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController stackedButtonView:didTapButtonAtIndex:]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController stackedButtonView]
+- -[HROnboardingElectrocardiogramUpdateAvailabilityViewController titleLabel]
+- -[HROnboardingElectrocardiogramUpdateCompleteViewController _bodyFontTextStyle]
+- -[HROnboardingElectrocardiogramUpdateCompleteViewController _bodyFont]
+- -[HROnboardingElectrocardiogramUpdateCompleteViewController _titleFontTextStyle]
+- -[HROnboardingElectrocardiogramUpdateCompleteViewController _titleFont]
+- -[HROnboardingElectrocardiogramUpdateCompleteViewController bodyLabel]
+- -[HROnboardingElectrocardiogramUpdateCompleteViewController contentViewBottomConstraint]
+- -[HROnboardingElectrocardiogramUpdateCompleteViewController setBodyLabel:]
+- -[HROnboardingElectrocardiogramUpdateCompleteViewController setContentViewBottomConstraint:]
+- -[HROnboardingElectrocardiogramUpdateCompleteViewController setStackedButtonView:]
+- -[HROnboardingElectrocardiogramUpdateCompleteViewController setTitleLabel:]
+- -[HROnboardingElectrocardiogramUpdateCompleteViewController stackedButtonView:didTapButtonAtIndex:]
+- -[HROnboardingElectrocardiogramUpdateCompleteViewController stackedButtonView]
+- -[HROnboardingElectrocardiogramUpdateCompleteViewController titleLabel]
+- GCC_except_table11
+- GCC_except_table13
+- _HKUIApplicationIsUsingAccessibilityContentSizeCategory
+- _OBJC_CLASS_$_HKOnboardingCompactDatePickerView
+- _OBJC_CLASS_$_HKViewController
+- _OBJC_IVAR_$_HRAtrialFibrillationIntroViewController._bodyLabel
+- _OBJC_IVAR_$_HRAtrialFibrillationIntroViewController._contentView
+- _OBJC_IVAR_$_HRAtrialFibrillationIntroViewController._heroView
+- _OBJC_IVAR_$_HRAtrialFibrillationIntroViewController._learnMoreContentView
+- _OBJC_IVAR_$_HRAtrialFibrillationIntroViewController._scrollView
+- _OBJC_IVAR_$_HRAtrialFibrillationIntroViewController._titleLabel
+- _OBJC_IVAR_$_HROnboardingElectrocardiogramAvailabilityViewController._birthdayEntryView
+- _OBJC_IVAR_$_HROnboardingElectrocardiogramAvailabilityViewController._dateOfBirth
+- _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateAvailabilityViewController._bodyLabel
+- _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateAvailabilityViewController._locationFooterLabel
+- _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateAvailabilityViewController._stackedButtonView
+- _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateAvailabilityViewController._titleLabel
+- _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateCompleteViewController._bodyLabel
+- _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateCompleteViewController._contentViewBottomConstraint
+- _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateCompleteViewController._stackedButtonView
+- _OBJC_IVAR_$_HROnboardingElectrocardiogramUpdateCompleteViewController._titleLabel
+- _OBJC_METACLASS_$_HKViewController
+- _UIFontTextStyleHeadline
+- __OBJC_$_INSTANCE_VARIABLES_HRAtrialFibrillationIntroViewController
+- __OBJC_$_PROP_LIST_HRAtrialFibrillationIntroViewController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKOnboardingCompactDatePickerViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HKOnboardingCompactDatePickerViewDelegate
+- __OBJC_$_PROTOCOL_REFS_HKOnboardingCompactDatePickerViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_HKOnboardingCompactDatePickerViewDelegate
+- __OBJC_PROTOCOL_$_HKOnboardingCompactDatePickerViewDelegate
+- ___103-[HROnboardingElectrocardiogramUpdateAvailabilityViewController continueAndCheckForUpdateAvailability:]_block_invoke.381
+- ___105-[HRElectrocardiogramWatchAppInstallability checkElectrocardiogramAppInstallStateWithContext:completion:]_block_invoke.391
+- ___105-[HRElectrocardiogramWatchAppInstallability checkElectrocardiogramAppInstallStateWithContext:completion:]_block_invoke.399
+- ___105-[HRElectrocardiogramWatchAppInstallability checkElectrocardiogramAppInstallStateWithContext:completion:]_block_invoke.401
+- ___79-[HRAtrialFibrillationIntroViewController viewControllerWillEnterAdaptiveModal]_block_invoke
+- ___81-[HROnboardingElectrocardiogramAvailabilityViewController _didTapContinueButton:]_block_invoke.419
+- ___83-[HRAtrialFibrillationOnboardingManager _wrapUpOnboardingWithNotificationsEnabled:]_block_invoke.388
+- ___88-[HROnboardingElectrocardiogramSetupCompleteViewController _setUpElectrocardiogramQuery]_block_invoke.423
+- ___88-[HROnboardingElectrocardiogramSetupCompleteViewController _setUpElectrocardiogramQuery]_block_invoke_2.424
+- ___88-[HROnboardingElectrocardiogramSetupCompleteViewController _setUpElectrocardiogramQuery]_block_invoke_2.424.cold.1
+- ___88-[HROnboardingElectrocardiogramTakeRecordingViewController _setUpElectrocardiogramQuery]_block_invoke.445
+- ___88-[HROnboardingElectrocardiogramTakeRecordingViewController _setUpElectrocardiogramQuery]_block_invoke_2.446
+- ___88-[HROnboardingElectrocardiogramTakeRecordingViewController _setUpElectrocardiogramQuery]_block_invoke_2.446.cold.1
+- _objc_msgSend$_ageEntryTitleFont
+- _objc_msgSend$_assetImageBottomToTitleFirstBaseline
+- _objc_msgSend$_birthdayFooterLastBaselineToContinueButton
+- _objc_msgSend$_bodyLastBaselineToContentBottom
+- _objc_msgSend$_defaultDOB
+- _objc_msgSend$_locationFooterLastBaselineToContinueButton
+- _objc_msgSend$_updateDateOfBirthDisplay
+- _objc_msgSend$birthdayEntryView
+- _objc_msgSend$birthdayFooterString
+- _objc_msgSend$components:fromDateComponents:toDateComponents:options:
+- _objc_msgSend$dateByAddingUnit:value:toDate:options:
+- _objc_msgSend$dateOfBirth
+- _objc_msgSend$hk_dateOfBirthDateComponentsWithDate:
+- _objc_msgSend$hk_gregorianCalendarWithLocalTimeZone
+- _objc_msgSend$hk_gregorianCalendarWithUTCTimeZone
+- _objc_msgSend$hk_onboardingListDirectionalEdgeInsets
+- _objc_msgSend$initWithArrangedSubviews:
+- _objc_msgSend$initWithFrame:initialText:defaultDate:maxYears:
+- _objc_msgSend$setBirthdayEntryView:
+- _objc_msgSend$setContentView:
+- _objc_msgSend$setCustomSpacing:afterView:
+- _objc_msgSend$setDateOfBirth:
+- _objc_msgSend$tintedGlassButtonConfiguration
+CStrings:
++ "Header"
+- "AGE_GATE_DATE_OF_BIRTH_TITLE"
+- "AGE_GATE_FIELD_REQUIRED_PLACEHOLDER"
+- "AppleWatchCanLookforAtrialFibrillation.EntireView"
+- "BirthDate.Picker"
+- "BirthDate.Title"
+- "ECG_ONBOARDING_1_BIRTHDAY_FOOTNOTE"
+
+```

@@ -1,0 +1,293 @@
+## libate.dylib
+
+> `/usr/lib/libate.dylib`
+
+```diff
+
+-3.0.9.0.0
+-  __TEXT.__text: 0x3b588 sha256:d5d4be18b425e6e6db01df621b458630fa48443ecab920dae7bdd580b709a567
+-  __TEXT.__objc_methlist: 0x14c sha256:faa77f80ca7f5d29f3c094f39641691bfe1085b58535baee84f62cbc2ef34aab
++3.0.10.0.0
++  __TEXT.__text: 0x3bd98 sha256:1e72c24e52fbfe728c80b9ac8631a0500a77434e4331c97970ec96739cbcdb4a
++  __TEXT.__objc_methlist: 0x14c sha256:e2c72520b2136c9d0d67bc237a9aa89b8575347b084829fe62cde3b901edaa59
+   __TEXT.__const: 0x511e0 sha256:e8f4714322f8ad5e67d321cad2efbb459e5ea7f37905f61683eb68bdb64aee55
+-  __TEXT.__cstring: 0x1b2e sha256:a7a08b54d980f885bd1160709b8917004ca169f397f3703b9e10fbeda4ad8f40
+-  __TEXT.__gcc_except_tab: 0xb4 sha256:540a846ce308bb602c22cf23c4096a010d0296b15a4dda453cd3706ebf48b6d2
+-  __TEXT.__unwind_info: 0x370 sha256:af33d915462b480268b330a9b57914ccf14ff6991b83a56a6ea71de2fb4318b1
+-  __TEXT.__eh_frame: 0x50 sha256:c6bdb3d5285bba73b2707e2a385e2f91a45fa723817fcf22de95d921c83425c1
++  __TEXT.__cstring: 0x1ba8 sha256:a5d02016b9fe8b02769165e63a1dc9d55ef3bb6d13825f1725cc5560207e982b
++  __TEXT.__gcc_except_tab: 0xb4 sha256:7dc2fdb77014e3f198e17b2f7c905bd965519755aa85eb272122f0117f360d50
++  __TEXT.__unwind_info: 0x378 sha256:28e0f95884be5ffc096babe72947dab5079edbbcccadbd85cecf040f7ec9354a
++  __TEXT.__eh_frame: 0x50 sha256:365e30c8e06132084fc671251e68b9bcb2ad86f1312463fa27f974cca5308307
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x218 sha256:12376e6e960a1ad1a60393058df92ecbb1848869fe7db218b91726848b21abc4
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:c1d5b4e88abdad1989d982611fc14cc78bf510809946ca62bfbb6001f15e3851
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:5fe74b2b36d3c5487185722c373f904bf0de30aa9528e7078c9c4f59fa312793
++  __DATA_CONST.__const: 0x218 sha256:ca770087b6dda26439047d2a37c3e7fba11ba14d5ddfad7dbc3a000e09d1aad2
++  __DATA_CONST.__objc_classlist: 0x8 sha256:b1b92efff2d12538048157ec43bb6615d985699d92b6c18deda6438b43a179b0
++  __DATA_CONST.__objc_protolist: 0x10 sha256:ebe8edcd41ad1383ce2d3a6261f65b69faa0f4b73870893868e721d1ff647f07
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xb8 sha256:1806e4951e3c87462c8f91c6486a4e29fcc72e40721a28125bd2b8d096594780
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:c1d5b4e88abdad1989d982611fc14cc78bf510809946ca62bfbb6001f15e3851
++  __DATA_CONST.__objc_selrefs: 0xb8 sha256:3378e70eb03758f3a730aa2859a3bb11d108f5ff14e85d8da397ab6e8aecf79a
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:b1b92efff2d12538048157ec43bb6615d985699d92b6c18deda6438b43a179b0
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x3a8 sha256:5c02653d5c6b2107b7ce7f165ea0dac17b14255a70be794a636eab5e4e325e83
+-  __AUTH_CONST.__objc_const: 0x1f0 sha256:652a516bb5cd348c51579812d153f1687d9d224d1d21cc893ac2423b3b159725
+-  __AUTH_CONST.__weak_auth_got: 0x8 sha256:0dc3dc72ca548242dfe118df8ac91067daf9a88ab70805d28df96dc1119fb6b6
++  __AUTH_CONST.__const: 0x3a8 sha256:23ddbf2aaa551544075a1a42fe4792b823b421c8ff52d030179af544e71fd1e6
++  __AUTH_CONST.__objc_const: 0x1f0 sha256:e58cc43974b4af875099be4133b6261d55b9518b49fc0a8cd9ecf98ed2636b59
++  __AUTH_CONST.__weak_auth_got: 0x8 sha256:37a1facfd3ea33ce123d9ff1d5e0bb7aa57f306258b743c56290010a35c4c106
+   __AUTH_CONST.__auth_got: 0x148 sha256:7b4499c3cc6e82a9da3100028f52af7f8c1e9ee60e33010a108e401989782962
+-  __DATA.__data: 0xc0 sha256:cb620bd170b5b39c35bf46411536425b5228b7dd05e09e5e82524dc90548e63b
++  __DATA.__data: 0xc0 sha256:d3f35f5deab1da3279f08c52e0c12b8b0e77e62574b3e3005242f0e74d5718bb
+   __DATA.__bss: 0x148 sha256:7b4499c3cc6e82a9da3100028f52af7f8c1e9ee60e33010a108e401989782962
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:867cef2abf543f9b9c3e8cea051c73c1d98d1a1069af0b648e6334934091b938
++  __DATA_DIRTY.__objc_data: 0x50 sha256:34cbbde46898a8f9892da6559e6e2bb48d0f9ad9bf3e0285c96ad82b5551353a
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_DIRTY.__bss: 0x328 sha256:33e15ec51f02d31aedb153489237b7938676d30e5a211a4498ae4910930e1a86
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6DD3C662-EE36-347D-885E-5630E6D1DB93
++  UUID: 50A7DD5E-366E-39ED-B302-1898158E2F97
+   Functions: 292
+   Symbols:   805
+-  CStrings:  135
++  CStrings:  136
+ 
+Functions:
+~ __Z17EncoderCheck_ASTCPK10CommonData : sha256 eff82992c1a1201a9f1a10509e298b30a3b2638bdfd58a745f3e2d05bbae5e58 -> 9dd7e38e5088bd9b894d4d5cac294df352af97af4b79d2e81cc9be3adf5d67b5
+~ _GetBlockInfo : 28 -> 24
+~ _at_encoder_create : 524 -> 520
+~ _GetTexelInfo : 28 -> 24
+~ _AllocateEncoder : sha256 3822a50411800a495b401756b044b9aa4d9cfa4dbbb5a7d35ce8937e8f83254c -> 93eaa848963525a65f106287d8065c9db6719b4a14d71f5b22746449c5746905
+~ __ZN11ASTCEncoderC1ERK10CommonData : sha256 463149719efdd3710760413e8561cc63cead5766d0d5a04f13a43df55e741f82 -> a471436fa9a5a433d1eb3c37e09938aa4e8acb21fbcfb62d5ae30459c3efa408
+~ __ZN11ASTCEncoderC2ERK10CommonData : sha256 2bee6c516e0a29ef0627fdcd0e1c5081b8ec27427950ae7c0e6f86e282c45477 -> 02ec31571a8deb86bee8e5b94525d3fc604d087d7d7c6647ba9d5cb613dee2ed
+~ _at_encoder_compress_texels : sha256 1b62fd0fb2c8566a4f0a5245ff3ba0c45fa704fec7fd4d6a905fd5ce8e5521a1 -> 03633ae54c50c60791f40adb951a644561744a450542ee41faddc2c67d06cbe3
+~ _at_encoder_create.cold.1 : sha256 73c4ca8cfd81cf33ac36b0bcdb09007f947cb1caf742ccf962a71a992dc691f6 -> 858301b9d2477d7407135d99330b8ca7c7ea7cdfe93a12189d036638a484e619
+~ ____ZL22at_get_cpucapabilitiesv_block_invoke : sha256 889e75f36a01b022a1b840b00c3569102f5cbbaa8e8751e67c4f5c02dd9b011e -> b980355c20138a53b62ccaaa56ee393b02abeb5bf46260829522a05eab0527eb
+~ ____ZN11ASTCEncoderC2ERK10CommonData_block_invoke : sha256 0b78ca956a326addaaefe5f4d822e48061e7ef0482b59ef1f15ee5b2a6fd060c -> 38d4b7c505191d36c0bb10b8d2ca3cc0cb03546879f90301915755f08378d528
+~ __ZNK11ASTCEncoder14CompressTexelsERK17at_texel_region_tRK17at_block_buffer_tf10at_flags_t : sha256 e68c827ab2c76a442b5588073be1f758f4b437d0d0064bbe16dabc843447b8e9 -> 5c6770baf560404bc34552b348e94ecaea27fe2e0dacc58ea6a7b83b555b1b67
+~ _GetDualPartitionPatterns : 72 -> 60
+~ -[OS_at_encoder dealloc] : sha256 aff543d4a16407114952f40016b38b5d9934204fbe358b880671660ab7c93228 -> 91929e06f0419397d59ec8306f711f5e1a09816d213fb9773dc0a516552b62dd
+~ __ZN11ASTCEncoderD2Ev : sha256 26e5f81bba1c6b9f091bdc2f9c8c9e24e84a3bee68b991c15a66fc37d70212dc -> 38a3b8ffeda2044121149145780b114ff7225f445bc136049f20f97242408aa5
+~ _freePartitionTables2D : 92 -> 100
+~ __ZL14EncodeRowBlockPvm : sha256 1005cde30ac4f6fa5b206e50ff97f3c01aef74aa79ef43a95cf90dfef2a5c942 -> 7de64b8939b224c5109bc55b1770eb365e476d2d2f11e748a54e12680a953d6e
+~ __ZL14EncodeRowBlockPvm : sha256 1187037d854d9a14088b0b1b1e6c53f7bc48d3f10c8cd80ba893329e5237d8e7 -> 5172be183435a9d5885123f1bc049cf6510036c5e4b9fa385081344e6eeb1c40
+~ __ZL9EncodeRowPvmPh : 1280 -> 1300
+~ __ZL9EncodeRowPvmPh : 956 -> 948
+~ __ZL9ReadBlockPK10SliceStateP13Block_storagePKvPKmml : 476 -> 468
+~ __ZL9ReadBlockPK10SliceStateP13Block_storagePKvPKmml : 452 -> 444
+~ __ZL19FillBlockStorageRowPK10SliceStateP13Block_storageS3_S3_llPKvPml : 1132 -> 996
+~ _Read_4x4_RGBA8_vec : sha256 9199f55e65becf1c6d858aea8f674ac9848038a4d2c88f84ec194a4151c41b37 -> 506c5846a97fd72c391e88366f022b02a72b97f30c409ebc6234363db9312180
+~ _ClampPremultiplied_4x4_vec : sha256 1b3fc604b91958699eca1b35d0c54b509ec0a5a6a2874c3829ff1c6ac48b76bb -> 31e13d6790d7437ff1254c9041bc1fd014c381fe84c8f0c1664a311812826967
+~ _PackDualBlock_4x4 : sha256 030efcb6f7a54ea710115ce69761d77fa201019cadb2084135afba5db74e411d -> d0f5cf6b8890b492db541e9d16d4813339dcfb6b7aa884d0d10b001ccaba2e4f
+~ __ZL14pack_trits_vecjDv16_h : sha256 49d3b10073ad9cdf4c177244d86d5435db24f20a91b415dd5919897718138615 -> 1889541fe46aef3a7f9ba0e403eccea92ffc982ddb0d2fd771f1c52693e44584
+~ __ZL15pack_quints_vecjDv16_h : sha256 4a5334972a538bef45a5e72ace18f26a5ba279d9a588c1ca4c0f43d840b3127d -> aaa0ca841a8ed540bf07c9cd8fe16c71758945a89c00978ea6e8a4f6a16bd1af
+~ _EncodeASTC_4x4_RGBA_vec : 800 -> 808
+~ __ZL16FindColorVectorsDv8_fPKDv4_fitP26SinglePartitionWeightsInfo : 4460 -> 4384
+~ _WeightInfoForSingleLineSingleWeight_4x4 : 100 -> 96
+~ _WeightInfoForSingleLineSingleWeight : 404 -> 388
+~ __ZL28CheckForReducedColorFidelityP26SinglePartitionWeightsInfoDv4_ftiDv8_fPhPfS4_ : 360 -> 352
+~ _EncodeBasicBlock_4x4 : 22668 -> 22700
+~ _WeightInfoForSingleLineDualWeight_4x4 : 100 -> 96
+~ _WeightInfoForSingleLineDualWeight : 188 -> 176
+~ __ZL32EncodeStandardDualPartitionBlockPK9Block_4x4fP28DualPartitionBlockEncodeDataPK20DualPartitionPattern : 15772 -> 15740
+~ _GetDualPartitionBlockInfo : 112 -> 108
+~ __ZL15FindWeights_4x4PK9Block_4x4PK16DualColorVectorsh : sha256 268c39c88e598c1ff613e2aec13f0afecfbbd8c46ea85b158c1bfd14b90b88dd -> 769a471965528869df69cc3679cfa4bb94e3c68fefd5e83d823dc7b94da180f9
+~ _EncodeBitTransferSigned : sha256 f7422b4782787780bf9e890ff48b65911900fe7cb2050f684818e4517b4b3d19 -> b4abf633954f52677ffd3b28066df9bfb9304eecba1a94e130a6cd524f1ea285
+~ __ZNK11ASTCEncoder16DecompressTexelsERK17at_block_buffer_tRK17at_texel_region_t10at_flags_t : sha256 a1f80aa375bb2e6f0c2eceeb11341d0df58b1907351a152867fbd9da35cf667f -> ef6a09585b541ef7ad9363291dd0bae829d0bacdc32132ad621065528545b662
+~ _at_encoder_decompress_texels : sha256 af215e29a63e5e357ba4523ef5062aa04434cf1f96a1cea42de5b77429e718f9 -> 4501c9fedf370a3b07034e268a9f99447ba52b93784788ddaafe26d085bcb312
+~ __ZN9ATEncoder16GetBlockFeaturesE17at_block_format_tP17at_block_buffer_t9at_size_tmPm10at_flags_t : 616 -> 648
+~ _at_block_get_features : sha256 440d74486872658005faedfd6c870d2c4314c6bebbabe9ca92a663bed936927f -> fecbe6758223f2cf5f857fdfe9500248ca901443a67375d22703caeda2b048d1
+~ __ZL9DecodeRowPvm : sha256 e17188d86db75fe9669e9d78c11ebe3da8628bc2c6ad12a815c9efd93140da4f -> a7c2bdf400be9174d6aa6de3f04dc5223ea7a6c4b8da0357d6142311decb0c2e
+~ __ZL9DecodeRowPvm : sha256 c6095259e39fd6c86f046352bab613221d82390e6f0066d26ebb02539cfef56a -> d931cc276dc10d2d2549d713f6a5f86d096bf12857a5fc6da845228a3f3e23f8
+~ __Z50ATEncoderDecompressTexels_TexelBufferIsNotWritablePK17at_texel_region_tj : sha256 5633045428d0d9e9baca1cf283bf0be97c4e045c7c16dab2476811ed94ff052b -> b19af60bda54a6d4fe0f7abcfbd6d50401c075cd615c2d95d1f8e7948b177463
+~ _DecodeASTC_RGBA_vec : 6684 -> 6664
+~ sub_2bc900b60 -> sub_2bde0aa5c : sha256 ecd8eefb0abdc22c041315d93867b93e15d181fa2828e7f941bc5da732a5912a -> 7ce069c3258ab37fc2de10578645313059565b96cceed2029d040672fcdeff1f
+~ _allocatePartitionTables2D : sha256 77d8c7148320d4b223c12283f9cacbc07307d11f294aac6c54d05f086aea8032 -> 3860f7da6263b158c59a34b57517890b7ee6a2cf7715314f6c8d90b2004a78c3
+~ __ZN11ASTCEncoder16GetBlockFeaturesE17at_block_format_t19at_block_features_tPK17at_block_buffer_t9at_size_tmPKm10at_flags_t : sha256 440881892409b0014ea33253a34d24013c3fc363155dddeab8308e62d25a5f0d -> 8c7e2cba9274a42779a23dc6d481d9a168bb4282dc804895bded10bdaf2a3672
+~ __ZL16BlockFeatureScanPvm : 2384 -> 2372
+~ _ClampPremultiplied_vec : 172 -> 168
+~ __ZN11ASTCEncoder22GetBlockFeaturesStaticE17at_block_format_t10at_flags_t : sha256 aba67e0614942f397b6e37274340c4e7bd75ec707981acc740a3b54e39d33284 -> b3bc5b610c841195303cca4805cab9c5d63f0c5082aceb5a87a7f40a33ebd6ec
+~ _SetAlphaOne_4x4_vec : sha256 9dea0f583c1c3fc6cdd58905e03d3692f4c47b68c78d38ab7ce54950bd1fd076 -> e64670b2551740b52cf35670e27648c5fc4f37c46f10649494579716cd86fde0
+~ _at_encoder_get_version : 272 -> 280
+~ _getPartitionTable : sha256 664f63dd76dee6747650ca81daa7519a487e6ed16f80be82ce595caa05aba39c -> 049d1e862803a27d3b87b5b9ef49eb8afb44ec41a3bee3694ffb33d326ac64c1
+~ _decode_bc1 : sha256 5477e66c208189e3445c0b3151a0a29976165561ab811015a26f383f4bdf7325 -> 7a858adc88c7ef7d6009a934ff6bd038fd906a78e145c53a58a9c1d1edc57bfd
+~ _decode_bc2 : sha256 bdcb23f30e901d74c8922c2909b9f7b70dcffe2b47aaacc5075d6ce0e8f83301 -> 89c6899824b4c965ad3ebae271e0aafe1e2475d43fae61b0fff4e602d26748a7
+~ _decode_bc3 : 652 -> 648
+~ _decode_bc4 : 400 -> 396
+~ _decode_bc4s : sha256 1bcd5f3bb991db47f1e8382eac489f2134205b96766011e24b76603f0106c110 -> 8c54fb3dea764b3382d8ee8cd62dea8be87b4316e956a921dd92930585ad3a64
+~ _decode_bc5 : 684 -> 676
+~ _decode_bc5s : sha256 1bcd5f3bb991db47f1e8382eac489f2134205b96766011e24b76603f0106c110 -> 8c54fb3dea764b3382d8ee8cd62dea8be87b4316e956a921dd92930585ad3a64
+~ _decode_bc6 : 1972 -> 1976
+~ __ZL7GetBitsPhRmm : sha256 d1f4548bc9ef951142d250a185d313e14f05afd413aef1b2be9f5ad82605ede9 -> 0f95ca7d5f625f59386148177c2cd8eb8e5a03299408b3505048c7663b452ff7
+~ _decode_bc7 : 2028 -> 2040
+~ __ZN9LDRColorA14InterpolateRGBERKS_S1_mmRS_ : sha256 2f5bafb80212a248d0d2b52858bb2a907137609fa5ab411d19ac157e5d3aa87d -> f77ea33c26cb143c9e451e9a2e2187a15eaf1bcce7eec8ccc3c54fa0e95b31c5
+~ __ZN9LDRColorA12InterpolateAERKS_S1_mmRS_ : sha256 76c00d763a3a6d65005a186d1fc6da9e2bdfd9619f87c00eca29a81b1dbede51 -> 6d2fb05e7afabd02e397fe6e25305a1e4995683c5885daba440df23f0ec124fc
+~ _WeightInfoForSingleLineSingleWeight_6x5 : 100 -> 96
+~ _WeightInfoForSingleLineSingleWeight_7x7 : sha256 2c57b0bcff15d89e4f7019346a4c3be8b680f91c51017fb0e986ef4625cc5bd9 -> 00bd66f1c12dc32f5e8868edd1625ea0c9aae79c31cbac111bad6c1bcd239d4d
+~ _WeightInfoForSingleLineSingleWeight_8x8 : sha256 463a7ae3161d94450e0f3d62c32e85e89692bc1f26bf2aa97a408e15ed643fa7 -> e35bffe0bf7d50b49d23d95ed753819d72e27d84d937f9aa7b1fa9416c5ff97b
+~ _WeightInfoForSingleLineDualWeight_6x5 : 100 -> 96
+~ _GetDualPartitionBlockInfo_6x5 : 112 -> 108
+~ _GetDualPartitionBlockInfo_7x7 : sha256 e727c3ae3489cde125d6e8a7f68bae4252d34bce122d8bfcf4a051143ef0fe62 -> c4472eee1e5dab5b84bcccaf7606ce898f99b16ab26d61cddc37ed8dd1791919
+~ _GetDualPartitionBlockInfo_8x8 : sha256 a6d63b00ed70964fac3708e0688009a43f28c107e8615b001595af9b9259c1e8 -> 539c79d1ad8b7a0a88392d08649d9022f4bf65841e6fcdf15e6f8ddd08d9b7b7
+~ _GetDualPartitionDualWeightBlockInfo : 112 -> 108
+~ _ConvertSRGBtoLinear : sha256 d4d016f248cde293930de73541d06905e72bec4649b95192819b6f3c21f3f4d3 -> cd234a1bb35a7ce5b7ec97ad6c63d28a185ae4f6896bd4cfa7bd92c08ae8bb4a
+~ ___clang_call_terminate : sha256 00e6bdf9c4f24b5aa0fddf4536123395adb6c6ce581b138db50a4ee20dc38649 -> 2f8746a829593257ec730d9f125e2c1a4cc5c95e68216e1321330f49ad687e50
+~ __ZN11ASTCEncoderD0Ev : sha256 5907988e2acecf74b7d812042f42216cd52a8276724d7bf67da448e4f11e0d45 -> b897fed005e7a8d04912538476607396091fa83cd1bc1cac9d67fde137498790
+~ __ZNK11ASTCEncoder16DebugDescriptionEPcm : sha256 3594478be101d94acd3e391e7f606032eb7d58fc5aefec5fb8b4f94d68263278 -> 77914c3ae122be38d73c8841c032c5c38e914f9804b0404449c9453164793671
+~ __ZL15memset_pattern1PvPKvm : sha256 6e02777d3aa10dcd6aaaa5ebe0aa397fc5fb5c2fb106c8422b37e88e40c5ec1a -> 6ae56658e88cb7e5617e41d2b1a68d42a356c60c6f66d3934661e4d03492bc52
+~ __ZL15memset_pattern2PvPKvm : sha256 b9d0529c79d36f4b94712e30ac12b5f45c3ed910d31677680087a831f00e193b -> 3f4c5ff4e7f6259967aad5ae240e544d56f07786d131c92df8b803523833e727
+~ __Z10PrintBlockPK9Block_4x4 : sha256 8c94b206d8a233a4cd691bf8cb4460779b80567ff9a87d9729a7411fc2f81184 -> b4fb4c3c3b5ebf72cd2825f35eb2b020dd68fc39cc581395b74df86a9c2c9e14
+~ __ZL12print_vectorPKcDv16_f : sha256 8855c97a8b6c07ccfd1704ca86cfb07b95a92cfddab55d3533ce4348bf7f5328 -> 590caab11e57004b357895545b58dfb14ebf83159c7cac2ba4be409cb72848e1
+~ _at_encoder_set_capabilities_mask : sha256 0602640a9f37f6da67504f538bcb9f8b4a7948d52842df758a83fdad14f928dd -> 8ccb0564121f854c062e3b239de9b296a860319aab0c40f735730d5e3e7db7f0
+~ _ATEncoder_MakeCopy : sha256 42da4b546bbc4da26687fb317b1f76be540dbcd229ab800c68e7c755a752038f -> 347f408368ca2ef3febd3ab0225d28d45c975cef3f82fc2aff2e82c818d9739d
+~ _ATEncoder_GetDescription : sha256 6093cbab4baee163c1373b127767bce414cbf6833d872d9aca497cc21789429d -> 7d17e01e50ec6ae018a2da41fa78bbbc14eb09d3263ce204731f0ffb2190d40e
+~ __ZN11NULLEncoderD0Ev : sha256 fc733988c8f3d9061bb9d59d5964263d7a174ff65a4742f044492acc7b61b574 -> 1198ed91cb7e56df0fc8f3911c5fff15ed92c8d4253b7faf50250ccba8fe7f0d
+~ __ZNK9D3DX_BC6H8RoughMSEEPNS_12EncodeParamsE : 292 -> 288
+~ __ZN9D3DX_BC6H6RefineEPNS_12EncodeParamsE : 784 -> 792
+~ __ZN9D3DX_BC6H12EndPointsFitEPKNS_12EncodeParamsEPK13INTEndPntPair : 768 -> 772
+~ __ZNK9D3DX_BC6H24GeneratePaletteQuantizedEPKNS_12EncodeParamsERK13INTEndPntPairP8INTColor : 576 -> 588
+~ __ZNK9D3DX_BC6H18MapColorsQuantizedEPKNS_12EncodeParamsEPK8INTColormRK13INTEndPntPair : sha256 f7ac15a4d6a486deaf80bd403ac20331c71eae61a735ab67727518178f173577 -> bfe2579d7b5c3964b6578be14d38654c3bfe0c2a6ca12dccf996aa82c2cdda55
+~ __ZNK9D3DX_BC6H10PerturbOneEPKNS_12EncodeParamsEPK8INTColormhRK13INTEndPntPairRS6_fi : 476 -> 472
+~ __ZNK9D3DX_BC6H11OptimizeOneEPKNS_12EncodeParamsEPK8INTColormfRK13INTEndPntPairRS6_ : 436 -> 380
+~ __ZNK9D3DX_BC6H17OptimizeEndPointsEPKNS_12EncodeParamsEPKfPK13INTEndPntPairPS5_ : 272 -> 268
+~ __ZN9D3DX_BC6H11SwapIndicesEPKNS_12EncodeParamsEP13INTEndPntPairPm : 196 -> 184
+~ __ZNK9D3DX_BC6H13AssignIndicesEPKNS_12EncodeParamsEPK13INTEndPntPairPmPf : 456 -> 436
+~ __ZNK9D3DX_BC6H14QuantizeEndPtsEPKNS_12EncodeParamsEP13INTEndPntPair : 748 -> 756
+~ __ZN9D3DX_BC6H9EmitBlockEPKNS_12EncodeParamsEPK13INTEndPntPairPKm : 476 -> 472
+~ __ZN5CBitsILm16EE6SetBitERmh : sha256 cc41b4ae9397e190ad51cac0b455c6da26720ab1c95291c47c4fc69d4de38a92 -> 9d3bdde8fc750f7366adc347823f12373f9b92a0151fc9bcb8910fb4f4ab6ba5
+~ __ZN5CBitsILm16EE7SetBitsERmmh : sha256 de88096f0110da61385acdf05aec883510368255688b574002d69acff82a79da -> fef8a190a9f36a1a5c92f5580c6d6d015e7ae738036a86784bcb38f7dd935dfc
+~ __ZN9D3DX_BC6H26GeneratePaletteUnquantizedEPKNS_12EncodeParamsEmP8INTColor : 244 -> 256
+~ __ZNK9D3DX_BC6H9MapColorsEPKNS_12EncodeParamsEmmPKm : 336 -> 332
+~ __ZL11OptimizeRGBPK9HDRColorAPS_S2_jmPKm : 1156 -> 1172
+~ __ZN8D3DX_BC76EncodeEjPK9HDRColorA : 1508 -> 1520
+~ __ZN8D3DX_BC78RoughMSEEPNS_12EncodeParamsEmm : 2580 -> 2520
+~ __ZN8D3DX_BC76RefineEPKNS_12EncodeParamsEmmm : 540 -> 552
+~ __ZNK8D3DX_BC724GeneratePaletteQuantizedEPKNS_12EncodeParamsEmRK13LDREndPntPairP9LDRColorA : 336 -> 340
+~ __ZN8D3DX_BC710UnquantizeERK9LDRColorAS2_ : sha256 945b78fa6dda0a718d8c7aab01c3bb693372f449dd6f60fab92ad4593655fcba -> 590e8a49fe3bc780a5649b2a3468f16aa4f2aae407a5f018ae78ae398f1c52ac
+~ __ZNK8D3DX_BC710PerturbOneEPKNS_12EncodeParamsEPK9LDRColorAmmmRK13LDREndPntPairRS6_fh : 376 -> 380
+~ __ZNK9LDRColorAixEm : sha256 b0a8523779472c1b5fab324cd1d93c0eec8dc048e3f70d1f41fa7e9f6eaca26c -> a30dcf14c27bbbd2070bb59972ee31924f237f99cc83d481b0d4daba2ef83f54
+~ __ZN9LDRColorAixEm : sha256 3b6207abfc89ef94a27e36a5295a262487fd8854c0d1cfbcdcd3d59c603dbc57 -> c1c2de9af31cb4b947420ddb113d15e2665e18608e66eb65a36b7edb6464d16a
+~ __ZNK8D3DX_BC79MapColorsEPKNS_12EncodeParamsEPK9LDRColorAmmRK13LDREndPntPairf : 252 -> 276
+~ __ZNK8D3DX_BC710ExhaustiveEPKNS_12EncodeParamsEPK9LDRColorAmmmRfR13LDREndPntPair : 736 -> 740
+~ __ZNK8D3DX_BC711OptimizeOneEPKNS_12EncodeParamsEPK9LDRColorAmmfRK13LDREndPntPairRS6_ : 676 -> 680
+~ __ZNK8D3DX_BC717OptimizeEndPointsEPKNS_12EncodeParamsEmmPKfPK13LDREndPntPairPS5_ : 292 -> 284
+~ __ZNK8D3DX_BC713AssignIndicesEPKNS_12EncodeParamsEmmP13LDREndPntPairPjS5_Pf : 788 -> 736
+~ __ZN8D3DX_BC79EmitBlockEPKNS_12EncodeParamsEmmmPK13LDREndPntPairPKjS7_ : 1172 -> 1188
+~ __ZN8D3DX_BC716FixEndpointPBitsEPKNS_12EncodeParamsEPK13LDREndPntPairPS3_ : 980 -> 992
+~ _encode_bc7 : sha256 dd98bac6a2fd4884aa6c87c5f50f5c22a13414b5bb8b6b53dfb4d238691011e6 -> 6ca86bd3e0a43a8b9c6145181d9dc90af9039f190ff6dde060ee6cb83d3591d9
+~ __ZN8D3DX_BC710UnquantizeEhm : sha256 fa341896b50a5080c4509fbc5b626832c0e4fe55616434488da90c0728797b40 -> 837d89fe144f10fd5e2f24bcbdfb4ed5a6eb9d440081e29bc953ccee3489572f
+~ __ZN8D3DX_BC78QuantizeEhh : sha256 d49b9ec677af3f19b96122f2c7f4ee3f8f4c0cf90b2257f87c2d9dcefadc0393 -> aff90eba7a0bbf5479961889f1a7954b22aae1c990c312f45d676e678de8a33a
+~ -[OS_at_encoder debugDescription] : sha256 ea6735d7df0364d83e0de08a76b3e90de3eaee5172b9cae74b10ebae53ad354c -> 3a05572295e70365ca950489390195a8c42caf9065e6c66cb3b5ba85e8f7a594
+~ -[OS_at_encoder copy] : sha256 89a9a4ce597c53fff6d9cbbf9a736c416fb42b6ba4c5642bf283969378c32d6b -> 754068a390fa5e96b982418493f01373cf9c7eac1864adb45535a65f7ed7427c
+~ -[OS_at_encoder isEqual:] : sha256 fbdcc81b229141d9e3accf58b5412237a843b43eea85cb62892821280fad00b5 -> caf4a1b3586f400e53237fdbc3d05bb07d58b41a3b32558339748d4fb9ca47a6
+~ -[OS_at_encoder hash] : sha256 b8722c78db1fe86e0c15bee563a620eba53771368e843c1db5ca9a54f4594bac -> 1af3b9813fd6989bd4d73f33b9b92ac68538a2557e590f48081f510c816261df
+~ _encode_bc4 : 172 -> 204
+~ __ZL17FindEndPointsBC4UPKfRhS1_ : sha256 1ec9f0cabc8de685d7c238955c9bd203421e165159365558f939f753fa2cd434 -> 72d34756959c08f2c8ccf6315c2f9513b55852ecf85b846ce59478072bf56754
+~ __ZL16FindClosestUNORMP9BC4_UNORMPKf : 256 -> 244
+~ _encode_bc5 : 220 -> 244
+~ __Z13OptimizeAlphaILb0EEvPfS0_PKfj : 664 -> 660
+~ _EncodeDXTC_BC7_vec : 14344 -> 14336
+~ __ZL22FindDualPartitions_4x4tt : 408 -> 364
+~ __ZL32EncodeStandardDualPartitionBlockPK9Block_4x4fP31DualPartitionBlockEncodeData_DXPK20DualPartitionPatternt : 9048 -> 9072
+~ __ZL21CheckPartitionRow_4x4PDv4_tPDv4_iS2_PKS_PKstt : 420 -> 408
+~ _Read_4x4_BGRA8_vec : sha256 42da1bea92469bfcf282520cd84fc8769a3167f187302e2a94a6043c41b02b94 -> 4af577e1e73ad9c7c4fb264db8dc509a824fab3b99036ec04922b0c8dcbc896c
+~ _Read_4x4_RA8_vec : sha256 10523f4179489a00411245ebf3be9995d078c54459a3d512bbce8a7740e7eb27 -> b8cc75361f161f9bc07572902194f712c60237bd41425490254b10b48c05c2d1
+~ _Read_4x4_R8_vec : sha256 247ded80768e1075d20872fb2cdba55d1041d03942773e7ce0df05aee1371ec5 -> f14dccf500eff8d479f89a6176be2b3c4932d85427e1e035e549e5a2b6e2eb2a
+~ _Read_4x4_R16_vec : sha256 25e3110f9f90eaba414d1d8047a8ec0f53b7401ffc4588347758bcdc35619ccc -> a919c60d8d879ef5cedebd37ec12cf508c7d3465f22529475eab89b7243f8c78
+~ _Read_4x4_RA16_vec : sha256 ddc6ab6deb9d3efbcdd74fccc8e1a2a47033a868a6d4c2cf005be707a6b5ab97 -> 0043d70650f4ea37c2482284791c43eb72b14434f4cd7087fd623ea82a140775
+~ _Read_4x4_RGBA16_vec : sha256 735a63c445bb3bb4f5d000b91b047a68f0867a776b6936e07148c83f20956ecf -> 06143e04cdc96bcee358b549c20d7ef9b919cfefde0cf1034931c08078cc5e6e
+~ _Read_4x4_Rf16_vec : sha256 e44fe30034b7e83255b7acea1ab17714e66aaad433218afc6bb4dab1068e1c24 -> ff3c50b533dc9a0f5a2a598d869318370dc271fc5aff075cbd7a59c2e8421850
+~ _Read_4x4_RAf16_vec : sha256 25a5288cd15b1f794018d89d2917f1650298e32c809f4bb3087e1c611a3b79da -> ce2a4d6dd012a11289fc3dd8130a48c64eea664482b189882c1a5392be37cc5b
+~ _Read_4x4_RGBAf16_vec : sha256 4826a720380d2ddc6ca5e0279cb8a42fd277ea45161b4ebfed55d95265f4a667 -> 063fa124ce7a04147ff2bb0dcbe448d12be86b7813132dfe777f69da2b464d6b
+~ _Read_8x8_RGBA8_vec : 304 -> 332
+~ _Read_8x8_BGRA8_vec : 304 -> 332
+~ _Read_8x8_RA8_vec : 268 -> 304
+~ _Read_8x8_R8_vec : 220 -> 256
+~ _Read_8x8_R16_vec : 216 -> 252
+~ _Read_8x8_RA16_vec : 204 -> 236
+~ _Read_8x8_RGBA16_vec : 264 -> 292
+~ _Read_8x8_Rf16_vec : 424 -> 460
+~ _Read_8x8_RAf16_vec : 316 -> 344
+~ _Read_8x8_RGBAf16_vec : 296 -> 324
+~ _FlattenNon_4x4_vec : sha256 db985937cc300f1f1cd2f9951f85a6f0f57e2da119469ffc6c5aec0b1b284d68 -> 21ab18cc878d026cefd774e57488304a6f73d566d9a1c9f71e4af3eb3a2bd3fa
+~ _FlattenPre_4x4_vec : sha256 f9b4aa1aa2b2924c020e0fb7134bcb583e52a09f3ccaf3b5b04b787a7e9a0f46 -> 831d7565164521c2bc98718cd43e9be35f8d8b34ffe7cad5e9e198569c459af9
+~ _Premultiply_4x4_vec : sha256 1f0e348ececc8ad17e275ba1d361a98c09855ba906226d606a30a967480d927d -> 7e35873bd13bea1a937e5c5dc42d5c328fe1c7a3ec8ec60826a1c46b799c932e
+~ _PassThrough_4x4_vec : sha256 28d6418c7926841c0680a6b84e8f7c97b6283fffdf73161dafd922388d85a07e -> e2d8149a1785df394e52d124667f1addbd03082dd1bc004e70a663315ea14911
+~ _SetAlphaOne_8x8_vec : 768 -> 844
+~ _FlattenNon_8x8_vec : 916 -> 1020
+~ _FlattenPre_8x8_vec : 928 -> 1032
+~ _Premultiply_8x8_vec : 788 -> 892
+~ _Unpremultiply_8x8_vec : 724 -> 800
+~ _ClampPremultiplied_8x8_vec : 752 -> 828
+~ _PassThrough_8x8_vec : 680 -> 752
+~ _Write_R8_vec : 156 -> 164
+~ _Write_RA8_vec : 172 -> 176
+~ _Write_RGBA8_vec : 112 -> 116
+~ _Write_BGRA8_vec : 140 -> 144
+~ _Write_R16_vec : 136 -> 140
+~ _Write_RA16_vec : 156 -> 160
+~ _Write_RGBA16_vec : 88 -> 92
+~ _Write_Rf16_vec : 772 -> 768
+~ _Write_RAf16_vec : sha256 3733d60baed9694320e5f8ba68b6df66a512477dabc05061a83b2901fe0716dd -> 023ff5829206caf1d133f0f1df9162247ab778c6899b93d1044920902e87c9ef
+~ _Write_RGBAf16_vec : 188 -> 192
+~ _FlattenNon_vec : 224 -> 220
+~ _FlattenPre_vec : 292 -> 288
+~ _Premultiply_vec : 212 -> 208
+~ _Unpremultiply_vec : 236 -> 232
+~ _SetAlphaOne_vec : 64 -> 68
+~ _EncodeASTC_8x8_RGBA_vec : 71476 -> 72856
+~ _PrintColorVector : sha256 7838d88e9f71f23094b2752a0f45b59626dcf2ec48edf5d73231e9c82ede6d8c -> f22ec4f14407ab1ef8e63c116863f831cc37ff29fc09d558c1336f5e239004eb
+~ __ZL23vector_index_of_maximumDv16_f : sha256 4f002903b23bfaf431b201d757fda389d4f776a817a9146e0e44a39276f4bc22 -> b5a51c503c3ed117026af5855b22d4aa8d6c3ee079de16f2a6841992d9518d6c
+~ __ZL11PackWeightsPK14ISEPackingInfoDv32_h : sha256 6e917919851d67442c9f9939867274d08e8f85177cf5abc8d4f6561769aec529 -> 573076ef5dd7003600a9bb33ef071c535b67317666cc91fb96f773d50a48b8d0
+~ _FindQuantizedColors : 4136 -> 4148
+~ _at_texel_format_to_MTLPixelFormat : 28 -> 24
+~ _at_block_format_convert_to_MTLPixelFormat : sha256 06a9d4ee38e2db3c4a2a9fc15403f482f7a00ac33d45deef1778961de45892c7 -> b5cc764fb5565d7608a0fdbb419658a91a7a1d760e37e4691027be4b5b04ceb1
+~ _at_block_format_to_MTLPixelFormat : 28 -> 24
+~ __ZN11DXTCEncoder22GetBlockFeaturesStaticE17at_block_format_t10at_flags_t : sha256 a98ec7ec62e8265cbedb676045ac9a71f404e2fd5eda643eade3f53fec5e6dab -> b5f4904b9bdf69b0761cf6f6386774a399ae8b436b3da9455252b4d652f9d000
+~ __ZN11DXTCEncoderD0Ev : sha256 ec3fb252e7fb783f9280be876e4465d7899e41e75da8f2a09efba349c9d48f39 -> 316cf5c78e9f12195a0286513ecaa08c990420319013e878f5abef8d1c543a47
+~ __ZNK11DXTCEncoder16DebugDescriptionEPcm : sha256 df5eed26dd05dd490bccd23cab6be2d22167db90a9b4cb62f7206356bd029921 -> e20aa69b4a10804d62ea78916da5c8748dcb17f8edda331afeb40cc93b909a9b
+~ __Z17EncoderCheck_DXTCPK10CommonData : sha256 c8ea79f75d9d8ab7af68af85e59bd47df767f99fb5b8b3f27145ed73aa1732af -> 5e0a2fb7ddf4e4b159597bc0bb80039137bfd03b0845d4180fcb3fa0fdcdd609
+~ __ZN11DXTCEncoderC1ERK10CommonData : sha256 8829b006ffee794bcff8a79f6c0c66642f6ca32c4143b071dbe3bf73295a0aac -> 809fda77209466437a77cf8d95e31a343c9e6350c320d0e2148cad0678d89423
+~ __ZNK11DXTCEncoder12GetBlockSizeEv : sha256 d46aa931643f8d13a406112885f337ea4fcd77f833e8785c6468ce701dd21dc8 -> 142d357b4973fd29a99890511d4cc4f9b2ee82addba27125b5b5719a6b2373cb
+~ __ZN11DXTCEncoderC2ERK10CommonData : sha256 a6494a7a433a6eff35cce74c25958faafb218be20e26b6a66990e4aec6c20211 -> 965275813ed8773251132e798858fa0acdbc440a9dcd992b3b1e71800005453b
+~ ____ZN11DXTCEncoderC2ERK10CommonData_block_invoke : sha256 92a4eb804b41ead5d74ccd55a01b95c57a6479b23175a0a67b8fb254853136f8 -> ee9b221c1d37a93dbc13978906b82458275c8f0da708a9e5b7e77cbfcd9eb283
+~ __ZL15memset_pattern1PvPKvm : sha256 b9778355a2b7f18516bdb5693806d0665f11b9cf05d86e7f2e87093fe0b70165 -> 2dba2e86b109192e7fb5fef6ee0239434277b8c71f662fa3fc8d7de6f0c20e15
+~ __ZL15memset_pattern2PvPKvm : sha256 8d4e8857758c628312a27d182ea29e8a1ff22d25d64268b95fb60516afc5cceb -> 2f68dd0070085c764939b2f765711d060a7c321eb101d0940fb7c68b904e8d8c
+~ __ZNK11DXTCEncoder14CompressTexelsERK17at_texel_region_tRK17at_block_buffer_tf10at_flags_t : sha256 60ab49f1ffda9a9f6819b09947cea14323b4befd90a7ff913143817caf176f2c -> 9a073e03f83037f69ac965ea7395ccdbf620440bb520ec9b27118d9c4a0407b8
+~ __ZNK11DXTCEncoder16DecompressTexelsERK17at_block_buffer_tRK17at_texel_region_t10at_flags_t : sha256 c022903bebdb4faf34c8ef60b512d17f2bf66bcb50ffbd0b9f040f74d0ea75c6 -> 600eec6608b801f392be07af400ec8c62399d64323fe9ce103260ad51a5f4d13
+~ _DecodeIntegerSequenceEncoding : 688 -> 720
+~ _decode_mode11 : sha256 70bf5eea8d1276d89f5e5b8ad3ece370954947e79a79ffb9cdff95d1441509bc -> 9885f67b56f72cb1f0073da3386c3afc4ea4043b7759acb02f6ba58016a4c257
+~ _encode_bc1 : sha256 42f3896beb19fe819e7c42645b7916ebfb66b5fe54fdcba277df67b301f3dd54 -> 653681fffc60523f204bac171d5cc275f39e8ea0376d1b921f8ede14204c585c
+~ __ZL9EncodeBC1P8D3DX_BC1PKDv4_fbfj : 2224 -> 2236
+~ _encode_bc2 : 228 -> 232
+~ _encode_bc3 : 940 -> 952
+~ __ZN9LDRColorA14InterpolateRGBERKS_S1_mmRS_.cold.1 : sha256 2a5a12fe1123ddc7928cec661a3fd52a7cd984de2931ccadda24c654d36ff25a -> 7aca3168cb5c76259dbcc8a1799bbebc6718f9818e21033ea619a7132f1ef6e6
+~ __ZN9LDRColorA14InterpolateRGBERKS_S1_mmRS_.cold.2 : sha256 8de9d8df48a5b1e8b95a5fc6fc8eae5f45ae267ffdfc339b8b718eabe0221df1 -> ff86ecedcbd23be33a4f3a01445fb1856f3448343e757fcb75ca456617eca148
+~ __ZN9LDRColorA14InterpolateRGBERKS_S1_mmRS_.cold.3 : sha256 6cdbf6db5843118fbf0afe24c596615c25b4fc79f8b180707584155bd6d46d9f -> 5a76eaca4ea9cbfdf6d757914962e369eed8d5ef330383ea1994c0617d30803b
+~ __ZN9LDRColorA14InterpolateRGBERKS_S1_mmRS_.cold.4 : sha256 5a72e2e4dc77fff2abb14c6baf592703dc82e91a93086c14afd605a25ff350ba -> 97aa286f6ae75e312b9d83ab764797c3822249f5615c64e8109d724a109cca2e
+~ __ZN9LDRColorA12InterpolateAERKS_S1_mmRS_.cold.1 : sha256 3b08e0a7448fed6c08cd6917e0ec8a67dc21b77134508c31442018a0094f2df7 -> ce21fd679c62be3c7616f0ed70eb4f753413cbb0562383ca489b36f9a161597e
+~ __ZN9LDRColorA12InterpolateAERKS_S1_mmRS_.cold.2 : sha256 cb112a02513b6b80c7a78fcd9e49502ef993da8915364f04d3a8b7d9dbdf50b0 -> a2cb8bb6e6cd99dafbeff92f6caeede3c4dbda86bc1f3c7e1423431da06e4e8a
+~ __ZN9LDRColorA12InterpolateAERKS_S1_mmRS_.cold.3 : sha256 7edaae374b7826b9b713d3a0de6c116545a4dc1d702b39ba53bff1d59cffeec6 -> 3162709c94ef4ca6de3ea1449481bd6a319d38046cb3466f52e1d98dcf3160ac
+~ __ZN9LDRColorA12InterpolateAERKS_S1_mmRS_.cold.4 : sha256 763170f374e5030085cff882711c4cb1a364dfebdc678019d90189d34eb40208 -> 14d4e2c05896833b35adad0f1802412dcd6a984df61377f26aff0400be4d67bb
+~ _encode_bc6u : sha256 e1dcb4354eaf45bd83b5097e1a5e361446738c02a6bf6b2bf2ccd05224b92b17 -> c2f4e6ea1b9c85ff0578238fd2846d1a2fb848e34d1544d3e92311ea51a565b5
+~ __ZN5CBitsILm16EE6SetBitERmh.cold.1 : sha256 91ab2c8dbbd88de9b1042698add4672ff0b9d3a629cf462d978951d30e66247e -> 0a1a2ca28b5688b9dc86501abdb32f7c7aef175eaf9b094076df4e629b5402ac
+~ __ZN5CBitsILm16EE7SetBitsERmmh.cold.1 : sha256 4b5ac7b98d96a58141efbe5ca00c88f4bdebf67d9dadaed47d3b8e9cda1c7b0d -> 0c2d554c3248608d34d72fba2620cdbe1e1152ac012ed9cf83d87c8e764b680f
+~ __ZN5CBitsILm16EE7SetBitsERmmh.cold.2 : sha256 ed2bbb567e468ac8eb71d62ca3cde93daf23add0489d2f2e1bfa8f0fe8cc7a37 -> 2418fff4526d982dfeaa3f01ab9bda4637ab2db90cb30e2269395c5ebed41baa
+~ __ZNK9LDRColorAixEm.cold.1 : sha256 509d5b8f7d699ade5c27f51502ebbd5652653824dddc58597f01c59a6c0b0d25 -> 5bc9479a3cf6a76b93f693d9552e7ca8297e79e41b40c434aa7b0b46f13a2b08
+~ __ZN9LDRColorAixEm.cold.1 : sha256 4fd7dbf1c4ad974800cd3a67ea1b8b7d875693014f41e3d17a422e74d40c710c -> c4f60d3ca60c8497140ecca8105122562d4c628df8e09b1f95149dad4b2a1ac8
+~ __ZN8D3DX_BC710UnquantizeEhm.cold.1 : sha256 8a0b454e58662372a42dc098a188d131f8519d89ffcd76798cd534192dbae139 -> 1d930c145fd79c9309c8240aa1fe0bcdd7a5baa857145c0fd0a74116201172e0
+~ __ZN8D3DX_BC78QuantizeEhh.cold.1 : sha256 f22b54e5aa9f6ac48e4eda3d972da94483b8a549d5a204ceb7d1b15e5a9d20af -> b4c0c84b4c82b2f739e8377bed342314e24057c011e9734b1ef1f4c700b8ff75
+~ _Unpremultiply_4x4_vec : sha256 a0c61c5275cc3f09335df315b6d75c49f4beebd3111d03a3fa0b463204d855d4 -> 8ff4a4ab423a2754133129eafc4019c72f608a3df61c8fe20f7f5c29c2351f6f
+~ _Unpremultiply_8x8_vec.cold.1 : 200 -> 232
+CStrings:
++ "at_block_get_features Error: src->sliceBytes (%lu) is less than what is required to store a slice of content (%lu bytes)\n"
+
+```

@@ -1,0 +1,201 @@
+## AccessoryBLEPairing
+
+> `/System/Library/PrivateFrameworks/AccessoryBLEPairing.framework/AccessoryBLEPairing`
+
+```diff
+
+-1176.0.26.502.1
+-  __TEXT.__text: 0x6cd0 sha256:d42a85e0ec1528845a0fc7c97e3327dcf389a3ee6185a039ad113a715716309c
+-  __TEXT.__objc_methlist: 0x534 sha256:fa9e90925f05918431ca2039bd6a6302857182c4d22b7d5430caa01adbee4f23
+-  __TEXT.__const: 0xe8 sha256:6aaa5e6a6818d890703969cfc7ef3439aeef9ec41f7ef3d7aae72ade514ab300
++1196.0.0.502.1
++  __TEXT.__text: 0x7000 sha256:08dba82da80d47a9f92bca7ab5a89f837f66c1cb8f6c363c0b95744de3963b9a
++  __TEXT.__objc_methlist: 0x564 sha256:d52966fe747727a3441a80b1c02f7229b1db6295c34eb2ba22c27a4f44bd3df8
++  __TEXT.__const: 0xf0 sha256:725576e212db55aa628d92ee5af1b9567a2b294efb3f96240b5839c759b19713
+   __TEXT.__gcc_except_tab: 0xd0 sha256:10f9956360f744c87eb8144b75e03e6b2ab8f9c6bb51a25311e6a8545d975d5d
+-  __TEXT.__oslogstring: 0x17c2 sha256:e94b798aac1f646736098a0edc0055f287ab620c244a8a5764c55a3f891646dd
+-  __TEXT.__cstring: 0x713 sha256:653280654a53c506f461e59239b2567382e222f2c14500ed6de6f36404f17640
+-  __TEXT.__unwind_info: 0x160 sha256:5bb7eb2a5af6290133c2e058df2be4305c99cf85c1574cc74cb79b9b43bcad01
++  __TEXT.__oslogstring: 0x1915 sha256:2a91de22fc13900003d865dd93afe7be6857b23c3a79659f268bded57805ec40
++  __TEXT.__cstring: 0x767 sha256:4e567f28bff73e3c85cd6c12f9a641c4234ff64e5ed047343546264d00ade5d8
++  __TEXT.__unwind_info: 0x160 sha256:59e64d8bed3b2fc34e7e7c327b4d6a74fdf63e48a2a674382f336c59ee455855
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x288 sha256:8f24e219e94b3a1af621286cfe15bf55ed03ccf9f2dfc2242797f5f79f80e8ea
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:7ff9ceee9b3b3a5397c08e061af8c5cbaee94fa1817f337dbe9822faffc9c7dc
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:b00dfd49f9f592b4026cb0f120e81e55fc1879a5892608daf03d93c7945a115f
++  __DATA_CONST.__const: 0x288 sha256:340fcd05da1ac8d9e1127846dd14a046c7b9eea3a76a2f1a49d9873ce9e33ce6
++  __DATA_CONST.__objc_classlist: 0x20 sha256:0054ff10e6b616561d9ffacbc97f105ce78435c7ae94f0c4d2630a986aa07bbf
++  __DATA_CONST.__objc_protolist: 0x18 sha256:bd2065fefab0f393733b2de9e54dff1d02ed03b752f19ea162973b12d6ff5376
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x368 sha256:aa70a3135f85a1ed407b4cc5922ab6d9b0d81c5e2d99b6e1c9dec8daf396b597
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:3220f88abf41611958270ad9fba2598d03c6f74579953dacab3e5829e790223c
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:843644154e48bd4626ce1f323d95d9596ed94e248e51164e415cfb4ebd45c531
++  __DATA_CONST.__objc_selrefs: 0x378 sha256:5bc14216c732bc0a659755e970591d722a09d009ece84cbe73fdf38b99aac598
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:1823cd286ec9efe20d78e392f39ee050e299f6076144565feb6afd16cc931e2b
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:b14003e357c51a4c5afd66304bc165aba4531896516b9a96c4ea69b9cdd03c4e
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x80 sha256:41292e520017db9c23540e27e41a07719bf567b1a94b947cac2c50f52f086322
+-  __AUTH_CONST.__cfstring: 0x380 sha256:0389c9c7c26f107642acbc008f6574a4ed52a3b7ea2882e5d03e7115fc4f2b8a
+-  __AUTH_CONST.__objc_const: 0x770 sha256:030fca7d5d639abf34a112694a678d284526f47610d9833d2672c48c4b7b5522
++  __AUTH_CONST.__const: 0x80 sha256:40988a549170124c4b0f0818d22ee5439131eae99393c2e004637ee36b212bea
++  __AUTH_CONST.__cfstring: 0x380 sha256:46e60d9467b93eafa86817e8344ab27609cda6934664738734c6484ca79abd87
++  __AUTH_CONST.__objc_const: 0x778 sha256:895ee9d5ed9ef1a94e303787b9d340fd66efddabefba1cc30c002873e7a84a26
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:644f423006c63d132b995dfafb0781ce869616de47167f4b4972f750f5f78120
++  __AUTH.__objc_data: 0x50 sha256:f20cb5e7adfab442921af1db27f5e072171d845a68e61e3a87eeddd94d9cc648
+   __DATA.__objc_ivar: 0x48 sha256:5954eb19abacbf851170810e318f450c0c2de598c4d3ae6e9b01501e5c29e23d
+-  __DATA.__data: 0x120 sha256:f76b56df8d10392c1645e3676f0efac2cde2937b31cf491ad5900c36c8dd60ac
++  __DATA.__data: 0x120 sha256:9eb249302d693ef6939c4512c550bc3d20cb0619249816d0c03c93555282f642
+   __DATA.__bss: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:28f250e5efc736f461e7e6df8f70e745705f7d4137c36f6590b2e3402a79b8e4
+-  __DATA_DIRTY.__data: 0xf8 sha256:b6332bd876303f70ae8e5abfe9b78fc96ae469b046b951449e1751c03768dc3c
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:12240237a2352d0c80ddccf749dd7ff13edcc8eb22375dc7eeb36f4c1401a0c8
++  __DATA_DIRTY.__data: 0xf8 sha256:54ec9b03e991d2b2233b70c40810cee1ff1550c6e87e94bab5dfb5c1157024b9
+   __DATA_DIRTY.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   __DATA_DIRTY.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A6F25EB5-0CBE-3375-9B5B-C1D7B63C3574
+-  Functions: 115
+-  Symbols:   635
+-  CStrings:  172
++  UUID: 998DE3B0-AA2F-3EA3-959F-C4893AF251A9
++  Functions: 117
++  Symbols:   649
++  CStrings:  177
+ 
+Symbols:
++ -[ACCBLEPairingProvider updateResolvedAccessoryBTAddress:blePairingUUID:btAddress:]
++ -[ACCBLEPairingProvider updateResolvedAccessoryBTAddress:blePairingUUID:btAddress:].cold.1
++ -[ACCBLEPairingProviderInternal updateResolvedAccessoryBTAddress:blePairingUUID:btAddress:]
++ -[ACCBLEPairingProviderInternal updateResolvedAccessoryBTAddress:blePairingUUID:btAddress:].cold.1
++ -[ACCBLEPairingProviderInternal updateResolvedAccessoryBTAddress:blePairingUUID:btAddress:].cold.2
++ -[ACCBLEPairingProviderInternal updateResolvedAccessoryBTAddress:blePairingUUID:btAddress:].cold.3
++ ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.155
++ ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.155.cold.1
++ ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.156
++ ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.156.cold.1
++ ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.156.cold.2
++ ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.160
++ ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.160.cold.1
++ ___block_literal_global.159
++ ___block_literal_global.242
++ _objc_msgSend$length
++ _objc_msgSend$updateResolvedAccessoryBTAddress:blePairingUUID:btAddress:
+- ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.152
+- ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.152.cold.1
+- ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.153
+- ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.153.cold.1
+- ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.153.cold.2
+- ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.157
+- ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.157.cold.1
+- ___block_literal_global.156
+- ___block_literal_global.240
+Functions:
+~ -[ACCBLEPairingAccessory initWithAccessoryUID:blePairingUUID:andAccInfo:supportedPairTypes:] : sha256 03e07bd9f30c18dd9026a2bce33726cd47756072121b8d597ff0ded41b1fdfcc -> 4d4c418d89476c04582dfef11064ea410f369c75abadb712cd9531542e733c55
+~ -[ACCBLEPairingAccessory setAccessoryUID:] : sha256 04518a4c7f1b3c53970600f3fb418fe3463f59d7f94fc00ddd66b604eb86655b -> c6c116fc4f28ce3634a4cb7702fd02fc681dd169d14a6adf518f81fc889b1a59
+~ -[ACCBLEPairingAccessory setAccInfo:] : sha256 1198945ef524c99b4a03f3a71400e13069c1d8e4ddc59cc6033d8bd7c4d075de -> 7e536ef5a1c6d3f796adeb925eddcb7fe40c6825aadaea0bd47953277d604a83
+~ -[ACCBLEPairingAccessory setBlePairingUUID:] : sha256 8fc601cb5d4e2ade9378769a7be624de3f8233ad0a9a2f17af1abede6a43f35c -> 2189fbc47c6caacd173fc888d6a5a5660ad60b62e5d4c7b17e4261d3807472a1
+~ -[ACCBLEPairingAccessory setSupportedPairTypes:] : sha256 06ce12437a5ee53b3a9caefea5f51bffe99988b44604b3524f6593fd6de32b99 -> c1c7abde29cf61248b7f81b8df9e9c2c663a73bd2357d601853e50606f35652f
+~ -[ACCBLEPairingAccessory .cxx_destruct] : sha256 d051b04f2c43b46770cc8acefe12ca9f87f75375a2b2dc1ea7b0606c580ff9b7 -> 2500c56cb0fafaf6cf6d4c2545d8f336f0d870048dbcafd241306c04e4981f0a
+~ -[ACCBLEPairingDelegateReference initWithDelegate:provider:] : sha256 f859f5d5903f6034b9919c153f7ae664daf9780340ac68f5f4514e2721b2a416 -> 888228051b4cf7f3c4f339f4b4c7d255affdc953e6ad317b576a428906e55162
+~ -[ACCBLEPairingDelegateReference delegate] : sha256 0c1b43f60f95b7afed6f5f1a3e2fd3cb7404950909c8f4e506315497dc237774 -> ea92b2aefa4fefbff42df160a79552920c206e325073f1eb650eceb1bb80fa9a
+~ -[ACCBLEPairingDelegateReference setDelegate:] : sha256 cbc8193144d84fbbca24084a926d3c91e03c3bd3a6f3b07730a6f7c98f2410c3 -> 40275d4d687eea3fbf801c79b9e8846728ef92bbefd9ad6fb37e38b44c4855b6
+~ -[ACCBLEPairingDelegateReference provider] : sha256 a10d1ab41328cbce4b8859a88dde086cf56ec82c444282423e07ada9da404676 -> 202f2626710cc0842b1295c8f57d3c5fece5df34ff1d8b74b03a402eda0d5dc5
+~ -[ACCBLEPairingDelegateReference setProvider:] : sha256 d4e3106f532219cf5370d908c2be30ccf35885ebb057816d5b30d0036006af33 -> c0642a8f8e78fb6fd4585ec88a25ee583a1ee555f245085c362b12970d62ca1d
+~ -[ACCBLEPairingDelegateReference .cxx_destruct] : sha256 c8ae702c0cdcb05ec96e94acacbbfa6b8d35d7f4d9a1623761d04678f78e6787 -> 8c2fe2ce055e81b9bb3e35872265ebe984b67599ed940edae8001c49538920ff
+~ +[ACCBLEPairingProviderInternal SharedInstance] : sha256 86d6b425df09884fe998f33aaa073b251e096c1e3eb4f7e7c53ad404d92d6665 -> f5744865f9b20fefb67f11de2d340761349e15d2c866c2f2c29de52bc9ceab06
+~ ___47+[ACCBLEPairingProviderInternal SharedInstance]_block_invoke : sha256 2ac5bc9ae890b6beb65b3665a9e23f8c83f9c3c87c19b85f3c52d47fa87ae54f -> 6a75ebd1ba0deefe9a5f286e5922a69a7324351dc46b1c011c9953d99b8d8f24
+~ -[ACCBLEPairingProviderInternal initSharedInstance] : sha256 60255fd0c5aafad72e990ab246ea4fe3ae04d9934b8b16cbd30480473a1e151e -> 5d55fd5677fcf66a5eb5d417d3aadf2fc07e924aa15b22bec434f4e18a56c82f
+~ ___51-[ACCBLEPairingProviderInternal initSharedInstance]_block_invoke : sha256 d9a6c012515f5233984fecb367347421c76549d0b9b71911361d21563dca429a -> 76c6d112902d2e67e4180fd405993257d99f5d5cf9c44ea40d2a162e5c01e1dc
+~ ___51-[ACCBLEPairingProviderInternal initSharedInstance]_block_invoke.69 : 1200 -> 1196
+~ -[ACCBLEPairingProviderInternal dealloc] : sha256 7f9ba470f84e7ffd7059f2d3ff62d193778222c89bdddd2d798d7e70aa5362a4 -> 5bab576a7bf9ae243b85651c1d904004fb82d9e6205217908ee447bc5ce5769d
+~ -[ACCBLEPairingProviderInternal registerDelegate:provider:forUUID:] : 1708 -> 1704
+~ -[ACCBLEPairingProviderInternal unregisterDelegateForUUID:] : sha256 a68bc9b6ba751d8e6a109fb5fb56f20cd3c5f70dd2f7152b56cc1550fca0620b -> febcf8e57714895dc5b280c885504a0e304b82e0c1f3f8a075b617ec90a5df52
+~ -[ACCBLEPairingProviderInternal connectToServer] : sha256 3892e1f8773e43106d0a200ff04c03c2c59ab5ea0bd241c9b2418a82c4e1e901 -> 56334394dbf161ddf193cbb289df102fbe871a8c4830e2c61adf3a9867a76cc6
+~ ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke : sha256 4b9062be17a7afd55ec0cfee6cfa5639136130f8eaecd81954678ef22cf7bdb4 -> 7d9cdaf489d997f60edae3323dcad08dc5a3512aa26608fc1c6004c49672668b
+~ ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.152 -> ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.155 : sha256 8d0d2fc25b4a620c00f5f54fe3b6cd972ff22ab6b6b674c428609c3f8cc6b539 -> 8ba9b17ec8458dd4be6dab8675187e8905a28228a24f80b9097c314f622bf735
+~ ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.153 -> ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.156 : sha256 e045c173c933197b6c61c48b12ccd5da0b5b2de6671b83f65e75eb98b6809a5e -> 5b8de1024c041266dc66e36612edd56708b026273670b503b5b058d45cfca5bf
+~ ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.157 -> ___48-[ACCBLEPairingProviderInternal connectToServer]_block_invoke.160 : sha256 575c8ea79a2fa90d2289e330ab24f73b04342b76cf1223cca164edce15800b76 -> 78efbe831c70b23fcd884bcca59b0dc26744e87c29eabfcbc5f248761d04e81e
+~ -[ACCBLEPairingProviderInternal getAccDetectType:] : sha256 72191cf498d6b6361877156a5031c7c36d8ffb8827df3af98615bfd75c0b5e37 -> 589ed014d1047dc0b4ac35a921edf84584f33cf469e13b11e61bd208e0e7a923
+~ -[ACCBLEPairingProviderInternal accessoryBLEPairingAttached:blePairingUUID:accInfoDict:supportedPairTypes:] : 1208 -> 1204
+~ -[ACCBLEPairingProviderInternal accessoryBLEPairingDetached:blePairingUUID:] : 1072 -> 1068
+~ -[ACCBLEPairingProviderInternal accessoryBLEPairingNoAccessories] : 664 -> 660
+~ -[ACCBLEPairingProviderInternal accessoryBLEPairingDetachAll] : 1064 -> 1060
+~ -[ACCBLEPairingProviderInternal accessoryBLEPairingStateUpdate:blePairingUUID:validMask:btRadioOn:pairingState:pairingModeOn:] : 1240 -> 1236
+~ -[ACCBLEPairingProviderInternal accessoryBLEPairingInfoUpdate:blePairingUUID:pairType:pairInfoList:] : 1172 -> 1168
+~ -[ACCBLEPairingProviderInternal accessoryBLEPairingDataUpdate:blePairingUUID:pairType:pairData:] : 1172 -> 1168
+~ -[ACCBLEPairingProviderInternal accessoryBLEPairingFinished:blePairingUUID:] : 1404 -> 1400
+~ -[ACCBLEPairingProviderInternal startBLEUpdates:blePairingUUID:pairType:bRadioUpdatesOn:bPairInfoUpdatesOn:] : sha256 e8047d16f3d8c026113b3a1a023fa184eece11db0b4f16444fcbd1b76ccbf998 -> 5c05d92991093b801715c25071cd1ca1beb91e2a164aff8e61b58264e263ce7b
+~ -[ACCBLEPairingProviderInternal deviceStateUpdate:blePairingUUID:bRadioOn:pairState:bPairModeOn:] : sha256 5ca9dc8c2b18ab024d2261f07fb822111d57fc732b3373e2ec33958ed0b3a068 -> c21b0d7cd9bf9f3db4789707bad213fde42baeabd9b026afc499360927c44931
+~ -[ACCBLEPairingProviderInternal devicePairingData:blePairingUUID:pairType:pairData:] : sha256 9d52662fbf08bde74b7aa7202ebd19d9e4e3dc8dd60224829ea42c384d172c4b -> 12897d4fdfe3bc1b82fc583829a33cf9e221ed14a747b6ee60ab9ca978cfa697
+~ -[ACCBLEPairingProviderInternal deviceUpdatePairingInfo:blePairingUUID:pairType:pairInfo:] : sha256 986c72d76eaf518b99a757482b2c0e694972cdda86aee4e5669dd13efe0bbf7d -> b0eaae90f3c14292066aa0ff7ec90712623b74bb3c50f62936f8b298d85adf02
++ -[ACCBLEPairingProviderInternal updateResolvedAccessoryBTAddress:blePairingUUID:btAddress:]
+~ -[ACCBLEPairingProviderInternal stopBLEUpdates:blePairingUUID:] : sha256 15e620803756bc0d48250682cefddcee3a83be385570b6d0248039b2a43449ae -> 7b64a3309bcc052301ea784e3ee99f45cd33d4c81b50799091f24e72f30e636f
+~ -[ACCBLEPairingProviderInternal setDelegateList:] : sha256 7813c2f6b114d6b6aa82d80570ab5ac00bd84083d03412cc770e6ca57aff15f3 -> 0ea193a15f337c8abd9e2de8c140c722980b5385f53230be166b3f08c1a2e3dd
+~ -[ACCBLEPairingProviderInternal setDelegateListLock:] : sha256 6ee2c5fbe261ce9cb3cadc2579b0611ecbdcd88eb452eec9927cc6bdc5ecc53d -> 5e96ab981108f5d839f90b38a31a4e52a1ca25d15eff2ead30a7d6d977b8a1a5
+~ -[ACCBLEPairingProviderInternal setProviderUID:] : sha256 04b7af11b733033b5bd1ecccb854ab52061153aaca8a748b06d68b274df9663c -> 16230f6ab88cc143ee84ee11dcd973e62b2f6aa508e9a38874eb68c45614a2a1
+~ -[ACCBLEPairingProviderInternal setServerConnection:] : sha256 00933356dff95b34931510e393fd83572781ebbdc012d7e15e2c1c68a79fe642 -> 4801db583339a1a001fe1fb2d3dd36df212d08a950716220792250a274f3479a
+~ -[ACCBLEPairingProviderInternal setRemoteObject:] : sha256 611c0d9146d38b34fd22d568fe18cbb3d7ebe2896a154ec4e68f5ae12c2e3f5d -> d455d60446ebf83adda591296c208acc335387fd458f906a1d612f23bca6ad84
+~ -[ACCBLEPairingProviderInternal setAccessories:] : sha256 9fe0eed809e0bc292a6322cb189adb4fa816fa965ecd0256b3a980255c4ec784 -> df01a2e839f3cee0d1253c453fd6b5187e8202ea34700947465e1103d51905bb
+~ -[ACCBLEPairingProviderInternal .cxx_destruct] : sha256 90a66a3fdca3aa40f756ae24b87fd9910420f31645cd80ca682fb8b2d27baaf1 -> d85dae4a40d3e9e6a2099563f00b50ddd34c1111f14f24cf36a49d8c3054c624
+~ -[ACCBLEPairingProvider initWithDelegate:] : sha256 ddda59d2f4ac3ceed13316b664ca5dc6cf0aeebca69c1728aac2d5aa5e16a75e -> 9c2bb5c6f038bfe02a6d5ddca102935d845d62611a235675f17335e9ccc016dc
+~ -[ACCBLEPairingProvider dealloc] : sha256 37d5b031a6664fd7aaed7997038db1fbc1db7fbf8f08f8f83d36de7ff9197ca1 -> deaf3ec415b07bca3b1b8111d137f59beb96ffbc7625ac45557149750b60e00a
+~ -[ACCBLEPairingProvider lastScorpiusDetectType] : sha256 ec480da68794ecfd86d4d4a1212c00f83c316cfc972a6136a11eab20f86b8cc8 -> f3392779f2f4b84a01fa46a826de27967debd007af77b551b33292468289ac94
+~ -[ACCBLEPairingProvider setLastScorpiusDetectType:] : sha256 e27212f1c5838334b58cf9dedc4b8d61f8d5474c15a469d283a0e6e33befc308 -> e404dbb5e84ccca19c565f701eae53b4ce3c4a89c7657ec3829707502c7e6861
+~ -[ACCBLEPairingProvider startBLEUpdates:blePairingUUID:pairType:bRadioUpdatesOn:bPairInfoUpdatesOn:] : sha256 254a6b57a727203b117551c734debd3a39df630090701f6b459d3d1b2a728a4b -> 1d928f4addb64d40a621ca6479d4892a7b364cf8f78cb37e8b681e2d3b13fc4a
+~ -[ACCBLEPairingProvider deviceStateUpdate:blePairingUUID:bRadioOn:pairState:bPairModeOn:] : sha256 5051c07e391ac1061efeb0ccfcb930349ce7decdb0109380ddc0dcf2de29679a -> 8bbfba4bd56a4a8d1248f28aa66c8ce5057d06da8d520a62d20c0201aa7f98b8
+~ -[ACCBLEPairingProvider devicePairingData:blePairingUUID:pairType:pairData:] : sha256 5cdcc80f3fca0ee803c0a8c469689992082c341ba255244d6ffa536ed0aa2477 -> b61c2be7524dce864f5515d9cdf2e0309591bae665e90e23dbc432e405b50c70
+~ -[ACCBLEPairingProvider deviceUpdatePairingInfo:blePairingUUID:pairType:pairInfo:] : sha256 6474cd6dad1f819a5d61c2e2464e9a76ecf7e8ae8ae25a4df6ab8a5397a8e8a2 -> 7a93b3fca47537744982511d8c4f7912bcb90a2b395b963790f83b422dc4e43a
++ -[ACCBLEPairingProvider updateResolvedAccessoryBTAddress:blePairingUUID:btAddress:]
+~ -[ACCBLEPairingProvider stopBLEUpdates:blePairingUUID:] : sha256 b59a16070f21a660f0f6a7a16a03700a8281f81e8e5912ea422f9e640aecb08e -> a43c57e77145206cb4b452c921c0e9626f15968b82197c9cd86932f91597c86d
+~ -[ACCBLEPairingProvider delegate] : sha256 f27e4515042dee1aadbfd5e469fdce08e85b6062f5be46d74d5ecf86774dcd25 -> e378777aeaa913093aaa372b328aca822e1b210f1e5285e4f8f0788509d8c72e
+~ -[ACCBLEPairingProvider setDelegate:] : sha256 bdb2def7873db0b6be16528c6fe488e4a67b1b49bb9379e286b01db2ad41c0f5 -> d6953e70c3bf762f95766d900538fcb806990f7c439d8a6655ce5055b8f528b4
+~ -[ACCBLEPairingProvider setDelegateUUID:] : sha256 82d970584910699c4942e962a9a6c5d3cf5a5de7f86a72162e52b5b806824286 -> 36af27249094780df235786c5452e173922167ee7ee076dc243ece2a6d2fdd5b
+~ -[ACCBLEPairingProvider .cxx_destruct] : sha256 3733f550e01b2c73b550cc33f63f85b7df689738c487bf29b3e1250a32250590 -> 007c4a3ef0b19d104d2ccc6ad9c1f094971598b347b1fa25e5e21eb191fe9511
+~ ___logObjectForModule_block_invoke : sha256 e546747a0b8dba58f578f8c4b29ea89968b96929afae716299892a8584c8820e -> 045b2dc2d697f4997510b0bd2d1406d17e5764b0240f44c3f84042e55b4eddbe
+~ _OUTLINED_FUNCTION_0 : sha256 8154d82bfe3b3e0ecdc7a1758704db5c8a0d3b0e7321152467cfa8ec5b0737c5 -> 115f73a561b845f33f9f92782867d6a19c6188444ed6a1f2cdd78c3e26c42ab5
+~ _OUTLINED_FUNCTION_1 : sha256 c528f637527a89cf833c33c9d9b346a83e028ae2b39e5231266b14c11d3d6e47 -> f26ff38b18d4a4b536d53393567316bc04f2c985b386b47325407fd28e509e6a
+~ ___logObjectForModule_block_invoke : sha256 ab62f1a95dca1a5f4ad79b6e3db18f133e88b8d9d3556d78d9625b7f181d5e04 -> fae86fc80be6e93f04a4b7b666b682f167b76589b5fdb653972087844a5b4f7c
+~ ____SetupAvailabilityChangedHandlerForServiceEntry_block_invoke : sha256 85b8ee3f47ef5e77cf88e77a893d10aa955ff3994d83d150becce1f34c355855 -> 38531b31a7842c49bb763a16c22f8874ea23c96cfbead6ccddee7b419a9f8bfe
+~ _OUTLINED_FUNCTION_1 : sha256 4b65a8643c6a849bd3b6bbe6b2b659aa37f64bc3c0a982fa940ad10018d211db -> 6aadaf3dfc7fdecd8b1a2f3a4bee5bb2cd9d55d13286ba92c1740167ef16df36
+~ _OUTLINED_FUNCTION_3 : sha256 257302ed9373cf250108bd11c74d02e8ad3c3827f219ff4bb3cdc0b0600ad533 -> c9011768788a6180e1023a404fe58f6749bf7d9f520357d3263d3004bc210562
+~ _OUTLINED_FUNCTION_5 : sha256 f7823b79f6fc0588b69403a396fb602939f41cbeb6f20250d82c1416324bf66f -> f56a153f872c3b3c7424f773f666cce38268d93af6d94955e5cfdf031d05bd88
+~ _OUTLINED_FUNCTION_6 : sha256 cdc2826c842481743e823509e5058dd3955a5e6741b4c7f5465bfa3b32c8b6d3 -> c5fcd5cf75f0f2cbd763997d04fbaf0ec1ea1f7c39d6d84acca26ea47311f4fa
+~ _OUTLINED_FUNCTION_7 : sha256 4a09c1a2415105e6b823e54d8d146b44789e508806a9d82ebbc9e5477671ed78 -> aad11a1353c7896df73025902e243029a9ca988e6fc3121f4eaff1015c38a973
+~ _init_logging : sha256 7a8bd36772d5e78cf6438220a61842ca6e2396189a4da81e37157d8da6a06939 -> d90dc469b10264c8653a915c1ed8252ee7adaa0fcad169dc6e96ba4aeb4123c8
+~ _init_logging_modules : sha256 dbab06fc4bc51a0a98ab0706801d498319e5549b565b2cf6c7509ba680f6f35e -> 6b63790c07f22b01bca06ba1a03383340614a2abbc7ebb1de7b2da69be6e47b5
+~ ___init_logging_modules_block_invoke : 608 -> 588
+~ _init_logging_signposts : sha256 2a44e90bfccd8e24ec630032cafd379b8981767322720d78ae72b369526cd312 -> f12f216b0e25a2aba65ba0f8bc398e5abb5e9cb71dcdf7f0423952920db86de9
+~ _init_logging_signpost_modules : sha256 b4f0d017be6a4f1ca7d89055573eea460782391cac5b05aeec7c8c1d2fffef79 -> 2f50a4eab5baf8a5b7c9e191d3af158d61e238f16a642ec26f0be03278d74e64
+~ ___init_logging_signpost_modules_block_invoke : 608 -> 588
+~ ___51-[ACCBLEPairingProviderInternal initSharedInstance]_block_invoke.cold.2 : sha256 d1502ce75c5a73d09f8f9711bfd6822b48ab77588412393fa60ae14a318b054b -> d0572fa3bd79af1f84cfd3d914aecc9c4df082a7f1019071a22f3e104cda89b1
+~ +[ACCBLEPairingProviderInternal SharedInstance].cold.1 : sha256 a58cca5283668f2fbca3d2cdff8b5df4e92411eaa6ee5439ca302de7cbf0abc0 -> 84302c5f75b666bd4f2c4f84299eda7babf27ea486f060e93896e58c26d2b5cd
+~ ___51-[ACCBLEPairingProviderInternal initSharedInstance]_block_invoke.cold.1 : sha256 627f7bd6aa81119a568ddfa802ef9df6f53919ee13f7ab1c97be8e82cccbddce -> 6366474e77f4dcedd0993674b6d1a2848dff98bc6ec1d6057900cda588438f22
+~ ___logObjectForModule_block_invoke.cold.1 : sha256 84f1cc0c8c8f252f4d676f8623e39cca2e864dbf884d1f4f98e6a6b43692661e -> 96e6ec7c1ae2e55e68564db07bc9da38127f20a7d95d68ccf1300033c5cee699
+~ _accessoryServer_registerAvailabilityChangedHandlerForServiceEntry : 444 -> 436
+~ __SetupAvailabilityChangedHandlerForServiceEntry : 864 -> 852
+~ _accessoryServer_registerAvailabilityChangedHandler : sha256 409f3b2eddfb4c5565f8cb56c926e6e8f0072c0da1c4050a238cc92ddd64e33b -> ecf268c9c071bb5acf6a2e1a15bdfa7be9c62563a2e5961f52e1c385693fc332
+~ _accessoryServer_unregisterAvailabilityChangedHandlerForServiceEntry : 280 -> 268
+~ _accessoryServer_unregisterAvailabilityChangedHandler : sha256 eeebd37419aa5d5129a6ed5a5fff0ba7b60ad94b65ecf921bdde5ba1365c1fb2 -> 03cf3142ab1c1bc43229908ee5deae237fb8ca9e8725d95b4d616339d3f4b306
+~ _accessoryServer_isServerAvailableForServiceEntry : 368 -> 348
+~ _accessoryServer_isServerAvailable : sha256 e3e2c8053c173c4d5a5cbbf9ac0b76cec484955596793e7ed3081d7517a1bfd5 -> a837dca4a5f89162e79b67135a4c1bc777d6d21adf69ef2b1d8db970239e32e3
+~ _accessoryServer_serverIsUnreachableForServiceEntry : sha256 590b67c9acbd59318cdb860b4390d6b97812327562e9e36680522fc3c978e762 -> 302ec14b3cfbcbdcbe961cd9ffd953b8f38c0e797f7a4acdd4849cd1a200d2bf
+~ _accessoryServer_serverIsUnreachable : sha256 86d84f9fd9f4f441e629292c4775da7e584402b13420bc1ef32b544a18a8a37d -> 23acce4b74d4a844490d87ef83b4ff655d0618f606ba10bcb132a4e222f48010
+~ ___logObjectForModule_block_invoke.cold.1 : sha256 c28477c7eed1f6b4cda75e52538e899d5dae72a808b25ee0c485018f6e1e6334 -> 36b0e857ff57587a91e112f0f5f4c0d61c1394b49b35521cdf5c569f6df3bd56
+~ ___init_logging_modules_block_invoke.cold.1 : sha256 ce332a3b0c379345f17efa118bc6da2259e66c84fccef0df8133d2d8365c8f91 -> dc3be5ebbb12bf6f20b90659c6aa644ac2baa87308506cb6b898e7e9a2299627
+~ ___init_logging_signpost_modules_block_invoke.cold.1 : sha256 91e2657a06f5d05d2cd74fa83d36de1314416e70a6402337d8e2e57d1f2479ef -> 9d8ffbdb96c386d12d5e7fe686290104aa5ef444245b88568bd1c22e6eb1189d
+CStrings:
++ "%s: delegateUUID %@, updateResolvedAccessoryBTAddress: %@, blePairingUUID %@, resolvedAccessoryBTAddress length=%lu"
++ "-[ACCBLEPairingProvider updateResolvedAccessoryBTAddress:blePairingUUID:btAddress:]"
++ "updateResolvedAccessoryBTAddress: %@, _remoteObject nil, _providerUID=%@"
++ "updateResolvedAccessoryBTAddress: %@, blePairingUUID %@, resolvedAccessoryBTAddress=%@"
++ "updateResolvedAccessoryBTAddress: invalid btAddress length %lu"
+
+```

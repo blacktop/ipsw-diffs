@@ -1,0 +1,80 @@
+## CameraKit
+
+> `/System/Library/AccessibilityBundles/CameraKit.axbundle/CameraKit`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x610 sha256:7cae6f276d19342013087a9cdc54c6ecc432d2cc8b38b34bffaf5fb9f3414de7
+-  __TEXT.__objc_methlist: 0x80 sha256:921dd41353084d3890ada165743bfe1988045719cd25ad5e5952bd556fdc1a1b
+-  __TEXT.__cstring: 0x2cd sha256:31d823e3a918b9e93dc66be1e8a41234c72e8fa9628ebc07da36824f748658e1
++3039.1.0.0.0
++  __TEXT.__text: 0x610 sha256:c6a8edb07d6f1706def1ab37f2f89199e6bd4082286570f9ff51ab63eebf8273
++  __TEXT.__objc_methlist: 0x80 sha256:e6cd9fe519a0de778dcbf2c3b4f2aca01a24ceed7c2427ef934bb2e8653fdb4e
++  __TEXT.__cstring: 0x2cd sha256:40770ff8262110880b471926eceddf621158850a31cab091df6405edc6dfe6f0
+   __TEXT.__unwind_info: 0x98 sha256:d3c0e743c61e4cd0c43a184f44a653430b4c2d8a93da76f2be0b529f6a0d4f9f
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x60 sha256:164ae482c5a0927aa908715cf6ce8e5c7694b551faa3fe48acd1806a2d989f0d
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:ecf7a10c7bc3daede32b81b0557039a21bb7550389d06777aefaa3a257e86903
++  __DATA_CONST.__const: 0x60 sha256:0f61d925d16df92b6e77e16e737f97d1405dc4aa232b2a2f47b7df4f9c99662e
++  __DATA_CONST.__objc_classlist: 0x18 sha256:db1c04ee4a8f3368fb9f2aa8847706377ac80c3b1914bd1110169707aa7e2b8f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xe0 sha256:0df8b7ad56393d8e8055cf662d606aba5bc28a2492926e43a98a9da523c1f7e3
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:e99508d57cb513fd74b6738e1be4f2b87eeace534d8a1271c0112cc772d5e05b
+-  __DATA_CONST.__got: 0x40 sha256:a12764d364c014ab9ec6ff23c361316403b96f385c3b9ec4faf33ddfdfabfc0f
+-  __AUTH_CONST.__const: 0xc0 sha256:5e64cf165ac2f8a5fa0ba6685a28f54eee26f188da3ba6c99655b3e9c1931ed7
+-  __AUTH_CONST.__cfstring: 0x2a0 sha256:c1c66f9b6736d81f25d16703a6addd8f5276873bd2ef13740d939899efc9c99d
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:f527eafe35f4620ad3aa1f35d60953a295acd6795af478fead3a1df8121837fc
++  __DATA_CONST.__objc_selrefs: 0xe0 sha256:8933eee9044b9009edd64e3e693bfe2fb19776e293692bfb8f4f6218a5ef85a4
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:ba8dde9bce716c598dbf8a98a558e71150aef31ecd6adc112e253ce1ad22a396
++  __DATA_CONST.__got: 0x40 sha256:48e3058ad2462ed720805cf78894c8788045a7ca7ef7edcf2b4f25532253d714
++  __AUTH_CONST.__const: 0xc0 sha256:a90148c33091b6c70bff3cad1578e9f57eb1d17943b3d1e852a4d00aa053934f
++  __AUTH_CONST.__cfstring: 0x2a0 sha256:f18f850023bd9636ecf31e06a50f75c6bed1846cefdadaa05e452d8809f4e37e
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:e69698b22d0da272b5da66dd718cbdcde3eb0f2a6634e4def923cb8fb3713540
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:2edd3edde5525be0050086a1da04903449302105e30a87cd552bf9acab0d6213
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:10c7f5ae5b10499fac70f8923611eb25980f09960e10bcc6bde745a121dac368
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7DB80415-1E4D-3C14-8220-709D2425BCE7
++  UUID: 02494B00-CD15-3D4F-8C47-4712163C6567
+   Functions: 16
+   Symbols:   111
+   CStrings:  47
+Symbols:
++ ___block_literal_global.586
++ ___block_literal_global.588
++ ___block_literal_global.603
++ ___block_literal_global.605
+- ___block_literal_global.580
+- ___block_literal_global.582
+- ___block_literal_global.591
+- ___block_literal_global.599
+Functions:
+~ +[CMKShutterButtonAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 70e34a48b3f35a224bf565af67c7607d60b0ec69d03f2aa5a62d1421a2bf025e -> d25cde1b05269b07c1f177a9eacbfe967d6b646ee6331198042edb547e40f003
+~ +[CMKShutterButtonAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 cbbe1efe060ab48fc5d0454cc482cb11c592587886949fa98140497fd6b99d91 -> 90c21212982a6a2d8e1b0d792900368ceb894f57dbf13be314d98522d9bff69a
+~ +[CMKShutterButtonAccessibility _accessibilityPerformValidations:] : sha256 6de6fc7edb9af8075daa318153635a300f3bbba07e055f41a552757e248099e0 -> 7a2149cf4d415eeff2bf608e8ed555ecac527068c9336e4efacc852e0b2946c3
+~ -[CMKShutterButtonAccessibility isAccessibilityElement] : sha256 fff0538fc43dfb67e38d5064b1c2fe669d685f5d63fe1de0fd99d25ca40e57b2 -> d5083a6165b568c73e6023c36aac7f89c9b8232a607cbfbc27fc1a57da8a87b8
+~ -[CMKShutterButtonAccessibility accessibilityLabel] : sha256 e9b26ba37d3777f5f370f11c41d6dafe56c3aa3c574ecef013a8d3ef4c035c33 -> a33c09be1fe1d77015699e94d196fec487f55d0f0f2ea63681177929daba95f9
+~ -[CMKShutterButtonAccessibility accessibilityIdentifier] : sha256 dc2147e7d7f582be0e1ccb40565efa1d4b2aaff44c681100158a5c089e933e1d -> a3a21caa15228ded722aa014fda0ed61133342ba6a8406175892f60ea20dace7
+~ -[CMKShutterButtonAccessibility accessibilityActivate] : sha256 d1b082033f88ae1fa5e04f4d90f9b7a9c568f401935611a05109b6d72f8f91a1 -> 3c688335b0a736b68780373173b1e1fdbcabf1b4d6e26539e6ee0906715396a6
+~ _accessibilityCameraUILocalizedString : sha256 ddc2e031e2c05bec48da5dd0657b63f668b9e03f1301f68ef322190df966bced -> 68a562fb7a6e5d54b7599009471837ac0e60dd5b029bba6da9aafe0a06a8d882
+~ _accessibilityCameraKitLocalizedString : sha256 59e7dafd5bbe5e48ca26d3e5c1d9f32dd03630eb387453b5f7261d20b1422473 -> 95793129e63badcfe2414cf391aa21e4d1f0b51f9d5a194fc54978bc3af29efd
+~ +[AXCameraKitGlue accessibilityInitializeBundle] : sha256 ccc3e41e0f5588f7dad3fea79ebccdd13217f148e0931b45f76dda7153f08bbc -> d27dc15a8819bce0a947788123f5dcb294c38a1fa20557e3f16ef2656bc48aff
+~ ___48+[AXCameraKitGlue accessibilityInitializeBundle]_block_invoke : sha256 172a643e57b53c03910a22c00fad6e84fa2391d8a1104ec45f954c0a60d60e28 -> 7502e9087699b6fd19bd383a3141c8aaf4b3953a60eac97f9767405efff80365
+~ ___48+[AXCameraKitGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 ba04603f8581ba7dd27de87a3512d2d9c1b0b64d7c1a8d3d8f451648059c6482 -> 5f7f8a969ccf767cfc62e7970cee81001cd77a2cfa62be221c87a8d3d1dd33d4
+~ ___48+[AXCameraKitGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 5a774842da1485f7fd9328de1ce6fc7e26e929e1c71fe7156f8001b792ffad0f -> de0c3150df1ad0cf4691bed25741f510cb134956e8f09a7fe1daae9bf4d11550
+~ ___48+[AXCameraKitGlue accessibilityInitializeBundle]_block_invoke_5 : sha256 ee15cba221bf063fb73aea5506cb78c5e9ca02091c3a5508f8113ee23cec5bb4 -> 89c65281f59ec8ff304e338459757997a7f8ee0b8bc611c733716cf3ad2b821f
+~ ___48+[AXCameraKitGlue accessibilityInitializeBundle]_block_invoke_6 : sha256 96824649d24d20d23b7ba43f1ca458aefd0822515022b41ffc57fac3f52adb7b -> 8faa417e3bee2a12a2e6ceff44a7483d09d09c443d2a5c71b4aaff1b474b0c2a
+
+```

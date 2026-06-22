@@ -1,0 +1,83 @@
+## CacheDeleteDaily
+
+> `/System/Library/CoreServices/CacheDeleteDaily`
+
+```diff
+
+-901.0.0.0.1
+-  __TEXT.__text: 0x2d9c sha256:33a6e6dd2147a0664b06f25e1d86ec620e81dc6218a1cb65fec28218a56f7521
+-  __TEXT.__auth_stubs: 0x530 sha256:929edbc2463fc7514fd7a3ec2c4b3b418a173b5533a838e8debc2fea86e9c207
++904.0.0.0.0
++  __TEXT.__text: 0x2d84 sha256:4fab85ec2e59bccbf8873caadaaece8b0535954b8aa76daef11f921115db157d
++  __TEXT.__auth_stubs: 0x530 sha256:a01562cfde811f6b2ad254bfcab7ea362b9c78b2bb6897da584616a2d6f9a524
+   __TEXT.__objc_stubs: 0x660 sha256:16dec29eb58397d95c2fb644d423ec01cf70577f4a88fa5121667901d12ec16a
+-  __TEXT.__objc_methlist: 0xd4 sha256:0ffb5a68c2ea5dfa1e8715f0fa93833ebf5ae7db694afd6b328dc151667ba473
++  __TEXT.__objc_methlist: 0xd4 sha256:1f5bd78fe59f039c0c955b1f2111d547fd7556bf64edb42df3d2afaae1478cf5
+   __TEXT.__const: 0x88 sha256:08f22151e4ad056fd780f10f45a36868ca2a35e3a48b8f6cbacfb0916be554a5
+-  __TEXT.__gcc_except_tab: 0x148 sha256:77581fa6e77a0472074951d3b5b5c3030504c9a4683ddcad3709e670923a5af3
++  __TEXT.__gcc_except_tab: 0x148 sha256:057a61741c2c87a772d2b8a321681e1e2e0749edd574be4ae68d53b982f8442a
+   __TEXT.__objc_methname: 0x4a8 sha256:893cdb0c897bee3050e75b832b8395fecfd0cef22a3a4a286d00b4697e0711f0
+   __TEXT.__cstring: 0xe28 sha256:ea746e9333d595b1fefc0bd08140da0866d91a089a2c6aa6815a0990c32b0ddb
+   __TEXT.__oslogstring: 0x5a7 sha256:7060d95d8b77a45c246e94aa642dfe2441c4923d180c8c889317986013f775a5
+   __TEXT.__objc_classname: 0x12 sha256:9cf8496183624e9117e9b883fa968b694cae27e818f561564876fa8bbffe1393
+   __TEXT.__objc_methtype: 0x7a sha256:6e9f75315c38b400e53df9c3d27d2829f7ca6a6f19c642192daa0f3ad7d9bc0f
+-  __TEXT.__unwind_info: 0x108 sha256:ffa3bf6673652ddcbf3f92e70a371c1bdf1cef63c2e961cf3a9078252bffe68e
+-  __DATA_CONST.__const: 0x288 sha256:e728b980a1c28204582e7e3cfefc518ffbc3322d75035f03f729e362251eb961
+-  __DATA_CONST.__cfstring: 0xfe0 sha256:1b665ccb9c7f2296b75a5bd2d5e551131af7b8762a47062518190c69fde39a5f
++  __TEXT.__unwind_info: 0x108 sha256:c9431d0df2290902f86c8cf58c573533adab4126095eb81b28bf4a6bc561d1e1
++  __DATA_CONST.__const: 0x288 sha256:482f17014ac33b26e5eb9e00b4c22bbfc295edb27c5e45e5d852b36cce8bef47
++  __DATA_CONST.__cfstring: 0xfe0 sha256:20d3d5974f56a3b9e76cb07395b72d82af26043942688a9cb9eae466b0590cc6
+   __DATA_CONST.__objc_classlist: 0x8 sha256:8aa1008f90561648fae6284b79a22cd4cb96ce886eaac5ae4401de1a3de9b879
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__objc_superrefs: 0x8 sha256:f1e90351af27ef848c97ba5c12a37b1fbb76b14e00480811ab4ca75a92b91a20
+
+   __DATA_CONST.__objc_arrayobj: 0x168 sha256:59270aea6a33d31b68945729aa1ae036d2f41d4b0e2de0152fe19a8a32df3cab
+   __DATA_CONST.__auth_got: 0x2a8 sha256:4ac8b8838b5b2b56a3edf5b3f93b05071668ff071d55a44abadeae6270fb2f30
+   __DATA_CONST.__got: 0xb0 sha256:e83cbc656209cf4866be6b298017d4329bb7e746dc9b67f253959138a7be6b6c
+-  __DATA.__objc_const: 0x160 sha256:85bfb098c569f35321b4c34063b54450a70dca176592d4a930ab6586c430abd4
+-  __DATA.__objc_selrefs: 0x1c8 sha256:e6e4c68c0e10f3713a6a7e14222f8de99cb41583a6f8f1ae6700865f54255615
++  __DATA.__objc_const: 0x160 sha256:2e8196d8c642e77317979f4d620004908352675c2b32ed1e6e4856b3cc429672
++  __DATA.__objc_selrefs: 0x1c8 sha256:3caaeb800982b28f28ee285284b4520106b6fa30e22a0b306d974111a0c0b8d9
+   __DATA.__objc_ivar: 0x10 sha256:05176b5c6c1109e7668bedf89b1ffaee0b9bc77ecd0daf6a6f9fbe67a3aad043
+   __DATA.__objc_data: 0x50 sha256:274dab4fca62ffceb3067fe3b4526451606cccdb168c7868597c5732db0c3843
+   __DATA.__bss: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A792F2E6-086B-38D3-828F-169B32305EF1
++  UUID: CD63E181-E87B-35B0-9BE3-4839DE172EEE
+   Functions: 39
+   Symbols:   239
+   CStrings:  385
+Functions:
+~ -[CacheDeletePruner initWithFileAge:dirAge:] : sha256 3d0ef86af2091403c3ffffce1e4570674f666be1768d4a8c24f9bcc2596bb71c -> 70ecd8ffade4524770eaeef48d62b62ab373f6107db64dda5ac1770f8a0f5de6
+~ +[CacheDeletePruner prunerWithFileAge:dirAge:] : sha256 197c267d6fe4ab705feb6a8d60c9067be3cd5c028490507bad5d8edebc372b93 -> 242e7d43f36caadc2e68e7b85d3177738e491e1959e6ab927e7247855aa68278
+~ -[CacheDeletePruner stop] : sha256 a4fbab8f68571a4d97249db019f3a77ab82fefe4a6b67c1e6bd8f111ca70d259 -> 0fe83664d1467f02b84a99a953347765be48656e633385d0977a7cbda85cd7de
+~ -[CacheDeletePruner pruneContainerTmps] : sha256 7beb0ca00ca2d94e458c219ef164cb6ceb8e22f9cf3c0be4501a5f1ef2e07297 -> daebfd4d53ac3c940b0b8595156c1d88f7246411336149ba82b220dd75c0c5e7
+~ ___39-[CacheDeletePruner pruneContainerTmps]_block_invoke : sha256 5393e33a0df1c52ece220bd0be91687255206cceec56dbbac2bdf732f64c7930 -> d6a8401643f077abff2dc58822ec5d194893538b1a90d4e883b3f7e57b5a1615
+~ -[CacheDeletePruner pruneSystemTmp] : sha256 6dbd7cfb89381143dae7fcce531242378afedc10750ab2ad23ee67fb1359aebe -> 22a4c1bd574fa408afab700582317636f3878c1de047f39df264315e4673765e
+~ -[CacheDeletePruner pruneUserTmp] : sha256 d7c3c654cc0e7aac445b2e528c9ca5f2272f701fbf6a26e8b07a76a39c7f6309 -> 827a654fb1e51008f8c57ba67857118c17216af34903a48a2ebee1001e9d1713
+~ -[CacheDeletePruner pruneDir:bundleID:] : sha256 84f797796542f5bb66e2132409153e0f73cd7dfc3f4e3e1c40a590e6e56152ca -> d511b9eea85ccbc0bf4c4bccccd6ec37bed18058e878df064a59169a8deb3a7c
+~ ___39-[CacheDeletePruner pruneDir:bundleID:]_block_invoke : 408 -> 404
+~ ___39-[CacheDeletePruner pruneDir:bundleID:]_block_invoke_2 : sha256 6f0be761770f9febb7ab6d878042322364f140559fa503bf9c47daeda8e12e08 -> bf8e189815223bda46ba24bf2b3acbfa9e08282ed1d696fc47b84c5b781eb3d9
+~ __39-[CacheDeletePruner pruneDir:bundleID:]_block_invoke_2.17 : sha256 77ca1f6c8a27a4102f5806dacbc55b0e57efcb2773b949429442073a5b1b3fd8 -> c69f858f72899fd77872de82e4ac29d434c6e2ac236c6237e983ed6d80ed408b
+~ -[CacheDeletePruner testObject] : sha256 8f0f7dc98c8f8ba8363f93bb5eea8d06dfa9ba72e0764d6b54fa00ad7383857a -> dad53955f9c3ef90d0c65f8d30062bef1cfbf8ff6bb17a8d111d46d9e73b4140
+~ -[CacheDeletePruner setTestObject:] : sha256 2113d35022201a6246f1414367d8a5f44ae6d872d7b857a0f0d9d6e008913247 -> c7210871b1782d787211c59603cb832fcd2abf642c165f3796a7b3102c7452a1
+~ -[CacheDeletePruner .cxx_destruct] : sha256 982f622c0b93e28f4354272e3e4267599fb9f2e19c9cba44295e62e5dd1a8ff8 -> 69af5642cae995d0748b1b38cb0dbda0a3278516a586d9539dcfd9f80e12b6f0
+~ _main : sha256 bad24582b14b5293e92e709fc4217b12a8b0b31458d342013cf81922f4e801a7 -> aea887098e100d6fc7f136a20794ebaae899eebf7a16a51a183ad2284903390d
+~ _register_activity : sha256 35b666cfb94a7768512462c7449ef7685323462494f80bfee514a928d63f501a -> 5f5303e5fc81db7e08e434b8ffab499fab311153f7e35e005e17ee5c1590b344
+~ ___main_block_invoke : 1044 -> 1040
+~ _getLocalCloudDocsURLs : sha256 d13d8c1d4d150b29df742b49f99ae0901d1023d57f64b6c29da92c077db64637 -> 8cfe179fb52b3d518e298ad24f31d674fc5f2d800c2ace2fe0f9d5e33b41e62d
+~ ___register_activity_block_invoke : 3248 -> 3244
+~ __register_activity_block_invoke.31 : sha256 1c0a44bd151f44d0ac3106310ee1eb367cd87c30516619cfeb25af94810b442d -> e67b8530418016e01f8a72a0f472b8ec0242641da5c6ae31e05d313875a399c1
+~ ___register_activity_block_invoke_2 : sha256 02684310642f009eb1e8315cd98dd883b6349021a26c75be7931de4e9746203d -> ffd91a12e5357ee0dbe73d013c90c8615c59998ed6058f8de020c6697627d4a3
+~ _updateUsage : 772 -> 768
+~ ___Block_byref_object_dispose_ : sha256 37c02485fc9ba642712c6005b012f055bdbee713c299516bea3ce21d7c4b3524 -> 36a3ce34f83b44e866bd3f901a00b0a45d4d723ef7848c919f4bd733afa9c828
+~ ___populateUsage_block_invoke : sha256 daa7b976bf698ab0c400b541b26952c53b1caf6a493cf0ad8a487d1a18e62ba6 -> 0e1c4993c5f03685551faeb0fc5371d31022495efd8de46d4d8eb331e3bb16e0
+~ _diskUsage : 564 -> 560
+~ _storageDailyStatsFilename : sha256 3cb68aaef58f90c271aece0ec901f7cc7c8546ad48c63f5c6061a55b22173934 -> 4c3970ee055e923254c74626720344faabb0ef9ff5a85462cd6a69af9f6acdb9
+~ ___getLocalCloudDocsURLs_block_invoke : 448 -> 444
+~ __getLocalCloudDocsURLs_block_invoke.441 : sha256 b92a192bf547fd31543e47547368371c232350e7f59fe27df39925430ddce6f7 -> eccc368d5df06afd94c41dcceaefedec15e898772baccd0e1a219eb2b758e6f3
+
+```

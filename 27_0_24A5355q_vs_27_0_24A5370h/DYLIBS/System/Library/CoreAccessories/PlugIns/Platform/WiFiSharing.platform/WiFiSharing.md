@@ -1,0 +1,86 @@
+## WiFiSharing
+
+> `/System/Library/CoreAccessories/PlugIns/Platform/WiFiSharing.platform/WiFiSharing`
+
+```diff
+
+-1176.0.26.502.1
+-  __TEXT.__text: 0x119c sha256:04446822f63812bd5b61effc9f303ded3724f13baa07724d94293fedca0d24b0
+-  __TEXT.__objc_methlist: 0x204 sha256:ba6014cf427ecbae3168e8826e6435eca97dbbaf8b15a8f7616434374f846442
++1196.0.0.502.1
++  __TEXT.__text: 0x1174 sha256:34e1b1e87ded3b95c80318a254c15905d7e735bb80eee38bb8cae9486585bc29
++  __TEXT.__objc_methlist: 0x204 sha256:568c82a7991b3a577470e51634fd11199a89ac3a47eceed74027e8f450d8060a
+   __TEXT.__const: 0x30 sha256:9015c397ee830edcbc4632a08bc3dad4b27c7aeb390d98cf85100d2c2bc481bc
+   __TEXT.__cstring: 0x152 sha256:41b85da838c1b4c228e8652dada86d5b1ea1628bf7162681b9142e9eaf1920bf
+   __TEXT.__oslogstring: 0x32c sha256:e7559ecf86e53d1e0a4aeaa27ca7964b999dcae7877489040c1f70c0055f2b01
+-  __TEXT.__unwind_info: 0xb0 sha256:414db1896bf3996537af5e214d0fd5ee0e14ae530129d29b6e61e9e2cce692ef
++  __TEXT.__unwind_info: 0xb0 sha256:2d6140ce14c5d57f10ff3f85c1cc9bd475057d2cd887c3fa1ed05a28fbfaeff7
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x120 sha256:01e945580d4b0995fe737b79a32893c2a38eda3834ce08c306be41c51667e09e
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:4243cac7b417c379d50d6ec8c34a6d60d4966ab18cb383f0f5b5037d0fc53a54
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:40b3e7a67ff5d8f9e398b22042d3ac374c4e770a2bcd8d3e71fab6b20a473e92
++  __DATA_CONST.__const: 0x120 sha256:5762e1e9255a038c9c2c81b4386be845978c30f642eb06b0f96774dcf7b62389
++  __DATA_CONST.__objc_classlist: 0x8 sha256:bd0eae1041b408d5372b0a575925bf01ffd3c257dfe446c42a7039975aac835b
++  __DATA_CONST.__objc_protolist: 0x20 sha256:f2b7e755dff9e2febef97e1aee4d7d06bcb33345a5402f78d2676f4ce7ab9dd8
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x128 sha256:0b0cfc7fc79400fa17a3aec3ffd04fcd739a367196563e9fce978ffd6e6ec963
++  __DATA_CONST.__objc_selrefs: 0x128 sha256:52704e9daec6f9e4b2cc78353b4bed260b44f00cc01ef34f15c6bd378a6133c8
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x20 sha256:403df12432323144f9cdefe7917e5e55e5a25d41d8dbfc5a3a580f578c3287a8
+-  __AUTH_CONST.__cfstring: 0x240 sha256:a2f74dd2260ecedfcec33b2d9cb154418885092b17aa89ac1f75362f788525ce
+-  __AUTH_CONST.__objc_const: 0x308 sha256:0b713147690b785c9a6fd9fec0fe270fb45dfb8e5f9455e2fa48b5a9e2395bab
+-  __AUTH_CONST.__objc_intobj: 0x48 sha256:5a2d4fa77867fae5b4062b7dc8fed23d874ac80c9d3e62a3b29f6e02683280ca
++  __AUTH_CONST.__const: 0x20 sha256:ec9bbc2bde571d2fc595c8fd9b3d1e498c2e34888bd747b3c34992cec5383711
++  __AUTH_CONST.__cfstring: 0x240 sha256:3277c70de22d3e556539b7b9d01889c14c43445663dc4141e8e853e991145234
++  __AUTH_CONST.__objc_const: 0x308 sha256:ee98522831818a14bc856ad2d3c8b5f221eead3d237744ba1de843a28decec58
++  __AUTH_CONST.__objc_intobj: 0x48 sha256:1a262a73ee0cbf7f01682fd1b73c84ec58e7b51a114c85580ceea94d663607a6
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x8 sha256:1f6f4b0d2ba528a06eb08eeb78503461eb4ac68a19abec2e33cd5bea1255f040
+-  __DATA.__data: 0x180 sha256:c336b4b920b5b3438569072213160df99d7d3bb7dd6d4759f5179e7e08b37294
++  __DATA.__data: 0x180 sha256:1ba146b5d611c9ab23ad022e55a6ba917908f24a98fdc457e576d8c197eec749
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:aa370972e90a4ea5ccacb8ad7ff8a13602b48e84699d9ee53fe714865150d27b
+-  __DATA_DIRTY.__data: 0x38 sha256:356b89ad14feeca33385f1e59cb6b0adb807235220d47afd579c80e9963d71c9
++  __DATA_DIRTY.__objc_data: 0x50 sha256:56f7fd05ece5ca6f6ddc898c47fcc4fe0ab8189142d0b946c50080a4cc279c68
++  __DATA_DIRTY.__data: 0x38 sha256:1889c1947c2b2d20a57bc43dd1fcb97ab78d2197d5b73d3db68d98d262bcc374
+   __DATA_DIRTY.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CDBBF939-15EF-3792-876B-0725DE85087A
++  UUID: 31B25368-2981-37CF-BE2A-79BE32C4B3AE
+   Functions: 25
+   Symbols:   166
+   CStrings:  60
+Functions:
+~ _init_logging_signposts : sha256 8a54c2e27c14eec9c9163ebfb0ed0dd549c05a7817a4433b636e83d5963cbb82 -> 5afdc31ea03a9cf484812b4cea70e24e46eb0d64763f7d7dbed2de09154dc432
+~ _init_logging_signpost_modules : sha256 bccce877ef6cb5c6b93645a9a32d855af8c84ea418661d8c44e68054a36c5410 -> c793b2f3f45d33a62c73d73c493f86937f3c578e1971381b753b3975ca735185
+~ ___init_logging_signpost_modules_block_invoke : 608 -> 588
+~ -[ACCPlatformPluginWiFiSharing pluginName] : sha256 13d5ad6dfd40991ed2fa50a8f9e8538f29e734f15f57f47856cfed1117ec820a -> 1cb45afff4a54ff6bd72884a751b7375e9703e54caf5a782b791b5f4c876d0e4
+~ -[ACCPlatformPluginWiFiSharing initPlugin] : sha256 295c4d014c65b68111e88d20f554c3368fa123063ddd9098f7a9e4b1b32984c4 -> 4f6fb5c15c4432de1b27d8edb2a830ccb304f4d982e4d6296cbfbdef40466e97
+~ -[ACCPlatformPluginWiFiSharing startPlugin] : sha256 60f35d64a5a30ee2c3c115f4ae2bf308f674b5db32a2d9b5d771f7e0300ddfd3 -> 31c1d8946a12f3b4e60c1e8c800f23979b238c3591012379071d8264f346148c
+~ -[ACCPlatformPluginWiFiSharing stopPlugin] : sha256 d4bb74f11251821b1c613b03855271e6f2657c712a300c76f6278c28c3756278 -> 9e23a66d2b82e7b0dab501ee4e2dfbb0b6cac8738394d49f99dcf639528537a4
+~ -[ACCPlatformPluginWiFiSharing isDeviceConnectedToWiFi] : sha256 5b5ce6ce434419b631717517f08cb8f4a7ff602272104bf4b9e5423b32c66bad -> 3117dd064a4f7bf75b3f78e87c34cc947d9735f32fd1e3a6638df9c4c1fbad97
+~ -[ACCPlatformPluginWiFiSharing copyDeviceWiFiNetworkInformation] : sha256 1c752d8da57c7373f43275b0a2cddd36388d3718802cd364dfdd8e5f591b727f -> d5e05adafee12cc8631b57a7a79b2b87f59f2ddccdc938cfce713bdc1c7f4b67
+~ -[ACCPlatformPluginWiFiSharing handleAccessoryWiFiInformationForWirelessCarPlay:] : sha256 f07bf6cd5f4ade73df75157607f740db5bc079faf62440a295d91366ad7c7a3e -> a2242f81c61b7f382a238464a2f3cce4e54ac6e9ba0502d2dfa5ca3fa8c56f15
+~ ___logObjectForModule_block_invoke : sha256 b9b0ffdba332a8623b8973e42f0b6f1e52a0fe3091cff45fd75eceb23562c0c1 -> 1dee1873d80dd941279b918ccc02986ed932289726da1fada01c6970a4a7209f
+~ _OUTLINED_FUNCTION_0 : sha256 c14ac029d3069be0af0188a83f21208fd30fcd5390a96e50723ed3e45f139141 -> d1bad194418b68b8146af6b3cbcf224abd0a258d9f60032d1583f2e2cb91f7d0
+~ _OUTLINED_FUNCTION_1 : sha256 995027a2338b896bbd95f17ce8ff83d22e60b889832b0af9777aa28c710048c3 -> cd0dc0c3ce96722eb2b905dd0de06eb5f968b51e860f6c534e530141aa2bef1a
+~ _init_logging : sha256 022f4ebd758782b3200e25f2f773dbe35f274716c889ed382f6dd6d2054202cd -> b7aa118f7aaedc5850e138b449eba70b75c0b23e9e71635c0f8f43fe04572bad
+~ _init_logging_modules : sha256 a9b064812dc64b90cc3cd52876d3a2c01204189847d0481f26e3f22c0763727c -> e8734a19ee12e706223081953c99f2382526c4f921b6c965dd86c0e122a9e66e
+~ ___init_logging_modules_block_invoke : 608 -> 588
+~ ___init_logging_signpost_modules_block_invoke.cold.1 : sha256 4a9bf920fcf94aba21e1c6a3b926cd8404346ef5ad767df95f03c6119a92eb26 -> a20436004891074a7f9cf5939d6d33cb927f7da4d70a29234dcfbe08a0d2ee54
+~ -[ACCPlatformPluginWiFiSharing initPlugin].cold.1 : sha256 1e95849e2d4b0d8743ba660ffe7dcdb15c1eef88eb78ac905d00d4b278c30f71 -> c778dcdf313c43611331ad097b099a587635f89fc88a7989af54da7de1e81e0b
+~ -[ACCPlatformPluginWiFiSharing handleAccessoryWiFiInformationForWirelessCarPlay:].cold.4 : sha256 e3fe2f85efa8d08b82f9efbcd04ac86c574c838d59d57ba9d65d8535e859cc69 -> dfd948c0b4b8053b07b3b5eff9ba2531c74b816331e956aae3fc0b20ca5fe592
+~ -[ACCPlatformPluginWiFiSharing handleAccessoryWiFiInformationForWirelessCarPlay:].cold.5 : sha256 3bdf7c8a469f2e16f053f67545a54a574eb1fb4c98f1d1741059344fe918ee2f -> f8fd8a05e1a820580e776b06beece6e3c65c2795bbb38eee9a7b5512b997ae0f
+~ ___logObjectForModule_block_invoke.cold.1 : sha256 ad2f76459f6ad7246a6cddacb96d02f2f13a5d42f60318d3720c16d219390341 -> 00cf82efd592ac26c9f04709d8032b58ee9e4b006ec7f5e1a1be8a3c9c94baa9
+~ ___init_logging_modules_block_invoke.cold.1 : sha256 e9278eb3f434c2c58b9f3ef4d8eea4ee4b5679bb1752b188763f6d34c9c85d2e -> 28a74cc68846eb45200af51725da1476caff3a0b4f2df26b6acafd1a4ac4ad89
+
+```

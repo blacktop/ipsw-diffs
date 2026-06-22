@@ -1,0 +1,4151 @@
+## SiriInstrumentation
+
+> `/System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation`
+
+```diff
+
+-3600.69.7.0.0
+-  __TEXT.__text: 0xcfa048 sha256:e44b7c2314482c0f34c6281e12161fbfd296640da86d8fe56f6cdf9fe4f0ec9a
+-  __TEXT.__objc_methlist: 0x10043c sha256:eb8d6b237a21f80f8c44185ea1bec8cfa396d0ee9c44382f3812e9033d3707e6
+-  __TEXT.__const: 0x16af4 sha256:137717345fc390b2edb3a59f1291a017315d8dd27c7f3de493d5520ff2e62b30
+-  __TEXT.__swift5_typeref: 0x1dad sha256:8881885a930462418db9e14c57340c5cc9418f9e35da8cba8621df600669fb56
+-  __TEXT.__cstring: 0x90908 sha256:ebebfd53468c29e1c9a230e5ec46044d7131dfd1feca629001bf3ebd2af4edc3
+-  __TEXT.__constg_swiftt: 0x7a0c sha256:55325cd250c699a3a7f5fea1ed038809299f955557ed5be823ba99799eca8c24
++3600.77.1.0.0
++  __TEXT.__text: 0xd5604c sha256:84a305b010109bd9b959d92839b9719bd4c7b28c1308639d04bfddcd8633c86c
++  __TEXT.__objc_methlist: 0x1070fc sha256:a21e19b816621ec54d190a0727c25f5d5a6b69c4796e8988fa00af4ae51e6117
++  __TEXT.__const: 0x17570 sha256:a762131aa4bf872c18e99eb7a715f1e4af83d5c13175d7e36722ff19293a8fbc
++  __TEXT.__swift5_typeref: 0x1e88 sha256:cfd5743df4d1924332b5d1f79e14d41911eb34ec7ef9f387872386f7aad5e9ef
++  __TEXT.__cstring: 0x9393d sha256:deea96e1b186c5af118760dc51a56ee87314d606784c7baff10fadb02e6f1959
++  __TEXT.__constg_swiftt: 0x7db4 sha256:d97783ae0a12ece5008fac53d35b8d608e8b081326422196459851dc18c27ce6
+   __TEXT.__swift5_reflstr: 0x21d sha256:57d035ac9817dcda61081ef1400f33ed54c97b61fd754e1cae797bb92a469b0f
+-  __TEXT.__swift5_fieldmd: 0x44c sha256:973639e7e20253f71e549a51a962c252f9520485e653fa2e6114731d69fdc338
+-  __TEXT.__swift5_builtin: 0x4718 sha256:31b25e88675234a7bd9a1c876c1038f129dde75a4528abee8359561d16692bd2
+-  __TEXT.__swift5_assocty: 0x150 sha256:b819203cac34a9108ca369efe92d090b96f31161b3d70c39e7793f17c03f4520
+-  __TEXT.__swift5_proto: 0x12ec sha256:c396a443fa4a7c33cc7914e77fd2cb96084085d9e8886d376fab06db90ba17e9
+-  __TEXT.__swift5_types: 0xe8c sha256:ea9048e5a7678a4744db678df95b457cc0b03966f9fc6c7ca91f54c0e1b45f5a
++  __TEXT.__swift5_fieldmd: 0x45c sha256:45a7a666d2d05ff494cc169acd196771e3a364201890aeb207d40114298408d7
++  __TEXT.__swift5_builtin: 0x4948 sha256:4f64ec72a63d137a827796206a36f602e09bef36da9690da798be7ba10795ffa
++  __TEXT.__swift5_assocty: 0x150 sha256:a8499d7e91c6d41aa23adc5318ff87160360623f076878c68a00bca7cb6fb191
++  __TEXT.__swift5_proto: 0x1360 sha256:62518b63e3b6510d43a74b8264ea2505c53091b0e6a0f087bf65581768876e80
++  __TEXT.__swift5_types: 0xefc sha256:c4b4bb9b0d6a5907d98273349da64cdb98642ea3aca68af70bc2bb34c0c84268
+   __TEXT.__oslogstring: 0xc1 sha256:f2aa688a0cf7b88eb6a9004a7c71e13438a97df82dda456ad183afc2d0bcea0b
+-  __TEXT.__swift5_protos: 0x20 sha256:c8839f777b5402cc5d37b294b9923e223b5ffc3995822585004992a610bd95ef
+-  __TEXT.__unwind_info: 0x31eb8 sha256:a1978b6c873c8e9672bb70027101f0dab9394a541c82aff8f33a73aef6b7171c
+-  __TEXT.__eh_frame: 0x47f0 sha256:a923fb0b909c004d4997a1b8017d4a76ff25aaa1e538f6cad5cab2a1c61e1ab9
++  __TEXT.__swift5_protos: 0x24 sha256:dc436741493a6fd7b6c4794ec1dedc4135fe273b3a0b18bc3eef51df91e92e72
++  __TEXT.__unwind_info: 0x334b8 sha256:45eb8c8e45968ad8c6c92f274ab6119964b3efd85b3c885ceb4e921b018a7261
++  __TEXT.__eh_frame: 0x47f8 sha256:24fa66be744d523d863fae1ca4a2c74ffa7c8387e1364cfdf3b41ce41f13e8f0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x3be48 sha256:bc08806fef7474cd116e9863533f399a0d729caccc31091d67dffeb5ceea06a3
+-  __DATA_CONST.__objc_classlist: 0x63f0 sha256:87e655d62e30e44ea49ea4dc3e047a22811fd6b4c73a17cad22d9ebb350b68d4
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:1c1bb5e165cd6757fe72ecf6ffb501f0600b13333f05748ec11b0e6bb61e8266
+-  __DATA_CONST.__objc_protolist: 0x30 sha256:852f15cbd7697cf44a7addbde78cbd2561ab27dfc18765e4471e8d098d108973
++  __DATA_CONST.__const: 0x3d020 sha256:bf68e247c2fe6cdbe91a0ff41518c38afd3b820e9b19922b6f3840dff5384134
++  __DATA_CONST.__objc_classlist: 0x66f0 sha256:523021baccd369dfff7b06cb06ea8cb524fa84c7262858842e6fb56a50910ba9
++  __DATA_CONST.__objc_catlist: 0x10 sha256:95ec8a1b7e49d5d792dd5188e2b93d65d5812ee39579051c3b76bec1bd600da6
++  __DATA_CONST.__objc_protolist: 0x30 sha256:535c87b80b807edea59688bcc7504a99ed2b7d9ebbc065f29b78672b71dde400
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x40828 sha256:39035781e7d91d9832a7a761b4812d6a2290f9d0f933154fda7a0fb6a216f742
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:ebca533e1e167ad4b1c46af32e915c11cf7177705e26f944afdf0391ab6ca4ba
+-  __DATA_CONST.__objc_superrefs: 0x63a0 sha256:3cf742effd05bb3230521dc97d2f334a60bf812664ee80ece6282ddb1481e34b
+-  __DATA_CONST.__got: 0x6528 sha256:569a2f6e0f8663b330fbf9340d9f6a6ff424afa1ced24939cf3956cb5552881e
+-  __AUTH_CONST.__const: 0x24799 sha256:8278ba13a3fb35cf3a697c08017a02a0a7e78e91f6e43c97cf3a9040283b7fce
+-  __AUTH_CONST.__cfstring: 0x7c060 sha256:2bcb904acb9ff69b4e461c70cf63db243086ce7ceb0a24d3c43aa40f2d9329a1
+-  __AUTH_CONST.__objc_const: 0x16ece0 sha256:acff9faeda28a96d6fa779e66d4bf7b79c108ff9054a942c1fd83f7cccfc9d66
+-  __AUTH_CONST.__objc_intobj: 0xc48 sha256:42ba7851db445a5b3c8625623f213f5e51e8cb4aafaf8b79b12c1b95ce774836
++  __DATA_CONST.__objc_selrefs: 0x41e28 sha256:dfb58d3a634bbf3008d606fde6d07fe1e90166a9f68f5a08f66113cfc60b20c0
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:a113defeeb3683a3f98d58700fc1622cf1f8aea14a76947d35bb83aac2cd190b
++  __DATA_CONST.__objc_superrefs: 0x66a0 sha256:20a64bb2442454239fcf12c4112e10da1a122ea01e9f8e75bd7b7cdf83fd881b
++  __DATA_CONST.__got: 0x6828 sha256:5317cf96a2df3c4d38ec839ff987a90084cc33cb2a7cc402b5cc4ea9616ecf87
++  __AUTH_CONST.__const: 0x24549 sha256:6ab60022945907c0908a6c4a89e0c6430741ca80430ab149437a117da616b0d2
++  __AUTH_CONST.__cfstring: 0x7eaa0 sha256:7a1339b58eb335ce72e055ff6837334b79b4aa6e6623ab52fa86535f0d4d00e2
++  __AUTH_CONST.__objc_const: 0x178d10 sha256:839f4a304879737a3a6af82f47bb4a0d8b9d65df42843c1be1a94409cd28a164
++  __AUTH_CONST.__objc_intobj: 0xc48 sha256:b41587710f5648ccd1b8599312d4dfa785550d7de4cd47b3f33984d49e1dd3dc
+   __AUTH_CONST.__auth_got: 0x930 sha256:f81c4fa3aa1ad49efe00502d9d9a92330a660f1b0325d9184f23bf478e96e22e
+-  __AUTH.__objc_data: 0x19ca8 sha256:33b10822de6bbd886c995dcb45f98313a260c63b7741611e15a301d2b73ed40b
+-  __DATA.__objc_ivar: 0x120ec sha256:53239f7880d890282139c006e4fac1b0d66d9f56356fe0c3b53a7e941897f6ac
+-  __DATA.__data: 0x3318 sha256:e52e86b8384bd0a5100745df800f1514088a0390bf1acc31053fc9d5f555bdad
+-  __DATA.__bss: 0x1e380 sha256:a1908a689b3e68cd15817205fa44dcc01d6dde7f1c173fb344ac7748573a819a
++  __AUTH.__objc_data: 0x1baa8 sha256:265f89bd81ffa93a17311ef2616617a8e3510b934eb0ac381704af124f1734a6
++  __DATA.__objc_ivar: 0x12864 sha256:07b48da4510693c56e5a3b29bbd1a7af5bad9ffbfd42a9256d335b3b1a16874b
++  __DATA.__data: 0x3408 sha256:bf3fbff7683bb0109304a5e203f21dfb00b50b9b7d986c53d303f8d4468ad498
++  __DATA.__bss: 0x1f180 sha256:474be75110624b0d0fc31c76330ee5429f6220a06d1f9c38f18c4961b0cc05ac
+   __DATA.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_DIRTY.__objc_data: 0x24d28 sha256:2680fa1eabbf2030b13421dd1ae62659c3f9c2f92e07bce4d81eef52548c1d8f
+-  __DATA_DIRTY.__data: 0x3b8 sha256:c65b87222d42278315f1b3fdaeeef11941dc22de1d92a39b55084c0090e2b020
++  __DATA_DIRTY.__objc_data: 0x24d28 sha256:48c9a84177eaa6a925bcb1cb0069cea208fdacd1a7b60e6c45c237dc6a7cc9af
++  __DATA_DIRTY.__data: 0x3b8 sha256:c6a43a8e38f03e0b8bf2285ca95366cd32fd2e0fa8d68b10e7ce30403d98ee81
+   __DATA_DIRTY.__common: 0x38 sha256:d7bcdf878eacb6d3d03ec380a05252ef4d8498580aceda2e18e8925b50fa6e22
+   __DATA_DIRTY.__bss: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 850F7F16-D53C-3FCB-9D47-DDB273974A67
+-  Functions: 90362
+-  Symbols:   225792
+-  CStrings:  32852
++  UUID: 742E214A-5892-3091-B8C8-23FD77B6F491
++  Functions: 92694
++  Symbols:   231740
++  CStrings:  33535
+ 
+Symbols:
++ +[CPSchemaCPClientEvent(Component) joinability]
++ +[CPSchemaCPClientEvent(InnerEventContainer) getInnerTypeStringByTag:]
++ -[ASRSchemaASRAcousticRetrievalMetrics deleteNumEntitiesRetrieved]
++ -[ASRSchemaASRAcousticRetrievalMetrics hasNumEntitiesRetrieved]
++ -[ASRSchemaASRAcousticRetrievalMetrics numEntitiesRetrieved]
++ -[ASRSchemaASRAcousticRetrievalMetrics setHasNumEntitiesRetrieved:]
++ -[ASRSchemaASRAcousticRetrievalMetrics setNumEntitiesRetrieved:]
++ -[ASRSchemaASRClientEvent deleteFirstAppleFoundationModelOutputTokenReceived]
++ -[ASRSchemaASRClientEvent firstAppleFoundationModelOutputTokenReceived]
++ -[ASRSchemaASRClientEvent hasFirstAppleFoundationModelOutputTokenReceived]
++ -[ASRSchemaASRClientEvent setFirstAppleFoundationModelOutputTokenReceived:]
++ -[ASRSchemaASRClientEvent setHasFirstAppleFoundationModelOutputTokenReceived:]
++ -[ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived deleteExists]
++ -[ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived dictionaryRepresentation]
++ -[ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived exists]
++ -[ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived hasExists]
++ -[ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived hash]
++ -[ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived initWithDictionary:]
++ -[ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived initWithJSON:]
++ -[ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived isEqual:]
++ -[ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived jsonData]
++ -[ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived readFrom:]
++ -[ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived setExists:]
++ -[ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived setHasExists:]
++ -[ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived writeTo:]
++ -[ASRSchemaASRRecognitionMetrics addBackboneResponseLatenciesInMs:]
++ -[ASRSchemaASRRecognitionMetrics backboneResponseLatenciesInMsAtIndex:]
++ -[ASRSchemaASRRecognitionMetrics backboneResponseLatenciesInMsCount]
++ -[ASRSchemaASRRecognitionMetrics backboneResponseLatenciesInMs]
++ -[ASRSchemaASRRecognitionMetrics clearBackboneResponseLatenciesInMs]
++ -[ASRSchemaASRRecognitionMetrics deleteBackboneResponseLatenciesInMs]
++ -[ASRSchemaASRRecognitionMetrics deleteHasInvalidSpeechProfileEntities]
++ -[ASRSchemaASRRecognitionMetrics deleteIsSpeechProfileRejected]
++ -[ASRSchemaASRRecognitionMetrics deleteIsSpeechProfileUsed]
++ -[ASRSchemaASRRecognitionMetrics deleteNumActivatedNCBVQEntities]
++ -[ASRSchemaASRRecognitionMetrics hasHasInvalidSpeechProfileEntities]
++ -[ASRSchemaASRRecognitionMetrics hasInvalidSpeechProfileEntities]
++ -[ASRSchemaASRRecognitionMetrics hasIsSpeechProfileRejected]
++ -[ASRSchemaASRRecognitionMetrics hasIsSpeechProfileUsed]
++ -[ASRSchemaASRRecognitionMetrics hasNumActivatedNCBVQEntities]
++ -[ASRSchemaASRRecognitionMetrics isSpeechProfileRejected]
++ -[ASRSchemaASRRecognitionMetrics isSpeechProfileUsed]
++ -[ASRSchemaASRRecognitionMetrics numActivatedNCBVQEntities]
++ -[ASRSchemaASRRecognitionMetrics setBackboneResponseLatenciesInMs:]
++ -[ASRSchemaASRRecognitionMetrics setHasHasInvalidSpeechProfileEntities:]
++ -[ASRSchemaASRRecognitionMetrics setHasInvalidSpeechProfileEntities:]
++ -[ASRSchemaASRRecognitionMetrics setHasIsSpeechProfileRejected:]
++ -[ASRSchemaASRRecognitionMetrics setHasIsSpeechProfileUsed:]
++ -[ASRSchemaASRRecognitionMetrics setHasNumActivatedNCBVQEntities:]
++ -[ASRSchemaASRRecognitionMetrics setIsSpeechProfileRejected:]
++ -[ASRSchemaASRRecognitionMetrics setIsSpeechProfileUsed:]
++ -[ASRSchemaASRRecognitionMetrics setNumActivatedNCBVQEntities:]
++ -[ASRSchemaASRStarted areIFPAssetsInstalled]
++ -[ASRSchemaASRStarted deleteAreIFPAssetsInstalled]
++ -[ASRSchemaASRStarted deleteIsDeviceIFPEligible]
++ -[ASRSchemaASRStarted hasAreIFPAssetsInstalled]
++ -[ASRSchemaASRStarted hasIsDeviceIFPEligible]
++ -[ASRSchemaASRStarted isDeviceIFPEligible]
++ -[ASRSchemaASRStarted setAreIFPAssetsInstalled:]
++ -[ASRSchemaASRStarted setHasAreIFPAssetsInstalled:]
++ -[ASRSchemaASRStarted setHasIsDeviceIFPEligible:]
++ -[ASRSchemaASRStarted setIsDeviceIFPEligible:]
++ -[ASRSpeechProfileSchemaASRSpeechVectorDatabaseUpdateStarted deleteIsNCBVQUpdate]
++ -[ASRSpeechProfileSchemaASRSpeechVectorDatabaseUpdateStarted hasIsNCBVQUpdate]
++ -[ASRSpeechProfileSchemaASRSpeechVectorDatabaseUpdateStarted isNCBVQUpdate]
++ -[ASRSpeechProfileSchemaASRSpeechVectorDatabaseUpdateStarted setHasIsNCBVQUpdate:]
++ -[ASRSpeechProfileSchemaASRSpeechVectorDatabaseUpdateStarted setIsNCBVQUpdate:]
++ -[CHSchemaCHClientEvent deleteGoalCompletionInferenceGenerated]
++ -[CHSchemaCHClientEvent goalCompletionInferenceGenerated]
++ -[CHSchemaCHClientEvent hasGoalCompletionInferenceGenerated]
++ -[CHSchemaCHClientEvent setGoalCompletionInferenceGenerated:]
++ -[CHSchemaCHClientEvent setHasGoalCompletionInferenceGenerated:]
++ -[CHSchemaCHGoalCompletionInferenceGenerated .cxx_destruct]
++ -[CHSchemaCHGoalCompletionInferenceGenerated deleteEvaluatorMetadata]
++ -[CHSchemaCHGoalCompletionInferenceGenerated deleteGoalCompletionInferenceMetadata]
++ -[CHSchemaCHGoalCompletionInferenceGenerated dictionaryRepresentation]
++ -[CHSchemaCHGoalCompletionInferenceGenerated evaluatorMetadata]
++ -[CHSchemaCHGoalCompletionInferenceGenerated goalCompletionInferenceMetadata]
++ -[CHSchemaCHGoalCompletionInferenceGenerated hasEvaluatorMetadata]
++ -[CHSchemaCHGoalCompletionInferenceGenerated hasGoalCompletionInferenceMetadata]
++ -[CHSchemaCHGoalCompletionInferenceGenerated hash]
++ -[CHSchemaCHGoalCompletionInferenceGenerated initWithDictionary:]
++ -[CHSchemaCHGoalCompletionInferenceGenerated initWithJSON:]
++ -[CHSchemaCHGoalCompletionInferenceGenerated isEqual:]
++ -[CHSchemaCHGoalCompletionInferenceGenerated jsonData]
++ -[CHSchemaCHGoalCompletionInferenceGenerated readFrom:]
++ -[CHSchemaCHGoalCompletionInferenceGenerated setEvaluatorMetadata:]
++ -[CHSchemaCHGoalCompletionInferenceGenerated setGoalCompletionInferenceMetadata:]
++ -[CHSchemaCHGoalCompletionInferenceGenerated setHasEvaluatorMetadata:]
++ -[CHSchemaCHGoalCompletionInferenceGenerated setHasGoalCompletionInferenceMetadata:]
++ -[CHSchemaCHGoalCompletionInferenceGenerated writeTo:]
++ -[CHSchemaCHGoalCompletionInferenceMetadata deleteFailureReason]
++ -[CHSchemaCHGoalCompletionInferenceMetadata deleteGoalCompletionScore]
++ -[CHSchemaCHGoalCompletionInferenceMetadata deleteGoalCompletionStatus]
++ -[CHSchemaCHGoalCompletionInferenceMetadata dictionaryRepresentation]
++ -[CHSchemaCHGoalCompletionInferenceMetadata failureReason]
++ -[CHSchemaCHGoalCompletionInferenceMetadata goalCompletionScore]
++ -[CHSchemaCHGoalCompletionInferenceMetadata goalCompletionStatus]
++ -[CHSchemaCHGoalCompletionInferenceMetadata hasFailureReason]
++ -[CHSchemaCHGoalCompletionInferenceMetadata hasGoalCompletionScore]
++ -[CHSchemaCHGoalCompletionInferenceMetadata hasGoalCompletionStatus]
++ -[CHSchemaCHGoalCompletionInferenceMetadata hash]
++ -[CHSchemaCHGoalCompletionInferenceMetadata initWithDictionary:]
++ -[CHSchemaCHGoalCompletionInferenceMetadata initWithJSON:]
++ -[CHSchemaCHGoalCompletionInferenceMetadata isEqual:]
++ -[CHSchemaCHGoalCompletionInferenceMetadata jsonData]
++ -[CHSchemaCHGoalCompletionInferenceMetadata readFrom:]
++ -[CHSchemaCHGoalCompletionInferenceMetadata setFailureReason:]
++ -[CHSchemaCHGoalCompletionInferenceMetadata setGoalCompletionScore:]
++ -[CHSchemaCHGoalCompletionInferenceMetadata setGoalCompletionStatus:]
++ -[CHSchemaCHGoalCompletionInferenceMetadata setHasFailureReason:]
++ -[CHSchemaCHGoalCompletionInferenceMetadata setHasGoalCompletionScore:]
++ -[CHSchemaCHGoalCompletionInferenceMetadata setHasGoalCompletionStatus:]
++ -[CHSchemaCHGoalCompletionInferenceMetadata writeTo:]
++ -[CPRSchemaCPRActivationReason .cxx_destruct]
++ -[CPRSchemaCPRActivationReason arbitrationReason]
++ -[CPRSchemaCPRActivationReason deleteArbitrationReason]
++ -[CPRSchemaCPRActivationReason deleteKind]
++ -[CPRSchemaCPRActivationReason dictionaryRepresentation]
++ -[CPRSchemaCPRActivationReason hasArbitrationReason]
++ -[CPRSchemaCPRActivationReason hasKind]
++ -[CPRSchemaCPRActivationReason hash]
++ -[CPRSchemaCPRActivationReason initWithDictionary:]
++ -[CPRSchemaCPRActivationReason initWithJSON:]
++ -[CPRSchemaCPRActivationReason isEqual:]
++ -[CPRSchemaCPRActivationReason jsonData]
++ -[CPRSchemaCPRActivationReason kind]
++ -[CPRSchemaCPRActivationReason readFrom:]
++ -[CPRSchemaCPRActivationReason setArbitrationReason:]
++ -[CPRSchemaCPRActivationReason setHasArbitrationReason:]
++ -[CPRSchemaCPRActivationReason setHasKind:]
++ -[CPRSchemaCPRActivationReason setKind:]
++ -[CPRSchemaCPRActivationReason writeTo:]
++ -[CPRSchemaCPRActiveRuntimeSwitched .cxx_destruct]
++ -[CPRSchemaCPRActiveRuntimeSwitched deleteOriginatingRuntime]
++ -[CPRSchemaCPRActiveRuntimeSwitched deleteReason]
++ -[CPRSchemaCPRActiveRuntimeSwitched deleteTargetRuntime]
++ -[CPRSchemaCPRActiveRuntimeSwitched dictionaryRepresentation]
++ -[CPRSchemaCPRActiveRuntimeSwitched hasOriginatingRuntime]
++ -[CPRSchemaCPRActiveRuntimeSwitched hasReason]
++ -[CPRSchemaCPRActiveRuntimeSwitched hasTargetRuntime]
++ -[CPRSchemaCPRActiveRuntimeSwitched hash]
++ -[CPRSchemaCPRActiveRuntimeSwitched initWithDictionary:]
++ -[CPRSchemaCPRActiveRuntimeSwitched initWithJSON:]
++ -[CPRSchemaCPRActiveRuntimeSwitched isEqual:]
++ -[CPRSchemaCPRActiveRuntimeSwitched jsonData]
++ -[CPRSchemaCPRActiveRuntimeSwitched originatingRuntime]
++ -[CPRSchemaCPRActiveRuntimeSwitched readFrom:]
++ -[CPRSchemaCPRActiveRuntimeSwitched reason]
++ -[CPRSchemaCPRActiveRuntimeSwitched setHasOriginatingRuntime:]
++ -[CPRSchemaCPRActiveRuntimeSwitched setHasReason:]
++ -[CPRSchemaCPRActiveRuntimeSwitched setHasTargetRuntime:]
++ -[CPRSchemaCPRActiveRuntimeSwitched setOriginatingRuntime:]
++ -[CPRSchemaCPRActiveRuntimeSwitched setReason:]
++ -[CPRSchemaCPRActiveRuntimeSwitched setTargetRuntime:]
++ -[CPRSchemaCPRActiveRuntimeSwitched targetRuntime]
++ -[CPRSchemaCPRActiveRuntimeSwitched writeTo:]
++ -[CPRSchemaCPRArbitrationActivationReason .cxx_destruct]
++ -[CPRSchemaCPRArbitrationActivationReason deleteKind]
++ -[CPRSchemaCPRArbitrationActivationReason deleteRecoveryReason]
++ -[CPRSchemaCPRArbitrationActivationReason dictionaryRepresentation]
++ -[CPRSchemaCPRArbitrationActivationReason hasKind]
++ -[CPRSchemaCPRArbitrationActivationReason hasRecoveryReason]
++ -[CPRSchemaCPRArbitrationActivationReason hash]
++ -[CPRSchemaCPRArbitrationActivationReason initWithDictionary:]
++ -[CPRSchemaCPRArbitrationActivationReason initWithJSON:]
++ -[CPRSchemaCPRArbitrationActivationReason isEqual:]
++ -[CPRSchemaCPRArbitrationActivationReason jsonData]
++ -[CPRSchemaCPRArbitrationActivationReason kind]
++ -[CPRSchemaCPRArbitrationActivationReason readFrom:]
++ -[CPRSchemaCPRArbitrationActivationReason recoveryReason]
++ -[CPRSchemaCPRArbitrationActivationReason setHasKind:]
++ -[CPRSchemaCPRArbitrationActivationReason setHasRecoveryReason:]
++ -[CPRSchemaCPRArbitrationActivationReason setKind:]
++ -[CPRSchemaCPRArbitrationActivationReason setRecoveryReason:]
++ -[CPRSchemaCPRArbitrationActivationReason writeTo:]
++ -[CPRSchemaCPRClientEvent activeRuntimeSwitched]
++ -[CPRSchemaCPRClientEvent deleteActiveRuntimeSwitched]
++ -[CPRSchemaCPRClientEvent hasActiveRuntimeSwitched]
++ -[CPRSchemaCPRClientEvent setActiveRuntimeSwitched:]
++ -[CPRSchemaCPRClientEvent setHasActiveRuntimeSwitched:]
++ -[CPRSchemaCPRConditionFailure .cxx_destruct]
++ -[CPRSchemaCPRConditionFailure conditionType]
++ -[CPRSchemaCPRConditionFailure deleteConditionType]
++ -[CPRSchemaCPRConditionFailure deleteEligibilityType]
++ -[CPRSchemaCPRConditionFailure dictionaryRepresentation]
++ -[CPRSchemaCPRConditionFailure eligibilityType]
++ -[CPRSchemaCPRConditionFailure hasConditionType]
++ -[CPRSchemaCPRConditionFailure hasEligibilityType]
++ -[CPRSchemaCPRConditionFailure hash]
++ -[CPRSchemaCPRConditionFailure initWithDictionary:]
++ -[CPRSchemaCPRConditionFailure initWithJSON:]
++ -[CPRSchemaCPRConditionFailure isEqual:]
++ -[CPRSchemaCPRConditionFailure jsonData]
++ -[CPRSchemaCPRConditionFailure readFrom:]
++ -[CPRSchemaCPRConditionFailure setConditionType:]
++ -[CPRSchemaCPRConditionFailure setEligibilityType:]
++ -[CPRSchemaCPRConditionFailure setHasConditionType:]
++ -[CPRSchemaCPRConditionFailure setHasEligibilityType:]
++ -[CPRSchemaCPRConditionFailure writeTo:]
++ -[CPRSchemaCPRConditionType .cxx_destruct]
++ -[CPRSchemaCPRConditionType addPolicies:]
++ -[CPRSchemaCPRConditionType clearPolicies]
++ -[CPRSchemaCPRConditionType deleteKind]
++ -[CPRSchemaCPRConditionType deletePolicies]
++ -[CPRSchemaCPRConditionType dictionaryRepresentation]
++ -[CPRSchemaCPRConditionType hasKind]
++ -[CPRSchemaCPRConditionType hash]
++ -[CPRSchemaCPRConditionType initWithDictionary:]
++ -[CPRSchemaCPRConditionType initWithJSON:]
++ -[CPRSchemaCPRConditionType isEqual:]
++ -[CPRSchemaCPRConditionType jsonData]
++ -[CPRSchemaCPRConditionType kind]
++ -[CPRSchemaCPRConditionType policiesAtIndex:]
++ -[CPRSchemaCPRConditionType policiesCount]
++ -[CPRSchemaCPRConditionType policies]
++ -[CPRSchemaCPRConditionType readFrom:]
++ -[CPRSchemaCPRConditionType setHasKind:]
++ -[CPRSchemaCPRConditionType setKind:]
++ -[CPRSchemaCPRConditionType setPolicies:]
++ -[CPRSchemaCPRConditionType writeTo:]
++ -[CPRSchemaCPREligibilityType .cxx_destruct]
++ -[CPRSchemaCPREligibilityType deleteKind]
++ -[CPRSchemaCPREligibilityType deleteRuntime]
++ -[CPRSchemaCPREligibilityType dictionaryRepresentation]
++ -[CPRSchemaCPREligibilityType hasKind]
++ -[CPRSchemaCPREligibilityType hasRuntime]
++ -[CPRSchemaCPREligibilityType hash]
++ -[CPRSchemaCPREligibilityType initWithDictionary:]
++ -[CPRSchemaCPREligibilityType initWithJSON:]
++ -[CPRSchemaCPREligibilityType isEqual:]
++ -[CPRSchemaCPREligibilityType jsonData]
++ -[CPRSchemaCPREligibilityType kind]
++ -[CPRSchemaCPREligibilityType readFrom:]
++ -[CPRSchemaCPREligibilityType runtime]
++ -[CPRSchemaCPREligibilityType setHasKind:]
++ -[CPRSchemaCPREligibilityType setHasRuntime:]
++ -[CPRSchemaCPREligibilityType setKind:]
++ -[CPRSchemaCPREligibilityType setRuntime:]
++ -[CPRSchemaCPREligibilityType writeTo:]
++ -[CPRSchemaCPRRecoveryInvocationReason .cxx_destruct]
++ -[CPRSchemaCPRRecoveryInvocationReason deleteSource]
++ -[CPRSchemaCPRRecoveryInvocationReason dictionaryRepresentation]
++ -[CPRSchemaCPRRecoveryInvocationReason hasSource]
++ -[CPRSchemaCPRRecoveryInvocationReason hash]
++ -[CPRSchemaCPRRecoveryInvocationReason initWithDictionary:]
++ -[CPRSchemaCPRRecoveryInvocationReason initWithJSON:]
++ -[CPRSchemaCPRRecoveryInvocationReason isEqual:]
++ -[CPRSchemaCPRRecoveryInvocationReason jsonData]
++ -[CPRSchemaCPRRecoveryInvocationReason readFrom:]
++ -[CPRSchemaCPRRecoveryInvocationReason setHasSource:]
++ -[CPRSchemaCPRRecoveryInvocationReason setSource:]
++ -[CPRSchemaCPRRecoveryInvocationReason source]
++ -[CPRSchemaCPRRecoveryInvocationReason writeTo:]
++ -[CPRSchemaCPRRecoverySource .cxx_destruct]
++ -[CPRSchemaCPRRecoverySource conditionFailure]
++ -[CPRSchemaCPRRecoverySource deleteConditionFailure]
++ -[CPRSchemaCPRRecoverySource deleteEligibilityCheckRuntime]
++ -[CPRSchemaCPRRecoverySource deleteKind]
++ -[CPRSchemaCPRRecoverySource dictionaryRepresentation]
++ -[CPRSchemaCPRRecoverySource eligibilityCheckRuntime]
++ -[CPRSchemaCPRRecoverySource hasConditionFailure]
++ -[CPRSchemaCPRRecoverySource hasEligibilityCheckRuntime]
++ -[CPRSchemaCPRRecoverySource hasKind]
++ -[CPRSchemaCPRRecoverySource hash]
++ -[CPRSchemaCPRRecoverySource initWithDictionary:]
++ -[CPRSchemaCPRRecoverySource initWithJSON:]
++ -[CPRSchemaCPRRecoverySource isEqual:]
++ -[CPRSchemaCPRRecoverySource jsonData]
++ -[CPRSchemaCPRRecoverySource kind]
++ -[CPRSchemaCPRRecoverySource readFrom:]
++ -[CPRSchemaCPRRecoverySource setConditionFailure:]
++ -[CPRSchemaCPRRecoverySource setEligibilityCheckRuntime:]
++ -[CPRSchemaCPRRecoverySource setHasConditionFailure:]
++ -[CPRSchemaCPRRecoverySource setHasEligibilityCheckRuntime:]
++ -[CPRSchemaCPRRecoverySource setHasKind:]
++ -[CPRSchemaCPRRecoverySource setKind:]
++ -[CPRSchemaCPRRecoverySource writeTo:]
++ -[CPRSchemaCPRRuntimeDetails .cxx_destruct]
++ -[CPRSchemaCPRRuntimeDetails deleteIfSessionId]
++ -[CPRSchemaCPRRuntimeDetails deleteRuntimeType]
++ -[CPRSchemaCPRRuntimeDetails dictionaryRepresentation]
++ -[CPRSchemaCPRRuntimeDetails hasIfSessionId]
++ -[CPRSchemaCPRRuntimeDetails hasRuntimeType]
++ -[CPRSchemaCPRRuntimeDetails hash]
++ -[CPRSchemaCPRRuntimeDetails ifSessionId]
++ -[CPRSchemaCPRRuntimeDetails initWithDictionary:]
++ -[CPRSchemaCPRRuntimeDetails initWithJSON:]
++ -[CPRSchemaCPRRuntimeDetails isEqual:]
++ -[CPRSchemaCPRRuntimeDetails jsonData]
++ -[CPRSchemaCPRRuntimeDetails readFrom:]
++ -[CPRSchemaCPRRuntimeDetails runtimeType]
++ -[CPRSchemaCPRRuntimeDetails setHasIfSessionId:]
++ -[CPRSchemaCPRRuntimeDetails setHasRuntimeType:]
++ -[CPRSchemaCPRRuntimeDetails setIfSessionId:]
++ -[CPRSchemaCPRRuntimeDetails setRuntimeType:]
++ -[CPRSchemaCPRRuntimeDetails writeTo:]
++ -[CPSchemaCPClientEvent .cxx_destruct]
++ -[CPSchemaCPClientEvent deleteEventMetadata]
++ -[CPSchemaCPClientEvent deleteModelInferenceContext]
++ -[CPSchemaCPClientEvent deletePredictionContext]
++ -[CPSchemaCPClientEvent deleteSkimmerInferenceContext]
++ -[CPSchemaCPClientEvent deleteWarmupContext]
++ -[CPSchemaCPClientEvent dictionaryRepresentation]
++ -[CPSchemaCPClientEvent eventMetadata]
++ -[CPSchemaCPClientEvent hasEventMetadata]
++ -[CPSchemaCPClientEvent hasModelInferenceContext]
++ -[CPSchemaCPClientEvent hasPredictionContext]
++ -[CPSchemaCPClientEvent hasSkimmerInferenceContext]
++ -[CPSchemaCPClientEvent hasWarmupContext]
++ -[CPSchemaCPClientEvent hash]
++ -[CPSchemaCPClientEvent initWithDictionary:]
++ -[CPSchemaCPClientEvent initWithJSON:]
++ -[CPSchemaCPClientEvent isEqual:]
++ -[CPSchemaCPClientEvent jsonData]
++ -[CPSchemaCPClientEvent modelInferenceContext]
++ -[CPSchemaCPClientEvent predictionContext]
++ -[CPSchemaCPClientEvent qualifiedMessageName]
++ -[CPSchemaCPClientEvent readFrom:]
++ -[CPSchemaCPClientEvent setEventMetadata:]
++ -[CPSchemaCPClientEvent setHasEventMetadata:]
++ -[CPSchemaCPClientEvent setHasModelInferenceContext:]
++ -[CPSchemaCPClientEvent setHasPredictionContext:]
++ -[CPSchemaCPClientEvent setHasSkimmerInferenceContext:]
++ -[CPSchemaCPClientEvent setHasWarmupContext:]
++ -[CPSchemaCPClientEvent setModelInferenceContext:]
++ -[CPSchemaCPClientEvent setPredictionContext:]
++ -[CPSchemaCPClientEvent setSkimmerInferenceContext:]
++ -[CPSchemaCPClientEvent setWarmupContext:]
++ -[CPSchemaCPClientEvent skimmerInferenceContext]
++ -[CPSchemaCPClientEvent warmupContext]
++ -[CPSchemaCPClientEvent whichEvent_Type]
++ -[CPSchemaCPClientEvent writeTo:]
++ -[CPSchemaCPClientEvent(Component) componentName]
++ -[CPSchemaCPClientEvent(Component) getComponentId]
++ -[CPSchemaCPClientEvent(InnerEventContainer) innerEvent]
++ -[CPSchemaCPClientEvent(InnerEventContainer) whichInnerEventType]
++ -[CPSchemaCPClientEvent(InstrumentationAdditions) getAnyEventType]
++ -[CPSchemaCPClientEventMetadata .cxx_destruct]
++ -[CPSchemaCPClientEventMetadata cpId]
++ -[CPSchemaCPClientEventMetadata deleteCpId]
++ -[CPSchemaCPClientEventMetadata dictionaryRepresentation]
++ -[CPSchemaCPClientEventMetadata hasCpId]
++ -[CPSchemaCPClientEventMetadata hash]
++ -[CPSchemaCPClientEventMetadata initWithDictionary:]
++ -[CPSchemaCPClientEventMetadata initWithJSON:]
++ -[CPSchemaCPClientEventMetadata isEqual:]
++ -[CPSchemaCPClientEventMetadata jsonData]
++ -[CPSchemaCPClientEventMetadata readFrom:]
++ -[CPSchemaCPClientEventMetadata setCpId:]
++ -[CPSchemaCPClientEventMetadata setHasCpId:]
++ -[CPSchemaCPClientEventMetadata writeTo:]
++ -[CPSchemaCPModelInferenceCanceled deleteExists]
++ -[CPSchemaCPModelInferenceCanceled dictionaryRepresentation]
++ -[CPSchemaCPModelInferenceCanceled exists]
++ -[CPSchemaCPModelInferenceCanceled hasExists]
++ -[CPSchemaCPModelInferenceCanceled hash]
++ -[CPSchemaCPModelInferenceCanceled initWithDictionary:]
++ -[CPSchemaCPModelInferenceCanceled initWithJSON:]
++ -[CPSchemaCPModelInferenceCanceled isEqual:]
++ -[CPSchemaCPModelInferenceCanceled jsonData]
++ -[CPSchemaCPModelInferenceCanceled readFrom:]
++ -[CPSchemaCPModelInferenceCanceled setExists:]
++ -[CPSchemaCPModelInferenceCanceled setHasExists:]
++ -[CPSchemaCPModelInferenceCanceled writeTo:]
++ -[CPSchemaCPModelInferenceContext .cxx_destruct]
++ -[CPSchemaCPModelInferenceContext canceled]
++ -[CPSchemaCPModelInferenceContext deleteCanceled]
++ -[CPSchemaCPModelInferenceContext deleteEnded]
++ -[CPSchemaCPModelInferenceContext deleteFailed]
++ -[CPSchemaCPModelInferenceContext deleteStartedOrChanged]
++ -[CPSchemaCPModelInferenceContext dictionaryRepresentation]
++ -[CPSchemaCPModelInferenceContext ended]
++ -[CPSchemaCPModelInferenceContext failed]
++ -[CPSchemaCPModelInferenceContext hasCanceled]
++ -[CPSchemaCPModelInferenceContext hasEnded]
++ -[CPSchemaCPModelInferenceContext hasFailed]
++ -[CPSchemaCPModelInferenceContext hasStartedOrChanged]
++ -[CPSchemaCPModelInferenceContext hash]
++ -[CPSchemaCPModelInferenceContext initWithDictionary:]
++ -[CPSchemaCPModelInferenceContext initWithJSON:]
++ -[CPSchemaCPModelInferenceContext isEqual:]
++ -[CPSchemaCPModelInferenceContext jsonData]
++ -[CPSchemaCPModelInferenceContext readFrom:]
++ -[CPSchemaCPModelInferenceContext setCanceled:]
++ -[CPSchemaCPModelInferenceContext setEnded:]
++ -[CPSchemaCPModelInferenceContext setFailed:]
++ -[CPSchemaCPModelInferenceContext setHasCanceled:]
++ -[CPSchemaCPModelInferenceContext setHasEnded:]
++ -[CPSchemaCPModelInferenceContext setHasFailed:]
++ -[CPSchemaCPModelInferenceContext setHasStartedOrChanged:]
++ -[CPSchemaCPModelInferenceContext setStartedOrChanged:]
++ -[CPSchemaCPModelInferenceContext startedOrChanged]
++ -[CPSchemaCPModelInferenceContext whichContextevent]
++ -[CPSchemaCPModelInferenceContext writeTo:]
++ -[CPSchemaCPModelInferenceEnded deleteEarlyExitReason]
++ -[CPSchemaCPModelInferenceEnded deleteIsContextRequired]
++ -[CPSchemaCPModelInferenceEnded deleteIsEarlyExit]
++ -[CPSchemaCPModelInferenceEnded deleteScore]
++ -[CPSchemaCPModelInferenceEnded deleteThreshold]
++ -[CPSchemaCPModelInferenceEnded dictionaryRepresentation]
++ -[CPSchemaCPModelInferenceEnded earlyExitReason]
++ -[CPSchemaCPModelInferenceEnded hasEarlyExitReason]
++ -[CPSchemaCPModelInferenceEnded hasIsContextRequired]
++ -[CPSchemaCPModelInferenceEnded hasIsEarlyExit]
++ -[CPSchemaCPModelInferenceEnded hasScore]
++ -[CPSchemaCPModelInferenceEnded hasThreshold]
++ -[CPSchemaCPModelInferenceEnded hash]
++ -[CPSchemaCPModelInferenceEnded initWithDictionary:]
++ -[CPSchemaCPModelInferenceEnded initWithJSON:]
++ -[CPSchemaCPModelInferenceEnded isContextRequired]
++ -[CPSchemaCPModelInferenceEnded isEarlyExit]
++ -[CPSchemaCPModelInferenceEnded isEqual:]
++ -[CPSchemaCPModelInferenceEnded jsonData]
++ -[CPSchemaCPModelInferenceEnded readFrom:]
++ -[CPSchemaCPModelInferenceEnded score]
++ -[CPSchemaCPModelInferenceEnded setEarlyExitReason:]
++ -[CPSchemaCPModelInferenceEnded setHasEarlyExitReason:]
++ -[CPSchemaCPModelInferenceEnded setHasIsContextRequired:]
++ -[CPSchemaCPModelInferenceEnded setHasIsEarlyExit:]
++ -[CPSchemaCPModelInferenceEnded setHasScore:]
++ -[CPSchemaCPModelInferenceEnded setHasThreshold:]
++ -[CPSchemaCPModelInferenceEnded setIsContextRequired:]
++ -[CPSchemaCPModelInferenceEnded setIsEarlyExit:]
++ -[CPSchemaCPModelInferenceEnded setScore:]
++ -[CPSchemaCPModelInferenceEnded setThreshold:]
++ -[CPSchemaCPModelInferenceEnded threshold]
++ -[CPSchemaCPModelInferenceEnded writeTo:]
++ -[CPSchemaCPModelInferenceFailed .cxx_destruct]
++ -[CPSchemaCPModelInferenceFailed addErrors:]
++ -[CPSchemaCPModelInferenceFailed clearErrors]
++ -[CPSchemaCPModelInferenceFailed deleteErrors]
++ -[CPSchemaCPModelInferenceFailed dictionaryRepresentation]
++ -[CPSchemaCPModelInferenceFailed errorsAtIndex:]
++ -[CPSchemaCPModelInferenceFailed errorsCount]
++ -[CPSchemaCPModelInferenceFailed errors]
++ -[CPSchemaCPModelInferenceFailed hash]
++ -[CPSchemaCPModelInferenceFailed initWithDictionary:]
++ -[CPSchemaCPModelInferenceFailed initWithJSON:]
++ -[CPSchemaCPModelInferenceFailed isEqual:]
++ -[CPSchemaCPModelInferenceFailed jsonData]
++ -[CPSchemaCPModelInferenceFailed readFrom:]
++ -[CPSchemaCPModelInferenceFailed setErrors:]
++ -[CPSchemaCPModelInferenceFailed writeTo:]
++ -[CPSchemaCPModelInferenceStarted deleteExists]
++ -[CPSchemaCPModelInferenceStarted dictionaryRepresentation]
++ -[CPSchemaCPModelInferenceStarted exists]
++ -[CPSchemaCPModelInferenceStarted hasExists]
++ -[CPSchemaCPModelInferenceStarted hash]
++ -[CPSchemaCPModelInferenceStarted initWithDictionary:]
++ -[CPSchemaCPModelInferenceStarted initWithJSON:]
++ -[CPSchemaCPModelInferenceStarted isEqual:]
++ -[CPSchemaCPModelInferenceStarted jsonData]
++ -[CPSchemaCPModelInferenceStarted readFrom:]
++ -[CPSchemaCPModelInferenceStarted setExists:]
++ -[CPSchemaCPModelInferenceStarted setHasExists:]
++ -[CPSchemaCPModelInferenceStarted writeTo:]
++ -[CPSchemaCPPredictionCanceled deleteExists]
++ -[CPSchemaCPPredictionCanceled dictionaryRepresentation]
++ -[CPSchemaCPPredictionCanceled exists]
++ -[CPSchemaCPPredictionCanceled hasExists]
++ -[CPSchemaCPPredictionCanceled hash]
++ -[CPSchemaCPPredictionCanceled initWithDictionary:]
++ -[CPSchemaCPPredictionCanceled initWithJSON:]
++ -[CPSchemaCPPredictionCanceled isEqual:]
++ -[CPSchemaCPPredictionCanceled jsonData]
++ -[CPSchemaCPPredictionCanceled readFrom:]
++ -[CPSchemaCPPredictionCanceled setExists:]
++ -[CPSchemaCPPredictionCanceled setHasExists:]
++ -[CPSchemaCPPredictionCanceled writeTo:]
++ -[CPSchemaCPPredictionContext .cxx_destruct]
++ -[CPSchemaCPPredictionContext canceled]
++ -[CPSchemaCPPredictionContext deleteCanceled]
++ -[CPSchemaCPPredictionContext deleteEnded]
++ -[CPSchemaCPPredictionContext deleteFailed]
++ -[CPSchemaCPPredictionContext deleteStartedOrChanged]
++ -[CPSchemaCPPredictionContext dictionaryRepresentation]
++ -[CPSchemaCPPredictionContext ended]
++ -[CPSchemaCPPredictionContext failed]
++ -[CPSchemaCPPredictionContext hasCanceled]
++ -[CPSchemaCPPredictionContext hasEnded]
++ -[CPSchemaCPPredictionContext hasFailed]
++ -[CPSchemaCPPredictionContext hasStartedOrChanged]
++ -[CPSchemaCPPredictionContext hash]
++ -[CPSchemaCPPredictionContext initWithDictionary:]
++ -[CPSchemaCPPredictionContext initWithJSON:]
++ -[CPSchemaCPPredictionContext isEqual:]
++ -[CPSchemaCPPredictionContext jsonData]
++ -[CPSchemaCPPredictionContext readFrom:]
++ -[CPSchemaCPPredictionContext setCanceled:]
++ -[CPSchemaCPPredictionContext setEnded:]
++ -[CPSchemaCPPredictionContext setFailed:]
++ -[CPSchemaCPPredictionContext setHasCanceled:]
++ -[CPSchemaCPPredictionContext setHasEnded:]
++ -[CPSchemaCPPredictionContext setHasFailed:]
++ -[CPSchemaCPPredictionContext setHasStartedOrChanged:]
++ -[CPSchemaCPPredictionContext setStartedOrChanged:]
++ -[CPSchemaCPPredictionContext startedOrChanged]
++ -[CPSchemaCPPredictionContext whichContextevent]
++ -[CPSchemaCPPredictionContext writeTo:]
++ -[CPSchemaCPPredictionEnded deleteDeterminationMethod]
++ -[CPSchemaCPPredictionEnded deleteEarlyExitReason]
++ -[CPSchemaCPPredictionEnded deleteIsEarlyExit]
++ -[CPSchemaCPPredictionEnded deleteResult]
++ -[CPSchemaCPPredictionEnded determinationMethod]
++ -[CPSchemaCPPredictionEnded dictionaryRepresentation]
++ -[CPSchemaCPPredictionEnded earlyExitReason]
++ -[CPSchemaCPPredictionEnded hasDeterminationMethod]
++ -[CPSchemaCPPredictionEnded hasEarlyExitReason]
++ -[CPSchemaCPPredictionEnded hasIsEarlyExit]
++ -[CPSchemaCPPredictionEnded hasResult]
++ -[CPSchemaCPPredictionEnded hash]
++ -[CPSchemaCPPredictionEnded initWithDictionary:]
++ -[CPSchemaCPPredictionEnded initWithJSON:]
++ -[CPSchemaCPPredictionEnded isEarlyExit]
++ -[CPSchemaCPPredictionEnded isEqual:]
++ -[CPSchemaCPPredictionEnded jsonData]
++ -[CPSchemaCPPredictionEnded readFrom:]
++ -[CPSchemaCPPredictionEnded result]
++ -[CPSchemaCPPredictionEnded setDeterminationMethod:]
++ -[CPSchemaCPPredictionEnded setEarlyExitReason:]
++ -[CPSchemaCPPredictionEnded setHasDeterminationMethod:]
++ -[CPSchemaCPPredictionEnded setHasEarlyExitReason:]
++ -[CPSchemaCPPredictionEnded setHasIsEarlyExit:]
++ -[CPSchemaCPPredictionEnded setHasResult:]
++ -[CPSchemaCPPredictionEnded setIsEarlyExit:]
++ -[CPSchemaCPPredictionEnded setResult:]
++ -[CPSchemaCPPredictionEnded writeTo:]
++ -[CPSchemaCPPredictionFailed .cxx_destruct]
++ -[CPSchemaCPPredictionFailed addErrors:]
++ -[CPSchemaCPPredictionFailed clearErrors]
++ -[CPSchemaCPPredictionFailed deleteErrors]
++ -[CPSchemaCPPredictionFailed dictionaryRepresentation]
++ -[CPSchemaCPPredictionFailed errorsAtIndex:]
++ -[CPSchemaCPPredictionFailed errorsCount]
++ -[CPSchemaCPPredictionFailed errors]
++ -[CPSchemaCPPredictionFailed hash]
++ -[CPSchemaCPPredictionFailed initWithDictionary:]
++ -[CPSchemaCPPredictionFailed initWithJSON:]
++ -[CPSchemaCPPredictionFailed isEqual:]
++ -[CPSchemaCPPredictionFailed jsonData]
++ -[CPSchemaCPPredictionFailed readFrom:]
++ -[CPSchemaCPPredictionFailed setErrors:]
++ -[CPSchemaCPPredictionFailed writeTo:]
++ -[CPSchemaCPPredictionStarted deleteExists]
++ -[CPSchemaCPPredictionStarted dictionaryRepresentation]
++ -[CPSchemaCPPredictionStarted exists]
++ -[CPSchemaCPPredictionStarted hasExists]
++ -[CPSchemaCPPredictionStarted hash]
++ -[CPSchemaCPPredictionStarted initWithDictionary:]
++ -[CPSchemaCPPredictionStarted initWithJSON:]
++ -[CPSchemaCPPredictionStarted isEqual:]
++ -[CPSchemaCPPredictionStarted jsonData]
++ -[CPSchemaCPPredictionStarted readFrom:]
++ -[CPSchemaCPPredictionStarted setExists:]
++ -[CPSchemaCPPredictionStarted setHasExists:]
++ -[CPSchemaCPPredictionStarted writeTo:]
++ -[CPSchemaCPSkimmerInferenceCanceled deleteExists]
++ -[CPSchemaCPSkimmerInferenceCanceled dictionaryRepresentation]
++ -[CPSchemaCPSkimmerInferenceCanceled exists]
++ -[CPSchemaCPSkimmerInferenceCanceled hasExists]
++ -[CPSchemaCPSkimmerInferenceCanceled hash]
++ -[CPSchemaCPSkimmerInferenceCanceled initWithDictionary:]
++ -[CPSchemaCPSkimmerInferenceCanceled initWithJSON:]
++ -[CPSchemaCPSkimmerInferenceCanceled isEqual:]
++ -[CPSchemaCPSkimmerInferenceCanceled jsonData]
++ -[CPSchemaCPSkimmerInferenceCanceled readFrom:]
++ -[CPSchemaCPSkimmerInferenceCanceled setExists:]
++ -[CPSchemaCPSkimmerInferenceCanceled setHasExists:]
++ -[CPSchemaCPSkimmerInferenceCanceled writeTo:]
++ -[CPSchemaCPSkimmerInferenceContext .cxx_destruct]
++ -[CPSchemaCPSkimmerInferenceContext canceled]
++ -[CPSchemaCPSkimmerInferenceContext deleteCanceled]
++ -[CPSchemaCPSkimmerInferenceContext deleteEnded]
++ -[CPSchemaCPSkimmerInferenceContext deleteFailed]
++ -[CPSchemaCPSkimmerInferenceContext deleteStartedOrChanged]
++ -[CPSchemaCPSkimmerInferenceContext dictionaryRepresentation]
++ -[CPSchemaCPSkimmerInferenceContext ended]
++ -[CPSchemaCPSkimmerInferenceContext failed]
++ -[CPSchemaCPSkimmerInferenceContext hasCanceled]
++ -[CPSchemaCPSkimmerInferenceContext hasEnded]
++ -[CPSchemaCPSkimmerInferenceContext hasFailed]
++ -[CPSchemaCPSkimmerInferenceContext hasStartedOrChanged]
++ -[CPSchemaCPSkimmerInferenceContext hash]
++ -[CPSchemaCPSkimmerInferenceContext initWithDictionary:]
++ -[CPSchemaCPSkimmerInferenceContext initWithJSON:]
++ -[CPSchemaCPSkimmerInferenceContext isEqual:]
++ -[CPSchemaCPSkimmerInferenceContext jsonData]
++ -[CPSchemaCPSkimmerInferenceContext readFrom:]
++ -[CPSchemaCPSkimmerInferenceContext setCanceled:]
++ -[CPSchemaCPSkimmerInferenceContext setEnded:]
++ -[CPSchemaCPSkimmerInferenceContext setFailed:]
++ -[CPSchemaCPSkimmerInferenceContext setHasCanceled:]
++ -[CPSchemaCPSkimmerInferenceContext setHasEnded:]
++ -[CPSchemaCPSkimmerInferenceContext setHasFailed:]
++ -[CPSchemaCPSkimmerInferenceContext setHasStartedOrChanged:]
++ -[CPSchemaCPSkimmerInferenceContext setStartedOrChanged:]
++ -[CPSchemaCPSkimmerInferenceContext startedOrChanged]
++ -[CPSchemaCPSkimmerInferenceContext whichContextevent]
++ -[CPSchemaCPSkimmerInferenceContext writeTo:]
++ -[CPSchemaCPSkimmerInferenceEnded classificationResult]
++ -[CPSchemaCPSkimmerInferenceEnded deleteClassificationResult]
++ -[CPSchemaCPSkimmerInferenceEnded dictionaryRepresentation]
++ -[CPSchemaCPSkimmerInferenceEnded hasClassificationResult]
++ -[CPSchemaCPSkimmerInferenceEnded hash]
++ -[CPSchemaCPSkimmerInferenceEnded initWithDictionary:]
++ -[CPSchemaCPSkimmerInferenceEnded initWithJSON:]
++ -[CPSchemaCPSkimmerInferenceEnded isEqual:]
++ -[CPSchemaCPSkimmerInferenceEnded jsonData]
++ -[CPSchemaCPSkimmerInferenceEnded readFrom:]
++ -[CPSchemaCPSkimmerInferenceEnded setClassificationResult:]
++ -[CPSchemaCPSkimmerInferenceEnded setHasClassificationResult:]
++ -[CPSchemaCPSkimmerInferenceEnded writeTo:]
++ -[CPSchemaCPSkimmerInferenceFailed .cxx_destruct]
++ -[CPSchemaCPSkimmerInferenceFailed addErrors:]
++ -[CPSchemaCPSkimmerInferenceFailed clearErrors]
++ -[CPSchemaCPSkimmerInferenceFailed deleteErrors]
++ -[CPSchemaCPSkimmerInferenceFailed dictionaryRepresentation]
++ -[CPSchemaCPSkimmerInferenceFailed errorsAtIndex:]
++ -[CPSchemaCPSkimmerInferenceFailed errorsCount]
++ -[CPSchemaCPSkimmerInferenceFailed errors]
++ -[CPSchemaCPSkimmerInferenceFailed hash]
++ -[CPSchemaCPSkimmerInferenceFailed initWithDictionary:]
++ -[CPSchemaCPSkimmerInferenceFailed initWithJSON:]
++ -[CPSchemaCPSkimmerInferenceFailed isEqual:]
++ -[CPSchemaCPSkimmerInferenceFailed jsonData]
++ -[CPSchemaCPSkimmerInferenceFailed readFrom:]
++ -[CPSchemaCPSkimmerInferenceFailed setErrors:]
++ -[CPSchemaCPSkimmerInferenceFailed writeTo:]
++ -[CPSchemaCPSkimmerInferenceStarted deleteExists]
++ -[CPSchemaCPSkimmerInferenceStarted dictionaryRepresentation]
++ -[CPSchemaCPSkimmerInferenceStarted exists]
++ -[CPSchemaCPSkimmerInferenceStarted hasExists]
++ -[CPSchemaCPSkimmerInferenceStarted hash]
++ -[CPSchemaCPSkimmerInferenceStarted initWithDictionary:]
++ -[CPSchemaCPSkimmerInferenceStarted initWithJSON:]
++ -[CPSchemaCPSkimmerInferenceStarted isEqual:]
++ -[CPSchemaCPSkimmerInferenceStarted jsonData]
++ -[CPSchemaCPSkimmerInferenceStarted readFrom:]
++ -[CPSchemaCPSkimmerInferenceStarted setExists:]
++ -[CPSchemaCPSkimmerInferenceStarted setHasExists:]
++ -[CPSchemaCPSkimmerInferenceStarted writeTo:]
++ -[CPSchemaCPWarmupCanceled deleteExists]
++ -[CPSchemaCPWarmupCanceled dictionaryRepresentation]
++ -[CPSchemaCPWarmupCanceled exists]
++ -[CPSchemaCPWarmupCanceled hasExists]
++ -[CPSchemaCPWarmupCanceled hash]
++ -[CPSchemaCPWarmupCanceled initWithDictionary:]
++ -[CPSchemaCPWarmupCanceled initWithJSON:]
++ -[CPSchemaCPWarmupCanceled isEqual:]
++ -[CPSchemaCPWarmupCanceled jsonData]
++ -[CPSchemaCPWarmupCanceled readFrom:]
++ -[CPSchemaCPWarmupCanceled setExists:]
++ -[CPSchemaCPWarmupCanceled setHasExists:]
++ -[CPSchemaCPWarmupCanceled writeTo:]
++ -[CPSchemaCPWarmupContext .cxx_destruct]
++ -[CPSchemaCPWarmupContext canceled]
++ -[CPSchemaCPWarmupContext deleteCanceled]
++ -[CPSchemaCPWarmupContext deleteEnded]
++ -[CPSchemaCPWarmupContext deleteFailed]
++ -[CPSchemaCPWarmupContext deleteStartedOrChanged]
++ -[CPSchemaCPWarmupContext dictionaryRepresentation]
++ -[CPSchemaCPWarmupContext ended]
++ -[CPSchemaCPWarmupContext failed]
++ -[CPSchemaCPWarmupContext hasCanceled]
++ -[CPSchemaCPWarmupContext hasEnded]
++ -[CPSchemaCPWarmupContext hasFailed]
++ -[CPSchemaCPWarmupContext hasStartedOrChanged]
++ -[CPSchemaCPWarmupContext hash]
++ -[CPSchemaCPWarmupContext initWithDictionary:]
++ -[CPSchemaCPWarmupContext initWithJSON:]
++ -[CPSchemaCPWarmupContext isEqual:]
++ -[CPSchemaCPWarmupContext jsonData]
++ -[CPSchemaCPWarmupContext readFrom:]
++ -[CPSchemaCPWarmupContext setCanceled:]
++ -[CPSchemaCPWarmupContext setEnded:]
++ -[CPSchemaCPWarmupContext setFailed:]
++ -[CPSchemaCPWarmupContext setHasCanceled:]
++ -[CPSchemaCPWarmupContext setHasEnded:]
++ -[CPSchemaCPWarmupContext setHasFailed:]
++ -[CPSchemaCPWarmupContext setHasStartedOrChanged:]
++ -[CPSchemaCPWarmupContext setStartedOrChanged:]
++ -[CPSchemaCPWarmupContext startedOrChanged]
++ -[CPSchemaCPWarmupContext whichContextevent]
++ -[CPSchemaCPWarmupContext writeTo:]
++ -[CPSchemaCPWarmupEnded deleteExists]
++ -[CPSchemaCPWarmupEnded dictionaryRepresentation]
++ -[CPSchemaCPWarmupEnded exists]
++ -[CPSchemaCPWarmupEnded hasExists]
++ -[CPSchemaCPWarmupEnded hash]
++ -[CPSchemaCPWarmupEnded initWithDictionary:]
++ -[CPSchemaCPWarmupEnded initWithJSON:]
++ -[CPSchemaCPWarmupEnded isEqual:]
++ -[CPSchemaCPWarmupEnded jsonData]
++ -[CPSchemaCPWarmupEnded readFrom:]
++ -[CPSchemaCPWarmupEnded setExists:]
++ -[CPSchemaCPWarmupEnded setHasExists:]
++ -[CPSchemaCPWarmupEnded writeTo:]
++ -[CPSchemaCPWarmupFailed .cxx_destruct]
++ -[CPSchemaCPWarmupFailed addErrors:]
++ -[CPSchemaCPWarmupFailed clearErrors]
++ -[CPSchemaCPWarmupFailed deleteErrors]
++ -[CPSchemaCPWarmupFailed dictionaryRepresentation]
++ -[CPSchemaCPWarmupFailed errorsAtIndex:]
++ -[CPSchemaCPWarmupFailed errorsCount]
++ -[CPSchemaCPWarmupFailed errors]
++ -[CPSchemaCPWarmupFailed hash]
++ -[CPSchemaCPWarmupFailed initWithDictionary:]
++ -[CPSchemaCPWarmupFailed initWithJSON:]
++ -[CPSchemaCPWarmupFailed isEqual:]
++ -[CPSchemaCPWarmupFailed jsonData]
++ -[CPSchemaCPWarmupFailed readFrom:]
++ -[CPSchemaCPWarmupFailed setErrors:]
++ -[CPSchemaCPWarmupFailed writeTo:]
++ -[CPSchemaCPWarmupStarted deleteExists]
++ -[CPSchemaCPWarmupStarted dictionaryRepresentation]
++ -[CPSchemaCPWarmupStarted exists]
++ -[CPSchemaCPWarmupStarted hasExists]
++ -[CPSchemaCPWarmupStarted hash]
++ -[CPSchemaCPWarmupStarted initWithDictionary:]
++ -[CPSchemaCPWarmupStarted initWithJSON:]
++ -[CPSchemaCPWarmupStarted isEqual:]
++ -[CPSchemaCPWarmupStarted jsonData]
++ -[CPSchemaCPWarmupStarted readFrom:]
++ -[CPSchemaCPWarmupStarted setExists:]
++ -[CPSchemaCPWarmupStarted setHasExists:]
++ -[CPSchemaCPWarmupStarted writeTo:]
++ -[ESSchemaESFullHydrationEnded deleteToolKitDispatchCount]
++ -[ESSchemaESFullHydrationEnded hasToolKitDispatchCount]
++ -[ESSchemaESFullHydrationEnded setHasToolKitDispatchCount:]
++ -[ESSchemaESFullHydrationEnded setToolKitDispatchCount:]
++ -[ESSchemaESFullHydrationEnded toolKitDispatchCount]
++ -[ESSchemaESFullyHydratedEntitiesEnded deleteToolKitDispatchCount]
++ -[ESSchemaESFullyHydratedEntitiesEnded hasToolKitDispatchCount]
++ -[ESSchemaESFullyHydratedEntitiesEnded setHasToolKitDispatchCount:]
++ -[ESSchemaESFullyHydratedEntitiesEnded setToolKitDispatchCount:]
++ -[ESSchemaESFullyHydratedEntitiesEnded toolKitDispatchCount]
++ -[ESSchemaESHydrateEntitiesEnded deleteToolKitDispatchCount]
++ -[ESSchemaESHydrateEntitiesEnded hasToolKitDispatchCount]
++ -[ESSchemaESHydrateEntitiesEnded setHasToolKitDispatchCount:]
++ -[ESSchemaESHydrateEntitiesEnded setToolKitDispatchCount:]
++ -[ESSchemaESHydrateEntitiesEnded toolKitDispatchCount]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierCallEnded classifierOutcome]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierCallEnded deleteClassifierOutcome]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierCallEnded hasClassifierOutcome]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierCallEnded setClassifierOutcome:]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierCallEnded setHasClassifierOutcome:]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped appIntentSessionId]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped deleteAppIntentSessionId]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped deleteSkipReason]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped dictionaryRepresentation]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped hasAppIntentSessionId]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped hasSkipReason]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped hash]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped initWithDictionary:]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped initWithJSON:]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped isEqual:]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped jsonData]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped readFrom:]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped setAppIntentSessionId:]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped setHasAppIntentSessionId:]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped setHasSkipReason:]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped setSkipReason:]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped skipReason]
++ -[ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped writeTo:]
++ -[ExecutorSiriSchemaExecutorClientEvent deleteExecutorActionPoisoningClassifierSkipped]
++ -[ExecutorSiriSchemaExecutorClientEvent executorActionPoisoningClassifierSkipped]
++ -[ExecutorSiriSchemaExecutorClientEvent hasExecutorActionPoisoningClassifierSkipped]
++ -[ExecutorSiriSchemaExecutorClientEvent setExecutorActionPoisoningClassifierSkipped:]
++ -[ExecutorSiriSchemaExecutorClientEvent setHasExecutorActionPoisoningClassifierSkipped:]
++ -[FTDMailSchemaFTDMailApplicationInfo .cxx_destruct]
++ -[FTDMailSchemaFTDMailApplicationInfo appBundleId]
++ -[FTDMailSchemaFTDMailApplicationInfo deleteAppBundleId]
++ -[FTDMailSchemaFTDMailApplicationInfo deleteHasForcedBackgroundMode]
++ -[FTDMailSchemaFTDMailApplicationInfo deleteHasVendedSnippet]
++ -[FTDMailSchemaFTDMailApplicationInfo deleteIsForegrounded]
++ -[FTDMailSchemaFTDMailApplicationInfo deleteUserResponseMode]
++ -[FTDMailSchemaFTDMailApplicationInfo dictionaryRepresentation]
++ -[FTDMailSchemaFTDMailApplicationInfo hasAppBundleId]
++ -[FTDMailSchemaFTDMailApplicationInfo hasForcedBackgroundMode]
++ -[FTDMailSchemaFTDMailApplicationInfo hasHasForcedBackgroundMode]
++ -[FTDMailSchemaFTDMailApplicationInfo hasHasVendedSnippet]
++ -[FTDMailSchemaFTDMailApplicationInfo hasIsForegrounded]
++ -[FTDMailSchemaFTDMailApplicationInfo hasUserResponseMode]
++ -[FTDMailSchemaFTDMailApplicationInfo hasVendedSnippet]
++ -[FTDMailSchemaFTDMailApplicationInfo hash]
++ -[FTDMailSchemaFTDMailApplicationInfo initWithDictionary:]
++ -[FTDMailSchemaFTDMailApplicationInfo initWithJSON:]
++ -[FTDMailSchemaFTDMailApplicationInfo isEqual:]
++ -[FTDMailSchemaFTDMailApplicationInfo isForegrounded]
++ -[FTDMailSchemaFTDMailApplicationInfo jsonData]
++ -[FTDMailSchemaFTDMailApplicationInfo readFrom:]
++ -[FTDMailSchemaFTDMailApplicationInfo setAppBundleId:]
++ -[FTDMailSchemaFTDMailApplicationInfo setHasAppBundleId:]
++ -[FTDMailSchemaFTDMailApplicationInfo setHasForcedBackgroundMode:]
++ -[FTDMailSchemaFTDMailApplicationInfo setHasHasForcedBackgroundMode:]
++ -[FTDMailSchemaFTDMailApplicationInfo setHasHasVendedSnippet:]
++ -[FTDMailSchemaFTDMailApplicationInfo setHasIsForegrounded:]
++ -[FTDMailSchemaFTDMailApplicationInfo setHasUserResponseMode:]
++ -[FTDMailSchemaFTDMailApplicationInfo setHasVendedSnippet:]
++ -[FTDMailSchemaFTDMailApplicationInfo setIsForegrounded:]
++ -[FTDMailSchemaFTDMailApplicationInfo setUserResponseMode:]
++ -[FTDMailSchemaFTDMailApplicationInfo userResponseMode]
++ -[FTDMailSchemaFTDMailApplicationInfo writeTo:]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked .cxx_destruct]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked deleteHasSpecifiedMailAccount]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked deleteMailApplication]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked deleteRecipients]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked dictionaryRepresentation]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked hasHasSpecifiedMailAccount]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked hasMailApplication]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked hasRecipients]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked hasSpecifiedMailAccount]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked hash]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked initWithDictionary:]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked initWithJSON:]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked isEqual:]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked jsonData]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked mailApplication]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked readFrom:]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked recipients]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked setHasHasSpecifiedMailAccount:]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked setHasMailApplication:]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked setHasRecipients:]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked setHasSpecifiedMailAccount:]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked setMailApplication:]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked setRecipients:]
++ -[FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked writeTo:]
++ -[FTDMailSchemaFTDMailRecipientsInfo contactRecipients]
++ -[FTDMailSchemaFTDMailRecipientsInfo deleteContactRecipients]
++ -[FTDMailSchemaFTDMailRecipientsInfo deleteNonContactRecipients]
++ -[FTDMailSchemaFTDMailRecipientsInfo dictionaryRepresentation]
++ -[FTDMailSchemaFTDMailRecipientsInfo hasContactRecipients]
++ -[FTDMailSchemaFTDMailRecipientsInfo hasNonContactRecipients]
++ -[FTDMailSchemaFTDMailRecipientsInfo hash]
++ -[FTDMailSchemaFTDMailRecipientsInfo initWithDictionary:]
++ -[FTDMailSchemaFTDMailRecipientsInfo initWithJSON:]
++ -[FTDMailSchemaFTDMailRecipientsInfo isEqual:]
++ -[FTDMailSchemaFTDMailRecipientsInfo jsonData]
++ -[FTDMailSchemaFTDMailRecipientsInfo nonContactRecipients]
++ -[FTDMailSchemaFTDMailRecipientsInfo readFrom:]
++ -[FTDMailSchemaFTDMailRecipientsInfo setContactRecipients:]
++ -[FTDMailSchemaFTDMailRecipientsInfo setHasContactRecipients:]
++ -[FTDMailSchemaFTDMailRecipientsInfo setHasNonContactRecipients:]
++ -[FTDMailSchemaFTDMailRecipientsInfo setNonContactRecipients:]
++ -[FTDMailSchemaFTDMailRecipientsInfo writeTo:]
++ -[FTDMailSchemaFTDMailSendDraftInvoked .cxx_destruct]
++ -[FTDMailSchemaFTDMailSendDraftInvoked deleteMailApplication]
++ -[FTDMailSchemaFTDMailSendDraftInvoked dictionaryRepresentation]
++ -[FTDMailSchemaFTDMailSendDraftInvoked hasMailApplication]
++ -[FTDMailSchemaFTDMailSendDraftInvoked hash]
++ -[FTDMailSchemaFTDMailSendDraftInvoked initWithDictionary:]
++ -[FTDMailSchemaFTDMailSendDraftInvoked initWithJSON:]
++ -[FTDMailSchemaFTDMailSendDraftInvoked isEqual:]
++ -[FTDMailSchemaFTDMailSendDraftInvoked jsonData]
++ -[FTDMailSchemaFTDMailSendDraftInvoked mailApplication]
++ -[FTDMailSchemaFTDMailSendDraftInvoked readFrom:]
++ -[FTDMailSchemaFTDMailSendDraftInvoked setHasMailApplication:]
++ -[FTDMailSchemaFTDMailSendDraftInvoked setMailApplication:]
++ -[FTDMailSchemaFTDMailSendDraftInvoked writeTo:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata deleteHasPriorityNotifications]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata deleteIsContentHidden]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata deleteIsSameAppAsLastAnnouncement]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata deleteLongAnnouncementCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata deleteNotificationCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata deleteNotificationSummaryCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata deleteThreadSummaryCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata deleteUnreadableNotificationCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata dictionaryRepresentation]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata hasHasPriorityNotifications]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata hasIsContentHidden]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata hasIsSameAppAsLastAnnouncement]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata hasLongAnnouncementCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata hasNotificationCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata hasNotificationSummaryCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata hasPriorityNotifications]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata hasThreadSummaryCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata hasUnreadableNotificationCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata hash]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata initWithDictionary:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata initWithJSON:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata isContentHidden]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata isEqual:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata isSameAppAsLastAnnouncement]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata jsonData]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata longAnnouncementCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata notificationCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata notificationSummaryCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata readFrom:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setHasHasPriorityNotifications:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setHasIsContentHidden:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setHasIsSameAppAsLastAnnouncement:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setHasLongAnnouncementCount:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setHasNotificationCount:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setHasNotificationSummaryCount:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setHasPriorityNotifications:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setHasThreadSummaryCount:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setHasUnreadableNotificationCount:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setIsContentHidden:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setIsSameAppAsLastAnnouncement:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setLongAnnouncementCount:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setNotificationCount:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setNotificationSummaryCount:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setThreadSummaryCount:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata setUnreadableNotificationCount:]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata threadSummaryCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata unreadableNotificationCount]
++ -[FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata writeTo:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked deleteIsAnnounceRequest]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked deleteIsCatchMeUp]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked deleteIsReadLatest]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked deleteNotificationCount]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked dictionaryRepresentation]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked hasIsAnnounceRequest]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked hasIsCatchMeUp]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked hasIsReadLatest]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked hasNotificationCount]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked hash]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked initWithDictionary:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked initWithJSON:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked isAnnounceRequest]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked isCatchMeUp]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked isEqual:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked isReadLatest]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked jsonData]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked notificationCount]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked readFrom:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked setHasIsAnnounceRequest:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked setHasIsCatchMeUp:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked setHasIsReadLatest:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked setHasNotificationCount:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked setIsAnnounceRequest:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked setIsCatchMeUp:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked setIsReadLatest:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked setNotificationCount:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked writeTo:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult .cxx_destruct]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult addAppNotifications:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult appNotificationsAtIndex:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult appNotificationsCount]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult appNotifications]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult clearAppNotifications]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult deleteAppNotifications]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult dictionaryRepresentation]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult hash]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult initWithDictionary:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult initWithJSON:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult isEqual:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult jsonData]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult readFrom:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult setAppNotifications:]
++ -[FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult writeTo:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled deleteExists]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled exists]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled hasExists]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled hash]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled isEqual:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled jsonData]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled readFrom:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled setExists:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled writeTo:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext .cxx_destruct]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext canceled]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext contextId]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext deleteCanceled]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext deleteContextId]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext deleteEnded]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext deleteFailed]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext deleteStartedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext ended]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext failed]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext hasCanceled]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext hasContextId]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext hasEnded]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext hasFailed]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext hasStartedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext hash]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext isEqual:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext jsonData]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext readFrom:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext setCanceled:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext setContextId:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext setEnded:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext setFailed:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext setHasCanceled:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext setHasContextId:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext setHasEnded:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext setHasFailed:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext setHasStartedOrChanged:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext setStartedOrChanged:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext startedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext whichContextevent]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext writeTo:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded deleteExists]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded exists]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded hasExists]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded hash]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded isEqual:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded jsonData]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded readFrom:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded setExists:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded writeTo:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed deleteExists]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed exists]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed hasExists]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed hash]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed isEqual:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed jsonData]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed readFrom:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed setExists:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed writeTo:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted deleteExists]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted exists]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted hasExists]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted hash]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted isEqual:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted jsonData]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted readFrom:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted setExists:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted writeTo:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled deleteExists]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled exists]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled hasExists]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled hash]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled isEqual:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled jsonData]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled readFrom:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled setExists:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled writeTo:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext .cxx_destruct]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext canceled]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext contextId]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext deleteCanceled]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext deleteContextId]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext deleteEnded]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext deleteFailed]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext deleteStartedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext ended]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext failed]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext hasCanceled]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext hasContextId]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext hasEnded]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext hasFailed]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext hasStartedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext hash]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext isEqual:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext jsonData]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext readFrom:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext setCanceled:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext setContextId:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext setEnded:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext setFailed:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext setHasCanceled:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext setHasContextId:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext setHasEnded:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext setHasFailed:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext setHasStartedOrChanged:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext setStartedOrChanged:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext startedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext whichContextevent]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext writeTo:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded deleteExists]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded exists]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded hasExists]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded hash]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded isEqual:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded jsonData]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded readFrom:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded setExists:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded writeTo:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed deleteExists]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed exists]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed hasExists]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed hash]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed isEqual:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed jsonData]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed readFrom:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed setExists:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed writeTo:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted deleteExists]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted exists]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted hasExists]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted hash]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted isEqual:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted jsonData]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted readFrom:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted setExists:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted writeTo:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled deleteExists]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled exists]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled hasExists]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled hash]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled isEqual:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled jsonData]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled readFrom:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled setExists:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled writeTo:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext .cxx_destruct]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext canceled]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext contextId]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext deleteCanceled]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext deleteContextId]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext deleteEnded]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext deleteFailed]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext deleteStartedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext ended]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext failed]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext hasCanceled]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext hasContextId]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext hasEnded]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext hasFailed]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext hasStartedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext hash]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext isEqual:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext jsonData]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext readFrom:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext setCanceled:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext setContextId:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext setEnded:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext setFailed:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext setHasCanceled:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext setHasContextId:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext setHasEnded:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext setHasFailed:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext setHasStartedOrChanged:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext setStartedOrChanged:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext startedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext whichContextevent]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext writeTo:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded deleteExists]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded exists]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded hasExists]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded hash]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded isEqual:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded jsonData]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded readFrom:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded setExists:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded writeTo:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed deleteExists]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed exists]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed hasExists]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed hash]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed isEqual:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed jsonData]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed readFrom:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed setExists:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed writeTo:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted deleteExists]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted exists]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted hasExists]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted hash]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted isEqual:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted jsonData]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted readFrom:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted setExists:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted writeTo:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled deleteExists]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled exists]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled hasExists]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled hash]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled isEqual:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled jsonData]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled readFrom:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled setExists:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled writeTo:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext .cxx_destruct]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext canceled]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext contextId]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext deleteCanceled]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext deleteContextId]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext deleteEnded]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext deleteFailed]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext deleteStartedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext ended]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext failed]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext hasCanceled]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext hasContextId]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext hasEnded]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext hasFailed]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext hasStartedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext hash]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext isEqual:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext jsonData]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext readFrom:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext setCanceled:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext setContextId:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext setEnded:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext setFailed:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext setHasCanceled:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext setHasContextId:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext setHasEnded:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext setHasFailed:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext setHasStartedOrChanged:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext setStartedOrChanged:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext startedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext whichContextevent]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext writeTo:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded deleteExists]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded exists]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded hasExists]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded hash]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded isEqual:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded jsonData]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded readFrom:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded setExists:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded writeTo:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed deleteExists]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed exists]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed hasExists]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed hash]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed isEqual:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed jsonData]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed readFrom:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed setExists:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed writeTo:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted deleteExists]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted exists]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted hasExists]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted hash]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted isEqual:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted jsonData]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted readFrom:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted setExists:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted writeTo:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupCanceled deleteExists]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupCanceled dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupCanceled exists]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupCanceled hasExists]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupCanceled hash]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupCanceled initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupCanceled initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupCanceled isEqual:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupCanceled jsonData]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupCanceled readFrom:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupCanceled setExists:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupCanceled setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupCanceled writeTo:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext .cxx_destruct]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext canceled]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext contextId]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext deleteCanceled]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext deleteContextId]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext deleteEnded]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext deleteFailed]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext deleteStartedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext ended]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext failed]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext hasCanceled]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext hasContextId]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext hasEnded]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext hasFailed]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext hasStartedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext hash]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext isEqual:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext jsonData]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext readFrom:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext setCanceled:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext setContextId:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext setEnded:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext setFailed:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext setHasCanceled:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext setHasContextId:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext setHasEnded:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext setHasFailed:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext setHasStartedOrChanged:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext setStartedOrChanged:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext startedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext whichContextevent]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupContext writeTo:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupEnded deleteExists]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupEnded dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupEnded exists]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupEnded hasExists]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupEnded hash]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupEnded initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupEnded initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupEnded isEqual:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupEnded jsonData]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupEnded readFrom:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupEnded setExists:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupEnded setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupEnded writeTo:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupFailed deleteExists]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupFailed dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupFailed exists]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupFailed hasExists]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupFailed hash]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupFailed initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupFailed initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupFailed isEqual:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupFailed jsonData]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupFailed readFrom:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupFailed setExists:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupFailed setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupFailed writeTo:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupStarted deleteExists]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupStarted dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupStarted exists]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupStarted hasExists]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupStarted hash]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupStarted initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupStarted initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupStarted isEqual:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupStarted jsonData]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupStarted readFrom:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupStarted setExists:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupStarted setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneIDSLookupStarted writeTo:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationCanceled deleteExists]
++ -[FTDPhoneSchemaFTDPhoneSanitizationCanceled dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneSanitizationCanceled exists]
++ -[FTDPhoneSchemaFTDPhoneSanitizationCanceled hasExists]
++ -[FTDPhoneSchemaFTDPhoneSanitizationCanceled hash]
++ -[FTDPhoneSchemaFTDPhoneSanitizationCanceled initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationCanceled initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationCanceled isEqual:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationCanceled jsonData]
++ -[FTDPhoneSchemaFTDPhoneSanitizationCanceled readFrom:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationCanceled setExists:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationCanceled setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationCanceled writeTo:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext .cxx_destruct]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext canceled]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext contextId]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext deleteCanceled]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext deleteContextId]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext deleteEnded]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext deleteFailed]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext deleteStartedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext ended]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext failed]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext hasCanceled]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext hasContextId]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext hasEnded]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext hasFailed]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext hasStartedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext hash]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext isEqual:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext jsonData]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext readFrom:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext setCanceled:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext setContextId:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext setEnded:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext setFailed:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext setHasCanceled:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext setHasContextId:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext setHasEnded:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext setHasFailed:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext setHasStartedOrChanged:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext setStartedOrChanged:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext startedOrChanged]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext whichContextevent]
++ -[FTDPhoneSchemaFTDPhoneSanitizationContext writeTo:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationEnded deleteExists]
++ -[FTDPhoneSchemaFTDPhoneSanitizationEnded dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneSanitizationEnded exists]
++ -[FTDPhoneSchemaFTDPhoneSanitizationEnded hasExists]
++ -[FTDPhoneSchemaFTDPhoneSanitizationEnded hash]
++ -[FTDPhoneSchemaFTDPhoneSanitizationEnded initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationEnded initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationEnded isEqual:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationEnded jsonData]
++ -[FTDPhoneSchemaFTDPhoneSanitizationEnded readFrom:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationEnded setExists:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationEnded setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationEnded writeTo:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationFailed deleteExists]
++ -[FTDPhoneSchemaFTDPhoneSanitizationFailed dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneSanitizationFailed exists]
++ -[FTDPhoneSchemaFTDPhoneSanitizationFailed hasExists]
++ -[FTDPhoneSchemaFTDPhoneSanitizationFailed hash]
++ -[FTDPhoneSchemaFTDPhoneSanitizationFailed initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationFailed initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationFailed isEqual:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationFailed jsonData]
++ -[FTDPhoneSchemaFTDPhoneSanitizationFailed readFrom:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationFailed setExists:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationFailed setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationFailed writeTo:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationStarted deleteExists]
++ -[FTDPhoneSchemaFTDPhoneSanitizationStarted dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneSanitizationStarted exists]
++ -[FTDPhoneSchemaFTDPhoneSanitizationStarted hasExists]
++ -[FTDPhoneSchemaFTDPhoneSanitizationStarted hash]
++ -[FTDPhoneSchemaFTDPhoneSanitizationStarted initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationStarted initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationStarted isEqual:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationStarted jsonData]
++ -[FTDPhoneSchemaFTDPhoneSanitizationStarted readFrom:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationStarted setExists:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationStarted setHasExists:]
++ -[FTDPhoneSchemaFTDPhoneSanitizationStarted writeTo:]
++ -[FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked deleteSearchCallHistoryIntent]
++ -[FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked hasSearchCallHistoryIntent]
++ -[FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked hash]
++ -[FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked isEqual:]
++ -[FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked jsonData]
++ -[FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked readFrom:]
++ -[FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked searchCallHistoryIntent]
++ -[FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked setHasSearchCallHistoryIntent:]
++ -[FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked setSearchCallHistoryIntent:]
++ -[FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked writeTo:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked .cxx_destruct]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked addPersonTypes:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked callAppType]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked callType]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked clearPersonTypes]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked deleteCallAppType]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked deleteCallType]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked deleteEmergencyCallType]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked deleteIsSiriKitFallback]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked deletePersonTypes]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked dictionaryRepresentation]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked emergencyCallType]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked hasCallAppType]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked hasCallType]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked hasEmergencyCallType]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked hasIsSiriKitFallback]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked hash]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked initWithDictionary:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked initWithJSON:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked isEqual:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked isSiriKitFallback]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked jsonData]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked personTypesAtIndex:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked personTypesCount]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked personTypes]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked readFrom:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked setCallAppType:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked setCallType:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked setEmergencyCallType:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked setHasCallAppType:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked setHasCallType:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked setHasEmergencyCallType:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked setHasIsSiriKitFallback:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked setIsSiriKitFallback:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked setPersonTypes:]
++ -[FTDPhoneSchemaFTDPhoneStartCallInvoked writeTo:]
++ -[FTDSchemaFTDClientEvent deleteMailCreateOrUpdateDraftInvoked]
++ -[FTDSchemaFTDClientEvent deleteMailSendDraftInvoked]
++ -[FTDSchemaFTDClientEvent deleteNotificationsPrepareNotificationsInvoked]
++ -[FTDSchemaFTDClientEvent deleteNotificationsPrepareNotificationsResult]
++ -[FTDSchemaFTDClientEvent deletePhoneCallHistoryRetrievalContext]
++ -[FTDSchemaFTDClientEvent deletePhoneContactFavoriteHandlesRetrievalContext]
++ -[FTDSchemaFTDClientEvent deletePhoneEmergencyContactsRetrievalContext]
++ -[FTDSchemaFTDClientEvent deletePhoneFaceTimeLinkGenerationContext]
++ -[FTDSchemaFTDClientEvent deletePhoneIDSLookupContext]
++ -[FTDSchemaFTDClientEvent deletePhoneSanitizationContext]
++ -[FTDSchemaFTDClientEvent deletePhoneSearchCallHistoryOrVoicemailInvoked]
++ -[FTDSchemaFTDClientEvent deletePhoneStartCallInvoked]
++ -[FTDSchemaFTDClientEvent hasMailCreateOrUpdateDraftInvoked]
++ -[FTDSchemaFTDClientEvent hasMailSendDraftInvoked]
++ -[FTDSchemaFTDClientEvent hasNotificationsPrepareNotificationsInvoked]
++ -[FTDSchemaFTDClientEvent hasNotificationsPrepareNotificationsResult]
++ -[FTDSchemaFTDClientEvent hasPhoneCallHistoryRetrievalContext]
++ -[FTDSchemaFTDClientEvent hasPhoneContactFavoriteHandlesRetrievalContext]
++ -[FTDSchemaFTDClientEvent hasPhoneEmergencyContactsRetrievalContext]
++ -[FTDSchemaFTDClientEvent hasPhoneFaceTimeLinkGenerationContext]
++ -[FTDSchemaFTDClientEvent hasPhoneIDSLookupContext]
++ -[FTDSchemaFTDClientEvent hasPhoneSanitizationContext]
++ -[FTDSchemaFTDClientEvent hasPhoneSearchCallHistoryOrVoicemailInvoked]
++ -[FTDSchemaFTDClientEvent hasPhoneStartCallInvoked]
++ -[FTDSchemaFTDClientEvent mailCreateOrUpdateDraftInvoked]
++ -[FTDSchemaFTDClientEvent mailSendDraftInvoked]
++ -[FTDSchemaFTDClientEvent notificationsPrepareNotificationsInvoked]
++ -[FTDSchemaFTDClientEvent notificationsPrepareNotificationsResult]
++ -[FTDSchemaFTDClientEvent phoneCallHistoryRetrievalContext]
++ -[FTDSchemaFTDClientEvent phoneContactFavoriteHandlesRetrievalContext]
++ -[FTDSchemaFTDClientEvent phoneEmergencyContactsRetrievalContext]
++ -[FTDSchemaFTDClientEvent phoneFaceTimeLinkGenerationContext]
++ -[FTDSchemaFTDClientEvent phoneIDSLookupContext]
++ -[FTDSchemaFTDClientEvent phoneSanitizationContext]
++ -[FTDSchemaFTDClientEvent phoneSearchCallHistoryOrVoicemailInvoked]
++ -[FTDSchemaFTDClientEvent phoneStartCallInvoked]
++ -[FTDSchemaFTDClientEvent setHasMailCreateOrUpdateDraftInvoked:]
++ -[FTDSchemaFTDClientEvent setHasMailSendDraftInvoked:]
++ -[FTDSchemaFTDClientEvent setHasNotificationsPrepareNotificationsInvoked:]
++ -[FTDSchemaFTDClientEvent setHasNotificationsPrepareNotificationsResult:]
++ -[FTDSchemaFTDClientEvent setHasPhoneCallHistoryRetrievalContext:]
++ -[FTDSchemaFTDClientEvent setHasPhoneContactFavoriteHandlesRetrievalContext:]
++ -[FTDSchemaFTDClientEvent setHasPhoneEmergencyContactsRetrievalContext:]
++ -[FTDSchemaFTDClientEvent setHasPhoneFaceTimeLinkGenerationContext:]
++ -[FTDSchemaFTDClientEvent setHasPhoneIDSLookupContext:]
++ -[FTDSchemaFTDClientEvent setHasPhoneSanitizationContext:]
++ -[FTDSchemaFTDClientEvent setHasPhoneSearchCallHistoryOrVoicemailInvoked:]
++ -[FTDSchemaFTDClientEvent setHasPhoneStartCallInvoked:]
++ -[FTDSchemaFTDClientEvent setMailCreateOrUpdateDraftInvoked:]
++ -[FTDSchemaFTDClientEvent setMailSendDraftInvoked:]
++ -[FTDSchemaFTDClientEvent setNotificationsPrepareNotificationsInvoked:]
++ -[FTDSchemaFTDClientEvent setNotificationsPrepareNotificationsResult:]
++ -[FTDSchemaFTDClientEvent setPhoneCallHistoryRetrievalContext:]
++ -[FTDSchemaFTDClientEvent setPhoneContactFavoriteHandlesRetrievalContext:]
++ -[FTDSchemaFTDClientEvent setPhoneEmergencyContactsRetrievalContext:]
++ -[FTDSchemaFTDClientEvent setPhoneFaceTimeLinkGenerationContext:]
++ -[FTDSchemaFTDClientEvent setPhoneIDSLookupContext:]
++ -[FTDSchemaFTDClientEvent setPhoneSanitizationContext:]
++ -[FTDSchemaFTDClientEvent setPhoneSearchCallHistoryOrVoicemailInvoked:]
++ -[FTDSchemaFTDClientEvent setPhoneStartCallInvoked:]
++ -[GMSSchemaGMSExtendedInferenceMetrics deleteIfpExpertLoadActivationParametersInBillions]
++ -[GMSSchemaGMSExtendedInferenceMetrics deleteIfpExpertLoadCacheHitCount]
++ -[GMSSchemaGMSExtendedInferenceMetrics deleteIfpExpertLoadCacheMissCount]
++ -[GMSSchemaGMSExtendedInferenceMetrics deleteIfpExpertLoadLatencySeconds]
++ -[GMSSchemaGMSExtendedInferenceMetrics deleteIfpExpertSelectionInitialPromptLatencySeconds]
++ -[GMSSchemaGMSExtendedInferenceMetrics deleteServerBatchedRequestsCount]
++ -[GMSSchemaGMSExtendedInferenceMetrics hasIfpExpertLoadActivationParametersInBillions]
++ -[GMSSchemaGMSExtendedInferenceMetrics hasIfpExpertLoadCacheHitCount]
++ -[GMSSchemaGMSExtendedInferenceMetrics hasIfpExpertLoadCacheMissCount]
++ -[GMSSchemaGMSExtendedInferenceMetrics hasIfpExpertLoadLatencySeconds]
++ -[GMSSchemaGMSExtendedInferenceMetrics hasIfpExpertSelectionInitialPromptLatencySeconds]
++ -[GMSSchemaGMSExtendedInferenceMetrics hasServerBatchedRequestsCount]
++ -[GMSSchemaGMSExtendedInferenceMetrics ifpExpertLoadActivationParametersInBillions]
++ -[GMSSchemaGMSExtendedInferenceMetrics ifpExpertLoadCacheHitCount]
++ -[GMSSchemaGMSExtendedInferenceMetrics ifpExpertLoadCacheMissCount]
++ -[GMSSchemaGMSExtendedInferenceMetrics ifpExpertLoadLatencySeconds]
++ -[GMSSchemaGMSExtendedInferenceMetrics ifpExpertSelectionInitialPromptLatencySeconds]
++ -[GMSSchemaGMSExtendedInferenceMetrics serverBatchedRequestsCount]
++ -[GMSSchemaGMSExtendedInferenceMetrics setHasIfpExpertLoadActivationParametersInBillions:]
++ -[GMSSchemaGMSExtendedInferenceMetrics setHasIfpExpertLoadCacheHitCount:]
++ -[GMSSchemaGMSExtendedInferenceMetrics setHasIfpExpertLoadCacheMissCount:]
++ -[GMSSchemaGMSExtendedInferenceMetrics setHasIfpExpertLoadLatencySeconds:]
++ -[GMSSchemaGMSExtendedInferenceMetrics setHasIfpExpertSelectionInitialPromptLatencySeconds:]
++ -[GMSSchemaGMSExtendedInferenceMetrics setHasServerBatchedRequestsCount:]
++ -[GMSSchemaGMSExtendedInferenceMetrics setIfpExpertLoadActivationParametersInBillions:]
++ -[GMSSchemaGMSExtendedInferenceMetrics setIfpExpertLoadCacheHitCount:]
++ -[GMSSchemaGMSExtendedInferenceMetrics setIfpExpertLoadCacheMissCount:]
++ -[GMSSchemaGMSExtendedInferenceMetrics setIfpExpertLoadLatencySeconds:]
++ -[GMSSchemaGMSExtendedInferenceMetrics setIfpExpertSelectionInitialPromptLatencySeconds:]
++ -[GMSSchemaGMSExtendedInferenceMetrics setServerBatchedRequestsCount:]
++ -[MHSchemaMHClientEvent deleteOsdDetectionReported]
++ -[MHSchemaMHClientEvent deleteSpeakerIdEmbeddingGenerated]
++ -[MHSchemaMHClientEvent deleteTargetSpeakerSpeechEvaluated]
++ -[MHSchemaMHClientEvent hasOsdDetectionReported]
++ -[MHSchemaMHClientEvent hasSpeakerIdEmbeddingGenerated]
++ -[MHSchemaMHClientEvent hasTargetSpeakerSpeechEvaluated]
++ -[MHSchemaMHClientEvent osdDetectionReported]
++ -[MHSchemaMHClientEvent setHasOsdDetectionReported:]
++ -[MHSchemaMHClientEvent setHasSpeakerIdEmbeddingGenerated:]
++ -[MHSchemaMHClientEvent setHasTargetSpeakerSpeechEvaluated:]
++ -[MHSchemaMHClientEvent setOsdDetectionReported:]
++ -[MHSchemaMHClientEvent setSpeakerIdEmbeddingGenerated:]
++ -[MHSchemaMHClientEvent setTargetSpeakerSpeechEvaluated:]
++ -[MHSchemaMHClientEvent speakerIdEmbeddingGenerated]
++ -[MHSchemaMHClientEvent targetSpeakerSpeechEvaluated]
++ -[MHSchemaMHOSDDetectionReported .cxx_destruct]
++ -[MHSchemaMHOSDDetectionReported deleteIsOsdCanarySampled]
++ -[MHSchemaMHOSDDetectionReported deleteOsdMinConsecutiveSpeechThresholdInMs]
++ -[MHSchemaMHOSDDetectionReported deleteOsdModelVersion]
++ -[MHSchemaMHOSDDetectionReported deleteOsdSilenceProbabilityThreshold]
++ -[MHSchemaMHOSDDetectionReported deleteOsdSpeechStartTimeInMs]
++ -[MHSchemaMHOSDDetectionReported dictionaryRepresentation]
++ -[MHSchemaMHOSDDetectionReported hasIsOsdCanarySampled]
++ -[MHSchemaMHOSDDetectionReported hasOsdMinConsecutiveSpeechThresholdInMs]
++ -[MHSchemaMHOSDDetectionReported hasOsdModelVersion]
++ -[MHSchemaMHOSDDetectionReported hasOsdSilenceProbabilityThreshold]
++ -[MHSchemaMHOSDDetectionReported hasOsdSpeechStartTimeInMs]
++ -[MHSchemaMHOSDDetectionReported hash]
++ -[MHSchemaMHOSDDetectionReported initWithDictionary:]
++ -[MHSchemaMHOSDDetectionReported initWithJSON:]
++ -[MHSchemaMHOSDDetectionReported isEqual:]
++ -[MHSchemaMHOSDDetectionReported isOsdCanarySampled]
++ -[MHSchemaMHOSDDetectionReported jsonData]
++ -[MHSchemaMHOSDDetectionReported osdMinConsecutiveSpeechThresholdInMs]
++ -[MHSchemaMHOSDDetectionReported osdModelVersion]
++ -[MHSchemaMHOSDDetectionReported osdSilenceProbabilityThreshold]
++ -[MHSchemaMHOSDDetectionReported osdSpeechStartTimeInMs]
++ -[MHSchemaMHOSDDetectionReported readFrom:]
++ -[MHSchemaMHOSDDetectionReported setHasIsOsdCanarySampled:]
++ -[MHSchemaMHOSDDetectionReported setHasOsdMinConsecutiveSpeechThresholdInMs:]
++ -[MHSchemaMHOSDDetectionReported setHasOsdModelVersion:]
++ -[MHSchemaMHOSDDetectionReported setHasOsdSilenceProbabilityThreshold:]
++ -[MHSchemaMHOSDDetectionReported setHasOsdSpeechStartTimeInMs:]
++ -[MHSchemaMHOSDDetectionReported setIsOsdCanarySampled:]
++ -[MHSchemaMHOSDDetectionReported setOsdMinConsecutiveSpeechThresholdInMs:]
++ -[MHSchemaMHOSDDetectionReported setOsdModelVersion:]
++ -[MHSchemaMHOSDDetectionReported setOsdSilenceProbabilityThreshold:]
++ -[MHSchemaMHOSDDetectionReported setOsdSpeechStartTimeInMs:]
++ -[MHSchemaMHOSDDetectionReported writeTo:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated .cxx_destruct]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated assetVersion]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated deleteAssetVersion]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated deleteFailureReason]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated deleteIsSuccess]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated deleteNumAudioFiles]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated deleteRetrainerType]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated dictionaryRepresentation]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated failureReason]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated hasAssetVersion]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated hasFailureReason]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated hasIsSuccess]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated hasNumAudioFiles]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated hasRetrainerType]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated hash]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated initWithDictionary:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated initWithJSON:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated isEqual:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated isSuccess]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated jsonData]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated numAudioFiles]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated readFrom:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated retrainerType]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated setAssetVersion:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated setFailureReason:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated setHasAssetVersion:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated setHasFailureReason:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated setHasIsSuccess:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated setHasNumAudioFiles:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated setHasRetrainerType:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated setIsSuccess:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated setNumAudioFiles:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated setRetrainerType:]
++ -[MHSchemaMHSpeakerIdEmbeddingGenerated writeTo:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated .cxx_destruct]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated deleteError]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated deleteModelVersion]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated deleteProcessedAudioDurationInNs]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated deleteReferenceAudioEndTimeInNs]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated deleteSpeakerSimilarityScore]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated deleteSpeakerSimilarityThreshold]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated deleteTargetAudioEndTimeInNs]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated deleteTargetAudioStartTimeInNs]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated dictionaryRepresentation]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated error]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated hasError]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated hasModelVersion]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated hasProcessedAudioDurationInNs]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated hasReferenceAudioEndTimeInNs]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated hasSpeakerSimilarityScore]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated hasSpeakerSimilarityThreshold]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated hasTargetAudioEndTimeInNs]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated hasTargetAudioStartTimeInNs]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated hash]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated initWithDictionary:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated initWithJSON:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated isEqual:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated jsonData]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated modelVersion]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated processedAudioDurationInNs]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated readFrom:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated referenceAudioEndTimeInNs]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setError:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setHasError:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setHasModelVersion:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setHasProcessedAudioDurationInNs:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setHasReferenceAudioEndTimeInNs:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setHasSpeakerSimilarityScore:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setHasSpeakerSimilarityThreshold:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setHasTargetAudioEndTimeInNs:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setHasTargetAudioStartTimeInNs:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setModelVersion:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setProcessedAudioDurationInNs:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setReferenceAudioEndTimeInNs:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setSpeakerSimilarityScore:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setSpeakerSimilarityThreshold:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setTargetAudioEndTimeInNs:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated setTargetAudioStartTimeInNs:]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated speakerSimilarityScore]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated speakerSimilarityThreshold]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated targetAudioEndTimeInNs]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated targetAudioStartTimeInNs]
++ -[MHSchemaMHTargetSpeakerSpeechEvaluated writeTo:]
++ -[NETSchemaNETCellularLQMReport deleteLqm]
++ -[NETSchemaNETCellularLQMReport dictionaryRepresentation]
++ -[NETSchemaNETCellularLQMReport hasLqm]
++ -[NETSchemaNETCellularLQMReport hash]
++ -[NETSchemaNETCellularLQMReport initWithDictionary:]
++ -[NETSchemaNETCellularLQMReport initWithJSON:]
++ -[NETSchemaNETCellularLQMReport isEqual:]
++ -[NETSchemaNETCellularLQMReport jsonData]
++ -[NETSchemaNETCellularLQMReport lqm]
++ -[NETSchemaNETCellularLQMReport readFrom:]
++ -[NETSchemaNETCellularLQMReport setHasLqm:]
++ -[NETSchemaNETCellularLQMReport setLqm:]
++ -[NETSchemaNETCellularLQMReport writeTo:]
++ -[NETSchemaNETCellularRATReport deleteRat]
++ -[NETSchemaNETCellularRATReport dictionaryRepresentation]
++ -[NETSchemaNETCellularRATReport hasRat]
++ -[NETSchemaNETCellularRATReport hash]
++ -[NETSchemaNETCellularRATReport initWithDictionary:]
++ -[NETSchemaNETCellularRATReport initWithJSON:]
++ -[NETSchemaNETCellularRATReport isEqual:]
++ -[NETSchemaNETCellularRATReport jsonData]
++ -[NETSchemaNETCellularRATReport rat]
++ -[NETSchemaNETCellularRATReport readFrom:]
++ -[NETSchemaNETCellularRATReport setHasRat:]
++ -[NETSchemaNETCellularRATReport setRat:]
++ -[NETSchemaNETCellularRATReport writeTo:]
++ -[NETSchemaNETClientEvent deleteWirelessStateReported]
++ -[NETSchemaNETClientEvent hasWirelessStateReported]
++ -[NETSchemaNETClientEvent setHasWirelessStateReported:]
++ -[NETSchemaNETClientEvent setWirelessStateReported:]
++ -[NETSchemaNETClientEvent wirelessStateReported]
++ -[NETSchemaNETPrimaryNetworkInterfaceReport deleteInterfaceType]
++ -[NETSchemaNETPrimaryNetworkInterfaceReport dictionaryRepresentation]
++ -[NETSchemaNETPrimaryNetworkInterfaceReport hasInterfaceType]
++ -[NETSchemaNETPrimaryNetworkInterfaceReport hash]
++ -[NETSchemaNETPrimaryNetworkInterfaceReport initWithDictionary:]
++ -[NETSchemaNETPrimaryNetworkInterfaceReport initWithJSON:]
++ -[NETSchemaNETPrimaryNetworkInterfaceReport interfaceType]
++ -[NETSchemaNETPrimaryNetworkInterfaceReport isEqual:]
++ -[NETSchemaNETPrimaryNetworkInterfaceReport jsonData]
++ -[NETSchemaNETPrimaryNetworkInterfaceReport readFrom:]
++ -[NETSchemaNETPrimaryNetworkInterfaceReport setHasInterfaceType:]
++ -[NETSchemaNETPrimaryNetworkInterfaceReport setInterfaceType:]
++ -[NETSchemaNETPrimaryNetworkInterfaceReport writeTo:]
++ -[NETSchemaNETRNFSwitchesReport deleteIsIntelligentConnectivityEnabled]
++ -[NETSchemaNETRNFSwitchesReport dictionaryRepresentation]
++ -[NETSchemaNETRNFSwitchesReport hasIsIntelligentConnectivityEnabled]
++ -[NETSchemaNETRNFSwitchesReport hash]
++ -[NETSchemaNETRNFSwitchesReport initWithDictionary:]
++ -[NETSchemaNETRNFSwitchesReport initWithJSON:]
++ -[NETSchemaNETRNFSwitchesReport isEqual:]
++ -[NETSchemaNETRNFSwitchesReport isIntelligentConnectivityEnabled]
++ -[NETSchemaNETRNFSwitchesReport jsonData]
++ -[NETSchemaNETRNFSwitchesReport readFrom:]
++ -[NETSchemaNETRNFSwitchesReport setHasIsIntelligentConnectivityEnabled:]
++ -[NETSchemaNETRNFSwitchesReport setIsIntelligentConnectivityEnabled:]
++ -[NETSchemaNETRNFSwitchesReport writeTo:]
++ -[NETSchemaNETWiFiRadioTechReport deletePhyMode]
++ -[NETSchemaNETWiFiRadioTechReport deleteStatus]
++ -[NETSchemaNETWiFiRadioTechReport dictionaryRepresentation]
++ -[NETSchemaNETWiFiRadioTechReport hasPhyMode]
++ -[NETSchemaNETWiFiRadioTechReport hasStatus]
++ -[NETSchemaNETWiFiRadioTechReport hash]
++ -[NETSchemaNETWiFiRadioTechReport initWithDictionary:]
++ -[NETSchemaNETWiFiRadioTechReport initWithJSON:]
++ -[NETSchemaNETWiFiRadioTechReport isEqual:]
++ -[NETSchemaNETWiFiRadioTechReport jsonData]
++ -[NETSchemaNETWiFiRadioTechReport phyMode]
++ -[NETSchemaNETWiFiRadioTechReport readFrom:]
++ -[NETSchemaNETWiFiRadioTechReport setHasPhyMode:]
++ -[NETSchemaNETWiFiRadioTechReport setHasStatus:]
++ -[NETSchemaNETWiFiRadioTechReport setPhyMode:]
++ -[NETSchemaNETWiFiRadioTechReport setStatus:]
++ -[NETSchemaNETWiFiRadioTechReport status]
++ -[NETSchemaNETWiFiRadioTechReport writeTo:]
++ -[NETSchemaNETWirelessStateReported .cxx_destruct]
++ -[NETSchemaNETWirelessStateReported cellularLqm]
++ -[NETSchemaNETWirelessStateReported cellularRat]
++ -[NETSchemaNETWirelessStateReported deleteCellularLqm]
++ -[NETSchemaNETWirelessStateReported deleteCellularRat]
++ -[NETSchemaNETWirelessStateReported deleteExists]
++ -[NETSchemaNETWirelessStateReported deletePrimaryNetworkInterface]
++ -[NETSchemaNETWirelessStateReported deleteRnfSwitches]
++ -[NETSchemaNETWirelessStateReported deleteWifiRadioTech]
++ -[NETSchemaNETWirelessStateReported dictionaryRepresentation]
++ -[NETSchemaNETWirelessStateReported exists]
++ -[NETSchemaNETWirelessStateReported hasCellularLqm]
++ -[NETSchemaNETWirelessStateReported hasCellularRat]
++ -[NETSchemaNETWirelessStateReported hasExists]
++ -[NETSchemaNETWirelessStateReported hasPrimaryNetworkInterface]
++ -[NETSchemaNETWirelessStateReported hasRnfSwitches]
++ -[NETSchemaNETWirelessStateReported hasWifiRadioTech]
++ -[NETSchemaNETWirelessStateReported hash]
++ -[NETSchemaNETWirelessStateReported initWithDictionary:]
++ -[NETSchemaNETWirelessStateReported initWithJSON:]
++ -[NETSchemaNETWirelessStateReported isEqual:]
++ -[NETSchemaNETWirelessStateReported jsonData]
++ -[NETSchemaNETWirelessStateReported primaryNetworkInterface]
++ -[NETSchemaNETWirelessStateReported readFrom:]
++ -[NETSchemaNETWirelessStateReported rnfSwitches]
++ -[NETSchemaNETWirelessStateReported setCellularLqm:]
++ -[NETSchemaNETWirelessStateReported setCellularRat:]
++ -[NETSchemaNETWirelessStateReported setExists:]
++ -[NETSchemaNETWirelessStateReported setHasCellularLqm:]
++ -[NETSchemaNETWirelessStateReported setHasCellularRat:]
++ -[NETSchemaNETWirelessStateReported setHasExists:]
++ -[NETSchemaNETWirelessStateReported setHasPrimaryNetworkInterface:]
++ -[NETSchemaNETWirelessStateReported setHasRnfSwitches:]
++ -[NETSchemaNETWirelessStateReported setHasWifiRadioTech:]
++ -[NETSchemaNETWirelessStateReported setPrimaryNetworkInterface:]
++ -[NETSchemaNETWirelessStateReported setRnfSwitches:]
++ -[NETSchemaNETWirelessStateReported setWifiRadioTech:]
++ -[NETSchemaNETWirelessStateReported wifiRadioTech]
++ -[NETSchemaNETWirelessStateReported writeTo:]
++ -[ODDSiriSchemaODDAssistantDimensions deleteOrchestrationMode]
++ -[ODDSiriSchemaODDAssistantDimensions hasOrchestrationMode]
++ -[ODDSiriSchemaODDAssistantDimensions orchestrationMode]
++ -[ODDSiriSchemaODDAssistantDimensions setHasOrchestrationMode:]
++ -[ODDSiriSchemaODDAssistantDimensions setOrchestrationMode:]
++ -[ODDSiriSchemaODDAssistantLLMSiriCounts deleteSiriAppResumeCount]
++ -[ODDSiriSchemaODDAssistantLLMSiriCounts hasSiriAppResumeCount]
++ -[ODDSiriSchemaODDAssistantLLMSiriCounts setHasSiriAppResumeCount:]
++ -[ODDSiriSchemaODDAssistantLLMSiriCounts setSiriAppResumeCount:]
++ -[ODDSiriSchemaODDAssistantLLMSiriCounts siriAppResumeCount]
++ -[ODDSiriSchemaODDAssistantLLMSiriDigestsReported deleteMinutesToFirstNewCapability]
++ -[ODDSiriSchemaODDAssistantLLMSiriDigestsReported hasMinutesToFirstNewCapability]
++ -[ODDSiriSchemaODDAssistantLLMSiriDigestsReported minutesToFirstNewCapability]
++ -[ODDSiriSchemaODDAssistantLLMSiriDigestsReported setHasMinutesToFirstNewCapability:]
++ -[ODDSiriSchemaODDAssistantLLMSiriDigestsReported setMinutesToFirstNewCapability:]
++ -[ODDSiriSchemaODDAssistantLLMSiriDimensions deleteExecutionCategory]
++ -[ODDSiriSchemaODDAssistantLLMSiriDimensions deleteIsSiriAppRequest]
++ -[ODDSiriSchemaODDAssistantLLMSiriDimensions executionCategory]
++ -[ODDSiriSchemaODDAssistantLLMSiriDimensions hasExecutionCategory]
++ -[ODDSiriSchemaODDAssistantLLMSiriDimensions hasIsSiriAppRequest]
++ -[ODDSiriSchemaODDAssistantLLMSiriDimensions isSiriAppRequest]
++ -[ODDSiriSchemaODDAssistantLLMSiriDimensions setExecutionCategory:]
++ -[ODDSiriSchemaODDAssistantLLMSiriDimensions setHasExecutionCategory:]
++ -[ODDSiriSchemaODDAssistantLLMSiriDimensions setHasIsSiriAppRequest:]
++ -[ODDSiriSchemaODDAssistantLLMSiriDimensions setIsSiriAppRequest:]
++ -[ODDSiriSchemaODDGeneralProperties deleteDeviceRegionInfo]
++ -[ODDSiriSchemaODDGeneralProperties deviceRegionInfo]
++ -[ODDSiriSchemaODDGeneralProperties hasDeviceRegionInfo]
++ -[ODDSiriSchemaODDGeneralProperties setDeviceRegionInfo:]
++ -[ODDSiriSchemaODDGeneralProperties setHasDeviceRegionInfo:]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported assistantServiceLoadedTimestampInNs]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported assistantServiceSpawnTimestampInNs]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported deleteAssistantServiceLoadedTimestampInNs]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported deleteAssistantServiceSpawnTimestampInNs]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported deleteIsFirstRequest]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported hasAssistantServiceLoadedTimestampInNs]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported hasAssistantServiceSpawnTimestampInNs]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported hasIsFirstRequest]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported isFirstRequest]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported setAssistantServiceLoadedTimestampInNs:]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported setAssistantServiceSpawnTimestampInNs:]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported setHasAssistantServiceLoadedTimestampInNs:]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported setHasAssistantServiceSpawnTimestampInNs:]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported setHasIsFirstRequest:]
++ -[ORCHSchemaORCHAssistantServiceLaunchMetadataReported setIsFirstRequest:]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 .cxx_destruct]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 deleteEntityId]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 deleteImageSource]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 deleteImageUrl]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 dictionaryRepresentation]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 entityId]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 hasEntityId]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 hasImageSource]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 hasImageUrl]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 hash]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 imageSource]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 imageUrl]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 initWithDictionary:]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 initWithJSON:]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 isEqual:]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 jsonData]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 readFrom:]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 setEntityId:]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 setHasEntityId:]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 setHasImageSource:]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 setHasImageUrl:]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 setImageSource:]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 setImageUrl:]
++ -[PEGASUSSchemaPEGASUSKGImageTier1 writeTo:]
++ -[PEGASUSSchemaPEGASUSKGQAExecutionTier1 addKgImages:]
++ -[PEGASUSSchemaPEGASUSKGQAExecutionTier1 clearKgImages]
++ -[PEGASUSSchemaPEGASUSKGQAExecutionTier1 deleteKgImages]
++ -[PEGASUSSchemaPEGASUSKGQAExecutionTier1 kgImagesAtIndex:]
++ -[PEGASUSSchemaPEGASUSKGQAExecutionTier1 kgImagesCount]
++ -[PEGASUSSchemaPEGASUSKGQAExecutionTier1 kgImages]
++ -[PEGASUSSchemaPEGASUSKGQAExecutionTier1 setKgImages:]
++ -[PLANNERSchemaPLANNERClientEvent contextPredictorFalseNegativeDetected]
++ -[PLANNERSchemaPLANNERClientEvent deleteContextPredictorFalseNegativeDetected]
++ -[PLANNERSchemaPLANNERClientEvent deleteIpiClassifierSkipped]
++ -[PLANNERSchemaPLANNERClientEvent hasContextPredictorFalseNegativeDetected]
++ -[PLANNERSchemaPLANNERClientEvent hasIpiClassifierSkipped]
++ -[PLANNERSchemaPLANNERClientEvent ipiClassifierSkipped]
++ -[PLANNERSchemaPLANNERClientEvent setContextPredictorFalseNegativeDetected:]
++ -[PLANNERSchemaPLANNERClientEvent setHasContextPredictorFalseNegativeDetected:]
++ -[PLANNERSchemaPLANNERClientEvent setHasIpiClassifierSkipped:]
++ -[PLANNERSchemaPLANNERClientEvent setIpiClassifierSkipped:]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected .cxx_destruct]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected deletePrediction]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected deleteTriggeringToolName]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected dictionaryRepresentation]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected hasPrediction]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected hasTriggeringToolName]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected hash]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected initWithDictionary:]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected initWithJSON:]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected isEqual:]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected jsonData]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected prediction]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected readFrom:]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected setHasPrediction:]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected setHasTriggeringToolName:]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected setPrediction:]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected setTriggeringToolName:]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected triggeringToolName]
++ -[PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected writeTo:]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped .cxx_destruct]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped deletePreviousStepPlannerToolName]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped deleteSkipReason]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped dictionaryRepresentation]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped hasPreviousStepPlannerToolName]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped hasSkipReason]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped hash]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped initWithDictionary:]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped initWithJSON:]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped isEqual:]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped jsonData]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped previousStepPlannerToolName]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped readFrom:]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped setHasPreviousStepPlannerToolName:]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped setHasSkipReason:]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped setPreviousStepPlannerToolName:]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped setSkipReason:]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped skipReason]
++ -[PLANNERSchemaPLANNERIPIClassifierSkipped writeTo:]
++ -[PLANNERSchemaPLANNERPlanningModelInferenceEnded deleteDirectResponseType]
++ -[PLANNERSchemaPLANNERPlanningModelInferenceEnded deleteFunctionCallCount]
++ -[PLANNERSchemaPLANNERPlanningModelInferenceEnded directResponseType]
++ -[PLANNERSchemaPLANNERPlanningModelInferenceEnded functionCallCount]
++ -[PLANNERSchemaPLANNERPlanningModelInferenceEnded hasDirectResponseType]
++ -[PLANNERSchemaPLANNERPlanningModelInferenceEnded hasFunctionCallCount]
++ -[PLANNERSchemaPLANNERPlanningModelInferenceEnded setDirectResponseType:]
++ -[PLANNERSchemaPLANNERPlanningModelInferenceEnded setFunctionCallCount:]
++ -[PLANNERSchemaPLANNERPlanningModelInferenceEnded setHasDirectResponseType:]
++ -[PLANNERSchemaPLANNERPlanningModelInferenceEnded setHasFunctionCallCount:]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo deleteDidFallBackToMinimalRendering]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo deleteNumEntitiesFallenBack]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo deleteNumEntitiesRenderedFully]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo dictionaryRepresentation]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo didFallBackToMinimalRendering]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo hasDidFallBackToMinimalRendering]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo hasNumEntitiesFallenBack]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo hasNumEntitiesRenderedFully]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo hash]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo initWithDictionary:]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo initWithJSON:]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo isEqual:]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo jsonData]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo numEntitiesFallenBack]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo numEntitiesRenderedFully]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo readFrom:]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo setDidFallBackToMinimalRendering:]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo setHasDidFallBackToMinimalRendering:]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo setHasNumEntitiesFallenBack:]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo setHasNumEntitiesRenderedFully:]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo setNumEntitiesFallenBack:]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo setNumEntitiesRenderedFully:]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo writeTo:]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSExecutionEnded deleteEntityHydrationInfo]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSExecutionEnded entityHydrationInfo]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSExecutionEnded hasEntityHydrationInfo]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSExecutionEnded setEntityHydrationInfo:]
++ -[PLANNERTOOLSSchemaPLANNERTOOLSExecutionEnded setHasEntityHydrationInfo:]
++ -[RESOLVESchemaRESOLVEIndividualEnded deleteHasToolKitDispatch]
++ -[RESOLVESchemaRESOLVEIndividualEnded hasHasToolKitDispatch]
++ -[RESOLVESchemaRESOLVEIndividualEnded hasToolKitDispatch]
++ -[RESOLVESchemaRESOLVEIndividualEnded setHasHasToolKitDispatch:]
++ -[RESOLVESchemaRESOLVEIndividualEnded setHasToolKitDispatch:]
++ -[SAMSchemaSAMOverriddenResponseTier1 deleteOverrideId]
++ -[SAMSchemaSAMOverriddenResponseTier1 dictionaryRepresentation]
++ -[SAMSchemaSAMOverriddenResponseTier1 hasOverrideId]
++ -[SAMSchemaSAMOverriddenResponseTier1 hash]
++ -[SAMSchemaSAMOverriddenResponseTier1 initWithDictionary:]
++ -[SAMSchemaSAMOverriddenResponseTier1 initWithJSON:]
++ -[SAMSchemaSAMOverriddenResponseTier1 isEqual:]
++ -[SAMSchemaSAMOverriddenResponseTier1 jsonData]
++ -[SAMSchemaSAMOverriddenResponseTier1 overrideId]
++ -[SAMSchemaSAMOverriddenResponseTier1 readFrom:]
++ -[SAMSchemaSAMOverriddenResponseTier1 setHasOverrideId:]
++ -[SAMSchemaSAMOverriddenResponseTier1 setOverrideId:]
++ -[SAMSchemaSAMOverriddenResponseTier1 writeTo:]
++ -[SAMSchemaSAMRequestStarted deleteSamRequestAPI]
++ -[SAMSchemaSAMRequestStarted hasSamRequestAPI]
++ -[SAMSchemaSAMRequestStarted samRequestAPI]
++ -[SAMSchemaSAMRequestStarted setHasSamRequestAPI:]
++ -[SAMSchemaSAMRequestStarted setSamRequestAPI:]
++ -[SAMSchemaSAMServerEvent deleteOverriddenResponseTier1]
++ -[SAMSchemaSAMServerEvent hasOverriddenResponseTier1]
++ -[SAMSchemaSAMServerEvent overriddenResponseTier1]
++ -[SAMSchemaSAMServerEvent setHasOverriddenResponseTier1:]
++ -[SAMSchemaSAMServerEvent setOverriddenResponseTier1:]
++ -[SISchemaInvocation deleteIsNewConversation]
++ -[SISchemaInvocation hasIsNewConversation]
++ -[SISchemaInvocation isNewConversation]
++ -[SISchemaInvocation setHasIsNewConversation:]
++ -[SISchemaInvocation setIsNewConversation:]
++ -[STSchemaSTEvent deleteStGeoServicesSearchContext]
++ -[STSchemaSTEvent hasStGeoServicesSearchContext]
++ -[STSchemaSTEvent setHasStGeoServicesSearchContext:]
++ -[STSchemaSTEvent setStGeoServicesSearchContext:]
++ -[STSchemaSTEvent stGeoServicesSearchContext]
++ -[STSchemaSTGeoServicesSearchCanceled deleteExists]
++ -[STSchemaSTGeoServicesSearchCanceled dictionaryRepresentation]
++ -[STSchemaSTGeoServicesSearchCanceled exists]
++ -[STSchemaSTGeoServicesSearchCanceled hasExists]
++ -[STSchemaSTGeoServicesSearchCanceled hash]
++ -[STSchemaSTGeoServicesSearchCanceled initWithDictionary:]
++ -[STSchemaSTGeoServicesSearchCanceled initWithJSON:]
++ -[STSchemaSTGeoServicesSearchCanceled isEqual:]
++ -[STSchemaSTGeoServicesSearchCanceled jsonData]
++ -[STSchemaSTGeoServicesSearchCanceled readFrom:]
++ -[STSchemaSTGeoServicesSearchCanceled setExists:]
++ -[STSchemaSTGeoServicesSearchCanceled setHasExists:]
++ -[STSchemaSTGeoServicesSearchCanceled writeTo:]
++ -[STSchemaSTGeoServicesSearchContext .cxx_destruct]
++ -[STSchemaSTGeoServicesSearchContext canceled]
++ -[STSchemaSTGeoServicesSearchContext deleteCanceled]
++ -[STSchemaSTGeoServicesSearchContext deleteEnded]
++ -[STSchemaSTGeoServicesSearchContext deleteFailed]
++ -[STSchemaSTGeoServicesSearchContext deleteStartedOrChanged]
++ -[STSchemaSTGeoServicesSearchContext dictionaryRepresentation]
++ -[STSchemaSTGeoServicesSearchContext ended]
++ -[STSchemaSTGeoServicesSearchContext failed]
++ -[STSchemaSTGeoServicesSearchContext hasCanceled]
++ -[STSchemaSTGeoServicesSearchContext hasEnded]
++ -[STSchemaSTGeoServicesSearchContext hasFailed]
++ -[STSchemaSTGeoServicesSearchContext hasStartedOrChanged]
++ -[STSchemaSTGeoServicesSearchContext hash]
++ -[STSchemaSTGeoServicesSearchContext initWithDictionary:]
++ -[STSchemaSTGeoServicesSearchContext initWithJSON:]
++ -[STSchemaSTGeoServicesSearchContext isEqual:]
++ -[STSchemaSTGeoServicesSearchContext jsonData]
++ -[STSchemaSTGeoServicesSearchContext readFrom:]
++ -[STSchemaSTGeoServicesSearchContext setCanceled:]
++ -[STSchemaSTGeoServicesSearchContext setEnded:]
++ -[STSchemaSTGeoServicesSearchContext setFailed:]
++ -[STSchemaSTGeoServicesSearchContext setHasCanceled:]
++ -[STSchemaSTGeoServicesSearchContext setHasEnded:]
++ -[STSchemaSTGeoServicesSearchContext setHasFailed:]
++ -[STSchemaSTGeoServicesSearchContext setHasStartedOrChanged:]
++ -[STSchemaSTGeoServicesSearchContext setStartedOrChanged:]
++ -[STSchemaSTGeoServicesSearchContext startedOrChanged]
++ -[STSchemaSTGeoServicesSearchContext whichContextevent]
++ -[STSchemaSTGeoServicesSearchContext writeTo:]
++ -[STSchemaSTGeoServicesSearchEnded .cxx_destruct]
++ -[STSchemaSTGeoServicesSearchEnded addSubSearchResults:]
++ -[STSchemaSTGeoServicesSearchEnded clearSubSearchResults]
++ -[STSchemaSTGeoServicesSearchEnded deleteIsLocationSharingReprompt]
++ -[STSchemaSTGeoServicesSearchEnded deleteSubSearchResults]
++ -[STSchemaSTGeoServicesSearchEnded dictionaryRepresentation]
++ -[STSchemaSTGeoServicesSearchEnded hasIsLocationSharingReprompt]
++ -[STSchemaSTGeoServicesSearchEnded hash]
++ -[STSchemaSTGeoServicesSearchEnded initWithDictionary:]
++ -[STSchemaSTGeoServicesSearchEnded initWithJSON:]
++ -[STSchemaSTGeoServicesSearchEnded isEqual:]
++ -[STSchemaSTGeoServicesSearchEnded isLocationSharingReprompt]
++ -[STSchemaSTGeoServicesSearchEnded jsonData]
++ -[STSchemaSTGeoServicesSearchEnded readFrom:]
++ -[STSchemaSTGeoServicesSearchEnded setHasIsLocationSharingReprompt:]
++ -[STSchemaSTGeoServicesSearchEnded setIsLocationSharingReprompt:]
++ -[STSchemaSTGeoServicesSearchEnded setSubSearchResults:]
++ -[STSchemaSTGeoServicesSearchEnded subSearchResultsAtIndex:]
++ -[STSchemaSTGeoServicesSearchEnded subSearchResultsCount]
++ -[STSchemaSTGeoServicesSearchEnded subSearchResults]
++ -[STSchemaSTGeoServicesSearchEnded writeTo:]
++ -[STSchemaSTGeoServicesSearchFailed .cxx_destruct]
++ -[STSchemaSTGeoServicesSearchFailed addErrors:]
++ -[STSchemaSTGeoServicesSearchFailed clearErrors]
++ -[STSchemaSTGeoServicesSearchFailed deleteErrors]
++ -[STSchemaSTGeoServicesSearchFailed dictionaryRepresentation]
++ -[STSchemaSTGeoServicesSearchFailed errorsAtIndex:]
++ -[STSchemaSTGeoServicesSearchFailed errorsCount]
++ -[STSchemaSTGeoServicesSearchFailed errors]
++ -[STSchemaSTGeoServicesSearchFailed hash]
++ -[STSchemaSTGeoServicesSearchFailed initWithDictionary:]
++ -[STSchemaSTGeoServicesSearchFailed initWithJSON:]
++ -[STSchemaSTGeoServicesSearchFailed isEqual:]
++ -[STSchemaSTGeoServicesSearchFailed jsonData]
++ -[STSchemaSTGeoServicesSearchFailed readFrom:]
++ -[STSchemaSTGeoServicesSearchFailed setErrors:]
++ -[STSchemaSTGeoServicesSearchFailed writeTo:]
++ -[STSchemaSTGeoServicesSearchStarted .cxx_destruct]
++ -[STSchemaSTGeoServicesSearchStarted addSubSearches:]
++ -[STSchemaSTGeoServicesSearchStarted clearSubSearches]
++ -[STSchemaSTGeoServicesSearchStarted deleteIsLocationAvailable]
++ -[STSchemaSTGeoServicesSearchStarted deleteIsSearchAlongRoute]
++ -[STSchemaSTGeoServicesSearchStarted deleteSubSearches]
++ -[STSchemaSTGeoServicesSearchStarted dictionaryRepresentation]
++ -[STSchemaSTGeoServicesSearchStarted hasIsLocationAvailable]
++ -[STSchemaSTGeoServicesSearchStarted hasIsSearchAlongRoute]
++ -[STSchemaSTGeoServicesSearchStarted hash]
++ -[STSchemaSTGeoServicesSearchStarted initWithDictionary:]
++ -[STSchemaSTGeoServicesSearchStarted initWithJSON:]
++ -[STSchemaSTGeoServicesSearchStarted isEqual:]
++ -[STSchemaSTGeoServicesSearchStarted isLocationAvailable]
++ -[STSchemaSTGeoServicesSearchStarted isSearchAlongRoute]
++ -[STSchemaSTGeoServicesSearchStarted jsonData]
++ -[STSchemaSTGeoServicesSearchStarted readFrom:]
++ -[STSchemaSTGeoServicesSearchStarted setHasIsLocationAvailable:]
++ -[STSchemaSTGeoServicesSearchStarted setHasIsSearchAlongRoute:]
++ -[STSchemaSTGeoServicesSearchStarted setIsLocationAvailable:]
++ -[STSchemaSTGeoServicesSearchStarted setIsSearchAlongRoute:]
++ -[STSchemaSTGeoServicesSearchStarted setSubSearches:]
++ -[STSchemaSTGeoServicesSearchStarted subSearchesAtIndex:]
++ -[STSchemaSTGeoServicesSearchStarted subSearchesCount]
++ -[STSchemaSTGeoServicesSearchStarted subSearches]
++ -[STSchemaSTGeoServicesSearchStarted writeTo:]
++ -[STSchemaSTGeoServicesSubSearch .cxx_destruct]
++ -[STSchemaSTGeoServicesSubSearch deleteFilterType]
++ -[STSchemaSTGeoServicesSubSearch deleteGeoSubSearchId]
++ -[STSchemaSTGeoServicesSubSearch dictionaryRepresentation]
++ -[STSchemaSTGeoServicesSubSearch filterType]
++ -[STSchemaSTGeoServicesSubSearch geoSubSearchId]
++ -[STSchemaSTGeoServicesSubSearch hasFilterType]
++ -[STSchemaSTGeoServicesSubSearch hasGeoSubSearchId]
++ -[STSchemaSTGeoServicesSubSearch hash]
++ -[STSchemaSTGeoServicesSubSearch initWithDictionary:]
++ -[STSchemaSTGeoServicesSubSearch initWithJSON:]
++ -[STSchemaSTGeoServicesSubSearch isEqual:]
++ -[STSchemaSTGeoServicesSubSearch jsonData]
++ -[STSchemaSTGeoServicesSubSearch readFrom:]
++ -[STSchemaSTGeoServicesSubSearch setFilterType:]
++ -[STSchemaSTGeoServicesSubSearch setGeoSubSearchId:]
++ -[STSchemaSTGeoServicesSubSearch setHasFilterType:]
++ -[STSchemaSTGeoServicesSubSearch setHasGeoSubSearchId:]
++ -[STSchemaSTGeoServicesSubSearch writeTo:]
++ -[STSchemaSTGeoServicesSubSearchResult .cxx_destruct]
++ -[STSchemaSTGeoServicesSubSearchResult deleteGeoSubSearchId]
++ -[STSchemaSTGeoServicesSubSearchResult deleteTotalResultCount]
++ -[STSchemaSTGeoServicesSubSearchResult dictionaryRepresentation]
++ -[STSchemaSTGeoServicesSubSearchResult geoSubSearchId]
++ -[STSchemaSTGeoServicesSubSearchResult hasGeoSubSearchId]
++ -[STSchemaSTGeoServicesSubSearchResult hasTotalResultCount]
++ -[STSchemaSTGeoServicesSubSearchResult hash]
++ -[STSchemaSTGeoServicesSubSearchResult initWithDictionary:]
++ -[STSchemaSTGeoServicesSubSearchResult initWithJSON:]
++ -[STSchemaSTGeoServicesSubSearchResult isEqual:]
++ -[STSchemaSTGeoServicesSubSearchResult jsonData]
++ -[STSchemaSTGeoServicesSubSearchResult readFrom:]
++ -[STSchemaSTGeoServicesSubSearchResult setGeoSubSearchId:]
++ -[STSchemaSTGeoServicesSubSearchResult setHasGeoSubSearchId:]
++ -[STSchemaSTGeoServicesSubSearchResult setHasTotalResultCount:]
++ -[STSchemaSTGeoServicesSubSearchResult setTotalResultCount:]
++ -[STSchemaSTGeoServicesSubSearchResult totalResultCount]
++ -[STSchemaSTGeoServicesSubSearchResult writeTo:]
++ -[STSchemaSTSpotlightIndexProcessingMetric deletePipeline]
++ -[STSchemaSTSpotlightIndexProcessingMetric deleteProcessCompleteness]
++ -[STSchemaSTSpotlightIndexProcessingMetric deleteSpotlightBundleId]
++ -[STSchemaSTSpotlightIndexProcessingMetric dictionaryRepresentation]
++ -[STSchemaSTSpotlightIndexProcessingMetric hasPipeline]
++ -[STSchemaSTSpotlightIndexProcessingMetric hasProcessCompleteness]
++ -[STSchemaSTSpotlightIndexProcessingMetric hasSpotlightBundleId]
++ -[STSchemaSTSpotlightIndexProcessingMetric hash]
++ -[STSchemaSTSpotlightIndexProcessingMetric initWithDictionary:]
++ -[STSchemaSTSpotlightIndexProcessingMetric initWithJSON:]
++ -[STSchemaSTSpotlightIndexProcessingMetric isEqual:]
++ -[STSchemaSTSpotlightIndexProcessingMetric jsonData]
++ -[STSchemaSTSpotlightIndexProcessingMetric pipeline]
++ -[STSchemaSTSpotlightIndexProcessingMetric processCompleteness]
++ -[STSchemaSTSpotlightIndexProcessingMetric readFrom:]
++ -[STSchemaSTSpotlightIndexProcessingMetric setHasPipeline:]
++ -[STSchemaSTSpotlightIndexProcessingMetric setHasProcessCompleteness:]
++ -[STSchemaSTSpotlightIndexProcessingMetric setHasSpotlightBundleId:]
++ -[STSchemaSTSpotlightIndexProcessingMetric setPipeline:]
++ -[STSchemaSTSpotlightIndexProcessingMetric setProcessCompleteness:]
++ -[STSchemaSTSpotlightIndexProcessingMetric setSpotlightBundleId:]
++ -[STSchemaSTSpotlightIndexProcessingMetric spotlightBundleId]
++ -[STSchemaSTSpotlightIndexProcessingMetric writeTo:]
++ -[STSchemaSTSpotlightRequestEnded addIndexProcessingMetrics:]
++ -[STSchemaSTSpotlightRequestEnded clearIndexProcessingMetrics]
++ -[STSchemaSTSpotlightRequestEnded deleteIndexProcessingMetrics]
++ -[STSchemaSTSpotlightRequestEnded indexProcessingMetricsAtIndex:]
++ -[STSchemaSTSpotlightRequestEnded indexProcessingMetricsCount]
++ -[STSchemaSTSpotlightRequestEnded indexProcessingMetrics]
++ -[STSchemaSTSpotlightRequestEnded setIndexProcessingMetrics:]
++ OBJC_IVAR_$_ASRSchemaASRAcousticRetrievalMetrics._numEntitiesRetrieved
++ OBJC_IVAR_$_ASRSchemaASRClientEvent._firstAppleFoundationModelOutputTokenReceived
++ OBJC_IVAR_$_ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived._exists
++ OBJC_IVAR_$_ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived._has
++ OBJC_IVAR_$_ASRSchemaASRRecognitionMetrics._backboneResponseLatenciesInMs
++ OBJC_IVAR_$_ASRSchemaASRRecognitionMetrics._hasInvalidSpeechProfileEntities
++ OBJC_IVAR_$_ASRSchemaASRRecognitionMetrics._isSpeechProfileRejected
++ OBJC_IVAR_$_ASRSchemaASRRecognitionMetrics._isSpeechProfileUsed
++ OBJC_IVAR_$_ASRSchemaASRRecognitionMetrics._numActivatedNCBVQEntities
++ OBJC_IVAR_$_ASRSchemaASRStarted._areIFPAssetsInstalled
++ OBJC_IVAR_$_ASRSchemaASRStarted._isDeviceIFPEligible
++ OBJC_IVAR_$_ASRSpeechProfileSchemaASRSpeechVectorDatabaseUpdateStarted._isNCBVQUpdate
++ OBJC_IVAR_$_CHSchemaCHClientEvent._goalCompletionInferenceGenerated
++ OBJC_IVAR_$_CHSchemaCHGoalCompletionInferenceGenerated._evaluatorMetadata
++ OBJC_IVAR_$_CHSchemaCHGoalCompletionInferenceGenerated._goalCompletionInferenceMetadata
++ OBJC_IVAR_$_CHSchemaCHGoalCompletionInferenceMetadata._failureReason
++ OBJC_IVAR_$_CHSchemaCHGoalCompletionInferenceMetadata._goalCompletionScore
++ OBJC_IVAR_$_CHSchemaCHGoalCompletionInferenceMetadata._goalCompletionStatus
++ OBJC_IVAR_$_CHSchemaCHGoalCompletionInferenceMetadata._has
++ OBJC_IVAR_$_CPRSchemaCPRActivationReason._arbitrationReason
++ OBJC_IVAR_$_CPRSchemaCPRActivationReason._has
++ OBJC_IVAR_$_CPRSchemaCPRActivationReason._kind
++ OBJC_IVAR_$_CPRSchemaCPRActiveRuntimeSwitched._originatingRuntime
++ OBJC_IVAR_$_CPRSchemaCPRActiveRuntimeSwitched._reason
++ OBJC_IVAR_$_CPRSchemaCPRActiveRuntimeSwitched._targetRuntime
++ OBJC_IVAR_$_CPRSchemaCPRArbitrationActivationReason._has
++ OBJC_IVAR_$_CPRSchemaCPRArbitrationActivationReason._kind
++ OBJC_IVAR_$_CPRSchemaCPRArbitrationActivationReason._recoveryReason
++ OBJC_IVAR_$_CPRSchemaCPRClientEvent._activeRuntimeSwitched
++ OBJC_IVAR_$_CPRSchemaCPRConditionFailure._conditionType
++ OBJC_IVAR_$_CPRSchemaCPRConditionFailure._eligibilityType
++ OBJC_IVAR_$_CPRSchemaCPRConditionType._has
++ OBJC_IVAR_$_CPRSchemaCPRConditionType._kind
++ OBJC_IVAR_$_CPRSchemaCPRConditionType._policies
++ OBJC_IVAR_$_CPRSchemaCPREligibilityType._has
++ OBJC_IVAR_$_CPRSchemaCPREligibilityType._kind
++ OBJC_IVAR_$_CPRSchemaCPREligibilityType._runtime
++ OBJC_IVAR_$_CPRSchemaCPRRecoveryInvocationReason._source
++ OBJC_IVAR_$_CPRSchemaCPRRecoverySource._conditionFailure
++ OBJC_IVAR_$_CPRSchemaCPRRecoverySource._eligibilityCheckRuntime
++ OBJC_IVAR_$_CPRSchemaCPRRecoverySource._has
++ OBJC_IVAR_$_CPRSchemaCPRRecoverySource._kind
++ OBJC_IVAR_$_CPRSchemaCPRRuntimeDetails._has
++ OBJC_IVAR_$_CPRSchemaCPRRuntimeDetails._ifSessionId
++ OBJC_IVAR_$_CPRSchemaCPRRuntimeDetails._runtimeType
++ OBJC_IVAR_$_CPSchemaCPClientEvent._eventMetadata
++ OBJC_IVAR_$_CPSchemaCPClientEvent._modelInferenceContext
++ OBJC_IVAR_$_CPSchemaCPClientEvent._predictionContext
++ OBJC_IVAR_$_CPSchemaCPClientEvent._skimmerInferenceContext
++ OBJC_IVAR_$_CPSchemaCPClientEvent._warmupContext
++ OBJC_IVAR_$_CPSchemaCPClientEventMetadata._cpId
++ OBJC_IVAR_$_CPSchemaCPModelInferenceCanceled._exists
++ OBJC_IVAR_$_CPSchemaCPModelInferenceCanceled._has
++ OBJC_IVAR_$_CPSchemaCPModelInferenceContext._canceled
++ OBJC_IVAR_$_CPSchemaCPModelInferenceContext._ended
++ OBJC_IVAR_$_CPSchemaCPModelInferenceContext._failed
++ OBJC_IVAR_$_CPSchemaCPModelInferenceContext._startedOrChanged
++ OBJC_IVAR_$_CPSchemaCPModelInferenceEnded._earlyExitReason
++ OBJC_IVAR_$_CPSchemaCPModelInferenceEnded._has
++ OBJC_IVAR_$_CPSchemaCPModelInferenceEnded._isContextRequired
++ OBJC_IVAR_$_CPSchemaCPModelInferenceEnded._isEarlyExit
++ OBJC_IVAR_$_CPSchemaCPModelInferenceEnded._score
++ OBJC_IVAR_$_CPSchemaCPModelInferenceEnded._threshold
++ OBJC_IVAR_$_CPSchemaCPModelInferenceFailed._errors
++ OBJC_IVAR_$_CPSchemaCPModelInferenceStarted._exists
++ OBJC_IVAR_$_CPSchemaCPModelInferenceStarted._has
++ OBJC_IVAR_$_CPSchemaCPPredictionCanceled._exists
++ OBJC_IVAR_$_CPSchemaCPPredictionCanceled._has
++ OBJC_IVAR_$_CPSchemaCPPredictionContext._canceled
++ OBJC_IVAR_$_CPSchemaCPPredictionContext._ended
++ OBJC_IVAR_$_CPSchemaCPPredictionContext._failed
++ OBJC_IVAR_$_CPSchemaCPPredictionContext._startedOrChanged
++ OBJC_IVAR_$_CPSchemaCPPredictionEnded._determinationMethod
++ OBJC_IVAR_$_CPSchemaCPPredictionEnded._earlyExitReason
++ OBJC_IVAR_$_CPSchemaCPPredictionEnded._has
++ OBJC_IVAR_$_CPSchemaCPPredictionEnded._isEarlyExit
++ OBJC_IVAR_$_CPSchemaCPPredictionEnded._result
++ OBJC_IVAR_$_CPSchemaCPPredictionFailed._errors
++ OBJC_IVAR_$_CPSchemaCPPredictionStarted._exists
++ OBJC_IVAR_$_CPSchemaCPPredictionStarted._has
++ OBJC_IVAR_$_CPSchemaCPSkimmerInferenceCanceled._exists
++ OBJC_IVAR_$_CPSchemaCPSkimmerInferenceCanceled._has
++ OBJC_IVAR_$_CPSchemaCPSkimmerInferenceContext._canceled
++ OBJC_IVAR_$_CPSchemaCPSkimmerInferenceContext._ended
++ OBJC_IVAR_$_CPSchemaCPSkimmerInferenceContext._failed
++ OBJC_IVAR_$_CPSchemaCPSkimmerInferenceContext._startedOrChanged
++ OBJC_IVAR_$_CPSchemaCPSkimmerInferenceEnded._classificationResult
++ OBJC_IVAR_$_CPSchemaCPSkimmerInferenceEnded._has
++ OBJC_IVAR_$_CPSchemaCPSkimmerInferenceFailed._errors
++ OBJC_IVAR_$_CPSchemaCPSkimmerInferenceStarted._exists
++ OBJC_IVAR_$_CPSchemaCPSkimmerInferenceStarted._has
++ OBJC_IVAR_$_CPSchemaCPWarmupCanceled._exists
++ OBJC_IVAR_$_CPSchemaCPWarmupCanceled._has
++ OBJC_IVAR_$_CPSchemaCPWarmupContext._canceled
++ OBJC_IVAR_$_CPSchemaCPWarmupContext._ended
++ OBJC_IVAR_$_CPSchemaCPWarmupContext._failed
++ OBJC_IVAR_$_CPSchemaCPWarmupContext._startedOrChanged
++ OBJC_IVAR_$_CPSchemaCPWarmupEnded._exists
++ OBJC_IVAR_$_CPSchemaCPWarmupEnded._has
++ OBJC_IVAR_$_CPSchemaCPWarmupFailed._errors
++ OBJC_IVAR_$_CPSchemaCPWarmupStarted._exists
++ OBJC_IVAR_$_CPSchemaCPWarmupStarted._has
++ OBJC_IVAR_$_ESSchemaESFullHydrationEnded._toolKitDispatchCount
++ OBJC_IVAR_$_ESSchemaESFullyHydratedEntitiesEnded._toolKitDispatchCount
++ OBJC_IVAR_$_ESSchemaESHydrateEntitiesEnded._toolKitDispatchCount
++ OBJC_IVAR_$_ExecutorSiriSchemaExecutorActionPoisoningClassifierCallEnded._classifierOutcome
++ OBJC_IVAR_$_ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped._appIntentSessionId
++ OBJC_IVAR_$_ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped._has
++ OBJC_IVAR_$_ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped._skipReason
++ OBJC_IVAR_$_ExecutorSiriSchemaExecutorClientEvent._executorActionPoisoningClassifierSkipped
++ OBJC_IVAR_$_FTDMailSchemaFTDMailApplicationInfo._appBundleId
++ OBJC_IVAR_$_FTDMailSchemaFTDMailApplicationInfo._has
++ OBJC_IVAR_$_FTDMailSchemaFTDMailApplicationInfo._hasForcedBackgroundMode
++ OBJC_IVAR_$_FTDMailSchemaFTDMailApplicationInfo._hasVendedSnippet
++ OBJC_IVAR_$_FTDMailSchemaFTDMailApplicationInfo._isForegrounded
++ OBJC_IVAR_$_FTDMailSchemaFTDMailApplicationInfo._userResponseMode
++ OBJC_IVAR_$_FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked._has
++ OBJC_IVAR_$_FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked._hasSpecifiedMailAccount
++ OBJC_IVAR_$_FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked._mailApplication
++ OBJC_IVAR_$_FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked._recipients
++ OBJC_IVAR_$_FTDMailSchemaFTDMailRecipientsInfo._contactRecipients
++ OBJC_IVAR_$_FTDMailSchemaFTDMailRecipientsInfo._has
++ OBJC_IVAR_$_FTDMailSchemaFTDMailRecipientsInfo._nonContactRecipients
++ OBJC_IVAR_$_FTDMailSchemaFTDMailSendDraftInvoked._mailApplication
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata._has
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata._hasPriorityNotifications
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata._isContentHidden
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata._isSameAppAsLastAnnouncement
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata._longAnnouncementCount
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata._notificationCount
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata._notificationSummaryCount
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata._threadSummaryCount
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata._unreadableNotificationCount
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked._has
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked._isAnnounceRequest
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked._isCatchMeUp
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked._isReadLatest
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked._notificationCount
++ OBJC_IVAR_$_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult._appNotifications
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext._canceled
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext._contextId
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext._ended
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext._failed
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext._startedOrChanged
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext._canceled
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext._contextId
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext._ended
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext._failed
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext._startedOrChanged
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext._canceled
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext._contextId
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext._ended
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext._failed
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext._startedOrChanged
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext._canceled
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext._contextId
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext._ended
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext._failed
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext._startedOrChanged
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupCanceled._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupCanceled._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupContext._canceled
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupContext._contextId
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupContext._ended
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupContext._failed
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupContext._startedOrChanged
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupEnded._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupEnded._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupFailed._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupFailed._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupStarted._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupStarted._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationCanceled._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationCanceled._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationContext._canceled
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationContext._contextId
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationContext._ended
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationContext._failed
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationContext._startedOrChanged
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationEnded._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationEnded._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationFailed._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationFailed._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationStarted._exists
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationStarted._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked._searchCallHistoryIntent
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneStartCallInvoked._callAppType
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneStartCallInvoked._callType
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneStartCallInvoked._emergencyCallType
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneStartCallInvoked._has
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneStartCallInvoked._isSiriKitFallback
++ OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneStartCallInvoked._personTypes
++ OBJC_IVAR_$_FTDSchemaFTDClientEvent._mailCreateOrUpdateDraftInvoked
++ OBJC_IVAR_$_FTDSchemaFTDClientEvent._mailSendDraftInvoked
++ OBJC_IVAR_$_FTDSchemaFTDClientEvent._notificationsPrepareNotificationsInvoked
++ OBJC_IVAR_$_FTDSchemaFTDClientEvent._notificationsPrepareNotificationsResult
++ OBJC_IVAR_$_FTDSchemaFTDClientEvent._phoneCallHistoryRetrievalContext
++ OBJC_IVAR_$_FTDSchemaFTDClientEvent._phoneContactFavoriteHandlesRetrievalContext
++ OBJC_IVAR_$_FTDSchemaFTDClientEvent._phoneEmergencyContactsRetrievalContext
++ OBJC_IVAR_$_FTDSchemaFTDClientEvent._phoneFaceTimeLinkGenerationContext
++ OBJC_IVAR_$_FTDSchemaFTDClientEvent._phoneIDSLookupContext
++ OBJC_IVAR_$_FTDSchemaFTDClientEvent._phoneSanitizationContext
++ OBJC_IVAR_$_FTDSchemaFTDClientEvent._phoneSearchCallHistoryOrVoicemailInvoked
++ OBJC_IVAR_$_FTDSchemaFTDClientEvent._phoneStartCallInvoked
++ OBJC_IVAR_$_GMSSchemaGMSExtendedInferenceMetrics._ifpExpertLoadActivationParametersInBillions
++ OBJC_IVAR_$_GMSSchemaGMSExtendedInferenceMetrics._ifpExpertLoadCacheHitCount
++ OBJC_IVAR_$_GMSSchemaGMSExtendedInferenceMetrics._ifpExpertLoadCacheMissCount
++ OBJC_IVAR_$_GMSSchemaGMSExtendedInferenceMetrics._ifpExpertLoadLatencySeconds
++ OBJC_IVAR_$_GMSSchemaGMSExtendedInferenceMetrics._ifpExpertSelectionInitialPromptLatencySeconds
++ OBJC_IVAR_$_GMSSchemaGMSExtendedInferenceMetrics._serverBatchedRequestsCount
++ OBJC_IVAR_$_MHSchemaMHClientEvent._osdDetectionReported
++ OBJC_IVAR_$_MHSchemaMHClientEvent._speakerIdEmbeddingGenerated
++ OBJC_IVAR_$_MHSchemaMHClientEvent._targetSpeakerSpeechEvaluated
++ OBJC_IVAR_$_MHSchemaMHOSDDetectionReported._has
++ OBJC_IVAR_$_MHSchemaMHOSDDetectionReported._isOsdCanarySampled
++ OBJC_IVAR_$_MHSchemaMHOSDDetectionReported._osdMinConsecutiveSpeechThresholdInMs
++ OBJC_IVAR_$_MHSchemaMHOSDDetectionReported._osdModelVersion
++ OBJC_IVAR_$_MHSchemaMHOSDDetectionReported._osdSilenceProbabilityThreshold
++ OBJC_IVAR_$_MHSchemaMHOSDDetectionReported._osdSpeechStartTimeInMs
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdEmbeddingGenerated._assetVersion
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdEmbeddingGenerated._failureReason
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdEmbeddingGenerated._has
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdEmbeddingGenerated._isSuccess
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdEmbeddingGenerated._numAudioFiles
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdEmbeddingGenerated._retrainerType
++ OBJC_IVAR_$_MHSchemaMHTargetSpeakerSpeechEvaluated._error
++ OBJC_IVAR_$_MHSchemaMHTargetSpeakerSpeechEvaluated._has
++ OBJC_IVAR_$_MHSchemaMHTargetSpeakerSpeechEvaluated._modelVersion
++ OBJC_IVAR_$_MHSchemaMHTargetSpeakerSpeechEvaluated._processedAudioDurationInNs
++ OBJC_IVAR_$_MHSchemaMHTargetSpeakerSpeechEvaluated._referenceAudioEndTimeInNs
++ OBJC_IVAR_$_MHSchemaMHTargetSpeakerSpeechEvaluated._speakerSimilarityScore
++ OBJC_IVAR_$_MHSchemaMHTargetSpeakerSpeechEvaluated._speakerSimilarityThreshold
++ OBJC_IVAR_$_MHSchemaMHTargetSpeakerSpeechEvaluated._targetAudioEndTimeInNs
++ OBJC_IVAR_$_MHSchemaMHTargetSpeakerSpeechEvaluated._targetAudioStartTimeInNs
++ OBJC_IVAR_$_NETSchemaNETCellularLQMReport._has
++ OBJC_IVAR_$_NETSchemaNETCellularLQMReport._lqm
++ OBJC_IVAR_$_NETSchemaNETCellularRATReport._has
++ OBJC_IVAR_$_NETSchemaNETCellularRATReport._rat
++ OBJC_IVAR_$_NETSchemaNETClientEvent._wirelessStateReported
++ OBJC_IVAR_$_NETSchemaNETPrimaryNetworkInterfaceReport._has
++ OBJC_IVAR_$_NETSchemaNETPrimaryNetworkInterfaceReport._interfaceType
++ OBJC_IVAR_$_NETSchemaNETRNFSwitchesReport._has
++ OBJC_IVAR_$_NETSchemaNETRNFSwitchesReport._isIntelligentConnectivityEnabled
++ OBJC_IVAR_$_NETSchemaNETWiFiRadioTechReport._has
++ OBJC_IVAR_$_NETSchemaNETWiFiRadioTechReport._phyMode
++ OBJC_IVAR_$_NETSchemaNETWiFiRadioTechReport._status
++ OBJC_IVAR_$_NETSchemaNETWirelessStateReported._cellularLqm
++ OBJC_IVAR_$_NETSchemaNETWirelessStateReported._cellularRat
++ OBJC_IVAR_$_NETSchemaNETWirelessStateReported._exists
++ OBJC_IVAR_$_NETSchemaNETWirelessStateReported._has
++ OBJC_IVAR_$_NETSchemaNETWirelessStateReported._primaryNetworkInterface
++ OBJC_IVAR_$_NETSchemaNETWirelessStateReported._rnfSwitches
++ OBJC_IVAR_$_NETSchemaNETWirelessStateReported._wifiRadioTech
++ OBJC_IVAR_$_ODDSiriSchemaODDAssistantDimensions._orchestrationMode
++ OBJC_IVAR_$_ODDSiriSchemaODDAssistantLLMSiriCounts._siriAppResumeCount
++ OBJC_IVAR_$_ODDSiriSchemaODDAssistantLLMSiriDigestsReported._has
++ OBJC_IVAR_$_ODDSiriSchemaODDAssistantLLMSiriDigestsReported._minutesToFirstNewCapability
++ OBJC_IVAR_$_ODDSiriSchemaODDAssistantLLMSiriDimensions._executionCategory
++ OBJC_IVAR_$_ODDSiriSchemaODDAssistantLLMSiriDimensions._has
++ OBJC_IVAR_$_ODDSiriSchemaODDAssistantLLMSiriDimensions._isSiriAppRequest
++ OBJC_IVAR_$_ODDSiriSchemaODDGeneralProperties._deviceRegionInfo
++ OBJC_IVAR_$_ORCHSchemaORCHAssistantServiceLaunchMetadataReported._assistantServiceLoadedTimestampInNs
++ OBJC_IVAR_$_ORCHSchemaORCHAssistantServiceLaunchMetadataReported._assistantServiceSpawnTimestampInNs
++ OBJC_IVAR_$_ORCHSchemaORCHAssistantServiceLaunchMetadataReported._isFirstRequest
++ OBJC_IVAR_$_PEGASUSSchemaPEGASUSKGImageTier1._entityId
++ OBJC_IVAR_$_PEGASUSSchemaPEGASUSKGImageTier1._imageSource
++ OBJC_IVAR_$_PEGASUSSchemaPEGASUSKGImageTier1._imageUrl
++ OBJC_IVAR_$_PEGASUSSchemaPEGASUSKGQAExecutionTier1._kgImages
++ OBJC_IVAR_$_PLANNERSchemaPLANNERClientEvent._contextPredictorFalseNegativeDetected
++ OBJC_IVAR_$_PLANNERSchemaPLANNERClientEvent._ipiClassifierSkipped
++ OBJC_IVAR_$_PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected._has
++ OBJC_IVAR_$_PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected._prediction
++ OBJC_IVAR_$_PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected._triggeringToolName
++ OBJC_IVAR_$_PLANNERSchemaPLANNERIPIClassifierSkipped._has
++ OBJC_IVAR_$_PLANNERSchemaPLANNERIPIClassifierSkipped._previousStepPlannerToolName
++ OBJC_IVAR_$_PLANNERSchemaPLANNERIPIClassifierSkipped._skipReason
++ OBJC_IVAR_$_PLANNERSchemaPLANNERPlanningModelInferenceEnded._directResponseType
++ OBJC_IVAR_$_PLANNERSchemaPLANNERPlanningModelInferenceEnded._functionCallCount
++ OBJC_IVAR_$_PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo._didFallBackToMinimalRendering
++ OBJC_IVAR_$_PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo._has
++ OBJC_IVAR_$_PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo._numEntitiesFallenBack
++ OBJC_IVAR_$_PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo._numEntitiesRenderedFully
++ OBJC_IVAR_$_PLANNERTOOLSSchemaPLANNERTOOLSExecutionEnded._entityHydrationInfo
++ OBJC_IVAR_$_RESOLVESchemaRESOLVEIndividualEnded._has
++ OBJC_IVAR_$_RESOLVESchemaRESOLVEIndividualEnded._hasToolKitDispatch
++ OBJC_IVAR_$_SAMSchemaSAMOverriddenResponseTier1._has
++ OBJC_IVAR_$_SAMSchemaSAMOverriddenResponseTier1._overrideId
++ OBJC_IVAR_$_SAMSchemaSAMRequestStarted._has
++ OBJC_IVAR_$_SAMSchemaSAMRequestStarted._samRequestAPI
++ OBJC_IVAR_$_SAMSchemaSAMServerEvent._overriddenResponseTier1
++ OBJC_IVAR_$_SISchemaInvocation._isNewConversation
++ OBJC_IVAR_$_STSchemaSTEvent._stGeoServicesSearchContext
++ OBJC_IVAR_$_STSchemaSTGeoServicesSearchCanceled._exists
++ OBJC_IVAR_$_STSchemaSTGeoServicesSearchCanceled._has
++ OBJC_IVAR_$_STSchemaSTGeoServicesSearchContext._canceled
++ OBJC_IVAR_$_STSchemaSTGeoServicesSearchContext._ended
++ OBJC_IVAR_$_STSchemaSTGeoServicesSearchContext._failed
++ OBJC_IVAR_$_STSchemaSTGeoServicesSearchContext._startedOrChanged
++ OBJC_IVAR_$_STSchemaSTGeoServicesSearchEnded._has
++ OBJC_IVAR_$_STSchemaSTGeoServicesSearchEnded._isLocationSharingReprompt
++ OBJC_IVAR_$_STSchemaSTGeoServicesSearchEnded._subSearchResults
++ OBJC_IVAR_$_STSchemaSTGeoServicesSearchFailed._errors
++ OBJC_IVAR_$_STSchemaSTGeoServicesSearchStarted._has
++ OBJC_IVAR_$_STSchemaSTGeoServicesSearchStarted._isLocationAvailable
++ OBJC_IVAR_$_STSchemaSTGeoServicesSearchStarted._isSearchAlongRoute
++ OBJC_IVAR_$_STSchemaSTGeoServicesSearchStarted._subSearches
++ OBJC_IVAR_$_STSchemaSTGeoServicesSubSearch._filterType
++ OBJC_IVAR_$_STSchemaSTGeoServicesSubSearch._geoSubSearchId
++ OBJC_IVAR_$_STSchemaSTGeoServicesSubSearch._has
++ OBJC_IVAR_$_STSchemaSTGeoServicesSubSearchResult._geoSubSearchId
++ OBJC_IVAR_$_STSchemaSTGeoServicesSubSearchResult._has
++ OBJC_IVAR_$_STSchemaSTGeoServicesSubSearchResult._totalResultCount
++ OBJC_IVAR_$_STSchemaSTSpotlightIndexProcessingMetric._has
++ OBJC_IVAR_$_STSchemaSTSpotlightIndexProcessingMetric._pipeline
++ OBJC_IVAR_$_STSchemaSTSpotlightIndexProcessingMetric._processCompleteness
++ OBJC_IVAR_$_STSchemaSTSpotlightIndexProcessingMetric._spotlightBundleId
++ OBJC_IVAR_$_STSchemaSTSpotlightRequestEnded._indexProcessingMetrics
++ _OBJC_CLASS_$_ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived
++ _OBJC_CLASS_$_CHSchemaCHGoalCompletionInferenceGenerated
++ _OBJC_CLASS_$_CHSchemaCHGoalCompletionInferenceMetadata
++ _OBJC_CLASS_$_CPRSchemaCPRActivationReason
++ _OBJC_CLASS_$_CPRSchemaCPRActiveRuntimeSwitched
++ _OBJC_CLASS_$_CPRSchemaCPRArbitrationActivationReason
++ _OBJC_CLASS_$_CPRSchemaCPRConditionFailure
++ _OBJC_CLASS_$_CPRSchemaCPRConditionType
++ _OBJC_CLASS_$_CPRSchemaCPREligibilityType
++ _OBJC_CLASS_$_CPRSchemaCPRRecoveryInvocationReason
++ _OBJC_CLASS_$_CPRSchemaCPRRecoverySource
++ _OBJC_CLASS_$_CPRSchemaCPRRuntimeDetails
++ _OBJC_CLASS_$_CPSchemaCPClientEvent
++ _OBJC_CLASS_$_CPSchemaCPClientEventMetadata
++ _OBJC_CLASS_$_CPSchemaCPModelInferenceCanceled
++ _OBJC_CLASS_$_CPSchemaCPModelInferenceContext
++ _OBJC_CLASS_$_CPSchemaCPModelInferenceEnded
++ _OBJC_CLASS_$_CPSchemaCPModelInferenceFailed
++ _OBJC_CLASS_$_CPSchemaCPModelInferenceStarted
++ _OBJC_CLASS_$_CPSchemaCPPredictionCanceled
++ _OBJC_CLASS_$_CPSchemaCPPredictionContext
++ _OBJC_CLASS_$_CPSchemaCPPredictionEnded
++ _OBJC_CLASS_$_CPSchemaCPPredictionFailed
++ _OBJC_CLASS_$_CPSchemaCPPredictionStarted
++ _OBJC_CLASS_$_CPSchemaCPSkimmerInferenceCanceled
++ _OBJC_CLASS_$_CPSchemaCPSkimmerInferenceContext
++ _OBJC_CLASS_$_CPSchemaCPSkimmerInferenceEnded
++ _OBJC_CLASS_$_CPSchemaCPSkimmerInferenceFailed
++ _OBJC_CLASS_$_CPSchemaCPSkimmerInferenceStarted
++ _OBJC_CLASS_$_CPSchemaCPWarmupCanceled
++ _OBJC_CLASS_$_CPSchemaCPWarmupContext
++ _OBJC_CLASS_$_CPSchemaCPWarmupEnded
++ _OBJC_CLASS_$_CPSchemaCPWarmupFailed
++ _OBJC_CLASS_$_CPSchemaCPWarmupStarted
++ _OBJC_CLASS_$_ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped
++ _OBJC_CLASS_$_FTDMailSchemaFTDMailApplicationInfo
++ _OBJC_CLASS_$_FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked
++ _OBJC_CLASS_$_FTDMailSchemaFTDMailRecipientsInfo
++ _OBJC_CLASS_$_FTDMailSchemaFTDMailSendDraftInvoked
++ _OBJC_CLASS_$_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata
++ _OBJC_CLASS_$_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked
++ _OBJC_CLASS_$_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneIDSLookupCanceled
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneIDSLookupContext
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneIDSLookupEnded
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneIDSLookupFailed
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneIDSLookupStarted
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneSanitizationCanceled
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneSanitizationContext
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneSanitizationEnded
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneSanitizationFailed
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneSanitizationStarted
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked
++ _OBJC_CLASS_$_FTDPhoneSchemaFTDPhoneStartCallInvoked
++ _OBJC_CLASS_$_MHSchemaMHOSDDetectionReported
++ _OBJC_CLASS_$_MHSchemaMHSpeakerIdEmbeddingGenerated
++ _OBJC_CLASS_$_MHSchemaMHTargetSpeakerSpeechEvaluated
++ _OBJC_CLASS_$_NETSchemaNETCellularLQMReport
++ _OBJC_CLASS_$_NETSchemaNETCellularRATReport
++ _OBJC_CLASS_$_NETSchemaNETPrimaryNetworkInterfaceReport
++ _OBJC_CLASS_$_NETSchemaNETRNFSwitchesReport
++ _OBJC_CLASS_$_NETSchemaNETWiFiRadioTechReport
++ _OBJC_CLASS_$_NETSchemaNETWirelessStateReported
++ _OBJC_CLASS_$_PEGASUSSchemaPEGASUSKGImageTier1
++ _OBJC_CLASS_$_PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected
++ _OBJC_CLASS_$_PLANNERSchemaPLANNERIPIClassifierSkipped
++ _OBJC_CLASS_$_PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo
++ _OBJC_CLASS_$_SAMSchemaSAMOverriddenResponseTier1
++ _OBJC_CLASS_$_STSchemaSTGeoServicesSearchCanceled
++ _OBJC_CLASS_$_STSchemaSTGeoServicesSearchContext
++ _OBJC_CLASS_$_STSchemaSTGeoServicesSearchEnded
++ _OBJC_CLASS_$_STSchemaSTGeoServicesSearchFailed
++ _OBJC_CLASS_$_STSchemaSTGeoServicesSearchStarted
++ _OBJC_CLASS_$_STSchemaSTGeoServicesSubSearch
++ _OBJC_CLASS_$_STSchemaSTGeoServicesSubSearchResult
++ _OBJC_CLASS_$_STSchemaSTSpotlightIndexProcessingMetric
++ _OBJC_IVAR_$_ASRSchemaASRClientEvent._hasFirstAppleFoundationModelOutputTokenReceived
++ _OBJC_IVAR_$_CHSchemaCHClientEvent._hasGoalCompletionInferenceGenerated
++ _OBJC_IVAR_$_CHSchemaCHGoalCompletionInferenceGenerated._hasEvaluatorMetadata
++ _OBJC_IVAR_$_CHSchemaCHGoalCompletionInferenceGenerated._hasGoalCompletionInferenceMetadata
++ _OBJC_IVAR_$_CPRSchemaCPRActivationReason._hasArbitrationReason
++ _OBJC_IVAR_$_CPRSchemaCPRActiveRuntimeSwitched._hasOriginatingRuntime
++ _OBJC_IVAR_$_CPRSchemaCPRActiveRuntimeSwitched._hasReason
++ _OBJC_IVAR_$_CPRSchemaCPRActiveRuntimeSwitched._hasTargetRuntime
++ _OBJC_IVAR_$_CPRSchemaCPRArbitrationActivationReason._hasRecoveryReason
++ _OBJC_IVAR_$_CPRSchemaCPRClientEvent._hasActiveRuntimeSwitched
++ _OBJC_IVAR_$_CPRSchemaCPRConditionFailure._hasConditionType
++ _OBJC_IVAR_$_CPRSchemaCPRConditionFailure._hasEligibilityType
++ _OBJC_IVAR_$_CPRSchemaCPREligibilityType._hasRuntime
++ _OBJC_IVAR_$_CPRSchemaCPRRecoveryInvocationReason._hasSource
++ _OBJC_IVAR_$_CPRSchemaCPRRecoverySource._hasConditionFailure
++ _OBJC_IVAR_$_CPRSchemaCPRRecoverySource._hasEligibilityCheckRuntime
++ _OBJC_IVAR_$_CPRSchemaCPRRuntimeDetails._hasIfSessionId
++ _OBJC_IVAR_$_CPSchemaCPClientEvent._hasEventMetadata
++ _OBJC_IVAR_$_CPSchemaCPClientEvent._hasModelInferenceContext
++ _OBJC_IVAR_$_CPSchemaCPClientEvent._hasPredictionContext
++ _OBJC_IVAR_$_CPSchemaCPClientEvent._hasSkimmerInferenceContext
++ _OBJC_IVAR_$_CPSchemaCPClientEvent._hasWarmupContext
++ _OBJC_IVAR_$_CPSchemaCPClientEvent._whichEvent_Type
++ _OBJC_IVAR_$_CPSchemaCPClientEventMetadata._hasCpId
++ _OBJC_IVAR_$_CPSchemaCPModelInferenceContext._hasCanceled
++ _OBJC_IVAR_$_CPSchemaCPModelInferenceContext._hasEnded
++ _OBJC_IVAR_$_CPSchemaCPModelInferenceContext._hasFailed
++ _OBJC_IVAR_$_CPSchemaCPModelInferenceContext._hasStartedOrChanged
++ _OBJC_IVAR_$_CPSchemaCPModelInferenceContext._whichContextevent
++ _OBJC_IVAR_$_CPSchemaCPPredictionContext._hasCanceled
++ _OBJC_IVAR_$_CPSchemaCPPredictionContext._hasEnded
++ _OBJC_IVAR_$_CPSchemaCPPredictionContext._hasFailed
++ _OBJC_IVAR_$_CPSchemaCPPredictionContext._hasStartedOrChanged
++ _OBJC_IVAR_$_CPSchemaCPPredictionContext._whichContextevent
++ _OBJC_IVAR_$_CPSchemaCPSkimmerInferenceContext._hasCanceled
++ _OBJC_IVAR_$_CPSchemaCPSkimmerInferenceContext._hasEnded
++ _OBJC_IVAR_$_CPSchemaCPSkimmerInferenceContext._hasFailed
++ _OBJC_IVAR_$_CPSchemaCPSkimmerInferenceContext._hasStartedOrChanged
++ _OBJC_IVAR_$_CPSchemaCPSkimmerInferenceContext._whichContextevent
++ _OBJC_IVAR_$_CPSchemaCPWarmupContext._hasCanceled
++ _OBJC_IVAR_$_CPSchemaCPWarmupContext._hasEnded
++ _OBJC_IVAR_$_CPSchemaCPWarmupContext._hasFailed
++ _OBJC_IVAR_$_CPSchemaCPWarmupContext._hasStartedOrChanged
++ _OBJC_IVAR_$_CPSchemaCPWarmupContext._whichContextevent
++ _OBJC_IVAR_$_ExecutorSiriSchemaExecutorClientEvent._hasExecutorActionPoisoningClassifierSkipped
++ _OBJC_IVAR_$_FTDMailSchemaFTDMailApplicationInfo._hasAppBundleId
++ _OBJC_IVAR_$_FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked._hasMailApplication
++ _OBJC_IVAR_$_FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked._hasRecipients
++ _OBJC_IVAR_$_FTDMailSchemaFTDMailSendDraftInvoked._hasMailApplication
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext._hasCanceled
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext._hasContextId
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext._hasEnded
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext._hasFailed
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext._hasStartedOrChanged
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext._whichContextevent
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext._hasCanceled
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext._hasContextId
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext._hasEnded
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext._hasFailed
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext._hasStartedOrChanged
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext._whichContextevent
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext._hasCanceled
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext._hasContextId
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext._hasEnded
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext._hasFailed
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext._hasStartedOrChanged
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext._whichContextevent
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext._hasCanceled
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext._hasContextId
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext._hasEnded
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext._hasFailed
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext._hasStartedOrChanged
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext._whichContextevent
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupContext._hasCanceled
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupContext._hasContextId
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupContext._hasEnded
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupContext._hasFailed
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupContext._hasStartedOrChanged
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneIDSLookupContext._whichContextevent
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationContext._hasCanceled
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationContext._hasContextId
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationContext._hasEnded
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationContext._hasFailed
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationContext._hasStartedOrChanged
++ _OBJC_IVAR_$_FTDPhoneSchemaFTDPhoneSanitizationContext._whichContextevent
++ _OBJC_IVAR_$_FTDSchemaFTDClientEvent._hasMailCreateOrUpdateDraftInvoked
++ _OBJC_IVAR_$_FTDSchemaFTDClientEvent._hasMailSendDraftInvoked
++ _OBJC_IVAR_$_FTDSchemaFTDClientEvent._hasNotificationsPrepareNotificationsInvoked
++ _OBJC_IVAR_$_FTDSchemaFTDClientEvent._hasNotificationsPrepareNotificationsResult
++ _OBJC_IVAR_$_FTDSchemaFTDClientEvent._hasPhoneCallHistoryRetrievalContext
++ _OBJC_IVAR_$_FTDSchemaFTDClientEvent._hasPhoneContactFavoriteHandlesRetrievalContext
++ _OBJC_IVAR_$_FTDSchemaFTDClientEvent._hasPhoneEmergencyContactsRetrievalContext
++ _OBJC_IVAR_$_FTDSchemaFTDClientEvent._hasPhoneFaceTimeLinkGenerationContext
++ _OBJC_IVAR_$_FTDSchemaFTDClientEvent._hasPhoneIDSLookupContext
++ _OBJC_IVAR_$_FTDSchemaFTDClientEvent._hasPhoneSanitizationContext
++ _OBJC_IVAR_$_FTDSchemaFTDClientEvent._hasPhoneSearchCallHistoryOrVoicemailInvoked
++ _OBJC_IVAR_$_FTDSchemaFTDClientEvent._hasPhoneStartCallInvoked
++ _OBJC_IVAR_$_MHSchemaMHClientEvent._hasOsdDetectionReported
++ _OBJC_IVAR_$_MHSchemaMHClientEvent._hasSpeakerIdEmbeddingGenerated
++ _OBJC_IVAR_$_MHSchemaMHClientEvent._hasTargetSpeakerSpeechEvaluated
++ _OBJC_IVAR_$_MHSchemaMHOSDDetectionReported._hasOsdModelVersion
++ _OBJC_IVAR_$_MHSchemaMHSpeakerIdEmbeddingGenerated._hasAssetVersion
++ _OBJC_IVAR_$_MHSchemaMHTargetSpeakerSpeechEvaluated._hasError
++ _OBJC_IVAR_$_MHSchemaMHTargetSpeakerSpeechEvaluated._hasModelVersion
++ _OBJC_IVAR_$_NETSchemaNETClientEvent._hasWirelessStateReported
++ _OBJC_IVAR_$_NETSchemaNETWirelessStateReported._hasCellularLqm
++ _OBJC_IVAR_$_NETSchemaNETWirelessStateReported._hasCellularRat
++ _OBJC_IVAR_$_NETSchemaNETWirelessStateReported._hasPrimaryNetworkInterface
++ _OBJC_IVAR_$_NETSchemaNETWirelessStateReported._hasRnfSwitches
++ _OBJC_IVAR_$_NETSchemaNETWirelessStateReported._hasWifiRadioTech
++ _OBJC_IVAR_$_ODDSiriSchemaODDGeneralProperties._hasDeviceRegionInfo
++ _OBJC_IVAR_$_PEGASUSSchemaPEGASUSKGImageTier1._hasEntityId
++ _OBJC_IVAR_$_PEGASUSSchemaPEGASUSKGImageTier1._hasImageSource
++ _OBJC_IVAR_$_PEGASUSSchemaPEGASUSKGImageTier1._hasImageUrl
++ _OBJC_IVAR_$_PLANNERSchemaPLANNERClientEvent._hasContextPredictorFalseNegativeDetected
++ _OBJC_IVAR_$_PLANNERSchemaPLANNERClientEvent._hasIpiClassifierSkipped
++ _OBJC_IVAR_$_PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected._hasTriggeringToolName
++ _OBJC_IVAR_$_PLANNERSchemaPLANNERIPIClassifierSkipped._hasPreviousStepPlannerToolName
++ _OBJC_IVAR_$_PLANNERTOOLSSchemaPLANNERTOOLSExecutionEnded._hasEntityHydrationInfo
++ _OBJC_IVAR_$_SAMSchemaSAMServerEvent._hasOverriddenResponseTier1
++ _OBJC_IVAR_$_STSchemaSTEvent._hasStGeoServicesSearchContext
++ _OBJC_IVAR_$_STSchemaSTGeoServicesSearchContext._hasCanceled
++ _OBJC_IVAR_$_STSchemaSTGeoServicesSearchContext._hasEnded
++ _OBJC_IVAR_$_STSchemaSTGeoServicesSearchContext._hasFailed
++ _OBJC_IVAR_$_STSchemaSTGeoServicesSearchContext._hasStartedOrChanged
++ _OBJC_IVAR_$_STSchemaSTGeoServicesSearchContext._whichContextevent
++ _OBJC_IVAR_$_STSchemaSTGeoServicesSubSearch._hasGeoSubSearchId
++ _OBJC_IVAR_$_STSchemaSTGeoServicesSubSearchResult._hasGeoSubSearchId
++ _OBJC_METACLASS_$_ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived
++ _OBJC_METACLASS_$_CHSchemaCHGoalCompletionInferenceGenerated
++ _OBJC_METACLASS_$_CHSchemaCHGoalCompletionInferenceMetadata
++ _OBJC_METACLASS_$_CPRSchemaCPRActivationReason
++ _OBJC_METACLASS_$_CPRSchemaCPRActiveRuntimeSwitched
++ _OBJC_METACLASS_$_CPRSchemaCPRArbitrationActivationReason
++ _OBJC_METACLASS_$_CPRSchemaCPRConditionFailure
++ _OBJC_METACLASS_$_CPRSchemaCPRConditionType
++ _OBJC_METACLASS_$_CPRSchemaCPREligibilityType
++ _OBJC_METACLASS_$_CPRSchemaCPRRecoveryInvocationReason
++ _OBJC_METACLASS_$_CPRSchemaCPRRecoverySource
++ _OBJC_METACLASS_$_CPRSchemaCPRRuntimeDetails
++ _OBJC_METACLASS_$_CPSchemaCPClientEvent
++ _OBJC_METACLASS_$_CPSchemaCPClientEventMetadata
++ _OBJC_METACLASS_$_CPSchemaCPModelInferenceCanceled
++ _OBJC_METACLASS_$_CPSchemaCPModelInferenceContext
++ _OBJC_METACLASS_$_CPSchemaCPModelInferenceEnded
++ _OBJC_METACLASS_$_CPSchemaCPModelInferenceFailed
++ _OBJC_METACLASS_$_CPSchemaCPModelInferenceStarted
++ _OBJC_METACLASS_$_CPSchemaCPPredictionCanceled
++ _OBJC_METACLASS_$_CPSchemaCPPredictionContext
++ _OBJC_METACLASS_$_CPSchemaCPPredictionEnded
++ _OBJC_METACLASS_$_CPSchemaCPPredictionFailed
++ _OBJC_METACLASS_$_CPSchemaCPPredictionStarted
++ _OBJC_METACLASS_$_CPSchemaCPSkimmerInferenceCanceled
++ _OBJC_METACLASS_$_CPSchemaCPSkimmerInferenceContext
++ _OBJC_METACLASS_$_CPSchemaCPSkimmerInferenceEnded
++ _OBJC_METACLASS_$_CPSchemaCPSkimmerInferenceFailed
++ _OBJC_METACLASS_$_CPSchemaCPSkimmerInferenceStarted
++ _OBJC_METACLASS_$_CPSchemaCPWarmupCanceled
++ _OBJC_METACLASS_$_CPSchemaCPWarmupContext
++ _OBJC_METACLASS_$_CPSchemaCPWarmupEnded
++ _OBJC_METACLASS_$_CPSchemaCPWarmupFailed
++ _OBJC_METACLASS_$_CPSchemaCPWarmupStarted
++ _OBJC_METACLASS_$_ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped
++ _OBJC_METACLASS_$_FTDMailSchemaFTDMailApplicationInfo
++ _OBJC_METACLASS_$_FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked
++ _OBJC_METACLASS_$_FTDMailSchemaFTDMailRecipientsInfo
++ _OBJC_METACLASS_$_FTDMailSchemaFTDMailSendDraftInvoked
++ _OBJC_METACLASS_$_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata
++ _OBJC_METACLASS_$_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked
++ _OBJC_METACLASS_$_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneIDSLookupCanceled
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneIDSLookupContext
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneIDSLookupEnded
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneIDSLookupFailed
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneIDSLookupStarted
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneSanitizationCanceled
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneSanitizationContext
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneSanitizationEnded
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneSanitizationFailed
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneSanitizationStarted
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked
++ _OBJC_METACLASS_$_FTDPhoneSchemaFTDPhoneStartCallInvoked
++ _OBJC_METACLASS_$_MHSchemaMHOSDDetectionReported
++ _OBJC_METACLASS_$_MHSchemaMHSpeakerIdEmbeddingGenerated
++ _OBJC_METACLASS_$_MHSchemaMHTargetSpeakerSpeechEvaluated
++ _OBJC_METACLASS_$_NETSchemaNETCellularLQMReport
++ _OBJC_METACLASS_$_NETSchemaNETCellularRATReport
++ _OBJC_METACLASS_$_NETSchemaNETPrimaryNetworkInterfaceReport
++ _OBJC_METACLASS_$_NETSchemaNETRNFSwitchesReport
++ _OBJC_METACLASS_$_NETSchemaNETWiFiRadioTechReport
++ _OBJC_METACLASS_$_NETSchemaNETWirelessStateReported
++ _OBJC_METACLASS_$_PEGASUSSchemaPEGASUSKGImageTier1
++ _OBJC_METACLASS_$_PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected
++ _OBJC_METACLASS_$_PLANNERSchemaPLANNERIPIClassifierSkipped
++ _OBJC_METACLASS_$_PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo
++ _OBJC_METACLASS_$_SAMSchemaSAMOverriddenResponseTier1
++ _OBJC_METACLASS_$_STSchemaSTGeoServicesSearchCanceled
++ _OBJC_METACLASS_$_STSchemaSTGeoServicesSearchContext
++ _OBJC_METACLASS_$_STSchemaSTGeoServicesSearchEnded
++ _OBJC_METACLASS_$_STSchemaSTGeoServicesSearchFailed
++ _OBJC_METACLASS_$_STSchemaSTGeoServicesSearchStarted
++ _OBJC_METACLASS_$_STSchemaSTGeoServicesSubSearch
++ _OBJC_METACLASS_$_STSchemaSTGeoServicesSubSearchResult
++ _OBJC_METACLASS_$_STSchemaSTSpotlightIndexProcessingMetric
++ _OUTLINED_FUNCTION_145
++ _OUTLINED_FUNCTION_146
++ _OUTLINED_FUNCTION_147
++ _OUTLINED_FUNCTION_148
++ _OUTLINED_FUNCTION_149
++ __OBJC_$_CLASS_METHODS_CPSchemaCPClientEvent(InstrumentationAdditions|Component|InnerEventContainer)
++ __OBJC_$_INSTANCE_METHODS_ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived
++ __OBJC_$_INSTANCE_METHODS_CHSchemaCHGoalCompletionInferenceGenerated
++ __OBJC_$_INSTANCE_METHODS_CHSchemaCHGoalCompletionInferenceMetadata
++ __OBJC_$_INSTANCE_METHODS_CPRSchemaCPRActivationReason
++ __OBJC_$_INSTANCE_METHODS_CPRSchemaCPRActiveRuntimeSwitched
++ __OBJC_$_INSTANCE_METHODS_CPRSchemaCPRArbitrationActivationReason
++ __OBJC_$_INSTANCE_METHODS_CPRSchemaCPRConditionFailure
++ __OBJC_$_INSTANCE_METHODS_CPRSchemaCPRConditionType
++ __OBJC_$_INSTANCE_METHODS_CPRSchemaCPREligibilityType
++ __OBJC_$_INSTANCE_METHODS_CPRSchemaCPRRecoveryInvocationReason
++ __OBJC_$_INSTANCE_METHODS_CPRSchemaCPRRecoverySource
++ __OBJC_$_INSTANCE_METHODS_CPRSchemaCPRRuntimeDetails
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPClientEvent(InstrumentationAdditions|Component|InnerEventContainer)
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPClientEventMetadata
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPModelInferenceCanceled
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPModelInferenceContext
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPModelInferenceEnded
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPModelInferenceFailed
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPModelInferenceStarted
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPPredictionCanceled
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPPredictionContext
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPPredictionEnded
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPPredictionFailed
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPPredictionStarted
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPSkimmerInferenceCanceled
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPSkimmerInferenceContext
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPSkimmerInferenceEnded
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPSkimmerInferenceFailed
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPSkimmerInferenceStarted
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPWarmupCanceled
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPWarmupContext
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPWarmupEnded
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPWarmupFailed
++ __OBJC_$_INSTANCE_METHODS_CPSchemaCPWarmupStarted
++ __OBJC_$_INSTANCE_METHODS_ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped
++ __OBJC_$_INSTANCE_METHODS_FTDMailSchemaFTDMailApplicationInfo
++ __OBJC_$_INSTANCE_METHODS_FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked
++ __OBJC_$_INSTANCE_METHODS_FTDMailSchemaFTDMailRecipientsInfo
++ __OBJC_$_INSTANCE_METHODS_FTDMailSchemaFTDMailSendDraftInvoked
++ __OBJC_$_INSTANCE_METHODS_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata
++ __OBJC_$_INSTANCE_METHODS_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked
++ __OBJC_$_INSTANCE_METHODS_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneIDSLookupCanceled
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneIDSLookupContext
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneIDSLookupEnded
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneIDSLookupFailed
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneIDSLookupStarted
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneSanitizationCanceled
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneSanitizationContext
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneSanitizationEnded
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneSanitizationFailed
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneSanitizationStarted
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked
++ __OBJC_$_INSTANCE_METHODS_FTDPhoneSchemaFTDPhoneStartCallInvoked
++ __OBJC_$_INSTANCE_METHODS_MHSchemaMHOSDDetectionReported
++ __OBJC_$_INSTANCE_METHODS_MHSchemaMHSpeakerIdEmbeddingGenerated
++ __OBJC_$_INSTANCE_METHODS_MHSchemaMHTargetSpeakerSpeechEvaluated
++ __OBJC_$_INSTANCE_METHODS_NETSchemaNETCellularLQMReport
++ __OBJC_$_INSTANCE_METHODS_NETSchemaNETCellularRATReport
++ __OBJC_$_INSTANCE_METHODS_NETSchemaNETPrimaryNetworkInterfaceReport
++ __OBJC_$_INSTANCE_METHODS_NETSchemaNETRNFSwitchesReport
++ __OBJC_$_INSTANCE_METHODS_NETSchemaNETWiFiRadioTechReport
++ __OBJC_$_INSTANCE_METHODS_NETSchemaNETWirelessStateReported
++ __OBJC_$_INSTANCE_METHODS_PEGASUSSchemaPEGASUSKGImageTier1
++ __OBJC_$_INSTANCE_METHODS_PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected
++ __OBJC_$_INSTANCE_METHODS_PLANNERSchemaPLANNERIPIClassifierSkipped
++ __OBJC_$_INSTANCE_METHODS_PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo
++ __OBJC_$_INSTANCE_METHODS_SAMSchemaSAMOverriddenResponseTier1
++ __OBJC_$_INSTANCE_METHODS_STSchemaSTGeoServicesSearchCanceled
++ __OBJC_$_INSTANCE_METHODS_STSchemaSTGeoServicesSearchContext
++ __OBJC_$_INSTANCE_METHODS_STSchemaSTGeoServicesSearchEnded
++ __OBJC_$_INSTANCE_METHODS_STSchemaSTGeoServicesSearchFailed
++ __OBJC_$_INSTANCE_METHODS_STSchemaSTGeoServicesSearchStarted
++ __OBJC_$_INSTANCE_METHODS_STSchemaSTGeoServicesSubSearch
++ __OBJC_$_INSTANCE_METHODS_STSchemaSTGeoServicesSubSearchResult
++ __OBJC_$_INSTANCE_METHODS_STSchemaSTSpotlightIndexProcessingMetric
++ __OBJC_$_INSTANCE_VARIABLES_ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived
++ __OBJC_$_INSTANCE_VARIABLES_CHSchemaCHGoalCompletionInferenceGenerated
++ __OBJC_$_INSTANCE_VARIABLES_CHSchemaCHGoalCompletionInferenceMetadata
++ __OBJC_$_INSTANCE_VARIABLES_CPRSchemaCPRActivationReason
++ __OBJC_$_INSTANCE_VARIABLES_CPRSchemaCPRActiveRuntimeSwitched
++ __OBJC_$_INSTANCE_VARIABLES_CPRSchemaCPRArbitrationActivationReason
++ __OBJC_$_INSTANCE_VARIABLES_CPRSchemaCPRConditionFailure
++ __OBJC_$_INSTANCE_VARIABLES_CPRSchemaCPRConditionType
++ __OBJC_$_INSTANCE_VARIABLES_CPRSchemaCPREligibilityType
++ __OBJC_$_INSTANCE_VARIABLES_CPRSchemaCPRRecoveryInvocationReason
++ __OBJC_$_INSTANCE_VARIABLES_CPRSchemaCPRRecoverySource
++ __OBJC_$_INSTANCE_VARIABLES_CPRSchemaCPRRuntimeDetails
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPClientEvent
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPClientEventMetadata
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPModelInferenceCanceled
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPModelInferenceContext
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPModelInferenceEnded
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPModelInferenceFailed
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPModelInferenceStarted
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPPredictionCanceled
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPPredictionContext
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPPredictionEnded
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPPredictionFailed
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPPredictionStarted
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPSkimmerInferenceCanceled
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPSkimmerInferenceContext
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPSkimmerInferenceEnded
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPSkimmerInferenceFailed
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPSkimmerInferenceStarted
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPWarmupCanceled
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPWarmupContext
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPWarmupEnded
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPWarmupFailed
++ __OBJC_$_INSTANCE_VARIABLES_CPSchemaCPWarmupStarted
++ __OBJC_$_INSTANCE_VARIABLES_ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped
++ __OBJC_$_INSTANCE_VARIABLES_FTDMailSchemaFTDMailApplicationInfo
++ __OBJC_$_INSTANCE_VARIABLES_FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked
++ __OBJC_$_INSTANCE_VARIABLES_FTDMailSchemaFTDMailRecipientsInfo
++ __OBJC_$_INSTANCE_VARIABLES_FTDMailSchemaFTDMailSendDraftInvoked
++ __OBJC_$_INSTANCE_VARIABLES_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata
++ __OBJC_$_INSTANCE_VARIABLES_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked
++ __OBJC_$_INSTANCE_VARIABLES_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneIDSLookupCanceled
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneIDSLookupContext
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneIDSLookupEnded
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneIDSLookupFailed
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneIDSLookupStarted
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneSanitizationCanceled
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneSanitizationContext
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneSanitizationEnded
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneSanitizationFailed
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneSanitizationStarted
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked
++ __OBJC_$_INSTANCE_VARIABLES_FTDPhoneSchemaFTDPhoneStartCallInvoked
++ __OBJC_$_INSTANCE_VARIABLES_MHSchemaMHOSDDetectionReported
++ __OBJC_$_INSTANCE_VARIABLES_MHSchemaMHSpeakerIdEmbeddingGenerated
++ __OBJC_$_INSTANCE_VARIABLES_MHSchemaMHTargetSpeakerSpeechEvaluated
++ __OBJC_$_INSTANCE_VARIABLES_NETSchemaNETCellularLQMReport
++ __OBJC_$_INSTANCE_VARIABLES_NETSchemaNETCellularRATReport
++ __OBJC_$_INSTANCE_VARIABLES_NETSchemaNETPrimaryNetworkInterfaceReport
++ __OBJC_$_INSTANCE_VARIABLES_NETSchemaNETRNFSwitchesReport
++ __OBJC_$_INSTANCE_VARIABLES_NETSchemaNETWiFiRadioTechReport
++ __OBJC_$_INSTANCE_VARIABLES_NETSchemaNETWirelessStateReported
++ __OBJC_$_INSTANCE_VARIABLES_PEGASUSSchemaPEGASUSKGImageTier1
++ __OBJC_$_INSTANCE_VARIABLES_PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected
++ __OBJC_$_INSTANCE_VARIABLES_PLANNERSchemaPLANNERIPIClassifierSkipped
++ __OBJC_$_INSTANCE_VARIABLES_PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo
++ __OBJC_$_INSTANCE_VARIABLES_SAMSchemaSAMOverriddenResponseTier1
++ __OBJC_$_INSTANCE_VARIABLES_STSchemaSTGeoServicesSearchCanceled
++ __OBJC_$_INSTANCE_VARIABLES_STSchemaSTGeoServicesSearchContext
++ __OBJC_$_INSTANCE_VARIABLES_STSchemaSTGeoServicesSearchEnded
++ __OBJC_$_INSTANCE_VARIABLES_STSchemaSTGeoServicesSearchFailed
++ __OBJC_$_INSTANCE_VARIABLES_STSchemaSTGeoServicesSearchStarted
++ __OBJC_$_INSTANCE_VARIABLES_STSchemaSTGeoServicesSubSearch
++ __OBJC_$_INSTANCE_VARIABLES_STSchemaSTGeoServicesSubSearchResult
++ __OBJC_$_INSTANCE_VARIABLES_STSchemaSTSpotlightIndexProcessingMetric
++ __OBJC_$_PROP_LIST_ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived
++ __OBJC_$_PROP_LIST_CHSchemaCHGoalCompletionInferenceGenerated
++ __OBJC_$_PROP_LIST_CHSchemaCHGoalCompletionInferenceMetadata
++ __OBJC_$_PROP_LIST_CPRSchemaCPRActivationReason
++ __OBJC_$_PROP_LIST_CPRSchemaCPRActiveRuntimeSwitched
++ __OBJC_$_PROP_LIST_CPRSchemaCPRArbitrationActivationReason
++ __OBJC_$_PROP_LIST_CPRSchemaCPRConditionFailure
++ __OBJC_$_PROP_LIST_CPRSchemaCPRConditionType
++ __OBJC_$_PROP_LIST_CPRSchemaCPREligibilityType
++ __OBJC_$_PROP_LIST_CPRSchemaCPRRecoveryInvocationReason
++ __OBJC_$_PROP_LIST_CPRSchemaCPRRecoverySource
++ __OBJC_$_PROP_LIST_CPRSchemaCPRRuntimeDetails
++ __OBJC_$_PROP_LIST_CPSchemaCPClientEventMetadata
++ __OBJC_$_PROP_LIST_CPSchemaCPModelInferenceCanceled
++ __OBJC_$_PROP_LIST_CPSchemaCPModelInferenceContext
++ __OBJC_$_PROP_LIST_CPSchemaCPModelInferenceEnded
++ __OBJC_$_PROP_LIST_CPSchemaCPModelInferenceFailed
++ __OBJC_$_PROP_LIST_CPSchemaCPModelInferenceStarted
++ __OBJC_$_PROP_LIST_CPSchemaCPPredictionCanceled
++ __OBJC_$_PROP_LIST_CPSchemaCPPredictionContext
++ __OBJC_$_PROP_LIST_CPSchemaCPPredictionEnded
++ __OBJC_$_PROP_LIST_CPSchemaCPPredictionFailed
++ __OBJC_$_PROP_LIST_CPSchemaCPPredictionStarted
++ __OBJC_$_PROP_LIST_CPSchemaCPSkimmerInferenceCanceled
++ __OBJC_$_PROP_LIST_CPSchemaCPSkimmerInferenceContext
++ __OBJC_$_PROP_LIST_CPSchemaCPSkimmerInferenceEnded
++ __OBJC_$_PROP_LIST_CPSchemaCPSkimmerInferenceFailed
++ __OBJC_$_PROP_LIST_CPSchemaCPSkimmerInferenceStarted
++ __OBJC_$_PROP_LIST_CPSchemaCPWarmupCanceled
++ __OBJC_$_PROP_LIST_CPSchemaCPWarmupContext
++ __OBJC_$_PROP_LIST_CPSchemaCPWarmupEnded
++ __OBJC_$_PROP_LIST_CPSchemaCPWarmupFailed
++ __OBJC_$_PROP_LIST_CPSchemaCPWarmupStarted
++ __OBJC_$_PROP_LIST_ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped
++ __OBJC_$_PROP_LIST_FTDMailSchemaFTDMailApplicationInfo
++ __OBJC_$_PROP_LIST_FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked
++ __OBJC_$_PROP_LIST_FTDMailSchemaFTDMailRecipientsInfo
++ __OBJC_$_PROP_LIST_FTDMailSchemaFTDMailSendDraftInvoked
++ __OBJC_$_PROP_LIST_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata
++ __OBJC_$_PROP_LIST_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked
++ __OBJC_$_PROP_LIST_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneIDSLookupCanceled
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneIDSLookupContext
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneIDSLookupEnded
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneIDSLookupFailed
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneIDSLookupStarted
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneSanitizationCanceled
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneSanitizationContext
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneSanitizationEnded
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneSanitizationFailed
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneSanitizationStarted
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked
++ __OBJC_$_PROP_LIST_FTDPhoneSchemaFTDPhoneStartCallInvoked
++ __OBJC_$_PROP_LIST_MHSchemaMHOSDDetectionReported
++ __OBJC_$_PROP_LIST_MHSchemaMHSpeakerIdEmbeddingGenerated
++ __OBJC_$_PROP_LIST_MHSchemaMHTargetSpeakerSpeechEvaluated
++ __OBJC_$_PROP_LIST_NETSchemaNETCellularLQMReport
++ __OBJC_$_PROP_LIST_NETSchemaNETCellularRATReport
++ __OBJC_$_PROP_LIST_NETSchemaNETPrimaryNetworkInterfaceReport
++ __OBJC_$_PROP_LIST_NETSchemaNETRNFSwitchesReport
++ __OBJC_$_PROP_LIST_NETSchemaNETWiFiRadioTechReport
++ __OBJC_$_PROP_LIST_NETSchemaNETWirelessStateReported
++ __OBJC_$_PROP_LIST_PEGASUSSchemaPEGASUSKGImageTier1
++ __OBJC_$_PROP_LIST_PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected
++ __OBJC_$_PROP_LIST_PLANNERSchemaPLANNERIPIClassifierSkipped
++ __OBJC_$_PROP_LIST_PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo
++ __OBJC_$_PROP_LIST_SAMSchemaSAMOverriddenResponseTier1
++ __OBJC_$_PROP_LIST_STSchemaSTGeoServicesSearchCanceled
++ __OBJC_$_PROP_LIST_STSchemaSTGeoServicesSearchContext
++ __OBJC_$_PROP_LIST_STSchemaSTGeoServicesSearchEnded
++ __OBJC_$_PROP_LIST_STSchemaSTGeoServicesSearchFailed
++ __OBJC_$_PROP_LIST_STSchemaSTGeoServicesSearchStarted
++ __OBJC_$_PROP_LIST_STSchemaSTGeoServicesSubSearch
++ __OBJC_$_PROP_LIST_STSchemaSTGeoServicesSubSearchResult
++ __OBJC_$_PROP_LIST_STSchemaSTSpotlightIndexProcessingMetric
++ __OBJC_CLASS_PROTOCOLS_$_CPSchemaCPClientEvent(InstrumentationAdditions|Component|InnerEventContainer)
++ __OBJC_CLASS_RO_$_ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived
++ __OBJC_CLASS_RO_$_CHSchemaCHGoalCompletionInferenceGenerated
++ __OBJC_CLASS_RO_$_CHSchemaCHGoalCompletionInferenceMetadata
++ __OBJC_CLASS_RO_$_CPRSchemaCPRActivationReason
++ __OBJC_CLASS_RO_$_CPRSchemaCPRActiveRuntimeSwitched
++ __OBJC_CLASS_RO_$_CPRSchemaCPRArbitrationActivationReason
++ __OBJC_CLASS_RO_$_CPRSchemaCPRConditionFailure
++ __OBJC_CLASS_RO_$_CPRSchemaCPRConditionType
++ __OBJC_CLASS_RO_$_CPRSchemaCPREligibilityType
++ __OBJC_CLASS_RO_$_CPRSchemaCPRRecoveryInvocationReason
++ __OBJC_CLASS_RO_$_CPRSchemaCPRRecoverySource
++ __OBJC_CLASS_RO_$_CPRSchemaCPRRuntimeDetails
++ __OBJC_CLASS_RO_$_CPSchemaCPClientEvent
++ __OBJC_CLASS_RO_$_CPSchemaCPClientEventMetadata
++ __OBJC_CLASS_RO_$_CPSchemaCPModelInferenceCanceled
++ __OBJC_CLASS_RO_$_CPSchemaCPModelInferenceContext
++ __OBJC_CLASS_RO_$_CPSchemaCPModelInferenceEnded
++ __OBJC_CLASS_RO_$_CPSchemaCPModelInferenceFailed
++ __OBJC_CLASS_RO_$_CPSchemaCPModelInferenceStarted
++ __OBJC_CLASS_RO_$_CPSchemaCPPredictionCanceled
++ __OBJC_CLASS_RO_$_CPSchemaCPPredictionContext
++ __OBJC_CLASS_RO_$_CPSchemaCPPredictionEnded
++ __OBJC_CLASS_RO_$_CPSchemaCPPredictionFailed
++ __OBJC_CLASS_RO_$_CPSchemaCPPredictionStarted
++ __OBJC_CLASS_RO_$_CPSchemaCPSkimmerInferenceCanceled
++ __OBJC_CLASS_RO_$_CPSchemaCPSkimmerInferenceContext
++ __OBJC_CLASS_RO_$_CPSchemaCPSkimmerInferenceEnded
++ __OBJC_CLASS_RO_$_CPSchemaCPSkimmerInferenceFailed
++ __OBJC_CLASS_RO_$_CPSchemaCPSkimmerInferenceStarted
++ __OBJC_CLASS_RO_$_CPSchemaCPWarmupCanceled
++ __OBJC_CLASS_RO_$_CPSchemaCPWarmupContext
++ __OBJC_CLASS_RO_$_CPSchemaCPWarmupEnded
++ __OBJC_CLASS_RO_$_CPSchemaCPWarmupFailed
++ __OBJC_CLASS_RO_$_CPSchemaCPWarmupStarted
++ __OBJC_CLASS_RO_$_ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped
++ __OBJC_CLASS_RO_$_FTDMailSchemaFTDMailApplicationInfo
++ __OBJC_CLASS_RO_$_FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked
++ __OBJC_CLASS_RO_$_FTDMailSchemaFTDMailRecipientsInfo
++ __OBJC_CLASS_RO_$_FTDMailSchemaFTDMailSendDraftInvoked
++ __OBJC_CLASS_RO_$_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata
++ __OBJC_CLASS_RO_$_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked
++ __OBJC_CLASS_RO_$_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneIDSLookupCanceled
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneIDSLookupContext
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneIDSLookupEnded
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneIDSLookupFailed
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneIDSLookupStarted
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneSanitizationCanceled
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneSanitizationContext
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneSanitizationEnded
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneSanitizationFailed
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneSanitizationStarted
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked
++ __OBJC_CLASS_RO_$_FTDPhoneSchemaFTDPhoneStartCallInvoked
++ __OBJC_CLASS_RO_$_MHSchemaMHOSDDetectionReported
++ __OBJC_CLASS_RO_$_MHSchemaMHSpeakerIdEmbeddingGenerated
++ __OBJC_CLASS_RO_$_MHSchemaMHTargetSpeakerSpeechEvaluated
++ __OBJC_CLASS_RO_$_NETSchemaNETCellularLQMReport
++ __OBJC_CLASS_RO_$_NETSchemaNETCellularRATReport
++ __OBJC_CLASS_RO_$_NETSchemaNETPrimaryNetworkInterfaceReport
++ __OBJC_CLASS_RO_$_NETSchemaNETRNFSwitchesReport
++ __OBJC_CLASS_RO_$_NETSchemaNETWiFiRadioTechReport
++ __OBJC_CLASS_RO_$_NETSchemaNETWirelessStateReported
++ __OBJC_CLASS_RO_$_PEGASUSSchemaPEGASUSKGImageTier1
++ __OBJC_CLASS_RO_$_PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected
++ __OBJC_CLASS_RO_$_PLANNERSchemaPLANNERIPIClassifierSkipped
++ __OBJC_CLASS_RO_$_PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo
++ __OBJC_CLASS_RO_$_SAMSchemaSAMOverriddenResponseTier1
++ __OBJC_CLASS_RO_$_STSchemaSTGeoServicesSearchCanceled
++ __OBJC_CLASS_RO_$_STSchemaSTGeoServicesSearchContext
++ __OBJC_CLASS_RO_$_STSchemaSTGeoServicesSearchEnded
++ __OBJC_CLASS_RO_$_STSchemaSTGeoServicesSearchFailed
++ __OBJC_CLASS_RO_$_STSchemaSTGeoServicesSearchStarted
++ __OBJC_CLASS_RO_$_STSchemaSTGeoServicesSubSearch
++ __OBJC_CLASS_RO_$_STSchemaSTGeoServicesSubSearchResult
++ __OBJC_CLASS_RO_$_STSchemaSTSpotlightIndexProcessingMetric
++ __OBJC_METACLASS_RO_$_ASRSchemaASRFirstAppleFoundationModelOutputTokenReceived
++ __OBJC_METACLASS_RO_$_CHSchemaCHGoalCompletionInferenceGenerated
++ __OBJC_METACLASS_RO_$_CHSchemaCHGoalCompletionInferenceMetadata
++ __OBJC_METACLASS_RO_$_CPRSchemaCPRActivationReason
++ __OBJC_METACLASS_RO_$_CPRSchemaCPRActiveRuntimeSwitched
++ __OBJC_METACLASS_RO_$_CPRSchemaCPRArbitrationActivationReason
++ __OBJC_METACLASS_RO_$_CPRSchemaCPRConditionFailure
++ __OBJC_METACLASS_RO_$_CPRSchemaCPRConditionType
++ __OBJC_METACLASS_RO_$_CPRSchemaCPREligibilityType
++ __OBJC_METACLASS_RO_$_CPRSchemaCPRRecoveryInvocationReason
++ __OBJC_METACLASS_RO_$_CPRSchemaCPRRecoverySource
++ __OBJC_METACLASS_RO_$_CPRSchemaCPRRuntimeDetails
++ __OBJC_METACLASS_RO_$_CPSchemaCPClientEvent
++ __OBJC_METACLASS_RO_$_CPSchemaCPClientEventMetadata
++ __OBJC_METACLASS_RO_$_CPSchemaCPModelInferenceCanceled
++ __OBJC_METACLASS_RO_$_CPSchemaCPModelInferenceContext
++ __OBJC_METACLASS_RO_$_CPSchemaCPModelInferenceEnded
++ __OBJC_METACLASS_RO_$_CPSchemaCPModelInferenceFailed
++ __OBJC_METACLASS_RO_$_CPSchemaCPModelInferenceStarted
++ __OBJC_METACLASS_RO_$_CPSchemaCPPredictionCanceled
++ __OBJC_METACLASS_RO_$_CPSchemaCPPredictionContext
++ __OBJC_METACLASS_RO_$_CPSchemaCPPredictionEnded
++ __OBJC_METACLASS_RO_$_CPSchemaCPPredictionFailed
++ __OBJC_METACLASS_RO_$_CPSchemaCPPredictionStarted
++ __OBJC_METACLASS_RO_$_CPSchemaCPSkimmerInferenceCanceled
++ __OBJC_METACLASS_RO_$_CPSchemaCPSkimmerInferenceContext
++ __OBJC_METACLASS_RO_$_CPSchemaCPSkimmerInferenceEnded
++ __OBJC_METACLASS_RO_$_CPSchemaCPSkimmerInferenceFailed
++ __OBJC_METACLASS_RO_$_CPSchemaCPSkimmerInferenceStarted
++ __OBJC_METACLASS_RO_$_CPSchemaCPWarmupCanceled
++ __OBJC_METACLASS_RO_$_CPSchemaCPWarmupContext
++ __OBJC_METACLASS_RO_$_CPSchemaCPWarmupEnded
++ __OBJC_METACLASS_RO_$_CPSchemaCPWarmupFailed
++ __OBJC_METACLASS_RO_$_CPSchemaCPWarmupStarted
++ __OBJC_METACLASS_RO_$_ExecutorSiriSchemaExecutorActionPoisoningClassifierSkipped
++ __OBJC_METACLASS_RO_$_FTDMailSchemaFTDMailApplicationInfo
++ __OBJC_METACLASS_RO_$_FTDMailSchemaFTDMailCreateOrUpdateDraftInvoked
++ __OBJC_METACLASS_RO_$_FTDMailSchemaFTDMailRecipientsInfo
++ __OBJC_METACLASS_RO_$_FTDMailSchemaFTDMailSendDraftInvoked
++ __OBJC_METACLASS_RO_$_FTDNotificationsSchemaFTDNotificationsAppNotificationsMetadata
++ __OBJC_METACLASS_RO_$_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsInvoked
++ __OBJC_METACLASS_RO_$_FTDNotificationsSchemaFTDNotificationsPrepareNotificationsResult
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalCanceled
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalContext
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalEnded
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalFailed
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneCallHistoryRetrievalStarted
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalCanceled
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalContext
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalEnded
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalFailed
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneContactFavoriteHandlesRetrievalStarted
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalCanceled
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalContext
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalEnded
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalFailed
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneEmergencyContactsRetrievalStarted
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationCanceled
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationContext
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationEnded
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationFailed
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneFaceTimeLinkGenerationStarted
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneIDSLookupCanceled
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneIDSLookupContext
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneIDSLookupEnded
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneIDSLookupFailed
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneIDSLookupStarted
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneSanitizationCanceled
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneSanitizationContext
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneSanitizationEnded
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneSanitizationFailed
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneSanitizationStarted
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneSearchCallHistoryOrVoicemailInvoked
++ __OBJC_METACLASS_RO_$_FTDPhoneSchemaFTDPhoneStartCallInvoked
++ __OBJC_METACLASS_RO_$_MHSchemaMHOSDDetectionReported
++ __OBJC_METACLASS_RO_$_MHSchemaMHSpeakerIdEmbeddingGenerated
++ __OBJC_METACLASS_RO_$_MHSchemaMHTargetSpeakerSpeechEvaluated
++ __OBJC_METACLASS_RO_$_NETSchemaNETCellularLQMReport
++ __OBJC_METACLASS_RO_$_NETSchemaNETCellularRATReport
++ __OBJC_METACLASS_RO_$_NETSchemaNETPrimaryNetworkInterfaceReport
++ __OBJC_METACLASS_RO_$_NETSchemaNETRNFSwitchesReport
++ __OBJC_METACLASS_RO_$_NETSchemaNETWiFiRadioTechReport
++ __OBJC_METACLASS_RO_$_NETSchemaNETWirelessStateReported
++ __OBJC_METACLASS_RO_$_PEGASUSSchemaPEGASUSKGImageTier1
++ __OBJC_METACLASS_RO_$_PLANNERSchemaPLANNERContextPredictorFalseNegativeDetected
++ __OBJC_METACLASS_RO_$_PLANNERSchemaPLANNERIPIClassifierSkipped
++ __OBJC_METACLASS_RO_$_PLANNERTOOLSSchemaPLANNERTOOLSEntityHydrationInfo
++ __OBJC_METACLASS_RO_$_SAMSchemaSAMOverriddenResponseTier1
++ __OBJC_METACLASS_RO_$_STSchemaSTGeoServicesSearchCanceled
++ __OBJC_METACLASS_RO_$_STSchemaSTGeoServicesSearchContext
++ __OBJC_METACLASS_RO_$_STSchemaSTGeoServicesSearchEnded
++ __OBJC_METACLASS_RO_$_STSchemaSTGeoServicesSearchFailed
++ __OBJC_METACLASS_RO_$_STSchemaSTGeoServicesSearchStarted
++ __OBJC_METACLASS_RO_$_STSchemaSTGeoServicesSubSearch
++ __OBJC_METACLASS_RO_$_STSchemaSTGeoServicesSubSearchResult
++ __OBJC_METACLASS_RO_$_STSchemaSTSpotlightIndexProcessingMetric
++ _objc_msgSend$activeRuntimeSwitched
++ _objc_msgSend$addAppNotifications:
++ _objc_msgSend$addBackboneResponseLatenciesInMs:
++ _objc_msgSend$addIndexProcessingMetrics:
++ _objc_msgSend$addKgImages:
++ _objc_msgSend$addPersonTypes:
++ _objc_msgSend$addPolicies:
++ _objc_msgSend$addSubSearchResults:
++ _objc_msgSend$addSubSearches:
++ _objc_msgSend$appNotifications
++ _objc_msgSend$arbitrationReason
++ _objc_msgSend$areIFPAssetsInstalled
++ _objc_msgSend$assistantServiceLoadedTimestampInNs
++ _objc_msgSend$assistantServiceSpawnTimestampInNs
++ _objc_msgSend$backboneResponseLatenciesInMs
++ _objc_msgSend$cellularLqm
++ _objc_msgSend$cellularRat
++ _objc_msgSend$classificationResult
++ _objc_msgSend$classifierOutcome
++ _objc_msgSend$clearAppNotifications
++ _objc_msgSend$clearBackboneResponseLatenciesInMs
++ _objc_msgSend$clearIndexProcessingMetrics
++ _objc_msgSend$clearKgImages
++ _objc_msgSend$clearPersonTypes
++ _objc_msgSend$clearPolicies
++ _objc_msgSend$clearSubSearchResults
++ _objc_msgSend$clearSubSearches
++ _objc_msgSend$conditionFailure
++ _objc_msgSend$contactRecipients
++ _objc_msgSend$contextPredictorFalseNegativeDetected
++ _objc_msgSend$cpId
++ _objc_msgSend$deleteOverriddenResponseTier1
++ _objc_msgSend$deleteSectionName
++ _objc_msgSend$deleteTriggeringToolName
++ _objc_msgSend$determinationMethod
++ _objc_msgSend$deviceRegionInfo
++ _objc_msgSend$didFallBackToMinimalRendering
++ _objc_msgSend$directResponseType
++ _objc_msgSend$earlyExitReason
++ _objc_msgSend$eligibilityCheckRuntime
++ _objc_msgSend$eligibilityType
++ _objc_msgSend$entityHydrationInfo
++ _objc_msgSend$executionCategory
++ _objc_msgSend$executorActionPoisoningClassifierSkipped
++ _objc_msgSend$filterType
++ _objc_msgSend$firstAppleFoundationModelOutputTokenReceived
++ _objc_msgSend$functionCallCount
++ _objc_msgSend$geoSubSearchId
++ _objc_msgSend$goalCompletionInferenceGenerated
++ _objc_msgSend$goalCompletionInferenceMetadata
++ _objc_msgSend$goalCompletionScore
++ _objc_msgSend$goalCompletionStatus
++ _objc_msgSend$hasForcedBackgroundMode
++ _objc_msgSend$hasInvalidSpeechProfileEntities
++ _objc_msgSend$hasPriorityNotifications
++ _objc_msgSend$hasSpecifiedMailAccount
++ _objc_msgSend$hasToolKitDispatch
++ _objc_msgSend$hasVendedSnippet
++ _objc_msgSend$ifpExpertLoadActivationParametersInBillions
++ _objc_msgSend$ifpExpertLoadCacheHitCount
++ _objc_msgSend$ifpExpertLoadCacheMissCount
++ _objc_msgSend$ifpExpertLoadLatencySeconds
++ _objc_msgSend$ifpExpertSelectionInitialPromptLatencySeconds
++ _objc_msgSend$imageSource
++ _objc_msgSend$indexProcessingMetrics
++ _objc_msgSend$interfaceType
++ _objc_msgSend$ipiClassifierSkipped
++ _objc_msgSend$isAnnounceRequest
++ _objc_msgSend$isCatchMeUp
++ _objc_msgSend$isContentHidden
++ _objc_msgSend$isContextRequired
++ _objc_msgSend$isDeviceIFPEligible
++ _objc_msgSend$isEarlyExit
++ _objc_msgSend$isForegrounded
++ _objc_msgSend$isIntelligentConnectivityEnabled
++ _objc_msgSend$isLocationAvailable
++ _objc_msgSend$isLocationSharingReprompt
++ _objc_msgSend$isNCBVQUpdate
++ _objc_msgSend$isNewConversation
++ _objc_msgSend$isOsdCanarySampled
++ _objc_msgSend$isReadLatest
++ _objc_msgSend$isSameAppAsLastAnnouncement
++ _objc_msgSend$isSearchAlongRoute
++ _objc_msgSend$isSiriAppRequest
++ _objc_msgSend$isSiriKitFallback
++ _objc_msgSend$isSpeechProfileRejected
++ _objc_msgSend$isSpeechProfileUsed
++ _objc_msgSend$kgImages
++ _objc_msgSend$longAnnouncementCount
++ _objc_msgSend$lqm
++ _objc_msgSend$mailApplication
++ _objc_msgSend$mailCreateOrUpdateDraftInvoked
++ _objc_msgSend$mailSendDraftInvoked
++ _objc_msgSend$minutesToFirstNewCapability
++ _objc_msgSend$modelInferenceContext
++ _objc_msgSend$nonContactRecipients
++ _objc_msgSend$notificationCount
++ _objc_msgSend$notificationSummaryCount
++ _objc_msgSend$notificationsPrepareNotificationsInvoked
++ _objc_msgSend$notificationsPrepareNotificationsResult
++ _objc_msgSend$numActivatedNCBVQEntities
++ _objc_msgSend$numAudioFiles
++ _objc_msgSend$numEntitiesFallenBack
++ _objc_msgSend$numEntitiesRenderedFully
++ _objc_msgSend$numEntitiesRetrieved
++ _objc_msgSend$originatingRuntime
++ _objc_msgSend$osdDetectionReported
++ _objc_msgSend$osdMinConsecutiveSpeechThresholdInMs
++ _objc_msgSend$osdModelVersion
++ _objc_msgSend$osdSilenceProbabilityThreshold
++ _objc_msgSend$osdSpeechStartTimeInMs
++ _objc_msgSend$overriddenResponseTier1
++ _objc_msgSend$phoneCallHistoryRetrievalContext
++ _objc_msgSend$phoneContactFavoriteHandlesRetrievalContext
++ _objc_msgSend$phoneEmergencyContactsRetrievalContext
++ _objc_msgSend$phoneFaceTimeLinkGenerationContext
++ _objc_msgSend$phoneIDSLookupContext
++ _objc_msgSend$phoneSanitizationContext
++ _objc_msgSend$phoneSearchCallHistoryOrVoicemailInvoked
++ _objc_msgSend$phoneStartCallInvoked
++ _objc_msgSend$phyMode
++ _objc_msgSend$policies
++ _objc_msgSend$predictionContext
++ _objc_msgSend$primaryNetworkInterface
++ _objc_msgSend$processCompleteness
++ _objc_msgSend$rat
++ _objc_msgSend$recipients
++ _objc_msgSend$recoveryReason
++ _objc_msgSend$referenceAudioEndTimeInNs
++ _objc_msgSend$retrainerType
++ _objc_msgSend$rnfSwitches
++ _objc_msgSend$runtime
++ _objc_msgSend$samRequestAPI
++ _objc_msgSend$serverBatchedRequestsCount
++ _objc_msgSend$setActiveRuntimeSwitched:
++ _objc_msgSend$setArbitrationReason:
++ _objc_msgSend$setAreIFPAssetsInstalled:
++ _objc_msgSend$setAssistantServiceLoadedTimestampInNs:
++ _objc_msgSend$setAssistantServiceSpawnTimestampInNs:
++ _objc_msgSend$setCellularLqm:
++ _objc_msgSend$setCellularRat:
++ _objc_msgSend$setClassificationResult:
++ _objc_msgSend$setClassifierOutcome:
++ _objc_msgSend$setConditionFailure:
++ _objc_msgSend$setContactRecipients:
++ _objc_msgSend$setContextPredictorFalseNegativeDetected:
++ _objc_msgSend$setCpId:
++ _objc_msgSend$setDeterminationMethod:
++ _objc_msgSend$setDeviceRegionInfo:
++ _objc_msgSend$setDidFallBackToMinimalRendering:
++ _objc_msgSend$setDirectResponseType:
++ _objc_msgSend$setEarlyExitReason:
++ _objc_msgSend$setEligibilityCheckRuntime:
++ _objc_msgSend$setEligibilityType:
++ _objc_msgSend$setEntityHydrationInfo:
++ _objc_msgSend$setExecutionCategory:
++ _objc_msgSend$setExecutorActionPoisoningClassifierSkipped:
++ _objc_msgSend$setFilterType:
++ _objc_msgSend$setFirstAppleFoundationModelOutputTokenReceived:
++ _objc_msgSend$setFunctionCallCount:
++ _objc_msgSend$setGeoSubSearchId:
++ _objc_msgSend$setGoalCompletionInferenceGenerated:
++ _objc_msgSend$setGoalCompletionInferenceMetadata:
++ _objc_msgSend$setGoalCompletionScore:
++ _objc_msgSend$setGoalCompletionStatus:
++ _objc_msgSend$setHasForcedBackgroundMode:
++ _objc_msgSend$setHasInvalidSpeechProfileEntities:
++ _objc_msgSend$setHasPriorityNotifications:
++ _objc_msgSend$setHasSpecifiedMailAccount:
++ _objc_msgSend$setHasToolKitDispatch:
++ _objc_msgSend$setHasVendedSnippet:
++ _objc_msgSend$setIfpExpertLoadActivationParametersInBillions:
++ _objc_msgSend$setIfpExpertLoadCacheHitCount:
++ _objc_msgSend$setIfpExpertLoadCacheMissCount:
++ _objc_msgSend$setIfpExpertLoadLatencySeconds:
++ _objc_msgSend$setIfpExpertSelectionInitialPromptLatencySeconds:
++ _objc_msgSend$setImageSource:
++ _objc_msgSend$setInterfaceType:
++ _objc_msgSend$setIpiClassifierSkipped:
++ _objc_msgSend$setIsAnnounceRequest:
++ _objc_msgSend$setIsCatchMeUp:
++ _objc_msgSend$setIsContentHidden:
++ _objc_msgSend$setIsContextRequired:
++ _objc_msgSend$setIsDeviceIFPEligible:
++ _objc_msgSend$setIsEarlyExit:
++ _objc_msgSend$setIsForegrounded:
++ _objc_msgSend$setIsIntelligentConnectivityEnabled:
++ _objc_msgSend$setIsLocationAvailable:
++ _objc_msgSend$setIsLocationSharingReprompt:
++ _objc_msgSend$setIsNCBVQUpdate:
++ _objc_msgSend$setIsNewConversation:
++ _objc_msgSend$setIsOsdCanarySampled:
++ _objc_msgSend$setIsReadLatest:
++ _objc_msgSend$setIsSameAppAsLastAnnouncement:
++ _objc_msgSend$setIsSearchAlongRoute:
++ _objc_msgSend$setIsSiriAppRequest:
++ _objc_msgSend$setIsSiriKitFallback:
++ _objc_msgSend$setIsSpeechProfileRejected:
++ _objc_msgSend$setIsSpeechProfileUsed:
++ _objc_msgSend$setLongAnnouncementCount:
++ _objc_msgSend$setLqm:
++ _objc_msgSend$setMailApplication:
++ _objc_msgSend$setMailCreateOrUpdateDraftInvoked:
++ _objc_msgSend$setMailSendDraftInvoked:
++ _objc_msgSend$setMinutesToFirstNewCapability:
++ _objc_msgSend$setModelInferenceContext:
++ _objc_msgSend$setNonContactRecipients:
++ _objc_msgSend$setNotificationCount:
++ _objc_msgSend$setNotificationSummaryCount:
++ _objc_msgSend$setNotificationsPrepareNotificationsInvoked:
++ _objc_msgSend$setNotificationsPrepareNotificationsResult:
++ _objc_msgSend$setNumActivatedNCBVQEntities:
++ _objc_msgSend$setNumAudioFiles:
++ _objc_msgSend$setNumEntitiesFallenBack:
++ _objc_msgSend$setNumEntitiesRenderedFully:
++ _objc_msgSend$setNumEntitiesRetrieved:
++ _objc_msgSend$setOriginatingRuntime:
++ _objc_msgSend$setOsdDetectionReported:
++ _objc_msgSend$setOsdMinConsecutiveSpeechThresholdInMs:
++ _objc_msgSend$setOsdModelVersion:
++ _objc_msgSend$setOsdSilenceProbabilityThreshold:
++ _objc_msgSend$setOsdSpeechStartTimeInMs:
++ _objc_msgSend$setOverriddenResponseTier1:
++ _objc_msgSend$setPhoneCallHistoryRetrievalContext:
++ _objc_msgSend$setPhoneContactFavoriteHandlesRetrievalContext:
++ _objc_msgSend$setPhoneEmergencyContactsRetrievalContext:
++ _objc_msgSend$setPhoneFaceTimeLinkGenerationContext:
++ _objc_msgSend$setPhoneIDSLookupContext:
++ _objc_msgSend$setPhoneSanitizationContext:
++ _objc_msgSend$setPhoneSearchCallHistoryOrVoicemailInvoked:
++ _objc_msgSend$setPhoneStartCallInvoked:
++ _objc_msgSend$setPhyMode:
++ _objc_msgSend$setPredictionContext:
++ _objc_msgSend$setPrimaryNetworkInterface:
++ _objc_msgSend$setProcessCompleteness:
++ _objc_msgSend$setRat:
++ _objc_msgSend$setRecipients:
++ _objc_msgSend$setRecoveryReason:
++ _objc_msgSend$setReferenceAudioEndTimeInNs:
++ _objc_msgSend$setRetrainerType:
++ _objc_msgSend$setRnfSwitches:
++ _objc_msgSend$setRuntime:
++ _objc_msgSend$setSamRequestAPI:
++ _objc_msgSend$setServerBatchedRequestsCount:
++ _objc_msgSend$setSiriAppResumeCount:
++ _objc_msgSend$setSkimmerInferenceContext:
++ _objc_msgSend$setSkipReason:
++ _objc_msgSend$setSpeakerIdEmbeddingGenerated:
++ _objc_msgSend$setSpeakerSimilarityScore:
++ _objc_msgSend$setSpeakerSimilarityThreshold:
++ _objc_msgSend$setStGeoServicesSearchContext:
++ _objc_msgSend$setTargetAudioEndTimeInNs:
++ _objc_msgSend$setTargetAudioStartTimeInNs:
++ _objc_msgSend$setTargetRuntime:
++ _objc_msgSend$setTargetSpeakerSpeechEvaluated:
++ _objc_msgSend$setThreadSummaryCount:
++ _objc_msgSend$setToolKitDispatchCount:
++ _objc_msgSend$setTotalResultCount:
++ _objc_msgSend$setTriggeringToolName:
++ _objc_msgSend$setUnreadableNotificationCount:
++ _objc_msgSend$setUserResponseMode:
++ _objc_msgSend$setWarmupContext:
++ _objc_msgSend$setWifiRadioTech:
++ _objc_msgSend$setWirelessStateReported:
++ _objc_msgSend$siriAppResumeCount
++ _objc_msgSend$skimmerInferenceContext
++ _objc_msgSend$skipReason
++ _objc_msgSend$speakerIdEmbeddingGenerated
++ _objc_msgSend$speakerSimilarityScore
++ _objc_msgSend$speakerSimilarityThreshold
++ _objc_msgSend$stGeoServicesSearchContext
++ _objc_msgSend$subSearchResults
++ _objc_msgSend$subSearches
++ _objc_msgSend$targetAudioEndTimeInNs
++ _objc_msgSend$targetAudioStartTimeInNs
++ _objc_msgSend$targetRuntime
++ _objc_msgSend$targetSpeakerSpeechEvaluated
++ _objc_msgSend$threadSummaryCount
++ _objc_msgSend$toolKitDispatchCount
++ _objc_msgSend$totalResultCount
++ _objc_msgSend$triggeringToolName
++ _objc_msgSend$unreadableNotificationCount
++ _objc_msgSend$userResponseMode
++ _objc_msgSend$warmupContext
++ _objc_msgSend$wifiRadioTech
++ _objc_msgSend$wirelessStateReported
++ _symbolic $s19SiriInstrumentation23QualifiedTypeIdentifierP
++ _symbolic _____ So013FTDMailSchemaA16UserResponseModeV
++ _symbolic _____ So018ExecutorSiriSchemaA32ActionPoisoningClassifierOutcomeV
++ _symbolic _____ So018ExecutorSiriSchemaA35ActionPoisoningClassifierSkipReasonV
++ _symbolic _____ So22SAMSchemaSAMRequestAPIV
++ _symbolic _____ So23NETSchemaNETCellularLQMV
++ _symbolic _____ So23NETSchemaNETCellularRATV
++ _symbolic _____ So27NETSchemaNETWiFiRadioStatusV
++ _symbolic _____ So29CPRSchemaCPRConditionTypeKindV
++ _symbolic _____ So30CHSchemaCHGoalCompletionStatusV
++ _symbolic _____ So30CPRSchemaCPRRecoverySourceKindV
++ _symbolic _____ So31CPRSchemaCPREligibilityTypeKindV
++ _symbolic _____ So32CPRSchemaCPRActivationReasonKindV
++ _symbolic _____ So32CPSchemaCPContextPredictorResultV
++ _symbolic _____ So32MHSchemaMHSpeakerIdRetrainerTypeV
++ _symbolic _____ So33CPRSchemaCPRArbitrationPolicyKindV
++ _symbolic _____ So33ODDSiriSchemaODDExecutionCategoryV
++ _symbolic _____ So35NETSchemaNETPrimaryNetworkInterfaceV
++ _symbolic _____ So36CPSchemaCPContextPredictorSkipReasonV
++ _symbolic _____ So37CHSchemaCHGoalCompletionFailureReasonV
++ _symbolic _____ So37CPRSchemaCPRArbitrationActivationKindV
++ _symbolic _____ So37CPSchemaCPSkimmerClassificationResultV
++ _symbolic _____ So37STSchemaSTGeoServicesSearchFilterTypeV
++ _symbolic _____ So37STSchemaSTSpotlightProcessingPipelineV
++ _symbolic _____ So38PLANNERSchemaPLANNERDirectResponseTypeV
++ _symbolic _____ So39CPSchemaCPModelInferenceEarlyExitReasonV
++ _symbolic _____ So41MHSchemaMHSpeakerIdEmbeddingFailureReasonV
++ _symbolic _____ So43PLANNERSchemaPLANNERIPIClassifierSkipReasonV
++ _symbolic _____ So45CPSchemaCPContextPredictorDeterminationMethodV
+CStrings:
++ "ASRSPEECHPROFILEMAINTENANCETASKTYPE_FULL_NCBVQ_UPDATE"
++ "ASRSPEECHPROFILEMAINTENANCETASKTYPE_INCREMENTAL_NCBVQ_UPDATE"
++ "CHGOALCOMPLETIONFAILUREREASON_CAPABILITY_GAP"
++ "CHGOALCOMPLETIONFAILUREREASON_CONTEXT_NOT_HONORED"
++ "CHGOALCOMPLETIONFAILUREREASON_ENTITY_RESOLUTION_FAILED"
++ "CHGOALCOMPLETIONFAILUREREASON_INCOMPLETE_EXECUTION"
++ "CHGOALCOMPLETIONFAILUREREASON_INFORMATION_INCORRECT"
++ "CHGOALCOMPLETIONFAILUREREASON_NONE"
++ "CHGOALCOMPLETIONFAILUREREASON_SEARCH_NO_RESULTS"
++ "CHGOALCOMPLETIONFAILUREREASON_SYSTEM_ERROR"
++ "CHGOALCOMPLETIONFAILUREREASON_TOOL_EXECUTION_ERROR"
++ "CHGOALCOMPLETIONFAILUREREASON_TOOL_NOT_FOUND"
++ "CHGOALCOMPLETIONFAILUREREASON_TOOL_RETRIEVAL_FAILED"
++ "CHGOALCOMPLETIONFAILUREREASON_UNKNOWN"
++ "CHGOALCOMPLETIONFAILUREREASON_USER_MISUNDERSTOOD"
++ "CHGOALCOMPLETIONFAILUREREASON_WRONG_ARGUMENTS"
++ "CHGOALCOMPLETIONFAILUREREASON_WRONG_TOOL_SELECTED"
++ "CHGOALCOMPLETIONSTATUS_COMPLETED"
++ "CHGOALCOMPLETIONSTATUS_FAILED"
++ "CHGOALCOMPLETIONSTATUS_PARTIAL"
++ "CHGOALCOMPLETIONSTATUS_UNKNOWN"
++ "COMPONENTNAME_CONTEXT_PREDICTOR"
++ "CPCONTEXTPREDICTORDETERMINATIONMETHOD_DEFAULT"
++ "CPCONTEXTPREDICTORDETERMINATIONMETHOD_MODEL"
++ "CPCONTEXTPREDICTORDETERMINATIONMETHOD_OVERRIDE"
++ "CPCONTEXTPREDICTORDETERMINATIONMETHOD_SKIMMER"
++ "CPCONTEXTPREDICTORDETERMINATIONMETHOD_UNKNOWN"
++ "CPCONTEXTPREDICTORRESULT_NONE"
++ "CPCONTEXTPREDICTORRESULT_SCREEN_ENTITIES"
++ "CPCONTEXTPREDICTORRESULT_UNKNOWN"
++ "CPCONTEXTPREDICTORSKIPREASON_EXPLICIT_CONTEXT"
++ "CPCONTEXTPREDICTORSKIPREASON_FEATURE_DISABLED"
++ "CPCONTEXTPREDICTORSKIPREASON_MULTI_TURN"
++ "CPCONTEXTPREDICTORSKIPREASON_PRESCRIBED_ACTION"
++ "CPCONTEXTPREDICTORSKIPREASON_PRESCRIBED_INVOCATION"
++ "CPCONTEXTPREDICTORSKIPREASON_UNKNOWN"
++ "CPMODELINFERENCEEARLYEXITREASON_MODEL_LOAD_FAILED"
++ "CPMODELINFERENCEEARLYEXITREASON_PLATFORM_UNAVAILABLE"
++ "CPMODELINFERENCEEARLYEXITREASON_PREFERENCE_DISABLED"
++ "CPMODELINFERENCEEARLYEXITREASON_UNKNOWN"
++ "CPRACTIVATIONREASONKIND_ARBITRATION"
++ "CPRACTIVATIONREASONKIND_SKIMMER_PASS"
++ "CPRACTIVATIONREASONKIND_UNKNOWN"
++ "CPRARBITRATIONACTIVATIONKIND_RECOVERY"
++ "CPRARBITRATIONACTIVATIONKIND_UNKNOWN"
++ "CPRARBITRATIONPOLICYKIND_HEALTH_CHECKER_POLICY"
++ "CPRARBITRATIONPOLICYKIND_NO_COMPANION_REQUIRED_POLICY"
++ "CPRARBITRATIONPOLICYKIND_NO_CRITICAL_ERRORS_POLICY"
++ "CPRARBITRATIONPOLICYKIND_RUNTIME_COMMITMENT_POLICY"
++ "CPRARBITRATIONPOLICYKIND_UNKNOWN"
++ "CPRCONDITIONTYPEKIND_ASYNCHRONOUS"
++ "CPRCONDITIONTYPEKIND_ON_EVENT"
++ "CPRCONDITIONTYPEKIND_UNKNOWN"
++ "CPRELIGIBILITYTYPEKIND_AWAITING_ELIGIBILITY"
++ "CPRELIGIBILITYTYPEKIND_MONITORING_INELIGIBLE"
++ "CPRELIGIBILITYTYPEKIND_UNKNOWN"
++ "CPRRECOVERYSOURCEKIND_CONDITION_FAILURE"
++ "CPRRECOVERYSOURCEKIND_ELIGIBILITY_CHECK"
++ "CPRRECOVERYSOURCEKIND_UNKNOWN"
++ "CPSKIMMERCLASSIFICATIONRESULT_CONTEXT_REQUIRED"
++ "CPSKIMMERCLASSIFICATIONRESULT_NO_CLASSIFICATION"
++ "CPSKIMMERCLASSIFICATIONRESULT_NO_CONTEXT_REQUIRED"
++ "CPSKIMMERCLASSIFICATIONRESULT_UNKNOWN"
++ "CPSKIMMERCLASSIFICATIONRESULT_UNRECOGNIZED"
++ "CP_CLIENT_EVENT"
++ "EXECUTORACTIONPOISONINGCLASSIFIEROUTCOME_MALICIOUS"
++ "EXECUTORACTIONPOISONINGCLASSIFIEROUTCOME_SAFE"
++ "EXECUTORACTIONPOISONINGCLASSIFIEROUTCOME_UNKNOWN"
++ "EXECUTORACTIONPOISONINGCLASSIFIEROUTCOME_UNPARSEABLE"
++ "EXECUTORACTIONPOISONINGCLASSIFIERSKIPREASON_CACHE_HIT"
++ "EXECUTORACTIONPOISONINGCLASSIFIERSKIPREASON_FEATURE_DISABLED"
++ "EXECUTORACTIONPOISONINGCLASSIFIERSKIPREASON_KNOWN_SAFE_BY_CATALOG"
++ "EXECUTORACTIONPOISONINGCLASSIFIERSKIPREASON_MISSING_CATALOG_ENTRY"
++ "EXECUTORACTIONPOISONINGCLASSIFIERSKIPREASON_MODEL_UNAVAILABLE"
++ "EXECUTORACTIONPOISONINGCLASSIFIERSKIPREASON_NO_TRACE"
++ "EXECUTORACTIONPOISONINGCLASSIFIERSKIPREASON_RISK_ELEVATED_VIA_OTA"
++ "EXECUTORACTIONPOISONINGCLASSIFIERSKIPREASON_TOOL_RISK_BELOW_THRESHOLD"
++ "EXECUTORACTIONPOISONINGCLASSIFIERSKIPREASON_TOOL_TYPE_OUT_OF_SCOPE"
++ "EXECUTORACTIONPOISONINGCLASSIFIERSKIPREASON_UNKNOWN"
++ "EXECUTORACTIONPOISONINGCLASSIFIERSKIPREASON_USER_REQUEST_COUNT_EXCEEDED"
++ "FTDMAILUSERRESPONSEMODE_DISPLAY_FORWARD"
++ "FTDMAILUSERRESPONSEMODE_DISPLAY_ONLY"
++ "FTDMAILUSERRESPONSEMODE_UNKNOWN"
++ "FTDMAILUSERRESPONSEMODE_VOICE_FORWARD"
++ "FTDMAILUSERRESPONSEMODE_VOICE_ONLY"
++ "INVOCATIONSOURCE_CAMERA_APP_TEXT"
++ "INVOCATIONSOURCE_PHOTOS_APP_TEXT"
++ "INVOCATIONSOURCE_SCREENSHOT_UI_TEXT"
++ "INVOCATIONSOURCE_TRY_ASKING_SIRI"
++ "INVOCATIONSOURCE_VISUAL_INTELLIGENCE_PHOTOS_APP"
++ "INVOCATIONSOURCE_VISUAL_INTELLIGENCE_SCREENSHOT_UI"
++ "MHSPEAKERIDEMBEDDINGFAILUREREASON_ASSET_NOT_AVAILABLE"
++ "MHSPEAKERIDEMBEDDINGFAILUREREASON_AUDIO_FILE_NOT_ACCESSIBLE"
++ "MHSPEAKERIDEMBEDDINGFAILUREREASON_NO_UPDATE_NEEDED"
++ "MHSPEAKERIDEMBEDDINGFAILUREREASON_TOO_FEW_AUDIO_FILES"
++ "MHSPEAKERIDEMBEDDINGFAILUREREASON_UNKNOWN"
++ "MHSPEAKERIDRETRAINERTYPE_PSR"
++ "MHSPEAKERIDRETRAINERTYPE_PSR_EXCLAVE"
++ "MHSPEAKERIDRETRAINERTYPE_SAT"
++ "MHSPEAKERIDRETRAINERTYPE_SAT_EXCLAVE"
++ "MHSPEAKERIDRETRAINERTYPE_UNKNOWN"
++ "NETCELLULARLQM_ABORT"
++ "NETCELLULARLQM_GOOD"
++ "NETCELLULARLQM_OFF"
++ "NETCELLULARLQM_POOR"
++ "NETCELLULARLQM_UNKNOWN"
++ "NETCELLULARLQM_VIABLE"
++ "NETCELLULARRAT_CDMA_1X"
++ "NETCELLULARRAT_CDMA_EVDO"
++ "NETCELLULARRAT_CDMA_HYBRID"
++ "NETCELLULARRAT_GSM"
++ "NETCELLULARRAT_LTE"
++ "NETCELLULARRAT_LTE_NTN"
++ "NETCELLULARRAT_NO_SERVICE"
++ "NETCELLULARRAT_NR"
++ "NETCELLULARRAT_NR_NSA"
++ "NETCELLULARRAT_SATELLITE"
++ "NETCELLULARRAT_TDSCDMA"
++ "NETCELLULARRAT_UMTS"
++ "NETCELLULARRAT_UNKNOWN"
++ "NETCELLULARRAT_UTRAN"
++ "NETPHYMODE_802_11_BE"
++ "NETPRIMARYNETWORKINTERFACE_CELLULAR"
++ "NETPRIMARYNETWORKINTERFACE_LOOPBACK"
++ "NETPRIMARYNETWORKINTERFACE_PERSONAL_HOTSPOT"
++ "NETPRIMARYNETWORKINTERFACE_UNKNOWN"
++ "NETPRIMARYNETWORKINTERFACE_WIFI"
++ "NETPRIMARYNETWORKINTERFACE_WIRED_ETHERNET"
++ "NETWIFIRADIOSTATUS_CONNECTED"
++ "NETWIFIRADIOSTATUS_DISCONNECTED"
++ "NETWIFIRADIOSTATUS_OFF"
++ "NETWIFIRADIOSTATUS_UNKNOWN"
++ "ODDEXECUTIONCATEGORY_APP_INTENT"
++ "ODDEXECUTIONCATEGORY_FLOW_TOOLS"
++ "ODDEXECUTIONCATEGORY_SEARCH_AND_ACT"
++ "ODDEXECUTIONCATEGORY_SEARCH_BOTH"
++ "ODDEXECUTIONCATEGORY_SEARCH_GLOBAL"
++ "ODDEXECUTIONCATEGORY_SEARCH_LOCAL"
++ "ODDEXECUTIONCATEGORY_SIRIX_AGENT"
++ "ODDEXECUTIONCATEGORY_THIRD_PARTY_GEN_AI"
++ "ODDEXECUTIONCATEGORY_UNKNOWN"
++ "PLANNERDIRECTRESPONSETYPE_NONE"
++ "PLANNERDIRECTRESPONSETYPE_PRE_WRITTEN"
++ "PLANNERDIRECTRESPONSETYPE_STREAMED"
++ "PLANNERDIRECTRESPONSETYPE_UNKNOWN"
++ "PLANNERIPICLASSIFIERDECISION_DENYLIST"
++ "PLANNERIPICLASSIFIERDECISION_UNPARSEABLE"
++ "PLANNERIPICLASSIFIERSKIPREASON_ALL_SECTIONS_SAFE"
++ "PLANNERIPICLASSIFIERSKIPREASON_CACHE_HIT"
++ "PLANNERIPICLASSIFIERSKIPREASON_FEATURE_DISABLED"
++ "PLANNERIPICLASSIFIERSKIPREASON_MODEL_UNAVAILABLE"
++ "PLANNERIPICLASSIFIERSKIPREASON_TOOL_NOT_HIGH_RISK"
++ "PLANNERIPICLASSIFIERSKIPREASON_UNKNOWN"
++ "SAMREQUESTAPI_SAMAGENTICSEARCH"
++ "SAMREQUESTAPI_SAMBATCHSEARCH"
++ "SAMREQUESTAPI_UNKNOWN"
++ "STGENERALSEARCHRESULTTYPE_MAPS"
++ "STGENERALSEARCHRESULTTYPE_PHOTOS"
++ "STGEOSERVICESSEARCHFILTERTYPE_ADDRESS"
++ "STGEOSERVICESSEARCHFILTERTYPE_PHYSICAL_FEATURE"
++ "STGEOSERVICESSEARCHFILTERTYPE_POI"
++ "STGEOSERVICESSEARCHFILTERTYPE_UNKNOWN"
++ "STSPOTLIGHTPROCESSINGPIPELINE_DONATION"
++ "STSPOTLIGHTPROCESSINGPIPELINE_EMBEDDING"
++ "STSPOTLIGHTPROCESSINGPIPELINE_FULL_EMBEDDING"
++ "STSPOTLIGHTPROCESSINGPIPELINE_GLP_EMBEDDING"
++ "STSPOTLIGHTPROCESSINGPIPELINE_GLP_INDEXING"
++ "STSPOTLIGHTPROCESSINGPIPELINE_GLP_MAIL_ATTACHMENTS"
++ "STSPOTLIGHTPROCESSINGPIPELINE_LSSR5_EVENTS_AND_ORDERS_BACKGROUND"
++ "STSPOTLIGHTPROCESSINGPIPELINE_LSSR5_IDENTIFICATION_DOCUMENTS_BACKGROUND"
++ "STSPOTLIGHTPROCESSINGPIPELINE_UNKNOWN"
++ "activeRuntimeSwitched"
++ "appNotifications"
++ "arbitrationReason"
++ "areIFPAssetsInstalled"
++ "assistantServiceLoadedTimestampInNs"
++ "assistantServiceSpawnTimestampInNs"
++ "backboneResponseLatenciesInMs"
++ "cellularLqm"
++ "cellularRat"
++ "classificationResult"
++ "classifierOutcome"
++ "com.apple.aiml.engagement.ch.CHClientEvent.CHGoalCompletionInferenceGenerated"
++ "com.apple.aiml.siri.asr.ASRClientEvent.ASRFirstAppleFoundationModelOutputTokenReceived"
++ "com.apple.aiml.siri.cp.CPClientEvent"
++ "com.apple.aiml.siri.cp.CPClientEvent.CPModelInferenceContext"
++ "com.apple.aiml.siri.cp.CPClientEvent.CPPredictionContext"
++ "com.apple.aiml.siri.cp.CPClientEvent.CPSkimmerInferenceContext"
++ "com.apple.aiml.siri.cp.CPClientEvent.CPWarmupContext"
++ "com.apple.aiml.siri.cpr.CPRClientEvent.CPRActiveRuntimeSwitched"
++ "com.apple.aiml.siri.executor.ExecutorClientEvent.ExecutorActionPoisoningClassifierSkipped"
++ "com.apple.aiml.siri.ftd.FTDClientEvent.FTDMailCreateOrUpdateDraftInvoked"
++ "com.apple.aiml.siri.ftd.FTDClientEvent.FTDMailSendDraftInvoked"
++ "com.apple.aiml.siri.ftd.FTDClientEvent.FTDNotificationsPrepareNotificationsInvoked"
++ "com.apple.aiml.siri.ftd.FTDClientEvent.FTDNotificationsPrepareNotificationsResult"
++ "com.apple.aiml.siri.ftd.FTDClientEvent.FTDPhoneCallHistoryRetrievalContext"
++ "com.apple.aiml.siri.ftd.FTDClientEvent.FTDPhoneContactFavoriteHandlesRetrievalContext"
++ "com.apple.aiml.siri.ftd.FTDClientEvent.FTDPhoneEmergencyContactsRetrievalContext"
++ "com.apple.aiml.siri.ftd.FTDClientEvent.FTDPhoneFaceTimeLinkGenerationContext"
++ "com.apple.aiml.siri.ftd.FTDClientEvent.FTDPhoneIDSLookupContext"
++ "com.apple.aiml.siri.ftd.FTDClientEvent.FTDPhoneSanitizationContext"
++ "com.apple.aiml.siri.ftd.FTDClientEvent.FTDPhoneSearchCallHistoryOrVoicemailInvoked"
++ "com.apple.aiml.siri.ftd.FTDClientEvent.FTDPhoneStartCallInvoked"
++ "com.apple.aiml.siri.mh.MHClientEvent.MHOSDDetectionReported"
++ "com.apple.aiml.siri.mh.MHClientEvent.MHSpeakerIdEmbeddingGenerated"
++ "com.apple.aiml.siri.mh.MHClientEvent.MHTargetSpeakerSpeechEvaluated"
++ "com.apple.aiml.siri.net.NETClientEvent.NETWirelessStateReported"
++ "com.apple.aiml.siri.planner.PLANNERClientEvent.PLANNERContextPredictorFalseNegativeDetected"
++ "com.apple.aiml.siri.planner.PLANNERClientEvent.PLANNERIPIClassifierSkipped"
++ "com.apple.aiml.siri.sam.SAMServerEvent.SAMOverriddenResponseTier1"
++ "com.apple.aiml.siri.searchtool.STEvent.STGeoServicesSearchContext"
++ "conditionFailure"
++ "contactRecipients"
++ "contextPredictorFalseNegativeDetected"
++ "contextPredictorFalseNegativeDetected.triggeringToolName"
++ "cpId"
++ "determinationMethod"
++ "deviceRegionInfo"
++ "didFallBackToMinimalRendering"
++ "directResponseType"
++ "earlyExitReason"
++ "eligibilityCheckRuntime"
++ "eligibilityType"
++ "entityHydrationInfo"
++ "executionCategory"
++ "executionContext.ended.subsectionTokenInfos.sectionName"
++ "executorActionPoisoningClassifierSkipped"
++ "filterType"
++ "firstAppleFoundationModelOutputTokenReceived"
++ "functionCallCount"
++ "geoSubSearchId"
++ "goalCompletionInferenceGenerated"
++ "goalCompletionInferenceMetadata"
++ "goalCompletionScore"
++ "goalCompletionStatus"
++ "hasForcedBackgroundMode"
++ "hasInvalidSpeechProfileEntities"
++ "hasPriorityNotifications"
++ "hasSpecifiedMailAccount"
++ "hasToolKitDispatch"
++ "hasVendedSnippet"
++ "ifpExpertLoadActivationParametersInBillions"
++ "ifpExpertLoadCacheHitCount"
++ "ifpExpertLoadCacheMissCount"
++ "ifpExpertLoadLatencySeconds"
++ "ifpExpertSelectionInitialPromptLatencySeconds"
++ "imageSource"
++ "indexProcessingMetrics"
++ "interfaceType"
++ "ipiClassifierSkipped"
++ "ipiClassifierSkipped.previousStepPlannerToolName"
++ "isAnnounceRequest"
++ "isCatchMeUp"
++ "isContentHidden"
++ "isContextRequired"
++ "isDeviceIFPEligible"
++ "isEarlyExit"
++ "isForegrounded"
++ "isIntelligentConnectivityEnabled"
++ "isLocationAvailable"
++ "isLocationSharingReprompt"
++ "isNCBVQUpdate"
++ "isNewConversation"
++ "isOsdCanarySampled"
++ "isReadLatest"
++ "isSameAppAsLastAnnouncement"
++ "isSearchAlongRoute"
++ "isSiriAppRequest"
++ "isSiriKitFallback"
++ "isSpeechProfileRejected"
++ "isSpeechProfileUsed"
++ "kgImages"
++ "longAnnouncementCount"
++ "lqm"
++ "mailApplication"
++ "mailCreateOrUpdateDraftInvoked"
++ "mailCreateOrUpdateDraftInvoked.mailApplication.appBundleId"
++ "mailSendDraftInvoked"
++ "mailSendDraftInvoked.mailApplication.appBundleId"
++ "minutesToFirstNewCapability"
++ "modelInferenceContext"
++ "nonContactRecipients"
++ "notificationCount"
++ "notificationSummaryCount"
++ "notificationsPrepareNotificationsInvoked"
++ "notificationsPrepareNotificationsResult"
++ "numActivatedNCBVQEntities"
++ "numAudioFiles"
++ "numEntitiesFallenBack"
++ "numEntitiesRenderedFully"
++ "numEntitiesRetrieved"
++ "originatingRuntime"
++ "osdDetectionReported"
++ "osdMinConsecutiveSpeechThresholdInMs"
++ "osdModelVersion"
++ "osdSilenceProbabilityThreshold"
++ "osdSpeechStartTimeInMs"
++ "overriddenResponseTier1"
++ "pegasusRequestEndedTier1.kgQAExecutionTier1.kgImages.entityId"
++ "pegasusRequestEndedTier1.kgQAExecutionTier1.kgImages.imageUrl"
++ "personTypes"
++ "phoneCallHistoryRetrievalContext"
++ "phoneContactFavoriteHandlesRetrievalContext"
++ "phoneEmergencyContactsRetrievalContext"
++ "phoneFaceTimeLinkGenerationContext"
++ "phoneIDSLookupContext"
++ "phoneSanitizationContext"
++ "phoneSearchCallHistoryOrVoicemailInvoked"
++ "phoneStartCallInvoked"
++ "phyMode"
++ "policies"
++ "predictionContext"
++ "primaryNetworkInterface"
++ "processCompleteness"
++ "rat"
++ "recipients"
++ "recoveryReason"
++ "referenceAudioEndTimeInNs"
++ "retrainerType"
++ "rnfSwitches"
++ "runtime"
++ "samRequestAPI"
++ "serverBatchedRequestsCount"
++ "siriAppResumeCount"
++ "skimmerInferenceContext"
++ "skipReason"
++ "speakerIdEmbeddingGenerated"
++ "speakerSimilarityScore"
++ "speakerSimilarityThreshold"
++ "stGeoServicesSearchContext"
++ "subSearchResults"
++ "subSearches"
++ "targetAudioEndTimeInNs"
++ "targetAudioStartTimeInNs"
++ "targetRuntime"
++ "targetSpeakerSpeechEvaluated"
++ "threadSummaryCount"
++ "toolKitDispatchCount"
++ "totalResultCount"
++ "triggeringToolName"
++ "unreadableNotificationCount"
++ "userResponseMode"
++ "warmupContext"
++ "wifiRadioTech"
++ "wirelessStateReported"
+
+```

@@ -1,0 +1,145 @@
+## BiometricKitUI
+
+> `/System/Library/PrivateFrameworks/BiometricKitUI.framework/BiometricKitUI`
+
+```diff
+
+-676.0.0.0.0
+-  __TEXT.__text: 0x6ef80 sha256:c317a8d33200462411b2e3eda6bd553335447c4a91ea63d3489fbc5baa970280
+-  __TEXT.__objc_methlist: 0x72d0 sha256:dfe580c61120a8839cd3014aee583680b12ece72b6715dd8526facb3bb7ed11d
+-  __TEXT.__const: 0xd34 sha256:bed0159b63f05731e9c0a64c338fe39e502a94211eda47473ee808872e598965
+-  __TEXT.__gcc_except_tab: 0xd5c sha256:cde7f383d3ffa18cf922d2b04a71d65af332a486af8e3165fcd3f0b2c38e99d0
+-  __TEXT.__cstring: 0x2fe6 sha256:2ddf44d30036b17003e393e943b6fa90cabcd5cc48f814f9d07311eabc3896b9
+-  __TEXT.__oslogstring: 0x61e3 sha256:f9266e66536aeabd401d8b93b69fb928732970031914e3e2c1f3a6038eacae07
++678.0.0.0.0
++  __TEXT.__text: 0x6ec9c sha256:e7451ce4770df6e9ad15767093b465acbdb81b5829e3dc43706be56d26d30533
++  __TEXT.__objc_methlist: 0x72a0 sha256:3b7c6b239a5a229831fb9247588f63e9a7a3695ad64d0340daecb63168d27697
++  __TEXT.__const: 0xd34 sha256:4456eac796ad4260bd0313564bf91b5f15da412ba1a2384764cd7723609358a6
++  __TEXT.__gcc_except_tab: 0xd34 sha256:0a3b29beed35931c216c2a998411c85df4408a67a35d7fd3708e910ed29b5fe0
++  __TEXT.__cstring: 0x2fe6 sha256:efb3c9323458ee536a2d61bdf80b95bfe2e8bbc89e1a092d892bec005929df0c
++  __TEXT.__oslogstring: 0x6253 sha256:4b8383470c34ad8c2b91ca3d4c7f1e61c99383b5bd10276fa57df6a1ca4b38ab
+   __TEXT.__dlopen_cstrs: 0x292 sha256:839df532689b985bae1b5d79cd5ec051bd5a355d1f61f4ae08cd0d008032fe48
+-  __TEXT.__swift5_typeref: 0x2aa sha256:b2acfcb69729933eca1f633e1ee3e71153197433585feb1f3da412e4cda4061e
++  __TEXT.__swift5_typeref: 0x2aa sha256:7276dfc5f77ced31a4377012906e2ae6d4fc8aa25cadc36d7af4f66431a45727
+   __TEXT.__swift5_capture: 0x104 sha256:3170d64452a6b8c70ff0c39b4dcba28a4e60a7d3c527edf6b7b3127066d58255
+-  __TEXT.__constg_swiftt: 0x2a8 sha256:9cc213afdace4ce7fb67d533970ac4838515279d1935e07060bb3942399583f5
++  __TEXT.__constg_swiftt: 0x2a8 sha256:a51c4d83df1da10312c0336f0c9f5388fc110da8369100ac717d37d21ebb9dc3
+   __TEXT.__swift5_reflstr: 0x34f sha256:61c1e4486f716f947b12cfc1de43798856fdac08669548c8a210cb86610b08e8
+   __TEXT.__swift5_fieldmd: 0x428 sha256:22777a5a65a3e5cb1226e54addf2fcb2cad7cc8ac15c2ead70a4d05ab9bacac2
+   __TEXT.__swift5_builtin: 0x28 sha256:c3c34f938a94f1ff95bf5dd59586bad46f53d1d61b53b0e411e0a0fa81d06628
+   __TEXT.__swift5_assocty: 0x48 sha256:0eab06d167c9a0770956a54f7489169735ea5c089304e84826531c3ce46ba9da
+-  __TEXT.__swift5_proto: 0x20 sha256:f5a0f1128573d6ad0a8c0af05251f0c4316ba425e93deb87b9a5a05d163e9477
++  __TEXT.__swift5_proto: 0x20 sha256:7b3e5b39b1057ec0d2fc938476e0b571e230d0f6b3c99cd0caad22325819879b
+   __TEXT.__swift5_types: 0x34 sha256:f7e9ee877b1700dfc9bca653b2a96915c8c4ca4f5362722febcafd2f1716ca70
+   __TEXT.__swift5_protos: 0x4 sha256:afb008cf62ba5846570a9fe1f187683890299ab4534a09efac7912e535ad633c
+-  __TEXT.__unwind_info: 0x1a80 sha256:4250a988c882ae659416e60b0434fc436bc2e57f85451c00d00a40072e0c465f
++  __TEXT.__unwind_info: 0x1a78 sha256:13531f0c188fa2422b12c5761b404f1e97a2bea1229da048a8191b1ddb4d0227
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1260 sha256:9caf18b3edd155333acf77cdf236c1c52876211c86a45e78ea5d0a2b91f7d3e8
+-  __DATA_CONST.__objc_classlist: 0x248 sha256:9fec1f3388c71921745ee969b6a3f84cefae39e6f6589136462cf23cd280c29c
+-  __DATA_CONST.__objc_catlist: 0x38 sha256:21967d6c7aada75e1d1d7a2ea7c07605fccd182ef0c7bb2bce469769dbae9470
+-  __DATA_CONST.__objc_protolist: 0x160 sha256:3fd9baf3402a40d302b783fbfdfcc91980025270a0a03a1d2bb08662e97add60
++  __DATA_CONST.__const: 0x1260 sha256:2148a29fa77fad437311590d4b8615622a29320b0d98c78c0157af9dcb27f65f
++  __DATA_CONST.__objc_classlist: 0x248 sha256:35253a1210978e537d476e0b2200affd5d675c0e3102d31a55a5f0b3f5c36e3c
++  __DATA_CONST.__objc_catlist: 0x38 sha256:6adc11cbdc4c520e7d4feee70e95a89936034a4f68f68830d08b3708776b1d8a
++  __DATA_CONST.__objc_protolist: 0x160 sha256:70a3424215375725247b130337471d038449826b44b6c2b66949b8fe9ff71c09
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__weak_got: 0x8 sha256:baed7a8f4fe06577baf9413d1425189458482e4f64d55b4f5cc304378385a036
+-  __DATA_CONST.__objc_selrefs: 0x4898 sha256:fe198221662296ade574bbe46f7950795869207bc62cc962a94de87cd859712d
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:ecea94e90b805bda86dac04ab141a54d887f837f1989179b1f9a5d3d2ce333b6
+-  __DATA_CONST.__objc_superrefs: 0x198 sha256:c1a7d042f4d10ba11bdf9c525d86f79e0ebb91f4c286900ef68ff17e2b4e4b3e
+-  __DATA_CONST.__objc_arraydata: 0x188 sha256:fc6d857223834b166fd486fb621679f54e305ce52fef46a0124514b4cb53580b
+-  __DATA_CONST.__got: 0x880 sha256:ae31ebf1bea75213bc1b15de77cdfdc26c72cdfc4e1b0f4ac184efe512b285c4
+-  __AUTH_CONST.__const: 0xc48 sha256:7b802c02f07c7a16d8fbec9fa81d4483696ae62008d4c03a0dda3284b9903797
+-  __AUTH_CONST.__cfstring: 0x3380 sha256:b44e981a5a02308f55de76db1b59d6bd5a21ea3e214d039810b809c31ad4ae61
+-  __AUTH_CONST.__objc_const: 0x10700 sha256:fda171e9cb606920d413720d61076cf8c3e917d923996c2f4fb7e5e0eba41f1d
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:9a2b91fa56b146795e83ca4f39da0bd07c39c24068e9aa0ceaa7f212fc574d7c
+-  __AUTH_CONST.__objc_arrayobj: 0xc0 sha256:a0043e82d7ae6f81f40c21036cef37e08c2f80502b694c9d78564b71045207b1
+-  __AUTH_CONST.__objc_floatobj: 0x80 sha256:231e484f22d7a143aaa5a6d89922fdc4e69c6c3effd74bcfddf9c6838a88c356
+-  __AUTH_CONST.__objc_intobj: 0x228 sha256:9dd4826d07fe5e529254a3ffb02ee5bd8528add564f906f8d8a6d70c81454b16
+-  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:2f46ead9dddd0502e0df2edcc234e95e96afbac992905e75fb5e174e03b1db85
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:f2988fd8e161ae2796b4e7f275f043c76d56c10d4b2653966307056456c9154e
++  __DATA_CONST.__weak_got: 0x8 sha256:0187a61bf3fae6fc3b3aa794eddabd32ea418a3c89d235dd3a82b6bd02e4fd49
++  __DATA_CONST.__objc_selrefs: 0x4880 sha256:e8d7c983762511d2911aefe6ad50a23ae72172905e2832210416aae463d0fdcc
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:528712fee8441bf0661baaf20bd4a27cc0fbfcb4fabac7bbbc740e67f99cac5a
++  __DATA_CONST.__objc_superrefs: 0x198 sha256:9ea3dba94b11eb5528a4be4697b8583748c22ec076501022fbd5f2f594998449
++  __DATA_CONST.__objc_arraydata: 0x188 sha256:b38750f6fbba973bb0afb5920e97a40e43cb613c944ec4d938db8fbcb29a3d2a
++  __DATA_CONST.__got: 0x880 sha256:30e655e1cf38e78f90fe7e0f03f3c2275d8b21086973382ff249531de39e7e81
++  __AUTH_CONST.__const: 0xc48 sha256:49868667fd52bf8c4b4bf24d0ac309b09cc0bf58be45df3056a0f2a9adb94ea4
++  __AUTH_CONST.__cfstring: 0x3380 sha256:7d2b4a78857f07d3f5d659af3f27cbb6d49d15824ca165b757d8075a8421c69d
++  __AUTH_CONST.__objc_const: 0x106a0 sha256:7f4adb3f56da874baaa8b08803ff881548cc6a24d587525294db428d576578f4
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:60bcdb5a8e6edd1ce77d43ea5c309fe844aaf21fdaf99507c4da8cc71174a8fc
++  __AUTH_CONST.__objc_arrayobj: 0xc0 sha256:4b4afbca80511e01e9c2085d0d179c962ec29a4d0c06171e3fd2cada66aef18d
++  __AUTH_CONST.__objc_floatobj: 0x80 sha256:748014a073b5efbd8ed610761090350384e011320af8ca831fd2ef6b98251a9f
++  __AUTH_CONST.__objc_intobj: 0x228 sha256:3078823693b215cc87311995ccc058a27338e9f3974b6fa3e13358866311e2a4
++  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:1e8dcd7b4aa7650cab6ccd9f9520ef58301e9a688d76effcd5282d05d426e569
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:da450e30e69ba442871ddb4012c591fd47f12ae94171900686a138f937e03285
+   __AUTH_CONST.__auth_got: 0x958 sha256:69cd851db65749821fd542590760d69be3b54ce24e90011f05e27477ea014fe4
+-  __AUTH.__objc_data: 0x1448 sha256:c6c1614bdc55e13c506b52121fef07f6232aa5c6871e16e8493100c8755aff5f
+-  __AUTH.__data: 0x180 sha256:7a52a30aab4e97928d8b9cb6f9c7216e81cb98570ca3b5cda521fa67bd684a0b
+-  __DATA.__objc_ivar: 0x9f8 sha256:3518f24154bccda99f080fabb9325d87f7bc24b2ee751be456be8afba04026d7
+-  __DATA.__data: 0x11c0 sha256:b71c5e227160a7c1db621d8e6afa8bbe41835006839d1736720fa4e7d36b844b
++  __AUTH.__objc_data: 0x1448 sha256:5a0b3133feb466ad14e697e898e91a6916c1e47993dc8c3a57f6691125135995
++  __AUTH.__data: 0x180 sha256:1e8264e062b2407769a5a0a71305b55de65f7294c82133e6482c965d7766b29c
++  __DATA.__objc_ivar: 0x9f0 sha256:54822cd197c45723a2a4d4a21c8e761d6a087537cea71c5206a16a5c8ae15140
++  __DATA.__data: 0x11c0 sha256:f805c707f3518e005325b765b07d3da696df7394aeeab5ecf0a6f7c40a45949d
+   __DATA.__bss: 0x648 sha256:5560728cd337269adfd6161f2c48cdffaaeff9eca07f5fd09956967cf4c87e2f
+   __DATA.__common: 0x1f8 sha256:696bda342649ec9268da57b6a279df6f24b0e857d5e6d0605fd25af95adc3cee
+-  __DATA_DIRTY.__objc_data: 0x550 sha256:b050e36f54c7fd4f630fb9b832b6051ee705494db87fbdb57d67b1b45f2b236f
++  __DATA_DIRTY.__objc_data: 0x550 sha256:d5e94771cc3ef33a47244c796085beba2c2ae75435cef511b6fa38ef9e01042a
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C2A52D5C-C983-343C-9D25-C260CEA00E22
+-  Functions: 2857
+-  Symbols:   9292
++  UUID: 41753DC6-079E-3867-B18E-B397637AA59A
++  Functions: 2852
++  Symbols:   9276
+   CStrings:  1455
+ 
+Symbols:
++ __ZNSt12length_errorC1B9fqe220106EPKc
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorI12InstanceInfoEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9fqe220106EPKc
++ __ZNSt3__16vectorI12InstanceInfoNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220106Ev
++ __ZSt28__throw_bad_array_new_lengthB9fqe220106v
++ ___135-[BKUIPearlEnrollViewController(ButtonActionWithNavigation) navigateToMidFlowPeriocularSplashScreenWithPrepareAction:completionAction:]_block_invoke.27
++ ___135-[BKUIPearlEnrollViewController(ButtonActionWithNavigation) navigateToMidFlowPeriocularSplashScreenWithPrepareAction:completionAction:]_block_invoke.30
++ ___135-[BKUIPearlEnrollViewController(ButtonActionWithNavigation) navigateToMidFlowPeriocularSplashScreenWithPrepareAction:completionAction:]_block_invoke_2.31
++ ___135-[BKUIPearlEnrollViewController(ButtonActionWithNavigation) navigateToMidFlowPeriocularSplashScreenWithPrepareAction:completionAction:]_block_invoke_2.cold.1
++ ___151+[BKUIPeriocularEnableSplashViewController setPeriocularFaceIDMatchEnabledForUserConfigurationWithDevice:credentialSet:authContext:enabled:completion:]_block_invoke.64
+- -[BKUIPeriocularEnableSplashViewController maxCellHeight]
+- -[BKUIPeriocularEnableSplashViewController setMaxCellHeight:]
+- -[BKUIPeriocularEnableSplashViewController setTraitChangeRegistration:]
+- -[BKUIPeriocularEnableSplashViewController traitChangeRegistration]
+- GCC_except_table9
+- _OBJC_IVAR_$_BKUIPeriocularEnableSplashViewController._maxCellHeight
+- _OBJC_IVAR_$_BKUIPeriocularEnableSplashViewController._traitChangeRegistration
+- __ZNSt12length_errorC1B9fqe220100EPKc
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorI12InstanceInfoEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__120__throw_length_errorB9fqe220100EPKc
+- __ZNSt3__16vectorI12InstanceInfoNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
+- __ZSt28__throw_bad_array_new_lengthB9fqe220100v
+- ___135-[BKUIPearlEnrollViewController(ButtonActionWithNavigation) navigateToMidFlowPeriocularSplashScreenWithPrepareAction:completionAction:]_block_invoke.29
+- ___135-[BKUIPearlEnrollViewController(ButtonActionWithNavigation) navigateToMidFlowPeriocularSplashScreenWithPrepareAction:completionAction:]_block_invoke_2.30
+- ___135-[BKUIPearlEnrollViewController(ButtonActionWithNavigation) navigateToMidFlowPeriocularSplashScreenWithPrepareAction:completionAction:]_block_invoke_3.31
+- ___135-[BKUIPearlEnrollViewController(ButtonActionWithNavigation) navigateToMidFlowPeriocularSplashScreenWithPrepareAction:completionAction:]_block_invoke_3.cold.1
+- ___151+[BKUIPeriocularEnableSplashViewController setPeriocularFaceIDMatchEnabledForUserConfigurationWithDevice:credentialSet:authContext:enabled:completion:]_block_invoke.67
+- ___55-[BKUIPeriocularEnableSplashViewController viewDidLoad]_block_invoke
+- _objc_msgSend$maxCellHeight
+- _objc_msgSend$setMaxCellHeight:
+- _objc_msgSend$systemLayoutSizeFittingSize:
+CStrings:
++ "BKUIPearl: navigateToMidFlowPeriocularSplash aborted; container is no longer in a window (enrollment likely cancelled)."
+- "+"
+
+```

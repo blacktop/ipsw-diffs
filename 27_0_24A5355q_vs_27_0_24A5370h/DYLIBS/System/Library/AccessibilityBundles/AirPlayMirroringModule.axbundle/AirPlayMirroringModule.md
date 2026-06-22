@@ -1,0 +1,74 @@
+## AirPlayMirroringModule
+
+> `/System/Library/AccessibilityBundles/AirPlayMirroringModule.axbundle/AirPlayMirroringModule`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x464 sha256:221cc138876ceac4b12a158e4715579cfbc54013b565a08f5a133dda744a2924
+-  __TEXT.__objc_methlist: 0x74 sha256:b9916c2a755099b893184e02d0588c250cf1926fa96fa1a6b581dd604a7badce
++3039.1.0.0.0
++  __TEXT.__text: 0x464 sha256:c596f2d3082ab9b2be4abc967ebd576e11d02de2e57a81c63de8182dd058f00c
++  __TEXT.__objc_methlist: 0x74 sha256:751b0c371a12c8947db63712f72dba21c72c7a5471f5a0ffea2d31223318d71b
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__gcc_except_tab: 0x1c sha256:5ce1453976bb58284d328a87916edc56fbf120f5c6ba02295228e565eb0c4b24
+   __TEXT.__cstring: 0x129 sha256:327d2f5fc4d62f7c3918521601d44ae872d6883fbc86614bb684d3d0ee0000f7
+-  __TEXT.__unwind_info: 0x98 sha256:b34ea48926081815e38eefc904ebd0f8abb22f9dd2fcfccf272fe29da25f7cd8
++  __TEXT.__unwind_info: 0x98 sha256:7faa25b69ee5e83982a84a2e7147978a07b68f61dcc6beb436b6a92f74da639e
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x68 sha256:3ff560fb4bd9c2697d204d38ab05974bb167d253f956b2a92c876efce912b21a
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:3a81a489ae6add65271289928a93946b669cee72fe3808e7a031eb7d0df53918
++  __DATA_CONST.__const: 0x68 sha256:6369bd147de3e2c30f8ac95f97552585f7f9b57b50d67502f1fae28c1d4ebdec
++  __DATA_CONST.__objc_classlist: 0x18 sha256:6891f8a3f92b6a4d4ae0564aabaefee23899dca90967f122ad325419fd404e99
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xb8 sha256:1f8e9c359da146c262dedd2b2f65a4972428049e4138b35345809fb59f9addcd
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:a1b73f1c23174da825b484b04b6a14a8f097716ef7ce7e3b59d0067a61c13188
+-  __DATA_CONST.__got: 0x38 sha256:54d30c71d697727cb6ad29414942d071c277a663dfcd958be28eb3e49bca5215
+-  __AUTH_CONST.__const: 0x60 sha256:cac7260f98a03dcea66c8d71970c12de729c2df2b0926f28adc9b1911360afe3
+-  __AUTH_CONST.__cfstring: 0x160 sha256:96d1c4bcf15c7b0e26f533127b39868a45e7eb4439d2dceab328c36c344ed978
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:8730c0b0149794b4116e29d7bf1511476f818297fd8af6cf225e031b1951cace
++  __DATA_CONST.__objc_selrefs: 0xb8 sha256:580e6f578650aa9a2fd8292494a1d544c16aadb408c208b4a3131d99f5598f24
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:dcca3503652f456d2d6cb84630a36159992962f0ba84c0135c863b5de0e47e19
++  __DATA_CONST.__got: 0x38 sha256:ccf345d6754c27b6b1b254bf9e6efd7296a08241e3932f1d31da652d41b1a5ad
++  __AUTH_CONST.__const: 0x60 sha256:7eb925e454be602b71ffa71dca66664c2e9fb0c7659546d78e726cdd519813e6
++  __AUTH_CONST.__cfstring: 0x160 sha256:9267e64a45812e86e42adf45926f30ac7935416862cb1586a75faa0b9895bf20
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:de3958caa968055fd9e5bb9993107d7abc1aff39ddd43284cc38e5988af13790
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:52205447316a60e5ccaf5fb826c4ae749486bbf5cc59979f340aab0ddc9bffe3
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:51284a4fe513fceb9c1a89357f79310ff2484c92ec7078453436eb4663f8c162
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A314736B-5348-3672-8EEE-2BA1CC427DFC
++  UUID: 43B7D0A7-285A-34D3-9E39-164CBB8024CE
+   Functions: 12
+   Symbols:   96
+   CStrings:  27
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ +[AXAirPlayMirroringModuleGlue accessibilityInitializeBundle] : sha256 65b74ad7f69cc56bf5d3f870d5eed2ef31ebcc6903d03b9266c832ea4041d60b -> 54ab87e9118784dbdb4294b98eb215e5c030deaf7de803de0fbeff57e5ddbb1c
+~ ___61+[AXAirPlayMirroringModuleGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 85d838a9e6835067dd7283c88c4316b5c08d91a1c8aed6895740a5e42ba64e18 -> d60067df9ea5eb639f1cffba217904f652885b908d175ba988f3fae285c0bad5
+~ ___61+[AXAirPlayMirroringModuleGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 c58f593b1365b4de9c6a0145bb8ead7412fd00a22d6d1d48c82ccc19fe674f38 -> 395e8524985715abb54c9297cf9b136a2457e50878c2899d1ae8d7fcb8c99e13
+~ _accessibilityLocalizedString : sha256 6efe8decead88277bd4a4d33d400fe56a1762b7340f52098de8b24bea53a5dc5 -> 09bc486a48c42d94c40622651fe5ca7533ba416a6ee2f1f2935ce8fb17c22769
+~ +[MRUMirroringViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 99f2092bb2c52c2e9bb2cd780c3a0d7ddba927e262f775044a9242450da30f5f -> 85c87ce815c92d79f17ab18b25ca740e2260a3349c8a14c31cf6a7c958c0aa95
+~ +[MRUMirroringViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 0e58744dc0b87f0b0f67e5a01a4f498745e7eddc51b778b32efa48c0dd0b95f7 -> f2c8e8d40964bdf85a9d7e18313e057aa1172216c90e4df2e13db59951ff60c1
+~ +[MRUMirroringViewControllerAccessibility _accessibilityPerformValidations:] : sha256 fc9ad27389c365ad8499d734ffd6a92fc37d6d321381c22671b9f5fd9c195b0a -> 5d618326ab3b8452fba95c7ce40ef0328071b6d5e6eb45735f80109f4d1d4e5d
+~ -[MRUMirroringViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 d5f2500c7816af974514f2b74adfccacbddeecef08e331355faf939f25373d65 -> c82fee84661732c42c04d74505b08c9a1909b92be294ad63ddd93ea63b0d4fa3
+~ ___85-[MRUMirroringViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke : sha256 e5c6ce221c6cff3fc44d1e9bc0f7ddd633f697e15867b772a11ff1b29514aacf -> 19710bb9d3a16c8654dea233872af1b29eb40f216bb837ad50c20fe9c50aa94e
+~ -[MRUMirroringViewControllerAccessibility _accessibilityControlCenterElementToFocusAfterClose] : sha256 f5f092da121c3a09ecf53d2eb7413addb3884d0fc2d5bf7c915196e1655acf46 -> 04f34c61a3a3be745afc55ee8038b14fd1ce67b4dfc5a7dc47b764cacb43bf61
+~ -[MRUMirroringViewControllerAccessibility viewDidLoad] : sha256 8ddc122be062de9a9537e2a7c5dd202b87bba2c4a3dddd6a6d5e561b4d58fb9d -> 74a140d7f387daedf12ced6e2a1bdb4e7b46cd34c3c355e8e5012116ca0139c5
+
+```

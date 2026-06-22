@@ -1,0 +1,111 @@
+## WiFiSettingsKit
+
+> `FileSystem/System/Library/PrivateFrameworks/WiFiSettingsKit.framework/Localizable.loctable`
+
+```diff
+
+ en.5G cellular is preferred over “%@” WLAN = "5G cellular is preferred over “%@” WLAN"
+ en.5G cellular is preferred over “%@” Wi‑Fi = "5G cellular is preferred over “%@” Wi‑Fi"
+ en.802.11b provides suboptimal performance. = "802.11b provides suboptimal performance."
+-en.A Network Error has occurred = "A Network Error has occurred"
+ en.A fixed private address reduces cross-network tracking by using a unique WLAN address on this network. = "A fixed private address reduces cross-network tracking by using a unique WLAN address on this network."
+ en.A fixed private address reduces cross-network tracking by using a unique Wi-Fi address on this network. = "A fixed private address reduces cross-network tracking by using a unique Wi-Fi address on this network."
+ en.A network can become congested when there are too many connected devices, bandwidth is limited, or a household appliance is near the wireless access point or router and interferes with the signal. = "A network can become congested when there are too many connected devices, bandwidth is limited, or a household appliance is near the wireless access point or router and interferes with the signal."
++en.A network error has occurred = "A network error has occurred"
+ en.A rotating WLAN address helps reduce tracking by changing your WLAN address at various times. Tracking can happen when your address always appears the same to other devices and people using the same network as you. = "A rotating WLAN address helps reduce tracking by changing your WLAN address at various times. Tracking can happen when your address always appears the same to other devices and people using the same network as you."
+ en.A rotating Wi-Fi address helps reduce tracking by changing your Wi-Fi address at various times. Tracking can happen when your address always appears the same to other devices and people using the same network as you. = "A rotating Wi-Fi address helps reduce tracking by changing your Wi-Fi address at various times. Tracking can happen when your address always appears the same to other devices and people using the same network as you."
+ en.A rotating private address reduces tracking by periodically changing this device’s WLAN address on this network. = "A rotating private address reduces tracking by periodically changing this device’s WLAN address on this network."
+
+ en.Copy Password = "Copy Password"
+ en.Copy Username = "Copy Username"
+ en.Could not find network = "Could not find network"
++en.Could not find the network “%@” = "Could not find the network “%@”"
+ en.DNS = "DNS"
+ en.DNS Filtered Network Description = "This network is blocking encrypted DNS traffic."
+ en.DNS Filtered Network Recommendation = "The names of websites and other servers your device accesses on this network may be monitored and recorded by other devices on this network."
+
+ en.Enter the password to join this WLAN. = "Enter the password to join this WLAN."
+ en.Enter the password to join this Wi‑Fi network. = "Enter the password to join this Wi‑Fi network."
+ en.Expires: = "Expires:"
++en.Failed to join “%@” = "Failed to join “%@”"
+ en.Failed to save logs = "Failed to save logs"
+ en.Fixed = "Fixed"
+ en.Forget %i WLANs? = "Forget %i WLANs?"
+
+ en.If this is your Wi‑Fi network, upgrade to an 802.11n/ac router. = "If this is your Wi‑Fi network, upgrade to an 802.11n/ac router."
+ en.If your car offers hotspot internet access, and you've activated it, you may be able to use that hotspot instead of your cellular connection. = "If your car offers hotspot internet access, and you've activated it, you may be able to use that hotspot instead of your cellular connection."
+ en.If your network access is managed by WLAN address (also known as "MAC Address"), you may need to turn off Private WLAN Address or modify your network settings. = "If your network access is managed by WLAN address (also known as \"MAC Address\"), you may need to turn off Private WLAN Address or modify your network settings."
++en.Incorrect password for
++“%@” = "Incorrect password for\n“%@”"
++en.Incorrect security type for network “%@” = "Incorrect security type for network “%@”"
+ en.Invalid = "Invalid"
+ en.Issued by: = "Issued by:"
+ en.Join = "Join"
+
+ en.Other… = "Other…"
+ en.Password = "Password"
+ en.Password Sharing Details = "You can also access this Wi‑Fi network by sharing the password from a nearby iPhone, iPad, or Mac which has connected to this network and has you in their contacts."
++en.Password required for
++“%@” = "Password required for\n“%@”"
+ en.Personal Hotspot = "Personal Hotspot"
+ en.Personal Hotspots = "Personal Hotspots"
+ en.Port = "Port"
+
+ en.Save Log = "Save Log"
+ en.Save successful = "Save successful"
+ en.Search Domains = "Search Domains"
+-en.Searching... = "Searching…"
+ en.Searching… = "Searching…"
+ en.Secure Network = "Secure Network"
+ en.Security = "Security"
+
+ en.Show Password = "Show Password"
+ en.Show legacy networks and options = "Show legacy networks and options"
+ en.Signal Strength = "Signal Strength"
+-en.Signal Strength: %lld of 3 bars = "Signal Strength: %lld of 3 bars"
+-en.Signal strength %lld of 3 bars = "Signal strength %lld of 3 bars"
++en.Signal Strength: %@ of %@ bars = "Signal Strength: %1$@ of %2$@ bars"
++en.Signal Strength: %@ of %@ bars, No Internet Connection = "Signal Strength: %1$@ of %2$@ bars, No Internet Connection"
+ en.Strong = "Strong"
+ en.Subnet Mask = "Subnet Mask"
+-en.The WLAN network “%@″ requires a %@ password. = "The WLAN “%@″ requires a %@ password."
+-en.The WLAN ″%@″ uses %@ and requires a password. = "The WLAN ″%1$@″ uses %2$@ and requires a password."
+-en.The Wi‑Fi network “%@″ requires a %@ password. = "The Wi‑Fi network “%@″ requires a %@ password."
+-en.The Wi‑Fi network ″%@″ uses %@ and requires a password. = "The Wi‑Fi network ″%1$@″ uses %2$@ and requires a password."
++en.The WLAN “%@” uses %@ and requires a password. = "The WLAN “%@” uses %@ and requires a password."
++en.The Wi‑Fi network “%@” uses %@ and requires a password. = "The Wi‑Fi network “%@” uses %@ and requires a password."
+ en.The names of websites and other servers your device accesses on this network may be monitored and recorded by other devices on this network. = "The names of websites and other servers your device accesses on this network may be monitored and recorded by other devices on this network."
+ en.This WLAN may be unsecured, or faster internet may be available on 5G cellular. = "This WLAN may be unsecured, or faster internet may be available on 5G cellular."
+ en.This WLAN may be unsecured, or faster internet may be available on cellular. = "This WLAN may be unsecured, or faster internet may be available on cellular."
+
+ en.This Wi‑Fi network may be unsecured, or faster internet may be available on 5G cellular. = "This Wi‑Fi network may be unsecured, or faster internet may be available on 5G cellular."
+ en.This Wi‑Fi network may be unsecured, or faster internet may be available on cellular. = "This Wi‑Fi network may be unsecured, or faster internet may be available on cellular."
+ en.This network is blocking encrypted DNS traffic. = "This network is blocking encrypted DNS traffic."
++en.This network is configured with a separate network name for 6GHz, which may impact some experiences like AirPlay. = "This network is configured with a separate network name for 6GHz, which may impact some experiences like AirPlay."
+ en.This network is not using a Private WLAN Address. To use a Private WLAN address, select Rotating or Fixed from the Private WLAN Address menu below. = "This network is not using a Private WLAN Address. To use a Private WLAN address, select Rotating or Fixed from the Private WLAN Address menu below."
+ en.This network is not using a Private Wi-Fi Address. To use a Private Wi-Fi address, select Rotating or Fixed from the Private Wi-Fi Address menu below. = "This network is not using a Private Wi-Fi Address. To use a Private Wi-Fi address, select Rotating or Fixed from the Private Wi-Fi Address menu below."
+ en.This network is used to connect CarPlay wirelessly, and your iPhone will also use your vehicle's hotspot to access the internet. If the hotspot loses connectivity, the iPhone will use its cellular connection to access the internet..NSStringDeviceSpecificRuleType.ipad = "This network is used to connect CarPlay wirelessly, and your iPad will also use your vehicle’s hotspot to access the internet. If the hotspot loses connectivity, the iPad will use its cellular connection to access the internet."
+
+ en.Turning on Private WLAN address will temporarily interrupt your WLAN connection. = "Turning on Private WLAN address will temporarily interrupt your WLAN connection."
+ en.Turning on Private Wi-Fi address will temporarily interrupt your Wi-Fi connection. = "Turning on Private Wi-Fi address will temporarily interrupt your Wi-Fi connection."
+ en.URL = "URL"
++en.Unable to join the network
++“%@” = "Unable to join the network\n“%@”"
+ en.Unknown = "Unknown"
+ en.Unlocking with Apple Watch, AirDrop, AirPlay, Notify When Left Behind, and improved location accuracy require WLAN. = "Unlocking with Apple Watch, AirDrop, AirPlay, Notify When Left Behind, and improved location accuracy require WLAN."
+ en.Unlocking with Apple Watch, AirDrop, AirPlay, Notify When Left Behind, and improved location accuracy require Wi‑Fi. = "Unlocking with Apple Watch, AirDrop, AirPlay, Notify When Left Behind, and improved location accuracy require Wi‑Fi."
+
+ en.Wi-Fi Address = "Wi-Fi Address"
+ en.Wi-Fi networks and devices can track other nearby Wi-Fi devices by their Wi-Fi address, even on secure networks. = "Wi-Fi networks and devices can track other nearby Wi-Fi devices by their Wi-Fi address, even on secure networks."
+ en.Wi‑Fi 6E mode = "Wi‑Fi 6E mode"
++en.Wi‑Fi = "Wi‑Fi"
+ en.Wi‑Fi Channel = "Wi‑Fi Channel"
+ en.Wi‑Fi MAC address = "Wi‑Fi MAC address"
+ en.Wi‑Fi Type = "Wi‑Fi Type"
+
+ en.[Learn more…](https://support.apple.com/kb/HT202068) = "[Learn more…](https://support.apple.com/kb/HT202068)"
+ en.domain.com = "domain.com"
+ en.none = "none"
++en.“%@” was previously joined as “%@”, not “%@” = "“%@” was previously joined as “%@”, not “%@”"
+
+```

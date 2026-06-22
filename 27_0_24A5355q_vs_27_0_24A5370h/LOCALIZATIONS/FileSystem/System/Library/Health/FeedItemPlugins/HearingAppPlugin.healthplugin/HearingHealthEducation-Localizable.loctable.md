@@ -1,0 +1,52 @@
+## HearingHealthEducation-Localizable
+
+> `FileSystem/System/Library/Health/FeedItemPlugins/HearingAppPlugin.healthplugin/HearingHealthEducation-Localizable.loctable`
+
+```diff
+
+ en.SECTION1_PARAGRAPH2 = "When sound waves enter the ear, they cause your eardrum and the bones inside your ear to vibrate. Small, fragile hairs in your inner ear turn the vibrations into electrical signals that are sent to the brain. Your brain then interprets the signals as sounds."
+ en.SECTION2_HEADER = "Measuring Sound"
+ en.SECTION2_PARAGRAPH1 = "Sound levels are measured in decibels (dB) and generally considered loud when they’re over 80 decibels. Your hearing can be impacted by the loudness of the sounds you hear and how long you’re exposed to them."
+-en.SECTION2_PARAGRAPH2 = "Even brief exposure to very loud sounds, such as a concert, can cause temporary hearing loss. Long-term, repeated exposure to loud sounds can damage the hairs in your inner ear leading to permanent hearing loss."
++en.SECTION2_PARAGRAPH2 = "Even brief exposure to very loud sounds, such as a concert, can cause temporary hearing loss, muffled sounds, or ringing in the ears. Long-term, repeated exposure to loud sounds can damage the hairs in your inner ear leading to permanent hearing loss. If you have an Apple Watch, it can detect loud sounds and alert you when they reach harmful levels."
++en.SECTION2_PARAGRAPH2_LEARN_MORE = "Learn more…"
+ en.SECTION2_PARAGRAPH3 = "As sounds get louder, the time you should be exposed to them drops significantly. For example, you may be able to hear city traffic (80dB) for 5 1/2 hours a day without trouble. But you should only be exposed to a motorcycle (90dB) for no more than half an hour a day."
+ en.SECTION3_CHART10_TITLE = "Thunder Clap"
+ en.SECTION3_CHART10_VALUE = "120–130 dB"
+-en.SECTION3_CHART10_WARNING = "120 dB exposure limit: 1 minute / 7 days"
++en.SECTION3_CHART10_WARNING = "120 dB exposure limit: 14 seconds / 7 days"
+ en.SECTION3_CHART1_TITLE = "Whisper"
+ en.SECTION3_CHART1_VALUE = "30–39 dB"
+ en.SECTION3_CHART2_TITLE = "Library"
+
+ en.SECTION3_CHART4_VALUE = "60–69 dB"
+ en.SECTION3_CHART5_TITLE = "Vacuum Cleaner"
+ en.SECTION3_CHART5_VALUE = "70–79 dB"
+-en.SECTION3_CHART5_WARNING = "75 dB exposure limit: 127 hours / 7 days"
++en.SECTION3_CHART5_WARNING = "75 dB exposure limit: 126 hours / 7 days"
+ en.SECTION3_CHART6_TITLE = "Noisy Restaurant"
+ en.SECTION3_CHART6_VALUE = "80–89 dB"
+ en.SECTION3_CHART6_WARNING = "80 dB exposure limit: 40 hours / 7 days"
+-en.SECTION3_CHART7_TITLE = "Motorcycle"
++en.SECTION3_CHART7_TITLE = "Lawn Mower"
+ en.SECTION3_CHART7_VALUE = "90–99 dB"
+ en.SECTION3_CHART7_WARNING = "90 dB exposure limit: 4 hours / 7 days"
+-en.SECTION3_CHART8_TITLE = "Ambulance Siren"
++en.SECTION3_CHART8_TITLE = "Live Concert"
+ en.SECTION3_CHART8_VALUE = "100–109 dB"
+ en.SECTION3_CHART8_WARNING = "100 dB exposure limit: 24 minutes / 7 days"
+-en.SECTION3_CHART9_TITLE = "Rock Concert"
++en.SECTION3_CHART9_TITLE = "Construction Site"
+ en.SECTION3_CHART9_VALUE = "110–119 dB"
+-en.SECTION3_CHART9_WARNING = "110 dB exposure limit: 4 minutes / 7 days"
++en.SECTION3_CHART9_WARNING = "110 dB exposure limit: 2.4 minutes / 7 days"
+ en.SECTION3_CHART_CAPTION = "Exposure limits derived from World Health Organization recommendations."
+ en.SECTION3_HEADER = "Example Sound Levels"
+ en.SECTION4_HEADER = "How You Can Protect Your Hearing"
+-en.SECTION4_PARAGRAPH1 = "There are easy ways to protect your hearing if you know you’re going to be exposed to loud sound levels. Ear plugs, noise canceling headphones, or simply moving to a quieter area are all effective ways of preserving your hearing and reducing your exposure. Making sure you give your ears a break after extended exposure to loud sounds can also be helpful."
++en.SECTION4_PARAGRAPH1 = "There are easy ways to protect your hearing if you know you’re going to be exposed to loud sound levels. Ear plugs, noise canceling headphones, or simply moving to a quieter area are all effective ways of preserving your hearing and reducing your exposure to loud noise. Making sure you give your ears a break after extended exposure to loud sounds can also be helpful. You can also protect your hearing by paying attention to how often you listen to loud audio through your headphones."
++en.SECTION4_PARAGRAPH1_LEARN_MORE = "Learn more about headphones and hearing health…"
++en.SECTION4_PARAGRAPH2 = "It’s important to care for your hearing as hearing loss can have an impact on your ability to engage with others and that can impact your overall health and quality of life."
+ en.VIEW_TITLE = "Hearing Article"
+
+```

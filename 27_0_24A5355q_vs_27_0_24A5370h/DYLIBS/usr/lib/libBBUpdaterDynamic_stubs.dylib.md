@@ -1,0 +1,34 @@
+## libBBUpdaterDynamic_stubs.dylib
+
+> `/usr/lib/libBBUpdaterDynamic_stubs.dylib`
+
+```diff
+
+-1563.0.0.0.0
+-  __TEXT.__text: 0x308 sha256:61e896637bed4ff1e7f06ca7be93d562604b1051437d0c7253603c16fec183a1
++1570.0.0.0.0
++  __TEXT.__text: 0x308 sha256:6a6354d7b3c1a9ac9f91d15ba61386a045d41a6a436bb4d6f3fc051c59c1eb33
+   __TEXT.__const: 0x56 sha256:a9582ac83a75a0b3168a68d46915572b0f27c96a0e9c81f278cba13a04951ba4
+   __TEXT.__cstring: 0xae sha256:8c220a9edff31590b2f3b075a68062f6b5d318a1833d760d65342943b47f0fb9
+   __TEXT.__unwind_info: 0x78 sha256:49300d1e32efa5fda20a1cebecdfe496a537b95f7f93c2979deec4d99ac38be6
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x60 sha256:4d329eeb001bb71fda3829e7c36c3e0652ffc64417854e9b33c96910179d0899
++  __DATA_CONST.__const: 0x60 sha256:71fd010ceb40a777707c4763b777c1d583150090c41d3284a060784600583a8e
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x60 sha256:f4029d18010c349c7649ba4edaba8245f30995dd0568f3c8599af35a92c115f8
++  __AUTH_CONST.__const: 0x60 sha256:0eebc93492ed557155c85eeabdaf397e028af4e240973b29fc5407f196c4b2bd
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 014FB739-9FE5-3BB4-9353-74166341153B
++  UUID: FA3A834F-7343-3BB0-8759-26E522B579C3
+   Functions: 7
+   Symbols:   29
+   CStrings:  7
+Functions:
+~ _BBUpdaterExtremeCreate : sha256 799e346bf1a0d69034e567c7ac6500e92070697712bfe56bc890d10c6f0fe34f -> 53e5383e6ede1f8e8ff6541ff5d71c6c8f799ec0633b6bed9bd0740122dd8def
+~ _sBBUpdaterLoadLibrary : sha256 61cfc27bf41d8796288f15db666386066881b6a52f77c5c6a2ac88bbdb61ccf1 -> bca3408d0d85480461c45895d01a8ade5814587ff48bf4257a5edd68b4a42a57
+~ _BBUpdaterSetOptions : sha256 fdae2920a1f20bf6be632c92229926223c7b42edea66d92a285092bdf2a67319 -> 22a70bf8d46487bf701b3635f4ebc1f423981a333067a66386a1b74aa9091c19
+~ _BBUpdaterExecCommand : sha256 1ae2a4519b1588f40403896c64b50883d1b5884d9961f592a52f031302e3f619 -> 8423877a935a1bf3441402b0e7b30d22738cb92d1db582efc084229b05d77bdd
+
+```

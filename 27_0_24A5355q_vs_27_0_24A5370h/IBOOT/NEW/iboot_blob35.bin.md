@@ -1,0 +1,62 @@
+## iboot_blob35.bin
+
+- `RS: TX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; swapToRxMode`
+- `ACSt: iBoot HP %d Lp %d OS=%d ACSt 0x%02x AC %d GG %d ACPW %d SOC1 %d SMCFixturePresent %d`
+- `RS: TX: RS_EVT_FW_DOWNLOADED: device untethered; start poutUntethered timer for %llu ms`
+- `RS: TX: RS_EVT_DEVICE_TETHERED: cancel poutUntethered timer (%llu)`
+- `RS: RX: RS_EVT_DEAD_ACCESSORY_CLEARED; invoke poutTriggerSet`
+- `RS: TX: RS_EVT_WAIKATO_MITIGATION_READY; do nothing`
+- `ACSt: Failed to read SOC1`
+- `ACSt: boot AC`
+- `%s: RTK_mc_release returned != RTK_ST_OK `
+- `RS: RX: RS_EVT_WAIKATO_MITIGATION_READY; invoke poutTriggerSet`
+- `RS: RX: RS_EVT_DEVICE_UNTETHERED; invoke poutTriggerSet`
+- `Inductive pwr_prof_change cleared`
+- `smc/inductive/inductivePoutPolicy.cpp`
+- `ACSt: boot !AC`
+- `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Accept; loadFirmware(TX)`
+- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)<Thrsld(%d); swapToRxMode`
+- `ACSt: AC present`
+- `RS: RX: RS_EVT_POUT_ABOVE_THRESHOLD; poutTriggerSet`
+- `%s: RTK_mc_assume returned != RTK_ST_OK `
+- `ACSt: ACpend Exp %d mS `
+- `RS: TX: RS_EVT_ACCESSORY_ATTACHED`
+- `RS: TX: RS_EVT_DEVICE_UNTETHERED: start poutUntethered timer for %llu ms`
+- `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Accept; loadFirmware(RX)`
+- `RS: RX: RS_EVT_HLOS_BOOTED; invoke poutTriggerSet`
+- `RS: TX: RS_EVT_POUT_CAPABLE`
+- `RS: RX: RS_EVT_POUT_CAPABLE; invoke poutTriggerSet`
+- `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Reject(%d); stay in RX mode`
+- `RS: TX: RS_EVT_ACCESSORY_DETACHED; loadFirmware(RX)`
+- `RS: RX: RS_EVT_ACCESSORY_UNTETHERED; invoke poutTriggerSet`
+- `dram_region_assume`
+- `RS: RX: RS_EVT_DEVICE_TETHERED; invoke poutTriggerSet`
+- `smc/i2c.cpp`
+- `ACSt: Shdwn 0x%x`
+- `RS: TX: RS_EVT_TX_FW_SUSPENDED (Idle); swapToRxMode`
+- `smc/forceKeyAccess.cpp`
+- `smc/inductive/inductiveRoleSwap.cpp`
+- `RS: RX: RS_EVT_FW_DOWNLOADED received; invoke poutTriggerSet`
+- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED;  wait for CHC`
+- `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; wait for CHC`
+- `POP: TXFW: %s: ramp: %u (targ) | %lld %+lld => %u (program)`
+- `configureTxPout`
+- `RS: TX: RS_EVT_TX_CHIME_HONESTY_COMPLETED; Pout=%d; IBCloakAvailable;=%d`
+- `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; swapToRxMode`
+- `inductiveCL: ggp %d ggv %d ggi %d soc %d, btemp %d epi %d, mpwr %d, fr %d`
+- `smc/extPwriOS.cpp`
+- `RS: RX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; invoke poutTriggerSet`
+- `RS: TX: RS_EVT_HLOS_BOOTED`
+- `RS: RX: RS_EVT_ACCESSORY_ATTACHED`
+- `POP: TXFW: %s: drct: %u (targ) | %u (program)`
+- `RS: RX: RS_EVT_ACCESSORY_DETACHED`
+- `ACSt:okBootAP_OS: %d, BattPwr: %d, ACPwr: %d, FixtureMode: %d`
+- `ACSt BattTrap: okBootAP_OS: %d, ExitBattPwr: %d, ExitACPwr: %d`
+- `ACSt: OSpend Exp`
+- `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Reject(%d); stay in TX mode`
+- `dram_region_release`
+- `smc/event_buf.cpp`
+- `RS: TX: CHC: Pout(%d)<Thrsld(%d) AND Ironbull cloak not available; swapToRxMode`
+- `POP: TXFW: pout_set_power_limit failed; ret=%d`
+- `RS: RX: RS_EVT_DEAD_ACCESSORY_DETECTED; invoke poutTriggerSet`
+- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)>=Thrsld(%d); stay in TX mode`

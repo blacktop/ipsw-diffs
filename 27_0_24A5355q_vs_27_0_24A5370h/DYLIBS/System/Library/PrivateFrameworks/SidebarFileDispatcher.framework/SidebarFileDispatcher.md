@@ -1,0 +1,86 @@
+## SidebarFileDispatcher
+
+> `/System/Library/PrivateFrameworks/SidebarFileDispatcher.framework/SidebarFileDispatcher`
+
+```diff
+
+-835.0.0.0.0
+-  __TEXT.__text: 0xbf0 sha256:9195f1f044c1efa80af5bef553dd7e7fb0c831c0f0508480b4fe44087c91bc15
+-  __TEXT.__objc_methlist: 0xa4 sha256:7d53ca1e122896a546a1a02e592592f632d2487f481ce172fd3ec4f661fb083e
++843.0.0.0.0
++  __TEXT.__text: 0xbf0 sha256:98daf1a8f8cf929dd0832cbc30693b81f146beca9ad322ee3a874a713df495b1
++  __TEXT.__objc_methlist: 0xa4 sha256:f0038e3ab7baec8d5cbff4cc84edb96ae4d5d309fa8d2ab95f4e06e3b69ce5e7
+   __TEXT.__const: 0x70 sha256:ca580bd0a12ff82618cf79b6258620bd4832a50e2a47bef2a713c0d2c24eb0df
+   __TEXT.__gcc_except_tab: 0x3c sha256:b71155ac3c9485a84bb0d85b8ceef5c3e14677ae51af4ea204136c5f20f1cd12
+   __TEXT.__cstring: 0xd2 sha256:d0147f5acdb8e9f2873267302c3a212a53209f8216949d55b39fa903a353ded2
+   __TEXT.__oslogstring: 0x1bc sha256:0b6ec804b91ce1aac15dcc87bd31f0d00629a4567a061be85f3ab5d652c6c760
+-  __TEXT.__unwind_info: 0xb0 sha256:941ecbc289948f468ef83bb3d92c090f8ccc724425bb889ec6e90b63fa3a3aff
++  __TEXT.__unwind_info: 0xb0 sha256:ee3dcbd81428b2eeda8660597ebf1ec768aba799a3873e42f997adfb5fe0506e
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xc8 sha256:4985968cfa249392c4585d4f58d18c578eda17f42de98a0f86d1c0e09b3e3ea5
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:e2aee951a8ca4b2916241f23c05fad15a9fd1e08ebd2ca2bbc0fa2f9751f8da6
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:2b3c6066976f0091aeaa331095b835578bd51f503a830c0017f0a361f5f7804a
++  __DATA_CONST.__const: 0xc8 sha256:9d0d2251a474ebf9d8e124df04471862ad0b3a2c63834b80cfd8dfa11fda74c1
++  __DATA_CONST.__objc_classlist: 0x8 sha256:bf80575c38fa45535e2808306e175168c423c7e7a5c9e24b643dccd924ad5709
++  __DATA_CONST.__objc_protolist: 0x8 sha256:cf92af24f96d0a7ec19749ec4b713779e368c5b8906e16d17b5a906a662f28a1
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xb0 sha256:d5b28f77060f14650db25cdeb10432a1a46c9224827ffb46e5e5923d3e3c4e4c
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:da755a8d8db612e8f1793c0070be609cf2e50a663c60fc7d3cecc873fc662983
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:e2aee951a8ca4b2916241f23c05fad15a9fd1e08ebd2ca2bbc0fa2f9751f8da6
+-  __DATA_CONST.__got: 0x60 sha256:c38c0439b0cb1d52c0e4deeb1a1b869e1fcc2256463b69ba4a2e7317dd931284
+-  __AUTH_CONST.__const: 0x20 sha256:b8ab6f25ee26a372f5fcf2d1075d913d54a995683a318782ae7aeb9a4f556809
+-  __AUTH_CONST.__cfstring: 0x60 sha256:3064b45a747b2118d9fbf9f8a12e08935ee6314c57b12c471159bbb61c8b4a54
+-  __AUTH_CONST.__objc_const: 0x108 sha256:37cdecb76cf163897ff65da6545cd3e3027be85c9711b35b4ffccabd8df2aef8
++  __DATA_CONST.__objc_selrefs: 0xb0 sha256:8e87649909f92c2c555edb3eaf5902c495909fc3f73601b3a7343b9230b66cf0
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:819d2871b8f8cd6d9f48122b81dce8fce3d253e41d0aec31b3f5ccd8246b8002
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:bf80575c38fa45535e2808306e175168c423c7e7a5c9e24b643dccd924ad5709
++  __DATA_CONST.__got: 0x60 sha256:fe320a7684d1fa98e45c7e079413995c1a1944800ae6180ecdcc906b102c77cb
++  __AUTH_CONST.__const: 0x20 sha256:30096025d7d98c0bb0e9005db869f4a0a2bce25b4b0f1fcbee667ff4c34cd1f7
++  __AUTH_CONST.__cfstring: 0x60 sha256:92b521b13c1b2a7d95e9b0625d4a7c693f999665be80d66612455ba8a7fa326a
++  __AUTH_CONST.__objc_const: 0x108 sha256:1beb939f8dd65f37ce1815442490014d7f59819db254b3d64eac2ee9537467d9
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:5e31f22e159125f2fa7135580cb58656c7819993f155acc9e80c759ba61a1f03
++  __AUTH.__objc_data: 0x50 sha256:f8fb90bca5d9ef2372d236cc4fcba0999a74de391c1241301ba2e7762d4bcafd
+   __DATA.__objc_ivar: 0x8 sha256:1842d9d60985977543496f68d38a01a5470beb95bdae33af49b8167ada489f83
+-  __DATA.__data: 0x60 sha256:8635e4ad81e69956ce5b757294463beb0f4ec0250aaf51c73dafa66914e214f8
++  __DATA.__data: 0x60 sha256:172af5c4510db466cca88d404c8a79ce8165f4d6453b40a956236e43848a324b
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AppleNVMe.framework/AppleNVMe
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B1485D58-30BE-3697-A1D1-C16A90371EBD
++  UUID: D0CFA5D3-9BCB-37A4-A4AE-6A35B5536D6A
+   Functions: 26
+   Symbols:   152
+   CStrings:  18
+Functions:
+~ +[SideBarFileDispatcherAPI sharedDispatcher] : sha256 76431448db62812115b29b6602be9bac71d1f19ddc25fdb7867cceb6c5fb55d3 -> 90d6c4e7a98372690f15d2061964bf69862cb1674c40d3bcbd18d32e456a7ad4
+~ ___44+[SideBarFileDispatcherAPI sharedDispatcher]_block_invoke : sha256 eeffb7d9ebad6bd9754f85e3bea6b16d8d5293674b7443d0814995c7d15f8520 -> ecee9be334322c9dda81fa4ef1ee4e01fa2d15a6968893121cb2f25ece811ea1
+~ -[SideBarFileDispatcherAPI init] : sha256 a827e9e115596ead195881b238fd9b1b4d4839e1b574bc600bc354eca3f94381 -> 41335668c1c6c0dd2c536a808a46fbd12e861c1def30915f5971eb2a89338e8d
+~ -[SideBarFileDispatcherAPI connection] : sha256 f3af863939f876c910b851e48b7251480e806a8430aabd24bde429cf6540683d -> 9d5dd50ab1a6774c231f393ec8435f61cc25a7a9a8b01a2a2bfb5ec11ba5b6b9
+~ ___Block_byref_object_dispose_ : sha256 a92dabcdc76ec8600e8d550dcf0e0a6b78d1ea43c2b9fe842405185be0c12817 -> bf13287572ec93bf4ca6a10a5dfcab7c65724f93342d42c5e4fbe400e7c5f025
+~ ___38-[SideBarFileDispatcherAPI connection]_block_invoke : sha256 5f05895f46566a17d2b411122fbde0cf14ba56fc1d309b47f46afc24a9491ca6 -> d1970df09767bb9c6d5597ca85245a52d8fc53a0e3d663a59f7f144f85c19f91
+~ ___38-[SideBarFileDispatcherAPI connection]_block_invoke_2 : sha256 15512f7f7f7b3f040160c8dee61f1ec50d420eed51b09e587531da9af42dedd3 -> fd4964c0131efd48f24eb37e88410aec5a748117782e4955acd8938bc142078d
+~ ___38-[SideBarFileDispatcherAPI connection]_block_invoke.13 : sha256 0f270c7d2a1df28f80e740940531105e39e22591520271d4475ee24d6b38723e -> 95e4d1252ed334d31697ee96da8c265edceba9d2b7ac90745ea426fe6e91c17b
+~ -[SideBarFileDispatcherAPI invalidate] : sha256 ddb423f638fe5885bff179c1c3d86da894c73f77eee39c9f8ad143eadee16018 -> f09d372f709da4a722b4419ab016e7310a0ccdb27e8e080d00de2844113f3911
+~ ___38-[SideBarFileDispatcherAPI invalidate]_block_invoke : sha256 132eb73f0f02a10387355bea1b95bca56e64b959fd7345fb6262437f22834fdf -> 2b48fa4ff21249817caa6401d47aa3f023f06b501aacde7bb6d6fcf40e9cee15
+~ -[SideBarFileDispatcherAPI processSidebarBuffer:bufferSizeBytes:NVMeDeviceID:sbarLba:reply:] : sha256 50b62a6e5d1af5761bb942244367009c79793896929246babfca7739f33b06a1 -> e021bdede30a086211596d641f232064c3b883fbe5d943c2a47dc647a87f6086
+~ ___92-[SideBarFileDispatcherAPI processSidebarBuffer:bufferSizeBytes:NVMeDeviceID:sbarLba:reply:]_block_invoke : sha256 ba1c5912890f7d768b95faf8366b585c3fe18b6c4dafd98d9adea2f65aa78f0a -> cf6458e61de403d9df3c0d8dfe802269747d8fb8453c995874f41703ffbd1050
+~ ___92-[SideBarFileDispatcherAPI processSidebarBuffer:bufferSizeBytes:NVMeDeviceID:sbarLba:reply:]_block_invoke.20 : sha256 7469a0067f2e8052b7612086d68b271407a9fd7942c1c0673f3642e78e0913a8 -> c73989b4e8453c76029ec47306370dc904e6d339517f253537d48ef7eb37bb12
+~ -[SideBarFileDispatcherAPI setConnectionToService:] : sha256 2213a175cd217b803413039539da1a6235c8ff8276483a6cb9d4c8cee84912f9 -> 37c2fd0be519b4aa2492588da6eb217488073fe9bb5ec2f8bc9ef4f2cb237084
+~ -[SideBarFileDispatcherAPI setConnectionQueue:] : sha256 209d6cfee90b7915d1a1d040186a6e6f46a658b32bba0cce50905b5be7ca9d41 -> fa0a6401b520f18c58f0ab7d468ddb64061d87df390f243837b99cda7e7d364f
+~ -[SideBarFileDispatcherAPI .cxx_destruct] : sha256 0bd179c539a07e29fa37ab2664323d08dfa4a58f776d8ecf84a28ecfcba28d6b -> 41e8f879ace466e3a0a4bfaf27be810ef45f9feac4b2e6ff6bdbcb45bcff05d7
+~ _OUTLINED_FUNCTION_0 : sha256 9a9ba58b00df5922dbe2549a3eab67e13172803aab0a580caf0eaaa062efbf9d -> 554c39e8db464bf1d9c5cf982ecd2b42f4ba7560a5c9e6c8a6b152cd29680f71
+~ +[SideBarFileDispatcherAPI sharedDispatcher].cold.1 : sha256 09bf01fbc6385688d956be5508aa945439c3289eb4b4e28fb571c1bc22bf1379 -> 9157373f3052477cd5c5d506b75af5f5a8ea048feb1360a097e86a608be51c55
+~ ___38-[SideBarFileDispatcherAPI connection]_block_invoke_2.cold.1 : sha256 f879ee7d409588c5b514c6086ecdc29a54f2fead782292e28d8c69aa38d7b34e -> b6737ff6dd3e545de4f94f1f88fb080a8d7ca7a15a8bd64244cdae02389fa67a
+~ ___38-[SideBarFileDispatcherAPI connection]_block_invoke.13.cold.1 : sha256 287f982be64af85257b39405e1c5d90ab9cd1dda0a89e2a3115a0455625cb9bd -> 0d9e6e579d2331e8f834ae5527058279b5a37f682fab341de5952eec24afd081
+~ ___92-[SideBarFileDispatcherAPI processSidebarBuffer:bufferSizeBytes:NVMeDeviceID:sbarLba:reply:]_block_invoke.cold.1 : sha256 49aa831b8dee0980ac28cd800ca0eeadc36528889331015c280eb0fb296ba524 -> b1404a780af8b4b6486f1c7b7ede02fa345baf208610e4fdfdb243a384214975
+~ ___92-[SideBarFileDispatcherAPI processSidebarBuffer:bufferSizeBytes:NVMeDeviceID:sbarLba:reply:]_block_invoke.20.cold.1 : sha256 0d0d3f422c7f2350b540443110078b5eeb880b7a7adcdb38c8f52e2d859eba1b -> 8bf5e8b1f64a6202eeadeb0ba519786a7b108b325e731938c1aa7bbe041ce58c
+
+```

@@ -1,0 +1,76 @@
+## DeviceProximityDetection
+
+> `/System/ExclaveKit/System/Library/Frameworks/DeviceProximityDetection.framework/DeviceProximityDetection`
+
+```diff
+
+-552.0.2.0.0
+-  __TEXT.__text: 0xe0c sha256:40db6a663f97da82522876019d82220b8ab91ebd69bec4ccc7766b87bb201ee2
++557.0.0.0.0
++  __TEXT.__text: 0xe48 sha256:c2ed7d0907e65d33d04045cd9960b33ca91c8f5ea90570ebac561e442f79db94
+   __TEXT.__auth_stubs: 0x180 sha256:a192e3b6247cecbfc2d5d443ec29b641b01a4c1c60523969df0298c5d821e509
+   __TEXT.__objc_stubs: 0x1c0 sha256:3e492d83a1e04de01e8fabe8d37d217b43fe2f1a010ff3dfec3dbdfc5355bb83
+-  __TEXT.__objc_methlist: 0x98 sha256:1fbf007b47eae41301fd0502305e196657c5a229530c87b9fe37a5b4f7e60ff8
++  __TEXT.__objc_methlist: 0x98 sha256:e9132c81a89696fe4eb79b45fff94c9647e5a41afb134369e7dc712035f164b4
+   __TEXT.__const: 0x40 sha256:d783984eaddeb6df4ad1b634f75a6859e3b8cfdf5387ae55da5c9862574f4df1
+   __TEXT.__objc_methname: 0x1fe sha256:bdee95474a1191899d555b5b4a628e49ea4f370f81604891b9d52b0bf347b15f
+   __TEXT.__cstring: 0x37 sha256:a12695796b773b443582e6e932ec50c027884b2bbeecbcbd427fd56e0a13d72b
+   __TEXT.__oslogstring: 0x138 sha256:306ed2b163b8e7460e28f45b984d7c26a08ae244c1db1a77dd7f857954ca639e
+   __TEXT.__objc_classname: 0x14 sha256:f1c5f952db877fbe8db64840042b03ac372af6acd37442441a9b392185a94b66
+   __TEXT.__objc_methtype: 0x253 sha256:3ec08ad2874f0a5fb36c6a509d8654c3486d8b9af3373ef29c3e8928fc919bd0
+-  __TEXT.__unwind_info: 0xb0 sha256:2145b2d7a3f3493225e0772e7ea092a9c7ed33ea43c709a9810fb8aa168dc946
+-  __DATA_CONST.__cfstring: 0x60 sha256:13feab70f45e32d81da5367c668f532f5e9c4ce13b6c39def5581135ea37ed6e
++  __TEXT.__unwind_info: 0xb0 sha256:4652ad89a1a5e6606e0d2194e91c4964fc19572a60a2540534bb4567c909730e
++  __DATA_CONST.__cfstring: 0x60 sha256:4b33abb34f6d0f397a02b5681a81be083fac7fd8562bda1943028dd8d7d857bf
+   __DATA_CONST.__objc_classlist: 0x8 sha256:2f6e240d650a1ce947cba459a48032ba4361bdb2191be041d9738ad33812126e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+-  __DATA_CONST.__objc_selrefs: 0x98 sha256:8e11e608299d00319f00aea02128b2e3bccfac3cb1116f0c587580e471f1154d
++  __DATA_CONST.__objc_selrefs: 0x98 sha256:996f03da6963aab2d673a69c6b865dacc39f86384f105765426c81d7d7ed035d
+   __DATA_CONST.__objc_superrefs: 0x8 sha256:e18b1f43657d686c3c9b953ea7d581210399c39d8a6e2fe27561b26101705df5
+   __DATA_CONST.__auth_got: 0xc8 sha256:a7c075434f61978744bf0ae496a34d4773aa7f093c9d42309fa5757e780b647d
+   __DATA_CONST.__got: 0x18 sha256:41ec4cf842ad33285fd540f9a34e7115557371880bc8ab6f0cc0eddf708a3ef6
+-  __DATA.__objc_const: 0x1f0 sha256:86c57fbe674cbdd8ffd61ac1a333f4fedf517c4bbb9ef9f3d0b2f094804fd463
++  __DATA.__objc_const: 0x1f0 sha256:cc7b88c38cd58807e866156d3fc4e12cbf0757155b0f9e5f0f3c1599c92a8150
+   __DATA.__objc_ivar: 0x28 sha256:938cf9692f7298a3bf681f98490420b1be1276b713ec23ac8a0005de6bc2d279
+   __DATA.__objc_data: 0x50 sha256:635aa511b66c74c2a4126726cb116f36d824af0dd1047e18706fe4cb8351643f
+   - /System/ExclaveKit/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/ExclaveKit/System/Library/PrivateFrameworks/CoreVideo.framework/CoreVideo
+   - /System/ExclaveKit/usr/lib/libSystem.dylib
+   - /System/ExclaveKit/usr/lib/libobjc.A.dylib
+-  UUID: D7B3C66D-9716-327A-B9AC-0462DF4503EC
++  UUID: 9CEA668D-293D-3D01-BA69-7517CD7A6F97
+   Functions: 33
+   Symbols:   96
+   CStrings:  68
+Functions:
+~ -[ODT3DSessionWrapper initWithEXsurfaceMemoryRegion:andANE:] : sha256 cd805065be58509cf8a0b74ba2f6f1572d09185a09a90f756f35dcba9f360035 -> 5622f1f31cbbaebc7846ce85180714a6299c628547c17ae3d8bb81d34bed0237
+~ _resetDeviceProximityDetectionOutput : sha256 1a5b54906e3fb5446dd601172c627016aea0ca833d907b6d3cd02ab50c28a62e -> eafd06c4a79d6d8aa94ebff21ac5662acfff57f550ba5fd857c4f402e6a0f769
+~ -[ODT3DSessionWrapper dealloc] : sha256 1ca81e9820feba63f96c3f4d9ca2f00073899b00c90fcd18bf52193680df77d1 -> 9e332fff97113539bd7a76356867384645375f5bf49520d8a82516ea20d3a183
+~ -[ODT3DSessionWrapper setDeviceModels:] : sha256 38576c4901aef8a94fa58095cbddc90878a8fe825addd76378c582fc1adf265b -> 445583015c2dc69b9aaef0e686c006cbcbc0cdb9bb03beed175fcdd8cad1bfc2
+~ -[ODT3DSessionWrapper setTimestamp:] : sha256 d3725b172b8137cd27661c57ce0f4db3642d05300d7b46f65bfb52e33f76111b -> cad6f84cbd378545d2653ec87c2a8795b904534d96bd807fde298b3b3c39171e
+~ -[ODT3DSessionWrapper setImage:] : sha256 a1519fcb6a55b57730577a5274e51aa0d1b9c438aca245c5d0bec7b66f1ac8ee -> 3675c32c4bc3eddeb5f3950a22f9f600985a95601d9fc218099d5aec7c8211b6
+~ -[ODT3DSessionWrapper setCameraIntrinsicMatrix:] : sha256 ce16d8702abd96833b69e55e82e197e5dfde938dfb2ef051d23d9d9e22f4b072 -> 8855fc322f6b6714080dea0da0acff6ca1ec3751a07de315f26581a8794ea0a0
+~ -[ODT3DSessionWrapper setEXSurface:] : sha256 53e202068a2bdcb408c89390e5c84545b48c8ff3eaf22ad8db19fe5ccf4aec22 -> 89f7b326788d212df6faabddeb70b8127a21692e970390ccfb4f93c72a43f83c
+~ -[ODT3DSessionWrapper process] : sha256 c68c37d9bfd3bc820545cf3752047f07e9b2e979a1c526bf297d806dd200c0b3 -> c8628c76aaf3c640c53fc1d421c37fa3987c67601c7a377f893d90264befba53
+~ -[ODT3DSessionWrapper output] : sha256 71ee8c96a67a4f7518404670fb2ce386e96e1b9e4f0c9c25335d8d8c8cb05801 -> 13fe68067cee66ab45c20f24e5629b1ef3c8332440ef40554f4e87079bcc0da9
+~ -[ODT3DSessionWrapper .cxx_destruct] : sha256 ddb7db614bbead1294475e934d140425830c3589f581aa666671b922ce157641 -> 0c26b15584304b706bacc924d293f9e7861fdd493d19d667a6be080821a2ab0c
+~ _DeviceProximityDetectionPipelineCreate : sha256 143a831a8bc186420b98b67a2248c55886821ea699e6e88b940ea47fe71ad3c4 -> 2156fce6339975dbab81c74c7d7c300d2821946be78c78dfbd9b0862296cf795
+~ _DeviceProximityDetectionPipelineRelease : sha256 7b660926fdd307117011e7c0135e82f42f07638c65c710fdef4732a347d76efc -> bd7491f6844144ec7e476b5ef1f0a5bef94507fe2d134eee958f8d3e71486cdb
+~ _DeviceProximityDetectionPipelineSetDeviceModels : 188 -> 204
+~ _DeviceProximityDetectionPipelineSetDeviceFamilies : 188 -> 204
+~ _DeviceProximityDetectionPipelineSetTimestamp : sha256 4f6bf13fc758c573ef2241d9fd266f40d0b272c2bcc728820bc0f639ee077d93 -> f91d837e5748430d3c8dbbc4accf1bdb79f3763366b04809e3abdd253f5873cb
+~ _DeviceProximityDetectionPipelineSetTimestampNSec : sha256 21fef9ce3cf237ba8eb591755bec108f237bda8ab24c92eab898776f9a60384a -> 4c781644cd921a90fc9a2b74148928cb9433218646ef46d038e63706b38d4039
+~ _DeviceProximityDetectionPipelineSetImage : sha256 3d089af377b9e02d853cc65439b172c13ba0f31836ac5128a57533300b8ebc84 -> b2259e6a72b7a97d428afc8942aee11986283fd2c3c9b066f150ee11a1cba67d
+~ _DeviceProximityDetectionPipelineSetCameraIntrinsicMatrix : sha256 6ba77f158014f4e56374f38ab900d421410852a4606d16cbbf2543321496ddb8 -> 2e91a77cddb8343d211a34edeef1a48a2ff40b297861cdd3039c05c6a29e71ef
+~ _DeviceProximityDetectionPipelineProcess : sha256 e3eecfadfccbae33e46396acea444143e5983f941d109d3d4cd107efee0cecc3 -> c8f11aa9bdb3f76492d6af8305b2643c99938df0895a777271192a1496c62ef5
+~ _DeviceProximityDetectionPipelineCreateOutput : sha256 8010ec838f4d72461f04f81c3a7eb23a34517aa22d9b75b69ccf522a569d2e9a -> 63f512d8a58879e482825a25aba55da1346ab96d56403a8f12378e44783c968c
+~ _DeviceProximityDetectionOutputRelease : sha256 ee871b802b17a8f48ae7ae34be6374cf9f0c4d790941932874b48e6e35508ba8 -> 68064b8eaea667117fe539f67b511ff2d56f26aa1ac62543a61f6e935d6adcf2
+~ _DeviceProximityDetectionOutputGetTimestamp : sha256 f2ddfb14963c66968dda48905ade81c4541cdc590e440855dcfb9c369be022af -> 78d8173aadd033a810b90a5ca4963ca6544814ab8ada525d1de1d8dd74e154b3
+~ _DeviceProximityDetectionOutputGetDeviceModel : 64 -> 68
+~ _DeviceProximityDetectionOutputGetPoseMatrix : 72 -> 76
+~ _DeviceProximityDetectionOutputGetConfidence : 76 -> 80
+~ _DeviceProximityDetectionOutputGetConfidenceBin : 136 -> 152
+~ _DeviceProximityDetectionOutputCreateDebugParameters : sha256 991fded13599ca8c340e42ae4dcffbf871fd57c26986814f57b4b7aedfb63052 -> 9f12bfdacdace57843182d45ff5d760d34f0a46b76d4535783ea591b0dd98826
+
+```

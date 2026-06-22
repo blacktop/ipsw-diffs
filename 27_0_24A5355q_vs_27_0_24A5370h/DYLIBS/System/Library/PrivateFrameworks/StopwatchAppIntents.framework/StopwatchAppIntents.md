@@ -1,0 +1,149 @@
+## StopwatchAppIntents
+
+> `/System/Library/PrivateFrameworks/StopwatchAppIntents.framework/StopwatchAppIntents`
+
+```diff
+
+-299.0.0.0.0
+-  __TEXT.__text: 0x8710 sha256:0432085dc47a9b2879646f14d6d0a781fe6e0faac7a742bf7651b01bcc8e0fda
+-  __TEXT.__const: 0x1200 sha256:d75b7e7a7be641d20572986aa729cb985f318c350fc89d9536180e7132cc7043
+-  __TEXT.__cstring: 0x65 sha256:b494db9a584a81a5e6fe4d29f983430f820e504d71902f60c4e8e406062803b4
+-  __TEXT.__swift5_typeref: 0x4f3 sha256:ead5da5d0fc8f1ea6d49a0cc7aded14f2f6df60cde2fd5684c6f74ded0ef2ed6
+-  __TEXT.__swift5_reflstr: 0x17d sha256:862106a66cb4172e150ea50ffc98aae4fb3eb0914581d49bb6b495bc01d8e782
+-  __TEXT.__swift5_assocty: 0x170 sha256:9b04df0958a5326616022ea3f86eed6d551cb0288ae8a3b80d344cfdab3be0c7
+-  __TEXT.__constg_swiftt: 0x198 sha256:14746579483c2fa6656f46870ca915ff420bb4bd8ab12f1cff4dff23ec15d8fe
+-  __TEXT.__swift5_fieldmd: 0x158 sha256:6fd09fa6fb8c7a2be128e03353cbb64ae0a97ffadc21b06a2e8da49832bafebe
+-  __TEXT.__swift5_proto: 0xf4 sha256:38dc6dfd4913a61ebcba426ce2c83799c874c9b6f2c5a041704dfa96143825d7
+-  __TEXT.__swift5_types: 0x20 sha256:3462b8d1d5252a214f23dce940b6d3a3367b6f8a62c5dd60fc49a641be769040
+-  __TEXT.__swift_as_entry: 0x5c sha256:af3993a8c842c96a0f90e48a4b80d3fa6e5c7fca78b4117e95ab275dc30c1c84
+-  __TEXT.__swift_as_ret: 0x48 sha256:84e1a6b45b3c22277fe6c26dbd8b8f3d68d0d339d4a1f1b7682244c45d42208a
+-  __TEXT.__swift_as_cont: 0x54 sha256:ddad295012960cdaa5d4b2120c513c68cc0956326124d9e84841d526dbb89379
+-  __TEXT.__oslogstring: 0x1d sha256:fc804b01a517be99aed533fee5d81aea749a60a38fe2ff41843f0fcaa9270a39
+-  __TEXT.__unwind_info: 0x450 sha256:08fdede909c83c35b0bdf1639398e669ea1daca7b6848fbcb30a6afd529efa6a
+-  __TEXT.__eh_frame: 0x470 sha256:ba5d5b0cb37581dada2702e6e5ebacda647f069406b0e4f90b4bfe40d82050a6
++300.0.0.0.0
++  __TEXT.__text: 0x9380 sha256:c14aea6d0ca3e3fc1d92afd705e7e61539d12d8097692c87e1ea66a5865a73a3
++  __TEXT.__const: 0x1278 sha256:6adf41afb87c6da3547185f9a9371b42c7adf0588236648619040e8958c9a736
++  __TEXT.__cstring: 0x45 sha256:17e8a198150ba3485203a9a9752048094141013c5dac014604f8a9c9f6f0929a
++  __TEXT.__swift5_typeref: 0x52b sha256:7653a825c13c1ad1fa64c1ae8fa009effd240f06bde0544b71ec1061b33d956e
++  __TEXT.__swift5_reflstr: 0x16e sha256:7a8df19a2d97045232bc74942f0057f74571241d1ff98891dd011c17c724235c
++  __TEXT.__swift5_assocty: 0x170 sha256:90fd57ea6c0a7f02c72bb5ec2cf65d1267d99a2928d5be83c39d0b8e4abd330c
++  __TEXT.__constg_swiftt: 0x198 sha256:d580d3292826935854fc40ee09474c2ee0661f5bda7b626e9955b6ad1042c32e
++  __TEXT.__swift5_fieldmd: 0x14c sha256:c6ef84a2d4d817e773bfc6eac21833fadfaec970b2dfc4beba7c047485fb939e
++  __TEXT.__swift5_proto: 0xfc sha256:6001f302bbcb7b4d626eb4742477773ddc5484d0f1542af3264052915d699baa
++  __TEXT.__swift5_types: 0x20 sha256:71a5ae8a34606e8470619b423aac01182cdf22ca1632d1f093c40029d4417cc8
++  __TEXT.__swift_as_entry: 0x5c sha256:1ea9a66750adfdbd26774003d61ae408c06a6c7b35e52328aaad55d6e910c30f
++  __TEXT.__swift_as_ret: 0x4c sha256:69fca7b53f6a97f45c0a2e01acb3a6cf8d2a00d7342a6e2679fc1c6da2ced823
++  __TEXT.__swift_as_cont: 0x58 sha256:035d80d672ebbf018f0017895eec6c91327ff8ddfb204491d5198d80256083a4
++  __TEXT.__oslogstring: 0x4c sha256:b17fc3f910618fb41366494919e7c5933bdd9b56550b9e77529a8dbeb6cbad5e
++  __TEXT.__unwind_info: 0x460 sha256:ba8bae5b2ee43958c468e3c012d010d09e754cae81542d546baf58505f7a8a03
++  __TEXT.__eh_frame: 0x498 sha256:76bee1cc1f55465f918441ea1ff0905c86613253188c9f4e5111991c21e2f1c8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_methname: 0x0
+-  __DATA_CONST.__const: 0xb0 sha256:ef7b30f1b9599e6ade141b657ffceb474d49caaa8d35983fb2ff6f6c27c14fe5
++  __DATA_CONST.__const: 0xb0 sha256:04de1791a1b579c2069d710da45d1e43319fc12808f1bb796e3e6793643245c9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x30 sha256:c92e3e7f60f41c0f09e5334e7cde38a1890712eed8cd9c017956f597f0d99678
++  __DATA_CONST.__objc_selrefs: 0x50 sha256:6935ec240133bfc7564d3faa8d683ac11a5f60d304d8fc69a0e254a847ca67cf
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x4e8 sha256:b84422eb0601f9915888ac3a72c8654713fe29a5fadb47c78b365b047bf4982f
+-  __AUTH_CONST.__auth_got: 0x4c0 sha256:97d364e2d3d35f030a038c41bbadc42d0c15fa8d79ba569987e19fddb2e80f9a
+-  __DATA.__data: 0x218 sha256:563e26b93efd0e7a056e56a4fb77a242103685a1c4bfec684f453ca8df14bbc0
+-  __DATA.__bss: 0x1780 sha256:002063c14601acddd812149fb44ffc886f67af5c2fffa46554135a640e494bdc
++  __AUTH_CONST.__const: 0x4d0 sha256:1d2563425f7d14815791b360ff9d4ce63a1df3047597fad80b12e3012ce5c6a8
++  __AUTH_CONST.__auth_got: 0x4f8 sha256:fbb4fa31c3fa0c14ccb3fe426e39dcad529b17e379309c0adbe27fcc93feba50
++  __DATA.__data: 0x238 sha256:4657aa9e37f551f91d22305685171b99107f1f80b69ee83400db32ef59955a29
++  __DATA.__bss: 0x1880 sha256:27e252c16d2f3c861b57f34cb9d769a3e4ff93a1adf73af6970fda1294d88d0f
+   __DATA.__common: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+   __DATA_DIRTY.__data: 0xb8 sha256:d81bfb50e59a9abbe66f6ae0c6b45c7b9c0bc6eead2cf982118ac4d62b6ffeda
+   __DATA_DIRTY.__bss: 0x700 sha256:7b4fc1a8dbe6b6121f16ada516e2ac27e02964716bacea5fb7d07cf30595948e
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F5984F70-7BDA-3EDA-BB58-8426E03C6ED8
+-  Functions: 318
+-  Symbols:   299
+-  CStrings:  7
++  UUID: A1AAA65F-59BF-378B-8303-30E165C76AE0
++  Functions: 326
++  Symbols:   312
++  CStrings:  6
+ 
+Symbols:
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC00B4EnumAA8RawValueSY_s25LosslessStringConvertible
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC00B4EnumAASY
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC00B4EnumAaD0B5Value
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC00B4EnumAaD26StaticDisplayRepresentable
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC00B5ValueAaD07_IntentE0
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC00B5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC00B5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC012_IntentValueAA0F4TypeAdEP_AdE
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC012_IntentValueAA13SpecificationAdEP_AD08ResolverG0
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC012_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC013AssistantEnumAaD0bF0
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC019AssistantSchemaEnumAaD0eG0
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC024CaseDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC024CaseDisplayRepresentableAASH
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC024CaseDisplayRepresentableAAs0E8Iterable
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC026StaticDisplayRepresentableAaD04CasefG0
++ _associated conformance 19StopwatchAppIntents0A5StateO0bC026StaticDisplayRepresentableAaD04TypefG0
++ _associated conformance 19StopwatchAppIntents0A5StateOSHAASQ
++ _associated conformance 19StopwatchAppIntents0A5StateOs12CaseIterableAA8AllCasessADP_Sl
++ _objc_msgSend$currentInterval
++ _objc_msgSend$offset
++ _objc_msgSend$previousLapsTotalInterval
++ _objc_msgSend$startDate
++ _objc_release_x23
++ _objc_release_x26
++ _objc_release_x27
++ _objc_release_x8
++ _objc_retain_x20
++ _objc_retain_x21
++ _swift_release_x8
++ _symbolic Say_____G 19StopwatchAppIntents0A5StateO
++ _symbolic So8NSObjectCSg
++ _symbolic _____ 19StopwatchAppIntents0A5StateO
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic ___________t 19StopwatchAppIntents0A5StateO 0bC021DisplayRepresentationV
++ _symbolic _____y_____G 10AppIntents14EntityPropertyC 09StopwatchaB00E5StateO
++ _symbolic _____y_____G 10AppIntents14EntityPropertyC 10Foundation4DateV
++ _symbolic _____y_____SgG 10AppIntents14EntityPropertyC 10Foundation4DateV
++ _symbolic _____y______Qo_ 10AppIntents0A4EnumPAAE28defaultResolverSpecificationQrvpZQO 09StopwatchaB00G5StateO
++ _symbolic _____y__________G s18_DictionaryStorageC 19StopwatchAppIntents0C5StateO 0dE021DisplayRepresentationV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 19StopwatchAppIntents0D5StateO 0eF021DisplayRepresentationV
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC00B4EnumAA8RawValueSY_s25LosslessStringConvertible
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC00B4EnumAASY
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC00B4EnumAaD0B5Value
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC00B4EnumAaD26StaticDisplayRepresentable
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC00B5ValueAaD07_IntentF0
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC00B5ValueAaD24PersistentlyIdentifiable
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC00B5ValueAaD24TypeDisplayRepresentable
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC012_IntentValueAA0G4TypeAdEP_AdE
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC012_IntentValueAA13SpecificationAdEP_AD08ResolverH0
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC012_IntentValueAA13UnwrappedTypeAdEP_AdE
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC024CaseDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC024CaseDisplayRepresentableAASH
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC024CaseDisplayRepresentableAAs0F8Iterable
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC026StaticDisplayRepresentableAaD04CasegH0
+- _associated conformance 19StopwatchAppIntents0A11StateEntityO0bC026StaticDisplayRepresentableAaD04TypegH0
+- _associated conformance 19StopwatchAppIntents0A11StateEntityOSHAASQ
+- _associated conformance 19StopwatchAppIntents0A11StateEntityOs12CaseIterableAA8AllCasessADP_Sl
+- _swift_release_x22
+- _swift_retain_x22
+- _swift_retain_x28
+- _symbolic Say_____G 19StopwatchAppIntents0A11StateEntityO
+- _symbolic _____ 19StopwatchAppIntents0A11StateEntityO
+- _symbolic ___________t 19StopwatchAppIntents0A11StateEntityO 0bC021DisplayRepresentationV
+- _symbolic _____y_____G 10AppIntents14EntityPropertyC 09StopwatchaB00e5StateC0O
+- _symbolic _____y_____G 10AppIntents14EntityPropertyC s8DurationV
+- _symbolic _____y______Qo_ 10AppIntents0A4EnumPAAE28defaultResolverSpecificationQrvpZQO 09StopwatchaB00G11StateEntityO
+- _symbolic _____y__________G s18_DictionaryStorageC 19StopwatchAppIntents0C11StateEntityO 0dE021DisplayRepresentationV
+- _symbolic _____y___________tG s23_ContiguousArrayStorageC 19StopwatchAppIntents0D11StateEntityO 0eF021DisplayRepresentationV
+CStrings:
++ "%s: Unable to initialize stopwatchEntity %@"
+- "Current Lap Time"
+- "stopped"
+
+```

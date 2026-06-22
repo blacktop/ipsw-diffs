@@ -1,0 +1,104 @@
+## DAAPKit
+
+> `/System/Library/PrivateFrameworks/DAAPKit.framework/DAAPKit`
+
+```diff
+
+ 4026.100.61.0.0
+-  __TEXT.__text: 0x2308 sha256:84d381bd3279ecf3732d68f6b8919dde7987fb93bacbc9d332abee5bbbed9b21
+-  __TEXT.__objc_methlist: 0x2d8 sha256:0fafdefff31518ad95644375e46ccc6a3209cc51162b97f98bc92e3573441851
++  __TEXT.__text: 0x2308 sha256:a2b4cfc93aa3a36b3f54cfe6a467afb6e4b9f9fe37e43a60df14f6c78f6d0544
++  __TEXT.__objc_methlist: 0x2d8 sha256:0a0bbcd92081ebc521c619bcba563276a04ed48d7c8719c62534dfccea982122
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__cstring: 0x3e9 sha256:de7a0acab53b6ecf8a2bd5deb03f1aa2c0ea2290c1117c02327f7c332bbf9e94
+   __TEXT.__unwind_info: 0x120 sha256:235ff92f93efd3426f3fdd6c3ab9cd3d47ee62902a390689d5bcd33f90e01dd4
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x168 sha256:fa27453d8d8b5634001c0610ceef702a058df34d2188690ce97e078e9d951c18
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:9848940860974ebebfab3bb63a655608bec3294bbf199c95ed8b4a2b8cc4ccd0
++  __DATA_CONST.__const: 0x168 sha256:eb33297c1c123b587fb9b985a159a2c08ccf5f5b2f3b40ee2aa0e44af43fe978
++  __DATA_CONST.__objc_classlist: 0x20 sha256:a5ecb4a11a1a8fb92febb907a108625204af3a474221efdbddbe4fe497b7248a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2c8 sha256:a44653a8e1549a8d03ce4966c0091de2b9db5763d5663cf278fc10b677c2747a
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:9cf95b9886d7148cd2a798b8cb09cc0434f34e0d1d16a2868abb79b1f493af37
++  __DATA_CONST.__objc_selrefs: 0x2c8 sha256:354b269c8afe4c95691044a03ae8dedfcfb59eede832e4841915e25e1d105b6c
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:a535704470c54eeb9fdf0f94ce3293a9a8cfdce3d257f51f29c33be6e0a3639d
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x420 sha256:7809ad826361efa2c5df8687d8f335313583096aea18bbbd995eb2561e4fe020
+-  __AUTH_CONST.__objc_const: 0x520 sha256:911a32d7911c2cd150e8654897bc85ec026ab5f97bcddef1cb55fd206ca7f5c3
++  __AUTH_CONST.__cfstring: 0x420 sha256:303d40933fa9502189b6ad5ab09ec373a46977a44b00921bfc822932eeeeef7f
++  __AUTH_CONST.__objc_const: 0x520 sha256:839128456ab0a36c9f937a0f65758d036e5a9a124ba3ff087150622c648c93a3
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x38 sha256:dea93a908cc96a52179c3c78f394759cbcc0dc531fd8338a5767d282442651c9
+-  __DATA_DIRTY.__objc_data: 0x140 sha256:635a7a5d956147821080b556523af445fd463e6ca72d4089e95a2b71711c5505
++  __DATA_DIRTY.__objc_data: 0x140 sha256:171c34c71ff95538825b9ce20219841fce9dd6d8d078aa75f2b87dac10ace75d
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DA7CAE6F-EA7A-3846-9FE2-11DB56E0AF7F
++  UUID: F7FAE59C-82DF-38CF-9187-75B6A5E90AF6
+   Functions: 73
+   Symbols:   310
+   CStrings:  68
+Functions:
+~ -[DKDAAPParser .cxx_destruct] : sha256 5d364872e34b1661bca86100a8f4daeffccb268642ffe3778013c1cbcaef733d -> e582d6437ce8a3d1d8207064b92de08c2016ca4d6cd0e2e4af8261786aa30c6d
+~ -[DKDAAPParser initWithStream:] : sha256 98ef773405ec82bad200591c2943ab2e3c0e1f52dcc6bd7dab6ff15a22d20ba2 -> 9ec117af9a1da6c9b21cc85d45fa6cadfbc3b9366496befd4e623f694d517e6b
+~ -[DKDAAPParser initWithData:] : sha256 18e00bea112e8b76f1d83c042317fc40ef683796b90adf453c6a21d9f34b533a -> 2bc25ce11b5474721bf3f9c406eba585a0ab794fc3c3a681ad2adf87d8bdf7f9
+~ -[DKDAAPParser parse] : sha256 ad1d2cec6c036ea294b252a64e8dd4aee1d54a9f17184246f68bdff4089979a3 -> 0eacaec6122ef439a28b916a40278a7018a0229be6f8070b7aa65012711efd72
+~ -[DKDAAPParser cancel] : sha256 aa5ed45673fb11e1981106e4fb28c6a16c36c9c777d5d07852f85604631562bf -> cf90221f95c7278700b487c9cfd751003a22a36a08897c4ab3e79e30c22b7243
+~ -[DKDAAPParser _callDelegateDidStart] : sha256 1a73255a9921d4794023cba0ce49f54c8b123a5df6cd93dd5681b0b3f46b2cf0 -> 3acc034901b83547e965798ce165d80c8685d7162a585eea02c282e9cfbfb519
+~ -[DKDAAPParser _callDelegateDidFinish] : sha256 5ee8a0959001e779862c2f29170bb5a2dbdd197dc5cf711dcf9b91917bbc0467 -> 7fd4604866d54e3e753d995d0d4aca26336bd5f552b64dd431bffe651c484c62
+~ -[DKDAAPParser _callDelegateDidCancel] : sha256 bc62a299cf931457caed270380ba71f8e03005b24fa7998fc30ed19fed43419c -> 69a9bbc6c4d4139e478adbf4eb7d18ed5ef46d5593a447cd6b5530b12e47f816
+~ -[DKDAAPParser _callDelegateDidFailWithError:] : sha256 4b19f4e8202153a97dca4a499b4a69df13755098be01ca4bd0658e022552c7db -> 54d3ad128227070448c81135b58f2d3e7d7a2c7ec0c0c06122ee23e50d0c8088
+~ -[DKDAAPParser _callDelegateShouldParseCode:] : sha256 055e5fc9cc1353e7e858ebee7b36c1b691db4d7de16e4caf77ef1b83c348c4bb -> 9631c2a9219cd17b82322ad8e01716e58368a5bc3c8865ce10377f8eb5de5a37
+~ -[DKDAAPParser _callDelegateShouldParseCodeAsContainer:] : sha256 1bf166892b24089086b8ff82e3211fd36940df23df7c5513347638ab1ffb8aa4 -> fee05e78fe68b1c9d722e77f91f3d10bda7bd93bd6236650fa9f655a45acacc7
+~ -[DKDAAPParser _callDelegateDidStartContainerCode:contentLength:] : sha256 6f82825476bc9b9662097d23e4fd071c1406a46d46e99f703aad275260806d41 -> ade2780800d7edecfa4a77b93b6af04da345e0ccdaac04054b5eaa952bfd6a22
+~ -[DKDAAPParser _callDelegateDidParseDataCode:bytes:contentLength:] : sha256 3043fa4c07be65de2047de7ecbb339e445fc543a228d730575fa3cc8692b4a2d -> 23e207f3270cfac5569c5b946117c8906aee7dfbe205e52770b54087ccd6d8a6
+~ -[DKDAAPParser _callDelegateDidEndContainerCode:] : sha256 1987013cc1368d55968599fbbf9bcaef52c2de2b3ccf52f6e70d92343a1ae5d5 -> 21f6bad77c4086e52d198660e2cdd787f4385e0fed77eecb799547d58ed35d44
+~ -[DKDAAPParser _verifyExpectedEOF] : sha256 c528f7afbc36a7241cee96d9b461653893261746dcce00fa83e11d357fa86cea -> 20e28316d9059a550191b3da1476cba0b1cc1cdb24679efe76665e7112291192
+~ -[DKDAAPParser delegate] : sha256 4eef55c2b98e4aa9d34a506accaf81ed6269a46afdae1a567fb9e752feb166d7 -> 006f0a32d6ae121619fcc5e16cce31855e5d99324dfb5573b6862d3e4f111df6
+~ -[DKDAAPParser setDelegate:] : sha256 4a08d8555ad519dd61ce3863cc48e6147635f7ebeb65d9249307409d28ec367d -> c56a37ab5ef6673508ab46e9f7761c2060460301e63d6b8488e5b93587ddde91
+~ -[DKDAAPWriterContainer initWithCode:] : sha256 c26a510c3ea8519dfcd7ce70ad20d206b981f744bbadc4a82589cab0662e6491 -> 40c5f5c861b0b8aeaf656774cd04e4b65300b2e99c509e90f0c9ad07da86b564
+~ -[DKDAAPWriterContainer formattedOutputData] : sha256 471a095119a65cd6ca012103ee76d41bb6988b8d966265f1bbdb04fe7a9e6365 -> 243b776f8cd1d3dc4b92224866f27919adb9abc5d93369be78ffb23f4f9130c0
+~ -[DKDAAPWriterContainer setChildData:] : sha256 eeb7eb340fc4139007c90c17d2f715ea879603b2f1ec238cbd9081777a4a58c7 -> f60a0bc1ace6ded8ef8d87ffa450fbfe17b4eeee25d3b9d416aeae01847c8211
+~ -[DKDAAPWriterContainer .cxx_destruct] : sha256 e291d8d63b5aba5cca1122baf483cc81d22d3c04d64a6b7a972da964ee50950e -> 1d7eb86bb5ea2cf354367e3a2f76fc04e9f9ca6869e2a28e11cee79e0dc1a004
+~ -[DKDAAPWriter initWithStream:] : sha256 3f56f84fcf41ba38fc8d124c48d0c04fe0d95dd54745874b2533d54a0a37f1b5 -> 5d522f8de4615fec709d733424b603407ece7ac409c5a97bcf8c8e6f2d45fd4d
+~ -[DKDAAPWriter close] : sha256 32561263aeecc3ff4b2dd72672ba5802ddce8532bc96a309af13194eec9f5799 -> c37676e18463cc407878b220b80c98984fe337f4409537aa4c732510db8c26cd
+~ -[DKDAAPWriter startContainerWithCode:] : sha256 0276641d7d09eab5a51e614ec343ac04c23c1735aa02247ca703d39da866110c -> 502e1805bfc0e9e96ef54e737a8d6f4b5aa12c9a4a1dc249b326f3ed02e072a1
+~ -[DKDAAPWriter endContainerWithCode:] : sha256 a245157afef299c5522afe1305955825eafab6c718e8f79f34cfb151f5739cec -> 41913f03318814c699cacba15370bd7a67d51c6595c914ff7856c7402f9ac74f
+~ -[DKDAAPWriter writeData:withCode:] : sha256 ad5284f646d2d1e5fc6e851571fdd447583c6b7115d9b07f5870c76a154d9163 -> d1129fe0f83a6b7c77435f02c0de13f3c4e4a33e902d1075eec04ff43adbd246
+~ ___35-[DKDAAPWriter writeData:withCode:]_block_invoke : sha256 8d6b0aff2ddd5eb27fe8beff8610180dc73cb913386f459859a742e15bef3488 -> e86bda8f124be8107d29a8e2d63ccc6aa1b91ccbe6357bbb08dcff8b025c9eb1
+~ -[DKDAAPWriter writeUInt8:withCode:] : sha256 a0d8b2e2c4add7329c9d6e487ca0a2f0fd8c4cafb95e666b89b5cb0bd87496b4 -> ea16c25ea625024fc1ea3f263e94ea21636cb4c89aa6eca4ac6c2ef760953120
+~ ___36-[DKDAAPWriter writeUInt8:withCode:]_block_invoke : sha256 47c799a541a81f02240538460e59d0b6cf93e085f852e84ebc194dd96281fabf -> 41822585bbac5a3abb643439f404a726e9e218e73a2147d5fb9222909d315c62
+~ -[DKDAAPWriter writeSInt8:withCode:] : sha256 86b160c2894d91392456e254f0be398eb5561835ac5bb6ce408c870776e9f1e1 -> 22ceb91aa08b7a18531a70054aa7ad3080531b65c67c4f2d444cbd9ec2857aba
+~ ___36-[DKDAAPWriter writeSInt8:withCode:]_block_invoke : sha256 9507dc151fad5a59f2a2b82a1b31f802dded42644b371c4aa6bd9f2c7cd9b268 -> 14e8bd91515ff6ee0416e07f65595cd2ab3b348f3b1ead9e2cead0c6e2f844cb
+~ -[DKDAAPWriter writeUInt16:withCode:] : sha256 54991a3c39c74c96219096ec090a9a02b12e9d186d249e1cfc221fdfb45dc48e -> e9d3b266823e0d6bd4eafb6a8280c839f6fd106e8d0b35ff06e1809537b3347f
+~ ___37-[DKDAAPWriter writeUInt16:withCode:]_block_invoke : sha256 24e1e489c66a2b86a415831425e9828bc07c345ced7e419f1d310562e0cdcdcc -> 4a3894966441264a320d85aa9147772757b038caf9225d942f407c4eefa2f0a6
+~ -[DKDAAPWriter writeSInt16:withCode:] : sha256 f93b91e3025e84b57145a4d8be2643d5f2c9f299cf3e382afe8535b0d4a00992 -> 936a60473f03cbce52dac97d7c34a7327b203d9cfc01dfb08ff0d663524da2d3
+~ ___37-[DKDAAPWriter writeSInt16:withCode:]_block_invoke : sha256 6a7ef4d5f7f5ec0716000ae31fd720b50a9c85280203afeec8b0e272a6784d41 -> b2d80509f2d2fb891345b7bcbfb8fc17f5fb9871e448c235766581f1d3fe2f47
+~ -[DKDAAPWriter writeUInt32:withCode:] : sha256 5baf09f5108e42c1116291815cc34dc52c0608a4441751447dfac036fd68d267 -> e3b93f19b3ec216274bddf61387c0c2a5963c9335b21b988c8bcdbf332056d0f
+~ ___37-[DKDAAPWriter writeUInt32:withCode:]_block_invoke : sha256 9ef45e13e64c3cd386b577ac73a61badbe44558ae9fc232d802b9258694cd8ef -> 5f14032675d0a6cae8871817bf34ff0d4064fe16d42c9b4611ca85e8fb49768d
+~ -[DKDAAPWriter writeSInt32:withCode:] : sha256 d128090e28ae17d4a5a9ff9f252cf648802cad531387c51f7c289e2a791f93b7 -> 7d1421591089f3dd44a644a0d394824684d63b7263463d3b9d4bfcda34672efe
+~ ___37-[DKDAAPWriter writeSInt32:withCode:]_block_invoke : sha256 dd0edb5b49db7b8c0cd51db4a48d1d0d12ee844fe0bb33b93c2533c6c18937e0 -> d44e0c85d19c0cad0b28c473edf15ce7ba5366975b208bc020a81d5a9813a28e
+~ -[DKDAAPWriter writeUInt64:withCode:] : sha256 c86ef1af39bf41e92de1c058337998a829fde2e26230306d9eec55e0e65b81a3 -> ced623eb21fe9d2e9629ea5af72e8acc5ce952b675d9c2da8ba2cad7c95c3923
+~ ___37-[DKDAAPWriter writeUInt64:withCode:]_block_invoke : sha256 e75f6b7ac13fe4bef2053f34dfeb51e47ef0f0a589aa54a8821f8a247692fa95 -> 73b0ecce3a1870e4c051e6630d9679b9fec1514f9692aa5a6823175e7ae8af2d
+~ -[DKDAAPWriter writeSInt64:withCode:] : sha256 ff5f1c03460df89cf050ef58696184c45a66f76b903b310101dd7214eeb28e3a -> f7c406e21b5defff91800d6328ffd326ba972212d8f1e353cc0baddf01255526
+~ ___37-[DKDAAPWriter writeSInt64:withCode:]_block_invoke : sha256 c95220b280d79c6a75097150eac592e05372025bde1ca8d1ba4ceff15cd1f5ac -> 720c53286fbd38467ce7ea4b3111399350945b1647e611393344dc208d695a42
+~ -[DKDAAPWriter writeString:withCode:] : sha256 10bef6030a678835e3d6a4d0f537effe20746fcab151dcb00744898e9af2e20b -> fe368caad3cfc95e7c566e242d3a194092338e0021f778ba17ac641c3adf54da
+~ -[DKDAAPWriter writeCString:withCode:] : sha256 fbe63c399e518a03736ec8a065771fb68bb03c0ab25d045e6ba993ea7b23ec1c -> b7237af16dbd9c557f836bb3bce70514bb75aa3885445e132be1adf82833daef
+~ ___38-[DKDAAPWriter writeCString:withCode:]_block_invoke : sha256 fdb8f003956d5406b1bd78271f9dd532284c834e37534d49e5f4e5a849928e05 -> 43308b4ebde922099d3cd3b89b0497a7c15fc341503168f6e51306f950a475c5
+~ -[DKDAAPWriter writeBytes:ofLength:withCode:] : sha256 0bbf1e0ca74fb821556f09f01788a4f814547008edd785996fbfbf002974fe31 -> 81d54eaba7f2d7572a4bee2212fa231b23ee289d9878f20102385fbcf88cde29
+~ ___45-[DKDAAPWriter writeBytes:ofLength:withCode:]_block_invoke : sha256 b384708aafce8a21e1fdbab0cd751fbb81e3006307f1b947c896fcd80643f1da -> 00790015af808b76c1794f3031c514f4cba950747ca744c3f3b54fa95874bee1
+~ -[DKDAAPWriter writeContainerData:] : sha256 d941bdf69f09e1bb1dabf6d4eeb4587066e4ce6a3f0ff6066844cc1ebd450a10 -> 43c8bc822256e7ff9078ab4b224b885bebab34146dd76e6f72bc502f502a3d66
+~ ___35-[DKDAAPWriter writeContainerData:]_block_invoke : sha256 10b4f73e16b7511b6b8f9e0bdf02f6f45c2602e20650b5a5db7e9e7fffac20f4 -> 7e1d9ac25e7d84a96fa4ccb6d6eb88e2dcc2ba1493d19293b43c804568fd711b
+~ -[DKDAAPWriter _performWriteWithBuffer:] : sha256 90a9532c99d7bc02de0b0c94198684c3d1e41bcc98e293e1cd58f4878cde68f0 -> 7392316db8e5279957a603f57a8a849b1cdc7fa8ad309a634d0371cd8b65784e
+~ -[DKDAAPWriter _writeDataToOutputStream:] : sha256 3720ffb5fa5ed5319ccdbe787733036fdd5a1d0e1f03fed719b9687d46360cd8 -> 814ca7a97640c9912f377d06c8aec97d606c839da47ec639ea6b6a696b0bad5e
+~ -[DKDAAPWriter .cxx_destruct] : sha256 31da78193a624776127bcd99f16f567fe8ebb108f4159920dc11f841d627ff37 -> f919a0a03fcaed4c4c1ba7d136bc9b0f66789bd5233ee618a54e9d19c43f44a0
+~ _DKParseUtilitiesCopyStringFromBytes : sha256 3e26d921d45787071b8dba4ccef5e576ab3cc7ac8196da518ddbf4c6a122d70d -> 6782b93712db25bf950583efef8738aa79b009b745fdb45f275d3402cd3c760a
+~ _NSStringFromDAAPCode : sha256 95e38beb86dd813f1df3b6d2b992381a0f99650dab7d690c1827cc8ff6746361 -> be03c968698ee2e458eae1275343dff530b92ce44221ca7964484d734b35f740
+~ _NSStringFromDAAPValueType : sha256 393d71ae4b3c3defd7b1dc4f55f7e40061bcb359a3f8c46a27e180a7695d0580 -> e542cf7877199eb9d96c3e0bfc38ef71ae2c7a6312ade4e3b71021290090826b
+
+```

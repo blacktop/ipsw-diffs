@@ -1,0 +1,70 @@
+## Fluid
+
+> `/System/Library/PrivateFrameworks/Fluid.framework/Fluid`
+
+```diff
+
+ 66.0.0.0.0
+-  __TEXT.__text: 0x14ec sha256:fbc1b694c09f9dc7ad0dd7e2cefbf45ab95d3cb7483dcfed2a9a91779a63a12d
+-  __TEXT.__objc_methlist: 0x248 sha256:68c271046cbed1959faa31e67b216b9bedcfb647fba2326a6e0937ea9002b945
++  __TEXT.__text: 0x14d8 sha256:d41b7e1472059c555d1a4f8622351247821ab6dcc55a96bfce8611fd43fca20a
++  __TEXT.__objc_methlist: 0x248 sha256:f62550bb1f96cf98f081b820bec2e519bae3bb3a607e90c3ec6d066872410104
+   __TEXT.__const: 0xa8 sha256:2da87c445ddd086457720e5e22ae37d69e7957ad8f154b8a4532c9cc989d1625
+-  __TEXT.__unwind_info: 0x108 sha256:e109603abbe42968b3d7cba5a4b0b3eef74a9953f75bda9e881de987b85446ba
++  __TEXT.__unwind_info: 0x108 sha256:1ec4e42a1b24379f8dac177c794f83a59a20127c5de9aa6c7f215d3c606e9721
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:dd53c3142ae6d37e656a662f1446f057805ac049e869a22f8875ef25d6026438
++  __DATA_CONST.__objc_classlist: 0x8 sha256:6c0d43aeff9343f778a0526b96a0a98cdad8826f13a663ece16d834ca15e7869
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x178 sha256:f191ab9f467f5c5476df7001c2ea0bb14af4feae4abf221c6e68965758f1254e
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:387ae5b4696129377482c09fd5d00f0f743037fc77cacd18cf98e2a209c5f71f
+-  __AUTH_CONST.__objc_const: 0x3f0 sha256:f20ee5aba2c4f13a9a81b8573c4b32e65e4e9d0984adf740828e49ae2a8519aa
++  __DATA_CONST.__objc_selrefs: 0x178 sha256:e76d07a4b6c58fb604d18a420fbefaabfbc380829dd641bdd1d333a73650dea5
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:bd5f8c9e42594e805db405c97eba72935ea0625e18af113f46b230dd692e7ec1
++  __AUTH_CONST.__objc_const: 0x3f0 sha256:8c6a891bc9867d92ac2e50b2bfbfd3a2a729b244299e26e0fddbf81f32b2669b
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:d682433f7c5f5c15313b69f98ab0bef20502c5e51d6686dfbce3433f4ec087b2
++  __AUTH.__objc_data: 0x50 sha256:67e18e84a944182ecb60f9da1240c3e35ff479c7cfab92060503cb514807df6c
+   __DATA.__objc_ivar: 0x44 sha256:7a44f5c7fdbd884c9d92d33e7fc0b93a09fb552f665184b9c371c77cdbdc356f
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F1A90DD2-88DE-3801-8C92-5FA09A64D0EC
++  UUID: 11F0936F-964C-3700-83DB-5683EA80144C
+   Functions: 75
+   Symbols:   175
+   CStrings:  0
+Functions:
+~ _FLSimpleSpringMakeWithDampingRatioResponse : sha256 493da1a9ca3b2d9257b87ad5e08aa1193681f14744eba603687c50f2449b7fdd -> 2d65c900364195ab6f8a885951f71f18d96f25fadbaa6121d0ec5a40802f3099
+~ _FLSimpleSpringSetDampingRatioResponse : sha256 b1dd7b8dceabf9ca99a392a160b04baacb4a72e966b43f79a37716ae49f5df42 -> c34e549e56b8c39393bfd8c3b9ef54d3f5a2eac56c4b955258930c7a8bbb7c3b
+~ _FLSimpleSpringStep : sha256 03ce8c4d695f845ef940f60272c444c0cbb98327edc4e2b304755fb655980757 -> cdbb2cc37511405ae6ec222fc8c8ebcfea8ad3fe6eb529bbd7d7675674661fe0
+~ _FLDeceleratedRestPosition : sha256 8272fb0c3191d5eda1ec2652258ef82224a76714c8160d079036d31bedb70402 -> 31eb00b7046057703f35b9a86a9b6af83dbdc3a2e612c92c79fb0b61b74c07a9
+~ +[FLSpring springWithValue:] : sha256 c8e5a3509cc716d4fbd24459d8470503701faa40a207ce3ada977514001ab68f -> 23d927f0d68eb2b5060a8e37121c8f25488eea42b7123a0036040d160805a225
+~ -[FLSpring initWithValue:] : sha256 36e3423fd7f33dc02de5a09791e1c6b969b453aae7cb4c775fab2b0517449a7f -> 5b581b1456ff2ef325c1ad71699de8d1a2976940f97369f6191ab3a1ac08801e
+~ -[FLSpring init] : sha256 d8c11b2370785934d912c65f16a0ad233f886ba6e4f3c89c8dea9663869f8167 -> db33fedb37ecb74e165dd43ab00faa6b14d7c7a316e312e3d33ca07bbb3e7709
+~ -[FLSpring setTarget:] : sha256 8d949b9c2ab0eae448fc67606fef5ce241797d5ac648c6116c645fc4bae48d0a -> c54dfa32f9e9eeb9d45c4ab58ec4329616252a648cd4936599352cd82b41b443
+~ -[FLSpring offsetTo:] : sha256 02a10b0fdf25e39932f8c46dffee891e0b6aac5f22283816f1f9ef1fe269fa05 -> df51544d8acd481ae82e92dc91e996de1159659ca4206857aec4a5b673902ec7
+~ -[FLSpring isStable] : sha256 81685a8c54b5af71f83cb845288c0c4083f38f65f8afcf35a44b0ee82c9ff10a -> 6ac738ff7fe380005ebd1ff59de00eac2f67f0f00e9fcba9180e0de4d62c95e8
+~ -[FLSpring projectedTarget] : 56 -> 52
+~ -[FLSpring _projectedTargetForVelocity:] : sha256 1f9191f98bf586f1394059fc0acfa7ca9cba0d4ebccef74d0b921f6ad585a853 -> 2e1218927b473dee94058714a429e18b9538f86327f3dcb1887b9b5561cec8f0
+~ -[FLSpring resetImmediatelyToValue:] : sha256 fddb34c654bf0f935750d06bc0cd48ca6bec0fb23bc87019ffa05ed111e33e61 -> 81a9cf2a631835619210b936ec988e4d2c94da380e33a242f04b5392373772f9
+~ -[FLSpring resetToTarget] : sha256 b4581ed5b2a6c708396dd56a45c55479ae18640c13ff55c194b618a718132fc6 -> 06669200c3a60022fc96a869779a92372718210cc5840080ae44f371498b9f15
+~ -[FLSpring setParameters:] : sha256 b5fefb8168089a7c38bf55dc890f1327c4d0bcbc5ced7dd9b3f8aca584aa1576 -> a51f41e7ddc53abf3eea568ad165720b386b4d4fa9667840c87d05733f395eea
+~ -[FLSpring setTrackingParameters:] : sha256 ff1f31ae3cafa170c5f8ca2264e2aa6b8effffb8df7cbef095dbe7db286022e2 -> 380d963651ab7df1624c727ef7a2de3217af7889800de3263dc93f43faa794b4
+~ -[FLSpring setTracking:] : sha256 3e62218bd1c22c87f9202fc0c92cc9120f163c1ea472adc4aedbedbe53b86eee -> e6dcc70dd75dca87d798db2866a88c60c706a70986435d8319d0d0cae1babb69
+~ -[FLSpring step:] : sha256 d8abeff7a7ffc633d7ce8584a21618bf9a7b6f24c4e808bef1e5fe5212263d1d -> 8f1bd31b460f53000eab9e370fc0a3e9cb70641a6bdfa5c75f7122afb691e15b
+~ -[FLSpring _effectiveParameters] : 92 -> 76
+~ -[FLSpring _updateForEffectiveParameters] : sha256 43d8dece8c352ea23f5b1618c7a4ee8a7f764fa59bc253b358c93a8815e94323 -> 2348456aaa1865820a56de6ac95e651d0e5b183f2e38d4254b46d82e6ca59423
+~ _FLSpringConvertStiffnessDampingToDampingRatioResponse : sha256 07c02a366de902e3688a69b506628e59f091b1cd97fe08202daa509034a30444 -> f1d10da91257ca3e08ebbd2168fc0bc6b08174f172721264870cf347171ce9d0
+~ _FLSpringConvertMassStiffnessDampingToDampingRatioResponse : sha256 def69f197410676554c9229fcf6bdcaf7dd3f6081bb43ca3543dca05766df51f -> 607980331906976ff0ed700db4ef603f27b6293e36d60d9985437f323ebbfb0c
+~ _FLSpringConvertDampingRatioResponseToStiffnessDamping : sha256 4686bac2a01ddd81d1ff60af781f37050e41a738d320439abadab39b5a7bf4e0 -> 0279b5349d91d58b41a8e70ff3f8aeb79bd1e7dc820753808cb256970a72304f
+~ _FLSpringConvertMassStiffnessDampingToStiffnessDamping : sha256 9df02595c36d19881495bd7995680cbd2a4eea2fd0534eeb1bc1831afeb68fef -> 4f212953fefa9988eeeffc14b412cbd79e02434013f3a5deeb06c3e8d834c254
+~ _FLCompoundSpringMake : sha256 40b14e698bef134b5ab4b72d8e25ef479306f9bafcdfa99b0535dbd06305261a -> f25adf55581ae963212ff694a2466f83588bd2dfc3c68b51e130e463b4e3c86a
+~ _FLCompoundSpringStep : sha256 c91ad09070ff0ab94533e529ac7f318571f40a726512119cfc86bb9f55896d6f -> 7e91707af5ebc3236da7ebc704798bda4e3cabc8028d63867ef1a29ee82a3f6f
+~ _FLCompoundSpringIsStable : sha256 7ec2a6942ba0665ce35657f4af3e93cd8349522a6fc8f565884ae8f869f8c052 -> c49b4116db4f73cc0859bcc0353f262062d1b9229b2923d35ec2f2d48991247a
+
+```

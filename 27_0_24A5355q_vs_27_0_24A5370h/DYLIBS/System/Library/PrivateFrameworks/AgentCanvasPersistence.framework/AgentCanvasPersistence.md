@@ -1,0 +1,319 @@
+## AgentCanvasPersistence
+
+> `/System/Library/PrivateFrameworks/AgentCanvasPersistence.framework/AgentCanvasPersistence`
+
+```diff
+
+-60.105.0.0.0
+-  __TEXT.__text: 0x58250 sha256:a691118fcffd3ad4e99a6a8629e28322ad2b43d3aac565b619a09e0c64bff907
+-  __TEXT.__const: 0x5e00 sha256:ca03b12bd332a9fdfaf5f46e4ea14134c2247ddaf7f68291276de4321474b676
+-  __TEXT.__swift5_typeref: 0x149e sha256:99a78d22df77b93190c6b1d5e48d3285ece8c4bd262fcfeffa2061835c3f8372
+-  __TEXT.__swift5_fieldmd: 0xfac sha256:77d35de8a8fd4562bba2060433ec65c5f702f3132ddbfe6a922acb766deaf453
+-  __TEXT.__constg_swiftt: 0xf08 sha256:9c1743edc44c6b30759ff8b3f3ebec52a3f64e75c8657a31a4f7b48c7a7da34c
+-  __TEXT.__swift5_protos: 0x1c sha256:a663804e68a3b3a6bb971d2e77a405ae93cca9823fb4940e45a14a3c11a19784
+-  __TEXT.__swift5_proto: 0x550 sha256:1d91a021186959514c2e804ab926e0677498389b1b183e6aaaf5ef3658bcae53
+-  __TEXT.__swift_as_entry: 0xdc sha256:0ad727568ef4ede47b8c9fb9438ec19f1fa350f3a3c7c6f043f071ad26d08aa0
+-  __TEXT.__swift_as_ret: 0x110 sha256:e2257bf1b471ae3ecf92ebac111fb3d26647005aff1ebd26c5a14770edc35eff
+-  __TEXT.__swift_as_cont: 0x108 sha256:f7e15c5d6fcde0508d58566a98262e3f3ffbf137f1b7bd832179811cf6f5e7ae
+-  __TEXT.__cstring: 0xb45 sha256:40e79b3a9cdb56bfc7dd3c8205da15005b1ae1ba102174739bc64fdf4691bb84
+-  __TEXT.__swift5_reflstr: 0x992 sha256:3c873bd879613b505cb1efca129ccc138791de2901df490deaae5d5516adb3e4
+-  __TEXT.__swift5_assocty: 0x108 sha256:26835c4ba603ec92cb7673e0d50a86a87b005abacc13349bc9746b9ffd743212
+-  __TEXT.__swift5_types: 0x150 sha256:e4e0be0150fc808df61de44f05f622a762969572a5762853e1f77a06ad699e85
+-  __TEXT.__swift5_capture: 0xa9c sha256:eb02c65d97815cd9034de7317526eb3b1d95155f76507fc5a6fbe00b657d678a
+-  __TEXT.__swift5_builtin: 0x50 sha256:14226302d8158bdb27fc17c16ce98396c62b1e3771cf21573bef28518a4b0c40
+-  __TEXT.__swift5_mpenum: 0x20 sha256:698b0c26844d69e0b6bb8bce7fa6055b641651213e14683aba4867a8c801bdb8
+-  __TEXT.__oslogstring: 0x50b sha256:6432b8f0e2df35b39f500b95b9d7b55d57c5c187d9e76d42b9bd3b91b9ab67f9
+-  __TEXT.__unwind_info: 0x1c38 sha256:6db7e15865ada625e1b98137f866cd2442f20f3396b158b06d2f248663810617
+-  __TEXT.__eh_frame: 0x3250 sha256:4244172e177073444e6713f8f6e6b7c8b4cac62a19066c0fc0905cce39d5e22d
++67.4.100.0.0
++  __TEXT.__text: 0x636f8 sha256:2aa6391d88f4c18366ea14b6906f48f8ef5a281fceeccca9513afb3542004c1d
++  __TEXT.__objc_methlist: 0x26c sha256:2fafa70a963a9632cb25317a0aa87d6fb8e51b331266e6491a4d837ce7b51b21
++  __TEXT.__const: 0x6740 sha256:44b6da70ac8461fe0b76f906f7fd09fbfebaf4c7d682e0c82b0dc02261f4d0aa
++  __TEXT.__swift5_typeref: 0x167c sha256:a229d02818398971c8734791b54cd4f9f061a79e085924d88cc34b8919346963
++  __TEXT.__swift5_fieldmd: 0x1130 sha256:63b4a10783c8846c39a01aa8ff70d3d8bcae5a1785f10db74d18e711a485f8d7
++  __TEXT.__constg_swiftt: 0x106c sha256:3dbe1135e785505f8c056b79495a6e1a326e703d1733beaf96d3e4833dff8edf
++  __TEXT.__swift5_protos: 0x1c sha256:6130ac001cea6d68b359020b9e91c4c9565537f1c120c5ef0ad7979e89870f89
++  __TEXT.__swift5_proto: 0x5e8 sha256:f95ab6a27da8abc0311bf864dba732d165da149e5fe4758526d034eb99efe02c
++  __TEXT.__swift_as_entry: 0xdc sha256:8ff05f1d6a9b17f21605b5de2ff684e08124ed5b2739ddf918d5f5eca6dcea85
++  __TEXT.__swift_as_ret: 0x110 sha256:a0dbcb68f6b6d4465e60786eaa5957f7934d013d12b8ee0c818a7b96410f49cb
++  __TEXT.__swift_as_cont: 0x108 sha256:fe9cef6e13a1402998187c5071e95137260208c389cdc2360e70c78e4bebe8e0
++  __TEXT.__cstring: 0xce4 sha256:f75bc68aa1d86f14d2f2d2294070b427b5b2cf500296e78bb58d9487ead89457
++  __TEXT.__swift5_reflstr: 0xa89 sha256:b563ff86104697c2a3d45166408853a166b6b50b1e331ad730695b3ae12ee1b8
++  __TEXT.__swift5_assocty: 0x120 sha256:a8ad3ebc29073d2e431e6169ab08723f6cb0869a7875f9e18b803139a485d73b
++  __TEXT.__swift5_types: 0x178 sha256:71c2f180f03471f34a72af1adf32630083dc566a19ca11fad418e83f81651240
++  __TEXT.__swift5_capture: 0xa7c sha256:d6ab10b8456d507117d5b0c1a53f5da05b4cb470d3c7cae8451c0a905fe1a6ec
++  __TEXT.__swift5_builtin: 0x50 sha256:0fecebe17dc4116c1c10a0d310c7c1e26599f80d2637da9db48310e9f2d98462
++  __TEXT.__swift5_mpenum: 0x20 sha256:5aec26095312672c135ca3a0525970430452b1793c8752f2825c2da9be951350
++  __TEXT.__oslogstring: 0x6cb sha256:be9902eff3f99369bd0807562ba564d91313a65ab4944991ae3924c42e84c64f
++  __TEXT.__unwind_info: 0x1f20 sha256:816613ea8fa9c9382e23d14939ebb86841e0e490c9b4f9e7681a1b61902aacdb
++  __TEXT.__eh_frame: 0x3518 sha256:38c359c6a50563f84d3b1bcb2f6df2e1f0d9140ae9464073f4e737e9134b080a
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xe8 sha256:f066a43d37953e353cf4a8c4ec415d34e976b8596dc8139c19705af613a4a59c
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:c2198ee844950c5b90f403ec9fc5ee3dc7aacb27831f42b763d9442b059721be
++  __DATA_CONST.__const: 0xe8 sha256:9f567fcb15664b235cc55d887ce767eaad73da2d775dcde26a31e16825dc1788
++  __DATA_CONST.__objc_classlist: 0x10 sha256:16646d7a77917e78c7eb1d9282d286d4e38eec9f13068eb8ab90d0efd3aaaa98
++  __DATA_CONST.__objc_protolist: 0xa0 sha256:c02a24c6b06d54b8e569c18bd648358ae05530fd117df64cd25081f32082c9d7
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x58 sha256:470c91a002b9dd170febb3cdb4b7eb806e5902b69f6e08fca4cc7fa5e515a05a
++  __DATA_CONST.__objc_selrefs: 0x240 sha256:1615d9a0039587c32bef80b2168826aa8666b516c4a28e3ad021e2217b56a413
++  __DATA_CONST.__objc_protorefs: 0x50 sha256:153901c25b4273cc3af0464029c9aaf28c87883ff5eeea825f072328decc3c9c
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x3fb0 sha256:afc96a64bf16a3b23723866725fd0f0a2cf07ff59980099e3ac1296e70d505b2
+-  __AUTH_CONST.__objc_const: 0x308 sha256:c39ab736e686ea175c0e50e5b82ddb7bdd3a3e0388a7ab96ea420e9fbac89d6a
+-  __AUTH_CONST.__auth_got: 0xc98 sha256:fdb824b0031cfe73ab9bba7f8ab82cf0939f3509272fcc5c297835949b7a0351
+-  __AUTH.__objc_data: 0x50 sha256:7d1be1395e269f65d62d3680b723ab817d9b5c189d30efa61c18b2534ae6c115
+-  __AUTH.__data: 0xad8 sha256:3cb8b19323a5e17249b301fcf9cd0810ff6bad67258a23cdb62ea8a49a0f5f3b
+-  __DATA.__data: 0x1138 sha256:539357bffb87cdaf3ad9615452b9ccb910891ae32a247a3473a1791ab471ecc4
+-  __DATA.__bss: 0xa910 sha256:64ec84f9f2e4ec8b67e0a7b3b48e320d08f2f3303773a9bbc2a31efa7e01f69a
++  __AUTH_CONST.__const: 0x4388 sha256:8cc5e74e34a3f35a6e0be66d248e33907a714e73fce374709e1cadf0a38f8a26
++  __AUTH_CONST.__objc_const: 0x5f8 sha256:a0d42b50dfbbd0979248f1ffe2fddd60f9885071a12f872b758a3f60d77c95bd
++  __AUTH_CONST.__auth_got: 0xda8 sha256:b60813ee5c5b6a0e8870c2c87e0e7946bd2cceabfe6e1be0dd545bb46e4e657c
++  __AUTH.__objc_data: 0x50 sha256:0e73f7f513cd8e1e10750e79f274dcc8997110e4d39d57760a4576f5fcbfbc36
++  __AUTH.__data: 0xc10 sha256:16e1d7b2ffd173b8c07b783da6fb877894d8b8af73dbf0d876c9c045228598ba
++  __DATA.__data: 0x1740 sha256:86001a5c7bcc0f2b6086b141b4a88223c9790e03ea5c14cf52c7fef52d84aa7f
++  __DATA.__bss: 0xbc10 sha256:5d0f1bc75db603894e1f720341a1779a7ca54a3747f2257c29d3d00031417d9e
+   __DATA.__common: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+
+   - /System/Library/PrivateFrameworks/FlowToolsSnippetService.framework/FlowToolsSnippetService
+   - /System/Library/PrivateFrameworks/IntelligenceFlow.framework/IntelligenceFlow
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
++  - /System/Library/PrivateFrameworks/SnippetKit.framework/SnippetKit
+   - /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 25DE9D3E-B5D9-3F2B-89CF-4D69AE64AF69
+-  Functions: 2937
+-  Symbols:   2595
+-  CStrings:  112
++  UUID: 3290EAEE-6514-3FDA-B6EE-5A4AF6A69D15
++  Functions: 3215
++  Symbols:   2871
++  CStrings:  125
+ 
+Symbols:
++ _OBJC_CLASS_$_NSPropertyListSerialization
++ _OBJC_CLASS_$_SAAceView
++ _OBJC_CLASS_$_SAUIAssistantUtteranceView
++ _OBJC_CLASS_$_SAUIUpdateVisualResponseSnippet
++ _OUTLINED_FUNCTION_182
++ _OUTLINED_FUNCTION_183
++ _OUTLINED_FUNCTION_184
++ _OUTLINED_FUNCTION_185
++ _OUTLINED_FUNCTION_186
++ _OUTLINED_FUNCTION_187
++ _OUTLINED_FUNCTION_188
++ _OUTLINED_FUNCTION_189
++ _SAUIStreamStageCancelledValue
++ _SAUIStreamStageCompleteValue
++ _SAUIStreamStageFailedValue
++ _SAUIStreamStageStartValue
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
++ __OBJC_$_PROP_LIST_NSObject
++ __OBJC_$_PROP_LIST_SAAceCommand
++ __OBJC_$_PROP_LIST_SAAceReferable
++ __OBJC_$_PROP_LIST_SAClientBoundCommand
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AceObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSMutableCopying
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SAAceCommand
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SAAceReferable
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SAClientBoundCommand
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AceObject
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSMutableCopying
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SAAceCommand
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SAAceReferable
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SAClientBoundCommand
++ __OBJC_$_PROTOCOL_REFS_AceObject
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding
++ __OBJC_$_PROTOCOL_REFS_SAAceCommand
++ __OBJC_$_PROTOCOL_REFS_SAAceReferable
++ __OBJC_$_PROTOCOL_REFS_SAAceSerializable
++ __OBJC_$_PROTOCOL_REFS_SAClientBoundCommand
++ __OBJC_LABEL_PROTOCOL_$_AceObject
++ __OBJC_LABEL_PROTOCOL_$_NSCoding
++ __OBJC_LABEL_PROTOCOL_$_NSCopying
++ __OBJC_LABEL_PROTOCOL_$_NSMutableCopying
++ __OBJC_LABEL_PROTOCOL_$_NSObject
++ __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
++ __OBJC_LABEL_PROTOCOL_$_SAAceCommand
++ __OBJC_LABEL_PROTOCOL_$_SAAceReferable
++ __OBJC_LABEL_PROTOCOL_$_SAAceSerializable
++ __OBJC_LABEL_PROTOCOL_$_SAClientBoundCommand
++ __OBJC_PROTOCOL_$_AceObject
++ __OBJC_PROTOCOL_$_NSCoding
++ __OBJC_PROTOCOL_$_NSCopying
++ __OBJC_PROTOCOL_$_NSMutableCopying
++ __OBJC_PROTOCOL_$_NSObject
++ __OBJC_PROTOCOL_$_NSSecureCoding
++ __OBJC_PROTOCOL_$_SAAceCommand
++ __OBJC_PROTOCOL_$_SAAceReferable
++ __OBJC_PROTOCOL_$_SAAceSerializable
++ __OBJC_PROTOCOL_$_SAClientBoundCommand
++ ___swift__destructor.140
++ ___swift__destructor.160
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.108
++ ___swift_closure_destructor.113
++ ___swift_closure_destructor.119Tm
++ ___swift_closure_destructor.124
++ ___swift_closure_destructor.129
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.147
++ ___swift_closure_destructor.154
++ ___swift_closure_destructor.176
++ ___swift_closure_destructor.181
++ ___swift_closure_destructor.185
++ ___swift_closure_destructor.39Tm
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.50Tm
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.55Tm
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.99
++ _associated conformance 22AgentCanvasPersistence025PersistedContentTransformE0V10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22AgentCanvasPersistence025PersistedContentTransformE0V10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AgentCanvasPersistence16ContentTransformO10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLOSHAASQ
++ _associated conformance 22AgentCanvasPersistence16ContentTransformO10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22AgentCanvasPersistence16ContentTransformO10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AgentCanvasPersistence16ContentTransformO34HiddenBaselineDisclaimerCodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22AgentCanvasPersistence16ContentTransformO34HiddenBaselineDisclaimerCodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AgentCanvasPersistence16ContentTransformOSHAASQ
++ _associated conformance 22AgentCanvasPersistence20ReceiptDisplayFormatOSHAASQ
++ _associated conformance 22AgentCanvasPersistence21PersistedArtifactTypeO26ContentTransformCodingKeys33_C894EAB9D6A050A4E81D8FC0105CF44DLLOSHAASQ
++ _associated conformance 22AgentCanvasPersistence21PersistedArtifactTypeO26ContentTransformCodingKeys33_C894EAB9D6A050A4E81D8FC0105CF44DLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22AgentCanvasPersistence21PersistedArtifactTypeO26ContentTransformCodingKeys33_C894EAB9D6A050A4E81D8FC0105CF44DLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AgentCanvasPersistence21ReceiptCollapsePolicyOSHAASQ
++ _associated conformance 22AgentCanvasPersistence33PersistedContentTransformArtifactV10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLOSHAASQ
++ _associated conformance 22AgentCanvasPersistence33PersistedContentTransformArtifactV10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22AgentCanvasPersistence33PersistedContentTransformArtifactV10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AgentCanvasPersistence33PersistedContentTransformArtifactVAA0dG0AA0E0AaDP_SE
++ _associated conformance 22AgentCanvasPersistence33PersistedContentTransformArtifactVAA0dG0AA0E0AaDP_SQ
++ _associated conformance 22AgentCanvasPersistence33PersistedContentTransformArtifactVAA0dG0AA0E0AaDP_Se
++ _associated conformance 22AgentCanvasPersistence33PersistedContentTransformArtifactVSHAASQ
++ _flat unique So20SAClientBoundCommand_p
++ _objc_msgSend$aceId
++ _objc_msgSend$commands
++ _objc_msgSend$feedbackForm
++ _objc_msgSend$propertyListWithData:options:format:error:
++ _objc_msgSend$refId
++ _objc_msgSend$setCommands:
++ _objc_msgSend$setRefId:
++ _objc_msgSend$setSpeakableText:
++ _objc_msgSend$setStateData:
++ _objc_msgSend$setStreamEndReason:
++ _objc_msgSend$setStreamFailureMessage:
++ _objc_msgSend$setStreamId:
++ _objc_msgSend$setStreamReplacementMessage:
++ _objc_msgSend$setStreamStage:
++ _objc_msgSend$setText:
++ _objc_msgSend$setViews:
++ _objc_msgSend$speakableText
++ _objc_msgSend$stateData
++ _objc_msgSend$streamEndReason
++ _objc_msgSend$streamFailureMessage
++ _objc_msgSend$streamId
++ _objc_msgSend$streamReplacementMessage
++ _objc_msgSend$streamStage
++ _objc_msgSend$text
++ _objc_msgSend$viewId
++ _objc_msgSend$views
++ _objc_release_x9
++ _objc_retain_x23
++ _objc_retain_x24
++ _objc_retain_x25
++ _objc_retain_x26
++ _symbolic SDy_____ypG s11AnyHashableV
++ _symbolic SS3key______5valuet 7ToolKit10TypedValueO
++ _symbolic Say_____G 22AgentCanvasPersistence16ContentTransformO
++ _symbolic Say______pG So20SAClientBoundCommandP
++ _symbolic _____ 22AgentCanvasPersistence025PersistedContentTransformE0V
++ _symbolic _____ 22AgentCanvasPersistence025PersistedContentTransformE0V10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLO
++ _symbolic _____ 22AgentCanvasPersistence16ContentTransformO
++ _symbolic _____ 22AgentCanvasPersistence16ContentTransformO10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLO
++ _symbolic _____ 22AgentCanvasPersistence16ContentTransformO34HiddenBaselineDisclaimerCodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLO
++ _symbolic _____ 22AgentCanvasPersistence21PersistedArtifactTypeO26ContentTransformCodingKeys33_C894EAB9D6A050A4E81D8FC0105CF44DLLO
++ _symbolic _____ 22AgentCanvasPersistence21ReceiptCollapsePolicyO
++ _symbolic _____ 22AgentCanvasPersistence24ResponseDomainClassifierO
++ _symbolic _____ 22AgentCanvasPersistence33PersistedContentTransformArtifactV
++ _symbolic _____ 22AgentCanvasPersistence33PersistedContentTransformArtifactV10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLO
++ _symbolic _____Sg 10SnippetKit22UpdateMarkdownDocumentV
++ _symbolic _____Sg_ABt 10SnippetKit22UpdateMarkdownDocumentV
++ _symbolic ______p So20SAClientBoundCommandP
++ _symbolic _____ySS_____G s17_NativeDictionaryV 10Foundation4DataV
++ _symbolic _____ySS_____G s17_NativeDictionaryV 7ToolKit10TypedValueO
++ _symbolic _____ySsG s10ArraySliceV
++ _symbolic _____ySsG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AgentCanvasPersistence16ContentTransformO10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AgentCanvasPersistence16ContentTransformO34HiddenBaselineDisclaimerCodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AgentCanvasPersistence21PersistedArtifactTypeO26ContentTransformCodingKeys33_C894EAB9D6A050A4E81D8FC0105CF44DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AgentCanvasPersistence33PersistedContentTransformArtifactV10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AgentCanvasPersistence025PersistedContentTransformH0V10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AgentCanvasPersistence16ContentTransformO10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AgentCanvasPersistence16ContentTransformO34HiddenBaselineDisclaimerCodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AgentCanvasPersistence21PersistedArtifactTypeO26ContentTransformCodingKeys33_C894EAB9D6A050A4E81D8FC0105CF44DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AgentCanvasPersistence33PersistedContentTransformArtifactV10CodingKeys33_53AE6642E63CD7DFEDBC01DD708EB9A8LLO
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
+- ___swift__destructor.143
+- ___swift__destructor.163
+- ___swift_closure_destructor.102
+- ___swift_closure_destructor.107
+- ___swift_closure_destructor.111
+- ___swift_closure_destructor.122
+- ___swift_closure_destructor.122Tm
+- ___swift_closure_destructor.132
+- ___swift_closure_destructor.146
+- ___swift_closure_destructor.150
+- ___swift_closure_destructor.184
+- ___swift_closure_destructor.188
+- ___swift_closure_destructor.48
+- ___swift_closure_destructor.53Tm
+- ___swift_closure_destructor.58
+- ___swift_closure_destructor.58Tm
+- ___swift_closure_destructor.81
+- _get_enum_tag_for_layout_string 22AgentCanvasPersistence20ReceiptDisplayFormatO
+- _swift_release_x1
+- _swift_release_x10
+- _symbolic Iegh_
+- _symbolic SDySS_____G 22AgentCanvasPersistence25PersistedResponseCategoryO
+- _symbolic _____Sg 16IntelligenceFlow14ResponseOutputV
+- _symbolic _____ySS_____G s17_NativeDictionaryV 22AgentCanvasPersistence25PersistedResponseCategoryO
+- _type_layout_string 22AgentCanvasPersistence20ReceiptDisplayFormatO
+CStrings:
++ " refIds match=true"
++ "Failed to serialize merged UpdateMarkdownDocument: %{public}@; falling back to non-coalesced append"
++ "Stream %{public}s first chunk had non-Start stage %{public}s; promoting anchor to Start so the read-side can create a session"
++ "Stream %{public}s non-terminal chunk carries failure metadata (failureMsg=%{bool,public}d, replacementMsg=%{bool,public}d, endReason=%{bool,public}d); will be lost — producer invariant violation"
++ "com.apple.-geotoolbox-appintents"
++ "com.apple.nanomaps"
++ "com.apple.omnisearch.searchtoolextension.omnisearch"
++ "com.apple.weather"
++ "com.apple.weather.watchapp"
++ "contentTransform"
++ "hiddenBaselineDisclaimer"
++ "performSideEffects COLLAPSE: older="
++ "performSideEffects SKIP (neverCollapse domain): key="
++ "performSideEffects: Could not parse stateKey as UUID: "
++ "referencedEntityTypeQualifiers"
+- "Could not parse stateKey as UUID: "
+- "RECEIPT MATCH found — current:"
+
+```

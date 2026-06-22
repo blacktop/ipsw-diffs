@@ -1,0 +1,154 @@
+## SiriDeviceSelection
+
+> `/System/Library/PrivateFrameworks/SiriDeviceSelection.framework/SiriDeviceSelection`
+
+```diff
+
+-3600.43.3.1.1
+-  __TEXT.__text: 0x64d34 sha256:81e280cd5141dc059d3f5b418350698b1c98db752c5c138e7054e49d8a4a38df
+-  __TEXT.__objc_methlist: 0x6cc sha256:b899aa928d52aaec9f89b4e930813cb8766827c28166b1f6bda4f84409504177
+-  __TEXT.__const: 0x8c48 sha256:73610d3deab73ad277f08f026c4d740b2cf39899621809cbbcf434a2d823658f
+-  __TEXT.__swift5_typeref: 0x1b97 sha256:62678966894995e48d159a681049ea47536141b0691540af060f4a988ed5d04e
+-  __TEXT.__constg_swiftt: 0x1834 sha256:48b41c3dd40fe57d77bfe2c4b54363b86982911ab2d7079b78cf3a5dd740585e
+-  __TEXT.__swift5_reflstr: 0xe53 sha256:6ec314e4ea5d6ca223396e25e2f98ffb8af6243fae31de430e3e6b20d09bc7fd
+-  __TEXT.__swift5_fieldmd: 0x1b60 sha256:5459cb9c2db8e37498c420409cb645b8c5ff6a163c12b54577ec50ed52ef8406
+-  __TEXT.__swift5_builtin: 0x64 sha256:cb90f2fc4e17273a784e8c2e27f89340e72e54641111fd592e090d4b8a125134
+-  __TEXT.__swift5_assocty: 0x5d0 sha256:8c9d99094106cf4393a7eaa47a60e4e29cc768ec0142c624ef5741ce63c0ef26
++3600.49.5.1.1
++  __TEXT.__text: 0x687d4 sha256:190676e8cd76d073002d7d87ace8dc3370edeba4489422923473e5a91c83dca3
++  __TEXT.__objc_methlist: 0x6c4 sha256:353d8f887474058554f672b5ede5940ecbbe6bdafe5a722c65d6c5d24e0aaa89
++  __TEXT.__const: 0x8ddc sha256:a80de6c995410a3abeaae8ee155401e2124f09cd5b1205a03efb55b00ddc1085
++  __TEXT.__swift5_typeref: 0x1c12 sha256:e7c23b8e0e05a0352ed7908e321f3ce319944c956a9d4e7e002df349fd201fb7
++  __TEXT.__constg_swiftt: 0x1918 sha256:48f5474213887fa57f0e857e415551c0ef0de84cdfb0afc2b765d60edc7bf880
++  __TEXT.__swift5_reflstr: 0xf2a sha256:227c8e4c4bc9342abcc6285376fe2d7a225345459796b23fe761afb6c228fe7a
++  __TEXT.__swift5_fieldmd: 0x1c64 sha256:51c5c222b29d1d1bbffaf429b214107d436b81dd4d6713087a9816cf8baaafd1
++  __TEXT.__swift5_builtin: 0x64 sha256:badd4326a04423e1c15b3232d835687fc373b1c691c1b3d7eed12ea4d49dffe3
++  __TEXT.__swift5_assocty: 0x5d0 sha256:407cc4b455ca20e5cdef356fed67c6abbdc2989c9549f2f0f3f07a65413a5c19
+   __TEXT.__cstring: 0x1206 sha256:c239ec6e54688c975343ab2b209aec5ce9c614881f299df83fbddaef140e803b
+-  __TEXT.__swift5_proto: 0x7e0 sha256:979b5361eb71c1a0cddc3fd8409f6e70d7fb0c1d2ad70f863ac7826bd6fd23e7
+-  __TEXT.__swift5_types: 0x280 sha256:673b115279c4f6ab85ef4189db3958624ed368031b80d109099a7ca3d6a71ce7
+-  __TEXT.__oslogstring: 0x1693 sha256:03f28efbaba6da4dd4deba3d7ce726a7c9b6f4bf7988ce6cd14b109bad820719
+-  __TEXT.__swift5_capture: 0xc8c sha256:b486801f3249b2541ecae6723871d4f1df273a126feece578a3a97d9f02dc395
+-  __TEXT.__swift5_protos: 0x2c sha256:6576be13999b6bb60e70b0856bc8a17e8097cd23ab33b7c0e52e4189321b8377
+-  __TEXT.__swift_as_entry: 0x290 sha256:bd82802842b996eed3503be9556eed58f4089464cf07a485f580d3196ed579c1
+-  __TEXT.__swift_as_ret: 0x2e4 sha256:a6c83abbbee4c939864e72646a01cbfe19a11a9d84a340d8b90d27d68805043a
+-  __TEXT.__swift_as_cont: 0x468 sha256:6f2eb03bab2755ea2ec71fe1af23a176ee440b7301c363158022b56fd7825373
+-  __TEXT.__swift5_mpenum: 0x18 sha256:4a29ccb05b30eed56987dfc834e39e7beaece3c305f34f7a9db4947946ab8805
+-  __TEXT.__unwind_info: 0x2f50 sha256:61974ed553f1ebf22f5794fee7f5db9e2580115d6a024665c08955aa7403c562
+-  __TEXT.__eh_frame: 0x67d4 sha256:1fd96ae14ac597637347606ee0e678b04186fca8ce8cd5e24cf751f0fc185cc5
++  __TEXT.__swift5_proto: 0x7e0 sha256:fe3af4c8d1014bebb52fc8d061bddf6c6a1633f3642f8e5400176566bb377254
++  __TEXT.__swift5_types: 0x294 sha256:a51048233f3f5975acf4236128fcf219ca52b12ad99e8c9d6ac9ee2253752273
++  __TEXT.__oslogstring: 0x17f3 sha256:f3c29e234f539e09a436920100c6724faec5950f581420195f4b9e0411444f94
++  __TEXT.__swift5_capture: 0xc3c sha256:a650b22ca37b9d5aa4442a2f8d9df25d20fb83fc78a9e7785abb5ccc9d1ca71c
++  __TEXT.__swift5_protos: 0x2c sha256:2be2ecb87d4edab4e3ea59b1fac3285c037ddce8bf61e275b80d45f0ab81deb8
++  __TEXT.__swift_as_entry: 0x2ac sha256:4efb9a5b48140018de82ca681c518bb0c6372ffc56d0572e0482ec086454fa81
++  __TEXT.__swift_as_ret: 0x330 sha256:389f55e7e827bb69aceb4e727b6cba167c110478b6947cb22411d6204e105e9f
++  __TEXT.__swift_as_cont: 0x4e4 sha256:9e064a906d44f5a0278318b972482949511a89ed08a09ec40c18d4ab776c56e2
++  __TEXT.__swift5_mpenum: 0x18 sha256:a3abd2a69e973ca9593cb1b324822ac7c964b5198aa5e94f1e41de7b5aa82cde
++  __TEXT.__unwind_info: 0x30e8 sha256:983e8d6d0aa6e8225994bed1603218236daa7a46ae822ad54d48167e273044d4
++  __TEXT.__eh_frame: 0x6d2c sha256:6dce97e8a0be12490a4fad851861e47063829408d8882abb930fa176882900ba
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xe0 sha256:cdbbd4fa670cefbeb10c6bf28fd0d744a55b47f0a1f39efa54989478d88c6cbc
+-  __DATA_CONST.__objc_classlist: 0xb0 sha256:57b59f69718d8c5220eb153840aed41535dd192109aeebb288a2eab62077a133
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:3df7bdb2637d119a5583b14152d76cf8a1987ecaaedc4ecc942659860759d536
++  __DATA_CONST.__const: 0xe0 sha256:231841b996d5f7702a2feced66858272161e1eb11aa7470beff35b03641bd5f3
++  __DATA_CONST.__objc_classlist: 0xc0 sha256:d3e0f49ebe14e228969d2ad4167ed3e58dc1bf0fab04310385084c2235d7efa2
++  __DATA_CONST.__objc_protolist: 0x20 sha256:85ad4d5a22092dd26156b25519d0037e6631923f7359ee151e08cec3fda45225
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x340 sha256:b2c42d3b69b9e259704712a196143926874b6ed19252b045702ef9c6b95d822c
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:ec801d26bf3805a64820ab21f79655dd0f70d5e18094f11b80616eb5e031e0bb
+-  __DATA_CONST.__got: 0x488 sha256:009c9b1874f550a788ee06940b71728212d315a3a416056f01dc68cd8e1b4ea2
+-  __AUTH_CONST.__const: 0x6908 sha256:584a62f4996c0ec315f4df05be9fc3cdf23a878e18588623c777720913249a1c
+-  __AUTH_CONST.__objc_const: 0x13d8 sha256:91c7b3d16d44e0c7265508791c83b12248dff25fb37910259aeefa15402f5bf3
+-  __AUTH_CONST.__auth_got: 0xcc0 sha256:ab6753c1f6fb2e648cee6c8d8149d59e9806508fc14e15f9f01c924cd94b4d42
+-  __AUTH.__objc_data: 0x788 sha256:086a85c2676145e536aca9384a91f8afb391004614be7d5571ccd4324b5d7790
+-  __AUTH.__data: 0xb18 sha256:6c92bdc7d7524ca2663814027838c3b8816a547e1712cff4bcdb1b3c1376efe2
+-  __DATA.__data: 0x14a8 sha256:b369a77b194eddd84eb04fa986fe05748f19f8066ffc2e1ade63263b6b47e53f
++  __DATA_CONST.__objc_selrefs: 0x338 sha256:3c56d3e8ddfb0c3ca1ebc440c2b4a7cc9e2e857b7e8dd02fc3cc10b01a6e1da7
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:a190170bb823a388bd22056fca229fcee5606a63b7e308d8e953173a3020658c
++  __DATA_CONST.__got: 0x4c0 sha256:83f97951abc6fcca6f3ee30a3f3daebac5642c8be74c4cee852adbb9f9c19b83
++  __AUTH_CONST.__const: 0x6a10 sha256:c6f9352193799b2341db5213fb17bcc93c6ed672906b959edb920fe5f756bf7b
++  __AUTH_CONST.__objc_const: 0x1588 sha256:c602938234e07c5466d366d8267eb7d6042b7908b40766d793b6d44bf6bbd1f5
++  __AUTH_CONST.__auth_got: 0xcd0 sha256:8e889f17316d7ffd28237811a485633d0b64c7e417977186721a07afe1a5cce9
++  __AUTH.__objc_data: 0x780 sha256:26d7779883d16825c4ed5e479a076f16d66b3c371e67ca9c99d7226b3e1c657d
++  __AUTH.__data: 0xc68 sha256:d2df1f509ae6c6ce83a9ea60cb9907501dca691c75a43dace5177f56e8c6f9e0
++  __DATA.__data: 0x14e8 sha256:29aaabbca8ba3825dfbe9209db31cc3a4b5de8c74ab4c18721a73b2f29e21980
+   __DATA.__common: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+   __DATA.__bss: 0xec90 sha256:b432551aaf9f13708633e30204ea5e801dbd76a1ca18df2f6df931638932f7b7
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+
+   - /System/Library/PrivateFrameworks/SiriNetwork.framework/SiriNetwork
+   - /System/Library/PrivateFrameworks/SiriUtilities.framework/SiriUtilities
+   - /System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/SymptomDiagnosticReporter
++  - /System/Library/PrivateFrameworks/WirelessProximity.framework/WirelessProximity
+   - /System/Library/PrivateFrameworks/XPCDistributed.framework/XPCDistributed
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 15FFB858-1BD8-316A-9D6D-82C3CFBCF262
+-  Functions: 3771
+-  Symbols:   3115
+-  CStrings:  239
++  UUID: 5D79224F-A889-3D56-AAC2-34A91FC1516C
++  Functions: 3895
++  Symbols:   3198
++  CStrings:  244
+ 
+Symbols:
++ __DATA__TtCV19SiriDeviceSelection23ListenerElectionHandlerP33_E694092456C2A8A2F282398092A11A6212ServiceCache
++ __DATA__TtCV19SiriDeviceSelection26ListenerSuppressionHandlerP33_5264141691811E72E340264019AC94A412ServiceCache
++ __IVARS__TtCV19SiriDeviceSelection23ListenerElectionHandlerP33_E694092456C2A8A2F282398092A11A6212ServiceCache
++ __IVARS__TtCV19SiriDeviceSelection26ListenerSuppressionHandlerP33_5264141691811E72E340264019AC94A412ServiceCache
++ __METACLASS_DATA__TtCV19SiriDeviceSelection23ListenerElectionHandlerP33_E694092456C2A8A2F282398092A11A6212ServiceCache
++ __METACLASS_DATA__TtCV19SiriDeviceSelection26ListenerSuppressionHandlerP33_5264141691811E72E340264019AC94A412ServiceCache
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.82
++ ___swift_exist.box.addr_destructor.10Tm
++ _get_enum_tag_for_layout_string 19SiriDeviceSelection22LateSuppressionService_pSg
++ _get_type_metadata 15Synchronization5MutexVy19SiriDeviceSelection23ListenerElectionHandlerV16ResolvedServices33_E694092456C2A8A2F282398092A11A62LLVSgG noncopyable.2
++ _get_type_metadata 15Synchronization5MutexVy19SiriDeviceSelection26ListenerSuppressionHandlerV16ResolvedServices33_5264141691811E72E340264019AC94A4LLVSgG noncopyable.2
++ _symbolic SbyYbc
++ _symbolic _____ 19SiriDeviceSelection23ListenerElectionHandlerV12ServiceCache33_E694092456C2A8A2F282398092A11A62LLC
++ _symbolic _____ 19SiriDeviceSelection23ListenerElectionHandlerV16ResolvedServices33_E694092456C2A8A2F282398092A11A62LLV
++ _symbolic _____ 19SiriDeviceSelection26ListenerSuppressionHandlerV12ServiceCache33_5264141691811E72E340264019AC94A4LLC
++ _symbolic _____ 19SiriDeviceSelection26ListenerSuppressionHandlerV16ResolvedServices33_5264141691811E72E340264019AC94A4LLV
++ _symbolic _____ 19SiriDeviceSelection29DefaultLateSuppressionServiceC19FeatureFlagProviderV
++ _symbolic _____Sg 19SiriDeviceSelection23ListenerElectionHandlerV16ResolvedServices33_E694092456C2A8A2F282398092A11A62LLV
++ _symbolic _____Sg 19SiriDeviceSelection26ListenerSuppressionHandlerV16ResolvedServices33_5264141691811E72E340264019AC94A4LLV
++ _symbolic ______pSg 19SiriDeviceSelection22LateSuppressionServiceP
++ _symbolic ______pSg 19SiriDeviceSelection28EmergencyFlowServiceProtocolP
++ _symbolic _____yYbc 28DeviceSelectionEmergencyFlow6MyriadO0cD0C0C7SupportO
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 19SiriDeviceSelection23ListenerElectionHandlerV16ResolvedServices33_E694092456C2A8A2F282398092A11A62LLV
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 19SiriDeviceSelection26ListenerSuppressionHandlerV16ResolvedServices33_5264141691811E72E340264019AC94A4LLV
++ _type_layout_string 19SiriDeviceSelection23ListenerElectionHandlerV16ResolvedServices33_E694092456C2A8A2F282398092A11A62LLV
++ _type_layout_string 19SiriDeviceSelection26ListenerSuppressionHandlerV16ResolvedServices33_5264141691811E72E340264019AC94A4LLV
++ _type_layout_string 19SiriDeviceSelection29DefaultLateSuppressionServiceC19FeatureFlagProviderV
+- ___swift_closure_destructor.13
+- ___swift_closure_destructor.17
+- ___swift_closure_destructor.45
+- ___swift_closure_destructor.53
+- ___swift_closure_destructor.56
+- ___swift_closure_destructor.59
+- _symbolic _____ 19CoreDeviceSelection0bC0O14EvaluationModeO
+CStrings:
++ "Bluetooth broadcast payload cleared"
++ "Device does not support emergency flow — shutting down transports after winning suppression"
++ "Device supports emergency flow — keeping transports running after winning suppression"
++ "Lost election, device supports emergency flow — clearing broadcast payload."
++ "No messaging manager available"
++ "clearBroadcast: failed to resolve messaging manager: %@"
++ "shutdownTransports: failed to resolve messaging manager: %@"
++ "💤 Lost election, device does not support emergency flow — shutting down transports."
+- "Failed to retrieve late suppression service for cancellation: %@"
+- "Stopping WiFi and Bluetooth advertising for late suppression"
+- "💤 Exiting late suppression, lost election and not a responder device."
+
+```

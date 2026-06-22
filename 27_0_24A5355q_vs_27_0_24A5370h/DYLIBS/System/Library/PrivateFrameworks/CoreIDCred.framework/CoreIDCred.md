@@ -1,0 +1,163 @@
+## CoreIDCred
+
+> `/System/Library/PrivateFrameworks/CoreIDCred.framework/CoreIDCred`
+
+```diff
+
+-9.31.0.0.0
+-  __TEXT.__text: 0x3f750 sha256:b4b6cd6f48c4fa4ccbccbb0f0178e06079b02b289583b5c7d9e1f2135942dd02
+-  __TEXT.__objc_methlist: 0x20ac sha256:4ec89ae3bfbc3f130f8f43658f5603e0b0c25704102916d058fa515d23fcad04
+-  __TEXT.__const: 0x3680 sha256:d950a994348c68c0d5d8527ccc7d29114d95ff5b7718b939dd63960a6b6dda4d
++9.34.0.0.0
++  __TEXT.__text: 0x3ec00 sha256:423dde1986745f88cde1027602d12207e5292b2374c95e9ffdb8af6bd88fbc38
++  __TEXT.__objc_methlist: 0x204c sha256:fc1bdad250a9acf9fa9cafb8087a5492a2a5101b8b4389e725861aaa6bf25d0c
++  __TEXT.__const: 0x3680 sha256:816e0d783f5cd4b2416676724caa6c0061d13ce364b115117d9df59c94ec18b0
+   __TEXT.__cstring: 0x229b sha256:1c16e098b62dbaa939e43938fc98bd2bb714ffe1eb8dbf8f50d5617eac25982c
+-  __TEXT.__oslogstring: 0x2ccc sha256:79f608f54fbd0ed68371958cda9ff0461cca30d179e6088e38641b6c4693458b
++  __TEXT.__oslogstring: 0x2bbc sha256:128335c8d2fc5e598cda353f13657ce2dd63d75dd5cd9b84d1d90b8016821654
+   __TEXT.__gcc_except_tab: 0x14 sha256:0fb8d5b20bde807872e7b0580c0b633a33c10be65087175b70029f65638ad5c9
+-  __TEXT.__swift5_typeref: 0xcf3 sha256:1df23e696300ea95b4060e0a26d49ff48ffc8e6dc55a96dc397c4cfb7bf6fb98
+-  __TEXT.__constg_swiftt: 0x800 sha256:5885f77682ed5e8b02127608be9c98c1276c1f810839d7319e40c8cdfc809d6b
++  __TEXT.__swift5_typeref: 0xcf3 sha256:e800dc62f11bf74befe58d2003d01e1a6aecf9765b618895df525d13b5d9d476
++  __TEXT.__constg_swiftt: 0x800 sha256:9d4d027c554808c935dbce9df9dfeb9c85828a45a2c8c2e0273cb01edaa34aa2
+   __TEXT.__swift5_builtin: 0x1b8 sha256:884c9663b228f7cda108f07c7d2906fcb160853fce7e3e966ddd639a50561da7
+   __TEXT.__swift5_reflstr: 0x334 sha256:5595f41b9b33e2f92c927f4794d74eae61b8b7e2aa0c78cac857b653af38ae8f
+   __TEXT.__swift5_fieldmd: 0x668 sha256:b1dec691b60bdac8655de5ef40551abaee7ae5c0d21117b412c5de678b54f158
+   __TEXT.__swift5_assocty: 0x78 sha256:f536a6e98dafbcc55a6ba58e126621d36fd8578cd4e8c2dd80dae96ef265c9e6
+-  __TEXT.__swift5_proto: 0x2cc sha256:41eb1893519fa19461a793c5ce0615c3aae457924469ad2c0fe0f535ced9a60d
++  __TEXT.__swift5_proto: 0x2cc sha256:8e6e165abcddd805686ae9a9ec4caf8ff16375fd4cea52236d837d4f62fb2a60
+   __TEXT.__swift5_types: 0xe8 sha256:a60f695a36b0dd53192adb4381ad263e4c95e9af745eb5f2d6c90743870b4f16
+   __TEXT.__swift5_mpenum: 0x28 sha256:57adf60190347a8e1becc242e8f554df872871bf7559b0f633891b5b02447f6c
+   __TEXT.__swift5_capture: 0x2f4 sha256:b74cb103fd61f3c440029fb92150a50e52375c4d8c8a51573152ac7f696693b8
+-  __TEXT.__swift_as_entry: 0x6c sha256:cef66a1297e5e2242457e2f6fb9133b27f4e070ce7faae1b6c2e7158ddd1b987
+-  __TEXT.__swift_as_ret: 0x6c sha256:59c494de79fa5e47a65de48bad63dafed869aafb5470ce169a708f86c9f6e2f0
+-  __TEXT.__swift_as_cont: 0x12c sha256:fd0f7ca48858b1363c068a549c20947e9440cd7670ea29a69028a7ba8ad1c0e4
+-  __TEXT.__unwind_info: 0x1568 sha256:c3735ab92b1e28303410f30ca5c99576ddf8245e96311fef3e491124da40b904
+-  __TEXT.__eh_frame: 0x1528 sha256:c9f750a880d980628daed3e671e356599c83e7d4e3132e14d5d94b9d6570994c
++  __TEXT.__swift_as_entry: 0x6c sha256:9717f2e906fc79670f466674eab71ada6167083ca9b546a044fdcccd81b1af7a
++  __TEXT.__swift_as_ret: 0x6c sha256:098cddc35908c6ddf0ff9d60886dbdf31768538cdb47ae8f1ebee8aa8a944c3b
++  __TEXT.__swift_as_cont: 0x12c sha256:fa61c26a45b71d55b504a15a3769c83cc5c7f003cfc6fde10dbbd4b7c97fa823
++  __TEXT.__unwind_info: 0x1510 sha256:d3803a209d87a68fd09e3c9ec62becf8dae8a9d0c8c071f828feebf4525049ac
++  __TEXT.__eh_frame: 0x1528 sha256:b6b1fc2e0804d8db25b784739e69cc296b591b06390fa973ce0d781dfde60e03
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xa10 sha256:de4c91a53af29ef910db1154f0b430ad46a6034692ba80fc95f99bb1e4e0e979
+-  __DATA_CONST.__objc_classlist: 0xe0 sha256:b72a2d4d2a1599d613892dc130c9c94824b022b7a658eea4be41e80bcaa39230
+-  __DATA_CONST.__objc_protolist: 0x58 sha256:d56406dbd9d8e77d32925117ab00a4cbe4a323409a575d0ab5c9e97bf60b4dfc
++  __DATA_CONST.__const: 0x9e8 sha256:6982b5dba7dccb7dc392c23df8ecc150456f3a3487b136b6f1fee601b6b27c11
++  __DATA_CONST.__objc_classlist: 0xe0 sha256:48d71bcff355553a3769172ede6082cb5adbd2aec00e34cc2169ec03e6a1ecfb
++  __DATA_CONST.__objc_protolist: 0x58 sha256:c96ce5af0954bb4821dc6c765bb08fc7e478241196864752f52b40a19246f95e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xc88 sha256:64a3607725c78965ebecf9af2be0161f809336bdcd15064daffe32341dbfa0db
+-  __DATA_CONST.__objc_protorefs: 0x30 sha256:ba5dee22e3db1f617f8c3224f32c60f2c596160f465325ce9517785635955244
+-  __DATA_CONST.__objc_superrefs: 0xa0 sha256:8534eca04bd6dcf1f8ae449cb17c56df1886912b091f2f5f88ab30e986d60dcf
+-  __DATA_CONST.__got: 0x318 sha256:8d77b380846ee614e8eafcc15a70ba4337ebd222287e02b60249e6e87a27234d
+-  __AUTH_CONST.__const: 0x1b80 sha256:1b55a15553f7145913a6b84aa22b86b9f6ba6da98bbfae028d15ee07bc8a42b1
+-  __AUTH_CONST.__cfstring: 0x1560 sha256:e51106e0dfa60f380768c9a482164f45d6bf1ecd43cd44b574b8b129bd0d6e6c
+-  __AUTH_CONST.__objc_const: 0x3740 sha256:9e24cf857b56c9844e3d9535d9b7a988c001a5f394921ef5a8d38ecec7b42eb6
++  __DATA_CONST.__objc_selrefs: 0xc48 sha256:6aeddce05055aab8d3b64490918c4a2d6dc916a3025b3edae74cd6ee12c62b9a
++  __DATA_CONST.__objc_protorefs: 0x30 sha256:1efc5cd07e4bcb65bda587981f239af2a67f18bf5ea9207e3df4a044fe97b0b0
++  __DATA_CONST.__objc_superrefs: 0xa0 sha256:e7420d24a0e08904a2436945a85ffe6e4135b3bb05f1c41c581733cae6fc4bb8
++  __DATA_CONST.__got: 0x318 sha256:44daee361f1661e70b42bbb5cb921898453ebc521a8d009da71fc702489ed037
++  __AUTH_CONST.__const: 0x1b80 sha256:55f40ace5dc6e7c7ee2ceddd7cffdc8f37d12e49149f265fef73a7301c2f36b9
++  __AUTH_CONST.__cfstring: 0x1560 sha256:a11f4ac87fd4c963583da337253eb984c8a18e5092e5f318cfcb317c33e211fa
++  __AUTH_CONST.__objc_const: 0x3740 sha256:9644ac527f93852073cb275109df42923a18d967233747078d0508367e69972e
+   __AUTH_CONST.__auth_got: 0x7e0 sha256:d263c7c60b6f980623510b23a02228fd669b558f1957db7883b706b247133c92
+-  __AUTH.__objc_data: 0x3d0 sha256:dd4808bb509ce154f732c5f62650a6c6d783d97108975a352a32b3929565460b
+-  __AUTH.__data: 0xe8 sha256:42c86016ffc6db1369f62c77b994370502d0f7b0cc29e690ed2937630c2fe66d
++  __AUTH.__objc_data: 0x3d0 sha256:f87281f17fe85b3cefb50f0c419f9cf2d59ac7a67ce65a7c8f51d7ce0cba1bdd
++  __AUTH.__data: 0xe8 sha256:063c30d414ce42066daef12bc151b7957d1ac341c5bd334fceab3bf5d6957522
+   __DATA.__objc_ivar: 0x210 sha256:8cadaf4d58b283671743a7169a231d9077e5d70c6e7484dc1ad1dc5836d201a5
+-  __DATA.__data: 0xd40 sha256:4ff91b587eefb42aaa886f5eb9c33339c5fb51a5481ff3f5ba0f7d90bda3ce53
++  __DATA.__data: 0xd40 sha256:39e91c35ce9ed3cb3fab97264c392cb3a36d320f5d2ebc7c01362a73e998bda3
+   __DATA.__bss: 0x5990 sha256:0f15ee50d8844b52ae2aecd75b38d8ffb174803104cab7a8bd72dd8b19a918b3
+-  __DATA_DIRTY.__objc_data: 0x640 sha256:a2e83f07f27df150a722a578a9ec814dc9a77a1fc494c535cb5784861b10b0ea
+-  __DATA_DIRTY.__data: 0x118 sha256:e798bddeafb6fca5ee4b7979d73d620903a8acc91b2c3582167137842a0cff36
++  __DATA_DIRTY.__objc_data: 0x640 sha256:2f2efdc401f6cf1e75b10d6adbf776491f98f86856d0062583eb20a620f6deea
++  __DATA_DIRTY.__data: 0x118 sha256:7f5ee0ff102661fc627c2121bacde2bd6669dacf4e2b1f6442224124da352aa7
+   __DATA_DIRTY.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: A2CA69D9-CCF8-3D81-9024-9DD8BD847DAC
+-  Functions: 2135
+-  Symbols:   3278
+-  CStrings:  599
++  UUID: 4C4E2EDF-6735-3714-ADD2-BB5C6AABE238
++  Functions: 2111
++  Symbols:   3223
++  CStrings:  595
+ 
+Symbols:
++ ___106-[DCCredentialStore retrievePIIDataFromSyncableKeyStoreForIdentifier:keystoreType:piiDataType:completion:]_block_invoke.35
++ ___125-[DCCredentialStore deletePIIDataFromSyncableKeyStoreForIdentifier:keystoreType:piiDataType:credentialIdentifier:completion:]_block_invoke.36
++ ___127-[DCCredentialStore storePIIDataInSyncableKeyStoreForIdentifier:data:keystoreType:piiDataType:credentialIdentifier:completion:]_block_invoke.34
++ ___142-[DCCredentialStore updatePIIDataInSyncableKeyStoreForIdentifier:attributesToUpdate:keystoreType:piiDataType:credentialIdentifier:completion:]_block_invoke.37
++ ___64-[DCCredentialStore(DebugAPIs) eraseLegacySEKeySlot:completion:]_block_invoke.266
++ ___64-[DCCredentialStore(DebugAPIs) keyInfoForCredential:completion:]_block_invoke.268
++ ___64-[DCCredentialStore(DebugAPIs) payloadsOfCredential:completion:]_block_invoke.263
++ ___65-[DCCredentialStore isPIITokenAvailableForIdentifier:completion:]_block_invoke.38
++ ___71-[DCCredentialStore(DebugAPIs) occupiedLegacySEKeySlotsWithCompletion:]_block_invoke.265
++ ___76-[DCCredentialStore(DebugAPIs) allElementsOfCredential:authData:completion:]_block_invoke.264
++ ___81-[DCCredentialStore(DebugAPIs) clearPresentmentKeyUsageForCredential:completion:]_block_invoke.267
++ ___83-[DCCredentialStore retrieveAllItemsFromSyncableKeyStoreForItemService:completion:]_block_invoke.39
++ ___92-[DCCredentialStore deletePIIHashFromSyncableKeyStoreForIdentifier:keystoreType:completion:]_block_invoke.33
++ ___94-[DCCredentialStore retrievePIIHashFromSyncableKeyStoreForIdentifier:keystoreType:completion:]_block_invoke.32
++ ___94-[DCCredentialStore storePIIHashInSyncableKeyStoreForIdentifier:data:keystoreType:completion:]_block_invoke.31
+- -[DCCredentialStore deletePIITokenFromSyncableKeyStoreForIdentifier:credentialIdentifier:completion:]
+- -[DCCredentialStore deletePIITokenFromSyncableKeyStoreForIdentifier:credentialIdentifier:keystoreType:completion:]
+- -[DCCredentialStore retrievePIITokenFromSyncableKeyStoreForIdentifier:completion:]
+- -[DCCredentialStore retrievePIITokenFromSyncableKeyStoreForIdentifier:keystoreType:credentialIdentifier:completion:]
+- -[DCCredentialStore storePIITokenInSyncableKeyStoreForIdentifier:data:credentialIdentifier:completion:]
+- -[DCCredentialStore storePIITokenInSyncableKeyStoreForIdentifier:data:credentialIdentifier:keystoreType:completion:]
+- -[DCCredentialStore updatePIITokenInSyncableKeyStoreForIdentifier:attributesToUpdate:credentialIdentifier:completion:]
+- -[DCCredentialStore updatePIITokenInSyncableKeyStoreForIdentifier:attributesToUpdate:credentialIdentifier:keystoreType:completion:]
+- ___101-[DCCredentialStore deletePIITokenFromSyncableKeyStoreForIdentifier:credentialIdentifier:completion:]_block_invoke
+- ___101-[DCCredentialStore deletePIITokenFromSyncableKeyStoreForIdentifier:credentialIdentifier:completion:]_block_invoke.31
+- ___101-[DCCredentialStore deletePIITokenFromSyncableKeyStoreForIdentifier:credentialIdentifier:completion:]_block_invoke.cold.1
+- ___106-[DCCredentialStore retrievePIIDataFromSyncableKeyStoreForIdentifier:keystoreType:piiDataType:completion:]_block_invoke.41
+- ___114-[DCCredentialStore deletePIITokenFromSyncableKeyStoreForIdentifier:credentialIdentifier:keystoreType:completion:]_block_invoke
+- ___114-[DCCredentialStore deletePIITokenFromSyncableKeyStoreForIdentifier:credentialIdentifier:keystoreType:completion:]_block_invoke.35
+- ___114-[DCCredentialStore deletePIITokenFromSyncableKeyStoreForIdentifier:credentialIdentifier:keystoreType:completion:]_block_invoke.cold.1
+- ___116-[DCCredentialStore retrievePIITokenFromSyncableKeyStoreForIdentifier:keystoreType:credentialIdentifier:completion:]_block_invoke
+- ___116-[DCCredentialStore retrievePIITokenFromSyncableKeyStoreForIdentifier:keystoreType:credentialIdentifier:completion:]_block_invoke.34
+- ___116-[DCCredentialStore retrievePIITokenFromSyncableKeyStoreForIdentifier:keystoreType:credentialIdentifier:completion:]_block_invoke.cold.1
+- ___116-[DCCredentialStore storePIITokenInSyncableKeyStoreForIdentifier:data:credentialIdentifier:keystoreType:completion:]_block_invoke
+- ___116-[DCCredentialStore storePIITokenInSyncableKeyStoreForIdentifier:data:credentialIdentifier:keystoreType:completion:]_block_invoke.33
+- ___116-[DCCredentialStore storePIITokenInSyncableKeyStoreForIdentifier:data:credentialIdentifier:keystoreType:completion:]_block_invoke.cold.1
+- ___118-[DCCredentialStore updatePIITokenInSyncableKeyStoreForIdentifier:attributesToUpdate:credentialIdentifier:completion:]_block_invoke
+- ___118-[DCCredentialStore updatePIITokenInSyncableKeyStoreForIdentifier:attributesToUpdate:credentialIdentifier:completion:]_block_invoke.32
+- ___118-[DCCredentialStore updatePIITokenInSyncableKeyStoreForIdentifier:attributesToUpdate:credentialIdentifier:completion:]_block_invoke.cold.1
+- ___125-[DCCredentialStore deletePIIDataFromSyncableKeyStoreForIdentifier:keystoreType:piiDataType:credentialIdentifier:completion:]_block_invoke.42
+- ___127-[DCCredentialStore storePIIDataInSyncableKeyStoreForIdentifier:data:keystoreType:piiDataType:credentialIdentifier:completion:]_block_invoke.40
+- ___131-[DCCredentialStore updatePIITokenInSyncableKeyStoreForIdentifier:attributesToUpdate:credentialIdentifier:keystoreType:completion:]_block_invoke
+- ___131-[DCCredentialStore updatePIITokenInSyncableKeyStoreForIdentifier:attributesToUpdate:credentialIdentifier:keystoreType:completion:]_block_invoke.36
+- ___131-[DCCredentialStore updatePIITokenInSyncableKeyStoreForIdentifier:attributesToUpdate:credentialIdentifier:keystoreType:completion:]_block_invoke.cold.1
+- ___142-[DCCredentialStore updatePIIDataInSyncableKeyStoreForIdentifier:attributesToUpdate:keystoreType:piiDataType:credentialIdentifier:completion:]_block_invoke.43
+- ___64-[DCCredentialStore(DebugAPIs) eraseLegacySEKeySlot:completion:]_block_invoke.282
+- ___64-[DCCredentialStore(DebugAPIs) keyInfoForCredential:completion:]_block_invoke.284
+- ___64-[DCCredentialStore(DebugAPIs) payloadsOfCredential:completion:]_block_invoke.279
+- ___65-[DCCredentialStore isPIITokenAvailableForIdentifier:completion:]_block_invoke.44
+- ___71-[DCCredentialStore(DebugAPIs) occupiedLegacySEKeySlotsWithCompletion:]_block_invoke.281
+- ___76-[DCCredentialStore(DebugAPIs) allElementsOfCredential:authData:completion:]_block_invoke.280
+- ___81-[DCCredentialStore(DebugAPIs) clearPresentmentKeyUsageForCredential:completion:]_block_invoke.283
+- ___83-[DCCredentialStore retrieveAllItemsFromSyncableKeyStoreForItemService:completion:]_block_invoke.45
+- ___92-[DCCredentialStore deletePIIHashFromSyncableKeyStoreForIdentifier:keystoreType:completion:]_block_invoke.39
+- ___94-[DCCredentialStore retrievePIIHashFromSyncableKeyStoreForIdentifier:keystoreType:completion:]_block_invoke.38
+- ___94-[DCCredentialStore storePIIHashInSyncableKeyStoreForIdentifier:data:keystoreType:completion:]_block_invoke.37
+- ___block_descriptor_80_e8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- _objc_msgSend$retrievePIITokenFromSyncableKeyStoreForIdentifier:keystoreType:credentialIdentifier:completion:
+- _objc_msgSend$storePIITokenInSyncableKeyStoreForIdentifier:data:credentialIdentifier:keystoreType:completion:
+CStrings:
+- "DCCredentialStore deletePIITokenFromSyncableKeyStoreForIdentifier"
+- "DCCredentialStore retrievePIITokenFromSyncableKeyStoreForIdentifier"
+- "DCCredentialStore storePIITokenInSyncableKeyStoreForIdentifier"
+- "DCCredentialStore updatePIITokenInSyncableKeyStoreForIdentifier"
+
+```

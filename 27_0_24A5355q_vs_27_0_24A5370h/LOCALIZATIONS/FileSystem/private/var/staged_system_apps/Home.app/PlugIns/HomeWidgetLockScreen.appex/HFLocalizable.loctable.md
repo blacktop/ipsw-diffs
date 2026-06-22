@@ -1,0 +1,78 @@
+## HomeWidgetLockScreen
+
+> `FileSystem/private/var/staged_system_apps/Home.app/PlugIns/HomeWidgetLockScreen.appex/HFLocalizable.loctable`
+
+```diff
+
+ en.HFAccessoryDetailsIconPicker_Done = "Done"
+ en.HFAccessoryDetailsIconPicker_Title = "Choose Icon"
+ en.HFAccessoryDetailsMultipleRooms = "Multiple"
++en.HFAccessoryDetailsNotificationsTitle = "Notifications"
+ en.HFAccessoryDetailsRoomSuggestionSuffix = "(Suggestion)"
+ en.HFAccessoryDetailsRoomTitle = "Room"
+ en.HFAccessoryDetailsSceneTitle = "Scenes"
+
+ en.HFAccessoryDetailsSoftwareUpdate_Update = "UPDATE"
+ en.HFAccessoryDetailsSoftwareUpdate_Version = "Version %@"
+ en.HFAccessoryDetailsStatusAndNotificationsTitle = "Status and Notifications"
+-en.HFAccessoryDetailsStatusAndNotificationsTitleShort = "Notifications"
++en.HFAccessoryDetailsStatusTitle = "Status"
+ en.HFAccessoryDetailsSuggestedSceneTitle = "Suggested Scenes"
+ en.HFAccessoryDetails_AddHomeKeyToWallet = "Add Home Key to Wallet"
+ en.HFAccessoryDetails_AutoRelockTime_10_minutes = "After 10 minutes"
+
+ en.HFError_HFOperationAddTrigger_title = "Could not add automation"
+ en.HFError_HFOperationAddTrigger_withName_title = "Could not add automation “%@”"
+ en.HFError_HFOperationAddUser_HFErrorCodeInvalidUserID_description = "You can add people using an iCloud account email address with Home enabled."
+-en.HFError_HFOperationAddUser_HFErrorCodeSoftwareUpdateRequiredAdaptiveTemperature_description = "To invite this person, they'll need to have Home turned on in iCloud settings and iOS 26 or later running on their device."
++en.HFError_HFOperationAddUser_HFErrorCodeSoftwareUpdateRequiredAdaptiveTemperature_description = "To invite this person, they’ll need to have Home turned on in iCloud settings and iOS 26 or later running on their device."
+ en.HFError_HFOperationAddUser_HFErrorCodeSoftwareUpdateRequiredAdaptiveTemperature_withName_title = "Unable to invite %@"
+ en.HFError_HFOperationAddUser_HFErrorCodeSoftwareUpdateRequired_description = "You can add people using an iCloud account email address with Home enabled and running the latest software."
+ en.HFError_HFOperationAddUser_HMErrorCodeAlreadyExists_description = "%@ has already been invited."
+-en.HFError_HFOperationAddUser_HMErrorCodePrivateAccountUnqualifiedForHomeWithAdaptiveTemperatureAutomationsEnabled_description = "To invite this person, they'll need to have Home turned on in iCloud settings and iOS 26 or later running on their device."
++en.HFError_HFOperationAddUser_HMErrorCodePrivateAccountUnqualifiedForHomeWithAdaptiveTemperatureAutomationsEnabled_description = "To invite this person, they’ll need to have Home turned on in iCloud settings and iOS 26 or later running on their device."
+ en.HFError_HFOperationAddUser_HMErrorCodePrivateAccountUnqualifiedForHomeWithAdaptiveTemperatureAutomationsEnabled_withName_title = "Unable to invite %@"
+ en.HFError_HFOperationAddUser_HMErrorCodeUserIDNotEmailAddress_description = "Could not invite “%@” because the Apple Account is not registered with iCloud."
+ en.HFError_HFOperationAddUser_title = "Cannot Send Invitation"
+
+ en.HFStatusTitleDoor_Multiple.accessories.NSStringFormatValueTypeKey = "lu"
+ en.HFStatusTitleDoor_Multiple.accessories.other = "%lu Doors"
+ en.HFStatusTitleDoor_One = "Door"
++en.HFStatusTitleDoor_Short_MultipleForcedOpen.NSStringLocalizedFormatKey = "%#@accessories@"
++en.HFStatusTitleDoor_Short_MultipleForcedOpen.accessories.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++en.HFStatusTitleDoor_Short_MultipleForcedOpen.accessories.NSStringFormatValueTypeKey = "lu"
++en.HFStatusTitleDoor_Short_MultipleForcedOpen.accessories.other = "%lu Forced Open"
+ en.HFStatusTitleDoor_Short_MultipleOpen.NSStringLocalizedFormatKey = "%#@accessories@"
+ en.HFStatusTitleDoor_Short_MultipleOpen.accessories.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ en.HFStatusTitleDoor_Short_MultipleOpen.accessories.NSStringFormatValueTypeKey = "lu"
+
+ en.HFThermostatIndefinitely_Long = "Holding indefinitely"
+ en.HFThermostatPresetExtendedAwayFooter = "Adjust the temperature or thermostat mode when everyone has been away for 24 hours."
+ en.HFThermostatPresetHomeArrivalPrediction = "Predict Arrival"
+-en.HFThermostatPresetHomeArrivalPredictionFooter = "Home can learn daily routines to predict when you're likely to arrive and adjust the temperature for you. To predict your arrival, Home may also use your location and calendar events."
++en.HFThermostatPresetHomeArrivalPredictionFooter = "Home can learn daily routines to predict when you’re likely to arrive and adjust the temperature for you. To predict your arrival, Home may also use your location and calendar events."
+ en.HFThermostatPresetHomeFooter = "“%@” and other home members’ devices are used to determine when to adjust the temperature. You can change which device is used for your location in Find My settings."
+ en.HFThermostatPresetHomeFooterGeneric.NSStringDeviceSpecificRuleType.applevision = "This device and other home members’ devices are used to determine when to adjust the temperature. You can change which device is used for your location in Find My settings."
+ en.HFThermostatPresetHomeFooterGeneric.NSStringDeviceSpecificRuleType.ipad = "This iPad and other home members’ devices are used to determine when to adjust the temperature. You can change which device is used for your location in Find My settings."
+
+ en.HFThermostatPreset_KeepBetween_Footer = "The heat will turn on if the temperature drops below %1$@°. The air conditioning will turn on if the temperature rises above %2$@°."
+ en.HFThermostatPreset_Night = "Night"
+ en.HFThermostatPreset_Night_ContextString = "Night schedule is active"
+-en.HFThermostatPreset_Off_Away_Footer = "The thermostat will not turn on while you're away."
+-en.HFThermostatPreset_Off_Home_Footer = "The thermostat will not turn on while you're at home."
++en.HFThermostatPreset_Off_Away_Footer = "The thermostat will not turn on while you’re away."
++en.HFThermostatPreset_Off_Home_Footer = "The thermostat will not turn on while you’re at home."
+ en.HFThermostatPreset_Sleep = "Sleep"
+ en.HFThermostatPreset_UserDefined = "User Defined"
+ en.HFThermostatPreset_Vacation = "Vacation"
+
+ en.HomeDataError_NoResident = "No Home Hub"
+ en.HomeDataError_NoSelectedAccessories = "Choose Scene or Accessory"
+ en.HomeDataError_NoSupportedAccessories = "No Supported Accessories"
++en.HomeDataError_SignificantChangeApprovalRequired = "Approval Required"
++en.HomeDataError_SignificantChangeApprovalRequired_Secondary = "Approval is required to keep using Home."
+ en.Humidifier / Dehumidifier = "Humidifier / Dehumidifier"
+ en.Information = "Information"
+ en.Input Source = "Input Source"
+
+```

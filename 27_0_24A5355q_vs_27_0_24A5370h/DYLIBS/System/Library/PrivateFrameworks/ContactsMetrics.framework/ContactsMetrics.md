@@ -1,0 +1,103 @@
+## ContactsMetrics
+
+> `/System/Library/PrivateFrameworks/ContactsMetrics.framework/ContactsMetrics`
+
+```diff
+
+ 28.100.2.0.0
+-  __TEXT.__text: 0x10dc sha256:94554323e2ce71ced4939dcfdf96dc29423d46fc7c0e5994c70c2356aa00e9fb
+-  __TEXT.__objc_methlist: 0x3a4 sha256:d94acd094b19ee2de213b46ecc9c52af88c76754ea87f9e59802b121cc69eab4
++  __TEXT.__text: 0x10dc sha256:3a7e9e8ebfb820ae867272c9bb27ad858dad1e5b1a3e5160ccd9f1b1ea5e3421
++  __TEXT.__objc_methlist: 0x3a4 sha256:d495ed085c59c1bfa4c18d80246c7381ebf7260b87f23fb13db883317f35c333
+   __TEXT.__cstring: 0x9cb sha256:f4aa28dc48733a499af3410da685c0e9cd9aef71bde3419048e0638211779352
+   __TEXT.__const: 0x10 sha256:7a92b61fa17b44c256719e535af99cebb4a5b89933dc1320fe0f309e0fbc73aa
+   __TEXT.__gcc_except_tab: 0x34 sha256:6c4faa96669a900c9a6feccafdbb6d2795af27fb3069b62b415b2224748e52bc
+   __TEXT.__oslogstring: 0x20 sha256:ec6f304b94d128431eb23bc84508f8ba1d2705d0081998bcab5a9f4ec3f3c9fd
+-  __TEXT.__unwind_info: 0xf0 sha256:591c3edbfaea094d0445697fbef70f62fe52e70d7696afc91409093519a3607d
++  __TEXT.__unwind_info: 0xf0 sha256:e392378e5b0e883015b3c21922c84b2e80f40fed83db741cca71d8630c4c7dba
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x3d8 sha256:31bd4bb35dbf5632d27edddcb8f832f462d3e2511d6d4c234fbcb499347101f6
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:4b47f445ab35f1033fac98112ef26b0f7fe7c85a38a285a07d8c96cd3fae808b
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:d3f4b3c4e26a02639de6f10de9322b117e6270247eb61ce77b3eed4205ca5410
+-  __DATA_CONST.__objc_protolist: 0x28 sha256:9590fba201f2c3017b0942be33b7f40f4de1639282bebe3e7d99fe3df9f4a281
++  __DATA_CONST.__const: 0x3d8 sha256:e4fed4e5a4fd566899041cb06e82b3a92e3118528a5f2b17b9077df5c95dd7ad
++  __DATA_CONST.__objc_classlist: 0x28 sha256:2b7f0afaa906e78d11914d76dfcf9e934e9011586e2f7ac87cc9f06f6d163ff1
++  __DATA_CONST.__objc_catlist: 0x10 sha256:5b9974043b55dd766fde5d8d9d2938e6438ec0cbe075bebb12804114c771f3fe
++  __DATA_CONST.__objc_protolist: 0x28 sha256:f1bb660b80a7c26497fd669a5c4856f72572888ce00f82077fff5c9a89bc9159
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x228 sha256:30f89dca55ce66ee84687fc2a52fbded2dc38efba02462f88588c77030b64834
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:a4f2fba96688642084591f616e282fec256787014bf32d08b2a838c256e04fbc
+-  __DATA_CONST.__got: 0x70 sha256:f51769fa6be5f713ac8a881cbb9a6ea41ef1697db6520ad9508a340b46594ecc
+-  __AUTH_CONST.__const: 0x40 sha256:a190f808d75d3add60a8504c2691dc12dd15c1f7fc39c6c0d25bfe6e2fe5bf15
+-  __AUTH_CONST.__cfstring: 0xea0 sha256:fc78f4883009220c5e85d9bf2a6acd8acabf1cfc2dd5d5b9be4ce4d9c9247f65
+-  __AUTH_CONST.__objc_const: 0x710 sha256:5c2aef217f5c5439053cd6c184bd3442e1970efd7a3d27c17bb7e680fca94fdb
++  __DATA_CONST.__objc_selrefs: 0x228 sha256:36905dba7af9cf6a515daf4f55313071b4b0268862f54f5a8be245b854eebed3
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:73082db24c25c5adf56e111f057897f93db2516e665afa5a632d829b5d74e9c8
++  __DATA_CONST.__got: 0x70 sha256:c4c657b6f4dce3c076c13e6945d0f48c108690093aa847a214a711ca55eb5b99
++  __AUTH_CONST.__const: 0x40 sha256:5d863f2c9c5bfc07243a48893366eab067fced60b5e14cf1740f5a72be8d191b
++  __AUTH_CONST.__cfstring: 0xea0 sha256:872cdee50cd297db8eaecc2a458fb5ca9c85362935bbce7e95349b8d065be924
++  __AUTH_CONST.__objc_const: 0x710 sha256:ec09f64b6fdc909bc69a7222f60e67e56bc36efdae08b29240b8b372ccaafed5
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x10 sha256:05817e25c12c7c70cd17b2693e0931267fd0fb422cb947319c801027ee9f6318
+-  __DATA.__data: 0x1e0 sha256:cabffcc88afb72aa6d4fbc442f402544582851bbf4c5d876ce6da3e81aea6190
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:1b2d87287b3bb56401f8e6f2de376df536f5bfc3fdd6c0728c93610a8e93ab49
++  __DATA.__data: 0x1e0 sha256:bb6233d4f12c647390a6bfe86e9f86f252dc8dbb9ef098a7dffab11aaaca02ea
++  __DATA_DIRTY.__objc_data: 0x190 sha256:f69f14571084b9f9ad8df22615d2b665f7aa720d8068fee09488c86e24f3cd9e
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2DC6B232-E464-3263-99A4-D30C959E4A17
++  UUID: 74A89539-66CA-3372-9117-529ECC5484D0
+   Functions: 43
+   Symbols:   366
+   CStrings:  238
+Functions:
+~ -[CNMetricsUIReporter eventKeyPrefix] : sha256 acb9ae367c9ac51efa168f105e5086c87a0d27461ff2f8bdf6b3ed348843195b -> 1dd7b25fb839f499f6877dc4d98caecdb6cbcf6d978eb0c2e2b4a4c05593484f
+~ -[CNMetricsUIReporter logContactShownforApplication:] : sha256 910c866ae583fba933db67ad5c59be537555d1933655364817a63bd7fe6de1f3 -> 896578f117eda4b64edef50688c565d5a4a526a5ed8f3630415489571d1288e0
+~ -[CNMetricsUIReporter logSearchUsageforApplication:] : sha256 2bde8e2e58f0f5880ba34cb4f32b653034a66ff839e67d2d4fdf042370eb9352 -> 1dcaa6c3ea885f31cee3c5cadc491fa673cd61c2f442ff0525c1e395e8f4ccd4
+~ -[CNMetricsUIReporter logSearchActionWithDictionary:] : sha256 bc264a4a93901f785b0c3fbf6a851836ba8b1a25df4035d9df5330018e1cc726 -> 21f5edd4a1711f18abf873f2d82cd705a430482fa506680a49287ebffd1f9224
+~ -[CNMetricsUIReporter logSearchResultsFetchedforApplication:fromSuggestions:] : sha256 95fc9b142791712991455b9e1d28c6a1d91e71b9044f9c766e7c458e035cead5 -> ca76ee1ac26615aacb66d62e23fffe400442ac0fc8a122e9da52cd7aced973bf
+~ -[CNMetricsUIReporter logSearchResultsSelectedforApplication:fromSuggestions:] : sha256 b859a56f2e2c87882312391a9c0bda41b41c9e0319dcf15f0b4fb10626db3b97 -> 2d7352acb26b06f26766a8a91ae82167985b335338c4bd0a17332825f9ccb2c6
+~ -[CNMetricsUIReporter logActionDictionary:] : sha256 f07e3caf1f5e4c8b2a1c34651c0fed549394da6cd7171a5f360d1ffe20b0dc94 -> 0b4c8b1ec172f9c36a0e2900ed4a4d07ef727d5510c688fb7528edd9c28fe6a3
+~ -[CNMetricsUIReporter emptyDictionaryForAction:andApplication:] : sha256 0c09ad675944c15b15799f801bc25ee220fd5e1ae8d2af0b08d878962ca638bd -> 99747360710e2d2a706a9bb6866c90036c83e8bf90feffa2559799397d9b13f5
+~ -[CNMetricsUIReporter logUnknownContactGeminiViewDifferentChannelSelected:] : sha256 a468aa631250ee53f01e273b1942a6168088fb6297f53ac82d928de56e1d36b2 -> c75ae5451df6edc8270e2275f3cf4895ce213dde83cb4dd9eea0a2ff9b5fc849
+~ -[CNEnvironment(ContactsMetrics) metricsReporter] : sha256 fe4aafb82d112daadf5ceaa4d68fdbfa317f1098a01704283b407aee496b623f -> b7a88c2ff70bace52804e1f18b0ddeea603657e7dca54f0a2e1673fa1724862c
+~ ___49-[CNEnvironment(ContactsMetrics) metricsReporter]_block_invoke : sha256 276b614fe365be13713b6a7984470944ebbb929d58992aa8b4db9f532c282e10 -> 6a55c2d979644eb98b6afa14777e2444e09b16e023bdf94f12d9394eba6532c0
+~ -[CNEnvironmentTestDouble(ContactsMetrics) setMetricsReporter:] : sha256 7348171f56b953cb3c676a79add3d7d961e243cd5ad605a34fe9feef7bf1e118 -> 36bf5b2bb3209bd91e141d84cb21748d37d576e59eed4742e9e27431aeda9356
+~ +[CNMetricsReporter log] : sha256 cf439a9d424c3af1f0d4174d9b499f922e79d3365073f04813b766aace83683b -> 1246d3c2bd9f72d46736a8079e047d8fb1e82c34ae333e83c41ed25ec0ee144e
+~ ___24+[CNMetricsReporter log]_block_invoke : sha256 d73427d88f34cb0d37ed2b06f71e9956f68c7e3f3f6f013640420dad94cd9fa6 -> 6dca270a65799670defc2979f186f08b8ed0560209ef7ae8a26e1c2af3a1e42a
+~ +[CNMetricsReporter sendDictionary:forEvent:] : sha256 4f6cfae012cb4c41d9c0c8465ccb049274de14ecae02ff95f05dc44594a92ad3 -> 1a1a1211c7b81659ef02277d59d74f1793a9349aad6f1f39147cc354c467f131
+~ +[CNMetricsReporter sendDictionary:forEvent:andLog:] : sha256 86938792857b0f23f60a8c60b7be45196c37ceee6f248372a222a013e418cbd1 -> 267a3dd48b56b87891c680cd91da6f3855a810ea028095b6d68e2b9a4c060953
+~ -[CNMetricsReporter sendDictionary:forEvent:andLog:] : sha256 917bfae3dbdc11db4d364feb1254d98570ec81c5364ff53b8859e275d31aa3dc -> 568669c0dc67bf97cfc1d0490d460bcef7289c666f904ff7f519174e627c8b0d
+~ ___52-[CNMetricsReporter sendDictionary:forEvent:andLog:]_block_invoke : sha256 a0f966ebd5f564c648c45cd837f34a8f8fe486fd832cf3a030479d900ede1d79 -> 1d5327f11a295eb2edcfd2b18471181ee6d08cdbfb594d2a08f35f3ded166d0a
+~ -[CNMetricsReporter logSimpleEvent:forApplication:andLog:] : sha256 5eac9649283cfd6b6de619bf7a62d287a933604c0cfea6d5fa281d6c4a123b89 -> faa7bf7e80143e483d6851a2d3495003cafb6e005ad625ec5b96a6daee3c233f
+~ -[CNMetricsReporter eventKeyPrefix] : sha256 b096303ef96c2633682fde6ae765ae2c7d30d4ec93b4ffdb65fcd01606df709b -> 20977279ee86c5de621aa8f6077c5c34b4c8b1b9a48d9cae23e9869b78177f7a
+~ -[CNMetricsReporter compoundKeyForEvent:] : sha256 278579db73c66c971fffdc0ae4877c92f78737c98e0c4051264e4bbba435e96a -> d28221a51d49ca83236ebcd9cf236e52e547b71477fc35cea3a81359b0a98e72
+~ +[CNMetricsReporter logDatabaseResolution:] : sha256 4b274d7fcd2afe890fe0b7cd390915b59994299a3317a3c4fd4e3cbf1e4714a3 -> 2bd03b4dd4a5e898c3f5a781b5f073fb4db95548d71d4e91ea13069161f1df7a
+~ -[CNMetricsReporterSpiedEntry initWithDictionary:event:logged:] : sha256 b8949f53a57a29bbf3c31e80f63aa9c431a3cc96862b82b929e687d21dfc400c -> 5008eeddb3a5fe88bbbef90dd1880b718229ca2710b035480f684d432c4f1123
+~ -[CNMetricsReporterSpiedEntry description] : sha256 cc9f1177ba05433f7f3859730bd4b072d04ee92bf0d5f7a7abc300ac62c0e6da -> ca5b98959a58707cf04f49cc4a61c0d4140b9360fdcf3ffffbf3c9c1ce80d118
+~ -[CNMetricsReporterSpiedEntry isEqual:] : sha256 cea97e5fb49a8b4f8d4a3e7b096760b98008d75e2d7d925519e2ed6dfdfcbf42 -> e9df9af2cb5ffc2e5d89422d2f9efa3531bae6db145ed459ec9ede2ec9d1fd48
+~ -[CNMetricsReporterSpiedEntry hash] : sha256 b9796c2415781ddbd9221b3695d91c20a28f427675af5f3c27fba6c52581dc21 -> 4a9dfe8eccad652f8bbc5d522535b548fae1463e51b97f7ea6ab88a7492ba261
+~ -[CNMetricsReporterSpiedEntry copyWithZone:] : sha256 20208fb5c100d4d7058fa8256c7b0b5e0f105c9991294d638e7bfae7a10f5bef -> ff850583619ae0884b3baf25dee484d9df6d70965885df6219610b001b8cb7a3
+~ -[CNMetricsReporterSpiedEntry initWithCoder:] : sha256 fb7fcca5f2a426932acfe2266cf34528bca2c51d48d772daebfe9a31e0f68d89 -> fb1326b7b64f0e5ddb30b53d70cd6b78302439d864c8d5fd1d9871d0bcb52ae0
+~ -[CNMetricsReporterSpiedEntry encodeWithCoder:] : sha256 aeaa5afd81dc12d7a6b20e3ad676e7c7e86ed389ef4b98e02e2f71183892bba9 -> 55ac075b60a59a449aa6e0c54abf41efbf4c98f7c93a31e96560ccb13ccc93e9
+~ -[CNMetricsReporterSpiedEntry dictionary] : sha256 f1fec3ba367b96c875203f6a5c680bc62ec46453f424db21c3f9eb6512068b31 -> c1ae1576ed176bb0580e0b17609b506abdac21efa3a42cf77fa61f289df5b214
+~ -[CNMetricsReporterSpiedEntry event] : sha256 048089473a4ddb2f023594dade7c5dca5605e896ac8fa970231c22e4f259899a -> 19df0c1b85c4e8b6ae36371b8e1aabb42897f25030b1245675333c5fa8808528
+~ -[CNMetricsReporterSpiedEntry .cxx_destruct] : sha256 c5516c609813fc65157a6221a23794ac7bbcebe92c9a4e02a66a53289c0fabb3 -> cdabc34e91ef3e302fe85d7fa9de108b7401f056c37c6ae6fd67308ec815a539
+~ -[CNMetricsReporterSpy init] : sha256 2608af0cb373743e62124dc3b82a2d04326ee91fdebaec3edb31dd69f87efbd7 -> c25e47545f871fb20c4c297c07b6aecf4270e20298ff7f1eec4e89efe8763144
+~ -[CNMetricsReporterSpy events] : sha256 7e91af82cd70edfa13c0d25268760e61a2714e3df5da41197275925d18cec8ca -> ba289cd121d61592805be43774a608f0e7b05ffaede8592de38365983b0520e7
+~ -[CNMetricsReporterSpy clearEvents] : sha256 1273cc9c2dd217a0e3063dc8668a02942cbcc7aa46a7eacad800b3116692d993 -> 56ab3ad096016f1f0f316e304b2ca24ee7942052a6135a63020c41f58f124761
+~ -[CNMetricsReporterSpy sendDictionary:forEvent:andLog:] : sha256 1a09d354705d688821ee73ca29c8c89645a0b81cb093baf9c29e89cc70316b17 -> e07ec7bcbaa687a6520840f306ccafcf263786d0885127c400b6f85e2bdc9b05
+~ -[CNMetricsReporterSpy logSimpleEvent:forApplication:andLog:] : sha256 aa97cc46a9d841ee53c358e5896cc15a4b684a78077746e1fe9613b5f6fe376f -> b605b06ef3613d3750e3e8475652d4b86072d99987812042c7a81fb73f2dccc4
+~ -[CNMetricsReporterSpy .cxx_destruct] : sha256 9101d796f2b7533c0f43aae5daa34fad0e7dde707354c2edcafd392906db5b80 -> 7263cb01afa5eb517c82bf4b3faa44a4ab2d39e2c588ce989203a5daacb232ea
+~ +[CNMetricsReporter log].cold.1 : sha256 a4d43a8f93ff12b10da8207e0e210c11250f5534d568afe034f4e13094e1420f -> a92b56eea70dd5461a15216c2b6829be3f6b7f5d8d4dbbcb2efc6a53eae7768b
+
+```

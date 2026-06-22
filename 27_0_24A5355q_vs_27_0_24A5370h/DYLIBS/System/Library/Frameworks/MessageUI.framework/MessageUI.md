@@ -1,0 +1,333 @@
+## MessageUI
+
+> `/System/Library/Frameworks/MessageUI.framework/MessageUI`
+
+```diff
+
+-3891.100.17.2.4
+-  __TEXT.__text: 0x14db98 sha256:8f6382902a874143ec6347d987bfafc1ab9bfb403b4b13b40437ac7fb10063f7
+-  __TEXT.__delay_helper: 0x114 sha256:a2216cc439efa693d10269345c9ed27488a30a1deb059e9f40def1cb2c19de03
+-  __TEXT.__objc_methlist: 0x129c4 sha256:4aa2779bed912f11efb010cdcc09db0596a332cb8db3c3913e63f1ac36168640
+-  __TEXT.__gcc_except_tab: 0x2505c sha256:9796ac51b78924917ec3a3be3f83320e997435d4740369b5ef9183e2b70fbc6d
+-  __TEXT.__const: 0x1e04 sha256:91b153c584f9d0a3c7d49d9352b51d82813e0427d9826a149c0dc6f22d877a84
+-  __TEXT.__cstring: 0xa20b sha256:4a5fe54d00027623299c84cc110a651381e7f24cd7d773931a4cdf0ead75eaea
+-  __TEXT.__oslogstring: 0x5d6e sha256:a210a983df91b4becfa3f27d8e811a5efd99d8107f71029c433c7e56496439aa
++3893.100.7.0.0
++  __TEXT.__text: 0x14f1ac sha256:e804d906983c8c4ed115de614f3853fa2c6da2ed334658aeb18f940db2fe1f6f
++  __TEXT.__delay_helper: 0x114 sha256:d5592b6abe5821f0ca69c9098dd4215a0ec5d3754643b4347e22481c1aa34d08
++  __TEXT.__objc_methlist: 0x129dc sha256:040b981ae49fce5f0e0387f7408a5561f84521c88a0e24cde5d29992576520ae
++  __TEXT.__cstring: 0xa21b sha256:80ec4d6376df2898b8dfbf7e42df214889eaad8fe22514d36a2e6c402c82603f
++  __TEXT.__gcc_except_tab: 0x25090 sha256:dc2a1b475ba53561d2a63d7c4ce5eef4b8ab5303bc7fdf80257147d9498dec48
++  __TEXT.__const: 0x1ff4 sha256:d2eb93f45b1529c5f068362d6266755db9804a6827623eac6b8c28bbe54dbc51
+   __TEXT.__ustring: 0x4dc sha256:edcae273247d1df0d9c21b1f9277dee6783ce94d3f1ad7e086de82ab60b447c1
++  __TEXT.__oslogstring: 0x5d6e sha256:8fa78b7cf6e522b6d8486b5afa8c0d5e2bc3f49ad1b082a226325ca5058ec692
+   __TEXT.__dlopen_cstrs: 0x4bf sha256:6c8fd7848202db358120dcfe9521b0a28e177fab675ada771927f9901e2d3ca5
+-  __TEXT.__swift5_typeref: 0x1812 sha256:c0fbc36461e32affe9194fe7310607e0d783f4342aa9e093c924439ce27f8d13
+-  __TEXT.__swift5_reflstr: 0x588 sha256:df9e950db4f7924e40af9f853e41c6b12239dd744e8d9f5aa8f5cdbb694c93f4
+-  __TEXT.__swift5_assocty: 0x150 sha256:a75cae7695a3eadb3d9a56cec7de638914efa804a22d70a28985ae2fd0cf8eee
+-  __TEXT.__constg_swiftt: 0x70c sha256:caf76ae208f17b72b8d69e95b844ea1112c24e3aae79a969b133fd253fe02d09
+-  __TEXT.__swift5_fieldmd: 0x4dc sha256:a990e482c12a7047eb8045e6a80ca905e7933e8c00999d87801d4af8d0538c4b
+-  __TEXT.__swift5_proto: 0x98 sha256:d84efa17fcf900220d98f647127aae66aa660f256b6ab3e954039b9cd539dba9
+-  __TEXT.__swift5_types: 0x80 sha256:c1ccf5232696f6007aa4d0c11c4d4fc8cce86f565eb498775d6e6665df0fe533
+-  __TEXT.__swift5_capture: 0x3f8 sha256:324be3c7192e37526a659eab0d4254e90f7d49f26367308e2f332994af4bc95f
+-  __TEXT.__swift5_builtin: 0x8c sha256:0c4ed6ae064b7f2ccd095d50b63c54fef2413eb6e972875ef55493d82711717e
+-  __TEXT.__swift_as_entry: 0x28 sha256:702b57caf6886a1c6f2fe19992c837be33abd3ed832a38857dc3874f1a01563d
+-  __TEXT.__swift_as_ret: 0x2c sha256:b57ac5db2751abc017ca7cd553c0dab59e5e942854486e857f23f6025b0bc904
+-  __TEXT.__swift_as_cont: 0x50 sha256:7e2513eb89dd824426eafcf30d9ec8cf27a0240a988fcbf36216d1022e8f2d14
+-  __TEXT.__unwind_info: 0xa570 sha256:b56f448c4e28867958ccbcb1ed464da96b4e4fb5a932ad826f9ae96ab9aa40e2
+-  __TEXT.__eh_frame: 0x63c sha256:cecd191d3a9f9777411d552978e13bbd02ad376cd49542ea710ba5846054a7e2
++  __TEXT.__swift5_typeref: 0x1894 sha256:e69219b97c507886cdff77997ed1f51cb21858c5bc5b1470a22b3ea5dc5d5690
++  __TEXT.__swift5_reflstr: 0x5a8 sha256:9b56213b278f04020ae8ff9cbbf10bf3e6d851e3af9b2e8f96ee4cb6af8eeab4
++  __TEXT.__swift5_assocty: 0x1b0 sha256:ee6c909acb2042b1ca0943f052e9aa019bca36c53d33737ed24b07d7ae653943
++  __TEXT.__constg_swiftt: 0x738 sha256:fa3a30d9740030150e56d833ad188eb4ea16aec29dd1dec4584dcf0f7a083a94
++  __TEXT.__swift5_fieldmd: 0x4f8 sha256:88d25e82ba144bf0ba6529d93cae386c1b7f4425520dbe3a516a8264c32b908a
++  __TEXT.__swift5_proto: 0xac sha256:bd4dc058eb9c5b9fe59f3d612cf775189137f6545a2e261a0519a69ec77d4ab6
++  __TEXT.__swift5_types: 0x84 sha256:010276035fc7666e3894ab0bd33ab1df1c53115aa9bb0fbda179ca81e0567cb4
++  __TEXT.__swift5_capture: 0x3f8 sha256:03548eb41c470c0080970432e5e925965889a8443b87b59dd5aa4fc709cf3e9b
++  __TEXT.__swift5_builtin: 0xa0 sha256:4f79d65206414ce781749fe8bb4a37a7c0cbf0b33bebc81d78d53d7929bb9231
++  __TEXT.__swift_as_entry: 0x28 sha256:51ad0128fbbbdb5a7dbdaa50ffe0a91b8d20780185ba3894320516dd4faba2bc
++  __TEXT.__swift_as_ret: 0x2c sha256:d59dffab531273e0f8d4375a5e240c5f25eca01c2844dc437cb5572ec9ac197a
++  __TEXT.__swift_as_cont: 0x50 sha256:ffa95de3dd99332877ff72cca9c8bc9cc109cad2158622fd141f056bd8f5fe03
++  __TEXT.__unwind_info: 0xa598 sha256:dfeee16a966c78cb4e44fbfdfecf9841f6a4a2f17b3a4c3e18af0ec9b740fbaa
++  __TEXT.__eh_frame: 0x664 sha256:a13a21d2fbaa0600c16763b4a9760b24410bbdb207412f5f4c2b0e267964d29b
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x4948 sha256:634615edb8dac3ee72419a6f8e588bd090b01c97237c75ff646e1de2a85c3613
+-  __DATA_CONST.__objc_classlist: 0x628 sha256:a7bfa7429b6ffbf66a06477d4108f42668ca605f009236e99744655efd92bc03
+-  __DATA_CONST.__objc_catlist: 0x108 sha256:6f825d5c656c2b9c4210f501b6fed263bee983c3d557f334925c97b8169fb32f
+-  __DATA_CONST.__objc_protolist: 0x418 sha256:ccdf237fcd22ed7305ce7e4af9c1abe6dbb214a5f4c650aecd2d1edd026e509e
++  __DATA_CONST.__const: 0x4950 sha256:ec688b71ba44ce2d52ab920b82ad05714a005fd35e5ab69be303c129164cebb4
++  __DATA_CONST.__objc_classlist: 0x628 sha256:53e9ce295d164b3614dbefd40f61418809f19e4e787381f0320541b0426e2d09
++  __DATA_CONST.__objc_catlist: 0x108 sha256:4ca64f4292985f7838ec1137da701fd6a7dfad7ed7af7e365fcaf8dea241df43
++  __DATA_CONST.__objc_protolist: 0x418 sha256:e8dff70c217df71972a039866a4b0b15d01886a8ace8816c95f6f32d4b9a519a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xc1b8 sha256:68416dd713780be2e8f28d6e05a15e1f9b3726bca9b43269ab299607704b6354
+-  __DATA_CONST.__objc_protorefs: 0x68 sha256:5947e08aa83078302c2d15f476c6e6e2de5af180fd3d27b1637a1e04e1b99b6f
+-  __DATA_CONST.__objc_superrefs: 0x4b0 sha256:88bffbd5ed5771833847ad1583748b54947b09b87b28d7b28d4e18bfc01b3e47
+-  __DATA_CONST.__objc_arraydata: 0x628 sha256:a391a1cf1bef9c6e0c112287d2a0a1b46978e45837c16e335e14b08a56a0ede1
+-  __DATA_CONST.__got: 0x1e78 sha256:9892186f8b3586ebd80dcfc95f5443b730f679dc4ff12d9675387753236d35dc
+-  __AUTH_CONST.__const: 0x1c68 sha256:b3267a865891ee957ae31d51d9cac7d1a08b6a5b40df487fe5b6d92d8c0f77e2
+-  __AUTH_CONST.__cfstring: 0x8e40 sha256:ecc7ad60037d469e1a3ca8ded6988f27cca816bf15e3d23b76f722a4bce294db
+-  __AUTH_CONST.__objc_const: 0x1a700 sha256:887d89ecb8ff4f7a343d822d5afa333b05f0ca1593e6edf4a1d605cea8e88eaf
+-  __AUTH_CONST.__objc_floatobj: 0x20 sha256:32ec44d7b09f95d6e1215745935eb8a6264dc480f865e606aa7eb378829e69ec
+-  __AUTH_CONST.__objc_intobj: 0x1b0 sha256:f768e794ecb30f6bec3f26e8185d9372a0362fc22eeee844399dd25c45accc4c
+-  __AUTH_CONST.__objc_arrayobj: 0x78 sha256:0f0142cc6b4a524ca38bb288820e3a08d1233656fc493872cc319d718b206ad9
+-  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:4aa988b66e9e5c41c2d028ada01a8dd5a01f601c71c80f6d6edc93abb2cf3396
+-  __AUTH_CONST.__objc_dictobj: 0x578 sha256:8ea22742c4d9d61abbb85c38f6248f98c19648ad73d7306b925d89941776bff6
+-  __AUTH_CONST.__auth_got: 0x1880 sha256:27e252c16d2f3c861b57f34cb9d769a3e4ff93a1adf73af6970fda1294d88d0f
+-  __AUTH.__objc_data: 0x34e8 sha256:fca1a3a4fee22e7eddff2a516485ca111537baa5a2209c80a57f906d0451a99f
+-  __AUTH.__data: 0x358 sha256:64a4678a9b29d770171a941cdd02b62356b4bd6b32c095cb0c6aeabb5bb9397c
+-  __DATA.__objc_ivar: 0x113c sha256:cbaee7f5828b37f71d1275d56335f21346a395a8584e34708fee5690652b0dfc
+-  __DATA.__data: 0x37a8 sha256:6942b5f8201745212b9e723b7258dac9b6a9ed536bcfac9eddd715ade524429f
+-  __DATA.__bss: 0x1ae8 sha256:9d895b9319c10cd66269be4f4e7b71e92ffbdd6c140b663d98ba46e9c22f942f
++  __DATA_CONST.__objc_selrefs: 0xc1c8 sha256:d3fec226db14473e5e9fa7b35f10eca447e058463fead5a9c2c582c243151b97
++  __DATA_CONST.__objc_protorefs: 0x68 sha256:3fd0660d78199a3e5edcd613a0c8dacad1b5b8d55ef1ca0772fa91dcf0d13b9b
++  __DATA_CONST.__objc_superrefs: 0x4b0 sha256:fce915db35a518e755d3a069b9bb75f84c0635fa11e760227518f8db41c499f3
++  __DATA_CONST.__objc_arraydata: 0x628 sha256:22bda4624570aa43db413b00edd259cabccac0bf1b63b9f5f67bb98a23bb84aa
++  __DATA_CONST.__got: 0x1ed0 sha256:c1aa63cd3bd743e907c100aeaebf12c982245a69833ad875f58860b1650499d2
++  __AUTH_CONST.__const: 0x1c90 sha256:db9ae1b43a7be5aa5f262dad0ce3f43c4fd2d2c6fcf12de936731e9d5421bb9b
++  __AUTH_CONST.__cfstring: 0x8e60 sha256:dc147016d71a1bd5d144e9ad251d738b6a0f52c227421769faa260f117735124
++  __AUTH_CONST.__objc_const: 0x1a730 sha256:966f52bffca2ceb7dd085fea21c9ba7acef130ac8ba29cf32f9cc3e044f3b4f6
++  __AUTH_CONST.__objc_floatobj: 0x20 sha256:c9cfc0f88e019cde240e1dfbb52c11bdec534682d546a1bf5b679c37bc996038
++  __AUTH_CONST.__objc_intobj: 0x1b0 sha256:f561376415fc6a614864742951f39da0ff2aeab00ee4f13b6a18d2ae742ae69c
++  __AUTH_CONST.__objc_arrayobj: 0x78 sha256:e605147dc0413b21dbb094abab2f4ffed6f5838eaffec1ecdc7fec88453985ed
++  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:6c1edbca1199337726d365e0d5587009032d4cc2db7ee0fbacd894ed1abbffe6
++  __AUTH_CONST.__objc_dictobj: 0x578 sha256:3945918b03344ae6474e64194366678bf5d6c3471b8ae6135127304b324027b8
++  __AUTH_CONST.__auth_got: 0x1968 sha256:e993f06202975939f0a8a2d7ff4e934c56cc192beb375617d1188fe696b7b09c
++  __AUTH.__objc_data: 0x34e8 sha256:dfac7a772458b98fc818752650c0cff66ea7f8ff562d8dc354b70adcf6fbd7d9
++  __AUTH.__data: 0x358 sha256:8359417eb7ab05fc6eaf977294a5a3cd561e6970290f513e2a758e024ea1fa80
++  __DATA.__objc_ivar: 0x113c sha256:af5a2194915f2c1243668c99c2451545b93c31240589d6132136c6e320765ad5
++  __DATA.__data: 0x3818 sha256:9d6e2cacc3c0ffedfb9161cb32617f93dee9c1c3dc8b4a69101e98e9319e0d91
++  __DATA.__bss: 0x1d68 sha256:f4bc4940e5528afbcaf1b7dcb9064a53e2b87738aadaa03ef242fd547caf5296
+   __DATA.__common: 0x2f8 sha256:4f30fcacbfd63bac8e76d8a4e97e451d48353631dfa7064250df934b872232f5
+-  __DATA_DIRTY.__objc_data: 0xc30 sha256:15d6ba4abe384443974ea3320985f87426ada794633f2dd624d4a28aefddf3aa
++  __DATA_DIRTY.__objc_data: 0xc30 sha256:d7a4cfbc95e591f9f436d17ddb93ac2f32dfaa3c0aed7a2afafe3e9e1f1a76e6
+   __DATA_DIRTY.__data: 0x8 sha256:12a3ae445661ce5dee78d0650d33362dec29c4f82af05e7e57fb595bbbacf0ca
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2EB2662B-51D9-3250-B46F-EDC0D41AF1D9
+-  Functions: 6811
+-  Symbols:   24715
+-  CStrings:  3186
++  UUID: 7C01BE01-78BF-3432-AA80-E6E7989F2540
++  Functions: 6859
++  Symbols:   24730
++  CStrings:  3188
+ 
+Symbols:
++ _CTFontCopyVariation
++ _CTFontGetSymbolicTraits
++ _CTFontGetTextStyle
++ _MFCalistogaFeatureEnabled
++ _MFImageGlyphRelatedMessages
++ ___111-[MFMessageComposeViewController _loadSWCopyRepresentationForItemProvider:forTypeIdentifier:completionHandler:]_block_invoke.348
++ ___111-[MFMessageComposeViewController _loadSWCopyRepresentationForItemProvider:forTypeIdentifier:completionHandler:]_block_invoke.348.cold.1
++ ___111-[MFMessageComposeViewController _loadSWCopyRepresentationForItemProvider:forTypeIdentifier:completionHandler:]_block_invoke.348.cold.2
++ ___111-[MFMessageComposeViewController _loadSWCopyRepresentationForItemProvider:forTypeIdentifier:completionHandler:]_block_invoke.348.cold.3
++ ___114-[MFMailComposeController _checkForOmittedRecipientsOrAttachmentsIfNeededFromPresentationSource:withContinuation:]_block_invoke.902
++ ___114-[MFMailComposeController _checkForOmittedRecipientsOrAttachmentsIfNeededFromPresentationSource:withContinuation:]_block_invoke.912
++ ___114-[MFMailComposeController _checkForOmittedRecipientsOrAttachmentsIfNeededFromPresentationSource:withContinuation:]_block_invoke.918
++ ___114-[MFMailComposeController _checkForOmittedRecipientsOrAttachmentsIfNeededFromPresentationSource:withContinuation:]_block_invoke_2.917
++ ___114-[MFMailComposeController _checkForOmittedRecipientsOrAttachmentsIfNeededFromPresentationSource:withContinuation:]_block_invoke_2.921
++ ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.355
++ ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.356
++ ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.361
++ ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.363
++ ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.370
++ ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.371
++ ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.372
++ ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.375
++ ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.375.cold.1
++ ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke_2.357
++ ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke_2.362
++ ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke_2.369
++ ___171-[MFMessageComposeViewController _insertCKSMSComposeFileDataForItemProvider:collaborationShareOptions:collaborationMetadata:sendAsCopyURL:isCollaboration:outReturnResult:]_block_invoke.339
++ ___171-[MFMessageComposeViewController _insertCKSMSComposeFileDataForItemProvider:collaborationShareOptions:collaborationMetadata:sendAsCopyURL:isCollaboration:outReturnResult:]_block_invoke.346
++ ___171-[MFMessageComposeViewController _insertCKSMSComposeFileDataForItemProvider:collaborationShareOptions:collaborationMetadata:sendAsCopyURL:isCollaboration:outReturnResult:]_block_invoke_2.340
++ ___33-[MFMailComposeController close:]_block_invoke.807
++ ___39-[MFMailComposeController performSend:]_block_invoke.832
++ ___39-[MFMailComposeController performSend:]_block_invoke.833
++ ___39-[MFMailComposeController performSend:]_block_invoke.834
++ ___39-[MFMailComposeController performSend:]_block_invoke.835
++ ___39-[MFMailComposeController performSend:]_block_invoke.836
++ ___39-[MFMailComposeController performSend:]_block_invoke.837
++ ___39-[MFMailComposeController performSend:]_block_invoke.838
++ ___39-[MFMailComposeController performSend:]_block_invoke.839
++ ___39-[MFMailComposeController performSend:]_block_invoke.840
++ ___39-[MFMailComposeController performSend:]_block_invoke.841
++ ___39-[MFMailComposeController performSend:]_block_invoke.842
++ ___39-[MFMailComposeController sendMessage:]_block_invoke.1038
++ ___40-[MFMailComposeController insertDrawing]_block_invoke.420
++ ___45-[MFMailComposeController _finishedComposing]_block_invoke.1051
++ ___45-[MFMailComposeController _finishedComposing]_block_invoke.1055
++ ___45-[MFMailComposeController _finishedComposing]_block_invoke.1058
++ ___47-[MFMailComposeController autosaveWithHandler:]_block_invoke.783
++ ___50-[MFMailComposeController _loadCompositionContext]_block_invoke.330
++ ___50-[MFMailComposeController deliverMessageRemotely:]_block_invoke.1047
++ ___50-[MFMailComposeController deliverMessageRemotely:]_block_invoke_2.1048
++ ___64-[MFMailComposeController _prepareHMEAddressesWithContinuation:]_block_invoke.844
++ ___64-[MFMailComposeController _prepareHMEAddressesWithContinuation:]_block_invoke.848
++ ___64-[MFMailComposeController _prepareHMEAddressesWithContinuation:]_block_invoke.855
++ ___66-[MFMailComposeController _setUpDeliveryObject:completionHandler:]_block_invoke.819
++ ___66-[MFMailComposeController _setUpDeliveryObject:completionHandler:]_block_invoke.821
++ ___66-[MFMailComposeController _setUpDeliveryObject:completionHandler:]_block_invoke.823
++ ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke.922
++ ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke.924
++ ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke.926
++ ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke.926.cold.1
++ ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke.927
++ ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke.927.cold.1
++ ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke.935
++ ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke_2.925
++ ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke_2.925.cold.1
++ ___74-[MFMailComposeController documentCameraViewController:didFinishWithScan:]_block_invoke.436
++ ___90-[MFMailComposeController _originalContentOfMessagesInReplyToMessage:visibleTextProvider:]_block_invoke.1372
++ ___90-[MFMailComposeController _originalContentOfMessagesInReplyToMessage:visibleTextProvider:]_block_invoke.1382
++ ___90-[MFMailComposeController _originalContentOfMessagesInReplyToMessage:visibleTextProvider:]_block_invoke_2.1373
++ ___90-[MFMailComposeController _originalContentOfMessagesInReplyToMessage:visibleTextProvider:]_block_invoke_3.1377
++ ___block_literal_global.1057
++ ___block_literal_global.1156
++ ___block_literal_global.1183
++ ___block_literal_global.128
++ ___block_literal_global.1371
++ ___block_literal_global.146
++ ___block_literal_global.157
++ ___block_literal_global.162
++ ___block_literal_global.170
++ ___block_literal_global.175
++ ___block_literal_global.273
++ ___block_literal_global.375
++ ___block_literal_global.391
++ ___block_literal_global.400
++ ___block_literal_global.405
++ ___block_literal_global.406
++ ___block_literal_global.450
++ ___block_literal_global.464
++ ___block_literal_global.632
++ ___block_literal_global.719
++ ___block_literal_global.721
++ ___block_literal_global.735
++ ___block_literal_global.789
++ ___block_literal_global.794
++ ___block_literal_global.87
++ ___block_literal_global.907
++ ___block_literal_global.915
++ ___block_literal_global.920
++ _associated conformance So20CTFontSymbolicTraitsVs10SetAlgebraSCSQ
++ _associated conformance So20CTFontSymbolicTraitsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So20CTFontSymbolicTraitsVs9OptionSetSCSY
++ _associated conformance So20CTFontSymbolicTraitsVs9OptionSetSCs0E7Algebra
++ _objc_msgSend$fetchFileWrapperAsynchronously:inAttachmentContext:
++ _objc_msgSend$setWritingToolsBehavior:
++ _symbolic $ss10SetAlgebraP
++ _symbolic $ss25ExpressibleByArrayLiteralP
++ _symbolic $ss9OptionSetP
++ _symbolic SDySo8NSNumberCypG
++ _symbolic _____ So20CTFontSymbolicTraitsV
++ _symbolic _____ s6UInt32V
++ _type_layout_string So20CTFontSymbolicTraitsV
+- ___111-[MFMessageComposeViewController _loadSWCopyRepresentationForItemProvider:forTypeIdentifier:completionHandler:]_block_invoke.327
+- ___111-[MFMessageComposeViewController _loadSWCopyRepresentationForItemProvider:forTypeIdentifier:completionHandler:]_block_invoke.327.cold.1
+- ___111-[MFMessageComposeViewController _loadSWCopyRepresentationForItemProvider:forTypeIdentifier:completionHandler:]_block_invoke.327.cold.2
+- ___111-[MFMessageComposeViewController _loadSWCopyRepresentationForItemProvider:forTypeIdentifier:completionHandler:]_block_invoke.327.cold.3
+- ___114-[MFMailComposeController _checkForOmittedRecipientsOrAttachmentsIfNeededFromPresentationSource:withContinuation:]_block_invoke.887
+- ___114-[MFMailComposeController _checkForOmittedRecipientsOrAttachmentsIfNeededFromPresentationSource:withContinuation:]_block_invoke.897
+- ___114-[MFMailComposeController _checkForOmittedRecipientsOrAttachmentsIfNeededFromPresentationSource:withContinuation:]_block_invoke.903
+- ___114-[MFMailComposeController _checkForOmittedRecipientsOrAttachmentsIfNeededFromPresentationSource:withContinuation:]_block_invoke_2.902
+- ___114-[MFMailComposeController _checkForOmittedRecipientsOrAttachmentsIfNeededFromPresentationSource:withContinuation:]_block_invoke_2.906
+- ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.333
+- ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.334
+- ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.335
+- ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.340
+- ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.342
+- ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.349
+- ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.350
+- ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.351
+- ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke.354.cold.1
+- ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke_2.336
+- ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke_2.341
+- ___130-[MFMessageComposeViewController insertCollaborationItemProvider:collaborationShareOptions:collaborationMetadata:isCollaboration:]_block_invoke_2.348
+- ___171-[MFMessageComposeViewController _insertCKSMSComposeFileDataForItemProvider:collaborationShareOptions:collaborationMetadata:sendAsCopyURL:isCollaboration:outReturnResult:]_block_invoke.318
+- ___171-[MFMessageComposeViewController _insertCKSMSComposeFileDataForItemProvider:collaborationShareOptions:collaborationMetadata:sendAsCopyURL:isCollaboration:outReturnResult:]_block_invoke.325
+- ___171-[MFMessageComposeViewController _insertCKSMSComposeFileDataForItemProvider:collaborationShareOptions:collaborationMetadata:sendAsCopyURL:isCollaboration:outReturnResult:]_block_invoke_2.319
+- ___33-[MFMailComposeController close:]_block_invoke.792
+- ___39-[MFMailComposeController performSend:]_block_invoke.817
+- ___39-[MFMailComposeController performSend:]_block_invoke.818
+- ___39-[MFMailComposeController performSend:]_block_invoke.819
+- ___39-[MFMailComposeController performSend:]_block_invoke.820
+- ___39-[MFMailComposeController performSend:]_block_invoke.821
+- ___39-[MFMailComposeController performSend:]_block_invoke.822
+- ___39-[MFMailComposeController performSend:]_block_invoke.823
+- ___39-[MFMailComposeController performSend:]_block_invoke.824
+- ___39-[MFMailComposeController performSend:]_block_invoke.825
+- ___39-[MFMailComposeController performSend:]_block_invoke.826
+- ___39-[MFMailComposeController performSend:]_block_invoke.827
+- ___39-[MFMailComposeController sendMessage:]_block_invoke.1023
+- ___40-[MFMailComposeController insertDrawing]_block_invoke.405
+- ___45-[MFMailComposeController _finishedComposing]_block_invoke.1036
+- ___45-[MFMailComposeController _finishedComposing]_block_invoke.1040
+- ___45-[MFMailComposeController _finishedComposing]_block_invoke.1043
+- ___47-[MFMailComposeController autosaveWithHandler:]_block_invoke.768
+- ___50-[MFMailComposeController _loadCompositionContext]_block_invoke.315
+- ___50-[MFMailComposeController deliverMessageRemotely:]_block_invoke.1032
+- ___50-[MFMailComposeController deliverMessageRemotely:]_block_invoke_2.1033
+- ___64-[MFMailComposeController _prepareHMEAddressesWithContinuation:]_block_invoke.829
+- ___64-[MFMailComposeController _prepareHMEAddressesWithContinuation:]_block_invoke.833
+- ___64-[MFMailComposeController _prepareHMEAddressesWithContinuation:]_block_invoke.840
+- ___66-[MFMailComposeController _setUpDeliveryObject:completionHandler:]_block_invoke.804
+- ___66-[MFMailComposeController _setUpDeliveryObject:completionHandler:]_block_invoke.806
+- ___66-[MFMailComposeController _setUpDeliveryObject:completionHandler:]_block_invoke.808
+- ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke.907
+- ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke.909
+- ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke.911
+- ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke.911.cold.1
+- ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke.912
+- ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke.912.cold.1
+- ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke.920
+- ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke_2.910
+- ___70-[MFMailComposeController _checkForShareParticipantsWithContinuation:]_block_invoke_2.910.cold.1
+- ___74-[MFMailComposeController documentCameraViewController:didFinishWithScan:]_block_invoke.421
+- ___90-[MFMailComposeController _originalContentOfMessagesInReplyToMessage:visibleTextProvider:]_block_invoke.1357
+- ___90-[MFMailComposeController _originalContentOfMessagesInReplyToMessage:visibleTextProvider:]_block_invoke.1367
+- ___90-[MFMailComposeController _originalContentOfMessagesInReplyToMessage:visibleTextProvider:]_block_invoke_2.1358
+- ___90-[MFMailComposeController _originalContentOfMessagesInReplyToMessage:visibleTextProvider:]_block_invoke_3.1362
+- ___block_literal_global.1042
+- ___block_literal_global.113
+- ___block_literal_global.1141
+- ___block_literal_global.1168
+- ___block_literal_global.1356
+- ___block_literal_global.142
+- ___block_literal_global.147
+- ___block_literal_global.155
+- ___block_literal_global.160
+- ___block_literal_global.258
+- ___block_literal_global.360
+- ___block_literal_global.376
+- ___block_literal_global.385
+- ___block_literal_global.390
+- ___block_literal_global.435
+- ___block_literal_global.449
+- ___block_literal_global.611
+- ___block_literal_global.704
+- ___block_literal_global.706
+- ___block_literal_global.72
+- ___block_literal_global.720
+- ___block_literal_global.774
+- ___block_literal_global.779
+- ___block_literal_global.892
+- ___block_literal_global.900
+- ___block_literal_global.905
+- _objc_msgSend$fetchFileWrapperAsynchronously:
+- _objc_msgSend$isKeyboardVisible
+- _objc_msgSend$setKeyboardVisible:animate:
+CStrings:
++ "mail.stack"
+
+```

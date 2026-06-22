@@ -1,0 +1,824 @@
+## MetricKitCore
+
+> `/System/Library/PrivateFrameworks/MetricKitCore.framework/MetricKitCore`
+
+```diff
+
+-353.0.0.0.0
+-  __TEXT.__text: 0x1d8d0 sha256:d2df786b40b8457b400fa6366bb27f3a59eef7f422e543d55da4f8c5b578ec9b
+-  __TEXT.__objc_methlist: 0x1b2c sha256:678e86a751f170ff96959ca3056fae7b83099f940a5c0eed4f4a832f91270564
+-  __TEXT.__const: 0x706 sha256:bab2dcf92ec7712ac203ae268c4c6ccd1f9cce0cb3aecdb35d39f5dabff06ea1
++356.0.0.0.0
++  __TEXT.__text: 0x1d7e0 sha256:aa734f8833f03a3903ebe431264abd419475be60ca4d14e60c3a7907e5be50c3
++  __TEXT.__objc_methlist: 0x1b2c sha256:aeb0e182a3c8387f651bdc6ab1f162e53f29fce3667bb3c34db9a21068fd4176
++  __TEXT.__const: 0x706 sha256:4dbb62cf9bfbc689ae8e09566d6876325ed480cd71b995319314968958157ae5
+   __TEXT.__cstring: 0xb52 sha256:43553eb6b7fe17a97b6444febbb52a170ce8394f34596739b1c941e22809236e
+   __TEXT.__oslogstring: 0x226f sha256:d4c05ff7d9273409beffe3d59b3b89e914dec41f103ef97a677cdb99d777cc68
+   __TEXT.__gcc_except_tab: 0x3c sha256:78734b58092fceb597a099503373aa28ce8f3eee5af19620dd6a3f93d3156304
+-  __TEXT.__swift5_typeref: 0xf6 sha256:6d5c7192ae874cf8a4ac88c866af58bc9a088ed3c53e77b7aba4f273ad520a86
++  __TEXT.__swift5_typeref: 0xf6 sha256:98eaa9101433e7317aa07bfb74a1eae22778d94275f94e37883afc4edb67e6af
+   __TEXT.__swift5_reflstr: 0x4c sha256:b443441aa2d1cb299d66a947373e67eff7fd352258bb50627e231a85d8643882
+   __TEXT.__swift5_assocty: 0x78 sha256:bd8a05ea8d24882d3b1ec60bc80d59ee915c4f4c2efe4848585409b11af1867c
+   __TEXT.__constg_swiftt: 0xd4 sha256:956fc7049569f57e512e6edd0f28d6a0a7c8ca30b74b84d7b142de2a3ec00a80
+
+   __TEXT.__swift5_builtin: 0x14 sha256:5003cd4bd3ff0f15c906026e9c602d97e1ed26d8fa3a27b10f141f5332fd942f
+   __TEXT.__swift5_proto: 0x54 sha256:a5c4dd643ebf73b74c7d9a554eaef56c75cc227ce25637c6c436a052947d44c3
+   __TEXT.__swift5_types: 0x18 sha256:7cd8e883fea8d80417031df8bc98c2f3a46b1c1b2e842c429c73f954b0f6a645
+-  __TEXT.__unwind_info: 0x720 sha256:dfe9258d69249ee43f200e9faa76a03e5f2ca954cee168be730eb0815764f538
++  __TEXT.__unwind_info: 0x720 sha256:86d95a364ba1b066e6175145b16bbdcbc3e8ce49b2bcecd1876290730354b19a
+   __TEXT.__eh_frame: 0x220 sha256:45ff35c7700be5aac86b4027e7b474a8cc309c33351ffd09431e6041b3311b47
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1d8 sha256:882dd9f42e600b18f3eaad0417d1ba0fe9a199265c6ab112f41d591ea9c33328
+-  __DATA_CONST.__objc_classlist: 0x90 sha256:a9be0ed643922b4ca9d5a5e0c0ce790ac4470d404c40b4e1065af3c7461afa0f
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:86462786c23ea0b32657ab4e6480f2c5ddab5164730b7241d70e96532f53ff6c
+-  __DATA_CONST.__objc_protolist: 0x88 sha256:b9c99a284dbb48624b2484d76a233a1e10d3303095ae6b6811346179f076254b
++  __DATA_CONST.__const: 0x1d8 sha256:f1f3ad3edc8028597f0ebd23b7d27ab997a32e6f2ddabbad140310a6e86494f4
++  __DATA_CONST.__objc_classlist: 0x90 sha256:5a5b2bb64ed06d4bac84b9bd501e740a12ba238c78b383b89bcf7966aa8a0377
++  __DATA_CONST.__objc_catlist: 0x8 sha256:62f2cc2c2d8e0e46fdc06eff7d5a9314a27b8b15531314ec1100f8de91560bad
++  __DATA_CONST.__objc_protolist: 0x88 sha256:8e204f21a70ad9025024af7ef1c06146af2cc52dc040050260f7821a45fdd89f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x13e8 sha256:81ee7e4669d33440668786a44e4b4d6336d9d547b55a26fb7bb33844e1951797
+-  __DATA_CONST.__objc_protorefs: 0x20 sha256:378dd925954c08dc8f484ace8007e8d88895e46a063f0ebb9ad6fcac1ffa72fa
+-  __DATA_CONST.__objc_superrefs: 0x80 sha256:b683415e3375067131a65d51e4a6a15ab384ec523c53050de8fdf91d373d6148
+-  __DATA_CONST.__objc_arraydata: 0x5b8 sha256:da0cdf7fae8f68d15a016bc3ca244eaef9346da80732dd76b9dbbded7aef6d2a
+-  __DATA_CONST.__got: 0x478 sha256:016474ea44e4d47155943e84ae8b7175a528e3080ceec54500ed1ff848ecba54
+-  __AUTH_CONST.__const: 0x3f9 sha256:e570141d439da4a5e687d15525a60afe58f699622b8d229cf08f9acf9167accc
+-  __AUTH_CONST.__cfstring: 0x9c0 sha256:df8c43f3bd1f1f2ca221d3e4706e4e11e2914ff9493bc7e123dc3530194da5cd
+-  __AUTH_CONST.__objc_const: 0x2bd8 sha256:0559ad94bb553263014c1618fde9e2297a6798d5149128d9309fba60381e2404
+-  __AUTH_CONST.__objc_arrayobj: 0x288 sha256:9e092c1393c510a995d6c79817c1f194fd6ef24f7273c7b10072fea876e75fea
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:7497a01bf68678674e362c434eeacca46c830e760e885192f9f863abef32ef2d
+-  __AUTH_CONST.__objc_intobj: 0x198 sha256:16402fe49950fda1b5f03243ccaf18ba1171f2327f54a1133989203207e5f0e1
++  __DATA_CONST.__objc_selrefs: 0x13e8 sha256:bd84a3e91ebb63e7cc6b1058adc9f38af2adfcf9038f6765742eb0df9c90345e
++  __DATA_CONST.__objc_protorefs: 0x20 sha256:81842aa68e9e2dd9f7eb1c129bd5056d681ae001c470327b87de26f37e633eb9
++  __DATA_CONST.__objc_superrefs: 0x80 sha256:70210dcf945d7ffb1bf7171504b761cd90e7cb955ead1017b252badb82c57691
++  __DATA_CONST.__objc_arraydata: 0x5b8 sha256:f1416ee04b57dc96e56b633c68d7e70e4097453624e30bf3c3af1a11f41bbe1e
++  __DATA_CONST.__got: 0x478 sha256:d607033115636f14d748e6f2058b12794f2aa4580d8431bf525aff8da3cd0719
++  __AUTH_CONST.__const: 0x3f9 sha256:37720ab1e18fa59e69e6ec789afd70b532f25695db3159eb9aa9fb65f93701a7
++  __AUTH_CONST.__cfstring: 0x9c0 sha256:bbc5096851c308a5012f9d1ca6cc5f2316e8cf126193bd4b857b0d58f959e9fc
++  __AUTH_CONST.__objc_const: 0x2bd8 sha256:c08eb65255b80e9499854710640afc4dc114b132b79a347cb2876a4f60a50a96
++  __AUTH_CONST.__objc_arrayobj: 0x288 sha256:5452b9499e7de54bf48d531b3aea6323f0d91f07642b4fcf4be75ca818ecd27b
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:d466bc07db807b5b3969d77990fb6ec83b0d9669dc505284bdd8c4a3890b72d1
++  __AUTH_CONST.__objc_intobj: 0x198 sha256:18b734e22e28b56d1bee6a0957f6cfc204cfdee37d44c785455e9370cefb9bd4
+   __AUTH_CONST.__auth_got: 0x558 sha256:66690b98205b2d305a0e94b4932f7dbc4894be86e6046489c5e9435eb56ba7e2
+-  __AUTH.__objc_data: 0x48 sha256:4627390b33dcf5a607337e8fbb6f23cbd2e6cc067837b59e1cec8b2af7eaaffe
++  __AUTH.__objc_data: 0x48 sha256:8583f765be883fbfbcb80256dfad6f22ac021d39aa8319bb6c7f649ac8fdc780
+   __DATA.__objc_ivar: 0x13c sha256:0447d1c36d553c9464613df2db641cef37aa6eb581fbc57f755f821148a1356d
+-  __DATA.__data: 0x6e0 sha256:3784f58c2b04f43ebd4d510c4fc87552bdcefb851abce63c6813c0dbf2fac910
++  __DATA.__data: 0x6e0 sha256:1ebe2f175dca9e07e94f6554240a1c3c361589f326c677166b6cc9c112e91c07
+   __DATA.__common: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   __DATA.__bss: 0xb00 sha256:9b44eb0c6245877ee6127ccc6007351e5740f22bdedc47797ae26cf0b706c648
+-  __DATA_DIRTY.__objc_data: 0x5b8 sha256:8ae75e0514b745911394045425b1b03f0667980523af93c934758603b37f2fb2
+-  __DATA_DIRTY.__data: 0x50 sha256:e4bc759ac81a21c7dc65a2c4b18912b44cae8f264ede78f08da7e8beb4d634f4
++  __DATA_DIRTY.__objc_data: 0x5b8 sha256:1446c59cb5be07b431678be52bbede87a7d6409e4d3e58f38592ef58f7b1a547
++  __DATA_DIRTY.__data: 0x50 sha256:2f96fa1a99f6121a7f30d62c56d6cd0a6771a3248669225284c95422bd6b9da8
+   __DATA_DIRTY.__bss: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 364B9A37-D848-3FA3-935E-C7552AD9B239
++  UUID: 0202613E-0E98-3876-A9E6-60238FE2FAEB
+   Functions: 830
+   Symbols:   2630
+   CStrings:  429
+Functions:
+~ -[MXDeliveryDataCacher initWithClientUtil:andDeliveryPathUtil:andStorageUtil:] : sha256 c11a472c3ed4ef16249b5a9bfb18316a8b6c38767e06005110c9b5ddebd4e40d -> fd6b6cb40055cee09bb519f862d22dd42dbd46b8d156e4fb550d789644fa25a3
+~ -[MXDeliveryDataCacher saveMetrics:toDeliveryDirectoryForBundleID:] : 740 -> 736
+~ -[MXDeliveryDataCacher saveDiagnostic:toDeliveryDirectoryForBundleID:] : sha256 604994f61686963255b5157f0352b3091e28af19d7f0273c85d1aaf657484ade -> 335d2a7b0669b7de6ae66f01885c9bcd9f386b2a83f403777a140930d8e08d21
+~ -[MXDeliveryDataCacher _mergeDiagnostic:withExistingForClient:] : 1780 -> 1776
+~ -[MXDeliveryDataCacher writeDiagnosticReport:atAppContainerPath:forClient:withError:] : sha256 cb7489ecfbe45dc21ecfc321dc7f9153cc35083ddf9bd6539a8d4ee4b9a3db4f -> 11f8a7dcbdc2687c6a1022f3daaf754033daf60ef84944a208d3d16d39294c24
+~ -[MXDeliveryDataCacher notifyDataAvailableForDelivery] : sha256 a6cff3a603b1402712d56ec7722a6a2be4bcee5dab987a26203b47b2791d2742 -> 647f7b924478aa3e8810886fd9a66962ffb7bdc8adfd54e298117cefab4adfc1
+~ -[MXDeliveryDataCacher writeMetricReport:atAppContainerPath:forClient:withError:] : sha256 cb7489ecfbe45dc21ecfc321dc7f9153cc35083ddf9bd6539a8d4ee4b9a3db4f -> 11f8a7dcbdc2687c6a1022f3daaf754033daf60ef84944a208d3d16d39294c24
+~ -[MXDeliveryDataCacher _writeMetricReport:atAppContainerPath:forClient:withError:] : sha256 441afdad3266800ac4b49565a207f96da73eb174793b5f7d9e1fb7e967e8bd01 -> 203480d9c3369ae2345d9a96e4264940c53823e96cbab828ef21c6f1dbf3397c
+~ -[MXDeliveryDataCacher _writeDiagnosticReport:atAppContainerPath:forClient:withError:] : sha256 6e64b75a8ec9953b0a2e88d471f7581a85ec6e848e85c1d0daab56c63f468cba -> d0d44f3f830db0536b8c9741df794a7ad463cdfe049892d6b428e5e6dea30ff6
+~ -[MXDeliveryDataCacher metricsForClient:] : sha256 2d82da031dd2ae8d4149c12ccf5c13381ee0becbccdde33f2728101ca7b3fc45 -> a325b7ccc1cf8fda4d3365d294bdf9397d591ac186f8f4bbf53635931209814f
+~ -[MXDeliveryDataCacher _metricsFromFilepaths:] : 636 -> 632
+~ -[MXDeliveryDataCacher diagnosticsForClient:] : sha256 14f0eef3cd11ba61d266706148964d9c946cab16261b97c0a42a93d9d53b0c6c -> d433f304b485b9b5b75d19ce0e017004c446df43edd9632bdb49e846bdcd47c1
+~ -[MXDeliveryDataCacher _diagnosticsFromFilepaths:] : 636 -> 632
+~ -[MXDeliveryDataCacher clientUtil] : sha256 c813f12c20dd9302e14388276e44d9b6995da9e85b471c0925bf7a960ed8d5cf -> 6d04d31c8bc481af651ed236cb0022d9771da8d11d29f5d9e323673bf6de3942
+~ -[MXDeliveryDataCacher setClientUtil:] : sha256 57204d9d2e23409bf407c9d1060274a5dca16b1f6ba18920bbd4c17351cdc5f8 -> b46e8f5c8fff86e9ba0cb21dbd47ffbb1d1ab66f25a262eff336121446cdca27
+~ -[MXDeliveryDataCacher deliveryPathUtil] : sha256 f25769d0d1dc4fcbbc5981a7c0bc207259951af9d342a685852eb9e87e9de929 -> 4091ff44210aaad9f9843ebaa0f3eabaeba335199ca70ed63452933af8f1b703
+~ -[MXDeliveryDataCacher setDeliveryPathUtil:] : sha256 2da9356fc659b7e32092e290ed4039c07e6cbb7a4c37024b4c69c5c6ad2ab0b6 -> 2a6920dc08fe03973a928e6ed3dc55e7363edd7ea59e22fb4adcbc26cb1c09b1
+~ -[MXDeliveryDataCacher storageUtil] : sha256 3f175ecff3db63ff81d04d5e132db2b4713eb457338c4f2f4a5d31dbdef706fa -> d9907e05480b35f2f6dc38f489bf79b44f7e01edb793cf935a83794a9fef4427
+~ -[MXDeliveryDataCacher setStorageUtil:] : sha256 857ec9b72d525da794de18157ffd294949e34c9f6a6998485a8afa34b8090fc1 -> 1dbac0c7e4be8bdbae8c75c3375a288c55021776314ac585ab3117de1ca2c357
+~ -[MXDeliveryDataCacher logHandle] : sha256 d67199af32b282b0ebcbaf2efba0208f7e9c314e0d892d1cd4b3715163618728 -> 49d5b9f73bcf4ac965e2436f671c496783a4487ad15cf964bd9fc484014858c4
+~ -[MXDeliveryDataCacher setLogHandle:] : sha256 78145a9dec324df3b77cc6b41ca45cb703b603c3128391a80ebcca976b8f6ddb -> 7d3f29803025630048e095f1eebaf8803c845397caf56b84cb5dd6d3cd08d73d
+~ -[MXDeliveryDataCacher .cxx_destruct] : sha256 28d8c8172f05800a99ec0142b572238050d035242f14940640bf734cc3422eb3 -> 5b2bcf57337a05dbcc2c9cba5baad7d37a117c89a5fb74f634701f32a3aacd34
+~ _OUTLINED_FUNCTION_9 : sha256 191b113cc36c79f33ee1606e8702d31979a9fc7d3b3899283b47227b4e03185d -> 7f3807c131d4e0a7e6254f06e393550b6f98b9e10a58adfe4b841235e81712ce
+~ _OUTLINED_FUNCTION_4 : sha256 19b30fdcb6506b55cf94c76f3ba8b0bbbc0a46e71d6dbeb9eb4a784e44b06482 -> 58dd1e3a11e4be1e9fc437a5692c79670b0b76ea8d0b3fadf16151dde75626e8
+~ _OUTLINED_FUNCTION_5 : sha256 324dcf63e747ae612726096db461b2e182d22f4cc2cfbfb034fafe02b953cef6 -> 9a770a0c0bea841a148ccc40e362785a7509ef43af766068487efec68ab59416
+~ _OUTLINED_FUNCTION_6 : sha256 943f91268ed8447dbd978eba3fcf77d7221ad37c128dead75d4c71bbd52c816d -> 64e0d8312f0b80e6b7d166c793237dda7085e9a85a19239da2b705cd392bc64d
+~ -[MXSourceDataCacher initWithSourcePathUtil:andStorageUtil:andBundleUtil:] : sha256 3b3e54942a78a2ad3203a976a286a3e2dfa1b0f5d238b5c6af7a6ba059c12f75 -> 18de0af66e09cc9a259f1b357726cb70d306233bcbdcfdb136a8984e37b63b08
+~ -[MXSourceDataCacher saveToSourceDirectoryWithMetricSourcePayload:] : sha256 fad4c9658a0067325a49f13c82db5b99375bf1088f85a49b546d5d759c88e765 -> 28d5e28b1370264dbbb424b5a0d02bb4f29e7b63463f675b8cb73bfb9d3320b9
+~ -[MXSourceDataCacher saveToSourceDirectoryWithDiagnosticSourcePayload:] : sha256 3e6b355d140cad2967da4193c5995e6cb30b5374c09c17936ca712d89ba525e3 -> 5bd6330faffab1ccff7e30ab4e9473d26ef1f2e5ac5c893c49aed2ba038f21d5
+~ -[MXSourceDataCacher sourcePathUtil] : sha256 0dcda25b6554e3d5ebc0aff58a626da49653af8929f0e0aec4c27e36a029377f -> 47eba00001afe1d897d2f9fd76599c33d173945e7bb6e89819da299172162819
+~ -[MXSourceDataCacher setSourcePathUtil:] : sha256 3f921e654c6ded424c595103dd6f201fca93d79106b87fa513e92c3f0e3b2f96 -> f30124d524443c5569a896026ac743c4d3953f2d823e71a0a3b96bdf08c6f9b7
+~ -[MXSourceDataCacher storageUtil] : sha256 a4bb8f3b161bac0f35ba09aa9694f5dd04c654115bea862efe16b745085bf8d6 -> 4beafaf3d03a8adfa7dd824ccee02b8f03efcf749445066da0568e63d3b54bfe
+~ -[MXSourceDataCacher setStorageUtil:] : sha256 9851c4c7c895460e16692d86f0a524bfc3f7de36a948ab656f4d3b43abf22e0b -> f0f21806d7449680749ea0c407362f42727ac4e720d034ed80f4a51bfd12d7d6
+~ -[MXSourceDataCacher bundleUtil] : sha256 02f35c60b0fa411a54a785b2367d5eb7410879a073078e68983a1213bac0dba0 -> 7768db298367927361f7706ec8c6585d2af883c0b34627af0bc3adb0b911220d
+~ -[MXSourceDataCacher setBundleUtil:] : sha256 8f74a276899eda220853fac2e7eefc1f0b6c6d7b443ac1d16112f0bcdb8f38df -> bfa3fbc44f5527ee549ad9d916420ac564cee12ee5e68a82b2ef8d8bd55d535a
+~ -[MXSourceDataCacher logHandle] : sha256 2a032a81ea1dfb845d2b646bd93cc52dc39e876b1a24dd1a83859a57ae840f28 -> 2b8660ed004ffbbbf4857534e415fe9f26fde2fab99fc7b595c85c9cef1e6edc
+~ -[MXSourceDataCacher setLogHandle:] : sha256 11bd07360331231336bfa1487925909513b5392a210ce7fe983285b312495224 -> 7fb4e03c8f826084d087ceafde8b9ba2241d02757ec6613a4a83762d4c641abd
+~ -[MXSourceDataCacher .cxx_destruct] : sha256 cb42afcf081b3a86dea2907502b65dc916835b435f549b148e544b222e2d212d -> 01d1bdc307566586156c84e5ddda7ca5137069e596e6bd247a60879ab9b7ded8
+~ _OUTLINED_FUNCTION_4 : sha256 79986224838e9ad74d80aaf26c135a6073d460f60faf8d7c60c2ad6813e74252 -> d09a845c30e2265bf9300b47681280ab754e98ac65db86f0c5fe5e70efef599d
+~ -[MXCoreHandler initWithClientUtil:andDeliveryDataCacher:andDeliveryPathUtil:andMetricServices:andDelegate:] : sha256 e62c594280066e94c478ffe5ad4711754a854b5ba980cee56c1c40a277a24574 -> dd0108881aa09b304beb884064c1186838b605c8ec95faf2dc5895572e8bb248
+~ -[MXCoreHandler registerClientForBundleID:] : sha256 4678086a712316703243394d28a8c5b312334bbfcb305e47580eace589378acb -> 28c8064bd1e10bec214a53e001ce801f74c707af27633e3ffdf0f720d19efa71
+~ -[MXCoreHandler registerClientAndTeamForBundleID:andTeamID:] : sha256 51dd13948f30e63239fded0d2465ee3df409f33661b039d3821f7b5566b56707 -> b14c2546c7df1546fad2d7f8269957875ac82421c553dbb15b5847c4b0a512dc
+~ -[MXCoreHandler registerStateAwareClientForBundleID:withDomains:] : sha256 633dd4f21c466ae3bc2adf3d7fa22371cc2296521cdb773b265ee1146c9adda2 -> 0c4bd66050bbbeb7f152eb8116e126403049c321bd45fa130a68ddfd507ee10b
+~ -[MXCoreHandler unregisterStateAwareClientForBundleID:] : sha256 5c4eff7c72da2ff9e4d65680e5b056ba864a3fbd96259c26a7234f4f03ed1bb8 -> f6a7bbcd7a9ad60fd5a5308ac62f9d175e7c9f1e3fe16c61d9254ecb456b423b
+~ -[MXCoreHandler _updateClientAvailabilityAndPrepareDataActivityForBundleID:] : sha256 5c5943ab65de092da360f31dc20ff29a99822effac5e4232a8f30b11c9fd790d -> 1294a08f3db053cdd1a7c8e375fe1d20ccf13d556d49563a0d01eb0aa242f52a
+~ -[MXCoreHandler performDataActivity] : sha256 8950522f3a5b72a9744fe5bfd77fef74bf9a295e081093301a26cd4b51fb6ac1 -> 39434e758446be5b30c265875fcb83af2420f1f42f796524cbfd8a8d3d734672
+~ -[MXCoreHandler saveMetricPayloadsToDeliveryDirectoryAndReportSuccessForClientMetrics:] : sha256 a51da16f2adc2d40b559299b328a8a4a479e60d1f8ca20987177f5cb82208322 -> c82358955324a89ee6934ec9b812ed41cd3a3a53365cf43f7bddcc0f8c9ac789
+~ -[MXCoreHandler _processDataActivity] : sha256 2ebbe6deabac8606eabb4e76259f197445297c0460140a8fadf521aded556897 -> 0b5f7dddad6eb56103bbf1c485a35eb42d8cc2b73d5d09d998fed7f8f0e5cdae
+~ -[MXCoreHandler _handleClientAvailability] : sha256 42614aabe1558c7070e29724211f3bdd18d53b484b384d86e59cfd9a7dc2ccbb -> 59e5ef406e58533316dd35beb027fc07120123673df7fb9e73bdbbb8385ac3d1
+~ -[MXCoreHandler _reportMetricKitUsage] : 252 -> 248
+~ -[MXCoreHandler _successCountFromSavingMetricPayloadsToDeliveryDirectoryForClientMetrics:] : 412 -> 408
+~ -[MXCoreHandler diagnosticsForBundleID:] : sha256 53ab04d475f8c7775e8eb44ba137bc7a67a831529698a848d72a7f0a729b066a -> 6021319b56dceb7fc448b3c2d3fb0671b9d13b184e3180c387249d44c89401cc
+~ -[MXCoreHandler metricsForBundleID:] : sha256 9b9d959e624ae2169e254a9033dfa3e894a51245df9d0df1e6a1b70a027d3b68 -> 377ff759992d8db4912e69b7f054abeb6d2e5d8c4bde3c42ab84d5a2c3e1a566
+~ -[MXCoreHandler shouldDeliverDataForBundleID:andTeamID:] : sha256 10d72200aa465269d42e44455fabccca2fa3442e73b88ebf3d8c5a50cff325c4 -> 805d216171e426c0f1b41c577a42e5cfbfe0c94eb730274f83f1b4aed8a5d630
+~ -[MXCoreHandler shouldDeliverDataForBundleID:] : sha256 42bb2411f0813bddf49add409ed47506800cdaf80bfe696b7e9ee605b6fa1c7a -> 96bca814188cf275361347f169239d6d24273fe29fb3305e3876985cb718b69f
+~ -[MXCoreHandler clientUtil] : sha256 c4b7fea3b2faa5aa21ab1a9af5549a40f7a3fcb1608cbd62d51d78d0dbd81919 -> a8378eec3655c48000d89c03ee67af1006ac0625178aba6f06d4604e45caa7aa
+~ -[MXCoreHandler setClientUtil:] : sha256 ca1829c86723d9716ab970a1d724f8707e2ba1642d931d4e2b7500b139fe6650 -> fd1873abfbcbbaa2c85f49a9637aa5ae66649f7221a584aac2d734aad4770ee3
+~ -[MXCoreHandler deliveryDataCacher] : sha256 9848fe326e834c8f635cf42f8ebab8440ffb9450e9725c4178898c650d2caa0f -> 20c78e35b099cd3fefce67c36881f50563be8a8d46747a95d48471963dbe44e4
+~ -[MXCoreHandler setDeliveryDataCacher:] : sha256 375f4e2eb2a81ea6502ca2b562d98cd9f020b8214a3e41517429032728c45f6c -> cdefba09c1b93e50865f6981a8eb7748ddbee7751ed9f76d68da8b5f9147a719
+~ -[MXCoreHandler deliveryPathUtil] : sha256 9960fa259bf1ad0a8ebab9dc33c7e74b9ee3f8f5eab6307829ad36347a7f71c9 -> d75c8603ab49d03801ce8fd52570de658191279f7c5e17de9d03a62739ace386
+~ -[MXCoreHandler setDeliveryPathUtil:] : sha256 ae1f8d3d32f26c5f8a98a4e63e2427dab1bf888a50da292de536fe7c6f54fe49 -> 338bbd2ce91551ac7a78ad4aa8fc39cbcdb53fc1345bbeb69c50f8a6b4a7c585
+~ -[MXCoreHandler metricServices] : sha256 124040e318be2fd04c5a6314634dcce6963a1ec5eaac07aabb225aca2e0e8258 -> 33e3683fb600934d87e856b955f0955f3ac0e202dc9c979f164136adf1ddd337
+~ -[MXCoreHandler delegate] : sha256 78b2e40ae8d736cf553c39c5d1bbe028960ed8f0e079a77e5fd6da600cc25cbe -> b8bc5f1342ba6c8ea9cb3666c49a56687871ee5e608f90c794127a70ac94486c
+~ -[MXCoreHandler setDelegate:] : sha256 567fc5fedba18994bb6ce67b4c4c204acdcf33a876b7cb352f0fef068050be8e -> 22f03958811ae654491dd8e555900ea2cd90078a72ec270086e8627c81245bd5
+~ -[MXCoreHandler logHandle] : sha256 addf6f77997b96833814895ed7c6b30ab1239110b88979b12eb66d5f150e9e10 -> 02a2bc64d354a462154153d377ff846c276f7240f65e2160a5b44e154ad1e6db
+~ -[MXCoreHandler setLogHandle:] : sha256 6b7e0485bdb973eb70d49ff138075c33b681d1f5e06090c72b1f27261e90a5fa -> 7ba0164f03ceb5f7fd4b8e39bf95d3e0756d3946319a6455b13c0430cd7316cd
+~ -[MXCoreHandler .cxx_destruct] : sha256 a6c6705e167703224e6b018260e5bf0fcd5fe4ed9f809cff19a98f43e117767a -> 15156c97cbd143fe8c66412ef5c65054e3a6626b83ae468a1e900b03f8a7d9b0
+~ -[MXSourceHandler initWithSourceDataCacher:andDeliveryDataCacher:andSourcePathUtil:andBundleUtil:andDiagnosticServices:andDelegate:] : sha256 f486ae3a70965a9759b91db43f1da6a2e715d0b59907fe685b5b6362f6c2af14 -> 8a3e9174c662cddbe2e3e9eb66a6f84436392098a069c7ebf8d1b167a40d116b
+~ -[MXSourceHandler handleMetricDataWithPayload:] : sha256 cf0b59f8ca8dda711dd4fd0580a1ab7991d03c83bb5c367c32ff5de54938f384 -> c272f9ba9718f7e44a68fc2aed09d0f78d903d9ed0adce92654c3c8e70053782
+~ -[MXSourceHandler handleDiagnosticDataWithPayload:] : sha256 71d76fa316526e962f33dd3ab9ac7033588f1905ef4e46b49aa6d53cd884ca88 -> de78c13361550b58ad4a82f8cc5cceb6a9bc45d446736ec33a8e93b0ef806cd2
+~ -[MXSourceHandler cleanServiceDiagnosticsDirectoriesForClient:] : sha256 1ae476e9b243ffd33572a477c6a60e4a8f675ec0941e337882f3edda052a0a0e -> b42b979923fe4a0f7c4f6dc3579237c56ad0eb5e6782fd685cfe5f4911f98927
+~ -[MXSourceHandler writeDiagnosticReport:atAppContainerPath:forClient:withError:] : sha256 7da18a30b13f59cf86aa5acec95450d89c56926dfdbb097673b1a9b782c393bb -> 41672f21aff31337c991bace2a96689c3adba0364addb6c42aaaadcdf4438b07
+~ -[MXSourceHandler _removeDeliveredPayloadForSourceID:atDate:forClient:] : sha256 a06ca553d76ca58d4eac44bf87ec43cb47c1b6ceda431d63612e5e9ab4e68c93 -> 22388f796ffcf4ae193525b2455935e83bd79c613fff2bb784dd8b70e16fcadf
+~ -[MXSourceHandler sourceDataCacher] : sha256 f0ffa8f28c7cc45351120326af7493215224c15ca852650bb7c47e47229df42f -> f435f0aa9220a44ba31c91d7ed6bea360240ee509094ba6fab0662b1f26338aa
+~ -[MXSourceHandler setSourceDataCacher:] : sha256 2b1ecc27efb210edacee8d75d3f4538564859273a13a65f8ae89c8d7dbf8b0a2 -> 9a2593a7ce66a6dfdf2710f2f5cf16f9cde55f178683e7d8f792ea7f19170d9a
+~ -[MXSourceHandler deliveryDataCacher] : sha256 5bff5d002594256552a850b92f127aff9a11ec55134d8cfdcf3c1352a91815d6 -> 41b99d284f1b78daee7a0508ea83cb35b77f1050599306e5ca341eb26a773e0f
+~ -[MXSourceHandler setDeliveryDataCacher:] : sha256 26b79d2d6f594390fa4457ea9eccb4c6f8f492d6b3265afb9a3312d09a97f5e7 -> 8fe2470a4a016336d5e0c716a39bd33f3f6d7a73bdc0faadb5352eccb5c38603
+~ -[MXSourceHandler bundleUtil] : sha256 91b66b20690f0147e2ea5788ce48752a40682bbed058de5a1d6d5f076a327949 -> bff64f0c7b14655b001890c33bf6d1dc467ac3821f18deac42aa077f656e8bdf
+~ -[MXSourceHandler setBundleUtil:] : sha256 d96f159f7ab38e410873ec09ac871854a430254b0527a0a97e03e2f1d34156dc -> 60ba1ce2a2cb9917a5c6fe0d566566f82c6183e38893b0d51a521a45e44c4128
+~ -[MXSourceHandler sourcePathUtil] : sha256 6b70dac9178f848878aa7e960677086fc72b1de36a6b57a31ce4c8d3e330df4b -> 5649d4170532f8d58c343218b22d16b6bdd7a8c8f17db10f75a76bca4d87210b
+~ -[MXSourceHandler setSourcePathUtil:] : sha256 74040bebcc0d0838911bb39647d7b6f6f91bad6ba037670978aeaf5e5dff335c -> 9b46851da17c3e03af80b9a8ac53637300f51ef9f565a81a7574659c063fca23
+~ -[MXSourceHandler diagnosticServices] : sha256 2b20343e1fd2587754e7af78db1818df2fb4d7d4b44cc8c04b151e956f30e1ca -> d54646093a2a9628bf1b56927cc28a46895e9c55ce3a33bc81f17b23ac3c7e52
+~ -[MXSourceHandler delegate] : sha256 98cea25b267c98ce2338b2b5fbc5098b9aca3b40c85569261d16bae29a7e1d19 -> 6c1e2f9fccadc08b65bcd46c1352f327f246d8be29ed5261101c78a487eaa705
+~ -[MXSourceHandler setDelegate:] : sha256 4dc9dac823dcb676af246131dc567d59890daea696a38479007257f45f3b2738 -> dfdbeafb0ad44d66b84496edd9bcf29b36f7c9872a9e6aee87af36005c662d4f
+~ -[MXSourceHandler logHandle] : sha256 1cdebe0fc5cac54d3623e67738c72032f18699fa4bcb5afc3ef14aa0f5fe6bf8 -> 49265aeb47c0f25f9fd777ba5253bcca62be7c768abdfff3e332fd888c2a2ce2
+~ -[MXSourceHandler setLogHandle:] : sha256 7c225622c9fc374901b83c2c2db72e5fbbdd9b742a21f2ba06095ecd6b20c8aa -> 3ab19d53756aec26ad4ba5ce5f5ea1f77d5ab106d47e924bf18e58ecfc39f6e0
+~ -[MXSourceHandler .cxx_destruct] : sha256 7e045f0ec47c3e81b8ce7f960582c654f3960fed0c1a39e528d33860cdd8e198 -> b1517da173ddc29ec5658b4f51a62ab36d737b703f7c95aa51ec69630031cb24
+~ +[MXDependencyFactory shared] : sha256 dfe53ed45a2451d27f7f8398ba92a2f1df33b28b022639225bdf5d643314880e -> 1c6944bd668a88b782b7c91f55cf6c42e0d14c884609a635435f4d42318ba373
+~ ___29+[MXDependencyFactory shared]_block_invoke : sha256 7ba354bd2643eb565b167c1d142118f254b7776d6e846f165dca19e45609a6f1 -> 7ce04c1177652df1e93340017297cca67480b8dfce30ac657a58f021381990c4
+~ -[MXDependencyFactory init] : sha256 34e21aefc9a39e8b57b2ca76aa8920df65c0d985cdc9a9520721c89a4876fdbd -> e45812f01c10cca971fc2b7f15f2db6585efe13674f0d58b794717a11cf76a1d
+~ -[MXDependencyFactory _initIvar] : sha256 307d0e513562aafa13da4b902cbbb51bd552f63467fcdf46d873185e1744edca -> 7090fe8eeadfd1f497f5e2f3240cee9e61bb53426e7310e6c15d3402ba718a6e
+~ -[MXDependencyFactory handlerForMXCoreWithDelegate:] : sha256 620f1e8a16cfbc109af306f7605b8c9be63b20655fef99af8e6d69af8fea41ab -> 7ef4fe7960737a4640a5bb39676d2198f4808bd6f306e8c641ec96b3645b575d
+~ -[MXDependencyFactory handlerForMXSourceWithDelegate:] : sha256 da43dffe92acd480bf65e4eebacc1d6c454f78ba67a9faaab07a3b2839e0ff6b -> 3167bbd01add16b3e49de6580a16015ed703121005676e54f18010abd2e894a6
+~ -[MXDependencyFactory bundleUtil] : sha256 a8fb701b496c3b4ef0b9012dd58a1467c6367260d573bcd4dd7657720e8ff2b3 -> e9bc8fa82a7b0b6ebfc7f5743df968a79be0ebe6eb8c91229257a393b7f028fa
+~ -[MXDependencyFactory deliveryPathUtil] : sha256 5183a0468f332e881ee6323574b51812b5b9c0dfb9238a2aac3ca0a52ded7142 -> a21f3498392aea81da598e219170d79a5a1968361f016f667c4b041ef60e3ae4
+~ -[MXDependencyFactory deliveryDataCacher] : sha256 91ba63de1ddc38b7b59a3b4ecde5aa435c131b8d6675ea576120f9bdbfceacf2 -> cf98dc97e07f34e9555d1d442a7bcdfb01f84c4e77f13991748861786de99989
+~ -[MXDependencyFactory clientUtil] : sha256 db271a6686b0fa8d5b2517b541a687803013dcf717b9850656d1975650b88be2 -> 2606e563c0408e3921fbf4223894e7d76f192fc89c28b757fd0f15ae855ba19a
+~ -[MXDependencyFactory cleanUtil] : sha256 d70dded98ed7a35024b9df06e18552e93f8655559df03836d0088d63a8d68993 -> b79d6010d0b23e4c41a81579f56600712a91a9359d5056444f64e63cf9c1a6e9
+~ -[MXDependencyFactory payloadValidator] : sha256 48572fb5d607cc04aa32ce39e57e5ad5a56acef6a31be542417a96aeccbc7b2d -> 95b43556e209613a96875bcf5f0ac90c48e0747fc5bbf5a382e767d516a52da9
+~ -[MXDependencyFactory storageUtil] : sha256 a332b83f29d323c117367116db8db736fbd445c86870d4a9fd141b47d4f6277a -> e5ec66a9888cd14a2f6b77a4992c967629051ddd4d24cfe5511fdcceee4bafb2
+~ -[MXDependencyFactory sourcePathUtil] : sha256 69407cc9b5d73724d94505ad0b846e9469d8d7dab941b08ffc0f5193c512827b -> 8c0a84479acdde9ac1ae6e677360552ecac27e45e0e4c64b0ac1f37db5350357
+~ -[MXDependencyFactory sourceDataCacher] : sha256 f250b40f2c041427103332297860d67bca1683058a375eda112a82a3ad31ba7f -> 6a102d8d7a0bf1671fe6511696e9f6101fcb00360c16aef3a139b015b3f1ed06
+~ -[MXDependencyFactory metricServices] : sha256 67b75fc0162d458b035804de8e393ba9d7d6bf00b576f22842ed1cc2ec0fc37f -> bd4abfe50a9edfaece701d3e31141bde5f824b388ce2b395f2d083a8c20ca4b5
+~ -[MXDependencyFactory diagnosticServices] : sha256 ec4af2c7a2f91b94ca1cb2f8c21cfbbeee626caf6227a5706d6f8a4401f1eaa3 -> 023c4b72f6992047dc9372ef8ad85daa1d681e7980c0cd99d382c98f62d343c0
+~ -[MXDependencyFactory .cxx_destruct] : sha256 5b81a48476ebffe04276354a8a9e0f2ef8ea5d3a541719502126842b1b08dfbc -> 090a9a697da9eacd57b71ef390b3e2766ec951d53c6d9540d3f5b23e9d68e893
+~ -[MXPayloadValidator initWithLogHandle:] : sha256 3a57b91eecd7d740116ecb177066118c45f1da0f23995d96566d33a050744ac3 -> 59feca41e0b8cb9db34dc1d5d49703e9b4320e925ff889be0b6de2a426b4479e
+~ -[MXPayloadValidator validatePayload:] : sha256 76c09071d6d30ca951eb9f1fc3f9e8134d2b2a78985a1f4d83b7b1ae3232d79c -> 7e632cf5b26fb97650b1740d130529c968bc8d3b259f4f20507d5fbdf67b52b7
+~ -[MXPayloadValidator _validatePayload:] : sha256 af869561fb47b3137f7218033f43f92e07b2a5082cbc23f6829a060c1e7d2d6f -> ab54945e3b0b947feace960f559f51910cc4458266d98bab3e578cd99887ed02
+~ -[MXPayloadValidator _validatePowerlogData:] : 392 -> 388
+~ -[MXPayloadValidator _validateHangTracerData:] : 464 -> 460
+~ -[MXPayloadValidator _validateSpinTracerData:] : 464 -> 460
+~ -[MXPayloadValidator _validateReportCrashData:] : 424 -> 420
+~ -[MXPayloadValidator _validateSpaceAttributionData:] : 392 -> 388
+~ -[MXPayloadValidator _sanitizeDeviceMetadataForDiagnostic:] : sha256 bfdd3505307e6f977da79abc800b1b8f80394b6112dd6ea6117df62282c61c7a -> 03e203a4b613bc5e0adc7e766d22352e86063a0920d45a83a29829281b4ee538
+~ -[MXPayloadValidator logHandle] : sha256 6a6249fadad133fc37746455716de3f117f990092fe25dba994b317f6e465c9f -> 70dc572446592e3e630d8af067f19ed14c6a92358908f4718308ffe4464adaf6
+~ -[MXPayloadValidator setLogHandle:] : sha256 310331d52f8fe7bb60056caa355635cb7e45a180fa1469f27cc753ed7b23951c -> 258791a53a3bd6c8d30c47cfb375c0d53fdb074e1a369d2884a0b4de291ad20a
+~ -[MXPayloadValidator .cxx_destruct] : sha256 88c58c27f0681d5c730c42b57fbfcc3f26086ddd8fb82f91909832bad1df9922 -> 436ee328f9980d6bb8adf82c5a30cf15d55a281ce2f2b6968335995ba0e89c77
+~ _OUTLINED_FUNCTION_6 : sha256 e9585703f47a04e0d86583728a794a658d9b5fe9c6775f7d79404330c11b7c67 -> 30340d0288ddf69267c16d023dff96a75c7dc02c2f35e981ba99ca52565b6a2f
+~ -[MXSourceXPCPayload(MXSourceXPCPayloadCategory) bundleID] : sha256 c0c0a1d2b0dd77dc09da109f8798c67f56bcdad2a3dc36f071ae7d4cb17a3952 -> 7218eb656eb1edde9f47389ba67683ae2650df05d3e894997f503c1e10f805d0
+~ -[MXSourceXPCPayload(MXSourceXPCPayloadCategory) sourceIDString] : sha256 368f5b633476053fa6e3de98bbc7044fa2a573106a9aff95a5bfe9279f786464 -> 098ebd0c292ffeb3618b6f3bbc867bea42d69990851205671409b0e66648383a
+~ -[MXDiagnosticServices initWithSourcePathUtil:] : sha256 3fdb80798653f294c3548bbf416f99dc3f96dad5da8be0bc1f34b188d6c1c595 -> 57986b86202ea1be3e63620816a851dd0925f7e3fd1d80c33df9af69c4197b98
+~ -[MXDiagnosticServices diagnosticPayloadForClient:andDate:] : sha256 3183f26e03e0867c9c527ecaae28ec76f8aaa48b80af1cd7c89beb703ab6a2f3 -> 33eb002c890334d6407e075f50410f52ba01201b2fb950f9692b63992edc4198
+~ -[MXDiagnosticServices cleanServiceDiagnosticsDirectoriesForClient:] : 508 -> 504
+~ -[MXDiagnosticServices _createServicesForClient:] : 536 -> 532
+~ -[MXDiagnosticServices _startServices] : 536 -> 532
+~ -[MXDiagnosticServices _stopServices] : 496 -> 492
+~ -[MXDiagnosticServices _diagnosticPayloadForClient:andDate:] : sha256 b0f8d1fa827e4606210a07cc8591d2b542fe70fda4eb811acfe81ef36d333c40 -> 4d139d17177f01de59c9b145d47d838256a7c3d56b8886e5ed1dade1256d0ac3
+~ -[MXDiagnosticServices _diagnosticsFromServicesForClient:dateString:] : 512 -> 508
+~ -[MXDiagnosticServices diagnosticPayloadForClient:isExtension:andMainAppBundleID:andDate:] : sha256 b2239c90fd18b7b5bd88d5f2e03ddf3d1143eb03896d3fa01ba9eeb73dca58e5 -> 38fa05ff146c571162d59f502ebb4e926bde3c515f759ccde1fa688bf8fd6e32
+~ -[MXDiagnosticServices services] : sha256 09f94f3d7b62779e649c24f84bb1c85fb58e12f39fd9d0eb992154d9a82b94f6 -> d675b1bfcf846cbbfbe3cd3a7ca4bf2813724b3485b459f48fb117f1fd3ab38b
+~ -[MXDiagnosticServices sourcePathUtil] : sha256 82e2fe85287cec27342ffc2a5cf306e2f3b37219b278197bdd3b1673d2782640 -> d3f3fd73ce22b33cfccbceb0139fbe9adf3c776605ff7c867fbed9d27da7013b
+~ -[MXDiagnosticServices setSourcePathUtil:] : sha256 73e99c6925f02d6604c3cb76c5a3935aaa88079baeb58f7a76be6225a5c2c58b -> 1e837191cbbe5efb4cd3f13f3c91a1ff1ba5247e43c653026ed2c2737d673b19
+~ -[MXDiagnosticServices logHandle] : sha256 dfe9f227b14c9fb9da46377b1885c02ebcf0120ac3a7120cc09790abc91e5e7d -> 0826b6ff797580cd8bcd30f5a3fa693040bba7ca912156add521a231b2b0b63a
+~ -[MXDiagnosticServices setLogHandle:] : sha256 28d5ca88bcd93abd959ac9dc23d5df817c6a84675fe066e225272e3e211625ea -> 20c49b26d739517c0f887e8a696aee09e73a558aa89eb26b11e5e98456451436
+~ -[MXDiagnosticServices .cxx_destruct] : sha256 c5a6d27ef00abf4d8a2596b6c2d6ccd770ecb4f7af2ecda7b3de0e2fc10dd5bf -> adcdafb383f3a5fb785362d1d2341592be1ecfe2d634f37bac168671d4f51ed4
+~ -[MXMetricServices initWithClientUtil:andSourcePathUtil:] : sha256 d97d9db2e8529df7efc0a0263a4b96a7d3ef74bb10384e36a2b503e8815d3aee -> 88f22daba43ac2f741c71caaf534472bf7b12c493aabb819c4ea560fcbac0c52
+~ -[MXMetricServices clientMetricPayloadsForAllClients] : sha256 a3705b7eb53ba1e1ac353005bef2b2265c0fd9eb43ed5fe8fe0970df16e1ebb6 -> 0e1f3a4ee1be37bb1d58df5bad8e61e4fed39eeab826fea21395f27b89a543d1
+~ -[MXMetricServices _createServices] : sha256 8f203725848a64f5584b591e2eada719013092c3d594ac9e01cfecd276f5c424 -> 6b87e3839f3b2fc651b927373b577146fba6f52792c80282e2cb79d8a40e29d4
+~ -[MXMetricServices _startServices] : 512 -> 508
+~ -[MXMetricServices _stopServices] : 496 -> 492
+~ -[MXMetricServices _cleanServiceMetricsDirectories] : 488 -> 484
+~ -[MXMetricServices _isMetricSourceDataAvailable] : 468 -> 464
+~ -[MXMetricServices _metricPayloadsForClient:] : sha256 1fe13d406dc06729d765c89c183bed085064a07cf5a9db4eef8573a75967905d -> aa1ef325d5c6a4292cca2638f9f5a10171caa35801c43f94ad5ab04f4326462c
+~ -[MXMetricServices _metricsFromServicesForClient:] : 488 -> 484
+~ -[MXMetricServices _clientMetricsFromServices] : 440 -> 436
+~ -[MXMetricServices services] : sha256 945a4bb23274d7d44d11c6f19f7a5d159129ae406e3928903850f3cc5ba76884 -> 607ee5d5b8d21361200184cb801675a0fdaea20970ef9a36e7bf565e62de978b
+~ -[MXMetricServices clientUtil] : sha256 1ed39e9c971192293f57c36fd5b36655182f3c40ccd8bbf02c1655bd6256ef60 -> f931d9b878b31dce18d4c30cc2d68c3e2d9967eae1ce2f00e36dc37ede3eac9a
+~ -[MXMetricServices setClientUtil:] : sha256 bf17476ba5373bbbb8efa38939d2a619639c71c65fab0dbeabee37ad098bc2af -> 82d9a958fd1287b39b6a524499528eba874194e40896530d415d819652e2e2a0
+~ -[MXMetricServices sourcePathUtil] : sha256 f71babd1163496deea06e4c7053e99918ec567497ff609ff8faf98500f3f5acd -> b453da24e6bfa5b4a1460b6628aac2e0e71058a800bf6278645711fa6ceb047a
+~ -[MXMetricServices setSourcePathUtil:] : sha256 a6f3f9bd9014ee40242d289d10b1fb78bb0fc164dba646a6a71b1b654c41e96c -> 0f82305e562208e853f4e4ade7222e4d386eb0fe0526fe55ae77f3481725f3ad
+~ -[MXMetricServices logHandle] : sha256 d803dbf4de118f84a5adef6c4bcbfc8d35734fc0296622d5bb383db4b0379458 -> 33fb9050b050d9601646556ebce294afd07647a06fcf8a39e109b239c9c72a98
+~ -[MXMetricServices setLogHandle:] : sha256 78e87bec3a659b71d7d62b5e1959c166ffd4b0c887a929827e54491578af402b -> 262d437996831d73732e98b4fdf0dafd83bcd325057d25e9bfe4c4233e388f12
+~ -[MXMetricServices .cxx_destruct] : sha256 09bc7f7576931230806f4e1c80b6aecafa19f15c4dd7c68da5d0b4f2fb745a44 -> e24e6832955d27c727bd5759f5dc490d1bc6ffe148dfc132234a9252b767a950
+~ -[MXBundleUtil init] : sha256 7856c3af687dded730b442d7542e7b889e265b5070790c8f9ca2be4a8cbc1b77 -> bd92d3679943ce3352fd78786ed9de11f551c0a8dfa112f0f3aa333d62f3980f
+~ -[MXBundleUtil bundleIDFromPid:] : sha256 3fc57f5302caf72f86d240704090eced661d5dff270ec57eeacb961c84b62fa5 -> 32ee416fea201f5b12ddb1594bbddf304338d32a95d435473cb88089b25beb11
+~ -[MXBundleUtil bundleIDFromAuditToken:] : sha256 f8832ddfffba5f1b7ce6b0856717f723ea009bef3847d90aeaf4a551dba00567 -> c6824d4682e63a3d1b237ab5fc5699c0d040d0d3f16f4d5b20b780b89dc58c02
+~ -[MXBundleUtil teamIDFromAuditToken:] : sha256 946638fb2bfe6feea73aeb07fedf1c511814d5a38895c75d56e024e2e295a053 -> 6d0447e5fd3715a3f52f0308c384b0b5aebcd1b7ebe468c9e51c1d3844e18dd2
+~ -[MXBundleUtil isAppExtensionFromBundleID:] : sha256 78dc3faf2526c38d43b1f5275e9feded84b7a2d88288310d2772ec6ccf608752 -> 43084556a91e61827c3755dd6b467a40b80301ea44b0221711a9b0ecae72d292
+~ -[MXBundleUtil mainAppBundleIDforExtension:] : sha256 b6365236d23604e1d9bed3f0433f1e14e048f4b18582bbf7b84b7e1e438a2443 -> 7623c108e3d8b6e3a6358eaf66d469312d41a302d2494332588dca94a731519e
+~ -[MXBundleUtil isAppInstalledForBundleID:] : sha256 3744ee79e68f9fd14eb946a95b9b6b8e67e8d01a6ae773a1024532fe6b28d5b0 -> 4d600f00351997f69a1eefc3e5958774ceb8372970cafa6611429ccde60323f6
+~ -[MXBundleUtil _bundleIDFromURL:] : sha256 f8a4dab4da96c1ef30c1d561339bcc1daaa4b82952499684451c36ee2f69dd77 -> aef8690d679835806f36194c5126565e07f1a327f9749dca0158c05689f98845
+~ -[MXBundleUtil logHandle] : sha256 6b4d7d56eb7c22db6426a8f30562cbe86b34b6b8003753ac45149d66cf64d47c -> afccb1bf26a46c3a6f6826f094875a9c9a080f8d2443ec4fd9d153a554def748
+~ -[MXBundleUtil setLogHandle:] : sha256 e716cb4907415f727dfc63900369334ea2f8eeaf3b3b24ba28402d4852a843e3 -> eb9c19d7bd7a2106142c5a4d20a66e10f75ccd16cc6d351cda01c8f861e009d5
+~ -[MXBundleUtil .cxx_destruct] : sha256 819b0666019713a12911ee1cc68979134fc5299caad60f6fc6fcb7a7c0cc05eb -> df230f45a27da03e7e78495bf717163b318c354a7ac7da85459de945589a0bfd
+~ _OUTLINED_FUNCTION_8 : sha256 83e9183968dccbeec6806ece5a56ec7a76b3d829100c51dcc4608d869edf9cc0 -> 0d85593476a46357bfbdb0f5e32180eb5e0f610cf75d36aabd6b056b564f869d
+~ -[MXCleanUtil initWithClientUtil:andDeliveryPathUtil:] : sha256 d17e419edd8301f5659009b0d6249f36ad7eba52e3c3d4611c450c5138e4dd7b -> 5cb9dc4f0e5c1a01166ce8bfc6cec0bb0c7e6d090b4aa83f69e857ba106a4e03
+~ -[MXCleanUtil cleanStaleData] : sha256 76d497443e743823540e572519e6d72b7456cf2c10eafdbc5968796d1f4784ff -> 852b87990b6a32924a0f77376fb0041e414ef85753f12738c155e08e92ff5801
+~ -[MXCleanUtil cleanAllData] : sha256 a44a1f5a0cc2b36e2126932fdaf3df116f0612685cd4ca0f44a32740b9616641 -> cd0574e8b77727945b792dbf0bdd1e72534084c4f90b1aacce43f06cfbd6857d
+~ -[MXCleanUtil _cleanAllDeliveryDirectories] : 436 -> 428
+~ -[MXCleanUtil _cleanAllSourceDirectories] : 508 -> 500
+~ -[MXCleanUtil _cleanAllDataForSourceDirectory:] : 336 -> 332
+~ -[MXCleanUtil _cleanDirectoriesForUninstalledClients] : 284 -> 280
+~ -[MXCleanUtil _cleanDirectoriesForUninstalledClient:] : sha256 75254771059a537334668843007da77005a4d0fb4115f32ee2be644634d64e41 -> 99de6f03d8d87363bdb2d30015083f7b09fb31ec3caac3a3ac005fa824de57e8
+~ -[MXCleanUtil _cleanDeliveryDirectoriesForClient:] : sha256 d00ca4d9306113eb35488fe53987c58010adcf086472d4f464e1c826b7deb130 -> 4def918079ca6848802a74c60f246791194cc2cfacfbdbf06a7ca17934b71576
+~ -[MXCleanUtil _metricDeliveryDirectoryForClient:] : sha256 6d14e5448063c28665461f1756e01cabcdaf56a2e9da9da941b314b63d1356d6 -> 4b6564c88016db0d10d91d58e195a3306dffb8b8a28fe6b4dc83fe83361e1c5b
+~ -[MXCleanUtil _metricDeliveryParentDirectory] : sha256 68eef17b987b45c6aa38fcc940d4d532dee869516a6280b39c1526752016a9ca -> afda1466fa19dd4775eb38a6a8d6eaab989e04066222f81ac21049baf6d06815
+~ -[MXCleanUtil _diagnosticDeliveryDirectoryForClient:] : sha256 0222ea3f5a3cc2f163593abe754e87790d0c690ab7820261162be64aa53d2bf5 -> 825c8581b83aab85f88bf52fb77d31e5242fdb3e2cc7d0825200a88c99bde878
+~ -[MXCleanUtil _diagnosticDeliveryParentDirectory] : sha256 fb88bd57c89913a7aead97ffd315c73ef837e14ce7886d3648db5fcc154a91c0 -> 4780cca67ab6eb9834037c6f91da40ea16554fbf5fe1aa9100ea286ccb818b63
+~ -[MXCleanUtil _cleanSourceDirectoriesForClient:] : 308 -> 304
+~ -[MXCleanUtil _cleanSourceDirectoryForSource:andClient:] : sha256 7c06e0956d845b6b8b8ccd0eec5ae46ebddc5fd2fc629e5307685f573b7045c1 -> f1cfb3f9e95899ac1d915eaf396b1295e1cf112852a7877ec8a9241b0dbffea8
+~ -[MXCleanUtil _cleanDirectory:] : sha256 465d23b61a20bd8c99571f5ba956ba090a72d865ee7840fdf8330fee29ce0e64 -> 6bce75fa4d974148b3aedbb2f9805193f17d76c5d4ab5e671c45d55b2c2f88c6
+~ -[MXCleanUtil _sourceDirectoryForSource:andClient:] : sha256 9d251cca54048ca3b2227c3e974ef1d55b3845fff0fb3d0ae83bc2238afcf358 -> 98d542c6aa055fe82427f8c22a80bdcf175691950bf0ed88f31a06cbb019c4b2
+~ -[MXCleanUtil _cleanDirectoriesForStaleData] : sha256 5a811a1a85a10a6b23c8562cae6ceedcf693ac2d16cd96dea9cda2d8ddbb724a -> 2bb6c0eed6d17ca9c85e14a45a3b10100f1923ffb13b3d7ff94ebc20624714ea
+~ -[MXCleanUtil _cleanDeliveryDirectoriesForStaleData] : sha256 c953674299ebd0e351548fb68e0a353578f23429d5d32d2b2bb5ba023874d456 -> 7e1ec22a32c29522987407a1e0d2a63ce23e9a4fc0b4a0ebb8b69e624f0fec7c
+~ -[MXCleanUtil _cleanMetricDeliveryDirectoriesForStaleData] : 284 -> 280
+~ -[MXCleanUtil _metricDeliveryDirectories] : sha256 3bbfe5a785d24243e12298a6c9f65f15fd464510c2215af0a8a8054b7b81d8e6 -> f7466df60d2fa826ec5e3c6b644f6061dfd127a6ac84a529eeb4976b85ae5379
+~ -[MXCleanUtil _subdirectoriesFromDirectory:] : 484 -> 480
+~ -[MXCleanUtil _cleanMetricDeliveryDirectoryForStaleDataForDirectory:] : sha256 4e238f3e78cd126f9cfb4b55b2765a389a591b311f65decdad2e7d0c4b26d9db -> 86d2cdee752867ccdf330edd5373d0dd7b0bafbbcbaa79c066d6e2b2441f6fc8
+~ -[MXCleanUtil _isMetricDeliveryStaleForDirectory:] : sha256 b684d53f370b99f693015e4b265490a88acbc540ad436e8a062649da6348db07 -> 5fc7b65b5fd12f7f9c4987182c2b6eb6da66aec518fe0fd6cab82a75e59ef448
+~ -[MXCleanUtil _filenamesFromDirectory:] : 544 -> 540
+~ -[MXCleanUtil _lastFileDateFromMetricFilenames:] : sha256 0557d3c013500bec4de7394c64d84ebb6cf6a89e291dd7605b65b9384abe7c8b -> 4e3ed659082ad7924bc6f59a54966944432b974f19e467f519554b8c179c0260
+~ -[MXCleanUtil _datesFromMetricFilenames:] : 364 -> 360
+~ -[MXCleanUtil _cleanDiagnosticDeliveryDirectoriesForStaleData] : 284 -> 280
+~ -[MXCleanUtil _diagnosticDeliveryDirectories] : sha256 0c98eb77a07744d748f346161fb18accc0e9c688a85d7a8c3bd44de1f3caa68b -> 1596c637a353e2c6deaecd51fcb44352b9749497d31ce11ede18404804bbb562
+~ -[MXCleanUtil _cleanDiagnosticDeliveryDirectoryForStaleDataForDirectory:] : sha256 758e774c6f0fb527e55894def84e6e88bc5c1c3b60a2122eb4c8dd1e53f88892 -> fc03f17d10744666c0c7ed9239abbda6d2551cf353e20c00ad84488827efa1b9
+~ -[MXCleanUtil _isDiagnosticDeliveryStaleForDirectory:] : sha256 577926546f5b7fd8c1f107b737ab3746dc18dfcba4b37b09d99fd83730ca3100 -> 663d636e210bf3b9c8efc17e7db588c20aec35f03fbea67d533779d0f545ad64
+~ -[MXCleanUtil _lastFileDateFromDiagnosticFilenames:] : sha256 2a08b9fe1dc8b8ae9e98540267dec9a201278bdb4483514908fe228b195bfd06 -> 81ac6d348cb089ed27e21245d7bf97e75721e8bdf35d6605b843a50d1a949ef6
+~ -[MXCleanUtil _datesFromDiagnosticFilenames:] : 364 -> 360
+~ -[MXCleanUtil _dateFromDiagnosticFilename:] : sha256 9790f78718d4f3c9ee713f50b1fa3583c68ec5c28d60cc040a710815e342a975 -> f72912cb50f86e7333322d8d64d309b35289c0f0c85c92c9e984be926070586b
+~ -[MXCleanUtil _dateFromMetricFilename:] : sha256 93d9883595edd612f55ee6b6b055984680d9490d10ecb700e5b501537564498c -> 3fe5428a6e9d4b8fc1f5a77cac84a0b11c23d51ff4ce9b41720a761caf4ee78e
+~ -[MXCleanUtil _dateFromDateString:] : sha256 2aa2fe251246c3dce9fa5a117274e93a538473281548074f4595e1545ecf6448 -> 7bb51d013f7175beb92ac5555806a3e8025270e2393efea7384ba988495de952
+~ -[MXCleanUtil _latestDateFromDates:] : 364 -> 360
+~ -[MXCleanUtil _isStaleForDate:] : sha256 b3f01d7d5a7700e015aa776fb2d9d4025841b732365c4966816dbbb5abf521e5 -> d837cfc9c03a274400f8d3474fef2a9e184ce964a10cbc1cba3eacc982e18203
+~ -[MXCleanUtil _cleanSourceDirectoriesForStaleData] : sha256 2945f09c8e7712604292a056d795276a5a5d492f1cddd4d99001e350dc0ddbbe -> ef431581abe7c352903338d26956dbc89c5bd19c091ffdb55332829dccb9afc9
+~ -[MXCleanUtil _cleanClientlessSourceDirectoriesForStaleData] : 248 -> 244
+~ -[MXCleanUtil _cleanStaleDataForSourceDirectory:] : 356 -> 352
+~ -[MXCleanUtil _isStaleSourceForFilename:] : sha256 fc5865fa8c00c3de7e2798bf2b432940632bfed2ed7d457bf553c0e8a08acabb -> ff87010ba402162d37af13d6b8f61b1893fd36d5cd30d5b52d773c93244e7769
+~ -[MXCleanUtil _isMetricSourceFilename:] : sha256 d51f7ef0473edae937dadfe086c8c3d98c629f1b78fb0be4136397699400fe34 -> a86096267e4d9cbe97fe1950fc812c1b408933793c59192a79dc2918618fd34c
+~ -[MXCleanUtil _isStaleMetricSourceForFilename:] : sha256 f884be07996d4bea2a1f404124959a8f22f99032a5ff57024b5f777dfe2c73c3 -> 8716d42a04d3f07a07b2c200c6d80b8d001f08a39210f632b15772c1eb826c9a
+~ -[MXCleanUtil _dateStringFromMetricSourceFilename:] : sha256 8bfb7307b34a4ffdc8c7be157791c48ce1cf4898c64a74197cdfa990b55a757b -> 22a9e17ac9dc3fe280cb0fda49ea145c0f4a6f2c8bdf79fb7cb6a9ce4d386e95
+~ -[MXCleanUtil _dateStringFromUnprefixedFilename:] : sha256 19f41358155cb2b5e3e076da8069cebec3cd5e08d349447d9607c9226d0bcbf3 -> 4365420d988a50b0d981c6c6da89fc455414cb2536f8c1d476d6e7b12216e8c8
+~ -[MXCleanUtil _isDiagnosticSourceFilename:] : sha256 6af71c225c01058befce8528c020b19ad4da816d7999fc48d485504f1f0f0ba9 -> aaf65ca5c9e6eb8d4f28c317c5470d5448a61f00f694266a3e5e339184ec9b4e
+~ -[MXCleanUtil _isStaleDiagnosticSourceForFilename:] : sha256 78d0424033b3802d517267d5c110fca26702284eb4a08c98cd5294dc58bf7424 -> 549d41daffd19191c743e8102f9385da534c8ca75da2a18f955cd5a9c79407f5
+~ -[MXCleanUtil _dateStringFromDiagnosticSourceFilename:] : sha256 16409c67ae25c79b1010d0b42563bc76c4880945f6c38a5b31492bc0ce36590d -> 5017867414ef69ee2dcfebc1599ad99ed8efef15d12045140a07fa4c8623be13
+~ -[MXCleanUtil _clientlessSourceDirectories] : 476 -> 472
+~ -[MXCleanUtil _cleanClientfulSourceDirectoriesForStaleData] : 248 -> 244
+~ -[MXCleanUtil _clientfulSourceDirectories] : 532 -> 528
+~ -[MXCleanUtil _cleanFileFromFilePath:] : sha256 1eac57541c6ea55d71cae0b8da196c2fb2fe064c0b0f3e8b4f85a7a40d82bb3a -> c11920be8fcc96f01075c16055a554bd52277b9776ed4cb2b0acc163707797f3
+~ -[MXCleanUtil clientUtil] : sha256 db7a24abc3b8c1f560ad6455579089ddec0ae5c92147ad37f08b48da9e4cab9f -> 8009ad6192809e0a058107177a63c1c8928082f63beae696f1e8945ad49fd114
+~ -[MXCleanUtil setClientUtil:] : sha256 cb9d7d1e15697834b0bd98fce0b983337d81894d12bc5179dec79a08b19e9bad -> cf1fcabf8070a8ea46a2fba7d985a8f8b4b70778f7292dc33c894a0e9b7cf902
+~ -[MXCleanUtil deliveryPathUtil] : sha256 d824e8b359a5eae3a509c1382afab407e58f9215e4606872cfd67ff9ac1d7e64 -> 8ee657a3c1dc08188c15c296ef53b4a1361e94968b82c7fb08b0921180f1cdd5
+~ -[MXCleanUtil setDeliveryPathUtil:] : sha256 687f4a03420fb486d487f559fb14407dd88a9710ed57e46199df7ead5d0496c9 -> 9f9a7e7e564d58e0f5cabcf21413b51c1b67795b9d3d2f23d6d89bcd789c6f01
+~ -[MXCleanUtil logHandle] : sha256 048cfbb17eedcd4ab7e3f2b7083e499e0b24370a6a7b34a0004472fa24e036d1 -> 12d9528277bf4efec31663ed5f58d5e5c37a3647383e002ae6604406813fe5c2
+~ -[MXCleanUtil setLogHandle:] : sha256 7a9f2dfa528a0f19d6aa5ff8b7d8556177dee470ff21d5f44565b5e2e615045b -> f9aadaf4b90731671c872cd21727db427a1089924f53efb9ff6a358c94fec2f8
+~ -[MXCleanUtil .cxx_destruct] : sha256 27436619e64065501f1d0b7510a63896d0a0b156da5d9373dcd1cdf97590027b -> 66798cd6045febf02ca624158544525fa8cfb919eb0ebf96533dc6bb3d367ee6
+~ _OUTLINED_FUNCTION_10 : sha256 37192099ab4c403a4e287861ba82c92c9812324a598dfd09ab8e32a96acb5572 -> ef38e5e968e5d11ce3b89b81ecd47a5e8afe51e3c88f20c83bf43287b60fd801
+~ -[MXClientUtil init] : sha256 0564551bdd04c88de0f6b1bdc4152ec65586b3806a4220d6a39c1cc06eac3ac5 -> 553bafb47899ad0b2fb3c98a428a76826a2a90650716146e7a225cc2c2b340c7
+~ -[MXClientUtil _initClientCollection] : sha256 f1871bd4d418049a5fb4ad60edd724f523e6c317ccf09549daf955357bdf0830 -> dddae5aa7855dd1ee2fa3eb5fdd46c93f35f8ddbfa2f27403a14df00e035a669
+~ -[MXClientUtil _initStateAwareClientCollection] : sha256 ee02eeb184e10cefae65d7791f41fa6f4ea522308d6c7082cc131b00f7091fa7 -> 6e35314d7a14c04639e0768fb0406ae573d553b5c879c394aa8d9dfdf0307116
+~ -[MXClientUtil registerClientForBundleID:] : sha256 9ae1f58d670f5c2bbcba3af71fa2b0cac406590c790972391abb1eb0615cf9ca -> 8552e6f10e2ffbe3c8b29978f9f51b05189e96efe2b7ba70f363f99c6dbe940a
+~ -[MXClientUtil hasAnyClient] : sha256 2c8f8d821b683b067c291e662df9c157b7ef271084cbf927371d8a7ab04e6e3b -> 71409ed6029a067d1c8e4c8efc011fc970a4fc8b480318294229865ad24d67b6
+~ -[MXClientUtil isClientAvailableForBundleID:] : sha256 4e28791ae5ca1f81ea50dd1eb73ace3017c98edfbd356de131fb4efa2093aa5f -> 248b90c996b177ddf44884b4a88fcd73a331db8ec8f259bc25fb6177a205cc43
+~ -[MXClientUtil allClients] : sha256 bc3f7bdfe75667f8a3b56c2a1ef2bc59cab2d546c7ccec16ef7903cd77dc849e -> 8c68994d49758a551da716eaf099fab9ae5b09fb85b8c517e4eb682b212c59cf
+~ -[MXClientUtil teamIDForBundleID:] : sha256 0b1ee47c20f52ac69173164a81e57b14855c6e7dc88df4ac1112417384469911 -> 27d7d144c6b41e4db4b88fed19bb3165babcb07a650412a5ed0b2cd394e256e5
+~ -[MXClientUtil hasClientForBundleID:] : sha256 f16c524a8e1caf8285612e1b0bca7be7d70e9e4106fef941ab68bb9eaa915386 -> 899869ed6d9b66a82c3a1a086dec4dc3f46a23cd412259369309486c93a5fb20
+~ -[MXClientUtil isClientAvailableFromPersistence] : sha256 a4e819aa2e221bdb02695efb4fd7ba3c6563645ea42ca8c4caa8f5d21711bb19 -> e3bb26ba72edf3fb6c32f0e2c43378cb53fbfdf0d3b920582d51ed3f9330d9e9
+~ -[MXClientUtil persistAllClients] : sha256 893c55c293eb3f9a29fb802fa40892e91005db9c8caaf83cda69db824781a425 -> a8fc1dbcfa445171251cd0f6210a910a5faff52c11a3b9c530b11927dacb6372
+~ -[MXClientUtil updateClientAsAvailableFromPersistence] : sha256 16b0155bd8ba2b89dbb7c60257b52400657bbab8fba93a43b4afba1fc6d651fd -> 4e6443fe965eab50687e19396452f6c776918bdd436d0b3024692264e9cb4cdd
+~ -[MXClientUtil updateClientAsNotAvailableFromPersistence] : sha256 7743fe078993e197c4398fec6c928bf3776bbb484e6e3eb96e99f0ced97c3c2a -> ad61e04c6ff7bccbce27644b0e4eaa4b89b5b05e45f54fb0f0e43ff6b051658b
+~ -[MXClientUtil removeClientFromPersistenceForBundleID:] : sha256 644d675f54f8b70ce4c7bf9116f1c094bbfaac0f9caaa37740ef32f3a33fdb3b -> 25bf3659f13de14ce2696af1d4ca4b91c24eb4ee4f53e528f347e3da6014adf1
+~ -[MXClientUtil reportMetricKitUsageForBundleID:] : sha256 903792d8187247980e5b9d29399ef66ec7feb54d1bc6b3195503357652932193 -> c94d99c47ef7431bba89271a3d447164e13ab83bfc7c917ddca6c5267ea9d9a4
+~ ___48-[MXClientUtil reportMetricKitUsageForBundleID:]_block_invoke : sha256 12beac23a5989606d311da20ef20b29069c022f5b0728a41558f27a7775943e7 -> 1440605a34452aa8735bc8a6769e9512a84075fad516caeec12ab4447a7f8c5a
+~ -[MXClientUtil reportPayloadDeliveriesSuccessWithSuccessCount:] : sha256 1083f56a305c9e59e3a025b3f0fdde1340973a7dff3e896eac21a3ed3fcde758 -> 1f917ec9a2519f94f6fae23d7cb38748460ab2ad94d30c2ab49d3cccf41aab66
+~ ___63-[MXClientUtil reportPayloadDeliveriesSuccessWithSuccessCount:]_block_invoke : sha256 18c91c967880e5e1bb1b8cf7d9528bf4f9e6fc9c0e3363896b2d5413a0738177 -> 9f83f369acf5dcaf93036f84fac6e3fee21194b718df00420243dcae02d6a10f
+~ -[MXClientUtil registerStateAwareClientForBundleID:withDomains:] : sha256 cbc7a65fc45c543ec511ca5e270231657f78fec0b0d8a9bd2c68699fc8bd8a88 -> 3fc5ce4d6239f1adbaf463ca61e220fc21ddb1657b6a43d2640a7a744659da83
+~ -[MXClientUtil unregisterStateAwareClientForBundleID:] : sha256 21d77b606862b920b685add63c3bd3708034a3104a8b42582d4781035686ec69 -> fc7e637d9fe6a56babda39a11d6099a865ea47875d33eb0610aadd64815cda5a
+~ -[MXClientUtil hasAnyStateAwareClient] : sha256 38a8264add961ec5f2733e3ee1277d1d849f4e155ab3a9fec8ce79e3003a3b21 -> 83b345eb53928f0dc8410ca04bea747286d32e9c3ea87e0ae58fb08dc5c2475f
+~ -[MXClientUtil isStateAwareClientForBundleID:] : sha256 dc031f3f88e1195c0b90be81994a887f06d96bfd09aa4c45122ccc6ec686d6d3 -> e6a20b681af008cc756c05f1a1189a13429c5149d4c812884de9f052c0c945c9
+~ -[MXClientUtil stateAwareClientsWithDomains] : sha256 c6f6ee1663494da3c9ff22f8bdd35c958fb57838d0fea4ffd066df9acd4c31c0 -> 573672b76e2d31d7c7a49c08f7da953eb1c6400a11947900b8654305bdaee9eb
+~ -[MXClientUtil _retrieveClientDictionary] : sha256 a84e929fcc4a3b898536dac160ee9189d5cbf1527579e2924cac079802e1871d -> 92bb93bce7469ab180cbd58846f1c4214de859762a4a6ca13bbbcc159c827404
+~ -[MXClientUtil _retrieveTeamIDsDictionary] : sha256 a301f888a052897ee37b59f47e31a04d5ee98135c0585886cd79908b87f26030 -> 00569a6252f74f3e574690f1582413a6f57d88ee0990c0b74feeaf89060b21f9
+~ -[MXClientUtil _persistClientAvailability] : sha256 e979e7d506df35e8a43ee03700ef2c6dbcce47d08aa96fddc215913e41a74f44 -> 23201cec1eb62996618c07fe222cdd7019e7474671c0165f3f70c49f1b644865
+~ -[MXClientUtil _retrieveClientAvailablity] : sha256 6f9b17160c481d3302c84157b071af72041c7fefa489957a2981117b152ac25f -> 308c77a6b358bd838f109f7d440ca82e25cd5359144b0ee4d693733e952adad3
+~ -[MXClientUtil _hasClientInClientDictionary] : sha256 e96d67ff8370d5188b5c9a3fb864d82d82c57e2231b016cb5cef2d993c6d85e1 -> 996a178145a26690a74e1b4a1b20ce3bb819f1acb943058885057df192bff903
+~ -[MXClientUtil _isClientAvailableFromPersistence] : sha256 c46a6c96bc525d8ac9e8100bc4bb1cf908ddb2751d610e0b14bcf982dd00479c -> 4fa5932354c54be52f5420d82f047354db6c2164b7caf7d0306bdade208fc0c2
+~ -[MXClientUtil _updateClientDictionaryWithBundleID:] : sha256 f5c570a320cc6584dba9a913bc6a1cff15c35022504e80701a8209b33d6abcaa -> 5ca7e3cbd3258357f252b0ff92becf806f12051178d8af7ca4cd9cef22596b73
+~ -[MXClientUtil _updateTeamIDsDictionaryWithTeamID:forBundleID:] : sha256 519c23f48a033bd28800174d7e39db6313452b0653a5c10b4b533dfeb2164128 -> aab1d0ab16eca1f5e633a303127b4ad940f58148422564ad42e42d269c4028a3
+~ -[MXClientUtil _updateClientAsAvailableFromPersistence] : sha256 64b4d5a776f39c8f4d04aa639ac269c4c7c3b560bf3dba51b708d34d32ba220b -> ddd9af82afdee3dc1c1bbfc1f59f2062b3118b202e2b2c6035e1a10faf282f66
+~ -[MXClientUtil _updateClientAsNotAvailableFromPersistence] : sha256 7cf72ea6e347dc8331f0e38ea8663b02bed27bd5ae03ba354c790892d7467a95 -> dc47a32dea0a1e2c6f0ab5cce11a05c1cf95d3b40f7d7011084490500cefcbb4
+~ -[MXClientUtil _persistClientAvailabilityWithAvailability:] : sha256 51f1e2b92b489940fa6f9b87f24190b1a7f09ed5b8218dc0d442b3a24c798853 -> ab913c5b50cd6d7208bcb7ca2d2fc8ba4fa5301cc6cdef3720ad29cd2b9d8fe3
+~ -[MXClientUtil _persistClientDictionary] : sha256 426310d98ca294bbd68b13660af60a02bc94f80ba1905ac0dcba9d96714948eb -> ded0e29159f258b969d7c690d7cbdeedec2d307c29b9cb341923254e241a337a
+~ -[MXClientUtil _persistTeamIDsDictionary] : sha256 540ac9cd5c226379d63fa70dc5ae53f4f2d52fc3c9a2480ba47851ec27d173ae -> d48a89d075c454e05ff7b9c775d6b79bb55e2724c5875e9ebb728b8aae3f3d6a
+~ -[MXClientUtil _randomReportClientRegistrationForBundleID:] : sha256 51bba69b39e9bfb1b0ecaa3265c6a12e363ffb272c23ae94a132af6aad892765 -> 29254d487301d34e4959efbdcbbc5895d314570abc691061fd34b2ceb5963bbd
+~ ___59-[MXClientUtil _randomReportClientRegistrationForBundleID:]_block_invoke : sha256 dcad88bbf8114c2f479d00a188845740fc9ebdd685c3a3f72997fab0ed231290 -> 0d458789103e377dab926c3855ca5f55398925f628defc9c8dcd064625a45058
+~ -[MXClientUtil _retrieveStateAwareClientsDictionary] : sha256 7e24fee4f98536e4f86edbac369f6676d9406cac565b9edba37f337eefaf8d9e -> 01e3f552182709a2f247b5e6f5e54c205fcf7d260cb34222303645e8d72d09f2
+~ -[MXClientUtil _persistStateAwareClientsDictionary] : sha256 d97fbc19246ee3a4d40067451c5cf21d50d182e0f290358d8fb4ea245e9c12cd -> 6bfb5b6231b393323dddf33035ae98d4a858f3c44ae244e5860ac77b04c07622
+~ -[MXClientUtil setClientDictionary:] : sha256 40d0f8b451ce4ee7908e909f46a44f1d2a0fb088e8c9a8e4a1e84cc4e324d672 -> fc0b6da76477873288116bc729cb494d9165e95a1c9a04e2e9234ad082c3415c
+~ -[MXClientUtil setClientTeamIDs:] : sha256 5db4543bf5dab053fcb21a61a74dc3681e4d77a76c654322293c33dcec303b07 -> 3131b65c2362d0c4c587aeae3b0ce8b896d53c79918be95ffa4a16c265ef701f
+~ -[MXClientUtil setStateAwareClientsDictionary:] : sha256 063ec0948403fd2fa49574b6f5352db5242326dd19d5f2553c51d4efaca4f8a7 -> d8019ea59261852fdf955cbfb4b89b322bc967b9677bee211834f08886fdbb95
+~ -[MXClientUtil userDefaults] : sha256 442882228d869e9a6194c6b0c65c3b91830f65d1bd5991b6e632d06b838d5b34 -> 46ad30d365d21aaa9cbe924f1c7cfdb7f4bfb0469ae28424fc72d2897c5b69a8
+~ -[MXClientUtil setUserDefaults:] : sha256 a0296d23eddba118895705742f13bde59437de243af10e391c2fe917b90f0c7b -> bac9638ee0e1cd87bcf614278b9f78f77202f1321d181e88fecad19c10406f75
+~ -[MXClientUtil logHandle] : sha256 36e80ef5628e1c655c82ee02f317e68c29cf0499a2c911eede8be61c0f8cc031 -> 2dc9f54813948b4786c94411e51cd3af245a07153c2efe8631f0ac6fc52b3c9f
+~ -[MXClientUtil setLogHandle:] : sha256 37c1c8ed396180cc34b34d871cfdc296da40d40f0dacbb913808e123085e11c8 -> 41b8465d490ec28434da8155137c6c4736445beaf270fdca78dea67726592d2f
+~ -[MXClientUtil .cxx_destruct] : sha256 726cf86633bc088dfd8efb86704fba79c272e9cadccb1830e8a86038ad4f2234 -> fc799472f901f9f95c3f4f1e435aaa39d39376f55a43414b3b3d28e3de6d8989
+~ -[MXDeliveryPathUtil initWithStorageUtil:andBundleUtil:] : sha256 ada022a8843e48442a75d114fab7f17cf47a34c41883c5e19fa576cc16317043 -> d66b86a94180ac43225b657c08c354ef1f5fb9e25ea233a65d869a52d0c1d0a9
+~ -[MXDeliveryPathUtil filepathOfMetricForDeliveryFromAppContainerPath:forClient:atDate:] : sha256 687952f109ed79c937bc6db18bc966f08f17d9b08ec3d1b6caee082fe6672c8f -> 92c3719e2bf16979a3b2c6875dcb6171123e9d961fed031eb96aa45aec61e7c3
+~ -[MXDeliveryPathUtil filepathOfDiagnosticForDeliveryFromAppContainerPath:forClient:atDate:] : sha256 dc4edf888b76a163714d8cd0b33ac04b12559d18c6d3dd13b36901aa45262c74 -> 0a3ae12857806d99971467017f6cce1d46f1614a88df001901c442365dcff645
+~ -[MXDeliveryPathUtil metricReportFilepathsFromClient:withError:] : sha256 72236cae0dedff16346a39ee8bec77cae6a53a365f1a0af30a92547c0a003ae8 -> 478de6dc16c8c2de857d32d7fa08c185e8004b3b45c0ec5a6413c22f0e4ba561
+~ -[MXDeliveryPathUtil diagnosticReportFilepathsFromClient:withError:] : sha256 ae6b4aa6dc0e7bfe1161968bde43dc06cb870237a1c29f5669112af1033ed178 -> 5a07b60b455960d1d65b5c079aa5366bc2bf3bb36c50e7fc9733b7b685a4e991
+~ -[MXDeliveryPathUtil _filepathsFromDirectory:withError:] : 372 -> 368
+~ -[MXDeliveryPathUtil _metricDeliveryDirectoryForAppContainerPath:forClient:] : sha256 b4a5fb1066f41bafa6f6b24a7f1981e4d88c7f1350466dad81481c420f53646e -> 93619443b02262c4bf8b123668a08b1a52c23a94d1ab7d249f1bd2f2f6f69345
+~ -[MXDeliveryPathUtil _diagnosticDeliveryDirectoryForAppContainerPath:forClient:] : sha256 c77f3a67adc739eb735dcbdb1b620b4f04672b7848891f89683bcf929b4384bd -> a2acdfcffb60407676b63e8d4fc986d9308ae66e8f4d1076a75f280b17fc889f
+~ -[MXDeliveryPathUtil applicationContainerPathForBundleID:] : sha256 aa97d44d8d25f02531a8139caa7d7b59aed9098cc6c19fed5762e59ecf96f151 -> a3b3d41468c0aa0e5b859bb28f7b666fd12d7b9ce2486c28b960e688b3d50970
+~ -[MXDeliveryPathUtil applicationContainerPath] : sha256 28ae757c0388c9d89a379e1424e3bf0e4774fe30aa4ea7d06dcb0f5bcf459f9f -> 320285b6036ce5bae67a0bce98f799c581fee1bf6b03cc292862ace106e7f8de
+~ -[MXDeliveryPathUtil _applicationContainerPath] : sha256 960afb73f25090dc6486e9aa201b94a2054c2f9705c0a7e7f9a5107551f7e6a4 -> 8743de97f1732bb91102bc71141fa2321b806880ffbec0e4bcc224a049efd8a8
+~ -[MXDeliveryPathUtil createMetricDirectoryAtPath:forClient:withError:] : sha256 16f0f4a44c1257182834f47e5012c54063b805ae237579f7d3fc48504379caed -> daf3234e12d8d56e3a1d4bfcad7e355819aa13f5fa814cffee6846d0d27a64cb
+~ -[MXDeliveryPathUtil createDiagnosticDirectoryAtPath:forClient:withError:] : sha256 421f1a923be89d9a3bdf0a5efc2a1204b33dd40108c98778fd9d7968dc3acca2 -> 335b1d45f93f3a762d1376aa0c1ec95f5116ebe0431ff8d90e7a656f0bf222ac
+~ -[MXDeliveryPathUtil _createMetricDirectoryForDeliveryAtPath:forClient:withError:] : sha256 c25fb55d98e2a9568b810bda7221674d93ac13c22874c557b0dfc5259cad3087 -> a8a35021a369449c44a5404fc9a91a57953ad6d0b8ab019db6c1707412aed8e7
+~ -[MXDeliveryPathUtil _createDiagnosticDirectoryForDeliveryAtPath:forClient:withError:] : sha256 12dd6c3936cd65aeccef76d49403c1f5aa8e7a1a8984d6224af48089e94dbc4f -> 7fe36ecffa2fd77c6aba6754b840d61f2e634ddf3ea7f707e95e9f39554ec4a0
+~ -[MXDeliveryPathUtil _protectMetricUntilFirstUserAuthForPath:withError:] : sha256 f85f13fdaf5d51001909d449109c63cfed5fe8c46811d16682145a4cf399827b -> 0eac9726d5d31497aa2f9026e64f0765dade6af739fd215f9d222a08d7e10dd6
+~ -[MXDeliveryPathUtil _protectDiagnosticUntilFirstUserAuthForPath:forClient:withError:] : sha256 b695042d04ce067639e161e4d7290f66ea2f3e5c938892b27fa083c5f0c3f67e -> dc5287eafa14105a3ad5db3aa1575510d71c035dc6ba78719cd2df015386e6a7
+~ -[MXDeliveryPathUtil storageUtil] : sha256 54444fcd5cf990278df5b400182f58ac11f1d2a35c3b6cc6e03bb8649c2887bd -> fb9b9e82241a2c6bf2283ca872b3bc382681e67f4adfd9b819d6d4d66bfa3e55
+~ -[MXDeliveryPathUtil setStorageUtil:] : sha256 be147b78c57eb63cf38717b430767b1e3d114079b28b4da77202720f368bf0b7 -> b675bb6b6b4c9bdae30a1b2f5ff49dbc80df9048d207921879dd412397d7c1c4
+~ -[MXDeliveryPathUtil bundleUtil] : sha256 cccfa3d55c87781e5c19e48e046edc763c634eab1eb1b175d83be6ff5327c2df -> 61caa99f1e0ef674c3a59c8d654fdced26a5f952365270aef9ecb929d25f5599
+~ -[MXDeliveryPathUtil setBundleUtil:] : sha256 78d789e301527a953ce6c71c3d072ce15654a03a595de903fa7d0f1140d185f4 -> f2c2b4d13cba8ce791641c9e1a38eaa99fb1200c51400103a47acddf944a47c8
+~ -[MXDeliveryPathUtil logHandle] : sha256 2451d3a0dd3339803b0450ee87e712234a21974797c62de23253552b26a62c67 -> a176e2e4dd229db3ccc1b080f9637a8cd200ce6d22b60c1d9c3096957d279790
+~ -[MXDeliveryPathUtil setLogHandle:] : sha256 a3b625831c83bfe07363708517ac322c172c04cf531ff5a6a6b69a06014f1e94 -> 5ff1b77a40b49165b4481fad6468bea4fcbb552bcf96f828e8f376a79d908bb2
+~ -[MXDeliveryPathUtil .cxx_destruct] : sha256 d165a05d6875ae181474b21ee60cafc0bd940d85b3f635f6c8c5b0a019915b27 -> 0bd9791404a43ddb0beaa6c52c80a6d68d26a4d2c1caeb12726f951f1ef1110c
+~ -[MXSourcePathUtil initWithStorageUtil:] : sha256 a8b03e8b5a0005b2075c806f9a28fc357bb631be7ffb12929bdf9ed0ffa46410 -> e118883db0269188e4234f010e24d08560b22eec75ebf4cc7b93b6c57d0da51b
+~ -[MXSourcePathUtil filePathOfMetricSourcePayloadForSourceID:andBundleID:andDate:] : sha256 7a33acdb5d8f115e986ffc5e59905cc51ed4427737e0edf0ceb710e400d26a3d -> 9f54d4bb565b2128ca2224d32f23bcd87497809bf16f3485841974a3bba9c074
+~ -[MXSourcePathUtil filePathOfDiagnosticSourcePayloadForSourceID:andBundleID:andDate:] : sha256 e252d26e309f804b52193adb25f08f251819232e692659ed176eda0cdefb90a9 -> 8c569e6764a9a023c64c4f603175657149d1c54fb364ee82d4510491a8c517db
+~ -[MXSourcePathUtil cleanDataDirectoryForSource:] : sha256 0a094c792597b3c22290ca5112b51cae9351e402c8a44c241d4765c8cc49453c -> a27c2b3b1cf832c56ebdd33a3348792a23fdb3d810e916d7f6116af6816f57b2
+~ -[MXSourcePathUtil cleanDiagnosticsDirectoryForSource:andClient:] : sha256 d24cd21287ea5be08cb93d95aa2ed9f9863b1056285f098292b0e17050febc21 -> 5cdb188e729ad4dfe93f4b25e0ac8de945b7001dd65e1ea35e18abfcf55ab07a
+~ -[MXSourcePathUtil removeDeliveredDiagnosticsForSourceID:forDate:forClient:] : sha256 78f623e8c096c8baac548b1bed953149eb99398133e403ac53ab3a804f657bf8 -> c0df60e1b179fbb0ea9d4bf015a1a31e8e63bb2406fe207feb07c3711aa3158c
+~ -[MXSourcePathUtil _filePathOfMetricSourcePayloadForDate:andSourceDirectory:] : sha256 9ae1208217cb76593d425e41291cb51f76cc264a7cc76e05396595d646ed3acb -> 37b8808f0eab31727da22765fac3889e0a0b6cd80973835b785b3ffc114564c3
+~ -[MXSourcePathUtil _filePathOfDiagnosticSourcePayloadForDate:andSourceDirectory:] : sha256 9ae4bba2d5249c8370015eff4703ed5c957988402945fa811bfcd8eac9065dc3 -> 52bd1ef53d695fb9794a89c1dd9aeaca3b2d52d24fe26880e70bf5cd89a8365e
+~ -[MXSourcePathUtil _setupSourceDirectoryForSourceID:andBundleID:] : sha256 dd2154167490927369647615f08120b4712814ae30f66cbdb6aeb16be0457d84 -> 88eb6d0d413f2db4ab510f3e4251e5b57f6de06b23aae159724201311a2c9dd6
+~ -[MXSourcePathUtil _sourceDirectoryForSource:andBundleID:] : sha256 fe3aa648787700122df3fa9ec90544c7a1ee6922df3a901a186b2b3cd0fa0574 -> 89460776a00e0a60a0d88b8c13f427e578ebb5bd15b313ccead76c11b098deb2
+~ -[MXSourcePathUtil _removeFilesForSourceID:] : sha256 562aefb159ac3818a5569ea40b368e6fa892f9c2a9f4dfb04a230e5cda221783 -> 2802174f5a7173ae5ed994dbf49498fe0be90be804fff6a65125bb82fea7b9eb
+~ -[MXSourcePathUtil _removeFilesForSourceID:andClient:] : sha256 07a5c7b940500aebed403741ddf3588870b21341b9b0190012bd9637e52404fa -> db68bfedaebb2024a2d6e3ea9ab833f9bd91114b975a277aacc7cb71b01b76c4
+~ -[MXSourcePathUtil storageUtil] : sha256 edb6a7c059c8d84d7217c8e38623e78176f218bc7cc829cc7acca28ac23ebbb7 -> 3e745e1e64841afb86e1fe7d81598a12780aea9635394333153fcb5bbc03f3c9
+~ -[MXSourcePathUtil setStorageUtil:] : sha256 b78a8d4f3cf863320da276dd68f02bb14a0210ce21caee74c26e684fcdecd56e -> 6eb3bc60f70b4d9dc382459481bd946a5878c4692e0b734360ea49c6a2004672
+~ -[MXSourcePathUtil logHandle] : sha256 b933e94fe03a144b54da4c543eca6e012664464c1ea1316ba8eb470b8e030a87 -> 96d0845e3d4e98842646de0ae28efdece3936eefc28729fbd607a8725fa94999
+~ -[MXSourcePathUtil setLogHandle:] : sha256 b6cc0a8bc84c0c75be5d95d3ab511b98f90120faa9049a2c9329e497ad5f7edd -> 1ac9014f916a2fff3e5b47c55047cc5e5d0f646dfb8af945ade77c028f872502
+~ -[MXSourcePathUtil .cxx_destruct] : sha256 f0a8eecc827ff9838fad778c145d6ed0e1c8ece79a8097879af1a300a690b01d -> 0f2eecaa1143b1dd9ada754d89ca6bde547e0d6ccde9a16579b9160fe777e814
+~ _OUTLINED_FUNCTION_5 : sha256 43a8a84edd69500d6b54b7d40d92d7f112bcbf3efaa00220c654a8e73b2661cf -> add1c4a11b98ecc3fdd3ac53fb8b307cc98ab9affd02ad702d830034612efa64
+~ -[MXStorageUtil init] : sha256 a24ab64cc6fdfccd2ce9be8bf9a607a920c77bc0aa578e64375c8343a69500d1 -> 95a36f48fa0339509008d817635886b31877f3afa3ca0cce33ce70088c20a7d3
+~ -[MXStorageUtil saveData:withFilePath:] : sha256 264aa19402e2256bb2a980b413010572c9ae3c7c2b1d509aef0391ef2be991df -> f20e8bf8e7ac6914e552249dfba04ebdc24faed669c20b76cf52ea8e2434e732
+~ -[MXStorageUtil dataFromPath:] : sha256 9ae71cdc266c46c90eeadaabc6dfcf93cccea600eca0f265258ffdd085bf5c66 -> 737087f3c9fa47959e55d041a47e3f11ae841ed4af2e9b752724d6bf546b33d1
+~ -[MXStorageUtil removeExistingFilesFromDirectory:] : sha256 d91ecb1f65b2d59fcad66f59f9ef20ee5df2bfcfe55837642552d56042ac568b -> e205bb9f80c21c59c01ad4d7195d278007cac1e2ab75d23817ff441b9f6095ea
+~ -[MXStorageUtil filesFromDirectory:error:] : sha256 2b82bbd5f9cbb9abdfba0678eb59c3f9eb37c675d998d829bf8615e9530ee9e7 -> 69677aad9b972c4c62737f9563fb97240b25d55c72b376dbacbb124e4af834f2
+~ -[MXStorageUtil removeFile:error:] : sha256 b801f39998f16a8a44bc276779d54b0845bf0ed527b75a60d013fc1752604a37 -> 8f32b32080872ac57dcdd19702bb003cf567bc23f4a68597449395cbe543e571
+~ -[MXStorageUtil removeFiles:fromDirectory:error:] : sha256 a5227e7ae85e9fecde840daf3f2a04df373b23ee7e3d45720de28c41c3324374 -> 80de0b518d5670f4e1147d53d90068c13b1532c3f6428f031b9195aebef09b04
+~ -[MXStorageUtil removeFiles:withFilenameContainsSubstring:fromDirectory:error:] : 468 -> 464
+~ -[MXStorageUtil createDirectory:error:] : sha256 6631c611b8ba00211ffd406f1a95ab1620f359c3aa0e7fdaa256cb4bdf96ef8a -> d63e06db61f129d3cabb9a45114dc96efa454d2dda9653b306ae7d551ad1c3ce
+~ -[MXStorageUtil isDataExistAsDirectoryForPath:] : sha256 6f74bba75c081b3d283a25a307069d16fbc627488167b8439aa18eb5210ba1ac -> 17b5aa1aa40c587c555328c1f80d0946683bc0cd9635d9ed18ff8c43110853e6
+~ -[MXStorageUtil attributesOfItemAtPath:error:] : sha256 3df551421b974a8c3061461b0a0a26755673aa2c928aa2bbc44bb176afbef47b -> af4ae8cd1bbb3c721af91791612610db8647e3bfa26a4d18f9a3ee5e97d1c2cb
+~ -[MXStorageUtil setAuthProtectionForPath:fromAttributes:] : sha256 128815df4aedc710919364d981fe62d25177d7f2ec0d1a6e79b65c4517b17dad -> e91a76696fd17e4d67c14387e1e9c068f1c32d21030445c3a55f5a0f3c2d5fb1
+~ -[MXStorageUtil archivedDataWithObject:error:] : sha256 558532cc6ee065050c13e296ba7f22902ebcb126e0dbf1eaa8b6b66d9769465c -> 1d67cdd57f7e2ec6058c42f5cd8ecceae8533c885dae9418cf682a5a1dae88e6
+~ -[MXStorageUtil unarchivedObjectOfClass:fromData:error:] : sha256 1946d03951082925c1b626d7a10db72874826f210673c376d2cc6c0820f74e7c -> d25e5a85d61b5e4dd23476edd4b101b7beb1ed60264da550749985e303f036d0
+~ -[MXStorageUtil _filesFromDirectory:error:] : sha256 8328737f22e2403138ad405dec8b2b493e31d4f97a8054ea271f2452a74f91f1 -> c4dbb3d95a9bc7457c14d7c070f40b51e1985f6f1ef37f04c311c38a16776ea8
+~ -[MXStorageUtil _removeFiles:fromDirectory:error:] : 388 -> 384
+~ -[MXStorageUtil _removeFile:error:] : sha256 66ac2220f044aaa6d35d2141ceded15bd3a4f46421058cf7b3ef0fe2e273ddf3 -> 0ad6a29ab262610654220d251721920786c393246e0d7588fd8ea5f537dfb9ba
+~ -[MXStorageUtil fileManager] : sha256 782ee2b23f39c98922f89eba3c287169e3b69b19d251d185210ebe8bb69e9b70 -> 380144633daa0d7cc6bbe477d31c0be7abd11d197bcfb7c1b4c70f14f6cc9ef9
+~ -[MXStorageUtil setFileManager:] : sha256 87c8778779b6c940fe2b42bbda9025c73f2da35d134df73d2083fef8877bd82f -> f2dfcb7994bbcfe92bf71bbdaffc754608d009843c292eb242c480b170bcf004
+~ -[MXStorageUtil logHandle] : sha256 8ffe9997146f33883edb1c82526ee925b3f44f8ca35b1ca1a5fc1405b63e08f9 -> 811cd0326886f8f409c8f6cd11b6ad9edc3a88d30799ef0423c1170a543316af
+~ -[MXStorageUtil setLogHandle:] : sha256 b4bac1d9096adc015d4e2a5c66052411ecfb258b458e42418d0585c5923b615e -> 29c85842277fd048d4a9de595a2f3ce5003b3d17407f78267cfceb802fee5443
+~ -[MXStorageUtil .cxx_destruct] : sha256 fabfc63c860730a92f4b7cb531a68db0561d2b74f38663c459014227ea339616 -> b8fda41a8dea18a6fe852207798aaaa8815f58078dc28e3737ac988e045bb961
+~ +[MXCore sharedCore] : sha256 32901a86cc0d08f9695777fb95b2e874b0c6d6bad299de9a3e5df48609963846 -> b029c3bd508e9c03154ad39008ff09f9c9c1c60fe8323c624a3c05c2c5f5cca5
+~ ___20+[MXCore sharedCore]_block_invoke : sha256 23dc7ea26a1ff3481cf513211d21704df450c1d4a825d95ecd52423c6c6419f1 -> c11e5270b4850326ce2a70141108090b31a4b257248af6c7953252549505560c
+~ -[MXCore init] : sha256 6995527c73383976328f76cfd31ff64ba4bcc6e10a3ae9fd793058f4c4f85c09 -> a598d3b802a25db64b6a5be2ed279a2067a2f8c41ce57c7026f81a5bd2a0ab6e
+~ ___14-[MXCore init]_block_invoke : sha256 1b4694d32ee913dfea5ba860120f4dcd0848bb5981e769435dad5e931ea40881 -> 6a42c88fd53402441e8dfae5b77e4e8042bf481b5a7dacc4bf82c36f297da80c
+~ -[MXCore _initLogHandle] : sha256 4f5873e7944eb43d66586c7bf5b10b6043c94a26f6a8bf0b1d9f3b0e839f3b7d -> 0c05fdca2440dfd1b9a9abb53bbfe7385bc99ac5080789a3cc0f696068ac99d4
+~ -[MXCore _initQueue] : sha256 1f50f235452bf9876c8875b1c16708786ff86ea9b27b0874f6eff86f5785c4c8 -> 766aa9d8cff2d4d4619f2eb76feb8371073e5eb8c12ab4e86403a4026706bdd0
+~ -[MXCore _startListenClientXPC] : sha256 2e013809b9abb693b52a87c545a495702632a143803044cb8ab72754fd27c6a2 -> df728f338f655b2db13fdc16b5af1717e32430e8307340dd9b4ffceb5aa23e60
+~ ___31-[MXCore _startListenClientXPC]_block_invoke : sha256 ef08ce434f84ff65ec6c21f2c2570da923cc572e3bf99cb412c029f681798ca3 -> 03880903fe74ca168936152848af762aaab184a8bf4af948b5154e4c056efcff
+~ -[MXCore _canSetupXpcListenerForSourceData] : sha256 851f8e33c595c09200a627d5be4cfb90e26c5a07782233725431d8407bc294b1 -> aaa7785bce3c1b300484e9cb3e9b87d20e44b21c34bdc713c48f80864799b5ec
+~ -[MXCore _initIvar] : sha256 2e928b5e849cddfc7276ad915a565a9870e4e40ddae77bace8da3fafe4121a32 -> d7be4a6a20979ccf708aab57370ca920396d013a33431526dd8af8ee47d36491
+~ -[MXCore _registerXpcActivityForCore] : sha256 56dce727200a72b7ceaa04d850ac37dfa1845f64680b1049d546e1fc9da44ae6 -> 3acc4f4eab5d8fecb8dbbc43a4646aa146c944181b766c0d0b61fe45bd394193
+~ -[MXCore _registerCleanAllDataNotification] : sha256 2f2ebb702b29a3205f6b464bc449049df32da5189362bd5aeb9cb69afa4c3dbb -> fece88e7207fcf71f9634b33a16e0a9bfbf3b27f925c6b46838f45a8c380c164
+~ ___43-[MXCore _registerCleanAllDataNotification]_block_invoke : sha256 2b206972fa191c0662df913ef27faf839d8ecd5d9324b26f154e6d7b34e62ae9 -> 0ec338780065dfdeae9ffb15432369403fa3d7e16c40bbf011c67f55745f3a57
+~ -[MXCore listener:shouldAcceptNewConnection:] : sha256 69cd4504fa2c394bb8251cec96b78c43c80dd39698cffab04eb79eff8bee786f -> 5a91f83ddbee6a7090b0aa62765adf8330017f36295ae4bf809ecec217afb791
+~ ___45-[MXCore listener:shouldAcceptNewConnection:]_block_invoke : sha256 774f29b79e40971f26e0a4a1f23b0ff4bbe3350c9c34705bb7fb126f845913a0 -> a0e96f243aba06fd391530884617972a572a7241591a992a07c5c30c1a225344
+~ -[MXCore _setupExportedInterfaceForConnection:] : sha256 d4f547e1aecbf029fc57ca641615b277c4ef12f181cfa1427968ae20ab335fde -> 3ccace8ba7c68150d0bac5ba36d5f22a7da3f5fe66095f3f4518260906827ba1
+~ -[MXCore _setupRemoteInterfaceForConnection:] : sha256 facef63d20d900727c92bc86681d59cd8a4d021713745bb297fc14bb04019d59 -> e5841fc7392424c90c6820c94c8c87d933c1c6238d0ce5e758f33ea19e767fee
+~ -[MXCore _setupHandlersForConnection:] : sha256 9bea0614650fd05ea837b471686c6ad428e32a5f2e2dd25d1a2192f3b80e8daa -> d2f6145605c48d2dd5f0d6cc57c53c5e409ceb1313a167234da0455474b61b89
+~ ___38-[MXCore _setupHandlersForConnection:]_block_invoke : sha256 fd240853421b860c6c5c6f3d53ede8ce7bcb030e129bd9a77b649ab06d728895 -> b16102e97af5b7d882c9025e150d4e08de0b0f24dbe8f1839ce77bbe1ae33d82
+~ ___38-[MXCore _setupHandlersForConnection:]_block_invoke.33 : sha256 f90762ed376d395801131a34828dfbfc6763e09118477101b8f9e8d600a031c2 -> da6e959a14a7503f6a5e6b2bcc1bfb2cf2ff52039d40f9f7216e0fd609e02c19
+~ -[MXCore registerClient] : sha256 c4bdbecb65487e8a04a1cc55eea281aa44528df5d3b4ac3a8660c95aea102b00 -> 1739847be7600e99ab0689a65bc05aaa222ac657a1f95576c5549ea7f212aa71
+~ -[MXCore registerClientWithStateAwareDomains:] : sha256 933738b085939e26957b7656203f93a1eed70efc43dc1939ebf14b5cdfdbe663 -> 810d4a7534fd700f69ace6113452df332a973a7bd85eacffb0d731b16900ddc0
+~ -[MXCore retrieveDiagnostics] : sha256 9784d17eb4e7b14843284b5c40f2de471a3b0edc7b1fe6d5018c7beb107839c8 -> 9fb283a52966331f646f0c49ac493b72942c97e56d2725093c127ce661970798
+~ -[MXCore retrieveMetrics] : sha256 dff8c9595f6083ac9458051a560f76640ab15cd6df44da0f8bbdaec7da5ae5c0 -> 27ba88c1aad0b9edffaa2ee9019023922e615cc2ace91177e9a27698bcfe3793
+~ -[MXCore _registerClientWithStateAwareDomains:] : sha256 84caad5eaca27552dff59cb9c8b5ff8335ddc31bd4b11add0d3bb0d1dbca88e3 -> a9f45115a648b7b849ee74f9b0628b6dc1c624a3335ee3684d09912cadc5a6c7
+~ -[MXCore _registerClientAndTeamWithStateAwareDomains:] : sha256 2c2a629bae1e61a6ab862a8b7cc346870cd3ba727a7a534c827b72b18cedfd8d -> 7bbfef0599f2b18148ea4083c624f8917ec9f6fe48a2146158097181720f20d9
+~ ___54-[MXCore _registerClientAndTeamWithStateAwareDomains:]_block_invoke : sha256 46410806fbd12bd719f3f791ef18dbb22adb3a9ae357d76241cb3213bbfd6cfd -> e6cbf8128935a02110184ac10106a94e41453d09da4b945920d075d11495b325
+~ -[MXCore _shouldDeliverToClientForBundleID:] : sha256 0aa34dee6ad6be71a87ebf3344d2727d844d86aea7063830070e04cb65658d30 -> 8824d3a1cc6507767fa4f21426d24c3c4a3428b93e8ea26a901ebf5ec88c6d5b
+~ -[MXCore performDataActivity] : sha256 14efa5fcd9926c38a4d099d15f1b7fa5451495a2d64b88398a8fb32a2de460c4 -> 0c1c5cf4fdd3affa4beba6c5999f2aabb5cabf53e05e4e8c977034eebe18af4a
+~ ___29-[MXCore performDataActivity]_block_invoke : sha256 3aeb0c539c39678c273a79e98fefad06dd5a7a056385117ee290cb3f67ecde7e -> 7ddc75ad2184400926278fd1b9d7eff49030548e672f29a05b0a0f7ab2aa52c4
+~ -[MXCore deliverSamplePayloadForXcodeClient:] : sha256 2636cba192866590f3de1b74e04cfa4e6b681eba1b27248796147f9d12a20dfd -> 06d33da92d0c102529130cf4ddc9e95af7581291c541c8dffc7823482b5a9073
+~ -[MXCore _scheduleDataActivity] : sha256 d645a62db1813ee4b2921915823a41789f6bd164dbcd5452b86014f36c959cc7 -> 9098472b1deafb8bfb12182c801aa94ddcc49190ffead327efab83fd6b0d2b71
+~ ___31-[MXCore _scheduleDataActivity]_block_invoke : sha256 7e658288e133a442af7c81ba38cdf33c0af7aa425281b1407b160b9cd07e61f8 -> 2521dcb72ae5af8a985c813d70ecd95ed1ea1422a986ffc353759b87419b60c0
+~ ___31-[MXCore _scheduleDataActivity]_block_invoke_2 : sha256 561bce6e7477c746e7ae7219b72d3dc8680c0730abe8c2c718091b3439c55659 -> 86d28ecf7674fb1af09912c4e5a4599d747f4cfaea9370fd05bbb136b8aad944
+~ -[MXCore _setupDailyActivityCriteriaForDataActivity:] : sha256 ebd41d8c8a22dd3b4333bbad53568a766aa917054d8f01557e0d2c6975c3e101 -> 29fcbd951e27885db240d989d3b081f11da15929291581daa5296ee608a03f58
+~ -[MXCore _getDailyActivityCriteria] : sha256 975154186353aeee0068119c280b8cbf23dd8d0f8abbfc825b5191baed9edfdd -> 92f69b6e99129c0ab27a508808ed80eae1a15fa9348ee532dd2c0a86b9c999ef
+~ -[MXCore _performDataActivity] : sha256 616b8c167888b74d2fbb3abdcf4fc425142179f39556b9509dab7036b0abe1ea -> c6e9650c69c87e5e8965bc66945dfcec00bb1b4bf90438738661650e7ae7be95
+~ -[MXCore metricIsAvailableFromSourceDirectoryForSavingToDeliveryDirectoryWithClientMetrics:] : sha256 5e601b0b1abd7592c92a5abb2a267a2b886b5d86edd61c8f7eb8263f8c78f91e -> ecefc0c50108add67c6139047df85cc8ee5241ca0bf24ae14fa67518c8b0d512
+~ -[MXCore clientIsNotAvailable] : sha256 385a36d9278585039cee64d4edb15928ed8142f41edceb93f8fb672c30115a80 -> 3407b1ae0859c51b36d931c8435fc45afe35ef49c17d0b378ef02ea0bb1aa8e3
+~ -[MXCore clientDidRegisterForBundleID:] : sha256 ffc862b955d914518aa2e384b22529298d9651734fa9677d4eb4c356ba2a3d1f -> 41f22afb1fb10eeffdb5305cf99a0a89fb64d9a897613860982630939539032d
+~ -[MXCore clientIsAvailableForPreparingDataActivity] : sha256 3b980d6158023a521ede89fedeafdba98edafef5bfc1b8d40dffbc422a9ad6f3 -> 17be8827c5e8fdce5bbc5d285dfd02d861364ce53334b62c1dd7fb95a5e526c9
+~ -[MXCore isAppExtension:] : sha256 0c1c33454518d57958c104f1c73ca907e40eff95402bcccfb50caef65c75d76d -> 8e18c55ab5ac1789d9fa82e62e720299e172cd5002d4427f05134043d54ae912
+~ -[MXCore _getSamplePayloadForClient:dateString:] : sha256 a5aaf49c9767fc2d7239fda3aa8235242e86d43afa1ad34480d07a2ad6201a15 -> 39b217169a28f4c963788cced1c1996dfda609680e241ce284d0cf06841ea3b6
+~ -[MXCore _getSampleDiagnosticPayloadForClient:dateString:] : sha256 3318b3deb00196e9aafbd2e373dfeaed66ec09016385a3fc56b6943d31d5be3a -> 7559d5f7b287ac6450bf28d5faef45d1421ed7a08e280ffad8dd327919b3c942
+~ -[MXCore _deliverSamplePayloadForXcodeClient:] : sha256 52f9123acb8d242d0c8e6c8afa7ca973e527926f5c3a3f03cfce356fe92bcc4d -> 3ff2be7b055a22a48695946cc33f370091ccacfd27b5414d3dbf96bd280d566a
+~ ___46-[MXCore _deliverSamplePayloadForXcodeClient:]_block_invoke : sha256 2648041f97c22b1bff4f7053274717ae1f03ebb8acc9e8d3f9990cb1e4c20a69 -> 788892682470bd9babe3c55fc6a97ce655ca49ee5ce6d031675922d66e12f9c2
+~ -[MXCore _writeDiagnosticReport:atAppContainerPath:forClient:withError:] : sha256 1f343fafe34e23487b3c819ad1c6e58a1dd1e6e96ebbe425d98f89016bd420c6 -> 8af6d3ccf3c862493c7008140275239ecdac65be0327bdbd84aa217bdd64a357
+~ -[MXCore MXCoreLogHandle] : sha256 0f35e0e1b449024f9961d86bca756a4abf84ef0a0d96c8f9ce426554a3f183b8 -> 2be5f5cf2786612a50a35a4e09f6524f469a755e67f9f31576b754cce07b5bba
+~ -[MXCore setMXCoreLogHandle:] : sha256 ce560999d5f44572064d8f5fc51bd822225391ad4d5e61acbce00bdf04047448 -> 71c0f898d237b156410dfd2b7e47089f0602f72337a4c0ec662f5f9fa19121aa
+~ -[MXCore MXCoreXcodeSupportLogHandle] : sha256 6f69fcab1c44befafb9085028c3bc2176abb85d8aad7985a513edaccd7f46253 -> ce447d7494bad9469f2f3313ac259a5954d50d279154c29873d466cb766bd91a
+~ -[MXCore setMXCoreXcodeSupportLogHandle:] : sha256 ca412e8d53fe1ae9cba8e2135e76f77934aa38dd00bcdb29098e4995a185ad6a -> fecb454885dc5564e7a9cf6c529dc78218cb87d815746eb0b414f93d715890d1
+~ -[MXCore bundleUtil] : sha256 c1ec82546d7189529dcf8877d1377b27f7bb100bcd3b38e23e436c0770ecbd29 -> 70dbf2af37e4488072bb9b81a38e61aacc6a9c7009c96707038c0e0f27739ce2
+~ -[MXCore setBundleUtil:] : sha256 e18e3407fea4286ba76340f2680ba618431d6796fdd5e47d57c1eea10ea5004c -> 86043f2af6cb44199a77134f28e9f8588a0b1fe45769c5bb9bf10918bfed1e97
+~ -[MXCore deliveryPathUtil] : sha256 a6cda03420941d39b4a007f784057851f0371b8da2aaf4fb60efc9c7da36caa2 -> 1763077af79893dee9c0b8ffcc90238acd5ead53c7d98e38e2bb71137f3d5274
+~ -[MXCore setDeliveryPathUtil:] : sha256 ba68b198a62b6f48ad06904d215c68fa0f5b5b775ac87de36d3c45d0eccdea85 -> 283f0786ddadb47382396008680a0fb143b46a98cf79351fa1709ed9834a20c8
+~ -[MXCore deliveryDataCacher] : sha256 5b28e1425aa70f98daecfbf7c522d8fed7d83cbb44cc56e017041ec1808489c2 -> 51edaed789f91adf9bca60e7346bf18e2a6f8f5087f0bde46ecdfb5758810911
+~ -[MXCore setDeliveryDataCacher:] : sha256 f0d1f1f0babbde3f881ec00da37dc61cae686ec0dcd7ae2254c0974d7b93a172 -> 9d4ae4f888d53262edfc5a4c9208b739f3ac150b5bc80fd8d38b03be99a09793
+~ -[MXCore cleanUtil] : sha256 ee87b80ba33a4120c068cd2b79d49445330a05cbf46cf0a95181342ad3a9a3d2 -> 390b24d47d1ded98ab2dd2410da6ceffaa90525220906fc3da2315c76d673cef
+~ -[MXCore setCleanUtil:] : sha256 940d85df9936bd72075a037dbc8c54059d259d36c5c0420cd86ae7f3768e2907 -> e57af7259ba68cc12e17c104dfd774848f1759a1ed9a22b0e022c5559220e8e7
+~ -[MXCore setClientUtil:] : sha256 f3c08339d4a4bbedd0bc51c9a16724bf3010daccbd740e9deb2329d59d478be1 -> 9740049c7d1b926e85963d7f4136fd839b178b1b4570ec3e83c4bcdfbb1894b4
+~ -[MXCore handler] : sha256 396e9ee9eb95fe6d608051b3fef8e493e6cc766155926e0ad3058198411b518c -> 3fdf8ac15b0efb855c2c8338af5549a45d7f77deffe80328fb70a58f84384537
+~ -[MXCore setXpcListener:] : sha256 b8517a4d2709a4a4e5c8b5103096499095f16b26346fa2b1fe551e516021cb2f -> 978c6e39ac5c9964ecda9edac91885efd1a6edf9a650f47775432b9d39c62cc5
+~ -[MXCore setRequestQueue:] : sha256 3556ee9d621da82629dd428b6e6fe0473b09079d531e93c89c5daf36fe9070a5 -> 32bdc98a37939c1d0a6f5c6e130dc873942169ceff0678bfb644ee25b0a0ea81
+~ -[MXCore setIVarQueue:] : sha256 fcc4c36f9e748b62149103e9ab442647a6b1cb826b6cce5b141fb7bd16b6c1da -> b911954d3f37aee722d26cb8a77aa95ffbd708f69ca285970021ae14deb3aa50
+~ -[MXCore setCurrentDataActivityDate:] : sha256 b62e81c161aab25a779512ad4d7dff249cf7ea758efddb793c11019709a6d81a -> a46ca761b4ad743c711ca35174084c64ebe151e2da81537b036a2fbf97377d09
+~ -[MXCore source] : sha256 2476712d2ef9810f863eb4710b6042918b4b04dc4a212b3a03b9c46da589e360 -> e7412b24e29a0e25a9bf6c0ca585b3eaed1c09e8cd9633963a7dfd9ce515c232
+~ -[MXCore setSource:] : sha256 10921eb7301ced3b67e06ff508dca067035c753f27fd8d5f5f4be57cc36d825b -> 95b940edf93acf4f78cda3acc720a284abb0ad176e15d5c06c4b681d70aa232b
+~ -[MXCore .cxx_destruct] : sha256 2dffc6c925d7ff53418e5005eb3be600fe417df59c764a09e79ef82d1a82d9f0 -> 881d9f88c4843e6e9571cb869c8e352a937d670309e8a5db11caf1c04548a34e
+~ _OUTLINED_FUNCTION_7 : sha256 c1e8e3597bf9e779a03304beaf2122d4e8780c65f71c7b7148a96c5c7a358f81 -> d041372870ef99f8fafdd1b9bd24cda187418198463b567383c6cd7a377fa2ab
+~ +[MXCorePayloadConstructor buildDiagnosticPayloadForClient:fromClientDiagnosticsDictionary:withDateString:withEventDate:] : 4020 -> 3996
+~ +[MXCorePayloadConstructor buildMetricPayloadForClient:fromClientMetricsDictionary:] : 1152 -> 1148
+~ +[MXCorePayloadConstructor updatePayload:withServiceString:withSourceData:withDateString:forClient:] : sha256 d3e8f305573747d020acdc031b75a403e6f0c1b5a4d03dd58edafa1320adbdb4 -> 5c8236486b3b9fb65db3a69894317048f74e4e81cf47afc6f5e8676a83f4a73e
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:] : sha256 d188701428994dc685734340d1977007b213bc443bcc6ea0ba0ba29dbc2bf190 -> e240ce45e33bb94eb2c8dd914c7d9b78f946beb92ffc1da2e29825eeb7a1209c
+~ +[MXCorePayloadConstructor buildSamplePayloadForClient:withDateString:enabledStateReportingDomains:] : sha256 05c9e32c4d04217766e85e92ef9e045dc57f8a7391899ad1ba34013c35f8196a -> d3e5a6f7e81f1105d6dbbc967852db689290ae328e05df291be678490198aa0a
+~ +[MXCorePayloadConstructor _sampleReportedStatesForDomains:] : 452 -> 448
+~ +[MXCorePayloadConstructor _sampleStateMetricsForReportedStates:] : 1068 -> 1060
+~ +[MXCorePayloadConstructor _sampleIntervalMetricsSpanningTimeStampBegin:timeStampEnd:withActiveStates:] : sha256 88523d4ea10029c829014628fe6d1025f801642b2a69367ee67a5327b9d95c6f -> d599ce125465d6a3138876f7e789c9d5ccdede857390fdcea0fceba06e20db84
+~ +[MXCorePayloadConstructor buildSampleDiagnosticPayloadForClient:withDateString:] : sha256 60866b51d8da86b27b76551a13b5121127456eb58596dae47b4ceba8eb183b1f -> cb6863373465f834111335f55885bad1c040f4af3a0b9cf755f6a558b68f2cc3
+~ +[MXSource sharedSource] : sha256 b80d22c8e88802c1217391fdbf62594d97da2c116a0c831202b5df8e795a10ce -> 72e833f1fc35d3adbf8213523c5373a1a0ce84094229b8443ded139aa85b1864
+~ ___24+[MXSource sharedSource]_block_invoke : sha256 2581dea6c1f7e77e8b57c0ed62b89d4aa3241ed8d5135236a10942041d0e122e -> faaea7e7b10188737668fd49dde2edd482be66c64fc3c5f3779a7a6fd0a90c06
+~ -[MXSource init] : sha256 3e7d725588b22ad63a300a50724722ad03b1fc4047d2f24e1f263c17baabb8a0 -> 38403356d96d575a0f603f9dafe50ec1c9dff30a8303fd05dcff50878eeb6127
+~ -[MXSource _initLogHandle] : sha256 2e9916ccecf7dba091048de8c425d683407434573ba3cb23c552a6f24b7dbf5c -> e68a5edd2e58ab0e6cec3e1a2480e5ec84acae2c52981096185c749d40783fd6
+~ -[MXSource _initQueue] : sha256 0c4c0d470f34ca7e5ded45b529a2c9a69b9b1e97d37dbe866c3e593d3b5b9129 -> 7315acb7ee97f2027018271a754901425766a79e375aad9114204184e2e2b48d
+~ -[MXSource _initIvar] : sha256 9475f1def7c2efdbf7e1fac83f001374cd11cc824c0ebcc5fa91dae52b71591a -> c96d91566c4bb5a0a7106d07a9fbf035056cee6776cb45eec9c7324a67045c7b
+~ -[MXSource _startListenClientXPC] : sha256 3d66a0e5144ad5c59fdd8100385603472a42f5db37f594ae97735af8766c0150 -> 5b4045d8cde2f6b5dc2cb37a68199ef391190f57624e912972934a8f135af74a
+~ ___33-[MXSource _startListenClientXPC]_block_invoke : sha256 5d1c075910247659b986aa685064f096c61186c8714f6a3e2c5fccf3640e6be1 -> 2a447fb34b0b2fa0f1306c561d4811f127cb9a465f0feeb89dad67e31f145b4e
+~ -[MXSource listener:shouldAcceptNewConnection:] : sha256 d73eee3b6f4c065d469fbbbede0485f6f900f639c15ba97d8e41511076bc74c2 -> 0128f1d484cd8cfa10e8292f2098cd4310cd3c6fde1173abdfd0ace8e23c04c0
+~ ___47-[MXSource listener:shouldAcceptNewConnection:]_block_invoke : sha256 95cbcf1c2f9c1c02cfc91a2a357ccd48de4a8b0df5b0210d1e839516df8fa6f5 -> ade460d0883933721968a93ae706b59a760c97ef6f46747bb5dc63a3586d8239
+~ -[MXSource _setupExportedInterfaceForConnection:] : sha256 146ef49a4fa479a6d9938dc94979bda64e668423006c764ed2769cc497df7049 -> 960efedf8acb4891bdd184ea07848d09f46be92f9cc4e89d3e91272288bce097
+~ -[MXSource _setupRemoteInterfaceForConnection:] : sha256 846c2e8e24a4b66dfff017cc0750c7916516c08eb12b25a15b2659e3ab7a9bd7 -> 923ce44a1f8542867fc80b151f29dfeeee5992abecf2f4b607af8d5ebf6ce0f0
+~ -[MXSource _setupHandlersForConnection:] : sha256 ad378ab388e5040eb2347f1f4aa7fae0cf71e96b577ca9a0095be84f36a52816 -> 2d83b403ab0742488c412cb0855347408b1228f1930cb9d9a89bec98a455f545
+~ ___40-[MXSource _setupHandlersForConnection:]_block_invoke : sha256 62728696995416aa8470fc8244f609007bd043cb104a1b36311fc87a0b728d24 -> a6a29b705824fc780777327105c83c24c14e14914712cccd017fac89ba4efe15
+~ ___40-[MXSource _setupHandlersForConnection:]_block_invoke.60 : sha256 7b4813e11e99c8bd0e1e5c8a9271f67b3b4b18a53d90986e061a9fd28c7a72a4 -> 4c314ed3581ace11d8ca05106b4b5c9e9a5bd468014c0ff211b33ccaa659881c
+~ -[MXSource writeMetricDataWithPayload:] : sha256 6d7bb8a0be8e77557943645f53c6ac74671acd1722e4c3868d870a56d0ef7e0e -> 3b67386d812e40cb925a9efd273a3eaaa05b312fe2a90ab9276502bae9563edc
+~ ___39-[MXSource writeMetricDataWithPayload:]_block_invoke : sha256 608f221026db017604044e9e204ab5b3533ba738418ad1bec047656cd13d57d6 -> 5f272aca5e5a9df6a370c62748cbfbab8db1470a21fd71edd894fb24ac3f5b42
+~ -[MXSource writeDiagnosticDataWithPayload:] : sha256 9648fa222d243d15410e8a96b2559ade472089da65dbbc19adb38f6b17cf9df0 -> d8d62f12519acacca42b78fda669756262223fe95c7da562b2d260d17f19b542
+~ ___43-[MXSource writeDiagnosticDataWithPayload:]_block_invoke : sha256 0079e938b60e33986325d0571a4d44f832a2319a64bc17cb468128dab0fe51cc -> 46f87d49648c7de2789f4b229e16a449bdeb4ebd8d4dcca4b071315e223e8b1f
+~ -[MXSource cleanServiceDiagnosticsDirectoriesForClient:] : sha256 8332f3d84d31d9c41964335705344f338bbc0f3744df544508f02ed3f5178b7d -> 4e722293973cbceaa0882bc0ebbcdcf54ef6f8cb8ff83a9d326e8c877a343026
+~ ___56-[MXSource cleanServiceDiagnosticsDirectoriesForClient:]_block_invoke : sha256 27df51af5bd9159bf868c22ad57c65eb084baeca214ece6e521872f8553710c3 -> 6ae1b123f1af69557731b173aca2be04b576812a54a7357c6a94194166febcd8
+~ -[MXSource writeDiagnosticReport:atAppContainerPath:forClient:withError:] : sha256 535d3eb2ace4065fefb17cddf2a60ffa784d37a02e136470336862ec1bbd5bde -> 4cdf8d18eccdb4be54c72a4e7ee6df4aa98464f16e345e28cbb9dd5303337da3
+~ -[MXSource metricPayloadDidCacheToSourceDirectory] : sha256 fcd2a47418b4221dde5447e16bdbbca7f83ebf9eec32ce5abea1dd0da2febb09 -> de57d5fa6951a8b7c81bd6332d20bcb7c26fbafc484c7134645e35ee1dc889d5
+~ -[MXSource diagnosticPayloadDidCacheToSourceDirectory] : sha256 42556b90b2e34eef94cac8b4218acc3bf051e720ce1e73ad3522ff2177540a4e -> af10caf648348b3b3eebf57a59a1d3c78d7d5387c2aa4782514480252227e52e
+~ -[MXSource _invalidateConnection] : sha256 bda3144b1a645fd7834fd1c8f19533168f8c30008657ae66d4d666de3f0cd5f7 -> 968a358f00639193e5e8bcbd6e2d1aa1b88138a5aa5c1e742449d387d67a6149
+~ -[MXSource deliverSamplePayloadForClient:] : sha256 e6b5a9795060750116fe4f12f737f94eb73c311ab9d73b8e1812cf90a45ab8e0 -> 4c925307f744659f53c1ef5b34e4257ed1339e821fb8af48ff28034b7a30e1f7
+~ ___42-[MXSource deliverSamplePayloadForClient:]_block_invoke : sha256 55301de49dc1d98d8a2f2fff23431946843255a48e12954dcce580b6163c3bf7 -> 9be16a408c2eb840491685b5d97a2a5238de421247dfb67e058f66ec5545d2b4
+~ -[MXSource MXSourceLogHandle] : sha256 e50a59e8a9f85c040fec940201e8c5b83253724185182e22fa3e976a1de2ecc8 -> f660d079139f4fc33d386d22591f3e009f6e042acd3f91105e55ff61886eaea6
+~ -[MXSource setMXSourceLogHandle:] : sha256 571bf72124d387ef2314a9f6c389116e61f00a6f0a3f36fba8097571144e385c -> 530709fab7ae683bc65cc560c5d8c2c8ee8091c6eef640d7838a86b407f36fdd
+~ -[MXSource bundleUtil] : sha256 44ce7b029c8d8f9ecb3ac2035d467219ff37d7f965a8fe53201cad76d9fdf081 -> a57081f30b92a1943b40053d02eb608e5cf6321e038c402f28deb2424f109372
+~ -[MXSource setBundleUtil:] : sha256 2b04739e192e792e681e15d32b0e138d0fafecec08d47ad88cdaf22c31f46b14 -> 260ef1c647596368abfd4e87ceb00ceffdeb15c828e4bb10249dc61e3c099e86
+~ -[MXSource payloadValidator] : sha256 ba9debeb4ad5c6a61e6092df79b5a896edae811ecb703bd60535d44719b4a724 -> 1660de2b968ffbe5f48b407256dfb8143f86dd44970f9d183c34a321aaec88fe
+~ -[MXSource setPayloadValidator:] : sha256 0349cd3fbdc15e57258c1e1ccae31575a13e23deb2e7473014f1b2e867bad684 -> 427c34f66076aa09b78ddc554d728158e4902365f65fef58ba1d33aab67cb11c
+~ -[MXSource handler] : sha256 67d4e9eb135a412800df2a2d4ee62593dbbd0bd8200402b3c2c61b84a51a854c -> 68d7f40b14d0d638a4df1d5f4976ab21c937b5f72b5450482750d29b63ffa551
+~ -[MXSource setXpcListener:] : sha256 08cae5f8e35e7d91188759b0f4aa5415f85a8982936ae2483fce7b78d490921a -> 67572ed79d97e7bb6775c53ab54b181ef4c505beaf2bed0125c89091f8a24b5f
+~ -[MXSource setRequestQueue:] : sha256 9f2c7036ed2df232657a9df369aba381d3fc83cfb0f374e02b238376fab47005 -> 3579f4fcf0cc3a28d5a3021ba8ec708734d4a2d44bdfff132f62694bb36ebabb
+~ -[MXSource setIVarQueue:] : sha256 743e3a4e19c056110c6c7075f9606328094824253f8bfbb48358267e8b22e18c -> ebe82acebee11cd1b397aa3f32357cdaf1982d7c24eb78406556f2cfd0d1ac2b
+~ -[MXSource .cxx_destruct] : sha256 d15a968718040e09d3b0f734a13fd38e8c70844bf23a6734c252f2a141e75130 -> 64aefd6432902157ca13cbb03cee01136dde55bc872d1dc0357bc0afe86bfdde
+~ sub_288792ef0 -> sub_289d13e18 : sha256 0ab473cf8b9bb6492448afdb489211309dec0699b59ef5f2a8baf5a3bb91e9c8 -> 8740d6e651a0089bad8b6f856004204fca4bb0da1e5148db7ccda488e62bc8e8
+~ sub_288792f5c -> sub_289d13e84 : sha256 82409019a68df7b3f8825e669c5f4f938380cfe4f791b36fe8f63c019355edfc -> 6e39d1bfcabc2c73973c513c517826cf0f17386ed25b4da782ae682932a953da
+~ sub_288792f7c -> sub_289d13ea4 : sha256 8bac4febf3c5cc9c443c28707b0723690d78417008a8b828f73972b46601962a -> d0f78e670a1fb844beaaa846daebb7eea4c20a3263e6ecd2d6db6e580478e476
+~ sub_2887931b8 -> sub_289d140e0 : sha256 51db7847eb9cd93ea52657ad522676fc5481598e244c77dc9fbb801616b36a38 -> ef0964a66526d67eaf7bca09b4e95ca03f543637255740c91920519d57383218
+~ sub_288793258 -> sub_289d14180 : sha256 1d1e4fef41a40b0f72ed062d02bfe58fbfaec38be28d9ebbc1b8b3abd24eee74 -> a164d450bcd42fd999ba54ceaa5da8a423ff928d8a2f32487cde62109d2d26f8
+~ sub_2887932a8 -> sub_289d141d0 : sha256 ac56d0b797fec66c82895e1152a9b03544290da75e2453441c1418d3fc9e8cda -> 3686227d473e70e1664181f7167da0b4cd516be1424580382a149237c6c5b234
+~ sub_2887932cc -> sub_289d141f4 : sha256 a964a1ce0f0e0a663432abad947f9e67848797475b8061e8c63d937c7741c122 -> 0875f5df12d9385d7f98ab848c7553604e09f35b2ec951c315c7ffe6a5329a8a
+~ sub_2887932ec -> sub_289d14214 : sha256 85e30c0b07e9be8a7174349fde595b93f7b76ff32a474ee6d72bbcf288bf8bf5 -> 592910aab89fc672be398627ee62891a76b7da7755a17602a517ffc7d98a71bc
+~ sub_288793528 -> sub_289d14450 : sha256 5e277ab2a7a095fd318ab72382547c6b88b2b68a48f7ffa7f2c83f1f56a5890d -> 666312af84cc60e98350b942d54aa3b914c68768ce8308fdd0ce92ee02263b57
+~ sub_288793578 -> sub_289d144a0 : sha256 5767810888ffa0141db3b9426c07cade07096ff5a07731b09169aede7ab4beae -> caad454f2317f69f8851baafaed62896b97f8dd7a59d82e9ebc5b0302584c383
+~ sub_28879359c -> sub_289d144c4 : sha256 3dc9cbcf8b306f07ebe47b926625ed2bfcac79affd24c7a852e78912ea802429 -> da08ecf30ce5ff8f5e441799e08721997392fa57c0b0d90184d9926fa442ad6e
+~ sub_2887935bc -> sub_289d144e4 : sha256 e4bf0b5703cfe36242e74ff54623551c833302769e13b7091c47f19e67bbd2ea -> 32549465f324a0c4aae242a13e00c8a14df55d08cab49dd830ee292ad4b8bf15
+~ sub_2887937f8 -> sub_289d14720 : sha256 df78b3e91ccfa20f7597cf1c55d246fbfec934c012c84f58e40941e5bd4c01f7 -> fbd51d598b495a77e9e02c65f188772fe975b97935c979f6bc1d97fd48360317
+~ sub_288793848 -> sub_289d14770 : sha256 f091ef0cc0556f6dd6020935b9102ab43a20142ce47e7bbe097680035d6f53d9 -> 40aef6ce4668ba87b5392bc9a0a8e56f651058d551e2ab4025e6f60ab8a05708
+~ sub_28879386c -> sub_289d14794 : sha256 89f519b0467b0cd15a5daa1298ca082f45b43d626d592573b781c066750286eb -> b02be6207c159b93060ec8bd12d975ea1b6d66c111a9aa636e87dc8520351140
+~ sub_2887938cc -> sub_289d147f4 : sha256 9f327b5592a97183d947a091fe34b2975ecab2f299296b18827b19fd9614cf99 -> 1890d844b5e135dec821d9d18bb382c04d2121d1dca238efc37f00f149f82a2e
+~ sub_288793920 -> sub_289d14848 : sha256 cc78cade6e48583531d8608da75d9ef121803be0c0a17ab9a6ef97efae6f5251 -> f228b47599fc94263ebbf7201a2ad3c5e104a6fba79a83e48e9f291f6a082a99
+~ ___swift_instantiateConcreteTypeFromMangledNameV2 : sha256 94ecdff8aba341bf5c7ffd1935a3f67941935ee1e7998648bff16566af9a1666 -> f62127097f74d81a1854311445b84c781f3ef8bb2dd2b5af28d4fffdf8fabe55
+~ sub_288793e04 -> sub_289d14d2c : sha256 8e883f010d760b2d697c273a92fe4da2f5d6554aacf585a4b175e53ee2d3157b -> e152b96c8c2d25e51d03bb2b9919d59e9f51f90105e0d767eb6c95a90ef6acbe
+~ sub_288793e6c -> sub_289d14d94 : sha256 1f61caeb11b0a5c9694870448b746f0226e60a124f013b90e6d541f6a68835f2 -> fe0be7d8c321fda1a2cb9d69cd5c96062ae1e2101d482a5527a52f17c2cdb2f6
+~ sub_288793ecc -> sub_289d14df4 : sha256 904bc13150182deb918237f91d5cf455ad93314d94fee708e27c8738b0f4b2ba -> 3e8729df4ebf9e40aab4ae43561da34865cc74632399c828b7fee4d2649c7b11
+~ sub_288794024 -> sub_289d14f4c : 956 -> 932
+~ sub_288794418 -> sub_289d15328 : sha256 1ae7ea65962bb6eb141ad7d5b23a875444d509fcb3f64526769554daf16e64af -> c4b367a133bdd57218fcce1735cbfedf4d4669fd1d8dea7b7485221aa84437f6
+~ sub_28879446c -> sub_289d1537c : sha256 c0dfa7c566c8c410338ec5b03326dd8949d787d73d7867fa6634258a54ec18ac -> 4cc98de4d80d7220b68d6a5e1a4704a3a8d00269ac44c8cf08b902198f46d06f
+~ sub_2887944b4 -> sub_289d153c4 : sha256 1729c10dcf323610b053111092783db83cb1acc0cb904f46f5f5d59f176a536b -> 003e8f0601b3fdbabe77c86f0540ebe40a6f13109550181204646fb8176711d1
+~ sub_2887944e0 -> sub_289d153f0 : sha256 dd078d20fd584bfdae6059ad583bb274c446f4e81b5d04e2b513f9d7c3f7511c -> fbf820baf0ae2a0217634a5aa096fe10dc4f9e59db42ca0d2240baa66851d6cf
+~ sub_28879454c -> sub_289d1545c : sha256 9277d66eaedb81dcf6a1a5c017edbefe278cd748a4ad4a9600dc318deb53046c -> 44752e4b3e2aa4ddfd9afe6ffd98b14d443da13f81ad35bca4b6fa656780c93d
+~ sub_288794574 -> sub_289d15484 : sha256 eaf7105fcc4f74684afb0c31eb58a6e68ec3db0a4d7262cfbc24db1f8a924a34 -> c17dfac5159bc381124e5c2579bd9c5fe7094eac94eaa92da5ee3e1cc0193cce
+~ sub_288794688 -> sub_289d15598 : sha256 0ddbbde3585a7f63eba59dcff93672f5571e35cf1ee47ce13b08cd3a2f31dff9 -> f06b6236ea221dea033aeec8b85354d67adb7b142344cae595b9a6be882e2a88
+~ sub_2887946e4 -> sub_289d155f4 : sha256 2c686333203d0373597f442a2ef73df3e33210a8f34cdaaa9cccb8aef471d810 -> 7f011447b7a9faaeffd7ecdee61d306e6d1eb0612dc591eaef4d224d32468475
+~ sub_28879480c -> sub_289d1571c : sha256 c4a8e2822d03e36b8d4f1fd109ecacdf3fbd91a61abc0cb666e734e0336651fc -> d14356bc2b33852df1dd1ce27fa06c301e291e1bea72853652a31451f071c56d
+~ sub_288794830 -> sub_289d15740 : sha256 9b0c1b582513ad51bea7667401ae8f19b063a326049229a8a6335df4f61f8282 -> 038ba3961881a0cb0a52bc5ffa21a138a167f1ea4d8f39634c3a3dff4976a009
+~ sub_2887949c0 -> sub_289d158d0 : sha256 83abed6afcd6bfce13cce5c45f071dc29ad50e7a96212544890858d5f8eb0184 -> 2235bd69a93b75175b72d6831c4b17f989f6749162cda2041348d50c33ce2cc7
+~ sub_2887949ec -> sub_289d158fc : sha256 9609cd98d739c7c16cf2b3ce0647ab6ac42f35f5a896b14938d3ac303cb7a460 -> a4fbadb85dd3864a97e8a2ee61ea3f907202ac35aa27d73c74742937a52a748a
+~ sub_288794a24 -> sub_289d15934 : sha256 e27bf4bdbb14623ecdfb0a381dbb7668586018e23ed2c7999151901b3c2e369b -> 53db7a910504918960927d14e6a16b4d4737f995e0d2f2592b6d9a1f88645f3b
+~ sub_288794a64 -> sub_289d15974 : sha256 8bc4e26e7c0b7062b3b14483f0479ea01bb16db6088169e314cb9b94ec6af22d -> 9f2fd1fe6859032bbe4e65d37c28065aa892fb4128054a151ecc8e5ebb3f4825
+~ sub_288794a9c -> sub_289d159ac : sha256 f795606100c9312d0db77a34e145a281dbacfe489d6eafe268cf37100d6627c7 -> b4c34d6ed777aefa49d645ad4b1d0591cb77e444dd35b34a8bfcc94dece08971
+~ sub_288794d44 -> sub_289d15c54 : sha256 1bb57d978eb65c2c05484d5feaafb03f5b379f32196955efbb5e81089667a367 -> a79ba522dfe8fe924737b8c180eeb3c5d739280016ed76328967bd372302bec8
+~ sub_288794d98 -> sub_289d15ca8 : sha256 cbacc7aee6ed78a2c885cfa60062a3aea5984d4d16bd8935d1eb7817fdc4d9bd -> 3a3d707d30e8a41669860e76becd19552f448c4e63367e343d7d9a396a1d6085
+~ sub_288794dbc -> sub_289d15ccc : sha256 38426ba14341bf7b19f0787d19db1d69362d0cd8fd291343e2e1121ba02dfa52 -> 1dee6cc11704549188d8f067a565672de11c13de2a7f764857ab8238f14f4f48
+~ sub_288794dcc -> sub_289d15cdc : sha256 58d189aa4b50c213f2a21ebaefe3392621afacd649ef2f67709e9292487541c8 -> 3cfda28351fb49b5a70a59efff20ef754a2290ba9d366c374f428d4f73c6be03
+~ ___swift_allocate_value_buffer : sha256 1336bcc5155b1435d0c10f85b173730e8f125d9ce4d67a4fd3587f75b40edb79 -> 9050895f2f16d4f50b66ee679fa9f04e61a22e9ae56aa775f30fc59a3034a40c
+~ sub_288794e88 -> sub_289d15d98 : sha256 246e4f0da0be9d3d530607703f3df2419912b9145c018a36bc42ca11e60201e7 -> 942c50bb267959e8b2dd2583f5b18289726f59d1cca65fffc193c19dba5eb7ba
+~ sub_288794f00 -> sub_289d15e10 : sha256 d2bf38bdc52ceed39dce202ccac6b9b07c1f36d1ca3e49290e1e2d4023790412 -> abcf9c698ed798838dee409ec7adc99388b01bb492c36910ca9473fa91d845bd
+~ sub_288794f64 -> sub_289d15e74 : sha256 c3be71e03597967264def91bb9dccf4fb2ae159fc73dd3ffdfd2b4767b624295 -> 94e5cd76bf85e6093b615d6081e90c145635bbe8743177150e2a556980fae0e7
+~ sub_288794fd8 -> sub_289d15ee8 : sha256 e76d8ef7d37e1302d84049303ed9e7376ff3edf8de291a046e8499499bc998be -> 759b2df018295779974e10b47a9c3479dc699fda1b125243bfcc82614b85f6e6
+~ sub_288795048 -> sub_289d15f58 : sha256 c7ef3ce0fd6d0266518a4ab34c04c9b6467575a629030718225e08378ebbf055 -> 370fb3b31f1038ef0ffd1ad9683d6446800b58e43447b761908390ab64f007be
+~ sub_28879506c -> sub_289d15f7c : sha256 23c9260ce68313cd05e77631d4abc9e7e9a01480c01a26f4eead311160387fb7 -> 8bd56fbb184aa4e2696daceeb48854c79129a5571a2c68fb65b464a2cb5671d5
+~ sub_2887950a8 -> sub_289d15fb8 : sha256 fca840121b24334cf7816cf8bee6bfc3d01eb066e4388b6f5fbb4b730a7b08b0 -> ab0cb76f3fe363e3b60339abbe0e41a5859146467665e69c55a738f53625c4ee
+~ sub_2887950e4 -> sub_289d15ff4 : sha256 454c1e81fddb4e48960e8e35de9faced3e2f0a057171e7ef8dacfbdeb495f709 -> a97bd8f21ec31bc1d33e85b9f76dde861ff85bc5a38ece6bd7371c19e2ec449e
+~ sub_2887952b4 -> sub_289d161c4 : sha256 42840cc4693ce3a59220e1708c432df66ae59c761449c0eca081f5fba74ee3b9 -> 2b2b32fabc972fc09124e810ee0d8d1c39c864daddec532486cabb84d25103c1
+~ sub_288795308 -> sub_289d16218 : sha256 5f22c235aa1fe51e8c53035002c1c27215033e20251d79fd93fdfd77378a8b85 -> 9b88df6a25ed610e83d4ea6054e191739f13e3fb0362e37de906b45f36c31d96
+~ sub_2887954d8 -> sub_289d163e8 : sha256 f56f4ad96da12348d2499bbbad90cb3f887db20164fed321c383f7c6b3520e27 -> dd6863c1a7c575d04a928a339574cd90ea07a668ad1fbf70941739eccf4b06a8
+~ sub_288795578 -> sub_289d16488 : sha256 7684f70234b601d4f8ebd6773c586375227cbea70d051c0f9f7c7ddaa4896df0 -> b2bc1045be7c6de43f3672081c496e7d2884d0a93e5bf310a6629be2a776ddb9
+~ sub_288795610 -> sub_289d16520 : sha256 7683b9256b03bf95573b246e0f944da78df2b31463dea8dd1635d59e134f1ea5 -> ff36902417957482e97fdbb619df11151b411fbe0031499fee6c9abe541eb108
+~ sub_288796894 -> sub_289d177a4 : sha256 7fb6d8f149d3c516670d981e061e0ef99f0d60106d925a39a10b52d8e3ce9ca8 -> 18f3dbe715736ccf4d7d5f03cf82b949cfacced84acbf8bb3349c10c89579ead
+~ sub_288796a8c -> sub_289d1799c : sha256 7d083aa577096b5b9381c6d06d0a978e5b2ebd4c2ea825a462db7701983d5321 -> f6f29a31aba0fbe61bb454d26d1301c186eba7605350f5f09fbd6777fd6b0cc1
+~ sub_288796b48 -> sub_289d17a58 : sha256 0d82f901ff3e76e9de943ae4dc5c2b0556d8d68e46c45bedec00d658809f4290 -> 9bdf8dd450f6bc03f441c102b6b5759518ac8d3f2375ebac2d732686477c13e5
+~ sub_288796bfc -> sub_289d17b0c : sha256 47d43cc06faa182ca9f1d7408df75a74144a87c19ed30850d7e81ee0429d4d5b -> 05254a44cbaeeb9aa7254642626124550b1f527dbce80f5de431ef26b892f19a
+~ sub_288796c74 -> sub_289d17b84 : sha256 0f10835804cc0e5adc08d6329d5a655e401d64b1e26689abbf7a1584db9a39c9 -> ffcbb0439c301e3dc36538fb54e297c3c387761956c666500eff56e57676fc79
+~ sub_288796cd8 -> sub_289d17be8 : sha256 4d4eb6c47a3a2d67dbbc8c64ad29e4f1b33f83249ca083e3990d422d5f12898d -> 828f78e4c0270e61b450b923eab51b9267ba2ea0fa5bd70104b75b6a7c8d45f0
+~ sub_288796d4c -> sub_289d17c5c : sha256 e3f623287137901405c8563e41bb606010f79fe663ea0213d5bb60ed29411139 -> 98ffc444e806a78249495f97bd8d43fcc3844c33d7c46c210d05c0c03fa74c34
+~ sub_288796d58 -> sub_289d17c68 : sha256 382b807891f9ce301123332a44639fb47107aa657de950a4b55872642fac69d8 -> eb72989dcc314bc2a012d6e20c61f2e6b17048a0358924d0d3d1ad87895fa4ec
+~ sub_288796e18 -> sub_289d17d28 : sha256 0d38134e8de7c9291d8ccd129118bdd1627cfcb1a462b10b2ea05e06f0850151 -> 160c458684bf3b8858a7b9729e0d8b56c23ef0df3ae57ae73e80f9a20cbb1f8b
+~ sub_288796e24 -> sub_289d17d34 : sha256 0d743a3258dfe0ac1cd4964d9c66f91ed934a678fa9558164f24faf15a28d4bf -> 9a506f6ecce2f1dda6e88d2fefcf2ad93fed7590534ccedd6384b5816a0ccdc6
+~ sub_288796e84 -> sub_289d17d94 : sha256 a3c709c8724390f6076bd0538bb10a34aae03a02f84564010c351b04f1b9aaa7 -> 7dec05f1cac1fdf77ce260ec8a40bebe792b43d68145908272ed87b368408633
+~ sub_288796ec0 -> sub_289d17dd0 : sha256 8c60a1951671e0777ad4dfb359a2830d37aad58d1a9e7b90980c88a96af0622c -> edadae1881eecce66a4876a98ed09239311bb42d299c1d53fb9a0f38b384971e
+~ sub_288796efc -> sub_289d17e0c : sha256 cdfaf93df380717d634dcd90e5d03488382e951af160a3739433aac74397ef56 -> fe31aa72a2624cb92d767a684721d0d7e48fed927a4ffa3f662e934e3254dfaa
+~ sub_288797178 -> sub_289d18088 : sha256 1d44b9b3890d7beaaa145a10ba171bb48b07ef944057117a0e47ea32f411248b -> a71a9e003adb9eb7953cfbf0fa4dd9101b2565c77d141450d4d74f8ba52a890c
+~ sub_2887971cc -> sub_289d180dc : sha256 b6b58438377e933e16034419c73336369d2d5bb12ec5feb8c8cd893ae3bcaddb -> 502eae88cd3db4e02373b5c66b0e7ec26291dc550a7f732bab8413d8ebbd63cc
+~ sub_28879772c -> sub_289d1863c : sha256 0fc5eb6f20c1d63712e3ada1eda3081dbfbb683c5b53638ff65fc4681dc82dbd -> 7fea41ce9e5f953aa84e184e0104d3c6d6033d5177a0b3a8d28788d8aab942a3
+~ sub_288797784 -> sub_289d18694 : sha256 7c363ed3ca9d90b7b2cc9e16b9ab557a5481c670d7952ac87bde49d97376df7f -> 2e9ecf6248d022cf96e4a7d69bf8e878cb07d16ad6a147fc201267606822f9cb
+~ sub_2887978ec -> sub_289d187fc : sha256 1a90cd571402da8a446a5544e459b2d87761342d5fa030f2539d053cca598208 -> b9be2fb19f81148f763b43099f148f01419258f2ac3d50a91020af12a60ee6cd
+~ sub_288797900 -> sub_289d18810 : sha256 6606a5a637ee3eee20295d1b20c7f1c2c0dfabf3cb09cc46a24d4dfb27d97846 -> ecb9299f3a45ed910eceb3e5c8d7ad2ec6d41ffafe22734d6401488033c24ae0
+~ sub_288797958 -> sub_289d18868 : sha256 4a288029969db8254fe745121fcd3ba80773d1b976d04a4b19d194ace76556db -> 4e4e3a1d89dec7b87d257e5206d17c3b8c4b3d827d9897aae113fc16668f0b6c
+~ sub_2887979b0 -> sub_289d188c0 : sha256 16522b7716d73e9daf215953df8c6ec1a3ef887f88d4827b5f5d0f6020b27295 -> 9e6bb04028e4db56be9532d2c7c3a5842805150ff2bd544daa250ace1f01cb06
+~ sub_288797a08 -> sub_289d18918 : sha256 d89200ad31856f5dbbbaf7a2f23659de6ed4a5dff93d1bdf175263e2ec0a0e50 -> ae9544147cce28f1e3e33350d351b9437d362f20eb3c854b27a417951096f4ea
+~ sub_288797a60 -> sub_289d18970 : sha256 ac9b7ddc085ac8f7cc6f9f8d93c193ad281ae1c743dc87686ddf5d715b5e483c -> c01b242fafcdc7c3d551626618d316164def4f57d592ee0ac4905eb44cea7628
+~ sub_288797ab8 -> sub_289d189c8 : sha256 13cd1a8099f7f56838d03dd8d377e5f213332089e5588eed9adf9f742e278c44 -> cd4b84387996bb764386f41252bfd10870db78b77e551b077710fafb4105dcdb
+~ sub_288797b0c -> sub_289d18a1c : sha256 80da6c1b6082719ca619bf7d8abdd63d35ff740fbc6f00504f5ce1ff002e73d5 -> 7e3edcecd6038579b1d8a239dd895f5708ffb91d6b2a9b7d1a019462da12cc6c
+~ sub_288797b6c -> sub_289d18a7c : sha256 d300066a33fd31c6b10dd3a36bef1527f1ad0bd70219c62dc9e3916f29ce4cc9 -> 30f0555825b046d6adaa0d85c6b269fecf3a21edc9f230682cb038713f162387
+~ sub_288797bf4 -> sub_289d18b04 : sha256 c65a2a38e1238d5faf3880d617fee6aed3710a0094dec11bf089497ae9a33663 -> 78445366650c2af364272fe5e05665e8986ce48e39141a5fa65d3cefe0178990
+~ sub_288797c2c -> sub_289d18b3c : sha256 626c472a2789921eb75c4eac6d1441b134a9c8700eb56b8bc05c0c7934dd571a -> 2a5b9296a9028ff42be019a042e538c18733e079d9ad6124d5e26825dbc4c25c
+~ sub_288797c60 -> sub_289d18b70 : sha256 61398e5e32def4cff1ace7974e2084212051e758f97a876bfc328fe20e29690d -> 0ef3611326c2e9336a72edc9a8914547b94e26aa46cf87727113cb716f0d4bf9
+~ sub_288797ce4 -> sub_289d18bf4 : sha256 c4f45d35222be0ee9ac518967682b84f6a6965a64e6c5a9633b2b0f42c619c62 -> ff630d1b76695fd086e6715e410f9ef9702d3a1b83ad6f2669bf303d4d6b1c45
+~ sub_288797d08 -> sub_289d18c18 : sha256 33b925559bc1b290165bfe614489caa0e447ec22cf5e4ef5a69662f60271f0be -> cc153995365be2feeac28da3d1855d8ba9015122935d43f86f9a560f163389b1
+~ sub_288797d2c -> sub_289d18c3c : sha256 0ea06b6419823b193b5d49b259a7f0ba167be93aecd859c57819f26ed6b1717f -> ed515d19914172eb97e27172ff5baf3783afca6c241bdfb552634dbe0bea8309
+~ sub_288797dac -> sub_289d18cbc : sha256 4d939ef4cb5a9e0474350bb8ba21b26c47b4a5d6211a9cf5b8e0e529923d5993 -> 5aa188aad7ae0b8728f58ead40e0445fb3ffd7a2027cd0b546223aebca35cdac
+~ sub_288797e04 -> sub_289d18d14 : sha256 2bc244aae6c1e1f4b68d173668f264132ae34f4fb97ba5a46af09e517fed0119 -> 29a2d485afd4c7aa80e3472c05b77ee5cc3c11f0ae3375da2cc30c7608da4348
+~ sub_288797e3c -> sub_289d18d4c : sha256 857da3c3f8e11ddbb89f602b6271db12058aa5881a6278340f23c124b152b66c -> d93248313eb0b9ddcf1e14b6da39c595dde8396a475266ed65c329cea51407a8
+~ sub_288797e90 -> sub_289d18da0 : sha256 ce5413ef6937ba3891a288cf3aa95e02df598f9dc0b8c03f9bc1d7479f5354b5 -> 3e59bfa952905e7db64822217f919ac8446899ff2ebbd5f8b62c936e65017714
+~ sub_288797e9c -> sub_289d18dac : sha256 efc8e057fd1d0a27945e4ea97eda01f2a82c8690c0f0f2b0b8b600a3c2ad1e6b -> 17604bc18cacd3419a151b83ccfb9a8b0a66084e6577551be6d6c0c7410b2804
+~ sub_288797f14 -> sub_289d18e24 : sha256 784d0e038138a524f6d7cb03b7463a51b8688aa21973e965d03daa13063e3bb2 -> 342f5fec459e8b0c28ddbdf5d086d30f20bda2fd06b2413da313bf7bc97b278e
+~ sub_288797f98 -> sub_289d18ea8 : sha256 9b701dcb94c0b211ae6e51ae996f5c3e6982aea59054f88f19d68884cb1b02fc -> a84834420e2e751aab57f5a63e5f252888589205645ea07287fe731fe9f4525e
+~ sub_288797fbc -> sub_289d18ecc : sha256 2121df296f7344cbf7ab41f50cb1dd8c4007694001c68c475c2babc90c06c115 -> 012dcf170c03474b44e07c0f60fd31de813fb44f3ebef7255d59a12950e98410
+~ sub_288798010 -> sub_289d18f20 : sha256 560b60a82b9b2bb2607375c7677c44964de76e9b0d6d245c1c6e88cefad24654 -> a84834420e2e751aab57f5a63e5f252888589205645ea07287fe731fe9f4525e
+~ sub_288798034 -> sub_289d18f44 : sha256 770bd3c13a549f56ac832c8413b375391be3374c345b10da9db4c46136d29fc6 -> 735a9fa1e5965040abf1d427e171add6e8d37c97efe2e2a9208d473531a858a6
+~ sub_2887980c8 -> sub_289d18fd8 : sha256 b95c0102ef7a75ba17e8c8c0b89500ce600b3370fd625c3523070e4bae6ca3d8 -> 0401e6498179c4867f2e9ff3787ce2bacdc4412a61fb5be725b07c1f677f3251
+~ sub_288798120 -> sub_289d19030 : sha256 c6219d09ae2c4893bdf0071dd4b3c8572f86217ef12cdac70abef562edffe95d -> 2ddf44a7c775e7b8d5594fe7e97e2493bada18fb199d4ade6e84511c5cadcc77
+~ sub_288798188 -> sub_289d19098 : sha256 4fbf5de2cf7b31d571a676e2ce1508d270a5332bf476979dea21754aedf9fbed -> a25a2d13254468f666e4214df0b0c2939dae119ffa6b614a2ac7123c1c88220b
+~ sub_288798264 -> sub_289d19174 : sha256 eec891f73dcaefc31b2b163cd216d99568b2efb5c28d182d4b7d41d1f62aca5d -> ac82317378f972fe4c9c96c8852b7b045a93edc9479b82e23521e608272f12a8
+~ -[MXDeliveryDataCacher saveMetrics:toDeliveryDirectoryForBundleID:].cold.1 : sha256 bae693f56c47a27cdb1b755176aee38e6ee0a0e0309e6b3448f50c0505f49b26 -> bc5edc84c217b588a3c392674698a6746ad4932868b7aa04e0464e82fc4eb765
+~ -[MXDeliveryDataCacher saveMetrics:toDeliveryDirectoryForBundleID:].cold.2 : sha256 fd033b80e64ccbe631766a63c9c9732fdf27159cfd7ff5079da2b5ac5f681620 -> 2666092ab157d566c7e2840b3613292eb2c36f30a7c96c3e205f8ed3cbbae400
+~ -[MXDeliveryDataCacher saveMetrics:toDeliveryDirectoryForBundleID:].cold.3 : sha256 78c1e5e1f3bc6486a5ed3e06f7fb51e29d309babfa601010e9177499dcb483d8 -> 73de6e9b1baa17a5150a503e257276f4f2a09dd2fc6df7d00a3ef86608c8939f
+~ -[MXDeliveryDataCacher saveMetrics:toDeliveryDirectoryForBundleID:].cold.4 : sha256 3c95c552d02548618484d0b3fb64825fc363e2e64b091bde35b89bcd5355d623 -> 47edc0b3f2ec90804c42f679bd3115d09a5944a7c170d83631e9161b56f953c4
+~ -[MXDeliveryDataCacher saveDiagnostic:toDeliveryDirectoryForBundleID:].cold.2 : sha256 5d41e1c4b678a0ac934b63062a5964254bad188b0bebaf71ce0b4b5fef841c59 -> 12150d6920c16e6976c52b224286194628106eedbf3aed717e17de23ac8da8fe
+~ -[MXDeliveryDataCacher _writeMetricReport:atAppContainerPath:forClient:withError:].cold.1 : sha256 fbdd2a8a9ac2bdb8898dcbfd8c34167e2bf45502d0100f0ea79143b5413f803a -> aa14365895f1339b42e93573c82a1637806371a05ef2e7d80ff4d28e985d5a6f
+~ -[MXDeliveryDataCacher _writeMetricReport:atAppContainerPath:forClient:withError:].cold.2 : sha256 4706ddd97b8000aa118b1f108f3a07845b1fa4c7e12085691943bd9b0c2650eb -> 1cd620bb6d6f0febd776792ee58cea7195c9024734f87de7ba7261a11471faee
+~ -[MXDeliveryDataCacher _writeMetricReport:atAppContainerPath:forClient:withError:].cold.3 : sha256 8839652ae01a25c0d5a740c30faeb387c5ec16a1f65fb4373561a5bb97df3568 -> 1cd4f20853a672509fd00e80fea2bc141d4eab5fdf4d867696e94eb95785fad4
+~ -[MXDeliveryDataCacher _writeMetricReport:atAppContainerPath:forClient:withError:].cold.4 : sha256 6ae67dc9ad024f46cf9c16c32a5807ea105e654256923df5bd808c8cc913d58e -> 2ab04ed153606195af125e68370a2721254996fad05950542b1362f2bda93381
+~ -[MXDeliveryDataCacher _writeMetricReport:atAppContainerPath:forClient:withError:].cold.5 : sha256 183aeb1cafef19c1936546dadc386696fa337e0ad94c02853f7e93ba1b379425 -> 8d322b369df1289775663079ddcaec0bbddb243e9380dac109b81f9f77b8457d
+~ -[MXDeliveryDataCacher _writeDiagnosticReport:atAppContainerPath:forClient:withError:].cold.1 : sha256 01c63dd30aaf2ba05cce9af0123c50710d5e4256b0299b91d3e2288c59926b82 -> 7056bc434f04cdcfec615813d35c585e9030ec37afcf25faf8e1ec52c058ea3e
+~ -[MXDeliveryDataCacher _writeDiagnosticReport:atAppContainerPath:forClient:withError:].cold.2 : sha256 a7f01ef530821398e48564ff70d2d7edfd4a79e430598ae3000d4f8e171c3a21 -> ee39692b71057120bee5cb4179be2896300e91e8aca7e703be3e9e551b0552d7
+~ -[MXDeliveryDataCacher metricsForClient:].cold.1 : sha256 a6ce51a5c649bbf34564c6574adfee9a1966906583b5731b786f2b6ab6413cdd -> 70caadb74936b19de5d9169927f67e29470d911da1a0ef9b009c25856b406be0
+~ -[MXDeliveryDataCacher _metricsFromFilepaths:].cold.1 : sha256 99a6556b56ca7582728b6166627763d5ac4744b8d62f8838f9b0c30d9af2bb7c -> 2b869af880e92268d8ea02f0c515baba8cfeaa5da0cc261db1a1e1063a406c42
+~ -[MXDeliveryDataCacher diagnosticsForClient:].cold.1 : sha256 f206accde96122116a17f991336d4168f2e5c2c437f9ce87999c0cd84e2b2caf -> 778558dd38235c052cea56e03d7cb8967dcaf90340317dc269e103f62dd8aa19
+~ -[MXDeliveryDataCacher _diagnosticsFromFilepaths:].cold.1 : sha256 73554af25310873e7d3c5deb9ed733e860c7348d5596b40b23fdb587d25efff5 -> 1c27da7e69f7bab885a18c84847e75ebf97f9bd4c94798433594d18bf4a04dfe
+~ -[MXSourceDataCacher saveToSourceDirectoryWithMetricSourcePayload:].cold.1 : sha256 7407af471b13bae06d6cb94ca901139b8585aa06002e3665930b4c782a170f30 -> 8d05157478da16191691fb729b2e6c667bfe8941619b7f341f7393448a612821
+~ -[MXSourceDataCacher saveToSourceDirectoryWithMetricSourcePayload:].cold.2 : sha256 33800dd3143ba7f14308ca4b3bf82e9ed3693c4df5f987f9e97ff1a712a968f8 -> 5b7678440e8aaeea96dc58f183452670e0625b3bed8e954374d2c722cf52748c
+~ -[MXSourceDataCacher saveToSourceDirectoryWithMetricSourcePayload:].cold.3 : sha256 2b317b0e547cdc07f116cab8990313431687424f9dcdf560a6db230367994193 -> f18f2d0f57a636dc9153254c328b6c73ed7018686f6fb651b32408cc8814489c
+~ -[MXSourceDataCacher saveToSourceDirectoryWithMetricSourcePayload:].cold.4 : sha256 b701deb9462b6b2aa250124cf7d6fdfbaa36a818de543d6e7499c9b9b4d628ee -> 533099c4ee792023dc665dcca7a2cec0b49c2275a15694d985ca9bfbd52c6685
+~ -[MXSourceDataCacher saveToSourceDirectoryWithMetricSourcePayload:].cold.5 : sha256 11a263f9e2b26a79f3b6a0e55c7010bf7d5452ceea690656348552f805989855 -> 0e4d16bd12422baaafedbc142b931fc8e5d1bc8dbf3399f11af3a30a21db4a74
+~ -[MXSourceDataCacher saveToSourceDirectoryWithDiagnosticSourcePayload:].cold.4 : sha256 b9c1125475a8148f5de548fd03dada7efb336945af3902d5cbbb5bc19408d387 -> 293e19eaf779daa0d0691f202fc13511dd2053f956094dd0832ec1f218dd7e3f
+~ -[MXSourceHandler handleDiagnosticDataWithPayload:].cold.1 : sha256 d7bafe9767c97e19b6b673761af59d24a9506cd2729a96ff320450d59a75fd3c -> f2abe0e6789cb2d4225c35dd38444b227fccd2de2f767d708fd317a6342a48ea
+~ -[MXPayloadValidator validatePayload:].cold.1 : sha256 4a66f63d086a000b9720ebe99ae1d1765070c533b8a9ee3cc89662041acde1ee -> 6a34e762c2b03edd95b46c1ea0600a768370d3353fd1632681ac04d331033201
+~ -[MXPayloadValidator _validatePayload:].cold.1 : sha256 ae503ac320e967c28fde066a06325da2b77b6e48a0c24cd192d919481e8fb540 -> 032865e8f52e4e3721ed31f5b08820d8a4b37234d22b8a9567551ea1c392f9b1
+~ -[MXPayloadValidator _validatePayload:].cold.2 : sha256 ba915fee1f2fc7437f04e5d5fa3a10d84cd6fff48db719c1794d75b6947d2ff8 -> 299078bb7ee319e930beb6a99ff82c7d6fe86e4efca2af776fad6977cbb65697
+~ -[MXPayloadValidator _validatePayload:].cold.3 : sha256 4b5d217da6d3b20c4930cb611f81fc4dd88decf99205c9b695102b640506c08b -> 010d68ea0174de741351b5086017381e04f3bd2c9f408ea311e4882c4b422def
+~ -[MXPayloadValidator _validatePowerlogData:].cold.1 : sha256 a600712704d62cac6d78fc2a78389c705ff0db66f47ade3590cbd77ee2b523ce -> 05cc374b0403ff44e394f8a9839eec51c6832a0d1ecd3eda1014c8a200818951
+~ -[MXPayloadValidator _validateHangTracerData:].cold.1 : sha256 d3c82e3fcf0d4b390fbd9d549152672c1e479dc7dcbad70658a71ae8694cfd5e -> f506c43adb63070beb88d903be7c737ad0d474bddd67f27806de9bea1086cb77
+~ -[MXPayloadValidator _validateSpinTracerData:].cold.1 : sha256 8a9698d93ef8177ff527b6f57a7c6c112d9a500e9f46a24e44794c4579cbb00f -> 0b9abf7431859672ff3e8b82be8a5b47ba62b4afc36810a37f7d98a58186eae9
+~ -[MXPayloadValidator _validateReportCrashData:].cold.1 : sha256 2e5a5b05f3801bef993ab80a86f357e52af30b8f0643c97c673f4ea9240d98f0 -> 31d13035b9389bc163bc54cdcd6401f3d3b79629c19c2356c16cd9e6734eacf6
+~ -[MXPayloadValidator _validateSpaceAttributionData:].cold.1 : sha256 e27890913ce7d45b7b5f0ca4c746547bad2b2652b0f63dc8f621933fbaf5c1f2 -> e725ca4ad172c175f100313e91849b6c1a7be212ec67546e01f612fb8042cb75
+~ -[MXPayloadValidator _sanitizeDeviceMetadataForDiagnostic:].cold.1 : sha256 b404661b4f4aa5832da9647e766957cc1081397a22e5e342f81172eb6b0e5e3a -> 75797277cc28b04c6aa5cb26b632ae1344e349854b76b7cf40f11aa35ed7fd25
+~ -[MXDiagnosticServices _diagnosticPayloadForClient:andDate:].cold.1 : sha256 5df13db52ab7ebac103d611098f7229c93328c7dad005d52ef088f0bdd7d512c -> 91fe3869cd8a1613d23b4517f0ac81a0109a59b3c1b122d493d96845087810a6
+~ -[MXMetricServices _metricPayloadsForClient:].cold.1 : sha256 8a1a317bde825966e969cbe7103bbf0eabed6a320cb5de145f8378d138a7aa8d -> d5484a850b22206721c0a61942d4a13dfda5efda580f4f6516a9fde386e12594
+~ -[MXBundleUtil bundleIDFromAuditToken:].cold.1 : sha256 b9ac0968f83da3d8d1720a68ec6406f54cfb3d80e2b885f1f69d50b64d247ce3 -> f98b27ab197810931278edcb114c9c4c59767a887a2d0b1f2a3a1f57c081b5e2
+~ -[MXBundleUtil teamIDFromAuditToken:].cold.1 : sha256 c14d7f3eece4afe7d074cbf767530b460bd2d8def96e37deb6b214eeecd8a16a -> 070c1534f86d38fb194f6f3a63336815e195246707aef8b59f3809b523edb97a
+~ -[MXBundleUtil mainAppBundleIDforExtension:].cold.1 : sha256 1e53466969bfba47d82b66675b498df6eb508f63b7c96d9850af81c7009d739c -> fe77040d32868e782979722096669e17ff2f718b5d1350951e63bd490f5e078e
+~ -[MXBundleUtil mainAppBundleIDforExtension:].cold.2 : sha256 17c359cc1c0c6c367c504c5a20938e94bfbd8905eb1f59a32db88f5644a661c6 -> 06099b57da6d850dcf5ff7d8fd8f5f993d6ceb5535ee3819930ddba0727b7d68
+~ -[MXCleanUtil cleanStaleData].cold.1 : sha256 d5bff0b1d8c71f70c25bad3a253241dcde78724d6b263d0b88ce4b85f65d7eb4 -> 5f505041849321364c33cdae6a7803c353488ecf929ca210f9ff7b18b230a39f
+~ -[MXCleanUtil _cleanAllDeliveryDirectories].cold.1 : sha256 4e5d6d585d73faeb08ea2cd11b913adb3b65baa0670a707ca89a424e9cdb4548 -> c63df99a3bc48f81cadd1d7c11a634ee48fe93a33c1c8b2fa1dd5e5e02a6a487
+~ -[MXCleanUtil _cleanAllSourceDirectories].cold.1 : sha256 200cbe4da341e360be0e02afdab6654f0202b1a552b8edec59f422e69d6cbf84 -> 85fbc7fcd9e9cf783e8ea6534120ee330f726593122c5b93c1c876f0b0405698
+~ -[MXCleanUtil _cleanAllSourceDirectories].cold.2 : sha256 84e38dbf15e06039a03f3665c500b38822d0d8391ffd64629b9cbd8256f5ae6f -> 0d5d55244613decef3d8c6a0498a43671061658595221dbb1df5e869202fc078
+~ -[MXCleanUtil _cleanAllDataForSourceDirectory:].cold.1 : sha256 d28233da0d9d8c9a3e4017c0385ab248ee0d57ed8f640bfd9b15dddaa087ea4e -> 40b76ae598a42144d94fcf67430fc8d2da04676840b6f42da478d50c2ef0a202
+~ -[MXCleanUtil _cleanDirectoriesForUninstalledClients].cold.1 : sha256 69f1d83378dafa50ebf924bda3b0a396dc533936e701fa68f1370c65e183dbdd -> 288ee4a02d33a11169b818a414a35f4d9e8ce9d17cb0a93b9add008e36c7a5e1
+~ -[MXCleanUtil _cleanDirectoriesForUninstalledClient:].cold.1 : sha256 f72f733967fc074b6032aeac319de83623b5c742092ca518f42c2eed8c91cbbb -> 09bbd99e52874445febbf0d78fa396f3672f20c05a2b2d900da2003252776024
+~ -[MXCleanUtil _cleanDeliveryDirectoriesForClient:].cold.1 : sha256 950ddde854a482e8200aede75733d74b336dc56125a808ec8d3c8d517367dfe8 -> 88f5cacbb032dbc80971148cdb94832dcf2ccdcaa72f9c01998eb64b791b8d9d
+~ -[MXCleanUtil _metricDeliveryDirectoryForClient:].cold.1 : sha256 933ef9da33fc2368586c4ec0b9e23ceec33d92222d77d7a27c0104194d46f8d1 -> 56f084fcde2a739e1e213912d65c10b856737190f4c58922947a88da0b491387
+~ -[MXCleanUtil _metricDeliveryParentDirectory].cold.1 : sha256 f12b2aeadaa978b273190b73c52351b68078d692297d2976689f81f4923c779b -> 7f7b89e9af913a8edabc834bbb2d672a8024435f573823f432ab7f84c37a5ea2
+~ -[MXCleanUtil _diagnosticDeliveryDirectoryForClient:].cold.1 : sha256 c4260f60a3837ccffff2a41718476a4ad752bdba84a548024fdbc81caa516825 -> 03726946efb0d4aad59354e219e76abf057a6d7d773f56bf465396cbd7043396
+~ -[MXCleanUtil _diagnosticDeliveryParentDirectory].cold.1 : sha256 0df160540e7e5e80e0fa76ee15f77eaeecf6e39d573afc1e5961919ff6e27b13 -> f022a1f6893d2a27af3de18275acc357dc62ba729a9d30ed288273c3903ea6dc
+~ -[MXCleanUtil _cleanSourceDirectoriesForClient:].cold.1 : sha256 29cd975a51a3ecfedd5ce45954f4dae275466e68260e38468bd77aa22b7c9e68 -> ec155e0684fe31eaecdc2ac6de2f75a0cfc3aca17a9ce2c7e1df153cd90d52cf
+~ -[MXCleanUtil _cleanSourceDirectoryForSource:andClient:].cold.1 : sha256 cbeb8ab261756d4cf9fb35458e9ed38868a1a29c9bd95daf836d00f36b72a38a -> 86a87dcdb516e12b63c1a29e5c109a63607a8f0ecce92a4d2910913a5a2c6db0
+~ -[MXCleanUtil _cleanDirectory:].cold.1 : sha256 d3384d2d4786ca916b5a1f5d58bd5ecd41b113eba6d211ab221fa885ec66affa -> 3fa743b58d1d8b6f0925e16a0f1227ba3424a12804c7cfc1f387967b25b1ae0b
+~ -[MXCleanUtil _sourceDirectoryForSource:andClient:].cold.1 : sha256 6cbae5c53a0328271be79cc1e0263ee5d536d9c774be67c5c987129f2cd6df92 -> 0491c28da36cb029fb91148443c11eed44fac25aa61c695cf9bdc7cd45aa389e
+~ -[MXCleanUtil _cleanDirectoriesForStaleData].cold.1 : sha256 688408f39977b65ce613c267fa0322460b95a4a53b513add8c0a9c9a1ab7ae5f -> 5b3b91ec7231fb382a57aa9a7109750fb4025d8fcba43ae03ddb9a5ad18b67a9
+~ -[MXCleanUtil _cleanDeliveryDirectoriesForStaleData].cold.1 : sha256 f7d078bc79e52fde302c43bc5e0c0c2a93b1623a5b4b31508c249b38d51de901 -> 5f1a5c7af764213ca9deeff02ba520d015565464ceb3f75e90b1753e9aa95589
+~ -[MXCleanUtil _cleanMetricDeliveryDirectoriesForStaleData].cold.1 : sha256 c6e754d57edf382a61fdde607fc4e30462e0ded6c5dc6e767946d509cda54a60 -> f56b6f0214d12694e6d06b23a94c4973627edaa111d80194cf6ce95d3ef6c573
+~ -[MXCleanUtil _metricDeliveryDirectories].cold.1 : sha256 de58e06a20d4718b92098b907f6ed0519683429cae15e006087a7ec5b2776b6b -> 46ad9c5f52f7d97c872769149a8862be8bf2bc62d80bc9ca0c6913a52998499f
+~ -[MXCleanUtil _subdirectoriesFromDirectory:].cold.1 : sha256 d4365779b136f47075d1072bbe151b7aa24af245b686defcc1195ac63bface3b -> 2203f3a5b73aebd287245923d7b52b591d394a2528fb6e44a2aa8ed6ea2a12a3
+~ -[MXCleanUtil _cleanMetricDeliveryDirectoryForStaleDataForDirectory:].cold.1 : sha256 f93ab029805531570e958b03f6e22751cda2605d282dc51b57a76eab42cb08ea -> e3b89c0f938295274c79cba19f82410e645b520a2b425a005e4d05f8383f0e56
+~ -[MXCleanUtil _isMetricDeliveryStaleForDirectory:].cold.1 : sha256 604b36f6a4c823d44387b22a86f5a87e7d40bb8805fa0a0abc867905f2202394 -> e7fba235b59cd8f3238b67c8671d2702ae1d56716002ccc81143d5cf8b7e68d2
+~ -[MXCleanUtil _filenamesFromDirectory:].cold.1 : sha256 200e98fc78d357c8ae7df21bbc74f3187df0505098419639af4c3894680b60bb -> d8c0e9f1fad7c28518f0a4a65bdcb98b324428bfea8ca42cdcfff4e6411ced03
+~ -[MXCleanUtil _filenamesFromDirectory:].cold.2 : sha256 faffe6e0597c9e0dcc22128386d0c7a19e655bd161be57bdc8a7a25c4eaf1b66 -> cf35ecbcc6a36ab60c3d025f8a0f71545a41c60380fd58cbd5eb66a5b349c788
+~ -[MXCleanUtil _lastFileDateFromMetricFilenames:].cold.1 : sha256 2b2b7177b2def4d64f19db7f49df8370a4a839aac57e7d4e7620e9c744ed3f36 -> 9a61589e23eb11d4bbab95b1f4054502ab61fbf6f9ea3038316ae611ebf49b39
+~ -[MXCleanUtil _datesFromMetricFilenames:].cold.1 : sha256 d38968dce8a84def2d6deae2c8611ffd0b71553c4dedcb37c44b91b23ea36c7f -> ff02ac7844cc9f8c4f72391e5160737e541b2ea76003c37403dceba588f166ff
+~ -[MXCleanUtil _cleanDiagnosticDeliveryDirectoriesForStaleData].cold.1 : sha256 d2a98c5e0054914fc97fdf1edc8f5dea64250acd9d10a27efc8ecddb660f55df -> 12b05fd50571609d8839cd1fe36fd40806f426591ec67e32a2487a749046e50d
+~ -[MXCleanUtil _diagnosticDeliveryDirectories].cold.1 : sha256 ba805c490f86bb2610527e3a06b6a6d86dab638531d0660a0ffb09e1ab5c289f -> 2709634bdc2d865ac75f95959d8bd62cce283589996bc617eb0f3c20e72008ff
+~ -[MXCleanUtil _cleanDiagnosticDeliveryDirectoryForStaleDataForDirectory:].cold.1 : sha256 1a53d948e55a868046314612b3ed49b30326582e5a3a310c09bb05c72014a0a4 -> b8fe3787d31cc9d3a51c7961478c38204dfe4b0ea601eaed66f60cbca0040acb
+~ -[MXCleanUtil _isDiagnosticDeliveryStaleForDirectory:].cold.1 : sha256 fd186faf090714ecb37877eea1ef615aef6f7d0a05d93ef63531015162974e9d -> 5397b98c02dca0274b0445073608f59ef1d839a63a100bb46da91bde1277ab34
+~ -[MXCleanUtil _lastFileDateFromDiagnosticFilenames:].cold.1 : sha256 7ba4ed9b07e7a567e7c3ca8ffad7e33dede1fe068045ffcdb3c5f582f9a12bd9 -> b67dff8aa21d5c79976a9cb8ae465a2d93310237e647c864f23bf675ae8d52ec
+~ -[MXCleanUtil _datesFromDiagnosticFilenames:].cold.1 : sha256 8d18b018a80562841cfb7885f4a6c29ea033fad3ceacf0006fc7095816ad052e -> 923fb227375a891616e9780a9af7fe115bb99c2f73f1e3f8d5955c122ada7137
+~ -[MXCleanUtil _dateFromDiagnosticFilename:].cold.1 : sha256 0a0a6d512a4f9820579ac1d0004426d2cbba98c1a61d04bdfe688f5fae638af6 -> 0ccab65ca9c5d9255c51b9332144c91d9f0783708ee9620e814da71c20b3f1d0
+~ -[MXCleanUtil _dateFromMetricFilename:].cold.1 : sha256 ad04b44db7e2309e1e83ade7a9172433805a4017ce70f06e8920d451f7f1f6eb -> 7176bf4362a25ecddd4ed8c60e8e9a258be70134ef425f082e3fcbf670f9e368
+~ -[MXCleanUtil _dateFromDateString:].cold.1 : sha256 2449e593c05228637bff4344b2512969b983b1ce37209e2d0c6765b404053140 -> 586a3d487be983ff94a446205e438d9315435069622a5a638d4fc438cc6b739d
+~ -[MXCleanUtil _latestDateFromDates:].cold.1 : sha256 4b2f9d51090a8515b89b3310d3120902ef58233ad7b87bc70de18dd05e2befaf -> 2a71dbd630352260cba0a6e4202b4e4251067fcab92f8cc6e38bec0621987597
+~ -[MXCleanUtil _isStaleForDate:].cold.1 : sha256 b1391c823a569c9f417bd9663cbac70dca4aed9e12bb4bdb6a11d6d2bf6ad294 -> f46fa379bc54215fd5fe87ed6018ed5c7712f0a2b1dcd48a6993557197568fd9
+~ -[MXCleanUtil _cleanSourceDirectoriesForStaleData].cold.1 : sha256 2732afa872c4bce3254015521470a39b68516f3604a621808150fb8f5b5a5f9e -> 4a75e3632fd865b043b74410a8bb90b67d3884f990fffabb66edf5525edd0085
+~ -[MXCleanUtil _cleanStaleDataForSourceDirectory:].cold.1 : sha256 321fb07cabccc82201e604706b780eade4cd9165fae798ccae4bc2cddb06a64a -> e2bdab3ab7a6078b0eec5d170fc57a4b2e05ef5de52455a368017434f503578d
+~ -[MXCleanUtil _isStaleSourceForFilename:].cold.1 : sha256 423f70339efe036edcbfeaddd9bc586e76c3d62559ebee82d623642ab5d7e8b7 -> 4a7f4b85b1ad16a039f3e2d7ad76cf1f24fb11e2059eecb42daf4b60fab2b316
+~ -[MXCleanUtil _isMetricSourceFilename:].cold.1 : sha256 9361986eb74544bc4536aa5c9a2416f904cadf264adc1b06cd04770059df2c6a -> dc31791f927ce6dbeaa749d49fa0d44349124bb62e7da7bfa123db939d0b29bb
+~ -[MXCleanUtil _isStaleMetricSourceForFilename:].cold.1 : sha256 17860b6cf5279136ab9c8742aa39ac8fe89858de6c5deaf37ba8fb4213d84ae8 -> 527cc97a3609dd5526bb07980356c189dbf59154a2b3ee39aeab2c26d726f294
+~ -[MXCleanUtil _dateStringFromMetricSourceFilename:].cold.1 : sha256 144d07ee7e1b6b89b9a430b887163ee40548a5f71bb4d1ad0c7ba6b90699645e -> 8795a97572e20f73da0212a350381e3581b5a97b2ddf4f5307724e4545f807b5
+~ -[MXCleanUtil _dateStringFromUnprefixedFilename:].cold.1 : sha256 6d65765f1c23e193be5dbb860d06e620d0670f2006a42a0470c273d38bdec879 -> 9604dd2757df8bc48341bb8ae45f5b088d28465a04ba7b3d8966fc684492b601
+~ -[MXCleanUtil _isDiagnosticSourceFilename:].cold.1 : sha256 853455a386475544a8482201fadc8960119498cc77b73cbc4316b16555be194b -> 26a5dc4861ed4b26b830c0dd8bac13011f23e7940991feaa785eddf4bb573263
+~ -[MXCleanUtil _isStaleDiagnosticSourceForFilename:].cold.1 : sha256 8aa0e99d9e1b4be102797401df65c572744e1e1c8d1aadb6b094f389e8e3270e -> b5367f0b238f6c98f484ef1bcf30588836df876798ce821974f1405383d57ae8
+~ -[MXCleanUtil _dateStringFromDiagnosticSourceFilename:].cold.1 : sha256 38dd2c4307c0fd627178b9e1a20cb9aef554d25ebffab346d504a63d5d380a42 -> 4260de6b588af4447f61d538b6320b13f4c5e89d6b0a7a40f5bafd3df003538f
+~ -[MXCleanUtil _clientlessSourceDirectories].cold.1 : sha256 d11f75d9ad136b5b9b2efb0a09e3eb828d5b3b1da024ae01546c71ebff6db95b -> 88f759e9d1fb9bd5cc6ecbf45d9f9e911fb96deadcc087c85da0f20f3524e223
+~ -[MXCleanUtil _cleanFileFromFilePath:].cold.1 : sha256 771916d7680658005403a86b969460724b92e7402f37545331443e70c0cb3d52 -> bf55c60ffb5be2bb19000e9c985a51d7ade0a0448ee8d8a09bddff8527288d94
+~ -[MXCleanUtil _cleanFileFromFilePath:].cold.2 : sha256 76a3bcc8128930ebd5dbd1a7ede19a448c2a15eb4082eca77e4b38601c1a8dea -> 27204faa1804e772cfef4202f667feae8292597758249e905bd9ddb2b66d4240
+~ -[MXClientUtil _initClientCollection].cold.1 : sha256 8b1d2d2320662ccc7f25fb0e3df3ef11aaba8944e99f0f6f70101fc26c2fce7a -> e76283c2614ef02fa9f2a0e79f92ac0eb7704f0490c6c78522ac42de3e7f6d67
+~ -[MXClientUtil _initStateAwareClientCollection].cold.1 : sha256 8d802d29b8817b8979e2364ec4f2c99e545fca46805ec049e953a5011be18e68 -> 19f690a112a6a91b3bc611fe14f23c0aa4fbffd5dc8ddbe2af55733261500dab
+~ -[MXClientUtil removeClientFromPersistenceForBundleID:].cold.1 : sha256 c11e36bd044da95de9e76753b73d15b0db4e6c974910aeece55d5cf72d3f0b91 -> d527a642e77f6b16c252f861de94cecc0b83e27302bfb161990abb6010a5944d
+~ -[MXClientUtil registerStateAwareClientForBundleID:withDomains:].cold.1 : sha256 3fa07d4324f2cf2821022722fc30e1dbbb6d2684ae8597831a3b4a847a84badc -> 12e905eec17ea22e7aeb399bcd3340805657400931ee79f1c6cfb6a42f2908e1
+~ -[MXClientUtil unregisterStateAwareClientForBundleID:].cold.1 : sha256 c0818df872db61281afb2d4a9676f25cc272e66580cf61913f84c52f7d8fc71d -> 5d6219562a0c24eb4b75f9edb8ae5c3d2678398705ab5e8b36f26010543cbd02
+~ -[MXClientUtil unregisterStateAwareClientForBundleID:].cold.2 : sha256 ca772a44498e729b9da98d47e78e674d608358720fc20b60f697a5f921f0f241 -> daa3ae9a4ff0037eb270d08ac0639171580cc3d4287805701d3192bba4e921f3
+~ -[MXClientUtil _hasClientInClientDictionary].cold.1 : sha256 866811471ba9a1fd7d1494c26da9316b13c2491f95c6a1236def6ae7a95b6aa6 -> b31a718fb327de55529569ae182fdb9d7389bbfcea05c0c11fbbe1bb20be6c8e
+~ -[MXClientUtil _updateClientAsAvailableFromPersistence].cold.1 : sha256 b500568edb92a471dbb47e1931af32be3c5f530932783886bad25012d0af7887 -> 2e9e0ce0f573b599f23477f633d749d0d0989f47e96ff2c4684ce884ba93d716
+~ -[MXDeliveryPathUtil applicationContainerPathForBundleID:].cold.1 : sha256 f968b7aec2efd771e3c98fe7792fac50bc0a6598c2179f3df3f868d057fa07a0 -> 53dfd5767619f68d3d1bb6df26d5b88c6fe1d3ffd0f78744302d32af383b246c
+~ -[MXDeliveryPathUtil applicationContainerPathForBundleID:].cold.2 : sha256 9a3b453700eace334b28640c352634945e7a00e0729a8194a14c12598a5e6053 -> 582a4730f2a10b8787cf16983c912cc2779fe18cec361215266789cbe836bb29
+~ -[MXDeliveryPathUtil _applicationContainerPath].cold.1 : sha256 a10425bb6618d59b8bf44a76bf8ceeff9b53742e8e35cbec9387ead3bbce6128 -> 0ce2b90cb4ba12fae63c26a317b804343a9472073d180756d832cc83f7669c55
+~ -[MXDeliveryPathUtil _createMetricDirectoryForDeliveryAtPath:forClient:withError:].cold.1 : sha256 9a98d983e290105b61a951e7d7e081b581a0efb5626a174742470ac7805ed189 -> 710408a2765f3cf9689cb4f2d978e9c1793674e43cd0524ab250bce971423637
+~ -[MXDeliveryPathUtil _createDiagnosticDirectoryForDeliveryAtPath:forClient:withError:].cold.1 : sha256 bb7dc91ad2279d81af08c45195bcb2065b70f8fec81e046639cf2d34d0659612 -> faf37e64fa0272fee122c6be854f601d884be92c21644182eeef989f7fc3c268
+~ -[MXDeliveryPathUtil _createDiagnosticDirectoryForDeliveryAtPath:forClient:withError:].cold.2 : sha256 679e8eba1695d690618f72bb51a5103f4bbf36105deb18419084e589629fe8eb -> 298898d70a921a4b4b9b2570a03f8cfbd7f8af17e965961842e1091678c1d56d
+~ -[MXSourcePathUtil removeDeliveredDiagnosticsForSourceID:forDate:forClient:].cold.1 : sha256 a5d937d6493bdb462c094ab6178b278f0f1336c8e36a9f9747c06ef859c91e2e -> 15f6a1bbe5bf2699f35df116105dd440fcdc58a99ddba16896cedb279d1391c3
+~ -[MXSourcePathUtil removeDeliveredDiagnosticsForSourceID:forDate:forClient:].cold.2 : sha256 9488d2a464b86596b3af018aadc5f48192e8a8d81659106b75348cfc4a41dbad -> 5c5157c21fe3ff4006aac18539535c357a684ced71cf1540af50adaafc7278a8
+~ -[MXSourcePathUtil removeDeliveredDiagnosticsForSourceID:forDate:forClient:].cold.3 : sha256 26502825a5da3d46bfb2ca3d9fadcc05977aef2da6147a4f25adfc2b9b458117 -> d17021face452408322183c946467c42625f86eb10ba99ba71ccc599f8152e1e
+~ -[MXSourcePathUtil _setupSourceDirectoryForSourceID:andBundleID:].cold.1 : sha256 bdd978ddf4ef2df0f8c5888dba414fa903310e41775efe4033ebef42fc8b5325 -> f8412e8e1989a07ae1f43fe6026696eefdae9445af5e61e443f481c759431f9e
+~ -[MXSourcePathUtil _setupSourceDirectoryForSourceID:andBundleID:].cold.2 : sha256 80eb5ae9a6b026d56b41af0ebd38345fda5bfeb9f9170834b759080ed1b55548 -> e5844a609ed9221482161bfefa49ad97bfd375b9df5f531fa71516d6e7e53160
+~ -[MXStorageUtil saveData:withFilePath:].cold.1 : sha256 9d59b50b4f935ea7c6a8af6b7c4fa89eab2daa2b5bef5bc0575c860fc9f17a90 -> 88c14b1e155c4454b97c63af681d47c6e62383481a9cbb69da81a6967231a253
+~ -[MXStorageUtil saveData:withFilePath:].cold.2 : sha256 c94e11590513213771297889bfa8394fae2904840a66c420157c7ef9a0f4218e -> 5e635001c7bc4993c0923adef265eb125d0594ab8a4c20d25632e30e6f058e60
+~ -[MXStorageUtil saveData:withFilePath:].cold.3 : sha256 a5358f3b00355a3d149f50352288f3f29c47c192d86f3196dca70d52a098ce6e -> f381845fa52c7c45c7cbf8bfd06495627e57cb13197462a84fa8780fe8664854
+~ -[MXStorageUtil saveData:withFilePath:].cold.4 : sha256 00502daab65be49481cfabef9b05cd3ac41cf068f5aa45f6393f5bfd37e6d61b -> 1d314ca565af7b5bb3eebc6724c5f17d588295f6f34e8d12eaf8c19243049964
+~ -[MXStorageUtil createDirectory:error:].cold.1 : sha256 05a4e52bb5caad6c2d94c6b0732cf5a8c8c547acd32247e442676447f03c3afc -> 4f5bca4f938325fac0a8c3e40e2945ce15213a9503b064219ddea59140c9014f
+~ -[MXStorageUtil _removeFiles:fromDirectory:error:].cold.1 : sha256 506d1e2f44350770e4270966a07cb85039708f6e327227c7374228d996965894 -> 11bdada62fc9fb5d329492495c06bc90a6ec8c1587d8b48bfbc46e4f70517cf8
+~ ___31-[MXCore _startListenClientXPC]_block_invoke.cold.1 : sha256 c5c08178061f0f666d57ce6b3ec7d21e21eb9778b0bb2f829b3b4ed028a24d1d -> 386bc0c9d2c1c3ba2ddfdb192b94b15107551bcabff85e68dc43502271007b17
+~ ___31-[MXCore _startListenClientXPC]_block_invoke.cold.2 : sha256 e051f407db587b456dc1322feabfb2c22748a1e0c501af16e970edd38d30a6bd -> 10245d1fa7467bb4e2d101a73ca14958a1e4329b00becbcdfeaad5e60d1a9ba0
+~ -[MXCore _canSetupXpcListenerForSourceData].cold.1 : sha256 816b6308a59988cddc327f42c40e6ff86c99f9ff8f53ae82e35e936ba2a6e4f7 -> d2cc96c1df97d757eca7f8df84eb90e42fc27b2b8ad3ef3374ade420a2f67883
+~ -[MXCore _canSetupXpcListenerForSourceData].cold.2 : sha256 00e813c29e4bbafeda276e6ecf33f748761f4c984f640c52553720646c648f28 -> 5f08c33454cb9eeba86b8d375e428f1f766234b454ed64944ef19dfb6ed00d93
+~ -[MXCore retrieveDiagnostics].cold.1 : sha256 05a79b7844932e97d9e51d014a8a2efe1a179f0446a1a2f82b2afc92dc4d53eb -> 7cf27750a0557846255c6923b739b00497d74c8bab5f1b10a261728ec4bbe271
+~ -[MXCore retrieveDiagnostics].cold.2 : sha256 054ad3034b2ecbf96b873529e162061777893673b8773de4f5e560188773db34 -> e21b58048c8af4c453e5d4f08aff0ae5d6d82c6e4b9425abd91e1c5a463670f2
+~ -[MXCore retrieveDiagnostics].cold.3 : sha256 7ca273265ae099943f62d79370a249bf10da15124de0ef11283ec786d7d8c318 -> 395d88bb515c01e17a68fb4e4b6ec39ca00bb5c059c05fb06108821837fb7337
+~ -[MXCore retrieveDiagnostics].cold.4 : sha256 1f548af760eb0c292df3292e59686f898c6e97fe1ba399742e9b2d6a5145513a -> 1f90f94001cfe021eb6425557d76f6e2489f94b7f0e49e6c570d46941141c451
+~ -[MXCore retrieveDiagnostics].cold.5 : sha256 dd2dbb6620cf567acb6840678dbb995a9dc8b13262c11fde076baeb20b31799e -> c85d7cdf9bee53423cfc13b53771a993aac8d2d90969c299fa508ec539c1f2b0
+~ -[MXCore _registerClientWithStateAwareDomains:].cold.1 : sha256 82e9eef2008dda6072e47ec3a33021e8c0e18e27081cb7f779cfac2161a8bb42 -> c33a5da00de3d2f2586680a2014a7fa519c7bd8b8079b5ac3b83b1aa7c8a8e29
+~ -[MXCore _registerClientWithStateAwareDomains:].cold.2 : sha256 5c544f33a60c33ac0270cd6ef6d1d3dd93cddfea8d30eb4b865a83793c732023 -> fb5ed1d69c3b40865fd2634e465ccf2fa875f116cb55be45b7651924eea48a8a
+~ -[MXCore _registerClientWithStateAwareDomains:].cold.3 : sha256 ff2eb514986239de0ccd86300db9cd318a9dc286920f1e23bfa015bf52f863ff -> e665002651c8e2a971849c2214a709c860ac8c7d4ddd98e2076bfc6b2b1dfa9f
+~ -[MXCore _registerClientAndTeamWithStateAwareDomains:].cold.1 : sha256 98702b55740c69f3b257a590aa44ef3555924551cf373a1a6f23dbd4d0b024c5 -> 7a09ce00e6209b0c39c72b308a0186ca4743982b0d40b0740287959a7f26992d
+~ -[MXCore _registerClientAndTeamWithStateAwareDomains:].cold.2 : sha256 fcc5bf41a5783651187bcda68d0cee77787b920114223b7267c5f6981ceb2d42 -> 99b5def1d763153219dc7eabe1b4342fa299199e04b726a2e1e3e5102e6a3d23
+~ ___54-[MXCore _registerClientAndTeamWithStateAwareDomains:]_block_invoke.cold.1 : sha256 f168679f3e1623b37d39c930bf26b24e59d7548ae858c0f56f23b84795d1b46a -> 1edcfe701c0891c45fdb8bfc183063b0195510dda67f42b6d833a22ad09a9b46
+~ -[MXCore _deliverSamplePayloadForXcodeClient:].cold.1 : sha256 ff54b7759a9dce3795cf4596a44f124eda2aa4f93c770d8626bfc87ba7b21a12 -> aa3f926b3c4dd9d66d6ff01a5a4024694d7076bff70a28e22dbf97b1539fa7e5
+~ -[MXCore _deliverSamplePayloadForXcodeClient:].cold.2 : sha256 2c47b486fa0125408a6d5aaa32c51df99dcda74d48f5454fd82af3ebaa8d3165 -> b31c7121fe27edbd9a37b25d0fc4e0f3191cd7790583d1237482cc9b0042bfa0
+~ -[MXCore _deliverSamplePayloadForXcodeClient:].cold.3 : sha256 6f90adbbf9a2a5a96e9fa2ecdbb742f76b6bdb53ace2af142991e42c0906fd30 -> 93fc4fc235535087edfd18ae3b4ab72399f4571e9893ba26ed489df6c3aedb7f
+~ -[MXCore _deliverSamplePayloadForXcodeClient:].cold.4 : sha256 6dc32404be5c7cd5c408d3771a95219708e73c12de117708c20dbfdf2a586c5a -> f26245d8c173b198717abbec90657a52985a8e4c0681c3ee8d61d687e6bd8a6d
+~ -[MXCore _writeDiagnosticReport:atAppContainerPath:forClient:withError:].cold.1 : sha256 be6cbaf64b676f4f95017bb63e9cfeeca1cc4cd07c4467ec1bf20936c21f491d -> 94061d3d66e1b83fe8dcb844421418f216878215105fb921bb8118a8f38e9903
+~ +[MXCorePayloadConstructor buildDiagnosticPayloadForClient:fromClientDiagnosticsDictionary:withDateString:withEventDate:].cold.1 : sha256 a021346e65938a8bd39db4b3b1987cea1165c106cd8e06fbf9fc06f04aae0ea6 -> 37afc839bf6441327e7143bfe53afff020b8485ef02d0523547a2e7e7778d38d
+~ +[MXCorePayloadConstructor buildDiagnosticPayloadForClient:fromClientDiagnosticsDictionary:withDateString:withEventDate:].cold.2 : sha256 43ae715c731b2c5614e041f894c3eaa63275cc77c515bbf38a28f5faa8154f25 -> 0ba5f5ae3bba58087501424eb1f12d16dd27caa8cbf0b1f41d05fa595918629b
+~ +[MXCorePayloadConstructor buildDiagnosticPayloadForClient:fromClientDiagnosticsDictionary:withDateString:withEventDate:].cold.3 : sha256 c8ce7ca25d9bb52b1d72f8b5534521a46ca5d7d871de3ee23f907888ac572309 -> f2407183a40a7d2b9b5b8975fe41e198a673f91f22aa3e5c1bea5eb51d6e4891
+~ +[MXCorePayloadConstructor buildDiagnosticPayloadForClient:fromClientDiagnosticsDictionary:withDateString:withEventDate:].cold.4 : sha256 8ef40b0eaee95c06b80cdbb27335a426416155e91dc71064947e9503df4f3726 -> 9aa6dcad621ed37503a8232fb0be21e31467ef5fb3e719b76665282b291b8f9d
+~ +[MXCorePayloadConstructor buildDiagnosticPayloadForClient:fromClientDiagnosticsDictionary:withDateString:withEventDate:].cold.5 : sha256 f60209002eaba870d7a64e7191b4763291983727f734096197e9fc42f7ac536c -> a1786c3e81bbfaf977c2f657457da5d6afacc56cefa24abf920c2d28e257d2ee
+~ +[MXCorePayloadConstructor buildDiagnosticPayloadForClient:fromClientDiagnosticsDictionary:withDateString:withEventDate:].cold.6 : sha256 f619645fea78c0b7ce0a40ae423204009346c826569737609c3e7644ed7ae0ee -> f6d18f702789fea3b6f0440f06242320d18e92cc3365452d7db4e2c8011b40b3
+~ +[MXCorePayloadConstructor buildDiagnosticPayloadForClient:fromClientDiagnosticsDictionary:withDateString:withEventDate:].cold.7 : sha256 876f318974a169fe127a1c020bbca0bedf5687ebd1c545b43a2401fe55514cc9 -> 2f073d1b04f38f5507857a8b5bc97111e1da01155f9c84190afb96d7de1b2652
+~ +[MXCorePayloadConstructor buildDiagnosticPayloadForClient:fromClientDiagnosticsDictionary:withDateString:withEventDate:].cold.8 : sha256 4f9615adf3214f9a1f83aee0fe313c07b6aaf46e6e0e85c52b56bc624938b278 -> 95e9a3e820ee40c03ffbf580648528ee49561dae133c243a566edd5067ab2203
+~ +[MXCorePayloadConstructor buildDiagnosticPayloadForClient:fromClientDiagnosticsDictionary:withDateString:withEventDate:].cold.9 : sha256 dc787b4417e3b0c831eb9ae765ef49924cb005c53154c6aee997a810f575abb6 -> cc4b62cc8b6b5c8e03795d8d1084be6edd46cb14fffc49acc002dafa34b7dc6c
+~ +[MXCorePayloadConstructor buildMetricPayloadForClient:fromClientMetricsDictionary:].cold.1 : sha256 2e4221d1e6489572b0fd16ddbd47604ecee56672048de4a4b86b8d247bf479f1 -> fbf2fc9d4a357514ad3ed0481e63d173a8b619fe35d4d4298cb40c8be0b3805e
+~ +[MXCorePayloadConstructor buildMetricPayloadForClient:fromClientMetricsDictionary:].cold.2 : sha256 63f820aa5763d4555368bc0b0f5e94cf9578a94071a401555d0b92947a4f7150 -> 0ceffe1bc13af3fd2d2fda56b3bf9f021f05e3485e5143ee64e901644768a38d
+~ +[MXCorePayloadConstructor updatePayload:withServiceString:withSourceData:withDateString:forClient:].cold.1 : sha256 959a8fedafb3408126211bf086cd192e4cc23c5c86cc3a77b109680dfe095505 -> 55d665fd91622c7a90692a296fea2b4534bfa14f1dd59d1896f378bef64c68f9
+~ +[MXCorePayloadConstructor updatePayload:withServiceString:withSourceData:withDateString:forClient:].cold.6 : sha256 cbd9afed2dc1572d8654c262ae4f7919ad3a6506f375179d3476871c90501005 -> 5001da5bf2b68804d54be2df460788684edd62b7176e1c77d98251ab67c5bcee
+~ +[MXCorePayloadConstructor updatePayload:withServiceString:withSourceData:withDateString:forClient:].cold.3 : sha256 96313ab55601fde9bb09ab732dd965365c981fd217395c67568dd325490a7d1a -> b7c08219d79e9eaa23cd61bb2c7ef1ddc28f38aec9e39882914d4e6d779510fb
+~ +[MXCorePayloadConstructor updatePayload:withServiceString:withSourceData:withDateString:forClient:].cold.4 : sha256 a2048201901b245d674b515ba68885219166a84fa506194c6a971653776f5d44 -> ff0893ad96ac67244b832ec6280f80fd1c8a7a61c23c3057f497ddfd7a5d4bc4
+~ +[MXCorePayloadConstructor updatePayload:withServiceString:withSourceData:withDateString:forClient:].cold.5 : sha256 7ccab91e27bc81c8d67bcf901e4bc6de91d088a49261c0dbb8c6d6b2d5707e60 -> 540eb3ea78053113a64359bfc1018cbc52e48aca503837f6c8dc885a3696bc33
+~ +[MXCorePayloadConstructor updatePayload:withServiceString:withSourceData:withDateString:forClient:].cold.7 : sha256 f54952c63317780a48931b951d1870b3556b1debdd53dc822453c412a60a61bd -> ebb8a7b6cb0d127e34b49a1ef4ecfadbd099bfa719ffcbf07a2a4493cc3db7c3
+~ +[MXCorePayloadConstructor updatePayload:withServiceString:withSourceData:withDateString:forClient:].cold.8 : sha256 d98530ecad4f6d40db7ea315da31a75430cd5f9c689b4627560b15f48f04ef32 -> d41cfda76fe0026a749445a47636c19295156783057931b2cb771769cd50cb2a
+~ +[MXCorePayloadConstructor updatePayload:withServiceString:withSourceData:withDateString:forClient:].cold.9 : sha256 c273c9369d7dcee0e30b24f8cc14f79c38c1a7637f1e86803641f68031c0c721 -> 9141a2c7504c7dedca88ebe00d4903ba6521ecd90325ac29cbbf9486ad7747a7
+~ +[MXCorePayloadConstructor updatePayload:withServiceString:withSourceData:withDateString:forClient:].cold.10 : sha256 87d74b89e14eb8dcf7c9a663674e9e2db1b089a4bf0685d57e847b8978e05399 -> fd03221c042effd111a9c3631237ad5fc21714b66ebd75908be76f61303f6f24
+~ +[MXCorePayloadConstructor updatePayload:withServiceString:withSourceData:withDateString:forClient:].cold.11 : sha256 d8d655a35fd65d659342697db54152f3b327e0e801760facd1e328cc7d6befac -> 1ce333bd3a1672fd16dfab0866f5f202fa038345d633aa4b0ab0c9eb34f83658
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.1 : sha256 0ebb6feb45f444182ed9f1a33ee78a048e1843c9be790e244c5c575450a44bef -> edcf04d4441c421ee987508b83801808901a3a71df221963a9a4affabe3419c2
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.2 : sha256 465e3f0a278d8dbdd3b07333cdabf92a6601a838fdd74eef1777fbab17f2586e -> 858eec2accfea2fe90bf6f1ce2eb3b9a2d9767306d8408ea3ef05427327a68b3
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.3 : sha256 5917579d664149d78a946d601389d37f1af87d2dc6b0b6a03da89e3fff564904 -> 2f1efb668edb1b76b62264684027aa72037e3799a1f61645e15bbc4b872d34d0
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.4 : sha256 a71839bcf013f14db50662eda4bf5946f1dbbb552c9f1fd6d89992ab2dfdb14f -> 37ba6d44feb26d567d947e7dcb8dd1f84fd2b7c5b70f86dc922f91e187600862
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.5 : sha256 9fc5376601427f900e9f53936eff8c2bd6152c1bbead859423af7ef246b8a288 -> fdba776cd47c1029cb949841aa575e87fafe1b7d144f0daa190cdf7810ee2c8a
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.6 : sha256 01f3103bc3b848936c6f31ba7789d25c584ceafad22dcf642b59762a63f5ed7c -> e4fc677b17fa8769e9d2f03af5b4a24675f0e752f863a6cc219f4fdac507892e
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.7 : sha256 9df50077c94209e350a008758d15eaccddb915703d71aa441a76cc8409822596 -> 9bf6d30f9f8e2868c9f42bda119220046c03af2d4a57c7d436eba9d13e4aa476
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.8 : sha256 22cbb4ff2a6bc0065419129a4c7aae08e811de4dbe5199c43f443c8020ca38d4 -> 4a37b903453c89d796754b9f4edecc8982104255ff94c79db902bc23385da4cb
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.9 : sha256 6c203df6d9a0b2870235243c9ad320ad8c97dd6ccc1711a0373835daadfb3d26 -> 92b44d4b89a2650b6f8895aa34cb2f4d525d101eb63e75c17c8bdbf2602b2193
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.10 : sha256 bb243261a14ec95196664dcdb704541e3b22006154d78014789f406f2c12729f -> 38db2c0cbe2245216c58a3d28851690bfa754727c9d6dcc9f1e2a73212882f6a
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.12 : sha256 f316298186a364645f404b1ef96cc7e41fb51aa51146b9ae4e8a9d830e6f4029 -> c821b7ea17f51446ea01abbc870caafbb7dc67704a61e32c053706e008c629d4
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.14 : sha256 2195e6421b63c7ef7866743890faee9fd427040580d46a29a424bfb6c9468114 -> 2794dc6d6bb3e73ee60c39221ed64136861ee5ed1f8d34d5996fbaf5d41391c5
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.15 : sha256 5931bc00cfcf2cafd6f919b2a68680eb1b31a348b902ac09e0d80b0d6a4f86c2 -> bcb680526978b0f589c5d791314edb7d177197420835d1180fbaeb0bd7dce958
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.16 : sha256 5051cb8bc7c4bbdbc369ff81e206232d47578005b9d5465493e6808d886b5f69 -> 582f8a1a6f3380a8ced6c1c15645b9cc571cb6859ebfe7e8f2e499dba27d5248
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.17 : sha256 3dacbc32f0d2cb0a6211678ad3a54d71782a60f81b37d264c846b5f96d99c249 -> afed4761d64dcb654e6772ce75399ece5cf4ee82ad73eedc4c8ee16ae74b8dff
+~ +[MXCorePayloadConstructor constructPayloadWithServiceString:withSourceData:withDateString:forClient:].cold.18 : sha256 cdb3a63d22fc112444cc4a07ab5974e9d401f95fb769a59b679d7c6b1bf99c63 -> 84ace3d7cb95296bb54b8ae2c8ec6996d26b5c3163c5b3881d16aebe2fffe5bb
+~ -[MXSource writeMetricDataWithPayload:].cold.1 : sha256 d183df3cdc59fa7c029c60e921f02f79fd5ce79a792a039ee05127d67c758497 -> 27394637c8f2f71fd551d08dd059345c051228c384e6f67acec2ffa80607ea00
+~ -[MXSource writeDiagnosticDataWithPayload:].cold.1 : sha256 993d656bda102f6a9be681904cb5ffc0f40a1014f2a152447887b141f56617af -> 0ce141a3e5af111405a4a55dd5ce44d94afd80ec6ab497915f15fcd7096d25f0
+~ ___42-[MXSource deliverSamplePayloadForClient:]_block_invoke.cold.1 : sha256 4002aea6712e6bb75ce0df6d20f1d3c2395ebf41aa15d838cc74a4d4b8125c14 -> 40b9580580906d03bb6374ec9753cb9209193547e23012f194fb41953bee68f5
+~ ___42-[MXSource deliverSamplePayloadForClient:]_block_invoke.cold.2 : sha256 354aa2c9099c341c825b28f2dd93f46d7231d3c46a2aaac010ccee457912db85 -> 1630ffd9d102d294b2f0f061a0f5ac5d0a18e0c26c310fbc1d14de4ecee8e201
+~ ___42-[MXSource deliverSamplePayloadForClient:]_block_invoke.cold.3 : sha256 92ca1a86be9fcfb14b6bf51ac5a2a2b921129c90a3840d36568db8faded94f2b -> 67f9a56d665b6abb482323836bee59ca4803469b7d2d50d5733d6c2e255af31b
+
+```

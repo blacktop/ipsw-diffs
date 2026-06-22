@@ -1,0 +1,247 @@
+## BrightnessControl
+
+> `/System/Library/PrivateFrameworks/BrightnessControl.framework/BrightnessControl`
+
+```diff
+
+-2285.0.0.502.1
+-  __TEXT.__text: 0x17e88 sha256:8caea477581116027c6316acadd10295e4251a88ede2476edcb9f153084f58bf
+-  __TEXT.__objc_methlist: 0x136c sha256:c10cdfdddf35ee46f86e95db635bd817a33a4a32128084e99605268df8efb361
+-  __TEXT.__const: 0x3fda sha256:f89f7a4b5ab259f9b05c0e98e6e4f238f401215430fb7623af0627f3b378e6a3
+-  __TEXT.__cstring: 0x1e3e sha256:9ad098713c8b33112d952f6409d169e10a8fb17001b4ecfc1c38883f901c1c42
+-  __TEXT.__oslogstring: 0x1aa2 sha256:9529c5a83e0cfd02d5f86c4e0ae37a7a3c230ea7e256c4b704ea52778c650628
+-  __TEXT.__gcc_except_tab: 0x284 sha256:40d688b1c5d790f9c524680cc47b7b2e0d704d1a1566bd7985127545629b9093
+-  __TEXT.__swift5_typeref: 0x16 sha256:70ae4fff921d17b8b22cd8895cc0b90cafdf1ce157762f1e6eb990840cb3b49b
+-  __TEXT.__unwind_info: 0x640 sha256:6cc2b3139375bb9ed06af0495c2f56027a90ae37fb57a4690b40ca91571f6b52
++2300.0.0.502.1
++  __TEXT.__text: 0x1b40c sha256:54f60bfef36815338650af5b07cd91a575b6a4eb1139150125297767256536a1
++  __TEXT.__objc_methlist: 0x13d4 sha256:a16c03bb8f77f2ebb6ae36c5eff684b6208016a09205c927e47c1f282d33e268
++  __TEXT.__const: 0x4020 sha256:ecaa0b89eaf1b965a6e2b2e51ff1085a6f5e6e6e04302f9bb5ef6a44a5eb3509
++  __TEXT.__gcc_except_tab: 0x4c0 sha256:2757e985a219ecc2c3a49ae44f0d960f26caf7b480b30eba121fc57833d13fe1
++  __TEXT.__cstring: 0x2037 sha256:57af0c5d7fc419f6e396cab2a482965be49118d1f6952f1e814369bb82b6c7f6
++  __TEXT.__oslogstring: 0x1aa2 sha256:b93e682abc8b4808bfb4ae9f5c6302f32a568e5cce10fa021d337f1b5660019b
++  __TEXT.__swift5_typeref: 0x34 sha256:2dd3473a016be343b16b589f9883cca09725a4821060d35d6c31f8b81dd37b5f
++  __TEXT.__unwind_info: 0x7a8 sha256:96101611488aa17d7193bd71e795da94e33880d2377f98ec4b2e0a6edbeb52d4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x468 sha256:932bbccb43b23b1467a05df40baccbfb8ade285629f11acb94b9789b71575201
+-  __DATA_CONST.__objc_classlist: 0xc8 sha256:440ab9e4a190e4079033fe194bcedc8f2cb3e0d122efcb0f15ce9aefeb895c73
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:613371904999193fc01da7db30572f1acda338163e387596963e52a1120a0ec9
+-  __DATA_CONST.__objc_protolist: 0x40 sha256:6ba3cb293b9fa456f0ca1d77cfb3dabe69f42e1ef640ef1a72c2c412d154d075
++  __DATA_CONST.__const: 0x468 sha256:d6a812471260d793d7176109e936483b05468c4cc1fa1c95b6bdcc3848d2d170
++  __DATA_CONST.__objc_classlist: 0xd0 sha256:a9a0e227bca3da1b1752b9b2681f1ca8385ff07a2fe52261755f9c9d1f61c36c
++  __DATA_CONST.__objc_catlist: 0x10 sha256:4d71065767517bddb4f06d4c368e612a5701b733c5cd24631dada455694dab6c
++  __DATA_CONST.__objc_protolist: 0x40 sha256:b2d857a8cfaff33a261e56f26a37e6f1e3421cb025160ae637ef55ed6bff5746
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__weak_got: 0x8 sha256:baed7a8f4fe06577baf9413d1425189458482e4f64d55b4f5cc304378385a036
+-  __DATA_CONST.__objc_selrefs: 0x8f0 sha256:4715c6ba400e3f97808f43bc99498f5f0592c607f562e90a5dd394e7ab58610d
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:a90c786ade6aa41fc67b09fd5b3767dc1f382e519a4828df45cb51f1f4695d61
+-  __DATA_CONST.__objc_superrefs: 0xa0 sha256:4d483fdc15afb52f5221cc0dbc666d53b370ba193b78315c8280bbf44e50e974
+-  __DATA_CONST.__objc_arraydata: 0x2e0 sha256:0c2e04db7edda5ca229da5735d7b015297323f2802876789cc1aac635a2d622b
+-  __DATA_CONST.__got: 0x1d8 sha256:9e0732da3cae857645337faf3f9874ee6a032120a6d079743d03ff99d45d8c7e
+-  __AUTH_CONST.__const: 0x40 sha256:80750fa9abc61708ebffafddae6e998b0d161e4db134d260d1408d650e7d28e9
+-  __AUTH_CONST.__cfstring: 0x2c80 sha256:abc7e47380da3bfe92082721615f089ff270a0765b7add41b33f67dc6895a8f8
+-  __AUTH_CONST.__objc_const: 0x3268 sha256:8f910bf27fad8188dab77c9b0601cd8f91087b4ae373cd09197914c9d30fdef9
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:9a2b91fa56b146795e83ca4f39da0bd07c39c24068e9aa0ceaa7f212fc574d7c
+-  __AUTH_CONST.__objc_intobj: 0xc0 sha256:f7315a861e609e1ce8075574423c695be4edc12d70369a0978006be4c4ab398b
+-  __AUTH_CONST.__objc_arrayobj: 0x108 sha256:ba5cda023cf1b0137cb2f17d231cb652704d79963f0ba585d130b4e458ae0147
+-  __AUTH_CONST.__objc_floatobj: 0x120 sha256:14e1032074bd4a26fcf7400f7e5dddf8fe637454a1b262244a048ef82b1dc2b1
+-  __AUTH_CONST.__objc_dictobj: 0x78 sha256:fc1e8ad1d00735e144d24eb530912577a29c57f66585f53e7481805e48cf4e73
+-  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:373c9806d05bc4a4e9634850d713805caf91176e90f61a4dbcb74d835ff7d8ca
+-  __AUTH_CONST.__auth_got: 0x4d0 sha256:0abe90866c4fbc89ae5b4512dde9df1c441a2f5923ee3e7932cf34532a6bf773
+-  __AUTH.__objc_data: 0x2f0 sha256:4053b0c775725717e44279dd0cf30f03e8108722b6522e98be975eaee438a0be
+-  __AUTH.__data: 0x30 sha256:adc02d074f4f750af6099dd2e05a32a6d86c0d50d1709a9fd4ff408d2c21de73
+-  __DATA.__objc_ivar: 0x1e4 sha256:3b4b4161ec633f432953e9c670541fa8881d659aebbeeb0397f85fefda4f167a
+-  __DATA.__data: 0x2e0 sha256:e2551de59bd8a453c5cfe6c40180e87c1de23ad705df34512481c130370aeccc
+-  __DATA.__bss: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_DIRTY.__objc_data: 0x500 sha256:ebd06465989ce10b8adbcca7793f044b8a6fbb2152f64124d791dfa73a15f6c8
+-  __DATA_DIRTY.__bss: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
++  __DATA_CONST.__weak_got: 0x8 sha256:0187a61bf3fae6fc3b3aa794eddabd32ea418a3c89d235dd3a82b6bd02e4fd49
++  __DATA_CONST.__objc_selrefs: 0x908 sha256:3d2153195102b9a56eb6392d9466ec7a2d8ba2b8d13a4af0b642de945cf5cac4
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:e730c0c5f858ab7afa3ee9b5ae2e1767044a435f8a30bc8e09bcb208875dcd32
++  __DATA_CONST.__objc_superrefs: 0xa0 sha256:94ea9d4d50b8679106165a505347c06427c35252757b470e6d5391fc38ed8f60
++  __DATA_CONST.__objc_arraydata: 0x2e0 sha256:a49d064106aed2a6751e09ccc7519a77f5211884257aa04dc405db95f19eec6e
++  __DATA_CONST.__got: 0x208 sha256:5c58ee781239d9c636fb15276407c5f89740fffa8026d4f1e0b5511084d47b9e
++  __AUTH_CONST.__const: 0x40 sha256:099293bfb4dea85938b3bc8290f5f6a232db095b256551e41a67fafa0ddb41de
++  __AUTH_CONST.__cfstring: 0x2c20 sha256:2173bef1f332f1b679e682bfa85b602cfd5485418c3a8ef5cd2b3fb760e3ba2a
++  __AUTH_CONST.__objc_const: 0x3688 sha256:2992162b25c8d1aa01db3fafbaf127faeb1f1c77237935fd3a9c26021181d1fb
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:60bcdb5a8e6edd1ce77d43ea5c309fe844aaf21fdaf99507c4da8cc71174a8fc
++  __AUTH_CONST.__objc_intobj: 0xc0 sha256:eac4547a609f42d7faa4bd5e9eda8c244c1bd521e7fc5b3cdfe135ef247e2654
++  __AUTH_CONST.__objc_floatobj: 0x120 sha256:a0c6e398f2321cdf9b4d6ad53e8243efe0f364d6eefd7a36caff4a8cb9081008
++  __AUTH_CONST.__objc_dictobj: 0x78 sha256:d3908e2501ab185f96be7a5df429d3881963cee39868825c2c7f4ca769714db5
++  __AUTH_CONST.__objc_arrayobj: 0x108 sha256:d551575473861dcd342d142b475ecabbe24f8f01aac93fba6e71fa0a30847194
++  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:6e71a421cf8efae284c409cf4f592434b6ed45d9be698f8603a9d3f7b7b295c0
++  __AUTH_CONST.__auth_got: 0x558 sha256:66690b98205b2d305a0e94b4932f7dbc4894be86e6046489c5e9435eb56ba7e2
++  __AUTH.__objc_data: 0x360 sha256:e6946e3e863f9fbef9766fbde50cf04aa7f87faa897c913d8ed5865661d345a3
++  __AUTH.__data: 0x60 sha256:3d3c806919f4c719fedb2e46307178b75ceb517e02034ced4950ddf09f2d0dca
++  __DATA.__objc_ivar: 0x1e4 sha256:f72da43cc57351d5a8c3422316985aef81b9ff5f89e3053c9d629fde18fa519c
++  __DATA.__data: 0x310 sha256:f7d48fdcde4c6d1d885b2ae3e82ed73365570d3a38f4371fefe7ab05ee1c2b04
++  __DATA.__bss: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
++  __DATA_DIRTY.__objc_data: 0x500 sha256:427682d1b25751d3e4fd8997d4d8eb1c2776bb315c3af8d610f5e9c7387de4f6
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
++  __DATA_DIRTY.__bss: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 72B2FD0E-AF94-394C-A490-06F4DECA85E4
+-  Functions: 609
+-  Symbols:   2009
+-  CStrings:  942
++  UUID: 0E298BAD-6065-3476-A72C-030BCB510A0F
++  Functions: 660
++  Symbols:   2135
++  CStrings:  956
+ 
+Symbols:
++ -[NSArray(PrimitiveDataProvider) maxFloatValue]
++ -[NSArray(PrimitiveDataProvider) maxInt32Value]
++ -[NSArray(PrimitiveDataProvider) maxUint32Value]
++ GCC_except_table138
++ GCC_except_table140
++ GCC_except_table143
++ GCC_except_table147
++ GCC_except_table148
++ GCC_except_table151
++ GCC_except_table152
++ GCC_except_table156
++ GCC_except_table157
++ GCC_except_table160
++ GCC_except_table161
++ GCC_except_table165
++ GCC_except_table166
++ GCC_except_table174
++ GCC_except_table175
++ GCC_except_table176
++ GCC_except_table180
++ GCC_except_table181
++ GCC_except_table65
++ GCC_except_table67
++ GCC_except_table70
++ GCC_except_table73
++ GCC_except_table75
++ _CFArrayGetCount
++ _CFArrayGetTypeID
++ _CFArrayGetValueAtIndex
++ _CFBooleanGetValue
++ _CFNumberGetType
++ _OBJC_CLASS_$_BCDynamicSliderParser
++ _OBJC_METACLASS_$_BCDynamicSliderParser
++ __CLASS_METHODS_BCDynamicSliderParser
++ __DATA_BCDynamicSliderParser
++ __INSTANCE_METHODS_BCDynamicSliderParser
++ __IVARS_BCDynamicSliderParser
++ __METACLASS_DATA_BCDynamicSliderParser
++ __PROPERTIES_BCDynamicSliderParser
++ __PROTOCOLS_BCDynamicSliderParser
++ __PROTOCOLS_BCDynamicSliderParser.2
++ __ZN10applesauce2CF10convert_asINSt3__16vectorIfNS2_9allocatorIfEEEELi0EEENS2_8optionalIT_EEPK9__CFArray
++ __ZN10applesauce2CF10convert_asINSt3__16vectorIiNS2_9allocatorIiEEEELi0EEENS2_8optionalIT_EEPK9__CFArray
++ __ZN10applesauce2CF10convert_asINSt3__16vectorIjNS2_9allocatorIjEEEELi0EEENS2_8optionalIT_EEPK9__CFArray
++ __ZN10applesauce2CF10convert_asIbLi0EEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF10convert_asIfLi0EEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF10convert_asIiLi0EEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF10convert_asIjLi0EEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details17number_convert_asIbEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details17number_convert_asIfEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details17number_convert_asIiEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details17number_convert_asIjEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details20CFArray_get_value_asINSt3__16vectorIfNS3_9allocatorIfEEEEEENS3_8optionalIT_EEPK9__CFArray
++ __ZN10applesauce2CF7details20CFArray_get_value_asINSt3__16vectorIiNS3_9allocatorIiEEEEEENS3_8optionalIT_EEPK9__CFArray
++ __ZN10applesauce2CF7details20CFArray_get_value_asINSt3__16vectorIjNS3_9allocatorIjEEEEEENS3_8optionalIT_EEPK9__CFArray
++ __ZN10applesauce2CF7details28treat_as_bool_for_convert_asIbEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details28treat_as_bool_for_convert_asIfEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details28treat_as_bool_for_convert_asIiEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details28treat_as_bool_for_convert_asIjEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF9NumberRef8from_getEPK10__CFNumber
++ __ZN10applesauce2CF9NumberRefD1Ev
++ __ZN10applesauce2CF9ObjectRefIPK10__CFNumberED2Ev
++ __ZNSt12length_errorC1B9fqe220106EPKc
++ __ZNSt13runtime_errorC1EPKc
++ __ZNSt13runtime_errorD1Ev
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIP21_InterestBlockWrapperEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIfEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIiEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIjEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9fqe220106EPKc
++ __ZNSt3__16vectorIP21_InterestBlockWrapperNS_9allocatorIS2_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE24__emplace_back_slow_pathIJfEEEPfDpOT_
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE7reserveEm
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE24__emplace_back_slow_pathIJiEEEPiDpOT_
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE7reserveEm
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE24__emplace_back_slow_pathIJjEEEPjDpOT_
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE7reserveEm
++ __ZSt28__throw_bad_array_new_lengthB9fqe220106v
++ __ZSt9terminatev
++ __ZTISt13runtime_error
++ ___44+[VMBrtControl newMonitorWithHandler:error:]_block_invoke.12
++ ___44+[VMBrtControl newMonitorWithHandler:error:]_block_invoke.17
++ ___44+[VMBrtControl newMonitorWithHandler:error:]_block_invoke.7
++ ___44+[VMBrtControl newMonitorWithHandler:error:]_block_invoke_2.13
++ ___block_descriptor_56_e8_32b40r48r_e15_v24?0I8I12^v16lr40l8r48l8s32l8
++ ___clang_call_terminate
++ ___cxa_begin_catch
++ ___swift_destroy_boxed_opaque_existential_0
++ _objc_msgSend$removeObject:
++ _objc_release_x24
++ _objc_release_x27
++ _objc_release_x28
++ _objc_retainAutoreleasedReturnValue
++ _swift_dynamicCast
++ _swift_release
++ _swift_release_x19
++ _symbolic SaySo8NSNumberCG
++ _symbolic _____ySSypG s18_DictionaryStorageC
+- -[BCNativeBrtControl parseDynamicSlider:]
+- GCC_except_table62
+- __ZNSt12length_errorC1B9fqe220100EPKc
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIP21_InterestBlockWrapperEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIjEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__120__throw_length_errorB9fqe220100EPKc
+- __ZNSt3__16vectorIP21_InterestBlockWrapperNS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9fqe220100Ev
+- __ZSt28__throw_bad_array_new_lengthB9fqe220100v
+- ___44+[VMBrtControl newMonitorWithHandler:error:]_block_invoke.11
+- ___44+[VMBrtControl newMonitorWithHandler:error:]_block_invoke.16
+- ___44+[VMBrtControl newMonitorWithHandler:error:]_block_invoke.6
+- ___44+[VMBrtControl newMonitorWithHandler:error:]_block_invoke_2.12
+- ___block_descriptor_48_e8_32b40r_e15_v24?0I8I12^v16lr40l8s32l8
+- _load_integer_array_from_edt
+- _objc_msgSend$parseDynamicSlider:
+CStrings:
++ "Could not construct"
++ "DarkLightThreshold"
++ "E0a"
++ "L0a"
++ "MaxSlope"
++ "MinE2"
++ "MinSlope"
++ "aab-constraint-dark-light-thr"
++ "aab-constraint-e0a"
++ "aab-constraint-l0a"
++ "aab-constraint-max-slope"
++ "aab-constraint-min-e2"
++ "aab-constraint-min-slope"
++ "ds-max-factors-charger"
++ "ds-max-thresholds-charger"
++ "ds-min-factors-charger"
++ "ds-min-thresholds-charger"
++ "max_factors_charger"
++ "max_thresholds_charger"
++ "min_factors_charger"
++ "min_thresholds_charger"
+- "ds-max-factors"
+- "ds-max-pivot"
+- "ds-min-factors"
+- "ds-min-pivot"
+
+```

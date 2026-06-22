@@ -1,0 +1,91 @@
+## TypologyAccess
+
+> `/System/Library/PrivateFrameworks/TypologyAccess.framework/TypologyAccess`
+
+```diff
+
+-3557.12.1.0.0
+-  __TEXT.__text: 0x1168 sha256:d27d015537524d1508247e90de75bc2334b6e23e44c447d3e1592e36224e26f2
+-  __TEXT.__objc_methlist: 0x144 sha256:87a809959850ecc1b1e73bb7eabfd3610aea545c184e405e5188f2341d0cfd93
++3557.15.100.0.0
++  __TEXT.__text: 0x1168 sha256:2df460e0767ec593e4456c966be444fc57aa7bdc23089ed8575e21536a3767c0
++  __TEXT.__objc_methlist: 0x144 sha256:1ea450358839c962f9b3fb5840857ce45a223a2a23d6c43885c12f7bdd20afd2
+   __TEXT.__const: 0x40 sha256:b3586ab3c83eb9c24902829538f7934501d0a9bd897af0b555439cd66e835b79
+   __TEXT.__cstring: 0xb7 sha256:8d400cd9311a731e39b1a99f1ac1cf8321c3de9af5b874cf4a0683b6577e28b1
+   __TEXT.__oslogstring: 0x119 sha256:49a98184ef1fb96921487679a0254763b165f9e1afcabd40f75994c8a819e008
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xe8 sha256:ac833774048ffd3c843a8ce19b22046efb71618d1c1327238889ce3f73a71520
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:889142d6fd1adaf9630423be10d5e905638fd83ee5c45ffb5822d21e94a4ae5d
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:3cc08a3f302917dbcc0acb6dc53f494182b981870f6d9eff45a4531789bb5b62
++  __DATA_CONST.__const: 0xe8 sha256:065e79a93b9f8daf21c632d353ec6e88dc48f6a0de23f3a2c08081e0b21e422e
++  __DATA_CONST.__objc_classlist: 0x10 sha256:21cd7f5ee12a2f6d13491eace3f5047e86fa8fa062e02e782ab2679486e9046a
++  __DATA_CONST.__objc_protolist: 0x10 sha256:b5e28f8ba8eca800ed5c2ff4fa3cbefc759343bf0ce340ad89d8dffe8fc5eb7c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x100 sha256:666d23951317be6434ac87729936cf6a120804c07df09838b45c1d09a2e773c4
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:deac6c15af801f46780ad64cceed060ddf5f768f6490ff4cb16e48f083ccbb41
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:889142d6fd1adaf9630423be10d5e905638fd83ee5c45ffb5822d21e94a4ae5d
+-  __DATA_CONST.__got: 0x20 sha256:082fc6ab1ab0ffe51a4e21fe3b9ef3e63c0e6d254dfbd328598e08c8f108233e
+-  __AUTH_CONST.__const: 0x40 sha256:0c5cf3e2f52c35b925f97cf47e0ffff329a56385b7bd401c42a4781f577d17b6
+-  __AUTH_CONST.__cfstring: 0x20 sha256:a72f1504a0b2c8af9c086bf8e62be56eb0c0af6d740e77cc725fb187a8f122a2
+-  __AUTH_CONST.__objc_const: 0x220 sha256:69136ff72089733a65f36c600044e805caff66e4ab62ef07822699da42a4c6ba
++  __DATA_CONST.__objc_selrefs: 0x100 sha256:5cfc7bb792818faecd2eb56195c97a97258b7a8fb38546c8f2901d81c3d07a15
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:6f0bad79b3ceb8a0728e9e1f64e3fbf24ff9a87330ed92344b011c23af836f6a
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:21cd7f5ee12a2f6d13491eace3f5047e86fa8fa062e02e782ab2679486e9046a
++  __DATA_CONST.__got: 0x20 sha256:2f3e0a52f896d2cfb97e6c1e13a60cb99a1151f0c814be05344ebc2d80cd26f2
++  __AUTH_CONST.__const: 0x40 sha256:9055c20f2dfdcd9848609af0b04925e0cb31fda478846ee123622d9cdf3c8a3a
++  __AUTH_CONST.__cfstring: 0x20 sha256:4fe85ec527fa74541c2291b81a6f2b33012801574cd39e589ff8eee272eba118
++  __AUTH_CONST.__objc_const: 0x220 sha256:fc63f90f2ce7d8bcf7b310f341c158fab6f774518bfeb11fe7646227134e6422
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:0e3bbec16775a417b6b554ee948b3df71504217a540df7a4ccd3039b96ca1199
++  __AUTH.__objc_data: 0xa0 sha256:cbbf9786307a8434289021469e75dd828fc0d34b5886f01f6456cf832764cbbd
+   __DATA.__objc_ivar: 0xc sha256:f89177b6d8c7aa8759ce3ed7f76c9978a6df38c90d5ccabbb89f82d20064e539
+-  __DATA.__data: 0xc0 sha256:e6666a8c8e5bb347e766b9a137c4fd88a2f10ea517b2c60bd277351c5d770e7b
++  __DATA.__data: 0xc0 sha256:1048c3d04c6d8f5fd1becde3d0d91cb5c7bd07acf2c5c473020a58a8b9298a7c
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 98B1A099-92C8-37C1-89EA-F983E9FB4889
++  UUID: 53098893-EF1D-3338-B857-E605346A23F3
+   Functions: 37
+   Symbols:   186
+   CStrings:  16
+Functions:
+~ -[TYATypologyURLHandle initWithURL:sandboxExtensionToken:] : sha256 824d2bb3e15e080fcc64ce7106f189617b9960e767970267910fb8feaf6ec4dd -> d71f99a52f21aaf8221fdd9037bd0fe60510ab2e231f1cee90f94b862cbc2ffb
+~ -[TYATypologyURLHandle dealloc] : sha256 f19de2667ff882d7c6daacf359deef5b7ae157d0c775394fe69fa8e98e419b4c -> be3413e645bb5d88d0cc9d30a9c87b0f510e8662d44108b7129022073bddb6aa
+~ -[TYATypologyURLHandle filename] : sha256 45adba23f594d91dad06a6def3bc700ee83df42be12ccbe21989a60e2923377d -> 713734b341b14a3a1153a4ae0429c02bdebf7e936e701d23a4e78da2856844e9
+~ -[TYATypologyURLHandle .cxx_destruct] : sha256 8b55054821b24012029233cb24e056cc28826bbc44347534d32ad5716f63c739 -> 6509308b2266da800a54b0ad81c7db2379aadf52a5eb858de6802f1cf898d1e7
+~ _TYALog : sha256 4d31bac75b47d66817dbbb5e6efe3c223909d2939d58365d6cacaebcf9ff2adf -> 38c3d1ac41134a0adadc99d2fac9cfd00d95e7edd907c929c376df80fe9fde0d
+~ ___TYALog_block_invoke : sha256 eb48f39f944482841df089c2cf22063a95bc4c130aae7abb448e1221094775f3 -> 1fd2ea88bc3f89133915fcc36cf5c8408c1612745887d6764ce21e12e576b1a8
+~ -[TYATypologyAccessClient init] : sha256 a1d4f83d51f03bdf8d63700d203209e2640bc198b89a587e1fc8ed9f0758e3fd -> 2eff9ff9a1ccc36d027dab5fec0f3b3ed7ec6d40c009a16ba00a9f6f2ffa8ee1
+~ -[TYATypologyAccessClient initWithAccessMode:] : sha256 dac97b357b002f0b284de221c75bc0ba5b4e79135893a6e980523f19e5632100 -> 50bfdff606df745153621774ae312b5a4eae159dd78a247282a45ecad62c955f
+~ -[TYATypologyAccessClient dealloc] : sha256 16868720c01ffc696f1fdaa4add109022f3d090dff4abb9ea8321f305fb4ed2c -> cc85f57057ec52b11b2bb1ae1ce8a01a595b3283fd3b45c2b0f8f5af0e7507cb
+~ -[TYATypologyAccessClient _initializeConnection] : sha256 3d360d50b2aadcad9fd6c3beaf8efdb63fed3b5c4f7637c1dae823b0831d80a3 -> ebd1d307898ba298a99e8804debd2e43de51b882057770b10b230dd0bc93de05
+~ -[TYATypologyAccessClient _disconnect] : sha256 490e10efefead5f08df09802010fa8460df827bd66c51157b8e94d8bac149cee -> 2ddedb48a07b0cc84e23b2e7e1c10afd6e1b3533f3672b305c2aa7c4e5614028
+~ -[TYATypologyAccessClient enumerateTypologyLogs:] : sha256 1f0502d1b30c0cc6014ad0eb5911ac3cb531644d07cebb9f3c1ae2dd24022236 -> cfa153d4f73358fc78cd1bda3376f7362f6d6fbc6e3b0ac14c9db2e505aee78a
+~ ___49-[TYATypologyAccessClient enumerateTypologyLogs:]_block_invoke : sha256 d4623b98b197ed3d5a46f8fba3d0c758ba71390b13b74f1bd47599e4e4905b27 -> b367c95b6ac01e356c6c54403e92570970774afa028107236bc6908bb9232468
+~ ___49-[TYATypologyAccessClient enumerateTypologyLogs:]_block_invoke.17 : sha256 65e76d64fde792e59577aa248a642272b5c3b950cce142db13fd48e8391d2f07 -> ea43047362d8448df0e7d52c76bc06b7b2cd2464d4f31af9294c914930844424
+~ -[TYATypologyAccessClient removeTypologyFileWithURLHandle:error:] : sha256 a2d950ef390f9fc9b4a5bdcb37dd93600237551a52d35b5b303352c23e7ce548 -> 14be8ddde7390eda79b875fdd62669c23fef2b13e5608108bf02ddf2aa78ca8a
+~ ___Block_byref_object_dispose_ : sha256 2f37b0c4ca99a1a2582c962a7d609fa8cb7ff2468d08deda7ac9cce9d6f87300 -> d6a383005e34cf13824dc3cd6c1cf1f7c3b275817cad9bc283d305b355ae7d94
+~ ___65-[TYATypologyAccessClient removeTypologyFileWithURLHandle:error:]_block_invoke : sha256 f369c5b423491855e4ba28c2e04fe71c165246e72debc903d2790e4736b29e2b -> 32708f7e7c7c6d7226218c4079f47add7ca874b5fd70011f3a0b3612eb01f9b6
+~ ___65-[TYATypologyAccessClient removeTypologyFileWithURLHandle:error:]_block_invoke.20 : sha256 d0d975e8e3e5c15efd9d865a694ecee87a3f4c67b2f4d9a7829dd1c30b4792fa -> 7ea206917a99edbcc1867e304f466ab97ca13e206be5b82fc86f5970aa9beb31
+~ -[TYATypologyAccessClient _setTypologyAccessMode:] : sha256 4c116b26a1f7ca463a2f9f61e9bc7303fbbd184df1860c97c720ace047f1071c -> e1a46053eb91263e4dc2ceae88b6848efc455c8496dcb7ab8e0701a7d24b5bc5
+~ ___50-[TYATypologyAccessClient _setTypologyAccessMode:]_block_invoke : sha256 0d493be7df13a83404aab5a3d6e6bdd197eae8ffbdf2ec7f9730c469d5eb6dbc -> f5e02b5e33f0156e621c61a6b1a2465cb2656fb977cbccf326af7a0f3590a4ba
+~ -[TYATypologyAccessClient setConnection:] : sha256 fa7524355f07ef1803bf6c6e344ee0b6b96357689dfc1f010dc8fa73adb25c54 -> a2a6887ec4b69028041cad74d49632a09202eb6d763666ab923d34aa3feb89a3
+~ -[TYATypologyAccessClient .cxx_destruct] : sha256 e2f321152c0ee725285c7fe7826bee95ec972bc4d7a4b596ad995c40de800f67 -> 3dd7927f14a45b7cbefeb23f4ae91e3faf47c3afc850e49a160d7781b8e29454
+~ -[TYATypologyAccessClient(TestSupport) removeAllTypologyFilesWithError:] : sha256 61931d9cfe073e185c0274cb227f0fba3fdf71d9b4bfbf17fe4d0b3a26b5b77d -> 47cb4d1fe5c4e1cc713bc2fcf7a7452872497af596dd80c3e5423622c4a86216
+~ ___72-[TYATypologyAccessClient(TestSupport) removeAllTypologyFilesWithError:]_block_invoke : sha256 df50b732ec6afb554fbef0ac632adcd8cda38ca5b39780e2a4b07e82ac9eaadf -> cca4067b4089226c53d94cf8f4b52851b188e96d3ecb04d5a6b1df345da321b7
+~ -[TYATypologyAccessClient(TestSupport) writeData:toTypologyFileWithName:error:] : sha256 53dca7867cd38a5b89d2dc5fc412c5e5d18ec0ababef6c00cdedfc0055177668 -> ef724df6fe30d164f0f8ab47e3131b2867bcd81984b873eff320f93785b1eae0
+~ ___79-[TYATypologyAccessClient(TestSupport) writeData:toTypologyFileWithName:error:]_block_invoke : sha256 30ca91ccd9f4b82c943895fd4f20ce6abea71a135d3f519d07685602d4b2bbb2 -> afa06dabd53442793c72924e4aedfb8943351a5771eaa30e4e94a0c2d10948cf
+~ ___79-[TYATypologyAccessClient(TestSupport) writeData:toTypologyFileWithName:error:]_block_invoke.41 : sha256 f860f013908dc459f23ef26e66340dd91ae9c6b599effbe47071a3c59453acfd -> 8472d1a26473ab8a2012dfb10cd2b57a161fe23fcecb215e460b3edfb9028838
+~ _OUTLINED_FUNCTION_1 : sha256 b7cc7e2a3e9208aa9a6c6d59f2784629d63e92c1aba15174955fdc2b0cfe0cec -> 3efdc0739c7381ce141d68afcddc9d87698a6e2dc4d9e6761b84bf0ecf2e45ce
+~ -[TYATypologyURLHandle initWithURL:sandboxExtensionToken:].cold.1 : sha256 963d15756bdf50f7672095222746e1d090bc80c5d36e0401b1faafd1febd4969 -> 790811fd59c8b3cc52ce4317772fb3f955cc54ea71a0e872b9277943e1caa1b4
+~ -[TYATypologyURLHandle dealloc].cold.1 : sha256 c86db5cf5a6d29dce8858786876725f3cb8c2d05e98008d04464ae70b094988f -> ae48387db13d50db55f3b42ae369d1ca3b1e29ee44cc3e7f5bc166b567d51306
+~ _TYALog.cold.1 : sha256 0f96bb523523089a0585fd00df6253fcb77cd72b353c18c99d7ba4a9428efc73 -> 83023c75208a1220559275350ca303fd578f388e12f47c73b42096d87cbdd3ea
+~ ___79-[TYATypologyAccessClient(TestSupport) writeData:toTypologyFileWithName:error:]_block_invoke.cold.1 : sha256 5d8caa20cc83770ee7466bd4b166ef9438d44317a071cb704dc4822e94dafd67 -> 4b08fd940aec1d1c84e0facd47e386dc5d7f53e81c9ec977e9f816be0d9df568
+
+```

@@ -1,0 +1,123 @@
+## ActivityAchievementsUI
+
+> `/System/Library/AccessibilityBundles/ActivityAchievementsUI.axbundle/ActivityAchievementsUI`
+
+```diff
+
+-1029.0.0.0.0
+-  __TEXT.__text: 0x4d4 sha256:7aa65a65b4803ed0bc2a89466dd2733d923cc4909f5b08dad5f6ac7987fff7a7
+-  __TEXT.__auth_stubs: 0xd0 sha256:69b1cd137ae613c34ab24cb1b353c8d81ce5b56d9eff0f821f04355bd18ce4a1
+-  __TEXT.__objc_stubs: 0x1e0 sha256:f39043e0f8b418e0ffca37efad29945638a4dfe6fc6cc135090e6e49c3681f1e
+-  __TEXT.__objc_methlist: 0xc4 sha256:8baab62173f260d73a874a5d72e3b84223e943d16f2e86a192faa7cbad250209
+-  __TEXT.__cstring: 0x176 sha256:28bd1d8e2504b2fdd1ec020a84d4368137c2f039b199c594b731ce2b4adb9da4
+-  __TEXT.__objc_classname: 0xb6 sha256:c2c619ffdddd04132c0f98626a4a1631b4ec932b3f2e7807871e439a32e413bd
+-  __TEXT.__objc_methname: 0x2d5 sha256:dbbbf8a443b9beba97ea164bf4e73cd3aafbbc2d908d51d09ed6b080f4141677
++1032.0.0.0.0
++  __TEXT.__text: 0x6f0 sha256:be013ba157b8f80bb30d40715e72f4b797ca705a7d3433f4840d5b1cd0ac4248
++  __TEXT.__auth_stubs: 0x140 sha256:c0e51c36db6b31b006be3308ec0ae7fbe718216bf9c4a92f315d8ca302b93c22
++  __TEXT.__objc_stubs: 0x200 sha256:bb3d2f7061155ef3fa47d4b52517436496d355b17ca462ef5f072de0c74cac01
++  __TEXT.__objc_methlist: 0x10c sha256:45b0f858799becde54c6a3090ae29236d096732fe00bf942401def99226c5373
++  __TEXT.__const: 0x10 sha256:550f0907bc59e4c0500c2ab53b243a3e0774f0ff23e369994ac24a44a10a0691
++  __TEXT.__gcc_except_tab: 0x14 sha256:6d64c8fa7c3442fed1433c1314571b7292cb3c64b78e7a77b7fb6f8366867ae2
++  __TEXT.__cstring: 0x1fe sha256:0957049e0deb184017f1b79228b32277d68c6c81e10653ee3f756072efbf4b39
++  __TEXT.__objc_classname: 0x128 sha256:d1fca66a348afb92d28d379f5de77d8917f073fea6c5ef2ac37ebc20e4a7cd0d
++  __TEXT.__objc_methname: 0x2fc sha256:9c0e5001ea513dd8d1656b3146af49e7c0115cac673579fd8637177950c41f97
+   __TEXT.__objc_methtype: 0x4b sha256:c7aa36ccfe94509cd1fe605667c10b990a13614e5a4530fd0969d8416de77b78
+-  __TEXT.__unwind_info: 0x90 sha256:359b2ad554e3dbfd6b71332e979d6951293a839c1cf1e2f3424d1e5dcf20a387
+-  __DATA_CONST.__const: 0xe0 sha256:ca12a0a6a33eb1be8ca3c90ecaa5a2c7cb460c79569c192f66795c05c0c23152
+-  __DATA_CONST.__cfstring: 0x1a0 sha256:d0276d2337cddc14532fbb406c6bd4585156200aaf3a4f753b45502c85d92c07
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:4e91ad3c71180bbcf0c798fd7d729901b1c652e6f88dd381d43e80a60f6baa3a
++  __TEXT.__unwind_info: 0xb8 sha256:b8105afba96a37e8d839495044d9ce179ac1c04b7dbdcee24f1e8db7bbdaeae2
++  __DATA_CONST.__const: 0x128 sha256:57d9ba0bc97a64bc665f82d88c3e7a3606e07d0cb5064280baa70494445d17eb
++  __DATA_CONST.__cfstring: 0x220 sha256:c6cd3583bd43cf3227f09ce665bd721546780633e36c79addff810a54979c744
++  __DATA_CONST.__objc_classlist: 0x38 sha256:d87eb79086f6f21f2953bed7cf89aa70c5317bf5bff8527901fcbdec47b0edb8
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:db9eb65ecbbb23ea0bec47543234b20c34c99df5e694f01ec7af1688a057d022
+-  __DATA_CONST.__auth_got: 0x70 sha256:e66741a38eb4d9f86e5c07c57424a0c50ef8aa90fcfb232a694d39efb931a886
+-  __DATA_CONST.__got: 0x28 sha256:4f397937b5036f68cd81be8f8e42f306e61073ed854bc38972573b438290ca3f
+-  __DATA.__objc_const: 0x2d0 sha256:15cb4c548493b2515cb03b9ddcf12303afea97685b895745a977fef79a162ffa
+-  __DATA.__objc_selrefs: 0xc0 sha256:fa968367023efa17d8833ebc7e989e663d2edc7bac59deb9d1641984d030362e
+-  __DATA.__objc_data: 0x190 sha256:735f457dbc74c1705c76522429737e734143d82325d93a942c766f214819cb85
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:ca61b0f5df7b43a264871f06d8c23ac1781d965cf514342d46ccc6021cd7f431
++  __DATA_CONST.__auth_got: 0xb0 sha256:21a5c5ca07645ea95bbdf0888690be626b607e0408e680f5501a2b89371f2a56
++  __DATA_CONST.__got: 0x38 sha256:7f8e56d4bbc02c604c91111989ad16a932ac3d642d4d3c01c59a2238fe56f0f4
++  __DATA.__objc_const: 0x3f0 sha256:556136d81a47ebfafe25a88625cd3f1b91c3a2729afa8a1f3fffa8d24cd2cb2c
++  __DATA.__objc_selrefs: 0xd0 sha256:663df122526e8df7b5de802aca63e18f003771a67d74ad63c0cf7c66c7921859
++  __DATA.__objc_data: 0x230 sha256:01e6422b4366ecd7d7100ac7ba8931f2bfde4415727b5eca723e97d9a1c21af4
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1DD363E0-2BAF-30B6-A00A-3B0B87784E2B
+-  Functions: 17
+-  Symbols:   90
+-  CStrings:  69
++  UUID: 4E2EEC6D-177D-3964-A0B2-CE92AA99D06C
++  Functions: 23
++  Symbols:   120
++  CStrings:  83
+ 
+Symbols:
++ +[AAUIAchievementDetailTransitionAnimatorAccessibility _accessibilityPerformValidations:]
++ +[AAUIAchievementDetailTransitionAnimatorAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[AAUIAchievementDetailTransitionAnimatorAccessibility(SafeCategory) safeCategoryTargetClassName]
++ -[AAUIAchievementDetailTransitionAnimatorAccessibility animateTransition:]
++ GCC_except_table17
++ _AXPerformBlockOnMainThreadAfterDelay
++ _AXPerformSafeBlock
++ _OBJC_CLASS_$_AAUIAchievementDetailTransitionAnimatorAccessibility
++ _OBJC_CLASS_$___AAUIAchievementDetailTransitionAnimatorAccessibility_super
++ _OBJC_METACLASS_$_AAUIAchievementDetailTransitionAnimatorAccessibility
++ _OBJC_METACLASS_$___AAUIAchievementDetailTransitionAnimatorAccessibility_super
++ _UIAccessibilityLayoutChangedNotification
++ _UIAccessibilityPostNotification
++ __Block_object_dispose
++ __NSConcreteStackBlock
++ __OBJC_$_CLASS_METHODS_AAUIAchievementDetailTransitionAnimatorAccessibility(SafeCategory)
++ __OBJC_$_INSTANCE_METHODS_AAUIAchievementDetailTransitionAnimatorAccessibility
++ __OBJC_CLASS_RO_$_AAUIAchievementDetailTransitionAnimatorAccessibility
++ __OBJC_CLASS_RO_$___AAUIAchievementDetailTransitionAnimatorAccessibility_super
++ __OBJC_METACLASS_RO_$_AAUIAchievementDetailTransitionAnimatorAccessibility
++ __OBJC_METACLASS_RO_$___AAUIAchievementDetailTransitionAnimatorAccessibility_super
++ __Unwind_Resume
++ ___74-[AAUIAchievementDetailTransitionAnimatorAccessibility animateTransition:]_block_invoke
++ ___74-[AAUIAchievementDetailTransitionAnimatorAccessibility animateTransition:]_block_invoke_2
++ ___block_descriptor_56_e8_32s40s48r_e5_v8?0lr48l8s32l8s40l8
++ ___objc_personality_v0
++ __block_literal_global.358
++ __block_literal_global.366
++ __block_literal_global.39
++ _objc_msgSend$transitionDuration:
++ _objc_release_x8
++ _objc_retain_x20
+- __block_literal_global.352
+- __block_literal_global.354
+Functions:
+~ +[AXActivityAchievementsUIGlue accessibilityInitializeBundle] : sha256 1b1697e83e6b4b1993dbc4d6b1d70316b14daffe48e40b53a22e52ac2ef4168a -> fdf342a2e47ab82dd1d942abf2121cc9d46989b524d90a681d793e501d198bfe
+~ ___61+[AXActivityAchievementsUIGlue accessibilityInitializeBundle]_block_invoke : sha256 5d53aa7fcea7c6f2992f03ac7c74bc2290f20921066544f9bb9bc657f3252458 -> b35b577e823b9228cbb915131b24e863a72798a81483a3c9d6896f55afa26cff
+~ ___61+[AXActivityAchievementsUIGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 a4c5bac838d3aa5ac7d756834b13ec89e207f7c6bd1fda686372d2d6bc02a050 -> 1c908e6ce0d1040f41abd933a44e37b1880aec70cfed5431a44955177cb619cc
+~ ___61+[AXActivityAchievementsUIGlue accessibilityInitializeBundle]_block_invoke_4 : 92 -> 112
+~ _accessibilityLocalizedString : sha256 e8bbc0ab7281527034e7f18f9a369809c0d999635299567c47617d8977986637 -> 01aaf97d0aab3e18d2167aaa00fd11e236e9572555d3bbaa4223082b806d9b68
+~ +[AAUIBadgeImageFactoryAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 e532b6bd6bca90e43f92e58a4fdfe9d048961b5e80274e2f4cd82ca56dcd8c3d -> b803de68c5894ce3bcb559fa3043240c79a0071ae3abfcdedeab202a54d7720b
+~ +[AAUIBadgeImageFactoryAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 3c4c057c95d945a5f0c4a4f13d25b5a16367b3d13344f1ebd69980486d83fb76 -> 9d9719a2e1d19c5cbbd60b28df0ecf2ebc287be68adfe7d520991bce63ba0324
+~ +[AAUIBadgeImageFactoryAccessibility _accessibilityPerformValidations:] : sha256 0019f3563cbf2474d36c2e2e0ceaa73800f83d7569d9b6216034c11839033337 -> bb05e57d6989e596ec00444bc3a436aa377f9cc3821c03be6752477f930003a1
+~ -[AAUIBadgeImageFactoryAccessibility thumbnailImageForAchievement:size:] : sha256 abe6e4566623fa5b7e46b7809024637a37a425bae09f5209f640f90f72e557a9 -> 1b5c0735eff78b27be8d6f67da3fec8dc48f7a492202010738c5f698f2c3109e
+~ +[AAUIBadgeViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 5811f0b9b2db467453e4ab88f5fa0090422c965eb875252eb39ea32a3782f5c4 -> 34bcab37fe72d7f490273970cbd0acd296d8828638d2c12e8fd8d28e973f243b
+~ +[AAUIBadgeViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d2aa91e46803efd92261a0eb8b16d9e40e3b18a3a06e2009ba72b9d948beabb6 -> 35dabfd606c891346a78470bba356c007e5021a10c934e0784641a7b32ae0f28
+~ +[AAUIBadgeViewAccessibility _accessibilityPerformValidations:] : sha256 c00f08b4fe10ac0f6b5d4fc7167cf1660c39a0c48400f6255e4a11f82ff485e9 -> e23efc21bd3b773ada09398adb351643f5621a549381c932c0901d65eeb0d3c7
+~ -[AAUIBadgeViewAccessibility isAccessibilityElement] : sha256 aec150eb462b571f6d709cbbc984c251942590d95dd1064ac636d1f149ea42df -> 16bc969da33e6dcf4615fd55f8fdd6ce8ea5e73ec82123f555136ffbd31a5b4d
+~ -[AAUIBadgeViewAccessibility accessibilityLabel] : sha256 b9bdee89ec19356124826d63eaf79784c2fe5a66e15aba7e9a2f9b6c9d47f754 -> b04f2721029e54ec4ac708628bdb5c238e3edeed70af70a5cd64881620972a8e
+~ -[AAUIBadgeViewAccessibility accessibilityTraits] : sha256 2b27ed150e75396853e49292afe38652f1b69b94d37126cdb4d47651230e762b -> 1e6c8954882f3ad2df585662ee605c6fe09e63d1368cec403ff8ed9353867cf4
+CStrings:
++ "AAUIAchievementDetailTransitionAnimator"
++ "AAUIAchievementDetailTransitionAnimatorAccessibility"
++ "__AAUIAchievementDetailTransitionAnimatorAccessibility_super"
++ "animateTransition:"
++ "d"
++ "transitionDuration:"
++ "v"
+
+```

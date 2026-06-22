@@ -1,0 +1,85 @@
+## CarPlay
+
+> `/System/Library/AccessibilityBundles/CarPlay.axbundle/CarPlay`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x934 sha256:8d038e20f6ce58eda4da05800d27f30f4684d59008b2b524f6312646def66a62
+-  __TEXT.__objc_methlist: 0x180 sha256:1bac545ff8cb57c40bd64e7c1f8420f1a5a3690fbc0d127b345b6b3ac01646a1
++3039.1.0.0.0
++  __TEXT.__text: 0x934 sha256:6abb0fd34a26874c14c946aa57d84b10d104cd081fb099693674335cd36515a4
++  __TEXT.__objc_methlist: 0x180 sha256:3e49a69961f438b5a7683597b92514139bccf9f66cd40384081dc1cacc287b60
+   __TEXT.__cstring: 0x213 sha256:6b6e96b14d3b365801c47fffcfb3cd3040e7025e878c88306413cf636a892182
+   __TEXT.__unwind_info: 0xb0 sha256:3b376bcc1deb1aa68260e0822a0410d529140da29bf82227ea816c4675db8d21
+   __TEXT.__objc_stubs: 0x0
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x60 sha256:b3a88d292064e96d97a803a723365c5006e25e39a0995ae16d078e3b7af0fcfe
+-  __DATA_CONST.__objc_classlist: 0x48 sha256:83a3d7658c4ddccdc2f5b1a752e1c0a105bbd5c065bc6db658ad8239b619d6cf
++  __DATA_CONST.__const: 0x60 sha256:ab56cd97be9e174d997eedcd55bd4069bad47a7c5aa027c3921891e186dcd2e3
++  __DATA_CONST.__objc_classlist: 0x48 sha256:20b7b25368f904d52d18c27c763122a722743a0e0b82a7d3670238527460e084
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x120 sha256:d9e44c8944585a25e7b02049aa375b74a62539dbb0cbb924b4be7487b75cec37
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:1ced2303f7437a1d8505b399fa5a4a097d1c0973ee22c7acf08d38215f26bee4
+-  __DATA_CONST.__got: 0x48 sha256:b9587702e537da078e879a15bf98af664d3f7db77e891dfcfcaff73369b8ee8b
+-  __AUTH_CONST.__const: 0x80 sha256:0c3b0c9c39a32bc6b95786de440b4a111865715f0d53cfdd5705ea60fca673ee
+-  __AUTH_CONST.__cfstring: 0x2e0 sha256:3f79dfdcc9c634b9c606f23ac0489731e9479fe5dbfb28379a5fda2d005e635e
+-  __AUTH_CONST.__objc_const: 0x550 sha256:54fea3475f5bf3f04c7697988a3e399a97e627fccf0919983c44c1d1df85862f
++  __DATA_CONST.__objc_selrefs: 0x120 sha256:4886e44a0b142cf87efd9ef261d41b41004178450a85422bd97e979662e12f7a
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:42dfa06c02a370ac34ac532b7de7ac102c044bc711304f008e0d3c76a18d77b1
++  __DATA_CONST.__got: 0x48 sha256:c389dc35cfe1f8c4539bde9a1f5910555efec804919a87d2936182c676c20d55
++  __AUTH_CONST.__const: 0x80 sha256:a927ebbe1cf1fe8e7b613193c4a241e88c6bbd40e8042032b1cd7114511f74f4
++  __AUTH_CONST.__cfstring: 0x2e0 sha256:1e8101d8b6d947e079beb199f7e6ee6ecedfecb3b4a364174b89aa6ccd933536
++  __AUTH_CONST.__objc_const: 0x550 sha256:a6596329caedff0ed09df632517e5155629d6833c833aae0ae33f69cf6098434
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x2d0 sha256:4d2d7ec1a605531ac727914e026a4929ba87e565a6bd4cd23a65bb7a70ea0640
++  __DATA_DIRTY.__objc_data: 0x2d0 sha256:6453bd71b41f7f96edeb0f0d919ad4557b6eedcbd457b55c79d224148ff43320
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E83649BF-9626-34C4-A60E-B4DA59538628
++  UUID: F01D39C1-1DF4-3687-B398-AD4259463A58
+   Functions: 28
+   Symbols:   181
+   CStrings:  51
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ +[AXCarPlayGlue accessibilityInitializeBundle] : sha256 badf3998acdc2aacb14e50dd720a283acba7938e907238001efe5f8504ec5d44 -> ed08ae2f08a8e77b74b54b3d70c9cec1d95969aa7af395dbfb3c792e9238a81b
+~ ___46+[AXCarPlayGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 c41927fc7f22f9ee236a80a69b3a779229442bf0cb66bc1ae3ab1fca524c4f02 -> 4876004f0491c3acf97952b757ad704b93168ed8f9942ba5b1573b115f488aa0
+~ ___46+[AXCarPlayGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 9980782aaf64af9ea432718eba412bf3b416e1549b4d197f8487ee12557562a8 -> b9305c8cee6d9af59db60ccb734a9bbc6f1d23fb9e8bc30fd1d7a2c914c47c49
+~ -[AXCarPlayGlue init] : sha256 c998ac49f03834db45f22aec2a7763e1906d71c7fe82b3bb3c18fd3fbc25f1ce -> 981f98aa4b3a552a162c39069f0b3377b5272133e866bb635e920960add5f0d0
+~ -[AXCarPlayGlue setWatcher:] : sha256 e612057c52d5ea822d5a7f6d91247bb88a208035f97dabd8543e34c2f404da18 -> d87562ce4ca7f51ee205e19d6da58da0c638e05600f3423932060d977f3373d0
+~ -[AXCarPlayGlue .cxx_destruct] : sha256 704966ad32af242a5e87328fb0995ca4f3ec132eab60e97edd41cf780580ae59 -> b180168e096e492add643f822e7c8c3b222bbd7cfd6c586e4ebd4950449f44a3
+~ _accessibilityLocalizedString : sha256 716d5c97b7253f19ed63fd581dba9d8411bf19d2dd56eacb83a13131feac081c -> eed0956971d6dc2c521cd965619a5b77b49790952f1162819ed481a2005186c2
+~ +[CARIconScrollViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 88b6a6bc72ec599df13896e25bb765b2fd6587eb50c6e714a598a8dcec0715ee -> b071cc0c88e81843d3678a1f8b3c21b0fff7b6209b9c07f792306e2745fc173b
+~ +[CARIconScrollViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 bcc4b0199d5ef221a2979b0c550b528c53597170cdae8e41f9f8808892377af3 -> 9a22c07e4f66c20493ac1f595af8c87ff81695b03efdb689c246733a74fe403c
+~ +[CARIconScrollViewAccessibility _accessibilityPerformValidations:] : sha256 ded13ad85b825605638196c4974a5b92d4d5124640fc54ddfed2973f6940a79a -> 004b30af24d2052e7a4da53cb94aa247eb6735bbe05cc0cdd399477cea77c807
+~ -[CARIconScrollViewAccessibility automationElements] : sha256 14cde7461c813842b451f4a2b2675f401151457b6a6fcc944a30037133208945 -> b1803737a95338ba5c5ce200ca70840fd44a49ccef301947f4eeff5ebea15906
+~ ___52-[CARIconScrollViewAccessibility automationElements]_block_invoke : sha256 d7c77ab46b1a1a18724947862ab79b3f8c60d2f244eda5155c4aaff6ab872e2a -> 12cfaf937505c96659dc6f5714b25d5253e6868aebfcabe8f374c6da58480cc1
+~ +[CARApplicationAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 17d0218faed60a2f29d4e093f45f170e6e63ec1be9882ffebefbeab44e89b0a6 -> b6b2bc7915748e3aa2433e44970a0c539850f215e9ed095d59f3b1ef249b396e
+~ +[CARApplicationAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d4b1877b89953553118dfb60c87374cf7d05672e3827166ede58cfcd12339c1b -> 18c68e1285128abb1f5d1949b1b6ddf785d3ffe19540fe909d130b9f71eb9575
+~ +[CarZoomButtonViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 32a2671ed051e67c56db1eebfed9f382f788a1a94070d4ca2a0ee3b60d34e8d3 -> 2fa25dacc91e9c763f41d05a8b7d83ffbfc44078fd1332bbf75e70674a30a9f1
+~ +[CarZoomButtonViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 1d2df84bc0789132dab84dfc03d42cacd5d722af4f363c0ae61f6ff5b812a12c -> fa123b6d8b71ebe1d706013aec0000ad69ee5a73420398fe8ce311c4a577db84
+~ +[CarZoomButtonViewAccessibility _accessibilityPerformValidations:] : sha256 e5f8e02b534e432f9ea3f248a7ce836ad330848a0d91b5070c24228d186ef6fe -> c737d6dc38aa018a77fedda36e975486e3f39f171b8286bb25ee60f4656d612f
+~ -[CarZoomButtonViewAccessibility _accessibilityLoadAccessibilityInformation] : sha256 bf93dacba9cbe2e9fde2cc20da7a438b5d0750b40059aeb44dc34320b75ee62d -> 27deb8607c98974fe093ec30b03651dc4d499f643c26bbbbaf2a4edf5a47e955
+~ -[CarZoomButtonViewAccessibility initWithFrame:] : sha256 2fe9fe60136bfd0f3e1d670eee2675c411f80fa8553dcae60f29565b3bbcb3e3 -> 36cdfa23c1fb6f3b188e81e3a4a4c8c6d46b510888310a870f940ad803a85f76
+~ +[CARFolderViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 9c657a0286672751674d63988368762d47e9e71f5ec83298711479ed701e2e98 -> a794ad23fa97c4e321b738a5fcd051af3c48209e23291e9b207556f8293f2aa3
+~ +[CARFolderViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 bb01592599c31f14ebe868d1f953253fef7a6d654dcbfeca162d0b8d0ad2f606 -> 464dfe2354713546a11baa12c8923e171f017dc23cd7a60f688f81e9cd17052e
+~ +[CARFolderViewAccessibility _accessibilityPerformValidations:] : sha256 2695a8a299a1b1d59888dc66a1c1f33e97c4f843f50a68f375a989c12762c9fb -> 456ab9200b4325fe40e4a96664067f5b374fabf626544d142c3654f48da27199
+~ -[CARFolderViewAccessibility _accessibilityUserTestingChildrenFromSBRootFolderView] : sha256 7648413c14d14349635cd5119b43aebc8382951a4265b129cc9090483768227b -> eb24f9d9ed9a1949ca60cf1f93c55eb9072256021f5a1cd5c30734a9ff129224
+~ -[CARFolderViewAccessibility automationElements] : sha256 fce2b9d3cb8c3760e8920acd0d6e6c6248bb8f2684063ff4480cd0b8be47c9e3 -> de83bbc4ee8b37f561dc5e14ccc2def1f4686bc0836729bda3249c10da0cbf65
+
+```

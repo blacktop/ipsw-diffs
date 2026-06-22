@@ -1,0 +1,86 @@
+## GeoServices
+
+> `/System/Library/AccessibilityBundles/GeoServices.axbundle/GeoServices`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0xb98 sha256:6dd86a2d964780b4e99a8619cced59165932b60e203f3c500dfc6917d9d1d0a2
+-  __TEXT.__objc_methlist: 0x214 sha256:c25ca26448e29689123cc8194daac0ef44ce35405125ecbd08f382294f68c200
++3039.1.0.0.0
++  __TEXT.__text: 0xb94 sha256:a830f52e656223cb45e935bd2ed76281a25698cc2ce9f5d28598a3c9c9be9144
++  __TEXT.__objc_methlist: 0x214 sha256:936a91fb032b2c0ace05d420a6a6d9cdaf8f54d724dd5c5b304501549035f24b
+   __TEXT.__const: 0x18 sha256:37ab0196415c2c74fc4250558767a456f46d190a39eb26fc634de54f37d53afc
+   __TEXT.__gcc_except_tab: 0x20 sha256:c682674d5bb3c10919a98772eb49b7d8d10beb835e5fe143d45c76e2932982a7
+-  __TEXT.__cstring: 0x36f sha256:d8eaa0f7058a1bed4155f7c0db2dc7e0688a1ba38f81be3623d15cbfcf5e4726
+-  __TEXT.__unwind_info: 0xa8 sha256:cccf7a8d8b6d1816aa6ed3a989bbb064e6a97cac92e3d238ed95c5099296a6be
++  __TEXT.__cstring: 0x36f sha256:a7aa62d9a741a76ce9103bfc67681bda0699da7cb1310962a3af30260124e2ec
++  __TEXT.__unwind_info: 0xa8 sha256:1ba9b0516187a961fca2b01e7851d85f07351c1e5e6a844c50ba6fbcc9bd0816
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xd8 sha256:45a5fbeb2357b746b3b4e3cd36feab0543a4aacfb81c2094795b8805c836f085
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:e32f6f2507af98844820b17291f7729299c6ed99cce4e1c29ea2670ef9e68a46
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:fc7660e2be156b15333df552217436d5de34e8a934d7b32bef29ca5df3389c08
++  __DATA_CONST.__const: 0xd8 sha256:7ab0e16e1b17bbc1812f179ad9d73e929c68831fd39d0d747cc8572e3297312a
++  __DATA_CONST.__objc_classlist: 0x28 sha256:0391f40dec2f12ca3ffbe38ad8cd8875d452d8d9b50dfca3395b3908a1e65a59
++  __DATA_CONST.__objc_protolist: 0x10 sha256:6b16977ef6a047aeb79225822f8e897e119c9bf46af38e1ce5f990d3a2a956b9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1d8 sha256:86f079e3add6f41fc371d92427f7c35025ea66e42649470f1067d17b0d78a62c
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:9383a1e3b63b07735639f5cee95944333671e9ba37580f66a9b74a7b8f50f228
+-  __DATA_CONST.__got: 0x40 sha256:c613a1a0230d8190d283868fbb968e51ef15633cdf96635fd5140fe4224be860
+-  __AUTH_CONST.__const: 0x80 sha256:9b60e89f3c80cdbad7064bbc4d5c685da11c0b528691d68315926843d9a95ca7
+-  __AUTH_CONST.__cfstring: 0x2e0 sha256:56e127bed392eea8aa7930732e3e2016dc276d5d93afc235985a2b03bec0ca8c
+-  __AUTH_CONST.__objc_const: 0x498 sha256:bc3863b76ccd6d9aaceccd31f90b7096bbde24d18f45e81a3540a7c767ac825b
++  __DATA_CONST.__objc_selrefs: 0x1d8 sha256:b523d7efeb2ddc1b240bc9f457014407681c00054180c3afff9229cd170392c9
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:b30aa33685c3b1b5c720a924b7470cd2f49e26f83741fb459d07986c6f92fce6
++  __DATA_CONST.__got: 0x40 sha256:7c6c38ef548e12bfc5f7b2def4dabf61f218c55dbb05eb41342ebfba143f5133
++  __AUTH_CONST.__const: 0x80 sha256:b4ea954677845732c4a8ad15ff5e72179d325985133f082b6c79f8144f964dc5
++  __AUTH_CONST.__cfstring: 0x2e0 sha256:930ee271ce632015f9441987272f5341c6f41faf0195550fa56cf43a9cbb7bfd
++  __AUTH_CONST.__objc_const: 0x498 sha256:b4788c6f6a4ac0fdefdb47ab288e947c7e98ec9d72b9981aeae8078eb37ed84e
+   __AUTH_CONST.__auth_got: 0x0
+-  __DATA.__data: 0xc0 sha256:35a334137a394ad6fb66142a22eba8c755d322d291c09aaa81e74525d9afeaaf
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:4a8609c26b4b901241d1a8573294dd836e5fd7e415cd3abea0fb699d45b450f4
++  __DATA.__data: 0xc0 sha256:ff61895e148a9314f52271ce740b4e4b6d5117d801aa654f45e3feaf732e5537
++  __DATA_DIRTY.__objc_data: 0x190 sha256:5befa21bd4cb5fb83c126193db66a0d84307ecf23e3de2d405d80feadb4d5717
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9026E214-1E15-38D5-BC31-B85CA4C4B24F
++  UUID: 99C7A714-523B-3BE9-9087-E617F1394F1D
+   Functions: 20
+   Symbols:   166
+   CStrings:  55
+Symbols:
++ ___block_literal_global.358
++ ___block_literal_global.388
++ ___block_literal_global.397
+- ___block_literal_global.352
+- ___block_literal_global.382
+- ___block_literal_global.391
+Functions:
+~ +[AXGeoServicesGlue accessibilityInitializeBundle] : sha256 1b83e0e2a228c2d9094465a8f10418750794831e2a94cecf383facb109469c8c -> 663f6276fa4368c9a8de554974e1e0622c2a92d8bb7ff204d1c5f303dc6a1068
+~ ___50+[AXGeoServicesGlue accessibilityInitializeBundle]_block_invoke : sha256 94aa9858c0e6cb5f1030365331006071b600e9773e49d28f985955c73d902ec1 -> 13f936ffd76bae09ad79a620629ad5c00756ddcc34bbfb39482cba4010992530
+~ ___50+[AXGeoServicesGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 e2631befa7103163030f0b10d1a3455d684f67d34a389b343c4d77aec7abffe1 -> 40fd4158fc9705c2858802e6e5cf3a13e3b53fb1eb0b1009b41179a0d4c00082
+~ ___50+[AXGeoServicesGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 4090939b251232757632b18db932a4c16a9a41c38920ba29fea7c8306283105a -> d7a1cd495039fce3d0bfb0729898fd913b4818cd3d37de743d1fcf624be4e5fd
+~ ___50+[AXGeoServicesGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 c76e28265ac316545eca2e06d8948746ab2add4a9b394bcc6ceaf3478a604840 -> 656dfbd23fd335f2c299934927fcf4bdbe828e8c5908a619e352fe31cebe0e83
+~ _accessibilityLocalizedString : sha256 cc955121e2dc77b16ef5856bddadf9babcffd1022c02815f60f7211877d6665b -> 4ab44391c443afca6c15fceb1b373daa466a3afac399e8c8eb0c97d7ca91f1e2
+~ +[GEOComposedRouteAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 59afc7e5bd1a0eacd16848b23584727298a7534513b3827ad0284ead4b2e5d40 -> 71056dbf761a62c6ba041d21ffd95b8f68d517f5b45ded7f77b0881a428c379b
+~ +[GEOComposedRouteAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 4e2bdb8e434296d371b00e5e236b7355d2368855af38ec535a1e568350e95f9a -> b097803b9097807f6b6471e442a11861e05e738267fd2220e6626ddbb04f85ab
+~ -[GEOComposedRouteAccessibility _accessibilityTransitArtworkText] : sha256 ae9e89fdf25d828a1bf25cfafadf43b628e268002d2102c0cfa8c8b9f9e9b3ae -> 0fbde3fe028e77a34c92833f5e56d971a2c1e654494b476b39eb29a5fbb7fb10
+~ +[GEOComposedRouteAccessibility _accessibilityTransitArtworkTextForDataList:] : 1284 -> 1280
+~ +[GEOVectorTileAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 91d5be6b9f8220db36197592376629afacc1dbe7f7e761485f01544afc4a1ff5 -> 59a2bd585406e3a60fb9aff9beb9ad2f67040f173c7dda044999ea8f1f753a79
+~ +[GEOVectorTileAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 7d7f6039c71805699bfe5014620d85a8d4c030be22d85cf0f9fcdbca621eef3b -> d59e3b52a45c4c8c73724da92eb1a0f3b9ffa834cd0b8309d82ae60550bfcae8
+~ -[GEOVectorTileAccessibility enumerateVisibleBuildingsUsingBlock:] : sha256 79750f91584642b120740cce50de974d06693cffccdf3345369db38c4783635c -> aa43ba74465d21ab74f90491790f02fff5e9cee92fde29111b313696f115244f
+~ ___Block_byref_object_dispose_ : sha256 29f947934b7ee51a4a4df5db1fe7977065641073a62c0342bf4cdb003e43da3c -> c0d8827410dc80c91866376bd73db44772b676141aae9c29fbd682d47d41f749
+~ ___66-[GEOVectorTileAccessibility enumerateVisibleBuildingsUsingBlock:]_block_invoke : sha256 262ab22e13e94db5d8fd04cadd1229a9f56e504870e55a5b27ee636ac775f2df -> cf796db0c9659bcdb7228a8b99ac3077cd884cb4ce5917dc3b1e2a7ca6d4251d
+~ -[GEOVectorTileAccessibility enumerateVisibleRoadsUsingBlock:] : sha256 3f3bf66e017e9647c5d87e72643d7dad442d9379af2c42ccbf4c157e8f6b9751 -> 27b3518408ff77622b2cc2b709ff23f54bdb93282600e37ebf4912161a25bec4
+~ ___62-[GEOVectorTileAccessibility enumerateVisibleRoadsUsingBlock:]_block_invoke : sha256 0105d7a08478b5b8527e8d82cc07472bc5a78a035a05d3282b2b3d7c6aeacefe -> 7be6163afea01916c531deff5c00d37c08669c8519c96e25580bb111adacc39d
+
+```

@@ -1,0 +1,106 @@
+## liblog_geo.dylib
+
+> `/usr/lib/log/liblog_geo.dylib`
+
+```diff
+
+-2069.30.5.14.4
+-  __TEXT.__text: 0x2cec sha256:051c792ecdf40256b7326af2719290e428453c844df7c9ed411a1e7da652e753
+-  __TEXT.__objc_methlist: 0x16c sha256:232211c814c2c9c39f355fcb0194ec0b29d9df2f2f46e21471cfadff1c10ba65
++2073.30.6.5.1
++  __TEXT.__text: 0x2cf8 sha256:3ec13aee32b768c7a43d05e956d603e9662bc811a9623475d3ea76cb90d2bb65
++  __TEXT.__objc_methlist: 0x16c sha256:8be3fe0eaf1b66df47e62848905f840370cbd7656a2464e61f73d72b9182dc0a
+   __TEXT.__const: 0x18 sha256:36143dfc2180050e2b51b4bd60a4a7622f7775bfe0b7fdd33207e2e63a2e675d
+-  __TEXT.__gcc_except_tab: 0x4c sha256:810d3236f7e842e50d4953492b2ebf1c7778a8fbc90c6ce87e91a6e362f4322b
++  __TEXT.__gcc_except_tab: 0x4c sha256:9e4867945a9c5f9420e8e4522fc0ab6742e8a3a2d8b1e2cd31f61b82dd9d4ccb
+   __TEXT.__cstring: 0x8069 sha256:cbf6ecad7dbb0b148ab02ff801723abd221ab2b9e41da3b3e1c4f9d9a96f411b
+-  __TEXT.__unwind_info: 0x128 sha256:399bfdf31dd3b188df202d8c1216a26c19c5b4b9f5a8ee45e9b2ff8c954e1378
++  __TEXT.__unwind_info: 0x128 sha256:7edcd6649b542f3d76c43b33028e02cc71235e230d2972e01ddc76445dd0aadf
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2ab8 sha256:128ab6d0f629b218329847665291988e0af16b9dd31e28d256d55f3ceab8c252
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:ecb00720a7e5dd9198b88f1bb14d548cf68e496320316d4be055c95b42ba7813
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:e04555a5eb3cb4fff7db128e058de82042370eabfeac64c1d2d5c67a21c65faf
++  __DATA_CONST.__const: 0x2ab8 sha256:f76c2f81b7a1a7ac460ca260f2dff5173a90715ec87e49ef8e742616446f66ce
++  __DATA_CONST.__objc_classlist: 0x10 sha256:d52e7678461824268b26261a70defc0821c40565161483299dfcc997914683bb
++  __DATA_CONST.__objc_protolist: 0x8 sha256:17fb6e9d6ff1b688e81857ae1e876f046090df06defc8c341c726cf7d34af17d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x230 sha256:e347a4996e99e283a21fac3ff3301936f24869483b9bf75f059ade4fd95ed4bd
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:6ef2f9f050b431f7927c21c8e86858138518a9ec032f264db56dfc3791e4250e
++  __DATA_CONST.__objc_selrefs: 0x230 sha256:fcd5b4a5b504f0657d30575e75029a533b49377c75e718e2ad2ed76e102c9e63
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:ecac33df8ca9cf4bfe1f73ca4a072ffd21026fca0f4def3b9d20f1fc7e6bcc6e
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xc8 sha256:7972e26c59a63ab2aa4b0a1de319441ab4438cd408a7843278d14e811a006861
+-  __AUTH_CONST.__cfstring: 0xbcc0 sha256:8cec57d445e25acc34cb564376b760a58d7bd4f32626c469c9d813f0f3243b7a
+-  __AUTH_CONST.__objc_const: 0x218 sha256:0f10d867ba393dee418d71f782cb24569150a9aab55a895cf271b1bd633cc99b
++  __AUTH_CONST.__const: 0xc8 sha256:3b3e6fe4e36e71f10200bec0de5658a1219ba6ee1ddb0d662cebd0e1ef448dc2
++  __AUTH_CONST.__cfstring: 0xbcc0 sha256:e11787bfee3a90055333aa487e5d15d47bd460ce360d6155c6776d9362aa4dee
++  __AUTH_CONST.__objc_const: 0x218 sha256:50ffa143f6090335e7321701b4258ba329e192f2028641114129367ae9a8c55c
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:129d71592fd3bac48fa717284f611bf7d8ecb55f456b55bd1b5f2f14f0eef120
++  __AUTH.__objc_data: 0x50 sha256:0062e91ab501a1631bbedbd689bb18c887dfbd2a92a80b7eb0befe07412c10aa
+   __DATA.__objc_ivar: 0x14 sha256:c86854a43de9cee3d28331fb60e81cafe3a4e3bda41c42ace6acbc73ebbe3b28
+-  __DATA.__data: 0x60 sha256:ca0cded886ae8b6902ab4bbab43f4989dc4101f41802ab3672c878c52078303d
++  __DATA.__data: 0x60 sha256:cac73563ce95e8d6be4c10a22c1ce71f2ff1d97d2508712d2a98cb07e6218b77
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:4699d1e1d37a40757a967891f637b2318851aa279743dc5a22ad5ccdaf4857a2
++  __DATA_DIRTY.__objc_data: 0x50 sha256:0e2df02654e5b137721f79780b3004bd69e97669b3aabb0df93bc1baa6ef1a60
+   __DATA_DIRTY.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 354CD124-55D2-3D49-AA59-BC55BC92A91F
++  UUID: 163483E5-5026-3F68-8679-1E1512FAE0FC
+   Functions: 47
+   Symbols:   289
+   CStrings:  3028
+Functions:
+~ -[GEOLogFormatter(PropertyList) descriptionForPropertyListData:capturedStateType:] : sha256 888306c2a1946bc9331332e3906da615faea65347addebec7ba1424100b47b0e -> 0cbba623dfc86837896d63f4bccc85af4ba133e11e0bd60bb325b0099caf6962
+~ -[GEOLogFormatter(Struct) formattedStringForStructType:value:] : sha256 b24f082c241873424ad4c596f5c9aa17b819b04c83c4cb34d8c9316a5c4f8fdd -> ff5767e6b93c44919b50082938b6ef1d671831d52aec017edc5503f48ac5b6a6
+~ -[GEOLogFormatter(Struct) formattedStringForStructType:data:] : 428 -> 448
+~ _formatTileKey : sha256 e6c85b2f364a9876149f166cd4ebe6ddec12e3a014580348afae68599b498ba6 -> 68d3c8137777b29472a7eb08e87f0aee0247e870dc2b0d21fa169f2386bd88d1
+~ _formatTileKeyList : sha256 23661e567d0f99ca1fb01581ad69aaca47bae18b6a30ece8184f27bd42dffe4a -> c667a3044b3695b1b8c40402457996f24090f9292dfd86a910d0a0b3a01b1990
+~ _formatDataRequestKind : sha256 6fb27d5d08ee7a37d94d636dff8e4d18e93ec500d39b309c3e1cd4da741777d7 -> cab0a74cd766356b0a0b711b868f6555473abce73fe9068543c78c067ddbb915
+~ _StringsCaseInsensitiveEqual : sha256 8d7303cb418f91f675bae7fdd9bc5f5f57f3adac63c87fb8a8f1c659ff10c88f -> f5ebb71390e11dac0f2ca4fce687d291c01a3cc4085edd63648ceaae4c440a90
+~ ___StringsCaseInsensitiveEqual_block_invoke : sha256 25a306d63f4903d0795da8cd91a029acecf85af0318f2281f3b9f60968a265b5 -> b513fa9ff98f95d589dc5764634c773fa8922b922500dbec75aea60206f33fdb
+~ +[GEOLogFormatter sharedFormatter] : sha256 d19fa5f3c4ed78dd215ee0ca5dae52f62586027a234caedf9374882fea5a3833 -> e7ad96f302ae72230a5c899d8112de32c829d728f6a4ddf2baaed544af0416b3
+~ ___34+[GEOLogFormatter sharedFormatter]_block_invoke : sha256 4b8179a10a6c525b02c084a1ea0e6f204d3dd46a1c8d156e45419a38e7e8718b -> ccb5244749594691460784e19c7097aeb7a4f09d0b50f622855a46ad3023528d
+~ -[GEOLogFormatter init] : sha256 54689173dea5ff1e80247c609f62bf720fd56479ad9b6e2c0d28b8fb7ee9b919 -> b742bf9dab808e0e9cdf343b7d78c405fc9022416292353954a446e0e6a4fa11
+~ -[GEOLogFormatter formattedAttributedStringForType:value:] : sha256 5b12ba16406c6e985a2f7325869c337d7a16ae93de0778162042b1fa1b0d5c7d -> 7193830f6d0a2a8ebbdd63a07e6c7d464bee8d0feda134dee174ad0c6e0a7862
+~ -[GEOLogFormatter formattedStringForStateType:data:] : sha256 8511be4b7acc7e5d81070d71d68346367b25fe91ac6c4a3a043b6d86595c8a49 -> b9cf1b8a42f62d0243efe14433abc947059aeea088c112f00a263d46efbf0bf6
+~ -[GEOLogFormatter .cxx_destruct] : sha256 f1e83ba91e65d127697624825ec4c60967f8de679ee6dc4e31c01a8e78ece57a -> be3f4b79d9bb23dd8e221a09c38e06d064806c831e5c79d28b3d6dfadea20d2b
+~ -[GEOLogFormatter(Protobuf) formattedStringForProtobufType:value:] : sha256 89c9486a41420610c501ebbbea2c004108acd68e70d6205a21c7627bfc7b016e -> 2a693f8b345a2911ad8f0b5898a634c28727d82a98d2364c94f17fcf4dd933b2
+~ -[GEOLogFormatter(Protobuf) formattedStringForProtobufType:data:] : sha256 bd9a097123173ecc03ca1dab67c7bb4b56230ed35af3c6736d314a0a735bcbb9 -> e07dad843442d580f8c509f7f5338a0257bfae63760cdd6d8320a6599f548df3
+~ ___protobufClassForType_block_invoke : sha256 a0f1931783aad249d996b902c4e0d6057cc7c17f62a2d9a2e0e42b24592244e5 -> 4a907ecbe619a4d4d84241d7cd5999888d2a1e274336f94d544088dd9c36750e
+~ _OSLogCopyFormattedString : sha256 6081cf076f87dfcfff33acc56684fc2c22faa83b84c8016e7cedf76e0688ebfa -> bc15ce8b74cbabdfeabf51e3ec73f26507ebb9d08bf0099aaf417da59607f559
+~ _OSStateCreateStringWithData : sha256 b4a07fbe08c2e18192b73e15fe7337eae731605fe3d2762ad584bbfd9547b5a0 -> b62414b3bd0de859fe8c505a3789763fd482ab11650dd0a2e7e108badf3170f2
+~ -[Multipart copyWithZone:] : sha256 33f4a4301d9dd551014454779a3c0cea96ecd5c09e44b3a6c8b5ecef91666f8e -> b9e044228568977776b8619d5ffc36335d01df7cfb20f5d137c4eee88659bd8b
+~ -[Multipart copyWithIndex:] : sha256 860b6460537e32f48df0c797b41e46e165a068828715f6506889010607ee80e8 -> 22144cef078e923fcce14650cd21c77846d670ded185f3710c53bb1aa40abbd2
+~ -[Multipart isEqual:] : sha256 0a2c02a310e209e9609bf64901fb12ea75f1e2464445b0cc97cec27e9272d794 -> eac03b9fd9de288c6b38ea0e4f12c04e6ad37e5497471f50e4d6e105d74edddc
+~ -[Multipart isEqualToMultipart:] : sha256 71f77a0404eef10139c88c2d291f4574cddcd44791957afd5d27ee7ed8b57b50 -> b8877a5a8750980c0c87d078aa749cdc492a25359cf789edcd5aaa944a4400eb
+~ -[GEOLogFormatter(RequestResponse) formattedStringForRequestResponseType:value:] : sha256 a12dcf9b865fd2a53c18191ea97e9f73a99cee76eaee9eadd9de5b21d93f9e83 -> 819a9039423a37c5bc2e5495d35eed22fc1c5680c666aee8024cd76cff27a066
+~ ___Block_byref_object_dispose_ : sha256 ad69d2ceb345666300db599d3dec96597ab09493cbd03f63f7e807283e1d4aa5 -> 45ae3057844200d9a4bed05327a7d8c736d15f654bb458ac1c1a8266c99386fc
+~ ___80-[GEOLogFormatter(RequestResponse) formattedStringForRequestResponseType:value:]_block_invoke : sha256 c58242d5c14bcfadd74cf111dcae487e5a828b551ea7ea5b13f5a8b09d3f9be2 -> 24b10039fb16453bdfdb8e30b5de50b174bb97fee768c36af8ab87bb7e1e57c5
+~ -[GEOLogFormatter(RequestResponse) formattedStringForRequestResponse:] : sha256 2375de94f522d936be868f658eace1fb867354ae136180cb154919527934157e -> 322ed1586879f9833ec7111aeff3f20cc2f3602bffe9cb790925ff9f6abf1147
+~ -[GEOLogFormatter(RequestResponse) formattedStringForPBCodableData:] : sha256 3f3545c404c6a4612b863cf3e26d43a3aca44e678e590df943d77a6c44c18d46 -> 42cfbe75072f5eec68aebbcf3f34b8c03c9db7985e98627deb824a59e22c4d5d
+~ -[GEOLogFormatter(RequestResponse) formattedStringForSinglePartRequestResponse:compressed:] : sha256 816cdee41e04cb21bd0ecd038345670bbf5b85cdc19806cc5eab44847252b292 -> 58acb84ae7724daba4b402d4b66a0507ffde25155b92ccd222c882760cfe2855
+~ _getNameAndRemainderAtOffset : sha256 cd35177d5c727c58de5d4518a9cd53e30b0a35310f4039863016f1083fd17891 -> 35cb631d241f2713469f43dff0188b2b2c07ae522ee10f89cf4b76e654e4cafb
+~ _decompress : sha256 5710cd40648560d4b57c829185da42f564c199ea76efcb0826580e54ff11441b -> cadcfaf2fbc31391f0deedc6c429fcaee7b1a82127f0709ffa9930a9250127a0
+~ _formattedStringFromProtobuf : sha256 44d9e660e3258035add2fffc09b1c4761ea65dcd3fa78e52b85238aa7b83337a -> e574cbc4a188d51b0bc8ce3c6ffe96dede8155806c9c2d870c112f6bddb66b6c
+~ -[GEOLogFormatter(RequestResponse) formattedStringForMultiPartRequestResponse:compressed:] : sha256 c810b14789a677112869b20155aa3fbc1a7018fc5887acfca13962a205ba44c7 -> d615583b5b5d82b4a840b0694ad3c293f34e0673ef4f18d00834910cc30e4adc
+~ -[GEOLogFormatter(RequestResponse) formattedStringForRequestResponseMultipart:partData:className:compressed:] : sha256 09a5b25bc57eac1ede34d23f7af0c841b6163b9e4a54ed166d5cb0fc5e1755c4 -> d5ea45955a52f590209a695c8a853a145a0d584f1b3802b4e2e1e75d61d63e59
+~ ___getOutputMode_block_invoke : sha256 733fdb67d87c51ea22a48f1bb3033dafe0a8faf6838074e490b8f42cd17fd9d6 -> 8ea7c7a3dc75258f02d6916a4fe87cec899ce17ab44388f389b087e0dec9e38a
+~ _scanDict : 600 -> 596
+~ _scanArr : 500 -> 496
+~ -[GEOLogFormatter(Enum) formattedStringForEnumType:value:] : sha256 cbab4c46297037c4160ccc9cf9a1e32ae36b2e512e9881e8ab56a51122c2a3ec -> 1da957584702da135757e8e9c38aedbdce1f105f42d7f9b0346c2b3752c0b011
+~ -[GEOLogFormatter(Enum) formattedStringForEnumType:number:] : sha256 7c09b276701c9998b58ecd703abc263a4c3476517606a8f0fefbf189aef419b7 -> 640b6b59f66e77fd330c13fe6c9b081c402258d14459e66ae9e78512f7c99ba9
+~ _formattedTileLoadOptionsForNumber : sha256 bae54eeb0a1cf673e30af585cd3c9af719305922d463c33d56c31b6bfb966506 -> 6011e5d6e9a05597823bb379d252cee67d6742700417b584a4ecd23e967298b9
+~ _formattedGEOTileSetStyleForNumber : sha256 bd929aa28ffc5884a058c0e3d4b39676e0e0c0e69c373601651376507bcaf45f -> 318e442480eaa287d3fc2dde457ce94b42b3afae3f75607a9bf6e921f911be74
+
+```

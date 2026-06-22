@@ -1,0 +1,177 @@
+## Campo
+
+> `/Applications/Campo.app/Campo`
+
+```diff
+
+-60.105.0.0.0
+-  __TEXT.__text: 0xdf0c sha256:04b43380347fc8d49027538a002a5cc56aab73d97af5e1c07804e8c5fddd4d01
+-  __TEXT.__auth_stubs: 0xe50 sha256:b6c220858f7c3f89d009c871dc4d5d0e524e247208281b5c1a2e7f204f0e06b8
+-  __TEXT.__objc_stubs: 0x6e0 sha256:8f920d694c01e7ed4767e1eb94bd35f4dbadc05855537d072bd0fb282ba3a749
+-  __TEXT.__objc_methlist: 0x634 sha256:fc58fcc3185460e98ddac023f9a1235b9723f42d9ddbb46d0de2c72e35724525
+-  __TEXT.__const: 0x5b4 sha256:9b7863b8a279c896fc35af3f992850bd2a881223eb599e6177c5e8abfbb71c2d
+-  __TEXT.__constg_swiftt: 0x28c sha256:038e6b7607d239f9741d6a531632034d3f34326bc7c201a26e431ca88aed5395
+-  __TEXT.__swift5_typeref: 0x43e sha256:dee5b009b6fca67c5b913104f0f3021d3c2ff3b6a104c5e2df1224e6742198d7
+-  __TEXT.__swift5_builtin: 0x28 sha256:ba821975ed178bb74d2de1b5b02a17b3a08e2bce98f465769a34f5425cb3627f
+-  __TEXT.__swift5_reflstr: 0x18c sha256:19237a58ec1553683e1c6ad09be2e958ce87875118579d2ffce7e24e2d3d7884
+-  __TEXT.__swift5_fieldmd: 0x1cc sha256:dba98a1bd98968290e777bef5af5962408b9009e5371726622eca3aa62b958d6
+-  __TEXT.__swift5_assocty: 0x48 sha256:7e4cc29eaa9e575720f2be876cfb6a9fc3de8aaf07e53dd86295a0a86478a0b5
+-  __TEXT.__swift5_proto: 0x24 sha256:aac2b1b78d3c3496eb53ec3566f9ef42699cb168a8dad63a0cd968f5c5c24bcc
+-  __TEXT.__swift5_types: 0x30 sha256:b285c7586a95ca2f4b9ae855c935851d04e3c551eab8e30d793023622c0b1398
+-  __TEXT.__objc_methname: 0x17ec sha256:615386fe615d5a5b458daa15806a14ab7debcb855a6a2f6ddf531a8b0b4199b6
+-  __TEXT.__objc_methtype: 0xd72 sha256:78a387b4dbb285def794d173b25b47587ac4519e751f5f95abd3e95015b458ea
+-  __TEXT.__cstring: 0x46d sha256:088eeaef3f8c2f3df8a5b2a9b7ed07f28b029f1f3137bdb07aef367acf43cfe9
++67.4.100.0.0
++  __TEXT.__text: 0xd900 sha256:318e54de29a16c1e003205810f83b79d4a265945a83aa8ec8164f55d6b1bf955
++  __TEXT.__auth_stubs: 0xe20 sha256:a045397f6734c6e4baf561189f44986be5720c640e34eb108f5f189de3f9f508
++  __TEXT.__objc_stubs: 0x6e0 sha256:681c64c9d7ccd5524297620a0b712bdb1e2d933ba92fa3deb5faf31463ef3c5b
++  __TEXT.__objc_methlist: 0x634 sha256:5bdcd4bde38ca3e5c8cdd8d97bade28164e9f0ccc1539c6edaef52008ac60257
++  __TEXT.__const: 0x634 sha256:c4bc893ff04ab13ac5e6920c82bdc39c6f9ada4d37a07de62a847499e62e1f12
++  __TEXT.__constg_swiftt: 0x2bc sha256:fe6d0bb3cbe32c854ab17edc157bb5d1d85c9bf4ef4c3e77a6787c299ebe03c4
++  __TEXT.__swift5_typeref: 0x462 sha256:3ebb2f58f0c5a1b29fef959035be9e6084565f2ee29ac86f24e06298642c4e4f
++  __TEXT.__swift5_builtin: 0x28 sha256:c217313694a0e898657edda6a50fee78ba77188287fb34035c7fa8b6207da1b2
++  __TEXT.__swift5_reflstr: 0x17c sha256:ebfea8f7f140f3b8578a004a13c70ce37277d07ce269b5dc4e0ff876b90ff519
++  __TEXT.__swift5_fieldmd: 0x1c0 sha256:9c1c917b4648b6d743c5e1320423635cf38b56f74d6b5799dd6958fbae4f257c
++  __TEXT.__swift5_assocty: 0x48 sha256:48a4f768cd3aefd8f5b03e9a3cb95c8a9cce81bc2e57c756776d00fdcc1df0e9
++  __TEXT.__swift5_proto: 0x2c sha256:47685b6b702b6c885ad853030257b65b5b605f217b0bc11af5381c184939138e
++  __TEXT.__swift5_types: 0x38 sha256:31cd2d48894b3557a273cd120a1505737aeb01ef63eebaaed967cc5f9fb61dc6
++  __TEXT.__objc_methname: 0x17cc sha256:cd2750669717e9aa7779c81f6a9658a092566a9504ae23d5525df6bd69dda371
++  __TEXT.__objc_methtype: 0xda2 sha256:fb8cac9536d13d26137cc6f2ebe06e9b85757dafcf44b23b6dcc17ff46fe6eac
++  __TEXT.__cstring: 0x39d sha256:d0109875673721180bb8e7eab9be4f42f885c95905e96f048877d1901d323963
+   __TEXT.__objc_classname: 0x204 sha256:fce5bf2663fd92715b98f43fbd167a187edd47a62ca382222daa9b3d8ef75586
+-  __TEXT.__swift5_capture: 0x24c sha256:a80127bc5cbd218bc3eeb62d49e83873c3a28bf2f92c141d09d9d767065c2ae9
+-  __TEXT.__swift_as_entry: 0x38 sha256:2531afbe26abf4a3c0def17d846b3b5cc368ef73175c480c548505b8b1a68932
+-  __TEXT.__swift_as_ret: 0x40 sha256:f53afa96c102ef847411f98b68014ab71f6597ee4051b1ca2a1ecec3bbb6832b
+-  __TEXT.__swift_as_cont: 0x74 sha256:694f0f43ace1bf6d5a3983beedbb24f302a874d9730b4a866715b04cbb062124
+-  __TEXT.__swift5_entry: 0x8 sha256:fbfc80a08d51247f5e7c5664bb092456cb8c2868b74a193cb690e5816e9d49a1
+-  __TEXT.__unwind_info: 0x5d8 sha256:48c3cc42f493fe84c1071f074d3aace49a6f156ade7455fd999c48de8edbd9d9
+-  __TEXT.__eh_frame: 0xaa8 sha256:707f544bca1d2f3934dd204832c95dd9d66b3050f9962dd97b836ab8f774e85d
+-  __DATA_CONST.__const: 0x7b8 sha256:f68abd3122a81569f40219689b957e0cfab9c19a8c93d33ba435aa0290056a5b
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:63e090b7272790f5a1a427fbca0a53b984115cdafb2b522a4bdbfeecaace6883
+-  __DATA_CONST.__objc_protolist: 0x70 sha256:6cdf3d6306fee50a9660fcc8e14961ed85c925892ed5f6bb14ecf9d78c01ffd0
++  __TEXT.__swift5_capture: 0x268 sha256:f8ce6a6357d3db0a93d368fdd137c00cc63120b5132537e698ea9a69ce52cfdb
++  __TEXT.__swift_as_entry: 0x3c sha256:5f694039be6a77eb49f53810efe9a259e6f0dddafcb55aad79bfd9bbb58e6afc
++  __TEXT.__swift_as_ret: 0x38 sha256:548eefbda1d8e5055c2e880f978422385643089a5b7ba5031979acef4cf865d5
++  __TEXT.__swift_as_cont: 0x60 sha256:417a6ea355be18fcfcadbded547c1cd162f209d3dc2970841961da929797eeff
++  __TEXT.__swift5_entry: 0x8 sha256:41fa1e6a41db448490bf016112b8dd1ef2a5383adb4b84cd0cd1345551bfa672
++  __TEXT.__unwind_info: 0x5d0 sha256:2947d8a0fb20bdcb26980f762a5b1292224dfca92bf8992d43ed9a8b7d71d016
++  __TEXT.__eh_frame: 0xa00 sha256:4be1510032dd302f7f0ca8ceec827964ff7ffc7f9a980aeb713324dfb604a82a
++  __DATA_CONST.__const: 0x8a0 sha256:687f83fcce708e137715378eb52f123df7473035ee32f8df9500075a107a80f9
++  __DATA_CONST.__objc_classlist: 0x38 sha256:8f487521bbe90bc2195f810a6e601a2fc248fc2e3f9a4c96b1a8b447635b236a
++  __DATA_CONST.__objc_protolist: 0x70 sha256:ed30fc78d06b598e795cb187880635f8f283a5ff94524f9f0d200b44633dcc4f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0x38 sha256:52230e7887f2c4a8e29d22081c8f1a5fe460a6203eef3843b692505565ac55b0
+-  __DATA_CONST.__auth_got: 0x730 sha256:1cbc3024a689852a3c0ae15cb451af4f56a08dd9c2a3bab5ed760d6dcda7550d
+-  __DATA_CONST.__got: 0x1f8 sha256:0627a269c324bd44b1b66f5259c8f20c4e8b3396efcb675296d7b305893c10ab
+-  __DATA_CONST.__auth_ptr: 0x218 sha256:e2526e3ee7c9ae5d6d515fa8622c913277d25051da7c0ed3e2e8b78b56b12c78
+-  __DATA.__objc_const: 0x950 sha256:4657cc058d4dc81c84752e076c40a527c9c5723e546e388cb30e4506ab7b74ad
+-  __DATA.__objc_selrefs: 0x510 sha256:32b40f2e470c47eb45e8b185836275d3d4165bedb9e73c333ea171032ed65b31
+-  __DATA.__objc_data: 0x300 sha256:5e7df72601b4c982f02509acd8efff96985d02c4064ebbf206286d7e32b4b2e9
+-  __DATA.__data: 0xab8 sha256:7521b4cc0f031a7a02997dbc92aead5bca76296c78ec88d22fc1a712d5b131e3
+-  __DATA.__bss: 0x480 sha256:4cf9816ed1062189ff0c8d427fba5e912cc68fc9af76cf7f08fd255977de3b33
++  __DATA_CONST.__objc_protorefs: 0x38 sha256:6151a7e94ddbd438a715349e8306de15942cd0f0b9872ab9a59be6a281c7e469
++  __DATA_CONST.__auth_got: 0x718 sha256:3f2c08670b7789ae24205bf834250c53c5fec9ac7b6497e947bc73f336f4d7bc
++  __DATA_CONST.__got: 0x208 sha256:08ae7ff6e33ec992c8d77211555c84e6b192ad47d49c177a3c2808c066bb9b7a
++  __DATA_CONST.__auth_ptr: 0x230 sha256:4bf8e0e2f5ab8d06d84ab2316a1eb70eca8fd7c3a15af416b91bfff59b42741a
++  __DATA.__objc_const: 0x930 sha256:6d5486030d56075ee977c45e6a1a832bfe232de70313571e7d097171c4bbc0f1
++  __DATA.__objc_selrefs: 0x510 sha256:ef375ed39145b5dbc26ca08cd41f9ff4e2c93e9c0e3ea86a874f9841c0187bae
++  __DATA.__objc_data: 0x300 sha256:7e78797f402b51032dff255817e069f03033c82eb7c4779caa796d51fbc8cc2a
++  __DATA.__data: 0xab8 sha256:c517d5c8191fa14bb3765a37f9d6696af8708b0809ae13cda5b7f8ca12966e10
++  __DATA.__bss: 0x580 sha256:bffeeb2d12ba6108806a508082dee2f5ce23d1edeaf81acd4feb8c0d08038978
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CarPlay.framework/CarPlay
++  - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E5273D56-E93D-38CB-BDB4-DA5B6D5719A2
+-  Functions: 433
+-  Symbols:   394
+-  CStrings:  319
++  UUID: 555DFDCD-C301-3C7C-90D5-1879F156E567
++  Functions: 453
++  Symbols:   395
++  CStrings:  314
+ 
+Symbols:
++ _$s15CampoUIInternal0A23DefaultSceneContentViewV17campoServerDomain6chatID08retargetD2ToAcA0ahI0C_AA04ChatK0VSgyAJcSgtcfC
++ _$s15CampoUIInternal18CarPlayImageLoaderC04loadE03for10targetSizeSo7UIImageCSgAA0cD16ConversationItemV_So6CGSizeVtYaF
++ _$s15CampoUIInternal18CarPlayImageLoaderC04loadE03for10targetSizeSo7UIImageCSgAA0cD16ConversationItemV_So6CGSizeVtYaFTu
++ _$s15CampoUIInternal18CarPlayImageLoaderC08loadCardE03for12cornerRadius10renderSize07displayM00N5ScaleSo7UIImageCAA0cD16ConversationItemV_12CoreGraphics7CGFloatVSo6CGSizeVArPtYaF
++ _$s15CampoUIInternal18CarPlayImageLoaderC08loadCardE03for12cornerRadius10renderSize07displayM00N5ScaleSo7UIImageCAA0cD16ConversationItemV_12CoreGraphics7CGFloatVSo6CGSizeVArPtYaFTu
++ _$s15CampoUIInternal26CarPlayConversationSectionV4KindO5datedyA2EmFWC
++ _$s15CampoUIInternal26CarPlayConversationSectionV4KindO6pinnedyA2EmFWC
++ _$s15CampoUIInternal26CarPlayConversationSectionV4KindOMa
++ _$s15CampoUIInternal26CarPlayConversationSectionV4KindOMn
++ _$s15CampoUIInternal26CarPlayConversationSectionV4kindAC4KindOvg
++ _$s15CampoUIInternal26CarPlayConversationSectionV5itemsSayAA0cdE4ItemVGvg
++ _$s15CampoUIInternal26CarPlayConversationSectionV5titleSSSgvg
++ _$s15CampoUIInternal26CarPlayConversationSectionVMa
++ _$s15CampoUIInternal26CarPlayConversationSectionVMn
++ _$s15CampoUIInternal29CarPlayConversationDataSourceC20conversationSectionsSayAA0cdE7SectionVGvg
++ _$s19SpotlightUIInternal0A12BootstrapperC9bootstrapyyFZ
++ _$s19SpotlightUIInternal0A12BootstrapperCMa
++ _$sSS15CampoUIInternalE0A0V32chatSectionTitleForConversationsSSvgZ
++ _$sSS15CampoUIInternalE0A0V38chatSectionTitleForPinnedConversationsSSvgZ
++ _$ss27_diagnoseUnexpectedEnumCase4types5NeverOxm_tlF
++ _$ss6HasherV8_combineyySuF
++ _CGContextFillRect
++ _CGContextSetFillColorWithColor
++ _OBJC_CLASS_$_UIGraphicsImageRenderer
++ _objc_retain_x1
++ _swift_isEscapingClosureAtFileLocation
+- _$s10Foundation6LocaleV7currentACvgZ
+- _$s10Foundation6LocaleVMa
+- _$s15CampoUIInternal0A23DefaultSceneContentViewV17campoServerDomain6chatIDAcA0ahI0C_AA04ChatK0VSgtcfC
+- _$s15CampoUIInternal18CarPlayImageLoaderC012generateCardE05title10headerText7summary5image10targetSize12displayScaleSo7UIImageCSS_SSSgAmLSgSo6CGSizeV12CoreGraphics7CGFloatVtYaF
+- _$s15CampoUIInternal18CarPlayImageLoaderC012generateCardE05title10headerText7summary5image10targetSize12displayScaleSo7UIImageCSS_SSSgAmLSgSo6CGSizeV12CoreGraphics7CGFloatVtYaFTu
+- _$s15CampoUIInternal18CarPlayImageLoaderC04loadE03for10headerText10targetSize12displayScaleSo7UIImageCAA0cD16ConversationItemV_SSSgSo6CGSizeV12CoreGraphics7CGFloatVtYaF
+- _$s15CampoUIInternal18CarPlayImageLoaderC04loadE03for10headerText10targetSize12displayScaleSo7UIImageCAA0cD16ConversationItemV_SSSgSo6CGSizeV12CoreGraphics7CGFloatVtYaFTu
+- _$s15CampoUIInternal18CarPlayImageLoaderC04loadE9FromAsset10identifier10targetSizeSo7UIImageCSgSS_So6CGSizeVtYaF
+- _$s15CampoUIInternal18CarPlayImageLoaderC04loadE9FromAsset10identifier10targetSizeSo7UIImageCSgSS_So6CGSizeVtYaFTu
+- _$s15CampoUIInternal23CarPlayConversationItemV10headerTextSSvg
+- _$s15CampoUIInternal23CarPlayConversationItemV14thumbnailImageSo7UIImageCSgvg
+- _$s15CampoUIInternal23CarPlayConversationItemV24thumbnailAssetIdentifierSSSgvg
+- _$sSS10FoundationE17LocalizationValueV13stringLiteralACSS_tcfC
+- _$sSS10FoundationE17LocalizationValueVMa
+- _$sSS10FoundationE9localized5table6bundle6locale7commentS2SAAE17LocalizationValueV_SSSgSo8NSBundleCSgAA6LocaleVs12StaticStringVSgtcfC
+- _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+- _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_retain_x26
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_getObjCClassFromObject
+- _swift_release_x28
+CStrings:
++ "CGContext"
++ "bundleForClass:"
++ "imageNamed:inBundle:withConfiguration:"
++ "imageWithActions:"
++ "initWithIdentifier:titleVariants:image:backgroundImage:repeats:"
++ "initWithSize:"
++ "setTrailingImage:"
++ "setUseCampoGlass:"
++ "v16@?0@\"UIGraphicsImageRendererContext\"8"
+- "bundleWithIdentifier:"
+- "chatSectionTitleForConversations"
+- "chatSectionTitleForPinnedChats"
+- "chatSectionTitleForPinnedConversations"
+- "chatSectionTitleForRecentChats"
+- "com.apple.CampoUIInternal"
+- "images"
+- "initWithIdentifier:titleVariants:image:repeats:"
+- "localizationBundle"
+- "mainBundle"
+- "setBackgroundImage:"
+- "setImage:"
+- "setThumbnail:"
+- "systemImageNamed:"
+
+```

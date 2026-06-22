@@ -1,0 +1,307 @@
+## HoverTextUI
+
+> `/System/Library/PrivateFrameworks/HoverTextUI.framework/HoverTextUI`
+
+```diff
+
+-3229.1.6.0.0
+-  __TEXT.__text: 0x6b004 sha256:608fa0f7942b161c507c21e62c6007a62774043454f9337d6f70e561fdf0b7d3
+-  __TEXT.__objc_methlist: 0x41c sha256:6a1bbd6f001697f02a5179ac114317bcadd4b4c6e6a267b35b857d32c61143dd
+-  __TEXT.__const: 0x3d80 sha256:f604d732255e6b1ce53e28fab863bf8622eb18d28d3c9da2ef758c8b12c1fe73
+-  __TEXT.__swift5_typeref: 0x3f68 sha256:dc4062e27190ecff33030edcc9dd6faffe2d5c8670318c6592db2577bbf51b13
+-  __TEXT.__constg_swiftt: 0x1dc0 sha256:7c7befe612b3874e8a675132fb120eb10906d8835c75e1c68b48985979bcc82a
+-  __TEXT.__swift5_reflstr: 0x1622 sha256:20d9227f147456ec376d5a23ed861011db9c06485c41f60e0e175bf7f9fbf146
+-  __TEXT.__swift5_fieldmd: 0xfd0 sha256:de5c8a9bc225c4dfd9cfe8e3f68a8d04d69ac6a62a4c14fff76fbc91b209c0e2
+-  __TEXT.__swift5_builtin: 0x154 sha256:303df4454fecdab167780a18e69e8204f0c30c2e729b5605303fe8b54cbdaf1a
+-  __TEXT.__swift5_assocty: 0x2e8 sha256:419d9d4971056efac6472fe7b8b7e42ae53ca54b82befc78806ecbbb753e73bc
+-  __TEXT.__oslogstring: 0x16b1 sha256:cf921d4650276d9e2a3d59813c4935c7c5a99abc76c80e2dded0740bc369f5b2
+-  __TEXT.__cstring: 0xad3 sha256:9a1f17e032a58d9adfb8853e991dba0db43beb8976d41b4c13b88eb0063180ec
+-  __TEXT.__swift5_capture: 0x9e0 sha256:43dff4782b6124f8ec8e346ca5bed774bb66c8f9cf18feec811efc6b4f23fff3
+-  __TEXT.__swift5_proto: 0x100 sha256:c7e97c10474623dfa7a63f31f0f9ef88d184feb98c4e4190bb02fd2e9e5bc553
+-  __TEXT.__swift5_types: 0xe0 sha256:9f825d234e4df73a6b193cc05602ca88b7a224e461b172185a80fb8f3ed97c01
+-  __TEXT.__swift5_mpenum: 0x28 sha256:656b99a181e2bad2250da5fe33471582e607777d6cb295f82537481ff99c412a
+-  __TEXT.__swift5_protos: 0x4 sha256:9aa9d82785035ed03184f5d6daae899be0ad9f1e1920666e837d2d0b5a816127
+-  __TEXT.__swift_as_entry: 0x94 sha256:e1df30240c57a3854c5c4c28d948d59042baa2ce643cf72136c3d6301a2a2940
+-  __TEXT.__swift_as_ret: 0x68 sha256:1bcf79b79fa011de14e898b7b9fe662b5cbebcca856d182cb8055047fa3ed4f9
+-  __TEXT.__swift_as_cont: 0x140 sha256:639109905fb713c5eec96b3d67361de8e4c7ae5e1d81205259ba9329c1536d54
+-  __TEXT.__unwind_info: 0x1740 sha256:39a1c40c5df17324994b5ad9753743d6a52e24f454c7116d271ead5c6eb2f67c
+-  __TEXT.__eh_frame: 0x2398 sha256:5310d856a97d80534d34e588d82309b77aa711f85c6c3171f41aec724bf1f845
++3232.3.0.0.0
++  __TEXT.__text: 0x6c410 sha256:c77041f972584ced674b3495e632d797af4072d48f746f80ca47b9df890abec5
++  __TEXT.__objc_methlist: 0x41c sha256:c727b692c0bb01cdfe9f0deb3800e8423fd0a9ec13575a75dba1dac81b619293
++  __TEXT.__const: 0x3dd0 sha256:b505b2b00eb8bdda067a7dd535b943d6b7faedcb48e96e8818b10adca992b562
++  __TEXT.__swift5_typeref: 0x3f84 sha256:a0e9d992eb1044a16471521bb45207f036ae05613696f58aaf4980e3304c5543
++  __TEXT.__constg_swiftt: 0x1de0 sha256:880a765bc5cb6a8bd12a99a20e422a2057344aa9f42149da7207125735ddf9a5
++  __TEXT.__swift5_reflstr: 0x1642 sha256:2429d6d3f3aacb51ec8f2da7b3f4f07145321733a3cae32178a2c00f0777ff44
++  __TEXT.__swift5_fieldmd: 0xfdc sha256:db6d0375ca189545e171dc78de26ecf58588978358d22804c5619eb48e307432
++  __TEXT.__swift5_builtin: 0x154 sha256:8238b9ca872ba0844e28133b0c881668f6bb10acf028f16148de390216ab4f0d
++  __TEXT.__swift5_assocty: 0x2e8 sha256:495e6227abba66f7ed42c9d6dd78b567d836e543883d3e359e872698caffd4fd
++  __TEXT.__oslogstring: 0x16d1 sha256:0607d3e0068039cbb7acb42374ae8644bdca90257a44f7fa3c8088126bbe0f70
++  __TEXT.__cstring: 0xad3 sha256:dd9b16ef61aebe7d3dec1e6e13bc05f1affaa52713ca5ebb73d69278d25113e6
++  __TEXT.__swift5_capture: 0x9e0 sha256:673db7872ce580344f9ae2c3e4755337a15f397fed9a6daa334f2bf79c0e9840
++  __TEXT.__swift5_proto: 0x100 sha256:f5532303d4e651627d20d3fb9b43d936ea388a218420dde8ee305a74b532ae57
++  __TEXT.__swift5_types: 0xe0 sha256:7907b7d070a29ee92b16d2f19f226ef6c189cd63e43841db1bedf9ce82dc096f
++  __TEXT.__swift5_mpenum: 0x28 sha256:9339ba4a37decb0fc4c9ca0d3cc2f2d5a8184a19c92fc3bcbb54d0765a1c6d50
++  __TEXT.__swift5_protos: 0x4 sha256:0ce93dd85a0514f76c9684b24a4c65b1498dbdff26739172f7187e059bb3acf8
++  __TEXT.__swift_as_entry: 0x94 sha256:0b39803fd496ad3eeff58955a07b8c969c967d01c501df2688486470dfd15982
++  __TEXT.__swift_as_ret: 0x68 sha256:7827c8f3feb70522f55af28df0a527825d0d4fea040be11c39d3fccae8d696db
++  __TEXT.__swift_as_cont: 0x140 sha256:31f84e71d39221a3e0406bc30434ef65ad2fa024df24908debdba9efe0d6776c
++  __TEXT.__unwind_info: 0x1760 sha256:90b71d11a73990afbacda1f422d03632cf5fc467ac74e5ea34deb8671c251e81
++  __TEXT.__eh_frame: 0x2398 sha256:c7fe37eac3eec51309fd16be669b764995336be277daa5c47efdaa4b4e202cab
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xe0 sha256:e601d378c9ba9a7a9b6380aa2f6ebc6107c18a3a9f0448db0628e8efbe7e9500
+-  __DATA_CONST.__objc_classlist: 0x50 sha256:f6b6c4e8aa0ba1dbdc38832df3c3805b7ea244b392ed16f2a9619b31a5c20a99
+-  __DATA_CONST.__objc_protolist: 0x50 sha256:469d481df93450edee9c5dbf1372386e76d83b7a3d3660436cda3c0d6219e8b0
++  __DATA_CONST.__const: 0xe0 sha256:effece039c26cbb0b8433ca5acb17f35bd4d82852703572af74689aa55df31aa
++  __DATA_CONST.__objc_classlist: 0x50 sha256:5a5020d20dd85221a3eacc70e76b2dbb97fd2adae4f57b74c5b1cea7e409a701
++  __DATA_CONST.__objc_protolist: 0x50 sha256:ae65a7629e25b5d28dd73416a20537d08c79d979c8706cb3a7fc0ebf1c861597
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x838 sha256:024dc124f46f4d989dd8200b2f36b7d2408932d0717bfeabef9919b71ed9d097
+-  __DATA_CONST.__objc_protorefs: 0x20 sha256:19df0e79954d13a02d5757bfd72a143523ec74065a854a1f4a3a5e9829c92957
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:23fadb8f012a2543db849d2170484fa036dfed25c0709766d2bc98311ac647f0
+-  __DATA_CONST.__got: 0x708 sha256:f7f3b5cdd373832f85857e6c97d51ab69a06b50647e52a24678650664bbcb5ec
+-  __AUTH_CONST.__const: 0x2e48 sha256:5f8e44e1972c00df791eff0c64a76c1afeb0ff64c7bf44f2cd8a4e684d0597f1
+-  __AUTH_CONST.__cfstring: 0x4c0 sha256:3d0bcb1670da10c61de5c0c7db31a296dc1a367efef8b677341b8d6ad6f7d3e5
+-  __AUTH_CONST.__objc_const: 0x19d0 sha256:bb933be94959542d038c6183feb8887b854da331d66cb347bc2e495515a0510d
++  __DATA_CONST.__objc_selrefs: 0x848 sha256:b8dce3173d21976a441e4a11929e49ffb51258c8bbc56e889b7e95913fbe7a73
++  __DATA_CONST.__objc_protorefs: 0x20 sha256:4d189a6c57e4246bffa3b9e088231f6efd1427607319c28ea5b9163f0b66f90c
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:9b95c8fca4f0f287e6e966d60956076cd6747b8f22f7ddb7187cffe4b336c97e
++  __DATA_CONST.__got: 0x710 sha256:9e995f5bc478b6a4b8f54de3357a10821b0b5d0711d1359f31731afb7dbe2481
++  __AUTH_CONST.__const: 0x2e48 sha256:00c4196014dbc08a7bcbc4f2b701f0a3b0c1c9980186132cff4ae21dff4172d2
++  __AUTH_CONST.__cfstring: 0x4c0 sha256:0d7bcdd160cd0621ad926344449b139c8de6b44f01837c9041759fdc1105337d
++  __AUTH_CONST.__objc_const: 0x19f0 sha256:aff27645e00ea8d238b67085169097c1b7682206ede3fb482fa6c4e83fc2a08c
+   __AUTH_CONST.__auth_got: 0x1350 sha256:21b3feef00ab9cb8c0b8c3cf106f449062c5a0896dddffc6010bdf0158be2a03
+-  __AUTH.__objc_data: 0x2d0 sha256:53abdbd10dc387994566f00937eb9843c0e155e8f8c9bfc18cc4fe348390dac3
+-  __AUTH.__data: 0x16a0 sha256:2f6c0f5143466630bf070b8fd5da20c85bed93c6e72a867f6ba1315e67875ed6
++  __AUTH.__objc_data: 0x2d0 sha256:359a348742995b4ca5a3fb08413152284573060b100ccbd67b6dbc0dfb38c60a
++  __AUTH.__data: 0x1718 sha256:9eca4ab90faa6f30eb70df2d10ebfd6b03ac36dc8266a3d3ceb39f3e2720f116
+   __DATA.__objc_ivar: 0x1c sha256:7e54e1652bc586ce3da2d8215f1c6c55a654328517db49ad3224c621f288cc08
+-  __DATA.__data: 0x1238 sha256:09aa644db9755784706cd648836acd62ea3f6e11b664946fe06fe68fe7f58121
+-  __DATA.__objc_stublist: 0x8 sha256:9c95d0ec332dc780d70c48591c6ebc7b53def4f88db81fed8a67baabe20e0a71
++  __DATA.__data: 0x1258 sha256:be24a87d6d424410a2c4897ff0dfd46e71782024b1d3d2a33614c226a1c19258
++  __DATA.__objc_stublist: 0x8 sha256:50b1db7f4ea19eaf1b05102168547fc8ef46f03aa91caefec0ab76b558652944
+   __DATA.__bss: 0x2290 sha256:1c483c25a4be544fc31ed0363de98524e2ae69f4d60ed0777c4938b32f0f4576
+   __DATA.__common: 0x40 sha256:9da37cb924967b5ff1d65fbb0613d659433b808e532f9ee6650e8e5b77fae606
+-  __DATA_DIRTY.__objc_data: 0x518 sha256:8d5114d9821507b8435cf4cb8f9907fb4341c7dc2b93d5d9165aec742473ff30
+-  __DATA_DIRTY.__data: 0x1a8 sha256:31971acd1ea185624dd86809fb03c9e029a644807407df7f219713bd31bdfc62
++  __DATA_DIRTY.__objc_data: 0x518 sha256:821b6175984c64dc2777cb2f4748d27b26ebbd3d09e9456ece23360132103497
++  __DATA_DIRTY.__data: 0x1a8 sha256:9e1f5953e7ef782c016cac7eaf2b0e465b30909acb7f98ca8a550807335fd74b
+   __DATA_DIRTY.__common: 0x28 sha256:d769d5e8c765af426aa93c0e2bbdb4813d071b30600985802de1cc5f96e7e988
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2A453488-7FB8-3B04-9C14-2443708C1724
+-  Functions: 2141
+-  Symbols:   1763
++  UUID: 4A877E75-4AAF-31D2-AC2E-6B1A11534033
++  Functions: 2150
++  Symbols:   1768
+   CStrings:  231
+ 
+Symbols:
++ _AXDenormalizePointForDisplayUUID
++ _AXDeviceDisplayIDForUUID
++ ___swift__destructor.202
++ ___swift__destructor.90
++ ___swift__destructor.96
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.139
++ ___swift_closure_destructor.148
++ ___swift_closure_destructor.157
++ ___swift_closure_destructor.166
++ ___swift_closure_destructor.175
++ ___swift_closure_destructor.180Tm
++ ___swift_closure_destructor.184
++ ___swift_closure_destructor.193
++ ___swift_closure_destructor.209
++ ___swift_closure_destructor.215
++ ___swift_closure_destructor.222Tm
++ ___swift_closure_destructor.226
++ ___swift_closure_destructor.237
++ ___swift_closure_destructor.243
++ ___swift_closure_destructor.244
++ ___swift_closure_destructor.255
++ ___swift_closure_destructor.267
++ ___swift_closure_destructor.273
++ ___swift_closure_destructor.282
++ ___swift_closure_destructor.291
++ ___swift_closure_destructor.296Tm
++ ___swift_closure_destructor.300
++ ___swift_closure_destructor.315
++ ___swift_closure_destructor.352
++ ___swift_closure_destructor.362
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.81Tm
++ ___swift_closure_destructor.85
++ _block_copy_helper.198
++ _block_copy_helper.239
++ _block_copy_helper.245
++ _block_copy_helper.296
++ _block_copy_helper.298
++ _block_copy_helper.300
++ _block_copy_helper.308
++ _block_copy_helper.318
++ _block_copy_helper.348
++ _block_copy_helper.354
++ _block_copy_helper.358
++ _block_copy_helper.364
++ _block_copy_helper.394
++ _block_copy_helper.405
++ _block_copy_helper.409
++ _block_copy_helper.76
++ _block_copy_helper.92
++ _block_descriptor.200
++ _block_descriptor.241
++ _block_descriptor.247
++ _block_descriptor.298
++ _block_descriptor.300
++ _block_descriptor.302
++ _block_descriptor.310
++ _block_descriptor.320
++ _block_descriptor.350
++ _block_descriptor.356
++ _block_descriptor.360
++ _block_descriptor.366
++ _block_descriptor.396
++ _block_descriptor.407
++ _block_descriptor.411
++ _block_descriptor.78
++ _block_descriptor.94
++ _block_destroy_helper.199
++ _block_destroy_helper.240
++ _block_destroy_helper.246
++ _block_destroy_helper.297
++ _block_destroy_helper.299
++ _block_destroy_helper.301
++ _block_destroy_helper.309
++ _block_destroy_helper.319
++ _block_destroy_helper.349
++ _block_destroy_helper.355
++ _block_destroy_helper.359
++ _block_destroy_helper.365
++ _block_destroy_helper.395
++ _block_destroy_helper.406
++ _block_destroy_helper.410
++ _block_destroy_helper.77
++ _block_destroy_helper.93
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA05TupleD0VyAA6HStackVyAGyACyACyACyAA5ImageVAA12_FrameLayoutVGAA11_ClipEffectVyAA6CircleVGGAA16_OverlayModifierVyAA15StrokeShapeViewVyArA5ColorVAA05EmptyR0VGGG_ACyAEy09HoverTextB00uv10MarqueeingdR0VyAA0V0VGGAMGQPGGSgSg_AA012_ConditionalD0VyACyACyAIyAGyA11_Sg_ACyACyA8_AA08_PaddingJ0VGAA010_FixedSizeJ0VGSgQPGGAMGA23_GA28_GSgQPGGAMGA4_8HUDStyleVGAA0R0HPA34_AAA38_HPA33_AAA38_HPyHC_AmA0rO0HPyHCHC_A36_AAA39_HPyHCHC.61
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyAA14GeometryReaderVyADyAA6IDViewVyADyAaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyADyADyxAA16_FixedSizeLayoutVGAA22_AnchorWritingModifierVySo6CGRectV09HoverTextB00eN3Key33_FC1720772F90E22788223FA6108D0F63LLVGG_So6CGSizeVA_SQ12CoreGraphicsyHCg0_Qo_AA13_OffsetEffectVGSiGAT019AnimationCompletionR0VyA0_7CGFloatVGGGAA11_MaskEffectVyADyADyAA6HStackVyAA05TupleE0VyADyAA14LinearGradientVAA06_FrameO0VG_AA5ColorVA23_QPGGAA08_PaddingO0VGAA012_EnvironmentvqR0VyAA0O9DirectionOGGGGAA017_PreferenceActionR0VyAWA_SQA0_yHCg0_GGAaBHPA38_AaBHPA12_AaBHPyHC_A37_AA0cR0HPyHCHC_A41_AAA43_HPyHCHC.5
++ _keypath_set.178Tm
++ _objc_msgSend$activeReservedAvoidanceRegionsForView:
++ _objc_msgSend$displayHardwareIdentifier
++ _symbolic Say_____G So6CGRectV
++ _symbolic Sb______SSSgSbSgtcSg So7CGPointV
++ _symbolic _____yAAy_____yAAy_____yAAy_____yAAyAAyx_____G_____y__________GG______AKSQ12CoreGraphicsyHCg0_Qo______GSiG_____y_____GGG_____yAAyAAy_____y_____yAAy__________G______A_QPGG_____G_____y_____GGGG_____yAhKSQALyHCg0_GG 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6IDViewV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA16_FixedSizeLayoutV AA22_AnchorWritingModifierV So6CGRectV 09HoverTextB00dN3Key33_FC1720772F90E22788223FA6108D0F63LLV So6CGSizeV AA13_OffsetEffectV AS019AnimationCompletionR0V 12CoreGraphics7CGFloatV AA11_MaskEffectV AA6HStackV AA05TupleD0V AA14LinearGradientV AA06_FrameO0V AA5ColorV AA08_PaddingO0V AA012_EnvironmentvqR0V AA0O9DirectionO AA017_PreferenceActionR0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So6CGRectV
+- _AXDenormalizePoint
+- ___swift__destructor.198
+- ___swift__destructor.86
+- ___swift__destructor.92
+- ___swift_closure_destructor.104
+- ___swift_closure_destructor.113
+- ___swift_closure_destructor.122
+- ___swift_closure_destructor.131
+- ___swift_closure_destructor.140
+- ___swift_closure_destructor.149
+- ___swift_closure_destructor.158
+- ___swift_closure_destructor.167
+- ___swift_closure_destructor.176
+- ___swift_closure_destructor.176Tm
+- ___swift_closure_destructor.185
+- ___swift_closure_destructor.201
+- ___swift_closure_destructor.211
+- ___swift_closure_destructor.218
+- ___swift_closure_destructor.218Tm
+- ___swift_closure_destructor.223
+- ___swift_closure_destructor.230
+- ___swift_closure_destructor.231
+- ___swift_closure_destructor.236
+- ___swift_closure_destructor.247
+- ___swift_closure_destructor.256
+- ___swift_closure_destructor.265
+- ___swift_closure_destructor.274
+- ___swift_closure_destructor.283
+- ___swift_closure_destructor.290
+- ___swift_closure_destructor.290Tm
+- ___swift_closure_destructor.292
+- ___swift_closure_destructor.299
+- ___swift_closure_destructor.301
+- ___swift_closure_destructor.349
+- ___swift_closure_destructor.359
+- ___swift_closure_destructor.48
+- ___swift_closure_destructor.54
+- ___swift_closure_destructor.77
+- ___swift_closure_destructor.77Tm
+- ___swift_closure_destructor.95
+- _block_copy_helper.194
+- _block_copy_helper.236
+- _block_copy_helper.242
+- _block_copy_helper.293
+- _block_copy_helper.295
+- _block_copy_helper.297
+- _block_copy_helper.305
+- _block_copy_helper.309
+- _block_copy_helper.315
+- _block_copy_helper.345
+- _block_copy_helper.351
+- _block_copy_helper.355
+- _block_copy_helper.361
+- _block_copy_helper.391
+- _block_copy_helper.402
+- _block_copy_helper.406
+- _block_copy_helper.88
+- _block_descriptor.196
+- _block_descriptor.238
+- _block_descriptor.244
+- _block_descriptor.295
+- _block_descriptor.297
+- _block_descriptor.299
+- _block_descriptor.307
+- _block_descriptor.311
+- _block_descriptor.317
+- _block_descriptor.347
+- _block_descriptor.353
+- _block_descriptor.357
+- _block_descriptor.363
+- _block_descriptor.393
+- _block_descriptor.404
+- _block_descriptor.408
+- _block_descriptor.90
+- _block_destroy_helper.195
+- _block_destroy_helper.237
+- _block_destroy_helper.243
+- _block_destroy_helper.294
+- _block_destroy_helper.296
+- _block_destroy_helper.298
+- _block_destroy_helper.306
+- _block_destroy_helper.310
+- _block_destroy_helper.316
+- _block_destroy_helper.346
+- _block_destroy_helper.352
+- _block_destroy_helper.356
+- _block_destroy_helper.362
+- _block_destroy_helper.392
+- _block_destroy_helper.403
+- _block_destroy_helper.407
+- _block_destroy_helper.89
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA05TupleD0VyAA6HStackVyAGyACyACyACyAA5ImageVAA12_FrameLayoutVGAA11_ClipEffectVyAA6CircleVGGAA16_OverlayModifierVyAA15StrokeShapeViewVyArA5ColorVAA05EmptyR0VGGG_ACyAEy09HoverTextB00uv10MarqueeingdR0VyAA0V0VGGAMGQPGGSgSg_AA012_ConditionalD0VyACyACyAIyAGyA11_Sg_ACyACyA8_AA08_PaddingJ0VGAA010_FixedSizeJ0VGSgQPGGAMGA23_GA28_GSgQPGGAMGA4_8HUDStyleVGAA0R0HPA34_AAA38_HPA33_AAA38_HPyHC_AmA0rO0HPyHCHC_A36_AAA39_HPyHCHC.57
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyAA14GeometryReaderVyADyAA6IDViewVyADyAaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyADyADyxAA16_FixedSizeLayoutVGAA22_AnchorWritingModifierVySo6CGRectV09HoverTextB00eN3Key33_FC1720772F90E22788223FA6108D0F63LLVGG_So6CGSizeVA_SQ12CoreGraphicsyHCg0_Qo_AA13_OffsetEffectVGSiGAT019AnimationCompletionR0VyA0_7CGFloatVGGGAA11_MaskEffectVyADyADyAA6HStackVyAA05TupleE0VyADyAA14LinearGradientVAA06_FrameO0VG_AA5ColorVA23_QPGGAA08_PaddingO0VGAA012_EnvironmentvqR0VyAA0O9DirectionOGGGGAA017_PreferenceActionR0VyAWA_SQA0_yHCg0_GGAaBHPA38_AaBHPA12_AaBHPyHC_A37_AA0cR0HPyHCHC_A41_AAA43_HPyHCHC.5
+- _keypath_set.175Tm
+- _symbolic Sb______SbSgtcSg So7CGPointV
+- _symbolic _____yAAy_____yAAy_____yAAy_____yAAyAAyx_____G_____y__________GG______AKSQ12CoreGraphicsyHCg0_Qo______GSiG_____y_____GGG_____yAAyAAy_____y_____yAAy__________G______A_QPGG_____G_____y_____GGGG_____yAhKSQALyHCg0_GG 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6IDViewV AA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA16_FixedSizeLayoutV AA22_AnchorWritingModifierV So6CGRectV 09HoverTextB00dN3Key33_FC1720772F90E22788223FA6108D0F63LLV So6CGSizeV AA13_OffsetEffectV AS019AnimationCompletionR0V 12CoreGraphics7CGFloatV AA11_MaskEffectV AA6HStackV AA05TupleD0V AA14LinearGradientV AA06_FrameO0V AA5ColorV AA08_PaddingO0V AA012_EnvironmentvqR0V AA0O9DirectionO AA017_PreferenceActionR0V
+CStrings:
++ "Skipping initial Hover Typing UI attach. isLocked=%{bool}d isContinuitySessionActive=%{bool}d"
+- "[Hover Typing Store]: unable to find primary app UI element."
+
+```

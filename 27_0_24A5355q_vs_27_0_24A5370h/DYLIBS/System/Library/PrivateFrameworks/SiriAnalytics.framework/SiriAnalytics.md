@@ -1,0 +1,1328 @@
+## SiriAnalytics
+
+> `/System/Library/PrivateFrameworks/SiriAnalytics.framework/SiriAnalytics`
+
+```diff
+
+-3600.69.7.0.0
+-  __TEXT.__text: 0xe5ac4 sha256:ff32f264312c82ab8c4a98f1946ec5cf990033950b9e658dd094e4dfb0a51532
+-  __TEXT.__objc_methlist: 0x2280 sha256:3959c597d5f3618d5926df002b3de1be3ca8d0732002dacd10dbd6da95633389
+-  __TEXT.__const: 0xa638 sha256:6ab8cce44d123ff53f3bca58255b3211aafb6f45dd2c02bdce01dcb05684c68b
+-  __TEXT.__constg_swiftt: 0x3bbc sha256:3c7d178795cceaf787971e079a442311c46ea7d7f1683fece039dbd8159fdfa9
+-  __TEXT.__swift5_typeref: 0x3315 sha256:431e3a117e35006250687104a1a30f0f02b26aa119a3ad60be4cf4c8999f50aa
+-  __TEXT.__swift5_reflstr: 0x224d sha256:89cac5dc4574a5576a2928add9b6defbf18530fd2cf8ab1dd26f10d11f802fe3
+-  __TEXT.__swift5_fieldmd: 0x2e90 sha256:b66263c411beee4b96a16fb9ea97ea16f9045047a3464f531daac7e23c873e9f
+-  __TEXT.__swift5_builtin: 0x1cc sha256:61486518f85d37eedec4abae7dad7f8fa41e382fc3fb23377a13902e56f3942b
+-  __TEXT.__swift5_assocty: 0x6a8 sha256:6309492b9cbac0f8296a9193699fda74e5a2b0608f2feb1df7ce4bce26f230cf
+-  __TEXT.__cstring: 0xaa2f sha256:9d226714e48ff9c6e65e7fa1dcdf3836db15b0dfd6d35f13f8a81083e0a784a3
+-  __TEXT.__swift5_proto: 0x6f0 sha256:9f7519c3102ec70288ea8ffcbec2312f2dbd1378d17adc686bfddc787ea2fc80
+-  __TEXT.__swift5_types: 0x43c sha256:113bcbb04df515430196612582f11a298c901ed53175bb612bea485c4a14d700
+-  __TEXT.__swift_as_entry: 0x338 sha256:df1147f8d23ee755640d02b9723934c56fe8c69992e501f8d70ef4edb4363daa
+-  __TEXT.__swift_as_ret: 0x3bc sha256:035cfd1080b6e522727b843edd55377f2ebd80271c6681e2900c4d4f6e075641
+-  __TEXT.__swift_as_cont: 0x6a0 sha256:776a491ab11af50cca47c6bbaf1cd8c7f8fde38892b6bc59bd00d9f714e7ccbc
+-  __TEXT.__swift5_protos: 0x5c sha256:6b8c585f4205974ad0074e8e1c23db24ed399eda6d41712c1eb3fb73f588aac0
+-  __TEXT.__swift5_capture: 0xb40 sha256:3c9552360f2651cb9612cb979c47cee381d8559069e20ece20effa6129aca214
+-  __TEXT.__swift5_mpenum: 0x7c sha256:4936d52c28b7faf933c56e441e0d5d6bdd88d6dd901b2261f1387c49a8d85b33
+-  __TEXT.__oslogstring: 0x1136 sha256:5bfdcc407a5ad9e8b8155120b15ef56dcb526ad481c3036fdc4e9cf2f3a58698
+-  __TEXT.__gcc_except_tab: 0x2d0 sha256:3f39b4abe5f5f43bcda49251f720e607d9f12411e617499b6584ab082daf9731
+-  __TEXT.__unwind_info: 0x4cc8 sha256:d1cfbb6b311c231b21a3608ce0b8293f01465a53c30bdb1e659fc165c748b140
+-  __TEXT.__eh_frame: 0x95cc sha256:a2915e3b4b858e9a6df3f68048b359e0c60c106b98ef03528bf5fd5576863524
++3600.77.1.0.0
++  __TEXT.__text: 0x10a594 sha256:9c2f117fddeed8e9f11b74333a516448bd7ed2c2898f00edeec5daff5b90c25a
++  __TEXT.__objc_methlist: 0x2210 sha256:99b3233dc4532961ccdb891cc81b5b6549d7d5f6d2f2d3abf153b0e9e4fbf0fa
++  __TEXT.__const: 0xb820 sha256:b99fca9f3752b462047e3d242495a401110590476ccda1551dff479265df6412
++  __TEXT.__constg_swiftt: 0x3ec8 sha256:0e030fbd78846eba8aed671f7dcc36b19ea6bd213668ebdacfa50758db212ef8
++  __TEXT.__swift5_typeref: 0x391c sha256:1e32cb35b6d9102436dbe0b5e10633afd2ac7b7fab926aeb71fe2b0205ab5887
++  __TEXT.__swift5_reflstr: 0x241d sha256:30331abf05a9d85b7ef037044877a8d1f6e222a1cf7248e2468e3731c2f7177d
++  __TEXT.__swift5_fieldmd: 0x30e8 sha256:c39a0ec35a9f4643c81193f52faca5b895afe2400a155e1fcac35fc6ae9dda8e
++  __TEXT.__swift5_builtin: 0x1b8 sha256:4fbd30811a1fa654f884d6e8b53640545e46075ce63edef0bdbba0513197b308
++  __TEXT.__swift5_assocty: 0x6a8 sha256:c2945bdf351e02f506fb4dd802871b0055a459ae0e92b10bffba78c0552566c3
++  __TEXT.__cstring: 0x3f03 sha256:26db1d0f576816895534455baaeeae9f0b306171f2c4bafc7af6431c7e7db9c0
++  __TEXT.__swift5_proto: 0x794 sha256:e67128d1cca409278ef83edc9635ab96846804ead302dd3dc2d4c716d0c064ac
++  __TEXT.__swift5_types: 0x474 sha256:3bb4516bdb2e0ac21026b5e1898da4187c7a59cea3beb15da1629983f8b506e3
++  __TEXT.__swift_as_entry: 0x39c sha256:cad9b4496c94272dcd1a351cb732c54ac9c00ae764a183263a02bd4a604fe8c2
++  __TEXT.__swift_as_ret: 0x404 sha256:e5f862246e842261491beb2cc4ca59772742d2727553a4a6290fc5f52fbbf181
++  __TEXT.__swift_as_cont: 0x780 sha256:756f505e736c2e39934c6f585cc035fce0bc8ea3560d526c955c478d2549d730
++  __TEXT.__swift5_protos: 0x5c sha256:6d15dd2f63276fc5f69d676dc8b19326202b213f400f1043b95e7a61255f0711
++  __TEXT.__swift5_capture: 0x17a4 sha256:b3a835776149a8fd930920eec62418dd17232e2c3953624dcea1c1e53bd25b88
++  __TEXT.__oslogstring: 0x3c90 sha256:5af0803f7f5436b52d8768832c7c102ddc2e7b361bb281b3a05a3a60aa9943bd
++  __TEXT.__swift5_mpenum: 0x7c sha256:0f0927a91b06d1c1e162f5c52c68446b6c51384a350076501d83f6c5e24e8c26
++  __TEXT.__gcc_except_tab: 0x2d0 sha256:e77fa68b4608f7d5e69de222269f3f791d88818732e284a9e0ffa7cf3bb172d2
++  __TEXT.__unwind_info: 0x5540 sha256:94aef51647b9bd0189c21b77a544e681da56b3ccd63e32522422caae8a1ff3a2
++  __TEXT.__eh_frame: 0xacd8 sha256:c2ccccd5d81c9236ff1344df11d37670b2f9b7c8bc0eae1f3066e07b4922e056
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1410 sha256:f39d4ada29414b9e8d7ce231b6c062a894884d51387786268f479589f9a898c0
+-  __DATA_CONST.__objc_classlist: 0x350 sha256:23ce44ce4e64c59b58f8862c7290d4d446ee90411ec915f54ffcc641e4a7f3d1
+-  __DATA_CONST.__objc_catlist: 0x20 sha256:f4f7c67e66bee5a9fc5c88742e758216851e57b015b8c9bab696b0ca63f5f737
+-  __DATA_CONST.__objc_protolist: 0xe8 sha256:132f9a8a59b905444954cc957a2be10afce54750bfad7f06fec42148b75cbc4c
++  __DATA_CONST.__const: 0xfb8 sha256:727414b7da5018863793a6d987b585f85c7110e965d79b009bb578ccf4e8789d
++  __DATA_CONST.__objc_classlist: 0x368 sha256:c8059cc640c7cdb92b3c1f8f98831ad251b28280f620f71c45e616915ada0c46
++  __DATA_CONST.__objc_catlist: 0x20 sha256:0060320e66b0c0a5fb9378007fa53509351710accdf50e0029fb63510305c168
++  __DATA_CONST.__objc_protolist: 0xe8 sha256:dc0322ddbef7c67ba49a4f8362236247424ee80a970ece7a9e06eb22f13058ce
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x14d0 sha256:da0ffbcc4e08c41c441f7016a70182ec52342aa7a1603b827c4a152173a5f9a7
+-  __DATA_CONST.__objc_protorefs: 0x68 sha256:652bfe3ed0fdfd78de72426f7de1f1fab7fda2c9c9ad2505a02894f0c85d7086
+-  __DATA_CONST.__objc_superrefs: 0xe0 sha256:34dcc51628fa40da5e4a575cc8f72714966e6052c2a22a572b1d60d599232b0a
+-  __DATA_CONST.__got: 0x818 sha256:877d9b644158e324ed6abdd3c31ac1a229bb029ab76e9d642977d002bef7868f
+-  __AUTH_CONST.__const: 0x6bc0 sha256:9bd902e36b5b452f587e113fa40aa9b6faf4eeb16f0ed5e85d25d1ac0befca56
+-  __AUTH_CONST.__cfstring: 0x2200 sha256:877f43167da69f699c2ceee631e468fecec888c5e2c043f92527473419ac7481
+-  __AUTH_CONST.__objc_const: 0x6900 sha256:2ddd18d685a75e0906cf2995e32a023e8eb02e48a87989fac084ff7a74787d08
+-  __AUTH_CONST.__auth_got: 0x1620 sha256:6bbfba50cf10abb972df7648070e97d71464090a5e18fabbfc1bfec4dfa712fc
+-  __AUTH.__objc_data: 0x10f0 sha256:284c488da403627945f22d3cac5bf5879be9ce1a9c19bd71689032b3b2af9ab3
+-  __AUTH.__data: 0x22b0 sha256:c8d305b476c31090312964432178654c3e8cf443756311cdd01dcfdd6efa4777
+-  __DATA.__objc_ivar: 0x208 sha256:3768e36b8613ed7284f0a74bea1f26734e416987baedd9f42061d3d0a7625b45
+-  __DATA.__data: 0x2a18 sha256:cfddea04175134fc67c9072676785f8062f1460dff71fe8ec031954bada870b9
+-  __DATA.__bss: 0xb340 sha256:ea9d0cb5f89024bee81fda5b129f552df50b52ba63edc29d2e4b4fa7f41a5ea6
+-  __DATA.__common: 0x248 sha256:b9738ed024cfcf1cf6c76081b15343e3d4c1b4fbb2e0f7fa3c7370987072591a
+-  __DATA_DIRTY.__objc_data: 0x1978 sha256:5cb213876c625bed464f3d6ba7876de068cc8f87bba1bba90c9691891222d717
+-  __DATA_DIRTY.__data: 0x1d48 sha256:58ae820bdd325e275e656a3a21f5fcbb30b056886f05dcf96cfea275eb7534e3
++  __DATA_CONST.__objc_selrefs: 0x14a8 sha256:297f9d3ab5b6de755cafc83d1bd21c3781b2e817d40818164823a3c34bb81844
++  __DATA_CONST.__objc_protorefs: 0x70 sha256:6ab60247b1cdf500ee9683b14346c379eedce5e6589d5ae68b857c05c281b090
++  __DATA_CONST.__objc_superrefs: 0xd0 sha256:fcd04473f1bf972840c09ae146d69ffe8e964ac4bb9128a4c9b2fa21e05ea2e8
++  __DATA_CONST.__got: 0x838 sha256:7f61bfc10f505e1c7f759603e71186efffd9f4b4d8f5e6444b65bb691747e0a5
++  __AUTH_CONST.__const: 0x8f00 sha256:2b98643ced866d3a2f04b86899a26ef9ce0e9eb3060db510c93538ead290d5a1
++  __AUTH_CONST.__cfstring: 0xea0 sha256:95bc6810cefce8b5ccb75629a92512ef64f389b1db928a609cd26f9c4b4e0829
++  __AUTH_CONST.__objc_const: 0x6ac8 sha256:3133a00a0d251beedd0e9d14647af786ec519ea03e0166f82d47370c65115852
++  __AUTH_CONST.__auth_got: 0x16f8 sha256:f245942364afb415ea6ad18219deb50faf117504c6e6a0bde047d23b12ff6431
++  __AUTH.__objc_data: 0x12d0 sha256:929ddf65a026d37c4c0ae3a6553e8f0cc9e8ce1029d1d7b1c5dd24d3e7995dbc
++  __AUTH.__data: 0x2740 sha256:d42036dbc41db042cbbcff23e49a7b84261716238020d8d9659f3009d4bb1f1b
++  __DATA.__objc_ivar: 0x1f8 sha256:6de0da7560169fa25fc481603ed12cc9d78b9bdbcead3946a5db3c8e067fd4f9
++  __DATA.__data: 0x2ca8 sha256:ead490d925dd5b6e705d04da1c1d42a1b7c7bf0abaafe535256174317581abe6
++  __DATA.__bss: 0xc810 sha256:ea697b149b2eba84ef3907013635ba98d9e71acbb2df6d73ea5b683e1853e99e
++  __DATA.__common: 0x3a0 sha256:21dca009689775fc4aad02b4b753d3441a71f6cfa591beb18340d9790825fa5d
++  __DATA_DIRTY.__objc_data: 0x18d8 sha256:d5123c3d800cdda551379d540a69954db0630090f8a6c642ef5eee54a0d864f8
++  __DATA_DIRTY.__data: 0x1b88 sha256:edf587d3eaf90c400244cfd3f76112391238b27e4f67778aadd500a9179c54d8
+   __DATA_DIRTY.__bss: 0x2b8 sha256:030dd256c2a1dda892b0e57157ec52f9ae5fd1e054d0c66380fae1cb6c09c477
+-  __DATA_DIRTY.__common: 0x108 sha256:1fa59a9343c1f5f56cbfa17c734faed7188c548daeab88ab1667c796022bc587
++  __DATA_DIRTY.__common: 0xf0 sha256:f93d48073cf074fab59470582841df4c57849d50d82d13db3b4110bb6b7f379a
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
++  - /System/Library/PrivateFrameworks/SchemaTypesCore.framework/SchemaTypesCore
+   - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2D7A3193-CBC5-3B56-81B0-6CAD500DEE8F
+-  Functions: 6920
+-  Symbols:   8460
+-  CStrings:  1270
++  UUID: 10AE9908-3259-32E9-B1AC-568D5D693219
++  Functions: 7780
++  Symbols:   9832
++  CStrings:  834
+ 
+Symbols:
++ -[SiriAnalyticsClientMessageStream emitMessagePayload:typeIdentifier:timestamp:isolatedStreamUUID:completion:]
++ -[SiriAnalyticsClientMessageStream initWithMachServiceName:]
++ -[SiriAnalyticsXPCConnection _barrierWithCompletion:]
++ -[SiriAnalyticsXPCConnection _createTag:callerQoS:completion:]
++ -[SiriAnalyticsXPCConnection _packageMessageForXPC:timestamp:messageUUID:isolatedStreamUUID:]
++ -[SiriAnalyticsXPCConnection _sensitiveCondition:startedAt:callerQoS:completion:]
++ -[SiriAnalyticsXPCConnection emitMessage:timestamp:isolatedStreamUUID:completion:]
++ -[SiriAnalyticsXPCConnection emitMessagePayload:typeIdentifier:timestamp:isolatedStreamUUID:completion:]
++ -[SiriAnalyticsXPCConnection enqueueLargeMessageObjectFromPath:dataUploadEvent:requestIdentifier:completion:]
++ -[SiriAnalyticsXPCConnection resolvePartialMessage:timestamp:messageUUID:isolatedStreamUUID:completion:]
++ GCC_except_table171
++ GCC_except_table175
++ GCC_except_table183
++ GCC_except_table331
++ GCC_except_table334
++ GCC_except_table341
++ GCC_except_table348
++ GCC_except_table373
++ GCC_except_table380
++ GCC_except_table387
++ GCC_except_table393
++ GCC_except_table399
++ GCC_except_table406
++ _OBJC_CLASS_$_SISchemaProvisionalEvent
++ _OBJC_CLASS_$_SiriAnalyticsAssistantServicesShim
++ _OBJC_CLASS_$_SiriAnalyticsTelemetrySideChannel
++ _OBJC_IVAR_$_AssistantSiriAnalytics._servicesShim
++ _OBJC_IVAR_$_SiriAnalyticsClientMessageStream._connection
++ _OBJC_METACLASS_$_SiriAnalyticsAssistantServicesShim
++ _OBJC_METACLASS_$_SiriAnalyticsTelemetrySideChannel
++ _OUTLINED_FUNCTION_196
++ _OUTLINED_FUNCTION_197
++ _OUTLINED_FUNCTION_198
++ _OUTLINED_FUNCTION_199
++ _OUTLINED_FUNCTION_200
++ _OUTLINED_FUNCTION_201
++ _OUTLINED_FUNCTION_202
++ _OUTLINED_FUNCTION_203
++ _OUTLINED_FUNCTION_204
++ _OUTLINED_FUNCTION_205
++ _OUTLINED_FUNCTION_206
++ _OUTLINED_FUNCTION_207
++ _OUTLINED_FUNCTION_208
++ _OUTLINED_FUNCTION_209
++ _OUTLINED_FUNCTION_210
++ _OUTLINED_FUNCTION_211
++ _OUTLINED_FUNCTION_212
++ _OUTLINED_FUNCTION_213
++ _OUTLINED_FUNCTION_214
++ _OUTLINED_FUNCTION_215
++ _OUTLINED_FUNCTION_216
++ _OUTLINED_FUNCTION_217
++ _OUTLINED_FUNCTION_218
++ _OUTLINED_FUNCTION_219
++ _OUTLINED_FUNCTION_220
++ _OUTLINED_FUNCTION_221
++ _OUTLINED_FUNCTION_222
++ _OUTLINED_FUNCTION_223
++ _OUTLINED_FUNCTION_224
++ _OUTLINED_FUNCTION_225
++ _OUTLINED_FUNCTION_226
++ _OUTLINED_FUNCTION_227
++ _OUTLINED_FUNCTION_228
++ _OUTLINED_FUNCTION_229
++ _OUTLINED_FUNCTION_230
++ _OUTLINED_FUNCTION_231
++ _OUTLINED_FUNCTION_232
++ _OUTLINED_FUNCTION_233
++ _OUTLINED_FUNCTION_234
++ _OUTLINED_FUNCTION_235
++ _OUTLINED_FUNCTION_236
++ _OUTLINED_FUNCTION_237
++ _OUTLINED_FUNCTION_238
++ __DATA_SiriAnalyticsAssistantServicesShim
++ __DATA_SiriAnalyticsTelemetrySideChannel
++ __DATA__TtC13SiriAnalytics16RuntimeXPCClient
++ __DATA__TtC13SiriAnalytics26SensitiveConditionsService
++ __DATA__TtCC13SiriAnalytics20TelemetrySideChannelP33_C3C7EEDE249CC3F0CA97FD46AD670B3410Aggregator
++ __DATA__TtCV13SiriAnalytics11AhoCorasickP33_6CAD5E5F60A95F936EF30427E37BF1DD4Node
++ __INSTANCE_METHODS_SiriAnalyticsAssistantServicesShim
++ __INSTANCE_METHODS_SiriAnalyticsTelemetrySideChannel
++ __IVARS_SiriAnalyticsAssistantServicesShim
++ __IVARS_SiriAnalyticsTelemetrySideChannel
++ __IVARS__TtC13SiriAnalytics16RuntimeXPCClient
++ __IVARS__TtC13SiriAnalytics26SensitiveConditionsService
++ __IVARS__TtCC13SiriAnalytics20TelemetrySideChannelP33_C3C7EEDE249CC3F0CA97FD46AD670B3410Aggregator
++ __IVARS__TtCV13SiriAnalytics11AhoCorasickP33_6CAD5E5F60A95F936EF30427E37BF1DD4Node
++ __METACLASS_DATA_SiriAnalyticsAssistantServicesShim
++ __METACLASS_DATA_SiriAnalyticsTelemetrySideChannel
++ __METACLASS_DATA__TtC13SiriAnalytics16RuntimeXPCClient
++ __METACLASS_DATA__TtC13SiriAnalytics26SensitiveConditionsService
++ __METACLASS_DATA__TtCC13SiriAnalytics20TelemetrySideChannelP33_C3C7EEDE249CC3F0CA97FD46AD670B3410Aggregator
++ __METACLASS_DATA__TtCV13SiriAnalytics11AhoCorasickP33_6CAD5E5F60A95F936EF30427E37BF1DD4Node
++ ___104-[SiriAnalyticsXPCConnection emitMessagePayload:typeIdentifier:timestamp:isolatedStreamUUID:completion:]_block_invoke
++ ___104-[SiriAnalyticsXPCConnection resolvePartialMessage:timestamp:messageUUID:isolatedStreamUUID:completion:]_block_invoke
++ ___109-[SiriAnalyticsXPCConnection enqueueLargeMessageObjectFromPath:dataUploadEvent:requestIdentifier:completion:]_block_invoke
++ ___41-[SiriAnalyticsXPCConnection _fetchTags:]_block_invoke.39
++ ___52-[SiriAnalyticsXPCConnection barrierWithCompletion:]_block_invoke_2
++ ___53-[SiriAnalyticsXPCConnection _barrierWithCompletion:]_block_invoke
++ ___57-[SiriAnalyticsXPCConnection _runPipelineWithCompletion:]_block_invoke.47
++ ___57-[SiriAnalyticsXPCConnection _runPipelineWithCompletion:]_block_invoke.48
++ ___62-[SiriAnalyticsXPCConnection _createTag:callerQoS:completion:]_block_invoke
++ ___62-[SiriAnalyticsXPCConnection _createTag:callerQoS:completion:]_block_invoke_2
++ ___62-[SiriAnalyticsXPCConnection _createTag:callerQoS:completion:]_block_invoke_3
++ ___63-[SiriAnalyticsXPCConnection _resetLogicalClockWithCompletion:]_block_invoke.28
++ ___63-[SiriAnalyticsXPCConnection _resetLogicalClockWithCompletion:]_block_invoke.29
++ ___63-[SiriAnalyticsXPCConnection _setKillSwitchEnabled:completion:]_block_invoke.46
++ ___64-[SiriAnalyticsXPCConnection _fetchLogicalClocksWithCompletion:]_block_invoke.37
++ ___64-[SiriAnalyticsXPCConnection _vendResource:readonly:completion:]_block_invoke.34
++ ___64-[SiriAnalyticsXPCConnection _vendResource:readonly:completion:]_block_invoke.35
++ ___65-[SiriAnalyticsXPCConnection _fetchStateForPluginWithCompletion:]_block_invoke.41
++ ___65-[SiriAnalyticsXPCConnection _fetchStateForPluginWithCompletion:]_block_invoke.42
++ ___65-[SiriAnalyticsXPCConnection _purgeStagedMessagesWithCompletion:]_block_invoke.49
++ ___65-[SiriAnalyticsXPCConnection _purgeStagedMessagesWithCompletion:]_block_invoke.50
++ ___65-[SiriAnalyticsXPCConnection _saveState:forPluginWithCompletion:]_block_invoke.43
++ ___65-[SiriAnalyticsXPCConnection _saveState:forPluginWithCompletion:]_block_invoke.44
++ ___68-[SiriAnalyticsXPCConnection _fetchKillSwitchEnabledWithCompletion:]_block_invoke.45
++ ___68-[SiriAnalyticsXPCConnection _purgePackagingMessagesWithCompletion:]_block_invoke.51
++ ___68-[SiriAnalyticsXPCConnection _purgePackagingMessagesWithCompletion:]_block_invoke.52
++ ___69-[SiriAnalyticsXPCConnection _sensitiveCondition:endedAt:completion:]_block_invoke.26
++ ___75-[SiriAnalyticsXPCConnection _publishMessagesToRemote:attempts:completion:]_block_invoke.8
++ ___75-[SiriAnalyticsXPCConnection _resolveMessagesAtRemote:attempts:completion:]_block_invoke.13
++ ___75-[SiriAnalyticsXPCConnection _resolveMessagesAtRemote:attempts:completion:]_block_invoke.15
++ ___79-[SiriAnalyticsXPCConnection _publishLargeMessageToRemote:attempts:completion:]_block_invoke.22
++ ___79-[SiriAnalyticsXPCConnection _publishLargeMessageToRemote:attempts:completion:]_block_invoke.24
++ ___81-[SiriAnalyticsXPCConnection _sensitiveCondition:startedAt:callerQoS:completion:]_block_invoke
++ ___81-[SiriAnalyticsXPCConnection _sensitiveCondition:startedAt:callerQoS:completion:]_block_invoke.25
++ ___81-[SiriAnalyticsXPCConnection _sensitiveCondition:startedAt:callerQoS:completion:]_block_invoke_2
++ ___82-[SiriAnalyticsXPCConnection _publishUnorderedMessages:topic:attempts:completion:]_block_invoke.11
++ ___82-[SiriAnalyticsXPCConnection _publishUnorderedMessages:topic:attempts:completion:]_block_invoke.9
++ ___82-[SiriAnalyticsXPCConnection emitMessage:timestamp:isolatedStreamUUID:completion:]_block_invoke
++ ___84-[SiriAnalyticsXPCConnection _vendSandboxExtensionWithResource:readonly:completion:]_block_invoke.31
++ ___84-[SiriAnalyticsXPCConnection _vendSandboxExtensionWithResource:readonly:completion:]_block_invoke.32
++ ___Block_byref_object_copy_.415
++ ___Block_byref_object_dispose_.416
++ ___block_descriptor_52_e8_32s40bs_e20_v20?0B8"NSError"12ls32l8s40l8
++ ___block_descriptor_60_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
++ ___block_descriptor_64_e8_32s40bs_e5_v8?0ls32l8s40l8
++ ___block_descriptor_72_e8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_76_e8_32s40s48s56bs_e5_v8?0ls32l8s40l8s48l8s56l8
++ ___block_descriptor_80_e8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
++ ___block_literal_global.1591
++ ___block_literal_global.1597
++ ___block_literal_global.413
++ ___block_literal_global.813
++ ___swift__destructor.33
++ ___swift__destructor.44
++ ___swift__destructor.47
++ ___swift__destructor.50
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.10Tm
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.21Tm
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.75Tm
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.98
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___unnamed_8
++ __swift_stdlib_bridgeErrorToNSError
++ _associated conformance 13SiriAnalytics10SchemaUUIDV8Dendrite17DataRepresentableAaD0F8Readable
++ _associated conformance 13SiriAnalytics10SchemaUUIDV8Dendrite18ProtoMessageReaderAaD10AnyBuilder
++ _associated conformance 13SiriAnalytics10SchemaUUIDV8Dendrite19KeyPathBoundMessageAaD05ProtoI6Reader
++ _associated conformance 13SiriAnalytics10SchemaUUIDV8Dendrite19KeyPathBoundMessageAaD05ProtoI6Writer
++ _associated conformance 13SiriAnalytics10SchemaUUIDV8Dendrite19KeyPathBoundMessageAaD17DataRepresentable
++ _associated conformance 13SiriAnalytics16RuntimeXPCClientC15ConnectionErrorOSHAASQ
++ _associated conformance 13SiriAnalytics20TelemetrySideChannelC10Aggregator33_C3C7EEDE249CC3F0CA97FD46AD670B34LLC19EventAggregationKeyVSHAASQ
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV0C0V8Dendrite17DataRepresentableAaF0G8Readable
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV0C0V8Dendrite18ProtoMessageReaderAaF10AnyBuilder
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV0C0V8Dendrite19KeyPathBoundMessageAaF05ProtoJ6Reader
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV0C0V8Dendrite19KeyPathBoundMessageAaF05ProtoJ6Writer
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV0C0V8Dendrite19KeyPathBoundMessageAaF17DataRepresentable
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV0C10IdentifierV8Dendrite17DataRepresentableAaF0H8Readable
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV0C10IdentifierV8Dendrite18ProtoMessageReaderAaF10AnyBuilder
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV0C10IdentifierV8Dendrite19KeyPathBoundMessageAaF05ProtoK6Reader
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV0C10IdentifierV8Dendrite19KeyPathBoundMessageAaF05ProtoK6Writer
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV0C10IdentifierV8Dendrite19KeyPathBoundMessageAaF17DataRepresentable
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV15SchemaTypesCore11ProvisionalAaD16TypeIdentifiable
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV7ByClockV8Dendrite17DataRepresentableAaF0I8Readable
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV7ByClockV8Dendrite18ProtoMessageReaderAaF10AnyBuilder
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV7ByClockV8Dendrite19KeyPathBoundMessageAaF05ProtoL6Reader
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV7ByClockV8Dendrite19KeyPathBoundMessageAaF05ProtoL6Writer
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV7ByClockV8Dendrite19KeyPathBoundMessageAaF17DataRepresentable
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV8Dendrite17DataRepresentableAaD0G8Readable
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV8Dendrite18ProtoMessageReaderAaD10AnyBuilder
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV8Dendrite19KeyPathBoundMessageAaD05ProtoJ6Reader
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV8Dendrite19KeyPathBoundMessageAaD05ProtoJ6Writer
++ _associated conformance 13SiriAnalytics22ConnectedComponentsLogV8Dendrite19KeyPathBoundMessageAaD17DataRepresentable
++ _block_copy_helper.12
++ _block_copy_helper.32
++ _block_copy_helper.47
++ _block_copy_helper.51
++ _block_copy_helper.61
++ _block_copy_helper.67
++ _block_copy_helper.8
++ _block_copy_helper.89
++ _block_descriptor.10
++ _block_descriptor.14
++ _block_descriptor.34
++ _block_descriptor.49
++ _block_descriptor.53
++ _block_descriptor.63
++ _block_descriptor.69
++ _block_descriptor.91
++ _block_destroy_helper.13
++ _block_destroy_helper.33
++ _block_destroy_helper.48
++ _block_destroy_helper.52
++ _block_destroy_helper.62
++ _block_destroy_helper.68
++ _block_destroy_helper.9
++ _block_destroy_helper.90
++ _dispatch_block_create
++ _flat unique So23SiriAnalyticsXPCService_p
++ _get_enum_tag_for_layout_string 13SiriAnalytics10SchemaUUIDVSg
++ _get_enum_tag_for_layout_string 13SiriAnalytics22ConnectedComponentsLogV0C10IdentifierVSg
++ _get_enum_tag_for_layout_string 13SiriAnalytics22ConnectedComponentsLogV7ByClockVSg
++ _objc_msgSend$_barrierWithCompletion:
++ _objc_msgSend$_createTag:callerQoS:completion:
++ _objc_msgSend$_sensitiveCondition:startedAt:callerQoS:completion:
++ _objc_msgSend$emitMessage:timestamp:isolatedStreamUUID:completion:
++ _objc_msgSend$emitMessagePayload:typeIdentifier:timestamp:isolatedStreamUUID:completion:
++ _objc_msgSend$flushEventTelemetry
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithInt:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithLongLong:
++ _objc_msgSend$initWithUnsignedLongLong:
++ _objc_msgSend$setAnyEvent:
++ _objc_msgSend$setTypeId:
++ _objc_msgSend$setVersion:
++ _qos_class_self
++ _swift_release_x10
++ _swift_release_x11
++ _symbolic SDySJSiG
++ _symbolic SDySSSo8NSObjectCGIego_
++ _symbolic SDySS_____G 13SiriAnalytics22TextDataClassificationV
++ _symbolic SDy__________G 13SiriAnalytics20TelemetrySideChannelC10Aggregator33_C3C7EEDE249CC3F0CA97FD46AD670B34LLC19EventAggregationKeyV s6UInt64V
++ _symbolic SDy__________y______GG 10Foundation4UUIDV 13SiriAnalytics8PatternsV7FetchedO AD27TextClassificationProcessorV0H3SetV
++ _symbolic SDy_____y______pcG 10Foundation4UUIDV s5ErrorP
++ _symbolic SNy_____GIegr_ s6UInt64V
++ _symbolic SSIego_
++ _symbolic Say_____G 13SiriAnalytics11AhoCorasickV4Node33_6CAD5E5F60A95F936EF30427E37BF1DDLLC
++ _symbolic Say_____G 13SiriAnalytics18LogicalClocksTableV6RecordV
++ _symbolic Say_____G 13SiriAnalytics22TextDataClassificationV
++ _symbolic Say_____G 19ExtensionFoundation03AppA8IdentityV
++ _symbolic Say_____GIegr_ 10Foundation4UUIDV
++ _symbolic Say_____GIegr_ So30SISchemaDeviceSensitivityStateV
++ _symbolic Say_____GSg 13SiriAnalytics22ConnectedComponentsLogV0C0V
++ _symbolic Say_____GSg 13SiriAnalytics22ConnectedComponentsLogV0C10IdentifierV
++ _symbolic Sb______pSgIegyg_Sg s5ErrorP
++ _symbolic SiIegd_
++ _symbolic SiIegr_
++ _symbolic Sny_____G SS5IndexV
++ _symbolic So25SiriAnalyticsLogicalClockC
++ _symbolic So25SiriAnalyticsLogicalClockC_Sbt
++ _symbolic So8NSObjectCIego_
++ _symbolic So8NSObjectCSg
++ _symbolic So8NSObjectCSgIego_
++ _symbolic SuIegd_
++ _symbolic SuIegr_
++ _symbolic _____ 13SiriAnalytics10SchemaUUIDV
++ _symbolic _____ 13SiriAnalytics11AhoCorasickV
++ _symbolic _____ 13SiriAnalytics11AhoCorasickV4Node33_6CAD5E5F60A95F936EF30427E37BF1DDLLC
++ _symbolic _____ 13SiriAnalytics11AhoCorasickV5MatchV
++ _symbolic _____ 13SiriAnalytics16RuntimeXPCClientC
++ _symbolic _____ 13SiriAnalytics16RuntimeXPCClientC15ConnectionErrorO
++ _symbolic _____ 13SiriAnalytics20InstrumentationErrorO
++ _symbolic _____ 13SiriAnalytics20TelemetrySideChannelC
++ _symbolic _____ 13SiriAnalytics20TelemetrySideChannelC10Aggregator33_C3C7EEDE249CC3F0CA97FD46AD670B34LLC
++ _symbolic _____ 13SiriAnalytics20TelemetrySideChannelC10Aggregator33_C3C7EEDE249CC3F0CA97FD46AD670B34LLC19EventAggregationKeyV
++ _symbolic _____ 13SiriAnalytics21AssistantServicesShimC
++ _symbolic _____ 13SiriAnalytics22ConnectedComponentsLogV
++ _symbolic _____ 13SiriAnalytics22ConnectedComponentsLogV0C0V
++ _symbolic _____ 13SiriAnalytics22ConnectedComponentsLogV0C10IdentifierV
++ _symbolic _____ 13SiriAnalytics22ConnectedComponentsLogV7ByClockV
++ _symbolic _____ 13SiriAnalytics26SensitiveConditionsServiceC
++ _symbolic _____ 13SiriAnalytics27TextClassificationProcessorV0D3SetV
++ _symbolic _____ 15SchemaTypesCore29InstrumentationTypeIdentifierO
++ _symbolic _____ 19SiriInstrumentation16LogicalTimestampC
++ _symbolic _____14classification_Sny_____G5ranget 13SiriAnalytics22TextDataClassificationV SS5IndexV
++ _symbolic _____Iegd_ s6UInt64V
++ _symbolic _____Iegr_ 10Foundation4UUIDV
++ _symbolic _____Iegr_ So30SISchemaDeviceSensitivityStateV
++ _symbolic _____Iegr_ s6UInt64V
++ _symbolic _____Sg 13SiriAnalytics10SchemaUUIDV
++ _symbolic _____Sg 13SiriAnalytics16RuntimeXPCClientC
++ _symbolic _____Sg 13SiriAnalytics20TelemetrySideChannelC
++ _symbolic _____Sg 13SiriAnalytics22ConnectedComponentsLogV0C10IdentifierV
++ _symbolic _____Sg 13SiriAnalytics22ConnectedComponentsLogV7ByClockV
++ _symbolic _____SgXw 13SiriAnalytics16RuntimeXPCClientC
++ _symbolic _____SgXwz_Xx 13SiriAnalytics16RuntimeXPCClientC
++ _symbolic _____XDXMT 13SiriAnalytics16RuntimeXPCClientC
++ _symbolic ______Sny_____Gt 13SiriAnalytics22TextDataClassificationV SS5IndexV
++ _symbolic ___________y_____Gt s6UInt32V 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics0C4UUIDV
++ _symbolic ___________y_____Gt s6UInt32V 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics22ConnectedComponentsLogV
++ _symbolic ___________y_____Gt s6UInt32V 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics22ConnectedComponentsLogV0I0V
++ _symbolic ___________y_____Gt s6UInt32V 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics22ConnectedComponentsLogV0I10IdentifierV
++ _symbolic ___________y_____Gt s6UInt32V 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics22ConnectedComponentsLogV7ByClockV
++ _symbolic ______p So23SiriAnalyticsXPCServiceP
++ _symbolic ______pIego_ s5ErrorP
++ _symbolic _____ySJSiG s17_NativeDictionaryV
++ _symbolic _____ySSSo8NSObjectCG s17_NativeDictionaryV
++ _symbolic _____ySS_So8NSObjectCtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s17_NativeDictionaryV 13SiriAnalytics22TextDataClassificationV
++ _symbolic _____ySiG s23_ContiguousArrayStorageC
++ _symbolic _____ySo25SiriAnalyticsLogicalClockC_SbtG s23_ContiguousArrayStorageC
++ _symbolic _____y_____14classification_Sny_____G5rangetG s23_ContiguousArrayStorageC 13SiriAnalytics22TextDataClassificationV SS5IndexV
++ _symbolic _____y_____G 13SiriAnalytics24PrivateBiomeStreamPrunerV AA010RawUnifiedE7MessageC
++ _symbolic _____y_____G 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics0B4UUIDV
++ _symbolic _____y_____G 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics22ConnectedComponentsLogV
++ _symbolic _____y_____G 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics22ConnectedComponentsLogV0H0V
++ _symbolic _____y_____G 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics22ConnectedComponentsLogV0H10IdentifierV
++ _symbolic _____y_____G 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics22ConnectedComponentsLogV7ByClockV
++ _symbolic _____y_____G s11_SetStorageC 10Foundation8CalendarV9ComponentO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation8CalendarV9ComponentO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13SiriAnalytics11AhoCorasickV5MatchV
++ _symbolic _____y______Sny_____GtG s23_ContiguousArrayStorageC 13SiriAnalytics22TextDataClassificationV SS5IndexV
++ _symbolic _____y__________G s17_NativeDictionaryV 13SiriAnalytics20TelemetrySideChannelC10Aggregator33_C3C7EEDE249CC3F0CA97FD46AD670B34LLC19EventAggregationKeyV s6UInt64V
++ _symbolic _____y___________G SD8_VariantV 13SiriAnalytics20TelemetrySideChannelC10Aggregator33_C3C7EEDE249CC3F0CA97FD46AD670B34LLC19EventAggregationKeyV s6UInt64V
++ _symbolic _____y___________y_____GtG s23_ContiguousArrayStorageC s6UInt32V 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics0F4UUIDV
++ _symbolic _____y___________y_____GtG s23_ContiguousArrayStorageC s6UInt32V 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics22ConnectedComponentsLogV
++ _symbolic _____y___________y_____GtG s23_ContiguousArrayStorageC s6UInt32V 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics22ConnectedComponentsLogV0L0V
++ _symbolic _____y___________y_____GtG s23_ContiguousArrayStorageC s6UInt32V 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics22ConnectedComponentsLogV0L10IdentifierV
++ _symbolic _____y___________y_____GtG s23_ContiguousArrayStorageC s6UInt32V 8Dendrite18SchemaBoundKeyPathV 13SiriAnalytics22ConnectedComponentsLogV7ByClockV
++ _symbolic _____y__________y______GG s17_NativeDictionaryV 10Foundation4UUIDV 13SiriAnalytics8PatternsV7FetchedO AF27TextClassificationProcessorV0J3SetV
++ _symbolic _____yySpy_____Gz_SpySo8NSObjectCSgGSgzSpyypGSgztcG s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic y______pc s5ErrorP
++ _type_layout_string 13SiriAnalytics10SchemaUUIDV
++ _type_layout_string 13SiriAnalytics11AhoCorasickV
++ _type_layout_string 13SiriAnalytics11AhoCorasickV5MatchV
++ _type_layout_string 13SiriAnalytics20TelemetrySideChannelC10Aggregator33_C3C7EEDE249CC3F0CA97FD46AD670B34LLC19EventAggregationKeyV
++ _type_layout_string 13SiriAnalytics22ConnectedComponentsLogV
++ _type_layout_string 13SiriAnalytics22ConnectedComponentsLogV0C0V
++ _type_layout_string 13SiriAnalytics22ConnectedComponentsLogV0C10IdentifierV
++ _type_layout_string 13SiriAnalytics22ConnectedComponentsLogV7ByClockV
++ _type_layout_string 13SiriAnalytics27TextClassificationProcessorV0D3SetV
+- -[SiriAnalyticsClientMessageStream analyticsService]
+- -[SiriAnalyticsClientMessageStream initWithQueue:analyticsService:]
+- -[SiriAnalyticsClientMessageStream setAnalyticsService:]
+- -[SiriAnalyticsInternalTelemetry _trackLogicalClock:isDerivativeClock:]
+- -[SiriAnalyticsInternalTelemetry initWithPreferences:]
+- -[SiriAnalyticsInternalTelemetry trackAnyEventEmitted:]
+- -[SiriAnalyticsInternalTelemetry trackEmittedEvents:]
+- -[SiriAnalyticsInternalTelemetry trackEventEmitted:]
+- -[SiriAnalyticsInternalTelemetry trackLogicalClock:]
+- -[SiriAnalyticsInternalTelemetry trackMessageStagedWithSuccess:]
+- -[SiriAnalyticsInternalTelemetry trackMessageStreamProcessed:timeToFirstMessage:messageCount:processingReason:failureReason:]
+- -[SiriAnalyticsInternalTelemetry trackRuntimeBootstrapCompleteWithBootstrapTimeInNs:]
+- -[SiriAnalyticsInternalTelemetry trackRuntimeBootstrapWithKillSwitchEnabled:]
+- -[SiriAnalyticsRemoteService .cxx_destruct]
+- -[SiriAnalyticsRemoteService _packageMessageForXPC:timestamp:messageUUID:isolatedStreamUUID:]
+- -[SiriAnalyticsRemoteService barrierWithCompletion:]
+- -[SiriAnalyticsRemoteService createTag:completion:]
+- -[SiriAnalyticsRemoteService emitMessage:timestamp:messageUUID:isolatedStreamUUID:completion:]
+- -[SiriAnalyticsRemoteService enqueueLargeMessageObjectFromPath:dataUploadEvent:requestIdentifier:completion:]
+- -[SiriAnalyticsRemoteService initWithMachServiceName:]
+- -[SiriAnalyticsRemoteService resolvePartialMessage:timestamp:messageUUID:isolatedStreamUUID:completion:]
+- -[SiriAnalyticsRemoteService sensitiveCondition:endedAt:completion:]
+- -[SiriAnalyticsRemoteService sensitiveCondition:startedAt:completion:]
+- -[SiriAnalyticsXPCConnection _createTag:completion:]
+- -[SiriAnalyticsXPCConnection _sensitiveCondition:startedAt:completion:]
+- GCC_except_table176
+- GCC_except_table180
+- GCC_except_table188
+- GCC_except_table371
+- GCC_except_table374
+- GCC_except_table381
+- GCC_except_table388
+- GCC_except_table420
+- GCC_except_table427
+- GCC_except_table433
+- GCC_except_table439
+- GCC_except_table446
+- GCC_except_table453
+- _OBJC_CLASS_$_NSCalendar
+- _OBJC_CLASS_$_SiriAnalyticsRemoteService
+- _OBJC_IVAR_$_AssistantSiriAnalytics._remoteService
+- _OBJC_IVAR_$_SiriAnalyticsClientMessageStream._queue
+- _OBJC_IVAR_$_SiriAnalyticsClientMessageStream._service
+- _OBJC_IVAR_$_SiriAnalyticsInternalTelemetry._isInternal
+- _OBJC_IVAR_$_SiriAnalyticsRemoteService._connection
+- _OBJC_IVAR_$_SiriAnalyticsRemoteService._queue
+- _OBJC_METACLASS_$_SiriAnalyticsRemoteService
+- __DATA__TtC13SiriAnalytics12CustomLogger
+- __DATA__TtC13SiriAnalytics18InternalOnlyLogger
+- __IVARS__TtC13SiriAnalytics12CustomLogger
+- __IVARS__TtC13SiriAnalytics18InternalOnlyLogger
+- __METACLASS_DATA__TtC13SiriAnalytics12CustomLogger
+- __METACLASS_DATA__TtC13SiriAnalytics18InternalOnlyLogger
+- __OBJC_$_INSTANCE_METHODS_SiriAnalyticsRemoteService
+- __OBJC_$_INSTANCE_VARIABLES_SiriAnalyticsInternalTelemetry
+- __OBJC_$_INSTANCE_VARIABLES_SiriAnalyticsRemoteService
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SiriAnalyticsService
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SiriAnalyticsService
+- __OBJC_CLASS_PROTOCOLS_$_SiriAnalyticsRemoteService
+- __OBJC_CLASS_RO_$_SiriAnalyticsRemoteService
+- __OBJC_LABEL_PROTOCOL_$_SiriAnalyticsService
+- __OBJC_METACLASS_RO_$_SiriAnalyticsRemoteService
+- __OBJC_PROTOCOL_$_SiriAnalyticsService
+- ___104-[SiriAnalyticsRemoteService resolvePartialMessage:timestamp:messageUUID:isolatedStreamUUID:completion:]_block_invoke
+- ___109-[SiriAnalyticsRemoteService enqueueLargeMessageObjectFromPath:dataUploadEvent:requestIdentifier:completion:]_block_invoke
+- ___125-[SiriAnalyticsInternalTelemetry trackMessageStreamProcessed:timeToFirstMessage:messageCount:processingReason:failureReason:]_block_invoke
+- ___131-[SiriAnalyticsClientMessageStream enqueueLargeMessageObjectFromPath:assetIdentifier:requestIdentifier:messageMetadata:completion:]_block_invoke
+- ___41-[SiriAnalyticsXPCConnection _fetchTags:]_block_invoke.36
+- ___51-[SiriAnalyticsRemoteService createTag:completion:]_block_invoke
+- ___52-[SiriAnalyticsInternalTelemetry trackEventEmitted:]_block_invoke
+- ___52-[SiriAnalyticsInternalTelemetry trackLogicalClock:]_block_invoke
+- ___52-[SiriAnalyticsRemoteService barrierWithCompletion:]_block_invoke
+- ___52-[SiriAnalyticsRemoteService barrierWithCompletion:]_block_invoke_2
+- ___52-[SiriAnalyticsXPCConnection _createTag:completion:]_block_invoke
+- ___52-[SiriAnalyticsXPCConnection _createTag:completion:]_block_invoke_2
+- ___52-[SiriAnalyticsXPCConnection _createTag:completion:]_block_invoke_3
+- ___55-[SiriAnalyticsInternalTelemetry trackAnyEventEmitted:]_block_invoke
+- ___57-[SiriAnalyticsXPCConnection _runPipelineWithCompletion:]_block_invoke.44
+- ___57-[SiriAnalyticsXPCConnection _runPipelineWithCompletion:]_block_invoke.45
+- ___58-[SiriAnalyticsClientMessageStream barrierWithCompletion:]_block_invoke
+- ___63-[SiriAnalyticsXPCConnection _resetLogicalClockWithCompletion:]_block_invoke.25
+- ___63-[SiriAnalyticsXPCConnection _resetLogicalClockWithCompletion:]_block_invoke.26
+- ___63-[SiriAnalyticsXPCConnection _setKillSwitchEnabled:completion:]_block_invoke.43
+- ___64-[SiriAnalyticsInternalTelemetry trackMessageStagedWithSuccess:]_block_invoke
+- ___64-[SiriAnalyticsXPCConnection _fetchLogicalClocksWithCompletion:]_block_invoke.34
+- ___64-[SiriAnalyticsXPCConnection _vendResource:readonly:completion:]_block_invoke.31
+- ___64-[SiriAnalyticsXPCConnection _vendResource:readonly:completion:]_block_invoke.32
+- ___65-[SiriAnalyticsXPCConnection _fetchStateForPluginWithCompletion:]_block_invoke.38
+- ___65-[SiriAnalyticsXPCConnection _fetchStateForPluginWithCompletion:]_block_invoke.39
+- ___65-[SiriAnalyticsXPCConnection _purgeStagedMessagesWithCompletion:]_block_invoke.46
+- ___65-[SiriAnalyticsXPCConnection _purgeStagedMessagesWithCompletion:]_block_invoke.47
+- ___65-[SiriAnalyticsXPCConnection _saveState:forPluginWithCompletion:]_block_invoke.40
+- ___65-[SiriAnalyticsXPCConnection _saveState:forPluginWithCompletion:]_block_invoke.41
+- ___68-[SiriAnalyticsRemoteService sensitiveCondition:endedAt:completion:]_block_invoke
+- ___68-[SiriAnalyticsXPCConnection _fetchKillSwitchEnabledWithCompletion:]_block_invoke.42
+- ___68-[SiriAnalyticsXPCConnection _purgePackagingMessagesWithCompletion:]_block_invoke.48
+- ___68-[SiriAnalyticsXPCConnection _purgePackagingMessagesWithCompletion:]_block_invoke.49
+- ___69-[SiriAnalyticsXPCConnection _sensitiveCondition:endedAt:completion:]_block_invoke.22
+- ___69-[SiriAnalyticsXPCConnection _sensitiveCondition:endedAt:completion:]_block_invoke.23
+- ___70-[SiriAnalyticsRemoteService sensitiveCondition:startedAt:completion:]_block_invoke
+- ___71-[SiriAnalyticsInternalTelemetry _trackLogicalClock:isDerivativeClock:]_block_invoke
+- ___71-[SiriAnalyticsXPCConnection _sensitiveCondition:startedAt:completion:]_block_invoke
+- ___71-[SiriAnalyticsXPCConnection _sensitiveCondition:startedAt:completion:]_block_invoke.21
+- ___71-[SiriAnalyticsXPCConnection _sensitiveCondition:startedAt:completion:]_block_invoke_2
+- ___75-[SiriAnalyticsXPCConnection _publishMessagesToRemote:attempts:completion:]_block_invoke.2
+- ___75-[SiriAnalyticsXPCConnection _resolveMessagesAtRemote:attempts:completion:]_block_invoke.10
+- ___75-[SiriAnalyticsXPCConnection _resolveMessagesAtRemote:attempts:completion:]_block_invoke.9
+- ___77-[SiriAnalyticsClientMessageStream emitMessage:timestamp:isolatedStreamUUID:]_block_invoke
+- ___77-[SiriAnalyticsInternalTelemetry trackRuntimeBootstrapWithKillSwitchEnabled:]_block_invoke
+- ___79-[SiriAnalyticsXPCConnection _publishLargeMessageToRemote:attempts:completion:]_block_invoke.18
+- ___79-[SiriAnalyticsXPCConnection _publishLargeMessageToRemote:attempts:completion:]_block_invoke.20
+- ___82-[SiriAnalyticsXPCConnection _publishUnorderedMessages:topic:attempts:completion:]_block_invoke.6
+- ___82-[SiriAnalyticsXPCConnection _publishUnorderedMessages:topic:attempts:completion:]_block_invoke.8
+- ___84-[SiriAnalyticsXPCConnection _vendSandboxExtensionWithResource:readonly:completion:]_block_invoke.28
+- ___84-[SiriAnalyticsXPCConnection _vendSandboxExtensionWithResource:readonly:completion:]_block_invoke.29
+- ___85-[SiriAnalyticsInternalTelemetry trackRuntimeBootstrapCompleteWithBootstrapTimeInNs:]_block_invoke
+- ___87-[SiriAnalyticsClientMessageStream resolvePartialMessage:timestamp:isolatedStreamUUID:]_block_invoke
+- ___94-[SiriAnalyticsRemoteService emitMessage:timestamp:messageUUID:isolatedStreamUUID:completion:]_block_invoke
+- ___Block_byref_object_copy_.413
+- ___Block_byref_object_dispose_.414
+- ___block_descriptor_33_e19_"NSDictionary"8?0l
+- ___block_descriptor_40_e19_"NSDictionary"8?0l
+- ___block_descriptor_40_e8_32s_e45_v32?0"SiriAnalyticsDerivativeClock"8Q16^B24ls32l8
+- ___block_descriptor_41_e8_32s_e19_"NSDictionary"8?0ls32l8
+- ___block_descriptor_72_e8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s48l8s64l8s56l8
+- ___block_descriptor_72_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_72_e8_32s40s_e19_"NSDictionary"8?0ls32l8s40l8
+- ___block_literal_global.1681
+- ___block_literal_global.1687
+- ___block_literal_global.410
+- ___block_literal_global.852
+- ___swift__destructor.14
+- ___swift__destructor.24
+- ___swift__destructor.27
+- ___swift__destructor.30
+- ___unnamed_7
+- _block_copy_helper.18
+- _block_copy_helper.34
+- _block_copy_helper.37
+- _block_descriptor.20
+- _block_descriptor.36
+- _block_descriptor.39
+- _block_destroy_helper.19
+- _block_destroy_helper.35
+- _block_destroy_helper.38
+- _objc_msgSend$_createTag:completion:
+- _objc_msgSend$_sensitiveCondition:startedAt:completion:
+- _objc_msgSend$_trackLogicalClock:isDerivativeClock:
+- _objc_msgSend$components:fromDate:
+- _objc_msgSend$currentCalendar
+- _objc_msgSend$description
+- _objc_msgSend$emitMessage:timestamp:messageUUID:isolatedStreamUUID:completion:
+- _objc_msgSend$hour
+- _objc_msgSend$initWithDictionary:
+- _objc_msgSend$initWithPreferences:
+- _objc_msgSend$initWithQueue:analyticsService:
+- _objc_msgSend$mutableCopy
+- _objc_msgSend$numberWithInteger:
+- _objc_msgSend$numberWithLongLong:
+- _objc_msgSend$setValue:forKey:
+- _objc_msgSend$simulateCustomerImage
+- _objc_msgSend$trackEventEmitted:
+- _objc_msgSend$trackFBFError:forEventData:
+- _objc_msgSend$trackMessageStagedWithSuccess:
+- _objc_msgSend$trackMessageStreamProcessed:timeToFirstMessage:messageCount:processingReason:failureReason:
+- _objc_retain_x6
+- _symbolic SDy__________y_Say_____GGG 10Foundation4UUIDV 13SiriAnalytics8PatternsV7FetchedO AD22TextDataClassificationV
+- _symbolic So30SiriAnalyticsInternalTelemetryCSg
+- _symbolic _____ 13SiriAnalytics12CustomLoggerC
+- _symbolic _____ 13SiriAnalytics18InternalOnlyLoggerC
+- _symbolic _____ 2os6LoggerV
+- _symbolic _____ So033SUTSchemaTestExecutionEvent_WhichD5_TypeV
+- _symbolic _____Sg 13SiriAnalytics18InternalOnlyLoggerC
+- _symbolic _____y__________y_Say_____GGG s17_NativeDictionaryV 10Foundation4UUIDV 13SiriAnalytics8PatternsV7FetchedO AF22TextDataClassificationV
+CStrings:
++ "%@"
++ "%@.xpc.connection"
++ "%ld redaction summaries accumulated."
++ "%llu <%s> : %s<%s> %s"
++ "%s"
++ "%s %s"
++ "%s affecting entire clock"
++ "%s does not exist"
++ "%s endedAt: %llu"
++ "%s exists at %s, removing..."
++ "%s on: %llu reason: %lu"
++ "%s on: %s reason: %s"
++ "%s root: %s bootSessionUUID:%s on: %llu"
++ "%s startedAt: %llu"
++ "%s type: %u bootSessionUUID:%s on: %s"
++ "-[SiriAnalyticsXPCConnection _barrierWithCompletion:]"
++ "-[SiriAnalyticsXPCConnection _barrierWithCompletion:]_block_invoke"
++ "-[SiriAnalyticsXPCConnection _createTag:callerQoS:completion:]_block_invoke_3"
++ "-[SiriAnalyticsXPCConnection _sensitiveCondition:startedAt:callerQoS:completion:]"
++ "-[SiriAnalyticsXPCConnection _sensitiveCondition:startedAt:callerQoS:completion:]_block_invoke"
++ "Access vending is disabled. Internal is %{bool}d, UnilogMigration: %{bool}d"
++ "Adding new columns for %s: %s"
++ "Adding opted in search request exceptions for %s"
++ "Aligned %llu : %s to clock: %s"
++ "Applied retention policy to %llu enqueued messages."
++ "Applied retention policy to %llu staged messages."
++ "Applied retention policy to %llu stream events at %s."
++ "Applying removePersistentIdentifiers policy to clockId: %s"
++ "Asking host to vend staging access for extension: %s "
++ "Begin fetching sensitive conditions for logical clock: %s, root clock: %s"
++ "Begin processing reason:%s executionId:%s"
++ "Beginning ingest with extension: %s"
++ "Bootstrapped successfully at %s"
++ "COMPONENTNAME_CONTEXT_PREDICTOR"
++ "Calling ingest on %s"
++ "Can't get XPC connection for %s"
++ "Can't instantiate extension %s"
++ "Can't terminate: failed to get pid for %s"
++ "Checkpointing db at %s"
++ "Cleaning up abandoned clock identifiers: %s"
++ "Connection error to %s: %@"
++ "Consumed extension token: %s)"
++ "Creating instance at %s, readonly: %{bool}d"
++ "Deallocating"
++ "Detected %ld unique chatIds for clock %s, tagging as concurrent chat session"
++ "Directory %s doesn't exist and can't be created"
++ "Dropping provisional message for topic: %s on seed/customer images"
++ "Dropping provisional message: %@ on seed/customer images"
++ "Dropping provisional message: %s for seed/customer images"
++ "Emitting redaction summary for %s"
++ "End fetching sensitive conditions for logical clock: %s"
++ "End processing with processedMessages: %llu of total staged: %llu"
++ "Ending open span for %s start: %llu end: %llu"
++ "Error applying %s protections to: %s, error:%@"
++ "Error applying purge policy: %@"
++ "Error applying retention policy: %@"
++ "Error applying retention policy: %@ at %s"
++ "Error checkpointing StagingPool: %@"
++ "Error checkpointing: %@"
++ "Error getting extension process for %s"
++ "Error ingesting with %s"
++ "Error mapping tag record: %@"
++ "Error querying extensions: %@"
++ "Error serializing tag: %@"
++ "Error updating tag: %@"
++ "Error with remoteObjectProxy: %@"
++ "Even worse, they have the same TextExecutionEnd with the same timestamp: %llu and %llu"
++ "Extension %s will be terminated because it hit the hard timeout"
++ "Extension timed out and terminated: %s"
++ "Extension timed out: %s, error: %@"
++ "FBF storage failed with: %@"
++ "Failed processing message of type %s due to %@"
++ "Failed to alter %s."
++ "Failed to bootstrap: %@"
++ "Failed to bootstrap: %@ at %s"
++ "Failed to connect to db at: %s with error: %@"
++ "Failed to create new indexes for %s, failing alter."
++ "Failed to create or alter table schema for %s"
++ "Failed to create or alter table: %s"
++ "Failed to drop unexpected indexes for %s, failing alter."
++ "Failed to emit telemetry: %@"
++ "Failed to get kern.bootsessionuuid: %s"
++ "Failed to init with: %@"
++ "Failed to open path: %s"
++ "Failed to prepare for message staging %s"
++ "Failed to prune table: %s"
++ "Failed to register for %s"
++ "Failed to store sensitive condition %s startedAt: %llu to metastore"
++ "Fall through to approved for %@"
++ "Found %ld ingestion extensions."
++ "Found %ld open clock records."
++ "Found multiple user request tags for requestId: %s. Data will not be annotated."
++ "Found sensitive conditions: %s for logical clock: %s"
++ "Found sensitive conditions: <none> for logical clock: %s"
++ "Found user request tag for %s"
++ "Found user request tag: <none> for %s"
++ "Ignoring infeasible timestamp: %llu, substituting with: %llu"
++ "Ingestion extension does not implement protocol: %s"
++ "Integration step finished, %llu messages integrated to staging"
++ "Issued extension for path: %s, readonly: %{bool}d)"
++ "Mapping composite predicate for %s to old clock scoped predicate. This represents a loss in fidelity."
++ "Marking processed for clockIdentifiers: %s"
++ "Message did not wrap as AnyEvent: %@"
++ "Metastore storage: %s"
++ "Moving %s to %s..."
++ "Multiple closed clocks: %s contain timestamp: %llu"
++ "No aligned logical clock found for %llu : %s"
++ "No beginning span found for: %s"
++ "No clock record found for %s"
++ "No componentIdentifier on %@, returning approved."
++ "No existing schema found for %s, creating."
++ "No intersecting tags causing a suppression for %@ on %s"
++ "No new columns for %s, skipping alter."
++ "No tags found for clockId %s"
++ "No tags found."
++ "Not applying removePersistentIdentifiers policy to clockId: %s"
++ "Not applying removePersistentIdentifiers policy to clockId: %s due to error: %@"
++ "Not tagging clockId: %s because user is opted in to Siri data collection"
++ "Not tagging clockId: %s due to error: %@"
++ "Not tailing messages to syslog (internal image: %{bool}d, tailing preference enabled:%{bool}d"
++ "Notifying name:%s with state: %s"
++ "Orchestrator failed with %@"
++ "Per-proxy XPC error; invalidating: %@"
++ "Pruning stream %s with max age: %f seconds"
++ "Pruning stream %s with max size: %llu bytes"
++ "Purged %llu enqueued messages."
++ "Purged %llu staged messages."
++ "Queued message: %s could not be fetched for packaging"
++ "Queued message: %s could not unwrap TLUT"
++ "Queued message: %s was lacking a logical timestamp"
++ "Queued message: %s was lacking a logical timestamp and could not unwrap TLUT"
++ "RBS request failed: %@"
++ "RBS request termination for process: %d"
++ "Received notification for %s"
++ "Released extension token: %s)"
++ "Resolved clockIds: %s for uploadEvent: %@"
++ "Resolved componentId: %@ for uploadEvent: %@"
++ "RuntimeXPCClient idle timer fired; tearing down connection"
++ "SUTSchemaTestExecutionEvent event types unknown: %lu"
++ "Saving component: %s, component Id: %s, clusterIdentifier: %s, startedOn: %llu, onClock: %s"
++ "StagedMessage of anyEventType: %s did not have a timestamp, dropping event"
++ "Stream access vending is disabled. Internal is %{bool}d"
++ "Stream access vending is disabled. IsInternalInstall: %{bool}d"
++ "Suppressing large upload for %@ on %s"
++ "Suppressing large upload for fuzzed requestID: %s on %s"
++ "Suppressing message of type %s from off-device due to %s"
++ "Suppressing message of type %s from on-device and off-device due to %s"
++ "Suppressing message of type %s from on-device due to %s"
++ "Suppressing provisional collection internalInstall: %{bool}d seedBuild: %{bool}d."
++ "Tagging clockId: %s as opted out for Siri data collection"
++ "Two TextExecutionBegin events have the same timestamp: %llu and %llu"
++ "Unable to create directory at %s"
++ "Unable to determine clockId for %@, indeterminate response."
++ "Unable to find clock start for bookmark: %llu"
++ "Unable to get current state for %s"
++ "Unable to infer tag for %s"
++ "Unable to infer wrapped type for %s"
++ "Unable to remove %s"
++ "Unable to set page_size to %ld"
++ "Unable to stage message: %@"
++ "Unable to wrap %@ as AnyEvent"
++ "Unexpected error: Fingerprint for range %s doesn't exist."
++ "Unknown tag space: %u"
++ "Unknown topic: %s, ignoring message."
++ "Unmatched TestExecutionEnd for fingerprint: %s"
++ "Unmatched TestExecutionEnd for malformed fingerprint Data: %s"
++ "applied %ld transforms across %ld classifications to %s"
++ "assistantd XPC connection interrupted"
++ "assistantd XPC connection invalidated"
++ "com.apple.aiml.siri.platform.ConnectedComponentsWrapper"
++ "conditionType: %s for requestId: %s affects subsequent requests: %s"
++ "db storage connected at: %s"
++ "error: %d extended: %d"
++ "error: %d extended: %d description: %s"
++ "execution: %s step: %s at %lldns"
++ "ingest()"
++ "processing text classifications for %s on clock %s"
++ "prune failed"
++ "setting up notify: %s"
+- " affecting entire clock"
+- " affects subsequent requests: "
+- " as opted out for Siri data collection"
+- " because user is opted in to Siri data collection"
+- " bootSessionUUID:"
+- " classifications to "
+- " contain timestamp: "
+- " could not be fetched for packaging"
+- " could not unwrap TLUT"
+- " did not have a timestamp, dropping event"
+- " doesn't exist and can't be created"
+- " enqueued messages."
+- " for logical clock: "
+- " for requestId: "
+- " for seed/customer images"
+- " for uploadEvent: "
+- " from off-device due to "
+- " from on-device and off-device due to "
+- " from on-device due to "
+- " ingestion extensions."
+- " messages integrated to staging"
+- " of total staged: "
+- " on seed/customer images"
+- " open clock records."
+- " protections to: "
+- " redaction summaries accumulated."
+- " staged messages."
+- " stream events at "
+- " to old clock scoped predicate. This represents a loss in fidelity."
+- " to vend staging access for extension: "
+- " transforms across "
+- " unique chatIds for clock "
+- " was lacking a logical timestamp"
+- " was lacking a logical timestamp and could not unwrap TLUT"
+- " will be terminated because it hit the hard timeout"
+- " with max size: "
+- "%@.analytics.xpc.connection"
+- ", UnilogMigration: "
+- ", clusterIdentifier: "
+- ", component Id: "
+- ", failing alter."
+- ", ignoring message."
+- ", indeterminate response."
+- ", returning approved."
+- ", substituting with: "
+- ", tagging as concurrent chat session"
+- ", tailing preference enabled:"
+- "-[SiriAnalyticsXPCConnection _createTag:completion:]_block_invoke_3"
+- "-[SiriAnalyticsXPCConnection _sensitiveCondition:startedAt:completion:]"
+- "-[SiriAnalyticsXPCConnection _sensitiveCondition:startedAt:completion:]_block_invoke"
+- "-[SiriAnalyticsXPCConnection barrierWithCompletion:]"
+- "-[SiriAnalyticsXPCConnection barrierWithCompletion:]_block_invoke"
+- ". Data will not be annotated."
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Assistant/Privacy/DataSharingOptOutDataCollectionPolicy.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Assistant/Privacy/PersistentIdentifiersDataCollectionPolicy.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Assistant/Privacy/UserHistoryDeletionRequestObserver.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Assistant/Privacy/UserHistoryPolicy.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/ExtensionOrchestration/ExtensionConnection.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/ExtensionOrchestration/ExtensionOrchestratorConnection.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/ExtensionOrchestration/IngestionExtension.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/ExtensionOrchestration/Orchestrator.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/MessageTopics/DirectUploadTopic.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/MessageTopics/OnDeviceSyndicationTopic.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/MessageTopics/PackagedUploadTopic.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/MessageTopics/TailToOSLog.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Preprocessing/ClockInactivityScheduler.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Preprocessing/DataCollectionPolicyResolver.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Preprocessing/ExternalDataIngestion.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Preprocessing/LargeMessageUploadProcessor.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Preprocessing/MessageProcessingStrategy.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Preprocessing/MetadataExtractor.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Preprocessing/Preprocessor.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Preprocessing/PreprocessorShim.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Preprocessing/SUTProcessor.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Preprocessing/SensitiveConditionsProcessor.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Preprocessing/SessionBoundIdDetector.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Preprocessing/TextClassificationProcessor.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Preprocessing/UserRequestAnnotator.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/SensitiveConditions/SensitiveConditionsLedger.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Services/LogicalClocks.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Services/RuntimeService.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Services/TaggingService.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/DataVault.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/Db/DbStorage.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/Db/DbTableDefinition.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/Metastore/Db/LogicalClockRecord.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/Metastore/Db/MetastoreDb+Clocks.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/Metastore/Db/MetastoreDb+Tags.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/Metastore/Db/MetastoreDb.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/Metastore/MetastoreStreams.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/Metastore/Stream/MetastoreStream+Clocks.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/Metastore/Stream/MetastoreStream.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/OffDevice/MessageStoreReader.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/OffDevice/OffDeviceStorage.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/OffDevice/PackagingQueue+Policy.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/OffDevice/PackagingQueue.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/OffDevice/PackagingQueueProcessor.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/OnDevice/Biome/PrivateBiomeStreamPruner.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/OnDevice/Biome/RawUnifiedStream.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/OnDevice/Biome/UnifiedMessageStreamHelper.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/PersistentStorage.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/ResourceAccessDemands/MetastoreStreamsAccessDemand.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/ResourceAccessDemands/PackagingStreamAccessDemand.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/ResourceAccessDemands/RawUnifiedMessageStreamAccessDemand.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/ResourceAccessDemands/UnifiedMessageStreamAccessDemand.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/SandboxExtension.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/Staging/Pool/StagingPool.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/Staging/StagedMessage+Mapping.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/Staging/Stream/MessageStagingProvider+Policies.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/Staging/Stream/MessageStagingProvider.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Storage/Staging/Stream/MessageStagingStream.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Tagging/TagExpander.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Tagging/TaggingLoggables.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Telemetry/PreprocessorTelemetry+Instrumentation.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Telemetry/PreprocessorTelemetry.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Utility/DarwinNotificationObserver.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Utility/DeviceClock.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Utility/FirstUnlockObserver.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Utility/Protobuf/ProtoUnionTypeDomain.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/SiriAnalytics/SiriAnalytics/Utility/RuntimeConfiguration.swift"
+- "ABE_CLIENT_EVENT"
+- "ABE_SERVER_EVENT"
+- "ACTIVATION_CLIENT_EVENT"
+- "ANC_CLIENT_EVENT"
+- "ANC_SERVER_EVENT"
+- "APCT_CLIENT_EVENT"
+- "ASR_CLIENT_EVENT"
+- "ASR_SPEECH_PROFILE_CLIENT_EVENT"
+- "ASV_CLIENT_EVENT"
+- "Access vending is disabled. Internal is "
+- "Adding new columns for component_identifiers: "
+- "Adding new columns for logical_clocks: "
+- "Adding new columns for tags: "
+- "Adding opted in search request exceptions for "
+- "Applied retention policy to "
+- "Applying removePersistentIdentifiers policy to clockId: "
+- "Begin fetching sensitive conditions for logical clock: "
+- "Begin processing reason:"
+- "Beginning ingest with extension: "
+- "Bootstrapped successfully at "
+- "CAAR_CLIENT_EVENT"
+- "CAM_CLIENT_EVENT"
+- "CDA_CLIENT_EVENT"
+- "CH_CLIENT_EVENT"
+- "CLOUDKIT_CLIENT_EVENT"
+- "CLP_CLIENT_EVENT"
+- "CM_CLIENT_EVENT"
+- "CNV_CLIENT_EVENT"
+- "COLS_CLIENT_EVENT"
+- "CONTEXTRETRIEVAL_CLIENT_EVENT"
+- "CPR_CLIENT_EVENT"
+- "Calling ingest on "
+- "Can't get XPC connection for "
+- "Can't instantiate extension "
+- "Can't terminate: failed to get pid for "
+- "Checkpointing db at "
+- "Cleaning up abandoned clock identifiers: "
+- "Connection error to "
+- "Consumed extension token: "
+- "Creating instance at "
+- "DAILY_DEVICE_STATUS"
+- "DATA_UPLOAD_EVENT"
+- "DELETE_HISTORY_TRIGGER_SERVER_EVENT"
+- "DER_CLIENT_EVENT"
+- "DFI_DATA_EVENT"
+- "DIALOGENGINE_CLIENT_EVENT"
+- "DIM_CLIENT_EVENT"
+- "DODML_CLIENT_EVENT"
+- "Dropping provisional message for topic: "
+- "Dropping provisional message: "
+- "ES_CLIENT_EVENT"
+- "EXECUTOR_CLIENT_EVENT"
+- "EXP_SEARCH_CLIENT_EVENT"
+- "EXP_SIRI_CLIENT_EVENT"
+- "EXP_SIRI_SERVER_EVENT"
+- "Emitting redaction summary for "
+- "End fetching sensitive conditions for logical clock: "
+- "End processing with processedMessages: "
+- "Ending open span for "
+- "Error applying purge policy: "
+- "Error applying retention policy: "
+- "Error checkpointing StagingPool: "
+- "Error checkpointing: "
+- "Error getting extension process for "
+- "Error ingesting with "
+- "Error mapping tag record: "
+- "Error querying extensions: "
+- "Error serializing tag: "
+- "Error updating tag: "
+- "Error with remoteObjectProxy: "
+- "Even worse, they have the same TextExecutionEnd with the same timestamp: "
+- "Extension timed out and terminated: "
+- "Extension timed out: "
+- "FBF storage failed with: "
+- "FLOWTOOLS_CLIENT_EVENT"
+- "FLOW_CLIENT_EVENT"
+- "FLOW_LINK_CLIENT_EVENT"
+- "FLOW_SERVER_EVENT"
+- "FL_CLIENT_EVENT"
+- "FTD_CLIENT_EVENT"
+- "Failed processing message of type "
+- "Failed to alter component_identifiers."
+- "Failed to alter logical_clocks."
+- "Failed to alter tags."
+- "Failed to bootstrap: "
+- "Failed to connect to db at: "
+- "Failed to create new indexes for "
+- "Failed to create or alter table schema for component_identifiers"
+- "Failed to create or alter table schema for logical_clocks"
+- "Failed to create or alter table schema for tags"
+- "Failed to create or alter table: "
+- "Failed to drop unexpected indexes for "
+- "Failed to emit telemetry: "
+- "Failed to get kern.bootsessionuuid: "
+- "Failed to init with: "
+- "Failed to open path: "
+- "Failed to prepare for message staging "
+- "Failed to prune table: "
+- "Failed to register for "
+- "Failed to store sensitive condition "
+- "Fall through to approved for "
+- "Found multiple user request tags for requestId: "
+- "Found sensitive conditions: "
+- "Found sensitive conditions: <none> for logical clock: "
+- "Found user request tag for "
+- "Found user request tag: <none> for "
+- "GAA_CLIENT_EVENT"
+- "GAT_CLIENT_EVENT"
+- "GMS_CLIENT_EVENT"
+- "GROUPED_MESSAGES_CLIENT_EVENT"
+- "GROUPED_MESSAGES_GROUPING"
+- "GROUPED_MESSAGES_PRODUCER_METADATA"
+- "GROUPED_MESSAGES_SERVER_EVENT"
+- "GRR_CLIENT_EVENT"
+- "HAL_CLIENT_EVENT"
+- "HOMEKIT_CLIENT_EVENT"
+- "HOME_CLIENT_EVENT"
+- "IA_CLIENT_EVENT"
+- "IDENTITY_CLIENT_EVENT"
+- "IFTMGR_CLIENT_EVENT"
+- "IFT_CLIENT_EVENT"
+- "IF_PLATFORM_CLIENT_EVENT"
+- "IF_PLATFORM_REQUEST_CLIENT_EVENT"
+- "IH_CLIENT_EVENT"
+- "INFERENCE_CLIENT_EVENT"
+- "Ignoring infeasible timestamp: "
+- "Ingestion extension does not implement protocol: "
+- "Integration step finished, "
+- "Issued extension for path: "
+- "JR_CLIENT_EVENT"
+- "LOG_REDACTION_CLIENT_EVENT"
+- "MH_CLIENT_EVENT"
+- "MT_CLIENT_EVENT"
+- "MT_CLIENT_EVENT_V2"
+- "MWT_CLIENT_EVENT"
+- "Mapping composite predicate for "
+- "Marking processed for clockIdentifiers: "
+- "Message did not wrap as AnyEvent: "
+- "Metastore storage: "
+- "Multiple closed clocks: "
+- "NET_CLIENT_EVENT"
+- "NLG_CLIENT_EVENT"
+- "NLROUTER_CLIENT_EVENT"
+- "NLX_CLIENT_EVENT"
+- "No aligned logical clock found for "
+- "No beginning span found for: "
+- "No clock record found for "
+- "No componentIdentifier on "
+- "No existing schema found for component_identifiers, creating."
+- "No existing schema found for logical_clocks, creating."
+- "No existing schema found for tags, creating."
+- "No intersecting tags causing a suppression for "
+- "No new columns for component_identifiers, skipping alter."
+- "No new columns for logical_clocks, skipping alter."
+- "No new columns for tags, skipping alter."
+- "No tags found for clockId "
+- "Not applying removePersistentIdentifiers policy to clockId: "
+- "Not tagging clockId: "
+- "Not tailing messages to syslog (internal image: "
+- "ODBATCH_CLIENT_EVENT"
+- "ODD_SIRI_CLIENT_EVENT"
+- "ODFUNNEL_SIRI_CLIENT_EVENT"
+- "ODM_SIRI_CLIENT_EVENT"
+- "ODSAMPLE_CLIENT_EVENT"
+- "OPAQUE_CLIENT_EVENT"
+- "OPT_IN_CHANGELOG_CLIENT_EVENT"
+- "OPT_IN_CLIENT_EVENT"
+- "OPT_IN_PROPAGATION_CLIENT_EVENT"
+- "ORCH_CLIENT_EVENT"
+- "ORDERED_ANY_EVENT"
+- "Orchestrator failed with "
+- "PEGASUS_SERVER_EVENT"
+- "PFA_CLIENT_EVENT"
+- "PG_CLIENT_EVENT"
+- "PLANNERTOOL_CLIENT_EVENT"
+- "PLANNER_CLIENT_EVENT"
+- "PLUS_CLIENT_EVENT"
+- "PNR_ON_DEVICE_CLIENT_EVENT"
+- "POMMES_CLIENT_EVENT"
+- "PROACTIVE_EVENT_TRACKER"
+- "PROVISIONAL_EVENT"
+- "PR_CLIENT_EVENT"
+- "PSE_CLIENT_EVENT"
+- "QUERY_DECORATION_CLIENT_EVENT"
+- "Queued message: "
+- "RBS request failed: "
+- "RBS request termination for process: "
+- "READ_CLIENT_EVENT"
+- "REQUEST_LINK_EVENT"
+- "RESOLVE_CLIENT_EVENT"
+- "RESPONSETOOLS_CLIENT_EVENT"
+- "RFG_CLIENT_EVENT"
+- "RF_CLIENT_EVENT"
+- "RG_CLIENT_EVENT"
+- "RR_CLIENT_EVENT"
+- "RSS_CLIENT_EVENT"
+- "RTS_CLIENT_EVENT"
+- "Received notification for "
+- "Released extension token: "
+- "Resolved clockIds: "
+- "Resolved componentId: "
+- "RuntimeConfiguration"
+- "SAD_CLIENT_EVENT"
+- "SAM_SERVER_EVENT"
+- "SA_CLIENT_EVENT"
+- "SC_CLIENT_EVENT"
+- "SEARCH_TOOL_CLIENT_EVENT"
+- "SERVER_ORDERED_ANY_EVENT"
+- "SERVER_REQUEST_LINK_EVENT"
+- "SESSION_BYTE_EVENT"
+- "SESSION_EVENT"
+- "SIC_CLIENT_EVENT"
+- "SIRIXAGENT_CLIENT_EVENT"
+- "SIRI_SERVER_ORDERED_ANY_EVENT"
+- "SIRI_SETUP_CLIENT_EVENT"
+- "SIRI_UNDER_TEST_EVENT"
+- "SKIMMER_CLIENT_EVENT"
+- "SMT_CLIENT_EVENT"
+- "SPANMATCH_CLIENT_EVENT"
+- "SPEECH_DONATION_EVENT"
+- "SRST_CLIENT_EVENT"
+- "SR_CLIENT_EVENT"
+- "SUGGESTIONS_CLIENT_EVENT"
+- "SUTSchemaTestExecutionEvent event types unknown: "
+- "Saving component: "
+- "StagedMessage of anyEventType: "
+- "Stream access vending is disabled. Internal is false"
+- "Stream access vending is disabled. IsInternalInstall: "
+- "Suppressing large upload for "
+- "Suppressing large upload for fuzzed requestID: "
+- "Suppressing message of type "
+- "Suppressing provisional collection internalInstall: "
+- "TA_CLIENT_EVENT"
+- "TMSTURN_CLIENT_EVENT"
+- "TMS_CLIENT_EVENT"
+- "TRP_REQUEST_LINK_CLIENT_EVENT"
+- "TR_CLIENT_EVENT"
+- "TTM_CLIENT_EVENT"
+- "TTS_CLIENT_EVENT"
+- "Tagging clockId: "
+- "Two TextExecutionBegin events have the same timestamp: "
+- "UAF_CLIENT_EVENT"
+- "UEI_CLIENT_EVENT"
+- "UEI_SERVER_EVENT"
+- "UInt64TieBreaker(_:_:)"
+- "UNIFIED_SIRI_PERFORMANCE_EVENT"
+- "UNKNOWN_EVENT"
+- "Unable to create directory at "
+- "Unable to determine clockId for "
+- "Unable to find clock start for bookmark: "
+- "Unable to get current state for "
+- "Unable to infer tag for "
+- "Unable to infer wrapped type for "
+- "Unable to remove "
+- "Unable to set page_size to "
+- "Unable to stage message: "
+- "Unexpected error: Fingerprint for range "
+- "Unknown tag space: "
+- "Unmatched TestExecutionEnd for fingerprint: "
+- "Unmatched TestExecutionEnd for malformed fingerprint Data: "
+- "[%s: %s] %s"
+- "add(timestamp:message:)"
+- "annotate(orderedEvent:)"
+- "anyEvent.%@"
+- "append(_:topic:)"
+- "append(attributes:message:)"
+- "append(message:)"
+- "applySensitiveConditions(tags:logicalTimestamp:anyEvent:)"
+- "applyStorageProtections()"
+- "applyStorageRetentionPolicy()"
+- "byteSize"
+- "cleanupAbandonedClocks(activeClockIdentifier:)"
+- "clockAge"
+- "clockForcefullyDestroyed(completion:)"
+- "com.apple.siri.analytics.stream.xpc"
+- "createClock(_:rootClockIdentifier:bootSessionUUID:startedOn:)"
+- "createInactivityTimer(job:completion:)"
+- "createOrAlter(db:)"
+- "createOrAlterTableSchema(db:)"
+- "createTag(tagId:tag:onClock:)"
+- "currentBootSessionUUID()"
+- "db storage connected at: "
+- "destroyInactivityTimer()"
+- "end(sensitiveCondition:at:)"
+- "endClock(_:endedOn:endedReason:)"
+- "endClock(clockIdentifier:endedOn:reason:)"
+- "ensureDbConnected(bootstrapping:)"
+- "ensureDirectoryExists(at:)"
+- "execute(_:parameters:)"
+- "expand(tags:clockIdentifier:rootClockIdentifier:)"
+- "failureReason"
+- "fetch(sinceBookmark:receiveMessage:completion:)"
+- "fetchClockRecords(predicate:)"
+- "firstPassAnalysis(processors:messageStaging:)"
+- "handleConnectionError(_:)"
+- "handleNotification()"
+- "hourOfDay"
+- "ingest(identity:)"
+- "init(logicalClocks:tags:componentIds:textDataClassifications:)"
+- "init(name:queue:onNotify:)"
+- "init(streamURL:dataProtectionClass:readonly:)"
+- "isolated"
+- "issue(auditToken:url:readonly:)"
+- "killSwitchEnabled(_:)"
+- "map(deviceSensitivityState:)"
+- "markProcessed(clockIdentifiers:)"
+- "meetsDemand(entitlements:readonly:)"
+- "messageCount"
+- "onDeleteRequest()"
+- "prepareForStaging(_:allClocks:)"
+- "prepareStatement(sql:parameters:)"
+- "process(clockId:nanosecondsSinceBoot:message:)"
+- "process(messages:)"
+- "process(orderedEvent:end:)"
+- "process(reason:)"
+- "process(tlut:logicalTimestamp:)"
+- "process(uploadEvent:requestIdentifier:)"
+- "processMessage(_:telemetry:metadataExtractor:sensitiveConditionsProcessor:sutProcessor:textPreprocessor:userRequestAnnotator:)"
+- "processing text classifications for "
+- "pulseClock(_:lastEventOn:)"
+- "pulseClock(bookmark:lastEventOn:)"
+- "purgePackagingMessages()"
+- "purgeStagedMessages()"
+- "reason"
+- "removePersistentIdentifiers"
+- "resolve(dataClassifications:)"
+- "rootClockCreated(rootClockIdentifier:)"
+- "send(runtimeEvents:)"
+- "sensitiveConditions(for:)"
+- "setting up notify: "
+- "start(clockIdentifier:type:bootSessionUUID:startedOn:)"
+- "start(sensitiveCondition:at:)"
+- "startObserving()"
+- "success"
+- "tail(timestamp:clockIdentifier:messageUUID:message:)"
+- "terminate(reason:)"
+- "trigger(reason:completion:)"
+- "unknown"
+- "updateTag(tagId:tag:)"
+- "userRequestTag(clusterId:clockIdentifier:)"
+- "v32@?0@\"SiriAnalyticsDerivativeClock\"8Q16^B24"
+
+```

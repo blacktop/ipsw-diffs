@@ -1,0 +1,185 @@
+## BTInterposerFireDEXT
+
+> `/System/Library/DriverExtensions/BTInterposerFireDEXT.dext/BTInterposerFireDEXT`
+
+```diff
+
+-2700.37.0.0.0
+-  __TEXT.__text: 0x4 sha256:110f46b5b35c069160560c6ad6786f647dd44e8760a52a46fc22dbbcd7630b91
+-  __TEXT.__unwind_info: 0x58 sha256:107712c26cdc77ec10d134d747b97ef92f91e47a3fb22dc3dd00b11f626539cf
++2700.41.1.1.0
++  __TEXT.__text: 0x1a70 sha256:85af735d492dcd1ddca502c951e745e3081c88c65c3d585d0d6cabeb820883d8
++  __TEXT.__auth_stubs: 0x1f0 sha256:37d600e3676abf7d1518c49f477b5d926c980bec8e70a8fc381c3cea4fd9230b
++  __TEXT.__const: 0x540 sha256:c854abf9aee6db677e97ad8230ec02e8827b369f231092b402628133750e79b6
++  __TEXT.__oslogstring: 0x3b6 sha256:d33910b9bb396e6d845d78b5d7bef1ba2152a3e505e29a0d302ddcaf2b52bea5
++  __TEXT.__cstring: 0xbb sha256:ff0d0c487192135102f40ed8a49de1e503a9a995be26d3ba8cf69a4baf6bf5c9
++  __TEXT.__unwind_info: 0xc0 sha256:a39d268e1ddd2dd4582c4567e89a7df166103db1b7714e19e9a17c9856f2481a
++  __DATA_CONST.__const: 0x650 sha256:d098cf1a59f1f4e9e301ea88e2d3980b9b01eef1e64151d124147514d192f324
++  __DATA_CONST.__osclassinfo: 0x20 sha256:7c10d9da8f9d69c6ecf8bf106435440d6e0483a5481c5c6d7842fdbb616a06ed
++  __DATA_CONST.__auth_got: 0xf8 sha256:ab36278fb895056a6d6e3ed0494154ba14689c85514a7c9d2bf62c9a7a093a1c
++  __DATA_CONST.__got: 0x20 sha256:97380dd3785ac88a745cead7a6a6b35b3920eaacb13296b6fe270cb980380250
++  __DATA.__common: 0x20 sha256:8dd455a2d0f1b73bdb0ee7e9b216dc91ec57e97636acc010462765ff6d38b4fe
+   - /System/DriverKit/System/Library/Frameworks/DriverKit.framework/DriverKit
+   - /System/DriverKit/System/Library/PrivateFrameworks/MobileBluetoothDK.framework/MobileBluetoothDK
+-  UUID: 9972CD44-03DA-34AE-95B1-A3D456BD7315
+-  Functions: 1
+-  Symbols:   2
+-  CStrings:  0
++  - /System/DriverKit/usr/lib/libc++.dylib
++  UUID: AE108BED-7212-31B0-8356-E240BCFC1336
++  Functions: 44
++  Symbols:   122
++  CStrings:  26
+ 
+Symbols:
++ _BTInterposerFireDEXT_Class
++ _IOFree
++ _IOMallocZeroTyped
++ _IORPCMessageFromMach
++ _OSAction_BTInterposerFireDEXT_RelayNcpEvent_Class
++ _OSAction_BTInterposerFireDEXT_RelayRxReady_Class
++ _OSAction_BTInterposerFireDEXT_RelayTxReady_Class
++ __Block_object_assign
++ __Block_object_dispose
++ __NSConcreteGlobalBlock
++ __NSConcreteStackBlock
++ __ZL24BTInterposerFireDEXT_NewP11OSMetaClass
++ __ZL39OSClassDescription_BTInterposerFireDEXT
++ __ZL46OSAction_BTInterposerFireDEXT_RelayRxReady_NewP11OSMetaClass
++ __ZL46OSAction_BTInterposerFireDEXT_RelayTxReady_NewP11OSMetaClass
++ __ZL47OSAction_BTInterposerFireDEXT_RelayNcpEvent_NewP11OSMetaClass
++ __ZL61OSClassDescription_OSAction_BTInterposerFireDEXT_RelayRxReady
++ __ZL61OSClassDescription_OSAction_BTInterposerFireDEXT_RelayTxReady
++ __ZL62OSClassDescription_OSAction_BTInterposerFireDEXT_RelayNcpEvent
++ __ZN11IOMemoryMap10GetAddressEv
++ __ZN12IOUserClient15_ExternalMethodEyPKyjP6OSDataP18IOMemoryDescriptorPyPjyPS3_S5_P8OSActionPFiP15OSMetaClassBase5IORPCE
++ __ZN12IOUserClient22AsyncCompletion_InvokeE5IORPCP15OSMetaClassBasePFvS2_P8OSActioniPKyjEPK11OSMetaClass
++ __ZN12IOUserClient23CopyClientMemoryForTypeEyPyPP18IOMemoryDescriptorPFiP15OSMetaClassBase5IORPCE
++ __ZN15IODispatchQueue12DispatchSyncEU13block_pointerFvvE
++ __ZN15IODispatchQueue6CreateEPKcyyPPS_
++ __ZN15OSMetaClassBase8DispatchE5IORPC
++ __ZN15OSMetaClassBase8IsRemoteEv
++ __ZN18IOMemoryDescriptor13CreateMappingEyyyyyPP11IOMemoryMapPFiP15OSMetaClassBase5IORPCE
++ __ZN20BTInterposerFireDEXT10Start_ImplEP9IOService
++ __ZN20BTInterposerFireDEXT11SendACLDataEPKhj
++ __ZN20BTInterposerFireDEXT17RelayRxReady_ImplEP8OSActioniPKyj
++ __ZN20BTInterposerFireDEXT17RelayTxReady_ImplEP8OSActioniPKyj
++ __ZN20BTInterposerFireDEXT18RelayNcpEvent_ImplEP8OSActioniPKyj
++ __ZN20BTInterposerFireDEXT24CreateActionRelayRxReadyEmPP8OSAction
++ __ZN20BTInterposerFireDEXT24CreateActionRelayTxReadyEmPP8OSAction
++ __ZN20BTInterposerFireDEXT25CreateActionRelayNcpEventEmPP8OSAction
++ __ZN20BTInterposerFireDEXT4freeEv
++ __ZN20BTInterposerFireDEXT4initEv
++ __ZN20BTInterposerFireDEXT8DispatchE5IORPC
++ __ZN20BTInterposerFireDEXT9Stop_ImplEP9IOService
++ __ZN20BTInterposerFireDEXT9_DispatchEPS_5IORPC
++ __ZN29BTInterposerFireDEXTMetaClass3NewEP8OSObject
++ __ZN29BTInterposerFireDEXTMetaClass8DispatchE5IORPC
++ __ZN42OSAction_BTInterposerFireDEXT_RelayRxReady8DispatchE5IORPC
++ __ZN42OSAction_BTInterposerFireDEXT_RelayRxReady9_DispatchEPS_5IORPC
++ __ZN42OSAction_BTInterposerFireDEXT_RelayTxReady8DispatchE5IORPC
++ __ZN42OSAction_BTInterposerFireDEXT_RelayTxReady9_DispatchEPS_5IORPC
++ __ZN43OSAction_BTInterposerFireDEXT_RelayNcpEvent8DispatchE5IORPC
++ __ZN43OSAction_BTInterposerFireDEXT_RelayNcpEvent9_DispatchEPS_5IORPC
++ __ZN51OSAction_BTInterposerFireDEXT_RelayRxReadyMetaClass3NewEP8OSObject
++ __ZN51OSAction_BTInterposerFireDEXT_RelayRxReadyMetaClass8DispatchE5IORPC
++ __ZN51OSAction_BTInterposerFireDEXT_RelayTxReadyMetaClass3NewEP8OSObject
++ __ZN51OSAction_BTInterposerFireDEXT_RelayTxReadyMetaClass8DispatchE5IORPC
++ __ZN52OSAction_BTInterposerFireDEXT_RelayNcpEventMetaClass3NewEP8OSObject
++ __ZN52OSAction_BTInterposerFireDEXT_RelayNcpEventMetaClass8DispatchE5IORPC
++ __ZN8OSAction18CreateWithTypeNameEP8OSObjectyymP8OSStringPPS_
++ __ZN8OSAction4freeEv
++ __ZN8OSAction6CancelEU13block_pointerFvvE
++ __ZN8OSAction9_DispatchEPS_5IORPC
++ __ZN8OSObject4initEv
++ __ZN8OSString11withCStringEPKc
++ __ZN9IOService11Stop_InvokeE5IORPCP15OSMetaClassBasePFiS2_PS_E
++ __ZN9IOService12Start_InvokeE5IORPCP15OSMetaClassBasePFiS2_PS_E
++ __ZN9IOService14_NewUserClientEjP12OSDictionaryPP12IOUserClientPFiP15OSMetaClassBase5IORPCE
++ __ZN9IOService4StopEPS_PFiP15OSMetaClassBase5IORPCE
++ __ZN9IOService4freeEv
++ __ZN9IOService4initEv
++ __ZN9IOService5StartEPS_PFiP15OSMetaClassBase5IORPCE
++ __ZN9IOService9_DispatchEPS_5IORPC
++ __ZNK15OSMetaClassBase12getMetaClassEv
++ __ZNK15OSMetaClassBase6retainEv
++ __ZNK15OSMetaClassBase7releaseEv
++ __ZNK15OSMetaClassBase9isEqualToEPKS_
++ __ZNK42OSAction_BTInterposerFireDEXT_RelayRxReady12getMetaClassEv
++ __ZNK42OSAction_BTInterposerFireDEXT_RelayTxReady12getMetaClassEv
++ __ZNK43OSAction_BTInterposerFireDEXT_RelayNcpEvent12getMetaClassEv
++ __ZNK8OSObject6retainEv
++ __ZNK8OSObject7releaseEv
++ __ZNK9IOService11GetProviderEv
++ __ZTV20BTInterposerFireDEXT
++ __ZTV29BTInterposerFireDEXTMetaClass
++ __ZTV42OSAction_BTInterposerFireDEXT_RelayRxReady
++ __ZTV42OSAction_BTInterposerFireDEXT_RelayTxReady
++ __ZTV43OSAction_BTInterposerFireDEXT_RelayNcpEvent
++ __ZTV51OSAction_BTInterposerFireDEXT_RelayRxReadyMetaClass
++ __ZTV51OSAction_BTInterposerFireDEXT_RelayTxReadyMetaClass
++ __ZTV52OSAction_BTInterposerFireDEXT_RelayNcpEventMetaClass
++ __ZThn24_N20BTInterposerFireDEXT4freeEv
++ __ZThn24_N20BTInterposerFireDEXT4initEv
++ __ZThn24_N8OSAction4freeEv
++ __ZThn24_N8OSObject4initEv
++ __ZThn48_N20BTInterposerFireDEXT11SendACLDataEPKhj
++ ____ZN20BTInterposerFireDEXT11SendACLDataEPKhj_block_invoke
++ ____ZN20BTInterposerFireDEXT17RelayTxReady_ImplEP8OSActioniPKyj_block_invoke
++ ____ZN20BTInterposerFireDEXT9Stop_ImplEP9IOService_block_invoke
++ ____ZN20BTInterposerFireDEXT9Stop_ImplEP9IOService_block_invoke_2
++ ____ZN20BTInterposerFireDEXT9Stop_ImplEP9IOService_block_invoke_3
++ ___block_descriptor_tmp
++ ___block_literal_global
++ ___copy_helper_block_8_32r40r
++ ___destroy_helper_block_8_32r40r
++ ___stack_chk_fail
++ ___stack_chk_guard
++ __block_descriptor_tmp.11
++ __block_descriptor_tmp.12
++ __block_descriptor_tmp.5
++ __block_descriptor_tmp.8
++ __block_literal_global.10
++ __block_literal_global.7
++ __os_log_default
++ __os_log_impl
++ _gBTInterposerFireDEXTMetaClass
++ _gBTInterposerFireDEXT_Declaration
++ _gOSAction_BTInterposerFireDEXT_RelayNcpEventMetaClass
++ _gOSAction_BTInterposerFireDEXT_RelayNcpEvent_Declaration
++ _gOSAction_BTInterposerFireDEXT_RelayRxReadyMetaClass
++ _gOSAction_BTInterposerFireDEXT_RelayRxReady_Declaration
++ _gOSAction_BTInterposerFireDEXT_RelayTxReadyMetaClass
++ _gOSAction_BTInterposerFireDEXT_RelayTxReady_Declaration
++ _memcpy
++ _os_log_type_enabled
+- _DummySymbol
+CStrings:
++ "BTInterposerFireDEXT: %s action registration failed: %d"
++ "BTInterposerFireDEXT: CopyClientMemoryForType(%llu) failed: %d"
++ "BTInterposerFireDEXT: CreateActionRelayNcpEvent failed: %d"
++ "BTInterposerFireDEXT: CreateActionRelayRxReady failed: %d"
++ "BTInterposerFireDEXT: CreateActionRelayTxReady failed: %d"
++ "BTInterposerFireDEXT: CreateMapping(%llu) failed: %d"
++ "BTInterposerFireDEXT: GetProvider returned nil"
++ "BTInterposerFireDEXT: IODispatchQueue::Create failed: %d"
++ "BTInterposerFireDEXT: Start ok"
++ "BTInterposerFireDEXT: Stop"
++ "BTInterposerFireDEXT: TxSubmit kick failed: %d — slot will drain on next kick"
++ "BTInterposerFireDEXT: _NewUserClient relay failed: %d"
++ "BTInterposerFireDEXT: invalid RX slot ring=%u chipSlotIdx=%u slotLen=%u — skipping"
++ "BTInterposerFireDEXT: relay regions mapped — pool=0x%llx meta=%p ring=%p"
++ "BTInterposerFireDEXT: relay user client opened"
++ "BTInterposerFireDEXT: super::Start failed: %d"
++ "BTInterposerFireDEXT::free"
++ "BTInterposerFireDEXT::init"
++ "NCP"
++ "OSAction_BTInterposerFireDEXT_RelayNcpEvent"
++ "OSAction_BTInterposerFireDEXT_RelayRxReady"
++ "OSAction_BTInterposerFireDEXT_RelayTxReady"
++ "RX"
++ "TX"
++ "com.apple.BTInterposerFireDEXT.txpending"
++ "v8@?0"
+
+```

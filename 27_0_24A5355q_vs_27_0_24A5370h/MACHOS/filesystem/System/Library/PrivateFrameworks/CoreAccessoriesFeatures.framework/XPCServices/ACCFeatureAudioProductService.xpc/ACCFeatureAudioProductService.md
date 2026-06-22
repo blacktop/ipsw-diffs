@@ -1,0 +1,149 @@
+## ACCFeatureAudioProductService
+
+> `/System/Library/PrivateFrameworks/CoreAccessoriesFeatures.framework/XPCServices/ACCFeatureAudioProductService.xpc/ACCFeatureAudioProductService`
+
+```diff
+
+-1176.0.26.502.1
+-  __TEXT.__text: 0x22a4 sha256:2a43ab2387697ecbcb4db46d413154f5de1062c428741a5f5584605d4ecf4c1b
+-  __TEXT.__auth_stubs: 0x2d0 sha256:009704545add1e8e7ec2ef4b377f19c7d16dd5efcaabb713e7f1ddf8d240f2b6
+-  __TEXT.__objc_stubs: 0x5c0 sha256:e95ad485cb517bce60438683e13697b41ae721deae3ddad3378bdfba18ee22a6
+-  __TEXT.__objc_methlist: 0x21c sha256:aa0b2ceae51be66158dcb4cb3d8fc01548501a492842d4d1f0acf51589178431
+-  __TEXT.__cstring: 0xaf5 sha256:ccd1571aa5e13a76336b8b1dbdc4518e5a9977f4c9ef2d245eff0ef9ea52ca0a
++1196.0.0.502.1
++  __TEXT.__text: 0x2280 sha256:04a22fc42b75ca1aeb8571f800517218869f9c45f11b04541a3887667d69cda0
++  __TEXT.__auth_stubs: 0x2d0 sha256:896039c60e07b38da5030e8ee5ce1b9cd19b8b2a4b3bc202a75d6aa009efc0c1
++  __TEXT.__objc_stubs: 0x5c0 sha256:a120d28fe8d9a414c1bb3060db805bbf3edfa9ac6c061ba761edea46fb9fccc0
++  __TEXT.__objc_methlist: 0x21c sha256:a7e65e3728668c10fa3d0f78a7cbef0a04057aac1df4dac466fe2d9835062849
++  __TEXT.__cstring: 0xb0d sha256:3dcc7e6f3885add8d5c14d1ab4cbefcbe84cc9099048a5fdc624e5cd85c627a6
+   __TEXT.__objc_methname: 0x667 sha256:dcd5dc68bc49bd9d28efea1904223cc32026e59b3887b7c437a877c1d4775e9b
+   __TEXT.__objc_classname: 0x90 sha256:53faefc634be2a634a05c8c05c56ccd36ff0e42981e7b9991b9066703a5ef8eb
+   __TEXT.__objc_methtype: 0x1aa sha256:dfcfb6da4c5d619d4f91114ffc42864c2fa8dd2b8acdd677e003f737f47f605d
+   __TEXT.__const: 0x40 sha256:57bd98c0848dbb5e2576fff85cffbd1f8cd20148bbf6618f8be5e29ddf9bc3fa
+   __TEXT.__oslogstring: 0x664 sha256:40e955b6f874f805d3afc983d6e83d20b0517aa3a2e489d294dcb38202b69223
+-  __TEXT.__unwind_info: 0xd0 sha256:205a3ba12ba707a6ae0fda5d8056c658a2d6e28ac5faf90d9d446a9df0036dc6
+-  __DATA_CONST.__const: 0x700 sha256:f38d9acc82b1518e2d10b3135aabe34a545d6c225811101e86ede9807335f3fe
+-  __DATA_CONST.__cfstring: 0xd40 sha256:d909771cc4f6f450e90cbdad88c383a8030202eee0f57412d094b831d60835bf
++  __TEXT.__unwind_info: 0xd0 sha256:90a9b7eed156328b5fffc153bfabb455f52ca74d2063be4aaceba294bba63f52
++  __DATA_CONST.__const: 0x710 sha256:8c4d7ca1f8edf307e43acf25dc4e1d75a5c7676bb3af5de410ad3da603642f86
++  __DATA_CONST.__cfstring: 0xd60 sha256:209c8d0211aab6347102206457f8351ec65e6a45494dbc8c74f0ba013cac30c9
+   __DATA_CONST.__objc_classlist: 0x18 sha256:98939e9ce178d47d15ff0fd7d7579b8c5bac4bd3a6ba0d79204bce79db659a16
+   __DATA_CONST.__objc_catlist: 0x8 sha256:84db30b201f5c3a40e09aa95540bb9c12ba35db11e314b9037ffd94e753e11b8
+   __DATA_CONST.__objc_protolist: 0x18 sha256:d275a0cbbf48880e6e126bf4e975b3483c1eee78683950e6f40e412425f71bf8
+
+   __DATA_CONST.__objc_superrefs: 0x8 sha256:1294c7a0b0cae8fa316586039719ca801e7beae9537a2e4a293bdea9650aa0e4
+   __DATA_CONST.__auth_got: 0x170 sha256:573742e7987b54d0a769bacb40eadbd42803316710c57ccf8482dd8a1ac31529
+   __DATA_CONST.__got: 0xb0 sha256:1e04fa06414fb0cbfb149339baf03d225d4f14213198caeed4b6c5f129a8cc2c
+-  __DATA.__objc_const: 0x410 sha256:17a26af19d4b177274672782f7701081efb510a0e53c76e8c19ae8870926034f
+-  __DATA.__objc_selrefs: 0x260 sha256:05895620fd6f678cbc75ff631098e5f844f07d9a14d338bdb62d6b430a43e5c9
++  __DATA.__objc_const: 0x410 sha256:5a2368347e1da705495c52c0b8cd297d275038be1f56d3cfe6ae3d670742df8f
++  __DATA.__objc_selrefs: 0x260 sha256:68c37bb742207411042576e6fcc38479d888f7b8fce42240d203a38b3440f036
+   __DATA.__objc_ivar: 0x8 sha256:1842d9d60985977543496f68d38a01a5470beb95bdae33af49b8167ada489f83
+   __DATA.__objc_data: 0xf0 sha256:8aefa7c6e947e2f2fa29a63db921ed84626acc637bf2996089c7949fa57f44fb
+-  __DATA.__data: 0x150 sha256:bd5a58c0c9ae86e6d275d9c0f9fe3b79f8cd3bf7f4090e7c08b8eda0013fc808
++  __DATA.__data: 0x150 sha256:a8ec26187c4232b084cb29b4818ac95c1437808e139292622fe76ad02c267dcc
+   __DATA.__bss: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+   __DATA.__common: 0x1c sha256:3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 23F011BE-0EC2-30A5-83D2-C62CD96EFD34
++  UUID: D3D0F87A-E376-3CA7-B6C0-E2A7F7C05951
+   Functions: 55
+-  Symbols:   931
+-  CStrings:  358
++  Symbols:   935
++  CStrings:  360
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCFeatureAudioProductService.build/Objects-normal/arm64e/ACCFeatureAudioProductService.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCFeatureAudioProductService.build/Objects-normal/arm64e/ACCUserDefaults.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCFeatureAudioProductService.build/Objects-normal/arm64e/NSXPCConnection+Entitlements.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCFeatureAudioProductService.build/Objects-normal/arm64e/logging_core_accessories_features.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCFeatureAudioProductService.build/Objects-normal/arm64e/logging_signposts.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCFeatureAudioProductService.build/Objects-normal/arm64e/logging_wrapper.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCFeatureAudioProductService.build/Objects-normal/arm64e/main.o
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Sources/CoreAccessories/Apple/Accessory_Frameworks/CoreAccessories/
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Sources/CoreAccessories/Apple/Accessory_Frameworks/CoreAccessoriesFeatures/
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Sources/CoreAccessories/Apple/Accessory_Frameworks/CoreAccessoriesFeatures/ACCFeatureAudioProductService/
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Sources/CoreAccessories/Common/Common_C/
++ /Library/Caches/com.apple.xbs/B610E6C8-69AA-44B6-B89F-74B2FEF6F9BC/TemporaryDirectory.AppRmc/Sources/CoreAccessories/Common/Common_ObjC/
++ _ACCUserDefaultsKey_PretendWirelessCTAMatch
++ __block_literal_global.304
++ __block_literal_global.306
++ _kCFACCUserDefaultsKey_PretendWirelessCTAMatch
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCFeatureAudioProductService.build/Objects-normal/arm64e/ACCFeatureAudioProductService.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCFeatureAudioProductService.build/Objects-normal/arm64e/ACCUserDefaults.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCFeatureAudioProductService.build/Objects-normal/arm64e/NSXPCConnection+Entitlements.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCFeatureAudioProductService.build/Objects-normal/arm64e/logging_core_accessories_features.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCFeatureAudioProductService.build/Objects-normal/arm64e/logging_signposts.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCFeatureAudioProductService.build/Objects-normal/arm64e/logging_wrapper.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/ACCFeatureAudioProductService.build/Objects-normal/arm64e/main.o
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Sources/CoreAccessories/Apple/Accessory_Frameworks/CoreAccessories/
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Sources/CoreAccessories/Apple/Accessory_Frameworks/CoreAccessoriesFeatures/
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Sources/CoreAccessories/Apple/Accessory_Frameworks/CoreAccessoriesFeatures/ACCFeatureAudioProductService/
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Sources/CoreAccessories/Common/Common_C/
+- /Library/Caches/com.apple.xbs/6E609522-BCE4-4267-888D-F9E730CF32ED/TemporaryDirectory.bMirSv/Sources/CoreAccessories/Common/Common_ObjC/
+- __block_literal_global.301
+- __block_literal_global.303
+Functions:
+~ -[ACCUserDefaults init] : sha256 d0359cd3fa1a260878972a86e61e5b7d2848ee2a7c9603efcd7f7399f3383c27 -> a80db462c1c2c13660630544ebd374625e29e77490505a0a8168a1aba9858370
+~ +[ACCUserDefaults sharedDefaults] : sha256 bb0025b7f7b068692f1db2d8482120a3fb5f4ad457b2efabbc9fc5e6fa2c44b4 -> f71881131acc4380e7dbb73ca045e10abc3b8ba463f5b9a45e93bd3c47c42cea
+~ ___33+[ACCUserDefaults sharedDefaults]_block_invoke : sha256 4853726aa842d516365d7908100bbe8b68ee4f79a111a5d4e1207243b8af4e1b -> b127751d7fd548ef2e9de47e9aa747268b375a224ff4d13080f93b0d5644eff3
+~ +[ACCUserDefaults sharedDefaultsIapd] : sha256 15a4201fd50ce429b81c007efeb1ebc347e2dea0b73d847c2d31506a652b321d -> 7955fd278fe95c4bdf0a96480d1b90bbe93a5cb4cf01b4d79ede5819b716a3b2
+~ ___37+[ACCUserDefaults sharedDefaultsIapd]_block_invoke : sha256 86f00934f4c7080d09e0f5953dc195818b57aca757a469bc8cfd5e7b866cfc46 -> 9976b7a3e42321cc1259ab7bf10bf5fb3d354bb8d4eff41ce49f46dfcda35fa5
+~ +[ACCUserDefaults sharedDefaultsLogging] : sha256 144578ea90d3e2f508dee7009df90195b28311518a11412b74ce3936d09a6363 -> b00c90c7e52b341ca3adf57d818c1a3ebece75d5d23ab2efa34574093340d30a
+~ ___40+[ACCUserDefaults sharedDefaultsLogging]_block_invoke : sha256 a8da030e08f4b404de9886479f663815415036d28c35d2a3feabae8fb781803f -> 9039c8886bcd7633105c5b03dd7b5a658c9a1a1d7f52a71b873fe9dcb0fffc51
+~ _acc_userDefaults_boolForKey : sha256 84f8297b02b1abc6a96fd0de00aaa1997f142b4b361a6784d496c1999cb234c1 -> f5aaaa721f8c529dfb3d9d5b15581694a82b521a6b7382bd5f55ee935a87691e
+~ _acc_userDefaults_copyStringForKey : sha256 6ea33019663af27585a3e3065f6370e693b12c6fb7c6988f35b4d9258f6df240 -> 9ef5492bdfacafdd7f03034a71506a1c41e9144984de4f93588ce497ba3697f4
+~ _acc_userDefaults_copyArrayForKey : sha256 21b84eef0de033fce658767f44aa0aa39cf2eae01a113fdb29cbccd724a70b99 -> 86463d43da2ebe4042119f267a057056d9910293b4ff94898f6260efcb94d297
+~ _acc_userDefaults_copyDictionaryForKey : sha256 5f929865740ed47dc29a2d11431417a2258ca363218449a329f6318d3a82d641 -> 1bcf0a7e52fd08225ad30c37e19bb8f3d4faa470e64c31eb3d2b7a007e77cf66
+~ _acc_userDefaults_copyIntegerForKey : sha256 150241df8a2c12ff181619f5180e54bf19abc57a13b0b18e02a002c07b50e1cf -> 92b7e8d4015ca75b6526e35b8c90e94c9e4ad2f5badccc05e8e2a76217a91ac6
+~ _acc_userDefaults_copyDoubleForKey : sha256 1e50b2ef0c4e195a95e2d9870cc932a9d2257fc2a1a3fd8d114f5e0f0030f690 -> 0e489e59a5c2bb3473162dd6042cb3fa965f47c82fd7f3f91e78889453487ecb
+~ _acc_userDefaults_setArrayForKey : sha256 6fc7d1674aae4e0d33910d6d63a7099ac70d4ced98a2966451b4243ba820df0d -> 9cd0887683d324da463aea532c4e974a334069cbb85d94ee2344e11f06692c7f
+~ _acc_userDefaults_setIntegerForKey : sha256 4c47ba7434f58959eddf92c6ef9c1fd349ec506b0fe34f469148848c363ec0e3 -> ecf5d5f3aa6835848651749aa7a0d8652d14e6cd1356d1799b1cc57e85aee617
+~ _acc_userDefaults_setDoubleForKey : sha256 db23d1484dbc84b122083aa3f7cbf1db8f2ebef5022d38838e8c31838ef34e14 -> f30195659e0a29374abb53cd1c484105dff512036e72a9b03cbff3248d7675d0
+~ _acc_userDefaultsIapd_boolForKey : sha256 b44c95ee187c7e6555a88b6115071745921232a9855f58424da39b9740b4f973 -> 7f14fb173e31c95368344dbaf8c8f1a2466c6039dc8b10f26971a1ba520838bb
+~ _acc_userDefaultsIapd_copyStringForKey : sha256 a9473044b42889270bacd5c2bc581ba4e19641676c5c3308387149ad2e7413c7 -> 3040b93cfd1ccf88e6e6ce609c64e4eb9df7ac97e9855e513f678b2e082a998c
+~ _acc_userDefaultsIapd_copyArrayForKey : sha256 3682f3fe9b4987ce72488a9614d037def9f8b1c1616d2cfd5441999cb760f06a -> d1fa3c5f01f6e57becd5e6b01754c6d529c0d0c625ce3ad70409748066d48e33
+~ _acc_userDefaultsIapd_copyDictionaryForKey : sha256 a894e8bd52828945475bea0a0e255390f0452aa01616b587492cc58d193bade8 -> c50c38da2232b56379ff919b0a511a4facda46dc3449d965fc413c47efa6f484
+~ _acc_userDefaultsIapd_copyIntegerForKey : sha256 45b399a53af19291f3c84b48d955d5199f19814135eb0e1b8c2413367ff5bb8f -> 1e4209443b406265adb1b8b5dd9f1ce5529a19c8cd3187808897cc72363caf63
+~ _acc_userDefaultsIapd_copyDoubleForKey : sha256 6c2ecfb27e900ece99d61c20508b19fca0e65fa97bdc6d03211f82dca35037ca -> d2eb3a1f74a6f7da843f5163ea56394ca555fbfed76a002ce8acc8250c1bf1f5
+~ _acc_userDefaultsLogging_boolForKey : sha256 835f2e103013710fcd610c86c438c6e7cd0fa959fc86926e287bdd7a71987c3b -> 8a4d71c864a396a0dcd05656fde9f36e697538d4916a72f92fe2b0b4e32f3a02
+~ -[ServiceDelegate listener:shouldAcceptNewConnection:] : sha256 2111558b7a419d2c24bd46321fe69097acffc1584bf72446dda7b638e8a6ff9b -> fec50fc2d35600f59ec581a21c1993474988af2dc0685e7335d48d0beee4dbee
+~ _main : sha256 f67ba95989d2d6daddf4d1b86061117403e617e5473d2b0f96c09ab648729db3 -> ae2cfccb07613b57821b158fe7a9b7d26ada33a9565fca352664071e2a7ac40e
+~ _init_logging : sha256 795ed17d344d34d37342118d2eace618dd109838a89fafc643364f2c0a902189 -> 0daf76f14c5217bca81859f79fbc1d86259e4b14c523e90af2f053b5988e3d61
+~ -[NSXPCConnection(Entitlements) hasEntitlement:] : sha256 92a608730a84841b11a1facce15e2e9faed34cd24117134031fc306e53d987bf -> d2adf955359a818d6add9150ac39dcf74b6b8e7b9ec90dea952c8c33a5e5fb40
+~ -[NSXPCConnection(Entitlements) hasCategory:forEntitlement:] : sha256 ef552eba02a0c8fcbc4185ac22d9848d14a9cae8696e468de8263f2298b8ba07 -> 724cb8b4e4b84ab345a7612d482a867c01e227da40c715498f9960e849677f06
+~ -[ACCFeatureAudioProductService init] : sha256 839a202c650b3c51164751a8f9552308fac34872be25e58c70a060c633733f09 -> 435bf2e0e74ece1bed542354eac781ca9fcb2e4ee93fed664685ecb040389442
+~ -[ACCFeatureAudioProductService dealloc] : sha256 289313675bafd613594ef3317f4fcf5c3fdf76614dbeec1e595b79715d3aa0b7 -> 6fe2834832bdfdf99c00b2a2ac5eb30b620a9cb67c9e26159681c85b5e566e3b
+~ -[ACCFeatureAudioProductService processAudioProductCerts:forModel:firstConnectionAfterPair:connection:endpoint:completionHandler:] : 3264 -> 3268
+~ -[ACCFeatureAudioProductService processingQueue] : sha256 0126d99c92bf0202bb29acf6b9bc43fbd0aa6dab579f2768e1e93c3967a6ff6a -> a315b81dbcd3e3ba291c07ab673d1af21eabfbff2c172e78381c95768c5dfade
+~ -[ACCFeatureAudioProductService setProcessingQueue:] : sha256 6a3c532d16eaaa42b8842a83888535e3255f3e1483700165482e53be7a6b0415 -> 1ef7502b86a9214f428df26bdfa7a46f467fb3aa8d8b1eef8ee490e7e5788279
+~ -[ACCFeatureAudioProductService setup_complete_semaphore] : sha256 8d0621853b612bda64e25091696c2bd67220e72e2b6981646708137affa788c5 -> fd7def3cf63439f7e60c8e2a89fe8b5f501f984055e97fe510afac96ba7883fe
+~ -[ACCFeatureAudioProductService setSetup_complete_semaphore:] : sha256 07e53d2ca479397e131318d0ee5e3ca28878588e4e664d354a2ce320e278321d -> cb7a9a7be445c8f1cb742f321ac2139bead7553d4c184ba1d9be29c52af4afe9
+~ -[ACCFeatureAudioProductService .cxx_destruct] : sha256 cdd0285c24f87962a9e9a62813249ceb50da8b9b0bf511c5c8b9ab7250e45167 -> 5d725d635fcd1c308db63455f382b3070d3beee46c1f0bc2238c98eb9f9a9582
+~ ___logObjectForModule_block_invoke : sha256 3269a22f2ac5f5bea7e2fe8d6005ba71c0e4240bc090384a8a95bc772b677fa1 -> 1f38f1f5a6e48312ed93b846c3d5c3e04e934ad84e3da086eb3aaf8779c9be63
+~ _OUTLINED_FUNCTION_0 : sha256 db3415ba89c71cc8596678387b42a78852429ee55df00889c29e853fba19fdca -> b1e43ceaaa028b3c5ac47fee1c346ae610740088519dbc857c2189c4c8d4627d
+~ _init_logging_modules : sha256 896d913fd74fc9e393872eaf505e8cf631cbb470ad918bf9626ae628eff5243f -> ba35a30af91ae12deb596b44d6f9dcb588ea8f47bebd9cd98d0f631bd14c71a6
+~ ___init_logging_modules_block_invoke : 608 -> 588
+~ _init_logging_signposts : sha256 01a76e0b54543e7978e679853d63256b7fd5f6866b5b20730900ac3549d61c96 -> 79b042b97f2473d298d33ae24929d84af12eb4dae0ff523fca0c04082d846739
+~ _init_logging_signpost_modules : sha256 66e31a7690b633a0103e399e01a510716d947ef851ea28d95c3348b49fe71b05 -> 625f13742a5c7491136a4e30bebb8dcd93e8d6d7b438ae28e9f4a3ff443c0b45
+~ ___init_logging_signpost_modules_block_invoke : 608 -> 588
+~ +[ACCUserDefaults sharedDefaults].cold.1 : sha256 385ea8b9ae32ca69bbcbe960f34a0a1fc5ff4cf691aa7b9a27331542b77f780d -> f3946e1de6f68f14ec52aed0866061078ad64eeaf7f90c063823189df93d0198
+~ +[ACCUserDefaults sharedDefaultsIapd].cold.1 : sha256 3932b1cee7bf7a24b3bcc1b23f2e0ad0ce2214a906243641569d0d055cc37ffc -> 1d4e5a92df56abf81c3537117e4bcde053b44c3eb720ef506b9354e9f375c196
+~ +[ACCUserDefaults sharedDefaultsLogging].cold.1 : sha256 66d85760f7750d65945d5c8f79ce25b99a50924206dfcd793cff0f987288605f -> ce7a8869bce7cc576f4f64c7a2242779cc223d6da84647baeb9e51be0f2e9b4a
+~ -[ACCFeatureAudioProductService init].cold.1 : sha256 5d561af4994b957e16a47f274f85bab86e7f96ec8a45de4c66e2e803cc779331 -> 10327bb349927f026dbd63be3744b64a25fad307255d1e1e21de62e4d387048c
+~ -[ACCFeatureAudioProductService init].cold.2 : sha256 413db3e2e1e3a764dae05f21483472de22da1276f4f573228ab46ea3702b29ca -> 5babc11bec1a932e41129fe63f68d4513c30f940118d9eaba24110de151073a7
+~ -[ACCFeatureAudioProductService init].cold.3 : sha256 1560c9256900dc7349a8e862309bc76175410d0ad77a2adde6ea7597acb4c167 -> f7de57185ffa8a4ee4c2a44e1b3d3b653a0b892cf6a1ece8c0e43d238912eb85
+~ -[ACCFeatureAudioProductService dealloc].cold.3 : sha256 ec358bfcbebc6df4ad41ad526158597fc87ec1d68e31587587f444caa5daf5d3 -> 7e3ecb5b1fd8475403869ab61897a29a66b9119c29932bf5d2efdc3de81c8e51
+~ -[ACCFeatureAudioProductService processAudioProductCerts:forModel:firstConnectionAfterPair:connection:endpoint:completionHandler:].cold.3 : sha256 9f4c9afd83e837a280372bc6645d6c5fc46b825bb930fa94de310bd7d761c046 -> da2227f3874d00498bd96ca23b65b6b8f9c17fc619d257a683a9d2bf89e89a8a
+~ __logObjectForModule_block_invoke.cold.1 : sha256 a82b2f0c5c3a99749869c182533ad8fb7046d8bc0f2554a84d9eed9635521916 -> a158f470fb9cae3564683211892108fe1844c1d53d986e891066997a15c73a89
+~ __init_logging_modules_block_invoke.cold.1 : sha256 d833c1a50d38f43464e5a4fd7a2f73610bf3816ff2f09ce99d158a0eec1ea58f -> ad3f3fbd52bdd06f67df9a9dcd5eec5d3cd90b1d354e822ddc00be204bd193d3
+~ __init_logging_signpost_modules_block_invoke.cold.1 : sha256 3ded87b31bec93c7e6eeb5293595a76ec58b12f5bbd3def887a7b42110adfca9 -> 75c6a098eba14ffaefc58f855d36f16bbc4dc9e3e774ba6fcdca7a25db9f0ee7
+CStrings:
++ "PretendWirelessCTAMatch"
+
+```

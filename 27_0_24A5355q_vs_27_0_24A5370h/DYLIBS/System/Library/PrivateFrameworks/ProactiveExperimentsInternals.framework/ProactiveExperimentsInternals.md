@@ -1,0 +1,97 @@
+## ProactiveExperimentsInternals
+
+> `/System/Library/PrivateFrameworks/ProactiveExperimentsInternals.framework/ProactiveExperimentsInternals`
+
+```diff
+
+-1331.0.1.0.0
+-  __TEXT.__text: 0x1f30 sha256:09426192df68c55138959aea007232f9d105a7f34074c44155290b1924e27f22
+-  __TEXT.__objc_methlist: 0x234 sha256:f703cfeab6aae8a3d35bb63276e2550db0dd0eeb00d3f2a68335a23a1f1d1313
+-  __TEXT.__const: 0x90 sha256:031eef5b5e6b382bf9981f7f1702a96410c56d3b92f803b1020e5fdab01f3e14
++1334.0.1.0.0
++  __TEXT.__text: 0x1f10 sha256:edc126a99de60abe31c2efb40e394ec9aa885036a81c194b1790c9e57ee00cae
++  __TEXT.__objc_methlist: 0x234 sha256:ef7ba60943dcc2045a224986429e0dd298b96e2f40e8c176308545b9018dc3c6
++  __TEXT.__const: 0x90 sha256:acf4ff49b6b8014d5f0f0be6e4a5b8f9f7539c52099b3892e9bc08b45b54ff97
+   __TEXT.__dlopen_cstrs: 0x60 sha256:faa6bcfe72174fa76f0a45fca0edee582bd96d451f3c03fe9a251f4a52e912a7
+-  __TEXT.__gcc_except_tab: 0x5c sha256:53dda69738c5ba20990b8d48a1b01bad5e0daa274ef197b4ffd2eb827a9f6154
++  __TEXT.__gcc_except_tab: 0x5c sha256:67eb9fc4997562ffb96f593d393cd821ae7f802803e098aabcdcae9ad648012d
+   __TEXT.__cstring: 0x1b2 sha256:3adb86afb1a34b4b5052c5cfa86b317a5c1cc36150017fe44924b0a043ba6a6b
+   __TEXT.__oslogstring: 0x394 sha256:ef8f1256eeb70f5a6813081ba7f34cbb734da08078506dae79549b882ea9ff25
+-  __TEXT.__unwind_info: 0xf0 sha256:7743d04bc85376200ffe1a3e4917d6e1ccd85b1889866fedaf592fa579153c81
++  __TEXT.__unwind_info: 0xf0 sha256:da58f36bb87378a8bd1edc7a738e72c9df4a8ab5c1928cde6faf3de2175f0b7b
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x170 sha256:d614b5d669a9dd2f8af5d6e71afd1b8b78a89d292ce3534a1af6539ca6477036
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:8c90b98bfeadaf399cc2d73a64df08e5abb763ec33f8e64a193b35211021a6a6
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:12b2e5cf06c83cbb7679fd7ba53a2950615990f814908451cc753f8c82a5505e
++  __DATA_CONST.__const: 0x170 sha256:4a00422ac9245c845af829bb31e9252f7fd86896d68ae27e3a741f4c977b877f
++  __DATA_CONST.__objc_classlist: 0x20 sha256:0e9bba6da1b09eb4ce7b4d70cf08c06b6929c3e83a792b4a7df1fac7d05aa9ea
++  __DATA_CONST.__objc_protolist: 0x18 sha256:3d1ded03801aebbe354e738bbd07bb762c5354f4729b1b86acd5b32c95aca71d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x298 sha256:8b69d599b0652d91b9392b60baadd3428c812681d52f76b6f7ed69642d4392e3
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:81d19f5de7c5fd9b829ea6def336014e71afe2197938c540749e63521478cdf0
+-  __DATA_CONST.__got: 0xa0 sha256:663758992671168a03e50c3aa4f0380cb14ea30e42bdb1aac3ce8c775c55b8e0
+-  __AUTH_CONST.__const: 0xa0 sha256:b4f86d726232714a4e0aeaf443fc1fb55c1030265e21d5433e7d16ba82480f07
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:3ad865b7cbc2868e041a80dcf0e5be98de9877edac92ac5ed366af7908e36ad4
+-  __AUTH_CONST.__objc_const: 0x468 sha256:8892b6dd4002419452a2ec6b278926ae2f7b6c07b54f6d130b8878377dc5d3e8
++  __DATA_CONST.__objc_selrefs: 0x298 sha256:6ff20274ae20bfb64520549786e68c0a1e5c4e0005925c465026dea6e51c5dc0
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:1118458fe17f0e2c865679fc3afb336f01dd3972c58c39d840872730e7dd7052
++  __DATA_CONST.__got: 0xa0 sha256:a4434530f2deb567ac2a28dd01108a24979f9ecf33067b6f30409c391026d56f
++  __AUTH_CONST.__const: 0xa0 sha256:5c30e108e476bd152ad893c746d0544086c4e8e7f16c120bf7ad1311559bddb2
++  __AUTH_CONST.__cfstring: 0xc0 sha256:79bcc555d86d4f96c235d08cfc32e9a4bd10d94fb16329ec0095b7d374414f77
++  __AUTH_CONST.__objc_const: 0x468 sha256:c94c5616fcc0c92550128cd2ecf480388721cd3cc300c6accfd4ef31325136f9
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:7c51b29133a80f8323b96acde535c26278b89c5864ed2c4ded5e6f83a88ad2b7
++  __AUTH.__objc_data: 0xa0 sha256:44a93950dc1bd9ec9ed6bf814e3241333adcfe06f6df4b44985fd3a766d63c79
+   __DATA.__objc_ivar: 0xc sha256:2e5c9862856b0c6f8e0cea23282dc6a269bad2a2cc34aa0668a8eeae66326835
+-  __DATA.__data: 0x120 sha256:c94ac2f17ff042f6ff68c87221e60ddbebf4aa921272310c5b0d268c60436c78
++  __DATA.__data: 0x120 sha256:34ffa53a2f54c710ed7a57cf68327502d78a917be09429d078013797244312cc
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:0d97d7defaad121cfe6b26954eb90e6fbb7c560ecd8fd2b53812a6f86dd215ed
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:0c54656923d2eaf5d2e2e9504f5b5bf38565b0c181d0eacd58903eaf6af15ed2
+   __DATA_DIRTY.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F5954740-745D-3FC9-9B62-CB4636195B15
++  UUID: 8D174A35-43EE-3A23-BA69-E7769ADB2A89
+   Functions: 32
+   Symbols:   275
+   CStrings:  41
+Functions:
+~ -[PREResponsesServerDelegate listener:shouldAcceptNewConnection:] : sha256 37da8779c7c5fb8c9b6de9e6f3876fb0812a89cb0ed65a779167a9d8d990fbdd -> ee91f30c67d972951f5751555d5bc4fe5af807c0d2dc6e6a36008835b8636e55
+~ ___65-[PREResponsesServerDelegate listener:shouldAcceptNewConnection:]_block_invoke : sha256 324671909814893b6b28d668d08ef257f6006847554b415e21ec3a21f117fde3 -> d73b335c849b92a624ef6a7aee5ace017437edec823487b97abe5f48f94b68f4
+~ ___65-[PREResponsesServerDelegate listener:shouldAcceptNewConnection:]_block_invoke.32 : sha256 659b5bcd4fcd12ed675dfe5bc8acd4e44326e13742bd0b583e8b9a156ddbb1f2 -> fe6ba94d7a82778651d4fc2d1c68b638f7b37f925e3af6ec203c3b01727baac4
+~ -[PREResponsesServerRequestHandler setRemoteObjectProxy:] : sha256 1f4f249311566633ee3bab9073a088c14473bf590be1aa6e34d574419d1e1a20 -> 4d73a6f23b4163c30c069fd6525a5449dffb584cb0b64dd2e5b61b11b99041b4
+~ -[PREResponsesServerRequestHandler preResponseItemsForMessage:maximumResponses:conversationTurns:context:time:language:recipientHandles:modelFilePath:modelConfigPath:espressoBinFilePath:vocabFilePath:registerDisplayed:includeCustomResponses:includeResponsesToRobots:completion:] : sha256 168e37792b6397c46487cdc5ab975c792b9aa41fc269369f36c9787f6f3ed07b -> 92d20a3489b6627ca706ffed58820972f50c9a86a71705e3529149d0b7aee72d
+~ -[PREResponsesServerRequestHandler predictForMessage:conversationTurns:language:plistPath:espressoBinPath:vocabPath:heads:completion:] : 828 -> 824
+~ ___134-[PREResponsesServerRequestHandler predictForMessage:conversationTurns:language:plistPath:espressoBinPath:vocabPath:heads:completion:]_block_invoke : sha256 dd3d20ad9c84b33e96f67391772ca106d358ff6c4361b3a0c39baadcdaf35b7c -> 190ae10214e877d1fb5be8a6fa5e873fda47f43ba0041331485f1ccd05375581
+~ -[PREResponsesServerRequestHandler preResponseItemArrayFromQuickResponses:] : 968 -> 940
+~ -[PREResponsesServerRequestHandler registerResponse:position:isCanned:isUsingQuickResponses:locale:modelConfigPath:vocabPath:] : sha256 bdf30c732c0052504de241f6ea7cfc3123c1bf7f0032757fa976bffcfa042179 -> bb64f798f72e7f8b54dc5e9281f5c38e133ea604029b864a758e3bbfd3655346
+~ -[PREResponsesServerRequestHandler setClientProcessName:] : sha256 feb6d3b261e60f001be4e9b75e4c50a68b3d03cf0def07176ff379191f59065b -> bca6f0bf36586f55870f9e3de01deecf900e06c851ce800a3795cdc690bfee60
+~ -[PREResponsesServerRequestHandler setBundleIdResolver:] : sha256 63640a5946a397b40abd8459f53671e6e80cdbff7d89c0cfa0b7d2566cc456d5 -> 245d85f2023e3aec56c6d691327396989e4d17d3a35cc7e36f50a5a64ce077ab
+~ -[PREResponsesServerRequestHandler .cxx_destruct] : sha256 073530055ea537e1d578402574006fd0fcde3af7dd0c3d7ff29a84ec3b075104 -> 550687085352ae3af9d2df858a99255d0f97c0a2aa77577d55173d9725ef35d6
+~ ___getSGMultiHeadInferenceClass_block_invoke : sha256 68f9414f14e4842a6830ec1906a460f66feec48487960201fbbd1b8a8e963493 -> daac38f60b96d01df68d54393ff1fe98ae27e604922edcac1bc45421bde46edf
+~ ___CoreSuggestionsMLLibraryCore_block_invoke : sha256 c679d3047937b3468690c78e5861105752043e3c16656f042c4090423384a1bc -> 8cb4db24a3f659cce4ce63d005f7b9af9e6070191c13b5168f6c6d2bd5f3e13c
+~ +[PREXPCServerHelper shouldAcceptConnection:serviceName:whitelistedServerInterface:requestHandler:validateConnection:setupClientProxy:interruptionHandler:invalidationHandler:] : sha256 414588ac04c0b91bcfd33e62df0900fa7646aab5f8571567c2d7610f0d8db526 -> eba82e422303aef636fbe58c9d75533b92d4148a31f60b62bf5aa13f4c4a2a02
+~ _procNameForPid : sha256 4780191d2fe9d86f8484f43c51ea11b6c441665967c9ec260faac069b6378fce -> 640d99008388c10ad9dbfdd3b448894d950ff3ecc3ac3f0e20c1637c574e63db
+~ ___175+[PREXPCServerHelper shouldAcceptConnection:serviceName:whitelistedServerInterface:requestHandler:validateConnection:setupClientProxy:interruptionHandler:invalidationHandler:]_block_invoke : sha256 2cca149d63fb8621af7cdae491fd3cc98075aaf7ee496ba2b94917316b9e8dca -> c415e3298027ce9f7a449d4a9c643deed2819c0c8a2c984615e6ef5ba68dc7e3
+~ ___175+[PREXPCServerHelper shouldAcceptConnection:serviceName:whitelistedServerInterface:requestHandler:validateConnection:setupClientProxy:interruptionHandler:invalidationHandler:]_block_invoke.5 : sha256 57455072a469ee6ae622b5130e05fc96086a2859b4aaaddb59fbcd5e47ffc735 -> a4736b3bc1f03def513f9ec96917a5157fed181b2c84f7783c99a9732fae19cb
+~ +[PREXPCServerHelper hasTrueBooleanEntitlement:connection:] : sha256 9cdfb9b27682b06a42506ba8f98cff5530ef3c173d2a7237b355f97df69420ec -> b9aee31f489a2f66d0dde4ba7b3d436853964bb6049ae8b4253948255431758c
+~ +[PREXPCServerHelper checkForAndLogTrueBooleanEntitlement:connection:serviceName:] : sha256 20fd3ccb65e3368269af11ae098c4cc394ebc81f86bf2a6c012b53c8fbbef86c -> 93a101a4c1b42f03c9ea71b0d1d7e3d996cf83f9036bf8d743c1721dbf1cc7c1
+~ _pre_sv_xpc_handle : sha256 9b0ff67500cfce401fd129f22bb8d15a8ee35f0525cfa0a173eceb939412699e -> 6e6d89563d9d66a042bd3c999b4523ef4eec428022e8e0c3a78c1183fcad3b44
+~ ___pre_sv_xpc_handle_block_invoke : sha256 725370842424b07c5c4e0e081e603b1d39a02e1d05973a73c79a059e83c1bec0 -> 8e090940185c0ba8e88d430f8881bd14172b7b5461c0e79cedbc71731dd6463c
+~ _pre_sv_responses_handle : sha256 962e592248e53dd8bc103d533309984d62d9865ecf16de634220b680d9c45409 -> ca4814620184e248432c01644b6e2841e32fd47a0058c4d1299fa9f88858bfb5
+~ ___pre_sv_responses_handle_block_invoke : sha256 5f1c9e691fae93f2b408399d12e382e0cd76d3e66a02f627fbaa8c98d8f57873 -> 57c8831503fe020f2be7d543c9c8c3fb14da008bc08b86886296b741b305fb11
+~ +[PREXPCServer registerPREXPCListeners] : sha256 1ff84a9db08d676281bd3b1dbffab4aa30530a58c9e9344f35d4798c13055730 -> 2bd4ce6d9a13cfc38b3008d7cba112715cef71fc9188fc7ad4a204f42f0c0bdc
+~ ___39+[PREXPCServer registerPREXPCListeners]_block_invoke : sha256 05462ff886f6b2ea8896a748b10a7f790442630ccbd882a97a318ffffa6429a5 -> 296644234b593a98cc591e56a4593078b2d83419a23d38d9afc08c773f6f231f
+~ ___39+[PREXPCServer registerPREXPCListeners]_block_invoke_2 : sha256 b8a1e61be0b8770332fde36b81d03e5eda67b27fc97237b62a5fb314fcfc05d9 -> 5a8994801d45fac7e97e266dd6ee652ec215088a5d683bd020ccc3dabce7ec87
+~ +[PREXPCServer _registerResponsesListener] : sha256 9f2d3115cc60cf02591e84b82f83321378148d5e78b5ab534cc1f14772a5817a -> ea432ebc97adb60fd0210e3fcc460aedc7bd49eb6c4d5a7b6f8c60a4eba3f13c
+
+```

@@ -1,0 +1,71 @@
+## iboot_blob34.bin
+
+- `%s supportVoltageShutdown asserted, shutdown requested`
+- `RS: TX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; swapT`
+- `RS: RX: RS_EVT_ACCESSORY_UNTETHERED; invoke poutTriggerSet`
+- `ACSt: boot AC`
+- `ACSt: Failed to read SOC1`
+- `ACSt: Shdwn 0x%x`
+- `RS: RX: RS_EVT_HLOS_BOOTED; invoke poutTriggerSet`
+- `RS: TX: RS_EVT_ACCESSORY_ATTACHED`
+- `RS: TX: RS_EVT_ACCESSORY_DETACHED; loadFirmware(RX)`
+- `inValid Op %d`
+- `smc/i2c.cpp`
+- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED;  wait for CHC`
+- `RS: TX: RS_EVT_TX_FW_SUSPENDED (Idle); swapToRxMode`
+- `RS: RX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; invoke poutTriggerSet`
+- `BAUTH: Invalid key %x`
+- `smc/event_buf.cpp`
+- `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Reject(%d); stay in RX mode`
+- `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; swapToRxMode`
+- `RS: RX: RS_EVT_ACCESSORY_DETACHED`
+- `RS: TX: RS_EVT_TX_CHIME_HONESTY_COMPLETED; Pout=%d; IBCloakAvailable;=%d`
+- `dram_region_assume`
+- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)>=Thrsld(%d); stay in TX mode`
+- `POP: TXFW: %s: ramp: %u (targ) | %lld %+lld => %u (program)`
+- `ACSt:okBootAP_OS: %d, BattPwr: %d, ACPwr: %d, FixtureMode: %d`
+- `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Accept; loadFirmware(TX)`
+- `RS: RX: RS_EVT_WAIKATO_MITIGATION_READY; invoke poutTriggerSet`
+- `RS: RX: RS_EVT_DEVICE_TETHERED; invoke poutTriggerSet`
+- `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Accept; loadFirmware(RX)`
+- `RS: TX: RS_EVT_POUT_CAPABLE`
+- `smc/inductive/inductivePoutPolicy.cpp`
+- `ACSt: OSpend Exp`
+- `RS: TX: RS_EVT_DEVICE_UNTETHERED: start poutUntethered timer for %llu ms`
+- `st %d wk %u/%d`
+- `RS: RX: RS_EVT_DEAD_ACCESSORY_CLEARED; invoke poutTriggerSet`
+- `smc/bms/v1/battery_auth/battery_authentication.cpp`
+- `invalid command '%u'`
+- `ACSt: iBoot HP %d Lp %d OS=%d ACSt 0x%02x AC %d GG %d ACPW %d SOC1 %d SMCFixturePresent %d`
+- `RS: TX: RS_EVT_FW_DOWNLOADED: device untethered; start poutUntethered timer for %llu ms`
+- `%s: RTK_mc_assume returned != RTK_ST_OK `
+- `BAUTH: task out of sync`
+- `smc/extPwriOS.cpp`
+- `ACSt: ACpend Exp %d mS `
+- `POP: TXFW: %s: drct: %u (targ) | %u (program)`
+- `RS: RX: RS_EVT_POUT_ABOVE_THRESHOLD; poutTriggerSet`
+- `POP: TXFW: pout_set_power_limit failed; ret=%d`
+- `ACSt BattTrap: okBootAP_OS: %d, ExitBattPwr: %d, ExitACPwr: %d`
+- `smc/forceKeyAccess.cpp`
+- `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Reject(%d); stay in TX mode`
+- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)<Thrsld(%d); swapToRxMode`
+- `%s: RTK_mc_release returned != RTK_ST_OK `
+- `RS: RX: RS_EVT_FW_DOWNLOADED received; invoke poutTriggerSet`
+- `RS: RX: RS_EVT_ACCESSORY_ATTACHED`
+- `auth IC communication failure (%x)`
+- `RS: TX: RS_EVT_HLOS_BOOTED`
+- `op:rc:%d, err:%d`
+- `RS: RX: RS_EVT_DEAD_ACCESSORY_DETECTED; invoke poutTriggerSet`
+- `RS: TX: RS_EVT_DEVICE_TETHERED: cancel poutUntethered timer (%llu)`
+- `ACSt: boot !AC`
+- `dram_region_release`
+- `BAUTH: kick out of sync`
+- `RS: TX: CHC: Pout(%d)<Thrsld(%d) AND Ironbull cloak not available; swapToRxMode`
+- `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; wait for CHC`
+- `ACSt: AC present`
+- `RS: RX: RS_EVT_POUT_CAPABLE; invoke poutTriggerSet`
+- `dram_region_map_region`
+- `configureTxPout`
+- `RS: RX: RS_EVT_DEVICE_UNTETHERED; invoke poutTriggerSet`
+- `RS: TX: RS_EVT_WAIKATO_MITIGATION_READY; do nothing`
+- `smc/inductive/inductiveRoleSwap.cpp`

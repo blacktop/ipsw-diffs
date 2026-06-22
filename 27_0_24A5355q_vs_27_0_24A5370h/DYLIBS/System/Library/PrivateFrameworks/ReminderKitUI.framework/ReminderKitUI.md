@@ -1,0 +1,247 @@
+## ReminderKitUI
+
+> `/System/Library/PrivateFrameworks/ReminderKitUI.framework/ReminderKitUI`
+
+```diff
+
+-4034.15.0.0.0
+-  __TEXT.__text: 0x7d9c sha256:7ceac9b6adafdf7886ee4df99526203162fbabd59afcde95587c2e3dc1340828
+-  __TEXT.__objc_methlist: 0x540 sha256:ebc5c8485adfcdc72bded761565e7252c7abc430b2988637ce37e0d0345823ce
+-  __TEXT.__const: 0x568 sha256:42efa4fba3398cdf3272a57ec486a5659254a3fc703b00036122814900069236
+-  __TEXT.__cstring: 0x340 sha256:69ffe8835163506c20299a21f231523c88686e854940262a37f7c329eae5ceeb
+-  __TEXT.__gcc_except_tab: 0x18 sha256:d251b50ec2c97815626635e75975441477c699a1c0d2f6864311da1b554873c5
+-  __TEXT.__oslogstring: 0x1c0 sha256:92e60675931a38dd5c61efd96108f92ae0a99560be4914b2860f8b966b54e9f9
+-  __TEXT.__swift5_typeref: 0x22c sha256:d3effd412abb6221eeeee273b1ed508b77b40fc724a633bf5671ea53c44541d0
+-  __TEXT.__swift5_reflstr: 0x1ed sha256:7d4b0cd0f1b2094312f6dda2e0bed450822140fea080ff1fbb727ebc73415fb4
+-  __TEXT.__swift5_assocty: 0x50 sha256:dddff1fd8af397569b79eaa7b20c4e527ce1f208822fa0fd5a3d3cc9cbf1e9ea
+-  __TEXT.__constg_swiftt: 0x2fc sha256:9ae0cb10478bd1ac7dd6c93ca4d272033286686adebb84d2b29c31397a3b2017
+-  __TEXT.__swift5_fieldmd: 0x204 sha256:fa5bf79c36e6df3d2663f22fa41bb68e601780fa110db8bb1afb3004a6d1d133
+-  __TEXT.__swift5_proto: 0x2c sha256:682f07b50ee84298ede1e422beee74a87dbafddce603e2b0d4bffd7a59d1977f
+-  __TEXT.__swift5_types: 0x24 sha256:5d5ca6c08ad0096cecc08c0fed1aea7c572f0703e6781b75079dd4d6b03673a9
+-  __TEXT.__swift5_protos: 0xc sha256:f93e3d8e9dd1e45e3d41d10007d590c02a4a1a1b23a6e74eac89ee23d5df2e31
+-  __TEXT.__swift5_builtin: 0x14 sha256:742131b4855e23c17e01c1ab5e1e86d65d66928b499e9488253532c457085b09
+-  __TEXT.__swift5_mpenum: 0x8 sha256:1b06de61eb481bbb7a2789d1d3fb1152442d7c2bcd924c8857a10c9c39a19c31
+-  __TEXT.__swift5_capture: 0x14 sha256:e1f04763618ca32ecacbd5a406b21b7bb9103da4906eb9d245e5627d00d36a8d
+-  __TEXT.__unwind_info: 0x368 sha256:d94f73c6f40ec6249cdfe56432363a146045ed83351aec56e9151a00b9a4a2d5
+-  __TEXT.__eh_frame: 0x40 sha256:bd3f615615896dcb67ad3451c67b70be89fb0b232fae7523eecfef8e0129948c
++4037.1.0.0.0
++  __TEXT.__text: 0xb5d0 sha256:860e15835f1072f5d38881d43ff6aec6e226f1401faabc3827f8a0d71a5b5865
++  __TEXT.__objc_methlist: 0x638 sha256:ca125d91d31a4f291d9e1c0ad002ea1553fcce78db075856df9fa0d11ca2721d
++  __TEXT.__const: 0x85c sha256:476f2fbfcf765461840ef54259bf805f1b0bb8681907ba4f08c26770405538df
++  __TEXT.__cstring: 0x332 sha256:f40120488b133546d56a81b71967e34f6a95116d976371fc38a87f7acbda8dd1
++  __TEXT.__gcc_except_tab: 0x98 sha256:54e16c077256b8944b0fae611d133ce64db8e36bfce9b1ac300271414653d895
++  __TEXT.__oslogstring: 0x2d0 sha256:b11f9ff7f502f3500fcd90e87b7e10370232e825dce271979ffe793a25773082
++  __TEXT.__swift5_typeref: 0x309 sha256:e7180feab44b8e3c351452c0f59d04478724defd77b7cd92956c6e471183d3b3
++  __TEXT.__swift5_reflstr: 0x302 sha256:30a075d54908410c2a0eb5a89af31e92aee9e6ebc2883eb320ea1275e6c02265
++  __TEXT.__swift5_assocty: 0x68 sha256:0728ea6fd944c04058474f165125ab89c53cf60f05f10c433f8f9440565843af
++  __TEXT.__constg_swiftt: 0x3b4 sha256:48978bba46b67e8cfda8a6751625355a71807a7343ecd1752346f75267b40777
++  __TEXT.__swift5_fieldmd: 0x2f8 sha256:ef9ddb8791a6150831b112cfb247bc6bac5b2f970895be6f272cc8a11193c85e
++  __TEXT.__swift5_builtin: 0x28 sha256:3b5817e0d74e876a94bc65e79250a43ba001624b0b624a2d759a765a0f6578dc
++  __TEXT.__swift5_proto: 0x5c sha256:be61ba15abc219d35301c59245f9146741346ffb7e25e01292605809dc95f06c
++  __TEXT.__swift5_types: 0x38 sha256:855e5dd6615a4f71c89640ecca714ac1abb23c4377cb33c35dfa902df6985574
++  __TEXT.__swift5_protos: 0xc sha256:7303dc995e584a508d28a486408c5786ca5311a4fb8a066caa975fcf5ceb3222
++  __TEXT.__swift5_capture: 0x60 sha256:3092f1444f1f3ee5556a9f4f197fb20bc90409fdc5013a76df8be05a5979426d
++  __TEXT.__swift5_mpenum: 0x8 sha256:b421446aaf299004af30eec4398c05a2c01169278e9fd75340f2f21d54bb6b76
++  __TEXT.__unwind_info: 0x480 sha256:f61e8383593891053dd6c6db5c8c8ec4273535797b1343f7cdd629f4568f8501
++  __TEXT.__eh_frame: 0x148 sha256:d3255bfa82fcd61dd536a0d1e8724a57b48b43c4eb274f523678969ff1ddce39
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xe0 sha256:eb1758f3b3508a9c1289f46fbb3386cd1acf7533d6c432c8e8e3d671ab22738d
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:2e67d849b132f9d861b43cd1cb1da65dfbc2b9ead4a914f60015e12ec5601341
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:b4cfb649914209b7f5cd870974389657ef775b732a3eba0f7ce076a7d9e05973
+-  __DATA_CONST.__objc_protolist: 0x38 sha256:437f35c8e211a02436446ff59bdb75032e1df9f3e51f1aa47c59ce7fbc6f1959
++  __DATA_CONST.__const: 0x130 sha256:d7c526b8581cf8dffaffc2c313988b75d3177489678962f367f01a5169ccae99
++  __DATA_CONST.__objc_classlist: 0x40 sha256:c1d6041c63e41847fc72588ffa6778d160056ba628b75d25ae6bd2dcf0561b7c
++  __DATA_CONST.__objc_catlist: 0x8 sha256:b4a4c6fff73013bf8ed3c04236ea5c45d0c29afcdd4efe4477699d8345c5ba6d
++  __DATA_CONST.__objc_protolist: 0x58 sha256:d2532db7510f6bb1c870585b4360a386c7676c053282d3bef33063262cf241e1
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x478 sha256:19a2d0c6483644a1a731e47c60049ef9f36951b2bb7343e98628711e424317cb
+-  __DATA_CONST.__objc_protorefs: 0x20 sha256:b26f24d844db26fea070926eca4151dc563930851be30972a8046869a8ebc7a7
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:cd1f9f3c42d2a69c802bc257aadf9a2f6966be40a625794e11ce282f079853c8
+-  __DATA_CONST.__got: 0x148 sha256:5d2c17e733c16760f0ef41f0a541124627a7951513b3a01e288e9d0a7ca70da3
+-  __AUTH_CONST.__const: 0x458 sha256:dd1b16175f5692f30411bc0a873147de208823eaa0f1cebe598c083559da399f
+-  __AUTH_CONST.__cfstring: 0x1c0 sha256:ef858748acede0d04d5d55692ba97f51d4c115f237041110d51235d1310b2672
+-  __AUTH_CONST.__objc_const: 0x9b8 sha256:7cd93e2dd1ae62b78b32cbead0ea8d0af36bcafdc3a04bd9343ff78d34453a6f
+-  __AUTH_CONST.__auth_got: 0x3f0 sha256:a9e080790cc3b9e7a988324b4ec1cc1432a8f43cf897c78318943a0670f171f6
+-  __AUTH.__objc_data: 0x278 sha256:7ef21c26386daffd1e33bc15009985ab5cef4410c8d347855f32042bb62f7758
+-  __AUTH.__data: 0x1e0 sha256:522bb9fdd05482e636d41b5b33664b557f37676701dc8f383375f22ae29ae68d
+-  __DATA.__objc_ivar: 0x44 sha256:e8b17e0f371122600df16a16fd20fb8b172265a7630a27cb83feff61e6034719
+-  __DATA.__data: 0x390 sha256:c8b0901bf47de29214fac2407db64c55094499ee3ce4f07056155ecae5488f22
+-  __DATA.__bss: 0x400 sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
++  __DATA_CONST.__objc_selrefs: 0x4d8 sha256:6cbcf936e0bdc934124e1f35495bd516d20d2a780df8eb09e140d3aac1c31fae
++  __DATA_CONST.__objc_protorefs: 0x38 sha256:ed38c5d75cf5c635520e487f271e1ce887eda6f0bc5be6015619ecf721df34dc
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:abac9f821cea8949cf7b6d8cc04991948d82ac2796d5a7e75e1004c946d89cc5
++  __DATA_CONST.__got: 0x178 sha256:eb6d6eb1e1c5fe6f9fac43909ab803401f129ca9e9a043b6ebeb597b94445183
++  __AUTH_CONST.__const: 0x7b1 sha256:ee157c1bad84f6ef36bd5eacc78b13d03dfdefdaa19371fcb57854435d27ed6c
++  __AUTH_CONST.__cfstring: 0x1e0 sha256:04d8da62f15e566851657f891fbc181443f56697bc1f34f2c00032cf16b38e3c
++  __AUTH_CONST.__objc_const: 0xb40 sha256:4968648b3726baf4b604be273ad91378bf68c8a5e4c83e70ee8d744db572e9a6
++  __AUTH_CONST.__auth_got: 0x550 sha256:e5fa86d863f367b89108b44b23ea6b051f772ee32636442cc4dc9f5de35c44d7
++  __AUTH.__objc_data: 0x2d8 sha256:4b7f59af327b633ce52300c3c778930f2f3d4f133c4b2b40cd2da139ffe32ec4
++  __AUTH.__data: 0x260 sha256:6798a36f8ec5232fc25c98cd7447a6dad011e6f3a1e55d82974cbf5843b8dfaf
++  __DATA.__objc_ivar: 0x48 sha256:f795ef15799eaec1ef1a7509a2fccf73d339bea532001e58918ef2a8af016b61
++  __DATA.__data: 0x550 sha256:a0f78d1f1acd1dc6cc756eaca041fe4bd1e5dd2855835955ca98cc18e1d2f85c
++  __DATA.__bss: 0xa00 sha256:8ce8ba8e726ee8925e6560d86ac35be1097691d1cfac888e6bd20e804ea9eb15
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 705408AD-C818-39D3-B751-AFAF3DB9B558
+-  Functions: 345
+-  Symbols:   639
+-  CStrings:  45
++  UUID: 8B5C3CEC-943B-373E-96F8-A1D6A35D5667
++  Functions: 461
++  Symbols:   782
++  CStrings:  52
+ 
+Symbols:
++ +[NSXPCInterface(REMRemindersShareSheetViewServiceInterfaces) _rem_applyReminderCreationServiceViewControllerClasses:]
++ +[NSXPCInterface(REMRemindersShareSheetViewServiceInterfaces) _rem_applyShareSheetRemoteViewControllerClasses:]
++ +[NSXPCInterface(REMRemindersShareSheetViewServiceInterfaces) _rem_applyShareSheetServiceViewControllerClasses:]
++ +[NSXPCInterface(REMRemindersShareSheetViewServiceInterfaces) rem_combinedViewServicesRemoteViewControllerInterface]
++ +[NSXPCInterface(REMRemindersShareSheetViewServiceInterfaces) rem_combinedViewServicesServiceViewControllerInterface]
++ +[REMRemindersShareSheetEmbedder embedShareSheetInHostViewController:publicViewController:reminderStorages:changedKeys:destinationPreference:specificListID:configurationData:setupCompletion:]
++ +[REMRemindersShareSheetEmbedder embedShareSheetInHostViewController:publicViewController:reminderStorages:changedKeys:destinationPreference:specificListID:configurationData:setupCompletion:].cold.1
++ +[REMRemindersShareSheetEmbedder embedShareSheetInHostViewController:publicViewController:reminderStorages:changedKeys:destinationPreference:specificListID:configurationData:setupCompletion:].cold.2
++ -[REMReminderCreationRemoteViewController setShareSheetPublicViewController:]
++ -[REMReminderCreationRemoteViewController shareSheetPublicViewController]
++ -[REMReminderCreationRemoteViewController shareSheetViewServiceViewController]
++ -[REMReminderCreationRemoteViewController viewServiceDidCommitWithReminderIDs:]
++ _CGSizeZero
++ _OBJC_CLASS_$_REMReminderChangeItem
++ _OBJC_CLASS_$_REMReminderStorage
++ _OBJC_CLASS_$_REMRemindersShareSheetEmbedder
++ _OBJC_IVAR_$_REMReminderCreationRemoteViewController._shareSheetPublicViewController
++ _OBJC_METACLASS_$_REMRemindersShareSheetEmbedder
++ __OBJC_$_CLASS_METHODS_REMRemindersShareSheetEmbedder
++ __OBJC_$_INSTANCE_METHODS__TtC13ReminderKitUI36REMRemindersShareSheetViewController(ReminderKitUI)
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_REMRemindersShareSheetPublicViewController
++ __OBJC_$_PROTOCOL_METHOD_TYPES_REMRemindersShareSheetPublicViewController
++ __OBJC_$_PROTOCOL_REFS_REMReminderViewServicesCombinedRemoteViewController
++ __OBJC_$_PROTOCOL_REFS_REMReminderViewServicesCombinedServiceViewController
++ __OBJC_CLASS_PROTOCOLS_$__TtC13ReminderKitUI36REMRemindersShareSheetViewController(ReminderKitUI)
++ __OBJC_CLASS_RO_$_REMRemindersShareSheetEmbedder
++ __OBJC_LABEL_PROTOCOL_$_REMReminderViewServicesCombinedRemoteViewController
++ __OBJC_LABEL_PROTOCOL_$_REMReminderViewServicesCombinedServiceViewController
++ __OBJC_LABEL_PROTOCOL_$_REMRemindersShareSheetPublicViewController
++ __OBJC_METACLASS_RO_$_REMRemindersShareSheetEmbedder
++ __OBJC_PROTOCOL_$_REMReminderViewServicesCombinedRemoteViewController
++ __OBJC_PROTOCOL_$_REMReminderViewServicesCombinedServiceViewController
++ __OBJC_PROTOCOL_$_REMRemindersShareSheetPublicViewController
++ __OBJC_PROTOCOL_REFERENCE_$_REMReminderViewServicesCombinedRemoteViewController
++ __OBJC_PROTOCOL_REFERENCE_$_REMReminderViewServicesCombinedServiceViewController
++ ___191+[REMRemindersShareSheetEmbedder embedShareSheetInHostViewController:publicViewController:reminderStorages:changedKeys:destinationPreference:specificListID:configurationData:setupCompletion:]_block_invoke
++ ___191+[REMRemindersShareSheetEmbedder embedShareSheetInHostViewController:publicViewController:reminderStorages:changedKeys:destinationPreference:specificListID:configurationData:setupCompletion:]_block_invoke.3
++ ___191+[REMRemindersShareSheetEmbedder embedShareSheetInHostViewController:publicViewController:reminderStorages:changedKeys:destinationPreference:specificListID:configurationData:setupCompletion:]_block_invoke.cold.1
++ ___191+[REMRemindersShareSheetEmbedder embedShareSheetInHostViewController:publicViewController:reminderStorages:changedKeys:destinationPreference:specificListID:configurationData:setupCompletion:]_block_invoke.cold.2
++ ___block_descriptor_48_e8_32bs40r_e30_v32?0"NSError"8{CGSize=dd}16lr40l8s32l8
++ ___block_descriptor_48_e8_32s40r_e77_v32?0"<NSCopying>"8"REMReminderCreationRemoteViewController"16"NSError"24lr40l8s32l8
++ ___block_descriptor_96_e8_32s40s48s56s64s72bs80r_e77_v32?0"<NSCopying>"8"REMReminderCreationRemoteViewController"16"NSError"24lr80l8s72l8s32l8s40l8s48l8s56l8s64l8
++ ___swift__destructor
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.7
++ ___swift_closure_destructorTm
++ ___swift_memcpy48_8
++ ___swift_project_boxed_opaque_existential_1
++ __swiftEmptyDictionarySingleton
++ __swiftImmortalRefCount
++ _associated conformance 13ReminderKitUI36REMRemindersShareSheetViewControllerC17WireConfiguration33_3CC6A07B062BDB4E67ED93B4E9DD37C6LLV0I11LayoutStyleOSHAASQ
++ _associated conformance 13ReminderKitUI36REMRemindersShareSheetViewControllerC17WireConfiguration33_3CC6A07B062BDB4E67ED93B4E9DD37C6LLV10CodingKeysOSHAASQ
++ _associated conformance 13ReminderKitUI36REMRemindersShareSheetViewControllerC17WireConfiguration33_3CC6A07B062BDB4E67ED93B4E9DD37C6LLV10CodingKeysOs0U3KeyAAs23CustomStringConvertible
++ _associated conformance 13ReminderKitUI36REMRemindersShareSheetViewControllerC17WireConfiguration33_3CC6A07B062BDB4E67ED93B4E9DD37C6LLV10CodingKeysOs0U3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.10
++ _block_copy_helper.17
++ _block_copy_helper.3
++ _block_copy_helper.32
++ _block_descriptor.12
++ _block_descriptor.19
++ _block_descriptor.34
++ _block_descriptor.5
++ _block_destroy_helper.11
++ _block_destroy_helper.18
++ _block_destroy_helper.33
++ _block_destroy_helper.4
++ _bzero
++ _memmove
++ _objc_moveWeak
++ _objc_msgSend$_rem_applyReminderCreationServiceViewControllerClasses:
++ _objc_msgSend$_rem_applyShareSheetRemoteViewControllerClasses:
++ _objc_msgSend$_rem_applyShareSheetServiceViewControllerClasses:
++ _objc_msgSend$changedKeys
++ _objc_msgSend$copy
++ _objc_msgSend$displayShareSheetWithReminderStorages:changedKeys:destinationPreference:specificListID:configurationData:completion:
++ _objc_msgSend$embedShareSheetInHostViewController:publicViewController:reminderStorages:changedKeys:destinationPreference:specificListID:configurationData:setupCompletion:
++ _objc_msgSend$objectID
++ _objc_msgSend$rem_combinedViewServicesRemoteViewControllerInterface
++ _objc_msgSend$rem_combinedViewServicesServiceViewControllerInterface
++ _objc_msgSend$setShareSheetPublicViewController:
++ _objc_msgSend$shareSheetPublicViewController
++ _objc_msgSend$shareSheetViewServiceViewController
++ _objc_msgSend$storage
++ _objc_msgSend$viewServiceDidCommitWithReminderIDs:
++ _objc_retain_x21
++ _objc_retain_x22
++ _objc_retain_x23
++ _objc_retain_x28
++ _objc_retain_x9
++ _swift_beginAccess
++ _swift_dynamicCastObjCClass
++ _swift_getForeignTypeMetadata
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x26
++ _swift_retain_x26
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _symbolic SDySo11REMObjectIDCShySSGG
++ _symbolic SS
++ _symbolic SaySo18REMReminderStorageCG
++ _symbolic ShySSG
++ _symbolic So11REMObjectIDCSg
++ _symbolic _____ 10Foundation4DataV
++ _symbolic _____ 13ReminderKitUI36REMRemindersShareSheetViewControllerC11WirePayload33_3CC6A07B062BDB4E67ED93B4E9DD37C6LLV
++ _symbolic _____ 13ReminderKitUI36REMRemindersShareSheetViewControllerC17WireConfiguration33_3CC6A07B062BDB4E67ED93B4E9DD37C6LLV
++ _symbolic _____ 13ReminderKitUI36REMRemindersShareSheetViewControllerC17WireConfiguration33_3CC6A07B062BDB4E67ED93B4E9DD37C6LLV0I11LayoutStyleO
++ _symbolic _____ 13ReminderKitUI36REMRemindersShareSheetViewControllerC17WireConfiguration33_3CC6A07B062BDB4E67ED93B4E9DD37C6LLV10CodingKeysO
++ _symbolic _____ So43REMRemindersShareSheetDestinationPreferenceV
++ _symbolic _____Sg 13ReminderKitUI36REMRemindersShareSheetViewControllerC11WirePayload33_3CC6A07B062BDB4E67ED93B4E9DD37C6LLV
++ _symbolic _____SgXw 13ReminderKitUI36REMRemindersShareSheetViewControllerC
++ _symbolic ______pSg s5ErrorP
++ _symbolic _____ySo11REMObjectIDCShySSGG s18_DictionaryStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13ReminderKitUI36REMRemindersShareSheetViewControllerC17WireConfiguration33_3CC6A07B062BDB4E67ED93B4E9DD37C6LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13ReminderKitUI36REMRemindersShareSheetViewControllerC17WireConfiguration33_3CC6A07B062BDB4E67ED93B4E9DD37C6LLV10CodingKeysO
+- _NSLocalizedDescriptionKey
+- _OBJC_CLASS_$_NSError
+- __INSTANCE_METHODS__TtC13ReminderKitUI36REMRemindersShareSheetViewController
+- ___block_descriptor_48_e8_32s40r_e77_v32?0"<NSCopying>"8"REMReminderCreationRemoteViewController"16"NSError"24ls32l8r40l8
+- _objc_msgSend$initWithDomain:code:userInfo:
+- _objc_msgSend$rem_reminderCreationRemoteViewControllerExportedInterface
+- _objc_retain_x26
+- _swift_once
+- _swift_release_x24
+- _swift_retain_n
+- _swift_retain_x24
+- _symbolic SS_ypt
+- _symbolic _____ySSypG s18_DictionaryStorageC
+CStrings:
++ "REMRemindersShareSheetEmbedder: _UIResilientRemoteViewContainerViewController initialized (%@)"
++ "REMRemindersShareSheetEmbedder: extension lookup failed"
++ "REMRemindersShareSheetEmbedder: extension lookup failed %@"
++ "REMRemindersShareSheetEmbedder: loading extension %@"
++ "REMRemindersShareSheetEmbedder: remote view controller error: %@"
++ "editingAndSelection"
++ "selectionOnly"
+- "REMRemindersShareSheetViewController: Phase 2 view-service wiring is not yet implemented. See rdar://176800523."
+
+```

@@ -1,0 +1,50 @@
+## com.apple.iokit.IODisplayPortFamily
+
+> `com.apple.iokit.IODisplayPortFamily`
+
+```diff
+
+-775.0.0.0.0
+-  __TEXT.__cstring: 0x87c2 sha256:bdc94855af3bf3a8e410512cc3753c4168f386266ae2cb89930adb7bdb394ace
++775.0.1.0.0
++  __TEXT.__cstring: 0x87e0 sha256:e17639b91dce168944dd9c8c9be4175818d70a97e9fda73dad95765298ec1e79
+   __TEXT.__os_log: 0x9fc4 sha256:1992163258cb1d2053ad8c58764ef6c007aeac2c5230a0a2e1331b099e4fe703
+-  __TEXT.__const: 0x440 sha256:ea0acf4a97f03b70efd5f3dcaaa0ca1ccaa5ee34fb281e37153e5fd946158c69
+-  __TEXT_EXEC.__text: 0x5b73c sha256:dfc1221c792f74770239f9c957863341963ce781af50dda72882503917d0e7e1
+-  __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:9ce83b056ce7757aa3bcc129599adaf2754397b50d3ac4191a7ea0f914527efc
++  __TEXT.__const: 0x440 sha256:4640dadc895c624f3465e7ad08cd861fc29409ce4b9b029a200de0efbc721c1c
++  __TEXT_EXEC.__text: 0x5b9c8 sha256:4f7daa11c26407b4d2f01063b77bd1b07bbfec147b42683f612afb41bb0edd49
++  __TEXT_EXEC.__auth_stubs: 0xaf0 sha256:ffe7406998cecdd38bd30783eab57979c8db75006ebbbe1f0c32a07b34d374a1
++  __DATA.__data: 0xc8 sha256:e374fc0fea61283d06e792e6fc65e45c6ee316141a5c166e77a69be7e68dd4cf
+   __DATA.__common: 0x5d8 sha256:2010b55891b05a55428204b4cc0e2d03cd13f0727289c1bda6dc6d8935538218
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_CONST.__mod_init_func: 0x120 sha256:d53a4df2648874ea88d10cb3b166ac98e93f56b0bf8aea022aac9d1a781ab84e
+-  __DATA_CONST.__mod_term_func: 0x118 sha256:e77155cbe09d0b8c00c288132b49db93535c9dcd7a1879896d1f57d975472d8f
+-  __DATA_CONST.__const: 0x119f0 sha256:280d66f762bc2c21900d1aafff1f3aceafa121488b0629037cbe2833209512cc
+-  __DATA_CONST.__kalloc_type: 0x900 sha256:2d0cced020614611c25a2624c00ed19f27ec5b3ab9007651b06d5be535bc1d6b
+-  __DATA_CONST.__kalloc_var: 0x280 sha256:7a7c8edb1e0b8c11a936c23c3a9cd86cec89a9d0a44b334594d178e17d87ccf9
+-  __DATA_CONST.__auth_got: 0x578 sha256:5a532eb6211873988e4eec32f8660d615c1fb75f1a0c270743f8ca8b81aee310
+-  __DATA_CONST.__got: 0x170 sha256:b157f3b39c93d77970be8b9c203133b630bd2f75b740aa9b1a1d5540851fb70b
+-  UUID: CD81CE91-3652-320B-B72A-FFA1EB047E6E
+-  Functions: 2620
++  __DATA_CONST.__mod_init_func: 0x120 sha256:8443686272c56835798a93eab3860f3e4145e9d56888dd365aff98d657eb944a
++  __DATA_CONST.__mod_term_func: 0x118 sha256:0431e2d985542b0fa1dee577ffa7f66ab635d9e432800634accb1733626231d3
++  __DATA_CONST.__const: 0x11a18 sha256:81d53f903714c343307598e4b2e4ef9a470c96314885fb061495ee212adf8728
++  __DATA_CONST.__kalloc_type: 0x900 sha256:2be2d0df6ad5b864bd3b61f658978879803150c109fb22beaeaede7151c613d6
++  __DATA_CONST.__kalloc_var: 0x280 sha256:00750d7933dbff646ffd191805c9753d760068f8fda2415f7a4a952708d8f1b9
++  __DATA_CONST.__auth_got: 0x578 sha256:ff4fcfc709e9193cb92511536bb3b8792f62627fba3181e42f81eb14fdf21135
++  __DATA_CONST.__got: 0x170 sha256:020d2040b0f6d7f2a02775de29188a56497d6eb56487d305ebfb0f3999606953
++  UUID: 7527F30C-49AB-32BB-8094-6E149C8A43C1
++  Functions: 2623
+   Symbols:   0
+-  CStrings:  1637
++  CStrings:  1641
+ 
+CStrings:
++ "DarkWake"
++ "Hibernate"
++ "Sleep"
++ "Wake"
+
+```

@@ -1,0 +1,113 @@
+## SensingPredictServices
+
+> `/System/Library/PrivateFrameworks/SensingPredictServices.framework/SensingPredictServices`
+
+```diff
+
+-20.26.0.0.1
+-  __TEXT.__text: 0x16e0 sha256:c641c36b8d0c81a9bae089e291f04589f0c489b4dac021ab570721c2bf99d166
+-  __TEXT.__objc_methlist: 0x270 sha256:3062a1a3a5a7449f6184265986241a7bb07ba53935fa1980eea9490c9c5e2e5d
++20.27.0.0.0
++  __TEXT.__text: 0x16e0 sha256:32a2442158da58b1362a58a0126c426d086f9c95cdd6da6835b12f78ef41f466
++  __TEXT.__objc_methlist: 0x270 sha256:27cfcba24e6349d5909b842f7a7c50ffa8e1be47f02d5289a08cbe4a4da81dcf
+   __TEXT.__cstring: 0x47b sha256:89a3468331d89d6c4cddcb1e985ac7813d3c18843d4f1d46a848076f5837f9c8
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__unwind_info: 0xd8 sha256:6513b69120abc393ea376b5d1a61d8c2e0c0c304215db17b9da73242f81688e8
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x108 sha256:318e74e39d37c098ce8ace6dca934c0d46e157b983aa5cb904411de762a51814
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:95983fb29cd348b9487851827ba67a965fea6bbad586d4cc0ad11d3796169619
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:cbf82695b67d5e241a91ef79b0505a81a6600086862f0b3434d142b895fc0513
++  __DATA_CONST.__const: 0x108 sha256:c015250e5d943c61b7e59b24842eb2f5de571c0d7b5f161766574b44faa89ba8
++  __DATA_CONST.__objc_classlist: 0x10 sha256:c1d1d5c6ef450f5a9d2542c5f49f4bd919db51678963dd665c78f32870d2e10c
++  __DATA_CONST.__objc_protolist: 0x20 sha256:7ae7d8a0a6804a598bef560eb46642bcbde63be287d15c207a770214a2a472e0
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x178 sha256:c1fc39e86e801c3cac59b2093468430dfd5c0c7dd525abb12f0a0eb4f01fc67b
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:98158a5ec272e5a42b34f3889e3a7d5472d4d2919f2a9551084b4544380cdb37
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:faea5421f0ca250371ccd2647970aab7a9d4591ebef3bbc70dcfe3e81ef69206
++  __DATA_CONST.__objc_selrefs: 0x178 sha256:da728e61fd69f836271df113764a5ac5bbaface2d1609d37e895c95d288a4e1b
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:9ec4a0a7beb6ecd0c8debd1bef65e1000e365d0cea3799620eff48163a164be3
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:c5741b1260d2217644814c206700b95f4f2d91063555e79f1209718aa80169c2
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x40 sha256:1315a62fca3e2fdc4b350d0ab0979df3bc157f33222b154a9c1a3d9ccab25660
+-  __AUTH_CONST.__cfstring: 0x1a0 sha256:9f47c3d5a06e06a1a86bf0826676f463929d8213a1064f1da99a63d0ae6afd5c
+-  __AUTH_CONST.__objc_const: 0x4f8 sha256:b01e94e2c19d9a7473364eeb437b2b5bda479262138fa5f6193d8ca18a0ec23f
++  __AUTH_CONST.__const: 0x40 sha256:77a1c02dd09afcd6f31f1e8239078daec305f2d341d449a164992b0b9b060e7d
++  __AUTH_CONST.__cfstring: 0x1a0 sha256:bad8147f11a207588477555190ec817e4416f1af8ddcb784c1699c7a3906cbae
++  __AUTH_CONST.__objc_const: 0x4f8 sha256:d8fa3072e05b999b7503b35f890da621f9bc56055cf1fb7cba919bebcd7b73df
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:85b9b9b7a795ff47d6da28c5abae5d04a49f01a9a95c25ddb36148892ffce9eb
++  __AUTH.__objc_data: 0xa0 sha256:b23ff03bff7f85b8269f9d1bc34c5c17596fa78ae1c3be8c722db4f10800f24a
+   __DATA.__objc_ivar: 0x38 sha256:33453228de9e06746bd7156d4e7e02079c383e92cfa7517a884ae8cf4996409a
+-  __DATA.__data: 0x1f0 sha256:e907576adb2f0def37487a640873a84c54e7915a062e04aeac9b3c51a31895e6
++  __DATA.__data: 0x1f0 sha256:695e31c1525928b03537806c7d375fe8dd7294f3c247e9f7290dfc4f728b8ef3
+   __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 266039C5-01CD-3A67-B1B6-A27A41E122DE
++  UUID: D11A0CEC-0B81-34B4-A781-864C592B7D81
+   Functions: 67
+   Symbols:   275
+   CStrings:  64
+Functions:
+~ -[SPContext initWithCoder:] : sha256 a2bc75c9159360e126b9fcc136d8508fb951bcf200aec75f31aa21cb84b84d53 -> c71eb3b521093cd8a3531a0df892eaff93a1b14c1d68af36deb5bb1f5c9213e4
+~ -[SPContext encodeWithCoder:] : sha256 33ea37f0806f5fb3fd76b2d0d6fde615bd543934152dd0f22a5d35c90a4af743 -> c16024aef20563429f748e8c5b63dadb34ad8a5c5f1abbfb5c2ae1b87a66909f
+~ -[SPContext description] : sha256 2eacd28029208f6121e3ba46b99e26951be123b2697c426e7073e74cee70fca2 -> abe43cff880d37f3d870a87065447ece5b0bb28b46088cce1818558ba96fff80
+~ -[SPContext descriptionWithLevel:] : sha256 91e10fb52912de1a7d1f54613b054c7c13c077698be50984b81342951800131e -> 04f4f17934a7365156effc7614fd0e67a6997ef0677cd3ed5c923c757f7b3d63
+~ _SPXPCGetNextClientID : sha256 8a99f6fec5e8e037ad518e8e828a06769bea7331e9ea5b81636c5da517d4ee54 -> e3a4cdf9f3b75ee75a2631928556029092b28d41321e3e9b41c735fcf812a8ba
+~ ___SPXPCGetNextClientID_block_invoke : sha256 b5e934d1e8d056ab4a9ff80c947d160e2db59881ca078d49757b89339e6d3f18 -> f579bfca8ff3f2af4595952a0d21e031dde9b3de78e76317b127308260d3a951
+~ -[SPContextMonitor initWithCoder:] : sha256 9934a6539f5a490d7eede8f61e3dc39d5e582511174121ffebba0277774640ec -> 1208e56e5a4419e17ac9b057bf2089c0f6e2c0e3c2cb8659ec7c7cde36e5c2c5
+~ -[SPContextMonitor encodeWithCoder:] : sha256 94f4868920cdd7d1c90e3cc0e5d52d761444b9babfdc21e8f52d7fa6100287aa -> e2fa1081fe72a23cb757a77c3e5535a7b478773270e829a4e5ccb5ae3d205271
+~ -[SPContextMonitor init] : sha256 926f2e8e21e7e0872b0bce4a06c64b1dfaedac421088dd1cc2dc4b4490db69fb -> 13bc0bc3c3403c3a0d5dc47737dff67a52ac54ebef3631f5fa0063412d974919
+~ -[SPContextMonitor setContextChangeFlags:] : sha256 63725b521fd1facb21e5358baea4fce2c8b72166256afe00bfc0a6d848b941c4 -> 6461f44236973f63de67af13232313efda809307a69c5f1b50da3dc8071934ad
+~ ___42-[SPContextMonitor setContextChangeFlags:]_block_invoke : sha256 711ff9e5c34aae7d9b11fc8b1cad98002ca2da1748d010e257eba283e8589bcb -> a3f60428562694ae8335da4f88adc1c54ebffc9f0a3530c57643d6a47f8b8d5d
+~ -[SPContextMonitor description] : sha256 34ae899a74aa4c1e7c88a9a883738d70ef09ac0803565400891dbd51e28ba11f -> f46df00fbf01c2215186a8eecc3369136cbac0ed91643f6cd54211da677f3f88
+~ -[SPContextMonitor activateWithCompletion:] : sha256 6305d7f08f178f113839aa6c018bad963766313cf1750de677dda35fee535ae8 -> 52d4a1c94c5bab9ed741dd820f92334398b37e9d36c3ba27eddabd6183f202d7
+~ ___43-[SPContextMonitor activateWithCompletion:]_block_invoke : sha256 7053e1300911c50189b3fc65a239f35d00a9d55b87e180d68b98ec5dbe8dbb95 -> f16e91848b237511b578342be8e13b28875ff63ae21102f7b019d224f0a63743
+~ -[SPContextMonitor _activate:] : sha256 96fa881903788138b5c487df71df5ee3408a5a69aca19b3c8218d4fcc3929c5b -> 4b9499a6a6e9b7384ceef1efa439118e35b4b06eb965f3b076ac736a2003b1c6
+~ ___30-[SPContextMonitor _activate:]_block_invoke : sha256 21d8ea980dbf7000af07934e4fbf474f67fb62f6afbc2e6c112b782e5c01a474 -> 3441bbd8e6bff4eb9942d9f97848c9e010a307079f8700a0e6f90bf1788e9d26
+~ ___30-[SPContextMonitor _activate:]_block_invoke_2 : sha256 a459e97be24e5910b6daf1ebfbd073d5dded78f7a5bfed3555f3c9c14d63aec8 -> 199ad30c348a23270aa67d72ed62d3d110263c1da1e7db871e8ddea269b2a81d
+~ -[SPContextMonitor _ensureXPCStarted] : sha256 c23143994ef342e9343e3d5e56dc4b73e4cb283743bcdf3653144af486169afa -> 6dbbca306212aca0f9e5fedae46bafbd1bac18cd09dbe63534037b2c26f552b2
+~ ___37-[SPContextMonitor _ensureXPCStarted]_block_invoke : sha256 1bcab446819e75d1db5fe65eac10d9a6021b71342b3e04589803f0e1029e3590 -> 277b8f3476578b13761357036881981188589ccb17cc2c773f254938c8451816
+~ ___37-[SPContextMonitor _ensureXPCStarted]_block_invoke_2 : sha256 c396f305fec293c84c1e8bfdd86c2e1462225ac82a5f81914316c2312e3a4d45 -> 9b1ff3b022b0003b1bbdc8888c95b3b6aec757f6c2d8022d270b12bc27aea53e
+~ -[SPContextMonitor _interrupted] : sha256 98924ffda21d2bb5c0a2966a06fe837db6cf2817ca086f6476657d3722c85c2b -> 995a25f562b66c8c7d913fb8ef84fb5671f97f2293c0ff0eeca4523fa4dc2817
+~ -[SPContextMonitor invalidate] : sha256 a228addd91acc1d6759e981bc760fbf5d6cedb8332f1cd6ffde82f4ba77af46d -> 512a87894f3c309083c0c70a858555a4729a6e74e3a6eedd3821dfeef6644817
+~ ___30-[SPContextMonitor invalidate]_block_invoke : sha256 6b323a81635c27653abb23c97e54e040d788d9a12822a0acc42a0295bb0e73b0 -> ad0e9e8aec5834fb1b4f2314973974980c2d0090879b9199fa2069f26e6492ec
+~ -[SPContextMonitor contextMonitorContextChanged:] : sha256 81ce05221646f49a96bbe06ee773f90d460a8d6f5f5dadb58548110744701543 -> 8a5fba772eed3eb52aa7d88ac996cd9df051306ca17d69fbdbf6e0d764229277
+~ -[SPContextMonitor contextSignalUpdated:fusedState:] : sha256 9ef62b43e7e45b94ab7f0fe8fe458db2f13259ad74e5c8a500c41ce8cffaf547 -> 4037ab375f539c6c6eac998c7a4b078095ae312af51becf121fd994e9d7369f9
+~ -[SPContextMonitor _invalidated] : sha256 4b7d71bf079f8854a11694249c59725a6437cb3bab76768aa6e3b06bbbac816f -> faace09ba62583fb992cd101f087d2debb5d2b147549aa049b150ae73fc47284
+~ -[SPContextMonitor isSystemContext] : sha256 0d63233657f7aae8330a8eb531c810eac960254ce0acbd754449cebd7eb7512c -> 87aab27516d2429335a097c0e9a820978e20b116e1bb8f4d7da177d45534cccc
+~ ___35-[SPContextMonitor isSystemContext]_block_invoke : sha256 0aba4888c23391bd73be825388a025d755ea7cab59e1ce9b7427d8cebc590a54 -> 44ae1ff705fa07425f5cbb985925768eaa336d3fea0cd7383995cb015cdbe167
+~ -[SPContextMonitor _reportError:] : sha256 07845febfbb9518550fb7d9ed16f70bc949dca4192aab4c9c94ba027174e54fc -> dfd0ff1afbf9eed2ea32c7922acc0bfd49820dbbc0d175aacf62b3e921bb1042
+~ -[SPContextMonitor setDispatchQueue:] : sha256 f5566126eaa325e54621e3fad676330483d56013c6895f1a14c3bcfb7784bcd1 -> 5dbe7a9d9e8931438755fdc6c99ceda5e75a96a512d47edc199e263ba9f6bcb1
+~ -[SPContextMonitor setInterruptionHandler:] : sha256 214cdd1b7326360a507273368419fd13ad6b0fca5839d0f0a8483d6b15e85a11 -> f622e713086c6b620a252704ae8147e9b7f6cee3f9bf0b3e65d0e045638ef0f5
+~ -[SPContextMonitor setInvalidationHandler:] : sha256 13ec1a2424b358fbd780ae27af166583e4952ae22d1fbcd4ed1d1e2eeb904dc8 -> 8a1acfc9f5bf4645f766a7e0b51d809f7d9e5fce234b33147dc07a99b9e90414
+~ -[SPContextMonitor setContextChangeHandler:] : sha256 e0a8fe9d13fcc8acd7667e7582301025aef91d87d93f533af018a215c2b8bb7d -> f506fddb11c27d362a74ae3d065a3bd519422ed3fcdef6528a06bce8a8353e1e
+~ -[SPContextMonitor setContextSignalUpdatedHandler:] : sha256 04684a758643fe388aee90d1c48682913b276355c8ae4f105e0d13e0e4259bc0 -> f713c5137102235f0b98d1b317b6332ce7e6c017d63bc3eac1935486cc87dec1
+~ -[SPContextMonitor .cxx_destruct] : sha256 a3abcd59bac434e21b8a4981a4279041371ff42467e7294529da59447225a20f -> 0dddbae4ffbe935d6db91978e5a128b9f12084a396dd9cc11c33937ca3c1a531
+~ _OUTLINED_FUNCTION_0 : sha256 ac13abc59f827745c9def942077b0322b88455bef3bf656f84448d791eac9d33 -> 3902222131ffd05b40b37273e92ef1eed274606e70ef2f370c3d9e0f6658a1aa
+~ _OUTLINED_FUNCTION_1 : sha256 39896095a7c85b8f48ddc742ebe07c784f49550f670ffeeb70cd0c122f7ccc93 -> 3b19bd8583faf7eb46c425127e2e665bce61ebb2007525c245c1441a71bf576e
+~ _OUTLINED_FUNCTION_2 : sha256 897b52222bc01e31077e78b9cbc661f11f0e97a33155b3ed6a1ea22c40487776 -> 3d7934e3225d3e43735f5d7e843c7d2dcb02e47a441c3735032aa3f2da4bf67c
+~ _SPXPCGetNextClientID.cold.1 : sha256 2a07008de0b3900d93bb509efc4424265236d16ddd8dfff018e60ec7c0cf471f -> 17152997187e4fe4de2eb84406d3f41fa53bec6595ff2c290d777cf7a9c3a7e4
+~ -[SPContextMonitor init].cold.1 : sha256 2e44b3df7c9f1df7f4dfd7da1bef601923bc84cd4e17ed8508b11df3751c47e0 -> b6e4098f24200085787ab22822caead4690d2e1c7c722faa53eed7ead035a403
+~ ___43-[SPContextMonitor activateWithCompletion:]_block_invoke.cold.1 : sha256 4385eb134ae1475366dfc09b1ad151c1b5279930be3aee3cb5bbf3cfc2f430e1 -> 9047d9a167c0e9b2dcc9339fb826195975a090d1ff25205ab0dedeace5da159b
+~ -[SPContextMonitor _activate:].cold.1 : sha256 f67c7bb289238feb4b25dcac29714032f55175bf1ce81028da791d5b8e1d4365 -> 24827606125365c781235e532e119a3636d1c882da65141875980f1a2b511654
+~ ___30-[SPContextMonitor _activate:]_block_invoke.cold.1 : sha256 b1b2684913ee763f641f7f1ad46151d5218f482c75c4e64b7ba04d12187e3dcb -> b23a1ead0202e15c8e62233c9f4521424191fa11ac26864a737e711772b8445f
+~ ___30-[SPContextMonitor _activate:]_block_invoke.cold.2 : sha256 d52ed440361a6f6b7ce627612f8f9a585a0b27df22a8a5abbbce9f60cefb6adb -> 2bbac8980855820857fb15dd6b04ebfc86028477050432b794c9638328fcc9ed
+~ ___30-[SPContextMonitor _activate:]_block_invoke_2.cold.1 : sha256 c11349736e2be58f4ed06e0feb9912273b9bda8403cc9b89230a9090b0ace292 -> 8b071bb0c1e9c0a9ffcdd4d1f06300c5bb8d6a25a12da0700f2d0d702c71c06c
+~ ___30-[SPContextMonitor _activate:]_block_invoke_2.cold.2 : sha256 e92f648ad2014e5b795cf7e6ed46fe697dd1a7ef17f4344b9f0b8c378809988c -> 5c0755aaa59e7deeef7f95665091362bedf33f05b11f87a84984d9aeb753e850
+~ -[SPContextMonitor _interrupted].cold.1 : sha256 3675826c913adf9ecf6ae97f6d45dbc6f1293b63639139c358c2b247a522776b -> aeb6b95d1d437b5f42a0c370d2003c4dffa74ce3fd52cf7e81dcb6b1129781eb
+~ ___30-[SPContextMonitor invalidate]_block_invoke.cold.1 : sha256 0868c9852f62474202c0eb50c77713b7dbe4a4900330cd4789df071e255589c5 -> ac837c91fb266575c8dfc6a1fa54cc2c481c6b0157efbef14109acbe20cc4932
+~ -[SPContextMonitor contextMonitorContextChanged:].cold.1 : sha256 61055bc06933b2ffd656cc8b875fc451955adc7607f6c0b9caf01cda3c912d1d -> 9678b25d0e050a0be58df1b1eeac2aaf841036f5f2f543e4c8c0b61ba2cf4c0e
+~ -[SPContextMonitor contextSignalUpdated:fusedState:].cold.1 : sha256 dd9119c089d9a2a35b2bfa265ad29c577e52a4f9ad3fcd75f9394a00931e3790 -> 0b40f4bfaec0b98c628aa12434165ec3a8d09e43fa93f70c94d7e0a082bafdf1
+~ -[SPContextMonitor _invalidated].cold.1 : sha256 79e2ad435086deb2df739ccba3c2c25698606de5ced23466203a2dd43c1bacb2 -> 0e2a8f3fbc205e5be07ac8cde437767c362a8e145f8a942ae47da3fc130964ca
+~ -[SPContextMonitor _invalidated].cold.2 : sha256 5fc13e6e5a2c0b69ee940fd5ad635c6062ad42c4e9295ffb400dc2d2a770cbd3 -> 82ff19581b8ff23dab8653c5d053d93dcc692a4306df79a139c7d36292a49c76
+~ -[SPContextMonitor isSystemContext].cold.1 : sha256 b2bb37b3cdb33da4b961bc2a7308fbdf2b990dedbf6b186c61d37877febc1541 -> fa201e2d311648dfb984ce3ecce6f7513aefe26f0c227e95cdb8490013055387
+~ -[SPContextMonitor _reportError:].cold.1 : sha256 112ea1be06dc35f594e2e696108b23e564f37655d4dd9cc9f14112cd00c0fb7d -> 8ed2e73fafb7fabc54b6d50dbccca5ca6369c27213aa3e9a485e30d636e19564
+
+```

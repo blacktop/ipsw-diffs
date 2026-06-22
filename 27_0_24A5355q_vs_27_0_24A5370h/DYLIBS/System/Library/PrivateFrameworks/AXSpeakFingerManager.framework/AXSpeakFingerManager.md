@@ -1,0 +1,94 @@
+## AXSpeakFingerManager
+
+> `/System/Library/PrivateFrameworks/AXSpeakFingerManager.framework/AXSpeakFingerManager`
+
+```diff
+
+-3229.1.6.0.0
+-  __TEXT.__text: 0x1458 sha256:9059d009b363b6d0951bb0a52fd9b6af7a20932c6e60135bbc70a0fc378f7354
+-  __TEXT.__objc_methlist: 0x4ac sha256:cd4b673bfcecf6b3481c1d504ca4780ab460d2048b566f32b96d0417d4a2f932
++3232.3.0.0.0
++  __TEXT.__text: 0x1458 sha256:e0cd9cde466fc75c105aa2bc79626ef3ed8248318889cd40c82460632b23b122
++  __TEXT.__objc_methlist: 0x4ac sha256:71356e31634056eefacd4c916845ef66f0ad0b41d852e8f9b7f27faba1675809
+   __TEXT.__const: 0x68 sha256:c192277ff63b9626104a0761416799825e0785f94b6453a740c71579f67b79e2
+   __TEXT.__gcc_except_tab: 0x2c sha256:43ad9ca06d7f6e13ecaf2ff8b8ecac9e6536e0d235b433e9cb515212388b0412
+   __TEXT.__cstring: 0x179 sha256:bbdd6dcce8246545006fc8a4749516f6d2f4caba6ca0c4f5e014092b85c16b06
+   __TEXT.__oslogstring: 0xb sha256:8f07885ef5796a973d8f6b2156e6f9ccb7542fd099242e8a12e80b0e1b6730c6
+-  __TEXT.__unwind_info: 0xd0 sha256:b5cdf57e820ae530b4360aaf4a7505aee886b23b14954b5653449ecd1d742c10
++  __TEXT.__unwind_info: 0xd0 sha256:f575cf42b137a92f288211d3ed80c7be03ed64dbcb6c78d42ef39d779adfbd35
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xb0 sha256:ac93eb46f01d65e9bf911012a934ff12e3367d6e0dd66d6d5f8d3df817abfc69
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:03dc7fb26b469c253767706c6bd0863129e9b29a1a939f636c4a6b0ad88778c1
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:0cb262a54e513ca43c753376d567a7de2d4df52dd9fe1e1a1cb4b96cd70f077e
++  __DATA_CONST.__const: 0xb0 sha256:48b0232256f9b2ddba7990d9c258e485c3c624ab11792a6b1dae0cb830899052
++  __DATA_CONST.__objc_classlist: 0x8 sha256:140f21b00a9a1d5fe69aee02e5ab5173da96bca4ae2591cfc9ecdaa60c2886ba
++  __DATA_CONST.__objc_protolist: 0x20 sha256:bc416ab29fb28bfd00ac2e5ab5e61d0852c35f237bfff342afd4c3620d632369
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x440 sha256:430fe45f6cafbd7eec3b5c4c80052f4b51886e2f4f4213d29273047b989b1018
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:03dc7fb26b469c253767706c6bd0863129e9b29a1a939f636c4a6b0ad88778c1
+-  __DATA_CONST.__got: 0xc0 sha256:72c8dcb7f53530f6dd1485d027f2957b6d70d473dd389c7200a8bc0f26d547be
+-  __AUTH_CONST.__const: 0x40 sha256:f047848e87a159ecd3694fb80343a72c2f56cc2471ff68e60a3defd271d64ba5
+-  __AUTH_CONST.__cfstring: 0x260 sha256:d2e4084fa0eaf59c3dc5baca3ba5229b39ca5baabccc79b637742af95cceba4e
+-  __AUTH_CONST.__objc_const: 0x588 sha256:dc8093753f831121f17e3072da194ad0d528932f70b60ef11ddde890e5ea2473
++  __DATA_CONST.__objc_selrefs: 0x440 sha256:d61e1bc5289b61d4f6be0007172852ffe7632df395641fa5e507b60594b1e90f
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:140f21b00a9a1d5fe69aee02e5ab5173da96bca4ae2591cfc9ecdaa60c2886ba
++  __DATA_CONST.__got: 0xc0 sha256:1fcbd42e0863473407f034bda33d1f8f9d34b494713deb042c548d6ae2eb57cb
++  __AUTH_CONST.__const: 0x40 sha256:d06df0aff1dc56b9d916bb944d8a2a31eeb751a67198239f2554cce726c72ab5
++  __AUTH_CONST.__cfstring: 0x260 sha256:5146764436da4f01f434946dd97d83875b2dfeed5b1d7add04c6588e1fd666f5
++  __AUTH_CONST.__objc_const: 0x588 sha256:35ad995f67b60e9d79f815bd30cb2a74528f22d1ed2962df90f9eb231b97ecf5
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:115dc5498f88b7acc9941c086e07fa72d61dd5ab5e342347d29dde2e658b63f9
++  __AUTH.__objc_data: 0x50 sha256:aec9ab54e8d690282fd17f650626faef331c5505f91164d0e47c45548fcc1aa0
+   __DATA.__objc_ivar: 0x34 sha256:07035da7db32f33af1f295c974b5bbd0d7d927a71a13c03e4c3a4c87cf1bd053
+-  __DATA.__data: 0x180 sha256:6a715b0f4465f4fa8fd6d3d7d5904f316f03f46ec7e8da00ffc9a4e51308ab46
++  __DATA.__data: 0x180 sha256:9d068cf89567192d7d0a74cee49dfd3e2d27a28485c13708124b16d85cf642b1
+   __DATA.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4D2BCE2C-24EA-3165-BFFD-2457C8D48963
++  UUID: 8459891D-0E18-3046-9289-AA604B6C3392
+   Functions: 50
+   Symbols:   298
+   CStrings:  43
+Functions:
+~ +[AXSpeakFingerManager sharedInstance] : sha256 de9748a91a421ba17d2fe6a9fd1504db5df4bed27c0b28e71652f1a434196c9e -> 1dce04fd65816514d6a596bf8e4566c17fc3781091fb08da4669142d8f83ddf6
+~ ___38+[AXSpeakFingerManager sharedInstance]_block_invoke : sha256 c343a52b42d1aa24de30af776fe9b54ce573ecaac2880b77be89e751c2860078 -> 81e6e39ebc2260e0ccc3ac87bd4c963fb043f86270460242f75894893f9c9fe1
+~ -[AXSpeakFingerManager init] : sha256 f7a20f85bf439e4bdb8fd1b3f6826b85b158e6b0372ddd0393560beac84fb096 -> cc7609700b7dab337224c1ef0c157ad961e8444ca277f4c4daa0d0a2ec21bcf5
+~ ___28-[AXSpeakFingerManager init]_block_invoke : sha256 2a04ac0cf7f97b5686d7f82769115312ef36ab6bff0e3ab3b1248f5aa9f859fa -> bd8133f74ab4a277c39f75f7c6fea8dd79f17345bac53676f4a8097a43e12404
+~ ___28-[AXSpeakFingerManager init]_block_invoke_2 : sha256 3fb25396acec14ca053cba1cc757397d48573417aa931a462089286a919982cc -> d69d1b25e32f168a800e76bef4a562a9951798b773ff13f5024e52f33330ccf6
+~ -[AXSpeakFingerManager dealloc] : sha256 c27a3db895045f09fda5c4ab1a42df728575e777827fb4f237037a87544b9d08 -> c100ce8a7b3e4de8f38cea83c258f5d526bcefca18d22f8399a22172cfe2d4dd
+~ -[AXSpeakFingerManager speakElementAtLocation:] : sha256 82feec3aa766344ec828125046ccd90f22dfdabf416637b4c5bb906c8d74b612 -> a61b390bb261d6ef807ccea4e96ce104b6d155421315eafe25767b05cd7a24f9
+~ -[AXSpeakFingerManager speakElementAtLocation:displayID:] : sha256 3391b8386326e9cd5dbc73ed42cf6c880849f9a6297bbc86aab31e970be64d5e -> 655045e642677e89876866377b1a0d076b75ad4fbb2f92d346b8b6a319dc69d2
+~ -[AXSpeakFingerManager getLastSpeakUnderFingerPhrase] : sha256 78f8fdc40bcfa78fec1ee753fb7541713f30059415f820ded80c95710e94a148 -> 75831ca304d4210a747cdc750a3c671ba47079bbd9d13c8f23aca95e6b2000b1
+~ -[AXSpeakFingerManager _updateFocusRingForWebElement:remove:] : sha256 de6344918de224712cfc95d61eb1c691330a145eb824436f6046939c638c5d3d -> efc498cb62cbb41ad14177cab8d6daa1b8d8bf113e219eece15c477583a1b1d6
+~ -[AXSpeakFingerManager setCursorFrame:withPath:withContextId:element:forceRefresh:animated:] : sha256 7cce0f4a4ecc9931dc55b12f9f529aae6ad181ac263d1288dfc1e16ff660a284 -> 26219253d770fcf00ae6556a8979a64092f4eb466b211931d64fb4b3fbbb3442
+~ -[AXSpeakFingerManager userManuallyExitedSpeakUnderFingerMode] : sha256 db15abd2cc3f4846a603deff113fc90d3fbba51088e5ff3a43c4d1e111e64bda -> 1b32330ef7814fae464d02e33792649640da9f12aeb23ca0a6a5fd1dc6248c38
+~ -[AXSpeakFingerManager speakUnderFingerModeStarted] : sha256 c08058c9d5ec414dbb2ce27e3c67bb95bdcfb7c4fa7f1b0440bbdb7a8d030a74 -> 4e3408f13f220ceb2f51f4dffa98bdc5a594d589764ed42355b3e4650ea7be8f
+~ -[AXSpeakFingerManager fingerWasLiftedInSpeakUnderFingerMode] : sha256 e581337f5899e25be2bd2dd5fe6599afd22b44894dffba4f2f2b8bb7a8517492 -> dc06f2e09dc5fe47abe77d1119ab0f67302a0b2b28cfbe0e599a71119adfc553
+~ -[AXSpeakFingerManager _removeFocusRingForElement:] : sha256 db601b94423428a776570c657132c67e70a278336cea471a9c87adc90e747f61 -> 6b16aee14402b35a8696be0c90f9eda79260fcb758d82896b074c2d70c6180e5
+~ -[AXSpeakFingerManager speakUnderFingerModeFinishedTalking] : sha256 a1547692208607ba90683dc34fe4e4bfee76aaab215bc05ad2e1ac41fbdff4d9 -> 8c438524f2a353f305bf33bd9e691eec1dff6dce604c55dd065feacda07dbcbc
+~ -[AXSpeakFingerManager _speakFingerStateChanged] : sha256 ceb80c1f8e66a46e40f5aa56341cac9dab3794a0da61eebac228258ef5227fe5 -> 2c83ee1be4128d883215d081f38e34d1c0ac29a789a3ecdc492497d6b0ccf3a1
+~ -[AXSpeakFingerManager registerBlockForStateChange:] : sha256 2febeb4fdec00f6b4e79acf6347233fe68a4ec32c77ef5df5473f686a3b425b4 -> b180c856763512cd3a8bab9981f6c8cbaf6db1cab864d7865e1225acfcec2c1a
+~ -[AXSpeakFingerManager oratorDidFinishSpeaking:] : sha256 d3a0e62f47f3f6da3f1c64c3b9e061d00739cc9fe2d093bf70411d119b60673b -> 221478ca86b506c993c7adb91bac6b6eb99dfd81feb50f0e26bf8a940adb9728
+~ -[AXSpeakFingerManager desiredWindowLevelForContentViewController:userInteractionEnabled:] : sha256 1310044055ca9013a6a293ad46e3221af5c25fb9d1edce7c74123e6860ade764 -> 1087d8cbf1c2a77a65bbf3dafb44441deec038a9aaf721a4817ea4389ac125f6
+~ -[AXSpeakFingerManager setElementsForUnitTests:] : sha256 cd18cc75b64dabecea7ef2b3a5515b25c56ab266ee673d1c52fb36a932b8c290 -> 2ab419e6ec0b1973bdd841f37db5d6e77329a3a588c4e9929c99ef2e607311e1
+~ -[AXSpeakFingerManager setStateUpdateBlocks:] : sha256 bc84a315c2df9537c4fd1ecc9149940d26e555c1b96981e38521d8f5e58fd340 -> 5618196620318cb7c54fd81a1895a71b4dabacb0b01e652aa38c4014b7e1dbe5
+~ -[AXSpeakFingerManager setCurrentSpeakFingerElement:] : sha256 17396ad053e6a3a23fe658cb2b72c3f384ce234ab9f7ccd5254af44dc98424da -> b8350172151be6638c9ee256ad025f41bb0a0d6baf54d132b77795ce577073cd
+~ -[AXSpeakFingerManager setOrator:] : sha256 749bba9ed31b217b312c149b57eb72e380ff5c0d6526d4dfdaca02665ea28905 -> 9812efc59f6e9f59069cf33f89e69e790da02e976b523be218201212622f5b32
+~ -[AXSpeakFingerManager setLastSpeakUnderFingerPhrase:] : sha256 abf39e2fe55a54acf01e8b1a5f263a23254e2576753db5e8bad4cea61ee4fd42 -> ba51380ad65a8ea419f3ab2e9aba388c5b8ebe31c939760f18cd6d451b1a0974
+~ -[AXSpeakFingerManager setHapticGenerator:] : sha256 491f978ff7274b17409f6d9eb6447836a18477754fd30b4f9d6aaf0c5ef78618 -> da68614d2f43a7d11f86b9c00842103850afaa7804b1dfdf3b407d03959471c9
+~ -[AXSpeakFingerManager setSpringBoardActionHandlerId:] : sha256 788c82b2137696dadf86c65843db0c63f2551c83cc8ac4194019b7ba271d4723 -> ea33fbb3605b7610a02a181c06620f9fc4ceec4df56d18c0e98f651803d0b4ba
+~ -[AXSpeakFingerManager .cxx_destruct] : sha256 e3dd8633c718f3163cd33d6284198f4487f86407d483b4bf65df2b4e2247f5c1 -> 8292b0ad01db06ec3206c30ef085f5e977e48da2f2f2ed609a8dee6a990c5bac
+~ _AXSpeakFingerBundle : sha256 953674069c5da69e943a6ab57828ab4532ca54b5ae3fd86ca6672e72943b3423 -> 2fc1a88c24dc79d87260643de982683620ed6c47d13143f32b03a739de34997b
+~ ___AXSpeakFingerBundle_block_invoke : sha256 0450a643427463be41057cc41ca9ec36b9fb3f4b9bdf171840e9728333b2608b -> a3b1bcb6da0e5129d1213aff4606760e1986870382220cd1a7f5d544671d1fda
+~ _AXSpeakFingerLocString : sha256 bd941947c8b4ad1614d343fa3ba243309026f746ce434148e29b9804ff76bb61 -> 445a13e6503755c037d0c477c7cf24e90b6ceae857b4d2cd5cf8f7b79e20ce3e
+
+```

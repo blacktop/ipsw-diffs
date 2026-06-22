@@ -1,0 +1,69 @@
+## ATCRTManager
+
+> `/System/Library/Extensions/ATCRTManager.kext/ATCRTManager`
+
+```diff
+
+-3.0.0.0.0
++4.0.0.0.1
+   __TEXT.__cstring: 0x132a sha256:49d4028969bc40ab00e53182212f82ceb4454926710221e8833753dda399bc5b
+   __TEXT.__const: 0x14 sha256:4f6addc9659d6fb90fe94b6688a79f2a1fa8d36ec43f8f3e1d9b6528c448a384
+-  __TEXT_EXEC.__text: 0x3e8c sha256:f0b50a83e20e4572a5aa6f310e7be590e879f6b44fc959a66c3831b4c058b715
+-  __TEXT_EXEC.__auth_stubs: 0x2f0 sha256:54629120d138aef4fc80a345d9ce4b77d4dd494ac339c0ecdff572e9243d6ffc
+-  __DATA.__data: 0xc8 sha256:494417ab25b2a6826a47d4ce7bb373eabe813b8c02e595835459f6ed4ec1d8d3
++  __TEXT_EXEC.__text: 0x3ea0 sha256:d8e83534372b03d506217911d7b928d2095d4bbbc6121e5fc5cc5b59666064f6
++  __TEXT_EXEC.__auth_stubs: 0x2f0 sha256:9bcaba060acbc56ec976479f86e63fe83f0f734112af67d3b8cf84cbf80f1d60
++  __DATA.__data: 0xc8 sha256:5c8ebd93b485e3d375557971560c534ddbee423038c527dfa390afa04dd4e1ea
+   __DATA.__common: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+-  __DATA_CONST.__mod_init_func: 0x10 sha256:ebe06ccbaa85367291f91bb736446263d79e7ba9487b05c7156b0cc178b4563f
+-  __DATA_CONST.__mod_term_func: 0x10 sha256:b41815518dad65f8bd4b48216135f4cd3f27c6486f78cc54353d0d0f15da2a51
+-  __DATA_CONST.__const: 0xc98 sha256:1b198eab44fd6dcd5452a39bc2a5dde6f151c7105bb7dcdee9d52660e1d99aac
++  __DATA_CONST.__mod_init_func: 0x10 sha256:df79f7aa231cbf30c9de48bc1a057368b7ec568543d581982b24b5db37612421
++  __DATA_CONST.__mod_term_func: 0x10 sha256:2825ad092626b33f3d678c800f16fe7050f2fa318e969cd18bac018b8e5297b6
++  __DATA_CONST.__const: 0xc98 sha256:e4a55409e868af877e29271df73f0f3b4c54a8ca3fb6ac8c93bfc2d9dbcfeb99
+   __DATA_CONST.__kalloc_type: 0x80 sha256:c63ae822a153cdfa75f5d91dde2142242ddaedf43c184eab4d108be6fea824ea
+   __DATA_CONST.__auth_got: 0x178 sha256:b98da2108c0f2f01fcb537bb290e131aae107678b4e812fc6a966851ad01a7b6
+   __DATA_CONST.__got: 0x98 sha256:0c206f56c7298fde4fef5701bb623f4b981eff38fa864141e5cc8cb562e9d084
+-  UUID: 8A9B2555-7A16-37AF-8065-299BEC9328CB
++  UUID: 9E742ACF-784F-3C95-A5A9-B26EAB543395
+   Functions: 106
+   Symbols:   811
+   CStrings:  103
+Symbols:
++ /Library/Caches/com.apple.xbs/43132FC0-D1B1-4701-B90D-DF1557D77BA6/TemporaryDirectory.6F70xD/Binaries/ATCRTManager/install/TempContent/Objects/ATCRTManager.build/ATCRTManager.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/43132FC0-D1B1-4701-B90D-DF1557D77BA6/TemporaryDirectory.6F70xD/Binaries/ATCRTManager/install/TempContent/Objects/ATCRTManager.build/ATCRTManager.build/Objects-normal/arm64e/ATCRTManager.o
++ /Library/Caches/com.apple.xbs/43132FC0-D1B1-4701-B90D-DF1557D77BA6/TemporaryDirectory.6F70xD/Binaries/ATCRTManager/install/TempContent/Objects/ATCRTManager.build/ATCRTManager.build/Objects-normal/arm64e/ATCRTManagerUserClient.o
++ /Library/Caches/com.apple.xbs/43132FC0-D1B1-4701-B90D-DF1557D77BA6/TemporaryDirectory.6F70xD/Binaries/ATCRTManager/install/TempContent/Objects/ATCRTManager.build/ATCRTManager.build/Objects-normal/arm64e/ATCRTManager_info.o
++ /Library/Caches/com.apple.xbs/43132FC0-D1B1-4701-B90D-DF1557D77BA6/TemporaryDirectory.6F70xD/Sources/ATCRTManager/src/
+- /Library/Caches/com.apple.xbs/93292787-A2FB-441D-A542-1E9C4BB0FDC2/TemporaryDirectory.2PP66q/Binaries/ATCRTManager/install/TempContent/Objects/ATCRTManager.build/ATCRTManager.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/93292787-A2FB-441D-A542-1E9C4BB0FDC2/TemporaryDirectory.2PP66q/Binaries/ATCRTManager/install/TempContent/Objects/ATCRTManager.build/ATCRTManager.build/Objects-normal/arm64e/ATCRTManager.o
+- /Library/Caches/com.apple.xbs/93292787-A2FB-441D-A542-1E9C4BB0FDC2/TemporaryDirectory.2PP66q/Binaries/ATCRTManager/install/TempContent/Objects/ATCRTManager.build/ATCRTManager.build/Objects-normal/arm64e/ATCRTManagerUserClient.o
+- /Library/Caches/com.apple.xbs/93292787-A2FB-441D-A542-1E9C4BB0FDC2/TemporaryDirectory.2PP66q/Binaries/ATCRTManager/install/TempContent/Objects/ATCRTManager.build/ATCRTManager.build/Objects-normal/arm64e/ATCRTManager_info.o
+- /Library/Caches/com.apple.xbs/93292787-A2FB-441D-A542-1E9C4BB0FDC2/TemporaryDirectory.2PP66q/Sources/ATCRTManager/src/
+Functions:
+~ __ZN12ATCRTManager9MetaClassC1Ev : sha256 76d6a67f276a0e78cce46cd2506077e370456c2c32ac56866d9c2d5acff4b5d6 -> 7e348fcb1a7e8e3f1e24f521316630291c5bb24318ea7e0e4f5c8a91349f9152
+~ __ZN12ATCRTManager9MetaClassD1Ev : sha256 681861b660c7a2be6ec3a88aa7bb4de74a233dba61fbd8e321bf943befa3700f -> 56875f92a958c976aea9ab5b965974359121216f125931446611ff1e7a57771c
+~ __ZN12ATCRTManagerC2EPK11OSMetaClass : sha256 eadf68cfc10a5d517e64232a1719d268e94993ffc9c6560ee4d010955709341b -> f867cfddc027ad5683ebac31706fae3abfb29a0718bfe8c5570fe99db94883a5
+~ __ZN12ATCRTManagerC1EPK11OSMetaClass : sha256 4faaa24fd9864acd4cd4a5611225a47ce6469b9d08ae5a878cc25a50244aee59 -> 4eca1a95db03537e403f6945912fe70828923e3ab57f2c116165f711f2425a87
+~ __ZN12ATCRTManagerD2Ev : sha256 d82ee18f4062ad0022061e6852c287c45ca316af4a839d01346a15e3fcbda18f -> f81d10a4849f2de871703c68baf8c5a8fdf8c84bff3f2786493ec32827b3922d
+~ __ZN12ATCRTManagerD1Ev : sha256 0f3fc449ab3ca918754fd3c2d20b97a01106b2e2e63ffad89a41dbf6e2149517 -> b0ffe0e4fa82cc66368bb1f7645c1c289070ef84f079538576e1258614319bf0
+~ __ZN12ATCRTManagerD0Ev : sha256 a0ce5841e54f402781b6f09155a2d20901dec5741e1df592ed47b0fdc95d3088 -> faf5da294470f824cc570d2283174f0b37c7eaa6cf448f896f8b8e0f7da8ecce
+~ __ZN12ATCRTManagerdlEPvm : sha256 c30037263c1993d08194904025a71c0f7e3e01ae380d39aad840b17f27df6304 -> edfc0fb555400756bcb521fa875b63648819108ff128450ef60a8a1154002658
+~ __ZN12ATCRTManager9MetaClassC2Ev : sha256 041a892c83df38175d4ea189740d367ce541f0cd7cbef65a30c4323d5514b940 -> dcd9effd910e2a91b431cd6c030e855efa20088b5b36c86a80cb361cdbe5ae19
+~ __ZNK12ATCRTManager9MetaClass5allocEv : sha256 d07cc66292177ad8fa96b621dfaf69bcbb048be92ac978b790abe82db8735f3e -> bb7961b7fe13d136acd9052881d063ceb323130b270605efa3d1c66bd5c8cb88
+~ __ZN12ATCRTManagernwEm : sha256 d4bb6c265d37e746b49fa0ec8f2c88963748caef9da2fbb01a1041d8c4571300 -> 5858c37a5f07347a450362ce14fd6121fdb958375d86f822a51cff95499b99ee
+~ __ZN12ATCRTManagerC1Ev : sha256 dcbaa763415be29418afe5c10e70d35b72caa9b787a5a899a1d2c2aa2bec600e -> 9343477e8683ddba3770510aae4772dd92a853b955a6dd0c59b1697951308424
+~ __ZN12ATCRTManagerC2Ev : sha256 65573cce19a5b3fdcd3fecb5b4e8d9a7b96323e365d6558c28804178411e3697 -> 68ced25198c7678d0607f26962648d891fc663501043f2db873cad11ffc72fb0
+~ __ZN12ATCRTManager5startEP9IOService : 2968 -> 2976
+~ __ZN12ATCRTManager18pollStatusRegisterEP8OSObjectP18IOTimerEventSource : sha256 94f2760de30841173ccdbc31a1716d4240691a34441c5b499a8dd7509257f25f -> 3d57c3cc9e6f05405728d384c621cc5acbdcc8873e86a1b8d3dcec0d905b36a0
+~ __ZN12ATCRTManager29processConnectionStateChangesEP8OSObjectP18IOTimerEventSource : 556 -> 568
+~ __ZN12ATCRTManager32registerForTransportPublicationsEv : 316 -> 304
+~ __ZN12ATCRTManager18transportPublishedEPvP9IOServiceP10IONotifier : 548 -> 536
+~ __ZN12ATCRTManager16transportMessageEPvjP9IOServiceS0_m : 504 -> 488
+~ __ZN12ATCRTManager24captureTransportSnapshotEPNS_22TransportStateSnapshotE : sha256 53194fec0c3afcefa9bfd1c927cc8c20b94fa00d9f4f2f4bf83f395f14876ff3 -> 1663adb2caeb0b7365beb2325eb76e2dfc12e395e559081cabca9eff5d21c576
+~ __ZN12ATCRTManager23writeConnectionRegisterER28i2c_ap_register_connection_t : sha256 d7e23242d34de2e2b4a4f85f22e026204e6f3d9a834807b6c36569462c285231 -> 23c02cc15776b5cb34c895639544d01cb1a28fe6bc33e1c7e583550564e7a1ae
+~ __ZN12ATCRTManager4stopEP9IOService : 932 -> 972
+~ __ZN22ATCRTManagerUserClient23writeConnectionRegisterEPvP25IOExternalMethodArguments : sha256 1631a215db298219da4e7c406642f361d02bdb958cf729ee8fc450050474dc52 -> adba8e8db590b7919d36fd758538b763c7234bef48d40919caec35aeed2c1a87
+~ __ZN12ATCRTManager10takeoverRTEP18IOTimerEventSource : sha256 efe21a21193c110f8600a37a3b01ca2c1c3da1b4cc4b523e2ccff5ce99e2981f -> 8cda43acded9ede1c8bc336db0be7aa16376bebdd693c2c847ad4c447ee3cbd2
+
+```

@@ -1,0 +1,67 @@
+## PaperKit
+
+> `FileSystem/System/Library/Frameworks/PaperKit.framework/Localizable.loctable`
+
+```diff
+
+ en.Cancel = "Cancel"
+ en.Choose a color = "Choose a color"
+ en.Choose a drawing tool = "Choose a drawing tool"
+-en.Choose a stroke angle = "Choose a stroke angle"
+-en.Choose a stroke weight = "Choose a stroke weight"
+ en.Circle = "Circle"
+ en.Clear = "Clear"
+ en.Click to activate the selection tool = "Click to activate the selection tool"
+
+ en.Erase = "Erase"
+ en.Eraser = "Eraser"
+ en.Eraser mode = "Eraser mode"
++en.Extra-fine = "Extra-fine"
++en.Extra-heavy = "Extra-heavy"
+ en.Family Name = "Family Name"
+ en.Filters = "Filters"
++en.Fine = "Fine"
++en.Flat = "Flat"
+ en.Front = "Front"
+ en.Full Name = "Full Name"
+ en.Given Name = "Given Name"
+ en.Graph Settings = "Graph Settings"
+ en.Graph Viewport = "Graph Viewport"
+ en.Grayscale = "Grayscale"
++en.Heavy = "Heavy"
+ en.Hexagon = "Hexagon"
+ en.Hidden = "Hidden"
+ en.Highlight Text = "Highlight Text"
+
+ en.Insert from File = "Insert from File"
+ en.Invalid Password = "Invalid Password"
+ en.Label = "Label"
++en.Left-canted = "Left-canted"
+ en.Line (Shape Name) = "Line"
+ en.Line = "Line"
+ en.Line Arrow = "Line Arrow"
+ en.Line Ends = "Line Ends"
+ en.Looks Good = "Looks Good"
++en.Medium = "Medium"
+ en.Minus = "Minus"
+ en.Modify Strokes = "Modify Strokes"
+ en.More Text Colors = "More Text Colors"
+
+ en.Resize Handle Top = "Resize Handle Top"
+ en.Resize Handle Top Left = "Resize Handle Top Left"
+ en.Resize Handle Top Right = "Resize Handle Top Right"
++en.Right-canted = "Right-canted"
+ en.Rotate Clockwise = "Rotate Clockwise"
+ en.Rotate Counterclockwise = "Rotate Counterclockwise"
+ en.Rotate Left = "Rotate Left"
+
+ en.Signatures = "Signatures"
+ en.Signatures for AnnotationKit (shared by e.g. Markup & Preview). Deletion will remove all signatures from the list. = "Signatures for AnnotationKit (shared by e.g. Markup \u0026 Preview). Deletion will remove all signatures from the list."
+ en.Size: (%.0f, %.0f) = "Size: (%.0f, %.0f)"
++en.Slight left-canted = "Slight left-canted"
++en.Slight right-canted = "Slight right-canted"
+ en.Snap to Shape = "Snap to Shape"
+ en.Something Isn’t Right = "Something Isn’t Right"
+ en.Speech Bubble (Shape Name) = "Speech Bubble"
+
+```

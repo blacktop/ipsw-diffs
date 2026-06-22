@@ -1,0 +1,1332 @@
+## MagnifierSupport
+
+> `/System/Library/PrivateFrameworks/MagnifierSupport.framework/MagnifierSupport`
+
+```diff
+
+-275.0.0.0.0
+-  __TEXT.__text: 0x3c1ffc sha256:0e011cd3922b48749ea8ec6c284e79ee2ad33aae95f056d73c5f18ee542d3157
+-  __TEXT.__objc_methlist: 0x5b1c sha256:b537ec79803ab2df67e782d3ecf155203dd139e35b40dfa66b234b85f66e9ca6
+-  __TEXT.__const: 0x21420 sha256:3be08b44dd4fe13e555037b6c65c6339a97299979c564b30a9dd84f2bbfa5656
+-  __TEXT.__constg_swiftt: 0xb4f8 sha256:ad3d28815a660cab495e4bb036587d6468d8aed4ca5d0db1afa26752a94d5ec7
+-  __TEXT.__swift5_typeref: 0x193b0 sha256:a6fba2bb748c3f399ad9df292e2c8f528e30c2801c433c16f5c801c65d4fe424
+-  __TEXT.__swift5_reflstr: 0xd3e7 sha256:1b37001bed9f491330f09bf0b70715a20bf4007002ae12469e8632c4bacebc5a
+-  __TEXT.__swift5_fieldmd: 0x9528 sha256:44e7665900caf100f6ec3e3c02678c11063c73644c3236fe5f5b0681d6b48948
+-  __TEXT.__swift5_builtin: 0x488 sha256:d8835d5878855761dc31ecb1bbc93d92da2b00c1823d2d4fc1b9450f08750a34
+-  __TEXT.__swift5_assocty: 0x19a8 sha256:45ce5ea4d80e872d16387ceaea10ad72ebd135317ff30ab6c646c63382ebf0a2
+-  __TEXT.__cstring: 0xdfa8 sha256:9b6e6c5459a21972f655168b2c1c705f6d6687944d9ce481d2a4e96dcadac6ab
+-  __TEXT.__swift5_capture: 0x4f28 sha256:346329a8c685775f283c6949a100408879cf571155d2549da8eb63425df8351d
+-  __TEXT.__swift5_proto: 0xe70 sha256:8b55538f8c53aeee61403fa1ea8372528c7cdb4bf70507ab240130b28ff899bd
+-  __TEXT.__swift5_types: 0x7e8 sha256:b13035948b469caa84a6fce51d6be1387999f557daf0c678663c054d895293a0
+-  __TEXT.__swift_as_entry: 0x500 sha256:006babd0876b449578947670855615076c95888b9c701a0c9bb197b5c2922f96
+-  __TEXT.__swift_as_cont: 0xd88 sha256:a5072d38ef679a7fcbedab71a710c4cf7638d12f7a8bd9c39b52e0f35b55d628
+-  __TEXT.__swift_as_ret: 0x570 sha256:56383a45c923400532c47e56e94036d447297713b844dcbc8cf318f27f98481e
+-  __TEXT.__oslogstring: 0x668f sha256:0aa414320265fdaf32c8ad5991c17dbeb5e9b93b017d06e9abb87b13571dde69
+-  __TEXT.__swift5_protos: 0xa4 sha256:9f5824796f7f54d45e4cf0687874f1882512688227cf00b86caa886cc24af891
+-  __TEXT.__swift5_mpenum: 0x9c sha256:9911e81b1138920d27eda0041fdcba6e542c33c1145fea8d9e04a29b60329e3c
+-  __TEXT.__gcc_except_tab: 0xcc8 sha256:cbfc3bef08c80728fe935ad6784f3f039a9540c890d43ed2f9edb6f60f50bdfa
+-  __TEXT.__unwind_info: 0xbbf0 sha256:12ea4ce4fda2dbb78b71d65c780aa4f97ef20a7bd78f17db25515692f835c0dd
+-  __TEXT.__eh_frame: 0x12674 sha256:35334f92ce43dd23723963a5bb7b43d1fd3cba1ca2a985472179937afcf8cf2d
++278.0.0.0.0
++  __TEXT.__text: 0x3cb598 sha256:72f7f8705dc2ce05d14858344e03824d1b8448f9457b2cec1734740b0db370ad
++  __TEXT.__objc_methlist: 0x5b7c sha256:0796f01ad2c0934b2df8549ee39f8c0ee7eafa157fb58e8a71be0a6ff1192690
++  __TEXT.__const: 0x21750 sha256:ec668ca68f796eb50c5a685e20421e5443bb1b201ea2a4939dee9e85fdaf009a
++  __TEXT.__constg_swiftt: 0xb628 sha256:a848422a123c23808b7ff16c3f65ad887a430eeed517e378770acc5036e3b388
++  __TEXT.__swift5_typeref: 0x19254 sha256:a97cca4cacd627b3554cc996efac801ae9979728cd234ef97d5c989a3d0e4822
++  __TEXT.__swift5_reflstr: 0xd4f7 sha256:358142957247d6a818901b5cca8b25742ddc7a78ffcd30f8dc84a669e9b9ddd5
++  __TEXT.__swift5_fieldmd: 0x950c sha256:673b275b67f65fdb92a92d4ab3f6f573ba208837fa54afa2c3eb0c8f3b5ef703
++  __TEXT.__swift5_builtin: 0x49c sha256:7dbb5ef8663255cd2738481034022418619139b78c773a1c2a56f7a4c308fccf
++  __TEXT.__swift5_assocty: 0x19a8 sha256:9a16de5304fdb378db0e0a4f7b66b9716b75af713da7aff29a530507a0a5cd92
++  __TEXT.__cstring: 0xe0f8 sha256:0feeafcfbd672f4aa14046b0f688f49b41bc1506ee8f8aa5165f6b73027e3cb0
++  __TEXT.__swift5_capture: 0x4fc8 sha256:7a5394b4f239d3732c063437c1b5df83bd32999058e630bea0753a3c23c92e56
++  __TEXT.__swift5_proto: 0xe70 sha256:68d40948d33abae53ac23dc2dd722c22fddd7aebab79321c2ec6c15cd0cbd81f
++  __TEXT.__swift5_types: 0x7f4 sha256:10a6ffd2dedf531158add4b51686d5bd0704f9e0c78ea8f2bced3d2f1b77171d
++  __TEXT.__swift_as_entry: 0x504 sha256:2dc0ce692f86f0c157cc333af77f0c17689a66d4e170069f53e8bd911861e8ae
++  __TEXT.__swift_as_cont: 0xdbc sha256:81a0b6e0763dfdb222067800d0230a40872c79febbf8223dc85735cecd234f7f
++  __TEXT.__swift_as_ret: 0x578 sha256:51be0c5df5c6edd9b825c81402b80b9f71609ad788fc20f107e3bb0acd642961
++  __TEXT.__oslogstring: 0x685f sha256:1dbff646bcc05efa8076fbb8d718324021bbea72b572aa97b200dcca9c7fe8f3
++  __TEXT.__swift5_protos: 0xa4 sha256:dcdae3fc715917bc9017a35e5a3ba31b8d91b78682b72266b434113b65cb4413
++  __TEXT.__swift5_mpenum: 0x9c sha256:f8329290c59c7fbf79bac1edf856cc12efe5b4afe020fbd6369e996aa52aa548
++  __TEXT.__gcc_except_tab: 0xcc8 sha256:29fb42100530752777f14b73fee47f5a2cd822ab977b1c5aade5086efd619e4e
++  __TEXT.__unwind_info: 0xbd28 sha256:dade1fd418b0fa734df3312a5de62504d226f9f2bb0ee83e4a34111a10952390
++  __TEXT.__eh_frame: 0x128fc sha256:8696adc1ab274cc5ee7e831292aee3e71c432e374d8e119b52178b3ccda652ea
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x978 sha256:8d1297e001967bdc8bd7e2c6a49f206cee230e73374c3995af952201d48c2bac
+-  __DATA_CONST.__objc_classlist: 0x638 sha256:9e0b0f7017e897b58a98e6abeeb0513605c989a7ef451f670bad6f04c6aebd52
+-  __DATA_CONST.__objc_catlist: 0x20 sha256:2c59f8fa46fe7700a6bbe8a41f29b173be57c1124dde7fdd3a378c263223c4ec
+-  __DATA_CONST.__objc_protolist: 0x2c8 sha256:21881bac33721f1edf96d6e7144bc90b89e43e05700dd43f89a5e8c7ca160e72
++  __DATA_CONST.__const: 0x9b8 sha256:2e8d72f9f79cf76f30c779508b67effec78ababfc9c8490ac78ec6d2f0dbf138
++  __DATA_CONST.__objc_classlist: 0x640 sha256:7d5a357feb86bc0fb22247eacc5690032ca899d1c0e668407c223bc321697e53
++  __DATA_CONST.__objc_catlist: 0x20 sha256:706663c1253570525ac3266a57b49874fedf64a57ecc29b8d2ba1d07e5353d24
++  __DATA_CONST.__objc_protolist: 0x2c8 sha256:b4865602f0a512a09909beb27e53c64bc72d2bffa7e11b7cb3985fc050d3e72a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__weak_got: 0x18 sha256:eaf5f7d5eb584a82449bd35fd49b7b12648af57f4c7c22d75b255b943418eb4b
+-  __DATA_CONST.__objc_selrefs: 0x4280 sha256:8c20c5a381b3861ce4a3c4e4a8dc0a05bce46e8a78d5e18b2a45aded4c222c71
+-  __DATA_CONST.__objc_protorefs: 0x150 sha256:2a22b5c4c8598bcda9cfa124e353f869fbb6eadee3f95926f0c60d24d715c3fe
+-  __DATA_CONST.__objc_superrefs: 0x40 sha256:ab731e828d9fb42da4dbd81b01870ae3edefd47e7f67c5d718b79fb414777937
+-  __DATA_CONST.__got: 0x2350 sha256:95ec30995b5fc179edccc7fce2be9cd132072a0e313b8e5f75367f1cda4513e8
+-  __AUTH_CONST.__const: 0x186c8 sha256:a81e1e8054b6ac2ef1725ab2f9dd34a688fed3744e8e80ea529c674a807561a8
+-  __AUTH_CONST.__cfstring: 0x180 sha256:0d6d14e062f94f1c7b21606700968ed0ee25619107bf42526bfd4924b61b05fb
+-  __AUTH_CONST.__objc_const: 0x12b60 sha256:5239a0cac6967f086e3adb9b62918485ce1e56de1f468ae89f6316280afe02ee
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:9a2b91fa56b146795e83ca4f39da0bd07c39c24068e9aa0ceaa7f212fc574d7c
+-  __AUTH_CONST.__objc_doubleobj: 0x50 sha256:6aedfa943646218bc0cc357d4506762e4e33212f98d9d999515490f54ba3363c
+-  __AUTH_CONST.__auth_got: 0x3868 sha256:606f9086cd072bd06b874729606870a84c3cb4173b3deb9a80da40475f077a97
+-  __AUTH.__objc_data: 0x7728 sha256:456c66a4ad489c118d9274c77a7e1cb43ba1257008b3a4ed4de8b66e58806f67
+-  __AUTH.__data: 0x61d8 sha256:da67ac14a6868939d5ad3d6643aa725e817b8723d2ed8797e206a3848f584019
++  __DATA_CONST.__weak_got: 0x18 sha256:82e8f2fd2b25c25ef297adb6a315573ab41ce9a8991498b0105c8923dbff9fdd
++  __DATA_CONST.__objc_selrefs: 0x42b0 sha256:3224bc902de8d6b534743a2a55bddb8f204b0526d7caccbaf0e35d38febcd4af
++  __DATA_CONST.__objc_protorefs: 0x150 sha256:51141e2403db1a1a56e14404caf6138eddb6b6d61752c7248883507acad00f8c
++  __DATA_CONST.__objc_superrefs: 0x40 sha256:a32969d34d37acc7ace989604c7c3a7ac69d8e7cc34bb2b391fb7c08af6604e5
++  __DATA_CONST.__got: 0x23f0 sha256:c40776901498b83edd65fe11d4d271f113543d08a5b710204070d3b8532d08d1
++  __AUTH_CONST.__const: 0x18820 sha256:541495d20b540b03f617e81dd392db6cd08c90b725a5158c9f220d5b0dffa8ef
++  __AUTH_CONST.__cfstring: 0x180 sha256:1162af3352d5d0f7c965adf29db03c1189d13ae784ef2e9031e94690d3872b52
++  __AUTH_CONST.__objc_const: 0x12948 sha256:c90c79cd2253be88dc920a7cdd533d652e9b62c3881a5caa99ac2bd49b08ed0f
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:60bcdb5a8e6edd1ce77d43ea5c309fe844aaf21fdaf99507c4da8cc71174a8fc
++  __AUTH_CONST.__objc_doubleobj: 0x50 sha256:6a2e09a305fd12230a81c7608b8e2f2428e53c6938d15cfa52e0d6a5a59d3165
++  __AUTH_CONST.__auth_got: 0x3978 sha256:a31f980fd2b3d0f88556884f7825d2a15aeb9b3393c9498ab42987813c2f7865
++  __AUTH.__objc_data: 0x7a18 sha256:e22b3d0226c222289a94fc311291c8f9b9e4cb70ebae5a2972c20062d9147d13
++  __AUTH.__data: 0x62e8 sha256:d4387cebdc12588b26e5577e5a227f44427f002be3f1a8da2091d7a743ff219d
+   __DATA.__objc_ivar: 0x11c sha256:33a3c4783cc8e765e724f4d429e52d0cc1d6109a6b959f05209ac521f6d09c21
+-  __DATA.__data: 0x9520 sha256:673c6af304ac52c5c656e0c9b87aad448d98de18618e160fa94afacf5c04dc14
+-  __DATA.__objc_stublist: 0x30 sha256:679013c9bb6ab6188d97e0485f2ff0a0cf8b8a40711fcc38ed7b3d1919a65dbd
+-  __DATA.__bss: 0x1aa48 sha256:cade70807415c2daae173b425a002c3e960e5b88d697903af9f96fa958c46729
+-  __DATA.__common: 0x980 sha256:b6f7d059f2e78d678fe12513e21cb2dd81d545e3c6ebfe2f9136866cb6e7daf6
+-  __DATA_DIRTY.__objc_data: 0x3a40 sha256:d5b1eecac9c6a3e3b0eba27aa35fe64560c0be3233a73087d15190ca941d183d
+-  __DATA_DIRTY.__data: 0x2580 sha256:d58932ae0596f6aec36b1bb01fc9bbaebe75fe34977046ee76dc39b338579d45
++  __DATA.__data: 0x94c0 sha256:723e7d1def17116d54224d2d8d06486033bb93876f34126471877d2d8a14871a
++  __DATA.__objc_stublist: 0x30 sha256:c6e4d573e1b46dd44aa49b42144c82b6573192b20c5601759570e7c44c0f5755
++  __DATA.__bss: 0x1aa68 sha256:0e053b231b628445bb79c6fd764910f38bc36c77724c755b849759dcf11b4c06
++  __DATA.__common: 0x998 sha256:2d139737c8e84b6f2af1cfa3bf413a42d9ff753413cdeb939273025bb9b2492d
++  __DATA_DIRTY.__objc_data: 0x3a40 sha256:760f12de83b2a7b7dd45cf3810871bc1ed93d1d406f206a599c754012bf23d7c
++  __DATA_DIRTY.__data: 0x2570 sha256:48d4afb22d88ddaf06888ffd4307a99ec3635205a5c818106c3ee1b68d599641
+   __DATA_DIRTY.__bss: 0x2520 sha256:73aa3708808ee4b9fb9c7f1fe2b24e6bf654494303354eb6605f4080341cd52f
+-  __DATA_DIRTY.__common: 0x358 sha256:609ba5e5c4ed92d308a29da517d3feea4630b4fc2f19aff63bc443ac79dcc690
++  __DATA_DIRTY.__common: 0x350 sha256:77201e8741a226976cc252f76bcdaae2f719d293adcde8072a71b863431f164f
+   - /System/Library/Frameworks/ARKit.framework/ARKit
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/MagnifierServices.framework/MagnifierServices
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
++  - /System/Library/PrivateFrameworks/ModelCatalog.framework/ModelCatalog
+   - /System/Library/PrivateFrameworks/ObjectUnderstanding.framework/ObjectUnderstanding
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C03DF02F-3343-3D55-8EF0-64D17366D099
+-  Functions: 16380
+-  Symbols:   12267
+-  CStrings:  1861
++  UUID: 32AF1AC2-2FCD-3D38-AA46-A929D8CCFE51
++  Functions: 16491
++  Symbols:   12325
++  CStrings:  1875
+ 
+Symbols:
++ GCC_except_table257
++ _OBJC_CLASS_$_UITraitCollection
++ _OBJC_CLASS_$__TtC16MagnifierSupport29MFSettingsTableViewController
++ _OBJC_METACLASS_$__TtC16MagnifierSupport29MFSettingsTableViewController
++ _UIAccessibilityTokenPlaceholder
++ __DATA__TtC16MagnifierSupport29MFSettingsTableViewController
++ __INSTANCE_METHODS__TtC16MagnifierSupport29MFSettingsTableViewController
++ __IVARS__TtC16MagnifierSupport29MFSettingsTableViewController
++ __METACLASS_DATA__TtC16MagnifierSupport29MFSettingsTableViewController
++ __PROTOCOLS__TtC16MagnifierSupport23MagnifierPromptDelegate.122
++ __PROTOCOLS__TtC16MagnifierSupport29MFSettingsTableViewController
++ __PROTOCOLS__TtC16MagnifierSupport29MFSettingsTableViewController.1
++ __PROTOCOLS__TtC16MagnifierSupport30ActivityControlsViewController
++ __PROTOCOLS__TtC16MagnifierSupport30ActivityControlsViewController.1
++ __PROTOCOLS__TtCV16MagnifierSupport28PromptEntryViewRepresentable11Coordinator.68
++ __ZNSt12length_errorC1B9fqe220106EPKc
++ __ZNSt12out_of_rangeC1B9fqe220106EPKc
++ __ZNSt3__113unordered_setIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEED2B9fqe220106Ev
++ __ZNSt3__120__throw_length_errorB9fqe220106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9fqe220106EPKc
++ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERZN15ou_object_group11sortIndicesERKNS_6vectorIfNS_9allocatorIfEEEEE3$_0PmEEbT1_SC_T0_
++ __ZNSt3__127__tree_balance_after_insertB9fqe220106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIfNS2_IfEEEEEEPS5_EEED2B9fqe220106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIiNS2_IiEEEEEEPS5_EEED2B9fqe220106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IfNS_9allocatorIfEEEENS2_IS4_EEE16__destroy_vectorEED1B9fqe220106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IiNS_9allocatorIiEEEENS2_IS4_EEE16__destroy_vectorEED2B9fqe220106Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220106INS_9allocatorI7OUBox3dEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220106INS_9allocatorINS_6vectorIfNS1_IfEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__16__treeIiNS_4lessIiEENS_9allocatorIiEEE14__tree_deleterclB9fqe220106EPNS_11__tree_nodeIiPvEE
++ __ZNSt3__16vectorI5box3dNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorI7OUBox3dNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorI7OUBox3dNS_9allocatorIS1_EEE5clearB9fqe220106Ev
++ __ZNSt3__16vectorI7OUBox3dNS_9allocatorIS1_EEED1B9fqe220106Ev
++ __ZNSt3__16vectorIDv2_fNS_9allocatorIS1_EEE18__assign_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPKS1_S8_EEvT0_T1_l
++ __ZNSt3__16vectorIDv2_fNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIN15ou_object_group9ItemGroupENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEED1B9fqe220106Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEED1B9fqe220106Ev
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_out_of_rangeB9fqe220106Ev
++ __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__17__sort4B9fqe220106INS_17_ClassicAlgPolicyERZN15ou_object_group11sortIndicesERKNS_6vectorIfNS_9allocatorIfEEEEE3$_0PmLi0EEEvT1_SC_SC_SC_T0_
++ __ZNSt3__17__sort5B9fqe220106INS_17_ClassicAlgPolicyERZN15ou_object_group11sortIndicesERKNS_6vectorIfNS_9allocatorIfEEEEE3$_0PmLi0EEEvT1_SC_SC_SC_SC_T0_
++ __ZSt28__throw_bad_array_new_lengthB9fqe220106v
++ __ZZNSt3__112__hash_tableIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEE16__emplace_uniqueB9fqe220106IJRKiEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIiPvEEEEbEEDpOT_ENKUlSA_SA_E_clESA_SA_
++ ___block_literal_global.267
++ ___block_literal_global.443
++ ___block_literal_global.453
++ ___swift__destructor.101
++ ___swift__destructor.1049
++ ___swift__destructor.1052
++ ___swift__destructor.111
++ ___swift__destructor.1523
++ ___swift__destructor.230
++ ___swift__destructor.236
++ ___swift__destructor.891
++ ___swift__destructor.99
++ ___swift_closure_destructor.1002
++ ___swift_closure_destructor.1008
++ ___swift_closure_destructor.1014
++ ___swift_closure_destructor.1033
++ ___swift_closure_destructor.1039
++ ___swift_closure_destructor.1043
++ ___swift_closure_destructor.1055
++ ___swift_closure_destructor.1062
++ ___swift_closure_destructor.1062Tm
++ ___swift_closure_destructor.1069
++ ___swift_closure_destructor.1076
++ ___swift_closure_destructor.107Tm
++ ___swift_closure_destructor.1082
++ ___swift_closure_destructor.1088
++ ___swift_closure_destructor.1096
++ ___swift_closure_destructor.1108
++ ___swift_closure_destructor.114
++ ___swift_closure_destructor.1140
++ ___swift_closure_destructor.1148
++ ___swift_closure_destructor.1154
++ ___swift_closure_destructor.1160
++ ___swift_closure_destructor.1166
++ ___swift_closure_destructor.1170
++ ___swift_closure_destructor.1176
++ ___swift_closure_destructor.1182
++ ___swift_closure_destructor.1194
++ ___swift_closure_destructor.119Tm
++ ___swift_closure_destructor.1201
++ ___swift_closure_destructor.1207
++ ___swift_closure_destructor.1213
++ ___swift_closure_destructor.1219
++ ___swift_closure_destructor.1229
++ ___swift_closure_destructor.1237
++ ___swift_closure_destructor.1241
++ ___swift_closure_destructor.1263
++ ___swift_closure_destructor.1273
++ ___swift_closure_destructor.1277
++ ___swift_closure_destructor.1290
++ ___swift_closure_destructor.1296
++ ___swift_closure_destructor.1299
++ ___swift_closure_destructor.1306
++ ___swift_closure_destructor.1314
++ ___swift_closure_destructor.1322
++ ___swift_closure_destructor.1331
++ ___swift_closure_destructor.1337
++ ___swift_closure_destructor.1341
++ ___swift_closure_destructor.1355
++ ___swift_closure_destructor.1361
++ ___swift_closure_destructor.1369
++ ___swift_closure_destructor.1383
++ ___swift_closure_destructor.1389
++ ___swift_closure_destructor.1405
++ ___swift_closure_destructor.1409
++ ___swift_closure_destructor.1424
++ ___swift_closure_destructor.1424Tm
++ ___swift_closure_destructor.1428
++ ___swift_closure_destructor.142Tm
++ ___swift_closure_destructor.1434
++ ___swift_closure_destructor.1438
++ ___swift_closure_destructor.1444
++ ___swift_closure_destructor.1462
++ ___swift_closure_destructor.1470
++ ___swift_closure_destructor.1491
++ ___swift_closure_destructor.1550
++ ___swift_closure_destructor.155Tm
++ ___swift_closure_destructor.1570
++ ___swift_closure_destructor.1576
++ ___swift_closure_destructor.160
++ ___swift_closure_destructor.167
++ ___swift_closure_destructor.188
++ ___swift_closure_destructor.193
++ ___swift_closure_destructor.201
++ ___swift_closure_destructor.207
++ ___swift_closure_destructor.210Tm
++ ___swift_closure_destructor.212
++ ___swift_closure_destructor.214
++ ___swift_closure_destructor.218
++ ___swift_closure_destructor.222
++ ___swift_closure_destructor.22Tm
++ ___swift_closure_destructor.231
++ ___swift_closure_destructor.236
++ ___swift_closure_destructor.240
++ ___swift_closure_destructor.245
++ ___swift_closure_destructor.249
++ ___swift_closure_destructor.25Tm
++ ___swift_closure_destructor.262
++ ___swift_closure_destructor.264
++ ___swift_closure_destructor.269
++ ___swift_closure_destructor.275
++ ___swift_closure_destructor.279
++ ___swift_closure_destructor.280
++ ___swift_closure_destructor.280Tm
++ ___swift_closure_destructor.290
++ ___swift_closure_destructor.294
++ ___swift_closure_destructor.2Tm
++ ___swift_closure_destructor.301
++ ___swift_closure_destructor.307
++ ___swift_closure_destructor.311
++ ___swift_closure_destructor.316
++ ___swift_closure_destructor.316Tm
++ ___swift_closure_destructor.319
++ ___swift_closure_destructor.328
++ ___swift_closure_destructor.32Tm
++ ___swift_closure_destructor.331
++ ___swift_closure_destructor.331Tm
++ ___swift_closure_destructor.343
++ ___swift_closure_destructor.364
++ ___swift_closure_destructor.371
++ ___swift_closure_destructor.372
++ ___swift_closure_destructor.375Tm
++ ___swift_closure_destructor.377
++ ___swift_closure_destructor.378
++ ___swift_closure_destructor.381
++ ___swift_closure_destructor.381Tm
++ ___swift_closure_destructor.383
++ ___swift_closure_destructor.384
++ ___swift_closure_destructor.387
++ ___swift_closure_destructor.390
++ ___swift_closure_destructor.393
++ ___swift_closure_destructor.395
++ ___swift_closure_destructor.403
++ ___swift_closure_destructor.407
++ ___swift_closure_destructor.408
++ ___swift_closure_destructor.40Tm
++ ___swift_closure_destructor.412
++ ___swift_closure_destructor.414
++ ___swift_closure_destructor.418
++ ___swift_closure_destructor.422
++ ___swift_closure_destructor.425
++ ___swift_closure_destructor.434
++ ___swift_closure_destructor.438
++ ___swift_closure_destructor.439
++ ___swift_closure_destructor.444
++ ___swift_closure_destructor.448
++ ___swift_closure_destructor.451
++ ___swift_closure_destructor.459
++ ___swift_closure_destructor.460
++ ___swift_closure_destructor.476
++ ___swift_closure_destructor.480
++ ___swift_closure_destructor.487
++ ___swift_closure_destructor.491
++ ___swift_closure_destructor.502
++ ___swift_closure_destructor.505
++ ___swift_closure_destructor.508
++ ___swift_closure_destructor.512
++ ___swift_closure_destructor.519
++ ___swift_closure_destructor.522
++ ___swift_closure_destructor.525
++ ___swift_closure_destructor.528
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.531
++ ___swift_closure_destructor.534
++ ___swift_closure_destructor.539Tm
++ ___swift_closure_destructor.543
++ ___swift_closure_destructor.546
++ ___swift_closure_destructor.551
++ ___swift_closure_destructor.557Tm
++ ___swift_closure_destructor.563
++ ___swift_closure_destructor.566
++ ___swift_closure_destructor.569
++ ___swift_closure_destructor.569Tm
++ ___swift_closure_destructor.575
++ ___swift_closure_destructor.584
++ ___swift_closure_destructor.58Tm
++ ___swift_closure_destructor.590
++ ___swift_closure_destructor.593
++ ___swift_closure_destructor.617
++ ___swift_closure_destructor.617Tm
++ ___swift_closure_destructor.621
++ ___swift_closure_destructor.627
++ ___swift_closure_destructor.631
++ ___swift_closure_destructor.635
++ ___swift_closure_destructor.857
++ ___swift_closure_destructor.863
++ ___swift_closure_destructor.897
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.935
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.941
++ ___swift_closure_destructor.954
++ ___swift_closure_destructor.966
++ ___swift_closure_destructor.970
++ ___swift_memcpy88_8
++ ___unnamed_54
++ _associated conformance 16MagnifierSupport14VQAMessageCellV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 16MagnifierSupport19AnimatedMessageCellV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _block_copy_helper.1004
++ _block_copy_helper.1010
++ _block_copy_helper.1016
++ _block_copy_helper.1058
++ _block_copy_helper.1064
++ _block_copy_helper.1071
++ _block_copy_helper.1078
++ _block_copy_helper.1084
++ _block_copy_helper.1090
++ _block_copy_helper.1098
++ _block_copy_helper.1142
++ _block_copy_helper.1150
++ _block_copy_helper.1156
++ _block_copy_helper.116
++ _block_copy_helper.1162
++ _block_copy_helper.1178
++ _block_copy_helper.1184
++ _block_copy_helper.1203
++ _block_copy_helper.1209
++ _block_copy_helper.1215
++ _block_copy_helper.1221
++ _block_copy_helper.1225
++ _block_copy_helper.1231
++ _block_copy_helper.1265
++ _block_copy_helper.1269
++ _block_copy_helper.1308
++ _block_copy_helper.1316
++ _block_copy_helper.1333
++ _block_copy_helper.1343
++ _block_copy_helper.1357
++ _block_copy_helper.1363
++ _block_copy_helper.1371
++ _block_copy_helper.1385
++ _block_copy_helper.1391
++ _block_copy_helper.1399
++ _block_copy_helper.1416
++ _block_copy_helper.1420
++ _block_copy_helper.1446
++ _block_copy_helper.1465
++ _block_copy_helper.1472
++ _block_copy_helper.1476
++ _block_copy_helper.1482
++ _block_copy_helper.1487
++ _block_copy_helper.1501
++ _block_copy_helper.1505
++ _block_copy_helper.1509
++ _block_copy_helper.1552
++ _block_copy_helper.1555
++ _block_copy_helper.1566
++ _block_copy_helper.1572
++ _block_copy_helper.1578
++ _block_copy_helper.1588
++ _block_copy_helper.232
++ _block_copy_helper.264
++ _block_copy_helper.267
++ _block_copy_helper.278
++ _block_copy_helper.304
++ _block_copy_helper.322
++ _block_copy_helper.347
++ _block_copy_helper.36
++ _block_copy_helper.367
++ _block_copy_helper.373
++ _block_copy_helper.379
++ _block_copy_helper.385
++ _block_copy_helper.391
++ _block_copy_helper.397
++ _block_copy_helper.403
++ _block_copy_helper.410
++ _block_copy_helper.417
++ _block_copy_helper.571
++ _block_copy_helper.577
++ _block_copy_helper.580
++ _block_copy_helper.586
++ _block_copy_helper.67
++ _block_copy_helper.8
++ _block_copy_helper.848
++ _block_copy_helper.852
++ _block_copy_helper.859
++ _block_copy_helper.865
++ _block_copy_helper.887
++ _block_copy_helper.89
++ _block_copy_helper.893
++ _block_copy_helper.899
++ _block_copy_helper.91
++ _block_copy_helper.937
++ _block_copy_helper.944
++ _block_copy_helper.956
++ _block_copy_helper.974
++ _block_copy_helper.984
++ _block_descriptor.10
++ _block_descriptor.1006
++ _block_descriptor.1012
++ _block_descriptor.1018
++ _block_descriptor.1060
++ _block_descriptor.1066
++ _block_descriptor.1073
++ _block_descriptor.1080
++ _block_descriptor.1086
++ _block_descriptor.1092
++ _block_descriptor.1100
++ _block_descriptor.1144
++ _block_descriptor.1152
++ _block_descriptor.1158
++ _block_descriptor.1164
++ _block_descriptor.118
++ _block_descriptor.1180
++ _block_descriptor.1186
++ _block_descriptor.1205
++ _block_descriptor.1211
++ _block_descriptor.1217
++ _block_descriptor.1223
++ _block_descriptor.1227
++ _block_descriptor.1233
++ _block_descriptor.1267
++ _block_descriptor.1271
++ _block_descriptor.1310
++ _block_descriptor.1318
++ _block_descriptor.1335
++ _block_descriptor.1345
++ _block_descriptor.1359
++ _block_descriptor.1365
++ _block_descriptor.1373
++ _block_descriptor.1387
++ _block_descriptor.1393
++ _block_descriptor.1401
++ _block_descriptor.1418
++ _block_descriptor.1422
++ _block_descriptor.1448
++ _block_descriptor.1467
++ _block_descriptor.1474
++ _block_descriptor.1478
++ _block_descriptor.1484
++ _block_descriptor.1489
++ _block_descriptor.1503
++ _block_descriptor.1507
++ _block_descriptor.1511
++ _block_descriptor.1554
++ _block_descriptor.1557
++ _block_descriptor.1568
++ _block_descriptor.1574
++ _block_descriptor.1580
++ _block_descriptor.1590
++ _block_descriptor.234
++ _block_descriptor.266
++ _block_descriptor.269
++ _block_descriptor.280
++ _block_descriptor.306
++ _block_descriptor.324
++ _block_descriptor.349
++ _block_descriptor.369
++ _block_descriptor.375
++ _block_descriptor.38
++ _block_descriptor.381
++ _block_descriptor.387
++ _block_descriptor.393
++ _block_descriptor.399
++ _block_descriptor.405
++ _block_descriptor.412
++ _block_descriptor.419
++ _block_descriptor.573
++ _block_descriptor.579
++ _block_descriptor.582
++ _block_descriptor.588
++ _block_descriptor.69
++ _block_descriptor.850
++ _block_descriptor.854
++ _block_descriptor.861
++ _block_descriptor.867
++ _block_descriptor.889
++ _block_descriptor.895
++ _block_descriptor.901
++ _block_descriptor.91
++ _block_descriptor.93
++ _block_descriptor.939
++ _block_descriptor.946
++ _block_descriptor.958
++ _block_descriptor.976
++ _block_descriptor.986
++ _block_destroy_helper.1005
++ _block_destroy_helper.1011
++ _block_destroy_helper.1017
++ _block_destroy_helper.1059
++ _block_destroy_helper.1065
++ _block_destroy_helper.1072
++ _block_destroy_helper.1079
++ _block_destroy_helper.1085
++ _block_destroy_helper.1091
++ _block_destroy_helper.1099
++ _block_destroy_helper.1143
++ _block_destroy_helper.1151
++ _block_destroy_helper.1157
++ _block_destroy_helper.1163
++ _block_destroy_helper.117
++ _block_destroy_helper.1179
++ _block_destroy_helper.1185
++ _block_destroy_helper.1204
++ _block_destroy_helper.1210
++ _block_destroy_helper.1216
++ _block_destroy_helper.1222
++ _block_destroy_helper.1226
++ _block_destroy_helper.1232
++ _block_destroy_helper.1266
++ _block_destroy_helper.1270
++ _block_destroy_helper.1309
++ _block_destroy_helper.1317
++ _block_destroy_helper.1334
++ _block_destroy_helper.1344
++ _block_destroy_helper.1358
++ _block_destroy_helper.1364
++ _block_destroy_helper.1372
++ _block_destroy_helper.1386
++ _block_destroy_helper.1392
++ _block_destroy_helper.1400
++ _block_destroy_helper.1417
++ _block_destroy_helper.1421
++ _block_destroy_helper.1447
++ _block_destroy_helper.1466
++ _block_destroy_helper.1473
++ _block_destroy_helper.1477
++ _block_destroy_helper.1483
++ _block_destroy_helper.1488
++ _block_destroy_helper.1502
++ _block_destroy_helper.1506
++ _block_destroy_helper.1510
++ _block_destroy_helper.1553
++ _block_destroy_helper.1556
++ _block_destroy_helper.1567
++ _block_destroy_helper.1573
++ _block_destroy_helper.1579
++ _block_destroy_helper.1589
++ _block_destroy_helper.233
++ _block_destroy_helper.265
++ _block_destroy_helper.268
++ _block_destroy_helper.279
++ _block_destroy_helper.305
++ _block_destroy_helper.323
++ _block_destroy_helper.348
++ _block_destroy_helper.368
++ _block_destroy_helper.37
++ _block_destroy_helper.374
++ _block_destroy_helper.380
++ _block_destroy_helper.386
++ _block_destroy_helper.392
++ _block_destroy_helper.398
++ _block_destroy_helper.404
++ _block_destroy_helper.411
++ _block_destroy_helper.418
++ _block_destroy_helper.572
++ _block_destroy_helper.578
++ _block_destroy_helper.581
++ _block_destroy_helper.587
++ _block_destroy_helper.68
++ _block_destroy_helper.849
++ _block_destroy_helper.853
++ _block_destroy_helper.860
++ _block_destroy_helper.866
++ _block_destroy_helper.888
++ _block_destroy_helper.894
++ _block_destroy_helper.9
++ _block_destroy_helper.90
++ _block_destroy_helper.900
++ _block_destroy_helper.92
++ _block_destroy_helper.938
++ _block_destroy_helper.945
++ _block_destroy_helper.957
++ _block_destroy_helper.975
++ _block_destroy_helper.985
++ _get_witness_table 16MagnifierSupport13AskSiriButtonV7SwiftUI4ViewHPyHC.611
++ _get_witness_table 16MagnifierSupport22OpenWifiSettingsButtonV7SwiftUI4ViewHPyHC.610
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQOyAA0I0VyACyACyACyAA6HStackVyAA05TupleD0VyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAQyAA5ColorVSgGG_ACyAA4TextVAA14_PaddingLayoutVGQPGGA3_GA3_GAA011_BackgroundP0VyAA06_ShapeE0VyAA7CapsuleVAXGGGG_AA05PlainiG0VQo_AA023AccessibilityAttachmentP0VGAaDHPqd0__AaDHD3_A21_HO_A23_AA0eP0HPyHCHC.142
++ _get_witness_table 7SwiftUI15ModifiedContentVyACy16MagnifierSupport14VQAMessageCellVAA14_OpacityEffectVGAA25_AppearanceActionModifierVGAA4ViewHPAiaMHPAfaMHPyHC_AhA0nM0HPyHCHC_AkaNHPyHCHC.615
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA15NavigationStackVyAA0E4PathVACyAA4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQOyAiAE29navigationBarTitleDisplayModeyQrAA0eP4ItemV0qrS0OFQOyAiAE0oQ0yQrqd__SyRd__lFQOyAiAE0I07contentQrqd__yXE_tAA0mD0Rd__lFQOyAA6ZStackVyAA05TupleD0VyACyACyAA5ColorVAA01_J13StyleModifierVyAA8MaterialVGGAA30_SafeAreaRegionsIgnoringLayoutVG_ACyACyAA6VStackVyA0_yAA012_ConditionalD0VyAI24AccessibilityUIUtilitiesE013axApplyStoredZ0yQrSSFQOyAA16ArrangedViews_v0VyAA6SpacerVAA06ScrollH6ReaderVyAiAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyAiAEA24_A25_A26__Qrqd___Sbyqd___qd__tctSQRd__lFQOyAiAE23scrollDismissesKeyboardyQrAA023ScrollDismissesKeyboardS0VFQOyAiAE19defaultScrollAnchoryQrAA9UnitPointVSgFQOyACyACyAA06ScrollH0VyA13_yA0_yACyAA6IDViewVyACyA2_AA12_FrameLayoutVGSSGAA01_jZ0VyAA14GeometryReaderVyACyA2_AA018_PreferenceWritingZ0Vy16MagnifierSupport25ScrollOffsetPreferenceKeyVGGGGG_ACyA13_yA0_yAA7ForEachVySaySi6offset_A48_10MAGMessageV7elementtGSiA0_yACyA37_yACyACyA48_19AnimatedMessageCellVAA16_FlexFrameLayoutVGAA14_PaddingLayoutVGSiGAA023AccessibilityAttachmentZ0VG_AA6HStackVyA0_yACyACyA48_22OpenWifiSettingsButtonVA69_GAA017_AppearanceActionZ0VG_A21_QPGGSgACyA21_A69_GSgQPGG_A41_QPGGA69_GQPGGGAA016_CoordinateSpaceZ0VySSGGA4_yA2_GG_Qo__Qo__SayA60_GQo_A81_G_SbQo_GG_Qo_A108_G_ACyA48_21IntelligentInputFieldVA73_GQPGGA66_GAA14_OpacityEffectVGQPGG_A0_yAA0mT0VyytACyA48_20TranscriptBackButtonVA119_GGSg_A124_yytACyA48_24TranscriptCollapseButtonVA119_GGQPGQo__SSQo__Qo__Qo_A10_GGA81_GA47_yAA09PreferredX9SchemeKeyVGGAaHHPA141_AaHHPA140_AaHHPyHC_A81_AA0hZ0HPyHCHC_A144_AAA146_HPyHCHC.139
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA7ForEachVys18ReversedCollectionVySaySSGGSSACyACyAA6ButtonVyAA4ViewP24AccessibilityUIUtilitiesE18accessibilityGlass2inQrqd___tAA5ShapeRd__lFQOyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA12_FrameLayoutVGAA08_PaddingX0VG_AA7CapsuleVQo_GAA0l10AttachmentV0VGAA06_TraituV0VyAA015TransitionTraitT0VGGGGAA05_FlexwX0VGAA010_AnimationV0VyAJGGAaNHPA22_AaNHPA19_AaNHPyHC_A21_AA0kV0HPyHCHC_A25_AAA27_HPyHCHC.612
++ _get_witness_table 7SwiftUI6VStackVyAA12TupleContentVyAA012_ConditionalE0VyAA08ModifiedE0VyAA4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaJRd__lFQOyAIyAIyAIyAIyAIyAIyAIyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameP0VGAA11_ClipEffectVyAA9RectangleVGGAWyAA07RoundedT0VGGAA01_E17ShapeKindModifierVyA1_GGA6_GAA023AccessibilityAttachmentX0VG_AEyAA6ButtonVyAA5LabelVyAA4TextVAOGG_A19_SgQPGQo_A10_GA23_GSg_AIyAkAEAlMQrqd__yXE_tAaJRd__lFQOyAIyAIyAIyAIyA17_AA05_FlexqP0VGAA022_EnvironmentKeyWritingX0VyAA4FontVSgGGA30_yAA5ColorVSgGGA10_G_AEyA19__AA03AnyH0VQPGQo_A10_GQPGGAaJHPyHC.638
++ _get_witness_table 7SwiftUI6VStackVyAA12TupleContentVyAA08ModifiedE0VyAGy16MagnifierSupport26QuestionHistoryBubblesViewVAA14_PaddingLayoutVGALGSg_AGyAA0L0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAGyAGyAGyAGyAA6HStackVyAEyAqAEArsT_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAqAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAqAE20accessibilityFocusedyQrAA23AccessibilityFocusStateV7BindingVySb_GFQOyAGyAGyAGyAH011PromptEntryL13RepresentableVAA010_FlexFrameN0VGAA06_FrameN0VGALG_Qo__Qo__SbQo__AqAEArsT_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAqAEArsT_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAGyAGyAQ24AccessibilityUIUtilitiesE0Y5Glass2inQrqd___tAA5ShapeRd__lFQOyAGyAGyAGyAqAEA1_yQrA6_FQOyAGyAA6ButtonVyAGyAqAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQOyAH011MAGWaveformL0V_SNyA27_GQo_ALGGAA31AccessibilityAttachmentModifierVG_Qo_AA01_E17ShapeKindModifierVyAA6CircleVGGAA24_BackgroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyA43_GG_A43_Qo_ALGAA19_BackgroundModifierVyAA14GeometryReaderVyAqAEArsT_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAGyA49_AA25_AppearanceActionModifierVG_12CoreGraphics7CGFloatVQo_GGG_SbQo__SbQo_SgQPGGALGAA18_AnimationModifierVySbGGA59_yAA5GroupVyAGyAGyAGyAGyAGyAGyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGA87_yA85_5ScaleOGGALGALGAA15_HiddenModifierVGA70_GSgGGGALG_SbQo_A63_GQPGGAaPHPyHC.140
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQOyAA0G0VyAA15ModifiedContentVyAIyAIyAA6HStackVyAA05TupleI0VyAIyAIyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAQyAA5ColorVSgGG_AIyAA4TextVAA14_PaddingLayoutVGQPGGA3_GA3_GAA011_BackgroundP0VyAA06_ShapeC0VyAA7CapsuleVAXGGGG_AA05PlaingE0VQo_HO.141
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE36accessibilityShowsLargeContentVieweryQrqd__yXEAaBRd__lFQOyAA08ModifiedG0VyAA6ButtonVyAA5ImageVGAA31AccessibilityAttachmentModifierVG_AA6VStackVyAA05TupleG0VyAJ_AA4TextVQPGGQo_HO.614
++ _keypath_get_selector_bounds
++ _keypath_get_selector_position
++ _objc_msgSend$initForTextStyle:
++ _objc_msgSend$processIdentifier
++ _objc_msgSend$resolvedColorWithTraitCollection:
++ _objc_msgSend$scaledFontForFont:maximumPointSize:
++ _objc_msgSend$scaledValueForValue:compatibleWithTraitCollection:
++ _objc_msgSend$systemFillColor
++ _objc_msgSend$traitCollectionWithPreferredContentSizeCategory:
++ _objc_msgSend$traitCollectionWithUserInterfaceStyle:
++ _objc_msgSend$videoRotationAngle
++ _swift_release_x13
++ _symbolic SDySOSo22UIViewPropertyAnimatorCG
++ _symbolic Si__________y_____y_____yACyACy__________G_____GSiG_____G______yAByACyACy_____AHG_____G______QPGGSgACyArHGSgQPGIegynr_ 16MagnifierSupport10MAGMessageV 7SwiftUI12TupleContentV AD08ModifiedG0V AD6IDViewV AA19AnimatedMessageCellV AD16_FlexFrameLayoutV AD08_PaddingO0V AD31AccessibilityAttachmentModifierV AD6HStackV AA22OpenWifiSettingsButtonV AD017_AppearanceActionS0V AD6SpacerV
++ _symbolic _____ 16MagnifierSupport26MAGGenerativeModelsServiceC19MultimodalGuardrail33_7C4A8C0A7EF0F9EF8DBCC5CA1CD31284LLV
++ _symbolic _____ 16MagnifierSupport29MFSettingsTableViewControllerC
++ _symbolic _____ 17MagnifierServices19MAGAnalyticsSurfaceO
++ _symbolic _____ 7SwiftUI4FontV
++ _symbolic _____ 7SwiftUI7AnyViewV
++ _symbolic _____ So18UIImageOrientationV
++ _symbolic _____Sg 12ModelCatalog17UseCaseIdentifierV
++ _symbolic _____Sg 17MagnifierServices25MAGAnalyticsVqaErrorLabelO
++ _symbolic _____Sg 26SensitiveContentAnalysisML19MultimodalSanitizerC
++ _symbolic _____Sg 5UIKit25UIBackgroundConfigurationV
++ _symbolic _____Sg 9PromptKit0A0V9ComponentV7PrivacyO
++ _symbolic _____SgXwz_Xx 16MagnifierSupport10MenuButtonC
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 16MagnifierSupport14VQAMessageCellV AA14_OpacityEffectV AA25_AppearanceActionModifierV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 16MagnifierSupport19AnimatedMessageCellV AA16_FlexFrameLayoutV AA08_PaddingL0V
++ _symbolic _____yAAy__________y_____GG_____G_AAyAAy_____y_____y_____y_____y_____y__________y_____yAAy_____y_____y_____yAAyAAy_____yAIyAJyAAy_____yAAyAB_____GSSG_____y_____yAAyAB_____y_____GGGGG_AAyAIyAJy_____ySaySi6offset______7elementtGSiAJyAAyAPyAAyAAy__________G_____GSiG_____G______yAJyAAyAAy_____A9_G_____G_AMQPGGSgAAyAMA9_GSgQPGG_ASQPGGA9_GQPGGG_____ySSGGACyABGG_Qo__Qo__SayA3_GQo_A17_G_SbQo_GG_Qo_A43_G_AAy_____A12_GQPGGA7_G_____Gt 7SwiftUI15ModifiedContentV AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA05TupleD0V AA012_ConditionalD0V AA4ViewP24AccessibilityUIUtilitiesE013axApplyStoredH0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollR6ReaderV AsAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AsAEA0_A1_A2__Qrqd___Sbyqd___qd__tctSQRd__lFQO AsAE23scrollDismissesKeyboardyQrAA27ScrollDismissesKeyboardModeVFQO AsAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollR0V AA6IDViewV AA06_FrameN0V AA01_fH0V AA14GeometryReaderV AA018_PreferenceWritingH0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A22_10MAGMessageV A22_19AnimatedMessageCellV AA010_FlexFrameN0V AA08_PaddingN0V AA0s10AttachmentH0V AA6HStackV A22_22OpenWifiSettingsButtonV AA017_AppearanceActionH0V AA016_CoordinateSpaceH0V A22_21IntelligentInputFieldV AA14_OpacityEffectV
++ _symbolic _____yAAy_____y_____AAy_____y_____y_____y_____y_____y_____yAAyAAy__________y_____GG_____G_AAyAAy_____yAEy_____y_____y_____y__________y_____yAAy_____y_____y_____yAAyAAy_____yAMyAEyAAy_____yAAyAF_____GSSG_____y_____yAAyAF_____y_____GGGGG_AAyAMyAEy_____ySaySi6offset______7elementtGSiAEyAAyASyAAyAAy__________G_____GSiG_____G______yAEyAAyAAy_____A12_G_____G_APQPGGSgAAyAPA12_GSgQPGG_AVQPGGA12_GQPGGG_____ySSGGAGyAFGG_Qo__Qo__SayA6_GQo_A20_G_SbQo_GG_Qo_A46_G_AAy_____A15_GQPGGA10_G_____GQPGG_AEy_____yytAAy_____A55_GGSg_A59_yytAAy_____A55_GGQPGQo__SSQo__Qo__Qo_AKGGA20_GAYy_____GG 7SwiftUI15ModifiedContentV AA15NavigationStackV AA0E4PathV AA4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AiAE29navigationBarTitleDisplayModeyQrAA0eP4ItemV0qrS0OFQO AiAE0oQ0yQrqd__SyRd__lFQO AiAE0I07contentQrqd__yXE_tAA0mD0Rd__lFQO AA6ZStackV AA05TupleD0V AA5ColorV AA01_J13StyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalD0V AI24AccessibilityUIUtilitiesE013axApplyStoredZ0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollH6ReaderV AiAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAEA21_A22_A23__Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAE23scrollDismissesKeyboardyQrAA023ScrollDismissesKeyboardS0VFQO AiAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollH0V AA6IDViewV AA12_FrameLayoutV AA01_jZ0V AA14GeometryReaderV AA018_PreferenceWritingZ0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A43_10MAGMessageV A43_19AnimatedMessageCellV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA023AccessibilityAttachmentZ0V AA6HStackV A43_22OpenWifiSettingsButtonV AA017_AppearanceActionZ0V AA016_CoordinateSpaceZ0V A43_21IntelligentInputFieldV AA14_OpacityEffectV AA0mT0V A43_20TranscriptBackButtonV A43_24TranscriptCollapseButtonV AA09PreferredX9SchemeKeyV
++ _symbolic _____yAAy_____y_____y_____yAAy_____yAAy__________GSSG_____y_____yAAyAF_____y_____GGGGG_AAyACyADy_____ySaySi6offset______7elementtGSiADyAAyAEyAAyAAy__________G_____GSiG_____G______yADyAAyAAy_____A_G_____G______QPGGSgAAyA9_A_GSgQPGG_AIQPGGA_GQPGGG_____ySSGG_____yAFGG 7SwiftUI15ModifiedContentV AA10ScrollViewV AA6VStackV AA05TupleD0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingN0V 16MagnifierSupport0e6OffsetQ3KeyV AA7ForEachV AV10MAGMessageV AV19AnimatedMessageCellV AA05_FlexkL0V AA08_PaddingL0V AA023AccessibilityAttachmentN0V AA6HStackV AV22OpenWifiSettingsButtonV AA017_AppearanceActionN0V AA6SpacerV AA016_CoordinateSpaceN0V AA01_m5StyleN0V
++ _symbolic _____yAAy_____y_____y_____y_____y_____y__________y_____yAAy_____y_____y_____yAAyAAy_____yAByACyAAy_____yAAy__________GSSG_____y_____yAAyAJ_____y_____GGGGG_AAyAByACy_____ySaySi6offset______7elementtGSiACyAAyAIyAAyAAy__________G_____GSiG_____G______yACyAAyAAy_____A3_G_____G_AFQPGGSgAAyAFA3_GSgQPGG_AMQPGGA3_GQPGGG_____ySSGG_____yAJGG_Qo__Qo__SayAYGQo_A11_G_SbQo_GG_Qo_A38_G_AAy_____A6_GQPGGA1_G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA012_ConditionalD0V AA4ViewP24AccessibilityUIUtilitiesE21axApplyStoredModifieryQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollH6ReaderV AkAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AkAEAtuV_Qrqd___Sbyqd___qd__tctSQRd__lFQO AkAE23scrollDismissesKeyboardyQrAA0sZ12KeyboardModeVFQO AkAE07defaultS6AnchoryQrAA9UnitPointVSgFQO AA0sH0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA011_BackgroundN0V AA08GeometryT0V AA018_PreferenceWritingN0V 16MagnifierSupport0S19OffsetPreferenceKeyV AA7ForEachV A16_10MAGMessageV A16_19AnimatedMessageCellV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA0i10AttachmentN0V AA6HStackV A16_22OpenWifiSettingsButtonV AA017_AppearanceActionN0V AA016_CoordinateSpaceN0V AA016_BackgroundStyleN0V A16_21IntelligentInputFieldV AA14_OpacityEffectV
++ _symbolic _____ySOSo22UIViewPropertyAnimatorCG s18_DictionaryStorageC
++ _symbolic _____ySaySi6offset______7elementtGSi_____y_____y_____yAGyAGy__________G_____GSiG_____G______yAFyAGyAGy_____ALG_____G______QPGGSgAGyAvLGSgQPGG 7SwiftUI7ForEachV 16MagnifierSupport10MAGMessageV AA12TupleContentV AA08ModifiedI0V AA6IDViewV AD19AnimatedMessageCellV AA16_FlexFrameLayoutV AA08_PaddingQ0V AA31AccessibilityAttachmentModifierV AA6HStackV AD22OpenWifiSettingsButtonV AA017_AppearanceActionU0V AA6SpacerV
++ _symbolic _____ySaySi6offset______7elementtGSi_____y_____y_____yAGyAGy__________G_____GSiG_____G______yAFyAGyAGy_____ALG_____G______QPGGSgAGyAvLGSgQPGG_AHyAGy__________GSSGt 7SwiftUI7ForEachV 16MagnifierSupport10MAGMessageV AA12TupleContentV AA08ModifiedI0V AA6IDViewV AD19AnimatedMessageCellV AA16_FlexFrameLayoutV AA08_PaddingQ0V AA31AccessibilityAttachmentModifierV AA6HStackV AD22OpenWifiSettingsButtonV AA017_AppearanceActionU0V AA6SpacerV AA5ColorV AA01_pQ0V
++ _symbolic _____ySbG 2os21OSAllocatedUnfairLockV
++ _symbolic _____ySb_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____y_____G 10Foundation24NSKeyValueObservedChangeV So6CGRectV
++ _symbolic _____y_____G 10Foundation24NSKeyValueObservedChangeV So7CGPointV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4DataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9PromptKit0D0V9ComponentV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 16MagnifierSupport14VQAMessageCellV AA14_OpacityEffectV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 16MagnifierSupport19AnimatedMessageCellV AA16_FlexFrameLayoutV
++ _symbolic _____y___________y_____yADy__________y_____GG_____G_ADyADy_____yACy_____y_____y_____y__________y_____yADy_____y_____y_____yADyADy_____yALyACyADy_____yADyAE_____GSSG_____y_____yADyAE_____y_____GGGGG_ADyALyACy_____ySaySi6offset______7elementtGSiACyADyARyADyADy__________G_____GSiG_____G______yACyADyADy_____A11_G_____G_AOQPGGSgADyAOA11_GSgQPGG_AUQPGGA11_GQPGGG_____ySSGGAFyAEGG_Qo__Qo__SayA5_GQo_A19_G_SbQo_GG_Qo_A45_G_ADy_____A14_GQPGGA9_G_____GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV AA024_SafeAreaRegionsIgnoringG0V AA6VStackV AA012_ConditionalI0V AA0D0P24AccessibilityUIUtilitiesE013axApplyStoredN0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollD6ReaderV AyAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AyAEA6_A7_A8__Qrqd___Sbyqd___qd__tctSQRd__lFQO AyAE23scrollDismissesKeyboardyQrAA27ScrollDismissesKeyboardModeVFQO AyAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollD0V AA6IDViewV AA06_FrameG0V AA01_lN0V AA14GeometryReaderV AA018_PreferenceWritingN0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A28_10MAGMessageV A28_19AnimatedMessageCellV AA010_FlexFrameG0V AA08_PaddingG0V AA0v10AttachmentN0V AA6HStackV A28_22OpenWifiSettingsButtonV AA017_AppearanceActionN0V AA016_CoordinateSpaceN0V A28_21IntelligentInputFieldV AA14_OpacityEffectV
++ _symbolic _____y___________y_____ySaySi6offset______7elementtGSiACy_____y_____yAIyAIy__________G_____GSiG_____G______yACyAIyAIy_____ANG_____G______QPGGSgAIyAxNGSgQPGG_AJyAIy__________GSSGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA7ForEachV 16MagnifierSupport10MAGMessageV AA08ModifiedI0V AA6IDViewV AL19AnimatedMessageCellV AA010_FlexFrameG0V AA08_PaddingG0V AA31AccessibilityAttachmentModifierV AA6HStackV AL22OpenWifiSettingsButtonV AA017_AppearanceActionY0V AA6SpacerV AA5ColorV AA01_uG0V
++ _symbolic _____y___________y_____y_____yADy__________GSSG_____y_____yADyAF_____y_____GGGGG_ADy_____yACy_____ySaySi6offset______7elementtGSiACyADyAEyADyADy__________G_____GSiG_____G______yACyADyADy_____A0_G_____G______QPGGSgADyA10_A0_GSgQPGG_AIQPGGA0_GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA6IDViewV AA5ColorV AA06_FrameG0V AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingO0V 16MagnifierSupport012ScrollOffsetR3KeyV AA0F0V AA7ForEachV AX10MAGMessageV AX19AnimatedMessageCellV AA05_FlexmG0V AA08_PaddingG0V AA023AccessibilityAttachmentO0V AA6HStackV AX22OpenWifiSettingsButtonV AA017_AppearanceActionO0V AA6SpacerV
++ _symbolic _____y___________y_____y_____y_____yAEyAEyAEyAEyAEyAEyAEy__________G_____G_____y_____GGAKy_____GG_____yAOGGASG_____G_ACy_____y_____y_____AFGG_A0_SgQPGQo_AVGA4_GSg_AEy_____yAEyAEyAEyAEyAZ_____G_____y_____SgGGA9_y_____SgGGAVG_ACyA0_______QPGQo_AVGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA012_ConditionalI0V AA08ModifiedI0V AA0D0PAAE11contextMenu9menuItemsQrqd__yXE_tAaNRd__lFQO AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA11_ClipEffectV AA9RectangleV AA07RoundedV0V AA01_I17ShapeKindModifierV AA023AccessibilityAttachmentZ0V AA6ButtonV AA5LabelV AA4TextV AoAEApQQrqd__yXE_tAaNRd__lFQO AA05_FlexsG0V AA022_EnvironmentKeyWritingZ0V AA4FontV AA5ColorV AA03AnyD0V
++ _symbolic _____y___________y_____y_____y_____y__________y_____y_____y_____y_____y_____yAHyAHy_____y_____yACyAHy_____yAHy__________GSSG_____y_____yAHyAL_____y_____GGGGG_AHyAJyACy_____ySaySi6offset______7elementtGSiACyAHyAKyAHyAHy__________G_____GSiG_____G______yACyAHyAHy_____A5_G_____G_AFQPGGSgAHyAFA5_GSgQPGG_AOQPGGA5_GQPGGG_____ySSGG_____yALGG_Qo__Qo__SayA_GQo_A13_G_SbQo_GG_Qo_A40_G_AHy_____A8_GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA012_ConditionalI0V AA0D0P24AccessibilityUIUtilitiesE21axApplyStoredModifieryQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollD6ReaderV AmAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA08ModifiedI0V AmAEAvwX_Qrqd___Sbyqd___qd__tctSQRd__lFQO AmAE23scrollDismissesKeyboardyQrAA0U21DismissesKeyboardModeVFQO AmAE07defaultU6AnchoryQrAA9UnitPointVSgFQO AA0uD0V AA0F0V AA6IDViewV AA5ColorV AA06_FrameG0V AA011_BackgroundP0V AA08GeometryV0V AA018_PreferenceWritingP0V 16MagnifierSupport0U19OffsetPreferenceKeyV AA7ForEachV A22_10MAGMessageV A22_19AnimatedMessageCellV AA010_FlexFrameG0V AA08_PaddingG0V AA0k10AttachmentP0V AA6HStackV A22_22OpenWifiSettingsButtonV AA017_AppearanceActionP0V AA016_CoordinateSpaceP0V AA016_BackgroundStyleP0V A22_21IntelligentInputFieldV
++ _symbolic _____y__________y_____y_____y_____y_____y_____yADyADy_____y_____y_____yADy_____yADy__________GSSG_____y_____yADyAI_____y_____GGGGG_ADyAFyAGy_____ySaySi6offset______7elementtGSiAGyADyAHyADyADy__________G_____GSiG_____G______yAGyADyADy_____A2_G_____G_ABQPGGSgADyABA2_GSgQPGG_ALQPGGA2_GQPGGG_____ySSGG_____yAIGG_Qo__Qo__SayAXGQo_A10_G_SbQo_GG 7SwiftUI16ArrangedViews_v0V AA6SpacerV AA16ScrollViewReaderV AA0H0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AiAEAjkL_Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAE23scrollDismissesKeyboardyQrAA0gqR4ModeVFQO AiAE07defaultG6AnchoryQrAA9UnitPointVSgFQO AA0gH0V AA6VStackV AA05TupleO0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA08GeometryI0V AA26_PreferenceWritingModifierV 16MagnifierSupport0G19OffsetPreferenceKeyV AA7ForEachV A12_10MAGMessageV A12_19AnimatedMessageCellV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV AA6HStackV A12_22OpenWifiSettingsButtonV AA25_AppearanceActionModifierV AA24_CoordinateSpaceModifierV AA24_BackgroundStyleModifierV
++ _symbolic _____y__________y_____y_____y_____y_____y_____y_____yACyACy__________y_____GG_____G_ACyACy_____yAEy_____y_____y_____y__________y_____yACy_____y_____y_____yACyACy_____yAMyAEyACy_____yACyAF_____GSSG_____y_____yACyAF_____y_____GGGGG_ACyAMyAEy_____ySaySi6offset______7elementtGSiAEyACyASyACyACy__________G_____GSiG_____G______yAEyACyACy_____A12_G_____G_APQPGGSgACyAPA12_GSgQPGG_AVQPGGA12_GQPGGG_____ySSGGAGyAFGG_Qo__Qo__SayA6_GQo_A20_G_SbQo_GG_Qo_A46_G_ACy_____A15_GQPGGA10_G_____GQPGG_AEy_____yytACy_____A55_GGSg_A59_yytACy_____A55_GGQPGQo__SSQo__Qo__Qo_AKGG 7SwiftUI15NavigationStackV AA0C4PathV AA15ModifiedContentV AA4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AiAE29navigationBarTitleDisplayModeyQrAA0cP4ItemV0qrS0OFQO AiAE0oQ0yQrqd__SyRd__lFQO AiAE0I07contentQrqd__yXE_tAA0mG0Rd__lFQO AA6ZStackV AA05TupleG0V AA5ColorV AA01_J13StyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalG0V AI24AccessibilityUIUtilitiesE013axApplyStoredZ0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollH6ReaderV AiAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAEA21_A22_A23__Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAE23scrollDismissesKeyboardyQrAA023ScrollDismissesKeyboardS0VFQO AiAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollH0V AA6IDViewV AA12_FrameLayoutV AA01_jZ0V AA14GeometryReaderV AA018_PreferenceWritingZ0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A43_10MAGMessageV A43_19AnimatedMessageCellV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA023AccessibilityAttachmentZ0V AA6HStackV A43_22OpenWifiSettingsButtonV AA017_AppearanceActionZ0V AA016_CoordinateSpaceZ0V A43_21IntelligentInputFieldV AA14_OpacityEffectV AA0mT0V A43_20TranscriptBackButtonV A43_24TranscriptCollapseButtonV
++ _symbolic _____y______y_AAy_ABy______y_____Sg_GADGSo17OS_dispatch_queueCGSo7UIImageCGAIG 7Combine10PublishersO9ReceiveOnV AC10CompactMapV AA9PublishedV9PublisherV 10Foundation3URLV
++ _symbolic _____y______y_AAy______y_____Sg_GADGSo17OS_dispatch_queueCGSo7UIImageCG 7Combine10PublishersO10CompactMapV AC9ReceiveOnV AA9PublishedV9PublisherV 10Foundation3URLV
++ _symbolic _____y______y______y_____Sg_GADGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC10CompactMapV AA9PublishedV9PublisherV 10Foundation3URLV
++ _symbolic _____y_____yAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGG_____G______y_____y_____yAB_____GG______QPGQo_ANG 7SwiftUI15ModifiedContentV AA4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaDRd__lFQO AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA023AccessibilityAttachmentQ0V AA05TupleD0V AA6ButtonV AA5LabelV AA5ImageV AA03AnyE0V
++ _symbolic _____y_____yAAyAAyAAy__________G_____y_____SgGGAEy_____SgGG_____G______y_____y_____yAB_____GG______QPGQo_ 7SwiftUI4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQO AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA023AccessibilityAttachmentQ0V AA05TupleI0V AA6ButtonV AA5LabelV AA5ImageV AA03AnyC0V
++ _symbolic _____y_____yAAyAAy__________G_____GSiG_____G 7SwiftUI15ModifiedContentV AA6IDViewV 16MagnifierSupport19AnimatedMessageCellV AA16_FlexFrameLayoutV AA08_PaddingM0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____yAAyAAy__________G_____GSiG_____G______y_____yAAyAAy_____AFG_____G______QPGGSgAAyAqFGSgt 7SwiftUI15ModifiedContentV AA6IDViewV 16MagnifierSupport19AnimatedMessageCellV AA16_FlexFrameLayoutV AA08_PaddingM0V AA31AccessibilityAttachmentModifierV AA6HStackV AA05TupleD0V AF22OpenWifiSettingsButtonV AA017_AppearanceActionQ0V AA6SpacerV
++ _symbolic _____y_____yAAy__________GSSG_____y_____yAAyAC_____y_____GGGGG_AAy_____y_____y_____ySaySi6offset______7elementtGSiAQyAAyAByAAyAAy__________G_____GSiG_____G______yAQyAAyAAy_____AZG_____G______QPGGSgAAyA8_AZGSgQPGG_AFQPGGAZGt 7SwiftUI15ModifiedContentV AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingJ0V 16MagnifierSupport012ScrollOffsetM3KeyV AA6VStackV AA05TupleD0V AA7ForEachV AP10MAGMessageV AP19AnimatedMessageCellV AA05_FlexgH0V AA08_PaddingH0V AA023AccessibilityAttachmentJ0V AA6HStackV AP22OpenWifiSettingsButtonV AA017_AppearanceActionJ0V AA6SpacerV
++ _symbolic _____y_____yAAy_____y_____y_____yAAy_____yAAy__________GSSG_____y_____yAAyAF_____y_____GGGGG_AAyACyADy_____ySaySi6offset______7elementtGSiADyAAyAEyAAyAAy__________G_____GSiG_____G______yADyAAyAAy_____A_G_____G______QPGGSgAAyA9_A_GSgQPGG_AIQPGGA_GQPGGG_____ySSGG_____yAFGG_Qo_ 7SwiftUI4ViewPAAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA15ModifiedContentV AA0eC0V AA6VStackV AA05TupleJ0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingR0V 16MagnifierSupport0e6OffsetU3KeyV AA7ForEachV A0_10MAGMessageV A0_19AnimatedMessageCellV AA05_FlexoP0V AA08_PaddingP0V AA023AccessibilityAttachmentR0V AA6HStackV A0_22OpenWifiSettingsButtonV AA017_AppearanceActionR0V AA6SpacerV AA016_CoordinateSpaceR0V AA01_q5StyleR0V
++ _symbolic _____y_____yABy__________G_____GSiG 7SwiftUI6IDViewV AA15ModifiedContentV 16MagnifierSupport19AnimatedMessageCellV AA16_FlexFrameLayoutV AA08_PaddingM0V
++ _symbolic _____y_____y_____AAy_____y_____y_____y_____y_____y_____yAAyAAy__________y_____GG_____G_AAyAAy_____yAEy_____y_____y_____y__________y_____yAAy_____y_____y_____yAAyAAy_____yAMyAEyAAy_____yAAyAF_____GSSG_____y_____yAAyAF_____y_____GGGGG_AAyAMyAEy_____ySaySi6offset______7elementtGSiAEyAAyASyAAyAAy__________G_____GSiG_____G______yAEyAAyAAy_____A12_G_____G_APQPGGSgAAyAPA12_GSgQPGG_AVQPGGA12_GQPGGG_____ySSGGAGyAFGG_Qo__Qo__SayA6_GQo_A20_G_SbQo_GG_Qo_A46_G_AAy_____A15_GQPGGA10_G_____GQPGG_AEy_____yytAAy_____A55_GGSg_A59_yytAAy_____A55_GGQPGQo__SSQo__Qo__Qo_AKGGA20_G 7SwiftUI15ModifiedContentV AA15NavigationStackV AA0E4PathV AA4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AiAE29navigationBarTitleDisplayModeyQrAA0eP4ItemV0qrS0OFQO AiAE0oQ0yQrqd__SyRd__lFQO AiAE0I07contentQrqd__yXE_tAA0mD0Rd__lFQO AA6ZStackV AA05TupleD0V AA5ColorV AA01_J13StyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalD0V AI24AccessibilityUIUtilitiesE013axApplyStoredZ0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollH6ReaderV AiAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAEA21_A22_A23__Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAE23scrollDismissesKeyboardyQrAA023ScrollDismissesKeyboardS0VFQO AiAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollH0V AA6IDViewV AA12_FrameLayoutV AA01_jZ0V AA14GeometryReaderV AA018_PreferenceWritingZ0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A43_10MAGMessageV A43_19AnimatedMessageCellV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA023AccessibilityAttachmentZ0V AA6HStackV A43_22OpenWifiSettingsButtonV AA017_AppearanceActionZ0V AA016_CoordinateSpaceZ0V A43_21IntelligentInputFieldV AA14_OpacityEffectV AA0mT0V A43_20TranscriptBackButtonV A43_24TranscriptCollapseButtonV
++ _symbolic _____y_____y__________GG______t 7SwiftUI6ButtonV AA5LabelV AA4TextV AA5ImageV AA7AnyViewV
++ _symbolic _____y_____y_____yAAy_____y_____y_____yAAy_____yAAy__________GSSG_____y_____yAAyAF_____y_____GGGGG_AAyACyADy_____ySaySi6offset______7elementtGSiADyAAyAEyAAyAAy__________G_____GSiG_____G______yADyAAyAAy_____A_G_____G______QPGGSgAAyA9_A_GSgQPGG_AIQPGGA_GQPGGG_____ySSGG_____yAFGG_Qo__Qo_ 7SwiftUI4ViewPAAE23scrollDismissesKeyboardyQrAA06ScrolleF4ModeVFQO AcAE07defaultG6AnchoryQrAA9UnitPointVSgFQO AA15ModifiedContentV AA0gC0V AA6VStackV AA05TupleN0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingV0V 16MagnifierSupport0g6OffsetY3KeyV AA7ForEachV A3_10MAGMessageV A3_19AnimatedMessageCellV AA05_FlexsT0V AA08_PaddingT0V AA023AccessibilityAttachmentV0V AA6HStackV A3_22OpenWifiSettingsButtonV AA017_AppearanceActionV0V AA6SpacerV AA016_CoordinateSpaceV0V AA01_u5StyleV0V
++ _symbolic _____y_____y_____yAByAByAByAByAByAByABy__________G_____G_____y_____GGAHy_____GG_____yALGGAPG_____G______y_____y_____y_____ACGG_AZSgQPGQo_ASGA2_GSg_ABy_____yAByAByAByAByAX_____G_____y_____SgGGA7_y_____SgGGASG_AUyAZ______QPGQo_ASGt 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaFRd__lFQO AA5ImageV AA18_AspectRatioLayoutV AA06_FrameN0V AA11_ClipEffectV AA9RectangleV AA07RoundedR0V AA01_D17ShapeKindModifierV AA023AccessibilityAttachmentV0V AA05TupleD0V AA6ButtonV AA5LabelV AA4TextV AgAEAhIQrqd__yXE_tAaFRd__lFQO AA05_FlexoN0V AA022_EnvironmentKeyWritingV0V AA4FontV AA5ColorV AA03AnyF0V
++ _symbolic _____y_____y_____yAByABy__________G_____GSiG_____G______yAAyAByABy_____AGG_____G______QPGGSgAByAqGGSgQPG 7SwiftUI12TupleContentV AA08ModifiedD0V AA6IDViewV 16MagnifierSupport19AnimatedMessageCellV AA16_FlexFrameLayoutV AA08_PaddingN0V AA31AccessibilityAttachmentModifierV AA6HStackV AH22OpenWifiSettingsButtonV AA017_AppearanceActionR0V AA6SpacerV
++ _symbolic _____y_____y_____yACy__________y_____GG_____G_ACyACy_____yABy_____y_____y_____y__________y_____yACy_____y_____y_____yACyACy_____yAKyAByACy_____yACyAD_____GSSG_____y_____yACyAD_____y_____GGGGG_ACyAKyABy_____ySaySi6offset______7elementtGSiAByACyAQyACyACy__________G_____GSiG_____G______yAByACyACy_____A10_G_____G_ANQPGGSgACyANA10_GSgQPGG_ATQPGGA10_GQPGGG_____ySSGGAEyADGG_Qo__Qo__SayA4_GQo_A18_G_SbQo_GG_Qo_A44_G_ACy_____A13_GQPGGA8_G_____GQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalE0V AA4ViewP24AccessibilityUIUtilitiesE013axApplyStoredJ0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollS6ReaderV AuAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AuAEA2_A3_A4__Qrqd___Sbyqd___qd__tctSQRd__lFQO AuAE23scrollDismissesKeyboardyQrAA27ScrollDismissesKeyboardModeVFQO AuAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollS0V AA6IDViewV AA06_FrameP0V AA01_hJ0V AA14GeometryReaderV AA018_PreferenceWritingJ0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A24_10MAGMessageV A24_19AnimatedMessageCellV AA010_FlexFrameP0V AA08_PaddingP0V AA0t10AttachmentJ0V AA6HStackV A24_22OpenWifiSettingsButtonV AA017_AppearanceActionJ0V AA016_CoordinateSpaceJ0V A24_21IntelligentInputFieldV AA14_OpacityEffectV
++ _symbolic _____y_____y_____y__________GG_AGQPG 7SwiftUI12TupleContentV AA6ButtonV AA5LabelV AA4TextV AA5ImageV
++ _symbolic _____y_____y_____y__________GG______QPG 7SwiftUI12TupleContentV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA7AnyViewV
++ _symbolic _____y_____y_____y__________y_____y_____y_____y_____y_____yAEyAEy_____y_____y_____yAEy_____yAEy__________GSSG_____y_____yAEyAJ_____y_____GGGGG_AEyAGyAHy_____ySaySi6offset______7elementtGSiAHyAEyAIyAEyAEy__________G_____GSiG_____G______yAHyAEyAEy_____A3_G_____G_ACQPGGSgAEyACA3_GSgQPGG_AMQPGGA3_GQPGGG_____ySSGG_____yAJGG_Qo__Qo__SayAYGQo_A11_G_SbQo_GG_Qo_A38_G 7SwiftUI19_ConditionalContentV AA4ViewP24AccessibilityUIUtilitiesE21axApplyStoredModifieryQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollE6ReaderV AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA08ModifiedD0V AeAEAnoP_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE23scrollDismissesKeyboardyQrAA0pxY4ModeVFQO AeAE07defaultP6AnchoryQrAA9UnitPointVSgFQO AA0pE0V AA6VStackV AA05TupleD0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA011_BackgroundK0V AA08GeometryQ0V AA018_PreferenceWritingK0V 16MagnifierSupport0P19OffsetPreferenceKeyV AA7ForEachV A16_10MAGMessageV A16_19AnimatedMessageCellV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA0f10AttachmentK0V AA6HStackV A16_22OpenWifiSettingsButtonV AA017_AppearanceActionK0V AA016_CoordinateSpaceK0V AA016_BackgroundStyleK0V
++ _symbolic _____y_____y_____y__________y_____y_____y_____y_____y_____yAEyAEy_____y_____y_____yAEy_____yAEy__________GSSG_____y_____yAEyAJ_____y_____GGGGG_AEyAGyAHy_____ySaySi6offset______7elementtGSiAHyAEyAIyAEyAEy__________G_____GSiG_____G______yAHyAEyAEy_____A3_G_____G_ACQPGGSgAEyACA3_GSgQPGG_AMQPGGA3_GQPGGG_____ySSGG_____yAJGG_Qo__Qo__SayAYGQo_A11_G_SbQo_GG_Qo_A38_G_AEy_____A6_Gt 7SwiftUI19_ConditionalContentV AA4ViewP24AccessibilityUIUtilitiesE21axApplyStoredModifieryQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollE6ReaderV AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA08ModifiedD0V AeAEAnoP_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE23scrollDismissesKeyboardyQrAA0pxY4ModeVFQO AeAE07defaultP6AnchoryQrAA9UnitPointVSgFQO AA0pE0V AA6VStackV AA05TupleD0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA011_BackgroundK0V AA08GeometryQ0V AA018_PreferenceWritingK0V 16MagnifierSupport0P19OffsetPreferenceKeyV AA7ForEachV A16_10MAGMessageV A16_19AnimatedMessageCellV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA0f10AttachmentK0V AA6HStackV A16_22OpenWifiSettingsButtonV AA017_AppearanceActionK0V AA016_CoordinateSpaceK0V AA016_BackgroundStyleK0V A16_21IntelligentInputFieldV
++ _symbolic _____y_____y_____y__________y_____y_____y_____y_____y_____yAEyAEy_____y_____y_____yAEy_____yAEy__________GSSG_____y_____yAEyAJ_____y_____GGGGG_AEyAGyAHy_____ySaySi6offset______7elementtGSiAHyAEyAIyAEyAEy__________G_____GSiG_____G______yAHyAEyAEy_____A3_G_____G_ACQPGGSgAEyACA3_GSgQPGG_AMQPGGA3_GQPGGG_____ySSGG_____yAJGG_Qo__Qo__SayAYGQo_A11_G_SbQo_GG_Qo_A38__G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewP24AccessibilityUIUtilitiesE21axApplyStoredModifieryQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollF6ReaderV AgAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA08ModifiedD0V AgAEApqR_Qrqd___Sbyqd___qd__tctSQRd__lFQO AgAE23scrollDismissesKeyboardyQrAA0qyZ4ModeVFQO AgAE07defaultQ6AnchoryQrAA9UnitPointVSgFQO AA0qF0V AA6VStackV AA05TupleD0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA011_BackgroundL0V AA08GeometryR0V AA018_PreferenceWritingL0V 16MagnifierSupport0Q19OffsetPreferenceKeyV AA7ForEachV A18_10MAGMessageV A18_19AnimatedMessageCellV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA0g10AttachmentL0V AA6HStackV A18_22OpenWifiSettingsButtonV AA017_AppearanceActionL0V AA016_CoordinateSpaceL0V AA016_BackgroundStyleL0V
++ _symbolic _____y_____y_____y_____yAAyAAy_____y_____y_____yAAy_____yAAy__________GSSG_____y_____yAAyAF_____y_____GGGGG_AAyACyADy_____ySaySi6offset______7elementtGSiADyAAyAEyAAyAAy__________G_____GSiG_____G______yADyAAyAAy_____A_G_____G______QPGGSgAAyA9_A_GSgQPGG_AIQPGGA_GQPGGG_____ySSGG_____yAFGG_Qo__Qo__SayAUGQo_A7_G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE23scrollDismissesKeyboardyQrAA06ScrollkL4ModeVFQO AeAE07defaultM6AnchoryQrAA9UnitPointVSgFQO AA0mE0V AA6VStackV AA05TupleD0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingZ0V 16MagnifierSupport0M19OffsetPreferenceKeyV AA7ForEachV A6_10MAGMessageV A6_19AnimatedMessageCellV AA05_FlexwX0V AA08_PaddingX0V AA023AccessibilityAttachmentZ0V AA6HStackV A6_22OpenWifiSettingsButtonV AA017_AppearanceActionZ0V AA6SpacerV AA016_CoordinateSpaceZ0V AA01_y5StyleZ0V
++ _symbolic _____y_____y_____y_____yAAy_____yAAy__________GSSG_____y_____yAAyAF_____y_____GGGGG_AAyACyADy_____ySaySi6offset______7elementtGSiADyAAyAEyAAyAAy__________G_____GSiG_____G______yADyAAyAAy_____A_G_____G______QPGGSgAAyA9_A_GSgQPGG_AIQPGGA_GQPGGG_____ySSGG 7SwiftUI15ModifiedContentV AA10ScrollViewV AA6VStackV AA05TupleD0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingN0V 16MagnifierSupport0e6OffsetQ3KeyV AA7ForEachV AV10MAGMessageV AV19AnimatedMessageCellV AA05_FlexkL0V AA08_PaddingL0V AA023AccessibilityAttachmentN0V AA6HStackV AV22OpenWifiSettingsButtonV AA017_AppearanceActionN0V AA6SpacerV AA016_CoordinateSpaceN0V
++ _symbolic _____y_____y_____y_____yACy__________GSSG_____y_____yACyAE_____y_____GGGGG_ACyAAyABy_____ySaySi6offset______7elementtGSiAByACyADyACyACy__________G_____GSiG_____G______yAByACyACy_____AZG_____G______QPGGSgACyA8_AZGSgQPGG_AHQPGGAZGQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingL0V 16MagnifierSupport012ScrollOffsetO3KeyV AA7ForEachV AT10MAGMessageV AT19AnimatedMessageCellV AA05_FlexiJ0V AA08_PaddingJ0V AA023AccessibilityAttachmentL0V AA6HStackV AT22OpenWifiSettingsButtonV AA017_AppearanceActionL0V AA6SpacerV
++ _symbolic _____y_____y_____y_____yACy__________y_____GG_____G_ACyACy_____yABy_____y_____y_____y__________y_____yACy_____y_____y_____yACyACy_____yAKyAByACy_____yACyAD_____GSSG_____y_____yACyAD_____y_____GGGGG_ACyAKyABy_____ySaySi6offset______7elementtGSiAByACyAQyACyACy__________G_____GSiG_____G______yAByACyACy_____A10_G_____G_ANQPGGSgACyANA10_GSgQPGG_ATQPGGA10_GQPGGG_____ySSGGAEyADGG_Qo__Qo__SayA4_GQo_A18_G_SbQo_GG_Qo_A44_G_ACy_____A13_GQPGGA8_G_____GQPGG_ABy_____yytACy_____A53_GGSg_A57_yytACy_____A53_GGQPGQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA6ZStackV AA05TupleG0V AA08ModifiedG0V AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalG0V AC24AccessibilityUIUtilitiesE013axApplyStoredN0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollC6ReaderV AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEA5_A6_A7__Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE23scrollDismissesKeyboardyQrAA27ScrollDismissesKeyboardModeVFQO AcAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollC0V AA6IDViewV AA06_FrameT0V AA01_lN0V AA14GeometryReaderV AA018_PreferenceWritingN0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A27_10MAGMessageV A27_19AnimatedMessageCellV AA010_FlexFrameT0V AA08_PaddingT0V AA0w10AttachmentN0V AA6HStackV A27_22OpenWifiSettingsButtonV AA017_AppearanceActionN0V AA016_CoordinateSpaceN0V A27_21IntelligentInputFieldV AA14_OpacityEffectV AA0F4ItemV A27_20TranscriptBackButtonV A27_24TranscriptCollapseButtonV
++ _symbolic _____y_____y_____y_____ySaySi6offset______7elementtGSiACyAAy_____yAAyAAy__________G_____GSiG_____G______yACyAAyAAy_____AMG_____G______QPGGSgAAyAwMGSgQPGG_AIyAAy__________GSSGQPGGAMG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA7ForEachV 16MagnifierSupport10MAGMessageV AA6IDViewV AJ19AnimatedMessageCellV AA16_FlexFrameLayoutV AA08_PaddingR0V AA31AccessibilityAttachmentModifierV AA6HStackV AJ22OpenWifiSettingsButtonV AA017_AppearanceActionV0V AA6SpacerV AA5ColorV AA01_qR0V
++ _symbolic _____y_____y_____y_____y_____yACy__________y_____GG_____G_ACyACy_____yABy_____y_____y_____y__________y_____yACy_____y_____y_____yACyACy_____yAKyAByACy_____yACyAD_____GSSG_____y_____yACyAD_____y_____GGGGG_ACyAKyABy_____ySaySi6offset______7elementtGSiAByACyAQyACyACy__________G_____GSiG_____G______yAByACyACy_____A10_G_____G_ANQPGGSgACyANA10_GSgQPGG_ATQPGGA10_GQPGGG_____ySSGGAEyADGG_Qo__Qo__SayA4_GQo_A18_G_SbQo_GG_Qo_A44_G_ACy_____A13_GQPGGA8_G_____GQPGG_ABy_____yytACy_____A53_GGSg_A57_yytACy_____A53_GGQPGQo__SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA6ZStackV AA05TupleI0V AA08ModifiedI0V AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalI0V AC24AccessibilityUIUtilitiesE013axApplyStoredP0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollC6ReaderV AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEA6_A7_A8__Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE23scrollDismissesKeyboardyQrAA27ScrollDismissesKeyboardModeVFQO AcAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollC0V AA6IDViewV AA06_FrameV0V AA01_nP0V AA14GeometryReaderV AA018_PreferenceWritingP0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A28_10MAGMessageV A28_19AnimatedMessageCellV AA010_FlexFrameV0V AA08_PaddingV0V AA0y10AttachmentP0V AA6HStackV A28_22OpenWifiSettingsButtonV AA017_AppearanceActionP0V AA016_CoordinateSpaceP0V A28_21IntelligentInputFieldV AA14_OpacityEffectV AA0H4ItemV A28_20TranscriptBackButtonV A28_24TranscriptCollapseButtonV
++ _symbolic _____y_____y_____y_____y_____yADyADyADyADyADyADyADy__________G_____G_____y_____GGAJy_____GG_____yANGGARG_____G_ABy_____y_____y_____AEGG_A_SgQPGQo_AUGA3_GSg_ADy_____yADyADyADyADyAY_____G_____y_____SgGGA8_y_____SgGGAUG_AByA_______QPGQo_AUGQPGG 7SwiftUI6VStackV AA12TupleContentV AA012_ConditionalE0V AA08ModifiedE0V AA4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaJRd__lFQO AA5ImageV AA18_AspectRatioLayoutV AA06_FrameP0V AA11_ClipEffectV AA9RectangleV AA07RoundedT0V AA01_E17ShapeKindModifierV AA023AccessibilityAttachmentX0V AA6ButtonV AA5LabelV AA4TextV AkAEAlMQrqd__yXE_tAaJRd__lFQO AA05_FlexqP0V AA022_EnvironmentKeyWritingX0V AA4FontV AA5ColorV AA03AnyH0V
++ _symbolic _____y_____y_____y_____y_____yADy__________GSSG_____y_____yADyAF_____y_____GGGGG_ADyAByACy_____ySaySi6offset______7elementtGSiACyADyAEyADyADy__________G_____GSiG_____G______yACyADyADy_____A_G_____G______QPGGSgADyA9_A_GSgQPGG_AIQPGGA_GQPGGG 7SwiftUI10ScrollViewV AA6VStackV AA12TupleContentV AA08ModifiedG0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingN0V 16MagnifierSupport0c6OffsetQ3KeyV AA7ForEachV AV10MAGMessageV AV19AnimatedMessageCellV AA05_FlexkL0V AA08_PaddingL0V AA023AccessibilityAttachmentN0V AA6HStackV AV22OpenWifiSettingsButtonV AA017_AppearanceActionN0V AA6SpacerV
++ _symbolic _____y_____y_____y_____y_____y_____yAByABy_____y_____y_____yABy_____yABy__________GSSG_____y_____yAByAG_____y_____GGGGG_AByADyAEy_____ySaySi6offset______7elementtGSiAEyAByAFyAByABy__________G_____GSiG_____G______yAEyAByABy_____A0_G_____G______QPGGSgAByA10_A0_GSgQPGG_AJQPGGA0_GQPGGG_____ySSGG_____yAGGG_Qo__Qo__SayAVGQo_A8_G_SbQo_G 7SwiftUI16ScrollViewReaderV AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AeAEAfgH_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE23scrollDismissesKeyboardyQrAA0cmN4ModeVFQO AeAE07defaultC6AnchoryQrAA9UnitPointVSgFQO AA0cD0V AA6VStackV AA05TupleK0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA08GeometryE0V AA26_PreferenceWritingModifierV 16MagnifierSupport0C19OffsetPreferenceKeyV AA7ForEachV A8_10MAGMessageV A8_19AnimatedMessageCellV AA05_FlexxY0V AA08_PaddingY0V AA31AccessibilityAttachmentModifierV AA6HStackV A8_22OpenWifiSettingsButtonV AA25_AppearanceActionModifierV AA6SpacerV AA24_CoordinateSpaceModifierV AA01_Z13StyleModifierV
++ _symbolic _____y_____y_____y_____y_____y_____yACy__________y_____GG_____G_ACyACy_____yABy_____y_____y_____y__________y_____yACy_____y_____y_____yACyACy_____yAKyAByACy_____yACyAD_____GSSG_____y_____yACyAD_____y_____GGGGG_ACyAKyABy_____ySaySi6offset______7elementtGSiAByACyAQyACyACy__________G_____GSiG_____G______yAByACyACy_____A10_G_____G_ANQPGGSgACyANA10_GSgQPGG_ATQPGGA10_GQPGGG_____ySSGGAEyADGG_Qo__Qo__SayA4_GQo_A18_G_SbQo_GG_Qo_A44_G_ACy_____A13_GQPGGA8_G_____GQPGG_ABy_____yytACy_____A53_GGSg_A57_yytACy_____A53_GGQPGQo__SSQo__Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AcAE0dF0yQrqd__SyRd__lFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA6ZStackV AA05TupleN0V AA08ModifiedN0V AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalN0V AC24AccessibilityUIUtilitiesE013axApplyStoredU0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollC6ReaderV AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEA11_A12_A13__Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE23scrollDismissesKeyboardyQrAA023ScrollDismissesKeyboardH0VFQO AcAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollC0V AA6IDViewV AA12_FrameLayoutV AA01_sU0V AA14GeometryReaderV AA018_PreferenceWritingU0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A33_10MAGMessageV A33_19AnimatedMessageCellV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA023AccessibilityAttachmentU0V AA6HStackV A33_22OpenWifiSettingsButtonV AA017_AppearanceActionU0V AA016_CoordinateSpaceU0V A33_21IntelligentInputFieldV AA14_OpacityEffectV AA0mJ0V A33_20TranscriptBackButtonV A33_24TranscriptCollapseButtonV
++ _symbolic _____y_____y_____y_____y_____y_____y__________y_____yAAy_____y_____y_____yAAyAAy_____yAByACyAAy_____yAAy__________GSSG_____y_____yAAyAJ_____y_____GGGGG_AAyAByACy_____ySaySi6offset______7elementtGSiACyAAyAIyAAyAAy__________G_____GSiG_____G______yACyAAyAAy_____A3_G_____G_AFQPGGSgAAyAFA3_GSgQPGG_AMQPGGA3_GQPGGG_____ySSGG_____yAJGG_Qo__Qo__SayAYGQo_A11_G_SbQo_GG_Qo_A38_G_AAy_____A6_GQPGGA1_G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA012_ConditionalD0V AA4ViewP24AccessibilityUIUtilitiesE21axApplyStoredModifieryQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollH6ReaderV AkAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AkAEAtuV_Qrqd___Sbyqd___qd__tctSQRd__lFQO AkAE23scrollDismissesKeyboardyQrAA0sZ12KeyboardModeVFQO AkAE07defaultS6AnchoryQrAA9UnitPointVSgFQO AA0sH0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA011_BackgroundN0V AA08GeometryT0V AA018_PreferenceWritingN0V 16MagnifierSupport0S19OffsetPreferenceKeyV AA7ForEachV A16_10MAGMessageV A16_19AnimatedMessageCellV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA0i10AttachmentN0V AA6HStackV A16_22OpenWifiSettingsButtonV AA017_AppearanceActionN0V AA016_CoordinateSpaceN0V AA016_BackgroundStyleN0V A16_21IntelligentInputFieldV
++ _symbolic _____y_____y_____y_____y_____y_____y_____yAAyAAy__________y_____GG_____G_AAyAAy_____yACy_____y_____y_____y__________y_____yAAy_____y_____y_____yAAyAAy_____yAKyACyAAy_____yAAyAD_____GSSG_____y_____yAAyAD_____y_____GGGGG_AAyAKyACy_____ySaySi6offset______7elementtGSiACyAAyAQyAAyAAy__________G_____GSiG_____G______yACyAAyAAy_____A10_G_____G_ANQPGGSgAAyANA10_GSgQPGG_ATQPGGA10_GQPGGG_____ySSGGAEyADGG_Qo__Qo__SayA4_GQo_A18_G_SbQo_GG_Qo_A44_G_AAy_____A13_GQPGGA8_G_____GQPGG_ACy_____yytAAy_____A53_GGSg_A57_yytAAy_____A53_GGQPGQo__SSQo__Qo__Qo_AIG 7SwiftUI15ModifiedContentV AA4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AeAE29navigationBarTitleDisplayModeyQrAA010NavigationM4ItemV0noP0OFQO AeAE0lN0yQrqd__SyRd__lFQO AeAE0F07contentQrqd__yXE_tAA0jD0Rd__lFQO AA6ZStackV AA05TupleD0V AA5ColorV AA01_G13StyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalD0V AE24AccessibilityUIUtilitiesE013axApplyStoredX0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollE6ReaderV AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAEA17_A18_A19__Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE23scrollDismissesKeyboardyQrAA023ScrollDismissesKeyboardP0VFQO AeAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollE0V AA6IDViewV AA12_FrameLayoutV AA01_gX0V AA14GeometryReaderV AA018_PreferenceWritingX0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A39_10MAGMessageV A39_19AnimatedMessageCellV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA023AccessibilityAttachmentX0V AA6HStackV A39_22OpenWifiSettingsButtonV AA017_AppearanceActionX0V AA016_CoordinateSpaceX0V A39_21IntelligentInputFieldV AA14_OpacityEffectV AA0jR0V A39_20TranscriptBackButtonV A39_24TranscriptCollapseButtonV
++ _symbolic _____y_____y_____y_____y_____y_____y_____yACy__________y_____GG_____G_ACyACy_____yABy_____y_____y_____y__________y_____yACy_____y_____y_____yACyACy_____yAKyAByACy_____yACyAD_____GSSG_____y_____yACyAD_____y_____GGGGG_ACyAKyABy_____ySaySi6offset______7elementtGSiAByACyAQyACyACy__________G_____GSiG_____G______yAByACyACy_____A10_G_____G_ANQPGGSgACyANA10_GSgQPGG_ATQPGGA10_GQPGGG_____ySSGGAEyADGG_Qo__Qo__SayA4_GQo_A18_G_SbQo_GG_Qo_A44_G_ACy_____A13_GQPGGA8_G_____GQPGG_ABy_____yytACy_____A53_GGSg_A57_yytACy_____A53_GGQPGQo__SSQo__Qo__Qo_ 7SwiftUI4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationK4ItemV0lmN0OFQO AcAE0jL0yQrqd__SyRd__lFQO AcAE0D07contentQrqd__yXE_tAA0H7ContentRd__lFQO AA6ZStackV AA05TupleR0V AA08ModifiedR0V AA5ColorV AA01_E13StyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalR0V AC24AccessibilityUIUtilitiesE013axApplyStoredX0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollC6ReaderV AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEA17_A18_A19__Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE23scrollDismissesKeyboardyQrAA023ScrollDismissesKeyboardN0VFQO AcAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollC0V AA6IDViewV AA12_FrameLayoutV AA01_eX0V AA14GeometryReaderV AA018_PreferenceWritingX0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A39_10MAGMessageV A39_19AnimatedMessageCellV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA023AccessibilityAttachmentX0V AA6HStackV A39_22OpenWifiSettingsButtonV AA017_AppearanceActionX0V AA016_CoordinateSpaceX0V A39_21IntelligentInputFieldV AA14_OpacityEffectV AA0hP0V A39_20TranscriptBackButtonV A39_24TranscriptCollapseButtonV
++ _type_layout_string 16MagnifierSupport14VQAMessageCellV
++ _type_layout_string 16MagnifierSupport26MAGGenerativeModelsServiceC19MultimodalGuardrail33_7C4A8C0A7EF0F9EF8DBCC5CA1CD31284LLV
+- +[MagnifierObjc sandboxInit]
+- GCC_except_table258
+- _CFAbsoluteTimeGetCurrent
+- _OBJC_CLASS_$_SCMLHandler
+- _SCMLUseAnyAvailableDevice
+- __IVARS__TtC16MagnifierSupport33FilterCustomizationViewController
+- __OBJC_CLASS_PROTOCOLS_$__TtC16MagnifierSupport30ActivityControlsViewController(MagnifierSupport)
+- __PROTOCOLS__TtC16MagnifierSupport23MagnifierPromptDelegate.107
+- __PROTOCOLS__TtCV16MagnifierSupport28PromptEntryViewRepresentable11Coordinator.53
+- __ZNSt12length_errorC1B9fqe220100EPKc
+- __ZNSt12out_of_rangeC1B9fqe220100EPKc
+- __ZNSt3__113unordered_setIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEED2B9fqe220100Ev
+- __ZNSt3__120__throw_length_errorB9fqe220100EPKc
+- __ZNSt3__120__throw_out_of_rangeB9fqe220100EPKc
+- __ZNSt3__127__insertion_sort_incompleteB9fqe220100INS_17_ClassicAlgPolicyERZN15ou_object_group11sortIndicesERKNS_6vectorIfNS_9allocatorIfEEEEE3$_0PmEEbT1_SC_T0_
+- __ZNSt3__127__tree_balance_after_insertB9fqe220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIfNS2_IfEEEEEEPS5_EEED2B9fqe220100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIiNS2_IiEEEEEEPS5_EEED2B9fqe220100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IfNS_9allocatorIfEEEENS2_IS4_EEE16__destroy_vectorEED1B9fqe220100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IiNS_9allocatorIiEEEENS2_IS4_EEE16__destroy_vectorEED2B9fqe220100Ev
+- __ZNSt3__134__uninitialized_allocator_relocateB9fqe220100INS_9allocatorI7OUBox3dEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220100INS_9allocatorINS_6vectorIfNS1_IfEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__16__treeIiNS_4lessIiEENS_9allocatorIiEEE14__tree_deleterclB9fqe220100EPNS_11__tree_nodeIiPvEE
+- __ZNSt3__16vectorI5box3dNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorI7OUBox3dNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorI7OUBox3dNS_9allocatorIS1_EEE5clearB9fqe220100Ev
+- __ZNSt3__16vectorI7OUBox3dNS_9allocatorIS1_EEED1B9fqe220100Ev
+- __ZNSt3__16vectorIDv2_fNS_9allocatorIS1_EEE18__assign_with_sizeB9fqe220100INS_17_ClassicAlgPolicyEPKS1_S8_EEvT0_T1_l
+- __ZNSt3__16vectorIDv2_fNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorIN15ou_object_group9ItemGroupENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEED1B9fqe220100Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEED1B9fqe220100Ev
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_out_of_rangeB9fqe220100Ev
+- __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__17__sort4B9fqe220100INS_17_ClassicAlgPolicyERZN15ou_object_group11sortIndicesERKNS_6vectorIfNS_9allocatorIfEEEEE3$_0PmLi0EEEvT1_SC_SC_SC_T0_
+- __ZNSt3__17__sort5B9fqe220100INS_17_ClassicAlgPolicyERZN15ou_object_group11sortIndicesERKNS_6vectorIfNS_9allocatorIfEEEEE3$_0PmLi0EEEvT1_SC_SC_SC_SC_T0_
+- __ZSt28__throw_bad_array_new_lengthB9fqe220100v
+- __ZZNSt3__112__hash_tableIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEE16__emplace_uniqueB9fqe220100IJRKiEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIiPvEEEEbEEDpOT_ENKUlSA_SA_E_clESA_SA_
+- ___block_literal_global.270
+- ___block_literal_global.422
+- ___block_literal_global.432
+- ___swift__destructor.1034
+- ___swift__destructor.1037
+- ___swift__destructor.108
+- ___swift__destructor.1511
+- ___swift__destructor.218
+- ___swift__destructor.233
+- ___swift__destructor.882
+- ___swift__destructor.98
+- ___swift_closure_destructor.1018
+- ___swift_closure_destructor.1024
+- ___swift_closure_destructor.1028
+- ___swift_closure_destructor.1040
+- ___swift_closure_destructor.1047
+- ___swift_closure_destructor.1047Tm
+- ___swift_closure_destructor.105
+- ___swift_closure_destructor.1054
+- ___swift_closure_destructor.105Tm
+- ___swift_closure_destructor.1061
+- ___swift_closure_destructor.1067
+- ___swift_closure_destructor.1073
+- ___swift_closure_destructor.1081
+- ___swift_closure_destructor.1093
+- ___swift_closure_destructor.1125
+- ___swift_closure_destructor.1133
+- ___swift_closure_destructor.1139
+- ___swift_closure_destructor.1145
+- ___swift_closure_destructor.1149
+- ___swift_closure_destructor.1155
+- ___swift_closure_destructor.1161
+- ___swift_closure_destructor.1173
+- ___swift_closure_destructor.117Tm
+- ___swift_closure_destructor.1180
+- ___swift_closure_destructor.1186
+- ___swift_closure_destructor.1192
+- ___swift_closure_destructor.1198
+- ___swift_closure_destructor.1208
+- ___swift_closure_destructor.1216
+- ___swift_closure_destructor.1220
+- ___swift_closure_destructor.1242
+- ___swift_closure_destructor.1252
+- ___swift_closure_destructor.1256
+- ___swift_closure_destructor.1269
+- ___swift_closure_destructor.1272
+- ___swift_closure_destructor.1275
+- ___swift_closure_destructor.1278
+- ___swift_closure_destructor.1285
+- ___swift_closure_destructor.1301
+- ___swift_closure_destructor.1310
+- ___swift_closure_destructor.1316
+- ___swift_closure_destructor.1320
+- ___swift_closure_destructor.1328
+- ___swift_closure_destructor.1334
+- ___swift_closure_destructor.1357
+- ___swift_closure_destructor.136
+- ___swift_closure_destructor.1365
+- ___swift_closure_destructor.1371
+- ___swift_closure_destructor.1385
+- ___swift_closure_destructor.1393
+- ___swift_closure_destructor.13Tm
+- ___swift_closure_destructor.141
+- ___swift_closure_destructor.1412
+- ___swift_closure_destructor.1412Tm
+- ___swift_closure_destructor.1416
+- ___swift_closure_destructor.1422
+- ___swift_closure_destructor.1426
+- ___swift_closure_destructor.1432
+- ___swift_closure_destructor.145
+- ___swift_closure_destructor.1450
+- ___swift_closure_destructor.1458
+- ___swift_closure_destructor.145Tm
+- ___swift_closure_destructor.1479
+- ___swift_closure_destructor.14Tm
+- ___swift_closure_destructor.1538
+- ___swift_closure_destructor.153Tm
+- ___swift_closure_destructor.1555
+- ___swift_closure_destructor.1561
+- ___swift_closure_destructor.168
+- ___swift_closure_destructor.174
+- ___swift_closure_destructor.195
+- ___swift_closure_destructor.195Tm
+- ___swift_closure_destructor.199
+- ___swift_closure_destructor.209
+- ___swift_closure_destructor.215
+- ___swift_closure_destructor.221
+- ___swift_closure_destructor.225
+- ___swift_closure_destructor.243
+- ___swift_closure_destructor.247Tm
+- ___swift_closure_destructor.248
+- ___swift_closure_destructor.252
+- ___swift_closure_destructor.261
+- ___swift_closure_destructor.267
+- ___swift_closure_destructor.274
+- ___swift_closure_destructor.278
+- ___swift_closure_destructor.282
+- ___swift_closure_destructor.283
+- ___swift_closure_destructor.283Tm
+- ___swift_closure_destructor.286
+- ___swift_closure_destructor.295
+- ___swift_closure_destructor.298
+- ___swift_closure_destructor.298Tm
+- ___swift_closure_destructor.29Tm
+- ___swift_closure_destructor.302
+- ___swift_closure_destructor.304
+- ___swift_closure_destructor.310
+- ___swift_closure_destructor.315
+- ___swift_closure_destructor.322
+- ___swift_closure_destructor.339
+- ___swift_closure_destructor.342
+- ___swift_closure_destructor.342Tm
+- ___swift_closure_destructor.348Tm
+- ___swift_closure_destructor.354
+- ___swift_closure_destructor.358
+- ___swift_closure_destructor.363
+- ___swift_closure_destructor.370
+- ___swift_closure_destructor.374
+- ___swift_closure_destructor.379
+- ___swift_closure_destructor.380
+- ___swift_closure_destructor.382
+- ___swift_closure_destructor.385
+- ___swift_closure_destructor.386
+- ___swift_closure_destructor.392
+- ___swift_closure_destructor.398
+- ___swift_closure_destructor.404
+- ___swift_closure_destructor.405
+- ___swift_closure_destructor.410
+- ___swift_closure_destructor.411
+- ___swift_closure_destructor.417
+- ___swift_closure_destructor.421
+- ___swift_closure_destructor.426
+- ___swift_closure_destructor.443
+- ___swift_closure_destructor.445
+- ___swift_closure_destructor.447
+- ___swift_closure_destructor.458
+- ___swift_closure_destructor.463
+- ___swift_closure_destructor.475
+- ___swift_closure_destructor.479
+- ___swift_closure_destructor.486
+- ___swift_closure_destructor.489
+- ___swift_closure_destructor.492
+- ___swift_closure_destructor.495
+- ___swift_closure_destructor.498
+- ___swift_closure_destructor.501
+- ___swift_closure_destructor.506
+- ___swift_closure_destructor.506Tm
+- ___swift_closure_destructor.510
+- ___swift_closure_destructor.513
+- ___swift_closure_destructor.518
+- ___swift_closure_destructor.521
+- ___swift_closure_destructor.524
+- ___swift_closure_destructor.524Tm
+- ___swift_closure_destructor.527
+- ___swift_closure_destructor.530
+- ___swift_closure_destructor.533
+- ___swift_closure_destructor.536
+- ___swift_closure_destructor.536Tm
+- ___swift_closure_destructor.548
+- ___swift_closure_destructor.55Tm
+- ___swift_closure_destructor.583
+- ___swift_closure_destructor.583Tm
+- ___swift_closure_destructor.586
+- ___swift_closure_destructor.589
+- ___swift_closure_destructor.592
+- ___swift_closure_destructor.62
+- ___swift_closure_destructor.71
+- ___swift_closure_destructor.848
+- ___swift_closure_destructor.854
+- ___swift_closure_destructor.888
+- ___swift_closure_destructor.926
+- ___swift_closure_destructor.932
+- ___swift_closure_destructor.945
+- ___swift_closure_destructor.957
+- ___swift_closure_destructor.961
+- ___swift_closure_destructor.987
+- ___swift_closure_destructor.993
+- ___swift_closure_destructor.999
+- ___unnamed_53
+- _associated conformance 16MagnifierSupport14VQAMessageCellVyxG7SwiftUI4ViewAA4BodyAeFP_AeF
+- _associated conformance 16MagnifierSupport19AnimatedMessageCellVyxG7SwiftUI4ViewAA4BodyAeFP_AeF
+- _block_copy_helper.100
+- _block_copy_helper.1001
+- _block_copy_helper.1043
+- _block_copy_helper.1049
+- _block_copy_helper.1056
+- _block_copy_helper.1063
+- _block_copy_helper.1069
+- _block_copy_helper.1075
+- _block_copy_helper.1083
+- _block_copy_helper.1127
+- _block_copy_helper.113
+- _block_copy_helper.1135
+- _block_copy_helper.1141
+- _block_copy_helper.1157
+- _block_copy_helper.1163
+- _block_copy_helper.1182
+- _block_copy_helper.1188
+- _block_copy_helper.1194
+- _block_copy_helper.1200
+- _block_copy_helper.1204
+- _block_copy_helper.1210
+- _block_copy_helper.1244
+- _block_copy_helper.1248
+- _block_copy_helper.1287
+- _block_copy_helper.1295
+- _block_copy_helper.1312
+- _block_copy_helper.1322
+- _block_copy_helper.1330
+- _block_copy_helper.1336
+- _block_copy_helper.1340
+- _block_copy_helper.1344
+- _block_copy_helper.1359
+- _block_copy_helper.1367
+- _block_copy_helper.1373
+- _block_copy_helper.1387
+- _block_copy_helper.1404
+- _block_copy_helper.1408
+- _block_copy_helper.1434
+- _block_copy_helper.1453
+- _block_copy_helper.1460
+- _block_copy_helper.1464
+- _block_copy_helper.1470
+- _block_copy_helper.1475
+- _block_copy_helper.1481
+- _block_copy_helper.1485
+- _block_copy_helper.1489
+- _block_copy_helper.1540
+- _block_copy_helper.1551
+- _block_copy_helper.1557
+- _block_copy_helper.1563
+- _block_copy_helper.1573
+- _block_copy_helper.2
+- _block_copy_helper.230
+- _block_copy_helper.265
+- _block_copy_helper.307
+- _block_copy_helper.325
+- _block_copy_helper.350
+- _block_copy_helper.370
+- _block_copy_helper.376
+- _block_copy_helper.382
+- _block_copy_helper.388
+- _block_copy_helper.394
+- _block_copy_helper.400
+- _block_copy_helper.406
+- _block_copy_helper.413
+- _block_copy_helper.420
+- _block_copy_helper.46
+- _block_copy_helper.541
+- _block_copy_helper.544
+- _block_copy_helper.550
+- _block_copy_helper.566
+- _block_copy_helper.58
+- _block_copy_helper.64
+- _block_copy_helper.76
+- _block_copy_helper.85
+- _block_copy_helper.850
+- _block_copy_helper.856
+- _block_copy_helper.878
+- _block_copy_helper.88
+- _block_copy_helper.884
+- _block_copy_helper.890
+- _block_copy_helper.928
+- _block_copy_helper.935
+- _block_copy_helper.94
+- _block_copy_helper.947
+- _block_copy_helper.965
+- _block_copy_helper.975
+- _block_copy_helper.989
+- _block_copy_helper.995
+- _block_descriptor.1003
+- _block_descriptor.102
+- _block_descriptor.1045
+- _block_descriptor.1051
+- _block_descriptor.1058
+- _block_descriptor.1065
+- _block_descriptor.1071
+- _block_descriptor.1077
+- _block_descriptor.1085
+- _block_descriptor.1129
+- _block_descriptor.1137
+- _block_descriptor.1143
+- _block_descriptor.115
+- _block_descriptor.1159
+- _block_descriptor.1165
+- _block_descriptor.1184
+- _block_descriptor.1190
+- _block_descriptor.1196
+- _block_descriptor.1202
+- _block_descriptor.1206
+- _block_descriptor.1212
+- _block_descriptor.1246
+- _block_descriptor.1250
+- _block_descriptor.1289
+- _block_descriptor.1297
+- _block_descriptor.1314
+- _block_descriptor.1324
+- _block_descriptor.1332
+- _block_descriptor.1338
+- _block_descriptor.1342
+- _block_descriptor.1346
+- _block_descriptor.1361
+- _block_descriptor.1369
+- _block_descriptor.1375
+- _block_descriptor.1389
+- _block_descriptor.1406
+- _block_descriptor.1410
+- _block_descriptor.1436
+- _block_descriptor.1455
+- _block_descriptor.1462
+- _block_descriptor.1466
+- _block_descriptor.1472
+- _block_descriptor.1477
+- _block_descriptor.1483
+- _block_descriptor.1487
+- _block_descriptor.1491
+- _block_descriptor.1542
+- _block_descriptor.1553
+- _block_descriptor.1559
+- _block_descriptor.1565
+- _block_descriptor.1575
+- _block_descriptor.232
+- _block_descriptor.267
+- _block_descriptor.309
+- _block_descriptor.327
+- _block_descriptor.352
+- _block_descriptor.372
+- _block_descriptor.378
+- _block_descriptor.384
+- _block_descriptor.390
+- _block_descriptor.396
+- _block_descriptor.4
+- _block_descriptor.402
+- _block_descriptor.408
+- _block_descriptor.415
+- _block_descriptor.422
+- _block_descriptor.48
+- _block_descriptor.543
+- _block_descriptor.546
+- _block_descriptor.552
+- _block_descriptor.568
+- _block_descriptor.60
+- _block_descriptor.66
+- _block_descriptor.78
+- _block_descriptor.852
+- _block_descriptor.858
+- _block_descriptor.87
+- _block_descriptor.880
+- _block_descriptor.886
+- _block_descriptor.892
+- _block_descriptor.90
+- _block_descriptor.930
+- _block_descriptor.937
+- _block_descriptor.949
+- _block_descriptor.96
+- _block_descriptor.967
+- _block_descriptor.977
+- _block_descriptor.991
+- _block_descriptor.997
+- _block_destroy_helper.1002
+- _block_destroy_helper.101
+- _block_destroy_helper.1044
+- _block_destroy_helper.1050
+- _block_destroy_helper.1057
+- _block_destroy_helper.1064
+- _block_destroy_helper.1070
+- _block_destroy_helper.1076
+- _block_destroy_helper.1084
+- _block_destroy_helper.1128
+- _block_destroy_helper.1136
+- _block_destroy_helper.114
+- _block_destroy_helper.1142
+- _block_destroy_helper.1158
+- _block_destroy_helper.1164
+- _block_destroy_helper.1183
+- _block_destroy_helper.1189
+- _block_destroy_helper.1195
+- _block_destroy_helper.1201
+- _block_destroy_helper.1205
+- _block_destroy_helper.1211
+- _block_destroy_helper.1245
+- _block_destroy_helper.1249
+- _block_destroy_helper.1288
+- _block_destroy_helper.1296
+- _block_destroy_helper.1313
+- _block_destroy_helper.1323
+- _block_destroy_helper.1331
+- _block_destroy_helper.1337
+- _block_destroy_helper.1341
+- _block_destroy_helper.1345
+- _block_destroy_helper.1360
+- _block_destroy_helper.1368
+- _block_destroy_helper.1374
+- _block_destroy_helper.1388
+- _block_destroy_helper.1405
+- _block_destroy_helper.1409
+- _block_destroy_helper.1435
+- _block_destroy_helper.1454
+- _block_destroy_helper.1461
+- _block_destroy_helper.1465
+- _block_destroy_helper.1471
+- _block_destroy_helper.1476
+- _block_destroy_helper.1482
+- _block_destroy_helper.1486
+- _block_destroy_helper.1490
+- _block_destroy_helper.1541
+- _block_destroy_helper.1552
+- _block_destroy_helper.1558
+- _block_destroy_helper.1564
+- _block_destroy_helper.1574
+- _block_destroy_helper.231
+- _block_destroy_helper.266
+- _block_destroy_helper.3
+- _block_destroy_helper.308
+- _block_destroy_helper.326
+- _block_destroy_helper.351
+- _block_destroy_helper.371
+- _block_destroy_helper.377
+- _block_destroy_helper.383
+- _block_destroy_helper.389
+- _block_destroy_helper.395
+- _block_destroy_helper.401
+- _block_destroy_helper.407
+- _block_destroy_helper.414
+- _block_destroy_helper.421
+- _block_destroy_helper.47
+- _block_destroy_helper.542
+- _block_destroy_helper.545
+- _block_destroy_helper.551
+- _block_destroy_helper.567
+- _block_destroy_helper.59
+- _block_destroy_helper.65
+- _block_destroy_helper.77
+- _block_destroy_helper.851
+- _block_destroy_helper.857
+- _block_destroy_helper.86
+- _block_destroy_helper.879
+- _block_destroy_helper.885
+- _block_destroy_helper.89
+- _block_destroy_helper.891
+- _block_destroy_helper.929
+- _block_destroy_helper.936
+- _block_destroy_helper.948
+- _block_destroy_helper.95
+- _block_destroy_helper.966
+- _block_destroy_helper.976
+- _block_destroy_helper.990
+- _block_destroy_helper.996
+- _get_witness_table 16MagnifierSupport13AskSiriButtonV7SwiftUI4ViewHPyHC.576
+- _get_witness_table 16MagnifierSupport22OpenWifiSettingsButtonV7SwiftUI4ViewHPyHC.575
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQOyAA0I0VyACyACyACyAA6HStackVyAA05TupleD0VyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAQyAA5ColorVSgGG_ACyAA4TextVAA14_PaddingLayoutVGQPGGA3_GA3_GAA011_BackgroundP0VyAA06_ShapeE0VyAA7CapsuleVAXGGGG_AA05PlainiG0VQo_AA023AccessibilityAttachmentP0VGAaDHPqd0__AaDHD3_A21_HO_A23_AA0eP0HPyHCHC.127
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA15NavigationStackVyAA0E4PathVACyAA4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQOyAiAE29navigationBarTitleDisplayModeyQrAA0eP4ItemV0qrS0OFQOyAiAE0oQ0yQrqd__SyRd__lFQOyAiAE0I07contentQrqd__yXE_tAA0mD0Rd__lFQOyAA6ZStackVyAA05TupleD0VyACyACyAA5ColorVAA01_J13StyleModifierVyAA8MaterialVGGAA30_SafeAreaRegionsIgnoringLayoutVG_ACyACyAA6VStackVyA0_yAA012_ConditionalD0VyAI24AccessibilityUIUtilitiesE013axApplyStoredZ0yQrSSFQOyAA16ArrangedViews_v0VyAA6SpacerVAA06ScrollH6ReaderVyAiAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyAiAEA24_A25_A26__Qrqd___Sbyqd___qd__tctSQRd__lFQOyAiAE23scrollDismissesKeyboardyQrAA023ScrollDismissesKeyboardS0VFQOyAiAE19defaultScrollAnchoryQrAA9UnitPointVSgFQOyACyACyAA06ScrollH0VyA13_yA0_yACyAA6IDViewVyACyA2_AA12_FrameLayoutVGSSGAA01_jZ0VyAA14GeometryReaderVyACyA2_AA018_PreferenceWritingZ0Vy16MagnifierSupport25ScrollOffsetPreferenceKeyVGGGGG_ACyA13_yA0_yAA7ForEachVySaySi6offset_A48_10MAGMessageV7elementtGSiA0_yACyA37_yACyACyA48_19AnimatedMessageCellVyA0_yAA6ButtonVyAA5LabelVyAA4TextVAA5ImageVGG_A74_QPGGAA16_FlexFrameLayoutVGAA14_PaddingLayoutVGSiGAA023AccessibilityAttachmentZ0VG_AA6HStackVyA0_yACyACyA48_22OpenWifiSettingsButtonVA81_GAA017_AppearanceActionZ0VG_A21_QPGGSgACyA21_A81_GSgQPGG_A41_QPGGA81_GQPGGGAA016_CoordinateSpaceZ0VySSGGA4_yA2_GG_Qo__Qo__SayA60_GQo_A93_G_SbQo_GG_Qo_A120_G_ACyA48_21IntelligentInputFieldVA85_GQPGGA78_GAA14_OpacityEffectVGQPGG_A0_yAA0mT0VyytACyA48_20TranscriptBackButtonVA131_GGSg_A136_yytACyA48_24TranscriptCollapseButtonVA131_GGQPGQo__SSQo__Qo__Qo_A10_GGA93_GA47_yAA09PreferredX9SchemeKeyVGGAaHHPA153_AaHHPA152_AaHHPyHC_A93_AA0hZ0HPyHCHC_A156_AAA158_HPyHCHC.124
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA7ForEachVys18ReversedCollectionVySaySSGGSSACyACyAA6ButtonVyAA4ViewP24AccessibilityUIUtilitiesE18accessibilityGlass2inQrqd___tAA5ShapeRd__lFQOyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA12_FrameLayoutVGAA08_PaddingX0VG_AA7CapsuleVQo_GAA0l10AttachmentV0VGAA06_TraituV0VyAA015TransitionTraitT0VGGGGAA05_FlexwX0VGAA010_AnimationV0VyAJGGAaNHPA22_AaNHPA19_AaNHPyHC_A21_AA0kV0HPyHCHC_A25_AAA27_HPyHCHC.577
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADy16MagnifierSupport14VQAMessageCellVyxGAA14_OpacityEffectVGAA25_AppearanceActionModifierVGAaBHPAkaBHPAhaBHPyHC_AjA0cN0HPyHCHC_AmaOHPyHCHC.580
+- _get_witness_table 7SwiftUI4ViewRzlAA6VStackVyAA12TupleContentVyAA012_ConditionalF0VyAA08ModifiedF0VyAaBPAAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQOyAJyAJyAJyAJyAJyAJyAJyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameP0VGAA11_ClipEffectVyAA9RectangleVGGAWyAA07RoundedT0VGGAA01_F17ShapeKindModifierVyA1_GGA6_GAA023AccessibilityAttachmentX0VG_AFyAA6ButtonVyAA5LabelVyAA4TextVAOGG_A19_SgQPGQo_A10_GA23_GSg_AJyAkAEAlMQrqd__yXE_tAaBRd__lFQOyAJyAJyAJyAJyA17_AA05_FlexqP0VGAA022_EnvironmentKeyWritingX0VyAA4FontVSgGGA30_yAA5ColorVSgGGA10_G_AFyA19__xQPGQo_A10_GQPGGAaBHPyHC.603
+- _get_witness_table 7SwiftUI6VStackVyAA12TupleContentVyAA08ModifiedE0VyAGy16MagnifierSupport26QuestionHistoryBubblesViewVAA14_PaddingLayoutVGALGSg_AGyAA0L0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAGyAGyAGyAGyAA6HStackVyAEyAqAEArsT_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAqAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAqAE20accessibilityFocusedyQrAA23AccessibilityFocusStateV7BindingVySb_GFQOyAGyAGyAGyAH011PromptEntryL13RepresentableVAA010_FlexFrameN0VGAA06_FrameN0VGALG_Qo__Qo__SbQo__AqAEArsT_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAqAEArsT_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAGyAGyAQ24AccessibilityUIUtilitiesE0Y5Glass2inQrqd___tAA5ShapeRd__lFQOyAGyAGyAGyAqAEA1_yQrA6_FQOyAGyAA6ButtonVyAGyAqAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQOyAH011MAGWaveformL0V_SNyA27_GQo_ALGGAA31AccessibilityAttachmentModifierVG_Qo_AA01_E17ShapeKindModifierVyAA6CircleVGGAA24_BackgroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyA43_GG_A43_Qo_ALGAA19_BackgroundModifierVyAA14GeometryReaderVyAqAEArsT_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAGyA49_AA25_AppearanceActionModifierVG_12CoreGraphics7CGFloatVQo_GGG_SbQo__SbQo_SgQPGGALGAA18_AnimationModifierVySbGGA59_yAA5GroupVyAGyAGyAGyAGyAGyAGyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGA87_yA85_5ScaleOGGALGALGAA15_HiddenModifierVGA70_GSgGGGALG_SbQo_A63_GQPGGAaPHPyHC.125
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQOyAA0G0VyAA15ModifiedContentVyAIyAIyAA6HStackVyAA05TupleI0VyAIyAIyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAQyAA5ColorVSgGG_AIyAA4TextVAA14_PaddingLayoutVGQPGGA3_GA3_GAA011_BackgroundP0VyAA06_ShapeC0VyAA7CapsuleVAXGGGG_AA05PlaingE0VQo_HO.126
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE36accessibilityShowsLargeContentVieweryQrqd__yXEAaBRd__lFQOyAA08ModifiedG0VyAA6ButtonVyAA5ImageVGAA31AccessibilityAttachmentModifierVG_AA6VStackVyAA05TupleG0VyAJ_AA4TextVQPGGQo_HO.579
+- _objc_msgSend$classifyPixelBuffer:error:
+- _objc_msgSend$initWithOptions:error:
+- _symbolic Si__________y_____y_____yACyACy_____yABy_____y_____y__________GG_AKQPGG_____G_____GSiG_____G______yAByACyACy_____APG_____G______QPGGSgACyAzPGSgQPGIegynr_ 16MagnifierSupport10MAGMessageV 7SwiftUI12TupleContentV AD08ModifiedG0V AD6IDViewV AA19AnimatedMessageCellV AD6ButtonV AD5LabelV AD4TextV AD5ImageV AD16_FlexFrameLayoutV AD08_PaddingS0V AD31AccessibilityAttachmentModifierV AD6HStackV AA016OpenWifiSettingsM0V AD017_AppearanceActionW0V AD6SpacerV
+- _symbolic So11SCMLHandlerCSg
+- _symbolic So7NSErrorCSg
+- _symbolic _____yAAy__________y_____GG_____G_AAyAAy_____y_____y_____y_____y_____y__________y_____yAAy_____y_____y_____yAAyAAy_____yAIyAJyAAy_____yAAyAB_____GSSG_____y_____yAAyAB_____y_____GGGGG_AAyAIyAJy_____ySaySi6offset______7elementtGSiAJyAAyAPyAAyAAy_____yAJy_____y_____y__________GG_A12_QPGG_____G_____GSiG_____G______yAJyAAyAAy_____A17_G_____G_AMQPGGSgAAyAMA17_GSgQPGG_ASQPGGA17_GQPGGG_____ySSGGACyABGG_Qo__Qo__SayA3_GQo_A25_G_SbQo_GG_Qo_A51_G_AAy_____A20_GQPGGA15_G_____Gt 7SwiftUI15ModifiedContentV AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA05TupleD0V AA012_ConditionalD0V AA4ViewP24AccessibilityUIUtilitiesE013axApplyStoredH0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollR6ReaderV AsAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AsAEA0_A1_A2__Qrqd___Sbyqd___qd__tctSQRd__lFQO AsAE23scrollDismissesKeyboardyQrAA27ScrollDismissesKeyboardModeVFQO AsAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollR0V AA6IDViewV AA06_FrameN0V AA01_fH0V AA14GeometryReaderV AA018_PreferenceWritingH0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A22_10MAGMessageV A22_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA010_FlexFrameN0V AA08_PaddingN0V AA0s10AttachmentH0V AA6HStackV A22_22OpenWifiSettingsButtonV AA017_AppearanceActionH0V AA016_CoordinateSpaceH0V A22_21IntelligentInputFieldV AA14_OpacityEffectV
+- _symbolic _____yAAy_____y_____AAy_____y_____y_____y_____y_____y_____yAAyAAy__________y_____GG_____G_AAyAAy_____yAEy_____y_____y_____y__________y_____yAAy_____y_____y_____yAAyAAy_____yAMyAEyAAy_____yAAyAF_____GSSG_____y_____yAAyAF_____y_____GGGGG_AAyAMyAEy_____ySaySi6offset______7elementtGSiAEyAAyASyAAyAAy_____yAEy_____y_____y__________GG_A15_QPGG_____G_____GSiG_____G______yAEyAAyAAy_____A20_G_____G_APQPGGSgAAyAPA20_GSgQPGG_AVQPGGA20_GQPGGG_____ySSGGAGyAFGG_Qo__Qo__SayA6_GQo_A28_G_SbQo_GG_Qo_A54_G_AAy_____A23_GQPGGA18_G_____GQPGG_AEy_____yytAAy_____A63_GGSg_A67_yytAAy_____A63_GGQPGQo__SSQo__Qo__Qo_AKGGA28_GAYy_____GG 7SwiftUI15ModifiedContentV AA15NavigationStackV AA0E4PathV AA4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AiAE29navigationBarTitleDisplayModeyQrAA0eP4ItemV0qrS0OFQO AiAE0oQ0yQrqd__SyRd__lFQO AiAE0I07contentQrqd__yXE_tAA0mD0Rd__lFQO AA6ZStackV AA05TupleD0V AA5ColorV AA01_J13StyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalD0V AI24AccessibilityUIUtilitiesE013axApplyStoredZ0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollH6ReaderV AiAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAEA21_A22_A23__Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAE23scrollDismissesKeyboardyQrAA023ScrollDismissesKeyboardS0VFQO AiAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollH0V AA6IDViewV AA12_FrameLayoutV AA01_jZ0V AA14GeometryReaderV AA018_PreferenceWritingZ0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A43_10MAGMessageV A43_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA023AccessibilityAttachmentZ0V AA6HStackV A43_22OpenWifiSettingsButtonV AA017_AppearanceActionZ0V AA016_CoordinateSpaceZ0V A43_21IntelligentInputFieldV AA14_OpacityEffectV AA0mT0V A43_20TranscriptBackButtonV A43_24TranscriptCollapseButtonV AA09PreferredX9SchemeKeyV
+- _symbolic _____yAAy_____y_____y_____yAAy_____yAAy__________GSSG_____y_____yAAyAF_____y_____GGGGG_AAyACyADy_____ySaySi6offset______7elementtGSiADyAAyAEyAAyAAy_____yADy_____y_____y__________GG_A2_QPGG_____G_____GSiG_____G______yADyAAyAAy_____A7_G_____G______QPGGSgAAyA17_A7_GSgQPGG_AIQPGGA7_GQPGGG_____ySSGG_____yAFGG 7SwiftUI15ModifiedContentV AA10ScrollViewV AA6VStackV AA05TupleD0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingN0V 16MagnifierSupport0e6OffsetQ3KeyV AA7ForEachV AV10MAGMessageV AV19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA05_FlexkL0V AA08_PaddingL0V AA023AccessibilityAttachmentN0V AA6HStackV AV22OpenWifiSettingsButtonV AA017_AppearanceActionN0V AA6SpacerV AA016_CoordinateSpaceN0V AA01_m5StyleN0V
+- _symbolic _____yAAy_____y_____y_____y_____y__________GG_AIQPGG_____G_____G 7SwiftUI15ModifiedContentV 16MagnifierSupport19AnimatedMessageCellV AA05TupleD0V AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA08_PaddingQ0V
+- _symbolic _____yAAy_____y_____y_____y_____y_____y__________y_____yAAy_____y_____y_____yAAyAAy_____yAByACyAAy_____yAAy__________GSSG_____y_____yAAyAJ_____y_____GGGGG_AAyAByACy_____ySaySi6offset______7elementtGSiACyAAyAIyAAyAAy_____yACy_____y_____y__________GG_A6_QPGG_____G_____GSiG_____G______yACyAAyAAy_____A11_G_____G_AFQPGGSgAAyAFA11_GSgQPGG_AMQPGGA11_GQPGGG_____ySSGG_____yAJGG_Qo__Qo__SayAYGQo_A19_G_SbQo_GG_Qo_A46_G_AAy_____A14_GQPGGA9_G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA012_ConditionalD0V AA4ViewP24AccessibilityUIUtilitiesE21axApplyStoredModifieryQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollH6ReaderV AkAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AkAEAtuV_Qrqd___Sbyqd___qd__tctSQRd__lFQO AkAE23scrollDismissesKeyboardyQrAA0sZ12KeyboardModeVFQO AkAE07defaultS6AnchoryQrAA9UnitPointVSgFQO AA0sH0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA011_BackgroundN0V AA08GeometryT0V AA018_PreferenceWritingN0V 16MagnifierSupport0S19OffsetPreferenceKeyV AA7ForEachV A16_10MAGMessageV A16_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA0i10AttachmentN0V AA6HStackV A16_22OpenWifiSettingsButtonV AA017_AppearanceActionN0V AA016_CoordinateSpaceN0V AA016_BackgroundStyleN0V A16_21IntelligentInputFieldV AA14_OpacityEffectV
+- _symbolic _____yAAy_____yxG_____G_____G 7SwiftUI15ModifiedContentV 16MagnifierSupport14VQAMessageCellV AA14_OpacityEffectV AA25_AppearanceActionModifierV
+- _symbolic _____ySaySi6offset______7elementtGSi_____y_____y_____yAGyAGy_____yAFy_____y_____y__________GG_AOQPGG_____G_____GSiG_____G______yAFyAGyAGy_____ATG_____G______QPGGSgAGyA2_ATGSgQPGG 7SwiftUI7ForEachV 16MagnifierSupport10MAGMessageV AA12TupleContentV AA08ModifiedI0V AA6IDViewV AD19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA08_PaddingU0V AA31AccessibilityAttachmentModifierV AA6HStackV AD016OpenWifiSettingsO0V AA017_AppearanceActionY0V AA6SpacerV
+- _symbolic _____ySaySi6offset______7elementtGSi_____y_____y_____yAGyAGy_____yAFy_____y_____y__________GG_AOQPGG_____G_____GSiG_____G______yAFyAGyAGy_____ATG_____G______QPGGSgAGyA2_ATGSgQPGG_AHyAGy__________GSSGt 7SwiftUI7ForEachV 16MagnifierSupport10MAGMessageV AA12TupleContentV AA08ModifiedI0V AA6IDViewV AD19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA08_PaddingU0V AA31AccessibilityAttachmentModifierV AA6HStackV AD016OpenWifiSettingsO0V AA017_AppearanceActionY0V AA6SpacerV AA5ColorV AA01_tU0V
+- _symbolic _____y___________y_____yADy__________y_____GG_____G_ADyADy_____yACy_____y_____y_____y__________y_____yADy_____y_____y_____yADyADy_____yALyACyADy_____yADyAE_____GSSG_____y_____yADyAE_____y_____GGGGG_ADyALyACy_____ySaySi6offset______7elementtGSiACyADyARyADyADy_____yACy_____y_____y__________GG_A14_QPGG_____G_____GSiG_____G______yACyADyADy_____A19_G_____G_AOQPGGSgADyAOA19_GSgQPGG_AUQPGGA19_GQPGGG_____ySSGGAFyAEGG_Qo__Qo__SayA5_GQo_A27_G_SbQo_GG_Qo_A53_G_ADy_____A22_GQPGGA17_G_____GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV AA024_SafeAreaRegionsIgnoringG0V AA6VStackV AA012_ConditionalI0V AA0D0P24AccessibilityUIUtilitiesE013axApplyStoredN0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollD6ReaderV AyAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AyAEA6_A7_A8__Qrqd___Sbyqd___qd__tctSQRd__lFQO AyAE23scrollDismissesKeyboardyQrAA27ScrollDismissesKeyboardModeVFQO AyAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollD0V AA6IDViewV AA06_FrameG0V AA01_lN0V AA14GeometryReaderV AA018_PreferenceWritingN0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A28_10MAGMessageV A28_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA010_FlexFrameG0V AA08_PaddingG0V AA0v10AttachmentN0V AA6HStackV A28_22OpenWifiSettingsButtonV AA017_AppearanceActionN0V AA016_CoordinateSpaceN0V A28_21IntelligentInputFieldV AA14_OpacityEffectV
+- _symbolic _____y___________y_____ySaySi6offset______7elementtGSiACy_____y_____yAIyAIy_____yACy_____y_____y__________GG_AQQPGG_____G_____GSiG_____G______yACyAIyAIy_____AVG_____G______QPGGSgAIyA4_AVGSgQPGG_AJyAIy__________GSSGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA7ForEachV 16MagnifierSupport10MAGMessageV AA08ModifiedI0V AA6IDViewV AL19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA010_FlexFrameG0V AA08_PaddingG0V AA31AccessibilityAttachmentModifierV AA6HStackV AL016OpenWifiSettingsT0V AA25_AppearanceActionModifierV AA6SpacerV AA5ColorV AA01_yG0V
+- _symbolic _____y___________y_____y_____yADy__________GSSG_____y_____yADyAF_____y_____GGGGG_ADy_____yACy_____ySaySi6offset______7elementtGSiACyADyAEyADyADy_____yACy_____y_____y__________GG_A3_QPGG_____G_____GSiG_____G______yACyADyADy_____A8_G_____G______QPGGSgADyA18_A8_GSgQPGG_AIQPGGA8_GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA6IDViewV AA5ColorV AA06_FrameG0V AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingO0V 16MagnifierSupport012ScrollOffsetR3KeyV AA0F0V AA7ForEachV AX10MAGMessageV AX19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA05_FlexmG0V AA08_PaddingG0V AA023AccessibilityAttachmentO0V AA6HStackV AX22OpenWifiSettingsButtonV AA017_AppearanceActionO0V AA6SpacerV
+- _symbolic _____y___________y_____y_____y_____y__________y_____y_____y_____y_____y_____yAHyAHy_____y_____yACyAHy_____yAHy__________GSSG_____y_____yAHyAL_____y_____GGGGG_AHyAJyACy_____ySaySi6offset______7elementtGSiACyAHyAKyAHyAHy_____yACy_____y_____y__________GG_A8_QPGG_____G_____GSiG_____G______yACyAHyAHy_____A13_G_____G_AFQPGGSgAHyAFA13_GSgQPGG_AOQPGGA13_GQPGGG_____ySSGG_____yALGG_Qo__Qo__SayA_GQo_A21_G_SbQo_GG_Qo_A48_G_AHy_____A16_GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA012_ConditionalI0V AA0D0P24AccessibilityUIUtilitiesE21axApplyStoredModifieryQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollD6ReaderV AmAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA08ModifiedI0V AmAEAvwX_Qrqd___Sbyqd___qd__tctSQRd__lFQO AmAE23scrollDismissesKeyboardyQrAA0U21DismissesKeyboardModeVFQO AmAE07defaultU6AnchoryQrAA9UnitPointVSgFQO AA0uD0V AA0F0V AA6IDViewV AA5ColorV AA06_FrameG0V AA011_BackgroundP0V AA08GeometryV0V AA018_PreferenceWritingP0V 16MagnifierSupport0U19OffsetPreferenceKeyV AA7ForEachV A22_10MAGMessageV A22_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA010_FlexFrameG0V AA08_PaddingG0V AA0k10AttachmentP0V AA6HStackV A22_22OpenWifiSettingsButtonV AA017_AppearanceActionP0V AA016_CoordinateSpaceP0V AA016_BackgroundStyleP0V A22_21IntelligentInputFieldV
+- _symbolic _____y__________y_____y_____y_____y_____y_____yADyADy_____y_____y_____yADy_____yADy__________GSSG_____y_____yADyAI_____y_____GGGGG_ADyAFyAGy_____ySaySi6offset______7elementtGSiAGyADyAHyADyADy_____yAGy_____y_____y__________GG_A5_QPGG_____G_____GSiG_____G______yAGyADyADy_____A10_G_____G_ABQPGGSgADyABA10_GSgQPGG_ALQPGGA10_GQPGGG_____ySSGG_____yAIGG_Qo__Qo__SayAXGQo_A18_G_SbQo_GG 7SwiftUI16ArrangedViews_v0V AA6SpacerV AA16ScrollViewReaderV AA0H0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AiAEAjkL_Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAE23scrollDismissesKeyboardyQrAA0gqR4ModeVFQO AiAE07defaultG6AnchoryQrAA9UnitPointVSgFQO AA0gH0V AA6VStackV AA05TupleO0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA08GeometryI0V AA26_PreferenceWritingModifierV 16MagnifierSupport0G19OffsetPreferenceKeyV AA7ForEachV A12_10MAGMessageV A12_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV AA6HStackV A12_22OpenWifiSettingsButtonV AA25_AppearanceActionModifierV AA24_CoordinateSpaceModifierV AA24_BackgroundStyleModifierV
+- _symbolic _____y__________y_____y_____y_____y_____y_____y_____yACyACy__________y_____GG_____G_ACyACy_____yAEy_____y_____y_____y__________y_____yACy_____y_____y_____yACyACy_____yAMyAEyACy_____yACyAF_____GSSG_____y_____yACyAF_____y_____GGGGG_ACyAMyAEy_____ySaySi6offset______7elementtGSiAEyACyASyACyACy_____yAEy_____y_____y__________GG_A15_QPGG_____G_____GSiG_____G______yAEyACyACy_____A20_G_____G_APQPGGSgACyAPA20_GSgQPGG_AVQPGGA20_GQPGGG_____ySSGGAGyAFGG_Qo__Qo__SayA6_GQo_A28_G_SbQo_GG_Qo_A54_G_ACy_____A23_GQPGGA18_G_____GQPGG_AEy_____yytACy_____A63_GGSg_A67_yytACy_____A63_GGQPGQo__SSQo__Qo__Qo_AKGG 7SwiftUI15NavigationStackV AA0C4PathV AA15ModifiedContentV AA4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AiAE29navigationBarTitleDisplayModeyQrAA0cP4ItemV0qrS0OFQO AiAE0oQ0yQrqd__SyRd__lFQO AiAE0I07contentQrqd__yXE_tAA0mG0Rd__lFQO AA6ZStackV AA05TupleG0V AA5ColorV AA01_J13StyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalG0V AI24AccessibilityUIUtilitiesE013axApplyStoredZ0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollH6ReaderV AiAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAEA21_A22_A23__Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAE23scrollDismissesKeyboardyQrAA023ScrollDismissesKeyboardS0VFQO AiAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollH0V AA6IDViewV AA12_FrameLayoutV AA01_jZ0V AA14GeometryReaderV AA018_PreferenceWritingZ0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A43_10MAGMessageV A43_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA023AccessibilityAttachmentZ0V AA6HStackV A43_22OpenWifiSettingsButtonV AA017_AppearanceActionZ0V AA016_CoordinateSpaceZ0V A43_21IntelligentInputFieldV AA14_OpacityEffectV AA0mT0V A43_20TranscriptBackButtonV A43_24TranscriptCollapseButtonV
+- _symbolic _____y______ySo7UIImageCSg_GG 7Combine10PublishersO6FilterV AA9PublishedV9PublisherV
+- _symbolic _____y_____yAAyAAy_____y_____y_____y_____y__________GG_AJQPGG_____G_____GSiG_____G 7SwiftUI15ModifiedContentV AA6IDViewV 16MagnifierSupport19AnimatedMessageCellV AA05TupleD0V AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA08_PaddingR0V AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____yAAyAAy_____y_____y_____y_____y__________GG_AJQPGG_____G_____GSiG_____G______yADyAAyAAy_____AOG_____G______QPGGSgAAyAyOGSgt 7SwiftUI15ModifiedContentV AA6IDViewV 16MagnifierSupport19AnimatedMessageCellV AA05TupleD0V AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA08_PaddingR0V AA31AccessibilityAttachmentModifierV AA6HStackV AF016OpenWifiSettingsL0V AA017_AppearanceActionV0V AA6SpacerV
+- _symbolic _____y_____yAAy__________GSSG_____y_____yAAyAC_____y_____GGGGG_AAy_____y_____y_____ySaySi6offset______7elementtGSiAQyAAyAByAAyAAy_____yAQy_____y_____y__________GG_A1_QPGG_____G_____GSiG_____G______yAQyAAyAAy_____A6_G_____G______QPGGSgAAyA16_A6_GSgQPGG_AFQPGGA6_Gt 7SwiftUI15ModifiedContentV AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingJ0V 16MagnifierSupport012ScrollOffsetM3KeyV AA6VStackV AA05TupleD0V AA7ForEachV AP10MAGMessageV AP19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA05_FlexgH0V AA08_PaddingH0V AA023AccessibilityAttachmentJ0V AA6HStackV AP22OpenWifiSettingsButtonV AA017_AppearanceActionJ0V AA6SpacerV
+- _symbolic _____y_____yAAy_____y_____y_____yAAy_____yAAy__________GSSG_____y_____yAAyAF_____y_____GGGGG_AAyACyADy_____ySaySi6offset______7elementtGSiADyAAyAEyAAyAAy_____yADy_____y_____y__________GG_A2_QPGG_____G_____GSiG_____G______yADyAAyAAy_____A7_G_____G______QPGGSgAAyA17_A7_GSgQPGG_AIQPGGA7_GQPGGG_____ySSGG_____yAFGG_Qo_ 7SwiftUI4ViewPAAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA15ModifiedContentV AA0eC0V AA6VStackV AA05TupleJ0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingR0V 16MagnifierSupport0e6OffsetU3KeyV AA7ForEachV A0_10MAGMessageV A0_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA05_FlexoP0V AA08_PaddingP0V AA023AccessibilityAttachmentR0V AA6HStackV A0_22OpenWifiSettingsButtonV AA017_AppearanceActionR0V AA6SpacerV AA016_CoordinateSpaceR0V AA01_q5StyleR0V
+- _symbolic _____y_____yABy_____y_____y_____y_____y__________GG_AJQPGG_____G_____GSiG 7SwiftUI6IDViewV AA15ModifiedContentV 16MagnifierSupport19AnimatedMessageCellV AA05TupleE0V AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA08_PaddingR0V
+- _symbolic _____y_____y_____AAy_____y_____y_____y_____y_____y_____yAAyAAy__________y_____GG_____G_AAyAAy_____yAEy_____y_____y_____y__________y_____yAAy_____y_____y_____yAAyAAy_____yAMyAEyAAy_____yAAyAF_____GSSG_____y_____yAAyAF_____y_____GGGGG_AAyAMyAEy_____ySaySi6offset______7elementtGSiAEyAAyASyAAyAAy_____yAEy_____y_____y__________GG_A15_QPGG_____G_____GSiG_____G______yAEyAAyAAy_____A20_G_____G_APQPGGSgAAyAPA20_GSgQPGG_AVQPGGA20_GQPGGG_____ySSGGAGyAFGG_Qo__Qo__SayA6_GQo_A28_G_SbQo_GG_Qo_A54_G_AAy_____A23_GQPGGA18_G_____GQPGG_AEy_____yytAAy_____A63_GGSg_A67_yytAAy_____A63_GGQPGQo__SSQo__Qo__Qo_AKGGA28_G 7SwiftUI15ModifiedContentV AA15NavigationStackV AA0E4PathV AA4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AiAE29navigationBarTitleDisplayModeyQrAA0eP4ItemV0qrS0OFQO AiAE0oQ0yQrqd__SyRd__lFQO AiAE0I07contentQrqd__yXE_tAA0mD0Rd__lFQO AA6ZStackV AA05TupleD0V AA5ColorV AA01_J13StyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalD0V AI24AccessibilityUIUtilitiesE013axApplyStoredZ0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollH6ReaderV AiAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAEA21_A22_A23__Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAE23scrollDismissesKeyboardyQrAA023ScrollDismissesKeyboardS0VFQO AiAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollH0V AA6IDViewV AA12_FrameLayoutV AA01_jZ0V AA14GeometryReaderV AA018_PreferenceWritingZ0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A43_10MAGMessageV A43_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA023AccessibilityAttachmentZ0V AA6HStackV A43_22OpenWifiSettingsButtonV AA017_AppearanceActionZ0V AA016_CoordinateSpaceZ0V A43_21IntelligentInputFieldV AA14_OpacityEffectV AA0mT0V A43_20TranscriptBackButtonV A43_24TranscriptCollapseButtonV
+- _symbolic _____y_____y_____yAAy_____y_____y_____yAAy_____yAAy__________GSSG_____y_____yAAyAF_____y_____GGGGG_AAyACyADy_____ySaySi6offset______7elementtGSiADyAAyAEyAAyAAy_____yADy_____y_____y__________GG_A2_QPGG_____G_____GSiG_____G______yADyAAyAAy_____A7_G_____G______QPGGSgAAyA17_A7_GSgQPGG_AIQPGGA7_GQPGGG_____ySSGG_____yAFGG_Qo__Qo_ 7SwiftUI4ViewPAAE23scrollDismissesKeyboardyQrAA06ScrolleF4ModeVFQO AcAE07defaultG6AnchoryQrAA9UnitPointVSgFQO AA15ModifiedContentV AA0gC0V AA6VStackV AA05TupleN0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingV0V 16MagnifierSupport0g6OffsetY3KeyV AA7ForEachV A3_10MAGMessageV A3_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA05_FlexsT0V AA08_PaddingT0V AA023AccessibilityAttachmentV0V AA6HStackV A3_22OpenWifiSettingsButtonV AA017_AppearanceActionV0V AA6SpacerV AA016_CoordinateSpaceV0V AA01_u5StyleV0V
+- _symbolic _____y_____y_____yAByABy_____yAAy_____y_____y__________GG_AJQPGG_____G_____GSiG_____G______yAAyAByABy_____AOG_____G______QPGGSgAByAyOGSgQPG 7SwiftUI12TupleContentV AA08ModifiedD0V AA6IDViewV 16MagnifierSupport19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA08_PaddingR0V AA31AccessibilityAttachmentModifierV AA6HStackV AH016OpenWifiSettingsL0V AA017_AppearanceActionV0V AA6SpacerV
+- _symbolic _____y_____y_____yACy__________y_____GG_____G_ACyACy_____yABy_____y_____y_____y__________y_____yACy_____y_____y_____yACyACy_____yAKyAByACy_____yACyAD_____GSSG_____y_____yACyAD_____y_____GGGGG_ACyAKyABy_____ySaySi6offset______7elementtGSiAByACyAQyACyACy_____yABy_____y_____y__________GG_A13_QPGG_____G_____GSiG_____G______yAByACyACy_____A18_G_____G_ANQPGGSgACyANA18_GSgQPGG_ATQPGGA18_GQPGGG_____ySSGGAEyADGG_Qo__Qo__SayA4_GQo_A26_G_SbQo_GG_Qo_A52_G_ACy_____A21_GQPGGA16_G_____GQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalE0V AA4ViewP24AccessibilityUIUtilitiesE013axApplyStoredJ0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollS6ReaderV AuAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AuAEA2_A3_A4__Qrqd___Sbyqd___qd__tctSQRd__lFQO AuAE23scrollDismissesKeyboardyQrAA27ScrollDismissesKeyboardModeVFQO AuAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollS0V AA6IDViewV AA06_FrameP0V AA01_hJ0V AA14GeometryReaderV AA018_PreferenceWritingJ0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A24_10MAGMessageV A24_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA010_FlexFrameP0V AA08_PaddingP0V AA0t10AttachmentJ0V AA6HStackV A24_22OpenWifiSettingsButtonV AA017_AppearanceActionJ0V AA016_CoordinateSpaceJ0V A24_21IntelligentInputFieldV AA14_OpacityEffectV
+- _symbolic _____y_____y_____y__________y_____y_____y_____y_____y_____yAEyAEy_____y_____y_____yAEy_____yAEy__________GSSG_____y_____yAEyAJ_____y_____GGGGG_AEyAGyAHy_____ySaySi6offset______7elementtGSiAHyAEyAIyAEyAEy_____yAHy_____y_____y__________GG_A6_QPGG_____G_____GSiG_____G______yAHyAEyAEy_____A11_G_____G_ACQPGGSgAEyACA11_GSgQPGG_AMQPGGA11_GQPGGG_____ySSGG_____yAJGG_Qo__Qo__SayAYGQo_A19_G_SbQo_GG_Qo_A46_G 7SwiftUI19_ConditionalContentV AA4ViewP24AccessibilityUIUtilitiesE21axApplyStoredModifieryQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollE6ReaderV AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA08ModifiedD0V AeAEAnoP_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE23scrollDismissesKeyboardyQrAA0pxY4ModeVFQO AeAE07defaultP6AnchoryQrAA9UnitPointVSgFQO AA0pE0V AA6VStackV AA05TupleD0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA011_BackgroundK0V AA08GeometryQ0V AA018_PreferenceWritingK0V 16MagnifierSupport0P19OffsetPreferenceKeyV AA7ForEachV A16_10MAGMessageV A16_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA0f10AttachmentK0V AA6HStackV A16_22OpenWifiSettingsButtonV AA017_AppearanceActionK0V AA016_CoordinateSpaceK0V AA016_BackgroundStyleK0V
+- _symbolic _____y_____y_____y__________y_____y_____y_____y_____y_____yAEyAEy_____y_____y_____yAEy_____yAEy__________GSSG_____y_____yAEyAJ_____y_____GGGGG_AEyAGyAHy_____ySaySi6offset______7elementtGSiAHyAEyAIyAEyAEy_____yAHy_____y_____y__________GG_A6_QPGG_____G_____GSiG_____G______yAHyAEyAEy_____A11_G_____G_ACQPGGSgAEyACA11_GSgQPGG_AMQPGGA11_GQPGGG_____ySSGG_____yAJGG_Qo__Qo__SayAYGQo_A19_G_SbQo_GG_Qo_A46_G_AEy_____A14_Gt 7SwiftUI19_ConditionalContentV AA4ViewP24AccessibilityUIUtilitiesE21axApplyStoredModifieryQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollE6ReaderV AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA08ModifiedD0V AeAEAnoP_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE23scrollDismissesKeyboardyQrAA0pxY4ModeVFQO AeAE07defaultP6AnchoryQrAA9UnitPointVSgFQO AA0pE0V AA6VStackV AA05TupleD0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA011_BackgroundK0V AA08GeometryQ0V AA018_PreferenceWritingK0V 16MagnifierSupport0P19OffsetPreferenceKeyV AA7ForEachV A16_10MAGMessageV A16_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA0f10AttachmentK0V AA6HStackV A16_22OpenWifiSettingsButtonV AA017_AppearanceActionK0V AA016_CoordinateSpaceK0V AA016_BackgroundStyleK0V A16_21IntelligentInputFieldV
+- _symbolic _____y_____y_____y__________y_____y_____y_____y_____y_____yAEyAEy_____y_____y_____yAEy_____yAEy__________GSSG_____y_____yAEyAJ_____y_____GGGGG_AEyAGyAHy_____ySaySi6offset______7elementtGSiAHyAEyAIyAEyAEy_____yAHy_____y_____y__________GG_A6_QPGG_____G_____GSiG_____G______yAHyAEyAEy_____A11_G_____G_ACQPGGSgAEyACA11_GSgQPGG_AMQPGGA11_GQPGGG_____ySSGG_____yAJGG_Qo__Qo__SayAYGQo_A19_G_SbQo_GG_Qo_A46__G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewP24AccessibilityUIUtilitiesE21axApplyStoredModifieryQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollF6ReaderV AgAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA08ModifiedD0V AgAEApqR_Qrqd___Sbyqd___qd__tctSQRd__lFQO AgAE23scrollDismissesKeyboardyQrAA0qyZ4ModeVFQO AgAE07defaultQ6AnchoryQrAA9UnitPointVSgFQO AA0qF0V AA6VStackV AA05TupleD0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA011_BackgroundL0V AA08GeometryR0V AA018_PreferenceWritingL0V 16MagnifierSupport0Q19OffsetPreferenceKeyV AA7ForEachV A18_10MAGMessageV A18_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA0g10AttachmentL0V AA6HStackV A18_22OpenWifiSettingsButtonV AA017_AppearanceActionL0V AA016_CoordinateSpaceL0V AA016_BackgroundStyleL0V
+- _symbolic _____y_____y_____y_____yAAyAAy_____y_____y_____yAAy_____yAAy__________GSSG_____y_____yAAyAF_____y_____GGGGG_AAyACyADy_____ySaySi6offset______7elementtGSiADyAAyAEyAAyAAy_____yADy_____y_____y__________GG_A2_QPGG_____G_____GSiG_____G______yADyAAyAAy_____A7_G_____G______QPGGSgAAyA17_A7_GSgQPGG_AIQPGGA7_GQPGGG_____ySSGG_____yAFGG_Qo__Qo__SayAUGQo_A15_G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE23scrollDismissesKeyboardyQrAA06ScrollkL4ModeVFQO AeAE07defaultM6AnchoryQrAA9UnitPointVSgFQO AA0mE0V AA6VStackV AA05TupleD0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingZ0V 16MagnifierSupport0M19OffsetPreferenceKeyV AA7ForEachV A6_10MAGMessageV A6_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA05_FlexwX0V AA08_PaddingX0V AA023AccessibilityAttachmentZ0V AA6HStackV A6_22OpenWifiSettingsButtonV AA017_AppearanceActionZ0V AA6SpacerV AA016_CoordinateSpaceZ0V AA01_y5StyleZ0V
+- _symbolic _____y_____y_____y_____yAAy_____yAAy__________GSSG_____y_____yAAyAF_____y_____GGGGG_AAyACyADy_____ySaySi6offset______7elementtGSiADyAAyAEyAAyAAy_____yADy_____y_____y__________GG_A2_QPGG_____G_____GSiG_____G______yADyAAyAAy_____A7_G_____G______QPGGSgAAyA17_A7_GSgQPGG_AIQPGGA7_GQPGGG_____ySSGG 7SwiftUI15ModifiedContentV AA10ScrollViewV AA6VStackV AA05TupleD0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingN0V 16MagnifierSupport0e6OffsetQ3KeyV AA7ForEachV AV10MAGMessageV AV19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA05_FlexkL0V AA08_PaddingL0V AA023AccessibilityAttachmentN0V AA6HStackV AV22OpenWifiSettingsButtonV AA017_AppearanceActionN0V AA6SpacerV AA016_CoordinateSpaceN0V
+- _symbolic _____y_____y_____y_____yACy__________GSSG_____y_____yACyAE_____y_____GGGGG_ACyAAyABy_____ySaySi6offset______7elementtGSiAByACyADyACyACy_____yABy_____y_____y__________GG_A1_QPGG_____G_____GSiG_____G______yAByACyACy_____A6_G_____G______QPGGSgACyA16_A6_GSgQPGG_AHQPGGA6_GQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingL0V 16MagnifierSupport012ScrollOffsetO3KeyV AA7ForEachV AT10MAGMessageV AT19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA05_FlexiJ0V AA08_PaddingJ0V AA023AccessibilityAttachmentL0V AA6HStackV AT22OpenWifiSettingsButtonV AA017_AppearanceActionL0V AA6SpacerV
+- _symbolic _____y_____y_____y_____yACy__________y_____GG_____G_ACyACy_____yABy_____y_____y_____y__________y_____yACy_____y_____y_____yACyACy_____yAKyAByACy_____yACyAD_____GSSG_____y_____yACyAD_____y_____GGGGG_ACyAKyABy_____ySaySi6offset______7elementtGSiAByACyAQyACyACy_____yABy_____y_____y__________GG_A13_QPGG_____G_____GSiG_____G______yAByACyACy_____A18_G_____G_ANQPGGSgACyANA18_GSgQPGG_ATQPGGA18_GQPGGG_____ySSGGAEyADGG_Qo__Qo__SayA4_GQo_A26_G_SbQo_GG_Qo_A52_G_ACy_____A21_GQPGGA16_G_____GQPGG_ABy_____yytACy_____A61_GGSg_A65_yytACy_____A61_GGQPGQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA6ZStackV AA05TupleG0V AA08ModifiedG0V AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalG0V AC24AccessibilityUIUtilitiesE013axApplyStoredN0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollC6ReaderV AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEA5_A6_A7__Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE23scrollDismissesKeyboardyQrAA27ScrollDismissesKeyboardModeVFQO AcAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollC0V AA6IDViewV AA06_FrameT0V AA01_lN0V AA14GeometryReaderV AA018_PreferenceWritingN0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A27_10MAGMessageV A27_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA010_FlexFrameT0V AA08_PaddingT0V AA0w10AttachmentN0V AA6HStackV A27_22OpenWifiSettingsButtonV AA017_AppearanceActionN0V AA016_CoordinateSpaceN0V A27_21IntelligentInputFieldV AA14_OpacityEffectV AA0F4ItemV A27_20TranscriptBackButtonV A27_24TranscriptCollapseButtonV
+- _symbolic _____y_____y_____y_____ySaySi6offset______7elementtGSiACyAAy_____yAAyAAy_____yACy_____y_____y__________GG_APQPGG_____G_____GSiG_____G______yACyAAyAAy_____AUG_____G______QPGGSgAAyA3_AUGSgQPGG_AIyAAy__________GSSGQPGGAUG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA7ForEachV 16MagnifierSupport10MAGMessageV AA6IDViewV AJ19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA08_PaddingV0V AA31AccessibilityAttachmentModifierV AA6HStackV AJ016OpenWifiSettingsP0V AA017_AppearanceActionZ0V AA6SpacerV AA5ColorV AA01_uV0V
+- _symbolic _____y_____y_____y_____y__________GG_AHQPGG 16MagnifierSupport19AnimatedMessageCellV 7SwiftUI12TupleContentV AD6ButtonV AD5LabelV AD4TextV AD5ImageV
+- _symbolic _____y_____y_____y_____y_____yACy__________y_____GG_____G_ACyACy_____yABy_____y_____y_____y__________y_____yACy_____y_____y_____yACyACy_____yAKyAByACy_____yACyAD_____GSSG_____y_____yACyAD_____y_____GGGGG_ACyAKyABy_____ySaySi6offset______7elementtGSiAByACyAQyACyACy_____yABy_____y_____y__________GG_A13_QPGG_____G_____GSiG_____G______yAByACyACy_____A18_G_____G_ANQPGGSgACyANA18_GSgQPGG_ATQPGGA18_GQPGGG_____ySSGGAEyADGG_Qo__Qo__SayA4_GQo_A26_G_SbQo_GG_Qo_A52_G_ACy_____A21_GQPGGA16_G_____GQPGG_ABy_____yytACy_____A61_GGSg_A65_yytACy_____A61_GGQPGQo__SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA6ZStackV AA05TupleI0V AA08ModifiedI0V AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalI0V AC24AccessibilityUIUtilitiesE013axApplyStoredP0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollC6ReaderV AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEA6_A7_A8__Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE23scrollDismissesKeyboardyQrAA27ScrollDismissesKeyboardModeVFQO AcAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollC0V AA6IDViewV AA06_FrameV0V AA01_nP0V AA14GeometryReaderV AA018_PreferenceWritingP0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A28_10MAGMessageV A28_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA010_FlexFrameV0V AA08_PaddingV0V AA0y10AttachmentP0V AA6HStackV A28_22OpenWifiSettingsButtonV AA017_AppearanceActionP0V AA016_CoordinateSpaceP0V A28_21IntelligentInputFieldV AA14_OpacityEffectV AA0H4ItemV A28_20TranscriptBackButtonV A28_24TranscriptCollapseButtonV
+- _symbolic _____y_____y_____y_____y_____yADyADyADyADyADyADyADy__________G_____G_____y_____GGAJy_____GG_____yANGGARG_____G_ABy_____y_____y_____AEGG_A_SgQPGQo_AUGA3_GSg_ADy_____yADyADyADyADyAY_____G_____y_____SgGGA8_y_____SgGGAUG_AByA__xQPGQo_AUGQPGG 7SwiftUI6VStackV AA12TupleContentV AA012_ConditionalE0V AA08ModifiedE0V AA4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaJRd__lFQO AA5ImageV AA18_AspectRatioLayoutV AA06_FrameP0V AA11_ClipEffectV AA9RectangleV AA07RoundedT0V AA01_E17ShapeKindModifierV AA023AccessibilityAttachmentX0V AA6ButtonV AA5LabelV AA4TextV AkAEAlMQrqd__yXE_tAaJRd__lFQO AA05_FlexqP0V AA022_EnvironmentKeyWritingX0V AA4FontV AA5ColorV
+- _symbolic _____y_____y_____y_____y_____yADy__________GSSG_____y_____yADyAF_____y_____GGGGG_ADyAByACy_____ySaySi6offset______7elementtGSiACyADyAEyADyADy_____yACy_____y_____y__________GG_A2_QPGG_____G_____GSiG_____G______yACyADyADy_____A7_G_____G______QPGGSgADyA17_A7_GSgQPGG_AIQPGGA7_GQPGGG 7SwiftUI10ScrollViewV AA6VStackV AA12TupleContentV AA08ModifiedG0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA14GeometryReaderV AA018_PreferenceWritingN0V 16MagnifierSupport0c6OffsetQ3KeyV AA7ForEachV AV10MAGMessageV AV19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA05_FlexkL0V AA08_PaddingL0V AA023AccessibilityAttachmentN0V AA6HStackV AV22OpenWifiSettingsButtonV AA017_AppearanceActionN0V AA6SpacerV
+- _symbolic _____y_____y_____y_____y_____y__________GG_AIQPGG_____G 7SwiftUI15ModifiedContentV 16MagnifierSupport19AnimatedMessageCellV AA05TupleD0V AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____y_____y_____y_____yAByABy_____y_____y_____yABy_____yABy__________GSSG_____y_____yAByAG_____y_____GGGGG_AByADyAEy_____ySaySi6offset______7elementtGSiAEyAByAFyAByABy_____yAEy_____y_____y__________GG_A3_QPGG_____G_____GSiG_____G______yAEyAByABy_____A8_G_____G______QPGGSgAByA18_A8_GSgQPGG_AJQPGGA8_GQPGGG_____ySSGG_____yAGGG_Qo__Qo__SayAVGQo_A16_G_SbQo_G 7SwiftUI16ScrollViewReaderV AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AeAEAfgH_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE23scrollDismissesKeyboardyQrAA0cmN4ModeVFQO AeAE07defaultC6AnchoryQrAA9UnitPointVSgFQO AA0cD0V AA6VStackV AA05TupleK0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA19_BackgroundModifierV AA08GeometryE0V AA26_PreferenceWritingModifierV 16MagnifierSupport0C19OffsetPreferenceKeyV AA7ForEachV A8_10MAGMessageV A8_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA05_FlexxY0V AA08_PaddingY0V AA31AccessibilityAttachmentModifierV AA6HStackV A8_22OpenWifiSettingsButtonV AA25_AppearanceActionModifierV AA6SpacerV AA24_CoordinateSpaceModifierV AA01_Z13StyleModifierV
+- _symbolic _____y_____y_____y_____y_____y_____yACy__________y_____GG_____G_ACyACy_____yABy_____y_____y_____y__________y_____yACy_____y_____y_____yACyACy_____yAKyAByACy_____yACyAD_____GSSG_____y_____yACyAD_____y_____GGGGG_ACyAKyABy_____ySaySi6offset______7elementtGSiAByACyAQyACyACy_____yABy_____y_____y__________GG_A13_QPGG_____G_____GSiG_____G______yAByACyACy_____A18_G_____G_ANQPGGSgACyANA18_GSgQPGG_ATQPGGA18_GQPGGG_____ySSGGAEyADGG_Qo__Qo__SayA4_GQo_A26_G_SbQo_GG_Qo_A52_G_ACy_____A21_GQPGGA16_G_____GQPGG_ABy_____yytACy_____A61_GGSg_A65_yytACy_____A61_GGQPGQo__SSQo__Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AcAE0dF0yQrqd__SyRd__lFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA6ZStackV AA05TupleN0V AA08ModifiedN0V AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalN0V AC24AccessibilityUIUtilitiesE013axApplyStoredU0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollC6ReaderV AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEA11_A12_A13__Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE23scrollDismissesKeyboardyQrAA023ScrollDismissesKeyboardH0VFQO AcAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollC0V AA6IDViewV AA12_FrameLayoutV AA01_sU0V AA14GeometryReaderV AA018_PreferenceWritingU0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A33_10MAGMessageV A33_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA023AccessibilityAttachmentU0V AA6HStackV A33_22OpenWifiSettingsButtonV AA017_AppearanceActionU0V AA016_CoordinateSpaceU0V A33_21IntelligentInputFieldV AA14_OpacityEffectV AA0mJ0V A33_20TranscriptBackButtonV A33_24TranscriptCollapseButtonV
+- _symbolic _____y_____y_____y_____y_____y_____y__________y_____yAAy_____y_____y_____yAAyAAy_____yAByACyAAy_____yAAy__________GSSG_____y_____yAAyAJ_____y_____GGGGG_AAyAByACy_____ySaySi6offset______7elementtGSiACyAAyAIyAAyAAy_____yACy_____y_____y__________GG_A6_QPGG_____G_____GSiG_____G______yACyAAyAAy_____A11_G_____G_AFQPGGSgAAyAFA11_GSgQPGG_AMQPGGA11_GQPGGG_____ySSGG_____yAJGG_Qo__Qo__SayAYGQo_A19_G_SbQo_GG_Qo_A46_G_AAy_____A14_GQPGGA9_G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA012_ConditionalD0V AA4ViewP24AccessibilityUIUtilitiesE21axApplyStoredModifieryQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollH6ReaderV AkAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AkAEAtuV_Qrqd___Sbyqd___qd__tctSQRd__lFQO AkAE23scrollDismissesKeyboardyQrAA0sZ12KeyboardModeVFQO AkAE07defaultS6AnchoryQrAA9UnitPointVSgFQO AA0sH0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA011_BackgroundN0V AA08GeometryT0V AA018_PreferenceWritingN0V 16MagnifierSupport0S19OffsetPreferenceKeyV AA7ForEachV A16_10MAGMessageV A16_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA0i10AttachmentN0V AA6HStackV A16_22OpenWifiSettingsButtonV AA017_AppearanceActionN0V AA016_CoordinateSpaceN0V AA016_BackgroundStyleN0V A16_21IntelligentInputFieldV
+- _symbolic _____y_____y_____y_____y_____y_____y_____yAAyAAy__________y_____GG_____G_AAyAAy_____yACy_____y_____y_____y__________y_____yAAy_____y_____y_____yAAyAAy_____yAKyACyAAy_____yAAyAD_____GSSG_____y_____yAAyAD_____y_____GGGGG_AAyAKyACy_____ySaySi6offset______7elementtGSiACyAAyAQyAAyAAy_____yACy_____y_____y__________GG_A13_QPGG_____G_____GSiG_____G______yACyAAyAAy_____A18_G_____G_ANQPGGSgAAyANA18_GSgQPGG_ATQPGGA18_GQPGGG_____ySSGGAEyADGG_Qo__Qo__SayA4_GQo_A26_G_SbQo_GG_Qo_A52_G_AAy_____A21_GQPGGA16_G_____GQPGG_ACy_____yytAAy_____A61_GGSg_A65_yytAAy_____A61_GGQPGQo__SSQo__Qo__Qo_AIG 7SwiftUI15ModifiedContentV AA4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AeAE29navigationBarTitleDisplayModeyQrAA010NavigationM4ItemV0noP0OFQO AeAE0lN0yQrqd__SyRd__lFQO AeAE0F07contentQrqd__yXE_tAA0jD0Rd__lFQO AA6ZStackV AA05TupleD0V AA5ColorV AA01_G13StyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalD0V AE24AccessibilityUIUtilitiesE013axApplyStoredX0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollE6ReaderV AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAEA17_A18_A19__Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE23scrollDismissesKeyboardyQrAA023ScrollDismissesKeyboardP0VFQO AeAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollE0V AA6IDViewV AA12_FrameLayoutV AA01_gX0V AA14GeometryReaderV AA018_PreferenceWritingX0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A39_10MAGMessageV A39_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA023AccessibilityAttachmentX0V AA6HStackV A39_22OpenWifiSettingsButtonV AA017_AppearanceActionX0V AA016_CoordinateSpaceX0V A39_21IntelligentInputFieldV AA14_OpacityEffectV AA0jR0V A39_20TranscriptBackButtonV A39_24TranscriptCollapseButtonV
+- _symbolic _____y_____y_____y_____y_____y_____y_____yACy__________y_____GG_____G_ACyACy_____yABy_____y_____y_____y__________y_____yACy_____y_____y_____yACyACy_____yAKyAByACy_____yACyAD_____GSSG_____y_____yACyAD_____y_____GGGGG_ACyAKyABy_____ySaySi6offset______7elementtGSiAByACyAQyACyACy_____yABy_____y_____y__________GG_A13_QPGG_____G_____GSiG_____G______yAByACyACy_____A18_G_____G_ANQPGGSgACyANA18_GSgQPGG_ATQPGGA18_GQPGGG_____ySSGGAEyADGG_Qo__Qo__SayA4_GQo_A26_G_SbQo_GG_Qo_A52_G_ACy_____A21_GQPGGA16_G_____GQPGG_ABy_____yytACy_____A61_GGSg_A65_yytACy_____A61_GGQPGQo__SSQo__Qo__Qo_ 7SwiftUI4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationK4ItemV0lmN0OFQO AcAE0jL0yQrqd__SyRd__lFQO AcAE0D07contentQrqd__yXE_tAA0H7ContentRd__lFQO AA6ZStackV AA05TupleR0V AA08ModifiedR0V AA5ColorV AA01_E13StyleModifierV AA8MaterialV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA012_ConditionalR0V AC24AccessibilityUIUtilitiesE013axApplyStoredX0yQrSSFQO AA16ArrangedViews_v0V AA6SpacerV AA06ScrollC6ReaderV AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEA17_A18_A19__Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE23scrollDismissesKeyboardyQrAA023ScrollDismissesKeyboardN0VFQO AcAE19defaultScrollAnchoryQrAA9UnitPointVSgFQO AA06ScrollC0V AA6IDViewV AA12_FrameLayoutV AA01_eX0V AA14GeometryReaderV AA018_PreferenceWritingX0V 16MagnifierSupport25ScrollOffsetPreferenceKeyV AA7ForEachV A39_10MAGMessageV A39_19AnimatedMessageCellV AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA023AccessibilityAttachmentX0V AA6HStackV A39_22OpenWifiSettingsButtonV AA017_AppearanceActionX0V AA016_CoordinateSpaceX0V A39_21IntelligentInputFieldV AA14_OpacityEffectV AA0hP0V A39_20TranscriptBackButtonV A39_24TranscriptCollapseButtonV
+- _symbolic _____yxG 16MagnifierSupport14VQAMessageCellV
+- _symbolic _____yxG 16MagnifierSupport19AnimatedMessageCellV
+CStrings:
++ "Could not convert image to JPEG data: %@"
++ "Failed to construct UseCaseIdentifier for useCase=%s — failing open"
++ "Failed to init MultimodalSanitizer for useCase=%s: %s — failing open"
++ "HandleMultiTurnVQARequest conversationHistoryCount=%ld hasNewImage=%{bool}d"
++ "HandleVQARequest isFollowUp=%{bool}d conversationHistoryCount=%ld storedConversationImage=%{bool}d"
++ "Input Detected As Jailbreak Attempt"
++ "Input Failed Multimodal Guardrail"
++ "MAGSpeechRecognitionService: cancelTranscription failed in %s: %@"
++ "MAGSpeechRecognitionService: cancelTranscription in %s — no active session to cancel"
++ "Multimodal guardrail SPI failed: %s useCase=%s — failing open"
++ "Multimodal guardrail: disallow=true useCase=%s"
++ "Multimodal guardrail: handleWithCare=true useCase=%s (allowed)"
++ "Multimodal guardrail: jailbreak=true useCase=%s"
++ "Multimodal guardrail: regionalSensitive=true useCase=%s (allowed)"
++ "Skipping text detection request; another is already in flight (rdar://178379930)"
++ "Will not proceed with VQA request. Multimodal guardrail rejected input."
++ "You are an application that can turn on the following filters:\n\n1: No filter / Turn off the filters\n2: Grayscale filter\n3: Red on Black filter\n4: Yellow on Black filter\n5: Yellow on Blue filter\n6: White on Blue filter\n7: Inverted filter\n8: Inverted Grayscale filter\n9: Black on Red filter (Inverted Red on Black)\n10: Black on Yellow filter (Inverted Yellow on Black)\n11: Blue on Yellow filter (Inverted Yellow on Blue)\n12: Blue on White filter (Inverted White on Blue)\n\nRespond with JUST the integer (number) representing the filter the user wants to turn on. Your response MUST be just one number."
++ "beginRecognition (defensive)"
++ "clearConversationHistory called, had %ld entries"
++ "final='%s'. Empty transcription; skipping VQA dispatch."
++ "invalidateSession called, conversationHistoryCount=%ld"
++ "liveRecognitionVqaInvocationCountForAnalytics"
++ "magnifierVqaInvocationCountForAnalytics"
++ "restartTranscription (orphan bail)"
++ "updateLiveLensPreviewRotation: angle %f not supported on preview connection"
+- "SCML classification error: %s"
+- "This image is sensitive per SCML. We should not interact with this image."
+- "Will not proceed with VQA request. Image contains sensitive content."
+- "You are an application that can turn on the following filters:\n\n1: No filter / Turn off the filters\n2: Grayscale filter\n3: Red on Black filter\n4: Yellow on Black filter\n5: Yellow on Blue filter\n6: White on Blue filter\n7: Inverted filter\n8: Grayscale Inverted filter\n9: Red on Black Inverted filter\n10: Yellow on Black Inverted filter\n11: Yellow on Blue Inverted filter\n12: White on Blue Inverted filter\n\nRespond with JUST the integer (number) representing the filter the user wants to turn on. Your response MUST be just one number."
+- "[AngelContext] clearConversationHistory called, had %ld entries"
+- "[AngelContext] handleMultiTurnVQARequest conversationHistoryCount=%ld hasNewImage=%{bool}d"
+- "[AngelContext] handleVQARequest isFollowUp=%{bool}d conversationHistoryCount=%ld storedConversationImage=%{bool}d"
+- "[AngelContext] invalidateSession called, conversationHistoryCount=%ld"
+- "[AngelContext] respondToAskPrompt prompt='%s' isFollowUpParam=%s hasExistingConversation=%{bool}d resolvedIsFollowUp=%{bool}d transcriptCount=%ld"
+- "[AngelContext] sending to LLM image size=%ldx%ld sameAsProvided=%{bool}d"
+- "[AngelContext] storing conversation image size=%ldx%ld"
+
+```

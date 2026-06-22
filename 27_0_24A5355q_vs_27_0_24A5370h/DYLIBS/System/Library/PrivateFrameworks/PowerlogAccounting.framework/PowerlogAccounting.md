@@ -1,0 +1,251 @@
+## PowerlogAccounting
+
+> `/System/Library/PrivateFrameworks/PowerlogAccounting.framework/PowerlogAccounting`
+
+```diff
+
+-3468.0.0.502.1
+-  __TEXT.__text: 0x36420 sha256:0177a12170c598a345667485ba32e31f8f15fcb4b96d3faac3e564122a877b42
+-  __TEXT.__objc_methlist: 0x1c30 sha256:dc9fd1b2cc8ee1f62b4911d5df722064044e1ba432096a4c8c0653e948bf7866
+-  __TEXT.__const: 0x118 sha256:85a709f4d0b6ef39e1e257a2c7bb6b7127799561b1fbb891943ace18314ab527
+-  __TEXT.__cstring: 0x55b3 sha256:0fb26de6b3acf484a9dbc4e739db805447be94d5380862436053e82d454ba402
+-  __TEXT.__oslogstring: 0x1328 sha256:8c91e2267fe0c3121d8d67f20cabc900e68c596f522b903ba59c435ea8e2fc61
++3486.0.21.502.1
++  __TEXT.__text: 0x36604 sha256:765e333b38b2e32c24cd685d3e3fdbf3503639030d2275bad4f4f416dc5adf87
++  __TEXT.__objc_methlist: 0x1c48 sha256:10e5560c00b7e9cab1ba5f34f666a8d4bfad9f3b028dd6710fc3c83d2749d318
++  __TEXT.__const: 0x118 sha256:a05e9433233f497ded4296386a62eeb7d3c9b0b63fa1c31deb03a8a58b1e5e79
++  __TEXT.__cstring: 0x55cb sha256:a4274bc5681c41128a37897e9a9c0268583ea9149ce73f107ad6d98f74974923
++  __TEXT.__oslogstring: 0x13e0 sha256:2c4ba723468ebe9980dddf5f22a4a659a20b6cef448287cad06bf462fdd486ad
+   __TEXT.__gcc_except_tab: 0x180 sha256:ed1b41bab6bc10fab31c5194c4fe765f6cd97cc475b499b6be8278cddbef60c2
+-  __TEXT.__unwind_info: 0x9b0 sha256:ccbc053e02794df179abbde1abf18e983bc95d7595c99898932ba32f3ece83d7
++  __TEXT.__unwind_info: 0x978 sha256:36dc1a01d4efd0b5a35172328e5ffd4be489b2fb40c8f13a61a0c6d41a68963a
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x428 sha256:eda640204762967be9e7610cdb7f96765f38d808fa9e0033224975a42c006131
+-  __DATA_CONST.__objc_classlist: 0x138 sha256:7556d660f43757b71ebfafe86a7df4097c604e01ea411d4e18e54cc3e64e28d4
+-  __DATA_CONST.__objc_nlclslist: 0x98 sha256:5377a5bd7b55d94bf8fa04fa73e320ec583db9046fbd2aeecdf140eba213dd04
+-  __DATA_CONST.__objc_protolist: 0x48 sha256:e6e39e3a7da390154da8227d3d6b2992f622607038867bc894dd3e7f2c9ae349
++  __DATA_CONST.__const: 0x428 sha256:a5c6d7db6caeca7ccf96ee91d10e54f8ae90c968b897d3292e6c6247be50e1a8
++  __DATA_CONST.__objc_classlist: 0x138 sha256:5e20fc701ff4ec2b43ab76e654277e1e052ef7a643456f4ae7a232820f1228de
++  __DATA_CONST.__objc_nlclslist: 0x98 sha256:7b0043a4281b5883dcadbb114b830070c4446b6704384577ddb7071eb6500ea5
++  __DATA_CONST.__objc_protolist: 0x48 sha256:596397249eb4b6355526b6e79ef345c0d91973de6959c18e7a0b5893775bd40e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xe08 sha256:d8e81d94f265c462f21b07a0bad5aa53fe7144ec38d78549122b2c5a2615bc1c
+-  __DATA_CONST.__objc_superrefs: 0x1a8 sha256:8eb2a45ceaf5deb710a30973953840482293bdf3827870e5d7b304a83864b2e8
+-  __DATA_CONST.__objc_arraydata: 0x1570 sha256:5d8e20fcaf97b8a3c00b2f438b5b6068a0c65e2382133559d7dcb04dedb6aab0
+-  __DATA_CONST.__got: 0x3b0 sha256:4a28ebf14bf2de427ebefbc338f95b743b2fbb8fcaf4818e7a6fbfaa46c1c900
+-  __AUTH_CONST.__const: 0x420 sha256:5682d37d664ae295caa2676db864702296f294eb1ecdf12b3307b5fa42fb1516
+-  __AUTH_CONST.__cfstring: 0x31a0 sha256:ae5794d7758fca5cabe73f484507d460f158905897e4a53b5b8c2e0252429bbb
+-  __AUTH_CONST.__objc_const: 0x2960 sha256:b36e1b4f0facb3cf80e05ab5fba8b003ecc545f5cf1ccd2ba8a2e0494d971ec3
+-  __AUTH_CONST.__objc_intobj: 0x780 sha256:aaab05627501bcc64d65fde34fea89e9897d84534664ca7186a25d7a72e61859
+-  __AUTH_CONST.__objc_arrayobj: 0x1e0 sha256:4e7b4f909edae6826ac6085a3f1c8caca45c6e3d5ae8105837b824e5d4bacad4
+-  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:ccf66fc2b4a93de6a740938b98365fed4832d192991364537b876f1b2ba86806
++  __DATA_CONST.__objc_selrefs: 0xe10 sha256:7241bb92ebf814eaea9a47021b483ab6b0bc4542a6784030bb2bf737b664da6f
++  __DATA_CONST.__objc_superrefs: 0x1a8 sha256:152cc415396c8ce5684b44ece54def397a4c3d8100db06f055096a6984390458
++  __DATA_CONST.__objc_arraydata: 0x1570 sha256:3d26d03460fa55d84c80dd82de1044eb634b8bc4fa443e924b14abc2f0e40db9
++  __DATA_CONST.__got: 0x3b0 sha256:3dd206488abf85c96c60813fa38e116b5f96e62b082591d9c37bad561c6ad1b8
++  __AUTH_CONST.__const: 0x440 sha256:91e51f9a9fb587fe5678fc0ee39fc072f85a1b8b29b2c4c7e97d87fafb02943b
++  __AUTH_CONST.__cfstring: 0x31a0 sha256:e2154cd67270b23ef7ec0d3fa01f20be9838229a873e88dc8d267be5029584fe
++  __AUTH_CONST.__objc_const: 0x2970 sha256:6725724316c91ecb12b1566e8cffc48e9eb258c54788346da1376e2b57168d83
++  __AUTH_CONST.__objc_intobj: 0x780 sha256:47dd9818c64593cfdc7fac304608d37a86e141b56a74f2e2c9ef0a9d2aff59a7
++  __AUTH_CONST.__objc_arrayobj: 0x1e0 sha256:08ff671c3b9088da7af793a612814d3b1fe7d38ff03c6a0df4a438d5cd3f94f2
++  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:12538ae33b1b023aa4eb7279a75c29335ee1445156ffa27acd55c41d56f0836a
+   __AUTH_CONST.__auth_got: 0x238 sha256:5203ba4e767d42f262e42eaca774fe88c052b116e47febe72e9dd6183d4bd22f
+   __DATA.__objc_ivar: 0xec sha256:1cc20ac73350657aea52cdd64fec1fa61edc5211ffa32c0c78fea78d6741c1fb
+-  __DATA.__data: 0x360 sha256:17528dbf95bfff9973f0d46738234ceb4b3b3f41536dfb894390a245b05cd724
++  __DATA.__data: 0x360 sha256:0c925a8b02df5691aea3a5febafb1b4f53d9d1b21f8b65386f4c8facfb9f60da
+   __DATA.__bss: 0x12c9 sha256:1f09ebe59fefc392b53155bef20193080ebadc4dcc1804e9adc7feb596b5cd98
+-  __DATA_DIRTY.__objc_data: 0xc30 sha256:ffe740260e206f4cf3aa5796dafbb523f267176cb8aca06125601c253ebaf3e2
++  __DATA_DIRTY.__objc_data: 0xc30 sha256:50fc6eda710c717d7e4c1943c6ca9874acc080c958ba2efc7cbf357848e13b99
+   __DATA_DIRTY.__bss: 0x298 sha256:a9696dcbc2bef81a08d6b1a798091d2b1a49654218d3ebdb12f9b255cbb1476f
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/PowerlogCore.framework/PowerlogCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A1566500-E821-300F-A987-6A597A2AD1CD
+-  Functions: 957
+-  Symbols:   4082
+-  CStrings:  997
++  UUID: 15763C23-FBEA-3F75-8EA6-5BCE325B13AB
++  Functions: 961
++  Symbols:   4092
++  CStrings:  999
+ 
+Symbols:
++ -[PLAccountingDistributionEventForwardEntry requiresOrderedDelivery]
++ -[PLAccountingEngine createEventWithEvent:withActionBlock:].cold.4
++ -[PLAccountingEventEntry requiresOrderedDelivery]
++ GCC_except_table148
++ _PLSubmissionAnalyticsStateSuccess_block_invoke_18.classDebugEnabled.621
++ _PLSubmissionAnalyticsStateSuccess_block_invoke_18.classDebugEnabled.628
++ _PLSubmissionAnalyticsStateSuccess_block_invoke_18.defaultOnce.620
++ _PLSubmissionAnalyticsStateSuccess_block_invoke_18.defaultOnce.627
++ ___112-[PLAccountingEngine addDistributionEventIntervalWithLastDistributionEventForward:withDistributionEventForward:]_block_invoke.494
++ ___114-[PLAccountingEngine addDistributionEventIntervalWithLastDistributionEventBackward:withDistributionEventBackward:]_block_invoke.503
++ ___115-[PLAccountingEngine addQualificationEventIntervalWithLastQualificationEventForward:withQualificationEventForward:]_block_invoke.547
++ ___117-[PLAccountingEngine addQualificationEventIntervalWithLastQualificationEventBackward:withQualificationEventBackward:]_block_invoke.556
++ ___28-[PLAccountingEngine reload]_block_invoke.622
++ ___28-[PLAccountingEngine reload]_block_invoke.629
++ ___53-[PLAccountingEngine chunkWithLastChunkDate:withNow:]_block_invoke.591
++ ___53-[PLAccountingEngine chunkWithLastChunkDate:withNow:]_block_invoke.604
++ ___53-[PLAccountingEngine chunkWithLastChunkDate:withNow:]_block_invoke.616
++ ___59-[PLAccountingEngine createEventWithEvent:withActionBlock:]_block_invoke.477
++ ___59-[PLAccountingEngine createEventWithEvent:withActionBlock:]_block_invoke_3
++ ___66-[PLAccountingEngine reloadLastPowerEventsWithLastDeviceBootDate:]_block_invoke.635
++ ___66-[PLAccountingEngine reloadLastPowerEventsWithLastDeviceBootDate:]_block_invoke.641
++ ___73-[PLAccountingEngine reloadLastDistributionEventsWithLastDeviceBootDate:]_block_invoke.644
++ ___73-[PLAccountingEngine reloadLastDistributionEventsWithLastDeviceBootDate:]_block_invoke.654
++ ___73-[PLAccountingEngine reloadLastDistributionEventsWithLastDeviceBootDate:]_block_invoke.660
++ ___74-[PLAccountingEngine reloadLastQualificationEventsWithLastDeviceBootDate:]_block_invoke.663
++ ___74-[PLAccountingEngine reloadLastQualificationEventsWithLastDeviceBootDate:]_block_invoke.672
++ ___74-[PLAccountingEngine reloadLastQualificationEventsWithLastDeviceBootDate:]_block_invoke.678
++ ___75-[PLAccountingEngine createAggregateRootNodeEnergyEntryWithEnergyEstimate:]_block_invoke.681
++ ___75-[PLAccountingEngine createAggregateRootNodeEnergyEntryWithEnergyEstimate:]_block_invoke.687
++ ___76-[PLAccountingEngine didCreateChildEnergyEstimate:withParentEnergyEstimate:]_block_invoke.513
++ ___76-[PLAccountingEngine didCreateChildEnergyEstimate:withParentEnergyEstimate:]_block_invoke.523
++ ___76-[PLAccountingEngine didCreateChildEnergyEstimate:withParentEnergyEstimate:]_block_invoke.529
++ ___76-[PLAccountingEngine didCreateChildEnergyEstimate:withParentEnergyEstimate:]_block_invoke.535
++ ___78-[PLAccountingEngine addEnergyMeasurementWithRootNodeID:withEnergy:withRange:]_block_invoke.582
++ ___79-[PLAccountingEngine didQualifyEnergyEvent:withRootNodeID:withQualificationID:]_block_invoke.569
++ ___block_literal_global.479
++ ___block_literal_global.481
++ ___block_literal_global.483
++ ___block_literal_global.485
++ ___block_literal_global.515
++ _addDistributionEventIntervalWithLastDistributionEventBackward:withDistributionEventBackward:.classDebugEnabled.502
++ _addDistributionEventIntervalWithLastDistributionEventBackward:withDistributionEventBackward:.defaultOnce.501
++ _addDistributionEventIntervalWithLastDistributionEventForward:withDistributionEventForward:.classDebugEnabled.493
++ _addDistributionEventIntervalWithLastDistributionEventForward:withDistributionEventForward:.defaultOnce.492
++ _addEnergyMeasurementWithRootNodeID:withEnergy:withRange:.classDebugEnabled.581
++ _addEnergyMeasurementWithRootNodeID:withEnergy:withRange:.defaultOnce.580
++ _addQualificationEventIntervalWithLastQualificationEventBackward:withQualificationEventBackward:.classDebugEnabled.555
++ _addQualificationEventIntervalWithLastQualificationEventBackward:withQualificationEventBackward:.defaultOnce.554
++ _addQualificationEventIntervalWithLastQualificationEventForward:withQualificationEventForward:.classDebugEnabled.546
++ _addQualificationEventIntervalWithLastQualificationEventForward:withQualificationEventForward:.defaultOnce.545
++ _chunkWithLastChunkDate:withNow:.classDebugEnabled.590
++ _chunkWithLastChunkDate:withNow:.classDebugEnabled.603
++ _chunkWithLastChunkDate:withNow:.classDebugEnabled.615
++ _chunkWithLastChunkDate:withNow:.defaultOnce.589
++ _chunkWithLastChunkDate:withNow:.defaultOnce.602
++ _chunkWithLastChunkDate:withNow:.defaultOnce.614
++ _createAggregateRootNodeEnergyEntryWithEnergyEstimate:.classDebugEnabled.680
++ _createAggregateRootNodeEnergyEntryWithEnergyEstimate:.classDebugEnabled.686
++ _createAggregateRootNodeEnergyEntryWithEnergyEstimate:.defaultOnce.679
++ _createAggregateRootNodeEnergyEntryWithEnergyEstimate:.defaultOnce.685
++ _didCreateChildEnergyEstimate:withParentEnergyEstimate:.classDebugEnabled.517
++ _didCreateChildEnergyEstimate:withParentEnergyEstimate:.classDebugEnabled.522
++ _didCreateChildEnergyEstimate:withParentEnergyEstimate:.classDebugEnabled.528
++ _didCreateChildEnergyEstimate:withParentEnergyEstimate:.classDebugEnabled.534
++ _didCreateChildEnergyEstimate:withParentEnergyEstimate:.defaultOnce.516
++ _didCreateChildEnergyEstimate:withParentEnergyEstimate:.defaultOnce.521
++ _didCreateChildEnergyEstimate:withParentEnergyEstimate:.defaultOnce.527
++ _didCreateChildEnergyEstimate:withParentEnergyEstimate:.defaultOnce.533
++ _didQualifyEnergyEvent:withRootNodeID:withQualificationID:.classDebugEnabled.568
++ _didQualifyEnergyEvent:withRootNodeID:withQualificationID:.defaultOnce.567
++ _objc_msgSend$requiresOrderedDelivery
++ _reloadLastDistributionEventsWithLastDeviceBootDate:.classDebugEnabled.643
++ _reloadLastDistributionEventsWithLastDeviceBootDate:.classDebugEnabled.653
++ _reloadLastDistributionEventsWithLastDeviceBootDate:.classDebugEnabled.659
++ _reloadLastDistributionEventsWithLastDeviceBootDate:.defaultOnce.642
++ _reloadLastDistributionEventsWithLastDeviceBootDate:.defaultOnce.652
++ _reloadLastDistributionEventsWithLastDeviceBootDate:.defaultOnce.658
++ _reloadLastPowerEventsWithLastDeviceBootDate:.classDebugEnabled.634
++ _reloadLastPowerEventsWithLastDeviceBootDate:.classDebugEnabled.640
++ _reloadLastPowerEventsWithLastDeviceBootDate:.defaultOnce.633
++ _reloadLastPowerEventsWithLastDeviceBootDate:.defaultOnce.639
++ _reloadLastQualificationEventsWithLastDeviceBootDate:.classDebugEnabled.662
++ _reloadLastQualificationEventsWithLastDeviceBootDate:.classDebugEnabled.671
++ _reloadLastQualificationEventsWithLastDeviceBootDate:.classDebugEnabled.677
++ _reloadLastQualificationEventsWithLastDeviceBootDate:.defaultOnce.661
++ _reloadLastQualificationEventsWithLastDeviceBootDate:.defaultOnce.670
++ _reloadLastQualificationEventsWithLastDeviceBootDate:.defaultOnce.676
+- GCC_except_table147
+- _PLSubmissionAnalyticsStateSuccess_block_invoke_18.classDebugEnabled.618
+- _PLSubmissionAnalyticsStateSuccess_block_invoke_18.classDebugEnabled.625
+- _PLSubmissionAnalyticsStateSuccess_block_invoke_18.defaultOnce.617
+- _PLSubmissionAnalyticsStateSuccess_block_invoke_18.defaultOnce.624
+- ___112-[PLAccountingEngine addDistributionEventIntervalWithLastDistributionEventForward:withDistributionEventForward:]_block_invoke.491
+- ___114-[PLAccountingEngine addDistributionEventIntervalWithLastDistributionEventBackward:withDistributionEventBackward:]_block_invoke.500
+- ___115-[PLAccountingEngine addQualificationEventIntervalWithLastQualificationEventForward:withQualificationEventForward:]_block_invoke.544
+- ___117-[PLAccountingEngine addQualificationEventIntervalWithLastQualificationEventBackward:withQualificationEventBackward:]_block_invoke.553
+- ___28-[PLAccountingEngine reload]_block_invoke.619
+- ___28-[PLAccountingEngine reload]_block_invoke.626
+- ___53-[PLAccountingEngine chunkWithLastChunkDate:withNow:]_block_invoke.588
+- ___53-[PLAccountingEngine chunkWithLastChunkDate:withNow:]_block_invoke.601
+- ___53-[PLAccountingEngine chunkWithLastChunkDate:withNow:]_block_invoke.607
+- ___59-[PLAccountingEngine createEventWithEvent:withActionBlock:]_block_invoke.476
+- ___66-[PLAccountingEngine reloadLastPowerEventsWithLastDeviceBootDate:]_block_invoke.632
+- ___66-[PLAccountingEngine reloadLastPowerEventsWithLastDeviceBootDate:]_block_invoke.638
+- ___73-[PLAccountingEngine reloadLastDistributionEventsWithLastDeviceBootDate:]_block_invoke.641
+- ___73-[PLAccountingEngine reloadLastDistributionEventsWithLastDeviceBootDate:]_block_invoke.651
+- ___73-[PLAccountingEngine reloadLastDistributionEventsWithLastDeviceBootDate:]_block_invoke.657
+- ___74-[PLAccountingEngine reloadLastQualificationEventsWithLastDeviceBootDate:]_block_invoke.660
+- ___74-[PLAccountingEngine reloadLastQualificationEventsWithLastDeviceBootDate:]_block_invoke.669
+- ___74-[PLAccountingEngine reloadLastQualificationEventsWithLastDeviceBootDate:]_block_invoke.675
+- ___75-[PLAccountingEngine createAggregateRootNodeEnergyEntryWithEnergyEstimate:]_block_invoke.678
+- ___75-[PLAccountingEngine createAggregateRootNodeEnergyEntryWithEnergyEstimate:]_block_invoke.684
+- ___76-[PLAccountingEngine didCreateChildEnergyEstimate:withParentEnergyEstimate:]_block_invoke.510
+- ___76-[PLAccountingEngine didCreateChildEnergyEstimate:withParentEnergyEstimate:]_block_invoke.520
+- ___76-[PLAccountingEngine didCreateChildEnergyEstimate:withParentEnergyEstimate:]_block_invoke.526
+- ___76-[PLAccountingEngine didCreateChildEnergyEstimate:withParentEnergyEstimate:]_block_invoke.532
+- ___78-[PLAccountingEngine addEnergyMeasurementWithRootNodeID:withEnergy:withRange:]_block_invoke.579
+- ___79-[PLAccountingEngine didQualifyEnergyEvent:withRootNodeID:withQualificationID:]_block_invoke.566
+- ___block_literal_global.478
+- ___block_literal_global.480
+- ___block_literal_global.482
+- ___block_literal_global.512
+- _addDistributionEventIntervalWithLastDistributionEventBackward:withDistributionEventBackward:.classDebugEnabled.499
+- _addDistributionEventIntervalWithLastDistributionEventBackward:withDistributionEventBackward:.defaultOnce.498
+- _addDistributionEventIntervalWithLastDistributionEventForward:withDistributionEventForward:.classDebugEnabled.490
+- _addDistributionEventIntervalWithLastDistributionEventForward:withDistributionEventForward:.defaultOnce.489
+- _addEnergyMeasurementWithRootNodeID:withEnergy:withRange:.classDebugEnabled.578
+- _addEnergyMeasurementWithRootNodeID:withEnergy:withRange:.defaultOnce.577
+- _addQualificationEventIntervalWithLastQualificationEventBackward:withQualificationEventBackward:.classDebugEnabled.552
+- _addQualificationEventIntervalWithLastQualificationEventBackward:withQualificationEventBackward:.defaultOnce.551
+- _addQualificationEventIntervalWithLastQualificationEventForward:withQualificationEventForward:.classDebugEnabled.543
+- _addQualificationEventIntervalWithLastQualificationEventForward:withQualificationEventForward:.defaultOnce.542
+- _chunkWithLastChunkDate:withNow:.classDebugEnabled.587
+- _chunkWithLastChunkDate:withNow:.classDebugEnabled.600
+- _chunkWithLastChunkDate:withNow:.classDebugEnabled.606
+- _chunkWithLastChunkDate:withNow:.defaultOnce.586
+- _chunkWithLastChunkDate:withNow:.defaultOnce.599
+- _chunkWithLastChunkDate:withNow:.defaultOnce.605
+- _createAggregateRootNodeEnergyEntryWithEnergyEstimate:.classDebugEnabled.677
+- _createAggregateRootNodeEnergyEntryWithEnergyEstimate:.classDebugEnabled.683
+- _createAggregateRootNodeEnergyEntryWithEnergyEstimate:.defaultOnce.676
+- _createAggregateRootNodeEnergyEntryWithEnergyEstimate:.defaultOnce.682
+- _didCreateChildEnergyEstimate:withParentEnergyEstimate:.classDebugEnabled.514
+- _didCreateChildEnergyEstimate:withParentEnergyEstimate:.classDebugEnabled.519
+- _didCreateChildEnergyEstimate:withParentEnergyEstimate:.classDebugEnabled.525
+- _didCreateChildEnergyEstimate:withParentEnergyEstimate:.classDebugEnabled.531
+- _didCreateChildEnergyEstimate:withParentEnergyEstimate:.defaultOnce.513
+- _didCreateChildEnergyEstimate:withParentEnergyEstimate:.defaultOnce.518
+- _didCreateChildEnergyEstimate:withParentEnergyEstimate:.defaultOnce.524
+- _didCreateChildEnergyEstimate:withParentEnergyEstimate:.defaultOnce.530
+- _didQualifyEnergyEvent:withRootNodeID:withQualificationID:.classDebugEnabled.565
+- _didQualifyEnergyEvent:withRootNodeID:withQualificationID:.defaultOnce.564
+- _reloadLastDistributionEventsWithLastDeviceBootDate:.classDebugEnabled.640
+- _reloadLastDistributionEventsWithLastDeviceBootDate:.classDebugEnabled.650
+- _reloadLastDistributionEventsWithLastDeviceBootDate:.classDebugEnabled.656
+- _reloadLastDistributionEventsWithLastDeviceBootDate:.defaultOnce.639
+- _reloadLastDistributionEventsWithLastDeviceBootDate:.defaultOnce.649
+- _reloadLastDistributionEventsWithLastDeviceBootDate:.defaultOnce.655
+- _reloadLastPowerEventsWithLastDeviceBootDate:.classDebugEnabled.631
+- _reloadLastPowerEventsWithLastDeviceBootDate:.classDebugEnabled.637
+- _reloadLastPowerEventsWithLastDeviceBootDate:.defaultOnce.630
+- _reloadLastPowerEventsWithLastDeviceBootDate:.defaultOnce.636
+- _reloadLastQualificationEventsWithLastDeviceBootDate:.classDebugEnabled.659
+- _reloadLastQualificationEventsWithLastDeviceBootDate:.classDebugEnabled.668
+- _reloadLastQualificationEventsWithLastDeviceBootDate:.classDebugEnabled.674
+- _reloadLastQualificationEventsWithLastDeviceBootDate:.defaultOnce.658
+- _reloadLastQualificationEventsWithLastDeviceBootDate:.defaultOnce.667
+- _reloadLastQualificationEventsWithLastDeviceBootDate:.defaultOnce.673
+CStrings:
++ "[FORWARD_RACE PLAccountingEngine] Out-of-order delivery detected and resolved: superseding last event (entryID=%lld, distributionID=%d) with new event in-place at startDate=%{public}@"
++ "accounting_forward_race"
+
+```

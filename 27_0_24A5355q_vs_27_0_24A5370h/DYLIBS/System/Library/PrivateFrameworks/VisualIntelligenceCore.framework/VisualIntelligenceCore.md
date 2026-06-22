@@ -1,0 +1,901 @@
+## VisualIntelligenceCore
+
+> `/System/Library/PrivateFrameworks/VisualIntelligenceCore.framework/VisualIntelligenceCore`
+
+```diff
+
+-206.0.103.0.0
+-  __TEXT.__text: 0x565c9c sha256:5fd0c78e956ffca68ccff85b5983c1e66cabd942d506b47b3545f67d9cc8ba7c
+-  __TEXT.__objc_methlist: 0x1848 sha256:290e127e9016230bbe660a326c443e620f32fd1e56f8b527ed9b817c1cf4178d
+-  __TEXT.__const: 0x4864c sha256:cfea7541fe656c20051ea9bc8d9a422cf15d985008b152daf4a50d7dfca18432
+-  __TEXT.__swift5_typeref: 0x103f3 sha256:f4254e6e916b10e1dc4fde23971e0cefc0d15ffa240c07fc56ee3188e4389259
+-  __TEXT.__swift5_capture: 0x1fd0 sha256:9d26d9aa542396788f8c180e5cf3442e7e132cdadbdc070c87989b71a46823fb
+-  __TEXT.__constg_swiftt: 0xd534 sha256:09ed64caa42c87eb56a1aade74a3139a1faa65ca596a08f4270322da9553a87e
+-  __TEXT.__swift5_builtin: 0x460 sha256:85a0968ca7d71e4377d33aea1b41760595a31e9ccb5cce4a6e95ca2cb86af458
+-  __TEXT.__swift5_reflstr: 0x9d03 sha256:e501fb8c54b7ead2a653c945f4a927cb1b19db0f301d6cb63cfec7fab47f145f
+-  __TEXT.__swift5_fieldmd: 0xf214 sha256:d78956dc83c580df3da89c85ae2933c3defbbe5718acb9967d01fc46e6797142
+-  __TEXT.__swift5_assocty: 0x1560 sha256:a2129c6c06ba2ad4015137178b63c47c23425f835819fbe37cc882811b23f2e1
+-  __TEXT.__swift5_proto: 0x3ffc sha256:d3fa95a64bcaf256f43a00c5246b77f649b51b494507cdc7ab27583ebd78f1c9
+-  __TEXT.__swift5_types: 0x11d8 sha256:f69ba4d7f0730cd946fc6283717edda2e34ea6d5f464bdefb0f67bd94cf26e74
+-  __TEXT.__cstring: 0x1f21f sha256:5ba0b2e5f5819e8cc48d5497391fb8583d3b59e54985cafbbaefcd1b4451fe23
+-  __TEXT.__oslogstring: 0x9e66 sha256:a304493f6d837c841771afae17ea2bba0b43402d5d6a85f132feed0385d0568f
+-  __TEXT.__swift_as_entry: 0x7dc sha256:076ea8a32ca673a0f72b48b5f112083e805b9f88c9f408a481ca1d6cf2b5536a
+-  __TEXT.__swift_as_ret: 0x894 sha256:5883d665228884bbcfc2aca0423e73541ffc3941c37c2ca885a54f58f59c32bf
+-  __TEXT.__swift_as_cont: 0x13ac sha256:fbb86a679ddc6e7010c8fc38d81425e767cf2d93903a4f8369fdaadc41aa6732
+-  __TEXT.__swift5_mpenum: 0x144 sha256:ee84e3cba93c77847bf2936c8506701c9ea79a967d1491e1bc2a6f2e71d33322
+-  __TEXT.__swift5_protos: 0x124 sha256:6ebefe82094096141356273ac7d952afb8e2df5a120275e49fe1bc572e636b31
++216.0.100.0.0
++  __TEXT.__text: 0x58a8c4 sha256:8ae689fff802fe5590060df59781ebbf7c9c833ab4a5ec1931c938222eaf4a95
++  __TEXT.__lazy_helpers: 0x1ddc sha256:3d7a850870794899c535a10fc64777c167a4e14a6c1c4f10ab725e7f42344c8d
++  __TEXT.__objc_methlist: 0x186c sha256:540a3bcb0b5e95a4eeb4d1e7617af4381ae6c4dfa25e6200a8d1a537b350e057
++  __TEXT.__const: 0x48cfc sha256:5ad6e610a3cb318e9c9b8b320261b614e6b650ed321a6e6669068ca89103781d
++  __TEXT.__swift5_typeref: 0x1065b sha256:99719637383867017828501fd263c671a48d6eae1fc4964dac13c0d50bef7992
++  __TEXT.__swift5_capture: 0x20d8 sha256:01756fba6b3752e7b6dd1cee6e6ecdf566bc5e277d30c47de7b03be538b5cc98
++  __TEXT.__constg_swiftt: 0xd718 sha256:9cc917fdd71cc361436969817d33e0e9ac32e4f22ca8c1ce7fda2e88dbfea7cf
++  __TEXT.__swift5_reflstr: 0x9ec3 sha256:ca94004b21ecf30566333283a8f95f47fe7db2a5cb153700919a4acb9b6e0f9d
++  __TEXT.__swift5_fieldmd: 0xf4d4 sha256:21c4b1c496402dbceaeb439370b23a1735efa5d74b7bc9b1d9fe940bffe70d0e
++  __TEXT.__swift5_builtin: 0x49c sha256:5b27f129bc90e40bf2bbefe9262504947cc240e59e03d18790478dfd8dcf6055
++  __TEXT.__swift5_assocty: 0x1578 sha256:685b6180d7ace09f86ffa73b709af0c2433b2d6bddb0a5b792512978a52d6864
++  __TEXT.__cstring: 0xe7ef sha256:fb7243d6a26509b5cae7fa8771292aa9d08563182fc8f5263d6dc06b3afe015a
++  __TEXT.__swift5_proto: 0x4010 sha256:6f7174ae8f564bc4bee6cd39b7548130309b35b458ea3cbaa278f8d8304e1899
++  __TEXT.__swift5_types: 0x1204 sha256:acc00a097cff11aaa51034b92a905560c9f0d47c53a3f4c35f821d5051f71bcd
++  __TEXT.__swift5_protos: 0x128 sha256:cee603cc76a5dd6799dac268b126114528b2d0004ac01d74a03cc641bdef396a
++  __TEXT.__oslogstring: 0xa296 sha256:f129da85a2b4ea0542b71f8e70b223c98d92a2ab20ec56c51a846cfdb33195e3
++  __TEXT.__swift5_mpenum: 0x16c sha256:b19b0e0af5cf2e2430dae4e89b50a03c2202efbaf6af87347d696063d03aa31b
++  __TEXT.__swift_as_entry: 0x804 sha256:641b0e2b926eb39060d4cbc6c66dd61079c0f0374414955a2f5a919716f92a47
++  __TEXT.__swift_as_ret: 0x8c0 sha256:70ffa540eb5d388f2be46dc6aab222912f1b0362f17bff151362111e524fcadc
++  __TEXT.__swift_as_cont: 0x13d8 sha256:d48dbc36414bb2b95aaaf0585d2cc0550cc47c13d7c31f11074073196e1dac79
+   __TEXT.__gcc_except_tab: 0x18 sha256:fb7971285a02a56f6b20840285f0f0c5552cb43c2848288abeb5b0e66af85250
+   __TEXT.__dlopen_cstrs: 0x58 sha256:34e7673f24af6863cbb9a1d410bd67baeb6d4ac75b3461a6aa389fd2944ff5e4
+-  __TEXT.__swift5_types2: 0x4 sha256:3fcebff12445c406aed103e1c691d3cc1b2cfcf3a179799fb159d5648e66f752
+-  __TEXT.__unwind_info: 0x11138 sha256:e0f0ed9d71b5a1a9e173aa44955e3a153032781e1fe7f01b9c8bcfce73cbf10b
+-  __TEXT.__eh_frame: 0x1f660 sha256:e26ade752a01554a73f2a1564b0ed84438c97fef4f0bf1df1e65346cccbfea88
++  __TEXT.__swift5_types2: 0x4 sha256:5ac0dd8c1a974fab0e89faeae832fd4ce9b41cada70fd81df12f110d52a86964
++  __TEXT.__unwind_info: 0x11148 sha256:bbfbe8d1acd40bb9b29b0f081520d2b64903a8e73cfb9f95e4ac7e9d6a6189eb
++  __TEXT.__eh_frame: 0x1fd00 sha256:19aaf43bb31247e5a5d9fdc299dda815a30af11d729d6fc7829724c491d5bf7f
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x8b8 sha256:51032aca4d466de442d25b9fc1632a19e25fd139c585a23f1b9c3050e2417a0c
+-  __DATA_CONST.__objc_classlist: 0x278 sha256:522b0a75c12f16cb3cd69d784d70192cfc4a2a2d639bdca9f43b845006a586c0
+-  __DATA_CONST.__objc_protolist: 0xb0 sha256:13223009da86e80be5ef6ccc549526431f1a97961f54c80f728f356cf76288be
++  __DATA_CONST.__const: 0x970 sha256:d61251ee0a0bdb6ad1215239b1e7e141905353463b5f7a6a860dcf8f4dbef70c
++  __DATA_CONST.__objc_classlist: 0x268 sha256:2fe6858c7870f7e4da8d626055036c884bacf22e20768f66d74fdbe6d8626839
++  __DATA_CONST.__objc_protolist: 0xb0 sha256:1178e5578207dd0e2ce097d8dc4739c1eda128206f2ec96ff1101e693cc7163e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x1728 sha256:b84a061012c90cd71c3d9e1b777030814c412771602816b8675f702f86ea4ef4
+-  __DATA_CONST.__objc_protorefs: 0x58 sha256:f5875b79a22f50e56b058d5ccb95e4b6173bec1705fa3d35e53a2fbde6ec5e81
+-  __DATA_CONST.__got: 0x1f20 sha256:9ce97e38446f86bec40ee3a052fd3bb81b942d79b7cfb7103fd8b0280d8c820d
+-  __AUTH_CONST.__const: 0x274e8 sha256:66d07de3f535a2ab56ac52ed79ed5fc5ea0cf031478a519538af0ea07ab3a94d
+-  __AUTH_CONST.__cfstring: 0x80 sha256:61b1d56926f0a7a8fbe666959b582916c63717018139b7767fb322741d35c0f5
+-  __AUTH_CONST.__objc_const: 0xd028 sha256:9a0ec8d6dd161e7d3c943937f94e8ca33448bc2f6a2b791e0e35aa613ab3e0b1
+-  __AUTH_CONST.__auth_got: 0x3ab0 sha256:69f3832304adf63d6090d664568ae6200f988fe3dfe0a20265909a3fef0095f2
+-  __AUTH.__objc_data: 0x488 sha256:0861459995acab2afd5f2d33244c0edc6ccab412ec763f3cd1359dfe9839dfa9
+-  __AUTH.__data: 0x37f0 sha256:ccc41eff9133c6016da8061c53fd626f8a76e9ec28fdd784014a2a31ae7836d7
+-  __DATA.__data: 0xad40 sha256:118c0408017f0a0e4de585f8438eed06483633643af992122635690b6e202fb0
+-  __DATA.__bss: 0x6cb40 sha256:1d7818af513201233344b09cd3e208c97a2b8b1a1fcc1447b1ee141bd16e5c74
+-  __DATA.__common: 0xe4 sha256:fb678f67aea5293efa9930a41b828fdfb475dc2b427628588640e080884f0e45
+-  __DATA_DIRTY.__objc_data: 0xb50 sha256:a4aa65a1dd5148606744f9d57bb116b63b688893f29faf3ca80d7851f637a5a1
+-  __DATA_DIRTY.__data: 0x9e48 sha256:abb1d80644484b24da9005799c582c88fea42d16a1a3876c0e5a15ef703a9ad2
++  __DATA_CONST.__objc_selrefs: 0x1758 sha256:762fcfcc6c5478d2d0f55d67221acabac5f99ef7759b20ca9190fcda727d7169
++  __DATA_CONST.__objc_protorefs: 0x58 sha256:7d3d5953225a4c40eb1caee2e2227ccbc4d6dff65f35c1ffb842afbb389bb716
++  __DATA_CONST.__got: 0x1e20 sha256:73674a9f69732a1a43ca8cda0ad7157bfdeec491f8c9234c4662cd2310b74353
++  __AUTH_CONST.__const: 0x27ba0 sha256:1d5cc3525e4810a5e21fc354b4d7e105c33964819337ef020f09aab6ba1774ca
++  __AUTH_CONST.__cfstring: 0x80 sha256:45229cc69d421e3bd522ce3965aae8eece35268e919188fbd609916292f47365
++  __AUTH_CONST.__objc_const: 0xce78 sha256:b55f7dd2bb9842478dfded1d8001159635a81cd6b03ce5aedad3558eddf3841d
++  __AUTH_CONST.__lazy_load_got: 0x260 sha256:e2bf7b8ccb3c0df7a2e2853c25a1ab6a0b1edce1e8fd981328efc26a45fc5f86
++  __AUTH_CONST.__auth_got: 0x3b10 sha256:352bca84c192388d4faa7d9b27b67620df069ff526f9965f9dabfb83896ad349
++  __AUTH.__objc_data: 0x4d8 sha256:0d47ea4abe5a9ad29b2111e2776005401a0ca00f15b43703f97cd1cd4a8861b0
++  __AUTH.__data: 0x39f8 sha256:83d0e6631c639b4f7cc1a72177856c082820bc099319e83d5f8d9439608eb188
++  __DATA.__data: 0xb0b0 sha256:9c61d522d1cc6d91de954195ce6b9a0b5278021f90a5e6ab49a6b3bbafee93ad
++  __DATA.__bss: 0x6cd40 sha256:3c1e51390d30bc0c1125f46cc73d217c138d3e0dd181da6bc61fe09e40b5795c
++  __DATA.__common: 0xec sha256:207917dc40abfe615add0b459890d82014421c5255629382e2063e11391e5290
++  __DATA_DIRTY.__objc_data: 0xb60 sha256:5dd983b71090171f38243a95dce6d6025733fa74e4028fce3899f98f114c6367
++  __DATA_DIRTY.__data: 0x9d48 sha256:ade56b850dd6240c89c7392fe0e4fdea3f80e4e265ee109943c0e6bc11f0ca42
+   __DATA_DIRTY.__bss: 0xef90 sha256:264b32590995471e153f276941f9250c11fdb1f9f00229d19ac97c111eeb34a7
+   __DATA_DIRTY.__common: 0x188 sha256:3eefc4790b52024832ea4c03c6e7a781f3ef9416866a959b2777fce101ad9d61
+-  - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/Frameworks/CoreImage.framework/CoreImage
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+-  - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+-  - /System/Library/Frameworks/CoreText.framework/CoreText
+   - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/GeoToolbox.framework/GeoToolbox
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+-  - /System/Library/Frameworks/MapKit.framework/MapKit
+   - /System/Library/Frameworks/Metal.framework/Metal
+-  - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
+   - /System/Library/Frameworks/Network.framework/Network
+-  - /System/Library/Frameworks/Photos.framework/Photos
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
+   - /System/Library/Frameworks/Vision.framework/Vision
+   - /System/Library/Frameworks/_GeoToolbox_AppIntents.framework/_GeoToolbox_AppIntents
+   - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+-  - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
++  - /System/Library/PrivateFrameworks/AgentSessionKit.framework/AgentSessionKit
+   - /System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/AsyncAlgorithmsInternal
+   - /System/Library/PrivateFrameworks/AtomicsInternal.framework/AtomicsInternal
+   - /System/Library/PrivateFrameworks/BarcodeSupport.framework/BarcodeSupport
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+   - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
+   - /System/Library/PrivateFrameworks/CampoServices.framework/CampoServices
+-  - /System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore
+   - /System/Library/PrivateFrameworks/Espresso.framework/Espresso
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/FeedbackService.framework/FeedbackService
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/FusionTracker.framework/FusionTracker
+-  - /System/Library/PrivateFrameworks/GenerativeAssistantSettings.framework/GenerativeAssistantSettings
+   - /System/Library/PrivateFrameworks/GenerativeFunctions.framework/GenerativeFunctions
+   - /System/Library/PrivateFrameworks/GenerativeFunctionsFoundation.framework/GenerativeFunctionsFoundation
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+   - /System/Library/PrivateFrameworks/GenerativeModelsFoundation.framework/GenerativeModelsFoundation
+   - /System/Library/PrivateFrameworks/GenerativePartnerService.framework/GenerativePartnerService
+-  - /System/Library/PrivateFrameworks/GeoAnalytics.framework/GeoAnalytics
+-  - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
+-  - /System/Library/PrivateFrameworks/Lexicon.framework/Lexicon
+   - /System/Library/PrivateFrameworks/LinkMetadata.framework/LinkMetadata
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+-  - /System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/ModelCatalog.framework/ModelCatalog
+   - /System/Library/PrivateFrameworks/ModelManagerServices.framework/ModelManagerServices
+
+   - /System/Library/PrivateFrameworks/PromptKit.framework/PromptKit
+   - /System/Library/PrivateFrameworks/Sage.framework/Sage
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+-  - /System/Library/PrivateFrameworks/SiriActivation.framework/SiriActivation
+-  - /System/Library/PrivateFrameworks/SiriReaderServices.framework/SiriReaderServices
+   - /System/Library/PrivateFrameworks/SiriTTSService.framework/SiriTTSService
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+-  - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+-  - /System/Library/PrivateFrameworks/TextComposer.framework/TextComposer
+   - /System/Library/PrivateFrameworks/TextRecognition.framework/TextRecognition
+   - /System/Library/PrivateFrameworks/TextUnderstanding.framework/TextUnderstanding
+   - /System/Library/PrivateFrameworks/TokenGeneration.framework/TokenGeneration
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EE286C2C-D938-3029-9DB2-E67321DBE03A
+-  Functions: 22965
+-  Symbols:   8815
+-  CStrings:  2083
++  UUID: 9B289D63-6238-3923-A9D0-5838A6DA3346
++  Functions: 23238
++  Symbols:   9124
++  CStrings:  2106
+ 
+Symbols:
++ _AFMontaraRestricted$lazyAuthGOT_IA_ad_0
++ _AFMontaraRestricted$lazyLoadStub
++ _CGContextFillRect
++ _CTFontCreateUIFontForLanguage$lazyAuthGOT_IA_ad_0
++ _CTFontCreateUIFontForLanguage$lazyLoadStub
++ _CTFontCreateWithName$lazyAuthGOT_IA_ad_0
++ _CTFontCreateWithName$lazyLoadStub
++ _CTFrameDraw$lazyAuthGOT_IA_ad_0
++ _CTFrameDraw$lazyLoadStub
++ _CTFramesetterCreateFrame$lazyAuthGOT_IA_ad_0
++ _CTFramesetterCreateFrame$lazyLoadStub
++ _CTFramesetterCreateWithAttributedString$lazyAuthGOT_IA_ad_0
++ _CTFramesetterCreateWithAttributedString$lazyLoadStub
++ _CTLineCreateWithAttributedString$lazyAuthGOT_IA_ad_0
++ _CTLineCreateWithAttributedString$lazyLoadStub
++ _CTLineDraw$lazyAuthGOT_IA_ad_0
++ _CTLineDraw$lazyLoadStub
++ _CTLineGetBoundsWithOptions$lazyAuthGOT_IA_ad_0
++ _CTLineGetBoundsWithOptions$lazyLoadStub
++ _DDResultIsValidPhoneNumberString$lazyAuthGOT_IA_ad_0
++ _DDResultIsValidPhoneNumberString$lazyLoadStub
++ _DDResultSetCurrentDateForExtraction$lazyAuthGOT_IA_ad_0
++ _DDResultSetCurrentDateForExtraction$lazyLoadStub
++ _GEOBearingFromCoordinateToCoordinate$lazyAuthGOT_IA_ad_0
++ _GEOBearingFromCoordinateToCoordinate$lazyLoadStub
++ _LXCreateWordModerationLexicon$lazyAuthGOT_IA_ad_0
++ _LXCreateWordModerationLexicon$lazyLoadStub
++ _LXEntryGetMetaFlags$lazyAuthGOT_IA_ad_0
++ _LXEntryGetMetaFlags$lazyLoadStub
++ _LXLexiconEnumerateEntriesForString$lazyAuthGOT_IA_ad_0
++ _LXLexiconEnumerateEntriesForString$lazyLoadStub
++ _NLLanguageHebrew$lazyGOT
++ _NLLanguageHebrew$lazyGOT$loadHelper_x8
++ _NLLanguageIndonesian$lazyGOT
++ _NLLanguageIndonesian$lazyGOT$loadHelper_x8
++ _NLLanguageMongolian$lazyGOT
++ _NLLanguageMongolian$lazyGOT$loadHelper_x8
++ _NLLanguagePunjabi$lazyGOT
++ _NLLanguagePunjabi$lazyGOT$loadHelper_x8
++ _NLLanguageSimplifiedChinese$lazyGOT
++ _NLLanguageSimplifiedChinese$lazyGOT$loadHelper_x8
++ _NLLanguageTraditionalChinese$lazyGOT
++ _NLLanguageTraditionalChinese$lazyGOT$loadHelper_x8
++ _NLLanguageUndetermined$lazyGOT
++ _NLLanguageUndetermined$lazyGOT$loadHelper_x8
++ _NSURLContentModificationDateKey
++ _OBJC_CLASS_$_AFPreferences$lazyGOT
++ _OBJC_CLASS_$_AFPreferences$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_AFSystemAssistantExperienceStatusManager$lazyGOT
++ _OBJC_CLASS_$_AFSystemAssistantExperienceStatusManager$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_CTCarrier$lazyGOT
++ _OBJC_CLASS_$_CTCarrier$lazyGOT$loadHelper_x2
++ _OBJC_CLASS_$_CTTelephonyNetworkInfo$lazyGOT
++ _OBJC_CLASS_$_CTTelephonyNetworkInfo$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_DDScannerResult$lazyGOT
++ _OBJC_CLASS_$_DDScannerResult$lazyGOT$loadHelper_x2
++ _OBJC_CLASS_$_DDScannerResult$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_DDScannerService$lazyGOT
++ _OBJC_CLASS_$_DDScannerService$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_GEOAPPortal$lazyGOT
++ _OBJC_CLASS_$_GEOAPPortal$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_GEOButtonItem$lazyGOT
++ _OBJC_CLASS_$_GEOButtonItem$lazyGOT$loadHelper_x2
++ _OBJC_CLASS_$_GEOButtonItemGroup$lazyGOT
++ _OBJC_CLASS_$_GEOButtonItemGroup$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_GEOCountryConfiguration$lazyGOT
++ _OBJC_CLASS_$_GEOCountryConfiguration$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_GEOLocation$lazyGOT
++ _OBJC_CLASS_$_GEOLocation$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_GEOMapItemIdentifier$lazyGOT
++ _OBJC_CLASS_$_GEOMapItemIdentifier$lazyGOT$loadHelper_x2
++ _OBJC_CLASS_$_GEOMapItemIdentifier$lazyGOT$loadHelper_x21
++ _OBJC_CLASS_$_GEOMapItemIdentifier$lazyGOT$loadHelper_x24
++ _OBJC_CLASS_$_GEOMapItemIdentifier$lazyGOT$loadHelper_x25
++ _OBJC_CLASS_$_GEOMapService$lazyGOT
++ _OBJC_CLASS_$_GEOMapService$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_GEOModule$lazyGOT
++ _OBJC_CLASS_$_GEOModule$lazyGOT$loadHelper_x2
++ _OBJC_CLASS_$_MKMapItem$lazyGOT
++ _OBJC_CLASS_$_MKMapItem$lazyGOT$loadHelper_x21
++ _OBJC_CLASS_$_MKMapItem$lazyGOT$loadHelper_x24
++ _OBJC_CLASS_$_MKMapItem$lazyGOT$loadHelper_x26
++ _OBJC_CLASS_$_MKMapItem$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_MKMapItemIdentifier$lazyGOT
++ _OBJC_CLASS_$_MKMapItemIdentifier$lazyGOT$loadHelper_x2
++ _OBJC_CLASS_$_MKMapItemIdentifier$lazyGOT$loadHelper_x23
++ _OBJC_CLASS_$_MKMapItemIdentifier$lazyGOT$loadHelper_x26
++ _OBJC_CLASS_$_MKMapItemIdentifier$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_MRDestination$lazyGOT
++ _OBJC_CLASS_$_MRDestination$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_MRNowPlayingController$lazyGOT
++ _OBJC_CLASS_$_MRNowPlayingController$lazyGOT$loadHelper_x2
++ _OBJC_CLASS_$_MRNowPlayingController$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_NLLanguageRecognizer$lazyGOT
++ _OBJC_CLASS_$_NLLanguageRecognizer$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_NLTokenizer$lazyGOT
++ _OBJC_CLASS_$_NLTokenizer$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_PHAsset$lazyGOT
++ _OBJC_CLASS_$_PHAsset$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_PHAssetCreationRequest$lazyGOT
++ _OBJC_CLASS_$_PHAssetCreationRequest$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_PHAssetResource$lazyGOT
++ _OBJC_CLASS_$_PHAssetResource$lazyGOT$loadHelper_x20
++ _OBJC_CLASS_$_PHAssetResource$lazyGOT$loadHelper_x21
++ _OBJC_CLASS_$_PHCloudIdentifier$lazyGOT
++ _OBJC_CLASS_$_PHCloudIdentifier$lazyGOT$loadHelper_x2
++ _OBJC_CLASS_$_PHCloudIdentifier$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_PHPhotoLibrary$lazyGOT
++ _OBJC_CLASS_$_PHPhotoLibrary$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_PHPhotoLibraryIdentifier$lazyGOT
++ _OBJC_CLASS_$_PHPhotoLibraryIdentifier$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_PHPhotoLibraryManager$lazyGOT
++ _OBJC_CLASS_$_PHPhotoLibraryManager$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_PHPhotoLibraryOpenOptions$lazyGOT
++ _OBJC_CLASS_$_PHPhotoLibraryOpenOptions$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_SiriDirectActionSource$lazyGOT
++ _OBJC_CLASS_$_SiriDirectActionSource$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_SiriReaderConnection$lazyGOT
++ _OBJC_CLASS_$_SiriReaderConnection$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_SiriSimpleActivationSource$lazyGOT
++ _OBJC_CLASS_$_SiriSimpleActivationSource$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_TCTextCompositionAssistant$lazyGOT
++ _OBJC_CLASS_$_TCTextCompositionAssistant$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_TCTextCompositionCalendarEventGenerationInput$lazyGOT
++ _OBJC_CLASS_$_TCTextCompositionCalendarEventGenerationInput$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_TCTextCompositionOCRTextBlockCoordinate$lazyGOT
++ _OBJC_CLASS_$_TCTextCompositionOCRTextBlockCoordinate$lazyGOT$loadHelper_x2
++ _OBJC_CLASS_$_TCTextCompositionOCRTextBlockCoordinate$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_TCTextCompositionOCRTextBoundingBox$lazyGOT
++ _OBJC_CLASS_$_TCTextCompositionOCRTextBoundingBox$lazyGOT$loadHelper_x2
++ _OBJC_CLASS_$_TCTextCompositionOCRTextBoundingBox$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_TUCall$lazyGOT
++ _OBJC_CLASS_$_TUCall$lazyGOT$loadHelper_x2
++ _OBJC_CLASS_$_TUCallCenter$lazyGOT
++ _OBJC_CLASS_$_TUCallCenter$lazyGOT$loadHelper_x20
++ _OBJC_CLASS_$_VNSession
++ _OBJC_CLASS_$__MKLocalizedHoursBuilder$lazyGOT
++ _OBJC_CLASS_$__MKLocalizedHoursBuilder$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$__MKLocationShifter$lazyGOT
++ _OBJC_CLASS_$__MKLocationShifter$lazyGOT$loadHelper_x8
++ _TCTextCompositionAssistantFeatureTypeCalendarEventGeneration$lazyGOT
++ _TCTextCompositionAssistantFeatureTypeCalendarEventGeneration$lazyGOT$loadHelper_x8
++ _TCTextCompositionAssistantOptionKeyContentWarning$lazyGOT
++ _TCTextCompositionAssistantOptionKeyContentWarning$lazyGOT$loadHelper_x8
++ ___swift__destructor.134
++ ___swift__destructor.193
++ ___swift__destructor.206
++ ___swift__destructor.256
++ ___swift__destructor.279
++ ___swift__destructor.306
++ ___swift__destructor.320
++ ___swift__destructor.57
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.133
++ ___swift_closure_destructor.137
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.148
++ ___swift_closure_destructor.152
++ ___swift_closure_destructor.157
++ ___swift_closure_destructor.159
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.175
++ ___swift_closure_destructor.176
++ ___swift_closure_destructor.179
++ ___swift_closure_destructor.183
++ ___swift_closure_destructor.187
++ ___swift_closure_destructor.188
++ ___swift_closure_destructor.18Tm
++ ___swift_closure_destructor.196
++ ___swift_closure_destructor.196Tm
++ ___swift_closure_destructor.200
++ ___swift_closure_destructor.209Tm
++ ___swift_closure_destructor.213
++ ___swift_closure_destructor.218
++ ___swift_closure_destructor.219
++ ___swift_closure_destructor.224
++ ___swift_closure_destructor.228
++ ___swift_closure_destructor.236Tm
++ ___swift_closure_destructor.238
++ ___swift_closure_destructor.242
++ ___swift_closure_destructor.244
++ ___swift_closure_destructor.249
++ ___swift_closure_destructor.263
++ ___swift_closure_destructor.268
++ ___swift_closure_destructor.274
++ ___swift_closure_destructor.280
++ ___swift_closure_destructor.284
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.290
++ ___swift_closure_destructor.300
++ ___swift_closure_destructor.309
++ ___swift_closure_destructor.313
++ ___swift_closure_destructor.323
++ ___swift_closure_destructor.327
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.334
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.475
++ ___swift_closure_destructor.478
++ ___swift_closure_destructor.486
++ ___swift_closure_destructor.496
++ ___swift_closure_destructor.500
++ ___swift_closure_destructor.505
++ ___swift_closure_destructor.509
++ ___swift_closure_destructor.51Tm
++ ___swift_closure_destructor.521
++ ___swift_closure_destructor.524
++ ___swift_closure_destructor.59Tm
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.67Tm
++ ___swift_closure_destructor.75Tm
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.87
++ ___unnamed_25
++ __dyld_lazy_load
++ __stdlib_remainder
++ _associated conformance 22VisualIntelligenceCore13AFMDomainNameOSHAASQ
++ _associated conformance 22VisualIntelligenceCore13AFMDomainNameOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 22VisualIntelligenceCore14BundleSelectorC13ConfigurationV22RankingAlgorithmPresetO54BoresightMaximumIntersectionOverUnionLuckEraCodingKeys33_8B96582AA384DCEEBDB477F444278F78LLOs0Q3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14BundleSelectorC13ConfigurationV22RankingAlgorithmPresetO54BoresightMaximumIntersectionOverUnionLuckEraCodingKeys33_8B96582AA384DCEEBDB477F444278F78LLOs0Q3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore22EntityPersistenceErrorOSHAASQ
++ _associated conformance 22VisualIntelligenceCore25GroundingMD10_0DescriptorVAA0dF0AA13TaxonomyEntryAaDP_SH
++ _associated conformance 22VisualIntelligenceCore25GroundingMD10_0DescriptorVAA0dF0AA13TaxonomyEntryAaDP_SY
++ _associated conformance 22VisualIntelligenceCore25GroundingMD10_0DescriptorVAA0dF0AA13TaxonomyEntryAaDP_s12CaseIterable
++ _associated conformance 22VisualIntelligenceCore25GroundingMD10_0DescriptorVAA0dF0AA13TaxonomyEntryAaDP_s23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore79visualgrounding_md10_v1_x7shu4ydiy_epoch_10_categorynumber32_palettizedTaxonomyOSHAASQ
++ _associated conformance 22VisualIntelligenceCore79visualgrounding_md10_v1_x7shu4ydiy_epoch_10_categorynumber32_palettizedTaxonomyOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 22VisualIntelligenceCore9ActionPinV4PillV17AnalyticsMetadataV10CodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9ActionPinV4PillV17AnalyticsMetadataV10CodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9ActionPinV4PillV17AnalyticsMetadataV10CodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9ActionPinV4PillV17AnalyticsMetadataVSHAASQ
++ _block_copy_helper.111
++ _block_copy_helper.130
++ _block_copy_helper.179
++ _block_copy_helper.190
++ _block_copy_helper.198
++ _block_copy_helper.21
++ _block_copy_helper.316
++ _block_copy_helper.34
++ _block_copy_helper.481
++ _block_copy_helper.527
++ _block_copy_helper.53
++ _block_descriptor.113
++ _block_descriptor.132
++ _block_descriptor.181
++ _block_descriptor.192
++ _block_descriptor.200
++ _block_descriptor.23
++ _block_descriptor.318
++ _block_descriptor.36
++ _block_descriptor.483
++ _block_descriptor.529
++ _block_descriptor.55
++ _block_destroy_helper.112
++ _block_destroy_helper.131
++ _block_destroy_helper.180
++ _block_destroy_helper.191
++ _block_destroy_helper.199
++ _block_destroy_helper.22
++ _block_destroy_helper.317
++ _block_destroy_helper.35
++ _block_destroy_helper.482
++ _block_destroy_helper.528
++ _block_destroy_helper.54
++ _get_enum_tag_for_layout_string 10Foundation4UUIDV22VisualIntelligenceCore19EntityRequestResultVs5Error_pIeghHnrzo_Sg
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore09VICVisualB14AnalysisResultC0E7FailureO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore09VICVisualB14AnalysisResultC5PhaseO
++ _get_enum_tag_for_layout_string Iegh_Sg
++ _get_type_metadata 15Synchronization5MutexVy10Foundation4UUIDVSgG noncopyable.47
++ _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore09VICVisualD14AnalysisResultC12MutableState33_1F95CC9AC8EE41B727AAA46CC61964B5LLVG noncopyable.52
++ _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore0cD8AnalyzerC5StateVG noncopyable.63
++ _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore20EnhancedSiriSnapshot33_99C6E5ED3F40308BF68826FA333809E7LLVSgG noncopyable.19
++ _get_witness_table 22VisualIntelligenceCore25SaliencyStreamMonitorableRzlScSyAA15ActionPredictorC6OutputVGSciHPyHC.54
++ _get_witness_table 22VisualIntelligenceCore33SaliencyStreamInternalMonitorableRzlScSyAA13BundleManagerC6OutputVGSciHPyHC.52
++ _get_witness_table 22VisualIntelligenceCore33SaliencyStreamInternalMonitorableRzlScSyAA14BundleSelectorC6OutputVGSciHPyHC.53
++ _kCFBooleanTrue
++ _kLXLexiconLocaleKey$lazyGOT
++ _kLXLexiconLocaleKey$lazyGOT$loadHelper_x8
++ _kMRMediaRemoteOptionPlaybackPosition$lazyGOT
++ _kMRMediaRemoteOptionPlaybackPosition$lazyGOT$loadHelper_x8
++ _kVTPixelRotationPropertyKey_FlipHorizontalOrientation
++ _kVTPixelRotationPropertyKey_FlipVerticalOrientation
++ _kVTRotation_0
++ _lazyLoadFlag$AssistantServices
++ _lazyLoadFlag$CoreTelephony
++ _lazyLoadFlag$CoreText
++ _lazyLoadFlag$DataDetectorsCore
++ _lazyLoadFlag$GenerativeAssistantSettings
++ _lazyLoadFlag$GeoAnalytics
++ _lazyLoadFlag$GeoServices
++ _lazyLoadFlag$Lexicon
++ _lazyLoadFlag$MapKit
++ _lazyLoadFlag$MediaRemote
++ _lazyLoadFlag$NaturalLanguage
++ _lazyLoadFlag$Photos
++ _lazyLoadFlag$SiriActivation
++ _lazyLoadFlag$SiriReaderServices
++ _lazyLoadFlag$TelephonyUtilities
++ _lazyLoadFlag$TextComposer
++ _lazyLoadFlag$libvDSP.dylib
++ _lazyLoadFlag$vImage
++ _objc_msgSend$initWithSession:
++ _objc_msgSend$releaseCachedResources
++ _objc_msgSend$stringForKey:
++ _objc_msgSend$transform:srcRect:dst:dstRect:rotate:flipX:flipY:sync_m2m:
++ _remainder
++ _swift_task_deinitOnExecutor
++ _symbolic $s22VisualIntelligenceCore22PreconsentedVLUStorageP
++ _symbolic Iegh_
++ _symbolic S2SIeghgg_
++ _symbolic S2SytIeghnnr_
++ _symbolic SDy_____SSG 22VisualIntelligenceCore17AFMToolAnnotationO
++ _symbolic SDy_____Say_____y_____GGG 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AD0F16MD10_0DescriptorV
++ _symbolic Say_____G 22VisualIntelligenceCore13AFMDomainNameO
++ _symbolic Say_____G 22VisualIntelligenceCore79visualgrounding_md10_v1_x7shu4ydiy_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic Say_____y_____GG 22VisualIntelligenceCore15GroundingResultV AA0D16MD10_0DescriptorV
++ _symbolic ScCy___________pG 26VisualIntelligenceServices14EntityResponseO s5ErrorP
++ _symbolic SdIegd_
++ _symbolic Si6offset______y_____G7elementt 22VisualIntelligenceCore15GroundingResultV AA0D16MD10_0DescriptorV
++ _symbolic So9VNSessionC
++ _symbolic _____ 22VisualIntelligenceCore09VICVisualB14AnalysisResultC0E7FailureO
++ _symbolic _____ 22VisualIntelligenceCore09VICVisualB14AnalysisResultC12MutableState33_1F95CC9AC8EE41B727AAA46CC61964B5LLV
++ _symbolic _____ 22VisualIntelligenceCore09VICVisualB14AnalysisResultC5PhaseO
++ _symbolic _____ 22VisualIntelligenceCore13AFMDomainNameO
++ _symbolic _____ 22VisualIntelligenceCore14BundleSelectorC13ConfigurationV22RankingAlgorithmPresetO54BoresightMaximumIntersectionOverUnionLuckEraCodingKeys33_8B96582AA384DCEEBDB477F444278F78LLO
++ _symbolic _____ 22VisualIntelligenceCore17EntityPersistenceO
++ _symbolic _____ 22VisualIntelligenceCore19EntityRequestResultV
++ _symbolic _____ 22VisualIntelligenceCore20AFMInferenceProviderC12RequestInput33_E77767D4BAA0F4D434744A0CAB28964CLLV
++ _symbolic _____ 22VisualIntelligenceCore20EnhancedSiriSnapshot33_99C6E5ED3F40308BF68826FA333809E7LLV
++ _symbolic _____ 22VisualIntelligenceCore21BuiltInActionExecutorC0F16ExecutionContextV
++ _symbolic _____ 22VisualIntelligenceCore21SystemPromptOverridesO
++ _symbolic _____ 22VisualIntelligenceCore21SystemPromptOverridesO06CachedF033_4E287A1A947B077308A00B6E6DF1AA8ELLV
++ _symbolic _____ 22VisualIntelligenceCore22EntityPersistenceErrorO
++ _symbolic _____ 22VisualIntelligenceCore24RichAnalysisAvailabilityO
++ _symbolic _____ 22VisualIntelligenceCore25AskAcmeRequirementManagerO
++ _symbolic _____ 22VisualIntelligenceCore25GroundingMD10_0DescriptorV
++ _symbolic _____ 22VisualIntelligenceCore26deduplicateGVICCBundleTextySayAA15GVICCBatchInputV10BundleDataVGAGF5ClaimL_V
++ _symbolic _____ 22VisualIntelligenceCore79visualgrounding_md10_v1_x7shu4ydiy_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic _____ 22VisualIntelligenceCore9ActionPinV4PillV17AnalyticsMetadataV
++ _symbolic _____ 22VisualIntelligenceCore9ActionPinV4PillV17AnalyticsMetadataV10CodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____ So11GEOUIActionV
++ _symbolic _____ s15ContinuousClockV7InstantV
++ _symbolic _____3key_Say_____y_____GG5valuet 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AD0F16MD10_0DescriptorV
++ _symbolic _____3key_Sf7confSum_Sf7maxConfSi0D5Indext5valuet 22VisualIntelligenceCore79visualgrounding_md10_v1_x7shu4ydiy_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic _____Ieghn_Sg 26VisualIntelligenceServices19AFMInferenceMetricsV
++ _symbolic _____Sg 22VisualIntelligenceCore12VICCCategoryO
++ _symbolic _____Sg 22VisualIntelligenceCore20EnhancedSiriSnapshot33_99C6E5ED3F40308BF68826FA333809E7LLV
++ _symbolic _____Sg 22VisualIntelligenceCore21SystemPromptOverridesO06CachedF033_4E287A1A947B077308A00B6E6DF1AA8ELLV
++ _symbolic _____Sg 22VisualIntelligenceCore9ActionPinV4PillV6SourceO
++ _symbolic _____Sg 26VisualIntelligenceServices15SaliencySessionC16UnavailableErrorV
++ _symbolic _____Sg 26VisualIntelligenceServices19AFMInferenceMetricsV4KindO
++ _symbolic _____Sg 26VisualIntelligenceServices19VICoreAnalyticsSinkV
++ _symbolic _____SgXw 22VisualIntelligenceCore09VICVisualB14AnalysisResultC
++ _symbolic _____SgXwz_Xx 22VisualIntelligenceCore09VICVisualB14AnalysisResultC
++ _symbolic _____XMT 22VisualIntelligenceCore20AFMInferenceProviderC
++ _symbolic ______Say_____y_____GGt 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AD0F16MD10_0DescriptorV
++ _symbolic ______Sbt 22VisualIntelligenceCore20EnhancedSiriSnapshot33_99C6E5ED3F40308BF68826FA333809E7LLV
++ _symbolic __________Ieghnn_Sg 26VisualIntelligenceServices20AnalyticsErrorBucketO AA0dE6SourceO
++ _symbolic __________YaYbKcSg 22VisualIntelligenceCore19EntityRequestResultV 10Foundation4UUIDV
++ _symbolic ___________12predictionIdSS19canonicalIdentifier_____Sg17nutritionCategoryt 22VisualIntelligenceCore20BundleClassificationV0E4TypeO 10Foundation4UUIDV AA12VICCCategoryO
++ _symbolic ________________pIeghHnrzo_ 10Foundation4UUIDV 22VisualIntelligenceCore19EntityRequestResultV s5ErrorP
++ _symbolic ___________t 26VisualIntelligenceServices20AnalyticsErrorBucketO AA0dE6SourceO
++ _symbolic ______p 26VisualIntelligenceServices18RichSaliencyStreamP
++ _symbolic ______pSg 22VisualIntelligenceCore17LoggingSignposterV8IntervalP
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 22VisualIntelligenceCore18TextDetectorResultV
++ _symbolic _____ySay_____y_____GGG s23_ContiguousArrayStorageC 22VisualIntelligenceCore15GroundingResultV AC0G16MD10_0DescriptorV
++ _symbolic _____y_____3key_Sf7confSum_Sf7maxConfSi0D5Indext5valuetG s23_ContiguousArrayStorageC 22VisualIntelligenceCore79visualgrounding_md10_v1_x7shu4ydiy_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore09VICVisualD14AnalysisResultC12MutableState33_1F95CC9AC8EE41B727AAA46CC61964B5LLV
++ _symbolic _____y_____G 15Synchronization5_CellVAARi_zrlE 22VisualIntelligenceCore21BuiltInActionExecutorC5State33_1F5120E144C5156F6C9BE2643A48D359LLV
++ _symbolic _____y_____G 22VisualIntelligenceCore15GroundingResultV AA0D16MD10_0DescriptorV
++ _symbolic _____y_____G s11_SetStorageC 22VisualIntelligenceCore79visualgrounding_md10_v1_x7shu4ydiy_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic _____y_____G s11_SetStorageC 26VisualIntelligenceServices15SaliencySessionC20UnavailabilityReasonO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14BundleSelectorC13ConfigurationV22RankingAlgorithmPresetO54BoresightMaximumIntersectionOverUnionLuckEraCodingKeys33_8B96582AA384DCEEBDB477F444278F78LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9ActionPinV4PillV17AnalyticsMetadataV10CodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14BundleSelectorC13ConfigurationV22RankingAlgorithmPresetO54BoresightMaximumIntersectionOverUnionLuckEraCodingKeys33_8B96582AA384DCEEBDB477F444278F78LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9ActionPinV4PillV17AnalyticsMetadataV10CodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore26deduplicateGVICCBundleTextySayAC15GVICCBatchInputV10BundleDataVGAIF5ClaimL_V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore79visualgrounding_md10_v1_x7shu4ydiy_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 26VisualIntelligenceServices15SaliencySessionC20UnavailabilityReasonO
++ _symbolic _____y_____GSg 22VisualIntelligenceCore15GroundingResultV AA0D16MD10_0DescriptorV
++ _symbolic _____y_____SSG s18_DictionaryStorageC 22VisualIntelligenceCore17AFMToolAnnotationO
++ _symbolic _____y_____Say_____y_____GGG s18_DictionaryStorageC 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AF0H16MD10_0DescriptorV
++ _symbolic _____y_____Sf7confSum_Sf7maxConfSi0C5IndextG s18_DictionaryStorageC 22VisualIntelligenceCore79visualgrounding_md10_v1_x7shu4ydiy_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 10Foundation4UUIDV
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore20EnhancedSiriSnapshot33_99C6E5ED3F40308BF68826FA333809E7LLV
++ _symbolic _____y_____SgG 15Synchronization5_CellVAARi_zrlE 10Foundation4UUIDV
++ _symbolic _____y_____SgG 15Synchronization5_CellVAARi_zrlE 22VisualIntelligenceCore20EnhancedSiriSnapshot33_99C6E5ED3F40308BF68826FA333809E7LLV
++ _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 22VisualIntelligenceCore21SystemPromptOverridesO06CachedH033_4E287A1A947B077308A00B6E6DF1AA8ELLV So16os_unfair_lock_sV
++ _symbolic _____y______SftG s23_ContiguousArrayStorageC 22VisualIntelligenceCore79visualgrounding_md10_v1_x7shu4ydiy_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 22VisualIntelligenceCore15GroundingResultV AC0G16MD10_0DescriptorV
++ _symbolic _____yySpy_____Gz_SpySo8NSObjectCSgGSgzSpyypGSgztcG s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic y_____YbcSg So11CVBufferRefa
++ _symbolic y___________tYbcSg 26VisualIntelligenceServices20AnalyticsErrorBucketO AA0dE6SourceO
++ _symbolic yyYbcSg
++ _symbolic yyc
++ _type_layout_string 22VisualIntelligenceCore09VICVisualB14AnalysisResultC0E7FailureO
++ _type_layout_string 22VisualIntelligenceCore09VICVisualB14AnalysisResultC12MutableState33_1F95CC9AC8EE41B727AAA46CC61964B5LLV
++ _type_layout_string 22VisualIntelligenceCore09VICVisualB14AnalysisResultC5PhaseO
++ _type_layout_string 22VisualIntelligenceCore19EntityRequestResultV
++ _type_layout_string 22VisualIntelligenceCore9ActionPinV4PillV17AnalyticsMetadataV
++ _type_layout_string So20IOSurfacePropertyKeya
++ _vDSP_dotpr$lazyAuthGOT_IA_ad_0
++ _vDSP_dotpr$lazyLoadStub
++ _vDSP_maxvi$lazyAuthGOT_IA_ad_0
++ _vDSP_maxvi$lazyLoadStub
++ _vDSP_svesq$lazyAuthGOT_IA_ad_0
++ _vDSP_svesq$lazyLoadStub
++ _vDSP_vsmul$lazyAuthGOT_IA_ad_0
++ _vDSP_vsmul$lazyLoadStub
++ _vImageConvert_Planar16FtoPlanarF$lazyAuthGOT_IA_ad_0
++ _vImageConvert_Planar16FtoPlanarF$lazyLoadStub
++ _vImageConvert_PlanarFtoPlanar16F$lazyAuthGOT_IA_ad_0
++ _vImageConvert_PlanarFtoPlanar16F$lazyLoadStub
+- _NLLanguageCzech
+- _NLLanguageDanish
+- _NLLanguageDutch
+- _NLLanguageEnglish
+- _NLLanguageFrench
+- _NLLanguageGerman
+- _NLLanguageItalian
+- _NLLanguageJapanese
+- _NLLanguageKorean
+- _NLLanguageNorwegian
+- _NLLanguagePortuguese
+- _NLLanguageSpanish
+- _NLLanguageSwedish
+- _NLLanguageTurkish
+- _NLLanguageVietnamese
+- __DATA__TtC22VisualIntelligenceCore16LanguageDetector
+- __DATA__TtC22VisualIntelligenceCore25AskAcmeRequirementManager
+- __IVARS__TtC22VisualIntelligenceCore16LanguageDetector
+- __IVARS__TtC22VisualIntelligenceCore25AskAcmeRequirementManager
+- __METACLASS_DATA__TtC22VisualIntelligenceCore16LanguageDetector
+- __METACLASS_DATA__TtC22VisualIntelligenceCore25AskAcmeRequirementManager
+- ___swift__destructor.131
+- ___swift__destructor.190
+- ___swift__destructor.203
+- ___swift__destructor.252
+- ___swift__destructor.275
+- ___swift__destructor.302
+- ___swift__destructor.319
+- ___swift__destructor.56
+- ___swift_closure_destructor.102
+- ___swift_closure_destructor.112
+- ___swift_closure_destructor.123
+- ___swift_closure_destructor.151
+- ___swift_closure_destructor.156
+- ___swift_closure_destructor.160
+- ___swift_closure_destructor.167
+- ___swift_closure_destructor.168
+- ___swift_closure_destructor.16Tm
+- ___swift_closure_destructor.172
+- ___swift_closure_destructor.177
+- ___swift_closure_destructor.180
+- ___swift_closure_destructor.182
+- ___swift_closure_destructor.193Tm
+- ___swift_closure_destructor.194
+- ___swift_closure_destructor.204
+- ___swift_closure_destructor.206
+- ___swift_closure_destructor.206Tm
+- ___swift_closure_destructor.210
+- ___swift_closure_destructor.221
+- ___swift_closure_destructor.225
+- ___swift_closure_destructor.229
+- ___swift_closure_destructor.232
+- ___swift_closure_destructor.232Tm
+- ___swift_closure_destructor.233
+- ___swift_closure_destructor.24
+- ___swift_closure_destructor.245
+- ___swift_closure_destructor.250
+- ___swift_closure_destructor.254
+- ___swift_closure_destructor.255
+- ___swift_closure_destructor.264
+- ___swift_closure_destructor.270
+- ___swift_closure_destructor.271
+- ___swift_closure_destructor.275
+- ___swift_closure_destructor.278
+- ___swift_closure_destructor.287
+- ___swift_closure_destructor.291
+- ___swift_closure_destructor.292
+- ___swift_closure_destructor.30
+- ___swift_closure_destructor.305
+- ___swift_closure_destructor.312
+- ___swift_closure_destructor.322
+- ___swift_closure_destructor.326
+- ___swift_closure_destructor.333
+- ___swift_closure_destructor.37
+- ___swift_closure_destructor.46
+- ___swift_closure_destructor.476
+- ___swift_closure_destructor.479
+- ___swift_closure_destructor.487
+- ___swift_closure_destructor.49
+- ___swift_closure_destructor.497
+- ___swift_closure_destructor.501
+- ___swift_closure_destructor.506
+- ___swift_closure_destructor.510
+- ___swift_closure_destructor.522
+- ___swift_closure_destructor.525
+- ___swift_closure_destructor.54
+- ___swift_closure_destructor.61Tm
+- ___swift_closure_destructor.62
+- ___swift_closure_destructor.65Tm
+- ___swift_closure_destructor.68Tm
+- ___swift_closure_destructor.69
+- ___swift_closure_destructor.74
+- ___swift_closure_destructor.78
+- ___swift_closure_destructor.80
+- ___swift_closure_destructor.86
+- ___unnamed_23
+- _associated conformance 22VisualIntelligenceCore13BuiltInActionO19GeoLookupCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV10CodingKeysOSHAASQ
+- _associated conformance 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV10CodingKeysOs0P3KeyAAs06CustomG17StringConvertible
+- _associated conformance 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV10CodingKeysOs0P3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLVSHAASQ
+- _associated conformance 22VisualIntelligenceCore24GroundingMD9_1DescriptorVAA0dF0AA13TaxonomyEntryAaDP_SH
+- _associated conformance 22VisualIntelligenceCore24GroundingMD9_1DescriptorVAA0dF0AA13TaxonomyEntryAaDP_SY
+- _associated conformance 22VisualIntelligenceCore24GroundingMD9_1DescriptorVAA0dF0AA13TaxonomyEntryAaDP_s12CaseIterable
+- _associated conformance 22VisualIntelligenceCore24GroundingMD9_1DescriptorVAA0dF0AA13TaxonomyEntryAaDP_s23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore25AskAcmeRequirementManagerC7Combine16ObservableObjectAA0J19WillChangePublisherAdEP_AD0M0
+- _associated conformance 22VisualIntelligenceCore31InProcessSaliencyStreamProviderC0G5ErrorO10Foundation09LocalizedI0AAs0I0
+- _associated conformance 22VisualIntelligenceCore31InProcessSaliencyStreamProviderC0G5ErrorOSHAASQ
+- _associated conformance 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyOSHAASQ
+- _associated conformance 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyOs12CaseIterableAA8AllCasessADP_Sl
+- _block_copy_helper.108
+- _block_copy_helper.127
+- _block_copy_helper.176
+- _block_copy_helper.183
+- _block_copy_helper.191
+- _block_copy_helper.20
+- _block_copy_helper.315
+- _block_copy_helper.33
+- _block_copy_helper.482
+- _block_copy_helper.52
+- _block_copy_helper.528
+- _block_descriptor.110
+- _block_descriptor.129
+- _block_descriptor.178
+- _block_descriptor.185
+- _block_descriptor.193
+- _block_descriptor.22
+- _block_descriptor.317
+- _block_descriptor.35
+- _block_descriptor.484
+- _block_descriptor.530
+- _block_descriptor.54
+- _block_destroy_helper.109
+- _block_destroy_helper.128
+- _block_destroy_helper.177
+- _block_destroy_helper.184
+- _block_destroy_helper.192
+- _block_destroy_helper.21
+- _block_destroy_helper.316
+- _block_destroy_helper.34
+- _block_destroy_helper.483
+- _block_destroy_helper.529
+- _block_destroy_helper.53
+- _get_enum_tag_for_layout_string 10Foundation4UUIDVSSs5Error_pIeghHnozo_Sg
+- _get_type_metadata 15Synchronization5MutexVy16GenerativeModels0cD12AvailabilityV0E0OSgG noncopyable.19
+- _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore0cD8AnalyzerC5StateVG noncopyable.61
+- _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore16LanguageDetectorC010TranscriptF5Cache33_C7D4A4918956BD21FC23EEDABAB9AD4FLLVG noncopyable.2
+- _get_witness_table 22VisualIntelligenceCore25SaliencyStreamMonitorableRzlScSyAA15ActionPredictorC6OutputVGSciHPyHC.52
+- _get_witness_table 22VisualIntelligenceCore33SaliencyStreamInternalMonitorableRzlScSyAA13BundleManagerC6OutputVGSciHPyHC.50
+- _get_witness_table 22VisualIntelligenceCore33SaliencyStreamInternalMonitorableRzlScSyAA14BundleSelectorC6OutputVGSciHPyHC.51
+- _symbolic SDy_____Say_____y_____GGG 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AD0F15MD9_1DescriptorV
+- _symbolic SS_____YaYbKcSg 10Foundation4UUIDV
+- _symbolic Say_____G 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
+- _symbolic Say_____G So10NLLanguagea
+- _symbolic Say_____G7results_t 22VisualIntelligenceCore9GeoLookupC0dE6ResultV
+- _symbolic Say_____y_____GG 22VisualIntelligenceCore15GroundingResultV AA0D15MD9_1DescriptorV
+- _symbolic Si6offset______y_____G7elementt 22VisualIntelligenceCore15GroundingResultV AA0D15MD9_1DescriptorV
+- _symbolic _____ 22VisualIntelligenceCore16LanguageDetectorC
+- _symbolic _____ 22VisualIntelligenceCore16LanguageDetectorC010TranscriptD5Cache33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV
+- _symbolic _____ 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV
+- _symbolic _____ 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV10CodingKeysO
+- _symbolic _____ 22VisualIntelligenceCore16NutritionPromptsO
+- _symbolic _____ 22VisualIntelligenceCore17GVICCBatchContextV
+- _symbolic _____ 22VisualIntelligenceCore24GroundingMD9_1DescriptorV
+- _symbolic _____ 22VisualIntelligenceCore25AskAcmeRequirementManagerC
+- _symbolic _____ 22VisualIntelligenceCore31InProcessSaliencyStreamProviderC0G5ErrorO
+- _symbolic _____ 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
+- _symbolic _____3key_Say_____y_____GG5valuet 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AD0F15MD9_1DescriptorV
+- _symbolic _____3key_Sf7confSum_Sf7maxConfSi0D5Indext5valuet 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
+- _symbolic _____SS______pIeghHnozo_ 10Foundation4UUIDV s5ErrorP
+- _symbolic _____Sg 22VisualIntelligenceCore17GVICCBatchContextV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore9ActionPinV4PillV
+- _symbolic ______Say_____y_____GGt 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AD0F15MD9_1DescriptorV
+- _symbolic ___________12predictionIdSS19canonicalIdentifiert 22VisualIntelligenceCore20BundleClassificationV0E4TypeO 10Foundation4UUIDV
+- _symbolic ______pSg 26VisualIntelligenceServices18RichSaliencyStreamP
+- _symbolic _____ySay_____y_____GGG s23_ContiguousArrayStorageC 22VisualIntelligenceCore15GroundingResultV AC0G15MD9_1DescriptorV
+- _symbolic _____y_____3key_Sf7confSum_Sf7maxConfSi0D5Indext5valuetG s23_ContiguousArrayStorageC 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
+- _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore16LanguageDetectorC010TranscriptF5Cache33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV
+- _symbolic _____y_____G 22VisualIntelligenceCore15GroundingResultV AA0D15MD9_1DescriptorV
+- _symbolic _____y_____G s11_SetStorageC 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV10CodingKeysO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC So10NLLanguagea
+- _symbolic _____y_____GSg 22VisualIntelligenceCore15GroundingResultV AA0D15MD9_1DescriptorV
+- _symbolic _____y_____Say_____y_____GGG s18_DictionaryStorageC 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AF0H15MD9_1DescriptorV
+- _symbolic _____y_____Sf7confSum_Sf7maxConfSi0C5IndextG s18_DictionaryStorageC 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
+- _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 16GenerativeModels0cD12AvailabilityV0E0O
+- _symbolic _____y_____SgG 15Synchronization5_CellVAARi_zrlE 16GenerativeModels0cD12AvailabilityV0E0O
+- _symbolic _____y______SftG s23_ContiguousArrayStorageC 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 22VisualIntelligenceCore15GroundingResultV AC0G15MD9_1DescriptorV
+- _type_layout_string 22VisualIntelligenceCore16LanguageDetectorC010TranscriptD5Cache33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV
+- _type_layout_string 22VisualIntelligenceCore21BuiltInActionExecutorC5State33_1F5120E144C5156F6C9BE2643A48D359LLV
+- _type_layout_string 22VisualIntelligenceCore34SaliencyStreamPipelineStageContextV
+- _type_layout_string So10NLLanguagea
+CStrings:
++ " Safety Mechanism update required. This device will be able to use Visual Intelligence event creation once the automatic update completes."
++ " predictionId canonicalIdentifier nutritionCategory "
++ "%s annotation error: %s"
++ "%s failed: %@"
++ "%s text detection update error: %s"
++ "AFMActionExecutor: stroking grounded crop for %{public}s rect=%{public}s"
++ "AFMInferenceProvider.stxLatency"
++ "AFMInferenceProvider.viccLatency"
++ "Add all of the events to my calendar.\n\nReturn MULTIPLE tool calls for ALL events. Each sub-event (\"doors open\", \"register by\", \"RSVP by\", \"show starts\") MUST be a separate tool call.\n\nCRITICAL: Deadlines (\"sign up by\", \"register by\", \"RSVP by\", \"early bird until\") are events — extract each with the deadline date as start_date.\nCRITICAL: Look for the year everywhere in the image — titles, headers, footers, fine print, series names (\"... 2025\"), and sales/registration deadlines. If a year/month/day is truly absent from the image, use the corresponding value from the system time below EXACTLY, never a guessed or hardcoded year.\n\n"
++ "Boresight IoU Luck era"
++ "Cannot create destination pixel buffer: error code %d"
++ "Downloading Support for Siri"
++ "Enhanced Siri availability preheated: %{bool,public}d"
++ "Entity request callback failed to persist HEIC: %@"
++ "Entity request callback persisted HEIC, entity %s"
++ "EntityPersistence.persistHEIC: daemon persisted client HEIC (fd path) → entity %{public}s"
++ "Failed dismissActiveConversation over XPC: %@"
++ "Failed to persist HEIC: "
++ "FigM2MController transform failed with error "
++ "GreymatterAvailability preheated '%s': %{bool,public}d"
++ "Input sanitization failed: "
++ "Nutrition rejected: VICC detected a beverage without non-packaged food (categories: %{public}s)"
++ "Nutrition rejected: beverage detected without non-packaged food"
++ "PixelBufferAnnotation: failed to copy pixel buffer, skipping annotation"
++ "PixelBufferAnnotation: failed to create CGContext"
++ "PixelBufferAnnotation: failed to lock pixel buffer base address"
++ "PixelBufferAnnotation: unsupported pixel format %{public}u, skipping annotation"
++ "Rotation buffer allocation failed with error "
++ "SystemPromptOverrides: failed to decode plist at %{public}s"
++ "SystemPromptOverrides: ignoring unknown domain key '%{public}s' in %{public}s"
++ "SystemPromptOverrides: loaded %{public}ld override(s) from %{public}s"
++ "SystemPromptOverrides: no readable file at %{public}s"
++ "Text detection update failed"
++ "VICC START: originator=%s"
++ "VTPixelRotationSessionCreate failed: %d"
++ "VTPixelTransferSessionCreate failed: %d"
++ "activeClassificationTypes received .unknown, resolving to .screenshots"
++ "analyticsMetadata"
++ "availability of %s: %{public}s"
++ "boresightMaximumIntersectionOverUnionLuckEra"
++ "com.apple.VisualIntelligence.SettingsAnalytics.lastPublishedDate"
++ "com.apple.gvicc.default"
++ "contact annotation failed: "
++ "dismissActiveConversation: dismissed %s"
++ "dismissActiveConversation: failed for %s: %@"
++ "event annotation failed: "
++ "geoLookupResults"
++ "health"
++ "healthData annotation failed: "
++ "intelligentPass annotation failed: "
++ "nutrition"
++ "nutrition annotation failed: "
++ "nutritionAnnotateGroundedCrop"
++ "openMissingIntelligenceRadarDraft: TTR unavailable on this platform/build; dropping request."
++ "pass"
++ "promptOverridePath"
++ "provideEntityID(%s) called but this API is deprecated and a no-op; route the entity ID through setEntityRequestCallback's completion handler instead."
++ "rich stream creation"
++ "session creation"
++ "stream refinement"
++ "transaction annotation failed: "
++ "updated availability of %s: %{public}s"
++ "vicc"
++ "visualgrounding_md10_v1_x7shu4ydiy_epoch_10_categorynumber32_palettized"
++ "visualgrounding_md10_v1_x7shu4ydiy_epoch_10_categorynumber32_palettized_text_feats"
+- " about this content."
+- " predictionId canonicalIdentifier "
+- " will be able to ask "
+- "AFM v11 proxy is not available on this device"
+- "AFMv11Proxy"
+- "Add all of the events to my calendar.\n\nReturn MULTIPLE tool calls for ALL events. Each sub-event (\"doors open\", \"register by\", \"RSVP by\", \"show starts\") MUST be a separate tool call.\n\nCRITICAL: Deadlines (\"sign up by\", \"register by\", \"RSVP by\", \"early bird until\") are events — extract each with the deadline date as start_date.\nCRITICAL: Look for the year in titles, headers, footers, and surrounding text. If any of year/month/day is missing from the image, you MUST use the corresponding value from the system time below — NEVER hallucinate or default to a hardcoded year.\n\n"
+- "Analyze the food in this image and provide comprehensive nutrition information using the generate_nutrition_card tool."
+- "Content safety update required. This device will be able to use Visual Intelligence event creation once the automatic update completes."
+- "Detected unsupported language for gVICC classification"
+- "Downloading Support for Siri. Once downloaded, this "
+- "Enhanced Siri availability preheated: %{bool}d"
+- "Error creating session: %@"
+- "Error making rich stream: %@"
+- "Error refining stream: %s with pixelBuffer: %s"
+- "Failed to allocate rotation intermediate buffer"
+- "FigM2MController transform failed"
+- "GreymatterAvailability preheated '%s': %{bool}d"
+- "Identified language %s with confidence: %f"
+- "InProcessSaliencySession.makeStream() is always expected to return an InProcessStream"
+- "Language is supported, proceeding with gVICC classification"
+- "Nutrition rejected: beverage override is enabled and VICC detected a beverage"
+- "VICC END: originator=%s, %s, error=%{public}s"
+- "VICC START: originator=%s, %s"
+- "You are an expert food analysis AI specialized in analyzing food images to provide comprehensive nutritional insights. Your analysis must be purely observational and evidence-based, following established dietary standards.\n\nOUTPUT STRUCTURE:\nYour output has two sections:\n1. Observational fields: purely descriptive, based on what is visible in the image\n2. Nutrition analysis: assessment and insights based on observed ingredients and preparation\n\nKEY PRINCIPLES:\n- Prioritize accuracy over specificity — use generic terms when uncertain\n- Describe what food contains — do not describe health effects or body outcomes\n- Use objective, educational tone\n- Base portion estimates on FDA RACC standards\n\nCRITICAL ANTI-HALLUCINATION RULES:\n\n**Principle: ACCURACY > SPECIFICITY. Default to broader categories when evidence is weak.**\n\n1. **DO NOT default to common/familiar items** when specific type is uncertain:\n   - Common patterns in training data create bias toward frequent items\n   - Weak visual evidence → use generic/category terms\n   - Strong visual evidence → specific identification permitted\n\n2. **USE HIERARCHICAL SPECIFICITY** based on visual certainty:\n   - Clearly identifiable: Specific terms (\"brown rice\", \"kale\", identifiable protein source)\n   - Partially visible: Category terms (\"white meat\", \"grain\", \"dark leafy greens\")\n   - Unclear: Broad categories (\"protein\", \"grain\", \"vegetable\")\n\n3. **AMBIGUOUS CONTEXT PROTOCOL**:\n   When ingredients are NOT clearly visible (wraps, pastries, filled items, soups, sauces):\n   - Use functional descriptors: \"protein filling\", \"meat filling\", \"grain filling\", \"vegetable filling\"\n   - Use preparation-based terms: \"legume-based\", \"grain-based\", \"vegetable-based\"\n   - Never assume a specific protein type from the dish name or context alone — use\n     \"protein filling\" or \"meat filling\" even when the dish is commonly associated with\n     a particular protein.\n\n4. **PACKAGED FOOD — DO NOT STATE UNVERIFIABLE NUTRIENT CLAIMS AS FACT**:\n   Cite specific nutritional values only when the nutrition facts panel is visible (Tier 1).\n   For Tier 2/3 (Front-of-Package (FOP)-only or unknown product), specific per-nutrient level conclusions\n   (\"low saturated fat\", \"no added sugar\", \"high fiber\") may only be stated when directly\n   grounded in a visible FOP label claim for that nutrient or clearly observable ingredient\n   evidence. General category-level observations are permitted with hedging (e.g., \"typically contains\", \"likely includes\", \"may contain\"). Omit any\n   specific per-nutrient claim that is not directly supported by visible evidence.\n\n5. **DEFAULT TO PLANT-BASED** when protein type is ambiguous:\n   - Require clear meat evidence: muscle fiber texture, distinctive meat color/structure\n   - If uncertain: \"plant-based protein\", \"protein (type unclear)\", or category term\n   - Do NOT assume animal products in: wraps, pastries, sauces, broths without clear evidence\n\n6. **PROTEIN TYPE REQUIRES DISTINGUISHING VISUAL EVIDENCE**:\n   Training data contains disproportionately more images of certain protein types, creating\n   systematic bias toward predicting them from generic visual cues. Identifying a specific\n   protein type requires visual features that distinguish it from other proteins with similar\n   appearance — color, texture, cut, surface structure, and form must specifically support\n   the identification.\n   - Generic pale/white meat → \"white meat\" or \"lean meat\", not a specific species\n   - Generic dark/red meat → \"dark meat\" or \"red meat\", not a specific species\n   - Smooth, uniform cubes or slabs without visible muscle fiber → may be plant-based protein;\n     apply rule 5 before defaulting to any meat identification\n   The most visually common protein type must not be assumed when evidence is ambiguous.\n   Apply the same specificity threshold as for dish names: if the visual evidence does not\n   rule out other protein types, use the broader category term.\n\nANALYSIS SCOPE:\nFocus EXCLUSIVELY on the food and its nutritional properties. Do NOT include information about:\n- Environment (tables, countertops, backgrounds, settings)\n- Presentation context (plates, bowls, serving vessels - except for classification)\n- Photography (camera angles, lighting, composition)\n- Utensils and tools (forks, knives, spoons, chopsticks)\n- Human elements (hands, people, actions)\n- Non-food objects (napkins, placemats, decorations)\n\nException: Container dimensions may inform portion estimation but should not appear in output fields.\n\nIMAGE TYPE DETECTION\n\nDetect image type before proceeding. The image may be either:\n\nREGULAR PHOTO: Camera photo of food on a plate, table, or in packaging. No UI elements.\n→ Analysis is primarily visual. Proceed directly to FOOD PRESENTATION TYPE.\n\nSCREENSHOT: Screen capture from a phone, tablet, or computer — food ordering apps\n(UberEats, DoorDash, etc.), delivery platforms, recipe websites, grocery apps, etc.\nScreenshot indicators: UI elements (navigation bars, buttons, price tags, star ratings),\ntext overlays with dish names/descriptions, app branding, multiple listed food items.\n→ Extract ALL readable text before any visual analysis (see TEXT EXTRACTION below).\n\nSCREENSHOT TEXT EXTRACTION (skip for regular photos)\n\nINFORMATION PRIORITY HIERARCHY (highest to lowest):\n1. Nutrition facts panel (if visible) — regulatory data, highest authority\n2. Ingredient list — factual enumeration of components\n3. Portion size statements — explicit weight/volume (\"12 oz\", \"200g\", \"6-inch\")\n4. Dish descriptions — factual preparation and component details\n5. Dish names — may be marketing-focused; verify against visual\n6. Visual analysis — direct food observation\n7. Marketing language — ignore for nutrition analysis\n\nTEXT EXTRACTION STEPS:\n1. Scan and extract: dish name, description, ingredient list, portion size, nutrition facts, brand/restaurant name, dietary tags (vegan, gluten-free, etc.)\n2. Assess reliability: factual statements (ingredients, weights) → high; preparation descriptions → medium; marketing adjectives (\"delicious\", \"authentic\", \"amazing\") → ignore\n3. Cross-validate with visual: text + visual agree → use specific identification; text adds info not visually confirmable → use hedged language; text contradicts clear visual evidence → prioritize visual\n\nUI ELEMENTS TO IGNORE: Navigation bars, buttons, shopping cart icons, checkout UI,\nprices (unless they indicate standard sizing, e.g., \"20oz\"), ratings/reviews,\napp branding and logos, page layout and background elements.\n\nMULTIPLE ITEMS IN SCREENSHOT (skip for regular photos)\n\nScreenshots may show multiple distinct food items (menu pages, category listings,\nsearch results). Analyze exactly ONE item per analysis.\n\nSTEP 1 — Classify what is shown:\n- SINGLE MEAL (burger + fries + drink ordered together, combo meal, entrée + sides) → Analyze ALL as one meal\n- VARIETY PACK (one product, multiple flavors: granola bar assortment, yogurt multi-pack) → Analyze as ONE product, note variety in title\n- MULTIPLE DISHES (menu grid, category page, search results, \"You might also like\") → Select ONE item below\n\nSTEP 2 — Item selection priority (stop at first match):\n1. Visual prominence: item occupies >50% of food area, or is centered with others peripheral\n2. Text context: page title/header matches one item; item is UI-selected (highlighted, expanded, checked)\n3. UI/UX signals: hero position (top/prominent), \"View Details\" / \"See Nutrition\" button visible\n4. Visual completeness: one item fully shown while others are partial or thumbnails\n5. Fallback: top-left item in grid; first item in vertical list\n\nKey scenarios:\n- Item detail page with \"You might also like\" → Select main item, ignore suggestions\n- Recipe website with step-by-step photos → Select the final plated dish\n- Shopping cart with multiple items → Select largest/most prominent item\n- Do NOT aggregate nutrition across multiple items; do NOT analyze suggestions/ads\n\nCRITICAL: FOOD PRESENTATION TYPE (Foundational Classification)\n\nThis classification controls ALL downstream nutrition calculation scope. Incorrect classification leads to massive errors (10x over/under-estimation).\n\nPACKAGED (analyze 1 standard serving):\n- Branded package with nutrition label visible (chips, cereal, candy bars)\n- Bottled/canned beverages with commercial labeling\n- If it has a nutrition label — treat as packaged food\n\nNON-PACKAGED (analyze entire visible contents):\n- Food on plate, bowl, or serving dish\n- Home-cooked or restaurant-served food\n- Package opened and food transferred to plate/container\n- Loose produce items (single tomato from market, apple from bag, banana, whole vegetables)\n- Food in non-commercial containers (home tupperware, personal bowl)\n- Produce in commercial packaging (clamshell containers, branded bags)\n- Prepared food in clamshell containers, takeout boxes, etc.\n\nKEY PRINCIPLE: If there's no nutrition label visible, it's NON-PACKAGED.\n\nFOR SCREENSHOTS — additional decision points:\n- Restaurant menu item or made-to-order food → NON-PACKAGED\n- Retail/grocery product listing (in original packaging) → PACKAGED\n- Meal delivery photo (food transferred to plate) → NON-PACKAGED\n- Recipe website finished dish → NON-PACKAGED\n- Food on a ceramic/porcelain plate or bowl → NON-PACKAGED\n\nSECTION 1: VISION MODEL FIELDS (Purely Observational)\n\n1.1 FOOD_PRESENTATION\nDetermine whether the food is packaged or non_packaged/plated.\nThis classification affects how nutrition analysis is calculated.\n\n→ Output: type (packaged | non_packaged)\n\n1.2 TITLE\nShort, universally recognizable name for the dish.\n\nREQUIREMENTS:\n- Maximum 50 characters (critical failure if exceeded)\n- Dish name only, primary components\n- Concise, recognizable, neutral\n- NO descriptive adjectives, NO nutritional info, NO opinions\n- Include key modifiers only when essential to distinguish dish variants\n  (e.g., \"Chicken Pho\" vs \"Beef Pho\", \"Iced Latte\" vs \"Latte\"). Cooking\n  method adjectives and quality descriptors are not key modifiers.\n\nFOR SCREENSHOTS: Use app-provided dish name if clear and accurate. Simplify marketing\nnames (\"The Amazing Ultimate Burger\" → \"Burger\"). For packaged foods, start with brand\nname if visible (\"Starbucks Frappuccino\", \"Ben & Jerry's Ice Cream\").\n[Brand name rule under review — see open items in V11_PROMPT_DESIGN.md]\n\nFOR PACKAGED FOOD — two independent rules:\n\nBrand and flavor/variant — clearly readable text required (strict):\n- Include brand name only when it is clearly readable as text on the package.\n  Do not infer brand from logo shape, color scheme, packaging design, or any\n  non-text signal — even when the packaging style is strongly associated with\n  a known brand.\n- Include flavor or product variant only when clearly readable as text.\n  If brand is readable but flavor/variant is not, use \"Brand [Category]\"\n  (e.g., \"Lay's Chips\", not \"Lay's BBQ Chips\" if the flavor is not legible).\n- Include a product variant or characteristic when ALL of the following hold:\n    1. Clearly readable as text on the package (not inferred from color, logo, or design)\n    2. Visually prominent — significant text size on the main package face, NOT small\n       print, edge text, or fine-print disclaimers\n    3. AND at least one of:\n       a. Essential to product identification — strongly distinguishes from the base\n          product (e.g., \"Diet Coke\" vs \"Coke\", \"Zero Sugar\" vs regular, \"Decaf\" vs regular)\n       b. Nutritionally impacting — signals a meaningful nutritional difference:\n          \"Gluten Free\", \"Zero Sugar\", \"Sugar Free\", \"Reduced Fat\", \"No Salt Added\",\n          \"High Protein\", \"Keto\"\n  Do NOT include variants that are decorative, subjective, or minor:\n    ✗ \"Original\", \"Classic\", \"New & Improved\", \"Limited Edition\" (not identity-critical)\n    ✗ Pack size descriptors: \"Family Size\", \"Value Pack\", \"Mini\" (unless pack size is\n      the only distinguishing feature of the product variant)\n    ✗ Any text not meeting criteria 1 and 2 above\n\nFood name — visual evidence allowed:\n- Derive the food name from any available visual signal: readable text on the\n  package, product imagery printed on the packaging, or a see-through container\n  showing actual contents.\n- If no specific food name is determinable, use the broadest visually\n  supportable category (e.g., \"granola bar\", \"potato chips\", \"yogurt\").\n- BACK-OF-PACKAGE: Do not derive the product name from the ingredient list,\n  nutrition facts header, allergen block, preparation instructions, or any\n  other incidental text on the back. If the product title is not printed on\n  the visible face, fall back to the broadest visually supportable category.\n  Do not add flavor, texture, preparation, or presentation descriptors\n  (e.g., \"blueberry\", \"crispy\", \"baked\", \"original\") unless they are\n  explicitly printed as part of the product title on the visible face.\n\n**SPECIFICITY THRESHOLD — earn the dish name through unique visual evidence:**\n\nA specific dish name is only warranted when the visual evidence identifies features\nthat distinguish this dish from other dishes in the same category. Partial visual\nmatches — right ingredients, approximate appearance, or plausible interpretation —\ndo NOT warrant a specific name.\n\nDecision test: \"Does the visible evidence rule out similar dishes in the same\ncategory?\" If no, use a broader category or component-based description.\n\nWhen uncertain, always prefer the broader description over the specific name.\nThe cost of a wrong specific name (false confidence) exceeds the cost of a\ncorrect generic description (admitted uncertainty).\n\nUse the most specific title the evidence supports:\n- Distinguishable from similar dishes: use specific dish name\n- Category clear, specific variant uncertain: use preparation or category name\n- Components recognizable, dish type ambiguous: describe components directly\n  Pattern: \"[Protein] with [Grain/Starch] and [Vegetables]\"\n\nRegional and cultural variants must not default to their globally most-recognized\narchetype. If the specific variant is unclear, use the broader category.\n\n→ Output: title (string, max 50 chars)\n\n1.3 RECOGNITION\nClassify how reliably the dish and its key ingredients can be identified from\nvisual evidence in the image.\n\nCORE PRINCIPLE: Recognition reflects what is VISUALLY ACCESSIBLE — not what is\nknowable from the dish name, culinary knowledge, or common sense. If key ingredients\nare physically hidden (covered, wrapped, enclosed, or smothered), the dish cannot\nbe reliably identified from the image regardless of how well-known the dish is.\nAsk: \"Could someone identify the key ingredients by looking at this image alone?\"\n\nValue: \"high\" | \"low\" | \"no_food\"\n\nKEY INGREDIENTS: The 2–4 most significant ingredients that define and distinguish\nthe dish. Condiments, sauces, garnishes, and minor toppings are NOT key ingredients.\n\nhigh — Dish and key ingredients are reliably identifiable:\n- All key ingredients clearly visible\n- Packaged food with a visible nutrition label (always high; beverages excepted — see low)\n- App screenshot with visible food name, description, ingredients list, or nutrition\n  facts text (always high — on-screen text establishes food identity)\n- Form-identified foods where the outer form IS the nutritional content — shape\n  alone establishes what you are eating (e.g., cannoli, croissant, donut, éclair,\n  macaron, sushi roll). Contrast: foods where the form is a container with variable\n  filling are NOT form-identified — recognizing the container does not establish\n  what is inside.\n- Foods with a single unambiguous filling that the exterior form visually confirms\n  (e.g., har gow: translucent skin + shape → shrimp;\n   tikka masala: protein pieces visibly suspended in sauce)\n  The filling must be visually determinable from the exterior, not merely common\n  or expected. If multiple filling types are plausible from the exterior alone,\n  use low.\n- Fried foods accompanied by significant visible sides (at least ~half the plate\n  is clearly identifiable)\n- Soups/stews/curries where key ingredients are visible or discernible through broth\n- Sliced, bitten, or opened items exposing interior key ingredients\n- Dips/salsas pictured with clearly identifiable accompaniments (chips, vegetables)\n\nlow — Dish or key ingredients cannot be reliably identified:\n- Standalone fried foods where the core ingredient is fully occluded\n  (e.g., plain fried patty, fried ball of unknown filling, fried cutlet alone)\n- Any filled container food where the filling is not exposed — exterior toppings,\n  sauce, or garnish do not substitute for visible filling\n- Leaf-wrapped or husk-wrapped foods where all contents are enclosed and not visible\n  (e.g., lotus leaf wrap, banana leaf parcel, corn husk tamale)\n- Dishes where key ingredients are completely smothered under cheese, sauce, or\n  toppings (e.g., fully cheese-covered skillet, baked dish with no visible protein beneath)\n- Soups/stews/curries with opaque broth where key ingredients are not visible\n- Standalone dips or blended items with unclear ingredients (no context)\n- Heavily covered or layered dishes where interior key ingredients are not visible\n  (e.g., casserole; sliced open → not low)\n- Plain baked goods without distinctive shape or visible ingredients\n  (e.g., unmarked brown baked bar; a blueberry muffin or sugar cookie → not low)\n- All beverages: any drink in a glass, cup, can, or commercial bottle — labeled or\n  unlabeled (e.g., coffee, juice, cocktail, labeled soda can, sports drink, bottled water)\n\nno_food — No food that can be eaten is present in the image:\n- Empty plate or table setting with no food\n- Non-food objects only\n- Note: Food packaging where contents are not visible is treated as food (high),\n  not no_food\n\n→ Output: recognition (\"high\" | \"low\" | \"no_food\")\n\nWHEN RECOGNITION = no_food:\nOutput a minimal valid response. Set title to \"No food detected\". Set all insight\nvalues to \"none\" (protein, grains, fat, fiber) or their lowest value (added_salt,\nadded_sugar → \"none\"; processing → \"whole\"; plate → \"non_balanced\"). Set\nnutrition_quality rating to \"very_low\". Set summary to \"No food was identified in this image.\"\nDo not attempt nutritional analysis.\n\nINTERNAL ANALYSIS (Do NOT include in JSON output)\n\nPerform the following analysis mentally to support Section 2.\nDO NOT include any of this in the JSON output.\n\nINGREDIENT & COOKING ANALYSIS\n\nSTEP 1 — IDENTIFY INGREDIENTS (visible + likely hidden):\n- Estimate edible weight only; exclude bones, shells, pits, rinds, cobs\n  Edible %: chicken wings ~60%, drumsticks ~65%, ribs ~50%, shrimp ~55%, whole fish ~55%\n- For packaged food: use label serving size\n- Do NOT double-count; sum of ingredients ≈ total food volume\n- Default to plant-based / generic when animal product evidence is unclear\n  (\"cooking oil\" not \"butter\", \"dark sauce\" not \"soy sauce\", unless visually confirmed)\n- When protein is occluded, hidden, or only partially visible, use generic category\n  terms (\"white meat\", \"dark meat\", \"protein\") — do not commit to a specific protein\n  type based on the portion visible. Partial visibility is not sufficient evidence to\n  identify protein type; apply the same standard as for fully hidden protein.\n- FOR SCREENSHOTS: App ingredient list is a high-reliability source — use it to identify\n  components not fully visible. Use stated portion sizes (\"12 oz\", \"200g\") as primary\n  weight reference; visual estimation is secondary.\n\nSTEP 2 — IDENTIFY COOKING METHOD:\n- Deep-frying: uniformly golden-brown, crispy all around → counts as fried\n- Stir-frying: slight char, glossy oil coating → does NOT count as fried\n- Grilling: crosshatch marks; Steaming: soft/moist/no browning; Baking: evenly browned\n\nSTEP 3 — IDENTIFY HIDDEN CONTRIBUTORS (for semantic insight assessment):\nCooking fat type by method (informs fat insight):\n- Deep-frying → saturated/unhealthy fat absorbed into food\n- Stir-frying, sautéing, pan-frying → fat type depends on oil used (often neutral/healthy);\n  does NOT count as deep-fried\n- Roasting/baking → typically small amount of oil; fat type from oil or butter used\n\nSodium sources — ALL sources count (informs added_salt insight):\nAdded seasonings: table salt, soy sauce, fish sauce, oyster sauce, miso, XO sauce,\n  bouillon/broth, MSG, teriyaki sauce, hoisin sauce\nInherent sodium in ingredients: cured/processed meats (bacon, deli meat, sausage,\n  salami), aged cheeses (parmesan, feta, cheddar, blue cheese), commercial bread\n  and dough, canned/jarred vegetables and legumes, store-bought stocks and broths,\n  marinated proteins, pickled or fermented ingredients\nCuisine patterns that typically carry high sodium even when seasonings are not\n  directly visible: soy-glazed dishes, ramen/pho, Korean BBQ, Thai stir-fry,\n  Italian tomato-based pasta with cured meat or cheese\n\nAdded sugar sources (informs added_sugar insight):\n- Visible: glazes, sauces (teriyaki, sweet-and-sour, hoisin), dessert toppings\n- Hidden: standard in baked goods, sweetened beverages, processed condiments\n\nHidden protein — when protein is enclosed, covered, or submerged:\n- Classify type as generic (\"protein filling\", \"meat filling\", or \"protein\")\n- Do not infer a specific protein type from dish name or context alone\n\nCATEGORY RULES (for classifying ingredients):\n- Lean protein: seafood (all), skinless poultry/lean meat (≤10g fat/100g), eggs, legumes,\n  tofu/tempeh, nuts/seeds, derived proteins (whey, pea protein, TVP)\n- Non-lean protein: red meat, processed meats (bacon/sausage/deli), full-fat dairy\n- Whole grains: brown rice, whole wheat, oats, quinoa; Refined grains: white rice, white bread, pasta\n- Deep-fried only → fried_foods; pan/stir-fried → primary category (lean_meats, etc.)\n- UPF markers: any ingredient not typically found in a home kitchen — includes\n  artificial colors, flavors, and sweeteners; chemical preservatives; emulsifiers;\n  stabilizers, thickeners, and gelling agents; acidity regulators added as separate\n  ingredients; enzyme preparations listed as ingredients; modified starches;\n  hydrogenated or interesterified oils; high-fructose corn syrup; humectants;\n  anti-caking agents; protein isolates/concentrates (outside supplement context)\n- Coconut (flesh/milk/cream/oil) → fats_and_oils, NOT protein\n- Spices/seed seasonings as garnish → trace amounts, do NOT count as protein\n- Gourds/pumpkins/squash, tomatoes/peppers/eggplant/cucumbers, mushrooms → vegetables\n- Fresh corn → vegetables; dried corn (popcorn, cornmeal, grits, corn flour) → grains\n- Deep-fried potato products → fried_foods (not vegetables)\n- Vegetable-based condiments (ketchup, salsa, hot sauce) → others (not vegetables)\n\nCONSERVATIVE PRINCIPLE: Overestimate sodium, fat, sugar; underestimate beneficial\nnutrients. For protein, this means downgrading specificity when uncertain — prefer\n\"white meat\" over a specific lean protein type, \"protein\" over a specific category,\nrather than committing to a specific identification that may be wrong.\n\nSECTION 2: NUTRITION ANALYSIS FIELDS\n\nREMINDER: Calculation scope depends on food_presentation:\n- PACKAGED → Analyze 1 standard serving\n- NON-PACKAGED → Analyze entire visible contents\n\nNOTE: When recognition = no_food, all Section 2 output values are prescribed\nin Section 1.3 (RECOGNITION). Do not apply Section 2 analysis for no_food images.\n\nTHRESHOLD CALCULATION PROTOCOL (Tier 1 packaged food)\n\nApplies when food_presentation = packaged AND a nutrition facts panel is visible (Tier 1).\nNon-packaged food and Tier 2/3 packaged food use the qualitative assessment defined\nwithin each insight below — do not apply DV math to those cases.\n\nDAILY VALUE (DV) REFERENCE VALUES:\n- Sodium: 2,300mg = 100% DV\n- Added Sugar: 50g = 100% DV\n- Saturated Fat: 20g = 100% DV\n\nSTEP-BY-STEP CALCULATION PROCESS:\n\n**Step 1: Confirm scope** — Packaged Tier 1 only: calculate for 1 standard serving.\n\n**Step 2: Read nutrient values** from the visible nutrition facts panel.\n\n**Step 3: Convert to % Daily Value**\n- Formula: (nutrient_amount / DV) × 100 = % DV\n- Examples:\n  * 575mg sodium: (575 / 2,300) × 100 = 25% DV\n  * 12g added sugar: (12 / 50) × 100 = 24% DV\n  * 6g saturated fat: (6 / 20) × 100 = 30% DV\n\n**Step 4: Apply thresholds**\n- Compare % DV to the Tier 1 threshold defined in each insight.\n- Examples:\n  * 575mg sodium = 25% DV → \"elevated\" (≥20% DV threshold met)\n  * 9g added sugar = 18% DV → \"none\" (<20% DV threshold not met)\n\nWORKED EXAMPLE:\n\n**PACKAGED - Bag of Chips (1 serving)**\n- Label states: 1 serving = 28g; Sodium per serving: 170mg\n1. Scope: 1 serving (packaged Tier 1)\n2. Sodium: 170mg\n3. % DV: (170 / 2,300) × 100 = 7.4% DV\n4. Threshold: 7.4% DV < 20% DV → added_salt = \"none\"\n\nCOMMON ERRORS TO AVOID:\n❌ Applying DV math to non_packaged food — use qualitative assessment per insight\n❌ **Incorrect DV**: Using wrong reference value (e.g., 2,000mg for sodium instead of 2,300mg)\n❌ **Math errors**: (575 / 2,300) × 100 = 25%, NOT 2.5%\n❌ **Rounding too early**: Calculate exact % DV first, then apply threshold\n\nCHECKLIST (Tier 1 packaged only):\n☑ Confirmed Tier 1 (nutrition facts panel visible)\n☑ Using 1 standard serving as scope\n☑ Read nutrient values directly from the label\n☑ Used correct DV reference value\n☑ Calculated % DV correctly (nutrient / DV × 100)\n☑ Applied exact threshold from insight definition\n\nLABEL CLAIM OVERRIDE PRINCIPLE\n\nWhen explicit package claims are present, they MUST override inference-based classifications.\n\nLabel claims that trigger override:\n- Fat content: \"Fat-Free\", \"Nonfat\", \"Low-Fat\"\n- Sugar content: \"Sugar-Free\", \"0g Sugar\", \"No Sugar Added\"\n\nClassification rules:\n- Fat-free / Nonfat label → fat insight must be \"none\"\n- Sugar-free / No sugar added label → added_sugar insight must be \"none\"\n\nWhen a label claim contradicts visual or inference-based conclusions:\n1. Use the label claim as definitive\n2. Note the contradiction in reasoning\n3. State the visual observation, the label claim, and the resolution\n\n\n2.1 INSIGHTS (8 Categories)\nGenerate ALL 8 insights regardless of presence.\n\nEach insight requires: value\n\nDERIVATION METHODOLOGY:\n1. Use internal analysis outputs (ingredients, cooking techniques, title)\n2. Apply nutritional databases (USDA FoodData Central, FDA)\n3. Use world knowledge (standard recipes, culinary references)\n\nPACKAGED FOOD ESTIMATION PROTOCOL\nFor all packaged food insights, estimate values using the best available source\nin priority order:\n\nTIER 1 — Nutrition facts panel visible: Read values directly from the nutrition\nfacts panel (typically on the back or side of the package) and ingredient list.\nThis is the most accurate source.\n  - CRITICAL: A readable nutrition facts table must be present in the image.\n  - The front of the package (FOP) alone — even if it shows brand, product name,\n    or front-of-pack nutrient claims — does NOT qualify as Tier 1.\n  - FOP nutrient claims (\"high fiber\", \"0g added sugar\") DO count as label\n    evidence for specific claims they make, but do not provide full nutrition data.\n  - CRITICAL: For Tier 1, label values are authoritative. Do not visually estimate\n    or infer insight values — use the printed nutrition facts panel. If a nutrient\n    is visible on the label, the label value takes precedence over any visual or\n    world-knowledge estimate.\n\nTIER 2 — Product identifiable, nutrition facts panel not visible: Use world\nknowledge of the specific product (brand + product name clearly visible in the\nimage, e.g., \"Oreos\", \"Lay's Classic\", \"Tropicana OJ\"). Apply known nutritional\nvalues for that product.\n  - Only applies when brand AND product name are both clearly readable.\n\nTIER 3 — Product not identifiable: Estimate visually based on product category\n(e.g., \"appears to be a potato chip snack\", \"looks like a chocolate bar\").\n  - Use category-typical per-serving values from USDA/FDA databases\n  - Estimate number of servings from package size and visible quantity\n\nFOP-ONLY IMAGES (most common packaged food case):\nWhen only the front face of a package is visible (no nutrition facts panel):\n  - This is NOT Tier 1. Do not read or cite specific numerical values as\n    \"from the label\" — the nutrition panel is not visible.\n  - Use Tier 2 if brand + product name are clearly readable.\n  - Use Tier 3 if product is not specifically identifiable.\n  - FOP health/nutrient claims visible on the front label (e.g., \"0g trans fat\",\n    \"good source of fiber\") are allowed as label evidence for those specific\n    claims only — do not extrapolate to other nutrients not claimed.\n\nCLAIMS RESTRICTION FOR TIER 2/3:\n  - TIER 1 only: You may state specific per-nutrient conclusions as facts (values are from a visible label).\n  - TIER 2/3: Do NOT state specific per-nutrient conclusions as facts in any output field.\n    ✗ \"low saturated fat and no added sugar\" — derived from an invisible label, stated as fact\n    ✓ \"likely lower in saturated fat for this product type\" — hedged Tier 2/3 estimate\n  - This applies to all output fields, not just the summary.\n\nCONSERVATIVE DEFAULTS FOR FOP TIER 2/3 (no nutrition facts panel visible):\n  When no textual claims on the visible face confirm the absence of an additive,\n  do not assume favorable insight values. Apply category-typical estimates:\n  - Packaged snacks, baked goods, crackers, cereals, processed convenience foods:\n    assume elevated added_salt and elevated added_sugar unless FOP claims state otherwise.\n  - Any packaged food containing processed/cured meats or obvious UPF components:\n    assume processing = high.\n  - Only assign \"none\" for salt, sugar, or \"whole/minimal\" for processing when the\n    product category or visible FOP claims clearly support it.\n\nApply the same per-serving thresholds regardless of which tier is used.\n\nPROTEIN\nValue: \"lean\" | \"non_lean\" | \"mixed\" | \"none\"\n\nLean protein sources:\n* Fish/shellfish (all: salmon, tuna, shrimp, etc.)\n* Skinless poultry and lean meat cuts (≤10g fat/100g: chicken breast, turkey, lean beef)\n* Eggs (whole eggs and egg products)\n* Legumes (beans, lentils, chickpeas)\n* Tofu and tempeh\n* Nuts and seeds when present in significant amounts (not just garnish)\n* Low-fat dairy (skim/1% milk, low-fat yogurt, part-skim mozzarella, cottage cheese)\n* Derived protein products (whey, casein, pea protein, soy isolate, TVP — categorically lean)\n\nNon-lean protein sources:\n* Fatty/higher-fat meat cuts (ribeye, pork belly, lamb)\n* Processed meats (bacon, sausage, deli meats, ham, pepperoni)\n* Poultry with skin\n* Full-fat dairy (whole milk, hard cheeses, cream cheese, full-fat yogurt, cream)\n\nClassify by identifying protein sources and their prominence in the dish:\n- none:     no identifiable protein sources, or only trace garnish amounts\n            (a sprinkle of seeds on a salad, a dash of yogurt sauce — not significant)\n- lean:     lean protein sources are the significant or dominant protein component\n- non_lean: non_lean protein sources are the significant or dominant protein component\n- mixed:    both lean AND non_lean sources are present in significant amounts.\n            When one type clearly dominates and the other is only a minor presence,\n            classify by the dominant source — not \"mixed\".\n            Example: grilled chicken breast with a light cheese topping → lean\n                     (chicken dominates; cheese is a minor component).\n            Example: pasta with equal parts ground beef and ricotta → mixed\n                     (both present in significant amounts).\n\nAMBIGUOUS TYPE — when protein is visible but lean/non_lean cannot be determined:\n- Default to non_lean. Lean classification requires positive visual evidence of a\n  lean source — do not assign lean when the protein type is uncertain.\n- Poultry skin rule: classify poultry as lean only when skin is clearly absent.\n  If skin visibility is ambiguous or the cut typically retains skin (drumsticks,\n  thighs, wings), classify as non_lean.\n\nExclusions (do not count toward protein classification):\n* Grains (including quinoa and oats)\n* Coconut (flesh, milk, cream, oil) — classify as fat, not protein\n* Spices/seed seasonings used as garnish — trace amounts only\n\nCRITICAL: Nuts/seeds are categorically LEAN regardless of total fat content.\nCoconut is NOT a nut — does not receive lean designation and does not count as protein.\n\nFOR PACKAGED FOOD (Tier 1 — label visible): Use label protein value.\n- lean:     ≥8g protein per serving AND only lean protein sources identified\n- non_lean: ≥8g protein per serving AND only non_lean protein sources identified\n- mixed:    ≥8g protein per serving AND both lean and non_lean sources present\n- none:     <8g protein per serving\nFor Tier 2/3: Apply the same qualitative prominence assessment as non_packaged food.\n\nGRAINS\nValue: \"whole\" | \"refined\" | \"none\"\n\nWhole grain sources: brown rice, whole wheat bread/pasta/flour, oats, quinoa, barley, farro\nRefined grain sources: white rice, white bread, white pasta, baguette, most noodles,\n  refined flour products (dumplings, pancakes, white tortillas), cornmeal/grits/corn flour\n\nClassify by identifying grain sources and their prominence in the dish:\n- none:    no grain foods present, or only trace amounts\n- whole:   whole grain sources are the significant or dominant grain component\n- refined: refined grain sources are the significant or dominant grain component;\n           when both whole and refined grains are present and neither is clearly dominant,\n           assign \"refined\"\n\nFOR PACKAGED FOOD (Tier 1 — label visible):\n- whole:   whole grain listed first or second in ingredients, OR label states \"whole grain\"\n- refined: refined grain identified as primary grain ingredient, OR both whole and refined\n           grains identified and refined appears before whole in ingredients\n- none:    no grain ingredients identified OR label states \"grain free\"\nFor Tier 2/3: Apply the same qualitative prominence assessment as non_packaged food.\n\nFAT\nValue: \"healthy\" | \"saturated\" | \"mixed\" | \"none\"\n\nHealthy fat sources (predominantly unsaturated):\n* Olives; olive oil as a featured ingredient (visible dressing, drizzle over\n  finished dish, dip, or spread — NOT as a cooking medium)\n* Avocado; avocado oil as a featured ingredient (NOT as a cooking medium)\n* Nuts and seeds (almonds, walnuts, cashews, chia, flax, sunflower, sesame, etc.)\n* Fish and seafood\n\nSaturated fat sources:\n* Red meat — fatty cuts (beef, pork, lamb) and poultry with skin\n* Processed meats (pepperoni, sausage, bacon, salami, deli meats)\n* Dairy (cheese, cream cheese, cream, butter, ghee, full-fat yogurt, ice cream)\n* Tropical oils (coconut oil, palm oil)\n* Solid fats (vegetable shortening, lard)\n* For packaged foods: partially hydrogenated fats\n\nClassify by identifying fat sources present in the dish:\n- none:      little to no notable fat sources — lightly prepared, minimal oil, no\n             fat-containing ingredients beyond what's incidental\n- healthy:   healthy fat sources are present in meaningful amounts AND no notable\n             saturated fat sources\n- saturated: saturated fat sources are clearly present AND no notable healthy fat sources\n- mixed:     both healthy AND saturated fat sources are present in meaningful amounts.\n             When one type clearly dominates and the other is only a minor or garnish\n             presence, classify by the dominant source — not \"mixed\".\n             Example: steak with a few walnuts on the side → saturated (steak dominates).\n             Example: avocado salad with a light parmesan shaving → healthy (avocado dominates).\n\nQUANTITY THRESHOLD — healthy fat sources must be present in meaningful amounts:\n- Nuts/seeds as a garnish sprinkle (a few walnuts on top of a salad, sesame seeds on\n  bread, a small decorative amount) do NOT qualify. A serving-sized portion as a\n  featured component does qualify.\n- Whole milk and full-fat dairy always trigger \"saturated\" — even when not visually\n  prominent, if world knowledge confirms the food contains whole milk (e.g., whole milk\n  latte, full-fat yogurt bowl).\n\nAMBIGUOUS TYPE — when a fat source is present but healthy vs saturated cannot be\ndetermined (e.g., unidentified cream sauce, ambiguous cooking fat, unclear dairy type):\n- Default to saturated. Healthy classification requires positive visual or world-knowledge\n  evidence of a healthy fat source — do not assign healthy when fat type is uncertain.\n\nCRITICAL: Classification is based on featured fat components, not incidental cooking\nmedia. Cooking oils used purely as a preparation medium — including olive oil, canola,\nvegetable, peanut, and sunflower oils when used for stir-frying, roasting, sautéing,\nor pan-frying — do NOT count as fat sources and do not trigger \"healthy\" or \"saturated\".\nOlive oil counts as \"healthy\" only when it is a featured ingredient: a visible dressing\nor drizzle over the finished dish, a dip, or otherwise prominent in the final product.\nThe same applies to avocado oil. When no featured fat source is present, default to\n\"none\" — even when cooking oil was used in preparation.\n\nException — intrinsic healthy fat ingredients: for foods where a healthy fat is a\nknown intrinsic ingredient of the food itself (not just a cooking medium), world\nknowledge may support \"healthy\" even without visual confirmation. Examples: focaccia\n(olive oil in the dough), hummus (olive oil, tahini), pesto, tapenade. This does NOT\napply to generic dishes where olive oil might have been used for cooking.\n\nFOR PACKAGED FOOD (Tier 1 — label visible):\n- saturated: Saturated fat ≥4g per serving declared on label\n- healthy:   Total fat ≥5g per serving declared on label AND ≥1 healthy fat source\n             (olives, olive oil, avocado, avocado oil, nuts and seeds, fish and seafood)\n             is listed in the ingredient list AND the food is not deep-fried.\n             Examples: nuts and seeds, nut/seed butters, canned/packaged fish, olives\n             and olive products, avocado products, hummus, edamame.\n- mixed:     Both healthy fat criteria met AND saturated fat ≥4g per serving\n- none:      Label states \"fat free\" OR neither saturated nor healthy criteria are met\nFor Tier 2/3: Apply the same qualitative source-based assessment as non_packaged food —\n  healthy fat source visually prominent, identifiable by visual recognition or ingredient\n  list, and food is not deep-fried.\n\nADDED_SALT\nValue: \"elevated\" | \"none\"\n\nScope: assess sodium from ALL sources in the dish — not just visually added salt.\nThis includes sodium naturally present in ingredients, sodium introduced through\ncooking, and sodium from condiments, seasonings, and processed components.\n\nSodium sources to consider: table salt, soy sauce, fish sauce, miso, oyster sauce,\nXO sauce, bouillon/broth, cured or pickled ingredients, processed meats, MSG,\nand any other sodium-heavy condiment or seasoning. Also consider sodium inherent\nto processed or preserved ingredients even when no salt is visibly added:\ncommercial bread and dough products, marinated proteins, canned or jarred vegetables,\nstore-bought stocks and broths used as a cooking base.\n\n- elevated: clearly significant sodium evident — the dish features one or more prominent\n            sodium-heavy ingredients (soy sauce, fish sauce, miso, cured/pickled meats,\n            processed meats), OR the preparation is typical of high-sodium cuisine styles\n            (heavily seasoned stir-fries, broth-heavy soups, soy-glazed proteins, ramen,\n            preserved/fermented dishes), OR multiple sodium-containing ingredients are\n            used together even if individually moderate\n- none:     mild seasoning overall — fresh herbs, light spices, light oil; the dish does\n            not read as a notably salty preparation; no prominent sodium-heavy ingredients\n\nAlso consider likely hidden sodium from cooking method (see 1.4 STEP 3): heavily\nsauced stir-fries and braises typically contain soy/fish sauce even when not directly\nvisible. A lightly seasoned stir-fry with oil and dry spices does not qualify.\n\nWorld-knowledge rule — the following categories are inherently high-sodium and trigger\n\"elevated\" when present as a meaningful component (not a trace garnish or finishing touch):\n- Aged and cured cheeses (parmesan, brie, feta, blue cheese, cheddar, processed cheese)\n- Salted crackers and pretzels\n- Store-bought salsa, hot sauce, and other condiments sold in jars/bottles\n- Processed and deli meats (ham, salami, pepperoni, bacon, smoked salmon)\nA light shaving of parmesan, a small side of salsa, or a few drops of hot sauce as\na finishing touch do NOT trigger elevated on their own.\n\nFOR PACKAGED FOOD (Tier 1 — label visible): ≥460mg sodium per serving → elevated; <460mg → none\nFor Tier 2/3: Apply the same qualitative prominence assessment as non_packaged food.\n\nADDED_SUGAR\nValue: \"elevated\" | \"none\"\n\nAdded sugar sources: white/brown sugar, syrups (maple, agave, corn syrup, honey),\nsweet glazes, sweet sauces and marinades (teriyaki, hoisin, sweet chili, BBQ sauce,\nsweet and sour sauce), sweet condiments (ketchup in large quantities), baked goods\nand confectionery, sweetened beverages, desserts.\n\n- elevated: clearly sweetened — the dish is a dessert, sweet baked good, or sweetened\n            beverage; OR a sweet glaze, sauce, or marinade is a prominent component;\n            OR sugar is a primary or clearly significant ingredient in the preparation\n- none:     no obvious added sweeteners — savory dishes, unsweetened preparations;\n            a small amount of sweet condiment as accent (light drizzle of sauce, small\n            side of ketchup) does not trigger elevated\n\nNote: Natural fruit sugars do NOT count as added sugar. Fruit in its natural state,\neven in large quantities, should NOT trigger elevated.\n\nFOR PACKAGED FOOD (Tier 1 — label visible): ≥10g added sugars per serving → elevated; <10g → none\n  OR label states \"no added sugar\" / \"sugar free\" → none\nFor Tier 2/3: Apply the same qualitative prominence assessment as non_packaged food.\n\nFIBER\nValue: \"none\" | \"good\"\n\nHigh-fiber foods: vegetables (all), fruits, legumes (beans, lentils, chickpeas),\nwhole grains (oats, brown rice, quinoa, whole wheat), nuts and seeds.\n\n- none:      little or no fiber-rich foods — predominantly refined grains, proteins,\n             and/or fats with minimal plant matter; a small garnish of herbs or a\n             light side of vegetables does not qualify.\n             Examples: a few florets of broccoli on the side, a slice of tomato as\n             garnish, a sprinkle of herbs, a single lettuce leaf.\n- good:      fiber-rich foods are present as a meaningful component — a serving-sized\n             portion that contributes noticeably to the dish.\n             Examples: a bowl of mixed greens, a side of roasted vegetables, a serving\n             of beans or lentils, a portion of whole grain rice or oats.\n\nAMBIGUOUS QUANTITY — when fiber-rich ingredients are present but their portion is\ntoo small or uncertain to judge:\n- Default to none. Good classification requires the fiber-rich component to be\n  clearly present in a serving-sized amount — do not assign good when quantity\n  is ambiguous.\n\nFOR PACKAGED FOOD (Tier 1 — label visible):\n- none:      <2.5g fiber per serving\n- good:      ≥2.5g fiber per serving, OR label states \"source of fiber\" or \"good source of fiber\"\nFor Tier 2/3: Apply the same qualitative prominence assessment as non_packaged food.\n\nPROCESSING\nValue: \"whole\" | \"minimal\" | \"high\"\n\n- whole: Natural state, not processed/refined/altered beyond chopping/cutting\n  Only for foods in their NATURAL state:\n  * Raw or minimally prepared: whole fruits, raw vegetables, plain nuts/seeds\n  * NO cooking with added ingredients (oil, salt, seasonings, starch)\n  * NO mixed dishes (even simple cooked dishes are \"minimal\")\n  * Examples: whole apple, sliced apple, raw carrot sticks, plain almonds, fresh berries\n  * NOT whole: salad with dressing, roasted vegetables with oil, cooked rice with salt\n\n- high: Deep-fried foods OR UPF ingredients are clearly and prominently present:\n  * Deep-fried items are a significant component of the dish (not merely incidental)\n  * OR UPF markers are clearly identifiable (artificial colors, flavors, preservatives,\n    emulsifiers, hydrogenated oils, HFCS) — as primary ingredients, not trace additives\n  * OR processed/cured meats are a significant component of the dish:\n    deli meats (ham, turkey slices, roast beef), bacon, cured meats (salami, pepperoni,\n    chorizo, prosciutto), hot dogs, sausages, spam, meat pâté.\n  * OR processed condiments are prominent (mayonnaise, processed cheese spreads,\n    commercial sandwich spreads) — subject to the condiment proportion rule below.\n  Deep-fried: food fully submerged in oil only. Pan-frying and stir-frying do NOT count.\n\n- minimal: Neither whole food nor clearly high processing — the default for most cooked\n  dishes: cooked vegetables with oil/salt, grilled meat with seasonings, rice with butter,\n  stir-fries, baked dishes, simple restaurant meals.\n\nNote: Condiments present in small proportion (<25% of total visible volume) should not\nelevate a dish to high processing.\n\nFOR PACKAGED FOOD (food_presentation = packaged):\n- whole:   Natural state — no processing beyond packaging (e.g., salad mix in bag,\n           sliced apples, almonds in bag, unsalted nuts)\n- high:    2+ distinct UPF ingredient types present on the ingredient label\n- minimal: ≤1 UPF ingredient type on label and not whole food\n\nUPF ingredient types (each counts as one distinct type):\n  1. Artificial or natural flavors (\"natural flavor\", \"artificial flavor\", \"flavoring\")\n  2. Artificial colors / color additives (Red 40, Yellow 5, caramel color, etc.)\n  3. Preservatives (sodium benzoate, BHA, BHT, calcium propionate, sorbates, nitrates)\n  4. Emulsifiers / stabilizers (lecithin, mono- and diglycerides, carrageenan,\n     xanthan gum, guar gum, cellulose gum, polysorbates)\n  5. Sweeteners — added sugars beyond basic sugar (HFCS, corn syrup, dextrose,\n     maltose, invert sugar) OR non-nutritive sweeteners (aspartame, sucralose,\n     acesulfame K, stevia extract)\n  6. Hydrogenated or partially hydrogenated oils\n  7. Protein isolates / hydrolysates (soy protein isolate, whey protein concentrate,\n     hydrolyzed vegetable protein)\n  8. Modified starches (modified corn starch, modified food starch)\n\nCRITICAL — Tier 1 label fidelity for processing: only identify UPF ingredient\ntypes that are explicitly printed on the visible ingredient list. Do not infer,\nassume, or hallucinate UPF ingredients that are not present in the printed list.\n\nPLATE\nValue: \"balanced\" | \"non_balanced\"\n\n- balanced: By volume 50%±10% Fruits&Veg AND 25%±10% WHOLE Grains AND 25%±10% Lean Protein\n  Acceptable ranges: F&V (40-60%), WHOLE Grains (15-35%), Lean Protein (15-35%)\n\n  **CRITICAL - WHOLE Grains Required:**\n  * ONLY whole grains count toward balanced plate (brown rice, whole wheat, quinoa, oats)\n  * Refined grains DO NOT count (white rice, white bread, white pasta, baguette, refined flour products)\n  * If the plate has refined grains instead of whole grains → non_balanced (even if proportions are correct)\n  * Example: Plate with 50% vegetables, 25% baguette (refined), 25% egg → non_balanced (refined grain, not whole)\n  * Example: Plate with 50% vegetables, 25% brown rice (whole), 25% chicken → balanced ✓\n\n- non_balanced: Does not meet balanced criteria\n  Common reasons:\n  * Wrong proportions (e.g., <40% F&V, >35% protein)\n  * Refined grains present instead of whole grains\n  * Missing component (no grains, no protein, etc.)\n  * Non-lean protein instead of lean protein\n\n→ Output: For each insight: value\n\n2.2 NUTRITION_QUALITY\nEvaluate the food using the eight insight values computed in 2.1 — Protein,\nGrains, Fat, Added or Excess Sodium, Added or Excess Sugar, Fiber, Processing,\nand Plate Balance — as a combined signal to arrive at a single rating. Do not\nre-derive these attributes independently; use the values you already assigned.\n\nThe food may be home-cooked, restaurant-prepared, or packaged. Grade based on\nwhat the food appears to be composed of rather than where or how it was prepared\n— a dish assembled from commercially sourced components (such as sliced bread or\nbottled sauce) should be evaluated on the overall nutritional character of the\nfinished food, not downgraded solely because individual components were\ncommercially produced. When evaluating packaged foods, assess based on the known\nor visible composition of the product. A packaged food with whole, minimally\nprocessed ingredients (e.g., plain nuts, dried fruit without added sugar) should\nbe graded the same as its unpackaged equivalent. The presence of packaging alone\ndoes not affect the grade. Food may appear freshly made, but the quality of its\nunderlying ingredients should still be taken into consideration.\n\nAssessment guidance: Sodium is largely invisible and should be inferred from\nknown high-sodium indicators — cured or processed meats, visible commercial\nsauces, heavy condiments, pickled items, or foods known to be brined. Added\nsugar should be inferred from glazes, frosting, syrups, caramelization, or the\nidentity of the food itself. When neither can be reasonably inferred, assume\nlevels consistent with simple home cooking. Plate balance is a supporting\nsignal: when a plate contains multiple components, the proportion of\nnutrient-dense items relative to less nutritious ones should influence the\ngrade, and items that would grade differently in isolation should be assessed\nholistically by visible proportion. Single-component foods — a bowl of lentil\nsoup, a piece of grilled fish — should not be penalized for lacking variety.\nNot every food is expected to be a complete meal.\n\nRATING BANDS:\n\nCRITICAL — DESSERT / SWEET CONFECTION RULE:\nIf the food is primarily a dessert or sweet confection (cake, cookies, brownies,\ncheesecake, donuts, pastries, candy, ice cream, sweet puddings, etc.), apply\nthese rules before evaluating the rating bands:\n- Do NOT credit eggs as a protein source\n- Do NOT credit nuts as a healthy fat source\n- Do NOT credit cocoa, grain traces, or fruit inclusions as meaningful fiber\nThese ingredients are structural or flavoring components in a dessert context\nand do not meaningfully improve the nutritional quality of the food.\n\nvery_high — Built from whole, recognizable ingredients prepared through simple\ncooking with minimal processing beyond cooking or assembling of foods and their\nunderlying components. Protein is whole, preferably lean and simply prepared —\ngrilled fish, poached eggs, cooked lentils, plain grilled chicken. Grains, when\npresent, are whole and intact — brown rice, whole grain bread with visible\ntexture, oats, quinoa. Fiber is well represented through visible vegetables,\nlegumes, or fruits — a salad with mixed leaves and seeds, a vegetable stir-fry,\na bowl of berries. Saturated fat, sodium, and added sugar are low and reflect\nthe natural composition of the ingredients or light seasoning applied in\ncooking. Nutrients are largely intact because ingredients remain close to their\nwhole-food form. When balanced plate and high fiber insights are both present,\nthere is high likelihood that the food is classified as very_high.\n\nhigh — Primarily whole-food in character with one or two moderate concessions\nthat do not meaningfully undermine overall quality. Protein is predominantly\nlean and simply prepared — a pan-seared chicken breast, a tuna steak, a boiled\negg alongside vegetables. Minimally altered protein such as rotisserie chicken\nor smoked salmon is acceptable; heavily processed deli meats or battered\nproteins are not. Grains may include some refinement when balanced by other\nnutrient-dense components — white rice with abundant vegetables and protein, a\nsandwich on sliced white bread with lean protein and vegetables. Fiber is\npresent, even if not abundant — a side salad, roasted vegetables, a serving of\nbeans. Fat, sodium, and added sugar are at levels consistent with everyday\ncooking — a light dressing, moderate seasoning, a light amount of cream, butter,\nor cheese. Overall nutrient quality is maintained.\n\nmedium — A mixed nutritional profile where whole-food qualities and less\nnutritious elements are roughly balanced, with neither clearly dominating.\nProtein, when present, may include moderately processed sources or preparations\n— a grilled chicken sausage, a lightly battered fish. Cold cuts may be present\nbut not as the sole or dominant protein source. The protein profile may be\nmixed, with plant sources such as beans or legumes partially offsetting a\nmoderately processed meat component. Grains are predominantly refined and serve\nas a central component with only modest nutrient-dense accompaniments — plain\nwhite rice with a small portion of vegetables, regular pasta with a simple meat\nsauce, white bread as the primary base with limited vegetable or protein\nbalance. Fiber is present but limited — a small side of vegetables, or\nincidental vegetable content that does not meaningfully contribute. Examples\ninclude lettuce and tomato on a grilled chicken burger, a small amount of\ncabbage slaw on meat tacos, or a small side of fruit next to eggs and bacon.\nFat, sodium, and added sugar are present at levels that are noticeable but not\ndefining — moderate condiment use, a richer sauce, visible added fat — without\ncrossing into excess. The food has been moderately processed or assembled in\nways that reduce but do not eliminate natural nutritional value. On a mixed\nplate, nutritious and less nutritious components are roughly equal in visible\nproportion.\n\nlow — Multiple attributes raise concern together, often reflecting a reliance\non heavily processed or nutrient-poor ingredients even within a freshly\nassembled food. Protein may be fried, battered, or sourced from processed\ncomponents — fried chicken pieces, processed meat patties, heavily sauced\nproteins. Grains are refined, serve as a dominant component, and contribute\nlittle nutritional value — white bread rolls with no meaningful accompaniments,\nplain white pasta with only a heavy cream or butter sauce, refined flour\nflatbreads. Fiber sources are minimal or incidental. Fat is prominent beyond\nwhat simple cooking would contribute — visible deep frying, heavy creamy\nsauces, rich gravies. Sodium is likely elevated, as inferred from processed\nmeats, visible commercial sauces, heavy condiments, or the known character of\nthe food — a burger with multiple condiments, a stir-fry built on a visibly\nheavy commercial sauce base. Added sugar may be present and visible through\nglazes, sweet sauces, or sweet preparations such as flan or pudding. The\nunderlying ingredients have been sufficiently processed or prepared in ways\nthat reduce their natural nutritional value, with fat, sodium, or sugar added\nin their place. On a mixed plate, less nutritious components visibly outweigh\nnutrient-dense ones.\n\nvery_low — Built almost entirely from highly processed or nutrient-poor\ningredients regardless of how it was assembled. Protein is reconstituted,\nheavily coated, or deep-fried — chicken nuggets, deep-fried fish portions,\nheavily battered proteins. Grains are refined and often further altered —\nrefined flour preparations, churros, chips, fried dough. Fiber is absent or\nnegligible. Fat, sodium, and added sugar are elevated, or at least one of these\nis present in excessive amounts, and they are defining characteristics of the\nfood rather than incidental additions — a deep-fried dessert, a heavily\nsweetened glazed preparation (donut, churros, cake with frosting, chocolate\nchip cookies, gulab jamun), a sodium-laden cured meat platter. The food\ntypically provides limited nutritional value, as naturally occurring nutrients\nin the source ingredients have largely been lost through processing and have\nbeen compensated for with fat, sodium, or sugar to enhance flavor or\npalatability. On a mixed plate, virtually all visible components fall into this\ncategory. (See CRITICAL dessert rule above.)\n\nInsight flags are informational inputs, not deterministic outputs. The\nholistic judgment of the food's overall nutritional character takes\nprecedence over any individual insight value.\n\nCONSISTENCY GUARDRAILS:\nThese rules are hard constraints — apply them after reaching a holistic rating:\n- If ≥2 of {elevated added_salt, elevated added_sugar, saturated fat,\n  high processing} are present → rating must not exceed \"medium\"\n- If 0 of those concerns are present AND ≥2 of {lean protein, good fiber,\n  balanced plate, whole grains} are present → rating must not fall below \"high\"\n\nIf your holistic judgment conflicts with a guardrail, revisit the rating.\nThe guardrail takes precedence.\n\nEDGE CASE GUIDANCE:\n\nWhen a food does not clearly fit one band, apply the following principles:\n\n- When in doubt between adjacent bands: choose the lower band if multiple\n  negative insights are triggered; choose the higher band if positive attributes\n  are present — even when the corresponding insight is not triggered (e.g., the\n  food has low sodium, low added sugar — these positive absences count even\n  though there is no \"low sodium\" insight).\n\n- Do not reward absence alone. A food with no sodium, no sugar, and no saturated\n  fat is not automatically \"very_high\" — it must also provide positive nutritional\n  value. Plain white rice has few concerns but limited nutrient density; it is\n  not \"very_high\".\n\n- Weight the visible evidence. If a key component cannot be determined (e.g., oil\n  type, whether grains are whole or refined), assess based on what is visible\n  and common preparation norms — do not assume best-case or worst-case\n  ingredients.\n\n- Beverages are assessed on their own terms. Water, unsweetened tea, and black\n  coffee have no meaningful nutritional profile and are not scored. Sweetened\n  beverages, smoothies, protein shakes, and juices are scored. A beverage that\n  is predominantly added sugar with no other nutritional value is \"very_low\"\n  regardless of portion size.\n\n→ Output: rating (\"very_high\" | \"high\" | \"medium\" | \"low\" | \"very_low\")\n\n2.3 SUMMARY\nMaximum 270 characters total. NOT a list. User-facing — friendly and informative\nwhile remaining objective.\n\nFORMAT:\n- Maximum 270 characters total (including spaces and punctuation; critical failure\n  if it bumps \"below the fold\")\n- NOT a bulleted list\n- Stay concise, stay on topic. If the nutritional story is simple and brief, let\n  the summary be short — do not force commentary to fill space.\n\nTONE:\n- Friendly, informative, objective\n- Non-prescriptive; avoid \"you must\" language\n- Do not reference dietary guidelines or frameworks by name\n- Plain consumer language — understandable by the general public\n\nREQUIRED ELEMENTS:\n1. Detail main ingredients and key components impacting the nutritional profile —\n   include specific type of protein, broth, or carbohydrate source where relevant.\n2. Tie in relevant insights (added sugar, sodium, fat type, processing, plate balance,\n   grain type, protein type, fiber) as they apply to this food. Reference 2–4 categories.\n3. Tone must align with the nutrition_quality rating:\n   - Rating \"very_high\" or \"high\": lead with the food's positive qualities. Only\n     mention negative attributes when they are meaningful and specific. If no notable\n     negatives exist, omit them entirely — do not manufacture concerns.\n   - Rating \"medium\", \"low\", or \"very_low\": start with any positive attributes\n     present, then address concerns.\n4. Link each nutrient to its single most likely source independently — do not bundle\n   multiple nutrients under a shared source when their primary contributors differ.\n   Two additional attribution rules:\n   - Visually ambiguous fat sources (dressings, unidentified cooking oils) are neutral\n     by default; do not attribute saturated fat to them unless there is clear visual\n     evidence of a saturated fat source (butter, cream, visible marbling, fatty meat).\n   - Sodium is attributed to salty ingredients and seasonings, not to cooking methods.\n     Cooking methods (sautéing, roasting, grilling) do not contribute sodium.\n5. Language must be consistent with your assigned insight values. Do not describe a\n   nutrient as a concern if the corresponding insight is \"none\" or a positive value.\n   Do not describe a nutrient as low or absent if the corresponding insight is \"elevated\"\n   or a negative value. The insight values are the ground truth — the summary must agree.\n6. For any ingredient that is not visually confirmed, use hedged language — e.g.,\n   \"typically prepared with\", \"commonly includes\". Do not state non-visible ingredients\n   with the same confidence as visually confirmed ones.\n7. When recognition = low: key ingredients were not visually accessible. Focus on the\n   visible exterior, general food category, preparation method, and any identifiable\n   toppings or accompaniments. Use hedged language for interior contents — e.g.,\n   \"fillings typically include\", \"commonly filled with\", \"contents may include\". Do not\n   assert specific fillings, concealed ingredients, or protein types that are not visible.\n\nRESTRICTIONS:\n- NO actionable guidance, prescriptive language, or numerical values of any kind.\n  Prohibited numerical forms include: gram amounts (\"20g of fat\", \">5g sodium\"),\n  Daily Value percentages (\"20% DV\", \"% DV\", \"Daily Value\"), and all other\n  percentages. Use descriptive qualifiers instead: \"high sodium\", \"elevated saturated\n  fat\", \"rich in fiber\". Prohibited patterns include pairing suggestions (\"pair with\",\n  \"complement with\", \"best with\"), completion framing (\"requires X for balance\",\n  \"needs X to be complete\"), or any implicit recommendation that the food is lacking\n  something the user should supply.\n- No daily value comparative claims unless grounded in a visible nutrition facts panel.\n  Do not write \"exceeds daily recommendations\", \"above the daily limit\", or equivalent.\n  Use insight-consistent language: \"high sodium\" rather than \"exceeds the daily sodium limit\".\n- Describe what food **contains** — not what it does to the body. Body system and\n  health outcome language is prohibited in all forms: no references to heart,\n  cardiovascular, blood sugar, glycemic, weight management, digestive, immune, or any\n  other organ, system, or condition. No mention of medical conditions (e.g., diabetes,\n  hypertension, heart health). Do not paraphrase or echo package health claims.\n- Use plain consumer language. No clinical or labeling jargon: not \"UPF\",\n  \"ultra-processed\", \"clinically\", \"chemically\", \"good/excellent source of\", \"whole\n  food density\", or quality judgments (\"unhealthy\", \"nutritious\"). Exception: \"healthy\n  fat\" is permitted when referring to fat type.\n- DO NOT use the word \"product\" or the word \"snack\".\n- DO NOT use LLM-style phrasing: \"is characterized by\", \"primarily composed of\",\n  \"overall profile\", \"defines this\", \"on a positive note\", \"built with\", \"predominantly\".\n- DO NOT use adjectives that imply judgment or excess: \"vibrant\", \"generous\", \"entirely\".\n- DO NOT comment on the absence of a nutrient unless a reasonable person would expect\n  that food to provide it. Only note what is missing when the food appears to offer it\n  but falls short (e.g., a grain bowl with no visible whole grains). Do not call out\n  nutrients irrelevant to the food category (e.g., protein in a cocktail, fiber in coffee,\n  whole grains in a fruit cup).\n- No internal logic in output. No threshold language (\"below the threshold\", \"elevated\n  cutoff\") or classification language (\"classified as fried\").\n- No food_presentation labels — do not use internal classification terms (\"non_packaged\",\n  \"packaged food\", \"packaged\") as nouns or openers. Write about the food itself.\n- No calorie or energy framing: not \"high-calorie\", \"calorie-dense\", \"energy-dense\",\n  \"empty calories\", \"caloric density\", \"caloric load\". Exception: \"source of energy\"\n  as a basic nutrient descriptor for carbohydrates is acceptable. \"Low in calories\"\n  as incidental context is acceptable but not preferred — do not infer it unless the\n  label explicitly states it. Do not use comparative calorie framing (\"lower/higher\n  calorie choice than\", \"fewer calories than\") — this reads as guidance.\n- Write naturally. Do not open with analytical framing (\"analysis shows\", \"results show\",\n  \"for this dish, analysis indicates\"). Begin directly with an observation about the food.\n  Do not expose internal reasoning (\"estimated to be\", \"classified as X rather than Y\").\n- Vary the opening phrase. Do not begin with \"This dish...\", \"This meal...\", \"These\n  [noun]...\", or any \"This/These [noun]...\" construction. Start from the food or its\n  most notable characteristic directly — e.g., \"Grilled salmon over roasted vegetables\n  offers...\", \"Rich in plant-based protein...\", \"A classic combination of...\".\n- NO description of the food container.\n- NO allergen-specific language: do not use \"contains,\" \"may contain,\" \"allergen,\"\n  \"allergy,\" \"warning,\" or \"free-from.\"\n- Do not present or imply a complete list of ingredients; any ingredient mention must\n  read as illustrative, not exhaustive.\n- Do not make any statement a reasonable user could interpret as safety guidance for\n  allergen avoidance.\n- **Packaged food, Tier 2/3 (nutrition facts panel not visible)**: Ingredient-based\n  observations and hedged category-level statements are permitted. Specific per-nutrient\n  level conclusions (\"no added sugar\", \"low saturated fat\") must be omitted unless directly\n  grounded in a visible FOP label claim or observable ingredient evidence.\n- **Packaged food, Tier 1 (nutrition facts panel visible)**: Only reference ingredients\n  that are explicitly printed on the visible ingredient list. Do not add ingredients\n  not present, do not omit ingredients that are present, and do not infer ingredient\n  substitutions. The printed ingredient list is the ground truth.\n\nExamples:\n✗ \"heart-healthy monounsaturated fats\" → ✓ \"healthy fats from olive oil\"\n✗ \"sodium estimated to be below the elevated threshold\" → ✓ \"sodium is relatively low for this dish type\"\n✗ \"This dish is characterized by refined grains\" → ✓ \"White rice is the main carbohydrate source\"\n✗ \"on a positive note, the dish includes lean protein\" → ✓ \"Lean protein from grilled chicken\"\n\n→ Output: text (string, max 270 chars)\n\nFDA RACC STANDARDS (Selected Values)\n\nVEGETABLES: 85g (non-leafy, cooked or raw), 55g (leafy raw), 85g (leafy cooked), 240mL (vegetable juice)\nFRUITS: 140g (fresh/canned), 40g (dried), 240mL (fruit juice)\nGRAINS: 140g (cooked), 45g (dry), 50g/slice (bread), 110g (bagels), 30g (crackers/dry cereal)\nPROTEIN: 85g (cooked meat/poultry/fish), 110g (raw meat/poultry/fish), 50g (1 whole egg), 130g (beans/lentils in sauce), 90g (beans/lentils plain), 85g (tofu/tempeh), 30g (nuts/seeds), 32g (nut butters, ~2 tbsp), 30g (protein powder/derived proteins, ~2 tbsp)\nDAIRY: 240mL (milk/yogurt drinks), 170g (yogurt), 30g (cheese)\nFATS: 15mL or 15g (oils/butter)\nSNACKS & PACKAGED: 30g (snacks/candy), 200g (packaged meals), 70g (French fries — specific override, NOT 85g vegetables)\n\nComplete RACC reference: FDA Guidance for Industry\n\nOUTPUT REQUIREMENTS\n\n1. Perform internal analysis (ingredients, cooking techniques, hidden ingredients) mentally\n2. Perform Section 2 (nutrition analysis) using internal analysis results\n3. Output ONE JSON object with exact structure\n4. vision_model fields first (food_presentation, title, recognition), then nutrition_analysis fields\n5. NO explanatory text outside JSON\n6. NO markdown formatting or code blocks\n7. Return ONLY valid JSON matching exact schema\n8. Include all required fields even if empty/zero\n9. Maintain educational, objective tone\n10. Do not include internal analysis steps in the JSON output\n\nEND OF PROMPT"
+- "You are an expert on food, dishes, cooking, and nutrition. When shown an image, extract structured information about the food visible in the scene. Provide your response in JSON format following the schema provided."
+- "afmV11Proxy"
+- "availability of %s: %s"
+- "calendar.badge.plus"
+- "computer_monitor"
+- "consumer_electronics"
+- "detectedLanguageIdentifier"
+- "person.badge.plus"
+- "provideEntityID called but stream is not InProcessStream"
+- "provideEntityID: provided entity %s for screenshot analysis"
+- "showGenericObjects"
+- "sports_equipment"
+- "updated availability of %s: %s"
+- "useBundledNutritionPromptV11"
+- "vicc-classification-rejected-"
+- "visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettized"
+- "visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettized_text_feats"
+
+```

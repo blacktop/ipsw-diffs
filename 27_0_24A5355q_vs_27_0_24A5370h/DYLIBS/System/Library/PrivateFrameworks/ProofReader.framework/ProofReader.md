@@ -1,0 +1,1631 @@
+## ProofReader
+
+> `/System/Library/PrivateFrameworks/ProofReader.framework/ProofReader`
+
+```diff
+
+-688.0.0.0.0
+-  __TEXT.__text: 0xbe860 sha256:d08cff822baf8c0ea155fc314311ae60ced91ad3f4850bdb8ec63fb5f2106198
+-  __TEXT.__objc_methlist: 0x28e8 sha256:edfe9aa9fe075297f3f855555f318d1065a658650a2e4bf33f6db81b6e50affc
+-  __TEXT.__const: 0x63e2 sha256:b7edfdb2e4ce68da03e4500cf7632c490f16a1ef51c4df16d93d2f148ffa537d
+-  __TEXT.__gcc_except_tab: 0x8e0 sha256:34557e3a7971b3ba21c2b598df9792a264eb7e2488bf3b9d53becab9c2510b63
++689.0.0.0.0
++  __TEXT.__text: 0xbdad0 sha256:f4143905b9476e68336aed5281fd123d1a67228baa6b0d4c0f38421957afebd3
++  __TEXT.__objc_methlist: 0x28e8 sha256:fef9ff89b130beaca40166f12e6d1485ee72bf1d7e54bd30180e617902ead305
++  __TEXT.__const: 0x63e2 sha256:2adeba0a249d17b7c71e45c1a057cd3996126acaa097d29b87ac106f18b4fb83
++  __TEXT.__gcc_except_tab: 0x8e0 sha256:2f1d57bc8ed199ceeff6ab14d27278ca6c938a8704f1ff0d7a4c476b37e3fdec
+   __TEXT.__cstring: 0x9681 sha256:0c38274373152299a61c1d7dee1e1d744eb40c0575a55959d0420964d7ba934d
+   __TEXT.__ustring: 0xc62 sha256:ad25474c3e2a80f49d867e31111af619419805a1c5f05430f228fc6f7f1ea9ef
+-  __TEXT.__swift5_typeref: 0x238 sha256:7ffa5191c7ba40027b75294f98f835805ea0f0a6a595de6b954d1e1b545645fb
++  __TEXT.__swift5_typeref: 0x238 sha256:8a5cffcfd05ad38a2f006f830c729ddea9ebbe889b4db4096bacb366c604d38c
+   __TEXT.__swift5_capture: 0x188 sha256:b67932d7a1263a8a076ea3cf329b18dbbdb48ee647d7ceb99ff13a6c99442dec
+-  __TEXT.__constg_swiftt: 0x8c sha256:406b779dd1da10c652f80b0f71679bd98eb270ff0f0b4745539421226210447f
++  __TEXT.__constg_swiftt: 0x8c sha256:03d39e8aafe67ef4471ed219a9d2197bb449f1d5701ca6d54a46249346bfc15b
+   __TEXT.__swift5_fieldmd: 0x38 sha256:f3c9abaefa06216e3c3c90abb721d9452c37beed5953c53eb0cbb797850fbdd8
+   __TEXT.__swift5_builtin: 0x14 sha256:973dceb2a7105a4187be8b89ac1c7e98a95c90ed4ae1b4d82622c1e1b5927359
+   __TEXT.__swift5_reflstr: 0x10 sha256:c87639e87d3e900a7b99cc693a8bdb6af5fd95bf6bbc2625bec8fb47b897d48a
+   __TEXT.__swift5_types: 0x8 sha256:f350f98447b88da4c86b49bc8f2693b1116229f798a4a88d5b446368d8635bb0
+-  __TEXT.__swift_as_entry: 0x14 sha256:282566413c1835f3e220c8242641d23b96d7e514df5bc2d293f8083183e81b25
+-  __TEXT.__swift_as_ret: 0xc sha256:27abc6cf6646e2d1ce61af3d91e0dcddb253d0a43efbdcfb4e1e9f644d4bf128
+-  __TEXT.__swift_as_cont: 0x14 sha256:f1830a778597e6db3eea68f4bb41f2c82b3523c49332f5c69ed8190dfba49821
+-  __TEXT.__unwind_info: 0x14c8 sha256:a6c27adace26b061b35c011d6b6392111f3666cf67a902737ed33ac67675b72d
+-  __TEXT.__eh_frame: 0x290 sha256:424c22c9e8e2408c74042acb0ac2335be66f393632a3a3294aff61589f47d778
++  __TEXT.__swift_as_entry: 0x14 sha256:d8da24437de91c5db9ad5b6b443440c7087cd15e65a2515acc4e30a1c05c50e2
++  __TEXT.__swift_as_ret: 0xc sha256:d93a9ab3ba76201497ab98986ec577226c023e621b90355f2add97f00991291d
++  __TEXT.__swift_as_cont: 0x14 sha256:64d9c1de789ac36e48356c4b8039950842f6d9fe8d5bcb826c71e4b118061774
++  __TEXT.__unwind_info: 0x14c8 sha256:ac6eb3e446b7989d16fefdd9bd0d80d5448e3ac5433ca9c6e75d59fd116e9295
++  __TEXT.__eh_frame: 0x288 sha256:60c873223d160a364f89051c1b8db69f81ed652493a3b76f5726d385de403de9
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xa328 sha256:6437dc8230978d1fd2f60eb6060935b4a3697acbe22a26b0b7ce2c12a55dbbae
+-  __DATA_CONST.__objc_classlist: 0x100 sha256:03ce81ef36b956b1ccfec41150f51e99050b9c44ad06ce54150374749a6f1477
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:37a2da5a014a79e836d5e0ab395e0e1d387fd34240152ff18ea411f8faa941fa
+-  __DATA_CONST.__objc_protolist: 0x28 sha256:219f6d2a273843b69fd5f3797ba952a5ae3a15914da6758e811db87939354031
++  __DATA_CONST.__const: 0xa328 sha256:bfe2f7dc999648ba486934a291b7fbf34d715c097400d36c7c786c379c439cfa
++  __DATA_CONST.__objc_classlist: 0x100 sha256:a2843a02c31c1974ff6bca07d332cab086ec9fa3e548a46b6caad5ff68b293f7
++  __DATA_CONST.__objc_catlist: 0x8 sha256:6839c5deea8e96b1c991f27a49d65715c93d96f868bb36fa849927f290be828a
++  __DATA_CONST.__objc_protolist: 0x28 sha256:7b1fd94024e630a142a2826647b4e3fb02681356bbbdf6f7fc618317e6a467ee
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x1c78 sha256:41f08ce2ffed5c7842db7a2c1a71915a46002567e3a4de8ec367a9ad9a456f3d
+-  __DATA_CONST.__objc_classrefs: 0x8 sha256:509348fc394dcd3548e7cd2cea206d4f197903b2b0e7fa50283e43e6d9028ad8
+-  __DATA_CONST.__objc_superrefs: 0xe8 sha256:31bb0e9845202713993dc138cc6779e736fde40124405c836bb67866c66645e8
+-  __DATA_CONST.__objc_arraydata: 0xfe8 sha256:466489eb9ce62db57e7b521bff69385ab16f148b1052e105e6d2acf011fa9539
+-  __DATA_CONST.__got: 0x320 sha256:6ddd283dbf38022ddbbc83c7efd5828668f7c33625345b1a6c0a7f085ffaefc0
+-  __AUTH_CONST.__const: 0x990 sha256:45f84c8412e005402a9a2d58c321a73aa1146d31af19852c762968cbbfecde46
+-  __AUTH_CONST.__cfstring: 0x9b80 sha256:806db8a4b3e726c651b0ec7b9bfc989a121ada8fb36d161caa00136f6a40c244
+-  __AUTH_CONST.__objc_const: 0x3860 sha256:263ca0da33f736f0a63991d89f033841758d645276ad0c946b4ace73d71aef5d
+-  __AUTH_CONST.__objc_arrayobj: 0x2a0 sha256:6132dc110972b8a07cc2996dbdc8c606ed74b0e5a0a3869f6d61a15e7791d119
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:56867391d11888e48054442bbec5176b37d962da9ace8f5c67cbbb48ec4aca9f
+-  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:cf9d0e9039f12948be949c58e1acc0a245c72667d9d5b5313a62039bd6ed2444
++  __DATA_CONST.__objc_selrefs: 0x1c78 sha256:2dec5e89daf66fadb26f7bd02e060c2464419a02816a604fc0601c95a19ff874
++  __DATA_CONST.__objc_classrefs: 0x8 sha256:1d883a96bea8f130dac28ea8c989fff1616447e8ced7abb51b24121f41e00354
++  __DATA_CONST.__objc_superrefs: 0xe8 sha256:0c23a8856f74fdd07b4ad005da35f164e22c9deb6cc1a5f63fccf68f39c86ffd
++  __DATA_CONST.__objc_arraydata: 0xfe8 sha256:cc8a8461c04da76068c2e1792ea7b14051e9dd37457c07c189d9f0a7f08d9c02
++  __DATA_CONST.__got: 0x320 sha256:b8892e5e50e2ae0b0cb9a7eb1e29920c3b904253b7f3e21f02a8dd33f74ca270
++  __AUTH_CONST.__const: 0x990 sha256:7155adc4e5c4cce677ea2400e0f6b9100564b8220498f845587925ed0beb4961
++  __AUTH_CONST.__cfstring: 0x9b80 sha256:727fe91d406bbd40ff460b964238bea2a78b905f24ca92b4ea0e85fceac1653d
++  __AUTH_CONST.__objc_const: 0x3860 sha256:d8ba04819f9bec310c075aa43edca4a6584abb430daa532bc0e02a266396ec2a
++  __AUTH_CONST.__objc_arrayobj: 0x2a0 sha256:e712f9572b6416fd2905c9d2e3975ab43169fdbd389d6426b3568c5ac8946838
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:7d4cebcd6fe60ba6585e890223f12b1d6f01651e2aaddd0a72c09a4990d19129
++  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:75b587c0abc57040b2766d7c028d0d57b734ce4d6657d3cb2af4dfb346958f09
+   __AUTH_CONST.__auth_got: 0x788 sha256:59f4c13183ac051510c1eea1127c45540085a860875b07d4987d64ddbf46acbe
+-  __AUTH.__objc_data: 0x6c0 sha256:1d2604f40ef57b1262a8b38f3f18ef3bf2e4391df9db6262a38c51b66de6e3fa
+-  __AUTH.__data: 0x28 sha256:fbb91580f23272fd22f01f699d855598d6c4a350733bfa4cbcda2e95622f90e5
++  __AUTH.__objc_data: 0x6c0 sha256:db29ccf749ba82401fdc6257183aa3cfe92fb3f65ce0e0e39fd1c7beeac0ba75
++  __AUTH.__data: 0x28 sha256:84156cefb5dab8dbeaa62d620f36f303658dfd47cda6262309ab08828cb7eb8b
+   __DATA.__objc_ivar: 0x418 sha256:b35d8e18e7010df6a5ec4de754e8bb9ee8dd6c7f514a02f9fab89487bc8ce1fa
+-  __DATA.__data: 0x2bc0 sha256:aa85621821bcfc666859bc2bf204ba93909320cd5a8ec027c9b4507c83fb9db0
++  __DATA.__data: 0x2bc0 sha256:81a6392e2ab12767e9a2c490ba33e3f24c787344f02b046824b1e5345eeb402e
+   __DATA.__bss: 0x518 sha256:5cad8b3db8fbb29e0cabbd785e1e3449ebcd5b04544cde14c93812a93860cc47
+-  __DATA_DIRTY.__objc_data: 0x3c0 sha256:0c0fc686a5a0376acb5a03498f0a7eac23571f53fb09e6bcd01b65aee16de633
++  __DATA_DIRTY.__objc_data: 0x3c0 sha256:59f51b49d0e6ec50e1e5b36df95e2db86b09d5055961cd4ece3b626bb1fa9a06
+   __DATA_DIRTY.__data: 0x3 sha256:75c8fd04ad916aec3e3d5cb76a452b116b3d4d0912a0a485e9fb8e3d240e210c
+   __DATA_DIRTY.__bss: 0xb40 sha256:39a68c2004ed4a20edb148b72e5aabd663f15cce54b30d2ea1c106e839761ed5
+   __DATA_DIRTY.__common: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4D885DDA-DBE8-3C22-8ECF-F7B0FC3D477D
++  UUID: C57C253F-7952-3D1F-B6BA-F018C1191B10
+   Functions: 1807
+   Symbols:   5694
+   CStrings:  5823
+Functions:
+~ _SLFRead : sha256 e4d4f588f09fe129b2ab3238016af72f91fc3df94930a8d564f92c483e1b2023 -> 816b1eeef3b8719212f51fe16082e17442d2a1e277057c8d161a24487ca37994
+~ _ICintget : 3664 -> 3644
+~ _ICspl : 4112 -> 4052
+~ +[AppleSpell availableLanguages] : sha256 66f5e2a621a3b9b17a55a45b46059447ba745a01f1a43592759380e26353eb59 -> 669258e5c303d4fce8e848045327cc3293a77542638e5e0f7ed267fc342697bd
+~ +[PRLanguage supportedKeyboardLanguages] : sha256 72d40b7f1b59373d17a5f95bd7f567b772e9ec1372eb786b2366818f7fa3e9ef -> 20857082f8580dfe272d9bc40f90ebdcff9d92aafa11ce6b02cba38a48c7f36b
+~ _read_file_map : sha256 d8a30951b2f24ac4f228c9b5b7bc0430881584f826b16b57fc69983357785690 -> ed1fd819bf43a9db4e945da75b71384136f98ddc4de6872eadde7390a7fc6da7
+~ _PRDbInit : 4000 -> 4096
+~ _SLSeek : sha256 4bbce3a19a59f8802dcbafcf8b94482e745b079710801f0baafe5832f7ce9fc0 -> f1c5095b164be975e18b8270c3d82ce6bb3480c0150956fae328f13c5480de97
+~ _seek_file_map : sha256 4c4c925f31186e62171e66bb01ae6775faa7090e4bebb8f2a260aa99b93ecf1c -> 454b0f5f45583a4beb062f7d37552b994c41696e8cab408a907eb3df8103fc2f
+~ _ICfree : sha256 dba3997c767d853fe3ea986ff1dd53fd07f9bbe8238ffc8214d5a4221f66b639 -> 20d744d20d601bd7f90049ae741ac9a191b6dc83b9b8eed7984b7cc2d1641329
+~ _SLRead : sha256 cef6c7acfc128c5d2fa6dc861dd72f37e600abd908fa2b0f72bae00e9ab89d38 -> 303c40fe3b217cf93b3d41bf8728993842195dd468e472ea8a2f2f65547b169f
+~ _PRSfxInit : sha256 751ba578359132c4b0899642be44d0037f5ea682d2f2fa9dc828f72c70352d47 -> 5fca188ce0b2b06732e17612d2843071f95600ad49818195cf3d680b9cd46ff6
+~ _PRSSInit : 624 -> 628
+~ _PRPunLoad : 1520 -> 1568
+~ _PRExprLoad : 960 -> 944
+~ _PRPostInit : sha256 94922aaa6331409f95b64157f8194e1f2db539b28ce31f5a9ea16cd516c52319 -> 1d1ea8d553b3d065b93708db6c691d551e67dfeab6aebc1ef735f6120fd1e00e
+~ _PRAmInit : 588 -> 608
+~ -[AppleSpell dataBundlesForLanguageObject:] : 848 -> 840
+~ -[AppleSpell dataBundle] : sha256 397c4129664d944dfe9ac1a33855a7538a4d5e93643dabae2611e033b641c3a6 -> 93e49060704ada8cc2066bbb030fa7f4ffa224e94ac0d07a31fd513325bb49c7
+~ ___43-[AppleSpell dataBundlesForLanguageObject:]_block_invoke : sha256 4b0c7654330d9d9a8ddd316c87534b08ec19e1c5a0d2654de7fe56ff1b6c0d79 -> a16ac19d9b0684fe07c46f6f888729a3af8e2907db6d7742fc6497f8cf27a32e
+~ _SetFarTable : 264 -> 304
+~ -[PRDictionary initWithURL:fallbackURL:] : 796 -> 788
+~ -[AppleSpell(Dictionary) localDictionaryArrayForLanguageObject:] : 860 -> 856
+~ _SLHRead : sha256 dbfc76f241312e12474a4b3e2070a7b2bf99095713d8742cfef96fb2e63b5ebb -> ac80b2fa9cd15dd29783073b685276e7c02c52adeb415503648b08c7aec90e7c
+~ _SetHugeTable : 204 -> 244
+~ _PDapp : 1056 -> 1020
+~ _ICpd : 2376 -> 2364
+~ _SLUnlockMutex : sha256 97ae786d5e3a5d43f86bc2b267caae5985d6bfa081b746e8a160d063f384a72d -> 986059cbbb274fb724223f1f809fa15f966a493f50ceffc96019d8b12eab3fed
+~ -[AppleSpell(Spelling) spellServer:findMisspelledWordInString:range:languages:topLanguages:orthography:checkOrthography:mutableResults:offset:autocorrect:onlyAtInsertionPoint:initialCapitalize:autocapitalize:keyEventArray:appIdentifier:selectedRangeValue:parameterBundles:wordCount:countOnly:appendCorrectionLanguage:correction:] : 9988 -> 10148
+~ -[AppleSpell spellServer:findMisspelledWordInString:language:wordCount:countOnly:correction:] : sha256 48ed5127045fcbd60295c2b56ea929baad8e54f4089042026f91f4f771d91498 -> 016bac8691d71a68daf8bd9e72d74adf60f63a1f48898781d7164637b5b25fb1
+~ -[AppleSpell databasePathForLanguageObject:] : 320 -> 316
+~ -[AppleSpell(LanguageModeling) assetDataBundleURLsForLanguageObject:] : sha256 9ef8cc0614b223409748025d16fd58b8706e40303b4c8e15b7a9fc42d9aa8766 -> f2327e45953706eacab861d11431e90f5ea02d6bd198533f7f2ef33b9cdd27a6
+~ -[AppleSpell(Lexicon) enumerateAssetDataItemsForLocale:withBlock:] : sha256 2d0169486e3d1419a008d774a6b64480805c51fa5e7d107005cb1d631aa144ab -> beb1a441516c1b6099915a411113486f83320cf6aa6bc29b17d7a028ce4fe4ec
+~ -[AppleSpell databaseConnectionForLanguageObject:] : 2960 -> 2976
+~ ___43-[AppleSpell dataBundlesForLanguageObject:]_block_invoke_2 : sha256 d21694ad666aeaa5b617b173e52121baafcf20c0d266dbc799535e1b2cc83df5 -> 2706802f81c4e4b51d83c61447e393aee59812e96a8fd0ff9c9b47dc030b280e
+~ _SLLngToA : sha256 49ef44baefedfd0dce6a325ede7f9fdd6109e78d7bf3e2a40456ba095eb25e71 -> 3cede26f10e7e51c63919af9d5c846a594b73e4cf52dd5c4fc7d2207427e5eda
+~ _SLchcnv : 188 -> 184
+~ _UpdateDocFormat : 576 -> 540
+~ _PRdb : 1748 -> 1736
+~ _SLLtoCInit : sha256 0459f3e240e5c76a88fc33a940aa006d71f8550a0f04baf3ab50f7350a4c700b -> f2a8d0761a1e425e2ae5ccce3af9241714f8fa4c5581de7a3a7dee21edc88fe8
+~ +[PRLanguage dataBundle] : sha256 338a3b7cc6865a4f8c98738f4786b9d4a8e17d411b56721b8ae36564c5aa4c43 -> d38644064923b29b542c53d954d361a4bbce7c3efa8fd17a2890df5841dfbf01
+~ _PRGetAppElem : sha256 ea01be3c54efc2f5e7db1943cbfd2f3262002e3c643dacb478895fb46f0d3077 -> 1779393fed53ed9af5afe1b53ed4d8699dd88f458f5f92ddf4e39f7b298151eb
+~ _SLLockMutex : sha256 628c81fb43101d4f307baa23b0f9f464f52374de854b262f2b262738b82f6ca7 -> 2157f185034d827fcaa99917c54381f17673733934aced23cac9853688d2e8c0
+~ _PRIcs : 1612 -> 1600
+~ _ICint : 1900 -> 1904
+~ _SFmemory : sha256 99540f7040b50ee4561dff9aeaa5b76f59471d9219c2b73bbfd7b5d93054fabe -> f30b54dcbb40df3b691f7443074b56bc47fca80067697895bec4d1acaa4c2cd8
+~ ___69-[AppleSpell(LanguageModeling) assetDataBundleURLsForLanguageObject:]_block_invoke : sha256 440e9b5c1dbbb7a06561147474c908c1977297b853454483870837cb69ddca4e -> 9b0be7c7f9562ca4cade569d552919d30567132f2dedfe68af0968e4d45a45cd
+~ -[AppleSpell(Tagger) taggerForLanguageObject:string:range:] : sha256 e293ca9a82b59db404e64d5365884964ff3b6c2819bcecbcee9175ba0691236b -> 61b53046747816a0e07e5a51db84ac6c799ba027722ef994fa58eb53f1c6365a
+~ -[AppleSpell(Tagger) _taggerForOrthoIndex:] : sha256 411361e77c125a1eddb15c7cbe472bb3bc721413a8b1b8623ebbaf13ba0a97a7 -> a48f274d2d4b31a3126c4bf5e3858cdcf0180d25bfe0f2b26b33de5b65f6511e
+~ ___43-[AppleSpell(Tagger) _taggerForOrthoIndex:]_block_invoke : sha256 ccca492d4f75c03c66ace02a2961772163fc4a88987dda8d8dfc7ddcb106cd14 -> 9c46de5adedd507a8f292b6951077f83c614b9c35ae73ab9a33a4c46eb852c81
+~ -[PRTagger initWithTagSchemes:orthoIndex:] : sha256 c089ed80f68e190d0eebc327ba848148dd327d69d3d378f93c65a7f4f90ebf83 -> 36bbcd8afa2fa52e259f303841d493366f5a26fdf90bcfedd69b0a7838ea1ca0
+~ _simpleTokenRangeAfterIndex : 944 -> 940
+~ -[AppleSpell(Spelling) normalizedStringInString:range:] : sha256 e65c066becc93152f937df9823bcccb9b66eae53e8e31b3ce14019d4370a54ea -> 3b7ce69684b49dcffe6fa8be217b9fd2654492e230700723c913ce13406f0aad
+~ -[AppleSpell(Spelling) normalizedStringInString:range:].cold.1 : sha256 2fbe3f1f8dc100107d71992436cca4d7f6a884594c6e8e3b43e5f354b934f9d7 -> 8334dfcad255dfee9bf8779b5aae85e1659da8b4f66004d9ec12f482198835d4
+~ ___55-[AppleSpell(Spelling) normalizedStringInString:range:]_block_invoke : sha256 de2093e581b47ac345a1acca15e5ddca0fdbead3f71b704889f3d6b03bdaf5fd -> 3e1784904147d1808854eafa3a7a7b14d3e58fccdbd44d70b3213bcb12faee2c
+~ -[AppleSpell(Spelling) validateWordBuffer:length:languageObject:connection:sender:checkBase:checkDict:checkTemp:checkNames:checkHyphens:checkIntercaps:checkOptions:depth:] : sha256 13dee4172a4b9162d56418b2e041aac1d96e4f8972b69455aae8f5005f50bcc7 -> 58f151f0447d1c0623273f4b827853113b20ab756c84cf43217108ea6b9b5693
+~ -[AppleSpell(Spelling) validateWordBuffer:length:languageObject:connection:sender:checkBase:checkDict:checkTemp:checkUser:checkNames:checkHyphens:checkIntercaps:checkOptions:depth:] : sha256 23bb278376dd81f04c701dd3f020fcb76f4c9d665a662fa47a32699e9fd58c26 -> f1964a0f7d370b8fac5ace5b201acfe67f3882cc8ded76cea600ca82a762df5d
+~ -[AppleSpell(Spelling) validateWordBuffer:length:languageObject:connection:sender:checkBase:checkDict:checkTemp:checkUser:checkNames:checkHyphens:checkIntercaps:checkOptions:forCorrection:depth:] : 10808 -> 10940
+~ -[AppleSpell(Spelling) validateWordBuffer:length:languageObject:connection:sender:checkBase:checkDict:checkTemp:checkUser:checkNames:checkHyphens:checkIntercaps:checkOptions:forCorrection:depth:].cold.1 : sha256 bd1e80f6995f28e647f856af46beeac6f1167b192fff7a04f8015b70f374b22d -> 08b9d9719f2987e15ffa996e132f132c5f53c087a56d55f4ec929c03ed9803ac
+~ ___195-[AppleSpell(Spelling) validateWordBuffer:length:languageObject:connection:sender:checkBase:checkDict:checkTemp:checkUser:checkNames:checkHyphens:checkIntercaps:checkOptions:forCorrection:depth:]_block_invoke : sha256 cbe3aaff0159bb5aa5f2169204e2d0a14aac16248b6bd930697d176c4e672300 -> f985008c204ebed05ef213db95dc89e1800b0cec8a232cfdb283f78521022742
+~ -[AppleSpell(Spelling) validateAbbreviationOrNumberWordBuffer:length:languageObject:connection:sender:] : 1232 -> 1220
+~ -[AppleSpell(Dictionary) checkWordBuffer:length:languageObject:index:] : sha256 1e4e1dcd2c251ac9122b29dbbf4b47d83f51ff7d0518d973e1eca3a3e306315a -> 248e7ce34f00f58155a9147f76e486029b7a70dd24d6568a5e4618ce35849b14
+~ -[AppleSpell(Dictionary) globalDictionaryArray] : 384 -> 380
+~ sub_1ca007a18 -> sub_1ca895b4c : sha256 e4d6341be84667d7c4ee487bd970cd1d6da2a0f52219138bbfecbcc8dd1a3e43 -> 461e663efad72c802b66cedaa82b1cf57bcae6bf1267e9821f1ab8037400835e
+~ sub_1ca007b14 -> sub_1ca895c48 : sha256 9880b82b15678ae191e55a5883e41cd13e38fb4657ff27202560c3acabeaf282 -> 96a2c42a45801a84b5b4f970ddcd8db46b68ee4113f96a89f7a28357daabe7f1
+~ sub_1ca007dc4 -> sub_1ca895ef8 : sha256 aaa9d3ca1b3ca8722c2102d8c6b6fac77d3e6bd3159c8dbf07fc26167247d16c -> 81e20323b59b3b597a2aa5d61debdb06ca9f9b91dbcf0e3f7746302200e0cce6
+~ sub_1ca007dec -> sub_1ca895f20 : sha256 0ebc63d3cbad93ab98fdd0b75eb843843837cc6af21c5e40d57d8fe09459693b -> 7bc28bbaf01d69b160ce897e98d2f2b941f42705accb1f8651ec8baf6386c495
+~ sub_1ca007e14 -> sub_1ca895f48 : sha256 c9d4c3c405bc7b40988b9261f9f1645e6bd3a7dceb1da8dc92289df9f89a906d -> 79fe580e6905923b74ff9ada1aa2f1804983fbcbef48ee062a5dd88a045bf76a
+~ sub_1ca008090 -> sub_1ca8961c4 : sha256 e924d57763cff7d08141ae7cddd39a83419494eeeea5d577ad99b4310a08cc7e -> c80f711ef5ecc353bc2db5a1402d5391f2f6dfcb0a53cd38f69b4ca7fc5e4aa3
+~ +[AppleSpell sharedInstance] : sha256 fea68d1787c071bbcaac03d05dc0005a3b06d79450afa6d7a7814fbd67957b9b -> c11f7aaab237bc9f29f1a532edec57cdeaac3df2625ae8aba85f41009e539fcf
+~ +[AppleSpell resetSharedInstance] : sha256 14c7fc4f5df173c23721ff474167ebd6fb576aecd2b9ddc1d5629923b612df76 -> cb600d087c733a565afde5ed8a5814a847c6c0c61a698ca98b0d19f18128e817
+~ -[AppleSpell init] : sha256 a730362018c2d6ff7da22bdcea678295dd42a03e51613aa5ab17c2299c2fc596 -> db9158250822309c04ec28ebfbcae11125c8c685d851f48d625ab99b61b03413
+~ ___Block_byref_object_copy_ : sha256 bd38772d8d30de44439d784395b4fb597c884c3487712c838d095d5e5e0cd453 -> c78003489f28c47396adaa74d021af26f6bddae88ef974eb773bfcdbe886883f
+~ ___Block_byref_object_dispose_ : sha256 35b9de6921f6b6c5823477bbf2cdde1e5be1e671461b96c98ca58f6efc373819 -> 676e1491bd1fcc120b2bd756346fb5deb4582697bc0752ee56ddd0027986a557
+~ ___43-[AppleSpell dataBundlesForLanguageObject:]_block_invoke_3 : sha256 be996c81a90fdeefe12e03786d985442541c533bc19cf16527b799fbc68b00c2 -> 62672cab590f5617f9b65cb798baa486842566e206e1fe01044704ae9a5fd8da
+~ -[AppleSpell resetDataBundlesForLanguageObject:] : sha256 19409d27b4129ffdfee56b95a621f73353c09f6a9af4197a7193b9dd99bc2b65 -> 2b39f59230205a76d4b907356377cbb219be3c4a02c9561ba829b208d9de0d6d
+~ ___48-[AppleSpell resetDataBundlesForLanguageObject:]_block_invoke : sha256 adca5708b6a8a571f4200a4ee5e636ce955f5768a833b0bf572b6545d95d9241 -> aa9020de6c253f46fc7d0722c548b7251f26c33eef2437df634e5c5d753a5d35
+~ -[AppleSpell resetDataBundlesForAllLanguages] : sha256 daf78bd4b481eead0333f7f9fdf981f54cc10f39eb178f483dea35dc4717307e -> f989a587c066d1f9cebd64128fed692596cf736c267a702d63554aaae804d0ce
+~ ___45-[AppleSpell resetDataBundlesForAllLanguages]_block_invoke : sha256 38d7cb709724bfa83ff8e7d127237545dde2292e78f12e1f31e1ade340ee143a -> 996cd305e60e7806624ab5ef448e597835886ead118e7751490425f0c7c71c1e
+~ __freeDatabaseConnection : sha256 d279b0483368bddb9efde8b01b73fc6f3e30ff11c2331263857df793a26ce871 -> f61255139bd92dee1693aac918b5ebbcbc382ba1d79f8ee7cf3f0ce75dcc78b0
+~ -[AppleSpell releaseDatabaseConnections] : sha256 76af168cd44d5b9fece9bab56627caf95d55b600579c3f3a6ae1f802aa8d1ad7 -> b05cb8272debe5b24028e25caa9e55ea8174d09b6d280efdc86f2a0698a90545
+~ __releaseDatabaseConnection : sha256 b1dd78c86f5dfbcbeb71d6c6cd11b461be2fe2bd57c54179ec631065c5ad47e4 -> 1bcfb97ceab21638bbdf714cb13d33a204f5ef75c2319cc832e23a086ef88c97
+~ -[AppleSpell resetAllLanguageModels] : sha256 d27d311dc84a15a61ca0f607fe28fd2ef705eb42377183a5d0deec5ddee3c04b -> 0cf85cb9bf77c2047ab111598753e758fc7cfe23517a41cc68e6ce84abce5603
+~ -[AppleSpell releaseAllLanguageModels] : sha256 f5f6c7fe8a380ecfcdd328e1f88c4c5612cac82fd59e8f987710ba06243c2333 -> 89f70e197607c82a2113a503627c32d8ac017e6b0dc226298e7eda13d6c5f890
+~ -[AppleSpell releaseAllLexicons] : sha256 861cac51ae5b84b62f1ccb20fe4c08c8d737839b0f85cb4e32026f111bfbe63d -> f2c9d2b0bf6a300e47ba153dcf4e2cfd592da17d9e2fa259ad6e71fef28fe90a
+~ -[AppleSpell releaseAllDictionaries] : sha256 90149913ddf545a28097cf119bb651de7420a469b9a09a13717a5030fa35c132 -> 71ca1fedf55e67f829e6ef9f000041282f154385687dd9ac67ad94657497600a
+~ -[AppleSpell loadLexiconsAndLanguageModelsForLanguage:] : sha256 d63c1ac66e91b435d49eb6ddd60e9d85e51933330d01b7444ead9ac4efd58e3f -> 835a47ff66f87911b3e68808919a22c8210ae4a4e94b385a4210f03333769b3d
+~ -[AppleSpell spellServer:shouldBlockWord:language:offensiveOnly:] : sha256 a6f1cf016790073a007e8dc5323aa99ea201761ba663b4c97d6fa7547ac6b034 -> 3388ab2da0e60cd59542b157882a53aa9041dbe013c5679205f79b4e5279c812
+~ -[AppleSpell spellServer:shouldBlockCorrection:forString:language:] : sha256 bd4f17c7a1d7bd6bca55c867d8a12e93dff8a43a688acbe49964e8417a9dc255 -> 084cd8002fd0c7fe4cb9d8513576a05ef3730498101c4d249867bb22579114d8
+~ -[AppleSpell spellServer:regionalCorrectionForWord:language:] : sha256 bd7601bedce96d49b4ab0f4cbf878f82e79a094889147851078b753ba163ecf6 -> 73cd43d98b352ae63a11fc863b95c96147f772d993227cd0efc85ae436b8bcc9
+~ -[AppleSpell enumerateLexiconEntriesForWord:language:usingBlock:] : 372 -> 368
+~ -[AppleSpell _checkGrammarInString:range:language:connection:sender:bufIO:errorRange:details:] : 904 -> 896
+~ -[AppleSpell spellServer:checkGrammarInString:range:language:orthography:mutableResults:offset:details:] : sha256 574292ef64a830a5d1e23b2158ede758e9cc5f7b55652681dc1de1cba83e8167 -> a08ffc21c355c6afb0b59029d148a2efef390760c0338c0ca353cae286b44c26
+~ -[AppleSpell spellServer:checkGrammarInString:language:details:] : sha256 cf6f35e792813e1e48eed37a07f3945a552c7e308cbeec09fe60323a9938b532 -> 649e9f8271b6d01f28e88fbd670a3493494956956a3aa09d16b126b96d461cb1
+~ -[AppleSpell spellServer:checkGrammarInString:range:language:offset:options:] : sha256 39bae0a1ef4ccb3e2a8fa56af9c9ebd87bc154f57c3abe7e95247238642968f1 -> 10f47703be5c30231edc2c8cf7b0755af7e77d17438e8cd1c2fedf7945511799
+~ -[AppleSpell spellServer:findMisspelledWordInString:language:wordCount:countOnly:] : sha256 e1738d8b5b40909531bec141b27d453f92d1bbd29bfbd74f2bef8a9c4bb517a3 -> 7f429bc7cebb615ce224bce676b9a6fe21093139f1a798a5c1aa1a7b66eb13c1
+~ -[AppleSpell spellServer:findMisspelledWordInString:languages:wordCount:countOnly:correction:] : sha256 e5ffc2703f181e4ead9e269d04beba401e141fa07b7fa38ed804b2892d5f1f91 -> 0343c6290d74d62f079d0aabcc2fc3d2ad38a05bd7101fc5cd252f976245a7eb
+~ __appIdentifierFromOptions : sha256 15f28c432c4b863feac7b181533cda0892796ee28ce56002b52ba9038ac51c59 -> c635d2c1328f77673955a2fce28734f7e326ea73b11568f87af4de44eab029ad
+~ -[AppleSpell spellServer:checkString:offset:types:options:orthography:wordCount:] : 5328 -> 5288
+~ -[AppleSpell spellServer:generateCandidatesForSelectedRange:inString:offset:types:options:orthography:] : sha256 b7a54c0611cd28d8429905b5296f924634a32f7bb50766015fa6914c7f8551ba -> c5b780739ef4cf9afc3d31bc3a30ddc10e451e437026bb65c5a77d07ba80f125
+~ -[AppleSpell spellServer:suggestGuessesForWordRange:inString:language:options:] : sha256 6270cd0c9d2cfb21a91efe27608f1704a4ced175ac12d3572e5db85a03f32c68 -> c3ddf9393677456f6de37f15b0be61d6444f48422e4ba6898b00d904ecdc3001
+~ -[AppleSpell spellServer:suggestGuessesForWordRange:inString:language:] : sha256 0920991a9ea10af8629914f3b51ecca24fbd596059c1ebbefe09fb5d0dc835d3 -> 862114866b774789edad3ddb30d7ecb4d8396002b942911f8d1743673e8147e3
+~ -[AppleSpell spellServer:suggestGuessesForWord:inLanguage:] : sha256 868e53788960ffc8172edfec10ab18735803ef2fb77bba9ca0a149ebc7808438 -> bc74dd4a39fa4381ab93d442dd0c0b4f790050bbc6f1a3424c4d3bebbbfdacb9
+~ -[AppleSpell spellServer:suggestContextualGuessDictionariesForWordRange:inString:language:options:] : sha256 ef28ce23736de65ce8d79fb59b77598c6ba3bc019094e66c74feb54ca7a108e7 -> 06e9ab3a04aaf11bf9462c2f9d1094a8cdbf41b64d6cb6fb482ff8ed060dc591
+~ -[AppleSpell spellServer:suggestGuessDictionariesForWordRange:inString:language:options:errorModel:] : sha256 dcdf7e3674973b94678595e0e49d9f93199555cda0349c035d9d759bb8c26eef -> 24b7f02a6876d44fda97b362b37191e5a785e08193961f24704bd119b41a122b
+~ -[AppleSpell spellServer:suggestCompletionsForPartialWordRange:inString:language:options:] : sha256 13e9038051aae90f9c45763c0e4b24cc191ae7d32e4bdd57e6785bf857b05ad8 -> cdcde79b062c78a2f8efaa38de0e999d8ace916815ccfb6549a1e0dc64f9c860
+~ -[AppleSpell spellServer:suggestCompletionsForPartialWordRange:inString:language:] : sha256 506d5e6fdf700c29c482ea8415719454298e89dce221524b51c61f0d86e33b84 -> 306e8a61a12bb5a0428acf2da494d9c5becba287a9a1b8cdec7f8ecf91d146d8
+~ -[AppleSpell spellServer:suggestCompletionDictionariesForPartialWordRange:inString:language:options:] : sha256 524c4e7e8b48321a2ad7346d72a328c0ba212337b5b4aaf229e08164644dd10f -> 992df50c488ca2a0b01468e7bc05bc7b4ca9e725702621fe53eef959f04f80d3
+~ -[AppleSpell spellServer:suggestCompletionDictionariesForPartialWordRange:inString:language:] : sha256 9f79095abc145934b0c784b8213af0412af1f2cc004a1c7ce3f79727076e57e2 -> 45d0bd484336169a7e30cd0105bccdf3e9cc081ffb09265966696d3375af1a45
+~ -[AppleSpell spellServer:suggestNextLetterDictionariesForPartialWordRange:inString:language:options:] : sha256 df73c8c2b33bdb83b3f10ab0a9aa21bf05741cf89c468f00c4e0be0a491ecb9c -> 7a3f339c1f3d5e8768572f673fb1dc63a6d6b4f1a39a3e9caa685313d0717cf4
+~ -[AppleSpell spellServer:suggestNextLetterDictionariesForPartialWordRange:inString:language:] : sha256 51d19f6f835a3aa245dab47f3213463a207edfabad95851589578d412ce43a4b -> 67aa35865dbb490f953fd1c0e3d81ac8713b74e2552cdda134320fbbc5af28de
+~ -[AppleSpell spellServer:suggestWordWithLengthInRange:language:] : sha256 0a0177b96c968bc0139438b616318a73f914b2463af984ee587817756fe4ca4b -> 1f57d0ceadca621fa0f16f7da6e406e7e55089856352f9801659c439452bd1e1
+~ -[AppleSpell spellServer:stringForInputString:language:] : sha256 b2e762304f126e46055cfbef3c768969b6de05dcd85054d818a05496d8b8aea1 -> 8c3a5884a1449a3290f3daf447a6b9fd7a38da28cdd3b6b35ab3cf9a8c1bb309
+~ -[AppleSpell spellServer:alternativesForPinyinInputString:language:] : sha256 b68e8b95f8330353d7db2f56dd2da91cad3abcbbbf03196c4fd3b44d067365fb -> 8d028ac8972660d9b7f4b2eb1cd7680d2b3ea4333a5b013fa1b6c74aab643aee
+~ -[AppleSpell spellServer:extendedAlternativesForPinyinInputString:language:] : sha256 6e452fb8e8838a9dc767e54ea8863c46e5b420759ed3d2a518ccd0dd950a2c0f -> 97a249ffa65631c02dd48dec0340875a27e23f20c566978804653c7c53e32fef
+~ -[AppleSpell spellServer:prefixesForPinyinInputString:language:] : sha256 17188352957c66205110fe0e0658836f38e90bc7f5371c515c5be43183b7edd0 -> cdf20e63cc27ce2ee82583fb8b4535be593b6fd3b0c2ea801f7e3fe1fe60850b
+~ -[AppleSpell spellServer:correctionsForPinyinInputString:language:] : sha256 1f953d8c221bdca05d1ddb12b87e871497331e574dc7a838cde2f8c2c7f81cb3 -> 92bed90b600895dbf7443922b58089eab9df8d3e67e2f87b2274e8f63fae5a22
+~ -[AppleSpell spellServer:canChangeCaseOfFirstLetterInString:toUpperCase:language:] : sha256 f148b80e02d52bb3d740d5c6475b53ca82f225f327a0db2bb8bf4a8f5fdc40c0 -> 56b4e8a3aee83467f2f1ff8d8df2a9f91c0a5da51aba06dcd7fa5aeaa2f5ce3d
+~ _SLcap : 224 -> 220
+~ _SLstrcmp : 48 -> 44
+~ _SLc2pasc : 112 -> 108
+~ _SLpasc2c : 48 -> 64
+~ -[AppleSpell(LanguageModeling) sentenceTerminatorCharacterSet] : sha256 b203e6648acbb8a0b554e0d01d9544ccb62dfa33bc3b89b05c043a0c45df1a5c -> ec5e02c5ffae8c46abecd401829c68067edcaf87bc5d31644f72e10086c9a0ff
+~ ___62-[AppleSpell(LanguageModeling) sentenceTerminatorCharacterSet]_block_invoke : sha256 2f54ddf0f9820034d42d36cf53b919cf2329b9bbec5003241ac96ef3fc1fb96c -> 9368f57db266506d7ae13fb14daf18fbe9eab5fc4f19ba7f4adbd77542260e67
+~ -[AppleSpell(LanguageModeling) _standardizedLanguageModelStringForString:] : sha256 9bf0e15ab9954b8aa8d6342a4cc469c5a48fbc6b65e665d3b1eadac2affa70c3 -> 74cb7e488b9d751fb8b3eb8dfe0efc44ad181c9747b7f8571b1481d95d43cf29
+~ -[AppleSpell(LanguageModeling) _tokenIDForString:languageModel:languageObject:createIfAbsent:terminatorTokenID:] : sha256 722dbe72e056163d305aa3f8a19ab90bdcbdd43e3df889776567f1fb0abafa39 -> ff6c66228b7d1cfdb5ab7024d2b1d9155dcd30b294ae88fb687f1851a7a5506d
+~ ___112-[AppleSpell(LanguageModeling) _tokenIDForString:languageModel:languageObject:createIfAbsent:terminatorTokenID:]_block_invoke : sha256 62840512ac0549852d2d5809d6bd15b7d0a0c1d87c369abfa748cc94b15feefc -> 32aa00c574a63f172e2b173b7174842b310fb830fc48bc90f137f3fd61c5554e
+~ -[AppleSpell(LanguageModeling) _tokenIDForString:languageModel:languageObject:terminatorTokenID:] : sha256 602079cbba23d5722df12b1b5b302571cc9a1991779d30ab473b5cd43328b7c8 -> dba32f78547db6e4bde172a3fe7dd1aeba5982d9c20d53181936c6c808e410bd
+~ -[AppleSpell(LanguageModeling) _stringForTokenIDs:tokenCount:entryString:languageModel:languageObject:connection:sender:prefix:capitalized:] : sha256 719560a426c92c9df9fc43674de249b5f6aaf3c83691d36bec98c529008151ec -> a05444976a01b2e48412570cf1d824505b762a7290c529f2970ed52e0810c985
+~ -[AppleSpell(LanguageModeling) _stringForCompletion:languageModel:languageObject:connection:sender:prefix:capitalized:] : sha256 36d923c9cc75822d683436e7676697b2ecdf8ab01b06e7f39b7a3b9f0592a95f -> 82a5eace4612d000f3fd2531fd37f53688a0efc9a6691be7cfdd5079576e9b53
+~ -[AppleSpell(LanguageModeling) _shouldBlockWord:languageObject:grammarCheck:] : sha256 6cd579ca432673e5450c987a9ff5c1446891b76c1f3fed20cafd28dc8bb9601f -> abad4bc7dd6bdaa452f74ad932f58737ff59a7282ca193dbdfac80224672fcad
+~ -[AppleSpell(LanguageModeling) shouldBlockWord:languageObject:] : sha256 49eaf03cfb5d7dd2ca35d42971e7f90f5ed0635e93516be6c91ce95a140b0776 -> c03c5bf0c1d0621ef299a691f9802542955d1e6d5cf94ab681143fa12dbf58d8
+~ -[AppleSpell(LanguageModeling) shouldBlockWordForGrammarCheck:languageObject:] : sha256 638dd7cca5577d15d29a3be74faad482be002f7efaf14ecba80adfecc0317ba3 -> 7be134dd7a5f1622cb4ea178bc84f695d117ec57898f4c3f5dc43d48122adeb0
+~ -[AppleSpell(LanguageModeling) backgroundMaintenanceQueue] : sha256 35c558c355f49e05058d1cde8bf7b95396003ef076574978e0a7651443130b55 -> 9fdb2b65b06c6e1ce283d66dcbcb356670c78ffe35b7d24add5c6e64cc2a7f6f
+~ ___58-[AppleSpell(LanguageModeling) backgroundMaintenanceQueue]_block_invoke : sha256 9b11a177f29ea0927cd0ae7b629b13424180bcc89ae89061b5cfb70acaaf8f9e -> efb28b7f211d52910a209f3f381f397dea6556214fe260f36cb616e16c5e7be5
+~ -[AppleSpell(LanguageModeling) _contextLengthForRange:languageObject:tagger:languageModel:maxContextLength:context:cleanOffset:cleanContextRange:lastTokenRange:lastTokenID:] : 1184 -> 1192
+~ ___173-[AppleSpell(LanguageModeling) _contextLengthForRange:languageObject:tagger:languageModel:maxContextLength:context:cleanOffset:cleanContextRange:lastTokenRange:lastTokenID:]_block_invoke : 348 -> 344
+~ -[AppleSpell(LanguageModeling) languageModelLocalizationForLanguage:] : sha256 0c64ced667f96b9c883f79eac0bb5906b0a9e963be9fc23a2b377b4c7e57041c -> e03374c1a2dad07e1c1950684ffdd720b483c40bf5fea98a818cc16908b29aa1
+~ -[AppleSpell(LanguageModeling) _readLanguageModelParametersFromDefaults] : sha256 c194a5ee465b7925c2fcf93ad3464e201f9a3611d49a9c8b86bb7db6b2534e97 -> e1added21d1f528020dca4fe267900ffeaa748543e83b7eb63cbcb354a4ffad1
+~ -[AppleSpell(LanguageModeling) _readLanguageModelParametersFromDictionary:] : sha256 b8501ab963a4cdf6127bceb9c4506d7b1c711eaec2b61a322546a66f50ff974b -> f85e42f7ec8ca7910c52e5318ab50e95777ea7c85cbd5734bc2ed217d8a07d0b
+~ -[AppleSpell(LanguageModeling) _loadWordLanguageModelForLanguage:localization:appIdentifier:onQueue:] : sha256 6555d1d49aabf0d9c991dedbb63c5de6372f17e681d81ab57179026881c13555 -> 29449a86dca969541f4994db53fe2c8e6b677f04f21d3d87edd4b7cda24b49ed
+~ ___Block_byref_object_copy_ : sha256 c5e643fcf61eab1568ecfe15431c8db5ede24a9acc38eae1a0bc73d5ce57d8ca -> cde4bcb92447cdb2be3df3700100057e4ddfc2efabbb0b778efa3300136b1480
+~ ___Block_byref_object_dispose_ : sha256 e51baecdad0ba08f886c850524447597c6a507270ba44d199a3b445eff1f444b -> beb3a23b6d25b74038e5556f9c76aa1ee49d87d969191a8230f8b531b287b409
+~ ___101-[AppleSpell(LanguageModeling) _loadWordLanguageModelForLanguage:localization:appIdentifier:onQueue:]_block_invoke : sha256 d61a0643b30321bdff2271d0a1592374324bb96a8efe60ccf0fea8574760a43a -> 5f0805a43e44bc97b0937c98d906a59869513140114bacb338e46d9dfe49ec23
+~ ___101-[AppleSpell(LanguageModeling) _loadWordLanguageModelForLanguage:localization:appIdentifier:onQueue:]_block_invoke_2 : sha256 fbc26fca6545f51ff7aa1c6fcea5d1d6ad31f326470db9d77a4c84438bbdef15 -> 774784ea334cb2470b0832d7f240e214bf85eb7457c4b50e4e38ab005f1dbfbe
+~ ___101-[AppleSpell(LanguageModeling) _loadWordLanguageModelForLanguage:localization:appIdentifier:onQueue:]_block_invoke_3 : sha256 c604ce5aa79ae9395758716320c7744243c65a948e3576fde92a7c5d466697f2 -> 918442de1aed365e8e7cec3ccce7bcf9c99ce03038984228c51a005c3adbaaef
+~ __setLanguageModel : sha256 6b1b5f1e5c19cd51a09d662eee5c508c48fdd5ef0aa2495c5762b9b6e25d13a6 -> c8e2e1fcae76814c41d3d43d0e3dea9e8e3a627272c41da86ee1cfa9ac0f9e7c
+~ -[AppleSpell(LanguageModeling) modelCreationQueue] : sha256 1db0b202c5dd3f11d10aeb192aff35305a23fa523efed60bbda9dc150a190037 -> 30e01d061766d8c8775fda5f9604e0a3e9512def4fbaa826281e937e65d0804d
+~ ___50-[AppleSpell(LanguageModeling) modelCreationQueue]_block_invoke : sha256 8db9298aca9176f0b4d059008cb01cdf96a2c472e89472f7670e089778461236 -> 825359e8c1b62fffd7e906528b9e160054cd6e3ee899671bbc9a437878b2cd54
+~ -[AppleSpell(LanguageModeling) wordLanguageModelForLanguage:appIdentifier:waitForResult:] : sha256 97f1bf88288195bda5df9a8810c1fb79fae8f2b949e03da2bffebb15ff322e7c -> d5db85a7d0a5bb94fb7fd6911b6de1249fb2fad7c6ad48d8f2973b5e7a231ecc
+~ __allowModelUsage : sha256 7f19c24857a81bea07c374d5339dd9046f67d0ead9b9c4a7f04cd3a85295d171 -> 70248530c7a9939be78d94fcbe5414e0a97d133f4dcd9836e16bc89d241caa29
+~ ___89-[AppleSpell(LanguageModeling) wordLanguageModelForLanguage:appIdentifier:waitForResult:]_block_invoke : sha256 d68250cbc11f7ec37fc90d2c2d4b4df4c2f72711b56a029b730c27da63049520 -> 1e87b6e48bbb3043f5fe3b178a4fe0b66a119376c1a087131825452714b83511
+~ ___89-[AppleSpell(LanguageModeling) wordLanguageModelForLanguage:appIdentifier:waitForResult:]_block_invoke_2 : sha256 b668a85210e51d69acfe3781605e40b63c80e796a5d6d16850000e0f188a7a4a -> 4bc9b8ae8b676b1d19611eebbcf9155e93f2941f2e70742164a232d916016869
+~ -[AppleSpell(LanguageModeling) wordLanguageModelForLanguageObject:appIdentifier:waitForResult:] : sha256 45316809924315ce3b028e096d5147286dd947db64e59273e0bda01540d879e5 -> 48f3cdb62b89e6dd0f00b4f4ffc1ce023d61ab28126342f59d40d01c9dd948a9
+~ -[AppleSpell(LanguageModeling) useWordLanguageModelForLanguageObject:tagger:appIdentifier:] : sha256 111683d83976117d55b504a7ee7cff2948be56b30826c7cd26b65652e4592987 -> 550640bebd02da1ff2a5f1e4ce5e14f06ac10533a1262c29b5fceb1d0a6e2e65
+~ -[AppleSpell(LanguageModeling) useCharacterLanguageModelForLanguageObject:tagger:appIdentifier:] : sha256 cc721b78aca9cbf6b52336d610a577603aec5e0791a31a7f9ebb9c23353aede1 -> 32a0ee3e60a47656e8c4a6051c4cef97f559b632ebb996814e755822c42c734e
+~ -[AppleSpell(LanguageModeling) useTransformerLanguageModelForLanguageObject:tagger:appIdentifier:] : sha256 ba7cce0095e47d485fbe1046858fb8e7c89e4611fb54beef862be8621c63a452 -> f631b27aeb27e340dd261684f02f5d7d67a00f37c5bb513930b05fcb4a807217
+~ -[AppleSpell(LanguageModeling) useSentencePieceLanguageModelForLanguageObject:tagger:appIdentifier:] : sha256 9fe49d42dbfc05760865315aba29b9c25ad101d8e8307f914d0be5cc7b43b64e -> 0a1118e3ec6ee822558ce40d278d10b24f508ba860ddd3fb32e8b9aa9d447b09
+~ -[AppleSpell(LanguageModeling) loadWordLanguageModelForLanguageObject:] : sha256 134b16d1c8542de5d403ff9088b19cebb017f37b487e957965d375302ba6a7c6 -> 61e1a63fbb575379ff9f46cd4a9e13c5bed58bd9409b3555ed974c95f8f5f990
+~ -[AppleSpell(LanguageModeling) useUnigramProbabilityForLanguageObject:] : sha256 71ba24a89d6745131b6a394b525b20303db14e1204a312298b8f842014e9b12b -> b4199abb8a7f7be850d98eaf15a19d97d37d8ee1affc58f19c05df3b942d4e7e
+~ -[AppleSpell(LanguageModeling) _loadNLPLanguageModelWithType:forLanguageObject:onQueue:] : sha256 3f11d05e3fd3f72795880e6032b2fa71b5847a897065ef333f5b7c678be86652 -> ba3e543d9513492943ec4e4d420147a2e3cc0c624f8c6d772a00d4cc18488840
+~ ___88-[AppleSpell(LanguageModeling) _loadNLPLanguageModelWithType:forLanguageObject:onQueue:]_block_invoke : sha256 2bdea8c9be85dc928e3692009cf6932bf066bd975303b206abdd52dfdb0ae7b9 -> a761d6f5673ccc0ebbfec6a12968227e11d606eb6e52bc2ba4c709143502ef86
+~ ___88-[AppleSpell(LanguageModeling) _loadNLPLanguageModelWithType:forLanguageObject:onQueue:]_block_invoke_2 : sha256 defccf1872428e8f4bc3ae2b2ae3377cfd2bb9dbf6f2ba2a93c93af7808c0d88 -> b9196f78dc8a0eb5cde720fb9b0844c58d70c500d50607d2f1fae220d7c667c8
+~ ___88-[AppleSpell(LanguageModeling) _loadNLPLanguageModelWithType:forLanguageObject:onQueue:]_block_invoke_3 : sha256 26ee8b2adf3f4ea150ba3e0eee7c23fc3d674769af3385b65a28e8194aa6bf1f -> acba0075e7b23461fcfcb76ed67cc62bbc442f51d7f62c6387e4e77677e9b594
+~ -[AppleSpell(LanguageModeling) _NLPLanguageModelWithType:forLanguageObject:waitForResult:] : sha256 75515e23ca77c74635c4b7f4fbafb77689bbf1959d8cdebeb88349e0ac6f5ed6 -> 735b32610433ca88a3e5432ab5c39db234c7058904fa52a927738e31986d2405
+~ ___90-[AppleSpell(LanguageModeling) _NLPLanguageModelWithType:forLanguageObject:waitForResult:]_block_invoke : sha256 914c4cae75d1e144ff220e85e23e096398f79346ce4e11254d7012bf1ea2d9f5 -> 4db15eca5a43e86365c3843880388a5be4620e2fff44f6165d0440993667f753
+~ ___90-[AppleSpell(LanguageModeling) _NLPLanguageModelWithType:forLanguageObject:waitForResult:]_block_invoke_2 : sha256 dff6c29a189d619e7189f124aa18569f54e8c34acfa163a55bbd7dddc8dbe2ce -> 05ab7b9bb717c2d18e44033040a057bb8dab390201d4f4c00f9711993b27bcc9
+~ -[AppleSpell(LanguageModeling) characterLanguageModelForLanguageObject:waitForResult:] : sha256 8b2fc635cc5b5447e8062a829c4e81dcd0e158ecc1d357c793a0ac719a1d33ff -> fe9e43dae5b43106cdf86b1917b0989c57eadeef4d740bb4587d5bd3b73c0333
+~ -[AppleSpell(LanguageModeling) transformerLanguageModelForLanguageObject:waitForResult:] : sha256 ccc494163bd7f85d04e9f07ad94b5469f5c394b1f1a62fc1c4d44fd6da773790 -> cafd847d8b08339029d677402d4e63cf62297170621ec74f371ded6b1b0fc5b3
+~ -[AppleSpell(LanguageModeling) sentencePieceLanguageModelForLanguageObject:waitForResult:] : sha256 50a78a39e5f72a780d6b307e3ee91f995aaeb3f7b0cb34cbcf1425079f4df5f7 -> 752b4e5b4e438e11db497608bb7834a129f319947683e56478500dd7ee1d6645
+~ -[AppleSpell(LanguageModeling) transformerOrSiriLanguageModelForLanguageObject:appIdentifier:waitForResult:] : sha256 e30fa6c124beaaeedff836975613be1bbac9c4ef0f3ae9a6daed0510c87438a5 -> e0ad2ea5d949ed9bea16679260800cd41fec4cd9598a9fa54ca88c5d612ee2c3
+~ -[AppleSpell(LanguageModeling) _resetLanguageModels] : sha256 75190db3179dd1c3591efc1e6f0ceaa8beac47cee39b9000ab31d88ecc0311fc -> 9ab26d5aefdf00500a2ccdfc3e9c23b186fa1e77cfafa498bbe092c2bf4b9028
+~ ___52-[AppleSpell(LanguageModeling) _resetLanguageModels]_block_invoke : 544 -> 540
+~ -[AppleSpell(LanguageModeling) _releaseLanguageModels] : sha256 8f24b34bb1d671f5b9de83a779e810932238a3143ba0d40a8495f9bb0d1ccf14 -> 54c255e2c70012ac322cdcba4952cf8667af517ce431b66315b746f03ef4c47f
+~ ___54-[AppleSpell(LanguageModeling) _releaseLanguageModels]_block_invoke : sha256 6e1e6891d20aa1f7579c239568f2dfc177aeacafb2c824f59941780b7fa2d6e4 -> dea435ff8b9ca9c522767ae5697a47412bc92b7df01af07f52803329fcf11e9f
+~ -[AppleSpell(LanguageModeling) resetLanguageModels] : sha256 85b73e957fe68ae9d05e241fa98df94ac7d4f0cadba459cc4f7466bb682e6506 -> 39e72a6109c37275921c6af0142d947aa9cf08b7dca4f4f76139aef57982323a
+~ -[AppleSpell(LanguageModeling) releaseLanguageModels] : sha256 fe899d2a714170aa935c1099098d5bb8f9f0732aac19041c6ab13427f6fded97 -> 15ddb738c8d945b1a1a5e1b8ff64cd563091ac378905fdaa1cdb149dbd6b2ed5
+~ -[AppleSpell(LanguageModeling) _addLanguageModelCompletionsForPrefix:languageModel:languageObject:connection:sender:capitalized:candidates:] : sha256 7a819c0b7c3550846d7933e91013f0b43cb6cf4d998ac49c9533fb187e297b79 -> 6200705df7cd7ea9b4daa3855bed4773c63a929a74b633627ca884c5122d16bf
+~ ___140-[AppleSpell(LanguageModeling) _addLanguageModelCompletionsForPrefix:languageModel:languageObject:connection:sender:capitalized:candidates:]_block_invoke : sha256 75b74cccc20b5bbf3dcfbb48b016979191a8df4aa770ef35c83907e7c45124fb -> 12bbbbbbdf1f3680dacfe7d01c9f9eacafa5bf334aa6ef4f1bb5b46d96251b3c
+~ ___140-[AppleSpell(LanguageModeling) _addLanguageModelCompletionsForPrefix:languageModel:languageObject:connection:sender:capitalized:candidates:]_block_invoke_2 : sha256 386ad61b375dfa44eba49ed21c50af0538b116a1bd4925c69fe28561f54e33cc -> 919e9531f004363968d09e9409b1ab9b8453933681944904048304d90eac5760
+~ -[AppleSpell(LanguageModeling) languageModelCompletionsForPartialWord:languageObject:sender:appIdentifier:] : sha256 98ed0af9588f8652406a8cc2463b34f1f6bb37913d8dbb71c1783b7ec756ddfa -> 4d5638c1fced07d8bf1a0929ea0245b3fb159a03ff2825960191573827bc10f8
+~ -[AppleSpell(LanguageModeling) _addLanguageModelCompletionsForPartialWordRange:languageObject:connection:sender:tagger:appIdentifier:waitForLanguageModel:allowTransformer:candidates:scoreDictionary:tryTransliteration:] : 1772 -> 1776
+~ ___218-[AppleSpell(LanguageModeling) _addLanguageModelCompletionsForPartialWordRange:languageObject:connection:sender:tagger:appIdentifier:waitForLanguageModel:allowTransformer:candidates:scoreDictionary:tryTransliteration:]_block_invoke : sha256 9de293f92dda90f9b4284f1ab55f09cabff78e1d32f2b03beab6d258ee998e73 -> 7e64a38bf9006a83bc745ad23f6a562b131c769752227267b4b27984fac26bb5
+~ ___218-[AppleSpell(LanguageModeling) _addLanguageModelCompletionsForPartialWordRange:languageObject:connection:sender:tagger:appIdentifier:waitForLanguageModel:allowTransformer:candidates:scoreDictionary:tryTransliteration:]_block_invoke_2 : sha256 0cc94d3a48e04882206cf2d6d52086eac08d7a27d3c0babacccd394bbdabfd55 -> 2b0b3012ce7328d8a031656dcdcdcc930a12a83d6bfe15f5aac3aab3cbfefa1f
+~ ___218-[AppleSpell(LanguageModeling) _addLanguageModelCompletionsForPartialWordRange:languageObject:connection:sender:tagger:appIdentifier:waitForLanguageModel:allowTransformer:candidates:scoreDictionary:tryTransliteration:]_block_invoke_3 : sha256 f5687c7b18c28620080d52d2be4d190b25e68c2a6bd5a9bf56f989f84d176019 -> b3a581a093b0dbee9f46d424fcc1635fc6ac3435cd1c0a98b41e744101b6349d
+~ ___218-[AppleSpell(LanguageModeling) _addLanguageModelCompletionsForPartialWordRange:languageObject:connection:sender:tagger:appIdentifier:waitForLanguageModel:allowTransformer:candidates:scoreDictionary:tryTransliteration:]_block_invoke_4 : sha256 01c5745233b30e2c84d6b08bed64a9752b002c1c66a930f08bb8a02a33f6d60b -> efe50167b207cf1e899767d3bc7ecda9e6fedb8107f95fa67629e27589233979
+~ ___218-[AppleSpell(LanguageModeling) _addLanguageModelCompletionsForPartialWordRange:languageObject:connection:sender:tagger:appIdentifier:waitForLanguageModel:allowTransformer:candidates:scoreDictionary:tryTransliteration:]_block_invoke_5 : sha256 42afa4628a338096d48124ed4a8843311cd6dabaacb11ec41c0c7acaa8d2abc9 -> 314ef7c49c3acf3b30ed37ba9f2bf335c4913b5c2e8904535586950882d5b6a2
+~ -[AppleSpell(LanguageModeling) _getUnigramProbabilityForString:languageModel:probability:] : sha256 536916f29bbaf238f6ba5fc8b8eb53236b34b9d413e39dbbb9a064cdde82e1c2 -> 5e6fb96c5b53ea6bafbbc9b8931350af815dd320e5c5274e3f9f6b88906c7a81
+~ -[AppleSpell(LanguageModeling) _rankedCandidatesForRange:candidates:languageObject:tagger:appIdentifier:allowTransformer:scoreDictionary:] : 1616 -> 1608
+~ -[AppleSpell(LanguageModeling) getParameterValue:forName:languageObject:tagger:appIdentifier:parameterBundles:defaultValue:] : sha256 4bf71cd8a31a3c1dd22ec80dde9c12ff0889f4c6e18f2a9bb2bee08679179960 -> e60a70e6051ef3caec0a1ea360c1624e46fa4698a3ca582003f1bec3bd7cc560
+~ -[AppleSpell(LanguageModeling) _languageModelStateScoresForCandidateList:languageModel:state:language:tagger:] : 828 -> 824
+~ -[AppleSpell(LanguageModeling) _rankedCandidatesForCandidateList:languageObject:tagger:appIdentifier:parameterBundles:] : 4152 -> 4132
+~ -[AppleSpell(LanguageModeling) _useAlternateLanguageForRange:ofString:languageObject:tagger:alternateLanguageObject:alternateTagger:appIdentifier:] : 716 -> 724
+~ -[AppleSpell(LanguageModeling) dynamicScoreForWord:languageModel:languageObject:] : sha256 11288a41ce9721ba4507b6d70cf08fa8b988dd1e897296ab3dc1bc5ccb1b4b0f -> b68acf25693dfb1273473660b0510b24bab7317d1043b924752357c5a91138c9
+~ -[AppleSpell(LanguageModeling) dynamicScoreForWord:languageObject:appIdentifier:] : sha256 1dfca8a0cd5316ea7db880cc372483589ff4bee476e90b643a38b871584caaf9 -> f45394e27db15d76818922052f96bfc647b0411c421f6bd52d9830de443a42b2
+~ -[AppleSpell(LanguageModeling) getConditionalProbabilityForWord:context:language:probability:] : sha256 1979964a938125eff53c1726e8f9caadaca57446f9377b6ef73dd433d75416f9 -> d9f37133f10a2a44c0ed779a5401ef3ad248baf8e07801aaa0d30f42b5647373
+~ -[AppleSpell(LanguageModeling) getCharacterModelConditionalProbabilityForString:context:language:probability:] : sha256 80cb64ce9ac27192e8d76516144413c9cd150c1d16c3ef96b38f3b52d68cf52c -> a3c7b2036a7be55a9c0f800040a672063159ae872ddf97216970dcf0ede9052c
+~ -[AppleSpell(LanguageModeling) getTransformerModelConditionalProbabilityForString:context:language:probability:] : sha256 f901d49c25bfb9aa7be8619d4eaec4e60bad6836ad55f3cc471e2c30f3ac07ee -> 5bfedc7409cab89feb36f09913a6d96119ac179aa2e12575ddc081e715a01600
+~ -[PRWordLanguageModel initWithLocalization:appIdentifier:lexicon:] : sha256 cd48e14a23fef2e03632c21a2b122008e151be295aead0f230d73d46eebf3600 -> 9f24a3a28f87d69489efd4e391cce8cb21477a3f418cbd06accbb0ade3e8cd77
+~ +[PRWordLanguageModel languageModelWithLocalization:appIdentifier:lexicon:] : sha256 fa5dd1dfe5512d8b21324acffef395271eff6aff402f79a3fae272b85ed4411c -> e61829d6e1d48c510ffc55adeaf30e06b4827d1a0efebc8bdbdb71801cc65880
+~ +[PRWordLanguageModel performMaintenance] : sha256 7d4a3915b1ff1bb59bc2651b474a044df109c10e92e28ac9a09ba0d402b97bc1 -> 0946c52709376c61a1033c00c02f79820fc23698fb6b4a2a1277a6bfac78a261
+~ +[PRWordLanguageModel setLogLevel:] : sha256 83f6457fd0ab8551e7384cc7e75976b5336d8bc708b2aa8f4bc7f2aee559fa8f -> 183968996b365c45e36eedb41984f34adf7b27249599cca9cb83a748462c8cb6
+~ -[PRWordLanguageModel dealloc] : sha256 f5439469f0c49fb2b842009c0ef418b9066397943102f57b3b415f88364231f1 -> 4ff37f98b46c3f67081df3e0847e5eabbf22bcdbf0980001acf3a8938c02ce77
+~ -[PRWordLanguageModel description] : sha256 6d186192b42ee55b9dad57eb312e087de176dcd77d5ba044207cb1efd1c651ad -> 9f3797c59dc238e86230f0da8c46de9a39308167b8c7a2a1e3860dc2a1ec5932
+~ -[PRWordLanguageModel tokenIDForString:] : sha256 89e7ce998573ee3dcb83ef2fd74c444e573a2106adeeacb86582ef6412dda56c -> 6cbfbeb7a69836201f94e124d7aa002de3ea8119ba85d0bf29284ccab9b08f31
+~ -[PRWordLanguageModel stringForTokenID:] : sha256 d78aab5f3b54e42b8653093cf18f9ac85c69ff0fa0b105e4133bb6697c55e7c3 -> 75db86d14a3cc9808510b3f8d4a68cbdb66c6305254a946452ebe4831f7a5fed
+~ -[PRWordLanguageModel getConditionalProbabilityForTokenID:context:length:probability:] : sha256 30378582d1fc45a0607e9fe0e0b547b22fe42ac9a3f03dd82651be2a1dcbe844 -> 68acea95deb79ed44dc92697940734f9b7f841d88ba54ffd16925b1fdee27482
+~ -[PRWordLanguageModel getUnigramProbabilityForString:probability:] : sha256 0541a24f039652d5db1f5bc4e2c304fac1daf690b3a9a8098aac3dd3c3272dc4 -> b3eeecc06676e04a399049700aee90cbf93dff322c79f42d3acb22a9b47e6aae
+~ -[PRWordLanguageModel usageCountForTokenID:] : sha256 473212fa8a784d1904f424f4f0a34934ffcfd67201efde9c7168f2f9a5bd3f37 -> ad3b97f54e2ab0355ac47897f5ce655dd55f40cedfdade6cb1bb4b4982bcbb54
+~ -[PRWordLanguageModel _descriptionForTokenSequence:length:] : 180 -> 176
+~ -[PRWordLanguageModel tokenSequenceIsBlocklisted:length:] : sha256 d07a4af2899d30c2a0d74f85824a50f264d04fccc632430b5745b919f312b319 -> 69024d99edb4b2cca94c2439a294803e717115215bb0fa0192bcd0895760ec4a
+~ -[PRWordLanguageModel enumerateCompletionsForPrefix:maxCompletions:withBlock:] : sha256 3ae66b0c1d94a8d90c89ca32fbdcdfe18cfc7c5797a98bab808cfcc283e06aa6 -> 9484cc97cfd28209610664a2f241860afbfa10a5bc7910d010e1fe8413d12385
+~ -[PRWordLanguageModel enumerateCompletionEntriesForPrefix:maxCompletions:withBlock:] : sha256 ed6c9ee0e57c184cad81cef326791922f6c12bc2a0af980d266587a407479eaa -> cabf7e2e89f4b2d33634120b0c0416f9d1809ceb253aceb5f6d80b31f4e9d0b7
+~ -[PRWordLanguageModel enumeratePredictionsForContext:length:maxPredictions:maxTokensPerPrediction:withBlock:] : sha256 9dbdaff2d5dff814a999519bfd244f0769a225c1ff79fdfa78fb226709e393d2 -> deda077b230ff71438fb1bbc9c95390b379524688e5b2912b97274ea06b6bb5e
+~ ___109-[PRWordLanguageModel enumeratePredictionsForContext:length:maxPredictions:maxTokensPerPrediction:withBlock:]_block_invoke : sha256 54c4596b33c2e70d33a9df15676bedf8b6bb387c1a7a8262272ba95c6beca31a -> 6439325187ebc40d2a958370b0bd77c76af426539c67c2a4e3b80bcfae39076e
+~ -[PRWordLanguageModel enumerateEntriesForString:withBlock:] : sha256 1168cab8aac4ba2d99a36f8365ba87238ad500ef58e5e73adf69d7d3dd108c96 -> f7c4ca0f2619d7718a39abfa5c54dbde2de664d7e0ca7b64c3e3531dfb2f7dd4
+~ -[PRWordLanguageModel addTokenForString:tokenID:] : sha256 7d543e79bf8557dc83d3c189cec75119bdca07477b863a065eed3d3890885285 -> 35ce93a4f3b42dea561cb5e3559c847b7a6d71ec98d908caa102f875049b5f5a
+~ -[PRWordLanguageModel getFirstDynamicTokenID:lastDynamicTokenID:] : sha256 4143241eb4f138b2cd3d89bcda83d5220070cff4882baba8e08d5b2671147783 -> 15b9efa726183acbd398553eb6f99c09a04859910cfe7c145cf028adc0b8e81c
+~ -[PRWordLanguageModel shouldAdaptToTokenSequence:length:] : sha256 2bac773ba2bbc26019a401031354e5e15bf0402b24c65b4d98ef98476293e28a -> 51b00b5d1b4bc694e404b9d0944676e19ef4d3fe6931aad49c140c6feffaab5e
+~ -[PRWordLanguageModel incrementUsageCountForTokenID:context:length:] : sha256 505995f1b8eef87aecdae3ad9f764e2906e9842d7facac0390b4c4c6df3c6c48 -> 0c0f3fdc394d3cab4ba44af102bb110fbe985c53661af7df0be5563cebf9c233
+~ -[PRWordLanguageModel recordWithDifferentialPrivacy:] : sha256 cf3bb4eb808ef772fea23949a6e48fc12185b83889c940bc5fb1769cf0245aca -> bb0b727837d50871f7fce8e3a81897bfc8f0d02699a1c51343f87574389229c0
+~ -[PRWordLanguageModel reset] : sha256 47beca29129a5c8186d0d8eb90031404b3a84cce4a0722a92a6232254e16d4d1 -> 2e9181280da9483efd78cc0aeba88eead7f655fbdce6d5b8d95f2b9ef7ff5b62
+~ -[PRWordLanguageModel flushDynamicData] : sha256 5b9012d8df80ebca71da62e955aa2ff3f8b90422542e3f40110580f25eb10149 -> 8dafcf3255793db3ac73449f088b3be2d380be504f310464b69813f1f1b7534b
+~ -[PRWordLanguageModel applyExponentialDecay] : sha256 d4105738ce3a9c254479dd522587ff5befa322ba5e9bddde4767986c8d558097 -> f42a1fb9dbfbc607332deb14cd5bcd9ea74e5f279808bf2a7e45602409c4275a
+~ -[PRWordLanguageModel pruneToSize:] : sha256 0826838955f3aec228ad6cb39ee75e5cd2fb9037a5240f4239f707ae7ad9aca6 -> cf7d9fe8084da15dbe704cecf2883d40445daa2862c3acc61f6356000ea4300d
+~ -[PRNLPLanguageModelState initWithLanguageModel:state:] : sha256 0b4f1149df9cbd23f8168d43b49c745b436447b55d659aa4113d4aa0205a3987 -> 99c40562ed80160917e7bb34440fc757c2cb06a1de73ca788c5d71a2a3edae5c
+~ -[PRNLPLanguageModelState getConditionalProbabilityForString:probability:] : sha256 84aaacdd05a5f50678f5bb075d18f938d2d84f9dd6d35c98dbcb7e1b078bb399 -> 2863c33661ea08edf5c8665fad4186a2678e88058827c923c0325b4569241681
+~ -[PRNLPLanguageModelState conditionalProbabilityDictionaryForStrings:] : sha256 377dde77670f4af3c38a8ee3fb1a2b1ae56f2229c61c3a5bd33d744a6edf8bea -> 77dcf830989177fc6bf98401f3767ed30f5faf11bd7508d9e44bc6b280edfc79
+~ -[PRNLPLanguageModelState enumeratePredictions:maxTokensPerPrediction:withBlock:] : 532 -> 528
+~ ___81-[PRNLPLanguageModelState enumeratePredictions:maxTokensPerPrediction:withBlock:]_block_invoke : sha256 cf1107dc8716e4e6a627fa04128966503d41e38d405cbd358851bcd3858418ca -> cc89c5bd20be0d25dd4cb117b7edbf6b10cd9a7700fb3fd4ccb171c6aead43b7
+~ -[PRNLPLanguageModelState dealloc] : sha256 4b0965a5974b903b463e6b1f9d8bc4d4c96260592f1147f26e68c4b5937e5f90 -> 3acf1514ee3e4980bb80b31febb6e0371940d1e26075494c582c37495f4c57f5
+~ -[PRNLPLanguageModel modelOptionsForLocale:type:] : sha256 dc595b6f436d237400ae8e0733ef85b7b34c00b4d39636c028ad3f8f031c656d -> 536688b02c8a1be15a53d4fe54501b934833a0f88a3385777db48cd98585d3e8
+~ -[PRNLPLanguageModel initWithLocalization:type:] : sha256 cf0f23d3064599940df2c79d5d1fcfebcfd88425f13c4aced191c778d7ea5f13 -> d7fcdca6ffca4a34ccda169a0d119434acdfb615ce15e6a6662796b08e2cac8d
+~ +[PRNLPLanguageModel languageModelWithLocalization:type:] : sha256 5b19147f6cf1ca5fc1fbf05099a63f902ef70176836ae45ff62188105a4b3bb8 -> a8e9ed0cb843444eff411f53b4e346cb3e00778c873d0b72f459958979fa48d5
+~ -[PRNLPLanguageModel dealloc] : sha256 9705ac171032a35ce1c75754e4a5c745542dcaadd5ba228b51e36198ed19891e -> 243cf5bb5049b88097fe9897d20017f363413ff3f28caf0019bf02176b4e1432
+~ -[PRNLPLanguageModel description] : sha256 e9d801125dbe6c6565e81b7343add9895deda65f9832c1ee317075c3128789a7 -> 63b3d881a675b5045f4ebf0b01b66b4c302d4888e965c657f7b353d52f1bb0f6
+~ -[PRNLPLanguageModel getConditionalProbabilityForString:context:probability:] : sha256 d229bc764b0fe4644557b41ee7ff2c2ccc63f2a114f14513f0f8397fff490716 -> 344f62d4d66026303fdc29b206438b674446f8127dbe90087c50594a36fc82bc
+~ -[PRNLPLanguageModel stringIsBlocklisted:] : sha256 8b8569b24d1eab166702f79ddc80c007fdca71f7467f144fb26853b1cade77e8 -> 3eabae5d769a5c18e6ff8ff9ab094d3cf7b95c7f64a5d88835eaced98c2fe5f0
+~ -[PRNLPLanguageModel stateWithContext:] : sha256 77b5bc031bde42ca6f1a4eb8733db8afbeb21eef6661461478463519e3f1bbdc -> f75f48edf9c597ab55441e5b25aae1b3af583909a45336873078833561b89301
+~ ____allowModelUsage_block_invoke : sha256 6f18f4680b710af90094ea41b81ad9b916fbd5979eb7ebb5b19c0b8dc5f1077a -> 4d6f307d765fcc54b1eaa54714420dcd7223db42f3d7752a246cbd3ef55f8def
+~ _descendingDoubleValueComparator_block_invoke : sha256 875d5cfb691b5c6eeffb33c097ff3cd2138e32c9d632d038ac613c74a9669d58 -> 136c8b16d916df41506830ad2812078cd31aaafe49fe5a9111a46357122af1d8
+~ _descendingScoreComparator_block_invoke_2 : sha256 39d57930d03c72e16828b586fe3e7420233d1d90865d81ffc6213dabf89da21b -> 98b73c7c3f27bad4c77f2bd9ee4f5d578c89975fd01e960f606be36d935faffb
+~ -[PRDictionary description] : sha256 fb71a3fbe76072fe859faefe633e7b6432d8b7cdb22e18e28c3461e09f3f1e46 -> e18d1ac958a213755f947c754c43ee90552b7d364c33dad6f359371e5b4e0a73
+~ -[PRDictionary dealloc] : sha256 153700f14b1c85cd1a125a7b8849bf233effa6377bbbb0084b34afda94c9f333 -> 0ff6cd738f4577e731c3e5ed719e8726dc2d1e1402aac0bab0144fd05af3e62c
+~ -[PRDictionary checkWordBuffer:length:encoding:index:caseInsensitive:] : 1812 -> 1824
+~ -[PRDictionary dictionaryAtIndex:] : sha256 e51bfe29e120d9fa7eaa12ab362926c4f0c51a95ee32c92f56d3bbc75c19d0bc -> 320320a0db4f60c88a98368b3f2aad41844a71020baef22d820abd5751890993
+~ -[PRDictionary parameterBundle] : sha256 f6c745f97f2e7f3a5c4f418c53ba8ee68a75db981f2b6fc0f948c88ccfc3f66a -> 17e97fe086cbefcf1cbd7632ca4bcc05b89faa7ffb760dbe03ab9dbd64f9b2e4
+~ -[PRDictionary transformerParameterBundle] : sha256 9debc73feb1e23135aa261c8dd02ab6283c2f2aa51239f8188ed1b027f2c516f -> 9e81d5e72f75473cc806e85a726ab8e34c6b6f4e621b4fd5d7334a831856a2e5
+~ ___64-[AppleSpell(Dictionary) localDictionaryArrayForLanguageObject:]_block_invoke : sha256 bbfd9d3cc1795e160f08c69051d23149fe8292382f3acc76293e8f28ae48f658 -> d0254ff0ecf9267cc9b122dbc0731f99390843d76ee0a9a44613ace88f79012f
+~ -[AppleSpell(Dictionary) checkNameWordBuffer:length:languageObject:globalOnly:] : 548 -> 540
+~ -[AppleSpell(Dictionary) dictionaryForLanguageObject:index:] : 276 -> 272
+~ -[AppleSpell(Dictionary) autocorrectionDictionaryForLanguageObject:] : sha256 d8662fb9c4ba3ad3f79853c603166830fae1f1c284723d30a11661134962ad59 -> f6bc10b8e793056d922e8199e61df681a1a59c85af5c8b4301d6e5a6dbc2851b
+~ -[AppleSpell(Dictionary) guessesDictionaryForLanguageObject:] : sha256 b97477939d31d721c8fef186227060ed091f24f83289d7015fdb9b42f85b3561 -> 2ae0f8fd86e5c527b63b07f3646f11463d49d4875250f6c1e4bb24f2bbea41e3
+~ -[AppleSpell(Dictionary) capitalizationDictionaryArrayForLanguageObject:] : 320 -> 316
+~ -[AppleSpell(Dictionary) phraseCorrectionsDictionaryForLanguageObject:] : sha256 c27ce549944a6c0a386e7e3d824e5c1c24f88d3b913c24f9b614f494711bc70f -> 91b228cdccd21208467d73aadb3f2eee088bf5be6535c76994edd7370464f2c6
+~ -[AppleSpell(Dictionary) sentenceCorrectionsDictionaryForLanguageObject:] : sha256 232140b83b7a261c6f28db8dd382d10a76074721377d1c4c531b6253555cff41 -> 50370e66bdf26a6a25a17045a6baaa2dda985ebc1f47089858be4d23cdad2be5
+~ -[AppleSpell(Dictionary) regionalCorrectionsDictionaryForLanguageObject:] : sha256 e6fd537361cf5ccfc5da72313beed9db3deea29657adaf6e44fab8c768196ba2 -> 090eb84eaffe36254c4b3394f1cd66e8a8ae27b8e189cfe4792386a52979ba99
+~ -[AppleSpell(Dictionary) negativeCorrectionsDictionaryForLanguageObject:] : sha256 45c76f219a0481cf30220b4602087558c3906ee337edb47519f3dd1d78ff4af3 -> 7083715270fe7bcd2cd3659adbae42ff22221f37883501ee9793cf8f6636147e
+~ -[AppleSpell(Dictionary) parameterBundleForLanguageObject:] : 244 -> 240
+~ -[AppleSpell(Dictionary) transformerParameterBundleForLanguageObject:] : 272 -> 268
+~ -[AppleSpell(Dictionary) clearCaches] : sha256 821ef4cfc4b5590895527ec6c1bc5ffd6d5e5c4421c28f886150f717040961ca -> 4dad82ab9c75dd3e05a4ae1414548cd954caf69fc46706577a11797eace3c4ee
+~ _SLchk : 208 -> 224
+~ _SLLngToC : sha256 2e2984480eb5a2b1721cbcb8b2f73fb0b3a17572af9dad710c107532e19b0d8b -> 08f78018c8897c3ba86688fac2ee993691be975bfc100af52c6805ea6fdd4c0c
+~ _SLcrypt : 76 -> 80
+~ _SLOpen : sha256 12818193306d2aaa390caff985e635836328f406577117abcfb7f3af9149ab8c -> fd28b0e64c4be00ca63eb00f6903eb5fd3db34a562ab42697003bf9e88dc7cc1
+~ _SLfulfspec : sha256 001090d91b868b7acd477865578311506f39953c28da50452803188a5de128b8 -> 5deaed0585e1a68a332b893f53cde2b0ea9d9ecddd779a4816fb0ebc2d7850c4
+~ _SLClose : sha256 e24ad2183b98825ec1f8c7be30dab1c8655a6691ba11b8f39296b1a7991742ef -> 1cb167b0f1a1263905d66dcbacaba0a8f6c4cc40a17f6be6f760ac77dfbdb0db
+~ _SLFpos : sha256 f819a85c6f43190d593b1ef0094762cffb52c16dd0ad9e588b01405c28b1f2fb -> fb4eaee875fae59820511a07b0d9b642db105333fbcf5896e7f71aa547c053fa
+~ _SLFWrite : sha256 748dd665aedff9a03a4dfa8e79d6ab3a1390029dae98553feaaa14395cd2344e -> fc255ece16c9780e5e44a0465e83344ccdf7cf608957b0af98734e55b1b44b88
+~ _SLtmpnam : sha256 92167f49093149138ff1b7556e317c7d093be19e10ac1e1cee7c9cb81a7007c7 -> 2563e866f55e9a3eb5cf808dc62f0f8bce03832c14eafdc78aa1fe3dc520ae42
+~ _SLremove : sha256 d04586ec5ba977d992996e207292a464f9e6f89c4e35441d168746cb9867feac -> 274cb11742bddcea175c91966038e5c2368e066e1c4f2ac8b56c3262f51072b3
+~ _SLpthcmp : sha256 6a68f57d06d565340324e2eaacd48201f8db92ecd02dbccfb1e57cf6797e89bb -> 602dc22006e440e90259430f061a63a1bba1ad44fb244ada5773499947213621
+~ _SLpthcpy : sha256 a35817f70858c2f4d6f0dfc4ebf010a4687b5bc45295f70c59836f8b432ee4a1 -> d91b3f9794f305bcdabd97e9d92729acd09b8c1e8f9099447c7531f648de3560
+~ _SLisint : sha256 e3b7ab5335b5494a00d7a57103bd1dc6b7121e12cdb608c1f544b6f357e18c94 -> 0a6a4730f65bc7d7025d714161fc62d6e2c77c898d0df2659a5a6d20071298a1
+~ _SLlisten : 616 -> 612
+~ _SLmap : 344 -> 360
+~ _SLInitMutex : sha256 0e39e31044892aca3ae079e4df3bcc7e54350042db97b56ffba16046af89f897 -> be6add7feb1df478b2b1e2fa39aa31dedc8880c263cdd20ac7669992d177a32a
+~ _SLTermMutex : sha256 54477386a78ebd11b6de7653c9bc2ea59b6d8edbefe08c5aff66c9185164446d -> e0f7f4f1c83736f5535d8a52bc40d69f481e3be335b92af0fc5bcd0fd2368d87
+~ _SLord : 620 -> 664
+~ _SLpar : 608 -> 604
+~ _SLrecap : 288 -> 280
+~ _SLwldcmp : 544 -> 552
+~ _SLWildCmp : 612 -> 628
+~ _SLwldfix : 288 -> 268
+~ _SLwldpro : 348 -> 356
+~ _SLWildPro : 1024 -> 1036
+~ _SLparcmp : 440 -> 452
+~ _SLtokenz : sha256 b217bf7e8849e3f0676e715cf1aa961e68f83ed54c61886344acb619d754cc3d -> c173f1879dd381ce52be7f756ae337f2b24480405b650c6d9d19fea0e121894e
+~ _SFaccent : 2072 -> 2064
+~ _SFadd : 300 -> 304
+~ _SFadd1 : 388 -> 376
+~ _SFanachk : 192 -> 188
+~ _SFanagrm : 524 -> 520
+~ _SFanaqua : 1064 -> 1036
+~ _icgetana : sha256 6d332ebed0bea8d8fd7b8e339324870d8dff4cc024f1a760394f7bf7e678dab4 -> bfe11132c61053bb18e82ee9c8d06e5c4f26180676dff0be7309b6e3de037352
+~ _SFbisrch : 676 -> 672
+~ _SFchkwrd : 1388 -> 1396
+~ _SFcltchk : 188 -> 236
+~ _SFcltcmp : sha256 ab7bb7cdadb07ab623fc47dea63aafc0200edb6729dca80e7a1a5a9bdb0ee9e1 -> 6323e14c31a88dc06f06f46337179b6ee084235395f2d2c2b966a8aeeb227236
+~ _SFcltdb : sha256 adcf231745a0a85fdd78d2a0c05045f361dbad08186009203c1b1116211cc989 -> 023c4f2c0b45461854bbc6fddc40bd74b9639c1b06bd268135ac589ce82b81d6
+~ _SFcltscr : 1024 -> 1064
+~ _SFcor1qd : 1040 -> 1052
+~ _SFcor2qd : 1144 -> 1136
+~ _SFcor3qd : 1420 -> 1416
+~ _SFcor6qd : 1664 -> 1660
+~ _SFcor8qd : 1444 -> 1432
+~ _SFcorbr8 : 648 -> 628
+~ _SFcorbru : 2116 -> 2112
+~ -[PRTagger setOrthoIndex:] : sha256 8e074a679a5b8ca6bc9123781cdf500ef042c5c50164341cb123fcf376f07903 -> 7291860f6780b67db915af16035016f6d44f6a5a3452df3162238ea49bd6a298
+~ -[PRTagger orthoIndex] : sha256 be16d6be619d3d37de5cc5499a68ed11f018fc4768460ca011085264ccad48ea -> fc8c726902a34e4b822c2ff499b6eb7675b42572eb06f9c3855f4478eb39a25d
+~ ___Block_byref_object_copy_ : sha256 a93f22f02269293b16d883cda6c8963819cae16789b689e3115be9deb03aef98 -> f48dd48d913abdf786c10b826995b275e2d92bf8c8b021a84fdaa14e4baddc02
+~ ___Block_byref_object_dispose_ : sha256 4c0dc8d016ee0e3744dec8d44b4006915f6a9ac53f972570929d06011c204571 -> 887277b5cc317f13cf991537bdd14468c15efc8cab67d03c0291e97fea7218e6
+~ -[AppleSpell(Tagger) invalidateTagger:] : sha256 840b2e4eff0cdf13425559622b19e636cd2cddf6f96535a7530148e242ab07e7 -> 28d594b9a447cc2bed8a5e9c982afb4351634aed2ca29d0f7c1c70e7283709d3
+~ ___39-[AppleSpell(Tagger) invalidateTagger:]_block_invoke : sha256 1744f3b73f3ff93c258d359a59ed54b31f0e270f85953043ea0b801f92b2e3e9 -> 5d97ce4c990645cb1ebb3c9d91e28ab7f58f550df7d02730447603b4c54ed41c
+~ _SFcorqbr : 2184 -> 2148
+~ _SFcorrec : 2100 -> 2088
+~ _SFcorrig : sha256 96b9d65e135c90d2762e29d908579e028aa5eb71d1cfd92a0e9e2c968a7ad805 -> 0efca62f52764bf1736ab0f834ed8efa7facb5bc248deb6d4f2460ddf1aa4da8
+~ _SFcorsrt : 1084 -> 1100
+~ _PRSetEnabledLogTypes : sha256 d263ae63f3869bc2a0e05b954139e4bbcdcee3acca81d9f01eebdec5ce64dc84 -> 10473cd556799782415e6aa8f3685c52308dfd035e297b8be0b9966d91278944
+~ _PRLogObject : sha256 3cef186e71a68bffaf030a1514d534911e8cd0abc9f4a08da454d4fa9e13e17b -> 7c9f86fee334349dae55b9b4b570dcf141c9865f82030d78eefa4bcd45b316b9
+~ ___PRLogObject_block_invoke : sha256 0e04aafa3eff4546867c30f9f20e67e3cd855d0c6adc2fe23e07623b1d49520c -> 0a1d6d855559000a06dcd9814a1924eaf952ab4eaec1baa63224e5e3ee5c9847
+~ _PRLog : sha256 61bce6490752cd1cfc88220dda8e931979fb6f7f1492fe4b61cd809f957f7082 -> 4a6f29fb2be6bf269ffdd37e3b37a564bd130d2c2ebc4374bc3f151b3c74a27d
+~ ___PRLog_block_invoke : sha256 7594fcfc5eb416fa2cb95a41d98829090e7bab3108d3a07c374267fa38dd397b -> a57a49f22838d21f6da107d0e2aa50cf3619632c591561a6a9746801bd1df952
+~ ___PRLog_block_invoke_2 : sha256 a319b46363e13a918ac1cf2ffb15ae22eb107de8bb9c6e912b6eb29079ef560b -> 3dbbf208a8b335a05ee96bfaf203dd5ca57f32baad6952f7a8b49a50f75047e9
+~ -[PRTypologyCorrection initWithString:range:] : sha256 2f2927cafa50872ae18d466e31a2595e22a927963c3df88f807a7e6580d64a8e -> 2cc9d56fd5f6f80e5ac66b1500251d8a3041082b97ad02d1dac032ec3506d683
+~ -[PRTypologyCorrection description] : sha256 bbaac3efbef6bdca6f369e4f6211c9aeb526a8d5756c80b444b5c24da6a45407 -> b36b28012c5c483c863b36982dae93dd0059273abfbb646e2309ef2112f8622a
+~ -[PRTypologyCorrection dealloc] : sha256 0622e8bebf95efb79446990fc2719d22af7624de88db228ebc77d190795877e7 -> d1999fa6dbcfe736a328cc62d64f3a1a6b447fe9f102b2a5af7e7cd647d7d0ac
+~ +[PRTypologyCorrection openTypologyCorrectionWithString:range:inString:] : sha256 b2c7dbe0ddafac4bf0c92c6d05d22a7165cd219b83a6012075d544e38b724f90 -> 15b20bfc742d999adb5718c665b03b3e0c485b402cdd4d297a1a5421a39ef353
+~ -[PRTypologyCorrection addTypologyCorrectionLog:] : sha256 4abe8f4901599a754fee32a636a09e30b2e3006277388397cda783603396a5de -> 26ab4b68440305f0878e93eac2040d5b073505efa348042fc431c01b7c760711
+~ -[PRTypologyCorrection dictionaryRepresentation] : sha256 b6e1618dda9a398152639f9e1eaa5b5e16f4793df81e14225fe6a1b04f8acf11 -> 1c2badc29978950c6866cf4e7534bf17a8c5237d3e66c1e3e48429bd16d86fac
+~ -[PRTypologyCorrection closeTypologyCorrectionWithResult:] : sha256 4e8c4f731bebbd9f0c338856f2da3d2e79cb2852c39fc954a515c7020b094211 -> 74a83de2f554b1691ca7ec6c8925b7bcac79fc937cf794daba1c051605d5477b
+~ -[PRTypologyCandidate initWithString:range:] : sha256 5d929d2c96df1d4969da19082ec788a5e0d609952d8247e4380d0b2b3dccc66f -> a59efd54d08a1489d51c56f6ba78947b1eec73c8b5ae2dc90dbd665d6c9cebec
+~ -[PRTypologyCandidate description] : sha256 e4b4678f9ad11f8dad3a4b0a017470a41dd7d0bbf7a26d42bcccd3c4de45d75f -> d68ceb0afc4a9519dc9d03d81dccfaeac5605dcf93a1316eee6c5c89153ee493
+~ -[PRTypologyCandidate dealloc] : sha256 b5390d6273b4a37d8e3e277a83af772683c71d2a67ae839beaac9bf685184ffb -> 2f4fe7ae695aaafda1515e293692f021d20c09fa7bbe2c876b539232879dc810
+~ +[PRTypologyCandidate openTypologyCandidate:selectedRange:inString:] : sha256 a13722c99069f022601f44b7e8867d8fdd321bfd13d9deaff0ea2f77d4d3a0d1 -> 8f5ea9048d05d96ee4e87c4010c45b3ee83b645daeab44edd34566fbadf081b1
+~ -[PRTypologyCandidate dictionaryRepresentation] : sha256 8adb76511d5403c20178c4b36cc32a67e00cdff4a49afdd9d786535e47cc0e52 -> 63bd9c5b8317e63a4772b4d33500dae4a72484ea7b780077abf18040e443a031
+~ -[PRTypologyCandidate closeTypologyCandidateWithResult:] : sha256 90c6d6beee475fe063b396ce8e64dadf929688467a556163c23beb35bc5279f9 -> 8affa4fd99c855007235d18e3f17a01a4e373db26f36d45bee9ba3a1e18dbde3
+~ -[PRTypologyRecord initWithString:offset:range:languageObject:languages:topLanguages:autocorrect:initialCapitalize:autocapitalize:keyEventArray:appIdentifier:selectedRangeValue:] : sha256 d08431442c7bf2c7c6f9c889e3763d4ae38dfa756ec86b89058a10087caf7807 -> 5f66bef8bf5af7f5947e5fb40c52adcc25ebfffd3b5aca9ddac80fc2a027cf71
+~ -[PRTypologyRecord dealloc] : sha256 b7f386104bf072f38d9c7cf5871978f78f68913f81c0a129b6db1665e19eb1c8 -> 3db6ee11834bfb2cd07e49a86d981c337f3646f55ab2bfa13996305966c7451c
+~ +[PRTypologyRecord openTypologyRecordWithString:range:languageObject:languages:topLanguages:autocorrect:initialCapitalize:autocapitalize:keyEventArray:appIdentifier:selectedRangeValue:] : sha256 5ccc2629380882417af37969094d4d4eadd39c6d3c69580cda25081ba28e96e3 -> 8cd494ceb16ce379bd9fb09fa0f356dfedd2ede1ea01b68ac06c75b5ca70be32
+~ ___185+[PRTypologyRecord openTypologyRecordWithString:range:languageObject:languages:topLanguages:autocorrect:initialCapitalize:autocapitalize:keyEventArray:appIdentifier:selectedRangeValue:]_block_invoke : sha256 4dc69c30815cc235edc5550b1396f46cfb2e491f73773d21c3c74e993f75c162 -> 26469a6968639d9b7241b08076744493f2dcb3f62d805217f63396436e52b7fb
+~ ___185+[PRTypologyRecord openTypologyRecordWithString:range:languageObject:languages:topLanguages:autocorrect:initialCapitalize:autocapitalize:keyEventArray:appIdentifier:selectedRangeValue:]_block_invoke_2 : sha256 6545824c25ec5902f76fba3048ab18d1b007d70f893b07ce719f4e24856244fc -> 2264fb00a295bdea84f6a63d347e728c515a319b93aa7412cf776a31240c05ed
+~ +[PRTypologyRecord currentTypologyRecord] : sha256 d2b6598cebd4c4666c54efefb8f7775a465be4485c147e74a2c23bbc57491796 -> 4cbb073499647401be743d50807fefc8a73ef04a18d5e35a833c84f60eff1d84
+~ ___Block_byref_object_copy_ : sha256 bbd55c19d7d3c33f7bb8cf4170371c3f3fde7ddc48cba42ed2d741bced60fd5a -> c56a3f45136aa71472146f03903b7c95bdcea89c8690ba39bf3c1cbfd169e72d
+~ ___Block_byref_object_dispose_ : sha256 b1560084373d90e5aae764ca1e262b6aa5bf9f73e8da8731db293f89cc02da53 -> f9f20df102edc92abf62e306053fab5bff9d360c314b710eebdb4e1717923026
+~ ___41+[PRTypologyRecord currentTypologyRecord]_block_invoke : sha256 65ed5b33828f88928f1003f9cb0382bd66cd5aac6a0025c41a923c7dd267dfae -> de8267976efce501c38710c644edb75398e1a1213fa9c9eb800994e9594b2eed
+~ -[PRTypologyRecord addCorrection:] : sha256 d87c2e57413e6c17724c790089f4bb7925e765ad5aee52eb1323921f42a8762a -> dc7bb635a459b773899b6e176f858b0aba45bce1ee69085e9bcbbec63f9a6e11
+~ -[PRTypologyRecord addCandidate:] : sha256 e1691612bc34c5e59cdb3515020707770642cfd36b359fdeed2dccacdeb8c8ad -> 57d44c9b6e367900a6dca9b0a4de57d111a4f79f3a179d0214867a9face17d9d
+~ -[PRTypologyRecord dictionaryRepresentation] : 936 -> 928
+~ +[PRTypologyRecord writeTypologyRecords] : sha256 d499e478b6612f94d205b90f825fbff42f149c80889f2feb283e08c42b924bcd -> f18939b20a8918b3a543e2d6b38ee20bf7625e493049f3e7593bc72dcd7ebe03
+~ ___40+[PRTypologyRecord writeTypologyRecords]_block_invoke : 264 -> 260
+~ +[PRTypologyRecord resetTypologyRecords] : sha256 a397743b444ab216749d7cf899543e5d075f6357f2910860f8a9167f24877c41 -> 8633c32b65ee316605d2312f56ff6de94b0a85b48833e1febb68207872b26d08
+~ ___40+[PRTypologyRecord resetTypologyRecords]_block_invoke : sha256 f70abdf6ad2a93fcfda3b093150dd5179df5cb49e7547404c1a5740cf568550b -> b0f97460129898a4cdeebccdee5cb6d1758cd1c88a88f794acb34b1851a797c4
+~ +[PRTypologyRecord setTypologyRecordsLimit:] : sha256 99133a0aca766cd37cc953625f83800764aef26ea3fe1bba4a8e9e9c60528db5 -> c5b494004c39850cf3143c145180d138dce9779f5fbabc4189ca7e5386e95953
+~ ___44+[PRTypologyRecord setTypologyRecordsLimit:]_block_invoke : sha256 e8da1e54e8e3dd02052b0fa73fe2ccc5249c73a656fa2fdd15d13b1f7371ad43 -> 1900520adbd20a8932281ff5932d25288ff8c26c68dcfa00a052f3439eef10c9
+~ -[PRTypologyRecord closeTypologyRecordWithResults:] : sha256 b4f846927e4c04c8094ce8c387900c3f840e7826040c562bdec75dd0f5c3c07e -> f9e116caf13fcf29f16b3e45991861744e112e24cc9c80c171c6b83693035141
+~ _SFdecbit : 1252 -> 1248
+~ _SFicdecode : 5196 -> 5212
+~ _SFremacc : sha256 d897e994058c3c8d811b999e344877ab675c6be622fbb797715da069a90bf92f -> fcd32dbf8161b079992a0806e282940878c6d42a99d80da04485469edd231def
+~ _SFwild : 1300 -> 1252
+~ _SFdc : 768 -> 748
+~ _ICcapcod : 1216 -> 1168
+~ _ICEndToken : 440 -> 432
+~ _ICcchadd : 648 -> 664
+~ _ICcchver : sha256 6da5e56b883ec54985f40045729269601c50e396861b9131dbbf45fa47113ca8 -> eda2c763e234f076300192800b5c971cfef8c83762541d6af6167a2c37a79dfc
+~ _ICclt : 1784 -> 1792
+~ _do_trailcheck : sha256 e25448f638398bcbdb49edc954588ffd1059e6ed9599264189721404c6a92be0 -> 803cdb67adb8727f72c09ed9598874f6bf11ac311949fa0d100bed99377bbea7
+~ _do_leadcheck : sha256 79ebafd469ee8835fb95d36ed085cc6b8474b3a09460e77f61f7b72874588a73 -> 246cadac383d356e0f45383e6362f28fb60e3a80c79e048436485a6c0fc96ec3
+~ _middle_dot : 580 -> 616
+~ _middle_dot_ver : 180 -> 208
+~ _spanish_accentchk : 260 -> 252
+~ _preclitic_search : 600 -> 604
+~ _postclitic_search : 1076 -> 1072
+~ _VERIFY : sha256 e72223d339baf8d9b93bab5a89bc0d3ea535bec22bbd2c478ac6ecc0566b5fb5 -> 42da2f830b1e5b35c0c8a39abcf55da3a834321f01e643456a79d64faee3169e
+~ _stemnpre : sha256 944a5b94350248ef92c04ff96fd2a91dab279681357174a46a0f1df5e3c04a62 -> 8bf3b936f434c36105f7f04a696a9ce2045683f94bab93efdd5aeebbb8c58c4f
+~ _prenotstem : sha256 941927cf718cb990003381b6d0004fdad5d053ce53db721aab569bbde0b393df -> fb5040a4f1676718545dbc0cd28cd34387b9b2416edc9780dfc9aba5de311c17
+~ _pandstemfr : 752 -> 768
+~ _stemnpost : 868 -> 888
+~ _postnotstem : 2012 -> 2032
+~ _vowelchange : 656 -> 708
+~ _icaltstem : sha256 f7b695b234ad495909694d29b3ac30f8cdca766fbbf356f857db2aa8574c5c80 -> c0ec57acaebf29bd5ea9a30a4587ec871fa97640b638f94d5b371855e14b3e8d
+~ _ICcltacc : 748 -> 752
+~ _ICcltcap : 2112 -> 2100
+~ _ICcltrp : 2260 -> 2344
+~ _icstem2 : 292 -> 260
+~ _icmodpost : sha256 d71c02e76dc2a3b185409a5271d0379b7f30e9fb9c11017a0c82ca5952b28eeb -> c223e08ce351fcfe669a796ee481a5e51122ca2a7768062f08d81209d6eb6a36
+~ _icpost2alt : sha256 62b2f4463a156c4708e2c5cac08b7025d31328afe748b400fbef0fc60de6a4a9 -> 082fd7f14c22db9891e1950f6b16e136650c2d73d320e4a76ab940aee44fb844
+~ _icpost3alt : sha256 ee968e65b69f980fe98156cc95ef97e57d7a5f2ba84c131b1b5e1f4936dbde05 -> ec36ebb023456b8db685f2097f37cc4fd1c6b9864c994417b62b6bc911f64136
+~ _icvowelchange : sha256 1a9e55949ea56f95e3a65e2bfd377c4fb52f2bd667da3eeb132b63f88d9a2688 -> 1b155a37f18d5ea0330e20d3b904c716a807bed3da4a169a29c4f68827fa76f1
+~ _ICcltstm : 1044 -> 1040
+~ _ICcltuna : 1400 -> 1372
+~ _ICcmp : 3908 -> 3860
+~ -[AppleSpell(GenerativeExperiences) generativeExperiencesRunner] : sha256 29f4a236bb79077c9ddc584712f1cfbef17a10c4a7fed1f1293cac034314900c -> 9a534fa69db0ec681df3900744f34cb9e6d7d33f894f16c98b5b090132c2b429
+~ ___64-[AppleSpell(GenerativeExperiences) generativeExperiencesRunner]_block_invoke : sha256 73456ea29d17150a8751909e90ff8a4c2303c513a4b416cd5368dc8a1e052fc0 -> b1f931e5986eb536addd4cec691d9639bca566a104c4eee4cdb08d6e16ecd2ad
+~ -[AppleSpell(GenerativeExperiences) requestCancellationForToken:] : sha256 4b922dd84da2fd1514d197b789cb80a751a3469e2449e6b699d0e18aeccca834 -> 4f8a66e45bec2b4423b2ab3f0e7139fd7a77e2dc03a47702385298630684d94f
+~ -[AppleSpell(GenerativeExperiences) requestShortFormRepliesWithContextHistory:documentType:options:completionHandler:] : sha256 eae4650e086e0c0dabcdc987bbdd786124d0d27551979b332c7c84f7fba93dbb -> cca505f7495084c13ec8d31f0ff94a40e31c01e258b471dbcd28a5cc4f4edc84
+~ -[AppleSpell(GenerativeExperiences) requestReviewOfAttributedString:range:options:completionHandler:] : sha256 fc4f41e46a060d9b3421c055c478cd5fa22f7af1d52452eee5594da0eb4b8a0d -> d317c71d71634a35fb6be1c66e2feccdf905d87d2320acdb3c71d7e2a16b63b4
+~ -[AppleSpell(GenerativeExperiences) requestRewritingOfAttributedString:range:rewritingType:options:completionHandler:] : sha256 516b3cc8bd895135ec8f7e4daa208a387d955dfa877f5f73e32342bc09828d21 -> f27997f3781a29511e1a097ba7a0999d67803c885dff3a3d1c41a8b1e533786c
+~ _ICcmpalt : 1432 -> 1420
+~ _ICcmpdbl : 1400 -> 1368
+~ _ICcmpexc : 1352 -> 1324
+~ _ICcmpfnd : 1864 -> 1836
+~ _uppercasedString : sha256 7ca2b73928e4b232b7a638b3c1543838bf5996685b1da170d530b520d384d50f -> f53a52868c5c00cea5e95e81326925d5c668b004d99cffc509107653aa270fda
+~ ___uppercasedString_block_invoke : sha256 e15df289472fc16a988e7b78dd837a8ca05dd18c04468d001bb0b29d7ff35f20 -> ea714ea816dd90d383f7e19cb0ba9da3c36a321e5f8013d21c9bc0e87f91ad19
+~ _initialCapitalizedString : sha256 c28711c8bbeaac4a23a387216b22457d6af3a094eb33848bd43000712084f150 -> 6a3536b9edc00e51238d9657730e2b7cd06ab28a2398df9bb9d25b8568776d27
+~ ___initialCapitalizedString_block_invoke : sha256 669cd26ab89b0c7d64ee14f4940932ab0a6dc584af93898a9cf1cd5aaf18c903 -> e253d7186b79221b122579eab984ba523e1c980ba310ec93208ec3f5cdc1b259
+~ _secondCapitalizedString : sha256 9e542357ae35a8a19d8129362399a1d840f6a8971273712fcaa1b26714ec2e35 -> 30a9506a82ed57cf5cf80980c45d6fa14bead52afc8a31f5fafc5fcba71aecce
+~ _stringWithoutHamza : sha256 ac119ffbe6a9664ebc8063e573f86f36680d758b88bc0f06995397d6dcf444ed -> 4de524d9f08c858617c7d6689cd8d37e300804e3269f12c6c5806a51612e6697
+~ ___stringWithoutHamza_block_invoke : sha256 8e5492aafe22860eb7e2da6278bdc941e5341423bf2fbb028682d595849f0d2f -> 980e8d48f8c2731814e41cb2d4510c9f4312fc621bcdd06703a9db009374beb3
+~ _acceptAsCompletion : sha256 1766b05c7c8af6cd6cb2235c815eebea7baa9604d1133f19153388d41c148224 -> 56b9baa211cec5af61ea822a7a7aebf5533a38a39e45c5a90ee1675990b79c00
+~ _treatWordAsSentenceInitial : sha256 5cdced19a48b46bde521e9fa868c90bb48601fab30a7c8e9b2bbe81ff12916d4 -> ef628619c21bd180a56b60c400495883452a1f511e9b1772921956a0bd9a8ee1
+~ ___treatWordAsSentenceInitial_block_invoke : sha256 70c1b3aa80daa46e978451e711aff9343cf8b7db4319be3bf5e7224d656b7422 -> f160d29c7fb9d268dd17087398b999756aa4955f78d9a5ef07c85558a667f737
+~ __matchingRangeForCompletion : sha256 a43d8d028076462232826e2cbc09cdf5abc27c016592af1d9050d7280c4add21 -> 4793338dbeb4519afaf5bada21c0ae944b276a83347c0fd421301146748639d3
+~ -[NSSingleCompletionCheckingResult initWithRange:replacementString:completeWordIndexes:isPromoted:] : sha256 a8f0029823a2b601c9ccd57d12ce7f8637cbe2fcfc44034c8d2e82f29420ea0d -> 0b439086c25b833cc4fb28b4d505d3f793d133068480e9db0837f0f68c3f6e3c
+~ -[NSSingleCompletionCheckingResult initWithRange:replacementString:completeWordIndexes:] : sha256 85d18b3b1e9cf6584168485b5d4a2d33549c3a2b1814ba2a252954d0ee7cbc94 -> 187ae907aadebd497d1374a2d38c4bb6d572de503d22eb11497b82cfddea9fd9
+~ -[NSSingleCompletionCheckingResult initWithRange:replacementString:stopCompletingIndex:] : sha256 bd877388a0ec705bac1c2fa34412a5380d1d397249e7633a363d56a5738fa645 -> 04aa01aef58286742ae8a939b6fafdb1a99dbcefbca692b79b6566368bb6c710
+~ -[NSSingleCompletionCheckingResult dealloc] : sha256 9793639a1aaf9d8994e36718e1a825485076418fdca904de2cbb8e1b371efe2a -> c89ebee4274b8eb14b734152ff19e8f09b0762ec5fbe46e92fb65fb88092a660
+~ -[NSSingleCompletionCheckingResult stopCompletingIndex] : sha256 d623d6d1305587d302d38e7d156e8f9d17505720418127d3f8e690c05ef27ce1 -> f91da96142fff8167b4885293ae332755a5baabb4cab21adc834af73dcae08be
+~ -[NSSingleCompletionCheckingResult description] : sha256 5be2d64176826e12179c10380aecfe9d8073523828245b24b3c375e27abe8d2d -> 725282ec92822b54c50c5d6bfde34149e10d9b17f06a9240a8317beebb1d12b1
+~ -[NSSingleCompletionCheckingResult encodeWithCoder:] : sha256 875e5b89e25b3d0777af0e3fc53fc79e79f72b8635ec1d809a8ae7a425d53dfc -> d4bbb879cdb488b0b59c0c07d1126b0261a708604dd0f32cf65e10484ce4c3ba
+~ -[NSSingleCompletionCheckingResult initWithCoder:] : sha256 465d8dde492449f5c42e328f2a1eb9980a394ec4fc3f9ddce3a1694ca15eee64 -> 7a082e83c5bea5dc9e410cc3879f3ada67756b1983ead6ad87c883c92cf05d25
+~ -[NSSingleCompletionCheckingResult resultByAdjustingRangesWithOffset:] : sha256 fddc221c9a82d6a800cc4cab533bc8a3e2ed89ef068042c52c21dad60493b354 -> 27d9384d40742b06ffb5bee44e199be2548b8ce5833b28bfdb5c0e16af8d7212
+~ -[NSSingleCompletionCheckingResult completeWordIndexes] : sha256 35fcc2ac031709f1a4ad9f11ce2d9f74cf75b04f0bb4b9c89ca5ca034ffddc81 -> a65c3473e68f2e61692d294399c4019c0c8c8931901a04c709d5b0c1e38e852b
+~ -[NSSingleCompletionCheckingResult isPromoted] : sha256 e42dc6a72765e0b97878f4d9d2607cae9a71d67d5403c42e7d1415d80e078601 -> 7bd0d07ba6afca5c25add0cf959487268999f26a36bc0a8b2d64ab9fa34bcf00
+~ -[AppleSpell(Completion) spellServer:suggestCompletionsForPartialWordRange:inString:inLanguage:options:] : 540 -> 536
+~ -[AppleSpell(Completion) spellServer:suggestCompletionDictionariesForPartialWordRange:inString:inLanguage:options:] : 1412 -> 1400
+~ -[AppleSpell(Completion) spellServer:suggestNextLetterDictionariesForPartialWordRange:inString:inLanguage:options:] : 816 -> 804
+~ ___115-[AppleSpell(Completion) spellServer:suggestNextLetterDictionariesForPartialWordRange:inString:inLanguage:options:]_block_invoke : sha256 d111a8aa7ddbd4a1d9f39a059d61d92e9b98fb25a56fca6bf092cc805fca5c73 -> d79d993db42b3b761ce6f11a8cf64ae1db169487acb6178c04154eae95dca3f1
+~ -[AppleSpell(Completion) spellServer:suggestWordWithMinimumLength:maximumLength:language:] : sha256 3085740f39186cd44de98961d49168947d3cec582334c4da7828c74d8840c0c0 -> c892ef2d99d45142a29ddb624d8a90daa347ab2a8baacfd5a07e1d00a24c1f0e
+~ __NSPathForSystemFramework : sha256 51e1d7dab37a03b2f94c6b1db9ec1866869e02c9060f5a7a8d431957fb16ef9d -> e6bb5f8866c427da74c0cd1a7bd43d0762985c315b6592cb745e1697f9c61b8b
+~ -[AppleSpell(Completion) personalizeEmojiArray:] : sha256 e002e69421791f1beb97616688b2fb8c2f1068678f5e69481d53a286b51ec124 -> 41e0b3c94c2e236a39d2b5d56e8d1fcc6d453d984a92bb605a834b94777b02ca
+~ -[AppleSpell(Completion) noSuggestForCompletion:languageObject:appIdentifier:alreadyCapitalized:] : sha256 a4753596a404d4ae650781e29bc5a0aa6d2bb4d427c2440de1f507c8d5efa8e1 -> 3aa5625e6e851291a9db42696ab90abf94dbd47b89370325790eb23fedd4e6fc
+~ -[AppleSpell(Completion) spellServer:candidatesForSelectedRange:inString:offset:types:options:orthography:] : 7448 -> 7440
+~ ___107-[AppleSpell(Completion) spellServer:candidatesForSelectedRange:inString:offset:types:options:orthography:]_block_invoke : sha256 3fe9afe8897e00b808d5da2ebea82cdf18df33a4e05ec507247a5383ed28c3f8 -> c7f2af98dcd9e06455cb8abbd0c32e474f3a1d1514bb78d3523cc27cfeaa0518
+~ ___107-[AppleSpell(Completion) spellServer:candidatesForSelectedRange:inString:offset:types:options:orthography:]_block_invoke_2 : sha256 692fcba7a55e2d7b62f78025885b28553c0683d23c9ab58063f43338ee5e6fe2 -> ece2a15cf78ea10d82a8d92f3e517ded642922e96f1bd7f189328905a4cd258c
+~ ___107-[AppleSpell(Completion) spellServer:candidatesForSelectedRange:inString:offset:types:options:orthography:]_block_invoke_3 : sha256 fbf7bd89d176e245d0741c9454a3d08f5da50e12d636390591da29417c0e4332 -> 793d3beb66371db4a04016359199973dc621f4e70e5368b8e1dca4d140be2291
+~ ___107-[AppleSpell(Completion) spellServer:candidatesForSelectedRange:inString:offset:types:options:orthography:]_block_invoke_4 : sha256 51304c784b7458d5a6e99444887e760901911ed8617f02bf2fee7f1c8b691aa7 -> 27b4c12a56ba9bfba4cec7d1bd9f790c203ff12a87f97f8b96df9fda18421b78
+~ ___107-[AppleSpell(Completion) spellServer:candidatesForSelectedRange:inString:offset:types:options:orthography:]_block_invoke_5 : sha256 a6ef5f6669818ac4c37804da307f9abf784894e8ef296e3cead81abc438a8925 -> bac20e4969c45821db784aa3126be020541b5991a5a5546ef459248c7f1f36d1
+~ __addEmojiForStringToArray : sha256 4496730da1b6486cf7c0544fe08e9497487949c1b4c3b8ad341b9b0f9a8d27af -> b74feabfb2228e2234b3824dfe6fa12c00bd569920ae644ea9bfd895ad5e5c97
+~ ___107-[AppleSpell(Completion) spellServer:candidatesForSelectedRange:inString:offset:types:options:orthography:]_block_invoke_6 : sha256 0fce44622b8a87d57f8d777c004338da459bd7b817632ad199972ffb396fe296 -> d91bb4cb0cdac2091f509ad69ed6cd288d93bfe84c8864cb603f192d41020612
+~ ___107-[AppleSpell(Completion) spellServer:candidatesForSelectedRange:inString:offset:types:options:orthography:]_block_invoke_7 : sha256 177d815be0ae1535a9ba0545e9cbf51dcb6491fdd6ccd0ec3b510c7ff95b2758 -> 077a0fe8cd6690fca99ad76fa55a36c2df8826206db550502a2ba97fd6bba5db
+~ ___107-[AppleSpell(Completion) spellServer:candidatesForSelectedRange:inString:offset:types:options:orthography:]_block_invoke_8 : sha256 55ef84cdb72368ea334daf1f8c47e7f1f61f80ebfa8cc1d4b1712968a22dd9b7 -> 928d5287249f301ed0dc65e955fcec19b16e8359bcf06aa09029aea35c630074
+~ __loadEmojiKit : sha256 f63b91e83113b450f92d055f47e0c8ad02204c2b89f4fc3510c6f4e72fa94078 -> 8e379394d5ec1581d6aa947e6becfe76bcdb4989096f149394fa50967088d3c7
+~ ____loadEmojiKit_block_invoke : sha256 d5ed0d0e696bd0c32e9098812faf2cca598d1251706876872fd36599d780249e -> 2b79b257940bf01e63c6f1490402d8ddf1c0f1222f009e52b1da5b066dc17e60
+~ ___PRUseSingleCompletions_block_invoke : sha256 25ad7e3c93444497a9f21ab1a645784966791b88b8f046338f44e6c89c3fab46 -> d2a22fc56e1f4cc821fcab233f530962ce1d1d2af7dc1df8668bf2e8be875fae
+~ ____addEmojiForStringToArray_block_invoke : sha256 b89ddcf80efb731d685e7a365fd46cff5153482768f0342a9d06d87c73fae3e9 -> d7b52cd4e51d7b6d85387de6a08fe40c56acc101f1ec494a5716f667d8a953dd
+~ _ICcmphhy : 2464 -> 2432
+~ _ICcmphyp : 588 -> 584
+~ _ICcmplmc : 1240 -> 1160
+~ _ICcmpmnd : sha256 ec3513c81e352970de8aa7a780a51ee5363d53852ae9128e6e6990fdddbe30d3 -> 36cad9559dbeec971f9592ac7392cafe05b3d8f0c60a9c9e8360a04024c07fab
+~ -[PRRecordedCorrection initWithCorrectionResult:correctedString:] : sha256 3ba7e4d42d2bf6975ab54dd79fa95a749cbfa863e7e8de35c2a382f10c2ec5ff -> 91c661e18061ca652d23d434510007f329e2f85449720541992e6d3892f3f97d
+~ -[PRRecordedCorrection dealloc] : sha256 2addb718999403aae1832ed49bb57fddbc71ce78b911742555bfb0c7bde591d5 -> cf24bc49f54129318c49be843ce8e3cb81ae64fd74e235acc582d8e3abbe1101
+~ -[PRRecordedCorrection description] : sha256 58a5417527709ab62fd63559a08ad1fdb59afda23c2e72c06d29f6417e0bc40b -> f5879dc693f5ee726215ff3c01c72d081ded96d8a9d9f8d1d7d16bdb6e7fb422
+~ -[AppleSpell(Correction) vietnameseModificationForWord:] : sha256 036e9db39823e1620712c001aad7ea2dbc08845dca84a701770dcf8bfe4cffa2 -> eab940c3db53043514393a0d34e101d18fb470e94a38bc3ec9a98c1486fe1657
+~ ___56-[AppleSpell(Correction) vietnameseModificationForWord:]_block_invoke : sha256 80cd63e57945c1eb371d3c667c6b40d2953cb6d2c9463ca8f62ad11f2f6c25df -> da1e36de6afdcaa54c222d73abb7300ee2da208ab5ac242c864f3451596c5d6c
+~ -[AppleSpell(Correction) _validatedGuessWordBuffer:length:languageObject:connection:sender:checkUser:additionalBuffer:] : sha256 5e29fd96407737d0873a6c2863b62e20e627ddab45bd8abe573d29b3305f6535 -> 7af321153dc448f5f94e5481c924e0699f9e722a698ef70a94a8c0c05a37a263
+~ -[AppleSpell(Correction) _addGuessesForWordBuffer:length:languageObject:connection:sender:minAutocorrectionLength:previousLetter:nextLetter:basicOnly:toGuesses:] : 4784 -> 4724
+~ _isAnyAlphaX : sha256 7aad816f7705a0d734d35e9d8babfc1ae0f963f308ac8b0d64cf42b9e628739d -> 75dea2bcadfc63d9326880c96614eed5145c81a8199bba6a1ea87632b38b85f3
+~ -[AppleSpell(Correction) _findMatchingRangesForRange:inString:keyEventArray:endingAtIndex:matchingStringRange:correctableStringRange:matchingKeyEventRange:firstMisspelledKeyEventIndex:lastMisspelledKeyEventIndex:previousBackspaceCount:] : sha256 c5b3ecce419365282652a33eedc077d67a070ff5fb61a14cca5767caba6afbc9 -> a8b4af71ea0fdb82362c0698e5225789c3839cb8e7cd3cff0d8cb29c0d9741eb
+~ ___236-[AppleSpell(Correction) _findMatchingRangesForRange:inString:keyEventArray:endingAtIndex:matchingStringRange:correctableStringRange:matchingKeyEventRange:firstMisspelledKeyEventIndex:lastMisspelledKeyEventIndex:previousBackspaceCount:]_block_invoke : sha256 8a216ae8ad138cb5165801b2c403bbce50a555ba5682d6d066807230bdbce6d6 -> a7a5b9e7991c8a40432faae36333896f614f4ea60bcd69830025ebcbbbbc7b5f
+~ -[AppleSpell(Correction) findMatchingRangesForRange:inString:keyEventArray:selectedRangeValue:matchingStringRange:correctableStringRange:matchingKeyEventRange:firstMisspelledKeyEventIndex:lastMisspelledKeyEventIndex:previousBackspaceCount:] : sha256 92bbb34b22952593e2105156d5b9ff553414f8e25ca4fc86092ca3465d8c65f4 -> a19b6ec294cbc14401b559ef6148b2776cb5df476d8218e4809b03d21a82c26d
+~ -[AppleSpell(Correction) _capitalizationResultForString:range:inString:offset:languageObject:onlyAtInsertionPoint:keyEventArray:selectedRangeValue:] : sha256 992000280961d988e276aeccbde49f4ecbc75b36f573db9213c3866b1fc66f2e -> f114ed96a7262dc3249b54d8414834920d1d151f93a3d9c7fc26999f643e90a8
+~ -[AppleSpell(Correction) _phraseCapitalizationResultForString:range:currentWordRange:inString:offset:languageObject:onlyAtInsertionPoint:keyEventArray:selectedRangeValue:] : sha256 f2f813d169e1609ae8fde7e0e0b51d1e261986cfe877e13c878af8ad7f330be6 -> 38d2292991fbec59f01cbe72e6233c22996462013d5152131376306491408b5b
+~ ___171-[AppleSpell(Correction) _phraseCapitalizationResultForString:range:currentWordRange:inString:offset:languageObject:onlyAtInsertionPoint:keyEventArray:selectedRangeValue:]_block_invoke : sha256 aa692f01b27cf8cf5c8044b12d24660ffc0580051da032ec3ae965c3d660027e -> aad634071f61d602292ae98776b14f68170c5cfdc6a8a267ba440f9353ba4654
+~ -[AppleSpell(Correction) wordIsAlreadyAccented:] : sha256 7fa1fe4ad1b6496db52399b56a72198f4a2cdd6a350951b3195302fd3a957a62 -> 77bbeb5387d2b665652d9d9a89b1e0f3b56064e470080e85207ab7ed85dbc972
+~ ___48-[AppleSpell(Correction) wordIsAlreadyAccented:]_block_invoke : sha256 dbdd4c26c3e6423360ee1810f2cc00e948b497041dba7b16382212bbfbb084e9 -> c78f7a3604be3b9b587afcfc985047aaf1167cb358de6c7eb4ef639d44531b7a
+~ -[AppleSpell(Correction) _accentCorrectionResultForString:range:inString:offset:languageObject:onlyAtInsertionPoint:capitalize:keyEventArray:selectedRangeValue:] : sha256 962e105d09a3520af71e988989a96ef85716885b245c122c00f67c66451be0e4 -> 77d96d013d2c28e29259f963ab4a1b00576a114407a20163b57ee714f008c23e
+~ ___161-[AppleSpell(Correction) _accentCorrectionResultForString:range:inString:offset:languageObject:onlyAtInsertionPoint:capitalize:keyEventArray:selectedRangeValue:]_block_invoke : sha256 63518776b03f805a81f36fe86885bd3675b6273c4f8de6a3da1c0a036860fb5a -> c01859f9c98d276f90c28b48ba1868ee30dee32bebc883291553bd0f50014fbf
+~ ___161-[AppleSpell(Correction) _accentCorrectionResultForString:range:inString:offset:languageObject:onlyAtInsertionPoint:capitalize:keyEventArray:selectedRangeValue:]_block_invoke_2 : sha256 9213e54fbdccc27fba5dee8a434fe7677d90a4a52d90b4934a802d81ec557a4e -> 181b1b1d7566bb0af0d418e966b9bf67c51882efabb9091d0cc5b2b5427dfe5a
+~ ___161-[AppleSpell(Correction) _accentCorrectionResultForString:range:inString:offset:languageObject:onlyAtInsertionPoint:capitalize:keyEventArray:selectedRangeValue:]_block_invoke_3 : sha256 8604479acc670623cb60bc9431acab534802cfa6fa33e07b1d897b506b190e6d -> 32a7a33592a004d54fb0705e17beb47b581fa95ded84b871c2e13e60a9c9cb9d
+~ -[AppleSpell(Correction) _acceptWithoutAccentForString:range:inString:languageObject:] : sha256 ce6749c504a1381baeef0e5ca96c479e7b8391d9570200b9dbf2a6c1edd6d445 -> b20a4713901e1077e3c8e1ef788ce675b0707112c67ec9a53a0835b4cf85d422
+~ ___86-[AppleSpell(Correction) _acceptWithoutAccentForString:range:inString:languageObject:]_block_invoke : sha256 84e919e594ac44c3beb2713176765e7963fee47c3db6dde1a2e7219a45b14225 -> e7181d3f3e210d80adc8edf16d2c11a5a9ddb3fd9e660865b70169126b170cd4
+~ ___86-[AppleSpell(Correction) _acceptWithoutAccentForString:range:inString:languageObject:]_block_invoke_2 : sha256 515af3a47879aeb7e69fe9a73600df882ef1a98b8f811bfe0ddcf6d4378070c8 -> 54e7383eb1344d754e4a9cc645e6d64cacb2d18f3ff8c424acedd37e61ba144a
+~ -[AppleSpell(Correction) _initialCorrectionForString:lowercaseString:isFirstSecondCapitalized:dictionary:languageObject:connection:] : sha256 f77f4aecb4e6367be9626c1f25782476fc83de12c2b646d6eff32f66fc4da73b -> d8856fdbcc65d0c56de7ac7d85d9370922874d5c24644dcdba515e147941398f
+~ -[AppleSpell(Correction) _prohibitCorrectionBasedOnCountsForString:lowercaseString:appIdentifier:languageObject:typologyCorrection:] : sha256 b882a48c35cda0e399764083102ae8150a0a5c93a96956cbaadec04697188f50 -> f2d89b857c6b02da0e091296fbd10ea786d5bd7d9c211c95ab9a9ba05140f00f
+~ -[AppleSpell(Correction) _umlautCorrectionForWord:buffer:length:languageObject:connection:typologyCorrection:] : 1076 -> 1084
+~ -[AppleSpell(Correction) _connectionCorrectionForWord:buffer:length:languageObject:connection:flags:isCapitalized:accentCorrectionOnly:isAbbreviation:trySpaceInsertion:hasAccentCorrections:candidateList:typologyCorrection:] : 2044 -> 2036
+~ _removeDiacriticsX : 888 -> 896
+~ -[AppleSpell(Correction) _spaceInsertionCorrectionForWord:buffer:length:languageObject:connection:flags:isCapitalized:typologyCorrection:] : 2152 -> 2140
+~ -[AppleSpell(Correction) _prohibitCorrectionForLanguageObject:lastKeyboardLanguageObject:] : sha256 4c1c701572d3271a751ab7944339af3c022ae4c0574044e14bb069976f1afff8 -> f5874fa76202cdfb96890d2e411c34001034b2c5c06d3ec6fa97caef5e12d831
+~ -[AppleSpell(Correction) _permitCorrection:languageObject:flags:isCapitalized:typologyCorrection:] : sha256 c9222901bf0db536081db58693dfba0e076049f89064f96bfbb56ddadea8b8c0 -> b82b12b1e15677cf7c2786ac53eef483138da4b870a59f650a3cb9339a03625f
+~ -[AppleSpell(Correction) _correctionResultForWord:replacementRange:inString:offset:languageObject:capitalize:isCapitalized:isSecondCapitalized:hasCurlyApostrophe:appendCorrectionLanguage:capitalizationLocale:proposedCorrection:] : sha256 fdaca8958947d4284b3b7bd3d2fce5ce77195be5800427c9f22d1b2782245ba0 -> 39b9b5abd1d799bc67c48eee9eb6a25dcde8a1620bca47530c464a08aaf87a2c
+~ -[AppleSpell(Correction) _correctionResultForString:range:inString:offset:tagger:appIdentifier:dictionary:languages:connection:flags:keyEventArray:selectedRangeValue:parameterBundles:previousLetter:nextLetter:extraMisspellingCount:extraCorrectionCount:] : 3884 -> 3872
+~ ___253-[AppleSpell(Correction) _correctionResultForString:range:inString:offset:tagger:appIdentifier:dictionary:languages:connection:flags:keyEventArray:selectedRangeValue:parameterBundles:previousLetter:nextLetter:extraMisspellingCount:extraCorrectionCount:]_block_invoke : sha256 83cb45c1e09eb47433e25eba118f110044ddc61cf9d8c9abaae2666b958404fd -> e3f389f989636db87836b4e20b03268505a1e31bd90497cb574cd09d65eed0ff
+~ _isAnyAlphaPolish : sha256 10a29c158c044a8fd71aa845903c8aa62682bac22c90d321523fb54162a123c8 -> 5021a4fc113cc99e3c9bb4fc88b597f8eaedc149404ad289aa6be03177160fea
+~ _ICcmpnum : 964 -> 936
+~ _ICcmpprm : sha256 aa3ac06815dedba25b1210d3ec4c44f25d7731356ff2b11fc5085ef3fef4daca -> 25ee4f3efb8bdb3def4f5e5bab52ef53abf1936c85c783ffd8a96ee0b630a894
+~ _ReplaceSharf : sha256 8dc3641efa0c1f5bd788103be777ad0801843055be599b92db21165cfbbf5913 -> c41e4b32364c3d422ab527d6c176ab5e6a200178e2df9fc1287d9d463e1f6ef7
+~ _ICcmprmc : 1140 -> 1136
+~ _ICcmpsmh : 1204 -> 1256
+~ _ICcmpspc : 1936 -> 1916
+~ _Split : 804 -> 796
+~ _ICcmpver : 2992 -> 2976
+~ _checked_strcpy : 104 -> 100
+~ _ICcmpvow : sha256 02aae03354a072fe703968320c9e1604c8e67ed4e455ebe690d4478ce378e2c3 -> 51e741878df0766e13239fcebac8814abda92acf6bbccd3916731bfde4f063be
+~ _isdiphthong : sha256 4a8068d0b82c189afeb51a511ab5a2aa1a540f666425b6a49975ba533ca34cf0 -> df83eec4b7144bd6c8156bca8ed7e76a5a694b7b9134e186e70f7a976992e2f4
+~ _ICcomcap : sha256 53b2072415533bb34d52daaa901a403c7bf5b7f8f33ffc63841819e0ad17fed0 -> 4e83425c3cc59b2db47e9a37e2136438385d6dd1974c0afe587fadf3a3c7038b
+~ _ICcorspl : 584 -> 592
+~ _ICcorucf : 3252 -> 3220
+~ _cleanup : 264 -> 272
+~ _icisint : 216 -> 208
+~ _icisupperletter : sha256 b86271dc4013a3aed9785829e30d879d2ca995628ce7f74517e40cae31f93cb9 -> 3184e1a7c6314f51a3001d208145b765cad107e590745c18fdf45e9897b8fb06
+~ _ICdblchk : 388 -> 384
+~ _buildfullword : 252 -> 248
+~ _icwrdlist : sha256 70188d48007d7e10d027b669ad87c3da67eae3c41602676f7894d45de641f492 -> ca44dea52bf8223d4ace7fa829fb09bbe868f23c918953e713e595e6211ee139
+~ _ICdblver : 3436 -> 3432
+~ _ICfndchk : 3012 -> 2980
+~ _puntvolat_to_dot : 152 -> 184
+~ _ligature : 972 -> 940
+~ _lig_pos : 256 -> 240
+~ _ICfoldio : 364 -> 360
+~ _ICget : 796 -> 768
+~ _HypStrip : 176 -> 164
+~ _ICpre : 2496 -> 2424
+~ _ICprever : 4484 -> 4460
+~ _ICadjpost : sha256 3c4b7a2830f2e45b5adc60e34117e3f1fbb7cbaecfdacc9e0bfbf77542977a9f -> 137e453fca625149a3297d3c24d3083c4190721453691a358459a60d85a5ec98
+~ _ICreadjpo : 104 -> 108
+~ _ICacrnym : 1180 -> 1168
+~ _ichhchk : 696 -> 688
+~ _ICremacc : 324 -> 312
+~ _ICsplini : 1168 -> 1148
+~ _ICPDadd : 248 -> 244
+~ _period_to_puntvolat : 160 -> 192
+~ _puntvolat_to_period_list : 432 -> 416
+~ _checked_strncpy : 104 -> 100
+~ _ICtrm : sha256 7fe8158b836af111f2984076221628fae7b8e840b439b7c30e7dbc1de11497cd -> 723fd426faba84d8e1b0f9a04899396bdc99e3568d63919f96714f5f2af0b818
+~ _ICverify : 3200 -> 3024
+~ _process_neg : sha256 1df87f3b3e2c6cbda47082496c202c0f1485062fd5e32d1a26896144e5e404ce -> 6a68006557ee0ff75d4df6281925aae783209632eaded355ecc73d8f589273bd
+~ _ICgkchk : sha256 13d7ff4ed7ac3673adfe0e4948378419d8895af6149f6372743c32c265182dee -> 288c59e89c7951d61b872dcfa84f449183b183912f8a0d3b70d0f79bf8eef8e3
+~ _ICgkver : sha256 7294dba0044b4e422513a4762e3a238085f804b4e760199f2cb7d9a0b14bfc6c -> 312ab4a5fe09dc9e729c7c4488f1ca9d89139503add652576e558766b5475124
+~ _gk_apocope : 468 -> 460
+~ _gk_aphaeresis : sha256 91d19e2de0a1cec0763cfa8f83fd7ec943ddc2a87967696d8fdf5a2d37143d95 -> d31239ec41d1555adc412d49f874f0fe406774382d3d16b8f3285559977eca72
+~ _gk_nu_drop : 332 -> 344
+~ _gk_elision : 1292 -> 1304
+~ _gk_undouble_accent : 300 -> 304
+~ _GREEKdoubly_accented : sha256 5fa1d457561fcbcfa1f65a96a086209ffefea276c11ef61eaba9cb7a45565663 -> 78e0f556578b00f40c1191150d51ca0736cbe595b22fd756295941553a6dd32a
+~ _gk_aphaeresis_aux_chk : sha256 9c2b8a7bd67abf690a6889f3c52f94896d33f1f23fda543de146e1336cda4718 -> 542d6228d1719892d38dac4336709655def6fae6d3d51552ef1d01952dc86e82
+~ _gk_num : sha256 041160e1e453e1eb0fab93148f5e41067d53fa812802600d878bef59ef251ddc -> 302daa7d14fb03a4f8bc24879df809a872ddd7652b6cedead4bbbdcdcbd9bcd5
+~ _gk_veruppercap : sha256 389a8f5e119cd0af6816da1e19b49a5dd712f028fbfef81d20254e5894cd7c96 -> 11988300f124038c7642d58ee1f41e025bd414d231551752b568ea038eacf020
+~ _ICpar : 14420 -> 14500
+~ _ICchkprepos : sha256 61568f18051193e1629a691203f522f97d38b1e5c91d2b670bbcb7d627751af5 -> 06d69193aeb82681220c0ee1070956c3f84c752164fc59b70483a744ebead3d3
+~ _ICcmpsft : sha256 9b10c1f972bdd20d149d6a383e7317de51dbe05291fddc1242607acb7406fc32 -> d834b789c94723d83b8bef2c1e9e2df450be776b0a825ad239511d09ebfa5d6d
+~ _IHcache : 240 -> 244
+~ _IHclean : 276 -> 284
+~ -[PRErrorModel initWithCustomErrorModel:] : sha256 ab2b2db195a9e9ee23b4c140421cec91aaab4ba90aad8d8a05e0364b1e4b4c85 -> 4bab2ee5b97586457c45b88fcd6bd6347be4b6821d79661d7af409eba30d24d2
+~ -[PRErrorModel dealloc] : sha256 13b187e4c7e9418a6a1f5076fe6d02e09f1e4265472e17a38b293c9a26f39440 -> 104bfd22c0e07f89310f82377c1a47e378a85bf50d5ccb7e13932911401220a0
+~ -[PRErrorModel errorScoreForType:] : sha256 d84c3620b4f8eb19fb4b47a05f78340196b09c6a3a2bea6b41b6beb838c0d30a -> e8de8f4d9b4edc257d1e6a05e601a97136d20a3f6924a2875ef544727f3aa10f
+~ -[PRErrorModel hasCustomReplacementErrorScores] : sha256 168b4d710b4fe8101959ed78b7a1879dea9085e5db465ff251995758a97a695d -> 36aa42b1702acb3dc619b52730d91501c3a08d4e3f6270e96d4a01169c50dbb0
+~ -[PRErrorModel hasCustomTranspositionErrorScores] : sha256 4024d460c73626ab57f94c58d0f89806412bb3b6299d9d223062b6ab40ef17d8 -> 3e4471632d8de6007e8e461ad18306fbe271d77cebfc71cf890deeb5cb903309
+~ -[PRErrorModel hasCustomInsertionErrorScores] : sha256 0e895c13e79a9047c0c58c63843ccafac51401329d7e98d9f528fa9528a3b41b -> 56b15dac68def0b7dcda7cfaf2d62175446ebaa0f671a950724d61e32e03966f
+~ -[PRErrorModel hasCustomOmissionErrorScores] : sha256 4741d1a12a5818a2209ba8071f32b1fda362e7c33d250edce2457be73b53effb -> 18dfc4ab88c4eed3543f3cfa2219fc160602731f079d3dddcf0023c1d4919343
+~ -[PRErrorModel replacementErrorScoreForIntendedCharacter:actualCharacter:] : sha256 ac011fe443b2fd1ded63340c9808bcfe144aa3c75b55e4fd063a30b5ac73a5b5 -> ff37542826d5b808eca4b95316be1d529ec7c80dd5cbafa71cbe5e0626b056e0
+~ -[PRErrorModel transpositionErrorScoreForIntendedFirstCharacter:intendedSecondCharacter:] : sha256 7687bb55984cccef7e3df21fd7c97b876f50dd0066c725f25d0a8f119d841f47 -> 021b003ada1371d2269be4f56c26ba960b8e0267ddeb8a407aa15088ec4adb34
+~ -[PRErrorModel insertionErrorScoreForIntendedPrecedingCharacter:insertedCharacter:intendedFollowingCharacter:] : sha256 8e34bfae5caf3e78d36dd821a6a91c7d94cf8052a47dcabb42f0aed79179ac75 -> a69990af559f5c44185f560f4d3b588b44cfb0ca49d4473803cf7550323c78c3
+~ -[PRErrorModel omissionErrorScoreForIntendedPrecedingCharacter:omittedCharacter:intendedFollowingCharacter:] : sha256 3f8e666bfdf9bd81f0d561d54dcdc6e494a9f0c269674228f724f64d71a16d17 -> 4cfdf92ee1db6b66fc5022dd911b37179065078a17f21754e348bc843fe80bf2
+~ -[PRCandidate initWithCandidateWords:replacementRange:errorScore:] : sha256 a4394e8c521276c5031df22a6d24a831ca8b36bb22a2f6b38092313d9a9900e4 -> 94bfeafe0d99066776ecd59ca26cad3bbafcf0fbbf14cc768051aaefec8eaa8e
+~ -[PRCandidate initWithString:replacementRange:errorScore:] : sha256 6ec14695ea6939124a43fa7b25059a8172900941f6ffcc61af5ac9ab19a8111e -> dabb71a3c41ba883aafee356a041eeb4625f1f97a5d635c4715faca6094fc944
+~ +[PRCandidate candidateWithWords:replacementRange:errorScore:] : sha256 cbb0816e31d89edeac552803bac07d93baea23c96ef0c5465ba45eaaf78c0eac -> 1cedcc46f537c3b291946ccb0e73fb8d17a62def02845c877e98e13c227dd6f9
+~ +[PRCandidate candidateWithWords:replacementRange:errorType:errorModel:] : sha256 be981589a4d0586d1f751d1f2a8baa50dc5c260356145a0159b68cd101a167d0 -> 0b66edc8d84018c93d0c804aa87e58d483c9264717d8c789d2ce4622739a1045
+~ +[PRCandidate candidateWithString:replacementRange:errorScore:] : sha256 c34978b54666e62a54aa89d9a8f2ee92ace90dbc823cefd8ac9c28258d475bbe -> 17c5cc2c04aa10130ced4a69c17638e7125cfd556b02a107416a403624b430cf
+~ +[PRCandidate candidateWithString:replacementRange:errorType:errorModel:] : sha256 57f8b3fb451c413b1a444263b41694c4e962f61c5bb9eb91de083072e4bf9078 -> 6a2f40cf86225d84f2a439dc28c4dec87fa95b00d8b08bc7bd5c921db97d394b
+~ +[PRCandidate replacementCandidateWithString:replacementRange:intendedCharacter:actualCharacter:errorModel:] : sha256 88afaaff62b911a40357fc0e3ae01a57a099b09233ed67e2c47312960342cb49 -> 5b46bded54cc258045bae431a4453c7d6f96f6a501d8e50904a1c0ccda651c47
+~ +[PRCandidate transpositionCandidateWithString:replacementRange:intendedFirstCharacter:intendedSecondCharacter:errorModel:] : sha256 e0be72ab3d8d6eedf39d2637075bd15106f4e17f3ef5d54c7ac8edac951ecc37 -> ef9c72b8ddc7f71b12506abea032b3db7496228912ba813f35e45cbcdf543514
+~ +[PRCandidate insertionCandidateWithString:replacementRange:intendedPrecedingCharacter:insertedCharacter:intendedFollowingCharacter:errorModel:] : sha256 58f45033936f137489efff7d2bb3745f968722b09de8cdd382a929b696f7b33d -> 7de1be20160c4d4a0ad62d48adfd83828828ff3e6581031687f73d2ddc1e7da2
+~ +[PRCandidate omissionCandidateWithString:replacementRange:intendedPrecedingCharacter:omittedCharacter:intendedFollowingCharacter:errorModel:] : sha256 b8ca53667bdb7d32991b22d05ee8021cb53db50433f4d4335f289e5a2856f8cd -> ac437854d67664a6a4549977a3f0b5b54f47af72e50e504b97ca1d39fcbe18ed
+~ +[PRCandidate candidateWithBuffer:encoding:transform:replacementRange:errorScore:capitalizationDictionaryArray:] : 504 -> 500
+~ +[PRCandidate candidateWithBuffer:encoding:transform:replacementRange:errorType:errorModel:capitalizationDictionaryArray:] : sha256 fac5e2bf523cc65450c1f5c7d63dc5501449a1b27a0d8274b654186507eb3a09 -> 801ed7bd52834722c06b2e8a86af5d22a4c9783442bad663f6302bce25e675f2
+~ +[PRCandidate replacementCandidateWithBuffer:encoding:transform:replacementRange:intendedCharacter:actualCharacter:errorModel:capitalizationDictionaryArray:] : sha256 bfc341f4a6a65cde6f100b30f92bc24b5e96006957217df5187276a02ef4b847 -> 3f939f5f68593cf862cb34d7897b05773a6f5dd98ec9bd469d212a2eade9c71d
+~ +[PRCandidate transpositionCandidateWithBuffer:encoding:transform:replacementRange:intendedFirstCharacter:intendedSecondCharacter:errorModel:capitalizationDictionaryArray:] : sha256 fd9d6d0bf32d87b7ecb3c76a989e53abe06d34ccd0c857835a0cc715356d3c31 -> 8125c67106d93b1af6bb9b6093501e710700fe778d2f6305ba44fc50055eefe8
+~ +[PRCandidate insertionCandidateWithBuffer:encoding:transform:replacementRange:intendedPrecedingCharacter:insertedCharacter:intendedFollowingCharacter:errorModel:capitalizationDictionaryArray:] : sha256 b5d8c104433e682e577c31986a8fb2cc469803c0e7a64ebcf21289b145fea2a9 -> 4caa15958a117d288b1c3253bb376911cf1e83db90de9f553f1d317ce0cc1feb
+~ +[PRCandidate omissionCandidateWithBuffer:encoding:transform:replacementRange:intendedPrecedingCharacter:omittedCharacter:intendedFollowingCharacter:errorModel:capitalizationDictionaryArray:] : sha256 197e355035ae943d3cce4c2b60a28c10046f2c50533022ad36238a454e0de1fa -> 1960340948383b1a4d9ca6ebc8d913081ed7614c6653072f000fc6aeb0c85df5
+~ -[PRCandidate description] : sha256 692738fe0b4e627f5b7d116cf3d753d15a977266945f3b868da56c262458d1ac -> ce1b5fe03661d6ad4d6d4e412b118cfefbf5d81f93a1632998f6c1bd1197772d
+~ -[PRCandidate dealloc] : sha256 b03917778049cf1828e361ab0cbbabf2b9533debd7f78f300393347070c7eb2a -> d48ad6f953870d0f1b895b1b0bf1611d966b2ead25cb1d1a47da173e02649d8c
+~ -[PRCandidate numberOfWords] : sha256 33b64bf6747973e62ac4ead25444fe8e6a50385deb699ad373240d7a7345cb12 -> d0813258c9e97786e6e0ffc19e5fb343a75d0b85a59006cca14ea236e17b71f7
+~ -[PRCandidate string] : sha256 ea44ec522006de1f01992ec690116337167b89c9e31ec2e2828cb49418d3b774 -> 5a438dd5033c2c2b2dc2ccf3efee0941a23a915ae18afa3916a611f90172dd86
+~ -[PRCandidateList initWithMaxCount:defaultReplacementRange:customErrorModel:capitalizationDictionaryArray:] : sha256 57411ed1c23eefbf7bd443225cdc5c6fb47489f8cc529277d7d690051d70dd09 -> a346c4013e854cbdec2c006aa4daba766c741ac8d499f60e9a3c19ef97b387db
+~ -[PRCandidateList description] : sha256 07440ec9264a97e37d479cd5044809a6ac3717427cd21b84ef0b4bd3c5eaa962 -> 57f378ccc2f1396acf9ac32640f64749986a1fbf6dda52f6e5ccf842bb84ceb9
+~ -[PRCandidateList dealloc] : sha256 b1eaf1fdd0034211d6a234d29c8b139c253f2a3980096381d8ff56d30d33dd87 -> 4496984f270e29a8c2118411be7560563bf5ea3e134c7558f2af2dd424c307d3
+~ -[PRCandidateList addCandidate:] : 412 -> 408
+~ -[PRCandidateList addCandidateWithWords:replacementRange:errorType:] : sha256 33ed1a649e9d8b41e8f04d17de8ba188f78bc7b3b8c90bab171692238254f5dc -> 5e064025021aafc921cad2d6aab4c76427c51bb3d58d78fee28bc9b8ce48c45f
+~ -[PRCandidateList addCandidateWithString:replacementRange:errorType:] : sha256 a3f1bf11f78024e709a953ccbfa80d4be684ec1befd7282b899a5152054f28ab -> c18e250dae356e0dec3966a2266a0c5d60fae8deb7a601c3cc331f2fa7863d2e
+~ -[PRCandidateList addCandidateWithString:errorType:] : sha256 265cf1e48ceb307361edd2663416af377fabbb6966c5f43e87af194a57d485f0 -> cf9d5dc61df3ee349273d359a26fdef3942ab83421f45cae473a17f3c4f1d7da
+~ -[PRCandidateList addCandidateWithBuffer:encoding:errorType:] : sha256 0f9c9d9d1a53d6917100c1457b85f2e003c6e63cc5b4981b7d3f6d19a30a12d2 -> 134c09a69d02b43c95c702efbd617a2cadd1bc51d5241daf63d85caa479c133a
+~ -[PRCandidateList addCandidateWithBuffer:encoding:transform:errorType:] : sha256 f837aec9763fcb391075d3cf67b4abb0b1b7d720290b44e7c94620183d26a472 -> 42f1f5dc1d236880e919e113e75d3c98f847ac89704d4647c908fa92a04a3ad5
+~ -[PRCandidateList addReplacementCandidateWithBuffer:encoding:transform:intendedCharacter:actualCharacter:] : sha256 c7b4c4a2b4ad58bd5b5be7fef79583ac245eecbbe349a177686847a7933c6976 -> da08f0a66dad294de8d823e26616cc3dfce6f42849fc094fb0c4a335d6b6d28d
+~ -[PRCandidateList addTranspositionCandidateWithBuffer:encoding:transform:intendedFirstCharacter:intendedSecondCharacter:] : sha256 a82ae285a90439a3c77f07e57745fc2e0e3d23677ce7e93b4f61320441c91121 -> c622404a4c545b6f30b937ef13f8540bb94dadbd870ca77076be017b03ceb8e8
+~ -[PRCandidateList addInsertionCandidateWithBuffer:encoding:transform:intendedPrecedingCharacter:insertedCharacter:intendedFollowingCharacter:] : sha256 0b14c7ee6ba2f4dcdd6c6a3f28a17c626cfe14f9a18197d9b6b37d16e0d63524 -> d9345f8d86c5b1d3b14897599cb00a436fc72e67b59a316b018ff139e50d072c
+~ -[PRCandidateList addOmissionCandidateWithBuffer:encoding:transform:intendedPrecedingCharacter:omittedCharacter:intendedFollowingCharacter:] : sha256 1590b61a3ba5d95cbdb23f6f51f0c576c1edd53fe79e927814b151ad80209430 -> 0e0395a3f4380f9a7619662641dadc9bee8cb99d2c1916124812b2f1c1ef521d
+~ -[PRCandidateList candidateStrings] : 268 -> 264
+~ -[PRCandidateList count] : sha256 f4adbca2fa8d1ce16bf5595953e95a08842c78d60cb2454b2c7a22a53ad50372 -> fa992ef7c9c1e27bebca4b2e8b6169b43f36710cedd1f941c8866ee61d7cbb73
+~ -[PRCandidateList isFull] : sha256 dc041af1a48623dc76867040f80fa790838bdd69a44243b17487619d02f043c5 -> 5574c265f07c13e082fc9234df963399bdcb61b402bd591234f3791526e2c5c7
+~ -[PRCandidateList candidateWithString:] : 268 -> 264
+~ _IHdecode : 1876 -> 1868
+~ _ScrambleAndFind : sha256 1b0b8c6462048c6bb9875a9ea8218d112c00cacd493905a3a458d8bdf77767c2 -> 207d1950d83f521e29b26273ad6a820ed70bace43d1785b7eafeb85b96494187
+~ _IHgetmap : 384 -> 408
+~ _IHhyp : 4300 -> 4292
+~ _IsValidRMCC : sha256 3c62b01d4d768be65062aa987c125f31d3469ae29d57e35b2d72c2f7e4205f9d -> 641e19eb6ef4426deb53c9c359ced65fc5b0e2400fefebc6200dafcce5bf0dee
+~ _IHinit : sha256 564bf99498a5ecd5d942e4ba0deb4eb06339865976dacad26a9ee7f47cf883ea -> 00a170397457288d9f9b1993bcef04e2fab32b3094f04a58a18680153dbb5509
+~ _CloseRamFile : sha256 c9c742237dc49c03992fcff7a5d61b4a22a56e9da0f7b37c0153a482fbe55336 -> 61e7a87b09aabe0667735a664c89324eab7f4b02a97978e7f687f47b0ddadf2d
+~ _IHintget : sha256 a7abce7de541635ba2dd11a09721650ca7f10635c45ea3423e329237a3ebf8f3 -> e3f1182bb01464099dedf72e30eda99dfbf48ddaf4b66f6d2f718ee50489b854
+~ _ReadCodes : 244 -> 256
+~ _ReadData : 296 -> 280
+~ _IHterm : sha256 93641e01a08d4000f209e6dd38616823f29d4162c780c9ca58c3e160e19815c1 -> 405ae96a33fc2339ab86add694223ec50d8e4500980ac069fe0ec839e5bd66be
+~ _PDadd : 1108 -> 1120
+~ _PDexpand : 908 -> 888
+~ _PDcorrec : 680 -> 688
+~ _PDcorsrt : 896 -> 916
+~ _PDdb : 2216 -> 2124
+~ _PDdballoc : 1560 -> 1456
+~ _PDupibuf : 388 -> 364
+~ _PDdbfree : 1068 -> 960
+~ _PDfreedid : 1312 -> 1148
+~ _PDsdneg : 612 -> 608
+~ _StopWord : 104 -> 116
+~ _PDdecode : 1404 -> 1372
+~ _PDdecod2 : 2792 -> 2732
+~ _PDget : sha256 ad1e152101e600d0a18261cdb21a6782643e8a74607559080104841c53161b3c -> 913dbcdf6a4c247d110c9948f5c8c36a3b638a0741e904f672558899d5ffdade
+~ _PDgetword : sha256 868623a7fa83541a0e1bc1aaa8ce94a8041924ca8d4bafeac437f34401cd5d80 -> 05c49b588f38e37dc2796aea6d6c53213b5de4afe527616456de46178586ad05
+~ _PDdecodOldSD : 2696 -> 2588
+~ _PDdel : 200 -> 204
+~ _PDedit : 1424 -> 1380
+~ _PDatoi : 88 -> 84
+~ _PDatobyte : 88 -> 84
+~ _PDreadas : 3176 -> 3092
+~ _PDashead : 1724 -> 1680
+~ _PDwriteas : 2940 -> 2844
+~ _PDfiletype : sha256 568d5c27509d32ad4647052adae1abf1d7574b1e779fb251eabf4e823eb30924 -> d215528616fd0fc4c13fbb6a92da2fc299a4ed9c060e63bb972138b11eac6ffb
+~ _PDinit : sha256 1358092d4cc011f23c96e6e1f730c177ae03556aa23768ea39a765ccaecdbfd6 -> 577e9d71aaac2d58923be4ad5d162c4fbe45d4fae809ce39775f51b4942b06fe
+~ _PDterm : sha256 a56ac52d7de708a1708d00cc2cb86d877d0da9ce830220d45c463b5f31c53a1c -> 0c4dab8f2947ce9d7fd0bb90937ec2a074927ca90e9f98f243010513691e9c2e
+~ +[PRLanguage localizationsForLanguage:] : sha256 f4892c559a1942b7ede7d9684deef20fd346ecaafd273d5f69c345f6e4370706 -> f39faaa2b63aafacbeb2f558a616211342575e3622ee21cbf42ea0c606ba56b8
+~ +[PRLanguage localizationForLanguage:] : sha256 b9e10241265adf646c9fa3e0017d6dfa35384e295eeb6a4fb8a718a56bdc1409 -> ceda93fb45ae83a37c906d7f399d90b5edd3bda8a650ee20e197dc16415f95e5
+~ ___38+[PRLanguage localizationForLanguage:]_block_invoke : sha256 1e6b4765ce92a152c16ca5f9b1f521835ea363f4a2a7d58aa84f10f0306eb32c -> 5ccc3dfe0b0317edffdb7da6978b9ac3e024e7ac1e42d0a4378a7debc1157170
+~ +[PRLanguage fallbackLocalizationForLanguage:] : sha256 db6853358acf35be9a5fd798ff8f7ff6a3bcb4385807b85e5b6d65db5a19b6b2 -> 3bf3595f9c227a863cb7654673ef752d767ff977c0089dec66dae8abd341e311
+~ ___46+[PRLanguage fallbackLocalizationForLanguage:]_block_invoke : sha256 3c0cff91a4ec90c0c497760b1f9545a2eaa561572b169a26da3c324a2b105790 -> 05a758b09efe8550ebdf1500c3447177288c263da1e6eb2ef034731e25e2f665
+~ +[PRLanguage languageModelLocalizationForLanguage:] : sha256 2ad84bdc8b019c0321385d4e2322473cf639fb23f5195296a88b0c7939b6a0bb -> fefbbb5972b84862f4f4aa5e0829b83e9ed6a9d5db126975ed8d381cb62c9b03
+~ ___51+[PRLanguage languageModelLocalizationForLanguage:]_block_invoke : sha256 f8603f7ae3554374e17c6be36fe5f759ceb9abe3c969f01160f895bb6963f35c -> dde16b617325bb0ad9321adfcb48f17ec94cdb1c5e2d0a2e3e5adcee412f0c1a
+~ +[PRLanguage languageModelFallbackLocalizationForLanguage:] : sha256 257d335ef876bc96203d4dfcdd34fce48fe75b8e17c120b6b607fa0f37a36ecd -> 8f5c7c34c5847004e6c26d8b27d4ad64dd131e2189ff6404da3cb66e1947df71
+~ ___59+[PRLanguage languageModelFallbackLocalizationForLanguage:]_block_invoke : sha256 e62c7da30051d81ef6278d7f946033fd9993df609ce0be6df5d6c180489c4a77 -> b4be5372c284f8b6161770ee0060e231be069b43c52db7ad2c38bac365fa2d13
+~ +[PRLanguage textInputModeForLanguage:] : sha256 1e57265909ebe1a7f120a7d3dc18e8924eb0458bac1f5018067559888fbe1e4b -> 5f63c5517187afb624e1c8216fbe2e7b7cb68fc8c1ecba318261925a688706ba
+~ ___39+[PRLanguage textInputModeForLanguage:]_block_invoke : sha256 e6d1b73b9f999c0b73a776f4728241b4d388b4569167bdaafd5f42277c21eb21 -> 329627ce5277e750cf1746ff25bd98d93fa57b331d83a03b060d245798265922
+~ +[PRLanguage orthographyIndexForLanguageCode:] : sha256 652577e86ef080c4e1f97f73dc1357936c1761b185ad1926e11b816f612dcb33 -> 8a4b42268296f98d3d55161df293ce3f3241769c18ae6358642091f635673b01
+~ +[PRLanguage orthographyIndexForOtherLanguage:] : sha256 79685755d32389140dc42553dcc78b4cc9542dd430d297be25ca333a85d28785 -> 280129bc5fe5807d5fa331002e5bd14183545e1cab61b3ca1607e0cce447cc9b
+~ +[PRLanguage getCodesForLanguage:languageCode:languageDialect:languageMode:orthographyIndex:encoding:] : sha256 c2ff135e2809d29a67e8d1db87cfc5df36b5224e0e3d1f94c3fbc20cfe60c42e -> c9844fdf928d6bb76614307c3c58bb27d1b62b2a57aa466a913db0d92b303c42
+~ +[PRLanguage supportedLanguages] : sha256 11401b9425bd14ca2dd8ca852da2963e5e13d74b8a4fde26757fdf38ae7cc3be -> 9bbb67b9843501ce0247a5abfd17cb184f992ae19a5da615401e3a6a05956cd4
+~ +[PRLanguage supportedAssetLanguages] : sha256 ecb8551bef7ac0eee1f3b05fb7eb4a7c845317f4e1c93b1fd1d20acd880b034d -> 24c906f36684e476a7adbce4bb6a93b31b29c544fc998bd18508a8390bfda750
+~ +[PRLanguage supportedLocalizations] : sha256 b742fe025cae72ee4159f1ec0bb7d4b808116fe5a5b380685d3e62fcf917c02a -> d511fd1645866eeddf8ffb85e8b013345a19e4db38b5cdaa8c6c90920214c704
+~ +[PRLanguage supportedAssetLexiconLanguages] : sha256 23d67195caced721d8af5efb5b4553bcca12d74d5a54e88db07c948b31b2a740 -> 5d19da8985fe5a028bbe74ba02b69db1fbebbb0cedc14d9c1759d861114835ae
+~ +[PRLanguage supportedCompletionLanguages] : sha256 84c51fb3778f8f1b057031a4bba0a341227942edb68d2615456670acc7661259 -> 0d77a3df4a743c217a7e84315dbfd01c54efc989f0df38b64bd95a0c5626f8d5
+~ +[PRLanguage supportedSingleCompletionLanguages] : sha256 c93037490ee5e6e4e3f23498c86784d719d204c326a7cc61b67de5256b2b610b -> 716be47977e356a0c2f40c50cbe50f71e40bb480a73aa4ba0cadac7e9c8bdd12
+~ +[PRLanguage supportedLatinLanguages] : sha256 9e6cc5e0391d6938db709ec7cb82720df603f2e300143faf80ca71e91d9386ee -> 250dd1b9aba4cccc384031a0733407d297c1acd6be42a2a381948660b2c4a6ee
+~ +[PRLanguage supportedNonLatinLanguages] : sha256 7083a26708b2b5a7e4485c53596aea85c3f5041440159f8838b0951be261885b -> 8dd7cd3f54fed65fe4324f25dd96fb1835df929af5ab962d555642b51cdd9295
+~ +[PRLanguage supportedCyrillicLanguages] : sha256 2d38c826313b9d8593417c36c951b204edd0d8fefd25a327cef52996274241cd -> 744dec2af7121eab346417cd48d0548808cacc63a3f46ac8cf1db169626c6fd2
+~ +[PRLanguage supportedArabicLanguages] : sha256 3bbe4f1a42c412d412ec8d7d00d1048b5640f762663cd5f97f2a6874ba314a93 -> 868e58f6488916c3bab88b6157f5b9230dc345471d033a815f0d0d2d7e5e74e3
+~ +[PRLanguage supportedDevanagariLanguages] : sha256 2cbb207d22f3445efb6ef41b5c162e5c0cd665a0bcaf2c52bb50710171de0d4e -> 497c1ad7cd8c4bb5214aad6595e2227a82153cee3b9318ca0471e39b24f41fae
+~ +[PRLanguage supportedTransliterationLanguages] : sha256 1c5e217a63e59178a6d55b939877c0d495b466978be886015a1e205ebc23bf60 -> 98c0ccee8a84493f152081c7c8502e0aa8c620ce58a567d05a556530f292bd3a
+~ +[PRLanguage supportedSpellingFallbackLanguages] : sha256 04c3cad4709daa3814c25ddb49f64157cabbf858cd840b798f236e8191e645d9 -> 3779cf246af0d20731e93275ab4a1e4e0ff818ee2d829eadbddf9e94a51d917a
+~ +[PRLanguage cyrillicLanguages] : sha256 75af25bf0315acff121d83b570b21817a6e9d53b0c3b0c080c10f491e05fcf34 -> c8c9ff6bb07c98ed0548efe107fb28f33e9a06d00b365c10700793942880a891
+~ +[PRLanguage arabicLanguages] : sha256 6d3f190203abbcec341437c8c3323f772894056762dacfa4ef9ac3e3fdeaf667 -> ec80874afd8de156a81c046f4b94d775e572cef68b3da1dad2ad7895c4bf1710
+~ +[PRLanguage devanagariLanguages] : sha256 d1362d827ee891df163aebb86af420950760da88b0d272bdca42576af6072bb3 -> 2a01129686789387dad4b60b5cd3f836b2c0b3144c99b8f6ccb1160ac0868613
+~ +[PRLanguage transliterationLocalizationForLanguage:] : sha256 454d81ffa9a6db34a627daa75f51e70e571a12b843c32863ded8bf092c946ba0 -> da7e2bb2b7f16b3578835295dc2ed05265e161d07d2997882692cbc6ce4ebda4
+~ _baseLanguageForLanguage : sha256 39eba3251594b096d32e21adc23e072d71cae395c1f1f29f6775a980d407b56e -> a2d59d07982745a54a4bc16e151724700f801526a8d54e58e4000ec087965678
+~ +[PRLanguage spellingFallbackLocalizationForLanguage:] : sha256 7f02d9d148233f36fb409e2ff6da20dbf8cf7e2b3dcc30fb5db07616ad4449e6 -> 9198758dec8ff6602e0222fa08440286f7dc1d39ed1d5d77d911be334c32e6f3
+~ +[PRLanguage supportedEnglishLocalizationAdditions] : sha256 a608bf7386cd8a86d3af52a77ffe0a559c3884982bbe18069560e1a213c67cb9 -> 2bf9051eee850b068e98167af7718f5efb51bee6a3827f0b8fde0a79faed4892
+~ +[PRLanguage englishLocalizationAdditionForLanguage:] : sha256 1b3ed79c76ab519e91649d7099edc874e1d6ae099ceb0c2c5645d292415d3c14 -> 8ad1f82c37b118411a51545745506adf9ebc90323fd43f91467db14b09c87a36
+~ +[PRLanguage languagesUsingOrdinalPeriod] : sha256 e75b24e227443f6b94841f694d492e39e67845cf5d7ed98efcfef0b14681101f -> 0d9367a96a2ab92efcb11710b594431b48e9d3e2f7aaf55de786fb5626a7b7b6
+~ +[PRLanguage languagesUsingSentencePieceModel] : sha256 45e5863a227c4c48c89e3ce2cfd60dc248be04f8134dce96f132513d09a9d01a -> e932c9f33470e4c44b4e423de3556e5f11b9f4abaa75199b7fe5f7a2b9abb755
+~ +[PRLanguage languagesUsingUnigramProbabilities] : sha256 631168c2e64852c3616be742fa68980a8d54413083d76521d591caab97dc074a -> be2c46877be68a800c2037131d526557623ac9e71737db4e1bf9fdde027d8367
+~ +[PRLanguage languageObjectWithIdentifier:] : sha256 36361435b7d9c07e28a62fb388ce03581a4b254f8d2b4364b008ae812cc26db3 -> f86b5b1701e386bf577647b1778895c12a5069e6aa25185be34c79299ff946eb
+~ -[PRLanguage initWithIdentifier:] : sha256 3a51b5b62720ab6474a6b67c916f983028b9f701a0454bdef4d1cd40794f2e1a -> 998ed453c2914a7a241c01373c059f1e69b8757045aacb2eb0145c416741fd9c
+~ -[PRLanguage copyWithZone:] : sha256 fde7aa5ff0450108e1f08bad1a708496bb08616646340567aef55575b6965025 -> 13562f833719def8f7e188201666fe8067a5bc82ebb35711877b8776d256652b
+~ -[PRLanguage hash] : sha256 26d1d982c99b1eae834d5f9d8021712b8b82438a489a24207049d6267129b2a9 -> 926da518a6e401d1d640ff7ba7d1606580370223e5e9a41463a0b706e2bef56d
+~ -[PRLanguage isEqual:] : sha256 7d477386781d883837ab892a0b791cf6c074a5dbc1d91f4f39b6c105f31f71ff -> 6f08c6b49fc24b2ea5830a1211e32f96072e3ec2ad054d883ce10355aef0bfe2
+~ -[PRLanguage description] : sha256 72483b50110ba19c08947f7fdb8ea6f84c18ddd25282f9246b777fcf062f98c0 -> 175345785480f071c88bb5436fac0c496327e687b4ff29c8acee6b4a18cd35b3
+~ -[PRLanguage encodeWithCoder:] : sha256 ca3b684e91ef1af9877d9aa7e4085f651f064f95147dba21d34d5f077da6b110 -> a6e05fdb022835db73d325e89bd6ad5d7a96a04ac471bbf024379cc601581e85
+~ -[PRLanguage initWithCoder:] : sha256 eac7d93125ea21c8777a4030e6e9c6ab059f2fad5cc6fd9545f5131195f1a303 -> 4df5c4fcebd18b0ac6231550d2a28ba7b87e345e5abc7e87921ab777c49c45e3
+~ -[PRLanguage dealloc] : sha256 c3c48b6e2d3e247f81d5792e2d0a8d788e6e00947987c559c7af1375ec7f382c -> 5e494f8c5479b01e02e3b50e434a813cb5ef5607debe5186b20b95b2054b42af
+~ -[PRLanguage languageModelLocalization] : sha256 1b6cbf5c0956448acf3c960e57b4459372ec9e1018114220ab83ae2857222de7 -> fa076be73ff2f3d6c3bafc5926b94ea5ce8175a8ceb8a59f49a2fc4a0f4ab95d
+~ -[PRLanguage languageModelFallbackLocalization] : sha256 f14d0dcb3f7b1cdf3ecb8bc1197390fee59f8a4016c1011d708b8fc675ac9e30 -> 2fb52c53390c0307eebb20e847d69cd4c62c1dde592d6c4172c7c3ce70c483ea
+~ -[PRLanguage transliterationLocalization] : sha256 94fd0a45a397b966473d6cfe042a135ef5e722ceac3439184644ed7df8fbbc06 -> 0e3750bfc1832e9ef72cd2549e2ea1ad30f652bcf5db6801accc234936d0bbc1
+~ -[PRLanguage spellingFallbackLocalization] : sha256 cf58822d6b889265a6f7f4573467b963c37f7775bca1e5c2e3f207227a4ef1a1 -> 511bfe1f250c470889e8cc46cbd21391876b93d7e6583f8f2623baaf0a19e03a
+~ -[PRLanguage oneLetterWords] : sha256 2ba403d00309eee223a07d080cb4ef410a5ad09c9259bbad08f5531db0157713 -> 278c62107dcf48ecfbb60c2ba0122db9b08f21110135f4ee995345ff454fc214
+~ -[PRLanguage twoLetterWords] : sha256 4df8d999f68aa7de96bf4c3710cb96e715adeb97dadcc1156322c9352d8a15b7 -> 2c59a17166b360ea248b585323085f11f3ae4b4e04b5124745a5885998e13032
+~ -[PRLanguage accents] : sha256 22b46043ccf4a377492851e7b5bb7e3a498830eb0acc00e2d20f571f5417aef8 -> b5c5926ed90661ff88e8a6fd565e81583cef997d7fb0087427c01dd23518a28e
+~ -[PRLanguage isBicameral] : sha256 ec04453870b037aca2ea070c8ae781abdd9d3a8dfba9081c6749d3c340ce054a -> f4df75191143d357776ecbd608247d84368dc32bc57589c725c4251b482d20c6
+~ -[PRLanguage isSupportedAssetLexiconLanguage] : sha256 6be34b38278723e0c191052fbf959cf00908a65d6124672542ae47fd119a7dfe -> 0f3b36a9ca8ca1e8ade5cc34eb2e4238bb4f2bc5032223b22aafebfbbf2a4731
+~ -[PRLanguage isSupportedCompletionLanguage] : sha256 2d8ea6bc6a926fc75a6c3b210fe0e8d070189f0f5ec968b3e39e40f045e4332f -> 7fcc09d8a4c72e4dd5175a66213482384a19e349ac723f2da21a8068b6014e8c
+~ -[PRLanguage isSupportedSingleCompletionLanguage] : sha256 faf281b96e456a41cfb2e5aa4336cbd991b56ff8db031980e6af7f5e79c98743 -> 1d81fcaf6aa50071e159d596b8947dffaa4d0f0f0add26bc1c7e7a0efcb08df8
+~ -[PRLanguage isSupportedLatinLanguage] : sha256 383f13a29cc817f30806422a4f8277834fa95be798268631f828bc248220e6b3 -> a6a37e9c3de2278474a79d80bb7075a198e0406d73c63b1dc2a7918ff4de010b
+~ -[PRLanguage usesOrdinalPeriod] : sha256 3aff4513135cc8f9215cf98d40e0f709209bc24e9d8a809cd8f651ca133a8d25 -> d9eb8e04f5d73f1dd8bd66ebcb9c96504cb532d44f02eaf1573f0c3ecfcfc88e
+~ -[PRLanguage usesSentencePieceModel] : sha256 3056b9b0607996506c81238dc603e88f3120416d712f871811443d5c5f230975 -> a1204eac1698a799c017b85f903a370d5aa339cae458e989301f04f31b04ab01
+~ -[PRLanguage usesUnigramProbabilities] : sha256 d8df4e193ff67f38cd80049f2f7c982107f1adc8d0886d0ed691cdaf4c37ad0b -> 7e2c9e1ea9b0bf6a3932b97bba1abfe576f3368bb6727f73c3d6e5c6c5a3720c
+~ -[PRLanguage usesArabicScript] : sha256 4988469e434044f04966efcd7c616d0095c2ace3a2db3d9686a86ad7ea2510a1 -> 4ff1d26382e16400a0609552e089f2b399bc2585b168a25d4b3f9e4c7daabaeb
+~ -[PRLanguage usesCyrillicScript] : sha256 adef2706d29508ae0bdccf85d199c604a885d0ec1de2d263e316df7b27ba34d2 -> 83f1b9a9554053b997cf90ceb52545dc8ba8bc2349faed0bd67a2a448a90120b
+~ -[PRLanguage usesDevanagariScript] : sha256 a966ad9a3ffea0b095c6774ea3f0b5d56f0c2f6ce0339518d0b22da2693c942c -> 4bdb7a04b51774342b49adc65cc9a85dbeb472929d6108f8e58bf21b060d380a
+~ _PDRDinit : 476 -> 472
+~ _PDgetrdwrd : 392 -> 384
+~ _PDgetrdraw : 192 -> 184
+~ _PDcmp : 128 -> 136
+~ _PDcapcmp : 68 -> 84
+~ _PDsearch : 1272 -> 1308
+~ _PDSFcorrec : 2052 -> 2032
+~ _PDSFchkwrd : 1456 -> 1464
+~ _PDSFwild : 1300 -> 1252
+~ _PDSFanagrm : 516 -> 512
+~ _PDSFmemory : sha256 097ba4804230ed52b6e178e8be38db0f714a1becfe3537bf01e560681e8a7bcd -> 11e0050c35cfd0bc222a876e24ce431cfa0a8185f771ed148c930d575446cf9b
+~ _PDSFdc : 760 -> 740
+~ _PDSFcorqbr : 2304 -> 2196
+~ _PDSFcorrig : sha256 d905a5bde7778067f84048a0cc622487cd0d8749f25cd553904b4e1794e63142 -> 17cdc94c52a74ff5c6d0a11067fb197fe7b35bbf751ed828ac4f420d641429eb
+~ _PDDCengan : 304 -> 296
+~ _PDDCposclt : 316 -> 324
+~ _PDDCposcls : 336 -> 332
+~ _PDDCpreclt : 68 -> 64
+~ _PDDCposacc : 532 -> 536
+~ _PDDCcalacc : 468 -> 484
+~ _PDDCdblend : sha256 2e4fbc8650cde145084c3eaae96eeead6b0d1b4c9fef5ecbcf27ef307ac7ffb4 -> 00289240818404663b2e4756157b6fdcbf7c7028873910140450502bd95908ea
+~ _PDSFcltdb : sha256 1a31df80fda8cbd77d0c16f088416181bdaa61a4d225c25c46e92d0ce618326e -> da81084c5e64e1d03efe8e5f34dab59d0cbd52e695f8827460afcb54612a1204
+~ _PDSFremacc : sha256 5723d3667c996bf09af7db896e0deeb1fdffadbfee74f8122fe408a9ab99605c -> fa02538e24b8d9242adb056284e278777afe16e0089ee3e8c29a2a659f561669
+~ _PDSFanaqua : 1060 -> 1036
+~ _icgetana : sha256 df7b1e3b4d3fdce61e9744facefdc9e2347b4a2d4d39da74fc514abd391211aa -> 2c55240319db6cfdd719601dc6923320991e01d21c3f9bf4f0bb9cd314d64500
+~ -[PRLexiconGroup initWithLocalization:lexicons:cachedOnly:] : sha256 3a945fd0fda0570e5798fba42b6e71c01e28aededf70bc2a57e4be4170f63f34 -> 589b7ed48f920171824680188194be8136748a5bfd2744f1c61b592ef7fb2a34
+~ -[PRLexiconGroup description] : sha256 398863ef59b29360144064d48d6cc38f5ace5d88dbb3f71d185b8dde626a9605 -> e2500270821ddfa1d09a2d42c3eda350ea50a837fefb55c4749d50d8b5b61a70
+~ -[PRLexiconGroup dealloc] : sha256 08bc8eb5c85eb2963f16f4d7e14091138b21ac0bccee6b32b174f1a39de737e4 -> 1e640b39d8e3a05f1b6ff02499d49c10cf01524dec151c7c66e90eb00e2b9ea9
+~ -[PRLexiconGroup localization] : sha256 81fc5edabdce6616f2f5d7fe8eaff19cf6cfaf3cf82b9392c11dddc482c24464 -> 84a7f3b8cb00ab79c83b142497592efb49d8ac03cf0e87bffe5a0235e8f7e343
+~ -[PRLexiconGroup lexicons] : sha256 7db13666a183c591ccde7db0538bf572d1abb8db0ab3135866638b3868040bb9 -> 5a05e4c039593b595c81a1b4c8543d78b572561cb81eebad7eb96cd46dcb8711
+~ -[AppleSpell(Lexicon) _lexiconPathForLocalization:type:] : sha256 c6e8028b483bc0d283da1188805ed4e6403205bffe218b1f7af31225376731a7 -> 66268d2d23760c4e0cd9a46ca87f466886eeaf62150df1488e93363158d31f85
+~ ___Block_byref_object_copy_ : sha256 dbdef9a4df2cd952b0b9d80bf8e21f572127a464fe010437cb0759cdae4d039c -> 266b1a2924ebda38dec32b4201e853791f6d1606c6f22d663fe98902aac262e4
+~ ___Block_byref_object_dispose_ : sha256 15d3e737758f9c2f94bad4087a778f5549e1a00ca0b60ce0dab4d4f03c48c045 -> e4d4208e8693d2b78b9b6d64261ca17e7f3f505690dbf10d867ad0d9022294d3
+~ ___56-[AppleSpell(Lexicon) _lexiconPathForLocalization:type:]_block_invoke : sha256 3c8de8e5245e316c9d3d8f392e4a45c30ece6686297ac2b3a19037f1885bd5bb -> a2216d18f6c064389adf6255a87dbd91a42d758502bf42ca0c406f33b8d979f8
+~ -[AppleSpell(Lexicon) _lexiconPathForLanguageObject:type:] : sha256 4faed648befc23461a86b3106b1ca2456928f92716a5577d52cfdd62be8bd2be -> c960fe4aa9f285a3dcced62f02e6406e8bddd59058d55969b07e697f7bb24e3e
+~ -[AppleSpell(Lexicon) _phraseLexiconPathForLanguage:] : sha256 794bbf5955dcf63ab3c613df6a3199659c1a52832bea1588bd40a3c09f1723a8 -> 483b03df4dc8194712e1a681fe6b66f05e83fa8f8fb085fe0afc2f24a7312737
+~ -[AppleSpell(Lexicon) _siriLexiconPathForLanguage:] : sha256 3b01b72ee255bbef425377f0fb30f79f73ee05c8356a5002cdeeafecc9470ed4 -> 1ff0ec356bc3efadebbe577550643fca9e325ad01c0e53becd31d90b5843e8d0
+~ -[AppleSpell(Lexicon) _siriDeltaPathForLanguage:] : sha256 644e1621830074499f0a1f8c05a593a43e9ecdfe94b7237d1200976fdd6046b3 -> cb5bfa9fbb597bed2c9556afeb1bf2dbbf454517f8d8b998d9582b0a011fd593
+~ -[AppleSpell(Lexicon) backgroundLoadingQueue] : sha256 53b34f681f683e27b347ad5073a0516bbff1ae10ed8924e74e6c1adc7ecbe958 -> 83debea3c1b8d2977223cb47add945a3908ababd18bc99d84d92de10e301cf00
+~ ___45-[AppleSpell(Lexicon) backgroundLoadingQueue]_block_invoke : sha256 d039e85a72b80b65f7c8203ae5cd50638d88cfa20bb637247893489026f067ce -> 1e7d6f62e78839a68f2dfceb01ab9377c5cfc220fa21beec3b4c23dd2d952502
+~ -[AppleSpell(Lexicon) _loadLexiconsForLanguage:localization:cachedOnly:onQueue:] : sha256 350d4ad535a6f7c1a53334aa6a3b0f978527dd58e3f56de74e1e0cd5ba1e9904 -> cad97a1df648132bc9e905415be594a72cbf75f7bbca3db7e9fc3715da60bc7f
+~ ___80-[AppleSpell(Lexicon) _loadLexiconsForLanguage:localization:cachedOnly:onQueue:]_block_invoke : sha256 b9388886827e9c7c8260de5ad49ba75b884f1a84cb5971ab2638485083b6ea8a -> ef00725d47004459ff071577c9d0e678e12ed19f4312f8334ceddf67f704c8a1
+~ ___80-[AppleSpell(Lexicon) _loadLexiconsForLanguage:localization:cachedOnly:onQueue:]_block_invoke_2 : 684 -> 680
+~ ___80-[AppleSpell(Lexicon) _loadLexiconsForLanguage:localization:cachedOnly:onQueue:]_block_invoke_3 : sha256 2eb109123df8f9bfe4c6b6157c16a1ba4bca8ed4d943740ad53d05c8ac81ddbe -> bd5329b5b0fa6052873a832a3e666264d34b3bf0e909abd3b5b6c132e06d26ea
+~ -[AppleSpell(Lexicon) _lexiconsForLanguage:loadType:] : sha256 d5ad3bda491a2bf17120f4f3056aaf0c1bdb855d9090b40f439e42913442a091 -> 86ace57ef34d5e9348981b91b74f0d6f294e0adb208d323030023274427dac0a
+~ ___53-[AppleSpell(Lexicon) _lexiconsForLanguage:loadType:]_block_invoke : sha256 4a4487f2596b51caf07884255f11011b172a0c0258cffb0f43fadc007a3b8a5e -> 47b43296f49f0176f64132ea1281a7586d1cfb2573c41438fb3b47f367453d1e
+~ ___53-[AppleSpell(Lexicon) _lexiconsForLanguage:loadType:]_block_invoke_2 : sha256 899829e5b56f54d08798524e282a0c0bc911c80cd414d044deb4d01125cb2177 -> 61d1900706fd4f707337b1c7989cf2b48c199bb1835fd30196f2ccd7b99e9442
+~ ___53-[AppleSpell(Lexicon) _lexiconsForLanguage:loadType:]_block_invoke_3 : sha256 0ed58cc1c50bbc61ddf76a3fec00797c2184b6820b915c646d9d0dcb8a649f3e -> e060c7b0dfec65aee37066b6027e4394c4be066b03b1b0f92966661ffb0ecd65
+~ -[AppleSpell(Lexicon) _lexiconsForLanguage:] : sha256 1a33dae60208c8ea44eedddd3536bfbaeaee170722065daf3aac56f76cc83d11 -> 359cf0020f7f4775ea16ce9ada7b7bb5095147a66a7922a33bec07f09963079f
+~ -[AppleSpell(Lexicon) lexiconForLanguage:] : sha256 6634e00da828d6e9dbeba1c7ef43f06198ee5db596282b834cdc45aaea322c67 -> cb7bb565f4ef7be57725e9bd99bd6b0b76989dff23e7551404b77e1d1e3c9972
+~ -[AppleSpell(Lexicon) _lexiconsForLanguageObject:] : sha256 3601cebb28c60fee5f69193453949eb361b4d6a9e66c39e191ad0b8076143e86 -> 31b1c49af076f5ecb155b797638acf3fc64b99ce0a27d3a620dd9432e09a94c0
+~ -[AppleSpell(Lexicon) lexiconsForLanguageObject:] : sha256 f734857ae260c27991885d303b17156bff8fb42413dfa6e5815c24e910de210b -> 93cf1eda56c30a81c13de7082d38a5914e44b88c4a035d6723f8259ae2364b6c
+~ -[AppleSpell(Lexicon) lexiconForLanguageObject:] : sha256 ed526991afd7d0c5d09ad37f2cd81d25d89d5294c281363ea0b2614bdd72df21 -> 4b32e6e5021db3ade0fe4bf8d166c7b4d080803e3c5751eb1deb7ad2c9df5031
+~ -[AppleSpell(Lexicon) loadedLexiconsCountForLanguageObject:] : sha256 8926c51aebdac57932021080143aa4c5e1cdee0d467ca6c24902f5a74df91de2 -> 466d556f7fa2a4f13ccb2723fbba5954b2e5c26c65049261e4d431a84b049e1f
+~ -[AppleSpell(Lexicon) _loadPhraseLexiconsForLanguage:localization:onQueue:] : sha256 84535fb67af5d4dfd6a455204925d8bfa0bc02a74174fab63d68d538cc0dad36 -> 2d927401355eb93396cc688d8b951d355ef3245c0440c4cfd6932025e28fea54
+~ ___75-[AppleSpell(Lexicon) _loadPhraseLexiconsForLanguage:localization:onQueue:]_block_invoke : sha256 7f77f62338917074de873c6c55d1542f2af015f5c2b50639a57cb8182e22bc9c -> 9720399d34f6a29ee938c70638139414fd30025fbe435bb81e20081c96a5a18c
+~ ___75-[AppleSpell(Lexicon) _loadPhraseLexiconsForLanguage:localization:onQueue:]_block_invoke_2 : sha256 cd1ef9ff3241de91accf93881fed16ce70647dfdc0599ea180815800ed94cd37 -> c43b62801260dd81bc29cd8e5aea7ca25a1d01a538ac22118a4361ba9e47dfb4
+~ ___75-[AppleSpell(Lexicon) _loadPhraseLexiconsForLanguage:localization:onQueue:]_block_invoke_3 : sha256 3dedfc2c2d394355de7538c911635c60488bd01adeb8957e9e802ee1dbf06895 -> 294d674c668a728d2323a170127627284b5a4f32a175ddce16b532c110faffe3
+~ -[AppleSpell(Lexicon) _phraseLexiconsForLanguage:waitForResult:] : sha256 899267ed69f9e1e2d288975083660c79c6e1ac8be76262acc57642b8c776a8d6 -> d09669523c633d96d43f417f3149bc9ac9a06b7402495c9cc7d8c56281b30351
+~ ___64-[AppleSpell(Lexicon) _phraseLexiconsForLanguage:waitForResult:]_block_invoke : sha256 3c6b479ae56b928036036767ea7d51c72ca4a9eaaf1cbd1c3e5f5c0e86a99e1f -> c44cfa2dddf1d2fc8854659b0577d7931a04d6a55c49db681a6182a58095393b
+~ ___64-[AppleSpell(Lexicon) _phraseLexiconsForLanguage:waitForResult:]_block_invoke_2 : sha256 a6606d1d59f54c8dd29b830cf57f96524940522d45c4c9de4e9d531cbcf2636c -> 52e3d694703d7d10159b914cd9d5852bae1d4f8a48ef0cde7614de023569dd73
+~ ___64-[AppleSpell(Lexicon) _phraseLexiconsForLanguage:waitForResult:]_block_invoke_3 : sha256 1e5b9f8e5597d71ea349801cef90e06069138ddd2d7be67a3a922e7de03d9644 -> 3c7eb445cea3e9b81d176dcdfea7864cec75e58a71dd2aac49f40ad901a53187
+~ -[AppleSpell(Lexicon) _phraseLexiconsForLanguage:] : sha256 a2282044784db5b5e6f2b5a8b045d029f1d9f95c30d0d794365b5eb473eda36f -> e516cb3a87897be56e5583d7e99e1b97f8445e5a7db097aea074aff546950456
+~ -[AppleSpell(Lexicon) updateLexiconsForLanguage:] : sha256 9252c2f99b99c3702bf6ce9d5955f8429a7aace5af3d416234abdc3bd7b69829 -> d3e56265207bd08da3bd3fbbbc3f4e74e9f06138a7a94660814f34a31a307e26
+~ ___49-[AppleSpell(Lexicon) updateLexiconsForLanguage:]_block_invoke : sha256 2b1aadaff1c865dc87c1ffd915ec069c0bfc8197d707a820a3381144179df72d -> 931ed73f0ef11b8d5fcd294e8d14dd27ed81677a11215dd8291b6f8e61e38e6f
+~ -[AppleSpell(Lexicon) updateLexiconsForLanguageIfNecessary:] : sha256 19a1c831efa3f2f0c9c7e1690b19c32a7294f6adb2fcd0ac6f13392c8510690c -> e482d956cb2efca19e361de9bd012fc691938e01a29ba122ec06e094189b671c
+~ -[AppleSpell(Lexicon) updateLexiconsForLanguageObject:] : sha256 218ef1a063838c27a85de636042456c72ca27c656c19fabd3e8598ffe68e6f86 -> 14a2251a0388ec933278da85025d2bd10bc08d28df88bb03ebc73a01b4ae1cf3
+~ -[AppleSpell(Lexicon) updateLexiconsForLanguageObjectIfNecessary:] : sha256 ee5c2e63f30ba55d2d6ac833356928bef39e137f43241163053c06fbe3c33a4b -> 7f277cae180811ee9878d1acddaf944a0f9851bf8f1938eba58c2833dd2148e4
+~ -[AppleSpell(Lexicon) updateAllLexicons] : sha256 4ca5ee953ad609e9e67522b143952c9def19f3b4717f3981b02390ec21c85803 -> 5f1bb9b2a2e4c36c17446c36f317f6336f595dededc189a2c7c3124422cabc31
+~ ___40-[AppleSpell(Lexicon) updateAllLexicons]_block_invoke : sha256 a5b9646897d4fe8cb13d28ee347df8f17b2cb950a9342f5d14eb07e62a162b97 -> b9bc6510d4ebc62a52c82239e283111fcad17c751d927d99c12a8e5583fbf81b
+~ -[AppleSpell(Lexicon) validateWord:inLexicons:forLanguage:requiredMetaFlags:alternativeRequiredMetaFlags:prohibitedMetaFlags:caseInsensitive:] : sha256 ba0e8dac739fa54f43311da5fe9c533158ec09c3b992165a8685794a63a1e2ec -> a01d8fea0eabc7089a05b37663bff1059cfe8e072645f9bd2b842163b8f41f4b
+~ ___142-[AppleSpell(Lexicon) validateWord:inLexicons:forLanguage:requiredMetaFlags:alternativeRequiredMetaFlags:prohibitedMetaFlags:caseInsensitive:]_block_invoke : sha256 72153253b43403efc3b27177636f8e79de671d9adf25a7470d1169fe8b525fc9 -> 7a6b3941f9dc19c6567d869e5c18ef0543ed1ad4b5f1db93c3ee218185de7255
+~ -[AppleSpell(Lexicon) validateWord:inLexiconForLanguage:] : sha256 b6bff466e05e32efdd821b73339c4c75f0ac9b27950d477bff4caef063b9a427 -> f157a32885cbd8c80c65cca09ca587f588eee4a241c0cf96ad2e1824c35772d4
+~ -[AppleSpell(Lexicon) validateAdditionalWord:inLexiconForLanguage:] : sha256 9654cb5a5ca96c52c2404c3b655f391455b7bf98465b3b188f83ea4b49461203 -> dabe50a312ca9044925f95afbdb3158681a1d325a019e6c130091e0924e97722
+~ -[AppleSpell(Lexicon) validateVariantWord:inLexiconForLanguage:] : sha256 40c821173e8dc9f0f72df39bf1dfe3d97678283d17fa0ca4256a8dff6513c27c -> 07bc03281329174859d5bec689f7a586692fb9922ce9b0ebeb095167957aa726
+~ -[AppleSpell(Lexicon) validateNoCapAbbreviation:inLexiconForLanguage:] : sha256 1fe81fa3124773d4071876a3ac9a9a731fe3940cfb9c43dab8159e63ad7bd295 -> 1291aa2108cf23d794faaca83c7a77b7636cd58a8fb7f88e38c6b248db2a0f92
+~ -[AppleSpell(Lexicon) validateUntilLearnedWord:inLexiconForLanguage:] : sha256 0a2196045d291324cdbc96b405fc3224575a17396c7f07843f6e1a4c616abee1 -> be1097524860e15bf5aaf9ae5e068f0aaf2f849c8ce8e480ec79942405eb15b1
+~ -[AppleSpell(Lexicon) validateWord:inLexiconsForLanguageObject:requiredMetaFlags:alternativeRequiredMetaFlags:prohibitedMetaFlags:caseInsensitive:] : sha256 13b04026dd66eb63d398aea3d0e598f598d37f9c105a9680c9797e8f6734299d -> b3a173dc1757f79857ea76b603a29a3e4c7b41c7fef5e45d565d743d782007c7
+~ -[AppleSpell(Lexicon) validateWord:inLexiconForLanguageObject:] : sha256 903c580833e47607e2d5be4794369d67d8a02a30753840bbb956c0aadda1b1a4 -> 4890452e12f15169aa3b7c145c722f18ec5cd8055677535d00fd3c94bc9cc9ac
+~ -[AppleSpell(Lexicon) validateAdditionalWord:inLexiconForLanguageObject:] : sha256 65641f7607cc5accd7b9d6a668ee89a651ba39234aa3f022f34325f1272970be -> 25b86d97479de196108e2f12b13e0ff18c3a367f853d6ebbcc6262924f4682dc
+~ -[AppleSpell(Lexicon) validateVariantWord:inLexiconForLanguageObject:] : sha256 f1acaa74fc047c10adfbb382c390c8df633f83caa2349c5787137ceb82ea659a -> 905d44e0e5c216caa77b88b5b9cea3eedd22139d1940c11e74265513ba29c46c
+~ -[AppleSpell(Lexicon) validateNoCapAbbreviation:inLexiconForLanguageObject:] : sha256 072d99ec4b76ae1471260cec37796504d53a8de51d96ac1f0c50a383a3a24595 -> ba312a1d4eb2b0213be4cc083202642fc93a73bf5f4b829a447d909268e93328
+~ -[AppleSpell(Lexicon) validateUntilLearnedWord:inLexiconForLanguageObject:] : sha256 3469b38579173a2d2aa8ea49caef0ca73a0efe5b811468e3aeb1e32e902a0522 -> a8b9ef4b40add10dfe24b273a3e25bc883e248d6750f9868d050f0170571cf0c
+~ -[AppleSpell(Lexicon) validateWord:inLexicon:] : sha256 78af84e83c3ab8d22b47a11f5c214d6924c94bd7392105adc5dc4b62ccccfe59 -> 26b3aa59c056abc9f09c86ab8a01500848d451756eb3673d9a0ea3f070f83f3a
+~ -[AppleSpell(Lexicon) validateDiacriticInsensitiveWord:inLexiconForLanguageObject:] : sha256 7df63327a58009e0baaa19016202d7192f0156ee946a3b101e8b989f8969b118 -> 075843a18e78cb015a5677dde4a21453269516522e5735293ed19929cf104ce9
+~ ___83-[AppleSpell(Lexicon) validateDiacriticInsensitiveWord:inLexiconForLanguageObject:]_block_invoke : sha256 5e184a223c2d98515da364c4922a12a7903da7b5eeeac6f03383ab380e23d45b -> e8571684fdbd460b801494589e3b0831d82904d5a8bb6b91d5ec965755302ebf
+~ -[AppleSpell(Lexicon) getMetaFlagsForWord:inLexiconForLanguage:metaFlags:otherMetaFlags:] : sha256 15c924014e8bfe7ebbe635d94447bbe64258e5f3f2c86ac6d2ea935e99709b32 -> 40b4b248fbcc785b9fb280a6cd5e6a4bc44190b21d1bd1882850bb79c7e57a4f
+~ ___89-[AppleSpell(Lexicon) getMetaFlagsForWord:inLexiconForLanguage:metaFlags:otherMetaFlags:]_block_invoke : sha256 f44ccc8624e15024c90d93c436689bc65079ce41f7315a7887a12c527aa27dff -> 8e4c73f4879af2b317c5f98f020a6c24604438d7841ee42a934a9207f5a6c8ad
+~ ___89-[AppleSpell(Lexicon) getMetaFlagsForWord:inLexiconForLanguage:metaFlags:otherMetaFlags:]_block_invoke_2 : 316 -> 312
+~ -[AppleSpell(Lexicon) phraseMatching:inLexiconForLanguage:] : sha256 3b2068fe79300d87817ec17e51e190801b1554e35ab5041d247e69b09ce8fb4f -> f279a56cb261948fcc8510d24b2726c2b8d322d09dbdfb224da1c6936b86c859
+~ ___59-[AppleSpell(Lexicon) phraseMatching:inLexiconForLanguage:]_block_invoke : sha256 2ef62ad28e810626a05089e94cf7cd4c15d8cbc1ca3d391d3f318c2403a58101 -> 38638ff0f9af5c253fc62a713b7e86fa348bcb1edd5d5eec73216bda36e65f1b
+~ -[AppleSpell(Lexicon) enumerateEntriesForWord:inLexiconForLanguage:withBlock:] : 348 -> 344
+~ -[AppleSpell(Lexicon) enumerateCorrectionEntriesForWord:maxCorrections:inLexiconForLanguage:withBlock:] : 356 -> 352
+~ -[AppleSpell(Lexicon) getMetaFlagsForWord:inLexiconForLanguageObject:metaFlags:otherMetaFlags:] : sha256 1cefb41ed332090fae8e15c91edeb1e2df7b62ebb23058426affd03a950e9ea1 -> df17e93208849d056f8394f88964c9141dfc2537f1beddd953f94dfc1a3bf009
+~ -[AppleSpell(Lexicon) phraseMatching:inLexiconForLanguageObject:] : sha256 654e6ddffbf1d9c41b1fe703b2756c689ca2e3b03ecdcd9bc91e799326cebc01 -> 890acac54b267615eaa21685b15b646f6a24ca81b0d3a5a5158f60f45f0e7646
+~ -[AppleSpell(Lexicon) enumerateEntriesForWord:inLexiconForLanguageObject:withBlock:] : 348 -> 344
+~ -[AppleSpell(Lexicon) enumerateCorrectionEntriesForWord:maxCorrections:inLexiconForLanguageObject:withBlock:] : 356 -> 352
+~ -[AppleSpell(Lexicon) _loadNERTaggerOnQueue:] : sha256 2bc642e4b85a41a4f7a21f3ad813a68e803019efa55869547b99aeecf8e35a4e -> dcefa7282023cdc01be153d5bd55ceaa782de78f391a2867b352c8ac12570340
+~ ___45-[AppleSpell(Lexicon) _loadNERTaggerOnQueue:]_block_invoke : sha256 ad0141781f49880cf3a09fbaa5de664b3037ecc0a698ae5a602ec7e128a7d8c6 -> 52c2d124e1402750a047fa665a2df6237f5883f5ab8a312211499ccdd26885a6
+~ ___45-[AppleSpell(Lexicon) _loadNERTaggerOnQueue:]_block_invoke_2 : sha256 16929def9708e6604590f2e334e792afeaa3bf1c8e58e0c8656562323ffb83f9 -> a615c6eb2354a530b606946cafe91ce3970e4680d9217d184fd791eb458a4084
+~ ___45-[AppleSpell(Lexicon) _loadNERTaggerOnQueue:]_block_invoke_3 : sha256 1dd4c1256d04cf988fd19fb2631c70dafd322369501dcbc8f311a70e41d1eacc -> 9a67220268bd9e6326084572ea3707b42ed5d6810126cde986942d6c792369ae
+~ -[AppleSpell(Lexicon) nerTaggerWaitForResult:] : sha256 14f8d704c4db3da11d824dde41903c50e441904b312753d4dc35b44ec7802663 -> b18e2a6f0683e7a1a9c6f8fddc38ba19f6b7cebfe3a62f3a20eeabc400042e52
+~ ___46-[AppleSpell(Lexicon) nerTaggerWaitForResult:]_block_invoke : sha256 3c2158c73e466fec76b9e063711301d711b7bbab6617dbf35201deeac6ff6152 -> f00688739f3d079d1a872a35f9d16dd2b0664280c2eed71f605de922e9f65a5e
+~ ___46-[AppleSpell(Lexicon) nerTaggerWaitForResult:]_block_invoke_2 : sha256 7b94504b747a919a877d43a560b5d5cae2c03f84c04b26c34c3d1b69287428e3 -> 347f23f20f4d69c9a5e145c792a755d95ba324eaddf1e87398a1071366849bca
+~ ___46-[AppleSpell(Lexicon) nerTaggerWaitForResult:]_block_invoke_3 : sha256 1b956312fecd99a2d8720872a896631780446d57560354f0826163bb3147ce1d -> 9bc3d01708e08d34f5ba31617ae880b41147e79c687d431d98e727e3da527010
+~ -[PRLexiconCorrectionCursor initWithCursor:replacementsCount:insertionsCount:deletionsCount:transpositionsCount:advancementLength:] : sha256 4a16a7ed366157a5b131bb69e2eb7ac2d2966b58d4270fabf6d4338de4a3b4e7 -> 9adf0f603b12d56517c401db34b079928b8614ed82b576a7e523d7aae2af443b
+~ -[PRLexiconCorrectionCursor dealloc] : sha256 2d40a6c3136f97041c73d5f70f5b89c103e765aeec50a86691775081a12e438e -> 3a8cd6c2d6eb93d70f0568d05e998e21f92e4ecb8980af0398a956ef753beddb
+~ -[PRLexiconCorrectionCursor description] : sha256 d3326a53da1673b22e85a92019629b97c4051f7a0ac4c92120c3d92f3dc3a5f0 -> 79272b43307b5e3514a52d4fe6455b7a25e17bf850ca5b88386849ec355c44fa
+~ -[PRLexiconCorrectionCursor prefixProbability] : sha256 666dea52be35149c8e4dea420f546da9ae281ed9e51eac3c6406e78d6257cd53 -> 3e5bb5d90d59cb7688bae47396966a199058809009a3a04d8adba840dc643d20
+~ -[PRLexiconCorrectionCursor errorType] : sha256 57a33d541b09a6e02fb17dcaf8a6839fc70b41290b715d72003362e786a4b193 -> 567d6975762744866ce6559f21e306f47a0a6732c1e387baf26a5fe091763360
+~ -[PRLexiconCorrection initWithTokenID:score:errorType:] : sha256 aba31e75ab89e6ab80543fd379e009bce4f90632830eae048ac5ad6a5459b226 -> ba36b6a357813f0e9810c3f60533dd6b645538f11bb066aed68d2b73d3d6ab3e
+~ -[PRLexiconCorrection description] : sha256 fdcbfdc71a6de2a0e553a3099af838e9012f76ab3c7dc9b3e6fe06b1605b51ff -> 088cc03c7806b852d82efa407eef48479b4a50694da44ce64cdaaca6be317fd9
+~ -[PRLexiconCompletion initWithTokenID:score:] : sha256 fc81d343c436e23b7f12d59bc81b85fea9ae7a07f416e688a733ee7d958169bf -> 003ae4a55c4a995ee4c0a875de153c1d6721cbec492bcd9e735cc6bf48a856d9
+~ -[PRLexiconCompletion description] : sha256 973c9c0d8c0e8ab633e1386d117f610c99e3d14a6c537fe63eafedad93f35ebc -> f9e17384fa8dc615ddc179572ca032938d6370b5ed8b271687476f77ecc6f1ad
+~ -[PRLexiconCursor initWithLexicon:] : sha256 8eea33a2a81b7ebfe09fcf2bebc3d88155be63d902445f92cd6f036e62146694 -> 6144fe63a588af7873be27cdf731874ac175bef68455b2cc9b77b1117f993b91
+~ -[PRLexiconCursor dealloc] : sha256 18f91481af33598cc8005b898110622391f56c2f8f48e2266cc1e634ff528116 -> 9ce6741499b17a3bb92425941f5595afa7154681e83214e0da793f0f3e504118
+~ -[PRLexiconCursor _advance:] : sha256 1e3658b94293183e279cd5554c6f4e5dc2d08acdd6a60019b800123cd6975dfb -> 2bb3f1986160879dcb6d7d44118fa020cfc449d0cfb7d26d5eb9e5825e290806
+~ -[PRLexiconCursor advanceWithCombinedCharacterSequence:] : sha256 b618f3a6d6e5047f8475e516b76694249ca5a33106df51aa7738f3e6d2d5e43b -> aab10aaf1f80e1f9926889c23e6b580cfaf08f79b06d03a52fbeac3f0cd0b2d4
+~ -[PRLexiconCursor advanceWithString:] : sha256 93f185c3654f7e95f85596be3130f8e1e99002d1ae9fa6d0dfaa679c7ac64152 -> 2de0c84aa626f4d507bc6daf59a5a814ed43627c9d12db2258d014861456e34a
+~ -[PRLexiconCursor hasEntries] : sha256 53aef2943570b186dcbff49bb75c19c50ba5df57205f71b6ffc4c413242acbd8 -> 80358205e98672bb370401ae634dca8648afe1a8d879b0a02485e4154c18f9a6
+~ -[PRLexiconCursor hasChildren] : sha256 01fa0dfef3c9a5ac8a902497b68a85b47dd84c8409628dec3f4ad2aad5ac1a87 -> 8561f02e2eb918cd2b91d124320b71f561ca1e84ac7bdbdd2772b4e4d8f8ef59
+~ -[PRLexiconCursor prefixProbability] : sha256 a89224f6b4e68785a9358675af63450655b6373bd37e583c525b4d2eba27fc94 -> 24ad31f45b356bcd083943250f01127a309306f66d6d14a099dc664c252cd113
+~ -[PRLexiconCursor terminationProbability] : sha256 94aa30c8c04441ee8731041dea795091b1baabc7bac087b069816f4e056894df -> e51028bbf75afc4b58a7a9a212f85f68b1f947733843766f5ece4eba51f99547
+~ -[PRLexiconCursor enumerateEntriesUsingBlock:] : sha256 e4870d510fd8e8616cb6e22e001860c840fef16ef5e8467aa1479a3dbdfee779 -> 59092d26fe4e505d0860ac455c490a48737ca0c3a5e3d56d06d55efe2d85026f
+~ ___46-[PRLexiconCursor enumerateEntriesUsingBlock:]_block_invoke : sha256 9c86e8878ea40d7e256df1565637ae04a4e7c73a3c228c9ecf7ffd18956b7594 -> 6afb71242b264d2d69fe6820ef37b02dc897361ce0e66c138c7f7302318b4c9f
+~ -[PRLexiconCursor _enumerateCompletions:usingBlock:] : sha256 f7724184283b7e7c088e27bde31e72ef7e855898cea518188ba43309f3224230 -> 10e4ea8b6e20388398add4bb48621489c7c0fdae069aff86b5b5a464c04864a8
+~ ___52-[PRLexiconCursor _enumerateCompletions:usingBlock:]_block_invoke : sha256 7a270a16547b8749f7ea0ce62ca90461623d368ef70c3d9d74038f6dbae04c66 -> 78c4229549c47953cfe7d17903a8b06d43d197bcb0f19dce503eeb123a164539
+~ -[PRLexiconCursor enumerateCompletions:usingBlock:] : sha256 fb98a0ff772aa3db31fb1c4473a862003a09831b755a7d92ffc7ffc62739d504 -> 955301cfa431908202618b4fa088a0fc6f889367002fef5cf6e5a029f33d31c0
+~ -[PRLexiconCursor enumerateCompletionEntries:usingBlock:] : sha256 e2ad6bb447fac9c6053da6b1718a03a8799ab15be758118aa27554ec45a96192 -> a574af983eae7ccabb0f701528439baeedf052d30f8b97e7cad9cbd164f29c99
+~ ___57-[PRLexiconCursor enumerateCompletionEntries:usingBlock:]_block_invoke : sha256 80e0e673277ff289615919abbce48fad1711d619c03e4b5a821e82e65397e38e -> 0b9b8b88ca1f835a5470933bc0912bce15683d6623782a58408a7555e737a0f5
+~ -[PRLexicon initWithLocalization:unigramsPath:deltaPath:cachedOnly:] : sha256 6dfb38b46e1c04d849276ae420a58ef722f48f89126a4da0ed3ddb930a5bf81e -> 5c9cfa969a3da0851a2c142b2bd650f922d4c9e787cdf40481b69b37bd6deb3b
+~ -[PRLexicon initWithLocalization:unigramsPath:cachedOnly:] : sha256 48ec38d05190a65e5fb5a852a3ca1f1471dba9c35faa1f230c22f9c90f4060a4 -> 3a01871530209b5aa02e5a1eb7c0da9546cf0fcfe1dc8d162d122983ab710fa8
+~ -[PRLexicon initWithLocalization:unigramsPath:] : sha256 b301bdab22071a442835ca88f48f301e09138f49c1bc4a76ec1a3bcb7e335b33 -> 1604de2fd065890b2fe0929371f61b8656b54e95928121c1f07bb7a97e85b165
+~ -[PRLexicon initWithLexicon:] : sha256 a08aa87bcd148bb514a24216d1532590a4862a11217c35cb629b28291fa84a48 -> f170cef25f5ff1dd9308bc4774c4659ebababaf48b30f7bb9c031336dd6c6209
+~ -[PRLexicon initWithName:words:] : 456 -> 452
+~ +[PRLexicon lexiconWithLocalization:unigramsPath:deltaPath:cachedOnly:] : sha256 2a3749023d1f9e96c752f4414690636ac21c113305849132f123162b1a9c3c95 -> 8ca752f04d339d85873892f9dce68fcc31953ba4e26db397755d488e3a302de0
+~ +[PRLexicon lexiconWithLocalization:unigramsPath:cachedOnly:] : sha256 7a9f7c4aa30a66dfc2d529e1fca4a60f28a47afcc6606f618e1cc8178a3f157c -> fddb5bae802bd214f9078ec18109ae2d4985b7c7f8f61fd6f2a3576a8da3621b
+~ +[PRLexicon lexiconWithLocalization:unigramsPath:] : sha256 953cf92d09f22cc18842fe5a872dad59322402eb50dea36cae6fa76acf2eb3e0 -> 038274f89bcec09cc622d725ee123bb6590634be6c8556fd3d134ee97cff9eda
+~ +[PRLexicon lexiconWithLexicon:] : sha256 bfd59f954608c6470734ebf9e49c1a9c9ac99bbcd8c3c851c5113504ab632cee -> 44e5c1ef6ed99f3a9ff07c065d6b27056830fb688af586fbf75a6d5bb57f00f9
+~ +[PRLexicon lexiconWithName:words:] : sha256 a7d8ed0f1a282439c00aa6f3a2c3ca24b20320ae291347e990005be23a1fae95 -> 2b58080146f7b16257776ef22a5cc669c75eb6339f082245d455af57fd95fcff
+~ -[PRLexicon description] : sha256 56703d6bc0e3780a8440175b8cebaccdffc696ac41e9098de14f564f4dbe1621 -> 72131873c4e2262ade21c8d03ee87c7f38f3bed54182d620802c1c97ef8962bb
+~ -[PRLexicon dealloc] : sha256 d9905918c75d8ae42425bd9e154e581e59f959704115bb350d9d2dc9a90b1536 -> 66069cb19c6fbc86ebddf9968e69f2593d585e9b005d357d14d512d8b57f8a03
+~ -[PRLexicon createCursor] : sha256 7cfa10d2a1d6129d416cd8bfe6723f83ac3a2374bfadff7fa24a2fb695735906 -> 38f361e0ec0791c467ba32c21b79ec6862e57daec3dd8b9274ed6826693f05c4
+~ -[PRLexicon enumerateEntriesForString:usingBlock:] : sha256 eb9b155fe35ef6e6d1e1656b4f649bdced2c2d6b172ac8613bf2721b8929e9d1 -> 03608148d59789b284a4dce1035a5dec0ad406dcd1aa1d9fd5f2a2aba93805d4
+~ -[PRLexicon tokenIDForString:] : sha256 a4073a1969658a5f79df194566ddac1f01a0764b78f84db08f0306806570ea48 -> 3518a0976331278b201ddbf45a8f0c787937f2881df58ced87d2ffc46c4033d0
+~ ___30-[PRLexicon tokenIDForString:]_block_invoke : sha256 43c3b1ce030fe86bfd93117222cf85008afe4b52f9e59b617735f6745c9b1747 -> 716db86af52a5eb36f5bc775b42e23c0ba1a2d7577262bb0cc9178ed7b385d6b
+~ -[PRLexicon stringForTokenID:] : sha256 f5754bdcbeebd74918ec2def140da3ca3efcfd99bb5e27c384e9a76f29716e2b -> 744d8c011079f084596fd3b2ef3066e9fa9537135aabb5f1e6ba1dbf848f9969
+~ -[PRLexicon getProbabilityForString:probability:] : sha256 089053df533fca03309162959a78e031ecdd8feec9dc2cf250ad681f16186ec4 -> 23ac91a8108d6313d3c0f079c9f0a48c2b572997c3953772f41111edb50a0616
+~ ___49-[PRLexicon getProbabilityForString:probability:]_block_invoke : sha256 3ff20fcaa0d9cc1b36ff8a031a722776dbe5cdd17d52d29bd85b22acd12dd55a -> 712de18a5c2d47b82fc8d4c55d5e92e3013ca3f24c293e4f1573a30e10ce7992
+~ -[PRLexicon getProbabilityForTokenID:probability:] : sha256 49b13a37787f8bee5349efa65953b386aee446ac835699cf3efc80dc69f77ee6 -> 6fe7a916ac7af0e1939fc940f8954c722199a2258930b43dbbae535ed8c7625d
+~ -[PRLexicon enumerateCompletionsForPrefix:maxCompletions:withBlock:] : sha256 750032913c1aea71948eba09c77eba964ad46ea17bee022e45d4ba094a0df3db -> 6cab28452eb544dc633943977e019bd19eb7e8410da70ebc972710a31c69b813
+~ -[PRLexicon enumerateCompletionEntriesForPrefix:maxCompletions:withBlock:] : sha256 e9cb57f4bb5506e1370c2fee39f16ec06c7b7d317f82073c04077ccb10542328 -> cbe3976cd70390d0bbd475d924368f275ecfac883670a2df1c04580a13d6fb42
+~ -[PRLexicon enumerateCorrectionEntriesForWord:maxCorrections:withBlock:] : sha256 1fe5714e10040098a33e01b480808c314f6c9e72fa1df129c40c74c4c6b20c69 -> 490d12349a83e11dfeb1141dfeb8574f4f689c9e4550dd730b55186fa47c1302
+~ _heapCorrectionCursorCompare : sha256 7f22041df0069d8a5170229a7cc81e99a8c5f071db9dda97e51c086d5b31cb34 -> 6658f581c343738c7523548222c8a240776ba05fb072455be55eac42363cb7ea
+~ ___72-[PRLexicon enumerateCorrectionEntriesForWord:maxCorrections:withBlock:]_block_invoke : sha256 0b8a6d8eaf5b0e87335be6a30f6756717cfd8144587a03ab53e3fc1d26f26d20 -> 4887c13de05355248ecacbc486182baad060f9ece9e83b122d007d52619df6b5
+~ ___72-[PRLexicon enumerateCorrectionEntriesForWord:maxCorrections:withBlock:]_block_invoke_2 : sha256 4f45313976ec9afa9dbc92be0349fd620a63071188f07621f5b84def983c2ac4 -> 488dabc03c32a593bf979c29ea6b1539270d5f9b2949ca1f7e60ccf7fb892b06
+~ ___72-[PRLexicon enumerateCorrectionEntriesForWord:maxCorrections:withBlock:]_block_invoke_3 : sha256 9a0b9953742c1d42a1bace61d09fb5d38e72e64f8a5e4dde45f234ac4e44c0c8 -> df86b8976af3e14f45d23d2d3d2426224c79900ba2bc9c23689d3885a063697f
+~ _PDSFcltcmp : sha256 e4519aaefcd8dacb2b124b0370b1d197469f1765e57a2ad2f46b7aff3522dc13 -> 495dffeb158829df040a1cf387787be9120fb057857bb1ba0b1293ae9642aa30
+~ _PDSFcltscr : 1024 -> 1064
+~ _PDSFcor1qd : 1020 -> 1012
+~ _PDSFcor2qd : 1116 -> 1132
+~ _PDSFcor3qd : 1404 -> 1368
+~ _PDSFcor6qd : 1636 -> 1612
+~ _PDSFcor8qd : 1436 -> 1400
+~ _PDSFcorsrt : 1084 -> 1100
+~ _PDhypins : 252 -> 236
+~ _PDhypstrip : 176 -> 168
+~ _OpenOutputBuffer : sha256 59566eb7283e1dcf3aa91faaf97a447a83a5a053683a63f825b68eea61ef5aed -> 9459b72ce3edfab1b89d8066796962de2937a45ae1dee3b372c672e2edc2cd63
+~ _build_tree : sha256 cc6920416ab84c74f2c870e80867893f12c853584a7ad32287f4ff46ac1f23dd -> b97531e047a5414cbb873ed9e3cb0ead0914a6cb4e94569622e78aa32822d636
+~ _PDreverse : sha256 8b28fb8ad6928991d27ee8311d0968a611294a6b1919a3f3e6d4119196d2009e -> 10709d418eec597463848be73135b9fd6e65bd1916e28f5478132ee2952e10fb
+~ _PDitoa : sha256 5a1b7f3f8fa68b8ba95b3c9afb9c4f7ff6689ed73e75738120a2dfb7ad680d35 -> 7a7e8556d70f8ec7f143e111c734ca8a97217430055cd51dd70a8c8e9063c083
+~ _PDasparse : 428 -> 412
+~ _PDword : 4716 -> 4492
+~ _PDcheckDID : 96 -> 88
+~ _PDanagrm : sha256 b58bf1112705a3301c8cfa038c9aa1ae8ab3142cc0f60eb2c24be2cfab2437a3 -> 5ad26ff79137cb0ebebe72c65f425d884c500dea0e27f5c9e708d2bf16e1aeb1
+~ _PDalt : 220 -> 216
+~ _PDgetalt : sha256 e8557397d73e7ac218350b08cdcdaf9644b59e982908bb8e381b951c9714965c -> bf1bd4b124526fe1d164c596d788c3194d9f274fdcaa9ff33e9b54baaa10bcfe
+~ _make_alt_entry : sha256 3d5d46949870bea2adea8e12b8ea8ec12d2c1f9046f0dc19b83fc65b68390de2 -> cdad01ffd5ca6eaf8904b8b6be659f1237287dd7f4c5d32a0bb97f352ee5b625
+~ _PDchknegs : 104 -> 96
+~ _PDFileExists : sha256 1ec4e813e4b565ea5edee13ea6475782d641c501801a5b08b3ffe9d560db56e9 -> 59e7f06b5058e133d4014afa89a452d7d1fe5906bcf8687c3f66cea38e3879bb
+~ _PDcomp : sha256 9871dbb2a108046ffa29c52466adbb46d2c850d43105db32552723d9580268f8 -> 75ec78dcda44891e7110989ac7f586423e2e48aa8d7fb981d2cc49eb9fef0c58
+~ _DecompOldSD : 1004 -> 1000
+~ _PDOpenFile : 540 -> 532
+~ _CreateFormattedRD : sha256 036d79ded1c33a5d11bc2b0e29a3d236ecd93f147309359208585add5c3fd8ea -> 09b88bb168e8ab50cc7b81b85137004850f2b86b5bfdf1b304dd89ebd25cee12
+~ _PDDecompress : sha256 21bda40b766b6510243103125aa06dff1420679f314674ff45b1604c18bc7a18 -> f4ae2b4d0c18e653d30bec8028f27919d7d68aa9921f4a6f5a919da778ca5fcd
+~ _PDSwitchToOut : sha256 ddd5eeadd14f18609c3c88a4aed04b14718ffe8ca9c43d6f2e8c79c23aaf4eb3 -> 79b00bc3cb276ce57442b0015c5c30162542b9f3778945d85d7da94a31ba4c39
+~ _PDCompress : 4580 -> 4508
+~ _MergeAndCompare : 1996 -> 1988
+~ _output_counts : 400 -> 388
+~ _scale_counts : 132 -> 136
+~ _OpenOutputBitFile : sha256 cc8cc8dc6b02a7797df57323970c63b4b4c3765579e09ea7fdfcba941cabd474 -> f469445cd3fd51c9e23a44eef3da93347007d25d32e0db5a33320eab3d698284
+~ _CloseOutputBuffer : sha256 36e3e9674eeeea5d82c27de5d5e975a139ce0e60f62179cdd8e8e10c1fce49c6 -> 77941a957789387b375c4f8fdab4985b36aaa7178c373377e94c051de8ff23a6
+~ _CloseOutputBitFile : sha256 05c60aedbbe5a2d243e019eb303dca761a53e931142ec4dadf731ce038029b27 -> d0c0b2a555c7339a7363be9ad08446aa1cfcf7a803291b04c73233ce2f4dcbfe
+~ _OutputBit : sha256 65ea73e4ce07745dd3cb3b6f83aaafabc7c9aa0ec13e434471dba78c1b0e2cb2 -> d0f87b4d27da19b6657b43cbf87607e4a370a56bb43da85a02cbbf16add444b0
+~ _OutputBits : sha256 4f7f368e2ae51fa4de86fcea0b7d5e416e9935fe18c053c0ccca9d7da001f471 -> e1b1d5ecb3efef02f04ea933eb73cbaf392f8af060fd0ba5eba836ef6e89d9a5
+~ _input_counts : 216 -> 220
+~ _OpenInputBitFile : sha256 7a81f68654a22c880e93187da1bea5747b0740c79094c6c2eecc1e71af428755 -> 68e7b995b2e12e2d78a065c21342a8dd0a1d5f25b95b26486b6184eb59f54c52
+~ _CloseInputBitFile : sha256 a9bf2de2e8e5d5fa102a921d4ce7fb1bf5ec43d91a5288300c8d7f4ceb6b6e0c -> 73b26fce4547f8170713b8916a797cdf4d1dd3f89d0e8a6ac79d94e0de7d903b
+~ _PDstrrev : 152 -> 156
+~ _StartDb : 448 -> 436
+~ _StartWord : 356 -> 360
+~ _PDWriteRDHead : sha256 19c802783bd6785bf06fe23f9ee7da3ff647e5c3d13b9249d51543b78dbbc4e3 -> d6a246f5cfede400822aa67ff98566727e3e2852b4792c78a18edaf90ded6db8
+~ _FillHeadStr : sha256 5cad9e1f8e2550749086c68a4e0a1fd25bfc2e5ddaac53d347787f6fa4106092 -> bd07e96cd01399ccbd9fbfddd707ec9f336c11751e253e08b70b1e519677cb16
+~ _PDWriteOldRDHead : sha256 c985b9cbae2217f2868b9181c4d3e080b8f1cba1f080c398b7b6e838f50fc9e8 -> 341b97026c1ada28ac86d7f84a919884ae3c2c79e3ddbf8f505cce8c9f8a4e5c
+~ _BuildEntry : sha256 49ec9408b810adc905e6a2d9c966565cca5f4931c8470f1ebeb4da2d51ca527a -> 0b3a9b74f48bc13919c2c772057a33c1657e3978cbc960d6d0aac3010b89b9c1
+~ _AltAndWrite : 424 -> 420
+~ _GetBuildWord : sha256 8995bdac68e049533aad23cfebeefa569179754cd3129c6a90f78e16dcd175ef -> c3a8d5fa1d1bfb119214f4e3f1c0e7904c9edebb6284624e126c186fc816527f
+~ _PDGets : sha256 8f8ba2a4e70dc6f73650b53ea1d79889aa00feef93eb207c096a4bc58cb780e9 -> fc5dc6dfe50c76e68ac39529484f5ecece40d3b183e94cca5ca893aaee02134a
+~ _GetOldSDWord : sha256 e0fb2f4ed1126ad9c370a6b52a94884b1dc3112b77c82df51e3bc7f15e26dc83 -> 90bf6155d2db23c07d20927bd1c2851979971d82b4b7edfd73c70fcd3e48b21a
+~ _BuildForm : sha256 77f3c71d6a60f6e09eb06588c3b5ec2345e0de71386f27b1cdef0bb1cfae8dd8 -> 642ffa904ee2b5748328aea2e2071aabcd0cb787738e8d91889c47fd00d9cd1a
+~ _Huffman_Comp : 1620 -> 1652
+~ _Add_Tables : sha256 fa3b2c16a4776ad6b164a1b8f97e3f7901a47115e91857d1995c16ec456be157 -> 2724f1e61ff8c639c86d0b011e44744963dc6249f194282e7c36c1c4b306ec72
+~ _Update_Header : sha256 4cef5654bc6b5562eb07ec250b81f22581407f39b047c5bc69da4b7021a09e60 -> 92b59d36c130f9f1b09c7cdcd64293b2454bd46f78bff113d61abc0c826696ee
+~ -[PRSentenceCorrection initWithCategory:range:word:corrections:] : sha256 0b4144493c933aeb67b042691957785fe7404483d9286681801b64ef2e3b8b50 -> 2a13d2f9e6a8ea4b57b1826b74163275a5b8d53c4daf289c9014f2ff8c6f9cbf
+~ -[PRSentenceCorrection dealloc] : sha256 df42ea3a38d64b6581ca3c473f459d02a5db1a845ee6df3f471aad82ea75345b -> a59e56ccd2fcd3bb3c312c61a9d1ffa23fe034e3c20849a5aae784acef2da524
+~ -[PRSentenceCorrection description] : sha256 f083d4973e2ca34d36aac6032ef5d6a17a1b254d71853e302a0961eefd1206d9 -> cfd6e502f8f636f7c70e0a80a3a258abdcdb31c5fc8bb131720a56d5377ded34
+~ -[PRSentenceCorrection presentAsGrammarError] : sha256 975b6d0fa1412b42b301a3f024343c6abc4e96b41006f244d652bbebdf92e4fe -> c08bcae1fa565f58186a17544b9304c3f37c56f62d58fc1f573f20d46725cf5d
+~ ___45-[PRSentenceCorrection presentAsGrammarError]_block_invoke : sha256 c91cda0b01f6b9529b1361d68605765f5e5f0fd42d75f872997e703bbe344170 -> e33fc2dbac953a69374c8000d2b9abe33f69ded193ef7b5ea9fd8eab5633fa7d
+~ -[AppleSpell(SentenceCorrection) _checkEnglishArticlesInSentence:buffer:length:mutableCorrections:] : 2096 -> 2100
+~ _isAnyAlphaX : sha256 fdb0d984840ca7cf7ce522811240e08beb447a92829ee502e3a9c374cff2a011 -> 4e5b47ebb6d5fa5b3ce30665729e5e3710675c097d7f82b22c57cb5a8d2d5b8c
+~ -[AppleSpell(SentenceCorrection) englishPhraseRoot] : sha256 0032097119252d7c345a3af8c10c669b779ca91fdd910063bc4328f1bcdfd61b -> 9aa64713bf88fef8517533e578f6db6b99235ab63cae9f047607803f8b35efd6
+~ ___51-[AppleSpell(SentenceCorrection) englishPhraseRoot]_block_invoke : 936 -> 932
+~ -[AppleSpell(SentenceCorrection) _checkEnglishPhrasesInSentence:buffer:length:mutableCorrections:] : sha256 1211f489621ae7e43283c58ef36663cb297a6e9faac824eb7bb536820c0824e8 -> 5dba6d8ae1016ff6f6d2e6dc60d181c051451d96cfe22697f654c627f9887429
+~ ___98-[AppleSpell(SentenceCorrection) _checkEnglishPhrasesInSentence:buffer:length:mutableCorrections:]_block_invoke : sha256 8a5d276cbfb6c346ecaf6cb1afa4eac560aa10a5857140321085181267f79022 -> 69b577e207c7a78b2f67fdb38e84ee9e966fdcbee00c610323f1943c15cf531b
+~ ___98-[AppleSpell(SentenceCorrection) _checkEnglishPhrasesInSentence:buffer:length:mutableCorrections:]_block_invoke_2 : 428 -> 424
+~ -[AppleSpell(SentenceCorrection) _checkSentence:languageObject:] : 612 -> 616
+~ -[AppleSpell(SentenceCorrection) _checkSentence:languageObject:mutableCorrections:] : sha256 ed6dbc8622a5d5b040b1df627a50b9effd66f61e608fc85bd0c131338bdd6065 -> 6b54a5b3b8b8e2df1f68ac9a48b87d2a617f3bbad2575aa5d06ef6b8b237cfca
+~ ___83-[AppleSpell(SentenceCorrection) _checkSentence:languageObject:mutableCorrections:]_block_invoke : sha256 37aef2f3972b813705b680229f324ad037ee9a29512c46ceb18660f1f0606072 -> 9ec40d3387b5658efe04891789bcdf27b07c080dd9d0dc981aed9ff8d78ad795
+~ -[AppleSpell(SentenceCorrection) spellServer:checkSentenceCorrectionInString:rangeInParagraph:languageObject:locale:tagger:offset:keyEventArray:selectedRangeValue:autocorrect:checkGrammar:ignoreTermination:mutableResults:] : 3220 -> 3208
+~ ___222-[AppleSpell(SentenceCorrection) spellServer:checkSentenceCorrectionInString:rangeInParagraph:languageObject:locale:tagger:offset:keyEventArray:selectedRangeValue:autocorrect:checkGrammar:ignoreTermination:mutableResults:]_block_invoke : sha256 afe04ae8c00053a0e1a59fe25a480a20ba044b09b97166d5ecb1607691d3b655 -> 22796ac6829c4e2f1d4d509c5cdb8f7af888071227dba96041996679a7caf30a
+~ ___222-[AppleSpell(SentenceCorrection) spellServer:checkSentenceCorrectionInString:rangeInParagraph:languageObject:locale:tagger:offset:keyEventArray:selectedRangeValue:autocorrect:checkGrammar:ignoreTermination:mutableResults:]_block_invoke_2 : sha256 6364369fd04d4e85d40d5c609b078f387383caa71f4c1da26f7de6993a709146 -> 28e0004e4f1be3ce2a78cfbd5e856ef650e774c3b878d24863ced79d64540dff
+~ -[AppleSpell(SentenceCorrection) supportSentenceCorrectionForLanguageObject:appIdentifier:] : sha256 8b44310648370ca9fa872c0386619ed3bfdee0961169ba17548e62fa426ccd34 -> fdecbb8e6d59c47ead7a223f44c39429b7d2ed8e0f4028072a722fdab1b61084
+~ ___91-[AppleSpell(SentenceCorrection) supportSentenceCorrectionForLanguageObject:appIdentifier:]_block_invoke : sha256 62618060e267529514f9101bf0d17e5f262c3582108eb0028487038b3a37fd93 -> 5037267b749f1dbd151099bae56f0655bfe9dc96eb8902169dfc0c4da4b1057b
+~ -[AppleSpell(SentenceCorrection) spellServer:checkSentenceCorrectionInString:range:languageObject:offset:keyEventArray:selectedRangeValue:autocorrect:checkGrammar:ignoreTermination:mutableResults:] : sha256 582ee560fc9c724f585a767bf8cde1de037acba7b152d3d65b290edb4460f15b -> 323cdd07e970fea64d54a67e80945cd47af964d1fb5ad696e3b920f55cbf423c
+~ -[AppleSpell(SentenceCorrection) potentialSentenceCorrectionsForWord:languageObject:] : sha256 df5dc91e99750221c599b2f167b43b5b6c1f642bd9ef163a1abd359a2626007e -> 49499d24acc3352bb9d1c380c38d871bd20e31e6ff7c514d7a896b65675e4b70
+~ ___85-[AppleSpell(SentenceCorrection) potentialSentenceCorrectionsForWord:languageObject:]_block_invoke : sha256 382963e663f3a73e8fd268d6e3811a114a7c8159fb1ad4c0162bbb17c7999fe8 -> dd83de5465dc15d3d492cc5eb3eebf56a05031a5ca132896c7444eafb3667cac
+~ ___85-[AppleSpell(SentenceCorrection) potentialSentenceCorrectionsForWord:languageObject:]_block_invoke_2 : sha256 2b1a59dcb5311a5b2aa09926387b560cf03838044484a4d28a9730669c7896fe -> f29647b6581b9bff14b5f9f3df968118d42de48b5a24aeaa7242020aa97742f7
+~ _PDExtSort : 2724 -> 2688
+~ _PDsdsort : 224 -> 232
+~ _PDsdcmp : sha256 3331cf376c31fe7aa8957ecffcca939459d424619ca10326a3ea389f0229ca43 -> c06dc3fb1cb8ec5f1e01ce0a62fa45203bb9278f4fad915a0be8fcf9beb5e8c4
+~ _PDreadHead : sha256 f4d2140791fe6630a3a5f869753c9f275ee5793a7876d8efed8d24adaf71e8c9 -> b63943ff60471b3560200378c1a49496f0c4efd759aa4b66cb69841d3e151cc8
+~ _DownHeap : 440 -> 432
+~ _AsciiCmp : 420 -> 408
+~ _IntCmp : sha256 d29c29ea6fd2f6dcb7a4491d384c0b79633e53b9a40b014c36cc111d12e6e9f7 -> 6105ef3ae27a6a8635a9df44e120cd3f299a8914b82015c337fcbd8a034ee9ee
+~ _PDngrams : 1740 -> 1700
+~ _clean_up : sha256 7181194942f18d096fd063ca9d7eb93313622c8d2a9cff6c55d7c94bc2bf99c4 -> 0ab077617eec23537caecf2598c10094435eb9e3fadc7e322d5fed655cce0154
+~ _sort_fr : 140 -> 164
+~ _PDSDinit : sha256 aca97126301b685a195b2fe4dd3fb55ae90fbfc4c572da3d3aa3c36f52d2bbdf -> e9ceaaf12a3f185f472b2f099cb4019ddbb01234e57a8c1a63149bd3c21f7d64
+~ _get_counts : 136 -> 140
+~ _PDsort : sha256 b204f0280564fc2ccb17a904a8bfb6cda11d2540812c7a0ee3f4944faff0997e -> d2f8954ea6f795d2aa3ee2613f677f692363337e1d0980765efc0016b4d131bb
+~ _HeapSort : 140 -> 156
+~ _DownHeap : 404 -> 388
+~ _PDsavsort : 220 -> 208
+~ _PDSFcorbru : 2116 -> 2112
+~ _PDSFaccent : 2092 -> 2068
+~ _LMargin : 72 -> 68
+~ _inithyphen : 1228 -> 1232
+~ _Hyphenate : 2400 -> 2416
+~ _EndHyphen : sha256 a7f83d5a1c6a2c2512b4c6dff5a66a106b72a4c6ba139c5cf241d2ee3a28153f -> 7c6da8378f0b10d739f22931e3b1faad72c72c4cb524327e01fd7d7540dc97bb
+~ _DCengan : 396 -> 388
+~ _DCposclt : 352 -> 356
+~ _DCposcls : 396 -> 384
+~ _DCposacc : 544 -> 548
+~ _DCcalacc : 440 -> 448
+~ _char_in : 60 -> 56
+~ _cmp_end_char : sha256 bd5585f35e86199342d49f5a138c0cd48a3fc5281a1d9052e4feb70fb5a7224a -> bec8107e861039645669e35c6e3f3abd6395b4076ef0b82ffe7d61096b5fb069
+~ _cmp_strings : 108 -> 124
+~ _an_init : sha256 25823c4e6655b446812200f2a29bad72ae49ee733ad4602a7a2f60a897e36e50 -> 78ba161e9c2e28a644f67542b7a0c2216eeb3418079351a3bac93173be24a87e
+~ _prefix_stem_suffix_check_pol : sha256 b8d533525621b879ef0906e789cd2c47bd77e835a22a1d2ecfa08b834a9ebd3e -> ddf6f277cbd945efd690bf971930b5f07f9548b71dc32b3cd3de3a90eb21fef9
+~ _an_finish : sha256 238247c332607ce3f93e0e3af20b80ad093150cf2a8aa349e6b40df1f702ffe4 -> eb7401239a542fbc8c68a4dacac3b38ac6ff4132b8ce84706c82f21132901b4f
+~ _an_analyze : 2924 -> 2848
+~ _stem_check : 240 -> 248
+~ _process_result : sha256 ced2ccbfde5e9dd134a06ccdcfb87c95cfaf2e5dff115b2c3ce8c927f1fd16df -> 4dd68d6a69f6670ed38dfa9bf3b93b126f5ffb5c1102796f0e2a645e6dd2b41d
+~ _scan : 1616 -> 1612
+~ _supl_stem_suffix_check_hun : sha256 2add6919a6b05f6e6375647e6523ec24c9f1b91cf275f4f625b98a21fbf642b9 -> f1661bf4367b98bc53cc6f4e230940bdcdc3e81d16ca387f0b89b9ab7de65f21
+~ _supl_prefix_stem_suffix_check_hun : sha256 af300a659ab4b24c7c469bd800308c28480b0e23ab591fc97a4721018e451b65 -> 1d465a53f8434c0272804f3cb38ddd65b009403a3a80d6366113cad9e5cc8459
+~ _match_stem_null : sha256 36a287605aa3c33115ade75f71c6d775fa8e07f56366ba4a2d7153adee58a4c1 -> 1582e78bd46b15d37b110c02835cfa83b87edb294d5fb56068f525e2886bc8cc
+~ _stem_prefix_stem_suffix_check_hun : 520 -> 516
+~ _stem_stem_suffix_check_hun : 2376 -> 2380
+~ _is_nominal_result : sha256 1167abd09d019d3144585c4498816387053eaa3f74dcfeec0e8c1c3ab76315a3 -> 20ddda20f0d7e1eac5dae3f89f0019e49bdabac144c7c889c91e995ea29ef6f5
+~ _match_stem_nont : sha256 adc1351e7b9adcc07ce5974c352729e3fcb0553f73918bc015cff969d5e8706e -> 99275be7402494f0c7b555c983820130b229c8a6dc8d7ecf32361ac866933a47
+~ _is_cwi_vowel_hun : sha256 aae818196d1cf3e8fc715c2d4dacb01b8f4c07cbae4836465450de85647adda1 -> aa15e6bb84af02d63969a7d359dfa0ab1ef0263984cffb5e69529222f2788687
+~ _cdict_finish : sha256 278c8fefab8dfa2edda728bf5322475861407ed45d35c293d36b32aaf06bc3b8 -> ac87c76392e9acd51840b50cec92f91a8a41c268da03a1d4270678652de5b2d4
+~ _cdict_access : sha256 3a687640d34048733cffbf9bda8dc8fbbeeb9a2655e78184c73b9816f291b0e6 -> 5df8e97601988ca34af2bfed4f42aaf82ffc3217947ef685f4cc2334629f1fb3
+~ _cdict_find_first : 388 -> 372
+~ _cdict_locate_first : 568 -> 552
+~ __strcommon : 100 -> 92
+~ _cdict_delete : 248 -> 260
+~ _cdict_add : 1284 -> 1260
+~ _letter_stat : sha256 bfa53504cb20f5b0538caf26982ca12a3098fe41668552a3c3336ca2caefccd6 -> 04aa567463a0390c345c07f08e3c977516c2f8b1033a052cf3eee970c8904cd3
+~ _freq_init : 408 -> 396
+~ _freq_finish : sha256 392df6db260864469177b70530840b62e18f996ce67b29599d0e87774cf884e2 -> ff3af5f4e81e1b7897b9455f30a1a1bbdc32a369a38fde76d9aef146a75efbd4
+~ _is_frequent_word : sha256 7e2e03b2934e8594d800ff96f89a76e4d6d5c069becb00b5045bdadf4959e7a7 -> e440607bd3746f57f9903ee6905422da919e317c079f70c5427e5ade0a8535b5
+~ -[PRTurkishSuffix _fillPatternBuffer] : 292 -> 284
+~ -[PRTurkishSuffix initWithPattern:name:type:postponesApostrophe:] : sha256 2af02c552c7abfbccf897bf4f4f4bcb863ff1dba4d29ba74a61bc93f8677af36 -> a7a1be8eb4c124d51cc57438c1b9cc0646a43d614492d4fc280c14875ff5f4cb
+~ -[PRTurkishSuffix dealloc] : sha256 aca2fcb17e13f78c660ea99b90aee50f96b1aee3d87e0e93c7a16bcbc406c3ad -> 9fc6fd492aba5e374c1f7f73130b7aae73beea54d421cd8fea5c86548024e212
+~ -[PRTurkishSuffix description] : sha256 13515d244a6ca50f2fb662612469d59e58bbd9201b0a2b7a7da532ebe294cf2c -> 3929a2fd845a0b7a73d346283473259ae0355c86d49cde61217ce3efc2470751
+~ -[PRTurkishSuffix matchingIndexInBuffer:length:followedByLetter:matchWithNameOnly:] : 2372 -> 2300
+~ __isTurkishVowel : 276 -> 272
+~ +[PRTurkishSuffix standardTurkishNounSuffixes] : 1684 -> 1676
+~ +[PRTurkishSuffix standardTurkishVerbSuffixes] : 5232 -> 5228
+~ +[PRTurkishSuffix standardTurkishSuffixes] : sha256 fc91a57c2f9cbf2459fde2d95fba3a48beb0d8ea85737007e2d0ce81b51320ac -> 37f2db5814bb321c93b9ee775ce94e877e8ee9bfe6a725a6b15d2121298312e6
+~ +[PRTurkishSuffix _enumerateSuffixMatchesForBuffer:length:followedByLetter:options:depth:matchState:suffixStack:suffixRangeStack:usingBlock:] : 736 -> 712
+~ +[PRTurkishSuffix enumerateSuffixMatchesForBuffer:length:options:usingBlock:] : 248 -> 252
+~ +[PRTurkishSuffix enumerateSuffixMatchesForWord:options:usingBlock:] : sha256 86bb59c9670f53eac80eedc68bd05955918df386641b56798b8849e824061f78 -> 5528d7eedbd27561e841bc48271d29f948092a86fee419d0583ad7063154c68e
+~ -[AppleSpell(Turkish) numberOfTurkishSuffixPointsInBuffer:length:maxSuffixPoints:suffixPoints:] : sha256 3c3627aceec57b5489f7060c19c539ebdc2c12dc9b707f4f4e332de4b787e148 -> 4f4ccc046c45c1ddffd3c6cdbaefa0ee3f551b5f86c5b4244e964cc1b42aadb7
+~ ___95-[AppleSpell(Turkish) numberOfTurkishSuffixPointsInBuffer:length:maxSuffixPoints:suffixPoints:]_block_invoke : sha256 8168b0d97cbd56a7ed2f4836d15f594efd81f05ad2914d80f0b5ea808b5d5947 -> 7e475e7992505d7d2d61e27a4a67046649959ac90f0809d6b9fd7973825081fa
+~ -[AppleSpell(Turkish) testTurkishSuffixationPattern:] : 672 -> 656
+~ ___53-[AppleSpell(Turkish) testTurkishSuffixationPattern:]_block_invoke : sha256 993351dbe3bc4f2382924786060193fd9a7fec226ab9ff7f0884d4b4a13bccd9 -> 286392cc620bd77b7b24c5790c07c221ccfc8cab62b8e520dc0ab6b198e3e282
+~ _hdr_init : 332 -> 344
+~ _fgetl_lsb1st : sha256 279e643389f0916fb8c71ce08999c4dc7e62abb8f101f4fd5b373f400d00ab0e -> 0b93b6915548d339c34b5918b378d50b28988193cbfb50dfd8de9484f8cecfcc
+~ _hdr_finish : sha256 0cea2bf330a6c32f1ad4d9b90f36a61b5e0546fe2ffa36fe7051af686309db07 -> c19ca9d4a85efd9961fba46f4a2e8112d3cee1fc8d41b098cb93912f4b1e55b1
+~ _hdr_find : 64 -> 72
+~ _f_open : sha256 ced8386475f10bad67048d268a9331b961c3fe39d83d0ebead9b357728c28799 -> 68702e96a20113d25762858e494f67a24eeffe154b28fad5d09d5c38b00595a7
+~ _f_close : sha256 ebb2f437e55d40960588bc4e0656609f3f0963a467eb8113ce9b1ea5e1eb99f8 -> fd9aaa2a7ba48743b74ff9c2544119e6e450094b079a8b95708704b5c59e57be
+~ _f_update : sha256 639eaff0b5f07d82f84cc603595d2ace2101c4104050f0be36a6a68265cb21aa -> 85959590c1e305cb3cd9f29584c8b3568647f6aad427f775998c8a5c8f4286a5
+~ _f_seek : sha256 bd11031cb99898410effecd736d9654fb8403649aa200f63a2e06561551db732 -> 807522445a8702b70064e80c0045d701a3cae626c1f97807c1ddab0b1a92c53c
+~ _f_getc_bin : sha256 300b6229e0b94823fa9dc9c61bf8b19acadf2a63cc5c85719c777b5ce3f07d3d -> 99a9eebcc2af9df5470aa348bfb5129b5d5d513104c99e8cf83b3c13abeff600
+~ _f_putc_bin : sha256 7e5815030882fa0935ab0c5a9fac5aa2b9047e8bba4b7f814fbdd93e4b4a3c28 -> fb7e9ecb43cb43c17258bba4a26b7b1e24cced162599a7ec240001616ae4ea00
+~ _f_gets : 212 -> 204
+~ _f_puts : sha256 f06c7db7fbb21fa3fe1f4dac4e6e16d9366b85d6e1e6a4c6ee119fbafe18ef32 -> 4ef2b01f5b6418ed05c9312dc08fb98146ed621aab27fc81885cff8f1ca6f023
+~ _f_read : sha256 6a1ec7add02ce0662d92bb27c60a2498115c86ab083fb0c46e05ed63633333d4 -> a49567ec94654ea9ce75cdbc99d2f941e992a7120a1c894d229d0b29cbf38208
+~ _f_write : sha256 4110974154c00eccef5bdfb46522fe89dfc02134e2480ad4ec1268a370846614 -> 38eb014782d3b1eefa01e6e9f7f23f934d8127a507ed463947c5c36600f83122
+~ _hyphen_init : 1400 -> 1424
+~ _hyphen_finish : sha256 94d7551b3be3a50e7e879b14d78968b911751fe7918f03d82a13790065d41e29 -> 6806119419c84ab39cffce02ba0fe8edc81276126499d50536f487749298a55b
+~ _hyphen_usr : 572 -> 556
+~ _hyphen_ate : 4608 -> 4128
+~ _hyphen_delete : 372 -> 384
+~ _hyphen_find : 348 -> 360
+~ _add_userhypdict : 320 -> 336
+~ _get_userhypdict : sha256 14e8ad481b0f0771ad57f05e2169ec516f85ea491eada6d086ea234f8b79b803 -> a1c4cf857e6b0c4c2ff97f13719e1efe6998910fefdeece2be199281a2abe6e7
+~ _hyphen_dsize : sha256 053ae23da45f2bb5eec047197a83f2ad4be5875ba85aff09b78c2a8ff2509233 -> 59a29dea28a564a201a0d3c233ce8400d9b05fe063d338807e7426adc93d5cf9
+~ _add_hypdict : 340 -> 356
+~ _IChu : sha256 9c26355dd0f24d624305e802cb4754c7518de6699e89c42b533a7d29983e58b7 -> 4b61ee40db4a08226a654eb37886f27d95455b87ffda6dad28b1f9d57af609ff
+~ _HUinit : sha256 7317d2d70d8c7e1e1291163603e31ec5484ad2d9c996fce39edccc8ce4dc3611 -> 33f073796abbf7f3e055b5a74af77f5e989a7606fa29dac2c5019667633a3c1c
+~ _HUterm : sha256 8444ae81e39f6a2cbf6ee471ca047f656cf6908a50fa9f11db4337ec0e79ff8c -> fac87503a547ad904617a02e2f49033fad285ec387611ece0138ed9ced5c3e2f
+~ _HUfullver : sha256 d2bda1e977097e6744101300e0628b9a9e6a59f6e5f12bc12faf933269dc867b -> d3da01fbddc3b8535fcdf1c57cde261cbf6c6104d18763c2c2f71c0173650a93
+~ _HUcorrect : sha256 fd8e8a524e386fe95b46cd8e3881ae86206088ad5089d77183203849d2aca395 -> d6775fbbca009fb8093fedd93d764ecc9fc98a52cce47c68d2831af1b2bc8a98
+~ _HUcormore : sha256 12ba887433239e3d507ba989e02554ed4550fa92888dabb350b2fa615b17901f -> 6fb7199f9d19b3e01275b74e52d026a030080bf7f38089df1582a1cc16bcc21e
+~ _HUhyphenate : 220 -> 212
+~ _HUver : sha256 aeefe1a492a2adac63a8eefab1be7434866936ed5d152c8503c066373552bf10 -> 0db7730a31220ecc1d7da7a30151eb42a12466322bc67de962bd28ce0bf2aaf0
+~ _getcache : sha256 b1091af0d14d4c938fe9219cfb643a5a7455bb47dc1a12d65708e956edb776ae -> c6d1b401f9f030302941d286a95aedd4e371ee5d39f3e96e05f0ba46e4f0bd68
+~ _HUcorinit : sha256 43722157dfbc47a5eb3f4c26ca2389580281fee347affcaf01a11a9a75215f42 -> ee2b4fbecb09c2184b921d294d47883a430c61cf87ce40af8e15bbee930ad2d7
+~ _HUhyphinit : sha256 7cba7c42e59a0f525a04cd51171a1ab512eaa20e5d10a1c38cdc64ba41977525 -> cb3737f0056751649ba030bb29123599ae4565ee97e6a2a570ce6348ef528ac6
+~ _spell_f : sha256 8ac157107c6cd6cb9b01a4c6c448ff3d39eee229b0c78a0ba8a9bf41462b5b22 -> b4b56e5d6d3e1d8de6fd37ff06c4db310921f6cbfd64128e054c583c51c33307
+~ _result_f : 508 -> 512
+~ _HUmand : sha256 c9c76a6715fcd3d8553c3ab7055ebf30844945deeb74e63d676a847b02672b6c -> 939860e31999e144755d9941f5b15b47e84f84740993c2202228df6dc62e4eaf
+~ _HUmandin : sha256 1d9574a498876028ffd72b6544e5a2b8841b77045ef72c54b423a6e329e2e987 -> 2a72b8503c8d4aa5c62e231b98bf325185e3e117f81c21e676cbe33e28fe43ac
+~ _charset_init : sha256 18746e8e06cb2083e12e70687b4d0dcf27e2fd0ba512d913710806f1de1cced6 -> 8d5721dd29eba38a54f5dd9136bf2100b29d6be006e227e1278540e8067c52c9
+~ _charset_alloc : sha256 ae559d32913cb1f65423c128b80e628d92530748b6436128f371929c87a81757 -> c3d7da651f2741d9fe60a8de4f612a49f57bde24fea63a15ed7b3eddfbd70446
+~ _charset_reinit : 1280 -> 1200
+~ _db_init : 1360 -> 1344
+~ _db_finish : 196 -> 204
+~ _db_search : 1044 -> 992
+~ _mt_init : sha256 ced39675961714db3083cfbb4706e8a942e92078d628792940676b9b4603e377 -> dcf52d24f73ca0a469891da22461ed7a12bdc2eb5d4c508b5ec97d079c8dca48
+~ _mt_finish : sha256 e15d32a596a037d527c60ee2be960e9769d10b839cd9448e394c1a72be92cd50 -> 7f85bed0538ad1997cbbbd87629e46867f1f70d4c13a0ef3c1b1f4285846e729
+~ _roman2int : sha256 6d378ca7ebd30f927118139f00cc3fc6a67ac923bbeb1bc8619302912fff1a08 -> b55cb9ee42c03d5422beb8573b349e34a8ad5581caff385f67c608ac6896ee7d
+~ _spell_init : sha256 d806f8da6e81f8d5cee47f0120a14229f15f0d1c36a7d11da5037c22eaf3e735 -> 9cd786ad6a00a358f612c6530a58cda5c37fafdf13cbf37a056e6d9c6b3684c1
+~ _spell_finish : sha256 91fdf01cddc043fbbc0dd4c25063dbbdfddbd1d9b4478ea6af17746e8d4736f6 -> 9a71f6f9a8b5e3a01b7386927f4948aa9d2644b811b12843e523b4773755dda9
+~ _spell_check : 2200 -> 2192
+~ _check_word : 828 -> 852
+~ _check_mac : 3380 -> 3320
+~ _segm_word : 1752 -> 1680
+~ _is_small_digraph_hun : sha256 e5f06d93b1032227ca5ee85db9b18ae396e916e2bd774ba5be096945a0bc81dc -> e2348dd3e7c8412e02a9e87a3a53848d768334e24ee4d710e6efa7c0f45ffec7
+~ _check__words : 1676 -> 1684
+~ _suggest_init : sha256 7856c63e1a59534d00a85701e62219b2042018e5478e99e3d50618dfe2c621a8 -> ea54f3178ccc092243173f93d5f97e8096eef68fba6f089ee704a6d76bb0c7e7
+~ _suggest_finish : 644 -> 620
+~ _suggest_words : sha256 90b9013bbef22cf926b55cbf9dbde9b85978fed00e99b6e7be4c6e350ac5479d -> 83b7914e34fb2b415226500207edf051eebfb17e6fa696767cedc6d5e7845263
+~ _suggest_1_corr : 4352 -> 4268
+~ _sugg_prepared : sha256 3c51ba5a33d57f2731fd5b36fdd7d263b25f9b3c07c190957c43b4210d038284 -> b866ef172f123992cbc1e9f76dc32b30a0cf8e326387a7464202f5defde51dfe
+~ _sugg_capitalize1 : 288 -> 276
+~ _try_f : sha256 a765621e674c312096e02a0f81be390c0214a9390b36f4fe72769dc0d8807c8d -> 2599e0b990cbf88b297a9dfd0407806c4972b6104955483f43b8328d3cfe463e
+~ _PRAltMod : 5440 -> 5680
+~ _PRAltHsh : 548 -> 544
+~ _PRSetTmpAlt : 1168 -> 1148
+~ _PRProcTmpAlts : 776 -> 740
+~ _PRapp : 1192 -> 1184
+~ _ExpandSystem : sha256 cb68a502885bd6e6ab89d77381b47f54dc7476ae69184cd23ed4a3b7028ff0b6 -> 3a840a3a0b9593bb5f057c3d7054bb69f52a662ab1d47e8058a247a176fd54bf
+~ _FreeAppElem : 464 -> 448
+~ _CheckSystem : sha256 a54d4a4d264667b643b806429276af738795ec3fc4108a02acb9d7a5f0bf342d -> e33c55adea67ef8aa76b899582bb7d9803270fd1f7c05670851c30f39a59b3aa
+~ _PRbuf : 1796 -> 1844
+~ _PRfreeErrList : sha256 be663afd5a51e13ecc2b39a0cf74e794722e95971120b0778a9c0494f886284f -> d196acf90132569705769ea6724e2762d409e5c6fa8f5a76979ac56407efba9b
+~ _PRCtGet : 1012 -> 996
+~ _ExpandDbElemArray : sha256 f1868b9d1ca9d0a9cd8c51a89853cb5d25cfb2f36f6a7f98e418b19a9fbd4e2e -> dd813437a86f74f9f1b3281ffb60695de7bd33e71d28ac33bc6b5c099555991b
+~ _LoadDialTable : sha256 ac23e8f4d306cdc52678988b621d867afcf7bc9507a84ceb2c1045d0487087f6 -> c7e3accc97963b26c9cb1140b4fb980e4c23fbb1aa6efc0ab5ff89a0f95dd64b
+~ _ActionStringLength : 376 -> 368
+~ _PRGetDbElem : sha256 479cfa63ed22578f84945922871646bd29abd5811c90ebf503ec1a3032aac1ca -> 90eb3be775b80b751b8ae4733e400b5286c5c79cf11050656a6b3d3fa0f18955
+~ _PRDbTerm : sha256 2be59b63660d16af879ed85cd808ee23de1b6951000aecfd3a0d6a36c8165890 -> 4187b379d45124ef01ddfd3776431b1c8ae87e778f1d4c2c4e9b786f3107182a
+~ _PRPunTerm : sha256 96273d7abf8bff9096f1f3bd078cce2297068163ef26079b6308f914cc108ad3 -> 133749150d753b4efcc91bf1cf08fb95aec7e35596cdd216a8651b5b64f72600
+~ _PRExprTerm : sha256 87bc4aebbbab3de280f1f26a02070074ed3d2beaecbb85f43eba492acf0d6ff8 -> 0eefc07fc238ef6d3008820ca7049582afe0d1761406450550dc6fa85c7bcfe6
+~ _PRdecomp : 284 -> 280
+~ _PRDerive : 3068 -> 2880
+~ _PRerr : 1768 -> 1888
+~ _PRLangDialPos : sha256 856766d8c9dc8707f886a35ccf40fb358881b2c4eb0d89e7ac57607a11b78aa5 -> 5c340eb7b24600f3b97c8868c70c9e512fb426038f22108aee4568efd266a0d5
+~ _GetAltEmOff : 344 -> 332
+~ _InsertString : 1452 -> 1456
+~ _PRgetWarn : 672 -> 668
+~ _ConvertAlts : 128 -> 144
+~ _CompString : 376 -> 364
+~ _PRevamac : 4308 -> 4300
+~ _PRExprMatch : 1408 -> 1416
+~ _PRdoFsa : 476 -> 488
+~ _PRdoAction : 1284 -> 1276
+~ _PRdoSub : 692 -> 684
+~ _PRbldStr : sha256 1ae40a2579efde97e4f026f378590265dca8213c0f639cb3a3c2fc3a35b3aba3 -> 508300fc6c10d9713e353d094e0446f31d8f5b29173501d3051e9b63d5a73381
+~ _PRcatBytes : sha256 d1f1a79046219282500af1a7c27b9c8d0190f4759fcc53a5fb8bfeaf857eed00 -> e8ac9c633e823972b1feeaf7d50ebde127f0308c709cd64dd9eec5e316936a8c
+~ _PRcatCString : sha256 c853ca2841a18af50867f5d6508af7d95162f6748b44c1ab71936d83e440ba6a -> e920161bda13eeb894eebccdcbe589a397353df37a2c1be987c41f46cada2f73
+~ _PRgrow : sha256 ee74ecb3cbb18ec84dee35ec2b7851b82e3044e4df3cbfe1713c2c5e9a401a88 -> 18f9b3fdcbe69473dacfaa6af97e6a237114d5213592e8850ef3320e1e4734bc
+~ _PRfastSpell : sha256 85a88cecaae6eb58ec73ea1625440388b810920619b80c6940053703182b3ba0 -> 14061341e3b3e81c1277b81b73879655adc1fe46ce317dcc89439e5eae64afe5
+~ _PRNpBuilder : sha256 b21e4c90f8270952b88a45d36d88f2afe70fcd312f5ef2a1cb92c1b80c44b899 -> e948894498d89aaffd212459d220a6f881206306e0c15aafe4463e34939c31c4
+~ _PRwrdlst : sha256 194e06fc4258d71da4d645bbd30e17347d04c2b647e92621343a4a85d9c3a0f6 -> 2aa1b2e6dc70b768e284b8696602cf13519797edf7b3f116c5594f1127e3e681
+~ _set_np_attributes : sha256 be0a08f4a1c9b7b9106729dd715379286aae4cfe30fde3d894e6058d95a1d0d5 -> 55a10f42013d0233f3e85ba84e632ec5995f89a4761eb99a5fd4c09906cda908
+~ _FixSpan : sha256 f7960f12a4a46cfe6a39ae56e4ca7c72352a7caa37c20010f5e2bdb4a3c6f753 -> f9c3966e398bf747b824fa0812b33b5d82fd09fc7d324b3d5c4327084a44066b
+~ _PRgetmsg : 396 -> 392
+~ _PRIcsTokWalk : 2400 -> 2388
+~ _GetCompNum : 252 -> 248
+~ _FillWordElems : 628 -> 624
+~ _AddToWordElems : 248 -> 244
+~ _CreateExpTok : sha256 41ebb058729e3d98afa8a7163659cdc574f2c8e0c18ecf441a8cd21993b3878d -> 038b93fbe88df90c6fdd017a61055e2d26c816037dc9fc5e854838ed4a356d25
+~ _PRmapost : 5552 -> 5148
+~ _EvaActionMacro : 372 -> 368
+~ _CheckAltStr : 2304 -> 2300
+~ _ReCapAltStr : 224 -> 220
+~ _PRmatchr : 1844 -> 1920
+~ _PRmevrul : 2740 -> 2728
+~ _SetRef : 104 -> 108
+~ _EvaLogInGlueByte : 272 -> 260
+~ _EvaMacRulePiece : 1168 -> 1172
+~ _EvaWordRulePiece : 912 -> 876
+~ _SkipPieces : 348 -> 344
+~ _EvaOneRulePiece : 652 -> 648
+~ _PRmisrul : 636 -> 628
+~ _PRmkErr : sha256 20577f50df91e6dea0ed70f10012fdf78feccfe5e5a50aacacc98329cef93af0 -> 50088ac6637bed143c55f53938eb39629ad92d406a57a70bb7507b1a6a51929c
+~ _PRfreeErr : sha256 8134c6c0c26e5ab5edc07bc93b70f51709e1483a230ba025b3de67a055863a89 -> 74a8d7c1c3148e9d91ce3c41a96d9f9389966a56f759895ff8f9e5ccc4b5a1d8
+~ _PRfreeList : sha256 f89d4826da57331f642664a75a0552c6000c2b40c8b158014076e6522f5e1463 -> eacbe1eb18b4dd8b345a9e0b58443c2363f5def79cc252f0faaaac7fa234f6e6
+~ _PRaddAlts : 276 -> 280
+~ _PRmkList : sha256 a926ee3be310b135a4eac6dd29fbb26e4e72e042980f0b09ee2a1c983a54e5b4 -> 59a596bc9c87c706589beb3167ad4bf41138375b01a64e302d5ffdea9be271d7
+~ _PRaddList : 388 -> 392
+~ _PRaddFils : 280 -> 284
+~ _PRaddRefs : 280 -> 284
+~ _PRpd : 656 -> 648
+~ _PRInitOrLoad : 684 -> 704
+~ _PRPostAgree : 828 -> 840
+~ _PRinitProfile : sha256 a81b435a399643d03874ba7dacb1d8cecf401c61a02d5438833d318602785741 -> ebea8350209f8d113ee8d8b1f7f06051a567113a2f75d9ba8d088cf9b0cd2b0f
+~ _loadProfile : sha256 7aebd18fd51ee8435aa495cf45faccb818e717787e1103657203e5efe7eba230 -> 7694387a6f4a9bca588b8ef1e97d6d05910adc1149148a81da720fefd69d6881
+~ _PRloadProfile : sha256 272ff2603796edd2aa0fb937912fac43b175827e743271ca97daedc157c1f73f -> 6f68d131dcb95b82ba343cb3f0d030971b5c622f05839880f60fa65da49cc8d6
+~ _PRprune : 1428 -> 1424
+~ _Search : sha256 6595db8f42167193feae5ac168f8c2ba7db4109a945f50f0bbfe99bd911ad71f -> bb4a52e062e28e4fd6f08095e5a6a8faa0f1338ef167094c8932df9828e1981a
+~ _PRPunct : 3576 -> 3460
+~ _PRInsRefs : 288 -> 292
+~ _PRopnScope : 888 -> 896
+~ _PRclsScope : 1012 -> 1024
+~ -[AppleSpell(Spelling) acceptabilityOfWordBuffer:length:languageObject:forPrediction:alreadyCapitalized:depth:] : 1236 -> 1228
+~ -[AppleSpell(Spelling) acceptabilityOfWordBuffer:length:languageObject:forPrediction:alreadyCapitalized:] : sha256 dba765749ecea751baef93d30d69e87b42cfaa000ea5f111bea693525f78abee -> d274b89684c1d161ba995143705c7a1df693c63404497299970e34f4bb892215
+~ -[AppleSpell(Spelling) checkNegativeWordBuffer:length:languageObject:alreadyCapitalized:] : sha256 cc53d96e779cff39f214549c6e07096ab54eb56fd52aaa72db4b98e0e6265df7 -> 386cc03324968bfb4d3ae461d32ab70f648e869d2cf5d9ae47c74e6421301241
+~ -[AppleSpell(Spelling) checkNegativeWordBuffer:length:languageObject:] : sha256 58a5a06ad9c12eb230133030469b52099d1f237858bda8f1233e3bcbb1eaca05 -> 6aea88b23e6ca086eb44a0c8ce42b892b22f54e045acb414dff51b548990f500
+~ -[AppleSpell(Spelling) checkNoCapAbbreviationWordBuffer:length:languageObject:] : sha256 2530d012943347ee2353cdb4305b53a0e14646681cffadcfb4d1bfc3e37d95c1 -> 69c679043ed0339d0b8df36cc4dcb6d019d2740f6125afe50c589d68d0376969
+~ -[AppleSpell(Spelling) validateWordBuffer:length:connection:] : sha256 785d5bd80adb589495650ad088a409c941fa9db7edc83e47b2281da86c8e93ad -> 1f3de4f396049de3b35ff725b451a3087a75eba1d346c27a564acdd7c7752e33
+~ -[AppleSpell(Spelling) validateWordPrefixBuffer:length:connection:] : 340 -> 360
+~ -[AppleSpell(Spelling) checkSpecialPrefixesForWordBuffer:length:] : 632 -> 628
+~ -[AppleSpell(Spelling) stringByRemovingArabicDiacriticsFromString:] : sha256 100d3ac90bc9170c66f745d154fba721c47aa0cf2e0f6595715536e4ceace458 -> 84950ab5c2ee7ab9b329d556d027af61db4e7ce5fd89fa0beb5a9c4c818e3e50
+~ ___67-[AppleSpell(Spelling) stringByRemovingArabicDiacriticsFromString:]_block_invoke : sha256 1654f7fcba9b47f34c23fa57920c16a8b252d6cefb8ede260398bd96cc7dea46 -> f0c201dd83194a45e97a8bbc037454145b21a0cd6dc9cf4ab8880225a753c87b
+~ -[AppleSpell(Spelling) stringByReducingArabicAlefVariantsInString:] : sha256 1e0e8c22c4e8d00c5a81a6f68d1350f370428241a97f9e42fe16937c34e94760 -> e00a8321d51859c6f9b1e1828a0f409d0b12ea6eb9f67a97c3fdb7d13d6f554d
+~ ___67-[AppleSpell(Spelling) stringByReducingArabicAlefVariantsInString:]_block_invoke : sha256 d6e2ec7587731a0a6400e247dfb496b46b7eca4912c2a54117665b0ef4f71f48 -> 0c403d916d73e9728d077c5bae11c5bdf797365a8d22b859f8d7fe3bd2785dbe
+~ -[AppleSpell(Spelling) stringByRemovingHebrewDiacriticsFromString:] : sha256 39787f4b76c6fcc9e2160e7a5bd2899bfbd020d52bdca6215ebaee060df8e4dd -> f9c1aa995156baaadba9a555dcaf25bb38725c5d527b2d371e0195511dc8154f
+~ ___67-[AppleSpell(Spelling) stringByRemovingHebrewDiacriticsFromString:]_block_invoke : sha256 73c27f8de47822b2106779d2c00c4e7311bb91dd3a5a6e3bf60ea2da87790771 -> a4766fea7d431589f427dd7e4d205cd365d55aae74d2e4c0a75175b7ffc2785d
+~ _isVowelTurkish : sha256 767cc0f2e84fc122a152bdc1190c18cd8938048cae189d148ac567c26a6bf987 -> 1859f8a626d55d4570d348e9d7df053a3d8916ca46bca3d43e00659de918073f
+~ -[AppleSpell(Spelling) validateWordBuffer:length:languageObject:connection:sender:checkBase:checkDict:checkNames:checkHyphens:checkIntercaps:checkOptions:depth:] : sha256 f2ca65cf3e61e512cb32411462d52e99e5720be6e410bd2c91995fc20e8e9682 -> 72f6c75046565d4506dd049e40e228ef7ac055807dddaed96e6c458093a35e50
+~ -[AppleSpell(Spelling) _orthographyByModifyingOrthography:withLatinLanguage:] : sha256 7f9ede1631951be76395980ce7acccbbcdadbb1a3b996c6e8e6462f4f4e43a14 -> bba5111e760db322cc01d863e49e0678d28bf41647d947a5f2471726d72d8fb9
+~ ___329-[AppleSpell(Spelling) spellServer:findMisspelledWordInString:range:languages:topLanguages:orthography:checkOrthography:mutableResults:offset:autocorrect:onlyAtInsertionPoint:initialCapitalize:autocapitalize:keyEventArray:appIdentifier:selectedRangeValue:parameterBundles:wordCount:countOnly:appendCorrectionLanguage:correction:]_block_invoke : sha256 558bfa850e6b7ae396eef1ce84a043ba1dc3f7ef8ed1378ddf9cbeaea1aaffd2 -> a273ff6320b313a782b1955fb863b2c6d8f2645b9e1eb2d7e56f554340857632
+~ -[AppleSpell(Spelling) _spellServer:canChangeCaseOfFirstLetterInString:toUpperCase:languageObject:] : sha256 06b318743f6b7dd3a489d80392bcc52ada0755db6c705a48edd3e9c44382f238 -> 3e15930ebc3569460ca7414ba3080ff161c72bfccda5816559194734df088b99
+~ _PRrule : sha256 c358403916f618785a91bcd6aac56beffda2a48924f5901383d94a61bf550122 -> c45d24cf0e58376b64b5c0b105b379a2f86bc9bb69e179a922f4df2032dfc3bf
+~ _release : sha256 8e441bb67ae69dbfb8e6816dea2bb3c7df51d6fed1ade4474b5fca2f65b67525 -> 5e64ea153ce58decf5ad14333c279bbda17e20d6c66e806678ecb67f115358a1
+~ _getLongTypeDescription : 436 -> 484
+~ _getTypeDescriptions : 484 -> 524
+~ _getRuleDescriptions : 692 -> 736
+~ _getRuleStatus : 500 -> 544
+~ _setStatus : sha256 b915e0a808430305504004adf5c5bfa407eb28a9b39ef41d383ac9916ec56715 -> 74b2cbaba9f0e815ff52a9d2e98dc9ecfc0cf2146a01d50910cb834775f08f88
+~ _PRsleepRuleData : sha256 57b19536d368055e4c5e9f0380368e829ba7f743a0e16d1beeb7714d4cd45baa -> 19d2b540f3529b1885bdf7df09cc010b3ff6af282bb9e346ec63a20bbeeeda1e
+~ _PRwakeRuleData : sha256 5e469cc07f8d032a8dd15bd39608ac2b9d675add210683e99b5738b10c015d10 -> 7a1582c3bd170b23354043645a6de57fbd68fc096cde2c2bbba97767a7aebecf
+~ _getOneDesc : 1080 -> 1124
+~ _newListNode : sha256 a885202bfb7fb384a8e4442155c8237376c11038407ebcb0f5df58c478c7da56 -> 4bc38b16244cb220c94267369c03add40cfbd8763e40cb5ee020b6d47b72dad6
+~ _getOneStatus : 148 -> 156
+~ _loadCache : sha256 9011c8a58c17f15ec4a0dce3bee2487fb052ebe7b29bf371c874a251e12286df -> d03cfc95f78c10d69ec35bd86c0204ed73706bcbc49895e6f962a393e472a187
+~ _PRSfxGet : 484 -> 500
+~ _PRspace : sha256 53f4abb0bb463a8db4cfce7e34037f0280f41303f51b1dceafd46c7431c11003 -> 0cbc9302be096e4c805c0cb50984471f4015c0843b20f6f623a548da9ebdba30
+~ _Makerr : sha256 ba420fbde3ddea4763e6444804c7c8e5417acf4d880e4085caf927657585e2b6 -> b0dc2681745da75ad9dd2ee6bffa0cac234ee83547f9af771adc07f3c961461c
+~ _PRss : 7072 -> 7060
+~ _PRgrowWkBuf : 380 -> 364
+~ _PRgrowRaw : sha256 2db0434cfad456a2a2b3b917c5e235409e2e87a72df89035e81b13c0f8f08f13 -> ce6c4d06f559b6524baa0733aaaecf9866b60d3ef50eb7e007abac4e97be19df
+~ _PRssTidyUp : sha256 46a3f5c0169e8191fed36d8a429027a78cac7b8613918d5a2f6683db9bef4cd0 -> 28168d656fb4def482edab70babfb4b9bd9b96ce9672c246ee7f427914c28332
+~ _PRnormalize : 4480 -> 4320
+~ _PRssPost : 1776 -> 1760
+~ _PRisListEnum : 492 -> 500
+~ _PRgermScan : 964 -> 1020
+~ _PRisDutchOpenCompound : 160 -> 168
+~ _PRpendTermIsDot : sha256 d210af5c6c922242107bcd7683ec331bc5d3c7c1200766f7131e3d1b7a3dbfe6 -> 74768ac1cc71e96a6928d490e1fc4c5d79e387545367b2122598904bd0e72b2e
+~ _PRisRoman : sha256 e264781804f17e99bd02958394c11cb820595fa59ee85294fe5298a539953d2e -> 4797dbff56ee83346c10acfb6cfbd7709dbdf76f415471f5f6561769bc08ace6
+~ _PRssClr : sha256 700cc70ba309c8c9097b8b2c49001c4d590e8981dc816768762f691e465b2f70 -> ef2feb3affd2d7061065066523d3fcc48129ba681422096c3504360c927a9ab7
+~ _PRSSWdGet : 312 -> 328
+~ _PRtoktyp : 1028 -> 1024
+~ _FreeList : sha256 1719842ebfb70298adfdea4cf7e431ee7af817bcc7cf6c8d7f866e2f0f50cf95 -> e4aaacba002693ccc6e8158aa820e84bb6ab9d2700e486e7ef0cbeeb25476274
+~ _FreeTokenNode : 212 -> 224
+~ _PRFillError : 2072 -> 2064
+~ _PRMakenFillErr : 1884 -> 1876
+~ _PRgetSeverity : sha256 3c23adc73f794d6d44c7a320351c06654a2cb8d2cd953966b8548daa3e963edb -> 31f43e427df46bd3e91ccaad2ab03666ab0a7a3383a731f1386d31d00c2183d8
+~ _getPosition : 264 -> 312
+~ _PRliveRule : sha256 1815255570cf5b07e4694d486d966e7b852c96d9bf5fd74af1514ec81cef8c51 -> 3f3564d2e5b6b309cc92bf56378df9e3c092677be1729f0982e3017da32569f3
+~ _BinarySearch : sha256 88c53d0649ef5be08b1fd6e18c256e0519ea262e97ca11913a8731d4a65271d0 -> 5873490e992b8dc5d06554f6c359107302c4bbf5a9eb48d2cff690e992a6b77d
+~ _getTypeIndex : 164 -> 160
+~ _CalExtBytesAfterCnv : 188 -> 184
+~ _AltOneToMultiChrCnv : 480 -> 472
+~ _OneToMultiChrCnv : 552 -> 540
+~ _ToUpUnaccentedCnv : 108 -> 112
+~ _PRinsOneHyp : sha256 7aa3bf1c0aad89320bba0ebf61d4c8b3d1f3f28df767617365f25e562a4253a8 -> 43a2c71856e35d60e895d824744d6e5bef8bb33cc3622c3af171593d8b9673de
+~ _PRword : 4304 -> 4276
+~ _add_phrase : 876 -> 884
+~ _find_phrase : 804 -> 800
+~ _find_partial_phrase : sha256 87b27119cf51962e72d2079b647fdbba45fc4911a2aea4387a7c827035697ede -> bbd68976246dd3213cce70d54d29c998e36ba2f1df3d3da51c5387d74dda07ae
+~ _print_node : 296 -> 292
+~ _create_phrase_root_from_strings : 144 -> 152
+~ _next_phrase : 164 -> 168
+~ _pinyin_root : 108 -> 132
+~ _jyutping_root : 108 -> 132
+~ _pinyin_root_extended : sha256 d2e4b8d66337d083975ffab95324907aa64ee5a722804be829acb993403020ee -> 74b83219fdd5bbc641e58081f3d8e4a56420fb62da8f0f37c7a51071606a1c6a
+~ _next_pinyin : sha256 8b575e078e69ef3c66cbc1d7c6751fcbe2b64189220ff53ed632ebb5058ce70b -> 6b02b4a7c1e9999b833e91c68b05be1f7fc5b45d6b7abd1cffe0f9063bd1435d
+~ _is_partial_pinyin : sha256 019eb9dd50e75fe8df002151a064ddad87c67f1ea548ce3cf5fc12d80c799a76 -> a73b34a09321f44425ad0d67f2ad8d53e187fbad7a18b158a680dc82561adfe4
+~ _internalFromExternalZhuyin : 112 -> 108
+~ _externalZhuyinFromInternal : 84 -> 80
+~ _add_zhuyin : 420 -> 444
+~ _zhuyin_root1 : sha256 b93d3c0e53dc1372d04b6a6a4a59fd0fbd0309e84a1d0cdf83aee58ec3c8f35e -> 7b48d24eb9ea85658570c670df9573a639b625de0411d6864920c5f8280d0cf5
+~ _zhuyin_root2 : sha256 0c197875399f6ea5ca9292bc2fdf7c7a073d8ec57609579337fd73e3f0c62c23 -> fc73d889cf036cefc33dee9dcb58f949399d82b97032570154309c0c8b66ab3e
+~ _next_zhuyin : sha256 7c03a0ee8964edb4e287dd8189408820d229dfbda1e93ba455612764dd1a9f15 -> dea6e8428c8e79943351932a48fbaffd04162aab8a4e3fbae9ccca0347d7d6cc
+~ _is_partial_zhuyin : sha256 b13d977fce6c535f14feb21ad62160859439278d6042eb3876669a8192a63d23 -> d70f7fd7574c43a6819a1ad094a013f33aa77d5dd8661df4d6050c6598972344
+~ -[AppleSpell(EnglishGrammar) _modifiedGrammarDescriptionForDescription:] : sha256 92d19220e5bb4934f9e59e512a7f3cc97f8dcf992f4e7934668ca9ff0d95a175 -> 437ef658c3b300a062b1ae54810b1798690a30d318ee9b56e777619a722ac90c
+~ -[AppleSpell(EnglishGrammar) _detailWithRange:description:corrections:issueType:] : sha256 41fc8140fba8b11f360976d229d45ca9322902bef59e00b5e5ce86653ae70eca -> 73d1aa8fe6110880e0b5b7fccbaf767a59ff4a329fc62d1336e68ca103b0394c
+~ -[AppleSpell(EnglishGrammar) _detailWithRange:description:corrections:] : sha256 3b6311a5131bb67d2d8cd70d235354531b6bb14c1e4b48f80e04eeb9688571af -> 799da05a2f4f12c21a8e5a6f2b24c4906390b0c7979ad68fcce9ac37131d503f
+~ -[AppleSpell(EnglishGrammar) _modifiedGrammarRangeForDoubledWordRange:sentenceRange:inString:corrections:] : sha256 47c7d22b61afe0b9527533b01a93d6afd59ec8a054462b10d1d0ffdf7bf9c223 -> f911f3b912221137e853806f7c16a756f0a2f3cbd5f92c67b403e07e334c939a
+~ ___106-[AppleSpell(EnglishGrammar) _modifiedGrammarRangeForDoubledWordRange:sentenceRange:inString:corrections:]_block_invoke : sha256 47d9ab7503ff52e3aaff0bc2a262fbb00ae346536b1ce5180babfbd42cec738c -> 08ed2d4bd4ef1dafcfa6dab38a1d767dacfc81057dfb2d3f2e431b0741373d1d
+~ ___106-[AppleSpell(EnglishGrammar) _modifiedGrammarRangeForDoubledWordRange:sentenceRange:inString:corrections:]_block_invoke_2 : sha256 465ae6fea3d6b4d1fc5e143d31e0e56b2443292c7911a73b3e4fb38bccbb92cb -> f2bc86a2572c5a519c3660c2e06b7782c06efaa404c5a5e8cbbab7aafb948d50
+~ -[AppleSpell(EnglishGrammar) _acceptErrorWithRuleType:ruleNumber:grammarRange:sentenceRange:inString:corrections:issueType:] : sha256 fcbcccc1b071e458ce199752e8a3c2f94cfdc252088102f8069219318f68b5f6 -> 14f07581dc9745183afcade66b727170978ee1af6e6603db5276642380e7440c
+~ -[AppleSpell(EnglishGrammar) _checkEnglishGrammarInString:range:indexIntoBuffer:bufferLength:languageObject:connection:sender:bufIO:retval:errorRange:details:] : 1784 -> 1796
+~ -[PRZhuyinModification initWithRange:replacementString:modificationType:syllableRange:additionalSyllableRange:modificationScore:syllableCountScore:syllableLetters:producesPartialSyllable:] : sha256 d1d4ea7f0162c3271f67c27131e31cb5a118e900e63ea227e88de67182b113fb -> d452d374189ca21cb928592b0c9b2523dcc4e68669332f6fa64140d34f41a6e6
+~ -[PRZhuyinModification initWithRange:replacementString:modificationType:syllableRange:modificationScore:syllableCountScore:syllableLetters:producesPartialSyllable:] : sha256 6921a587377e298841d86658cd9982ea300533027914f18b061995a44670c899 -> 4653b82f9654bacd895fa4788fe8b7e27e11e87ca51bf7dddd29c9b62c0d286f
+~ -[PRZhuyinModification dealloc] : sha256 cada040ebdd83cc9b5a559b1a094fd44b12863289e862811742763f3b75b6d8d -> 2780a011a0289808269ab163ded0a02efe7518836d6dd2d19a812274b818f134
+~ -[PRZhuyinModification isEqual:] : sha256 d414929376344d7c14b72b28560b7778981c0559d247e51171f1665e560d4a95 -> 7340ed8b3933427d56deed9dba6163f1b7dff314ef4e644186c38f73d530efc2
+~ -[PRZhuyinModification hash] : sha256 384e0f33d882fe48901fd9929344fbadf2d65c8cf0325ed37784c0d052b2e0aa -> 0ec502dee69e12769c5a5ffa657c0cd714c1fb2bfeee131825132eef0bbbf577
+~ -[PRZhuyinModification description] : sha256 b4c4e1a785be7e2a498a3ad7b7efd7c0521a21031ee488f26b5e4acbf4ce8fca -> 98197b5b4f3fa5c69d7c4263bb921e1019b45a2888ecafe9e26b60ae0265cb42
+~ -[PRZhuyinModification range] : sha256 438b8208c8b19bb704ab5ee042d7e3d05db7ae1fa1abdfacbbfde441fd4f5cd9 -> 3fa8b732822b2fd5bdcaee9afa0619dfbec40421db8d728c8034b16e1db96183
+~ -[PRZhuyinModification replacementString] : sha256 8df910e3dedde212405776d8f380319094df76ce175e328a7ec0ed1fc414ba48 -> 13ce87cb8dbfc7c301a4cc0a4f4c99997995900a926607f50dc9eedcee41a9d0
+~ -[PRZhuyinModification modificationType] : sha256 70a77850f6f24e607f1ad7f68d2ec365a80a15958c4a9577e83ab9f41c67eb54 -> 3df8d00ce86f3c4586ca8913d581faec0bf56c88132bfaafce47e68fc435d8c9
+~ -[PRZhuyinModification syllableRange] : sha256 b19961276243d0bd38bacc70b4d13121eb2b704b2b0cdb5eff47aca5348017f5 -> 460da0dfc843423401cc6cbae7c4e2004aa833631204040a29c81837cfe0dae4
+~ -[PRZhuyinModification additionalSyllableRange] : sha256 f1c6893aec36e299a4af65d6f9350b96c25396d19234c1f8f1795a37cf0d5a0b -> 4c16e81a68d4725f570a5d6dc2aa51860d4cedf26e1a6c414c297dfacf38ecbc
+~ -[PRZhuyinModification combinedSyllableRange] : sha256 0f7bdb28971a76eda57391eef3ccdb3d7859fff41dac16cdac12475dff3c571b -> 16c3159afa6f514c374680fa04c87f13017cc3298c7c1543544bd1b9937f0c16
+~ -[PRZhuyinModification modificationScore] : sha256 ca4ed668afe6ad38300665b32d49b7d303c009345d04cf0f3671a4a0cea1ede6 -> b4de7a0594e8eb7af2f8685f063a47c85300e62c87b331598d1034699c480cf7
+~ -[PRZhuyinModification syllableCountScore] : sha256 345792996632c48d7cbc531308671441ed619ba0fa9049d666ff8eb6d752b676 -> f12b91ad363bf73e1b198dfca2eabb91f46c3fd7f3324c9ff52563899342d331
+~ -[PRZhuyinModification producesPartialSyllable] : sha256 0a0bd38670378760ea7d2a11990feadb3f0cf0b179e7b443de947151201970ae -> 76866a76731f290968b62c0fec94edc00c13d597fcce0d58f5958493eb86386b
+~ -[PRZhuyinModification _shouldAppendLetter:] : sha256 0cc82ab0ea97b75daeeec9a382d7a8c038eaede2a1441539a4d15094a757430c -> 8990435d6cb2df5db487b1d2af7a5c7a1f306b78c3894ecf748fa60dfccfce7a
+~ -[PRZhuyinContext init] : sha256 61930683855ac1ecc7b33077458414f7f7c98afc7e062ab2d1a0fb4e288357b3 -> 0018f3a3cac46a3a107fa91a4bc18cc3fd48678ed50803b42e3f91c90f5237b9
+~ -[PRZhuyinContext dealloc] : sha256 809b46e05b3c93c6877894b7fb1963c55a36aca0915227a1c6e061f26cbd37c8 -> e52ffa38ecdc3fa64e8547b90c893c73b921f0020396750f6f4b44e146236c39
+~ -[PRZhuyinContext description] : sha256 134adf9e8a406e191736fa0f38d75202956dcea2187f1f5646989c471df21e00 -> 1962d634ae6b23f73364d3d63c1b514fbdee74829287b2ea0b086556e6701054
+~ -[PRZhuyinContext _removeModificationsAndMoveStartingPoint] : sha256 a324b02304c099b1b2e2e62b2a6e474acf704994b524737778cbe293e01f3f90 -> 83983736ed6c911fdd04cee0a04be7e4c7a127215856090154ed6c45711d6015
+~ _findZhuyin : 624 -> 620
+~ -[PRZhuyinContext _advanceIndexes] : 548 -> 556
+~ -[PRZhuyinContext _addTranspositions] : 1524 -> 1556
+~ -[PRZhuyinContext _addReplacements] : 1024 -> 1060
+~ -[PRZhuyinContext _addInsertions] : 1184 -> 1180
+~ -[PRZhuyinContext _addDeletions] : 1324 -> 1376
+~ -[PRZhuyinContext _filterModifications] : 1236 -> 1220
+~ -[PRZhuyinContext addInputCharacter:geometryModel:geometryData:] : sha256 aa46230bb4619ac84723758256f435cb2212be265de33cfde2a35a97574106b0 -> e349d808845bc4f93657413b17f539c7ca4ae5700f5ad05a1ad909c8672800f5
+~ -[PRZhuyinContext removeNumberOfInputCharacters:] : 260 -> 248
+~ -[PRZhuyinContext reset] : sha256 58209411d32a0c95a68e5cb087affda15dd933f5672d0241d482506650c8dfee -> 661aec7628a5b119c15025190e6a0c9f852cad60489dfb07c10bcb49b05f717d
+~ -[PRZhuyinContext currentModifications] : sha256 5f854b5d204a4b92f9b7b8fea9cdc1958ad3e590468c4c92c437197bc13c9148 -> 2b657b2d9f3572c7b57741e0de1d3486777b59739f1e16964dd16a91c457e1fa
+~ _modificationArrayFilteredByMaskAndLength : 488 -> 480
+~ -[PRZhuyinContext addedModifications] : sha256 bf81852641311e14e06d073b11c068214bc61ac20af71d57a97a8cbbe1a53b14 -> 6095e5b9aef7ac14e18f73a4bb9a0695073925d59e43fcbf126781d67cfe91be
+~ -[PRZhuyinContext removedModifications] : sha256 d690ec0eb4c449fa5272d028966fd8235436a061c51d85877fc6d7e74f910f93 -> e1a43615ac2f259ad15636426c53eec96e770568544ea2398c684c4736801c6f
+~ -[AppleSpell(Zhuyin) _addContextAlternativesForZhuyinInputString:modifications:afterIndex:delta:toArray:] : 668 -> 664
+~ -[AppleSpell(Zhuyin) contextAlternativeAnnotatedStringsForZhuyinInputString:] : sha256 c92fab1b02e1183edf1866fc8d3e5de02bafbcec4f997e002d0cf97693bc567d -> 14a88e0ea937239ddaf91f2c32f2fd8be46d2fc1de9d4f544be438cd2df688cb
+~ __NSSpellingDictDirectoryPath2 : sha256 c7262be85a218b08c3541b760387b51e8e88759d2dc11feddf72f728167a8110 -> f44ab8ce54378630b226e4848b808a7882d3e1f25dbaee042d893678e7bab871
+~ _adjacentMatch : sha256 3903c3d08b083dc81c0f5e7193d381f421b8b7cea36c71ec456215d25c3744a1 -> a9bb5c8571f32bab526d1cc610c11dbf29e1e08149f27452199fa5b32488a99f
+~ _restrictedEditDistance : 436 -> 400
+~ _effectiveEditDistance : 164 -> 168
+~ _restrictedUTF16EditDistance : 440 -> 404
+~ _effectiveUTF16EditDistance : 164 -> 176
+~ -[AppleSpell(Guessing) _addTwoLetterWordGuessesForWord:buffer:length:languageObject:isCapitalized:isAllCaps:twoLetterWords:candidateList:] : sha256 e7ff51971606b441513e730f18164c134c49f7a73e9be31212f782173239f7c3 -> 31e25fd8f60c94a06bebe688d849c30ec469c0dffdbd2e8eaad86a41d6ce47be
+~ -[AppleSpell(Guessing) _addConnectionGuessesForWord:buffer:length:languageObject:connection:candidateList:] : 680 -> 692
+~ _removeDiacriticsX : 860 -> 868
+~ -[AppleSpell(Guessing) _addAdditionalGuessesForWord:sender:buffer:length:languageObject:connection:accents:isCapitalized:isAllCaps:isAllAlpha:hasLigature:suggestPossessive:checkUser:checkHyphens:candidateList:] : 5420 -> 5328
+~ _isAnyAlphaX : sha256 b5ad25921dfcd6ec8497532f668f639896772ef8a8f0c6c5b871a8d454031207 -> f0ebacac315b426878afb714735bd73c6dcb29d07175dd37a798a26f757641b2
+~ -[AppleSpell(Guessing) _addSpaceInsertionGuessesForWord:sender:buffer:length:languageObject:connection:isCapitalized:checkUser:oneLetterWords:twoLetterWords:candidateList:] : sha256 e55daf92d4fa95241b977e4087d3f3241da12ee1d20c4d2a8d44479e45af6cee -> 0fe8366e606f892277d7997ca37af0cb584be55eedeb4bfea8bde17e0c9301b4
+~ -[AppleSpell(Guessing) addLexiconGuessesForWord:buffer:length:languageObject:minCorrectionLength:minExtendedCorrectionLength:isCapitalized:stopAfterFreeInsertions:toGuesses:] : sha256 5676a7591b4e001e1f09f912f91faad2fe85a1d29c4f443041fbc0477da5dfab -> 65521735b62d6bc90ee83a65130f65a95f48bf00af708de075e61af0305db4f7
+~ ___174-[AppleSpell(Guessing) addLexiconGuessesForWord:buffer:length:languageObject:minCorrectionLength:minExtendedCorrectionLength:isCapitalized:stopAfterFreeInsertions:toGuesses:]_block_invoke : sha256 ac8896310e799239698a36ee8ac7f0fb8ba712e9536dede6bbfccc4578ce9488 -> e61de05f89737d3e43ce8694fb0f137ea6b100ac58b61cefdddc40f5c02f0119
+~ -[AppleSpell(Guessing) _spellServer:suggestGuessesForWordRange:inString:languageObject:options:tagger:errorModel:guessesDictionaries:] : 4108 -> 4148
+~ ___134-[AppleSpell(Guessing) _spellServer:suggestGuessesForWordRange:inString:languageObject:options:tagger:errorModel:guessesDictionaries:]_block_invoke : sha256 aaa64d3950ac304a840e01e975c330b3bf9a0176836ca8f149580e25beb963c0 -> c67c702eaf43b0e8e26ebbfe06bc5c083c4bdc35a961ce6c1606f61d483b3700
+~ -[AppleSpell(Guessing) _spellServer:suggestGuessesForWordRange:inString:languageObject:options:] : sha256 b40311e60ff4576e20f407b80393288c6c056c79d1eb5cf286cce2358bdccc3d -> 7d4bdd5736eb3e35647a493b59f304f9f3e3c966e324468a60072144b3032d9f
+~ -[AppleSpell(Guessing) spellServer:suggestGuessesForWordRange:inString:inLanguage:options:] : sha256 efd09ca92ef490489d02ef1a04599147cfa34fc9a87274e2266f379701c8151b -> 5c6c111c2e90a5761e3741cc08658f06925ecb1f236fcb14f72f46964771019c
+~ -[AppleSpell(Guessing) spellServer:suggestContextualGuessDictionariesForWordRange:inString:inLanguage:options:] : sha256 b0ca9c92b3ba0e79d9d49e97d7387772373b3556cf9ccb5a3a91876a1c83e636 -> 4d2dbdaa04a77c358947637e91ff7465d850dfb7b8b879ff82e93e5dcaa1768f
+~ -[AppleSpell(Guessing) spellServer:suggestGuessDictionariesForWordRange:inString:inLanguage:options:errorModel:] : sha256 4e386e3b1100c818041d6dbb20244821efa991102637fc8101a3b5c38a92e20e -> ffd210ae1bb328105b6eef9b568b34484ecdce20f37420fb60f0654346fa97ae
+~ _isAnyAlphaPolish : sha256 93bb6c4360cb87729d2d04056e661f166d11f0c40d6c7d720e60cb52a0ceaeb5 -> 2aa7587054b8f553d6522383408027b79b712824872bcc977f7ce3ddd02fa08e
+~ +[PRPinyinModification modificationsForInputString:] : sha256 d3626bc9421bf2021ce3e7eb82c03e92b333cab532149f3d3a3ab928c23ad331 -> f504687cdb6910ab110f4601c705cbea0e8a14133fd66f2a2a7a1208156fc3a8
+~ +[PRPinyinModification finalModificationsForInputString:] : sha256 7cb9625899e08b9feb2e32525ef99297ff9e72d2bf075679624ab9c801ec56c6 -> 49306b70dc33f19994836dd165a729d157c22b77986c1b3f3326f0548339cc93
+~ -[PRPinyinModification initWithRange:replacementString:modificationType:syllableRange:additionalSyllableRange:modificationScore:syllableCountScore:syllableLetters:producesPartialSyllable:isTemporary:] : sha256 1a2dcd2c408590d0fd9be2a6d055e7c29c9b81ae34ae7e01985aceeeb25f3a4c -> c604591c867b09371722e150ae7adbb18d202ae8581c5cadc79ed11352d83e03
+~ -[PRPinyinModification initWithRange:replacementString:modificationType:syllableRange:additionalSyllableRange:modificationScore:syllableCountScore:syllableLetters:producesPartialSyllable:] : sha256 2fecea25200de0a1d67a1ce4e1455ec25fc601370f3bf4a1f04ee754c55b02ee -> f63b3728790ecdac1df927575e432e0abba7af02be052a450dccbcc87517bfe7
+~ -[PRPinyinModification initWithRange:replacementString:modificationType:syllableRange:additionalSyllableRange:modificationScore:] : sha256 5c1c10bdd5306a97991a4dcaa8d1c4016fb779df427b29c5f1d6c4c54a06e2e3 -> c9fe49fe639d1474595b10e62eb5717b56109740b34115dc471662edb91ece42
+~ -[PRPinyinModification initWithRange:replacementString:modificationType:syllableRange:modificationScore:syllableCountScore:syllableLetters:producesPartialSyllable:isTemporary:] : sha256 115eed3f3969f04de793847ae9c46a9f0388baf816d15457664e9ca35267cd28 -> d7a9b0e7629a0f9cc55be328221da6954a3ae78a927ca78812800c687a1a74dc
+~ -[PRPinyinModification initWithRange:replacementString:modificationType:syllableRange:modificationScore:syllableCountScore:syllableLetters:producesPartialSyllable:] : sha256 c38c3b07eac321cef027a47167989ca66d957df26307a6e703e717a9b825c60d -> 433b0c1e8adb41eaa47b9b1ec0e80ec692581a54a60b4c5f3d01e8056e047139
+~ -[PRPinyinModification initWithRange:replacementString:modificationType:syllableRange:modificationScore:isTemporary:] : sha256 e49fa468b8d2e27d3db2b53ef5a75f6dc169cb8d653e25d1f036836eb784f60d -> bfe1589d07604bb9b9e38273a498ca91fa1674b843d6a09c9f9f6ce7c9c80e0e
+~ -[PRPinyinModification initWithRange:replacementString:modificationType:syllableRange:modificationScore:] : sha256 31a2aa2a5a1cbc7d21d194aa14bc90574e2e9328a8a48f525eb7afdc08ff1663 -> 065475e615ada8d6d90e6d84f02eaedf3476cc2c3cc7b9b6659569de58d5eab5
+~ -[PRPinyinModification dealloc] : sha256 b9e3b65206fa300f5642655792509e2d4cc2de2024314f672a94255252db53f4 -> dceb7c18ecc0e66684317187fd020a5af92655f2048eff3dbdf21e467151f717
+~ -[PRPinyinModification isEqual:] : sha256 af76a6a0311ea49a5e304b5ba8aa3c578fbc59ab420bb85f09b229542fe43916 -> 4e157684514e87c874bb50a32c0be3b14ed5576777b265334956e54a1b681284
+~ -[PRPinyinModification hash] : sha256 b8f747ff636cf4745479569da8e5bca84394c95a9ed712748d662c77891a834a -> 71946d17c23c7fc8b94ccc99c6100b2587f2b9849a13c2e9c01241d51e368d54
+~ -[PRPinyinModification description] : sha256 813dc3e6db9428774ce4dd44f818a3a1900d596598cff40e89c32a85ccc6ca13 -> a635a7b49eaa71b1f0e767f6baa8512ca3d8daff1319d44c5c1c461650d9c745
+~ -[PRPinyinModification combinedSyllableRange] : sha256 ff663c81f92dc16de314f80136b7686a6c5501414877d9c41f9ab06356c343ed -> 5d01a4e50d314ba9264d6f91dbb6911bd33b45656d9b7bb14640084014a1a97a
+~ -[PRPinyinModification _shouldAppendLetter:romanization:] : sha256 a7e44d6a27224457f75dd95a12e52843fa9546a36ee8bc4f8ffe258bca1aa8c4 -> f7af3b6402d8acf6e013ee786e8c40614b9f5e3d885fdaa170bd9ca334296e81
+~ +[NSPinyinString(AlternativesImpl) _alternativesForInputString:] : sha256 5cea7a81f8bf4a9c0db167f7626e1ae3dcc036f62988853513744e25797315b2 -> 337555a8c682ffec58c93a6be8343d797bad5e9281cce38ad4229db7b895249d
+~ +[NSPinyinString(AlternativesImpl) _prefixesForInputString:] : sha256 6b2dd2446a450d7c1b6be0792cd58ae87553eee00c30c8a877a088c6f652317b -> 2f06515b78937be1f806fcb549094fcd58c42e5ed8888f58fd0b98e122e04824
+~ +[NSPinyinString(AlternativesImpl) _correctionsForInputString:] : sha256 8e0326f0f5b4e5394f99676f9acbf95fb6846e498cfaf54fc66a0434901c4a27 -> c11034b055682f8f64724143a7d77dbffcac6f7d57b26a6528dd1ae366442d32
+~ -[PRPinyinString length] : sha256 7dae9a4177d26f77d85d9e034a07b353824bb7d396c05a8f98f409494217cb48 -> 002e603d86f6ad1ef904f3bf72008714e0b1ce4d0bc7a114dbcf5afcf2ae745f
+~ -[PRPinyinString characterAtIndex:] : sha256 5bab46a2d0bc27e06a7857e1e02779b84ffab0bfac073c3b056d13b343b11d8e -> efbb0deebc74855921bc5f0c9dcd6e24081d7cc850ac959138338f2052efe85b
+~ -[PRPinyinString initWithString:syllableCount:lastSyllableIsPartial:score:originalLength:modificationType:originalModificationRange:finalModificationRange:] : sha256 a404d50a6f97859b663fb719b240502bb1d19d99f28feb3d100062a9785aed7a -> b0e2fb089386eafc2e0335e2e89a068e5891a7803dfc9807dfec51ce3b1b18e4
+~ -[PRPinyinString initWithString:syllableCount:lastSyllableIsPartial:score:originalLength:modificationType:originalModificationRange:finalModificationRange:originalSyllableRange:] : sha256 661db77105dd1812631fc63c85bc59aa5dbbc96819d15318f792e60c0e1a0b0e -> 31a80fd3b2b0a85fff173bb789dcd44a663edfafefe67888e189774db20594a7
+~ -[PRPinyinString initWithString:syllableCount:lastSyllableIsPartial:score:originalLength:modificationType:originalModificationRange:finalModificationRange:originalSyllableRange:originalAdditionalSyllableRange:] : sha256 16238bc0672af6cc4666386e9807677a770beb96c1f1c2f2050e5a0d889b3d1e -> 2127e7aa78a17f1182ad5c23cd7cbdf2e87e53e4240a80ccf5ab5c4252625104
+~ -[PRPinyinString initWithUncheckedString:score:originalLength:] : sha256 1030a566fd4457ba2104cbcc654bf6801d7b2ae02deebdf5d8d27a2c0e820f54 -> 8878486ba5f9221ccd3f87216381897a8c07574c88cff05d1945339ba2fb8c05
+~ -[PRPinyinString initWithString:syllableCount:lastSyllableIsPartial:score:originalLength:originalCheckedLength:numberOfModifications:modificationTypes:originalModificationRanges:finalModificationRanges:originalSyllableRanges:originalAdditionalSyllableRanges:] : 600 -> 544
+~ -[PRPinyinString dealloc] : sha256 e8d5fa4259ed2ccf29158edfec8c113bde6ce3b6d8e997e80b12c84c20be43f0 -> cb50252863464a09ca33ab5f14c73f8b95392666212295bcd18bc6cbd1b14235
+~ -[PRPinyinString isEqual:] : sha256 6dbb3d12e224c35899b352d4377d0db36f520086d9e00d69c4f305652b91085b -> 4c4e02294bd7c23b20fc09c462c4400021698fca7836e39dfe9fc20419a90e4b
+~ -[PRPinyinString hash] : sha256 0b289c5e25e37e803336db8d1b10920879297afdcce9a5b0ad5544a6598fbed8 -> e476de4f9050e169960fe2767f08d326b47ad5bbc7025561e4c75697dd412246
+~ -[PRPinyinString annotatedString] : sha256 457f726b3bc5fab484e47032e7d9e55adb6d62dc55507b0f09ad226e73dcc0bf -> 07e01a113f937d104af111fe6c76eef48e7bb8b36a2b85792530141dbc96ea00
+~ ___33-[PRPinyinString annotatedString]_block_invoke : sha256 17fc5a55cc09380cd6aaff3ecc77f19be8153f15b56d4a0d5afd191d15d88159 -> efcbae69bc15b4795df9cba33f17d9a3c9d9a4a1ca15686a37fa309a82a67c12
+~ -[PRPinyinString description] : sha256 fcbe3b3836076666883fda5115a0c6ccb0306450f5ba83e15c75485c47f9a5e9 -> 00ef7c8158ceaf8bce26daf321c6fad5a23b3ab86f80c8a94fab6e96da3401c9
+~ -[PRPinyinString string] : sha256 ffa0087255963f3e9de0c99f82f2882152b7ec3a2b66b638ce2c0fbe759f7cc7 -> c4a557ecd30f795b8d0e482f7cc2557b62ab87f3431b01c24dce335256850c86
+~ -[PRPinyinString syllableCount] : sha256 9d99777103fdf08315addb40919e977a4bce4c430f192fcca3db6d4d61796f70 -> b13cf986b710ea7fad747828f317e6f31559d6bcd6b3c46537dffd936fa425ef
+~ -[PRPinyinString lastSyllableIsPartial] : sha256 ca55dd3aa4dbdb8663eee28c0d53afc28de2ef0131f0d4d69532da243f7b8431 -> 043b2995aac9701ac42639c84ef42173a219e6c7512e7215dfe14f8f265376ba
+~ -[PRPinyinString score] : sha256 f067edfb337e3f10b7c3986aa89f7ade517b79398d3e08b36513efb57e104bf5 -> 5798a069db31a197b9e72d282ef38d344ba974e60e072666ed3e8b17c9b63903
+~ -[PRPinyinString originalLength] : sha256 67cf2bfaf1f3c83a18b39751a0fa7859283cf277271d9bda32301605ad398d5b -> 4b3526a992bc484bffe099db97eb47ed7a677a3c58e5c7e0f6886fffe3401a45
+~ -[PRPinyinString originalCheckedLength] : sha256 3330ce8dad10db1a2520a29e0a950aabdcb7db9ca677ff536d49aea91344b861 -> b8610e34705212845c3bac544ed3c62fd339b85cffbafdcc3972a042d8da4b37
+~ -[PRPinyinString finalCheckedLength] : sha256 d3958bb4b0268f329c6ab0bca232c139652c5dafd30fe43d9b2ce47bc05272f2 -> 759b57aa6a6ccfb563527dd7c87bde156b3a4fc3d2a1279215e265e367d6a6a1
+~ -[PRPinyinString numberOfModifications] : sha256 5267e3dddcd3d36d501efee88597684ede654c1b2b3feb0fbdda5c3091724053 -> 5f5050ae28c1458254e562e8e7752fab70b85aa79ab727ee13a8e63b438e66ae
+~ -[PRPinyinString typeOfModificationAtIndex:] : sha256 73f81a68643788dc80b7c6269087bb7c75f7c6789cd8ce2ab6832b00a0a5e7dd -> 64a65cadaf6f772b15a775b90c7a8241347e80cadb3b31e1ded343f6be172fbd
+~ -[PRPinyinString originalRangeForModificationAtIndex:] : sha256 9ff4e44f9b5cd7e1806b34db8616da893e33837ecec2d9634583bec59d7ca722 -> 6bb4052d32b924e4a4951298c02f9d951f3b8527e11328277407500ff6b75c60
+~ -[PRPinyinString finalRangeForModificationAtIndex:] : sha256 93825f5916a6a910ec2a6b982ed15a2ae2ea0c5a0542cffec809956267fc566b -> b9a6c0dcfff49e2b2de1d8310307b5ba5de3bb7c6c7cce02da9fbdd6026dcf69
+~ -[PRPinyinString originalSyllableRangeForModificationAtIndex:] : sha256 0563293472e04ef3ed5be45be3e681bcba34b6d3a32079a6c057ef58e6204c55 -> e3d4a7aa9a60a44602fcde5fc6d377b4ce0c32f9e3bc0f3bb966cf73ec5e0482
+~ -[PRPinyinString originalAdditionalSyllableRangeForModificationAtIndex:] : sha256 85ffb69580c532ce0f37cbb079d96e560cfb82ff02a3c2c2ea88d929c65398ab -> 7f7f4f14630e87633a011d460b86e1df64ebf7cdf10758a350b120faab337e86
+~ -[PRPinyinString indexOfFirstModification] : sha256 1c41185108a588f64d2d7e5166df8d68e988c3e325d7042e7016142b0a1c20eb -> b0fd1936e07a3066db113c81f379faca537cdd95ba663ed6a91ef31bcd02a0be
+~ -[PRPinyinString numberOfNonPinyinRanges] : sha256 1c5c6beaf71836ad44fe5f45dfa7dd0b4b9fd51041fcf1b2000bdcbce20c8116 -> e9a6522ba4ffc0020bca6182cdfa02aaffc3a5f503d49f40960813a480633f84
+~ -[PRPinyinString numberOfReplacements] : sha256 64f1ba2eca4629a95df50b073801238ffddc01c2b467fa9ce066a8c8a8558167 -> 582d4853b30d1be295d6398e9937c01bfd3a44089acceb70dafbbe73f4345183
+~ -[PRPinyinString numberOfTranspositions] : sha256 bc8ef8333a158bc5677bce15da608739c58313aee31200d91a4790cef3c85585 -> fefc690602eeb2756e974e6600505157191225b0e650f8b76fa7f53f60012dd3
+~ -[PRPinyinString numberOfInsertions] : sha256 c124152fabd3bf5b55968073c5bc7ab8ca7ae7f9385f733a6e993fc44314aed3 -> 07bdf91d0649c5f21117196c3c5ef7e73679218990e72a776560d05a40dc66cd
+~ -[PRPinyinString numberOfDeletions] : sha256 7ad2a62b1634d02d915344915351f3cbd7d74521a617d42f4723f294fd701dfc -> e35f21e5433d5df02f950e24340629a18ac4cf3fa26c59c584d4069b068f4cbd
+~ -[PRPinyinString nonPinyinRangeAtIndex:] : sha256 e44391149e62af3ddcea0c5350431ee8171a912bb8c4153c120b422c57aa9181 -> 1c27f7b6dd2e2d4fa4d4ff84ecf934049c41a2b8b0be16ca539409beb794f321
+~ -[PRPinyinString nonPinyinIndexSet] : sha256 d6ab889887a27b21133f761130d572042f077f85c387eabcbcd0a7bb365e70e7 -> 072536dcb29775ef926ed271460db5073c5697ec8cfd97377d50f630a7161806
+~ +[PRPinyinString alternativesForInputString:] : sha256 b2a09fe1346f27a99f347b00ed004affc7a5073f13d27eff4ad91f889924c7ce -> 7257acc0f7901286d48a96e318ed91be7f06a3d831cc156c447ecd746bb61f50
+~ +[PRPinyinString prefixesForInputString:] : sha256 b39097cfe69aaafce6d21393f93bd2cc4c00927e16e9048b6d3f667f09e2c9f4 -> e0586d12d16fb1f0916cafb9b6942083461d2227c107fbab8c9c2b8947c44c6b
+~ +[PRPinyinString correctionsForInputString:] : sha256 67008bcd798eb2f495fafdbabe8d6d82626f12754d736f3f331afcaec9bf3134 -> d439fd4255311c3c9a60ca4412ccff476cc5150ed2aab04cd1a57df082e488c7
+~ -[AppleSpell(Chinese) englishStringsFromWordBuffer:length:connection:] : 1912 -> 1896
+~ -[AppleSpell(Chinese) englishStringFromWordBuffer:length:connection:] : sha256 607d00789a4f839fa5c39ac8a41c79512f48f5721219bc9bcb649669b261b570 -> 0c7848c0e95af14a1f9f2376edf3a8ad3068f8b1dbcd6d522ccb03d78df67d8b
+~ -[AppleSpell(Chinese) addSpecialModifiedPinyinToArray:inBuffer:length:atEnd:] : 1296 -> 1288
+~ _findPinyin : 1772 -> 1796
+~ -[AppleSpell(Chinese) addModifiedPinyinToArray:connection:fromIndex:prevIndex:prevPrevIndex:startingModificationsAt:inBuffer:length:initialSyllableCount:initialScore:prevScore:prevPrevScore:lastSyllableScore:couldBeAbbreviatedPinyin:] : 8868 -> 8704
+~ -[AppleSpell(Chinese) addModifiedPartialPinyinToArray:connection:fromIndex:prevIndex:prevPrevIndex:prePrevPrevIndex:startingModificationsAt:inBuffer:length:initialSyllableCount:initialScore:prevScore:prevPrevScore:lastSyllableScore:] : sha256 3a4a698ad34c16dd441c5d818d293770977f35dfb39286585e6fc8dd18eea830 -> 58f7575d2d471cdee87a822e66764ac4d5da3dfab343bb95024bde23e93923a6
+~ -[AppleSpell(Chinese) _primitiveRetainedAlternativesForPinyinInputString:] : 1040 -> 1032
+~ _isFullOrAbbreviatedPinyin : sha256 91ec2cf57595394a90bb1d944deb0513b60869e0dfa0f79470bd585fb11907c6 -> 32de460cabe903b6f84fac15935944ea2185888ae5ef97b2d7798395d13bc15e
+~ ___74-[AppleSpell(Chinese) _primitiveRetainedAlternativesForPinyinInputString:]_block_invoke : sha256 028f4e613fae4a2ee9f45e43c9654e24de913dba4ac83cc20ff56ed3c73a7129 -> 18c2660e38a779a591ff489a8ef26cb4f4a1de434e142affc1e7fa2b1f0dc4c9
+~ -[AppleSpell(Chinese) _getSplitIndexes:maxCount:forPinyinInputString:] : 532 -> 528
+~ -[AppleSpell(Chinese) _pinyinStringByCombiningPinyinString:withPinyinString:] : 1236 -> 1216
+~ -[AppleSpell(Chinese) _retainedAlternativesByCombiningAlternatives:withAlternatives:andAddingAlternatives:] : 716 -> 708
+~ ___107-[AppleSpell(Chinese) _retainedAlternativesByCombiningAlternatives:withAlternatives:andAddingAlternatives:]_block_invoke : sha256 cedf51465b08ab349d4ece631b64b84df04bb6371df4213dcce436e61e3efbf5 -> 11f469c761619139a337dca700d474a84b7dbcbf7757e1f871aa0728f9b62d09
+~ -[AppleSpell(Chinese) _recursiveRetainedAlternativesForPinyinInputString:depth:] : 748 -> 728
+~ -[AppleSpell(Chinese) spellServer:_retainedAlternativesForPinyinInputString:extended:] : sha256 18131dac9a1e38dfb4cc384f95ec1dd0bfe179a76920d7965f7911f0e2f289c6 -> 5081f0a1c1cba1683e26cadbc22358dce1606445a7612c1fa63db9b2a81b9d0e
+~ -[AppleSpell(Chinese) spellServer:alternativesForPinyinInputString:] : sha256 9b598f4ac9dd8067e767c451d3959634111dfcb7b0a791db55be796a3acb096c -> 314850b72f8aa3c3627080c32a0854a4535caab52e84acd8c5daf6a93ebd216a
+~ -[AppleSpell(Chinese) spellServer:extendedAlternativesForPinyinInputString:] : sha256 1690d6534cd022f9c01030f62f6d3d17dbfd089e9db92c78a5e73e97ad6bbb88 -> cca8197b972160d4239baa372e07e0dcf71fe6750964ade5e1edb25d7f026712
+~ -[AppleSpell(Chinese) spellServer:_retainedPrefixesForPinyinInputString:] : 1900 -> 1928
+~ -[AppleSpell(Chinese) spellServer:prefixesForPinyinInputString:] : sha256 98bd78491a5162c1676b99c548e44d6a084ae13818187cb9af65defa3cee0ca7 -> 7771f2d096364c9655024971030bc5a3a7b30f578d40a2eb635941d8aa976f06
+~ -[AppleSpell(Chinese) spellServer:_retainedCorrectionsForPinyinInputString:] : 672 -> 656
+~ -[AppleSpell(Chinese) spellServer:correctionsForPinyinInputString:] : sha256 7913fb8a06cc2826bf9b3852dc01ddbb9537946071fe47b3f1c9a9e78b9b4f4f -> f58cf42ed7f449f8ee1494bf78e6a0bcabd50d3e38db0953f5944f8fce8df6a1
+~ -[AppleSpell(Chinese) spellServer:_retainedModificationsForPinyinInputString:geometryModelData:] : sha256 269930a3910e52c1c42b97fee2c6d3b9d79b43ac2cee5ee1a47eed385e2d6485 -> 1e223b24600e214a1f48c788fc41c4ec5d6d2ac8ee9dc172d31485e2591176fa
+~ -[AppleSpell(Chinese) spellServer:_retainedFinalModificationsForPinyinInputString:geometryModelData:] : 336 -> 332
+~ -[AppleSpell(Chinese) spellServer:modificationsForPinyinInputString:] : sha256 36d116734d41c84d012a9e1f1ffff31a2b63db650bd00d31fa00d0c632af9e60 -> f0db13833a59dad57735cd1309fa8549d90e033b06f5bcaaa6c64b59e1729ee4
+~ -[AppleSpell(Chinese) spellServer:modificationsForPinyinInputString:geometryModelData:] : sha256 ab69432955af2e9faf3ad5096e4401572b892525adfdafc34bba6b509c0f1144 -> 0f1d1bf081b0bbb730eb042e01fac3db17101ab9615230928301f0d4d168c2e9
+~ -[AppleSpell(Chinese) spellServer:finalModificationsForPinyinInputString:] : sha256 f9da55ce06f6ef6346c2d43d63dd5b1753e038135cdfb1b2d2dadc15aa6b62b2 -> c68404e6e537e09d4dcb3a0468c1f5ee38feaa7eb6ce04cffd9f5c1832ff39c3
+~ _PRCopyAlternativesForPinyinInputString : sha256 58bc2a52d9c9b3246fdc950cd001d6eeda2e0bf3eb0e89b91153baae9d8e77a3 -> ecb8ccb375909efffd0008b8383920406a0e4806e19842e04c1e8ef81f310c15
+~ _PRCopyPrefixesForPinyinInputString : sha256 9098b2b2d37e64ff2c7322e003dbceb16c8f4dbd94e4ea0243b257c10925e499 -> 4968df5f2a5b6bac76e5efed53b3e697caad1a2c74c7a9823e97f3b8a2445c85
+~ _PRCopyCorrectionsForPinyinInputString : sha256 84a0d8400fde3f8df80947a047dba606a44c8f0eeb28c7f91e0c277b3d37d8f1 -> 198a510f99b909b375fc2cbff84c2fe550e3429f19b3643560f19b301b0d99b7
+~ _PRCopyModificationsForPinyinInputString : sha256 3e5eeaffc17ff0b2bea032176fb471099eee787b538fbaa21f071ad7749da75e -> 31e171028e37fe941209e50ca8c3588bfb4bd9f17a2ce8dac505f9e2ef5456c0
+~ _PRCopyModificationsForPinyinInputStringWithGeometryModelData : sha256 9ccb58f07b3a62aac4f89e3ae2141fdff2a5a24a7254cf12fc7d39cc41c9e42a -> 9a22cfaa3d93e8c871f32bc7d542a40c8db24bddae5d5d4343bd82d4bcae9c5c
+~ _PRCopyFinalModificationsForPinyinInputString : sha256 4e7fb007ae712ea541c12ccaaf1abd7c84aadd5efbeebec219d7170d431cc727 -> 2cd124c3b8843f3d8fd7f5db204e1e86c38a30ef576e5eb8139d65199aaac845
+~ +[PRAutocorrectionContext autocorrectionContextOfType:] : sha256 877d399a451d847e27df2d2fd418110af4c05e294acde60e1ad90c03448cce98 -> b81bc194fca26c90f178d94fbc2e457d5525a1ea6112230a3772386919bf2868
+~ +[PRAutocorrectionContext clearCaches] : sha256 a4b662f364d055ed141928623959029caeefae636038d7201b43c5d9663ad34a -> 818f84f9f36c48e1c14f5c50b181638d7a08c5512d71d005e910af25228ed2f1
+~ -[PRAutocorrectionContext addInputCharacter:geometryData:] : sha256 af255759e5152fb088619679c0ddf72a886560124d12b693c738c324ea3625de -> 9e0d89bb32d990d89616e6d3425c2c9be792b94e8a2cd057bd154e542d02cbdd
+~ -[PRPinyinContext init] : sha256 0e8ca50aa4b95bc05a2e5251b3cdf123c30f4589c56ac170ddc7340dd99139a5 -> 49d81cf1f26c8722f825107f101e9744a46a2ec4bb1416597e2ef81b413457f6
+~ -[PRPinyinContext dealloc] : sha256 f2b576c4fdad1e4a49d18a90063158c7d2d45f0d7f9ba18ebdfeedc6b564b29b -> 8805a91462084df71e0859fec8f0b1ae302380a6c4d113d3fde115f99ea4266a
+~ -[PRPinyinContext description] : sha256 2b9e4af360224da0b2096577ebd34339d9edfd3ab0579f70273167b955f8af1d -> 5acd724f60d2fb2b4afb7ac9d81a1540f35acbe9bbbb743a8cc2b8538ea0ebaf
+~ -[PRPinyinContext _removeModificationsAndMoveStartingPoint] : sha256 8959f21e7f9973c501bf0e633ea5a284eb72487f1a1e35672e1b8fcb6147d928 -> 1aa8dbc8113881b427aa28dd8c463307f92f57a2c143f37366c3e1f1ef96c170
+~ -[PRPinyinContext _advanceIndexes] : 384 -> 380
+~ -[PRPinyinContext _addEnglishWordForRange:quickly:] : 660 -> 664
+~ -[PRPinyinContext _addEnglishWordsEndingAtIndex:quickly:] : sha256 b6a7619531b3e8a08d32f9de9dfd1147543e307319318750a13e4cba51059b1a -> dcae0d658583e049788835f103d0c65544eb0f3c2a390e2ce9e1bdd411ea7d9a
+~ -[PRPinyinContext _addEnglishWordsQuickly:] : sha256 2d3f7a23e34e73fff51d0e6fa93b84143bb80c503a134be88427a16165b39491 -> 1a046411d67be7011086c94ca96671329b8045f449bd0083ef826cf66f257b88
+~ -[PRPinyinContext _addSpecialEnglishWords] : 956 -> 952
+~ -[PRPinyinContext _addTranspositions] : 1368 -> 1384
+~ -[PRPinyinContext _addReplacements] : 956 -> 960
+~ -[PRPinyinContext _addValidSequenceReplacements] : 936 -> 940
+~ -[PRPinyinContext _addInsertions] : sha256 a32f2c266f64a8e3d781e8397c9abfdff6d1fc1108f0d84c05cb98d06b9f3d41 -> a81aa6a93a68fe161f7b4937b31930a2bc2d3d38a023f761ba3026851e3a802b
+~ -[PRPinyinContext _addDeletions] : 1088 -> 1092
+~ -[PRPinyinContext _filterModifications] : 1340 -> 1324
+~ -[PRPinyinContext _addPrefixes] : 1084 -> 1112
+~ -[PRPinyinContext _removePrefixes] : sha256 915083b9a003295ed2b2a81f331a8d5f26e186199475be517f4374c89f83da49 -> 054af4d0cba2c078ad8119f75e69059f016b2837667de4c42c7467ba70fa04de
+~ -[PRPinyinContext addInputCharacter:geometryModel:geometryData:] : 784 -> 780
+~ -[PRPinyinContext removeNumberOfInputCharacters:] : 360 -> 348
+~ -[PRPinyinContext reset] : sha256 106d0ba86c14f40f19cd75f7d313fe3df5a275b1343ad7dfb38d1045adbdfca0 -> 8ee0bdbd9d4342c7d69a28f6f4873dcf78d03967189bb6014865fd14fd1825a5
+~ -[PRPinyinContext currentModifications] : sha256 e84918dbef98b223c7ed2fb2af9903f4d902e033a480ca796d25323e6d161e36 -> 42c53a0b9e316b5604230256a9868bdc7a3824f91a8dbb93b6d29a01599136e3
+~ -[PRPinyinContext addedModifications] : sha256 e57d1493d8db32e8db6e2a0e048b4bb72a229af231518e4ead805b1d803292fc -> 803c93a6e8b184e848e38efbadb21d996383a0c35968d37f5d5396ffb8e5c537
+~ -[PRPinyinContext removedModifications] : sha256 2ae330a9f28a3b547982c0fab763d6abc527165b1d434d24285009035a2bb8d0 -> 5da9ed6f15e86f373c1f4ef6a51a99179af8a0fccbe0efc5bc9f46f362acd95f
+~ -[PRPinyinContext guesses] : 428 -> 424
+~ -[PRPinyinContext completions] : 432 -> 428
+~ -[PRPinyinContext correction] : sha256 15455f410567158d576a03dbd72c433be6724f079e94b7757abba53a3c0b7a6a -> eb6fde4ba68861f260749c3050367fb37048680edf965b38f75a665f55447915
+~ -[AppleSpell(TestPinyin) inputStringIsPinyin:allowPartialLastSyllable:] : 304 -> 300
+~ -[AppleSpell(TestPinyin) inputStringIsFullOrAbbreviatedPinyin:] : 204 -> 200
+~ -[AppleSpell(TestPinyin) _addContextAlternativesForPinyinInputString:modifications:afterIndex:delta:toArray:] : 848 -> 844
+~ -[AppleSpell(TestPinyin) contextAlternativeAnnotatedStringsForPinyinInputString:] : sha256 46ac334dc7ac0dd428eb06b00280533f41b0ba8e1851d2ef2d5cf3d458108d5c -> 0404607a56a290ae5c27bca98e599a5d6b401144dcdec6faf1aebb316f4097b8
+~ -[AppleSpell(TestPinyin) contextAlternativeAnnotatedStringsForJyutpingInputString:] : sha256 6351b8877b128730761d1241ab324dad807c616c34900bd46fbb2d4b47efac8f -> 4f5846b374eb9297d823f189b9526f6dbef1ffcdc7c19464270f3c70048ce05a
+~ -[PRJyutpingContext init] : sha256 c6b88202a38917bb5b1b1cac58de3750d7a9e973c8a42ab377b6501d9c6e8276 -> dc2d2f1e7bb316bc4f2699c9683a569df57b424aa18ef3f85f7cb0a2b3543814
+~ _ConvertStringToHangulCompatibilityJamo : 448 -> 464
+~ _HangulJamoToCompatibility : sha256 ceb616421c6e36f6e0ef9defb41fd4bd1a11d11761247674038de71760ed684e -> 8902bb3f88a0d5d879684200bab413cac01eb413862ffa112204e9c552fa52b9
+~ _ConvertStringFromHangulCompatibilityJamo : 432 -> 444
+~ _HangulCompatibilityToJamo : 172 -> 180
+~ -[AppleSpell(Korean) internalStringForKoreanExternalString:] : sha256 55438daf0691d01444c36b6512ad6bb983ff576863bd58ce3edcd1971c0e939c -> bc06a0cf1d70e02a4e259c4ecfddb553eb4c2946fd1d5129a03e42b1418a5524
+~ -[AppleSpell(Korean) externalStringForKoreanInternalString:] : sha256 8f8c55fccbd6db6b791e6ea798643266aa0115c0c652bc1fe756ec42966b2b91 -> da5d7abca9aabc9a6ed16d17874077ed381978ff84a150cc386c8b453ae616d6
+~ -[AppleSpell(Korean) addGuessesForKoreanWord:includeAdditionalGuesses:toGuesses:] : sha256 d76458486b1c71a4c39d2a1b6985cc5168f8cce6ef4fddd011bcd24915aed34d -> abb5dec5b419b6b36798f212ed024834a099cfa72a6df5f6b9cd2152974cea94
+~ -[AppleSpell(Korean) spellServer:suggestGuessesForKoreanWordRange:inString:options:] : 1072 -> 1064
+~ sub_1ca0b3bd8 -> sub_1ca940e50 : sha256 640b1d38735e1c90974455792f4efc9e482de00cc2d4af822bea70fcaa25e5a0 -> 29af4175d934f45538e4002618afdf517bc37bee94cc0dccbcbf509d87515842
+~ sub_1ca0b3c04 -> sub_1ca940e7c : sha256 561b2c18f7eeeb26d7ece93ed7f865ef99eb334ce62c928252a9744cb576e1ad -> b76edd161738b547ae9db0b186e82cc1c06d9793f66762bb46ce7ae2334df18b
+~ sub_1ca0b3c38 -> sub_1ca940eb0 : sha256 4fc1422123dc4f7f29fdec7cf2796fa759cdd20b3a636f34ead4837411324b41 -> 3d26fcfb500f1d57dc2e99215e06be6fb7f353c35c64209404958ae60ecbf6db
+~ sub_1ca0b3c5c -> sub_1ca940ed4 : sha256 c39696c992c32c911ff53ff828190b191abd32e21891afd8bc60950279df66dd -> 1d67672406fdd95b47c6513a1394ed7b506a12acc32d0acf28e791cf7e881537
+~ sub_1ca0b3c9c -> sub_1ca940f14 : sha256 a08e63e0cb7b72a7017c3628e27afccc0a2290cb9c3cea757f61a294c6a61b4c -> 304b8b4529307c5a8e226a5f36e5581aa18cbb7c4682a3e8081f952aa3d7a94f
+~ sub_1ca0b3cfc -> sub_1ca940f74 : sha256 82e816dab635ee3efd85037458507d8f32c4c3d376c043eadb6f90c2fa661873 -> c2b26f48ea08cc9f02bd948d7acb31ab2bc09b32725c267fa18bd88bf706cbea
+~ sub_1ca0b3d74 -> sub_1ca940fec : sha256 4071941b5209b87475050f17bcea1f15d98acacbf74e4527aff664cbfb3beaaa -> d92f64439ceeb7b643faa8a31aff566d6cbf2e0b61ab118a55ca2f1868cfefbb
+~ ___swift_instantiateConcreteTypeFromMangledNameV2 : sha256 a405a5e2fc365a22645d8c870a14dfc323aaf6423807bd490f341b1c18a06fb0 -> a49947b28933d3c25ae01678d09714d4780d8cb6b9fb70f9850bd4a7b6a231d3
+~ sub_1ca0b4244 -> sub_1ca9414bc : sha256 92805e9e10d87a5c25ec77171a4642c0a04c52751354c49590821803365ef2c4 -> 3ec1397636ffd797b18af9b8e01be834cac198e35ce0ff917c38eed3960bd03d
+~ sub_1ca0b426c -> sub_1ca9414e4 : sha256 3b0b23491863192403a01aa80f486c2cde8b782b9f50390fa982f2cf20b7b668 -> db88170f0e47f1d364a7de1e49936d135260dfae6c4ececfd3a3c1e399e37565
+~ sub_1ca0b4330 -> sub_1ca9415a8 : sha256 7dd306d58ec80c18a055b01b02c1dd1d27588c1b76989e54fbdc80187a81e7ef -> fd58e39f7badf662b5e7ec25f3701db9b3ae326b880656cd0990d5f5e0ffc743
+~ sub_1ca0b444c -> sub_1ca9416c4 : sha256 80e23a24adf6028301171af4146cf53adf375794a64b54c1562254c91eb59761 -> 672248d0f747d807b4e231e545cd54aa9e48a50d902532d348c8c98e24c61e70
+~ sub_1ca0b44f0 -> sub_1ca941768 : sha256 d2deeb362932848b782273410823fbadff7fdf2d80f2a2fc50fad8b1dd6e6535 -> ee1cc1d90eee70a583d60c751ac861e2713cee93abac38185cb764bd506b6827
+~ ___swift_closure_destructor : sha256 10145d8db5fd8904ce3b3f73feffb2f2952a8e07e6b5b00d43c662aba9244f32 -> b584316dbdd3b3f01846cbc1ed999e2afa5dd2a2e53719dd0c4a6a8e40bce71a
+~ sub_1ca0b4590 -> sub_1ca941808 : 296 -> 300
+~ sub_1ca0b46b8 -> sub_1ca941934 : sha256 126b49e34f7288ab44d6dd0475983fc540751fdf96ada35192fed67aab860b34 -> 3831c167abfb2386b624dfdcf1e97a03ba596cb0835da655c8a293ee5a84a085
+~ sub_1ca0b48d4 -> sub_1ca941b50 : sha256 579fdf2413a8028433cce9e37bf8545e0b01f18ad921ac9eed8614856dfc1224 -> fba591090234e6d4772fabb6b5c293b296ef45b936c761f44e788f97f6bb6895
+~ sub_1ca0b49a4 -> sub_1ca941c20 : sha256 24fb930c87e2001d2390ff0d611b3513d33b4c3c8b2fec4f77d4656a76db3e7c -> 2ca6a5b07bb973d1c9c38270b241299aa98d9720e57bc721da3722697c606f95
+~ sub_1ca0b4a60 -> sub_1ca941cdc : sha256 83776838d62484de163bc7d90777e2ae2f21965007ba97a3602725ffa419333e -> 0d93421c2a7a8988b9df535929ef3586634dad246d65a74f84778b9a5501a162
+~ sub_1ca0b4c44 -> sub_1ca941ec0 : sha256 3be2e7eb44bc01da2825149d7b89e32a9f4ea2b0087312ceb95df42e1c232e79 -> 322c17f463871b552e163b135b45a057cdd8797ff9686bcc2d58fcd87ea503de
+~ sub_1ca0b4c78 -> sub_1ca941ef4 : sha256 1456d8e19f0a0abaa6c2817b096dbed00f36e558e7a06e14c2c8a7f0a98c7555 -> a96708b2d326ccc3124398ae92095943f95485ead1ff5294b0f728af287e0d15
+~ sub_1ca0b4d80 -> sub_1ca941ffc : sha256 962a14d9e2e31e486f7acd734b0ca0c5a35d31cf58ae3045006f2760058894d0 -> 363210626d38b620ca6a9d4bc307c07052a0bb62f00f460ed2af979c07ed4978
+~ sub_1ca0b4f0c -> sub_1ca942188 : sha256 702d8abedd02e2f26aad4ce65013b1bca4e13eb84f435f8723bdcc5df41aae0c -> b4d1f166116a3facecc781c6ba67ac5d8aab029e1c57a26848239b9815d407a7
+~ sub_1ca0b4ff0 -> sub_1ca94226c : sha256 1e6e8ac496b426b2ff03bb253dd5872099a6c8ee242240d77e68ea971926c974 -> 604a9c2b177ba124982adfd245793668a4516b9c40409ccdd38f4ad407f22f70
+~ sub_1ca0b5478 -> sub_1ca9426f4 : sha256 ae5ac832620a5a8c92514565eda6f35d0607aa44550b702361a57a838aa6b120 -> c44635b0e28f0a953889da6c807c738ede91dad78b0a5fa1d1c7b333facd7893
+~ sub_1ca0b54ac -> sub_1ca942728 : sha256 d99f2d9d40640b07981beae780fab9e264d0fe418f73eadeb372ff647e3343aa -> 2c9a4e956bcbd9437a1cddbda1382f0581d0eb7e5e5ecbf71bc8a94d1dd4e825
+~ sub_1ca0b55b8 -> sub_1ca942834 : sha256 151c20d78b54a0cc9ff51ebbac8f711eca456a7fd3c448469832e0305779251e -> 42c82aac935d55664d5d602d21795446dbb2a370982ed8e2221dbc258c787fa5
+~ sub_1ca0b56a0 -> sub_1ca94291c : sha256 a4e24bb1937d8c4dd32a481edb124766b7c260cb240544b0ac3f2fb1c9b9d6a2 -> cc2ed9890539f24047c00570bb2c7f5952bf45191668fdd59c9d35f20f55057b
+~ sub_1ca0b576c -> sub_1ca9429e8 : sha256 3ba9c11dff25269bef98fd834bb8d282bdd28cd9d2a0a5a575efb61c93368d3c -> 1575b87c18e085e0e12a769a835e68b0912269136a4fa4de75974e4bf812a3e2
+~ sub_1ca0b57a0 -> sub_1ca942a1c : sha256 16aa1a7799cb1d4806fe4e73e769086156e669e284d79b369daa0288a9b0cd27 -> 70bc2fe6d3a16cc0da046edbd8b447c388314fa0803cacd7571b95ae5002727a
+~ sub_1ca0b5898 -> sub_1ca942b14 : sha256 d943282d947bf3f839531d5b587d473e2117372f02fbd2ad17ef1897fa4dbd9c -> 359cb79c31605d6ea504332dc9bf128c5ad9f94f780159fd660d42df4c856513
+~ sub_1ca0b5950 -> sub_1ca942bcc : sha256 12aed4268875a7c17d1af0b0c3d14b759ed81c2a47481be130cbf4dc9b8ae3f7 -> 64d7d35ca16fb9dfd17aec15fb8209616d8be3b799531622a031c60fc383cf46
+~ sub_1ca0b5a28 -> sub_1ca942ca4 : sha256 4a1b03149a4865ff407a6bc106925dc69d25fe60492ea8146c5e432024cda1ac -> c4347927e55592fe5563da2e1a7fef2345e11497d2c27900c2c7ff6dfec1ac18
+~ sub_1ca0b5b20 -> sub_1ca942d9c : sha256 fc7df9bb80603f969e38f4f641c2739ddd0fc41c22ce2c437a23c63091335db5 -> 79a5977287b5a07c25f424dcfebdbb5b9cc58da31d8343ef015e0997d422fce4
+~ ___swift_closure_destructor.11 : sha256 e3e7ff1af46f4c9ff14a0d9a324625a9d62bd0d27336fe6b7277bcd19f2caee5 -> 08279a4b47e2cb1fd93d865a4051099473e401c1fbf3db2f82e0d669766113c0
+~ sub_1ca0b5c38 -> sub_1ca942eb4 : sha256 821dca4b586dca300c74549bb8725a37d118bbbb400d6dd0a5668a73e169448d -> 27d01e4cf88a534e8863fbef69337e7bd71355507f0c3f8e9cbe57ea17223948
+~ sub_1ca0b5cf0 -> sub_1ca942f6c : sha256 ef6f63ad5accf81fd0811f16dad2c4d97004fe77a1227dc291ba78f16ad36a99 -> 43bc2b16af0e25d13d36005b209cf27aeaecf3f4db14a4f198bbb1c9c7051b13
+~ ___swift_closure_destructor.15 : sha256 cb33b487b19662ed757f3916fb2d7697a5e5c285060808ee185e1fb4b3d4aa41 -> da80c76eb1c517033e1e2e091764468efc6410eb3507cf0b10fbc227ee11d676
+~ sub_1ca0b5d4c -> sub_1ca942fc8 : 340 -> 336
+~ sub_1ca0b5ea0 -> sub_1ca943118 : sha256 15ad0da20f0c1a6bb13924ee652b3274004cfe5f7f373c70b05eea584104f107 -> 6d872bb58521436fc276ab032ca66e92e71efe90a15a74445a5429174c2c889e
+~ sub_1ca0b5f58 -> sub_1ca9431d0 : sha256 da93a3e6f0dcf23cd16382d643c32391ee7f9dbfeae2636feb5c5ef956e6e44f -> ce4cc4056d56bef68e96e8e4ff2baa3560f07a9151959a3edb017b1170b1a68f
+~ sub_1ca0b6034 -> sub_1ca9432ac : sha256 ff2639dbbf6c6da1732520fe69bb62486b34d24af9788316f612f36c4e2482e4 -> e7899916ef95e3289d2db04caeb97ddc89359bd1274e0c77cc0b49b1e040700e
+~ sub_1ca0b604c -> sub_1ca9432c4 : sha256 c999ef19967fd747cdffe9b6938466f1e2b7bb09c48357b47ec571ca64d5ebc4 -> 2b197eae6abdd66f6748010f36b6f3c5eb071adaee98138a8ba2846aaed7b784
+~ sub_1ca0b6078 -> sub_1ca9432f0 : sha256 1fe6ba58136d958bdcdc3803aca8b327baf11c9d6c43663f6e931ad8e839cf16 -> 6a43248f18c43facbb7e37f94dd902b8bd0c31570a7a55dc2f638704b79d8bd6
+~ sub_1ca0b60a4 -> sub_1ca94331c : sha256 0473e32e02b4223175387d5562e2628d58890786de070c022f7997d4af554837 -> ff1cdb5f6af320c14ccf25da6971e2fc01310dc901966fe4f36b52c7021a1311
+~ sub_1ca0b60d0 -> sub_1ca943348 : sha256 c71ae747af0062f7bd146a9b8f3faeee98c5c425b0bf57695c2796eee7b5807f -> faea5be4dbac1962763bdf0fed89915edc2251f0ae7d9082d331893829646512
+~ sub_1ca0b6154 -> sub_1ca9433cc : sha256 db465ff0804299baf60ac40470d6d915250c43d98671b3c69818ed7ce3746fa8 -> eae0e6e5132ea7eaa70d4d635775fad3733701b4513a627219212a85a021cd21
+~ sub_1ca0b61a4 -> sub_1ca94341c : sha256 00dd03a80e44836f92ba46125df6e4a60ab1df3288cae2f886bd8acff28cebeb -> d2b014d255f264e5addf3a9bf1a11aefbc8620fc6ecc245c1bd5429c84b82c7e
+~ sub_1ca0b6670 -> sub_1ca9438e8 : 1236 -> 1228
+~ ___swift_closure_destructor.31 : sha256 70b10c5162a51f1ba39c0ed0bf820e82cf19bc45123e2ea9697f45ddcf21eae2 -> 911bdf69a07fa66933fb635defc12a34469645799cab7775e342904396c5ba25
+~ sub_1ca0b6b7c -> sub_1ca943dec : sha256 e1d356ec612775075189f4f9b57f945274d787d873199f8308912ae798d5c9c3 -> 1bea6a41915f5bda82d678c5e5aa9a2234fbe351f0ed2180ee3a8203239a25e6
+~ ___swift_closure_destructor.15Tm : sha256 1ae9ab9662d4c1eda389bf5fa2fb2d53f358e3859ffd47ec5f5b2b74fcd02267 -> 081eaff20850cb9b0c3ba1679c0249f9469b2ed5eb5fd84a4444e13d68d1f80e
+~ sub_1ca0b6c80 -> sub_1ca943ef0 : sha256 dae5c5f9da38fe4a545a0cf421cba5540227a15ab3349225aaea80b5e2f5389c -> 049d986825a0c709e07cb4a4a9ac249b2e9360d08555d1e8041c7ba06c1f7261
+~ ___swift_closure_destructor.7Tm : sha256 b87bdbe8e02f79ed5ef7bd4f574c453c104eaf740d5ef7601b9128c884ee5087 -> 51fb231db3e1ebd177a809bc6b11eef89ce512655d796dddf76d61108c2ad8ef
+~ sub_1ca0b6cdc -> sub_1ca943f4c : sha256 ec17d4b1f7f0d159c8a1be2b9dcf785376adcce1e65ba3493d53b6b4bc9b2a4e -> 0cfd3c90b1947a90e7db87388cee48f9ce3a9aafb0d2864e0b12e60dde94c991
+~ sub_1ca0b6db4 -> sub_1ca944024 : sha256 6f9d02eb1161de0b2d740d388caa92a7bd87e53d16dd2e15be33be8ef2bfe269 -> 8d8866b5af481726dec48814a19a9cfd185fbaad0daa955c3194d2f0aeb8e228
+~ sub_1ca0b6e00 -> sub_1ca944070 : sha256 2c4d88b390be7b60b970baecba7d5d550b1009614794afba7e836aa6ef6c6256 -> a4e0460a2eda5bed2afb30a7090b0e4883f5f672dfb2f85cf404e3d11cb37053
+~ ___swift_closure_destructorTm : sha256 16b151e3910307f94ebc12e973a7f74f69856827347341efd2544f4f10afd3be -> 9a16100a30252d2ca5979b42870c0db5120b89677cff07fa95e76d42d908ac4c
+~ sub_1ca0b6f14 -> sub_1ca944184 : sha256 99fc90cc7d27511874cbb14fbce950e389534927a5d3c5ad20a2ba08b84db752 -> baaa7445e33086d56d8e5e2de0fe3afd9e9f1ea07ecdfb2af4ebfa589840abff
+~ ___swift_closure_destructor.3 : sha256 719ce37c287f72d8c228c9747d8c694817053d15bf3e36a0ba3e0f378deb939b -> b4b25e21de75d955b6b4e0bc3bb404e454851df3697f2716a67bdf24a6cb38f2
+~ ___swift_closure_destructor.19 : sha256 80b52d40116b11a0b1f1ff4fc090801378079bde53cf422cde880f363662c6ef -> 458ac8e4954099a8887af823d50c4d864ff827628dad727d948febe9c1406001
+~ ___swift_closure_destructor.39 : sha256 da861348b69266b54ffca22369747d22d84ca8baa8fe3d450a0bf54510d533aa -> 0ba38b5cce2ea941d257be990718756a0c6be3dfef20521b76e80ea4c1f5a6ad
+~ ___swift_closure_destructor.60 : sha256 3fd7cb76dcb3333bf2c5589ec59bd865ccf48ad0aa744b344931ea1920613844 -> da861348b69266b54ffca22369747d22d84ca8baa8fe3d450a0bf54510d533aa
+~ ___swift_closure_destructor.65 : sha256 c49d4136ae4adf917b6d2aaed92ea0c6e8f09f4d61ca967e848e28e10259a7f0 -> 8c56376a3e84114c3eb6459896be4ee464c068e04a4875724b23421183263996
+~ ___swift_closure_destructor.69 : sha256 716356ce9a110a36e5e96b4756e813ce570fd9aca66aca897f282167e9bea2d2 -> 03fcf3311da011b57acf902c9a32eaa5274ffca80e2241465157c4f514d1b46f
+~ ___swift_closure_destructor.72 : sha256 68c59ce263b5ce1a08c3a1ec07b31b6afb99bb4c9a89dbc63480caebb1033d41 -> 3fd7cb76dcb3333bf2c5589ec59bd865ccf48ad0aa744b344931ea1920613844
+~ ___swift_closure_destructor.77 : sha256 3c86eaf6922b3bca5ab6e440990782a74eaba52d7bf15e48375f224097d99ff3 -> c49d4136ae4adf917b6d2aaed92ea0c6e8f09f4d61ca967e848e28e10259a7f0
+~ sub_1ca0b6fe0 -> sub_1ca944250 : sha256 9e9cdc47fdc7fd8384d422055b0af73efc7630dafe7322115df54ab0d4dbe4c7 -> 965ff9b704eae3fe00f0130d9a8d6e6c92b17c8f175fe96842f1974991e09936
+~ sub_1ca0b6fe4 -> sub_1ca944254 : sha256 67c8fa41fe80233104bc5e0708e573d83c4f9f6cffa1a72f832a3480673aff9f -> 6124b5ec31c836e94ae6ba7592090076a710d1485916f8c19e23645b56854a06
+~ ___swift_closure_destructor.34 : sha256 0b77bb6323aa93b165af68808a59d2241c2ac92ad14654c4b9c9830585b0533c -> c2bf0f280bad561b7d1635854255faedbac53e19bbde8919a25f932868b885b4
+~ ___swift_closure_destructor.55 : sha256 33708918d286ef337a55521c699308686efa07e3fb22823c6ffab491381977d1 -> f6ce71dc15aecab7a0883a97ad6cb4daf21668d0c8f5325a91131e34188354c2
+~ -[AppleSpell(LanguageModeling) sentenceTerminatorCharacterSet].cold.1 : sha256 c251a2018d7bd406fff7fefdbe9374ec2467f69da5e5641660e4a1800f320eca -> cb90b1a5841747d7c7155e19a42976e2b4aaf2a1dd920e0d8a96f0becb1a424d
+~ -[AppleSpell(LanguageModeling) backgroundMaintenanceQueue].cold.1 : sha256 ff8065c7214b35cea5e827f692233730bc956122c6292f3045e979a922f5c547 -> 448dcc8de9232d245d3e55e27cbab78967d707c5c5d67a7128294d40a74b92d6
+~ __allowModelUsage.cold.1 : sha256 4fbfadb8dbe88edd002417a1a73682c4c6424175430bbd9422053638761b437a -> bb665965010f0c2217ec2e96bb9dc31c0efeb035350f2fde4a01cdbb121f43a4
+~ -[AppleSpell(LanguageModeling) _addLanguageModelCompletionsForPartialWordRange:languageObject:connection:sender:tagger:appIdentifier:waitForLanguageModel:allowTransformer:candidates:scoreDictionary:tryTransliteration:].cold.1 : sha256 0a7460248e6b1c74132f6593d760d9a53357e69af6cf12fbd55e9a1456bfbd39 -> 7bd87dfa32aeee43ab858ac18634a8272d74ae7ea167b745fa08e285196519fa
+~ _PRLogObject.cold.1 : sha256 a5ac0b1f7ccafbbf2f7b927e3afe26c215cb0c65c282cd99254c49a61deb5876 -> 706cbb8b6d5635829a78214d9abe826fac8ed3a9e0f88167d6acb62f5b9c1b6d
+~ _PRLog.cold.1 : sha256 7a7b59329a4109e696bc13d52cddaa02e52925ee9d8e05f9109646787de8f589 -> b467e6757e79b688559128f47c19c2971d01fb196eebf263bac1ebfc8912a082
+~ +[PRTypologyRecord openTypologyRecordWithString:range:languageObject:languages:topLanguages:autocorrect:initialCapitalize:autocapitalize:keyEventArray:appIdentifier:selectedRangeValue:].cold.1 : sha256 9e131bde22f4c6b6dba135da25992aaf58d586151495cc472819e230c8ab73bf -> e846d6279c1a5d583fc14523133fbf28a2804185d79eb5de721d6408e0cd0433
+~ -[AppleSpell(GenerativeExperiences) generativeExperiencesRunner].cold.1 : sha256 0424f68d21c842c3b2b2a245eb308f7b78a5a53e8d5fb99f8a9cea5ed890bc08 -> 5f154907ac9bf7f291ae59582cd08a74a9269dcc50d54d1546aea8598fabf2f6
+~ _uppercasedString.cold.1 : sha256 b651ff85793090720ffa64f9a8fd46a3a7dea2b4a646a6665a41c91acfa215e4 -> bbba0c4b16ccfdcbf2ca6fc638a2c811aafe8fe122baf9228f53c7e19e518165
+~ _initialCapitalizedString.cold.1 : sha256 473fc8daf3602a6a12f4e21d873335f06da6b74f9f6a854750f35205f18220f0 -> 0e7d3fbbc22715be542ffeee022327f2ac37be1bdc17421a695c01bfc1d3327a
+~ _stringWithoutHamza.cold.1 : sha256 40b5391f335d951b4ea413a2b8ba578728f3b909e435e3b1fae774e747a6ca69 -> e68aa86a70d0bbac33a2e14a4565c3ca7343f2b0e57d59386ca424a28722d243
+~ _treatWordAsSentenceInitial.cold.1 : sha256 2101e7c5adb313ea81463129e33583cb820fa22518c36a0d52ff09b57a5cd096 -> 2133938bcf92f0c5fb569386519c858d05043fe5ab8a78fd6e1f119a3e077b30
+~ -[AppleSpell(Completion) spellServer:candidatesForSelectedRange:inString:offset:types:options:orthography:].cold.1 : sha256 018058372cecd51a64d6fdd24672e5ea82adb187f13b696ab97215959fa9e9a7 -> 292a7ba3b91efdcaca82d57c4386df195e4212f1a793fbee1be39763a3009162
+~ __addEmojiForStringToArray.cold.1 : sha256 e4660308fb192db3c08c50a674df8216c57352812028a73bae7a21a02ed6abc0 -> a54517788589106970a6f04b8e9a8bba7950fd0f29dc9042634c3382741d04df
+~ __loadEmojiKit.cold.1 : sha256 6239a58e0afa4e30f1fc9cac1d42bbcfd66b7e53be41ae96ff9a5df58fb606e5 -> 0a03e8cd9cae2d4e4b6104be9678702ea0eec27f35dc5000059bc55664143720
+~ -[AppleSpell(Correction) vietnameseModificationForWord:].cold.1 : sha256 8603667514726f97a7317091d8dd73114176098284b05b1c4410df2f0dedfae4 -> 6504c1dc932e50460a14b24fab8c3e3bb69974ffb26621c750adb081f846bcc4
+~ -[AppleSpell(Correction) _findMatchingRangesForRange:inString:keyEventArray:endingAtIndex:matchingStringRange:correctableStringRange:matchingKeyEventRange:firstMisspelledKeyEventIndex:lastMisspelledKeyEventIndex:previousBackspaceCount:].cold.1 : sha256 c1e988aff7806279ce55a1da81ad8af46979bacec2ecac9ef68c2a3a4ac0dbf9 -> 03bdeb1bfa357dfa79b4880a7e52281ed886aac236425132374692c4c53a0b83
+~ -[AppleSpell(Correction) wordIsAlreadyAccented:].cold.1 : sha256 be487009947a1e41b2e0031e21a3a240959651cad72926fdf976523fccca017c -> f90c7a27f19fde3eb2cbebb3ae19e87db4b16ebcada3073006d02c6cc2895a16
+~ -[AppleSpell(Correction) _accentCorrectionResultForString:range:inString:offset:languageObject:onlyAtInsertionPoint:capitalize:keyEventArray:selectedRangeValue:].cold.1 : sha256 f0c4ebe2988e803f4e2eb2fb75be2bf4d8ac7105be7d28425c6a9e54e6d772ff -> d970203695f85648b596f0a69351bf8f63ca00cd87e2372d801b519704517512
+~ -[AppleSpell(Correction) _acceptWithoutAccentForString:range:inString:languageObject:].cold.1 : sha256 53b986a36941c08ddd8a3c0f4dd11c38a2a9ade3b7c456b79ecf3b0b2dddc04d -> 9908fec2f32ebff0ee264a9a21e4cbc084314a8e9f1159d8dab5a90a59e8baf6
+~ -[AppleSpell(Correction) _correctionResultForString:range:inString:offset:tagger:appIdentifier:dictionary:languages:connection:flags:keyEventArray:selectedRangeValue:parameterBundles:previousLetter:nextLetter:extraMisspellingCount:extraCorrectionCount:].cold.1 : sha256 39ed5f83dc88a7356c885787488ed19fabd6cf74b4e6b61f1fb84f9e428e519f -> 27948cdd2a6dd813394a654b4e035960853980a91c03d14d9f5ba8e3ecd1d3ed
+~ +[PRLanguage localizationForLanguage:].cold.1 : sha256 417e37fc0dd7facfc9da81bad2213628721cc663a82f35e7d0cda03586709465 -> 731195300523e99bd10c14d3c6c45274bf773bef34f981bee74efbd14dbad24f
+~ +[PRLanguage fallbackLocalizationForLanguage:].cold.1 : sha256 07134cb3b4590dd78d442281619bf24e54f014f46c78bef987da5cbe361e5442 -> 97bb6ba80583ff40f5e3747b1b9d520a044cdcb80f4cc0f9a279d175492c9941
+~ +[PRLanguage languageModelLocalizationForLanguage:].cold.1 : sha256 2f2f04db135bad833636dc210c19d85f52fefc61df688e87352ee0d922a8bdc7 -> f703924f9fc687c952065fbaa2c0b57acf68a7ee7bdc8c28844b9f03b134da7e
+~ +[PRLanguage languageModelFallbackLocalizationForLanguage:].cold.1 : sha256 3332ce63be53a0f26d7b5f89445dbfc00c25ca31e0d84b11347c47c26aed2c7e -> 16287ce05256ebe917f7b2489b9dd31878d6390c2ff6a9d7d400c079eecaf870
+~ +[PRLanguage textInputModeForLanguage:].cold.1 : sha256 948dc2c7b92ac05650eee853f8cfd0cc7e3c3dd9b3f987be97e3cf97f616dc86 -> 7c6ceda2931046bb9b082742688721cc71b33a93667d51a3ac69a5ad5eab0594
+~ -[AppleSpell(Lexicon) backgroundLoadingQueue].cold.1 : sha256 5dff04e4a5b5052788047358169486136851431118410968d6bfbc86a3a09d15 -> 28f8319fda6289c95e9bbb7023cc192ea199fe4b4170a02ade2519eb870c4761
+~ -[AppleSpell(Lexicon) _lexiconsForLanguage:loadType:].cold.1 : sha256 da6ea2019e98c8fe1811cb414e7eb139ba2fe8bc1c4b5ed7b5ac3d2868d1814f -> a18db0f5b074234e6951131a174089ed585763dbaf13a05b49203e78a87a43e9
+~ -[AppleSpell(Lexicon) _phraseLexiconsForLanguage:waitForResult:].cold.1 : sha256 d87a835fc900f408a9c895e2208a89febbc71e4347b3236dbf75c829698f0cdd -> 56364484caaf57fc081c50424e6accc01a749a6ddbad227f27ea1ddfbc74b848
+~ -[AppleSpell(Lexicon) getMetaFlagsForWord:inLexiconForLanguage:metaFlags:otherMetaFlags:].cold.1 : sha256 7986d096583a113c133f74369f5ab4701bffddf9b047f3bd9cdec9a1aed2c959 -> 4d5f5ee1c9ca10720d5c0b072448bc106b324d1ff739ff13c3e2931d131ca431
+~ -[AppleSpell(Lexicon) nerTaggerWaitForResult:].cold.1 : sha256 c1ef2efe60c77123febce610ffdd690d633cf637185abc9361dfa59f4b9d155b -> 0a932e0cc4a7fbe3a293be819504f6cf446748657ca642a9a33b3ad439bbbd7f
+~ -[PRSentenceCorrection presentAsGrammarError].cold.1 : sha256 551293e92bd4fc371ca5401d461a85abdb154821337ad2e638f50ddd95f89986 -> c6672f65d8136f495d5b3ff34c9269f67d75529e9f1d3abb31a56098d8e68b66
+~ -[AppleSpell(SentenceCorrection) _checkSentence:languageObject:mutableCorrections:].cold.1 : sha256 374b2e58873382b4ec1c9ffc237f2bf603196852fb36761ba794f5f64c4c0ee0 -> d78a61e97409c749635787bdd81333b824f3bac0d865a98132702e3ad8dfa628
+~ -[AppleSpell(SentenceCorrection) supportSentenceCorrectionForLanguageObject:appIdentifier:].cold.1 : sha256 cbb94988ceae84ef2369e986fc027bb0da4d2a18508a4ee9f356be93607d4d16 -> 2cac8899052bebff51548f94ceac33b31bc9ab4f0bd66969e46991e0c4a54438
+~ -[AppleSpell(Spelling) stringByRemovingArabicDiacriticsFromString:].cold.1 : sha256 e94a5942f6a970106df20070724b9acba8e83eea80ea78b2ec10e62a8c4ba4c5 -> 7afd473c67e526d26ec8788e9df94ab5fbe025adf048a14b445370b0838d5ee6
+~ -[AppleSpell(Spelling) stringByReducingArabicAlefVariantsInString:].cold.1 : sha256 26b6ce5654a7907b8a11e5e4b50389c151108361511be36b7cbe9a1a2b7c04bb -> d5ef4f6c6d2ec2dcf5d33ab2162bd725538511994feb0d2257ab64a0e67700de
+~ -[AppleSpell(Spelling) stringByRemovingHebrewDiacriticsFromString:].cold.1 : sha256 e41ea4fbe24c344b98ff879f473dd7dd52bf48785d08d9b7cb6f039f962f9c9e -> f5b17321c62c71c19cc5b4c6a9ce67c66d08b0102b4fc94c949f35d0f338f8a9
+~ -[AppleSpell(EnglishGrammar) _modifiedGrammarRangeForDoubledWordRange:sentenceRange:inString:corrections:].cold.1 : sha256 2eec439d047182ffdc4e9321b7af3e3385d1bc790c1fb9b8f6223f05dc82f468 -> 66e3a3610f8011a5585677728a27cd126b78008cb0cc77a4d2c64516d623dbc4
+
+```

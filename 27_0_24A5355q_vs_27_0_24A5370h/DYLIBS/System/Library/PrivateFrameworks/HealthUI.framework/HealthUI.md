@@ -1,0 +1,1026 @@
+## HealthUI
+
+> `/System/Library/PrivateFrameworks/HealthUI.framework/HealthUI`
+
+```diff
+
+-7027.0.52.2.6
+-  __TEXT.__text: 0x41bb98 sha256:acbd3a2ea3a4fd5ad0916176c23eab07ba0a872f41edab16e3df0f86aa82a73a
+-  __TEXT.__objc_methlist: 0x3ad04 sha256:9dc351463e8e381a66f835cd0d3b482d1541db399958473382947ad17dac257d
+-  __TEXT.__cstring: 0x2280f sha256:bca0716e87fbf51bf871d12083ebca6fe0d338deebb272d94eeaa2da806f1697
+-  __TEXT.__const: 0x8744 sha256:7917f19fb67df0d773dfcd4355bbf8fda2034f42d98b56c9bd08a13efa4b05e3
+-  __TEXT.__gcc_except_tab: 0x2378 sha256:b2d6ef11e477c80104640ced7204106dd3f4e0aeae9d49ed5be1fe35c54a6b11
+-  __TEXT.__oslogstring: 0x7195 sha256:3e998fc19e077633b0ca625397515b2ff41f6ff2a032425d40ccb973d2604703
++7027.0.60.2.2
++  __TEXT.__text: 0x43c3f0 sha256:2db924463684d7a252a8f971ad7055d4ed6a3a669f10c11e6fcf76feccc27d28
++  __TEXT.__objc_methlist: 0x3b27c sha256:41e37424dfe7efaa81f3605e92f84e824424e87d5dff6f744fa1109fedcaf3a5
++  __TEXT.__cstring: 0x2312f sha256:e4f387f4933987a565e75a511597a6c94aa460dade0466bb74b9cb287fb69663
++  __TEXT.__const: 0x8d44 sha256:dc0f5a337a5a752ce96bde69f1ae0f9a46b733809e16005f574d0b8c7cd15c47
++  __TEXT.__gcc_except_tab: 0x23a4 sha256:4776d0ae6435800ae86be63d5ea4a1ed8430458f306692e01bb626ace0ef2357
++  __TEXT.__oslogstring: 0x7385 sha256:0bef165441e91d43c395ce2d5063377d7fc0ed7f31722a4b82ee37b2aeffb8ef
+   __TEXT.__ustring: 0x56 sha256:fdd1119815f3ae35b63d11d7fd8d71ac00f9aed02c27fa78fedf86b6d73d2dd9
+   __TEXT.__dlopen_cstrs: 0x367 sha256:3d4bb78a22e97126d5904080b6f7dedcac519ccc0dfb85b80947bd04f2f1b073
+-  __TEXT.__swift5_typeref: 0x311e sha256:be6878221b92253870450dcaaca3f89cdf68bbe7c6bede849510f84c872dd518
+-  __TEXT.__constg_swiftt: 0x4c68 sha256:c26061a37dcc2602ab7e590ca15996133fa8bd06a41099f37b72c1c263f66b8d
+-  __TEXT.__swift5_reflstr: 0x2cb6 sha256:8f6779e9a3796a9ca1d28f8ce0b9ad341411a32d9e9cbde1f48d55babf4a9fb4
+-  __TEXT.__swift5_fieldmd: 0x2cec sha256:22737af56db8d2ad0ea02885e46d9c1cc6805cc22df1e3e00237ea81c8f966b5
+-  __TEXT.__swift5_builtin: 0x294 sha256:fa0d224ee9eb15ee532a171d31836db22be35035998c4b12feeeecfcbee53913
+-  __TEXT.__swift5_mpenum: 0x28 sha256:9c92f77f1e02227dd11e5919157c1e8dc4e3b02821eb2d127cb17b2a26f993fc
+-  __TEXT.__swift5_assocty: 0x788 sha256:41448c9889e242e916f26906955fa18f2432c5670a9b990b422b209fbd8472c0
+-  __TEXT.__swift5_proto: 0x368 sha256:1b34991ccb441daaa005c795ff76deb0247b22ad6764c706af9a3fc935ebc14a
+-  __TEXT.__swift5_types: 0x3b0 sha256:eebb661f1931abb86b27952b59ee7049a32b52dc77dccc79e1328ec65a58c520
+-  __TEXT.__swift5_capture: 0xe64 sha256:25bc244eb8a723ad2f2f26852a99e44956bafe5cd03b92c49f57fe04cce7f45b
+-  __TEXT.__swift5_protos: 0x68 sha256:969fac851e95aa1bc6d6b51bd0a5be7e56af9060729483689507436f7e661ac4
+-  __TEXT.__swift_as_entry: 0x68 sha256:6b751acf7d1ae032b509fe11f1a6f3df221e5d63d26db667ccb1e204ffbea94a
+-  __TEXT.__swift_as_ret: 0x58 sha256:e5b294c3b804b464ea9ffb7fbcbee78e8dbd7d9327a29150d49fc0e0b3a5994c
+-  __TEXT.__swift_as_cont: 0xe4 sha256:8a23e18ecfc382d57a78b5cbbd7e2362379c9f702e42b1d2e010d162ae365e71
+-  __TEXT.__unwind_info: 0xeb18 sha256:564e664b103dbf0b91b4c9871bfdde35f26508b684db23d27184bf53d8203b3b
+-  __TEXT.__eh_frame: 0x2a30 sha256:ea657ab82d0131525392c048a698a356a5e6d5113c7a3bd87b8583367eb79b8b
++  __TEXT.__swift5_typeref: 0x3488 sha256:1a41e6c9cf02698a1c6eb1b7e3684a78cde3812ee206e20a23cd4b0c3ed028d6
++  __TEXT.__constg_swiftt: 0x4e84 sha256:abd8da3828a42fa867dd1cda80a7d00ff84094de0b46461000d38a101c619c54
++  __TEXT.__swift5_reflstr: 0x3066 sha256:4a0ce3e06967bb5ca150ab9207be5df398ef3b37b3235232408a98a83c337496
++  __TEXT.__swift5_fieldmd: 0x3078 sha256:761e86dff3b31ce146174dd660df91a282868095d9f57d0a01ae77e4da1f22b2
++  __TEXT.__swift5_builtin: 0x2f8 sha256:ecec351dbec294dff374263c7edb906941b8b189a2ae71333d3876941b0f0063
++  __TEXT.__swift5_mpenum: 0x38 sha256:ecf38dff7569d16609b351050aa5ff827c4398fa72907395b55529d4e25ee7c1
++  __TEXT.__swift5_assocty: 0x7e8 sha256:2952181ca8843ace41b7888abf70c371dd253b9796848e63a1f576e784a97e0d
++  __TEXT.__swift5_proto: 0x39c sha256:3474a8b39db96f4be8a7c74488182e452e00cf200011f43280eb9902ed7d5cde
++  __TEXT.__swift5_types: 0x3f0 sha256:2f6778e6be97111ec63ed53ec38a2e5a960ee2085415e61e7e655675d91ec914
++  __TEXT.__swift5_capture: 0x1150 sha256:66188d8d237982b717471f7f7642b1edceb6fcbe422e463d86f40d3c17dd991a
++  __TEXT.__swift5_protos: 0x6c sha256:5265486ce6715882d8016da62ced96d91ca4d3352a604fde10afd6f15fb9e1e3
++  __TEXT.__swift_as_entry: 0x7c sha256:bae5cfd4917866530a1fd4ab47443a62f64cfabae2737b9acf6780dd656ca585
++  __TEXT.__swift_as_ret: 0x6c sha256:63e8558dbb4d8ef571a81876cbd0d0e7c29eee89c3473e336f352e6d8f5eb431
++  __TEXT.__swift_as_cont: 0x11c sha256:a218da81567522bae98d1c569be0f6776a4db1d4295f17e1acc643f11cf38c5d
++  __TEXT.__unwind_info: 0xf110 sha256:d54eeb8b0b0463cd0e9e07fbc8c806895db62c7449fc9b6b048a6e90e52e370c
++  __TEXT.__eh_frame: 0x3058 sha256:caf6410f89e8c2ab51bef56baf8af9fb543a736dd5baf285703c05bab809113e
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x79e8 sha256:c4d84d7056dff00988d9a07614d49e992614b5eae3611d50caefb243419c750a
+-  __DATA_CONST.__objc_classlist: 0x2158 sha256:0eebcf4acb2f18de79342c0f78d22128471a19c1eda2b255a7fb5ccb86ad2383
+-  __DATA_CONST.__objc_catlist: 0x2a8 sha256:04f848722de6e8cdfc3a2bef8a3a9693ed65b05f9c6011ad65b7a87f11207485
+-  __DATA_CONST.__objc_protolist: 0x6b8 sha256:b03772d95482ff3bc0a08a05b622f347bed422e301edadfc962711e1ad91482b
++  __DATA_CONST.__const: 0x7978 sha256:eb6d3d8f1d003241830db08442c3284bcc58b79a5bd41c6b48882fe89f2e10ec
++  __DATA_CONST.__objc_classlist: 0x21a8 sha256:70826cd8bbff229057ac4d2fe5c6b23d280254d02e9c949a23548ff6f6529e7c
++  __DATA_CONST.__objc_catlist: 0x2a8 sha256:bbcd9758acc6421a769f5144ccfdd7e91adb10849bed8de0d508459b3f1d5994
++  __DATA_CONST.__objc_protolist: 0x6c8 sha256:3f9ea0ea865828336bbdfa26d223a7b39e430e64c84b202a1aa469dfd7c9cab9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x18818 sha256:1bb6789577d67e93b1305e049347e0a9f1f282b02b408bb79e837a50e118987e
+-  __DATA_CONST.__objc_protorefs: 0x178 sha256:011660847dc4a820628a6c83d7507305389c0cbb58bb22a32cd7ca4a6b149b7c
+-  __DATA_CONST.__objc_superrefs: 0x1860 sha256:35957195af2e6fd808d015150a4bbba34ed7aa45445b5ca97e4875ff0ab562d9
+-  __DATA_CONST.__objc_arraydata: 0x2080 sha256:9f5f89460c22468e6f8c7d2d20774fad1c3f74e1a0bf077cea488ad42fa34063
+-  __DATA_CONST.__got: 0x3758 sha256:47e3a1ae725db84b01cf1ade1a49a0eef124e50cbdef43f4519278bd05f5b40f
+-  __AUTH_CONST.__const: 0x7778 sha256:782a287e01ce62a93dab4903e626f5ab6f8042c2a89715ad9bcbfda8b7213d96
+-  __AUTH_CONST.__cfstring: 0x1e980 sha256:8649db526c81b5bf37be4683c9211566aa83558bfb91ce73d68086440dba1b2e
+-  __AUTH_CONST.__objc_const: 0x65490 sha256:df3b963442a727ef288a092df8e083f0ae1dcd2807937af1b3ce4269b4133134
+-  __AUTH_CONST.__objc_intobj: 0x2a00 sha256:24846c49d5c3d9c5cc4e24ce3aa43e42ca4274b9ec23945b83f1e54f96bf0658
+-  __AUTH_CONST.__objc_doubleobj: 0x330 sha256:5612fa1e9729b59b956b14cf11893c901af3b1706671ed5204dae10b2e4a1d4c
+-  __AUTH_CONST.__objc_arrayobj: 0xf60 sha256:2728925cb4037a5a1d0bf6b01689d746248a2ab4166bf94c787012bb70ea3257
+-  __AUTH_CONST.__objc_dictobj: 0xc8 sha256:294dbbfb87b42cabc1b18a3bbcd10dfae4100c8f1068896096dcd69db349d0c0
+-  __AUTH_CONST.__auth_got: 0x3008 sha256:93512be99e0a46e3f6afb266a07bbc448c2883f0268d0acba0559c82a28c2d2a
+-  __AUTH.__objc_data: 0x17c10 sha256:d862ed72dfa8d1f9b03d82b55a9715883ce907065245a88d9c3fa24c6c9e1b44
+-  __AUTH.__data: 0x2538 sha256:236a8ad79683bc001227d42c784c55a129e2e78ea8a92ea3b7ebc1eca9bd103b
+-  __DATA.__objc_ivar: 0x4058 sha256:717bf74b876c38ac1aa9174eda4b69327c6e82751f947bf5e58d08e752af0595
+-  __DATA.__data: 0x8078 sha256:059f5cdc9e94061a35c4b58557d00712cc97ed8b7c10e343b11565ff34469406
+-  __DATA.__bss: 0x6af0 sha256:7ae0350d77d0042b7fb67315fb41151abe4d04ff6b421608b8d512b5a423cc8f
+-  __DATA.__common: 0x238 sha256:01e92e4295bb1fafbd8709a7e2d869f0714635c02bfa4ff7c336b907f405feb5
+-  __DATA_DIRTY.__objc_data: 0x15e0 sha256:a15f8756491f1f1df642144ba597538cf75263e9ed36b9e03cebaae260a41b9a
++  __DATA_CONST.__objc_selrefs: 0x18a10 sha256:c7ae1cf3e71c180877f8d97a5a993253b2e4561edcda9addf333f52ca8af23ec
++  __DATA_CONST.__objc_protorefs: 0x188 sha256:183a0f8c462dcad9ee242c0e07abb08cc797dd1b30ed1617b48d7e71ce416220
++  __DATA_CONST.__objc_superrefs: 0x1870 sha256:12a48cbabe0aab724a3632803743842b0e857484ca0b3b64282105b9ef907916
++  __DATA_CONST.__objc_arraydata: 0x2080 sha256:9ec2dd0ad3703cba76d7df52306c025d4e09dc38b5084f7c55a92b1479110d0f
++  __DATA_CONST.__got: 0x3768 sha256:503499197727bdecf67f5aab75277cea53b1e9d81c89e74fece9d9a49cab6db5
++  __AUTH_CONST.__const: 0x84b8 sha256:3033609afd3e24a8244cd138a0aff0cd199e854caf0d0f84d0095db7d40c531a
++  __AUTH_CONST.__cfstring: 0x1e9c0 sha256:a82a51068335c88f55f45cc8004900eb168775bc570294e0951630a5da866002
++  __AUTH_CONST.__objc_const: 0x66040 sha256:d9c820cd2ebd21354864de5eb083d0e0d4ecb9eb5b91b99748602636a61d782d
++  __AUTH_CONST.__objc_intobj: 0x2a00 sha256:554a3bb4e6439688644beac962049b1b5bdf3fc16b636aa78aaaea7d62cb42dc
++  __AUTH_CONST.__objc_doubleobj: 0x330 sha256:22a2c06c1b7f9b38222470efec63711e0842177e99d9173527868b6a0d62f983
++  __AUTH_CONST.__objc_arrayobj: 0xf60 sha256:d8c8878ef70c01e0fc9d678c6480cb1302920d66a23a5d2479d8a313a76d170c
++  __AUTH_CONST.__objc_dictobj: 0xc8 sha256:16aedfe4165160f6840716124222a7f5b2d1450c104658aec9960f4a6e9ff1e8
++  __AUTH_CONST.__auth_got: 0x3078 sha256:38e323ab125abd9c78a48fed7e43f7f177bf429ff3577056e0dda49a3d0714c7
++  __AUTH.__objc_data: 0x18368 sha256:992ea872ce6c2e68256eb68ce0a906155e510a0d43d046135c30ec74339e5871
++  __AUTH.__data: 0x2628 sha256:4b654adb1eb0c878168eaf2ffdce9dc47d5e61b7255882bb8f10ec37bbd22f03
++  __DATA.__objc_ivar: 0x4054 sha256:2057abc6600a3b15ff353dcb84af29e5b085da9d7a8c67d47a52e319568eb55a
++  __DATA.__data: 0x8220 sha256:dbcc8bbd924150013ebb7c1f9d869e3ecf195c7fa1c51020bfe751d9d1cc67c9
++  __DATA.__bss: 0x70c0 sha256:33a4779f53fde24a13f8737ef864244e6a209dff0946bd247bde3ae57f116f00
++  __DATA.__common: 0x250 sha256:14826e0b6685b3ba79e00a098b857a13bd842844fc20c6ca2688ea9c1d6f1cf4
++  __DATA_DIRTY.__objc_data: 0x15e0 sha256:f3f6e6de00e228edf18c4fbb1ef1c810d012cf45ebdc64ba6f237a903d107b27
+   __DATA_DIRTY.__bss: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B3A0BD1A-4242-328B-95AB-8EFDF3032DF5
+-  Functions: 25612
+-  Symbols:   66669
+-  CStrings:  9150
++  UUID: 44689D10-E0C9-3AFF-B25C-147841FFEBEF
++  Functions: 26132
++  Symbols:   67025
++  CStrings:  9205
+ 
+Symbols:
++ +[HKSettingsAuthorizationFactory authorizationTypeDetailViewControllerWithTypeName:type:sourceAuthorizationController:healthStore:onDidSave:]
++ +[HKSettingsAuthorizationFactory authorizationViewControllerWithSource:sourceAuthorizationController:healthStore:shareDescription:updateDescription:storedDataViewControllerProvider:backgroundAppRefreshStatusProvider:]
++ -[HKCalendarScrollViewController _resizeWeekViewsToWidth:]
++ -[HKCalendarScrollViewController viewWillTransitionToSize:withTransitionCoordinator:]
++ -[HKCodableSummaryBalanceMetricsValue hasOutlierContext]
++ -[HKCodableSummaryBalanceMetricsValue outlierContext]
++ -[HKCodableSummaryBalanceMetricsValue setHasOutlierContext:]
++ -[HKCodableSummaryBalanceMetricsValue setOutlierContext:]
++ -[HKDataMetadataSimpleTableViewCell _updateLabelHiddenState]
++ -[HKDataMetadataSimpleTableViewCell labelStackView]
++ -[HKDataMetadataSimpleTableViewCell layoutSubviews]
++ -[HKDataMetadataSimpleTableViewCell prepareForReuse]
++ -[HKDataMetadataSimpleTableViewCell setLabelStackView:]
++ -[HKDataMetadataSimpleTableViewCell systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:]
++ -[HKDisplayType(DerivedProperties) sampleTypesForDateRange]
++ -[HKElectrocardiogramMetadataView footerLabel]
++ -[HKElectrocardiogramMetadataView setFooterLabel:]
++ -[HKElectrocardiogramMetadataView setFooterPreferredMaxLayoutWidth:]
++ -[HKInteractiveChartDisplayType sampleTypesForDateRange]
++ -[HKLevelCategoryTimePeriodSeries categoryLabelBackgroundColor]
++ -[HKMonthWeekView _layoutAccessoryViewContainers]
++ -[HKNavigationController lastKnownWindowSize]
++ -[HKNavigationController setLastKnownWindowSize:]
++ -[HKOrganDonationAlreadyDonorViewController learnMoreButtonTapped:]
++ -[HKOrganDonationAlreadyDonorViewController viewDidLoad]
++ -[HKOrganDonationBaseViewController _addCustomImageIconViewIfNeeded]
++ -[HKOrganDonationBaseViewController _addDoneButtonWithAction:]
++ -[HKOrganDonationBaseViewController _removeOBContentViewHeightConstraints]
++ -[HKOrganDonationBaseViewController bodyString]
++ -[HKOrganDonationBaseViewController titleImage]
++ -[HKOrganDonationBaseViewController titleString]
++ -[HKOrganDonationBaseViewController viewDidLoad]
++ -[HKOrganDonationConfirmDeleteViewController viewDidLoad]
++ -[HKOrganDonationConfirmUpdateViewController viewDidLoad]
++ -[HKOrganDonationConfirmationViewController _privacyButtonTapped:]
++ -[HKOrganDonationConfirmationViewController _registerMeButtonTapped:]
++ -[HKOrganDonationDeleteSuccessViewController _doneButtonTapped:]
++ -[HKOrganDonationMoreAboutPrivacyViewController _closeButtonTapped:]
++ -[HKOrganDonationMoreAboutPrivacyViewController init]
++ -[HKOrganDonationRegisterViewController _addCustomImageIconViewIfNeeded]
++ -[HKOrganDonationRegisterViewController _updateContinueButtonForCurrentMode]
++ -[HKOrganDonationRegisterViewController _updateHeaderForCurrentMode]
++ -[HKOrganDonationThankYouViewController .cxx_destruct]
++ -[HKOrganDonationUnderageViewController _doneButtonTapped:]
++ -[HKOrganDonationUnderageViewController viewDidLoad]
++ -[HKOrganDonationUpdateSuccessViewController _doneButtonTapped:]
++ -[HKOverlayRoomViewController viewDidLayoutSubviews]
++ -[HKSourceAuthorizationController commitAuthorizationStatusForType:]
++ -[HKSourceAuthorizationController commitAuthorizationStatusForType:].cold.1
++ -[UIViewController(HKAdditions) hk_isInFormSheetModal]
++ -[_HKDateContentLayout _dateToContentSpacing]
++ GCC_except_table128
++ GCC_except_table143
++ GCC_except_table148
++ GCC_except_table154
++ GCC_except_table47
++ GCC_except_table88
++ OBJC_IVAR_$_HKCodableSummaryBalanceMetricsValue._outlierContext
++ _NSSelectorFromString
++ _OBJC_CLASS_$_HKAuthorizationSettingsModernizedViewController
++ _OBJC_CLASS_$_HKGlyphTightTextLayout
++ _OBJC_CLASS_$_HKSettingsAuthorizationFactory
++ _OBJC_CLASS_$__TtC8HealthUI25HKAuthorizationToggleCell
++ _OBJC_CLASS_$__TtC8HealthUI32HKAuthorizationAppIconHeaderView
++ _OBJC_CLASS_$__TtC8HealthUI37HKSettingsAuthorizationViewController
++ _OBJC_CLASS_$__TtC8HealthUI39HKAuthorizationCategoryToggleHeaderView
++ _OBJC_CLASS_$__TtC8HealthUI40HKAuthorizationTimeBoundedViewController
++ _OBJC_CLASS_$__TtC8HealthUI47HKSettingsAuthorizationTypeDetailViewController
++ _OBJC_CLASS_$__TtCO8HealthUI17WorkoutZonesCells18UnitValueEntryCell
++ _OBJC_IVAR_$_HKCalendarScrollViewController._lastLayoutWidth
++ _OBJC_IVAR_$_HKCalendarScrollViewController._pendingAnchorDate
++ _OBJC_IVAR_$_HKDataMetadataSimpleTableViewCell._labelStackView
++ _OBJC_IVAR_$_HKElectrocardiogramMetadataView._footerLabel
++ _OBJC_IVAR_$_HKLevelCategoryTimePeriodSeries._categoryLabelBackgroundColor
++ _OBJC_IVAR_$_HKNavigationController._lastKnownWindowSize
++ _OBJC_IVAR_$_HKOrganDonationThankYouViewController._shareButton
++ _OBJC_METACLASS_$_HKAuthorizationSettingsModernizedViewController
++ _OBJC_METACLASS_$_HKGlyphTightTextLayout
++ _OBJC_METACLASS_$_HKSettingsAuthorizationFactory
++ _OBJC_METACLASS_$__TtC8HealthUI25HKAuthorizationToggleCell
++ _OBJC_METACLASS_$__TtC8HealthUI32HKAuthorizationAppIconHeaderView
++ _OBJC_METACLASS_$__TtC8HealthUI37HKSettingsAuthorizationViewController
++ _OBJC_METACLASS_$__TtC8HealthUI39HKAuthorizationCategoryToggleHeaderView
++ _OBJC_METACLASS_$__TtC8HealthUI40HKAuthorizationTimeBoundedViewController
++ _OBJC_METACLASS_$__TtC8HealthUI47HKSettingsAuthorizationTypeDetailViewController
++ _OBJC_METACLASS_$__TtC8HealthUIP33_6437C8397BE458390DCCD81C27D63EDE18PreambleHeaderView
++ _OBJC_METACLASS_$__TtCO8HealthUI17WorkoutZonesCells18UnitValueEntryCell
++ _UIAccessibilityTraitButton
++ _UIAccessibilityTraitSelected
++ __CLASS_METHODS_HKGlyphTightTextLayout
++ __CLASS_METHODS__TtC8HealthUI47HKSettingsAuthorizationTypeDetailViewController
++ __DATA_HKAuthorizationSettingsModernizedViewController
++ __DATA_HKGlyphTightTextLayout
++ __DATA__TtC8HealthUI25HKAuthorizationToggleCell
++ __DATA__TtC8HealthUI32HKAuthorizationAppIconHeaderView
++ __DATA__TtC8HealthUI37HKSettingsAuthorizationViewController
++ __DATA__TtC8HealthUI39HKAuthorizationCategoryToggleHeaderView
++ __DATA__TtC8HealthUI40HKAuthorizationTimeBoundedViewController
++ __DATA__TtC8HealthUI47HKSettingsAuthorizationTypeDetailViewController
++ __DATA__TtC8HealthUIP33_6437C8397BE458390DCCD81C27D63EDE18PreambleHeaderView
++ __DATA__TtCO8HealthUI17WorkoutZonesCells18UnitValueEntryCell
++ __HKStatisticsOptionPresence
++ __INSTANCE_METHODS_HKGlyphTightTextLayout
++ __INSTANCE_METHODS__TtC8HealthUI25HKAuthorizationToggleCell
++ __INSTANCE_METHODS__TtC8HealthUI32HKAuthorizationAppIconHeaderView
++ __INSTANCE_METHODS__TtC8HealthUI39HKAuthorizationCategoryToggleHeaderView
++ __INSTANCE_METHODS__TtC8HealthUI40HKAuthorizationTimeBoundedViewController
++ __INSTANCE_METHODS__TtC8HealthUI47HKSettingsAuthorizationTypeDetailViewController
++ __INSTANCE_METHODS__TtC8HealthUIP33_6437C8397BE458390DCCD81C27D63EDE18PreambleHeaderView
++ __INSTANCE_METHODS__TtCO8HealthUI17WorkoutZonesCells18UnitValueEntryCell
++ __IVARS_HKAuthorizationSettingsModernizedViewController
++ __IVARS__TtC8HealthUI25HKAuthorizationToggleCell
++ __IVARS__TtC8HealthUI32HKAuthorizationAppIconHeaderView
++ __IVARS__TtC8HealthUI37HKSettingsAuthorizationViewController
++ __IVARS__TtC8HealthUI39HKAuthorizationCategoryToggleHeaderView
++ __IVARS__TtC8HealthUI40HKAuthorizationTimeBoundedViewController
++ __IVARS__TtC8HealthUI47HKSettingsAuthorizationTypeDetailViewController
++ __IVARS__TtC8HealthUIP33_6437C8397BE458390DCCD81C27D63EDE18PreambleHeaderView
++ __IVARS__TtCO8HealthUI17WorkoutZonesCells18UnitValueEntryCell
++ __METACLASS_DATA_HKAuthorizationSettingsModernizedViewController
++ __METACLASS_DATA_HKGlyphTightTextLayout
++ __METACLASS_DATA__TtC8HealthUI25HKAuthorizationToggleCell
++ __METACLASS_DATA__TtC8HealthUI32HKAuthorizationAppIconHeaderView
++ __METACLASS_DATA__TtC8HealthUI37HKSettingsAuthorizationViewController
++ __METACLASS_DATA__TtC8HealthUI39HKAuthorizationCategoryToggleHeaderView
++ __METACLASS_DATA__TtC8HealthUI40HKAuthorizationTimeBoundedViewController
++ __METACLASS_DATA__TtC8HealthUI47HKSettingsAuthorizationTypeDetailViewController
++ __METACLASS_DATA__TtC8HealthUIP33_6437C8397BE458390DCCD81C27D63EDE18PreambleHeaderView
++ __METACLASS_DATA__TtCO8HealthUI17WorkoutZonesCells18UnitValueEntryCell
++ __OBJC_$_CLASS_METHODS_HKSettingsAuthorizationFactory
++ __OBJC_$_INSTANCE_METHODS_HKAuthorizationSettingsModernizedViewController(HealthUI|HealthUI1|HealthUI2|HealthUI3|HealthUI4)
++ __OBJC_$_INSTANCE_METHODS_UIView(HKAdditions|HKOBKAdditions|HealthUI)
++ __OBJC_$_INSTANCE_METHODS__TtC8HealthUI37HKSettingsAuthorizationViewController(HealthUI|HealthUI1)
++ __OBJC_$_INSTANCE_VARIABLES_HKOrganDonationThankYouViewController
++ __OBJC_$_PROP_LIST_UIViewController_$_HKAdditions
++ __OBJC_CLASS_PROTOCOLS_$_HKAuthorizationSettingsModernizedViewController(HealthUI|HealthUI1|HealthUI2|HealthUI3|HealthUI4)
++ __OBJC_CLASS_PROTOCOLS_$__TtC8HealthUI37HKSettingsAuthorizationViewController(HealthUI|HealthUI1)
++ __OBJC_CLASS_RO_$_HKSettingsAuthorizationFactory
++ __OBJC_METACLASS_RO_$_HKSettingsAuthorizationFactory
++ __PROPERTIES_HKAuthorizationSettingsModernizedViewController
++ __PROPERTIES__TtC8HealthUI37HKSettingsAuthorizationViewController
++ __PROTOCOLS__TtC8HealthUI40HKAuthorizationTimeBoundedViewController
++ __PROTOCOLS__TtC8HealthUI40HKAuthorizationTimeBoundedViewController.1
++ ___101-[HKRemoteCardioFitnessDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.368
++ ___101-[HKRemoteCardioFitnessDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.378
++ ___102-[HKDataMetadataSubsampleSection _submitCountStandHourQueryForSampleType:aggregateQueryFinishedBlock:]_block_invoke.380
++ ___102-[HKHorizontalSingleLineDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.389
++ ___102-[HKHorizontalTimePeriodDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.395
++ ___102-[HKQuantityDistributionDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.404
++ ___105-[HKClinicalSourceAuthorizationController _setAuthorizationStatuses:modes:shouldUpdateAnchor:completion:]_block_invoke.434
++ ___105-[HKHealthStore(HKUIAdditions) _primaryProfileFetchFirstAndLastNamesForInfoWrapper:meContact:completion:]_block_invoke.471
++ ___111-[HKJulianIndexedSevenDayQuantityDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.392
++ ___114-[HKDataMetadataSubsampleSection _exertionFixedValuesDisplayTypeController:unitController:healthStore:completion:]_block_invoke.388
++ ___123-[HKBloodPressureClassificationContext updateContextItemForDateInterval:overlayController:timeScope:resolution:completion:]_block_invoke.503
++ ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.407
++ ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.407.cold.1
++ ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.409
++ ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.409.cold.1
++ ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.410
++ ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.410.cold.1
++ ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.411
++ ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.411.cold.1
++ ___38-[HKSourceListDataSource fetchSources]_block_invoke.451
++ ___39-[HKLevelCategoryTimePeriodSeries init]_block_invoke
++ ___45-[HKMedicationAuthorizationController reload]_block_invoke.382
++ ___49-[HKMonthWeekView _layoutAccessoryViewContainers]_block_invoke
++ ___50-[HKTinkerSharingSyncSetupController setupSharing]_block_invoke.452
++ ___50-[HKTinkerSharingSyncSetupController setupSharing]_block_invoke.460
++ ___52-[HKSampleTypeUpdateController _createQueryForType:]_block_invoke.393
++ ___53-[HKDataMetadataOxygenSaturationSection queryForData]_block_invoke.396
++ ___54+[HKSourceListDataSource _builtinIconFetchTransformer]_block_invoke.476
++ ___54+[HKSourceListDataSource _builtinIconFetchTransformer]_block_invoke.482
++ ___54+[HKSourceListDataSource _builtinIconFetchTransformer]_block_invoke_2.483
++ ___56-[HKMedicalIDViewController _refreshMedicalIDInViewMode]_block_invoke.517
++ ___56-[HKOrganDonationConfirmationViewController viewDidLoad]_block_invoke
++ ___59-[HKDataMetadataViewController _fetchWorkoutRouteLocations]_block_invoke.493
++ ___60-[HKHealthConceptPickerViewController disallowButtonTapped:]_block_invoke.432
++ ___60-[HKSourceListDataSource _didFetchSources:error:completion:]_block_invoke.491
++ ___60-[HKSourceListDataSource _didFetchSources:error:completion:]_block_invoke_2.494
++ ___60-[HKSourceListDataSource _didFetchSources:error:completion:]_block_invoke_3.495
++ ___60-[HKSourceListDataSource _didFetchSources:error:completion:]_block_invoke_4.496
++ ___60-[HKTinkerSharingGizmoPermissionController sendOptInRequest]_block_invoke.451
++ ___61-[HKSourceAuthorizationController _setAuthorizationStatuses:]_block_invoke
++ ___62-[HKSleepChartDataSource queriesForRequest:completionHandler:]_block_invoke.373
++ ___62-[HKSleepChartDataSource queriesForRequest:completionHandler:]_block_invoke.373.cold.1
++ ___62-[HKSleepChartDataSource queriesForRequest:completionHandler:]_block_invoke.374
++ ___63+[HKSourceListDataSource _builtinInstallationStatusTransformer]_block_invoke.463
++ ___63+[HKSourceListDataSource _builtinInstallationStatusTransformer]_block_invoke.463.cold.1
++ ___64+[HKSourceListDataSource _builtinPurposeStringsFetchTransformer]_block_invoke.487
++ ___64+[HKSourceListDataSource _builtinPurposeStringsFetchTransformer]_block_invoke.487.cold.1
++ ___64-[HKLocationFetcher _requeryRoutesForWorkout:withUpdateHandler:]_block_invoke.389
++ ___64-[HKLocationFetcher _requeryRoutesForWorkout:withUpdateHandler:]_block_invoke.391
++ ___64-[HKLocationFetcher _requeryRoutesForWorkout:withUpdateHandler:]_block_invoke_2.390
++ ___64-[HKLocationFetcher _requeryRoutesForWorkout:withUpdateHandler:]_block_invoke_2.392
++ ___64-[HKObjectDataAccessViewController _refreshAppAuthorizationData]_block_invoke.405
++ ___65-[HKAudioExposureDevicesDataSource _makeDeviceQueryForDeviceType]_block_invoke.372
++ ___65-[HKClinicalSourceAuthorizationController _reloadWithCompletion:]_block_invoke.370
++ ___65-[HKLevelCategoryDataSource queriesForRequest:completionHandler:]_block_invoke.375
++ ___65-[HKObjectDataAccessViewController switchCellValueChanged:value:]_block_invoke.430
++ ___66-[HKSourceAuthorizationController _reloadTypeAuthorizationRecords]_block_invoke.428
++ ___66-[_HKIngestSettingsViewController fetchEnabledStatusForPeripheral]_block_invoke.368
++ ___67-[HKSampleTypeCountDataSource queriesForRequest:completionHandler:]_block_invoke.372
++ ___68-[HKActivitySummaryDataProvider _mainQueueFetchValueWithRetryCount:]_block_invoke.417
++ ___72-[HKAppImageManager _enqueueRequestForAppIconForIdentifier:productType:]_block_invoke.447
++ ___72-[HKAppImageManager _enqueueRequestForAppIconForIdentifier:productType:]_block_invoke.447.cold.1
++ ___72-[HKAppImageManager _enqueueRequestForAppIconForIdentifier:productType:]_block_invoke.467
++ ___72-[HKAppImageManager _enqueueRequestForAppIconForIdentifier:productType:]_block_invoke.467.cold.1
++ ___72-[HKAppImageManager _enqueueRequestForAppIconForIdentifier:productType:]_block_invoke.468
++ ___72-[HKHorizontalSingleLineDataSource queriesForRequest:completionHandler:]_block_invoke.375
++ ___75-[HKNanoHostAuthorizationController setRequestRecord:presentationRequests:]_block_invoke.372
++ ___75-[HKNanoHostAuthorizationController setRequestRecord:presentationRequests:]_block_invoke.372.cold.1
++ ___78-[HKLocationFetcher fetchLocationsFromWorkout:workoutActivity:samplesHandler:]_block_invoke.378
++ ___80-[HKMenopausalStateLevelCategoryDataSource queriesForRequest:completionHandler:]_block_invoke.371
++ ___81-[HKJulianIndexedSevenDayQuantityDataSource queriesForRequest:completionHandler:]_block_invoke.376
++ ___85-[HKRouteMapGenerator snapshotWithSize:lineWidth:traitCollection:offsets:completion:]_block_invoke.392
++ ___86-[HKOrganDonationConnectionManager _genericJSONDataTaskWithRequest:completionHandler:]_block_invoke.521
++ ___88-[HKHorizontalTimePeriodDataSource _chartPointsWithDateIntervalsByValue:sourceTimeZone:]_block_invoke.383
++ ___88-[HKWorkoutRouteViewController _internalDebuggingOnly_fetchUnsmoothedRoutesFromDatabase]_block_invoke.565
++ ___89-[HKInsulinDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.490
++ ___92-[HKSleepChartDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.389
++ ___94-[HKQuantityTypeDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.469
++ ___95-[HKBloodPressureDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.414
++ ___95-[HKEmergencyCardNameAndPictureTableItem _checkOrRequestForCameraAccessIfNeededWithCompletion:]_block_invoke.430
++ ___95-[HKLevelCategoryDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.389
++ ___97-[HKBeatToBeatViewController initWithHRVSample:healthStore:displayTypeController:unitController:]_block_invoke.380
++ ___97-[HKSampleTypeCountDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.386
++ ___98-[HKHandwashingEventDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.490
++ ___98-[HKHealthStore(HKUIAdditions) _nonPrimaryProfileFetchFirstAndLastNamesForInfoWrapper:completion:]_block_invoke.475
++ ___98-[HKRecalibrateEstimatesPresentationController _requestAndConfigureHostViewController:completion:]_block_invoke.448
++ ___98-[HKTimePeriodSeriesDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.391
++ ___block_descriptor_40_e8_32s_e23_v32?0"UIView"8Q16^B24ls32l8
++ ___block_descriptor_48_e8_32s40s_e55_v32?0"_HKAuthorizationModeInfo"8"NSDictionary"16^B24ls32l8s40l8
++ ___block_descriptor_72_e8_32s40s48s56s64bs_e47_v24?0"HKFeatureOnboardingRecord"8"NSError"16ls32l8s40l8s48l8s56l8s64l8
++ ___block_literal_global.1010
++ ___block_literal_global.1022
++ ___block_literal_global.375
++ ___block_literal_global.376
++ ___block_literal_global.377
++ ___block_literal_global.379
++ ___block_literal_global.380
++ ___block_literal_global.387
++ ___block_literal_global.395
++ ___block_literal_global.397
++ ___block_literal_global.399
++ ___block_literal_global.406
++ ___block_literal_global.407
++ ___block_literal_global.414
++ ___block_literal_global.415
++ ___block_literal_global.416
++ ___block_literal_global.423
++ ___block_literal_global.431
++ ___block_literal_global.434
++ ___block_literal_global.436
++ ___block_literal_global.438
++ ___block_literal_global.439
++ ___block_literal_global.441
++ ___block_literal_global.443
++ ___block_literal_global.446
++ ___block_literal_global.450
++ ___block_literal_global.454
++ ___block_literal_global.457
++ ___block_literal_global.458
++ ___block_literal_global.466
++ ___block_literal_global.467
++ ___block_literal_global.471
++ ___block_literal_global.482
++ ___block_literal_global.483
++ ___block_literal_global.493
++ ___block_literal_global.503
++ ___block_literal_global.505
++ ___block_literal_global.508
++ ___block_literal_global.509
++ ___block_literal_global.511
++ ___block_literal_global.513
++ ___block_literal_global.525
++ ___block_literal_global.626
++ ___block_literal_global.634
++ ___block_literal_global.636
++ ___block_literal_global.670
++ ___block_literal_global.671
++ ___block_literal_global.674
++ ___block_literal_global.679
++ ___block_literal_global.684
++ ___block_literal_global.686
++ ___block_literal_global.688
++ ___block_literal_global.691
++ ___block_literal_global.696
++ ___block_literal_global.701
++ ___block_literal_global.706
++ ___block_literal_global.711
++ ___block_literal_global.716
++ ___block_literal_global.721
++ ___block_literal_global.726
++ ___block_literal_global.741
++ ___block_literal_global.757
++ ___block_literal_global.762
++ ___block_literal_global.783
++ ___block_literal_global.785
++ ___block_literal_global.787
++ ___block_literal_global.804
++ ___block_literal_global.809
++ ___block_literal_global.814
++ ___block_literal_global.816
++ ___block_literal_global.818
++ ___block_literal_global.823
++ ___block_literal_global.828
++ ___block_literal_global.833
++ ___block_literal_global.838
++ ___block_literal_global.843
++ ___block_literal_global.864
++ ___block_literal_global.866
++ ___block_literal_global.868
++ ___block_literal_global.873
++ ___block_literal_global.875
++ ___block_literal_global.877
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.78
++ ___swift_memcpy25_8
++ ___swift_memcpy4_1
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 8HealthUI32HKAuthorizationAppIconHeaderViewC14ArrowDirectionOSHAASQ
++ _associated conformance 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3Row33_9BE20E9F5759C0A877E43F07F0B85A10LLOSHAASQ
++ _associated conformance 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3Row33_9BE20E9F5759C0A877E43F07F0B85A10LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 8HealthUI47HKSettingsAuthorizationTypeDetailViewControllerC3Row028_F3C021AC8A66450D0B9C3955705J3CEALLOSHAASQ
++ _associated conformance 8HealthUI47HKSettingsAuthorizationTypeDetailViewControllerC3Row028_F3C021AC8A66450D0B9C3955705J3CEALLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 8HealthUI47VitalsInteractiveChartsSelectableClassificationOSHAASQ
++ _associated conformance 8HealthUI47VitalsInteractiveChartsSelectableClassificationOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9HealthKit13HKWorkoutZoneV0A2UIE5BoundOSHADSQ
++ _associated conformance So27HKDisplayCategoryIdentifierVSHSCSQ
++ _block_copy_helper.11
++ _block_copy_helper.18
++ _block_copy_helper.22
++ _block_copy_helper.30
++ _block_copy_helper.33
++ _block_copy_helper.36
++ _block_copy_helper.39
++ _block_copy_helper.70
++ _block_copy_helper.82
++ _block_descriptor.13
++ _block_descriptor.20
++ _block_descriptor.24
++ _block_descriptor.32
++ _block_descriptor.35
++ _block_descriptor.38
++ _block_descriptor.41
++ _block_descriptor.72
++ _block_descriptor.84
++ _block_destroy_helper.12
++ _block_destroy_helper.19
++ _block_destroy_helper.23
++ _block_destroy_helper.31
++ _block_destroy_helper.34
++ _block_destroy_helper.37
++ _block_destroy_helper.40
++ _block_destroy_helper.71
++ _block_destroy_helper.83
++ _get_enum_tag_for_layout_string 8HealthUI24AuthorizationSectionItem33_6437C8397BE458390DCCD81C27D63EDELLO
++ _get_enum_tag_for_layout_string 8HealthUI37HKSettingsAuthorizationViewControllerC7Section33_4A8F31D9C5BB5ADAAA51560B96AFC58ELLO
++ _keypath_get_selector_delegate
++ _objc_msgSend$_addCustomImageIconViewIfNeeded
++ _objc_msgSend$_addDoneButtonWithAction:
++ _objc_msgSend$_dateToContentSpacing
++ _objc_msgSend$_layoutAccessoryViewContainers
++ _objc_msgSend$_privacyButtonTapped:
++ _objc_msgSend$_removeOBContentViewHeightConstraints
++ _objc_msgSend$_resizeWeekViewsToWidth:
++ _objc_msgSend$_updateContinueButtonForCurrentMode
++ _objc_msgSend$_updateHeaderForCurrentMode
++ _objc_msgSend$_updateLabelHiddenState
++ _objc_msgSend$activePresentationController
++ _objc_msgSend$availabilityStartDateForType:
++ _objc_msgSend$categoryLabelBackgroundColor
++ _objc_msgSend$commitAuthorizationStatusForType:
++ _objc_msgSend$configureSourceControllerAndSections
++ _objc_msgSend$configureTableView
++ _objc_msgSend$constraints
++ _objc_msgSend$coordinateSpace
++ _objc_msgSend$dequeueReusableHeaderFooterViewWithIdentifier:
++ _objc_msgSend$effectiveGeometry
++ _objc_msgSend$fetchStatusForBundleIdentifier:handler:
++ _objc_msgSend$firstAttribute
++ _objc_msgSend$firstItem
++ _objc_msgSend$footerLabel
++ _objc_msgSend$getFeatureOnboardingRecordWithCompletion:
++ _objc_msgSend$hk_firstDescendantOfClass:
++ _objc_msgSend$hk_isInFormSheetModal
++ _objc_msgSend$hk_onboardingListDirectionalEdgeInsets
++ _objc_msgSend$initWithHealthStore:style:source:typesToShare:typesToRead:shareDescription:updateDescription:researchStudyUsageDescription:
++ _objc_msgSend$initWithSampleType:samplePredicate:options:anchorDate:intervalComponents:
++ _objc_msgSend$initWithSize:scale:
++ _objc_msgSend$initWithSource:sourceAuthorizationController:healthStore:
++ _objc_msgSend$initWithTitle:detailText:icon:
++ _objc_msgSend$initWithTitle:detailText:icon:adoptTableViewScrollView:
++ _objc_msgSend$initWithTitle:detailText:symbolName:
++ _objc_msgSend$initWithTitle:detailText:symbolName:adoptTableViewScrollView:
++ _objc_msgSend$isKindOfClass:
++ _objc_msgSend$labelStackView
++ _objc_msgSend$lastKnownWindowSize
++ _objc_msgSend$leading
++ _objc_msgSend$makeViewControllerWithTypeName:type:sourceAuthorizationController:healthStore:onDidSave:
++ _objc_msgSend$methodForSelector:
++ _objc_msgSend$minimumVerticalSpacingWithTopFont:topFrameHeight:bottomFont:bottomFrameHeight:displayScale:fallback:
++ _objc_msgSend$numberOfRowsInSection:
++ _objc_msgSend$onboardingManager:viewControllerForPage:
++ _objc_msgSend$pauseRingsScheduleType
++ _objc_msgSend$presentationStyle
++ _objc_msgSend$registerClass:forHeaderFooterViewReuseIdentifier:
++ _objc_msgSend$removeButton:
++ _objc_msgSend$removeTarget:action:forControlEvents:
++ _objc_msgSend$sampleTypesForDateRange
++ _objc_msgSend$setAccessibilityTraits:
++ _objc_msgSend$setAuthorizationMode:availabilityStartDate:forType:
++ _objc_msgSend$setBackgroundAppRefreshStatusProvider:
++ _objc_msgSend$setCaptionText:style:learnMoreAction:
++ _objc_msgSend$setDisplayInfoIcon:
++ _objc_msgSend$setEstimatedSectionHeaderHeight:
++ _objc_msgSend$setFooterLabel:
++ _objc_msgSend$setInsetsLayoutMarginsFromSafeArea:
++ _objc_msgSend$setLabelStackView:
++ _objc_msgSend$setLastKnownWindowSize:
++ _objc_msgSend$setPreferredHeartRateZoneConfigurationSourceString:withCompletion:
++ _objc_msgSend$setShareDescription:
++ _objc_msgSend$setStoredDataViewControllerProvider:
++ _objc_msgSend$setTitleTapOutBlock:
++ _objc_msgSend$setUpHeaderView
++ _objc_msgSend$setUpdateDescription:
++ _objc_msgSend$shouldDisplayHealthRecordsRequests
++ _objc_msgSend$shouldDisplayReadingSection
++ _objc_msgSend$shouldDisplaySharingSection
++ _objc_msgSend$timeBoundedAuthorization
++ _objc_retain_x12
++ _sharedInstance.numberFormatter.447
++ _sharedInstance.onceToken.448
++ _symbolic $s8HealthUI33HKAuthorizationToggleCellDelegateP
++ _symbolic IeyB_
++ _symbolic SSSbIegy_Ieggg_
++ _symbolic SSSbytIegnr_ytIegnnr_
++ _symbolic Say_____G 8HealthUI37HKSettingsAuthorizationViewControllerC7Section33_4A8F31D9C5BB5ADAAA51560B96AFC58ELLO
++ _symbolic Say_____G 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3Row33_9BE20E9F5759C0A877E43F07F0B85A10LLO
++ _symbolic Say_____G 8HealthUI47HKSettingsAuthorizationTypeDetailViewControllerC3Row028_F3C021AC8A66450D0B9C3955705J3CEALLO
++ _symbolic Say_____G 8HealthUI47VitalsInteractiveChartsSelectableClassificationO
++ _symbolic SbIegy_
++ _symbolic SbytIegnr_
++ _symbolic ScCySay_____G_____G 10Foundation4DateV s5NeverO
++ _symbolic ScCySb_____G s5NeverO
++ _symbolic ScCy_____Sg_____G 10Foundation4DateV s5NeverO
++ _symbolic ShySo12HKObjectTypeCG
++ _symbolic So023UITableViewHeaderFooterB0C
++ _symbolic So11UITextFieldC
++ _symbolic So12HKObjectTypeC
++ _symbolic So13HKHealthStoreCSo16UIViewControllerCIeggg_
++ _symbolic So13HKHealthStoreCSo16UIViewControllerCIeghgg_
++ _symbolic So13HKHealthStoreCSo16UIViewControllerCIeyByy_
++ _symbolic So13HKHealthStoreCSo16UIViewControllerCytIeghnnr_
++ _symbolic So16OBBoldTrayButtonCSgXw
++ _symbolic So16UIViewControllerCIego_
++ _symbolic So16UIViewControllerCIegr_
++ _symbolic So16UIViewControllerCIeyBa_
++ _symbolic So16UIViewControllerCycSg
++ _symbolic So17HKDisplayCategoryC8category_SaySo12HKObjectTypeCG5typest
++ _symbolic So23HKDisplayTypeControllerCSg
++ _symbolic So27HKStatisticsCollectionQueryC
++ _symbolic So31HKSourceAuthorizationControllerC
++ _symbolic So47HKAuthorizationSettingsModernizedViewControllerCSgXw
++ _symbolic So47HKAuthorizationSettingsModernizedViewControllerCSgXwz_Xx
++ _symbolic So8HKSourceC
++ _symbolic So8NSStringC_____IeyBy_IeyByy_ 10ObjectiveC8ObjCBoolV
++ _symbolic So8UIButtonC
++ _symbolic So8UISwitchC
++ _symbolic _____ 8HealthUI17WorkoutZonesCellsO18UnitValueEntryCellC
++ _symbolic _____ 8HealthUI18PreambleHeaderView33_6437C8397BE458390DCCD81C27D63EDELLC
++ _symbolic _____ 8HealthUI20GlyphTightTextLayoutC
++ _symbolic _____ 8HealthUI20GlyphTightTextLayoutC0E7MetricsV
++ _symbolic _____ 8HealthUI24AuthorizationSectionItem33_6437C8397BE458390DCCD81C27D63EDELLO
++ _symbolic _____ 8HealthUI24HKTimeBoundedAccessLevelO
++ _symbolic _____ 8HealthUI25HKAuthorizationToggleCellC
++ _symbolic _____ 8HealthUI32HKAuthorizationAppIconHeaderViewC
++ _symbolic _____ 8HealthUI32HKAuthorizationAppIconHeaderViewC14ArrowDirectionO
++ _symbolic _____ 8HealthUI37HKSettingsAuthorizationViewControllerC
++ _symbolic _____ 8HealthUI37HKSettingsAuthorizationViewControllerC7Section33_4A8F31D9C5BB5ADAAA51560B96AFC58ELLO
++ _symbolic _____ 8HealthUI39HKAuthorizationCategoryToggleHeaderViewC
++ _symbolic _____ 8HealthUI40HKAuthorizationTimeBoundedViewControllerC
++ _symbolic _____ 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3Row33_9BE20E9F5759C0A877E43F07F0B85A10LLO
++ _symbolic _____ 8HealthUI47HKSettingsAuthorizationTypeDetailViewControllerC
++ _symbolic _____ 8HealthUI47HKSettingsAuthorizationTypeDetailViewControllerC3Row028_F3C021AC8A66450D0B9C3955705J3CEALLO
++ _symbolic _____ 8HealthUI47VitalsInteractiveChartsSelectableClassificationO
++ _symbolic _____ 9HealthKit13HKWorkoutZoneV
++ _symbolic _____ 9HealthKit13HKWorkoutZoneV0A2UIE5BoundO
++ _symbolic _____ So22HKAuthorizationSectionV
++ _symbolic _____ So24OBTableWelcomeControllerC8HealthUIE21OnboardingImageHeightV
++ _symbolic _____ So27HKDisplayCategoryIdentifierV
++ _symbolic _____ So29HKOverlayRoomPreferredOverlayV
++ _symbolic _____5since_t 10Foundation4DateV
++ _symbolic _____7section_So17HKDisplayCategoryC8categorySaySo12HKObjectTypeCG5typest So22HKAuthorizationSectionV
++ _symbolic _____IeyBy_ 10ObjectiveC8ObjCBoolV
++ _symbolic _____Sg 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3Row33_9BE20E9F5759C0A877E43F07F0B85A10LLO
++ _symbolic _____Sg 8HealthUI47VitalsInteractiveChartsSelectableClassificationO
++ _symbolic _____SgXw 8HealthUI37HKSettingsAuthorizationViewControllerC
++ _symbolic _____SgXw 8HealthUI47HKSettingsAuthorizationTypeDetailViewControllerC
++ _symbolic _____SgXwz_Xx 8HealthUI37HKSettingsAuthorizationViewControllerC
++ _symbolic _____SgXwz_Xx 8HealthUI47HKSettingsAuthorizationTypeDetailViewControllerC
++ _symbolic ______pSgXw 8HealthUI33HKAuthorizationToggleCellDelegateP
++ _symbolic ______pSgXw So46HKHealthPrivacyServicePromptControllerDelegateP
++ _symbolic ySS_ySbctcSg
++ _symbolic y_____c 8HealthUI24HKTimeBoundedAccessLevelO
++ _type_layout_string 8HealthUI20GlyphTightTextLayoutC0E7MetricsV
++ _type_layout_string 8HealthUI24AuthorizationSectionItem33_6437C8397BE458390DCCD81C27D63EDELLO
++ _type_layout_string 8HealthUI37HKSettingsAuthorizationViewControllerC7Section33_4A8F31D9C5BB5ADAAA51560B96AFC58ELLO
+- -[HKOrganDonationAlreadyDonorViewController bottomAnchoredButtons]
+- -[HKOrganDonationAlreadyDonorViewController buttonAtIndexTapped:]
+- -[HKOrganDonationAlreadyDonorViewController linkButtonTapped:]
+- -[HKOrganDonationAlreadyDonorViewController linkButtonTitle]
+- -[HKOrganDonationConfirmDeleteViewController bottomAnchoredButtons]
+- -[HKOrganDonationConfirmDeleteViewController buttonAtIndexTapped:]
+- -[HKOrganDonationConfirmUpdateViewController bottomAnchoredButtons]
+- -[HKOrganDonationConfirmUpdateViewController buttonAtIndexTapped:]
+- -[HKOrganDonationConfirmationViewController _createTableFooterView]
+- -[HKOrganDonationConfirmationViewController _createTableHeaderView]
+- -[HKOrganDonationConfirmationViewController loadingIndicatorBarButtonItem]
+- -[HKOrganDonationConfirmationViewController loadingIndicator]
+- -[HKOrganDonationConfirmationViewController setLoadingIndicator:]
+- -[HKOrganDonationConfirmationViewController setLoadingIndicatorBarButtonItem:]
+- -[HKOrganDonationConfirmationViewController setTableView:]
+- -[HKOrganDonationConfirmationViewController tableView]
+- -[HKOrganDonationConfirmationViewController titledBuddyHeaderViewDidTapLinkButton:]
+- -[HKOrganDonationConfirmationViewController viewDidLayoutSubviews]
+- -[HKOrganDonationDeleteSuccessViewController bottomAnchoredButtons]
+- -[HKOrganDonationDeleteSuccessViewController buttonAtIndexTapped:]
+- -[HKOrganDonationIntroductionViewController bottomAnchoredButtons]
+- -[HKOrganDonationIntroductionViewController buttonAtIndexTapped:]
+- -[HKOrganDonationIntroductionViewController linkButtonTapped:]
+- -[HKOrganDonationIntroductionViewController linkButtonTitle]
+- -[HKOrganDonationMoreAboutPrivacyViewController .cxx_destruct]
+- -[HKOrganDonationMoreAboutPrivacyViewController _updateForCurrentSizeCategory]
+- -[HKOrganDonationMoreAboutPrivacyViewController doneButtonTapped:]
+- -[HKOrganDonationMoreAboutPrivacyViewController setTextView:]
+- -[HKOrganDonationMoreAboutPrivacyViewController textView]
+- -[HKOrganDonationMoreAboutPrivacyViewController traitCollectionDidChange:]
+- -[HKOrganDonationMoreAboutPrivacyViewController viewDidLoad]
+- -[HKOrganDonationMoreAboutPrivacyViewController viewWillAppear:]
+- -[HKOrganDonationRegisterViewController _createTableFooterView]
+- -[HKOrganDonationRegisterViewController _createTableHeaderView]
+- -[HKOrganDonationRegisterViewController _headerTapped:]
+- -[HKOrganDonationRegisterViewController nextButton]
+- -[HKOrganDonationRegisterViewController setNextButton:]
+- -[HKOrganDonationRegisterViewController tableView:heightForFooterInSection:]
+- -[HKOrganDonationRegisterViewController tableView:heightForHeaderInSection:]
+- -[HKOrganDonationRegisterViewController tableView:viewForFooterInSection:]
+- -[HKOrganDonationRegisterViewController tableView:viewForHeaderInSection:]
+- -[HKOrganDonationRegisterViewController viewWillAppear:]
+- -[HKOrganDonationThankYouViewController bottomAnchoredButtons]
+- -[HKOrganDonationThankYouViewController buttonAtIndexTapped:]
+- -[HKOrganDonationUnderageViewController bottomAnchoredButtons]
+- -[HKOrganDonationUnderageViewController buttonAtIndexTapped:]
+- -[HKOrganDonationUpdateSuccessViewController bottomAnchoredButtons]
+- -[HKOrganDonationUpdateSuccessViewController buttonAtIndexTapped:]
+- -[HKSampleTypeDateRangeController _dateRangeSampleTypesForSampleType:]
+- GCC_except_table127
+- GCC_except_table142
+- GCC_except_table147
+- GCC_except_table153
+- GCC_except_table52
+- GCC_except_table87
+- _OBJC_CLASS_$__TtC8HealthUI32LevelDateRangeDataSourceDelegate
+- _OBJC_IVAR_$_HKOrganDonationConfirmationViewController._footerView
+- _OBJC_IVAR_$_HKOrganDonationConfirmationViewController._headerView
+- _OBJC_IVAR_$_HKOrganDonationConfirmationViewController._loadingIndicator
+- _OBJC_IVAR_$_HKOrganDonationConfirmationViewController._loadingIndicatorBarButtonItem
+- _OBJC_IVAR_$_HKOrganDonationConfirmationViewController._tableView
+- _OBJC_IVAR_$_HKOrganDonationMoreAboutPrivacyViewController._textView
+- _OBJC_IVAR_$_HKOrganDonationRegisterViewController._footerView
+- _OBJC_IVAR_$_HKOrganDonationRegisterViewController._headerView
+- _OBJC_IVAR_$_HKOrganDonationRegisterViewController._nextButton
+- _OBJC_METACLASS_$__TtC8HealthUI32LevelDateRangeDataSourceDelegate
+- __DATA__TtC8HealthUI32LevelDateRangeDataSourceDelegate
+- __INSTANCE_METHODS__TtC8HealthUI32LevelDateRangeDataSourceDelegate
+- __IVARS__TtC8HealthUI32LevelDateRangeDataSourceDelegate
+- __METACLASS_DATA__TtC8HealthUI32LevelDateRangeDataSourceDelegate
+- __OBJC_$_INSTANCE_METHODS_UIView(HKAdditions|HKOBKAdditions)
+- __OBJC_$_INSTANCE_VARIABLES_HKOrganDonationMoreAboutPrivacyViewController
+- __OBJC_$_PROP_LIST_HKOrganDonationMoreAboutPrivacyViewController
+- __PROTOCOLS__TtC8HealthUI32LevelDateRangeDataSourceDelegate
+- __PROTOCOLS__TtC8HealthUI32LevelDateRangeDataSourceDelegate.4
+- ___101-[HKRemoteCardioFitnessDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.362
+- ___101-[HKRemoteCardioFitnessDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.372
+- ___102-[HKDataMetadataSubsampleSection _submitCountStandHourQueryForSampleType:aggregateQueryFinishedBlock:]_block_invoke.374
+- ___102-[HKHorizontalSingleLineDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.383
+- ___102-[HKHorizontalTimePeriodDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.389
+- ___102-[HKQuantityDistributionDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.398
+- ___105-[HKClinicalSourceAuthorizationController _setAuthorizationStatuses:modes:shouldUpdateAnchor:completion:]_block_invoke.428
+- ___105-[HKHealthStore(HKUIAdditions) _primaryProfileFetchFirstAndLastNamesForInfoWrapper:meContact:completion:]_block_invoke.465
+- ___111-[HKJulianIndexedSevenDayQuantityDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.386
+- ___114-[HKDataMetadataSubsampleSection _exertionFixedValuesDisplayTypeController:unitController:healthStore:completion:]_block_invoke.382
+- ___123-[HKBloodPressureClassificationContext updateContextItemForDateInterval:overlayController:timeScope:resolution:completion:]_block_invoke.497
+- ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.401
+- ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.401.cold.1
+- ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.403
+- ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.403.cold.1
+- ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.404
+- ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.404.cold.1
+- ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.405
+- ___126-[HKHealthChartFactory encodeChartQueryDataForTypeIdentifier:forTimeScopes:timeScopeReferenceDate:audience:completionHandler:]_block_invoke.405.cold.1
+- ___38-[HKSourceListDataSource fetchSources]_block_invoke.430
+- ___45-[HKMedicationAuthorizationController reload]_block_invoke.376
+- ___50-[HKTinkerSharingSyncSetupController setupSharing]_block_invoke.431
+- ___50-[HKTinkerSharingSyncSetupController setupSharing]_block_invoke.439
+- ___52-[HKSampleTypeUpdateController _createQueryForType:]_block_invoke.387
+- ___53-[HKDataMetadataOxygenSaturationSection queryForData]_block_invoke.390
+- ___54+[HKSourceListDataSource _builtinIconFetchTransformer]_block_invoke.455
+- ___54+[HKSourceListDataSource _builtinIconFetchTransformer]_block_invoke.461
+- ___54+[HKSourceListDataSource _builtinIconFetchTransformer]_block_invoke_2.462
+- ___56-[HKMedicalIDViewController _refreshMedicalIDInViewMode]_block_invoke.511
+- ___59-[HKDataMetadataViewController _fetchWorkoutRouteLocations]_block_invoke.472
+- ___60-[HKHealthConceptPickerViewController disallowButtonTapped:]_block_invoke.426
+- ___60-[HKSourceListDataSource _didFetchSources:error:completion:]_block_invoke.470
+- ___60-[HKSourceListDataSource _didFetchSources:error:completion:]_block_invoke_2.473
+- ___60-[HKSourceListDataSource _didFetchSources:error:completion:]_block_invoke_3.474
+- ___60-[HKSourceListDataSource _didFetchSources:error:completion:]_block_invoke_4.475
+- ___60-[HKTinkerSharingGizmoPermissionController sendOptInRequest]_block_invoke.430
+- ___62-[HKSleepChartDataSource queriesForRequest:completionHandler:]_block_invoke.367
+- ___62-[HKSleepChartDataSource queriesForRequest:completionHandler:]_block_invoke.367.cold.1
+- ___62-[HKSleepChartDataSource queriesForRequest:completionHandler:]_block_invoke.368
+- ___63+[HKSourceListDataSource _builtinInstallationStatusTransformer]_block_invoke.442
+- ___63+[HKSourceListDataSource _builtinInstallationStatusTransformer]_block_invoke.442.cold.1
+- ___64+[HKSourceListDataSource _builtinPurposeStringsFetchTransformer]_block_invoke.466
+- ___64+[HKSourceListDataSource _builtinPurposeStringsFetchTransformer]_block_invoke.466.cold.1
+- ___64-[HKLocationFetcher _requeryRoutesForWorkout:withUpdateHandler:]_block_invoke.383
+- ___64-[HKLocationFetcher _requeryRoutesForWorkout:withUpdateHandler:]_block_invoke.385
+- ___64-[HKLocationFetcher _requeryRoutesForWorkout:withUpdateHandler:]_block_invoke_2.384
+- ___64-[HKLocationFetcher _requeryRoutesForWorkout:withUpdateHandler:]_block_invoke_2.386
+- ___64-[HKObjectDataAccessViewController _refreshAppAuthorizationData]_block_invoke.399
+- ___65-[HKAudioExposureDevicesDataSource _makeDeviceQueryForDeviceType]_block_invoke.366
+- ___65-[HKClinicalSourceAuthorizationController _reloadWithCompletion:]_block_invoke.364
+- ___65-[HKLevelCategoryDataSource queriesForRequest:completionHandler:]_block_invoke.369
+- ___65-[HKObjectDataAccessViewController switchCellValueChanged:value:]_block_invoke.424
+- ___66-[HKSourceAuthorizationController _reloadTypeAuthorizationRecords]_block_invoke.422
+- ___66-[_HKIngestSettingsViewController fetchEnabledStatusForPeripheral]_block_invoke.362
+- ___67-[HKSampleTypeCountDataSource queriesForRequest:completionHandler:]_block_invoke.366
+- ___68-[HKActivitySummaryDataProvider _mainQueueFetchValueWithRetryCount:]_block_invoke.411
+- ___72-[HKAppImageManager _enqueueRequestForAppIconForIdentifier:productType:]_block_invoke.441
+- ___72-[HKAppImageManager _enqueueRequestForAppIconForIdentifier:productType:]_block_invoke.441.cold.1
+- ___72-[HKAppImageManager _enqueueRequestForAppIconForIdentifier:productType:]_block_invoke.461
+- ___72-[HKAppImageManager _enqueueRequestForAppIconForIdentifier:productType:]_block_invoke.461.cold.1
+- ___72-[HKAppImageManager _enqueueRequestForAppIconForIdentifier:productType:]_block_invoke.462
+- ___72-[HKHorizontalSingleLineDataSource queriesForRequest:completionHandler:]_block_invoke.369
+- ___75-[HKNanoHostAuthorizationController setRequestRecord:presentationRequests:]_block_invoke.366
+- ___75-[HKNanoHostAuthorizationController setRequestRecord:presentationRequests:]_block_invoke.366.cold.1
+- ___78-[HKLocationFetcher fetchLocationsFromWorkout:workoutActivity:samplesHandler:]_block_invoke.372
+- ___80-[HKMenopausalStateLevelCategoryDataSource queriesForRequest:completionHandler:]_block_invoke.365
+- ___81-[HKJulianIndexedSevenDayQuantityDataSource queriesForRequest:completionHandler:]_block_invoke.370
+- ___85-[HKRouteMapGenerator snapshotWithSize:lineWidth:traitCollection:offsets:completion:]_block_invoke.386
+- ___86-[HKOrganDonationConnectionManager _genericJSONDataTaskWithRequest:completionHandler:]_block_invoke.515
+- ___88-[HKHorizontalTimePeriodDataSource _chartPointsWithDateIntervalsByValue:sourceTimeZone:]_block_invoke.377
+- ___88-[HKWorkoutRouteViewController _internalDebuggingOnly_fetchUnsmoothedRoutesFromDatabase]_block_invoke.559
+- ___89-[HKInsulinDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.484
+- ___92-[HKSleepChartDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.383
+- ___94-[HKQuantityTypeDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.463
+- ___95-[HKBloodPressureDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.408
+- ___95-[HKEmergencyCardNameAndPictureTableItem _checkOrRequestForCameraAccessIfNeededWithCompletion:]_block_invoke.424
+- ___95-[HKLevelCategoryDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.383
+- ___97-[HKBeatToBeatViewController initWithHRVSample:healthStore:displayTypeController:unitController:]_block_invoke.374
+- ___97-[HKSampleTypeCountDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.380
+- ___98-[HKHandwashingEventDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.484
+- ___98-[HKHealthStore(HKUIAdditions) _nonPrimaryProfileFetchFirstAndLastNamesForInfoWrapper:completion:]_block_invoke.469
+- ___98-[HKRecalibrateEstimatesPresentationController _requestAndConfigureHostViewController:completion:]_block_invoke.427
+- ___98-[HKTimePeriodSeriesDataSource generateSharableQueryDataForRequest:healthStore:completionHandler:]_block_invoke.385
+- ___block_descriptor_72_e8_32s40s48s56s64bs_e30_v24?0"NSNumber"8"NSError"16ls32l8s40l8s48l8s56l8s64l8
+- ___block_literal_global.1007
+- ___block_literal_global.1019
+- ___block_literal_global.363
+- ___block_literal_global.368
+- ___block_literal_global.370
+- ___block_literal_global.371
+- ___block_literal_global.373
+- ___block_literal_global.381
+- ___block_literal_global.389
+- ___block_literal_global.390
+- ___block_literal_global.391
+- ___block_literal_global.393
+- ___block_literal_global.400
+- ___block_literal_global.401
+- ___block_literal_global.409
+- ___block_literal_global.410
+- ___block_literal_global.417
+- ___block_literal_global.420
+- ___block_literal_global.422
+- ___block_literal_global.425
+- ___block_literal_global.427
+- ___block_literal_global.428
+- ___block_literal_global.429
+- ___block_literal_global.430
+- ___block_literal_global.437
+- ___block_literal_global.442
+- ___block_literal_global.444
+- ___block_literal_global.445
+- ___block_literal_global.452
+- ___block_literal_global.455
+- ___block_literal_global.465
+- ___block_literal_global.476
+- ___block_literal_global.477
+- ___block_literal_global.487
+- ___block_literal_global.488
+- ___block_literal_global.492
+- ___block_literal_global.496
+- ___block_literal_global.498
+- ___block_literal_global.500
+- ___block_literal_global.502
+- ___block_literal_global.519
+- ___block_literal_global.620
+- ___block_literal_global.628
+- ___block_literal_global.630
+- ___block_literal_global.664
+- ___block_literal_global.665
+- ___block_literal_global.668
+- ___block_literal_global.673
+- ___block_literal_global.678
+- ___block_literal_global.680
+- ___block_literal_global.683
+- ___block_literal_global.685
+- ___block_literal_global.690
+- ___block_literal_global.695
+- ___block_literal_global.700
+- ___block_literal_global.705
+- ___block_literal_global.710
+- ___block_literal_global.715
+- ___block_literal_global.720
+- ___block_literal_global.735
+- ___block_literal_global.751
+- ___block_literal_global.756
+- ___block_literal_global.767
+- ___block_literal_global.769
+- ___block_literal_global.771
+- ___block_literal_global.798
+- ___block_literal_global.803
+- ___block_literal_global.808
+- ___block_literal_global.810
+- ___block_literal_global.812
+- ___block_literal_global.817
+- ___block_literal_global.822
+- ___block_literal_global.827
+- ___block_literal_global.832
+- ___block_literal_global.837
+- ___block_literal_global.842
+- ___block_literal_global.844
+- ___block_literal_global.846
+- ___block_literal_global.867
+- ___block_literal_global.869
+- ___block_literal_global.871
+- ___swift_closure_destructor.65
+- ___swift_closure_destructor.69
+- ___swift_closure_destructor.77
+- ___swift_closure_destructor.81
+- ___swift_memcpy3_1
+- ___unnamed_5
+- _associated conformance 8HealthUI25AccessoryCircularTimeViewV05SwiftB00F0AA4BodyAdEP_AdE
+- _associated conformance 8HealthUI29AccessoryRectangularChartViewVyxG05SwiftB00F0AA4BodyAeFP_AeF
+- _associated conformance 8HealthUI29AccessoryRectangularTitleView33_31F93BFA53726DE479048DEAB4A6115ALLV05SwiftB00F0AA4BodyAeFP_AeF
+- _associated conformance 8HealthUI29AccessoryRectangularTitleView33_31F93BFA53726DE479048DEAB4A6115ALLV0E6DetailV10CodingKeysOSHAASQ
+- _associated conformance 8HealthUI29AccessoryRectangularTitleView33_31F93BFA53726DE479048DEAB4A6115ALLV0E6DetailV10CodingKeysOs0M3KeyAAs23CustomStringConvertible
+- _associated conformance 8HealthUI29AccessoryRectangularTitleView33_31F93BFA53726DE479048DEAB4A6115ALLV0E6DetailV10CodingKeysOs0M3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8HealthUI29AccessoryRectangularTitleView33_31F93BFA53726DE479048DEAB4A6115ALLV0E6DetailVSHAASQ
+- _associated conformance 8HealthUI29AccessoryRectangularTitleView33_31F93BFA53726DE479048DEAB4A6115ALLV0E6DetailVs12IdentifiableAA2IDsAGP_SH
+- _block_copy_helper.73
+- _block_copy_helper.85
+- _block_descriptor.75
+- _block_descriptor.87
+- _block_destroy_helper.74
+- _block_destroy_helper.86
+- _get_witness_table 7SwiftUI12ViewThatFitsVyAA7ForEachVySay06HealthB0025AccessoryRectangularTitleC033_31F93BFA53726DE479048DEAB4A6115ALLV0K6DetailVGAkA0C0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA15ModifiedContentVyATyAA6HStackVyAA05TupleY0VyATyAA4TextVAA0U18AttachmentModifierVG_ATyATyAN9WidgetKitE16widgetAccentableyQrSbFQOyAZ_Qo_AA14_PaddingLayoutVGA0_GAA6SpacerVQPGGAA30_EnvironmentKeyWritingModifierVySiSgGGA14_ySbGG_Qo_GGAaMHPyHC.25
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA05TupleD0Vy9WidgetKit09AccessoryG10BackgroundVSg_AA012_ConditionalD0VyAA6VStackVyAGyAA6SpacerV_ACyAA4ViewPAHE16widgetAccentableyQrSbFQOyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAXyAA5ColorVSgGG_Qo_AA023AccessibilityAttachmentU0VGACyAA4TextVA9_GAQQPGGAOyAGyAQ_AMyAGyACyAsHEATyQrSbFQOyA12__Qo_A9_G_A13_A10_QPGAGyA10__A13_A17_QPGGAQQPGGGQPGGAA12_FrameLayoutVGAaRHPA25_AaRHPyHC_A27_AA0nU0HPyHCHC.6
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyAA6VStackVyAA05TupleE0Vy06HealthB0025AccessoryRectangularTitleC033_31F93BFA53726DE479048DEAB4A6115ALLV_xAA6SpacerVQPGGAA16_FlexFrameLayoutVGAaBHPApaBHPyHC_ArA0C8ModifierHPyHCHC.1
+- _objc_msgSend$_createTableFooterView
+- _objc_msgSend$_createTableHeaderView
+- _objc_msgSend$_dateRangeSampleTypesForSampleType:
+- _objc_msgSend$alreadyButtonTapped:
+- _objc_msgSend$copyWithLocalization:
+- _objc_msgSend$copyWithLocalizationTableNameOverride:
+- _objc_msgSend$deleteButtonTapped:
+- _objc_msgSend$doneButtonTapped:
+- _objc_msgSend$initForOnboarding:
+- _objc_msgSend$isCurrentOnboardingVersionCompletedWithCompletion:
+- _objc_msgSend$learnMoreButtonTapped:
+- _objc_msgSend$loadingIndicator
+- _objc_msgSend$loadingIndicatorBarButtonItem
+- _objc_msgSend$notNowButtonTapped:
+- _objc_msgSend$onboardedCountryCodeSupportedStateWithError:
+- _objc_msgSend$onboardingManager:customViewControllerForPage:
+- _objc_msgSend$setPreferredHeartRateZoneConfigurationTypeRawValue:withCompletion:
+- _objc_msgSend$shareButtonTapped:
+- _objc_msgSend$signupButtonTapped:
+- _objc_msgSend$updateButtonTapped:
+- _objc_msgSend$viewControllerClass
+- _objc_msgSend$yodel
+- _objc_release_x10
+- _sharedInstance.numberFormatter.441
+- _sharedInstance.onceToken.442
+- _symbolic SaySSG
+- _symbolic SdSg
+- _symbolic _____ 10Foundation6LocaleV
+- _symbolic _____ 13HealthBalance26VitalsMetricClassificationO
+- _symbolic _____ 8HealthUI25AccessoryCircularTimeViewV
+- _symbolic _____ 8HealthUI29AccessoryRectangularChartViewV
+- _symbolic _____ 8HealthUI29AccessoryRectangularTitleView33_31F93BFA53726DE479048DEAB4A6115ALLV
+- _symbolic _____ 8HealthUI29AccessoryRectangularTitleView33_31F93BFA53726DE479048DEAB4A6115ALLV0E6DetailV
+- _symbolic _____ 8HealthUI29AccessoryRectangularTitleView33_31F93BFA53726DE479048DEAB4A6115ALLV0E6DetailV10CodingKeysO
+- _symbolic _____ 8HealthUI32LevelDateRangeDataSourceDelegateC
+- _symbolic _____ 9HealthKit26HKWorkoutZoneConfigurationV6SourceO
+- _symbolic _____Sg 13HealthBalance26VitalsMetricClassificationO
+- _symbolic _____y_____ySay_____GAC_____y_____yAEy_____y_____yAEy__________G_AEyAEy_____yAH_Qo______GAIG_____QPGG_____ySiSgGGARySbGG_Qo_GG 7SwiftUI12ViewThatFitsV AA7ForEachV 06HealthB0025AccessoryRectangularTitleC033_31F93BFA53726DE479048DEAB4A6115ALLV0K6DetailV AA0C0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA15ModifiedContentV AA6HStackV AA05TupleY0V AA4TextV AA0U18AttachmentModifierV AM9WidgetKitE16widgetAccentableyQrSbFQO AA14_PaddingLayoutV AA6SpacerV AA30_EnvironmentKeyWritingModifierV
+- _symbolic _____y_____y_____y_____Sg______y_____yACy______AAy_____yAAyAAy__________y_____SgGGAJy_____SgGG_Qo______GAAy_____ATGAHQPGGAGyACyAH_AFyACyAAy_____yAV_Qo_ATG_AwUQPGACyAU_AWA_QPGGAHQPGGGQPGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V 9WidgetKit09AccessoryG10BackgroundV AA012_ConditionalD0V AA6VStackV AA6SpacerV AA4ViewPAHE16widgetAccentableyQrSbFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA023AccessibilityAttachmentU0V AA4TextV ArHEASyQrSbFQO AA12_FrameLayoutV
+- _symbolic _____y_____y_____y______x_____QPGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 06HealthB029AccessoryRectangularTitleView33_31F93BFA53726DE479048DEAB4A6115ALLV AA6SpacerV AA16_FlexFrameLayoutV
+- _type_layout_string 7SwiftUI4ViewRzl06HealthB0025AccessoryRectangularChartC0VyxG
+- _type_layout_string 8HealthUI29AccessoryRectangularTitleView33_31F93BFA53726DE479048DEAB4A6115ALLV0E6DetailV
+CStrings:
++ "%s %s HKDisplayTypeController unavailable — reading types will not appear"
++ "%s %s Unable to load app icons"
++ "%s %s categorized %@ under '%s'"
++ "%s %s no display category for type %@, it will not appear"
++ "%s: unable to access the header view's custom icon container view. This view is lazy loaded, so please call on viewDidLoad, and make sure you aren't setting a symbol or image on the HeaderView that will also cause it to be nil"
++ "AuthorizationSettingsSwiftUIController"
++ "AuthorizationSettingsSwiftUIController.missingType"
++ "FBSOpenApplicationService"
++ "Failed to launch \"%{public}s\": %{public}s"
++ "HKAuthorizationCategoryToggleHeaderViewIdentifier"
++ "HKAuthorizationToggleCellIdentifier"
++ "HealthUI.HKAuthorizationAppIconHeaderView"
++ "HealthUI.HKAuthorizationSettingsModernizedViewController"
++ "HealthUI.HKAuthorizationTimeBoundedViewController"
++ "HealthUI.HKSettingsAuthorizationTypeDetailViewController"
++ "HealthUI.HKSettingsAuthorizationViewController"
++ "HealthUI.UnitValueEntryCell"
++ "HealthUI/HKAuthorizationAppIconHeaderView.swift"
++ "HealthUI/HKAuthorizationCategoryToggleHeaderView.swift"
++ "HealthUI/HKAuthorizationSettingsModernizedViewController.swift"
++ "HealthUI/HKAuthorizationTimeBoundedViewController.swift"
++ "HealthUI/HKAuthorizationToggleCell.swift"
++ "HealthUI/HKSettingsAuthorizationTypeDetailViewController.swift"
++ "HealthUI/HKSettingsAuthorizationViewController.swift"
++ "HealthUI/UIView.swift"
++ "OD_DONATION_PREFERENCES_LINK"
++ "PreambleHeaderViewIdentifier"
++ "SELECT_HOW_LONG_%@_SHOULD_HAVE_ACCESS"
++ "SETTINGS_CHANGE_ACCESS"
++ "SETTINGS_CHANGE_ACCESS_DONE_BUTTON"
++ "TIME_BOUNDED_AUTH_CONTINUE"
++ "TIME_BOUNDED_AUTH_LIMITED_SUBTITLE"
++ "TIME_BOUNDED_AUTH_LIMITED_TITLE"
++ "TIME_BOUNDED_AUTH_ONGOING_SUBTITLE"
++ "TIME_BOUNDED_AUTH_ONGOING_TITLE"
++ "TIME_BOUNDED_AUTH_TOPICS_SELECTED_%ld"
++ "TIME_BOUNDED_SETTINGS_FROM_%@_%ld_DAYS"
++ "TIME_BOUNDED_SETTINGS_FULL_ACCESS"
++ "TIME_BOUNDED_SETTINGS_HEALTH_DATA_ACCESS"
++ "TIME_BOUNDED_SETTINGS_LIMITED_ACCESS"
++ "TIME_BOUNDED_SETTINGS_NONE"
++ "TIME_BOUNDED_SETTINGS_ZERO_DAYS"
++ "The user denied authorization."
++ "Unavailable enum case found."
++ "VIEW_ALL_DATA_FROM_%@"
++ "WORKOUT_CYCLING_POWER_CONFIGURATION_AUTOMATIC_FTP_NOT_AVAILABLE_FOOTER"
++ "WORKOUT_CYCLING_POWER_CONFIGURATION_AUTOMATIC_FTP_NOT_AVAILABLE_NAME"
++ "_createCheckedContinuation(_:)"
++ "arrow.left.arrow.right"
++ "bluetooth.applewatch"
++ "category types "
++ "groupTypesByCategory(_:)"
++ "groupTypesByCategory(_:authSection:)"
++ "init(style:reuseIdentifier:)"
++ "openApplication:withOptions:completion:"
++ "outlierContext"
++ "queryAllDayDates(for:since:)"
++ "queryEarliestSampleDate(for:)"
++ "serviceWithDefaultShellEndpoint"
++ "setUpHeaderView()"
++ "type != nil"
++ "v24@?0@\"HKFeatureOnboardingRecord\"8@\"NSError\"16"
++ "v32@?0@\"_HKAuthorizationModeInfo\"8@\"NSDictionary\"16^B24"
++ "viewWillAppear(_:)"
+- "\r"
+- ".AccessoryCircularTimeView.DesignatorText"
+- ".AccessoryCircularTimeView.Symbol"
+- ".AccessoryCircularTimeView.TimeText"
+- ".AccessoryRectangularChartView.DetailText"
+- ".AccessoryRectangularChartView.TitleText"
+- "HealthUI-Localizable-Yodel"
+- "HealthUI.LevelDateRangeDataSourceDelegate"
+- "HealthUI/AccessoryCircularTimeView.swift"
+- "HealthUI/AccessoryRectangularChartView.swift"
+- "Localizable-Yodel"
+
+```

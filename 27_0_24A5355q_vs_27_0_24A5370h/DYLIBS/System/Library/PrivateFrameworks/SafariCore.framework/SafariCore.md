@@ -1,0 +1,739 @@
+## SafariCore
+
+> `/System/Library/PrivateFrameworks/SafariCore.framework/SafariCore`
+
+```diff
+
+-625.1.18.10.4
+-  __TEXT.__text: 0x1d6f80 sha256:338c69689f8febd7bcc5babeaf18d74d0655de64c2718330506e4102ccf06ae2
+-  __TEXT.__objc_methlist: 0xcd24 sha256:92b18a00688fe4566f66ab2bdd7cddf49fec8159adaccb9dbaff4adce6db2424
+-  __TEXT.__const: 0x6c84 sha256:45b73771f53ff378c2de4b419de2442569662840c4b18be4812d7046808a5760
+-  __TEXT.__gcc_except_tab: 0x72a4 sha256:62ce69a0afbf59982873491a2139d35817003c7993764a414456319a34103990
+-  __TEXT.__cstring: 0x18587 sha256:4410fec519652a24348bc8810dcb7e16600e63e2c7b68cd8419d8349a8356b14
++625.1.20.10.3
++  __TEXT.__text: 0x1e138c sha256:f6505754c1d6747aead60d56a95f83aa7ab39776f210b1f4f10ae3b7b378ec25
++  __TEXT.__objc_methlist: 0xce6c sha256:7cf31b4eba04482612847a4934aeb8413bae844f1e703d063e45dd6d252a71b2
++  __TEXT.__const: 0x6ef4 sha256:064ab83cb7434f807d0aca7e4a22ccab92b7d11cfd40af8170fa0465d92edb18
++  __TEXT.__gcc_except_tab: 0x74d8 sha256:056042049c1cfcbfaa96e698d1a538add2b5b63658ec2822f757e941a9d7b807
++  __TEXT.__cstring: 0x190f7 sha256:643ae320c37252e9ef420c27af55ebb4ce61ccdc3a489bfb80e42e5f1425e3cc
+   __TEXT.__ustring: 0x2784 sha256:bfa253e164cea6c342b7021dfd195a45cf8f850a93cdc2c172ac59e7f4fd1e52
+-  __TEXT.__oslogstring: 0xdaa1 sha256:db4930a8bc6aecb88a8c6e5b713659484a7b04b6e905b67fe23db959352b66dd
++  __TEXT.__oslogstring: 0xdc91 sha256:155924a14ac07545d8ecab861c313787711127a390242b24b002fabcc27d4c75
+   __TEXT.__dlopen_cstrs: 0x157 sha256:7691f3bc9550c3559b6675686b9481fe31f9b8bef67f10e4b7fc48514106b55d
+-  __TEXT.__constg_swiftt: 0x1e78 sha256:1449bfc4ce83ba09973e2ba1c340ba0a450c8a485cf135070ebca93d01f13b79
+-  __TEXT.__swift5_typeref: 0x237a sha256:cf6eb2a4e81869c9dd278184cf65673d55c5507b3610e6ea5ba3d823341096f2
+-  __TEXT.__swift5_reflstr: 0x134b sha256:b160f26310a7411a09fd5b347b6897962e0ace0a9565582706b31111dfafff4e
+-  __TEXT.__swift5_fieldmd: 0x160c sha256:af72c40f32629b5e02bdbb17347acc007b04cb3edff2fb4c45b3fa8e254256af
+-  __TEXT.__swift5_builtin: 0x140 sha256:3a70b3668c8d685752ae310da6d225eac1e8abfab50f8d1922ce50ad45d18caa
+-  __TEXT.__swift5_assocty: 0x578 sha256:e3955a4a5bd6db6b41fc3316dd74289286a630ccd4c3b4a66d1a3504c290f140
+-  __TEXT.__swift5_proto: 0x3e4 sha256:440c8bbf2ca67643830cdba8de09641f77db2030eb3604f1234c83127ccb90ba
+-  __TEXT.__swift5_types: 0x1cc sha256:a8a165c71c08f1e0941a35dfdefd8b36b8932afc9276e58e12d8b34a9c8b3e88
+-  __TEXT.__swift5_types2: 0x4 sha256:460d7faf84214e21d8c3436357b50eb88ec3569a087acd5664fa47e1636a7153
+-  __TEXT.__swift_as_entry: 0x304 sha256:b71fc365e1cffc3d9e4f494ce1c1e7f866c6b8d63c59125934b53e1c5d1e1194
+-  __TEXT.__swift_as_ret: 0x34c sha256:d7daa20ab37c58b7575e1cb33381ec494eee7bab495497c34bacdc83058074ae
+-  __TEXT.__swift_as_cont: 0x6c4 sha256:149865f933a0ac31258cbf4772078d497e38ddaf79b1da22c286e5a263a29082
+-  __TEXT.__swift5_capture: 0x14c0 sha256:7e17093341665cd984cb2d67544a2024982765d36cbcffe14d80644e7e3c2c02
+-  __TEXT.__swift5_protos: 0x28 sha256:2b22523bce905307f7950b3aef4c4fabb380b536cce9efd4ee4896a7bd40bcac
+-  __TEXT.__swift5_mpenum: 0x10 sha256:2fc771c99cf39b881b4c87c567a107e3c42205e1493eb606db77ff947fda9be8
+-  __TEXT.__unwind_info: 0x9048 sha256:d92e59b38b9ba7d77e8bd9e51f454d23b7971fc20a1d82208f3253a9f0cae5ad
+-  __TEXT.__eh_frame: 0x9790 sha256:2c6a92ec276e682dd79a5c77472c7bfe09e3cd708c96190ae9a80061c29a3e0e
++  __TEXT.__constg_swiftt: 0x1ff0 sha256:76ec56a513f3f8347173b89fe792cba9b5bed02e7cf1b4d7ad777b75fa8e5825
++  __TEXT.__swift5_typeref: 0x2454 sha256:49d762e1cd559d0ba2eb2ed028d860b172bdb764cfc8476ece8aa37ff666ffcf
++  __TEXT.__swift5_reflstr: 0x13eb sha256:a8ba5aed15095712c9fc8bb948e8a1a6ee04dd6dd5f8ae8a993d8ceb4e2faa34
++  __TEXT.__swift5_fieldmd: 0x1714 sha256:f340ea025548284a6c9f1539bd618659828b64ad35c3c6a514a3348fd6d48325
++  __TEXT.__swift5_builtin: 0x140 sha256:fa880e0f0e8eb51593da83d922a3fbf2015267f1a734f2c4d30ac31a01e6aecd
++  __TEXT.__swift5_assocty: 0x590 sha256:fb40fdb11dd8b38285ba0bc88fd5f495ba00219d32173178e899a762db66fc66
++  __TEXT.__swift5_proto: 0x3f8 sha256:f8db22e31fd876d3c709d2cd1116a8c5b95b702f9bfffd47dd854213e2c4e5d6
++  __TEXT.__swift5_types: 0x1e0 sha256:83677f700018f3a370ee6c7b4c8bafb44b296deaf7ea8fc307676fcc245132af
++  __TEXT.__swift5_types2: 0x4 sha256:5b7b7be5c98b25148dde764bc60e76c663d1582f6228a65120b08209f45772d8
++  __TEXT.__swift_as_entry: 0x32c sha256:adf54d5b2343d8a3e6d0621990d8c76b934a76a6812f57565a67ea9321af0972
++  __TEXT.__swift_as_ret: 0x37c sha256:8516d71b8b7adaad6afdcbe835a14818a780f0e56a55298625b4bb9546e4ea8e
++  __TEXT.__swift_as_cont: 0x704 sha256:9cd94f606a40c83cef33652bd6c7f120537b78bf35930c62e5c98c5e4de51210
++  __TEXT.__swift5_capture: 0x1490 sha256:01dffbd46e9a42e9f3142dcadf48b332aa3d616ff6d592eb1338722467a79bfe
++  __TEXT.__swift5_protos: 0x2c sha256:1f002a3f61a418dc8652bd653cfd13d789d3f7c75f28f142c6f71b69d61e8c34
++  __TEXT.__swift5_mpenum: 0x10 sha256:bd1a74f618de40ce1400442e1c3eb368c7cbeb8c53b6e9689c69bfc025880cdd
++  __TEXT.__unwind_info: 0x97e0 sha256:cef7aa63674c82a141fcd02e0c198fe122b2fcbbd86a8340eab6df42cb40fa8b
++  __TEXT.__eh_frame: 0x9de0 sha256:cb1692c1ee0a322de1afa5632e229233aea956b01993018ecf00aafbfc1b82ea
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x56a0 sha256:27413f35504a909fc64fee607627888ec99c2245f6256ecce7b5d331a0b96f1a
+-  __DATA_CONST.__objc_classlist: 0x6d0 sha256:7af096cacff80d9bbf0f8402156721955ad4d671ea481537c2c93bfa9a2a2d02
+-  __DATA_CONST.__objc_catlist: 0x160 sha256:4565407ad76651cb485621f18eb21adb9e51b47147578ba856bb39d888fd914d
+-  __DATA_CONST.__objc_protolist: 0x210 sha256:eeb636b46578a89c8c494e67a1d504838dcd42d879435f4448fd50675cff5cd6
++  __DATA_CONST.__const: 0x5788 sha256:c4077fc31e5288f91c653040b77e669261b38b3e4a0fbf531f8e527193983c0b
++  __DATA_CONST.__objc_classlist: 0x6e0 sha256:2ca24bc33373761a0e2c0f7123cdcc9bd56c594b2ea7d1afd8687c7ae87edfd3
++  __DATA_CONST.__objc_catlist: 0x160 sha256:d145a8c59cf718ad2394bfe88de0ff0830f20441e6340aae1eee276c16a3ed21
++  __DATA_CONST.__objc_protolist: 0x218 sha256:97b4a21253822c4f3b49a0bb52cf7cb75807c113108fb48135b6613ecdccbb8a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__weak_got: 0x8 sha256:ef51bec528101a162c36a05df9244257890695812476b75b570deb14ed574c28
+-  __DATA_CONST.__objc_selrefs: 0x73f8 sha256:2d60f6c52d1494d7ee2dac13cc0450335ee88cbf309a3ebb3a6b6e28cb8da996
+-  __DATA_CONST.__objc_protorefs: 0xf8 sha256:6211da50c3a2b0e54388fb09d8407a8970508248177ccf8aa6a368183c5a6aaa
+-  __DATA_CONST.__objc_superrefs: 0x4b0 sha256:0f1c0ad7c50dd8f9a370e7019256fe54d6fa3eeb07463ba4e004313ef370e49e
+-  __DATA_CONST.__objc_arraydata: 0x2a50 sha256:7e65dab4d9c3f1ffdb02312caa1af66398738c6eb8df16cdd55344b67cf520c1
+-  __DATA_CONST.__got: 0x1290 sha256:a610cec423e80b4027c1a761b5fd907efe8e77869dfb31692fe655257b9e4f1c
+-  __AUTH_CONST.__const: 0xa610 sha256:0c8a13f18ed5a163308a1b68e3d8b69dec47d1d4467b21716dd341d9e79b4eeb
+-  __AUTH_CONST.__cfstring: 0x1cfc0 sha256:b1d975b26f7190f4a7584bb3d4102e2e46b010e445ce685a50608426ee95f9d1
+-  __AUTH_CONST.__objc_const: 0x15ac8 sha256:e07c72a7c5cea7876d8e4b5500f14f918d7e8cd40dd5219aacc0d56c1c346061
+-  __AUTH_CONST.__weak_auth_got: 0x18 sha256:9301580f2a4c506b3a281d68e0e22bffb435cbb497ce8c36f9bdbf987996a481
+-  __AUTH_CONST.__objc_intobj: 0x8b8 sha256:b25b521ab9c739357dc259a2262f9280dcbd5f67de17a226d6ff5f7307d5c110
+-  __AUTH_CONST.__objc_dictobj: 0x190 sha256:dd00a6f7881203d21f9e91f607aff4aff60bcd5618516aabfc89f2ffd7bd12a6
+-  __AUTH_CONST.__objc_arrayobj: 0x5a0 sha256:5be61880ee28eb388b9a5cb14be0fa05c3e67b1fc901c1f3dfe59335f3b91ece
+-  __AUTH_CONST.__auth_got: 0x2100 sha256:0f47ecf52af95b17e5b78e1ac181dc092897de95163da5d708eee4331918cf16
+-  __AUTH.__objc_data: 0x19b8 sha256:fe50c2e715bcbcec4ff8f05c4d692849a5792964586d8446856d8878bcbba0bd
+-  __AUTH.__data: 0x1550 sha256:47220bda71b99925c139440047674aff9a85a7b65311b60671077bb7af37af46
+-  __DATA.__objc_ivar: 0xcd0 sha256:04a119579f40ab31ab3ae0a90ea13d3fd4212b330462849dd226b05f90a0853f
+-  __DATA.__data: 0x3360 sha256:7189b3218ca165fe287e820e3ada077242665e630b31a356aa09b103de54802c
+-  __DATA.__bss: 0x8600 sha256:dab48f653d782c713f9341d92016d0ed21da790f35524d2608e1db537f118175
++  __DATA_CONST.__weak_got: 0x8 sha256:41fd8d3d3d8073410ae0114951d1d8f46cd2ab1281eb2db380f31e9c78a853c9
++  __DATA_CONST.__objc_selrefs: 0x7480 sha256:dc47c3b16c531809860b872ea8d2c643c3b4f1fb3c4be394437f8a815bd5a67e
++  __DATA_CONST.__objc_protorefs: 0xf8 sha256:48729caeaaeba28b90ba7658012715a8ca6c1d3bb38b1d5b9447f47c68280b24
++  __DATA_CONST.__objc_superrefs: 0x4b8 sha256:b1f24be18905cf3c70eb425d5ae4e31d6fabafc6b4e670bc88f0eae4d66dc239
++  __DATA_CONST.__objc_arraydata: 0x2aa0 sha256:3394b8ef540c8d7d09ec2c7379345674607d6ff80d0a77a637bee7c87418e5ed
++  __DATA_CONST.__got: 0x12a0 sha256:ce259da5873d9c8ba0f7139e3a4b272a5496ba7d594b5c0444f76fc5c2da80c9
++  __AUTH_CONST.__const: 0xa8f8 sha256:584c3e23f4ef5c840e516ee0fcb6cbc90da062cb40e9b15cc22262a91c9e30bc
++  __AUTH_CONST.__cfstring: 0x1d200 sha256:4866bd2917281866b9f11f045db07806c5b02985a5ad5b6fd049909a84eaf099
++  __AUTH_CONST.__objc_const: 0x15f00 sha256:c3e5fc039aa286344476891b3867be54eb464f69532ad80227fc926141234e28
++  __AUTH_CONST.__weak_auth_got: 0x18 sha256:29088a447bd737ef9fbfae413fb96a052bde0411bc28166e36dc698bd3ad3621
++  __AUTH_CONST.__objc_intobj: 0x930 sha256:e36b76e1167168baf7529f4c3aeca91207261c65a738a422f6f4cd123190be6d
++  __AUTH_CONST.__objc_dictobj: 0x190 sha256:4bd2612b5fc3dd397b986b2cacf0e57aa512a5a6532e8e6f47c303317b3e963c
++  __AUTH_CONST.__objc_arrayobj: 0x5a0 sha256:02973885a0bb8506a150f9dccbde7bab75ca38eddf0453d739ae97bf30f18149
++  __AUTH_CONST.__auth_got: 0x2150 sha256:58c3b57d605c29baf44db2f4aaa42d1c93ee85007cef62fa715ef2aa19401a6d
++  __AUTH.__objc_data: 0x1a08 sha256:cbe987c5c0f8912769b2bcaa8a3207d030ba07376c5fbce2be01b13176d65075
++  __AUTH.__data: 0x1630 sha256:1b437d0973c52422db43d898f56b789d87446a1e0559826623f994362c8a5834
++  __DATA.__objc_ivar: 0xcf8 sha256:b6118ac97b8049879cefc54856ccbed078a6e9686bdfe530ffad2c20fab1a255
++  __DATA.__data: 0x3520 sha256:bb0888e8dcb547707212623d64bfd5b0ec22ce932ae11c3881a618ee25815393
++  __DATA.__bss: 0x88b0 sha256:a4cd0af9954c2e69d60454ec6a451f2da230b0da0adf17ad4f78dafbe722913f
+   __DATA.__common: 0x88 sha256:f87d5c64621568d054f52ec4c1f48289d5f91c6e3d01438a9b7612b65dbcc2b2
+-  __DATA_DIRTY.__objc_data: 0x2fb8 sha256:6a89be4226544f5d3bf2b7516fb56c3b0df34b97f8b36be3cbdf068ce44814f8
+-  __DATA_DIRTY.__data: 0x560 sha256:bdef689564a0f7ca1dec5b860a2ec34615d7534c0c8885da82e9682042ea9789
++  __DATA_DIRTY.__objc_data: 0x2fb8 sha256:ee558b0a55ba44984cac184fac284c0c33d611261363f1f5d0ab94e7db12b336
++  __DATA_DIRTY.__data: 0x560 sha256:c3abfd6217e6844ac243ae639dd8e2002ba72de9562131b68f79cc41fcf838f6
+   __DATA_DIRTY.__bss: 0x7e8 sha256:6a9dbfdcc8a54ad6287bb2e7bac4a6542e5d98f649058ef3723e52920f543ab7
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E81DAD3E-1ADA-3217-8497-4B4CBEF06E06
+-  Functions: 10715
+-  Symbols:   23350
+-  CStrings:  9144
++  UUID: 259859F3-6234-3C48-B051-354BA6991530
++  Functions: 10892
++  Symbols:   23570
++  CStrings:  9219
+ 
+Symbols:
++ +[WBSAutoFillQuirksManager getSharedInstance:allowingUpdatingFromServer:].cold.1
++ +[WBSFeatureAvailability isRecentSearchesInStartPageEnabled]
++ +[WBSFeatureAvailability isRecentSearchesInStartPageEnabled].cold.1
++ +[WBSManagedExtensionsConfigurationStore configurationURL]
++ +[WBSPasswordBreachStore defaultBackingStoreURL]
++ +[WBSTOTPGenerator keyDataForBase32EncodedString:]
++ +[WBSTOTPGenerator keyDataForBase32EncodedString:].cold.1
++ -[NSFileManager(SafariNSFileManagerExtras) safari_createTemporaryDirectoryWithError:]
++ -[NSFileManager(SafariNSFileManagerExtras) safari_createTemporaryDirectoryWithError:].cold.1
++ -[WBSAuthenticationServicesAgentProxy credentialProviderInformationForAnyRecentAutoFillOfUsername:password:hostApplicationBundleIdentifier:completionHandler:]
++ -[WBSAutoFillQuirksManager test_waitForInternalQueueToEmpty]
++ -[WBSGeneratedPasswordStore addGeneratedPassword:forProtectionSpace:completionHandler:]
++ -[WBSManagedExtensionsConfigurationStore .cxx_destruct]
++ -[WBSManagedExtensionsConfigurationStore _refreshFromDisk]
++ -[WBSManagedExtensionsConfigurationStore _underlyingConfigurationDidChange:]
++ -[WBSManagedExtensionsConfigurationStore beginObservingStorage]
++ -[WBSManagedExtensionsConfigurationStore dealloc]
++ -[WBSManagedExtensionsConfigurationStore delegate]
++ -[WBSManagedExtensionsConfigurationStore managedExtensionsConfiguration]
++ -[WBSManagedExtensionsConfigurationStore setDelegate:]
++ -[WBSManagedExtensionsController _initWithConfigurationStore:]
++ -[WBSManagedExtensionsController managedExtensionsConfigurationStoreDidChange:]
++ -[WBSPasswordBreachStore dealloc]
++ -[WBSPasswordBreachStore initWithBackingStoreURL:accessMode:]
++ -[WBSPasswordWarningManager _breachResultRecordsForSavedAccounts:]
++ -[WBSSQLiteDatabase isDatabaseOpen]
++ -[WBSSafariBookmarksSyncAgentProxy deleteSafariContainerDataWithCompletionHandler:]
++ -[WBSSavedAccountStore _newUniqueIdentifierIfNecessaryForSavedAccount:]
++ -[WBSSavedAccountStore _saveUniqueIdentifierOnInternalQueue:savedAccount:]
++ -[WBSSavedAccountStore createUniqueIdentifiersIfNecessaryForSavedAccounts:completionHandler:]
++ GCC_except_table139
++ GCC_except_table228
++ GCC_except_table238
++ GCC_except_table302
++ GCC_except_table309
++ GCC_except_table341
++ GCC_except_table409
++ GCC_except_table411
++ GCC_except_table75
++ GCC_except_table88
++ GCC_except_table92
++ GCC_except_table95
++ _OBJC_CLASS_$_WBSManagedExtensionsConfigurationStore
++ _OBJC_IVAR_$_WBSAppIDsToDomainsAssociationManager._queue
++ _OBJC_IVAR_$_WBSChangePasswordURLManager._queue
++ _OBJC_IVAR_$_WBSManagedExtensionsConfigurationStore._delegate
++ _OBJC_IVAR_$_WBSManagedExtensionsConfigurationStore._managedExtensionsConfiguration
++ _OBJC_IVAR_$_WBSManagedExtensionsController._store
++ _OBJC_IVAR_$_WBSPasswordAuditingEligibleDomainsManager._queue
++ _OBJC_IVAR_$_WBSPasswordBreachStore._accessMode
++ _OBJC_IVAR_$_WBSPasswordGenerationManager._queue
++ _OBJC_IVAR_$_WBSPasswordWarningManager._breachResultRecordsBySavedAccount
++ _OBJC_IVAR_$_WBSPasswordWarningManager._passwordBreachQueryInProgress
++ _OBJC_IVAR_$_WBSPasswordWarningManager._topFraudTargets
++ _OBJC_METACLASS_$_WBSManagedExtensionsConfigurationStore
++ _WBSAllowAutomaticPasswordChangeInDetailViewKey
++ _WBSAutomaticPasswordChangeDebugSiteShouldEnableHardModeKey
++ _WBSAutomaticPasswordChangeDebugSiteShouldRequestOneTimeCodeKey
++ _WBSAutomaticPasswordChangeShouldAdvanceManuallyKey
++ _WBSAutomaticPasswordChangeShouldAlwaysRecommendKey
++ _WBSAutomaticPasswordChangeShouldShowWebViewKey
++ _WBSAutomaticPasswordChangeShowSessionDoneButtonKey
++ _WBSAutomaticPasswordChangeShowVerboseErrorsKey
++ _WBSDebugEnablePasswordChangeClassifierKey
++ _WBSDebugLogFullAgentToolOutputKey
++ _WBSDidApplyStartPageSectionPositionHealKey
++ _WBSOSLogSync
++ _WBSOSLogSync.cold.1
++ _WBSOSLogSync.log
++ _WBSOSLogSync.onceToken
++ __DATA__TtC10SafariCore20WBSAsyncSerialRunner
++ __IVARS__TtC10SafariCore10WBSRunOnce
++ __IVARS__TtC10SafariCore20WBSAsyncSerialRunner
++ __IVARS__TtC10SafariCore7WBSLazy
++ __METACLASS_DATA__TtC10SafariCore20WBSAsyncSerialRunner
++ __OBJC_$_CLASS_METHODS_WBSManagedExtensionsConfigurationStore
++ __OBJC_$_CLASS_PROP_LIST_WBSManagedExtensionsConfigurationStore
++ __OBJC_$_CLASS_PROP_LIST_WBSPasswordBreachStore
++ __OBJC_$_INSTANCE_METHODS_WBSManagedExtensionsConfigurationStore
++ __OBJC_$_INSTANCE_VARIABLES_WBSManagedExtensionsConfigurationStore
++ __OBJC_$_PROP_LIST_WBSManagedExtensionsConfigurationStore
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_WBSManagedExtensionsConfigurationStoreDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_WBSManagedExtensionsConfigurationStoreDelegate
++ __OBJC_$_PROTOCOL_REFS_WBSManagedExtensionsConfigurationStoreDelegate
++ __OBJC_CLASS_PROTOCOLS_$_WBSManagedExtensionsController
++ __OBJC_CLASS_RO_$_WBSManagedExtensionsConfigurationStore
++ __OBJC_LABEL_PROTOCOL_$_WBSManagedExtensionsConfigurationStoreDelegate
++ __OBJC_METACLASS_RO_$_WBSManagedExtensionsConfigurationStore
++ __OBJC_PROTOCOL_$_WBSManagedExtensionsConfigurationStoreDelegate
++ __ZNSt3__110__function12__value_funcIFbiN8nlohmann6detail13parse_event_tERNS2_10basic_jsonINS_3mapENS_6vectorENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbxydSB_NS2_14adl_serializerENS7_IhNSB_IhEEEEEEEEC2B9sqn220106EOSK_
++ __ZNSt3__110__function12__value_funcIFbiN8nlohmann6detail13parse_event_tERNS2_10basic_jsonINS_3mapENS_6vectorENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbxydSB_NS2_14adl_serializerENS7_IhNSB_IhEEEEEEEEC2B9sqn220106ERKSK_
++ __ZNSt3__110__function12__value_funcIFbiN8nlohmann6detail13parse_event_tERNS2_10basic_jsonINS_3mapENS_6vectorENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbxydSB_NS2_14adl_serializerENS7_IhNSB_IhEEEEEEEED2B9sqn220106Ev
++ __ZNSt3__110unique_ptrIN12SafariShared25SuddenTerminationDisablerENS_14default_deleteIS2_EEE5resetB9sqn220106EPS2_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9sqn220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9sqn220106Em
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9sqn220106ILi0EEEPKc
++ __ZNSt3__113__tree_removeB9sqn220106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__116__if_likely_elseB9sqn220106IZNS_6vectorIcNS_9allocatorIcEEE12emplace_backIJcEEERcDpOT_EUlvE_ZNS5_IJcEEES6_S9_EUlvE0_EEvbT_T0_
++ __ZNSt3__116__if_likely_elseB9sqn220106IZNS_6vectorIcNS_9allocatorIcEEE12emplace_backIJcEEERcDpOT_EUlvE_ZNS5_IJcEEES6_S9_EUlvE0_EEvbT_T0_.cold.1
++ __ZNSt3__127__tree_balance_after_insertB9sqn220106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__13setIPN12SafariShared25SuddenTerminationDisablerENS_4lessIS3_EENS_9allocatorIS3_EEE6insertB9sqn220106EOS3_
++ __ZNSt3__16__treeIPN12SafariShared25SuddenTerminationDisablerENS_4lessIS3_EENS_9allocatorIS3_EEE14__tree_deleterclB9sqn220106EPNS_11__tree_nodeIS3_PvEE
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB9sqn220106Em
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB9sqn220106Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9sqn220106Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE9push_backB9sqn220106EOc
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB9sqn220106Em
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9sqn220106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B9sqn220106Em
++ __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB9sqn220106Em
++ __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB9sqn220106Ev
++ __ZNSt3__16vectorItNS_9allocatorItEEEC2B9sqn220106Em
++ __ZNSt3__19allocatorImE17allocate_at_leastB9sqn220106Em
++ __ZNSt3__19allocatorItE17allocate_at_leastB9sqn220106Em
++ __ZSt28__throw_bad_array_new_lengthB9sqn220106v
++ __ZZ85-[NSFileManager(SafariNSFileManagerExtras) safari_createTemporaryDirectoryWithError:]E7baseURL
++ __ZZ85-[NSFileManager(SafariNSFileManagerExtras) safari_createTemporaryDirectoryWithError:]E9onceToken
++ ___110-[WBSAuthenticationServicesAgentProxy getPasskeysForRunningAssertionWithWebFrameIdentifier:completionHandler:]_block_invoke.81
++ ___112-[WBSSavedAccountStore canSaveUser:password:forProtectionSpace:highLevelDomain:notes:customTitle:groupID:error:]_block_invoke.323
++ ___126-[WBSSavedAccountStore _cleanUpSharedSavedAccountsWithUnknownOriginalContributorParticipantIDsIfNecessaryFromRecentlyDeleted:]_block_invoke.348
++ ___128-[WBSAuthenticationServicesAgentProxy getPasskeysForRunningAssertionWithApplicationIdentifier:webPageURL:withCompletionHandler:]_block_invoke.79
++ ___128-[WBSAuthenticationServicesAgentProxy userSelectedAutoFillPasskey:authenticatedLAContext:savedAccountContext:completionHandler:]_block_invoke.82
++ ___145-[WBSSavedAccountStore _moveSavedAccountsOriginallyContributedByCurrentUserToPersonalKeychainFromGroupIDOnInternalQueue:isForAlreadyExitedGroup:]_block_invoke.376
++ ___145-[WBSSavedAccountStore _moveSavedAccountsOriginallyContributedByCurrentUserToPersonalKeychainFromGroupIDOnInternalQueue:isForAlreadyExitedGroup:]_block_invoke_2.377
++ ___147-[WBSSavedAccountStore _getSavedAccountMatchesFromSavedAccountTreeMatchesOnInternalQueue:withCriteria:mergingAutoFillPasskeys:nearbyDeviceOptions:]_block_invoke.430
++ ___158-[WBSAuthenticationServicesAgentProxy credentialProviderInformationForAnyRecentAutoFillOfUsername:password:hostApplicationBundleIdentifier:completionHandler:]_block_invoke
++ ___158-[WBSAuthenticationServicesAgentProxy credentialProviderInformationForAnyRecentAutoFillOfUsername:password:hostApplicationBundleIdentifier:completionHandler:]_block_invoke.cold.1
++ ___42-[WBSSavedAccountStore _loadSavedAccounts]_block_invoke.233
++ ___50+[WBSTOTPGenerator keyDataForBase32EncodedString:]_block_invoke
++ ___51-[WBSAppIDsToDomainsAssociationManager description]_block_invoke
++ ___53-[WBSPasswordGenerationManager passwordRulesByDomain]_block_invoke
++ ___53-[WBSSavedAccountStore _fetchSignInWithAppleAccounts]_block_invoke.246.cold.1
++ ___53-[WBSSavedAccountStore _fetchSignInWithAppleAccounts]_block_invoke.247
++ ___55-[WBSAppIDsToDomainsAssociationManager appIDsToDomains]_block_invoke
++ ___55-[WBSChangePasswordURLManager changePasswordURLStrings]_block_invoke
++ ___57-[WBSPasswordGenerationManager setPasswordRulesByDomain:]_block_invoke
++ ___59-[WBSAppIDsToDomainsAssociationManager setAppIDsToDomains:]_block_invoke
++ ___59-[WBSChangePasswordURLManager setChangePasswordURLStrings:]_block_invoke
++ ___60+[WBSFeatureAvailability isRecentSearchesInStartPageEnabled]_block_invoke
++ ___60-[WBSAutoFillQuirksManager test_waitForInternalQueueToEmpty]_block_invoke
++ ___60-[WBSPasswordGenerationManager passwordRequirementsByDomain]_block_invoke
++ ___61-[WBSPasswordBreachStore initWithBackingStoreURL:accessMode:]_block_invoke
++ ___61-[WBSPasswordBreachStore initWithBackingStoreURL:accessMode:]_block_invoke.33
++ ___61-[WBSPasswordBreachStore initWithBackingStoreURL:accessMode:]_block_invoke.33.cold.1
++ ___61-[WBSPasswordBreachStore initWithBackingStoreURL:accessMode:]_block_invoke.33.cold.2
++ ___61-[WBSPasswordBreachStore initWithBackingStoreURL:accessMode:]_block_invoke.33.cold.3
++ ___61-[WBSPasswordBreachStore initWithBackingStoreURL:accessMode:]_block_invoke.33.cold.4
++ ___61-[WBSPasswordBreachStore initWithBackingStoreURL:accessMode:]_block_invoke.35
++ ___61-[WBSPasswordBreachStore initWithBackingStoreURL:accessMode:]_block_invoke_2
++ ___61-[WBSPasswordBreachStore initWithBackingStoreURL:accessMode:]_block_invoke_2.cold.1
++ ___61-[WBSPasswordGenerationManager defaultRequirementsForDomain:]_block_invoke
++ ___62-[WBSPasswordGenerationManager defaultPasswordRulesForDomain:]_block_invoke
++ ___64-[WBSPasswordGenerationManager setPasswordRequirementsByDomain:]_block_invoke
++ ___66-[WBSSavedAccountStore _performCleanupForExitedGroupsIfNecessary:]_block_invoke.384
++ ___66-[WBSSavedAccountStore _performCleanupForExitedGroupsIfNecessary:]_block_invoke.388
++ ___67-[WBSChangePasswordURLManager changePasswordURLForHighLevelDomain:]_block_invoke
++ ___69-[WBSSavedAccountStore _performRecentlyDeletedMaintenanceIfNecessary]_block_invoke.359
++ ___74-[WBSSavedAccountStore _moveSavedAccount:toGroupWithID:completionHandler:]_block_invoke.360
++ ___74-[WBSSavedAccountStore _moveSavedAccount:toGroupWithID:completionHandler:]_block_invoke.360.cold.1
++ ___74-[WBSSavedAccountStore _moveSavedAccount:toGroupWithID:completionHandler:]_block_invoke.364
++ ___74-[WBSSavedAccountStore _moveSavedAccount:toGroupWithID:completionHandler:]_block_invoke_2.366
++ ___74-[WBSSavedAccountStore _saveUniqueIdentifierOnInternalQueue:savedAccount:]_block_invoke
++ ___75-[WBSPasswordWarningManager getAllWarningsForcingUpdate:completionHandler:]_block_invoke_7
++ ___75-[WBSPasswordWarningManager getAllWarningsForcingUpdate:completionHandler:]_block_invoke_8
++ ___76-[WBSManagedExtensionsConfigurationStore _underlyingConfigurationDidChange:]_block_invoke
++ ___81-[WBSAppIDsToDomainsAssociationManager domainsWithAssociatedCredentialsForAppID:]_block_invoke
++ ___81-[WBSPasswordAuditingEligibleDomainsManager domainsIneligibleForPasswordAuditing]_block_invoke
++ ___85-[NSFileManager(SafariNSFileManagerExtras) safari_createTemporaryDirectoryWithError:]_block_invoke
++ ___85-[WBSPasswordAuditingEligibleDomainsManager setDomainsIneligibleForPasswordAuditing:]_block_invoke
++ ___86-[WBSSavedAccountStore _ensureNoRecentlyDeletedSavedAccountsConflictWithSavedAccount:]_block_invoke.397
++ ___86-[WBSSavedAccountStore _moveContributedSavedAccountsBackToPersonalKeychainIfNecessary]_block_invoke.383
++ ___88-[WBSSavedAccountStore _updateCachedSignInWithAppleAccountsOnInternalQueueWithAccounts:]_block_invoke.253
++ ___93-[WBSSavedAccountStore createUniqueIdentifiersIfNecessaryForSavedAccounts:completionHandler:]_block_invoke
++ ___95-[WBSSavedAccountStore _changeSavedAccountWithRequestOnInternalQueue:performPostUpdateActions:]_block_invoke.289
++ ___WBSOSLogSync_block_invoke
++ ___block_descriptor_33_e5_v8?0l
++ ___block_descriptor_40_e8_32s_e43_v16?0"WBSPasswordWarningTopFraudTargets"8ls32l8
++ ___block_descriptor_40_e8_32s_e45_"WBSPasswordWarning"16?0"WBSSavedAccount"8ls32l8
++ ___block_descriptor_48_ea8_32s40r_e5_v8?0lr40l8s32l8
++ ___block_descriptor_49_e8_32s40s_e5_v8?0ls32l8s40l8
++ ___block_descriptor_56_ea8_32s40s48r_e5_v8?0lr48l8s32l8s40l8
++ ___block_literal_global.1001
++ ___block_literal_global.1085
++ ___block_literal_global.164
++ ___block_literal_global.182
++ ___block_literal_global.199
++ ___block_literal_global.203
++ ___block_literal_global.223
++ ___block_literal_global.232
++ ___block_literal_global.257
++ ___block_literal_global.278
++ ___block_literal_global.281
++ ___block_literal_global.314
++ ___block_literal_global.316
++ ___block_literal_global.332
++ ___block_literal_global.338
++ ___block_literal_global.344
++ ___block_literal_global.347
++ ___block_literal_global.371
++ ___block_literal_global.379
++ ___block_literal_global.41
++ ___block_literal_global.427
++ ___block_literal_global.439
++ ___block_literal_global.660
++ ___block_literal_global.70
++ ___block_literal_global.918
++ ___block_literal_global.995
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.106Tm
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.115
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.133
++ ___swift_closure_destructor.134
++ ___swift_closure_destructor.137
++ ___swift_closure_destructor.142
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.146
++ ___swift_closure_destructor.147
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.155
++ ___swift_closure_destructor.160
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.169
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.178
++ ___swift_closure_destructor.183
++ ___swift_closure_destructor.187
++ ___swift_closure_destructor.192
++ ___swift_closure_destructor.198
++ ___swift_closure_destructor.19Tm
++ ___swift_closure_destructor.202
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.53Tm
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.57Tm
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.99
++ _associated conformance 10SafariCore34WBSAutomaticSecurityUpgradeResultsV9PlacementOSHAASQ
++ _associated conformance 10SafariCore37WBSSavedAccountSecurityUpgradeSessionCs12IdentifiableAA2IDsADP_SH
++ _block_copy_helper.107
++ _block_copy_helper.110
++ _block_copy_helper.114
++ _block_copy_helper.140
++ _block_copy_helper.148
++ _block_copy_helper.149
++ _block_copy_helper.151
++ _block_copy_helper.152
++ _block_copy_helper.155
++ _block_copy_helper.159
++ _block_copy_helper.194
++ _block_copy_helper.64
++ _block_copy_helper.7
++ _block_copy_helper.86
++ _block_descriptor.109
++ _block_descriptor.112
++ _block_descriptor.116
++ _block_descriptor.142
++ _block_descriptor.150
++ _block_descriptor.151
++ _block_descriptor.153
++ _block_descriptor.154
++ _block_descriptor.157
++ _block_descriptor.161
++ _block_descriptor.196
++ _block_descriptor.66
++ _block_descriptor.88
++ _block_descriptor.9
++ _block_destroy_helper.108
++ _block_destroy_helper.111
++ _block_destroy_helper.115
++ _block_destroy_helper.141
++ _block_destroy_helper.149
++ _block_destroy_helper.150
++ _block_destroy_helper.152
++ _block_destroy_helper.153
++ _block_destroy_helper.156
++ _block_destroy_helper.160
++ _block_destroy_helper.195
++ _block_destroy_helper.65
++ _block_destroy_helper.8
++ _block_destroy_helper.87
++ _get_type_metadata l15Synchronization5MutexVyxSgG noncopyable.1
++ _isRecentSearchesInStartPageEnabled.isRecentSearchesInStartPageEnabled
++ _isRecentSearchesInStartPageEnabled.onceToken
++ _keyDataForBase32EncodedString:.inverseAlphabet
++ _keyDataForBase32EncodedString:.onceToken
++ _objc_msgSend$_breachResultRecordsForSavedAccounts:
++ _objc_msgSend$_initWithConfigurationStore:
++ _objc_msgSend$_newUniqueIdentifierIfNecessaryForSavedAccount:
++ _objc_msgSend$_refreshFromDisk
++ _objc_msgSend$_saveUniqueIdentifierOnInternalQueue:savedAccount:
++ _objc_msgSend$addGeneratedPassword:forProtectionSpace:completionHandler:
++ _objc_msgSend$beginObservingStorage
++ _objc_msgSend$configurationURL
++ _objc_msgSend$credentialProviderInformationForAnyRecentAutoFillOfUsername:password:hostApplicationBundleIdentifier:completionHandler:
++ _objc_msgSend$defaultBackingStoreURL
++ _objc_msgSend$deleteSafariContainerDataWithCompletionHandler:
++ _objc_msgSend$doesDeviceManagementRestrictArbitraryExtensions
++ _objc_msgSend$initWithBackingStoreURL:accessMode:
++ _objc_msgSend$isMainThread
++ _objc_msgSend$keyDataForBase32EncodedString:
++ _objc_msgSend$managedExtensionsConfiguration
++ _objc_msgSend$managedExtensionsConfigurationStoreDidChange:
++ _swift_getTupleTypeMetadata
++ _swift_task_addCancellationHandler
++ _swift_task_future_wait_throwing
++ _swift_task_removeCancellationHandler
++ _symbolic $s10SafariCore16WBSRetryStrategyP
++ _symbolic Say_____G So35WBSAutomaticPasswordChangeErrorCodeV
++ _symbolic ScTyx______pG s5ErrorP
++ _symbolic _____ 10SafariCore10WBSRunOnceC
++ _symbolic _____ 10SafariCore14WBSRetryRunnerV
++ _symbolic _____ 10SafariCore20WBSAsyncSerialRunnerC
++ _symbolic _____ 10SafariCore34WBSAutomaticSecurityUpgradeResultsV
++ _symbolic _____ 10SafariCore34WBSAutomaticSecurityUpgradeResultsV9PlacementO
++ _symbolic _____ 10SafariCore7WBSLazyC
++ _symbolic ______SSSg17generatedPasswordt So35WBSAutomaticPasswordChangeErrorCodeV
++ _symbolic ___________p_SitYbKc s8DurationV s5ErrorP
++ _symbolic ______p 10SafariCore16WBSRetryStrategyP
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10SafariCore26WBSLocalizedPluralVariableV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So35WBSAutomaticPasswordChangeErrorCodeV
++ _symbolic x______pIeghHrzo_ s5ErrorP
++ _symbolic xyc
++ _symbolic yxxQpc
++ _type_layout_string 10SafariCore14WBSRetryRunnerV
++ _type_layout_string 10SafariCore34WBSAutomaticSecurityUpgradeResultsV
+- +[WBSFeatureAvailability isNotifyMeWhenEnabled].cold.1
+- +[WBSManagedExtensionsController managedExtensionsConfigurationURL]
+- +[WBSTOTPGenerator _keyDataForBase32EncodedString:]
+- +[WBSTOTPGenerator _keyDataForBase32EncodedString:].cold.1
+- -[WBSManagedExtensionsController _managedExtensionConfigurationDidChange:]
+- -[WBSManagedExtensionsController _readManagedExtensionsStateFromDisk]
+- -[WBSPasswordBreachStore initWithBackingStoreURL:]
+- -[WBSPasswordWarningTopFraudTargetsManager dealloc]
+- GCC_except_table298
+- GCC_except_table305
+- GCC_except_table345
+- GCC_except_table405
+- GCC_except_table407
+- GCC_except_table412
+- _OBJC_IVAR_$_WBSManagedExtensionsController._managedExtensionsState
+- __OBJC_$_CLASS_PROP_LIST_WBSManagedExtensionsController
+- __ZNSt3__110__function12__value_funcIFbiN8nlohmann6detail13parse_event_tERNS2_10basic_jsonINS_3mapENS_6vectorENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbxydSB_NS2_14adl_serializerENS7_IhNSB_IhEEEEEEEEC2B9sqn220100EOSK_
+- __ZNSt3__110__function12__value_funcIFbiN8nlohmann6detail13parse_event_tERNS2_10basic_jsonINS_3mapENS_6vectorENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbxydSB_NS2_14adl_serializerENS7_IhNSB_IhEEEEEEEEC2B9sqn220100ERKSK_
+- __ZNSt3__110__function12__value_funcIFbiN8nlohmann6detail13parse_event_tERNS2_10basic_jsonINS_3mapENS_6vectorENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbxydSB_NS2_14adl_serializerENS7_IhNSB_IhEEEEEEEED2B9sqn220100Ev
+- __ZNSt3__110unique_ptrIN12SafariShared25SuddenTerminationDisablerENS_14default_deleteIS2_EEE5resetB9sqn220100EPS2_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9sqn220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9sqn220100Em
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9sqn220100ILi0EEEPKc
+- __ZNSt3__113__tree_removeB9sqn220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__116__if_likely_elseB9sqn220100IZNS_6vectorIcNS_9allocatorIcEEE12emplace_backIJcEEERcDpOT_EUlvE_ZNS5_IJcEEES6_S9_EUlvE0_EEvbT_T0_
+- __ZNSt3__116__if_likely_elseB9sqn220100IZNS_6vectorIcNS_9allocatorIcEEE12emplace_backIJcEEERcDpOT_EUlvE_ZNS5_IJcEEES6_S9_EUlvE0_EEvbT_T0_.cold.1
+- __ZNSt3__127__tree_balance_after_insertB9sqn220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__13setIPN12SafariShared25SuddenTerminationDisablerENS_4lessIS3_EENS_9allocatorIS3_EEE6insertB9sqn220100EOS3_
+- __ZNSt3__16__treeIPN12SafariShared25SuddenTerminationDisablerENS_4lessIS3_EENS_9allocatorIS3_EEE14__tree_deleterclB9sqn220100EPNS_11__tree_nodeIS3_PvEE
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB9sqn220100Em
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB9sqn220100Ev
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9sqn220100Ev
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE9push_backB9sqn220100EOc
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB9sqn220100Em
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9sqn220100Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B9sqn220100Em
+- __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB9sqn220100Em
+- __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB9sqn220100Ev
+- __ZNSt3__16vectorItNS_9allocatorItEEEC2B9sqn220100Em
+- __ZNSt3__19allocatorImE17allocate_at_leastB9sqn220100Em
+- __ZNSt3__19allocatorItE17allocate_at_leastB9sqn220100Em
+- __ZSt28__throw_bad_array_new_lengthB9sqn220100v
+- ___110-[WBSAuthenticationServicesAgentProxy getPasskeysForRunningAssertionWithWebFrameIdentifier:completionHandler:]_block_invoke.79
+- ___112-[WBSSavedAccountStore canSaveUser:password:forProtectionSpace:highLevelDomain:notes:customTitle:groupID:error:]_block_invoke.322
+- ___126-[WBSSavedAccountStore _cleanUpSharedSavedAccountsWithUnknownOriginalContributorParticipantIDsIfNecessaryFromRecentlyDeleted:]_block_invoke.347
+- ___128-[WBSAuthenticationServicesAgentProxy getPasskeysForRunningAssertionWithApplicationIdentifier:webPageURL:withCompletionHandler:]_block_invoke.77
+- ___128-[WBSAuthenticationServicesAgentProxy userSelectedAutoFillPasskey:authenticatedLAContext:savedAccountContext:completionHandler:]_block_invoke.80
+- ___145-[WBSSavedAccountStore _moveSavedAccountsOriginallyContributedByCurrentUserToPersonalKeychainFromGroupIDOnInternalQueue:isForAlreadyExitedGroup:]_block_invoke.375
+- ___145-[WBSSavedAccountStore _moveSavedAccountsOriginallyContributedByCurrentUserToPersonalKeychainFromGroupIDOnInternalQueue:isForAlreadyExitedGroup:]_block_invoke_2.376
+- ___147-[WBSSavedAccountStore _getSavedAccountMatchesFromSavedAccountTreeMatchesOnInternalQueue:withCriteria:mergingAutoFillPasskeys:nearbyDeviceOptions:]_block_invoke.426
+- ___42-[WBSSavedAccountStore _loadSavedAccounts]_block_invoke.232
+- ___50-[WBSPasswordBreachStore initWithBackingStoreURL:]_block_invoke
+- ___50-[WBSPasswordBreachStore initWithBackingStoreURL:]_block_invoke.29
+- ___50-[WBSPasswordBreachStore initWithBackingStoreURL:]_block_invoke.29.cold.1
+- ___50-[WBSPasswordBreachStore initWithBackingStoreURL:]_block_invoke.29.cold.2
+- ___50-[WBSPasswordBreachStore initWithBackingStoreURL:]_block_invoke.29.cold.3
+- ___50-[WBSPasswordBreachStore initWithBackingStoreURL:]_block_invoke.29.cold.4
+- ___51+[WBSTOTPGenerator _keyDataForBase32EncodedString:]_block_invoke
+- ___53-[WBSSavedAccountStore _fetchSignInWithAppleAccounts]_block_invoke.245
+- ___53-[WBSSavedAccountStore _fetchSignInWithAppleAccounts]_block_invoke.245.cold.1
+- ___66-[WBSSavedAccountStore _performCleanupForExitedGroupsIfNecessary:]_block_invoke.383
+- ___66-[WBSSavedAccountStore _performCleanupForExitedGroupsIfNecessary:]_block_invoke.387
+- ___69-[WBSSavedAccountStore _performRecentlyDeletedMaintenanceIfNecessary]_block_invoke.358
+- ___74-[WBSManagedExtensionsController _managedExtensionConfigurationDidChange:]_block_invoke
+- ___74-[WBSSavedAccountStore _moveSavedAccount:toGroupWithID:completionHandler:]_block_invoke.359
+- ___74-[WBSSavedAccountStore _moveSavedAccount:toGroupWithID:completionHandler:]_block_invoke.359.cold.1
+- ___74-[WBSSavedAccountStore _moveSavedAccount:toGroupWithID:completionHandler:]_block_invoke.363
+- ___74-[WBSSavedAccountStore _moveSavedAccount:toGroupWithID:completionHandler:]_block_invoke_2.365
+- ___75-[WBSPasswordWarningManager getAllWarningsForcingUpdate:completionHandler:]_block_invoke.30
+- ___75-[WBSPasswordWarningManager getAllWarningsForcingUpdate:completionHandler:]_block_invoke_2.32
+- ___86-[WBSSavedAccountStore _ensureNoRecentlyDeletedSavedAccountsConflictWithSavedAccount:]_block_invoke.396
+- ___86-[WBSSavedAccountStore _moveContributedSavedAccountsBackToPersonalKeychainIfNecessary]_block_invoke.382
+- ___88-[WBSSavedAccountStore _updateCachedSignInWithAppleAccountsOnInternalQueueWithAccounts:]_block_invoke.252
+- ___93-[WBSSavedAccountStore uniqueIdentifierCreatingIfNecessaryForSavedAccount:completionHandler:]_block_invoke_2
+- ___95-[WBSSavedAccountStore _changeSavedAccountWithRequestOnInternalQueue:performPostUpdateActions:]_block_invoke.288
+- ___block_descriptor_48_e8_32s40r_e20_v16?0"NSMapTable"8lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e43_v16?0"WBSPasswordWarningTopFraudTargets"8lr40l8s32l8
+- ___block_descriptor_56_e8_32s40r48r_e45_"WBSPasswordWarning"16?0"WBSSavedAccount"8lr40l8s32l8r48l8
+- ___block_descriptor_56_e8_32s40s48r_e5_v8?0ls32l8s40l8r48l8
+- ___block_descriptor_73_e8_32s40s48s56r64r_e5_v8?0ls32l8s40l8r56l8r64l8s48l8
+- ___block_literal_global.160
+- ___block_literal_global.191
+- ___block_literal_global.194
+- ___block_literal_global.196
+- ___block_literal_global.200
+- ___block_literal_global.202
+- ___block_literal_global.214
+- ___block_literal_global.226
+- ___block_literal_global.235
+- ___block_literal_global.251
+- ___block_literal_global.268
+- ___block_literal_global.271
+- ___block_literal_global.275
+- ___block_literal_global.280
+- ___block_literal_global.290
+- ___block_literal_global.311
+- ___block_literal_global.313
+- ___block_literal_global.331
+- ___block_literal_global.335
+- ___block_literal_global.337
+- ___block_literal_global.343
+- ___block_literal_global.346
+- ___block_literal_global.368
+- ___block_literal_global.370
+- ___block_literal_global.386
+- ___block_literal_global.395
+- ___block_literal_global.68
+- ___block_literal_global.911
+- ___block_literal_global.988
+- ___block_literal_global.994
+- ___swift_closure_destructor.102
+- ___swift_closure_destructor.107
+- ___swift_closure_destructor.114
+- ___swift_closure_destructor.116
+- ___swift_closure_destructor.129
+- ___swift_closure_destructor.132
+- ___swift_closure_destructor.135
+- ___swift_closure_destructor.136
+- ___swift_closure_destructor.141
+- ___swift_closure_destructor.145
+- ___swift_closure_destructor.149
+- ___swift_closure_destructor.150
+- ___swift_closure_destructor.152
+- ___swift_closure_destructor.153
+- ___swift_closure_destructor.161
+- ___swift_closure_destructor.162
+- ___swift_closure_destructor.166
+- ___swift_closure_destructor.168
+- ___swift_closure_destructor.17
+- ___swift_closure_destructor.171
+- ___swift_closure_destructor.174
+- ___swift_closure_destructor.175
+- ___swift_closure_destructor.177
+- ___swift_closure_destructor.17Tm
+- ___swift_closure_destructor.180
+- ___swift_closure_destructor.185
+- ___swift_closure_destructor.189
+- ___swift_closure_destructor.194
+- ___swift_closure_destructor.200
+- ___swift_closure_destructor.204
+- ___swift_closure_destructor.21
+- ___swift_closure_destructor.26
+- ___swift_closure_destructor.32
+- ___swift_closure_destructor.36
+- ___swift_closure_destructor.41
+- ___swift_closure_destructor.42
+- ___swift_closure_destructor.50Tm
+- ___swift_closure_destructor.56Tm
+- ___swift_closure_destructor.59
+- ___swift_closure_destructor.60
+- ___swift_closure_destructor.67
+- ___swift_closure_destructor.70
+- ___swift_closure_destructor.71
+- ___swift_closure_destructor.75
+- ___swift_closure_destructor.76
+- ___swift_closure_destructor.8
+- ___swift_closure_destructor.81
+- ___swift_closure_destructor.82Tm
+- ___swift_closure_destructor.85
+- ___swift_closure_destructor.8Tm
+- ___swift_closure_destructor.98
+- __keyDataForBase32EncodedString:.inverseAlphabet
+- __keyDataForBase32EncodedString:.onceToken
+- _block_copy_helper.105
+- _block_copy_helper.109
+- _block_copy_helper.116
+- _block_copy_helper.143
+- _block_copy_helper.146
+- _block_copy_helper.170
+- _block_copy_helper.179
+- _block_copy_helper.182
+- _block_copy_helper.185
+- _block_copy_helper.189
+- _block_copy_helper.196
+- _block_copy_helper.2
+- _block_copy_helper.9
+- _block_descriptor.107
+- _block_descriptor.11
+- _block_descriptor.111
+- _block_descriptor.118
+- _block_descriptor.145
+- _block_descriptor.148
+- _block_descriptor.172
+- _block_descriptor.181
+- _block_descriptor.184
+- _block_descriptor.187
+- _block_descriptor.191
+- _block_descriptor.198
+- _block_descriptor.4
+- _block_destroy_helper.10
+- _block_destroy_helper.106
+- _block_destroy_helper.110
+- _block_destroy_helper.117
+- _block_destroy_helper.144
+- _block_destroy_helper.147
+- _block_destroy_helper.171
+- _block_destroy_helper.180
+- _block_destroy_helper.183
+- _block_destroy_helper.186
+- _block_destroy_helper.190
+- _block_destroy_helper.197
+- _block_destroy_helper.3
+- _objc_msgSend$_keyDataForBase32EncodedString:
+- _objc_msgSend$_readManagedExtensionsStateFromDisk
+- _objc_msgSend$managedExtensionsConfigurationURL
+- _objc_msgSend$prepareForTermination
+- _objc_msgSend$scheduleAutomaticPasswordChangeNotificationForSavedAccounts:completionHandler:
+- _objc_setProperty_atomic_copy
+- _symbolic So7NSArrayC
+- _symbolic _____ 10SafariCore35WBSAutomaticPasswordChangeUtilitiesV
+CStrings:
++ "%lu passwords could not be fixed because Passwords could not access verification codes."
++ "-[WBSSavedAccountStore _addNewGroupToCachedSharingGroups:]"
++ "-[WBSSavedAccountStore _canMoveSavedAccountWithPasskey:toGroup:]"
++ "-[WBSSavedAccountStore _conflictExistsForSavedAccount:inGroupWithID:]"
++ "-[WBSSavedAccountStore _diagnosticStateDictionary]"
++ "-[WBSSavedAccountStore _persistentIdentifierForUser:host:]"
++ "-[WBSSavedAccountStore _saveUser:passkeyCredential:passkeyRelyingPartyID:]"
++ "-[WBSSavedAccountStore _updateLastOneTimeShareDateforSavedAccountIfNeeded:]"
++ "-[WBSSavedAccountStore allRecentlyDeletedSavedAccounts]"
++ "-[WBSSavedAccountStore canChangeSavedAccount:toUser:password:]"
++ "-[WBSSavedAccountStore canSaveUser:password:forProtectionSpace:highLevelDomain:notes:customTitle:groupID:error:]"
++ "-[WBSSavedAccountStore changeSavedAccount:toUser:password:]"
++ "-[WBSSavedAccountStore exportPasskeyCredentialWithID:]"
++ "-[WBSSavedAccountStore getSavedAccountsMatchingCriteria:withSynchronousCompletionHandler:]"
++ "-[WBSSavedAccountStore recentlyDeletedSavedAccountsForGroupWithID:]"
++ "-[WBSSavedAccountStore recentlyDeletedSavedAccountsInPersonalKeychain]"
++ "-[WBSSavedAccountStore removeHideWarningMarkerForSavedAccount:]"
++ "-[WBSSavedAccountStore removeTOTPGeneratorForSavedAccount:]"
++ "-[WBSSavedAccountStore saveUser:password:forProtectionSpace:highLevelDomain:customTitle:groupID:]"
++ "-[WBSSavedAccountStore savedAccountHasPasskeyPRFData:]"
++ "-[WBSSavedAccountStore savedAccountUUIDToSavedAccounts]"
++ "-[WBSSavedAccountStore savedAccountsForGroupID:]"
++ "-[WBSSavedAccountStore savedAccountsInPersonalKeychain]"
++ "-[WBSSavedAccountStore savedAccountsWithNeverSaveMarker]"
++ "-[WBSSavedAccountStore savedAccountsWithPasswords]"
++ "-[WBSSavedAccountStore setSavedAccountAsDefault:forProtectionSpace:context:associatedDomainsManager:]"
++ "-[WBSSavedAccountStore sharingGroupsWithRecentlyDeletedSavedAccounts]"
++ "-[WBSSavedAccountStore sharingGroupsWithSavedAccounts]"
++ "-[WBSSavedAccountStore shouldShowServiceNamesForPasswordAndPasskeyItems]"
++ "-[WBSSavedAccountStore test_loadSavedAccountsWithPasskeysFromPasskeyData:]"
++ "-[WBSSavedAccountStore test_setSharedAccountsGroups:]"
++ "Automatic Password Fix Cancelled"
++ "Cannot import passkey: another credential already exists for the same userHandle."
++ "Could not check existing passkeys for relying party: %{public}d"
++ "Could not derive protection space to salvage generated password for task with savedAccountUUID: %s"
++ "Could not save salvaged generated password for task with savedAccountUUID: %s"
++ "EnableRecentSearchesInStartPage"
++ "Failed to save generated password to WBSGeneratedPasswordStore; leaving task status unchanged for retry"
++ "Magic Extensions Account Added"
++ "Magic Extensions Account Modified"
++ "Magic Extensions Local Push Notification"
++ "Magic Extensions PCS Identities Changed"
++ "Magic Extensions Property Migration Update"
++ "Main thread waiting in %{public}s"
++ "PMAllowAutomaticPasswordChangeInDetailView"
++ "PMAutomaticPasswordChangeDebugForceFeatureEnabled"
++ "PMAutomaticPasswordChangeDebugSiteShouldEnableHardMode"
++ "PMAutomaticPasswordChangeDebugSiteShouldRequestOneTimeCode"
++ "PMAutomaticPasswordChangeShouldAdvanceManually"
++ "PMAutomaticPasswordChangeShouldShowWebView"
++ "PMAutomaticPasswordChangeShowSessionDoneButton"
++ "PMAutomaticPasswordChangeShowVerboseErrors"
++ "PasswordBreachStore.plist"
++ "Sync"
++ "Unexpected password breach store version %{public}lu in read-only store; ignoring contents."
++ "WBSDebugEnablePasswordChangeClassifier"
++ "WBSDebugLogFullAgentToolOutput"
++ "WBSDidApplyStartPageSectionPositionHealForRdar177455102"
++ "fileVaultRecoveryKey(volumeID:serialNumber:)"
++ "fileVaultRecoveryKeys(serialNumber:)"
+- "\""
+- "%lu passwords could not be fixed because Passwords could not access the verification codes."
+- "Failed to save generated password to WBSGeneratedPasswordStore; leaving task as .inProgress for retry"
+
+```

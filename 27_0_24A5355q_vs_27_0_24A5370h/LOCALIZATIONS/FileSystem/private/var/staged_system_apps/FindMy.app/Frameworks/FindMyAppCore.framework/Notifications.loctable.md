@@ -1,0 +1,47 @@
+## FindMyAppCore
+
+> `FileSystem/private/var/staged_system_apps/FindMy.app/Frameworks/FindMyAppCore.framework/Notifications.loctable`
+
+```diff
+
+ en.NOTIFICATIONS_ADD_LOCATION_ALERT = "Add Location Alert"
+-en.NOTIFICATIONS_SECTION_ABOUT_ME_TITLE = "Notifications About Me"
++en.NOTIFICATIONS_SECTION_ABOUT_ME_SUSPENDED_FOOTER = "Alerts won’t be sent while Share My Location is off. Turn it on to resume."
++en.NOTIFICATIONS_SECTION_ABOUT_ME_TITLE = "Alerts on My Location"
+ en.NOTIFICATIONS_SECTION_ALLOW_FRIEND_REQUEST_ACTION = "Allow Friend Requests"
+ en.NOTIFICATIONS_SECTION_CLEAR_TAGS_ACTION = "Clear Ignored Items"
+ en.NOTIFICATIONS_SECTION_CUSTOMIZE_FIND_MY_NOTIFICATIONS_ACTION = "Customize Find My Notifications"
+ en.NOTIFICATIONS_SECTION_CUSTOMIZE_SAFETY_ALERTS_NOTIFICATIONS_ACTION = "Customize Tracking Notifications"
+-en.NOTIFICATIONS_SECTION_GENERIC_TITLE = "Notifications"
+-en.NOTIFICATIONS_SECTION_MUTE_ACTION = "Mute Notifications"
++en.NOTIFICATIONS_SECTION_MUTE_ACTION = "Pause Recurring Alerts"
++en.NOTIFICATIONS_SECTION_NOTIFY_FRIEND_FOOTER_HIDING = "Unhide your location to set up location alerts."
++en.NOTIFICATIONS_SECTION_NOTIFY_FRIEND_FOOTER_HIDING_WITH_ALERTS = "Alerts won’t be sent while hiding your location. Unhide your location to resume."
++en.NOTIFICATIONS_SECTION_NOTIFY_FRIEND_FOOTER_SML_OFF = "Turn Share My Location on in the Me tab to set up location alerts."
++en.NOTIFICATIONS_SECTION_NOTIFY_FRIEND_FOOTER_SML_OFF_HIDING = "Turn Share My Location on in the Me tab and unhide your location to set up location alerts."
++en.NOTIFICATIONS_SECTION_NOTIFY_FRIEND_FOOTER_SML_OFF_HIDING_WITH_ALERTS = "Alerts won’t be sent while Share My Location is off. Turn it on in the Me tab and unhide your location to resume."
++en.NOTIFICATIONS_SECTION_NOTIFY_FRIEND_FOOTER_SML_OFF_WITH_ALERTS = "Alerts won’t be sent while Share My Location is off. Turn it on in the Me tab to resume."
+ en.NOTIFICATIONS_SECTION_NOTIFY_FRIEND_GENERIC_TITLE = "Notify This Person"
+ en.NOTIFICATIONS_SECTION_NOTIFY_FRIEND_TITLE_%@ = "Notify %@"
++en.NOTIFICATIONS_SECTION_NOTIFY_ME_FOOTER = "Notifications are suspended. Turn on Allow Notifications in Settings to resume."
+ en.NOTIFICATIONS_SECTION_NOTIFY_ME_TITLE = "Notify Me"
+ en.NOTIFICATIONS_SECTION_SETTINGS_TITLE = "Settings"
+-en.NOTIFICATIONS_SECTION_SETUP_ACTION = "Set Up"
+-en.NOTIFICATIONS_SECTION_SETUP_FOR_FRIEND_SUBTITLE = "When my location changes"
+-en.NOTIFICATIONS_SECTION_SETUP_FOR_ME_GENERIC_SUBTITLE = "When this person’s location changes"
+-en.NOTIFICATIONS_SECTION_SETUP_FOR_ME_SUBTITLE_%@ = "When %@’s location changes"
+-en.NOTIFICATIONS_SECTION_SUBTITLE_MUTED_UNTIL_%@ = "Muted until %@"
++en.NOTIFICATIONS_SECTION_SUBTITLE_FOR_FRIEND = "Send alerts about your location"
++en.NOTIFICATIONS_SECTION_SUBTITLE_FOR_ME_%@ = "Get alerts about %@’s location"
++en.NOTIFICATIONS_SECTION_SUBTITLE_FOR_ME_GENERIC = "Get alerts about this person’s location"
++en.NOTIFICATIONS_SECTION_SUBTITLE_MUTED_UNTIL_%@ = "Recurring alerts paused, resuming %@"
+ en.NOTIFICATIONS_SECTION_SUSPENDED_FOR_ALL_FOOTER = "Suspended until Location Sharing resumes"
+-en.NOTIFICATIONS_SECTION_SUSPENDED_FOR_FRIEND_FOOTER = "Resume sharing to setup location alerts"
+-en.NOTIFICATIONS_SECTION_UNMUTE_ACTION = "Unmute / Change Mute"
++en.NOTIFICATIONS_SECTION_SUSPENDED_FOR_FRIEND_FOOTER = "Unhide your location to setup location alerts."
++en.NOTIFICATIONS_SECTION_UNMUTE_ACTION = "Resume Now / Change"
+ en.NOTIFICATIONS_SUBTITLE_PENDING = "Pending Request"
+ en.NOTIFICATIONS_SUBTITLE_REQUESTED = "Request Sent"
+ en.NOTIFY_FRIEND_EVERY_TIME_I_ARRIVE = "Every Time I Arrive at"
+
+```

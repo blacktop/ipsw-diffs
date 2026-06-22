@@ -1,0 +1,59 @@
+## CentauriAlphaPatchBay
+
+> `/System/Library/PrivateFrameworks/CentauriAlphaPatchBay.framework/CentauriAlphaPatchBay`
+
+```diff
+
+-91.58.1.0.0
+-  __TEXT.__text: 0x12ac sha256:ef4388ffe183c5fb6eb7e0ac5bc695efb724b63c46d8c32c8e238a2af1db1ffc
++91.79.1.0.0
++  __TEXT.__text: 0x12b8 sha256:bad143d1b2b0776bff29adba018cee7bd8d879c03775bec009d345544ee9accf
+   __TEXT.__const: 0x18 sha256:6b233b3549281d28decf50dbd511aa98f26f1e0182e14d3bc75ecb4a7aa3df8e
+   __TEXT.__oslogstring: 0x33d sha256:bd394629e7c29c553650e00e2d191f26b90d4b6e951001604eb01ee2c328df0f
+   __TEXT.__cstring: 0x160 sha256:919c59d19efb75cd828dff02fd07c994671dcf50ca51c28b1fc8f8b1941acba1
+-  __TEXT.__unwind_info: 0x78 sha256:18e17c9510e16844055c0b53a117f795af96019df7f75dad80a6ab8ca1a4a358
++  __TEXT.__unwind_info: 0x80 sha256:a4a3c341ef68dfa6395730c97809c91a6d8df1669d47db0f78cf3dd0b02a9561
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x180 sha256:9fb2cce2a93ab3c0895541caa23ae3a3a6d8b4af7ece45429794656cb1281851
++  __AUTH_CONST.__cfstring: 0x180 sha256:5dea1bccc1fee8996b5052038a7f2a4d9c5b96f2b870c8ec125099608f637998
+   __AUTH_CONST.__auth_got: 0x0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 0B5D8763-4E04-3879-A06C-0F8BD42D4D4B
++  UUID: F81D703B-4BE0-3036-BB75-130C6011C92B
+   Functions: 27
+   Symbols:   78
+   CStrings:  53
+Functions:
+~ _CentauriAlphaPatchBayCopyData : sha256 33922187e2006ae5c96a581031c2705f5f75950b74ae3fff05057e76013e1076 -> 3a84b565b40aea8fb369eb4b134d3b02d56f46c7b0afc9048e31ac03f4acdef1
+~ _getUint8FromIOReg : sha256 77b6c954ae909edf3fc5aaaaa4aba9cba874dd33fea2510648ac654daed2dd6f -> 0c997577912a4df556e50bea398ff81937159b89ef83369bbbc11fbd5f73d9d6
+~ _getTableFromIOReg : 672 -> 684
+~ _getFloatFromIOReg : sha256 30904a6f8daf022fbd2f0bbd0183cbae370cb8fb617b05942e7b81b32b3ca905 -> 7ec5b5be0e534556ad968a60b95cbe0b95b362d75c71e239b16d974b8847e57c
+~ _AddPatchbayItem : sha256 10fb9a7fb8deff954c3ae1ceb0da8cb5b680a1ed3a65d87f4beeb8c788b3ccef -> db58652244c6723b2cbbfe48ff4a7c34510517069ead9911f322c7cda31fd13b
+~ _OUTLINED_FUNCTION_0 : sha256 d63ec79e83d7306100a6758ae8b3e3b782549f8fb21398814fe1358ca836742f -> 5d2c06a5273a5a40041a11b1c2e7bac9e6db3779ed246eb8f70c2d784e7bbd02
+~ _OUTLINED_FUNCTION_1 : sha256 627a74048c5e61545a9642c75af9990f47d950f9e130e1a769240ef4d00e8db0 -> 40427850a46c086d00cf8202583619f3e0d93df2bf2bd02be2046402457fbcfc
+~ _OUTLINED_FUNCTION_2 : sha256 14d08adc6aab9c87140ce0ab92fbc0c5d446ab79694250a9f63105a089751a22 -> 36a6f10e2a6f46e5627014ec2ef4853834aea4fbd3efbad6b19179ec60536d05
+~ _CentauriAlphaPatchBayCopyData.cold.1 : sha256 f8fc1d5e4167b3b7db5107750644868751b0cac287120b9caa54ba55ddd0c3dd -> 6b5b7cd19fa35f4d6d42391307793769c37c6c36fc572a5b1992d404f61f5128
+~ _CentauriAlphaPatchBayCopyData.cold.2 : sha256 1b2104469661d274227c39a98a718e1bb5da831e0f32791d8fbd5c19b23067fb -> 2620ff75a46a29ffd62d932a4e8c362530cf78674e5e061739374e18d7647cf1
+~ _CentauriAlphaPatchBayCopyData.cold.3 : sha256 a8d0df251d85f8dc1147f4192b9cda1f4eb7859692403554ccda7304ac4b05e1 -> efc735925a8b015211fd5a223e964618e95f46f833d92d1fefcb493461af9df1
+~ _CentauriAlphaPatchBayCopyData.cold.4 : sha256 04ecf487ce10a24f3f2635fe774693d3181bb85c42958fda73b88ced98122715 -> e7427ebb02b210daf7748e4fed90e7dd7c0995141b4361271460b3e6f18d9e67
+~ _getUint8FromIOReg.cold.1 : sha256 54deb5c1fd9b78873d40e65fd8d59b555c076f3b31b2436a08d0775737a75ad2 -> e190f13901e0ef74aabaf1f37a9db80a3b734b62859969fd4ecf06ec5f8a8e59
+~ _getUint8FromIOReg.cold.2 : sha256 7e5a46b6b920dca437e6b5f20dfcf13377e65cfc52b3f9da91f12b1632916423 -> 4d95b707b1fb6577c067ae82c5dae623bba297bb17e9c6202423f1b895e53490
+~ _getUint8FromIOReg.cold.3 : sha256 070a95c0a85c9867cfdf03eb97dc9501f8cb47f4eb8bdb9089fd0df2dc50c8e0 -> 7bac9a44fd969a3d58730b356ba77398c61c7e750eba2d77d077d7e903427b42
+~ _getUint8FromIOReg.cold.4 : sha256 875c80c6ed18c6dde9cf7137895687eb490f37f0c0aacd9c9c834c558643d82f -> ed48f9549c01796b6e6ed297807d66ecdb0b1be90d49641a9929cdbca1bcd97d
+~ _getUint8FromIOReg.cold.5 : sha256 7a61b4c4c7d93f4198a2bfb9efa537376d16b7ba081372b23ca4eaff46e86228 -> 1c9e680220f7c6892ada35a732aa4707158a83956209171c90cb5fd80e3742fc
+~ _getTableFromIOReg.cold.1 : sha256 83302b3012a532c57d237147311fe3e994f4b35b110efe080c523dfbbd1cf414 -> 93b6a1b48e1e9750b7cb7618872d73cc5bcb393ba7efebd73c398712fab5ebef
+~ _getTableFromIOReg.cold.2 : sha256 47ebeacd2b7d067d2b0466604a597724ec38073db1099ddc7f67fd14f060ede4 -> 9ba8f0dfddc63b555fbc92ff5006af08cb8ef65ce98bb0412cfea858976d625f
+~ _getTableFromIOReg.cold.3 : sha256 05e327ab2f077779e62d72f0c3eb7a3e31face15bb2f4a29bde80e2d7b7f15f2 -> 7980431e0ad7025def1dc02872ce624876a30eeaed88a7194315e73138731285
+~ _getTableFromIOReg.cold.4 : sha256 fcacbe23f17770407665619b2285d3909227f8d0e728280b7cd81ec000866798 -> 48c2ead9f04fd985bc79b8440a46b293d07eed3e2a2c5bb648a9334ef86041a9
+~ _getTableFromIOReg.cold.5 : sha256 01d1f86936d07e4a3da8eb27261b937db6887092294815918ed61854a66b1abd -> eb5353f9dbd19550c386107ffe11b3c8e2755b7fb5d38362808a30de51c6f47f
+~ _getTableFromIOReg.cold.6 : sha256 96819ad420fd2f2772dc4959227a6ad1d2fa898580287e4f0fb503e29c297b73 -> c82d483c6b3f32a8fb9cac451f200edc1b9d00d6300f47019a0d32c0c8bd795f
+~ _getFloatFromIOReg.cold.1 : sha256 711bbdbac951e01f3d87ef3a07f607b5987d8ac6712bd6ecba442addbe45c0bd -> b7b33a5d826d87a2c9c6da83875eb3af1eab62642bf5e313ab10f1cbe110b78d
+~ _getFloatFromIOReg.cold.2 : sha256 12086ecd3de64e90a03d3488a47a2767b0eb582f534ebd9d2f0251f5468b7208 -> 8eb79cdf74f3e94ea570a67e8739797adf3d7e19792d9c8ebfd82ea563b7d0d1
+~ _getFloatFromIOReg.cold.3 : sha256 37a10417de281d85b2ee773304b69bfb1f4e191ab0683ab583369768bc26cf63 -> 621edc9aebc18f40cf0c071348c03540ee785f6fd1301ccc5d782fe883f4dd6c
+~ _getFloatFromIOReg.cold.4 : sha256 c4f1f54deb6d4c11c010907d67ac5556c3c26a3a82c6b53d6e49e9c767d7b769 -> a0713da729c0d0cb3cf68caf994047a52e97e786bd8c2fd7b8a0c2631bf07ebf
+
+```

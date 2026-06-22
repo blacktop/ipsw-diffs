@@ -1,0 +1,299 @@
+## HealthMenstrualCyclesDaemon
+
+> `/System/Library/PrivateFrameworks/HealthMenstrualCyclesDaemon.framework/HealthMenstrualCyclesDaemon`
+
+```diff
+
+-7027.0.52.2.6
+-  __TEXT.__text: 0x8bd78 sha256:ebcab6bbdf233c1406539196c06dbee5372654044df87f8a4820b150b86a501b
+-  __TEXT.__objc_methlist: 0x366c sha256:0c79d790502b85d0f9e79268bcc6ef5f0a309a5cb353432747372b8eb97825cc
+-  __TEXT.__const: 0x1cb0 sha256:3c80e85e6ab802df43f04e08053f14cf7c5adb61df3e8a8f459f3a3a7a6a6427
+-  __TEXT.__gcc_except_tab: 0xd94 sha256:71bf38292d2d21620b07367340165a5c5c49bbde7f224e1bbf061cccd0eac589
+-  __TEXT.__oslogstring: 0x6a2c sha256:aeb1c5d6839b7830860ed8d6b333ff413ce37cf7c8ee841f5e0a835ecc7d6df8
+-  __TEXT.__cstring: 0x38c1 sha256:3e9d1eadfcc882f904b418c04caa2a3c193be33fe4cb87205d7575addf3f7065
+-  __TEXT.__constg_swiftt: 0x7fc sha256:d16737843552262becbe8f604d8696f26543363a0fb86c3a6a4e01fce42bf908
+-  __TEXT.__swift5_typeref: 0xcaa sha256:3bb18a31d4cb30dd13bbc906d76d5e243cc31ca5ef05891e7ab59e90f9c4445b
++7027.0.60.2.2
++  __TEXT.__text: 0x8d880 sha256:4625ee95bbdbb7911576a6dd656410878eeacda2c9a108d8f94440e5f6947a5f
++  __TEXT.__objc_methlist: 0x36cc sha256:2ad6d1d2e084d8e3869edae2d59dfd5cf3ce5ae33af7b0867c48dc205a0dbc6a
++  __TEXT.__const: 0x1cb0 sha256:a4af787cc6bbc5a4bf3c3cf98c8fb1726658f9546fa260f792d7989c7b0842ef
++  __TEXT.__gcc_except_tab: 0xde0 sha256:53b6812922f8ce46bad3f04ed8ef35b1569c9c96ec10deae7795baff63748481
++  __TEXT.__oslogstring: 0x6b0c sha256:44c03ea7ba960e5bd4a5860432853dd4fadb4445e563f5951b764caa35f09c7d
++  __TEXT.__cstring: 0x38f1 sha256:6cd44dbb33e48fa3c0cefb3ce036978e016338ab834103f9f72d1c427d64b374
++  __TEXT.__constg_swiftt: 0x7fc sha256:b2c26844d8010e94eecf700aa725c73f87a26d2094b6902b40d7c9398c62d903
++  __TEXT.__swift5_typeref: 0xcaa sha256:85d9f53edac49bdfb39738dc717b071dc96cc50d7ca5c3539b72ad5317f0d27d
+   __TEXT.__swift5_reflstr: 0x851 sha256:727c31838144b9652820a7374c4b43b57af67474d332c82101d80b983e9a196b
+   __TEXT.__swift5_fieldmd: 0x718 sha256:41520ac528e98abaf133235b2918f67de4e47dde5386d4f44870956f4f16008d
+   __TEXT.__swift5_builtin: 0x50 sha256:77c29f7997757942ef8f4d2e1b3362539a264a5a6f8ca9e9d2e9a6bde2124cea
+   __TEXT.__swift5_assocty: 0x220 sha256:25996248e7917e7ed18c308bfe8aecf433791a4a46a6ce56128bc9d3dc2289c1
+   __TEXT.__swift5_capture: 0x244 sha256:4f4edf08ac72a77dd49ebee85b8cc94aca8e68330a4dbda597fc50df6c5eadf6
+-  __TEXT.__swift5_proto: 0x11c sha256:e9aa2e51deaf3326be047f323d92d41b6cb5f20f2a981a1d57060614a595fe23
++  __TEXT.__swift5_proto: 0x11c sha256:3085ab90cf6abc0903eacb4bd54b12f4a4d878932b00144c7135d87b2c1aeaa3
+   __TEXT.__swift5_types: 0x94 sha256:c239516594a10183ef79734f5e88913c7d54c4481dc9b3631096fbd5c22f9c63
+   __TEXT.__swift5_protos: 0xc sha256:443807a97bde458b94747ccafa2f9bb910ba3b9bfd47b46dbbcdfcfbe9a8a37f
+-  __TEXT.__unwind_info: 0x17a8 sha256:24d806832732a3ec54e586f270142ad81150d3bd0eb25b37d2e377e65871cecc
+-  __TEXT.__eh_frame: 0xe90 sha256:06b5abf728a26015d08f9bb12bd8af4acf30763e8ad29f7ec7274d9f8c9587c2
++  __TEXT.__unwind_info: 0x17f8 sha256:0fd89ad9671eecb0fb5799f98afae021a5a17a3efe4874ecd5348a8f48b8526e
++  __TEXT.__eh_frame: 0xe90 sha256:ff955d077c0a840a1cd080adf164fff71251bc68beea6d229f4a8d9c6017a90d
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xfa8 sha256:3f1d6a9a7080b73411548b0e5b46ade7d8c420b050009ef7a7fa37479acfdc7e
+-  __DATA_CONST.__objc_classlist: 0x1a8 sha256:7a50caef15b4a701773c2d21af3a6f73079efb1c906ff2d820899d3f651c8e6c
+-  __DATA_CONST.__objc_catlist: 0x88 sha256:50dd6073d192f0b16dfdbba8d84b10f6eca43b71b9135e7b6e694180f17867ec
+-  __DATA_CONST.__objc_protolist: 0x238 sha256:e35ccd5555cba600cc4c8852382fa3aa67f20e51a2eeae773091ec3fa1e7fe76
++  __DATA_CONST.__const: 0x1020 sha256:f7b4b1b52e6550ccfe376ec5795cc055b38ebf42992a8c6c286acddd8b8b625e
++  __DATA_CONST.__objc_classlist: 0x1a8 sha256:3099ad59a6233ff7c9d52592ea1278fe5ec21efcddec6bfacd09bef31b7513d8
++  __DATA_CONST.__objc_catlist: 0x88 sha256:57847d22f044f34566a1af8311840c436c34bcb8bf295ac070f0cd420deb34eb
++  __DATA_CONST.__objc_protolist: 0x238 sha256:d879fa1a4a0acd7dc1386279d16dd3958701dc49129ba7210b29f783803d4c91
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__weak_got: 0x8 sha256:baed7a8f4fe06577baf9413d1425189458482e4f64d55b4f5cc304378385a036
+-  __DATA_CONST.__objc_selrefs: 0x2da0 sha256:1f83bb9acd2d53a693a9047d1c87f8d55b33354f0d29d171b0a315e54b1d4cfe
+-  __DATA_CONST.__objc_protorefs: 0xc0 sha256:57ae4ed77dc4fcd47ae3668f30834af14944fbe7351a3cbf4467851369c6ba2e
+-  __DATA_CONST.__objc_superrefs: 0x118 sha256:a89e3bcbaffda20c3394065b14a982b1a30c6135f79fb699800b6ba16ee02baf
+-  __DATA_CONST.__objc_arraydata: 0xc8 sha256:e2dd9923ac2edd3b38654465410f7d2d2a1139f67f98ce14cd56c5f18334cf32
+-  __DATA_CONST.__got: 0xd28 sha256:ebf1138e75b13984fb183d537e74933972c6f5b9e8ebf6d2ab3e11b35b79a7d8
+-  __AUTH_CONST.__const: 0x1260 sha256:9fc8e299ce2aba640c5063bde5e76967f5c1f74174687f2d432567234fa096ea
+-  __AUTH_CONST.__cfstring: 0x23c0 sha256:5c35e9faec7aae048caaa083aa0c62c6ea6cb624215993be8da4a95693d70d6f
+-  __AUTH_CONST.__objc_const: 0x68c0 sha256:0e5dea9e18fed989ee141b3dc45f53084314cf27f8033582f1af7446fe156d18
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:9a2b91fa56b146795e83ca4f39da0bd07c39c24068e9aa0ceaa7f212fc574d7c
+-  __AUTH_CONST.__objc_intobj: 0x288 sha256:040580a0f1375dc29f4bcc5fb057ae6c5900017f3b099133450017ce9a907250
+-  __AUTH_CONST.__objc_doubleobj: 0x40 sha256:c5160f675a60e880f859ae1887245bd0a992613d4cf40cc3d1263be7bb9556e4
+-  __AUTH_CONST.__objc_arrayobj: 0x78 sha256:b0650360969720c16948ab3f305076d0a178624436815abf8083227ecfc4ad69
+-  __AUTH_CONST.__auth_got: 0x11b0 sha256:e4ceb35d3f19f146245cc64e8bff0bebb28289f00f0392cc51b169395ef343b0
+-  __AUTH.__objc_data: 0x410 sha256:89318b3d402c73f5d10d9ba5e45a78f45358603194712ebd0317f05702f55492
+-  __AUTH.__data: 0x18 sha256:98b427878b85977786e75834e141259be9fd91bef9240ae4077b0378c8ea062d
++  __DATA_CONST.__weak_got: 0x8 sha256:0187a61bf3fae6fc3b3aa794eddabd32ea418a3c89d235dd3a82b6bd02e4fd49
++  __DATA_CONST.__objc_selrefs: 0x2df8 sha256:cf7ade0620b646ace47522efac3c9ac5a355be09f6d89d7dc872018d3b936772
++  __DATA_CONST.__objc_protorefs: 0xc0 sha256:87762a59f1298e95f0af8f31ef5c611aea35aaf5fb6c476fd8a08892d1088859
++  __DATA_CONST.__objc_superrefs: 0x118 sha256:57aa53ffeb4921916ae3f2bd5232f8deda407cba2eed72e6123bb814908ebcf3
++  __DATA_CONST.__objc_arraydata: 0xc8 sha256:86a0f259020da52fc4f4ecd8633298ce5bd128da3fbf8e78c5c53afb050347b0
++  __DATA_CONST.__got: 0xd30 sha256:3a2f6c3703bd5b727bc4ecd9d5bd610c2672d2a8db45c775defc01c4a60e5959
++  __AUTH_CONST.__const: 0x1260 sha256:5f8ac4b96df0f2779fb8981396eeb0623ddca7a68963d40bc650d5c6b2b32766
++  __AUTH_CONST.__cfstring: 0x2400 sha256:fc3d5540bd7c0c363b12d734156a929cb4f814f507c438a5aa92bc2f480712c5
++  __AUTH_CONST.__objc_const: 0x68d0 sha256:352b5e422e627afd1c57a783c10dcedc1da32d4169d001b1c075453af78c5c34
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:60bcdb5a8e6edd1ce77d43ea5c309fe844aaf21fdaf99507c4da8cc71174a8fc
++  __AUTH_CONST.__objc_intobj: 0x288 sha256:912f198ed461673546be082f2e4417d869a4b0b72871d35b03def01c2905d526
++  __AUTH_CONST.__objc_doubleobj: 0x40 sha256:7afe499f47bc5a4b3b5947f790d4192986471987e6ed6ff1aed42f31eb9155e5
++  __AUTH_CONST.__objc_arrayobj: 0x78 sha256:bcea11f447a1580deb88c4c39f620de47864d72cd50203966eb0c91e5808cc57
++  __AUTH_CONST.__auth_got: 0x11b8 sha256:f50095b91cf5b6d3c17ab95301c6d8d4fbb3f0c53e5c6f6b1cc502b0868519fe
++  __AUTH.__objc_data: 0x410 sha256:3403f79c96106461f4cccb137f346b23e7f3c18041e8b3cd20d8ae0a4ffdc3ec
++  __AUTH.__data: 0x18 sha256:f092e52ea99ddf447cba1be9adcfebe9d969bd572b0364e2d8697cd9b31554b1
+   __DATA.__objc_ivar: 0x4b4 sha256:aa697897c41b6a6c2c6151e22d3751b14999509b8d69ffaaa470a147297911ef
+-  __DATA.__data: 0x1748 sha256:0d8627cad76e7984958e6d43e0f4495477e79ddb8463443d7891e32ab98d5bcd
+-  __DATA.__objc_stublist: 0x8 sha256:c40ce5540552fc6fa8f82f9b7aee68b6981e17c037eeddd8446b87f3c782e9bd
++  __DATA.__data: 0x1758 sha256:854c4dc371cd31b2b3dc5b11e5e7d4e4bd57b6605ab257a6d8904df5065fc9a4
++  __DATA.__objc_stublist: 0x8 sha256:2d414501e8f478c00ee74c2e085efbc55038b453f277bc8ade866a8cf59efaa9
+   __DATA.__bss: 0x1160 sha256:60f629b4795f78da82c47a10bf4f7c999039dde35002eff4344233c5f3455a64
+-  __DATA_DIRTY.__objc_data: 0x11c0 sha256:a75ad231402f93aed351571c82c3b94f95e6b18d4f71ed9205a83c2a1965363e
+-  __DATA_DIRTY.__data: 0xc48 sha256:427a10507f088c93de487c49da92d0ae1a570114332d4aa05835c36f20661e53
++  __DATA_DIRTY.__objc_data: 0x11c0 sha256:11d5f389d0d3c4b3e39d297f55a77e43b3fa05a52cefb92978cf67edd50ab184
++  __DATA_DIRTY.__data: 0xc48 sha256:3416a4ed7a18a1647da44232d00f6bd28c201915f3c9ac44f17ab0680f562716
+   __DATA_DIRTY.__bss: 0x1180 sha256:214eb17dab9f7f122e8a491c38647166a4a8400e904afa5e8bb4913e67767d1e
+   __DATA_DIRTY.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5BFAB3E3-06D9-3DB1-BD86-089A10C0C901
+-  Functions: 2334
+-  Symbols:   5905
+-  CStrings:  1106
++  UUID: 714E85CE-C820-3447-BF0D-834D3C2C361F
++  Functions: 2352
++  Symbols:   5954
++  CStrings:  1114
+ 
+Symbols:
++ +[HAMenstrualAlgorithmsDeviationInput(HKMenstrualCycles) hdmc_deviationInputWithProfile:enabledSetExplicitly:calendar:ignoreDeviationDismissalDayIndex:]
++ +[HAMenstrualAlgorithmsDeviationInput(HKMenstrualCycles) hdmc_deviationInputWithProfile:enabledSetExplicitly:calendar:ignoreDeviationDismissalDayIndex:].cold.1
++ +[HAMenstrualAlgorithmsDeviationInput(HKMenstrualCycles) hdmc_deviationInputWithProfile:enabledSetExplicitly:calendar:ignoreDeviationDismissalDayIndex:].cold.2
++ -[HDMCAnalysisManager _analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:currentDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:addedCycleFactors:deletedCycleFactors:forPreview:]
++ -[HDMCAnalysisManager _processorConfigurationForTodayIndex:deviationsFeatureStatus:calendar:forPreview:]
++ -[HDMCAnalysisManager _processorConfigurationForTodayIndex:deviationsFeatureStatus:calendar:forPreview:].cold.1
++ -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:]
++ -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:].cold.1
++ -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:].cold.10
++ -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:].cold.11
++ -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:].cold.12
++ -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:].cold.2
++ -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:].cold.3
++ -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:].cold.4
++ -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:].cold.5
++ -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:].cold.6
++ -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:].cold.7
++ -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:].cold.8
++ -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:].cold.9
++ -[HDMCAnalysisManager previewAnalysisWithAddedCycleFactors:deletedCycleFactors:error:]
++ -[HDMCPluginServer remote_previewDeviationAnalysisWithAddedCycleFactors:deletedCycleFactors:completion:]
++ GCC_except_table36
++ GCC_except_table44
++ GCC_except_table47
++ GCC_except_table71
++ GCC_except_table81
++ _HDMCAppendCycleFactorsPhaseFromSamples
++ _HDMCCycleFactorSampleDayIndexRange
++ _HDMCCycleFactorSampleShouldBeIncluded
++ _HDMCDaySummaryByFilteringDeletedCycleFactorPhases
++ _HDMCFilteredCycleFactorPhases
++ _HDMCRemoveCycleFactorsMatchingSamples
++ _OBJC_CLASS_$_HDMetadataManager
++ _OBJC_CLASS_$_HKMCMutableDaySummary
++ _OUTLINED_FUNCTION_12
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HKMCMenopauseModelProviding
++ __ZNSt12length_errorC1B9fqe220106EPKc
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIdEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9fqe220106EPKc
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE16__init_with_sizeB9fqe220106IPdS5_EEvT_T0_m
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9fqe220106Ev
++ __ZSt28__throw_bad_array_new_lengthB9fqe220106v
++ ___104-[HDMCPluginServer remote_previewDeviationAnalysisWithAddedCycleFactors:deletedCycleFactors:completion:]_block_invoke
++ ___130-[HDMCAnalysisManager(CycleFactorsAutomaticUpgrade) initiateCycleFactorsAutomaticUpgradeWithDatabaseAccessibilityAssertion:error:]_block_invoke.377
++ ___142-[HDMCPluginServer _queue_saveCategorySampleByDayIndex:calendarCache:readValueFromDaySummary:categoryTypeIdentifier:makeCategorySample:error:]_block_invoke.439
++ ___152+[HAMenstrualAlgorithmsDeviationInput(HKMenstrualCycles) hdmc_deviationInputWithProfile:enabledSetExplicitly:calendar:ignoreDeviationDismissalDayIndex:]_block_invoke
++ ___182-[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:]_block_invoke
++ ___182-[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:]_block_invoke.432
++ ___182-[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:]_block_invoke.435
++ ___182-[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:]_block_invoke.445
++ ___191-[HDMCDailyAnalytics _collectDiagnosticFieldsForMetric:settingsManager:heartRateInputFeatureStatus:deviationDetectionFeatureStatus:wristTemperatureInputFeatureStatus:gregorianCalendar:error:]_block_invoke.387
++ ___216-[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:overridePerimenopauseContextState:completion:]_block_invoke.397
++ ___216-[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:overridePerimenopauseContextState:completion:]_block_invoke_2.400
++ ___41-[HDMCPluginServer _triggerImmediateSync]_block_invoke.464
++ ___41-[HDMCPluginServer _triggerImmediateSync]_block_invoke.464.cold.1
++ ___417-[HDMCAnalysisManager _analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:currentDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:addedCycleFactors:deletedCycleFactors:forPreview:]_block_invoke
++ ___417-[HDMCAnalysisManager _analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:currentDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:addedCycleFactors:deletedCycleFactors:forPreview:]_block_invoke_2
++ ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.400
++ ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.400.cold.1
++ ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.401
++ ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.403
++ ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.403.cold.1
++ ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.404
++ ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.404.cold.1
++ ___60-[HDMCNotificationManager _queue_alarm:didReceiveDueEvents:]_block_invoke.397
++ ___86-[HDMCAnalysisManager previewAnalysisWithAddedCycleFactors:deletedCycleFactors:error:]_block_invoke
++ ___86-[HDMCAnalysisManager previewAnalysisWithAddedCycleFactors:deletedCycleFactors:error:]_block_invoke_2
++ ___88-[HDMCPluginServer _queue_saveLastMenstrualPeriodWithDayIndexRange:calendarCache:error:]_block_invoke.440
++ ___HDMCRemoveCycleFactorsMatchingSamples_block_invoke
++ ___block_descriptor_163_e8_32s40s48s56s64s72s80r88r96r104r112r120r128r_e28_v24?0"HKMCDaySummary"8^B16ls32l8r80l8s40l8r88l8s48l8s56l8r96l8r104l8r112l8r120l8s64l8r128l8s72l8
++ ___block_descriptor_40_e8_32s_e33_B32?0"HKCategorySample"8Q16^B24ls32l8
++ ___block_descriptor_72_e8_32s40s48s56r64r_e5_v8?0ls32l8r56l8r64l8s40l8s48l8
++ ___block_descriptor_72_e8_32s40s48s56s64r_e9_B16?0^8lr64l8s32l8s40l8s48l8s56l8
++ ___block_literal_global.373
++ ___block_literal_global.376
++ ___block_literal_global.391
++ ___block_literal_global.393
++ ___block_literal_global.395
++ ___block_literal_global.398
++ ___block_literal_global.423
++ ___block_literal_global.430
++ ___block_literal_global.432
++ ___block_literal_global.434
++ ___block_literal_global.471
++ ___block_literal_global.556
++ ___block_literal_global.559
++ ___block_literal_global.588
++ _block_copy_helper.14
++ _block_descriptor.16
++ _block_destroy_helper.15
++ _objc_msgSend$_analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:currentDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:addedCycleFactors:deletedCycleFactors:forPreview:
++ _objc_msgSend$_processorConfigurationForTodayIndex:deviationsFeatureStatus:calendar:forPreview:
++ _objc_msgSend$_queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:addedCycleFactors:deletedCycleFactors:forPreview:error:
++ _objc_msgSend$deriveCurrentMenopauseModel
++ _objc_msgSend$hdmc_deviationInputWithProfile:enabledSetExplicitly:calendar:ignoreDeviationDismissalDayIndex:
++ _objc_msgSend$indexOfObjectPassingTest:
++ _objc_msgSend$initFromDaySummary:
++ _objc_msgSend$isEqualToDate:
++ _objc_msgSend$isPregnancyDurationPhysiologicallyPossibleForPregnancyStartDate:
++ _objc_msgSend$notificationCenter
++ _objc_msgSend$previewAnalysisWithAddedCycleFactors:deletedCycleFactors:error:
++ _objc_msgSend$removeObjectAtIndex:
++ _objc_msgSend$setEndedCycleFactors:
++ _objc_msgSend$setStartedCycleFactors:
++ _objc_opt_respondsToSelector
+- +[HAMenstrualAlgorithmsDeviationInput(HKMenstrualCycles) hdmc_deviationInputWithProfile:enabledSetExplicitly:calendar:].cold.1
+- +[HAMenstrualAlgorithmsDeviationInput(HKMenstrualCycles) hdmc_deviationInputWithProfile:enabledSetExplicitly:calendar:].cold.2
+- -[HDMCAnalysisManager _analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:currentDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:]
+- -[HDMCAnalysisManager _processorConfigurationForTodayIndex:deviationsFeatureStatus:calendar:]
+- -[HDMCAnalysisManager _processorConfigurationForTodayIndex:deviationsFeatureStatus:calendar:].cold.1
+- -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:].cold.1
+- -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:].cold.10
+- -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:].cold.11
+- -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:].cold.12
+- -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:].cold.2
+- -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:].cold.3
+- -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:].cold.4
+- -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:].cold.5
+- -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:].cold.6
+- -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:].cold.7
+- -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:].cold.8
+- -[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:].cold.9
+- GCC_except_table41
+- GCC_except_table43
+- GCC_except_table68
+- GCC_except_table78
+- _OBJC_CLASS_$_NSNotificationCenter
+- __ZNSt12length_errorC1B9fqe220100EPKc
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIdEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__120__throw_length_errorB9fqe220100EPKc
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB9fqe220100Em
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE16__init_with_sizeB9fqe220100IPdS5_EEvT_T0_m
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9fqe220100Ev
+- __ZSt28__throw_bad_array_new_lengthB9fqe220100v
+- ___119+[HAMenstrualAlgorithmsDeviationInput(HKMenstrualCycles) hdmc_deviationInputWithProfile:enabledSetExplicitly:calendar:]_block_invoke
+- ___130-[HDMCAnalysisManager(CycleFactorsAutomaticUpgrade) initiateCycleFactorsAutomaticUpgradeWithDatabaseAccessibilityAssertion:error:]_block_invoke.371
+- ___133-[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:]_block_invoke
+- ___133-[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:]_block_invoke.427
+- ___133-[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:]_block_invoke.430
+- ___133-[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:]_block_invoke.434
+- ___191-[HDMCDailyAnalytics _collectDiagnosticFieldsForMetric:settingsManager:heartRateInputFeatureStatus:deviationDetectionFeatureStatus:wristTemperatureInputFeatureStatus:gregorianCalendar:error:]_block_invoke.381
+- ___216-[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:overridePerimenopauseContextState:completion:]_block_invoke.391
+- ___216-[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:overridePerimenopauseContextState:completion:]_block_invoke_2.394
+- ___368-[HDMCAnalysisManager _analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:currentDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:]_block_invoke
+- ___368-[HDMCAnalysisManager _analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:currentDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:]_block_invoke_2
+- ___41-[HDMCPluginServer _triggerImmediateSync]_block_invoke.457
+- ___41-[HDMCPluginServer _triggerImmediateSync]_block_invoke.457.cold.1
+- ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.393
+- ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.393.cold.1
+- ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.394
+- ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.396
+- ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.396.cold.1
+- ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.397
+- ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.397.cold.1
+- ___60-[HDMCNotificationManager _queue_alarm:didReceiveDueEvents:]_block_invoke.391
+- ___88-[HDMCPluginServer _queue_saveLastMenstrualPeriodWithDayIndexRange:calendarCache:error:]_block_invoke.433
+- ___block_descriptor_155_e8_32s40s48s56s64s72r80r88r96r104r112r120r_e28_v24?0"HKMCDaySummary"8^B16ls32l8r72l8s40l8r80l8s48l8s56l8r88l8r96l8r104l8r112l8r120l8s64l8
+- ___block_literal_global.367
+- ___block_literal_global.370
+- ___block_literal_global.375
+- ___block_literal_global.377
+- ___block_literal_global.379
+- ___block_literal_global.392
+- ___block_literal_global.417
+- ___block_literal_global.420
+- ___block_literal_global.422
+- ___block_literal_global.424
+- ___block_literal_global.459
+- ___block_literal_global.550
+- ___block_literal_global.553
+- ___block_literal_global.582
+- _objc_msgSend$_analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:currentDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:
+- _objc_msgSend$_processorConfigurationForTodayIndex:deviationsFeatureStatus:calendar:
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$hdmc_deviationInputWithProfile:enabledSetExplicitly:calendar:
+- _objc_msgSend$isCurrentOnboardingVersionCompletedWithError:
+- _objc_msgSend$removeObserver:name:object:
+CStrings:
++ "B32@?0@\"HKCategorySample\"8Q16^B24"
++ "[%s] Cannot derive menopause model synchronously: profile not available"
++ "[%s] Synchronous menopause derivation failed: %@"
++ "[%{public}@] Did %@ analysis: %@"
++ "[%{public}@] Preview deviation analysis with %@ added and %@ deleted cycle factors"
++ "preview"
++ "update"
+- "[%{public}@] Did update analysis: %@"
+
+```

@@ -1,0 +1,96 @@
+## libAudioStatistics.dylib
+
+> `/usr/lib/libAudioStatistics.dylib`
+
+```diff
+
+-291.1.0.0.0
+-  __TEXT.__text: 0xacc sha256:c2bec2f7cfea7db968efd338727ab2d8638070ec4cd12bef0253f20427f46129
+-  __TEXT.__objc_methlist: 0x1a4 sha256:6e37859eb0735233161a73df801a702e69552eb7b7045d936a35f9377fa3fc96
++294.0.0.0.0
++  __TEXT.__text: 0xacc sha256:ffbb91667b8359b216ff3d92c0dd5cecb5a68b9d6593e1a93b2a6f23640df288
++  __TEXT.__objc_methlist: 0x1a4 sha256:6059f7fea9e3475a8c6cb108a647e774a05c90fd93303459ee50e693723e0a1c
+   __TEXT.__const: 0x42 sha256:ff7beb5e36b5bd45b96b11937e46993a04af47e4d8c2cbdcac8da6d8f98c603e
+   __TEXT.__gcc_except_tab: 0x150 sha256:a9aba2f6cfd9f77245279a6c72e1eeea811a212384e5f33ccaa72abd8a288784
+   __TEXT.__cstring: 0x249 sha256:153d4e0c8a89a3ebffbbd9ba98537e962b3d89a3e60ff8c4ba8c518b1f2f370f
+   __TEXT.__swift5_typeref: 0x25 sha256:63492011e03a4cd1ad28eb4c04c49691b1b3fede79cd1286804aa1327dc25008
+   __TEXT.__swift5_fieldmd: 0x10 sha256:2f65f6f174ba52fa728ba0dd759e7d8ab6bc4aec61235139ae71d99347128582
+-  __TEXT.__unwind_info: 0x148 sha256:834b2214a09a84159e24860f0cf63e5b815dc521035d67e9fd0a7460a0c3e6af
++  __TEXT.__unwind_info: 0x148 sha256:1a55f55780c9b2ec31e3f41862847d10f84f1f9245265d1ffea78a4bd8fa0fa1
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x140 sha256:f1260d672f5639e75d284645f8e777204efcf369a7da9d520696b9acdbb9b358
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:ddeb4e843f81d0d222ea9e0ce3131daaad7a8b76a990db8d935a9909bf612134
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:9db43545f2d52e1fffc8bbfd6eb61afc493eb062191f58f748650ea4233b2286
++  __DATA_CONST.__const: 0x140 sha256:334067963769cf24a087749edc5329ac3c07f6bb12a6906305c70a3ac3defdc0
++  __DATA_CONST.__objc_classlist: 0x10 sha256:fabf58f455176ef19dc5db0122ccfda0c7a9621339a1d28672c90234a700a009
++  __DATA_CONST.__objc_protolist: 0x8 sha256:d445585a39451e53ef0189f7134937e28c8f648222e962241b439f56fcc52fa1
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x128 sha256:c00cef65981d193308165513c348f93027c4a633ca9d0b3d3264f852e2131862
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:2401aa9bf4a074505f9f0b1e89a8d7ea4e0296b10710008450f287efae2d4124
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:fde65cd28319c7ba18c1e5073f91ea3a68dbdb415d42369cf6accd6cc0fc41aa
++  __DATA_CONST.__objc_selrefs: 0x128 sha256:ae34d2bbb4120cee70079cc01d9dfea08216368ef5723cd75691172468862e80
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:2e2d6183e4a63822db7ebe6b4a353a0ede3c656fe345a33483d3744ec12979b0
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:93b27f405232fa920ba51782e02c3fed28285a98bb9ef667b8ae08e24e44ebb2
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x460 sha256:3bbb1bd34c4f05d68c2d43b7a6103a98e0921e887f984acbdb1f3d26aad82977
+-  __AUTH_CONST.__objc_const: 0x2a8 sha256:2c83a401a88547c1b79cceb020f7a780a6135b8345110b7c423bb37ca6020519
+-  __AUTH_CONST.__objc_intobj: 0x1e0 sha256:b165b683e80cebd7f99a7db62805df6566e60c02328b0c1b66b1ce04ee3bd595
++  __AUTH_CONST.__cfstring: 0x460 sha256:ba42bdf61c5f2dd438836544b91c82b261fa37559b56c2b9c86ded712a755ee2
++  __AUTH_CONST.__objc_const: 0x2a8 sha256:6672762cae9086539345043b22b6f12efd139848182024f0612d9218807dc53b
++  __AUTH_CONST.__objc_intobj: 0x1e0 sha256:a9a858983f5fe739b9f3cec38745a7864802999da9502b69e7a221e6cfff2513
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x10 sha256:05176b5c6c1109e7668bedf89b1ffaee0b9bc77ecd0daf6a6f9fbe67a3aad043
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:ce922dca2864450e48da848f8850a8933c96db1d1f8350308d292852803fa83a
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:6356e46a7dd0198438bee10ebac710c7fa73544b981c6ea50878db3de166e9db
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AudioAnalytics.framework/AudioAnalytics
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 9BD078EB-9990-3101-BED8-275495265157
++  UUID: 0F1FA935-B9D9-38E0-A4A3-A5B6CE6508CC
+   Functions: 36
+   Symbols:   186
+   CStrings:  72
+Functions:
+~ _CAReportingClientSendSingleMessage : sha256 93ce342e5724a61c769fc87d46e8844d566f14466f24d0d3fe89c1d6d7e05a4d -> 4eca8810989dd5a40877dc310e0d098c85c8767a73c0e25275e3d189823de622
+~ _CAReportingClientCreateReporterID : sha256 c9994e804cc82b755bc7f7d8af20cc5a4d1e9e7edb9f9b09475fc24ec8d3c71a -> 844e996b9983ff7bf93019e9a3c95347fc3442afee98537a98e3c029bb58877a
+~ _CAReportingClientSetConfiguration : sha256 33b98e8f82f96b9c7c25c52018d8aae12f2f13260af53d3d80c3fbb3ba3f25c2 -> 911e6b7fd614f2daf9e50fd18dc0fe33022a6a7994921171e17e85297d6aba65
+~ _CAReportingClientGetAudioServiceType : sha256 6a60154ac79b7a98213ea10b8d111a2ac7a8a1d6b4765e58759fb1cfa06ecdab -> 8feb8ac6fe12337dccc9ac610c6ecf495aef4ca19c9b24d743656afdffd62261
+~ _CAReportingClientSendMessage : sha256 05f86c9343761183f5c39f56cbaef64a9021d4bcefb45911b3cccea1493540b2 -> 58b5c431afb21c2b849486093f8bf4c1968fa96a4e588148897c41b9d7b8a6af
+~ _CAReportingClientStartReporter : sha256 ae4b2cb43ea519caf82b40bd1d95efeef92fdd1a8d70c50c0a765b79df7df06c -> bd3a97e98efc8f1967435feed55b5ab8cd616cbc0d886d1b3952dc6721c952cd
+~ _CAReportingClientSetAudioServiceType : sha256 97d62e58acc481647627d2b0f78bfcbf200a508e7dcc492b8324ce845cecfc2d -> 2e1b0d1baf66deed51ed7b383081cd8c4ceb17732fb0a9b53d1baabee24050b7
+~ _CAReportingClientStopReporter : sha256 3202f00cdc3a0a13fc52187d216dbc8dbdd895cdfce0dde00d5b3ebdef69b634 -> a1eb0ad4c7eb0a96cbf5a67ee6da2f144f4c2ed68f0a80843b81fc416d8745b1
+~ _CAReportingClientCopyConfiguration : sha256 ad9c7285e0248970e94b63dfbce6bc0ccae7e552a583249319d88bfe5d6eb175 -> e2064139362130ee2e0f87b440b37f5dff5be3fee8efe030f52c89a54f172169
+~ -[CAReporter reporterID] : sha256 8668938842c17973e29dbb967765e5152daad65db0266e577f2bef34b8c40e05 -> ace09c0b6a2dd9fcaabf76a0c13b2282b700539a99f5c324a2e32a19a91d043d
+~ -[CAReporter sendMessage:category:type:] : sha256 26f5b8338ba437561ed6c4f406893b7016fa6da369b22d793082cd3ae0f6793e -> dd01957aa3ecaf127edbf228db60144c77f48b7f63218c0507dbf2ea9178c4dc
+~ _CAReportingClientDestroyReporterID : sha256 d3969afa1b90003d5f804d81beda2c90bada14e4af0081a5b69bcd4b5ac5527b -> d48720a91a64e91c209416acd1613c7a9d5856111a2d87f099f30517a7d85be0
+~ +[CAReporter sendSingleMessage:category:type:] : sha256 b4941ff5dc20c0c4e26ca4f28b90c75496d17179aab5b02506cee12aad7b5a18 -> b346d37b14a891a6e96ef1d2017812e4b972355e95355766b575cc29a26201ce
+~ -[CAReporter initWithReporterID:serviceType:] : sha256 b671fd8745ec0563fee95e6f4f7a0a65b6b91f302abc78e6f225dc7b525f51fd -> 0a222d089db4d7f425ce3b766048fb0118b5af78d0a4796a1a197b719fa45eb4
+~ -[CAReporter initWithNewReporterID] : sha256 090528e6cbb56e899ede05adb97e7fff2fe8ebbe1b886469630955dd89c08514 -> f72f145f81943eaa90cac3f1ba8d20bc192e6a303b1efd2dbd74696c34b3e061
+~ -[CAReporter initWithSessionID:serviceType:] : sha256 19c33c6cf6c8c48557ca1e79c3ad99ea0bbb7852e0366515ec2bb0125a5dd7a6 -> 99cb1a317b9269db112d6686a238418a9cc2b9add9575162232c87a9bf9f8e79
+~ -[CAReporter updateWithReporterID:] : sha256 6e5d8c86b889e818c227bdcb6a0b6eae0427250ec9f85fafd549ea6d52a5d029 -> 271e44a5f6f1775cc1ed4d9b520ab698a3e5b7a3e7e0e580c8f0fb7f3dc0c04c
+~ -[CAReporter serviceType] : sha256 522140e43554d7e458a82c2ee5ee733124b65b79c55629a00d397abfda81facb -> ebf42117a29d859aef157f38ada0b6d0533166c9a71c85916b85ebf56a7458d7
+~ -[CAReporter setServiceType:] : sha256 1e81304e35cb167f378fd78c9930cbbe09defd20a05eee0f14ffcd17d5bbc451 -> 5f87068e5f3af2517ef7d324f719210aebd85cc6c95621f6d6e23476d7034ae0
+~ -[CAReporter cacheServiceType:] : sha256 f6e3339f68d0b2997de597e32ba6a27ac8a5c9cbc9312bfb56e1cc914faa3fb3 -> def1caa0215c8f425c2affbd67578ab76688e9cedac4a6e2974f1c1609d00c96
+~ -[CAReporter setConfiguration:] : sha256 f4345e6ec5e46911f88a3871919cf1c733500658dc0e0967fd0e4f2f45234514 -> 750872c90da317fbbec3cf9163e928eaf868bd57fe1048808336240af721a7c1
+~ -[CAReporter configuration] : sha256 1b7b815ee418c8280cd220732597d6fafc384c6719654afea30f5d706e23e009 -> c877f24eb165325c117782cbd36f97c84afde528999fe5486bf606063b991402
+~ -[CAReporter start] : sha256 3eabaf6dc50c618d028e8a3f4d13c9888e26c6c345d4d8baca618ae2d73577bf -> 972ad207973e544fa6bed09a3964ec5069f1065be6c57eedb9e283b55d047cf1
+~ -[CAReporter stop] : sha256 f5daf96959dc3c4691648584e91d205f9d126ab096f826f7630e10737277a58e -> 34ff877cd6df3be3f9b923267e85308fcfa8bd7d0edd3708134789b6724f1f0f
+~ -[CAReporter dealloc] : sha256 8b474836ee2ca9bf329590bffb866429cff7d1362ad59ebaa411bfbf88a94800 -> 07225dfc9abda0caa8176d5e7fd06c7d1a5e204c96e34c3c1d615f1f34d21613
+~ -[CAReporter requestMessageForCategory:type:callback:] : sha256 97f4a64c8f20168f5327d4318652fd6b34bf199f0f12abfd1082d16dc05731fb -> 5e44f60b0a3a15ed1e1a8d13981aed8ce419160e732f48f5f4ba9cc31dacacce
+~ -[CAReporter setSwiftReporter:] : sha256 a04e292251d9086b37cc04b35cbd05396a1333b06336ff587a35320080a73246 -> 71406a97daf5eaa800982a64710f11c6b577faaf139f59e9d3a55686a7a5a548
+~ -[CAReporter .cxx_destruct] : sha256 bc70878f8768900e15947f46cb3f2b62752291d832ab819c30c5c240764c122f -> 3fa6bb5dff86cc93721b9c80b055d44e9b8d4de57ee71e1795b861b7f29713e9
+~ -[CATestReporter initWithNewReporterID] : sha256 efe6a54a6035620b1875bf8fe248c10a012c9b19af5a697a77a0a11eda74643d -> acd3cf0f07ee3d34db18b7826545e3c9a46840267969ccfee6543deca0a6de8c
+~ _CAReportingClientCreateReporterIDFromSessionID : sha256 cfef5be49a9f3ed92121830869d03ba43fffa1a6eecf4bc5c24740a51179467e -> 32bb07deee38d901cd9e56c83c84e588a117fc765a65baaae7ff3536242bfbd4
+~ _CAReportingClientRequestMessage : sha256 e76284ee2227aaa8f9bffaa41ffdc01ebd9b691c41bb43f4b4c06a939cf02f9e -> 5bffcf5faa60ace6086c5be235e79382e54e358ad57b890f6347a4663bb5e724
+~ _CAReportingUtilityGenerateServiceTypeFromServiceName : sha256 81292e7844b9434b1cfa755c1056a3676d55443616c59669a27b9d903ee84fc3 -> e4d8a36e1fe4d9c9bb7737d52e4a73007089a0611b9c9144d019dd380fc5f44d
+~ _CAReportingUtilityGenerateServiceNameFromServiceType : sha256 108ff4f485719f8359fdcc07169bf00a020c954e0672f1c8c594d3d31212653c -> 75c728671510dc0dd4ba159dbb4e6f7be7dc142595a41003580353c18292e5ea
+
+```

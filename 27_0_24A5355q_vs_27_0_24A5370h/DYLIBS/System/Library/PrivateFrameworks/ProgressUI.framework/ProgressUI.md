@@ -1,0 +1,115 @@
+## ProgressUI
+
+> `/System/Library/PrivateFrameworks/ProgressUI.framework/ProgressUI`
+
+```diff
+
+ 2851.0.0.0.0
+-  __TEXT.__text: 0x3230 sha256:8a15a0eb63efa43d8aa0f556a6d84f21c42aee2698ba8a979efa31c739d265b5
+-  __TEXT.__objc_methlist: 0x41c sha256:48d2bf05c76d20df4491a8a9db3d2060d49364b3ea16f1553c4124368f13b94a
++  __TEXT.__text: 0x322c sha256:546e34042ead734c8811f00e4958f20ae588be3aa6b488a612d44e26180e3b29
++  __TEXT.__objc_methlist: 0x41c sha256:0e85cbad09d9098fc4adbb4257681127fefd776e003a6208d96e229570300473
+   __TEXT.__const: 0x248 sha256:95fa2dc418bc9cbe115501f3551f866f155ba5670a4bad446afa93ba6291d3e7
+-  __TEXT.__gcc_except_tab: 0xbc sha256:2886477478791b78fab6553de2e76c019f48eeea1115a225a9720758f4ecc4b9
++  __TEXT.__gcc_except_tab: 0xbc sha256:d3372b64acdb27601287b6babcf89eab162c2c2636ccf183aadecb5e6bc941b4
+   __TEXT.__cstring: 0x978 sha256:b92742a374d25350eac950ea205f592c19615a43fdde8ebfa86aa4aabde56b00
+-  __TEXT.__unwind_info: 0x148 sha256:859a344e38298f2e4c804a5199038c070e5ab54d15ee662434586539734db485
++  __TEXT.__unwind_info: 0x148 sha256:ec14814ebea8ae81f96591156ee88463c64adb2abe29b0d9b6a0adeab00e6eec
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x68 sha256:0303ddec098815354fa6a85f49829c410dc200a444d301c0259552a54c033fd4
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:da22052725e4818e53c6bed7a2d91c9db17170d44da479c1bc51a836cb497f92
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:b96b3688fcb470e6901f9ab9b70b9caad6a74f9fb12720bff35ed77ac5d02430
++  __DATA_CONST.__const: 0x68 sha256:fcf1c5b6800f2257eb148c9a99d73ed0d2b2957e3ff41f009d94fca92fc8d720
++  __DATA_CONST.__objc_classlist: 0x18 sha256:db3f01a6a0c34de0cc0e152621a1d91bbf2e2ee73b1e3a07b51a17ad0bc633f8
++  __DATA_CONST.__objc_protolist: 0x18 sha256:abef643295c28e44c81a80795f4e8f541da5d1ab1ad62bfcec7cbfe12ac12a60
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x448 sha256:2db657b4c6ac92bf84823bdb05a619eb2b4741636ec7617f80ec5ced956f59f6
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:2ed4a17387c94b61505164d6b97dc2b550b7ae20d52f79ead2254a223197bbaa
+-  __DATA_CONST.__got: 0x100 sha256:1893a8db3f1e2fbabd923de67123f32b84f61608a5500ac6bbc46032afa811b8
+-  __AUTH_CONST.__const: 0x60 sha256:18705474af0bc2ac2413239136f6f39da351a669cdb3ec9b7ce9a82e100cb297
+-  __AUTH_CONST.__cfstring: 0x620 sha256:a16bce924e516b7df3fe8ed7fe8a6e0527bc1cb08336d8f4e11e4d4b8b3d5b21
+-  __AUTH_CONST.__objc_const: 0xb30 sha256:0ef255a9c37c60d4e84e4cb4109926a81b175d212e3ed75a05cce063b9d84ba0
++  __DATA_CONST.__objc_selrefs: 0x448 sha256:7ce3b1c23287a171ec44eae5b42079c3afa2c5af3c83db4b49e501aeec9c27b4
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:fc17944a8d862fd39f319bddb15acc07da7aeae560a945309cec334ed87e62da
++  __DATA_CONST.__got: 0x100 sha256:275bad80b22def80df8f356ae16289e326292cab2160a2525a8259242f9daa23
++  __AUTH_CONST.__const: 0x60 sha256:0d4823d4519c23b79430b7edf9a4ca1b40619edf5e2c1ca94a735dbfbb6c3d98
++  __AUTH_CONST.__cfstring: 0x620 sha256:44edd937e3c8e53f434a4fe6a38f2af57ecfd42574da8cc13f755130b433af28
++  __AUTH_CONST.__objc_const: 0xb30 sha256:5b45653942ac664f37ff7056fba5edb579f9a462df869816858a76b972adba0e
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:61b9faf15d3cd948f0ca13360de1ef8d6f0e2f3bcfa5f0dc84378f1a3c026251
++  __AUTH.__objc_data: 0x50 sha256:a28abeb28eeddc7fa66414287a5e229bbbe4c496191f31bc3e24a1a3c152ee15
+   __DATA.__objc_ivar: 0x88 sha256:8a2fc1067f81376db0641ccc8d3994654b37083b2e0eb1bc2667d06d5c29f636
+-  __DATA.__data: 0x160 sha256:35736aacf3d4c81e518a073718bc64af46adb0a98097317184770088131a81f0
++  __DATA.__data: 0x160 sha256:6307585acd49d97d4aa1207e80c3c025606a07da75724d2a3bef8739df885b05
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:8529cd9e5eb07b37e37925fbe899a6588164a6817bf2ba5fe456c2720945e486
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:7ee03cd02cbfa11515e8a8a36c9760dd752dbaaccbede7591961d59d79c0e533
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B45F42F6-A1A9-3308-BC6B-36BB19EE700E
++  UUID: FA00CDC4-BC32-3404-B811-785C488FB95C
+   Functions: 58
+   Symbols:   432
+   CStrings:  135
+Functions:
+~ +[PUIProgressWindow setUsesPreBoardAppearance] : sha256 21096f860a3b7477323f1000ae068f311fda9266409d43d02020e2ad0e9815d1 -> 46e9887fb0010967e591f87e96d19cf6901b99586a872d0eae7f5b7b2f13ceac
+~ +[PUIProgressWindow _usesPreBoardAppearance] : sha256 e19e26964bb30597d09ff9ca80ef4b498d16a1960fa291e885344e774a355bd1 -> f0185e7aa0331105636385467b48a826926f6bddfe1de145c53f2c8615559680
+~ -[PUIProgressWindow init] : sha256 3889f86175ef83dd9d6dab058ed058a7b739142bbd6bc60a6a52c13a2ca7d958 -> acb01e14a5312aa15fedbe1bec63dc8fd8304e663f9895c10a975f180fceb4db
+~ -[PUIProgressWindow initWithForceInverted:] : sha256 ba72108d4a886f18c989f6cd285d459f2f7db89269986c857efc016103bfec07 -> 68c3ebb617a88e3db842fb3d814109164cbdd922155e126b828678b934eaa978
+~ -[PUIProgressWindow initWithProgressBarVisibility:] : sha256 1bd363723390c0a821e397bc10b25c09f0c93a4649d253dd3d2d59979dd8881f -> 83cf3af6d787f36c49214fae92d3b3db538ed9fc1400974f84f621e3930c973d
+~ -[PUIProgressWindow initWithProgressBarVisibility:level:] : sha256 429b8c61839fc50a1ae0a486a4ab2ecdb95bda45c158786c9b5ecc3fe4a90a0a -> b06ff2f20574171962aac373d8d0009eead5a34546efa5e6ebcef4c9c2b12a48
+~ -[PUIProgressWindow initWithProgressBarVisibility:context:] : sha256 b48aa900c8f5dd8b4359e5b562f9607a9b3077e5d8bedb76ed13f266ea58ba84 -> 4802da38debc8da1466985a6a4a800fadfe63d82b3d3e13eff36e4bfd49bffd6
+~ -[PUIProgressWindow initWithProgressBarVisibility:level:forceInverted:] : sha256 96ecabd648b5c643442f99ea232f6eddc9cfcf094477c98cf4d65b8c724a1418 -> f735996f5f4f9cc63ed7b1ab2a4e97e7a6e90ce9a8d2e074eddad423f0389edc
+~ -[PUIProgressWindow initWithProgressBarVisibility:createContext:contextLevel:appearance:] : sha256 4c2e7663ffe22aaca840ef5a78998e6aa7688c34173ba8168aec1a91142ecce3 -> 1f97526bc63d92807ede032695731937d91e49c27ace9499f381f7416b03c67b
+~ -[PUIProgressWindow initWithOptions:contextLevel:appearance:] : sha256 2ac9f34dc9c88cd2e314b77c7e08df7da3dbf606ffaa7d9f5c780aa48bd48acb -> 94be4f77b771e6dfab54bed79bd584b8a7575fc0dc19fd3215abaab04cc34515
+~ -[PUIProgressWindow _initWithOptions:contextLevel:appearance:environment:] : sha256 1d5d90818aae04381cde56a0d014ebc436401db92f93490f319f1f907a576579 -> 4443927e857076e867c8cead5f95cbdf67f38c0e1ce3d4bbe2b51f9eba803d45
+~ -[PUIProgressWindow _appendErrorDescriptionWithString:] : sha256 2bd01b14ca710b67a66f0ab78ebfbb96fa77accd3c1c62e4892691efd83aadc3 -> 77d451a44782c2f2ba8f30014087189d144e986bc73f6b08d3c5525651ad89bf
+~ +[PUIProgressWindow _errorDescriptionForUnknownDeviceClass] : sha256 4adf05e54e6cb1b7dd6d6deea0fbf176a2c847d1195d5be378baa2be3743c9e2 -> b45e9fbc5ed5801c042720e0a8303eb102881845eb77602dfc6f23a2f6e40a7c
+~ +[PUIProgressWindow _errorDescriptionForUnsupportedScreenClass] : sha256 30a918b16844f2619f43a0e575d9b2586ff1df4eebd58bcb97a9b6c9c146b820 -> bfc56bff725629dd8c6acffc9519592a2b3a9734f7c4f339e0b35fd9664a7d16
+~ +[PUIProgressWindow _errorDescriptionForAppleLogoNotFound] : sha256 749aa86c5ee0381a329e6e95c3ef2ac7e94d27642af8616b1d1f3cec720f4b5d -> 8f09c6d51bf94e57ae08050ebbcf8c8a4d345a34996fd76bd20c5439402f601b
+~ -[PUIProgressWindow _unsupportedScreenClass] : sha256 25de3bf4ec4826b70d08b873ee7b41d756fd268c2392f064b7ea013e28db938c -> 21cfb1c11b9844b6769450021b0f0439b6bfe7ffa0fe56adcdf2748e8c8af447
+~ -[PUIProgressWindow dealloc] : sha256 96059d15589851788e0d4c09816c3f539edddfc7ea15c5f0e1a7566694c8a0d5 -> 60c33f86df2b9dbf9c78764ba016c0851de1fe7052d00f22ced58915b82054b3
+~ -[PUIProgressWindow _collectDisplayInfo] : sha256 2a27e17d9c77ac537b1778cd04dd5a3388c6a4fe55492066f0b7e7e2ac999a46 -> 90248b58fc7ececce9e618dafdfe45d3a9e8ad16aaba896f152a3c7209f46031
+~ ___40-[PUIProgressWindow _collectDisplayInfo]_block_invoke : sha256 4493844813752a036b3731b3c16c25729234448470e1953b07c3b6ccb7970fb0 -> eff8482c1c8b153b33784cb79f6874d6ace15dbe78c40e289f7c207ec8bcd673
+~ -[PUIProgressWindow _createContext] : sha256 bd00c3311d098b18d5aba00782ae7115404c8b445b133946b8b2f15e23462f50 -> 5da0952a0c65b74b6378b38c5fa7a97f3e13fda20176eaa40f817769303f0352
+~ +[PUIProgressWindow _setContextIsSecure:] : sha256 a29a545a018408dcaae9332a52ccd4fb3d6a546b12d385592c8899ec60841f8b -> 953e6b39137f76f466bc08d233a9b8be7a52b6e7cf1c3adc5ef7a4c9a91fca79
+~ __IOSurfacePropertyDictionaryForRect : sha256 a32b1ddbd5b919e03252ccd9bbce311f165eefacbfe9ae9c64ae5008f8805d98 -> e78825d1b545893c1ca952cc9c1c877f45f725eff9976932b883132345ca6f35
+~ -[PUIProgressWindow _copyCGColorRefWithComponents:] : sha256 4164f63cdd93290b0d2a8e8d6f6df6172c355f26aba9341cfdb0fdc014975b8f -> dbe15b6c42e5199ac8f2e5a4c3ed9533adb6cab6b89da23ae3b50cafbf973aaa
+~ -[PUIProgressWindow _copyWhiteCGColorRef] : sha256 d309226a69b63d500f6bd786a576154f9f45cf727e01851320adf25555dec958 -> 008e733b65b6a6c39fb52f6bc5866f17eb4755af7503c7a06d7daae494d83483
+~ -[PUIProgressWindow _copyBlackCGColorRef] : sha256 1c6b17e6a1c611d81326deb71b73b4e6e5e802b687db2cd1e291f141120bb000 -> 4d1c5f0d886fad162147e1fd007da58fa2ae41f33cd86d7d7f8ca9592a877a4e
+~ -[PUIProgressWindow _createLayer] : sha256 54acd7dbbd24facb5a6999644a1d2d19da0d5d94eed3f9b3c8d8c2163c375d00 -> 237e178506af82e2ecb2e4f71bbead810138c094e8e71ac824819d5963fd07e1
+~ -[PUIProgressWindow _updateIOSurface] : sha256 d75399aed039fc0a93c1e89d39a5d31a054c7c80266363caeda505d4a0e6e4bd -> 847b45435366b3b66dda1202ec507f2a001567c6150d8ab3fc912ce4601df0ae
+~ -[PUIProgressWindow setVisible:] : sha256 ce1600e23706412cfbfebf44f5cf2c15c546d849f10b8f41b9df5189dcff552b -> e236e6fe2c9995d666e42a4faaca8cc590975282666a2d894391b6e5abdb3654
+~ -[PUIProgressWindow setProgressValue:] : sha256 227bdbe3f25fe0ee4b3188ae79efc482d262bf0e00440e163093888d4b318be4 -> 8b21b6c516df30672187a20afdcc25fe815cf7de2925d680779fee05786685c8
+~ -[PUIProgressWindow setStatusText:] : sha256 6af2ca60609bfd04ae29cfb387a74f5f2446adeeea8767eb3d7b4ffa86e254f2 -> f3e8671d84764921bc0d83044532b0df3b0a443f44cdef25006daad573e3a6ca
+~ -[PUIProgressWindow _layoutScreen] : sha256 0c3aa4711e21d6738aace5e75a727ffab5e403917f572582e54b7c85160a6bc4 -> 9a7a50138296babc21f6ce88802c2c1303c8705c697d0dc3f50684029e37230e
+~ -[PUIProgressWindow _drawProgressLayerInContext:] : sha256 24b1cc79b34f10c48ee90a77944781b18af4efdb1da8b99b8b51ac4457666c92 -> 5a24678607222fc23bdfcf119ee5c4d7c5ab1b901eb18c340249570c33be76d4
+~ -[PUIProgressWindow drawLayer:inContext:] : sha256 53abc3381b5b10c0a85e43d0c59b7339d4ac1c501cf4be1a1f80ec298f127f72 -> 4ec1bf3f43cc2c92d2b943aa9ef3db023d40ae725e76eabb201b74ea9ef056f9
+~ -[PUIProgressWindow _createImageWithName:scale:displayHeight:] : sha256 e62df4b18a107fac5629201ca7e55e012f9e1228fd2d46cf33893a51fd49724f -> 70c335dbf1739fac2e4c52fc8988a4a33d9251436d75eded8cf8873f054e9606
+~ -[PUIProgressWindow .cxx_destruct] : sha256 0569957febdd40b3bd09f5eea48f7db5f9507d3c3e2ff6c8afbffeed1063d16d -> e1c152fd52e6146d2eccb6245589356744b98e8323217813b7068a8f59ae4b29
+~ -[PUIEnvironment productType] : sha256 1de06f7253b164ab0a257d37091f4af1e5278c1aa70a651b58169245d70db0b5 -> ff5791ac61964179cb65028411600cdfb5f5dcbfe734fd55ced64252842a68e3
+~ -[PUIEnvironment deviceClass] : sha256 c5ae4394b529586ac2446e062725657fd5f0f288556390941421f6f5ea915330 -> 829417fdcd07b12fef8ea464ad7caf90a03afff626fa22ee3df4e91472157ad8
+~ -[PUIEnvironment mainScreenClass] : sha256 9eacfb872ac9376991664b24413986b15f931e329eca6ef38c26fe774b4fbb13 -> 8694c9d6023ebaab0e5987b6f4de027dd9d390821700858ba5b367b092c27c63
+~ -[PUIEnvironment mainScreenScale] : sha256 3218b5ac79340d881ad3383e48657147bbe4582efc732da22f0524dc68cd9a34 -> 75c35832705f132f5d13dbba04bda2a0cf8b32ed80bcbfdc4e718e8134102cbb
+~ +[PUIFramebufferSizeChangeNotifier sharedInstance] : sha256 367ba2cd13a7f02ac0888b78c7eb8adb704e8910d5a88d40778ffbdaa2e67f5e -> 467795f2be455578ac2c44e688a19164bdd177312491ee25cf4f4403826e744e
+~ ___50+[PUIFramebufferSizeChangeNotifier sharedInstance]_block_invoke : sha256 4c524156afde8820b992340649ad5c2aa138ce4c7fd26822fe6f28762a01ac9d -> edb6aac1e497c0830e60fa51ede4889cf2a3f4569477b0bfb18c9fe2d2fe1bb8
+~ ___50+[PUIFramebufferSizeChangeNotifier sharedInstance]_block_invoke_2 : sha256 5bc8b954ab0b984179755b2b3685f72c96e8212496871c8a9626b9230d5378e7 -> 6e4d8ff63b3242f486b9bcd111fb7d878717f82d46fb65e152a18dd81fd68964
+~ ___50+[PUIFramebufferSizeChangeNotifier sharedInstance]_block_invoke_3 : sha256 ace075b9aab12f8c609bc892dcaf06a7af2da75140a2a6dda0274bd222050e18 -> aa7d15d0a632c1c4bb40848628e411828d879c62fe838540a4aabe6ac4ce2f0f
+~ -[PUIFramebufferSizeChangeNotifier addListener:] : sha256 5892a293ceae2052dc668eb7481ed0015e5c106a07a4f5394bc6d273d201b509 -> b962cc69143d2d86edb1f55bda13efbcc4d5d27cbcc5253382c2f0674a36a852
+~ -[PUIFramebufferSizeChangeNotifier removeListener:] : sha256 5d04a764b905f081c78bf7095d20a188c0a6ac41285a55873b31b2dd2ae395f8 -> 8e96cba9334a42a81abf8a61f6c11828069226a3e2d16763816e669c1b3763c9
+~ -[PUIFramebufferSizeChangeNotifier _onMainQueue_notifyListeners] : 540 -> 536
+~ -[PUIFramebufferSizeChangeNotifier displayMonitor:didUpdateIdentity:withConfiguration:] : sha256 16bc421ce873c03b8880c982c8e3512f4f061380c83c4a6915c6c2e8b6c680a0 -> 8d0877940f906840f89237fea2e5364ffefebc985ef360d324009663fa67c064
+~ -[PUIFramebufferSizeChangeNotifier displayMonitor:didConnectIdentity:withConfiguration:] : sha256 7ba0ddfa6a5dffa0257e377e0cbd3f0b13f13dc7e3192fc4882cf3650375464c -> 0657592d61b70520c0e5f7c829e746e6f81321a5cf6cb8e3e31e0decd7b8e749
+~ -[PUIFramebufferSizeChangeNotifier .cxx_destruct] : sha256 d4683ca808be24a61b244801c85a9c37a9320794c5fea8c243a31d243719501d -> de2cac4a2e06da1b98aa21aae15d8448824393e3b07f2e7f48ebb5283dc23d7e
+~ +[PUIFramebufferSizeChangeNotifier sharedInstance].cold.1 : sha256 eea2829348a9ae71c42e77976891a808059fe9952feea183d3a67c9e26b0b746 -> b98f32eb635f8a5aa15582446fbaf45f6687047ad255e6cdf533276302955812
+
+```

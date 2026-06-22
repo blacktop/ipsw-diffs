@@ -1,0 +1,114 @@
+## LighthouseCoreMLModelStore
+
+> `/System/Library/PrivateFrameworks/LighthouseCoreMLModelStore.framework/LighthouseCoreMLModelStore`
+
+```diff
+
+ 3.0.0.0.0
+-  __TEXT.__text: 0x2838 sha256:00daa49c20cb251db399872a24750107af2bca243ada09926e50553206180d18
+-  __TEXT.__objc_methlist: 0x2f0 sha256:f11995e00fa3c21ffcbf26ee7805747c458740e99ead7294a512a3c0898b0105
++  __TEXT.__text: 0x2830 sha256:9dc05f23eb44a3df7a8e84bed78222b63bdca679c23c819bd770d775b79a2b23
++  __TEXT.__objc_methlist: 0x2f0 sha256:37a88ab37f2146e9212ddb8cbd852e47d9d5d32a541e7d02d02b41382429fd06
+   __TEXT.__const: 0x68 sha256:e06478c1fa8e9530966d217ed3ac96d0847fa91021199a9acbd0890b29cd4b11
+   __TEXT.__cstring: 0x179 sha256:cb57d8c783ec1496553e82ee9600d585acd79106ce1f03f67f63e7e110071910
+   __TEXT.__oslogstring: 0x24a sha256:093cfa927950a6f5a8e2a310e606fb96e4305614200091243126e1c1828b8f33
+-  __TEXT.__unwind_info: 0xf8 sha256:3b0fcfda07b2e45fc3ea58b458804fdba4578b93c8004c99ceefbe4307b769f0
++  __TEXT.__unwind_info: 0xf8 sha256:a260d74ec791b099f05b83ae99a23160b694b829735772602a373c360c8d503d
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x30 sha256:608b893c0b390c1c719755fad7237dda3a0a55330bbb33628f14a9f128438f6e
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:2d65b5b44afa30c4bad7924358f4da66690128b5f9a4aa9f320c242e1e35a890
++  __DATA_CONST.__const: 0x30 sha256:7b6d723d9581b89ebf68759e508c3b7268be20aa79198161dffbee1ce628351d
++  __DATA_CONST.__objc_classlist: 0x28 sha256:e21faa5c5782242bd7f8b23574149c4527b44c2e89da12f420b0350a450329b5
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x310 sha256:9c9ab82dd2d0c73850f78406ee8f4123ead2fec36119cc439b851a3ad1104282
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:c78fe9da9a5d27745e0411a5970a736896bbb9f4cab5dd9a40bb806d2878b1e5
+-  __DATA_CONST.__got: 0x88 sha256:04ff204bcb55846f578c023d6635277aae9c1d4bc9051419b02e35b71702563e
+-  __AUTH_CONST.__const: 0x20 sha256:ee23f6ef5d432f837f571bc1f806b6fbbdc8612c22a8984ef94ee5c3a99c33e2
+-  __AUTH_CONST.__cfstring: 0x200 sha256:50c368fcef8aab7be6f7b054ad114d0992747092178c2d7c58ca555b26a1d0b1
+-  __AUTH_CONST.__objc_const: 0x600 sha256:07e2d2639ab08896f9ba9d547596b9023b2175425c4d06d465b15b3f313ba655
+-  __AUTH_CONST.__objc_intobj: 0x48 sha256:8eac177c5cd3f8800fd54e303a9cc95cc86334c06f05c95ddf1353f6b6bbf807
++  __DATA_CONST.__objc_selrefs: 0x310 sha256:7dcde0f09d526e2af617105c94d41b3f05372ae626e1883a99dcb0b878441263
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:77e83515a1133ed0de65c5f6b952b744ef38b75fe3370c8f6ce44c5f79b112d5
++  __DATA_CONST.__got: 0x88 sha256:354f94d115690905c56ef3b5870fb3c4904ba88502e8a1b8142bc8d3d32a1226
++  __AUTH_CONST.__const: 0x20 sha256:3d6338fbc8c85a5b986f89ad15999c6267fd07c37e3f6981c67da37693f55d47
++  __AUTH_CONST.__cfstring: 0x200 sha256:e52144d40e542283398612e9f86e2c1c2d583c8f562e661d6331980f51545dbb
++  __AUTH_CONST.__objc_const: 0x600 sha256:06b1274bbdd0c1b2a14d463dbb26b58a52fe698a3190deb6f0906f1ecac3d344
++  __AUTH_CONST.__objc_intobj: 0x48 sha256:78267579b0132f117b4dc4310a9a9360882653da16c04378d9bda070a09cb61d
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xf0 sha256:ccabbbd9cbe9152d2e4223ebbc36abf807ca27ee231032dbcfcfc15d1f697e43
++  __AUTH.__objc_data: 0xf0 sha256:525410b3a3be1e4a158928db0c1865b242216fb5af689705cef5972d18006686
+   __DATA.__objc_ivar: 0x40 sha256:6402162b6059c33ebff8ceb2a44859eedd05f778b74a29b46c8d3b89f35b0776
+-  __DATA.__data: 0x18 sha256:7ccc293b46f9ea3827d6bc130c0b10e88e9e338a7f0fba26fe883e6139b0bf46
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:727af3317253af67ee65e9fe093437377bb4d8ee8ab2ffa8aae31d6e85920c08
++  __DATA.__data: 0x18 sha256:804815c03511b76e3d6fd5207bc38f027f117c88e6aa0fce2bbb6d2e59e9ef66
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:a6bf6bd4fc42c59c8cda7f4249117a79975f3c7ea2e512d7be091226a1c2a921
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_DIRTY.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3B470761-DA18-34DD-80FE-48C5B5BE0D1E
++  UUID: F92E194C-AABF-331D-81EA-4A7498DB02A7
+   Functions: 82
+   Symbols:   359
+   CStrings:  56
+Functions:
+~ +[LCFModelStoreUserDefaults lastTrainedDate] : sha256 b2ab0abe557b909d627b59a067ff3b6cecbcb191ad1977cf7d0b6ab9fc5aed0b -> 17c6164f7bdc347fa4a27ea4396677460a3a85bdeb9b35d585be21852cf5cdff
+~ +[LCFModelStoreUserDefaults setLastTrainedDate:] : sha256 3566676e55b2a25e66426a2f5a29d40c80b15df6d579f1b6589e75de1f8c6723 -> 5b1bee46db3bb4b805c8e7a3fcda86a5a5e45c85399d14426c04260ddf03f1c3
+~ _LCFModelStoreLoggingUtilsInit : sha256 dd5cc7fe9bafb69671d09a93f6856b3099b2bdc0f17fb310bedb9dd2d49ce3da -> 85da582b40565c1da7adbd76c83ba86d1fb2ef046bcb1d3015c4d199a573c6d8
+~ ___LCFModelStoreLoggingUtilsInit_block_invoke : sha256 8c49eb85c4155e6dfcb246f078c1b667078d6be74ff3a9f1e731fb79fe532510 -> 7ff519590ba67efcc3b558fdfe1736a4aed8dba1ac80b035bbb101840fa30ed3
+~ -[LCFModelMetadata init:] : sha256 ae5c0f692686dd971b81a0ccfd0ba043092b46551b54a212c2c4de04fae18b9c -> bae0369d875c832c6aa6fcf03e1d384fa55ea5d3aacf64e433d876216bf90d6c
+~ -[LCFModelMetadata toDictionary] : sha256 3f4edb72c1a079ec33fde54df8b265e9093b72a516a6d1f9b3f2a7716915bbb1 -> f6af4d562f971a45a2669863f274f4b05ba56093d9f2a98e3897a5eedabc2a9e
+~ -[LCFModelMetadata setDateCreated:] : sha256 cb974ae1c3a8aca5da7208ed144b05bc521ed077d2ec80d008a05e8a655461ea -> 74feea23b1b3cb6ae50da06eb2a390ff4ccf7eda43e91def4a46ea46eac186b7
+~ -[LCFModelMetadata setDateTrained:] : sha256 124ae6462fb7de671588cc2cb5a58ce7009dea771acb0f3d9d95f523b4096fb7 -> ff73be4619f3ddd62abc7eb75fe176dbb9e62355e9acecff3e966066d845c448
+~ -[LCFModelMetadata setSha256:] : sha256 8fe577669274a1d5e8d554f4152ab524c5f2bbd106bd8c44384937fd1efd5ac9 -> 3832e383be978a7f97c2dfcffd20f16f08b6e49b9c584edfb99b91a4b8ad8e1d
+~ -[LCFModelMetadata setCustom:] : sha256 fcdb627da588d3bee19abe74105e37442a6518221b444dc37a4664dc41279f2e -> b9dc3b425f318e32551361c262149f6dc1ca2b2ad095c3a096eecfffc945d268
+~ -[LCFModelMetadata .cxx_destruct] : sha256 4357d25afc02932c8b181c6d0b47c7a96b8867c93defd5ffacc9087a3e7a5aaf -> 8d1541fbf0b5a0aba10c97d8c9d2f91c08b223fd8f6af4e8ba6300de8eee909e
+~ -[LCFModelStore init:modelStoreRootURL:originalEmptyModelURL:] : sha256 08b18c1a6615e0831c1c0b9451e0b6e1abfbc24e3eb99c1f833b619c6a5c7d28 -> 575951fb8ff28a6ce2b5d4fe9c1926634cc746c9b1d6c4309cc52201bc586f9a
+~ -[LCFModelStore init:modelStoreRootURL:] : sha256 a58a2db836f3bd1d63e4791890cab2a2a5af576e782be5aac351738a65ddf96a -> bdf51c3e5f830a7d97abeee02a988f925ae4b66254d1e09c7ccb37c029ee3b50
+~ -[LCFModelStore storeModel:] : sha256 13b912f7f0b82b58bd30f55479411421e2a6292ef30bc0f5ae1a0933a97e3f6b -> edb7068f1df8a40b421fcbf95ed88b66747e360b801f8c2d0f6e95c4ae918348
+~ -[LCFModelStore storeModel:modelConfig:] : sha256 2baed3afdb964dd11566f5949bf6764d5f8355accd766b6d0e9c82c8de2e84a7 -> 58ccc8865371678f9aa74c0b554b608b3f9185cfce48e333d31ea24ea53eb743
+~ -[LCFModelStore getBaseModelURL:modelConfig:] : sha256 7c3a4f2d916503185e92c2be521029f42a7c74a2fbcab25065831ae563fe71a3 -> 42dd792c0a3b58cbe5df21630eb87c22f99ea20195843c0f32eaf657a69c6132
+~ -[LCFModelStore getModelURL:] : sha256 eae0616c4a335f92affb5859be50e1596ef66783ef16ab8eb55ed29cf530bd94 -> c78e6aafdd251f34e17060b41fd46c13dc18d59ba982dd03dc2fbef8d26f8eb6
+~ -[LCFModelStore getModelConfig:] : sha256 6b6c541345e59ddab35a1c3b4151d775a12ea9eb755087d87e1c9328f89542a8 -> 5b5634d252bebd5c0aef4ee70336a20e96a69f1655faefc79f06e87568f95cee
+~ -[LCFModelStore markModelTrained:] : sha256 27e10a1f0936a5526d3f90f5efdc4e4bd879ac777bcd1a6cde40ce9d5dcbf748 -> 419fd0a03303f163689625ebffb4824f3db03c1f19c928508d300378c0c93562
+~ -[LCFModelStore deleteModel:] : sha256 1640e242e0ed41288d20b85c0b69d55d700c8fa49e2d1fdcff37b2922bb2b873 -> e571e7aa1654fc764543a31c3ca619d56e98ef6d1652544b4f75342f61f54580
+~ -[LCFModelStore clear] : sha256 3c38238a18e75e9b0086b8a4c0247e99aa1d00917697eecdca7dce8196886c82 -> 515cd4f9eb72d4a4606b1a6efadacd154a028086b79b9e7941147f6ddb44ef76
+~ -[LCFModelStore listModelNames] : 456 -> 452
+~ -[LCFModelStore getModelMetadata:] : sha256 b9ebffa73179585d0e47d93a106f320347f0ad20119dc48c294f02c7f98fc656 -> b6f1d4e7ce7bbad711696b824294dff69e17ffa4d4dfdbcac4607027346d77d6
+~ -[LCFModelStore setModelMetadata:key:value:] : sha256 dea4e02c84c4d398843462657b8567573884fde230e254b4d9705a560e6d2e0a -> bd580c2efd99337bae6df476857f722a8efd0e9f5c46125c247ff9154d36a366
+~ -[LCFModelStore .cxx_destruct] : sha256 0f29f4aab5b4f41be8a176d0c1bc42ab434ce54325466fad729d945bc39b0da4 -> 21586a8db08e12f2d86e0aac3d1e95981a9fcc20ff54dc4fc9be2da2538d601d
+~ _OUTLINED_FUNCTION_1 : sha256 75988c407999a7f34c60b086a7e6d44c087db512134a756210db787736c7eee4 -> 8c8edaf08445928afd093ad053f5c6c1782441ba8ad4019eaa6796fc1424bb37
+~ -[LCFModelStoreModelMetadataProvider init:] : sha256 92040e31925cedc527acbe42bb3390a727514d94188f96654a6fb047b999df7f -> 84ff017de1cca5415fc4c1edd8c1b7827ebfaeffad61d8c82530b81f905d6912
+~ -[LCFModelStoreModelMetadataProvider getMetadata] : sha256 27f5188a8b942d6379caa7e73b84dc43769ad543843aff03ed80959f0461ef7f -> 63b29035c8ff88653b1477f212afae95a1440a700e2b9070d875c729a0c5cd00
+~ -[LCFModelStoreModelMetadataProvider getModelMetadata:] : sha256 0bc6778b61badee8732a79f78c043bddcfc2ca1a067ef7a93f4725d387c22531 -> 8b67ee9c35d8067d4cc383521bb0da356dc2a7bbf840692a4cc85f0bab75b41a
+~ -[LCFModelStoreModelMetadataProvider setModelMetadata:metadata:] : sha256 96134be1f1b738440211700e88638b5f48349b2dacb3ee74607d4eb42bca56ae -> 39c785f24f52514429e8fbf3a8c0f582812f1e808c3afacbc00de6dd216dc7e8
+~ -[LCFModelStoreModelMetadataProvider removeModelMetadata:] : sha256 9f416d3d03c300a2ac28f84d9181362bf85cb4bb351727e057ce33f71eb4351c -> e1e33c29eb0b28190569a77c2ebc2e96215d15521f064e9a6dee0d64b4b1e8e5
+~ -[LCFModelStoreModelMetadataProvider .cxx_destruct] : sha256 d9cc23ff842fb6376c424fcad1b0409a34166c5a8d557faa6536645202952922 -> ba4bb36f3f4b587d38aa0bfb0b64abf650a1a219e56f2db64036cbdd01435968
+~ +[LCFModelStoreUtils SwitchToMobile] : sha256 4b70b35a7bc82d3c44ceb7aa177ba8952f705c486725a1692d8f4b3ad8896782 -> e4d3d9f0404ffc60ad943d5e04a9440245af00b1d769444fb5c298b588ab5e4e
+~ +[LCFModelStoreUtils isSupportedPlatform] : sha256 dcea30936d356b83eafc084b88cbf7bcf04fe749549adb7795f6e368d44be380 -> 0557ff9fbeded28534a61a61246b6905a5e6bea40e29bd07b3d9b9c3d6147b75
+~ +[LCFModelStoreUtils getBaseLocalPath] : sha256 1dc6d93cf6bc9e457f5b894261309bf33d17852d667089b18aec0bb53636b7f4 -> 3566b83712bcbaba80646611e69b58b26fb4aa8227461ef7473f0ca1d5c39754
+~ +[LCFModelStoreUtils sha256For:] : sha256 bef7c0fd5aa1022ca238c834e440e7010c9b8478ed9970a24bde42011b2f6465 -> 7df1ff4a8e94b0e6a1b39228c0cee5e37aa10bfaf82c1db4505f714e35192875
+~ +[LCFModelStoreUtils sha256ForURL:] : 460 -> 456
+~ _LCFModelStoreLoggingUtilsInit.cold.1 : sha256 d299a234a0a632fb31d83039ae5a760bad87a87579cb0782545c21a324421a65 -> 5b6b8f64ced4efae89be63be6e20f49bb47ea74253e54befb34c020ed2019faa
+~ -[LCFModelStore init:modelStoreRootURL:originalEmptyModelURL:].cold.1 : sha256 a6436f706d8b1532ad24269b6f29e2571e3c73229a84df06ed0f7f1769df0b94 -> f265c130599a18150d480aeeb81c2ee4d55ca180ef38033e8a57562f16723137
+~ -[LCFModelStore init:modelStoreRootURL:originalEmptyModelURL:].cold.2 : sha256 be2c34b9d1b71018d777be9a4f5974a20de21287b5422901b574acb775cbb60e -> 08fd3c53496f5c4aad2c945908d805d12d74708acb1f551d8f40e66300f02bcf
+~ -[LCFModelStore storeModel:modelConfig:].cold.1 : sha256 d48fedf39cd95d929f8adec2e582dcc125712a062a9c5616debc5ec8037b3fc1 -> cea76f7de78da5b74beca5b262ea33429b8c557fbd36986f796d8c407c4a6876
+~ -[LCFModelStore storeModel:modelConfig:].cold.2 : sha256 6ec63a590d182e68dd33e603a28723114f6b3b0bade8351c6348324bb7e7a6da -> 837ac85bf7e8830e4db8dc6c36019cc14155180a148c00b8eeb826d69dd6ae06
+~ -[LCFModelStore getBaseModelURL:modelConfig:].cold.1 : sha256 1af30738ae3bbed906cf13e825e5d749602d5543c907c8975885a62c4e1f7297 -> e11e8956c484056a0365e957fc6085f9174a93abb10d952b18efe601d5ab7b28
+~ -[LCFModelStore getBaseModelURL:modelConfig:].cold.2 : sha256 c8c7215fbf35c77b638400232374c9dd7ded7209d060df9028c315e44e092bdf -> 330f93414a8b3bf8481583c9e600163453fdcf3963641df24c5fe312b7d69616
+~ -[LCFModelStore getModelConfig:].cold.1 : sha256 01a04e1f1a7947038e27685521cb66151d491a88b92bdd8ffac5ca839b32c339 -> 00e81d78208d9023ef2b0ff8099310162aff1eabb8ac03d4238fa2d26764e327
+~ -[LCFModelStore getModelConfig:].cold.2 : sha256 0dce680908cc1570abb3a361c8ac3b67eb84a35503793e75cf4d935c278ebf55 -> eb570a8a50a706c0c1fdcea0d1eba19c36b8eb9697931fe7a36e96e0caffeed5
+~ -[LCFModelStore deleteModel:].cold.1 : sha256 443a84bf663f4445f11a91836de2c0fa6e067d4b44be43c413888507e24641e8 -> e26cc3cf7b4ab8ce8ba69a4cc42396faff9dfb05b7763883b8e3fc32bf91ce7f
+~ -[LCFModelStore deleteModel:].cold.2 : sha256 f802983fe3bcd2e0314454e7cb0231d577f1a16f3f0b485d446f89316b8f3f1e -> ae82bf9c4b371c5fa12d05b92265ec4d19a8c0b55ca558045b6737e4ddc58399
+~ -[LCFModelStore clear].cold.1 : sha256 3b69896b5fb9168831b499b56e779fc796d240e8263241791b867d440f37f398 -> 51e0053e11210696fb5a07753a5d78799b49c7f96bbefa0243025d0c85c83ae6
+~ -[LCFModelStore setModelMetadata:key:value:].cold.1 : sha256 7788dc3ee91c4a84762fee76f652b2b6d6660a9d7b33a73ff30b005879c2c5e3 -> 9574dfb8796d6f3c2053a1eaea0ea7bc36ffd98e49e4a2675fa105699468e9c8
+~ -[LCFModelStoreModelMetadataProvider setModelMetadata:metadata:].cold.1 : sha256 db7cf096e6b32b5c035137b2ce9e55044d1c3516c1513fcc14e13bcba6e1f713 -> bd8cc42d37d1a6019aca983cd314a5a01e995d157f7250cd3d516b36c07190f0
+
+```

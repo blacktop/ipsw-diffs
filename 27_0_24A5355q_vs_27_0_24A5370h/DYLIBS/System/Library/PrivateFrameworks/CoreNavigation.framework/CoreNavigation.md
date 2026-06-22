@@ -1,0 +1,98 @@
+## CoreNavigation
+
+> `/System/Library/PrivateFrameworks/CoreNavigation.framework/CoreNavigation`
+
+```diff
+
+-417.0.0.0.0
+-  __TEXT.__text: 0x361e5c sha256:a91fb0a150846ffb47e18101f67bbfc46d9dfd491f614aad8ed12cf94c838e3d
+-  __TEXT.__objc_methlist: 0x198 sha256:1ff27974b63ce472fa5a1bceebe32b472a00c9e1c93e2ec39e47e695fcd1d8a7
+-  __TEXT.__const: 0x51f91 sha256:d2379381e1d16467758eb16f7f94acff7c39929ca3d6b5f02c0bf90500506899
+-  __TEXT.__cstring: 0x3833c sha256:9a0aebbd6cdfcab439ab64cc76a5d56dbd2996e94a0c389274d35a211eeb2291
++421.0.0.0.0
++  __TEXT.__text: 0x361b44 sha256:17e230f11961f12b68986ece721123f4df5e08a09c2e638e7dce9dc416119824
++  __TEXT.__objc_methlist: 0x198 sha256:8d87eed465ec8fe68d94ec27948f45b0d574ef14e0ab43fc5a22e4f0e2a31095
++  __TEXT.__const: 0x51fa1 sha256:7d1819a8e9688d3e6e597acdc1d149670762a9f2e8c1bd3eb7ed05842e60b6cd
++  __TEXT.__cstring: 0x3834c sha256:e990ede21b3271a3c48f2bc86465697c28030f2ecc3a66d7ee2d186779a0ca53
+   __TEXT.__oslogstring: 0x51 sha256:5eca1aba1f0d1ac78c22fd25a6f7b6ff6814483089e5ee6922f5c8db375953a4
+-  __TEXT.__gcc_except_tab: 0x16990 sha256:e5f7127df0abcbb93d5e918555ec21e9713487871b3f2b00d7aa5cd79d77d21d
+-  __TEXT.__unwind_info: 0xec48 sha256:9500664b362bd7bffa0a171ab043a6df93da1994f63ef820b81f170b6472e773
+-  __TEXT.__eh_frame: 0x48 sha256:ebc80d88374365e5cb88b5418409b474edfa0effec27834c3281f566613f04a3
++  __TEXT.__gcc_except_tab: 0x1676c sha256:8a847059ab3e867d0e7d51aa39f7c9c464c9c95a74138e21d7cef477fca875ca
++  __TEXT.__unwind_info: 0xec70 sha256:078d62022623220230690fe2929aac4cae279840b0e3d91a112de8927c4dcbdd
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1a0 sha256:0ed0e79b2914190f6c0051d8f6d297022b98c91747a7649f1db835d0da499a35
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:6a0f7035e40e7b03950fb6b547f99555e746963b5fb43e4f0e8f413e92215d82
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:d3bddc6b91cf0eff5707c7c6c496723bf7f6400253032fd38b6b598b049277c0
++  __DATA_CONST.__const: 0x1a0 sha256:22cc92bf4ac5537d327b29d91a7aec645955127451b3a8f5ac6e74c42bbd2cbe
++  __DATA_CONST.__objc_classlist: 0x18 sha256:7ea4645a90e021fbc8b0c0a0ed41c18d78629fb3ee279acff30a80c2057faa03
++  __DATA_CONST.__objc_protolist: 0x8 sha256:04648899bd9d93e9a2e3f740a925925910f8b93e6540fa386ba9953e606939a4
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__weak_got: 0x140 sha256:eabf3c16d1cd53de124bd77998add5e72888cc0ea1611a04a635470d5446f266
+-  __DATA_CONST.__objc_selrefs: 0x138 sha256:506a3961e8ec612da4e9ce667f1fb664bd500ee1b30249669b2b47dc84c88a28
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:6a0f7035e40e7b03950fb6b547f99555e746963b5fb43e4f0e8f413e92215d82
+-  __DATA_CONST.__objc_arraydata: 0x10 sha256:d201b21ae5a9bbe14c843d38589011c82e0741b7407add5836d26755491ef325
+-  __DATA_CONST.__got: 0x238 sha256:d38327820080e8658bda7ab6b42c5f8f343b59a221afe47da6745a97edf2b36d
+-  __AUTH_CONST.__const: 0x1e778 sha256:4e13ce92ee719aba39086942655db2112abba32161cab40b6918e54bfc226d79
+-  __AUTH_CONST.__cfstring: 0xa0 sha256:5b5ab6fb706bb0a5b30a44def2bb8bda8d38b15d408ef4a3e2ad6425555d13f8
+-  __AUTH_CONST.__objc_const: 0x2e8 sha256:971d598d6225ac101fabd8f5f31b46f6ed19cb8f98b362740d47dbd1ecfd7396
+-  __AUTH_CONST.__weak_auth_got: 0xc0 sha256:f7a1381a226bee99cb55a93bd927c05d537377e3307a4c3df2a38ab78b00153c
+-  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:041f153728413631c2c372136a85f79aa19352fd1142819b6df15c41f8d07552
++  __DATA_CONST.__weak_got: 0x140 sha256:232054ba62081ac4f7a291303d99115c451fcb42eb8b1c4b37ca8d595bf380f5
++  __DATA_CONST.__objc_selrefs: 0x138 sha256:d962052fec5c5a006e2d12369366f07f454aa5b595224e56dcf3682c37c69488
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:7ea4645a90e021fbc8b0c0a0ed41c18d78629fb3ee279acff30a80c2057faa03
++  __DATA_CONST.__objc_arraydata: 0x10 sha256:7b8945b46792d051549c5b6247dcc67b121bd1a1b8335cc124ce5e435475157d
++  __DATA_CONST.__got: 0x238 sha256:9214a9b8f7a1edc8fe66095541276f0bf5b0d2195896861ea2a7d67369c655de
++  __AUTH_CONST.__const: 0x1e778 sha256:91ba9571126ea594bb7b7752431c947b397a1acede2b809595b7aea874e0e78b
++  __AUTH_CONST.__cfstring: 0xa0 sha256:b3a9479841bb2b9a663f5421dc47e27a8c58b2bd995ce650ff6a8c6d258e55da
++  __AUTH_CONST.__objc_const: 0x2e8 sha256:e53debf8650c013bf08acb96efcd0df133ab3970e9a0c2a60e6e56ee1bed8745
++  __AUTH_CONST.__weak_auth_got: 0xc0 sha256:d2fbc26899357f8282f5c60baffa16a857e89f3c51f84e065c8ea0a4c7a1a2f5
++  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:8801184058452dd4c960b4a7e76223caae89c1c4dfacc34e2b8008b6b025f91f
+   __AUTH_CONST.__auth_got: 0xaf0 sha256:cd99e0d7b38a723658d7bf5eb2e9bb3238a13d62a467a1e7b4608db065cdf744
+-  __AUTH.__objc_data: 0xf0 sha256:26c9f999f5936ede827c1ad412d90c7a03a8ab76d63520b9f47e532b2db6f7ac
++  __AUTH.__objc_data: 0xf0 sha256:741cb11cb3a8c7db0488aeb182902d337447cc167fccd21db0c68adcac2adf5d
+   __DATA.__objc_ivar: 0xc sha256:3783fb69b6b736adc42ed678e95315363c531091cf9c361e8e08bfbab5c07a59
+-  __DATA.__data: 0xa0 sha256:91ec7af9e83d59d382edfba3065b9c78c9f6fb97cd0a37c83ea89ac6f2de55c1
++  __DATA.__data: 0xa0 sha256:3a36a17e8d4d67ea706b20fbe7cc3c2ebdaf98ebb445b6cb25d108286fd5df87
+   __DATA.__common: 0x660 sha256:235a7f4dd8af8a77a032c72b99f4537ecb4c1e30067f1ef4c5308689279cb137
+   __DATA.__bss: 0x480 sha256:4cf9816ed1062189ff0c8d427fba5e912cc68fc9af76cf7f08fd255977de3b33
+   __DATA_DIRTY.__common: 0x658 sha256:6cdcef7920eeed7c365634796f672ae01d3d4eb4568b9ff3ae4260460421c2aa
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprotobuf-lite.dylib
+   - /usr/lib/libprotobuf.dylib
+-  UUID: D25591C0-E335-3A8E-AF2C-F6B8F7177589
+-  Functions: 15513
+-  Symbols:   13497
+-  CStrings:  3918
++  UUID: 632C64B1-2AA1-3E11-9DE2-FA0CB33672C0
++  Functions: 15512
++  Symbols:   13504
++  CStrings:  3919
+ 
+Symbols:
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData18WirelessClientInfo25kCourseDegreesFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData18WirelessClientInfo32kSpeedMetersPerSecondFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData18WirelessClientInfo33kCourseAccuracyDegreesFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData18WirelessClientInfo40kSpeedAccuracyMetersPerSecondFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry5Raven20MeasurementTypeCount19MT_GnssPhaseDopplerE
++ __ZN5raven14RavenEstimator26UpdateMeasurementTypeCountERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_6vectorINS1_4pairIjS7_EENS5_ISC_EEEERNS1_5arrayIjLm35EEESJ_
++ __ZN5raven24RavenIonosphereEstimator26UpdateMeasurementTypeCountERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_6vectorINS1_4pairIjS7_EENS5_ISC_EEEERNS1_5arrayIjLm35EEESJ_
++ __ZNK5raven17RavenPlatformInfo26IsRavenSupportedFire9PhoneEv
++ __ZNK5raven17RavenPlatformInfo39IsRavenSupportedIndusFall26orLaterPhoneEv
+- __ZN5raven14RavenEstimator26UpdateMeasurementTypeCountERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_6vectorINS1_4pairIjS7_EENS5_ISC_EEEERNS1_5arrayIjLm34EEESJ_
+- __ZN5raven24RavenIonosphereEstimator26UpdateMeasurementTypeCountERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_6vectorINS1_4pairIjS7_EENS5_ISC_EEEERNS1_5arrayIjLm34EEESJ_
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRoIugAsps2U1WcZkQEVxT6NYYOsEvNt8vU39MI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/local/include/boost/geometry/algorithms/centroid.hpp"
++ "/AppleInternal/Library/BuildRoots/4~CRoIugAsps2U1WcZkQEVxT6NYYOsEvNt8vU39MI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/local/include/boost/rational.hpp"
++ "/AppleInternal/Library/BuildRoots/4~CRoIugAsps2U1WcZkQEVxT6NYYOsEvNt8vU39MI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
++ "GnssPhaseDoppler"
+- "/AppleInternal/Library/BuildRoots/4~CQCougAza7YymF_dTpaSHIrzPuqJwYbx8bkfn14/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/local/include/boost/geometry/algorithms/centroid.hpp"
+- "/AppleInternal/Library/BuildRoots/4~CQCougAza7YymF_dTpaSHIrzPuqJwYbx8bkfn14/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/local/include/boost/rational.hpp"
+- "/AppleInternal/Library/BuildRoots/4~CQCougAza7YymF_dTpaSHIrzPuqJwYbx8bkfn14/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
+
+```

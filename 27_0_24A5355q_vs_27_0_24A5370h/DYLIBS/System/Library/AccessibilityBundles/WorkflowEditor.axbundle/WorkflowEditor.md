@@ -1,0 +1,87 @@
+## WorkflowEditor
+
+> `/System/Library/AccessibilityBundles/WorkflowEditor.axbundle/WorkflowEditor`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0xc30 sha256:4364f79a1a86ad9e42b1a4ccc43564febf2c1f74e8d439f80e3678381e059de9
+-  __TEXT.__objc_methlist: 0x12c sha256:09424fa160f3bab6945082ef7170167fd25dd3a421bb8304e90797ee35d39a49
++3039.1.0.0.0
++  __TEXT.__text: 0xc28 sha256:16debd801154d04b95e599731dc2c5f3f8314f6b6b2082411632b66c7baae088
++  __TEXT.__objc_methlist: 0x12c sha256:9df996b1ff02e1b726b3f366a2e8d1e2bd24d4aca452750f0ff2eeeadf9cb326
+   __TEXT.__const: 0x10 sha256:c1cbe048bd9d3073e48c6714abc2af5b957bd245128f779ec593a3a1ed286853
+-  __TEXT.__gcc_except_tab: 0x20 sha256:a6c0361c649cddecfa614209453ae1c8856f5a6cf28b58110f6362dae3a31db4
++  __TEXT.__gcc_except_tab: 0x20 sha256:34df74b9745dfb576110cee54c56887d514c5d1b3206dc8a9b5b430c4728d097
+   __TEXT.__cstring: 0x1f1 sha256:3857574037916dd465a198c4359bdfd50c8396e28e57afd7d687e14e8f460388
+-  __TEXT.__unwind_info: 0xb8 sha256:06b8a3c2061a8d3fa605790513b9a6a93ee1a55e0daf6321e5f9acdc4725f729
++  __TEXT.__unwind_info: 0xb8 sha256:eb86300cda5b20134662aa9f6564329b59667b22b8a166c7b6d65210a3d196f8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x68 sha256:d928a65d5682a3ba3503e1b9d46dba7b38b93dbaf18eea8295e7553bd8fb77c8
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:444b2f0d7ec22f6afc74664e330e8fa0ab668dbec0f12f71a3ea88fefa5c20ef
++  __DATA_CONST.__const: 0x68 sha256:2f7f483becc289f3b7fd66d748bd3df1d4fdbb71f0d69b87ed8b3287ab443b02
++  __DATA_CONST.__objc_classlist: 0x38 sha256:f2ffbb1b4fd39c953ca23d99a36780c11ed6594f5e14c308848ff959e336de99
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x120 sha256:d47a866de1512233d96cc57b7c6d346ef04d4d5aef0aa1ef8554df9f3f4ea5d9
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:de3624cb5d224ef0842790f92342a65cf5502bd9a13499e240b65f32cda8b49c
+-  __DATA_CONST.__got: 0x50 sha256:ef0e5184c6dd4d3d3335f1591a28b87b108ed2368e824f202a1ab36412f9e19c
+-  __AUTH_CONST.__const: 0x60 sha256:4d274470a60fb816f6b92d6a76be7a94185f7ec661721e1862f3d3cb652cb400
+-  __AUTH_CONST.__cfstring: 0x2a0 sha256:ab304c227e7b9228c0745b7dde5a19081850d8dbd9b32e331a85a120c0c86dd3
+-  __AUTH_CONST.__objc_const: 0x3f0 sha256:a3e7f26806163d455f89fc32ba3231d30a25cedddf49c25e0e2e916bf7b7b438
++  __DATA_CONST.__objc_selrefs: 0x120 sha256:7edc6b04d46c5514400bb3113fb3e47200182d0581c9b0318278a06946fa7fc0
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:4752861f24431a9f521fb126f95ef9d2c8ac208b85794c7486d0679e1d239586
++  __DATA_CONST.__got: 0x50 sha256:acfb96ba80aa3bda8ba2dd1d1aaa591d066574a8fa3db693616400cebb9044ea
++  __AUTH_CONST.__const: 0x60 sha256:9fb74a63daf9d456faad799e6b9651181f1c61255d7fe1e6a65d9b11be1e4a8e
++  __AUTH_CONST.__cfstring: 0x2a0 sha256:9e973e1b663c7585783bf82715916d60567d6f8ecd076f97c2e12eac56e9d3bf
++  __AUTH_CONST.__objc_const: 0x3f0 sha256:f97d17f4e3dab864f27fe58e889e6dd80d6c24acad0f4368c6da730dcf4a1597
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x230 sha256:728205582e826612cbd2376b20dffa1af8d205ab8a61fada81002d3ea4583a5e
++  __AUTH.__objc_data: 0x230 sha256:c4833c9ad7579d8a3a9935f0c9d9947889868d196f348bd4ef07ae2d54ab840c
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0D2C5D75-8B85-3B7F-97A1-9BA1BB7DF26E
++  UUID: 70C949D5-41F3-3BC8-BFBB-B1E46BC3D2B0
+   Functions: 26
+   Symbols:   170
+   CStrings:  49
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ +[AXWorkflowEditorGlue accessibilityInitializeBundle] : sha256 b9fbc5f456238b0d50806b4181fac484848f6a1c22347d174b4378e5bdd0905a -> 73069881668ebc69d16ddf6ee6d3b8b04fc820ba53371dcd58a8a82fba578ba7
+~ ___53+[AXWorkflowEditorGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 82371c9ea08715dff74a3358bffee00cf948affef85336c99d6444d7f1dc7624 -> 7cecc2b98b2a6f0f51798e3fc536e75981cc907acf7f92a376267738bbc79322
+~ ___53+[AXWorkflowEditorGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 ccabdaceb1a01a0edeb895fb4315eb0eab45935b9d8fa6d537c68995c12c4890 -> dd0e92e07051cc571b429b3923df10fe8b64284160c186cd00c6553e7608e998
+~ _accessibilityLocalizedString : sha256 ad0898f2c0e9ae7253da4544b781e30ee127df1a902a450b39e52fb5eac261d7 -> a13adf5c0b32c339daa6e466174181289e07fadacc501bc04dc99cecf96c05bd
+~ +[WFBackgroundFadingButtonAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 259991cd39c58ac579379a783775c6a7379ad7cc9b73a878df9a157f98d6dfd1 -> 05b3b42d7ac521e6009c6044a1fbafc59bac52d0c4c0fe572e8615e4aff90534
+~ +[WFBackgroundFadingButtonAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 eafcf6c96b843e518fdf313132c07837d1516dc2c4305193a3b9846f9e522ce4 -> 0f2ccef06598c6b8e07db9c09c20f58524300cae6ff585949f33b863fe7e6696
+~ +[WFBackgroundFadingButtonAccessibility _accessibilityPerformValidations:] : sha256 3b8f1b6123ae691b5049a3d5ace28948135a95ba9192ec5dcf5e6b770d44635c -> 76bd422aea7bef45416d22833f6fae84bb0ec0e2fc04d914fb2fd6063cfb8673
+~ -[WFBackgroundFadingButtonAccessibility _accessibilityLoadAccessibilityInformation] : 644 -> 640
+~ ___Block_byref_object_dispose_ : sha256 6f3d10d75deb947f31ad862f00501a90a394e932af0606e2e2f1c39648ee1df2 -> cc69d9a7c73c8c4f63160fd5c8bc4818da02456c7e7e99c8d59aae8d581a1c01
+~ ___83-[WFBackgroundFadingButtonAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke : sha256 f3f7c5bcc89568fb46e3d4358e278b97449b2156793b85da50a358ce6806c4bc -> b56ca1bd288365cab06ffd3f712a30fc1b9cb3a1d2928a75c3db52bed2159d52
+~ -[WFBackgroundFadingButtonAccessibility setBackgroundColor:forState:] : sha256 dbccdcd56bfc5f4b87c197b406fe83f622edc0cbf8356de3218c757977ea89c3 -> 049ad64edb070fda11e0e13e480e8474296561d89c381e69e240715d8449c5be
+~ +[ActionCellHeaderViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 ac34759e4fc3c7dcea2fb4515f130d795849b7d03e76ad0077b29365d3aa3b9b -> 9d47c67a730fd6eacbc04c43b505267e3b26802ed4d5f462157b2d351f2a36d7
+~ +[ActionCellHeaderViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 b0b1061190e9a512dfb92c106737d27dc05e5529643a304be3f592aef22ada12 -> 9133d8860e3e5fb3b1c597a01f14aa5a5f8acd7be8b51e1c144b28afe14e687e
+~ +[ActionCellHeaderViewAccessibility _accessibilityPerformValidations:] : sha256 e182ef22f36154954b6a514e2a9f0a2165217872c1a3d8057de8db3f90fe1506 -> dc277f0138a19ebbf988da9eb6bdb52c75724e090f5bbf986c98e8f2e0fa1a86
+~ -[ActionCellHeaderViewAccessibility _accessibilityLoadAccessibilityInformation] : sha256 1fb0232bd2c2cc1a9d7ffe239a728c894a56e1688f223b3415b7489674a26167 -> 51980b53e6e85b6df89ece24b546d6c0274c15f88705a86bc6f00a41f483ec1e
+~ -[ActionCellHeaderViewAccessibility layoutSubviews] : sha256 9224f7259a1b00b340b7d17ad6f06f6eefce7c2c68d5c051a11d4b4eeaae8c03 -> 587fe745fd17011457c068c510bed6eb1e4d8b186883128d4cd9c01fb504ae89
+~ -[ActionCellHeaderViewAccessibility markupIconViewHost] : sha256 6c3eb25e4d8a9e263d1cd85d0f821c0ab4a8d24d0041c7a128d80e3fb4425be5 -> 5331449f619ec5bca2ae39387f40f6b4e1968767634fcf9a58a072ae0a385b73
+~ -[ActionCellHeaderViewAccessibility markupDeleteButton] : sha256 7fd693338a61fddd311832501539db63ed1febd853e3e33e1bf46d7cbf09b9a3 -> 769a4b5164479f1db0c9b3f9fb8f4150db35d1ccfc3b1ca1a843f2b09cff4363
+~ +[WFRunWorkflowToolbarAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 9929601d29a58d8a60840887bfa3014265b554ab9743d414eded3d2c37db1efe -> 129b9d0bf57098e277bde54f116835f248d39d8ddf700318efa2649647a13f0b
+~ +[WFRunWorkflowToolbarAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 0a600758e5c30af34b7dfbd19c8ea259915c470c271f90a01d741064f1609b3e -> 94cb250ee06ac62d14262337b8105da50f4a08e0fa4b5d8fc0f8696e0808cff5
+~ +[WFRunWorkflowToolbarAccessibility _accessibilityPerformValidations:] : sha256 e1f6b038955ca84e0f5898b16fceabe68618e0699b1997ddc8c61c4c213bdb24 -> 1aa2ef27e70b945753d30497c659b432487d6f9db7cc5cb339f83d2419ffb6aa
+~ -[WFRunWorkflowToolbarAccessibility layoutSubviews] : sha256 02ac246dd684eb72e5a87f780282bb6b329abf8ad4ca97b56dd73d15ff6aac24 -> a4266e620cb0867636b33cc5ec712817ac5ff4a9c8fafbf314c19645e17b798e
+~ -[WFRunWorkflowToolbarAccessibility _accessibilityLoadAccessibilityInformation] : 508 -> 504
+~ -[WFRunWorkflowToolbarAccessibility updateShareButtonVisibility] : sha256 600978fdca951c475d1c4a4457ce04e0d26dd724302af61f4759ce3d4b4722cb -> 4dcb55e78f8901f3406c9a2f837c81e291867df36aca407b5702f06bc4cf1151
+
+```

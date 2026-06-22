@@ -1,0 +1,1253 @@
+## MediaToolbox
+
+> `/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox`
+
+```diff
+
+-3350.58.3.11.1
+-  __TEXT.__text: 0x1035654 sha256:83ea396410b05ff89be9595fcdc2f6b692cacce12398ef15928c85df511bfa53
+-  __TEXT.__lazy_helpers: 0x24c sha256:01530493c3b67360babda11e0ec2263a658e6668dc39bc920bbb41de20a831f2
+-  __TEXT.__objc_methlist: 0x2b64 sha256:50e41f366889fa348d43019d498b505bf50d49d814285198509072b49d14a2cf
+-  __TEXT.__const: 0x29bb0 sha256:7b6c5d40feb62d752ac21dc9ffa086be1d8ceb7d5b2daafbc6dc47f8824d7a66
+-  __TEXT.__cstring: 0x13f1e7 sha256:3bc7f1b569224b91246a4c6e28dbb38809548beb52277bff5ece3e0e66ce85ca
+-  __TEXT.__oslogstring: 0x169e22 sha256:21d2aec764d6fcc4f84f832ae845c5c397ff4dde9c9499d8c2f7d6161a7bbe17
+-  __TEXT.__gcc_except_tab: 0x1e7c sha256:12f245dfc7092264fa755176feaf838ee878b412ba6ac497924cc9e6479ce1b2
++3350.63.2.11.1
++  __TEXT.__text: 0x10369c8 sha256:a037299f58d02c5f4ba4dbfb678712324064ae6ec02be5a2b41020f3146d04e4
++  __TEXT.__lazy_helpers: 0x3600 sha256:dd2af8964a9a93aa97b9f858f1aaa303d4128974cf9b4bb1a36a70b88b76cfa6
++  __TEXT.__objc_methlist: 0x2b84 sha256:fd070a94fd41ef45f6c4e6995648fb8bb22ff8c0e90167743d1b8af0f5ac9f67
++  __TEXT.__const: 0x298e0 sha256:04c81093753fe80d80bee354695946790033c53191e740117be4ca15718ab19a
++  __TEXT.__cstring: 0x13f227 sha256:96a74b3cc156a84638b28f5b4e356cc2365ced401aabe3a618d88f817ee7a7fe
++  __TEXT.__oslogstring: 0x16a743 sha256:7787e1318436998ebd5ded35d7330306196fa00a6a41ebc712d50cfe97ec0a0a
++  __TEXT.__gcc_except_tab: 0x1e4c sha256:d5ae6f6150de020bfd1c1fac0b9a87af4c105da40387062c5b140c068da7fd30
+   __TEXT.__dlopen_cstrs: 0x32e sha256:f5ed224625ae4544b4938a5c02c5bce6cf12964cd7b3cdf551ad96d6891fc71b
+   __TEXT.__ustring: 0x246 sha256:1bc13e86e9ada67640a66b94c5c2fd4ef55c184f6b4e696fd9b0a0913938f873
+-  __TEXT.__swift5_typeref: 0x1d1 sha256:e09b5f2b5af08813131ad5f45ae1bfd9b9354d97b0c4b1409d4c9de1272705e1
++  __TEXT.__swift5_typeref: 0x1d1 sha256:9baac7050bbcdfc2117df8b2181854e078e6b6b908a4871e432ea3d9503ecc7c
+   __TEXT.__swift5_reflstr: 0xa0 sha256:b2519c1deb25b4df245abb27c2afbdd670fbe381a7a5976d25630bf04a09385e
+   __TEXT.__swift5_assocty: 0xf0 sha256:701a184938b16aff295c7a4624f6812f778620b04b2627b734527e297ee53027
+-  __TEXT.__constg_swiftt: 0x234 sha256:108eda9ebc77494ac2daa1a0ee80ff2d88031608bd1afa1cdb57899cd61fd725
++  __TEXT.__constg_swiftt: 0x234 sha256:0e7057fcea2dca3ce2364de33fa158595c29ea20dbd08e396350db10297ca73c
+   __TEXT.__swift5_fieldmd: 0x104 sha256:6c9f4bf581c22e63b2863451d0bafc95c742d9790226facceb41f1825656aa26
+   __TEXT.__swift5_builtin: 0x78 sha256:b409903c0821588ee46ce180b6a06fec09313f9ae67c8a763f3be8c2a96f463d
+   __TEXT.__swift5_mpenum: 0x8 sha256:b1c048fef1d15cf6b312cdccf86ebefe8c06f3d841906e19e5caaea7a0fd9573
+-  __TEXT.__swift5_proto: 0x60 sha256:68c1ded1861e366b1d24fa3139bc18335726d7738451aa4afa5df05b5bb4aebd
++  __TEXT.__swift5_proto: 0x60 sha256:59c69c69935f89370ef7e4b077183b5f2502d70cd756c01ca2c572ef56d5e32b
+   __TEXT.__swift5_types: 0x38 sha256:f0669c142ed031ae600dd1bc544a51d130176c020bf211a82753cb5a6fecec24
+   __TEXT.__swift5_capture: 0x40 sha256:b3ea52d28497801bbd4d388e12748583b9f077aa4e693da8b1ee91c5fe20d9a5
+-  __TEXT.__swift_as_entry: 0x10 sha256:71e8ede2c29726c2e6309e9606dc329658ebc1091cfc65c25a1c7ac823d07d74
+-  __TEXT.__swift_as_ret: 0x10 sha256:584ce685a73f67b07c1e0ffbf88beb86f86824e70dcdc5efc14eda32071d1be2
+-  __TEXT.__swift_as_cont: 0x30 sha256:b6b5aca85872f21f2dfa1ffa29a68ec43cb1d834db2552d971d791110218cdaa
+-  __TEXT.__unwind_info: 0x15630 sha256:e16ef1b0934cf1a34d32585a6c785db9820ffdea540fa7fe72c2ad8c1ef6e090
+-  __TEXT.__eh_frame: 0x4e8 sha256:f71537a011209c4e66b8edd4b377eb855b898b6be699d4995335e6e5fe5e47f2
++  __TEXT.__swift_as_entry: 0x10 sha256:fd1179d3acb1769c5de60437f56a7f4580b1a2d135a433b7556ea1edbbd4f2d9
++  __TEXT.__swift_as_ret: 0x10 sha256:83a85ca59a55da40ee99ec63ece3529e3b5db7cfd9a8b5bff69b414675ab0dcd
++  __TEXT.__swift_as_cont: 0x30 sha256:09e62aaa1ee0c362f448cf13cba5f2914995afd0e1f88be5083ee16fd9a89960
++  __TEXT.__unwind_info: 0x15658 sha256:22f90289da82bd94e928b8109ea1eb98db040d0480cd30df2fa6bcc51748fd30
++  __TEXT.__eh_frame: 0x4e8 sha256:7fba029812dbfb14e4b9dbc8765fac99b0f11646535bb98472bf619782281aa2
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x24ae0 sha256:603c07ced1e0f8a7d18f24a7eeb2e2bb53e3f0c3fe1c2f0c3fd0e60d53339bed
+-  __DATA_CONST.__objc_classlist: 0x228 sha256:ecb1f567efc2e03be66187eb09678cd6a0407eb80a7897ca80b2319528b81e91
+-  __DATA_CONST.__objc_protolist: 0x80 sha256:1bc10d496572fe213b52b22cd2888e93f5b03461d4fcbdc6b872a9faac8115e2
++  __DATA_CONST.__const: 0x24868 sha256:8ae03900cfb5a40d10e84e51190ecb44b5aff9c0369ae97437ba05027a548f0c
++  __DATA_CONST.__objc_classlist: 0x228 sha256:575032f1d9fd8b228f3e73345592bca7307a759d66a28b707282c52b719535d5
++  __DATA_CONST.__objc_protolist: 0x80 sha256:4da973f30f6e65a34a7717ae076cdeed9992240f69e998e9312d6050190af5df
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x2490 sha256:69ee81ef2ef09d45174de7345bf2387a39dc8d633f666a504b36c0b6d2c0adf2
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:7cbfba20ee012f0e875ceabfd22857561ccd0397cfeec0f7b123b71586d636ef
+-  __DATA_CONST.__objc_superrefs: 0x1f0 sha256:9d455d117428f3b5f0f8aa6d3ada061e50a93dd820035c74ccd4f2f86ad0cb83
+-  __DATA_CONST.__objc_arraydata: 0x50 sha256:ce8d3a29ca151ca4e4955d25d8e03c584ebf6888b656a78c7d728e9349ffb709
+-  __DATA_CONST.__got: 0x4950 sha256:075394f2a4195dae6f1b1a616b9f67f1f92570da39d31740b2476e7daba5787f
+-  __AUTH_CONST.__const: 0x47378 sha256:584c0f9366c38ebe02dbfb8c696de8ce11e24946da7e17f1537e5ac213d544f4
+-  __AUTH_CONST.__cfstring: 0x53680 sha256:8d2ac9519a199762dd949df5809e7bf7d8cd1ffc5749a62bf312f5407f067c88
+-  __AUTH_CONST.__objc_const: 0x5990 sha256:b49df3c78b6a13f42bbd98e401c420d19818b325fbad87f1692e0fce6b3c26b4
+-  __AUTH_CONST.__weak_auth_got: 0x20 sha256:7a5264ed2a9b3451461f89c7c5d5e5c970e84a60adcbe78101fe9dabd03ac9c5
+-  __AUTH_CONST.__lazy_load_got: 0x30 sha256:404c33a16c7e936cb0952dfd840dbba1bc5ab77bee47481c880b9745557d4d9a
+-  __AUTH_CONST.__objc_intobj: 0x78 sha256:c79e1bfb5e063bde0c1fe21673cb9b78a20a186db10559722ad03ac5dbb98e58
+-  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:da16160da2db0febfe81d72ba4f73ecb14b5d47fc511db4002827d7fd59b9a32
+-  __AUTH_CONST.__objc_arrayobj: 0x48 sha256:f2086e9cd1a9185eef127cf8ca5222323d4beca51cbfcda5cfcf03ae335b6e08
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:c1a21af79278de72f89ca973fe658bab55290c0d5232e0574dc2912e12d2c4e6
+-  __AUTH_CONST.__auth_got: 0x5fd0 sha256:3c03697cce8a8120c4fb3d07b46a4cb8fa2ddfc948723e1516e27754466944f8
+-  __AUTH.__objc_data: 0x1040 sha256:a2d609bd96d56237e9c75a7bf95c4bbe395ae00f8ec600dc727199c1d5cab9ca
+-  __AUTH.__data: 0x940 sha256:39b80f7e199a86180462432dbb4bcc372e16b80961ab67091fe0fae99df86c6a
+-  __DATA.__objc_ivar: 0x3bc sha256:57f61b006092c3306d8ca46569ed4953a017f6dec993242acebfbf869abfca85
+-  __DATA.__data: 0x3370 sha256:77dfdbadb570726ca06d528e49f6bb48b5b038e25cbb577a97377ce4542b25d7
++  __DATA_CONST.__objc_selrefs: 0x24c0 sha256:cff16f706f5aa45f40af16f1e1f6b93ce9f563d7a8fcf32b857dddcae502b56c
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:1208abebacb963321a585f635c28b513cc59ff0620aa011e0246e81c1bb9960f
++  __DATA_CONST.__objc_superrefs: 0x1f0 sha256:252fde98f32a056bc47068624dff526a8ed9a8fb92923b3d8a5456ac99251b87
++  __DATA_CONST.__objc_arraydata: 0x50 sha256:596214d6d3e6c8756344f574bcf0308dc8b962b7048dbc0ab6b0540d43bbc4c3
++  __DATA_CONST.__got: 0x4900 sha256:4dfb236fc3e196a4421278bd0491175eac74ebf3af2e1abf1436f40df86482a4
++  __AUTH_CONST.__const: 0x47c38 sha256:715daedd57c9a5b312c0072f22d83b1823a8721601f1645978b9406ed718b4f0
++  __AUTH_CONST.__cfstring: 0x534c0 sha256:fca5ea3cf8b8b02d1611a413d7e485acc27442eccd523752fa70a1eec47b35c7
++  __AUTH_CONST.__objc_const: 0x59c8 sha256:abe9d7bdd29bffbcbb3a3eb8887b0687ea9794632ea04a690959626c94a5abbd
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:2751be330014b0a395290724caab0d81615f66ea6f7b5b38e618ac867aa02d26
++  __AUTH_CONST.__lazy_load_got: 0x4d8 sha256:76fb0421bdc1eff5666a5b7854c6262eed660fa3ffbaa2d58528b54aa65a85a9
++  __AUTH_CONST.__objc_intobj: 0x78 sha256:4d07176f1a5ae414db3cc96d732a3d01a86c448fd612254680c48538d339badd
++  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:32a583ca31347fbc4ecfe11b6b11d1938e2479170c3412e3ffa3f942d62f9f4d
++  __AUTH_CONST.__objc_arrayobj: 0x48 sha256:2ec8fc0397f58879f56feb7f3775f9007f637c6b49190a7a5c8890ff1ac0233f
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:b8f37b39c5dcbced791b0783a55aff62f41fbd86d55e51056563152903d55ae0
++  __AUTH_CONST.__auth_got: 0x5d00 sha256:f425da7ef27d7153f0bf7320f395b12402104c38ecab25e3c763ff836e7fbd60
++  __AUTH.__objc_data: 0x1040 sha256:bbb2c5d6c24af1d228d4501c89e42a086f7151fb912988f8dffe51e1fdc216d7
++  __AUTH.__data: 0x940 sha256:dcfb0efc413648da22a0026dbdb256607ad6f6a6fc84c404888b66c54dd86398
++  __DATA.__objc_ivar: 0x3c0 sha256:a07363d9f6bbdecf10a4b978b981515a32f9ea8bcc5b4106ce3bb25361b56e16
++  __DATA.__data: 0x338c sha256:96d209d0aa32ad18e63ffba2d5dfcffeeda87502cc5357e0a9f625efe6bd644a
+   __DATA.__common: 0x32a8 sha256:0eb0b8dccddf18032f46e770d6d74e4bb16f372c1a5f343deac430cc48d9e99c
+-  __DATA.__bss: 0x5378 sha256:c5a16a4ee845d11bb9a5b4213542f7bb087fa89ea9531cf04cbdf0ea26d3a762
+-  __DATA_DIRTY.__objc_data: 0x550 sha256:28538a14d6e0bca1730f33e44c5f9d2d23ce6f6b6235f7e0f500ba456175cb02
+-  __DATA_DIRTY.__data: 0x518 sha256:bbd4ef47a21e727310f74704ac1baff51b7246e0d87ffb1af98db3c4a8e57692
++  __DATA.__bss: 0x5368 sha256:5745c7487344fdbf1bfa2351fa16ff1beb6edf39564e4ff1d2a73118d5617560
++  __DATA_DIRTY.__objc_data: 0x550 sha256:1665fd38f248f4ed38991ef066769f2a9fee38607160c392e537819d2633ad77
++  __DATA_DIRTY.__data: 0x520 sha256:9e23f86f4ff83a9292c039dcc9092a570a931e9823a00559b95fa343bf1a5554
+   __DATA_DIRTY.__bss: 0x1b78 sha256:732354a834022c95060a8363942fcd9122114d87944c5144c6650c0412eb3b05
+   __DATA_DIRTY.__common: 0x410 sha256:256fb9c4796b15a7ec4b0d5319e9e493ca4cffda658310420bdfd31e1c59da79
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /System/Library/Frameworks/CoreAudio.framework/CoreAudio
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+-  - /System/Library/Frameworks/CoreHaptics.framework/CoreHaptics
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+-  - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+   - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+-  - /System/Library/Frameworks/ImageIO.framework/ImageIO
+-  - /System/Library/Frameworks/MediaAccessibility.framework/MediaAccessibility
+-  - /System/Library/Frameworks/Metal.framework/Metal
+-  - /System/Library/Frameworks/MetalPerformanceShaders.framework/MetalPerformanceShaders
+   - /System/Library/Frameworks/Network.framework/Network
+-  - /System/Library/Frameworks/OpenGLES.framework/OpenGLES
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+   - /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
+-  - /System/Library/Frameworks/WirelessInsights.framework/WirelessInsights
+   - /System/Library/PrivateFrameworks/AggregateDictionary.framework/AggregateDictionary
+-  - /System/Library/PrivateFrameworks/AppleJPEG.framework/AppleJPEG
+   - /System/Library/PrivateFrameworks/AudioSession.framework/AudioSession
+   - /System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore
+   - /System/Library/PrivateFrameworks/CMCapture.framework/CMCapture
+   - /System/Library/PrivateFrameworks/CMCaptureCore.framework/CMCaptureCore
+-  - /System/Library/PrivateFrameworks/CMPhoto.framework/CMPhoto
+   - /System/Library/PrivateFrameworks/CoreAUC.framework/CoreAUC
+-  - /System/Library/PrivateFrameworks/CoreWiFi.framework/CoreWiFi
+   - /System/Library/PrivateFrameworks/CrashReporterSupport.framework/CrashReporterSupport
+   - /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+-  - /System/Library/PrivateFrameworks/IOMobileFramebuffer.framework/IOMobileFramebuffer
+   - /System/Library/PrivateFrameworks/IOSurfaceAccelerator.framework/IOSurfaceAccelerator
+-  - /System/Library/PrivateFrameworks/IdleTimerServices.framework/IdleTimerServices
+   - /System/Library/PrivateFrameworks/MediaExperience.framework/MediaExperience
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+-  - /usr/lib/libAudioStatistics.dylib
+-  - /usr/lib/libCTGreenTeaLogger.dylib
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DF459479-3975-39D1-B388-37987983ADEF
+-  Functions: 53221
+-  Symbols:   146950
+-  CStrings:  67942
++  UUID: 228CE916-C0A5-3A20-AFBC-14D4EAA8E1A4
++  Functions: 53312
++  Symbols:   147491
++  CStrings:  67939
+ 
+Symbols:
++ -[FigTranslationModelAvailabilityState lastListenerCreationTime_ns]
++ GCC_except_table135
++ GCC_except_table142
++ GCC_except_table152
++ GCC_except_table188
++ GCC_except_table194
++ GCC_except_table197
++ GCC_except_table198
++ GCC_except_table205
++ GCC_except_table216
++ GCC_except_table217
++ GCC_except_table253
++ GCC_except_table265
++ GCC_except_table273
++ GCC_except_table277
++ GCC_except_table300
++ GCC_except_table301
++ GCC_except_table303
++ GCC_except_table307
++ GCC_except_table310
++ GCC_except_table319
++ GCC_except_table329
++ GCC_except_table339
++ GCC_except_table340
++ GCC_except_table343
++ GCC_except_table367
++ GCC_except_table382
++ GCC_except_table419
++ _CAReportingClientRequestMessage$lazyAuthGOT_IA_ad_0
++ _CAReportingClientRequestMessage$lazyLoadStub
++ _CAReportingClientSendMessage$lazyAuthGOT_IA_0
++ _CAReportingClientSendMessage$lazyAuthGOT_IA_0$loadHelper_x8
++ _CAReportingClientSendMessage$lazyAuthGOT_IA_ad_0
++ _CAReportingClientSendMessage$lazyLoadStub
++ _CHHapticEngineOptionKeyLocality$lazyGOT
++ _CHHapticEngineOptionKeyLocality$lazyGOT$loadHelper_x8
++ _CHHapticLocalityDefault$lazyGOT
++ _CHHapticLocalityDefault$lazyGOT$loadHelper_x8
++ _CHHapticLocalityDefaultWithFullStrength$lazyGOT
++ _CHHapticLocalityDefaultWithFullStrength$lazyGOT$loadHelper_x8
++ _CHHapticLocalityFullGamut$lazyGOT
++ _CHHapticLocalityFullGamut$lazyGOT$loadHelper_x8
++ _CMPhotoJPEGPreload$lazyAuthGOT_IA_0
++ _CMPhotoJPEGPreload$lazyAuthGOT_IA_0$loadHelper_x8
++ _CMPhotoJPEGPreload$lazyAuthGOT_IA_ad_0
++ _CMPhotoJPEGPreload$lazyLoadStub
++ _CWFEventLinkQualityMetricKey$lazyGOT
++ _CWFEventLinkQualityMetricKey$lazyGOT$loadHelper_x8
++ _CreateBytePumpCreateOptions.cold.1
++ _CreateFormatReaderWithTimeout
++ _EnsureBytePump.cold.1
++ _EnsureBytePump.cold.2
++ _EnsurePlaylistCache
++ _FigAssetCacheInspectorStartServer.callbacks
++ _FigAssetDownloaderStartServer.callbacks
++ _FigAssetImageGeneratorServerStart.callbacks
++ _FigAssetServerStart.callbacks
++ _FigCPEProtectorServerStart.callbacks
++ _FigCPEServerStart.callbacks
++ _FigCaptionTranslatorCreate.cold.17
++ _FigControlCommandsStartServer.callbacks
++ _FigEndpointStreamAudioEngineStartServer.callbacks
++ _FigFormatReaderServerStart.callbacks
++ _FigFormatReaderServerStartLoopbackServerAndCopyXPCEndpoint.callbacks
++ _FigFormatReaderServerStartWithConnection
++ _FigFormatReaderServerStartWithConnection.cold.1
++ _FigFormatReaderServerStartWithConnection.cold.2
++ _FigFreeAndStrndup
++ _FigInMemoryDeserializerCopyCFData
++ _FigMutableCompositionServerStart.callbacks
++ _FigMutableMovieServerStart.callbacks
++ _FigNeroidStartServer.callbacks
++ _FigPlayerServerStart.callbacks
++ _FigRemakerServerStart.callbacks
++ _FigReportingSubmitPlayEndCAEvent
++ _FigReportingSubmitTranslationLanguageCAEvents
++ _FigReportingSubmitVariantEndedCAEvent
++ _FigSampleBufferConsumerStartServer.callbacks
++ _FigSampleBufferProviderStartServer.callbacks
++ _FigSampleGeneratorServerStart.callbacks
++ _FigShouldForceTranscription
++ _FigStreamingCacheDisableStreamDiskAccess
++ _FigStreamingCacheDisableStreamDiskAccess.cold.1
++ _FigStreamingCacheIsMediaPlaylistCached
++ _FigStreamingCacheIsMediaPlaylistCached.cold.1
++ _FigStreamingCacheIsMediaPlaylistCached.cold.2
++ _FigStreamingCacheIsMediaPlaylistCached.cold.3
++ _FigStreamingCacheIsMediaPlaylistCached.cold.4
++ _FigTelemetryColorPrimariesToInteger
++ _FigTelemetryTransferFunctionToInteger
++ _FigTelemetryYCbCrMatrixToInteger
++ _FigVideoCompositorServerStart.callbacks
++ _FigVirtualDisplaySessionServerStart.callbacks
++ _FigVisualContextServerStart.callbacks
++ _FigXPCRemoteClientCreateWithXPCService
++ _FigXPCServerStartWithClientXPCConnection
++ _IOMobileFramebufferCopyProperty$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferCopyProperty$lazyLoadStub
++ _IOMobileFramebufferCreateDisplayList$lazyAuthGOT_IA_0
++ _IOMobileFramebufferCreateDisplayList$lazyAuthGOT_IA_0$loadHelper_x8
++ _IOMobileFramebufferCreateDisplayList$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferCreateDisplayList$lazyLoadStub
++ _IOMobileFramebufferDisableHotPlugDetectNotifications$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferDisableHotPlugDetectNotifications$lazyLoadStub
++ _IOMobileFramebufferDisableVSyncNotifications$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferDisableVSyncNotifications$lazyLoadStub
++ _IOMobileFramebufferEnableHotPlugDetectNotifications$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferEnableHotPlugDetectNotifications$lazyLoadStub
++ _IOMobileFramebufferEnableVSyncNotifications$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferEnableVSyncNotifications$lazyLoadStub
++ _IOMobileFramebufferGetDigitalOutState$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferGetDigitalOutState$lazyLoadStub
++ _IOMobileFramebufferGetDisplaySize$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferGetDisplaySize$lazyLoadStub
++ _IOMobileFramebufferGetHotPlugRunLoopSource$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferGetHotPlugRunLoopSource$lazyLoadStub
++ _IOMobileFramebufferGetID$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferGetID$lazyLoadStub
++ _IOMobileFramebufferGetProtectionOptions$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferGetProtectionOptions$lazyLoadStub
++ _IOMobileFramebufferGetSecondaryDisplay$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferGetSecondaryDisplay$lazyLoadStub
++ _IOMobileFramebufferGetSupportedDigitalOutModes$lazyAuthGOT_IA_0
++ _IOMobileFramebufferGetSupportedDigitalOutModes$lazyAuthGOT_IA_0$loadHelper_x8
++ _IOMobileFramebufferGetSupportedDigitalOutModes$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferGetSupportedDigitalOutModes$lazyLoadStub
++ _IOMobileFramebufferGetVSyncRunLoopSource$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferGetVSyncRunLoopSource$lazyLoadStub
++ _IOMobileFramebufferInstallVirtualDisplays$lazyAuthGOT_IA_0
++ _IOMobileFramebufferInstallVirtualDisplays$lazyAuthGOT_IA_0$loadHelper_x8
++ _IOMobileFramebufferInstallVirtualDisplays$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferInstallVirtualDisplays$lazyLoadStub
++ _IOMobileFramebufferOpenByName$lazyAuthGOT_IA_0
++ _IOMobileFramebufferOpenByName$lazyAuthGOT_IA_0$loadHelper_x22
++ _IOMobileFramebufferOpenByName$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferOpenByName$lazyLoadStub
++ _IOMobileFramebufferSetDigitalOutMode$lazyAuthGOT_IA_0
++ _IOMobileFramebufferSetDigitalOutMode$lazyAuthGOT_IA_0$loadHelper_x8
++ _IOMobileFramebufferSetDigitalOutMode$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferSetDigitalOutMode$lazyLoadStub
++ _IOMobileFramebufferSetDisplayDevice$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferSetDisplayDevice$lazyLoadStub
++ _IOMobileFramebufferSwapBegin$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferSwapBegin$lazyLoadStub
++ _IOMobileFramebufferSwapEnd$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferSwapEnd$lazyLoadStub
++ _IOMobileFramebufferSwapSetBackgroundColor$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferSwapSetBackgroundColor$lazyLoadStub
++ _IOMobileFramebufferSwapSetLayer$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferSwapSetLayer$lazyLoadStub
++ _IOMobileFramebufferSwapWait$lazyAuthGOT_IA_ad_0
++ _IOMobileFramebufferSwapWait$lazyLoadStub
++ _MAAudibleMediaCopyPreferredCharacteristics$lazyAuthGOT_IA_0
++ _MAAudibleMediaCopyPreferredCharacteristics$lazyAuthGOT_IA_0$loadHelper_x8
++ _MAAudibleMediaCopyPreferredCharacteristics$lazyAuthGOT_IA_ad_0
++ _MAAudibleMediaCopyPreferredCharacteristics$lazyLoadStub
++ _MACaptionAppearanceCopyBackgroundColor$lazyAuthGOT_IA_0
++ _MACaptionAppearanceCopyBackgroundColor$lazyAuthGOT_IA_0$loadHelper_x2$for$_FigStringConformerCreateResolvedBackgroundARGBColorArrayUsingMAXColorAndOpacity+0
++ _MACaptionAppearanceCopyBackgroundColor$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceCopyBackgroundColor$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceCopyBackgroundColor$lazyLoadStub
++ _MACaptionAppearanceCopyFontDescriptorForLanguage$lazyAuthGOT_IA_0
++ _MACaptionAppearanceCopyFontDescriptorForLanguage$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceCopyFontDescriptorForLanguage$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceCopyFontDescriptorForLanguage$lazyLoadStub
++ _MACaptionAppearanceCopyFontDescriptorForStyle$lazyAuthGOT_IA_0
++ _MACaptionAppearanceCopyFontDescriptorForStyle$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceCopyFontDescriptorForStyle$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceCopyFontDescriptorForStyle$lazyLoadStub
++ _MACaptionAppearanceCopyForegroundColor$lazyAuthGOT_IA_0
++ _MACaptionAppearanceCopyForegroundColor$lazyAuthGOT_IA_0$loadHelper_x2$for$_FigStringConformerCreateResolvedForegroundARGBColorArrayUsingMAXColorAndOpacity+0
++ _MACaptionAppearanceCopyForegroundColor$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceCopyForegroundColor$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceCopyForegroundColor$lazyLoadStub
++ _MACaptionAppearanceCopyPreferredCaptioningMediaCharacteristics$lazyAuthGOT_IA_0
++ _MACaptionAppearanceCopyPreferredCaptioningMediaCharacteristics$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceCopyPreferredCaptioningMediaCharacteristics$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceCopyPreferredCaptioningMediaCharacteristics$lazyLoadStub
++ _MACaptionAppearanceCopySelectedLanguages$lazyAuthGOT_IA_0
++ _MACaptionAppearanceCopySelectedLanguages$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceCopySelectedLanguages$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceCopySelectedLanguages$lazyLoadStub
++ _MACaptionAppearanceCopyStrokeColor$lazyAuthGOT_IA_0
++ _MACaptionAppearanceCopyStrokeColor$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceCopyStrokeColor$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceCopyStrokeColor$lazyLoadStub
++ _MACaptionAppearanceCopyWindowColor$lazyAuthGOT_IA_0
++ _MACaptionAppearanceCopyWindowColor$lazyAuthGOT_IA_0$loadHelper_x2$for$_FigStringConformerCreateResolvedWindowARGBColorArrayUsingMAXColorAndOpacity+0
++ _MACaptionAppearanceCopyWindowColor$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceCopyWindowColor$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceCopyWindowColor$lazyLoadStub
++ _MACaptionAppearanceExecuteBlockForProfileID$lazyAuthGOT_IA_0
++ _MACaptionAppearanceExecuteBlockForProfileID$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceExecuteBlockForProfileID$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceExecuteBlockForProfileID$lazyLoadStub
++ _MACaptionAppearanceGetBackgroundOpacity$lazyAuthGOT_IA_0
++ _MACaptionAppearanceGetBackgroundOpacity$lazyAuthGOT_IA_0$loadHelper_x3$for$_FigStringConformerCreateResolvedBackgroundARGBColorArrayUsingMAXColorAndOpacity+8
++ _MACaptionAppearanceGetBackgroundOpacity$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceGetBackgroundOpacity$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceGetBackgroundOpacity$lazyLoadStub
++ _MACaptionAppearanceGetDisplayType$lazyAuthGOT_IA_0
++ _MACaptionAppearanceGetDisplayType$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceGetDisplayType$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceGetDisplayType$lazyLoadStub
++ _MACaptionAppearanceGetForegroundOpacity$lazyAuthGOT_IA_0
++ _MACaptionAppearanceGetForegroundOpacity$lazyAuthGOT_IA_0$loadHelper_x3$for$_FigStringConformerCreateResolvedForegroundARGBColorArrayUsingMAXColorAndOpacity+8
++ _MACaptionAppearanceGetForegroundOpacity$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceGetForegroundOpacity$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceGetForegroundOpacity$lazyLoadStub
++ _MACaptionAppearanceGetRelativeCharacterSize$lazyAuthGOT_IA_0
++ _MACaptionAppearanceGetRelativeCharacterSize$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceGetRelativeCharacterSize$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceGetRelativeCharacterSize$lazyLoadStub
++ _MACaptionAppearanceGetRelativeCharacterSizeForLanguage$lazyAuthGOT_IA_0
++ _MACaptionAppearanceGetRelativeCharacterSizeForLanguage$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceGetRelativeCharacterSizeForLanguage$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceGetRelativeCharacterSizeForLanguage$lazyLoadStub
++ _MACaptionAppearanceGetStrokeWidth$lazyAuthGOT_IA_0
++ _MACaptionAppearanceGetStrokeWidth$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceGetStrokeWidth$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceGetStrokeWidth$lazyLoadStub
++ _MACaptionAppearanceGetStrokeWidthForProfileID$lazyAuthGOT_IA_0
++ _MACaptionAppearanceGetStrokeWidthForProfileID$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceGetStrokeWidthForProfileID$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceGetStrokeWidthForProfileID$lazyLoadStub
++ _MACaptionAppearanceGetTextEdgeStyle$lazyAuthGOT_IA_0
++ _MACaptionAppearanceGetTextEdgeStyle$lazyAuthGOT_IA_0$loadHelper_x23
++ _MACaptionAppearanceGetTextEdgeStyle$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceGetTextEdgeStyle$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceGetTextEdgeStyle$lazyLoadStub
++ _MACaptionAppearanceGetWindowOpacity$lazyAuthGOT_IA_0
++ _MACaptionAppearanceGetWindowOpacity$lazyAuthGOT_IA_0$loadHelper_x3$for$_FigStringConformerCreateResolvedWindowARGBColorArrayUsingMAXColorAndOpacity+8
++ _MACaptionAppearanceGetWindowOpacity$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceGetWindowOpacity$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceGetWindowOpacity$lazyLoadStub
++ _MACaptionAppearanceGetWindowRoundedCornerRadius$lazyAuthGOT_IA_0
++ _MACaptionAppearanceGetWindowRoundedCornerRadius$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearanceGetWindowRoundedCornerRadius$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearanceGetWindowRoundedCornerRadius$lazyLoadStub
++ _MACaptionAppearancePrefCopyActiveProfileID$lazyAuthGOT_IA_0
++ _MACaptionAppearancePrefCopyActiveProfileID$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearancePrefCopyActiveProfileID$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearancePrefCopyActiveProfileID$lazyLoadStub
++ _MACaptionAppearancePrefCopyDisplayTypeEnumForBundleID$lazyAuthGOT_IA_0
++ _MACaptionAppearancePrefCopyDisplayTypeEnumForBundleID$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearancePrefCopyDisplayTypeEnumForBundleID$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearancePrefCopyDisplayTypeEnumForBundleID$lazyLoadStub
++ _MACaptionAppearancePrefCopyPreferAccessibleCaptions$lazyAuthGOT_IA_0
++ _MACaptionAppearancePrefCopyPreferAccessibleCaptions$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearancePrefCopyPreferAccessibleCaptions$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearancePrefCopyPreferAccessibleCaptions$lazyLoadStub
++ _MACaptionAppearancePrefCopyProfileName$lazyAuthGOT_IA_0
++ _MACaptionAppearancePrefCopyProfileName$lazyAuthGOT_IA_0$loadHelper_x8
++ _MACaptionAppearancePrefCopyProfileName$lazyAuthGOT_IA_ad_0
++ _MACaptionAppearancePrefCopyProfileName$lazyLoadStub
++ _MTAudioProcessingTapServerStart.callbacks
++ _MovieInformationCopyConstituentFileURLs
++ _MovieInformationCopyConstituentFileURLs.cold.1
++ _MovieInformationCopyConstituentFileURLs.cold.2
++ _MovieInformationCopyConstituentFileURLs.cold.3
++ _OBJC_CLASS_$_CHHapticEngine$lazyGOT
++ _OBJC_CLASS_$_CHHapticEngine$lazyGOT$loadHelper_x24
++ _OBJC_CLASS_$_CHHapticPattern$lazyGOT
++ _OBJC_CLASS_$_CHHapticPattern$lazyGOT$loadHelper_x20
++ _OBJC_CLASS_$_CTBundle$lazyGOT
++ _OBJC_CLASS_$_CTBundle$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_CTXPCServiceSubscriptionContext$lazyGOT
++ _OBJC_CLASS_$_CTXPCServiceSubscriptionContext$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_CWFInterface$lazyGOT
++ _OBJC_CLASS_$_CWFInterface$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_CoreTelephonyClient$lazyGOT
++ _OBJC_CLASS_$_CoreTelephonyClient$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_EAGLContext$lazyGOT
++ _OBJC_CLASS_$_EAGLContext$lazyGOT$loadHelper_x21
++ _OBJC_CLASS_$_EAGLContext$lazyGOT$loadHelper_x24
++ _OBJC_CLASS_$_EAGLContext$lazyGOT$loadHelper_x25
++ _OBJC_CLASS_$_EAGLContext$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$_ITIdleTimerState$lazyGOT
++ _OBJC_CLASS_$_ITIdleTimerState$lazyGOT$loadHelper_x21
++ _OBJC_CLASS_$_NSRegularExpression
++ _OBJC_CLASS_$_WISServicePredictionProvider$lazyGOT
++ _OBJC_CLASS_$_WISServicePredictionProvider$lazyGOT$loadHelper_x8
++ _OBJC_CLASS_$__LTTextInput$lazyGOT$loadHelper_x20
++ _OBJC_IVAR_$_FigTranslationModelAvailabilityState._lastListenerCreationTime_ns
++ _URLAssetFormatReaderCreationTimeout
++ __MergedGlobals.285
++ __MergedGlobals.753
++ ___FigPlayerStreamCreateWithOptions_block_invoke.57
++ ___block_descriptor_tmp.154
++ ___block_descriptor_tmp.161
++ ___block_descriptor_tmp.201
++ ___block_descriptor_tmp.225
++ ___block_descriptor_tmp.239
++ ___block_descriptor_tmp.253
++ ___block_descriptor_tmp.254
++ ___block_descriptor_tmp.259
++ ___block_descriptor_tmp.262
++ ___block_descriptor_tmp.278
++ ___block_descriptor_tmp.279
++ ___block_descriptor_tmp.288
++ ___block_descriptor_tmp.289
++ ___block_descriptor_tmp.290
++ ___block_descriptor_tmp.336
++ ___block_descriptor_tmp.340
++ ___block_descriptor_tmp.348
++ ___block_descriptor_tmp.355
++ ___block_descriptor_tmp.359
++ ___block_descriptor_tmp.387
++ ___block_descriptor_tmp.398
++ ___block_descriptor_tmp.442
++ ___block_descriptor_tmp.449
++ ___block_descriptor_tmp.526
++ ___block_descriptor_tmp.71
++ ___block_descriptor_tmp.84
++ ___block_literal_global.126
++ ___block_literal_global.144
++ ___block_literal_global.153
++ ___block_literal_global.202
++ ___block_literal_global.210
++ ___block_literal_global.213
++ ___block_literal_global.236
++ ___block_literal_global.246
++ ___block_literal_global.258
++ ___block_literal_global.263
++ ___block_literal_global.264
++ ___block_literal_global.267
++ ___block_literal_global.281
++ ___block_literal_global.338
++ ___block_literal_global.342
++ ___block_literal_global.357
++ ___block_literal_global.361
++ ___block_literal_global.389
++ ___block_literal_global.390
++ ___block_literal_global.400
++ ___block_literal_global.414
++ ___block_literal_global.417
++ ___block_literal_global.428
++ ___block_literal_global.444
++ ___block_literal_global.451
++ ___block_literal_global.528
++ ___block_literal_global.537
++ ___block_literal_global.540
++ ___block_literal_global.547
++ ___block_literal_global.66
++ ___block_literal_global.723
++ ___block_literal_global.726
++ ___block_literal_global.728
++ ___block_literal_global.73
++ ___block_literal_global.808
++ ___block_literal_global.811
++ ___block_literal_global.814
++ ___block_literal_global.86
++ ___dworch_downloadMetadata_stageComplete_block_invoke.123
++ ___fbapspManager_PostInspectSampleBuffer_block_invoke.252
++ ___fbapspManager_flushFromTime_block_invoke.274
++ ___fbapspManager_flushFromTime_block_invoke.274.cold.1
++ ___fbapspManager_flushFromTime_block_invoke.274.cold.2
++ ___fbapspManager_flushFromTime_block_invoke.276
++ ___fpfs_BytePumpFn_block_invoke.415
++ ___fpfs_BytePumpFn_block_invoke.426
++ ___fpfs_CreatePlaybackItemFromAsset_block_invoke.809
++ ___fpfs_CreatePlaybackItemFromAsset_block_invoke.812
++ ___fpfs_Finalize_block_invoke.729
++ ___fpfs_InvalidateGuts_block_invoke.724
++ ___fpfs_SetRateWithOptionsGuts_block_invoke.237
++ ___fpfsi_DeferredHandleTimebaseEffectiveRateChanged_block_invoke.226
++ ___fpfsi_Finalize_block_invoke.545
++ ___fpfsi_Invalidate_block_invoke.538
++ ___fpfsi_MakeReadyForInspection_block_invoke.265
++ ___fpic_EnsureNextEventWillBuffer_block_invoke.302
++ ___fpic_EnsureNextEventWillBuffer_block_invoke.302.cold.1
++ ___fpic_HTTPReadCallback_block_invoke.290
++ ___fpic_NotifyServiceCurrentEvent_block_invoke.338
++ ___fpic_PerformPrimaryItemJoin_block_invoke
++ ___fpic_WrappedPlayerDidChange_block_invoke_2
++ ___fpic_customURLReadCallback_block_invoke.297
++ ___fpic_mediaAccessibilityChanged_block_invoke.cold.1
++ ___fpic_mediaAccessibilityChanged_block_invoke.cold.2
++ ___pcmToCaptionRP_resetAsync_block_invoke.140
++ ___remoteFormatReaderClient_setOrCheckClientPrivateServerOS_block_invoke
++ ___segPumpCreateMediaURLRequest_block_invoke.339
++ ___segPumpHandleCustomURLResponse_block_invoke.397
++ ___segPumpMediaFileReadCallback_block_invoke.354
++ ___segPumpMediaFileReadCallback_block_invoke.358
++ ___segPumpSendMediaCallback_block_invoke.448
++ __block_invoke.serverCallbacks
++ _ckCreateStringWithBalancedLineBreakIfNeeded
++ _ct_green_tea_logger_create$lazyAuthGOT_IA_ad_0
++ _ct_green_tea_logger_create$lazyLoadStub
++ _dqs_StartServer.sFigDataQueueServerCallbacks
++ _dworch_downloadMedia_checkIfStageComplete.cold.2
++ _dworch_downloadMetadata_gotAccessToDestinationURLCallback.cold.1
++ _dworch_downloadMetadata_gotAccessToDestinationURLCallback.cold.2
++ _dworch_downloadMetadata_gotAccessToDestinationURLCallback.cold.3
++ _dworch_persistMetadata_gotAccessToDestinationURLCallback.cold.2
++ _dworch_persistMetadata_gotAccessToDestinationURLCallback.cold.3
++ _dworch_persistMetadata_gotAccessToDestinationURLCallback.cold.4
++ _dworch_persistMetadata_gotAccessToDestinationURLCallback.cold.5
++ _dworch_selectAlternates_gotAccessToDestinationURLCallback.cold.1
++ _dworch_selectAlternates_gotAccessToDestinationURLCallback.cold.2
++ _dworch_selectAlternates_gotAccessToDestinationURLCallback.cold.3
++ _fanoutconsumer_evictAudioBuffersAfterL1TimeAndMaybeTransitionID
++ _fbapop_processOverlapRange.cold.2
++ _fbapspManager_copyFlushRangeEndSbufMarkerCallback
++ _figPlayerInterstitialEvent_hash
++ _figXPC_ServerTimeout_Asset
++ _figXPC_ServerTimeout_AssetCacheInspector
++ _figXPC_ServerTimeout_AssetDownloader
++ _figXPC_ServerTimeout_AssetImageGenerator
++ _figXPC_ServerTimeout_BufferedAirPlayGlobalRoutingRegistry
++ _figXPC_ServerTimeout_ByteStream
++ _figXPC_ServerTimeout_CPE
++ _figXPC_ServerTimeout_CPEProtector
++ _figXPC_ServerTimeout_CaptionGroupConverterFromSampleBuffer
++ _figXPC_ServerTimeout_ContentKeySession
++ _figXPC_ServerTimeout_ControlCommands
++ _figXPC_ServerTimeout_DataQueue
++ _figXPC_ServerTimeout_FairplayPSSHAtomParser
++ _figXPC_ServerTimeout_FormatReader
++ _figXPC_ServerTimeout_JSONParser
++ _figXPC_ServerTimeout_MTAudioProcessingTap
++ _figXPC_ServerTimeout_Manifold
++ _figXPC_ServerTimeout_MediaparserdUtilities
++ _figXPC_ServerTimeout_MutableComposition
++ _figXPC_ServerTimeout_MutableMovie
++ _figXPC_ServerTimeout_Neroid
++ _figXPC_ServerTimeout_PlaylistFileParser
++ _figXPC_ServerTimeout_Remaker
++ _figXPC_ServerTimeout_SampleBufferConsumer
++ _figXPC_ServerTimeout_SampleBufferProvider
++ _figXPC_ServerTimeout_SampleBufferRenderSynchronizer
++ _figXPC_ServerTimeout_SampleGenerator
++ _figXPC_ServerTimeout_SessionDataPlistParser
++ _figXPC_ServerTimeout_SteeringParser
++ _figXPC_ServerTimeout_StreamPlaylistParser
++ _figXPC_ServerTimeout_VideoCompositor
++ _figXPC_ServerTimeout_VideoQueue
++ _figXPC_ServerTimeout_VideoReceiver
++ _figXPC_ServerTimeout_VideoTarget
++ _figXPC_ServerTimeout_VirtualDisplaySession
++ _figXPC_ServerTimeout_VirtualFramebuffer
++ _figXPC_ServerTimeout_VisualContext
++ _figXPC_ServerTimeout_XMLService
++ _formatReaderServer_CreateOptions
++ _fpfsi_RefreshTracksFromCacheOrPump
++ _fpic_EventAtMomentInList
++ _fpic_EventAtMomentInList.cold.1
++ _fpic_EventStraddlesPrimaryMoment
++ _fpic_IsItemBufferedToMoment
++ _fpic_SwapToInterstitialPlayerLayerOnJoinIfIndicated
++ _fvfbserv_startServer.callbacks
++ _gFigCaptionGroupConverterServerTrace_block_invoke.serverCallbacks
++ _gFigContentKeyBossServerTrace_block_invoke.serverCallbacks
++ _gFigFairplayPSSHAtomParserServerTrace_block_invoke.serverCallbacks
++ _gFigJSONParserServerTrace_block_invoke.serverCallbacks
++ _gFigManifoldServerTrace_block_invoke.serverCallbacks
++ _gFigManifoldServerTrace_block_invoke_2.class
++ _gFigMediaparserdUtilitiesServerTrace_block_invoke.serverCallbacks
++ _gFigSteeringParserServerTrace_block_invoke.serverCallbacks
++ _gFigStreamPlaylistParserServerTrace_block_invoke.serverCallbacks
++ _gFigStreamPlaylistParserServerTrace_block_invoke_2.class
++ _gFigXMLServiceServerTrace_block_invoke.serverCallbacks
++ _gSessionDataParserServerTrace_block_invoke.serverCallbacks
++ _getCTGreenTeaOsLogHandle$lazyAuthGOT_IA_ad_0
++ _getCTGreenTeaOsLogHandle$lazyLoadStub
++ _glActiveTexture$lazyAuthGOT_IA_ad_0
++ _glActiveTexture$lazyLoadStub
++ _glAttachShader$lazyAuthGOT_IA_ad_0
++ _glAttachShader$lazyLoadStub
++ _glBindFramebuffer$lazyAuthGOT_IA_ad_0
++ _glBindFramebuffer$lazyLoadStub
++ _glBindTexture$lazyAuthGOT_IA_ad_0
++ _glBindTexture$lazyLoadStub
++ _glBlendColor$lazyAuthGOT_IA_ad_0
++ _glBlendColor$lazyLoadStub
++ _glBlendEquation$lazyAuthGOT_IA_ad_0
++ _glBlendEquation$lazyLoadStub
++ _glBlendFunc$lazyAuthGOT_IA_ad_0
++ _glBlendFunc$lazyLoadStub
++ _glBlendFuncSeparate$lazyAuthGOT_IA_ad_0
++ _glBlendFuncSeparate$lazyLoadStub
++ _glCheckFramebufferStatus$lazyAuthGOT_IA_ad_0
++ _glCheckFramebufferStatus$lazyLoadStub
++ _glClear$lazyAuthGOT_IA_ad_0
++ _glClear$lazyLoadStub
++ _glClearColor$lazyAuthGOT_IA_ad_0
++ _glClearColor$lazyLoadStub
++ _glCompileShader$lazyAuthGOT_IA_ad_0
++ _glCompileShader$lazyLoadStub
++ _glCreateProgram$lazyAuthGOT_IA_ad_0
++ _glCreateProgram$lazyLoadStub
++ _glCreateShader$lazyAuthGOT_IA_ad_0
++ _glCreateShader$lazyLoadStub
++ _glDeleteFramebuffers$lazyAuthGOT_IA_ad_0
++ _glDeleteFramebuffers$lazyLoadStub
++ _glDeleteProgram$lazyAuthGOT_IA_ad_0
++ _glDeleteProgram$lazyLoadStub
++ _glDeleteRenderbuffers$lazyAuthGOT_IA_ad_0
++ _glDeleteRenderbuffers$lazyLoadStub
++ _glDeleteShader$lazyAuthGOT_IA_ad_0
++ _glDeleteShader$lazyLoadStub
++ _glDeleteTextures$lazyAuthGOT_IA_ad_0
++ _glDeleteTextures$lazyLoadStub
++ _glDisable$lazyAuthGOT_IA_ad_0
++ _glDisable$lazyLoadStub
++ _glDrawArrays$lazyAuthGOT_IA_ad_0
++ _glDrawArrays$lazyLoadStub
++ _glEnable$lazyAuthGOT_IA_ad_0
++ _glEnable$lazyLoadStub
++ _glEnableVertexAttribArray$lazyAuthGOT_IA_ad_0
++ _glEnableVertexAttribArray$lazyLoadStub
++ _glFinish$lazyAuthGOT_IA_ad_0
++ _glFinish$lazyLoadStub
++ _glFlush$lazyAuthGOT_IA_ad_0
++ _glFlush$lazyLoadStub
++ _glFramebufferTexture2D$lazyAuthGOT_IA_ad_0
++ _glFramebufferTexture2D$lazyLoadStub
++ _glGenFramebuffers$lazyAuthGOT_IA_ad_0
++ _glGenFramebuffers$lazyLoadStub
++ _glGenRenderbuffers$lazyAuthGOT_IA_ad_0
++ _glGenRenderbuffers$lazyLoadStub
++ _glGenTextures$lazyAuthGOT_IA_ad_0
++ _glGenTextures$lazyLoadStub
++ _glGetAttribLocation$lazyAuthGOT_IA_ad_0
++ _glGetAttribLocation$lazyLoadStub
++ _glGetProgramiv$lazyAuthGOT_IA_ad_0
++ _glGetProgramiv$lazyLoadStub
++ _glGetShaderiv$lazyAuthGOT_IA_ad_0
++ _glGetShaderiv$lazyLoadStub
++ _glGetString$lazyAuthGOT_IA_ad_0
++ _glGetString$lazyLoadStub
++ _glGetUniformLocation$lazyAuthGOT_IA_ad_0
++ _glGetUniformLocation$lazyLoadStub
++ _glLinkProgram$lazyAuthGOT_IA_ad_0
++ _glLinkProgram$lazyLoadStub
++ _glScissor$lazyAuthGOT_IA_ad_0
++ _glScissor$lazyLoadStub
++ _glShaderSource$lazyAuthGOT_IA_ad_0
++ _glShaderSource$lazyLoadStub
++ _glTexImage2D$lazyAuthGOT_IA_ad_0
++ _glTexImage2D$lazyLoadStub
++ _glTexParameteri$lazyAuthGOT_IA_ad_0
++ _glTexParameteri$lazyLoadStub
++ _glUniform1f$lazyAuthGOT_IA_ad_0
++ _glUniform1f$lazyLoadStub
++ _glUniform1i$lazyAuthGOT_IA_ad_0
++ _glUniform1i$lazyLoadStub
++ _glUniform2f$lazyAuthGOT_IA_ad_0
++ _glUniform2f$lazyLoadStub
++ _glUniformMatrix3fv$lazyAuthGOT_IA_ad_0
++ _glUniformMatrix3fv$lazyLoadStub
++ _glUniformMatrix4fv$lazyAuthGOT_IA_ad_0
++ _glUniformMatrix4fv$lazyLoadStub
++ _glUseProgram$lazyAuthGOT_IA_ad_0
++ _glUseProgram$lazyLoadStub
++ _glVertexAttribPointer$lazyAuthGOT_IA_ad_0
++ _glVertexAttribPointer$lazyLoadStub
++ _glViewport$lazyAuthGOT_IA_ad_0
++ _glViewport$lazyLoadStub
++ _itemairplay_publishPlaybackModeSwitchEvent
++ _itemairplay_publishPlaybackModeSwitchEvent.cold.1
++ _itemfig_DeferredBufferFull.cold.1
++ _itemfig_PostNotificationAndReleaseItem
++ _kCMTextMarkupAttribute_GeneratedCaptionType
++ _kCMTextMarkupGeneratedCaptionIndicator_SFSymbolCodePointKey
++ _kCMTextMarkupGeneratedCaptionIndicator_SFSymbolNameKey
++ _kCMTextMarkupGeneratedCaptionType_Transcribed
++ _kCMTextMarkupGeneratedCaptionType_Translated
++ _kCTRegistrationStatusNotRegistered$lazyGOT
++ _kCTRegistrationStatusNotRegistered$lazyGOT$loadHelper_x8
++ _kCTRegistrationStatusSearching$lazyGOT
++ _kCTRegistrationStatusSearching$lazyGOT$loadHelper_x8
++ _kEAGLContextPropertyAccelerated$lazyGOT
++ _kEAGLContextPropertyAccelerated$lazyGOT$loadHelper_x8
++ _kFVDSourceNotificationKey_Error
++ _kFigAssetReaderCreationOption_UseCloudMediaServices
++ _kFigBufferedAirPlayGlobalRoutingRegistryXPCMsgParam_RemoteClientID_block_invoke.callbacks
++ _kFigBufferedAirPlaySubPipeManagerCreateOption_SourceToken
++ _kFigBufferedAirPlaySubPipeManagerParameter_SourceToken
++ _kFigByteStreamXPCMsgParam_OtherProcessPID_block_invoke.callbacks
++ _kFigByteStreamXPCMsgParam_OtherProcessPID_block_invoke_2.sFigServedByteStreamStateClass
++ _kFigCAStatsReportingEventName_FilePlayEnd
++ _kFigCAStatsReportingEventName_HLSPlayEnd
++ _kFigCKSXPCMsgParam_ExternalProtectionStatusForCryptor_block_invoke.serverCallbacks
++ _kFigCaptionGeneratedCaptionType_Transcribed
++ _kFigCaptionGeneratedCaptionType_Translated
++ _kFigCaptionProperty_GeneratedCaptionType
++ _kFigFormatReaderInstantiationOption_UseCloudMediaParserService
++ _kFigTrialFactor_LiveActivityCooldown100PercentMS
++ _kFigVideoQueueXPCMsgParam_VideoTargetIDArray_block_invoke.callbacks
++ _kFigVideoTargetXPCMsgParam_LoggingIdentifier_block_invoke.callbacks
++ _kMAAudibleMediaSettingsChangedNotification$lazyGOT
++ _kMAAudibleMediaSettingsChangedNotification$lazyGOT$loadHelper_x19
++ _kMACaptionAppearanceSettingsChangedNotification$lazyGOT
++ _kMACaptionAppearanceSettingsChangedNotification$lazyGOT$loadHelper_x19
++ _kVTCompressionPropertyKey_EnableResumableEncoding
++ _kVTDecompressionSessionOption_UseCloudVideocodecService
++ _kVideoMediaConverter2Option_ClientPrivateServerOS
++ _lazyLoadFlag$CMPhoto
++ _lazyLoadFlag$CoreHaptics
++ _lazyLoadFlag$CoreTelephony
++ _lazyLoadFlag$CoreWiFi
++ _lazyLoadFlag$IOMobileFramebuffer
++ _lazyLoadFlag$IdleTimerServices
++ _lazyLoadFlag$MediaAccessibility
++ _lazyLoadFlag$OpenGLES
++ _lazyLoadFlag$WirelessInsights
++ _lazyLoadFlag$libAudioStatistics.dylib
++ _lazyLoadFlag$libCTGreenTeaLogger.dylib
++ _noop
++ _objc_msgSend$hasPrefix:
++ _objc_msgSend$lastListenerCreationTime_ns
++ _objc_msgSend$rangeOfString:
++ _objc_msgSend$regularExpressionWithPattern:options:error:
++ _objc_msgSend$screenCaptureController:didFailWithStatus:error:
++ _objc_msgSend$stringByReplacingMatchesInString:options:range:withTemplate:
++ _pcmToCaptionRP_sendOneCaptionDownstream
++ _pcmToCaptionRP_sendOneCaptionDownstream.cold.1
++ _sapl_findNextAlternate.cold.1
++ _sapl_findNextAlternate.cold.2
++ _sbcbq_evictAudioBuffersAfterL1TimeAndMaybeTransitionID
++ _segPumpAlternateForStream
++ _segPumpGetCurrentEstimatedMediaBitrate
+- -[FigPCMToCaptionRenderPipelineDelegate speechTranscriberBridgeDidReceiveResult:range:].cold.1
+- -[FigPCMToCaptionRenderPipelineDelegate speechTranscriberBridgeDidReceiveResult:range:].cold.2
+- GCC_except_table134
+- GCC_except_table143
+- GCC_except_table153
+- GCC_except_table187
+- GCC_except_table193
+- GCC_except_table195
+- GCC_except_table196
+- GCC_except_table203
+- GCC_except_table214
+- GCC_except_table215
+- GCC_except_table252
+- GCC_except_table264
+- GCC_except_table269
+- GCC_except_table274
+- GCC_except_table298
+- GCC_except_table299
+- GCC_except_table302
+- GCC_except_table305
+- GCC_except_table308
+- GCC_except_table311
+- GCC_except_table318
+- GCC_except_table328
+- GCC_except_table33
+- GCC_except_table336
+- GCC_except_table337
+- GCC_except_table341
+- GCC_except_table366
+- GCC_except_table381
+- GCC_except_table417
+- _EnsureStreamingCache
+- _FigStreamingCacheClearExclusiveWriter
+- _FigStreamingCacheSetExclusiveWriter
+- _FreeStreamingCacheTransferRec
+- _ITIdleTimerStateClass
+- _InternalURLAssetEnsurePersistentStreamingCacheCreated
+- _InternalURLAssetTransferPersistentStreamingCacheAsync
+- _InternalURLAssetTransferPersistentStreamingCacheAsync.cold.1
+- _OBJC_CLASS_$__LTTextInput$lazyGOT$loadHelper_x19
+- _OUTLINED_FUNCTION_2023
+- _OUTLINED_FUNCTION_2024
+- _OUTLINED_FUNCTION_2025
+- _OUTLINED_FUNCTION_2026
+- _OUTLINED_FUNCTION_2027
+- _OUTLINED_FUNCTION_2028
+- _OUTLINED_FUNCTION_2029
+- _OUTLINED_FUNCTION_2030
+- _PerformCompleteTransferStreamingCache
+- _PerformTransferStreamingCacheAsync
+- _PerformTransferStreamingCacheAsync.cold.1
+- _URLAssetTransferPersistentStreamingCacheAsync
+- __MergedGlobals.277
+- __MergedGlobals.813
+- ___FigPlayerStreamCreateWithOptions_block_invoke.63
+- ___block_descriptor_tmp.127
+- ___block_descriptor_tmp.160
+- ___block_descriptor_tmp.221
+- ___block_descriptor_tmp.232
+- ___block_descriptor_tmp.246
+- ___block_descriptor_tmp.252
+- ___block_descriptor_tmp.256
+- ___block_descriptor_tmp.263
+- ___block_descriptor_tmp.267
+- ___block_descriptor_tmp.274
+- ___block_descriptor_tmp.281
+- ___block_descriptor_tmp.330
+- ___block_descriptor_tmp.334
+- ___block_descriptor_tmp.349
+- ___block_descriptor_tmp.353
+- ___block_descriptor_tmp.381
+- ___block_descriptor_tmp.392
+- ___block_descriptor_tmp.443
+- ___block_descriptor_tmp.520
+- ___block_literal_global.129
+- ___block_literal_global.130
+- ___block_literal_global.134
+- ___block_literal_global.154
+- ___block_literal_global.162
+- ___block_literal_global.186
+- ___block_literal_global.204
+- ___block_literal_global.211
+- ___block_literal_global.216
+- ___block_literal_global.235
+- ___block_literal_global.237
+- ___block_literal_global.257
+- ___block_literal_global.261
+- ___block_literal_global.266
+- ___block_literal_global.274
+- ___block_literal_global.276
+- ___block_literal_global.332
+- ___block_literal_global.336
+- ___block_literal_global.341
+- ___block_literal_global.344
+- ___block_literal_global.351
+- ___block_literal_global.355
+- ___block_literal_global.383
+- ___block_literal_global.394
+- ___block_literal_global.418
+- ___block_literal_global.421
+- ___block_literal_global.432
+- ___block_literal_global.438
+- ___block_literal_global.522
+- ___block_literal_global.541
+- ___block_literal_global.548
+- ___block_literal_global.551
+- ___block_literal_global.727
+- ___block_literal_global.730
+- ___block_literal_global.732
+- ___block_literal_global.735
+- ___block_literal_global.812
+- ___block_literal_global.815
+- ___block_literal_global.818
+- ___block_literal_global.84
+- ___copy_constructor_8_8_t0w8_pa0_45604_8_pa0_22587_16_pa0_57319_24_pa0_49646_32_pa0_60888_40_pa0_27920_48
+- ___copy_helper_block_8_32n85_8_8_t0w8_pa0_45604_8_pa0_22587_16_pa0_57319_24_pa0_49646_32_pa0_60888_40_pa0_27920_48
+- ___destroy_helper_block_8_32
+- ___dworch_downloadMedia_validateDownloadIsPlayableOfflineOnQueue_block_invoke
+- ___dworch_downloadMetadata_stageComplete_block_invoke.130
+- ___fbapop_requestForRetransmissionToRenderPipeline_block_invoke
+- ___fbapspManager_PostInspectSampleBuffer_block_invoke.249
+- ___fbapspManager_flushFromTime_block_invoke.270
+- ___fbapspManager_flushFromTime_block_invoke.271
+- ___fbapspManager_flushFromTime_block_invoke.271.cold.1
+- ___fbapspManager_flushFromTime_block_invoke.271.cold.2
+- ___fpfs_BytePumpFn_block_invoke.419
+- ___fpfs_BytePumpFn_block_invoke.430
+- ___fpfs_CreatePlaybackItemFromAsset_block_invoke.813
+- ___fpfs_CreatePlaybackItemFromAsset_block_invoke.816
+- ___fpfs_Finalize_block_invoke.733
+- ___fpfs_InvalidateGuts_block_invoke.728
+- ___fpfs_SetRateWithOptionsGuts_block_invoke.240
+- ___fpfsi_DeferredHandleTimebaseEffectiveRateChanged_block_invoke.235
+- ___fpfsi_Finalize_block_invoke.549
+- ___fpfsi_Invalidate_block_invoke.542
+- ___fpfsi_MakeReadyForInspection_block_invoke.274
+- ___fpic_ConfigureLiveJoinPreloads_block_invoke
+- ___fpic_EnsureNextEventWillBuffer_block_invoke.300
+- ___fpic_EnsureNextEventWillBuffer_block_invoke.300.cold.1
+- ___fpic_HTTPReadCallback_block_invoke.288
+- ___fpic_NotifyServiceCurrentEvent_block_invoke.337
+- ___fpic_customURLReadCallback_block_invoke.295
+- ___pcmToCaptionRP_resetAsync_block_invoke.138
+- ___remoteFormatReaderClient_maybeSetAndCopyXPCInstanceUUIDForAllFormatReaders_block_invoke
+- ___segPumpCreateMediaURLRequest_block_invoke.333
+- ___segPumpHandleCustomURLResponse_block_invoke.391
+- ___segPumpMediaFileReadCallback_block_invoke.348
+- ___segPumpMediaFileReadCallback_block_invoke.352
+- ___segPumpSendMediaCallback_block_invoke.442
+- _dworch_createStreamingCache.cold.1
+- _dworch_createStreamingCache.cold.2
+- _dworch_downloadMedia_validateDownloadIsPlayableOffline
+- _dworch_downloadMedia_validateDownloadIsPlayableOfflineDispatch
+- _dworch_downloadMedia_validateDownloadIsPlayableOfflineDispatch.cold.1
+- _dworch_downloadMedia_validateDownloadIsPlayableOfflineOnQueue
+- _dworch_downloadMedia_validateDownloadIsPlayableOfflineOnQueue.cold.1
+- _dworch_downloadMedia_validateDownloadIsPlayableOfflineOnQueue.cold.2
+- _dworch_downloadMetadata_proceedAfterCheckingDestinationURLDispatch
+- _dworch_downloadMetadata_proceedAfterCheckingDestinationURLDispatch.cold.1
+- _dworch_downloadMetadata_proceedAfterCheckingDestinationURLOnQueue
+- _dworch_downloadMetadata_proceedAfterCheckingDestinationURLOnQueue.cold.1
+- _dworch_persistMetadata_gotAccessToDestinationURLCallbackGuts
+- _dworch_persistMetadata_gotAccessToDestinationURLCallbackGuts.cold.1
+- _dworch_persistMetadata_gotAccessToDestinationURLCallbackGuts.cold.2
+- _dworch_persistMetadata_gotAccessToDestinationURLCallbackGuts.cold.3
+- _dworch_persistMetadata_gotAccessToDestinationURLCallbackGuts.cold.4
+- _dworch_persistMetadata_gotAccessToDestinationURLCallbackGuts.cold.5
+- _dworch_persistMetadata_gotAccessToDestinationURLDispatch
+- _dworch_persistMetadata_gotAccessToDestinationURLDispatch.cold.1
+- _dworch_persistMetadata_gotAccessToDestinationURLOnQueue
+- _dworch_persistMetadata_gotAccessToDestinationURLOnQueue.cold.1
+- _dworch_selectAlternates_getPumpReady
+- _dworch_selectAlternates_getPumpReadyDispatch
+- _dworch_selectAlternates_getPumpReadyDispatch.cold.1
+- _dworch_selectAlternates_getPumpReadyOnQueue
+- _dworch_selectAlternates_getPumpReadyOnQueue.cold.1
+- _dworch_transferPersistentStreamingCacheWithCallback
+- _figAssetExportSession_CRFModeEnabled.isCRFModeEnabled
+- _figAssetExportSession_CRFModeEnabled.onceToken
+- _figAssetExportSession_audioCodecTypeToInteger.kTable
+- _figAssetExportSession_colorPrimariesToInteger.kTable
+- _figAssetExportSession_createVideoCompressionPropertiesForVideoSetting
+- _figAssetExportSession_createVideoCompressionPropertiesForVideoSetting.cold.1
+- _figAssetExportSession_createVideoCompressionPropertiesForVideoSetting.cold.10
+- _figAssetExportSession_createVideoCompressionPropertiesForVideoSetting.cold.11
+- _figAssetExportSession_createVideoCompressionPropertiesForVideoSetting.cold.12
+- _figAssetExportSession_createVideoCompressionPropertiesForVideoSetting.cold.13
+- _figAssetExportSession_createVideoCompressionPropertiesForVideoSetting.cold.2
+- _figAssetExportSession_createVideoCompressionPropertiesForVideoSetting.cold.3
+- _figAssetExportSession_createVideoCompressionPropertiesForVideoSetting.cold.4
+- _figAssetExportSession_createVideoCompressionPropertiesForVideoSetting.cold.5
+- _figAssetExportSession_createVideoCompressionPropertiesForVideoSetting.cold.6
+- _figAssetExportSession_createVideoCompressionPropertiesForVideoSetting.cold.7
+- _figAssetExportSession_createVideoCompressionPropertiesForVideoSetting.cold.8
+- _figAssetExportSession_createVideoCompressionPropertiesForVideoSetting.cold.9
+- _figAssetExportSession_hasConstantQualityModeOverride.onceToken
+- _figAssetExportSession_hasConstantQualityModeOverride.valueRef
+- _figAssetExportSession_lookAheadOverride.lookAheadValue
+- _figAssetExportSession_lookAheadOverride.onceToken
+- _figAssetExportSession_transferFunctionToInteger.kTable
+- _figAssetExportSession_videoCodecTypeToInteger.kTable
+- _figAssetExportSession_yCbCrMatrixToInteger.kTable
+- _flom_FigCaptionRenderPipelineDidProduceStringsDo.cold.1
+- _flom_FigCaptionRenderPipelineDidProduceStringsDo.cold.2
+- _fpSupport_shouldCheckColorGamutToDecideVideoRangeForMode
+- _fpfs_PreserveResumeTag
+- _fpfs_SubstreamNeedsFlowControl
+- _fpfsi_SeekToCurrentTime
+- _fpfsi_SetupManagedStreamingCache
+- _fpfsi_SetupManagedStreamingCacheCallback
+- _fpfsi_StartDownloadingToURLCallback
+- _fpic_DoListsContainPreroll
+- _fpic_SwapToInterstitialPlayerLayerIfPrerollDetected
+- _fpic_SwapToPrimaryItemPlayerLayerUponPrerollCancelation
+- _gFigManifoldServerTrace_block_invoke.class
+- _gFigStreamPlaylistParserServerTrace_block_invoke.class
+- _itemfig_DeferredPostNotificationOnDispatchQueue
+- _kCMTextMarkupGeneratedCaptionIndicatorSFSymbolCodePointKey
+- _kCMTextMarkupGeneratedCaptionIndicatorSFSymbolNameKey
+- _kFigAssetOptionKey_XPCInstanceUUIDForMediaDaemons
+- _kFigAssetProperty_DiskBackedStreamingCache
+- _kFigAssetReaderCreationOption_XPCInstanceUUIDForMediaDaemons
+- _kFigByteStreamXPCMsgParam_OtherProcessPID_block_invoke.sFigServedByteStreamStateClass
+- _kFigFormatReaderInstantiationOption_XPCInstanceUUIDForMediaDaemons
+- _kFigReportingEventKey_Export_SourceAudioCodecTypeEnum
+- _kFigReportingEventKey_Export_SourceVideoCodecTypeEnum
+- _kFigTrialFactor_LiveActivityCooldownMS
+- _kFigXPCRemoteClientOption_XPCInstanceUUID
+- _kVTDecompressionSessionOption_XPCInstanceUUIDForMediaDaemons
+- _kVideoMediaConverter2Option_XPCInstanceUUIDForMediaDaemons
+- _playerfig_teardownAudioRenderPipelinesForAudioSessionChange
+- _remoteFormatReaderClient_maybeSetAndCopyXPCInstanceUUIDForAllFormatReaders
+- _remoteFormatReaderClient_maybeSetAndCopyXPCInstanceUUIDForAllFormatReaders.onceToken
+- _remoteFormatReaderClient_maybeSetAndCopyXPCInstanceUUIDForAllFormatReaders.sXPCInstanceUUID
+- _sad_getPumpReadySchedulerCallbackGuts
+- _segPumpEnsurePlaylistCache
+- _segPumpStreamHasMediaFiles
+CStrings:
++ "%@: Illegal attribute value"
++ "<< FigSBAudioRenderer >> %s: [%p] %{public}s Skipping spurious underrun begin; gap to firstEnqueuedOPTR = %1.6f s"
++ "<< StreamingCache >> %s: [%p] streamInfo disk access disabled."
++ "<<< FigAutoGeneratedCaptionIndicatorPolicy >>> %s: auto caption generation ALT text: %@ for %@ (generatedCaptionType=%@)"
++ "<<< FigAutoGeneratedCaptionIndicatorPolicy >>> %s: unexpected generatedCaptionType %@"
++ "<<< FigCaptionTranslator >>> %s: Skip creating LanguageStatusListener because installed language count > 0"
++ "<<< FigCaptionTranslator >>> %s: Skip creating LanguageStatusListener even if installed language count is 0"
++ "<<< FigCaptionTranslator >>> %s: Translation succeeded: [%@] %@ --> [%@] %@"
++ "<<< FigMediaSelectionGroups >>> %s: First user preferred language %@ lacks region code - using current user locale %@"
++ "<<< URLAsset >>> %s: [%p %{public}s] FigStreamingCacheCreate returned err %d, failed to create sessionDataPersistentCache."
++ "<<< URLAsset >>> %s: [%p %{public}s] Will not be creating a sessionDataPersistentCache."
++ "<<<< FAQ >>>> %s: [%p:%p] %s durationEnqueued = %.6f last PTS consumed = %.3f"
++ "<<<< FAQ >>>> %s: [%p:%p] %{public}s Determining whether to discard sample buffer... sbufIsOld: %d; unsupportedCombinedPlayRate: %d. %{public}s currentAQTime(scaled): %.3f currentMediaTime: %.3f startPTS: %.3f endPTS: %.3f last PTS consumed by AQ: %.3f"
++ "<<<< FAQ Offline Mixer >>>> %s: [%p] %{public}s Drain has already completed: currentTime %1.3f >= drainTime %1.3f"
++ "<<<< Fig Legible Output >>>> %s: auto caption generation: err=%d, extendedLanguageTag=%@, captionIndicatorPolicy=%p"
++ "<<<< Fig Legible Output >>>> %s: auto caption generation: generatedCaptionType from captionData=%@"
++ "<<<< FigBufferedAirPlayOutputProxy >>>> %s: [%p] %{public}s RequestForRetransmission token %u has no matching RP, ignoring (stale notification)"
++ "<<<< FigBufferedAirPlayOutputProxy >>>> %s: [%p] %{public}s rpID[%@]%s processRequestForRetransmission token=%u time=%1.3f"
++ "<<<< FigBufferedAirPlaySubPipeManager >>>> %s: [%p] %{public}@ Found FlushRangeEnd marker sbuf: %p"
++ "<<<< FigBufferedAirPlaySubPipeManager >>>> %s: [%p] %{public}@ Preserve FlushRangeEnd sbuf marker %p in input buffer queue"
++ "<<<< FigBufferedAirPlaySubPipeManager >>>> %s: [%p] %{public}@ SourceToken not found in creation options"
++ "<<<< FigBufferedAirPlaySubPipeManager >>>> %s: [%p] %{public}@ SubPipeManager in WaitingForMixStart - FlushFromTime received. Resetting to Idle so isReadyToMix returns false."
++ "<<<< FigCaptionRendererCaption >>>> %s: ckCreateStringWithBalancedLineBreakIfNeeded result: %@"
++ "<<<< FigCaptionRendererSession >>>> %s: Purging %ld stale captions from timeline on player item change"
++ "<<<< FigFilePlayer >>>> %s: <%p|%{public}s> item cancelled; suppressing PlayableRangeChanged"
++ "<<<< FigFilePlayer >>>> %s: <%p|%{public}s> item cancelled; suppressing deferred BufferFull"
++ "<<<< FigFilePlayer >>>> %s: <%p|%{public}s> player gone; suppressing deferred BufferFull"
++ "<<<< FigPlaybackCoordinator >>>> %s: %p [%d]: group time falls after end of last segment. player time for stream %f"
++ "<<<< FigPlaybackCoordinator >>>> %s: %p [%d]: group time falls before start of first segment. player time for stream %f. original time %f"
++ "<<<< FigPlayerInterstitial >>>> %s: %p: event %@ - seekTime %f past duration - cancel initiated seekID %d"
++ "<<<< FigPlayerInterstitial >>>> %s: %p: possible event detected at join, swapping to interstitial player layer"
++ "<<<< FigPlayerInterstitial >>>> %s: %p:%s event at join;%s flip to primary"
++ "<<<< FigPlayerInterstitial >>>> %s: created coordinationMediaSelectionCriteria %@ from selectedMediaOptions %@"
++ "<<<< FigPlayerInterstitial >>>> %s: joined after event %p with primary timeline end of %f"
++ "<<<< FigPlayerOverlap >>>> %s: [%p|%{public}s] Overlap is not scheduled, nothing to do"
++ "<<<< FigPlayer_AP >>>> %s: [%p] %{public}s Skipping redundant setRateAirPlay: rate %.3f unchanged in coordinated playback"
++ "<<<< FigPlayer_AP >>>> %s: [%p] %{public}s cannot create MetricPlaybackModeSwitchEvent with mode %d, err = %d"
++ "<<<< FigPlayer_AP >>>> %s: [%p] %{public}s cannot publish MetricPlaybackModeSwitchEvent with mode %d, err = %d"
++ "<<<< FigPlayer_AP >>>> %s: [%p] %{public}s published MetricPlaybackModeSwitchEvent with mode %d"
++ "<<<< FigStreamPlayer >>>> %s: [%p|%{public}s] <%p|%{public}s>: jumping from L2 {%lld/%d=%1.3f} (L3 {%lld/%d=%1.3f}) to L2 zero (L3 {%lld/%d=%1.3f}) before start"
++ "<<<< SBufConsumerInputForBufferedAirPlayOutput >>>> %s: [%p][%p][%@](avsync) Discontinuity(diff %1.3f(%lld/%d)). SampleBuffer %p, lastSbufEndOPTS %1.3f(%lld/%d), sbufOPts %1.3f(%lld/%d)"
++ "<<<< SampleBufferConsumerBQ >>>> %s: (%p) evicting audio buffers after L1 time %1.3f transitionID %ld"
++ "<<<< fbarprocessor >>>> %s: [%p] %{public}@ (avsync) Discontinuity(diff %1.3f(%lld/%d)). lastSbufEndOPTS %1.3f(%lld/%d) sendingOPTS %1.3f(%lld/%d)"
++ "<SEGPUMP> %s: %{public}@: dropped %zu stranded accumBB bytes at new request prepare"
++ "<SEGPUMP> %s: %{public}@:%ld: %s cache id is %ld %{public}@"
++ "<SEGPUMP> %s: %{public}@:%ld: oldMediaStreamCacheID: %ld no read access for stream on new cache: %@"
++ "<SEGPUMP> %s: %{public}@:%ld: oldMediaStreamCacheID: %ld, newMediaStreamCacheID: %ld"
++ "<dw-media> %s: %p %{public}@: created persistent pump cache %p."
++ "<dw-orch> %s: %p %{public}@: invalidating pump cache: %p"
++ "AssetReader_UseCloudMediaServices"
++ "CA"
++ "ClientPrivateServerOS"
++ "Could not allocate constituentFileURLs"
++ "CreateFormatReaderWithTimeout"
++ "CreateSessionDataPersistentCacheIfNeeded"
++ "EnsurePlaylistCache"
++ "FigFormatReaderServerStartWithConnection"
++ "FigStreamingCacheDisableStreamDiskAccess"
++ "FigStreamingCacheIsMediaPlaylistCached"
++ "FormatReader creation took longer than 110 seconds"
++ "FormatReader server already started"
++ "Instantiation_UseCloudMediaParserService"
++ "MovieInformationCopyConstituentFileURLs"
++ "NULL consumer"
++ "NULL outConstituentFileURLs"
++ "SMD_Complete"
++ "SourceToken"
++ "StreamingAssetPropertyLoader %s: playlistCache is NULL, falling back to network for playlist loading"
++ "StreamingAssetPropertyLoader %s: sessionDataPersistentCache is NULL, falling back to network for session data"
++ "Transcribed: "
++ "Transcription"
++ "Translated: "
++ "Translation"
++ "URLAssetFormatReaderCreationTimeoutQueue"
++ "US"
++ "\\n+"
++ "ckCreateStringWithBalancedLineBreakIfNeeded"
++ "clientPrivateServerOS=true requested but process already committed to false"
++ "com.apple.coremedia.cloudmediaparserservice-formatreader"
++ "com.apple.coremedia.cloudmediaparserservice.formatreader.xpc"
++ "fbapop_requestForRetransmissionToRenderPipeline"
++ "fbapspManager_copyFlushRangeEndSbufMarkerCallback"
++ "fpic_ConfigureLiveJoinPreloads"
++ "fpic_EventAtMomentInList"
++ "fpic_PerformPrimaryItemJoin_block_invoke"
++ "fpic_SwapToInterstitialPlayerLayerOnJoinIfIndicated"
++ "invalid unknown cache"
++ "isPlaylistCachedOut NULL"
++ "itemairplay_publishPlaybackModeSwitchEvent"
++ "itemfig_PostNotificationAndReleaseItem"
++ "kFigAssetError_FormatReaderCreationTimedOut"
++ "kFigBytePumpError_InternalError"
++ "liveActivityCooldown100PercentMS"
++ "multiNewlineRegex compilation failed"
++ "no persistent cache ID for stream"
++ "no playlist cache ID for stream"
++ "playlist"
++ "playlistCacheCreateOptions alloc failed"
++ "propertyValue for kCMTextMarkupAttribute_GeneratedCaptionType is not supported"
++ "received numSampleSizeEntries is out of expected range"
++ "received numSampleSizeEntries is too big"
++ "received numSampleSizeEntries times sizeof(size_t) overflows"
++ "received numSampleTimingEntries is out of expected range"
++ "received numSampleTimingEntries is too big"
++ "received numSampleTimingEntries times sizeof(CMSampleTimingInfo) overflows"
++ "received numSamplesIncluded is out of expected range"
++ "received sampleSizeEntriesLengthInAdditionalData exceeds reply additionalData"
++ "received sampleTimingEntriesLengthInAdditionalData exceeds reply additionalData"
++ "remoteFormatReaderClient_setOrCheckClientPrivateServerOS"
++ "sad_getPumpReadySchedulerCallback"
++ "sbcbq_evictAudioBuffersAfterL1TimeAndMaybeTransitionID"
++ "segPumpPrepareMediaConnectionForNewRequest"
++ "streamInfo disk access disabled."
++ "streamURL NULL"
++ "translationModelAvailabilityState is nil"
++ "trun sample count accumulation would overflow int32_t"
+- "<< StreamingCache >> %s: [%p] clearing writer %p, current writer %p"
+- "<< StreamingCache >> %s: [%p] setting writer %p, current writer %p"
+- "<<< FigAutoGeneratedCaptionIndicatorPolicy >>> %s: auto caption generation ALT text: %@ for %@"
+- "<<< FigCaptionTranslator >>> %s: [%@] Translation succeeded: %@ --> [%@] %@"
+- "<<< FigMediaSelectionGroups >>> %s: suppressing transcription because asset is audio-only"
+- "<<< URLAsset >>> %s: Copying disk cache %p from asset %p"
+- "<<< URLAsset >>> %s: [%p %{public}s] FigStreamingCacheCreate returned err %d, will fall back to network"
+- "<<<< DISPLAYSLEEPSUPPORT >>>> %s: Cannot do assertions since IdleTimerAssertion framework does not exist \n"
+- "<<<< FAQ >>>> %s: [%p:%p] %s durationEnqueued = %.6f"
+- "<<<< FAQ >>>> %s: [%p:%p] %{public}s Determining whether to discard sample buffer... sbufIsOld: %d; unsupportedCombinedPlayRate: %d. %{public}s currentMediaTime: %.3f startPTS: %.3f endPTS: %.3f"
+- "<<<< Fig Legible Output >>>> %s: auto caption generation: propErr=%d, extendedLanguageTag=%@, captionIndicatorPolicy=%p"
+- "<<<< Fig Legible Output >>>> %s: auto caption generation: propErr=%d, isAutoGenerated=%d, stringsToPush count=%ld"
+- "<<<< FigAssetExportSession >>>> %s: [EXP]:Unknown color primaries: %{public}@"
+- "<<<< FigAssetExportSession >>>> %s: [EXP]:Unknown transfer function: %{public}@"
+- "<<<< FigAssetExportSession >>>> %s: [EXP]:Unknown yCbCrMatrix: %{public}@"
+- "<<<< FigAssetExportSession >>>> %s: [EXP]:Unrecognized audio format ID: %c%c%c%c"
+- "<<<< FigAssetExportSession >>>> %s: [EXP]:Unrecognized video codec type: %c%c%c%c"
+- "<<<< FigBufferedAirPlayOutputProxy >>>> %s: [%p] %{public}s rpID[%@]%s processRequestForRetransmission for subpipeManager[%@], time=%1.3f"
+- "<<<< FigPlaybackCoordinator >>>> %s: %p [%d]: group time falls after end of last segment. player time for live stream %f"
+- "<<<< FigPlaybackCoordinator >>>> %s: %p [%d]: group time falls before start of first segment. player time for live stream %f. original time %f"
+- "<<<< FigPlayerInterstitial >>>> %s: %p: preroll event detected, swapping to interstitial player layer"
+- "<<<< FigPlayerInterstitial >>>> %s: %p: preroll event encountered an error condition, swapping back to primary item player layer"
+- "<<<< FigPlayerInterstitial >>>> %s: joined past event %p with resumptionOffset %f"
+- "<<<< FigPlayer_AP >>>> %s: [%p] %{public}s Return, rate == 0.0"
+- "<<<< FigStreamPlayer >>>> %s: Preserve resume tag: jumpseed = %p"
+- "<<<< FigStreamPlayer >>>> %s: Steal ReleasePlayResourceAfterDecoding marker sample"
+- "<<<< FigStreamPlayer >>>> %s: [%p|%{public}s]: Using SampleBufferConsumer to remove buffers"
+- "<<<< SBufConsumerInputForBufferedAirPlayOutput >>>> %s: [%p][%p][%@](avsync) Discontinuity(diff %1.3f). SampleBuffer %p, lastSbufEndOPTS %1.3f, sbufOPts %1.3f"
+- "<SEGPUMP> %s: %{public}@:%ld: cache id is %ld %{public}@"
+- "<SEGPUMP> %s: %{public}@:%ld: oldStreamCache: %ld no read access for stream on new cache: %@"
+- "<SEGPUMP> %s: %{public}@:%ld: oldStreamCache: %ld, newStreamCache: %ld"
+- "<dw-media> %s: %p %@: created persistent pump cache %p."
+- "AssetReader_XPCInstanceUUIDForMediaDaemons"
+- "AsyncTransferOfFigStreamingCache"
+- "Auto-Generated: "
+- "Could not allocate job for streaming cache transfer"
+- "DCI_P3"
+- "EBU_3213"
+- "EnsureStreamingCache"
+- "FigStreamingCacheClearExclusiveWriter"
+- "FigStreamingCacheSetExclusiveWriter"
+- "GeneratedCaptionALTText"
+- "IEC_sRGB"
+- "IPT"
+- "IPT_C2"
+- "ITIdleTimerStateInitialize"
+- "ITU_R_2020"
+- "ITU_R_2100_HLG"
+- "ITU_R_2100_ICtCp"
+- "ITU_R_601_4"
+- "ITU_R_709_2"
+- "Instantiation_XPCInstanceUUIDForMediaDaemons"
+- "InternalURLAssetEnsurePersistentStreamingCacheCreated"
+- "InternalURLAssetTransferPersistentStreamingCacheAsync"
+- "NULL downloadDestinationURL"
+- "NULL inputQueue"
+- "P22"
+- "P3_D65"
+- "SMPTE_240M_1995"
+- "SMPTE_C"
+- "SMPTE_ST_2084_PQ"
+- "SMPTE_ST_428_1"
+- "SourceAudioCodecTypeEnum"
+- "SourceVideoCodecTypeEnum"
+- "Speech transcription result string unexpectedly empty"
+- "StreamingAssetPropertyLoader %s: streaming cache is NULL, falling back to network for property loading"
+- "UseGamma"
+- "XPCInstanceUUIDForMediaDaemons"
+- "aYCC"
+- "assetOption_XPCInstanceUUIDForMediaDaemons"
+- "assetProperty_DiskBackedStreamingCache"
+- "dworch_downloadMedia_validateDownloadIsPlayableOfflineDispatch"
+- "dworch_downloadMedia_validateDownloadIsPlayableOfflineOnQueue"
+- "dworch_downloadMetadata_proceedAfterCheckingDestinationURLDispatch"
+- "dworch_downloadMetadata_proceedAfterCheckingDestinationURLOnQueue"
+- "dworch_persistMetadata_gotAccessToDestinationURLCallbackGuts"
+- "dworch_persistMetadata_gotAccessToDestinationURLDispatch"
+- "dworch_persistMetadata_gotAccessToDestinationURLOnQueue"
+- "dworch_selectAlternates_getPumpReadyDispatch"
+- "dworch_selectAlternates_getPumpReadyOnQueue"
+- "fbapop_requestForRetransmissionToRenderPipeline_block_invoke"
+- "figAssetExportSession_audioCodecTypeToInteger"
+- "figAssetExportSession_colorPrimariesToInteger"
+- "figAssetExportSession_transferFunctionToInteger"
+- "figAssetExportSession_videoCodecTypeToInteger"
+- "figAssetExportSession_yCbCrMatrixToInteger"
+- "fpfs_PreserveResumeTag"
+- "fpfs_StealBackReleasePlayResourceFromActiveRenderPipeline"
+- "fpfsi_SetupManagedStreamingCacheCallback"
+- "fpfsi_StartDownloadingToURLCallback"
+- "fpic_ConfigureLiveJoinPreloads_block_invoke"
+- "fpic_SwapToInterstitialPlayerLayerIfPrerollDetected"
+- "fpic_SwapToPrimaryItemPlayerLayerUponPrerollCancelation"
+- "fpic_mediaAccessibilityChanged_block_invoke"
+- "hls_use_sbc"
+- "itemfig_DeferredPostNotificationOnDispatchQueue"
+- "liveActivityCooldownMS"
+- "no cache for stream"
+- "numSampleSizeEntries is too big"
+- "numSampleTimingEntries is too big"
+- "remoteFormatReaderClient_setOrCheckXPCInstanceUUIDForAllFormatReaders"
+- "sad_getPumpReadySchedulerCallbackGuts"
+- "sourceCaptionText is NULL"
+- "sourceCaptionText is empty"
+- "xpcInstanceUUIDForAllFormatReaders was already set."
+
+```

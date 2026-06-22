@@ -1,0 +1,219 @@
+## GKSPerformance
+
+> `/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/GKSPerformance.framework/GKSPerformance`
+
+```diff
+
+-2235.48.1.0.0
+-  __TEXT.__text: 0xad84 sha256:a4d9f27ee07a363159577182c09f7f6b53b25e0b6982f3bd4e0508c33e5488ec
+-  __TEXT.__objc_methlist: 0x8bc sha256:aefcd96d20975c2cebb2a6da452f7d123bf6d51eaaa055b550519ee4b22d2842
++2235.52.1.11.1
++  __TEXT.__text: 0xad48 sha256:de04e795e8ded6b2147b28a0e9c4f1e09b1dafb5966a8d107ea20c60579cd86d
++  __TEXT.__objc_methlist: 0x8bc sha256:b29f9d5cd7cba85195edc0fcef9737eeed6b10d7959643abd768c17989828bc8
+   __TEXT.__const: 0x420 sha256:b37daafc08b08c1b54dce03efc0b8dbd01f04c6930819782a350b58e3360d0e0
+   __TEXT.__cstring: 0x2e90 sha256:fde83b7c97fb3e423e4d3c3a6fc9d309206d32dc60c4ad31607424997f99ccaf
+   __TEXT.__oslogstring: 0x3ff sha256:2cea116bcae81f061082ec95bb250daf9aa7cee36d68e281eaa7c3a2e1c34d08
+-  __TEXT.__unwind_info: 0x270 sha256:4074cc3a41c5ebd3c2a2404355fdc7a73e93dab3a44750b186d13b89fc8018af
++  __TEXT.__unwind_info: 0x270 sha256:4adf791f2ca2aa1e066d7205aa3c5a57e3efd99e2aa6be666c6adcd7a5b0fdbc
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xb8 sha256:26439d613e69b2c2eb25523dd1a3eedb13bcb8ec9d7cac134725b2cf0ff34ad2
+-  __DATA_CONST.__objc_classlist: 0x30 sha256:0e8123d31806b76d6c4ec63f8fa12c7f0db47f41069dd0cff9b7b4df3add453b
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:296ed82c257730581692b19db90b70dcc38b4eed9799f78bd2537979b36bb8ea
++  __DATA_CONST.__const: 0xb8 sha256:9edcd2520761efb29953a717a1f3d5df14b5e748b774cdcd4cace688d9a58109
++  __DATA_CONST.__objc_classlist: 0x30 sha256:2ef54e1b409aa8dcd7ae027699fb2264829e8a0784ac245062585d2dbb880ec4
++  __DATA_CONST.__objc_protolist: 0x8 sha256:61a23da30ef062339def75920bc927e21506eeac372377f216ad42236be55d07
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x920 sha256:50d056d2c18049e39e962ef059469f36d5363e87a902b9839fa10458745a14d8
+-  __DATA_CONST.__objc_superrefs: 0x28 sha256:034f5aec7cc263054db750ce5043ecfd5e0314b6370d788aad817f4ee16669dd
+-  __DATA_CONST.__objc_arraydata: 0xfe0 sha256:e9fcaf4e7f1043871b1a36062a472e5c27fa512b197703916566b836f612efb8
+-  __DATA_CONST.__got: 0x88 sha256:4777661cc6b6b8ff913f7b65eac36e6f489ceed4f69780bd2b9cd2ed56d3305a
+-  __AUTH_CONST.__const: 0x40 sha256:8743e45a91d9ace1571f76098d31ff63500400e2a5e7a3d407c6e1e8c507dc11
+-  __AUTH_CONST.__cfstring: 0x3be0 sha256:3d80fba39ccbb1a5ab5099825e8de003817bf0b4085a204cbcfd6c0d709a4386
+-  __AUTH_CONST.__objc_const: 0x1750 sha256:3b1ccfd42e49d207828598e8839314fac57fc7606a96a0539276722e8476f305
+-  __AUTH_CONST.__objc_intobj: 0x270 sha256:dada79146f702ad61882b4d5ccac90e8dfff85f6a6a0307597863f66047b25ac
+-  __AUTH_CONST.__objc_doubleobj: 0x140 sha256:dbd3ab826c46db68b4e059bb2817361a6bfc5279d3ec661b5a9f36347c9030dd
+-  __AUTH_CONST.__objc_arrayobj: 0x2a0 sha256:d4558473f633a628e795af8526f341d8a1a0572c9178606cfa9873ee30b41dc0
++  __DATA_CONST.__objc_selrefs: 0x920 sha256:02ab829828eb820622d51b3174609ad7f284027cc3612b4ca42748ff59a0d90c
++  __DATA_CONST.__objc_superrefs: 0x28 sha256:044974c047aa7d1b61c0b99b9aca2c71fdc50a8c43c736785781ee7695007c05
++  __DATA_CONST.__objc_arraydata: 0xfe0 sha256:3ce9be57d6d747643df0ae2236b098987ded6d5bbda469c4d5a49004793dcddf
++  __DATA_CONST.__got: 0x88 sha256:e9ef14e442e7cd732d1ee66ad5243862ffbca7921f53cd32f8194afce5fc6154
++  __AUTH_CONST.__const: 0x40 sha256:0ac845114456fa5897b8eb53472ed60bcf0c9d736fb424b5e0ae7099ed669e1c
++  __AUTH_CONST.__cfstring: 0x3be0 sha256:68b76a7c1060b614b911f25124057cc892037bd6accca371d9f9e40b7c7c8688
++  __AUTH_CONST.__objc_const: 0x1750 sha256:62b6c18bb75552169d428b50b3be7fe8087a0403129ab9c76997f9022c5aa235
++  __AUTH_CONST.__objc_intobj: 0x270 sha256:a83dc9e4af96e106bd705f658ea054c1947da35ce3afe98d867c4b215f39f5e3
++  __AUTH_CONST.__objc_doubleobj: 0x140 sha256:f5835f3068ca679d717c60a028643984647d6ee0f47318a5f859bc3aff66c1e9
++  __AUTH_CONST.__objc_arrayobj: 0x2a0 sha256:fd41c10bfd92c95a7517d249722fe5af65c03c768bd975428acf0d35909d9dcf
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:9eec4ed66058ede73bcdb2606ff2aeb61fc03608568de8e2b853f405a3217825
++  __AUTH.__objc_data: 0xa0 sha256:80a69da9a9d91c6f34952d0e54702e9b3ba5c5c6ff1de1c97669dcacfcd0758a
+   __DATA.__objc_ivar: 0x254 sha256:80918b2115c35d93b2449fc5b560f290f3d25cdac62f12ffe4bde76110cf8a25
+-  __DATA.__data: 0x320 sha256:ffa943baee01d3f3947ad4f6ef47df33fc4450b7962ac1398d32ce3b8edf5656
++  __DATA.__data: 0x320 sha256:df14f5b06a89290e281c354605c84137b145b8991211090761af9c19c68deb8b
+   __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_DIRTY.__objc_data: 0x140 sha256:762727f98309d50635851601bb9a592d5cd1723d0f58156614e3a70b4ce1f71b
++  __DATA_DIRTY.__objc_data: 0x140 sha256:0cecdf894bc84855987d502d4b31b08076d52279203b156450de5233b76c5bc1
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprotobuf.dylib
+-  UUID: D9F77033-65D5-3346-8695-C20CBE8F0E99
++  UUID: B9F37E46-DAB4-3730-8B9B-EB7441981F11
+   Functions: 209
+   Symbols:   979
+   CStrings:  1011
+Functions:
+~ -[AWDHistogram initWithBuckets:size:] : sha256 a25efce29060d3f6029a0f5d4a8533c8842f31bbaee282bd7241e3023db5b67f -> 258e8b932f61a74b78edc50779429810d4fb414ce12a32a7309b76d19f402fa1
+~ -[AWDHistogram initWithFloatBuckets:size:] : sha256 a6423c6fe39e1f7b0b3355536333ec93b8d496cc774853497ba180391ab90681 -> 42fc1d7dad0e4974f0038f9dc5a468f5d7704fb9562300eca00442a94f046a2d
+~ -[AWDHistogram dealloc] : sha256 e69be3f90e57d1222bf9848cb2645f354bebe6b4178eecc8f545c9997f56c420 -> 6cbcfe771cb4c2362d8dc82dc92b39d9a7ed86e74fc28e37b38357d76b21ab97
+~ -[AWDHistogram addValue:] : sha256 47970c458dd7114e0d15ad9a95c6423cc15119f1c362a284fea044e51392aeae -> f2eb1a22e5fe65b51fd0352c62628d51c04429a63f3e1de58dcae082f205bfe6
+~ -[AWDHistogram addValue:withIncrements:] : sha256 770dd54f5712e13975d9ba222f0661136e6afc032b89b62148629983b909b3fd -> 167e6bc68c535d08c81aa864bda19b0fa2c3dad65149fbeeeeaf944e2d3b5a17
+~ -[AWDHistogram addFloatValue:] : sha256 c0efe0242ee1d55cb6c3afe5f41bf9929abd27644c52cb84ec4b033596726d37 -> 80d9c704bb9aa1e0be06e95b451ebbf983274941cf44a840f7964460f6e44922
+~ -[AWDHistogram reduceFrequencyByFactor:] : 56 -> 52
+~ -[AWDHistogram print] : 228 -> 220
+~ -[AWDHistogram newArray] : 144 -> 140
+~ -[AWDHistogram reset] : sha256 5cc284296d4ac4b7cfce00cbee5d825d051c5b0770a8868ff2e8dd19524beae0 -> bb663eb9cefe57f58c1dc7e7a313d8c5f56c63b367dcc4767e0f237db188f487
+~ -[AWDHistogram array] : 132 -> 128
+~ +[AWDStats initialize] : sha256 da0398f65a7195b98c858906b586ef556bdc0b3a87182cf94f83ec96e65e8d53 -> 5a8b8832b48448a4ad0c897a91e1772a679740e6c4cdb90dcf07f838ec7ce585
+~ +[AWDStats statsSingleton] : sha256 5d27dd79d6c5c99a420f9cd3061cb09e4514518e7b68dbbd7b4fe8c270a3b0c8 -> 0ecf777bd90bc7848d4484de082fb30503195574a3203526ebbf09520a29f238
+~ ___26+[AWDStats statsSingleton]_block_invoke : sha256 cd20559c87110c500c07b530b9c12a687c63e9278de50c51424d81e2c311a987 -> aa93e43b93e8f66865b0f3700fc5c46acb2b8a888ad0721adbb061ba41941dd1
+~ -[AWDStats init] : sha256 9590aae2e0a9cef0ffda54e1427cae52bf7dfe4e63b8953a317153b1336e5320 -> ec83c9a0ba308e564fc09fb429a6f79278a78706938680d0a215f27131c836de
+~ -[AWDStats dealloc] : sha256 f8754544a4209cd3500c2b6c881e85b753ba68bbfcf467063681956694f81379 -> 1da5bf6b08ace34b21cc16608ca596b2a3068ffba025a785220b201d40e8b48e
+~ -[AWDStats addRTStatsDictionary:] : sha256 a691afc9285809629e42dcfc8d523b13774bd32ccc227604e90ce1a87b9be063 -> 0d6f973b64fcb41d05a0239c78776d48b62340db25e9d3800a3c7de5139cf10b
+~ -[AWDStats addConnectivityTimingDictionary:] : sha256 472bf0c8998f65974731c97813d0de64287c5dba71d8eadc536a133df92008a3 -> 4f2c26a93b5876bec6501ed72267ebcb1944e1c7da3821a865d5dcc45e2d2c46
+~ -[AWDStats setFirstRemoteFrameTiming:] : sha256 eb9e2afafba911a3e1ccd3f873c5e178ffb7610462b6d5d54b9a09f16abee412 -> d020ef324a7c6f617b77919e889017e2124c415cb02a59e11a113d93564d66f9
+~ -[AWDStats addFloatValue:toHistogram:] : sha256 3189cfd652e5e19b582bf2d00378453f9120cc922a7c6e16afad53fb139732b6 -> c32dd3d79c7c1d426573ef17f427343f1fe6fa2b1d882c8859c6c99a7e43bb06
+~ -[AWDStats addValue:toHistogram:] : sha256 c09ed937b15446fc8a85ef3bb9a84e7f2c53a888f4f0e15f83e558f0e4857d77 -> f47970cc84db5b6c3e4a9f5b78b04c12dc912c5bd70d9cdfbfd71cb761ea0985
+~ -[AWDStats setInterface:] : sha256 aab55a19c151013a554eb6843e5b6f371ccaaf745c70d878b2aaae3e0d6725fc -> 49664d6000af5ddd330752638bc2ab126311e1ba2a3650fd9290dd09000de57d
+~ -[AWDStats setRemoteInterface:] : sha256 a8acadb9fa8a2438e5302659ccfe9f148507800d1925443cc5a31ff2f3bbfc0d -> c144f2ffe69ece22a80905eeba3ca2bf89a25e4af3accc35e38dda23b660ae2b
+~ -[AWDStats setInterfaceOUI:] : sha256 aa3147702324dcc03b85f492b0cf1b390bdcee1d9a7142e2bc7872f02ecccd8e -> f42b498bfb40d6ec52f4e206d78ae344b9fb09353c088ff5dadde3ef10f49abf
+~ -[AWDStats mergeAggregatedSegmentStats:] : sha256 8c79b30ccbc2cccbc0410bf45612a6eac23ebfb61b403b00e99412acd22e98e8 -> c90cfa84baeb98166ec85046e40a262eb0636a2fb2d7ad8ed1b0e648d0dcfce8
+~ -[AWDStats generateAggregatedCallStats:] : 2580 -> 2576
+~ -[AWDStats generateSecondDisplayAggregatedCallStats:] : sha256 91d393fffb9082d2d5013cfd9847e4a033b44be5b68acea558a1066037dc875f -> 3e8f845ad79403346ee885a0c8cbf8885429645f77931f9d791104678e3c9a08
+~ -[AWDStats updateMediaRecorderStats:] : sha256 28aa349ce0430244515a537bcfe0700b41fcd0e0ce5805056d442c22b718de48 -> 97f580d60f913e0aedbc6d907d818423de0628c3502c9cc5d73230620c498111
+~ -[AWDStats updateHomeKitIPCameraRealtimeStats:minFrameRate:maxFrameRate:videoStallDuration:PLRSample:RTTSample:NOWRDSample:RecommendedRxBitrateSample:ActualRxBitrateSample:] : sha256 7230c4c309b9bb5b33c3e89b8ac04ddcc201e944ca40690784ebbc3ce439f830 -> a25a35dec8958fc1b4c3cdcc0c1b2117c270de17a39de7167ea02685b3a4c396
+~ -[AWDStats startHomeKitSessionWithCallID:RTCPSendInterval:startTime:] : sha256 bf6353b7f85419dd2d23666c6570eb861dc006140af6d061e69e31b5f35e6e84 -> ae00a1a035945614bfe34bfc02876343ed889c83796fda8cb85004f91773a856
+~ -[AWDStats updateCellTech:] : sha256 1fb5d0aed9a8b985c17a13121ec305c2babf31425f2f878986b1acb9b4737f4d -> d15714ccbe615f5c65ba0986257a3e0bfbfd87293b73fced036169093a4e81cb
+~ -[AWDStats finishCellTech] : sha256 9b79bc3ac70cced13ad55a00fd24c5448d50022091439f7e35e1d318e54c1b5c -> d3aeee5669b463f348322c421d250675bbd0d42af2c09bac951020ac7aeb0b2b
+~ -[AWDStats addVRAWidth:] : sha256 0922ecd20b8a1dca16e6981d40633b57b3f893b2eef1c7f9d957dcc6091f9979 -> bcb297b61ec0bde9698e462ddd47f4db493b884989fffecedbbcdc8417fe1369
+~ -[AWDStats finishVRA] : sha256 434e2a6f5f70712f9a2b50ca0fe1097457a95c87e05eeada426be33569d1ecd9 -> f96d1d2f83bf679399575a49d72e5388459c53f0ddd74eca3520cbebaf961264
+~ -[AWDStats startPIPState] : sha256 cb2da3825a0e2fd28920fcba479c655ff0e989215ad2e40bc0afc6d73ad86698 -> 82ff57da8412cc8c35d689d851534a05e0bf98a202e08ed2ca2ac1179768dcbf
+~ -[AWDStats stopPIPState] : sha256 26d8be1627e8a914d67218ca296cbd55b82db7c6a1235d7901430beb1dd3766f -> c0f4cb124f76d855fad8c17c18dc6260682f0b411544c286ecbb7c7e6a6b6a8a
+~ -[AWDStats sendConnectivityTimingToAWD] : sha256 155cddaf31c765fd8649fa0c50382f6a23b396d3410b72355f1628e28eff3e7b -> 6662681881cddde61c701d1f872631e394773cb7b11c1c8414c3118bab1e93d7
+~ -[AWDStats sendHistogramsToAWD] : sha256 ffb1e2b942f65e557a34ecdfb8d9a341960c38b64a9cf4a64b2d30d58a374338 -> ee65f087327d0dc9d4674bd930db0f82a955455b9a0f0ab024c9f713b470f99b
+~ -[AWDStats sendBasebandStatsToAWD] : sha256 59377fcbb445d5f5db346f1ad4e1a22e133e6989d641f572d88004a7ffdee046 -> 822cf90384eb500493907795452b4a6e7765050ec8919d261274b8cfa199a5c1
+~ -[AWDStats sendVideoStatusToAWD] : sha256 629b771d81f1ba86402af0607b1b9a587451929363f12b781c541149ce27f992 -> 0bb637b695c4b32dcc45eb0cb257ddeab2e3c290a7a4ee3ce9bf7de778b22649
+~ -[AWDStats sendRTStatsToAWD] : sha256 c80f02e053bd8ae817432ba9d3f7c5a2b9b3c327b6b821d8e2ea05d7f0ab8abb -> 75808af75ca594524d1cbcf14131bb4934b8cee8bf2acdf58333edc76d3bb0f7
+~ -[AWDStats sendVideoQualityStatsToAWD] : sha256 f5ecc4dabd2886160d8dc6b87dd5c816fe34cdd3f85135c76e5a6ff327e7245d -> 760c068e87b9ba811a0d57fec0de4e3215ab031c8fcf2c226c8c217869611604
+~ -[AWDStats sendInterfaceStatusToAWD] : sha256 193925773e2070d8e930664a2d78a28be920f09811b15f434aa75eced9e1e867 -> 08f907a406fbd725fdcae797dabc94f99423a0acef1f8641b36d41dfbd50a6d1
+~ -[AWDStats sendAudioTierHistogramToAWD] : sha256 3a4609474d4df292acd861eb1dbd950fbb702428835cec58aae2f8918711580b -> 2feee6e37548f80bbe4915e7428f1e31293e74791c788eeaaccfc3f35bab9bc9
+~ -[AWDStats sendDTXStatsToAWD] : sha256 8d9380e38209d2775cdab08ab5e652f193b0794d65a6d79787dca57d3a53201e -> 90f9de5adfec9f6e20a195455ea49bb9c4d5180f9d39c50eada1b755ee3634fe
+~ -[AWDStats sendModeRoleTransportToAWD] : sha256 6ff34e1125d8c1c4439113dbe6eea914554537f3df5ef573b2093dbd19d189f0 -> 009307b1de8bb752adc0fc321271f3ad4246ef59232d05c5e26572b7acad213b
+~ -[AWDStats sendRTCSessionEndMetricToAWD] : sha256 eb73e5ab37e84565baafd36660d7030b0d39557911aa558c9989ff34f4a59a2d -> 2e0d3946aecb964dfa7b03d0110e976558552052ee3e636c4df918bf62d53ffc
+~ -[AWDStats sendAggregationReportToAWD] : sha256 a0d72a6a8d6e4e097735e286ebe64817320c0c037b506d3ebf2b0767d808737b -> d63977101c69890e0380df15669b343021c22148db82c01609dc44a9108b96c6
+~ -[AWDStats callStartIsSender:forTime:mode:] : sha256 7117a0be00cd085ca10242986415aa12e6a2b4e948e697942d2f4078a87a6351 -> 5422a7140cda2ade6d83524f273ff67e590f659a5dc2bd914e0fd42a07d4f929
+~ ___43-[AWDStats callStartIsSender:forTime:mode:]_block_invoke : sha256 fea00be3d11d7afeebc063615f8cac5614ef0008a01336b6d8e5f557f9b907b6 -> dd936ecead4e7e4b6aee0a2838d5739054e720d0b3499a6b21efa0dc2454d95f
+~ -[AWDStats updateAudioTier:mode:duplication:codecPayload:codecBitrate:bundling:] : sha256 c72d492e185e500d55e0d16a59b174e68fb27ea6a205b34c96f2973cec85c795 -> 121bf659c208be31701115cb39bf7403bfad4c299625ff3f5f38e5977e72a915
+~ -[AWDStats callEndAppleCalling] : sha256 e7e25caf323b7822dd833b90e818c78a231342da2e4568c7be2a6b3085b0ce43 -> c2826eabcd68cee8f0962c7fd187056f3af52a108b59577db07fc555f27d7dc3
+~ ___31-[AWDStats callEndAppleCalling]_block_invoke : sha256 f0189f86e0bb8dd3dee68245dd3c3e6c8b5d36e25e857ddde6c1296f1c10c303 -> 8cee1558684c0cebc85b0a7b1e361ff580f54f96155c51b6cc3e6a3f22a1e7b8
+~ -[AWDStats callEndFaceTime] : sha256 d2505699a300e3bdd3bf85cab8fba2614784cfdb509d59f9081c51da381ad770 -> 4ad52cf82a2820facddae44779e3b535a282470d5f64d692d86b735a64286b62
+~ ___27-[AWDStats callEndFaceTime]_block_invoke : sha256 37ddf618cb8f93fac3531a3ea0e886bcd86dff4d74aafa10b02e70a12aef4952 -> 8cc709b822b60616e58eaaf0b20d55d3befb6715503ae6d69177c27e17f6fa7a
+~ -[AWDStats sendHomeKitIPCameraNetworkStatistics] : sha256 7b780c3f6a02ee5ddeac700d21f6077263ff8f9759d4544dd42a07736a589325 -> 10c1f9d5d5553101769c89169d25046585275f9a1cf5f2835686f14c24f3e48c
+~ -[AWDStats callEndHomeKitIPCamera] : sha256 64a6f1307a7e92b39fff96c40973efcdb81de0cad594c03487d5530c22524788 -> 6c1c13b3dbd3d9bc4b97f82eb02a0cd9d0211a0a73413d20701544ca5cb3e714
+~ ___34-[AWDStats callEndHomeKitIPCamera]_block_invoke : sha256 64cad32b823f2ce2fe4ccc2d176d675c89e1cb9953c3ceda8047824225cab0d7 -> b0e29306d26d778a0274670cf0de1fc9e7d2dfcc9c25a50cc199efc67063533c
+~ -[AWDStats callEndSecondDisplay] : sha256 a1ca78a33f535591f01df14af679662ad9a6b8764b55987d13e9a255104327fc -> 321d62a2b2b28ee80354b8b923eb753c65eabbfd9acbec02f045f6eb7bc60369
+~ ___32-[AWDStats callEndSecondDisplay]_block_invoke : sha256 5a10dcb1cf2c61c3c0c1ab814ce454d453daf2252a4a0b39b564ed9679b77f93 -> 9154837859fdb00186b1d6f5755e6bedab3e0d85bff615386a3f33683b50f60e
+~ -[AWDStats callEnd] : sha256 3e248430c08a1b9e1f81e164f06de5b6708ea86b0aaae202849dbb249c3a54bd -> e2637953573cb7f7af71acec17f9444eb5acb727f0f67e1c40ba235718b4bfdf
+~ -[AWDStats reset] : 500 -> 496
+~ -[AWDStats printHistograms] : 288 -> 284
+~ -[AWDStats updateLocalPrimaryInterface:] : 160 -> 152
+~ -[AWDStats setCallID:] : sha256 9ab1d7b89924086bc66f3285e18ac724afdecb8dc9f3ce1bc32b9c2f59073f31 -> 1d83bac2fff0a7c7b54221f2f43ce96be8c4ab4d1bfb787eb3142629aeba4f55
+~ -[AudioTier init] : sha256 cfca4a677d437fa6c9010e17529116d5b4b140bfa41fd68d677be0917a6c7e09 -> e6751c9c77c9dafc967615133acf8ad8ed2ff6366fc24ab9313963329ebe5b00
+~ -[AudioTier initWithMode:tier:duplication:bundling:codecPayload:codecBitrate:] : sha256 4da2bb6c28d6912f7f808a6f3fcc4f1510d79a3ede57c6a5ecb7b71b22059d37 -> c983b6432155f9b54668d4d3bc77fc94386bf773f9f328cf3f199ee5dd0726c6
+~ -[AudioTier copyWithZone:] : sha256 c716bf01e4caa535088be29090f0235c7f640241a91eb6dfad5afe4d65cf6c65 -> f30e329bbfc25b09267aaecaff3e7eb232a49f76c82e47aca666f32a1669105f
+~ -[AudioTier isEqual:] : sha256 a498bc783149895dcfcdc8e71c5aa1dc84a069f56e2eb8ba7b8de85612e41369 -> 15fa27b7e79e2b28d75a91e2d313fba41ad73f98da037de4ea961ac39d4088d6
+~ -[AudioTier description] : sha256 3c7d2d93552afcaff663903983048056590973057d9eadd05221b36afddd714b -> 5e986df5ee9a0c8590adaa74b08fa1d8afeba1721f2f8ddf84ee3d399260d884
+~ -[AudioTierHistogram init] : sha256 8d32e9b93cb4c0e9ab50641cb42f75525c7639d5498c9617ee5fc4ce0fa49593 -> f0594cd26991dd4682e3a91f6d96e07ffd80edc1229544bbf01065f8c19012f5
+~ -[AudioTierHistogram dealloc] : sha256 c2d71a989b72588d03dcfae571981174ad28d1518f207dc4bd913447cdbe2939 -> 3e5b42b8eb7055dc871656e03e9cd04a654e6befed685070c58436a1a252353d
+~ -[AudioTierHistogram accumulateTime:forAudioTier:] : sha256 884741ab2851f858caa897f9ed23c32984dd3f16e7d8a74464d99b2720466fc7 -> a95f730c5d0ce56467cd6856054a5e85e563b9b8f4b170869c8762aabb85f9b2
+~ -[AudioTierHistogram newAudioTier:duplication:bundling:codecPayload:codecBitrate:mode:] : sha256 d23509a5555a88396ff862938e465f045b9291ac73f942caea1b918bb3936de3 -> df10642e0472bf684acbf01dc758da97811e848e105bc9d71899c4feba84eed9
+~ ___87-[AudioTierHistogram newAudioTier:duplication:bundling:codecPayload:codecBitrate:mode:]_block_invoke : sha256 b62a8d6944492c187f2baa55de14c8b12a5171eb2d41e11609275b3de77f0540 -> a6c7cf41bf5c1eecb1e9070061cad24d502aa716c9a488bded75848f662ce915
+~ -[AudioTierHistogram end] : sha256 bb7e3341320abbde225652448003287e1d6308a2762f06ae8ac3b50a5e9141b9 -> 04f3f273f13ab43b3d2f300ad59f29da547b80e54c7866be3c6efde1f4e3edae
+~ -[AudioTierHistogram newReport] : 692 -> 684
+~ +[GKSCoreAnalyticsAdaptor analyticsSendEventWrapper:withPayload:hasHistogram:] : sha256 81c022fd0a4a204badf79c415a7df533a7e144833c15f6e4056a3c64bed49349 -> afa251e423261d43fa94db3a5d05bef8040c0a963f2f1cde3e86c55cf68d293b
+~ +[GKSCoreAnalyticsAdaptor fullEventName:] : sha256 1f00c57ee05b959b14781e87547461ccbc99784871155f2d2040080f9032dafb -> 1804e499715d2d62ea310831803e5db045653c2773b216e4cb030292c4947fd4
+~ -[AWDAdaptor init] : sha256 c6f65f7826a6b636895d248d80dd80d4c95eb55182f67af9d414b4e207afc9d2 -> 700feec832985cd5a20362c898968c7c8fb8b7789ddb6cc9675cc11ec86d0bb9
+~ -[AWDAdaptor dealloc] : sha256 925eb98cc8e0e50eac6e83ae0e71d7db97660a634b9dac02b2581e3dd10bfa10 -> 17619f64d6cf3a5aa653c7b40b7cba897f2ca922f8e981343ac16a36833a03fb
+~ -[AWDAdaptor sendMessageWithMethodPrivate:respCode:dict:] : sha256 49d629b8614b480e065486eb133833194528a2552bf26665d58be537650cb7ee -> 7d1907723ee133015cebf64cb9bdcaecaa131af531cbff5f8d0082340a1509fc
+~ -[AWDAdaptor parseAudioTierChange:] : sha256 3b2f1fde6b6baba3c6bc9563ab09c9d0a3ed9e4e67eec265b8a7717b1a6bbd3b -> 7f1a4326f538e9eab38dfc139e3e55c966add8f3e0eed311fcb21bda1cc44347
+~ -[AWDAdaptor parseRTStats:] : sha256 c4f8d6089029ee8311fa4f7bb6fe546a1a354e1b87264d07e3ed47922a8231a1 -> 02207d764fd6e4114ed9c64ffecca966e41ff2a76b2b83dc472b7f1201e65180
+~ -[AWDAdaptor parseVideoStats:dict:] : sha256 ce434179e0bb2c9d962a6e2628f07e148a26e3c6c1d6bc4cded6c3e7c9183c16 -> df31d4a807785b30386325bf71f8a3c3c70b7ff26ee23551162a502a1c8bde56
+~ -[AWDAdaptor parseConnectivityTimings:] : sha256 b0af36afe90934863bae19c3d0e2bc8a4ae7ce1d58ab6c9ff22c0c5b8c601911 -> 1791b2d9ea0dc4263b38dbc55d8e9ed8edf039d6c03e89646835f5b428b2cfa3
+~ -[AWDAdaptor parseVideoDegraded:direction:] : sha256 46a351e7aebf8c815360aa8d68d7beb3f3a4882f3049adb6cc8f1bb9f7067dbe -> 1c4c6a91af76e646ba80b556a01ab04bbc46606a48e28a2d2c68387ed98efd56
+~ -[AWDAdaptor parseAWDEvent:dict:] : sha256 622bf4c1c8bdb62d1660aa1c1b6ee106c2927a1877c2360ecf4eedf40aaad589 -> 6f03f755d3ebb74b35acff0b04157aba391eabfd2ba0ff23322b4f3abe7ce034
+~ -[AWDAdaptor parseCellTechChange:dict:] : sha256 1a8a1a850b84ebe72683d788a601af4ce01851db08219ec688352b53171d5cae -> 7a9f34e618f4e35ed831c57b90d0fa8b2f8993c6c9ea6d18ab14bc81b0a816b5
+~ -[AWDAdaptor parseVideoProperty:dict:] : sha256 e211c1368ed94062b335c6955f67fcb15b618e3ce3f4ee0ea521d2f7b274954b -> 3da1909aefa27674be33201d86b5fda3768de137511d265dd841322ed49f947c
+~ -[AWDAdaptor parseConnectionEstablishment:dict:] : sha256 c2166ef8a8d2afbe11a9d3dc5801683080ffa49b0737872a7492b9d85a82763c -> 8cf2eb589dfcb34ca1e316a2da96fcac61077b141a65e4d96543e149d043363d
+~ -[AWDAdaptor parseDuplication:dict:] : sha256 a9ca61c28701f3964b76e688b663c7ed436efb67163dcb067957370a5fb41798 -> 67deeef4e5e9d62b12693a2d47b6f0df110dbcbbdbd153fc587ce514234d37bb
+~ -[AWDAdaptor reasonForMetricString] : sha256 aa791ca9cfb0cd04a3d3103992940ca38af661843c9411b1f6d5462747c51463 -> 14e1bc0585e0078561c84a82bde66a5958650ae1cf3c8519da022e91124295a8
+~ -[AWDAdaptor parseWindowMode:dict:] : sha256 a41b2d90824d333d534917d806df8c3556667a69496468bac199d9747e15c98a -> 0bf3a9a3934cd1e14e98ef89f0d721c3848a98ae31160d58f52a68c339cbb035
+~ -[AWDAdaptor parseDisconnectReport:dict:] : sha256 486bb632acf5695db2622f99c3f5db79455c6864fb3841bcbbb6ab4abb36d2df -> 018943877cec431e4b0b97854cc4042669918a1c2cbb4393f6ab94b1dec79dde
+~ -[AWDAdaptor parseDTXReport:dict:] : sha256 e9f68cb856cef86bcc72ec82214a221e40f4f4094f1967f941893248dc6a0b41 -> 502b28f8ad2a0afd28369cdde6bb96d29b555525397383a0b95cccc588b85022
+~ -[AWDAdaptor parseModeRoleTransportReport:dict:] : sha256 12c6e3f059679225db9d5a928ff9586a92e8d590ebcc549694561c6e2385fb10 -> 3e1eb0bcb2e79572234e57a1b2b12e973e3cd2e613b1ae1a98bdf95701f0e547
+~ -[AWDAdaptor parseFaceTimeAggregatedSegmentStats:] : sha256 9c929e72e7c89d1c4730c807a1e868e4bd26369f4d1cc4e625119ee7dc77bef2 -> bb7e72502d210778ae30902165cc26d9045f14e77bddba2dd8fdf6592bcdebf8
+~ -[AWDAdaptor generateFaceTimeAggregatedCallStats:] : sha256 f7407b3d21b80583d7ddbe7f1f01da165137c46677cb2cfa0758821399e33268 -> 3114918728fad39988b8157a5aac15f0b67929accd4bef56944fca7d5b85b49e
+~ -[AWDAdaptor generateSecondDisplayAggregatedCallStats:] : sha256 95b86957478d741e5e3afc593a71823c40524a46f2c7e180b72bc466efb11e49 -> 349555f7d695affd298a855314b8e24bd5f60d3bd5fbe140581b04b9880c4e05
+~ -[AWDAdaptor processSecondDisplayLogTransportInfoStats] : sha256 aff5d7c7eed55c5b68002dd54a30677fd4e6820f9b58b693670ac9ebc04d4c30 -> 3860af5110f306ba7b95abcaf6594879aae48ee3a6e3199d213259a54cf5ebe3
+~ -[AWDAdaptor updateMomentsStats:] : sha256 ca64b0f2d54f98f4f64d202b0162ef73de3e9bdd068a7491c4ba462404c02afd -> 1d89c73990a6be8d32dfc8a551b392df887d5552db292a76f8c933a9bc3254b5
+~ -[AWDAdaptor parseHomeKitIPCameraRealtimeStatsReport:] : sha256 809b18b279566a592d6fee1f103309d76dda4098eb75948dd7a050398eafa2e5 -> 2422ab069e787d646b436764a9b14acd1fe16d18d35a24cfc870c0c339270833
+~ -[AWDAdaptor updateHomeKitIPCameraPLISentReport] : sha256 b4fdfa45b34563416f9fd94e4198476b9746576fd215628d18ba3688ad1ecca2 -> 86805679a5d6a77b7f8474210519515736d7fb8872458e04bb9c798794a5d7a0
+~ -[AWDAdaptor updateHomeKitIPCameraKeyFrameReceivedReport] : sha256 5f637e0dee31831977c29fa4c81fa3322adb68202c2ea4f7c029972c3a00e55c -> 80531ecc1aceaebebe3523f0a8c5596e0c5666e3f461d5e3e5fc2a3a6c36bdd6
+~ -[AWDAdaptor parseHomeKitIPCameraStreamStart:] : sha256 a260f4daebfc3358ae165f84fbc207fe258f47e7ac8256ab87a68b5583710208 -> e37250c02769813d14a66bb04fb044c83deda20b14717b1834a6223f12cbce1f
+~ -[AWDAdaptor parseHomeKitIPCameraFirstVideoFrame:] : sha256 8e006c91fabb20b0c50992f38ee28394897775838a88ded6f71d82a2edc67fe2 -> db5f33ba98571b2ce1ebd2fd936670a70baff5599da2bec376c04a94e79b0300
+~ -[AWDAdaptor wifiCallingAddSamples:] : sha256 573301ca8bbca9c4ed499332e71239973705882565fd732bfda8f865a5c18423 -> 79e85ad26334eedf9dbe79a3898bd4082bdc89ae49b02f3431b0f9948f387448
+~ -[AWDAdaptor transformStats:] : sha256 f14a4ab55a89de788a0897dbdd9acea72eabf334559864b309d6e878ce81a3f7 -> aa4822b53ac7c4ccdfda5dea3e65cc9d64956d0db7d042cca3ebd168b6335eec
+~ -[AWDAdaptor computeMean:] : 368 -> 364
+~ -[AWDAdaptor computeMax:] : 352 -> 348
+~ -[AWDAdaptor computeMedian:] : sha256 ed68da14d7ea8b68ebc5c4e8130c037638b07ac3c117678f72f21689f582b209 -> 802ea61e4d549f557165cc7c8ecb4c60b1f0a13234f4433450a8ee88cc055380
+~ -[AWDAdaptor compute95thPercentile:] : sha256 d00bb8a1c58f09c778882eec7aa32aec75b592279acf7b2ef7cd3c0a92ba531f -> 7c82e5fd795c3512daa61bc4b446962875976765a15aa4bf651d17e67df866ff
+~ -[AWDAdaptor allocHistogramForValues:withBinBoundaries:] : 912 -> 908
+~ -[AWDAdaptor transformHistogram:ofSize:] : 140 -> 136
+~ -[AWDAdaptor computeLossRate:totalPackets:] : sha256 1d2fcdd592e95923ea9f4bc715cfc1c4171238ff22c6586a3dceda470dd41790 -> 8231fc25c31c228760dd84959bfc34b8f2dff30036bdf5d71998a309a29779d7
+~ -[AWDAdaptor sendAnalyticsDetailedVoiceCallEvent] : sha256 2c7792fda69df54b60fc8ad03aa83ae16631ef0ce9ae283b42f664738314252b -> 8f9854ba3fb2f4998be46fddfd82652914d7194ee0637b8aaeffc8cd0b45d433
+~ -[AWDAdaptor sendAnalyticsSummaryVoiceCallEvent] : sha256 535335691a7388299597cca4cb8d17134fd1bb28729aa631a0ce2be72724babd -> f848b4e039757bbaaf9a25b89a1e9e4dab51891520dab4a20a3317e74695802b
+~ -[AWDAdaptor wifiCallingAddSamplesGenerateAndSendCallEndReport:] : sha256 7f6970de5a35a3767f1c04576d19891a9eab9eb1d3fd292ba87a2ecc8c31cd85 -> c25515325e652ab11d4fef23ddfb473c6ce35ba5a97747c62364a84f58c2e65e
+~ ___64-[AWDAdaptor wifiCallingAddSamplesGenerateAndSendCallEndReport:]_block_invoke : sha256 64c512fb8b7e5605429b6f284eb636e6ea750d46553e08a2c433d997db66406d -> f55bb99565b1c7dc3e2737e500ea1888cfa8e37a4ec75f7825d9ad07e490e810
+~ -[AWDAdaptor sendAnalyticsAudioFrameCountStatisticsEvent:] : sha256 416017f9233213de21759e1ea69d55fef2252c88eda610777f496c1fb2e08406 -> af8cbde47e4ddb3d8719420b0fe5691b0958bf6bcac8864ae9debf2bb0cdfb11
+~ -[AWDAdaptor sendAnalyticsAudioDistortionStatisticsEvent:] : 948 -> 960
+~ -[AWDAdaptor sendAnalyticsAudioDistortionSummaryEvent:] : 1516 -> 1512
+~ -[AWDAdaptor sendAnalyticsAudioDistortionRadioHistogramEvent:] : sha256 0ac57e7632cc23adfd1d6a2f1841f678bb50b10784715adc316bf7a716ee7dfa -> d735438643c4f3b7e48306c62bc35f84080f01b29dc1335d6097d0a9480f41ac
+~ -[AWDAdaptor resetAudioCallHistograms] : sha256 b8b370e6f7815c53a5b085ece974a02af4249164f7dd6630bbdeb1457e8f4d68 -> 95bf82f8d06e398c59a43ee053375fe0dfec66393f4f8ca4e91314c6d6c71e61
+~ -[AWDAdaptor newDistortionCounters:] : 528 -> 524
+~ -[AWDAdaptor awdstat] : sha256 00eeecba45904b1aa40f7b7772a7f046518729c5e46ee27b852ce52a4c1af147 -> 37ab3042390ebc6defde1cb5cc729ad896a53de5906f623a6d9464db684297cc
+~ -[AWDAdaptor setAwdstat:] : sha256 606bb9bab391fe6981dae69d1fcf10fd338f5c5ba83ebbb72ea0b62a85f28c73 -> 6ecb2a16ebe99d8da7b834a453e045c699272c30340dbc074154626d252c6209
+~ -[AWDAdaptor videoQualityTimers] : sha256 3c4a3e6a8ef69c5474641711ec5b7266c9e3ada96df299ff029c807f19b15e2a -> 92bc4bc7fd6f09bb647b95a0a9f46e5b63997cafb20be4b95abb1f5e8cf5f148
+~ -[AWDAdaptor setVideoQualityTimers:] : sha256 32e63f810b288bee6b8bd0a170dd30a182d8f7887b9e24cb57bac10ac3c22665 -> 0744e3f7639df4c823436b3c040fc3ef7b67198a4df5d022f4b41b0f99014756
+~ _OUTLINED_FUNCTION_3 : sha256 c5e016d0dfbc90cf5c38fd65cad980ea8a84e24f7d2ea14a9753a46f86266c0a -> 7f8f3c75cd642862ce7423b078d2e9fcfe8cf97f0000b25adee41bf9c5d4877b
+~ _machTimeScale : sha256 3aec0705d2b930a55165bfa601574127fe23e7f51e8ed7398ef17489684419a0 -> c8a173aa6f43d09ca5caa1c3481d349e0fd2933a90b0e6f24229065d74bf19b2
+~ _micro : sha256 e3d167a53e73045514b81e9a8dca246a8db0bfbba8f11661d58b3db4c1d4d2bf -> b99b505a9f9d34df40209cfead1c646f28b6ccf7dfb5ccfd163f78ffba385969
+~ _GKSFacetimeSubmitMetric : sha256 9231cce467df3ef6c838bac34444327bc8f05be2400ac2c9dc1b22c2c2f9b7bf -> a2681d3835f7aa81b6fc178d3dae5b15dca73aa458b078471549fa313ca8c7f2
+~ +[AWDStats statsSingleton].cold.1 : sha256 99d3685e7a38bd694da4aed3289b3536b0732212c5f172058609705fef00cb00 -> 6bc7a2d44a8e718a7e7b1b75d20be79ab5552361b246f89d6934085874d3f240
+~ -[AWDAdaptor computeMean:].cold.1 : sha256 aa02fde38b4a94c51c11ba74949dce4cecd22e3ecd5231083a3c82b0447b548f -> f382c9df1ed947a893c7d01c7810c0e13e615cdb0b0b9b8a823f6ee0ed849004
+~ -[AWDAdaptor computeMax:].cold.1 : sha256 829789312cab9740d8f9bd2e8aef2ba9402505b50bc61258610526a1634c8057 -> 3d61f478980677910bf1ed72e0215bc1533f548bf6a9be5d1748daa12dd3d1f1
+~ -[AWDAdaptor computeMedian:].cold.1 : sha256 a6a4a6b93497fb910ab91419e01ecf3f4108bcfa5ad1556014a231d0f3ca6290 -> b60a9a8f76b6700cb29e232f961e82fdb2c193e5dfd15b12ab0cd753d31af05b
+~ -[AWDAdaptor compute95thPercentile:].cold.1 : sha256 e9c2957d638dfc04495cfd143768cdb33a8807de052af2e76b29597eec41cad6 -> a5c4d70a1db946a66e0368f229ce3c224453fec797106b452e50c5bd71d35c43
+~ -[AWDAdaptor allocHistogramForValues:withBinBoundaries:].cold.1 : sha256 61942e35777613d65afc1005fbf5117573e58788ddc97c118ec2007f40327f9d -> 61b017b1ea36219ac53d3466076044e1f2eecf046f8e309e2cda92d027f9e44a
+~ -[AWDAdaptor allocHistogramForValues:withBinBoundaries:].cold.2 : sha256 79112f3db4a38d6e5cf5d4d063ac62c673b23838bf57450101b018c8dc7fc024 -> 724386c577b905e5f39f5c3457ee44bfaf568cfac50bdf47959b2abf98ef21a2
+~ -[AWDAdaptor allocHistogramForValues:withBinBoundaries:].cold.3 : sha256 fdcff09b7e630add589671fdc87176fff10366b9d2b3f8c63bb643d00c4ea5b6 -> e61146420ba3f0e06ba1fd57612967204911c7fc26a08734e7aef6100d77097d
+~ -[AWDAdaptor computeLossRate:totalPackets:].cold.1 : sha256 1c5b66da1746b390e2bfa3053044af4cdef4a08f40a2c29926acdc2a3be67034 -> 1ea27f7b2918afe7525eff6efdd742c82d9b6c29b44309c6550ac0adc1238737
+~ -[AWDAdaptor wifiCallingAddSamplesGenerateAndSendCallEndReport:].cold.1 : sha256 8326929f2d27da4db94b5c11ad3000ed260f6c8f76312a592db8c4987ff7f6cb -> d8e6af83d5db734e35f81916138220042a66cccf1c9b208e8bb0f1fe82b163f5
+~ -[AWDAdaptor sendAnalyticsAudioFrameCountStatisticsEvent:].cold.1 : sha256 7c18bbd53802ef0650a51d8b6af7dd96713c95fc4383667c468ded4567cf7899 -> e62070526589dfdb9bc28e4c7d4a784fb97612f634efd3a7fd5d187f94b55035
+~ _machTimeScale.cold.1 : sha256 aa91018775ce55be936a8b5b81443b02414cdbcf6dd87166e6c422229b419a5c -> f043c3ddcd1fe353ad73b36450b2bebde0ce40b0622fe26a1b842e7bdd28c777
+
+```

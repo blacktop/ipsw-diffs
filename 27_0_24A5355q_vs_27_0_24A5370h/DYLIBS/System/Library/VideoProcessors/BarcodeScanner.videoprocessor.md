@@ -1,0 +1,96 @@
+## BarcodeScanner.videoprocessor
+
+> `/System/Library/VideoProcessors/BarcodeScanner.videoprocessor`
+
+```diff
+
+-748.0.0.122.2
+-  __TEXT.__text: 0x8e20 sha256:3c72274f3bbf650db3df42ae25c7a25725651b3ae7992a563327ed687aad2a2d
++753.0.0.122.3
++  __TEXT.__text: 0x8e58 sha256:68fba83a48e454fe0e90f3514a49bc41f1495a2e2b2ec57b5aae1f0fcba39132
+   __TEXT.__const: 0x40 sha256:ce0fce8a4a029e873a76cf0580797c243752821cda93fa719fb92b68dc788155
+   __TEXT.__cstring: 0x895 sha256:aef52ad4e8f4fc3bc8a63b99781f68f940bde362d4320aabc0b29c6d9e7fcffa
+   __TEXT.__oslogstring: 0x1117 sha256:bbf3875292d4c860756929ff092e34a751188248175b2f6404f5822826720cef
+-  __TEXT.__unwind_info: 0xf8 sha256:71b5c7e20480adccad34d5fb08aa7bcd9e8c7f3d2773776c89ebc0ae046363d8
++  __TEXT.__unwind_info: 0x100 sha256:21a9b8399b11d2a9b45772bdda24886035b9e010d2075ab738871baaf83b0d9a
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xa0 sha256:0d46daa276ee47b5ea912ee80cd276033b4d58c7a80c931a247bfd49ddfa89bb
+-  __AUTH_CONST.__cfstring: 0x120 sha256:ba6d9cf2a13562f4ddeb863b71301278a1724915bdbdeda0745bc1a730c4fbff
++  __AUTH_CONST.__const: 0xa0 sha256:065009c1db02607cadb60456968c561b877a3b82fc779a7bedc29807e0403726
++  __AUTH_CONST.__cfstring: 0x120 sha256:b013ac5a92c5c7b4e4da5161afebfd07b07f73f793d0beeb6cad689d7614d7f3
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA_DIRTY.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/CMCapture.framework/CMCapture
+   - /System/Library/PrivateFrameworks/Quagga.framework/Quagga
+   - /usr/lib/libSystem.B.dylib
+-  UUID: A3ACC69C-51F3-346F-8DB4-8C1979B8594E
++  UUID: 1D75A483-321F-316D-B96D-D6D1F6964548
+   Functions: 65
+   Symbols:   342
+   CStrings:  150
+Functions:
+~ _FigSampleBufferProcessorCreateForBarcodeScanner : 3580 -> 3584
+~ _sbp_bcs_setProperty -> _sbp_bcs_setOutputCallback : 2160 -> 164
+~ _sbp_bcs_invalidate -> _sbp_bcs_setProperty : 272 -> 2160
+~ _sbp_bcs_finalize -> _sbp_bcs_invalidate : 80 -> 292
+~ _sbp_bcs_copyDebugDescription -> _sbp_bcs_finalize : 316 -> 80
+~ _sbp_bcs_copyProperty -> _sbp_bcs_copyDebugDescription : 840 -> 316
+~ _createIOSurfacePropertiesDictionary -> _sbp_bcs_copyProperty : 160 -> 840
+~ _sbp_bcs_setOutputCallback -> _createIOSurfacePropertiesDictionary : 164 -> 160
+~ _sbp_bcs_processSampleBuffer : 9968 -> 9892
+~ _sbp_bcs_finishPendingProcessing : sha256 f34a4b4c0115278ef106e7dca3da23fa80fba6388837e57534db2860bec74bab -> 1a5e61bc7357384ce6a69b00ff1ae432e7386d62b7aee2844ab6b431c3f636ad
+~ _sbp_bcs_purgeResources : sha256 83d5ce4ac1c06823b696eed68009c90ddeb203ad626d0556682eec4a057e9a69 -> 6683f6ddfa190baaf6b927aef666e66183d8fd10c2167a4b6eb392cb6b3da93e
+~ _ensurePyramidArray : sha256 b8e6b311234b6b929957d7538baf60974efc0a9d172afea236fdba1584d15c14 -> b160612639de45eb23d676ed9b293c1163369978a07b1e4dfaceebb8290e9f99
+~ _sbp_bcs_updateBarcodeLocations : 2224 -> 2184
+~ _detectBarcodesInFrame : 8748 -> 8892
+~ _transformInterestRect : sha256 5c2bd684c4504804ada67376c6518950c86b5f1f5918d9c79db00ea0c6c6211d -> 505356c976d1ef48a61e480c1f40bba1d4f97b3b9af62f7a3447233923ca7ef8
+~ _copyBarcodeToStorage : sha256 20b945e48d74803f254727f0bb1445a9e0b722ebd846a6a2f6d9120eaf474698 -> b0aa34a92613786bd68d2bb7328acb954abf0f3b89612f1323da2a6e4a90e88f
+~ _computeBarcodePriority : sha256 a6c7c47bae336ffd9ba1f9082985ef8ec43a0edcf91ef550fac2fd4e9ed4fc8d -> 6cb50329cca9a0f71282f9543ad0abfda463c16cb73c2a88f23ce586d85972f7
+~ _clearBarcodes : sha256 fca676c083aaaa6a9f665dc27403df4a040d8a3ed5a7d0ddac28981a29f28cc5 -> a927d13f4843f74eb1e50b52049b99bac6bbf63fac63fbdee3dc445e752ff307
+~ _OUTLINED_FUNCTION_0 : sha256 cda078a038060b92cb360bc2c8087d596c7809df7c315dacebece511aac80b01 -> a2e9ec24fb8097e683e63a5fb396c7bf6f04f171490dc39cf6fa3e777e78d179
+~ _OUTLINED_FUNCTION_2 : sha256 0dced7d1193f606a351c0142c0c0324b0b715b53ad16cf7c4c02c448028c7f63 -> 903f88d3395b258535c30c047c54427642f7abf2ae8b2f376a1fad85a141d38a
+~ _OUTLINED_FUNCTION_3 : sha256 0765a6b480298cba93f24c3395c5c4241b373363c20c7133ae95ae634f7fa168 -> 64e6fb60dd846a989b8c6317c2280f5c6ae34c13a1ace391eb6a4130cac109e8
+~ _OUTLINED_FUNCTION_4 : sha256 f288f016766f6fb7d86903e45ccc3da3fbf35edbd97a56e86d67e82abf86c299 -> 85438f8aee4d7abef1a6d8b7a6fceeba9a085218b6e3cb9910924b820fa1a147
+~ _OUTLINED_FUNCTION_5 : sha256 8752ee3b547e21fa7069793e52b7175b7c4fc0515f76023e6a17b7f153d2c7c8 -> 618d3b4098791412529d6f5e2e0cb5287525a8e8cf7c8e1d4e6ebea393039255
+~ _OUTLINED_FUNCTION_8 : sha256 51010366757e907e7b566c7ba08dadf995a35b968d43951407e77c81597002f8 -> 20f3f4cc9dc2d7ca0a1103e702385a1ad17d028fd9000851a2d171eb6f128d4f
+~ _FigDraw420Color : 380 -> 372
+~ _FigDraw420Line : sha256 a54994dcbe5c3202bcab72d86e95a9791f8edd8545811ac3419d0417dc20aa08 -> 4db3beb0c968bb9c27fe332b050f23cf6a6eafecadff261178f359cc4f66a63d
+~ _FigDrawLumaRectangle : 416 -> 428
+~ _OUTLINED_FUNCTION_2 : sha256 5fb64b8ff8cd533aa0448e4d502d3836ac600b6bd73af35fbbffb9b74b2dbd06 -> 29d8a42785ece274f77739f776e2b3f5fabe7f9a0b4ac44b5ee4c685d9975154
+~ _OUTLINED_FUNCTION_3 : sha256 40778320c2312a128284a5b008c2a24c6c09a55c2218d9b5f1c97288edfb3c54 -> f55fc23c9f39144f9b48c23e07bc7a5a7806078f5c4b9f5862aa3124938964c4
+~ _OUTLINED_FUNCTION_6 : sha256 a32d1470f74c1c342040eff7c10c71c12dae2dff032fb922804d944270c6aa17 -> 400a6a5c7d1baa451178f30a7e767bddd17c5902e20e2fb135833a88bc614199
+~ _OUTLINED_FUNCTION_9 : sha256 9582386fe91baa527731206f120fefbb52cdb59a3f501708969c0add364318d7 -> 4d3539508ac7ff1033fed9db5dac9e32aa923ec8fc94e7b5a3dc57cccd528a64
+~ _FigSampleBufferProcessorCreateForBarcodeScanner.cold.1 : sha256 7a95e67f723f7bbf2402be32024199b6a564e265b97c303c93cb0eff1fa9411b -> 133ce2542933bd3747b265344ecfca02fde0e14edea8e51525dc4a7e2d1df83b
+~ _FigSampleBufferProcessorCreateForBarcodeScanner.cold.2 : sha256 3f5bf030d4ea24932700adb9f52fe1e3b56cd7f076bf3a639ab64b11b8b7b9d7 -> 8bd6b43f480421e72278bd8bab1bbce92df452dca96618c01caebf8919b4e9d8
+~ _FigSampleBufferProcessorCreateForBarcodeScanner.cold.3 : sha256 86071235284efad33a7021b33ce438f9e50358f071a44e5b3168f3c7ee684b49 -> 27269609f6d8aed9263c222784a0b2dff9415c7bd30f4a82773f842d85c1ff63
+~ _sbp_bcs_setProperty.cold.1 : sha256 0b0d26fb4e7e7a2ad661f7538d57d54a8f3119218b2e1fcdfd5e0c71de6e6065 -> e302f0106bbd736824e77b8aa97046b8f602ba46dbc5a05defa9e8fcd75e465e
+~ _sbp_bcs_setProperty.cold.2 : sha256 420e766bdfca3abac3c0f8570e2cd8fbb234fff9f7a3dd157e1679cbb293cd09 -> 22d20db7e10300049a2637ca5ca6512c1dd27d4185e5fff818a7825d8ec45cf6
+~ _sbp_bcs_setProperty.cold.3 : sha256 f26f9ff43425f9ff858d556635faaa7b022f925e8489b9579b6086d830ff1720 -> dad61f2ebcf2bdef22076a25fbf531edf50375f14e99161c325a2ea63752bf64
+~ _sbp_bcs_setProperty.cold.4 : sha256 0ea6211957c65a01ecd0bd83d8e30f03b38f6b7959cfd7aafaebbc80a4d4146d -> ca8f06bd2b2d0ea7d4c60ac1c2abea57b3b1ed26b91bf47a88bd99ebe140cc74
+~ _sbp_bcs_processSampleBuffer.cold.1 : sha256 40ce0610248a7efda1254466b4a4330c3a77006b0dbc87c61fb5fdec12dee05c -> 51311147679b7d4b160b129bf5d2a9c121ab49811e1820e6a8c18073dc584171
+~ _sbp_bcs_processSampleBuffer.cold.2 : sha256 b57188592deb98e404e8016c6fde5e15c74660c063378f444139adf3ebe280e5 -> eb8b08e0a3baed1c1742ef1a58f49fc38daf7ce29be881f836e9c9ae949c0179
+~ _sbp_bcs_processSampleBuffer.cold.3 : sha256 2d909452cc3fee7a0d380b8b3150962628124ef065fef26f02c095cdbfd43ffc -> f646bd40c5e4be1e3570f42f6ca5b631c7dc2f88186f70603b89884fe118214f
+~ _sbp_bcs_processSampleBuffer.cold.4 : sha256 907576dcc5dd5f2d872d9bdc49934a1db77a032f356a4119316b631aeced2643 -> 59372dbabc27a50ba8e3e828428f3dd9b8ff3052f08041be4ddebb321011b65b
+~ _sbp_bcs_processSampleBuffer.cold.5 : sha256 45b27bb2030cb52d1912cf03811f2cfb13c3e1c98d523dc8c06cd9c1b8fbea3b -> 51f66d0640b9f4dbe86c82970359b74e9a5b38053de925bc8c5d2381e9f02c32
+~ _sbp_bcs_processSampleBuffer.cold.6 : sha256 ef111a718e9ba0a2d7533f74780e110bb762de8376a8d17a5135c462f4951fdf -> 220baedc0e0bd0d89d5bf72785568facee8ec64a55800a460a5dbe50baa06288
+~ _sbp_bcs_processSampleBuffer.cold.7 : sha256 243acc5cec2c57ee03c4e42fddf8a4789c208aec60b9edbe4c670806dc976c5a -> 8df6d41d398576ab41300296b483a7b8f531f06a46b96ddba72d045279d02ae7
+~ _sbp_bcs_processSampleBuffer.cold.8 : sha256 b6d528b1d3f31c2158b096a216b7bad568070c45aebb0c2f8a2ba625d05cc2ac -> 6ac7a6934c61786873bfdd8000d1bce1ad527856948890d82aa7b58cfd914406
+~ _sbp_bcs_processSampleBuffer.cold.9 : sha256 c63a83c9a1be9fedb072ec16596cc1d40feb7b4450cf514b49d15a57b563b9b3 -> a6f6192f900f0e58d14303856cf7455f86b78d824e5757bc010a090b834deb92
+~ _sbp_bcs_processSampleBuffer.cold.10 : sha256 b58f49f6ff8710640c57396e5885a9428898afbffcf27d30744e3065503202f4 -> 41e95e17951ea9690c26de7a07122fdccdf9ffc5c8914afa4a2792cda7a0cbdc
+~ _sbp_bcs_processSampleBuffer.cold.11 : sha256 97927f18344192781f99a8e23d636ad5f7155b86d47d03e942112aad5a6f01d8 -> cc897c4b4710e6bc7c02adfb08656b631ce542cbdad7248577430efb30cf7c0d
+~ _sbp_bcs_processSampleBuffer.cold.12 : sha256 6bc7c02d34097b95eecb3d192d219a3133d37ffc9ed4151daa4f7e73e9461de1 -> ea9c358e099df4ce4983b9c7763aef7d71b8a7462869449aea6bc265f2f93430
+~ _sbp_bcs_processSampleBuffer.cold.13 : sha256 d81a39fbe64b03e8d0b476bd39db7cfb63edbb6523353b13fe4328c137fbea18 -> a677dfe5650405c2e8aa12bce4158fb2cf973115c26421ddc8b50955af7562b5
+~ _sbp_bcs_processSampleBuffer.cold.14 : sha256 ded53d4ae9de526501a1751f42f133429773e94d869c73cef8ddbdf30b1fd95c -> 76c554d542781092ebda2522cf292d2bd67f72bee47eee7d70d5196b66e7b04a
+~ _sbp_bcs_processSampleBuffer.cold.15 : sha256 76d86fe9ada79217046dc6e3c87e1e3fd7e85f64c641de8455597bb8abe1d8cc -> eb9b1ad0e726fa75466a0a9245ccd76b048ef4a4c4e6fe86e9c459b8c04c02b0
+~ _ensurePyramidArray.cold.1 : sha256 44ae35113265ea5fc1a31bb2c276d180a2f589c2388c618d8b4e839572429ce9 -> 766db7bc9d97d0d6add7ab83098e80dcfaa3e301ddff3ac75ae90f0029e6756d
+~ _ensurePyramidArray.cold.2 : sha256 2b7b804cb41aecd5a191b049dee78303e57d84dcd2fbd5f3fb04e76c16f6a442 -> f0e23289f3d11aa459dc1dc197c27534b206ce5a4ffc07f06525be4aa2bfa9a3
+~ _ensurePyramidArray.cold.3 : sha256 736347f9e474c44d95b2cc38ceea8146844fb5442fae66904628f63b6c56cf7f -> 67811852ddd9ff5ccd73582e0ac1115312f531726a9bcbefbae7b1c697ffb5db
+~ _sbp_bcs_updateBarcodeLocations.cold.1 : sha256 eb5ce50e73b8d48292456d517e3ab95b71664ccc731c8961749ba054358bc51a -> 3e83ba174ff39b14f2b9b1d23b6398c50fb1072e9afc3b215f3e167e507b8be1
+~ _detectBarcodesInFrame.cold.1 : sha256 cb9a503a587fd6dcab8ac5e0d51da73bac6378ee3088ca0e10a1347f747fd73c -> a37bb0f46800857c84f50b92b222e7536adf30b19f6e518279c16eb485feb3b7
+~ _FigDraw420Line.cold.1 : sha256 e3431db2651bbbee6c57c50193b9ff36199232de661ac649bee46d95f8bb37ca -> 63205ec8445ca5d0b1bb8db5d705002f187213ef2c31843156fbd91018c18d6a
+~ _FigDrawLumaRectangle.cold.1 : sha256 a9d2a387aa7159a426465e15b078aceb803ddad365ba3bab1749caab93567fbb -> 3a3e42e29bd20408f8144a89f7f7dc972f2bb1d4d4524e7d13950eb5fbb016b3
+
+```

@@ -1,0 +1,83 @@
+## SoundsAndHapticsSettings
+
+> `/System/Library/AccessibilityBundles/SoundsAndHapticsSettings.axbundle/SoundsAndHapticsSettings`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0xd98 sha256:abd7508453d8bee253bb82370d5293cc8db0c93ea183321787197b79e8560fc4
+-  __TEXT.__objc_methlist: 0x118 sha256:0ca873b4d1ad504bcaced27ea5f07842912c83d83ac4de56baa85606f04fc67b
++3039.1.0.0.0
++  __TEXT.__text: 0xd94 sha256:d528a514ecb76a2641f46174a2784738f1bcd55df3c271e6c50f5ac53eee5ce2
++  __TEXT.__objc_methlist: 0x118 sha256:1fc253ba9ab2fc7d9f0a4975aae15f9579c02f47c8836310d8ac09af6967d8d4
+   __TEXT.__cstring: 0x2e6 sha256:338c2abfad2e6a58880c70df2975b086f0c6bbd175baeb92c583621631d2b777
+-  __TEXT.__unwind_info: 0xc0 sha256:277b744623ef1c13a6e8939c6692d8bfa9ba8de69a0f60f4bc651769a5cb04eb
++  __TEXT.__unwind_info: 0xc0 sha256:412ebd4134bede2327b7593764fa47bbbfaf8009b33bd7a02be52710f594796d
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x60 sha256:a13451e044224784709c03fd6771aae24ee138eebf7c41f2aa71ebf0b34d6728
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:cbb6bb94495b167ece232c0d9fb17692c741491c7f8e597305e9ab5d01586a94
++  __DATA_CONST.__const: 0x60 sha256:da447d334f48176527d5a5fc4aff1f81edbbf67e2790bec1881df830002f320e
++  __DATA_CONST.__objc_classlist: 0x28 sha256:9d68661c05058f5e32007d967903890a06bd5ddf65887c71e7e2cdd0299b87de
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1a8 sha256:ea58b5d88c6a93feea318dc884793e6e4fbe5afa2b74485edd597f7cfbb5969a
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:9b51e573e52dc60bbb78796c0e6eda1c4240986dcebd9194ed1d113d6e130c6f
+-  __DATA_CONST.__got: 0x88 sha256:17e41c4a4914f7c0bf1da1052d4bf86e488d0a3709ecfbdb19be17d194120c88
+-  __AUTH_CONST.__const: 0x80 sha256:a04b765adf079ed13b806414c8b7540c260ec383ab22e6c781f88f57df01a42b
+-  __AUTH_CONST.__cfstring: 0x380 sha256:882a0efa5d1ba45fadb006d3867a25ce59d491fca4d473f8d4fc07113e65ec36
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:5224f793c580563b95d58101a496691253ae7caf521dd043c690ced1b6c34f8c
++  __DATA_CONST.__objc_selrefs: 0x1a8 sha256:f30500a6150e97e3602f49d01d738836d2b9e4a55497f26635640c92f6cfab04
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:eb69f2f67094ac05f83b2172e3932f3f1cb9257d0058598291e974929051abc3
++  __DATA_CONST.__got: 0x88 sha256:e8f445cc7fb899ca4f4e0e167c0c0b1bbe13f7d5330a71949c15c9c45e615dda
++  __AUTH_CONST.__const: 0x80 sha256:51e5427e8b22aefa749cefc95613d7b7bf1b37d7f712174ecf0661c998b2e2f4
++  __AUTH_CONST.__cfstring: 0x380 sha256:4270a1468b8482b1dbcb26834ac13c4b7fbc82e08478199ec4606e285ac15a21
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:1b638e8c4eaf9c271854eaa8cd0cbb426531f30374f3b871658d660e8a0bf1a8
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:25d0c8f2d861c9a964120898e89c34f7b18a346d508ce9639992bab09a35f20f
++  __DATA_DIRTY.__objc_data: 0x190 sha256:40d3b8e0446ef0856da7f4e776d1134dae34d8beef3961e65bf28e8700cf7e58
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 57D1AE42-84D5-3EB9-8879-D19717BD0E88
++  UUID: 32A35C9F-DA4B-3CD0-A9EA-5ED07C820999
+   Functions: 24
+   Symbols:   175
+   CStrings:  61
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ +[AXSoundsAndHapticsSettingsGlue accessibilityInitializeBundle] : sha256 7927e95dab154a4f53ea4eeccf9f931c9488f87ab980037f7319067dab967c45 -> 47981bc20bf9c262cb698d13ca884d947aaf8e85911a305012567b719717381b
+~ ___63+[AXSoundsAndHapticsSettingsGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 f53f8e244b19921b284a972237b9318d1b2bc22a3c6036dc7def87407db176a4 -> aafb54893d9560ba037f355abb5cef04ad74f831dadfd430d1821112220ebc69
+~ ___63+[AXSoundsAndHapticsSettingsGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 82a97a3f0a33d5d0e10561ac2979e62c01e2623bbde38b7987021f8462d20bf5 -> e4e1aaaf73f6b3ba782e133d3ff20a176499453fa2c5431fe99cad4311fea641
+~ _accessibilityLocalizedString : sha256 ddfda28b350053141aa4d1c3e48b925a1f329176634bb25fbcf1616af06c9ff2 -> d1cda566e703a208161dd97d35471f4d25584789f6876004815d49a724a81faa
+~ +[SHSHeadphoneNotificationTableCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 25e3bc37895f5191d74841f2d21cf018756a7c16349ed65c2c001c4f2924829e -> 3d1de2a96061e83edb3458f95548c70fd4f394729ed70657fe198fa18de83dc4
+~ +[SHSHeadphoneNotificationTableCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 06ad28f0f0a8d99f3384b195c1b8874a18862ffc659865a3dc2f0ea58b2a31fc -> d2590481c883577fdd6a1d8aa3c53190757958af1cd3faca48877b5c36b5426f
+~ +[SHSHeadphoneNotificationTableCellAccessibility _accessibilityPerformValidations:] : sha256 0c35a812ca333c5151e3fdc4442e04f9c5a516c806ac99fc3a37843681b54800 -> e8c6ca8ced469f8964b3d310c31d22fee51dae8ae8ba273ed2eef1ad23b65039
+~ -[SHSHeadphoneNotificationTableCellAccessibility _accessibilityLoadAccessibilityInformation] : sha256 eae24f4b3b5f03475fe5503bf0e3049dacc17b91c4d68a8bad4018548f1b3064 -> 7d378ad17c884dc0c6b7d91c84aa05fc52089f71cc31349a65007967f558618c
+~ -[SHSHeadphoneNotificationTableCellAccessibility accessibilityLabel] : sha256 7a5e5c11440e052921e35864b0a6d4a3a1400971fc6f479bcc41e030ccaf2136 -> 03d118daa81358ed19c19ec65e7a770cffa8bc924a6001156af21fb0141c2e70
+~ -[SHSHeadphoneNotificationTableCellAccessibility accessibilityTraits] : sha256 a52e42d0960aa39bfde23da0120785a794908213278b018c113f531bd868037b -> f8d64233b5b2cce159a790b3ec1cb001b239f80b533702d0cc0becc195542ef1
+~ -[SHSHeadphoneNotificationTableCellAccessibility layoutSubviews] : sha256 7cdd2545be25d6de04711950d7ad66aab43cf632634d491495c6ea1bb65bb5cb -> 0f16d2072261bb9ead04c3b6e1ef4befecbcdc5e2d2d681466f38010ea2c5bb6
+~ -[SHSHeadphoneNotificationTableCellAccessibility _accessibilityLoadChartInformation] : 884 -> 880
+~ -[SHSHeadphoneNotificationTableCellAccessibility accessibilityChartDescriptor] : sha256 e9251592144edfba4f34b5f70e87ec1b745078e84b3cb1dc783fe38387a3e3d6 -> 7f15f1da23dfa8a0010fdd8ee5bf8d234c325798ac3548b0473c7dc8de5a9246
+~ ___78-[SHSHeadphoneNotificationTableCellAccessibility accessibilityChartDescriptor]_block_invoke : sha256 13e42782807ae737dde712f3f1670f4adf1c69534d430bfab49c05da33f02d16 -> 1e3854b95481a29f7f2987caf9b1f5bbc637a96182ee2b7ba2f4a55fd6b390fd
+~ -[SHSHeadphoneNotificationTableCellAccessibility _accessibilityDataSeriesName] : sha256 8cbc0a2baacbd31846b5990157c260aaf43173495613938ce416b644165991ca -> 67d5d480c1f586af279be99a0b4e90be981b3dcee33c4cb033ec077495f9115a
+~ -[SHSHeadphoneNotificationTableCellAccessibility _accessibilityChartSummary] : sha256 b897c1c3e06c3e8fa2fcae55d14db4f41dce60869787fe5aebcd84fb2710be21 -> 8c30931eecf88983a4b6e98f05b3faaeb4df26e63760df8631ac89abaf95fb5c
+~ -[SHSHeadphoneNotificationTableCellAccessibility _accessibilityDataSeries] : sha256 c914bb34867016cb432d443136e3440f0fd3997c2742276c7bdb2c2471694604 -> 1883d941115f602f8d15612e3ebcc14806737a5ac265f239645abe570a14896f
+~ +[SHSHeadphoneLevelLimitSliderCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 d85a84a8ab58bd3c5cd5cf68be311fa882b3be1d2a59d67c4ea7bbff43c8bee9 -> 192d5f87e7dfd7daebc47a01874687efc534b1a504370a807c3c36bd93aeb523
+~ +[SHSHeadphoneLevelLimitSliderCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 8a1aeff9c9414abdc1ef97aa33de39ace533b0b95dd60f980497af659bae9cf2 -> 6a94b7508a5db67a0392ee85cd448c33ca6fb6d12fe180ef836adb6e0d63da84
+~ +[SHSHeadphoneLevelLimitSliderCellAccessibility _accessibilityPerformValidations:] : sha256 e4de3549ccff0a3770e83f37eafb7dee446bb6145a138a06e67c04782a2f6ce8 -> 93c183d3296ea1da60a4b7367d39020f2d38b88b8e74dd54ea63ec6971832709
+~ -[SHSHeadphoneLevelLimitSliderCellAccessibility accessibilityValue] : sha256 e0bba09d3c556d6bdc462871532a53b947bb0e47a336a38016e044b6a4dc5b6f -> 1e6ea808a9eb780a579cd1468058a79143a24774210d11ec26215307f900ac78
+~ -[SHSHeadphoneLevelLimitSliderCellAccessibility accessibilityLabel] : sha256 2cfbd3953500e16e34739cf33d41c1154330f3b545a5251bc0418fd738a55b24 -> b7e40624bfd21f412d96f069263fae4d052ecaa0ac22deae6b4a375c41deaac8
+
+```

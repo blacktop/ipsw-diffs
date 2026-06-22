@@ -1,0 +1,118 @@
+## DictionaryUI
+
+> `/System/Library/PrivateFrameworks/DictionaryUI.framework/DictionaryUI`
+
+```diff
+
+ 53.0.0.0.0
+-  __TEXT.__text: 0x22a4 sha256:ab12a9872303ad76c2d6b60eb8eb5c3311d7402d04b679c6d356439c697f8300
+-  __TEXT.__objc_methlist: 0x32c sha256:cc34a37c8d675dbf381dc6a524f33129beaecb791a0e38385517d6d23b08f855
++  __TEXT.__text: 0x2290 sha256:809c6e5769f15c6b7da334a48ab4df85265033ddb92d028a86b1874776fe0541
++  __TEXT.__objc_methlist: 0x32c sha256:d0922aa9dfdda0b28bcfff55a416c860b7b52051628200a95901105cfca3785a
+   __TEXT.__const: 0x50 sha256:64da39e24eb7c17b66e016c24a3a4af3828d04cc55a91e88f529db457bc8c275
+   __TEXT.__cstring: 0x3d2 sha256:fd7495dc62a4c88b488a6bb3def5a48f1955defc0e7255a1d32d5d6161550399
+-  __TEXT.__gcc_except_tab: 0x84 sha256:0a3c29457eaa376aa872f9bce7fc6afbf577622c5e33763df3aace09bd00f51a
+-  __TEXT.__unwind_info: 0x120 sha256:89884ffd2feee7a6061b6823fb829bf9c06024b8ebbb63badcc26848e4f19196
++  __TEXT.__gcc_except_tab: 0x84 sha256:db57182a809a92f1ede18d0c26448d1595061ad8f1efdb60a2378dfef12d8704
++  __TEXT.__unwind_info: 0x120 sha256:8980f6005b45112934cb4e1dff48246259e7a91a60bea2bb1d2d89d6dc86954e
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x110 sha256:3cb0a5d8fa96d144e1d471019b1ef0f97d704356e7ea82da2bb8a68e3d5d58b9
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:bdb2a5833610e07364e65bceccad831d58888aa13238b81e831d56c4922eed51
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:a647e35ee5d6c72c03c3fc89f209c6ea04861fc2cd44f5fa3636f0b50737254a
++  __DATA_CONST.__const: 0x110 sha256:472e0519b7f1f2d8bbeca136d53e56238d62388fa90221d7618ed6f7c6dc679d
++  __DATA_CONST.__objc_classlist: 0x20 sha256:f3b13a284a1e082182fdf261b31f19bdb2af3858b9efef1f29415268ef55b4dc
++  __DATA_CONST.__objc_catlist: 0x10 sha256:4489db5f77bbbf98351b79d03d14d7f1b909b5c895334f71d9c981326c6c167b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x3b8 sha256:b6138e1b395c97cbc738b04cd09bf2b3ad95c4061759d6162dc12e7c7ee0bb18
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:bdb2a5833610e07364e65bceccad831d58888aa13238b81e831d56c4922eed51
+-  __DATA_CONST.__got: 0xa0 sha256:b08c4f1b0cb672bfffbce6c25519e7752f6dc2d7c3a04d6b0d7eb6f4745abf84
+-  __AUTH_CONST.__const: 0x40 sha256:eed44ed4f451476096913197998e47772a478b65337bf3b8777c97e9eadd1267
+-  __AUTH_CONST.__cfstring: 0x3a0 sha256:d0c492791ecc721a7793609ed94ed41ddb7504df530367688c66861348d766ee
+-  __AUTH_CONST.__objc_const: 0x6b0 sha256:7467acaa09d71c8f6b936078397e4a809cdc12659c8431a2be59b2ddd9b86284
++  __DATA_CONST.__objc_selrefs: 0x3b8 sha256:e09d9c651a093aa7fed06094f74c94f7ab3a3891e3c74ba15dba0eb746dae09f
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:f3b13a284a1e082182fdf261b31f19bdb2af3858b9efef1f29415268ef55b4dc
++  __DATA_CONST.__got: 0xa0 sha256:3db92a3b6b8f600ac2334da9968d95e124e5802f507ca9459bbb8993d3977cd5
++  __AUTH_CONST.__const: 0x40 sha256:151716b950b95536a25964b8585918d8b3353828a0689f6669436896eb4b5a7d
++  __AUTH_CONST.__cfstring: 0x3a0 sha256:8d7cc1e90d6095315c1f399f128efad31d192b4c5d68feb65b7fa51bcb89c668
++  __AUTH_CONST.__objc_const: 0x6b0 sha256:84e393930ecef7cb59598048e106097ab678c78d35da087b99e7af814b224334
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:ed3df2889823832a1139c2e7af096a46286c6eb678c28be1b398d7c50327cbd2
++  __AUTH.__objc_data: 0xa0 sha256:757966a783861f9b059e4ed43059c014bc8ce861bedd47648ffc863f933650a1
+   __DATA.__objc_ivar: 0x4c sha256:0ecf9da0850d35c829fe0a96519414508f9538fc7c63753d48ef720a839b81d3
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:1b39e2c90f71fe2667bd2a1275ebe3a7d5a2dcfcbb3e73c8115841f2d4fbd6fd
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:018ee4bcd615423a1bc2f3d00783b87e41689d6690883e2630b13519eb5bc033
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4709C156-1A66-32F9-8E02-2123CF8E4BFC
++  UUID: EA12F0DB-9C7B-313D-9DCA-3553D891129A
+   Functions: 67
+   Symbols:   389
+   CStrings:  62
+Symbols:
++ ___block_literal_global.545
+- ___block_literal_global.539
+Functions:
+~ +[DUEntryViewController entryViewControllerWithDefinitionValue:] : sha256 e9f1a9272d76ae90c4e3faee412c2c7edad79908ea31024ef6d8cfc27175c426 -> bb0cab7305ca5cf0ab97947320d663af71e6ef3e3f361a9f23901f1d66fb2de9
+~ -[DUEntryViewController initWithDefinitionValue:] : sha256 1da2b4b8c27ca0bca5652896d3c17af39a6f908183919db6181da508935b7764 -> 9cf3c6b6202332a899a06a0028aa71921024e6ef0f037ae28ee3c47130e6a750
+~ -[DUEntryViewController viewDidLoad] : sha256 3079e656c4f26fac79ff97ee2844d30e4c74b65148cdb10a5cb0a38c5cf6229d -> e5ab0672e9fe34e9b62b61832bbda5330a33fe8d6aa9b6adb1b79ffdc077540e
+~ -[DUEntryViewController definitionValue] : sha256 1c12d3cbfa12767af7a626831379b572f19c06a956862d47f2e00091bd65a853 -> 6cb3b9bef33bb255bf3a3e13e7c0624f7014b6c4a0c2afff67b2de7fcab207f9
+~ -[DUEntryViewController setDefinitionValue:] : sha256 bbd9465e497bfe9511e3604836fa097be396f414055c1208219d48aa1620a70e -> 3b23ff66596345ae00663ce353c8d086bb5cf0a1088d570f630248f79055607a
+~ -[DUEntryViewController .cxx_destruct] : sha256 f00f9db44d4bd50910d46f87cb6ee28b49e969a63d926a9576ab5069b09c8e11 -> 0c3c463a261d23b6cd0e80c07b9911d3824c7c5d194da69de7809d7390036f9f
+~ -[MAAsset(UIReferenceLibraryViewControllerAdditions_Private) _formatVersion] : sha256 bf794819a809d4bdb1025c2a80294785cdcd353227d1553add9d12baa1722d65 -> 26c2dd8f03ad271688f2260cdff402ade6b5549c71451293f8ca933a1fb5c9a1
+~ -[MAAsset(UIReferenceLibraryViewControllerAdditions_Private) _contentVersion] : sha256 07b7318f32b59904f42defd5e72e8ff76eb9bf0c793315cb7b794e73dadd133e -> 055ee221d8b418e36d28f3bd44ca86ee6d9447743027f6b972721d7d77c39964
+~ -[NSArray(UIReferenceLibraryViewControllerAdditions_Private) _filteredArrayOfObjectsPassingTest:] : sha256 9ff2e5fc423919eff5c4cf83920ff733a3d37c3526604a51eba88ed16b91ef56 -> abac6c260006cc9cd2dc5f4fe389228da50cfd32f4f2939880b30a45a493e9b6
+~ -[DUDefinitionValue initWithDefinitionDictionary:term:] : sha256 3df92abd176486deaa4aafc8c747c68449ea4eab397387a37c718c5af17794d6 -> e480f3251934089a9ea9244a3892dee569bf59087a4242059c613c42042d8149
+~ -[DUDefinitionValue dealloc] : sha256 54f74ec00bce113038d6029a347c094c555db43b685a6779ed3a200c6a5558ce -> a94cfcabe225238c16b7d7f0bde8e341bcc19de489196b125df092a420b61fea
+~ -[DUDefinitionValue definition] : sha256 1466a289cfd2f1f2a0aa4401c260f4b0c48f862f42561d5a38e246d35caad07a -> 32ce916316bb65e2b35670a974d618ce60328bd5bf78c850b33007e86ab85bc7
+~ -[DUDefinitionValue longDefinition] : sha256 44390fb0f49cd08ada50f5d3ee435bb2e8590d658f2416fb63556a6bd4945854 -> 7508fca9d0b4a37523de5cbb08a13c13b14aa8a66c54706828fc3eb0ff95dbad
+~ -[DUDefinitionValue definitionElements] : sha256 a59f6afafa43ba8f8be62729689889d852102d6378b98720ef5593255d0cb256 -> 4c83e8d05d9dca8756abfa8dfbdcae871ef459ed38466d4bb895bb19e9124acd
+~ -[DUDefinitionValue _HTMLDefinitionForType:] : sha256 5ab11693a2e46535e08c67596c612faa259c4198cf9fd87d005b05671eb648eb -> d486cb832f1587248f24813267cfa89b92616ef98e772b7043e37cc0b539598e
+~ -[DUDefinitionValue description] : sha256 23720be1397ad643cdd0795daecf3212ce5beb006be30bdba00c9e9e69ea8e3b -> 40b4200a7cead480ea55a1ded52784f66f2e54e25b7686d05f52eaf70e8078df
+~ -[DUDefinitionValue localizedDictionaryName] : sha256 0caf6941ec4014684958bbd54d984ad3e397d5570205d760946d7a2a3c06f468 -> 573d687257a06bba9517c64cafb58180354291295b404541541176586f7778f9
+~ -[DUDefinitionValue term] : sha256 81e985441d25c6b88384f87ebf4c43f5a397fb6dc8115309205762dc929e8000 -> 9f5016eb78818f863cdb81a76f4e009765a379a568a586b42bb1c8f9e01af7bb
+~ -[DUDefinitionValue setRawAsset:] : sha256 415ff07c315a2cf07c115bf9511c57524228f15e2485b4d352b261ff8a4d9779 -> 644852535bc70d73ad59c06df28873221d98a9615b00d0a6de26db1586294944
+~ -[DUDefinitionValue .cxx_destruct] : sha256 296376840ce90036467ee58333b8535c156f43b3b63af71ff11d50cbb1ce8eec -> cd228ae40b131c4c6e428cd6480ca0fa53f3638ffb18944f18c87d7436c5067d
+~ -[DUDefinitionDictionary initWithAsset:] : sha256 9cc207b70a26893e54b2e27179c9dd47d1513d4e34a49b32868fb853427ddcd2 -> 4e2e293299262bb3fbe13a541e4384508b4bbb89b0b8d3f468a025fc8508d7cf
+~ -[DUDefinitionDictionary dealloc] : sha256 78e1e0e895e99a2d4ede093082d7a0fb67442da7ba5533c4542b2af82a528b6e -> 8d28b703476bd9ee6c38d9bdda13c5abf2de0b98f19e5a325554e971d63f9050
+~ -[DUDefinitionDictionary setAssetToUpgrade:] : sha256 6d778887eb033a560c69288b43a1477781194f6e4ba4cd7250e3f54bbe404108 -> d87102ca2040263e8cbfbe494d339e456b9fbe8a4e0f8c37b85b8c7e39e55144
+~ -[DUDefinitionDictionary localizedLanguageName] : sha256 d75c3554caa613d90bfeafaf406afb1643a86b4dc6b6c7b7794f42a516a11c61 -> 09009ba005fd020270d66889230eb0e64a36eca414edc988ea5dc0b4ecf33be8
+~ -[DUDefinitionDictionary localizedSortName] : sha256 ce6f784a5977800fa9ad850a8289b7c2b696dec0f7483974dfcb9217f8019460 -> 709169a139588dd8e214b470c7a70a7dded96d9cf390d705e303d65fb63a746e
+~ -[DUDefinitionDictionary localizedDictionaryName] : sha256 b178553d0bcc4aa273adf25450550b421e50796ebf4f4acc7267347909b95913 -> d22abe5518a83d6218cc8d0597f1213260951964f34271e743ae2db902e3ea20
+~ +[DUDefinitionDictionary displayNameForLanguageIdentifier:context:] : sha256 2e1897ed79791182964e9904dc7a84a1d68af6518dd1e962b6ef368c7e002650 -> 75c3030f543bdf0bc30eb8d12b5a698918fe34add8a0898a432bfd799183172f
+~ ___67+[DUDefinitionDictionary displayNameForLanguageIdentifier:context:]_block_invoke : sha256 0059844c6ab368fe9507485c1590b4bdab0c8d182403e529125ed3356c9fae59 -> 8fd2929513239e9170f72b38e2d233a765789af3f5dfff2566e599ba466bb13b
+~ -[DUDefinitionDictionary _hasDefinitionForTerm:] : sha256 729fa0edbb5e3b16770cbeaa46e0e7f6f1338ee52c3b6f76bc42d7e01c0b43a7 -> b3fefb75a39b69d50ba93b5bd5d327a967c7914d97dc0ed7f1f1e5923d464525
+~ -[DUDefinitionDictionary _definitionValueForTerm:] : sha256 f5f7277dbab7f2e5906fc685aca95b6231de55bcedbd9be3ef8f7ba6ebe83fae -> dbf1e3b543b0319f7bea75aee47ec0cfe3cb26b33f8576de313ee35f6cbbbfad
+~ -[DUDefinitionDictionary setActivated:] : sha256 1d4ad826349c555cf0a5590467622ff36210655b9b84f002fec9b917e2911c7c -> 8fc412c6619a6f8d8498bd0666c888abb0d0ccbed2605d59a8ea3040a9b66ff4
+~ -[DUDefinitionDictionary needsDownloadNewerVersion] : sha256 23adeb8baad9cf89cd7e2c9d3dbd5952b4b506d1ab84798672db30056b6bb107 -> d448c2d9ecb652d54084c9b2a10fdbe35b71b209232f174be6964d3cc6a53d2b
+~ -[DUDefinitionDictionary description] : sha256 8033ae27f30934b694fda3ef11353ef169b87b574b7194810799e43a1d061075 -> 312a0e5b607e18ffb3a3edf2e3b10594d09f6984240e25fa8398c01010e720aa
+~ -[DUDefinitionDictionary rawAsset] : sha256 9559cf0c3acb1c31e55045abb3dab948b4902508f5b6563177e6ffc32d493fb5 -> 93d3b756bcacc0cee19595c9305c2ec8463c14f870eafec573cc503a4ed9b3d1
+~ -[DUDefinitionDictionary definitionLanguage] : sha256 3dd489b44e4e75594ecf352f80add2292624c4078ed1aa06e0271fa026ba75f4 -> 8629fb40ad5b70e5f659831a68de0ae39388b3a69f69bc4e4e5b319d975bfa95
+~ -[DUDefinitionDictionary .cxx_destruct] : sha256 8854b4304b77459607ffafa21a332ecb5a8e2d580f8d67e75828d440c3281ea6 -> 611c90350f2848461b24799c86e175e67fdbdb60aec327f1c6c8c6d8c814a76b
+~ -[DUDictionaryManager init] : sha256 eb592354691d5af2eb68af8d6354fedef221a004b61968968360b07fe82c4131 -> a2c8b0c08a8704a76c633abe71be5275f127b7576566b176b521c8316c97b01d
+~ +[DUDictionaryManager assetManager] : sha256 8b1435a3ede14691c44cbdeba599c4cafa92eb8ee7674bc26cd14460e91a6440 -> 12db2491ebb8018e4f282d07603cf8f38153df228b377eedb0f89815edeca5d4
+~ -[DUDictionaryManager _hasDefinitionForTerm:] : 300 -> 296
+~ -[DUDictionaryManager _definitionValuesForTerm:] : 388 -> 384
+~ -[DUDictionaryManager _dictionaryAssetType] : sha256 49fcb8838b0d55099497f53400e43587bacb33a6837565e762d30fe1002e3207 -> ce54aca550f15c47b4f8c97fb23fa983da4456e272d7a49d79e6f274ac045133
+~ -[DUDictionaryManager _downloadDictionaryAssetCatalogWithTimeout:completion:] : sha256 47d1184ea743d1c08e7aecc32d264926f2bb2c66fddadea0d402ecd7425a6050 -> 0937b1efe18ac51dd463babd83c5efcdd6821e3b4275e46fc90e2b883b668995
+~ -[DUDictionaryManager _availableDictionaryAssets] : sha256 ee233a00fbf4a0b7f530b91ea8bf71ef50231f0bafa6b9483b02516d4828a688 -> ed46ba5b871b481bbcc6f7c18e550cc6de90403c0ffb57f30baefa53e6677bc5
+~ -[DUDictionaryManager _allAvailableDefinitionDictionaries] : 1312 -> 1304
+~ ___58-[DUDictionaryManager _allAvailableDefinitionDictionaries]_block_invoke : sha256 b5e174e25ce134990d7b731f883bf33b336ff3b705be4896473dcf034369a8ce -> bd4f967ce2a6186220ddc59b206287a7b12b1c58573aa3513acbf3bdf8b069d4
+~ ___58-[DUDictionaryManager _allAvailableDefinitionDictionaries]_block_invoke_2 : sha256 36888bc0c387becaea41764f276398aab18d263c6809d862ed3d96d0fcdcf3d3 -> 86f84e4f1b9cc8160b83582945842935bca59530b597e1245281fb46e5f5fb76
+~ ___58-[DUDictionaryManager _allAvailableDefinitionDictionaries]_block_invoke_3 : sha256 525c9d7bf4ce801677fbc6cf70acb36231eaa378f7c3b66f13e0e3fe7f0748f5 -> f1b2a953b8f970e9a646212cc52f1326c3571575403268143c5e2c66f11c2c9b
+~ -[DUDictionaryManager _compareOrderOfDictionary:withDictionary:] : sha256 e37438a7d34165c18d0bb7d57af25538353f50e27758dca5dfe11326ff5d4f87 -> 4b25f9a63fa89c286fa2428ee1f8a54b840e09cd248938e18f7ea34640acf67e
+~ -[DUDictionaryManager _migrateInstalledStateForNewDictionaries:] : 852 -> 848
+~ ___64-[DUDictionaryManager _migrateInstalledStateForNewDictionaries:]_block_invoke : sha256 e132f88fec8d943d7a20f6a45a3f8114cdc58e42f9712f5612805b20c83b30b3 -> 35887806d040f90403fb5ec4a0a5520810be6f7e6f6d05bfb3b4713af9454bc0
+~ -[DUDictionaryManager availableDefinitionDictionaries] : sha256 b2c989094ab397c73ec59e9922a2166db809edde7cb6deaa201a052de8233ada -> f7c34f84eab5671ee44356a432ef194067f19e8e60f144a4bb261a8243674cdd
+~ -[DUDictionaryManager .cxx_destruct] : sha256 ef22917f6cf1290a9b14ed998fef2d8ac96903e120b45c072a9430c24e5e64f3 -> 8c429180cb240604f22b6df162dc001d406b673c45086106711d0ce5781f0541
+~ +[DUDefinitionDictionary displayNameForLanguageIdentifier:context:].cold.1 : sha256 504afc267041dbe66315f8d39a80b74ec8ec630d09f7bf5dd0a81f9749f876f3 -> 6c8c10dcab43e2e362601d45d7dd246e01a6ac93f3f293a3de957758a3d78c83
+
+```

@@ -1,0 +1,680 @@
+## ATFoundation
+
+> `/System/Library/PrivateFrameworks/ATFoundation.framework/ATFoundation`
+
+```diff
+
+-4026.100.55.0.0
+-  __TEXT.__text: 0x20e90 sha256:a4ffc7599ec15fadc883da0ab565f5a71735aa1cbe36f385f2010afa043f9d97
+-  __TEXT.__objc_methlist: 0x1d1c sha256:9b52f182da14ab6fe00e41bc75db5bd09cba00937cae9ace830c3dfbaf0929d7
++4026.100.68.0.0
++  __TEXT.__text: 0x20f24 sha256:cfe5749d5ac6ac9781af7194dd0fc242deedf8f29f8684f55a2e93295a6b5a5b
++  __TEXT.__objc_methlist: 0x1d1c sha256:e3296d2b15491f95ae363afbe5563773cf7951c754c38583bbe9d8a3e6035453
+   __TEXT.__dlopen_cstrs: 0x5e sha256:21010fec41a464a81b2a215fd687db5ae84357c07522cbbc0be96b63040975b5
+   __TEXT.__const: 0xc0 sha256:f180ffcc2cf1369d0cb5ec2a1edf9d6ffc807ffdb83fcd74667551898c5d2a0a
+-  __TEXT.__gcc_except_tab: 0x374 sha256:99e2b0098d36f394f214b8ab44553f11de0aaf2a54c72cf38f84396edf73f8b4
+-  __TEXT.__cstring: 0x1074 sha256:b618df75ec929d171b42232057eddd342045eac578f91cc13a7bce52bdd80841
+-  __TEXT.__oslogstring: 0x2b22 sha256:cfab9c59fa9be40a0adf9eb99c2b25cccca755ba0fca5c17ca2d0a6f2f8c7f50
+-  __TEXT.__unwind_info: 0x790 sha256:54be0afa4d5048ca23c57df386e8642619bf46fb5bd1af6e83658fc86c1160a1
++  __TEXT.__gcc_except_tab: 0x374 sha256:dd99e3679aa5732bab4ca44074b4ca3bf68f60a3bd667d88accad42276a4b968
++  __TEXT.__cstring: 0x1075 sha256:c329d2922d67be3b8b4698242df8ed029d468894da289b210c5fd7734fee06de
++  __TEXT.__oslogstring: 0x2bc7 sha256:49559cacf1ffa5b39ec7fcc95772b922c62f41b41bc72765a6ed403388d0eced
++  __TEXT.__unwind_info: 0x790 sha256:0ad8565365b0a5a77855d4567720376793417acc527ca582869f8ff4d0bac91d
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xa18 sha256:efc4bf3d324edcc146b107b9f9305f536d6b58d8d591906ce197e9a1ccc57562
+-  __DATA_CONST.__objc_classlist: 0xf0 sha256:4e2f467629571a7a8ed51d056213423fe090157c99ba6b874c5ab8a44ee5fa04
+-  __DATA_CONST.__objc_catlist: 0x20 sha256:c0d2fc3bc84f6bc9609cf1fdbfdbeb814bf07bd5123d6a93ad5a68f187b28dff
+-  __DATA_CONST.__objc_protolist: 0xd8 sha256:b076c8d51d33b862933964b4e5fd7bf5e22c68dbe472cdadc5ad7710e5d02627
++  __DATA_CONST.__const: 0xa18 sha256:f9f96f378f33a769dbc56177105d55ed6f38de1f9f00ac6970a834d09b3dc091
++  __DATA_CONST.__objc_classlist: 0xf0 sha256:120b6bb3ad732fe0edb96834f5d1f3ed13d9cd280f1675d3fd58765a9487918e
++  __DATA_CONST.__objc_catlist: 0x20 sha256:3c0f875d4156686baad5fa8852c1a643d72a5bd26146553b528e42062b8d0f68
++  __DATA_CONST.__objc_protolist: 0xd8 sha256:f04e41c811bbdf91473fed20a1fc4ce75f9600b9f2f9d1241e459d393ec1bcdc
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1238 sha256:744bd4c00de5ce459a3bb7b9ceb5a32b1642b62b5213a5c1daf207d31fc3186e
+-  __DATA_CONST.__objc_protorefs: 0x58 sha256:a6d7d0000d1fb7933335e32f40a05d359c63aeabbc053540c21e5d14c14b8338
+-  __DATA_CONST.__objc_superrefs: 0xe0 sha256:5d7ba27c4780d94ed3ca7ad65f97fd5cb83998ed9eedb7042ad0f9c1c4b60129
+-  __DATA_CONST.__got: 0x258 sha256:5c24bc2e44108d808811a5e08e7a7f8ce606e68abf090157314941b4e73a9722
+-  __AUTH_CONST.__const: 0x2a0 sha256:4ca8c0b499ea7a8d783937f413ce4dc993338c2c5918dbc0e52a034f4d8cc46b
+-  __AUTH_CONST.__cfstring: 0xe80 sha256:93ffc91013f714f6eb0a82383403cadf61e228e58b29282d360fe85043a8e635
+-  __AUTH_CONST.__objc_const: 0x3840 sha256:e23b530240008137c3c0d83dadca8a26250c58e5f6e41fba0e3399a247a4abf8
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:0c2121a5c020370e4764319d4949fdbe7ade120dc4e8e20634a87a7239e95d32
++  __DATA_CONST.__objc_selrefs: 0x1240 sha256:36091db7dbec37dce8c7d407e3f557136ed87e7e4e4c8e17f671bf6d8178346b
++  __DATA_CONST.__objc_protorefs: 0x58 sha256:d0f833a71eca2461deb3b5f8847074d806ec99f8ecb13f251e5a81ff5c93b5bd
++  __DATA_CONST.__objc_superrefs: 0xe0 sha256:78e2e4bea2bf96e47e4fc26f6a4ab591a3e59584f104283c7b31526b2a72b1de
++  __DATA_CONST.__got: 0x258 sha256:54bf3bc8cca3e05ec4a3f24c9d29d3b1a54bbdb24735252fe4c19655c97a27f9
++  __AUTH_CONST.__const: 0x2a0 sha256:23239e456964bd7e9bddf53c5a3c0bad8958890105edd68344b1a75eff18f782
++  __AUTH_CONST.__cfstring: 0xe80 sha256:646ca8194622fa288e1b721cc3ec7826d88beedad044bfdad3be03487b20d39d
++  __AUTH_CONST.__objc_const: 0x3860 sha256:bc1846363fb05f9b0e04f0c0c612378096680d7dc9f1fcc5c27414db31c4a78f
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:f237380eff0ba076838af3be194db29dcffadc693a1b12b635e027ca566fc23d
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x550 sha256:d3eb513e5e39d37a1ac8640e95fa648eada1dcd3a9e1330e483d885371900ba5
+-  __DATA.__objc_ivar: 0x274 sha256:449104757bf362970b5ac13c5867b9791e47603a57021e9522d0c87472fbd857
+-  __DATA.__data: 0xa20 sha256:2eba059c9ae0f1e09c458df28d7a84ae82e6efc5824286388926fa65db8cb757
++  __AUTH.__objc_data: 0x550 sha256:92460523a7d2a5b692560e647a70a1f3322ab5d671d1662f2b8a7bc327bac832
++  __DATA.__objc_ivar: 0x278 sha256:097e8deaf1e9d728b5a738830a480fee8c5a5d70f6cf8066da292d83fd044cfa
++  __DATA.__data: 0xa20 sha256:2cade129a12c528afed85427940b59c15e9f5d7c345437fca01ba54b7939fbec
+   __DATA.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_DIRTY.__objc_data: 0x410 sha256:fecad2db5f4cfe1ada50ccaf130cc30034fc31462d73d7242b95e19eb98e490b
++  __DATA_DIRTY.__objc_data: 0x410 sha256:7cec3ceb58845a44ebdc104c8bba1dafad873b306fcb8934b5d7d8795d7c522c
+   __DATA_DIRTY.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 48B71E9C-5164-3219-8333-19AADEB603BF
++  UUID: 968FFB52-E708-330F-BC56-EF8758E41CA0
+   Functions: 633
+-  Symbols:   2592
+-  CStrings:  451
++  Symbols:   2594
++  CStrings:  453
+ 
+Symbols:
++ _OBJC_IVAR_$_ATConcreteMessageLink._lastSentMessageDescription
++ ___46-[ATConcreteMessageLink _checkMessageTimeouts]_block_invoke.74
++ ___46-[ATConcreteMessageLink _checkMessageTimeouts]_block_invoke.78
++ ___78-[ATConcreteMessageLink _stopWriter:byInjectingStreamError:forMessageId:type:]_block_invoke.87
++ ___Block_byref_object_copy_.1483
++ ___Block_byref_object_dispose_.1484
++ ___block_literal_global.1492
++ ___block_literal_global.1636
++ ___block_literal_global.1949
++ _objc_msgSend$dateWithTimeIntervalSinceReferenceDate:
++ _sharedInstance.onceToken.1775
+- ___46-[ATConcreteMessageLink _checkMessageTimeouts]_block_invoke.73
+- ___46-[ATConcreteMessageLink _checkMessageTimeouts]_block_invoke.77
+- ___78-[ATConcreteMessageLink _stopWriter:byInjectingStreamError:forMessageId:type:]_block_invoke.86
+- ___Block_byref_object_copy_.1481
+- ___Block_byref_object_dispose_.1482
+- ___block_literal_global.1488
+- ___block_literal_global.1632
+- ___block_literal_global.1951
+- _sharedInstance.onceToken.1777
+Functions:
+~ -[ATThroughputCalculator init] : sha256 55f18f59a983dbc20aa76bf2c65ce704b6aa85555589c081cec0f3665901917b -> 0ce274d0124f109eeb97eab2312776532be5538d22e4c299e7eac56457abe25e
+~ -[ATThroughputCalculator resume] : sha256 9c0504d7fdb4addd474a6d4430f3a6165b8cddfa16c60cd8fde71faa451c21c5 -> b2ce88a8cbb6b4498ba381f5c445b7a9e30f80d686e1abb6800e9346c2d95429
+~ -[ATThroughputCalculator suspend] : sha256 aa3ecdfa1217b032f996404fdf21f7c29dd32daedd5374e7584b5bfafb3c3d0d -> 64eaa8f219369e642df31a0ccc63be8d08ffe1e871644f727c1503b3f4eb4a7c
+~ -[ATThroughputCalculator update:] : sha256 7ab01bb526d023c052ab70795588c60cd83a63b9e6bbaa71bc0e84c63a926208 -> 1cc11bc0f8c1a2f828b7935e2ddef1a940c709c89e9519e59a3b582890afe52c
+~ -[ATThroughputCalculator throughput] : sha256 07b9b65e82c7db9e2e3618ad84116cda1a70175dca71c604c00a67fb9103c138 -> bdd8b880ee68a1821956f12a3201dcb1acb1e3e8beddab27c159af9a0f71a4ee
+~ -[ATThroughputCalculator .cxx_destruct] : sha256 cf7ee278b0c919238ca6affee7f985b5634bc051cc641fe06d36be9bdd1a5326 -> e1d1db67408284538388ad973113d34e7a901c796cc09d70f2bc82801ade18d4
+~ -[ATSessionProxyConnection initWithSession:connection:] : sha256 b1d5aaec47c0e15df3f466cf9ec51edb77a6000cf8ae417202c376588477b860 -> 1454a919abcfd66c4be053a4489c7cfddf949c5d41501b77058d6e9ab6f27420
+~ -[ATSessionProxyConnection start] : 372 -> 368
+~ -[ATSessionProxyConnection stop] : sha256 e8251f3c7d6e08eb43e0e3315cc718af3ccb5a14b2030a81e8e7bb961deaa89f -> f3fad802d6c63803f39eef6b3522d615947fc2fac5048b233b8a6e3c3f8dd90c
+~ -[ATSessionProxyConnection session:willBeginSessionTask:] : sha256 07b87f3e53d566818a410ac5600f3af5f398f71875098748cc435b0a4924eec3 -> cc9618b3f656e1bac8e2150806a7aff4cb3c4e0bb41785e28993e58138b59a16
+~ ___57-[ATSessionProxyConnection session:willBeginSessionTask:]_block_invoke : sha256 66b5b111a1a7e074f80be70ae2cc4998d9410b14db60e59c59e81458e820b7d1 -> 7a498fb9a57b9f660c1483ab0406efc8a3bc557241a49a5693aa422ff330e8a5
+~ -[ATSessionProxyConnection session:didUpdateSessionTask:] : sha256 edb2c0f2f106d662f8ba80c12e99b2801a195e881b4dac64eb1f8f9e2b7f226b -> 0e49c4eda2f7b59be30997d356a56f4915bbcfa71c793792265197152a36bd66
+~ ___57-[ATSessionProxyConnection session:didUpdateSessionTask:]_block_invoke : sha256 95b23406ec602a7e7072dd2e741131637320d337529dc0ad800d0b66ab5908dd -> 716e738bf67bb59a793b280dacff86893a477ca3653cd7563cf94ecfa83ce999
+~ -[ATSessionProxyConnection session:didFinishSessionTask:] : sha256 74af94c53443fa81f30212aee19a30e5194fa60633ec12948b9e6beef763fee8 -> f53a8ec137397dd8baa02af27fb64fddc4c94be21ff122c55ed02927a5b83a67
+~ ___57-[ATSessionProxyConnection session:didFinishSessionTask:]_block_invoke : sha256 63cbdc91269abad0f688881889c9c1357b1face6e41858b341c8dc0824b536c2 -> e904af4c68912939a2b9458dd7df1a75b56fab8445e8eb06add2532257ac9176
+~ -[ATSessionProxyConnection .cxx_destruct] : sha256 7b343d32f58c2c22638f4646810e821427883f3705fa5194f506a2e1c948bdb0 -> 08b589434050cd690c6d6798d23e3c1e287d66911a3fb5dd667a1bdba80184d9
+~ -[ATMessageLinkListener start] : sha256 9d964b67ae208850c7cda6f90cddf518c2d7f78ad533408963fe8935f1493d54 -> 94910de3250fc7c747c77d0936b9305f008d181138130b6abcb10c0dbeb044f4
+~ -[ATMessageLinkListener stop] : sha256 65669c13363f5aece7857ac7d8e1ed623e6c54d8d2a98946801aa502e8101245 -> 8f0b3def383a3a18b3c2fe696cf23bf577a988a111213fd6dbda108f1a51fadb
+~ -[ATMessageLinkListener delegate] : sha256 15636765df3b7daca49e881fe1acaa3a677600fd326a10b7a76bc2d68714e2c6 -> 968796351e7b7587ce37052bfc620da551134fbf9c3f377355592ec0c105475e
+~ -[ATMessageLinkListener setDelegate:] : sha256 9b40558f689f19607f5b4a6a6c7882bd35942f969845dbfd21a0ecbb9504f519 -> 6aebf7baf6746064ac5ccf81edb3f0d85d436feebce814f9b5b035b7528b6913
+~ -[ATMessageLinkListener .cxx_destruct] : sha256 3202d69f77ec95d53c43b6b96bc1b4ea4c18323ab1b8e4ffb936e2163e1714ad -> 583eca5765552b98128687ebe6ba627591d6dbbcbb8c396b6aaa6b60674efc70
+~ -[ATPMessage messageType] : sha256 a473ffef44859db50ef83ff489921b4ad5ea24a0fb5c2112e0fe79d421c2df6e -> 121440b8b9b92e25e181f191844208b650650c025ac770945a81cefefb2cf35f
+~ -[ATPMessage setMessageType:] : sha256 918f389a7bc26d54f755d993854df48b359ff937e36c69795807a55aebd019ee -> 61b8701f413b0ccadd06a190c77789bcc2f6ef8e9cd2c2355d2f371d49dc3a29
+~ -[ATPMessage setHasMessageType:] : sha256 27c9d233a2bc01f35707affa679acdd951c5cc81e70bb8bd1d04a40f0d24ab31 -> 26310e5292dbb7fb5e720663ce286d3df2e8e29db4fb2aa2786e066150a0f949
+~ -[ATPMessage hasMessageType] : sha256 5c8c234d9fb11246e5d9d47d5f81c9ae077917dcd9955e0eeca476bfe92777af -> 58c06c4fa39aef92284b26251b70d7c02546edec9edee541e4fc6cc99b220926
+~ -[ATPMessage messageTypeAsString:] : sha256 32b07b38a986c37cde5da4f73f77147c727e7d3f57462c1b987b79480742b0cf -> 8df054a458ab0ce4355e7b2e1bb6f3b7a5db015c21927319ddbed027e44181ce
+~ -[ATPMessage StringAsMessageType:] : sha256 f28cde74ba48878e6e2a3284b098dfe0310d7a29d6a99b943ae2ed76e8e370b1 -> 5f35640d9a085e78ccb3742e53b2c9dc020af7f696f171148e30afbfa49a1b34
+~ -[ATPMessage setMessageID:] : sha256 6949cd3d2f70bf6e2400126b394c3ec0640804d1606457cdcd6c8a6ddf4f8a7d -> 39348813fcfd5a23ac96c4aae13728a4f462a8fbd8ea3a89bf885fc09b881543
+~ -[ATPMessage setHasMessageID:] : sha256 5ce4e6a7a7b20de15f64b2cd613604370657021f073caf8488fa3604c58f7c98 -> e4c651902ab7c88563f6563e17e1a1dd925a42aede27304005b6b4880731fa3a
+~ -[ATPMessage hasMessageID] : sha256 0a9d524d90cc4b8a7a8311adb68ce55ee292a880330a58b9302a4cb1026ed9b8 -> d59eac6613fe1140711cbe74c5875fe2135bdf4bb9fd7ecdf7f8c4c7e2dc84b5
+~ -[ATPMessage setSessionID:] : sha256 76cb1e3a64a0aa85c753040a2449d56f1f00d378cb3117d15e7feafe82d1f6d4 -> ad89c77b3c340be060fc377066183dbd43035a6c4f8bdffcb374eb7b585581ab
+~ -[ATPMessage setHasSessionID:] : sha256 3fb6a4431823d1f24f68ff9ee46b23af840e6b342cde105bf54a6439a554b2dc -> 4cfc50ae2cc4171f99e2b0fd78e305e93a746950b7f6ea97b75517c0ef4646f8
+~ -[ATPMessage hasSessionID] : sha256 8fdcc450747f7fa8a5e78c9d65ed3755f3d0cd48775bf2ec5ab4185d7b1ac068 -> e1df7a769d80b4be9cdd6c11df4157335f5faf285ee60e8bb656f86c7e19ec2b
+~ -[ATPMessage hasParameters] : sha256 5e48483b6b9ed8cbe9ba9661427f77d27674726bdd5280c07a8dade48273ea8b -> 3ce00986f2b66fd7aa4af386fccd194cc25034baba3351200264cf17e1ed4654
+~ -[ATPMessage hasParamsSignature] : sha256 f6078fe43b354f726cad73b396aca9f2536f8ae07c1037af4523b08c1a2c7fe5 -> 28f6ae1257029a06d8fa3277596f588c948861a33a8df64343d888dac86457a4
+~ -[ATPMessage hasPayloadSignature] : sha256 aa477a068cabe5764eda56b8a48b5d0b9e52330a5b6b0570280f47ed21c601a1 -> d5abbe63b4b3915124f20f0cde0cfeb830f58624362e69fce5daf0d28a742bcb
+~ -[ATPMessage hasRequest] : sha256 8663f5ec3a3041e9f96a92cf7e2b853740963a51878c5246d445aab0e7d0c94f -> 83d2ee84620a66a34c3b9b53f385f31721baedeaa16c7dda6b81c824df56b854
+~ -[ATPMessage hasResponse] : sha256 a90869e40d6335a7dce10deb1bbdc2c28768af08bc9225a71304a4ffd7d41bf5 -> fd7e111bb1561301bd2b46073b14acfc729cea9fe8627527c9dce1e06189f458
+~ -[ATPMessage hasPayload] : sha256 e5dd1e1a5771f880f57ac6ca2955b7b8b77e516d9c22c3dde77706eb7dd1cd41 -> 7e29fbe71438b322210cf2b4608603379c278daea95e8490a2347ee9d66f6871
+~ -[ATPMessage setAdditionalPayload:] : sha256 406609ba159ba71faa5bf642917290ee9e24fc75d5ea69af55a9502f6be30046 -> fe6b7c75b1382557c26ff819a9067b47be8363d5c6e40a07abd93b6b382f68d5
+~ -[ATPMessage setHasAdditionalPayload:] : sha256 a5d09ffb838dabca6f39a82b42f1b7a675c6ed0c284ee9d326b17c774e811996 -> 9688b94b3aa2b959e4df47581a5938840b7291d284b0d8a06168dcc851ee97a9
+~ -[ATPMessage hasAdditionalPayload] : sha256 0bacc99511bc21a41090fa5cecae80ef8fc67265ddf048426ca4ed6f45b78143 -> 31d60f83cf330fbb54a78249d95d156ae271d8673fa66f3e643eafa2388f8070
+~ -[ATPMessage hasStreamError] : sha256 20e160d8ceefec3af42367962cfd241fe03d8f084f7215b5f3b2c1a1d3899cff -> 0febd634c7f592a91f033097f144f176883d52a8b6ab174b1c1e74accc0157d2
+~ -[ATPMessage description] : sha256 aea2261555da66fa76a4ebe7b6c5447b9ee5e80c10b98ea08242a65954b0d166 -> ef11d915abfc141fb77de3182b9fac67f27d605553ccbf0f84792bfd3162f91e
+~ -[ATPMessage dictionaryRepresentation] : sha256 213dcfb27d8b0366d3eac0d201ad3fcb5e5dc6ca791adf31ec94cf347daa66b5 -> 7fb09bab9952c2c5aff973aab30f28a503656dcb6daf7c77246f422d30ab44bb
+~ -[ATPMessage readFrom:] : sha256 8fb42a8175285bdf44b46ced5944ac7e9976d2becfd8904e7883130a50762488 -> a5e9281956b99134ee096cecdd02ea335397b3047cdad2d454a22a245cc3437c
+~ -[ATPMessage writeTo:] : sha256 c8a81a90c6c16a90b58560e6f3bcee46cc329b1f53b11edce3e60d4b78409dd5 -> e6dc2a85b34dc51933722c000f6b38538bb4191cc384cec3283c76ba03d29916
+~ -[ATPMessage copyTo:] : sha256 bfdec2c3b049051aff18a887a409d3a01e14b83c132b98925a59566216717b17 -> 1f531b1a3fb69d309a1f03dc021fc3a46cbd466fa4b3328e406748b4d4d401b8
+~ -[ATPMessage copyWithZone:] : sha256 eda72b1e4ea19aae2f49833296fa611a89546df3f8ef3ab3b09994ace01afe94 -> dc85109d6d2c473969fa56b746c336a66e226020909a1b3109073c54bc349c8a
+~ -[ATPMessage isEqual:] : sha256 dc20202ed806bb2bb699a7c4d5ded4ffe7534037849a472077c99a6f38ef833f -> c7650a8c5fa130522c3b5bf975b19a809e3eaf15223d97e600301b60d4d49eb4
+~ -[ATPMessage hash] : sha256 3f5991fb5c638e80e47e00d51172d306b758a1e043ed0e09a612eace3bc6088b -> 13617f76ff55d41b42266f5bcfd15924a17ea1ba379da3e630ec93099e8065de
+~ -[ATPMessage mergeFrom:] : sha256 e1f843a23867a8720acdbf02edd0bffe517a9384e90152f5f070e78e7d07be76 -> a5b2a4d4c281d8113dfa1c03dd477f91d1cd38c5743557d2b6511c34c24b98b5
+~ -[ATPMessage messageID] : sha256 19c1672db97c51570a2d1172c468bedaef245412b6bcb030af6e52b35fbb4c0a -> 033e4c9f62de31b8685e7f7eff381254b6adac6b1b0e2d327405aae22304d5fa
+~ -[ATPMessage sessionID] : sha256 05cb81fe8a7c250930f2b80a41f8370912aa07c7602aecb9a972a69317d49d11 -> bc3bbd282e7f06ca7c1bd6f17a44a93fbae2336dedcf9019f5c5db9381d63e18
+~ -[ATPMessage parameters] : sha256 d1e2f4744d8876276ec6d19cd8f87cd09a6e9133b30e8cfead3366139ef5f4d6 -> 9ddbe8c2c9e214feb7319317a7f2ce125572ff4bcc6bd3706e01edfa6e2c4dbf
+~ -[ATPMessage setParameters:] : sha256 0b9f75e7b62aa6da3cb995a66cd7de349079ae4d52ade3a07d288e61ceee4140 -> 73058050778f2934308e44ec2f8b517be36d6b2f269b17280a91bc67c09077b8
+~ -[ATPMessage paramsSignature] : sha256 10d44bbbc9686327df7df9392db4fcddac6e49c5271b11e2426bed62c48debe6 -> 00fe30c5df1881afffa8b7a3dc5d311d5049fe9529c56b4cc61764d759fe45fc
+~ -[ATPMessage setParamsSignature:] : sha256 eefffc72441ef8f90e6ba19ce6dc23200ff7a44e78e83aef104a3d2d69a9a54c -> 0b65fc4a97016b31d43db730ef60e5ebaa910f7778d3d1ad5451954da9990444
+~ -[ATPMessage payloadSignature] : sha256 8e3c6259aa62352c1f01510b83bde5a0de401619a9aa4f0f66287073b6db25d8 -> 24f8c4610ce47b3e1435763ac55bbce3a307b07d561adea4fbb5a7e38b29f155
+~ -[ATPMessage setPayloadSignature:] : sha256 5bf7b3060004b475929c590ce93d163c933991ec3a38d58197ab0cbe7ae7260d -> eb68a7a6c5ce5cc414e447e70cd8b56c9e2a45607b2feeddfb8892adc46bc092
+~ -[ATPMessage request] : sha256 003862fce1e7af8a6cb3cc7659636edac6587d579149ea32dba6d6a4e6118eed -> 3c5648a01b032854bb3955c4a7c35b93f6c4d21a60b1fa32d76e2d598a105ddd
+~ -[ATPMessage setRequest:] : sha256 e3de0b23fac32d02eb9912de2b9bd772d68c71ed88aa201991852b3a67c15340 -> ac4b4bc459570458d801c1c1b029b97de61c2a8e05209c6461b0c222a67c89d4
+~ -[ATPMessage response] : sha256 e6c34726d43fb5e3c032a843962cd27291bb0ba74c21a590dd61f771f1bbc2bb -> 2ff52ee8d7350b989a788f41014e3d3013dc96dc6a4c7379f4761a4e86ddb21a
+~ -[ATPMessage setResponse:] : sha256 da3c8facfc8dfddd05e0f6c27724934a5df66101b299fe527677d989f68a6d5a -> 8a73f2e707c619147b4831b211465d5fee08ff9aa5f5010c5fe308cd16e711ed
+~ -[ATPMessage payload] : sha256 53dcd7aa2f383c222bddfc8ecbc3758a659e75910f2e92bcf6fed97bc1c437b3 -> 51ab0fcba506a4cbe4f82e230470a37a8c46330084946fb57364ad05024df35a
+~ -[ATPMessage setPayload:] : sha256 bbafc147360a6eeb076a83c1217ce5a11bf68cb169827f076e95ceef60068b60 -> 4e63608c0dd087ffbd83eaed6cac0ed23901c6f97781a5532ccda73188cb4463
+~ -[ATPMessage additionalPayload] : sha256 3e0f274fdf91cc7700f92008fe37544a33a38ef1ae05dd258ed0de2e8e596c2b -> 7efb6fb8ade1352a09f9c69cd3c0e275250060e1b11e37478b6fa8fc79d8ba4d
+~ -[ATPMessage streamError] : sha256 2e289c643be4ffc3b3ac5cad2804ba591fdbff4f48e964ea13fe4efe31bc44ad -> 1ef5b8f1408e0bef46f9b745f09e7dbc7e9a5722d6fafcf04c8ded89cd319910
+~ -[ATPMessage setStreamError:] : sha256 ccd836adc816a22e88662d1e34e78241177d48b993f73d78aa5589c3edaf8d1f -> 0dc26d7aacd4068eeb9b4d3badd47238d0abf73d2773bd7ce18c8bdd583c12b2
+~ -[ATPMessage .cxx_destruct] : sha256 965c22d2d82f5e1fb58ea26c757369cf538811e1213e2c0ac6aabf6848987dae -> 8eb91fc5585e6c59cf432bd9cc3acac37fc22267620345febc11b716118cd0cb
+~ -[ATProvisioningHandler initAsEndpointType:] : sha256 47ca0c54484581c55476e60418fe3da7269758a281112d0505b5b37f487ca310 -> 2e353e52328b84c0fcb60ee788191ce91baa6634e77d66a42b53ba0357fc6715
+~ -[ATProvisioningHandler messageLinkWasOpened:] : sha256 e87cbe534a9d5988b8ad88a01ad87e29f0ee46b50f528b2ab2710ab237fd15fa -> 37191198bf326c90c649f56b26edd9870c8bd000175772411db3b085658fcb30
+~ -[ATProvisioningHandler messageLink:didReceiveRequest:] : sha256 b517ee9a86d6a673683c78ef1c24218e4f2075983c41a32d929f8c58ababaa89 -> 5bdb114e93e6dabee10789022927ae4e1a1666a2c48281d80f965ff05fff7906
+~ ___55-[ATProvisioningHandler messageLink:didReceiveRequest:]_block_invoke : sha256 71feeac840c51650e80c35de0c9bb93e455e8fbb547444605338fbe60217349a -> b75668b1775ff6caa52cc98dae994683704c8b1cf9b71bac3b22b1b9f50e728b
+~ ___55-[ATProvisioningHandler messageLink:didReceiveRequest:]_block_invoke.7 : sha256 f5a72726fdbb6d91cd0452fdb75ace449a9eeb85dc1eaa5947239bbe7aaaa595 -> e13cd219aa3186b8e00f975077944f4b09859c0ed3eee36a70af34b5254c1372
+~ -[ATProvisioningHandler _sendProvisioningRequest:OnMessageLink:] : sha256 d20fa0d603450727c40a406794e34306aed0154ef95b408bc1163c14286f5b2d -> 3b316be7b33888a8f5707831cc3608629afd4c76f0c28faebf74ce5a1a9ea872
+~ ___64-[ATProvisioningHandler _sendProvisioningRequest:OnMessageLink:]_block_invoke : sha256 3f5d965aaaabd0af11797dd7ddd89fad24dfc7ae6164bd29c48918632bc5283f -> 0427f3dd46090b3adcd24c0f7341b7d9ca17b0273a9ace9da93a50542870fc55
+~ -[ATProvisioningHandler _processProvisioningResponse:toCommand:onMessageLink:] : sha256 7db0977a71487aa5033855864ea18db6ad4f3285c5e3fde78592ce7331da2ae4 -> 3843242f2537227a60e7724b19088a9ce4ed5164b10d5213ca17eabee77250da
+~ ___78-[ATProvisioningHandler _processProvisioningResponse:toCommand:onMessageLink:]_block_invoke : sha256 18954bea6b2984104f400ba191a70d3f314f9ad6971f439d8e1c226d2d1bd4f7 -> bfc0ac74d112c04b9f3d0fefa3bcfb3f332dce0305e27cb50fd1657904e0464f
+~ -[ATProvisioningHandler _processProvisioningRequest:withParams:onMessageLink:withCompletion:] : sha256 90245b7b25a1e41e19d2e1e96e7da8ec1934be2e37397ab202e41a60a2b39413 -> 6731b9b17b641b6f79812591f2d3f49ec000f53037250b85855afd5879a56346
+~ -[ATProvisioningHandler _processProvisioningResponse:withParams:onMessageLink:withCompletion:] : sha256 cf168339ed11971bd7ddc71aa30cc190e6fe814e67eea82d4b858d4e4d35b7d9 -> 3c94067ae1e4a1e155e6b03d566c70a236220b0a6bae831ec8f61c68d051ac47
+~ -[ATProvisioningHandler _paramsForRequest:] : sha256 e40533c74f2a7210da809e4477d3fd0042add798fe2042d0ba3854fd3aed460a -> 1eb28350b3d921af1e5292b0c48f49e8349c7439ac87ec5215d9140d17b53d85
+~ -[ATProvisioningHandler .cxx_destruct] : sha256 873ce306e54417ef3757d1278af963e5db596845256430e21f2cbd209682d3d8 -> 03a2b63a577b81be33a44bfdab9b36950df230b4f46f0c1ac72307756199430d
+~ _ATIsPendingDownloadError : sha256 ee4a0cddff1defde6c3f4ebb5cf529a839da7e04eb15b53235cc73f72fc60bf3 -> 26ca227aadb8bb5b43d218a39a2d992243abcf8910cfebad1cd3a38ccbd14c48
+~ +[ATInternalError errorWithCode:format:] : sha256 abcf2f022c09f088d7008b86d7c4bcd29f846f4b8d91af3321849f5be8a10bf5 -> 2b28bcdbafbfbe6524b1ecd877b9a3ab4a50b11d1f7ece62fd2d06001a12bbae
+~ +[ATInternalError errorWithCode:underlyingError:] : sha256 350562708ad4c9847dee90ea49fed713b8dc0506adef236a6afa3ae1dd2a604f -> 5beffa9b78a135a7ace737925dd6e11cbd52ff9f9111ca9a6c00bc4b4e04e530
+~ +[ATInternalError errorWithPosixError:format:] : sha256 ebae7253f96cf406b8f4158ce580fc781849204e319a98c42aa345af15a1dca1 -> 2c0eb04a5a173ccc9c299e7edba982b15a7190b9babda96c0e99ede35e223a21
+~ -[ATPError hasDomain] : sha256 9bcf8b5b06f4d65b7e205061575d316813078a87693b66288fdf4a1a2f3a45b6 -> b0c3967fc0d3d659675cce2513a4df8f2cc498903da8fe00b8a1e8a4f67c5d18
+~ -[ATPError setDomainCode:] : sha256 063187767fcdf3f2471dbe89b59b5967310f5923e659fd04dddc48327f8b596b -> 3fc32c6f3533824fa54bf2b4dad09e26ac594bc70e318d100ce36971f215c9e9
+~ -[ATPError setHasDomainCode:] : sha256 a2c523544012470949868a7b76733b17c35b37ba591f1a29eef82df305b2529a -> 1a970fd5a41a06b2da39d919c0e6def695b3ca9334bdf8d459f1f25ba45fa6d5
+~ -[ATPError hasDomainCode] : sha256 f99f5d36593c07f53f3e5b40e9900cdd5ef2a483788453e75f49296f057ccb9e -> 2749ef38282ca4b8b480a0f943df661fe4d0a304488e68e74d7446b64d514170
+~ -[ATPError setCode:] : sha256 f1ff50c8ecba28cc2b0bff9ac9bd35c78d90533ef0440159a6018b4c29a41a61 -> 0595c345236e8193cf782ebe5e7772a07f03a4f7532aa8bcfd26d685597d7f30
+~ -[ATPError setHasCode:] : sha256 70fc4dd8d1a9464aaee09068ec5148e0307da613f7fce5d4693ddddabeb86252 -> 351dff81aa80d4a98f04a71c719d540579cd950da8e1a124c5873193a8e2784c
+~ -[ATPError hasCode] : sha256 e83daaeefb9f25ee9238dec193d730a03f55f0d947aa144502e63ee93e1048d9 -> 63e37fd8d154c30adbda6808d0099153f69919ed956ba6449129fd3a2e25a6c6
+~ -[ATPError hasErrorDescription] : sha256 0533072077741353e625ead563b83072f0b4be08f12b166e9ba11327718531e0 -> 64bc5204807b52faf517d9fa38d7b0d100f815f286369efddbc5567026da77e5
+~ -[ATPError description] : sha256 c6011d660cf8dd5921539d2eb8763ccd029e6582077a091c335b6a56382b4969 -> a675e4f1346eabc7412f4b53e4542c107fa37986963b3916dd3760506fb029bb
+~ -[ATPError dictionaryRepresentation] : sha256 d57ea1045559c21842338f773d520c3af2c898f22c9a317c33084861b0e760b7 -> bf6111e7eeced3aa726b7404a132c1235129e5e1290e54c83b8fe82bb315c5ce
+~ _ATPErrorReadFrom : sha256 db1fc9314210858452729692d70650bd33b1d1ddc4931870faa7d5d5d9be1f72 -> d2dc9e5778aaa5dc9cdfb1538893b4c7b89b868e361dabb53503f986e3f7f537
+~ -[ATPError writeTo:] : sha256 12df93e6f8b68599ff77ddd58fc3aab9113427a617439cfe5a336615ee5123a6 -> a3d0f8479112a2c714e3c8941f24dcf35ad2ea53b3ba18f73ed2892ab188e3e4
+~ -[ATPError copyTo:] : sha256 ed71068088ec21a64f3964745ff3bd93360974dc1cd8d2947fda2eb2ce70b687 -> b41a0727b022ca42f8a11f46975176a72260b89c71339c44c117c0e6b17dba8f
+~ -[ATPError copyWithZone:] : sha256 d22c4c7dea7c42e1112e88ee94b9d8fb62a701c016dca4b9ea79afb90ff59a0e -> 920ddd95e53315ddf0d3bec11e1ead43e51579a7a5f33be0a94bab6bc776b5ce
+~ -[ATPError isEqual:] : sha256 71732bbfb34319e0727f27ed7e959814e72d387cceebfc06ea66c1df53a003c1 -> 923a04c86d2edfd708ac3e78459406b76ee26532b24192277e06a331cf3e8ba9
+~ -[ATPError hash] : sha256 4e0f616e2d5131c984f75f2cebc01392dc4b37326740866acccdf54bdf6a239d -> 91040dc4937aae9020168ec7d56b329880e7908266350dfd0b3e56be130030d0
+~ -[ATPError mergeFrom:] : sha256 609ac6bee6958b9e602852852367e80fff1f6fd9f6af26b459adbbad2e48520b -> e3204abebab451d9898b632c752cb6198346eb14e84e27bb2d52089364c0d40f
+~ -[ATPError domain] : sha256 8fd734d91b4f5306e929e1ea8a43809597dadcfee10e1d00a8def21256c30401 -> 8c5bb451c40fbf744194854a15ffaec16e71cca7349f20c4f0ca39411aef9c6f
+~ -[ATPError setDomain:] : sha256 3ba5569a3ff95dd24a6249c10aa1c4c79f8025526009b732a38b40b138ea4906 -> 953da07ec3b99f9dd021f4d54f36910fbcd8ae560a16d8b53a026dad495d7d7d
+~ -[ATPError domainCode] : sha256 88b958baca3d0b59b27c1b49fae41aad14ffcb4fc2bad59c8fc961784d920e9a -> 91c9c28579247978711a75d8aca67ef4b3fa6a063f4f8ce96a382ef1f58411fd
+~ -[ATPError code] : sha256 8122ec0a1b143a12ebfadd26b2cc73181e163b5bf00ab2a9a9a34cb03d828867 -> adf9d8f9d9664783fedeb20c372e4a584bbbaac913cd7abd3e122a7d132d8e23
+~ -[ATPError errorDescription] : sha256 1d14bb3796ce1560e684ef472157caac96223ad92b16e8f7dc473cdf9d72a9c6 -> 712bbaa7efafee7a89511a762eff046f3191f3faa5491ca88ad85696ed62823f
+~ -[ATPError setErrorDescription:] : sha256 a788e70c61d5c570e0236244c87a058a0a9aee4b2f5b520d407f973b3aba1243 -> 7b2399d76a965ae940911376f6c7c0ff717d65347b2f49b7442faddfb1c5f8a6
+~ -[ATPError .cxx_destruct] : sha256 fd715473c8b824ed7ad82c9ec58681ddf94f033594475387e7a91da6ac3cd56f -> 5f54d8e5d6e45c72dff9b0945aa6da89c893836ac2d5d0db71d8502e2aa40b21
+~ -[ATStatusMonitor init] : sha256 98353552dfe2cb7ec94394394aa06ead1d2a703728b63f7a1ec3da550de6971e -> 02f1ee62a47e0bc2d477f5a5f01afa21c845ac57a2645d33ae86ab1a17bf4e69
+~ +[ATStatusMonitor sharedMonitor] : sha256 f4fcb32ed14a1d44cdc0ddbdea4f12103f7ecf5e3bb975d26f6a41a4e3ff52b6 -> 6a9e497be1a37dc6d5f6805c7e17b6289d5e64bf5f80ea366630de4273c97d06
+~ ___32+[ATStatusMonitor sharedMonitor]_block_invoke : sha256 eb7a1cd3979c89ffc254f8d7d3ba23681ffafbc2f3cd787576787aafa81a1f22 -> 4f15db2fb10e3edd66b2728c957a7b4e3985f3c60354ab3043be228c79429fd8
+~ -[ATStatusMonitor addObserver:] : sha256 09b26bde7a2b484dbfff0a24ee5ed42b9c9bc9e4c57885fce0bd769a6cb2b362 -> 70d97af936fa7f00881ad7c54d3fb215c6ec2324eecf9994c96641d85804cfef
+~ ___31-[ATStatusMonitor addObserver:]_block_invoke : 400 -> 396
+~ -[ATStatusMonitor removeObserver:] : sha256 7ead2ba9fb88609b98e31eb3e5707336f5e2716d3782d59ebed4f94d3f695fef -> 16ec0c8b710ea1a97509a5d7caea7c3051600c6e84f4ee292381daeeeec337aa
+~ ___34-[ATStatusMonitor removeObserver:]_block_invoke : sha256 a7c08f059b564e27079bdd02855aed7da81519acb07f7597353fc84e4cbb9b2b -> 62f6ec070f019bbd3867c391cefd62b53c7229485d6c0eeebf76a2e8b9c26fd9
+~ -[ATStatusMonitor setDataClasses:forObserver:] : sha256 99cb839ca96c56c7091c48e5ccefbad177d2eee86387e7eb86196f0b68007efe -> 9c375b4544b55fcea03e4bede582403de43b5f8f5f3d9e132685e2d0cef14a44
+~ ___46-[ATStatusMonitor setDataClasses:forObserver:]_block_invoke : 432 -> 428
+~ -[ATStatusMonitor allStatus] : sha256 48dfa90f07f41734e921b24dd2e552f27dcbd483535e2877f3a3235bdd7547eb -> a8fbe05ef47bb96e73d93ddfaa6287c8d43666ae1b82df0ba7a2890295046ba2
+~ -[ATStatusMonitor updateStatus:] : sha256 e4d26f0d389efb5935222ebbe8f2b97aa3be4f1ffec7c22dcad6240f3d4460e7 -> f72358a02aaca3782ac2378b4d500f933efc99780da0c6ff713c1c6e3633dbfe
+~ ___32-[ATStatusMonitor updateStatus:]_block_invoke : 332 -> 328
+~ -[ATStatusMonitor updateAssets:] : sha256 d6936f6d54f3ec901e4a95493007f320e1a87edd43824a6b8467c8db76d6e713 -> 9df9e9a8cff14604af9718696f87fb18ea778414e83b65b760a133795ef2063f
+~ ___32-[ATStatusMonitor updateAssets:]_block_invoke : 572 -> 568
+~ -[ATStatusMonitor updateStatusWithValue:forKey:] : sha256 03ddba0090281088a97c0ce960e98173fe1ec89814f13d2cc450e7d3e419bafa -> 0b1395aefab02bd344924fb91cc689f4cbb24de6f5ca9e454e2bfb387f13fac5
+~ ___48-[ATStatusMonitor updateStatusWithValue:forKey:]_block_invoke : 276 -> 272
+~ -[ATStatusMonitor updateStatusValuesWithDictionary:] : sha256 f16ad39782189ec6701f6f78e0dbad21e35f5727052020b6ee03fca3103c835a -> 27a5a38b748e859272d69b9be9d0e55771827d0d85b2a7596e38131a27bc9d2d
+~ ___52-[ATStatusMonitor updateStatusValuesWithDictionary:]_block_invoke : 272 -> 268
+~ -[ATStatusMonitor .cxx_destruct] : sha256 32e82225bafb42254105d083aa533af85ee67cc0223bca7036bd034cf9dc397d -> 61b7df68a73f87d69f5fb1b25a838fda922f698b1a6ac71c3338c1b807e3d11c
+~ +[ATSessionServerListener sharedSessionServer] : sha256 f073bb32d213d17629c9d95419039c5d11e6305735e34371d936c9599f0e5774 -> c80e880dc030f20d6da832738c14b18df4509a8fabbf2599024e5c339bda7321
+~ ___46+[ATSessionServerListener sharedSessionServer]_block_invoke : sha256 2fd32847aa90569384f3624c6ad9021cbf0e42228173de6b4c6abbbf20a1ebfa -> 6d0539fbcf8311f9d2a1fc21888969cafebed61dbad08757a029f6b851dabbb0
+~ -[ATSessionServerListener init] : sha256 4f854ffe88c8fa71abe2bed023e3c057cd2a6b70c6dc0128b4dbfc3f2240a077 -> 7fae11ceae43c14b8d97cd1ff4221f333cdc2f2dd3867fd9ab63424e3b3190af
+~ -[ATSessionServerListener start] : sha256 7a526312ba7468937af3ca4cc541be7080c0ee0e2694c79ebc7dc32ed37d1caa -> ab5c49c9080670edd876d9e7686cce1d5eaa58005d5fcb1e34d6ca5599f85583
+~ -[ATSessionServerListener stop] : sha256 33e403c3bd1eb3b323b0588b61458d026bc79c8852c30fb48cce829d3a9b79ff -> e1d9109e09a347d7708a86bce1259d8f8c4604ee2f5f8a4d390883f4c49ea45f
+~ -[ATSessionServerListener addSession:] : sha256 fec3f0fbb0283251e10640e84f1b6b177a31da5e3bec1713523a60944a07c512 -> c22a806c3e8a1db5131b54517651841c6ffc53bc135b696c1e1fa21bb7dfce51
+~ -[ATSessionServerListener removeSession:] : sha256 4b8c5aa83c1f56ae60b9835123b64bd9f2b9fd77462b969c03427ed2e238e8a9 -> ed0583dc228e722776fa720cc58da7161d615dcd3aa0d513a8675f801f868374
+~ -[ATSessionServerListener listener:shouldAcceptNewConnection:] : sha256 7f39cd018f91cf2a93fb8acc0de7c5a3174b036b3c0177937089274be134d4b0 -> 448e4f03a1c3436f92946cbc2de3477150305f1eaa5cde6542e125746a6ceca6
+~ ___62-[ATSessionServerListener listener:shouldAcceptNewConnection:]_block_invoke : sha256 00e147699f6f3a121f41584c37fcc84cd2fa122455212f97ba304b1808598530 -> 80f39e7baf54f7da399dcda3f655625f5f287e014f91ea2132fd5d9ca08bd305
+~ ___62-[ATSessionServerListener listener:shouldAcceptNewConnection:]_block_invoke.56 : sha256 6584dc10578b3ca2100a1809f7b083b7a4a3cf6f565ea14a57d0a7627a780db4 -> 81e92592f84694fa96a85170de5afe625b503994db8061ed94ae24a2f2a3a446
+~ -[ATSessionServerListener fetchSessionsWithTypeIdentifier:completion:] : 468 -> 464
+~ -[ATSessionServerListener cancelSessionWithIdentifier:completion:] : 476 -> 472
+~ -[ATSessionServerListener fetchActiveSessionCountForSessionTypeIdentifier:completion:] : 564 -> 560
+~ -[ATSessionServerListener _dumpDebugInformation] : 572 -> 568
+~ -[ATSessionServerListener .cxx_destruct] : sha256 acd83cccc339f98bbeb699b2c54fd6f3fe772d0a6e6fa31bcd449f96490c4868 -> ded0de8a925f70b7da7374afeb49306dfd7b732bf02c138a71745c4809ceb053
+~ +[ATSocket createBoundPair:] : sha256 633595ad5ad7cd1a5a39df9913a1904b91f8420e2e1198eb409f2f49c885f65f -> ba629aeb0dc13c33196671e526fea274d65de4f7c4e88ff31be18b2203815838
+~ -[ATSocket init] : sha256 4ab99f18b3de336637f95c8f89f617316ad443b73b582c35b879aae295abdf60 -> 7da18867207e9d4c5f1a6c9275bced05fcc8519549d1a2d699af835c2f5eeb25
+~ -[ATSocket dealloc] : sha256 eabe495cc61e2f7653c1a011c27efd3a876d132c2e63e2e7d804b35fb09ed8ee -> 0264358bb05021021959e7e1cfa4466bf60675c3b3719dd185ae6b1077bf431f
+~ -[ATSocket description] : sha256 0ae3d2666680f968b02f4643f5aa3cb07092f0317bc71b92b67447ecf4582b37 -> 1e665ffecd098e464d102c254233392eb04358c0e76869edcb88563a6b05f25c
+~ -[ATSocket addDelegate:] : sha256 b9abe60f861191e3050cb1165c405ac3e5dab8c9a4ae7d01aeda11db456d4652 -> 6184a2adc2b9f3887e505b1960c53483f44fb6f15d080beeda2f1e37742fbc02
+~ -[ATSocket removeDelegate:] : sha256 251aa048ebc8b56e8d137e6addc2db370cd94f93c8796feefb75c6cec7e4896d -> e9fd70cab2a89274b83fe119e4e238188bf076c379e2c288edd020ee417fd5a3
+~ -[ATSocket open] : sha256 00198206808ebef17df27d26bf6b7e0aa74cfa31170c396030375b563f08764d -> 34f191a148b497b43448c6a3a2cfac878cdc5da8155e17c4eb56503b18bc4df0
+~ ___16-[ATSocket open]_block_invoke : sha256 a15bb931def46ac3e963be4686ba5110578d5a8784958ebb83da6ec5e1909990 -> af8e795fee5c790627509899f23b4bd4fcb58769ed53a48e9bc864d1414a197d
+~ -[ATSocket close] : sha256 574d8202efe7a9f594182f96a41ea132d4101f47762ce4cbb6164659ae110202 -> 178f25583e53dcdb41efe6400265632ed8f5603a865cbe22b763ef6c7c41f0ac
+~ -[ATSocket closeDescriptor] : sha256 02980d78750663841c5939744241d9401a43734616e96c9d419af65d1bebc649 -> 8c962087907cda86674617be890aea7decc468544e6908a79b241e3278ee450a
+~ -[ATSocket writeAllData:error:] : sha256 00140df7e77173a42791c6021767c29b0b52d42c078d072e2ae3fad611456bc5 -> c6930101f3300b90949acc588ad348396af0a7ae8c865658f862e89e7094a24f
+~ ___31-[ATSocket writeAllData:error:]_block_invoke : sha256 6c16fab35a42565b2b02b0a9264b30b51d254d001492f44fd777aca80ace816e -> 3cc6cdc964f502a071e7684fe004e568c336f3e64fcc22b922115de512b8156f
+~ -[ATSocket writeData:withCompletion:] : sha256 c809809acc352badaea3ffb877251a2552a62ba778dda2b281ad8dee8b6a3323 -> b6bd852da3de5e7aa7fee5047b15d5d8bc30620f782c1419249c14ef7f6940d2
+~ ___37-[ATSocket writeData:withCompletion:]_block_invoke : sha256 c7b67ff950ad3a65398313cd63b936b5fb2c8101ae570ed4a3a67709ddfc2327 -> 4c64b9d3b38c1057b790240eaa82d8f93fa70fa7381733e59b191ff9553dc7d1
+~ -[ATSocket send:offset:len:error:] : sha256 3643c852a2ae87d4c9ce8efc1f3744c95c58a61d9c3483b0558d7228756eec87 -> 585aeaeeb28a8796775c5476c0c6e0ea832238ba5678917bfd680d5e5a476825
+~ ___34-[ATSocket send:offset:len:error:]_block_invoke : sha256 f0c213b922169d08a2bb081b4c5efbad785c0198676ec4fe45cc6fbea69da36c -> bb2fb707bb7884c92dcf980e9b2955d7771fbefc2de48a963578b5d67b8d7f65
+~ -[ATSocket recv:offset:len:error:] : sha256 321059d15157009a2261d250c3924804acf08f5cf9cdca201be9d46f7323b351 -> 5dedd09ddace98e976cf21a1b54ea7bd4625cf52815b96ea73d30c6dc33cf64e
+~ -[ATSocket flush] : sha256 fc54181b84a777e79924d4d9fa923ce6abca7db29db842f731e85e6ef00012af -> ca30458e56d4c04b9a244b4bb526e30d2a5396cd0fcb55e8a2009363e9c99551
+~ ___17-[ATSocket flush]_block_invoke : sha256 7e7dc5c2aa06f8582f19f623028e39b1cda478fcd5304a3e4c4aebb6b2be3418 -> 91391283b7b63d1413dd2b57fba338141113292b0aee03dbd9ab2fb00d2ff41c
+~ -[ATSocket notifySocketDidClose] : 352 -> 348
+~ -[ATSocket notifyHasDataAvailable:length:] : 372 -> 368
+~ -[ATSocket setWriteBufferSize:] : sha256 3fd9aed6adccc0956ff7de9f85819aeaeb57d5d987fb62fe18521d800a390191 -> 0a011568ffe524567a9e8e4cc3a24499ae10a5ca1f7447d7e1b553f086b803d1
+~ ___31-[ATSocket setWriteBufferSize:]_block_invoke : sha256 4aac491a384d0d29c4813e7efec3583862eb2134d3d1a616aed8f1abad228552 -> d9a78794bf3ae0d548eca670b17bffc4cdef2c06714ed863c6d8db2627d41f36
+~ -[ATSocket _send:offset:len:error:] : sha256 31b8cb63d126ae84ec0f1fd3748ec9158efc680bfac8ede065079e326a6bf5b8 -> 1588840ca7699968a5c29af3ed122b816d4f23eafb88560bd04a03b2740ef83e
+~ -[ATSocket _flush] : sha256 1a6192ce3fa918650e743b79aea2b00f55d0ceb5e175cef72801d6aa4e0b84b0 -> c0e7cec73e6cafc83078a514026c91334052637e191630531dbb1ae00760027e
+~ -[ATSocket initWithCoder:] : sha256 a6e1fe0dfb4565459fa840a9adb5324d7e3bec7133dc4e4c1ad1d4a77069ecb2 -> 171da7c091c89d84a10e136f91a220291c88309fd6fbe0a3b2189fc56a7471f8
+~ -[ATSocket encodeWithCoder:] : sha256 51eba69bc72d69aaf4ed6b4c2b4583eacfe7d636a836c53f2fd173f0b06d7907 -> 55a18b032eb2445d095dd95b0074e5e8914b78e210f823ed20b16569ca5dd8e7
+~ -[ATSocket setUserInfo:] : sha256 ac252d5d6bf1fe7bde89d6420d841931e66d25d1dbcdaf01ae27a79c060d0c7f -> 4b86627050a7e57057f2ff8926ea0939221a5f096baafe950b010b5612e02929
+~ -[ATSocket .cxx_destruct] : sha256 0be92cb60d17a86ad708aed53fa3ce5178345781678a630c4fe644aa57b9bff0 -> 63c70518dd094c5de5614dad487606cd1b4143576394681e427e1005d43e8a6c
+~ -[ATPRequest hasCommand] : sha256 2b8cee357fb8a4c70fb0179992f7d3b4de69705b63e14637b65a2dd9c0c9a449 -> f0cfa35a9ff470f6dc1ef75b5aa72dcdcbf1b53238843bf687ed08bfa17b5225
+~ -[ATPRequest hasDataClass] : sha256 fc5ab93d99529de71a7b34ee80deaff4c33ae8e2016fc8bafa9cd6159eefb1a6 -> 3005e2ebb0d3638684f760dff412ec88a8b0b2f3d08c6847b38fc6ebe5d932c4
+~ -[ATPRequest description] : sha256 93e23d29ea18af1c5f9d984eda4947fbc5d45239189ecdb85192c2f2a34de980 -> b5f2f1b1dc7146709785b55b11a09c058adfa610e36cfaec7fba59dff00fca02
+~ -[ATPRequest dictionaryRepresentation] : sha256 9e9d9b618964285d66bf51c2354acae10153f50c6f53c08fd5e202c399a9592e -> 5486fa43c48019e6eeaad0d41af2e27e6ccf3de059b23d6613aabcb07f92ac47
+~ _ATPRequestReadFrom : sha256 1816a2d55aeee31cf49a2d4e96d20d9bdf3baa7d2cf465c03b9ca2619d11dece -> 96c2b2fda12aeb12aca54da8a1d8735a4390fac498e15ce7efe8d597a5494920
+~ -[ATPRequest writeTo:] : sha256 8f1297a72a74de7820bd3fccede4569439190e740600a874ae0b5cbc83e33759 -> 8feedae7a37d2c294b6daedca3c8ae5ddad5e0b918c59c0b0776fc6b4d1d878e
+~ -[ATPRequest copyTo:] : sha256 77d1be3b545ef82a45e3719ca0ab418364ab004ad938a89e4c2503ef867a597b -> 474da6d342c9d220c3b030f5d2c81b2ea22cb21b63c09f184e5784fca89ae5b3
+~ -[ATPRequest copyWithZone:] : sha256 6655fedd41965eec7f13e5e23d92b433ff4a1cb6c189de67ec36203ce9646692 -> c0032368c29975c23aa30eb7c8904e0bccefd465109f85cec8fb3b8ace61eecd
+~ -[ATPRequest isEqual:] : sha256 51b7e9a6fee27d0738074556dbf1e6017be42c5e5f853ac02404ff45bceca76a -> 537ea9546ed8b01edab60e0eb55af155e1602b4bf25c05d99cb27417c6bcc0dd
+~ -[ATPRequest hash] : sha256 f45aac8d80446b62ddb5da4e10498c9f48ca8804004f5b94fc7a99b527e9a2da -> c5c2b2e2893e397bdcd167f472ef99f79cdd07f6ed871910deb2db80fed2c649
+~ -[ATPRequest mergeFrom:] : sha256 9b1fda9d4e62d5fa95dbe1baa44231b2c94810377ecf3d97299d9883a5362877 -> 026050e80ee57872eb5f88e79a776af50835ef770b4a58ba97890709e125a302
+~ -[ATPRequest command] : sha256 2809a49ac4e554804021d67de8eb844f89f312fec9a62a3e1dd6dadf3f2d549e -> 18763001123255ae4c1c5cbc54a88fd8ec0f5cd23cc0d5a9867e7bb48e03f11a
+~ -[ATPRequest setCommand:] : sha256 137f0a7cdcf4216f4f469aaaf97393cce198417fa783a43fb0698a05b78f8ee8 -> 124f76f51235179455fbc225d418a0df53ff9cce04ac9e6e54dc0788bb5b8f6e
+~ -[ATPRequest dataClass] : sha256 dba135c7cfb724a141d6f4ffab675460d15b273dcafbc8888d2107293a459856 -> 889ff2f9120a46969fdbdff43cfe9be84052c7a94a00086d920eb70986da9565
+~ -[ATPRequest setDataClass:] : sha256 ab22375956b8f2db9de30c9bd3f7ae826df6aa9d1268ec62e080f0e897fc129d -> c138c582814971d0b9dc139cbcdeef220bffad8dfa9165446bef1de1c3e5c94a
+~ -[ATPRequest .cxx_destruct] : sha256 da91e449f1ed34193b2447c634c6741d28a2f92929a6154bf11c1bff7f5c3a2b -> e9b7a22e81c782b9365dccb82518c564a0b3dc74222dde5db28cbaa07a0420c1
+~ -[ATStatusObserverConnection initWithConnection:] : sha256 b01a1f126fb7283c64d05895d5778ea885042113364706add77165d47be195b4 -> a7de3d07d71f08b094ab6af965687b35c1272605b64fa17ee3e30c8307424c7b
+~ -[ATStatusObserverConnection monitor:didUpdateWithStatus:] : sha256 1f56efcdfe2703d5c288e24d823d47b16325850f91d1bef87481fcbc1d92e58a -> 767c64139cd409d97c2c57a8a73fb458fa632d4ae78ce56663f9710a1a8d9379
+~ -[ATStatusObserverConnection fetchAllStatusWithCompletion:] : sha256 6b0f3e32945f01af10cd7b910bd642891d67fd9de37f1d757b824611b320b6e0 -> e93bea4ab1c4eb0cedd34614b0d600ef329ebda99f30172ed4509d93f5ab748d
+~ -[ATStatusObserverConnection .cxx_destruct] : sha256 e1a87bfc7b058548d3e8d5d888ad10ff8398e1b54e2af09db38f1ced107f2859 -> f79887730807678a8082b5f07231145fc21241f454c7ee66edae9b689eac0698
+~ -[ATMovingAverage initWithWindow:] : sha256 d972a4310e7bba96de84340ff172b06dbf63b4d0a0221829cfbc7b8aabc42e2b -> 1f4e93f9a153723db19990e541cfe3ef4db1300907ec9876c4ac833c80e0aca7
+~ -[ATMovingAverage dealloc] : sha256 6729140dee55b9622a6cae91651c7b6cdcfe3f21125530322476d1ca0d7bef08 -> 3acd75a1960219cd64ca40511ed5bf7d9223ede073626e8da801f8ba11e8ece2
+~ -[ATMovingAverage reset] : sha256 32544e9aaf255790eb2dd202ad92de8c197dba3a21f70a36bdb6c84beaa60c0d -> 01a8784eef500e6243fc950bbb40c39b8d4b86b935a48299a911f7fe5e876321
+~ -[ATMovingAverage average] : 68 -> 76
+~ +[ATAssetLinkController sharedInstance] : sha256 90df30c3b1ab351d50030b80f16b4f0b03d954ee3bd0c8fb6697129ee2caeaf8 -> e151ea53b182cccfbc074eff67f6234ca15e74d3f2bf0b180850fefe22ba4e6e
+~ ___39+[ATAssetLinkController sharedInstance]_block_invoke : sha256 548c1a27d22dba1b1da20fefa2820430d87dd1dfa919a6f932dd42131670e1f9 -> fe54a9256908217cace7dd54d52191bf3a9ab3ec056eb57e2f2eb59a4d71f0f5
+~ -[ATAssetLinkController init] : sha256 e3f6721ebdafd8dd80fcdebae8e9387472b98c8c1ba6128f3993fcd963209ebf -> a056c343457e9d33df03b010b1e1aa583e6f26dbb2d828712e440dbe16a3477e
+~ -[ATAssetLinkController dealloc] : sha256 11500295fea15a0cd74ed3b14d33f12a83f0961eb72eea64c5879b5e389af1e2 -> 7c6432e680ee426036e5ef4162a49661e9974becdb74e6ed75bce376a012381b
+~ -[ATAssetLinkController addAssetLink:] : sha256 b40c8bc50adf3a9aeb4011419d6757ee5987044f5501cfe0661f9976e1f012dd -> b56dea2fcd74c20d679a47a274d0da522334e93abedeb4bd21a754057472bb2b
+~ ___38-[ATAssetLinkController addAssetLink:]_block_invoke : sha256 5df63087fdcaa17bee7de32061c8e45437fb7556aeec78c089249e7ee77dcf44 -> 90c27ca6aed835a13d94f9824e099e0b32680e45472171290f6b5cec498be43c
+~ ___38-[ATAssetLinkController addAssetLink:]_block_invoke_2 : sha256 68a47426f5e609dfadfd31c3685cc284ce932c1f88ea05426d72842564bce2a8 -> 2faab3520e6ed5e86b53a1b979f70009caf14d7df30a19465793b2cbd8cd63ce
+~ -[ATAssetLinkController removeAssetLink:] : sha256 1e8f267d5402ba8475a775f3e16a9fd77c3047ff1cedf615fcb83bc7fa478467 -> c451e5cc8492175878e0e3be83c99c2a911cb2c593643c22296795cc4dfbd587
+~ ___41-[ATAssetLinkController removeAssetLink:]_block_invoke : sha256 33186398a502850eab47fab7837fdf486ccd1c2d0df47057a7a5e587e37b5de2 -> a96b1c8d5bbdb291c84d8770caa36fd854758d473fe4dd8d24715e5d29d7aa21
+~ -[ATAssetLinkController allAssetLinks] : sha256 28e3354eb001b848b67bebb788f14f747fa2c5f4faa0b068ff11091d84c2fd50 -> 9a22334ea63a028c08c9fcb882dace24126735df31c0c7298cbd6929c37c5eef
+~ -[ATAssetLinkController allAssets] : sha256 26414c06da4bf2981d2117727a32857a8b4581b570a103f39fedd3c3486a0ea9 -> 6935b594c8883ed7522de1606bcffa46731df92cc1d5bdf974e57229547b9d78
+~ ___34-[ATAssetLinkController allAssets]_block_invoke : sha256 a1cbf37bb8930ba35b293449fc187390235bad98bbb9b84457b8fe4b10d7fde6 -> 288abbe70dae776d449946f151d2b388c19cf5e36b400f4474d1d8fd7dfe96e9
+~ -[ATAssetLinkController allAssetsWithLightWeightProgress] : sha256 853747638a677e2255450487dff1bbf3f6190ae472033a60cf65318a0754c061 -> 14a34f2b9d2f09d5ca2a5e8487b4d9677dbe68ec309a189eb69a9b176dd05187
+~ ___57-[ATAssetLinkController allAssetsWithLightWeightProgress]_block_invoke : sha256 ffe0bd7a6d0b580c64ba855be81a76f63ebe9c196b10a19f8d88f7e38cc56453 -> e19ab5e14db7a600c09f0a0b8ce428492b7e9722258ba739c0e68829a02e1439
+~ -[ATAssetLinkController enqueueAssets:] : 648 -> 644
+~ ___39-[ATAssetLinkController enqueueAssets:]_block_invoke : 1220 -> 1216
+~ -[ATAssetLinkController enqueueAssets:progress:completion:] : 324 -> 320
+~ -[ATAssetLinkController enqueueAssetForStoreDownload:withCompletion:] : sha256 6399e262b416025a5c738dd3d49cc874946d39bb721863545c3f0df78152c792 -> f731e61289b031b3e82885b15be93031f2104683f3842442c3f8d9902112652d
+~ ___69-[ATAssetLinkController enqueueAssetForStoreDownload:withCompletion:]_block_invoke : 996 -> 988
+~ _getATStoreMediaAssetLinkClass : sha256 5adf3dd36696d87cb98a47f732436e56b6291deb496cba185afe96762cc84edd -> aea5ea1335f2f147c0f7abba461c7e59eb3260bc743bfc795f3b7ac5ea0d3f75
+~ -[ATAssetLinkController prioritizeAsset:] : sha256 518d0a13e2e0d89c09347b7f48bb9d5395cd38ae18c8b9a02da8df08bf711eb1 -> 631e3f378410ccb8b3bb3b36915576e5afcc7d02984292cd0d542307bae9075e
+~ ___41-[ATAssetLinkController prioritizeAsset:]_block_invoke : 968 -> 964
+~ -[ATAssetLinkController prioritizeAssetWithStoreForLibraryIdentifier:withCompletion:] : sha256 9ee967e683460bcc5c33e221be12cfc067337b7b113a3229e78598fce63a75e8 -> ab691ed1c5599e128f8cecdf2f9be5a63e6b9a16aeaa327a552b036e49015767
+~ ___85-[ATAssetLinkController prioritizeAssetWithStoreForLibraryIdentifier:withCompletion:]_block_invoke : 556 -> 552
+~ -[ATAssetLinkController cancelAssets:withCompletion:] : sha256 2bf470098bd3b727fa130b7623ef6368de3919640bddd377214da959d8e128af -> c30403136566f55a6785f0a301297a0f628a33b5089e2f46fb26eb16d09f4aa5
+~ -[ATAssetLinkController cancelAssets:withError:completion:] : sha256 8b9699c20976e34817b6ac30e16b80d34b4b03ce598812194fc272b37706ddbd -> 14fb1254468753bbb1c61f8d628a6ef1245bd4943cc08fb850dd7133a0bedba3
+~ ___59-[ATAssetLinkController cancelAssets:withError:completion:]_block_invoke : sha256 d86b605c1b8c18cb22db12903983d8d950c769341c97bf38d6b5825c6e0ce77c -> 9ab5bd5c1b906711e289eefa0fc3d96e006c6b1827fbb0f4c6f3036391d8e0d7
+~ -[ATAssetLinkController cancelAllAssetsMatchingPredicate:excludeActiveDownloads:withError:completion:] : sha256 3936b37a039a55e22181484e35c28d87601d310813946dbb45a7230190995c7d -> f3060d159de533e12a5ece16b6a5782e86dd965a8a5ed698987e9e202449609b
+~ ___102-[ATAssetLinkController cancelAllAssetsMatchingPredicate:excludeActiveDownloads:withError:completion:]_block_invoke : sha256 73ff167a7fbdafbf9c42c103db6e09fccbb42377d196304f21431203a892fd2c -> bedcd649e2f7e2d2858268a4e30df4e79decd9e3a23d60740bc0850b66b5ac23
+~ ___102-[ATAssetLinkController cancelAllAssetsMatchingPredicate:excludeActiveDownloads:withError:completion:]_block_invoke.37 : sha256 7bca2e50bbcb6f44fcb034835ca20a4f59c89c5f6373493635746efa83bcfbf1 -> 408b7925ae79d1def62529b1989ba4a5430155381d6d4d53e9ab5fffa9677790
+~ ___102-[ATAssetLinkController cancelAllAssetsMatchingPredicate:excludeActiveDownloads:withError:completion:]_block_invoke_2 : 424 -> 420
+~ -[ATAssetLinkController cancelAllAssetsWithMediaTypes:excludeActiveDownloads:withError:completion:] : sha256 9405069c527a51b230cc139f0840c9aee36bf379b1009f5487f5701ef50eb2bb -> 9fad2baad065f59ff85cf7f233c6a43cb3467ef8ffd99d9ffc5c613945045ad7
+~ -[ATAssetLinkController assetIsEnqueued:] : sha256 de4ff4ed57c8c1c5b97d41e3218f50612bf09c417c3f57112a8fa27cf37ba5ac -> 7ca5179ff99ab4177c45b35621067e2f0d353cc4b0e6d19731382459f1d9708b
+~ ___41-[ATAssetLinkController assetIsEnqueued:]_block_invoke : sha256 93ec6a16ce0346bc60d0e53924d2c0eccac16a50a3f6631b4addd6f2bb092e5b -> c8741e57113589193634cd6d18093f84b9e587255ab31f0c8b2bc3d013bc0855
+~ -[ATAssetLinkController filteredAssetsToDownloadForAssets:] : sha256 275709b949d6b7d317c5a23bf368b956771a10b1a08d006edcbbf8b4921211d9 -> 5e65cfda5fecc5ffdf491d92cd7167eab5fa73d3f3d738515e72617a3882b521
+~ ___59-[ATAssetLinkController filteredAssetsToDownloadForAssets:]_block_invoke : 284 -> 280
+~ -[ATAssetLinkController setPendingAssets:] : sha256 0afd5c764d853bcf005e9a74940dfe062b02072dfd4dce4099d44c142767d67b -> 6574fb38a968ac94c3c77f2039e30ab33373619dab5faca0bdbc0a8f2eefee06
+~ ___42-[ATAssetLinkController setPendingAssets:]_block_invoke : sha256 9372ad0590af8b01b42cd96461ce8a62a904d45c23b732b3a94bdb23bb576bb8 -> 91d550eead3b894f385568b729f72bed593b193670ab6c2969ea54f77acb6711
+~ -[ATAssetLinkController addObserver:] : sha256 7f0105b0470840ba2eaf3a547ccde92cd9457be908e7ab728f654644d8398501 -> c4ee02b584c739c319d65ac4622c005cc073bbd0f4d415bc6f6421607fad54d0
+~ ___37-[ATAssetLinkController addObserver:]_block_invoke : sha256 833c592620b2c0745061ef67495ffc189e0c9473efa85d90a88f0cad6a6d5d08 -> 43c73f2bb67082485be92a4f815a2fab63229a61b1592fe5cd94ad1dd781e628
+~ -[ATAssetLinkController removeObserver:] : sha256 b50aa6e6fbb5fc19e7c3a0e33fe32782c4a409573304c81c36e74823e4fffb9b -> 6c367241e4caecd86ae3a63909ced30f9e7f6ab1345940da66d4098403520300
+~ ___40-[ATAssetLinkController removeObserver:]_block_invoke : sha256 d3ae9983b8096364890f71f5638798697be995a683698d3ce757631777212711 -> c5c82575234533e57bb9c698b1fce4aaf2753de48cdd45bd7e00e38d297d2a4e
+~ -[ATAssetLinkController installCompleteForAssets:] : sha256 51dee4d32fd42d1190f9bb6b247c69ee9c804aaccdf1f47a4c0c657e825545d3 -> 9d040ebd79c8d70788ff3a8cec743bd10a91765c160cb7cb10c7ff92abd22105
+~ ___50-[ATAssetLinkController installCompleteForAssets:]_block_invoke : 676 -> 668
+~ -[ATAssetLinkController assetLink:didOpenWithPendingAssets:] : sha256 41f12457d5f51db585f219f6d8967a7a2fb4b1f4a4b5e9b1d5b4c0b6b8bb8522 -> 6ad90b744c0e3197771f6b24e9b4385ce4861a1c71525a2132862f21b46f20a7
+~ ___60-[ATAssetLinkController assetLink:didOpenWithPendingAssets:]_block_invoke : 260 -> 256
+~ -[ATAssetLinkController assetLink:didCloseWithOutstandingAssets:] : sha256 552e8dcb647184b49e857ab442a38fc68fd92b8b691ecb6abf058e8c9823df80 -> 6f8d24cbd36cb344f71bc175788c5b5b5532f81b5ea700d13ebc2891c115bebb
+~ ___65-[ATAssetLinkController assetLink:didCloseWithOutstandingAssets:]_block_invoke : 856 -> 844
+~ -[ATAssetLinkController assetLink:didFinishAsset:error:retryable:] : sha256 c8d1396ed28fada8c4f51e9cb6ba9a19f2755606692d40178024604f922da222 -> bf14deb72d50d2d5208b656541c940fa0bd8b5ed3d42fd98342bad7c5d2efc25
+~ -[ATAssetLinkController assetLink:didFinishAsset:error:retryable:cancelPendingAssetsInBatch:] : sha256 656d077efd48fe218ebb92ad9b66b0f37de2ed29de98fc52245cf20c5412b588 -> 8aafd362f837e8407ec2d1cc5fbb7410adca44b2a3e6b664ffe8d8ac382fd362
+~ ___93-[ATAssetLinkController assetLink:didFinishAsset:error:retryable:cancelPendingAssetsInBatch:]_block_invoke : 1876 -> 1872
+~ -[ATAssetLinkController assetLink:didPauseAsseDownload:error:] : sha256 d848d7763a9b703910603a55e1b4e356c08fcee4660cab0230872563ba7c420a -> 02c5d24e32f8a33dc1a707c106fb3e46d564e284cf51d1e271e3bc94e5e866df
+~ ___62-[ATAssetLinkController assetLink:didPauseAsseDownload:error:]_block_invoke : sha256 9089359aed533916d726c61adbda708fcf31d9fb428c2f9bf83cb7f6d7b71cc9 -> 75d1e6716a35968c3e991542a8aa1b0f4069bf0e9974176922b2217b346bc867
+~ -[ATAssetLinkController assetLink:didUpdateAsset:progress:] : sha256 679ae466e4823025fe03d4f285b0592325458da83e39075bcbba6f7249f9f56b -> a6f71f0c63c643af8f2ca966c250efd87967f1aaba992cde39381dd76b4de651
+~ ___59-[ATAssetLinkController assetLink:didUpdateAsset:progress:]_block_invoke : sha256 5c594bf264b37642b408993578e9509d884f063ebb425a40eaa400247bdbb6a7 -> a23a497f5e3a4890e1818b0864b22b7663f25a1c899bacb4b5dc57ac9eb9c0fd
+~ ___59-[ATAssetLinkController assetLink:didUpdateAsset:progress:]_block_invoke_2 : sha256 76453258f2f4321b7d2433b186a94b6c68841c7913d940d567103598b44a8e07 -> 01b30ab275db973a78790d3759dd161748404add23d70e7f1d9e8575461f2ce7
+~ ___59-[ATAssetLinkController assetLink:didUpdateAsset:progress:]_block_invoke_3 : sha256 af2c08d67e2b1280fad20341cb50a8aecb2de21b60dcc8c427e2a660e376f55c -> 989201a7bb97411389357051e8055b86a592144f95823a1544b59d6898a48e18
+~ -[ATAssetLinkController assetLinkDidChange:] : sha256 918fa2c752030eb45fd01f1e39d91c45b53d7467c2e212a3342f6f23cf4813a4 -> 918489f469b789b5cb69d7488f45045f13e9be8d780ce5b2b92b66516eb0af9d
+~ ___44-[ATAssetLinkController assetLinkDidChange:]_block_invoke : sha256 790988cab68fb687357dc2e054bc3f002d44b52752ec7731ad7ea800deb04df2 -> 3288320ac96de2f1944a364407fc4d44c8ff2520d68d2240d7e381367852c647
+~ -[ATAssetLinkController assetLink:didUpdateDownloadPauseReasonForAssets:] : sha256 6590bedd46ee51c00d6efe45c990edd98fcba42db9667a3b6061baec9a017e37 -> 98894d8291192d0f79bda39ad46ffda8ec82bb6746b580cde7dc653442a15b6b
+~ ___73-[ATAssetLinkController assetLink:didUpdateDownloadPauseReasonForAssets:]_block_invoke : sha256 5c1501dea0a76b72d7ab31b6974b2d92bdeff5db0a15c548b4170b986913a345 -> 99e0fca34d1df41296030d9a15baa9b545bc82653557e23c884ac95419eb8a66
+~ -[ATAssetLinkController environmentMonitorDidChangeThermalLevel:] : sha256 7d3174c3108fc9adad5d19aa7f1be2bb4c6aad7e9a9279db4f7b0b2faa3a053c -> 90cd1efa02823b8056f6feb035ed44f01513b9c91c318e7df9c30c829f015f0a
+~ ___65-[ATAssetLinkController environmentMonitorDidChangeThermalLevel:]_block_invoke : sha256 6075bef24c4bc1749993f78f5d170889e0f1309fdbec49ea9743d2b6a56acfd9 -> 27b7a63f6b5abdee5d4c85cbb0c34f0906fafdc5c3722e24432b8d6d36c9c423
+~ -[ATAssetLinkController environmentMonitorDidChangeNetworkType:] : sha256 0cfb11c8d022bcfddf2da21a3a2f523fbe9ab4a09f8dad2e93d0344b7345f9cd -> 30ac55428e077b1466ef669e655ab1d7a977c2c0d2a28c7d2256aa8eef37596f
+~ ___64-[ATAssetLinkController environmentMonitorDidChangeNetworkType:]_block_invoke : sha256 860e4efeb6a8c1457c1e4c7efcec8b06364f1616894416350e3040403ae50806 -> be61dc7af2cc66b43f3741cd1249b22abfe50f72bc7dc30cd3c9e77ee3a064c2
+~ -[ATAssetLinkController environmentMonitorDidChangeNetworkReachability:] : sha256 919dad6ac84c97b3adaa4b50ee93a92b81a9e9037155236e77e3a6f754495e0c -> aa464ccf9deb06f955ca46b1724401461273e5fd1cddfd77ad966806320124f8
+~ ___72-[ATAssetLinkController environmentMonitorDidChangeNetworkReachability:]_block_invoke : sha256 ab23e05e6fc86e02a36496ca8211ef135bdc84b85ffec55a9ccfeffb05ddb40f -> 65655fd90934dc86ad4a37f346007a44ae9d6b588b225ae820b6fe675aaf0eab
+~ -[ATAssetLinkController _performSelectorOnObservers:object:object:] : sha256 ebc417f57bcd5d44dc33139158374f3cbda00d29bcadb7e4babe9f8cd189a136 -> 9630782ef55ba71516b28bb9d6a1b3e3f2fb31192516cde6540ffb48d655f689
+~ ___67-[ATAssetLinkController _performSelectorOnObservers:object:object:]_block_invoke : 280 -> 276
+~ -[ATAssetLinkController _cancelAssets:withError:completion:] : 1548 -> 1540
+~ ___60-[ATAssetLinkController _cancelAssets:withError:completion:]_block_invoke : sha256 23f8f8c02284d4e7f2884cc4d80427f444f92a8b0e8498be36670c56dcf3c16d -> 77fb6ccd215f7a2416dac4cde0dbf7bf01573efaa19d2f1092615aed33d16ec2
+~ -[ATAssetLinkController _finishAsset:withError:] : sha256 b9a02d924d6ac47337517b02554c5609022107aeb52205b95326970a37dcb226 -> 605a7edecff2d32f2f4038c8e18f539737cadd65bb3f58e57212721a85bd7db8
+~ -[ATAssetLinkController _addFailedLink:forAsset:] : sha256 731894a07699159a38caaaae8412e9b74e21be275fc14a531b2ea67d4a16173b -> 29f49882e6ae1f8b0ff5cc8caa228f72387e7dc94ef572d700a500d7fb675864
+~ -[ATAssetLinkController _canEnqueueAsset:onLink:] : sha256 a10b1fbd67199a6d09ea9fd47f0506d602c47cec71646c6ec5a07d28ccd04996 -> b8f02a4d7cd4c2e090caccbb25fee4ab4ea17636f5e090d790f023b921dfb0a9
+~ -[ATAssetLinkController _canEnqueueAsset:] : 292 -> 288
+~ -[ATAssetLinkController _handleEnqueue:onLink:withPriority:] : 808 -> 800
+~ -[ATAssetLinkController _assetsDidChange] : 1144 -> 1140
+~ -[ATAssetLinkController _getMaxThermalPressureThreshold] : sha256 bfb8a74e0ea7e0dfd594fea6d903d8c6b58bce5dc1375fd8ad0d60b9f88b1552 -> c544e406c76d837294a8d55fd1da09d18bc4162dcc7fb4fe83bc7737fbe3d2b8
+~ -[ATAssetLinkController _prioritizeAsset:onLinkClass:] : 876 -> 872
+~ -[ATAssetLinkController dispatchBlockOnControllerQueue:] : sha256 abaa33bb1d6b5c04c164c80cb17370c353cacae083ec756bd53c463130ac6c6e -> 04192da4dbfad2c40971c372af4c23f98c470fd3a2efd44de99c80f679f9e70a
+~ -[ATAssetLinkController _shouldReleaseKeepAliveTransaction] : sha256 2584c634211df9b83e491cba9e705e11ae26aadca5c6f54bfba63eeb86444c7f -> b654d274bf09e44199c2176433fd2bab3f77408832bf715590217ea1f2b74733
+~ -[ATAssetLinkController _assetIsEnqueued:] : sha256 83f9ce67b13b687e893970237965bbb1cd7119ceac564765c327856ff947ae18 -> 0f1c7ac35a8d90ce2c0a11c4bf4453166c1b8c365915397de8647a8b8b9b3f57
+~ ___42-[ATAssetLinkController _assetIsEnqueued:]_block_invoke : sha256 716cf11340b7a858215be614187ecc8973f23e77b3888781c7cc9885c2a615ee -> 321cfa34f40a58e3a0d7d3dc183dd620aa7f8065acbbedcfe94a37c1d9879851
+~ ___42-[ATAssetLinkController _assetIsEnqueued:]_block_invoke_2 : sha256 0d97c6094d2eacc0f0511ffd9dc7309e071de30deebc3e43afce35e28223ae70 -> 4c4c5d6368ecd34c171719297f690993052c4d59807224efb2833670bf6199ba
+~ -[ATAssetLinkController _updateCountsForFinishedTrackAssetTypes:] : 1020 -> 1012
+~ ___65-[ATAssetLinkController _updateCountsForFinishedTrackAssetTypes:]_block_invoke : sha256 c18dcce5f5abf86d6be4ba53c1895ee3f5b8d88c09112c9341e51bddc890e409 -> 2d70c47d8b8d2949675e8c5d2416a71de60b456be2647cfe6450ad46c7c7426d
+~ ___65-[ATAssetLinkController _updateCountsForFinishedTrackAssetTypes:]_block_invoke_2 : sha256 960f3b01869599123c657b849dddfd6741046c8abf2f52c48698feb37f010f56 -> 353de9600d7a3e56e91af116bf10ce7467f7c9521ff7260f671b35c4c7a6f602
+~ -[ATAssetLinkController .cxx_destruct] : sha256 fa7ca36090440547c10eb2be26270c5a3a999f5e08aa0a97ae3af43170f55b60 -> 196231320c36cc5c08339e87c479ef53546527b656723707cd7a87bf4f460650
+~ ___getATStoreMediaAssetLinkClass_block_invoke : sha256 17bd92cc055c788ed394fe145e30db536d3c9ff278c5914e66f8287316627702 -> b415fdc63f801814b9564fdfa7574943fa7388d5994a605e2bfe7732c87cbc68
+~ ___AirTrafficDeviceLibraryCore_block_invoke : sha256 74ac6fb25ffcc4a128338fc3c3229f060bbcc57c9874b186f4304f1040b8a981 -> 4031a4dbe4a65566c30309f72ea33fdae0581d35719b7c66e821460076cd08ef
+~ -[ATSessionProxyListener initWithSession:] : sha256 9120fedbd07685be9e1384b44017fbdd398b1640684a8d5ca0e359377ff7f592 -> 7f21c161092770195149be7eef5e51122a956b3d6b8a397ee6609265c0ecc3d4
+~ -[ATSessionProxyListener start] : sha256 0f7458d3e799bf7870b3c30fe683e8522048aa36dda1e74b5fcd371de29a977a -> 8817a9ce24ce747fdd32c9968e50dfbefedf3d53a45f2f1ce408b8762fc0543b
+~ -[ATSessionProxyListener stop] : sha256 342162e043dffa6943fb4f8f2b958bc5c5c05e9f3e91b49b7c12d2055f9939af -> 1a7a1098c7bdb274bcb1b5ce7335907f884f6c9c61ffe7725af0049a1ed477ee
+~ -[ATSessionProxyListener listener:shouldAcceptNewConnection:] : sha256 96ba7af4b4bf04e90ad4113f3149e55a55700f26d821f64c2e1d3ccab90bcb42 -> 0872b0700427e1b34d7795c6167bd8f0e7e2a6a89eb74aa0e5508509d9c4f439
+~ ___61-[ATSessionProxyListener listener:shouldAcceptNewConnection:]_block_invoke : sha256 71bec08b152c0bf863a7c8d2ec538fd0e2bd76afc2d80a8d784055dea8d780de -> bcb9adb321276e1a966f05b2296ef9241bcc51e4f359b747b46e1527b5c3d5bd
+~ ___61-[ATSessionProxyListener listener:shouldAcceptNewConnection:]_block_invoke_2 : sha256 c594d2fa3aa25c87112dcab0a841bfe5c2a4ee33324099ef0ce64ef1cbf65c66 -> 2bdec2ce4cc171d53c19514b72c0159cf595268fe90ea3bdbc6f896ca9029e8e
+~ ___61-[ATSessionProxyListener listener:shouldAcceptNewConnection:]_block_invoke.3 : sha256 5284ecf499d04fc8ee21b1a0777f33d16ce51a8656f4f60ce68ccf080263ec52 -> 99da79aad06e0a411d7af5543fadd41d7f7ecaf7a5d9d3171fdc05f03b8e6d67
+~ ___61-[ATSessionProxyListener listener:shouldAcceptNewConnection:]_block_invoke.4 : sha256 9a20eb238893affb6668acf8a9f1fd6913ba480166aa051b7aef40b628b75a6e -> 6e9a8d8a0abdc59193552f5ade7dc97647bdad59e5b4eebbd281a384acc64943
+~ -[ATSessionProxyListener sessionDidFinish:] : sha256 e0eb695dfdde081c688a69e86970ea2254fc1a8d10d9d3c5b4eacd3005cc2d98 -> d18294b33cc1dda0adbb2224a6436c00cbef4fa23810480f48d1dcacbdd8bebe
+~ -[ATSessionProxyListener .cxx_destruct] : sha256 e63f445d2af16ef7ae3674aa34482413d6e22db0732631c506f93f62901c1508 -> 75da52f03218b9eb1c974fc7bbe2e52b936510359ebeda937df2144c0be3c3c4
+~ -[ATMessageParser initWithMessageClass:] : sha256 838feb320029e87fde7047fe3a3d14de33791a07625fb1558e6a217396271c33 -> 17d20744856c203c348eafefcab314a6302fd4380f1db02b407e44ba70ae5bf8
+~ -[ATMessageParser dealloc] : sha256 ca88a24c2f5a7dcad7ff395078d12f58eec65964436c08b04ed2137bb532e3a4 -> 76778b546af86f55bf02a1e3ff95786b2781468988ea1387eb393fecd5401bcf
+~ -[ATMessageParser _parseObjectFromData:] : sha256 5719c34b36cb5397e689c793a0c21b8704f853cf5ab4b155bae9eaeefc8a553d -> 79718abfb6b8d80ffa7d14c416df5b39ba3c1e986ebdf5d97983a8ee648c10f3
+~ -[ATMessageParser _parseObjectLength:length:bytesConsumed:] : sha256 e34c1af683a53459af45d649ec5818cf840512d3a53f8cfb46616fe3bb142c71 -> b270641b83bdff21ef523aa709636376f85d1ef8f4f85b29ea6d595271a75bdc
+~ -[ATMessageParser processData:length:] : sha256 ea3d17b39fc3e1516466f788b4dca3c24a54e08bbb2f785efb78e1796f1c9f70 -> 95f8358233ceace0b59abfd66e41209c03a7371f6e9e1fa1891bc502847c08ca
+~ -[ATMessageParser setObjectParsedBlock:] : sha256 5ebe19464beedc2ce286a871e5d2f7e1ced71b89d6893ff776eb9b64efc5e774 -> 63d5864808f318b1b86da3e8c0744f21e723473ad6ab15f11bfb56233caf6e28
+~ -[ATMessageParser .cxx_destruct] : sha256 cc8ed2bb35114773e291df90dae30968b8528ccb5fc226b24bf10bde8f7573f8 -> 55c4dcb790ea7b4bb0259f5eab530fdd3e8bc6deb4ab95dffa7fab86e1aa3cb0
+~ -[ATServiceProxyListener initWithService:] : sha256 e3d6ba4ac8d18370b6fbd8f77000bbc11ad34616dedb8b0b81e0b0848eba05fb -> f3a98417b960763f9416a1d7faeb89d6776427bd15dc09bb0700763cf12ad3e2
+~ -[ATServiceProxyListener start] : sha256 9658308273d24bc92aa260c39d9ede367720301f6c19ec78ddec047a1843a3c7 -> b14367ff68cfb8e6a8cd5ed04470adb68dcfb1793c84813a15eb6a2ae6a4da4c
+~ -[ATServiceProxyListener stop] : sha256 481161d374e181337cc5582323f55a281b78e296e24d42419a9f16e36cd37079 -> 785706b71e04bffbf0327c9d47736a47674361553a29fb25b03e664f9ac74192
+~ -[ATServiceProxyListener listener:shouldAcceptNewConnection:] : sha256 587a14731e644a8b44d48f640c216f98cafad0feba26bb4f97637a190a86c0ce -> 601fd3353fe05960e421aea2c656283856d82d27a2708f4d6877aac5cbc7a2e5
+~ ___61-[ATServiceProxyListener listener:shouldAcceptNewConnection:]_block_invoke : sha256 04275292de8697e9ed2b8c78f9d65932c3cc02db2fdbc2bfe65db0cfa2bcae5d -> fd2bf6bfa69cf0c87d72bdbed5f7a4e8a57000a93c5146779c1ae20f2e7202ac
+~ ___61-[ATServiceProxyListener listener:shouldAcceptNewConnection:]_block_invoke.53 : sha256 32e5967f23e81b65f7d693872d504acb7c6f6f40b4c2e82d3c8739a18c922920 -> 702ba0f0dc577074794a573a33f06b078c3b3a5f944a5fbf99b7c363fa7feceb
+~ -[ATServiceProxyListener service] : sha256 d7d20c13691cd93c6cd3896fb3c1ab42c1cb862b088a146cb6bc78015f239b94 -> 57ae21ad670170cf7bd0ff67e6e55bf998000543686e3f2ef038d6e6c342cf2a
+~ -[ATServiceProxyListener setService:] : sha256 935c70ee5d470c45e4de0805a5eb9d809af8ab2031b5ee6431d879eeb241e864 -> 207add1b13788f43ef5f17b05dd60b0bcb9bfff946d1586934d43cb13beea078
+~ -[ATServiceProxyListener .cxx_destruct] : sha256 74bd4b64e2fe95834c7242a2d88e1d398960becf5a73f613be624609050edb1c -> 9fd13e8038424aec50cba41d40b7bf90d554772ae932e6998c08565f6ae33420
+~ -[ATStatusObserverListener start] : sha256 872fe597299d8afc869f68351cb71f1d5f5c34402b606709178ab85c06353393 -> 04ad2659a4166f38ed079b8ef4d728c6bff74914bfc5cb9900294b44165286f1
+~ -[ATStatusObserverListener stop] : sha256 9cf2030dbc02e8617d66dc999d8f437955ce0b9143f46a9c4663f3caeccfbae3 -> fedae5bff954eac64a1368a85d255a576c9be8fd43e1deef17510eb218eadd24
+~ -[ATStatusObserverListener listener:shouldAcceptNewConnection:] : sha256 595e5957821bcb8f4461460370317bc357f5696c14a01cda57413840c9790b13 -> 46e88f6edf8645f1c863ba43f0eb75e4fc83e32793f17b3a1710c194dedad993
+~ ___63-[ATStatusObserverListener listener:shouldAcceptNewConnection:]_block_invoke : sha256 25c6b02525ece913e49d8a315030c7c1e533b98899d66b544091e427f87a7653 -> c266be44b3fbc08cf6b0e452238a573324eebb81aa73b01fdc081ca6d0d13a2f
+~ ___63-[ATStatusObserverListener listener:shouldAcceptNewConnection:]_block_invoke.52 : sha256 be21f13ae0ee92deb15830debfe8956436b2cceb457495b99a5be76d35b9c811 -> b928cc38033ec1ca70d3dbf9db174c629d6a6897d28ec90dee75c82d5fec40f7
+~ -[ATStatusObserverListener .cxx_destruct] : sha256 ebfc99cbdac5aa65f9d793d41fcd483766df6d109c8f212ebfbb1540f55d05c0 -> 6b99ca23901e8a8ed306b86410628dccc8ef17bcd4c413e943fa4251685eb3a8
+~ -[ATPMessage(ATProtocolUtilities) formattedDescription] : sha256 1215e78d6b5990b175eba363cd7fdc3729b6496290131d4a910168e8ffc81850 -> b30dc93e1a73ddb01ecc104c6f07c268b54dbd3b0d3f4b89bcd898df97cfe333
+~ -[ATMessage(ATProtocolUtilities) initWithATPMessage:] : sha256 7b69080071092220185c5ad188995b9ba0ca73ea166d74549433bdaa0e734b6e -> 0702b749a4950d2535040b6005ff7d8455252848737b5bd98a20691c24d86631
+~ -[ATMessage(ATProtocolUtilities) ATPMessage] : sha256 38e9ff077eebb4fb7fa1dc52a722e36ac9c8ea46b8456c6e0197c439c590a6cf -> 2dfa1c89393c9fdca8a9d73f419d7adbb8f00ed05961fdbdfee0f1ee973182ac
+~ -[ATMessage(ATProtocolUtilities) ATPMessageWithPayloadData:] : sha256 6a7438781294ee46f12a9d5f03adf725e2cbd07406966235377d345d83d92ac5 -> 230bf9284995a03bc0fc6c8dcd52a172ec5d7226e8df24882228309b6b424bff
+~ -[ATRequest(ATProtocolUtilities) initWithATPMessage:] : sha256 9459ec72c853630a357374a3ad2e28f3fe7e734ea0d37a2c307bab99d268133d -> 0ef7d7b4f99014bb77a22c5ea0c2029e3a1acdb3b4c95730ea2a2767d917a226
+~ -[ATRequest(ATProtocolUtilities) ATPMessage] : sha256 5c467061531b34b4979597fbfd7106cfab75ea30e6a84362429c072b7e9bfd87 -> 82d70fccdd178aca5aa90e23bf0c9c1d56d2ad35fd016e7429d0fd581ac98d48
+~ -[ATRequest(ATProtocolUtilities) ATPMessageWithPayloadData:] : sha256 d8fae94391047f8792b5f4b5497439dbbc602606bc6b8fdbe1d77a208f310987 -> 678a22a175cd93f72e98657e08389d32e94b84e84038eff19470eeb7662263bb
+~ -[ATResponse(ATProtocolUtilities) initWithATPMessage:] : sha256 626d816f3f9f0527062221ebf84be3ac21f9405996954f7a28259b513b5c236f -> 14a3b9a024e7449357d7c965d9d084823f2c111e0af91b0e77c4de75593421cf
+~ -[ATResponse(ATProtocolUtilities) ATPMessage] : sha256 2f2d4bcf2dc409a47a3cbf22a11f7d17816cb3d0f6b2d4d72e7c0559c8974fcf -> a871f0fc90e5b2db2c5b990376e70637dfc8439bbd2f8912b7fc6f298f0e7819
+~ -[ATResponse(ATProtocolUtilities) ATPMessageWithPayloadData:] : sha256 c01340c6e7aea77743a4fadf7b9ad8092fb04be077381082ebcaf30ad32579f6 -> 8f865b1f19a89af3d339f3062d283bafddbe0e1fb6f4ac90c518f72bea49da49
+~ -[NSError(ATProtocolUtilities) initWithATPError:] : sha256 c1cb6d6b241ae8da28a2dfc751d56bb9b936c964b0183468493db3c255714541 -> d90c914ffe05c0da231131257e4045e70f35357db38e5648336d2bafc96dcfe1
+~ -[NSError(ATProtocolUtilities) ATPError] : sha256 81d15ac34e4f231642d30e1a494793c2c2a3e2be5a662314e317d00dd4507937 -> 3025a01f789c0d8b73489d3cdcf192da058165fb38e8674d0646f5ac9a35c039
+~ +[ATDownloadProgressManager sharedInstance] : sha256 baf7bb686e0d27c816f45cda7b7f646ec1a81a45f6170bf947982b964df61ca3 -> 7dbe92dd81942a462f7ccd7c55cc825a9b29110db6b68ded654fcd92f694c1be
+~ ___43+[ATDownloadProgressManager sharedInstance]_block_invoke : sha256 d1350fde007d5917dce1c3a4b793d2a21faf84b30f2e76cbf8e982dda2d712ec -> df404f0c42129762654a44be0f60cd03e541aab1e39560fb76f17ec2596fe5dd
+~ -[ATDownloadProgressManager init] : sha256 76a629a26770876646c83e47439880b19702c119dc00fc213fa702d18b52053b -> f04b8414b05fda568363120707f791b0166e750e982dd0b96784fb7333e87d5b
+~ -[ATDownloadProgressManager start] : sha256 f9ddc86fde1e8de0ef75b19211346316665aa2c241e1b3a4fe30e0e8031523ba -> a08fbea6ea27196509a3398e34a1a6f39129ba6e48637ffbf61d4bdfba8a2ecd
+~ -[ATDownloadProgressManager stop] : sha256 1717a05e9ca4cc5ef0e01bdf2462b78c942daf7dc32e145dd544e2ea938cd520 -> 288739159177867b3e273a428830b9642453b1b9a7a1511f11fe19907c70c4a5
+~ -[ATDownloadProgressManager listener:shouldAcceptNewConnection:] : sha256 628dca65e81f07c51c9f11bab10770cee43d6233577d4bc9c6e2e3df5a15e77b -> 59d25ebddc482ff484ab182cf5313de349c5fca971a3110dc1fbfceb9125ada4
+~ ___64-[ATDownloadProgressManager listener:shouldAcceptNewConnection:]_block_invoke : sha256 07237b1536b5b731e3f3985b9adfec0704363b5354a7badb3c42ebe0f77383c0 -> 8993894a1beea18e3f68843d9c34b54e969249d1a7de15b0cdbad4f8957d90a8
+~ ___64-[ATDownloadProgressManager listener:shouldAcceptNewConnection:]_block_invoke.84 : sha256 a95824ff003f86bfcf09e940ec02fbf4f0a279e78ce082e73d740a2c03de4a6f -> 691913c2769495bb6e365cfda589c1223570d0023fb07227674fb632b994435f
+~ -[ATDownloadProgressManager assetLinkController:didEnqueueAsset:] : 600 -> 592
+~ ___65-[ATDownloadProgressManager assetLinkController:didEnqueueAsset:]_block_invoke : sha256 36d7e1e6b3effd5fc975c6511956ffb7fd90dbf00ea2db7e95d847587b271870 -> 19078b3b7194386bd7499118f8845c3571add76e83c3ef72f3a1fa0198c80181
+~ ___65-[ATDownloadProgressManager assetLinkController:didEnqueueAsset:]_block_invoke.88 : sha256 3f421dcb00d678850b5545856e4b4fb597d662ee0dd36e450da3fe3d97b3423b -> 3ab57b95f4427669a40d688bc4a8a544fcc1a1f44b416b3ef5fcf4c9630e2ce0
+~ -[ATDownloadProgressManager assetLinkController:didUpdateAsset:] : 624 -> 616
+~ ___64-[ATDownloadProgressManager assetLinkController:didUpdateAsset:]_block_invoke : sha256 095e8bd29c9178fff1518135ba1b643f37bbfb274fa418a75069ebe50a7e731e -> d162b961cf6865f27eae137f9df30c7764f72b5603ddcb5ce7d68df5bf79a8e6
+~ ___64-[ATDownloadProgressManager assetLinkController:didUpdateAsset:]_block_invoke.93 : sha256 9c85b4b329fc1d77fbd542f4c5c7f802a5d415570510909132c05aa6e7438851 -> dedf967a3212bcda1e88a16cb86d3fe71edad0d720313fc7fb59a7f312d60578
+~ -[ATDownloadProgressManager assetLinkController:didProcessFinishedAsset:] : 692 -> 684
+~ ___73-[ATDownloadProgressManager assetLinkController:didProcessFinishedAsset:]_block_invoke : sha256 f7b17eae8cd7df8b9ae265001200fb6467a02e4a24e10921b05453feb8cbbcd4 -> bec9fe4d2b43e2a3056bc6baaa2d025827e1654ac58f79d37c0670a27fd8f06a
+~ ___73-[ATDownloadProgressManager assetLinkController:didProcessFinishedAsset:]_block_invoke.98 : sha256 aa903e26da0158d31c41985aca13ac127491c1f2ebbbf450f73754ec70e7f000 -> 4d7bdc6a3ad94c8c1a07e9611f10f785e1afb132fb8c3e5bf36ea13ebc7fadff
+~ -[ATDownloadProgressManager assetLinkController:didChangeDownloadStateForAssets:] : 1056 -> 1044
+~ ___81-[ATDownloadProgressManager assetLinkController:didChangeDownloadStateForAssets:]_block_invoke : sha256 db186c8a8ff87a948786ec954c789f96cab07570c0e89034237c6f5010372521 -> b7bafc42af2cae83e204b8202367183d23c903e8229c7a65ccb67209e7e2eaa0
+~ ___81-[ATDownloadProgressManager assetLinkController:didChangeDownloadStateForAssets:]_block_invoke.104 : sha256 554396701a75d5596713f7d0ec3fdf7f9cfcf65085d85476ed29f53e27282847 -> 34ce6e066cacf5d458636283332accf82e5c639101e7992f728fecc8c1e66f59
+~ -[ATDownloadProgressManager assetLinkController:willCancelActiveDownloadsOfMediaTypes:] : 576 -> 568
+~ ___87-[ATDownloadProgressManager assetLinkController:willCancelActiveDownloadsOfMediaTypes:]_block_invoke : sha256 e46c49b5e9e6cdb469299c9104a36657db30b2f1333cbb0025fed424bd6bb940 -> d01cc325ccdbceb3a6bdb89834d86e0cdda4ca26f5599bb58334f754e50cd860
+~ ___87-[ATDownloadProgressManager assetLinkController:willCancelActiveDownloadsOfMediaTypes:]_block_invoke.110 : sha256 224a6739bedde93a9ae2481eee153bafff2f97e4ec2e04cdb9b44f09146efc52 -> 288e7c76e5db681a79951253f7cc401a62f683ede66d4c752aa323cedeee462b
+~ -[ATDownloadProgressManager getAllDownloadsWithReplyBlock:] : sha256 1f269bd8a9312f4e31ec317b1bc50f4b94f6e9ab1b7d08ab68985515b0bef05f -> a7874ac770c30133b32178acea9ef12feedd453a1818f8aabb51d9d3dc6e3ed5
+~ -[ATDownloadProgressManager getAllDownloadsLightWeightProgressWithReplyBlock:] : sha256 b2ec10ccf73d5ea60b9e747b940042fed865502d5b245fea0bd3f77025cbe2a3 -> 493799c348281bc3a4fa58827fd2b02602f1ec888a582db8b964a42c72b1ec9c
+~ -[ATDownloadProgressManager prioritizeDownloadWithStoreForLibraryIdentifier:withReplyBlock:] : sha256 59fd44459dcb637ebe7beaf236fcd1a796c3046ab014fb82a6f6712972b42ee1 -> 4c1c0836272bd4c3f9fa20810dc87cbdf018f7e7b968fd2997228f4ecbfd1d74
+~ ___92-[ATDownloadProgressManager prioritizeDownloadWithStoreForLibraryIdentifier:withReplyBlock:]_block_invoke : sha256 14485608d5b6ca274a476863c6b87a387bb91833472cd64b7fc4d96383ccd25d -> 39278af47541d7315787d68adc443e4da522c338428380c3684d47af0d471618
+~ -[ATDownloadProgressManager setRequiresOnlylightWeightDownloadProgressWithOptionalCallSupportMask:] : sha256 2c2e7136b0fc24603fd7da6799a095b7d4d7e86cac4146523b7d6e2c4c0052a7 -> 35aa027aa43a957d391854c786368d89d93eeca650dc699219db8a0d4eca8cb8
+~ -[ATDownloadProgressManager _observer:handlesRemoteCall:] : sha256 375f76028923faab08d61ebbf0c9afac138f2ae6d927ff8fb1f7b2721c750939 -> adc3f7cf282f18d8229176176f96535dfa3fee821e977dff4d253fa44fd84a86
+~ -[ATDownloadProgressManager .cxx_destruct] : sha256 79a50976ac7f0c561a2840b30eaf60513837343c18ba039df94b5f99e2f5b57f -> e5a13754f35adf7952888f3b18fa46345377ad61971f0b5bfbbfc8a6250e19c2
+~ -[ATServiceProxyConnection initWithService:connection:] : sha256 a008840fdcd0846fb05f06b56a56340753b7f76c07296ee149c8dfa5f2e8d1eb -> 211a077a2e7081383ab1a095b4ea055507606de27110ad206d1a69ce49b979f3
+~ -[ATServiceProxyConnection service:willOpenMessageLink:] : sha256 97e352943fa52030c0e383a2c55dd28a318301aea34f1cece1fefa32c665d074 -> 1aa5dc3430c8d9d8abf06801e604d75b904067cd40b7e105e608025d60f82fed
+~ ___56-[ATServiceProxyConnection service:willOpenMessageLink:]_block_invoke : sha256 74df8e7e55290b7e8e7a0f9dbcd3f78da8213c7871907aa17c79c03f4dee344f -> 70f2daee4edb7b0fda88e8c24fb51724e668796e19fdb004de435a102b269f1b
+~ ___56-[ATServiceProxyConnection service:willOpenMessageLink:]_block_invoke_2 : sha256 6059ce3a7108ff800b970c9e83196bd193b92ca401052070ca87944b23e209a2 -> de1f852c63b727972e21529bca093f5f4bd825caee1104cdee8e88e080a5bcc6
+~ -[ATServiceProxyConnection fetchMessageLinksWithCompletion:] : 616 -> 612
+~ -[ATServiceProxyConnection service] : sha256 47b17293c562973224fdc3baa4c8f4e94de83bcbb2babdcebd8e8ca7073159d5 -> 62ca91f657a2857fb58ce3472a96c6343e206e73d8c3e52a40ce949aa21b3dc7
+~ -[ATServiceProxyConnection setService:] : sha256 5bbd76649b64ef59acef0acb005d0eb1408ccd6fa8195320764ae64ecd8e2ea0 -> 2cfb1b7257858220e0da31cd600f5f2a6550c9eafb75d07a4f505e10f0d2fbf9
+~ -[ATServiceProxyConnection setConnection:] : sha256 4feffd27d2e7989d63d0e90a3795d4f4f19a95aa3ea9ce08a4d8dcdf8d3b319e -> ed39c3dd8665484ea5db0703b2475e3dde9aedea26bb8ada180249bfde7c0c93
+~ -[ATServiceProxyConnection .cxx_destruct] : sha256 d9cd460d723401d792cd7282900742dfbf62211e4d1b15041f7c622a64b5da62 -> e6de5fd8e82e62496d8187a504f9ea8fb5def8d980f180bb7613df8ca84cd532
+~ -[ATCountSessionTask initWithMaximumCount:] : sha256 ad3cc195c380219c72d14b0da66ccae586c686872c28709600fca88d2f8ea8f5 -> 3de67de7a4d912f369917095ff280fbc96821d6084572f4e6a192c2d035111d9
+~ -[ATCountSessionTask start] : sha256 4177fee537cd5ad9e5863542f1f20fbec22b89874bb3af24dde3236ef6618da5 -> 2c601032c3c7f0b6419f11a58713c3915655018e69ac443939a6502e3238c0e2
+~ ___27-[ATCountSessionTask start]_block_invoke : sha256 5147b7ae856529222c373252bd1975a71335f2a4e8d7079a5bcda4a450f3dab9 -> 32e37474a28d1faae8370c0d064814640dcc350d26e03acd22b98ec8fe503dc1
+~ -[ATCountSessionTask .cxx_destruct] : sha256 77ccf9f594a7e3b2dc86abf4bd6d95dc808522d22717c5da9775c1e4df47f9bd -> 374c65a7b3ee88b6e838eece9a9e96e4cad79daffabf3ece7230fc1bdbe11600
+~ -[ATPResponse hasError] : sha256 9a90fd5634afcfe0ea326d2b3a82c617dd6b25610579512d1db2dadcb482af7b -> e6016d55a1d6e3dd2813066ed6fd9bc366c1d0c043b32c20629faabd0304801b
+~ -[ATPResponse description] : sha256 c3f6e925539e21755b260e1a0ca0f93138db66461245c2132870551d369273ed -> 8cc82a384429ac45c681412036889616a2048264590f6025f8f857a3d4a96790
+~ -[ATPResponse dictionaryRepresentation] : sha256 921132315da78de73071bdf2284869464ee422e123201ac8edfc18970a393598 -> 1569793291191e245e11c5b0cecf9a15404e2958737131c4788068ad2d08177a
+~ _ATPResponseReadFrom : sha256 e5e1bab168226e729f983d4dde7ed03bd4d03e8d5e64366116ae7a5d491873cf -> 2a1af885eee9239935f2cf3fe68adc4dfde949771acf0033bb874707c288ed58
+~ -[ATPResponse writeTo:] : sha256 9a79e2606bcb29d2d7c388dd4ca702ed2cb7682334c5969d47bd623c1047cfbc -> ba160d4406273da0b7cbd1bddbacabe7fa54067654da1c8c64054b16187ffd28
+~ -[ATPResponse copyTo:] : sha256 529586ac41491ae6650f2efd0bb4ac92b84cada82fd434eda3af635eaaa5b87a -> 69caedd5601a1f3a85b4907948fd6098fd1bf5a42dc55fb5c05e57d660049845
+~ -[ATPResponse copyWithZone:] : sha256 f92a441a8b24e9694138c17d67bce6715d79d501ebdfefd0d078c1bbfc437a7a -> 80231fabd4d8d9c998d228bdda19b6bc8037420d406729aed1bd7662f4bd64bf
+~ -[ATPResponse isEqual:] : sha256 636fad538e34e2fb1285fe93e9cf3fd43ec091686aa2cf0f8b19ee8b61c92008 -> 7e0ea443e1bab5bfbfe85be47948ebb8e80579fc1e930f9e234bb1b62ff60caa
+~ -[ATPResponse hash] : sha256 336190281ff98cc5c7a0394b6cec13310c4cd91ef21d27476ba8f2474e573c7e -> d0a42b29402953fc5a79205dc7799c6beac0372dbe1f07693779f36675e0c66c
+~ -[ATPResponse mergeFrom:] : sha256 bc2bd23e8c625743639993e683a317f5978e0854054f12e35856f34e3e4c5f4b -> 9b2a98df2819f8bb52c133862498e29a901f5293456723ea4d0bec926731c3ac
+~ -[ATPResponse error] : sha256 60024e7f65ba9dcc560b6f80448e13fbb6240d59410055df49dc6c87ac928d35 -> bd9b75a7a53da625de1dc8af7bd83653db3e5d879f6efeaab293bbab1fd7001d
+~ -[ATPResponse setError:] : sha256 594b3d1205c56570184292da449e4feb26354954c1f18bed46ae82d84e69d439 -> d9a9e03707165b6b2de2a99abe07afa636b3128bb21c57114a7d22284fb940d9
+~ -[ATPResponse .cxx_destruct] : sha256 2ef2453ad5d03940870db6e6cb7dcafa64f0aae9d7c8965fc8840ee5b045583b -> 35998c21e0f8b7e0e971d4cf404414109ec47a5b2644b8b47ccf86163a0dd44e
+~ -[ATConcreteMessageLink initWithSocket:] : sha256 5e2f11a1b8006127bb4caf67011742c729ef4854dc538ffddc8fafb56a1ff028 -> c3b86709288c7bbc9bdacfb67a2a633715d9681e7487be08560549486808930f
+~ ___40-[ATConcreteMessageLink initWithSocket:]_block_invoke : sha256 d6ea3414a50bbd22840fc0d437f307bb9ecfa6989b703a063b3fe736d97388f2 -> 466462d533d3477664f100a9e763aa70f6677f482df9d1a37358a5fd932a518c
+~ -[ATConcreteMessageLink dealloc] : sha256 a3045fa20daf3d55579bd96f412ab9469201561a00dcc89222104b654d42f4aa -> cf0804d7756d862975601f712fd75b72cd25539f0e5eed28128a3ec29b2ade23
+~ -[ATConcreteMessageLink open] : sha256 22bcfb9586cabcee481f8c44f334f2dfffbbd2d9b26afcbe76efd824a77cbcdd -> 4ce586b408599bc8b12c1712c2d64928bac3073062ad3639d13bf085683ebe05
+~ ___29-[ATConcreteMessageLink open]_block_invoke : 860 -> 856
+~ ___29-[ATConcreteMessageLink open]_block_invoke.21 : sha256 644ace2c954527870807a37a849436bd10fde76d4dedd0f709d4ac2eac13f1fe -> 9ef691fea87db43c4706ad0c523db9d1be27cd17742e0f5622e2e70c983fe546
+~ -[ATConcreteMessageLink close] : sha256 e2a5ee0a7418403f2d2f70595588f5c3049bfb158bcc3d88628f8c5a53036dfa -> e734de035a9ccd4f7fe5ccba524964bc61812ec87a5a2897ab3811760010756b
+~ ___30-[ATConcreteMessageLink close]_block_invoke : 2152 -> 2132
+~ ___30-[ATConcreteMessageLink close]_block_invoke.23 : sha256 28b0a9d89539b13a7f255df97239e8a3fa0d6ec3de4834f35ffca3995771999e -> 89afb86ec94ba1c32faeb7725e962582ba271abf78628bc58ca346ea0caff598
+~ ___30-[ATConcreteMessageLink close]_block_invoke.24 : 1172 -> 1160
+~ ___30-[ATConcreteMessageLink close]_block_invoke_2 : sha256 bada1673d77202f68c5b2415c260d326819fae9b592e18d7b865f38141c04059 -> 5f61f1e86c32911d989562f1d6ef6646642563ab89a8824653f1335405066360
+~ ___30-[ATConcreteMessageLink close]_block_invoke_3 : sha256 75ae76eb395b259409636d304324d64445ba6c326b7cc8f634c4e7e9132d7f77 -> 4b6bdeb00742332c861ce20f74f222519ca7ab8672048247271bf1cf3cb0adab
+~ ___30-[ATConcreteMessageLink close]_block_invoke_4 : sha256 be279e6ceefa4a648017ccc35a00df1f718ab57a1a620ff169473903ae0a183b -> 51bd57bcad94a4da1afaaf97f5306e0844940a1dd9c16a85c91f885737d8fee3
+~ -[ATConcreteMessageLink addRequestHandler:forDataClass:] : sha256 85b368f678241f56dff6f78b0814fac8cb91189507e9d15632e9516d806f5f3e -> 6fe4d55eaaa017411c63ff70e85db229f213455689fde4f6419f32cd46bb9a94
+~ ___56-[ATConcreteMessageLink addRequestHandler:forDataClass:]_block_invoke : sha256 f3a3655fad97c2b0fe58864b5094d02a0ecbe22c410b460d179da28d593bcd85 -> 954c43a52ba264788ee89eb3adff54a4cc5b0dab63fd2fe87b233d7ef1843cf6
+~ -[ATConcreteMessageLink removeRequestHandlerForDataClass:] : sha256 ac0b316e87aa058db1eef536b25143dc8ffdde5559b18c8c320b688eb58cf2dc -> 4272ed252cae36f0bd5f97b0637c8f6e89b88189df3af0443da666ef3885a0d0
+~ ___58-[ATConcreteMessageLink removeRequestHandlerForDataClass:]_block_invoke : sha256 333a7cd3ef8abedfee99e5188694bae33c68f65796851977448df8a53ba70baa -> 8bc02fac688018c9297e4c70cc4f73c8c3a09ed3cfacc875e34ef7f14fda692c
+~ -[ATConcreteMessageLink addObserver:] : sha256 cb47a0ae2c46a9f76a28f517ecbde3e3f5992f148697fb507a79cc0601df1daf -> a19c514dbbe40f441cd950e2d2809053f84512bf7499cd468c9199bf17ffa7e0
+~ ___37-[ATConcreteMessageLink addObserver:]_block_invoke : sha256 05b7f5242a2360ba7cc5af1e94769cb9b10f4891ecf0a8d13bf74e761c6fa1ce -> afcf8fb0e6b7b49cd421b358ffe91cc8b902abf763522fb7d69bf70e1d6376ee
+~ -[ATConcreteMessageLink removeObserver:] : sha256 70332a385ab498609c675a57b678c08967e91fb52c79382c0d97510e9d9fa47c -> c7d7d1dc39ccd5bd0e61c4085b7549f5e48ccc31924bbc5eea1fec56f428dcee
+~ ___40-[ATConcreteMessageLink removeObserver:]_block_invoke : sha256 8df8c9022ce62d1f48fca50a88f0fac1041da2f65767a9255337658e3079e4f9 -> 946cae856371ad71cb6dab87a75d58fa5624a8638fc4823ada9b0538fc564890
+~ -[ATConcreteMessageLink setInitialized:] : 396 -> 392
+~ -[ATConcreteMessageLink isInitialized] : sha256 2d904604087608baf2ab19be3ab538d2cc5e20f21de19b82b572b08f97d2eac6 -> fb8b8b52cd527b62bc66a1dec5c6a0bc030a555ab2cae09504e26b4c3c324fb6
+~ -[ATConcreteMessageLink sendRequest:withCompletion:] : sha256 f426227a3ca65cea806cdf7278660e132935718c1cb2304d2df6b83e8e17bb6d -> 57dd7dac672efc65ea222753cfe04ac42668995d7b586139b5fb0305ca539c1d
+~ ___52-[ATConcreteMessageLink sendRequest:withCompletion:]_block_invoke : sha256 9e828c5e6883037e3113b224e07abb720eefc91e5645cac9d55394fb7695bcfa -> 5c19c4a6e0229657ab29618865105494533291fecc1ec68c0cc82e3412915b4e
+~ -[ATConcreteMessageLink sendResponse:withCompletion:] : sha256 79a2bcd4d0b47b1e928ceab7c8fe40035b576cbe911cc9fdf2f275977b3a1720 -> acdd630f9493c2c9f0b2eb79700c309f7b26584391bb7f550472bae7b42095ee
+~ -[ATConcreteMessageLink sendResponse:withProgress:completion:] : sha256 48246ca3dd587ffec9835a128c3c492fc2bc2b3c969875558c458cf71433fbe2 -> c16c28788faa196030b61df2231e6baf2cf05e1526d5b5945b7f20100c75a9d4
+~ ___62-[ATConcreteMessageLink sendResponse:withProgress:completion:]_block_invoke : sha256 be263736681ff1f7cbebe9a5e435f0ecc4710c62af30b58794d689f12cb0c6c6 -> af3a88a0f9bd8d5d819fc14ca1622e5180bc56e01383b7ac2df212d52188e424
+~ -[ATConcreteMessageLink sendPartialResponse:withCompletion:] : sha256 f8a4e717f8861f006cc2d19f87385ebce6489d54b08455df3015c8d22c3d75ff -> 36dadaac01333b208fac176bee17b84af84c2e4edcbc396e898ae4a82533e814
+~ ___60-[ATConcreteMessageLink sendPartialResponse:withCompletion:]_block_invoke : sha256 39581bce2218688eca4ce0184f1a868a98ab4132846574d0f6b0d3f105fe653b -> de3739200c14e27e98def663452058e8be51b19a401194e3e4a17f11445c69c0
+~ -[ATConcreteMessageLink description] : sha256 50be80c8ca56118eed85a2c351d6dbef11d09d98dcc32bd8be6a3e54891b0e0c -> affb279997f61fc5eba3c0c58ef1d9874135f870ee0f44f8297226f18421cd05
+~ -[ATConcreteMessageLink addTimeoutException] : sha256 cd542efd56ff63d7f44dfdafad66809c2d6131dd35ec36c94ef2d9347853fc0d -> 9e8b751528f6ad99778f900cc7790bd5f87bf4995f17159fbac7bd34ffb69f0b
+~ -[ATConcreteMessageLink removeTimeoutException] : sha256 17eea7073d7fb2872cafc4fff36ecf799411bcb831ec4363093726a2118ef320 -> 47f4348a9fcffd29288061dd0c2acb106e13e41f716fbbfb966e7fb33c2d4590
+~ -[ATConcreteMessageLink idleTimeoutEnabled] : sha256 c1c2bc9021e85c08a3393e94fe23907432e4740abae95dc64aab53786a0c1848 -> 5e0ca16ca3f7eba00d4827695f194a6e3efe70a3694bf0198daed69bdca2bb98
+~ -[ATConcreteMessageLink socketDidClose:] : sha256 e4320541752db0377a1594b354837df4d31a2cae831f7840b01204160336bcb6 -> 65eb1a8604b2248ac1233b66b0464cf8ff1fec468efcb341ac2c1b4a69eaf971
+~ -[ATConcreteMessageLink socket:hasDataAvailable:length:] : sha256 516f33839d03b62a55784923faae42f10a476dabf608ff087ee93a2af566c5e4 -> 94cebda4408ad0ba27a123778b5f01410b1522f3abdcd51e51c2f65c5fad9ee4
+~ -[ATConcreteMessageLink _nextRequestID] : sha256 922d24d7b366fbc65d405a992e8b5b3a4806a667a8e4fe47c2a0da1475083fc5 -> 265090192718bf2a2a8228aba3f15e3ddcaca56733464c3303f8618442fb37c6
+~ -[ATConcreteMessageLink _prepareStreamReaderForMessage:withProgress:] : sha256 5f81ed05be70a78650518a6bacb1f39274d4773499f79cb8a08288edddd44cfe -> 8e516800801b2e1a0caa2a901cee3ab6fa892df20d863c6981ae8d3f6e019f5a
+~ ___69-[ATConcreteMessageLink _prepareStreamReaderForMessage:withProgress:]_block_invoke : sha256 2a89ed9e87fc977294e63fe7e18d109e98b0fb2b4e7fdceede43c35476d1b761 -> d815da340c6a2678f8aa1c323f9dab8f7a1052c5ce98d30a9c4ecd23cd7c8e8d
+~ ___69-[ATConcreteMessageLink _prepareStreamReaderForMessage:withProgress:]_block_invoke.54 : sha256 4709d32b7ec72b0034b11e9abb739eca8f2e8b9ebd49b523b2210ba5c05b915e -> 795cac5cb22eeef8cf7aaf70f79c27cd5441fc659cbb8cca329507d9454d0f60
+~ ___69-[ATConcreteMessageLink _prepareStreamReaderForMessage:withProgress:]_block_invoke.56 : sha256 8b146b2ae1c967773e8287f974d18d6694b89e38125059723da960d9d92972ed -> e4555e4ec4fb4ce7d821006e298c8c37ccd7c993ddc22800b8fd579ec4fcc601
+~ ___69-[ATConcreteMessageLink _prepareStreamReaderForMessage:withProgress:]_block_invoke_2 : sha256 03dbdfcccc2fb3fc9a033f084f0fbc41563a3bdb0602741404f1543f67ff3966 -> c5195ab8bc9b0dd64cc9cc9e95eb4af5c687da340bfd06ab7b8ab01780e44653
+~ -[ATConcreteMessageLink _invokeCompletionHandlerForResponseID:withError:] : sha256 03fc0d61afd2e94c768a379f2bf3230f1cb73643a9a0ac35bc578df0e5fca9ee -> 12cd8497981c95047cb1efb2a895fe246100925c324e3f2a54b19fd56bbe12fd
+~ -[ATConcreteMessageLink _processIncomingMessage:] : sha256 b6d3d8a3733d1e54586313c0127b0d193cf2b647f1fafc1b2adb4ebebac2fa54 -> 7a58332096787926f13aee7bd95c283ece449f42e82406b370ccc3dcfc5f284e
+~ ___49-[ATConcreteMessageLink _processIncomingMessage:]_block_invoke : sha256 903e98c84e18168ed92c99fdefec6c94f714d98bcccdd2f6e075d82b098120cc -> 80489d9c6f87a7113862749ffef431d61944b8cb5aae1ce52223b866155e684c
+~ -[ATConcreteMessageLink _processIncomingRequest:] : sha256 e9b19d66d2dc0ff8234123ea4eb29819c4281aa57906523defac3b9d8196f191 -> 46f8a33ef2caa00ecbf3f40e8833cbad9477c2b7f85be0889e982fa0ea3aced1
+~ ___49-[ATConcreteMessageLink _processIncomingRequest:]_block_invoke : sha256 8f62e5aef5b4348ee3f719454d7dcba00ae7ed4ff8e1b2c83ab2b7bd6faa4495 -> ef04d2bc78810e4ff71e866730ebe3aa03fdbe44f75757a2ba6ef6dec8d34b2d
+~ ___49-[ATConcreteMessageLink _processIncomingRequest:]_block_invoke.64 : sha256 b131746a74d0add15604bb24bb98ef90c2e6509d9c273c73fd28816f0710d306 -> 1caaf157667d2b88d8620dae3141878cb57153c0e2ccc3487bfc3e8c1a240595
+~ -[ATConcreteMessageLink _processIncomingDataRequest:] : sha256 f3444a3dcc86496293677169428ca45f2c28c128789af6dfaa7a7d09e718a31c -> 187f13aa1ffbb4096ecff5de62a4f6e8328e4031eced4eb9d0b380b538afce8c
+~ -[ATConcreteMessageLink _processIncomingResponse:] : sha256 a82e248abece3cb5ae56c94da856d60b5a149db96bb9e37bf101932e426339bd -> 9a7a1d42d88732e844fa4a07fd0600a1b174fc0fd2ef5a375f16361bf87248b3
+~ -[ATConcreteMessageLink _processIncomingPartialResponse:] : sha256 a977c76b93c73566c429a99d1c13d615614e8004cf895c19418b08f4fe416676 -> 43716b1afcd86ec0672d7d740a729856b396dcdc93d3e266b686f9ca56dad425
+~ -[ATConcreteMessageLink _processIncomingDataResponse:] : 1020 -> 1224
+~ -[ATConcreteMessageLink _checkMessageTimeouts] : 2416 -> 2536
+~ ___46-[ATConcreteMessageLink _checkMessageTimeouts]_block_invoke : sha256 ff5d067a98267a07277cd123ea057bfbf403f6c09bddf6cd21b83ef2b9ea80d2 -> 9ad6687b77cbb3005502dae6be2fa2d312fd18cfc1f5ad33c115b517fdff9111
+~ ___46-[ATConcreteMessageLink _checkMessageTimeouts]_block_invoke.73 -> ___46-[ATConcreteMessageLink _checkMessageTimeouts]_block_invoke.74 : sha256 49494c03e2fb9250ff26ebf6b089f226ad6c0be95eeabcb4b5ff95508c8499af -> 5f8167f706a1c4cf3aeced145492000fff34f423808e2ce8cf5d6251cefb753f
+~ ___46-[ATConcreteMessageLink _checkMessageTimeouts]_block_invoke.77 -> ___46-[ATConcreteMessageLink _checkMessageTimeouts]_block_invoke.78 : sha256 68612908d13e76232e7c5fcb071cd1176d9e825a68a8a9035e27b4b904832586 -> efe0a487b2ca8141a5b03bb2561955776a0f985aec0a2519da98c29b31c66fe7
+~ -[ATConcreteMessageLink _sendMessage:error:] : 764 -> 828
+~ -[ATConcreteMessageLink _getObservers] : sha256 baa39bc68ec821797aa19d647dcc5eecb38d3e5c355a0166aa3c7085791b0868 -> 612c7f53eecd972a09258f0c699ca5f2b225dbe0bbfaaaf945b64a5181d05406
+~ ___38-[ATConcreteMessageLink _getObservers]_block_invoke : sha256 e8b767ae23e85bf5d20d5f8bd3264b69853b5d3597a5b9c47572d811f3ff8953 -> 69672628ecd30e616b9b887ed4ef04ca09811eec395ddca765757598af6f3633
+~ -[ATConcreteMessageLink _stopWriter:byInjectingStreamError:forMessageId:type:] : sha256 9f06f613600a34767205e58871e4544765a237176023ea06d1d8c9653e47e105 -> fb9f10c0a9e8f746dfa72735eb7ef24eb6f7d9859ff122a7416013bc873a6d2d
+~ ___78-[ATConcreteMessageLink _stopWriter:byInjectingStreamError:forMessageId:type:]_block_invoke : sha256 21eceba9e97cf1c93829d7d21a333331d9e25a8167e47aa97a182e5722fa101c -> ee042e105ade05181c1addd0bdef9ba34dada2b95be54225134adc7ffbabc4f1
+~ ___78-[ATConcreteMessageLink _stopWriter:byInjectingStreamError:forMessageId:type:]_block_invoke.86 -> ___78-[ATConcreteMessageLink _stopWriter:byInjectingStreamError:forMessageId:type:]_block_invoke.87 : sha256 f429024e565a765be9d050644b58a3f0a3e1f1d1b5ba6a8dc87b81e5598d5684 -> bd1de446526f6d74be6418d5bd912f12b5881ee7e9736a7a4e1439378757f6e6
+~ -[ATConcreteMessageLink _isWriterPendingStopForforMessage:] : sha256 477cc70a3f6e47c032cd6595f1ba3825ea46b381e0ff4eb249a3b8a018ba134f -> ae225e1d36faa0c7f3f945edad7936db4d12acdff2202891ba0a96a36f31aff2
+~ -[ATConcreteMessageLink observers] : sha256 223413cd23700f69f3461755fecedc77028b5f2c4be3193e89123d94666ce5df -> a8cd814eb9d47912b488267bfd20acc60ee716e2261a8ad4b796ef0f4e46f90b
+~ -[ATConcreteMessageLink setObservers:] : sha256 d39163277a273309cc1b43099af43a5b4ea2d581cff89d1505e2a13967a7117e -> aab1d2201fcfefb7ce3dc18dfbd7ba3fa65a96aac3851a51663a596405cfea9a
+~ -[ATConcreteMessageLink endpointType] : sha256 55132aefc80cf5bc03e476c58d4f96784be70d00fb6737899b033b0b2ad72d7e -> 10fb5c19671e810991bc99b6d685808dbf67b53440153d34e1b46cc16544554f
+~ -[ATConcreteMessageLink setEndpointType:] : sha256 5e324200ffaab475f1d2e129d609e219aeca75674061c63ac3f7dbece1bec91b -> fe9fb59da1a9608ac9cc4f4aa8e85c63100446c9ba7dab8903657e92e0c1b1ec
+~ -[ATConcreteMessageLink isOpen] : sha256 16be00e66c797f27a3153fd4f880faba8e88bd283d5c4c260b39091ccd924f50 -> 2591bce15b7dfeccd2a0621b1b189c5256dca693b302b5978ac43796081a2e92
+~ -[ATConcreteMessageLink signatureProvider] : sha256 f41d85a621a2cb3c0d184d1d377de08a4ee3719227bc2229d92a7aec39064aed -> 37bba9fa5762388ea6badca86c178dbb4c6e5a35c1d3b0f597e805344fc85e68
+~ -[ATConcreteMessageLink setSignatureProvider:] : sha256 5ebf25fb6abeb7726adeff7855ce9508ca2cd0877bf8e790e9b4aabb4ca0936d -> d83aa7ff5975fad19ca6337c899bfd9c506d66686905634ebd0a690ee01ff67d
+~ -[ATConcreteMessageLink identifier] : sha256 0595b4653d8363dab46ed22ae0fa5a648ecbcc8d31005f1f78a509dc271d230a -> 9f51991d57778f5f755a381a0e15a537be5ce2accc8ce1142186cec0a158a2d7
+~ -[ATConcreteMessageLink setIdentifier:] : sha256 bf76541ce2d52621061cde2928d8390472bff66e32bbdfe759048fda40569e45 -> 0e7170e0823e5d23eff559f3712ecb86fdfbd1f4990ccd9de5c7b5e79b16e926
+~ -[ATConcreteMessageLink lastActivityTime] : sha256 5f43630a30ab502af90092c492544a9121f5306722fcc7bd30d68664341ffdd9 -> 271a219aaf191d1d58bdf1ed56b30594967d73a7b01fad3eb9e2a9afbdb3e755
+~ -[ATConcreteMessageLink setLastActivityTime:] : sha256 7b186918a2f86d35c26097ce6bd48897ba6eb8ce6e7f768de22b15a5b0a22a36 -> fb4212069be29924f56363a5cfbb230376e008ce6956deb0c073c338c7b974d3
+~ -[ATConcreteMessageLink socket] : sha256 bb567617cc11bff766e319b12f3a2f72b3ce5a45c807ed429216ab770f3ac7b5 -> 9031fecb489a35d8bbadbabe0079579b77667aea716af51fbb0b6d5eb57d05d3
+~ -[ATConcreteMessageLink guid] : sha256 16683a2982d3336615aec67d0b40f87d677f699618141042f38b95c7dc4949fa -> 5cc728938f4daf767ee9303ba4eddd25a5b4789a3d08c0de1e280f6d46929818
+~ -[ATConcreteMessageLink .cxx_destruct] : 524 -> 544
+~ -[ATConcreteService init] : sha256 2c14a2c1c2b914124185c1f23c002c0dcbb1d1bb4987ec5d1d5e4382202c54f1 -> 0bb00f188be8b0dd90ecec6ce0feb3740f71cf34bc18e885d889de6f16357fed
+~ -[ATConcreteService run] : 544 -> 540
+~ ___24-[ATConcreteService run]_block_invoke : sha256 e02efc9effcaa03dd82a4c28f9cb7448ea6cdeef79e46a95ce73e3722a94300b -> 077142723e0d08885bd54038ae6d641aae7aad4d3c9eed541707aa56c9695d41
+~ -[ATConcreteService stop] : sha256 7bb1ade99e693da44c73fc2f75013c4a98e877c74a52bedce33eea97f95911be -> 05bddd557272a62ddd4752e661c40e07a202e474ca78cd6683ca4debec70ad83
+~ ___25-[ATConcreteService stop]_block_invoke : 272 -> 268
+~ -[ATConcreteService messageLinkWasInitialized:] : sha256 062bd0da5fe3c0b7fabfa5d7057273db8ac5fbb799eb8ef6885f05b23d3339d6 -> 3936a1fa69da2c876f1031b94e047b8c507c3deae1920fb70c8c1941d685e3b2
+~ -[ATConcreteService messageLinkWasOpened:] : sha256 23ae7e09610d566867da4c89a4538ff6d7eac1b3b76dad3975fa6e6514d35771 -> be337c6ab18ec245d222e76d913a289d4c23854090ff0759b9a91ef427a81415
+~ -[ATConcreteService messageLinkWasClosed:] : sha256 0f6a77a9647cec8cee5f9028fe60a3e26d3beebca303212759bec1c0e243994b -> 167cb943ca41e96617afd172f559c2b50c2b2053c66aa02ee258e47122183d64
+~ -[ATConcreteService .cxx_destruct] : sha256 1311e1985e076591c29640b5a2b0e4004410e999e50149ca189dcb0602fb020e -> 65a7d2d2fd9b9703de3d7f1d22168aaa780930fe03d3d08568d562047d4ae3b2
+~ -[ATAssetLinkPowerLoggerAggregationKey initWithLinkType:dataclass:assetType:] : sha256 15c807ef6c1230a4828f0cf7de3e4663b39e713c6f4bbcb0e20c1d9495fd7ba8 -> 25b0cdfdfd2b1446b0505636521a8a191f09c8526578fe504fe965aa78e2d5c2
+~ -[ATAssetLinkPowerLoggerAggregationKey hash] : sha256 2c6ba8951890d9837d54d76b517061f0f880ebc564c07c6cd1addd085f4a6137 -> 4e3d2ea12f12146a47ec408815d336917eb76e9cc97e28a59fd1f980a02b94fd
+~ -[ATAssetLinkPowerLoggerAggregationKey isEqual:] : sha256 9c1484ec51186b159b673faedb5bb137ea102ef4842a7b826ff79c8dde493eae -> 8db39ea7e36465c4484962a903aaa97d6783871a49655e67616ec7098a218a01
+~ -[ATAssetLinkPowerLoggerAggregationKey copyWithZone:] : sha256 2102fc51179b3b695a3f36ec247cb4bbe59ffaa894f9a601d115131ce88370af -> b3b685afd4924f54bd24c5e7623c047ce630847329e5a431727c2363a76ddd23
+~ -[ATAssetLinkPowerLoggerAggregationKey .cxx_destruct] : sha256 6b6d0adcfa33cc709fb27504f782a6a6a6948c05ebb1db052156b0d461013ff5 -> 0bebb3f9249d4914201feb65ad864774797c17a656e06f9cfe8495e248bf0ed5
+~ +[ATAssetLinkPowerLogger sharedInstance] : sha256 ee0659abd41b082d2268c18b75ba21e6fc238f746eac4e7254a72201806b7362 -> 22b7b23bfb9cd94b461f8a7e3f69f0cf74ee08f6c1bd57419506502e2f761833
+~ ___40+[ATAssetLinkPowerLogger sharedInstance]_block_invoke : sha256 d7144f6e7d6ae49ebc47ebcf40d473f59dce8fc443cd7916b849d15856595eac -> 5f2e05601b8438775a79bf0c04c4d74288cab124094d7890cc8c7ba2ad300b2b
+~ -[ATAssetLinkPowerLogger init] : sha256 493e70f611c9944c1ff9deb1b97317e4be39c3b2a1cededb0d35c346abccca85 -> d769a449945e16bfa4f9d4dc4948818510fbf66a4d139a20f59970599a9242df
+~ -[ATAssetLinkPowerLogger logAssetLinkOfType:didBeginDownloadingAsset:] : sha256 b046a034b065fbbb637e3c832889becb78618cf1495ec664fde20e9c7cf5f0f7 -> 35570cc9af736110c65018d904744d2b5c6a9a04dc3cfe8c31049615f73362fa
+~ ___70-[ATAssetLinkPowerLogger logAssetLinkOfType:didBeginDownloadingAsset:]_block_invoke : sha256 061c591d5e22991e26cfb0436f4f734370bdcef431bb3ef884d47ed252403ac6 -> 95bf7063202b7a513b35be114536b7158ae524a63ddb66c0956dd2f24b99d6be
+~ -[ATAssetLinkPowerLogger logAssetLinkOfType:didFinishAsset:withError:] : sha256 7f29ed20c8d5ec0a1a872ad66768bb4df17e5adcf4a70737076d983209b99a88 -> 63066e49f1b74cd0d0a61ac04e28833e699ff9c2d75132d69adf2abab3b03fb2
+~ ___70-[ATAssetLinkPowerLogger logAssetLinkOfType:didFinishAsset:withError:]_block_invoke : sha256 cc0851dfdddbea2cf99a5b5863a4591d2bfb38642c238e2fefcf4ba9ecbe3ede -> eebc0ae1e1375a0662372b0f1ccfd6627f1a55b3d31022605f3833ff45b3ed00
+~ -[ATAssetLinkPowerLogger _scheduleFlushTimer] : sha256 fd173b41116dd4c763d6f04cb06b3aba652fbee8cc3e3bb9e669d09c9f28bd30 -> b3edf77708b45567327cc96e51a47d43ff4cfa1c4f9dba8edffcac3da344543f
+~ ___45-[ATAssetLinkPowerLogger _scheduleFlushTimer]_block_invoke : sha256 576f859efe213e1832d6b9cb787db4d7f6124b8305825dbaa155b60724bbf17e -> a018fd25792ce1985842e55a820305213ffb49ec8bfb1f3b48eaf254c41c8884
+~ -[ATAssetLinkPowerLogger _aggregatesForKey:createIfNotExistsWithTimestamp:] : sha256 a3186495c030172470837634c03fe0d2484517cbc2b60d89f0f75eb0f4cf1e48 -> f52cf28e16a1556b0c1ee437d8f92b6c56e975aa604ebb51d6e519c39d83d2f7
+~ -[ATAssetLinkPowerLogger _incrementCountForAggregates:key:] : sha256 c1a3d5d3a8e989426b6838d60017681af466a02c18e588db15603ff7a2641c62 -> 066d82aef250a6b42edba6a72c55c593bd488a99398b9f788af152f525ea86b1
+~ -[ATAssetLinkPowerLogger _flushMessagesToPowerlog] : sha256 031d05d118468cda373592134f6fac3d5cee258f00bd31c8c90940a9a7198958 -> 6889f4b6403b0b61ce63dd98ac70fe792c3a6ccc866f87f8b46e62c123c07a63
+~ -[ATAssetLinkPowerLogger setAggregation:] : sha256 8f550b87962ce0250f564ba39267e9583b479e18f46315388b8cc2cee2c78000 -> dc27c3b4124b78b4afacf5ccd79256ff65ac5f7e99d7631f7a6d05a3f1786a78
+~ -[ATAssetLinkPowerLogger setLoggerQueue:] : sha256 190497ab77807168bb1c8f6bd4efee49c32866320edb6c1ee01310de3c6fda22 -> fe5149e62d1ea18344bfb1f534f62950cf5050a8f2f434e4f53642e0dd6f9cab
+~ -[ATAssetLinkPowerLogger setFlushTimer:] : sha256 54df50deab33082001ce62b9a7a949eb5ad01b42693c877fd4f7c858e4970c59 -> 01c461682589d8c657867b09273b5477486858ab0431d8f3057af2f582b5d86d
+~ -[ATAssetLinkPowerLogger .cxx_destruct] : sha256 ad99946a0bf26c7b6cdb0cd3f9ce2f8d366d439fd4736365ed731030953dc904 -> 7db282a0f0e87209f1f70e03cbf774ca3d6826398f8bf3724b5e44226b58e9df
+~ -[ATMessageLinkProxyListener initWithMessageLink:] : sha256 0b1779d02887731b3dc445ea993f8e0076eb1b8bad9ddc2026f90154744ad22a -> 1fee542ab1036319e7e0ca0d95207db5a3d2d566d6a7501ac30677f875b13173
+~ -[ATMessageLinkProxyListener start] : sha256 d127548674f2498e023ed185e51534af6c98876d7d9cffa226757f6700ea4e47 -> ac5a9ab7fb5fe610b70c1536b74c3fff1b845fa51dbf660e307d7f58e1ad738f
+~ -[ATMessageLinkProxyListener stop] : sha256 0058e81d5d87cf7513593193653ef8e83390c18196110d60d0950fe8b4c8132c -> 569fbdbd51a6b3e05f6c342afc60413d588fed7025f1f5d30bc3bb8eabc75831
+~ -[ATMessageLinkProxyListener endpoint] : sha256 3922a753a7b7c4ea775f4c70f3ccf3650c6d8858c3130fd1049d27f4c441cda0 -> 981022dfea0ba84597d7674d8a8d7afe558773840d5c2f6b38f1dacd6eb46d9b
+~ -[ATMessageLinkProxyListener listener:shouldAcceptNewConnection:] : sha256 0e1cfa0f5e91b855efc752a8d117c54a51c5850a87ba3f57474d6e08518bf5e3 -> 776b51feca97ad22676b5a926ddad58e8a66805531bf987215b557c01d1ed2d4
+~ ___65-[ATMessageLinkProxyListener listener:shouldAcceptNewConnection:]_block_invoke : sha256 d6c0e418bc0a0049e77b868057e706183029309acb5485949a65b1fe285fab00 -> 2e7223710f7598b09dadb7aa29295afb0e8961818e920e9401c25fc5da34b66d
+~ ___65-[ATMessageLinkProxyListener listener:shouldAcceptNewConnection:]_block_invoke.69 : sha256 385ff8128e2ced3350255360c3231fc4ac2426826ccedb0ebf1d4e9aa8de8da4 -> b2855a211ec0c053fa0198a92f5c22e6573a3cb84ef21aafbb4e9e5a6cf23a43
+~ -[ATMessageLinkProxyListener setMessageLink:] : sha256 1def9321c89e4c9f6b63b53147228196ee484dcbec78ffbbfea34ee057067ac0 -> 66280e6064bd361847e8cc83f829ade9ec5d772696188cf789e93347baab1e30
+~ -[ATMessageLinkProxyListener .cxx_destruct] : sha256 f0ee2e1cdc3c3c59ca085accc0f11f2242539893ecb11d45705e7b9a7634d9c6 -> 8f71fc0e694c7c318c25a4ce5ee37c00eb6092cdf047ad2dc163b29274231efd
+~ -[ATSignatureProvider createSignature:forData:] : sha256 2c9f1db8b895cf5df79631a458778b4619ed8964f0b470ec9098bfbd27e4b0ed -> d168a0249a00789707ec580d8eb56dc3aeb4327dc1fe079a3ffec088312583ab
+~ -[ATSignatureProvider verifySignature:forData:] : sha256 b013fa8cfa27d43761f9c569a27322f7ba8e92cd3d8c996bd5ce4d49b7820bae -> 2c3c69adbad0e0c5933b97800ed0c782c9ed4e974eed8017d34bde33de527087
+~ -[ATMessageLinkProxyConnection initWithMessageLink:connection:] : sha256 b870b9eecd2af719fd60d627dcb8b87055d4c63e0cbd12ef3cbaf077a9d95b64 -> 9c5cb0577c276abef6c65245c837d2c3b805aa943ee73eea74ff58a907d7e162
+~ -[ATMessageLinkProxyConnection stop] : sha256 7c6a9ed7c1f8baf2647a909954ef0e4faf107f2cff30de128b38cf125718da99 -> 65a152ea3349a0707c840e5d9f42ace72f6a7a6917dad6392d2e705242bebdf2
+~ -[ATMessageLinkProxyConnection messageLinkWasOpened:] : sha256 52734b15b2144792d28a9a0ed9c06a09410905fbcd7d2e4c9a96ee9d7edc52f3 -> 0487d4c5cf42230d62c0915160aafc3359348378a94ea1e862e84ac4d2af2e6f
+~ ___53-[ATMessageLinkProxyConnection messageLinkWasOpened:]_block_invoke : sha256 abee6dffc2b8afc8fee9f1636afb7eadbfd2042ce0396e0ee8411bf64a075308 -> 7463399a5584c915a6ac667b91e54e570200f2514df5c566de6accba3c6514ab
+~ -[ATMessageLinkProxyConnection messageLinkWasInitialized:] : sha256 cbf9d3051c7d01e0e36d0b8a804e02515a002552bad46f4811e7fa58d4ee3483 -> a15dba1059bfa6d226bb7578072087be8f035c391de75ddefd1ebbe05fb6dd19
+~ ___58-[ATMessageLinkProxyConnection messageLinkWasInitialized:]_block_invoke : sha256 bfab49b2a5e887f08f5aa298cbc47dee4a0b31e209afbadea4c10ce84c6c6249 -> 8cebd8b2255e729b30d83601a00cdd12ee718d08a1c8737cd674669eb016ecac
+~ -[ATMessageLinkProxyConnection messageLinkWasClosed:] : sha256 8ba1bef336b70989e5dde05fcf9d40782cbbb6b0555759e3b962ac84cbb2e59e -> 697d114247434408ea7ea46555eb405aaa5bdbdc19fc6de35392470be62ac230
+~ ___53-[ATMessageLinkProxyConnection messageLinkWasClosed:]_block_invoke : sha256 6c1c256d90eff0fedaa8b1a9bf1231a6639d4d9f2c60955fafaff4d12284630a -> 513477a6162052be0f51223f6ec10b9025f8c7851acac6f52aa7b7774af2d467
+~ -[ATMessageLinkProxyConnection messageLink:didReceiveRequest:] : sha256 9bcf0b7d4eb5d79511741a8f691acefa62453f6f960530bfa31b7ef47df32462 -> edf2c10e7edfdf702baa9b98afab3908fe58f8cdbc5a7c648c5561eadeda0d2c
+~ ___62-[ATMessageLinkProxyConnection messageLink:didReceiveRequest:]_block_invoke : sha256 45569416ee10219968e4f182f33485b85f7cb4376e80da5e2cd9f22c88679e07 -> 805d2b239c9da1ddcc9bce2ba94cd647df1fc08867872b498d551ad0dea18aee
+~ ___62-[ATMessageLinkProxyConnection messageLink:didReceiveRequest:]_block_invoke.5 : sha256 7c80e2ec09733d4912c1a6ee681beab3b6b28da18604f507393644aab90a090d -> b375b1935a8ee0ba8a0a65306b9b14f51819e8ebcfdc12bd88cf1ad3c11420b2
+~ -[ATMessageLinkProxyConnection sendRequest:withCompletion:] : sha256 941e2f4ae7766dc863736890466ec16e0423ecb1284623529f77029d44b28df5 -> da59533adc2e1462b762731ad18c646891526ec1907eaa4f2ff536d11b37e6a6
+~ -[ATMessageLinkProxyConnection sendResponse:withCompletion:] : sha256 4bb3c8531792561fd68969f8162dbd174c65d82e55b06d128abd48b076c88f65 -> a807e752b959219e8bc606dc3411d79ca5e780c721714eb70de8d3af534e1998
+~ -[ATMessageLinkProxyConnection addRequestHandler:forDataClass:completion:] : sha256 c2345cf04a32c5afe36a29f185d77fb3e21c46742f7ad4b24a6a7bfada05eb9b -> 0463348ff30e270f536613715aa40e8dc99b4ee84a6fef34ec06b82c1d1bcd75
+~ -[ATMessageLinkProxyConnection removeRequestHandlerForDataClass:completion:] : sha256 8333af389a6378757903ac4b9225d352101512dd6f02e699426d920ecbbe3de1 -> 0d5bc0178060eb41758c4ddeb592fae70f913a91103ac615f016e722eb7ae39c
+~ -[ATMessageLinkProxyConnection setConnection:] : sha256 0ab5d6e716db10758c73995d1af3a2dc9c8c9bbee966899e516323cb40a38416 -> 28d3a06538909926b9e50803b9987c5bba2cad1d412297133f8b407587ebe9f8
+~ -[ATMessageLinkProxyConnection messageLink] : sha256 8c33a20387d94de7eff766ad7588a220654a457a76f53d1f47e0356f4bc6336a -> 5eeff9ea5223d169a70a3f6aa17e90c558f0f8537e258d91f2b243ad9690e418
+~ -[ATMessageLinkProxyConnection setMessageLink:] : sha256 4e535cdb0d5b57d581b5bb91026c9ebde6a61520899116d5a52a84bc851b10ae -> da81fced8fce31ab67717e740480f6a211b7c974930cc6ec642d8f4e95d6903a
+~ -[ATMessageLinkProxyConnection .cxx_destruct] : sha256 e76f78c068941c2ffdd82e2d0426db9c171a31d48895088aecc5901c9daec38b -> 58f2caf3537f060e58f3214c924383cdb58ce923db867e731efa9fd58fecde7a
+~ -[ATConcreteAssetLink initWithMessageLink:] : sha256 c6ee7736a819b21e84520bb8aa49d6edb1c65b13d5d9f2eead3e7d39382fe2ff -> 512cdb5234b1d6a58356e91f717ccccacf5f66f78b456d77d7b80ace0d5de19a
+~ -[ATConcreteAssetLink open] : sha256 93e1657810cc070498296486346f3c26a31f4b83cc37ca343f70c4d0065ccedd -> fde05dfbff3c6af350d06ed71cc8aed30e5591572b05544269d034c76224598e
+~ ___27-[ATConcreteAssetLink open]_block_invoke : sha256 56b5649e5dc5a12aa8bf0b45d19ff38af4d62c33cec84eb55cbb43c379a3168c -> 08f8888f97bcd34e04c86be9c0b15f8f535e9d33e93c218a3b7a24bd06e9de7f
+~ ___27-[ATConcreteAssetLink open]_block_invoke_2 : sha256 2eafb7a23e06d8c7c731ff7daa3d30671f7379cf7354876cc9f2dff562f48a59 -> 12350531869508b35f9daa833a82781a45fbf63de35d9bbc33eb4c081ce6a5ae
+~ -[ATConcreteAssetLink close] : sha256 ee225c5d29a0fa2530e5c6307f683120ad71bd7038d57a04604c7b741bfa1c15 -> 95600849e41c30fdcab9d561946905e5ff30a3a69836c0b03d7e99c8c7b6656a
+~ ___28-[ATConcreteAssetLink close]_block_invoke : sha256 2a0d8cf1058fcd65e59c3708c5774bbc4a4235c0c74532af16cd440ae088a59c -> 977dfb51df8055609de6b1f8bfc0841c10f53c37fc2f0c75e8db6a6e76af274d
+~ ___28-[ATConcreteAssetLink close]_block_invoke_2 : sha256 76a27fbf35ab299aa10f5e31dbad9d104eec9b3a1d3a1192326011e20d8e1c1f -> 7b5e8cc4b3a8609850d321f35311672cf5498229f98bba3fad964af1ffec4bd4
+~ ___28-[ATConcreteAssetLink close]_block_invoke.11 : sha256 06e8e63263149286e99a06a1f5b9d0077c837de842451f58a1e6d6372332a728 -> a3f678d92df44593107d0875315419cc0e21e0c6df62daaa16e345ab528372ef
+~ ___28-[ATConcreteAssetLink close]_block_invoke_2.12 : 520 -> 516
+~ ___28-[ATConcreteAssetLink close]_block_invoke.13 : sha256 a17ef7b22e76e4735ba9ef3514524911aba66001a9070c0bca51d334cf2deb0c -> b621057574b79e94b87e1028255e21175d8c8d4ae81ce960157b713b797bcb3f
+~ ___28-[ATConcreteAssetLink close]_block_invoke.15 : sha256 cbf08f64ddb01b5f4bd22afe46cd6b75b0f58e6c42fea7b838d50c6a875056c8 -> 86ad031b28f155b95e41124a366efe67ae8d1bc735d695f8801ed8b94aeeb315
+~ -[ATConcreteAssetLink enqueueAssets:force:] : 772 -> 768
+~ ___43-[ATConcreteAssetLink enqueueAssets:force:]_block_invoke : sha256 fe70817adefc55025e91d528bdabd88954b09a358c2bd4a589c40efefe7fbcbe -> 1f812febc35c7429938573cc6f158d962ca1170a76d76fbe48cf513a388d853e
+~ ___43-[ATConcreteAssetLink enqueueAssets:force:]_block_invoke_2 : sha256 352467bf4fb7dce8ce3b5dbbfc995d99c6cc5c774169c66f753e004830cf15ea -> 13dce4adbef7d55f772100783f1046ab68b0968203937d83b35f36a5c1043986
+~ ___43-[ATConcreteAssetLink enqueueAssets:force:]_block_invoke_3 : sha256 c0bd1c38f12587594d4634dd4d5437d67f41b58acb55e3caf3b6a4581c06064f -> 15206ebb6db9311a53f8f26194142038d4e72d42c67f51d8dd7f64b62fbd0027
+~ -[ATConcreteAssetLink cancelAssets:] : sha256 08f5f972cb5c6a872c9f0f14fd089a0dd7cfc78d037de4a1201565a3b825fb02 -> e846b4e52387a3558277b38dbd450debf4f57609ea316850d83cdf6154feb3a3
+~ ___36-[ATConcreteAssetLink cancelAssets:]_block_invoke : 508 -> 500
+~ -[ATConcreteAssetLink linkIsReady] : sha256 35628fafd35ab0b367189597d52314811e519284534214dc647f71cd4c8389b4 -> aee6b570cefcd266d1c8afb40f21099c22919380670f5677661e1849683d0b71
+~ -[ATConcreteAssetLink messageLinkWasClosed:] : sha256 3639905d141810385c314d09c5fc5860e357cd97c42c6de0491852f0d2668a1d -> c3315e8159cb4ddfe7562c21977de6d85e10d8ff5620d72f831ee8d2e305a820
+~ -[ATConcreteAssetLink _finishAsset:withError:] : sha256 51954c759474686643855467d1e1d7d9f89a886ea717a587031fa48be5beee83 -> bb03f50d279053b282a1a1d9d1fec7ba803782c768c863c87b9f2c8a4aea7ced
+~ ___46-[ATConcreteAssetLink _finishAsset:withError:]_block_invoke : sha256 dad42c8917f2de7c48aae9cb6af62558a27c32360c98032b68b1b89e889ddfa0 -> 96c9ba7f7ce99b91b65407855546f56e32ffb3a1b3e552356c48c09c7bbbcc13
+~ -[ATConcreteAssetLink _urlForWritingAsset:withFileName:] : sha256 134bbc025017231962181144eb5f06cdd2e3beb76014b373ac2e339ec582b692 -> 42799b7f33aa877bd93297cb5eec9d61f73331a3402268f578d8bad8f7c7a063
+~ -[ATConcreteAssetLink _requestAsset:] : sha256 8f2cc75ce6b253a0a7949bf2dad4a7298f9883e06f5a2c8426d5b8e3e2d55a4a -> 7af981d193cbc3148cc6924051547eddbcd682cf56639fc5590f41db1eb55ddd
+~ ___37-[ATConcreteAssetLink _requestAsset:]_block_invoke : sha256 8d96529f16e0cfb5e9fd99a841f70b4f0c4a66852a357d81e4873d97800154d8 -> 889d0faaec8f80482b235580877dbd0747d0ddd4805f062d6f17a2adef43e54f
+~ ___37-[ATConcreteAssetLink _requestAsset:]_block_invoke_2 : sha256 87c084eeb69d5142e5b91ec944aba336e4b71429db543b227b2b2e6f749b7157 -> 7c486dc6c1c232800cc3854a05d2bf522e659e7aacc01691ed0a984401eb53e4
+~ ___37-[ATConcreteAssetLink _requestAsset:]_block_invoke.43 : sha256 e752862537ad8fd71e1318136bb5ded8e9003e98eafd2b30dd528b1a4afbb3df -> cb91e2470d6c3a284a0f4424c22fffc4df65ea7c57caf8abbe01d28640342691
+~ ___37-[ATConcreteAssetLink _requestAsset:]_block_invoke_2.44 : sha256 cb1cb675ff079c2127ba4dbd73c22ec0ee1f27a70eb0e8d083d1077ca8523aba -> 3c323e0db2cd0bdbaadd6d027575b99ecdf8b1eee58b4149c83db51655584c34
+~ ___37-[ATConcreteAssetLink _requestAsset:]_block_invoke.45 : sha256 10f86d8aa0fae18368363d4ad5d11011c30e843de556f6830a10f4ad7452246b -> 66f8b41b9ba6fc0101fb1097d50bcd6833495958187a77f2b17a82a5f37248a0
+~ ___37-[ATConcreteAssetLink _requestAsset:]_block_invoke.47 : sha256 b34dde31645d71b96356fa007c773ead5d9187ae0daef7c304cd5cb672fc78a8 -> 2af56522166a2bfbc5c710b82efd621164c1dff9e279089d36fa301acd99964e
+~ ___37-[ATConcreteAssetLink _requestAsset:]_block_invoke_2.48 : sha256 a5ba3baa17ba8b53a1e9c1840b59825bea43402f73b821141602043c03e73573 -> ffdc2170579b322aa23009cd2f2d7c711c227b722ae4af6865fdb93c24a5c9a6
+~ ___37-[ATConcreteAssetLink _requestAsset:]_block_invoke_3 : sha256 633ecfb80b58105aad909294a5002c58d36276ba4f581f2e8b067d1b353c9d29 -> 130e86eae44a82787d25b76724a898eccb32f7c52031d92d3d0d15a4ffe98f63
+~ ___37-[ATConcreteAssetLink _requestAsset:]_block_invoke_4 : sha256 7a49e58fdcbd39dc06800bf3e30a6cbeed2d75d61971d6ab32e09a5ac887a9bb -> 4fbad7026a757f78c603723966e8eecb0dd750ccfdcefb0fbd71aef747640034
+~ ___37-[ATConcreteAssetLink _requestAsset:]_block_invoke.51 : sha256 6d7484a300d2a321c2a2e628e8a17cc7573e143303cf8e30d57d4f7716925d94 -> 9952617ebac6004cd192e4a62fa4c8871583a2454421aa43441114228679c1ac
+~ ___37-[ATConcreteAssetLink _requestAsset:]_block_invoke.52 : sha256 2454c48775579bdab24af7f7a788476a70dd930352359923ee4906f7ee8abdc1 -> 195d9709050104047cda8cbd1d39d04e9430b189806d5e243333b7635e6d6aea
+~ -[ATConcreteAssetLink _keyForATAssetInReaderMap:] : sha256 ef1cbd4f022f18504b42d83c2901d7f524463279bdf3b95bf3dda56fdfb3895e -> 69e0b476f1ffe1d3c88204d4deb06406fb7717d428bf4034a3f231ee170978bf
+~ -[ATConcreteAssetLink delegate] : sha256 8abcc1d672e9121d9591e17157a6d99f6c56d901eb15e29a3fc7082ab8a73f1f -> 8558923b132f6e07ad7efb1064597d21fd11d688be56fda3c5c0ac43bd014bcd
+~ -[ATConcreteAssetLink setDelegate:] : sha256 a898705de4f5c039c3876f7ee8caec58f30735f0ba26cd616a00310368d32e0a -> 835d4189538e9c5dcf34e77a84d32334bf7abccf9407eddaa0154c35b8df3b9d
+~ -[ATConcreteAssetLink .cxx_destruct] : sha256 e6038806637d22b6fbd6a82b40b4fe4fc905bfc262caf8e4e7c315d2db148dd8 -> b384a776b6060fa66598a06b683f358003506110f19548732859f5afdeacaaf8
+~ ___Block_byref_object_dispose_ : sha256 3d7ed7f703c11729b9e519c6e849faed156e876f0b8707fa75cf745ed1ac25a2 -> 5ba3d3c96c9d8b062a9b5aa22d18bd9a2efa6f165db4fde595f220d9867c88ad
+~ ___Block_byref_object_dispose_.670 : sha256 b576ea7fdc937bd82780ae02cca036216e93718103e5c6f5130a9a540553d873 -> e9a3f3ef31f50d54e30af65b0913f203d6f943ce33295e427348585e48666ed1
+~ ___Block_byref_object_dispose_.1154 : sha256 62fd4104c69f25ee2729fc33f79b9a811ad3e511f769fb1e4a3e21c3e3ce2360 -> 5c88122906ac78a0488b9b5c898429a69a6dbc14fa058d12c412800295d9c620
+~ ___Block_byref_object_dispose_.1482 -> ___Block_byref_object_dispose_.1484 : sha256 997f33d1a963d460d33a80e774ec34c59537d62154bba0fce89c2c75bc7fdd8a -> 9283da9a680e6d7e9cbc5bc3fc93e8c3a2281ef41d1162264b03651fa9dc950b
+~ ___Block_byref_object_dispose_.2099 : sha256 de55e4390eb889cb0398daab5d431d3c96d191649da4351167af1aa6d17a01d3 -> 4861c5cd449400cd0f3495b2f6e022af4b1ff48397e951fcf8303cb9b3c652f0
+CStrings:
++ "%{public}@ Calling completion block for timed out message id %lld"
++ "%{public}@ Checking for message timeouts. last activity %{public}@ (%.2fs ago), idleTimeoutExceptionCount = %d"
++ "%{public}@ Failed to obtain valid stream writer for data message - ignoring"
++ "%{public}@ Timing out sent request %{public}@ (last activity %.2fs ago)"
++ "%{public}@ Timing out stream reader %{public}@ (last activity %.2fs ago)"
++ "%{public}@ idle timeout expired - sending ping. last sent message: %{public}@"
+- "%{public}@ Calling completion block for timed out messgage if %lld"
+- "%{public}@ Checking for message timeouts. _lastActivityTime=%f (%fs ago), idleTimeoutExceptionCount = %d"
+- "%{public}@ Timing out sent request %{public}@ (last activity %fs ago"
+- "%{public}@ Timing out stream reader %{public}@ (last activity %fs ago"
+
+```

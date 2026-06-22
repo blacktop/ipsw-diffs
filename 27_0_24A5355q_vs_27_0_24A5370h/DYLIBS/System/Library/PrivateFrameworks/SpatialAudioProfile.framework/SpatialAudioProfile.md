@@ -1,0 +1,92 @@
+## SpatialAudioProfile
+
+> `/System/Library/PrivateFrameworks/SpatialAudioProfile.framework/SpatialAudioProfile`
+
+```diff
+
+-40.28.1.1.2
+-  __TEXT.__text: 0xda8 sha256:97b32e0a09f57180b1f5f39ef265b8079472c5fed24ec997d17fa87e18f4755c
+-  __TEXT.__objc_methlist: 0x1ac sha256:aefb1e545d94daf90ba9ac55409f7d191f904eab0d653b4ffbb23063b1f3c3cd
++40.31.1.0.0
++  __TEXT.__text: 0xda8 sha256:16aa6a42468d7df9745dfeba35616ade1020abfbf6884c74ca4e61b8e877c79b
++  __TEXT.__objc_methlist: 0x1ac sha256:522bd0fcf390a7c93f050839cabc8955c725aa309397e957360119898c2e029e
+   __TEXT.__const: 0x10 sha256:80b6de874bd7554d36984c89f2fc8ad5875532def6d0c61719687c2d8de3381f
+   __TEXT.__gcc_except_tab: 0x2c sha256:3645b552ebd438fca686075e88327155a43878c2d4cc94b7f8bdbf3657e1f33f
+   __TEXT.__cstring: 0x336 sha256:0bd11c1b1ad662ee781a26ae63ea1f9cfcfad6e16e398a4d6d6d1925353d8ee3
+-  __TEXT.__unwind_info: 0xd8 sha256:97fe12a0edda9327072942fe24a2666b6c987b577a9c8e6dcfdcb7e58342e46f
++  __TEXT.__unwind_info: 0xd8 sha256:d532ace82f0268e4d2f198fcb84aaddfc396df0f4a8fc6d220504dbcc02bcb65
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xa0 sha256:319f09eba05a515d1152088728ac6b4a10cf918189e9db1cf6a1a5e66bc68979
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:75f3bf952ca764e597f30dae80ef73b0acfba228b0d98c1a5df0a11fe6e4a6d9
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:2cc9f60919278729f4cf8260de2f4699786765b566f21591cac005a123d3d1a3
++  __DATA_CONST.__const: 0xa0 sha256:68c43104fc417957bc312548acd9df106a03f90f3a9ece62a0ad68886e405c2e
++  __DATA_CONST.__objc_classlist: 0x10 sha256:066f86ca9a02371945fdbf69eb763daae7cba8af981bf1552d22bea59c646764
++  __DATA_CONST.__objc_protolist: 0x20 sha256:10a88d460e7c29f50da2f6c67f4a2d47d57054efbf08ae6df12db1a2dca72724
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x110 sha256:f22109722b66823e406192680ab3752e750e9a6b7222a161bc193018a21a66af
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:422fa610536536ba7c422a3b0df72ece1c6603f84a5566b67987e5ca68aa34a1
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:317a18f6ca16eed6e52551bd481b8f2b7497ed8ea6ac50337dfed516f3aa3c79
++  __DATA_CONST.__objc_selrefs: 0x110 sha256:733335a9aab31e28e5923aa7dfea90da3b4d46dcffeaa05c9f1f7d2d201d352f
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:e126ef8d8fa58e24ef03ef54489f39afff45c5aad26fcf252fe759ffba92263a
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:56ae821d36021d0a0d0ddadb37ecf291569024df5d3f5d62bf18e90760c74ba7
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x40 sha256:783415317bb1435511957708b84a35125d7e8ef3b277d86c4c457c4893f46bd7
+-  __AUTH_CONST.__objc_const: 0x340 sha256:d1582ca7dabd1624cd7cd18aa4f2692bbbe7eaaf0760c9197f74d6601948f62d
++  __AUTH_CONST.__cfstring: 0x40 sha256:b068400e28b831e36ec3bbc59975cd5354c9e7ca0e60f29bb4f714c6077ae039
++  __AUTH_CONST.__objc_const: 0x340 sha256:ec8918bbcddf4359dc1718acb3dbb03059efd752656b9a65ddca99de082a84c4
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x20 sha256:110630dea55159fc0215e2f0493dbe8c624213c94e0afd535ad52d48c0b95221
+-  __DATA.__data: 0x1f0 sha256:bb49999eaa8f3e206f4e84fe3d0e4f64aa09634a3840c91ccfadc11f7256e506
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:edddfc98851b2fd88b699dda6ac3efa5e6f71cedf6ffeb8d856f48e41a2f00b7
++  __DATA.__data: 0x1f0 sha256:899f7b2bbe3bd15201dfa56111afdbeb47e21bfbf23d00c021100b3476017cca
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:ac4f9f70d03bb2f092b18327fec8e4833def14daf0820417fdf1dbc6c37f6b32
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 04BC7446-6E6E-3E48-AB24-2D5A3E374967
++  UUID: BFA50FE6-2837-310E-8E62-B4F7F24CD58A
+   Functions: 42
+   Symbols:   201
+   CStrings:  23
+Functions:
+~ -[SpatialAudioProfileClient initWithCoder:] : sha256 406c671b1c85712767212251f298fda3060e3226fd531e9fbda3910ec056df10 -> 82642286a12c6b2e6cf32c6e608a3b58eea205f17eab0a7c2fb33058560794c1
+~ -[SpatialAudioProfileClient init] : sha256 6abd459ab3910013306545039c986eb51ad2979e5ca9fcaf800cd0b2d19ae49f -> c35b8cbf4a86d85fd00c9ce5532583d1b44c24d6646c1c9f2e2d4d9f7a48433d
+~ -[SpatialAudioProfileClient fetchSpatialAudioProfileRecordWithCompletion:] : sha256 1446eb4621bae3b8a0778850c2edf2a7d05193d9c5e32b3b7ac2fa26c765f3c2 -> a2bf38efb2ce437ae259e8a193e42f90bc9b8b9ab2b3a8fb769953cfec0217f2
+~ ___74-[SpatialAudioProfileClient fetchSpatialAudioProfileRecordWithCompletion:]_block_invoke : sha256 9946b071de8b7e353bb646054ab4c1e6e3ef2ae0d39929db182727618fd24d05 -> 3c7fcbff77a01b6db8aa07adc7ec537c2f0689d51d2ebeadb0210070d997f920
+~ ___Block_byref_object_dispose_ : sha256 534942a239234b2d5f1ab7373a7bc49dde9cc59d769e6feb6b9f94f8cbf130fc -> e4555107e2daed1b162a4f50efc457859c474baa8716a266756481994160c711
+~ ___74-[SpatialAudioProfileClient fetchSpatialAudioProfileRecordWithCompletion:]_block_invoke.1 : sha256 91a0e2a386dfa2d8aae39de34785e9c591fb69067393393c5b4318c273f9f438 -> c30605535ca2e8bc3b3eadbd98da22125f128f89d08d16797bf88174062f3238
+~ -[SpatialAudioProfileClient _fetchSpatialAudioProfileRecordWithCompletion:] : sha256 11db6e3745d92e554efea0b555ea50da5f301efea576e0e6ddf2fa85332515a7 -> d2045d64c641922675f3896fb0ab6ea3b183129defd00d41080bf571252848ff
+~ ___75-[SpatialAudioProfileClient _fetchSpatialAudioProfileRecordWithCompletion:]_block_invoke : sha256 b50be2b759a6790f90699bc9ba14a0c8fc554e5e7efde4ab52afd6aaaf0f07ed -> c9ba52b2a9590a509f868e409e131eb7b70551d1974dd1af2e3c34914b84b4fd
+~ -[SpatialAudioProfileClient _ensureXPCStarted] : sha256 af6370378780e3a448b90d2eb27b641d8170b7c86d94a279f6f23062fbe9ab89 -> e70d26856dd6c1f5ed6598226fdd3e370cd9bd5448192ff7f28f8168ee11f9b1
+~ ___46-[SpatialAudioProfileClient _ensureXPCStarted]_block_invoke : sha256 a7cbc53fa0a20e8e147b9ffac0f6187614275dfe8a52d018d7dd515a84b67170 -> 03c1d9c27aeca59cb2dd43ba9340a0d149930112990f54ee1d98ece5bdcffb26
+~ ___46-[SpatialAudioProfileClient _ensureXPCStarted]_block_invoke_2 : sha256 4af9bcc60a8efed822a75521c76d1e515209e029abaf746d4b413700dc7cba87 -> c2d343f7629e802b6774cf0614778b94c86a7c64c0abe89917d6de439fe12ca5
+~ -[SpatialAudioProfileClient _interrupted] : sha256 0985ec02b27bfd1386d0830b12fa5c4503ce2f430665152611b3535c4398b63f -> dd536d9828226614f72b9c07635f1bf562c452f06fc5c00500f54b9f89e5e9fd
+~ -[SpatialAudioProfileClient invalidate] : sha256 47616131f3b78c5d25b808881686166281f1be89dabd290eedc25d995295b5cf -> ce5e593bbb3a4968fdcaa8071ecab685db972957449cda76d3b9ba4318043027
+~ ___39-[SpatialAudioProfileClient invalidate]_block_invoke : sha256 64dcead52563f72813f84197432038d32d8db262854b988b708ccb49e719d4ca -> e4ff2399cc75d175b3ab0f7ef4f08e1f2e85414b64c9c0b943d37cad8b676b7a
+~ -[SpatialAudioProfileClient _invalidated] : sha256 aa261e450c67a59e7372f26155451cbbc6d77b5c672e4ed1dc826c7bcaf43995 -> f8d854951a19a6f0f1fec68affc6ff8cd21f49c90254d2f3bc0f50acf79cdb40
+~ -[SpatialAudioProfileClient setInterruptionHandler:] : sha256 e129a2bf31773bd9bd2b97288089f1ebfc8d07bd8d48d124b02f1afbca11a623 -> b9e0d49c84d49ad80a4a9708c4fa66087f24d8893e87df5d204cfd0244298c97
+~ -[SpatialAudioProfileClient setInvalidationHandler:] : sha256 f36b8ddace86cd3c3be28b26ea05aa83c8fbc63bb70d0d42b576f843b6f9318a -> 10cd9eeb9505012542c8593e8351010345f12daed7beab023f70fd2c3664c465
+~ -[SpatialAudioProfileClient setDispatchQueue:] : sha256 86ad9cea71e99cf4e3036c2e5443b80d35fc694e06bf566b98d01aeaae788e98 -> 8855a09d1350a288f8456ea7d71ef48f1f6e38bf36668302a98eb6bf7b58f2fb
+~ -[SpatialAudioProfileClient .cxx_destruct] : sha256 1ad72f39bb73167ff47023113bb26af3fe81498d712d25a91c76a9a0fd6b5b9c -> 2b31a59c1f74379d4a78efbacca55656bdee6b946abd9cbe7e7ceae138424f77
+~ -[SpatialAudioProfileRecord encodeWithCoder:] : sha256 9852a42fa4776d88f35372e910e97e6ce94d297efb6caa70b458432d9b74cd93 -> db8006c8e9c15dae8903eba80b84910e83197ce4aca1306fd6f8dbd56e571aea
+~ -[SpatialAudioProfileRecord initWithCoder:] : sha256 b9f2a866e30ece72d74b6e941dc3d28987b1e6715890d1a5370298e3c1529053 -> 2c2053a2a7818fdfb230de1307afce8f9e71c49a63ecfdf2d474195edddb3991
+~ -[SpatialAudioProfileRecord description] : sha256 f01770f8de53c8d453c41df6b5045e6a1475630773b27213ce02d84d96c02d94 -> 168a09e9c2b5dc0d5d4f26c9c91ada245faf2ae5e40d72464d06505576263b9c
+~ -[SpatialAudioProfileRecord setProfileData:] : sha256 0005cdc99a4a57e7377ae1a1d16f6dacd350613de742bc60ed2b2ed400990cd3 -> 320a8450a55b2c1b2dce1354a4eb98a45b69f0060c394de86d9290b1a45e8781
+~ -[SpatialAudioProfileRecord setProfileURL:] : sha256 3ce5aa31b84a6373b1799444ee15216de76efd03fbf20c29b33309e0d661c3d7 -> e044361165fce0aefefe076decd74743aab53d7f835f683f73d8eb8e9571ff25
+~ -[SpatialAudioProfileRecord .cxx_destruct] : sha256 a716835a69c60a1c3e2689aca6690304e1e869b16c4a22ef73a87d59d2812881 -> 218683892660b40e2b80605f98a71f7c51d4ae65d10bb0bed3d09b86559347d6
+~ _OUTLINED_FUNCTION_0 : sha256 231672d430a91e5017223fe59bedbc8ddfeb252cbc973a54393f7354b8b7dc82 -> 37553c7aaeb41303766d2e8f9d40c5fc27987f34cabdb5ef8f2c5ad48ec5fc39
+~ _OUTLINED_FUNCTION_1 : sha256 0f0f0a55b5006936f91704164cf89623c6b2c32a141a597403ed4b5fdc72abae -> 8e909a96f80035a8516bc7f61c4a4101c7a2f3d4754062d1599ef8f79c4372d7
+~ -[SpatialAudioProfileClient _fetchSpatialAudioProfileRecordWithCompletion:].cold.1 : sha256 71800aa92298492ca05a2c959199cc9626ce0d3817890f87b2f1b65ea816f000 -> 8f24fb67b4e123ed41b4ec58f4841365397952f280545284f89eb29c3c82eef1
+~ ___75-[SpatialAudioProfileClient _fetchSpatialAudioProfileRecordWithCompletion:]_block_invoke.cold.1 : sha256 f812994eda2823a8a38a76004f489dc456bddcb34d21bcecc87b8ce06e95b3cb -> bc9738dcf5ccebb531a7d752ca850337be34edf04f93ce48fafac8eba6015f1b
+~ -[SpatialAudioProfileClient _interrupted].cold.1 : sha256 58ab34fd76c36b15f580728a355bf8d6f38b30a5bad0fba48ea89f203aae252e -> 7ed7cc70e5ffa0fb46ec695c169c82570900e15267ec97614e54a5af8bd72f20
+~ ___39-[SpatialAudioProfileClient invalidate]_block_invoke.cold.1 : sha256 13b9a2a35887e0f858bd74a9afda79374cd31fa83adaf5e83fecc4976d347d23 -> 712a4a0f70faf88b9cca81fbad920ea9cb5c25a57ada19ad5b494873eb48a947
+~ -[SpatialAudioProfileClient _invalidated].cold.1 : sha256 b4ac3b8553397c58716947412ab4f71eb487b217abbefcb1240f2827bb2e25b1 -> 5ffffcf3aeddba02494edfa61befaf285b9e02a2e0ccd2d8bd4a58f29d771994
+~ -[SpatialAudioProfileClient _invalidated].cold.2 : sha256 59bf71938e023098a8aef2b3356936b4ae53f4fd5239370662bd2115936b1bd3 -> a20c9170c0c8b88f0588e68e86f6e745007327fc13d33425955dbc3ee03c4438
+
+```

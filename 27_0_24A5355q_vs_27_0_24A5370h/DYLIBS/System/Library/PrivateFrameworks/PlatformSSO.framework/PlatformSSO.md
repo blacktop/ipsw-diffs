@@ -1,0 +1,516 @@
+## PlatformSSO
+
+> `/System/Library/PrivateFrameworks/PlatformSSO.framework/PlatformSSO`
+
+```diff
+
+-635.0.0.0.0
+-  __TEXT.__text: 0x59b34 sha256:41a425850d23eb44f5e1245a0abfac2e7476672f2db8d4ab71ed928b9a483661
+-  __TEXT.__objc_methlist: 0x348c sha256:16638e100c9250bc1bb680d248fff0fac4c00c1f944cb95caca21dacc9bad112
+-  __TEXT.__const: 0x312 sha256:b63ea3b97e23b92f0d5fa81a6aefede35d87151f02ab55c0fa1f1917bf81f802
+-  __TEXT.__cstring: 0x8246 sha256:845cd770756590612184228f41eb323b331197c2ff7428f57b9412af655db790
+-  __TEXT.__oslogstring: 0x2411 sha256:9529973464b17b39eaf032756bb8b8380c4b698dec983d1cddcd2883fc56e560
+-  __TEXT.__gcc_except_tab: 0x1210 sha256:5cec8d58108243b872e6494ba503895e12b794058a6851d82c6dd14e95099b90
++643.0.12.0.0
++  __TEXT.__text: 0x5ac90 sha256:0ac5939e31a5ad8ee64e0a453adb75978bccd81d895ef2022370200e2595f5ba
++  __TEXT.__objc_methlist: 0x3534 sha256:07f1f6cd8c2c52f3fca52e51f311caa4e956ea1df8557d2aff17cd46c18e7c32
++  __TEXT.__const: 0x322 sha256:07edf20498267d78d353e33a75829505eb78068f6d9a6904f13dde936b869f41
++  __TEXT.__cstring: 0x8256 sha256:dd631f76a89d08f6b00aac9b5444155efd08151ca16e9a592eb0d200ce301c4c
++  __TEXT.__oslogstring: 0x2531 sha256:1ab2d7b5801ef333151d1c45e931906679b4869202ccf43ff245aae41d3b46d1
++  __TEXT.__gcc_except_tab: 0x126c sha256:1facff01487cbd9b0806f7f3569670f2346a2351e10d5e002b6b8dae9d9bd9ae
+   __TEXT.__dlopen_cstrs: 0x110 sha256:19e9076b9d75040b9b64a4d6b8c25fd9f7899f37fc9569af7feb7ecd9d23c3d5
+-  __TEXT.__swift5_typeref: 0xd9 sha256:472ae201c777c07ea1aab1e16272552b2c4dedb74316d7dbce203c71db8c6849
++  __TEXT.__swift5_typeref: 0xd9 sha256:2fa6b098efe91ac5fe27876b5c56abd181b6c4160c2326671368e6f5b721e1ea
+   __TEXT.__swift5_capture: 0x14c sha256:d5b4c61ff483fdbce6a4c682a2dad99d23947b32a71a6f26d93f3e7d16a057f3
+-  __TEXT.__constg_swiftt: 0x4c sha256:e9cc625ab3b660183f7a190f3b45ffa3c5142c425c0c129b7ff008a4795973c5
++  __TEXT.__constg_swiftt: 0x4c sha256:0d38e8e10911aaec3643737c970b98f56325b510546f258bdc62808265f542cc
+   __TEXT.__swift5_builtin: 0x28 sha256:66efd7d342f87f17dda054eaf2e201056bbe597d12e5624cabb411e331ce8578
+   __TEXT.__swift5_reflstr: 0x9 sha256:1df8d10c11fdb5332629affa6742a83b95482f74917951f14e3dfbd50ee6f1e8
+   __TEXT.__swift5_assocty: 0x18 sha256:af414fac889f9e92bccef9cfcbf2b42afaec1d089b5c7286b26f343392eb9a51
+-  __TEXT.__swift5_proto: 0x8 sha256:04b4a514a7cbd8dc324bf4c2f66489b02179fc2cff5a473aeff7c09dc9786f8f
++  __TEXT.__swift5_proto: 0x8 sha256:3977d14dfbb2227c5cc9ece4dd7ec03363aba020e2362511c3e16a28477b5c13
+   __TEXT.__swift5_types: 0x8 sha256:aa519ac366fd6bf1b0051da82e53b97822699449080bc8153ce1963dc2e424b4
+-  __TEXT.__swift_as_entry: 0x30 sha256:caf80c16f56c021926d85b37771a369b34104ac1846f0fc6b8b4cef4fbf88fba
+-  __TEXT.__swift_as_ret: 0x54 sha256:d954757de7444b38bd0fea8ccc06d31e18bebc5edd8c1ed13a47b2380a328759
+-  __TEXT.__swift_as_cont: 0x58 sha256:293f5016bc738ebee0885afba032ddae9528945271d8c3683665aab08d46f6c1
+-  __TEXT.__unwind_info: 0x1548 sha256:c6ed731f754810752ce80f7285dcdb62c11701b1f8c4ce34dfa15b5f70b61497
+-  __TEXT.__eh_frame: 0x628 sha256:8daa9d127b021216610ae9aa09a4181351c1edb7cb13c4483a1bdbd687b799bf
++  __TEXT.__swift_as_entry: 0x30 sha256:2ede8d2b828a1a6829df5d63b25224b6abc82695379fc506e09e63559e67a3ef
++  __TEXT.__swift_as_ret: 0x54 sha256:a3c3733326c1463b3d296359b4812bb7dd315c105a191bf94d16be0a8246dff2
++  __TEXT.__swift_as_cont: 0x58 sha256:b74af3acec1e0782dfa7ac536e0b64f783dbeba5d69cff914663608aefa5b8d1
++  __TEXT.__unwind_info: 0x1578 sha256:22b1b81668f5c8d4449397011ac01b1ca74ccb950e24c80556074b614f5400b3
++  __TEXT.__eh_frame: 0x628 sha256:f84f3af43e75973497e4200d061bf600dd9e0be8a9a9ee3979f44559762b098f
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xf38 sha256:5882c623110daba14d7ee27deb93f38b0dc187a87733ef2ce20de92ad0592ade
+-  __DATA_CONST.__objc_classlist: 0x108 sha256:ba95e37ad68a5f854e2bd210541dcffb9526a1ec67b4c56816fa84fd7879eba7
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:dd903627ebb7c61169002b575f958a1ae1f7a590db12b7ca1cabea3fc787d6d3
+-  __DATA_CONST.__objc_protolist: 0x88 sha256:9d3f1ec2a0f5f685bfc3563fa3dea587694e9e7fa46a4bc483a8e1bf5aa57cae
++  __DATA_CONST.__const: 0xf60 sha256:9f9cae4f1de8d285a6b5f1630ab1a636f8af3de1e0ab3c8e462b81f38cb9f4a8
++  __DATA_CONST.__objc_classlist: 0x108 sha256:5ed070e4ef018213a2928f121e06433d182397eaf6525a0056baf181498bcbc7
++  __DATA_CONST.__objc_catlist: 0x8 sha256:65c4ffa4c74e1a2479ff5442db18ad4ab4b878a507392df8d74dcfb5211be916
++  __DATA_CONST.__objc_protolist: 0x88 sha256:d3417bdbab8e3fb7657253126220fdcb1dfd16560cf9efdf28ba18e9331cbea8
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x2330 sha256:5a5019ce824d70a1e020c2ac3deaf230c7f830d6fc37f8a4c7924a2d81ca4188
+-  __DATA_CONST.__objc_protorefs: 0x30 sha256:9c5258a3cde3613f06c380d3be0dcbc6a87513776c6efd21f79893c0a77576d1
+-  __DATA_CONST.__objc_superrefs: 0xc8 sha256:bc066c47ab99ff2bb8dabb19d50f34b69be146efd1d5edb3d6f6f418cce381f3
+-  __DATA_CONST.__objc_arraydata: 0x10 sha256:a5e23d289c713f8351976efd266130e3c65d190d7fb2a7a512ab3f7cf9ac6dd3
+-  __DATA_CONST.__got: 0x418 sha256:4066146154f103999c0a1e14b1dca1498ca91659ea5f26a575bd81256e080a34
+-  __AUTH_CONST.__const: 0xc80 sha256:8acfb50b6fca0b97ab937c9a51c34977a380aeccdfbc8cc5af10c50a5be4f961
+-  __AUTH_CONST.__cfstring: 0x3a00 sha256:31e6a949637707eba32191ee049f2c645ba6c96bd069461a158e18ef23879a4a
+-  __AUTH_CONST.__objc_const: 0x8590 sha256:4be8d4bbdeb461b6d21a6b01cfcbda506297bc2488a58ee937c367c573da78b2
+-  __AUTH_CONST.__objc_intobj: 0xc0 sha256:baadf6e38fb399136cc82a3cea4625ead3755af42c06c8d609abf8822cbf6acb
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:bd42d47f47f7bd9b2fa9009720802656682b925504bc63b0f97f4325e5856d1c
+-  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:2261e3ef8d17089ec75cbbbef59276cd99e05e7ce5e783de4a64f9a054085f03
++  __DATA_CONST.__objc_selrefs: 0x2398 sha256:c225cd2632c89cde6de439a10c505135b5648fb7774428a3689d6b38fd46498c
++  __DATA_CONST.__objc_protorefs: 0x30 sha256:b58843956a3a08306f1402e07e5e76c75efa1728ebace2cd2c65f922f89576a9
++  __DATA_CONST.__objc_superrefs: 0xc8 sha256:d30c5a5bd515b150a914ebf9d37d647c8c8c276bc274a8841aa4564c710d5bbc
++  __DATA_CONST.__objc_arraydata: 0x10 sha256:6af5ddafc7198025b18c2ac734cf9ec4b694978f70d7016337bc1d21f40c2912
++  __DATA_CONST.__got: 0x438 sha256:48dddf8552425345f53005d7333dd8c503eac8162461d2670bb1815efa00a281
++  __AUTH_CONST.__const: 0xc80 sha256:33581b74bc82bb702f937b0883529420d688cbbf91a1a55caf424502bb945e7f
++  __AUTH_CONST.__cfstring: 0x3a00 sha256:5a3cb3908cf2bbf38a21a81c1df816ce5a777592e97cd2d48da6207ee3ff72a3
++  __AUTH_CONST.__objc_const: 0x8608 sha256:0c79c33e70802fea83f61782efa4e0d5f3b9c2e6a21b788ae725becdcd35b186
++  __AUTH_CONST.__objc_intobj: 0xc0 sha256:58ca38a2b363a7508c33af97ca614fc025ac75a5873c28bc364a078228a07697
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:aca04e56f9d6dc02c18d969920a46aed37890832c7e2ca675218ca54ddf741e3
++  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:23f5e0d4415c3173200cd5429cc80f6010f2e46e75697072633c71a144b290f3
+   __AUTH_CONST.__auth_got: 0x740 sha256:8df33479f953d7860ad0f279a610303ff12bfca57a8610d3adda43663809f34b
+-  __AUTH.__objc_data: 0xa00 sha256:89504169c6b176ff88b436aad022794aeaac4df9471591a0d5abcc3a189e001a
+-  __DATA.__objc_ivar: 0x388 sha256:f6f5bee94522a478a9cf008446d225fd4258e02bbb89ba08756c385dab60589a
+-  __DATA.__data: 0x600 sha256:a27f342c2bf16b89424f5bbed0507de1e4c1227e4e1f198e61b1939c62387023
++  __AUTH.__objc_data: 0xa00 sha256:a8e73b679e59e72f2c7f3b5895b50c201e4689fd5a0b4237c76fd385c880d31b
++  __DATA.__objc_ivar: 0x38c sha256:c6272c9c0cb9c6c2862e2c6b4f027f908917a8926dd225b1f690152210b8e671
++  __DATA.__data: 0x600 sha256:78dd67ece85123d9088576b52038b6cd8223aa78caf1727f0b355e3b9f59254a
+   __DATA.__bss: 0x340 sha256:e0084b66cb4a03e2aba6cc7342eead6a91610ad915d66f9ae2c734f99b772ac7
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:de84dccf94a33f8b9a9f8158e977f6dc854b63f67069dc8d5fbee7b456404552
++  __DATA_DIRTY.__objc_data: 0x50 sha256:5cd96492dc6f0bc18ef1432155fa83bfedce464cbfae16277dd3ca365ab5d553
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CryptoTokenKit.framework/CryptoTokenKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1363933E-095E-3063-AD26-7D6CA2A03726
+-  Functions: 2108
+-  Symbols:   7536
+-  CStrings:  1496
++  UUID: 9DE4BA49-2745-3782-84AE-C21052F6B9A2
++  Functions: 2126
++  Symbols:   7599
++  CStrings:  1499
+ 
+Symbols:
++ -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]
++ -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:].cold.1
++ -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:].cold.2
++ -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:].cold.3
++ -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:].cold.4
++ -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:].cold.5
++ -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:].cold.6
++ -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:].cold.7
++ -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:].cold.8
++ -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:].cold.9
++ -[POAgentAuthenticationProcess clearPlatformSSONotifications]
++ -[POAgentAuthenticationProcess currentAuthorizationContextScope]
++ -[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:]
++ -[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:].cold.1
++ -[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:].cold.2
++ -[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:].cold.3
++ -[POAgentAuthenticationProcess setCurrentAuthorizationContextScope:]
++ -[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]
++ -[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]
++ -[POAuthPluginProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:]
++ -[POAuthPluginProcess performPasswordLogin:passwordContext:updateLocalAccountPassword:additionalScopes:]
++ -[PODaemonConnection updatePasswordHint:forUsername:completion:]
++ -[POServiceConnection performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]
++ -[POServiceConnection performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]
++ -[POServiceConnection retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]
++ -[POServiceConnection verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]
++ -[POServiceConnection verifyUserAccount:passwordContext:smartCardContext:tokenId:additionalScopes:completion:]
++ GCC_except_table113
++ GCC_except_table117
++ GCC_except_table121
++ GCC_except_table127
++ GCC_except_table176
++ GCC_except_table72
++ GCC_except_table99
++ _OBJC_IVAR_$_POAgentAuthenticationProcess._currentAuthorizationContextScope
++ ___100-[POAgentAuthenticationProcess handleKerberosMappingForTokens:loginConfiguration:userConfiguration:]_block_invoke.437
++ ___100-[POAgentAuthenticationProcess handleKerberosMappingForTokens:loginConfiguration:userConfiguration:]_block_invoke.437.cold.1
++ ___100-[POAgentAuthenticationProcess handleKerberosMappingForTokens:loginConfiguration:userConfiguration:]_block_invoke.441
++ ___100-[POAgentAuthenticationProcess handleKerberosMappingForTokens:loginConfiguration:userConfiguration:]_block_invoke.441.cold.1
++ ___102-[POServiceConnection retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke
++ ___102-[POServiceConnection retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke.cold.1
++ ___108-[POAgentAuthenticationProcess userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]_block_invoke.532
++ ___108-[POAgentAuthenticationProcess userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]_block_invoke.533
++ ___108-[POAgentAuthenticationProcess userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]_block_invoke_2.534
++ ___110-[POServiceConnection verifyUserAccount:passwordContext:smartCardContext:tokenId:additionalScopes:completion:]_block_invoke
++ ___110-[POServiceConnection verifyUserAccount:passwordContext:smartCardContext:tokenId:additionalScopes:completion:]_block_invoke.cold.1
++ ___114-[POAgentAuthenticationProcess _handleLoginResult:authenticationContext:tokens:passwordContext:tokenId:tokenHash:]_block_invoke.245
++ ___114-[POAgentAuthenticationProcess _handleLoginResult:authenticationContext:tokens:passwordContext:tokenId:tokenHash:]_block_invoke.245.cold.1
++ ___115-[POServiceConnection verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke
++ ___115-[POServiceConnection verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke.cold.1
++ ___118-[POAuthPluginProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:]_block_invoke
++ ___118-[POAuthPluginProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:]_block_invoke_2
++ ___123-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:]_block_invoke
++ ___123-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:]_block_invoke.102
++ ___123-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:]_block_invoke.102.cold.1
++ ___123-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:]_block_invoke.106
++ ___123-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:]_block_invoke.94
++ ___123-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:]_block_invoke.94.cold.1
++ ___123-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:]_block_invoke.98
++ ___123-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:]_block_invoke.98.cold.1
++ ___123-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:]_block_invoke.cold.1
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.31
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.31.cold.1
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.37
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.37.cold.1
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.43
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.43.cold.1
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.46
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.46.cold.1
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.50
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.50.cold.1
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.54
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.54.cold.1
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.60
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.60.cold.1
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.66
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.66.cold.1
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.72
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.72.cold.1
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.76
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.76.cold.1
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.80
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.80.cold.1
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.86
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.86.cold.1
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.92
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.92.cold.1
++ ___124-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.cold.1
++ ___129-[POServiceConnection performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke
++ ___129-[POServiceConnection performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.cold.1
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.102
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.102.cold.1
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.105
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.105.cold.1
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.106
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.112
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.112.cold.1
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.115
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.115.cold.1
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.118
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.118.cold.1
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.119
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.119.cold.1
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.122
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.122.cold.1
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.125
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.125.cold.1
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.128
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.128.cold.1
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.129
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.129.cold.1
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.133
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.133.cold.1
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.137
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.99
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.99.cold.1
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.cold.1
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke_2
++ ___139-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke_2.cold.1
++ ___144-[POServiceConnection performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke
++ ___144-[POServiceConnection performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]_block_invoke.cold.1
++ ___40-[POServiceConnection _connectToService]_block_invoke.92
++ ___40-[POServiceConnection _connectToService]_block_invoke.92.cold.1
++ ___54-[POAgentAuthenticationProcess isCurrentSSOExtension:]_block_invoke.498
++ ___54-[POAgentAuthenticationProcess isCurrentSSOExtension:]_block_invoke.498.cold.1
++ ___59-[POAgentAuthenticationProcess handleEncryptionKeyRotation]_block_invoke.273
++ ___59-[POAgentAuthenticationProcess handleEncryptionKeyRotation]_block_invoke.273.cold.1
++ ___59-[POAgentAuthenticationProcess handleEncryptionKeyRotation]_block_invoke.273.cold.2
++ ___59-[POAgentAuthenticationProcess handleEncryptionKeyRotation]_block_invoke.274
++ ___59-[POAgentAuthenticationProcess handleEncryptionKeyRotation]_block_invoke.274.cold.1
++ ___59-[POAgentAuthenticationProcess handlePreviousRefreshTokens]_block_invoke.452
++ ___59-[POAgentAuthenticationProcess handlePreviousRefreshTokens]_block_invoke.452.cold.1
++ ___60-[POAgentAuthenticationProcess handleUnfinishedTGTExchanges]_block_invoke.478
++ ___60-[POAgentAuthenticationProcess handleUnfinishedTGTExchanges]_block_invoke.478.cold.1
++ ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.292
++ ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.292.cold.1
++ ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.302
++ ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.302.cold.1
++ ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.306
++ ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.306.cold.1
++ ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.310
++ ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.310.cold.1
++ ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.314
++ ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.314.cold.1
++ ___64-[PODaemonConnection updatePasswordHint:forUsername:completion:]_block_invoke
++ ___64-[PODaemonConnection updatePasswordHint:forUsername:completion:]_block_invoke.cold.1
++ ___67-[POAgentAuthenticationProcess handleConfigurationChanged:startup:]_block_invoke.328
++ ___67-[POAgentAuthenticationProcess handleConfigurationChanged:startup:]_block_invoke.332
++ ___67-[POAgentAuthenticationProcess handleConfigurationChanged:startup:]_block_invoke.332.cold.1
++ ___67-[POAgentAuthenticationProcess handleConfigurationChanged:startup:]_block_invoke.336
++ ___68-[POAgentAuthenticationProcess _handleConfigurationChanged:startup:]_block_invoke.364
++ ___68-[POAgentAuthenticationProcess _handleConfigurationChanged:startup:]_block_invoke.364.cold.1
++ ___68-[POAgentAuthenticationProcess _handleConfigurationChanged:startup:]_block_invoke.377.cold.1
++ ___68-[POAgentAuthenticationProcess _handleConfigurationChanged:startup:]_block_invoke.383
++ ___69-[POAgentAuthenticationProcess handlePendingSSOTokensWithSharedData:]_block_invoke.470
++ ___69-[POAgentAuthenticationProcess handlePendingSSOTokensWithSharedData:]_block_invoke.470.cold.1
++ ___74-[POAgentAuthenticationProcess handleUserNeedsReauthenticationAfterDelay:]_block_invoke.395
++ ___74-[POAgentAuthenticationProcess handleUserNeedsReauthenticationAfterDelay:]_block_invoke.395.cold.1
++ ___74-[POAgentAuthenticationProcess handleUserNeedsReauthenticationAfterDelay:]_block_invoke.405.cold.1
++ ___74-[POAgentAuthenticationProcess handleUserNeedsReauthenticationAfterDelay:]_block_invoke.411
++ ___79-[POAgentAuthenticationProcess requestUserAuthenticationWithWindow:completion:]_block_invoke.504
++ ___79-[POAgentAuthenticationProcess requestUserAuthenticationWithWindow:completion:]_block_invoke.504.cold.1
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.130
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.130.cold.1
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.134
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.134.cold.1
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.138
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.138.cold.1
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.142
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.163
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.163.cold.1
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.176
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.188
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.191
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.192
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.192.cold.1
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.196
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.196.cold.1
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.202
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke.cold.1
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke_2
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke_3
++ ___94-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]_block_invoke_3.cold.1
++ ___block_descriptor_49_e8_32s40s_e5_v8?0ls32l8s40l8
++ ___block_descriptor_57_e8_32s40s48s_e20_v24?0Q8"NSError"16ls32l8s40l8s48l8
++ ___block_descriptor_57_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
++ ___block_descriptor_81_e8_32s40s48s56s64s72r_e5_v8?0ls32l8s40l8s48l8s56l8s64l8r72l8
++ ___block_literal_global.140
++ ___block_literal_global.145
++ ___block_literal_global.297
++ ___block_literal_global.301
++ ___block_literal_global.40
++ ___block_literal_global.417
++ ___block_literal_global.874
++ ___block_literal_global.878
++ _kPOAuthorizationScopeAuthPrompt
++ _kPOAuthorizationScopeLogin
++ _kPOAuthorizationScopeRefresh
++ _kPOAuthorizationScopeUnlock
++ _objc_msgSend$_doLoginWithPasswordContext:tokenId:authorizationContextScope:
++ _objc_msgSend$addRequiredScope:
++ _objc_msgSend$clearPlatformSSONotifications
++ _objc_msgSend$currentAuthorizationContextScope
++ _objc_msgSend$performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:
++ _objc_msgSend$performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:
++ _objc_msgSend$performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:
++ _objc_msgSend$performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:
++ _objc_msgSend$performPasswordLogin:passwordContext:updateLocalAccountPassword:additionalScopes:
++ _objc_msgSend$retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:
++ _objc_msgSend$setCurrentAuthorizationContextScope:
++ _objc_msgSend$updatePasswordHint:forUsername:completion:
++ _objc_msgSend$verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:
++ _objc_msgSend$verifyUserAccount:passwordContext:smartCardContext:tokenId:additionalScopes:completion:
+- -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]
+- -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:].cold.1
+- -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:].cold.2
+- -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:].cold.3
+- -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:].cold.4
+- -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:].cold.5
+- -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:].cold.6
+- -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:].cold.7
+- -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:].cold.8
+- -[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:].cold.9
+- -[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:].cold.1
+- -[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:].cold.2
+- -[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:].cold.3
+- -[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:].cold.1
+- GCC_except_table111
+- GCC_except_table115
+- GCC_except_table119
+- GCC_except_table125
+- GCC_except_table173
+- GCC_except_table54
+- GCC_except_table71
+- GCC_except_table97
+- ___100-[POAgentAuthenticationProcess handleKerberosMappingForTokens:loginConfiguration:userConfiguration:]_block_invoke.425
+- ___100-[POAgentAuthenticationProcess handleKerberosMappingForTokens:loginConfiguration:userConfiguration:]_block_invoke.425.cold.1
+- ___100-[POAgentAuthenticationProcess handleKerberosMappingForTokens:loginConfiguration:userConfiguration:]_block_invoke.435
+- ___100-[POAgentAuthenticationProcess handleKerberosMappingForTokens:loginConfiguration:userConfiguration:]_block_invoke.435.cold.1
+- ___101-[POAuthPluginProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:]_block_invoke
+- ___101-[POAuthPluginProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:]_block_invoke_2
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.31
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.31.cold.1
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.37
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.37.cold.1
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.43
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.43.cold.1
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.46
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.46.cold.1
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.50
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.50.cold.1
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.54
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.54.cold.1
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.60
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.60.cold.1
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.66
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.66.cold.1
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.72
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.72.cold.1
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.76
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.76.cold.1
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.80
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.80.cold.1
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.86
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.86.cold.1
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.92
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.92.cold.1
+- ___107-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.cold.1
+- ___108-[POAgentAuthenticationProcess userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]_block_invoke.526
+- ___108-[POAgentAuthenticationProcess userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]_block_invoke_4
+- ___108-[POAgentAuthenticationProcess userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]_block_invoke_5
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.102
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.102.cold.1
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.105
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.105.cold.1
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.106
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.112
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.112.cold.1
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.115
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.115.cold.1
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.118
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.118.cold.1
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.119
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.119.cold.1
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.122
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.122.cold.1
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.125
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.125.cold.1
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.128
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.128.cold.1
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.129
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.129.cold.1
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.133
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.133.cold.1
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.137
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.99
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.99.cold.1
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke.cold.1
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke_2
+- ___122-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]_block_invoke_2.cold.1
+- ___40-[POServiceConnection _connectToService]_block_invoke.87
+- ___40-[POServiceConnection _connectToService]_block_invoke.87.cold.1
+- ___54-[POAgentAuthenticationProcess isCurrentSSOExtension:]_block_invoke.492
+- ___54-[POAgentAuthenticationProcess isCurrentSSOExtension:]_block_invoke.492.cold.1
+- ___59-[POAgentAuthenticationProcess handleEncryptionKeyRotation]_block_invoke.249
+- ___59-[POAgentAuthenticationProcess handleEncryptionKeyRotation]_block_invoke.249.cold.1
+- ___59-[POAgentAuthenticationProcess handleEncryptionKeyRotation]_block_invoke.267.cold.2
+- ___59-[POAgentAuthenticationProcess handleEncryptionKeyRotation]_block_invoke.268
+- ___59-[POAgentAuthenticationProcess handleEncryptionKeyRotation]_block_invoke.268.cold.1
+- ___59-[POAgentAuthenticationProcess handlePreviousRefreshTokens]_block_invoke.446
+- ___59-[POAgentAuthenticationProcess handlePreviousRefreshTokens]_block_invoke.446.cold.1
+- ___60-[POAgentAuthenticationProcess handleUnfinishedTGTExchanges]_block_invoke.472
+- ___60-[POAgentAuthenticationProcess handleUnfinishedTGTExchanges]_block_invoke.472.cold.1
+- ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.280
+- ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.280.cold.1
+- ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.290
+- ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.290.cold.1
+- ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.294
+- ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.300.cold.1
+- ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.304
+- ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.304.cold.1
+- ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.308
+- ___63-[POAgentAuthenticationProcess handleKeyRequestWithCompletion:]_block_invoke.308.cold.1
+- ___67-[POAgentAuthenticationProcess handleConfigurationChanged:startup:]_block_invoke.322
+- ___67-[POAgentAuthenticationProcess handleConfigurationChanged:startup:]_block_invoke.326
+- ___67-[POAgentAuthenticationProcess handleConfigurationChanged:startup:]_block_invoke.326.cold.1
+- ___67-[POAgentAuthenticationProcess handleConfigurationChanged:startup:]_block_invoke.330
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.130
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.130.cold.1
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.134
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.134.cold.1
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.138
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.138.cold.1
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.142
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.163
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.163.cold.1
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.176
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.188
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.191
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.192
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.192.cold.1
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.196
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.196.cold.1
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.202
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke.cold.1
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke_2
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke_3
+- ___68-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]_block_invoke_3.cold.1
+- ___68-[POAgentAuthenticationProcess _handleConfigurationChanged:startup:]_block_invoke.334
+- ___68-[POAgentAuthenticationProcess _handleConfigurationChanged:startup:]_block_invoke.334.cold.1
+- ___68-[POAgentAuthenticationProcess _handleConfigurationChanged:startup:]_block_invoke.365
+- ___68-[POAgentAuthenticationProcess _handleConfigurationChanged:startup:]_block_invoke.365.cold.1
+- ___69-[POAgentAuthenticationProcess handlePendingSSOTokensWithSharedData:]_block_invoke.458
+- ___69-[POAgentAuthenticationProcess handlePendingSSOTokensWithSharedData:]_block_invoke.458.cold.1
+- ___74-[POAgentAuthenticationProcess handleUserNeedsReauthenticationAfterDelay:]_block_invoke.383
+- ___74-[POAgentAuthenticationProcess handleUserNeedsReauthenticationAfterDelay:]_block_invoke.383.cold.1
+- ___74-[POAgentAuthenticationProcess handleUserNeedsReauthenticationAfterDelay:]_block_invoke.393
+- ___74-[POAgentAuthenticationProcess handleUserNeedsReauthenticationAfterDelay:]_block_invoke.393.cold.1
+- ___79-[POAgentAuthenticationProcess requestUserAuthenticationWithWindow:completion:]_block_invoke.498
+- ___79-[POAgentAuthenticationProcess requestUserAuthenticationWithWindow:completion:]_block_invoke.498.cold.1
+- ___87-[POAuthPluginProcess performPasswordLogin:passwordContext:updateLocalAccountPassword:]_block_invoke
+- ___87-[POAuthPluginProcess performPasswordLogin:passwordContext:updateLocalAccountPassword:]_block_invoke_2
+- ___97-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:]_block_invoke
+- ___97-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:]_block_invoke.102
+- ___97-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:]_block_invoke.102.cold.1
+- ___97-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:]_block_invoke.106
+- ___97-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:]_block_invoke.94
+- ___97-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:]_block_invoke.94.cold.1
+- ___97-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:]_block_invoke.98
+- ___97-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:]_block_invoke.98.cold.1
+- ___97-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:]_block_invoke.cold.1
+- ___block_descriptor_56_e8_32s40s48s_e20_v24?0Q8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_65_e8_32s40s48s56r_e5_v8?0ls32l8s40l8s48l8r56l8
+- ___block_descriptor_73_e8_32s40s48s56s64r_e5_v8?0ls32l8s40l8s48l8s56l8r64l8
+- ___block_literal_global.131
+- ___block_literal_global.144
+- ___block_literal_global.292
+- ___block_literal_global.296
+- ___block_literal_global.36
+- ___block_literal_global.411
+- ___block_literal_global.857
+- ___block_literal_global.861
+- _objc_msgSend$_doLoginWithPasswordContext:tokenId:
+CStrings:
++ "%s authorizationContextScope = %{public}@ on %@"
++ "%s userName = %{public}@, additionalScopes = %{public}@ on %@"
++ "%s userName = %{public}@, passwordContext = %{public}@, updateLocalAccountPassword = %{public}@, additionalScopes = %{public}@ on %@"
++ "-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:authorizationContextScope:]"
++ "-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:authorizationContextScope:]"
++ "-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]"
++ "-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:completion:]"
++ "-[POAuthPluginProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:additionalScopes:]"
++ "Authentication permanent failure for key-based user - deferring repair"
++ "Skipping registration re-prompt on dismiss; PSSO is no longer active"
++ "\xf0\xc1"
+- "%s userName = %{public}@, passwordContext = %{public}@, updateLocalAccountPassword = %{public}@ on %@"
+- "-[POAgentAuthenticationProcess _doLoginWithPasswordContext:tokenId:]"
+- "-[POAgentAuthenticationProcess performLoginForCurrentUserWithPasswordContext:tokenId:forceLogin:]"
+- "-[POAgentProcess performOpenIDLogin:loginUserName:callbackResponse:passwordContext:updateLocalAccountPassword:completion:]"
+- "-[POAgentProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:completion:]"
+- "-[POAuthPluginProcess performPasswordLogin:loginUserName:passwordContext:updateLocalAccountPassword:]"
+- "-[POAuthPluginProcess performPasswordLogin:passwordContext:updateLocalAccountPassword:]"
+- "\xf0\xb1"
+
+```

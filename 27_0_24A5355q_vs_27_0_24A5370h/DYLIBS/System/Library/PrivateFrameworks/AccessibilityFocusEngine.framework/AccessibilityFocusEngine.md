@@ -1,0 +1,124 @@
+## AccessibilityFocusEngine
+
+> `/System/Library/PrivateFrameworks/AccessibilityFocusEngine.framework/AccessibilityFocusEngine`
+
+```diff
+
+-3229.1.6.0.0
+-  __TEXT.__text: 0x3660 sha256:625d13de90d4abbde3f9bc1a5096cec57d43963dfec171f5d84eb6085baef188
+-  __TEXT.__objc_methlist: 0x300 sha256:57d6e451ed97c697b248623fcbd53adc43518b8778da32697f9bcd57bb67ee3f
++3232.3.0.0.0
++  __TEXT.__text: 0x3650 sha256:66de365aced7ba59d1d1d1c5eace792ecc10a384299904e0365d2afee8cce221
++  __TEXT.__objc_methlist: 0x300 sha256:02aa701392d4a5f337fea37c7a4e5514c8ebd4422e3d3bdbcc26558547bd28f5
+   __TEXT.__const: 0x78 sha256:de8e1200f6b46aff9d5ae3b45e97111531858b783cdb43d04f9f7d153e9996ef
+   __TEXT.__gcc_except_tab: 0x34 sha256:fe21c33b20375a16ded4087855f2af4cbb688c0ab8f4cd4aff9e559fb614de6d
+   __TEXT.__cstring: 0x106 sha256:915cf559de7d1fb97e0fe0baaf308e548a19332d3fbbf1946e01090771e01170
+   __TEXT.__oslogstring: 0x481 sha256:984b458ad0b4aab484a29c738b92da4fa85ce136a417dc49c73a213b2babb6ac
+-  __TEXT.__unwind_info: 0x128 sha256:532866b7f7f6babf29015defb4a06626f9ba5556511c6af117341fce9539f21d
++  __TEXT.__unwind_info: 0x128 sha256:532eddf50fee4251f65530e71ad8adec1676d1ccaaf0e61c83b3e744a5e43092
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x168 sha256:2f5bd036af820f7628f47d0762b96b2d43c3edc00b1c34a07ca59cf139dde435
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:13e9e905f62ea5eb41353d028f2fbb3f13ef3bbb3c6f4d10557aaee5b0418585
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:302a36cbda2d32d1734f1772f6745c1e0779f51a1d9ef23f6166f9823a4d9e3a
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:e64ed65b6837b4cc814d8bc57fdb3833baf61b78eb6e3f9b4f6f884fcf44f6aa
++  __DATA_CONST.__const: 0x168 sha256:2189fe179dd8b5bca51914f8f25ed8b5818879dec961e2ddbe668aa8c2d3f63f
++  __DATA_CONST.__objc_classlist: 0x8 sha256:acc0aec4ef0547f79daf7674bb0eebc5bf8365aa7c02e0db7630da6e14e4416a
++  __DATA_CONST.__objc_catlist: 0x8 sha256:8c0eed81925c959f26b01786e1df4a13aa33abec346bf1be355df9c68800b01f
++  __DATA_CONST.__objc_protolist: 0x8 sha256:2aff4dba6d1c8c1a191d2d3816c9626c936402d6b8dd8a2a419356cb4c5b97d3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x3b8 sha256:58b66bc6b586a54b17ad1793ef6401634f5acd68c606357702f696a761d54c0f
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:f216589e2dba3ef03173e913aafbe0de75bdf5e97c92c208a2933b0710d23715
++  __DATA_CONST.__objc_selrefs: 0x3b8 sha256:43c66bf00743d72304b119954cd18d072ee94186737470180a312a6944130362
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:2f01e4f68859f1cddd93c2575fab13ea7df941edb971ce4482823bfa3bf718c1
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x80 sha256:0195f4c9b619df7bfb35272ea45348132babcaccafb165df0390b977b88a87ed
+-  __AUTH_CONST.__objc_const: 0x338 sha256:43370dbfe072770c6acbefd57aae83904e62a044b0632b9c46fb327de3880663
++  __AUTH_CONST.__cfstring: 0x80 sha256:3fab12100b3a2a10ff2ca2d40a8606f744e477e7cc1bc41e7682d61093889fa7
++  __AUTH_CONST.__objc_const: 0x338 sha256:248e1b7967a009e983201c6f32a21c3d81b1632f16f29b2a767477f29c2d04bc
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:348b37e264d0dce60077c91ad71ab71b2bdbfed117767290f2f4a90548f37efd
++  __AUTH.__objc_data: 0x50 sha256:5035810205f04c9bab077be30678a71433b2f82351856c6528d2655e0336f3f5
+   __DATA.__objc_ivar: 0x18 sha256:929dd245faf182c8ba5e1de934c088d6f88e357f881d51db7fd643e9a6aa7b2c
+-  __DATA.__data: 0x60 sha256:2bab6d659040b0e6b6d061d34e26fba9bcd1a99130389172f4f0135fedc305aa
++  __DATA.__data: 0x60 sha256:12b824ed9e2c4a8f249f3d7e73ff310a2d78bcbcb8f0a1536e7868558915eda9
+   __DATA.__bss: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A2FE1B51-EAB4-3876-A908-C04A926436D1
++  UUID: E455142A-1CBF-347D-8586-F6F7FC3F83C4
+   Functions: 71
+   Symbols:   357
+   CStrings:  39
+Functions:
+~ -[AXFocusManager init] : sha256 d6cdc4c5c9d96a947c25a0ed649d23429606afa80fc1170d0ee9be26c601fe3c -> 35389bab8f20617702e7c9f9c1e22acdf6bc3134abdd322de704c9cf0afe7b3c
+~ -[AXFocusManager _moveFocusContainerFocusInDirection:] : sha256 8ce115c87532fdcd4cb92b9619b874e053b2b7347a8feb6195c9b286c2620558 -> dda2d8dc7e6e0ef5056496f91e00cc427426db9fbe8a3a810dce3f356c014f7a
+~ -[AXFocusManager moveFocusWithHeading:byGroup:] : sha256 9526a76e0ec16307f6caa0dac0337b1bd374f59c5a1b1372c0622d0c016fbbe0 -> f3db733d3653ec284f70067497834f7df4da9f3ed88f32bc06eb8bfa0270102d
+~ ___47-[AXFocusManager moveFocusWithHeading:byGroup:]_block_invoke : sha256 04630d1e6a0c4870859cd9369594a4bb15ca462249416817df532f0290f20892 -> a70131380838f25db8eeeb84f7ef21dc6775d77c11e851cd09faf902fe153e72
+~ -[AXFocusManager moveFocusInsideForward:] : sha256 708e79e5c2986580df8b22b9910411ee2410f4aded2f1b04a6eab7270e343d16 -> faa6fdd5acc35ab8f827a0077e2eacd446e104989c2484dc5a1ba477ba13f195
+~ -[AXFocusManager moveFocusInsideForward:shouldWrap:] : sha256 ba96a05c2b7aedadad8d012246a75d50f344fa25c56b7c62ebaee1011ed3aa99 -> 08c55f7defdc70d23145e0aa7bad2bd07781dbacb6281b56e75aa30afc3eff75
+~ ___52-[AXFocusManager moveFocusInsideForward:shouldWrap:]_block_invoke : sha256 fd1b03c456157323fe82092e188c7664cb641e8fd83ed02efdd91caea0f17ca3 -> 03a309a73efcc76a9fcff689fb905751c09451081f05b1b281d1dfe52f678b18
+~ -[AXFocusManager moveFocusWithHeading:queryString:] : sha256 7c696f09132eb9481518415e1bea12b74b65ffc042efd2bcb084d69261e2c39f -> d19b80d9e3f05ec187d9f4e1a91d170312aee2f41930855aca94aa57c8fe541b
+~ -[AXFocusManager _moveFocusWithHeading:byGroup:queryString:shouldWrap:] : sha256 9c8a89cd3085cf817c773ddc83c541848b1752f3a1394f79a3721354607ecccf -> 1d372ff725562200fd974772c167d13fad84334dbc3ea777cf99f65a310389ad
+~ ___71-[AXFocusManager _moveFocusWithHeading:byGroup:queryString:shouldWrap:]_block_invoke : sha256 18b6daf98ec4336e86108345767ae5de66c5c35d7b70657df5c83ebcd9e7a0eb -> a700cc5ecce389be8d00a1f8d75802edee98c140d6b22ffe43679db674b27c89
+~ ___71-[AXFocusManager _moveFocusWithHeading:byGroup:queryString:shouldWrap:]_block_invoke_2 : sha256 9a87de8193fbafe1b51221f50533308eb73bde2286076ddde946f6d01b0adabf -> 73749e384c0d919ec5dfcbb82c7a7c4aca6c28f3535526478ec93d3f6fda2bdb
+~ -[AXFocusManager focusOnSceneForTypeahead] : sha256 9671e827a94098ecc12f0f5311bde514d9930d31b09627f59dd940614aee1cc7 -> 459a30a12c527a777f64dd4b1e7ae884d7e980ddc77ef13fdd612f44be711156
+~ -[AXFocusManager _focusOnFocusContainer:] : sha256 cd8c30e55456736d0056f3950e1f40a3665a268cb93322d1fe53de85b2e9e78b -> dc04950fd11c20126199c0f4b07907a9cc9e6ca7ad344691201dab45c23414da
+~ -[AXFocusManager _indexOfTypeaheadPIDInFocusContainers:] : sha256 e589da54e9977804c0d87de5e485f47616ae2da3f46ebf60e7d1cb08b588c1b0 -> 4d1b42ad9302ce9b280d7eb083712cbc0c268b42d68084c8bfaffaba5315b447
+~ ___56-[AXFocusManager _indexOfTypeaheadPIDInFocusContainers:]_block_invoke : sha256 045d55d93b0b057a9612ddc80a69b5f5e79d96bfe67eff8af8116cdced5d96f4 -> 452b2ebe1780e51d229ea1779f77b09a37074c93500cfee5d400e91bde733441
+~ -[AXFocusManager _verifyPIDForTypeahead] : sha256 166f2f238b09801f89c8846b8fbd0282cc0bef1e47d25b4ca350f4ed6f661d8e -> 5db99514ab2be88462e34a8776853ee8832f0b25fe4a92ab22ff4274f800e6f3
+~ -[AXFocusManager _currentFocusContainers] : 1140 -> 1136
+~ ___41-[AXFocusManager _currentFocusContainers]_block_invoke : sha256 668e14457b701405bde36aa4873600740a5d63c2f8f30a136e5a9e4bde662c4f -> 3d68ab519b08ba5e9ccd1d151f21010be708b305d13445dd2730172c1c5c31d5
+~ ___41-[AXFocusManager _currentFocusContainers]_block_invoke_2 : sha256 de1d62a50195c62f26cdcb4e856961387958316c37a38d26a61ed0fb9c2e8c70 -> 8f24b87c4b1ae7abbeb40fcbf1c602d6cac5ad7430203432441c8042e83b8bd5
+~ -[AXFocusManager _moveToElementWithHeading:queryString:] : sha256 5a68a074b58ebf86c8883239e136eea04d324f522b172fa955ef1eb33d3c8650 -> d11622eb57feace3de1871b37c636634ff5065019ef82fc08d3fd9e6d819551f
+~ -[AXFocusManager _moveFocusInFocusContainer:withHeading:queryString:] : sha256 8154f52337e387e8c68ea63dd56398db66f4e61affe919431edbc6c1818462ae -> a61e2a3c2e495efba71953e11a656f91e90d7f26cb91a0ff1c043c0a87f778a3
+~ -[AXFocusManager _recursiveMoveFocusInFocusContainer:withHeading:queryString:] : sha256 cfec88147bac6bd9263f501f9738f6d83d3cfe601f0378721a0e53bd9c12c592 -> a1a8dbe12d6ea216bf6550f01423f24298abd16303ffb33605dd3d05bb96174f
+~ -[AXFocusManager _moveFocusInRemoteElement:withHeading:byGroup:] : sha256 459a407011402b0730cbf51666b40f56bd75afec0b2d6a8adb4b77640dfe4240 -> 1ea83d5dbcb4afc00d3ad8a52126a7acaff31099afb3effc7546299d4ee8ee83
+~ -[AXFocusManager _moveFocusWithHeading:byGroup:shouldWrap:] : sha256 95ba7ca93dd6c198bc298e5e290f3b2c0d373be3a2b00e4ac4fada3601ca0daf -> 050e653a6077874af2e8f1bc16f55066a559bd96578ef159a71c43c64a22418a
+~ ___Block_byref_object_dispose_ : sha256 382e8e5c65a71d57e3aa75e837450c2b015f0dab4554c6dd1b01ff48be998f92 -> 5659713bf5858bd0080eeb443d8c0d23ae77dd763f789362296a08e9547922fe
+~ ___59-[AXFocusManager _moveFocusWithHeading:byGroup:shouldWrap:]_block_invoke : sha256 bf5192a4f97a9f7cece86a2a79a6b2c2f8210a173429b4b500b6f7e430cee15e -> 00c2ed4fb6358bdfb35907f3b156d8c2b18cf8c923b68d01942972788e4d650a
+~ -[AXFocusManager _handleFailedFocusMovementWithHeading:byGroup:] : sha256 59d798418c697306f6ee74241a674322a0a4d24ca24e5777e5009198804a575a -> a67f58b4df9c50c6c2b87323b2811cdee11a18da14132e3d5b588fefe18f78dc
+~ ___64-[AXFocusManager _handleFailedFocusMovementWithHeading:byGroup:]_block_invoke : sha256 b87d30816a85a1a6109b2b12e96f76d24e6cb5e66f5c0be0fbdca2736638362f -> ef8bbaa95e2bb2f259a22401639491b4c653eeeb33489fc72bc39feea9d30caa
+~ -[AXFocusManager _recursiveMoveFocusInFocusContainer:withHeading:byGroup:] : sha256 980f2fddee06d7893ac61e349939345a229d45d412c645ddd731d98bf016f0f8 -> 69120513f7fd8583f3698c6afa4928c4b246aa942f27c2f6174cb59d69567f39
+~ -[AXFocusManager currentElement] : sha256 bc68b796940c4b3f3561acb7d4c33fc56870d650e9d78032136df53c8d78c28d -> 13abfdbc31b9d3eb7ea4b1ac9e8a597681c35d4648aa1fedd6e9592d092a0144
+~ -[AXFocusManager currentApplication] : 1140 -> 1136
+~ -[AXFocusManager currentFocusContainer] : sha256 5ebbc9c1f338bf4fc75f877bd15fc73e567ee9ee346d0696a498e04c90d71f41 -> 448cbf8efdfdabc3465ee9473356b8c5d329570a5ddbc3dffc78dc08b8602f3d
+~ -[AXFocusManager addObserver:] : sha256 2ff9e259020590aa38e16b6b1f39262ee0dd86aa24b16a24fa64ef5cc50196da -> 03eda6099c558aac7c24b3ad7a3ee81ec9ab74334d3dcf83dc82c849be8f1ebe
+~ -[AXFocusManager removeObserver:] : sha256 d58aa5324904f46d2c440081b828087fd1b03edcb37e45ae4be601b86427da71 -> ac841ac9ed8f7edb112fbec19bc81bc983cf89679c571cf353e607e449d6527a
+~ -[AXFocusManager _enumerateObservers:] : sha256 e6d6cdfd5a83121dbf5997e80a50ad2be021af38eb53b39dd7c7f8ee8e36aa3a -> f1b022a4badc60aadaaa60d9f68f76ef857bb5718335100f7148b92fd6db3447
+~ ___38-[AXFocusManager _enumerateObservers:]_block_invoke : 324 -> 320
+~ -[AXFocusManager setTypeaheadString:] : sha256 58a4ab6d3f5a31d95e0b5fd4a1a673b3b6927d2a627dde906cc4df4beed36dad -> 9f613059223c8823c193a8ab0a9e68b62d5ed980980b8f96e9f0670ace0ddc95
+~ -[AXFocusManager setFocusContainerForSuccessfulTypeaheadMovement:] : sha256 9b1759365485ffca7bd0e70085e5a227215512fa2fd13d3fc6aca0228fceb081 -> 2f6b578ea11cb95900bcfcf74abe8dd3b9599fbf537d01b9b7bf1412553d4c01
+~ -[AXFocusManager setMovementQueue:] : sha256 bfda53f993be2d85aa6cccee52d0bdacd91dd967266c06caef7f8216c68336a6 -> 389b77ed3d340b2db892577b52012d5de4de365a886b7a5d938cd481bec66007
+~ -[AXFocusManager setObservers:] : sha256 e25531a4623803d7831fbbcaa768b8b1f2a4b329cd92e180c398666e945dd0d1 -> 781054ade8ca9cf13de86dc74dcde9d819af1ebe65077659fbb8b3058c74f0ba
+~ -[AXFocusManager setObserversQueue:] : sha256 c045e918e91785ed00a20cdc8af13c3a4f358d82efef36d970d9417dc6fc35e1 -> 2224e6ad7891a3b39923bc8e1f3c9e21268b93f0e80db6aed9238e7068619251
+~ -[AXFocusManager .cxx_destruct] : sha256 3dcf6fb7d2d3da3eff2f526e4c5503b68b3b6f809ef3f8d3044db94e410fd9e1 -> 28ad58563f00daf3532b105954a90cf78e3787a210cc11a02fb51ae2f5249c1e
+~ -[AXElement(AXFocusEngine) typeaheadQueryString] : sha256 c5fadd78e1edd6bcac7163b9f44d04b1ccf3a72dd6c6a39a3bcb0d0b260ea900 -> 8aad027e5865269d08ee7d5d1352c9e3f3548cdfa26ec6671f225458fead4b82
+~ -[AXElement(AXFocusEngine) setTypeaheadQueryString:] : sha256 7cfed36cb7930ff3ac9182eb3f062743b66580bbf4ce047fa5c9ff229431c733 -> 8b46a34a4de928f142b79fe00b26d3c4a0e3ed024c759a7e7e75ba9ade1bad22
+~ -[AXElement(AXFocusEngine) elementName] : 424 -> 420
+~ -[AXElement(AXFocusEngine) elementFrame] : sha256 3fe6f3cb20863dc1d445150b55046ad773e8eca02ca1f70e54b21034eaa1b7a0 -> e8cc877907f2679191bd4eabf4aa888dc0b810556819460df503afc45b2df681
+~ -[AXElement(AXFocusEngine) elementLabelContainerSize] : sha256 f34299fb009d197fd992d8c0affa28b2bcb4856e50d130eb49e268e2a3124d06 -> e652c00f3ed2183d514d6efbb8f3a2097f2d86515c799e5060afe75125c32480
+~ -[AXElement(AXFocusEngine) hasRemoteFocusSystem] : sha256 d18f4125ca7328019040bc30b2f1bad6b5275d143dbb8ae2cdda7fdb84f729d2 -> aef1bb291937f4eb8909f226ed32f1b37d57e036feea76f2740adb8aea310881
+~ -[AXElement(AXFocusEngine) applicationIsExtension] : sha256 747447c97e5a6620e553d00d250a58207deeae0a14f399f7f5113f95d760c698 -> 562c82659d49e6c1a5bd625c8b8f86c54508ad704085f1f2b1ad296f4ceb112c
+~ -[AXElement(AXFocusEngine) elementForRemoteFocusSystem] : sha256 1ad3b7251d2eb49b25182f48d6b244beccec6794ad609e2a5581844e7e0262bf -> fbb4187379886ac278f10d664c77bc10e8a5ad02f7c004e04b2d0b371ec4710e
+~ ___55-[AXElement(AXFocusEngine) elementForRemoteFocusSystem]_block_invoke : sha256 b9f4c4cc67a7233e9b2219ab4e5719925e0b63ec04bca0b43436645f4fb37115 -> c93ffd2094868595d9644e12396f1c4b26cf06b56cf8b172137af1fce6d0a431
+~ -[AXElement(AXFocusEngine) applicationForHostFocusSystem] : sha256 7cb0c8f38416fdbb922a162cb7f57774adde6ae4d2b3f491b631c1bf4cdc2e9b -> 43390e7747b3f467f0d149790b168f79f833b0f010dddf36186b2cd4caff7d67
+~ -[AXElement(AXFocusEngine) currentFocusElement] : sha256 89a491b127fb8f47c54bf73755b879789b8e7013fe4099c78edcf7a196bf3898 -> edc3b2926a773b4744a249cdcf6fa7c6eea8d8e5a28ea6704c69eefb786c0312
+~ -[AXElement(AXFocusEngine) remoteSceneID] : sha256 fceb7c31e5fb16231a7f63176273a99a2016df9d2f8b2775c79eb2a232e6179f -> bb9d70ea974484fafa06dc963b4bf3e6b685bd7eb8be039f754e40c48d6bfb5e
+~ -[AXElement(AXFocusEngine) focusOnRemoteSceneID] : sha256 3f5daec24405fc4d1567c7ea6737aaa9ca3cae8e0a1c8ce9081712171ddf47c7 -> 806cf0f3bd5b826c7ae8bec1d87d948ae585b737db3662dd7216d96831b85f36
+~ -[AXElement(AXFocusEngine) focusOnApplication] : sha256 09b67a73334dc076159e749e981bdfefa112b7bd59a9cd700c361a54d3be015e -> ef4b7bcccde312eea36ba7956c6933865b6d47376edcabdc58bae79c3e232a2f
+~ -[AXElement(AXFocusEngine) enableFocus] : sha256 069fc757f4192649dbec76351493ba0f494b99168ec764bd5220dc3827fbbd0b -> 70c7b4ddccd8a298c7a57804c00123c35a44f49b24184e75044d3f62b96619a5
+~ -[AXElement(AXFocusEngine) disableFocus] : sha256 d75c8346f7e11eb6832514dd6eb9c2a60be40d0e392f6055ebea041997355b0d -> 27a10671b12bff139bb04786f5578be4f1514d28afbac83d2a98fd7fab4e46e5
+~ -[AXElement(AXFocusEngine) didFocus] : sha256 276257c9ad572f81ed6b84a77fe42cf3d62606a44d083e784fa665bf4f918b16 -> 3734e33f069d563022d494f08b97ce80c68e5bd7e6c34a796f3a41b74b19e874
+~ -[AXElement(AXFocusEngine) moveFocusWithHeading:byGroup:] : sha256 b55f69ac7b912d534c9373c2f24858096aa9f3ec1f39a52a3182fdd6bfea78ec -> 298b3682dc396ed1287fe56847aa250d70805c3ce1a786df009be0271ab66043
+~ -[AXElement(AXFocusEngine) moveFocusWithHeading:withQueryString:] : sha256 38e76deb2d7d462992c3fde02e2282afdfc88d3292152ffbb58b3381c5abf47e -> fac5bbccd17f401e39132879d009941b73c08d61ebf03d79c9375eb99e9e0c14
+~ -[AXElement(AXFocusEngine) hasNativeFocusElements] : sha256 74778d5834d196384d554ca86f7321445576df1ab1c1a005111d15a67b0e0798 -> 0aac8ea47bb4b821f8f642aa34e6abea65e455fca278db472b5669fc09539478
+
+```

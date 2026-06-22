@@ -1,0 +1,46 @@
+## HDSDiagnostics
+
+> `/Applications/HDSViewService.app/PlugIns/HDSDiagnostics.appex/HDSDiagnostics`
+
+```diff
+
+-405.0.0.0.0
+-  __TEXT.__text: 0xbec sha256:1af48171e62e09c23138ba2f438569ca990601229b855e0efca147cfb0f0a376
++405.0.1.0.0
++  __TEXT.__text: 0xbe4 sha256:845866f39aee12d24a2bb2f4bf09d146432827e6311db0762135295a1995beb5
+   __TEXT.__auth_stubs: 0x1b0 sha256:e015ad8212a66c13011b4dc84eb9744f497eebba419df31e9df1d6708031d294
+   __TEXT.__objc_stubs: 0x340 sha256:3d6f94d7c355219227a198ece9cdc3409e6b03a97f315497af6dcc7e7f74b95a
+-  __TEXT.__objc_methlist: 0x68 sha256:b8a6d38bbe8e170aa285f579828958152128d1ea22de848aa1687ad1237242f9
++  __TEXT.__objc_methlist: 0x68 sha256:f15ee893d81c677187e4a6b5dedca7829bf2b3524af2da1785aec106ec6818be
+   __TEXT.__const: 0x50 sha256:39bce2a2b68523c94350627b9a55d3356d31892b709089888e1801cc937b7045
+   __TEXT.__cstring: 0x115 sha256:c06b54ef78f7ea1dcb9184c4ec1e1e832e7158b8039f7f8fe638d396cb483703
+   __TEXT.__oslogstring: 0xb5 sha256:3f54aa1a396a63fa43a0019c1515273229ce1c34d51ca5c57ae5567db97d451f
+   __TEXT.__objc_classname: 0x18 sha256:085908bfcdbc7a1e4d6e81ca866dbf29633907b83a509f17b9487a970bf4b26d
+   __TEXT.__objc_methname: 0x2a4 sha256:d4b46a28da61508a24a38628224224d823aafd9cfa0f0f220f0fc726845863a6
+   __TEXT.__objc_methtype: 0x26 sha256:be7efefe421a8e090ad6c6c8636d7aef25dd9b1880ec27df05a8b75b11c84d4d
+-  __TEXT.__unwind_info: 0x88 sha256:1f12a083d0681d8c05e7f17c63628ce8ad8f8903d41ada3b810177f3158c9733
+-  __DATA_CONST.__const: 0x40 sha256:634e4ac879b824589622cafff86b3cac588b89c34d05efa451fbc6cc9c8d920d
++  __TEXT.__unwind_info: 0x88 sha256:57978e0300037aae8a1172087a1bfa71756b532fe26d80577263115a8c9f054d
++  __DATA_CONST.__const: 0x40 sha256:26d254b472b69e39a0746c2fdaef07f806706e5d13f619cc74a21c383dffd5cc
+   __DATA_CONST.__cfstring: 0x140 sha256:f1d03df6577c31865ba5110dba26ccb65c6080c604828478480fdbc446464fca
+   __DATA_CONST.__objc_classlist: 0x8 sha256:0a60d9d82c3303c364b5090eefb71a8da0ebdd9f25d2dcd0294deeec467fea62
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+
+   - /System/Library/PrivateFrameworks/DiagnosticExtensions.framework/DiagnosticExtensions
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C1E86724-B308-325D-8D79-D0A5553B183E
++  UUID: 13A08945-69D3-3860-836A-73828811C1EF
+   Functions: 10
+   Symbols:   49
+   CStrings:  66
+Functions:
+~ sub_100000b58 : sha256 ae09650f301e8fe1298db430b9dc9bf6584c6737714669e810650c6837d97ed1 -> 893fc604f2fc90c916d406335a62e8894274e38b1744fc0dda4607edabf0138a
+~ sub_100000bb4 : sha256 172b37395672e44ce2f001620ba6157ac74f516d020630049d64b9e5aec8e6f5 -> b927d3b741fc1658a1e8462c2f8be6e4374ea2692f13df0887ed5a977158528c
+~ sub_100000c80 : 1272 -> 1268
+~ sub_100001178 -> sub_100001174 : sha256 e16ec0549c88280c25c108c34a07f7739201f3293c0c7fd29cc2f837e59d5683 -> 06a3e2a5e646b25ac96c9ea4a50a02c9eb95148e5c567c638b1a283387b3a8e8
+~ sub_1000011bc -> sub_1000011b8 : sha256 58c796753afab8eb35d0ffab0e933194f99c6ce907ac2f5011a7b752205eb9e1 -> e9909b304481ef8a0cb8b47d2a82fd2bddeaa22033779252792660a020056192
+~ sub_1000012b0 -> sub_1000012ac : sha256 853cedc9e9efde86d1d11092de871c8709e72ede8be513ce4723e5fd7fec780e -> e28450d0dcfafe0076b3473c7f0d029dd45ee370ab38277d6275c6fa547182b2
+~ sub_100001338 -> sub_100001334 : 948 -> 944
+
+```

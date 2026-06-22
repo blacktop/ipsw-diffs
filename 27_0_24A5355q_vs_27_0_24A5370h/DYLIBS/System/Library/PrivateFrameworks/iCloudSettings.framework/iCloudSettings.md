@@ -1,0 +1,527 @@
+## iCloudSettings
+
+> `/System/Library/PrivateFrameworks/iCloudSettings.framework/iCloudSettings`
+
+```diff
+
+-301.24.0.16.0
+-  __TEXT.__text: 0x1cb7b8 sha256:b6eba05b6d2ac8be70476c89922e0d8bc3cdb28ebec88c74dfae329bf6d06aa2
+-  __TEXT.__objc_methlist: 0x4674 sha256:fab68b80aaf834deb2b5bd85be75ba4cfd0423adc8710484b32ff05dd3edf8a0
+-  __TEXT.__const: 0x12db4 sha256:39a6dd1fdb1f2088ac210022977465b58e9255df356fe7a11f32b24cccb2f41e
+-  __TEXT.__oslogstring: 0xaf06 sha256:3eaf1593967fe5bc7019d8ea363ef2f3abdf3b0538cfa7fe17e1b7a98a61357f
+-  __TEXT.__cstring: 0x65db sha256:76cddfc00a2700fdb440ce4bc206361e1afa47e8c3d9cce536d59408f2585476
++301.24.0.19.0
++  __TEXT.__text: 0x1d12f8 sha256:06ce1b31be1b932d561cec02bceb2ec01190f94b285bb7b6a216733ff6f34093
++  __TEXT.__objc_methlist: 0x4674 sha256:88a3cb871dc07ebab43bad431417420eaa41c670f3d574748835b3bbf220997b
++  __TEXT.__const: 0x12e74 sha256:dda357471dad356d5463e9473f073af0105f36f23c5c2f1008701db779bf851a
++  __TEXT.__oslogstring: 0xb186 sha256:91b70f03af99b90817d83eec6ba455d02ef10ad02375f4dd251f05d097637f0f
++  __TEXT.__cstring: 0x660a sha256:63a97660d7ecc8a1bc26d7c046b1049c8fd75aa587267d24fba3ef926f1245fe
+   __TEXT.__gcc_except_tab: 0x56c sha256:272fe6cc969c92a72bd0fc4f3c098aeedb8faddd27c0bc4ffd5b79ba501f542f
+   __TEXT.__dlopen_cstrs: 0x22d sha256:7c8a585c5c0c1d184afac72b521e784c278aad1e2e80e4b6878f0a13d9492700
+   __TEXT.__ustring: 0x10 sha256:0f34ea964fab5b1a107595368b71f3cfd9dbea33bb70c95570368d94ad39f1d4
+-  __TEXT.__constg_swiftt: 0x5c08 sha256:10ddbd53791977054a8f3357e789426b3a71e63848737d0925c8c4946774fd44
+-  __TEXT.__swift5_typeref: 0x1337c sha256:f4d525688dedc998c15c006d939edb83301e281311409c6284aa57d8435d8b56
+-  __TEXT.__swift5_builtin: 0x17c sha256:8f728a0921c5a9cd5ef794f76bddccd639c475dd7ece4a35b98e1479264ae6b7
+-  __TEXT.__swift5_reflstr: 0x41a3 sha256:e3326907b098498dd72029ee9944ff4ae13471c958e1fad8193db36e137b46c0
+-  __TEXT.__swift5_fieldmd: 0x4274 sha256:ecccaca7955cdbc72f435e9667ae1fde7bc048e1e2c487e52aecde15520abe5a
+-  __TEXT.__swift5_assocty: 0xee0 sha256:ac65b7711d654b819f831b4d1bbd22b5f18564bf7d7a420c050c25f1261ca642
+-  __TEXT.__swift5_capture: 0x2ea8 sha256:0b272826c8c4958143e11f3de863072d68d3a0d8f8c35b7bf4c843bca51b68b3
+-  __TEXT.__swift5_proto: 0x914 sha256:f2aac6f8f9447ca12b9fd063065f7d1fd5df016a3882d0c7497c1b707558be32
+-  __TEXT.__swift5_types: 0x428 sha256:6accb881feea64984e7e47da2719f728f8915ae689c5c92f7fa8017b4c2bec24
+-  __TEXT.__swift_as_entry: 0x4c0 sha256:d13123dcba940e73b367e41c3b2d40b64f47a31b795eb533a3b9541b7dc0ad0e
+-  __TEXT.__swift_as_ret: 0x3f8 sha256:5aaebcd2b1ecf64e96106710dcd9bc45391fff818aa05839988c0b3cc1782786
+-  __TEXT.__swift_as_cont: 0x7bc sha256:89a4912bd4d3716ea172eae8d30d7bd8c83aa4ba4fcf54ef0a2690380a07d472
+-  __TEXT.__swift5_protos: 0x74 sha256:e9b9fcf226c0ca351b6cb44d521049e93989c334f9d8792c81ee480810ec6e5c
+-  __TEXT.__swift5_mpenum: 0x2c sha256:cf8d5480e4da8761704647112ab055cf8ce8b1b2d5221b7d94cd86855444e594
+-  __TEXT.__unwind_info: 0x6a98 sha256:f0a0dab12e8e3b9c3d323ee7c553cdf2d81906900174894aa4121f2b19e4f206
+-  __TEXT.__eh_frame: 0xad84 sha256:18afdd9b06a53651b44a4280672e1e0917f996c52e28de2d8e96e3b9774e4aa8
++  __TEXT.__constg_swiftt: 0x5c64 sha256:0468c962dbec871d515acebd7189c6cbf653b24273a7f17df6e169555d02fead
++  __TEXT.__swift5_typeref: 0x1354a sha256:821de3e03b1a65a9cb3e31643b69ab611b1bab9c85a1510772a969e46b95924a
++  __TEXT.__swift5_builtin: 0x168 sha256:74e32473272ce40342bf56127c50f318b696343632f2529d5b3483ab91234b64
++  __TEXT.__swift5_reflstr: 0x41d3 sha256:47e96e1d69beccb41682b7ae2ceacd9ae4adae83d76d819dff55eb8eefc482d6
++  __TEXT.__swift5_fieldmd: 0x42ac sha256:ecffde883f05abf45f73de327ff206c599465811adc6a16865aebfc7e558592b
++  __TEXT.__swift5_assocty: 0xee0 sha256:7020dc3a3c7527839ed70c8d0438dabbfa3d9dec7df851bafe871e961cd98b31
++  __TEXT.__swift5_capture: 0x2ee4 sha256:80c0383ecaece7a5c2472d8a111299182d9052265154c09d8a635894257fada8
++  __TEXT.__swift5_proto: 0x91c sha256:e0f524c5183da033817dbb08c500e0f4fe45f1eae9f527bd2866add197febe30
++  __TEXT.__swift5_types: 0x428 sha256:fcf2625f382b131bc3977e4ffd61c58efc879fbfa003d5ad2ade81cbe734f056
++  __TEXT.__swift_as_entry: 0x4cc sha256:772294df9a89c6a6881bcc8f7aa38dfa3a4df824db85099ddff8a8ad9266a97a
++  __TEXT.__swift_as_ret: 0x40c sha256:a6712de05cfc3afd10e192296cab85f1924ff94b8913e9c04d6a30e56838d85a
++  __TEXT.__swift_as_cont: 0x7e0 sha256:3eefd0ee1903bfa4d9b20668b0790e0988314bfb9692624e278274763d13b30e
++  __TEXT.__swift5_protos: 0x7c sha256:845d02cee233b76cce5ed3995bfd38eed264117c318b23c11aa0cd7517102399
++  __TEXT.__swift5_mpenum: 0x24 sha256:62f3323be5f0eafe36ab24b7c1694460c1fbcf23a2c9b49427ab1ec2581dd181
++  __TEXT.__unwind_info: 0x6b58 sha256:50b285afc3891b934132b5d18946352f56e3595439ef794e08e9069633632f59
++  __TEXT.__eh_frame: 0xafec sha256:8501d11d8fbd9ea2e19541424decebfb01d308433b362f78744531768449916c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1280 sha256:e4d0de2acbf48d0fe8d1cf6b628baa38bf5863937ac83d9f3f319e07585fa3ef
+-  __DATA_CONST.__objc_classlist: 0x4b0 sha256:a36b9a0b55bebf24c760fa0c443b40c123d4b2701dbc83e4687dd98d137a7890
+-  __DATA_CONST.__objc_catlist: 0x30 sha256:32ebc44a0716a92bd3c5e5eaa60f92fd3181b130548167e034bd91e68ddefab2
+-  __DATA_CONST.__objc_protolist: 0x1a0 sha256:83137c2db8970364ce6e1b3fd7816c6c4c8ab8a476a55845360cf852c0197f41
++  __DATA_CONST.__const: 0x12a0 sha256:26501884da7ad0517165dd679c40219cb4ea2244b41a1616c7ab36cb3a436bbe
++  __DATA_CONST.__objc_classlist: 0x4b0 sha256:826edf108950915851a80f2f21aab76eabc53393118e8590fdf0ad68e28ea96a
++  __DATA_CONST.__objc_catlist: 0x30 sha256:a124c2dff06fe2a92c72f95620948462a480c2573f684fd439a276da406be733
++  __DATA_CONST.__objc_protolist: 0x1a0 sha256:c0a0ec90406e55a1f056df8577be5c91d688ed1ac606d109ca1dd1084c994937
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x3150 sha256:31aabd6b9912ad88db0e0ed96b4f645afbd86f187d43d2a4809743cb86fda198
+-  __DATA_CONST.__objc_protorefs: 0xb8 sha256:dafe4ecb7b5bca714c307ca39522fd0d3ad54f6438ceb33a82afae8b6531f911
+-  __DATA_CONST.__objc_superrefs: 0x118 sha256:20517d702c5dd3336ccc2df73396ba9efdee28a3589221366512b4a11d8f3751
+-  __DATA_CONST.__objc_arraydata: 0x20 sha256:ac5bdc54730f67c0efc297a869a843120872cc9def95731ea2bcc6c63226c9e4
+-  __DATA_CONST.__got: 0x1730 sha256:edeeaf7e1aca89a9187075030d1760018bb152a31475c358ee5bea638140a550
+-  __AUTH_CONST.__const: 0xc368 sha256:89be381037613e4ddb718c604a31fc75d57233e84a3966b11dd829f4a42e1b03
+-  __AUTH_CONST.__cfstring: 0x25c0 sha256:d252365639aa7465976572d83521aeec01d0e9edfb830514901f6758a53fcc19
+-  __AUTH_CONST.__objc_const: 0x16970 sha256:18c7a9d574f014180c724a4e157f120bdfb647f449292ba4b8ccb1ff00475758
+-  __AUTH_CONST.__objc_intobj: 0x60 sha256:784d47b112f91874b795c11b78b8c56ebf41f4fc6dfea76322130b89e004c341
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:95f7a1fd286639679db46e7ef70d3030dd5c060e401d265564cf0187ddd7588c
++  __DATA_CONST.__objc_selrefs: 0x3150 sha256:047ed38a5a4434d10150bf89520a3b464b2728ce0f9502e1fe4711ae47449ebf
++  __DATA_CONST.__objc_protorefs: 0xb8 sha256:9f563de34dad929c117c51ee20d1de9879e3b935b19402cff8d5b39b18f43166
++  __DATA_CONST.__objc_superrefs: 0x118 sha256:2e0a094449589e7229d18d9a601fafbfa9e8c955054cd09547d986079476c5aa
++  __DATA_CONST.__objc_arraydata: 0x20 sha256:918cff4877e2bf67d813b574853f70ce5936177ba87cd64aae5c595cb1d73a28
++  __DATA_CONST.__got: 0x1740 sha256:f851b534a1d3bee68b20e7416805d6d60876d1c7748c0bbf00a7d5cf5cd566cf
++  __AUTH_CONST.__const: 0xc380 sha256:89ce0906e07adb1d5c889f592e46cd5c43e71a574e81b4b28d03f8b615d26a87
++  __AUTH_CONST.__cfstring: 0x25c0 sha256:a20c18b8ba2dcbb94d817254a14856d830cec09a01a5cadd0516173b2e55ab98
++  __AUTH_CONST.__objc_const: 0x16990 sha256:21ec4c25b899711e6b2dcbdfb4433b05c580d94b2ef28baab8f735c8f3c916a7
++  __AUTH_CONST.__objc_intobj: 0x60 sha256:02fa8dbfabe377d618f847ebd588e777d23684d5d61a3173547e6578da1091e8
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:6f895cb1ff9e3e530f8ca513e20b1038a43cf7f69e6a4f272ea9e1b9bd294b4f
+   __AUTH_CONST.__auth_got: 0x1fb8 sha256:749022da9de0c0e3484c8f77b12e211319644fe568402e4b8351b02fbb859ba3
+-  __AUTH.__objc_data: 0x4c38 sha256:3342bb8ed6d8b64e6f415ba6cb7f034192d585ad9765b86aefa7f6564fc69ed2
+-  __AUTH.__data: 0x4418 sha256:1ab6fb6125a59018c8fa5b0ab4d3cf67186da29e6a6a6b1d4640a5e9399d9766
++  __AUTH.__objc_data: 0x4c40 sha256:51c54a08bb80aa58253edb04c93f52c30a32105a0f6001246daa22fc3123f405
++  __AUTH.__data: 0x44b0 sha256:d5ee51a30950902ba14c68849412d04e96db53e76a77506e85e3ddec24168b47
+   __DATA.__objc_ivar: 0x398 sha256:fcc61bbdd7eaeb64aa596aab7ca8993f484369a2e8e1bf85291cf7c3858f83f5
+-  __DATA.__data: 0x5640 sha256:bfbc30237e23d8689568318e3f902d5f1c8729a41fee9fec502ea46275c68969
+-  __DATA.__bss: 0x11c10 sha256:560399d58b012bdbbffcf30ac5cda58afc089dda54a2dae4ba27728a0501958d
+-  __DATA.__common: 0x310 sha256:0444a7833d94925af0b00ac143601dc4e3f4b97595fd6b87c6c2671c8d18c7a7
+-  __DATA_DIRTY.__objc_data: 0xb50 sha256:e59bd31f12e3e20d22dd5ea5cae6fe27953f7a746a5a8e9cf164c4574725fa4b
+-  __DATA_DIRTY.__data: 0x3b0 sha256:7e88d82e2de339d1659027db3226db4f61fb8af1d0b952fc883b0b4e4c2bdc6d
++  __DATA.__data: 0x56e8 sha256:290e603cecfc456ecc756834d907b2fc7ce830255573a944a599d96a07dd50c0
++  __DATA.__bss: 0x11c30 sha256:5f032734ed73e7f502fe11813e09296851127c81c229ae64da02bcb17ac35cc6
++  __DATA.__common: 0x318 sha256:4cda19d0a5a5536b0ab2a290d2fe22dcbfe6a079f55b43aaae9331e5129cce84
++  __DATA_DIRTY.__objc_data: 0xb50 sha256:b4d4eb2e91d97aa77f700eb0729b86aaa381a9c67ea98d6b515897fd12505b5f
++  __DATA_DIRTY.__data: 0x3b0 sha256:7e2cea5b3fa37ff273c85ad497c62e733b1ed1fff77315bd968cdc9805b1e173
+   __DATA_DIRTY.__common: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D4AFA2ED-0B99-35CB-9DFD-9D80579BB5B7
+-  Functions: 9050
+-  Symbols:   9718
+-  CStrings:  2008
++  UUID: DB1E2AEC-144B-3D96-8E0F-38FF7BD207F2
++  Functions: 9104
++  Symbols:   9733
++  CStrings:  2016
+ 
+Symbols:
++ ___38-[ICSBackupViewController startBackup]_block_invoke.763
++ ___38-[ICSBackupViewController startBackup]_block_invoke.765
++ ___41-[ICSBackupViewController cancelRestore:]_block_invoke.760
++ ___42-[ICSBackupViewController updateBusyState]_block_invoke.747
++ ___47-[ICSBackupViewController _fetchiCloudHomeData]_block_invoke.792
++ ___53-[ICSKeychainSpecifierProvider _refreshKeychainState]_block_invoke.145
++ ___54-[ICSBackupManager fetchBackupSubtitleWithCompletion:]_block_invoke.120
++ ___54-[ICSBackupManager fetchBackupSubtitleWithCompletion:]_block_invoke.124
++ ___54-[ICSBackupViewController _setBackupEnabled:passcode:]_block_invoke.609
++ ___54-[ICSBackupViewController _setBackupEnabled:passcode:]_block_invoke.610
++ ___57-[ICSBackupManager fetchBackupDetailLabelWithCompletion:]_block_invoke.117
++ ___57-[ICSBackupManager fetchBackupDetailLabelWithCompletion:]_block_invoke_2.118
++ ___57-[ICSBackupManager fetchBackupDetailLabelWithCompletion:]_block_invoke_2.118.cold.1
++ ___57-[ICSDataclassDetailSpecifierProvider _fetchStorageUsed:]_block_invoke.216
++ ___58-[ICSAppsSyncingToDriveSpecifierProvider _fetchServerApps]_block_invoke.116
++ ___58-[ICSAppsSyncingToDriveSpecifierProvider _fetchServerApps]_block_invoke.118
++ ___58-[ICSBackupViewController startListeningForThermalChanges]_block_invoke.517
++ ___60-[ICSServiceAuthHandler signInAccountForService:completion:]_block_invoke.116
++ ___60-[ICSServiceAuthHandler signInAccountForService:completion:]_block_invoke.116.cold.1
++ ___60-[ICSServiceAuthHandler signInAccountForService:completion:]_block_invoke.123
++ ___60-[ICSServiceAuthHandler signInAccountForService:completion:]_block_invoke.150
++ ___61-[ICSServiceAuthHandler signOutAccountForService:completion:]_block_invoke.159
++ ___62-[ICSHeaderSpecifierProvider _fetchStorageSummary:completion:]_block_invoke.122
++ ___62-[ICSHeaderSpecifierProvider _fetchStorageSummary:completion:]_block_invoke.122.cold.1
++ ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.618
++ ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.618.cold.1
++ ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.620
++ ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.620.cold.1
++ ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.646
++ ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.647
++ ___68-[ICSDataclassViewController accountDidChangeFromAccount:toAccount:]_block_invoke.201
++ ___68-[ICSDataclassViewController accountDidChangeFromAccount:toAccount:]_block_invoke.202
++ ___69-[ICSAccountSaveErrorHandler _handleInsufficientStorageWithUserInfo:]_block_invoke.112
++ ___71-[ICSKeychainSyncViewController _setKeychainSyncEnabled:withSpecifier:]_block_invoke.199
++ ___71-[ICSKeychainSyncViewController _setKeychainSyncEnabled:withSpecifier:]_block_invoke.200
++ ___71-[ICSKeychainSyncViewController _setKeychainSyncEnabled:withSpecifier:]_block_invoke.202
++ ___71-[ICSKeychainSyncViewController _setKeychainSyncEnabled:withSpecifier:]_block_invoke.206
++ ___71-[ICSKeychainSyncViewController _setKeychainSyncEnabled:withSpecifier:]_block_invoke_2.203
++ ___71-[ICSKeychainSyncViewController _setKeychainSyncEnabled:withSpecifier:]_block_invoke_2.207
++ ___81-[ICSAccountSaveErrorHandler _beginManateeUpgradeForAccount:failedDataclassName:]_block_invoke.146
++ ___83-[ICSKeychainSyncViewController _beginManateeUpgradeAndEnableKeychainWithActivity:]_block_invoke.216
++ ___83-[ICSKeychainSyncViewController _beginManateeUpgradeAndEnableKeychainWithActivity:]_block_invoke_2.217
++ ___87-[ICSBackupViewController _checkSupportForManualAndAutoBackupOnCellularWithCompletion:]_block_invoke.516
++ ___block_literal_global.768
++ ___swift__destructor.49
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.150
++ ___swift_closure_destructor.155
++ ___swift_closure_destructor.169
++ ___swift_closure_destructor.174
++ ___swift_closure_destructor.179
++ ___swift_closure_destructor.184
++ ___swift_closure_destructor.189Tm
++ ___swift_closure_destructor.216
++ ___swift_closure_destructor.222Tm
++ ___swift_closure_destructor.226
++ ___swift_closure_destructor.235
++ ___swift_closure_destructor.241
++ ___swift_closure_destructor.246
++ ___swift_closure_destructor.255
++ ___swift_closure_destructor.261
++ ___swift_closure_destructor.266
++ ___swift_closure_destructor.275
++ ___swift_closure_destructor.284
++ ___swift_closure_destructor.309
++ ___swift_closure_destructor.339
++ ___swift_closure_destructor.347Tm
++ ___swift_closure_destructor.351
++ ___swift_closure_destructor.355
++ ___swift_closure_destructor.368
++ ___swift_closure_destructor.372
++ ___swift_closure_destructor.386
++ ___swift_closure_destructor.392
++ ___swift_closure_destructor.396
++ ___swift_closure_destructor.406
++ ___swift_closure_destructor.410
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.420
++ ___swift_closure_destructor.425
++ ___swift_closure_destructor.448
++ ___swift_closure_destructor.452
++ ___swift_closure_destructor.459
++ ___swift_closure_destructor.45Tm
++ ___swift_closure_destructor.463
++ ___swift_closure_destructor.470
++ ___swift_closure_destructor.474
++ ___swift_closure_destructor.480
++ ___swift_closure_destructor.484
++ ___swift_closure_destructor.490
++ ___swift_closure_destructor.49Tm
++ ___swift_closure_destructor.501
++ ___swift_closure_destructor.505
++ ___swift_closure_destructor.515
++ ___swift_closure_destructor.528
++ ___swift_closure_destructor.533
++ ___swift_closure_destructor.538
++ ___swift_closure_destructor.543
++ ___swift_closure_destructor.556
++ ___swift_closure_destructor.567
++ ___swift_closure_destructor.570
++ ___swift_closure_destructor.574
++ ___swift_closure_destructor.688
++ ___swift_closure_destructor.693
++ ___swift_closure_destructor.721
++ ___swift_closure_destructor.726
++ ___swift_closure_destructor.755
++ ___swift_closure_destructor.760
++ ___swift_closure_destructor.769
++ ___swift_closure_destructor.774
++ ___swift_closure_destructor.85
++ _block_copy_helper.124
++ _block_copy_helper.146
++ _block_copy_helper.201
++ _block_copy_helper.300
++ _block_copy_helper.311
++ _block_copy_helper.341
++ _block_copy_helper.364
++ _block_copy_helper.388
++ _block_copy_helper.402
++ _block_copy_helper.427
++ _block_copy_helper.431
++ _block_copy_helper.439
++ _block_copy_helper.443
++ _block_copy_helper.492
++ _block_copy_helper.520
++ _block_copy_helper.524
++ _block_copy_helper.548
++ _block_copy_helper.592
++ _block_copy_helper.698
++ _block_copy_helper.701
++ _block_copy_helper.704
++ _block_copy_helper.762
++ _block_copy_helper.802
++ _block_descriptor.126
++ _block_descriptor.148
++ _block_descriptor.203
++ _block_descriptor.302
++ _block_descriptor.313
++ _block_descriptor.343
++ _block_descriptor.366
++ _block_descriptor.390
++ _block_descriptor.404
++ _block_descriptor.429
++ _block_descriptor.433
++ _block_descriptor.441
++ _block_descriptor.445
++ _block_descriptor.494
++ _block_descriptor.522
++ _block_descriptor.526
++ _block_descriptor.550
++ _block_descriptor.594
++ _block_descriptor.700
++ _block_descriptor.703
++ _block_descriptor.706
++ _block_descriptor.764
++ _block_descriptor.804
++ _block_destroy_helper.125
++ _block_destroy_helper.147
++ _block_destroy_helper.202
++ _block_destroy_helper.301
++ _block_destroy_helper.312
++ _block_destroy_helper.342
++ _block_destroy_helper.365
++ _block_destroy_helper.389
++ _block_destroy_helper.403
++ _block_destroy_helper.428
++ _block_destroy_helper.432
++ _block_destroy_helper.440
++ _block_destroy_helper.444
++ _block_destroy_helper.493
++ _block_destroy_helper.521
++ _block_destroy_helper.525
++ _block_destroy_helper.549
++ _block_destroy_helper.593
++ _block_destroy_helper.699
++ _block_destroy_helper.702
++ _block_destroy_helper.705
++ _block_destroy_helper.763
++ _block_destroy_helper.803
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA012_ConditionalD0VyAA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAGyAGyAA6HStackVyAA05TupleD0VyAA4TextV_AA6SpacerVAA08ProgressG0VyAA05EmptyG0VA_GQPGGAGyA2_ACyAA6ButtonVyAQyASyAU_AwuCyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA016_ForegroundStyleX0VyAA22HierarchicalShapeStyleVGGQPGGGAA01_uv9TransformX0VySbGGGGAQyASyAU_AWQPGGG_Qo_A2_GGAA017_AppearanceActionX0VGAaHHPA34_AaHHPA33_AaHHPqd__AaHHD2_A32_HO_A2_AaHHPyHCHC_HC_A36_AA0gX0HPyHCHC.3
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_getTupleTypeMetadata3
++ _symbolic $s14iCloudSettings01iA17HomeDataProvidingP
++ _symbolic $s14iCloudSettings01iA26HomePreLaunchActionCachingP
++ _symbolic SS13formattedSize______11storageUsed_____Sg9liftUIURLt s5Int64V 10Foundation3URLV
++ _symbolic ______p 14iCloudSettings01iA17HomeDataProvidingP
++ _symbolic ______p 14iCloudSettings01iA26HomePreLaunchActionCachingP
++ _symbolic ______pSg 14iCloudSettings01iA17HomeDataProvidingP
++ _symbolic ______pSg 14iCloudSettings01iA26HomePreLaunchActionCachingP
++ _symbolic _____yAAy_____y_____y________________y_____AGGQPGGAAyAJ_____y_____yAByACyAD_AedKyAKy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGGAByACyAD_AEQPGGG 7SwiftUI19_ConditionalContentV AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA12ProgressViewV AA05EmptyJ0V AA08ModifiedD0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleR0V AA017HierarchicalShapeU0V AA01_op9TransformR0V
++ _symbolic _____y_____yAAyAAy_____y_____y________________y_____AGGQPGGAAyAJ_____y_____yAByACyAD_AedKyAKy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGGAByACyAD_AEQPGGG_Qo_AJG 7SwiftUI19_ConditionalContentV AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA08ProgressE0V AA05EmptyE0V AA08ModifiedD0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleW0V AA017HierarchicalShapeZ0V AA01_tu9TransformW0V
++ _symbolic _____y_____yABy_____y_____y________________y_____AHGQPGGAByAkAy_____yACyADyAE_AfeAyAAy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGGACyADyAE_AFQPGGG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA12ProgressViewV AA05EmptyK0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleR0V AA017HierarchicalShapeU0V AA01_op9TransformR0V AA14_TaskModifier2V
++ _symbolic _____y_____y_____yAByABy_____y_____y________________y_____AHGQPGGAByAK_____y_____yACyADyAE_AfeLyALy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGGACyADyAE_AFQPGGG_Qo_AKGG 7SwiftUI5GroupV AA19_ConditionalContentV AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA6HStackV AA05TupleE0V AA4TextV AA6SpacerV AA08ProgressF0V AA05EmptyF0V AA08ModifiedE0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleX0V AA22HierarchicalShapeStyleV AA01_uv9TransformX0V
++ _symbolic _____y_____y_____yABy_____y_____y________________y_____AHGQPGGAByAK_____y_____yACyADyAE_AfeLyALy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGGACyADyAE_AFQPGGG_Qo_AK_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AC AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA08ProgressF0V AA05EmptyF0V AA08ModifiedD0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleX0V AA22HierarchicalShapeStyleV AA01_uv9TransformX0V
++ _symbolic _____y_____y_____y________________y_____AGGQPGGAAyAJ_____y_____yAByACyAD_AedKyAKy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGG 7SwiftUI19_ConditionalContentV AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA12ProgressViewV AA05EmptyJ0V AA08ModifiedD0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleR0V AA017HierarchicalShapeU0V AA01_op9TransformR0V
++ _symbolic _____y_____y_____y________________y_____AGGQPGG_____yAJ_____y_____yAByACyAD_AedLyALy__________y_____SgGG_____y_____GGQPGGG_____ySbGGG_G 7SwiftUI19_ConditionalContentV7StorageO AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA12ProgressViewV AA05EmptyK0V AC AA08ModifiedD0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleS0V AA017HierarchicalShapeV0V AA01_pq9TransformS0V
++ _symbolic _____y_____y_____y_____yACyACy_____y_____y________________y_____AIGQPGGACyAlAy_____yADyAEyAF_AgfAyAAy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGGADyAEyAF_AGQPGGG_Qo_ALGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA08ProgressG0V AA05EmptyG0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleX0V AA22HierarchicalShapeStyleV AA01_uv9TransformX0V AA017_AppearanceActionX0V
++ _symbolic _____y_____y_____y_____y________________y_____AHGQPGGAByAK_____y_____yACyADyAE_AfeLyALy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGGACyADyAE_AFQPGG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA12ProgressViewV AA05EmptyK0V AA08ModifiedD0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleS0V AA017HierarchicalShapeV0V AA01_pq9TransformS0V
+- ___38-[ICSBackupViewController startBackup]_block_invoke.742
+- ___38-[ICSBackupViewController startBackup]_block_invoke.744
+- ___41-[ICSBackupViewController cancelRestore:]_block_invoke.739
+- ___42-[ICSBackupViewController updateBusyState]_block_invoke.726
+- ___47-[ICSBackupViewController _fetchiCloudHomeData]_block_invoke.771
+- ___53-[ICSKeychainSpecifierProvider _refreshKeychainState]_block_invoke.130
+- ___54-[ICSBackupManager fetchBackupSubtitleWithCompletion:]_block_invoke.105
+- ___54-[ICSBackupManager fetchBackupSubtitleWithCompletion:]_block_invoke.109
+- ___54-[ICSBackupViewController _setBackupEnabled:passcode:]_block_invoke.588
+- ___54-[ICSBackupViewController _setBackupEnabled:passcode:]_block_invoke.589
+- ___57-[ICSBackupManager fetchBackupDetailLabelWithCompletion:]_block_invoke.102
+- ___57-[ICSBackupManager fetchBackupDetailLabelWithCompletion:]_block_invoke_2.103
+- ___57-[ICSBackupManager fetchBackupDetailLabelWithCompletion:]_block_invoke_2.103.cold.1
+- ___57-[ICSDataclassDetailSpecifierProvider _fetchStorageUsed:]_block_invoke.201
+- ___58-[ICSAppsSyncingToDriveSpecifierProvider _fetchServerApps]_block_invoke.101
+- ___58-[ICSAppsSyncingToDriveSpecifierProvider _fetchServerApps]_block_invoke.103
+- ___58-[ICSBackupViewController startListeningForThermalChanges]_block_invoke.496
+- ___60-[ICSServiceAuthHandler signInAccountForService:completion:]_block_invoke.101
+- ___60-[ICSServiceAuthHandler signInAccountForService:completion:]_block_invoke.101.cold.1
+- ___60-[ICSServiceAuthHandler signInAccountForService:completion:]_block_invoke.108
+- ___60-[ICSServiceAuthHandler signInAccountForService:completion:]_block_invoke.135
+- ___61-[ICSServiceAuthHandler signOutAccountForService:completion:]_block_invoke.144
+- ___62-[ICSHeaderSpecifierProvider _fetchStorageSummary:completion:]_block_invoke.107
+- ___62-[ICSHeaderSpecifierProvider _fetchStorageSummary:completion:]_block_invoke.107.cold.1
+- ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.597
+- ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.597.cold.1
+- ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.599
+- ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.599.cold.1
+- ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.625
+- ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.626
+- ___68-[ICSDataclassViewController accountDidChangeFromAccount:toAccount:]_block_invoke.186
+- ___68-[ICSDataclassViewController accountDidChangeFromAccount:toAccount:]_block_invoke.187
+- ___69-[ICSAccountSaveErrorHandler _handleInsufficientStorageWithUserInfo:]_block_invoke.97
+- ___71-[ICSKeychainSyncViewController _setKeychainSyncEnabled:withSpecifier:]_block_invoke.184
+- ___71-[ICSKeychainSyncViewController _setKeychainSyncEnabled:withSpecifier:]_block_invoke.185
+- ___71-[ICSKeychainSyncViewController _setKeychainSyncEnabled:withSpecifier:]_block_invoke.187
+- ___71-[ICSKeychainSyncViewController _setKeychainSyncEnabled:withSpecifier:]_block_invoke.191
+- ___71-[ICSKeychainSyncViewController _setKeychainSyncEnabled:withSpecifier:]_block_invoke_2.188
+- ___71-[ICSKeychainSyncViewController _setKeychainSyncEnabled:withSpecifier:]_block_invoke_2.192
+- ___81-[ICSAccountSaveErrorHandler _beginManateeUpgradeForAccount:failedDataclassName:]_block_invoke.131
+- ___83-[ICSKeychainSyncViewController _beginManateeUpgradeAndEnableKeychainWithActivity:]_block_invoke.201
+- ___83-[ICSKeychainSyncViewController _beginManateeUpgradeAndEnableKeychainWithActivity:]_block_invoke_2.202
+- ___87-[ICSBackupViewController _checkSupportForManualAndAutoBackupOnCellularWithCompletion:]_block_invoke.495
+- ___block_literal_global.747
+- ___swift_closure_destructor.110
+- ___swift_closure_destructor.130
+- ___swift_closure_destructor.146
+- ___swift_closure_destructor.156
+- ___swift_closure_destructor.165
+- ___swift_closure_destructor.170
+- ___swift_closure_destructor.175
+- ___swift_closure_destructor.180
+- ___swift_closure_destructor.185
+- ___swift_closure_destructor.185Tm
+- ___swift_closure_destructor.207
+- ___swift_closure_destructor.212
+- ___swift_closure_destructor.218
+- ___swift_closure_destructor.218Tm
+- ___swift_closure_destructor.227
+- ___swift_closure_destructor.237
+- ___swift_closure_destructor.242
+- ___swift_closure_destructor.247
+- ___swift_closure_destructor.257
+- ___swift_closure_destructor.262
+- ___swift_closure_destructor.267
+- ___swift_closure_destructor.276
+- ___swift_closure_destructor.305
+- ___swift_closure_destructor.348
+- ___swift_closure_destructor.356
+- ___swift_closure_destructor.356Tm
+- ___swift_closure_destructor.36
+- ___swift_closure_destructor.364
+- ___swift_closure_destructor.369
+- ___swift_closure_destructor.377
+- ___swift_closure_destructor.381
+- ___swift_closure_destructor.395
+- ___swift_closure_destructor.401
+- ___swift_closure_destructor.405
+- ___swift_closure_destructor.419
+- ___swift_closure_destructor.424
+- ___swift_closure_destructor.429
+- ___swift_closure_destructor.434
+- ___swift_closure_destructor.457
+- ___swift_closure_destructor.461
+- ___swift_closure_destructor.468
+- ___swift_closure_destructor.472
+- ___swift_closure_destructor.479
+- ___swift_closure_destructor.483
+- ___swift_closure_destructor.489
+- ___swift_closure_destructor.48Tm
+- ___swift_closure_destructor.493
+- ___swift_closure_destructor.499
+- ___swift_closure_destructor.514
+- ___swift_closure_destructor.519
+- ___swift_closure_destructor.524
+- ___swift_closure_destructor.537
+- ___swift_closure_destructor.542
+- ___swift_closure_destructor.547
+- ___swift_closure_destructor.561
+- ___swift_closure_destructor.565
+- ___swift_closure_destructor.576
+- ___swift_closure_destructor.588
+- ___swift_closure_destructor.592
+- ___swift_closure_destructor.697
+- ___swift_closure_destructor.702
+- ___swift_closure_destructor.756
+- ___swift_closure_destructor.761
+- ___swift_closure_destructor.765
+- ___swift_closure_destructor.770
+- ___swift_closure_destructor.804
+- ___swift_closure_destructor.809
+- _block_copy_helper.120
+- _block_copy_helper.142
+- _block_copy_helper.197
+- _block_copy_helper.296
+- _block_copy_helper.307
+- _block_copy_helper.350
+- _block_copy_helper.373
+- _block_copy_helper.397
+- _block_copy_helper.411
+- _block_copy_helper.436
+- _block_copy_helper.440
+- _block_copy_helper.448
+- _block_copy_helper.452
+- _block_copy_helper.501
+- _block_copy_helper.529
+- _block_copy_helper.533
+- _block_copy_helper.557
+- _block_copy_helper.601
+- _block_copy_helper.707
+- _block_copy_helper.713
+- _block_copy_helper.719
+- _block_copy_helper.772
+- _block_copy_helper.812
+- _block_descriptor.122
+- _block_descriptor.144
+- _block_descriptor.199
+- _block_descriptor.298
+- _block_descriptor.309
+- _block_descriptor.352
+- _block_descriptor.375
+- _block_descriptor.399
+- _block_descriptor.413
+- _block_descriptor.438
+- _block_descriptor.442
+- _block_descriptor.450
+- _block_descriptor.454
+- _block_descriptor.503
+- _block_descriptor.531
+- _block_descriptor.535
+- _block_descriptor.559
+- _block_descriptor.603
+- _block_descriptor.709
+- _block_descriptor.715
+- _block_descriptor.721
+- _block_descriptor.774
+- _block_descriptor.814
+- _block_destroy_helper.121
+- _block_destroy_helper.143
+- _block_destroy_helper.198
+- _block_destroy_helper.297
+- _block_destroy_helper.308
+- _block_destroy_helper.351
+- _block_destroy_helper.374
+- _block_destroy_helper.398
+- _block_destroy_helper.412
+- _block_destroy_helper.437
+- _block_destroy_helper.441
+- _block_destroy_helper.449
+- _block_destroy_helper.453
+- _block_destroy_helper.502
+- _block_destroy_helper.530
+- _block_destroy_helper.534
+- _block_destroy_helper.558
+- _block_destroy_helper.602
+- _block_destroy_helper.708
+- _block_destroy_helper.714
+- _block_destroy_helper.720
+- _block_destroy_helper.773
+- _block_destroy_helper.813
+- _get_enum_tag_for_layout_string 14iCloudSettings28ManageStorageButtonViewModelC5StateO
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA012_ConditionalD0VyAA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAGyAGyAA6HStackVyAA05TupleD0VyAA4TextV_AA6SpacerVAA08ProgressG0VyAA05EmptyG0VA_GQPGGACyAA6ButtonVyAQyASyAU_AwuCyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA016_ForegroundStyleX0VyAA22HierarchicalShapeStyleVGGQPGGGAA01_uv9TransformX0VySbGGGAQyASyAU_AWQPGGG_Qo_A2_GGAA017_AppearanceActionX0VGAaHHPA33_AaHHPA32_AaHHPqd__AaHHD2_A31_HO_A2_AaHHPyHCHC_HC_A35_AA0gX0HPyHCHC.3
+- _objc_retain_x11
+- _objc_retain_x12
+- _symbolic SS13formattedSize______11storageUsedt s5Int64V
+- _symbolic _____yAAy_____y_____y________________y_____AGGQPGG_____y_____yAByACyAD_AedKyAKy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGAByACyAD_AEQPGGG 7SwiftUI19_ConditionalContentV AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA12ProgressViewV AA05EmptyJ0V AA08ModifiedD0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleR0V AA017HierarchicalShapeU0V AA01_op9TransformR0V
+- _symbolic _____y_____yAAyAAy_____y_____y________________y_____AGGQPGG_____y_____yAByACyAD_AedKyAKy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGAByACyAD_AEQPGGG_Qo_AJG 7SwiftUI19_ConditionalContentV AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA08ProgressE0V AA05EmptyE0V AA08ModifiedD0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleW0V AA017HierarchicalShapeZ0V AA01_tu9TransformW0V
+- _symbolic _____y_____yABy_____y_____y________________y_____AHGQPGGAAy_____yACyADyAE_AfeAyAAy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGACyADyAE_AFQPGGG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA12ProgressViewV AA05EmptyK0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleR0V AA017HierarchicalShapeU0V AA01_op9TransformR0V AA14_TaskModifier2V
+- _symbolic _____y_____y_____yAByABy_____y_____y________________y_____AHGQPGG_____y_____yACyADyAE_AfeLyALy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGACyADyAE_AFQPGGG_Qo_AKGG 7SwiftUI5GroupV AA19_ConditionalContentV AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA6HStackV AA05TupleE0V AA4TextV AA6SpacerV AA08ProgressF0V AA05EmptyF0V AA08ModifiedE0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleX0V AA22HierarchicalShapeStyleV AA01_uv9TransformX0V
+- _symbolic _____y_____y_____yABy_____y_____y________________y_____AHGQPGG_____y_____yACyADyAE_AfeLyALy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGACyADyAE_AFQPGGG_Qo_AK_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AC AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA08ProgressF0V AA05EmptyF0V AA08ModifiedD0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleX0V AA22HierarchicalShapeStyleV AA01_uv9TransformX0V
+- _symbolic _____y_____y_____y_____yACyACy_____y_____y________________y_____AIGQPGGAAy_____yADyAEyAF_AgfAyAAy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGADyAEyAF_AGQPGGG_Qo_ALGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA08ProgressG0V AA05EmptyG0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleX0V AA22HierarchicalShapeStyleV AA01_uv9TransformX0V AA017_AppearanceActionX0V
+- _symbolic _____y_____y_____y_____y________________y_____AHGQPGG_____y_____yACyADyAE_AfeLyALy__________y_____SgGG_____y_____GGQPGGG_____ySbGGGACyADyAE_AFQPGG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA12ProgressViewV AA05EmptyK0V AA08ModifiedD0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleS0V AA017HierarchicalShapeV0V AA01_pq9TransformS0V
+- _type_layout_string 14iCloudSettings28ManageStorageButtonViewModelC5StateO
+CStrings:
++ "ManageStorageButton: AADataclassManager returned empty bundleID for %{public}s — button will remain in loading state."
++ "ManageStorageButton: failed to load LiftUI data for %{public}s: %@"
++ "ManageStorageButton: initializing for %{public}s bundleID=%{public}s"
++ "ManageStorageButton: navigating to Manage Storage for %{public}s bundleID=%{public}s url: %s"
++ "ManageStorageButton: navigation aborted for %{public}s — liftUIURL is nil"
++ "ManageStorageButton: navigation aborted for %{public}s — no cloud account"
++ "ManageStorageButton: navigation aborted for %{public}s — no viewModel"
++ "ManageStorageButton: navigation skipped for %{public}s — already in flight"
++ "formattedSize storageUsed liftUIURL "
+- "ManageStorageButton: navigating to Manage Storage for %s"
+
+```

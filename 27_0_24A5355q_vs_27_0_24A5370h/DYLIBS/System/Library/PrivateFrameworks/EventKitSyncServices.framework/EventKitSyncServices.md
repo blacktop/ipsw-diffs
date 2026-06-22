@@ -1,0 +1,113 @@
+## EventKitSyncServices
+
+> `/System/Library/PrivateFrameworks/EventKitSyncServices.framework/EventKitSyncServices`
+
+```diff
+
+-428.0.0.0.0
+-  __TEXT.__text: 0x13fc sha256:ade2db5cec789e9c5f6153467cec382eb1ad307e498fcae619978701d6d4c047
+-  __TEXT.__objc_methlist: 0x2bc sha256:81132a815925e559ef458546ae3a45a80e273ce78d781223c2c5f0830ecdca64
++430.0.0.0.0
++  __TEXT.__text: 0x13fc sha256:253415b56b18f5a69691ba3871b2ed8bcc587905615bc4271f3370f309f0e249
++  __TEXT.__objc_methlist: 0x2bc sha256:73635d7eaf96dc968c75f69ee3c1776b4e08af2c2b71f04a9d0368c70e6bd981
+   __TEXT.__const: 0x60 sha256:0e87d454eadcdf71af6a6d88b984b3db38e6d7d7361a9885af99c46885e15917
+   __TEXT.__gcc_except_tab: 0x30 sha256:6240a4be0d97ae855dc8d5a8ca5a1df76431eba159bc38f31c51a02f6ce2c785
+   __TEXT.__cstring: 0x143 sha256:4c6950d0033049b804006ea47664288e5ebde12b7d43de7aa9c4871d69cacfbc
+   __TEXT.__oslogstring: 0x1d9 sha256:1db903520f4a7868d7f07179a5eaea71d4173285506a20f9aa740e87448fd4a9
+-  __TEXT.__unwind_info: 0xc8 sha256:9224c642baa60de39f6318a4132c92ff5291d54dd52671d3d562c3a54bb95089
++  __TEXT.__unwind_info: 0xc8 sha256:4cc391221184e00d279e4780d7f06dc5964a16e66e9333c851d9cd47c4404cb5
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x78 sha256:b7d800d8840747b9469bafba44b7387351dada710856650e55a79740ff121e54
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:04508a593261e350f873bc1ac41d0d82709ebac8b6e96fe9f0d3c2f04402998b
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:b2679df39eb6df69fefcfd0e17f5ce1efc27f4d37f86b254fa9d8692da031552
+-  __DATA_CONST.__objc_protolist: 0x28 sha256:b6834e9d480b8cd7e4b2d01d977d4e0719362fe9e4059fcb391a20c8b0908f20
++  __DATA_CONST.__const: 0x78 sha256:82ccbdb8f50bf931ce23acb5b02ae948adea5e29ef2561583c1a526213b45ed3
++  __DATA_CONST.__objc_classlist: 0x18 sha256:fafe777ba477fa558412e414f932b1051c93f24ba95a3a27256e78abb3739394
++  __DATA_CONST.__objc_catlist: 0x8 sha256:cacc1433ad7d235e67b7b8577d67b799bbcb9e8f79273a1363c9f5bcddff4277
++  __DATA_CONST.__objc_protolist: 0x28 sha256:e0a6736b3b8541243ea2a6d6a3c9a5c7fdc77fcef535a20215cc128630139406
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x238 sha256:bc703f8fcef14bc860e393052def24df2e689a794daad212b5921b8f82f98319
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:de0389ba09560f69467c7b15a31dd50c8debac21a9f27990348cffe3d5ab34c7
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:0a63e29148459b81712ae6f45d3cf8cfb7f154669055dc11d06def4ed1219434
+-  __DATA_CONST.__got: 0x88 sha256:d29f3a52671c47f0b728f76bb6b4b0642c6a739c5536c95bb76ffb5b738fe2d1
+-  __AUTH_CONST.__const: 0x80 sha256:c563c0dc2ef01728a386d54ec2b5705e6aefb5f562601d1fd3cf8db8215f8055
+-  __AUTH_CONST.__cfstring: 0x100 sha256:3a6f258199cc3dfbbf7492e106b712c22f5c5c57cf90840ffc51a5a2a599467b
+-  __AUTH_CONST.__objc_const: 0x3f0 sha256:9b74f49889c8c6fdb7ae2e07786d22323b3b70aa261e1d762f0172d69a7b1bc4
++  __DATA_CONST.__objc_selrefs: 0x238 sha256:8eee571129c4ab515747bad2cbc5cff56ef0ef7a27b069d91504c3363895593f
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:c6365d2ffcbb9f6bd6ea3d3fb2c6d943c18896cd1c9d9073af90ca5940a5ee04
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:5d10db6fec6a3b738a9a93a3bb6923b8eef81db22ba42be8968568d590b714aa
++  __DATA_CONST.__got: 0x88 sha256:969ad77cb86ecce56ee460fb27fc3c3f04c7ec516028dc5a22924305bf3c7fc1
++  __AUTH_CONST.__const: 0x80 sha256:103f2a26c0b384c747ce64f330a368aa97658bcfc5eda3542a5a26ad4c6b4fb5
++  __AUTH_CONST.__cfstring: 0x100 sha256:f43d9aab9c9596d049bc17cc3d80c700882e74fb7f0844f5f03bb863972a43c1
++  __AUTH_CONST.__objc_const: 0x3f0 sha256:47db0cc967ff0e6a1da7650ec734fea369111615190244f77995733120041aac
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:cf69b6ea1819a06546bbbb7fe2c22f7aee7e56f661db69daed523a07293b4ec7
++  __AUTH.__objc_data: 0xa0 sha256:9c44fdcee95868207d41842558db10d745cc77d3fb89e26843bf8f6b602cfb5f
+   __DATA.__objc_ivar: 0x8 sha256:c0cdbb6e45249a718e7e605f801cf43f673a22fcf0347034da71f6be2e4f4d5e
+-  __DATA.__data: 0x1e0 sha256:362eca690006dba74f3c929d01350048d048913bd4bf1e9d6362d2113fbbe1ee
++  __DATA.__data: 0x1e0 sha256:0bc177bf4c6f8c25f04786878cba436aa4116758d916b871d7ed3c55c8a1a876
+   __DATA.__bss: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:7ac88e3f4be63db5560925e2910067c78e3dc09a7c715d9c40702c12e4c450ac
++  __DATA_DIRTY.__objc_data: 0x50 sha256:af53ec658ac49bd7a78b0ed2c049a672a795965ad0ed310a35c72c7244d08cd3
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9E3BDD75-F3A4-3209-8621-DCCC3B6950B6
++  UUID: 65F96BE6-AABE-3204-9EE5-9C54D6EEA63F
+   Functions: 49
+   Symbols:   263
+   CStrings:  32
+Functions:
+~ +[EKSSDiagnosticsService log] : sha256 80d937ef288cc05e7ee0544ffa286f9596f14dd4541b3966b0c2241b8fb17ec2 -> b2547b56e24054dcc797354e16387c418bd53d314a58a5727cdaaf9921cdf059
+~ ___29+[EKSSDiagnosticsService log]_block_invoke : sha256 3e88b12af09ae35e86b0afa73bc6988862c4e9a30949e5655b00f56caff6c33e -> 59f027b84cb3f1c30334eef69d9ff661f7aa4d78c78163d27423421763e0914a
+~ -[EKSSDiagnosticsService init] : sha256 59bc1a68443ed20a247afeffdeb7e0fbe8b39da95c6bfc9750db74ce4456e2f9 -> 681483a867ed953cccdf72fd1b05d0ad6bc8320a706dd1667582a6762f1dfa73
+~ -[EKSSDiagnosticsService dealloc] : sha256 73ad3bafc0b176a52ed15e0eef2d8ed69ea1e900978a4f149e9c6890397fee70 -> 1250bf5f097792c2eb99894ff11014ab9774e99836f00ce4c3d142729194c639
+~ -[EKSSDiagnosticsService _createConnection] : sha256 30478ce3db9e52a3daf850ed29342421f49b2296cd3ce44349ac1662f3d7791a -> 8590328d455df23209923016465e84a748f5690f976c78067c92cc372ec72850
+~ ___43-[EKSSDiagnosticsService _createConnection]_block_invoke : sha256 0e4525471861bd2fb0ae362e666cd5889c02f6c3b0ee1ee06879078a130bad81 -> 8554289a4c1510963b60f7e430fbd1c2277f59e18440a4caddb7c76260ed2b1d
+~ ___43-[EKSSDiagnosticsService _createConnection]_block_invoke.6 : sha256 191aa962ff989ab2bda9cb73321881c7a8891e8432a899b5fe5d1b02103d0e2e -> 535ca13a0025ec61cae247e3a968b87200205a1430a3bce5c8c5376f0bbd9fec
+~ -[EKSSDiagnosticsService dumpDiagnosticsWithCompletion:] : sha256 ea53aba43dfef76418fa6a6a024c47c738f325b271136f3177a37cb75f040025 -> 8f7e9cc4eaaf76a8d89fc1c96210c06c0e993f5e2a6aa454922139cf49e0b118
+~ ___56-[EKSSDiagnosticsService dumpDiagnosticsWithCompletion:]_block_invoke : sha256 31b73800d97e6c2c248dc8fe7298bddb035eb69b939919dfd4fadae8b372d2a3 -> 2ed68fc1b1ac608d341403b7a93e68646c4448f6008a4fc1b7b027c53f9e1d96
+~ -[EKSSDiagnosticsService .cxx_destruct] : sha256 ff7fe9170e433cb692394f7502a6b5ecd9c5c5d9200bbb762118477f5f9d6cb7 -> 205af2ace92bab22d8c29e8529abb0f558790296b2b43522357103c101812f98
+~ -[NSCalendar(EKSAdditions) eks_firstDayOfMonth:] : sha256 4e7f66dd5877a978dcd004d7eb5408e375c9c8eeac9232ab51e94f53073e235a -> 155e078fafe6ea0c9535c869f424ef1392028034ea9e74edf374ce9481794f7c
+~ -[NSCalendar(EKSAdditions) eks_daysInMonth:] : sha256 8a5549aa3a0e796a6fbbb025e70e40e04ac209dc4acc828828c79c1d8e757848 -> ef3877c2d9139d7f9ab098845eb198f8b3d2543b6b976c7a2ac550203bf5dc02
+~ _EKSSServiceXPCInterface : sha256 4b5099ba2c59bb608a51ef5330b560b21e12c41dad5efb078535a02599f172b0 -> dca270146736c827540ed861968b1f1fcfc27ff4f32394b2141af4eeedbab155
+~ ___EKSSServiceXPCInterface_block_invoke : sha256 366fcbb17018a8df891cfcd8b2a3cda511d5b4417cfac200be048902494fc771 -> ef5f752fcc6d33f3ea8c4780bf914f69316fc911ce78b4a055cdb13ecb5c9b66
+~ _EKSSClientXPCInterface : sha256 0a8e79d15a10a7691fcae693d258b5f36dc34f91ce125b7e2aecce95fc3d12a1 -> 989677b6805aac2f64c5ecdfbc29ecd92bf040c2b73d261fd5ea174ab271aa20
+~ ___EKSSClientXPCInterface_block_invoke : sha256 f7c91c29c1df8577545a8aa6496591bf5999cd9105468e87fbc629989dc39d06 -> 8388699c3ac7cc1061fc8dcc795d761765285c3a00b354627c5aa14d85b3a4b2
+~ _EKSSDiagnosticsDirectory : sha256 60515b856d315153c49b868040e847d05ac50580178fbec06fa27eb1eb77056d -> 8e834790536a9cf316fb9bda184a0f48618280922f6d7f1eec0264bd035e2901
+~ +[EKSSyncRange resetSyncRange] : sha256 57366a8e1cb3ad544b451ba2c8cb9ef79ec8a5a6abf4708ec9b804060ea10173 -> 0e0d8374b108214be04b1e15bb5872441a788bc23ebca882c00219f21cc5c427
+~ +[EKSSyncRange resetSyncRangeWithCalendar:anchorDate:] : sha256 80dc6f464bc128cbdd91f7eda02dceb02e5bc0790d99922ab3ef6503797f3a50 -> d84762fe033d1fee981c83a272d1edd02b9d9b0d93554894aa58beb7f3947ee1
+~ +[EKSSyncRange ensureNonNilInterval:] : sha256 c7ee79be49d138999e3a64d0ac727dd9ad306d3f0f61cf390662af7c82473ec8 -> 2beea2161656d68da1f7cbba74b9e6e0e85561f8c281adb81e678043913d1e57
+~ +[EKSSyncRange normalizeAnchorDate:withCalendar:] : sha256 95add32a642e40db1d17e13150d297418054640f05b7da7deb76ecb9f4f2d64c -> abca53e6c6c48e859510de10cfa2183c6bf0fe79592dc74a5eb3761d03aed800
+~ +[EKSSyncRange rangeStartingAtDate:calendar:unit:pastDistance:futureDistance:] : sha256 9d8704950aba13fc5f7de4a3adec938e8f64a593a896a0138945f8f2afd35669 -> 704d15b0c2cb88b22b52576476b6a9618027e8b9ac3fd7047b43287a035b9d66
+~ _OUTLINED_FUNCTION_0 : sha256 e9f19c3b1e7a4ad17e56236ee75a0c459de6b46c1e0880ab936f1b770c022351 -> 2e63d65a73042172dec97de56e8467ca2582ceec58ddc54e9a48193de1d6124c
+~ +[EKSSLogger log] : sha256 fc8f3cbb637b4ec5259e67b8c2ee7df91e484ba4531d3aaca39686a6c9ecf077 -> bbcd8520f220e8f2f080ce04aa8f19fba98aa44f31b133bbf8ff294edf6f0803
+~ ___17+[EKSSLogger log]_block_invoke : sha256 03593a7e51e6f2cc50d8b46a71751d55415093d3de85a2ad4f5ec4532c201bf2 -> 9afe64a8d4e91fb5ab29512b73bbc4fa6606f7001413e47c158ae037ec1bfb0c
+~ -[EKSSLogger initWithString:] : sha256 5f7a1806b717f7ab36244847c3fa615557f6e55211902086444cfabc4d91fbda -> 715517b3e812c30f74c2fa1da3d72049db1005a3adb48040f8131614e7ae3140
+~ -[EKSSLogger dealloc] : sha256 c749ef1dc3a1c3501e7f5788c0304bf36d842a37b7e225502f9060b04972c7cd -> 8bf3da1937a9f4b22d73917b6252b244b65fdeccc59f9a8e3f91574bdad16184
+~ -[EKSSLogger timestampLogForString:] : sha256 8117d3b25c3a19e94db6294821180b3de3484fe34bf000cbac212b6848eb0eb2 -> 9568e416903d2c550a4695939e8bef27e4acdc96dcd40fb4a900741584a66245
+~ -[EKSSLogger mergeLogger:] : sha256 ad08b5fc09f4aed2794692c66a389d930150971797b1a49c576b209800f46e2e -> c403d9b6da297fdaf097d42a3e0ef142dcb0f7e9e8eb1a6af938c524871cffca
+~ -[EKSSLogger writeLogFileWithDirectory:andFileName:] : sha256 3f864da3292c06ccf2cbc022e6e67ab991e40c3926314d26d16c7ad51ec41ee5 -> ed9ede5204a35b0b3b42268f320ae6f9da92c5cf7ae1949c1f912df85438df41
+~ -[EKSSLogger initWithCoder:] : sha256 978037496eca592c14f303332377724e0c70a3ad4bb6e353c631436dd79ca9a2 -> da09280d29d345e6366270f1adfee9a4cd8865e0b539f93fad7a77eef056d258
+~ -[EKSSLogger encodeWithCoder:] : sha256 c03a9da5ba888648c3dc707f227bb85a7b52a60b42a993f110407a6b9dac56a4 -> d590f62eca9755058432d69065c5f56e6f7c3e24ff395b4bf386b5777edf69b8
+~ -[EKSSLogger setLogText:] : sha256 235c9d0d7c188144b43491f99375201200de9b4d204d03b18f38d7e0ed3a5911 -> 3ff869b65dd2ef1f6a918e91472826691fa8734b715572b8c1e60b6225f674c0
+~ -[EKSSLogger .cxx_destruct] : sha256 5512d4661ebb0991c962515803b438fec76d74d1f64f5280c095f2804a9f3efb -> 1fe0e7010e41de6465ec279511b3f74ddfd0957f72b05d414f6d9f09e1f249ec
+~ +[EKSSDiagnosticsService log].cold.1 : sha256 2909f2eb4d60c9b422c9a100ad8c884b274ba9b4821a02addcae2eb8fc02d5ab -> 11509ebb655ec148e514350e11185aceedc9af2e57d109ce70e2d4eb07f962df
+~ _EKSSServiceXPCInterface.cold.1 : sha256 2bf497f9f276befe0e23c5b94f5286aa4d632541748c2ae1d71536b647c562ee -> b1a0d724234fb0e4fef48a8e740abc7828a07ae0b56ceaf912b00c77db2c281e
+~ _EKSSClientXPCInterface.cold.1 : sha256 259bb2e1a735cfd6fc9393633272ffd9734f5a98fb1d326f0df84df290e89a77 -> cc4938bed0a5819ec60a6c9e01c92eeef312f98d7332782832539084ea0f3b7c
+~ +[EKSSyncRange resetSyncRangeWithCalendar:anchorDate:].cold.1 : sha256 3a903f90c52d882fe0238a1a91f29ffb7353c71c78c046e45147794ff308e396 -> 9f11c9ac1beebb6cf1af7cf046937c6ea1b34a3422b4b9d8d9c8ae590b467714
+~ +[EKSSyncRange ensureNonNilInterval:].cold.1 : sha256 e8abd731f6ac92b26e30089f5ab6fd5b9740a1275696df2fa24caac9c957b6d0 -> 8c523661695b97bbdeafba08f01dd08532bc2d67d6d1d552c70bda8e47565061
+~ +[EKSSyncRange normalizeAnchorDate:withCalendar:].cold.1 : sha256 c42fc71b532a9c283e06cc6ab8a4b37176871eb9b3b1e6688b757e4249583be8 -> f000c9020024ce73d7d150d56aeefb648d3455d282a38415c6dbe28dbfd6d0e5
+~ +[EKSSyncRange rangeStartingAtDate:calendar:unit:pastDistance:futureDistance:].cold.1 : sha256 910f64033ceee51c71ee947383862838b845a1312a026cf838f22fa83170dd25 -> 32529b2bfc4dd013a9bc648c9b8d43c4ee35bcd987d3d0412dc1b5392a41f0c6
+~ +[EKSSyncRange rangeStartingAtDate:calendar:unit:pastDistance:futureDistance:].cold.2 : sha256 b78575d29b9bba9c2a2cfb2234408719b733018f13b1243590bf926125e8cb81 -> cd5e43a287467d96b2d459ad84ce5afbe73f957ade67e149704cae67049b8423
+~ +[EKSSyncRange rangeStartingAtDate:calendar:unit:pastDistance:futureDistance:].cold.3 : sha256 00c7027ab3e52571ab385f6e1034c66a0699bbfabe1c94a6ae1d9dd76bc98ce7 -> d8585a7bd43ff834b3cca31903e8318b1876efe5e8af040b5408b90aee9fdc42
+~ +[EKSSLogger log].cold.1 : sha256 b9735434006405cf70f7980cc0a14cb45ec537ca9ddbe167448fbb2c375ead0b -> 8fc20f4811851b5d95c4fb6e117f3a3a34f83d1ab281b8af9a3f2aff75e33db3
+~ -[EKSSLogger writeLogFileWithDirectory:andFileName:].cold.1 : sha256 c29395409d3caf23028072e3f50e04d810e937d9c146a19ad6c48333d6bcb96c -> 46dee92571bc32c0df2039702bc64005fe3552654805ec7a8ffa844d5cce125d
+~ -[EKSSLogger writeLogFileWithDirectory:andFileName:].cold.2 : sha256 7c9dd02a550c3fab5d81a4c20184b8c7dbe843dc6fcd6a6550580739a3146c26 -> 3cdfb9156036eb13b4372f38c229768a55b5e7d3651b2a134a80a13179e73a7c
+
+```

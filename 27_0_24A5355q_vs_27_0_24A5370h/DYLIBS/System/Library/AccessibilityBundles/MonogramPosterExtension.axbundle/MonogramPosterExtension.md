@@ -1,0 +1,81 @@
+## MonogramPosterExtension
+
+> `/System/Library/AccessibilityBundles/MonogramPosterExtension.axbundle/MonogramPosterExtension`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x728 sha256:95e5be6f376a42d6f50961bbe632c891a3fc39d4782fa4b2cb59f23e109da2ca
+-  __TEXT.__objc_methlist: 0xd0 sha256:0aad96124d1ad49ade04963f44bc14b86f0be5b71834d052e07757c9e12dc3df
++3039.1.0.0.0
++  __TEXT.__text: 0x728 sha256:9d9efae9d2c83621d11ab53347b26114bbdb548902553c22d93030fa396a9555
++  __TEXT.__objc_methlist: 0xd0 sha256:ac656cce55559d7d89a4f0d925443e7a268be66d0472f238c1f68d7a511422b5
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__gcc_except_tab: 0x20 sha256:bca2a0c61b015879b20d78e09a3a076265b74aae34173099a38f69e6ac352992
+   __TEXT.__cstring: 0x1a8 sha256:e17bd5415ca221eb50f3f78188aa9e426538bf9d3e6165daa2a90696bdf392ec
+-  __TEXT.__unwind_info: 0xb0 sha256:a1413a0c1a7396ddd587722c69807eceda6e551baffd4fc73c840d00bb9d483a
++  __TEXT.__unwind_info: 0xb0 sha256:9b195936109ca1118a9695dbde545456729b53e2741ce2fe64e0ceadd6a988f6
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x90 sha256:166c898ca7ed222049a752f9ee57754efdb84d77a950b747239794a1282924a5
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:f60ebfe6c24a27e050cb6610def287b94b96a63576ceaa177e0165b11226e97f
++  __DATA_CONST.__const: 0x90 sha256:abc4ac52bad86b52caeb6614975b393ed6f5fe4169b4c7190d173dcef5fe82e8
++  __DATA_CONST.__objc_classlist: 0x28 sha256:2fbbc5d900e22d6a2af6a88188959f4410fbfb30e80b0d7d4d808ea763e64877
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xe0 sha256:544e251e47310b9ea1ca10a83a316ee3c329f416b03acafd4e8b8252ee4d3897
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:eeb8109d5d129f9ee35166bb7882f2cbf7818e51f6cbd0420376a60a49fbbf40
+-  __DATA_CONST.__got: 0x30 sha256:0c5829fa65890721779ec6f6861c8aefc76f8cb4347847258127dcd69d57016a
+-  __AUTH_CONST.__const: 0x60 sha256:1037b2f841da98f3b49f3073d73a7504fc815105960403747a8f76cd79dd78ab
+-  __AUTH_CONST.__cfstring: 0x180 sha256:df9f93af30c5b346fa029701b737fc7b1d43c0103d26d8be74a805a56f4cc895
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:8d918ba3941ec8fabb6401b37f3b5b7d98d92e5ded03f82c8986dc58d1439e33
++  __DATA_CONST.__objc_selrefs: 0xe0 sha256:f696ab0b6357013d7fb7543dcdf044c7af7d677b66caf7ec99fe3caa30437882
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:83463be8d76bb414b02e87307aff76977637b56bfc6a227fd036b3d90635044d
++  __DATA_CONST.__got: 0x30 sha256:e79d9be787a9b90e27ea0ae7ce50b299fa43192c38dcbcc787e2c732c56a976d
++  __AUTH_CONST.__const: 0x60 sha256:948f26a293bf9dc2991e4db08982332b7d4b0c23a2983cd559e75aa1f3080daa
++  __AUTH_CONST.__cfstring: 0x180 sha256:8c66cc0a9b266f541c6798f9824000f0b0662a53207bb4d8be910e2cbbd9c11a
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:7242eb2f4f4295fa44bd108634a26fc3d9c4c4aaaa7a0cfc48e67fc503ac8f5c
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:fd0d7a4ad2e917f21fe2634825f1e6cd39f4d8c50f87f24853884af84fdceca4
++  __DATA_DIRTY.__objc_data: 0x190 sha256:f0cc3aa4889cbf87eab46da7f5ec43f55121abbcd33ed58443deb6f8aaa758a3
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C20E9965-88BC-3C0A-BCAD-5A2DC19C152F
++  UUID: E3AACD26-F75A-345B-9F9C-8BE1F750433D
+   Functions: 19
+   Symbols:   130
+   CStrings:  29
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ +[AXMonogramPosterExtensionGlue accessibilityInitializeBundle] : sha256 0ba596dc3b50c7c1a7aaec501574a73c2949eda7c40429951b57aa1c854fff5b -> 00a2f511725a237fd13a97f69476bd0fad2d208d05d2e0cc32f79d341376d222
+~ ___62+[AXMonogramPosterExtensionGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 2ab8c50675ffb90071711b71aa3d717ad981037454f38c03487f883cafb63287 -> bdd5e38569340a508f2f779af30d726314a0349188e2baef03b2a9fdc872aa54
+~ ___62+[AXMonogramPosterExtensionGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 4d279ec657b8adeedfc433788edbf8bfa63b93da857ef92ccd55a23f19c3e9f1 -> 0049817fc922f195d2cba0600bdd5a7806bf6306b3579d04601c6d482b009dbf
+~ _accessibilityLocalizedString : sha256 c737a46dabbc431c712deb9a3fba530ccf9ea822b670d771666acf0068e03d54 -> 279d114ebb6792b333211133ebc484d4a68cadbed81777ded668a7dfefcb7000
+~ +[MonogramSimulationViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 fb04e1bba5911ce66c3515cb7dffe9e5f2f3c17bb929b21fd492e4d38a372ae0 -> 1016d0c2da004130ea46a35b29d4ba417f75283ec249ff345a7b49d2e5d76af4
+~ +[MonogramSimulationViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 79fc46cecfee66ccd835d1861e80a7166b0b84ba4271e49df5a1e5ce141b7403 -> 30d2cddd3d34a9ce72905a85bab8f884e4f434ac11ae5273e538c7c3f2529bd9
+~ +[MonogramSimulationViewAccessibility _accessibilityPerformValidations:] : sha256 cee9fb5d94a70a31c15423d01e343c9cd120e6da3e05bea7f9808dbe2f728d5f -> a184facc8440afda60f78d082bc97b48a1f94c8bfa038c871ce76f5a733e31ca
+~ -[MonogramSimulationViewAccessibility accessibilityHint] : sha256 6bbc673a61d99ee44ee8c1fbb68ca37c48a4135a3ddeeb6e687b62619f565687 -> 47265967edba15ca4b10e4d6a42a2bd62dd81fc20767fca8db8d1ffbe7b55255
+~ -[MonogramSimulationViewAccessibility accessibilityFrame] : sha256 005cdd8f65cdfc1ac6aa5b3bc93a6918e678e5eb055da79abb0dfa064cb148de -> 5d9229efa5e4bf3822527ca0f7fac9c4137d38532be532f6c32fd2960b3b8665
+~ -[MonogramSimulationViewAccessibility accessibilityPath] : sha256 e8a9c13b26b08fbbf1a77d0b36d2548fdd45c78a7f7c9f6790870a54d1525cac -> fdb4b35ac249d6bf2405c153d7cba89312f2a853d22f629fc39f2cdcf7b1c74b
+~ -[MonogramSimulationViewAccessibility _accessibilityHitTest:withEvent:] : sha256 864a6f5d0be0d72155f6b981a82c33acb046982f2285bda70616b35ddd7329bb -> 945ea7f7b732a5f87faecf45ade713e7ea26be73eefe92018b8cb73ec4bfa70d
+~ +[MonogramPosterViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 47ab59e0f29879dcadf881eead71e82dd478e673d056581b8ba854700e1dde61 -> 65d192267b0736ddb639812e43cb03a49ee35d6712805f45117f22b27ffc60c3
+~ +[MonogramPosterViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 e3275bd3a6b58ed156b8b55b451abf7245c8bc69d0fc7e68c757e955e077e49f -> 39fafcb3a754b184c14434d493b262fbdc53267825d4d0876dcbc67f71fca0b8
+~ +[MonogramPosterViewControllerAccessibility _accessibilityPerformValidations:] : sha256 d87eb998fdab94db92983461e97f40859c2b7073d972d497c4daa15502c03720 -> b5d38c8a13ec52bd7e6ce4e29f1a5832efec328f87833e54f4082aea37603d1a
+~ -[MonogramPosterViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 1133366ea2146d13cbed455e1934759b2966989fe52927b639259f44c542c68e -> d3c2b1b0104d2dce869fbf1014ed19263ce374792ac7b47f753f8ebb2d286ca0
+~ ___87-[MonogramPosterViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke : sha256 88a83eda2e232097406d611d353c37dd4ffe11345f8e1c024ef46f924ccbbc23 -> 86fed31b65f16431d75d89d7b15c18b50c31a2a029979f051d217f2689634c64
+~ ___87-[MonogramPosterViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_2 : sha256 a1593eedbcb5c921c6de0d2d1600b252f52366610a3c454110e21160384490b9 -> 51e2fd35d0be16340f05cdcc73181413dea0d9777003526e6beafcd6572100eb
+~ -[MonogramPosterViewControllerAccessibility viewDidLoad] : sha256 45d1485e2e6cd9dcd633d229ac8ba2735293dd8c285af8704128970c5b2bde36 -> 09c1c34ff4460502ec5eb3d6161aebd4f44a7e32fdb4a875c9db3afc9d40220a
+
+```

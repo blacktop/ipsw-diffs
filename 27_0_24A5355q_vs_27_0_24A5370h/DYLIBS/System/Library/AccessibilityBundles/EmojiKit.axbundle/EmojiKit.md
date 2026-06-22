@@ -1,0 +1,78 @@
+## EmojiKit
+
+> `/System/Library/AccessibilityBundles/EmojiKit.axbundle/EmojiKit`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x7cc sha256:056dca47b5fd8805791729d832a262b9d966d271591005ee2e4c8f0011c50208
+-  __TEXT.__objc_methlist: 0xd0 sha256:546af5619d5503b237dbd11ae8438f0020188db29439206a332c5f0e594753bd
++3039.1.0.0.0
++  __TEXT.__text: 0x7cc sha256:1380401f7f1f4774edb1ee09c2f57e0667d63d7b26c24fac27f395500dec17ae
++  __TEXT.__objc_methlist: 0xd0 sha256:02de7ff9d68cbefceb48107f7fcf31560076caee55bbc6e37fea34fc635f63d0
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__cstring: 0x137 sha256:f0007823979e5cf61377b0187ce1edcf1c1e935b68453ddd995e71bfb3032428
+   __TEXT.__unwind_info: 0x98 sha256:c7ac40f0664994a040dc55ab49dbad0d11f52eed2195ef4032a5ef09e570e980
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x68 sha256:c6d06e083a52b540b164202ef7f18d8b8a6d3c627b91a817188e11e851b2a181
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:1a8dd2f52b79f66cd63e485cc2481e90c8dbf0fcdfce829bbdba8e3902fccb21
++  __DATA_CONST.__const: 0x68 sha256:d4b1aa49230bc535659be4483cdd6ed4398c8a8ce8962bf30d78243401bc7f72
++  __DATA_CONST.__objc_classlist: 0x28 sha256:5c96ecfdaa5f32b63fda6aafd808c653aead21b6a47839f80939ae74ff02cc68
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x130 sha256:20227e57b0093f6336e34c46533ef6bf23c6cf3e90b22af713a2b3f958fbfc94
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:47eec58f44504f06b9a2dc670ba486b32e4c047879fe39b920cd337ed0ee1006
+-  __DATA_CONST.__got: 0x58 sha256:8aff29ac5daf20311f3e3559249c9d58b0490b559b505f66df153babcd5a28c5
+-  __AUTH_CONST.__const: 0x60 sha256:3a431f173e027cb506ef154ab60cbd6503dcbf6ba77bfff42938b681ca3d433d
+-  __AUTH_CONST.__cfstring: 0x180 sha256:860286f96d587ebf45e81d908541109a2a5a1c72aa36cbfd6298abdb18b6f949
+-  __AUTH_CONST.__objc_const: 0x310 sha256:12cc017913946970b8290e4755b5a502c774a2f7123375cf90288e661ccab1ec
++  __DATA_CONST.__objc_selrefs: 0x130 sha256:c826de90c74e98bf99df85f3cd6245986fc717e12c743f7d5ae14cc50835b3fc
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:81d29181829924c64f492a3dac7310ea6319566f99771b1257b34a2a72d149c7
++  __DATA_CONST.__got: 0x58 sha256:f6284f3675fdf9122e2e823d2662a3c0a8bdda21c34846813dad3bf01051c07e
++  __AUTH_CONST.__const: 0x60 sha256:e3ea4ade6a97b1583fb78eadb804f47bab03ca3a6e6d81dc29654672650c2186
++  __AUTH_CONST.__cfstring: 0x180 sha256:4a5d3e348a001bcdfbd45bffa5cf18bff5bb981148b53ac867b7e47ebd19f5f0
++  __AUTH_CONST.__objc_const: 0x310 sha256:d43bbe4ceda27548972ecc3da9a3f1d98c3eacf49ed2cc8f78d5191f366ac30d
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:db440d2934d407353cd378b53c9c3b0af9ff036090f9cec1d3bbb36713fb494d
++  __AUTH.__objc_data: 0xa0 sha256:b49319b27892bef716c8ce2b0ff02b08993526fdeb42d8497129de8c60fb9120
+   __DATA.__objc_ivar: 0x4 sha256:4f8320d91e97d546dc799848e8d218e18050af7a7964e0414de9e5479006d7e3
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:b8aa58d8492dc3d59d8d775360ed156407d4aeaf92eeb79cf8f275e8f2694028
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:d417d94013c7d67a500b3c27dbf12b27381b1e4d4e7675792ff4156d6aa9f188
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B90A0D60-B5E8-31D0-B4DD-2EADA1C3177A
++  UUID: 89FF7140-9774-31A2-968B-93FB0F99EA94
+   Functions: 19
+   Symbols:   146
+   CStrings:  29
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ -[EMKEmojiOverlayElement accessibilityRowRange] : sha256 6d66d9cb441e5bf95439e7ce88cd0530872b6da13ea6353d4ed4edd81c343d85 -> 3a061ef38c315a585765818ca0e2bee62574f69034ec901aadd4eee15d18f2fd
+~ -[EMKEmojiOverlayElement accessibilityTraits] : sha256 dda005d61381f902d5b0c5a3efe9e90901921486d66746fb47bcf37dd83d01fe -> 5f1e15fb8b05c03b9cca5aebf01ac9f5fb5c9d30ee672dcd103a89b22d0b8959
+~ -[EMKEmojiOverlayElement rowRange] : sha256 c74d946d0ac283bbd9b10464bd1dd976d6dd0ee1631f53fa5b84645976f10bf7 -> 5dbd704245cb64f8b658d0cded2c1d27bc5d2a5f9c8a2a2344b888ada55bef6f
+~ -[EMKEmojiOverlayElement setRowRange:] : sha256 6ca69cf534f546db4e6a4105ab8e4314661b4797a550ddf2fbce639c795205b9 -> 0f5d978d0d636ad79ad5434cd23fb51c947ebb4f86e4c28c0eb96be6dda8f078
+~ +[EMKOverlayViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 21dfee228b07bc93f575fca19c53dad5b62466c71617f9beac1e06c6421cc368 -> 36799234d3046a8595eb8ffa7c0a670945760daf7b149ae402820e799b3c9191
+~ +[EMKOverlayViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 408fd39e1836545433953bb936d8b82a658db1cbe1c9f41c69130960d67564f2 -> bd802daad3ecc319d5423a0cfe1745caf2dd65162ac4c29a6021431f6b94ffea
+~ +[EMKOverlayViewAccessibility _accessibilityPerformValidations:] : sha256 6ea127e697ed66e64ff85eaeaea2580460519d846ffe62f6e435e5cbb03d4d2c -> e1ee28e88c87f1d32875a83eda1010b27db7f2184957b42b45d608533743658d
+~ -[EMKOverlayViewAccessibility accessibilityPerformEscape] : sha256 1c7941268a8c34c81dc2504f976a802b1d4c56702b9613098ae1c9fe18bed42b -> 5f2e7b5850490b1cc98aa6dc9fbc9f5aba3fd5e986d9dae50ef27d883a0759a9
+~ ___57-[EMKOverlayViewAccessibility accessibilityPerformEscape]_block_invoke : sha256 cc9389130c4f5c569b81e9de5efb059f389240bd5a4c638d60c9b76358fd5e15 -> 6bf7b88e2d71f4477cdcecae5b0a5eae97641a1cef4ebdcf576bb9822356dfce
+~ -[EMKOverlayViewAccessibility initWithView:anchorRect:emojiTokenList:selectionHandler:] : sha256 f53cfe2c2a86bb1fdb9d6990d4827dcf35911e462ea7ed53e0fb667982cc4b42 -> 2c264eb0fbc7a5fc4aaba0e6f0f1ca35f067eeed6d998dd41a449f30e8c0a26d
+~ -[EMKOverlayViewAccessibility setView:anchorRect:] : sha256 fa4d452cee35dfe83dcb9bad8182266a6c07ed3aa27352cf7094413449fe9d3a -> ceb81c9bd8497b49320d524e1ca72703747ba442498ba7e05ed63dbebdaea555
+~ +[AXEmojiKitGlue accessibilityInitializeBundle] : sha256 4e712e36135de34877c50d113eba3c8f47c656707d9988a46aeed27391a4afc1 -> 81aa22b73318d7716eb21c6ed2f5b20ab42de7f58eacbda77bb1834a77558c35
+~ ___47+[AXEmojiKitGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 387dd5fc4aba875f4e975705b6b2dc73a3f0b402e8d802fca5e4907210191bca -> e9c449d308729f43650e7f0d033ef63f899a54c3cb6a6a7933cdb73668375cca
+~ ___47+[AXEmojiKitGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 44c618674bf8ea30b7dc4e35dd4ff32dd31102616f0f90a27003cea715e6e248 -> afa4aa688143af38d450764133f20a7715260ee1e20685df2074b9d7bf73298b
+~ _accessibilityLocalizedString : sha256 c7d24703a0418b20451d2fde88b0dff40f06d9893cb740612c0c0be1e0c0ac44 -> eb58ca10378c57dc9670c3fb62f2b59a62582304086510609f1780de4186371d
+
+```

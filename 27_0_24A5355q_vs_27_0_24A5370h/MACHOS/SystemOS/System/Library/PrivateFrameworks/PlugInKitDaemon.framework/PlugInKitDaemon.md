@@ -1,0 +1,403 @@
+## PlugInKitDaemon
+
+> `/System/Library/PrivateFrameworks/PlugInKitDaemon.framework/PlugInKitDaemon`
+
+```diff
+
+ 510.0.0.0.0
+-  __TEXT.__text: 0x17874 sha256:21bf6820460923b411ac204df794cc8310b03d1db457d8ae4f76fa657dd498be
+-  __TEXT.__auth_stubs: 0xb90 sha256:6cdc92ae61c2617637ada0c26536bb6f6a9ded250f042c99380bae990b8b1511
+-  __TEXT.__objc_stubs: 0x3180 sha256:71f4acb2909239bc3a466bcd958a095dd0a74fc0a1cc6c49a58f45713ade139a
+-  __TEXT.__objc_methlist: 0xfe8 sha256:a70f9842fa84fea7ca7e9f20a60ef8b8d1d5d50cb553d48ad3bbbd57d32f665d
++  __TEXT.__text: 0x177ec sha256:9a99f766b14dc5e16e61c48db48a5a84f262205b7ec0a42bc87b445e9c410fc1
++  __TEXT.__auth_stubs: 0xb90 sha256:dc95d05f8e45eb8a9284c084f094cf986acefceea0a3fd55c1fabfc51c96769a
++  __TEXT.__objc_stubs: 0x3180 sha256:c873fc2893fe438a96f33d531f8731881537efb90d5ce900f2efff93d0811ed9
++  __TEXT.__objc_methlist: 0xfe8 sha256:9c47583e89b20dc79df23f3c68c1a48c57172f9818ae3df064cb63fb7cbe6df6
+   __TEXT.__const: 0x62 sha256:f3bfe9627570be4c3630ef92cfbfb6364f4ddb5254d8e4ffcc8ef22876899f64
+   __TEXT.__objc_methname: 0x3062 sha256:4d71e9a13384582c2e7655f98aab7e4a23fd91a195a78191e8afb77744a658bd
+   __TEXT.__oslogstring: 0x2c24 sha256:3b6ed470acd0799105f12e9e97530903a961827897edcdb45daf36f1682e4be2
+   __TEXT.__cstring: 0x138c sha256:462e3e7897dd9f2b05afae4acd324ade16c739b376b88ff935809f4dd98324bf
+   __TEXT.__objc_classname: 0x171 sha256:8e64945f55d84f293843049cd5e834e0956357034f4e584a6504d5e8464cdfd5
+   __TEXT.__objc_methtype: 0x724 sha256:750bc20855c96cf068200dbe1d14ad1bc1bfd6786d33667d5ac2c51de122c924
+-  __TEXT.__gcc_except_tab: 0x478 sha256:fda4ffe4604178b0d49d126be4a7c521289f93aef4ff928fb28eacc15c4e4f51
+-  __TEXT.__unwind_info: 0x4b0 sha256:71ff3cbe51e7d11f13457480e6a3a1310f4e739b29d95e524644f70bc77d3827
+-  __DATA_CONST.__const: 0x578 sha256:5f6011d8e9c7ce2e8443f5cd1d419459425bb8aaf9830738518eb069b8e258df
+-  __DATA_CONST.__cfstring: 0x1220 sha256:c642d349163f76e0c49d2a3bf25508eea4bf4101c7138309d4da26cf025eab58
++  __TEXT.__gcc_except_tab: 0x478 sha256:5be84ae8bcba2b42a04d1f882245de76528b7d4fe0d4465a0d9f9788ec7dcb5e
++  __TEXT.__unwind_info: 0x4b0 sha256:cb7f79492a5d06e709df15afef18dcb6c3b4082087cdd94010b16ea8b1ff302f
++  __DATA_CONST.__const: 0x578 sha256:467e8ad769b0402e26e50b6b1d3437a5510dab34b05a1966604baf1ac3708e1b
++  __DATA_CONST.__cfstring: 0x1220 sha256:162805464e445a5fd3abf878db5f3f4baedd8e2b2da7a20c2d2555d85e2dbabc
+   __DATA_CONST.__objc_classlist: 0x78 sha256:d1d5c7bfe1f894a977bf4df13205cfcdc9de9104a01bed872457c2560dcb1366
+   __DATA_CONST.__objc_catlist: 0x10 sha256:e22d8986ba9ffe11d58de7321551a0e3d8756e487503393fb74f215a2b713098
+   __DATA_CONST.__objc_protolist: 0x40 sha256:0d3b8a57bdd1f773fc5714ae43209bd20d24471d0be059449a59834d1ba9bf5c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__objc_superrefs: 0x58 sha256:217110266f51a1a5ee2b35b2920392bcf101621f7962e1b88dcdb1fd4b3901f2
+-  __DATA_CONST.__objc_intobj: 0xa8 sha256:f7ce5ed8a0945d5a852fef3fb5bff99a1bfd1fde0c6cd4e684f87113777cbedb
++  __DATA_CONST.__objc_intobj: 0xa8 sha256:48b6b557d3392a6cf973b735646c3256f5aa313d12cbd7eb1f995b52326846cd
+   __DATA_CONST.__objc_arraydata: 0x18 sha256:7c0e5a0a890c297740884ba02eaee9c1d4426de3592559bdad3252b3c91afaed
+   __DATA_CONST.__objc_arrayobj: 0x18 sha256:ae20128e07864a19f09110f58c067d555f16b0171897bf0117c2980b6a1c7cb5
+   __DATA_CONST.__objc_dictobj: 0x28 sha256:dfe04037b420a4794d9680bc1b10ca896aa2d00024869f89063d6b9e75d06965
+   __DATA_CONST.__auth_got: 0x5d8 sha256:15b448a4f7701c078fe1a52f467f72cbca874fe8ecaf35b997bddc6c1960c5b9
+   __DATA_CONST.__got: 0x470 sha256:0a5862249d0218ab3390a9afffa1281033404098ea7998718d3c628653339f8c
+   __DATA_CONST.__auth_ptr: 0x8 sha256:4fa3091e6074f2538c89b1c22a5b1ecd6f1d992904c2d9c2d587c4223c8ec5fe
+-  __DATA.__objc_const: 0x2798 sha256:b718f015d4ec03a67e3cf16df06d63e25c87eadbd371031376cd5a96ae0e1b83
+-  __DATA.__objc_selrefs: 0xe28 sha256:69d7a78dc44a9383ca2fb58c441cd8bbf67785e0d6725aee86ec0920bf90f192
++  __DATA.__objc_const: 0x2798 sha256:926f21a5d688321875e9b45ccbf94e32f5a1bd67375d6f45cbc9c919e8540358
++  __DATA.__objc_selrefs: 0xe28 sha256:b7b387ea68e2bca79a6d0842800811e8729064a748b725a7d3f795a4a5a94199
+   __DATA.__objc_ivar: 0x11c sha256:467320eb4ff82d2603c204743383b855c9585bf2aa816de86fe71538b8242183
+   __DATA.__objc_data: 0x4b0 sha256:cde5b9d3ead92dbd5ada459114fd2170d9b56f861d6504098e55a8ab7ea005e8
+-  __DATA.__data: 0x300 sha256:5a318a73a0af15ea8a12785c22b933873f087ea591b3d758f48bb3d8c6e05236
++  __DATA.__data: 0x300 sha256:177ffec89389736789c823aeec6ef299d51fa267556cdfa25b75bed0c2e99575
+   __DATA.__bss: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9EDC36CB-7A2D-39B0-BF6A-49654047BE9F
++  UUID: D1029F4E-1EAD-3791-A741-879C38070FCA
+   Functions: 436
+   Symbols:   1482
+   CStrings:  1251
+Functions:
+~ ___65-[PKDServer initWithConnection:queue:database:externalProviders:]_block_invoke : sha256 2913ee0ac64da270ccdb5b37bd8cf2b95af84c509091e179c87390639dd1f1da -> 7b417d0ffb7fc1dfdaa05cbc72f8bdfd3af7c24b7d6e946a263be71894d97c81
+~ -[PKDXpcClient initWithConnection:server:] : sha256 2c3d824bb9e239a01c44c236166dfc4ea57df18b01bffc9ce83a5aa1e5ba555a -> bb8448fb37b1baa6c87b563b0957bd7281c1137deb8abb0e98bf06a159cefda3
+~ -[PKDXpcClient setConnection:] : sha256 7c7b0c6f139fe2fb08d77ff34ae21b146021667dbca7999740fbcf138cdff424 -> 9445df9f35aee3078d472d2f4e2f4e6695893aad5502f8b9c5bf7b1879081c54
+~ -[PKDXpcClient pid] : sha256 38a85a5b3286dea46da64dbccb6c81d236424faed5017a443d52d6a7207616ac -> cbfe94e32662d887427baf494fd61c8d34eb476605f3037965e7b3f4f681d1bb
+~ -[PKDXpcClient connection] : sha256 bc21d549077cc132d91b5a354470532d0071cc1dc38a1daeeb0f1164fa43e15e -> 45bdadf72d4450ef1998a4a638dcf26959dff7ad2fb902a084e7d78001c12cb1
+~ -[PKDXpcClient setQueue:] : sha256 06c7b85718fc5b944ac19ac807bfce9488cdc0eb53ae9d4e21c776a5d8d5d920 -> 6ce31bf8285f09b10fa16bcee424f8e24ac15b73322d528eb65ef81ae44ae2e0
+~ -[PKDTransaction initWithRequest:forClient:] : sha256 fba0ae48872341782741990ea991ca40e051d15de67fc7300339fb88d25135c3 -> 497f77f79da5affde7236f81d8a12e26f2b4fee864f97120d453b4d1e3ba4ba8
+~ ___42-[PKDXpcClient initWithConnection:server:]_block_invoke : sha256 6a3487177595fb93a370a029890af9b737aebc4186866859aa69095dfe493dfc -> a44e986f40a6e34f9b2d08ba2c76ce36360dc9e6bd1b4f45f90144ca65249492
+~ -[PKDTransaction request] : sha256 4f98a67c69568221f73ab1c311e0635c4265ed35aa7e44cf11a2ae324c2aba4c -> 5ac07dda3281905a1241cc33aa528baf2b715d27d464e28cf514aa16dee470a9
+~ -[PKDXpcClient queue] : sha256 09d4dfd59fc102673c69425c03e1e4e6685fab66a0a2712fcec7e9cf70069be5 -> 1592467c696a2221587b1ce8324ec3d29a4c645494a1d740794f7bcf95fea0fd
+~ -[PKDXpcClient setBundle:] : sha256 a599103146acc290c20d879dc1310701e75dc2743aae8d746a91241a80cc8998 -> 41eeae4eab86932827c3b0773cbeb4dd0844801c62f16dbb634098ba1f3d4ecd
+~ -[PKDXpcClient setPath:] : sha256 c2f825ff93ec4608e8eaf650770df6c445a14beb74e0f7340d6781334e13ada0 -> b7379cac700d046524d3efb21b658ae9defc19f4c2fad4aac07704aee2ca009c
+~ -[PKDTransaction client] : sha256 9f8cbab62f17964d6ac539ab1e9f070b0b0d2422f94cee447a612a7058f4573f -> 84bf1250f2f5d3785f50a0645f23f43ce9ffcccc015421290aebe305042a5fe2
+~ -[PKDTransaction dispatch] : sha256 fdc7aff95ed12ac0d7a78407aff2a0387f67a6135852a025e15cf350083a9d0e -> 095662a518edc8651aeab57c4cbe6c914c58b69a6d2e77447e42e20bb973ccc1
+~ -[PKDTransaction matchPlugIns] : 4848 -> 4836
+~ -[PKDTransaction server] : sha256 2c413d53d6e7e45e94c58397ff45a161573d5f31f235b8013db614961d8626c3 -> 7fc77825d4b5a1fc7978784bedaaa6b83ebfa1c82d672ec55062d8a06d3e394c
+~ -[PKDXpcClient server] : sha256 4742f93d3bb7e61fb21cdbb0b7c5698405bbd52847747808c2a29e50e968a732 -> afa92711a9c44c00302242bd0ca0b1bcd3bf2177b5143e4c4b16f8b0bd16f6a5
+~ -[PKDServer userPrefs] : sha256 77ee07c23c099a21c7fcb669bc4c9b4aab25f6b74a21320417e5b5bdbc7143b1 -> b7d0a640d9b2a1190de35cf4923c6b90705474bc8848746f52eb8291c521a05e
+~ -[PKDUserPrefs exclusions] : sha256 ffd16f7fd53d27f83153d350329da4bbef612254469d7f355e1dfaa85281921f -> 0328d8f95d96e55600996e2af55f022d43efce179c7185c95341ab749f33492f
+~ +[PKDQuery queryWithCriteria:discoveryUUID:database:] : sha256 4b7f43fbb91466ae9e5ae5141d82a3f71b735ded667c13d05676801bd8b50cf5 -> 2a8e239c45a362b24b03a7197143265feefd69fdb3fb6af023d6a813644bba32
+~ -[PKDQuery signpostBegin] : sha256 c57819b68e319fc87d76b6a0e8157b44942aa9ba3d4fc1a9852ffa3fbf527869 -> f6738e4e675a7159f3bbc2d54fadc4f7c01a144f0a09597a354e9541159c6132
+~ -[PKDQuery signpostEnd] : sha256 26b3fcf7a931d6c4f13fafdb02f8f30d7e3d498fccca00728c2f752fc39eacac -> 1eb0c935f2c548a4c827f2680ccbbb2afa951d4f78dacea987faec68cca67dff
+~ -[PKDQuery _findPlugInsFromEnumerator:] : 544 -> 540
+~ -[PKDQuery _findPlugIns] : sha256 80defbc5f0aa7b1798ecb3c566c147f8ab09a86386db958bf52524569d0cc291 -> 60cc9d37d05fd7ce29a0a304fd7ca217f407b37ae1d53c01c476cc8c6ea6f935
+~ -[PKDQuery _findPlugInsWithExtensionPoint:platforms:] : 892 -> 884
+~ -[PKDQuery findPlugIns] : sha256 eda7341f5bae62dcc650eb37ef4d4b02ec63062281a6bedbaa5fdd784b61b62a -> 5fb4a038294bcd8a81662671c12a111ba901d2b1aca6d7f95ddd2b2c5c60697c
+~ -[PKDatabase findPlugInsForQuery:discoveryInstanceUUID:allVersions:] : 1404 -> 1400
+~ -[PKDPlugIn augmentForm:host:] : 1424 -> 1420
+~ -[PKDTransaction reply] : sha256 631da9431852f4a5e73a8d0b286671466cb8d041e46c65c1dc5ae2ea54a212d0 -> 3020f0f1ff1823f75a7e87c32e16cab19e3198da688351f2608fdb485ca4d586
+~ -[PKDTransaction done] : sha256 bc00512fd74093237122ff4ece00e4ce560dfe841e5da07f59f0859bb0863076 -> a2c9182a9a25438a684294a7bc914105d1ff51855ebe4957efa6f4b58f18f5cd
+~ -[PKDTransaction connection] : sha256 2c3e4beada0324d40d54dc3454e5f7c519d74b32bf3b0117b20c95cf0940301c -> ba34624393a4fd60a98b3554ce39b9ac3f84a256ffac7b66b3d02e4d91eb576e
+~ -[PKDQuery database] : sha256 d93e4e2efc97818d9e9ce1fbf70e4b9e9233e54e8d40ebf861df47e57f2e64b4 -> 7e189bb9b8dd24773ab3a229ad73b94a829dae124b29a33e85e673221bce30a0
+~ -[PKDatabase plugInForExtensionRecord:discoveryInstanceUUID:extensionPointCache:] : sha256 efe992fa7e3ee9e5089723a3513461a43c75e85d6d840f0929e77f52c3015a07 -> 6eea751e5951639c399453bc3e90d160aacb55e90bf82c42c4922c0bf5ebc3d4
+~ -[PKDTransaction .cxx_destruct] : sha256 08056e4ea4c15f7be3cb6e4785d2bb97ab6800925dedb00348d8244449f0ce42 -> eba021ea5333ad90e2575c083f0badae5ca3692dc38edba174eaec0d67a6cd18
+~ -[PKDatabase cachedPlugInWithUUID:] : sha256 24681e1b6488b370f292cb0373853753c4db4af6d10592a442d4c76b03d15f09 -> 77b0c7faa820a52b120ff0b8bd620423e87de63b41d218eb88e552b14943b398
+~ -[PKDatabase _locked_cachedPlugInWithUUID:] : sha256 354eb8fc71f015d0c587cfa3b55caca983e7d7ee932369d7eb512810acef55b9 -> e86c7c0045e4bb77c62bf479e1f66bc82c399a22f4fa18e76933ad5222f5da33
+~ -[PKDTransaction findPlugInByUUID:] : sha256 d7e5b9016a6a6975d0e60eaccecaf48a6cb1ef11057b78a548cd53d20a62900d -> 5102e8e793b597c62338462c4d2d9666cd86d5cef217f33d9f104302b670b098
+~ -[PKDTransaction findPlugIn] : sha256 eff063e5070bb3223b6c3a00c7861ee382b7f611a52c10627891a14350af5e6f -> 655ff7a1626e0ac2b60bc40d32803156124e59732b09f952f345d8d09cc05e42
+~ -[PKDatabase findPlugInWithUUID:] : sha256 d76f012b22ec10c358b22d1dd10c860b92c0af05fabe5128c92497f79432999b -> 2a67cb1e28fd490da363604b96b761e1959a674789a35af7f9652c0b7afcd5d9
+~ -[PKDatabase findPlugInWithUUID:discoveryUUID:extensionPointCache:] : sha256 b2410aa0a8a0176c3c5bb483b7d488cfab144e30bd1490bdfb28828fff023479 -> 35835f4fcec79c8f03993b8e1cfad0955972fa75919e2a918d36b8ff66be6bcb
+~ -[PKDQuery allowPlugInWithBundleIdentifier:entitlements:] : sha256 e8a05cad122eb23af0c30a10730d063edee6d83980f60efa575d5b006f9bc574 -> 69dce14d703557f9769b571ee29de181a5832e8e101e89b6a4368b5e719a49b7
+~ -[PKDQuery _electionPatternAsArray] : 532 -> 528
+~ ___68-[PKDatabase findPlugInsForQuery:discoveryInstanceUUID:allVersions:]_block_invoke : sha256 cb470e17477074ad1fa6e31107b6a12b4ebe871130e94f80ed894ec6a43f25b3 -> 56421e7b497d2a42063c21ff09203fb151ede311ee675cfd041585d55fd11092
+~ -[PKDQuery criteriaIsSimple] : sha256 bb450ea8486e9c9214353732b74fd6bd899ec198ee8b6dae7aa548952da68589 -> b0c8b1ed5cfb70dfd3c4e145f17416749c8339b03e7b607ac53c26ec01fb7a1a
+~ -[PKDatabase annotationForPlugIn:] : sha256 fd6762335c2785b25a7a4a3bc6f3c92a0b5f35304059db421637a6f360e500cf -> bde0e30ae613f44abc9da7d2e539ea994474fb8419934c61f50745c5df7babe3
+~ -[PKDQuery setSignpostIdentifier:] : sha256 15adea9244d01970bdda8c3b7281b4ae6679d72eedc1e8ae24d576576849960b -> e83aac1b91a99c73cdbb5d83c5d2e19488cf5b707d50c1d3e398d0e1583452f0
+~ +[PKDPlugIn nullPlugIn] : sha256 d5bfc1e056063b8eabd8a156335e2c30aa2d9c578443fee6beb4fd9e230b4b47 -> 89935162d9c76653052cdb62b8f806108d7f5e93d45b294a88779340285d2fab
+~ -[PKDTransaction addAnnotationForPlugIn:in:] : sha256 a0d96b161e96467fa922608aa9f233e088c62099cda7578b873e13884d56e743 -> dc60230f30a34c8992c1a4e662d7f3cee700b33976e85820fb565fb86b3b3908
+~ -[PKDAnnotationStore annotationForPlugIn:] : sha256 4b9abc17c60622a109f145493723865cb1b5f95fee9bdb2d6b5f442acf64dccb -> 93f6e11708931cf96c1f571b9e41c87b206e696a883cbb5d59e0b77146e2c789
+~ -[PKDPlugIn annotationKey] : sha256 13fe6de2916e2c7142bb8058c5d2e84172da6e7fe21092c82ff0a6c16f0ffdf5 -> 198048359cffa87adc5b8958249f56b8b4ebbd5493361cc5f573f4f70159ef8a
+~ -[PKDXpcClient auditToken] : sha256 79adadef8c5b3062ee3cb29807d628256c07b0a11d8f67dbbf4b1df4f395c65f -> 2239698e7451a8ea21cc5faf107fb4b22b791573109a7fdce2b75d73da6cf75b
+~ -[PKDPlugIn issueResourceExtensions:auditToken:] : 800 -> 796
+~ -[PKDPlugIn _subservicesFrom:] : 484 -> 480
+~ -[PKDQuery _safelyAddPlugIn:toSet:] : sha256 d4a3a5782330f94535f1b0b236bd08d1d032cda63472b7f86ec0767872e1bb74 -> 07ec866d1d6e5640130eb8b606598314739ea5ee996a9a30ec81c241a19b334c
+~ -[PKDQuery _needsFilter] : sha256 ddce30d88c4d928d01728cc352f91d2efea28cad8ec724986900b145f5d73b8c -> d03333180fbb20b5a55b27d036f28be44bcfd92d6891be0ab66a1030dba69715
+~ -[PKDXpcClient entitlementValueForKey:] : sha256 63955238f4457d429fb2b585aaa6432d3af3ce8f02dda44e9dd671a1dc35eeb4 -> 995fb3f5ce027b62ec5f6de0566bf5e6472ac0775cadc65ba38a7f7269c88d17
+~ -[PKDPlugIn allowForClient:discoveryInstanceUUID:] : sha256 1b7306da40c002a50b11561fb0a7520aa1d1f9607016d88662b620be6abddfac -> d2dc7379a280ec7ee804e964289ebae4a8f3a65ab74e32cbf36d685893663645
+~ -[PKDXpcClient hasEntitlement:] : sha256 e5f743b407b7177428175b36d626d53694ab17f064c5d7a84c2b2cf601c6a8a2 -> 67e4bdf7ff34a3837f4423eb2fc3fbe5353fad013ac716e4d41aca6897e0078b
+~ __30-[PKDTransaction matchPlugIns]_block_invoke.151 : 3024 -> 3020
+~ -[PKDServer holdOnPlugIn:] : 464 -> 460
+~ -[PKDServer holds] : sha256 35e9598292eea457b010539405620fb314a75c844d258531b4cf764bbd9248af -> 3f5666c05eda3535617dd9f951f44254ceb8912e665115a8059eee978186c567
+~ -[PKDPlugIn match:discoveryInstanceUUID:server:withError:] : 476 -> 472
+~ -[PKDPlugIn matchKey:pattern:discoveryInstanceUUID:server:withError:] : 1120 -> 1116
+~ -[PKDPlugIn matchValue:patterns:] : 388 -> 384
+~ -[PKDPlugIn matchValue:pattern:] : sha256 9c29b55c07fc3c578e672b3635dd43e50a54df4633409888d623bbc021751810 -> 2e32a8a578448d705556b15699f915d3d51e13b666f1754516e2f8f87a61d245
+~ __30-[PKDTransaction matchPlugIns]_block_invoke.153 : sha256 9b0a70cc6837efd9ade7734232407317cae0a51e95e68f0625ce9dcbf1d423ec -> 6e0af4116a684d92669e71bd7cd1cfddbde65e84c4d92f47b9d0d1abffba1286
+~ __30-[PKDTransaction matchPlugIns]_block_invoke.157 : 840 -> 836
+~ -[PKDQuery .cxx_destruct] : sha256 e7431404c73ad2bafddbee2f617dce65b54b5ae65f7d03c30a6410e16757b717 -> 6ec37837fed85e90e16317b5dbeec30c8de7cc112df82aff05c745dd99344a4a
+~ -[PKDTransaction dispatch].cold.1 : sha256 97bb01ef8d648596b0b0d941d25c139a7754a7bc51b602d1c3386a00f380c8c4 -> de5d3ff229e0d2082bfa77001b93cd529c3f2b3c80bf80f78de787f15f1ded81
+~ _OUTLINED_FUNCTION_1 : sha256 ed96cab9b06124c897238141961427431d6c4aab275647df5e6f404511ae5e20 -> 3939900903c100f7fca6ecaa08b75341d766796a4618da9f7cf613b40b197dbf
+~ _OUTLINED_FUNCTION_1 : sha256 8f82bb899ddb71e5150f600f0c5b89ee8a530f24893512ceedc46badb3b64681 -> 08957de29f7ae7db14b1591c0627ab0accf946e51d147395d1762d51826ae1e9
+~ -[PKDQuery _findPlugIns].cold.1 : sha256 62cb5217b49aff8d529f64af07a7de8e6dfcc90d5b9f4b1776371b142c782146 -> 353ef5342a3d514796766fde8c472a8795c63e594a2c8858e01ab706fd2abb92
+~ -[PKDPlugIn enableForClient:environment:languages:oneShotUUID:persona:sandbox:pid:error:] : sha256 405d3c73c83d7cefd3b1d301a0f594c2f9114192d0a425362ba7cbce582adf4e -> b2e435e4695ee937b6d6251cfb8ad993cc997bc670249e77e41b45614540a77d
+~ -[PKDPersonaCache _lock_personasForBundleIdentifier:] : sha256 806c674a612a18f26613b4f2366611ffd4f568608a58a8fb4f12dbb64e194558 -> 8616cce24788db34474d705d5490846ce17b0c94d6a58e7bc60a0c2b6f300d7e
+~ -[PKDPlugIn personaCache] : sha256 081e0966e982f9f33207ac1e3b0d9ba413e3aef035dd84d56a12f1d30e92b5c8 -> d57e70449d8b5afe7f9c2e9707dc766d0b134a558d2e7d453bead778969e2cf0
+~ -[PKDPersonaCache personasForBundleIdentifier:error:] : sha256 79c8d7130f1d5a2fda82871995f1aca44dae08d28136d95162e688a9f20e6393 -> b9ad038203cd1653082219d23951c071146ef954fe432b4c2d239ed97e5476cb
+~ -[PKDPersonaCache _lock_refreshFromUserManagementIfNecessary] : sha256 2a7cebd1377cdb053e157002595e0fc6dad500c4d347e7fecc6c9088cf85ab73 -> fb2ba3af6449668228c1b834ac996a8a9380e0a08fe9e3ab7eed68b30869f702
+~ -[PKDPersonaCache lock_bundleToPersonasMap] : sha256 c4489f927ac422c78ce368f7e511df8b07f49e1b6baaf1476f1c6fcb4dbc159f -> 1c50b92efa9e4b108458b003b63af4b0783f50f114a5ce050621d8006d119545
+~ -[PKDPersonaCache lock_personalPersona] : sha256 f569fcddc432010f29ffa741f22f8390a9edc74b7ae9f4b810e26de4341bbb77 -> f7988a7688e1acc726aa8c707860eef5a7551087334cafab8015ec6e0642ba8e
+~ +[PKDPersona personasAreSupported] : sha256 b46ea95bf3d6da4bc6dae6e181a3fa5044792d41971b258dd5548123b5fea219 -> 3a8c7426320db81d7ac77ad62eec46b6c82e06d73d66ced135cfe686c72e5024
+~ -[PKDUserManagementProvider personaGenerationIdentifierWithError:] : sha256 d2ce76e4b11c1b404608a2446dc1067f53be65316f1616f6ea1b2f15e99c403b -> 71718fca581ed7ea7d35a65cb3d3f9a15ea8d90a60c1ab1ab757e6eb0e755816
+~ -[PKDatabase plugInForProxy:discoveryInstanceUUID:extensionPointCache:] : sha256 883a8193a5bf5dd1aa2d10a21afd2eddcdd5bb5030d38b8c3ebdbb34ab0bd5f5 -> b35e30599d48b437db9f086adfd8fc7ed1cdc12587566a250c17ffde7b79c172
+~ -[PKDatabase _locked_cachedPlugInWithUUID:].cold.1 : sha256 e481ec26b9464bdfb86cd9a151931a21512f7575917b8f782012df1ff4038e2b -> 71e2ef2ac4bfc850edca78c0d97bd950e8ce7a5e181c2813753c55e39cf15633
+~ _OUTLINED_FUNCTION_2 : sha256 81739e3591abc756d2aa218badc5c7ce5f3e6dd0fdcc563423e8855339a61d95 -> 261e908400a915d8f56d54ec2d26bf32fbade236a7227cc596d1420beb22b9d5
+~ -[PKDPersona description] : sha256 73ac9ef05b2ddc32abb7bd39552132224a92b4ad82284b586088ec0add73a6ce -> 52792e39ab478b79e4236f0eebafa486cca0ef9ef5e281710e958b938942f41a
+~ -[PKDPersona personaID] : sha256 10c96961c285bdf4a0371ea1d13cdfa3ca16065dc99f6d9148dbadeb9da0d6db -> f3c87118fb64ad9f98bea787366a7132c417bdff234f7858678fd5b7c56d936f
+~ -[PKDTransaction readyPlugIns] : sha256 a11da6dadf2e0733b3dbf856e50a5cd1b11a29ce099d31f7fea599eb8124eae7 -> bf0fc0457fe790945bcbc91f9d07c776cb078c557bfaee5cb2c606b4814325f9
+~ -[PKDTransaction processUuidList:] : sha256 b1316eed31600e9c6e7cab575e7143b67e8172033c9de62210d587d890b010a4 -> cfb3886b78fcfc9352dd6533416f0df1bd9f7d76e1ee985a43f61a895e0822b9
+~ ___34-[PKDTransaction processUuidList:]_block_invoke : sha256 b141344cd94d6ca442db331d0fe218e6cf1b12266587da5276ae6a7b89370a49 -> 8be5b8d35445622c9826b99fa553c59a911522ee5910e256d516f47da4e550a0
+~ ___30-[PKDTransaction readyPlugIns]_block_invoke : sha256 dcbc94ec7161f995975c9f16eb9a7ea6a6d06d2e0759b1e5a939fb4f3c227adf -> 4b5949c0d84fb9b73db28d87d6b7be1e0a59e67ab44a50fcb13097243a74f8a5
+~ __30-[PKDTransaction readyPlugIns]_block_invoke.85 : sha256 f61a8c8e476309970f42f71c6a7ee6461e3527d3de87dee37542010e2ba84d6c -> 35d163c4fe751cb2dfd05b20b4de660abfe54f50b5818bc4342446bee1550992
+~ -[PKDPlugIn sandboxProfile] : sha256 02db4f39c1d158d673035cd77930ca377d1af0ef41b848b26c6e7c65dd717ce7 -> 75644caf84ad98cbae564865598f1b13fce91473e2031131eb7b7ea0de61cc87
+~ -[PKDAnnotationStore initWithDatabase:externalProviders:] : sha256 b7e2c14edaf3b4848894f8043ceba2d56549cd2428f04ba886ac745b1fbc5610 -> 56b56e21044bab64186f3b780e7d449f9a315d4beeeaffe70737eb8fc0df4c82
+~ -[PKDAnnotationStore annotationForIdentifier:] : sha256 8b1c19284d3771edf3ca60a51c9564400e3701cec52da85de29a93efee114ec8 -> ae1461f13813564b5fb6f0821e373b736e7a2df249d6c2be9c02b7f8869e6df4
+~ -[PKDAnnotationStore setAnnotation:forPlugIn:] : sha256 8a16d9e5eadb2aaaea64d6728d808a8683dbd0fa43613899faaf842394376484 -> 6942ea78b9880589b0791cfaa2090ec3d34d66ab9b0a6406a3902ceb529ce536
+~ -[PKDAnnotationStore loadDb:error:] : sha256 a4d534867f5efdfe3d580372ae2b3b1125e7b566474391d08280c6c1f730bd02 -> be632bd05e52aab28e341b7d11ad58a0665dc179d4e93f069ab79d965a69411c
+~ -[PKDAnnotationStore saveDb:] : sha256 f45089796a4cbc147c69cbc4f2d439ad623a08926fbf5c92d46d6b7653d06fa1 -> 40bfbc73fe327d0da4de1cdc47aa9d1544831def8648f0bb488ada27a873bd8b
+~ -[PKDAnnotationStore defaultDatabaseURL] : sha256 b78c81c8d45c0ddd1431695a67f0febe5064f82a6efcb7175ef16558bce0eacc -> 985c730353973b21d27cfb01fd240018619176c469a0fd2be71d2aff53a8cb7e
+~ +[PKDAnnotationStore confstrURL:] : sha256 eb3718cff954fcb5cfd18e193e1cd3d5ab8272280cc73647c3f6965a171348bf -> d9d51aa2a6cc4c98e1fa3bba1672ae804bfd5e491c43e2ed783543ebb9d902b5
+~ +[PKDAnnotationStore globalURL] : sha256 51116e9f56f64632eb7f762a61ba21ed71a84642ef5c0bdb85a14e9d85ad7b34 -> 629ed7402dd64c93d934396a9e113b4f3f1b7d3ec26c1446564be39c7d178761
+~ -[PKDAnnotationStore containerURL] : sha256 9aad7125cd60460b0f3a0c408e9cc48dd2db63cd4d72029359fe81af84b4991d -> 53eab2c9008b7a2bf0f5331d72ad7407a4de3cb34ce36e51a8429df510777877
+~ -[PKDAnnotationStore setAnnotationsURL:] : sha256 72983ea461c475723db7aba851b443ee029eba2805a3f4b3db49862b4093524c -> 6dd7a74562cfb0cffea4d91cadf9a556d16f1be964820e6f9a51061575732310
+~ -[PKDAnnotationStore setAnnotations:] : sha256 853bb55d6474b54f8cf0ccf2ca8645584f7a549ab1a74bd1fda11aed3005728d -> 36ef254b3698965b27fd12fd2c6d683b358fbbf4c250f495c2e8897c3ad6ca47
+~ -[PKDAnnotationStore .cxx_destruct] : sha256 19633bb12b4d6f53c19902f0c17eaaf5685c56edda1706dbe22038302d6d40b7 -> f33c773d22ae95ee1d98daf67f0232c9887f83e4d3ca8b8033cc24a9fc8ec32f
+~ -[PKDContainerProvider query_get_single_result:] : sha256 c8e1f4ddd3e2a18a5987d826f931e42dcfb56053c5a3de9a564831d91c053865 -> 923fccc740986442d8fa7ab173b3571abe96a1b13af85d6e7e00aee49695ed29
+~ -[PKDatabase initWithDatabase:externalProviders:] : sha256 3fe76abe649596f382cb2794c1bf9cfbb76888836084128eeb001cb298a41912 -> 9d579fa8b617d4b9f493e18f1fda4d743589002f4a58d4124d056fb77ddd7f82
+~ ___49-[PKDatabase initWithDatabase:externalProviders:]_block_invoke : sha256 82fdb6535be0f09aeedf5e01b5a15d3ae4e7e3961a4cce44fd5ec45d399c45db -> 1e673526ba9e19b2eab560cec84e82b03f8be1c40dab82359933314e08d850d0
+~ -[PKDatabase createPlugInForProxy:uuid:discoveryInstanceUUID:extensionPointCache:] : sha256 382d1d8ae586614e52b81439841fbc69f1cea9598a8700cd1d74252032cf09fe -> 23bf80cbda5171f48a8295d685b6f3d3b6d1fc189edefab85e597da2db0ca5bc
+~ -[PKDatabase findPlugInAtPath:] : sha256 8ca6b5532b2cb38cfe36486651de22a2803a2192226ef8510d72eccbd99b06eb -> 4cab85fcab8a2beeedd9eb0fb9212160fc9f91b3681fcf1d78419b14f48baea8
+~ -[PKDatabase plugInsWithinApplication:] : 500 -> 496
+~ -[PKDatabase plugInsWithExtensionPointName:platforms:] : 584 -> 580
+~ -[PKDatabase addPlugIn:] : sha256 6922a1e6ddaa5d21232889468633be17f9926818655434a98dcdba65d6fb7576 -> b15adf83f3e8e80dfec82abdca1789f9b32d2261a3a677d28b5b1a09f5c56e23
+~ -[PKDatabase removePlugIn:] : sha256 90f7fe481f75af9daa203458b4b6a1d100bd25432d3f92dea44cec7b40e7ba1d -> 968cd414af074e52233e0d24f0b337b066060464571ca87ff26e67774cdb35c4
+~ -[PKDatabase annotationForIdentifier:] : sha256 64ed938295db7d048227e2053a2074e20687c8e791d217590384cdf5b710d88f -> ced939cabb50242074f166ed49c33582e21e8eed35e8052c9d574174ba5180db
+~ -[PKDatabase setAnnotation:forPlugIn:] : sha256 6fc1c92dbe9191fa007e55fae35f5031623c8bb78ed4d1c8017124c71cb6ba22 -> aacd642cdc09e6b17f5cdc2c701a5c21ea05b5d0a7558a679aa752f20a4d8f66
+~ -[PKDatabase notifyAnnotationChange] : sha256 83d1ca66a924ca0a9dcbb404f77147f8720ce98d73354f75913a36d0937d0fe1 -> 7159cf758b9f219139c1e79930d58203656fbea2f2d91d42386bd38e2845d91f
+~ -[PKDatabase _locked_autoElect:] : sha256 00a296c174d047a95c2aba65a349e8708486509e89dd20d404658f94a3fa8bef -> 63c81b0a13c104b9070719cf87fe43694bb324a9c256148048fd98e52f4111fe
+~ -[PKDatabase pluginsDidInstall:] : 572 -> 568
+~ -[PKDatabase pluginsWillUninstall:] : 868 -> 848
+~ -[PKDatabase setWorkspace:] : sha256 577b88a2d3a94a41d59ef3351ff289fe7a8d2b73f0ae3e9218a2b16bcb9dcf15 -> ddbfe94737a2c23051e416df90a293371c36afeff165760d1549efaca5f4257c
+~ -[PKDatabase setAnnotations:] : sha256 fd9064ef8c12b1269a6872e84ff21ea84b5ce4fffab8a7c96f9f927ef04fa8b5 -> a02b6982fc061a2a323baac014465170cfada7b9d48b29303b7cbaa63d07e472
+~ -[PKDatabase setCache:] : sha256 0d8b6a83eafa3f49cbb37391851ecbeb15ad8fb7f6478713f1700948fc1defe2 -> 7aeca83417fb05b2051ed8f627c298a417249d69e20bc4f90497ea118703fda8
+~ -[PKDatabase setRegionObserver:] : sha256 5420284ddafccd7e900d26dbdfeb3eba23c0a2db483c5491405987610055d1f5 -> 82bea0c1ab200b10cea8f5dfcdfc383aca1eab238f27b90e3b924b3e85701dfe
+~ -[PKDatabase setPersonaCache:] : sha256 e73d26a67f450c452a282140a830b8cdd90037aa8555436c1ee79d5faa5a7f43 -> 85645b8ec3a66dd6aa41c0b4934e35385b948e495d1edfb321684fc7ca1dc6e9
+~ -[PKDatabase delegate] : sha256 a8e4f83ac38d04279b7316c3fc1f815becaea010eac403fd45004aac5d47123e -> a9aa25ff6e40dd192f4eb5b24f07e69718d800512db52587d4cc700804c57211
+~ -[PKDatabase setDelegate:] : sha256 b73da7ccc9320c664a171b35f8d3bb424aa4bffc0c86ed644ac1c3a227155e0b -> 81a1a51bbff88e9dd184436722e81a6cbf1e00093a2c1ea964845d2d8243dbe6
+~ -[PKDatabase .cxx_destruct] : sha256 97e71b2ac4a8019264eb09d6f63e02dcc4c0385f1bc3c2529f3006fe0ad6b88a -> c0f80f5a6550f4884d84c47d2c694834577653d80eed5bb6ef748070c897bf42
+~ _OUTLINED_FUNCTION_4 : sha256 cebb1c161d4973c9e8731c9d8bab339414e3afc034b7900963563041c9a5c7aa -> 4e3ef0f319db9e9269415e9a00cd0d99696b58bad7236c5f5e9d8e073e01aae1
+~ +[PKDPersona(Personas) personaWithUserPersonaAttributes:] : sha256 38b7711967e766deb159335dd9dfcd8ffdf4cb66aeffab130b93d32e0a992100 -> 950a5bb0d36959c4e5e545aebce4101b8722a70ab199ee0cab7ce4deaf255f57
+~ +[PKDPersona(Personas) invalidPersona] : sha256 23fb62b46b6b029998296baabf5eea67a9fbb0da2ddfe9af9ea2a66274911311 -> 3f52862dbbe6a7959c18ae5b16075872c84b99c868018870d2d8c1c083775234
+~ ___38+[PKDPersona(Personas) invalidPersona]_block_invoke : sha256 5d887a2f6944fd7f65f59e146385385c7a0ba470e9f63175d8c256146c323445 -> 5b6145dba5f03c4b4fd03ce8c0d4c4ed50c3a8625c74274518c1cf16e7204b6a
+~ +[PKDPersona(Personas) nullPersona] : sha256 16cb09e4b582f5b2e63901257b1fe39571fb24c9d45dfc8728d6b2f20e519414 -> b569e807ba957463d00aedb80d5676e328ec4759a368f191a68afabef1d84825
+~ ___35+[PKDPersona(Personas) nullPersona]_block_invoke : sha256 54aa74ee1e9e211fb7cc053d9777be7d8b8fcbc6e3caf8eed693b8bf1ef48b78 -> c4daeedae8e26afc005d95c9475b6189f3689a833cc9b35644bfce8927dc1fb6
+~ -[PKDPersona initWithPersonaID:dataSeparated:] : sha256 d5ed65706dbf962a1f3c70e1e61146007cb7239681275970b8f76bdd0ce5a1f8 -> 8db8e23e17b40d802657ffb70e646a3f1bcdaeca2446fe578ef310eb5a8b9a05
+~ ___34+[PKDPersona personasAreSupported]_block_invoke : sha256 abbc8bacae2b38a0463f52b981f71238b591b4e148f5924384afe77a9b7a1502 -> fb5cdd4e9081f150f5a5f458a93293efcccf9b8c979de62242c0cc2868fd5d7a
+~ -[PKDPersona hash] : sha256 ccbaf73100ca63b35dfb21ef5efaf5416fd101bdc0d2d5f4dacf0669af63aaf8 -> e86fa52dca2abe857ee089a5463cc2a21430f2b79df1c363328bb80c541322f8
+~ -[PKDPersona isEqualToPersona:] : sha256 4a7e94f7d2bfb72fbdddc994724e49a442895b059a0282c664dcb0cae1a5a20d -> faa061da5a133a507637155d2eeb477f626551c1b5c1600741153e5bdb784bf6
+~ -[PKDPersona isEqual:] : sha256 a3dd61c33fbdd122f45a894f69c7d3288abfc9e49664da3b39876596576000ef -> 975f8a1ff670efe9bedb2946a5318bf7aba3713ce10a09ba99bae84dd9b307d9
+~ -[PKDPersona .cxx_destruct] : sha256 f0ffb1b4ec926f3f1fa710843771bea2b6f8e38b649555ccc77dcabe9afe1365 -> 5d1fa82b1d73b731e5249330e73f2de5cf7a71247b28a7d4c0f76b391ca6898b
+~ -[PKDPersonaCache initWithExternalProviders:] : sha256 e5a2ccb310002620c8d9d53143f60e7a5ee0717a00d3ee6f850990a8bd5af6ed -> 97257a6c82ab3cda71b0c6f1617ff5363a3d8a4d4303571bf289d03b770ef59e
+~ -[PKDPersonaCache personalPersonaID] : sha256 23ab8c3471ca26bbe77e49942b4e6c9c3336233972aa51d42597325cf469b33f -> 8b5e5ac551d473361c7ba1f43fb79f278b190224bcdc0da53929f1f423b5b3c6
+~ -[PKDPersonaCache systemPersonaID] : sha256 e6f823fec37aafaa921d770d75b4edb65a4d674f1970b3484cca126baed3cca8 -> 8515841c59312374f2850b36dfe83ea93cbaea3092f8fa6345fb7f51d06f9c91
+~ -[PKDPersonaCache personasForPersonaUniqueStrings:error:] : sha256 ffaece899ab56ceba0192d07ad59de1800950f2190191e1b7a27bdf73f4aee3f -> 228aaea0ec5ea2bf0b71bb146d1c3c82ecb192054370fa31783fb38aa75e6d1b
+~ -[PKDPersonaCache _lock_flush] : sha256 4cdf8d3f912ba7844fe695d4d9097655518a2cae8841845e79a375b5a2cfcf2c -> 184aafc02ef9bee436ffd2cbf400a18c1749b380483641daa7f6019e1f5a6947
+~ -[PKDPersonaCache lock_systemPersona] : sha256 c853083d91cc09afc982f50111f6327a524bf03378f6510af9ca37ac0996b708 -> 7c26b0bb2b5388372eec0b37b17f66e6d7ec805f41c308a404349b2e8ab72f94
+~ -[PKDPersonaCache lock_personaUniqueStringToPersonaMap] : sha256 9b72374389388edba942f75e65b629730d0c4cf24ca1afe2eb61da62a0860353 -> 9997d08393c1c070f657773055c1ae9c7984a3ff407c4e7a251f04dfcd3f5ec9
+~ -[PKDPersonaCache _lock_personaUniqueStringsToPersonas:] : 512 -> 508
+~ -[PKDPersonaCache _lock_resync] : sha256 eca5bf06952c07185a78fd21f4afd81dc69a29d15ecea19246020a177b1e5e42 -> 83efee76123c338d0cd27a6dea9f8175a985dff06d0adb8dd9a8b750fbb606ca
+~ -[PKDPersonaCache _lock_resyncFromUserPersonaAttributes:] : 1700 -> 1692
+~ -[PKDPersonaCache .cxx_destruct] : sha256 d7312bd224a6666cf6b800477580a57fcdc0df878e070473b0731986888bafff -> 6832eace281094ae28dcde69bf99fc4649e6b68ea1549fd66e6333020b3b8e38
+~ -[PKDPlugIn dealloc] : sha256 9e00a1d45da8a926bbe6d2824e7016ac60405352d109c689610f2808c0f99323 -> 42ecb351574fc67b9d33afed7676c16567224c3ecc13fe06813f92ce43ab3a5c
+~ ___23+[PKDPlugIn nullPlugIn]_block_invoke : sha256 ac4da5542b16fa041a864aef9be87e6e08df657883bc1b9b49d764e3e556f71d -> b395c56d40996e5354ee26a03b3bf006e29ca0a45ed00aaccd523373db3944f2
+~ -[PKDPlugIn initWithLSData:personaCache:discoveryInstanceUUID:extensionPointCache:externalProviders:] : sha256 4f0039691a19896a2b5b1c6a4995133c62646a780a53603ff7b73d4c11d70c2b -> dd9063a5146d37d47ac0113e29aee4f7d7629540ad5db4612ed06bf48dedc251
+~ +[PKDPlugIn sandboxOverrideForExtensionPoint:attributes:] : 608 -> 604
+~ -[PKDPlugIn prunedInfoDictionaryFor:] : 376 -> 372
+~ -[PKDPlugIn diagnose] : sha256 6a0b1bdb698efff7bada2fb05a1f40aec387758a5cecb32ab0cba4b4ec26c95b -> 196cfd6c8138dff86119bd61e3742f888e419f3fe60b1362a2d7aa7418a6defc
+~ -[PKDPlugIn matchDictionary:pattern:discoveryInstanceUUID:withError:] : sha256 b9e9c792108c0f04dc17ce8ba331d669cc902933b30bf745c0999bf55535d710 -> 82f06230b2deeb47c589e5ec6a2ac0e4482f75399a5c55f02b40d6d9b99efb3f
+~ -[PKDPlugIn allowedTCCServices] : sha256 de9cfc32e8e94283a527226b8eac2ee01c02939689e7d34939180fbae60938c4 -> c0c16cce0146aa9f234ef580f0e781435e22ca7b02a041aa6f37d2229745c8f1
+~ -[PKDPlugIn _dataContainerURLForPersona:] : sha256 f4864a71454be4e980f201dc0b14a9cc9f152d8c7ffcc9d498a05652a97fcc4b -> 62ca830ccd94370b16b33530ef965ea4d9cca925750c607efb2eddeeff892cc3
+~ -[PKDPlugIn dataContainerURLForPersona:] : sha256 0557778433db388fa5bfd4ffa2132bb076cf310323cde1e190a7b29b8d4b0d7d -> d388a2bffd37c1a2efd003fa8a44b9c39d60f0982ff64e9665b1b36ed6860317
+~ -[PKDPlugIn viewServiceIdentifier] : sha256 b02a85544d639f456a325441f29aa052be1f82c05feb955e2f457d3293653b8d -> 144c9201df52b38abe72216a147889a9b852a89b69e9294b3ab85379b4b8ae60
+~ -[PKDPlugIn _personaIDForClient:requestedPersona:error:] : sha256 ea7dfecc4c3e6d81b70d87e6c868c4974ba8af698a6c02755a421caa8cde94ec -> 8f82dda257c55a900dfb9161a5cdfb825e0a5cab28b5acaa0b74e27b4869aeb8
+~ -[PKDPlugIn reportAnalyticsForPersonaLaunchWithClient:requestedPersona:] : sha256 ee18a60a61ccacb4435abe1dbcfbfd07f13034f53faab5b483525202eb4ec772 -> 888782d4e6dc0dbbdef6e2fc460ba628a8e16d3e759f827f4fa39e067e16574d
+~ ___72-[PKDPlugIn reportAnalyticsForPersonaLaunchWithClient:requestedPersona:]_block_invoke : sha256 793b20111bc13e8316b21517ce693a5e43370c134dcf46736b26ba58436ce271 -> f8d65e6854807e6a6dfc788150b26d2e48f61be48978ff4a84b7cd8372a557c5
+~ ___72-[PKDPlugIn reportAnalyticsForPersonaLaunchWithClient:requestedPersona:]_block_invoke_2 : sha256 6166cda9eb95f993340fe0b0dfc8140c96d7211e09672ba5200521f8ace35156 -> 7a1ae3bd6883364bb87cff7b4b0d90c819029670e539d5bf67e538d5e6d6bdeb
+~ ___72-[PKDPlugIn reportAnalyticsForPersonaLaunchWithClient:requestedPersona:]_block_invoke_3 : sha256 aed041a57aa690a0e05b0f861b19819fa23d9cddf9ac9efac3529e973d17d13d -> 7a9c86723d139250c0922390f5ad77d829a4c5e57464ea868d82aac9d0517ff6
+~ ___72-[PKDPlugIn reportAnalyticsForPersonaLaunchWithClient:requestedPersona:]_block_invoke_4 : sha256 eab8c2f1507218447a63dc8a3d00be997302fc8cd30685c48df09d42d93ff4f3 -> 43d230826df9e0fd20e270a47dfd04ba12bf16bbc244cbba3e6f6cc6cb2870ed
+~ -[PKDPlugIn checkBusy] : 720 -> 716
+~ -[PKDPlugIn debugDescription] : sha256 9772810a6a6675ccacdfeb39c5225b7e194bacbbae80723860df49e672baf71d -> f14816af5f0ed1b47741d6c04b4f5487feffb6e60096053d8f7a829b8e35758f
+~ -[PKDPlugIn infoPlist] : sha256 237d1ae017ba78a52ed6d670c3f9a035edc96c9f290c672a204a4e9243fe0386 -> 487576758ad21a569702de9aed913f008e7ce66d8aeec4488f1ab7504e4bf638
+~ -[PKDPlugIn containerAgeRestriction] : sha256 2fdf0a91d738172351eb9786192d04bb732f0e5490156ce1023f7b9df61794fd -> f2794856acc0cf0574c0e482515aaba157e88f53b6e697ce029c8076be4b66b0
+~ -[PKDPlugIn rb_launchOverlay] : sha256 159360b616a4d80d7a0caa098857b21d22a068f8a145b7cb51ee13cbb9f40afd -> cb490f61fc8972c13ef861a1da80fa25ab660ca5cea859e989d89d75b73e2e54
+~ -[PKDPlugIn fileID] : sha256 36288fee019274577be4db649b46befa4b7bdfc04ac34c2f0bc622ba2169aa56 -> 316827047ef4cb341bd8a7fbc41007fbc99a3cc905db555990c9664f111320f3
+~ -[PKDPlugIn launchFileID] : sha256 52ddbb5f71122d9f5e0a0861adc9f06521bf01acb47f605457c3eafd0f7e8967 -> 8b3a989455793e9b3539fbc61b47dbeac365eb3fb623f40e9c06c0e396a994d3
+~ -[PKDPlugIn .cxx_destruct] : sha256 94e5a956f545b315850044766cfbd985ebdf0935f5657119179f4d3256269f92 -> f5e46afa6fa279191587878d24f78f216453631d86e9d40832f95c7727af7d9a
+~ -[PKDExternalProviders init] : sha256 5fcade5f58990df69136cf36e65745afc74f6b5d5dca8d8b6fca81a26aeedcbe -> 85a4d0c8e9448eb977fc296cc12359514b364a275fb8ebf6f20e3f938646fcb6
+~ -[PKDExternalProviders initWithLaunchServicesProvider:] : sha256 7db529e25288957431c94d1851be1ff53a2c046683186178258d331450417eee -> 16eb4201e31a813fcb791e6d402d340dfef0c07df9dd9b79d66d929dbfbd5e9b
+~ -[PKDExternalProviders initWithUserManagementProvider:] : sha256 3b52cfafbf9c36b683dee56253c0e85129287ba7923289ee344305c2addf3d98 -> e5304a507381eedf17c60759d22c372ef0d5de9f9e23cfacaf211cef8af08e52
+~ -[PKDExternalProviders .cxx_destruct] : sha256 829240d42403fda3aae088b9f7efaea3b94e5ff7877be4606f17178305e3d087 -> 3b29d3828e23037c78eee93f7f14fef86de70f9e4f11eaa4c4b1e35aee64245b
+~ -[PKDPlugInHold initWithPlugIns:extensionPointName:forClient:] : sha256 2e65fe8a4011e2de6e9461aceaab5a9f28dd562f65a60334caf7b1193e61a3ae -> a0abf40f142a90cf2f675b0a417c38877dd691710b2f122c6b57a1aa17fcef8f
+~ -[PKDPlugInHold isEqual:] : sha256 061c30efd5c02a1ab00e808e38321aad3901dbc4bd940f00b7d523d13f4d4660 -> 5a4c2d0aea81531609749b86ad01fc886334676885bd240c696795f2481c3cf2
+~ -[PKDPlugInHold hash] : sha256 b12a362b59173b2798ab4d352681fbfded562faf75dee4c2133b78e1dd1d42f7 -> b016f9db558c02ef2eb35d25791e78516d55b4dd3b22dd5e76867fc5db9698ee
+~ -[PKDPlugInHold description] : sha256 50ea46f2a197c1f60af885abb8c71f12eae7cfda5747282a3d9744df7f4ba193 -> 584e12b6d227f5f9f251c392e486bb41738ad204897e9b9fec25182b215be483
+~ -[PKDPlugInHold uuid] : sha256 6e80ff79357add689158dc1188e6001ce1e5e5aae45f5d64e09d47fc09003ccc -> 7b4bcb65dcb0de43afc6864daf50d2b49e590993d1c5bfab8782f97416cfd87f
+~ -[PKDPlugInHold setUuid:] : sha256 e79f3fc56957a704882ef1395a0b519ebe7f15ebad7f69f738a5a776ad385940 -> 31f2b15d009468affb27ba0dcc62d8e40a1c2765c3ad7b716bc3a8bc085c01c5
+~ -[PKDPlugInHold blocked] : sha256 d6c4cdc9934abab4c2e0643f4431f800a876ac789363dd5df8b7fb57780b96d7 -> d86e942c2fbf942f9841f629937c106762f597ec81664f56ca0cc8bbf2b415e5
+~ -[PKDPlugInHold setBlocked:] : sha256 47e1b6241c59f7174f2e600a47e7003d8663f202201b9dcdd0665d08ad59e0ab -> 1c2a84b24f77a0a6112bc8c7cf076a229aa279b64716fb66f55d700323890bb7
+~ -[PKDPlugInHold client] : sha256 9601f7b81aa28c00b8c834b5ee9ab99b8ceb644fb2767cef025205a0b57e5ce5 -> ea7073fb6658a2f29aa69eed16b0067faf5f18d35ecfb5e57e92496acc8ed5ec
+~ -[PKDPlugInHold setClient:] : sha256 3bfb792e2566a7c7e74180d324ae1fcb2b46e32277310a3a449c0cffaf8e835e -> 02e6201d59bca14596a575745028cfdee7f020ef48ba356363b9eee86f06f993
+~ -[PKDPlugInHold created] : sha256 68288936b395c14f4f0a844f6ff60a911203113ef1d3335b9eafb5642a9e6b3a -> 4a0928e6a128f474f67e03944dba6e3c6d13bd9106c44df8fdee2710c3edbd49
+~ -[PKDPlugInHold setCreated:] : sha256 745b172bc98f7ff8a5eddb1a070ae04f966ac50edd658fe2b9e79334d38f6d49 -> f4e6ee34138910086adcafa018fc1d582bdcb1573b06d19b3d5917378e12745c
+~ -[PKDPlugInHold extensionPointName] : sha256 3300341283281caa65c8745bb7b26a2e1a40cf8fd9b5c823402fb522c67b7768 -> 5280d34dfde2137172046e2b1fe349883f054aa72d7ad94d17ca43a510aa3771
+~ -[PKDPlugInHold setExtensionPointName:] : sha256 5a1c2b45bc0b806b5979805f6c504a091f3f92410a66b7a05cb902c2c76d9be9 -> 9f9fdfa3bb5817de363e9a8250d97728715973a442e3f9ede48366416a045c4d
+~ -[PKDPlugInHold transaction] : sha256 42a5a6f36851c9f3fa4f0fd347e5fac25f8ae1c354cb5021c6ab983891a3872e -> 3d94175a23fd51f7eed12a31631119d1174fbb48818dffc39b20c9b37c67494b
+~ -[PKDPlugInHold setTransaction:] : sha256 142f4a072570d409c7b2efa1581fc644bbf4dcc94667604d7fd096f7ac891b38 -> 09d0b6bafa492a73151b2cd619d55e02b12dbd6b079fce5239d73e15a9ce1d07
+~ -[PKDPlugInHold .cxx_destruct] : sha256 7de7fead56c1727e6027069bba909b84556123e7fc12e3a4f62dcd0a23966a01 -> ba44fbfbf448151abe239718ca859e47a5da514663012650f500c05806797c5b
+~ -[PKDUserManagementProvider isMultiUser] : sha256 4fd4106082a16a906998b8ebddde5334bdeaba8e70773a6c61a2df31cf7aa8f4 -> 6d7c4ebf8fd28681020548563bb612543de43cc07795f9bda06ed67ba0345a0c
+~ -[PKDUserManagementProvider listAllPersonaAttributesWithError:] : sha256 81690761d884684fc6eee1aacc75687807f33dc0253f74167dad0e8ed8fb65a9 -> 7256d150e0c52161543f6088e16d4a0638a226984b94f3df884a6034571992e3
+~ -[NSDictionary(PKPropertyListCompatibility) objectForKey:ofClass:] : sha256 126b9c5cd19c157a8aa6fc9652adf495728f30bba9c300e258d475c1b0440772 -> 58a4faa191a4f74ad713815deed948aa979a774180828c18ba57f705b245d1c0
+~ ___28-[PKDQuery criteriaIsSimple]_block_invoke : sha256 b3d0a6132f0d393c6f7cd0bd9b58c8346e2375bf8611ca966e96300cdb395923 -> b0888743f931502637f4207c0eb8a1b88020b033850bdad4e9a1c9315851a204
+~ -[PKDQuery _lsPattern:] : sha256 9df10ed97c101638b4a7d9e62c2938e9224458478b5cdb6c3f3cfad2a5eb6531 -> 8797f0781ef0f91821acc5a6d36b26d6840217e3b230104a5c9270849773cb8d
+~ -[PKDQuery _filterDictForRecord:] : sha256 0f49a73eb6782a5a50e2f856292f30b30ed7d44b344cc7c10917c62d33887918 -> 34000f043592f5cae1100acb3a420460fabe31642b6a53a9942382351e746cb5
+~ -[PKDQuery _allowPlugInForRecord:] : sha256 d0348af9a2ceb7bebc67350e0b4af8f9581154cf5c37006946ab0b60c9c991fc -> 05aa6b2c82111dc1491c228a7a6d3fc242f896bdfa134ff1dbc24790cc78a239
+~ ___39-[PKDQuery _findPlugInsFromEnumerator:]_block_invoke : sha256 f6b225e42f13dda9edb209be06018ef0af97503f9d5af1664b28fad0de736e6a -> a5741f9331f2772ad60bda04bcd46871b69c13e354538f75e23c2e7abb562f33
+~ -[PKDQuery _allPlugIns] : sha256 032cd0ec4225ee04cf4dda342dbdb8497d6df89303f7260c5ec79281f02f0819 -> fc917cd444b16f4123971ae81e0c66ff93100c5e2c8ed30ccad1158ed374615a
+~ -[PKDQuery _findPlugInsWithExtensionPoints:platforms:] : 396 -> 392
+~ -[PKDQuery _findPlugInsWithIdentifier:] : sha256 26fe9f940387445d63d8aa76b99b29e27f27a5d68d95b0f5ba7307a6f2b1acca -> a6f2d7eba92a9219ad2f2976390483b0725826f697420cc8fb1e8cf28dfeed67
+~ -[PKDQuery setCriteria:] : sha256 de596f06d72a67edbe6bf7810e01de57764777a7a3926a5fa96dcbe22e6253f5 -> be06ea01bbc4734a72b0152be9ecc51e2d1d53252075512dc64c188e95a8b9a5
+~ -[PKDQuery signpostIdentifier] : sha256 1f9e5962b6dfc69166493cefc75857d3592ea7d86947b1f658cca1024dec40bb -> b22fb75f46b0c9e89550995bf5e03536c9b1b06dae4149a5b66c9e3f5750247d
+~ -[PKDQuery setDiscoveryUUID:] : sha256 cfa97d90d8178223b6b64046ea644a6bba9d1f427ce20e3ea3a9bf8babf7687c -> 1ed21aa113214f79c0841bcd324a85f90ab9f46617cf64aef0d9b185e1786e5f
+~ -[PKDPlugIn(PKLaunchdAdditions) launchdIdentifier] : sha256 489e3e2124bea04d031f0f347dfc30b99d96515fd3f094b9de9ed985c70f0cd6 -> 66d2bf652443d28a75ff01ed999893cca87d3938bc2a80ceb8f665d5c8c34521
+~ -[PKDPlugIn(PKLaunchdAdditions) launchdVersion] : sha256 54ccb9d5e24c57831639e5360fa61dd0c13613e4566dd9f6090ac3834efc1882 -> 7f86c7512f847dbbbd68002df4b4027c41528642e275efc4b1ed25da118788cb
+~ -[LSPlugInKitProxy(PKLaunchdAdditions) launchdIdentifier] : sha256 0f89c4169d94bf0aa3ad7372fda76bce421d7b6da145c9ad6d101c6dbe8bdf3b -> 930250a5cdbe2295242c309d94835840008518e81653cd3c61bb93932b800830
+~ -[LSPlugInKitProxy(PKLaunchdAdditions) launchdVersion] : sha256 b9d5dd6ee4f41729c0917e18401d81d2ff667e33aa2aa2c493891d500437c257 -> 7f06bac6de430899e5244018f563a4e04b926e7df8e17001084dcfb5a8b15120
+~ -[PKDServer init] : sha256 e1a5de84f379bbc02d32335ca3e894dc3d7538cb80afe9589130726a40f07796 -> 43205627c89cf2a426f8912609e4f150a1b6a46fdf0e82e9bf2779c42217f2db
+~ -[PKDServer initForService:database:externalProviders:] : sha256 e16703bacc98ff2712917a62f602c18e24adcdb6496df9e2a3bf2f4749d7b1ae -> 988b8094ff650aa1911f9a245c89f5759e4c27478001d64e49fa0e73b0ab42fb
+~ -[PKDServer initWithConnection:queue:database:externalProviders:] : sha256 bba7216c0ff8d12d6bc9517a7223a4bfa3c70f971219141eb031dbbd7d33cbb4 -> 5bed41ec115581cd1dcbb1b0a865e0209819b5e98f4abf1a4df59e24beb164fc
+~ __65-[PKDServer initWithConnection:queue:database:externalProviders:]_block_invoke.11 : sha256 a9a18b06cf6911cedfb9438c69a93fee12a1725a427cc0eeb8c808ae83399644 -> cf53d51f1e9145cb8ef13e20c464a2bf04e7c940f1aa326c5b1844410f1579a2
+~ -[PKDServer run] : sha256 6f997c7deb33f971f0e63242552d91e662e16d8808778ac9db117e075762d0e3 -> 3518884f28e20611ae61a85b55f0b4c627d36fd9d82daab695f316fda277f87b
+~ -[PKDServer removedPlugIns:] : sha256 0ec4fd1b2448173ebd830bbc9d79039aca1ebdd87de85d5b780e4eec16cb9df2 -> 969a46457d121a486e684b40099c67fc48c9d4012d3ed64eec3e99293d7ac3af
+~ ___28-[PKDServer removedPlugIns:]_block_invoke : sha256 912381c6a0636369a533d0d3c6ed501aa6088a4305b5388d04cc155dcd312599 -> 36e8900f3de74ea95ab5811492097a39355c0c91bc9477b4811d8648c3aa7ab4
+~ -[PKDServer terminatePlugIns:synchronously:reply:] : 940 -> 936
+~ ___50-[PKDServer terminatePlugIns:synchronously:reply:]_block_invoke : sha256 3348bf69b2a2c6ba147b392ee2e46ff8b7f568dc2eaf79c5a7114f82dcdab81f -> a7afacfd9fe90a3b1998b7b18a32c74be9e38a4ec6164b7dafd21dd2f0c6b687
+~ __50-[PKDServer terminatePlugIns:synchronously:reply:]_block_invoke.17 : sha256 8affcc18f6fe8a9c0d013d8086c0a8ebb5c3248ef7599e7cb23b031b8761c46b -> 2553175942b53695550412005d12fee3ac02632794b06bd878c180745da59261
+~ -[PKDServer addHold:silent:] : sha256 0a90e3a455d10f75eef8d78ba204ca93f66506e8180926604ce8d5c2855b8d2b -> 32266421850b873616f452a035989b4e90a47049f99b1fdc46f121760d79830a
+~ -[PKDServer unholdToken:silent:] : 500 -> 496
+~ -[PKDServer unholdClient:] : sha256 759ba88a7e7f806891c0df0e8cad3f405d4d09046f846330ea343ea2cfc63f90 -> 6b0950c0353e7e064be212358d7247e280c94e978b5b8b37c1ba8c206bc4c4f2
+~ ___26-[PKDServer unholdClient:]_block_invoke : sha256 84888984641a5f7c09ced30b3fecd3fdf0d3f86c14a5c11e7a065ed5c193f254 -> 52953c55beee9260fceb690b31604448f510440d7c34d4ea982639dbe51c8acd
+~ -[PKDServer stop] : 488 -> 484
+~ -[PKDServer xpcQueue] : sha256 37b4d9d9e0149d350a23cb2075d01c099fb91feb741350b39ec8fa5dc8898eb6 -> adb506a21e1ccd60a6b1c65a26c5e8865f925dcb077d7c5d16a690916a2d3094
+~ -[PKDServer setXpcQueue:] : sha256 660b5e71270031a17ea6c7afeab5de2849ce53baaf8bfcf8fbd15effbcd7762d -> 9e2ee8634563ef1b9841ecb39ffbb2998e52563948cf1a90992286fabfd2785a
+~ -[PKDServer mainQueue] : sha256 2cffbd6196a72b37da7adb1b89918769b2f46bbd0261532ba87cb23c787441a8 -> 2547f84e1c48a189f17489420e89971e03a955ced95331ef4ea359b6d6d22bed
+~ -[PKDServer setMainQueue:] : sha256 73220ab55f7c73377feeabaa4ca2d0b273af4512645326ae118e6473862b5ab0 -> d01c18af2304751f6977b4fa080d2d69cad64463f3c7b950565c852011592de9
+~ -[PKDServer service] : sha256 ed852b4be1425ec2ac879a5e3b622bcf8cb1f46ede7bdaa7a882bf8f46bbc3cd -> f0f650b2957eb71768bc6f625aca2ca0595780767591c61bbee61876508dfa5e
+~ -[PKDServer setService:] : sha256 a778a8ecb87abff0016316afd36a745a73378cdcc3f3e7423605d8b998b94dd8 -> 0f003f86603d9dc2ed0ab526258b65773f594ed67428ae7321ffd9009be0b174
+~ -[PKDServer setUserPrefs:] : sha256 8675d2a6d1b0291bfa65c964f65b92b40f581ae453829c88b358e93785ba89f3 -> 5497c029205766c01316476270749a68b79c8924ae4f04a0138b7c47c80f83e5
+~ -[PKDServer sigSource] : sha256 cbb7a0d570e2640af774c80eff25f0049e26e1d13b7060c771f01e959c3bfaa1 -> 8524166ddb28f7cc387d9567d2c1b541111085ce121052c84d73d837a29a2c23
+~ -[PKDServer setSigSource:] : sha256 ce2b190b8277895abba387dfb9d94d71c4dd27de986ea1e89283e43675174f4c -> 007956b1dcbcb46b164e637bacfc5df2fed175e05e2f21144a906b2945792613
+~ -[PKDServer setHolds:] : sha256 a07f49977d5dac5863d81cc26d988d7ba429d3d134846bfea4693eab4479732c -> 55f0900923c030a85c2990db1deb3d31cd931c690893ba0b794a8316bb29a835
+~ -[PKDServer .cxx_destruct] : sha256 37867856ae34ccb8a91b07241aca1773d6b720ecd780cbbb99592f49af56a9fb -> 82e14201eecd6486d8f64ead66913f1d899be39c24dcdba04728d8b197d7acce
+~ -[PKDTransaction auditToken] : sha256 6eaef1e46f956b7a0209af5d266d5e71d6b755f21e0c943539af13a78f2f59ab -> 503e8dec2a50efdebfe07aec6e16cb1189a8cacf116c5ce1c638c051bf89ac18
+~ -[PKDTransaction marshalPaths:] : sha256 106812e438354b1308a39ea6230976f33392030e2e0d9deec12b29a86db4ab23 -> f5929ee6c4bb2b670fbe91c9817282ed5cd5f40b6da6ff71ff5a77087b2f2998
+~ ___31-[PKDTransaction marshalPaths:]_block_invoke : sha256 464cc296f0f1f27cdd08cdf7537ef6288cd0cf091159b637fe7b2166e0f682fb -> b9575ad39ffe82e30cd370a09e494f0c448601d3f9fbdc36af451f7097a36635
+~ -[PKDTransaction processPaths:] : sha256 5a803f64c62973673843ad4f678c330219e256bd899e1eb8eb7fa217dd3ea9c6 -> 7c40aea8d8cb2426dc53721f08836fa79414a92d48987df5a10800782e9a1319
+~ -[PKDTransaction addPlugIns] : sha256 4e5299649df69fb754d704ef049e6c23a780d9733ef36f4279e7413d0d63a9a3 -> 7b9427d6cc88d20c179ca562b03c5ba51dbd9e50b34688bb84b4b560d27cf57e
+~ ___28-[PKDTransaction addPlugIns]_block_invoke : sha256 02a55e228f0fbcc32e781929e59075823f3e9d5fabbff3629c7ed30b325fbec9 -> bc1e1e8ff285cc0ff1d8f24a14233ab49a9093b5af895f41b2159b86c178c442
+~ -[PKDTransaction removePlugIns] : sha256 8ffb3a7873adfc98fb1884c59f94808a3dd3340e73118be3117c7f46a2e183b3 -> 1a893bd075dd8690a136c8edeaad0a95b6f98974af714716afca76231d0c8f5f
+~ ___31-[PKDTransaction removePlugIns]_block_invoke : sha256 9ee677b9483be7578d2da06afcb27f9859ffe660ad16fa738d75cd9605e68f9a -> 5042c9f327a7585aad730913568d440606a804eacde309554df83b96a9219c20
+~ -[PKDTransaction bulkPlugIns] : sha256 7529fccc87da8522c6fc42f8acb96056b1dc8feebf17b930078ff142026fb5b8 -> 172a76f455014773f9b2bfdd7d86fc1dad3b0c774f8ed93f516bb09b3f54fca5
+~ __34-[PKDTransaction processUuidList:]_block_invoke.44 : sha256 bea35d53bc714b6938f11723a7993930ac56e295fca2397511ee2ccc878c6d10 -> 2bc00f19135bd9d753f4313e736c1b3cfb9c323a48e05feadb79a37970fc272d
+~ -[PKDTransaction accessPlugIns] : sha256 286d811a9a63258e69e4fc95099863826e75d1477215efb31fd4fd7c47b7dc33 -> 6b01437a67e359770ebcbb073312d7b9f11e7d89ad4a3bdd59a5d123d4369228
+~ ___31-[PKDTransaction accessPlugIns]_block_invoke : sha256 67b45bc0b00afa21d0c9814dbdb22a37bba1b2089b75c9e814391f519e44cdca -> 245d55a122929f71286bec006dd29d6fa6363a43dbb541c3d27bcbee1bbca510
+~ -[PKDTransaction annotatePlugIns] : sha256 c3ece5313fc74f085ca64c65ca758f87cb067b44ee32b75b1b835cfc63deb079 -> 14fc2f6eb6989c02d419d9cf4277a2d0990249dcedfda3801eab4f6c57ed5d85
+~ ___33-[PKDTransaction annotatePlugIns]_block_invoke : sha256 9504734f57499f4a45dfd2efa573934a3dd6f169d1bb7d94635794c74b0186b6 -> 297c7ec610724683b628d117109394106d12a918e7dd8497f6effc7aa5a7bdb8
+~ -[PKDTransaction bulkAnnotatePlugIns] : 996 -> 1004
+~ -[PKDTransaction lockDownPlugIns] : 1776 -> 1772
+~ ___33-[PKDTransaction lockDownPlugIns]_block_invoke : sha256 055d779278a90eb69d1b563f5f204243376d04dffc5cdde809485c7d9d16c4a4 -> ef459ed2c3bb43bc039b0b0f16f57b731f70b733472652ffa845aeecae0d8d4b
+~ ___33-[PKDTransaction lockDownPlugIns]_block_invoke_2 : sha256 d6029a8897a84a1acce08d8e8c064b95801ce06dee86548b6724b0ba964fe433 -> f721422fa56bae62db37cb94de95082d0b3a9d5d7da7a0ab5dcacf0c45f1e753
+~ __33-[PKDTransaction lockDownPlugIns]_block_invoke.119 : sha256 d81e42e58b5106228e90c0b30989988073c14c23df5a37b43e8e5197aa7944ce -> 58f3522fb77650c3f3f6f167a68a6127821ae32948e9b29cccc40fd6df16140a
+~ __33-[PKDTransaction lockDownPlugIns]_block_invoke.124 : sha256 a9fb07fa96c69a2cdf4adc3368fa908545205d38c3574c929298add355832242 -> 936c44716b33aacd39c31c5efe650afc1e88a908c5c5e8a79a4dd20e44adf4f7
+~ -[PKDTransaction findPlugInByPathURL:] : sha256 951aacc31a8a1b3787037ae94b29c1410307a16ce42eb6569dac854c5654ca4b -> 82b069e582034a0d78764d19d893e461fb57fb97722dd028ae8680bb76966aaa
+~ ___30-[PKDTransaction matchPlugIns]_block_invoke : sha256 9ac3a5539eb03904e67409ac545b0b84f9612c3096d522af4fadd70fc7715a48 -> c06e075b575ced2650638c552e544067f66300c576a215b9598087ef64a3c436
+~ ___30-[PKDTransaction matchPlugIns]_block_invoke_2 : sha256 f28ce4f36fe3ba5e9198acf3366e64f233b21496f37ff0b1aa0a4fc3cc3f1c9a -> 87bd60a39bcac80189b95f1ec890c7b4174e345295a4fe9a98ce60cc1da491d5
+~ -[PKDTransaction fail:message:] : sha256 b59a1d1701c7f8349eda4f44af4c37942166adbdee0c7cbd7e954fda7a8e7dbc -> 7b92f1c74884523efc8490e4ae521970845726b999605d4698e4d28ef93c852d
+~ -[PKDTransaction fail:error:] : sha256 d426b7e743ada8e7aaa76756f0452671a38053e252bb2d9080416ac4db28284b -> a1c6a60744fa9c59fb4fee059709934e4113a3b0d2c24720a91d7300da8f01c9
+~ ___zeroUUID_block_invoke : sha256 a2619f1d6c487059c4cc648819ba6d21d26c266bd7c1907a0b4d4baf50d1f375 -> f325c690ecf8a31116dc2dd6b5efc889b991a0cc6211750863a2c4a610b3cc58
+~ -[PKDUserPrefs init] : sha256 fc7f689d17df5e97694e9b2b21e5b8320452f6ae7b69ffd99fbb76552fb25104 -> c0936c4be3c7f5f576b3ea2020b78d35a94b0fc29a2c21e1268165710c676c8e
+~ -[PKDXpcClient dead] : sha256 97d935a86f26932ea5aa12689957fba2a9ee3751a9bfc07ab3d75b5ba6cc6c58 -> 98ea68176de927e004dbe2dc878532dd516c3230200705165252baf4ffc6841e
+~ -[PKDXpcClient description] : sha256 37a3c6bc30b20dbbd873e3a9c777bf5e6c264641f5c8e67de710688795cb3db0 -> 22a6bba7e80b884150dd49234fc4ecfea4bb0c4e565680e885dc8ab117402fd3
+~ -[PKDAnnotationStore initWithDatabase:externalProviders:].cold.1 : sha256 17a9fcac66fbe2d001d108f7d55f86d878620c042b14592b83e259169f623420 -> 3de2631969f4e1b3659e77fdeb8e7e2ddbd298d85a8d22a8118dd7a4e8a72975
+~ -[PKDAnnotationStore initWithDatabase:externalProviders:].cold.2 : sha256 80da1587454170d447a40839724ae7bd948d81866b56e6d9d45695b8706333e1 -> c33ea4af33e7f1205dd488fb693604c3da55ac1e2b9f9b171e93d318aaf7bf34
+~ -[PKDAnnotationStore initWithDatabase:externalProviders:].cold.3 : sha256 fdec54b6f649c0e8ad4f6c868ce36c85e9200d2cf91ab24222dc8edae94d5c98 -> ff8d1b1658dbd92f372cb5c29036c051a3d4f80ccadb539e5cdd4cbf94863e50
+~ -[PKDAnnotationStore setAnnotation:forPlugIn:].cold.1 : sha256 66c145a53779e074a87ed2e06eab88c33f55354ae7cf21267cde5d988db34697 -> 5c27353ffefca717b897ab19248ce4eacf1685057922faf83fe78f376d96301e
+~ -[PKDAnnotationStore defaultDatabaseURL].cold.1 : sha256 ce600ae127ab9b80648ff37a3268d60b19bf0f9d8abdf848e3b54c0dfb4de485 -> 9e0b01c4271cac5bfb3a8ccef66b82dc8015316cc6e62508446840792b623486
+~ -[PKDAnnotationStore defaultDatabaseURL].cold.2 : sha256 7a516c4d66be53874056d8f2d96495e4fc6b4e47d0d142ef358831b9d3b9ae11 -> 39643ca0af50fc27ad851620cfa4cf8b1c1fc9311dfebff8141cf2e5353c521b
+~ +[PKDAnnotationStore confstrURL:].cold.1 : sha256 f222d02fc706a91af460ab5686628f2c3e42fc59f79e744b1cd1a7a3a9814088 -> c6922ea498bd94339a41e7befbdc260ab22df041d33a04449387f4cd9cfc104e
+~ -[PKDAnnotationStore containerURL].cold.1 : sha256 70b8064dac9899cfa196302e85783e62f34d3595ac1a41e710990366a1df9eec -> 92d2d33addb720e9245097126d4e7ae64af609516f1f4584fd299848bf546cda
+~ -[PKDAnnotationStore containerURL].cold.2 : sha256 98e92ffb4e907e6654836438f435b55d8dfa2617c5fea0b2ca43659804a4bcf4 -> 6c39300eeff3c1737e703cdc60db66cafc6f023930aca9e32195236884af9716
+~ -[PKDAnnotationStore containerURL].cold.3 : sha256 7e91ec1e87fa278880521f197830cdd89f831ed98fd7ff904d5ea0ca86d46828 -> ec0021770a5ca419dadc541a2388c06adec052d5c886046890c115b9413ea830
+~ -[PKDatabase _locked_cachedPlugInWithUUID:].cold.2 : sha256 c43219608d9b97e0bf50488bc5c2489d21ef5128e8748bff7dc906b0ff2d6127 -> e1472e4d4b7f1365f94fd5b3af0b1c4dcc8eeab78c61cb874ab7740812dc182d
+~ -[PKDatabase createPlugInForProxy:uuid:discoveryInstanceUUID:extensionPointCache:].cold.1 : sha256 d343f97b5843d55f9a08b581f26a3b957a8bb0a12f0f61f0dbfadd4fc4d17ba9 -> da95f0740959c38930739df12c8fb4613c7b83029833c6158873df0661853f7e
+~ -[PKDatabase findPlugInsForQuery:discoveryInstanceUUID:allVersions:].cold.1 : sha256 ea669a8464ee64f49b1c2d727df63aa503895ac5cfe35850094b617efc4df5c0 -> 8f1e6c2279306b79fc08feeed9286c424a52325fd661de62fbff7d04fb083619
+~ -[PKDatabase findPlugInWithUUID:discoveryUUID:extensionPointCache:].cold.1 : sha256 4d44d538b052155fb012514fe8ab04053de5e6ad5e7b3c4fbe5b5baef63702e5 -> 2bed5c365cd8031a1bc3c1ea374ed8aa4d5d2503cc532a6cc8337f87d3602257
+~ -[PKDatabase findPlugInAtPath:].cold.1 : sha256 e8b7737b13776de2329ab6d30d9a2935eaef228cfb7b67dde4220997d7b3ab7a -> a11cd58f661337bb1c5ad9d84ead424186653a9d6cfd259b93839bdb606bb451
+~ -[PKDatabase addPlugIn:].cold.1 : sha256 2dbc93ec81539be971c71dfe807231e3a9545d70aed5eea8166f30194413a898 -> d2408beca1b67a526e774b727c7b058cbe52967af73f162bff5136f819d221c2
+~ -[PKDatabase removePlugIn:].cold.1 : sha256 7be9570f70304b835ecc359d9d52a631dd11065ffe221f8ab817ffe7a4fd073d -> 282517b9a4c54e6dd467ad3e28ab6105143b5006a0ff8327f068f4925415dea2
+~ -[PKDPersonaCache _lock_resync].cold.1 : sha256 819ccd123a056e74723b986d5e8c62b1220315e8db44c828eea7c62493bd2a58 -> e0df4d3b4de58125042da8117ea4a116a36c8acac70f17e2fe6e2eded608a268
+~ -[PKDPersonaCache _lock_resync].cold.2 : sha256 293cc0b5e461716b8563796cecf9935aec94ab21dbfd69dcf6f4e4b1e09373df -> 123bf650a4e29b73e4ed5a22135ca713e6a834e85f2b9264bfb4c2ccdd7e0342
+~ -[PKDPersonaCache _lock_resyncFromUserPersonaAttributes:].cold.1 : sha256 91353a1b32c6f44267bdfea74f5f9bbc83b2d03ab8962564c7a73f298392d257 -> b1f7808967ec847b71fbef93991263344541648687586535d37b44e3d7b66849
+~ -[PKDPersonaCache _lock_resyncFromUserPersonaAttributes:].cold.2 : sha256 27977aa20381c1ddde3e39eb25152510c383eaef2bb7abea713023ab3b801ca2 -> 78c2088d7c5ce2c9f92af165b53b49a639138bc630606679cc9564b4aa907484
+~ -[PKDPersonaCache _lock_refreshFromUserManagementIfNecessary].cold.1 : sha256 e8c5711ca36120624a8455c8ef515fe48c907f3b1aa118b71ecf9797b37810f7 -> 44af5b53a1bbbe23c24d440423cc5da1dbcf882eb8eefb78548f599183bda607
+~ -[PKDPlugIn initWithLSData:personaCache:discoveryInstanceUUID:extensionPointCache:externalProviders:].cold.1 : sha256 a9b0e52af02f08591617597789bbb5135b883f23e599a4cb41ccf8801eab2840 -> 2182cd73c968835b24c865b4d45bde6aca51f036057397f87ebe4646d93445d5
+~ -[PKDPlugIn initWithLSData:personaCache:discoveryInstanceUUID:extensionPointCache:externalProviders:].cold.2 : sha256 6ab59b1ebbc968809b5c552f4290c32910dec53f1c81bb3384bcbdde8a7a952b -> 22da2f4184be5410712239b8a30bb553f616bf1497f43dc806401521261266fd
+~ -[PKDPlugIn augmentForm:host:].cold.1 : sha256 ae5d85ea97ef782f76cadd291f3ab749d6b3f53dff29666db41e757141f3c0c3 -> 207f3bc0caf5d9367cee964c2d225f7c2b0f05ea31a5d57036e99e55e93faf5b
+~ -[PKDPlugIn matchValue:pattern:].cold.1 : sha256 beea5efb3a00d4f84e4ccff00fc658296724672660670f00c8a816f0837449c5 -> 8a4067e842e9957db34aabc2862b1f34449f32649c0f4a85c5345e08ecbcb64f
+~ -[PKDPlugIn allowForClient:discoveryInstanceUUID:].cold.1 : sha256 ca803a81735349cd246734848982cfeae3dbc9c79cc2088aedd0588c974d7387 -> dbc11dc11d36be34e759103aa6a19e9fd05e78dfd18b85469b41a711647f0bd6
+~ -[PKDPlugIn _dataContainerURLForPersona:].cold.1 : sha256 1f6acef888b40c964a2163afdb3d23a4293b1fa8179fb0c2946502d49d83a9a3 -> b05d6ac6508086e0146f76d85cbd3cc15c34284e2a55f5084318c7f63e734189
+~ -[PKDPlugIn enableForClient:environment:languages:oneShotUUID:persona:sandbox:pid:error:].cold.1 : sha256 3c39e3392d16a18ef5925464729b41d28885224a7809e4fb8448fca164161092 -> 162712781b687049a3a560c2bc40dd287a76935663d7949f73f33654f306300e
+~ -[PKDPlugIn enableForClient:environment:languages:oneShotUUID:persona:sandbox:pid:error:].cold.2 : sha256 8fc8fd05f14a8e306e81d1bc66e8fdb1ffc4ae290964e52e996e0e9be493b202 -> 941049eb42847593b9278c5617152cbbd1d662372dac9a9e7e8753e078abc2ab
+~ -[PKDPlugIn enableForClient:environment:languages:oneShotUUID:persona:sandbox:pid:error:].cold.3 : sha256 73556220729072d19b154807501d22534c0cef4f2d264fcbd6c1b1fb3110ece4 -> 3a1c7b9025d0ba75ab19924639c4d2a77b21ccb961c39d9134575d5cf7bfa5f5
+~ -[PKDPlugIn _personaIDForClient:requestedPersona:error:].cold.1 : sha256 65d9b69189b4e89ae2d367690c5e8d9d27b1a9a340f45372568fab12b044e87c -> d96f82640e146a89bdb4fbb985b6b2c280892bf34804cdce45fdd5f40ce3ef61
+~ -[PKDPlugIn _personaIDForClient:requestedPersona:error:].cold.2 : sha256 e04c4abda4ddc23746a26550c0c8ef0b681fec004e06ad14cd1f6758710f3cfe -> 2278131e139419d32d602326bbdc37e263046e92b4a09005404b76e85c1927aa
+~ -[PKDPlugIn _personaIDForClient:requestedPersona:error:].cold.3 : sha256 09f65dec69a301bbdc16dfdd61966f6b750ab84aeea86716260cc570069c5fb9 -> ae44a91732a601f7c56435a677a86d91a2c8ddbe1429727d4e1210d3c6017e6f
+~ -[PKDPlugIn _personaIDForClient:requestedPersona:error:].cold.4 : sha256 a411a17c9465fa3694d1cdfe7c9d9940650217634e177a3827ec2e36884011b7 -> 9ebcfc1acf3fac226c9d7a36bbeefabfdcdfe8b427d9d41419406cf5dfc52e00
+~ -[PKDQuery _findPlugInsWithExtensionPoint:platforms:].cold.1 : sha256 69abaaa6158c616b03567cf70ec6eef300a41b650c5194ec3abbad8fb157472b -> 8bcdb1c77d59849446b2235547175f4805fb6da44d379401a512d3b3cb478877
+~ -[PKDQuery _findPlugInsWithIdentifier:].cold.1 : sha256 e57c1d19323440db4c100a6aadb89b5c69af831901f674d05bc0b212e03f97ee -> a2393662c92b6b118043a54ebaf82fa113c9459dde2a2942d3caa94da5494955
+~ __65-[PKDServer initWithConnection:queue:database:externalProviders:]_block_invoke.cold.1 : sha256 5cd309853ba798fe6ab9db9d34ed5129e7d1b2c5ff831c184d85d5bc0f411a6f -> 30398e45f7f452dbbfea6bf7625f504ea88b1799d17fc762b468c582048009cb
+~ __65-[PKDServer initWithConnection:queue:database:externalProviders:]_block_invoke.cold.2 : sha256 1b4758fd2eca04991a3f461ba60cb45fb12b338524db217b9e28179db6dad000 -> 0dc0f63d8197874e76611efb0c67a065eba894cd047daa9e0698bcceb0ffa013
+~ __28-[PKDServer removedPlugIns:]_block_invoke.cold.1 : sha256 77981408f6eed478fff9aa9396d7bcd56ea76d50077fff185874ed8cc9c85d0c -> a948e98403344c3411f504f08a8e55c6e77f93fe8e8e104b8b45a46119655392
+~ __50-[PKDServer terminatePlugIns:synchronously:reply:]_block_invoke.cold.1 : sha256 2fc9494fac301a3202b35e2860f2fe8c5140c52a23636099562ba82c78d0ca03 -> 6259f520fe6bac866301f4d75f822604388a423ba538a4ec042f61fdfa977150
+~ __50-[PKDServer terminatePlugIns:synchronously:reply:]_block_invoke.17.cold.1 : sha256 5b8be4acc8c3fe62ceea845d99927c0deb278f9978681b0c1fc238a5e9c233e0 -> cd6dc0be7f269db411cb961bfd207f0ebd76b28f132e0749e1f5887dc604f5ff
+~ __50-[PKDServer terminatePlugIns:synchronously:reply:]_block_invoke.17.cold.2 : sha256 b5a7ccf188f79cd8e1f20dcdfecf199837f003d4add862af2467f21f2a330f1a -> c4438c2f221a0e7241732ccc00d3d3a80b82479d7513b91614e4dbf1954e8998
+~ -[PKDTransaction addPlugIns].cold.1 : sha256 e958c636f48e21429d0cd69cdf5f1c8cb7b823c335430e2eb3cf83967fb0546d -> e3a52eaec48b96811e0e055c97bc27f07941293b7ce4ff711d6f96ea75d0e121
+~ __28-[PKDTransaction addPlugIns]_block_invoke.cold.1 : sha256 8a28deee1de5bea0deb3b833bdbe650b397627aa91d8c2bb97d3e7a9b083d1a7 -> 2a9a90dfecd847d9f5eeaba02b45b024c7333ec3c2f1b1a01c16a0ac2bbb942a
+~ __31-[PKDTransaction removePlugIns]_block_invoke.cold.1 : sha256 59b4ff920c2845460bc29bc46f16b55cc6bc1f9b882f9fc72f468aa3f071297a -> 4e474193766ca94933106f2382937afd8c98780389a856f71256de08e4f78679
+~ -[PKDTransaction bulkPlugIns].cold.1 : sha256 f3c2df8080154c05f830e22efaff64e1b59d46a3371596819058d209f0e99ce8 -> 1f0f9e2bfadc6af8284049584266ac656b39bfacddf9fd949eea26f19b9d5fce
+~ __33-[PKDTransaction annotatePlugIns]_block_invoke.cold.1 : sha256 8e3f26875b6bb13ef50d49d9c81a7fff3738ac1ad2b97f63d371f1b5861b0f73 -> fc27816d9e8f3e09f00f364c615525e7f6de555dbed8905feedf06da717ce6ef
+~ -[PKDTransaction bulkAnnotatePlugIns].cold.1 : sha256 4427e5df13bbf055f811fd969e70310acfa9af6c62a78237128974bc7a2ffe6b -> 7494c7736e61493d96f7a9c2934fd296c6a0daaf80253873e1bce825f759ab60
+~ -[PKDTransaction lockDownPlugIns].cold.1 : sha256 6c59960aafde5624c56f5240a95944f296738d75e33d05f6a48b0f9458f8a943 -> d22d9d756be835ee1d698dda95a20cfe2e5a71dfd9f42c1267520635eb5db6df
+~ __33-[PKDTransaction lockDownPlugIns]_block_invoke_2.cold.1 : sha256 e898882aaaee3d2cf28624bce6a6f9a4e8e05b78991f29c35a3211ac8336d864 -> 886dc54ebf94379d5bb67ecfd180b3f896818345cb33a2579dfd673e9c87ff4c
+~ -[PKDTransaction findPlugInByUUID:].cold.1 : sha256 ef7c9f34ad81403d606dadca5f101df014b2eb4a641f6fd566f506849b6d077f -> 44fcb162f16233abbe7923f48bd78608b7a3aee12e3836e0d77815a97eda0f62
+~ -[PKDTransaction findPlugIn].cold.1 : sha256 56974e61b522cbaf100331a21b7895f71889d1707305ea26e0faf0ff9d8446d8 -> c9898681b6b70f0c3c70b492f7c4335d2470d4f7986e2e6300ef82064621e4b8
+~ -[PKDTransaction matchPlugIns].cold.1 : sha256 698aa84f195b6eec07482bb2d2575be22fc7e4cba49f43099865a04f280f64ce -> 46a20eb0401a4b86fddc10c37cf08cbd4193729f21f68bfc25d0485fe68117cb
+~ -[PKDXpcClient initWithConnection:server:].cold.1 : sha256 bd1cc9bde55844370420379824c8642bbbfa0167e56ca60f17e6d3341fdc52a6 -> 6c91e7a3304a223a289d5380810def835bb16efe615519b25e100fe44ea8cb1d
+~ -[PKDXpcClient initWithConnection:server:].cold.2 : sha256 c5f40b2920674c4814a108da5ae4f357971ad647f12bbd062e83259740d4bae2 -> c3b413b7d19d9d561ea867dc2ac5f222e3e402c9af27d6f46d12fc92949d67ad
+~ -[PKDXpcClient initWithConnection:server:].cold.3 : sha256 a1381202c5c328540ae57b2e746c38509e709938cbf4f392e157ffb79770134f -> b7b8896b8cad2551c41a3970541bef5a40a8c3f67ac597aac25a26bdff756060
+~ -[PKDXpcClient initWithConnection:server:].cold.4 : sha256 84d8bb716c8731882482e70db5ceafd61e19a32df299153407a1dba3931ec6a3 -> 982f3c5e6d36f6308b202e9dd3d99f9f52d53232272bcaff9420c884c9c43717
+~ -[PKDXpcClient initWithConnection:server:].cold.5 : sha256 65a84f65025ecdbf980a068437ff28250d77357cb452744bd33f216017a0244e -> 321195382fea2656551ee36d0d5289df1071547b0958e7e7394dd0280f3e9d44
+~ -[PKDXpcClient initWithConnection:server:].cold.6 : sha256 6439af9c95bc151ddcfc1dc9fdbdecfe49067a1bb3fab416a93c6e02d9478ef2 -> 3ff9f724fc7be779464e9d420c048aa74b0b2a462443fa5d0bad926257e9b7fe
+~ -[PKDXpcClient initWithConnection:server:].cold.7 : sha256 7d2d4fa6158854ce1d385e6ba5873fbdff790fb80eb3ad7abf854880557ba7d2 -> a521343e23ef2511c12b83669f74b7c154c2b667eedfbf78162f90deb4ac7206
+~ __42-[PKDXpcClient initWithConnection:server:]_block_invoke.cold.1 : sha256 caaea77fb5cd239f97c6e8ef084758910dd96fda34f94a7d13caf19e1f760a21 -> 913e3349467a8adb04969e7398c5c7a6b37e58e863b38f52990d4619821c58db
+~ __42-[PKDXpcClient initWithConnection:server:]_block_invoke.cold.2 : sha256 39acd8eca6cebe6434d20629118b5d60c286637a66a8cfdc6c9256ce07c53472 -> 6bff5e9ac7a3bcff1018bbd14c78396834dcea70dc3c60acf6e4cec2f7999b7d
+~ __42-[PKDXpcClient initWithConnection:server:]_block_invoke.cold.3 : sha256 e8fdb611f3f7f9ef6287d8a73dcdbcaf306da028ce939b993937e53e1de9f20b -> 817fcc291c4cc9c421799bbcc09be1891cbc8468b21d24206dc1bb4751d148bc
+~ __42-[PKDXpcClient initWithConnection:server:]_block_invoke.cold.4 : sha256 d032f5c926124cccea9b81799b93e1b5ca1c499efc620941de213f620b44dd49 -> 402b3d06e16c49638d8040b7280f3d1904986fef481ef8993aacb618b019fbab
+~ __42-[PKDXpcClient initWithConnection:server:]_block_invoke.cold.5 : sha256 9ca776c6128f7d44f262350e5e81fb3563c50c6f7baa718a7029042102579473 -> c49b76971788e960fe21ff759ba40400ffebf82be69ff879e838d551d23c2650
+~ -[PKDXpcClient dying].cold.1 : sha256 50993f4a4f1b660be1d196bac9a9ba3ea7219c75dbce22fae777573c32346543 -> 8d2e7552a6559a26067da42d46dd02d9300ccbfbcb776c40aaab9f0ff3b58154
+~ -[PKDXpcClient dead].cold.1 : sha256 e622b1e0b4549ca5e8bc7ffa4910f43e26a9d32a4742f70088a183afabf86f97 -> 33460ce77838dab95c160f264ff7923d1e6378d7883c7b3a37ec11a5edbb16c1
+~ -[PKDXpcClient entitlementValueForKey:].cold.1 : sha256 ac712b1a9496101e6a736b8a1bfeeb19dde777154cacdd26fefc67faf246135d -> d5146d0925a67f91ce80b6c49e10ebf8b3fa1ef372bbda70693df57b23d65769
+
+```

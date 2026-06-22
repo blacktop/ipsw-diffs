@@ -1,0 +1,246 @@
+## ButtonResolver
+
+> `/System/Library/PrivateFrameworks/ButtonResolver.framework/ButtonResolver`
+
+```diff
+
+ 41.0.0.0.0
+-  __TEXT.__text: 0x9854 sha256:1416a88b7030f4be899c9ea76e27b1a6be8c760bbc4dbc1f0d68671b3efcc07a
+-  __TEXT.__objc_methlist: 0x768 sha256:042cbd56011dd26c15ef847dec875cd25d2e820040ef9e3384c310dec9d1fb7f
++  __TEXT.__text: 0x97b8 sha256:0a3cf5f0cf0805edeba6e88a2adb44a55c5ff862812fe817d4f6a95d9ad2ea25
++  __TEXT.__objc_methlist: 0x768 sha256:b55a9a87619385f114793fd5b611028e21f66ffc3e8a4984937ee62845f2dd00
+   __TEXT.__cstring: 0xc07 sha256:ea59a9278181d698760f827fce5e25fcf2ad76a349b770bd7b21b7bca772cd6a
+   __TEXT.__const: 0x68 sha256:035fb99ef24382fb87ac566aefc5715cbee413e67b0a2e1f015e7195dfe52906
+-  __TEXT.__gcc_except_tab: 0x50 sha256:9f653e61cb902584c33cc8eb3df0be6965b0452855d8742467500d4717e790a8
++  __TEXT.__gcc_except_tab: 0x50 sha256:cc59965951bf950f4fcb26a072f34e4f05dbab563d471aa2a54ee1484982ce9d
+   __TEXT.__oslogstring: 0x33e sha256:3d31bb979c262cc8a38d24cbfe87570749c8b6ea5353703db3cc2198c2a11f6a
+-  __TEXT.__unwind_info: 0x250 sha256:1be8b738d3ce5f63a97ea2c76b972b6a84ede042e80b7ae25537c9ada5b462aa
++  __TEXT.__unwind_info: 0x250 sha256:fb3bfdad726448af193e41930f71cff10ee14dbf27a1d8505dfc753f3e9e6be8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xc8 sha256:689ae1864fb2440a01c9c51f078f1b6440ac917a2ddec7acae2c6e541d625ebb
+-  __DATA_CONST.__objc_classlist: 0x40 sha256:e19ca577d463704c356d84b0ff70f172ff67d38843cda899fdfdf4f0c81cf979
++  __DATA_CONST.__const: 0xc8 sha256:6be15b4aecec8eb45aa2d09ac0ea7c181317f5d6357b96a4e31c08a6656b7409
++  __DATA_CONST.__objc_classlist: 0x40 sha256:a0b98c2c3130f4ed7701ebbe9af3af3432cec0ba417346645fd340b16d0dde67
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x400 sha256:583797d9948decfe7fa5ab3bd626d401b4fa114549b0a21098d322d2a67b8b20
+-  __DATA_CONST.__objc_superrefs: 0x40 sha256:17f2b0ba75780347a84d114e7193af8d8b549bbf6557e1006e5d92b632e0943f
+-  __DATA_CONST.__objc_arraydata: 0x4f0 sha256:dc523516b70831d51ff7390837373a00c19d010e7ce698372235ef72e7a7a8c0
+-  __DATA_CONST.__got: 0xe8 sha256:eae00fe34504af28f036ba4e977ca96602de21daec77c03b30872046f8ab05e3
+-  __AUTH_CONST.__cfstring: 0xbe0 sha256:4ebd4a46d6a60fa57570ae9cf9b638cffc068e53607e268c5996eee97a85f802
+-  __AUTH_CONST.__objc_const: 0xd80 sha256:2caaf1f43758b136de529891d4f2a428701164ad56e1f550bb886590adddf663
+-  __AUTH_CONST.__objc_intobj: 0x2b8 sha256:6c97ff646a2ecac09e6b314d0b7a093484ccbd72ea0c8a663b2ee8b2c18816fa
+-  __AUTH_CONST.__objc_dictobj: 0x3e8 sha256:2b9d5bf86c4ccdd11a3a731e6e240859798fed181942e84f0b8ec2756aeb6433
+-  __AUTH_CONST.__objc_arrayobj: 0x60 sha256:d341d4fb68f997573778215b4322b011db3ab1060fdc3c404bd66f7b133ffee4
++  __DATA_CONST.__objc_selrefs: 0x400 sha256:bc5fa6bc2e53c4bf1d422dd7d63624f45cfed75d0f47bc6104b3044095f6d36b
++  __DATA_CONST.__objc_superrefs: 0x40 sha256:ae61ef4f2b322720939c2c1d9df37ef91bf5c04f6fb7d5ef52b7773479c8c75b
++  __DATA_CONST.__objc_arraydata: 0x4f0 sha256:254b2aad8d5397cead5b95ca376c1bafcaa2ec6b3ea7cde6b01e6de6ccd82f22
++  __DATA_CONST.__got: 0xe8 sha256:b9748dc3c592f791477899cb3d4b85b1b7e2530190a3b62d1201a25c2cb0088b
++  __AUTH_CONST.__cfstring: 0xbe0 sha256:bf1dd03ab547e2c847c820e84dc96914f2ba9610ff47fc964fc9a8588189dff3
++  __AUTH_CONST.__objc_const: 0xd80 sha256:181a31d75a68e416f3e3379f22a4dc39fda0bfc3b2f9451d0490a11787c072fa
++  __AUTH_CONST.__objc_intobj: 0x2b8 sha256:faca438a93179b6b5e49a528055e9faf0905e9493fbac2ce5d77ede8a7afd2e6
++  __AUTH_CONST.__objc_dictobj: 0x3e8 sha256:362eb4db450a903274d21bc2d79a4cf6bac5c808691eb8414139ec5e1ba3aa1c
++  __AUTH_CONST.__objc_arrayobj: 0x60 sha256:bef80bb453393a1fc741df4c09912595f6ce9fbee9ce8dd3f1fa8288c5584048
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:0be95501c2113eb4aad53f6b7b7a7f3a23f5dfc3f491b4dcc940f25e1be86dce
++  __AUTH.__objc_data: 0x50 sha256:c8fa331170edb8657188ab312ef258c0723ef3a9ba895635597404f3c8a51f09
+   __DATA.__objc_ivar: 0xd4 sha256:7e2a068a7349edc04848b4282f264c17901fe1021bec49f09a449d439bf5a8d3
+-  __DATA_DIRTY.__objc_data: 0x230 sha256:dde6f1e6567e7e07cd3b2697c830b158146ef596bd5ae4a7be773b942f1c4b08
++  __DATA_DIRTY.__objc_data: 0x230 sha256:04540af6b60724f9a5be0fd7c4291a87cd3051ef7bc21749bf3119cca5073851
+   __DATA_DIRTY.__bss: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 285E384D-2843-3A15-BC8C-A8B66615E1A9
++  UUID: 6EBFA960-8AA1-3619-A095-BEFFD28F3093
+   Functions: 223
+   Symbols:   804
+   CStrings:  260
+Functions:
+~ _serviceAddedCallback : sha256 a43f85fb6abfdb250437d46bdc0f784237f4726ef1967cc115578ef3ae424844 -> cc1fb13e95039296191639ae9dd0b84e52b954ae59a1b6eea129b52b6e75733b
+~ _serviceAddedCallback : sha256 66d195eac28fc3b4482f8a05a2b7a8a9204798607195c7190f7f9e859246c958 -> 0120a8802276d2556882c1a77d75ff7e31cda1906adc184718fd415b006670a7
+~ +[BRButtonResolverController sharedInstance] : sha256 c0e1ea091abae4ffc92ee6f8c5c14e1da32d93c738cf1dc3233784113b90988e -> 1aa575c737d7dbdc8944a4ece659230372f1c4e959317d7fda703e61733e2d77
+~ ___44+[BRButtonResolverController sharedInstance]_block_invoke : sha256 738e3d21bb86c39db9cd986fe64b5aa4789e73c3d99a85f323bfca50adbc6148 -> 653f5dbc1c1b4c93469cb326cfadfb99db771e8378ad7046bcbdb3c8ca88b782
+~ -[BRButtonResolverController init] : sha256 262f1c1af94e6f567559d19113342411bbb1a7d50fb01b89a5e655f2dcd5dbb9 -> 249ce86d139e29116d8736f0ce434d0cf58abf2c7c2d680857eba23b37fb309b
+~ -[BRButtonResolverController dealloc] : sha256 381ea27377bae22eaf43d670d630f28f0690da3b5257daedea76ebeddfecc4d8 -> 92600186fb90154c2be2f72139f1c84894a1e5158e8ff02630b1a9d56292e276
+~ -[BRButtonResolverController description] : sha256 c27c4502adff391fde7d04b8b5c075b345b269829473e2448e3e026c312ca307 -> e781e28e7999a2f6381385604c7e4c38dc6bc96bdd1da4912ab1f3dc35a33b70
+~ -[BRButtonResolverController propertyList] : 372 -> 368
+~ -[BRButtonResolverController isReady] : 240 -> 236
+~ -[BRButtonResolverController maxAssetSlots] : 280 -> 276
+~ -[BRButtonResolverController unusedAssetSlots] : 280 -> 276
+~ -[BRButtonResolverController setGlobalConfigs:error:] : 608 -> 604
+~ -[BRButtonResolverController setConfigs:withAssets:forStates:error:] : 708 -> 704
+~ -[BRButtonResolverController enableStates:error:] : 568 -> 564
+~ -[BRButtonResolverController disableStates:clearAsset:error:] : 584 -> 580
+~ -[BRButtonResolverController playState:forSpeed:error:] : 584 -> 580
+~ -[BRButtonResolverController scheduleReadyNotificationOnDispatchQueue:withBlock:] : 520 -> 516
+~ ___81-[BRButtonResolverController scheduleReadyNotificationOnDispatchQueue:withBlock:]_block_invoke : sha256 cefad87d2d399393689a327fc2157d69603550c51b6122337965adaba2773d45 -> 33683ec6b40f909e63d03a8d36ee4e881180eb06ca84b618e6d4d072382742d6
+~ _OUTLINED_FUNCTION_1 : sha256 5df5b19b26ccb8408a8ae4894af0f6d529fa0a6d3c7b37fa8c3fb2005ab55acf -> 9ce0ea9b0736939f5e0200627cadc51f9f4215d826507dd76479fb0f0a73bf56
+~ -[BRStateData initWithState:enabled:] : sha256 b1e280e3f61804b8b84694d91efd955e571b682a0fce1a3a6676c9e449443c01 -> da0b0acc940311ddae4f30530036e8a111f29e1c303bbd2d28e5b180a0c2cae3
+~ -[BRStateData initWithStateData:] : sha256 c0d04d51c37500935f5d70ddf064d2918aae2a75ce9ed36b1b4e44201b28cec7 -> d45721f4db2ccf3f842637baf851ee2d428cc5262f492c636339f8d5ec6a2b7f
+~ -[BRStateData copyWithZone:] : sha256 2e2ece0bfb9112bdc2b2b1fbe10bfd1b2f71e89f285a56171e16936518d836e1 -> 2db2dc615aaa435848126475d8ffce22b9fcbd6004cb0b8b27d832e5673a7969
+~ -[BRStateData dealloc] : sha256 7f1b97d17293eedbbe9a994cd3b5390175e39a5d224116aa94d5181468a02bcb -> e38da291924b21648aea1e68999fada64e37b3410859dc98880a8036ffba4cf0
+~ -[BRStateData description] : sha256 d80b042982c228f5270ca0868a69efb82f50f30b25b4ae17731772d0e7883d6c -> 797528980e621d5ce0602a84ca67a7e8bc5a63914671b2dbf0243fb3283929f1
+~ -[BRStateData propertyList] : 688 -> 680
+~ -[BRSlotData initWithSlotData:] : sha256 9e7fe19573a7c17e81b4937269bfebc06b781a2cd6e474fb423de62da59ae3ea -> d6ee2f1bfb56c5da4190a4972e7de17d14690da0d168d90a5048983ddc9d0121
+~ -[BRSlotData copyWithZone:] : sha256 35607bfb2df23f2e7977bf1edfff1cf2dda5dc05a4ed6e645f84ae1a800157ba -> e4e3ee0055975399c0239e7815ca66708359d90137f1cf0eeb1e567258adfd5b
+~ -[BRSlotData dealloc] : sha256 63e6456c56ff34fd2d83889b5ad6b96db5e591b4a45aad143eaa5c32c1664cbd -> 26ab669ea657e8a0b9373d277e290ae74d0908e9a2f9c002f3e22c168c006fa3
+~ -[BRSlotData description] : sha256 ac013def0b8e0dce5414590944d986eb254267be54657980b307e4e52a4a9c28 -> 6def5e21bd6fe8c74b858bd4e6d611c29cb4f6a2da4b647610f07a87b15f5862
+~ -[BRSlotData propertyList] : sha256 de40809d3b73f4eb8611da6e44d3d4f582f71cc710c8dd9aa82782f5c3d92899 -> 441a606dc576649cbd0c6a64eb91df643f95716d14ac37b3fc1f1f1d6184f17f
+~ -[BRSlotData setSlot:] : sha256 8b9c3d6503870cdd6fdc739a7a537a415be1690162529b1d3e81bc435c93b1fa -> 9026444d15e8938c1be1593b9ea82e6644c0076055a30d3a287df30da225cec0
+~ -[BRSlotData setAsset:] : sha256 5394d165fd3a50275017ad29b4b0414e91b0891b209c7ed3ad2ebb114c865c6e -> 3356eeae85fc224acc163c6734e49e8684f867e0862e7c683c78fee4e4f8800e
+~ +[BRAsset withType:andParameters:] : sha256 ebb54926a0761ba13197162506d275e3ae557d6cb8027e98a5d0ba5a49ea0b46 -> 9278630d7732230a8721c690fb291ec90e0c0f2d6782bd7a7fc72897bac322d6
+~ +[BRAsset nullAsset] : sha256 e9dc852f867b1e1f3f7afc66395360303d3d5dec9e6c914b6b820c49e60712bf -> 45ce18cc5c7b729c9537840cfd889489dc01d9b8ee2d01ccb6cb91948b47f5b8
+~ ___20+[BRAsset nullAsset]_block_invoke : sha256 3fbd8d2b21dc42b51f86f34567ca6b2e44e6d49c359e652cfb4ec940ce835ac9 -> d6d7bd2d9c3f8d610846c7bc6e60ee70e482a98481c147fa4f2556aa24f780b5
+~ -[BRAsset init] : sha256 41d7dc9980a6c1abe9c4a4234775028cba8450a50ae1a7559435716eb52b4685 -> 8f1672b6c69871d6a0e637b7ba4092859773f145f990a584ba14493983a7a812
+~ -[BRAsset initWithType:andParameters:null:] : sha256 e687784129361752b0e8bc46d74e306add6d1c2caf3af3633ff24539d7117b75 -> 4d7db6901a2cff19438f92473c9a285001f9670356efa5c4ee040a5b828d5ec9
+~ -[BRAsset dealloc] : sha256 ad496cc5d7b498179d06c68fb8848c8bbbb74132fd9e22b0c50ca19deb2d7466 -> 21540c3ca92d883e4f38de7476c8682c9018b9e63f0d0b4e96df0ca3cf0247b9
+~ -[BRAsset isEqual:] : sha256 9076e9af70807cecb92f3eec474799e9466457b38c546b0420569f8e72662a24 -> 4f35211e5bf8524b374a8f46292dfbef644c268fc489f14f1c8dd7814ec368be
+~ -[BRAsset description] : sha256 4386e06615d12d0e1fa7e134e31100271b5418f7acc17ae7a3bfe8bcc656b7f0 -> edd04263d9818f8f8b5977565e1d8acf686611d63bb0cd9daec37535f9568d10
+~ -[BRAsset propertyList] : sha256 31213eda6d6c25054514b9a54224cb5545e6c183456fdb2352454d0211f68517 -> e5c190a6c9be8ae7eec89ea42ab62e6c542b97a593e7e57d38d32b014a9503fe
+~ -[BRInterfaceAOP init] : sha256 b3bfd75dec648c3b40ad098474f7b50cbcc8aa099a7c06161f7212e80c47e423 -> 873afcbe4a4c1cd891d813020d76216558a53a664c27ac9dfa4f4742e6b5ed4b
+~ -[BRInterfaceAOP initWithFastHaptics:] : sha256 bdbe17d0e85d8da8ba755ad597a72276b8702f52a233b2750745b2d00881e212 -> 5e50cbc47fd5bdd294b68d1865353e943e87b15a452fb0a054375e2204aeb6e8
+~ -[BRInterfaceAOP dealloc] : sha256 d8cb83f7c88c24b26a894e82c69c5a4f864327c0eae7bb33f1e6c0bf00a63fd5 -> eb47a487d90431aea20aa8644d19c3c1ffcebcca792edbf247f1652df969efdc
+~ -[BRInterfaceAOP description] : sha256 f3659f682e4bb7664a748a7ddc5c3d5986e1dcffb0a7364c576828c3aabc7cf1 -> d7e74398356ed94c424d572f8737c5ca0bf2ae5a3ef4e085ce7c41ded273f934
+~ -[BRInterfaceAOP propertyList] : 796 -> 788
+~ +[BRInterfaceAOP interface] : sha256 027b59dfeffa8b1318d62d0f7a4cbded4b0cf423ec1840a8ef1c56cd10acd41b -> aa41a0f045028c8aea11a2764635c85806fa100c4aed2a7c256b70dd45949501
+~ -[BRInterfaceAOP unusedAssetSlots] : sha256 46427d6f9e1796a748dd0836005ff8c2538f068ad412fe00658b874528731e9a -> 0d6889e04588ca2b927828d49f8fee99544b424ad0a4f76662c340569f762957
+~ -[BRInterfaceAOP setGlobalConfigs:error:] : sha256 f88aab9e5bdbc98f121617f7d5cfffd9bb5f01e54d6194d5df30bf4f3560afed -> 32de47f4fe9b20bc8d0c3af45dd9b5af9b9d1493ec49079ae01347a82f12ea7f
+~ -[BRInterfaceAOP enableStates:error:] : 812 -> 808
+~ -[BRInterfaceAOP disableStates:clearAsset:error:] : 1248 -> 1240
+~ -[BRInterfaceAOP dataForSlot:fromArray:] : 292 -> 288
+~ -[BRInterfaceAOP mergeStateChanges:into:] : 268 -> 264
+~ -[BRInterfaceAOP playState:forSpeed:error:] : sha256 b06a89a6a2783d42b4d64fe28dd1da372b9338fc051d2929993523360432694f -> 2421cf2c876fc0a7cb2cda63f2ab1ef3a563d28f92d52e63f66adda9094da686
+~ -[BRInterfaceAOP scheduleReadyNotificationWithBlock:] : sha256 e2b90a975e980bf7a865f3961fb2b5c53cebbb0e0ec16cbebef6bf9331484956 -> 42e3db4347d646fca66d9a88b6ffd32cc67ef8082130a629a3ca76fa054c60e4
+~ ___53-[BRInterfaceAOP scheduleReadyNotificationWithBlock:]_block_invoke : sha256 9a5ab148dfeac8a973edc550fb0c9509cccc7a6870d4f8acdf185b72328f5d88 -> 792b82fd7ef9e8c216cafdb68149d8d8dcdeff852d4e0bdd13c3924f08548c8b
+~ -[BRInterfaceAOP updateReadyState] : sha256 a79321250fe131a65778fea5874939f8298fad2a0e841a89b640a41fd8a94a82 -> ab623f412257460c2145a9d4c613ff86a295541d1b74e099200199a5074d0fd5
+~ -[BRInterfaceAOP _findService] : sha256 5ef40eb5f22a231296499630a80492ee6be509eef5c3887e60dab9ba008b0be4 -> c63d713af90e8efb116430244de835ddbd175721d924ddb59f71e316f6e155fa
+~ _AOPMatchedCallback : sha256 436d0349c414658ba3d0545545987f5e4e62811d98f4cca033801ce94df72483 -> 7661c1d5c3ac754c5b3c02159fb06dc5565a348905efb6104321eeeda075bf49
+~ -[BRInterfaceAOP _receiveLoaderAvailableNotification:] : sha256 2f56488120a35a29dab1b6c708b40b487b0764346e518a05d1132f56a3fb97ac -> 378e08b1b8b97acf46e15cd720e067aca279d3b9c04d1e28916c9d8a25349594
+~ ___54-[BRInterfaceAOP _receiveLoaderAvailableNotification:]_block_invoke : sha256 45f89341e1a85feccd95133cd7602b2df5e96ffa943c0928be34a318dc615e9f -> d78ce11c3040c90ca2c81f9503c8b64f2b604ea4512afb84c58ff76adb1a7b4d
+~ -[BRInterfaceAOP _serviceSetProperty:forKey:] : sha256 1c60bfaf9a5f1d837fb370b5a9484dff60706562cfb0ee9e8b024e59f415f138 -> f638f5760657cd1901ea39d1b031933cde184788840da18f5ef9523097b3eb58
+~ -[BRInterfaceAOP isReady] : sha256 72d79a85430f07fc5738328a4d6f212958269220bf860a9272b05235f179ae4a -> cbc0f85eaebc549dd2f157ed6261eed58485aacf7d907b2c185429c0b0e4ee6b
+~ -[BRInterfaceAOP maxAssetSlots] : sha256 502f271a2daa5b2de970910e35b118d830fbdb947ba8d4510fca50b8111f1e52 -> 31b59ac7a4a67b5234b12df007f83a852a6bd5442765fe45a9d8d66edbeb4913
+~ -[BRInterfaceAOP service] : sha256 49ddf3e0e9862450c25fe0d1ee0afab3779d38d694e90823832e1a82711548a7 -> 86ff995fa74c668470216b1489ef806f2bd1f7b3b12fcbfca1eda99669ea9398
+~ -[BRInterfaceAOP setService:] : sha256 7480e0f1f233845560ebe074021f3d5368d034356d3502417667ad2b0ef5b7ed -> fa8816e65325a07ffb30363b87a5008c629a244c42cacc545541c59e7c61d094
+~ -[BRInterfaceAOP connect] : sha256 9b7b10d06b59723ab73c833fc408350fdc5724d4679f528bbfb79cb7ffefbd9c -> 95d4f6cd898632223e2f6c529d589003100befda54b47dfacfeb82f94b0ad1cd
+~ -[BRInterfaceAOP setConnect:] : sha256 33ff272894f48c0db8011b6e7d1ed978beff408d2abbee16e568d62022a16759 -> be6c242c90d5e7347da1b31a86e040f5432817cc0b6c97d2fc28bbe52183f8dd
+~ -[BRInterfaceAOP fastHaptics] : sha256 967833d4888e27275549b09a37e15e0db92a477e48b3fd6df6ea23267e0c5702 -> a21150f2a5f6719272aa0c1a0d0ba355f3589c33c5ab23b170e135737bd8a14c
+~ _OUTLINED_FUNCTION_0 : sha256 be4b9522ed93ea52d801253fc36e79751a0442a290335a082f488d942c9b8c18 -> b3f161ba2ddd0c5fe8ade5fad4eaf9f4b9dbdf9d753da46a728bbd18980395f6
+~ _OUTLINED_FUNCTION_2 : sha256 5452b5af28f633e40cddcaa6b3983c19cf42bc3ccc374f99686b6d13a22d0d13 -> d2d10d2e0fc57b39582286de81dc90a01d352ecfacb4e13834787101d66cd95e
+~ _OUTLINED_FUNCTION_2 : sha256 fd5b578afa903c188c2e7de44b7b2875f67b0c773f3e07a2dea774cb17fd0b62 -> 63d01a08cfeda7718e0aa25a9b4a08010dba5f5c00eeee70b52391d575100802
+~ _OUTLINED_FUNCTION_4 : sha256 f85268eb307869cdb7a8503c3240e2162e4af8afcf879219987ab0bbbad1b3bc -> 3665c6a17a832f6f12b752bb4350d53ff7f7bfccd77b5d7ea8a5571f741758be
+~ _OUTLINED_FUNCTION_6 : sha256 a5d3a0b570eb5769bd37d6d2aa4fb78cfb81ac83e7fa8b3d809afae30c79abc8 -> ff372af9f67d5ee2da61f81c5d8fbcede63f1ef916267fd56fcb14f167a8ea48
+~ _OUTLINED_FUNCTION_8 : sha256 668757d1c520905a7f5107243f2c0aa234bb013267e76c5c8f8173708e738692 -> 66f24ed3f56586add0a8805b6e058bcaba79b61c82b670cac5acde95de0ce075
+~ _OUTLINED_FUNCTION_9 : sha256 d3d608e6caf9f84eb9f49a007b9ad79b55b44b9661e0cbca0216845dd6a014e0 -> c6eccbc59c051b510d0f2bbff86922c3c979c3da5d265fe2f167b3b8f868b85e
+~ _OUTLINED_FUNCTION_13 : sha256 d751f5f041bae27138db9c441b22bfe9ae823cb0ea461cd1c6bd4d90009f50c3 -> c28467bfc28a959ddb08fa16a0d51b492f4f83c8881e2c4e69f6f9d17bd27c9c
+~ _OUTLINED_FUNCTION_14 : sha256 05f1d31de9025eb7061c013fb4f70c7fdc7ccd3212630f21feaa29dbda024a22 -> 2513dcbc34eee5b8060c447041facac5e1e385458dde94566c1f7eb9697ca2c1
+~ _OUTLINED_FUNCTION_15 : sha256 a1f68cd493461923e3cc9228a46bef8e499f53b042adc0c54395e49bb6fe819f -> 57399daa595b5053b16b3eed542d3b96e04bf03662c6cede5b11d9dcc959ec53
+~ _OUTLINED_FUNCTION_16 : sha256 10a69d6afa854f7cd5c7f920e7469f0e764b92a7b3014a6f01815018e991c906 -> 874e116acd868782831416ef859520632ce17ea7ca663fa5a08864abafe66df0
+~ _OUTLINED_FUNCTION_17 : sha256 4ac7ec00bf8547cd827e1e590d070fafea0a8f7c955a2a5d11c29a1414a54ce5 -> 8725dbd04491204a3bbce6286695ed3704312b25ccba3392bc7564b1a0cb6616
+~ -[BRInterfaceLegacy init] : sha256 9b86a753fdc0f55ef0e574d7e7ea2b1cd41c2258d91effe0b0d4fa6153549a99 -> 498b810532d33ebd280d43bff8fb936019c898fb01e5870ea006375679b2c2d4
+~ -[BRInterfaceLegacy dealloc] : sha256 a52dfa2ca8bb2279c285ad8dfc1a54012e6ea229070472b5079b3adaa98a6a3c -> 9fb3f5572f0f31662de9ffab842f8f3a0923e782428ea3a02f9878c1bffc06b7
+~ -[BRInterfaceLegacy description] : sha256 6f273321b86b1185b10d355057bdadda3a65d44e862d41ffb9764666ab87c7ba -> 4a1e26c591832f6d1f35a7afb9a1611503b89a467b921781a7996630374af64f
+~ -[BRInterfaceLegacy propertyList] : sha256 a63d74e2356f5b4e050d3dd834498cbc467460d9eb9eca28070408b6b2c942f1 -> 5a72f40f09a40a3552148e743fc56de1780262f45a2d0f70fbe60fc18a6567c1
+~ +[BRInterfaceLegacy interface] : sha256 6f96c9c7918ca5546197c63746cecd9c05d273aa09af6bd1b81cd032b77200e1 -> bc0ea509a09693c3cfe1b8176206c4e55ea27fb3b29ba66660a99ca05ec8e6b4
+~ -[BRInterfaceLegacy serviceAddedHandler:] : sha256 0784e895cbd44c9a68f29dc20d54e7e0dab9a3aa2adf2389efd7c4a874ca7dd7 -> c75b0391400f3b5874b846ab2f8ee086a4469fff47fad9a9e9aaf5e08fe494c3
+~ _serviceRemovedCallback : sha256 28263a301647f51b22967c248554280b2ccd449074cba7acc2f4d021ee658ae7 -> f34c7aade25e66c7eb845ba59e744d0b7f59656f44478382135b04a1cd50bd84
+~ -[BRInterfaceLegacy serviceRemovedHandler:] : 448 -> 444
+~ -[BRInterfaceLegacy _servicesSetProperty:forKey:] : sha256 0a4b74ecfb7834d9d157670fd3d39608465cfbcaa910a6f92232ce2dffe47bb5 -> a20f5c57371666e229ac3d5412a28696c08c59257a6cda601cb3f362b55b8531
+~ ___49-[BRInterfaceLegacy _servicesSetProperty:forKey:]_block_invoke : 308 -> 304
+~ -[BRInterfaceLegacy _setDefaultServicePropertiesOnService:] : 296 -> 292
+~ -[BRInterfaceLegacy setConfigs:withAssets:forStates:error:] : sha256 c74b45af7e0ed67bf19a5672c51b8aee1e7fd9272d7751a8992f41971a4d0c49 -> 30a88c598773a0941fbab2aa878c37a65b3c4f9e75ea2a814306b997d4177254
+~ -[BRInterfaceLegacy enableStates:error:] : 512 -> 508
+~ -[BRInterfaceLegacy disableStates:clearAsset:error:] : 512 -> 508
+~ -[BRInterfaceLegacy scheduleReadyNotificationWithBlock:] : sha256 0cf967c5d6af270936d4e2883fb97b2a0ad6a695ddb78d5d50640836e34e5aab -> e82b404e08c94ff422262343c8085894265d330f60cf497edcd91633ad039cd2
+~ ___56-[BRInterfaceLegacy scheduleReadyNotificationWithBlock:]_block_invoke : sha256 66ade3394d6c88fdcf2d0f81bd002118120daa600ca49f233ed88b3c19228b5a -> bf6379984477b56d46d977890a140ea6628c7c55904479895828b0e61149bc3e
+~ -[BRInterfaceLegacy _setConfig:forState:error:] : sha256 2455bb084d56b93fb34674501ddc149113245850eb4f38f0f1c59cd3f79c72ce -> f805bb3e345afdd26345eb89249e9196f5f45a6677c1912437eb70fe2da75942
+~ -[BRInterfaceLegacy _enableState:] : sha256 fd05a1f311c534b4fc7a4f7bbd5454a104bafa43a169b350f87faf71095e6302 -> efa3b9ab10e23613f50bc6badc6c3e6765ce472b26dfd26399a508f4f0c73359
+~ -[BRInterfaceLegacy _disableState:] : sha256 f500574bbb11e7d01d5b5aed92e2925d6c2302a44fee5e0dc38c3030b4e94587 -> 77b0807de3ff46ca21d9f131317d06975f3f1968114164a722358afef961ca04
+~ -[BRInterfaceLegacy isReady] : sha256 e6fefe4b923f5496fb05a6f7c72a6e1243c22ab7b38a1c99626a54eca3e98682 -> d6d75f993fe2971d7db42ae940a85e8152048a541b906147a4734c8c911a4d17
+~ -[BRInterfaceLegacy maxAssetSlots] : sha256 0ced4e93734bcedbbaf966e726f6a5248774f4096f83e37fa28ce1e187e024ca -> e1134cc60bd1c3bb6ba8b20f7c98bb01576abf7dc729b00d8c33470805e9903c
+~ -[BRInterfaceLegacy unusedAssetSlots] : sha256 f3ff364781b156bec7a8a251c02a3d5e5b5dca0c74ba4719dfb13096585734ff -> 382329d9bfd330bd044d901fdfccc68f32886565eaf65ebf0711e738ebe2591a
+~ -[BRInterfaceLegacy tapOnly] : sha256 a27fed72a204124a6083521ec52fde029c5cb231eb80d3418e7164c3008f1b1e -> 4c05484c8b333418e7e852c656c9f800a6616b26d1749f76e976878410f9d232
+~ -[BRInterfaceLegacy setTapOnly:] : sha256 e7d27e0587585fb8e61c048b4cfc5f42c0221f199c309a9048349dc65f27033e -> ce8a43381ef0860ee0b8c5eff9d8ff11460f3731cdacfa4cc0b28fcb1fccb81d
+~ _OUTLINED_FUNCTION_4 : sha256 03285937eab66c653599ecb187b50956980faad5bb965483610574f843ab7ecc -> 49312ea7a43c0be6fbc2be0e6f2be84daf67925b461720f89757825fdcc66a9c
+~ _OUTLINED_FUNCTION_5 : sha256 09cfef4fc8a677e6c0c5ed6d416c7360b0b9229bc950730254d9bcc288ab2286 -> 3019455490d4396160bf8a69b7a88227a1846cb52898e9f26b4a46424a96f428
+~ -[BRInterfaceKeyboard init] : sha256 c7b7644a8c27351f02da7c6c39376e99b96a5beb55b4f1d8cce2f93c3c48bb9a -> 1525a60d1661328c6d75f372a98993a0a1122d234898335cedc55eb18af3308a
+~ -[BRInterfaceKeyboard dealloc] : sha256 81f5490559cf0b251e5719da748560970447a111eff885623b31b68cd2333d4b -> 69cfe01e5a3298ef59fa59d6a046439f5bc788b2b7303fca14ac088eed92db56
+~ -[BRInterfaceKeyboard description] : sha256 412574b2d67c4d7972c0c7b8aebd8ba693963e0b6fc592359be843c134bdb472 -> 0335132c05c23330e84e00b7b94da07e45decfd77e01fb085c39b8c82a801766
+~ -[BRInterfaceKeyboard propertyList] : sha256 e5db217c87b7a47d61cf1c7003c5bcca5ddb1e8daa4f6ad0e13c86e8a312ad3a -> d5ebc4282acf486d4ad5744509acb0096789355618bb33a2d7d9b769eda204a4
+~ +[BRInterfaceKeyboard interface] : sha256 74a026ec9f0f93b75331a8c498b819832d5238d656804a85afa712ebf597d3d0 -> 132939a02a87f3a784735717d06e0ee5aa1e71e53504e2839b1baf11bcbc716f
+~ -[BRInterfaceKeyboard setConfigs:withAssets:forStates:error:] : sha256 024bcdd84b1c8812a29211f745ea4ce8f518c4787ab52323004b2cc9b47e0aec -> 1e4b054f2dcf2e39f24166423ce1586a134f7078cdbcb957f9db0f2ada291455
+~ -[BRInterfaceKeyboard enableStates:error:] : 456 -> 452
+~ -[BRInterfaceKeyboard disableStates:clearAsset:error:] : 456 -> 452
+~ -[BRInterfaceKeyboard scheduleReadyNotificationWithBlock:] : sha256 e1795a4e8b42fdaa5cd112096170fda80de16b795733620906c2ff19b81f486d -> b2059422c9a60b8143dd8e690feeb77badf7c2a619e4a52dae4176e1f5e19655
+~ -[BRInterfaceKeyboard _setConfig:forState:error:] : sha256 d908547450aa2cedac0df9340fd38eb7665354b2d9de8362fe8967a144e7586b -> f87970be620a580373a4a657b4b7e2969dbe6bcdfe4db37f7a728ad8b0799508
+~ -[BRInterfaceKeyboard _enableState:] : sha256 829c1e679dac630a75ded0334a5e37df66516b6a77b44ff67911e09745df7345 -> 64f410555326658525b86452cc94c1720bc4cc82a582364d1246667d8203f3d6
+~ -[BRInterfaceKeyboard _disableState:] : sha256 5130abebfb488a8549c957ce00d3abe345906abe473f847bef623909a887045c -> d282edb4c9f2c66815e6b9c1f82e01cfbb7e89d73e9706d8687537be3846d464
+~ -[BRInterfaceKeyboard _servicesSetProperty:forKey:] : sha256 2ac6d40d27c653c93dd2cdbfffda9511162821dd326fce81c015f754c0e0d446 -> 2c9456ba4210d76506c476e90f3d9ed5a5799cd94023862522a7c9c9363d7bca
+~ ___51-[BRInterfaceKeyboard _servicesSetProperty:forKey:]_block_invoke : 336 -> 332
+~ -[BRInterfaceKeyboard _setCachedPropertiesOnService:] : 476 -> 472
+~ -[BRInterfaceKeyboard isReady] : sha256 ddb4926c42805851ebbd6363a3015762ed636248982a7137b72e2ae035556580 -> 0dfe525d16975bedabe863b9523870127fcb48c41f9c3fbdb9fc65d8532d11af
+~ -[BRInterfaceKeyboard maxAssetSlots] : sha256 9fe53f38dd461546773969b7da03911c6c3d584224e4a478980b44fcb37ae23c -> 01468770176b39ccb7e00b397bf338ba380e65c62f2dda49862768f7c4066030
+~ -[BRInterfaceKeyboard unusedAssetSlots] : sha256 c005098cd140b9a8879aee486a74e8b1f69567bf6373ac6022a286b53a6fd0af -> e20a0745a0f8c7f8ba73f4718768f7497bd21f84c9e29b217758ad74e02ca59e
+~ -[BRInterfaceKeyboard services] : sha256 04a64618589f0f579e8877b621d0733149be52b85699b158aa428f6bb110893d -> 652bbb397aae645fc61d81c787c558fba129a37de8307931d777719c6f3dc9f4
+~ _serviceRemovedCallback : 436 -> 432
+~ -[BRInterface init] : sha256 1105f14eaa17fcae47dc100cc3a8c80379e4c6e38860c2b9b923f0ebac461d2c -> 1d20d5a7a99160aea0d56ed2222dc1e241f1371198db1f0f5fa1c6e499eb7b85
+~ -[BRInterface dealloc] : sha256 ad02a4b40efc27c01c8ce189d4d59d81d75a834ad5dc28846447055d47bc8594 -> c7e7a5832f08e6dba2c56dd5ad56f27767facd277695af884e8a13846903a2e4
+~ -[BRInterface description] : sha256 e45b9b22052e77718176c6e5ba1888ac3814d1acc15308994bd438d6ed83f0c1 -> 847c60ab91f0daa0b64dabc1733faf52f0740b423df4670d9e923f5d82446372
+~ -[BRInterface propertyList] : sha256 80db3c64953abb40d13c6874fe243e04a0fc2948c42fecdb75f3086bfd7cab8a -> 51b33fb35850b39c26e5de4de6fc02997b54fba815bfcc8e3e84f0dcb00958dc
+~ +[BRInterface interfaces] : sha256 afc01305faaaa13e4b4201a109e620d3b103c5b57f19d5c4c56d6944f6878b8d -> 3221cfc5a49bb9aee65a62e55d0c0f21bafde6e2a60d9f4999938bcd64bb5c7c
+~ +[BRButtonResolverController sharedInstance].cold.1 : sha256 3f9c3bc1743af4f6b9d6c1529793f77506c3920da966c76263e8c5a6c5f0d9d7 -> b4c67d193ae02aa7a0f5eb2308008b761bd7c1c7c71e031547b8ee585a7a8101
+~ -[BRButtonResolverController init].cold.1 : sha256 21433da34b42c48386a4ce35f4a72d7fd1e769d8f899ce61119195627ac15763 -> d8c61d632b19cb32ab4bcc47de6d36edfa540a094eea8d69381b3320e903285c
+~ -[BRButtonResolverController propertyList].cold.1 : sha256 9a522b7abf89bca78de214ad4b5dd298614e94ecacaf60236d3e7fce78e99f7b -> 8f357ecdf9ae96bb1e2146ce65065417a490e66853a5b1f4b536f4f94cb2b0e8
+~ -[BRButtonResolverController setGlobalConfigs:error:].cold.1 : sha256 29a5c5de1a15d4fc3c34993f8f95cb6e6ff57a41d0c51e0e45ea1f23607eb0be -> 13838bff956743157bd4114a7c50bce3fdf6ec46dfef5ea111fac5e98164d35b
+~ -[BRButtonResolverController setConfigs:withAssets:forStates:error:].cold.1 : sha256 a8e73afbe330caf933d85de8f44ab9f525f1c85c7f3d4f1d0b041d5c88e73fa1 -> 073d3dafba18f5a55794b7286326c2e86739b9d924f0dcc324a320470a845146
+~ -[BRButtonResolverController enableStates:error:].cold.1 : sha256 ec2ece3e98add14f09a4242ddffe46a0b40f88121c1314bc8a74cf9c53ccf53b -> 5b4ccdb2620d18a2c5e5f73886eaa034b1d07bf198a318b40a311d0aecbffb27
+~ -[BRButtonResolverController disableStates:clearAsset:error:].cold.1 : sha256 dcc97424f565cb574ba8746cfcd0a02a8ed79b24c30b209a0e5a3156fda35153 -> b9a1c296d25711f3e4f0e87a2d8b77e25ff0b799f48b99bc40e6dfcb52182c87
+~ -[BRButtonResolverController playState:forSpeed:error:].cold.1 : sha256 e4b5358f3c0aca950e66c59172470687fe00761af389c6026c383c9420d77b08 -> ef798ff5669611933c13d30baef6d78bff3fa4f7f2c35ef9acca8e7060a5ce57
+~ -[BRButtonResolverController scheduleReadyNotificationOnDispatchQueue:withBlock:].cold.1 : sha256 487961326dd694caf237fc1df14141262c38c8ec76e41c9ee512fcf158261260 -> 6c8f539bf25cb297e5bb0b9769826148092e1d84fde99d6ce0f197b0b3168897
+~ ___81-[BRButtonResolverController scheduleReadyNotificationOnDispatchQueue:withBlock:]_block_invoke.cold.1 : sha256 18e7a3dbaac7aafecc0df7f1657a36e102fe9be9f03c7093c82078cc1b7f220a -> b89d93ce417b9c59a3e34461ae061fe9c192ce9097280187458fd78933bc84a6
+~ -[BRInterfaceAOP setConfigs:withAssets:forStates:error:] : 3128 -> 3100
+~ ___30-[BRInterfaceAOP _findService]_block_invoke : sha256 eff5667401e239f6e1ecaa3d594b6f9b4f445c8df7859a2dce57307dee6e2a42 -> 408c5e7bbb964787037010844c9f69a952ffc52673d1e0127b6debc5d81e1a95
+~ -[BRInterfaceAOP _setDefaultAOPConfigs] : sha256 55e84a081324a1f8c7d77a950860205719b3267dd1cee7fd51ecd73f107e47a9 -> 5c21cb14371eed0dfd27b2372d2f066688daff64b730a8113c3bcc7535670add
+~ -[BRInterfaceAOP _setGlobalAOPConfigsFromBRFConfigs:] : sha256 a1b67e027bfcefc9aff721dcd089dbea683a85e4031e173ab1aa4cd8ddf9df97 -> 15e4894fd7a056a226f30242b893d9ebd2ca9d9648c27caa238ce6124ada5969
+~ -[BRInterfaceAOP _setStateAOPConfigsFromStateData:andSlotData:] : 1016 -> 1012
+~ -[BRInterfaceAOP initWithFastHaptics:].cold.1 : sha256 8465e7cbb3320ab3e04616d33183d2ad5940b558a5d46465c2a877fa3b91175b -> 95a24985865e46756f48e08afe87950aca7a3e6eac6bdfcefabe9ae8cf21639c
+~ -[BRInterfaceAOP propertyList].cold.1 : sha256 7d48b3e66d250e15d4a7d07f60b84e7c93a9cbc5005a2c448d243770eac24821 -> f9b89a8a4ba539b1cc19d5af021b098eab468504151c4bde658d5749f4c73d86
+~ -[BRInterfaceAOP playState:forSpeed:error:].cold.1 : sha256 9bd44027d20d89e188531a7f4d5e7fe987da187b2c7122b354e1295e1a6153e6 -> 96dedc1d52ab6aa8f105dc91532dace1a0f763a2534c9c1b6837e8c9d21c5193
+~ -[BRInterfaceAOP updateReadyState].cold.1 : sha256 ede270e8314b319bea44374e24d8d2f442b7e6f866da8f09a01b370c76df124b -> f75b7616fbcbebd7bc2369edb252eed7a200ad8d52fdc8e14cb6a37e3b1b409a
+~ -[BRInterfaceAOP updateReadyState].cold.2 : sha256 2e2eef791c2daeaec3f28f64a0bb3ab7d7e770512f8b3a47faa5bf5234e9b286 -> 21b1456465850b3b903e9f6d5b1322040c673d4d0a9c3a4169212e83bfef38cd
+~ _AOPMatchedCallback.cold.1 : sha256 150b4287d7bc4dd9cbe8fbd3a41a9bc4d0d34a5e653ddf67d2f05e6db3ec1195 -> aaada87f5f8c44aec46d5bf2196a68110c6ea69425c4c11690f85c9c5dbf7d8d
+~ -[BRInterfaceAOP _receiveLoaderAvailableNotification:].cold.1 : sha256 f74f2242771d6a1d6007f40b31cfc426100863fc516d14524af08f75616b3a87 -> 327651ac8c731b70fb813ed1d3ac9c2b98f006875c03e5e6e6b21302ccab8022
+~ -[BRInterfaceAOP _serviceSetProperty:forKey:].cold.1 : sha256 59df38e1ea2c21689e7dde98a973d6f9e341a5639ad1170a6a0e475cec7ec5d1 -> 42190bea582a2f4e21f945107dff28a9582a96e6467118cc3a2a38ba8a325247
+~ -[BRInterfaceAOP _serviceSetProperty:forKey:].cold.2 : sha256 1e1e3aae84d58c42f765d00c299f28ad9216d4ac4183f579170f60c972fc79c3 -> ee2ffa36119c064ca25455efc9210b51ebf2181b89a82a162d23e010199e6653
+~ -[BRInterfaceLegacy _findServices] : sha256 47f2642fcd6c65ff2420df1ca648c8b535a2905c7c63d69ca0f903ea769bc8d9 -> 3f8e82b2c77aa7cb4d2e0a45824cfbbb0136f4fad33ad4cca9f6da17ca878e13
+~ ___34-[BRInterfaceLegacy _findServices]_block_invoke : 304 -> 300
+~ -[BRInterfaceLegacy init].cold.1 : sha256 c6304a88888cc28bb0351ee35ed3e66e81785bfd83c9b697a79f1a8314d9e41e -> a4990386b0a9df09198b448becf392dcb8ac3eec7b1abea368d0d18d2fe1544e
+~ -[BRInterfaceLegacy propertyList].cold.1 : sha256 cc3f4e802e8fd7d0f617c8d21d8211f6e91e5e7d35cd94e922ba24ac6a976df0 -> 60f5ca59ba00a6d0a3c3f9d5bf25ffbe011f8910178d9a5854071042f9070ea7
+~ _serviceAddedCallback.cold.1 : sha256 ed03094943c1170a2233fe1af3707e8faf2a6b2ff27acf6e43556f90a69ecc77 -> e310891a3ecf3d2bb9be0216371a46e0d625314f5fa0b64ddf4958e779bb345c
+~ -[BRInterfaceLegacy serviceAddedHandler:].cold.1 : sha256 3780eab2c6290d88dd6857371a17e4359fb4bb8ce31e99b97ee1003f69faac33 -> e4ee1d78ffc56060de9a305e1f79746b3fffba2f05e01ff81e873a09d275801d
+~ _serviceRemovedCallback.cold.1 : sha256 a05c51773ce0f68c1222fb77fe1880495bec1dfadc1cff453cab6f1f8e93dca0 -> 18465e21a915caab8678cede851b1be43ad17dc30007ca088ac589447b521a1e
+~ _serviceRemovedCallback.cold.1 : sha256 03885414c172c2b538647562f403a29776f7f395bb9570d38a72a58cc2770f1c -> d262995bc5029c0fa0cc3bd58fa335f5a4684007e71f6275537a501df73333a8
+~ -[BRInterfaceLegacy serviceRemovedHandler:].cold.2 : sha256 2efa9f05464c27f9f0302877c104f16360850ccb4255b3ed1c23c02b3f214108 -> 0f60acfbd8311a4695b614f49273146a3a15d92ab41aa16b76f1cfe87d443fe8
+~ -[BRInterfaceLegacy _servicesSetProperty:forKey:].cold.1 : sha256 806773c178698a727cd6b78f751b38ab7f236d53c2fd79a78d9241348a0a5d43 -> 8ea8230e3cadb1a1e6ff2a823b25aabb1241c65c3dcf8824fdd80131dd5dd044
+~ ___49-[BRInterfaceLegacy _servicesSetProperty:forKey:]_block_invoke.cold.1 : sha256 cc042ae69c61a2fa34877b9209e20d985ef763c512ab9fc85c0f50fe30ec83cc -> ae44c8cc216d1b21952690d21582ca5ed5ee2554a564e01fcb682a3545b9a66a
+~ -[BRInterfaceLegacy _setDefaultServicePropertiesOnService:].cold.1 : sha256 a348578abb6826e78befc7d33cbfda9d50a417d6557c79b163c63b351e7422e5 -> 408437f3df073390e71ca880d057e95288d242cb4648f569089c1fa83badb815
+~ -[BRInterfaceKeyboard _findServices] : sha256 3e67b0b88fa7e2eaa29cfc9d3136e496e7ed138725614406177e59f342f15078 -> ec8fac97bf3153e910c5511d82cf9b49bff56d1e5b226a6b325218ee2271f34b
+~ ___36-[BRInterfaceKeyboard _findServices]_block_invoke : 304 -> 300
+~ -[BRInterfaceKeyboard init].cold.1 : sha256 c31ae4c4c0babf1ff1f172da9a22147fbbbde01fa0db97cf5d7dcfbe2d6eccb2 -> 3672c3a483afe8e1c81189743776637b7ee6b579830d000eff7fb2a6677034fb
+~ -[BRInterfaceKeyboard propertyList].cold.1 : sha256 9b794a4e43de7da9bcd366444e0d480f4042871027b625b288fc03ba1f3a616a -> 2befaf75508cd4eec8151f42bdd9e0647f187c5b551689f569134c20a7f0e4af
+~ _serviceAddedCallback.cold.1 : sha256 1dd1886d385db0fb491e9ea5398d36ca14ecec13ec2e6711fe804b251a3ec978 -> 79d2ec598281a5c75abd3822baf65a5e926a806dbd5b326fcbfc1441ffe1fe93
+~ -[BRInterfaceKeyboard _servicesSetProperty:forKey:].cold.1 : sha256 287fce1721e4a599f8b23aed7cb76a457ac2befa4b903b8564ba29c294926aed -> 62c57eb37224ee52240f5bb70aa207c1a51e0315e2e24275f09affd19c9da9be
+~ ___51-[BRInterfaceKeyboard _servicesSetProperty:forKey:]_block_invoke.cold.1 : sha256 bae6090df27a557df6e2fd1d67f183168ea3faddccc3cc9f5f14d42d51dadf32 -> 55df066aadc02fed4da3093b83d2a8aaa1d6f051c737e860fc78f52ab99cb343
+~ -[BRInterfaceKeyboard _setCachedPropertiesOnService:].cold.1 : sha256 9ab6e00f95a7e8c32152e32662c6c93cd9c25bc346db9f1d51e25bcef1f57e2e -> 4f8e22f6136b68c4551e4d52a190f6ae88eab658de63dabaa0b7fdbeeb7e5096
+~ _serviceRemovedCallback.cold.2 : sha256 a27893589f1b02706497f4c579936c65b976e4a9758aa13cb48aafa1fb690cbf -> 4b8a22406d3fa7f9528cef5657be9a2f7ebfe41527a0b998d82de51d1779689e
+~ -[BRInterface timestampWithLabel:] : sha256 894bfed7c1b55de1495b1f1599febadd01b2a24863a280a2ddad48b1d886deef -> cd85b16629d7809fd612d8bd5c034ba3495ee89235a6970b4e295965ac96214b
+~ -[BRInterface init].cold.1 : sha256 6dd1f4edd02d6de5592c453edab51b1d682af126f80526a98876dd7b0f01214f -> b785f82133d1324d8c27778c146681fb88355efab7e3f1a127f94dbcaa5ab6a0
+
+```

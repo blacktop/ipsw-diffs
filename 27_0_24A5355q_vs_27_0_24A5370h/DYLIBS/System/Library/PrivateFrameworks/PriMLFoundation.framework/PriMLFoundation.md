@@ -1,0 +1,221 @@
+## PriMLFoundation
+
+> `/System/Library/PrivateFrameworks/PriMLFoundation.framework/PriMLFoundation`
+
+```diff
+
+-26.0.0.0.0
+-  __TEXT.__text: 0x6b7d8 sha256:884d4f2bd77b93c967d9ea6eeef6666b0ba4a2f17bd6a9cdac53fcf77d6589d7
+-  __TEXT.__objc_methlist: 0x104 sha256:f8c84d28a7ab081b7ba4dafb22613af745eeeba7e74fa40da6cd805c9bd2ea8f
+-  __TEXT.__const: 0x4068 sha256:bc21a4435a027dce45fe710fc3e2250a4e4bb0b1346cb101ae39667b534c8ddf
+-  __TEXT.__cstring: 0x7d2 sha256:28672a72190a92c06cdabc353efb00fdd3512fafb128124c98ce656886d3dc13
+-  __TEXT.__swift5_typeref: 0x10a8 sha256:ee8613bfb754e1fe072e5f4d69519b32f89a05ead9b9787a932c1537ccdf9e30
+-  __TEXT.__swift5_fieldmd: 0x13fc sha256:5307c0535429f5cbce22eaec89f253a56e93195a8d449a7f35275bd2e41361dd
+-  __TEXT.__constg_swiftt: 0x1274 sha256:25606ca3e464d0b00eec964166356173473ebdfb97a2133339737b7bd29011d1
+-  __TEXT.__swift5_reflstr: 0x10e1 sha256:e710f3d61f2520b49ce3027fbd0618efbe6f0d06841cb2e80a8e2ebb91dd68ae
++31.0.0.0.0
++  __TEXT.__text: 0x6c618 sha256:7075acd663fb800961f33714b09f7ac0a5bfea09763b9d494f28464468e47abf
++  __TEXT.__objc_methlist: 0x104 sha256:0f1dac4d9f3b999ee239b01c5d0c53fc6c260f08c5bf276cb2dd9913e01650f5
++  __TEXT.__const: 0x3cc8 sha256:793e8ec6732424355ee585f0efcfee9b5f1e8ef43ff7ffb96e81ec5a1af37802
++  __TEXT.__cstring: 0x7f2 sha256:592b094d70ecb7e3957843daa1a7f6b87119c2434dd71df63ad0aa85f23ed4c2
++  __TEXT.__swift5_typeref: 0xfb6 sha256:45be0399bf57cb1273197cee3c0c28717a4bdfa309651a8135193a6e1b22585c
++  __TEXT.__swift5_fieldmd: 0x13e4 sha256:cff98f1c90cfedd719a6649b3457b5199d81ef3ba8e78f3b583dfcdd7acfabb5
++  __TEXT.__constg_swiftt: 0x1230 sha256:1d1cabcfce487d5e091216cee69a990437ba8f12ed20f09dded122b7bd86f20e
++  __TEXT.__swift5_reflstr: 0x1111 sha256:00015060c4a1c02c05a7b2d342440e6d13e3a518b180feae4ef42b819d7d1be0
+   __TEXT.__oslogstring: 0x19a0 sha256:922cc98c30c09f4622da8315f939f05a721de47ddade49d6303dc3f50eddb24c
+-  __TEXT.__swift5_builtin: 0x50 sha256:f6b9004fb50dfe67ce991ad02586736f328c60d6e6040d81af23e775119e8eab
+-  __TEXT.__swift5_assocty: 0x1e0 sha256:9fc0c03e04b6747363d2c1fbd5690d7ef2250d48a7a7293590005f51ff07d44f
+-  __TEXT.__swift5_protos: 0x4c sha256:00e42e422ea49e4ed277efe5d9a8c37485bd025bd3ce4111165260112137cb83
+-  __TEXT.__swift5_proto: 0x278 sha256:8fe9650ee2f5db62edf1a0bf503391f86dd0723989ff50ff6eefec815019606d
+-  __TEXT.__swift5_types: 0x144 sha256:de1bc0334d5ad18d35aacb554d14a71a2fb41a4ec89a09f2c14784f78050e940
+-  __TEXT.__swift_as_entry: 0x11c sha256:ba27a898472c8b2385e7ce583eb88ce3925504a1856e6d3ee13345c77a4c3505
+-  __TEXT.__swift_as_ret: 0x124 sha256:025be0e02adc23d0eda6654b55110913359c18d4fb3e2b11e53f1c04f26c4b88
+-  __TEXT.__swift_as_cont: 0x260 sha256:a4e5e70a3ad694a35d8497fb02074f691b169cba450a907dcac9d34aabd98434
+-  __TEXT.__swift5_capture: 0x1bc sha256:4767a90a5e56a2bdf4a3adee853c193d824b0f25eb7dfae3b200b9169d3857b5
+-  __TEXT.__swift5_mpenum: 0x18 sha256:d5d9259aea699a95ed5e72e1f31caa26b28ed7bfe51c5afdc90bd641a63569de
+-  __TEXT.__unwind_info: 0x18a0 sha256:243e057fa3e18bd90380a760a774d6c881cb8cf5a86911a7c8236591d67fe397
+-  __TEXT.__eh_frame: 0x34b8 sha256:fae2f8d6aade4f4821d6e3c0615565e6f33d913f88dbee2bab29a59fc3c8bcde
++  __TEXT.__swift5_builtin: 0x50 sha256:6b06f07c3ed6a0e8c39590766f965dff36d76ba0749573b9923d5ea79eb333fa
++  __TEXT.__swift5_assocty: 0x1e0 sha256:dd598751321edffb807bb8ee6e1f535543f30741e3fb8362d8808ccc31d69f9f
++  __TEXT.__swift5_protos: 0x4c sha256:edd3275dee9e7e9c94fd55502b916355da2e029707cee37c7ea7679c767cc5bd
++  __TEXT.__swift5_proto: 0x240 sha256:81e5e5f172b547d855e1ce7d76a761f84e401af4798f99e03f7767bedce18804
++  __TEXT.__swift5_types: 0x138 sha256:cca9c444553d4bc69c5339ddc4fb2618991ea94829e33168f669ecb9be859737
++  __TEXT.__swift_as_entry: 0x120 sha256:6082b21164cc37080d98c4b04f4b73877a5695219856b6ab37964d6b3990ef83
++  __TEXT.__swift_as_ret: 0x130 sha256:2dbf43e6b1c44fb4685df617a937601bfefb205b5757c4cfd7ff0f9217430c1e
++  __TEXT.__swift_as_cont: 0x274 sha256:75507bc176f70ef8bebc98eaefa0704ed18ef8444ed470fb0707837d0b17609e
++  __TEXT.__swift5_capture: 0x23c sha256:9eb6816449d1bfd33169e01ca619952e9ec1d700ef998e69a82cea42d5a9f687
++  __TEXT.__swift5_mpenum: 0x18 sha256:47ecfb9f0e2ffce10676d79bf29785a8befbaa83c4fa795b97a76e492dc3eb99
++  __TEXT.__unwind_info: 0x18c0 sha256:c03da021e59ca5847326614c7f1bd7aad891622c6db9a1b64e57df56a4b1fa20
++  __TEXT.__eh_frame: 0x36e0 sha256:7f86ce0aa180e33f60fe100c48dcd4b8874b01005b3cb739a288dcbe3761fdae
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xa0 sha256:d2e2677562701b8c6aefe132b480b73bb965cd6a2df2498533d6a0fd1503d866
+-  __DATA_CONST.__objc_classlist: 0x100 sha256:0ac8f9af9e53952e81ca33b509669575701f71a2958a5324b61c2ca2bb500384
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:732999aa8bdc80fc52bdb7f9b1a9085c3e872f2ff468b1e9a3b282c81af6df8d
++  __DATA_CONST.__const: 0xa0 sha256:114a50b865e89bb4a65e268f400c5a6509a463f8565194d9433909cbeb22aaf7
++  __DATA_CONST.__objc_classlist: 0x110 sha256:935e679da8914f0780095f352fc52e7154ad6bdfa3de45607214f8c23d1d4136
++  __DATA_CONST.__objc_protolist: 0x20 sha256:72472cb36d3a0941a5d2b90dbb7385f23c62388db40ba730a52da053c3793480
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x268 sha256:1168ac297c95a068d169b799f7ee2f07bac005ddc9b963c5d8bd83975741bfef
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:dc16a8c4bb613481415ed8a6208ad8366288cd3043c54cd435faa072c642701e
++  __DATA_CONST.__objc_selrefs: 0x268 sha256:f968eeb1c9817be21b3d8421650611b207929754ae4013e4696b453d06f9b1b4
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:f456baedcd154e7f406deb8a8fdf3bfc08852e2e1aecef17d708623fb93124f0
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x2850 sha256:55cecb0367aeb3410b251a1105e0cc1f555c7d3a73fb223e83528ee75a58f0dd
+-  __AUTH_CONST.__objc_const: 0x21a0 sha256:1c8885ebd298d5b8a3f48eef34b1501ab5432729085503e50e5fb43117709827
+-  __AUTH_CONST.__auth_got: 0xc70 sha256:867a1c6b54224cf6d58f1c17a1bb7d2524b3ffba7ce07d3c26783cacec286875
+-  __AUTH.__objc_data: 0xa0 sha256:65176b48e9ee1a2fae5a5477be6a4653b4f0033c741c863ba13a7ed0e152cccc
+-  __AUTH.__data: 0x1ae8 sha256:1980db58f06ccc3a7d468995296a91994b3e0800dd37f89b619f5ff30e1d6eca
+-  __DATA.__data: 0xb90 sha256:95cc0b715bfd6f6325efc942bf368753de0cda7126f28d6afe6f4fb6aaae2ab7
+-  __DATA.__bss: 0x3f10 sha256:b481beea21b28e6cd9b77d7bc17813597c3204504b7622ca1cbe57427154a797
++  __AUTH_CONST.__const: 0x2650 sha256:c1eace303813c77d1bfc11db044a9f6447488ac646e1a64d63fd2673501b1e89
++  __AUTH_CONST.__objc_const: 0x2330 sha256:eccb893d9d2764e1d2114d43ff205582d80d77e31fd032085a66b2ea19674dfc
++  __AUTH_CONST.__auth_got: 0xc50 sha256:2b9ebab857688dee100e88589f5c052c013dc721f15b7c51258b1e244896c52c
++  __AUTH.__objc_data: 0xa0 sha256:4941410816da0bf28e32051f5b5c8d75c3826f1a81cde747ae393f7910d03c2c
++  __AUTH.__data: 0x1c28 sha256:e306ec166f54e853f3a6825f77af156a6da51eaaf7909603d6b7a8660adc5b14
++  __DATA.__data: 0xb48 sha256:f8097bfad713ff340c401204d3a4cdfe86bd606226136c2d1ba59d7012d893b3
++  __DATA.__bss: 0x3710 sha256:3772e5e84a1c7347b7c8cf8f4e508c27e31fbb20e20b915c7c42760c376ccb2a
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/HealthKit.framework/HealthKit
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/Bom.framework/Bom
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CFA1C22E-569A-3D10-AB56-072222F476B1
+-  Functions: 1981
+-  Symbols:   957
+-  CStrings:  182
++  UUID: C4CD5FDF-A66B-3267-B81E-0B770A346515
++  Functions: 1941
++  Symbols:   868
++  CStrings:  184
+ 
+Symbols:
++ __DATA__TtC15PriMLFoundation12TaskIdentity
++ __DATA__TtC15PriMLFoundation14PlatformCohort
++ __IVARS__TtC15PriMLFoundation12TaskIdentity
++ __IVARS__TtC15PriMLFoundation14PlatformCohort
++ __METACLASS_DATA__TtC15PriMLFoundation12TaskIdentity
++ __METACLASS_DATA__TtC15PriMLFoundation14PlatformCohort
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.8
++ ___swift_memcpy57_8
++ _objc_retain_x9
++ _symbolic SbSS_SDySSSo8NSObjectCGSgyctYbc
++ _symbolic _____ 15PriMLFoundation12TaskIdentityC
++ _symbolic _____ 15PriMLFoundation14PlatformCohortC
+- _AnalyticsSendEventLazy
+- _OBJC_CLASS_$_NSObject
+- __Block_copy
+- __Block_release
+- __NSConcreteStackBlock
+- ___swift_closure_destructor.18
+- ___swift_closure_destructor.25
+- ___swift_closure_destructor.31
+- ___swift_closure_destructor.41
+- ___swift_closure_destructor.43
+- ___swift_closure_destructor.52
+- ___swift_closure_destructor.62
+- ___swift_memcpy49_8
+- _associated conformance 15PriMLFoundation8TaskTypeO10CodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLOSHAASQ
+- _associated conformance 15PriMLFoundation8TaskTypeO10CodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 15PriMLFoundation8TaskTypeO10CodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15PriMLFoundation8TaskTypeO13EtlCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15PriMLFoundation8TaskTypeO13EtlCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15PriMLFoundation8TaskTypeO13PflCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15PriMLFoundation8TaskTypeO13PflCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15PriMLFoundation8TaskTypeO17UnknownCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15PriMLFoundation8TaskTypeO17UnknownCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15PriMLFoundation8TaskTypeO18FedStatsCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 15PriMLFoundation8TaskTypeO18FedStatsCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper
+- _block_copy_helper.10
+- _block_copy_helper.14
+- _block_copy_helper.21
+- _block_copy_helper.24
+- _block_copy_helper.28
+- _block_copy_helper.34
+- _block_copy_helper.36
+- _block_copy_helper.44
+- _block_copy_helper.46
+- _block_copy_helper.55
+- _block_copy_helper.65
+- _block_copy_helper.7
+- _block_descriptor
+- _block_descriptor.12
+- _block_descriptor.16
+- _block_descriptor.23
+- _block_descriptor.26
+- _block_descriptor.30
+- _block_descriptor.36
+- _block_descriptor.38
+- _block_descriptor.46
+- _block_descriptor.48
+- _block_descriptor.57
+- _block_descriptor.67
+- _block_descriptor.9
+- _block_destroy_helper
+- _block_destroy_helper.11
+- _block_destroy_helper.15
+- _block_destroy_helper.22
+- _block_destroy_helper.25
+- _block_destroy_helper.29
+- _block_destroy_helper.35
+- _block_destroy_helper.37
+- _block_destroy_helper.45
+- _block_destroy_helper.47
+- _block_destroy_helper.56
+- _block_destroy_helper.66
+- _block_destroy_helper.8
+- _objc_autoreleaseReturnValue
+- _swift_retain_x2
+- _symbolic _____ 15PriMLFoundation8TaskTypeO10CodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic _____ 15PriMLFoundation8TaskTypeO13EtlCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic _____ 15PriMLFoundation8TaskTypeO13PflCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic _____ 15PriMLFoundation8TaskTypeO17UnknownCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic _____ 15PriMLFoundation8TaskTypeO18FedStatsCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic _____4task_t 15PriMLFoundation0A6MLTaskC
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15PriMLFoundation8TaskTypeO10CodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15PriMLFoundation8TaskTypeO13EtlCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15PriMLFoundation8TaskTypeO13PflCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15PriMLFoundation8TaskTypeO17UnknownCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15PriMLFoundation8TaskTypeO18FedStatsCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15PriMLFoundation8TaskTypeO10CodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15PriMLFoundation8TaskTypeO13EtlCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15PriMLFoundation8TaskTypeO13PflCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15PriMLFoundation8TaskTypeO17UnknownCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15PriMLFoundation8TaskTypeO18FedStatsCodingKeys33_8A50E3DF8B40762557301F51E597FCB3LLO
+- _symbolic ypXmT______t s13DecodingErrorO7ContextV
+CStrings:
++ "crashRecordCheck"
++ "submissionCooldown"
++ "task_type"
+- "Invalid number of keys found, expected one."
+
+```

@@ -1,0 +1,75 @@
+## iboot_blob35.bin
+
+- `smc/smc_watchdog.cpp`
+- `%s:%d Invalid parameter range[%d]`
+- `%s: %s:%d: %lld %s %lld`
+- `smc/spmi.cpp`
+- `iBoot: failed to read Fixture Mode GPIO`
+- `smc/thermal/cltm.cpp`
+- `F.sensor array 0 - 1 is %d`
+- `systemctl: reboot (%d)`
+- `(SOCD) ERROR:Failed to allocate a region buffer`
+- `%s: %s:%d: %s, SMC BSC failure, %c%c%c%c %c%c%c%c`
+- `(SOCD) ERROR:failed to fill socd region`
+- `%s: %s:%d: %s, Undefined Thermal pressure input %d`
+- `(SOCD) ERROR:failed to read socd region %d`
+- `%s:%d Invalid handle`
+- `(SOCD) ERROR:Failed to initialize the SOCD container. Storage index %u, result %d`
+- `smc/thermal/componentController/basebandCC.cpp`
+- `target/base/iphone18/pmu_target.cpp`
+- `spmi status (err=0x%08x): id = 0x%02x, read at 0x%04x, len=%lu, retry=%u`
+- `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/include/lookUpMatrix.h`
+- `smc/thermal/acsk/sensorInput.cpp`
+- `smc/ppm_task.cpp`
+- `rtkptd.cpp`
+- `%s:%d Range =%d info not found`
+- `smc/socd.cpp`
+- `(SOCD) ERROR:failed to read socd region`
+- `(SOCD) ERROR:Failed to write event counters`
+- `systask heartbeat time-out after %lld ms`
+- `%s: %s:%d: %s, error: registry is full`
+- `S.sensor array 0 - 8 is %d, %d, %d, %d, %d, %d, %d, %d`
+- `(SOCD) ERROR:failed to write socd region`
+- `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/include/lookUpTable.h`
+- `(SOCD) ERROR:Failed to load socd container, result: %d`
+- `smc/smcmain.cpp`
+- `smc/systemctl.cpp`
+- `smc/thermal/componentController/budgetInterfaceDriver.cpp`
+- `(SOCD) ERROR:AP wdt counter is about to overflow`
+- `smc/sys_mgmt.cpp`
+- `callback && list`
+- `smc/sys_task.cpp`
+- `idx < list_size`
+- `smc/thermal/componentController/thermalPressurePassThruCC.cpp`
+- `%s: %s:%d: 0x%llx, 0x%llx`
+- `spreadsheet ver(*10) %d`
+- `inductiveCL: ggp %d ggv %d ggi %d soc %d, btemp %.2f epi %d, mpwr %d, fr %d`
+- `Invalid display type %d`
+- `(SOCD) ERROR:failed to fill socd region %d`
+- `(SOCD) ERROR:Failed to initialize socd container, result %d`
+- `%s: %s:%d: %s, Invalid CloakingCC cloakingMode  %d`
+- `(SOCD) ERROR:Panic counter is about to overflow`
+- `smc/thermal/componentController/displayPwrCC.cpp`
+- `%s:%d Invalid index[%d]`
+- `spmi status: rd trans=%llu recovered=%u failed=%u, wr trans=%llu recovered=%u failed=%u, last_mbse=%c%c%c%c`
+- `smc/utils/accum.cpp`
+- `smc/stacks.cpp`
+- `(SOCD) ERROR:Unknown SOCD storage type: %d`
+- `(SOCD) ERROR:Failed to allocate a region instance. Storage index %u`
+- `%s: %s:%d: %s, Undefined Thermal Level input %d`
+- `smc/smc_init.cpp`
+- `smc/thermal/componentController/cloakingCC.cpp`
+- `(SOCD) ERROR:Unkown report type %d`
+- `%s:%d Bad write offset=0x%X`
+- `(SOCD) ERROR:failed to write socd region %d`
+- `spmi status (err=0x%08x): id = 0x%02x, write at 0x%04x, len=%lu, retry=%u`
+- `smc/unilog.cpp`
+- `%s: %s:%d: `
+- `%s:%d Bad Read offset=0x%X error:0x%x`
+- `(SOCD) ERROR:Failed to create socd handle. Storage index %u, result %d`
+- `Invalid baseband type %d`
+- `target/v53/target.cpp`
+- `%s: %s:%d: %s, error: callback or list is NULL`
+- `(SOCD) ERROR:Failed to read event counters`
+- `smc/thermal/componentController/pmgrInterfaceComponentDriver.cpp`
+- `%s:%d Invalid parameter range[%d] or data = NULL`

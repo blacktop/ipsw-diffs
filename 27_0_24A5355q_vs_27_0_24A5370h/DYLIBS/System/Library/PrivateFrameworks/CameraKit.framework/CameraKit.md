@@ -1,0 +1,95 @@
+## CameraKit
+
+> `/System/Library/PrivateFrameworks/CameraKit.framework/CameraKit`
+
+```diff
+
+-910.14.107.0.0
+-  __TEXT.__text: 0x1c8c sha256:209f0ae38de7fd5f93f72394cd995258bfef56eee0d816066cc8be0e26a96028
+-  __TEXT.__objc_methlist: 0x228 sha256:ddb6d4b41e7b0d5182d16df2ad394331c5aebdc907401abda033003babffd891
++910.21.101.0.0
++  __TEXT.__text: 0x1c8c sha256:38cd41123824ea350ce5693d99edf5e79b22ccb5b7dcb300e1434d87384b9313
++  __TEXT.__objc_methlist: 0x228 sha256:6bfeb14cffcb16e971009697cc40fde26aa9a79ba5795800de657a90aaaf9e18
+   __TEXT.__const: 0x90 sha256:dec6f80e964fb81625a8b68bd852d198f9fef9c6c631af33e0b85b18f73f5d26
+   __TEXT.__cstring: 0xa5 sha256:f52c278e5ef790fe0fc8d0a455fe073be42141e6252aa2f28f0b28e3579fa8ee
+   __TEXT.__unwind_info: 0xd0 sha256:012d51905b950e0cf9861129dc7a726ad237bb6225451c2418fb64f0b115be6f
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x50 sha256:4a2aeae2a894c8d0441b9ce9b442f92887836dd0b82c420d788d583c34acc8c2
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:08c60b1650ab91b24ebd97c923ab1c432445f531e1d8461428486b1c64824698
++  __DATA_CONST.__const: 0x50 sha256:7b77688088ba7eb5ae8a156e79bf6fd414c8b86670c109e7ef02d78c9fe13add
++  __DATA_CONST.__objc_classlist: 0x10 sha256:58060259ec95ade2cc8df7e0a0f72a0bcb56b242d03f46ff1cd39f3afb87f2e7
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2c8 sha256:17dd311c7045425f736c3abd0d29eb0a6b5a67121ee7913d1b69c9d750e9e76c
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:189c2df77cd158be73039a85c40123fdf28cf245fe43cc0a40feaa31f67eb189
++  __DATA_CONST.__objc_selrefs: 0x2c8 sha256:edc3d289c14a066720932e23f3bc1016daa3310d96d653923a1416799e3c58ef
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:19014083abe312757b0d5912683447e2de2e31a4a89f551f2b0222a335dfba70
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x120 sha256:d56e15058a6769c3a043f8a5f7049203fe7b42beaafa4e15e3ba4c326b0d056b
+-  __AUTH_CONST.__objc_const: 0x2f8 sha256:29c93e47081b16096d7e60eda822c3bca0f4ed1b6b7cdfca9e361ee2606650b3
+-  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:6e87814efdba0221bdac583aeea9787912315602cd2088c47836c69c4cfa55bb
++  __AUTH_CONST.__cfstring: 0x120 sha256:601ba98861adec5950cae425fdc8ea394d6ae24eb520eb00ae7576b08c461a6d
++  __AUTH_CONST.__objc_const: 0x2f8 sha256:45c0bf088386bcc02a782b876dd806cdcf6c9a5ad4453dae4368e81b51dfa51a
++  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:85bed0c0ec6fd6e6c769d4ae313b71bf8bc51b25182da831e2d3db3a4146f181
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x24 sha256:7b7afdc7ff47a6abf04f9bd03314c5b1d079af5f28b6be0ca648870c6f0e19f2
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:47d9d787873320960ea598f6bf8d7db9730b5133269586dd9e8ed0b2f04e39ce
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:b61a35fb22b98371ac20855149e32f36e2e57fd082f6db50023c647fbef10f41
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 06B92A5B-48D2-32F9-9B18-C7BC73E108B1
++  UUID: F952EACF-327E-38B4-B1C6-E6F8B69CBC96
+   Functions: 47
+   Symbols:   230
+   CStrings:  21
+Functions:
+~ +[CAMShutterButton shutterButtonWithSpec:] : sha256 7034644fae21fd0d2609981dabf20ff6152685ce057eaf55196e6dd79626ef1d -> 12ba96c9838de68608872b096d8dd8272d424213282d29ade240cfbb3685912c
+~ -[CAMShutterButton mode] : sha256 1563aad078ab12bd7f087bc5799d11865c203a32a11ffab76ad3f3aa8e587024 -> ae29ec2db899fe08348d5eda54299546f382f8bfe07e43749bb621a6fa9ba78c
+~ -[CAMShutterButton setMode:animated:] : sha256 6ed9f2de7406cb061310b48bdd1c11658cdd67337ef102f8c101a62151ca16ff -> 431fbd50694ca42ba38f15ace2ced8a0bea3303763b7c72609222c57830b1254
+~ +[CMKShutterButton shutterButton] : sha256 a06f41ba79012526fd1de6267a9494e57dae216bb6f985b297e0040e64fec443 -> bde9c0a520f5714955813cb53be8a30e2bb4e8a4eff01bcd41f001444256a689
+~ +[CMKShutterButton smallShutterButton] : sha256 ef5627e86094c15208360994ea78ad66d503229c899ad5f02e7f10df59bda1f7 -> eaf8b247783d377df37f5d0c82d7a090a3175f9001599d68d0ee3801c4d19733
+~ +[CMKShutterButton tinyShutterButton] : sha256 d99513b53e218ff09df0e7f49e948d1f4318f311f36d1f4e6270dd1fa7d6afe1 -> e4ea4c632af6dd2231f344febcf9a57e55ad00ff8a1f2e180e9d9f6c7b6bd3d5
+~ +[CMKShutterButton shutterButtonWithDesiredSpec:] : sha256 db1b019294097d759ff930a1ff413841e3ed66552ac95662cd987961a8c04ba6 -> e7d799687542565d25a668c2733cc5dac3113b48734e662b561d38dea047423f
+~ -[CMKShutterButton _commonCMKShutterButtonInitialization] : sha256 2c9be51829fda15c6375940988d60c692c7013902ead144c300b1ec796a5ca8f -> 103a2c1b3c0d3ec3e3c91f18d61c250832985f37b3246d43d701f9e759316a6b
+~ -[CMKShutterButton initWithFrame:] : sha256 08cbfdbbce96b998d120364c46cd3bf557adcc3c7e155552b4cc18b686928666 -> 361e9dc1a1dee4bd1f28ed13df466f3a73434d13dfdb8e97112d830cd1690347
+~ -[CMKShutterButton initWithCoder:] : sha256 cf87258909dc715b7172ec40024ef1727a16b939d46b45c9c8211b22f6b776c0 -> bb4fecf209034124ea175faac4cd6f6be482a2529fce881aeb27402ed8a3b2af
+~ -[CMKShutterButton intrinsicContentSize] : sha256 63b395d4e61f3cb6935e2609125768b6d3be0fecd2f56b658554396aaa65c239 -> dd58e9e4505358013a162c4dfaaf15fae98c083ef6447b7b32b5e595158485d2
+~ -[CMKShutterButton sizeThatFits:] : sha256 63b395d4e61f3cb6935e2609125768b6d3be0fecd2f56b658554396aaa65c239 -> dd58e9e4505358013a162c4dfaaf15fae98c083ef6447b7b32b5e595158485d2
+~ -[CMKShutterButton layoutSubviews] : sha256 e49ff481f5c47bdc4808ebaceec093bbf202d8693216f4fb82b07eba5c6d9e45 -> 1d0a3739d6271bb511e8edb35097aceceed79e0b38f5e55f1a4cf803177dcbf6
+~ -[CMKShutterButton setHighlighted:] : sha256 d6170c90a61e4cb7d4e9d32c0610089c39238625281b2a45943656c466291030 -> 13edcd7351ce8234a20575afa807b941925d5cb6a0793cca2f75462f7f75447c
+~ -[CMKShutterButton setButtonMode:] : sha256 643425bcb41a9098ab61012f0e4b18722c2020a137c1a72d954f1e96e247102d -> 6a256d297c61c59012198cbe162f7be1f406715dbb36b50d610286cce9215c76
+~ -[CMKShutterButton setButtonMode:animated:] : sha256 6b2a6f791f3586bc5eea66e00dde8129e4d197e7222dc1b8b1cb3eb787d4c80f -> a2b2e3d529bb748cd6162a1384c4d5dd8c2ddc748a302822a2efc65fcb05b85d
+~ -[CMKShutterButton setPulsing:] : sha256 3734fbb3aaeffd1146f209196cd58cd8c4ed31834860fd46afb7f7a039734915 -> a0a65779fa1e513d2b12b3e2ea278846ff9e70d816dc654df013d3fe62576bfc
+~ -[CMKShutterButton setSpinning:] : sha256 defe6519cea1adccc6b57a04a1107f226aeb9e8965f89e8bc548dd5f731853ce -> cd71b52200a2ea3c64988b90deaef5b0c90ca8c27986692dd1d419dffdc3ae00
+~ -[CMKShutterButton _setSpec:] : sha256 c425a30a77e9374b99477c5765787d90379c238e8ed7c5cc16edc2f27fc950d1 -> 81151600848bce37622ec4de8b8c21beaa20447be9dc64616860dc23be35bae6
+~ -[CMKShutterButton _innerCircleDiameter] : sha256 71430899a3c1b40a863036d1cff76f84449fac87d1bebdd5dd64b0cd1bc7b544 -> edced577e0f82b23a3c3be8d5b68fac79520abdefe4465b88a378282e942e6f9
+~ -[CMKShutterButton _colorForMode:] : sha256 21b8086c4dd6747fe6abaac6666c881e6a9714e6a3c5fb53030ed171d094b93c -> 021ad051e97fdccf7ff09fb9a085599bf91092b2d07397f284af5d417af1373f
+~ -[CMKShutterButton _sizeForMode:] : sha256 9f2cc5308ab3682e3717586b66e08cb03ec879b4fd0319a367dd4cb5370a6cd4 -> f255a90fd7a8c77ea9dd8c79254edd0e1f95063fc31f779979b6a6f6e8fda078
+~ -[CMKShutterButton _cornerRadiusForMode:] : sha256 ef1e86e4f9a4173880b58439ce54ae1ab1ffd676ee88beacc2c5e5929e2470a3 -> 64fec73d75f5303521401b63dea2e65004196311407b00504ba89afaf1c47379
+~ -[CMKShutterButton _borderWidthForMode:] : sha256 73ab6600d3407213940ef703798d7fbf994dd8fac6fdbe58965c764c254b803f -> 495d13b58d17efe3e6de9562f831aaa23d39baddcfb0771532d123151b4dfc8f
+~ -[CMKShutterButton _updateOuterAndInnerLayers] : sha256 d097b4ab1460aa73d8d4238b3c6a1176cb8ebeab8462ab59fd06184064c9a1ad -> 83c54c1fe38659c33cd1eeee62a408e6bcf01c21127b5c824768599b89da3cc3
+~ -[CMKShutterButton setShowDisabled:] : sha256 b54a3054fc2cc707011d74a4e14566297508f9f488bd43cbc1482b36eabc6611 -> f92a57ccd8e830593dcda9f773349685c0d082c2cd60a46302185ca66f513a38
+~ -[CMKShutterButton _performHighlightAnimation] : sha256 d87f39cb50bca8ca307abb48a1a795777e02e1575319e3667970a59268936ae8 -> 6e4e8196b7a79c41b8a4723dbc24df6ab3946603442daee4304f912768e55dde
+~ -[CMKShutterButton _performModeSwitchAnimationFromMode:toMode:animated:] : sha256 985d7ecabe65094378385fc046fe1b8787e1977aee618be7c1fae9965fdb40bb -> 7b6af5a52fbe07779dd7ac730768b4e83f4a662ea609b8d7acfa6e3d1bfd925c
+~ -[CMKShutterButton _updateSpinningAnimations] : sha256 5ce6572c295d4d68afbb02b72531780098884deeb6db3f951fb567f420e0f0e6 -> 377c0cd47c87fec47bd6a890b1d74262ceec6250e02a341a7cd9793279b781f9
+~ ___45-[CMKShutterButton _updateSpinningAnimations]_block_invoke : sha256 bfa55ac2cfcf148c2b17c269766a004a0828795b81f731b2e97fb71bd3005c75 -> 50334a2271ad9ff999a7f7c2c78892d3c94ca12b9b17f5c4b126f2622bdde646
+~ ___45-[CMKShutterButton _updateSpinningAnimations]_block_invoke_2 : sha256 146012c15284d2b6f6de59038885f71e31160d5a9b1c7472cb0e96c95b06e3c5 -> 5b44e2619df6b98c1252986fae28671e1bb31e2f32cbfd4bd38f8df5f01b9f21
+~ -[CMKShutterButton buttonMode] : sha256 9b2d99b95b7fa33cc2092fefc737a33ae6f5e16cd06c6967fcfdb51668fa8ebc -> fbd0815fb468ae3c73e24ddc0af1154a135d8eec9f898c897b94bfe1622d6c3d
+~ -[CMKShutterButton spec] : sha256 f071b59c76b5591fe6d8fb570bb506d1bce21f8faa56ae28b16d9cf3b0658452 -> 619b8d670acb50931b33531476d9a7f89258be947fa8309966b1f840e3928512
+~ -[CMKShutterButton isPulsing] : sha256 fca5454fbbd099d83768011f1fc1e24ae24182766af228958b2ede5e11004f11 -> 401a1425e3aef76b5160fc42c911da60621ed16b6790b878e9cae8a276086bfa
+~ -[CMKShutterButton isSpinning] : sha256 c86660158800ecb6e9288c194f88abfd7f00cd3bd41736559cd20a0e7012b0ec -> bd8d372b7fbd277124f2a0f129ed5b7062abdb2b0ddbed853afceadf2d33acda
+~ -[CMKShutterButton showDisabled] : sha256 7225a393bd7f2ec1a0a99978e6fd8460562812d6e40c8d31da57d80bcb069fb1 -> ebea90ef8032130149610c4613b3f2f06a353f76a999349ef63502a7db91e016
+~ -[CMKShutterButton _outerView] : sha256 d44a112b369f7666b35590339612c3ceb78cb021f6baa90956787e4cbe113688 -> 55d6dcaf97345e14ff810dc25448aed0993657bf6ea18bdda3fa67e459414464
+~ -[CMKShutterButton _outerImageView] : sha256 ea872c488a535975f73da23c222bd8ab0d2d83e73ac6525dd36b88fc5d6cf2b5 -> 8a192148e5aeefee8aaef11d5fa67e2b084b2a9eb2d77b1090772b809fb8f5ce
+~ -[CMKShutterButton _innerView] : sha256 9ca1af04b9e338143c4262b9264f30cdd228f808be51b0c1fee28f465078fcb2 -> a32413ac5743086b7256269cf3cda46730b774960d5a7d0dd12b8752f66086e4
+~ -[CMKShutterButton _progressActivityIndicatorView] : sha256 6eb5dab0f7a244dd0fd3cdf0e78f9ebde883cea68a7530cacc36ee29e199ea67 -> 5a4b13226b82b2217e8d774dbbea4c259ee019fba73b0f6f32d61ab4947187bb
+~ -[CMKShutterButton .cxx_destruct] : sha256 9e44161c6c48aa1e55046ab0bb70178bd7015b43356db9f37000fd988cd5c94c -> 9e5775c9fe3b7c13512d64fa825da532d6147f5d42d5256170ea634ddaad0b35
+
+```

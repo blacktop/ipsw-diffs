@@ -1,0 +1,248 @@
+## com.apple.SharePlay.NearbyInvitationsService
+
+> `/System/Library/PrivateFrameworks/NearbySessions.framework/XPCServices/com.apple.SharePlay.NearbyInvitationsService.xpc/com.apple.SharePlay.NearbyInvitationsService`
+
+```diff
+
+-296.100.6.0.0
+-  __TEXT.__text: 0xcc844 sha256:98096f3d6fec0969c87cb8868164593b19e08963a1e050fdf9798d12c1fab1aa
+-  __TEXT.__auth_stubs: 0x2710 sha256:cf7ab3e483bd7d344fca3a35e7f3efd8e3fb502dc2fe15d4f43ec011bd7ae801
+-  __TEXT.__objc_stubs: 0xe80 sha256:75ce7a8a21c050c5638976215dae374447c34c8e9b955d13d885dd3b24ee3d66
+-  __TEXT.__objc_methlist: 0xa18 sha256:354b1aed8f5837c0fdb3604efe6dc24296826a442b7f4337f61adce5553033de
+-  __TEXT.__const: 0x53d0 sha256:db18fba28a66e0bd37185559935721c8878e0fc7f8b4613fb83ddf053965c64b
++298.100.1.0.0
++  __TEXT.__text: 0xccaa0 sha256:e25b6870ca9190f634282d4bc797b4ba526958a85903b83afe4a49d49c7324aa
++  __TEXT.__auth_stubs: 0x2700 sha256:784c82d5109227e85699418c9c5a07290a56ff0af02e5c69d3b4d947adb77104
++  __TEXT.__objc_stubs: 0xe80 sha256:edcad859d016c8b589f4d6883d83d50e2802e5091e25781779d8dcb2d49c706c
++  __TEXT.__objc_methlist: 0xa18 sha256:c16b147477d6d38ecc72d100a4b4f299de0db60d3da0ff0606aa4534a1ecd7c9
++  __TEXT.__const: 0x5410 sha256:eca73707c7adf44510a5b82058770d7f03407e422ab2a6742af9f873f032519d
+   __TEXT.__cstring: 0xd3d sha256:97cb336756a827c1110fc6f42da73693b2a3e48b889f398e8d0b73036e567f63
+-  __TEXT.__swift5_typeref: 0x1f32 sha256:df7243b63aa795fe657b609c0416ae931e6c8ee567f74db42959caa3761f0904
+-  __TEXT.__swift5_entry: 0x8 sha256:0351f019089f13efb42eec3603284ab9aa0281c75249d80862c29c2a8c978c4b
+-  __TEXT.__constg_swiftt: 0x20bc sha256:c66b69ad7397f1f388bc010b3abcdd4d46b071a5eca966952a883293491ad75e
+-  __TEXT.__swift5_builtin: 0x50 sha256:a8d67be176c10b8d0ddebe9211caf0c2ffdabd1d42ac60e87cfdbd04cd2db14f
+-  __TEXT.__swift5_reflstr: 0x1169 sha256:528bb17a3b6efbe5cf167671754eddd9afd5f416e07f55235959e22fdb1970b6
+-  __TEXT.__swift5_fieldmd: 0x1534 sha256:0c13995a5fc6c293b33ca1cd93c29abde5ac88cc351ed1c33be9c97f24918547
+-  __TEXT.__swift5_types: 0x194 sha256:5c2fb600a70f8baf010974d776d4dd250498ddb33b35e79dff46d75588aec981
++  __TEXT.__swift5_typeref: 0x1f66 sha256:bc7c64708bf625e21bf6e7fa4c4c8ed082147c058366f45b5d4f90b97aee3e02
++  __TEXT.__swift5_entry: 0x8 sha256:e42a095805d73d25c288a74b60becc8ca99cf10e190327d80849b21f92d18728
++  __TEXT.__constg_swiftt: 0x2150 sha256:9581b0e1d1f65fc2d64bdc53b21b3dfb5badc45bbb45f915650ae2e1258d2f3e
++  __TEXT.__swift5_builtin: 0x50 sha256:7246e25e296bb946cfca62885f1caec1be9e84c1de4f2e712408630848e690fb
++  __TEXT.__swift5_reflstr: 0x1179 sha256:d00a6bc8ea7dc40c23c456cf09c686fa4a6ae628c71e20803cd19b64c89846a0
++  __TEXT.__swift5_fieldmd: 0x155c sha256:8621b9810051aa943320e820f3e9dd127111300fa74d4b7c632dbd2bef3721bf
++  __TEXT.__swift5_types: 0x198 sha256:6413aecbf55ca12ca22d86cab3e7a2f2ec4469d4f25b09c4e018f2d9a4716da9
+   __TEXT.__objc_classname: 0xaa5 sha256:95146030e828b6d7df7905afea5980ea82f2e6cc75e2f6eb3076170e7a88884f
+-  __TEXT.__objc_methname: 0x2930 sha256:d44681bc9ac6d59239e2a8d6a7245752e962ba31a50513a55c9822ca237d992b
++  __TEXT.__objc_methname: 0x2930 sha256:e37966778975d897150992a115965e563f9fc1bf6a5d8006b87acd72c795c204
+   __TEXT.__objc_methtype: 0x18db sha256:00295fd2e93e4b8b91f0cc1fc0f6f5d9e2f8b566653a3f54f1849df61bd43c4a
+-  __TEXT.__swift5_capture: 0xf18 sha256:0fde964a25a4df5717eedb6f78e82bf2a98d4f824d6bed1bcf2e94f379fa90a2
+-  __TEXT.__oslogstring: 0x4db2 sha256:24b75487050ec5d1c7425d78d1e3568aea2eeb58e773c8da7b100d7ddf65c6ac
+-  __TEXT.__swift5_assocty: 0x170 sha256:f6b46d20c414f836d36a5ee3a35c7bc41cb95f5580bacb7cc701aa9c7b851d0c
+-  __TEXT.__swift5_protos: 0x34 sha256:5e8358ccc83d2fa7c23b27347a67c4f2ee99bb7d582aa38e44ab5adab00fc93d
+-  __TEXT.__swift5_proto: 0x35c sha256:d571aa1f89022891f2da649a7758f04ea661aff18da647a4b6a6a36c1b88977e
+-  __TEXT.__swift_as_entry: 0x184 sha256:cec8e27ef86e23f234e78f53ac90ca2aac8451a4588b7286bb32d475776c5afd
+-  __TEXT.__swift_as_ret: 0x164 sha256:545173349e92998eb7b11855f44b438bbae86b447e1c17ecda8c72cfe4b64c0f
+-  __TEXT.__swift_as_cont: 0x31c sha256:5134f5e23911ddc510db4d51b1d0e0d3c4d4350df157e2f6fe9ad40e881f0436
+-  __TEXT.__swift5_mpenum: 0x8 sha256:46b8c85877f96122e8cd7c2de1ccda9c0ae208bce9b8ebe986abba37acd77121
+-  __TEXT.__unwind_info: 0x2cf0 sha256:9ea994fae9accc105c985dff181c7dd9e65a0417f686a1b67c771422f3c84437
+-  __TEXT.__eh_frame: 0x5158 sha256:b7a88759adce5db5fd101be46c9f38c9e35f7e2f20d37fcea1d61bfdf1058fa8
+-  __DATA_CONST.__const: 0x4508 sha256:1d0643fe6af578a3ed22f8ce2d5568bb426e2b69a1cfb39c80c0f4ae5a174ecb
+-  __DATA_CONST.__objc_classlist: 0xc8 sha256:504778d25a0e773f0f1739327468cf40902f9d32a3ff0b1eeed72cdabcbd792f
++  __TEXT.__swift5_capture: 0xf18 sha256:e73093dbfb6f0b9295f961886cd8a462ac960e26a0af2536b509688badda4d62
++  __TEXT.__oslogstring: 0x4e22 sha256:82fdb29dd3a45d22ab7db0e0b3b88763c5531dbd34ec629bebd72711012c2072
++  __TEXT.__swift5_assocty: 0x170 sha256:4820093be747c6ac845c6877774c1b582856885859db0b60a03f0c8bfb7961d6
++  __TEXT.__swift5_protos: 0x34 sha256:31bb6627be3766e1dc89d66d94ed1e47076e1319d4ce191a4abc30a5c792b681
++  __TEXT.__swift5_proto: 0x35c sha256:7a9990493b28c1355d29e7055c5d1e86186ef62197ff462c094b107682fc5a8e
++  __TEXT.__swift_as_entry: 0x184 sha256:287f590d57fb274dc4f46e0c4bffa71408c819839e01de75fe55c1a97b518f95
++  __TEXT.__swift_as_ret: 0x164 sha256:ab1faf31496221b1a0044dffdcc3a9f5361a7af01932fc1fac372074f4fe659f
++  __TEXT.__swift_as_cont: 0x304 sha256:599b76a3a39969aa1d212756ec9e18edb488454c47cd9cd9b264e8421306b552
++  __TEXT.__swift5_mpenum: 0x8 sha256:970108cafdd686c05cece719a51686e801d01fb0171d6709123909b2a5ae2bf6
++  __TEXT.__unwind_info: 0x2ce0 sha256:2f9772991ceb411513a59103bba7e52f6bf824f2bb2660801652e977669bff6d
++  __TEXT.__eh_frame: 0x5110 sha256:630cc68c2f9b583114d0bd9c893de7487405b555c0b6bc1b365320ea7b975350
++  __DATA_CONST.__const: 0x4670 sha256:d907fd4c34098a2903a79290ce46f1d7393d47ea43b7b1704708335a90e5e62a
++  __DATA_CONST.__objc_classlist: 0xc8 sha256:e74457f8ce4b64770e9f3c999622f5eecd74ff9af0418521ddcfd80378bc1017
+   __DATA_CONST.__objc_catlist2: 0x10 sha256:ad0714d5663f68f0a578c7f29cf45e24402c7886146ad555c218e57dc57707dc
+-  __DATA_CONST.__objc_protolist: 0xd0 sha256:74af58cfe4c2278f1080339bc5cada845b465fe674d3cce06e204420247aff4d
++  __DATA_CONST.__objc_protolist: 0xd0 sha256:d1e70c32803b388e0cca1b52c608924126c5349211ffa3722402b224bf78caf1
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0x70 sha256:2522404f4592f1061b4b8bb6ad89e2009d43bd5c89439e53185284b876e17731
+-  __DATA_CONST.__auth_got: 0x1390 sha256:c354c9c025c55f3bb8b4302a6ceee2c4aa53bf01d182c394f408362ee740a7d3
+-  __DATA_CONST.__got: 0x538 sha256:5a964c8e93a87ba3d7780b7175039841026a9dbcdba0090de208fec3516550fa
+-  __DATA_CONST.__auth_ptr: 0x800 sha256:89e46ea12f5a5f05a80505d5e1906942b741a0be8f6acd15fcb2037985159ad9
+-  __DATA.__objc_const: 0x23d8 sha256:6d88273196f49bd8ad045513d10948ca87c0ac24ba1221dd3344c1c281aaaf8c
+-  __DATA.__objc_selrefs: 0x7c0 sha256:f5575c868a69e9c8905b4010de27001571d56ca78e89c2fa0e59e9f6d6563490
+-  __DATA.__objc_data: 0xe68 sha256:2c18dc8386e11ac11eddfddb2db3253fd33943c3f8307cae84e93a3cd3654093
+-  __DATA.__data: 0x3ff0 sha256:49aee3654e1b66c4d8536e9a40f430ba6f0f9714e2070fa2bcf8d748e6e93987
+-  __DATA.__objc_stublist: 0x10 sha256:00fa846c969781eb664383a418bcf3a575917a43fa5d01f9ae9f55ea61b6a794
++  __DATA_CONST.__objc_protorefs: 0x70 sha256:ca19b03f31a4cbffae8c468f96cc8614ad811c1ce81a694b14b83a30377f1798
++  __DATA_CONST.__auth_got: 0x1388 sha256:6fed680fd3741179dbc6023525a6e1b2e56410ce18571cdc537094c41de12cee
++  __DATA_CONST.__got: 0x538 sha256:54c8ff6f387cb3b9f8754439c0a4f21dcf35f477e5ab1dbe0789a76b0d69db52
++  __DATA_CONST.__auth_ptr: 0x800 sha256:91174cee3a58eb644014443823a73fac2e01aa8161aaf1c5e2f16ac4845b4c89
++  __DATA.__objc_const: 0x2400 sha256:cd4391b6cf63eb50d0d76ec37241aac51536ee4bdbf29fc6064f9aa51496a0b4
++  __DATA.__objc_selrefs: 0x7c0 sha256:e72f9a912c25fa4da593703aaf02f7ae603b0450a4a73bcac98d9f9686a616bf
++  __DATA.__objc_data: 0xe68 sha256:e25a94dee9c895f294bfc19870a256c9919d7c637e74ca77b80f618b493f6836
++  __DATA.__data: 0x4070 sha256:c8b8eba4d541824a9771b1724951b4eb4ae0de04d0d8ffd9212300552df373a6
++  __DATA.__objc_stublist: 0x10 sha256:fdf30691b5ee30638a08eba7e461a0008bbaea5261ae9d978d697303f1101eb7
+   __DATA.__common: 0x430 sha256:482500ac4ba894ac24dbc1e3e06f5455e570378d55808949294af424208dff4c
+-  __DATA.__bss: 0x6670 sha256:99ee9ee489e7b6dcc8b671435c38e37760a31fa54bd53bd5abd534dad28f0c8f
++  __DATA.__bss: 0x6670 sha256:249de341d31ea977817da149e27c90fc84fd88fcea58ff4ff855e8ca369f0357
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 73B299E1-0FA7-359E-9E91-9656A42A05F4
+-  Functions: 3745
+-  Symbols:   27025
+-  CStrings:  960
++  UUID: C7CBE555-9092-32E0-AC6F-084C1EF86362
++  Functions: 3747
++  Symbols:   27066
++  CStrings:  962
+ 
+Symbols:
++ $s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV4next6OutputQzSgyYaFyyYbXEfU_7Combine03AnyH0VyAA0E19GroupHostIDSServiceC12MessageEventO_AN0R7ContextVts5NeverOG_Tg5TA.53
++ $s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV4next6OutputQzSgyYaFyyYbXEfU_7Combine03AnyH0VyAA0E19GroupHostIDSServiceC12MessageEventO_AN0R7ContextVts5NeverOG_Tg5TA.56
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/AssertionManager.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/BluetoothScanner.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/FilteredBluetoothScanner.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/Logging.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroup.pb.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupFirewall.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupFirewallProvider.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHost.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHostConnection.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHostIDSService.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHostManager.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupServerBag.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyIDSServiceController.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationJoinRequestController.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationServiceBluetoothController.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationServiceHost.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationServiceHostConnection.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsAdvertiser.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsBlastDoorConnectionHelper.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsProviderDataSource.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsScanner.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitiationService.pb.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyRangingFilter.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbySession.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/Pseudonym.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/Publisher+AsyncSequence.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/com.apple.SharePlay.NearbyInvitationsService_vers.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/com_apple_SharePlay_NearbyInvitationsService.swiftmodule
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/main.o
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Sources/Expanse/Copresence/
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Sources/Expanse/NearbyInvitationsService/
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Sources/Expanse/NearbyInvitationsService/Bluetooth/
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Sources/Expanse/NearbyInvitationsService/Group/
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Sources/Expanse/NearbyInvitationsService/Group/Protobuf/
++ /Library/Caches/com.apple.xbs/D053CB86-99B9-4384-93AB-5FEE035298AF/TemporaryDirectory.Xux37W/Sources/Expanse/NearbyInvitationsService/Protobuf/
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E16GroupHostManagerC15listenForEventsyyYaFTQ2_
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E16GroupHostManagerC15listenForEventsyyYaFTQ5_
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E16GroupHostManagerC15listenForEventsyyYaFTY3_
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E16GroupHostManagerC15listenForEventsyyYaFTY6_
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorV4nextAC0K5EventO_AC0K7ContextVtSgyYaFTQ1_
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorV4nextAC0K5EventO_AC0K7ContextVtSgyYaFTY2_
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorVScIAAScI4next7ElementQzSgyYaKFTWTQ1_
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorVScIAAScI4next7ElementQzSgyYaKFTWTY2_
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorVScIAAScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTWTQ1_
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorVScIAAScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTWTY2_
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorVWV
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorVwet
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorVwst
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E9GroupHostC2id7members11localMember03idsG00lM5TokenAC10Foundation4UUIDV_Shy0E8Sessions0ehM0CGAA17PseudonymProtocol_pAA0ehI10IDSServiceCS2ScSgtcfcyyYacfU_TQ1_
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E9GroupHostC2id7members11localMember03idsG00lM5TokenAC10Foundation4UUIDV_Shy0E8Sessions0ehM0CGAA17PseudonymProtocol_pAA0ehI10IDSServiceCS2ScSgtcfcyyYacfU_TY2_
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLC5innerAE5InnerCyx__GvpWvd
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMF
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMI
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMP
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMXX
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMa
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMi
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMn
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMr
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCfD
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCfd
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCy7Combine03AnyH0VyAA0E19GroupHostIDSServiceC12MessageEventO_AM0Z7ContextVts5NeverOG__GMR
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCy7Combine03AnyH0VyAA0E19GroupHostIDSServiceC12MessageEventO_AM0Z7ContextVts5NeverOG__GMd
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCyAHyx__GAE5InnerCyx__GcfC
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorVWV
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorVwet
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorVwst
++ _$sBAxs5Error_pINgHgILrzo_BAxsAA_pIeNgHgILrzr_lTRTQ0_
++ __IVARS__TtCVV44com_apple_SharePlay_NearbyInvitationsService18_PublisherElements8IteratorP33_025199D7C0AC00D7EA5F6A091567A21A14CancelOnDeinit
++ ___unnamed_10
++ ___unnamed_18
++ ___unnamed_7
++ _symbolic _____ 44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLC
++ _symbolic _____y_____y___________t_____G__G 44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLC 7Combine03AnyH0V AA0E19GroupHostIDSServiceC12MessageEventO AM0Z7ContextV s5NeverO
++ _symbolic _____yx__G 44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLC
+- $s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV4next6OutputQzSgyYaFyyYbXEfU_7Combine03AnyH0VyAA0E19GroupHostIDSServiceC12MessageEventO_AN0R7ContextVts5NeverOG_Tg5TA.49
+- $s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV4next6OutputQzSgyYaFyyYbXEfU_7Combine03AnyH0VyAA0E19GroupHostIDSServiceC12MessageEventO_AN0R7ContextVts5NeverOG_Tg5TA.52
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/AssertionManager.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/BluetoothScanner.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/FilteredBluetoothScanner.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/Logging.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroup.pb.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupFirewall.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupFirewallProvider.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHost.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHostConnection.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHostIDSService.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHostManager.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupServerBag.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyIDSServiceController.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationJoinRequestController.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationServiceBluetoothController.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationServiceHost.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationServiceHostConnection.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsAdvertiser.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsBlastDoorConnectionHelper.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsProviderDataSource.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsScanner.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitiationService.pb.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyRangingFilter.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbySession.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/Pseudonym.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/Publisher+AsyncSequence.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/com.apple.SharePlay.NearbyInvitationsService_vers.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/com_apple_SharePlay_NearbyInvitationsService.swiftmodule
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/main.o
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Sources/Expanse/Copresence/
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Sources/Expanse/NearbyInvitationsService/
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Sources/Expanse/NearbyInvitationsService/Bluetooth/
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Sources/Expanse/NearbyInvitationsService/Group/
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Sources/Expanse/NearbyInvitationsService/Group/Protobuf/
+- /Library/Caches/com.apple.xbs/637638E7-EF04-4860-9084-14B806EE717D/TemporaryDirectory.KJzMtn/Sources/Expanse/NearbyInvitationsService/Protobuf/
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E16GroupHostManagerC15listenForEventsyyYaFTQ3_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E16GroupHostManagerC15listenForEventsyyYaFTQ6_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E16GroupHostManagerC15listenForEventsyyYaFTY2_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E16GroupHostManagerC15listenForEventsyyYaFTY5_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E16GroupHostManagerC15listenForEventsyyYaFTY8_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorV4nextAC0K5EventO_AC0K7ContextVtSgyYaFTQ2_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorV4nextAC0K5EventO_AC0K7ContextVtSgyYaFTY1_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorV4nextAC0K5EventO_AC0K7ContextVtSgyYaFTY3_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorVScIAAScI4next7ElementQzSgyYaKFTWTQ2_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorVScIAAScI4next7ElementQzSgyYaKFTWTY1_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorVScIAAScI4next7ElementQzSgyYaKFTWTY3_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorVScIAAScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTWTQ2_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorVScIAAScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTWTY1_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC13MessageEventsV8IteratorVScIAAScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTWTY3_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E9GroupHostC2id7members11localMember03idsG00lM5TokenAC10Foundation4UUIDV_Shy0E8Sessions0ehM0CGAA17PseudonymProtocol_pAA0ehI10IDSServiceCS2ScSgtcfcyyYacfU_TQ2_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E9GroupHostC2id7members11localMember03idsG00lM5TokenAC10Foundation4UUIDV_Shy0E8Sessions0ehM0CGAA17PseudonymProtocol_pAA0ehI10IDSServiceCS2ScSgtcfcyyYacfU_TY1_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E9GroupHostC2id7members11localMember03idsG00lM5TokenAC10Foundation4UUIDV_Shy0E8Sessions0ehM0CGAA17PseudonymProtocol_pAA0ehI10IDSServiceCS2ScSgtcfcyyYacfU_TY4_
+- _$sBAxs5Error_pINgHgILrzo_BAxsAA_pIeNgHgILrzr_lTRTQ1_
+- _$sBAxs5Error_pINgHgILrzo_BAxsAA_pIeNgHgILrzr_lTRTY0_
+- ___unnamed_6
+- ___unnamed_8
+- _objc_retain_x12
+CStrings:
++ "_PublisherElements.Inner dropping over-delivered value; subscription likely leaked. publisher=%s"
++ "inner"
+
+```

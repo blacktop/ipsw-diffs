@@ -1,0 +1,91 @@
+## LegacyGameKit
+
+> `/System/Library/PrivateFrameworks/LegacyGameKit.framework/LegacyGameKit`
+
+```diff
+
+-821.0.13.1.2
+-  __TEXT.__text: 0x3dc sha256:f4fa0b7b6f2a13ca40efd3dc576562dbcc5adc2a0e436bda0900c6d6ecd739e7
+-  __TEXT.__objc_methlist: 0x3c0 sha256:1d903ac92a51708cfcc7159526d14d8bd3046e14de86c5a7be7266a1b6586e69
++821.0.16.0.0
++  __TEXT.__text: 0x3dc sha256:26b8da4d31f444591558131a67ed31ebeb62fec9cdd43cca4fb1b07eb29db30f
++  __TEXT.__objc_methlist: 0x3c0 sha256:05ddf70b42e0e13047ff4f5b6a433f5c30d6d4297a5c7d2d070fca688c7ff151
+   __TEXT.__cstring: 0x22 sha256:79c261e574e83f710c5fab97c407d75611529c526516cb78e7c5cd5f2d4d1a95
+   __TEXT.__unwind_info: 0x70 sha256:38569ac743f0eb5e0fbb29e31151ce1dc8dc1dec656f32543f36a245f0d28d1b
+   __TEXT.__objc_stubs: 0x0
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x8 sha256:5f3328e3018e9da25bf69ff1f1f2c0a61af25f8cbdeff8f57aaeb9acecd29a74
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:6bc3e0946552734593f3bcdc6a0fde81b078117d9be5bb061f357570be369c7a
++  __DATA_CONST.__const: 0x8 sha256:b76cffc420e1e27ceaf7ec15c37fd5fa13625323929e9ef3e6b554762bb51b7b
++  __DATA_CONST.__objc_classlist: 0x20 sha256:4ff3d09d12eb9633343150c15148d003b144916c996158e25daa4fd2d6d45c1b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x240 sha256:1cc5b9bfc4fde9d42f40461162ee254059f066f485cb941f24228e5a24f36e90
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:9842917f40863904acb840657cb68c55b5bbf1c69a7c76bdf05b55a742e0d2da
++  __DATA_CONST.__objc_selrefs: 0x240 sha256:5d3c03605011cc12395dd695d51057bcccaad1b7f980b987d788c0f3780bf28d
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:92bed296f44c15b4357c0f539fd402b7434c1e5697e97c0c5b85ac5aee065e99
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x20 sha256:cd0f4cc4d3eaf354273f2f047ef818448fb80d93a19793c06944a3b7e403ec4a
+-  __AUTH_CONST.__objc_const: 0x6c0 sha256:694c34e7dec365766c87f218b3d7f4b416d3a81e7809b4556a2eb3cb9f5128df
++  __AUTH_CONST.__cfstring: 0x20 sha256:30d12dd8779b7a0988b9207dc58b218d24fa20ee0abd64d5db646ea648e0f38a
++  __AUTH_CONST.__objc_const: 0x6c0 sha256:e314561d58b4d0ee21fb84157048c5745dd5e212c857e7a1ec9d5bc37c7e2fef
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x140 sha256:7656e4d1b96146d0b6c127ed4c5c895c66ffed9096bc077c974c5c7d0ec3c9f9
++  __AUTH.__objc_data: 0x140 sha256:94f29f50217841a6c6a3d2e32c794061507e82ccd495ca28e9e789446e97eb0f
+   __DATA.__objc_ivar: 0x4c sha256:8862ae06f58ddf83f4d9cd22f60dacedfe4e5b955dc9d258b5658971055ea41a
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/PrivateFrameworks/GameKitServices.framework/GameKitServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 30B74CD9-78A4-38EB-9C8E-C0E61B831D1D
++  UUID: D99940BC-E4F4-35D8-B840-4E3656CC5078
+   Functions: 75
+   Symbols:   222
+   CStrings:  2
+Functions:
+~ -[GKContentView initWithTitle:message:icon:cancelButtonTitle:otherButtonTitle:] : sha256 c9a8caee327f7a69b3fbfa48282920831db222df1e171b04d7a3fdeb72e4f0dd -> 1ede3e2f8db0765be5d523fdb42da5f559aeb00ec9cef7594894f09417e5e557
+~ -[GKContentView numberOfTitleLines] : sha256 0ce05b73c15c79eff017e9fec038ba54351bd16668cc632f8617289201775f92 -> 031f026ce37a5554620654eeb0b0d2204f7ed861e64a2e98b7581e83a7b9e6e0
+~ -[GKContentView titleFont] : sha256 88cc4e210152acbffbdc03499550657cf854e1fcc228c94f4d662f7b9e9cbfff -> 977c280ed69f895665ad8321e2927c88d94477adadd21d64fa5d22a9fc541dc6
+~ -[GKContentView messageFont] : sha256 1815d5815a51b12d9bc0bd678468c3ec1cc54672fe14b26a0b250ad35b758b81 -> bef16de9943952f336e1c8661d1ea1747af48efbe031988c772e4854bb7aec66
+~ -[GKContentView cancelButton] : sha256 69b70d395a43286198a3b8f7c73d026bebce3025c3dc35673c2f32f3cdf37719 -> d772ed68f4e31495fb391f5d416227c35724efd91e79faa7f959fcd9c0b35ed4
+~ -[GKContentView setCancelButton:] : sha256 7020f739402a8f0b2d878217d479ef63798c67790964153867be271eaf137b60 -> 7b541b72f8864c38e264bd22fae33a5112da7fe85f2cb3776675c560fa68c4d3
+~ -[GKContentView otherButton] : sha256 78be7f0d93b9e8ee243f352a60fc44e260177fa84e06b93266d0544100cb808b -> 656ddd9c87525ddeeec6ecaabf9efc6beb085267513df958662dfdeaf0bc4733
+~ -[GKContentView setOtherButton:] : sha256 bcadaf63f8cf6357fafb9e3935d1a5d50ca50e17a7da763f359488d1c5fc888a -> 6303490756bb34a089e29b216de32932a9a117344cdcb727221591e57e7ad56d
+~ -[GKContentView connectionButtons] : sha256 74af3f67369d8c1225805dfcfc6d99ffde5b7e25138566e0bacd5de8799e65bd -> ffbf346814943c593f8535313ade32fc208e34ca9273a927bc64e84aaacc8cef
+~ -[GKContentView activityIndicator] : sha256 00089c6a9da393af8e88250ad8913299fc23bf1106e03ee6fcf9c34dfa3fa113 -> c03bf6b8cf3ca27ad3e3a2fd4ee2d0c0025cc4a65a86dcd71490302a75b70152
+~ -[GKContentView setActivityIndicator:] : sha256 3fc9dc9ddb0ede53fd3d3cabba26cbdeec4464d83b25cb0f0a41512347e814d7 -> fb8e245b6d4e3d96c7487462414310b2b09a199ef651bc5d4fdc1a1e13934a11
+~ -[GKContentView titleLabel] : sha256 4c25b7c7e76f341b584a86e13eef3eccefec8e414391d0a4f21ee923f13b256c -> 80bef4234cecfd84b65755904c0d8a71044c41e67d8556dc7acebfe87101fd85
+~ -[GKContentView setTitleLabel:] : sha256 3a0b57679276e89038d5050c212e59640c27807af559659ad0a812f08d75dcd8 -> bcb9baf7e10d865b247e5e31970cf7ea23c427f2d17953c365671feb9fd937e7
+~ -[GKContentView messageLabel] : sha256 de81a2f85099b2010b52dd23c5a73c05e24652fcf0e3f4dd651d6b63ad060be0 -> feb21c0e8da40f15c7cb28226e4f91e6909230e5e923352e368390d5d8a4cf52
+~ -[GKContentView setMessageLabel:] : sha256 302bea7e38d31dbfd0d0007373fe70031ba69cbccaa6ab7b4559aa76d734925b -> f926d4c06db20bb2e9aa4da23cb2698312e38e529d955d22853f131abae61cdc
+~ -[GKContentView iconView] : sha256 6e1f68f614cdc6116e8a13d051df48e88080e673acf76bd6a6a453686cd38427 -> b1ec7521bfd1609a091c1eb8d5adb65acccf1f3e11c51af0f3f0142dd42e8c71
+~ -[GKContentView setIconView:] : sha256 093a6b4c4a00eddc1532d9d651615c371f87bd6cc303f85fc8265c2fe9afa158 -> e0973c0c1b34c99db0fd80aa40793c2364ae9d2ba7f7af795d083cb2f1bc2128
+~ -[GKPeerPickerTableViewCell initWithStyle:reuseIdentifier:] : sha256 f3f04e4a949bf6e23123335b03034aa5683124e091dead6e8b491be6128cd2f2 -> f7a43cf44580cdf3cdb126b7eab46272fbe3106598acafde304ec1d3ea5cb996
+~ -[GKPeerPickerTableViewCell topSeparator] : sha256 ba33453eb900a5c758519b150c01c6f7bafe18620c1e28595eda1d800bbacfa6 -> 84994fa4b0553bf7fa22b387ac8af9147d9f8a23ac3217b5543976e8d04582a3
+~ -[GKPeerPickerController picker] : sha256 4ebbd5144c2e2e2530b3b98b258961ae91d22cb69e9c22665db1a8aebe4f6ae0 -> d76276dc01f648b38a848b6d0c3c2dc6d38316526383b14d55a10ebced5c504f
+~ -[GKPeerPickerController setPicker:] : sha256 57989dd3040288ed2fa1c1c0769f8154751839fa68389d43d237c3ee6045bb94 -> a24e45390ed4877dd6208b6272ef2cde99a05502075fbdd57a77c1ee78bd91c7
+~ -[GKPeerPickerViewController initWithNibName:bundle:] : sha256 064babd6fd0a64b4244bd099b22ad85792fb29017c785a65f5002770a5052e0d -> 6983f6c23efc3a36a1207f246f0948041acfe185330ca2d4f35dfe9822cbc069
+~ -[GKPeerPickerViewController delegate] : sha256 8599730c962e4da55db2f2e8cec63293ed61159a03efebfac857567613996605 -> e61216c72e1c81849b2eae17db1f57daa102f1768915e96f753b94fe18ccbf74
+~ -[GKPeerPickerViewController setDelegate:] : sha256 fd162b00cdc5917de6374d089c02d3892487d17604d871b1ccf1c0028e03bab5 -> eedeece383c39803891672794429677b73984928a2b17183680b11bc36816dd4
+~ -[GKPeerPickerViewController btView] : sha256 8c4ba07133d868ac767c56467b7a1d09e287fa6d166d43cd70dd83c7ae8cb378 -> 72cd5d1c9b2085fe73516260a4379f5a20292a2962fc368b27be0ccfd9cac79c
+~ -[GKPeerPickerViewController setBtView:] : sha256 1457d298ff2e2c61e9e34a50e9e0e31dc24943b8a69dbd5dfdd8af40a8e0ab2b -> eb005764cf48c07d6e76f65bef1d49429db0eaa351d012ce0cfe4307043bbb36
+~ -[GKPeerPickerViewController listView] : sha256 6c15550304f3344f73c9b322928f1006e507ee6f25706bae4cfd9a2abd909a55 -> 6b74e4a3e6e90f653108b2a1e480e56ce1857a6ace3fe443d5f4735f7a61afac
+~ -[GKPeerPickerViewController setListView:] : sha256 d58aaecff05568db484afd70df6d0798418673938e133bb6243d12ec0a0b91ab -> dcb64778a7c6cdb1bda49fab226804e691ce265498495eb8cf733b8bb3420d89
+~ -[GKPeerPickerViewController statusView] : sha256 e6f6b843ae52e602addf1c98f522a57f0bb74e5df51a633d812cfa5bfa1d3012 -> 80a0d7334a4ffc1a30cfa0b363dcce68f120d65c84a1be33f1744621e443f914
+~ -[GKPeerPickerViewController setStatusView:] : sha256 b1bec5016d1270b208b5efdf5a6146a9d0fe77f641413e60cb1a8c90d473eb1a -> ccbbf945c7b65a5398857b5619eacc6bd999444320052e7b5a71618c70d77189
+~ -[GKPeerPickerViewController inviteView] : sha256 e847c7751cfba7f9325570b8d057027c036593ee6168a4e880ff903bd6f69559 -> 0fb69904c8352a0aac83d32d652d2c58d0161dc4e3e03b5b74e0e740be12bb6b
+~ -[GKPeerPickerViewController setInviteView:] : sha256 4465ea5baba0776b97ae2a7575122342747e9975cc17789aa0e69cad1e8d433a -> 2baab9bfc8bb4c75d1261ad2f68358e8357d84cd93c6cb324555945aff92a291
+~ -[GKPeerPickerViewController connectTypeView] : sha256 da80f1ea11351aa62dffaeacfb2a5732c4703ae138ee73481c47965f79ff2628 -> 81984cc0cd7dbf83570dad6db91de85cb022e87ed27da29e59b8371d27f7876e
+~ -[GKPeerPickerViewController setConnectTypeView:] : sha256 3958fd2c98b16cf4b8f9bdaf3f6238da4d0edc40571b61778f32956e9158eddf -> a553a0cbdd65cfb75035dc02c7fa0acb26ae07bb3b612bcd24c3964e0717d841
+~ -[GKPeerPickerViewController noPeersView] : sha256 dc69e1d3d74873c6342bd0f8cb8402d2d31a6178728339482eb8922fbed6473b -> 9ae77cffeb921f0543e4bdd4be5d3da4c3a4fbe5a99e5ca3e9dff0a1c162f354
+~ -[GKPeerPickerViewController setNoPeersView:] : sha256 2c1d37acbd58029391f93a64674859ac9631cbf850400fc70042cae71c21f539 -> a6bf87205554fb3252bc34154ab238c7155bf4a0154572f5b9e3f9058d13a89e
+~ -[GKPeerPickerViewController currentView] : sha256 43c0b297eae3f9745574f1ca92bcd8d77c50761c2ab85336bb5363a46a32b0e9 -> 6468e18fa15bf376697358ada7de7e5c11ee6c9a3d66d3ad527712e6797f4925
+~ -[GKPeerPickerViewController connectionTypesMask] : sha256 470b04a087e3b05c18dd73571d00a085e64afdec84beef77c46ca4edf3a27d11 -> 0800cc4d5fb0d4ce79e250b8aa98367edbee4a591da0e8d08e9284f96267c41f
+~ -[GKPeerPickerViewController setConnectionTypesMask:] : sha256 b6acbfbbd81617dc00028ba58552714c5201ac4fc1981c5ad664d454236c1492 -> ed18eec4f6c2b3508b80e3953594b2ce7905c1cda3f4c92d241caaa093fa204a
+~ -[GKPeerPickerViewController .cxx_destruct] : sha256 e189d4c4ebbc6e31ac64dd3d70fb01d7b79a8f754119d0dced6e4c07a35535ac -> 3a1a6696ca5e0317bb5ef2099d0cf8d80908063f134f18360078326833e2cb32
+
+```

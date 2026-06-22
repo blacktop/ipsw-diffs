@@ -1,0 +1,94 @@
+## TimerModule
+
+> `/System/Library/AccessibilityBundles/TimerModule.axbundle/TimerModule`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0xae8 sha256:0f829f490a9f4c844b8bdf39b7801b9cb038f9159ba2fef9d47da3b564dd0c71
+-  __TEXT.__objc_methlist: 0x138 sha256:4ef03f6a5d2e37131ccbb27f0cb193596fc7fa761493f6d76d94f78a8230c916
++3039.1.0.0.0
++  __TEXT.__text: 0xc9c sha256:4a62de59a3b86d49d00afe40a7fd4b419008bb213fe0eec24e059427fbb0a1c9
++  __TEXT.__objc_methlist: 0x138 sha256:5a7f56f4ebc3557282f90906b3e34fdb5cf7ad861215a89bcb49db81883020bd
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+-  __TEXT.__gcc_except_tab: 0x30 sha256:e345df6eb5b433539410ad6b203d1a6a8f54efc44bb925063ba478df4f0fecc1
++  __TEXT.__gcc_except_tab: 0x44 sha256:f3ccac913e5cc65c78033501a20d49892bb085613d58e7f65d890308ea896d0a
+   __TEXT.__cstring: 0x226 sha256:824ce2c4f48d7857b754056c640e9c468a28901f366e0e89662e63e3f1f26e75
+-  __TEXT.__unwind_info: 0xc8 sha256:c24fd4b47f8d63d44c1bc3ceb4f2ac568fbe3ee13af2b9aea4bb7bac4abefa9d
++  __TEXT.__unwind_info: 0xd0 sha256:4df7bc45e4019a82698f6ca6bf9165d632386cdc21e7870b707da77fd19ca223
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x88 sha256:d8264483b4e635ceedf30e30b37ebb6fc3f0822045024946e970761631071ae1
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:5c9cd0791b13be0a0b931a35f1fbd018c9fe98a20a46e86ea6a7b86d0b302602
++  __DATA_CONST.__const: 0x88 sha256:0574d230355b8a957445dae921dbc7063db121c293fd3cca143992fa06096ce9
++  __DATA_CONST.__objc_classlist: 0x38 sha256:97c6d7b450fe1aab87dde1ad7bf295009c8faa847097ae7928afed33d39b095a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x110 sha256:7d1175f3bae44b9b0c87b44763a2b5a14c9abf5775903c2ee4882ce193734f5e
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:18722db993c63ef68431148bce17d22102c01a244a17dbc485e077b64f413cd1
+-  __DATA_CONST.__got: 0x48 sha256:f72c1b4c91453bac9ba996bf079ef9dbd70ed227488f7664a16e922c0097a1a3
+-  __AUTH_CONST.__const: 0x80 sha256:ebdf9b98ede68404e493ded5d168974d240292b5eff74ac0d8120d8a931e5118
+-  __AUTH_CONST.__cfstring: 0x360 sha256:39fe9a0245f3a8693e12dc670a05122cd7b127eb885d73a42b92a20d7e33d4e5
+-  __AUTH_CONST.__objc_const: 0x3f0 sha256:b494281fca07f2a6bf9bf9dc7a937aae4d9ee3aba78662ecd78804f71d34b8e8
++  __DATA_CONST.__objc_selrefs: 0x120 sha256:a5b2be3451f89d58d17ddeaca31fa2baffb4f8e0980e782534d646142d7e5b2d
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:0ae522d57c6aa04ae12aab3d92f764e9d4a3e16b9f6525e3c9b78c27ceec8d02
++  __DATA_CONST.__got: 0x48 sha256:e4d11a65496bbfc3dfb26c41f2070a99d226afe32cfea4a3a14eea9f4d9ced26
++  __AUTH_CONST.__const: 0x80 sha256:7e975d6893ed818be115782b53a07c4f9912cf9b0cb4808a2cc6dd198086c9ad
++  __AUTH_CONST.__cfstring: 0x360 sha256:d8935b6f760a88d71b11cd7b2c99c2aac2af4dd28b373c20513f090a48751459
++  __AUTH_CONST.__objc_const: 0x3f0 sha256:b18fa06945ad7bc48cbc771c32dce03559f7ae9290587516349d2f3f7ed0b729
+   __AUTH_CONST.__auth_got: 0x0
+-  __DATA_DIRTY.__objc_data: 0x230 sha256:4dd6fdee06b4c71514d9220720120ff0b95b819a5ac2f02998d7a4bff8505fda
++  __DATA_DIRTY.__objc_data: 0x230 sha256:e6ae1a10001a1f5c15e4329dc37bafb4604fc6c5907ffce6bf10fb87f770b40d
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D2DAE182-7BE5-3289-B9FE-62C6B0DCCF1D
+-  Functions: 27
+-  Symbols:   165
++  UUID: 22818D57-3293-3133-93D6-6631B840FEB3
++  Functions: 28
++  Symbols:   169
+   CStrings:  61
+ 
+Symbols:
++ ___92-[MTCCTimerBackgroundViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_2
++ ___block_literal_global.358
++ ___block_literal_global.366
++ _objc_msgSend$_setAccessibilityLabelBlock:
++ _objc_msgSend$text
+- ___block_literal_global.352
+- ___block_literal_global.354
+Functions:
+~ +[AXTimerControlCenterModuleGlue accessibilityInitializeBundle] : sha256 762a7ecc467c02c8fce81e8f36054f75bfc5b8c8e31e27cfba3f9986c9caf4f0 -> a911366ea0862126109c0e21955cf08cbcd0e9825227191b0449fd9d2a34267a
+~ ___63+[AXTimerControlCenterModuleGlue accessibilityInitializeBundle]_block_invoke : sha256 bcd56cdc79c2829ed6953e77a83a19853f218617ce3c30a33875cbf37c3ac23c -> 2687754dec1c0df1113fdd2d46da44332465c2e40067ae94d19398bd7484466b
+~ ___63+[AXTimerControlCenterModuleGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 0399c2f4c998741034372017e80db094c84f8456ca71323af1b4149023367b55 -> 86660cba1225780a4bb443dedcb6e483a4bd30b2bfb47e4e3cb3b8c5f5882c3b
+~ ___63+[AXTimerControlCenterModuleGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 805f0d2b7148b292a313b9ee0be388a81612aa91fc446538b6fbb2263726c70a -> 10865da003fbf6f92823ad4b887d8dc9a5c4fd3796e71753b786d96692e87e75
+~ _accessibilityLocalizedString : sha256 ba12ffcd714cdfd9fec31c8bebd182dae0e041ae8aa467edb2368ca07cba0a7c -> 711f37de9369608c0d28005e4133e32eaf5a403aa332f769cafc2b286381fe1f
+~ +[MTCCRoundButtonAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 a573c2f7b9aaf571222dc466a4715e02d7b67e621674e13adea34a515cc860bc -> 4e31c403dc556c04417564c7c1c7bcf0a6996fcf93789d46add9201b328f6714
+~ +[MTCCRoundButtonAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d48709b64641bc00a7691424f397fb9f65435dc3b560de9e677c83af7a58f03b -> faffb274db7b3207ca3042598f0c16c735458f0c430f84053e373cbc4ad2a3a4
+~ +[MTCCRoundButtonAccessibility _accessibilityPerformValidations:] : sha256 5703ea5f68b940983ee75bded30d34916f9615b21529a773912977ac36d3c5f6 -> 5e0d78df99aace61cd0f2cc9c2d95cf8ed565721fd651c68f7de6d815e24e8a9
+~ -[MTCCRoundButtonAccessibility accessibilityLabel] : sha256 58b2f2036cca17c4d8eb047a548a095146a73905e6bb21421b797e14c53be077 -> 4e6724e02fc240042c242cf8eb65ecbc7709c19a6d63e04d3904c01a3e25002f
+~ -[MTCCRoundButtonAccessibility accessibilityTraits] : sha256 2b088822754f29151b0a87dd65c9cc96348978675f7da926aa74d1c65db6b119 -> 0ac7ba2ef7e05c6850670bca9ed969ac978546dd7388adf770ebaa058e256a13
+~ +[MTCCTimerViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 003af33d482b695d77b9c4d9f00721a21622ff80b9657e1ea4db62ac7592c193 -> 31152b7a3db78d7b0de922d636c97404f34980d4846f2806bc426cbc30918fd8
+~ +[MTCCTimerViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 cdd7cf5d01643480dea8d85958d9231601789824edca92b8100fc72c5a8e0888 -> 386490d3ab2606e02d0875f2c336d76aa78bc57070a45c3f75dc9fc7b1168116
+~ +[MTCCTimerViewControllerAccessibility _accessibilityPerformValidations:] : sha256 a09cfb5bb9f3f439dbbd340a79ff4f1cee1e5f4fa7f6ede3787998bba85d05ec -> 2ce0c0af926fd6d2c9b749308b93c42a0a92772c1f987aa284da8b0e94cc6b7e
+~ -[MTCCTimerViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 7dfa24a1b76bf73657ba60be93630700bb6b19522b8da1dbd7be7a5956f3617d -> 82d592c584a422e4733870eafe0c0246de4e536d2ce128e1659738261253d798
+~ ___82-[MTCCTimerViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke : sha256 4dac9a11946fd3b4d405b151ae33b0a4960b19c808613488a5222f307ca32983 -> 0f1b33de7ef4c4240a6abdb6737724d455d9995e305f7ad2f7946079a99b929c
+~ -[MTCCTimerViewControllerAccessibility _accessibilityControlCenterButtonIdentifier] : sha256 fd90abe7c48e4bb2243044caab53e860dcc6e846390908b55baebc669193fbc9 -> b6dbf2d1f229b9860b11f72dea17845ac52d0a974df0bb3fda5d495a3d506cd4
+~ -[MTCCTimerViewControllerAccessibility _accessibilityControlCenterButtonLabel] : sha256 33800025c04e1a91047fc5449f85543b8fb125537383415c69adc80d6edf846c -> 9eb2e791b92d44a3265ac8bd97d4b69c11eb1acea3c3244d03af22bce30178ce
+~ -[MTCCTimerViewControllerAccessibility viewDidLoad] : sha256 f789a7edfeaf5644058f7ac9847d552710ddf323734ed4090f06e2d1ebb1087c -> 064e478ef158ac9b8d332e9c9ad3ef208181637ce692909cba97be54b9af372b
+~ +[MTCCTimerBackgroundViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 4659c8c858382a154bb20c99c6c41314b51e23900333bbf9bb0bc3b7fe4eae64 -> 1931f672f420e66edad2b0f200d15dcbeddf17f0f6f172aa1b24b89e5c276328
+~ +[MTCCTimerBackgroundViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 5101a969306398b4d833ef613a8fb3c79398cba4bf1f9148eb96261ec10ec7fc -> 0257321b72241032acf72eefc8ab010f062ac9125ccad88ebe2d5d0b4420f587
+~ +[MTCCTimerBackgroundViewControllerAccessibility _accessibilityPerformValidations:] : sha256 ca27ff0cf5b934b17fd5a2aea79cee35065ca35d1342ff76c8743a47a1c23822 -> 0e15a081274231c11f9111f2ddb3fec16076bfb2d02c29dc69f31363ebd64aaa
+~ -[MTCCTimerBackgroundViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 260 -> 592
+~ ___92-[MTCCTimerBackgroundViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke : 96 -> 100
++ ___92-[MTCCTimerBackgroundViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_2
+~ -[MTCCTimerBackgroundViewControllerAccessibility viewDidLoad] : sha256 fdcf9c2c909170f4468f638451c1031c220bd90da1567f9e3b0a0932124e8d23 -> 228cef7a9a84ef26c6e4a78d513f9488a3ec8c810e868f0df2c457b8f0961305
+
+```

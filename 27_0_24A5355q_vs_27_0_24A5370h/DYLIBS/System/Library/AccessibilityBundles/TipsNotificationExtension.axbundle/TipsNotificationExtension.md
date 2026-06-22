@@ -1,0 +1,76 @@
+## TipsNotificationExtension
+
+> `/System/Library/AccessibilityBundles/TipsNotificationExtension.axbundle/TipsNotificationExtension`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x814 sha256:a2e76f4e70c4e134abe21496377cb22dc8e7f222071f2174e5a6a75bce283b06
+-  __TEXT.__objc_methlist: 0xb4 sha256:b361957460d0327b8d0a611ebf3137c8a4788b25ae442cb9b085fb76ff235744
++3039.1.0.0.0
++  __TEXT.__text: 0x814 sha256:06a2e59b4d3c5ea12d07feb0321a924cccf41d8011f5fee81fb45199fcde2d57
++  __TEXT.__objc_methlist: 0xb4 sha256:d929a69d788fd91af505f5b3d5f5f775aa30903faa82e7ac3409feffb9c3c0a2
+   __TEXT.__cstring: 0x1da sha256:8462e8f6998984410e030d012964a3159b4e6816fe9ac6f08b48e06bf2d8434a
+   __TEXT.__unwind_info: 0x98 sha256:08105a175f8d0366df85fd6642d19a17cb7642f6b3702076fa4d64c427bb6f32
+   __TEXT.__objc_stubs: 0x0
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x60 sha256:e02338514e6f21cc4a59ad27b37e33978df5211f89084a90b4eefc7840dd12e2
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:dc47f119801fd9c4f6f7fbc260677807ca1a0aa4cc7500da77a9ad11ffb7ed89
++  __DATA_CONST.__const: 0x60 sha256:21cb7c9dd12c45a19051375abc722526501c087b3ff0ea7b48300fc5cafad8b3
++  __DATA_CONST.__objc_classlist: 0x28 sha256:2ccee9ad0468c0bc055ea80d5ead17f45821312ae4e83082ad4be0c5765981ff
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x120 sha256:9a850495cf8ea8fb5db7eda870c4ce287593fa19356d24cf692d52024aba5137
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:ee31c79455e758d7281d49a85226299b681cc5751b25bfe74d5faf915f49b5b3
+-  __DATA_CONST.__got: 0x48 sha256:c18ae60ecd13a5a99c64eacfea1514dbb3e023543cb25bad15d8fcdb3d963654
+-  __AUTH_CONST.__const: 0x80 sha256:422d13e55119e818855f5583e05fccb13afb9a607a79ba92795693826f02fcbf
+-  __AUTH_CONST.__cfstring: 0x2c0 sha256:f98ec136435424d3c08dc8b4c7cfe586174bf5f791d61a6ef06e8eb023181def
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:329d610dbef222ec6b27994a25459f5dc10f850b1aeae13f710e18194702ea8f
++  __DATA_CONST.__objc_selrefs: 0x120 sha256:80386b9264ab333e9a0152f835e74d022e5d1b96b9112632551726656a7b67b6
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:eb8968082fefb13adb2b251a7e32f882cd036cdf1631d4879df7a79d04029b4e
++  __DATA_CONST.__got: 0x48 sha256:5f1aa845eb81845bb5aee0a47b4fdf6eb1c3c75a94eb5ff89f2f59fd78efb385
++  __AUTH_CONST.__const: 0x80 sha256:71e4b0e8e7c181ac14e84334dd57fbf71151d0d4e13b8b4a548620a4932c929c
++  __AUTH_CONST.__cfstring: 0x2c0 sha256:b7c143d53ac13e47c7426fe1a3cd608951fadcb527f3c2c8a92e0fa2b00f3b1f
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:0c736f8ede312b60b919d8f91ffce30d1fe6256affc99e5d2f75dd6211870689
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x190 sha256:436d85b841049298addd52cd75840ffb7c9e155bffbb5929d0a1d7fb3957c95c
+-  __DATA.__data: 0x8 sha256:e800e2aa2bdf74350572dc5b7314c3d8b3e1f752f59ccb96931ddefcb556b4c7
++  __AUTH.__objc_data: 0x190 sha256:8bddd95f1f8874589c309af8c0a5a4b4899e0659258ecc60bb07e4b4ebb96973
++  __DATA.__data: 0x8 sha256:5af1bbf219e10a47d2770b4a9a1357977eff8af0f227eb341e9c7666c3575649
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AVKit.framework/AVKit
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5407AE45-32A3-32F2-B477-D5F1039AA27D
++  UUID: F4416B55-75D6-3E4F-9441-DD665712B5DF
+   Functions: 16
+   Symbols:   132
+   CStrings:  48
+Symbols:
++ ___block_literal_global.417
++ ___block_literal_global.426
+- ___block_literal_global.396
+- ___block_literal_global.405
+Functions:
+~ +[AXTipsNotificationExtensionGlue accessibilityInitializeBundle] : sha256 472d03e54c228cf9812005fcdbcfb6c9a0dad3f8ad57c6e4947cab63c5d6d6e0 -> 7d4dad876e2fc726e6778307d5578b76850d8c3ec533b817bf954e8785cdeb9d
+~ ___64+[AXTipsNotificationExtensionGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 f29ede5531333a94dbb0bd5816836890ae8631f634a9069a1ad6e5fab4920b76 -> b750ddeab5f2f046f8d1a5d70273b8c39572854d1e0ded35b1df5039b4973761
+~ ___64+[AXTipsNotificationExtensionGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 e95bf5aee9fbda2aad794fc276df4cd7fe6e99e56e1773df66ec08eb9ef8f08b -> 47b0b7240dc20b339f48962d51184ba196cf755e20ff0ddc3732cb9287ff51a8
+~ _accessibilityTipsLocalizedString : sha256 e5478b9fb5db1724b65acde11493a286e66dd6098943fb5eeb7edd511ab64b90 -> 20d19319d34efaad5a1f29d75c332ce3fcde9fd02b65a87e7b5ea68f21b63f94
+~ +[TipsWidgetExtensionUIViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 d6a370a6b0936378406b2d9b753b841d1d2c59bc2a2705665369168f33d1bac5 -> 71112d373111ef7990fd1615b4246c76404b631b28c97b3a04918a9c6ae3b6f9
+~ +[TipsWidgetExtensionUIViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 efa2e6f3db1dcf0bf5ebbe6dd9513c21d786c5e623152c0181144096a2f1ec55 -> 52bb6c3ebf8a245a0f646834d463d574b929503551229df82226f3155385d6aa
+~ -[TipsWidgetExtensionUIViewAccessibility _accessibilityUseAccessibilityFrameForHittest] : sha256 d019e6baaec4ffc1fdb626e5b2b73ab40a9ba8e1784dcfafdf3b3ff0c02778d7 -> 702aa875483f9d0e9feeee82298800528b056dae48ac5da354d1dacf0f69a512
+~ -[TipsWidgetExtensionUIViewAccessibility _accessibilityOverridesInvalidFrames] : sha256 594c1ad9ffe0048e48676cf84749e11510d26b2d17ffff6b322df9bfd9e41b69 -> fbba4eed5b080cc4e1abba21f2be8fb6523e090abdcf82ee3388ad78dd847ef1
+~ -[TipsWidgetExtensionUIViewAccessibility accessibilityFrame] : sha256 c4bae35ec25b73640025a02782672a99354da31c30caf97fc3b3c3f4fac576b6 -> 2a9c87162af5aef7caeb70f126bc4e1f75eeafc68be048593fb973f31dc71f45
+~ +[TPSSingleTipViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 4a479ab6a21d6db5aacc3bce4753ed70c8bf9daf3ed2649fbc49dedc9e23ed9f -> ab3b98a460606375d2627aebcaf773631c3ec124df0601f6b39746e7e32d2150
+~ +[TPSSingleTipViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 9b6cb1e05388b40cc445b251852873639274db0178ffbe094b0656e856ad2729 -> f7a04ca3bd1bbcf47504618711e37fca73dea16e2322cad14fb6e976f7541640
+~ +[TPSSingleTipViewControllerAccessibility _accessibilityPerformValidations:] : sha256 2d29c0afe37db66738f3ad24356a76804242bc9564e11c328d3fc130d14edb89 -> 8e3544dc6412038aa6b4b3acee656a72fba6496bda3ec8d0fda20ba1e5dad132
+~ -[TPSSingleTipViewControllerAccessibility setTip:] : sha256 812f6325a5f5e281ba444976d9144ac537f5ab76f33fd91e342943742716ae57 -> 4f032232eabb4bd5137a4385cfba450b987d9693c83c07842e7d66e2a7b20d85
+~ -[TPSSingleTipViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 23fa41e70428bd93148ca08fd12f2580b6bf7c2812277d2a04c0d6bc09e74dc2 -> f946455c87fb27ca8ec618a748b5db5ee722515527c248a084161b0d6afb1e73
+~ ___85-[TPSSingleTipViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke : sha256 814bf186c2dae431a6f020203134407f1d88155f83baa9ba436813bcf0fb5f5c -> e061f9d8acd039d6ea942006e36bbfe48700240566d83f07f75b2382025b2290
+
+```

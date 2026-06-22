@@ -1,0 +1,166 @@
+## WiFiPolicy
+
+> `/System/Library/PrivateFrameworks/WiFiPolicy.framework/WiFiPolicy`
+
+```diff
+
+-1070.52.0.0.0
+-  __TEXT.__text: 0xe2f44 sha256:8972718aa6c4c50e257619223b70cd59e766173e49f864695918fa2c0213f2ef
+-  __TEXT.__objc_methlist: 0x13cd8 sha256:b40ec12e326a911d429994777605991bb493e10ccfcd426422f06d1bca3ca703
+-  __TEXT.__const: 0x878 sha256:50aad7f86275c54d8bb6c8a3b266cfb836ad64fc61d9ca80505d5f76b70a7a95
+-  __TEXT.__cstring: 0x25bfb sha256:8455991013d65f91e5c749cfbd7d61afb25b9c1357f249b8e322a605ccf231b1
++1070.55.0.0.0
++  __TEXT.__text: 0xe2c04 sha256:5fd1bfe86e4a269477a72d1fc16fdbd42126e86b5a6dd6fc238a2885e8422b1d
++  __TEXT.__objc_methlist: 0x13cf0 sha256:9ff9569340abbfe4e80ca1350e2ab69e96b82eef94e37240272c45770c583e29
++  __TEXT.__const: 0x878 sha256:eeb00debb48538075c3fc1665f7cf3695c9e0ec7800f33e5b16c317435e033d4
++  __TEXT.__cstring: 0x25c2b sha256:3b8012867026ba6b1133fd146a749260f33753a03d521a856adc2474a2b30609
+   __TEXT.__oslogstring: 0x54ee sha256:479c0acc45099e250adc49d3be48ded75668a780891a51e6a400ebe9908f8692
+-  __TEXT.__gcc_except_tab: 0x190c sha256:1f1223e3f6dda8cd6aab108205b7224e11e7db34016ddde6012bb14064c6efee
++  __TEXT.__gcc_except_tab: 0x190c sha256:74421373eb95c942143e72cfac39664415159d47ab4a8f0f9644667e9865e078
+   __TEXT.__dlopen_cstrs: 0xa8 sha256:cdb069c68a3886ce593edd9676f5e12370088af1299bad01a38fafd174176dda
+   __TEXT.__ustring: 0x82 sha256:a013f8ab36e2846576a17bc6d996ae2b9d23ca4b8d09a8c7cb0f9dec89dc9676
+-  __TEXT.__swift5_typeref: 0xb8 sha256:8ab1173ef830bcc997dbc06e6b991fe0ac02fb812781a32a8d515313ae425584
++  __TEXT.__swift5_typeref: 0xb8 sha256:5d0f9d04b3820bfa4c8a3dd22778d4fe0dd6e83979e64c75609920225625d004
+   __TEXT.__swift5_capture: 0x34 sha256:16c1dceeff7040c712e713f4f41594a272f5e1ea16265362c8f05af7fabbbad9
+-  __TEXT.__constg_swiftt: 0x188 sha256:7169df1a5d3f39f2faa4564d49a87242ba18e07e2c776fbfa3da352042a770b7
++  __TEXT.__constg_swiftt: 0x188 sha256:a98623a57ff4d06af781eb9e98b452e76553a51eb48a1f7755063c4700ba9c53
+   __TEXT.__swift5_reflstr: 0x8f sha256:79444919da84c25d873d47e5a6e9bc1a8b79461978adacc3dc950ecf2e2eec55
+   __TEXT.__swift5_fieldmd: 0xc0 sha256:5b653504b5fbb852125dc7f70d86f8ebad07afe608b9380db821dd1347bbf3f3
+   __TEXT.__swift5_types: 0xc sha256:eab0383f4e928e9f09a47c8026a75bcc4545b8938c9957856f12f16478f98aac
+-  __TEXT.__unwind_info: 0x29b8 sha256:5ae12f5e910ee1dd88a062384147166947e1cbb9d814154715a856f2c15fcb53
+-  __TEXT.__eh_frame: 0x98 sha256:99938a5e3b24eb6ddcdc8bfe69dca1bf6041f63c42aa8a567cf9aadcb109e635
++  __TEXT.__unwind_info: 0x29f0 sha256:e95bc21f743aee9ac7208f0a9c9fcd071dbeb5c3ebd969d24e4cba6d5a2b236b
++  __TEXT.__eh_frame: 0x98 sha256:3cb64e6f34ecb863905dd4183c53f2d2b1368752c4f9e867c3cd30485ed1d8a2
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2738 sha256:ace90f1271d0dc088d53ae71aec62c0295fa3b1ab36aa979ab59c3ab3db36f45
+-  __DATA_CONST.__objc_classlist: 0x5e0 sha256:050a5d2fea212a46cd22e9522f1d0ae849c74e6c619340fddad17188069a76a0
+-  __DATA_CONST.__objc_catlist: 0x58 sha256:2d73a2a5f35ea7726cc61e00a3973f327a7dd9715b49ed4b9ce61d131b242473
+-  __DATA_CONST.__objc_protolist: 0x118 sha256:8f3d33ebbe1401a5a2533246c89157edea96cc913abd5bc9a414a7660dad5ee9
++  __DATA_CONST.__const: 0x2738 sha256:51b15d136d29c6c8cfb279b7967dd89c69857cb8f3d80b500b9c8ed765698f30
++  __DATA_CONST.__objc_classlist: 0x5e0 sha256:b4168456c41f7390313ae39717fe66f24e973dde68d0a12a87cc5ee12808649e
++  __DATA_CONST.__objc_catlist: 0x58 sha256:e04751501937a87abf7b6f0d7ec791988e9617997a3754b11e338fcb649c00b6
++  __DATA_CONST.__objc_protolist: 0x118 sha256:97ba305a702fa83d83d54be8e30d6cd77aeabfd28c46c47b73b2031edd191220
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__weak_got: 0x8 sha256:baed7a8f4fe06577baf9413d1425189458482e4f64d55b4f5cc304378385a036
+-  __DATA_CONST.__objc_selrefs: 0xaef0 sha256:5935b73466e0a83175ebcfea54992ca62675aa9add1188dca45d5db2f9f69e5e
+-  __DATA_CONST.__objc_protorefs: 0x28 sha256:f3681db22802f72ab7bce433ef5b9ff0a9415b5eded5557a360e85a0f733522c
+-  __DATA_CONST.__objc_superrefs: 0x4e0 sha256:510815604a250227a03318e414f8100109474821f2f126ea17ac183d529e30d7
+-  __DATA_CONST.__objc_arraydata: 0x1510 sha256:09f747ee91ce6732cdd3b4effea69799b1238d2e12fb3cb76c383eae40a50c42
+-  __DATA_CONST.__got: 0xbc8 sha256:55a9cdddf790cf3d4a9b77ae27447c83efdb84680c94d71785bbfa4ad395257f
+-  __AUTH_CONST.__const: 0x600 sha256:a836684b0984a52f639099c1dced28b32086271c4270ca3af680392f62b9798c
+-  __AUTH_CONST.__cfstring: 0x20ce0 sha256:d40cbbbb7abc143ba564fdbaae73d383b828cd6c3593931dd3ce44d159b07c0a
+-  __AUTH_CONST.__objc_const: 0x25940 sha256:19a0f73d44632c2e6b620b92b6abd863d364e27f1fd37124b08d8b4886ec520a
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:9a2b91fa56b146795e83ca4f39da0bd07c39c24068e9aa0ceaa7f212fc574d7c
+-  __AUTH_CONST.__objc_intobj: 0x1aa0 sha256:1e5ace892f4d196cf5e2d464745facd5142f06754f04b8b2e01f2821cc027a7d
+-  __AUTH_CONST.__objc_arrayobj: 0x450 sha256:231f4b99d678911069c61e4b18a2e6e8260d7d8551c67143d7494d2ab92395b1
+-  __AUTH_CONST.__objc_dictobj: 0x190 sha256:147c073d144b22b73e0ba02ab856c87e7142ee4ff16ea33266c8cf0a6236b20f
+-  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:d2be4c213732c9387c2dabe37ab99adc02e313dfa15c3addc8d2a4ba45af4f00
++  __DATA_CONST.__weak_got: 0x8 sha256:0187a61bf3fae6fc3b3aa794eddabd32ea418a3c89d235dd3a82b6bd02e4fd49
++  __DATA_CONST.__objc_selrefs: 0xaf00 sha256:06ddbf6d34189c0ae84b74a62c4bf9a794ed93353ff74e8dff2f1a1776188ad2
++  __DATA_CONST.__objc_protorefs: 0x28 sha256:067a364470527673400783ba5286debad109c19b8642cf37c9605235323e75e5
++  __DATA_CONST.__objc_superrefs: 0x4e0 sha256:e62b92b241ee25dfa746be8bed630df84ef52d607213af9d0f25997a68698a63
++  __DATA_CONST.__objc_arraydata: 0x1510 sha256:8b4db66a309167ac06c82803d53782ce74cfbb42c4215405c3e7e58016a67e08
++  __DATA_CONST.__got: 0xbc8 sha256:e9104e41995e62ad300659e1f56743b91fa06da5b3ef58cc1880594eff3129db
++  __AUTH_CONST.__const: 0x600 sha256:862ef72bfddb074c7cfca366fe06d2d29bef01a4d9e0f6d9ee389c72f5ec7594
++  __AUTH_CONST.__cfstring: 0x20d20 sha256:eaca41bb8a54111d87b36e9fcf3c2f396c90b24910047b1450202b7f96eb3405
++  __AUTH_CONST.__objc_const: 0x25970 sha256:cd942fd60386c22093404bdaf13b5efa4b7f2d9333e38bb27f08d9e71e192cfa
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:60bcdb5a8e6edd1ce77d43ea5c309fe844aaf21fdaf99507c4da8cc71174a8fc
++  __AUTH_CONST.__objc_intobj: 0x1aa0 sha256:078e868d013a25bba19c941f62b330e4f078dbaadc1c11b3e35d8df21971bafd
++  __AUTH_CONST.__objc_arrayobj: 0x450 sha256:3cad804bbf07b8d73a9751fbfce87fcf40565034ea3a78d26ba2eea867bf6e05
++  __AUTH_CONST.__objc_dictobj: 0x190 sha256:39e58ecc711e11b73cc90fd96f5ccee4a53ddcf961334017854f448607ea4ac3
++  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:8fd41c85164434a36256eb6cac5f1f644ee80a86ccab1ff1a102637cccc45325
+   __AUTH_CONST.__auth_got: 0xf18 sha256:25b3bf6ca141697a92e39d02f61a7959ed16a8208b969fb9d8370662a6c452eb
+-  __AUTH.__objc_data: 0x7a8 sha256:a3a943f2f30342e00cc3826e3cf3f5b88af571711e3698a7bf0edcef0061643b
+-  __DATA.__objc_ivar: 0x2560 sha256:aeb3d87eb835f02c61fb56248a2439fe8d71d89c17f0fa1c96aad57e5b303bfc
+-  __DATA.__data: 0x1ca0 sha256:47c35b4fc8ae434d2bfe39e21c8341b072264886ba274219a2ecf884a7770bc0
++  __AUTH.__objc_data: 0x7a8 sha256:3b3c3b2e265562a8f2872c0ae39b11a2942302c636556cf29581ae5b45c536a9
++  __DATA.__objc_ivar: 0x2564 sha256:75eccb2d90e9d12c80866a435414901b043d980b176e013b024c8f5cec9d4d8d
++  __DATA.__data: 0x1ca0 sha256:797b4dd271082cff5dee3d660b842ec60dc1a230c9195b3371b581981bdbdfce
+   __DATA.__bss: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+-  __DATA_DIRTY.__objc_data: 0x3468 sha256:9179679c1d7ff7d8cf950573b23b2530a7edaa1852830ab9467ccbff22d72648
+-  __DATA_DIRTY.__data: 0x178 sha256:428a5549de7990dbba12d09708fadd205baf994023d04e34179c81a60aab4078
++  __DATA_DIRTY.__objc_data: 0x3468 sha256:6582b1718298ad967a256a246d235bc3e9b1f9f847074344f6e2a99856a8c975
++  __DATA_DIRTY.__data: 0x178 sha256:073e5d57b775829b28568807ab979890253e97b3a36829e5bf13c1771501ac52
+   __DATA_DIRTY.__bss: 0x378 sha256:f0402756b4ecd3e4ad6fcc4ff95f76bcf2bf1733d897f79972aaedb03f87dfd3
+   __DATA_DIRTY.__common: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 53DC8C5B-41E1-3A61-B2C3-2580298404AA
+-  Functions: 7202
+-  Symbols:   23174
+-  CStrings:  9567
++  UUID: 82BC8040-59FE-326B-A23B-67F0FCEC0C71
++  Functions: 7203
++  Symbols:   23177
++  CStrings:  9571
+ 
+Symbols:
++ -[WiFiUsageMonitor isP2PInRealTime]
++ -[WiFiUsageMonitor setIsP2PInRealTime:]
++ _OBJC_IVAR_$_WiFiUsageMonitor._isP2PInRealTime
++ __ZNSt12length_errorC1B9fqe220106EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220106Em
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9fqe220106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9fqe220106Ej
++ __ZNSt3__116__pad_and_outputB9fqe220106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIN6gloria6TileIdEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fqe220106Ev
++ __ZNSt3__120__throw_length_errorB9fqe220106EPKc
++ __ZNSt3__124__put_character_sequenceB9fqe220106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__127__tree_balance_after_insertB9fqe220106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__13setIN6gloria6TileIdENS_4lessIS2_EENS_9allocatorIS2_EEE6insertB9fqe220106ERKS2_
++ __ZNSt3__16__treeIN6gloria6TileIdENS_4lessIS2_EENS_9allocatorIS2_EEE14__tree_deleterclB9fqe220106EPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16vectorIN6gloria6TileIdENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220106Ev
++ __ZSt28__throw_bad_array_new_lengthB9fqe220106v
++ ___85-[WiFiUsageMonitor updateKnownNetworksSupportingSeamless:forBSS:andSSID:beaconCache:]_block_invoke.1014
++ ___85-[WiFiUsageMonitor updateKnownNetworksSupportingSeamless:forBSS:andSSID:beaconCache:]_block_invoke.1022
++ ___block_literal_global.1017
++ ___block_literal_global.1025
++ ___block_literal_global.1027
++ ___block_literal_global.1029
++ ___block_literal_global.377
+- __ZNSt12length_errorC1B9fqe220100EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220100Em
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9fqe220100Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9fqe220100Ej
+- __ZNSt3__116__pad_and_outputB9fqe220100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIN6gloria6TileIdEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fqe220100Ev
+- __ZNSt3__120__throw_length_errorB9fqe220100EPKc
+- __ZNSt3__124__put_character_sequenceB9fqe220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__127__tree_balance_after_insertB9fqe220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__13setIN6gloria6TileIdENS_4lessIS2_EENS_9allocatorIS2_EEE6insertB9fqe220100ERKS2_
+- __ZNSt3__16__treeIN6gloria6TileIdENS_4lessIS2_EENS_9allocatorIS2_EEE14__tree_deleterclB9fqe220100EPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16vectorIN6gloria6TileIdENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
+- __ZSt28__throw_bad_array_new_lengthB9fqe220100v
+- ___85-[WiFiUsageMonitor updateKnownNetworksSupportingSeamless:forBSS:andSSID:beaconCache:]_block_invoke.1011
+- ___85-[WiFiUsageMonitor updateKnownNetworksSupportingSeamless:forBSS:andSSID:beaconCache:]_block_invoke.1019
+- ___block_literal_global.1014
+- ___block_literal_global.1022
+- ___block_literal_global.1024
+- ___block_literal_global.1026
+- ___block_literal_global.371
+CStrings:
++ "FlightMode"
++ "allSofTAPSTAsSupportLPEMLSR"
++ "isP2PRTG"
++ "numberOfSoftAPSTAsNOTSupportingLPEMLSR"
++ "numberOfSoftAPSTAsSupportingLPEMLSR"
++ "softAPnumberOfSTAs"
++ "time_since_FlightModeOff"
+- "flightMode"
+- "numOfHotspotClients"
+- "numOfHotspotClientsLPEMLSR"
+- "numOfHotspotClientsNonLPEMLSR"
+- "time_since_flightmodeoff"
+
+```

@@ -1,0 +1,82 @@
+## ToneKit
+
+> `/System/Library/AccessibilityBundles/ToneKit.axbundle/ToneKit`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x69c sha256:396599fd362a59c8ba22fed446902e2a8f8159533569cb4ca215adc89905ed42
+-  __TEXT.__objc_methlist: 0x154 sha256:c72076d06d2e36994ed2f5ba4ad4a0345e90abdc9336858fb4d619910d8ac8dd
++3039.1.0.0.0
++  __TEXT.__text: 0x698 sha256:8601e224e2194767b0aaaa83c2b2851ee72339eeb35e6e3f326cf31614418f9a
++  __TEXT.__objc_methlist: 0x154 sha256:c089eb61d3021cbaf4a774f598e4a0a3ca0edbaba85bb27dad78c5a162347aa2
+   __TEXT.__cstring: 0x1e7 sha256:284811133cc53e10376bf0d1d28469bc2b0bc103a51f583088e13acae1877205
+-  __TEXT.__unwind_info: 0xa8 sha256:f587611d9352b814fcfc5a06ca13ab2fb36d4e121d12d792dd2e2609cb0e100f
++  __TEXT.__unwind_info: 0xa8 sha256:b674b4fbcc57e6ecd5fd77dff711dd8d1b250562bf23fe47ebaefeefe7ba226d
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x40 sha256:97d1ba74e80b753e16708fec3f3c3df82496bbca6b46f2231965cee6e1ee63e8
+-  __DATA_CONST.__objc_classlist: 0x48 sha256:76dc471b0011cc1b4e170eb10d9f8fbd7c51838f5abeea5de0022585839aaa06
++  __DATA_CONST.__const: 0x40 sha256:6e5ff16feeb3e0133bf758735a08a3c962cfb6a6f65151bd917ae4363fb8212d
++  __DATA_CONST.__objc_classlist: 0x48 sha256:66fa44525e0a11faa40fd185e8fe520186a00c9b7b0965697949d49077c3e396
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xe0 sha256:583e3396726aaae6604407415d8b0c6afce448c096602f8bf2406519a07f5e0f
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:23aed823bcac867a6322ca970c96d698d216ef7be27f7c37c5218131892b5483
+-  __DATA_CONST.__got: 0x50 sha256:9fb3f425e9e1dcf076120e50a77464bd9ee321a2b9b8d1d1482cb2fffb8a5e9e
+-  __AUTH_CONST.__const: 0x60 sha256:906210fc3372d3f7f4f48a9ae57ba40101dab413d47c2535d37eb49e37e34b07
+-  __AUTH_CONST.__cfstring: 0x1e0 sha256:ad68a0b159c29d6f2d1252a930822ea808a31144047764a6b1b6446ef43cd6a0
+-  __AUTH_CONST.__objc_const: 0x510 sha256:6e7dca5a49c00e32e44732796c632cf06378f8fff17bec8521f22b1b6d38a11d
++  __DATA_CONST.__objc_selrefs: 0xe0 sha256:3469123be312db17b1e8c86e70d910dbd39c15fa03b9093cad5f1e2f3eaef37e
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:797e7698901fee7c48327dd55c4d1404f5daa3b063cb125c02521c2bfd453029
++  __DATA_CONST.__got: 0x50 sha256:796d58a97d062f9fedaa5204398a9311e3ebbc11cb1b75e8f2b369daf9326559
++  __AUTH_CONST.__const: 0x60 sha256:b69a8113140be45ae21c3fa2d4d929c8299130ab36195bc33246f7f20e70912c
++  __AUTH_CONST.__cfstring: 0x1e0 sha256:ff31aadf40f1ea347df7be4b476271b92e1eabaefa717a8955b43ca4d90c364d
++  __AUTH_CONST.__objc_const: 0x510 sha256:95b5beb007865a92af3e5c96c3884dae17f2fecd1297a2ac93314d016c9de000
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:cc898e8fa215bc32b2d09afbc7204c1782abc466b086668600ec2b62ab7832df
+-  __DATA_DIRTY.__objc_data: 0x230 sha256:590c84a40fcada7b255eaa9e86897926cde486816bc91813a846a6c8506eefbc
++  __AUTH.__objc_data: 0xa0 sha256:72ecb8745c3e300b05a0dca7099109db5dd2c39c9f90136da4a9e18e8954faf5
++  __DATA_DIRTY.__objc_data: 0x230 sha256:4cb24db92b48de7bfe3cc33d676c00aa8cb58b772eaa0ac8658465dbade8c9d7
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E83B267A-3B81-31F9-B51D-D4C041B7E8BB
++  UUID: F5C95905-1DF9-3F04-9DF2-7505AECDB279
+   Functions: 24
+   Symbols:   154
+   CStrings:  35
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ +[AXToneKitGlue accessibilityInitializeBundle] : sha256 f81af9f33d59aa3958b17d06cc3a8e4466d762c070303576e1f2bb3504dd5535 -> 2202d92dc16e62099995b1fbdd3a17068e42525473009df36ff4761917c88ed0
+~ ___46+[AXToneKitGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 8f10b27db7c3b1ea8ee120ede1e161c2875cf7de1f5dab6a6776566d167cb7f1 -> 8d57a5f1b5bedddc7f64daadaa7ad287e9732a3c822f0baf3d6b72411c2edd67
+~ ___46+[AXToneKitGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 f1a31ec494d5630022a392ccbbaa9795edbc7c42bcc44b35bbef77defaf0e39a -> f8d8d9083296dc20270075aeb3397ed8fff53dd7cd59f834e806c7c584aa320f
+~ _accessibilityLocalizedString : sha256 7a5076e182132733d7ac1ffd2c9c0d6adf2747f44bb4fd26e5fddb74c7767b7e -> 0371bd681964ea6dbaae137930f614dadcd69804150ab41532b7be49be55970b
+~ +[TKVibrationRecorderTouchSurfaceAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 9bf6b47213129c8dd0ee186477884e66a42c3716d8c4cd42dcdca0952613058b -> 4d54e4b91747c2aa11025fd6295c685a18844d82920438369d141c2da387449c
+~ +[TKVibrationRecorderTouchSurfaceAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 ae2d379c287257a0c7b9d1c4d405c9a56e319b58b3a86bbb3324886644d609a5 -> 95eb1fa41868eb0b0df7040236548af8897307b8bdb57a745b043518c99ab6f6
+~ +[TKVibrationRecorderTouchSurfaceAccessibility _accessibilityPerformValidations:] : sha256 ec1d523157cb4dc89efa47a6af5e6aaf0f73884047bab54a6bfc98395629ace9 -> 4dc79ff04346edc70d4ef27eab9d605f65a1ef66def2be6c66d09b06b4c7d818
+~ -[TKVibrationRecorderTouchSurfaceAccessibility accessibilityTraits] : sha256 d841b92fef9b93798ff466f879a955de4765156c992badd54aba27698f245cb5 -> 435971dc29de3e35bd7dbc64fd71674026bbe0c55cc0a5c56dcc9b82554c2f18
+~ +[TKPickerTableViewCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 03bcccb154288d555dc340de2f6f6b58b40db27a50a9db52670bd7409e079c4f -> 337998cf2c9b0b62e756c9017b1514416aee2b3f6d826303442ae32673ac4c08
+~ +[TKPickerTableViewCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d95a3948c0c3daa35c78dcc276f35b5cbb6b66332f8af7dc502f6f77489e6ec4 -> 802c85fbb0d98caf90ff83cc079ef63d7d17afa60321b01339a351686a4049e9
+~ -[TKPickerTableViewCellAccessibility accessibilityTraits] : sha256 3d2544ddd987dfafd1f6148119490efcf54b89144935e68c1c417677add3f983 -> 00548272518bb8e9259b4b942257cce39cf7c7b07082aa494c132fdff28540a9
+~ +[TKTonePickerViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 98dfcabb86a9240d886618be8ce76f10d793618f3da149ccbfbd27a9d31961e5 -> dfda2c7883db8f3a87e4e87730b06da42c19a6f2cec36140adc0eb01082f5197
+~ +[TKTonePickerViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 c65a41873225b8bca7b543e9961e407dfd914708064f775d9f04d254bac936dd -> 43eb8c4d0fa9db13a787eebc95418be0f8b3531199f488dfba948a61b07320a1
+~ +[TKTonePickerViewControllerAccessibility _accessibilityPerformValidations:] : sha256 c3888ec373ae38bf2dd9b2ade48bf58d8fe27ba4f259e197cc3f5ba6dd3aa3e5 -> 14cf08f9d88b041e30c90ee5f3d111d9425a726aa07f82d8930ddc8dfa6e0505
+~ -[TKTonePickerViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 376 -> 372
+~ -[TKTonePickerViewControllerAccessibility _configureTextColorOfLabelInCell:shouldTintText:checked:] : sha256 0f75bd2059b007573c368ff04aa5fa274753883f1afea2b0df627eb2ba9460b5 -> 311068b0b2dea18aa6b696e844d14e5ee83e69c8f30245bf1d722dce4783a382
+~ -[TKTonePickerViewControllerAccessibility _axUpdateCell:] : sha256 037c2b135c6b60cd37cba50d54446d2a17234f107cfd84a3e7acb5bce518489a -> 10fbd6b8ab26d42682d199026c189c7031bf112adf19d5a5e99bfcabe428f1a2
+~ +[TKPickerDividerTableViewCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 4db4f22a073e9abb5bf008304a67033e1a241f7c015ade12816363662d186520 -> 3d6af861cf3ada1c1307789ae95e881416b8d407a5e33c321a645cace2a6c3f3
+~ +[TKPickerDividerTableViewCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 eed73ce539b62e3b66056b8991077f4d617a2b879adbaaf79993337b873b4eba -> 7db4e2015577ab03c6c3250840102931399d751a20166782256d53b694eb0f92
+~ -[TKPickerDividerTableViewCellAccessibility accessibilityTraits] : sha256 9dc9f40700f2ed2486e1e57572581b908d63145ee77e1da7b6b20bb9cb0e1842 -> 5140e2178b286ada9e894d711cd1a41b9fe6ce7cca23cc789e3a44d1d84bd6fd
+
+```

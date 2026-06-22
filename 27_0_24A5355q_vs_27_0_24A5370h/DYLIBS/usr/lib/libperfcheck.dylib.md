@@ -1,0 +1,162 @@
+## libperfcheck.dylib
+
+> `/usr/lib/libperfcheck.dylib`
+
+```diff
+
+ 46.0.0.0.0
+-  __TEXT.__text: 0xa2ec sha256:8cd5f88def33ba5edf354e9d48e8a2bf4b62806710073742e4b289988c60229f
++  __TEXT.__text: 0xa3bc sha256:e299d736378f68cf14c291ac4f44b2cb850e1b0b87d39740b55f5fa17bfcb37d
+   __TEXT.__const: 0x90 sha256:e1ee2f956f6ed5cb27e78fd93a421d9bae4db101a66146520291ffd25d1fdbaa
+   __TEXT.__cstring: 0x1091 sha256:f8db93c621a47b79cb29cf5fe0be676217690b414cb0fd151e13bd023f6d59d9
+-  __TEXT.__gcc_except_tab: 0x80 sha256:c430567480c1be932105e74d872eb5016bfd7f6d46150898019e725ef504c016
+-  __TEXT.__unwind_info: 0x208 sha256:bd865562dd97d750263dc0abeb4d2ca060e2c8ebd2f1634b8f02748e15fbba47
++  __TEXT.__gcc_except_tab: 0x80 sha256:a9f601c5e6ad269cd80eac9d849e9d844da0211b16ae5e5a7467e9ef52ed65ca
++  __TEXT.__unwind_info: 0x200 sha256:edf9c0c6715558d0508a04f3da023220328905ac1c8d3df3d3d7fa92be85585c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_methname: 0x0
+-  __DATA_CONST.__const: 0x198 sha256:3993eae8f4624538ac5263fd83568784918369a3813f7a1e2d5560febb5b5b14
++  __DATA_CONST.__const: 0x198 sha256:6cb170edff4c62b8641b4009aff9f3f46aa222aa44e74cdcca4dbd299a88d2ed
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1f0 sha256:3f2a6486a3a460198911ec7550ddd1df11688430db260d2d17532ae9e91e5a67
+-  __DATA_CONST.__objc_arraydata: 0x28 sha256:708dda8e195d2f13764f121ec536c39a9e2bfd84421998e3b72fe38a7cbd9683
++  __DATA_CONST.__objc_selrefs: 0x1f0 sha256:8f3a5bdab7de896f8d6fab9fc13ef5cff3a586865ad4c86e2ae975d728398d31
++  __DATA_CONST.__objc_arraydata: 0x28 sha256:b692ee9b90061d4c4e27d04b88130e2700ca81642719703c6a9a4fa45815f4f1
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x60 sha256:47f93363c4168361614bd8c87b0567691c39afa6a1fb9b55fef8df9f8f8cc8ee
+-  __AUTH_CONST.__cfstring: 0x520 sha256:fbeb9c494771c1e03b686599ce22ca8abb815135e40581592cfceb38d2da26ca
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:3e5c01dbac448d0706e8446632c1de0199387e77846d947a3cfc73a2c2f4a742
+-  __AUTH_CONST.__auth_got: 0x440 sha256:0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6
+-  __DATA.__data: 0x2c0 sha256:946513f6d7478e7d2d5f891f1afa78244a9582517854ffaf6ac1e7b497c25cad
++  __AUTH_CONST.__const: 0x60 sha256:17167ebe00948f5ba0e9e1e95b55ac301f780f91ce468143c6d1616cb49deaf2
++  __AUTH_CONST.__cfstring: 0x520 sha256:a23b4810bd08088fab7c08f1aff1710f5f3264527dd714075b0de015952f989a
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:84dc376217b43e4b565e7635fc806e24ada6959bd898e437534ebf82d192fc42
++  __AUTH_CONST.__auth_got: 0x438 sha256:d20d5d685a1fdb28a974551a0c8c0eed3f75410cf9055957b7a3a9790fc2e06a
++  __DATA.__data: 0x2c0 sha256:3825787ac66e24fd37bb83deef8bd4e09f9f8332a40a9c1482b3a23336546d7e
+   __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   __DATA_DIRTY.__data: 0x8 sha256:74999fd28ab18ccca2bee199f260d19764603a3c78353d773d16d215eebe8e19
+   __DATA_DIRTY.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+
+   - /System/Library/PrivateFrameworks/perfdata.framework/perfdata
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 710C2E6B-AA68-311D-805C-A2AFCB2DA53D
++  UUID: 8D28A003-82B5-3EE3-B963-4BA420F14FDA
+   Functions: 132
+-  Symbols:   422
++  Symbols:   421
+   CStrings:  233
+ 
+Symbols:
+- _objc_retain_x28
+Functions:
+~ _pc_session_destroy : 316 -> 320
+~ _pc_session_get_values : sha256 2004cf903d4896e38e4168eb403f982f87e4fd6bd8208c8a37598a9ff6437cd5 -> 878cbc004530b1269c2a1d205dd68dce9b9e268b02209bc83bf6f4b7d6b42e66
+~ _is_monotonic_active : sha256 95318c0a86cc5fa80064456f7acd2ed6b29d9d06a49476809093efef5c6f3074 -> 25609acf6f56323d290127ba93ffa92c4eb31776ab65d6168c4c3d68714bae85
+~ _pc_session_get_value : 1200 -> 1276
+~ _abstime_to_ns : sha256 b115014755dee8b23ade512886b368cddef430c9a01e901e267d77e56050a129 -> 856c645a19e40b9685fa4f65017b61e39d6478380fca3cf67f6251e3896a8a70
+~ _abstime_to_ns.cold.1 : sha256 dde80ce4a467faf48fee65d4a9d88d52ebe2f849cb483f6c1a506e5455468c26 -> 20514d34ed8cd6cceb66010df6c60eb56ed9544d2d666552c9a4f0733f895f74
+~ _snapshot_create : 528 -> 560
+~ __add_metric : 824 -> 920
+~ _pc_session_add_metric : sha256 28eb3b47b54357e5830ce27a6a73f08082fd6fbedd05cabdee14c072a718b83a -> 6669ad5e0b2ff465475b863c0c378d27c12cff3da061208cc8c6859a2ea98cbe
+~ _measure_proc_snapshot : 956 -> 852
+~ _pc_session_begin : sha256 9845923ae287913f0a6d7711a7d11ea6ce9a1e4d7759f9646e9e78ffeb9463f4 -> 5499b027306aecbe1959c9c80a07259abe767ccb885b7fef7e5b97f26d3c16b1
+~ _add_metric : sha256 e9e79c80bdad911cda30e0f5c131c4435e3c4ff6f3ef9ec450b5d7bc62a9f54d -> 25fc1ea6ac6da0b190fbb27d9ecbe4fafcf15aa6f012beba3374664f9abb94e5
+~ _create_epmetrics : sha256 e2694cc291dc7fafa57826421710e49c5c064f99459e682c00d1a071970330ca -> 424eeb3a0a63bae3a341b5072e2ff088594d43d73848452750c744b2fb91d242
+~ _pc_session_create : sha256 f9ff48814436de18140d40fa2c9319bca99e66df2e068b6c386ebce42f87b721 -> 6e15a390dcdadff5d038a7747f7acf59bdea19fa0aad524b727e5d7dc4127806
+~ _pc_session_end : 316 -> 328
+~ _is_monotonic_active.cold.1 : sha256 c8095b8e661333f56743da48541c2f3dd51acb13e04ddbe8c2789acf63377f13 -> 718b991225f3a258259b5562f9570053c3c8bb053d4127cdc89e2e1bec853b3f
+~ _pdunit_iorunit : sha256 2c1f43016ae7017777f9f7c49f93a2bf72f02704428a8da30a55b55ee72b2a34 -> b06a36fb11cca273fe80941191840dd6ef5fa04cf1372e89052b1bb4ae5e6e1b
+~ ___is_monotonic_active_block_invoke : sha256 a45f04be94b79f0c893401dd55bbd41b4712fa25c2ef2db52558d38b3c0801cc -> 133237d3605a70eec2250096a067277149f7c9d40e0fe655a781ffb484bbf43c
+~ ___abstime_to_ns_block_invoke : sha256 a8df98ed67b1bffd41903ba1f4e1b753107ddc75030bddaa7a13dda33d32c0e7 -> a7dfa0de238e86289fb0a6e3bd4404ae735ef77f3c01290bc2423194dc1638eb
+~ _OUTLINED_FUNCTION_0 : sha256 f5c6364aae48f7b152a3bbab6157ec25ac19832764268e11b88f506f9ec1ed35 -> f022055a3de7186cb26b204c8444492d485df9bab52bb36abd1e997b5616e76d
+~ _pc_snapshot_destroy : 116 -> 128
+~ _session_find_custom_metric_id : 56 -> 68
+~ _pc_session_create_snapshot_buf : 984 -> 968
+~ __update_compare_path : sha256 28b8cec14c6a3433c1ba866f43d0dcc7a81efcc856b55bfe1df85a7c4a892a0d -> 6df5b8801e7f8b9b9eec9ac0db948ed6103f9714e20fdfeb5311a8d2c4fc6014
+~ _dump_compare_metrics : 716 -> 712
+~ _copy_meas_session : sha256 7b84b218ecb33bd8d98ff2d3062b28f9e019db861dd22ba26ac1da1adc31d7bc -> be7596d91868cf50ff36105e44f4425795e7f23d7c202ef72eb7a927e41c0013
+~ _create_meas_metrics : 188 -> 204
+~ __print_compare_meas : 548 -> 556
+~ _pc_session_copy_description : sha256 b8ae0d322ed6d4ef6b2beaa54fa0a9f2457592c02f3621cbf23547dc17cd131d -> cbcc427e6b5f39aa78c56ddbc8d1040f69987e111c53ad7555689fb5965ef8e0
+~ __print_meas : sha256 58f4ab7a2a30ef28b7640bd4bbd7947f1112223903632d696977675ca7910497 -> 465d60fb31894863b98ffae99c152db243a65b436ff19169b3cf6881d3fa2adc
+~ _pc_session_set_procpid : sha256 0e6563f686fe355b0074abd692aa6efa61c790ac70ef2a8208995fb5f4e04541 -> f3fe97a98d46195db2b8e424e90a138cefe1fd8f17c2d5dd60af12573c31fd31
+~ _scaled_unitstr : sha256 8a4ff0e5f8ac8fe2e356a34a0ed0334e7d2d2dd873b89fca21c55f410c060a4b -> 3b0735fd94366973fbada53be729875877b4c36f398f01205f033bf6d9b126a5
+~ _print_metric_value : 1792 -> 1804
+~ _findPIDForProcName : 448 -> 452
+~ _writeCFObjToFile : sha256 5ebde6c730e64d9f48e4c36dd30cf9057e6453dd43feb5b2146a79cb9ef6baee -> d1a9fdcc8518278a947cd35428e59a0d9cbabcc4d02b0b8c9f952c055f8f4750
+~ _createCFObjFromFile : sha256 46d9988395a967d19c02dab8c53c0d19171e3af1d4309739d6516a7eb50f4097 -> ebc3eeb92c11179ba9d43a33843669535c6dbdb9f00fab1abf646ff957712900
+~ _copyHardwareModel : sha256 4c6f3f88d633476f5076267758aa84513d3276218af5b238140a0e3050163507 -> 16fc650df6d2bf96ecb3fffb0328ce3070e5faeeccc5464b1fa763a451072e7c
+~ _abstime_to_msec_diff : sha256 e1acd3e539842993332350b060a640b53a1d9ace73ad5bc266395ac2cd2c4ff4 -> 5956c4338767f5a7d411aceb92a82d1357db98e698a512344e88da70f58f58f6
+~ _abstime_to_msec : sha256 95aaff64e27a7ad38ba393e18eb1a416cfe73f8c0106f3fab4c867d7b3d6ae0a -> 180e52f69aecf6e27e1c9d808ff07e38734d45069675aaa6a0660ef5a818e4b0
+~ _walkargstr : sha256 5fe40fc02d1e4ff3b5a1c8106279914e307240c5819fbdf140f249d5dc0e7ad7 -> 2f061fa4e599d13088c24e51cb2496772ef86ce9d4b48a0ebc211ab538ef5c02
+~ __printDummyGraph : sha256 1936bd297c350bcc2b3dbab3af0790b88e44d8817cd5784490414fb138b734ba -> b5580a45c436865ef65d06d6390d8a0d76e92f6e41dff9b8b8c3afdc266be9ad
+~ ___print_metric_value_block_invoke : sha256 22f529a2ba9790e06efc6b21bca242a13d66d442b770fa405173fc208d6794f9 -> f2bb4c259584bf153e3265db0ee0fea6f9420bf57140e2c88bbfeabb63d21db3
+~ _pc_print_ep_usage : sha256 2a60969649d901c51e5b9f40e615c34f88074401b4486d4e7f9c4f8b6226b664 -> 40debeaf1ab6885f28eafea1c0b5ed36a36e0d216a0e99c2aad957bedee85ef7
+~ _pc_handle_ep_help_args : 372 -> 384
+~ _pc_session_config_with_ep_args : 2848 -> 2840
+~ _run_easyperf : 1040 -> 1036
+~ ___run_easyperf_block_invoke : sha256 b28728ea53a1659caf44c0f631b70af803b5a9ae706227cf2a635c40a286ee26 -> b8ffa435afff8de7720c446c670ed91280a81c372dc9256032476410b68a51bd
+~ _ep_session_create : sha256 d74e4a8f28f569671e392052e51382b54c474ce4dded1eca1d0a09c6b16f2a27 -> bd223252622e9913ecd59b194361e356b5607a1c719cf6d17c5481c863288155
+~ _ep_session_destroy : sha256 a70b92ce1293c874be23cafd150fecd796b6fd95273a21badbb443f655dd7bbe -> 259a1a4d3622b436342fcc997b917b7d8385e48fc166ac149383825851d3acc1
+~ _ep_session_set_procpid : sha256 bae9af482861d17deffd5a36fd416226d8bd68c3da2ed6590c3e39e56614c2f8 -> c900d986f00e32381c2bce5f81fdf1773770ee3ce9cf5de4b72300159e382943
+~ _ep_session_set_testname : sha256 182b92b1f763e781a2661eea2326cc50f0ac9421d7caaa1e0c1bafb4cfe86428 -> ed916e05f67864a134c58af80900e56285bd0f1ff5b5f289ebd05fb2fed3dbf6
+~ _ep_session_set_perfdata_file : sha256 ff67241f3b6dc42dac2ff5959d4c35e1cbe91775f4f91d4f9329ddf832abe8e9 -> ce4bde19dc7a5d025102ad792374be9e9f2f2e0c15db524a077187a96f91071d
+~ _ep_session_setopts : sha256 e6970746c211bf1b3e1d28407ae0aa00440d9b3250f71cc68f8aa224bdd77a66 -> ce000a4a818861f8631dd7c83a7fa04dc5c8404b487d1218f67f96373c4f0456
+~ _ep_session_config_with_argstr : sha256 aaef2cfe8815e4522230238cf954bc03992b4648da820d831d6013c31799679b -> 1085949864f6c5a661205fb7f01fb38693fadaf340e58eb93f8e9e32bb4eae40
+~ _ep_session_begin : sha256 e72fd3b56e84ea10fd3c64703ae8c12ce0a950f10045b44e4f33ac1f2fb17c29 -> 4491ef86e91a4fc8e11199fe2865ca0af8eee9fede04c7534a6fb39445d24414
+~ _ep_session_end : sha256 9cb97d5c69e29f7b7e08a47f64c3284d142347e0d46cdec694e6cf5ebbdab7d3 -> 5eb58ff9ade5c643fb4928c4a0271c6d473555526e4eb8dcfe81142f13ccd29c
+~ _ep_session_process : sha256 98e37eb2e4445264a7c58c7da07017432bf1c5d4b36370dcf63f89d7dfd54d01 -> e2f1d342e768752c0d90537f63cc70a6e8abf7bd8583e7a0c322184387dc32de
+~ __easyperf_sigint_handler : sha256 afe1e1a407d9a7e3afba6d144bddb3d90c79c9d32866572fef29194b70cba461 -> 670c872ac6c2728a4d1e843347afebd06e5eb604973bbd23239d2ca89828a513
+~ ____spawnAndAtCHLD_block_invoke : sha256 04a6196e50c728d955f4338b028f34b8d35d500377a8f2183f8e603e5cfbdf90 -> 59fdc84053ffc6c9e99ad971e0e3d32befe7b989daed361a57d574cbcb3088e2
+~ _create_dict_epmeas : sha256 bc5b6c60545bb5f68fd8af70b3fc17317c02b771733880dff01197905182cfc9 -> 56ca7239ae0e04168189b506d5e0bd0a06352dd509bb5f24e40f446c4673a29a
+~ _create_meas_epbfile : sha256 dccbf7c02fa456f49a1a2df559ae9443c04ef11945f039474d6d36931b7441c2 -> 9efa1e635eb84578b0fe42d90ec5688e9294f2b71a770639a46f4927de5fd510
+~ __get_results_for_device : sha256 e1af51df0c96f40a112217e343ad10ba4bcb5d03d06381ac6d34537588a9f8e0 -> 92890a7eebb2b3a333450a2e60d71959e4d14e5e9e43a03439651fc46db24683
+~ _record_basemeas : sha256 9a7fbd19d799df5aad5bf9acb73b6128408f070ef3d0a72577afa301617dd887 -> d3a43b77ca00e9e90a6cf72d2e3a5ddda3df4e052b3c334a6b0479d536cf3155
+~ _pc_session_set_snapshots_bufs : 804 -> 808
+~ _pc_session_config_with_ep_argstr : sha256 fad7963b46d832dabbab17a78208e473ab9909914d18cba32acd7434ace2ae0e -> 3f23ab58ea33ef48316a3117cfe7d1ca45201602771adfbacd59ffbf1c380e69
+~ _pc_session_set_exeargs : sha256 f1a1cdbf62a6b04f90579b88094c379dc726f94ac366fbfa5881b17bb6a66c22 -> 6ea4c17981e161e08a3afb547238de9d2459a03ef802bf207f917c39e61db618
+~ _pc_session_set_procname : sha256 e5969f0a421a62b6b8e2ea5e7f0fe2b809bdba58d301c8ef7e9ab08e6eb6fa54 -> ab7fb1cde12ef0bfe259cc97f728b370b7696af7ba4db1358b2e78c306a4544a
+~ __copy_str : sha256 91b56e3976f0c9e0d736c31257054ebd610831017620c6aeeba67d1f17f495ef -> 00eb8019fe13214598c72a281df499860ad6a20a0ea1e4a9b5c823d3dd67832d
+~ _pc_session_set_testid : sha256 6c7bc1fddcec160731e5cc20c4447b4c27aaa9e3a606d5d783150376fcb40fea -> f22362cb6932e1a582ebd5c6b7487881389cad04b282201ada7d03615b4b29bd
+~ _pc_session_set_failtracer_file : sha256 c1ff1d0f0e2f4d0f93b895aac370f6bf58f4bf539559028bbc7fe5e79c86f03e -> 78b4aeb72dd03fc82fa5a6cff5f8e15d8d2162f91edb8b5bff2be29811e825df
+~ _session_putc : sha256 50e8ebe7fac30e164763f7172a471c159302117a77d640eaa13172b55478d779 -> 98b8788a938bf429513fb0448bf894d761b6a2fe56349da19f606751bd6a36f4
+~ _pc_measurement_graph : sha256 d9aa51655d6686a46521a2aed12ecdcbae70b11bd87a0461ba23b4ebeb20bf46 -> 8a3bcf9b51f8e68d4b80644f860cd9669cab479d1c7c2b2ce1e463e5fdef4b6a
+~ _pc_session_process_pdfile : 1668 -> 1660
+~ _snapshot_create_with_buf : 1388 -> 1436
+~ ___Block_byref_object_dispose_ : sha256 aa70e39784ed87e1e3a08d8a69bbf3ffdc22dedea7505a5c73707df9c04093b5 -> 2b6cae0e6cd144138fe833beb909bf9c904158416feb5f5a42c0d79f99bf50e6
+~ ____processContainer_block_invoke : sha256 56d764e72c6dc7a93219ddead1fd0d0f3828a1c03b7afc8be4d0b6a1018aa544 -> 19561c21b658210e46f76699249aaee366fe1d1d30235f3c93769b09df6e507a
+~ ____processContainer_block_invoke_2 : 1784 -> 1780
+~ __getMeasValue : sha256 1ad9cb950b1b1acc271759317866f497a7d6502ed8358deb6afc9938066d8ad3 -> 08142f17b8b92946f698a473ddf4c7fdb5b9a86be11ed7f5db7637e69b000bd3
+~ _makePDContainers : 1140 -> 1136
+~ _makeTestHeader : sha256 f09084b1238f68c5df7e5514333630d21d1b5d493e18f152a46e8f867efef229 -> 36c929626f1bc9100512947398b64ad956eb5a3c7ef9204e5b7e2c8e4b37bc6a
+~ __outputVariableNames : sha256 57984a8021126393440485cd989303097fec37d97143c2e76a2cb7bf1a20339b -> 5b86518b7b085a4048b05f6aea08677af5a51ad32f8b3b9a1e076482eb990add
+~ ___makeTestHeader_block_invoke : sha256 2adc36c4b53380b53bcd53b3c70c4a3285befce0aae7caedeb737e2fb91332ed -> 3823aef539ce53ec2031de17a67b99dbc3d1d3c5e79c96bf617390e0d8da7927
+~ _makeMeasurementFooter : 1456 -> 1448
+~ __outputVarValues : 468 -> 464
+~ __variableDisplayString : sha256 0997f1178c4dd6471d20aeac7d486bf006b83638e0dea4896fbee9b387faaa55 -> 56b5a473f67fdd6bdafbb6c9b30f89c23c6a8b817225d6408841c67243142088
+~ __variableDisplayStringWithDiffs : 620 -> 616
+~ _makeMetricDesc : sha256 33998de1cc001c151acbbde2da96c2f297f06d2cc6f2e1ca9a36a5d61800ad78 -> a644365ae516299a36bb659e1265a144748ed177bedb7138420e28d7b144cdda
+~ __getIgnoredVars : sha256 2361de9673243d64f57d60aa1a78fa70d6ca421d2b72f0114e30357f8fd4a1c6 -> cf1ed578ff7a1b1c9f1f89e20da4be05521dd7d4791bb7a83efdefaa8585697d
+~ _areMeasComparable : sha256 23419688d45a64013ea85156f843b88b34fb527cb4be7cb8d71b3e2bc4c21618 -> 01779a767dd4b6e26ac225b0daedf2c91226e6da8ecc7bfd47580bb8b91e8dd7
+~ _has_perfdata_v1_ext : sha256 79aa6e317bf4d2427372cb464838ea581bd6bcddf74892fa12891b90501316b1 -> 9c54d1eb993740d3b3726140c2181b62a86b4b11a66fd39fef80ddee337fed59
+~ _pc_session_record_values : 556 -> 552
+~ _pc_session_record_pdfile : sha256 8c530bc29bf3e576637d935d3a6366de856efdb6264233fecf8d13a95f271dc3 -> 61273c5e7f03365cb4e6e91a5280c021e447dadb17c6897e2aae2742e45fc15d
+~ _emit_perfdata_v1 : 768 -> 760
+~ ____getIgnoredVars_block_invoke : sha256 223e597521b72eae7c4cbd95fbdb2da27f2789bff6a6807e91ab339247d161b0 -> de895521efaccbc1f2e67e669e43f95f4a4c69226bbe03e6b848728c9bcc6f5b
+~ _get_name_metricid : 96 -> 92
+~ _get_metricid_name : 124 -> 144
+~ _unitstr_iorunit : sha256 16a61a323065c877c4944d909c78242aa0682c962609c793820eb308e164eb03 -> 6547a677833f0afaa5c00f406cd746fb1a73324e6fcadf4e2597be6b0a96712b
+~ _pc_session_set_threshold : 264 -> 260
+~ _pc_session_set_default_thresholds : 168 -> 180
+~ _pc_session_clear_thresholds : 80 -> 84
+~ _get_thresholds : 104 -> 100
+~ _custom_metric_clean_up : sha256 25551d9e8ea352fe7f5a07528bfed4f0781ca5b7ba4bb0a52e6ed11d43be56bd -> b2ef025dd7231bdb8f37beadc407a3523dcd96cce43529a99ad09a4ce9b87d07
+~ _pc_session_add_custom_metric : 384 -> 400
+~ _print_metric_value.cold.1 : sha256 74c66cccce806d315c55cab7994f4c742ba00d65854d311cd1d337a928bff574 -> 40a61232e3f71a79eb0e755875311756c7264969f54df1f3e46b41d77b7ee90f
+~ _create_meas_epbfile.cold.1 : sha256 b077b6f9393d005113e6d0faf4d25de42163326b522a1f7c715e642758af1370 -> 10ef0c66ff53ed7e7185da5c6eb232e30177b710e9b9d85981236fbc967b2c90
+~ __outputVarValues.cold.1 : sha256 bb697f08d22956e324f3ee4dc70b48c2f54710749332ae1f8735de1ca773c334 -> c7da90f1daf325f1e85af7f3693b03876385bfdcd6e14bc46ffda058053a60f4
+~ __getIgnoredVars.cold.1 : sha256 18acff90329f299040950c0b51d125352dc56f4b3fcee9696a341dd4b1e493b0 -> 1687a107ccf0a33cfba456f26470cb6ff44a41bada825e157c259e433ee471f1
+
+```

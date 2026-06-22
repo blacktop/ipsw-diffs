@@ -1,0 +1,46 @@
+## BackgroundTaskAgent
+
+> `/System/Library/PrivateFrameworks/BackgroundTaskAgent.framework/BackgroundTaskAgent`
+
+```diff
+
+ 63.0.0.0.0
+-  __TEXT.__text: 0x4bc sha256:84045c276a94d2eb6c47760a0660c06907988c0241360290455058dcb030944a
++  __TEXT.__text: 0x4bc sha256:7cdd09981d42a0d650d31421319e68a051604907a2dcb6c795ee152dab9a845f
+   __TEXT.__cstring: 0x39d sha256:d71c59a1b5248ccf262b81b62953b7d3066097679e3cce28720e76e466c9385d
+   __TEXT.__oslogstring: 0x13f sha256:7032bf3e35a8926f1aa1406a1af01f6d8ec71090ae8b147db60c090ac3550ca5
+   __TEXT.__unwind_info: 0x70 sha256:107558273ed9063b8ba922c7de4d942b18e1661d958aca8d55b7a26a9dc9f5ea
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0xb0 sha256:545a4d3ce007efa106c173ad29f9a5f1ddd74a64e1da4aded1cc8d2bd16e4bd0
++  __DATA_CONST.__const: 0xb0 sha256:0b161c6323b5ec01e8f8d7525325290e3b130a037e39693848e39eacd1be34d2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x20 sha256:13b33216526bf49f3e7d7656c8f3b837d7dc4c41ff21a6e63cfa357a95bb265a
++  __AUTH_CONST.__const: 0x20 sha256:0838119e8af3fc39636d47f4113f807096e7e4bb06e0794e8b001eef43c767bf
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+-  UUID: BDCB1972-ACCD-3AFB-BDF8-7586DCBC4DEF
++  UUID: 2DEE1262-7766-37DE-8336-3938A3B78E2F
+   Functions: 20
+   Symbols:   74
+   CStrings:  33
+Functions:
+~ _btaLock : sha256 39b1b6652f09ee0ea0f9e4e9f95ee8ee39b9ab589e1553542f858a61cab65eb6 -> ee5c5e8f584a225dbfef72e9ca0333c12b2995fbd6083a7bd241b45fffcfa21e
+~ ___btaLock_block_invoke : sha256 ad6bb81bd38b095d05fee48aa06dfe04637324233b23f56f0a644e0600a36940 -> 6f851a7f3a25c37fdf438f8ee4d480c960712d2688d82e94699ec8146852506b
+~ _btaUnlock : sha256 7fe35ccf8cac9f428e09046bfb2b29126bec8362338a82fa80ec63aa1090addd -> 7b69a8cfb41f151504ebd7bd11854aa29fdefa2faa33a5ec7084f3f16a17384e
+~ _BackgroundTaskAgentInit : sha256 0781027c50c0305c54037851ab3ade9df1eaa9342b7327b1600493bc862b0f58 -> 41fa6f967627473eda3d911ec8c769f77bbc98f4d3b9e16b88b58e1591469fba
+~ _BackgroundTaskAgentAddJob : sha256 48b21b2b2af9faadacc542e7760a876ccebe8a51dfd77c2c17bb9fdfbc9fdc00 -> 0c982a3c8528ea1919b35bdcba9e54da2cdfa282a2e4152e08946aff6440fc87
+~ _BackgroundTaskAgentRemoveJob : sha256 13385f45737c2ce38264349d683a337337769a629e059110b71ca63e1048bbd3 -> b9ebf664b0f1df08f61012dc8d8b8695f0253a6807169b817bb54ecfaa0fef7b
+~ _BackgroundTaskAgentCopyJob : sha256 8597c0cbf86f585b554d700cb9b8927a20f0238c497782077378391356fb85c5 -> d154a6550a931e9cfde9770c54d86e7a01c951699647d14af812a19928a4ed2e
+~ _OUTLINED_FUNCTION_0 : sha256 390ddd353759f2c03c9ac97cb381e9f9239e8c198fd9d814ffe6371c1b6a4df5 -> 9f1e482f72654f2d2ee53e3730ce178e96d6bfbdf368465a3b3d945eb2a0049c
+~ _OUTLINED_FUNCTION_1 : sha256 d76d003f4ea57085acd754d89dc26a14a7cdd69bc6d4fcd8e58f21dbf58414e2 -> 3d25b4aabdec4d0423bfe86a426024ed5710bc8f8d7f28d51d593eeb6695c436
+~ _OUTLINED_FUNCTION_2 : sha256 40d80618a00f76c4707ae7ea2c02e88f1dacb96255fd6bd5cb399bb18472866c -> f649cfeb4c88d7ee7d181a498f4c8463019621376dc6a362157d347658ac9f88
+~ _btaLock.cold.1 : sha256 17bc3498a325541e2759ebc79254fa32fd9cd7be38bbb2db915dbc2742f5e0f0 -> 835c25ec040012468a1ef5e51000e6f9e97871afa53a265211f2c87c97d615aa
+~ _BackgroundTaskAgentAddJob.cold.2 : sha256 f6dee044d39ee790bb327ddb2ceac5bf6b9170e5d76d6e96a9b38650cf5da996 -> c7b9b7e4c6d861798b34254263f851d763e11a3dcd13139c0deb508794cc7709
+~ _BackgroundTaskAgentRemoveJob.cold.2 : sha256 b2b880f43a5fac5ba65eaee90d71e5f6533840fd21ea7ea581869899d9903d47 -> d37a0ed13a2c02f95c19df2cf916a2865229d46fc3f133baf02270ce7d0da3fd
+~ _BackgroundTaskAgentCopyJob.cold.2 : sha256 0b64c4ff61668c842816c72e16e1952434a4e13071a413f42c7faa2783f12bb3 -> f28c6655975e7a549b906b89296d3e58e73a4a6364b445d2b5e5cdda884230b6
+
+```

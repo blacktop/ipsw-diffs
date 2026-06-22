@@ -1,0 +1,103 @@
+## MetalMetrics
+
+> `/System/Library/PrivateFrameworks/MetalMetrics.framework/MetalMetrics`
+
+```diff
+
+-5.0.18.0.0
+-  __TEXT.__text: 0xb74 sha256:87151e9a588eb1263f6d9b48574ca1f7af700ed8fdd789e924f20fc2da636844
+-  __TEXT.__objc_methlist: 0x46c sha256:68dd27a6defce0b5d38e5dda576fe16a5f178e00855462b10c8c74585d40921f
++5.0.19.0.0
++  __TEXT.__text: 0xb6c sha256:c0fc95852a1782b603795e589f5ad0656691982aa15323aec02057568c394443
++  __TEXT.__objc_methlist: 0x46c sha256:24b72ffb64bfbb780dea7a6316fbc2b21084f2a8183960f3fd37c3d42b443c82
+   __TEXT.__const: 0x38 sha256:553b40d05b738975697bd780b8fc5738df4216de2ceaa26ce68ddc1ba41fbfa2
+-  __TEXT.__gcc_except_tab: 0xb8 sha256:19d6d01b0c258971a62309c34883a3f797d28d59cffb66008c88fb75b2a2d117
++  __TEXT.__gcc_except_tab: 0xb8 sha256:3da93e61337e22412c38a20d3c889554aba7f580f45e234b74a7e872ef9244db
+   __TEXT.__cstring: 0x2f sha256:097304aeb0c6a6f2ba1bdbfff53b3fd1577d37dde118b3d6e2ff5443b2cec0cd
+-  __TEXT.__unwind_info: 0xc0 sha256:542d29ef2bedee4520b5fe2fb490deda6398e1d7f47a2bffd89c9ffdadbcb933
++  __TEXT.__unwind_info: 0xc0 sha256:8381414f579622f52f3b0e2e7f2cd11e9e365dc8e0d3a867c799eb3da4bb01ec
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x20 sha256:0d39c4facd09cccf4160f2302206c58c8bc0fa9aab1672e0f33539a92a7f6c63
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:9b1a6e357cfc38f5ac13c1215dfc74bbdd76da301da8999e32e244410ba7aa51
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:616009ccc3c67b6abaa2e50970c7b2a205b89639e1a87c91c4fc42137274bbac
++  __DATA_CONST.__const: 0x20 sha256:51d2272a4a13fc154b5e1cb1c57b33ea52235d7cf02fa63ecd225c66649a9004
++  __DATA_CONST.__objc_classlist: 0x18 sha256:fd211c91d865c17b29758dc5dd967ef530f0db106fffe08b6bbfb06e43526049
++  __DATA_CONST.__objc_protolist: 0x20 sha256:600d8b320b7d9467773ff68f4a2abd75307eced02debf5f18b60f712493c61d9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x210 sha256:3c8c4ab90a240131ba1accc2c374e5b904b14e4f604cfa43250ff290f159c1af
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:97850ffde4f993d22c7ab3feae614497a2ba6b4ed3bfe525dc0303effe869b9c
++  __DATA_CONST.__objc_selrefs: 0x210 sha256:7aed8165e68dfaf709e8d5ce566cca20fdcc474a6429a8713650245d9d3e9ea5
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:1fdac687e504bfafa2f4adc8010a08aa6039f4b4ba8b678236bf3c126fd8977f
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x20 sha256:6346d885763150fab3da5efc26278c26b655b9a5556e44edf29f3628edbb2abb
+-  __AUTH_CONST.__cfstring: 0x40 sha256:fcaa550c9fe301b273954a6580e34593e323a043030cb1f9455645505690d60f
+-  __AUTH_CONST.__objc_const: 0x798 sha256:db42b9a809857829b14ef2ee26fe3cfe4b605c4b4e579f30a55bf60cfada732b
++  __AUTH_CONST.__const: 0x20 sha256:aba9fba83806f145a9407c1bb2968231746feb8ce54d8c6a05e906e392728879
++  __AUTH_CONST.__cfstring: 0x40 sha256:c4236748546ac9ccee0592c7b2f77c2a1544a5d6cb3d14121110d2c44b45fc4c
++  __AUTH_CONST.__objc_const: 0x798 sha256:2c75dd5ca5a6d3874f724375811b04ed606560f2c8bf69d6bfc9092b0c5b719c
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xf0 sha256:a16e80a936a952484517c193aee4fb6e16b1e84faa20def8df71bc6060106fe0
++  __AUTH.__objc_data: 0xf0 sha256:cc1896e4c4dc22aebf4dda13e994fc161fd89bc15f02c5823ad59064c66bdd99
+   __DATA.__objc_ivar: 0x14 sha256:189eb6a3a4e955a3af4b351e0465088981fa03a1d0773586d81457575cc33004
+-  __DATA.__data: 0x180 sha256:4a6a4e5e438bdbcbf17d5668128436291e8076f0ee9d68c607f8b1bbd66ff363
++  __DATA.__data: 0x180 sha256:412193f036d80d71b6dc4c2574107cfddbc12c1a57f4eb3c626295b45dea291e
+   __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5A66E981-C719-3F23-8F84-74C5FA692D96
++  UUID: 037C661D-B2C7-3AFA-AD8F-6B5F55A6989A
+   Functions: 41
+   Symbols:   198
+   CStrings:  5
+Functions:
+~ -[MTLMetricsMetricListenerObject init:layer:] : sha256 9ad8b74d0cd42545789e71abc44878bab3643ba53eb6e251ba8fe610f1303d4f -> 80ad4b500345c6ffa621e74d9ab3e6b4e371cfb4c64650df1f2acea6d286dfeb
+~ -[MTLMetricsMetricListenerObject listener] : sha256 0f607c4c5d8c24bd74e643b4095cd4b25424c723ceebfb9a7649c8a30507bebc -> 5ecc538d3a95c3522c163c94bc5c6875140898874fd1a9a213e90c86d3abcf73
+~ -[MTLMetricsMetricListenerObject setListener:] : sha256 43e731252bdcb3316137c78ffd10a0962acc8bd003d9eedff853ff5cde99037a -> f54dd142a060027662cfd123e0d0829152f238d6d814371d1d744906e196211c
+~ -[MTLMetricsMetricListenerObject layer] : sha256 1291fcb40e4971b057a785bde1be7c9c30eb8737c2c46cf35895e38ddb9bbff9 -> 7fd3ceef82302cfff347521d72df62b8e94da33bc4e134d75ee40dabf680ccaf
+~ -[MTLMetricsMetricListenerObject setLayer:] : sha256 ac18237cef29a11e042738eda16c381f9ba2a633bf81a52033793d74cd940858 -> 33223ac471fb2ea50fa386f557008c640c8ed2680f5817e4199d365614dd4415
+~ -[MTLMetricsMetricListenerObject .cxx_destruct] : sha256 db828e091446c3a55cb70d35ce3c04e4bf3b7f3b3a638fcac77866c11bece6ca -> b70b2d5051f88f55bd459a9b010e46754f0b653d07aed8e3e23480b963ad62f5
+~ +[MTLMetricsService_Impl sharedService] : sha256 d7746ecef51b03b4820574f9d4329e7436645bbab9f8eebb1e85eca31cd678d0 -> b9e5523bb726306b1ba3185cd948e40ee1c8cdcde718aa6afa7a466f4bc4215a
+~ ___39+[MTLMetricsService_Impl sharedService]_block_invoke : sha256 37e8882245fac9ca2b33b7fd120d1971b6eac48f718eb6c372f693a47f2960f5 -> 72174f94e44f52141469156c0827eef51b144c741cc0b33b32e76be9329e73b2
+~ -[MTLMetricsService_Impl init] : sha256 b5c76c2ac80c74e64b712e839bf4cbc5323479fe616abe5f08ed968db3f875c0 -> 40b37ebdd3fb2de76c3e756a1e9b18a1fe73168a018b6e273e554a21545c5a10
+~ -[MTLMetricsService_Impl setTargetLayer:] : sha256 11654d610697f641b70d61acf3295099c63d98bb19532c576a305c4c9e64d6a2 -> cca980ffa519b7080cef4df40cb02e4cde1709ee38586f78b2f799e98adefe05
+~ -[MTLMetricsService_Impl registerPerFrameMetricsListener:] : sha256 0d7683c3bb0b824c352f12c7973324a79d7bd3a7974792c808e5e644260ad53b -> 873182a7733656b1cc96b262af2113b815632728fd07b84e596a92455623b840
+~ -[MTLMetricsService_Impl removePerFrameMetricsListener:] : 372 -> 368
+~ -[MTLMetricsService_Impl metricsUpdatedForLayer:metrics:] : 476 -> 472
+~ -[MTLMetricsService_Impl targetLayer] : sha256 5e3f4334527f9cec0245546ab5246df6f9dc0f63171c9a03d6f7006fa7571df1 -> 634cea65efa2a083c0aa30356673f5a262c0c177925bb484ef328c7b89c291b7
+~ -[MTLMetricsService_Impl .cxx_destruct] : sha256 63fcf171998f4da5d36944ae9c37ee765dcbaf6d0ab178c1b5e58b47b1c28e0b -> 5a7320e81b80ad08ad59653b23067caac60bb824a6b10c32eda4ad339b6ff686
+~ -[MTLMetricsPerFrameMetrics_Impl initWithBundle:] : sha256 67107eccbcc4b09a2783c93b9a4be7459a7dc869f3daff9fff973b0f8b9c9285 -> e6dcec82aed67f03f3bd3cbd0abafab2bd2cff8f862bbd332930a906001eea66
+~ -[MTLMetricsPerFrameMetrics_Impl cpuNextDrawableRequestTime] : sha256 f0f3e7925dcb6400a85c46ffaf1de1aa3385cd7bbda06739d5b7c19553b20a1f -> 27b7d67e0638fd6daa4bbbc4aaa3e523c13c505dcab15763635f8a5c3907b4a7
+~ -[MTLMetricsPerFrameMetrics_Impl cpuNextDrawableAcquiredTime] : sha256 80c1ecaa5e2b0b73326e1164a696581ec7eb501ced6620ce60397b3c3886c910 -> b507803b813b402c693acde6d19327867980d45a1816065d88a5d59ef6b5863f
+~ -[MTLMetricsPerFrameMetrics_Impl cpuPresentInterval] : sha256 7e6bf72a78331b7525e989d39884f279c2ea26e83420460bed80459d2f0f9ab0 -> 1e17ebf61eeab625065e562013935c30dddf3ed898817122fb0e1d233f9212d5
+~ -[MTLMetricsPerFrameMetrics_Impl cpuClientPresentationLateness] : sha256 1872d38a93f9f1f915986a4f6120b30a9f5527a4664e431399c3fbb3681bec9f -> cf7c53dc8a02d779e1fe1c2c0b3322cebc255ad53def331f390542ec6ad774a2
+~ -[MTLMetricsPerFrameMetrics_Impl cpuOnGlassPresentationLateness] : sha256 2ad3103a828b1f3144840d6a8056443def6568e74943d4c54c744639b5ce10af -> 34ba40096a38bf6e020f5df0e03de5d725cf64a5eb8d678f41737acdd0cd2d33
+~ -[MTLMetricsPerFrameMetrics_Impl cpuDrawableOnScreenTime] : sha256 2fa91f5de133859082fa0ee563e87aa37559c225f354135ecad73847aa697fb2 -> 7dd138a5f404690b7ce2a45670ec03290992b0ef705a7ae183646eea5b30b48b
+~ -[MTLMetricsPerFrameMetrics_Impl cpuDrawableAcquireToPresent] : sha256 22573cbf18097f5fcbd780cfb612c9ac502dd902610fc3d516fb6f3ea8a1b38b -> e654e4c4469128878fcf3880248ca7b389c3dc430f5d7b7028acee289cfd973e
+~ -[MTLMetricsPerFrameMetrics_Impl cpuDrawableOnScreen] : sha256 b870c637b137127b4b2f6d92a2c636dcf491076b820475d8792b93673a5e99e5 -> 7659db2fa360d4bd1e15a3a3e9162797eaa01355610ba64c0f8d77d5481c7823
+~ -[MTLMetricsPerFrameMetrics_Impl cpuDrawableOnScreenDuration] : sha256 6c942e3dadb3a2171ba256ae085b5d584bcc0fdd3320afea50e4da6685218d02 -> 97a57e70de4a2b2af8b52090504a0e7d6935cc737744bc4bdc840e08512ffc0e
+~ -[MTLMetricsPerFrameMetrics_Impl cpuFirstCommandBufferBegin] : sha256 a5beece346c6cf8980d7a94f83b3b7ae5df83c967f9020e7d6bedf3fab8fb98e -> a9584262102e4bc468c6bcd859a0057dc5b19f8098ebb4d6fe0230adc8b62100
+~ -[MTLMetricsPerFrameMetrics_Impl cpuLastCommandBufferEnd] : sha256 36f17ed89ec7cf9e394b3dc38ef3cc69197791a14da2bcedb75880b39727f7c4 -> 1db8a2fcdf00c827e3c97cc3cf148435e6e2e3b8ae40d412e142b968ae42713e
+~ -[MTLMetricsPerFrameMetrics_Impl cpuCommandBufferActive] : sha256 f7ea452f7cc12db93fa70d759bdcb0315b71008cdec3c2e0eaefed8d22e6db4b -> 528c60a3ca4aba8939092a1d016661e4b69d50f1f05ca1de3f9b3da9c7da7202
+~ -[MTLMetricsPerFrameMetrics_Impl gpuFirstCommandBufferBegin] : sha256 2f315119726e9282d91c1354c4b096eaef8c98032dbc774a7755c6e250269690 -> 15d823251a8cfcedb813e29314a2a236735f830570d94300ec7d20f32529dd51
+~ -[MTLMetricsPerFrameMetrics_Impl gpuLastCommandBufferEnd] : sha256 bab20ac0021543923b3fab93830c992446f123139cfd69ccc460a68820144f46 -> 3b16b6fd0b41384275faa4f0892c50c8399a08234bbcbe41c2c0c7d8e6e85c47
+~ -[MTLMetricsPerFrameMetrics_Impl gpuCommandBufferActive] : sha256 c3b45612caeb2d66105f2ba163c9c72251b52b15b45f1f83ab36bdaf46b88ed9 -> 3793fd81eb1a78948a2bfb62fe836bf8a807d3db76658e3403c0dd4b2f267d67
+~ -[MTLMetricsPerFrameMetrics_Impl numberOfCommandBuffers] : sha256 afac2b1103e7e69127bfd18e941aa730a4063bbcda12291fb6a548e4a1b9938a -> 4f24f8a46d5d1d93f736be89f3b165c765473b6d0cb97a36a42a5968ba7b8349
+~ -[MTLMetricsPerFrameMetrics_Impl frameNumber] : sha256 429f86f9b76cc1198a63953a1be39b27f529fb8b63f66010dc86252d728eb860 -> c31792a929c23660de5fe88cd78980aca0c6f0a7a9766911e54349e9f00f683b
+~ -[MTLMetricsPerFrameMetrics_Impl imageQueueId] : sha256 7700f4f5345564a6e12ec2bcf40539d190c1ed8f7ecc819483ff19a4382df9e2 -> 648e09b92cf17dbe856d48328311e741b1dad814fba877c0622473bc2ae8a7f9
+~ -[MTLMetricsPerFrameMetrics_Impl surfaceID] : sha256 3595db9bcf8e870ea5f8b739220b5da470af5cd47956879b36b0e910b34d6f56 -> 2f9e3d0cab4885f9fde8f1a0230be0dfbc785d9a4735cb142fd44cf60eb096bf
+~ -[MTLMetricsPerFrameMetrics_Impl drawableID] : sha256 565b246c44cdfd64862d4b3e3514365530b10b02223285668d726b5bc3fddd26 -> 958a6b3ebf11e0d3de7d7e74a27880a670b582e92f1f58c33d2660afc0728989
+~ -[MTLMetricsPerFrameMetrics_Impl detached] : sha256 96949a848cfe3e5db6532419972452e9523358db0b467d4ff1c5817c042a566d -> a66d2645ab67facc46fb74815d08c49799b2788d0df3b39c3b5a454ecb3f5612
+~ -[MTLMetricsPerFrameMetrics_Impl presented] : sha256 77683bdfbf010b602a576473119467a27a7c425de09e7ba450dee90a432bb1fe -> 163f718aed218e748267e2c18c22e06cdb1d2e791a8235f73722cac2785bedbc
+~ -[MTLMetricsPerFrameMetrics_Impl isMainLayer] : sha256 889bdd7152d6c784f408f4a93e85d86eb45c763c4be8a3d06eea7d90c9c0a791 -> 274c161d20bcd26e2cca6407c750d32b96aa6948f230018620e2c3917766fcf6
+~ -[MTLMetricsPerFrameMetrics_Impl lastUpdateTime] : sha256 40aa815f8ce890d2a5419aa25a1c36095fd4b4cc9ffba71cfd5cf1388c0feb20 -> fe1ff3837b79d054005a2cf880abbf44c4b9f3316ef42d03a75644b47b9be251
+~ -[MTLMetricsPerFrameMetrics_Impl .cxx_destruct] : sha256 684a5e2c5dd2bf49abec4c8564d20a75586e882845bcada7395618ca076494d7 -> c603139d5d12e6dc4b8d8c4a3e12d02bb44ad264e869b3f88ad22a756f76e822
+
+```

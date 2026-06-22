@@ -1,0 +1,93 @@
+## SessionFilterRecordingUpdater
+
+> `/System/Library/PrivateFrameworks/MultitouchSessionFilterSupport.framework/XPCServices/SessionFilterRecordingUpdater.xpc/SessionFilterRecordingUpdater`
+
+```diff
+
+-9170.34.1.0.0
+-  __TEXT.__text: 0x16c4 sha256:50320bd75732135bf1b67ae9e3deec84d4b5b8d2f10cee1f34fe33413191dec0
++10100.39.0.0.0
++  __TEXT.__text: 0x16c0 sha256:01cdcbf4e1d83aee0b8a950f849eaa17fe187921d7bbeab4b7d4c4a486f5d69b
+   __TEXT.__auth_stubs: 0x2a0 sha256:24f66053dcf234eac358b727a894ff52fb137a05f43a3c6724dabcf04dec3dd8
+   __TEXT.__objc_stubs: 0x5c0 sha256:d17722c24d9c9a3b3745127fb9b1ca9b9fa53c0853ae33a1d28602883531aa05
+-  __TEXT.__objc_methlist: 0x314 sha256:53a9d682aa9302325596337eda4ee55c1c24dc0e32f2f8fb9f5f9a799bae9a2d
+-  __TEXT.__const: 0x70 sha256:df47162fef145e57d99a12f5a109a4e982d07a201a115123dbbb7fe38f310b32
++  __TEXT.__objc_methlist: 0x314 sha256:dbd8d2213c69024ac5befceb4f1fd6333597a3e31b2ca3967b3d368bbcb435a0
++  __TEXT.__const: 0x68 sha256:44055b4a05fae4da97cb4e457ed27f6ed844c06b3565f3101af1a35a21527077
+   __TEXT.__objc_methname: 0x7ea sha256:efa6d503546339d596ebc4785a342c26a1c2a6da9845210d75fe89691594a719
+   __TEXT.__cstring: 0xe7 sha256:091396dba063452306eee65be713a2b2a97e5952dda628d2bd550e0597a1c757
+   __TEXT.__objc_classname: 0xa7 sha256:7f11ba1fc84e7bea8a53dd7ef4104c8ff46a0e818f82eabe876ca6feedd37bee
+   __TEXT.__objc_methtype: 0x2ce sha256:165a63ece3ebb886c2187f0d49804a7570d0a1b04efa87fbe0f66e56fb179995
+   __TEXT.__gcc_except_tab: 0xf0 sha256:1e45fb4dea00bae9a8af4d67abaac448d7a349d997199186f87e2e1a27b2a920
+   __TEXT.__oslogstring: 0xe2 sha256:8492b196a0c6a76ef8a99bbd5af29cf40ae6336924111f9037c0c464b1233fa5
+-  __TEXT.__unwind_info: 0xf0 sha256:05521dffc93fef7cd34dcbc8ef380285583f15a8009c03a7ae0fc08451b31d96
+-  __DATA_CONST.__const: 0xe0 sha256:9a720dacfe1f1e732ce85e70cdc8c72a622ab8c91871c4285a334f8c97d3a0ea
+-  __DATA_CONST.__cfstring: 0x60 sha256:4f91fe2bbc8626f29bead011211623536490781cabeabd887c7ed7e9edb16070
++  __TEXT.__unwind_info: 0xf0 sha256:e7429d1103a4aaf63f47fa645d0523e649095fc2bc8d57ad746186c61d18c474
++  __DATA_CONST.__const: 0xe0 sha256:6b5771968cd6de47c07b3a8df61cdabb8bea6b3c43c2331aa1e773e120a3fe18
++  __DATA_CONST.__cfstring: 0x60 sha256:1ba46adc6509c70a5909a51324f3d970cf3347d99ffbbf764d3b748fd6845b1d
+   __DATA_CONST.__objc_classlist: 0x28 sha256:5c9c8fe644098d93657b9fd36e1111146a290c9ab647364c7cc2d088f2e0351d
+   __DATA_CONST.__objc_protolist: 0x18 sha256:75f4a49e04300c6cd0bdd20fcc429e480d993cdf60b412942f4e5c28625d0d87
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+
+   __DATA_CONST.__objc_superrefs: 0x18 sha256:0b88814205f321ad9bbd1b6ee1f6a71702aa3d989a19c7c9e9dfa0f8c6259439
+   __DATA_CONST.__auth_got: 0x160 sha256:d1798bdd988ee9da33a5a1fde47bba49a44662779829a2ab3bcedbbe1e47f0c5
+   __DATA_CONST.__got: 0xa0 sha256:59300358e99e218c66abb800cefa2b81699b5af4adde78f29e434d7ae67f60ee
+-  __DATA.__objc_const: 0x718 sha256:03bad2f88334f3b26594f35c2cbce5f258747c4c67023ed55db234f5bbd53f09
+-  __DATA.__objc_selrefs: 0x2c0 sha256:5795e42a392619c459ead9c26d62b584301fbbb24027396fb84f9d9da98494ce
++  __DATA.__objc_const: 0x718 sha256:1fe25669cb5c7cf66e53b7c78d90b6156cddccfd11a260e55ee0ffc1b511bef3
++  __DATA.__objc_selrefs: 0x2c0 sha256:464d57b41e55d323a69435cf940b559b37ccf0055def17daa7a9e2f87be46903
+   __DATA.__objc_ivar: 0x1c sha256:3b26611fa431196b0d4d8e4a19a1996bd8c3774216d3f17e2f1a4ef557218298
+   __DATA.__objc_data: 0x190 sha256:bdc5dd3b71dcf318e307779155216a80dcbb986682577dc7cb61feffd9b9b07e
+-  __DATA.__data: 0x120 sha256:21b32fca316183c1693974aff3f8704db40bf8e2acfbcd12306d112e0f4ca954
++  __DATA.__data: 0x120 sha256:53beb87065d95dee013c2bddceaf1b07d80dec6f60661b12c04552209068861e
+   __DATA.__bss: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E98D7F8D-B2D9-3A25-A706-A334B759CCF5
++  UUID: C4CE73C4-0B4C-3EA3-A47C-F40E1FEEF7FC
+   Functions: 49
+   Symbols:   245
+   CStrings:  171
+Functions:
+~ -[MTSessionFilterManager init] : sha256 e3113fe404488c4b8c5db8727c03b1edcfeb284e001decdcddd81cf71c229072 -> e14a5ffe92f62ac4395aeddb983f71c5415ca3f863e7c915c9bffe272d45cdcf
+~ -[MTSessionFilterManager filterEvent:fromService:] : sha256 aff1e577f84a3ca78c35f4c7dd2b450fb8009cd7c22e94ac01d4c4af53b88823 -> 30542d90cd922ab40848bc2ea1d66de80ab5f1b47e6eb9ce77a2ff43d98a3e69
+~ -[MTSessionFilterManager debug] : sha256 766378120262a10f10fff45e5e89b0d19a5dc38041d02ad7db288ed4c042c2cb -> 6e344931c35c0a73110cec7763d90a9b048c66abd80aeb79752953340a6cd1c1
+~ -[MTSessionFilterManager setQueue:] : sha256 66f7b1fb30b7c6064883ea74828c9f8810f77a31e0796e1f48342c375728a5b0 -> dc1cf623874972d4a8a6e551e13480af67fcbdc8130d13c02ba96daca167d385
+~ -[MTSessionFilterManager .cxx_destruct] : sha256 4977a0d063389dd45d80d87f71442aa64f1299f9ca72d859c78bf0908145073a -> f32c7d45604c4398831afccd9a3b30a3285e83ad300de92b68deaf167ee1a834
+~ _MTLoggingCrownFilterManager : sha256 d046265edf77a47259a7a1d97239ad7f03bd3a3b335bd00b8f4230d0343e8b57 -> 43f12217ea082e3b4cf6fc8286dd3e5627a8b75e18f8823158cb1f87398ce810
+~ ___MTLoggingCrownFilterManager_block_invoke : sha256 9fbf068d104d6199d886378baea03ce1272da71afbf920c37ae7b3b3a701a73a -> 6e819f1b200ed6d767b3cad521f477a21363df3a24892bc68279afb060728341
+~ _MTLoggingRemoteFilterManager : sha256 1f05e8218dec23abbd2e2210581df973b7dc754166cfacbf496edbc688966d8e -> 1c5d96410d9b685f1e4729f9614a7f3d9ddf7fe7bcca682d15bae458d784444d
+~ ___MTLoggingRemoteFilterManager_block_invoke : sha256 761938657349782bcc823d380815428b6d63845ab5b24ba43abaae28ba396d58 -> 0addfb3ec5c8d52dd1846e302175cc2a012cdfc3847b613a6fc71cae9da7924b
+~ _MTLoggingAnalyticsFilterManager : sha256 72cc12eab158008a6f12f36d0e3277874672cfce8b908d415be54d07361c6d31 -> 44429995c46d970326819ff5a4ff9795542b7b8aa813be54819a77e859823ea8
+~ ___MTLoggingAnalyticsFilterManager_block_invoke : sha256 913ddfdcf5504dbad3d697ba5b2914791760e88260c79aaeca65e1e1dd869377 -> 98a01399b0bf627ec3b079db00dba159e8262938b69c886a6dca59b4370d2455
+~ __Z41MTLoggingContinuousRecordingFilterManagerv : sha256 10932ade7f0ac9d751dc6c0cdb31b7a0a4fd38e67525cca25b2564e105f2847e -> ba981d2774dfc75db644afbb36b20daa1e600f60b9a116377de44f9e819a4559
+~ ____Z41MTLoggingContinuousRecordingFilterManagerv_block_invoke : sha256 79640f97aa7e9073fa9c06674bd9330bf3256e922f975e2370772a55555cb034 -> 563667d1a4d3d2600c27a69f3216648be270619129ca8b44e3ab0061a31d0d61
+~ -[LabPepperEntry initWithLPDataSource:data:] : sha256 d667d0dbcb4dd6f3ff1fb9194f30569f9291958acdf8cbccdc46139c2955717c -> 926ee07f24de9be10f4f960887ae017eba86354c9ca052647725092fcaa60e2b
+~ -[LabPepperEntry data] : sha256 8d5bec6e6bbcf1c38b2072b1e1f4d234207222a8712621269e93190c281cdc1c -> 5e5a87b806d2f058553dd68489290f9b835c4ff41c448efdbebeff88c489d877
+~ -[LabPepperEntry .cxx_destruct] : sha256 ccbfbb472f364c0f7b79918f07f5edcc99794e40ee7c2389ea8009f799c8c865 -> 6bfbe436d269dc9ac4010da132d6805b8b48c1327849cf88b812760fa0c5f1b0
+~ -[LabPepperFile initWithLabPepperURL:] : sha256 07e08ea9593ed7a1b639140662369b3a5d45a612047a272bf736aacf093cbb01 -> fb28a91f94c378c03c5996a04fbb9458f249621932bd62792fd0ae9bd015f871
+~ -[LabPepperFile resetOffset] : sha256 e32572145ce866a8d37b8ffc1b38ccdfe837f689bf92fbc99c299a370c043732 -> 13b28ad97a87ec11c123d24683e725451ff010b432984c2d2e65deff2788bf67
+~ -[LabPepperFile nextEntry] : sha256 994cd08411d445bd1b39a8aff3fbc5dadcc1e19aec23b6d0c9563a42eae7a2bf -> 1e335de2af04c48fda9787a7bd9d32dc44f3b494643366d60a5ee6495c853593
+~ -[LabPepperFile log] : sha256 3c317aed0c9d0d499457d0a33513330d74d8e23d98780868497df83727cbad8a -> 9455090524e4c99ee8c078b78a96ce8aa5227455102e2614ecc2182b2594dc67
+~ -[LabPepperFile url] : sha256 cbcc42464531cc4766e0a5e91c73de88f23ac0428ed35599983b839aaa6cd5f5 -> 2c16cbd2f10f1d2604f08cf7a2ed906880c082c2656f30cbbe96a875e534d9ac
+~ -[LabPepperFile .cxx_destruct] : sha256 8ef91465157cf3c2d8c45a073ab59f1c7356340531ae829c249a2bf7c51e3633 -> e2e0d94c1e1c1177cbfbd6d7abc032fbbf0f6943f0644d9ce25e05c597931e5b
+~ _OUTLINED_FUNCTION_1 : sha256 e6dc36f5cb37e6b18857999e915161ead538ed57ec7df734dad9c6c2e4bea922 -> 7f34ad40bbfbcc750e62ba5c20e108cb83c4a8c7e281c13fbe84fdbe612fc974
+~ -[ServiceDelegate listener:shouldAcceptNewConnection:] : sha256 29fc33bb671feddd1037cf277f5c51cfafe705ad3b32dfbff526aae3420d8142 -> 63ad22705fcb5985f2a3abae3ababf2e592afe9050783752e3c26198397e90be
+~ _main : sha256 aa71d5d311e82f724ab482ae9a7099b507cd58094d461c1c1030750bd411e570 -> f639346a734adafe9717a6e57f52e4c1cf9a93a2473765ca715c1c85b26f645a
+~ -[SessionFilterRecordingUpdater createDirectoryAtURL:withReply:] : sha256 e184129aaddfe6a67793f4cf23a84d1f2b764130abec8d97b30c96ab40522680 -> 2baac12628c735ef123dfb273805a8e887d7854415dea179cb5897ac83aa1e1e
+~ -[SessionFilterRecordingUpdater filesSortedByCreationDateInDirectory:withPathExtension:withReply:] : 708 -> 704
+~ ___98-[SessionFilterRecordingUpdater filesSortedByCreationDateInDirectory:withPathExtension:withReply:]_block_invoke : sha256 0c72fa8edde883fe7d2e4b56c4bfe04bc2368390433e6b31c59232108a74ea56 -> 2edb5e4857043b3861395b8312e9edba80ca66d9da81954f5d1ef86d61646b72
+~ -[SessionFilterRecordingUpdater deleteItemAtURL:withReply:] : sha256 7f02ccf2ef173dd4edebb1adf0b45242ac428b2703811c6f11e3c8274a706fa1 -> 63df891a4c0ca7d9f1b0c19c5af8bec473d7dc9568b551e97bce7680239a1347
+~ -[SessionFilterRecordingUpdater createFileAtURL:withReply:] : sha256 c357be38a910dd425ced37dddd388e573e8d5a19217b3e5d12a0e9ef08ea687f -> fb6bcf5843bc1bc1718c8f9646f9be8686a3ab1d2906c4790613c14f8b3e9615
+~ -[SessionFilterRecordingUpdater closeFileWithFileHandle:withReply:] : sha256 454c82cfbb837d4558cff9e54954e7f21d54a2166bb6a95c0fe467d547df4aaf -> 5e82d0b5aaef4fc34e64c94f2fab19bbd64d3a239dfdb0d0cff1c95a87e68c05
+~ -[SessionFilterRecordingUpdater appendData:toFileHandle:withReply:] : sha256 8ae3ec367e6ae4e5b7f72df4ad008d6eb20fe13840719d8afd6cc7d299848a4f -> 68c065034a004999bd34cf406903b6dec94c5ab8a8760441f0582e5e144b67d9
+~ -[SessionFilterRecordingUpdater fileExistsAtURL:isDirectory:withReply:] : sha256 44ba354c6f2cc83eb78018d94274a39e2ac3934d227a2ff513523a7cdb1f6824 -> fe1d1a5f65dfdb8bd9c3537e000e1856b696acdc5b9c6e38b161c5fcb70f234b
+~ -[LabPepperFile initWithLabPepperURL:].cold.1 : sha256 f65ba018b7a991dd8e69d719e994e520f2809061058b401bdec14f2a355c0086 -> ea5c9a80ed6949af8f6fa86c17f370b8b774e7d2034201611328c1b8e46c0e05
+~ -[LabPepperFile nextEntry].cold.1 : sha256 a7c9878396c87ec0e084f65317e1ef35bceddb2ab0ec776e56764b0d53aad334 -> fc64bc7b30654375f584ae64ecad15239ae0b60b298aa2abb66857818900800b
+~ -[LabPepperFile nextEntry].cold.2 : sha256 45b56e847ec12e23447476590a1679aac0831b896a3f45168e43d06c6be5b3af -> 016d518a81e0233d50ff6fdbf54ff0f43cbc12ba5014e052476c682cdd5a3cc3
+
+```

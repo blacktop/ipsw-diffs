@@ -1,0 +1,86 @@
+## MediaAnalysisGeneration
+
+> `/System/Library/PrivateFrameworks/MediaAnalysisGeneration.framework/MediaAnalysisGeneration`
+
+```diff
+
+-435.60.2.11.2
+-  __TEXT.__text: 0xe5c sha256:29d0f23af54f59ddd98987624ff79b8257df324d273fd443c2c4c1a60b01d0a1
+-  __TEXT.__objc_methlist: 0xb8 sha256:160eaca21c8a17b387c796617edda7d8ec2783cc4887ff77b1ae54054c8de9ac
++435.65.2.0.0
++  __TEXT.__text: 0xe5c sha256:5cf64f1e2e9afaf617ccfbfc0e0d12aeccd4aee68544fbab50f9b8216a0ffd6b
++  __TEXT.__objc_methlist: 0xb8 sha256:d4a133dc49b863a3256977b4263c32ed124f258ab375f85bf8e3b58fc1accdc3
+   __TEXT.__const: 0x60 sha256:b3ea5fdac045cd040aba4eb6cc9d8f9467f24d74c2c9166c8b417a2db19982d5
+   __TEXT.__gcc_except_tab: 0x1c sha256:1010b522743d11cfa7980b765ee99b115a35eecf87a09c4561e4781b16178279
+   __TEXT.__cstring: 0xd9 sha256:9edbb9fdd85e2aedeb2b42307025159aafce807399c84fd2f9447444dfc47a0d
+   __TEXT.__oslogstring: 0x193 sha256:9bf78940a9e6e17178bdfc09b8733332039c7ab87d3c7f89aea729578a62230e
+-  __TEXT.__unwind_info: 0xd0 sha256:56c466e7451656a37835606de635366167f61467966ec24584fa22db09d1e28e
++  __TEXT.__unwind_info: 0xd0 sha256:14c447162ec9c2cf341cf0fe084a8ec1f0ec61cb98954862e4bf8a43d88ded19
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xe8 sha256:095571b44419326497dfe334bc38be1dc77399aa82255b9a91b6e1b883eb5081
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:f5e6a6c74e2106510a20f31c99cd8f65cc2c029cf341c5419d848533ace1e6f0
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:f3ff2dfd591d3abe9bb3b2e6ab7723c8484d17ad3a2817caffdaff647705c08a
++  __DATA_CONST.__const: 0xe8 sha256:4090d61a8dd427e7ed91db7d8c809be8f7c6b882f703c43901b66c8c1376969b
++  __DATA_CONST.__objc_classlist: 0x10 sha256:3d18d3ee05634e12c3ca942d43833924227b9a75f57f59625358303a26ff07be
++  __DATA_CONST.__objc_protolist: 0x10 sha256:f8f50b5b7f51125f81e376f06d1a513f5f82b4bd1235bd28e523dc9efae7fe35
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xd0 sha256:c140e71ba65dffe7d214a716814ce88ca0c7e1a74827eb8730ad465273e6f1fb
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:ec96d14598c3a84fc56b3e6c1628513535357ffe927bfcc783f9c8229473c593
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:f5e6a6c74e2106510a20f31c99cd8f65cc2c029cf341c5419d848533ace1e6f0
+-  __DATA_CONST.__got: 0x60 sha256:7b3590f176b81d189bcbec33aa76d5d718136b897c49d8576112c066059c50fd
+-  __AUTH_CONST.__const: 0x20 sha256:d0fb47f3cbc0288f50d30ae45a1a4901e4c0989edce8af7c17ff90da0842b230
+-  __AUTH_CONST.__cfstring: 0x60 sha256:2c8fb30931e50a270dbb8dfcaebfb02bc3ce5820d98d631ce1f2e524e6068366
+-  __AUTH_CONST.__objc_const: 0x1d0 sha256:fd3a7d8675d15b377445421632c7e7e222287fb4ec3a0e63cac41a94d397fd41
++  __DATA_CONST.__objc_selrefs: 0xd0 sha256:bead4bade2ff375b561a2fda58a64ea5635cb2baaa76dd8bc346006e6155cca7
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:f55c78e8bc8bccbe6b8eb31b9b6cfd4d8a9eb5f4235a6289f15472d42f7f3a63
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:3d18d3ee05634e12c3ca942d43833924227b9a75f57f59625358303a26ff07be
++  __DATA_CONST.__got: 0x60 sha256:9776d54f5cc0f53752978e468bfa2ebc3ac517e867996348384d6fa65aa76122
++  __AUTH_CONST.__const: 0x20 sha256:5d077dc692e5762a2c5567d1742ce84c9b240ff584fc71b6e00b97d73948e904
++  __AUTH_CONST.__cfstring: 0x60 sha256:fc6e80d6958494eb826f1e40a015f9d6dd24da3bbb356ba4b93e56c858b38f34
++  __AUTH_CONST.__objc_const: 0x1d0 sha256:8133b9c854cf0c8088322071c82a22b4860fa8155e8c8a82161c3820f8d84cec
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0xc sha256:86503461b3aee6c774ce2fc9188d7f2f82f10ba5003ce5ffe0d6973101cb7527
+-  __DATA.__data: 0xc0 sha256:55935f6860d54f0d6bf9694eba162ee3bc4afb7bf5835a5b1cf74a1b1eb17ae3
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:6cc8a1417a5377f7423a27c53fa4d185ba7748f47216339474b1651b46a9259a
++  __DATA.__data: 0xc0 sha256:70dbacb4bca35a74a9adf9bf28d576a7431998e6c50c475a57b57305a6c5f644
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:22b43bcd40d4a87f514f2b0f8e3c84d2a8d606549bb4a1946a180de5c978f6d8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 36130F2E-E8F5-3DB3-940F-85313CFEC4C6
++  UUID: B6859E9B-0A7B-3B32-88CF-BAB7CA76B294
+   Functions: 26
+   Symbols:   178
+   CStrings:  16
+Functions:
+~ -[MADGenerationServiceProxy initWithService:] : sha256 bfb8934509f5515c9b70cd63072d492e7373eeb5e623f648493b771e8244abe3 -> 5a9a5c2ce9f3d54183814cff434c280f1c1e2a08041eb161f422c82dc281b671
+~ -[MADGenerationServiceProxy .cxx_destruct] : sha256 700fcd0a301d10f12cc0ed63b9c6f7c5471632080a5467dce6aa73805dcd3bac -> f27746db4a9d2d60c3243715f21ecd2a453ea7495f72eac2c154f8b03a4aecaa
+~ -[MADGenerationServiceInternal init] : sha256 8f3f08382bc0ee3458efd5075798497c9c05abd440ae2cdb9142d09dc3b6e211 -> 6f97827e8ae569bd98748c38520b3381197884f133d027b74f78590b2a99ba3c
+~ +[MADGenerationServiceInternal service] : sha256 60e6fbdea5f9dd09ccbb3196df0d622399f46b5f7833a427d8024b4bb0730289 -> 82a3bca01e14ffc4f7df7b80081ec33d3621b66718e5cd8dfb1230d9fde037c1
+~ -[MADGenerationServiceInternal connection] : sha256 ed4d23e79003b19559cacd12df1ee53376b4b272755964474197b2f7c7f10319 -> f8da853b367cf7e49b033c61a3bef02e6ecc0c293e8d55eccc4a255c419423b2
+~ ___Block_byref_object_dispose_ : sha256 6bcea029dd283622663ee3865604679abc01f28985aebf8eb7cde4b7a31dc9a4 -> b17c5c6c239278c5e21264542af561de652cdfe3226669ebf7fb9598c307cbd2
+~ ___42-[MADGenerationServiceInternal connection]_block_invoke : sha256 13ede366b5bdb3939a86ed657f1742016a271389a8ec638fae7101b46b9085db -> 3568f51195c49ca74643e54cd4d4fe1b7b14cb6f2fbc539ab416d4bcfbe90a4c
+~ ___42-[MADGenerationServiceInternal connection]_block_invoke_2 : sha256 6ef3be15fdf8437405a56826534c0e7536a7e30a07030d478c4079a3cf95d972 -> 8d6b5e5c9333219381c4dbad37e2e6f98971d9c53963360188a406fa65ac3395
+~ ___42-[MADGenerationServiceInternal connection]_block_invoke.20 : sha256 dae23c9a7bd51a5ee396ffb16ea4a0fff31efc8bd529e5bb439fb16f31215f09 -> 5d89df84407889add6e951e5f86e3f4ffc1596dab131375503e29496a47e4c83
+~ ___42-[MADGenerationServiceInternal connection]_block_invoke.21 : sha256 626820159c3fa97036b8c3510a0e769d95fd453aacc8d8786089a28d4e406958 -> e165413dc9be7ba1e56dba8894791766ee17767c99e7366fec4129dd323b07f1
+~ -[MADGenerationServiceInternal requestAlchemistProcessingForURL:options:completionHandler:] : sha256 63a36e65686a51b9773b825a76df471aa927ce2578f4404b0e8cfda1ae011113 -> 1d3d437c583f179969db14f616e4bffa8fc3ef32e0e91995be743b50d81a0948
+~ ___91-[MADGenerationServiceInternal requestAlchemistProcessingForURL:options:completionHandler:]_block_invoke : sha256 15dc0b3db3297988c1c19d6125202d766c62d148f1c772d43af47b65a29f6f0f -> 90fc6b8804ab564e70f85363e1e77f9068cd0533c604c12db9bc334ecba7b613
+~ ___91-[MADGenerationServiceInternal requestAlchemistProcessingForURL:options:completionHandler:]_block_invoke.23 : sha256 220a4a9bd1d3a909d784ccf05c13f649c46289ca79e08d30adf3c00ad3e64227 -> 37284cf2da509d067b42b7b27e28c393a3fa63a9d96b2cd071cb834f9b5af4ab
+~ -[MADGenerationServiceInternal requestAlchemistProcessingForPixelBuffer:options:completionHandler:] : sha256 bb8b0cf24f7ff43aa5e1740b32e7beffa8d8f441952d04639a1906da7d34d8d9 -> 06a7e8d6df7fd3a7ae7d561a836512c9f622c25af13e3795f70bc7dac522f10e
+~ ___99-[MADGenerationServiceInternal requestAlchemistProcessingForPixelBuffer:options:completionHandler:]_block_invoke : sha256 a2a9a70f9d22a395fc96a90d9c99f67612e3f0b3c6a991f9c44b439e6b755161 -> 1412b6c372f79089402f581438ba2c8f4a37fbeccfa939aebba401a80e9aed27
+~ ___99-[MADGenerationServiceInternal requestAlchemistProcessingForPixelBuffer:options:completionHandler:]_block_invoke.30 : sha256 89607652f60010215dac0a78d965012b0c56560f318a8cffda889d624a031f22 -> abe4b30e35d77f6997c67f78c599c40a046393a8ec2075bcf14e39c753155e6e
+~ -[MADGenerationServiceInternal sandboxExtensionForURL:error:] : sha256 6c255a320c0b12b0decc02922f805cf6ae33eb5af91f60240d9e46e1fa913737 -> 46a4b21c8a74a2d5d71a72db76134d616b82dbb7155b4599569ad0711f7a0fcf
+~ -[MADGenerationServiceInternal .cxx_destruct] : sha256 5df3f8f17b157d7af11ef3acad26548902bdf6f49acca86346f46b83cf0d1457 -> e659df6367477854593177c52d243dac1da22bb5acc77e5051a84f85b0268ba9
+~ _OUTLINED_FUNCTION_0 : sha256 1441e3c591b17592a6e8ef90bfd5edf005c5addab71018a5712a7333e3cb3157 -> 134f62f5bc5b4ad0357710ad17fd16d6f73a542ae0798675bdbe5c5690d4d7d2
+~ _OUTLINED_FUNCTION_1 : sha256 350f715dadd83d83e623d00c2db70fbf95d6128832a8b747494935b25ebbd357 -> d932fa483698118032c9affccb627226917d0079c53a6a7eb73d1ca97bb379ae
+~ ___42-[MADGenerationServiceInternal connection]_block_invoke_2.cold.1 : sha256 4f79ac3d6f79568a297398500e3282b2e6b09af834b875e6f62400595f9ceefd -> 8f6d02abd6017ca20038b106d4bc866cf6ca25ed605e9502a3005b723f3d57ea
+~ -[MADGenerationServiceInternal requestAlchemistProcessingForURL:options:completionHandler:].cold.1 : sha256 86a5a5f482aeafcd7ab88196231ae5e07b30b7319ef7772359c5d405c65a994d -> f36a017fb6ce5586ba7da81bd5b27c5d588338ff628b49eb8be51e2b5ab281b6
+
+```

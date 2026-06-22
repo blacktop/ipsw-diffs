@@ -1,0 +1,75 @@
+## SIMSetupUIService
+
+> `/System/Library/AccessibilityBundles/SIMSetupUIService.axbundle/SIMSetupUIService`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x5e4 sha256:3049ec43624e6115faf2f6e23dca2e4fc00700d23bd2b2a93085404d7cf9f9b9
+-  __TEXT.__objc_methlist: 0xdc sha256:2c9964365d4b7716275ec60a50d01b79bf325c938fcf0102d1318cadb9e4d5e3
++3039.1.0.0.0
++  __TEXT.__text: 0x5e4 sha256:f59effd40f5db492a32d0934ac8a3f85c3d7bf00ae7373d6a3f0cbc7306828c2
++  __TEXT.__objc_methlist: 0xdc sha256:51f4e96045644e2b6692261a8129e4a21636bf738e7d5f199747ae517bb603f2
+   __TEXT.__cstring: 0x16b sha256:8b248338d399af7ef5ee01b9b0f228c07a608eeb843a58658e36bc53170c0010
+   __TEXT.__unwind_info: 0x90 sha256:4f46cf60eac83b7c2e765ccee4f3a028df1e9a3b2719e598440a230d6f17fc24
+   __TEXT.__objc_stubs: 0x0
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x40 sha256:dc262af265a20f75baf29f63ed04e6391a27e2a43145b79cc9b33f206a592aa6
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:558ffd8e36342ad74514beb9c198c6d5b4535f58d363404ac2fa235a48e3f2e5
++  __DATA_CONST.__const: 0x40 sha256:d248346423e23b56213c7ea42cb93121485cc648e3fcf26d7f5e79b976534aa1
++  __DATA_CONST.__objc_classlist: 0x28 sha256:d3bfb615ebe70b1ffd3b1524b2f5b1e707a8ff4d6e8c9866bd730ffaf9ed40fd
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xc0 sha256:b827f3e7810cdf99b8805ec4651d3ea2c394a63357d502dc1e1d56af2c4580b8
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:ec09d24cf342fc54882a162cd4ba3217b31e76d826ec30787197a44a853ccb5e
+-  __DATA_CONST.__got: 0x30 sha256:62102da438b5f6d363fb1371b39fd37a97febe6373da065dd433798991ac5825
+-  __AUTH_CONST.__const: 0x60 sha256:9a3a8ca0f695f588c605e4f8647d12a49847abf73829cafa1bab704450a92085
+-  __AUTH_CONST.__cfstring: 0x1c0 sha256:a020ee87f2edff1cd3915f634b83e06598b0f5c03eb00bf81a495f339cfa5311
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:0dc704e2fff5d3f9218d5b4ffb8b0d288d20b34eacbb62f32d69400837212585
++  __DATA_CONST.__objc_selrefs: 0xc0 sha256:0dd0578c4f2a5063fd1c3d9bba2a57b87bd6a1944c2656a20bf5d49863445f58
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:08608a7c15daa945f6f2af9e3d0e27ba29d9f7739c7af7718837b9b956c63ba3
++  __DATA_CONST.__got: 0x30 sha256:9152e017c15105702c769bf1b2d52671a096a5c01b331296d5e418112999c505
++  __AUTH_CONST.__const: 0x60 sha256:20f49d262c9f1832389e951e313ce513feefdde641cc9f476a0b6462418eb64d
++  __AUTH_CONST.__cfstring: 0x1c0 sha256:0c02b26cb5cec7db88d62a21ab43fd65300f2380fb297c2352826b349bce7077
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:6f10fe4632bdf35db65a407488dacfb18c761a2ae4acdf8fa1ea445ad64ae575
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x190 sha256:d3e2d9c9712018f333a7ebb0adf6c191b8f082509fb4ae515e7f6e5cb71e6840
++  __AUTH.__objc_data: 0x190 sha256:c379f795caa241f4278ea5101e73389f2d44cf003b45bee87d11991e267c849b
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 03FD956A-D361-30BF-A166-7EC512421B2A
++  UUID: 01D43668-C21D-372F-905D-0F6FC4C85707
+   Functions: 18
+   Symbols:   113
+   CStrings:  34
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ +[AXSIMSetupUIServiceGlue accessibilityInitializeBundle] : sha256 3969347c0536cded06e51201d4fcdbd174ae505491624dd7ce13cecd318dc4f7 -> 158f50de5cdc824f19f1eb16ff66119f85d9481d425a6fe42e3df328affa9256
+~ ___56+[AXSIMSetupUIServiceGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 9e9b38da9a698f7d5e0e158b6b43dd0c52adc119a04d0e3d23d18d647065d5f8 -> ba280d490914651f565d3eebd751ffa9216065dc15d011a94284a99ac72b7c95
+~ ___56+[AXSIMSetupUIServiceGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 5e3746c0095d2e33d4822d0e353e48f3d125136f58761f26eb5e41bc9cb00c67 -> 6789622d4edd2061a317d228dcdb59a38ade13c19eabbbb22a67c7ed29f275ef
+~ _accessibilityLocalizedString : sha256 147d1b3ca7ecde44033b2929673d7db0058dac7e7105f6f7e8a273db96a4991f -> c0c4dcf67cc6cb4ff2cf353d56d03e7a33a6e309f65c668bdec993830b358d64
+~ +[TSSIMUnlockDetailViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 18b3c4d0020ec7355d7dd877c940ba61695a9cba91bfd483d58a8f238d431823 -> 73b631881176fd139ef983be558f7d9fa8ef0a0fab90fab8362e9b4af974b62e
+~ +[TSSIMUnlockDetailViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 e0e4d7ad40fffb3f09066d8f5469ff208eba4f2241ae0a7c1a77ef24d5f5375e -> 8c2e0ae29ad2e96dd4b08bf6267e5e920fe1485e09a3d3362b1d7a93bd9606ed
+~ +[TSSIMUnlockDetailViewAccessibility _accessibilityPerformValidations:] : sha256 cbc2d38a471596b110d48ccc499e4d541195e6395b8e2a38c844492822ae9d85 -> 2515c59e08985905ab56cdea39bca5c7df332da943d7d3ab03305e2f2bd52e3f
+~ -[TSSIMUnlockDetailViewAccessibility _accessibilityLoadAccessibilityInformation] : sha256 4e15e31aea0f4b19ec26adb989567786261f66c5e5d3b632c763b3bb5b50c2a2 -> 8cb98a9c3fcca7670d40df4be900730d0a5b6a1317dccdc9bc57aaddd2ffb5ad
+~ -[TSSIMUnlockDetailViewAccessibility initWithActionType:actionSubtype:] : sha256 fa229e01ccb8848eff4657893dd1926f717b79d8bfa7d8cc077bc61a41bf3fa4 -> 83957a911bddc80938291df95312eb9068e3a94049d4da80c17f820c977a14d7
+~ +[TSSIMUnlockEntryViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 0f5bcf12fc898b6d20af813062b7e5f0fb987a29d99053f9d4d14ca6c010d1d3 -> f8e0a1cae2fa1744dde61ac0898c3dfd5dfcfc2c5dfc3f4df171f44e2915ce52
+~ +[TSSIMUnlockEntryViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 38656408d4771442a1f86b153e372195dd8e1e2693b735846211bb55dd8993df -> 0bbfe9b7e47ff65d226f26dbb10aca4e9fbc6fd4d265fcdb713917465d47c478
+~ +[TSSIMUnlockEntryViewAccessibility _accessibilityPerformValidations:] : sha256 1c182ad50024c1a5d8df5219bbf9aea44dc66309de721a4a3532e6ff9e3d0c28 -> 2f7231ccd2bc728b896638cb5d579b413806da0bed00faf5e937426478f70fde
+~ -[TSSIMUnlockEntryViewAccessibility accessibilityLabel] : sha256 ba402d631bc429c650ddf820f08d6d8073d72e48966779408fa19e5d2fd9453e -> bb03b542b3183f643c08173bc9dd95bc49e3e99845a4ad77ff571f177917d72c
+~ -[TSSIMUnlockEntryViewAccessibility _accessibilityLoadAccessibilityInformation] : sha256 dc2816ed3bdfd4e9980391d59b1a27aafb2bc039c469ad752b06ef350b7434b3 -> 8f5ce17878440947a4fb3461ced5f0c1f6a148bcc6ff4412dcd8116f9b7bc2f1
+~ -[TSSIMUnlockEntryViewAccessibility initWithActionType:actionSubtype:] : sha256 d3e0bb1b5a583a52e1fccfb57fd194cd9591d0c2d613f4bccc42e1fe5b21c03a -> 47d0dc62af8ac1a8009ed152e700fff7d0b1790d9dabeb66e5263f947876e307
+~ -[TSSIMUnlockEntryViewAccessibility _configureDetailLabelText] : sha256 a64540572cb9bd717b157df08e9860b42dbd86f7523353dea3ee428b32b9af43 -> cfc5cd23010b2658524774c1add0632819ede6156dd29be0d7eb28d519cdf5d7
+
+```

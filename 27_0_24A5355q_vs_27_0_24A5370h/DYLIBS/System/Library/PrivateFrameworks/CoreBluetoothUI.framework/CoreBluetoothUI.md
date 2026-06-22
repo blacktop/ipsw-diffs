@@ -1,0 +1,110 @@
+## CoreBluetoothUI
+
+> `/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/CoreBluetoothUI`
+
+```diff
+
+-2700.37.0.0.0
+-  __TEXT.__text: 0x1d34 sha256:9822533e0f90963fae1025bca2dcad51995ccd41067d973d96711e56b120bf01
+-  __TEXT.__objc_methlist: 0x2a8 sha256:b84cefe94ac5c25d69db1bf5c521cc8d39900a586f40e6cba138fce1f73031ed
++2700.41.1.1.0
++  __TEXT.__text: 0x1d24 sha256:5eeff4d492759b5a787c42790ede32906f2a25b631c1e67d0530753dd8e33d49
++  __TEXT.__objc_methlist: 0x2a8 sha256:cd45626f72763eb49feb378b57cfe8e61fc7612a6c816272e44bffe1fd1e44f5
+   __TEXT.__const: 0x50 sha256:7a09081d9cd62d787fb71ab83a43d2abbb454f39f1ecac789b6d80585117a3a0
+   __TEXT.__cstring: 0x249 sha256:25b5937b86471051fdc8f5e679aa64c703a6728a71567912ca94b6533edfd0e8
+   __TEXT.__gcc_except_tab: 0x1c sha256:97784cf7138675371cf40abed593c661d024cfc06c0a5b1315aa4ff4001478df
+   __TEXT.__oslogstring: 0x13a sha256:846e6326c8418cebf205a1aa7eeb203460b15748e7062089dcf3ae1f1c99d046
+-  __TEXT.__unwind_info: 0x100 sha256:f3a607d4828192c13e7d7a0ce2105ac4b36434407274612ce24eb6b88d323f2f
++  __TEXT.__unwind_info: 0x100 sha256:4c6217e5d35e8dea23d6329f592b181aaec33259e81b50d013a5e0d12c60399d
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x50 sha256:03b817dcd0804cbe9b7de04f556ed3a08ad5f8df544596e17dd679663b382e0b
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:51463227feca4752977e719d5e1e8888ba03553baa8d5a1d0910b7e0971a375e
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:acc94789b89e4b46919811537ae397e02a5be59dd83caf3848091a63f071fda3
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:dfd72c97f8eced8b96502999f23cd76862639b66f06cba32bdfc8bf79be12f35
++  __DATA_CONST.__const: 0x50 sha256:71f03f4291584a2eccfdf9f4b4133e7d24be11d6e11ead82ed8f8d96707b4b52
++  __DATA_CONST.__objc_classlist: 0x20 sha256:a06893f92d1528585127f77f841589ce6ceee252eda13263a459e9512b3be3ff
++  __DATA_CONST.__objc_catlist: 0x8 sha256:67fa50e502e93026661a3624303871e7a6311a9ccbbac4d032ea5bd0d2337bc2
++  __DATA_CONST.__objc_protolist: 0x10 sha256:539fa54f58ac814c00ffcaabe0fceed56110d06277d219b499f7e331c2339e05
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2f0 sha256:c83f5b11dc6e3906e29e0e98f7da6d9cd69ade0b0961b96e23f146c83298bad5
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:0a64fa221a431d35f7d402f788a5c622386f7c4795212d14bd8505f9a4f35f76
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:d522417c16e16e4d0400c3a37c60d5fef0270f59f35aa5f8156649c183016da2
+-  __DATA_CONST.__got: 0x98 sha256:1d1f05c880ff43d3e6146b66054a0671dba917f95f1ad105ccb5159530bd4811
+-  __AUTH_CONST.__cfstring: 0x300 sha256:f7cc26c381bbc1e03cb65aad07d17923d7881ba017750c2b9a416bf5fca1dc28
+-  __AUTH_CONST.__objc_const: 0x4d8 sha256:45ce69c91716c58f8a93a424691b1edf969eab0678ea33df17042aa1308bd6d2
++  __DATA_CONST.__objc_selrefs: 0x2f0 sha256:fa20c6d80170c5e721971327fb363fdf4b90679fc6179da3463b96532a1c3611
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:00c5ef5230bbde52d756a82a3a6e7c9d910c2698a9f0f693311148e8962c71c3
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:d2828d16ca681e939ba33896b9caa13617713be56fa5147b60178ee8197bbadd
++  __DATA_CONST.__got: 0x98 sha256:a037e7a60f3f1dee6c763bab08e0beca51a3069e3b15a0b863271d02aef2a599
++  __AUTH_CONST.__cfstring: 0x300 sha256:364779244f0e1af788aef2c1265ba63ff918017f49d33f3c3eaa8a6036defdde
++  __AUTH_CONST.__objc_const: 0x4d8 sha256:c51c74470d698cafffc006b0534695b93fe5645da9a5e6711b461a4aa5b8e84a
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x140 sha256:cea9fbf3c6981839c061c135db0ca5ba02ebd7ccdc45b5094d9cf55cfd027c01
++  __AUTH.__objc_data: 0x140 sha256:cb924e7a9cf762ef31ff71d4d7f7e4e15a1118a4f57e236cffb324a6ea6c963b
+   __DATA.__objc_ivar: 0x28 sha256:be35426f7520e16ecf2cc989953d5b05c87188175a2d8a77715ed8ea0ec81a10
+-  __DATA.__data: 0xc0 sha256:a4c90e2777e31689a719d64c4178826e12ace6126d242315a26fb3b267adfc17
++  __DATA.__data: 0xc0 sha256:397ef093079d92aa9aeca87e1ea430fa8f48a3feec9a8b667e1b87e772c02896
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+
+   - /System/Library/PrivateFrameworks/MobileBluetooth.framework/MobileBluetooth
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3E7AABFA-B235-3674-9C5D-F59BFEF1BC55
++  UUID: D4A360CB-A047-3C8F-A44B-50ACF5F7AB4A
+   Functions: 51
+   Symbols:   319
+   CStrings:  57
+Functions:
+~ _CBUILogInit : sha256 d52b0847e46c5c5ac804d1faa971e393d8d285fc23b7a6129144d336d86578c0 -> 5ea78409695a1801d19bd4b0c4da8d78cede025b3023bd1d5831efa5b0ff1807
+~ +[BTDevicePickerRemoteViewController serviceViewControllerInterface] : sha256 b1e29e3b58f00d910f14288a1d19570746f77ac933bef0690ef95159ae3cb0b5 -> 7daa7bfbf66df182d94cd7b4680b835fdc92432eba1c2fba9a203a093d45a03b
+~ +[BTDevicePickerRemoteViewController exportedInterface] : sha256 408a0183bdd6b3fef47683764b87c7b8068c31b3edd5464961f2d963f42024b6 -> 098e43a971ab88fa8e38a31fe86a5e7b847d45a1e76f38c43fa35febf322b259
+~ -[BTDevicePickerRemoteViewController didDismissWithResult:deviceAddress:] : sha256 9b24743c4b09c7a2b26cf79c349677b4d8e75173984ea6fae11b6ef6602b8daf -> 0999fd93acde9208aa345ea28a60bfecc46281d152dfbe63599d498e58c3e4f5
+~ -[BTDevicePickerRemoteViewController discoveredDevice:deviceAddress:] : sha256 5599ca4b32aa9ff101db843e024812b893c536f84c03916bec46a0c0a2dd84e9 -> d1757be5adc389a35eb290f2a07aeee54255bfd4ad23375049afc45addec3885
+~ -[BTDevicePickerRemoteViewController _delegate] : sha256 a9f0e899b2ee3951b9f0d8a964c63ef374e75181a86c2c7bf5b8f6ad6cbf12ed -> 7345acdcfe16c6035d6cb21d038d0b77dadc2a0a4c6ac585b3245340fa5078c0
+~ -[BTDevicePickerRemoteViewController set_delegate:] : sha256 96a3cfaed5d25fa282f58fe9a97fec857d546c7f1852c499b8342c4a606380e5 -> 170ef49a0b7a3caeb0999a3478b8a7c98f65b45b8c7d2e5967c33efd62c80526
+~ -[BTDevicePickerRemoteViewController .cxx_destruct] : sha256 e8f2247aaae5fec93b628c562c27cc0bf08fdad813bd51997189fc0684479125 -> 194dca604d25b7ea3d7632f524b5f3556fcc6156ad56f73a9e17f7a68bf7d511
+~ -[BTDevicePicker initWithTitle:service:discoveryNameFilter:] : sha256 c54d32e617b0ac5679d64d6d1a73b3890fe0815c356f9b3eacad52406bed9cc2 -> 914f687652b60b46c0e3a90dc4be1c6afdaff1fc485212c6b9d45ad467fa7e54
+~ -[BTDevicePicker dealloc] : sha256 baf270f4b219bf0ac5ceae7f65ea94820510c11339212ee12a1a9ba9fd92e503 -> 7a1cceab4c9d02041eecb95a2137ca83c8badaee40d1845e3794ab65d733218a
+~ -[BTDevicePicker applicationWillResignActive:] : sha256 6fb51533de0a7c5811e2d2424f9403863945991d95530296e80b72e0af0f71e7 -> de893d8d6cd93728bd3919ded2873783efcd4d15d585777a94e1e5120c8dcbe2
+~ -[BTDevicePicker show] : sha256 e337d41f6de9cf347e35dbff7d39c4c37eff1eaf58b1de4aa496adbfa8fdfd8e -> 61c2dd9b0bef528a71c356bae5da0cf94595907ed6939499e9ff512838d15b8c
+~ ___22-[BTDevicePicker show]_block_invoke : sha256 c79f4be16bc50e3fed0dcb128fbdbd01a310ca9fd4018a995e353f318bdbd6f0 -> 43df9608f952c6300c689aed697de3c6489998afc029c0962f07788225c851ff
+~ -[BTDevicePicker createAlertWindowForRootViewController:] : 704 -> 700
+~ -[BTDevicePicker dismissAnimated:] : sha256 7bf57a60571263ab2a7de05c7505bd0eefb9a371767a5f2ac37d445be17243ec -> 711d0c1a889aada437be136482a1daca853c6148157225c7eb98c93630edd7ff
+~ -[BTDevicePicker didDismissWithResult:deviceAddress:] : sha256 b3f3d5d606146bcdc96cee698703d1ee75794dd1e0d4dfe5a04bcc8e7e5b4411 -> 1acfc8bb160816400bf32d456f57f37735edb49d39e7428141e830e837551392
+~ -[BTDevicePicker discoveredDevice:deviceAddress:] : sha256 1c82a5bdec4f0420d3d4780eb5d389748c8efa8b61ce33737af28c0992a1d896 -> 5bbc5f37a0153b4426c3c3f16ea80eb343ad47ad81679bd751cf6ea16051a662
+~ -[BTDevicePicker setExtension:] : sha256 05916a6320b717d15786d30836a4f3d71103a7e9c057c07e9576c34ed2245788 -> d3014d7b93cc0f4a6f03424de3b78ed757fd7309285e99a857f8b002cedf8589
+~ -[BTDevicePicker setExtensionRequestIdentifier:] : sha256 ab35fe9bcdbcef88d4c817df2ec831e63515c0d6383a127d150d3bb4559bb7cf -> bdb1bc2570cf49754f69c3f304a9524e40a75e325178fb199f05b366ad1284d0
+~ -[BTDevicePicker setDevicePickerRemoteViewController:] : sha256 01042c0ece1fc195652fd2e6b3dd969f370286160425282f58dd60cad13508ad -> 2d851679de0ecd8e0a63f9b5c4fc96efb6c9f36a3ac24cb143dd4ad3ef8fa63e
+~ -[BTDevicePicker .cxx_destruct] : sha256 98a247122ed816565a36516e07c5a695165b433529569b1780f39c952b894506 -> 97700af4a7517e1a6a4fb6118fa63520f2160eb32929168c71de1914b71cce48
+~ _OUTLINED_FUNCTION_0 : sha256 41baf026b9d513887f936f926379158cd6af3d627f874c4dd2a0d5aa1ad1159f -> 4cf8b1644186f42d6d84960410fd4c9a4a97a810a94574c54b48f835a1edf20b
+~ -[NSMutableDictionary(Merge) mergeWith:overwriteConflicts:] : sha256 9d26ea7c412d2572eeb8c226564f9fa78a13a1ba3fe9aadeac96cd82ca9b4862 -> 386ac7d8c797cf1672b3a4972513e3d91be4052e6060976ba0bdca96d8ec122e
+~ ___59-[NSMutableDictionary(Merge) mergeWith:overwriteConflicts:]_block_invoke : sha256 4731f9c1b2928e18ef8b0a2db68371fcfd9b0f3ac0a2e4137a81389a8299216e -> 33bfe4c55946fab928dfffabfec1bb56ed978995e8445ec483c3c9826d1f2976
+~ +[CBAssetHelper sharedAssetHelper] : sha256 e0c82c902e3997dcd4b0e6b9dda4bf064cdc29057d7a6cda39f57e3bba9e6e05 -> c61685d66bd6e44f2fcf7c8650091ca8dd0af1511113f413688d97f7a07f987e
+~ +[CBAssetHelper loadAllAssets] : 364 -> 360
+~ +[CBAssetHelper loadAssetsFromFile:] : sha256 ca762e086da07c5de268a10221d62e804bf0152b117c9eea95719e803034e56e -> c1c8c3dd7f0f05a271bf966570cf84f9c9c7501381ee22031b41c3a070c717a3
+~ +[CBAssetHelper resourcePathFromBundle:withResourceNamed:] : sha256 6a067d870edf5be2e3d6af64395b56d852c911ff4898a367d5983e31f7336156 -> 3837948bcdf9707af3da4db4c321da82924d3c82ecaaeed2be32c38e21c62f92
+~ +[CBAssetHelper getAssetPathsFilenames] : 508 -> 504
+~ +[CBAssetHelper strFromProductID:] : sha256 1c077030029eb0b6a69604fe57d3d2964e421f4cd992714ed007a3bc3b51b472 -> fe9e6d9ebe542c0b2490987874b57cba986aef3f3be856f6a63afde55b63df2d
+~ +[CBAssetHelper strFromVendorID:andProductID:] : sha256 9fb6643ae63b4137535df28a8f708e7801b8cabf5afcbec5616a505cf33251c7 -> 7e4136634e1675750afa4e48399e654d21e78e506ed4502af6bbdf6ab7cbe331
+~ +[CBAssetHelper strFromColorID:] : sha256 89d6a09a21f7ae585273539607ce6cd6fe938d5bc24394ef80f0623d19f5d678 -> f16a10e5d61a8a5dfce6a035c4e0df7e5f6be4d0955ff078c8f7e99e5a5cde79
+~ +[CBAssetHelper findLocalizedStringForKey:] : 672 -> 668
+~ +[CBAssetHelper findLocalizedStringForKey:default:] : sha256 50285ccf584dc5db2925eeb31c9294f205f15e194b0ed6979a63ec421d72198d -> a757e35c84b853b9345267dc7e3ad16f11829b930ede3a80adb7953e56408724
+~ -[CBAssetHelper init] : sha256 8b256c7f1ef013cb6dcabc3200b58e3f5597a1b0576741317ee0a1c57dfdb594 -> 57a2338ae3376196cfb419cb0d283be963f9c17ed5159caf8997c6c4e4628b64
+~ -[CBAssetHelper getCustomInfoForVID:andPID:] : sha256 d3f5c8b3f64dd958e000af3708dda9ea8493c6cf9d44010c4e5cc7d7b482ccd3 -> f6b7afcceddc32d99cc6efd2011e5d95b24923c0bce54f166c2b3952f6f7abac
+~ -[CBAssetHelper getAssetDictForAppleProductID:] : sha256 41b4a3283d6a371cd496f6084bc29e4883e493684d331d99aae4a56e388992eb -> c2825ca2e2f4ffabee4d8d35b67b3afd8d309ab976df9750f34d6dcc4049d93c
+~ -[CBAssetHelper getDeviceNameForAppleProductID:] : sha256 bd4ddc2af138f93815b9f7a0b9e79fc96b72b63f6f1d4bfc002a8b711d24dc7f -> 7159862d128accbdc4e0a5a558bf66bd95a7bb8c09004d7ab2ea2ebdc4f64140
+~ -[CBAssetHelper getDeviceDisplayName:] : sha256 89ffc5ec495f69b14a5c744c5d276de6f82b253122ee0c070dd85eb2ecacb13b -> 42e03b94e422838245ee66f53e1642a33b3dd6d1fd32f962994b0ee67def1e98
+~ -[CBAssetHelper getImageURLForAppleProductID:andColor:] : sha256 c3a2436090f6f129dee5d2c0e000daeb9a9b51c1dbfe48715027ec82d2a3d4f8 -> b4f734a0a7f8c08b3166e6a826e69889a0e498ef195b103077fd44591a047d62
+~ -[CBAssetHelper getImageURLFromImageName:] : sha256 6b70dd8a9b5b47e8f6080d9c57bae7a936f97386dcc54d7e94520795a0314963 -> 1866ead2449d6d4909c703371b2542c3941ff5c4f4cea4275419dbbfe6c4b17d
+~ -[CBAssetHelper .cxx_destruct] : sha256 5c8c84a94c8da641f0238fbc033f2c7143929b2b50704b53f6c98ca6712e1b98 -> 68e094214241bbf3e0289e095968503ff367e17af80e53532cb535e859ac2fd0
+~ ___22-[BTDevicePicker show]_block_invoke.cold.2 : sha256 976d3b12fb8e21018a354df5932bb795d8368263153257d742582f853f99c2af -> b7eeb3249faf3de2fc0446398c4c820cc5bac75692e31ec2ca86ae8f6f1990f9
+~ -[BTDevicePicker dealloc].cold.2 : sha256 be55a996e3977016f31281be82a695b186e0c1b9afec20babacd66ba77956c85 -> 074c68f3e9ab7650d1d8694411dcfa8b6c6f6e99e2cc0904862b2325026920e6
+~ -[BTDevicePicker createAlertWindowForRootViewController:].cold.2 : sha256 d4871400e8092981ec9e5ef764816f27d6c4be24b0a239f82441b932a65274b3 -> f2187d4e9dbf9d1fa00ead779b5f0f2c5f24a09cd0ae0697bcd2396f92152fa5
+
+```

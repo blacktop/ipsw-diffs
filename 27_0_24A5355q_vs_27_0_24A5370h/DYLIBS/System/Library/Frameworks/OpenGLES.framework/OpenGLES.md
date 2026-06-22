@@ -1,0 +1,101 @@
+## OpenGLES
+
+> `/System/Library/Frameworks/OpenGLES.framework/OpenGLES`
+
+```diff
+
+ 24.0.1.0.0
+-  __TEXT.__text: 0x63a8 sha256:1695406a82942299233512a30298fbbab537c8e32dce8478fc915227c9dd20d5
+-  __TEXT.__objc_methlist: 0x1cc sha256:953b9ca0386742f282f58caf866f5d977bfa068fe6f86bb221c12d5a1195de77
++  __TEXT.__text: 0x63d0 sha256:9087eeca9b68864fe00ed4c0e27f054a7f11cb42189ff275f04cf87455e13d68
++  __TEXT.__objc_methlist: 0x1cc sha256:4b9751424f81d542c3f40d8677ba8af91be987cd104de735a852d8bd6965e3b5
+   __TEXT.__cstring: 0x3ac sha256:50b797f8792eb69d419f948843bc9f17c8f6a7f40bd12979d721f9e5d82aaeb0
+   __TEXT.__const: 0x280 sha256:9c3221d55cb45bfd3724016328a08a669163ca9cef42be9389baa52debf22092
+-  __TEXT.__unwind_info: 0x118 sha256:a08f7a9f3288f8e90ecc1f598b1f42482dcfa44d6a196259b286fa9df90d2c5c
++  __TEXT.__unwind_info: 0x118 sha256:9fc135335bbc31c6ad65a3610e36195e511d149f1ce4a1c6dd64d0ab723d7b95
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x78 sha256:a5eca99f47ca8fc2ed76bab07264cad583439efea12ee1ccd6e7e5997964e70b
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:9a90ee88d4994b7a3bbbcc1129505bdd5b98da9bfcb3119d7e0945d5a852c552
++  __DATA_CONST.__const: 0x78 sha256:9062b16508d8229184884b30374268655df6b450afb826bf6ee9b232b517c4a9
++  __DATA_CONST.__objc_classlist: 0x10 sha256:5f77f6165a4244ba3d880b940d7953e759010039a0ac1bc3dbdffe838abda177
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x150 sha256:9d85e7e4d65f1721f214717e4bbbadf8af943f8f44853094cca8ee7f3a804ac3
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:cadc5c56539c7adf92d41af5e20702c068cae23d9b50a27b7acbc49207a152fc
+-  __DATA_CONST.__got: 0x50 sha256:aa0f7d9f0104756b387801a39b3a2e6b221ff6f1268bdc32a4578da028c5f62f
+-  __AUTH_CONST.__cfstring: 0x220 sha256:7bcc2c880b7615a7d1491db86479e10452c6aa2bd4d51c175709104110adf211
+-  __AUTH_CONST.__objc_const: 0x210 sha256:487473c20e91f9afaa63fd61bc172d52c2f738005caec79f7bbec425a287d8ad
++  __DATA_CONST.__objc_selrefs: 0x150 sha256:2cfe2f6678c9b2e2eb4d99930c06c0e82303b07d2dc313c42f6ce1584d6f1e90
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:35701e3baa02a793ff5d57705ee03154b2b42d7c866a62cc884946028cc059c8
++  __DATA_CONST.__got: 0x50 sha256:147d43fe6ed1a20e17ba2447853136f30f2363026be3ccae4262013824c0acfe
++  __AUTH_CONST.__cfstring: 0x220 sha256:d94b73fb99e99972ac7ad4416a989099d54a6a75c937b39998bcc678aff0bb02
++  __AUTH_CONST.__objc_const: 0x210 sha256:641f83d52ca349c6fa9df1a038ed81910a2d56381ac5878a4a96f50110b031b7
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x10 sha256:bc143cbaa16ea054dff41c31a149d77c5ff8d2139ee15ad27b7e5406c98e90b9
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:7c2a83eb8aa6a114cda2fbeb2897fd7dcafd1f9236c72c444d4d2440ecc00781
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:23313a3ea9408ec07c5a34cf483a28f2cf17c04f5d64c7ea7c9c0b7428a2bde6
+   __DATA_DIRTY.__data: 0x14 sha256:67afa70421128dc24bcba9b916d2b3dc60cc185907c18d48f442653b15238dd5
+   __DATA_DIRTY.__common: 0xa0 sha256:b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4
+   __DATA_DIRTY.__bss: 0x54 sha256:4fea5e6a3ec5f5474a26d858bc77b6d7bd3ab864ea02d988683fdc648602b248
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FB49ED1E-F3C5-3492-8B61-7190ED812370
++  UUID: D70FD508-74E1-3845-AE58-C598C396C1A4
+   Functions: 515
+   Symbols:   691
+   CStrings:  50
+Functions:
+~ -[EAGLContext initWithAPI:] : sha256 378110f2795359a74cc132f851e54d4fd3d0da88db217e5128b1f849b4405e74 -> 6153aa09871aed9919734262e879a3f20b74b8900ab3c62e37980ac1a0749b1b
+~ -[EAGLContext initWithAPI:sharedWithCompute:] : sha256 c09cde430f5186bbe977071a1d56f70a7d8bb377d4f35bedaf614db1f9443c3b -> f79f8b28d3ed95e8d546e7de853f048dfdc3fc6120263dd4075bb17c843cfad0
+~ -[EAGLContext initWithAPI:sharegroup:] : sha256 b13e7277f6a6eacaf4b25d688eb7d03478c40801a464fa9aec0e11972fc98150 -> 6b6ce5c4c724ffa74eaf94a432098936740dced07b8cf498713583bf54b4d646
+~ -[EAGLContext initWithAPI:properties:] : sha256 e63c9fbceeeac9f6fbc8cac74bf427bd40c8739ca868164d2fd7af8070936b76 -> 1612a070eab3192fe58a36fc5a0384823ad3f6e048fd1eba5fd1bcb4bc7aef18
+~ -[EAGLContext commonInitWithAPI:properties:] : sha256 f3c6de6b7fc61543af071de74746926faa578b1ee6abf1ab1c33ecc0aebe0b6a -> 0e62ec49a6631423ca96ffa34ee10cc70356f496d12e2215b1a7bfd4de7574fc
+~ -[EAGLContext dealloc] : sha256 041575008199d3375eb46c677858d8434be552f213677493f53a5f7d9df5cc13 -> 7a171613ee716db5f634820a74549c7d430d3dbff232ec1b3f69dd9a56e0a5f6
+~ +[EAGLContext setCurrentContext:] : sha256 8d839e58b74664d6f6a145f27cc699f2a5e992469b7196fd5cece265ad2bf597 -> 2c160d16f821059aacf219fee5c3028d270b4a501da41907a39934f23df390a6
+~ -[EAGLContext isMultiThreaded] : sha256 ece17c808cdc326a3874b58897c0a4b67566161deab4552edcf51e584b966be6 -> df34590f6588effd36803a1930fbb3b78ad4d2970c849fadbd5f7dae340847a8
+~ -[EAGLContext setMultiThreaded:] : sha256 a0befffe9bb2bc614910af81ca90ca325a2eb1fc83c506b07ae2c56c5c48bf2a -> 00051f4ad76a060398ee411c5f4e84e433ab7809e75b000d780d79a9f9ad724d
+~ -[EAGLContext renderbufferStorage:fromDrawable:] : sha256 cf12064b9f18a0f51c8a0714ee4c9416d023815e2c4011ae5f70d5580c148d87 -> 121ed496f3eccfa45aaaf9a1f2213e1cf3551f500f4cfb4add0192e01fcfa1e8
+~ -[EAGLContext presentRenderbuffer:] : sha256 7b3be84c4d43fe18faa73520d40b43e58321d0afb29d308f60e44975ae57866b -> 1ef79ff31fc63b16f3cef3b5089b24c1f2b6b626a3d8af996ae018249518ec2d
+~ -[EAGLContext presentRenderbuffer:atTime:] : sha256 1bf194c2518f69f7bb9984130c9d04c87cff9bb32123cf189a617c0d7cf6b88a -> 486f77ccc7da31698d3bd2e84e12518d6bbcd55c64c3aa76a4687ba9b5469402
+~ -[EAGLContext presentRenderbuffer:afterMinimumDuration:] : sha256 a635d6c1af76c2747354a7caf5b678bf0e15448d31949da681eae8a55e713bf6 -> 57e90a97896af0edf0a80256c1870834ab36cc1d48246f26f611b5f97164ff89
+~ -[EAGLContext attachImage:toCoreSurface:invertedRender:] : sha256 96f8110584779cf97ef72a00b27e834494eaabe0788e49e0aa7fd2f059f373e4 -> 00d99e602cef03158b2b20321792d76db81a301e716ec3c5ec705b27ab3b256b
+~ -[EAGLContext texImageIOSurface:target:internalFormat:width:height:format:type:plane:] : sha256 71788c328b259827b5059b33d3be5f97512b7e985e83d902b8212afb82e3b897 -> 9bdf356e0f7d3d512e14aca36a608628688ef56bb6e8cbcb24dd232494f76aaf
+~ -[EAGLContext texImageIOSurface:target:internalFormat:width:height:format:type:plane:invert:] : sha256 bc1e290a163d89e577ee9b7eb315cea32f0982e54d5b1163a3f940c07f6720df -> 1973af003980478533a64d5a2929862c561e25854c1a2fd2361691a616acd023
+~ -[EAGLContext setBlockFence:onQueue:] : sha256 a6f190bae41155d2d19f3c35a895486c84c6ccccdf9ef04e4ba0339155edae96 -> ab3d2ee564142e62db12fb1a415a368b82809806c6b48543098822820e63c998
+~ -[EAGLContext setParameter:to:] : sha256 9e33e1f85d3d5964533bfb5339bdc3da028e40a5f4a4d96da97247c6b09b5ea8 -> 1bf34c7ed825d2e98b4b4e5a2e84b813ffe37ace830a6adea3b06bead2f6a7fe
+~ -[EAGLContext getParameter:to:] : sha256 9a7be4f7febf97c776a528ca834572016ed2a87fac9e6daa43c3d8cf5c8abc33 -> 387c4b6f12633b9ccc7dc6700f06363eadd0daaaf326871923d3d23a2a3952a1
+~ -[EAGLContext GetMacroContextPrivate] : sha256 d0dc14f7a871eb0a4a114f501aca27aa77beb5f1d2889725a3887526cab2b4f5 -> c88f21d5a0a76d255cdf1fda065b3b25da744ff1a7f9a46b54fddc758cfb932f
+~ -[EAGLContext setDebugLabel:] : sha256 d783ba99f04491b6f7885b0370cf820ca0210e3f696fdf881af5c1ee92541f37 -> 395d36d60785a985a9fef4e8a1fbf81fd6f1c4d612db6437c143799f1509a4f2
+~ -[EAGLSharegroup loadGLIPlugin:sharedWithCompute:] : sha256 09c42673089d2eb7132e7b7e85ff45e7f799cc50e4eba17b7c1f24ae03b9b20d -> 9c3be7a96d0a517836d2f451cd84594b93574755c292e20a433ac5b1e4c98b24
+~ -[EAGLSharegroup initWithAPI:] : sha256 ceca748bb6dfadac61dede300d8c69f4b769bce11b96122f880fa128f1ac0ed4 -> a94743de488f13c181af3907b65effded601ad65c3314b5bf3fc3f720bec2014
+~ -[EAGLSharegroup initWithAPI:sharedWithCompute:] : sha256 80f1ced06af8415ac2921669322b29dc9fb66e510e110462e82743e604613bee -> 681c8f2b7ccd226b2cd98c8c5ad1ff0e472ccaa22f788d4a527724be6c7f959c
+~ -[EAGLSharegroup dealloc] : sha256 c13c7e7cf58e5174ece277aa4a3bee9aa942f230b26fba303eedd8f3e8d71076 -> 2a7f93d1c51362093b5a16c78497dc717be19569a1dfb64eeacbd8defda95817
+~ -[EAGLSharegroup setDebugLabel:] : sha256 09524907fff3e2a49023a6b2de62b98a4732bd9446ff4b0eac7eed69951f93c2 -> 00da78b5d833a83c48d5313da995373b0d7fd40c7b399ba5d3416b6a8cf94c60
+~ _eagl_dealloc : sha256 58d39f4fbb6c3442d1ec7ee4514539e085cd8fe29da468833af38ef9bea33dfd -> 2c69f0cbc47b361041fb81934a3aa7d86af2d25c4380076eecdc6aab6a848544
+~ _eagl_mutex_lock : sha256 6cf8cff9776ed7fd33300fb990eff9e909c01d1fa4e6104c8d4205a2bdff91c1 -> cf736feb6f30a4c94e229248bb38260069a15da183d7562d814dc9a15b3f1d04
+~ _eagl_mutex_unlock : sha256 37e39126223d4cae65f5bb93e1741ffe8bf5cb8145b3a8c4e2c738ba00b8e400 -> 6fbc1bed344b3c171aa7b6c33643f5d11f740917bf203625fdf983adae1b1126
+~ _eagl_init : 784 -> 792
+~ _eagl_init_once : sha256 f1302d695fa566cc1a0dcf5372fbd26490e9e5c70b40e4674d48b588a4f18119 -> 00c50c12dede388d5ef0dfd35fdb550d15e9eecb87b81cf535cdd4278d6198d6
+~ _eagl_ctx_tls_set : sha256 e08e2f4309a80a4613293f62b3f7cb23167c335c18866b2655554229f95670c6 -> f0b4eb4902a835dbf872d167a0b2e983cb8c117565eb0284dc6b9537beda8836
+~ _eagl_ctx_tls_destroy : sha256 8936d3f3a470aea1d58ad1046d626e306eb02f9985639a246f714228768b61c4 -> b7eec10a8cc11e7961aeb185a12b149d340f4ed4f371ef5033894ebebf6e32d9
+~ _eagl_dict_read_bool : sha256 b5033e9dbad04535de222c46998a86021427a1cc6b27a7aa6cf88af01577ef88 -> ad40586b5f4e0dc00f1bd5d67b5894d827fa616481b315b22c249ab6f559994f
+~ _eagl_dict_read_unsigned32 : sha256 f60e90c61c94974a37be7512b4b59b01995640bb75b6ebfb5fcd92099d301161 -> 92432721c414ed5dcd5a3a2d7ed3f191d790bf458d9eb22beb341b10cf932ef5
+~ _EAGLMemoryNotificationRecycling : sha256 6124b3161de423b23312ce5746da449f31cb81cb615d89ffad8ecb5ca46a1501 -> e9e022a1bbf494ad922261624e175332c8c625e4db7e74cb861c66680f54e6a3
+~ _EAGLGetCurrentMacroContextPrivate : sha256 de67a7369dea98ad23e3ffb6d9e24b726cd7f3c1018d6cd0cde9a6072e868b28 -> abcdc0c510a6f8da7a4c4f3bd7261bcb6df7ca435e2f19c54c4351970fb9b71e
+~ _GLCSetProfilerStorage : sha256 3ca2ba2d2595d6a76d9099935ecfc48b4efc3670907356580fd67df3b58a1655 -> 173b3c45aa997808255ac30c8c496ac117d02927bb941bbfd4a816dc2dd8a30f
+~ _GLCGetProfilerStorage : sha256 ff901b55cc11d3a0991133b76359faa34a5443cbd07de669051a71f64aa7d29e -> a7afa6c372251dfcc96e06212de2cef9532b66f92af156bae1eb6de8f11a3c31
+~ _GLIContextFromEAGLContext : sha256 e87986eaf77288755626e7dfadadb82cd8c91ad639f0669ae8fe6b085b198073 -> 65ffadca643d2c40e10617ffcc1bc4ed2bad598ec40698b73bab0b08e9a8c1b8
+~ _GLCFrontDispatch : sha256 73620e4d809cc81c7305cde0c3cb18de9055f65d392fa5406b0002a7ab685488 -> dd5bb6deee416b71ec72b99fa975d4a673cb0c98f0e8dc683c7ec33d0925237a
+~ _GLCBackDispatch : sha256 5f76a719792498900e69f2a00a9f6a4312abff63b3c02a05f7f871ef4a3967fe -> 80b8a0d4b9ac8bfbf89923a49f60cc6c7ff8afac6044f0bcafe5a03b1bf49e9e
+~ _GLCSelectDispatchBounded : 76 -> 92
+~ _GLCSelectDispatchFunction : sha256 5f746af3cc5cb6cf75e4f922f9ff4bad2de86967e143a3f580d913a1d898ede0 -> dbf847e444433d3476541003ac86696e803cfb498d9f24858828ea249e64ec17
+~ _GLCRestoreDispatch : 56 -> 72
+~ _GLCRestoreDispatchFunction : sha256 7f1be6b4a485489a159c335ce55143774d4f25986f5923af52f12d3d336e78da -> e20b8517c2fa54521cbd104c5bbfa82468fe76580d2ed6f2daf0930e6954c4e6
+~ -[EAGLContext init] : sha256 c1e858ed4b8d13a8771a699c8f75ea6551ed366e680974b792b48c1acc26f358 -> 3fd8bafa5fb85f382590b9948f0d9f7c06b4b552e81b4629960b8842341e9d28
+
+```

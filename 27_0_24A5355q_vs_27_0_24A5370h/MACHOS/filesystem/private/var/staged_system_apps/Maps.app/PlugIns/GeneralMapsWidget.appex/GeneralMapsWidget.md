@@ -1,0 +1,133 @@
+## GeneralMapsWidget
+
+> `/private/var/staged_system_apps/Maps.app/PlugIns/GeneralMapsWidget.appex/GeneralMapsWidget`
+
+```diff
+
+-2966.30.5.15.8
+-  __TEXT.__text: 0x7c348 sha256:50addde605ecbdd98110c9073f5134a9851371bd7b4372cd2ad1fd5226fe04b9
+-  __TEXT.__auth_stubs: 0x2250 sha256:0df872d6b4cfbc4b33c38b49e4fb7422492e584b7bc0f016bdcf47c3f0cbd49e
+-  __TEXT.__objc_stubs: 0x2da0 sha256:0aedbf3ff8695abc3e72c342f29aa7e435a6737ef74bb84b68d01e0258a14b51
+-  __TEXT.__objc_methlist: 0x1a24 sha256:2b171a9416a261072e568b5275b7e2909163af5224d1ed2ad9cf75fe9f6c8594
+-  __TEXT.__const: 0x4074 sha256:1450d67236bc2c186e346c5e6cde454d70e04ae491626915306948365da05df8
+-  __TEXT.__cstring: 0xaea0 sha256:c8a448c37b2e58114e8601727919f5fff0be323e7b993d4c62fd1cd8553ad8cb
++2970.30.6.5.7
++  __TEXT.__text: 0x7c44c sha256:c4857930bb7c7df50ff4651a86ee4fb283686c054f860aac3a80b36c45667b68
++  __TEXT.__auth_stubs: 0x2250 sha256:dec435603287228efe7df85c622e0e7e86af0195e551c361e20f0a957243b28c
++  __TEXT.__objc_stubs: 0x2de0 sha256:88c4bf06ef4bd2b5962cab82734dd1f4e36dc65f38ec6caf7c74e54a6200bdf8
++  __TEXT.__objc_methlist: 0x1a24 sha256:c6d8d744629331739ae734ed564ee7f464d4f9989d3549c7e9c6f490283b24f3
++  __TEXT.__const: 0x4084 sha256:0dc84415adf59ba4b44fb8549561afe0125c76c324c17ad471c263df128ea656
++  __TEXT.__cstring: 0xafa0 sha256:289d465695661cd3fd243894920a4fcd2580e067f8d55cb370c842638f019245
+   __TEXT.__objc_classname: 0x5e1 sha256:f3f851856dba6da1a48cb2510eae80172dbe2824ff9c90ce5152ca7eb0d51f8d
+-  __TEXT.__objc_methname: 0x886d sha256:06f4291c54c325a7be065d6174c5ad5d47232be8915c125b80579eda19633116
++  __TEXT.__objc_methname: 0x888d sha256:71f954b6bdfadb76d8fedaa586cb5b0fb74f195bf03b60e12fa99f029894990d
+   __TEXT.__objc_methtype: 0x2417 sha256:b18fdfb54cef01cf6b3e40b502476370bc50ccc0ef4da55d06d532ecd9d7d134
+   __TEXT.__oslogstring: 0x48b0 sha256:51318770acb1c8ce6f26e3fdcc040d8df738587f617e06eab9ab9af1226d478a
+-  __TEXT.__constg_swiftt: 0x1d3c sha256:f30ed4f95ea1a023912cac6acbc5b8e792777437cb864c2cb516269077f4fb1b
+-  __TEXT.__swift5_typeref: 0x781a sha256:393b1e5509103d3fc9011b8e7f2506a7ff775545fc17d324bf64e8510300126b
++  __TEXT.__constg_swiftt: 0x1d3c sha256:59ecc2c6555abec4e82ea7bb941cc96857cbc45cf8c4aad6a248f835317f07a3
++  __TEXT.__swift5_typeref: 0x781a sha256:8496976279b2e124b69d612b1cb258a7a251198063aa00f3c26d78ec387c8131
+   __TEXT.__swift5_fieldmd: 0x11a4 sha256:9a58aaf42215bf69810700e8e4ac10647a9c4f8fd70c2fa21893b38abd005106
+   __TEXT.__swift5_builtin: 0x104 sha256:e68b55e09968398059f228a4c680eb20fc784ab17ad685c8e62be6126688158a
+   __TEXT.__swift5_reflstr: 0xdae sha256:05171def4f6688e0ee199c116efb85e6dc7e556c53927ae964978c59bbafba86
+   __TEXT.__swift5_assocty: 0x570 sha256:9e9eca5b885dc2b7013675c4f09fc73225e1ec7b58c0787adbb0aeacd6adfb64
+   __TEXT.__swift5_protos: 0xc sha256:8281eee3865a2f4bc32af0c338d7c1aeef1b38ae2eb30989bb7bb5ef006507ff
+-  __TEXT.__swift5_proto: 0x12c sha256:937b7f2f348783f4c1ae7f171fbc9c73371e103636744dee454b64816d5dc851
++  __TEXT.__swift5_proto: 0x12c sha256:0e6ea464adbe537060a6d1188a48cd89a8bc7cf0b8c03a4832fb82d54740c0e7
+   __TEXT.__swift5_types: 0x180 sha256:84c04c578320f52457da581c7bc1f361b685b2a79428daa79fd36f85a8941c3f
+   __TEXT.__swift5_capture: 0x60c sha256:3744c6d0d992258ad96d651f793e7b89434ca19b8d48cebf824bfd38bb93f49b
+-  __TEXT.__swift_as_entry: 0x18 sha256:ac9a1647305c3285ce02eb3f8c5695a3832aec7549ee11fbc651ab5cc4f4daa7
+-  __TEXT.__swift_as_ret: 0x20 sha256:2012f38244f9752d6189105017674f06df185d2cfe46d694e2558a903cce3d4e
+-  __TEXT.__swift_as_cont: 0x24 sha256:d558bef7847c8f904177a215d5bfef62b2b24ba752d124617edd7b822f844838
+-  __TEXT.__swift5_entry: 0x8 sha256:ce319c3a8533066d36321ba96aad0e22b82cbebea8b9bbe5a3e15f2dd504c76a
+-  __TEXT.__unwind_info: 0x1038 sha256:2e82f940a882be0e96d5eec932bcbf540c53d196048f218f2cc60d010593001a
+-  __TEXT.__eh_frame: 0x520 sha256:d7fb34e575c84fd506cedac9f172bdfe41d2319d398dbff2b7e0f6062f73226c
+-  __DATA_CONST.__const: 0x18f78 sha256:e29c292c3388801820306d9e012a0eded3ade9d1c5fa9e82f060f721e5878ca9
+-  __DATA_CONST.__cfstring: 0x7d20 sha256:f7eaad931868d077bf4409845359336832ac291b27bc88ca0ade88fd88cfd8b7
+-  __DATA_CONST.__objc_classlist: 0x88 sha256:8199cc2bd8f42cdf0ade33a5efa9f00a3e452692b4d200a097b8723f6c074cbe
++  __TEXT.__swift_as_entry: 0x18 sha256:0620ca5ab4f8d8bcfb97df44951178430f8bacc17a1d75d28748c07b7b883909
++  __TEXT.__swift_as_ret: 0x20 sha256:c0035bc8493c85a6731f0778508094de247392b45fc3d5b5ac7fae57b47ab81e
++  __TEXT.__swift_as_cont: 0x24 sha256:fcfbb760cde392c24006ba7f3ec31574a6f2ef85e4d59b419494bf6aa0468027
++  __TEXT.__swift5_entry: 0x8 sha256:1f9e462107abf5854af68336cf18a5f5e997451929153c9c29aacea57473f2b2
++  __TEXT.__unwind_info: 0x1048 sha256:3e97ea8710adc6b7fc863b1f2ad76de85d35a29ec530db036792fe2c30cfe1e8
++  __TEXT.__eh_frame: 0x520 sha256:1483cd5bc164aa932e6403eb042cd5d47d481476f3d7d1db46f8a25292759ca7
++  __DATA_CONST.__const: 0x19228 sha256:400f56e10f4479319bbc3bfa7c33541894fc9c33b88683c10f07d51d0ed5be75
++  __DATA_CONST.__cfstring: 0x7de0 sha256:c9b74ff8b833811c8ad83931abf727c51afe4f2f8484c2ca54a17de4b749af60
++  __DATA_CONST.__objc_classlist: 0x88 sha256:9027783d3c698f0b4ea529b01275d80787c91078cb69c5af1da0b9e09550251a
+   __DATA_CONST.__objc_catlist: 0x28 sha256:f58420cf8a74ae6a49e3b55d36e9c79577a9a98df6b8f4792b40318f8a4998b7
+-  __DATA_CONST.__objc_protolist: 0xe8 sha256:d98f15b3248a22c8e159f4e92b39c4cfe0ad550acb9e43d31e67cf196828cc69
++  __DATA_CONST.__objc_protolist: 0xe8 sha256:8eb34ca9963e3b8fbac56cc5ac4ea81a649a032e155646151cf3f683804eb966
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0x68 sha256:758aefc39e312907e92b6221ea00e1f69577ab364009c68fc9c61ea72a397969
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:42a64f0fe3c623d1d726a32a13d4ae953ebbe32476f5d9f7d6b5ffe426889137
+-  __DATA_CONST.__objc_arraydata: 0x88 sha256:c05cc1ddb4f98728e08bc435d46a556fd3be4d2811f430152da7ff61a1e02382
+-  __DATA_CONST.__objc_arrayobj: 0xc0 sha256:3bea634c16b415c0890fc4165f451ec281b32b56faebee6cfde8b4b6a84314bd
++  __DATA_CONST.__objc_protorefs: 0x68 sha256:9c8644da2db1b528055aeeab22cc3a1e9829bc3adb0d17b66fba9fadba826067
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:97b06dabc069a76a411a6bbbb727d248ee38a26c1697ef97b22398a20c7d0bbc
++  __DATA_CONST.__objc_arraydata: 0x88 sha256:164a9786eb6bd7e4fbd672f0faf35fc041787eb60ce6c5329d74bc8eacf553f9
++  __DATA_CONST.__objc_arrayobj: 0xc0 sha256:adb8e5d3bbd469dc75640e84cd06d57a60d408de829e019b9b26fd3c847fc146
+   __DATA_CONST.__objc_doubleobj: 0x380 sha256:fb803e8fb0cf12a04f4ef301f5cacafc166e2875ac39081e852e9896455e3d20
+-  __DATA_CONST.__objc_intobj: 0x780 sha256:d595e90cb7c31394212d062a96a53537ee8bdae3cf03fd9acb7331a13ec62be8
++  __DATA_CONST.__objc_intobj: 0x780 sha256:0c9cf7523fca130961eef7e7b5094ef8700536f3ee7714d20066060b8970cc64
+   __DATA_CONST.__objc_floatobj: 0x20 sha256:adc2a8260ab6cca0b8be53d60d5c666c0ca6edbcd93960d7a55f02cfe95a2e1f
+   __DATA_CONST.__auth_got: 0x1130 sha256:001ac47f9847bc821a4d333a98608fe90ba5b5da249522949951a7f3f1be98ed
+-  __DATA_CONST.__got: 0x838 sha256:00e570c43f4d4dabc4b86ddbfc0bd6fda70f8b74e6758143d549d2b7fb7e8307
+-  __DATA_CONST.__auth_ptr: 0x7a8 sha256:d07d27c4be7ffae00706790dc83fd740751a96035684e9bef8d7821ed44dfcde
+-  __DATA.__objc_const: 0x7f48 sha256:71f8ea8024c6bef9fac0cb4e6021dc63e292358797f9e12daca6a8ad57b338c4
+-  __DATA.__objc_selrefs: 0x18e0 sha256:d3a4b7dbee21ae4d6dfa4bfa2db9f863f8085062ea707de86c46a0dba8131af9
++  __DATA_CONST.__got: 0x830 sha256:f1e76a1cdfb3c5105d5508c22203a1ddf6258cfdf77ef4780557d7ed43b48ed5
++  __DATA_CONST.__auth_ptr: 0x7a8 sha256:91a881d6b1ffa4eb7a7c51bf60912b55f0e8fda0d57fd9f51023303389fddb98
++  __DATA.__objc_const: 0x7f48 sha256:0f28395c55ab929d4e797c4ae28db29eb752f2e6fc7a6d573cb662c607d956a6
++  __DATA.__objc_selrefs: 0x18f0 sha256:fdfe9c6d9761be85f07c1540df7054bdeaa46e09e756285689e7939f388b00b5
+   __DATA.__objc_ivar: 0x4c sha256:988d89501f3011e68b5361cb8f94ff98ca5bef0eb36135df006a7ee08e20f564
+-  __DATA.__objc_data: 0x950 sha256:01f36c8acce2a9eda83b38ee0d41418d4c851f725e0251a2b601a665f1dff99a
+-  __DATA.__data: 0x4a70 sha256:6b4e3d9d1eaf2b881f1b7d07767bf578b7ad34e945fd693e5e72ccb68e9aeade
+-  __DATA.__bss: 0x2188 sha256:e77662c149cf357e989276399e1f3842132830d13f13e5484a1a96ec375be49e
+-  __DATA.__common: 0xa0 sha256:b835649d8e1ee5440f60b2289c8ebce6f68dd76062bd93a14de8e7020f17b2dd
++  __DATA.__objc_data: 0x950 sha256:32e0dba0a0f0008dd6ff15c39371669cfdd7a499cd315fa3f243bb438a0dbc73
++  __DATA.__data: 0x4a68 sha256:5e14e85fd6a6108f831228f076f9dc9f5232142be0c813b687f8fce5e5dfc4aa
++  __DATA.__bss: 0x2188 sha256:b95fd75f955fdb6d0e388c7bb00dd12049967b6e867620b302862c7d266bd394
++  __DATA.__common: 0xa0 sha256:05edf90f72a0c9d59d531e00ecadf8ed25c56b70627bc4718ce16fa34b66899c
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A1C506FF-5332-3952-97C0-DD119F34DD1F
+-  Functions: 2649
+-  Symbols:   1306
+-  CStrings:  3911
++  UUID: B58BB2A6-FC05-3457-8289-753BF33ED246
++  Functions: 2656
++  Symbols:   1312
++  CStrings:  3926
+ 
+Symbols:
++ _MapsConfig_ContaineeNavigationHeaderEnabled
++ _MapsConfig_ContainerForceRegularGlassInLargeSheets
++ _MapsConfig_ContainerForceRegularGlassInNonLargeSheets
++ _MapsConfig_ContainerUseMapsSignInLargeSheets
++ _MapsConfig_NavigationAutoLaunchDefaultDelay
++ _MapsConfig_POIBusynessLocationTimer
++ _MapsConfig_PlaceCardContextClampToCurrentZoomForIsolatedMarkers
++ _MapsConfig_StartNavigationIntentTimeoutDuration
+- _MapsConfig_ContainerUseThickMaterialInLargeSheets
+- _MapsConfig_RoutePlanningRefreshEnabled
+CStrings:
++ "@\"NSNumber\"16@?0@\"NSNumber\"8"
++ "ContaineeNavigationHeaderEnabled"
++ "ContainerForceRegularGlassInLargeSheets"
++ "ContainerForceRegularGlassInNonLargeSheets"
++ "ContainerUseMapsSignInLargeSheets"
++ "NavigationAutoLaunchDefaultDelay"
++ "POIBusynessLocationTimer"
++ "PlaceCardContextClampToCurrentZoomForIsolatedMarkers"
++ "StartNavigationIntentTimeoutDuration"
++ "currentTraitCollection"
++ "displayScale"
+- "ContainerUseThickMaterialInLargeSheets"
+- "RoutePlanningRefreshEnabled"
+
+```

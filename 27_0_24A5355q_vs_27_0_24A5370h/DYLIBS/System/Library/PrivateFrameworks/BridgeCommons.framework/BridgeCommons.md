@@ -1,0 +1,99 @@
+## BridgeCommons
+
+> `/System/Library/PrivateFrameworks/BridgeCommons.framework/BridgeCommons`
+
+```diff
+
+-1350.1.0.0.0
+-  __TEXT.__text: 0x196c sha256:2e342c1987c2c103a6b20727b63e96734ede6b0092ec9cbee85099ba404e0d3e
+-  __TEXT.__objc_methlist: 0x29c sha256:c4b90ee17da99dc5d579ccdbd70aac3ac69634b2d3e18ff1800bd7f5f38423e8
++1355.0.0.1.0
++  __TEXT.__text: 0x1968 sha256:041c2cdaef5f3b1d3479d69540f158a131835ef5498337f4c4539261abc07093
++  __TEXT.__objc_methlist: 0x29c sha256:9ac1b0fa8698c78217035a61335cb043ed449980c428f0665bdef614b9f88242
+   __TEXT.__const: 0x70 sha256:0772a3a1069cf5117a38993cd4dd85aa97bb67e55ddc45e0af4a3fa878161ed6
+   __TEXT.__gcc_except_tab: 0x3c sha256:044c67c036101e7244004fe20ef0a169982accd466e9004e9f00b818a9dbc7ae
+   __TEXT.__cstring: 0x284 sha256:6b0491910d16fe296c313ecc26354b95b7938723da2840b559f74b5567fbf8db
+   __TEXT.__oslogstring: 0x1e2 sha256:2f09013e43109c3712fe62ba3d500b8ea413074f996d68e53da09768212ef976
+   __TEXT.__dlopen_cstrs: 0x9f sha256:fb16706a15cb2dadab39e6d063d97061f5667d2b6aadc7664af686555f5d29eb
+-  __TEXT.__unwind_info: 0xf8 sha256:a80e11a97dd842d5b082ebd6ad274be8a96dfc11887abe896183eeb674d187f5
++  __TEXT.__unwind_info: 0xf8 sha256:39b501f26a3525c56f43162808fbc9791adeceb3123f19834b462a775a457685
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xf8 sha256:a3c38194d0e59b102fb4311667b785ab7af39297aca176777037f750742bfcd5
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:c9dfc00cbe0f97c7fd672f7289bb65e581f6c3f5b4098ce4370833bcb020a97b
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:dcd4a1a5bcb24aa7c1fe5b95961119f65c30775eed3bd1bf1e82b6369f35e44e
++  __DATA_CONST.__const: 0xf8 sha256:21415fb8ba301be95cc4c7e5f94a98a17bb62a20d0d5ee14319791ceb4040ee4
++  __DATA_CONST.__objc_classlist: 0x20 sha256:ae29aa08d841f419efb1c75923169a765fa2688e616e28fd77421a22737c6769
++  __DATA_CONST.__objc_protolist: 0x10 sha256:edcca47639ec97585f76157309bdeb0c79ba1e270d76f3004774df9c786c5145
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2f0 sha256:08eb5e5e64d886dabcbdbc8014b3b1de85844862a46e1b0db4410edaca5f7231
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:10279206bf19da6ebd1103d87c10055d2a076ad4efd081d67723918d6c8bbbd2
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:b4a02b9e11ba16497b0f34b165c6f31f22b53d8686f0eb786604895a542d05d6
+-  __DATA_CONST.__got: 0xb8 sha256:d03e9a6059ee05107a66f7566d04589e283b14b98dbb958c6ec91192dbf36450
+-  __AUTH_CONST.__const: 0x40 sha256:d117f2def446e1ffa44c924749b2c7be3c54c8b546cd51f8854ddd34e282c5b7
+-  __AUTH_CONST.__cfstring: 0x360 sha256:a0e7b238e8c2bfb58d5a19e8d642f92fcf257bf05d5218448a4aa66fd9700cbe
+-  __AUTH_CONST.__objc_const: 0x418 sha256:450f7bff49366f8fd1e4abcd65091f642ba7093ae880b9d6875d1e752fa1d634
++  __DATA_CONST.__objc_selrefs: 0x2f0 sha256:71bbd92669afae0074257916a038325191956cd98f30f80dd9cc737b1872a7a4
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:be572dcb0554bb7104c88b80319cd7a3ea900bdd474ea2ef1d86fadcbcad06d2
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:ac1327f0f0db9af8187e15a3f5d1bfe180b7480af3dc934ebe9ba66fc6e24556
++  __DATA_CONST.__got: 0xb8 sha256:6e249c82cb7ea478c8c05a9b89c373a721e820560a848d00f25573b37e0ae702
++  __AUTH_CONST.__const: 0x40 sha256:726f23497485932670e575125877d7a4a42c6e2a12852c987f7409b8277e156f
++  __AUTH_CONST.__cfstring: 0x360 sha256:2f41ca956de7d79b49d58b90a0526bf7f5a11daca29932fe490decd026df728b
++  __AUTH_CONST.__objc_const: 0x418 sha256:caeb110211cb64cf6038d2fa3ab3819d32be48e27c2af6cc9ae3395397fb6e92
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x140 sha256:3f9e181c5b31f92b1e4b011540d59e043d616395b1547ac1cb741b8b9879c6fa
++  __AUTH.__objc_data: 0x140 sha256:395b625f1b2eb45ddbc8ab179d911198424c1ad62dbd46377126766e8e410fec
+   __DATA.__objc_ivar: 0x8 sha256:1842d9d60985977543496f68d38a01a5470beb95bdae33af49b8167ada489f83
+-  __DATA.__data: 0xc0 sha256:b051c074342b2c5377ea21c7dd9e70cc09b97745607261a12e49318baacf1965
++  __DATA.__data: 0xc0 sha256:d289c19a721e1a6a9ffafbc16fb7a3a6dbc716982a78c69cfe347ba44b1319c6
+   __DATA.__bss: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7D965E9C-EBBE-3E99-B122-1DF63BFAC450
++  UUID: 169144F1-23C5-3DEA-A221-4DD68574564B
+   Functions: 35
+   Symbols:   264
+   CStrings:  75
+Functions:
+~ -[BCUserGuide init] : sha256 aa87ce5a0dddb37c2b1430b9082c5ec4160ceb7ea3208b1c7b20702593e44430 -> 512622a739a4ef5b1105e2b8579a5dd1f6c8b08675ed5d0a93e4ddeebd3f3ecf
+~ -[BCUserGuide getUserGuideViewWithTitle:] : sha256 ee3d18e3b3ad3580b7299e663c1a2463887aad647c182dcba421939814401cf1 -> bf5f11f771e816f01cacdb805c1c63eb6c641297d43df5c5eb87b4bb00befd50
+~ ___getHLPHelpViewControllerVersionLatestSymbolLoc_block_invoke : sha256 4e4f68ec6aed5df2162c158b22e860a9320d7299f54844da201de799c441c2cf -> 69488dca1e2337d45a170c10323869d460dfd3d8d7c7680247aa34b1a339467d
+~ _HelpKitLibrary : sha256 c4e31a3b4a6b5ef2a73730072083bade13c0c79986a352495e555e5d299a72e2 -> 9637ea2e80de69097842ccd3448abe56e12b621dd6e837b82593563de5fb8117
+~ ___HelpKitLibraryCore_block_invoke : sha256 becec0af7685ed0130a2113ea9917ca950969f98e22c864c6bde53ae87948602 -> 6c70f2eb7e41b3acfd9a2ece26afef9b60f4dba2db392fdab5357fb9cfc5b216
+~ ___getHLPHelpViewControllerClass_block_invoke : sha256 ff1e6d2d1d96504b90fa3655e0c52cd317386c5e5946f6dc5b746fa0816f874b -> 293491a90966e1131272c2dbfcdcb3c29317ee6a928a6d1be63e066c30ceeb1e
+~ _BCViewContollerForModallyPresentingTheUrl : sha256 db4b4e74cf12c516d1804e9854e6b36412fd384041430eb9b5d322461e23532f -> 97c7f1dfc67c10b19d3577b053e166d81548e0444116f36272abcacd1c16abf8
+~ ___getSFSafariViewControllerClass_block_invoke : sha256 dc2e5825870b158ac47d3fb8681986ffd153c34279781952de7b07823c40bfcd -> 03720252d521684918f71aea07550f1b86aaf497f4479aa344b3ebc9504e0e6c
+~ ___SafariServicesLibraryCore_block_invoke : sha256 66812aa0e5f4811eeaa3c0b29f1e2419042b925e58220b7e133eb34d25b95c1b -> 08cb7eb8f28dfe98c84bd8590e9678a637df952f03656f9f63732c53475ac7d1
+~ +[BCCAReporter setRouteType:] : sha256 89127aeb7aecd8a0a100e05b0e88e0fcdc6d53a633d793448f263dc27c6f3968 -> dae8d751696b06f0bbc4121b63c187bf24709410dddace829b7240d2eb01bbb7
+~ +[BCCAReporter routeType] : sha256 6a6e4d2fd01fe4a25a090f514276450b6d422ab4611e2b66428dc2a8cb5ddb18 -> debeaca8731fff7445c12cbb377586b9e001e061620eb637ea752698a6551b55
+~ +[BCCAReporter discoverRouteDescription] : sha256 548e698df7266cb784edcb3f6b07821ece90648929c2af61ce89236db5cbdab7 -> bdd3bc61f3c0b9810bff7be77276e7889409d019d27625eec71cc368665bcb50
+~ +[BCCAReporter descriptionForDiscoverSuccessType:] : sha256 fec148a3a47046f5fcfb548b7b7313ccc69980e59c59a2dd878bbd6b0100e7e6 -> 446c262b13ce32679ec70d92842308d601f534c69fa6a19ab73e70ec7cc72fa6
+~ +[BCCAReporter incrementDiscoverSuccessType:] : sha256 21eef36946a5f6e452b8193141651a5ff59fd039220ce32d29432d0185f5f827 -> 94d802d2e853faa54c50ba4396a1884968f507a3e6b565e239359b1880839be0
+~ +[BCPluginLoader _validatedBundleAtURL:] : sha256 625c68617aa7a2ff65330c0c4600aa29d3c35b852bb4288076bc86f9d85300b1 -> b7e8e9c0063f949a974e430001fd993612a934ee0a539cbfbf8068bdb80d410a
+~ +[BCPluginLoader loadPluginBundlesAtURL:] : 472 -> 468
+~ ___41+[BCPluginLoader loadPluginBundlesAtURL:]_block_invoke : sha256 99895d73c6e2dfdf1db18f4ff5aa8474fd6867299392b54448735c1c2a15f005 -> 6b3d6c443b675f05afea34b21457c876f1f2821177f3765d6abfb7e0ca996ee7
+~ -[BCDiscoverPluginManager init] : sha256 31bcb68b28beae107245e4294e6c9de5583ddb584277445c5a19dbe27da3e2f1 -> 37493dffed26583eb596d78984a211206ec66222120490c5895333ae368c713f
+~ +[BCDiscoverPluginManager _discoverPluginDirectoryURL] : sha256 acc88985159881cbd56c7b5a34abf3b97a754f29236db6bf154f3fd56ebde2ad -> 0d4926c673bb142ad04cd2268c93544f75d242aba3e2a2a31514f52cc7e2a39e
+~ +[BCDiscoverPluginManager discoverPluginBundles] : sha256 b1f785c53fc0405cdf7027b010194973f2ea2b6e560be6369d62417259039e04 -> a3425502e7b085ada9c1ec96270acdecb994f2e57822b85ef7d091d82ca0927f
+~ ___48+[BCDiscoverPluginManager discoverPluginBundles]_block_invoke : sha256 38651fb459eae6e161f620af219fbc2b822bf6d8e46f67d7c37a36e3ca3d91d8 -> f35a7a3a4d21569098254c02b63ad6b4085ab4b19be211f954136e0b45c80b9c
+~ -[BCDiscoverPluginManager _buildDiscoverPlugins] : sha256 9fec587c4e1a1f24fa3aea0ff4555e54653f9f9ffb8d3977b8b9020626547063 -> 7ba69ffe46ea1fde996535e7dd1bea8fad3fb01bc1ac09dc16fba0d1d44c92b3
+~ ___48-[BCDiscoverPluginManager _buildDiscoverPlugins]_block_invoke : sha256 a13ecae6d10e052da7826e802185377d6f2f0c01b2898b9fc99eac6351dfc489 -> b1ec85dbef7ac44c53575586e7b12fa19fa5c343a8a326b36098e3099f036c0e
+~ -[BCDiscoverPluginManager sortedPluginsBySectionForInput:] : sha256 94b56ae0fa42e39fee4daa75aecaa96d3046b534917b8bfb6afd8fcf4e6239af -> 29fea753f890cd7a49706f9a04cfa7eb09e5898eceeda074076f72b5622ef85c
+~ ___58-[BCDiscoverPluginManager sortedPluginsBySectionForInput:]_block_invoke : sha256 6630eee4c95001b8dec4c74d3ef88ba9b904d12428ca9ed92b14357a9ffbf2b2 -> f1f0de6a22579347edd1e9be0f3b8d8404594658909dba60023806f3f54f70ca
+~ -[BCDiscoverPluginManager discoverPlugins] : sha256 da86fb162ed68e5f08246af7a6e3dc65d3d5619835e3aa5c15de509dafc79857 -> 99dd56daab5c7ccf8a3043f8340e0498dc11e2630f75ec5d70e7ddd09c0c8962
+~ _BCDiscoverPluginDescriptionWithSymbol : sha256 a5d7af64340fc0dac8da47a94877a843a23a6ce368e61e46ccea00f7377491ed -> 1929c3b691be0802a02e75944b40dd03526703283d72a27f2930e5163cbf3738
+~ -[BCDiscoverPluginManager setDiscoverPlugins:] : sha256 c88569e22746101a93038ff6ff4e061696ecc757bd8f00051073e202ad755470 -> 7e79664e18aea6c2dca45681e01a39f643fecb938b6d28d983a68ead6954f306
+~ -[BCDiscoverPluginManager .cxx_destruct] : sha256 85252e2821cc6c400c18030b33ea36a2531b7dc6608ee87ec3cd83dd42ed8eca -> 379b442a6232d45d956835d36d38fcbff51e09679fa39946e0cb747773ae609a
+~ -[BCUserGuide getUserGuideViewWithTitle:].cold.1 : sha256 cf12769df5db4aa9c552e8236fe0cdf2bec6c95220c60975d13b72b0854397de -> eefc4e15ee6ecb42802e14ce067313736395d5f8a90321805edb16aeaabab092
+~ ___getHLPHelpViewControllerClass_block_invoke.cold.1 : sha256 4bfabb92b4b23e7c972cc2ffac5aafa01036162cd22a1496c1ae841b6e69588e -> fba2452482017a0c95f28c96271e73e621544384c92365727172b98acf6adfca
+~ ___getSFSafariViewControllerClass_block_invoke.cold.1 : sha256 00998961cf5ae5977d71fd39e5b6b5d2260aea369ddc9717cc9a83209e6f9389 -> 95dbc9ddeb100cb170f0076f22ef7a5a577a96abde4f678d5a809db594c1968b
+~ ___41+[BCPluginLoader loadPluginBundlesAtURL:]_block_invoke.cold.1 : sha256 7aa810ac0cdcdaf25e61e4f120cd4fc504497013e2e3fbbffd4ffafe0b8fba25 -> 0e7ff20c6100f4aa38417e31737e2295d97d70eb148923cb489bf32b093569f0
+
+```

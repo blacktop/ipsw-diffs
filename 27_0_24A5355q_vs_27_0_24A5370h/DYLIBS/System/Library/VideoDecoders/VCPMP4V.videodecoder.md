@@ -1,0 +1,237 @@
+## VCPMP4V.videodecoder
+
+> `/System/Library/VideoDecoders/VCPMP4V.videodecoder`
+
+```diff
+
+ 746.2.0.0.0
+-  __TEXT.__text: 0x21344 sha256:908cab222c76f97fd05f9a3ce495e1a9a831df83d3d8f802a627a929f150fb62
++  __TEXT.__text: 0x215ac sha256:befddbdb9cb53ff1804af6e4a103e63ab02225b6125fb73c11713d708e3114d1
+   __TEXT.__const: 0x15550 sha256:bff83b42d472273d8624817912b594e07cb348cb301b4287f5056ed895d2c626
+   __TEXT.__gcc_except_tab: 0x28 sha256:0335e9966c60e43e33542ab8dc6414251267aa95bac8298e36a6e60070f9efc4
+   __TEXT.__cstring: 0xa9 sha256:4496e68e0644c49def3941bfaf054e5e7156d7858d7d2882ba3635e9a2c65d89
+-  __TEXT.__unwind_info: 0x2c0 sha256:e933920b1d0318ffd36aeda4ab60ca3a10b89c10b2e19bf26939751d1f594f8f
+-  __TEXT.__eh_frame: 0x48 sha256:0b1a3872ec47b4f48e5aef420b694b1da720f1d29ce14e5b1c2802e8d574f3cb
++  __TEXT.__unwind_info: 0x2c0 sha256:d819d32f43526e1421c0ac986f14f09570bd817d11e353ff0571a87249a6a34d
++  __TEXT.__eh_frame: 0xa0 sha256:5ecd80a27448520b93680aaedccebf864e6eb260949a6d8725f5918fbc6a3a2f
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xd8 sha256:9a64e2289e395898622752c0e1ed175f9b309755614c31eefbe88f59e98948b5
+-  __AUTH_CONST.__cfstring: 0x40 sha256:aa7eb3c0d33a806a184bb460d6dc0785be4b4c56997cb16f914e431a31c55689
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:8721205ba3c969df8f40ac09fdf5780765230d96c77a977bc4973484d4e4c6bd
++  __AUTH_CONST.__const: 0xd8 sha256:35540093f0f783e40803c548bce67265178000085aa7d00d48c455f7319f68dc
++  __AUTH_CONST.__cfstring: 0x40 sha256:c13fc1b604f74b02b06d1d25c85444c113cfefe54e00af53f906c56f50204bb6
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:e665c69c35dfce5d969cedb547cac2fe48f37bfc3fb72137aca292f003e20f4c
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+
+   - /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 8CB4434D-6EF2-3FA5-88A6-25E61D4E8222
++  UUID: 8F43E080-BE63-313E-A788-82D4FE3E1DB1
+   Functions: 301
+   Symbols:   744
+   CStrings:  18
+Symbols:
++ __ZNSt3__117__call_once_proxyB9fqe220106INS_5tupleIJOZ15VCPMP4VRegisterE3$_0EEEEEvPv
++ __ZNSt3__117__call_once_proxyB9fqe220106INS_5tupleIJOZ23VCPMP4VRegisterInternalE3$_0EEEEEvPv
+- __ZNSt3__117__call_once_proxyB9fqe220100INS_5tupleIJOZ15VCPMP4VRegisterE3$_0EEEEEvPv
+- __ZNSt3__117__call_once_proxyB9fqe220100INS_5tupleIJOZ23VCPMP4VRegisterInternalE3$_0EEEEEvPv
+Functions:
+~ __Z5NewMBPP10MacroBlock : sha256 1261d9b4d1e9e0c89e000cb559134a6a79c9e3b32e701afbef6d5aaf65f7789f -> 65b91d8dbf8a0c4b347389f61b2c7ef7c7250e87949c91fe8176bc63578261d3
+~ __Z5DelMBPP10MacroBlock : sha256 0040cb15b542fa939af7e7bce80d0b4fdbe9f19c603030ecd4df4aae0d9c2fca -> 3131f92682346610ebec9f6c8a11348d38a15600143271f915d9268933873d1f
+~ __Z6FillMBPhS_t : 64 -> 68
+~ __Z15Reconstruct_8x8PhiS_iPshhhiPKh : sha256 9d7125da5591ff30719ba9aaeaa0b8bab14a65e313106a8ebc15b97188721896 -> abcc6362e3039310c9645c183d02ddc650017f452ab23553c8b17b380b6e6ee4
+~ __Z8MC_1H_1VPhiPKhiPKsS1_ : 240 -> 224
+~ __Z8MC_2H_1VPhiPKhiPKsiS1_ : 268 -> 288
+~ __Z8MC_1H_2VPhiPKhiPKsiS1_ : 224 -> 232
+~ __Z8MC_2H_2VPhiPKhiPKsiS1_ : 412 -> 404
+~ __Z14Get_QuarterPelPhiiiiPKhiS_ : sha256 84d1db924555e9735de64bceaaafa3573fe521cd513ca9b7df68c7e5a55ea219 -> 77a7cef6dc9f4391c4fbfb223510f00838662a78c574963cdeaa79b80b182a74
+~ __Z16AddResidueTo_8x8PsPhS0_iPKh : 232 -> 208
+~ __Z17Reconstruct_16x16PhiS_iPshhhiPKh : sha256 23332d6d153c1c8be1d88c4ebc23cc934b5bf5690e3f7d126e79b5c4673a4d20 -> 1b15db231a5a1ec9233941da5ff2c77a03c9ab5ce3bd05fcba70473c916c9997
+~ __Z11Get_HalfPelPhiiiiiS_ : 680 -> 676
+~ __Z18AddResidueTo_16x16PsPhS0_iPKh : 424 -> 376
+~ __Z15SetBlockToFramePhiS_i : 52 -> 56
+~ __Z15GetBlockToFramePhiS_i : 52 -> 56
+~ __Z14GetResidue_8x8PsPhS0_iS0_ihhhiPKh : sha256 2da630a22c9a61e636ecc0113f58ee93191ccc19f49539ee4125dd6914792af3 -> f103f3e5c5282af6b3ef6ae76fccd987cec30d9f94874ba9a5f9912c70481640
+~ __Z18GetResidueFrom_8x8PsPhS0_i : 168 -> 184
+~ __Z16GetResidue_16x16PsPhS0_iS0_ihhhiPKh : 488 -> 504
+~ __Z6MC_8x8PhiS_iiiiS_S_ : 448 -> 556
+~ __Z14AddResidue_8x8PhiPsPKh : sha256 259eef28dcd4a1d6c1703cc45c3f0e1112672511b401f410a19fc04969e6ab61 -> b6592879159e9f57c6af2c6982c10aa381f7fbc5fd27100ba94281f9f81990a9
+~ __ZL19Get_QuarterPel_MSFTPhiiiiPKhiS_ : 1144 -> 1168
+~ __Z11Blinear_8thPhiiiiiS_ : 3300 -> 3228
+~ __Z15Get8x8From16x16PsiS_ : 64 -> 76
+~ __Z14Feed8x8To16x16PsiS_ : 64 -> 76
+~ __Z16InterpolateFramePhS_S_iiiiil : 4908 -> 5364
+~ __Z20InterpolateWarpedPixPhiiiiiiPiS0_S_ : sha256 a79d3bae3498c6b21585b9409e8a48cc24d9c6d4076da674df942866ddd601f9 -> edb61f75379395168f4d1d923a216790069ca1cae00b9ce6cfafe14a75a6eeef
+~ __ZL18Get_HalfPel_BottomPhS_iiPKhh : 1104 -> 1116
+~ _InitMotionVectorArray : sha256 a9b3fca14c4e3679dbf8d9401f87d85f54574c0865a4d9f959754cb03438440d -> 192ebf0e953864365fe0819e575af9968674c1731f78decc0878fc7cd8d66e1f
+~ __Z27KillVopComplexityEstimationPP25vop_complexity_estimation : sha256 b9a7c26dbc2e67e5549975814b2f9d04524139553f9e0bc11e524e0066622210 -> 9c06c8de731e04f211d9b89e6506383eddf9d1ea73335f12d8e27b7d14356799
+~ _GetPredictor1MV : 184 -> 196
+~ _GetPredictor4MV : 352 -> 392
+~ _GetChromaVector : sha256 d2739ba8c936e095325900a9ae259ad75e576023af96501fd6883bace9a69e22 -> b8caa020d6efcaa5e9919cc70817e434e914c45c874fe84a864e29e0394d2ff1
+~ _QLuma_To_HChroma : sha256 3e485c524aa437495c946076be070bcf2a1bc4d518e6992a976be9260ada68e6 -> 892af6afa67d66d6cad3b4c6ded48875c734c6c192d97caa587db3be97af5fe4
+~ __ZN14CBitStreamDeco5SetUpEjPj : sha256 de5628e206dd1f5d582ce81342a2712b46bd5830a50be2f0bc4827d2c1354fa2 -> 88d7a7f05c75676cbc010b8873c66a35b784f235fb73a288b6f08bbacf13f816
+~ __Z17InitBitStreamDecoPP14CBitStreamDeco : sha256 7c64dfe525ceaca48657e32247c0156cc9b447aa64c1ea8521c499130f2c0fcb -> d530d1769d628e14e9a81240f27cfc5f68fb0e722b269cf3ac28070580d642e7
+~ __Z17KillBitStreamDecoPP14CBitStreamDeco : sha256 1cbea914bc037c1862537ea2f31315f54bc0306de843946a8a3bc9e9ccf454f9 -> 83bf41a33bf616d8652f7c7a5aba4e95defae186bc79d1401128ceacca56fc2b
+~ __ZN14CBitStreamDeco13ReleaseBufferEv : sha256 ea4691665292322b4777d382183f08121e1b032248b6bf856413371e78e52ece -> 907396fc20b12ea6bc4a9fb59ac6fb5beda6fb494816234bd6d4e1da2dc34db8
+~ __Z12DecHeaderVOLP14CBitStreamDecoP13INSTANCE_DECO : 4648 -> 4652
+~ __ZL35DefineVOPComplexityEstimationHeaderP14CBitStreamDecoP12picture_info : 3692 -> 3688
+~ __Z12DecHeaderVOPP14CBitStreamDecoP13INSTANCE_DECO : 1780 -> 1792
+~ __ZL33ReadVOPComplexityEstimationHeaderP14CBitStreamDecoP13INSTANCE_DECO : 12600 -> 12596
+~ __Z20DecHeaderVideoPacketP14CBitStreamDecoP12picture_info : sha256 395d3308510cb121c12ee429b2902c9069d11d99ccdfe249de061b566194ce45 -> 23423f2eccf3ed1d9b0f629cdc792501afae90c187095bf51de842e548db91a3
+~ __Z16DecMotionVectorsPsS_S_S_S_S_S_S_iiihhhP12picture_infoP14CBitStreamDecoi : 940 -> 968
+~ __Z12DecMcpbcIVopPhS_hhP14CBitStreamDeco : sha256 8d09820bb17c14c428fde781eb73e35e33c02df641605a26a30cfba1439baac4 -> 04e3caded2b9040b7e92c84f8dc55d1734af85329f46dc13bff1cf4a85daf497
+~ __Z12DecMcpbcPVopPhS_hhP14CBitStreamDeco : sha256 9870da25675845ee5cfb10b842e54e3d1f1aa20e9d27aeebc9968b31086009c9 -> e3034943964af529179ec50ee0324033308227230a46fae7ba60ce91ac1056db
+~ __Z7DecCbpyPhhP14CBitStreamDeco : sha256 8c8cb2ae04e8e87fa34d20506629d9736b851c6f717846fea424783e57b9be87 -> f28159a95dcd86d280245fd30ca5067983ef104afcdfecf30fa9c72c2c27b2e9
+~ __Z9DecDQuantPiP14CBitStreamDeco : sha256 5f2bb04d92e1bb2be9343a97d672c6d94aeb4c9606371dd91a010748b842b688 -> 903ce7ac57a0a6f5df6838b218c6fc12b96a4855f59093e2a4f9d9a0fcc93135
+~ __ZN15CIntraDcDecoderC2Ev : 228 -> 244
+~ __ZN15CIntraDcDecoderC1Ev : sha256 5be4b08cc3454c342414987b26d806ae44c3dbfb836a6e903ee1be6fe08d4085 -> 159124d8856dcd0f0821c535c1e9e1ac1d4f42eca865bf6ed74234594ccbc304
+~ __Z14InitSourceInfoPP11source_infott : sha256 c6c6d3f28373a91e2e3011310fe221b2e432aa4c28fe73289cdc85385c2176f9 -> 54d82c5fc30d75dda67b49722961b9848aae400fada909a27220068e899dac4f
+~ __Z13InitGobHeaderPP10GOB_HEADER : sha256 1e72d1615f003482c1393ee1de1fdc0b95d07cb419273a376244c03442777006 -> 6e44bfad82296a0ba10c206019b6b59087e3b494c3a153032e1bb9804127674b
+~ __Z15InitPictureInfoPP12picture_info : sha256 d31a4cf20180ec4050f1bf3551c69c455d74e3a35b8ef386a0c72d7fe435b32a -> 4cbc8486a753e7af24714c69b33e3f52171257da28918deba9807f6cad7e0207
+~ __Z27InitVopComplexityEstimationPP25vop_complexity_estimation : sha256 3ebc4e9e0003b2285f9135b72ed0f1f7165e44df69c5ae6a21a91d2a9a3502a4 -> 732bdd9db93ba76180456c0362ac4412b388f5a0af875d531494d26f61a00499
+~ __Z13KillGobHeaderPP10GOB_HEADER : sha256 fcb040be030284f83d59d6c88f2ff64e1bcac6ad1e3fd3c962d49b327d71ab2a -> 1d438c962120b9a8aa10d9620a998b3efb0f798b28a6b5c910c0c64811c71647
+~ __Z19InitEncUMVMVDTablesPP15ENCUMVMVDTABLES : 324 -> 316
+~ __Z22InitDecodeUMVMVDTablesPP18DECODEUMVMVDTABLES : 540 -> 556
+~ __ZN15CIntraPredictorC2Ev : sha256 5b7d9a6d00fb02fe4610a7629bb900f5e454044e1e0e11a1e96eceb6fa5927ce -> b7aa728d4e8376e97b1e6187e831869fa940f57a6e4c7e186ac4edf7ee60f1e8
+~ __ZN15CIntraPredictor17ResetUpPredictorsEii : 44 -> 52
+~ __ZN15CIntraPredictor19ResetUpPredictorsMbEi : 92 -> 104
+~ __ZN15CIntraPredictor17ResetPredictorsMbEi : 164 -> 196
+~ __ZN15CIntraPredictor20ResetPredictorsMbAllEv : 112 -> 148
+~ __ZN15CIntraPredictor16DumpUpPredictorsEPci : sha256 f81b408964ac3e11cb65a1c0ea2fdfedcc58db66577d5d0178f74fbf7a374485 -> c1a7feb2e60f7698756fdac21a718220448c9d89b5d55c6378c37effdc849efe
+~ __ZN15CIntraPredictor18DumpLeftPredictorsEPc : 212 -> 220
+~ __Z11IDct8x8YoyoPsS_i : sha256 f336e72f0017051718142c1811e9035c5f2365ba90a098876f87571f8437755c -> 0b0197baca5b0788ffea5c349f5858a146902d780c1b71337a00e85f79ee0719
+~ __Z11IDct8x8YoyoPhPsiS_ : sha256 64cca1c0790d3a195137ed687e1d8de195bc0d61f270034f7e17d8d6c20a410e -> fefda80838b4b20613b2c40f5a878382264b94d7fa9153d22ff8abd7bf82b61d
+~ __Z12IDct8x8smartPsS_hhii : sha256 302cbefff367c9d392e7fe3a4f836c871a0accc225ae7b6e05aedffd1d92c3e0 -> 26c782a78598d3f0ee73e832a1c724d9695b1dd9516269aaf458b66b5f8948c7
+~ __Z10idct1DC1ACPsS_jj : 1796 -> 1948
+~ __Z10MPEG4_IDCTPsS_i : sha256 83c9eb3c20a4e4db3f1432d132d2821e050b84b1dd009ab810066f04afe0f2d7 -> 220b2963d42e180b888f0e9bbcb50bb90b1fe05b2026fe28cdcc85fa6fbc2bad
+~ __Z12IDct8x8smartPhiPsiiS_ : 1212 -> 1228
+~ __Z7idct8x8PhPs : sha256 15859d647b605461fb6c16365ddb022a8bf6cab30a5d1ce7ed49a485a500c175 -> 692301f0c87daff24b8e37033cfd085625b1675053a8b11a314e687ef893d33d
+~ __Z7idct8x8PsS_ : sha256 813397082f89ce6beb6043f572dc3fc28c45b052d8fe33fa3cbc09f463585df9 -> da8e298f71924477f457c68b0ae4646604b6f81866d67dfe640f6df31512f019
+~ __Z9IDCT_W8H8PsjPh : 1144 -> 1240
+~ __Z15Y420ToY422_yuvsPhS_S_PittttiS_S_ : 280 -> 268
+~ __Z15Y420ToY422_2vuyPhS_S_PittttiS_S_ : 288 -> 276
+~ _MPEG4VideoDecoder_CreateInstance : sha256 545a12da0ecddd6ba7c0e6601f3a367e59458383471298ca71a2ae1458c1d844 -> 24c1baea55eab832fbf41a767aa6a016a0f47653013c63257a927a3e0e8c7e76
+~ __ZL26MPEG4VideoDecoder_FinalizeP18OpaqueCMBaseObject : sha256 d6cf3047e2d955db859556a224b412fc4179de6900969b2a82322aa6c5b1a665 -> cd1b1c4f77fe241c5d06b39322f343c29ff69bb2afd06b9f52cfc232045b7c44
+~ __ZL38MPEG4VideoDecoder_CopyDebugDescriptionP18OpaqueCMBaseObject : sha256 e445840fcffd22e2471cb4e666534e6766485496415d7453d03fb5551253437e -> 98445a8151eb94ce68a941ca2368d63397051a8af9de4f63c535d41d8b631016
+~ __ZL30MPEG4VideoDecoder_StartSessionP20OpaqueVTVideoDecoderP27OpaqueVTVideoDecoderSessionPK25opaqueCMFormatDescription : 1552 -> 1540
+~ __ZL29MPEG4VideoDecoder_DecodeFrameP20OpaqueVTVideoDecoderP25OpaqueVTVideoDecoderFrameP20opaqueCMSampleBufferjPj : sha256 7a25842cb3eec876db5858e81b13c1eed65be2480c9414bdb77fb798e39b3c2e -> 7dec9daa29e1966ab5c4b69d6f7bea3a2aa189365bb2ebe53bf512d37931803d
+~ __ZL13unpack_headerPPKhhS1_ : 140 -> 148
+~ __ZL25unpack_SLConfigDescriptorPPKhP24MPEG4_SLConfigDescriptorS0_ : sha256 49ebdd1e03f88898e62ff97eaf65de42682d0f1438d42c11947f811f1f35256a -> b32f62bc56bc1aeeef368c349580cd1819353784961a375e849ed9aaea622ddd
+~ __ZL26unpack_DecoderSpecificInfoPPKhPPK8__CFDataS0_ : sha256 d9880835070020edf98d1d8ad11f548f88d4585f7ffe9ca2084250dc13d37cfc -> 2353f4d20f2473d05e2e03690f58abe8d923f7aecd887a518cb73471d1a2135d
+~ __ZL21addNumberToDictionaryP14__CFDictionaryPK10__CFStringi : sha256 b72163f38f73d8a960d3834bfc5644244f7bf4e85b269cf0a1c95fdf7128636e -> 9c4c73fc8e55a68452f7735ae324ebb2934b80a04d8557096fc9c83ba366315b
+~ _OUTLINED_FUNCTION_0 : sha256 3eb4d3fb1c40710f29b8278551f5905cf39e40d826a774bedc31d91c4acb3d47 -> a0dc2f2949576dd154ae4380198f45c39c4653130f4dc70c464d1e62fd0f438d
+~ __Z16DeblockFrameFastP13INSTANCE_DECOP5framePK19PostFilterSemaphore : sha256 cded5ba2fb5a5cb77f19fbf9a178d038d19355c1641745cd7cd9dd13271d27b1 -> c7d2e5ee011ea0024bfc6096df21eb9365a6cb7b19282b268e9fa6d439e18f74
+~ __ZL23S_DeblockPlaneFastSmartP13INSTANCE_DECOP9buffer_u8S2_i : 664 -> 648
+~ __ZL18S_DeblockPlaneFastP13INSTANCE_DECOP9buffer_u8PK19PostFilterSemaphorej : 208 -> 184
+~ __Z15DeringFrameFastP5framePK19PostFilterSemaphore : 1172 -> 1168
+~ __Z12FindMinMax2DPhS_S_jjj : sha256 898f6e1fe3a363a90e3f21affa4d8a8101e99b53f672a354bc273e8116576465 -> fc380e852fb9361b7fece52b46081d65439bcb9b2ed55d5dfe353a6a2888e37f
+~ __Z14DeringBlockAllPhjh : 368 -> 372
+~ __Z11DeringBlockPhjhj : 796 -> 828
+~ __ZL13S_DeblockEdgeP13INSTANCE_DECOPhjjj : 976 -> 956
+~ __Z18InitIntraPredictorPP15intra_predictort : 376 -> 392
+~ __Z18KillIntraPredictorPP15intra_predictor : 148 -> 172
+~ __Z11CheapyReconP15intra_predictorPsi : 96 -> 84
+~ __Z14ReconAndUpdateP15intra_predictorPsiiiii : 508 -> 488
+~ __Z10UpdateACUpP15intra_predictorPsiii : 60 -> 52
+~ __Z12UpdateACLeftP15intra_predictorPsiii : 52 -> 48
+~ __Z18ResetAtBoundaryTopP15intra_predictori : 132 -> 120
+~ __Z19ResetAtBoundaryLeftP15intra_predictori : 188 -> 180
+~ __Z14ResetAtInterMBP15intra_predictori : 120 -> 112
+~ __Z17Set_blockIsOpaqueP27MacroBlock_data_partitionedPh : 76 -> 72
+~ __Z19Check_blockIsOpaqueP27MacroBlock_data_partitionedPh : 40 -> 36
+~ _MPEG4DMPR_Decompress : sha256 b60bb67a76102439033b395aaf7162c9be7125ca71183805096299f728ef7ace -> 9a339afd6a9eb2ebb6bb64c371efa584e56f2813a23e1923f40d1207480b98f3
+~ __ZL20ReadSomeVideoPacketsP5frameS0_P13INSTANCE_DECO : sha256 76ec92a8b9a72209719c9d629c02f6f4d094d92d09df4b86d6d549084244fa46 -> a96bf3ec774257170a022deb228c20182a8d8c9636a57ec0841709a0c9b7d046
+~ _MPEG4DecoPullDecodedFrame : sha256 0449586a82d4ce0c967dfeec2ac33a1843ccbaec876c8d3a0e40dae009577d8c -> 35a746313c72a9d03032d9a7e1503bdd932aba8ac343bee2029dfd986dfe0e84
+~ _MPEG4DMPR_ReadHeaders : sha256 de35fb6151cbf8ca29dedf0e068ab41747e4af9fa39db972a704464095d4a0d5 -> 614f3c991a59a3dd807bc17c509b9ac070105bf1a7afbf0de3bae4ef926f2ba7
+~ __Z26RecoverMissingVideoPacketsP5frameS0_iiP13INSTANCE_DECO : 476 -> 568
+~ __Z13DecodeMBInteriiPsS_hP16macroblock_stuffP13INSTANCE_DECO : 1348 -> 1308
+~ __ZL27DecodeBlockInterTexture_8x8P16macroblock_stuffP13INSTANCE_DECOiPs : sha256 2267769c94161ede37521ac8c439e9c379e1c134b4b930e153107fabe99f30bd -> 856bc265dbc126b8a97b30054050a14710b188af7d5cf2464384bf55cb41fc14
+~ __Z11DecodeMBGMCiiP16macroblock_stuffP13INSTANCE_DECO : sha256 75a0721512fbef4900f4a7aa20470c94bc1aea27bdcb07eac14850cbb547a278 -> 0ae1c60914806ca660c3b05b632271736969a67258a42da78dab2b495e696d18
+~ __ZL16ReadAVideoPacketPihP5frameS1_P13INSTANCE_DECO : 9624 -> 9492
+~ __ZL16DecodeBlockIntraiP16macroblock_stuffP13INSTANCE_DECO : 1380 -> 1368
+~ __ZL21GrabBlockAndIQuantiseP16macroblock_stuffihP13INSTANCE_DECO : 1704 -> 1696
+~ __ZL19GrabDcFromBitStreamPsiP15CIntraDcDecoderP14CBitStreamDeco : sha256 7811e15b3c8feb7b77e7bb60df2746302b447b8604e1c5debdb540d3c655e9ff -> e5c2e01f4e045aa597c9ef5f57afa24b76130439c53f0b0541fe6ef01ce5dea6
+~ __ZL31DecodeBlockIntraDataPartitionedPhPsS0_S_iiiiihiiP13INSTANCE_DECOP15CIntraDcDecoderP14CBitStreamDeco : 472 -> 484
+~ __ZL31DecodeBlockInterDataPartitionedPhPsS0_iiihiiP13INSTANCE_DECO : 2116 -> 2124
+~ __ZL24GrabAcFromBitStreamIntraPsiiPhS0_hP14CBitStreamDeco : 2176 -> 2184
+~ _InitInstanceGlobalsDecoGenenral : sha256 53abd79b92128385e87a485984a2d520bc53581f2d63c1d8859276409ec2267c -> 0548677ee2634eab2e4ffda2bf3167f8d4d6de978c33d4e49d82e15a0be99062
+~ _KillInstanceGlobalsDeco : sha256 22e9f613b4dbb762c26d7e986c490ff74a409d7a0dc9914d4619112986933ec8 -> 3d6a54c85c592ce70d35bf0a120f792871d85c388cfa8a1ec765cd80b4c9c0c1
+~ __Z18S_BuildGammaTablesPhS_ii : 836 -> 844
+~ _S_BuildNewGammaTables : sha256 68d1fcea8980c1fe9bab6aa3f03647f996da7c11ff6f760294f70eafbbcfd451 -> 4d361245a4d1982f444bb30984eb440bbc0a7879125da6abd3b2000a23b27fd4
+~ __Z8DrawGridP5frame : 224 -> 228
+~ __Z15OutlineIntraMbsP5framePhP11source_info : 184 -> 180
+~ __Z19OutlineVideoPacketsP5framePhP11source_info : 208 -> 200
+~ __Z20HuffmanDecMcbpcIntraP14CBitStreamDeco : 456 -> 448
+~ __Z20HuffmanDecMcbpcInterP14CBitStreamDeco : 712 -> 704
+~ __Z13HuffmanDecMvdP14CBitStreamDeco : 740 -> 732
+~ __Z14HuffmanDecCbpyP14CBitStreamDeco : 292 -> 284
+~ __Z20HuffmanDecQCoefInterP14CBitStreamDeco : sha256 2e7fa8fc614029bdb66db28eb368283fdf5d839b802fa8ed8fb69e119fa387ff -> b1f15d328eae58a99ebf40381a269bd2986fd0bd5a979a4ca7cc9f105beaa634
+~ __Z20HuffmanDecQCoefIntraP14CBitStreamDeco : sha256 0387288d81e5175cbf1c91b7ea54758e163c50f8cd024304a1906f088f38397e -> 50ce7dbb9e962ba8a322179ec09cffdb8feeeb46f865de4bdf2a8b6d25de32bd
+~ __Z24HuffmanDecQCoefFastInterP14CBitStreamDeco : 436 -> 416
+~ __Z25HuffmanDecQCoefFastInter2PjS_ : 120 -> 112
+~ __Z24HuffmanDecQCoefFastIntraP14CBitStreamDeco : 436 -> 416
+~ __Z25HuffmanDecQCoefFastIntra2PjS_ : 120 -> 112
+~ __Z12RVLCDecQCoefP14CBitStreamDecoPK9MPEG4_VLC : 324 -> 320
+~ __Z12DecWarpingMVP14CBitStreamDeco : 740 -> 736
+~ __Z25DecBrightnessChangeFactorP14CBitStreamDeco : 700 -> 696
+~ _IQuantizeBlockH263 : 124 -> 120
+~ _IQuantizeBlockH263Opt : 184 -> 180
+~ _IQuantizeBlockMPEG : 268 -> 256
+~ __Z13MPEG4_IDCTVecPsS_i : sha256 4e9adce1ed795a2f19c884f26672ac46b54c1d4fb9e2a387283a032f5f687ac0 -> f41497973c1520c88f2feaef58b0f9c5b8cb05b23ac723002c067fd427b541ac
+~ __Z12MC_2H_1V_VecPhiPKhiPKsi : 80 -> 88
+~ __Z12MC_1H_2V_VecPhiPKhiPKsi : sha256 8d734bde870af8c19c0acfa80a23810f7e5d1f37376633fa3ac8c68697ca4717 -> 75e4e24a1d24e12c522667d2914914e340271ab17629cced501cddeb069a3405
+~ __Z12MC_2H_2V_VecPhiPKhiPKsi : sha256 c103fe1d6ffbc8f8af4e8e45ee69a00ae1b1233a3453cc9bd5afa389ed4cadfa -> a4e40fbebc44ea6057371955cd85613d43c094e3e6dbbe29881f280e74d4de0a
+~ __Z18Reconstruct_8x8VecPhiS_iPshhhiPKh : sha256 6aedaf51ca2878adce7c6ba67b47c41d9a2ab3176ba439a9d45f8e61a805cf75 -> 1be519fdb6b70bde1dbb588c9ddf1097d632693fcbfb9c48a87d674ee8285bc3
+~ _VCPMP4VRegister : sha256 ea2e4e397628356856b5cd55324788a7eb69a5a36fc9a5e97cc0baa6b3a00a44 -> a5723cbd777d767021520e35cdd0df2e762353f37df581332622b62d4199f614
+~ _VCPMP4VRegisterInternal : sha256 0b66d19231cd5ffc32ddf801baf32e01608cceaf11486eda0db370e09da79615 -> 924f06f249873c76897c439c14fc3ec47e41800affb435089b4450a51a2fee8d
+~ __ZNSt3__117__call_once_proxyB9fqe220100INS_5tupleIJOZ15VCPMP4VRegisterE3$_0EEEEEvPv -> __ZNSt3__117__call_once_proxyB9fqe220106INS_5tupleIJOZ15VCPMP4VRegisterE3$_0EEEEEvPv : sha256 77f5664e08c569ebaf9dbbec81d03968e5ad284e1a4321259329bed7d847037c -> e02197fd0640d9ff82d90f0bd3fb1169ad6d917d20f3ab6ba550e48e67fcd0fe
+~ __ZNSt3__117__call_once_proxyB9fqe220100INS_5tupleIJOZ23VCPMP4VRegisterInternalE3$_0EEEEEvPv -> __ZNSt3__117__call_once_proxyB9fqe220106INS_5tupleIJOZ23VCPMP4VRegisterInternalE3$_0EEEEEvPv : sha256 50632ae1d588da5cab1d5d0f76e77f31111060583a37a4938bfd6d9e469c4484 -> fbf15779e47c2b4dafb374b4873202631031721a93401b899342af917d9ca02a
+~ _NewBuffer_U8 : sha256 c65e9519cb4d0089154dafb30dc6350ce4955977c5d8d424db6e4781d947de5f -> 4fff7571d146be855237ed116a4223f8278445c1be12a01fa61c43afc9edf377
+~ _NewBuffer_S16 : sha256 c75da6ec71ec66b6f5904f6cdf26b61ff583ed2bd975890878e0eb24ddcb62af -> 662c96b6bc15e9eba33e91728d49f648f65ff2874ee84a164a3dc45767c1f872
+~ _InitFrame : 436 -> 440
+~ _DelBuffer_U8 : sha256 25f6535a06798fcc1bdf7ae564df75aa01c55f7e491ff8b5f329264e18e83dbf -> 56d47d90879ff7aba523c71502ed00b23c2b0683e0d94f6990cb85afb06380d1
+~ _DelBuffer_S16 : sha256 9fc21c25fbbb30621ab0a102ce709e5fc1ad21fb3ffd92716d0444614749ac64 -> 36a0e2bafb20fb571465b0fa71126e5b055f2a82c7764574156525cd4aff44a8
+~ _KillFrame : sha256 db36872082087a2db77c5afb7076c54babe5328af40ba799d6f12b60c0ad787d -> ecd38f9d4e724b28cfdb859d3b8da66a99e63300b8cfe638b2a8402fd20034a6
+~ _SideExtendBuffer_U8 : 584 -> 576
+~ _SideExtendBuffer_S16 : 600 -> 520
+~ _SideExtendFrame : sha256 5439381a0fdcba7cd6ffab73c1898b53e6922ebce8cd4d042c69148351467ed2 -> 7a74e100f6bff3c2e43b0d7d04744834fde7a3c93bfeec85b9e42b35fafaeed4
+~ _CopyFrame : sha256 c68aa407b516ea5af574763466435b36d2def58b57d8ce2ddb30fb7b3e1cddce -> 86bfaa91f33b29f9a0a3aa7f53792184ca0c2d75ed096797ba032dda22c421ba
+~ _CopyU8BlockToFrame : 240 -> 232
+~ _CopyS16BlockToFrame : 144 -> 140
+~ _CopyToBuffer_U8 : 108 -> 96
+~ _CopyToBuffer_S16 : 104 -> 96
+~ _CopyFromBuffer_U8 : 132 -> 128
+~ _CopyFromBuffer_S16 : 124 -> 128
+~ _GetFrameYChannelMAD : 120 -> 124
+~ _GetFramesYChannelDiffMAD : 260 -> 276
+~ _GetFramesYChannelDiffPSNR : 172 -> 188
+~ __Z13DumpBuffer_U8P9buffer_u8P7__sFILEh : sha256 4f955a1889da1a66d5a9b850d6df499541a100a373396ff051d8e51acc2a76ed -> df63f9ad9b1994b8e41d90792c0d5871c957d6e3f209ee5e93aa6e9febd1e517
+~ _DumpYUV : sha256 9d74395c457d60f87fbba4eec9459363083298014c7c5b2ecaa7a991fc47ea2d -> 0447f7cf0dde47c9a99d05cd14b8acab5d94bc2a389eb87bc62ac25c7b4f700d
+~ _DumpY : sha256 724d0f816932b1ca05d0558fac06ec2324437851e178a8f08ec870fbf0e936d8 -> 87d51100069084bbd87e5e4e8202c9b6a7c7042c16fd4b6240f1be991d6d9021
+~ _DumpU : sha256 06408f6d6815bb060ccb5b4733e42bd4745a43fcb6daadfec86bff2941750460 -> 80cd7f3cc71c7dd5dd4c4b55169dbb3d02adb29539710401622ac9967e213cf7
+~ _DumpV : sha256 0f5e2a46b7d0f58a7a6648b4f77773a17506a53598890caa5a9e7c94c6d021fb -> 713039189d1624c82d6a3a99c75a10ef15e07974424ac47ab75cb10e3ec37f10
+~ _DumpY2 : sha256 0d79505d1ef44d2526719048d8f68ed51905b7c1c1adbc0aa63520a5afd65a90 -> b07b84920581817642e2d8b702c814a3828bb95f973542405f5687a7ea4c81a7
+~ _DumpU2 : sha256 b5c2324eba4c1cb42113f0046d28ff27cc0c9e5b41a42c9ad2f400c16393c616 -> 30fb52192a360fd1507bf71bb3b32dec8759d2aef61935dc924933350da37108
+~ _DumpV2 : sha256 0487088ec134c1faf4509935520068e0fe023598d7ab88cc20883b0516d64965 -> 6e4334200f3b9ebe6cf209eb795e2d97f6b2297a23c2dfe2cc06d3161b22f9f7
+~ _DumpFrame : sha256 bcc1696ef0a30d7e6934fa3639351d39c607ba952de65f34a88673b822f7fc07 -> ac8a6ded43a6496681cb96596ab4f859a64164d0959650a3eaa2509e2e6b85d9
+~ _DumpFrame2 : sha256 0744df65f04e76fbd0d0bc8a3afe8ea2b07b1dde06574b94d5ed6c896e0ff453 -> 9509dc0df4405e3b0f2385531d6cbc013bb34959016c5188e62bc5e8d6ff9f3e
+~ _SetBufferAllVal_U8 : 44 -> 40
+~ _SetBufferAllVal_S16 : 28 -> 36
+~ _SetFrameAllVal : 136 -> 124
+~ __Z10Line_FramellllhP5frame : sha256 02474d0fba83a70c14d0f320ff0e1bf1dbfb09f22529c2bacf6eaa2806c16460 -> f2a0539f0015df5f0ee50e4ea95bfb35b816d4ca744b54d002884973a000fc44
+~ _View_MV : 604 -> 588
+~ _CloneFrame : sha256 0633146d1d9a0a7874b51e83a469ca972b23f999f4d4c8f80e01d32e5b0568f3 -> ed6edd60aaf5da3d6119bb163f8e4a8c0b8bd19f3ac7863b6605f0ad8f82fcca
+~ _WipeChannel : sha256 2b0fc8ea874d08e354347e25856ca569bdbfc65c5d4bd0b46f89b45c040a5f57 -> 41b6b7f2e4ccf5501353ea821e40d2c4b99583936da3777e6e2bdea882d4e20c
+~ _CopyChannelC2Y : 132 -> 136
+~ __ZN14CScanConverterC2Ev : sha256 f2e8fdb80a5b64ca8e20c8252037713c9b2f76449e1d998943c34d77cb38959c -> 0c56d214bc98e4df4541f8473195e7369c172dc3fceeecbb82ce1d18de755a03
+~ __ZN10CBitStreamC2Ev : sha256 40ad051c92e7beb819737fc970dcfb76c7c2316181c37d8fa602f7376dca230f -> cc22d41ef6a21b0c7cf8d729e1a1abdeb8bd5c01f18c0fca35daa1e2ee76e1aa
+~ __ZL30MPEG4VideoDecoder_StartSessionP20OpaqueVTVideoDecoderP27OpaqueVTVideoDecoderSessionPK25opaqueCMFormatDescription.cold.1 : sha256 ae5ed44dacb970844c550c7b4999e565eb4ae9848d8f93bde54dc2de244d809f -> 5a25db2e030fbdf065b16148daf0bf7f993b326f252d26915916d93e1568941d
+~ __ZL30MPEG4VideoDecoder_StartSessionP20OpaqueVTVideoDecoderP27OpaqueVTVideoDecoderSessionPK25opaqueCMFormatDescription.cold.2 : sha256 a2143a4d115572bb38c59e820b192d63efbec00356e016cea42bd684388119c7 -> 840613e0e37ce5e33fd9210e9efc9bbea230d7d8eb900e215f55f07f53fd5f6d
+~ __ZL30MPEG4VideoDecoder_StartSessionP20OpaqueVTVideoDecoderP27OpaqueVTVideoDecoderSessionPK25opaqueCMFormatDescription.cold.3 : sha256 17b11f70c2fbf90c6271ec7bd950e3242856e6d4e64480dc26a967ca1aec8f5f -> be4351dbd64b5ef79034c5850da008390f590cbb4e8571f259050822fe188888
+~ __ZL30MPEG4VideoDecoder_StartSessionP20OpaqueVTVideoDecoderP27OpaqueVTVideoDecoderSessionPK25opaqueCMFormatDescription.cold.4 : sha256 af6e9f89c4a723f176e4d95bc00c8bd0a0b9951908869fd7a54973c94859c721 -> 01522f74a2d9c3de99e0b0ee95868415e550a1a43de6e5676c8828b620cc8d3c
+
+```

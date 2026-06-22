@@ -1,0 +1,909 @@
+## DashBoard
+
+> `/System/Library/PrivateFrameworks/DashBoard.framework/DashBoard`
+
+```diff
+
+-571.3.0.0.0
+-  __TEXT.__text: 0x2dc2b0 sha256:5a37569ab148b30ec0863b29a3dbca10c26c747f5e8523d5c15c5ed5138c1c9d
+-  __TEXT.__objc_methlist: 0x17374 sha256:32f758310a0a6de47088430b1651680009904043f8af92026eff5f66b7d5ff05
+-  __TEXT.__const: 0xcd84 sha256:8a58742946ed2d2012910ddb9b47274717b5bca88430d01f98228a1dc3f70435
+-  __TEXT.__cstring: 0xd707 sha256:638e8e291fe91b44022b0c6492c9f12d1ec2eb70568757eb1f2d0fcf407dbefe
+-  __TEXT.__gcc_except_tab: 0x1ba0 sha256:60bd5688502c2c390545fa3e7406767df6c89c13a9139b2852acdc170535c476
+-  __TEXT.__oslogstring: 0x16cfc sha256:5f4491b5090dbfca9ee16db958dcbe2477462d8418094075d37d603bfc76fb8d
+-  __TEXT.__swift5_typeref: 0xb39e sha256:e0d6a53269d5d180eda81947c8b4a356e90b945fdb489277c30457c36eb09ef5
+-  __TEXT.__constg_swiftt: 0x6d60 sha256:ad6914b15062c495947d6b0fc42b044a28c9a0a82ace9d7636c4a5f06cc9ff0e
+-  __TEXT.__swift5_reflstr: 0x5277 sha256:45c61931564669ac571f9ce9ec3ff448eeddc7285187c8f4452f5fb00dd01732
+-  __TEXT.__swift5_fieldmd: 0x41f8 sha256:d6888b3793e3b8f6b270435bdb22b896abc04b0134f69efe98a262f2491c365b
+-  __TEXT.__swift5_capture: 0x2e3c sha256:22ab2a5350e209ed886e26359d6c14003fadb4da7354bca13ea4543a0177a88d
+-  __TEXT.__swift5_types: 0x624 sha256:c9a5405e3c9da606982f1fcd56f1496f2dcc2a227d228ef1e0acadfe5b73c6bc
+-  __TEXT.__swift5_assocty: 0x960 sha256:c7ed30a1211ddf7324f148afe1a9bf29023b86bf0ead7e1ec9c494d9323b1b5e
+-  __TEXT.__swift5_proto: 0x42c sha256:ebb7f0171144758b8595732825cc1eed14d38e12733817bea2be480595faefd2
+-  __TEXT.__swift5_protos: 0x44 sha256:8d60a9dbd231c629101224613b4c260403e27ecea4bac313637fe8fed1a9f00c
+-  __TEXT.__swift5_builtin: 0x334 sha256:bffe85af52c7b2258e7fd41cf415e2eeb10b14c7b308cdfd7bb3b32f89d8abdf
+-  __TEXT.__swift_as_entry: 0x150 sha256:1369191a8e894b749b1374572242860dabfa10b81c20edb15bac831b3f0c705a
+-  __TEXT.__swift_as_ret: 0x130 sha256:3912b23768e4f8a300ec69fbc65ba5af8a0acbdf61b3ed6d734a05674559d2e2
+-  __TEXT.__swift_as_cont: 0x21c sha256:4090f6fbe735c6fff83937d4c513c0d39d66412c640661f13a7d4d52702f2674
+-  __TEXT.__swift5_mpenum: 0x8 sha256:204b6653516be63ebe2cac1fd6b8a9383c8efc9228b421ec3d9e3ebcf1622c15
+-  __TEXT.__unwind_info: 0x94f8 sha256:69ad6545a1625e4c480b88fd085dced3d03a36c239a7858735be1212ccefc42d
+-  __TEXT.__eh_frame: 0x4430 sha256:344e94d7cc68a9f21439dfceb9066314969fa63b06f337b90a88ff1863f2504b
++574.2.0.0.0
++  __TEXT.__text: 0x2ed9dc sha256:2b019f46c39f67e67ce082abbd82ddccd3b10aaa054ddd7efc1e5920733aef5a
++  __TEXT.__objc_methlist: 0x177bc sha256:568a761045fd3a1e163e1e10ad3587bf172129ee8f2ae285f7ab57e4aff675e5
++  __TEXT.__const: 0xce04 sha256:facc0f0a96e13f6de6e54e5a17855f1949833b6d5a219b73180e95ae3d361479
++  __TEXT.__cstring: 0xd8f7 sha256:49b0068707da6f3c441e2fd9b851ea3575f6de394e07fa9579e5f3922893ea0f
++  __TEXT.__gcc_except_tab: 0x1a2c sha256:d5c5eb2c6f5f121638cbbfd3e7b4fcaf891765a72f079b4b3b4ce0eb1cf38c15
++  __TEXT.__oslogstring: 0x176fc sha256:84517c9c39f9bb7c2e3365fde4dc3afa9f821e8b5c2cbda5c28f3e8ae8c03a1d
++  __TEXT.__swift5_typeref: 0xb6f0 sha256:c3c6dbbcd25b0e3e6ad2537a73c6ad147cc61916e28e55cd091e28e763f5ab63
++  __TEXT.__constg_swiftt: 0x6f60 sha256:20787255e8ec948fe480635dbf5f415d97b8f6e0cd1fc4bdd5fdb8aa3a27588f
++  __TEXT.__swift5_reflstr: 0x53e7 sha256:9d350a2f55a55db0c96c43672dd2450854e4e61f3f331b63ee53b3a6c6396211
++  __TEXT.__swift5_fieldmd: 0x42f4 sha256:befa2041baf1ee6580ab72e7707271280eead5a2689051a32ccff694967ebfb6
++  __TEXT.__swift5_capture: 0x2f68 sha256:671122cf142520a74e3ed7672b39ec0c0ab3002e46e3a8c0a6db490cfe0bb0a7
++  __TEXT.__swift5_types: 0x634 sha256:679bb127db0dc808e5b78c6ea890f06afb42a9e2987b27428bf1714113459e40
++  __TEXT.__swift5_assocty: 0x948 sha256:d631ff7bd6221c98719ce84674c4d21b490a60dfa786293b5ac9762b81bdebc0
++  __TEXT.__swift5_proto: 0x424 sha256:271c04246a54b7da98c7cb7b2bbcdd8bba44ef1f6b45476996adc6ad0d6107b6
++  __TEXT.__swift5_protos: 0x44 sha256:145c8b904a98d697bf44cf72bba973a1430c3e69582f111d3fd181359f3f7ad2
++  __TEXT.__swift5_builtin: 0x348 sha256:77e87f925d2be7f33d19f28c8c511caf2d2e3e194a1d0aa63b1e26243300a0b2
++  __TEXT.__swift_as_entry: 0x150 sha256:bb991f857d60df39f65e30aa276e2bbb15a84e1cec4e11d62d1fbc4d42804708
++  __TEXT.__swift_as_ret: 0x130 sha256:2d8cc2b1f2f8399407ebcf679b5f7eaf7d6c6b33c2bd557d26fd6734c59760f1
++  __TEXT.__swift_as_cont: 0x224 sha256:0bbe87ec9d4dd18e43be23f91a175365937b28cec0ab9bd2b6c522fd726820fa
++  __TEXT.__swift5_mpenum: 0x8 sha256:4e92416db75788c02c930c48c8f7645753e2b44c0ff78e9587f2bd2d14b3ec65
++  __TEXT.__unwind_info: 0x9728 sha256:629a054e441dabfe113420aee32ab58fb95b122cd4de77694f1546ce4e3bc76e
++  __TEXT.__eh_frame: 0x4718 sha256:52d758ef3a0565229c05bd579938ac17b4433a213f8443377dd4fa270e31aa5f
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x3860 sha256:39f2c202b33d6b0c87db57788305489017874a053f9b2ca1b0b925ba15d5d901
+-  __DATA_CONST.__objc_classlist: 0xb20 sha256:e96286f3fc95dd175a5c0df108c3f25ed514676a4550666ea890342eb673d83b
+-  __DATA_CONST.__objc_catlist: 0xd8 sha256:d900f28fde4f3aba3ae9c0452e329e60a453fec1b756361196483fc10937eb0b
+-  __DATA_CONST.__objc_protolist: 0xac8 sha256:8c3c651fe70ab4f5acfc9b8dad3816833bbb832bbebcb35fb1920b4b6e7b41e6
++  __DATA_CONST.__const: 0x37e8 sha256:939d9659aca8cbf9f212ea74e7cdbbcb0eeda827fcbb97d2840a7526674d10ed
++  __DATA_CONST.__objc_classlist: 0xb40 sha256:95ce0c9e582ec1b3ef12d618cc928d504db03e9426096ae607f55380fce814be
++  __DATA_CONST.__objc_catlist: 0xd0 sha256:31f2debfb3c2f086fe0902f82eefe09fcdcd0033346f82688c466ee6c854a89d
++  __DATA_CONST.__objc_protolist: 0xb08 sha256:fc370c8c950860f711023e1212e68252c1e1e6c64e36527e29ea114c44bd2be2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xcd80 sha256:2e89f07b1147376e64de70306cc4fda28d4fc5681c85e853ac5bf47403928243
+-  __DATA_CONST.__objc_protorefs: 0x510 sha256:a1853cadc328a2f0c25f7abf4456170183cd89655d653c553524cf92babd7143
+-  __DATA_CONST.__objc_superrefs: 0x4b0 sha256:a19e30e065aead80c936b7deb4faa0beaa678517b0e4c7d97fd58a5069a34d88
+-  __DATA_CONST.__objc_arraydata: 0x178 sha256:b42d878ec03adcdb17b6762b8bce930d42d4763a421b8c5c1b4cea2a87643d53
+-  __DATA_CONST.__got: 0x2c80 sha256:7457239817e414fd90da389ec2d003db05b3beec195d22f1459daed1da9d59c5
+-  __AUTH_CONST.__const: 0xc2a8 sha256:dcd45e451dd4bc04beeb6118d2e2eeb16b9693ac9136869f102cfca97d6d0997
+-  __AUTH_CONST.__cfstring: 0x8720 sha256:1cfcc4dce41306941dd86940799769123ecaa77243dec19edaa6013a435836f0
+-  __AUTH_CONST.__objc_const: 0x51260 sha256:2b0c26403a982c742fd554a072c90edaced1ddc57c61a9ff7beea97e527ee673
+-  __AUTH_CONST.__objc_intobj: 0x318 sha256:2fd620c9a9b0f1bd74c5639d13a5fbc90ec36a30c91307c0691cdd5adc221113
+-  __AUTH_CONST.__objc_arrayobj: 0x1c8 sha256:6c0689094a735531cdef53b53764e60ff29b44258de72df280177eaf4635ba52
+-  __AUTH_CONST.__objc_doubleobj: 0xc0 sha256:ebaadef6d80f0fddcbfeea28e4c1984d79f98662436b0453bb0babedf50836b3
+-  __AUTH_CONST.__objc_dictobj: 0x78 sha256:9b1689f8397814cf5ec4022d55279df316d84f1e57df99c0f68959c2fbad88a0
+-  __AUTH_CONST.__auth_got: 0x34f0 sha256:fe8a0b14bb9fa240151300e2b9caf21129c0a0344b1557ce8ace0e7cd5b4421c
+-  __AUTH.__objc_data: 0xeb20 sha256:aa31b59da45d8521119b6461a7f2eb4396a0498c5c18cdf30f9f222f3d3e5711
+-  __AUTH.__data: 0x36e8 sha256:abe21e7a9b184fe1e4d800a1160fc485d04bc42ee5a0885f01b97c2b7f886933
+-  __DATA.__objc_ivar: 0x128c sha256:f5d7dd88c63d83c874d8091baf0250742ff50676994f4b800ff5b1c1351c6425
+-  __DATA.__data: 0x9f90 sha256:ac378207ffbc9f0b768ac33240732c3d247734e75a96d6a35a3f5a5e1c47ac9b
+-  __DATA.__bss: 0x8a78 sha256:eda5b919ca81e5966c44a4f9820b3c7cae1339d7f3b027548f5d41d65e27c9b1
+-  __DATA.__common: 0x388 sha256:e4b77dab93ada24ee7f2ecf11ab6dba48cbf05c390fcdff086f0d4f2fd0dfc9b
+-  __DATA_DIRTY.__objc_data: 0x640 sha256:5d4ccfd00f7c50d89c3502f7252475ae486d9a1c5feb2851745baf549ea4692f
+-  __DATA_DIRTY.__bss: 0x140 sha256:7b6436b0c98f62380866d9432c2af0ee08ce16a171bda6951aecd95ee1307d61
++  __DATA_CONST.__objc_selrefs: 0xcf40 sha256:ecfc1cff6da6b073d6f08b804fd6cfd817966164f8440f54f7aa21922b4fe25e
++  __DATA_CONST.__objc_protorefs: 0x530 sha256:c5e037d17c05d419305e15b992df114081f510da23631af0b8cdaeb7143447bc
++  __DATA_CONST.__objc_superrefs: 0x4b0 sha256:117cb1a8846ec20050ba0b023d2bea0dfba9da94faaa65273bc0b3d6f19ead40
++  __DATA_CONST.__objc_arraydata: 0x178 sha256:effc6c87663330568c9b704cfcc60d49a996ddb0db51907ac56307d080381a19
++  __DATA_CONST.__got: 0x2d38 sha256:b2dd80576f59be80999e0e665b87f8a34f8befd498e114cacc731f8c15d2e58b
++  __AUTH_CONST.__const: 0xc460 sha256:6fe0e6705982a1fe69b7c0c7ff5a586040be96f072cc45a30ddc76780fdbfbbd
++  __AUTH_CONST.__cfstring: 0x86a0 sha256:64d7f378c39406a42e46638476e4503e2520316cfd0abcd6162ac5c9e21979d6
++  __AUTH_CONST.__objc_const: 0x52850 sha256:c70135eea9b445732431b3c471f5bedb26791416d9ffda5c4a243590e3cbbaf6
++  __AUTH_CONST.__objc_intobj: 0x348 sha256:9c2f91a62338d4a1a7012564886e5e712b6f22e3315d96aaec4326005593a1dd
++  __AUTH_CONST.__objc_arrayobj: 0x1c8 sha256:07100b2280e2bb375fc359c80a31a25ece79303aa64e57fe0f9f28daea0db6d4
++  __AUTH_CONST.__objc_doubleobj: 0xc0 sha256:237750c95913696e7c92bd6cd0f4e2e0a3e7c5d303ef8fb3e2e9b550bff1f2aa
++  __AUTH_CONST.__objc_dictobj: 0x78 sha256:120dd818c5a82221c82151948ff848500b4a5e89868b988f67c3af02a627bbaf
++  __AUTH_CONST.__auth_got: 0x35b0 sha256:490d615136e5995a7d4a5783d594e78b60ce79aa974ad145fbd805541c44f9e8
++  __AUTH.__objc_data: 0xee80 sha256:4fb69432c2d2d4e0b61a48159ac6c97583f015a2d695322125d55ceadc6fb85d
++  __AUTH.__data: 0x37f8 sha256:31f75ef576b1d66268dafe7bbdd2c46da86bc2fc3ddea7f792497868fd6b0727
++  __DATA.__objc_ivar: 0x129c sha256:91fa29411d059383d70bf1019cbb2e9a54cd2b29af2b2f6f70b049cab9807e9b
++  __DATA.__data: 0xa300 sha256:5ed760469eec06b22509073c7832859c6f033e3ebbb3034ae29d5a466705e0f4
++  __DATA.__bss: 0x8998 sha256:cb15d23e3c412f54f6621dcb82aed9428aaf769fac09026962da2aef5e4ac8b7
++  __DATA.__common: 0x390 sha256:a20dade876dda898de7c9cc490a2433d7d6adbf5ca598016afd002da4c997610
++  __DATA_DIRTY.__objc_data: 0x640 sha256:eb0ab6e70875f90b6118953579a64703a65802f63d32dc65cf68d7872e020be2
++  __DATA_DIRTY.__bss: 0x148 sha256:7b4499c3cc6e82a9da3100028f52af7f8c1e9ee60e33010a108e401989782962
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 17F5350E-11A5-30DE-993C-3038277D1392
+-  Functions: 15125
+-  Symbols:   29887
+-  CStrings:  4637
++  UUID: D4C91C56-0AB0-38A7-B514-48B9E28D8A49
++  Functions: 15314
++  Symbols:   30158
++  CStrings:  4670
+ 
+Symbols:
++ +[DBDashboardLayoutEngine dockSizeOverride]
++ +[DBDashboardLayoutEngine dockSizeOverride].cold.1
++ +[DBIconView platterViewPool]
++ +[DBIconView platterViewPool].cold.1
++ +[DBPlatterViewPoolDelegate sharedInstance]
++ +[DBPlatterViewPoolDelegate sharedInstance].cold.1
++ -[DBAppDockViewController _applyResolvedBundleIdentifiers:]
++ -[DBAppDockViewController _buttonForSlot:]
++ -[DBAppDockViewController _firstVisibleAppInList:]
++ -[DBAppDockViewController _prioritizedOtherAppsForApps:]
++ -[DBAppDockViewController _refreshDockButtons]
++ -[DBAppDockViewController _resolveDockBundleIdentifiers]
++ -[DBAppDockViewController _resolveDockBundleIdentifiers].cold.1
++ -[DBAppDockViewController _resolveDockBundleIdentifiers].cold.2
++ -[DBAppDockViewController _resolveDockBundleIdentifiers].cold.3
++ -[DBAppDockViewController _resolveDockBundleIdentifiers].cold.4
++ -[DBAppDockViewController _resolveDockBundleIdentifiers].cold.5
++ -[DBAppDockViewController _setButton:forSlot:]
++ -[DBAppDockViewController _updateSizeConstraints:forButton:]
++ -[DBAppLinkManager assetLibraryUpdated]
++ -[DBAppLinkManager orderedAppLinkIdentifiers]
++ -[DBAppLinkManager session]
++ -[DBAppLinkManager setOrderedAppLinkIdentifiers:]
++ -[DBAppLinkManager setSession:]
++ -[DBEnvironmentConfiguration showsAppLinksInDock]
++ -[DBIconLabelBackdropView dealloc]
++ -[DBIconLabelBackdropView layoutSubviews]
++ -[DBIconView dropShadowLayer]
++ -[DBIconView lastShadowInterfaceStyle]
++ -[DBIconView setDropShadowLayer:]
++ -[DBIconView setLastShadowInterfaceStyle:]
++ -[DBInstrumentCluster clusterThemeService:getDisplayNameForDriveMode:error:]
++ -[DBLockOutViewController _viewBackgroundColorForMode:]
++ -[DBPlatterViewPoolDelegate recycledViewsContainerProviderForViewMap:]
++ -[DBPlatterViewPoolDelegate viewMap:maxRecycledViewsOfClass:]
++ -[DBRequestContentPunchThroughManager serviceDidFinishGroupUpdate:]
++ -[DBStatusBarViewController _createStatusBar].cold.2
++ -[DBStatusBarViewController _createStatusBar].cold.3
++ -[DBStatusBarViewController assetLibraryUpdated]
++ -[DBWallpaperViewController clientSceneSettingsDidUpdate:]
++ -[DBWallpaperViewController delegate]
++ -[DBWallpaperViewController isReady]
++ -[DBWallpaperViewController setDelegate:]
++ -[DashBoard createWidgetLayoutDataProviderForVehicleID:viewAreas:supportsTouch:]
++ GCC_except_table29
++ GCC_except_table54
++ GCC_except_table63
++ _DBDockSizeOverride.once
++ _DBDockSizeOverride.value
++ _OBJC_CLASS_$_CAFUnitPercent
++ _OBJC_CLASS_$_CAFWirelessChargerStatus
++ _OBJC_CLASS_$_CARScreenInfo
++ _OBJC_CLASS_$_CRSUIWallpaperSceneClientSettings
++ _OBJC_CLASS_$_DBPlatterViewPoolDelegate
++ _OBJC_CLASS_$_SBHReusableViewMap
++ _OBJC_CLASS_$_STStatusBarDataWirelessChargerEntry
++ _OBJC_CLASS_$_STStatusBarDataWirelessChargerGroupEntry
++ _OBJC_CLASS_$__TtC9DashBoard13DBAppDockSlot
++ _OBJC_CLASS_$__TtC9DashBoard22DBIdentifiableLeafIcon
++ _OBJC_IVAR_$_DBAppLinkManager._orderedAppLinkIdentifiers
++ _OBJC_IVAR_$_DBAppLinkManager._session
++ _OBJC_IVAR_$_DBIconView._dropShadowLayer
++ _OBJC_IVAR_$_DBIconView._lastShadowInterfaceStyle
++ _OBJC_IVAR_$_DBWallpaperViewController._delegate
++ _OBJC_IVAR_$_DBWallpaperViewController._isReady
++ _OBJC_METACLASS_$_DBPlatterViewPoolDelegate
++ _OBJC_METACLASS_$_SBLeafIcon
++ _OBJC_METACLASS_$__TtC9DashBoard13DBAppDockSlot
++ _OBJC_METACLASS_$__TtC9DashBoard22DBIdentifiableLeafIcon
++ _OBJC_METACLASS_$__TtC9DashBoardP33_E653F4F4E0CBA17AF900E37FA6F98E4626DBIconImageViewMapDelegate
++ _STStatusBarDataEntryExternalWirelessChargersKey
++ _STUIStatusBarCarPlayTopStatusDriverSideExclusionWidthKey
++ _STUIStatusBarCarPlayTopStatusOppositeDriverAlignedKey
++ __DATA__TtC9DashBoard13DBAppDockSlot
++ __DATA__TtC9DashBoard21DriveModeThemeManager
++ __DATA__TtC9DashBoard22DBIdentifiableLeafIcon
++ __DATA__TtC9DashBoardP33_E653F4F4E0CBA17AF900E37FA6F98E4626DBIconImageViewMapDelegate
++ __INSTANCE_METHODS__TtC9DashBoard13DBAppDockSlot
++ __INSTANCE_METHODS__TtC9DashBoard22DBIdentifiableLeafIcon
++ __INSTANCE_METHODS__TtC9DashBoardP33_E653F4F4E0CBA17AF900E37FA6F98E4626DBIconImageViewMapDelegate
++ __IVARS__TtC9DashBoard13DBAppDockSlot
++ __IVARS__TtC9DashBoard21DriveModeThemeManager
++ __IVARS__TtC9DashBoard22DBIdentifiableLeafIcon
++ __METACLASS_DATA__TtC9DashBoard13DBAppDockSlot
++ __METACLASS_DATA__TtC9DashBoard21DriveModeThemeManager
++ __METACLASS_DATA__TtC9DashBoard22DBIdentifiableLeafIcon
++ __METACLASS_DATA__TtC9DashBoardP33_E653F4F4E0CBA17AF900E37FA6F98E4626DBIconImageViewMapDelegate
++ __OBJC_$_CLASS_METHODS_DBPlatterViewPoolDelegate
++ __OBJC_$_CLASS_METHODS__TtC9DashBoard13DBAppDockSlot(DashBoard)
++ __OBJC_$_CLASS_METHODS__TtC9DashBoard22DBIdentifiableLeafIcon(DashBoard)
++ __OBJC_$_INSTANCE_METHODS_DBPlatterViewPoolDelegate
++ __OBJC_$_INSTANCE_METHODS__TtC9DashBoard14DBAssetLibrary(DashBoard|DashBoard1|DashBoard2|DashBoard3)
++ __OBJC_$_INSTANCE_METHODS__TtC9DashBoard29DBWallpaperRootViewController(DashBoard|DashBoard1|DashBoard2|DashBoard3|DashBoard4)
++ __OBJC_$_INSTANCE_METHODS__TtCE9DashBoardCSo26DBStatusBarDataBroadcaster18VehicleStateSource(DashBoard|DashBoard1|DashBoard2|DashBoard3|DashBoard4|DashBoard5|DashBoard6|DashBoard7|DashBoard8|DashBoard9|DashBoard10)
++ __OBJC_$_PROP_LIST_DBPlatterViewPoolDelegate
++ __OBJC_$_PROP_LIST_SBHReusableView
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CAFWirelessChargerStatusObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_DBWallpaperViewControllerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SBHReusableView
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SBHReusableViewMapDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SBHReusableView
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SBHReusableViewMapDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CAFWirelessChargerStatusObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_DBWallpaperViewControllerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SBHReusableView
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SBHReusableViewMapDelegate
++ __OBJC_$_PROTOCOL_REFS_CAFWirelessChargerStatusObserver
++ __OBJC_$_PROTOCOL_REFS_DBWallpaperViewControllerDelegate
++ __OBJC_$_PROTOCOL_REFS_SBHReusableView
++ __OBJC_$_PROTOCOL_REFS_SBHReusableViewMapDelegate
++ __OBJC_CLASS_PROTOCOLS_$_DBPlatterViewPoolDelegate
++ __OBJC_CLASS_PROTOCOLS_$__TtC9DashBoard29DBWallpaperRootViewController(DashBoard|DashBoard1|DashBoard2|DashBoard3|DashBoard4)
++ __OBJC_CLASS_PROTOCOLS_$__TtCE9DashBoardCSo26DBStatusBarDataBroadcaster18VehicleStateSource(DashBoard|DashBoard1|DashBoard2|DashBoard3|DashBoard4|DashBoard5|DashBoard6|DashBoard7|DashBoard8|DashBoard9|DashBoard10)
++ __OBJC_CLASS_RO_$_DBPlatterViewPoolDelegate
++ __OBJC_LABEL_PROTOCOL_$_CAFWirelessChargerStatusObserver
++ __OBJC_LABEL_PROTOCOL_$_DBWallpaperViewControllerDelegate
++ __OBJC_LABEL_PROTOCOL_$_SBHReusableView
++ __OBJC_LABEL_PROTOCOL_$_SBHReusableViewMapDelegate
++ __OBJC_METACLASS_RO_$_DBPlatterViewPoolDelegate
++ __OBJC_PROTOCOL_$_CAFWirelessChargerStatusObserver
++ __OBJC_PROTOCOL_$_DBWallpaperViewControllerDelegate
++ __OBJC_PROTOCOL_$_SBHReusableView
++ __OBJC_PROTOCOL_$_SBHReusableViewMapDelegate
++ __PROPERTIES__TtC9DashBoard13DBAppDockSlot
++ __PROPERTIES__TtC9DashBoard22DBIdentifiableLeafIcon
++ __PROTOCOLS__TtC9DashBoard22DBDashboardPlatterView
++ __PROTOCOLS__TtC9DashBoard22DBDashboardPlatterView.1
++ __PROTOCOLS__TtC9DashBoardP33_E653F4F4E0CBA17AF900E37FA6F98E4626DBIconImageViewMapDelegate
++ __PROTOCOLS__TtC9DashBoardP33_E653F4F4E0CBA17AF900E37FA6F98E4626DBIconImageViewMapDelegate.4
++ __PROTOCOLS__TtC9DashBoardP33_F3C518C7BAA60A1F37B8166B5E79526623DBSessionIconDataSource.24
++ ___105-[DBDashboardRootViewController _dismissViewController:andPresentBaseViewController:animated:completion:]_block_invoke.358
++ ___152-[DBDashboard environmentConfiguration:viewAreaDidChangeFromViewAreaFrame:safeAreaInsets:toViewAreaFrame:safeAreaInsets:duration:transitionControlType:]_block_invoke.811
++ ___160-[DBInstrumentCluster environmentConfiguration:viewAreaDidChangeFromViewAreaFrame:safeAreaInsets:toViewAreaFrame:safeAreaInsets:duration:transitionControlType:]_block_invoke.305
++ ___217-[DBEnvironmentConfiguration initWithDisplayConfiguration:layoutPublisher:iconBadgeController:session:supportedFeatures:processMonitor:thermalMonitor:vehicle:themeController:navigationStateProvider:analyticsProvider:]_block_invoke.323
++ ___217-[DBEnvironmentConfiguration initWithDisplayConfiguration:layoutPublisher:iconBadgeController:session:supportedFeatures:processMonitor:thermalMonitor:vehicle:themeController:navigationStateProvider:analyticsProvider:]_block_invoke.331
++ ___29+[DBIconView platterViewPool]_block_invoke
++ ___31-[DBApplicationController init]_block_invoke.316
++ ___33-[DBDashboard _handleSessionURL:]_block_invoke.762
++ ___33-[DBDashboard _handleSessionURL:]_block_invoke.763
++ ___33-[DBDashboard _handleSessionURL:]_block_invoke.779
++ ___33-[DBDashboard _handleSessionURL:]_block_invoke.779.cold.1
++ ___37-[DBDashboard _animateStartupToIcons]_block_invoke.824
++ ___37-[DBDashboard _animateStartupToIcons]_block_invoke_2.825
++ ___37-[DBDashboard _handleTapToRadarEvent]_block_invoke.581
++ ___37-[DBDashboard _handleTapToRadarEvent]_block_invoke_2.584
++ ___39-[DBAppLinkManager assetLibraryUpdated]_block_invoke
++ ___39-[DBAppLinkManager assetLibraryUpdated]_block_invoke.cold.1
++ ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.659
++ ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.660
++ ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.661
++ ___41-[DBSessionController sessionDidConnect:]_block_invoke.380
++ ___41-[DBSmartWidgetEngine currentPredictions]_block_invoke.343
++ ___42-[DBSessionController _applyAXPreferences]_block_invoke.408
++ ___42-[DBSessionController _applyAXPreferences]_block_invoke.408.cold.1
++ ___43+[DBPlatterViewPoolDelegate sharedInstance]_block_invoke
++ ___43-[DBDashboard _setupSplitContentController]_block_invoke.515
++ ___44-[DBSessionController sessionDidDisconnect:]_block_invoke.382
++ ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.283
++ ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.285
++ ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.290
++ ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.291
++ ___50-[DBDashboard _animateStartupFromScaledMainWindow]_block_invoke.829
++ ___53-[DBDashboard _notifyAccessoryIfNeededWithUIContext:]_block_invoke.649
++ ___54-[DBTodayViewController thermalMonitorLevelDidChange:]_block_invoke.351
++ ___54-[DBTodayViewController thermalMonitorLevelDidChange:]_block_invoke.358
++ ___55-[DBDisplayManager _updateSessionAssertionsIfNecessary]_block_invoke.352
++ ___55-[DBLockOutViewController _viewBackgroundColorForMode:]_block_invoke
++ ___55-[DBSceneWidgetViewController clientSetFocusableItems:]_block_invoke.309
++ ___57-[DBDashboard _handleBackgroundURLDeliveryForLaunchInfo:]_block_invoke.566
++ ___57-[DBDashboard _handleBackgroundURLDeliveryForLaunchInfo:]_block_invoke.572
++ ___58-[DBDisplayManager displayMonitor:willDisconnectIdentity:]_block_invoke.269
++ ___58-[DBSceneWidgetViewController replaceLoadingViewWithView:]_block_invoke.280
++ ___58-[DBWallpaperViewController clientSceneSettingsDidUpdate:]_block_invoke
++ ___59-[DBAppDockViewController _applyResolvedBundleIdentifiers:]_block_invoke
++ ___59-[DBDashboard _updateWallpaperWithAnimationDuration:delay:]_block_invoke.655
++ ___59-[DBNavigationStateProvider mostRecentClusterNavigatingApp]_block_invoke.302
++ ___60-[DBAppHistory _sessionDidConnect:environmentConfiguration:]_block_invoke.331
++ ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke.266
++ ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke.274
++ ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke.278
++ ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke.279
++ ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke.280
++ ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke.282
++ ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke.283
++ ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke_2.281
++ ___63-[DBNotificationViewController liveActivityRequestsPresenting:]_block_invoke.373
++ ___63-[DBNotificationViewController liveActivityRequestsPresenting:]_block_invoke.373.cold.1
++ ___63-[DBNotificationViewController liveActivityRequestsPresenting:]_block_invoke.373.cold.2
++ ___65-[DBEnvironmentConfiguration _computeStatusBarEdgesForViewAreas:]_block_invoke.367
++ ___65-[DBEnvironmentConfiguration _computeStatusBarEdgesForViewAreas:]_block_invoke.369
++ ___66-[DBSceneWidgetViewController listener:shouldAcceptNewConnection:]_block_invoke.387
++ ___66-[DBSceneWidgetViewController listener:shouldAcceptNewConnection:]_block_invoke.387.cold.1
++ ___67-[DBRequestContentPunchThroughManager serviceDidFinishGroupUpdate:]_block_invoke
++ ___68-[DBDashboard environmentConfiguration:canvasOverrideSizeDidChange:]_block_invoke.815
++ ___74-[DBAppHistory _evaluateUniversalLinksForURL:withIconProvider:completion:]_block_invoke.338
++ ___74-[DBAppHistory _evaluateUniversalLinksForURL:withIconProvider:completion:]_block_invoke.341
++ ___74-[DBAppHistory _evaluateUniversalLinksForURL:withIconProvider:completion:]_block_invoke.341.cold.1
++ ___74-[DBAppHistory _evaluateUniversalLinksForURL:withIconProvider:completion:]_block_invoke.341.cold.2
++ ___75-[DBTodayViewController environmentConfiguration:appearanceStyleDidChange:]_block_invoke.290
++ ___75-[DBTodayViewController environmentConfiguration:appearanceStyleDidChange:]_block_invoke.291
++ ___79-[DBDashboardRootViewController _dismissBaseViewControllerAnimated:completion:]_block_invoke.361
++ ___79-[DBTodayViewController environmentConfiguration:mapsAppearanceStyleDidChange:]_block_invoke.341
++ ___82-[DBDashboardRootViewController _dismissStackedViewControllerAnimated:completion:]_block_invoke.371
++ ___82-[DBDashboardRootViewController _dismissStackedViewControllerAnimated:completion:]_block_invoke_2.373
++ ___83-[DBDashboardRootViewController _presentStackedViewController:animated:completion:]_block_invoke.367
++ ___83-[DBDashboardRootViewController _presentStackedViewController:animated:completion:]_block_invoke_2.369
++ ___87-[DBDashboardWorkspaceOwner _handleSuspendedActivationForEntity:changeItem:completion:]_block_invoke.288
++ ___92-[DBDashboard lockOutController:didChangeFromLockoutMode:toLockOutMode:animated:takeScreen:]_block_invoke.731
++ ___92-[DBDashboard lockOutController:didChangeFromLockoutMode:toLockOutMode:animated:takeScreen:]_block_invoke.732
++ ___93-[DBDashboardRootViewController _presentBaseViewController:animated:launchSource:completion:]_block_invoke.353
++ ___93-[DBDashboardRootViewController _presentBaseViewController:animated:launchSource:completion:]_block_invoke_2.356
++ ___96-[DBSceneHostViewController performSceneUpdateWithBlock:waitsForSceneCommit:timeout:completion:]_block_invoke.160
++ ___DBDockSizeOverride_block_invoke
++ ___DBDockSizeOverride_block_invoke.cold.1
++ ___block_literal_global.1767
++ ___block_literal_global.241
++ ___block_literal_global.287
++ ___block_literal_global.298
++ ___block_literal_global.305
++ ___block_literal_global.349
++ ___block_literal_global.350
++ ___block_literal_global.351
++ ___block_literal_global.355
++ ___block_literal_global.374
++ ___block_literal_global.377
++ ___block_literal_global.384
++ ___block_literal_global.385
++ ___block_literal_global.387
++ ___block_literal_global.390
++ ___block_literal_global.401
++ ___block_literal_global.403
++ ___block_literal_global.405
++ ___block_literal_global.410
++ ___block_literal_global.551
++ ___block_literal_global.557
++ ___block_literal_global.578
++ ___block_literal_global.583
++ ___block_literal_global.586
++ ___block_literal_global.665
++ ___block_literal_global.715
++ ___block_literal_global.743
++ ___block_literal_global.769
++ ___block_literal_global.813
++ ___block_literal_global.835
++ ___block_literal_global.842
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.120
++ ___swift_closure_destructor.128
++ ___swift_closure_destructor.132
++ ___swift_closure_destructor.144
++ ___swift_closure_destructor.148
++ ___swift_closure_destructor.14Tm
++ ___swift_closure_destructor.152
++ ___swift_closure_destructor.160
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.168
++ ___swift_closure_destructor.171
++ ___swift_closure_destructor.174
++ ___swift_closure_destructor.178
++ ___swift_closure_destructor.182
++ ___swift_closure_destructor.186
++ ___swift_closure_destructor.190
++ ___swift_closure_destructor.194
++ ___swift_closure_destructor.198
++ ___swift_closure_destructor.202
++ ___swift_closure_destructor.206
++ ___swift_closure_destructor.210
++ ___swift_closure_destructor.214
++ ___swift_closure_destructor.218
++ ___swift_closure_destructor.222
++ ___swift_closure_destructor.226
++ ___swift_closure_destructor.230
++ ___swift_closure_destructor.234
++ ___swift_closure_destructor.238
++ ___swift_closure_destructor.242
++ ___swift_closure_destructor.246
++ ___swift_closure_destructor.250
++ ___swift_closure_destructor.254
++ ___swift_closure_destructor.258
++ ___swift_closure_destructor.262
++ ___swift_closure_destructor.266
++ ___swift_closure_destructor.270
++ ___swift_closure_destructor.274
++ ___swift_closure_destructor.278
++ ___swift_closure_destructor.282
++ ___swift_closure_destructor.286
++ ___swift_closure_destructor.290
++ ___swift_closure_destructor.294
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.50Tm
++ ___swift_closure_destructor.71Tm
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 9DashBoard35DriveModeThemeConfigurationOverrideV10CodingKeys33_C4113CE20A3055B4D54FED8A06E91340LLOSHAASQ
++ _associated conformance 9DashBoard35DriveModeThemeConfigurationOverrideV10CodingKeys33_C4113CE20A3055B4D54FED8A06E91340LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9DashBoard35DriveModeThemeConfigurationOverrideV10CodingKeys33_C4113CE20A3055B4D54FED8A06E91340LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.107
++ _block_copy_helper.127
++ _block_copy_helper.26
++ _block_copy_helper.87
++ _block_descriptor.109
++ _block_descriptor.129
++ _block_descriptor.28
++ _block_descriptor.89
++ _block_destroy_helper.108
++ _block_destroy_helper.128
++ _block_destroy_helper.27
++ _block_destroy_helper.88
++ _get_witness_table 10CAFCombine11CAFObservedRzSo18CAFObservableCacheRz10ObservableAaBP_8ObservedQZRszlSo6CAFCarCAaBHpyHC.1
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy9DashBoard033CloseButtonFocusEffectCoordinatorF033_73D3EAFCCDEF5FB059F5819ABDB3422BLLVGAA022_EnvironmentKeyWritingF0VySbGGAA0E0HPAjaOHPyHC_AmA0eF0HPyHCHC.242
++ _objc_msgSend$_applyResolvedBundleIdentifiers:
++ _objc_msgSend$_buttonForSlot:
++ _objc_msgSend$_firstVisibleAppInList:
++ _objc_msgSend$_prioritizedOtherAppsForApps:
++ _objc_msgSend$_refreshDockButtons
++ _objc_msgSend$_resolveDockBundleIdentifiers
++ _objc_msgSend$_setButton:forSlot:
++ _objc_msgSend$_updateSizeConstraints:forButton:
++ _objc_msgSend$_viewBackgroundColorForMode:
++ _objc_msgSend$accessibilityID
++ _objc_msgSend$addRecycledViewsOfClass:upToCount:
++ _objc_msgSend$allSlots
++ _objc_msgSend$appLinkLeafIcon:sessionIdentifier:manager:
++ _objc_msgSend$appLinkManager:didChangeAppLinks:
++ _objc_msgSend$appLinkManagerDidChangeAppLinkOrder:
++ _objc_msgSend$batteryLevel
++ _objc_msgSend$chargerStatus
++ _objc_msgSend$createWidgetLayoutDataProviderForVehicleID:viewAreas:supportsTouch:
++ _objc_msgSend$crsui_glassSymbolImageNamed:compatibleWithTraitCollection:
++ _objc_msgSend$dockSizeOverride
++ _objc_msgSend$dropShadowLayer
++ _objc_msgSend$entryWithCapacity:state:
++ _objc_msgSend$entryWithChargers:
++ _objc_msgSend$getDisplayNameForDriveMode:
++ _objc_msgSend$hasDisabled
++ _objc_msgSend$hasHidden
++ _objc_msgSend$hasResolvedFeatureConfiguration
++ _objc_msgSend$hasTemporaryContentChanged
++ _objc_msgSend$initWithVehicleID:iconLayoutService:viewAreas:supportsTouch:
++ _objc_msgSend$insertSublayer:atIndex:
++ _objc_msgSend$isReady
++ _objc_msgSend$isWallpaperReadinessEnabled
++ _objc_msgSend$lastShadowInterfaceStyle
++ _objc_msgSend$orderedAppLinkIdentifiers
++ _objc_msgSend$platterViewPool
++ _objc_msgSend$recycleView:
++ _objc_msgSend$reloadIconImage
++ _objc_msgSend$screenSupportsFocus
++ _objc_msgSend$setBackground:
++ _objc_msgSend$setClusterVisible:
++ _objc_msgSend$setDropShadowLayer:
++ _objc_msgSend$setLastShadowInterfaceStyle:
++ _objc_msgSend$setOrderedAppLinkIdentifiers:
++ _objc_msgSend$showsAppLinksInDock
++ _objc_msgSend$temporaryContentChangedWithOn:temporaryContentURL:completion:
++ _objc_msgSend$topStatusBarDriverSideExclusionWidth
++ _objc_msgSend$topStatusBarOppositeDriverAligned
++ _objc_msgSend$viewOfClass:
++ _objc_msgSend$visualProviderInfo
++ _objc_msgSend$wallpaperViewControllerDidBecomeReady:
++ _objc_msgSend$wirelessChargerStatuss
++ _platterViewPool.onceToken
++ _platterViewPool.pool
++ _sharedInstance.delegate
++ _swift_retain_x9
++ _symbolic SDy_____y_____SSGAAy_____SSGG 14CarPlayAssetUI11TaggedValueV AA12DriveModeTagO AA6LayoutV
++ _symbolic SaySo24CAFWirelessChargerStatusCG
++ _symbolic SaySo39DBTodayViewSynchronizedAnimationManagerCGSg
++ _symbolic Si6offset______Sg7elementt 13CarAssetUtils19CAUVehicleLayoutKeyO
++ _symbolic So10SBLeafIconC
++ _symbolic So16DBAppLinkManagerCSgXw
++ _symbolic So16DBAppLinkManagerCSgXwz_Xx
++ _symbolic So18SBHReusableViewMapCy_____GSg 9DashBoard15DBIconImageViewC
++ _symbolic So21CPUIDimmingEffectViewCSg
++ _symbolic _____ 9DashBoard13DBAppDockSlotC
++ _symbolic _____ 9DashBoard21DriveModeThemeManagerC
++ _symbolic _____ 9DashBoard22DBIdentifiableLeafIconC
++ _symbolic _____ 9DashBoard26DBIconImageViewMapDelegate07_E653F4I24E0CBA17AF900E37FA6F98E46LLC
++ _symbolic _____ 9DashBoard27CAFDefaultDriveModeProducerV
++ _symbolic _____ 9DashBoard35DriveModeThemeConfigurationOverrideV10CodingKeys33_C4113CE20A3055B4D54FED8A06E91340LLO
++ _symbolic _____ So17DBAppDockCategoryV
++ _symbolic _____Sg 13CarAssetUtils19CAUVehicleLayoutKeyO
++ _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV17AppsConfigurationV
++ _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV22WallpaperConfigurationV
++ _symbolic _____Sg 13CarAssetUtils23CAUFeatureConfigurationV0A7PlayAppV12TopStatusBarV
++ _symbolic _____Sg 9DashBoard21DriveModeThemeManagerC
++ _symbolic _____Sg So17OS_dispatch_queueC8DispatchE16SchedulerOptionsV
++ _symbolic _____Sg3key_SaySo24CAFWirelessChargerStatusCG5valuet 13CarAssetUtils19CAUVehicleLayoutKeyO
++ _symbolic _____SgXw 9DashBoard21DriveModeThemeManagerC
++ _symbolic _____SgXw 9DashBoard29DBWallpaperRootViewControllerC
++ _symbolic _____SgXwz_Xx 9DashBoard21DriveModeThemeManagerC
++ _symbolic _____SgXwz_Xx 9DashBoard29DBWallpaperRootViewControllerC
++ _symbolic _____Sg_ABt 13CarAssetUtils19CAUVehicleLayoutKeyO
++ _symbolic _____Sg_Sbytt 14CarPlayAssetUI19RequestContentModelO
++ _symbolic _____XDXMT 9DashBoard21DriveModeThemeManagerC
++ _symbolic _____ySb_Sbt_____G 7Combine12AnyPublisherV s5NeverO
++ _symbolic _____ySb_____G 7Combine19CurrentValueSubjectC s5NeverO
++ _symbolic _____ySo14CAFUnitPercentCG 10Foundation11MeasurementV
++ _symbolic _____ySo14CAFUnitPercentCGSg 10Foundation11MeasurementV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9DashBoard35DriveModeThemeConfigurationOverrideV10CodingKeys33_C4113CE20A3055B4D54FED8A06E91340LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9DashBoard35DriveModeThemeConfigurationOverrideV10CodingKeys33_C4113CE20A3055B4D54FED8A06E91340LLO
++ _symbolic _____y_____SSG_AAy_____SSGt 14CarPlayAssetUI11TaggedValueV AA12DriveModeTagO AA6LayoutV
++ _symbolic _____y_____SgG s11_SetStorageC 13CarAssetUtils19CAUVehicleLayoutKeyO
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 13CarAssetUtils19CAUVehicleLayoutKeyO
++ _symbolic _____y_____SgSaySo24CAFWirelessChargerStatusCGG s18_DictionaryStorageC 13CarAssetUtils19CAUVehicleLayoutKeyO
++ _symbolic _____y_____Sg_Sbytt_____G 7Combine12AnyPublisherV 14CarPlayAssetUI19RequestContentModelO s5NeverO
++ _symbolic _____y______ySb_Sbt_____GG 7Combine10PublishersO6FilterV AA12AnyPublisherV s5NeverO
++ _symbolic _____y______ySo13CAFDriveStateC_____GSSSgG 7Combine10PublishersO10CompactMapV AA12AnyPublisherV s5NeverO
++ _symbolic _____y______ySo13CAFDriveStateC_____G_____y_____SSGSgG 7Combine10PublishersO10CompactMapV AA12AnyPublisherV s5NeverO 14CarPlayAssetUI11TaggedValueV AJ12DriveModeTagO
++ _symbolic _____y______y_AAy______y__________GSbGGytG 7Combine10PublishersO3MapV AC16RemoveDuplicatesV AA12AnyPublisherV So16CAFChargingStateV s5NeverO
++ _symbolic _____y______y_SayytG_____G_____y______y_AFy______y_____ADGSbGGytGG 7Combine10PublishersO11ConcatenateV AC8SequenceV s5NeverO AC3MapV AC16RemoveDuplicatesV AA12AnyPublisherV So16CAFChargingStateV
++ _symbolic _____y______y_____Sg_GACG 7Combine10PublishersO10CompactMapV AA9PublishedV9PublisherV 13CarAssetUtils15CAUAssetLibraryC
++ _symbolic _____y______y_____Sg_Sbytt_____GSo9NSRunLoopCG 7Combine10PublishersO8DebounceV AA12AnyPublisherV 14CarPlayAssetUI19RequestContentModelO s5NeverO
++ _symbolic _____y______y_____Sg_____GABySbAEG_____y______y_SayytGAEG_____y______y_ALy_ABy_____AEGSbGGytGGG 7Combine10PublishersO0A7Latest3V AA12AnyPublisherV 14CarPlayAssetUI19RequestContentModelO s5NeverO AC11ConcatenateV AC8SequenceV AC3MapV AC16RemoveDuplicatesV So16CAFChargingStateV
++ _symbolic _____y______y__________GSbG 7Combine10PublishersO3MapV AA12AnyPublisherV So16CAFChargingStateV s5NeverO
++ _symbolic _____y______y______ySb_GGSo17OS_dispatch_queueCG 7Combine10PublishersO8DebounceV AC4DropV AA9PublishedV9PublisherV
++ _symbolic _____y______y______ySb_Sbt_____GGSbG 7Combine10PublishersO3MapV AC6FilterV AA12AnyPublisherV s5NeverO
++ _symbolic _____y______y______ySb_____GG_____ySbADGG 7Combine10PublishersO0A6LatestV AC15MakeConnectableV AA12AnyPublisherV s5NeverO AA19CurrentValueSubjectC
++ _symbolic _____y______y______ySo13CAFDriveStateC_____G_____y_____SSGSgGG 7Combine10PublishersO16RemoveDuplicatesV AC10CompactMapV AA12AnyPublisherV s5NeverO 14CarPlayAssetUI11TaggedValueV AL12DriveModeTagO
++ _symbolic _____y______y______y_____Sg_GADGG 7Combine10PublishersO5FirstV AC10CompactMapV AA9PublishedV9PublisherV 13CarAssetUtils15CAUAssetLibraryC
++ _symbolic _____y______y______y_____Sg_Sbytt_____GSo9NSRunLoopCGG 7Combine10PublishersO6FilterV AC8DebounceV AA12AnyPublisherV 14CarPlayAssetUI19RequestContentModelO s5NeverO
++ _symbolic _____y______y______y__________GSbGG 7Combine10PublishersO16RemoveDuplicatesV AC3MapV AA12AnyPublisherV So16CAFChargingStateV s5NeverO
++ _symbolic _____y______y______y______ySb_Sbt_____GGSbGG 7Combine10PublishersO16RemoveDuplicatesV AC3MapV AC6FilterV AA12AnyPublisherV s5NeverO
++ _symbolic _____y______y______y______ySb_____GG_____ySbAEGGSbG 7Combine10PublishersO3MapV AC0A6LatestV AC15MakeConnectableV AA12AnyPublisherV s5NeverO AA19CurrentValueSubjectC
++ _symbolic _____y______y______y______y_____Sg_GAEGGSo9NSRunLoopCG 7Combine10PublishersO9ReceiveOnV AC5FirstV AC10CompactMapV AA9PublishedV9PublisherV 13CarAssetUtils15CAUAssetLibraryC
++ _symbolic _____y______y______y______y_____Sg_Sbytt_____GSo9NSRunLoopCGGAFG 7Combine10PublishersO3MapV AC6FilterV AC8DebounceV AA12AnyPublisherV 14CarPlayAssetUI19RequestContentModelO s5NeverO
++ _symbolic _____y______y______y______y__________GSbGGADySbAFGG 7Combine10PublishersO0A6LatestV AC16RemoveDuplicatesV AC3MapV AA12AnyPublisherV So16CAFChargingStateV s5NeverO
++ _symbolic _____y_____y_____SSGABy_____SSGG s18_DictionaryStorageC 14CarPlayAssetUI11TaggedValueV AC12DriveModeTagO AC6LayoutV
++ _symbolic _____y_____y_____SSGSg_____G 7Combine12AnyPublisherV 14CarPlayAssetUI11TaggedValueV AD12DriveModeTagO s5NeverO
++ _type_layout_string 9DashBoard27CAFDefaultDriveModeProducerV
+- -[DBAppDockViewController _generateOrderedAppItems]
+- -[DBAppDockViewController _updateAudioButtonSizeConstraints]
+- -[DBAppDockViewController _updateCommunicationButtonSizeConstraints]
+- -[DBAppDockViewController _updateNavigationButtonSizeConstraints]
+- -[DBAppDockViewController _updateOtherButtonSizeConstraints]
+- -[DBAppDockViewController orderedAppItems]
+- -[DBAppDockViewController setOrderedAppItems:]
+- -[DBDisplayManager _setCornerMaskImageIfNecessaryForPrimaryDisplayConfiguration:]
+- -[DBIconView dropShadowView]
+- -[DBIconView setDropShadowView:]
+- -[DashBoard createWidgetLayoutDataProviderForVehicleID:viewAreas:]
+- GCC_except_table44
+- GCC_except_table62
+- _CRSWidgetCalmModeDefault
+- _OBJC_IVAR_$_DBAppDockViewController._orderedAppItems
+- _OBJC_IVAR_$_DBIconView._dropShadowView
+- __CATEGORY_INSTANCE_METHODS_SBLeafIcon_$_DashBoard
+- __CATEGORY_SBLeafIcon_$_DashBoard
+- __DATA__TtC9DashBoardP33_2F69B94F231272623535798A4DF9928026BackgroundGlassCoordinator
+- __IVARS__TtC9DashBoardP33_2F69B94F231272623535798A4DF9928026BackgroundGlassCoordinator
+- __METACLASS_DATA__TtC9DashBoardP33_2F69B94F231272623535798A4DF9928026BackgroundGlassCoordinator
+- __OBJC_$_INSTANCE_METHODS__TtC9DashBoard14DBAssetLibrary(DashBoard|DashBoard1)
+- __OBJC_$_INSTANCE_METHODS__TtC9DashBoard29DBWallpaperRootViewController(DashBoard|DashBoard1|DashBoard2)
+- __OBJC_$_INSTANCE_METHODS__TtCE9DashBoardCSo26DBStatusBarDataBroadcaster18VehicleStateSource(DashBoard|DashBoard1|DashBoard2|DashBoard3|DashBoard4|DashBoard5|DashBoard6|DashBoard7|DashBoard8|DashBoard9)
+- __OBJC_CLASS_PROTOCOLS_$__TtC9DashBoard29DBWallpaperRootViewController(DashBoard|DashBoard1|DashBoard2)
+- __OBJC_CLASS_PROTOCOLS_$__TtCE9DashBoardCSo26DBStatusBarDataBroadcaster18VehicleStateSource(DashBoard|DashBoard1|DashBoard2|DashBoard3|DashBoard4|DashBoard5|DashBoard6|DashBoard7|DashBoard8|DashBoard9)
+- __PROTOCOLS__TtC9DashBoardP33_F3C518C7BAA60A1F37B8166B5E79526623DBSessionIconDataSource.21
+- ___105-[DBDashboardRootViewController _dismissViewController:andPresentBaseViewController:animated:completion:]_block_invoke.343
+- ___152-[DBDashboard environmentConfiguration:viewAreaDidChangeFromViewAreaFrame:safeAreaInsets:toViewAreaFrame:safeAreaInsets:duration:transitionControlType:]_block_invoke.796
+- ___160-[DBInstrumentCluster environmentConfiguration:viewAreaDidChangeFromViewAreaFrame:safeAreaInsets:toViewAreaFrame:safeAreaInsets:duration:transitionControlType:]_block_invoke.290
+- ___217-[DBEnvironmentConfiguration initWithDisplayConfiguration:layoutPublisher:iconBadgeController:session:supportedFeatures:processMonitor:thermalMonitor:vehicle:themeController:navigationStateProvider:analyticsProvider:]_block_invoke.308
+- ___217-[DBEnvironmentConfiguration initWithDisplayConfiguration:layoutPublisher:iconBadgeController:session:supportedFeatures:processMonitor:thermalMonitor:vehicle:themeController:navigationStateProvider:analyticsProvider:]_block_invoke.316
+- ___31-[DBApplicationController init]_block_invoke.301
+- ___33-[DBDashboard _handleSessionURL:]_block_invoke.747
+- ___33-[DBDashboard _handleSessionURL:]_block_invoke.748
+- ___33-[DBDashboard _handleSessionURL:]_block_invoke.764
+- ___33-[DBDashboard _handleSessionURL:]_block_invoke.764.cold.1
+- ___37-[DBDashboard _animateStartupToIcons]_block_invoke.809
+- ___37-[DBDashboard _animateStartupToIcons]_block_invoke_2.810
+- ___37-[DBDashboard _handleTapToRadarEvent]_block_invoke.566
+- ___37-[DBDashboard _handleTapToRadarEvent]_block_invoke_2.569
+- ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.644
+- ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.645
+- ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.646
+- ___41-[DBSessionController sessionDidConnect:]_block_invoke.365
+- ___41-[DBSmartWidgetEngine currentPredictions]_block_invoke.328
+- ___42-[DBSessionController _applyAXPreferences]_block_invoke.393
+- ___42-[DBSessionController _applyAXPreferences]_block_invoke.393.cold.1
+- ___43-[DBDashboard _setupSplitContentController]_block_invoke.500
+- ___44-[DBSessionController sessionDidDisconnect:]_block_invoke.367
+- ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.268
+- ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.270
+- ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.275
+- ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.276
+- ___50-[DBDashboard _animateStartupFromScaledMainWindow]_block_invoke.814
+- ___51-[DBAppDockViewController _generateOrderedAppItems]_block_invoke
+- ___51-[DBAppDockViewController _generateOrderedAppItems]_block_invoke.274
+- ___51-[DBAppDockViewController _generateOrderedAppItems]_block_invoke_2
+- ___51-[DBAppDockViewController _generateOrderedAppItems]_block_invoke_3
+- ___51-[DBAppDockViewController _generateOrderedAppItems]_block_invoke_4
+- ___53-[DBDashboard _notifyAccessoryIfNeededWithUIContext:]_block_invoke.634
+- ___54-[DBTodayViewController thermalMonitorLevelDidChange:]_block_invoke.336
+- ___54-[DBTodayViewController thermalMonitorLevelDidChange:]_block_invoke.343
+- ___55-[DBDisplayManager _updateSessionAssertionsIfNecessary]_block_invoke.337
+- ___55-[DBSceneWidgetViewController clientSetFocusableItems:]_block_invoke.294
+- ___57-[DBDashboard _handleBackgroundURLDeliveryForLaunchInfo:]_block_invoke.551
+- ___57-[DBDashboard _handleBackgroundURLDeliveryForLaunchInfo:]_block_invoke.557
+- ___58-[DBDisplayManager displayMonitor:willDisconnectIdentity:]_block_invoke.254
+- ___58-[DBSceneWidgetViewController replaceLoadingViewWithView:]_block_invoke.265
+- ___59-[DBDashboard _updateWallpaperWithAnimationDuration:delay:]_block_invoke.640
+- ___59-[DBNavigationStateProvider mostRecentClusterNavigatingApp]_block_invoke.287
+- ___60-[DBAppHistory _sessionDidConnect:environmentConfiguration:]_block_invoke.316
+- ___60-[DBLockOutViewController initWithEnvironmentConfiguration:]_block_invoke
+- ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke.251
+- ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke.252
+- ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke.259
+- ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke.263
+- ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke.264
+- ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke.265
+- ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke.268
+- ___62-[DBDashboardWorkspaceOwner session:handleStateChangeRequest:]_block_invoke_2.266
+- ___63-[DBNotificationViewController liveActivityRequestsPresenting:]_block_invoke.358
+- ___63-[DBNotificationViewController liveActivityRequestsPresenting:]_block_invoke.358.cold.1
+- ___63-[DBNotificationViewController liveActivityRequestsPresenting:]_block_invoke.358.cold.2
+- ___65-[DBEnvironmentConfiguration _computeStatusBarEdgesForViewAreas:]_block_invoke.355
+- ___65-[DBEnvironmentConfiguration _computeStatusBarEdgesForViewAreas:]_block_invoke.357
+- ___66-[DBSceneWidgetViewController listener:shouldAcceptNewConnection:]_block_invoke.372
+- ___66-[DBSceneWidgetViewController listener:shouldAcceptNewConnection:]_block_invoke.372.cold.1
+- ___68-[DBDashboard environmentConfiguration:canvasOverrideSizeDidChange:]_block_invoke.800
+- ___74-[DBAppHistory _evaluateUniversalLinksForURL:withIconProvider:completion:]_block_invoke.323
+- ___74-[DBAppHistory _evaluateUniversalLinksForURL:withIconProvider:completion:]_block_invoke.326
+- ___74-[DBAppHistory _evaluateUniversalLinksForURL:withIconProvider:completion:]_block_invoke.326.cold.1
+- ___74-[DBAppHistory _evaluateUniversalLinksForURL:withIconProvider:completion:]_block_invoke.326.cold.2
+- ___75-[DBTodayViewController environmentConfiguration:appearanceStyleDidChange:]_block_invoke.275
+- ___75-[DBTodayViewController environmentConfiguration:appearanceStyleDidChange:]_block_invoke.276
+- ___79-[DBDashboardRootViewController _dismissBaseViewControllerAnimated:completion:]_block_invoke.346
+- ___79-[DBTodayViewController environmentConfiguration:mapsAppearanceStyleDidChange:]_block_invoke.326
+- ___81-[DBDisplayManager _setCornerMaskImageIfNecessaryForPrimaryDisplayConfiguration:]_block_invoke
+- ___82-[DBDashboardRootViewController _dismissStackedViewControllerAnimated:completion:]_block_invoke.356
+- ___82-[DBDashboardRootViewController _dismissStackedViewControllerAnimated:completion:]_block_invoke_2.358
+- ___82-[DBRequestContentPunchThroughManager requestTemporaryContentService:didUpdateOn:]_block_invoke
+- ___83-[DBDashboardRootViewController _presentStackedViewController:animated:completion:]_block_invoke.352
+- ___83-[DBDashboardRootViewController _presentStackedViewController:animated:completion:]_block_invoke_2.354
+- ___87-[DBDashboardWorkspaceOwner _handleSuspendedActivationForEntity:changeItem:completion:]_block_invoke.273
+- ___92-[DBDashboard lockOutController:didChangeFromLockoutMode:toLockOutMode:animated:takeScreen:]_block_invoke.716
+- ___92-[DBDashboard lockOutController:didChangeFromLockoutMode:toLockOutMode:animated:takeScreen:]_block_invoke.717
+- ___93-[DBDashboardRootViewController _presentBaseViewController:animated:launchSource:completion:]_block_invoke.338
+- ___93-[DBDashboardRootViewController _presentBaseViewController:animated:launchSource:completion:]_block_invoke_2.341
+- ___96-[DBSceneHostViewController performSceneUpdateWithBlock:waitsForSceneCommit:timeout:completion:]_block_invoke.145
+- ___99-[DBRequestContentPunchThroughManager requestTemporaryContentService:didUpdateTemporaryContentURL:]_block_invoke
+- ___block_descriptor_40_e8_32s_e30_B32?0"DBApplication"8Q16^B24ls32l8
+- ___block_descriptor_48_e8_32s_e27_v16?0"<UIMutableTraits>"8ls32l8
+- ___block_descriptor_49_e8_32s40w_e5_v8?0lw40l8s32l8
+- ___block_literal_global.1752
+- ___block_literal_global.226
+- ___block_literal_global.272
+- ___block_literal_global.283
+- ___block_literal_global.290
+- ___block_literal_global.304
+- ___block_literal_global.306
+- ___block_literal_global.334
+- ___block_literal_global.336
+- ___block_literal_global.340
+- ___block_literal_global.343
+- ___block_literal_global.359
+- ___block_literal_global.364
+- ___block_literal_global.369
+- ___block_literal_global.372
+- ___block_literal_global.386
+- ___block_literal_global.388
+- ___block_literal_global.395
+- ___block_literal_global.536
+- ___block_literal_global.542
+- ___block_literal_global.563
+- ___block_literal_global.568
+- ___block_literal_global.571
+- ___block_literal_global.700
+- ___block_literal_global.728
+- ___block_literal_global.754
+- ___block_literal_global.798
+- ___block_literal_global.805
+- ___block_literal_global.812
+- ___swift_closure_destructor.106
+- ___swift_closure_destructor.130
+- ___swift_closure_destructor.142
+- ___swift_closure_destructor.154
+- ___swift_closure_destructor.158
+- ___swift_closure_destructor.169
+- ___swift_closure_destructor.173
+- ___swift_closure_destructor.177
+- ___swift_closure_destructor.181
+- ___swift_closure_destructor.185
+- ___swift_closure_destructor.189
+- ___swift_closure_destructor.18Tm
+- ___swift_closure_destructor.193
+- ___swift_closure_destructor.197
+- ___swift_closure_destructor.205
+- ___swift_closure_destructor.209
+- ___swift_closure_destructor.213
+- ___swift_closure_destructor.217
+- ___swift_closure_destructor.221
+- ___swift_closure_destructor.225
+- ___swift_closure_destructor.229
+- ___swift_closure_destructor.233
+- ___swift_closure_destructor.237
+- ___swift_closure_destructor.241
+- ___swift_closure_destructor.245
+- ___swift_closure_destructor.249
+- ___swift_closure_destructor.253
+- ___swift_closure_destructor.257
+- ___swift_closure_destructor.261
+- ___swift_closure_destructor.265
+- ___swift_closure_destructor.68Tm
+- ___swift_closure_destructor.94
+- ___swift_memcpy9_8
+- _associated conformance 9DashBoard15BackgroundGlass33_2F69B94F231272623535798A4DF99280LLV7SwiftUI4ViewAA4BodyAeFP_AeF
+- _associated conformance 9DashBoard35DriveModeThemeConfigurationOverrideV10CodingKeys33_8E11141C46C850AB2783A04DF7234313LLOSHAASQ
+- _associated conformance 9DashBoard35DriveModeThemeConfigurationOverrideV10CodingKeys33_8E11141C46C850AB2783A04DF7234313LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 9DashBoard35DriveModeThemeConfigurationOverrideV10CodingKeys33_8E11141C46C850AB2783A04DF7234313LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.104
+- _block_copy_helper.124
+- _block_copy_helper.25
+- _block_copy_helper.31
+- _block_copy_helper.50
+- _block_descriptor.106
+- _block_descriptor.126
+- _block_descriptor.27
+- _block_descriptor.33
+- _block_descriptor.52
+- _block_destroy_helper.105
+- _block_destroy_helper.125
+- _block_destroy_helper.26
+- _block_destroy_helper.32
+- _block_destroy_helper.51
+- _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy9DashBoard26BackgroundGlassCoordinator33_2F69B94F231272623535798A4DF99280LLC_G
+- _get_witness_table 10CAFCombine11CAFObservedRzSo18CAFObservableCacheRz10ObservableAaBP_8ObservedQZRszlSo6CAFCarCAaBHpyHC.58
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy9DashBoard033CloseButtonFocusEffectCoordinatorF033_73D3EAFCCDEF5FB059F5819ABDB3422BLLVGAA022_EnvironmentKeyWritingF0VySbGGAA0E0HPAjaOHPyHC_AmA0eF0HPyHCHC.240
+- _get_witness_table 7SwiftUI5GroupVyAA4ViewPAAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQOyAA15ModifiedContentVyAA5ColorVAA01_kI8ModifierVyAA03AnyI0VGG_ARQo_SgGAaDHPAvaDHpqd0__AaDHD3_AUHO_HC_HC.17
+- _objc_msgSend$_generateOrderedAppItems
+- _objc_msgSend$_setCornerMaskImageIfNecessaryForPrimaryDisplayConfiguration:
+- _objc_msgSend$_updateAudioButtonSizeConstraints
+- _objc_msgSend$_updateCommunicationButtonSizeConstraints
+- _objc_msgSend$_updateNavigationButtonSizeConstraints
+- _objc_msgSend$_updateOtherButtonSizeConstraints
+- _objc_msgSend$createWidgetLayoutDataProviderForVehicleID:viewAreas:
+- _objc_msgSend$dropShadowView
+- _objc_msgSend$initWithAppLink:
+- _objc_msgSend$initWithBundleIdentifier:category:active:
+- _objc_msgSend$initWithVehicleID:iconLayoutService:viewAreas:
+- _objc_msgSend$markedSafe
+- _objc_msgSend$minusSet:
+- _objc_msgSend$setDropShadowView:
+- _objc_msgSend$setOrderedAppItems:
+- _symbolic So10CAFAppLinkC
+- _symbolic So21CPUIDimmingEffectViewC
+- _symbolic So23CAFSymbolImageWithColorC
+- _symbolic _____ 9DashBoard15BackgroundGlass33_2F69B94F231272623535798A4DF99280LLV
+- _symbolic _____ 9DashBoard26BackgroundGlassCoordinator33_2F69B94F231272623535798A4DF99280LLC
+- _symbolic _____ 9DashBoard35DriveModeThemeConfigurationOverrideV10CodingKeys33_8E11141C46C850AB2783A04DF7234313LLO
+- _symbolic _____Sg 13CarAssetUtils22CAUAssetLibraryManagerC
+- _symbolic _____Sg 9DashBoard25DBDriveModeCommandHandlerV
+- _symbolic _____Sg 9DashBoard34DriveModeThemeConfigurationManagerC
+- _symbolic _____Sg_Sbt 14CarPlayAssetUI19RequestContentModelO
+- _symbolic _____y_____G 7SwiftUI11EnvironmentV 9DashBoard26BackgroundGlassCoordinator33_2F69B94F231272623535798A4DF99280LLC
+- _symbolic _____y_____G 7SwiftUI21_ContentShapeModifierV AA03AnyD0V
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9DashBoard35DriveModeThemeConfigurationOverrideV10CodingKeys33_8E11141C46C850AB2783A04DF7234313LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9DashBoard35DriveModeThemeConfigurationOverrideV10CodingKeys33_8E11141C46C850AB2783A04DF7234313LLO
+- _symbolic _____y_____Sg_Sbt_____G 7Combine12AnyPublisherV 14CarPlayAssetUI19RequestContentModelO s5NeverO
+- _symbolic _____y______Sbt_____G 7Combine12AnyPublisherV So16CAFChargingStateV s5NeverO
+- _symbolic _____y___________Qo_ 7SwiftUI4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO 9DashBoard15BackgroundGlass33_2F69B94F231272623535798A4DF99280LLV AH0iJ11CoordinatorAJLLC
+- _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV AA5ColorV AA01_D13ShapeModifierV AA03AnyF0V
+- _symbolic _____y______ySo13CAFDriveStateC_____GSSG 7Combine10PublishersO10CompactMapV AA12AnyPublisherV s5NeverO
+- _symbolic _____y______y_____Sg_Sbt_____GSo9NSRunLoopCG 7Combine10PublishersO8DebounceV AA12AnyPublisherV 14CarPlayAssetUI19RequestContentModelO s5NeverO
+- _symbolic _____y______y_____Sg_____G_____y_ABySbAEGGG 7Combine10PublishersO0A6LatestV AA12AnyPublisherV 14CarPlayAssetUI19RequestContentModelO s5NeverO AC15MakeConnectableV
+- _symbolic _____y______y______Sbt_____GG 7Combine10PublishersO6FilterV AA12AnyPublisherV So16CAFChargingStateV s5NeverO
+- _symbolic _____y______y__________G_____y_ABySbADGGG 7Combine10PublishersO0A6LatestV AA12AnyPublisherV So16CAFChargingStateV s5NeverO AC15MakeConnectableV
+- _symbolic _____y______y______ySo13CAFDriveStateC_____GSSGG 7Combine10PublishersO16RemoveDuplicatesV AC10CompactMapV AA12AnyPublisherV s5NeverO
+- _symbolic _____y______y______y_____Sg_Sbt_____GSo9NSRunLoopCGG 7Combine10PublishersO6FilterV AC8DebounceV AA12AnyPublisherV 14CarPlayAssetUI19RequestContentModelO s5NeverO
+- _symbolic _____y______y______y______Sbt_____GGADG 7Combine10PublishersO3MapV AC6FilterV AA12AnyPublisherV So16CAFChargingStateV s5NeverO
+- _symbolic _____y______y______y______Sbt_____GGSbG 7Combine10PublishersO3MapV AC6FilterV AA12AnyPublisherV So16CAFChargingStateV s5NeverO
+- _symbolic _____y______y______y______y_____Sg_Sbt_____GSo9NSRunLoopCGGAFG 7Combine10PublishersO3MapV AC6FilterV AC8DebounceV AA12AnyPublisherV 14CarPlayAssetUI19RequestContentModelO s5NeverO
+- _symbolic _____y______y______y______y______Sbt_____GGSbGG 7Combine10PublishersO16RemoveDuplicatesV AC3MapV AC6FilterV AA12AnyPublisherV So16CAFChargingStateV s5NeverO
+- _symbolic _____y______y______y______y______y_____Sg_Sbt_____GSo9NSRunLoopCGGAGGG 7Combine10PublishersO16RemoveDuplicatesV AC3MapV AC6FilterV AC8DebounceV AA12AnyPublisherV 14CarPlayAssetUI19RequestContentModelO s5NeverO
+- _symbolic _____y_____y___________Qo_G 7SwiftUI14_UIHostingViewC AA0D0PAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO 9DashBoard15BackgroundGlass33_2F69B94F231272623535798A4DF99280LLV AJ0jK11CoordinatorALLLC
+- _symbolic _____y_____y__________y_____GG_ADQo_ 7SwiftUI4ViewPAAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA5ColorV AA01_jH8ModifierV AA03AnyH0V
+- _symbolic _____y_____y__________y_____GG_ADQo_Sg 7SwiftUI4ViewPAAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA5ColorV AA01_jH8ModifierV AA03AnyH0V
+- _symbolic _____y_____y_____y__________y_____GG_AEQo_SgG 7SwiftUI5GroupV AA4ViewPAAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA5ColorV AA01_kI8ModifierV AA03AnyI0V
+- _type_layout_string 9DashBoard15BackgroundGlass33_2F69B94F231272623535798A4DF99280LLV
+CStrings:
++ "!\xb1"
++ "%s assets=%@ topStatusBarOppositeDriverAligned=%@"
++ "%s deferring TopBar creation until featureConfiguration resolves"
++ "%s wirelessChargerPriorities=%s"
++ "%s: %@ added, %@ removed, %@ changed%s"
++ "%s: AppLink order changed, requesting library refresh."
++ "%s: Received changing %@"
++ "%s: snapshot identical to previous"
++ "%{public}@ wallpaper became ready"
++ ", order changed"
++ "Adding charging widget from DCA zones"
++ "Bad payload for driveModeDynamicAssignmentChange"
++ "Cluster visible changed to %{bool,public}d"
++ "DBAssetLibrary slimAssetLibrary first available"
++ "DBAssetLibrary: No asset library available for wallpaper readiness check"
++ "DBAssetLibrary: wallpaper_readiness_option_enabled = %{bool}d"
++ "DBWallpaperRootViewController: Updating wallpaper readiness enabled from %{public}@ to %{public}@"
++ "DashBoard.DBAppDockSlot"
++ "DashBoard.DBIdentifiableLeafIcon"
++ "DriveModeThemeManager: Asset library loaded, updating feature flag to %{bool}d"
++ "DriveModeThemeManager: Drive mode theme association is disabled, returning nil theme data"
++ "DriveModeThemeManager: Handle DriveModeChange change %{public}s."
++ "DriveModeThemeManager: Initialized"
++ "DriveModeThemeManager: Resolved layout %s for drive mode %s"
++ "DriveModeThemeManager: Updated dynamic assignments with %ld assignments"
++ "Empty drive mode string in dynamic assignment mapping"
++ "Empty layout ID string in dynamic assignment mapping for drive mode '%{public}s'"
++ "Failed to seed default drive mode theme linked state: %s"
++ "Ignoring AppLink bundle identifier in dock because priority apps are kept in dock."
++ "Missing driveModeToLayoutIdAssignments in driveModeDynamicAssignmentChange payload: %s"
++ "No persisted drive mode theme linked state; using package default %{bool,public}d"
++ "Prioritized other apps: %@"
++ "Received default drive mode: %s"
++ "Received drive mode to layout ID assignments from Lua: %s"
++ "Refusing to return widget state without viewAreas for vehicle ID: %{public}s"
++ "Refusing to set widget state smaller than viewArea requires (state: %{public}ldx%{public}ld, required: %{public}ldx%{public}ld) for vehicle ID: %{public}s"
++ "Removing charging widget from DCA zones"
++ "Resolved app dock items: %@"
++ "Resolved communication app dock item to AppLink %@"
++ "Seeding drive mode theme linked state from package default: %{bool,public}d"
++ "Setting up drive mode observation using provided publisher"
++ "Skipping default widget state load: no view areas yet for vehicle ID: %{public}s"
++ "Skipping setting identical widget state for vehicle ID: %{public}s from source: %{public}s"
++ "Unable to process layout update for layout: %s"
++ "Updated feature enabled flag to %{bool}d"
++ "[DBRequestContentPunchThroughManager] Registering for service: %@"
++ "[DBRequestContentPunchThroughManager] _updatePunchThroughIfNecessary: Dismissing PT zone=%{public}@: %@ (on=%d, url=%@)"
++ "[DBRequestContentPunchThroughManager] _updatePunchThroughIfNecessary: Received ASC ON zone=%{public}@: %@"
++ "[DBRequestContentPunchThroughManager] _updatePunchThroughIfNecessary: Requesting PT %@ on zone %@."
++ "[DBRequestContentPunchThroughManager] _updatePunchThroughIfNecessary: assets not ready for %@ on zone %@; awaiting assetLibraryUpdated"
++ "[DBRequestContentPunchThroughManager] _updateRequestContentForDismissedPT: No matching active service found for PT: %@ on zone: %@."
++ "[DBRequestContentPunchThroughManager] _updateRequestContentForDismissedPT: Setting RequestTemporaryContent OFF: %@ on zone: %@."
++ "[DBRequestContentPunchThroughManager] _updateRequestContentForDismissedPT: iOS dismissing PT %@ on zone %@."
++ "[DBRequestContentPunchThroughManager] _updateRequestContentForPresentedPT: Not setting RequestTemporaryContent. PT is already visible: %@ on zone: %@."
++ "[DBRequestContentPunchThroughManager] _updateRequestContentForPresentedPT: Sending TemporaryContentChanged command ON on %@: %@ url: %@."
++ "[DBRequestContentPunchThroughManager] _updateRequestContentForPresentedPT: Setting RequestTemporaryContent ON on %@: %@ url: %@."
++ "[DBRequestContentPunchThroughManager] _updateRequestContentForPresentedPT: Timer expired, clearing suppression for zone %@. Re-evaluating service state."
++ "[DBRequestContentPunchThroughManager] assetLibraryUpdated: replaying services"
++ "[DBRequestContentPunchThroughManager] serviceDidFinishGroupUpdate: Processing OEM change zone=%{public}@ on=%d url=%@"
++ "[DBRequestContentPunchThroughManager] serviceDidFinishGroupUpdate: Suppressed during iOS write zone=%{public}@"
++ "[SplitContent] didSetViewArea: re-derived theme systemUILayout. primaryContentFrame=%{public}@ primaryContentSafeAreaInsets={%.0f,%.0f,%.0f,%.0f}"
++ "appLinkManager(_:didChangeAppLinks:)"
++ "appLinkManagerDidChangeAppLinkOrder(_:)"
++ "assetLibraryUpdated: no AppLinks tracked, nothing to refresh"
++ "assetLibraryUpdated: refreshing %@ AppLink icon(s)"
++ "broadcastWirelessChargerStatuses()"
++ "driveModeToLayoutIdAssignments"
++ "init(leafIdentifier:applicationBundleID:)"
++ "isDriveModeThemeAssociationEnabled: feature flag is disabled"
++ "wirelessChargerEntriesByRelativePriority"
+- "!\xc1"
+- "%s: notifying observers not needed"
+- "%s: notifying observers. %@ applink(s) added, %@ applink(s) removed"
+- "(BackgroundGlassCoordinator in _2F69B94F231272623535798A4DF99280)"
+- "B32@?0@\"DBApplication\"8Q16^B24"
+- "Campo"
+- "DBRequestContentPunchThroughManager: registering for service: %@"
+- "IntelligenceFlow"
+- "Main screen is requesting corner masks."
+- "Received default drive mode string: %s"
+- "Setting up CAF default drive mode observation using provided carObservable"
+- "Unable to process lauyout update for layout: %s"
+- "_updatePunchThroughIfNecessary: Dismissing PT zone=%{public}@: %@ (on=%d, url=%@)"
+- "_updatePunchThroughIfNecessary: Received ASC ON zone=%{public}@: %@"
+- "_updatePunchThroughIfNecessary: Requesting PT %@ on zone %@."
+- "_updatePunchThroughIfNecessary: assets not ready for %@ on zone %@; awaiting assetLibraryUpdated"
+- "_updateRequestContentForDismissedPT: No matching active service found for PT: %@ on zone: %@."
+- "_updateRequestContentForDismissedPT: Setting RequestTemporaryContent OFF: %@ on zone: %@."
+- "_updateRequestContentForDismissedPT: iOS dismissing PT %@ on zone %@."
+- "_updateRequestContentForPresentedPT: Not setting RequestTemporaryContent. PT is already visible: %@ on zone: %@."
+- "_updateRequestContentForPresentedPT: Setting RequestTemporaryContent ON on %@: %@."
+- "_updateRequestContentForPresentedPT: Suppressing observer callbacks for zone %@."
+- "_updateRequestContentForPresentedPT: Timer expired, clearing suppression for zone %@. Re-evaluating service state."
+- "assetLibraryUpdated: replaying services"
+- "didUpdateOn: Processing OEM change zone=%{public}@ on=%d"
+- "didUpdateOn: Suppressed during iOS write zone=%{public}@ on=%d"
+- "didUpdateTemporaryContentURL: Processing OEM change zone=%{public}@: %@"
+- "didUpdateTemporaryContentURL: Suppressed during iOS write zone=%{public}@: %@"
+- "isDriveModeThemeAssociationEnabled: assetLibraryManager or assetLibrary is nil"
+- "isDriveModeThemeAssociationEnabled: feature flag is disabled in settingsUIConfiguration"
+- "isDriveModeThemeAssociationEnabled: settingsUIConfiguration is nil"
+- "prioritized app. index=%{public}ld, id=%{private}@"
+- "will prioritize some apps in dock."
+
+```

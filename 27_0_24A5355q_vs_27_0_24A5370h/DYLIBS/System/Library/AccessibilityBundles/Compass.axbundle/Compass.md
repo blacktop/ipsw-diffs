@@ -1,0 +1,93 @@
+## Compass
+
+> `/System/Library/AccessibilityBundles/Compass.axbundle/Compass`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x1420 sha256:914d6ffe70786d7d15610500627629e2083b9b223260689e5c51b9727e707215
+-  __TEXT.__objc_methlist: 0x194 sha256:f37bf55f84dc4d8c2689161da7d8cf2a91f9998d43b09c7cff5f8ed5f59b0062
++3039.1.0.0.0
++  __TEXT.__text: 0x141c sha256:a6b09fa6a1d96572241766894d56d21f2ac1710da73b8aabd0805ffbf129f132
++  __TEXT.__objc_methlist: 0x194 sha256:3abdb24499b54da6117b13db6d1ec7d09935ff7a64c4cedc6ecd0fc529286420
+   __TEXT.__cstring: 0x34f sha256:d9489a8353d14dab8ac25bb5a4c1723a974a208b6c66b885a9028cbdc366ad0a
+-  __TEXT.__unwind_info: 0xb8 sha256:fdce544f9c6338e36f4dcb6c2dbc88f0f2dbdfe7c83ce082563fee5cf9d4be13
++  __TEXT.__unwind_info: 0xb8 sha256:df5c07909c6b89f5c5c53184c4f0b943d35c527185a57c03279854903687e6df
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x40 sha256:684e1a7fe6dd8a296690459a30d3ba3c37f0979f4f30cd1a95740f50984f044f
+-  __DATA_CONST.__objc_classlist: 0x40 sha256:f53ae22d2eba3869c666946c5874b93e733d97d86d014a2d1bf8f198b60fed24
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:ccef24504a30260b439e68b6e9baa5e72e97474e2f1e2aa314e3aad735991c33
++  __DATA_CONST.__const: 0x40 sha256:d06a53c4dd259f160260fb962fded940962df66ec8f198f0569f5fc506eb6e07
++  __DATA_CONST.__objc_classlist: 0x40 sha256:6039b27d81ac4fdb34d9e1159f9654a489de58ad1228ac18ea880214b974f20d
++  __DATA_CONST.__objc_catlist: 0x8 sha256:b1c2ba1ec8d15afd0e2da661c9b402090ae5fe16a6965c8fbbf6087c1b0f32d9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x180 sha256:d0409173733916b38ba920ab22f52d45f0f517edab760033d4bf671f65f6d823
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:599b7414a7f52a08ea4854a6a9820f2bcd3d2c4d7ca2fdfc9027bb0593a9b90b
+-  __DATA_CONST.__got: 0x60 sha256:b94d15af66379c4a9e91ca1eb6d62c1e55b17990c02c70b7194b8858d6e96c9c
+-  __AUTH_CONST.__const: 0x60 sha256:be854c02eef341376a380297dcec9e07bdf1fea3d36524ae6e51f9064a523bc3
+-  __AUTH_CONST.__cfstring: 0x520 sha256:6ba188729d8c97e1fca7989f897e43dc586ade1bf2a24ebe31c9b0e6410ed2c4
+-  __AUTH_CONST.__objc_const: 0x4e8 sha256:12ecf53fb5e999f297ee1b67fb579b6142cae46f2c2a4ea25c5a1a886ee08815
++  __DATA_CONST.__objc_selrefs: 0x180 sha256:9fc72d9638a940662eeb7a76120fa4c1daba10beee360bce881b7df0f1e3eaf4
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:291cf643a86ce24be49b6db053a2b2e07bb215508743698d6b52d1a4e60c4feb
++  __DATA_CONST.__got: 0x60 sha256:3a6aac9545d973fa25f0b34687e9504802c86b2c520f87f097e5c7205974911e
++  __AUTH_CONST.__const: 0x60 sha256:039e0454de195826811291c1485c968cb6c2e01d72bf6e40e41507aa363df66c
++  __AUTH_CONST.__cfstring: 0x520 sha256:ec75c1d9306c2bedd10404e5175313eea2301d5ad9900384271a647f385eee64
++  __AUTH_CONST.__objc_const: 0x4e8 sha256:007fbd4d6e5f63950245799495e7f9b321430d5166a23fb983caeb1cae785029
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x280 sha256:56c3b9bec66a1417767d5af16fd135a4e9901ba9016e84e72a10f9c66233088c
++  __AUTH.__objc_data: 0x280 sha256:f8f954116001cb12596d6ebb410c1d23f412fce271bc867201cdd0526da5dbe4
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+   __DATA.__data: 0x8 sha256:e77817b649821c634355a917817c1224a360514b1244fe09e832bac4e8ea4440
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A8D392E5-6884-307B-AD65-6501FD57AE2C
++  UUID: A5AB1973-3D4E-35E7-84E3-EEBAB835188C
+   Functions: 33
+   Symbols:   197
+   CStrings:  90
+Symbols:
++ ___block_literal_global.357
++ ___block_literal_global.366
+- ___block_literal_global.351
+- ___block_literal_global.360
+Functions:
+~ +[AXCompassGlue accessibilityInitializeBundle] : sha256 47b84f00460c36b28d5a82d71b31022c4a7f874d73c340f3d711ca5fa668d660 -> a522ffd9feb9e45eb46fa29ea0cf0f276317b10e03f3559c1c3d7420d4c7d401
+~ ___46+[AXCompassGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 d37209abc31ab9d03c2c042191600bdebf0f463718b00fb7e6d398b66b925166 -> 6510864ed1aacbfce45d9161c4a9fea4acdac0e6d3f484693f6bd2906601ab85
+~ ___46+[AXCompassGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 7d4cafe1e5fef2ada8575c080fbb58bc4604d3c3ca9fd62e18ba4ebc3c1ea170 -> 3212ed46f80e68f967478980484ebe967b3651702e336e4d18fcbc7b8f7bb528
+~ _accessibilityLocalizedString : sha256 a110ef8c7a027f08f862a5f164cf4b6455e4691f36c861df6ec0ecf65e46a315 -> f4d53031c652b6d5a0f1559b35818edc7c658bf7557d874c1b8d086915bf19ea
+~ _axCompassController : sha256 2197729968a4827ca1688b92d605590bd53773b076cfcfcb2699b4d47e82f21b -> a239dc2ed38e97120a5988055fd172ee6d611d2db2d7495ef8f2bbfe04fb5701
+~ _axCompassPageViewController : sha256 7bceee3acc4d0a83a3e9f07369bad71056f1afb02587de923d507fc6b16db1e8 -> 85d9b846232831a01a1f9f2ec01139b228fea43640cf51a9028e98990317c13e
+~ _axLevelPageViewController : sha256 9f165138e6c48e78f036d6b644ff7323f83bfc9717ead3b5e1c57bca8e466310 -> b1d39bae40a79bdbd601afa73eb2c601e85b2aca75590d610c9393e4f1786edb
+~ +[CompassPageViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 e087701b26b4fc5c38c7caf3a08b0e45d41ea5ac9a493c5a6459d97d911cad11 -> c77d4feb2e0856fd5931bb22ec034005c4a38b1b536ad94dd488f32673273dbc
+~ +[CompassPageViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 4f3a3cec9f01c36814f0d7eda8dbb39825daefe592b0bd6ce045f94505604a7e -> 2312e73a3b777c8d9f8ed5e76c939b83c6b1a0d5e538cb86fd197d0287c2fb2d
+~ +[CompassPageViewControllerAccessibility _accessibilityPerformValidations:] : sha256 c8acbf5958e9993ee4879596db63caa768ad114b1f997b01aa796084f1fdc02d -> 693eed17e4454c74ac02801ce8886e8a3648ff8f97bf724c333dde8d8a6214bd
+~ -[CompassPageViewControllerAccessibility _axAnnounceDegreesIfNeeded:] : sha256 caac68ee4ab4ef27531c72d072babca6eb437fc5c2bfe822dc08e7e18a8803e6 -> 1e0865137ae739bdab1b125d2db1afb2e4d08e55a0b9e6d3248407d08be4140e
+~ -[CompassPageViewControllerAccessibility init] : sha256 59e4c42f1f0d6db65521c0d9ff5b4860af1a9c065ba2028ff81fc3ef201bca4c -> f50bbed9aabd3b136116b573e6a3a931ffa77d20180f4f105000d932eb1d70da
+~ -[CompassPageViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 b01da54008bb2a97a6bcdfd9dc5cc2519144217333346ddc22e51436722e7733 -> 753c3ced11a1daf614f8bff672ce306072d517c44874f52b95c0951c8615d6c4
+~ -[CompassPageViewControllerAccessibility _updateDegreesLabel:] : sha256 49983f6c728c0c8d31bb06bd16b6b24375e6de1fc22286c686174af93296d2a5 -> c2902aa35852a0b055972d4d69118685ef854d8014d23e49d0ad0b4037814495
+~ -[CompassPageViewControllerAccessibility setCrosshairLevelForData:] : sha256 9fb444c6413103b27511a969116b227484016a77a0868e201e94f093b1b2d9e2 -> f32460ec16da5d74308fb1049ba0a9276943b371e65570ac48f72048dec28f2c
+~ +[UIPageControlCompassAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 5b0c1c02701a523ef1d84146e17f788d89723a3298d7f493555ee6a30ff189da -> fdaca2296b322aea145c4515d182b03cff47720a963c025dd75a7eb4a4e7712e
+~ +[UIPageControlCompassAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 22422be29ab6898c8ef58b1e5dcf5497abffeb9eab1da3fbe3482b2e2366d28d -> 9929f6b24560863e8b7177382a2b491aa5dc71cd03ff6550e75e86be201ddb75
+~ -[UIPageControlCompassAccessibility _axNumberOfPages] : sha256 7f3a8804196512bd37e4e429f4c8f67e0a464cc641f8ae477e20ff7bff0b2954 -> a6a181a56649f25990242945a978a2c4a8347390083b62c6ad0421fbe4361c9d
+~ -[UIPageControlCompassAccessibility _axCurrentPage] : sha256 57095f30eb21250be7a0b0450893e7c2a24d631101e25bbff0e14bbd39aa9b7f -> a03979dcb9a867b6bf0f5cb057a630ed4561cf65cfe117c084d6aa0e31622084
+~ -[UIPageControlCompassAccessibility accessibilityValue] : sha256 188478049e4f8a406c5a9a7182d1fde53caa131d1aeb0e7d88480b0a92c8c5f7 -> 59594b3ab6d43f25db63355aba66b1379b9ab356fc84d49cefd7a2864fe569a9
+~ -[UIApplication(CompassAccessibility) accessibilityLabel] : sha256 74b3ef9b5308c0152b725bceffc20e8a5bd3d301c18abcd4bf6b9317ba982242 -> a78b73b41712cfebecffd146000cefaf8828b174fb320a45dde8724b08daaa52
+~ +[UIViewCompassAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 f947187fc483c321dd1f804b89e0f95fd925a57dde3e002b3c1a3f4c899ac7da -> 5a9170cce722ff3e1c4074436d351fb34beacedde4adcd2ab989f233c8a1e9e8
+~ +[UIViewCompassAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 4ed6150538fd6de413c10a56e83e50187d034cb449f53fa3997b94f785889e53 -> 6852c9c3519ba04a36b2c615953c410781f65ab29fb2d55183bcf4db43503f11
+~ +[UIViewCompassAccessibility _accessibilityPerformValidations:] : sha256 770883433c796a2d21ee92f5d95f694d35c008848177a493945cf97e759c9eef -> 5aaa8ea4a6a3aecd379bf0bfbfffb3485834edf1190cf55ff6558366083f0433
+~ -[UIViewCompassAccessibility isAccessibilityElement] : sha256 b86c87627cdf2096c4679d3e4936239b0b3d3ca0ba155e20034aed537a4245a5 -> d0507ef2ca1a6b4e8558be1d037f5312b7663b02f813986614739548acbbc14b
+~ -[UIViewCompassAccessibility _accessibilitySupplementaryFooterViews] : sha256 37c57221f0d155312135d66ca7c6b36d0a42754fa1b70c74cd6bb3cd47ca073f -> 01c6a09fa1c89256a98e67335fb4cac5fefc2ba81f973ffd555fad737e3d4ca1
+~ -[UIViewCompassAccessibility _accessibilityHitTest:withEvent:] : 400 -> 396
+~ -[UIViewCompassAccessibility accessibilityLabel] : sha256 7604e4d3aeb3ad92e622214d080de1fe4c42f8938e2f0232893b743d42df7088 -> dec3508d109e43dc712c1b848a2862436f8e6b1e6cf55cdff918205e00b831a8
+~ -[UIViewCompassAccessibility _accessibilityScrollStatus] : sha256 35b33a792fec0f14a70ad07e83e4da1aeb48ee82c3917361c3609aa9fae3a65b -> c0639b3e7fb333c0e99e96c25ea8820f25bc0d8fb2b10fb9663088bdde887b5a
+~ -[UIViewCompassAccessibility accessibilityHint] : sha256 121618915efbd8e59e7423f83d55332fbf5fb762595da84043a03589b68b7a45 -> 7574235db3249ec45436df3bd2c14150c39224be0279c2cd1a722c490d4faea4
+~ -[UIViewCompassAccessibility accessibilityScroll:] : sha256 09a3a5e252531273bbf1bfea8126abfbaee7cdd371b1646ad7573bd3ce9952ba -> e8ab9fbd522be2bbd6fe589a642845a9fee751fa59b30463b45ca5285f680547
+
+```
